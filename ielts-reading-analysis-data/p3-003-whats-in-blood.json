@@ -1,0 +1,1878 @@
+{
+  "id": "p3-003-whats-in-blood",
+  "catalogueId": "p3-003",
+  "catalogueIds": [
+    "p3-003"
+  ],
+  "passage": 3,
+  "title": "What’s in Blood?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "viii",
+    "vii",
+    "i",
+    "v",
+    "iii",
+    "x",
+    "iv",
+    "spleen and liver",
+    "sufficient numbers",
+    "regulation",
+    "antigens",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "viii — The Principal part that adds some colour",
+      "answerKey": "viii — The Principal part that adds some colour",
+      "type": "Matching Headings",
+      "prompt": "Questions 27–33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Headings 要抓整段主題，不能只抓一個例子。黃金手冊提醒，heading 題要分清主題、例子、細節和結論，尤其要避免某個 heading 只符合段內局部內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 27 — Paragraph B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By volume, half of blood is the liquid part, called plasma.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按體積計算，血液有一半是液體部分，稱為 plasma。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are produced within the marrow of bones, principally the larger ones, and live for about four months before they fall inactive, to be then reabsorbed by the spleen and liver, with waste products absorbed into the urine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們在骨髓中產生，主要是在較大的骨頭內；大約活四個月後失去活性，然後被 spleen and liver重新吸收，廢物則進入尿液。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段先講 blood 的比例組成，再講某一類細胞的生命週期。中間句子補充，這些細胞就是 red blood cells，而且是 specialised components 中的 main one。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的定位詞是：● Principal part● adds some colour原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rest comprises specialised components, the main one being red blood cells…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其餘部分由 specialised components 組成，其中主要的是 red blood cells。"
+            },
+            {
+              "kind": "quote",
+              "text": "“He... also give blood its colour…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們也令血液呈現顏色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These transport oxygen molecules throughout the body, and also give blood its colour (from the hemoglobin protein within, which turns red when combined with oxygen).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些細胞把 oxygen molecules 運送到全身，也令血液呈現顏色；這種顏色來自內部的hemoglobin protein，它和 oxygen 結合後會變紅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 中的 “Principal part” 對應 “the main one being red blood cells”。“adds some colour”對應 “give blood its colour”。雖然 plasma 佔體積一半，但本段談 specialised components 時， red blood cells 是 main one，而且 heading 明確提到 colour，這把答案鎖定在 red blood cells。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 如 ix “Bone marrow and blood” 也有吸引力，因為 bone marrow 出現在段末；可是bone marrow 只是 red blood cells 的生產位置，不足以概括整段。整段主角是 red blood cells 的功能和顏色來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 28 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vii — A shorter life, but just as important"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This contrasts with the other main cells of human blood: the white blood cells, technically known as leukocytes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和人類血液中的另一種主要細胞形成對比：white blood cells，技術名稱是 leukocytes。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When one of these enters the body, the white blood cells quickly determine its nature, then, after mustering sufficient numbers of a specific type (the period in which you are sick), they launch themselves into the fight, enveloping each individual invasive cell, and breaking it down (leading to recovery).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當其中一類入侵者進入身體時，white blood cells 會快速判斷其性質，然後在聚集足夠數量的特定類型後，也就是你生病的期間，投入戰鬥，包圍每一個入侵細胞並分解它，最終帶來康復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段首說 “This contrasts”，表示和上一段 red blood cells 作對比。中間提到 white blood cells active only for three or four days，但 essential in defending the body against infections。首尾句合起來看，段落功能是：雖然 white blood cells 壽命更短，仍在免疫防禦上十分重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的定位詞是：● shorter life● just as important原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“they are active only for three or four days”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“yet they are essential in defending the body against infections.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly produced in the bone marrow, they are active only for three or four days, yet they are essential in defending the body against infections.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們同樣在 bone marrow 中產生，只活躍三四天；然而，它們對 defending the body against infections 來說是 essential。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “active only for three or four days” → “A shorter life”● “essential” → “just as important”● “defending the body against infections” → 說明重要性所在Heading vii 的 but 很重要，因為它捕捉了段落內的對比：壽命短，但功能重要。這也解釋為何heading ix “Bone marrow and blood” 不夠好。bone marrow 有出現，但不是段落重點；white blood cells 的 short active life 和 immune function 才是主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 29 — Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：i — Not as big, but needing just enough"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That leaves the last main component of blood: platelets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就剩下血液最後一個主要成分：platelets。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If too low, excessive bleeding can occur, yet if too high, internal clotting may result, causing potentially catastrophic blockages in parts of the body and medical ailments we know as strokes, heart attacks, and embolisms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果數量太低，可能會出現 excessive bleeding；如果數量太高，則可能導致 internal clotting，造成身體部分位置的災難性阻塞，以及我們所知的 strokes、heart attacks 和 embolisms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接指出主角是 platelets。段末指出其數量太低或太高都會造成嚴重後果。中間說它們much smaller than red and white blood cells，也負責 clotting。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的定位詞是：● Not as big● needing just enough原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“they are much smaller than red and white blood cells”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“If too low… yet if too high…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their technical name is thrombocytes, and they are much smaller than red and white blood cells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們的技術名稱是 thrombocytes，而且比 red and white blood cells 小得多。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are several diseases related to the breakdown in the regulation of their numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有幾種疾病和它們數量 regulation 的失調有關。"
+            },
+            {
+              "kind": "label",
+              "text": "再接段末："
+            },
+            {
+              "kind": "quote",
+              "text": "“If too low, excessive bleeding can occur, yet if too high, internal clotting may result…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數量太低會造成過度出血；數量太高可能造成內部凝血。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “much smaller” → “Not as big”● “regulation of their numbers” + “too low / too high” → “needing just enough”● “platelets” → heading 沒直接說，但 whole paragraph 講 platelets Heading i 很精準，因為它同時抓住 platelets 的體積和數量平衡。Heading vi “An interesting treatment” 完全不合段落；Paragraph D 講的是 blood component，不是治療。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 i。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 30 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：v — Complicated identification"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blood’s complexity presents particular difficulties in the advent of emergency transfusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Blood 的複雜性在 emergency transfusions 發生時會帶來特別困難。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These can, however, be clustered together into groups which cause similar responses, creating some order.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些可以按會引起相似反應的方式聚合成不同 group，從而建立某種秩序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段在講 blood complexity 如何影響 transfusion，以及人們如何透過分類建立秩序。段中出現 30 recognised blood-group systems、hundreds of antigens、ABO system、Rhesus factor，明顯是 identification / classification 的複雜性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的定位詞是：● Complicated● identification原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blood’s complexity…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a thorough knowledge and classification of blood is essential…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“30 recognised blood-group systems, containing hundreds of antigens…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, if transfusions are to take place, a thorough knowledge and classification of blood is essential, yet with 30 recognised blood-group systems, containing hundreds of antigens, this presents quite a challenge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果要進行 transfusions，就必須對 blood 有 thorough knowledge and classification；可是，由於有 30 個 recognised blood-group systems，並包含數百種 antigens，這會帶來相當大的挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “thorough knowledge and classification” → “identification”● “quite a challenge” → “Complicated”● “30 recognised blood-group systems, containing hundreds of antigens” → 複雜性的原因Heading v 能覆蓋全段。ABO 和 Rhesus 只是例子；真正主題是 blood identification /classification 在 transfusion 中很複雜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 31 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii — Good, but not so quick"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the simplest system to avoid adverse transfusion reactions is for patients to receive their own blood – for example, in a series of blood donations in anticipation of an operation scheduled some months in advance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，避免 adverse transfusion reactions 的最簡單方法，是讓病人接受自己的血；例如在預計數月後進行手術前，預先進行一連串 blood donations。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both of these systems are obviously impractical in an emergency situation, which is why meticulous testing, documentation, and labeling of blood are necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩種方法在 emergency situation 中顯然不實際，因此 meticulous testing、documentation 和labeling of blood 是必要的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段首說 “simplest system”，接著說 second best system 是 cross-matching。段末指出兩者在emergency 中不實際。這段功能是說明：有些方法很好，但在急救情境下不夠快、不夠方便。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的定位詞是：● Good● not so quick原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the simplest system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the second best system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“obviously impractical in an emergency situation”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second best system is to undertake cross-matching, which involves simply mixing samples of the patients’ blood with the donors’, then checking microscopically for clumping – a key sign of incompatibility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二佳方法是進行 cross-matching，也就是把病人的血液樣本和捐血者的血液樣本混合，再用顯微鏡檢查是否出現 clumping；這是 incompatibility 的關鍵跡象。"
+            },
+            {
+              "kind": "label",
+              "text": "段末再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both of these systems are obviously impractical in an emergency situation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩種方法在 emergency situation 中顯然不實際。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “simplest system / second best system” → “Good”● “impractical in an emergency situation” → “not so quick”● own blood + cross-matching → 兩個安全但慢的方法Heading iii 比 x “Maintaining supplies” 更合適。Paragraph F 不在講 blood bank supplies，而是講transfusion matching methods 的實用限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 32 — Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：x — Maintaining supplies"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a true emergency, a blood bank is needed, with an array of various types of blood on hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在真正的 emergency 中，需要 blood bank，並且要備有一系列不同 types of blood。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the era of HIV and other insidious blood-borne diseases, potential donors are carefully screened and tested, and a period of about two months is recommended before successive whole blood donations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 HIV 和其他隱性的 blood-borne diseases 的時代，potential donors 會被 carefully screened and tested，而且 successive whole blood donations 之間建議相隔大約兩個月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 emergency 需要 blood bank 和 various types of blood on hand。中間說 blood donations must be a regular occurrence among a significant segment of the population。段末說 donor screening 和 donation interval。整段都在講如何維持安全可靠的血液供應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading x 的定位詞是：● Maintaining● supplies原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“blood bank is needed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“various types of blood on hand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blood donations must be a regular occurrence”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hence, blood donations must be a regular occurrence among a significant segment of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，blood donations 必須在相當一部分人口中成為 regular occurrence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說明要維持 blood bank，就要有規律的 donations。後文補充 developed world 和 less developed nations 的不同 donation sources，以及 donors 要 screened and tested。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “blood donations must be a regular occurrence” → “Maintaining supplies”● “blood bank… various types of blood on hand” → supplies 的需求● “volunteers / families or friends” → supplies 的來源所以答案是 x。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 33 — Paragraph H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iv — Two ideas see a wrong conclusion"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given the vital role which blood plays, it is strange to think that for almost 2000 years bloodletting was a widespread medical practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鑑於 blood 扮演 vital role，很難想像 bloodletting 竟然在近 2000 年間是一種 widespread medical practice。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the logic was there, it goes without saying that very few patients responded positively to such treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然當時看似有一套邏輯，但不用說，幾乎沒有 patients 對這種 treatment 有正面反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段首引入 bloodletting 這個歷史醫療做法。段末說它效果差。中間解釋兩個錯誤想法：第一，血帶有 humours，其 imbalance 造成 disease；第二，人們不知道 blood circulates，還以為血會 quickly created、quickly exhausted，然後 stagnate。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 的定位詞是：● Two ideas● wrong conclusion原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was based on the belief that blood carried ‘humours’…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, the fact that blood circulated around the body was unknown.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後得出 bloodletting was supposed to remove undesirable excess。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was based on the belief that blood carried ‘humours’, whose imbalances resulted in medical illnesses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種做法基於一個信念：血液帶有 “humours”，而 humours 的不平衡會導致疾病。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, the fact that blood circulated around the body was unknown.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，當時人們不知道 blood 會在身體內循環。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個 ideas 合起來，導向 bloodletting 的 wrong conclusion：放血可以移除 undesirable excess。Heading vi “An interesting treatment” 也有一點相關，但太寬泛，只說 treatment，沒有概括段中解釋錯誤理論的部分。Heading iv 更能覆蓋整段邏輯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iv。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "spleen and liver",
+      "answerKey": "spleen and liver",
+      "type": "Table Completion",
+      "prompt": "Question 34",
+      "translation": "red cells 死去或失去活性後，由甚麼處理？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： Blood Component: red cells Associated Fact: upon dying, dealt with by 34 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By volume, half of blood is the liquid part, called plasma.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按體積計算，血液有一半是液體部分，稱為 plasma。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are produced within the marrow of bones, principally the larger ones, and live for about four months before they fall inactive, to be then reabsorbed by the spleen and liver, with waste products absorbed into the urine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們在骨髓中產生，主要在較大的骨頭中；大約活四個月後失去活性，然後被 spleen and liver 重新吸收，廢物進入尿液。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 是 red blood cells 的介紹段，題目問 red cells dying 後被誰處理，答案就在段末。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● red cells● upon dying● dealt with原文沒有 “dying”，但有 “fall inactive”。原文沒有 “dealt with”，但有 “reabsorbed by”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are produced within the marrow of bones, principally the larger ones, and live for about four months before they fall inactive, to be then reabsorbed by the spleen and liver, with waste products absorbed into the urine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們在骨髓中產生，主要在較大的骨頭內；大約活四個月後失去活性，然後被脾臟和肝臟重新吸收，廢物則進入尿液。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “upon dying” = “fall inactive”● “dealt with by” = “reabsorbed by”● “red cells” = “red blood cells / erythrocytes”答案要填處理 red cells 的身體部位。原文是 “the spleen and liver”。字數限制為三個詞，填spleen and liver 最穩妥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 spleen and liver。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "sufficient numbers",
+      "answerKey": "sufficient numbers",
+      "type": "Table Completion",
+      "prompt": "Question 35",
+      "translation": "white cells 在攻擊 invaders 前，需要先有甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： Blood Component: white cells Associated Fact: require 35 ______ before attacking invaders"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This contrasts with the other main cells of human blood: the white blood cells, technically known as leukocytes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和人類血液中另一種主要細胞形成對比：white blood cells，技術名稱是 leukocytes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When one of these enters the body, the white blood cells quickly determine its nature, then, after mustering sufficient numbers of a specific type (the period in which you are sick), they launch themselves into the fight, enveloping each individual invasive cell, and breaking it down (leading to recovery).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當其中一種入侵者進入身體時，white blood cells 會迅速判斷它的性質，然後在聚集足夠數量的特定類型後，也就是你生病的期間，才投入戰鬥，包圍每個入侵細胞並分解它，最終帶來康復。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● white cells● before attacking● invaders原文對應：● “white blood cells”● “after mustering sufficient numbers”● “invader bacteria, virus, fungus, or parasite”● “launch themselves into the fight”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“after mustering sufficient numbers of a specific type…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在聚集足夠數量的某一特定類型後……題目說 “require ______ before attacking invaders”。原文說 white blood cells 先 determine nature，再 mustering sufficient numbers，然後 launch themselves into the fight。因此空格要填它們攻擊前需要達到的狀態： sufficient numbers"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “require” = “after mustering”● “before attacking invaders” = “then… launch themselves into the fight”● “invaders” = “bacteria, virus, fungus, or parasite”答案不可填 “a specific type”，因為題目問的是 require what before attacking；原文動作重點是聚集足夠數量。specific type 是哪一類 white blood cells 的補充資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 sufficient numbers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "regulation",
+      "answerKey": "regulation",
+      "type": "Table Completion",
+      "prompt": "Question 36",
+      "translation": "platelets 的數量需要小心甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： Blood Component: platelets Associated Fact: Their numbers need careful 36 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That leaves the last main component of blood: platelets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就剩下 blood 的最後一個主要 component：platelets。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If too low, excessive bleeding can occur, yet if too high, internal clotting may result, causing potentially catastrophic blockages in parts of the body and medical ailments we know as strokes, heart attacks, and embolisms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果數量太低，可能會出現 excessive bleeding；如果太高，可能引起 internal clotting，造成身體某些部分的災難性阻塞，以及 strokes、heart attacks 和 embolisms。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● platelets● numbers● careful原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are several diseases related to the breakdown in the regulation of their numbers.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are several diseases related to the breakdown in the regulation of their numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有幾種疾病和它們數量 regulation 的失調有關。"
+            },
+            {
+              "kind": "label",
+              "text": "後面一句解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“If too low, excessive bleeding can occur, yet if too high, internal clotting may result…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太低會導致過度出血，太高則可能導致內部凝血。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “need careful ______” 是對 “breakdown in the regulation of their numbers” 的概括。由於數量太低或太高都危險，所以需要 careful regulation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要來自原文，而且不超過三個詞。原文直接有： regulation所以答案是 regulation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "antigens",
+      "answerKey": "antigens",
+      "type": "Table Completion",
+      "prompt": "Question 37",
+      "translation": "哪一種和 blood 相關的成分有很多 varieties？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： Blood Component: 37 ______Associated Fact: Many varieties exist."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blood’s complexity presents particular difficulties in the advent of emergency transfusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Blood 的複雜性在 emergency transfusions 發生時帶來特別困難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These can, however, be clustered together into groups which cause similar responses, creating some order.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些可以按照會造成相似反應的方式聚合成 groups，從而建立某種秩序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是講 blood identification 的複雜性，尤其是 blood-group systems 和 antigens。題目說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Many varieties exist”，需要找原文中表示「很多種類」的血液相關項目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Many varieties● blood component● varieties exist原文中有兩個數量訊號：“30 recognised blood-group systems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hundreds of antigens”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另外 Rhesus factor “comprises scores of antigens”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, if transfusions are to take place, a thorough knowledge and classification of blood is essential, yet with 30 recognised blood-group systems, containing hundreds of antigens, this presents quite a challenge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果要進行 transfusions，就必須對 blood 有 thorough knowledge and classification；可是，由於有 30 個 recognised blood-group systems，當中包含數百種 antigens，這帶來相當大的挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "再看後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“On top of this is the Rhesus factor, which is not as simple as positive or negative (as most people think), but comprises scores of antigens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外還有 Rhesus factor；它不像大多數人以為的那樣只是 positive 或 negative，而包含數十種antigens。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目表格在 blood components 一欄填一個項目，associated fact 是 many varieties exist。原文最直接支援 “many varieties” 的是 antigens，因為它們有 hundreds / scores。blood-group systems也有 30 個，但題目用 “component” 欄，且原文多次說 antigens 有很多，所以答案更穩定是antigens。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 antigens。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Blood cross-matching can be done without special equipment.”",
+      "translation": "Blood cross-matching 可以不用 special equipment 完成。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the simplest system to avoid adverse transfusion reactions is for patients to receive their own blood – for example, in a series of blood donations in anticipation of an operation scheduled some months in advance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，避免 adverse transfusion reactions 的最簡單方法，是讓病人接受自己的血；例如在預計數月後手術前，預先進行一連串 blood donations。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both of these systems are obviously impractical in an emergency situation, which is why meticulous testing, documentation, and labeling of blood are necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩種方法在 emergency situation 中顯然不實際，因此 meticulous testing、documentation 和labeling of blood 是必要的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 講 transfusion safety methods，包括 own blood 和 cross-matching。題目提到cross-matching，所以目標段落就是 F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● cross-matching● without special equipment原文直接出現 “cross-matching”，所以定位很快："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second best system is to undertake cross-matching…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著要看它如何進行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second best system is to undertake cross-matching, which involves simply mixing samples of the patients’ blood with the donors’, then checking microscopically for clumping – a key sign of incompatibility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二佳方法是進行 cross-matching，也就是把病人的血液樣本和捐血者的血液樣本混合，再用顯微鏡檢查是否出現 clumping；這是 incompatibility 的關鍵跡象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “without special equipment”。原文說 “checking microscopically”，即用 microscope / 顯微鏡檢查。顯微鏡屬於專門設備；至少原文表明 cross-matching 不能只靠肉眼或簡單混合完成，還需要 microscopic checking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：● 題目：can be done without special equipment● 原文：requires checking microscopically● 結果：方向相反所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In poorer countries, family members often donate blood.”",
+      "translation": "在較貧窮國家，family members 經常捐血。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a true emergency, a blood bank is needed, with an array of various types of blood on hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在真正的 emergency 中，需要 blood bank，並要備有多種不同血型的血液。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the era of HIV and other insidious blood-borne diseases, potential donors are carefully screened and tested, and a period of about two months is recommended before successive whole blood donations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 HIV 和其他隱性的 blood-borne diseases 的時代，potential donors 會被 careful screening and testing，且 whole blood donations 之間建議相隔約兩個月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 blood supplies 和 donation sources。題目問 poorer countries 的 donors，應該在Paragraph G 找 developed / less developed 的對比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● poorer countries● family members● donate blood原文沒有 “poorer countries”，但有同義概念 “less developed nations”。原文沒有直接說 “family members”，但有 “families or friends”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the developed world, unpaid volunteers provide most of the blood for the community, whereas in less developed nations, families or friends are mostly involved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 developed world，unpaid volunteers 為 community 提供大部分血液；相對地，在 less developed nations，families or friends 大多參與其中。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “poorer countries” = “less developed nations”● “family members” = “families”● “often donate blood” = “are mostly involved”● “blood” = 前文 blood donations / blood bank context"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mostly involved” 表示大多由 families or friends 參與，和題目 “often” 方向一致。題目沒有說所有family members 都捐血，所以範圍沒有過度擴張。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Bleeding people was a painful process.”",
+      "translation": "替人放血是一個 painful process。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given the vital role which blood plays, it is strange to think that for almost 2000 years bloodletting was a widespread medical practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鑑於 blood 扮演 vital role，很難想像 bloodletting 竟然在近 2000 年間是一種 widespread medical practice。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the logic was there, it goes without saying that very few patients responded positively to such treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然當時看似有邏輯，但不用說，幾乎沒有 patients 對這種 treatment 有正面反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Bleeding people”，對應 Paragraph H 的 bloodletting。這段會提供 bloodletting 的背景、理論和效果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Bleeding people● painful process原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“bloodletting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bleeding a patient was supposed to remove…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但掃描 Paragraph H 時，沒有出現 painful、pain、hurt、suffering、uncomfortable 這類疼痛相關詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bleeding a patient was supposed to remove an undesirable excess of one of these.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "替病人放血，被認為可以移除其中某一種不受歡迎的過量 humours。"
+            },
+            {
+              "kind": "label",
+              "text": "這句只說 bloodletting 的目的。段末說："
+            },
+            {
+              "kind": "quote",
+              "text": "“very few patients responded positively to such treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少病人對這種治療有正面反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這只能證明 bloodletting 效果不好或病人反應不佳，不能直接證明過程是否 painful。題目要求判斷 pain，但原文沒有描述病人的疼痛感、過程是否痛苦、工具或操作方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：● 題目：bloodletting was painful● 原文：bloodletting was widespread、based on humours theory、few patients responded positively● 缺少資料：painfulness of the process因此答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -What’s in Blood_.pdf",
+    "sha256": "1b6facad86b8efdc4f060c55e6089a5028c494ebc10c5c96c8ee7f7f8f0e20a5",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，Paragraph A 先把 blood 定位為 living animals 裡最 specialised fluid，並強調它有 absolutely critical role。段落後半把 blood 和 life、health、personality、family 等文化含義連在一起，再指出它本身包含 proteins、sugars、ions、hormones、gases 和 cellular components。這段功能是總覽 blood 的象徵意義和複雜組成。題目已給 Paragraph A heading：ii Some attitudes to blood，正好對應這段的 cultural attitudes。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 第一、二句說血液按體積有一半是 plasma，其餘是 specialised components，其中主要的是 red blood cells。段末說 red blood cells 由 bone marrow 製造，約四個月後失去活性，然後被 spleen and liver reabsorbed。這段功能是介紹 red blood cells：它們運送 oxygen，也因hemoglobin 令血液呈紅色。看到 colour、oxygen、erythrocytes、spleen and liver 等詞，應回到這段。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 一開始用 “This contrasts with…” 轉到 white blood cells，也就是 leukocytes。段末說它們在辨認入侵者後，累積 sufficient numbers，再投入戰鬥，包圍並分解 invasive cells，最後帶來 recovery。這段功能是介紹 white blood cells 的短壽命和免疫功能。首尾句已經足以看出：它們只活三四天，但對防禦 infections 十分重要。Heading 題和 table 題都會用到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 第一、二句介紹最後一個主要 blood component：platelets，技術名稱是thrombocytes，比 red and white blood cells 小得多。段末說如果 platelet 數量太高，可能造成internal clotting，引起 strokes、heart attacks 和 embolisms。這段功能是介紹 platelets 的 clotting role 和數量 regulation。只看首尾句，可以看到它們體積較小，但數量不能太低也不能太高，剛好對應 heading “Not as big, but needing just enough”。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句指出 blood 的 complexity 為 emergency transfusions 帶來 particular difficulties。段末說 Rhesus factor 也不只可簡單分成 positive / negative，而包含 scores of antigens，但可按 similar responses cluster into groups。這段功能是講 transfusion 前的血液分類和compatibility 難題。30 recognised blood-group systems、hundreds of antigens、ABO system、Rhesus factor 都指向 complicated identification。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 第一、二句說避免 adverse transfusion reactions 的最簡單方法，是病人使用自己的血；第二佳方法是 cross-matching。段末指出這兩種方法在 emergency situation 中 obviously impractical，所以必須依靠 meticulous testing、documentation 和 labelling。這段功能是比較兩種理想但慢或不便的 transfusion 安全方法。看到 own blood、cross-matching、microscopically、emergency impractical 等詞，應定位到這段。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句說在 true emergency 中，需要 blood bank，並要有 various types of blood on hand。段末說在 HIV 和其他 blood-borne diseases 的時代，donors 要 carefully screened and tested，whole blood donations 之間建議相隔兩個月。這段功能是說明如何維持血液供應，包括donations、volunteers、families or friends、screening 和 donation interval。Heading “Maintaining supplies” 正好概括全段。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句說，鑑於 blood 的 vital role，bloodletting 曾流行近 2000 年是很奇怪的事。段末說雖然當時看似有邏輯，但很少 patients 對此有正面反應。這段功能是介紹 bloodletting 這種舊醫療做法，以及它背後兩個錯誤觀念：blood carrying humours 和 blood circulation unknown。看到 bloodletting、humours、stagnant、few patients responded positively 等詞，應回到這段。"
+      }
+    ]
+  }
+}

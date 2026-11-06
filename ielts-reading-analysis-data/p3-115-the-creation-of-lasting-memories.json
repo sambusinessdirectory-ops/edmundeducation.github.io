@@ -1,0 +1,1625 @@
+{
+  "id": "p3-115-the-creation-of-lasting-memories",
+  "catalogueId": "p3-115",
+  "catalogueIds": [
+    "p3-115"
+  ],
+  "passage": 3,
+  "title": "The creation of lasting memories",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "C",
+    "A",
+    "D",
+    "B",
+    "NOT GIVEN",
+    "YES",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "F",
+    "E",
+    "H",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A — injecting goldfish at different stages of the experiments.",
+      "answerKey": "A — injecting goldfish at different stages of the experiments.",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Bernard Agranoff 的實驗涉及甚麼。最強定位詞是 Bernard Agranoff 和 goldfish。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In pioneering studies using goldfish, Bernard Agranoff found that protein synthesis inhibitors injected after training caused the goldfish to forget what they had learned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在使用金魚的開創性研究中，Bernard Agranoff 發現，訓練後注射 protein synthesis inhibitors 會令金魚忘記牠們學過的內容。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The remarkable finding was that the fish learned the task completely normally, but forgot it within a few hours – that is, the protein synthesis inhibitors blocked memory consolidation, but did not influence short-term memory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人驚訝的發現是，金魚完全正常地學會任務，但幾小時內便忘記；也就是說，這些蛋白質合成抑制劑阻斷了記憶鞏固，卻沒有影響短期記憶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段主要講 goldfish、inhibitors、training，以及不同時間注射對記憶的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩個時間點："
+            },
+            {
+              "kind": "quote",
+              "text": "“injected after training”"
+            },
+            {
+              "kind": "quote",
+              "text": "“immediately before the fish were trained”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Agranoff 一次是在訓練後注射，另一次是在訓練前立即注射。題目 A 說 “injecting goldfish at different stages of the experiments”，正好概括這兩個不同階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說訓練金魚做不同任務，原文沒有說 different types of task。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說使用不同 treatment，但原文集中在 protein synthesis inhibitors，不是不同類型 treatment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說比較不同金魚表現，原文重點在注射時間與記憶結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — short and long-term memories are formed by separate processes.",
+      "answerKey": "C — short and long-term memories are formed by separate processes.",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 recent studies 的大部分發現暗示甚麼。定位詞是 short-term memory、long-term memory、recent studies / findings。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3 和 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is now extensive evidence that short-term memory is spared by many kinds of treatments, including electro-convulsive therapy (ECT), that block memory consolidation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有大量證據顯示，很多會阻斷記憶鞏固的處理，包括電痙攣治療 ECT，都不會破壞短期記憶。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contrary to the hypothesis put forward by Canadian psychologist Donald Hebb, in 1949, long-term memory does not require short-term memory, and vice versa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與加拿大心理學家 Donald Hebb 在 1949 年提出的假說相反：長期記憶不需要短期記憶，反過來也一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一套結論也很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such findings suggest that our experiences create parallel, and possibly independent stages of memory, each with a different life span.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現顯示，我們的經驗會創造平行、而且可能互相獨立的記憶階段，每個階段都有不同壽命。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “findings” 對應原文 “Such findings suggest”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “separate processes” 對應原文的 “parallel, and possibly independent stages”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文同時提供兩個方向：第一，某些處理會阻斷 memory consolidation，但 short-term memory 仍保留。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Ivan Izquierdo 發現很多 drug treatments 可以阻斷 short-term memory，卻沒有阻斷memory consolidation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩邊合起來表示：短期記憶和長期記憶形成不是同一條必經路線。原文甚至明確說 long-term memory does not require short-term memory, and vice versa。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯，因為原文說很多 drug treatments 可以阻斷 short-term memory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，因為原文直接否定 long-term memory 必須依賴 short-term memory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，因為原文說 ECT 等處理會 block memory consolidation，但 short-term memory is spared。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — Prompt memory formation underlies the performance of everyday tasks.",
+      "answerKey": "A — Prompt memory formation underlies the performance of everyday tasks.",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問第五段樓梯例子的作用。這類題不是問樓梯本身，而是問例子想證明的主旨。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We obviously need to have memory that is created rapidly: reacting to an ever more rapidly changing environment requires that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們明顯需要快速形成的記憶，因為要回應變化越來越快的環境，就需要這種能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be of little value to us if we remembered the heights of the steps only after a delay of many hours, when the memory becomes consolidated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們要等很多小時，到記憶變得鞏固後才記得樓梯級高度，這種記憶對我們幾乎沒有價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經清楚指出：這段講快速形成的記憶為何有用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 staircases。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“After taking a couple of steps, up or down, we implicitly remember the heights of the steps and assume that the others will be the same.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上下走了幾級樓梯後，我們會不自覺地記住樓梯級的高度，並假設其他梯級也是同樣高度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "樓梯例子說明，人在日常動作中會快速形成 implicit memory。若後面梯級高度不同，人很可能絆倒。這說明快速記憶不是抽象能力，它支撐日常任務和身體行動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的 “Prompt memory formation” 對應原文 “memory that is created rapidly”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“everyday tasks” 對應上下樓梯這種日常動作。 B 說 routine tasks 可無意識完成，只符合部分內容，但沒有抓住快速記憶形成。 C 說 physical accidents can impair memory，原文方向是記憶不足會導致意外。 D 說規例這類複雜資訊不能被記住，原文沒有這個意思。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "D — confirmed other experimental findings.",
+      "answerKey": "D — confirmed other experimental findings.",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Karni 和 Sagi 的 memory observations 有甚麼作用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The hypothesis that lasting memory consolidates slowly over time is supported primarily by clinical and experimental evidence that the formation of long-term memory is influenced by treatments and disorders affecting brain functioning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "持久記憶會隨時間慢慢鞏固這個假說，主要由臨床和實驗證據支持；這些證據顯示，長期記憶的形成會受到影響大腦功能的治療和疾病左右。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, the skill was retained for several years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，這項技能被保留了好幾年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是提供支持 slow consolidation 的進一步證據。Karni 和 Sagi 的研究不是孤立例子，而是放在支持同一假說的證據鏈中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Avi Karni and Dov Sagi reported that the performance of human subjects trained in a visual skill did not improve until eight hours after the training was completed, and that improvement was even greater the following day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Avi Karni 和 Dov Sagi 報告說，人類受試者接受視覺技能訓練後，表現直到訓練完成八小時後才改善，而且翌日改善更大。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項研究顯示，學習成果不是訓練後立即完全出現，而是在訓練後一段時間才發展。這和本段第一句的主題一致：lasting memory consolidates slowly over time。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯，因為 Karni 和 Sagi 的觀察是支持 slow consolidation，不是質疑現有假說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，因為技能保留多年，顯然涉及長期記憶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，因為任務是 visual skill，不是 hearing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確，因為這項研究確認和加強了其他關於 slow consolidation 的實驗證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — Activity in the brain gradually moved from one area to other areas.",
+      "answerKey": "B — Activity in the brain gradually moved from one area to other areas.",
+      "type": "Multiple Choice",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Shadmehr 和 Holcomb 的實驗顯示甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies using human brain imaging to study changes in neural activity induced by learning have also reported that the changes continue to develop for hours after learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用人類腦部影像研究學習引起神經活動變化的研究也指出，這些變化會在學習後幾小時內繼續發展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consolidation of the motor skill appeared to involve activation of different neural systems that increased the stability of the brain processes underlying the skill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項動作技能的鞏固似乎涉及不同神經系統的啟動，並提高支撐該技能的腦部過程穩定性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句指出：這段講學習後數小時內腦部活動如何變化，尤其是不同 neural systems 的參與。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reza Shadmehr and Henry Holcomb examined brain activity…”"
+            },
+            {
+              "kind": "label",
+              "text": "接著最重要句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The activity shifted from the prefrontal cortex to two areas known to be involved in controlling movements, the motor cortex and cerebellar cortex.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "腦部活動從 prefrontal cortex 轉移到兩個已知與控制動作有關的區域：motor cortex 和cerebellar cortex。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 B 說 “Activity in the brain gradually moved from one area to other areas.”原文的 “shifted from … to …” 就是由一個區域轉移到其他區域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯，因為原文是同一項 motor learning task 後不同腦區在不同時間活躍，不是不同 task 啟動不同腦區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，因為原文說 performance remained stable for several hours，不是受試者持續進步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，因為這項研究沒有提到 treatment improving performance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The training which Karni and Sagi’s subjects were given was repeated over several days.”",
+      "translation": "Karni 和 Sagi 的受試者所接受的訓練，在多日內重複進行。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 lasting memory consolidates slowly over time。最後一句說 skill was retained for several years。這段會談 Karni 和 Sagi 的視覺技能研究，但要細看有沒有 “repeated over several days”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Karni and Sagi、training、several days。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the performance of human subjects trained in a visual skill did not improve until eight hours after the training was completed, and that improvement was even greater the following day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受試者接受視覺技能訓練後，表現直到訓練完成八小時後才改善，而且翌日改善更大。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的是：訓練完成後，八小時後才改善，翌日改善更大，技能保留多年。它沒有說訓練本身在幾日內重複。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “improvement was even greater the following day” 改成 training repeated over several days，這超出原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有第二天的改善，但沒有第二天再次訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也沒有說訓練沒有重複，所以不能選 NO。資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The rats in Weinberger’s studies learned to associate a certain sound with a specific experience.”",
+      "translation": "Weinberger 研究中的老鼠學會把某個聲音和特定經驗連起來。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also evidence that learning-induced changes in the activity of neurons in the cerebral cortex continue to increase for many days after the training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有證據顯示，學習引起的大腦皮層神經元活動變化，會在訓練後多日持續增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even more interestingly, the selectivity of the neurons’ response to the specific tone used in training continued to increase for several days after the training was terminated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更有趣的是，神經元對訓練中使用的特定聲音的反應選擇性，在訓練結束後仍持續增加好幾日。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講特定聲音訓練如何改變老鼠 auditory cortex 的神經反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “certain sound” 對應原文 “a tone of specific frequency”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“specific experience” 對應 “footshock”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“after a tone of specific frequency was paired a few times with footshock, neurons in the rats’ auditory cortex responded more to that specific tone and less to other tones of other frequencies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當某個特定頻率的聲音與足部電擊配對幾次後，老鼠 auditory cortex 的神經元對該特定聲音反應更強，對其他頻率的聲音反應更弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“paired … with footshock” 表示聲音和電擊經歷被配對。題目說 rats learned to associate a certain sound with a specific experience，這是對該配對學習的合理概括。所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The results of Weinberger’s studies indicated that the strength of the rats’ learned associations increases with time.”",
+      "translation": "Weinberger 的研究結果顯示，老鼠已學到的聯繫會隨時間變強。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句指出 learning-induced changes 會在訓練後多日繼續增加。最後一句說神經元對特定訓練聲音的 response selectivity 持續增加數日。首尾句已經暗示：學習後的神經效果會隨時間變強。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“strength”"
+            },
+            {
+              "kind": "quote",
+              "text": "“learned associations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increases with time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“continued to increase for many days”"
+            },
+            {
+              "kind": "quote",
+              "text": "“continued to increase for several days”"
+            },
+            {
+              "kind": "quote",
+              "text": "“specific tone used in training”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even more interestingly, the selectivity of the neurons’ response to the specific tone used in training continued to increase for several days after the training was terminated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更有趣的是，神經元對訓練中使用的特定聲音的反應選擇性，在訓練結束後仍持續增加好幾日。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 learned association 來自上一句：specific tone paired with footshock。訓練後，神經元對該聲音的反應越來越有選擇性，表示學習引起的神經連結效果在加強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “strength of the rats’ learned associations” 概括原文的 “selectivity of the neurons’ response”。雖然題目用心理學語言，原文用神經反應語言，但兩者方向一致：學習後的效果隨時間增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It is easy to see the evolutionary advantage of the way lasting memories in humans are created.”",
+      "translation": "人類持久記憶形成方式的演化優勢很容易看出。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not intuitively obvious why our lasting memories consolidate slowly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的持久記憶為甚麼會慢慢鞏固，這一點並不容易憑直覺看出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consolidation of memory clearly emerged early in evolution, and was conserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "記憶鞏固顯然在演化早期已經出現，並被保留下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段一開始就說原因不直觀，後面再討論可能的演化解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “easy to see” 對應原文 “not intuitively obvious”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“evolutionary advantage” 對應後文對 evolution 的討論。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句已直接和題目衝突：“It is not intuitively obvious why our lasting memories consolidate slowly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "持久記憶為何慢慢鞏固，並非一眼就能明白。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 easy to see。原文說 not intuitively obvious。方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要注意：Paragraph 10 後面確實提出 slow consolidation 可能有 adaptive function，即適應功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過題目問的是 “easy to see”。作者的立場是：這種優勢可能存在，但並不容易直觀看出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Long-term memories in humans are more stable than in many other species.”",
+      "translation": "人類的長期記憶比許多其他物種更穩定。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 lasting memories 慢慢鞏固的原因不直觀。最後一句說 memory consolidation 很早就在演化中出現並保存下來。這段會比較不同物種是否都有短期和長期記憶，但要細看有沒有比較穩定性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“humans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many other species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more stable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All species of animals studied to date have both short- and long-term memory; and all are susceptible to retrograde amnesia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "迄今研究過的所有動物物種都有短期和長期記憶，而且都容易受到逆行性失憶影響。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like humans, birds, bees, and molluscs, as well as fish and rats, make long-term memory slowly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像人類一樣，鳥、蜜蜂、軟體動物，以及魚和老鼠，都會慢慢形成長期記憶。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說人類和其他物種都會慢慢形成 long-term memory，也都可能受 retrograde amnesia 影響。這是相似性，不是人類優越性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要原文提供比較：humans more stable than many other species。文章沒有說人類長期記憶更穩定，也沒有比較不同物種 long-term memory 的穩定程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也沒有說人類記憶不如其他物種，所以不能選 NO。關鍵比較資料缺失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "F — new",
+      "answerKey": "F — new",
+      "type": "Summary Completion",
+      "prompt": "Question 37",
+      "translation": "實驗室研究通常會教受試者做某件 ______ 的事情，並用輕微電擊或藥物處理他們。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laboratory experiments usually involve teaching subjects to do something 37 ______ and treating them with mild electric shocks or drugs.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many studies of the brain processes underlying memory consolidation … have involved giving various human and animal subjects treatment while training them to perform a task.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多研究記憶鞏固背後大腦過程的實驗，都會在訓練不同人類或動物受試者完成任務時，給予某種處理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These have contributed greatly to our understanding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究大大增加了我們的理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 summary 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“teaching subjects to do something” 對應原文 “training them to perform a task”。受試者被 training，代表他們要學一件新的任務或技能。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查文法和意思"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “do something”，後面需要形容詞。“do something new” 是自然搭配，意思是教受試者做新任務。其他選項如 easy、quick、early 在文法上部分可通，但原文沒有說任務容易、快速或早期。最貼近 “training them to perform a task” 的是 new。所以答案是 F — new。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "E — lengthy",
+      "answerKey": "E — lengthy",
+      "type": "Summary Completion",
+      "prompt": "Question 38",
+      "translation": "結果大致一致：它們顯示，持久記憶是一個 ______ 且複雜的生物過程的結果。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The results are generally consistent: they show that lasting memories are the result of a 38______ and complex biological process.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 和 Paragraph 10。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 第一句說 lasting memory consolidates slowly over time。Paragraph 10 也多次提到slow consolidation 的適應功能。整篇文章的核心是 long-term memory 不是即時完成，而是慢慢形成。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 summary 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 的 “lasting memories” 對應原文 “lasting memory”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“process” 對應 “consolidates slowly over time” 和 “slow consolidation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查文法和意思"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “a”，後面接形容詞。“a lengthy and complex biological process” 意思是「一個漫長且複雜的生物過程」。這正好概括文章中反覆出現的 slowly、hours、following day、many days、over time。 I “quick” 方向相反。 B “easy” 不符合全文，因為文章說原因不直觀。 C “large” 形容 brains 可能可以，但不適合 biological process。 E 最合適。所以答案是 E — lengthy。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "H — small",
+      "answerKey": "H — small",
+      "type": "Summary Completion",
+      "prompt": "Question 39",
+      "translation": "人類和其他物種共享這種特徵，包括一些大腦 ______ 的動物，這顯示它在我們的演化歷史中發展得很 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fact that humans share this trait with other species, including animals with 39 ______brains, suggests that it developed 40 ______ in our evolutionary history.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 lasting memories 慢慢鞏固的原因不容易直觀看出。最後一句說 memory consolidation clearly emerged early in evolution。這段會處理 slow consolidation 的演化來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 summary 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 中的 “humans share this trait with other species” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like humans, birds, bees, and molluscs, as well as fish and rats, make long-term memory slowly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像人類一樣，鳥、蜜蜂、軟體動物，以及魚和老鼠，都會慢慢形成長期記憶。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查答案邏輯"
+            },
+            {
+              "kind": "label",
+              "text": "前文提出一個可能想法："
+            },
+            {
+              "kind": "quote",
+              "text": "“maybe we consolidate memories slowly because our mammalian brains are large and enormously complex.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許我們慢慢鞏固記憶，是因為哺乳類大腦巨大又極其複雜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但作者立即說可以排除這些想法，因為鳥、蜜蜂、軟體動物、魚和老鼠也會慢慢形成長期記憶。這些物種中包含大腦很小的動物，例如 bees 和 molluscs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 summary 說 “animals with small brains” 是合理概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 H — small。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — early",
+      "answerKey": "A — early",
+      "type": "Summary Completion",
+      "prompt": "Question 40",
+      "translation": "……這顯示它在我們的演化歷史中 ______ 發展出來。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "句子延續 Question 39："
+            },
+            {
+              "kind": "quote",
+              "text": "“…suggests that it developed 40 ______ in our evolutionary history.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 9。"
+            },
+            {
+              "kind": "label",
+              "text": "段落最後一句非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consolidation of memory clearly emerged early in evolution, and was conserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "記憶鞏固顯然在演化早期已經出現，並被保存下來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 的 “developed … in our evolutionary history” 對應原文 “emerged early in evolution”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查詞性和意思"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要副詞或形容詞式選項，配合 “developed ___ in our evolutionary history”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “early” 正好對應原文 “emerged early in evolution”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “late” 方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G “recently” 也和原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A — early。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The creation of lasting memories.pdf",
+    "sha256": "8eeab43a95a45f940a2df7c3a5a39124ea54ec2b4205c2efa96ec06d799152de",
+    "pageCount": 17
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說很多關於 memory consolidation 的研究，都會在訓練人類或動物完成任務時加入某些處理。尾句說這些研究大大增加了我們的理解。只看首尾句，可以先估計這是引入段：它會界定lasting memories / memory consolidation，並交代研究通常如何設計，例如先訓練受試者，再觀察治療、藥物或其他處理對記憶形成的影響。"
+      },
+      {
+        "number": "2",
+        "summary": "首句介紹 Bernard Agranoff 用 goldfish 做開創性研究，發現訓練後注射 protein synthesis inhibitors 會令金魚忘記所學內容。尾句說這些抑制劑阻斷 memory consolidation，但沒有影響short-term memory。只看首尾句，這段應該說明一個核心發現：短期學習可以正常發生，但長期記憶形成會被某些處理干擾。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說現在有大量證據顯示，很多阻斷 memory consolidation 的處理都不會破壞 short-term memory，包括 ECT。尾句說 long-term memory 不需要 short-term memory，反過來也一樣。這段功能很清楚：它在推翻「長期記憶必須建立在短期記憶之上」的舊看法，並把短期和長期記憶分成可分離的過程。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說這些發現顯示，我們的經驗會創造平行、可能獨立的記憶階段，每個階段都有不同壽命。尾句提出問題：大腦為甚麼要用不同方式處理 recent memory 和 remote memory？這段是過渡段，功能是由實驗結果轉到大問題：既然短期和長期記憶可分離，大腦採用這種安排有甚麼原因？"
+      },
+      {
+        "number": "5",
+        "summary": "首句說我們明顯需要快速形成的記憶，因為環境變化越來越快。尾句說如果我們要等很多小時，到記憶鞏固後才記得樓梯高度，這種記憶幾乎沒有價值。這段用 staircase 作日常例子，說明快速形成的 implicit memory 對安全和日常行動很重要。段落重點是 rapid memory formation 的實用功能。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 lasting memory 會隨時間慢慢 consolidate 這個假說，主要由臨床和實驗證據支持。尾句說 Karni 和 Sagi 的視覺技能研究中，技能甚至保留了好幾年。這段應該介紹更直接的證據：訓練後表現沒有即時提升，要到八小時後或翌日才改善，反映長期記憶或技能形成是一個延遲發展的過程。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說人類 brain imaging 研究也發現，學習引起的 neural activity 變化會在學習後繼續發展幾小時。尾句說 motor skill 的 consolidation 似乎涉及不同 neural systems 的啟動，提升相關腦過程的穩定性。這段大概會處理 Shadmehr 和 Holcomb 的研究：表現可能暫時穩定，但腦內活躍區域仍在轉移和重組。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說還有證據顯示，訓練引起的 cerebral cortex 神經元活動變化會在訓練後多日繼續增加。尾句說神經元對訓練中特定聲音的反應選擇性，在訓練結束後仍持續增強多日。這段應該介紹Weinberger 的老鼠實驗，用聲音和 footshock 配對，證明學習後的神經變化會逐步加強。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 lasting memories 為甚麼要慢慢 consolidate，這一點並不直觀。尾句說 memory consolidation 很早就在演化中出現，並一直保存下來。這段應該討論可能解釋，例如大型哺乳類大腦或演化晚期發展，但作者會排除這些想法。重點是：不同物種都有短期和長期記憶，也都慢慢形成長期記憶。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說雖然沒有強迫性理由證明大腦不能快速形成持久記憶，但事實上動物大腦並不這樣做。尾句說訓練後短時間內施加處理可增強或削弱記憶，這為 slow consolidation 的 adaptive function提供有趣支持。這段是結論段，指出慢速鞏固很可能有重要適應功能，因為它容許學習後的神經生物過程調整記憶強度。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1761 @@
+{
+  "id": "p2-123-flight-from-reality",
+  "catalogueId": "p2-123",
+  "catalogueIds": [
+    "p2-123"
+  ],
+  "passage": 2,
+  "title": "Flight from reality",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "communications",
+    "other devices",
+    "antennae",
+    "smoke",
+    "C",
+    "D",
+    "B",
+    "E",
+    "A",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "communications",
+      "answerKey": "communications",
+      "type": "Summary Completion",
+      "prompt": "“A potential risk certainly exists because modern aircraft systems manage navigation and 14______.”",
+      "translation": "潛在風險確實存在，因為現代飛機系統管理 navigation 和 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，答案不超過三個字，必須取自原文。空格與 “navigation” 並列，所以需要一個名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potential for problems is certainly there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題出現的可能性確實存在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from inside the plane could also interfere with sensitive antennae on the fixed exterior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自飛機內部的 emissions 也可能干擾固定在機身外部的敏感 antennae。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段很可能解釋電子設備在飛機上為何有理論風險。題目說 “A potential risk certainly exists”，幾乎直接對應本段第一句，所以應先到 A 段找 summary 的開頭答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “modern aircraft systems”、“navigation” 和 “manage”。原文未用 manage，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“control” 和 “handle”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern airliners are packed with electronic devices that control the plane and handle navigation and communications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代客機裝滿了電子設備，這些設備控制飛機，並處理導航和通訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “manage navigation and ______”。原文是 “handle navigation and communications”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“manage” 改寫 “handle”；“navigation” 原字重現；並列名詞就是 “communications”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "manage = handle modern aircraft systems = electronic devices in modern airliners navigation and communications = navigation and communications所以答案是 communications。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "other devices",
+      "answerKey": "other devices",
+      "type": "Summary Completion",
+      "prompt": "“Each device must meet standards designed to ensure that its emissions do not interfere with 15 ______.”",
+      "translation": "每個裝置都必須符合標準，以確保其 emissions 不會干擾 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題同樣是 Summary Completion。空格在 “interfere with” 後面，需要名詞或名詞短語，最多三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potential for problems is certainly there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題出現的可能性確實存在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from inside the plane could also interfere with sensitive antennae on the fixed exterior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自飛機內部的 emissions 也可能干擾固定在機身外部的敏感 antennae。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 段講的是飛機電子設備和乘客電子設備之間的 interference 風險。題目中的 “Each device must meet standards” 直接指向本段中間的 stringent safeguards。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有定位力的字是 “standards”、“emissions” 和 “interfere”。原文有 “stringent safeguards”、“emit radiation” 和 “interfere with other devices”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Each has to meet stringent safeguards to make sure it doesn’t emit radiation that would interfere with other devices in the plane—standards that passengers’ personal electronic devices don’t necessarily meet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個裝置都必須符合嚴格防護標準，以確保它不會發出會干擾飛機內其他裝置的 radiation；乘客個人電子設備未必符合這些標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “do not interfere with ______”。原文是 “would interfere with other devices in the plane”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格最多三個字，因此填 “other devices” 最精準。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "must meet standards = has to meet stringent safeguards emissions = emit radiation do not interfere with = doesn’t emit radiation that would interfere with other devices = other devices in the plane所以答案是 other devices。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "antennae",
+      "answerKey": "antennae",
+      "type": "Summary Completion",
+      "prompt": "“Emissions from a passenger’s mobile phone could also disrupt sensitive external 16 ______.”",
+      "translation": "乘客手機的 emissions 也可能干擾敏感的外部 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “sensitive external”，需要一個名詞。答案應來自原文，且最多三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potential for problems is certainly there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題出現的可能性確實存在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from inside the plane could also interfere with sensitive antennae on the fixed exterior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自飛機內部的 emissions 也可能干擾固定在機身外部的敏感 antennae。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎直接由 A 段最後一句改寫而來。題目中的 “external” 對應原文 “fixed exterior”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “emissions”、“sensitive” 和 “external”。掃描 A 段最後一句可找到 “Emissions”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sensitive antennae”、“fixed exterior”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from inside the plane could also interfere with sensitive antennae on the fixed exterior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "飛機內部產生的 emissions 也可能干擾固定在外部的敏感 antennae。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “sensitive external ______”。原文是 “sensitive antennae on the fixed exterior”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“external” 把 “on the fixed exterior” 壓縮成形容詞；名詞保留 “antennae”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "disrupt = interfere with sensitive external antennae = sensitive antennae on the fixed exterior from a passenger’s mobile phone = from inside the plane所以答案是 antennae。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "smoke",
+      "answerKey": "smoke",
+      "type": "Summary Completion",
+      "prompt": "“Although interference with flight-control equipment has not been proved, devices that detect 17______ or indicate fuel levels could be affected.”",
+      "translation": "雖然尚未證明會干擾 flight-control equipment，但偵測 ______ 或顯示燃油水平的裝置可能受影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “devices that detect” 後面，需要名詞。後面 “or indicate fuel levels” 提示原文應有兩類裝置：一類是 detectors，一類是 indicators。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best evidence yet of a problem comes from a report released this year by Britain’s Civil Aviation Authority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至今最有力的問題證據來自 Britain’s Civil Aviation Authority 今年發布的一份報告。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the devices that could be affected, such as smoke detectors and fuel level indicators, could still create serious problems for the flight crew if they malfunction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但可能受影響的裝置，例如 smoke detectors 和 fuel level indicators，若出現故障，仍可能為機組人員造成嚴重問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段提供正式研究證據，並清楚列出可能受影響的設備類型。題目中的 “detect” 和 “fuel levels”直接指向最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “flight-control equipment”、“detect”、“fuel levels”。原文有 “flight controls”、“smoke detectors”、“fuel level indicators”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“This doesn’t mean ‘mission critical’ equipment such as the navigation system and flight controls. But the devices that could be affected, such as smoke detectors and fuel level indicators, could still create serious problems for the flight crew if they malfunction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並不表示 navigation system 和 flight controls 這類「任務關鍵」設備會受影響。但可能受影響的裝置，例如 smoke detectors 和 fuel level indicators，若失靈仍可能為機組人員造成嚴重問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目把 “smoke detectors” 拆成 “devices that detect ______”。所以空格只需填 smoke。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "devices that detect smoke = smoke detectors indicate fuel levels = fuel level indicators could be affected = could be affected所以答案是 smoke。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "C — RTCA",
+      "answerKey": "C — RTCA",
+      "type": "Matching Opinions /",
+      "prompt": "“Mobile-phone use should be banned during specific phases of flight.”",
+      "translation": "手機使用應在飛行的特定階段被禁止。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要找誰提出或建議 ban，並留意 “specific phases of flight” 對應原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“critical periods of flight”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E第一句：“In 1996, RTCA, a consultant hired by the Federal Aviation Administration in the US to conduct tests, determined that potential problems from personal electronic devices were ‘low’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 年，受美國 FAA 委託進行測試的顧問 RTCA 認定 personal electronic devices 的潛在問題較低。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s like most things in life. The reason is a little bit technical, a little bit economic and a little bit political,’ says Cross.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cross 說：「這就像生活中很多事情一樣，原因有點技術性、有點經濟性，也有點政治性。」只看首尾句，E 段會同時講 RTCA 的測試與建議，以及 Cross 對禁手機、不禁 laptop 這種政策不一致的評論。題目問 ban during specific phases，RTCA 是最可能對象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “banned” 和 “specific phases of flight”。原文不一定用 specific phases，但會用 “critical periods of flight, such as take-off and landing”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, it recommended a ban on their use during ‘critical’ periods of flight, such as take-off and landing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，RTCA 建議在飛行的「關鍵」時段禁止使用這些設備，例如起飛和降落。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“RTCA didn’t actually test cellphones, but nevertheless recommended their wholesale ban on flights.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "RTCA 其實沒有測試手機，但仍建議在航班上全面禁止手機。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "specific phases of flight = critical periods of flight, such as take-off and landing should be banned = recommended a ban person / organisation = RTCA所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — Marshall Cross",
+      "answerKey": "D — Marshall Cross",
+      "type": "Matching Opinions /",
+      "prompt": "“Computers are more dangerous than mobile phones.”",
+      "translation": "電腦比手機更危險。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰認為 computers / electronic game systems 比 cellphones 更 worrying。題目把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dangerous” 改寫自原文的 “worrying”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F第一句：“The company wrote a report for the FAA in 1998 saying it is possible to build an on-board system that can detect dangerous signals from electronic devices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該公司在 1998 年為 FAA 撰寫報告，指出可以建造機上系統，偵測電子設備發出的危險訊號。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some airlines are even planning to put sockets for laptops in seatbacks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些航空公司甚至計劃在座椅背後安裝 laptop 插座。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段很可能談 Marshall Cross 的技術觀點，以及 laptops / computers 是否真的安全。題目中的 “Computers” 和本段最後的 “laptops” 對應明顯。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Computers”、“mobile phones” 和 “more dangerous”。原文中 “real threat”、“very low”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“much more worrying” 是關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“But Cross’s personal conclusion is that mobile phones aren’t the real threat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Cross 個人的結論是，手機並非真正威脅。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The use of computers and electronic game systems is much more worrying, he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，使用電腦和電子遊戲系統更令人擔心。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "computers are more dangerous = computers and electronic game systems are much more worrying mobile phones = mobile phones / cellphones speaker = Cross / Marshall Cross所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B — Maryanne Greczyn",
+      "answerKey": "B — Maryanne Greczyn",
+      "type": "Matching Opinions /",
+      "prompt": "“Mobile phones pose little risk to aircraft navigation systems.”",
+      "translation": "手機對飛機 navigation systems 幾乎沒有風險。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找說 “cellphones actually have no impact on the navigation system” 的人。這是人物觀點配對。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But despite running a number of studies, Boeing, Airbus and various government agencies haven’t been able to find clear evidence of problems caused by personal electronic devices, including mobile phones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但即使 Boeing、Airbus 和多個政府機構進行了不少研究，它們仍未能找到清楚證據，證明personal electronic devices，包括 mobile phones，造成問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Sometimes when a passenger is starting or finishing a phone call, the pilot hears a very slight beep in the headset,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「有時當乘客開始或結束電話時，機師會在 headset 中聽到非常輕微的 beep。」只看首尾句，B 段主軸是「研究找不到清楚問題」，並以 Airbus 發言人 Maryanne Greczyn 的說法支持手機影響很小。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “navigation systems” 和 “little risk”。原文對應 “no impact on the navigation system”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We’ve done our own studies. We’ve found cellphones actually have no impact on the navigation system,’ says Maryanne Greczyn, a spokeswoman for Airbus Industries of North America in Herndon, Virginia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Airbus Industries of North America 的發言人 Maryanne Greczyn 說：「我們做過自己的研究。我們發現手機實際上對 navigation system 沒有影響。」"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "pose little risk = have no impact mobile phones = cellphones aircraft navigation systems = the navigation system speaker = Maryanne Greczyn所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "E — Boeing",
+      "answerKey": "E — Boeing",
+      "type": "Matching Opinions /",
+      "prompt": "“Laptops pose less risk than mobile phones.”",
+      "translation": "Laptops 比 mobile phones 風險較低。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找誰認為 phones 比 laptops 更 risky。選項中沒有 Bruce Donham 的名字，但他是 Boeing 的工程師，所以答案要配 E。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some engineers, however, such as Bruce Donham of Boeing, say that common sense suggests phones are more risky than laptops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，一些工程師，例如 Boeing 的 Bruce Donham，說常識顯示 phones 比 laptops 更有風險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Electronic devices in the cabin—especially those emitting a strong signal—can behave unpredictably, reinforcing other signals, for instance, or creating unforeseen harmonics that disrupt systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "機艙內的電子設備，尤其是發出強訊號的設備，可能以難以預測的方式運作，例如加強其他訊號，或產生會干擾系統的意外 harmonics。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句已能定位。題目說 laptops 風險較低，原文以反方向說 phones 風險較高，兩者意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “laptops”、“mobile phones” 和 “less risk”。原文是 “phones are more risky than laptops”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some engineers, however, such as Bruce Donham of Boeing, say that common sense suggests phones are more risky than laptops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些工程師，例如 Boeing 的 Bruce Donham，認為從常識看，phones 比 laptops 更有風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“A device capable of producing a strong emission is not as safe as a device which does not have any intentional emission,” he says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「一個能產生強 emission 的設備，安全性不及一個沒有 intentional emission 的設備。」"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "laptops pose less risk than mobile phones = phones are more risky than laptops mobile phones = phones organisation = Boeing所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A — Britain’s Civil Aviation Authority",
+      "answerKey": "A — Britain’s Civil Aviation Authority",
+      "type": "Matching Opinions /",
+      "prompt": "“Mobile-phone signals may affect older equipment.”",
+      "translation": "手機訊號可能影響較舊的設備。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找哪個機構的研究指出 cellphone transmissions 可能影響 older equipment。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best evidence yet of a problem comes from a report released this year by Britain’s Civil Aviation Authority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至今最好的問題證據來自 Britain’s Civil Aviation Authority 今年發布的一份報告。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the devices that could be affected, such as smoke detectors and fuel level indicators, could still create serious problems for the flight crew if they malfunction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但可能受影響的裝置，例如 smoke detectors 和 fuel level indicators，若失靈仍可能為機組人員造成嚴重問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，機構已很清楚：Britain’s Civil Aviation Authority。題目中的 “older equipment” 會在中間句出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “signals”、“older equipment”。原文對應 “simulated cellphone transmissions” 和 “some of the older equipment on board”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“They concluded that the transmissions could create signals at power and frequency levels that would not affect the latest equipment but would exceed the safety threshold established in 1984 and might, therefore, affect some of the older equipment on board.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們總結，這些 transmissions 可能產生某些 power 和 frequency levels 的 signals；這些 signals不會影響最新設備，但會超過 1984 年建立的安全門檻，因此可能影響機上某些較舊設備。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "mobile-phone signals = cellphone transmissions / signals may affect = might affect older equipment = some of the older equipment on board organisation = Britain’s Civil Aviation Authority所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Almost all scientists agree that mobile phones produce stronger emissions than personal computers.”",
+      "translation": "幾乎所有科學家都同意，手機產生的 emissions 比個人電腦更強。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個控制點：第一，“Almost all scientists agree” 是很強的範圍詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，“mobile phones produce stronger emissions than personal computers” 是比較關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要選 TRUE，原文需要同時支持「幾乎所有科學家同意」和「手機 emissions 較強」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H，並需要參考 Paragraph F 的相反觀點。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some engineers, however, such as Bruce Donham of Boeing, say that common sense suggests phones are more risky than laptops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，一些工程師，例如 Boeing 的 Bruce Donham，說常識顯示 phones 比 laptops 更有風險。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Electronic devices in the cabin—especially those emitting a strong signal—can behave unpredictably, reinforcing other signals, for instance, or creating unforeseen harmonics that disrupt systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "機艙內電子設備，尤其是發出強訊號的設備，可能有不可預測的表現，例如加強其他訊號，或產生會干擾系統的意外 harmonics。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 H 段首句，原文只說 “some engineers”，範圍明顯低於 “almost all scientists”。另外，H 段也說 many experts 覺得禁手機但不禁 computers 缺乏邏輯，顯示觀點並不一致。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Almost all scientists”、“stronger emissions”、“personal computers”。原文對應 “some engineers”、“strong emission”、“many experts”、“computers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some engineers, however, such as Bruce Donham of Boeing, say that common sense suggests phones are more risky than laptops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些工程師，例如 Boeing 的 Bruce Donham，認為 phones 比 laptops 更有風險。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, many experts think it’s illogical that cellphones are prohibited when computers aren’t.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，很多專家認為，禁止手機但不禁止電腦是不合邏輯的。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph F 的 Marshall Cross："
+            },
+            {
+              "kind": "quote",
+              "text": "“The use of computers and electronic game systems is much more worrying, he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，使用電腦和電子遊戲系統更令人擔心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 “Almost all scientists agree”，但原文只提到 “some engineers” 持有手機更危險的看法，同時又有 “many experts” 認為政策不合邏輯，Marshall Cross 更說 computers / electronic game systems 更令人擔心。這代表原文呈現分歧，並未支持幾乎所有科學家一致同意手機 emissions較強。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Almost all scientists agree = 幾乎全體一致Some engineers say = 部分工程師認為Many experts think it’s illogical = 很多專家不認同政策邏輯Computers are much more worrying = 電腦可能更令人擔心原文與題目方向衝突，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some people believe that radio emissions can disrupt equipment on an aircraft.”",
+      "translation": "有些人相信 radio emissions 可以干擾飛機上的設備。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “Some people believe”。這是一個低門檻 statement：只要原文有某些研究者、工程師或機構認為 emissions / signals 可能干擾 aircraft equipment，就可成立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A / C / D Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potential for problems is certainly there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題出現的可能性確實存在。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from inside the plane could also interfere with sensitive antennae on the fixed exterior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "飛機內部的 emissions 也可能干擾外部固定位置上的敏感 antennae。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 A 段首尾句，已能看到文章承認 emissions 可能 interfere。C、D 段再以 CAA 研究補充older equipment 的風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “radio emissions”、“disrupt equipment”。原文未必用 radio emissions，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“emissions”、“radiation”、“transmissions”、“signals”。“disrupt” 可對應 “interfere with”、“affect”、“malfunction”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from inside the plane could also interfere with sensitive antennae on the fixed exterior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "飛機內部的 emissions 也可能干擾固定在外部的敏感 antennae。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 CAA 研究："
+            },
+            {
+              "kind": "quote",
+              "text": "“They concluded that the transmissions could create signals at power and frequency levels that would not affect the latest equipment but would exceed the safety threshold established in 1984 and might, therefore, affect some of the older equipment on board.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們總結，這些 transmissions 可能產生某些 power 和 frequency levels 的 signals；這些 signals不會影響最新設備，但可能影響機上某些較舊設備。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 “Some people believe”。原文中 Britain’s Civil Aviation Authority 的研究人員和多位工程師都把 emissions / signals 視為可能風險。題目中的 “disrupt equipment” 可由 “interfere with sensitive antennae” 和 “might affect some of the older equipment” 支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "radio emissions = emissions / transmissions / signals disrupt = interfere with / affect equipment on an aircraft = antennae / older equipment on board所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A signal-interference detector has not yet been developed because it is neither a regulatory priority nor an economic opportunity.”",
+      "translation": "訊號干擾偵測器尚未被開發，原因是它既非監管上的優先事項，也沒有明顯經濟利益。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題需要跨段： F 段提出 detector 在技術上可行； I 段解釋為何沒有人認真推動 technical solution； J 段說 FAA、airlines、manufacturers 都沒有太大興趣開發。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph J，並參考 Paragraph I / F Paragraph J 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Possible solutions might be to enhance airliners’ electronic insulation or to fit detectors that warn flight staff when passenger devices were emitting dangerous signals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能的解決方法包括加強客機的電子絕緣，或安裝 detectors，在乘客設備發出危險訊號時警告機組人員。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph J 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And while that remains the case, airlines can hardly claim that logic has prevailed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要這種情況仍然存在，航空公司就很難聲稱邏輯已經佔上風。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，J 段是政策總結：有技術解決方法，但行業興趣不足，結果手機禁令延續，laptop 仍可用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “detector”、“developed”、“regulatory priority”、“economic opportunity”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“detectors”、“showing much interest in developing these”、“no one stands to gain a lot”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F：“The company wrote a report for the FAA in 1998 saying it is possible to build an on-board system that can detect dangerous signals from electronic devices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該公司 1998 年為 FAA 寫報告，指出可以建造機上系統，偵測電子設備發出的危險訊號。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s mostly because no one—besides cellphone users themselves—stands to gain a lot if the phones are allowed in the air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這主要是因為如果手機獲准在空中使用，除了手機使用者本人之外，沒有多少人會獲得很大利益。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph J："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Cross complains that neither the FAA, the airlines nor the manufacturers are showing much interest in developing these.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Cross 抱怨，FAA、航空公司和製造商都沒有對開發這些方案表現出太大興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 detector 未被開發，原因包括監管方面缺乏優先性和經濟方面缺乏吸引力。原文說技術上 “possible to build”，但到 J 段仍只是 “possible solutions”，並且 FAA、airlines、manufacturers都沒有太大興趣 developing these。I 段補充，沒有多少人能從允許空中手機使用中獲得大利益。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "signal-interference detector = on-board system that can detect dangerous signals / detectors that warn flight staff not a regulatory priority = neither the FAA … showing much interest not an economic opportunity = no one … stands to gain a lot has not yet been developed = possible to build / possible solutions / lack of interest in developing these所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The FAA initiated an open debate with the Federal Communications Commission.”",
+      "translation": "FAA 主動發起了一場與 Federal Communications Commission 的公開辯論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查三個核心元素：第一，主體是否是 FAA；第二，動作是否是 initiated an open debate；第三，對象是否是 Federal Communications Commission。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只要缺少其中一個核心元素，便不能選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Opening paragraph + Paragraph I Opening paragraph 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the US, a Congressional subcommittee grilled airline representatives and regulators about the issue last month.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，一個 Congressional subcommittee 上個月就此問題質問航空公司代表和監管者。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the Congressional subcommittee hearings last month, no one seems to be working seriously on a technical solution that would allow passengers to use their phones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管上個月有 Congressional subcommittee hearings，似乎沒有人認真研究能讓乘客使用手機的技術解決方案。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the US, even if FAA regulations didn’t prohibit cellphones in the air, Federal Communications Commission regulations would.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，即使 FAA 規例沒有禁止空中使用手機，Federal Communications Commission 的規例也會禁止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以看到 Congress、FAA 和 FCC 都有出現，但原文沒有說 FAA 和 FCC 之間展開公開辯論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “FAA”、“Federal Communications Commission”、“initiated”、“open debate”。原文出現FAA 和 Federal Communications Commission，但沒有 “initiated” 或 “open debate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the US, a Congressional subcommittee grilled airline representatives and regulators about the issue last month.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，一個國會小組委員會上個月就此問題質問航空公司代表和監管者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 Congressional subcommittee，不是 FAA。動作是 grilled，即質問、盤問，也不等於FAA initiated a debate。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the US, even if FAA regulations didn’t prohibit cellphones in the air, Federal Communications Commission regulations would.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，即使 FAA 規例沒有禁止空中使用手機，FCC 規例也會禁止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只是說 FAA 和 FCC 的 regulations 都會形成禁令效果。它沒有提供兩個機構之間有公開辯論，也沒有說 FAA 主動發起任何 debate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有 Congressional hearings，也有 FAA regulations 和 FCC regulations。可是題目需要的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“FAA initiated an open debate with the FCC” 缺少證據。文章沒有明確否定 FAA 曾做這件事，所以不選 FALSE；它只是未提供足夠資料。資料狀態：原文有：Congressional subcommittee hearings原文有：FAA regulations / FCC regulations原文缺少：FAA initiated an open debate with FCC所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Flight from reality.pdf",
+    "sha256": "174cdda4fdc0b6d9035a263b589865a2dcbfc90b2cdbfe09b04829076da0caf3",
+    "pageCount": 22
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "開首先提出一個表面矛盾：mobile phones 被禁止，但 passengers 可自由使用 laptops。最後一句提到 Neil Whitehouse 只是打訊息、未真正通話，仍被法院判定危及飛行。只看首尾句，可以估計文章會討論「手機和手提電腦在飛機上誰更危險」這個規則矛盾。這段也設下全文語氣：政策看似保守，但背後證據是否一致，需要後文逐步檢查。",
+        "label": "Opening paragraph"
+      },
+      {
+        "number": "A",
+        "summary": "首句說問題的可能性確實存在；最後一句說機內 emissions 也可能干擾飛機外部敏感 antennae。只看首尾句，可以判斷 A 段負責解釋「為何電子設備理論上有風險」。中間會提到現代飛機充滿電子裝置，這些裝置控制 plane、navigation 和 communications，也需要符合嚴格 safeguards。 Summary completion 中關於 aircraft systems、standards、emissions、antennae 的答案大多在這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用 But 轉折，指出 Boeing、Airbus 和政府機構研究後仍找不到 clear evidence，證明個人電子設備造成問題。最後一句說 Airbus 發現的唯一影響只是 pilot headset 中偶爾聽到很輕微的beep。只看首尾句，可以估計 B 段主要代表「手機影響很小」的立場。Maryanne Greczyn 的觀點、navigation system、critical systems 都是本段重要定位詞。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說至今最好的問題證據來自 Britain’s Civil Aviation Authority 的報告。最後一句說受影響的smoke detectors 和 fuel level indicators 若 malfunction，仍可能令 flight crew 面對嚴重問題。只看首尾句，可以估計 C 段會提供較正式的實驗證據：cellphone transmissions 可能不影響最新設備，但可能超出舊安全標準，進而影響某些 older equipment。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說很多飛機仍使用按舊標準認證的設備。最後一句說同年稍後另一項研究會檢查 cellphone signals 是否真的導致 devices fail。只看首尾句，可見 D 段延續 CAA 研究：目前未完全證明設備會失效，但已顯示 danger。這段功能是處理「風險是否已被證實」的程度差異：不是已經證明failure，而是 danger / uncertainty 被減少。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 RTCA 在 1996 年認定 personal electronic devices 的潛在問題較低。最後一句引用Marshall Cross，說手機被禁但 laptop 沒被禁，原因有技術、經濟和政治成分。只看首尾句，可以估計 E 段談政策不一致：RTCA 建議在 take-off 和 landing 等 critical periods 禁用個人電子設備，也建議全面禁止手機。Matching 題中的 RTCA 和 Cross 會在這裡出現。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Cross 的公司曾為 FAA 寫報告，指出可建造機上系統偵測電子設備的危險訊號。最後一句說有些航空公司甚至計劃在座椅背後為 laptops 安裝 sockets。只看首尾句，可見 F 段主要是Marshall Cross 的觀點：手機風險低，因其頻率範圍與重要飛機設備不同；相較下，computers 和electronic games 可能產生更令人擔心的訊號。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說有相當令人信服的 anecdotal evidence，顯示某些 personal electronic devices 曾干擾飛機系統。最後一句說技術人員仍未能 replicate 每一宗 reported interference。只看首尾句，可以估計 G 段處理「有個案，但難以重現」的證據狀態。Portable computer 令 autopilot disconnect 的例子很吸引人，但實驗室和空機測試未能重複問題，顯示證據仍不穩定。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說一些工程師，例如 Boeing 的 Bruce Donham，憑 common sense 認為 phones 比 laptops更危險。最後一句說機艙電子設備可 unpredictably 行事，例如 reinforce other signals 或產生unforeseen harmonics，從而 disrupt systems。只看首尾句，可見 H 段展示另一派觀點：手機有intentional emission，所以可能較危險；但段中也承認很多 experts 覺得禁手機但不禁 computers缺乏邏輯。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說即使有 Congressional subcommittee hearings，也沒有人認真研究可讓乘客使用手機的technical solution。最後一句說即使 FAA regulations 沒有禁止，FCC regulations 仍會禁止空中使用手機。只看首尾句，可以估計 I 段講「為何缺少解決方案」：沒有人有明顯利益，連手機公司也不想推動，原因包括 airborne signals 可能同時湧向多個 base stations，即 bigfooting。"
+      },
+      {
+        "number": "J",
+        "summary": "首句列出可能解決方法：加強飛機 electronic insulation，或安裝 detectors 警告機組哪些passenger devices 正發出危險訊號。最後一句說，只要 passengers 仍可用 personal computer，航空公司很難聲稱 logic has prevailed。只看首尾句，可見 J 段總結政策矛盾：手機禁令大概會延續，因為 better safe than sorry，但 laptop 仍被容許，令政策邏輯顯得不一致。"
+      }
+    ]
+  }
+}

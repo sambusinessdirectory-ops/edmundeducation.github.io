@@ -1,0 +1,352 @@
+import {juniorHighlightToolbar, mountJuniorHighlighter} from '../junior-text-highlighter.mjs?v=20261021-study3';
+
+let MODULE_KEY = 's2-exam-prep-oct-2026';
+let TOTAL = 470;
+let TITLE = 'S2 Exam Prep - Oct 2026';
+const WORD_FORMS_OWNER = '8d05282a-10a3-44c8-9376-8a066fce7a3a';
+const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
+let assignedOwner = JAYDEN_ID;
+const host = document.createElement('section');
+host.className = 'junior-app';
+host.setAttribute('aria-label', '考試溫習內容');
+document.querySelector('[data-view="dashboard"]')?.append(host);
+const highlighter = mountJuniorHighlighter(host, '.junior-vocab-window td, .junior-vocab-window th, .junior-question__sentence, .junior-question__translation', 'exam', {
+  scopeSelector: '.junior-vocab-window, .junior-question',
+  scopeKey: scope => scope.classList.contains('junior-vocab-window') ? `${MODULE_KEY === 's2-exam-prep-oct-2026' ? 'legacy' : MODULE_KEY}:forms` : `${MODULE_KEY === 's2-exam-prep-oct-2026' ? 'legacy' : MODULE_KEY}:q${scope.dataset.question}`
+});
+
+const LEGACY_FORM_GROUPS = [
+  ['role model', [['role model','榜樣；單數名詞'],['role models','榜樣；複數名詞']]],
+  ['achievement', [['achieve','達成；動詞原形'],['achieved','已達成；過去式／過去分詞'],['achievement','成就；單數名詞'],['achievements','成就；複數名詞']]],
+  ['trustworthy', [['trust','信任；名詞／動詞'],['trustworthiness','可靠程度；名詞'],['trustworthy','值得信賴的；形容詞']]],
+  ['shortcoming', [['shortcoming','缺點；單數名詞'],['shortcomings','缺點；複數名詞']]],
+  ['throw a tantrum', [['throw a tantrum','發脾氣；動詞原形'],['throws a tantrum','發脾氣；第三人稱單數'],['threw a tantrum','發了脾氣；過去式'],['thrown a tantrum','發過脾氣；過去分詞']]],
+  ['cautionary', [['caution','謹慎；名詞'],['cautionary','警示性的；形容詞'],['cautious','謹慎的；形容詞'],['cautiously','謹慎地；副詞']]],
+  ['diligence', [['diligence','勤奮；名詞'],['diligent','勤奮的；形容詞'],['diligently','勤奮地；副詞']]],
+  ['perseverance', [['perseverance','毅力；名詞'],['persevere','堅持；動詞']]],
+  ['pay off', [['pay off','得到回報；動詞原形'],['pays off','得到回報；第三人稱單數'],['paid off','得到回報；過去式／過去分詞'],['paying off','正得到回報；現在分詞']]],
+  ['groundbreaking', [['groundbreaking','開創性的；形容詞'],['groundbreaking discovery','突破性發現；名詞片語']]],
+  ['diagnose', [['diagnose','診斷；動詞原形'],['diagnosed','診斷了；過去式／過去分詞'],['diagnoses','診斷；第三人稱單數／複數名詞'],['diagnosis','診斷結果；單數名詞']]],
+  ['brilliant', [['brilliance','卓越才智；名詞'],['brilliant','傑出的；形容詞'],['brilliantly','精彩地；副詞']]],
+  ['frustrated', [['frustrate','使感到挫敗；動詞'],['frustrated','感到挫敗的；形容詞'],['frustration','挫敗感；名詞']]],
+  ['communicate', [['communicate','溝通；動詞原形'],['communicated','已溝通；過去式／過去分詞'],['communicates','溝通；第三人稱單數'],['communication','溝通；名詞']]],
+  ['stumble upon', [['stumble upon','偶然發現；動詞原形'],['stumbled upon','偶然發現了；過去式／過去分詞'],['stumbles upon','偶然發現；第三人稱單數']]]
+];
+let FORM_GROUPS = LEGACY_FORM_GROUPS;
+let FORM_COUNT = FORM_GROUPS.reduce((count, [, forms]) => count + forms.length, 0);
+if (FORM_COUNT !== 47) throw new Error('Word-form table must contain exactly 47 forms');
+
+let owner = null;
+let token = '';
+let questions = null;
+let clips = null;
+let answers = {};
+let submitted = {};
+let view = 'home';
+let tableVisible = true;
+let vocabInteraction = null;
+let translationVisible = true;
+let saving = false;
+const player = new Audio();
+const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
+const key = (number) => String(number).padStart(3, '0');
+const draftKey = () => `edmund-junior-exam-${MODULE_KEY}:${owner}`;
+const translationKey = () => `edmund-junior-exam-translation:${owner}`;
+const vocabWindowKey = () => `edmund-junior-vocab-window:${owner}:${MODULE_KEY}`;
+
+function defaultVocabRect() {
+  const width = Math.min(1040, Math.max(300, window.innerWidth - 32));
+  const height = Math.min(340, Math.max(210, window.innerHeight - 130));
+  return {left: Math.max(8, (window.innerWidth - width) / 2), top: Math.min(150, Math.max(8, window.innerHeight - height - 8)), width, height};
+}
+function savedVocabRect() {
+  try {
+    const value = JSON.parse(localStorage.getItem(vocabWindowKey()) || 'null');
+    return value && ['left', 'top', 'width', 'height'].every(key => Number.isFinite(Number(value[key]))) ? value : defaultVocabRect();
+  } catch { return defaultVocabRect(); }
+}
+function clampVocabRect(rect) {
+  const minWidth = Math.min(360, Math.max(280, window.innerWidth - 16));
+  const minHeight = Math.min(190, Math.max(150, window.innerHeight - 16));
+  const width = Math.min(Math.max(Number(rect.width), minWidth), Math.max(minWidth, window.innerWidth - 8));
+  const height = Math.min(Math.max(Number(rect.height), minHeight), Math.max(minHeight, window.innerHeight - 8));
+  return {
+    left: Math.min(Math.max(Number(rect.left), 4), Math.max(4, window.innerWidth - width - 4)),
+    top: Math.min(Math.max(Number(rect.top), 4), Math.max(4, window.innerHeight - height - 4)),
+    width,
+    height
+  };
+}
+function applyVocabRect(rect, persist = false) {
+  const windowElement = host.querySelector('[data-vocab-window]');
+  if (!windowElement) return;
+  const next = clampVocabRect(rect);
+  Object.assign(windowElement.style, {left: `${next.left}px`, top: `${next.top}px`, width: `${next.width}px`, height: `${next.height}px`});
+  if (persist) {
+    try { localStorage.setItem(vocabWindowKey(), JSON.stringify(next)); } catch { /* Position persistence is optional. */ }
+  }
+}
+function beginVocabInteraction(event) {
+  const drag = event.target.closest('[data-vocab-drag]');
+  const resize = event.target.closest('[data-vocab-resize]');
+  const windowElement = event.target.closest('[data-vocab-window]');
+  if (!windowElement || (!drag && !resize) || event.button !== 0) return;
+  if (drag && event.target.closest('button')) return;
+  event.preventDefault();
+  const bounds = windowElement.getBoundingClientRect();
+  vocabInteraction = {kind: resize ? 'resize' : 'drag', edge: resize?.dataset.vocabResize || '', startX: event.clientX, startY: event.clientY, rect: {left: bounds.left, top: bounds.top, width: bounds.width, height: bounds.height}};
+  document.documentElement.classList.add('is-moving-vocab-window');
+}
+function moveVocabInteraction(event) {
+  if (!vocabInteraction) return;
+  const dx = event.clientX - vocabInteraction.startX;
+  const dy = event.clientY - vocabInteraction.startY;
+  const rect = {...vocabInteraction.rect};
+  if (vocabInteraction.kind === 'drag') {
+    rect.left += dx; rect.top += dy;
+  } else {
+    if (vocabInteraction.edge.includes('e')) rect.width += dx;
+    if (vocabInteraction.edge.includes('s')) rect.height += dy;
+    if (vocabInteraction.edge.includes('w')) { rect.left += dx; rect.width -= dx; }
+    if (vocabInteraction.edge.includes('n')) { rect.top += dy; rect.height -= dy; }
+  }
+  applyVocabRect(rect);
+}
+function endVocabInteraction() {
+  if (!vocabInteraction) return;
+  vocabInteraction = null;
+  document.documentElement.classList.remove('is-moving-vocab-window');
+  const element = host.querySelector('[data-vocab-window]');
+  if (element) applyVocabRect(element.getBoundingClientRect(), true);
+}
+window.addEventListener('pointermove', moveVocabInteraction);
+window.addEventListener('pointerup', endVocabInteraction);
+window.addEventListener('pointercancel', endVocabInteraction);
+window.addEventListener('resize', () => {
+  const element = host.querySelector('[data-vocab-window]');
+  if (element) applyVocabRect(element.getBoundingClientRect(), true);
+});
+
+function translationButton() {
+  return `<button type="button" class="junior-translation-toggle" data-toggle-translation aria-pressed="${!translationVisible}">${translationVisible ? '隱藏中文翻譯' : '顯示中文翻譯'}</button>`;
+}
+function syncTranslationControls() {
+  host.dataset.translationHidden = String(!translationVisible);
+  host.querySelectorAll('[data-toggle-translation]').forEach((button) => {
+    button.textContent = translationVisible ? '隱藏中文翻譯' : '顯示中文翻譯';
+    button.setAttribute('aria-pressed', String(!translationVisible));
+  });
+}
+
+function readDraft() {
+  try {
+    const value = JSON.parse(localStorage.getItem(draftKey()) || '{}');
+    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+  } catch { return {}; }
+}
+function saveDraft() {
+  try { localStorage.setItem(draftKey(), JSON.stringify(answers)); } catch { /* The server still keeps submitted answers. */ }
+}
+function answeredCount() { return Object.values(answers).filter((value) => String(value || '').trim()).length; }
+
+function renderHome() {
+  if (!owner) return;
+  if (owner !== assignedOwner) {
+    host.innerHTML = '<article class="junior-empty"><p class="junior-eyebrow">YOUR LEARNING SPACE</p><h2>已成功登入</h2><p>目前沒有分配給您的考試溫習模組。新課題加入後會在這裏顯示。</p></article>';
+    return;
+  }
+  host.innerHTML = `<div class="junior-home-heading"><p class="junior-eyebrow">YOUR EXAM PREPARATION</p><h2>您的溫習模組</h2><p>使用 ${FORM_COUNT} 個詞形完成 ${TOTAL} 道混合填空題，並可分段提交。</p></div>
+    <button class="junior-module-card" type="button" data-open-module><span class="junior-module-card__number">01</span><span><strong>${escapeHtml(TITLE)}</strong><small>Word Form Challenge · ${FORM_COUNT} forms · ${TOTAL} questions</small><em data-home-progress>${Object.keys(submitted).length} / ${TOTAL} 題已提交</em></span><span aria-hidden="true">↗</span></button>`;
+}
+
+async function openLegacyModule() {
+  view = 'module';
+  host.innerHTML = `<p class="junior-loading" role="status">正在載入 ${TOTAL} 題…</p>`;
+  try { await loadModule(); if (view === 'module' && owner === assignedOwner) renderModule(); }
+  catch (error) { host.innerHTML = `<p class="junior-error" role="alert">${escapeHtml(error.message)}</p><button type="button" data-back>返回模組</button>`; }
+}
+
+async function loadModule() {
+  if (questions && clips) return;
+  if (MODULE_KEY === 'word-forms-35-oct-2026') {
+    const [response, answerResponse] = await Promise.all([
+      fetch('./junior-exam-prep/word-forms-35-questions.json?v=20261024-1'),
+      fetch('./junior-exam-prep/word-forms-35-answer-key.json?v=20261106-1')
+    ]);
+    if (!response.ok || !answerResponse.ok) throw new Error('教材暫時未能載入，請稍後再試。');
+    const [data, answerKey] = await Promise.all([response.json(), answerResponse.json()]);
+    if (data.module !== MODULE_KEY || data.questions?.length !== TOTAL || data.formGroups?.flatMap(([, rows]) => rows).length !== 138) throw new Error('教材資料未通過完整性檢查。');
+    questions = data.questions.map(question => ({...question, answer: answerKey[key(question.number)] || ''})); FORM_GROUPS = data.formGroups; FORM_COUNT = data.formCount; clips = {};
+    return;
+  }
+  const [dataResponse, audioResponse, answerResponse] = await Promise.all([
+    fetch('./junior-exam-prep/s2-oct-2026-questions.json?v=20261012-s2-1'),
+    fetch('./junior-exam-prep/audio-manifest.json?v=20261012-s2-1'),
+    fetch('./junior-exam-prep/s2-oct-2026-answer-key.json?v=20261106-1')
+  ]);
+  if (!dataResponse.ok || !audioResponse.ok || !answerResponse.ok) throw new Error('教材或語音暫時未能載入，請稍後再試。');
+  const [data, audio, answerKey] = await Promise.all([dataResponse.json(), audioResponse.json(), answerResponse.json()]);
+  if (data.module !== MODULE_KEY || data.questions?.length !== 470 || Object.keys(audio).length !== 470) throw new Error('教材資料未通過完整性檢查。');
+  questions = data.questions.map(question => ({...question, answer: answerKey[key(question.number)] || answerKey[String(question.number)] || ''}));
+  clips = audio;
+}
+
+async function loadSubmissions(expectedOwner) {
+  try {
+    const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('junior_exam_list_responses', {p_token: token, p_module_key: MODULE_KEY});
+    if (owner !== expectedOwner || !Array.isArray(rows)) return;
+    const serverAnswers = {};
+    submitted = {};
+    for (const row of rows) {
+      const number = Number(row.question_number);
+      if (number < 1 || number > TOTAL) continue;
+      serverAnswers[key(number)] = String(row.answer || '');
+      submitted[key(number)] = Boolean(row.correct);
+    }
+    answers = {...serverAnswers, ...readDraft()};
+    if (view === 'module') renderModule(); else renderHome();
+  } catch {
+    if (owner === expectedOwner) {
+      const status = host.querySelector('[data-submit-status]');
+      if (status) status.textContent = '暫時未能讀取帳戶紀錄；已載入本機草稿。';
+    }
+  }
+}
+
+function tableRows() {
+  return FORM_GROUPS.flatMap(([family, forms]) => forms.map(([form, meaning], index) =>
+    `<tr><th scope="row">${index === 0 ? escapeHtml(family) : ''}</th><td lang="en">${escapeHtml(form)}</td><td>${escapeHtml(meaning)}</td></tr>`
+  )).join('');
+}
+function questionCard(question) {
+  const number = key(question.number);
+  const sentence = escapeHtml(question.sentence).replace('_____', `<input class="junior-answer" data-answer="${number}" name="answer-${number}" type="text" maxlength="100" autocomplete="off" spellcheck="false" aria-label="第 ${question.number} 題答案" value="${escapeHtml(answers[number] || '')}">`);
+  const answer = escapeHtml(question.answer || '');
+  const result = submitted[number] === undefined ? '' : submitted[number]
+    ? `<span class="junior-result is-correct" data-result="${number}">✓ 正確</span>`
+    : `<span class="junior-result is-incorrect" data-result="${number}">✕ 答錯</span>${answer ? `<span class="junior-correct-answer">正確答案：<strong lang="en">${answer}</strong></span>` : ''}`;
+  return `<article class="junior-question" id="junior-q-${number}" data-question="${number}"><div class="junior-question__top"><span class="junior-question__number">${number}</span>${clips?.[number] ? `<button type="button" class="junior-audio" data-play="${number}" aria-label="播放第 ${question.number} 題的英文語音">▶ 聆聽</button>` : ''}</div><p class="junior-question__sentence" lang="en">${sentence}</p><p class="junior-question__translation">${escapeHtml(question.translation)}</p><div class="junior-question__feedback" data-feedback="${number}">${result}</div></article>`;
+}
+function renderModule() {
+  if (!questions || !clips || !owner) return;
+  const groups = [];
+  for (let start = 0; start < TOTAL; start += 20) {
+    groups.push(`<section class="junior-question-group" aria-labelledby="junior-group-${start + 1}"><h3 id="junior-group-${start + 1}">Questions ${String(start + 1).padStart(3, '0')}–${String(Math.min(start + 20, TOTAL)).padStart(3, '0')}</h3>${questions.slice(start, start + 20).map(questionCard).join('')}</section>`);
+  }
+  host.innerHTML = `<div class="junior-module-heading"><button type="button" class="junior-back" data-back>← 所有模組</button><p class="junior-eyebrow">S2 · OCTOBER 2026</p><h2>${escapeHtml(TITLE)}</h2><p>每題填入一個詞或片語。可以先提交已填答案，或填妥 ${TOTAL} 題後作完整提交。</p></div>
+  ${juniorHighlightToolbar()}
+  <aside class="junior-vocab-window" data-vocab-window aria-label="可移動及調整大小的詞形參考表" ${tableVisible ? '' : 'hidden'}><div class="junior-table-head" data-vocab-drag><div><span class="junior-eyebrow">REFERENCE TABLE · 拖曳移動</span><h3>${FORM_COUNT} 個詞形一覽</h3></div><button type="button" data-toggle-table aria-expanded="${tableVisible}">關閉詞形表</button></div><div class="junior-table-scroll"><table><thead><tr><th>詞族</th><th>詞形</th><th>用法與意思</th></tr></thead><tbody>${tableRows()}</tbody></table></div><span class="junior-vocab-resize is-nw" data-vocab-resize="nw" aria-hidden="true"></span><span class="junior-vocab-resize is-ne" data-vocab-resize="ne" aria-hidden="true"></span><span class="junior-vocab-resize is-sw" data-vocab-resize="sw" aria-hidden="true"></span><span class="junior-vocab-resize is-se" data-vocab-resize="se" aria-hidden="true"></span></aside>
+  <div class="junior-exam-toolbar"><span><strong data-answered-count>${answeredCount()}</strong> / ${TOTAL} 題已填</span><button type="button" data-toggle-table aria-expanded="${tableVisible}">${tableVisible ? '隱藏詞形表' : '顯示詞形表'}</button>${translationButton()}<label>跳至題目 <input type="number" min="1" max="${TOTAL}" data-jump aria-label="跳至題目編號"></label><button type="button" data-jump-button>前往</button><span data-submitted-count>${Object.keys(submitted).length} 題已提交</span><button type="button" data-submit-now="partial">提交已填答案</button><button type="button" data-submit-now="final" ${answeredCount() === TOTAL ? '' : 'disabled'}>提交全部</button><span class="junior-toolbar-status" role="status" aria-live="polite" data-toolbar-status></span></div>
+  <form data-exam-form novalidate>${groups.join('')}<div class="junior-submit-bar"><div><strong>提交答案</strong><small>部分提交會保存所有已填答案；完整提交需要填妥 ${TOTAL} 題。</small><p role="status" aria-live="polite" data-submit-status></p></div>${translationButton()}<button type="submit" name="mode" value="partial" data-submit-partial>提交已填答案</button><button type="submit" name="mode" value="final" data-submit-final ${answeredCount() === TOTAL ? '' : 'disabled'}>提交全部 ${TOTAL} 題</button></div></form>`;
+  syncTranslationControls();
+  highlighter.syncToolbar();
+  updateCounters();
+  applyVocabRect(savedVocabRect());
+}
+
+function updateCounters() {
+  host.querySelector('[data-answered-count]')?.replaceChildren(String(answeredCount()));
+  host.querySelectorAll('[data-submit-final], [data-submit-now="final"]').forEach((button) => { button.disabled = answeredCount() !== TOTAL || saving; });
+  host.querySelectorAll('[data-submit-partial], [data-submit-now="partial"]').forEach((button) => { button.disabled = answeredCount() === 0 || saving; });
+  host.querySelector('[data-submitted-count]')?.replaceChildren(`${Object.keys(submitted).length} 題已提交`);
+}
+async function submit(final) {
+  if (saving || !owner || owner !== assignedOwner) return;
+  const payload = Object.fromEntries(Object.entries(answers).filter(([, value]) => String(value || '').trim()).map(([number, value]) => [number, String(value).trim()]));
+  const count = Object.keys(payload).length;
+  const statuses = host.querySelectorAll('[data-submit-status], [data-toolbar-status]');
+  const showStatus = (message) => statuses.forEach((status) => { status.textContent = message; });
+  if (!count || (final && count !== TOTAL)) {
+    showStatus(final ? `請先填妥全部 ${TOTAL} 題。` : '請先填寫至少一題。');
+    return;
+  }
+  saving = true;
+  updateCounters();
+  showStatus('正在儲存到學生帳戶…');
+  try {
+    const outcome = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('junior_exam_submit', {p_token: token, p_module_key: MODULE_KEY, p_answers: payload, p_final: final});
+    for (const [number, correct] of Object.entries(outcome.results || {})) {
+      submitted[number] = Boolean(correct);
+      const feedback = host.querySelector(`[data-feedback="${number}"]`);
+      const question = questions?.[Number(number) - 1];
+      const answer = escapeHtml(question?.answer || '');
+      if (feedback) feedback.innerHTML = correct
+        ? '<span class="junior-result is-correct">✓ 正確</span>'
+        : `<span class="junior-result is-incorrect">✕ 答錯</span>${answer ? `<span class="junior-correct-answer">正確答案：<strong lang="en">${answer}</strong></span>` : ''}`;
+    }
+    host.querySelector('[data-submitted-count]')?.replaceChildren(`${Object.keys(submitted).length} 題已提交`);
+    showStatus(`${final ? '完整' : '部分'}提交成功：${outcome.submitted} 題，${outcome.correct} 題正確。答案已儲存到學生帳戶。`);
+    saveDraft();
+  } catch (error) {
+    showStatus(`未能提交：${error.message || '請檢查網絡後重試。'} 本機草稿仍在。`);
+  } finally { saving = false; updateCounters(); }
+}
+
+host.addEventListener('input', (event) => {
+  const input = event.target.closest('[data-answer]');
+  if (!input) return;
+  answers[input.dataset.answer] = input.value;
+  delete submitted[input.dataset.answer];
+  host.querySelector(`[data-feedback="${input.dataset.answer}"]`)?.replaceChildren();
+  saveDraft();
+  updateCounters();
+});
+host.addEventListener('submit', (event) => {
+  if (!event.target.matches('[data-exam-form]')) return;
+  event.preventDefault();
+  void submit(event.submitter?.value === 'final');
+});
+host.addEventListener('click', async (event) => {
+  if (event.target.closest('[data-open-module]')) {
+    await openLegacyModule();
+  } else if (event.target.closest('[data-back]')) {
+    player.pause(); window.location.assign('./junior-exam-prep.html');
+  } else if (event.target.closest('[data-submit-now]')) {
+    void submit(event.target.closest('[data-submit-now]').dataset.submitNow === 'final');
+  } else if (event.target.closest('[data-toggle-table]')) {
+    tableVisible = !tableVisible;
+    const table = host.querySelector('[data-vocab-window]');
+    if (table) table.hidden = !tableVisible;
+    host.querySelectorAll('[data-toggle-table]').forEach((button) => { button.textContent = tableVisible ? '隱藏詞形表' : '顯示詞形表'; button.setAttribute('aria-expanded', String(tableVisible)); });
+    if (tableVisible) requestAnimationFrame(() => applyVocabRect(savedVocabRect()));
+  } else if (event.target.closest('[data-toggle-translation]')) {
+    translationVisible = !translationVisible;
+    try { localStorage.setItem(translationKey(), translationVisible ? 'visible' : 'hidden'); } catch { /* The current-page toggle still works. */ }
+    syncTranslationControls();
+  } else if (event.target.closest('[data-jump-button]')) {
+    const number = Number(host.querySelector('[data-jump]')?.value);
+    if (number >= 1 && number <= TOTAL) host.querySelector(`#junior-q-${key(number)}`)?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  } else if (event.target.closest('[data-play]')) {
+    const button = event.target.closest('[data-play]');
+    const clip = clips?.[button.dataset.play];
+    if (!clip) return;
+    if (player.src.endsWith(`/q${button.dataset.play}.mp3`) && !player.paused) { player.pause(); return; }
+    player.pause(); player.src = `./${clip.path}`;
+    try { await player.play(); } catch { button.textContent = '音檔暫時無法播放'; }
+  }
+});
+host.addEventListener('pointerdown', beginVocabInteraction);
+
+function syncSession() {
+  const session = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
+  const next = session?.user?.id || null;
+  if (next === owner) { token = session?.token || ''; return; }
+  owner = next; token = session?.token || '';
+  const custom = owner === WORD_FORMS_OWNER && (owner !== JAYDEN_ID || new URLSearchParams(location.search).get('module') === 'word-forms-35');
+  MODULE_KEY = custom ? 'word-forms-35-oct-2026' : 's2-exam-prep-oct-2026';
+  TOTAL = custom ? 138 : 470; TITLE = custom ? '35 Words · Word Form Practice' : 'S2 Exam Prep - Oct 2026';
+  assignedOwner = custom ? WORD_FORMS_OWNER : JAYDEN_ID;
+  FORM_GROUPS = LEGACY_FORM_GROUPS; FORM_COUNT = custom ? 138 : 47;
+  questions = null; clips = null;
+  player.pause(); answers = {}; submitted = {}; view = 'home';
+  if (!owner) { host.replaceChildren(); return; }
+  try { translationVisible = localStorage.getItem(translationKey()) !== 'hidden'; } catch { translationVisible = true; }
+  answers = readDraft();
+  renderHome();
+  if (owner === assignedOwner) {
+    void loadSubmissions(owner);
+    if (window.location.hash === '#module') void openLegacyModule();
+  }
+}
+window.addEventListener('edmund:learning-portal-session', syncSession);
+syncSession();

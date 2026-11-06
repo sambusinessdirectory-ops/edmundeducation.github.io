@@ -1,0 +1,1 @@
+Vendored @jsquash/webp 1.5.0 (Apache-2.0). encode.js uses the portable non-SIMD codec without feature-detection dependency. Only loaded on photo upload when the browser cannot encode WebP natively. Images stay in the browser during conversion.

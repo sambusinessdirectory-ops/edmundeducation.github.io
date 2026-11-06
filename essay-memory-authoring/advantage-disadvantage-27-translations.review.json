@@ -1,0 +1,139 @@
+{
+  "key": "advantage-disadvantage:27",
+  "sourceSentenceCount": 18,
+  "reason": "Canonical Traditional Chinese has added, shifted or omitted material; proposed items align one-to-one with physical English sentences.",
+  "sentences": [
+    {
+      "number": 1,
+      "english": "In many workplaces, especially those that rely heavily on digital communication, employers now expect staff to remain reachable even during annual leave.",
+      "sourceChinese": "在許多職場中，尤其是那些高度依賴數碼溝通的工作環境裡，僱主如今要求員工即使在年假期間也要保持聯絡。",
+      "proposedChinese": "在許多職場中，尤其是那些高度依賴數碼溝通的工作環境裡，僱主如今要求員工即使在年假期間也要保持聯絡。"
+    },
+    {
+      "number": 2,
+      "english": "Although this arrangement may seem commercially sensible, I do not believe it has more advantages than disadvantages.",
+      "sourceChinese": "雖然這種安排在商業上似乎合理，但我不認為它的好處多於壞處。",
+      "proposedChinese": "雖然這種安排在商業上似乎合理，但我不認為它的好處多於壞處。"
+    },
+    {
+      "number": 3,
+      "english": "Any gain in responsiveness is outweighed by the harm it causes to employees’ recovery, morale and long-term effectiveness.",
+      "sourceChinese": "我並不認為這種發展的優點大於缺點，因為它在回應速度上的任何好處，都被其對員工休息恢復、士氣以及長遠工作效率所造成的損害所超過。",
+      "proposedChinese": "回應速度帶來的任何好處，都不足以抵銷這做法對員工恢復精力、士氣和長期工作效率的傷害。"
+    },
+    {
+      "number": 4,
+      "english": "Admittedly, there is one clear benefit to this practice.",
+      "sourceChinese": "誠然，這種做法的一項優點是它能讓緊急問題更快得到處理。",
+      "proposedChinese": "誠然，這種做法有一項明確的好處。"
+    },
+    {
+      "number": 5,
+      "english": "If a serious problem arises unexpectedly, immediate contact with the relevant employee can prevent a minor disruption from developing into a major one.",
+      "sourceChinese": "如果突發嚴重問題，立即聯絡相關員工可以防止小型干擾演變成重大事故。",
+      "proposedChinese": "如果突發嚴重問題，立即聯絡相關員工可以防止小型干擾演變成重大事故。"
+    },
+    {
+      "number": 6,
+      "english": "A delayed shipment, a software failure or an urgent client request can often be resolved quickly when a staff member is available to clarify information or make a decision.",
+      "sourceChinese": "由於該員工本身已具備所需知識或決策權，問題往往可以立即釐清，決策也能更快作出，而正常運作亦可在最少延誤下恢復。",
+      "proposedChinese": "貨物延遲送達、軟件故障或客戶的緊急要求，通常可在員工能提供資訊或作出決定時迅速解決。"
+    },
+    {
+      "number": 7,
+      "english": "For example, if a hotel manager can reach the technician who understands the booking system during a holiday, dozens of reservations may be saved and customer complaints reduced.",
+      "sourceChinese": "例如，如果一位酒店經理能在假期期間聯絡到熟悉訂房系統的技術人員，便可能挽救數十個預約，並減少顧客投訴。這種持續可聯絡的狀態，也可能令僱主和客戶更放心，認為機構能夠隨時應對突發情況。",
+      "proposedChinese": "例如，若酒店經理能在假期聯絡到熟悉訂房系統的技術人員，便可能保住數十個預訂，並減少顧客投訴。"
+    },
+    {
+      "number": 8,
+      "english": "In genuinely urgent situations, therefore, constant availability can protect a company’s operations.",
+      "sourceChinese": "這種印象可以增強商業信心，維護公司的聲譽，並在突發事件發生時減低財務損失的風險。例如，一位在公眾假期期間仍能獲得緊急回覆的客戶，往往更有可能信任該公司，並維持雙方的合作關係。因此，在真正緊急的情況下，假期期間仍可聯絡員工，的確能帶來某些運作上的好處。",
+      "proposedChinese": "若真的發生緊急狀況，那麼員工隨時可聯絡便能保障公司的運作。"
+    },
+    {
+      "number": 9,
+      "english": "Nevertheless, the disadvantages are far more significant.",
+      "sourceChinese": "然而，這種發展的缺點明顯更為嚴重，因為它不但妨礙員工得到真正休息，還會逐漸削弱他們對工作的投入感。",
+      "proposedChinese": "然而，缺點要嚴重得多。"
+    },
+    {
+      "number": 10,
+      "english": "First, employees who know they may be contacted at any moment are unable to disconnect mentally from work, even when they are officially resting.",
+      "sourceChinese": "首先，當員工知道自己隨時可能被聯絡時，即使名義上正在休假，也無法在心理上真正脫離工作。",
+      "proposedChinese": "首先，當員工知道自己隨時可能被聯絡時，即使名義上正在休假，也無法在心理上真正脫離工作。"
+    },
+    {
+      "number": 11,
+      "english": "Because their attention remains partly fixed on possible messages or calls, holidays no longer serve their essential purpose of restoring energy and relieving stress.",
+      "sourceChinese": "結果是，他們始終對來電或訊息保持某種警覺，壓力水平持續偏高，而假期亦無法如其應有的功能般幫助他們恢復精力。",
+      "proposedChinese": "由於他們仍會分心留意可能收到的訊息或來電，假期便無法發揮恢復精力和紓緩壓力的基本作用。"
+    },
+    {
+      "number": 12,
+      "english": "As a result, workers often return feeling drained rather than refreshed.",
+      "sourceChinese": "例如，一名在家庭旅行期間不斷查看電郵的上班族，回到工作崗位時往往會感到精神疲憊，而非重新充電。",
+      "proposedChinese": "結果，員工回來時往往感到筋疲力盡，而不是精神飽滿。"
+    },
+    {
+      "number": 13,
+      "english": "Second, this culture gradually damages commitment to the employer.",
+      "sourceChinese": "第二，私人時間一再被工作侵入，會使員工感到自己的個人界線沒有受到尊重。",
+      "proposedChinese": "第二，這種文化會逐漸削弱員工對僱主的投入感。"
+    },
+    {
+      "number": 14,
+      "english": "When private time is repeatedly interrupted, people feel that their personal boundaries are not respected, which breeds resentment and reduces loyalty.",
+      "sourceChinese": "這會滋生怨氣，削弱士氣，長遠而言更可能導致職業倦怠、忠誠度下降，甚至離職，而最終受害的其實也是機構本身。",
+      "proposedChinese": "當私人時間一再被打斷，人們會覺得自己的界線不受尊重，因而心生怨氣，對機構的忠誠度也會下降。"
+    },
+    {
+      "number": 15,
+      "english": "A nurse, teacher or office worker who is contacted during family trips or public holidays may cooperate at first, but repeated intrusion can eventually lead to burnout or resignation.",
+      "sourceChinese": "一名護士、教師或文職員工如果年復一年在假期中被打擾，起初或許仍會配合，但最終很可能選擇辭職，轉到一份界線更健康的工作。",
+      "proposedChinese": "假期或公眾假日被聯絡的護士、教師或文職員工，起初可能仍會配合，但反覆的打擾最終可能使他們倦怠或辭職。"
+    },
+    {
+      "number": 16,
+      "english": "Businesses then face higher recruitment costs, weaker team stability and lower productivity.",
+      "sourceChinese": "基於以上原因，長遠來看，假期期間持續聯絡員工帶來的傷害多於好處。",
+      "proposedChinese": "企業接着會面對更高的招聘成本、較不穩定的團隊和較低的生產力。"
+    },
+    {
+      "number": 17,
+      "english": "In conclusion, while the ability to contact staff on holidays may occasionally help employers deal with emergencies, it is a negative development overall.",
+      "sourceChinese": "總結而言，雖然在假期期間仍能聯絡員工有時的確能幫助僱主處理緊急情況，但整體來說，這是一種負面的發展。",
+      "proposedChinese": "總結而言，雖然在假期期間仍能聯絡員工有時的確能幫助僱主處理緊急情況，但整體來說，這是一種負面的發展。"
+    },
+    {
+      "number": 18,
+      "english": "The limited operational advantage is decisively outweighed by the damage done to workers’ wellbeing and to the sustainable performance of the organisation itself.",
+      "sourceChinese": "在回應速度方面那種有限的優勢，顯然被它對員工福祉以及機構本身可持續表現所造成的損害所超過。",
+      "proposedChinese": "在回應速度方面那種有限的優勢，顯然被它對員工福祉以及機構本身可持續表現所造成的損害所超過。"
+    }
+  ],
+  "rawChinese": [
+    "在許多職場中，尤其是那些高度依賴數碼溝通的工作環境裡，僱主如今要求員工即使在年假期間也要保持聯絡。",
+    "雖然這種安排在商業上似乎合理，但我不認為它的好處多於壞處。",
+    "回應速度帶來的任何好處，都不足以抵銷這做法對員工恢復精力、士氣和長期工作效率的傷害。",
+    "誠然，這種做法有一項明確的好處。",
+    "如果突發嚴重問題，立即聯絡相關員工可以防止小型干擾演變成重大事故。",
+    "貨物延遲送達、軟件故障或客戶的緊急要求，通常可在員工能提供資訊或作出決定時迅速解決。",
+    "例如，若酒店經理能在假期聯絡到熟悉訂房系統的技術人員，",
+    "便可能保住數十個預訂，並減少顧客投訴。",
+    "若真的發生緊急狀況，",
+    "那麼",
+    "員工隨時可聯絡便能保障公司的運作。",
+    "然而，缺點要嚴重得多。",
+    "首先，當員工知道自己隨時可能被聯絡時，即使名義上正在休假，也無法在心理上真正脫離工作。",
+    "由於他們仍會分心留意可能收到的訊息或來電，假期便無法發揮恢復精力和紓緩壓力的基本作用。",
+    "結果，員工回來時往往感到筋疲力盡，而不是精神飽滿。",
+    "第二，這種文化會逐漸削弱員工對僱主的投入感。",
+    "當私人時間一再被打斷，人們會覺得自己的界線不受尊重，因而心生怨氣，對機構的忠誠度也會下降。",
+    "假期或公眾假日被聯絡的護士、教師或文職員工，起初可能仍會配合，但反覆的打擾最終可能使他們倦怠或辭職。",
+    "企業接着會面對更高的招聘成本、較不穩定的團隊和較低的生產力。",
+    "總結而言，雖然在假期期間仍能聯絡員工有時的確能幫助僱主處理緊急情況，但整體來說，這是一種負面的發展。",
+    "在回應速度方面那種有限的優勢，顯然被它對員工福祉以及機構本身可持續表現所造成的損害所超過。"
+  ],
+  "rawItemCount": 21
+}

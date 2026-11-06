@@ -1,0 +1,811 @@
+{
+  "id": "p2-167-warning-mondays-are-bad-for-your-heart",
+  "catalogueId": "p2-167",
+  "catalogueIds": [
+    "p2-167"
+  ],
+  "passage": 2,
+  "title": "Warning: Mondays are bad for your heart",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE",
+    "iii",
+    "v",
+    "vii",
+    "ii",
+    "i",
+    "ix",
+    "viii",
+    "vi",
+    "iv"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Unemployed Germans have a higher risk of heart attack than employed Germans.”",
+      "translation": "失業德國人比受僱德國人有更高心臟病風險。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Working Germans are particularly vulnerable, with a 33 per cent higher risk at the beginning of the working week. Non-workers, by comparison, appear to be no more at risk on a Monday than any other day.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "工作的德國人尤其脆弱，在工作週開始時風險高 33%。相比之下，非工作人士在星期一的風險似乎不比其他日子高。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 只有一句，首尾都圍繞 working Germans 和 non-workers 的比較。這段很明顯是處理「工作身份」和「星期一風險」的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Unemployed Germans” 和 “employed Germans”。原文沒有用 unemployed，但有 “Non-workers”；原文也沒有用 employed，但有 “Working Germans”。這是典型同義定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 unemployed Germans 風險更高。原文方向相反：working Germans 才是 “particularly vulnerable”，而 non-workers 在星期一沒有額外風險。題目把兩組人的風險方向倒轉，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易只看到 “higher risk” 就選 TRUE，但真正要看是哪一組人 higher risk。原文的 higher risk 屬於 working Germans，不屬於 non-workers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Unemployed Italians have a lower risk of heart attack than unemployed Germans.”",
+      "translation": "失業意大利人比失業德國人有較低心臟病風險。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C + Paragraph D Paragraph C 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Non-workers, by comparison, appear to be no more at risk on a Monday than any other day.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，非工作人士在星期一的風險似乎不比其他日子高。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A study of 11,000 Italians identified 8 a.m. on a Monday morning as the most stressful time for the heart…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項涉及 11,000 名意大利人的研究指出，星期一早上 8 點是心臟最受壓的時間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 給德國 working / non-working 對比。Paragraph D 給意大利整體研究，說星期一早上 8 點最高壓，星期日最少心臟病發作。首尾句能看到兩國資料，但未見 unemployed Italians 和unemployed Germans 的直接比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Unemployed Italians”、“lower risk”、“unemployed Germans”。原文只有 German non-workers，以及 Italians 整體研究。它沒有把 Italian unemployed / non-workers 獨立抽出來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要判斷這題為 TRUE，需要原文提供兩項資料：意大利非工作人士的風險、德國非工作人士的風險，並且比較 Italian unemployed < German unemployed。文章沒有這個比較。它只是分別提到德國非工作人士和意大利整體樣本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：沒有明確相反資料，所以不能選 FALSE；但核心比較完全缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "兩國研究都出現了，容易令人想自行拼接。但 IELTS Reading 不能把 “Italians” 整體資料改成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unemployed Italians”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Germans are at risk of heart attack because they consume large amounts of fatty food.”",
+      "translation": "德國人有心臟病風險，是因為他們吃大量高脂肪食物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is clear, however, is that the Monday morning peak seems to be consistent from northern Germany to southern Italy in spite of the differences in diet and lifestyle.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，清楚的是，從德國北部到意大利南部，星期一早上的高峰似乎一致存在，儘管兩地飲食和生活方式不同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 只有一句，重點是 Monday morning peak 在不同地區都一致存在，而且不受 diet and lifestyle differences 這個表面差異影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Germans”、“because”、“fatty food”。原文有 “Germany”、“diet and lifestyle”，但沒有 “fatty food”，也沒有說德國人的飲食造成風險。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目提出一個因果命題：德國人有風險，原因是大量高脂肪食物。原文只說星期一早上的高峰在德國和意大利都出現，即使飲食和生活方式不同。這句沒有描述德國人是否吃大量 fatty food，也沒有把飲食列為德國人風險原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章缺少 “large amounts of fatty food” 和 “because” 這兩個核心部分，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “diet” 便很容易聯想到 fatty food，但原文只用 diet 作跨地區差異背景，沒有展開任何食物種類或脂肪攝取量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cholesterol and smoking trigger heart attacks.”",
+      "translation": "膽固醇和吸煙會觸發心臟病發作。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We know a lot about long-term risk factors such as smoking and cholesterol, but we don’t know what actually triggers heart attacks…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們對吸煙和膽固醇這類長期風險因素知道很多，但我們不知道實際上是什麼觸發心臟病發作。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 首句說研究可能幫助理解 heart attack triggers。末句說已知 smoking 和cholesterol 是 long-term risk factors，但 actual triggers 仍未知。首尾句直接提示：這段在區分「長期風險因素」和「真正觸發因素」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Cholesterol”、“smoking”、“trigger”。原文三個概念都出現，所以要細讀它們之間的關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文清楚把 smoking 和 cholesterol 放在 “long-term risk factors” 之下。接著說 “we don’t know what actually triggers heart attacks”。這表示文章沒有把 smoking 和 cholesterol 說成 actual triggers；相反，原文把 triggers 說成未知。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 cholesterol and smoking trigger heart attacks。原文說它們是 long-term risk factors， actual triggers still unknown。兩者關係衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的陷阱是把 risk factor 和 trigger 混在一起。risk factor 是長期增加風險的因素；trigger 是某次發作前的直接觸發點。題目把兩者混同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "iii — Breathless, sweaty and crushed",
+      "answerKey": "iii — Breathless, sweaty and crushed",
+      "type": "Matching Headings",
+      "prompt": "Questions 19–27",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 19 — Paragraph A"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That ‘Monday morning feeling’ could be a crushing pain in the chest which leaves you sweating and gasping for breath.”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent research from Germany and Italy shows that heart attacks are more common on Monday mornings and doctors blame the stress of returning to work after the weekend break.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國和意大利的最新研究顯示，心臟病發作在星期一早上較常見，醫生把原因歸咎於週末休息後重返工作的壓力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph A 用身體症狀開場：crushing pain、sweating、gasping for breath。這正好對應heading iii 的 “Breathless, sweaty and crushed”。末句再把症狀連到文章主題：星期一早上心臟病較常見。雖然這段也提到 Monday risk，但最有特色、最直接的標題語言來自首句症狀描寫，所以 iii 最貼合。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading v “High-risk Monday” 也可被 Paragraph A 的末句吸引，但 Paragraph B 才用數據正式證明 Monday 高風險。Paragraph A 的獨特功能是用症狀引入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 20 — Paragraph B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：v — High-risk Monday"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The risk of having a heart attack on any given day should be one in seven, but a six-year study… revealed that the average person had a 20 per cent higher chance of having a heart attack on a Monday than on any other day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "理論上任何一天心臟病發作風險應是七分之一，但一項六年研究顯示，一般人在星期一心臟病發作機率比其他日子高 20%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph B 的核心是風險比較。原文先提出平均分布假設 “one in seven”，再用德國六年研究指出 Monday 比其他日子高 20%。這正是 “High-risk Monday”。Heading v 不只是有 Monday 這個字，更重點在 “20 per cent higher chance” 這個數據支撐。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把 B 選成 “exact cause”。這段只證明星期一風險較高，還未解釋原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 21 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vii — Unemployed and safer"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Working Germans are particularly vulnerable, with a 33 per cent higher risk at the beginning of the working week. Non-workers, by comparison, appear to be no more at risk on a Monday than any other day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工作的德國人尤其脆弱，在工作週開始時風險高 33%。相比之下，非工作人士在星期一似乎不比其他日子更危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph C 對比 working Germans 和 non-workers。Working Germans 星期一風險更高； non-workers 則沒有額外 Monday risk。Heading vii “Unemployed and safer” 把 non-workers 的相對安全概括出來。雖然原文用 non-workers，不一定只等於 unemployed，但在選項中 vii 最貼合這個工作身份對比。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段也有 “risk”，但重點不在一般 Monday risk，而在 working / non-working 的人群差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 22 — Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ii — The safest day"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A study of 11,000 Italians identified 8 a.m. on a Monday morning as the most stressful time for the heart, and both studies showed that Sunday is the least stressful day, with fewer heart attacks in both countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項涉及 11,000 名意大利人的研究指出，星期一早上 8 點是心臟最受壓的時間；兩項研究也顯示星期日是壓力最低的一天，兩國心臟病發作都較少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph D 前半提到 Monday 8 a.m. 最高壓，但後半給出最適合 heading 的總結：Sunday is the least stressful day, with fewer heart attacks。Heading ii “The safest day” 對應 Sunday。這段的功能是補充一週內的時間分布，特別是指出最安全的一天。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易被 “8 a.m. on a Monday morning” 吸走注意力，但 heading list 中沒有 “most stressful time”。真正可配的 heading 是 Sunday 作為 safest day。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 23 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：i — The exact cause of heart attacks"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The findings could lead to a better understanding of what triggers heart attacks…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現可能使人更了解是什麼觸發心臟病發作。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 末句核心："
+            },
+            {
+              "kind": "quote",
+              "text": "“We know a lot about long-term risk factors such as smoking and cholesterol, but we don’t know what actually triggers heart attacks…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們對吸煙和膽固醇這些長期風險因素知道很多，但仍不知道真正觸發心臟病發作的是什麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph E 的核心詞是 “triggers”。它處理研究的重要意義：現有醫學已知道長期風險因素，但actual trigger 仍不清楚。Heading i “The exact cause of heart attacks” 雖然用 cause，不是trigger 原字，但意思最接近這段的核心問題：真正引發心臟病的即時原因尚待理解。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv “Reducing the risk” 也容易被 “specific recommendations” 吸引，但這段說目前不能提出具體建議，焦點仍在 trigger 未明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 24 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ix — Bodily adaptations"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Monday mornings have a double helping of stress for the working body as it makes a rapid transition from sleep to activity, and from the relaxing weekend to the pressures of work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星期一早上給工作的身體帶來雙重壓力，因為身體要快速從睡眠轉向活動，也要從週末放鬆轉向工作壓力。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 核心末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need to know how these events cause changes in the body before we can understand if they cause heart attacks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要知道這些事件如何造成身體變化，才能理解它們是否會造成心臟病發作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph F 集中解釋身體反應：blood pressure、heart rate、hormonal changes、circulatory system、clot in the arteries。這些都屬於身體在星期一早上面對壓力時的 physiological changes。Heading ix “Bodily adaptations” 最貼合這段的生理機制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段也談 work stress，但它不只停留在心理壓力；重點轉向身體如何變化，這就是 heading ix 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 25 — Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：viii — Older people also at risk"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But although it is tempting to believe that returning to work increases the risk of a heart attack, both Willich and the Italian researchers admit that it is only a partial answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然人們很容易相信重返工作會增加心臟病風險，但 Willich 和意大利研究者都承認這只是一部分答案。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both studies showed that the over-65s are also vulnerable on a Monday morning even though most no longer work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩項研究都顯示，65 歲以上人士在星期一早上也很脆弱，即使大多數人已不再工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph G 修正前文的工作壓力解釋。它指出即使大多數 over-65s 不再工作，他們星期一早上仍有風險。這正好對應 heading viii “Older people also at risk”。“also” 很重要，因為它說明風險不只出現在上班族，也出現在年長人士身上。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段開頭有 returning to work，但段落真正的新資訊在 over-65s。Matching headings 要抓全段新焦點，不要只抓開頭舊話題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 26 — Paragraph H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vi — Mondays: riskier regardless of diet and lifestyle"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is clear, however, is that the Monday morning peak seems to be consistent from northern Germany to southern Italy in spite of the differences in diet and lifestyle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，清楚的是，從德國北部到意大利南部，星期一早上的高峰似乎一致存在，儘管兩地飲食和生活方式不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph H 和 heading vi 幾乎是直接改寫。原文的 “Monday morning peak” 對應 “Mondays: riskier”；“in spite of the differences in diet and lifestyle” 對應 “regardless of diet and lifestyle”。這段功能是說明研究結果跨地區一致，不被飲食和生活方式差異削弱。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把這段解讀成飲食造成心臟病。原文只說即使 diet and lifestyle 不同，星期一高峰仍存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 27 — Paragraph I"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iv — Reducing the risk of heart attack"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Willich is reluctant at this stage to make specific recommendations, but he suggests that anyone who suffers from heart disease should take it easy on Monday mornings and leave potentially stressful meetings until midweek.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Willich 現階段不願提出具體建議，但他建議心臟病患者星期一早上放輕鬆，並把可能帶來壓力的會議留到週中。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need to find out more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們仍需要了解更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： Paragraph I 的功能是提出暫時性的實用建議。take it easy、leave stressful meetings until midweek、create a pleasant working environment，全部都和降低星期一早上壓力有關。Heading iv “Reducing the risk of heart attack” 最能概括這段。末句保留研究不確定性，說明這些建議仍屬謹慎推論。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段開頭說 Willich 不願提出 specific recommendations，但後面仍有建議。考 headings 時，要看整段功能：謹慎地提出減低風險的方法。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Warning_ Mondays are bad for your heart.pdf",
+    "sha256": "2c7386e46c221d8ee8a37b208de214c0fefd49e718443b235aa12e0830e0ca3d",
+    "pageCount": 12
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用 “Monday morning feeling” 包裝成心臟病發作的症狀：胸口壓痛、冒汗、喘氣。末句說德國和意大利研究發現，心臟病發作在星期一早上較常見，醫生把原因指向週末後重返工作的壓力。只看首尾句，可以先估計這段是全篇引入：它用生動症狀吸引讀者，再提出核心現象——Monday morning heart attacks。"
+      },
+      {
+        "number": "B",
+        "summary": "這段只有一句，首尾訊息集中在同一句。原文先說理論上任何一天心臟病風險應是七分之一，接著用六年德國研究推翻這個平均假設：2600 多名德國人資料顯示，星期一心臟病機率比其他日子高 20%。這段功能很清楚：用德國數據證明星期一確實是高風險日。"
+      },
+      {
+        "number": "C",
+        "summary": "這段也只有一句。句子前半說 working Germans 在工作週開始時尤其脆弱，風險高 33%；後半用non-workers 作比較，說他們星期一的風險並沒有比其他日子高。只看這句已能看到段落焦點：風險和工作身份有關，工作人士較危險，非工作人士星期一相對安全。"
+      },
+      {
+        "number": "D",
+        "summary": "這段只有一句，但同時處理意大利研究和跨國結果。句子前半說 11,000 名意大利人的研究指出，星期一早上 8 點是心臟最受壓的時間；後半說兩項研究都顯示星期日最少心臟病發作。這段的功能是補充時間細節，並指出相對最安全的一天是 Sunday。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說這些研究結果可能幫助人們更理解 heart attack 的 triggers。末句引用 Willich：人們知道smoking 和 cholesterol 這些 long-term risk factors，但仍不清楚實際觸發心臟病的因素，所以未能提出具體預防建議。首尾句顯示這段在處理研究意義：它關心的是「真正觸發點」仍未明朗。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說星期一早上給 working body 帶來雙重壓力：從睡眠轉為活動，從週末放鬆轉為工作壓力。末句說研究者仍需要知道這些事件如何引起身體變化，才可理解它們是否造成心臟病。這段功能偏向生理機制：血壓、心跳、荷爾蒙、血塊風險都在解釋 Monday morning peak 的可能身體過程。"
+      },
+      {
+        "number": "G",
+        "summary": "首句先提出保留：重返工作看似能解釋星期一風險，但只是一部分答案。末句說原因仍不清楚，意大利團隊推測 social interactions，以及面對新一週壓力的心理預期，可能也有影響。只看首尾句，可以估計本段在修正前文：工作壓力不能解釋所有人，尤其 over-65s 也在星期一早上有風險。"
+      },
+      {
+        "number": "H",
+        "summary": "這段只有一句，資訊非常集中。它說 Monday morning peak 從德國北部到意大利南部都一致存在，儘管兩地 diet 和 lifestyle 有差異。這段功能是強化研究發現的普遍性：星期一早上的高峰似乎跨越不同飲食與生活方式，所以不能簡單歸因於某一地區的生活習慣。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Willich 現階段不願提出具體建議，但他仍建議心臟病患者星期一早上放慢節奏，並把高壓會議延至週中。末句說風險也許只適用於把工作視為負擔的人，研究仍需更多資料。這段功能是收結與實用建議：先提出暫時性減壓方法，再保留研究不確定性。"
+      }
+    ]
+  }
+}

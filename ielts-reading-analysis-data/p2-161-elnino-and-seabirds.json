@@ -1,0 +1,1642 @@
+{
+  "id": "p2-161-elnino-and-seabirds",
+  "catalogueId": "p2-161",
+  "catalogueIds": [
+    "p2-161"
+  ],
+  "passage": 2,
+  "title": "Elnino and Seabirds",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "B",
+    "A",
+    "A",
+    "D",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "B — To help societies plan because it disrupts normal cycles for wildlife and humans.",
+      "answerKey": "B — To help societies plan because it disrupts normal cycles for wildlife and humans.",
+      "type": "Question Analysis",
+      "prompt": "Question 15",
+      "translation": "科學家為甚麼想研究 El Niño？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Why do scientists want to investigate El Niño?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。題目核心是 scientists want to investigate，即研究目的。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "scientists、El Niño、plan、disrupts normal cycles。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rhythm of the seasons cannot always be relied upon.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：季節的節奏並不總是可以依賴。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To anticipate these occasional lapses in the march of the seasons and help societies plan accordingly, scientists are seeking to understand these competing rhythms...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：為了預測季節節奏偶爾失常的情況，並幫助社會相應規劃，科學家正嘗試理解這些互"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相競爭的氣候節奏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 A 段會回答「為何研究 El Niño」。首句先說季節節奏會失常，末句直接說 scientists are seeking to understand，並給出目的：anticipate 和 help societies plan。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 investigate El Niño。原文沒有用 investigate，但用了 “scientists"
+            },
+            {
+              "kind": "paragraph",
+              "text": "are seeking to understand”。這是同義改寫：investigate = seek to understand。題目選項 B 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“help societies plan” 在原文中直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句的證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“...disrupting the normal patterns of countless species of plants and animals along with hundreds of millions of human beings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它會打亂無數植物和動物物種，以及數以億計人類的正常模式。"
+            },
+            {
+              "kind": "label",
+              "text": "再加上："
+            },
+            {
+              "kind": "quote",
+              "text": "“...help societies plan accordingly...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：幫助社會作出相應規劃。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "disrupts normal cycles for wildlife and humans= disrupting the normal patterns of plants, animals and human beings To help societies plan= help societies plan accordingly錯項分析： A 只提 marine environments，但 A 段講的是 plants、animals 和 human beings，範圍更廣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 的 theoretical and practical implications 沒有原文明確支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 只指出 El Niño 涉及 tropical Pacific Ocean，這是背景地點，不是科學家研究它的主要目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A — Their prey changes in response to temperature and sea-ice conditions.",
+      "answerKey": "A — Their prey changes in response to temperature and sea-ice conditions.",
+      "type": "Question Analysis",
+      "prompt": "Question 16",
+      "translation": "為甚麼科學家觀察全球氣候變化時會重視 seabirds？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Why do scientists use seabirds as important subjects when observing climate change worldwide?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。題目問 reason，所以要找 seabirds 和 climate change 之間的因果"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關係。定位詞是 seabirds、climate change、prey、temperature、sea ice。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seabirds are prominent and highly visible components of marine ecosystems that will be affected by global climate change.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Seabirds 是海洋生態系統中顯眼且容易觀察的成員，並會受全球氣候變化影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As prey availability changes in response to climatically driven factors such as surface sea temperature and extent of sea ice, seabird populations will also be affected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當獵物供應因海面溫度、海冰範圍等氣候驅動因素而改變時，seabird populations 也"
+            },
+            {
+              "kind": "paragraph",
+              "text": "會受影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段功能已很清楚：它解釋 seabirds 為何能反映 climate change。首句說牠們會受全球氣候變化影響；末句說影響路徑來自 prey availability 的改變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 climate change 對應原文 “global climate change”；temperature 對應 “surface"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sea temperature”；sea-ice conditions 對應 “extent of sea ice”；prey changes 對應 “prey availability changes”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As prey availability changes in response to climatically driven factors such as surface sea temperature and extent of sea ice, seabird populations will also be affected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：獵物供應會因海面溫度和海冰範圍等氣候因素而改變，而 seabird populations 也會因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "此受影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 prey availability，核心動詞是 changes，原因是 climatically driven factors。後半句把結果連到 seabird populations。選項 A 完整保留這條因果鏈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： B 的 large enough to be observed 只抓住 prominent / visible 的觀察便利性，沒有說明氣候變化如何影響 seabirds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 El Niño affects seabirds more than other marine creatures，原文沒有比較 seabirds 和other marine creatures 的受影響程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 North America 是最受 El Niño 影響的地區，原文沒有這個比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A — The number of harbour seals declined by about 85% during the late twentieth",
+      "answerKey": "A — The number of harbour seals declined by about 85% during the late twentieth",
+      "type": "Question Analysis",
+      "prompt": "Question 17",
+      "translation": "生活在 Gulf of Alaska 的 Tugidak Island 的 marine mammals 發生了甚麼事？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "century.題目問：What happened to marine mammals living on Tugidak Island in the Gulf of Alaska?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。定位詞非常明顯：Tugidak Island、Gulf of Alaska、harbor seals。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marine mammals have exhibited similar signs of food stress in recent years.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Marine mammals 近年也呈現類似的食物壓力跡象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Associated with the declines in Steller sea lions are declines in birth rate, fewer breeding females, fewer pups, decreased adult body condition, decreased juvenile survival, and a change in population age structure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Steller sea lions 的數量下降伴隨出生率下降、繁殖雌性減少、幼獸減少、成年體況下"
+            },
+            {
+              "kind": "paragraph",
+              "text": "降、幼年存活率下降，以及族群年齡結構改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段主要處理 marine mammals 的 food stress 和 population decline。題目問Tugidak Island，應在這段掃描具體地名。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Tugidak Island 是強定位詞。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harbor seals at Tugidak Island in the Gulf of Alaska declined by about 85% between 1976 and 1988.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gulf of Alaska 的 Tugidak Island 上，harbor seals 在 1976 至 1988 年間下降約 85%"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A 與原文高度一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the number of harbour seals declined= Harbor seals ... declined about 85%= by about 85%during the late twentieth century= between 1976 and 1988錯項分析： B 說 harbour-seal numbers grew，原文說 declined by about 85%，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 birth rates 和 breeding females 只在 Tugidak Island 下降，但原文這些細節屬於 Steller sea lions associated declines，沒有說 only on Tugidak Island。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 situation less serious than expected，原文沒有這種評價，85% decline 反而顯示情況嚴重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D — Drought affects places such as Australia and Indonesia.",
+      "answerKey": "D — Drought affects places such as Australia and Indonesia.",
+      "type": "Question Analysis",
+      "prompt": "Question 18",
+      "translation": "根據 Walker，某些 monsoon seasons 期間會發生甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：According to Walker, what happens during certain monsoon seasons?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。定位詞是 Walker、monsoon seasons、drought。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Walker noticed that monsoon seasons with low-index conditions are often marked by drought in Australia, Indonesia, India, and parts of Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Walker 注意到，帶有 low-index conditions 的 monsoon seasons 往往伴隨 Australia、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Indonesia、India 和 parts of Africa 的乾旱。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his reply Walker predicted, correctly, that an explanation would be forthcoming, but that it would require a knowledge of wind patterns above ground level, which were not routinely being observed at that time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Walker 在回應中正確預測將來會有解釋，但這需要了解高空風場，而這些資料當時尚"
+            },
+            {
+              "kind": "paragraph",
+              "text": "未被例行觀測。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段功能是介紹 Walker 的氣候觀察和他對解釋條件的預測。題目問 monsoon seasons，首句已直接給答案方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "monsoon seasons、Walker、drought 都在第一句直接重現。這是原字定位題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Walker noticed that monsoon seasons with low-index conditions are often marked by drought in Australia, Indonesia, India, and parts of Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Walker 發現 low-index monsoon seasons 經常以 Australia、Indonesia、India 和 parts"
+            },
+            {
+              "kind": "paragraph",
+              "text": "of Africa 的乾旱為特徵。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "certain monsoon seasons= monsoon seasons with low-index conditions drought affects places such as Australia and Indonesia= drought in Australia, Indonesia, India, and parts of Africa錯項分析： A 說 floods and droughts affect almost everywhere，原文只提 drought，且地區有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 Walker’s prediction quickly comes true，原文只說 correctly，沒有 quickly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 drought affects only parts of Africa，原文還有 Australia、Indonesia、India。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "Seabirds are regarded as valuable indicators of changes in the marine environment.",
+      "translation": "Seabirds 被視為測量海洋環境變化的有價值指標。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。要判斷題目命題是否和原文事實一致。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "valuable indicators、marine environment。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seabirds are valued as indicators of healthy marine ecosystems and provide a ‘vicarious use value’ or existence value...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Seabirds 被視為健康海洋生態系統的指標，也提供一種「替代使用價值」或存在價"
+            },
+            {
+              "kind": "paragraph",
+              "text": "值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, the rich knowledge base about seabirds makes them a valuable resource as indicator species for measurement of change in the marine environment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：此外，關於 seabirds 的豐富知識基礎，使牠們成為測量海洋環境變化的有價值"
+            },
+            {
+              "kind": "paragraph",
+              "text": "indicator species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都直接對應題目。第一句說 seabirds are valued as indicators；最後一句說 valuable resource as indicator species for measurement of change in the marine environment。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 valuable indicators 對應原文 “valuable resource as indicator species”。changes"
+            },
+            {
+              "kind": "paragraph",
+              "text": "in the marine environment 對應 “measurement of change in the marine environment”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the rich knowledge base about seabirds makes them a valuable resource as indicator species for measurement of change in the marine environment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：關於 seabirds 的豐富知識基礎，使牠們成為測量海洋環境變化的有價值指標物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題和原文命題一致： Seabirds are regarded as valuable indicators= seabirds makes them a valuable resource as indicator species changes in the marine environment= measurement of change in the marine environment所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "Seabirds such as fulmars and murres feed in different ways according to the nature of their prey.",
+      "translation": "Fulmars 和 murres 之類的 seabirds 會因獵物特性不同而用不同方式覓食。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。題目核心是 feed in different ways。定位詞是 fulmars"
+            },
+            {
+              "kind": "paragraph",
+              "text": "、murres、feed、prey。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most abundant breeding species in Alaska are northern fulmars, storm-petrels, kittiwakes, murres, auklets and puffins.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Alaska 最常見的繁殖物種包括 northern fulmars、storm-petrels、kittiwakes、murres、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "auklets 和 puffins。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...red-legged kittiwakes feed primarily on myctophids and will forage beyond the shelf break.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：red-legged kittiwakes 主要以 myctophids 為食，並會到 continental shelf break 以外"
+            },
+            {
+              "kind": "paragraph",
+              "text": "覓食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 D 段會介紹不同 seabird species 和 feeding / foraging habits。題目中的 fulmars 和murres 都在第一句出現，所以這段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "fulmars 和 murres 是強定位詞。掃描後找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fulmars, storm-petrels and kittiwakes are surface feeders, picking their prey from the surface or just below the surface; murres, auklets, and puffins dive for their food.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fulmars、storm-petrels 和 kittiwakes 是 surface feeders，會從水面或水面下方取食；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "murres、auklets 和 puffins 則潛水取食。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句清楚對比兩種 feeding methods。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fulmars：surface feeders，從 surface 或 just below the surface 取 prey。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Murres：dive for their food，潛水取食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “according to the nature of their prey” 是對 prey 所在位置和取得方式的概括。原文的關鍵不在 prey 的物種名稱，而在 prey 位於水面附近，或需要 diving 才能取得。題目將這種差異概括為不同獵物條件下的不同覓食方式，符合原文方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易卡在 “according to the nature of their prey”。原文沒有用 nature 這個字，但有 “picking their prey from the surface or just below the surface” 和 “dive for their food”。IELTS 常把具體位置與行為差異概括成較抽象的表達。這裡仍屬可接受改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "Steller sea lions showed only lower birth rates and fewer pups; the overall population was unaffected.",
+      "translation": "Steller sea lions 只出現出生率較低和幼獸較少，整體族群數量沒有受影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。控制詞是 only 和 overall population was unaffected"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。這兩個詞都很重要。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marine mammals have exhibited similar signs of food stress in recent years.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Marine mammals 近年也呈現類似的食物壓力跡象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Associated with the declines in Steller sea lions are declines in birth rate, fewer breeding females, fewer pups, decreased adult body condition, decreased juvenile survival, and a change in population age structure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Steller sea lions 的數量下降伴隨出生率下降、繁殖雌性減少、幼獸減少、成年體況下"
+            },
+            {
+              "kind": "paragraph",
+              "text": "降、幼年存活率下降，以及族群年齡結構改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 E 段是 marine mammals decline 的段落，題目提 Steller sea lions，應在此定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Steller sea lions 在原文中出現兩次。第一個關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Steller sea lion populations declined by 36% in the Gulf of Alaska between 1977 and 1985, and by another 59% between 1985 and 1990.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gulf of Alaska 的 Steller sea lion populations 在 1977 至 1985 年間下降 36%，並在"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1985 至 1990 年間再下降 59%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句直接推翻 “overall population was unaffected”。原文明確說 populations declined，而"
+            },
+            {
+              "kind": "paragraph",
+              "text": "且數字很大。最後一句也推翻 only，因為它列出的後果不只 lower birth rates 和 fewer pups，還包括 fewer breeding females、decreased adult body condition、decreased juvenile survival 和age structure change。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： only lower birth rates and fewer pups overall population was unaffected原文命題： populations declined by 36% and another 59%plus several associated biological declines原文與題目方向相反，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "In replying to his colleague, Walker said that knowledge of wind patterns would be very helpful.",
+      "translation": "Walker 回應同事時說，了解 wind patterns 會很有幫助。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 replying to his colleague、Walker、wind"
+            },
+            {
+              "kind": "paragraph",
+              "text": "patterns。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Walker noticed that monsoon seasons with low-index conditions are often marked by drought in Australia, Indonesia, India, and parts of Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Walker 注意到 low-index monsoon seasons 經常伴隨 Australia、Indonesia、India 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "parts of Africa 的乾旱。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his reply Walker predicted, correctly, that an explanation would be forthcoming, but that it would require a knowledge of wind patterns above ground level, which were not routinely being observed at that time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Walker 在回應中正確預測將來會有解釋，但這需要了解高空風場，而這些資料當時尚"
+            },
+            {
+              "kind": "paragraph",
+              "text": "未例行觀測。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句直接對應題目中的 replying 和 wind patterns。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “In replying to his colleague” 對應原文 “In his reply”。“knowledge of wind"
+            },
+            {
+              "kind": "paragraph",
+              "text": "patterns” 原文也直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“...it would require a knowledge of wind patterns above ground level...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這將需要了解高空風場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 would be very helpful，原文說 would require。require 的程度比 helpful 更強，意思是這種知識不只幫得上忙，甚至是解釋所需的條件。題目把 stronger expression 轉成較保守的說法，仍然受到原文支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "Ornithologists and ecologists find it difficult to investigate El Niño because of insufficient data and monitoring.",
+      "translation": "由於資料和監測不足，鳥類學家和生態學家難以研究 El Niño。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 ornithologists、ecologists、difficult、data、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "monitoring。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long-term time series are needed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：需要長期時間序列資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The recipe prescribed by Schreiber & Schreiber to understand El Niño’s effects on birds still stands: ‘...carry out long-term studies that will shed further light on the interactions between global atmospheric cycles, oceanographic phenomena, and avian populations.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Schreiber & Schreiber 提出的理解 El Niño 對鳥類影響的方法仍然成立：進行長期研"
+            },
+            {
+              "kind": "paragraph",
+              "text": "究，以進一步說明全球大氣循環、海洋現象和鳥類族群之間的互動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向同一功能：本段強調長期資料不足，所以研究 El Niño 對鳥類的影響很困難。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 ornithologists and ecologists 在原文直接出現。關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even when ornithologists and ecologists are at hand to take advantage of an incoming El Niño, lack of preexisting data, and of monitoring afterwards, makes it difficult to understand responses of birds...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：即使鳥類學家和生態學家在場，能利用即將到來的 El Niño，缺乏既有資料和事後監測"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，仍使人難以理解鳥類反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目與原文完全同方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "insufficient data= lack of preexisting data monitoring= monitoring afterwards find it difficult= makes it difficult所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "Seabird populations in Alaska are similar in size and diversity to those elsewhere in the Northern Hemisphere.",
+      "translation": "Alaska 的 seabird populations 在規模和多樣性上，與 Northern Hemisphere 其他地方相似。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。題目核心是 comparison。要找 Alaska 和 elsewhere"
+            },
+            {
+              "kind": "paragraph",
+              "text": "in the Northern Hemisphere 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Populations of seabirds in Alaska are larger and more diverse than any similar region in the Northern Hemisphere.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Alaska 的 seabird populations 比 Northern Hemisphere 任何相似地區都更大、更多"
+            },
+            {
+              "kind": "paragraph",
+              "text": "樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shearwaters, which breed in the Southern Hemisphere, are the most numerous species in Alaskan waters during the summer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Southern Hemisphere 繁殖的 shearwaters，是夏季 Alaskan waters 中數量最多的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接提供比較。題目說 similar，原文說 larger and more diverse than any similar region，兩者方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Alaska、size and diversity、Northern Hemisphere 都在 Paragraph H 首句對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "similar in size and diversity對比larger and more diverse than any similar region"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Populations of seabirds in Alaska are larger and more diverse than any similar region in the Northern Hemisphere.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Alaska 的 seabird populations 比 Northern Hemisphere 任何相似地區都更大、更多"
+            },
+            {
+              "kind": "paragraph",
+              "text": "樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：Alaska 與其他地區 similar。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Alaska 比任何相似地區 larger and more diverse。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是清楚衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 similar，看起來很溫和，但 comparison 的方向錯了。IELTS 中比較詞很關鍵：similar、larger、more diverse、than any similar region 不能混讀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "Shearwaters that breed in the Southern Hemisphere are the most numerous seabirds in Alaskan waters during summer.",
+      "translation": "在 Southern Hemisphere 繁殖的 shearwaters，是夏季 Alaskan waters 中數量最多的seabirds。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 shearwaters、Southern Hemisphere、most"
+            },
+            {
+              "kind": "paragraph",
+              "text": "numerous、summer。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Populations of seabirds in Alaska are larger and more diverse than any similar region in the Northern Hemisphere.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Alaska 的 seabird populations 比 Northern Hemisphere 任何相似地區都更大、更多"
+            },
+            {
+              "kind": "paragraph",
+              "text": "樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shearwaters, which breed in the Southern Hemisphere, are the most numerous species in Alaskan waters during the summer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Southern Hemisphere 繁殖的 shearwaters，是夏季 Alaskan waters 中數量最多的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句直接對應題目，幾乎是原文重現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中四個定位詞都在末句出現：Shearwaters、breed in the Southern Hemisphere、most"
+            },
+            {
+              "kind": "paragraph",
+              "text": "numerous、during summer。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shearwaters, which breed in the Southern Hemisphere, are the most numerous species in Alaskan waters during the summer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Southern Hemisphere 繁殖的 shearwaters，是夏季 Alaskan waters 中數量最多的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目只把 species 改成 seabirds。由於全文都在講 seabirds，且 shearwaters 是 seabird species，這個概括可接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "Hatch believes it is too early to determine whether the reported die-offs are connected with El Niño.",
+      "translation": "Hatch 認為現在判斷這些 die-offs 是否與 El Niño 有關仍太早。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 Hatch、too early、die-offs、El Niño。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As another indication that food has been limiting in recent years, several large-scale die-offs of seabirds, mostly surface-feeding species, have been observed in the Gulf of Alaska during the last decade...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：作為近年食物受限制的另一個跡象，過去十年 Gulf of Alaska 觀察到幾次大型 seabird"
+            },
+            {
+              "kind": "paragraph",
+              "text": "die-offs，主要涉及 surface-feeding species。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Byrd and Tobish believe that high rainfall can affect survival of chicks... but this view has not been considered convincing evidence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Byrd and Tobish 認為高降雨量和強風暴可能影響 chicks 存活，但這看法尚未被視為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有說服力證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "I 段功能是討論 die-offs、El Niño 關聯是否未定，以及 weather 對 chicks 的可能影響。題目提Hatch，應在中間句定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Hatch 是強定位詞。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Hatch thinks that it is too early to decide whether reports of these die-offs are connected with the effects of El Niño.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但 Hatch 認為，現在判斷這些 die-offs 報告是否與 El Niño 的影響有關仍太早。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目與原文完全同方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "believes= thinks too early to determine= too early to decide reported die-offs= reports of these die-offs connected with El Niño= connected with the effects of El Niño所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "Byrd and Tobish’s view that heavy rain and storms cause chick mortality has already been accepted as convincing evidence.",
+      "translation": "Byrd and Tobish 關於大雨和風暴導致 chicks 死亡的看法，已被接受為有說服力證據。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。控制詞是 already been accepted 和 convincing"
+            },
+            {
+              "kind": "paragraph",
+              "text": "evidence。定位詞是 Byrd and Tobish、rainfall、storms、chicks。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As another indication that food has been limiting in recent years, several large-scale die-offs of seabirds... have been observed in the Gulf of Alaska during the last decade...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：作為近年食物受限制的另一個跡象，過去十年 Gulf of Alaska 觀察到幾次大型 seabird"
+            },
+            {
+              "kind": "paragraph",
+              "text": "die-offs。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Byrd and Tobish believe that high rainfall can affect survival of chicks in earthen burrows, and the occurrence of major storms with high winds during the chick-rearing period can kill chicks of species that nest on cliff ledges, but this view has not been considered convincing evidence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Byrd and Tobish 認為高降雨量會影響土洞中 chicks 的存活，而育雛期出現帶強風的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型風暴會殺死在懸崖岩架上築巢物種的 chicks，但這看法尚未被視為有說服力證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句本身就是答案句。題目說 already accepted，原文說 has not been considered convincing evidence，方向完全相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Byrd and Tobish、high rainfall、major storms、chicks、convincing evidence 都集中在最後"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句可拆成兩部分："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一部分：Byrd and Tobish 的看法"
+            },
+            {
+              "kind": "quote",
+              "text": "“high rainfall can affect survival of chicks...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“major storms with high winds ... can kill chicks...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：高降雨和強風暴可能影響或殺死 chicks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二部分：作者對證據狀態的說明"
+            },
+            {
+              "kind": "quote",
+              "text": "“but this view has not been considered convincing evidence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但這看法尚未被視為有說服力證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說：has already been accepted as convincing evidence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：has not been considered convincing evidence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "not 直接否定 accepted / convincing 的方向，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目前半句確實符合 Byrd and Tobish 的觀點：heavy rain and storms can affect / kill chicks。真正決定答案的是後半句 “has already been accepted”。原文最後的 “has not been considered convincing evidence” 直接推翻這部分。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Elnino and Seabirds.pdf",
+    "sha256": "6bb082d9a915121a2d5fab81772793ffbfa9473ce7b5700c7100d6520fc32320",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Step 1：全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句指出季節節奏有時不能依賴，末句說科學家研究正常氣候與 El Niño 之間反覆出現的氣候節奏。只看首尾句，可以先知道本文開場功能是介紹 El Niño 的大背景：它會打亂植物、動物和人類依賴的正常季節模式，所以科學家希望理解並預測這些異常，幫助社會提前規劃。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說 seabirds 是 marine ecosystems 中顯眼、重要、會受 global climate change 影響的成員；末句說當 prey availability 因 surface sea temperature 和 sea ice 改變時，seabird populations 也會受影響。只看首尾句，可以先估計本段會解釋為何 seabirds 適合用來觀察氣候變化，尤其是食物供應與氣候因素之間的關係。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說 seabirds 被視為健康海洋生態系統的 indicators，並有 existence value；末句說關於seabirds 的豐富知識基礎，使牠們成為測量 marine environment 變化的 indicator species。首尾句很清楚顯示本段功能是說明 seabirds 的價值：科學指標價值、保護價值、文化欣賞價值，以及對 Bering Sea 居民的 subsistence resource 角色。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句列出 Alaska 最常見的繁殖 seabird species，包括 fulmars、storm-petrels、kittiwakes、murres、auklets 和 puffins；末句補充 red-legged kittiwakes 的食物和覓食範圍。首尾句顯示本段功能是介紹主要 seabird species、牠們的 feeding methods、食物種類和分布。題目若問 fulmars、murres、kittiwakes、surface feeders、dive for food，應優先定位到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說 marine mammals 近年也出現 food stress 的相似跡象；末句列出 Steller sea lions 下降相關的後果，例如 birth rate 下降、breeding females 減少、pups 減少、adult body condition 下降和 juvenile survival 下降。只看首尾句，本段重點是用 marine mammals 的數量下降支援食物壓力問題，尤其適合處理 harbour seals、Steller sea lions 和 population decline。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 Walker 發現 low-index monsoon seasons 往往伴隨 Australia、Indonesia、India 和parts of Africa 的 drought；末句說他正確預測將來會有解釋，但需要當時尚未例行觀測的高空wind patterns 資料。首尾句顯示本段是歷史科學背景：Walker 提出遠距氣候連結，並指出理解這些連結需要更完整的風場資料。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句直接說 long-term time series are needed；末句引用 Schreiber & Schreiber，強調要進行 long-term studies，理解 global atmospheric cycles、oceanographic phenomena 和 avian populations 之間的互動。只看首尾句，本段功能非常清楚：作者批評只研究 El Niño 年份太片面，真正需要長期、規律、連續的資料收集。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段首句說 Alaska seabird populations 比 Northern Hemisphere 任何相似地區都更大、更多樣；末句說 Southern Hemisphere 繁殖的 shearwaters 是夏季 Alaskan waters 中數量最多的seabirds。首尾句顯示本段集中介紹 Alaska 作為 seabird habitat 的重要性，包括繁殖、覓食、遷徙、越冬，以及不同 seabird species 在 Alaska 的集中程度。"
+      },
+      {
+        "number": "I",
+        "summary": "I 段首句說近十年 Gulf of Alaska 出現幾次大型 seabird die-offs，這是 food limitation 的另一個跡象；末句說 Byrd and Tobish 認為雨和風暴會影響 chicks，但這看法尚未被視為有說服力證據。首尾句顯示本段功能是處理 seabird deaths、El Niño 關聯是否未定，以及 weather events 對 chicks survival 的可能影響。"
+      }
+    ]
+  }
+}

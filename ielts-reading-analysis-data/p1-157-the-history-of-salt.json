@@ -1,0 +1,2709 @@
+{
+  "id": "p1-157-the-history-of-salt",
+  "catalogueId": "p1-157",
+  "catalogueIds": [
+    "p1-157"
+  ],
+  "passage": 1,
+  "title": "The History Of Salt",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "B",
+    "E",
+    "F",
+    "essential element",
+    "applications",
+    "portable commodity",
+    "tax revenues",
+    "spirits",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B, E, F",
+      "answerKey": "B, E, F",
+      "type": "Question Analysis",
+      "prompt": "“Which THREE statements are true of salt?”",
+      "translation": "以下哪三項關於鹽的陳述是正確的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B — Salt contributed to the French Revolution. E — Salt has many commercial applications. F — The salt deposits in Kansas are vast."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Choose THREE。這類題不能只看某一段，因為選項分散在全文不同位置。做法是先用每個選項中的高定位詞去掃描文章，例如 French Revolution、commercial applications、Kansas、China、slaves、currency 等。每個正確答案都要有獨立原文證據；如果某選項只是大概聽起來合理，但措辭太絕對或關係錯了，就不能選。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這篇文章的段落推進很清楚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 先介紹鹽的基本性質和豐富程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 說鹽對生命和現代商業用途的重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraphs 3–7 講鹽在經濟、戰爭、稅收、政治中的歷史影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraphs 8–9 講鹽在宗教和文化中的角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 10 則用戰爭中的鹽分缺乏作結。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Questions 1–3 要在全文中找三個被原文直接支持的陳述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“French Revolution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“commercial applications”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Kansas”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三個詞在原文中都能找到非常直接的證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確答案"
+            },
+            {
+              "kind": "label",
+              "text": "B 正確原文在 Paragraph 6 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Outrage over the gabelle fuelled the French Revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對 gabelle 鹽稅的憤怒助長了法國大革命。"
+            },
+            {
+              "kind": "label",
+              "text": "題目 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt contributed to the French Revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽促成／影響了法國大革命。"
+            },
+            {
+              "kind": "label",
+              "text": "這裡要看 “gabelle” 是甚麼。前一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In France, Charles of Anjou levied the ‘gabelle,’ a salt tax, in 1259…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在法國，Charles of Anjou 於 1259 年徵收 gabelle，也就是鹽稅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以： salt tax→ outrage over the tax→ fuelled the French Revolution"
+            },
+            {
+              "kind": "quote",
+              "text": "“fuelled” 指推動、助長。題目用 “contributed to” 概括這個因果關係，所以 B 正確。 E 正確原文在 Paragraph 2 說：“we may not be aware that this element is used in some 14,000 commercial applications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可能不知道，這種元素被用於大約 14,000 種商業應用之中。"
+            },
+            {
+              "kind": "label",
+              "text": "題目 E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt has many commercial applications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽有許多商業用途。"
+            },
+            {
+              "kind": "quote",
+              "text": "“some 14,000 commercial applications” 直接支持 “many commercial applications”。所以 E 正確。 F 正確原文在 Paragraph 1 說：“it has been estimated that salt deposits under the state of Kansas alone could supply the entire world’s needs for the next 250,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據估計，單是 Kansas 州地下的鹽礦，就足以供應全世界未來 250,000 年的需要。"
+            },
+            {
+              "kind": "label",
+              "text": "題目 F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The salt deposits in Kansas are vast.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kansas 的鹽礦儲量非常巨大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果單是 Kansas 的鹽礦已能供應全球 250,000 年，這就是 “vast” 的清楚證據。F 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A “A number of cities take their names from the word ‘salt’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不少城市的名字來自 “salt” 這個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只提到 “the ancient city of Essalt on the Jordan River”，但沒有說有很多城市以 salt 命名。A的 “a number of cities” 超出原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “The uses of salt are countless.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽的用途多到數不清。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個選項很吸引，因為原文說有 14,000 種 commercial applications。但 14,000 是一個可列舉的數字，題目 C 的 “countless” 語氣太絕對。E “many commercial applications” 更精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Salt has been produced in China for less than 2,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國製鹽少於 2,000 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 2200 BC 中國皇帝 Hsia Yu 對鹽徵稅。這遠早於 2,000 年前，而且原文說的是徵稅，不是開始生產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G “Salt has few industrial uses today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽今天工業用途很少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說有約 14,000 commercial applications，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H “Slaves used salt as currency.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "奴隸使用鹽作貨幣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Greek slave traders bartered it for slaves，即奴隸販子用鹽交換奴隸。使用鹽作貨幣的是Tibet 和 Ethiopia’s Danakil Plains 的例子，不是 slaves 本身。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫總結",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B： fuelled the French Revolution= contributed to the French Revolution E： some 14,000 commercial applications= many commercial applications F： could supply the entire world’s needs for 250,000 years= deposits are vast"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "essential element",
+      "answerKey": "essential element",
+      "type": "Question Analysis",
+      "prompt": "“Salt is such an 4 ____________ that people would not be able to live without it.”",
+      "translation": "鹽是一種如此 ______ 的東西，以至於人沒有它便無法生存。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 summary completion，要求從原文中選 NO MORE THAN TWO WORDS。空格前有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“such an”，所以答案需要是一個以元音音開始的名詞短語，而且要能解釋「人不能沒有它生存」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“But salt is also an essential element.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但鹽也是一種必不可少的元素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From manufacturing pulp and paper to setting dyes in textiles and fabric, from producing soaps and detergents to making our roads safe in winter, salt plays an essential part in our daily lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從製造紙漿和紙張，到固定紡織品和布料中的染料；從生產肥皂和清潔劑，到冬天令道路安全，鹽在我們日常生活中扮演不可或缺的角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 的功能：這段強調鹽的重要性。前半講生命和人體需要鹽；後半講商業和日常用途。Question 4 問人沒有鹽便不能生存，所以答案應在 Paragraph 2 開頭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“would not be able to live without it”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without it, life itself would be impossible…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有它，生命本身便不可能存在。"
+            },
+            {
+              "kind": "label",
+              "text": "這句前面正是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But salt is also an essential element.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But salt is also an essential element. Without it, life itself would be impossible…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但鹽也是一種必不可少的元素。沒有它，生命本身便不可能存在。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt is such an ______ that people would not be able to live without it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這其實把原文兩句合併成一句 summary：原文： salt is an essential element● without it, life would be impossible"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Salt is such an essential element that people would not be able to live without it.答案填 “essential element” 後，文法也完全自然："
+            },
+            {
+              "kind": "quote",
+              "text": "“such an essential element”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 essential 以元音音 /ɪ/ 開頭，所以前面用 an。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“people would not be able to live without it”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without it, life itself would be impossible”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： would not be able to live= life would be impossible such an essential element= salt is also an essential element"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是只填 “element”。雖然 element 來自原文，但題目句子要表達「重要到不能沒有」，只填 element 會失去 essential 的意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是填 “mineral”。原文後面說 “the human body requires the mineral”，但題目空格前是 “such an”，而 “mineral” 前面應是 “a”，不是 “an”。加上原文最直接答案是 “essential element”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 essential element。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "applications",
+      "answerKey": "applications",
+      "type": "Question Analysis",
+      "prompt": "“As well as its uses in cooking, this basic mineral has thousands of commercial 5____________, ranging from making paper to manufacturing soap.”",
+      "translation": "除了烹調用途外，這種基本礦物還有數以千計的商業 ______，範圍從造紙到製造肥皂。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 summary completion。空格前有 “commercial”，所以答案很可能是一個複數名詞。題目已經給出 “thousands of”，也提示答案要和用途、應用有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But salt is also an essential element.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽也是一種必不可少的元素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From manufacturing pulp and paper to setting dyes in textiles and fabric, from producing soaps and detergents to making our roads safe in winter, salt plays an essential part in our daily lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從製造紙漿和紙張，到固定紡織品和布料中的染料；從生產肥皂和清潔劑，到冬天令道路安全，鹽在日常生活中扮演重要角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可以知道，Paragraph 2 後半集中講鹽的不同用途。Question 5 的 making paper /manufacturing soap 正好來自這段例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“commercial”"
+            },
+            {
+              "kind": "quote",
+              "text": "“making paper”"
+            },
+            {
+              "kind": "quote",
+              "text": "“manufacturing soap”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“this element is used in some 14,000 commercial applications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種元素被用於約 14,000 種商業應用之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文的 “manufacturing pulp and paper” 和 “producing soaps and detergents” 就是例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“we may not be aware that this element is used in some 14,000 commercial applications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可能沒有意識到，這種元素被用於約 14,000 種商業應用之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “some 14,000” 改寫成 “thousands of”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目保留 “commercial”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要填 “applications”。"
+            },
+            {
+              "kind": "label",
+              "text": "填入後："
+            },
+            {
+              "kind": "quote",
+              "text": "“thousands of commercial applications”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數以千計的商業應用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法也正確，因為 “thousands of” 後面要接複數名詞，所以 applications 用複數。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“thousands of commercial applications”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“some 14,000 commercial applications”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： some 14,000= thousands of applications= applications ranging from making paper to manufacturing soap= From manufacturing pulp and paper … to producing soaps and detergents"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “uses”。題目開頭已經寫了 “uses in cooking”，所以空格不應再填 uses。原文中的正式搭配是 “commercial applications”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “detergents”。雖然原文提到 soaps and detergents，但題目已經用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“manufacturing soap” 作例子，空格問的是總類名詞，不是其中一個例子。所以答案是 applications。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "portable commodity",
+      "answerKey": "portable commodity",
+      "type": "Question Analysis",
+      "prompt": "“As a prized and 6 ____________, it has played a major part in the economies of many countries.”",
+      "translation": "作為一種珍貴且 ______，鹽在許多國家的經濟中扮演了重要角色。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 summary completion。空格前是 “a prized and”，所以答案要和 prized 平行，形成一個自然名詞短語。題目後半說它在 economies 中有重要角色，所以定位應在講鹽和經濟的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a precious and portable commodity, salt has long been a cornerstone of economies throughout history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為一種珍貴且便於攜帶的商品，鹽長久以來都是歷史上各種經濟體的基石。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bloch also believed that the first war—likely fought near the ancient city of Essalt on the Jordan River—could have been fought over the city’s precious supplies of the mineral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bloch 也相信，第一場戰爭很可能在約旦河邊的古城 Essalt 附近發生，並可能是為了爭奪該城珍貴的鹽供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 4 的功能：這段講鹽作為珍貴商品如何影響經濟和戰爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 6 的 “economies” 直接對應第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“prized”"
+            },
+            {
+              "kind": "quote",
+              "text": "“economies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a precious and portable commodity, salt has long been a cornerstone of economies throughout history.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是答案來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a precious and portable commodity, salt has long been a cornerstone of economies throughout history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為一種珍貴且便於攜帶的商品，鹽長久以來都是歷史上各種經濟體的基石。"
+            },
+            {
+              "kind": "label",
+              "text": "題目改寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a prized and ______, it has played a major part in the economies of many countries.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“precious” 被改寫成 “prized”，兩者都指有價值、被重視。原文的 “portable commodity” 要填入空格，因為題目需要一個完整名詞短語：“a prized and portable commodity”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種珍貴且便於攜帶的商品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果只填 “portable”，句子會變成 “As a prized and portable”，文法不完整。因為前面有 “a”，後面需要名詞；所以完整答案是 portable commodity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“prized”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“precious”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“played a major part in the economies of many countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“has long been a cornerstone of economies throughout history”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： prized= precious major part= cornerstone economies of many countries= economies throughout history"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是只填 “portable”。意思雖然接近，但文法不完整。這題答案限制是 NO MORE THAN TWO WORDS，所以 “portable commodity” 是最自然答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “precious supplies”。段落最後也有 precious，但題目空格需要和 “a prized and…” 組成名詞短語，原文首句的 “portable commodity” 才符合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 portable commodity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "tax revenues",
+      "answerKey": "tax revenues",
+      "type": "Question Analysis",
+      "prompt": "“Salt has not only led to war but has also been used by governments to raise 7 ____________.”",
+      "translation": "鹽不只引發過戰爭，也曾被政府用來籌集 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 summary completion。題目問 governments 利用鹽來 raise 甚麼。定位詞包括governments、tax、raise、revenue、war。答案要從文章中找，不可只靠常識寫 “money”，除非原文有該詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看相關段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 5–7 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2200 BC, the Chinese emperor Hsia Yu levied one of the first known taxes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公元前 2200 年，中國皇帝 Hsia Yu 徵收了已知最早的一批稅項之一。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Erie Canal, an engineering marvel that connected the Great Lakes to New York’s Hudson River in 1825, was called ‘the ditch that salt built.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Erie Canal 是 1825 年連接 Great Lakes 和 New York’s Hudson River 的工程奇蹟，被稱為「由鹽建成的水渠」。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第二句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt tax revenues paid for half the cost of construction of the canal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽稅收入支付了該運河建設成本的一半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以看出中段反覆講鹽稅：中國、法國、英國、Erie Canal。Question 7 的答案應是和 tax revenues 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“used by governments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“raise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tax”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有多個相關句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“He taxed salt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他對鹽徵稅。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In France, Charles of Anjou levied the ‘gabelle,’ a salt tax…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在法國，Charles of Anjou 徵收 gabelle，即鹽稅。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt tax revenues paid for half the cost of construction of the canal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽稅收入支付了運河建設成本的一半。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“used by governments to raise ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在英文中，政府 “raise tax revenues” 是自然搭配，意思是籌集稅收收入。原文最直接的名詞短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt tax revenues”"
+            },
+            {
+              "kind": "label",
+              "text": "如果填 “tax revenues”，句子成為："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt has … been used by governments to raise tax revenues.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽也曾被政府用來籌集稅收收入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文多個例子：中國皇帝對鹽徵稅、法國 gabelle、Erie Canal 的鹽稅收入、英國王室依靠高鹽稅。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“levied … taxes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“salt tax”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt tax revenues paid for…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“used by governments to raise tax revenues”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： levy taxes= raise tax revenues salt tax revenues= money collected through salt taxes"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是填 “taxes”。“raise taxes” 有時表示提高稅率，容易和題目意思有偏差。這裡題目想表達政府利用鹽來籌集收入，所以 “tax revenues” 更完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是填 “money”。意思雖然通順，但原文提供的是 “tax revenues”，而題目要求從passage 中取詞。IELTS summary completion 最好用原文詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 tax revenues。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "spirits",
+      "answerKey": "spirits",
+      "type": "Question Analysis",
+      "prompt": "“It also has an important place in religion and culture, where it is used to drive away evil 8____________.”",
+      "translation": "鹽在宗教和文化中也有重要位置，並被用來驅走邪惡的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 summary completion。空格前有 “evil”，所以答案很可能是一個複數名詞。定位詞是religion、culture、drive away、evil。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In religion and culture, salt has long held an important place, with Greek worshippers consecrating it in their rituals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在宗教和文化中，鹽長久以來都佔有重要地位，希臘崇拜者會在儀式中將鹽奉為神聖之物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before sumo wrestlers enter the ring for a match—which is, in reality, an elaborate Shinto rite—a handful is thrown into the centre to drive off malevolent spirits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相撲手進入比賽場地前，會把一把鹽撒到中央；這場比賽實際上是一種精緻的神道儀式，這樣做是為了驅走惡靈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 8 的功能：這段講鹽在宗教儀式中的用途，尤其是淨化、驅邪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 8 的 “drive away evil” 明顯在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“evil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drive away”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩個相關位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Buddhist tradition, salt repels evil spirits…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在佛教傳統中，鹽會驅除惡靈。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“drive off malevolent spirits”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "驅走惡靈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "最直接答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Buddhist tradition, salt repels evil spirits…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在佛教傳統中，鹽會驅除惡靈。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“used to drive away evil ______”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drive away” 對應 “repels” 或 “drive off”。“evil” 保留原字。空格應填 “spirits”。填入後：“drive away evil spirits”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "驅走惡靈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 最後的 “malevolent spirits” 也支援同一答案。malevolent 指惡意的、有害的，和 evil意思接近。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“drive away evil spirits”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“repels evil spirits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drive off malevolent spirits”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： drive away= repel / drive off evil= malevolent spirits= spirits"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “funeral”。原文提到 funeral 後把鹽撒過肩膀，但題目空格問被驅走的是甚麼，不是儀式場合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “area”。原文說 Shinto uses salt to purify an area，但題目明確寫 evil ______，所以答案要接在 evil 後面，應是 spirits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 spirits。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“It has been suggested that salt was responsible for the first war.”",
+      "translation": "有人提出，鹽可能是第一場戰爭的原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目重點是 “suggested”、 “responsible for” 和 “first war”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要找 first war、fought over、precious supplies 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a precious and portable commodity, salt has long been a cornerstone of economies throughout history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為珍貴且便於攜帶的商品，鹽長久以來都是歷史上各種經濟體的基石。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bloch also believed that the first war—likely fought near the ancient city of Essalt on the Jordan River—could have been fought over the city’s precious supplies of the mineral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bloch 也相信，第一場戰爭很可能在約旦河邊的古城 Essalt 附近發生，並可能是為了爭奪該城珍貴的鹽供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 Paragraph 4 講鹽作為珍貴商品如何影響經濟，甚至可能和第一場戰爭有關。Question 9 直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first war”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first war … could have been fought over the city’s precious supplies of the mineral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一場戰爭可能是為了該城珍貴的鹽供應而打的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bloch also believed that the first war … could have been fought over the city’s precious supplies of the mineral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bloch 也相信，第一場戰爭可能是為了該城珍貴的鹽供應而打的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個重要地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，“Bloch also believed” 表示這是一位研究者的看法或推測。題目用 “It has been suggested”正好保留這種「有人提出」的語氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，“fought over the city’s precious supplies of the mineral” 表示戰爭可能是因爭奪鹽而起。這對應題目 “salt was responsible for the first war”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been suggested”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bloch also believed”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“salt was responsible for the first war”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first war … could have been fought over … supplies of the mineral”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： responsible for= fought over / caused by competition for salt= the mineral答案判斷答案是 TRUE。原文沒有把這件事說成絕對歷史事實，只說 “could have been”。題目也用 “has been suggested”，語氣一致。因此可以選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “could have been”。如果題目寫 “It is certain that…”，就太絕對。現在題目用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“suggested”，所以和原文推測語氣一致。第二個中伏位是 “the mineral”。這裡 the mineral 指 salt。做 Reading 時要留意這類替代詞，文章不會每次都重複 salt。真正控制答案的是：“could have been fought over … supplies of the mineral”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“The first tax on salt was imposed by a Chinese emperor.”",
+      "translation": "第一項鹽稅是由一位中國皇帝徵收的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目關鍵在 “The first tax on salt”。這是非常強的限定，表示歷史上第一項鹽稅。原文若只說「最早一批已知稅項之一」是對鹽徵收，仍不足以證明它是第一項鹽稅。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2200 BC, the Chinese emperor Hsia Yu levied one of the first known taxes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公元前 2200 年，中國皇帝 Hsia Yu 徵收了已知最早的一批稅項之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roman legionnaires were paid in salt—a salarium, the Latin origin of the word ‘salary.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "羅馬軍團士兵以鹽作為報酬；salarium 是 salary 一詞的拉丁語來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph 5 的功能：這段列舉鹽作為稅項、貨幣、交換物和薪酬的歷史例子。Question 10 明顯定位到第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chinese emperor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tax”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2200 BC, the Chinese emperor Hsia Yu levied one of the first known taxes. He taxed salt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公元前 2200 年，中國皇帝 Hsia Yu 徵收了已知最早的一批稅項之一。他對鹽徵稅。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the first known taxes”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已知最早的一批稅項之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 Hsia Yu 對鹽徵收的稅，是已知最早稅項之一。它沒有說：● 這是世界上第一項鹽稅；● 在他之前沒有任何鹽稅；● 這是第一個鹽稅制度。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first tax on salt…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這比原文更絕對。原文的 “one of the first known taxes” 和題目的 “The first tax on salt” 不是同一個命題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與資料缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： Chinese emperor Hsia Yu● one of the first known taxes● he taxed salt題目需要： the first tax on salt● imposed by a Chinese emperor缺失部分：● first tax on salt；● no earlier salt tax；● first known salt tax specifically。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不是 TRUE題目的一半有支援：確實有中國皇帝，確實有 taxed salt。但 “the first tax on salt” 沒有被明確證明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不是 FALSE原文也沒有說第一項鹽稅不是由中國皇帝徵收。文章只是沒有提供這個精確歷史排名。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “one of the first known taxes”。學生很容易把它簡化成 “the first tax on salt”。但IELTS Reading 要尊重限定詞： one of the first= 最早的一批之一the first= 第一個兩者不能直接互換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “one of”。這個細節決定它是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Salt is no longer used as a form of currency.”",
+      "translation": "鹽已經不再被用作貨幣。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目重點是 “no longer”，即現在已經不再如此。掃描時要找 used as money、to this day、currency、coins 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2200 BC, the Chinese emperor Hsia Yu levied one of the first known taxes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公元前 2200 年，中國皇帝 Hsia Yu 徵收了已知最早的一批稅項之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roman legionnaires were paid in salt—a salarium, the Latin origin of the word ‘salary.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "羅馬軍團士兵以鹽作為報酬；salarium 是 salary 一詞的拉丁語來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 的功能是列舉鹽作為稅、貨幣、交換物和薪酬的例子。Question 11 問鹽是否仍作貨幣，所以要看這段中有沒有現在仍使用的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“currency”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no longer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used as money”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“to this day, it is used as money among the nomads of Ethiopia’s Danakil Plains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，鹽仍在 Ethiopia 的 Danakil Plains 游牧民之中被用作金錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接反駁題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Tibet, Marco Polo noted that tiny cakes of salt were pressed with images of the Grand Khan to be used as coins; to this day, it is used as money among the nomads of Ethiopia’s Danakil Plains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Tibet，Marco Polo 記錄到小鹽塊會壓上 Grand Khan 的圖像，用作硬幣；直到今天，鹽仍在Ethiopia 的 Danakil Plains 游牧民之中被用作金錢。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt is no longer used as a form of currency.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no longer” 表示現在已不再使用。原文說：“to this day, it is used as money”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“to this day” 表示直到今天仍然如此。兩者方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“no longer used as a form of currency”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“to this day, it is used as money”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反向關係： no longer↔ to this day currency= money / coins所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是學生可能只看到古代例子，例如 Tibet、Greek slave traders、Roman legionnaires，以為鹽只在古代有貨幣功能。但原文有 “to this day”，明確把時間延伸到現在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “used as money” 和 “currency”。currency 不一定只指正式紙幣或硬幣，在題目語境中可指交換媒介。原文的 used as money 已經足夠支持。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“to this day”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Most of the money needed to construct the Erie Canal came from salt taxes.”",
+      "translation": "建造 Erie Canal 所需的大部分資金來自鹽稅。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目重點是 “Most of the money”。most 通常表示超過一半。掃描時要找 Erie Canal、cost、salt tax revenues、half 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Erie Canal, an engineering marvel that connected the Great Lakes to New York’s Hudson River in 1825, was called ‘the ditch that salt built.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Erie Canal 是 1825 年連接 Great Lakes 和 New York’s Hudson River 的工程奇蹟，被稱為「由鹽建成的水渠」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In protest against British rule in 1930, Mahatma Gandhi led a 200-mile march to the Arabian Sea to collect untaxed salt for India’s poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1930 年，Mahatma Gandhi 為抗議英國統治，帶領一場 200 英里的行進到 Arabian Sea，為印度窮人收集未被徵稅的鹽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph 7 的功能：這段講鹽稅如何影響國家財政、黑市和反殖民政治行動。Question 12 的 Erie Canal 明確在段首。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Erie Canal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“money”"
+            },
+            {
+              "kind": "quote",
+              "text": "“salt taxes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt tax revenues paid for half the cost of construction of the canal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽稅收入支付了該運河建設成本的一半。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt tax revenues paid for half the cost of construction of the canal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鹽稅收入支付了該運河建設成本的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the money needed…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思是大部分資金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“half” 是一半。“most” 一般指超過一半。所以原文的 half 和題目的 most 形成衝突。鹽稅收入支付了一半成本，不能說是大部分資金。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the money needed to construct the Erie Canal”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“half the cost of construction of the canal”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： money needed to construct= cost of construction但數量關係不同： most↔ half所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “the ditch that salt built”。這個稱呼聽起來像整條運河都由鹽稅資金建成，因此容易令學生選 TRUE。可是後一句給了精確比例：half the cost。IELTS 中具體數字通常比形象稱呼更能決定答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “half” 和 “most”。如果題目說 “a large proportion”，可能仍有討論空間；但 “most”通常要超過一半。原文只說一半，因此答案是 FALSE。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“half the cost”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Hopi legend says that salt deposits were placed far from civilization to punish humankind.”",
+      "translation": "Hopi 傳說說，鹽礦被放在遠離文明的地方，是為了懲罰人類。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目定位詞非常強：Hopi legend、far from civilization、punish humankind。應直接去找 Hopi 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the south-western United States, the Pueblo worship the Salt Mother.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國西南部，Pueblo 人崇拜 Salt Mother。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, a gift of salt endures in India as a potent symbol of good luck and a reference to Mahatma Gandhi’s liberation of India.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了今天，在印度，贈送鹽仍然是一種強烈的好運象徵，也令人聯想到 Mahatma Gandhi 對印度的解放。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph 9 的功能：這段繼續講鹽在不同文化和宗教中的象徵意義，包括Pueblo、native tribes、Hopi、Dalai Lama 和 India。Question 13 提到 Hopi legend，所以答案在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hopi legend”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hopi legend holds that the angry Warrior Twins punished mankind by placing valuable salt deposits far from civilisation, requiring hard work and bravery to harvest the precious mineral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hopi 傳說認為，憤怒的 Warrior Twins 透過把珍貴鹽礦放在遠離文明的地方來懲罰人類，使人們必須付出艱苦工作和勇氣才能取得這種珍貴礦物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句和題目高度一致。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hopi legend holds that the angry Warrior Twins punished mankind by placing valuable salt deposits far from civilisation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hopi 傳說認為，憤怒的 Warrior Twins 把珍貴鹽礦放在遠離文明的地方，以此懲罰人類。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“salt deposits were placed far from civilization to punish humankind”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“punished mankind by placing valuable salt deposits far from civilisation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者只是語序不同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hopi legend says”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hopi legend holds”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“to punish humankind”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“punished mankind”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“salt deposits were placed far from civilization”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“placing valuable salt deposits far from civilisation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： says= holds humankind= mankind civilization= civilisation所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是英式拼法和美式拼法。原文用 “civilisation”，題目用 “civilization”。拼法不同，意思相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “Warrior Twins”。題目省略了這個細節，只保留傳說的核心內容：鹽礦被放遠，用來懲罰人類。省略細節不影響 TRUE。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“punished mankind by placing valuable salt deposits far from civilisation”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Salt deficiency is connected with the deaths of many of Napoleon’s soldiers during the retreat from Moscow.”",
+      "translation": "鹽分缺乏與 Napoleon 軍隊從 Moscow 撤退期間許多士兵的死亡有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目定位詞非常強：Salt deficiency、Napoleon’s soldiers、retreat from Moscow、deaths。答案應在最後一段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The effects of salt deficiency are highlighted in times of war, when human bodies and national economies are strained to their limits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在戰爭時期，當人體和國家經濟都被推到極限時，鹽分缺乏的影響會變得特別明顯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of Napoleon’s troops died during the French retreat from Moscow due to inadequate wound healing and lowered resistance to disease—the results of salt deficiency.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在法軍從 Moscow 撤退期間，Napoleon 的數千名士兵死亡，原因是傷口癒合不足和抗病能力下降，而這些都是鹽分缺乏造成的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph 10 的功能：這段用 Napoleon 軍隊撤退的例子說明鹽分缺乏在戰爭中的嚴重後果。Question 14 幾乎直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Napoleon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“retreat from Moscow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“salt deficiency”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句直接包含全部定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of Napoleon’s troops died during the French retreat from Moscow … the results of salt deficiency.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of Napoleon’s troops died during the French retreat from Moscow due to inadequate wound healing and lowered resistance to disease—the results of salt deficiency.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在法軍從 Moscow 撤退期間，Napoleon 的數千名士兵死亡，原因是傷口癒合不足和抗病能力下降，而這些都是鹽分缺乏造成的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "句子中 “due to” 表示原因。士兵死亡的直接原因包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“inadequate wound healing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "傷口癒合不足"
+            },
+            {
+              "kind": "quote",
+              "text": "“lowered resistance to disease”"
+            },
+            {
+              "kind": "label",
+              "text": "對疾病的抵抗力下降破折號後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the results of salt deficiency”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是鹽分缺乏的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以鹽分缺乏和死亡之間有清楚連接。題目用 “is connected with” 很準確，因為它沒有誇張成唯一原因，只說有關聯。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“many of Napoleon’s soldiers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of Napoleon’s troops”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“during the retreat from Moscow”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“during the French retreat from Moscow”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Salt deficiency is connected with the deaths”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“died … due to … the results of salt deficiency”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： soldiers= troops many= thousands connected with= due to / the results of所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是傷口癒合和抵抗力下降。它們是中間原因，但原文清楚說這些是 salt deficiency的 results。因此鹽分缺乏仍和死亡有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “connected with”。題目沒有說所有士兵死亡都只因鹽分缺乏，所以語氣不過分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 thousands died due to effects resulting from salt deficiency，足以支持 TRUE。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the results of salt deficiency”。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The History Of Salt.pdf",
+    "sha256": "d44e4facf02749d979f525f3b18296216898fa7b940c7526de171d0a4d9ff9ff",
+    "pageCount": 36
+  },
+  "version": "2026-08-08.2"
+}

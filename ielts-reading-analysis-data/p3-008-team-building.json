@@ -1,0 +1,663 @@
+{
+  "id": "p3-008-team-building",
+  "catalogueId": "p3-008",
+  "catalogueIds": [
+    "p3-008"
+  ],
+  "passage": 3,
+  "title": "TEAM BUILDING",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 15,
+  "questionNumberStart": 26,
+  "answerKey": [
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "B",
+    "C",
+    "E",
+    "C",
+    "A",
+    "four",
+    "collective goals",
+    "inhibitors",
+    "humour",
+    "monitored"
+  ],
+  "questions": [
+    {
+      "number": 26,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Typical stresses of working with different people are removed with the correct training.",
+      "translation": "只要有合適培訓，與不同人共事時產生的典型壓力就會被消除。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brenda Durham of Corporate Trouble-Shooters believes it inevitable that to some extent conflict will exist in a successful workplace…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brenda Durham 認為，在成功的工作場所中，某程度上的衝突是無可避免的。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A cohesive unit that minimises friction… can however be developed…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，一個能減少摩擦的凝聚團隊是可以建立起來的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 removed，意思是完全移除、消除。原文說的是 minimises friction，即減少摩擦。兩者程度不同。更重要的是，原文先說 conflict will exist，即衝突某程度上仍會存在。因此題目把「減少」升級成「消除」，和原文相衝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Liaison Wizards claims that training has increased their income every year since the company started.",
+      "translation": "Liaison Wizards 聲稱，自公司成立以來，培訓每年都增加了公司的收入。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liaison Wizards… offers free training and development advice…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liaison Wizards 提供免費的培訓和發展建議。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company’s own business model is based upon generating revenue from advertising on their popular website…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "該公司的商業模式是透過其受歡迎網站上的廣告產生收入。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“…having surpassed financial projections for each year it has been in operation to date.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，公司每一年都超過了財務預測。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩個問題。第一，題目說 income 由 training 增加，但原文說它的收入模式來自advertising，而且 training advice 是免費的。第二，原文說 surpassed financial projections，即超過財務預測；這不等於 income increased every year。超過預測和逐年增長是兩個不同概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Many companies are unsuccessful because they are dogmatic and take advantage of staff.",
+      "translation": "很多公司失敗，是因為它們武斷並利用員工。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trying to exploit or dictate to personnel is sure to lead to failure, Blackshaw says.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Blackshaw 說，試圖剝削或命令人員必然會導致失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 dogmatic 對應原文的 dictate，題目中的 take advantage of staff 對應原文的 exploit personnel。所以這句看起來很像 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目多了一個重要資訊：Many companies are unsuccessful because…原文只提出一個原則：如果公司試圖 exploit 或 dictate，就會 lead to failure。文章沒有說「很多公司」已經因此失敗，也沒有提供有多少公司因這個原因不成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果題目只是說 exploiting or dictating staff can lead to failure，原文可以支持。但現在題目說的是 many companies are unsuccessful because…，這個實際情況和數量範圍沒有在原文中交代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "In house training is more successful primarily because employees feel more involved in the planning.",
+      "translation": "內部培訓較成功，主要原因是員工覺得自己更能參與規劃。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most importantly, he says, people are much easier to motivate if they themselves can be involved in designing and deciding activities…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，最重要的是，如果人們自己能參與設計和決定活動，他們會更容易受到激勵。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…this level of consultation at the planning stage being much easier to achieve for an internal department than an external consultant.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種規劃階段的諮詢，在內部部門中比外部顧問更容易做到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 primarily 對應原文的 Most importantly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 employees feel more involved in the planning 對應原文的 involved in designing and deciding activities 以及 consultation at the planning stage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The value of games as a training tool can be misunderstood.",
+      "translation": "遊戲作為培訓工具的價值可能會被誤解。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Osbourne, one of the biggest barriers to successful staff training is the perception that activities are too game-focussed, with no real objectives…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Osbourne 認為，成功員工培訓的一大障礙，是有人覺得活動太偏向遊戲，沒有真正目標。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…many professionals… are unable to appreciate the hidden benefits of building understanding and camaraderie within the group.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多專業人士無法理解這些活動在建立理解和團隊情誼方面的隱藏好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 can be misunderstood 對應原文中 professionals 覺得 games trite or patronising，並且 unable to appreciate hidden benefits。這清楚表示 games 的培訓價值可能被低估或誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — Brenda Durham",
+      "answerKey": "B — Brenda Durham",
+      "type": "Matching People",
+      "prompt": "Many companies will experience friction between staff.",
+      "translation": "很多公司都會經歷員工之間的摩擦。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brenda Durham… believes it inevitable that to some extent conflict will exist in a successful workplace…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brenda Durham 認為，即使在成功的工作場所中，某程度上的衝突也無可避免。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "她還說 diversity of skills and personalities 會 lead to misunderstandings and disharmony from time to time。題目中的 friction between staff 對應原文的 conflict / misunderstandings /disharmony。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — Jeff Blackshaw",
+      "answerKey": "C — Jeff Blackshaw",
+      "type": "Matching People",
+      "prompt": "Training specifically tailored to a company is more efficient than generic training.",
+      "translation": "專門按公司情況設計的培訓，比一般化培訓更有效。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liaison Wizards, established in 2001 and headed by Jeff Blackshaw, offers free training and development advice…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liaison Wizards 成立於 2001 年，由 Jeff Blackshaw 領導，提供免費的培訓和發展建議。"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…in the belief that contextualised training is always more effective.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們相信，按具體情境設計的培訓總是更有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 specifically tailored to a company 對應原文的 contextualised training。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 more efficient than generic training 對應原文的 always more effective。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題容易和 Brian Osbourne 混淆，因為 Brian 也提到 tailored to suit distinctive needs。不過題目中「tailored vs generic」的最直接原文是 contextualised training is always more effective，而這句屬於 Liaison Wizards / Jeff Blackshaw。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "E — Alan Kidman",
+      "answerKey": "E — Alan Kidman",
+      "type": "Matching People",
+      "prompt": "Modern methods of training, although still only being piloted, can bring people from different perspectives together.",
+      "translation": "現代培訓方法雖仍在試行階段，但可以把不同角度的人凝聚起來。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alan Kidman… has recently designed a two month long in house team building programme…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alan Kidman 最近設計了一個為期兩個月的內部團隊建立計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The goal of the project… was to strengthen communication and support within the extremely diverse departments of the organisation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "該項目的目標是在組織中極為多元的部門之間加強溝通和支援。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The programme… is experimental…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個計劃是實驗性的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 still only being piloted 對應 experimental。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 bring people from different perspectives together 對應 strengthen communication and support within extremely diverse departments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — Jeff Blackshaw",
+      "answerKey": "C — Jeff Blackshaw",
+      "type": "Matching People",
+      "prompt": "Successful team relationships are formed in a positive work environment.",
+      "translation": "成功的團隊關係是在正面的工作環境中形成的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He says that good team work is fostered by respect, encouragement, shared enthusiasm and a caring and supportive workplace.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，良好團隊合作由尊重、鼓勵、共同熱情，以及關懷和支持性的工作場所培養出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 positive work environment 對應原文的 respect, encouragement, shared enthusiasm and a caring and supportive workplace。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — Louise Edwards",
+      "answerKey": "A — Louise Edwards",
+      "type": "Matching People",
+      "prompt": "A lack of clarity as to what the term ‘team building’ means.",
+      "translation": "對 team building 這個詞的意思缺乏清晰理解。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Louise Edwards… says that one of the barriers she comes across time and time again is that corporate heads often seem to understand that ‘team building’ is important but are not quite sure what it is or how to achieve it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Louise Edwards 說，她一次又一次遇到的障礙之一，是公司高層似乎知道 team building 很重要，卻不太清楚它是甚麼，或如何達成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 lack of clarity 對應原文的 not quite sure what it is。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "four",
+      "answerKey": "four",
+      "type": "Summary Completion",
+      "prompt": "Team building can be considered to have 36 ______ clear stages.原文說：“This is followed by stage four – the final stage…”",
+      "translation": "接着是第四階段，即最後階段。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "既然 stage four 是 final stage，就表示整個 process 有四個階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 four。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "collective goals",
+      "answerKey": "collective goals",
+      "type": "Summary Completion",
+      "prompt": "Initially, it is essential to be clear as to the 37 ______ of the entire team or company.原文說：“the clarification of the collective goals”",
+      "translation": "釐清共同目標。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 be clear as to 對應原文的 clarification of。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 collective goals。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "inhibitors",
+      "answerKey": "inhibitors",
+      "type": "Summary Completion",
+      "prompt": "Those barriers which are preventing the team from achieving these aims are identified as 38 ______…原文說：“the identification of the inhibitors preventing achievement of those goals”",
+      "translation": "識別那些阻礙達成目標的因素。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 barriers 對應原文的 inhibitors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 inhibitors。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "humour",
+      "answerKey": "humour",
+      "type": "Summary Completion",
+      "prompt": "Here the use of 39 ______ can be used to help build a cooperative relationship.原文說：“Edwards believes that the use of humour goes a long way towards relationship building…”",
+      "translation": "Edwards 認為，幽默的使用對建立關係很有幫助。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 help build a cooperative relationship 對應原文的 relationship building 和後面的fostering cooperation and support。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 humour。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "monitored",
+      "answerKey": "monitored",
+      "type": "Summary Completion",
+      "prompt": "Finally, success can be quantified and continually 40 ______.原文說：“outcomes are measured and from that point on are monitored…”",
+      "translation": "成果會被衡量，並從那時起受到監察。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 quantified 對應原文的 measured。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 continually 對應原文的 from that point on。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格要填 monitored。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -TEAM BUILDING.pdf",
+    "sha256": "9ff103b8b0b25928ab212db62d4df7e17dabcdf4dd010451e8b6418dddb4becc",
+    "pageCount": 13
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 經濟困難時，公司仍重視員工動機、培訓和內部關係。",
+        "label": "Paragraph 主要內容"
+      },
+      {
+        "number": "2",
+        "summary": "Paragraph Louise Edwards 解釋很多公司不清楚 team building 的意思，並提出 team 應按2 common goal 定義。 Paragraph Brenda Durham 說職場衝突難以完全避免；同段介紹 Liaison Wizards 和3 contextualised training。 Paragraph Jeff Blackshaw 說成功團隊關係需要 respect、encouragement、shared 4 enthusiasm 和 supportive workplace。 Paragraph Brian Osbourne 說 in-house programmes 較容易成功，因員工可參與 planning， 5 也因活動較易切合公司文化。 Paragraph Osbourne 和 Edwards 討論 games、humour，以及 team building 的四個階段。",
+        "label": "1"
+      },
+      {
+        "number": "3",
+        "summary": "Paragraph Alan Kidman 的 experimental in-house programme，目標是加強不同部門之間7 的 communication and support。 Paragraph 總結不同方法需配合 organisation culture、personalities，並要有 measurable 8 follow-up。",
+        "label": "6"
+      }
+    ]
+  }
+}

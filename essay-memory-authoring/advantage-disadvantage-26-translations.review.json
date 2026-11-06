@@ -1,0 +1,127 @@
+{
+  "key": "advantage-disadvantage:26",
+  "sourceSentenceCount": 16,
+  "reason": "Canonical Traditional Chinese has added, shifted or omitted material; proposed items align one-to-one with physical English sentences.",
+  "sentences": [
+    {
+      "number": 1,
+      "english": "Traffic congestion has become a defining problem in many large cities, wasting commuters’ time, harming productivity, and putting pressure on existing transport systems.",
+      "sourceChinese": "交通擠塞已成為許多大城市的典型問題，不但浪費通勤者的時間、損害生產力，亦對現有交通系統造成壓力。",
+      "proposedChinese": "交通擠塞已成為許多大城市的典型問題，不但浪費通勤者的時間、損害生產力，亦對現有交通系統造成壓力。"
+    },
+    {
+      "number": 2,
+      "english": "One proposed solution is to build sky trains, which run on elevated tracks rather than on roads or beneath the ground.",
+      "sourceChinese": "其中一種被提出的解決方法，是興建空中列車，也就是在高架軌道上運行，而不是在地面道路或地下行駛。",
+      "proposedChinese": "其中一種被提出的解決方法，是興建空中列車，也就是在高架軌道上運行，而不是在地面道路或地下行駛。"
+    },
+    {
+      "number": 3,
+      "english": "This essay will examine the advantages and disadvantages of using this approach to reduce urban congestion.",
+      "sourceChinese": "本文將探討利用這種方法來紓緩城市交通擠塞的優點與缺點。",
+      "proposedChinese": "本文將探討利用這種方法來紓緩城市交通擠塞的優點與缺點。"
+    },
+    {
+      "number": 4,
+      "english": "One major advantage of sky trains is that they can transport large numbers of passengers without competing with cars, buses, or delivery vehicles for limited road space.",
+      "sourceChinese": "空中列車其中一個主要優點，是它能夠在不與私家車、巴士或送貨車爭奪有限路面空間的情況下運載大量乘客。",
+      "proposedChinese": "空中列車其中一個主要優點，是它能夠在不與私家車、巴士或送貨車爭奪有限路面空間的情況下運載大量乘客。"
+    },
+    {
+      "number": 5,
+      "english": "Because the system operates above street level, it is largely unaffected by traffic lights, accidents, and rush-hour bottlenecks, which makes journeys faster and more reliable.",
+      "sourceChinese": "由於這套系統在街道上方運行，它大致不受交通燈、交通意外及繁忙時段樽頸情況影響，因而令行程更快捷，也更可靠。這意味著通勤人士可以避開路面交通的不確定性，更準時到達目的地，並減輕本已擠塞道路的壓力。",
+      "proposedChinese": "由於這套系統在街道上方運行，它大致不受交通燈、意外和繁忙時段的交通樽頸影響，因此行程更快捷、更可靠。"
+    },
+    {
+      "number": 6,
+      "english": "For example, a worker travelling from an outer residential district to the city centre could still arrive on time even if the roads below were at a standstill.",
+      "sourceChinese": "例如，一名由外圍住宅區前往市中心上班的員工，即使下方道路完全陷入停滯，仍然可以準時到達。",
+      "proposedChinese": "例如，一名由外圍住宅區前往市中心上班的員工，即使下方道路完全陷入停滯，仍然可以準時到達。"
+    },
+    {
+      "number": 7,
+      "english": "Another benefit is that elevated lines can, in some cases, be simpler to construct than underground railways, since they do not require extensive tunnelling beneath densely built-up areas.",
+      "sourceChinese": "另一個好處是，在某些情況下，高架鐵路比地下鐵路更容易興建，因為它不需要在建築密集地區下方進行大規模隧道工程。結果是，城市可能可以更快擴展公共交通、避免部分工程上的複雜問題，並更早增加運載能力。",
+      "proposedChinese": "另一項好處是，在某些情況下，高架鐵路可能比地下鐵路更容易興建，因為它不需要在建築密集地區下方進行大規模隧道工程。"
+    },
+    {
+      "number": 8,
+      "english": "For instance, a city could install pillars and tracks above a wide central avenue more quickly than digging beneath historic buildings and buried utility lines.",
+      "sourceChinese": "例如，一個城市可以在寬闊的中央大道上方興建支柱和軌道，而這往往比在歷史建築及地下公用設施下方開挖地鐵更快完成。因此，空中列車能透過提供不受路面交通影響的出行方式，以及一種可能更快擴展交通基建的方法，來改善城市流動性。",
+      "proposedChinese": "例如，城市在寬闊中央大道上方設置支柱和軌道，可能比在歷史建築與地下公用設施下方挖掘來得快。"
+    },
+    {
+      "number": 9,
+      "english": "However, this solution also has clear disadvantages.",
+      "sourceChinese": "然而，這種解決方案亦有明顯缺點。",
+      "proposedChinese": "然而，這種解決方案亦有明顯缺點。"
+    },
+    {
+      "number": 10,
+      "english": "The first is financial cost: although sky trains may be less expensive than subways, they still require substantial investment in land acquisition, engineering, stations, and long-term maintenance.",
+      "sourceChinese": "第一個缺點是財政成本：雖然空中列車可能比地下鐵路便宜，但它仍然需要在土地取得、工程建設、車站設施及長期維修方面投入大量資金。當大量公共資金被投放到單一大型項目時，其他交通需求便可能被忽視或延後處理。",
+      "proposedChinese": "第一項缺點是財政成本：雖然空中列車可能比地下鐵路便宜，仍須在取得土地、工程、車站及長期維修方面投入大量資金。"
+    },
+    {
+      "number": 11,
+      "english": "For example, if a city spends most of its transport budget on one elevated line, it may have to postpone improvements to buses or suburban roads that are also badly needed.",
+      "sourceChinese": "例如，如果一個城市把大部分交通預算投放在一條高架鐵路線上，它便可能需要延後改善同樣急需提升的巴士服務或郊區道路。",
+      "proposedChinese": "例如，如果一個城市把大部分交通預算投放在一條高架鐵路線上，它便可能需要延後改善同樣急需提升的巴士服務或郊區道路。"
+    },
+    {
+      "number": 12,
+      "english": "A second drawback is their impact on the urban environment.",
+      "sourceChinese": "第二個缺點，是它對城市環境所造成的影響。",
+      "proposedChinese": "第二個缺點，是它對城市環境所造成的影響。"
+    },
+    {
+      "number": 13,
+      "english": "Large overhead structures can block sunlight, create noise, and reduce privacy for nearby residents.",
+      "sourceChinese": "大型高架結構可能遮擋陽光、製造噪音，並削弱附近居民的私隱，從而令周邊社區變得較不宜居。",
+      "proposedChinese": "大型高架結構可能遮擋陽光、製造噪音，並削弱附近居民的私隱。"
+    },
+    {
+      "number": 14,
+      "english": "For instance, people living in apartment blocks beside an elevated track may have trains passing their windows from early morning until late at night, making the area less pleasant to live in.",
+      "sourceChinese": "例如，居住在高架軌道旁邊公寓的居民，可能由清晨到深夜都會有列車從窗邊駛過，令日常生活明顯變得較不舒適。因此，雖然空中列車或許能夠紓緩交通擠塞，但它同時也可能為城市帶來嚴重的財政及環境代價。",
+      "proposedChinese": "例如，住在高架軌道旁公寓的居民，可能從清晨到深夜都有列車經過窗前，令該區較不宜居。"
+    },
+    {
+      "number": 15,
+      "english": "In summary, sky trains offer clear benefits because they can bypass road congestion and expand public transport capacity efficiently.",
+      "sourceChinese": "總結來說，空中列車具有明顯優點，因為它能避開路面交通擠塞，並更有效地提升運輸能力。",
+      "proposedChinese": "總結來說，空中列車具有明顯優點，因為它能避開路面交通擠塞，並更有效地提升運輸能力。"
+    },
+    {
+      "number": 16,
+      "english": "At the same time, their high cost and their potential impact on surrounding neighbourhoods mean that they are not a perfect solution to urban traffic problems.",
+      "sourceChinese": "與此同時，其高昂成本以及對周邊社區造成的負面影響，也意味著它並不是解決城市交通問題的完美方案。",
+      "proposedChinese": "與此同時，其高昂成本以及對周邊社區造成的負面影響，也意味著它並不是解決城市交通問題的完美方案。"
+    }
+  ],
+  "rawChinese": [
+    "交通擠塞已成為許多大城市的典型問題，不但浪費通勤者的時間、損害生產力，亦對現有交通系統造成壓力。",
+    "其中一種被提出的解決方法，是興建空中列車，也就是在高架軌道上運行，而不是在地面道路或地下行駛。",
+    "本文將探討利用這種方法來紓緩城市交通擠塞的優點與缺點。",
+    "空中列車其中一個主要優點，是它能夠在不與私家車、巴士或送貨車爭奪有限路面空間的情況下運載大量乘客。",
+    "由於這套系統在街道上方運行，它大致不受交通燈、意外和繁忙時段的交通樽頸影響，",
+    "因此行程更快捷、更可靠。",
+    "例如，一名由外圍住宅區前往市中心上班的員工，即使下方道路完全陷入停滯，仍然可以準時到達。",
+    "另一項好處是，在某些情況下，高架鐵路可能比地下鐵路更容易興建，",
+    "因為它不需要在建築密集地區下方進行大規模隧道工程。",
+    "例如，",
+    "城市在寬闊中央大道上方設置支柱和軌道，可能比在歷史建築與地下公用設施下方挖掘來得快。",
+    "然而，這種解決方案亦有明顯缺點。",
+    "第一項缺點是財政成本：雖然空中列車可能比地下鐵路便宜，仍須在取得土地、工程、",
+    "車站及長期維修方面投入大量資金。",
+    "例如，如果一個城市把大部分交通預算投放在一條高架鐵路線上，它便可能需要延後改善同樣急需提升的巴士服務或郊區道路。",
+    "第二個缺點，是它對城市環境所造成的影響。",
+    "大型高架結構可能遮擋陽光、製造噪音，並削弱附近居民的私隱。",
+    "例如，住在高架軌道旁公寓的居民，可能從清晨到深夜都有列車經過窗前，",
+    "令該區較不宜居。",
+    "總結來說，空中列車具有明顯優點，因為它能避開路面交通擠塞，並更有效地提升運輸能力。",
+    "與此同時，其高昂成本以及對周邊社區造成的負面影響，也意味著它並不是解決城市交通問題的完美方案。"
+  ],
+  "rawItemCount": 21
+}

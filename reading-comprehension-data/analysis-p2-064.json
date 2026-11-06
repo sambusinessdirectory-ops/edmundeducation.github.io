@@ -1,0 +1,475 @@
+{
+  "id": "analysis-p2-064",
+  "catalogueId": "p2-064",
+  "catalogueIds": [
+    "p2-064"
+  ],
+  "passage": 2,
+  "title": "TRICKY SUMS AND PSYCHOLOGY",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 12,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "F",
+    "G",
+    "A",
+    "D",
+    "B",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C",
+      "answerKey": "C",
+      "prompt": "Question 14",
+      "translation": "十九世紀對兒童應學甚麼的看法。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描年份 1820 與 John Leslie。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "John Leslie recommended that young pupils memorise the times table up to 25 × 25."
+            },
+            {
+              "kind": "paragraph",
+              "text": "1820 年屬十九世紀；C 段明確交代當時對背誦乘數表範圍的建議。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "F",
+      "answerKey": "F",
+      "prompt": "Question 15",
+      "translation": "最難的乘法算式。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 hardest sum。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "Studies often find that the hardest sum is 6 × 8, with 7 × 8 not far behind."
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段比較不同乘法的難度，並指出研究中最難的算式。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "G",
+      "answerKey": "G",
+      "prompt": "Question 16",
+      "translation": "壓力對表現的影響。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 pressure、stress、mistakes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "when there is a lot of pressure to do something right, people often have difficulty doing something that they normally find easy."
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 段解釋壓力令原本容易的事情變得困難，稱為 choking。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "prompt": "Question 17",
+      "translation": "兒童如何學習乘數表。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 learned their times table。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "Children have traditionally learned their times table by going from ‘1 times 1 is 1’ all the way up to ‘12 times 12 is 144’."
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 段直接描述傳統背誦方式。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "prompt": "Question 18",
+      "translation": "一位答錯算式的政治人物。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 Stephen Byers 與 54。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "He got the answer wrong, saying 54 rather than 56, and everyone laughed at him."
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段的 Byers 答錯；E 段的 Osborne 是拒絕回答，兩者不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B",
+      "answerKey": "B",
+      "prompt": "Question 19",
+      "translation": "乘數表的歷史。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 oldest known tables 與 305 BC。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "The oldest known tables using base-10 numbers, the base that is now used everywhere in the world, were written on bamboo strips dating from 305 BC, found in China."
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段交代早期乘數表及名稱的歷史。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "prompt": "Question 20",
+      "translation": "畢氏在中國發明乘數表。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位 B 段的 China 與 Pythagoras。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "in many European cultures the times table is named after the Ancient Greek mathematician and philosopher Pythagoras"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章交代在中國出土的竹簡及歐洲的命名習慣，沒有交代畢氏是否曾在中國發明乘數表。命名不等於發明證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "prompt": "Question 21",
+      "translation": "Stephen Byers 與 George Osborne 被問及同一道題目。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "比較 D、E 段的 7 × 8 與 same question。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "In 2014, a young boy asked the UK Chancellor George Osborne the same question."
+            },
+            {
+              "kind": "paragraph",
+              "text": "same question 回指 Byers 被問的 7 × 8。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "prompt": "Question 22",
+      "translation": "英國所有兒童都必須學習乘數表。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位 D 段的 current aim。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "The current aim in the UK is for school pupils to know all their times tables up to 12 × 12 by the age of nine."
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說明教育目標，沒有說所有兒童均受強制規定；不可把 aim 擴大為 have to。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "prompt": "Question 23",
+      "translation": "George Osborne 不知道 7 × 8 的答案。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位 F 段的 unlikely。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "it is unlikely that George Osborne did not know the answer."
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者認為他不懂答案的可能性很低，後文解釋他拒答是害怕壓力下失常。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "prompt": "Question 24",
+      "translation": "7 × 8 是兒童最難學的算式。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 F 段 hardest sum。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "the hardest sum is 6 × 8, with 7 × 8 not far behind."
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究指最難的是 6 × 8；7 × 8 只是緊隨其後。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "prompt": "Question 25",
+      "translation": "Stephen Byers 因壓力失常而答錯。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "比較 D 段的錯誤事實與 G 段的壓力解釋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "He got the answer wrong, saying 54 rather than 56"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有說明 Byers 答錯的具體原因；G 段解釋的是 Osborne 的拒答，不可直接套用。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - TRICKY SUMS AND PSYCHOLOGY.pdf",
+    "sha256": "6aa44c1b6c4030e20da83ab774f59e54aee137e2929eb3568eaa4d79a50a0d9e",
+    "pageCount": 16
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A：介紹乘數表及兒童傳統的背誦方式。"
+      },
+      {
+        "number": "B",
+        "summary": "B：追溯乘數表的歷史及畢氏之名的由來。"
+      },
+      {
+        "number": "C",
+        "summary": "C：比較十九世紀與現代對背誦範圍的建議。"
+      },
+      {
+        "number": "D",
+        "summary": "D：說明英國學習目標及 Stephen Byers 答錯乘法的例子。"
+      },
+      {
+        "number": "E",
+        "summary": "E：George Osborne 拒絕回答同一道乘法題。"
+      },
+      {
+        "number": "F",
+        "summary": "F：研究指出某些乘法較難，但這不足以解釋 Osborne 的反應。"
+      },
+      {
+        "number": "G",
+        "summary": "G：解釋壓力引發失常，以及 Osborne 為何拒答。"
+      }
+    ]
+  }
+}

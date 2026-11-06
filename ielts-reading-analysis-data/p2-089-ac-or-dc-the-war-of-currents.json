@@ -1,0 +1,1367 @@
+{
+  "id": "p2-089-ac-or-dc-the-war-of-currents",
+  "catalogueId": "p2-089",
+  "catalogueIds": [
+    "p2-089"
+  ],
+  "passage": 2,
+  "title": "AC or DC: The War of Currents",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "storage batteries",
+    "voltage",
+    "DC",
+    "expensive",
+    "B",
+    "D",
+    "E",
+    "C",
+    "B",
+    "A",
+    "A",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "storage batteries",
+      "answerKey": "storage batteries",
+      "type": "Table Completion",
+      "prompt": "Question 14",
+      "translation": "電力供應可以用 __________ 補充。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Supply can be supplemented with 14 __________”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 table completion，要求 NO MORE THAN TWO WORDS。空格位於 Direct Current 的Advantages 下，所以答案要來自 DC 的好處。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are, however, benefits to using DC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，使用 DC 也有好處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the widespread adoption of DC across America would see him gain considerably from patent royalties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果 DC 在全美廣泛採用，Edison 會從專利使用費中獲得可觀收益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 3 會列出 DC 的優點，並連到 Edison 的商業得益。Question 14 在 table 的 DC Advantages 部分，所以這段就是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Supply can be supplemented”。原文不一定重複 supplement，所以要留意 “extra power”、“backup”、“demand” 這類概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It can allow storage batteries to be directly connected to the electricity grid, giving extra power to meet sudden short-term peaks of demand, or backup during a breakdown in supply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它可以讓蓄電池直接連接到電網，提供額外電力，以應付突然出現的短期用電高峰，或在供電中斷時作後備。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “Supply can be supplemented with…” 對應原文 “giving extra power” 和 “backup”。真正填入空格的是提供額外電力的東西：storage batteries。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Supply can be supplemented = giving extra power / backup storage batteries = storage batteries所以答案是 storage batteries。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "voltage",
+      "answerKey": "voltage",
+      "type": "Table Completion",
+      "prompt": "Question 15",
+      "translation": "電線電阻會降低 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wire resistance lowers the 15 __________”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1879, Edison’s team at Menlo Park had improved the electric light bulb, but Edison needed an efficient electricity distribution system to capitalise on this.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1879 年，Edison 在 Menlo Park 的團隊改良了電燈泡，但 Edison 需要一套有效的配電系統來把這項成果商業化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever thickness of wire is used, there is a natural limitation in the distance over which the electricity can be economically transmitted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論使用多厚的電線，電力能夠以經濟方式傳送的距離都有天然限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講 Edison DC 系統的技術限制，尤其是傳輸距離問題。題目中的 wire resistance 正是技術細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Wire resistance” 和 “lowers”。原文對應 “electrical resistance of the transmission wires” 和 “reduces”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of the low voltage, a correspondingly higher current flows, and the electrical resistance of the transmission wires significantly reduces the voltage over distance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於電壓低，相應會有較高電流流動，而傳輸電線的電阻會隨著距離明顯降低電壓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “electrical resistance of the transmission wires significantly reduces the voltage” 改成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Wire resistance lowers the voltage”。答案詞就是 voltage。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "wire resistance = electrical resistance of the transmission wires lowers = significantly reduces voltage = voltage所以答案是 voltage。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "DC",
+      "answerKey": "DC",
+      "type": "Table Completion",
+      "prompt": "Question 16",
+      "translation": "可以驅動 __________ 摩打，即當時唯一可用的摩打種類。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Could power 16 __________ motors (the only kind available then)”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are, however, benefits to using DC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，使用 DC 也有好處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the widespread adoption of DC across America would see him gain considerably from patent royalties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果 DC 在全美廣泛採用，Edison 會從專利使用費中獲得可觀收益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段列出 DC 的好處，table 也在問 Direct Current advantages，所以定位很直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “motors” 和 “only kind available then”。原文中有 “there were no practical AC motors, only DC ones”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, during Edison’s time, there were no practical AC motors, only DC ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，在 Edison 的時代，沒有實用的 AC 摩打，只有 DC 摩打。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “the only kind available then” 對應原文 “only DC ones”。空格放在 motors 前面，所以答案要填形容摩打種類的字：DC。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the only kind available then = only DC ones Could power DC motors = DC system could work with the only practical motors then所以答案是 DC。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "expensive",
+      "answerKey": "expensive",
+      "type": "Table Completion",
+      "prompt": "Question 17",
+      "translation": "所用電線又厚又 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wires used are thick and 17 __________”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4，並要連回 Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, all such inventions were somewhat useless when DC electricity could only be delivered to customers within a few kilometres of the generating source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，當 DC 電力只能送到發電源附近幾公里內的用戶時，這些發明的實用價值仍然有限。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was the brilliant physicist and prolific inventor Nikola Tesla who had extensively researched this system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "深入研究這套系統的人，是傑出的物理學家兼多產發明家 Nikola Tesla。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 會講 DC 傳輸距離問題，並引出 AC 作為解法。table 中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“wires used are thick and…” 就是把 AC 的優勢反向放回 DC 的劣勢。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “wires”、“thick”、“expensive”。原文有 “thinner and less expensive wires”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“This also allows thinner and less expensive wires, but there was no low-cost technology to transform voltage—unless one used AC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這也可以使用較幼、較便宜的電線，但當時沒有低成本技術可以轉換電壓，除非使用 AC。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是 AC 的優勢：AC 透過升壓和降壓，可以用 thinner and less expensive wires。table 問DC 的 disadvantage，所以把這個關係反向理解：DC 無法低成本轉換電壓，因此需要較厚、較昂貴的電線。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "thinner and less expensive wires with AC→ DC wires are thick and expensive答案必須取自原文，且不超過兩個字，所以填 expensive。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B, D, E",
+      "answerKey": "B, D, E",
+      "type": "Choose THREE",
+      "prompt": "Questions 18–20",
+      "translation": "Edison 用哪三種策略去抹黑 AC 電流？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which THREE strategies, A–F, did Edison use to discredit AC current?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題是 Multiple-answer Questions。手冊提醒，Choose TWO / THREE 題每個正確選項都要獨立證明，不能用一段模糊證據一次包辦全部答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Correct answers: B, D, E B — Pressured politicians."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7 和 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Edison’s first strike was to claim that high-voltage systems were too dangerous to use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edison 的第一擊，是聲稱高電壓系統太危險，不適合使用。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the battle of public opinion, this was even filmed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在公眾輿論戰中，這件事甚至被拍攝成影片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 7 講 Edison 如何攻擊 AC 的公眾形象。當中有一項就是動用政治影響力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “pressured politicians”。原文沒有 politicians，但有 “used his influence on various American state governments”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Edison’s next strike was to use his influence on various American state governments to limit power transmission to low voltages, effectively eliminating AC from the competition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edison 的下一擊，是利用自己對美國各州政府的影響力，把電力傳輸限制在低電壓，實際上把AC 從競爭中排除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“state governments” 對應 politicians / political authorities；“use his influence” 對應 pressured。所以 B 正確。 D — Used movie cameras."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Edison 首先宣稱高電壓系統危險；最後一句說在公眾輿論戰中，動物電刑甚至被拍攝下來。這已經把 “movie cameras / filmed” 定位到 Paragraph 7。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “movie cameras”。原文使用 “filmed”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“When this failed, Edison was prepared to conduct public electrocutions of animals using AC —even on a rogue elephant no longer wanted by its circus owners. In the battle of public opinion, this was even filmed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這招失敗後，Edison 準備用 AC 公開電死動物，甚至包括一頭馬戲團主人不再想要的失控大象。在公眾輿論戰中，這件事甚至被拍攝成影片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 “Used movie cameras” 是對 “this was even filmed” 的概括。重點在 public opinion：影片用來讓公眾看見 AC 電死動物，從視覺上加強恐懼感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E — Scared people."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7 和 Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 從 “too dangerous” 開始，Paragraph 8 進一步把 AC 和 human execution 連接，所以 “scared people” 是這兩段的總策略。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “scared”。原文沒有直接用 scare，但出現 “dangerous”、“electrocutions”、“deadliness”、“execution”、“electric chair”、“horror of the spectators”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph 7 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Edison’s first strike was to claim that high-voltage systems were too dangerous to use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edison 的第一擊，是聲稱高電壓系統太危險，不適合使用。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next logical step was to show AC’s deadliness to human beings themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一個合乎邏輯的步驟，是向人們展示 AC 對人類本身的致命性。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Edison, realising that he was losing the war, again used his influence on government, this time to promote the use of AC for the execution of prisoners.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edison 意識到自己正在輸掉這場戰爭，於是再次動用對政府的影響力，這一次是推動用 AC 來處決囚犯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些策略共同目的很清楚：把 AC 和危險、死亡、恐怖場面連接。E 的 “Scared people” 是對多個行動的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 E 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項快速排除A Hired lawyers.原文說 Westinghouse hired the best lawyers，不是 Edison。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Invented many DC devices.原文確實說 Edison 有許多 DC devices 的 patents，但這是他支持 DC 的商業利益背景，並非用來抹黑 AC 的策略。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F Invented the electric chair.原文說 first electric chair was constructed，並說 Edison promoted the use of AC for executions。文章沒有說 Edison 發明 electric chair，所以 F 超出原文。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "C — Tesla and Westinghouse",
+      "answerKey": "C — Tesla and Westinghouse",
+      "type": "Matching People",
+      "prompt": "“Who favoured AC?”",
+      "translation": "誰支持 AC？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5 和 Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 第一、尾句顯示 Tesla 與 Edison 的衝突，當中核心就是 AC system。Paragraph 6則引入 Westinghouse 作為 AC 陣營的重要人物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “favoured AC”。原文會用 “proposed the AC system”、“understand AC’s potential”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“converts to the cause”、“promote it as a better system”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Tesla 證據句：“He had actually proposed the AC system to Edison, but Edison… dismissed it as impractical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他其實曾向 Edison 提出 AC 系統，但 Edison 認為它不實用並加以否定。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesla… was able to understand AC’s potential, even inventing an AC polyphase electric induction motor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesla 能理解 AC 的潛力，甚至發明了 AC 多相感應電動機。"
+            },
+            {
+              "kind": "label",
+              "text": "Westinghouse 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the converts to the cause was a university-trained electrical engineer named George Westinghouse…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持這個事業的人之一，是受過大學訓練的電機工程師 George Westinghouse。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“This eventually led him to hire Tesla himself to help commercialise AC and promote it as a better system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這最終令他聘請 Tesla 本人，協助把 AC 商業化，並宣傳它是一套更好的系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesla 和 Westinghouse 都支持 AC，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "B — Edison and Westinghouse",
+      "answerKey": "B — Edison and Westinghouse",
+      "type": "Matching People",
+      "prompt": "“Who started a company?”",
+      "translation": "誰創立公司？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2 和 Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 講 Edison 建立 DC 系統；Paragraph 6 講 Westinghouse 進入 AC 陣營並投資。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “started a company”。原文會以 founded / formed a company 表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Edison 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, in 1880, he founded the Edison Illuminating Company and constructed a generating station providing 110 volts of direct current.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，1880 年，他創立 Edison Illuminating Company，並建造一座提供 110 伏特 DC 的發電站。"
+            },
+            {
+              "kind": "label",
+              "text": "Westinghouse 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He formed a company and purchased the patents for AC-based transformer technology from its European inventors…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他成立了一家公司，並從歐洲發明者手中購買 AC-based transformer technology 的專利。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "founded = started formed a company = started a company Edison 和 Westinghouse 都創立公司，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A — Edison and Tesla",
+      "answerKey": "A — Edison and Tesla",
+      "type": "Matching People",
+      "prompt": "“Who had a face-to-face fight?”",
+      "translation": "誰有正面衝突？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句介紹 Tesla 曾在 Edison 實驗室工作；最後一句說他與 Edison 的 direct confrontation 令他立即辭職。首尾句已經高度提示答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “face-to-face fight”。原文沒有這幾個字，但有 “a direct confrontation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesla soon felt he was not being given due credit or enough financial compensation from Edison, and a direct confrontation led him to resign immediately…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesla 很快覺得 Edison 沒有給他應得的認可或足夠金錢補償，一次正面衝突令他立即辭職。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“direct confrontation” 對應 “face-to-face fight”。這場衝突發生在 Tesla 和 Edison 之間，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Westinghouse 後來也和 Edison 在商業和公眾輿論上競爭，但題目問 “face-to-face fight”。原文有 direct confrontation 的只有 Tesla 和 Edison。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — Edison and Tesla",
+      "answerKey": "A — Edison and Tesla",
+      "type": "Matching People",
+      "prompt": "“Who invented many devices?”",
+      "translation": "誰發明了很多裝置？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1、Paragraph 3 和 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 稱 Edison 是 inventor；Paragraph 3 說 Edison 和團隊發明多項 DC devices； Paragraph 5 稱 Tesla 是 prolific inventor，並提到 AC motor。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “invented many devices”。原文會出現 inventor、prolific inventor、invented、devices。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Edison 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thomas Edison, a home-grown American inventor, heavily favoured DC from the start.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thomas Edison 是美國本土發明家，從一開始就大力支持 DC。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Edison had the patents … to many associated DC devices which he and his team had invented…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edison 擁有許多相關 DC 裝置的專利，這些裝置是他和團隊發明的。"
+            },
+            {
+              "kind": "label",
+              "text": "Tesla 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was the brilliant physicist and prolific inventor Nikola Tesla who had extensively researched this system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "深入研究這套系統的人，是傑出的物理學家兼多產發明家 Nikola Tesla。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesla… was able to understand AC’s potential, even inventing an AC polyphase electric induction motor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesla 能理解 AC 的潛力，甚至發明了 AC 多相感應電動機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "prolific inventor 表示多產發明家；many associated DC devices 表示 Edison 和團隊也發明了多項裝置。Edison 和 Tesla 都符合，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — Edison and Westinghouse",
+      "answerKey": "B — Edison and Westinghouse",
+      "type": "Matching People",
+      "prompt": "“Who owned many patents?”",
+      "translation": "誰擁有很多專利？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3 和 Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 講 Edison 的 DC patents；Paragraph 6 講 Westinghouse 購買 AC patents。這題要看 owned / had / purchased 這一組語義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “owned many patents”。原文有 “Edison had the patents” 和 “Westinghouse …purchased the patents”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Edison 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps most importantly, Edison had the patents (legal rights) to many associated DC devices…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許最重要的是，Edison 擁有許多相關 DC 裝置的專利，即法律權利。"
+            },
+            {
+              "kind": "label",
+              "text": "Westinghouse 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He formed a company and purchased the patents for AC-based transformer technology from its European inventors, as well as those for Tesla’s AC polyphase electric motor, among others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他成立公司，並從歐洲發明者手中購買 AC-based transformer technology 的專利，也購買了Tesla 的 AC 多相電動機等專利。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "had the patents = owned patents purchased the patents = became patent owner / obtained patent rights Edison 和 Westinghouse 都擁有或取得大量專利，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Tesla 發明了 AC motor，但原文說 Westinghouse 購買了 those for Tesla’s AC polyphase electric motor。題目問 owned patents，判斷要落在法律權利誰持有，不只看誰發明。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "C — Tesla and Westinghouse",
+      "answerKey": "C — Tesla and Westinghouse",
+      "type": "Matching People",
+      "prompt": "“Who was well educated?”",
+      "translation": "誰受過良好教育？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5 和 Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 對比 Edison 和 Tesla 的教育背景；Paragraph 6 介紹 Westinghouse 是university-trained electrical engineer。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “well educated”。原文對應 “mathematical training and formal theoretical knowledge”以及 “university-trained”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Tesla 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesla, with the mathematical training and formal theoretical knowledge, was able to understand AC’s potential…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesla 具備數學訓練和正式理論知識，因此能理解 AC 的潛力。"
+            },
+            {
+              "kind": "label",
+              "text": "Westinghouse 證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the converts to the cause was a university-trained electrical engineer named George Westinghouse…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持 AC 的人之一，是受過大學訓練的電機工程師 George Westinghouse。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都直接指向 well educated。Edison 的對比句也很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Edison, an empirical experimenter with little formal education, dismissed it as impractical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edison 是一位重視經驗實驗的實驗者，正規教育很少，他認為 AC 不實用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edison 有 little formal education，所以不符合 well educated。Tesla 和 Westinghouse 符合，因此答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - AC or DC_ The War of Currents.pdf",
+    "sha256": "6b5ba8a9b41e4a44a4ff755fb9707dc83e2933e2d5d41f5d665b9799e277504e",
+    "pageCount": 16
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句交代 electricity 可用 AC 或 DC 傳送，並指出 1880 年代後期的美國正處於電力供應早期階段；尾句說 Edison 的 DC crusade 最終失敗。只看首尾句，可以估計本段是全文總覽：Edison 起初力撐 DC，但 DC 限制會逐漸明顯，AC 優勢會上升。題目若問整場 War of Currents 的結果或Edison 立場，先看這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Edison 在改良電燈泡後，需要有效配電系統來把發明商業化；尾句說無論電線多厚，DC經濟傳輸距離都有天然限制。只看首尾句，可以估計本段講 Edison DC 系統的技術弱點。中間有110 volts、low voltage、higher current、wire resistance、voltage loss over distance，正好對應table 中 DC disadvantages。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說使用 DC 也有好處；尾句指出若 DC 在全美普及，Edison 可從 patent royalties 中大大得益。只看首尾句，可以估計本段集中列出 DC 的優點和 Edison 的商業利益。中間會出現 storage batteries、DC motors、incandescent light bulbs、patents、meters、telegraphic devices、household machinery。題目若問 DC advantages 或 Edison income，這段最關鍵。"
+      },
+      {
+        "number": "4",
+        "summary": "首句用 Still 轉折，指出 DC 發明再多，若只能送到發電源附近幾公里內，實用價值也有限；尾句引入 Nikola Tesla 對 AC 系統的研究。只看首尾句，可以估計本段由 DC 的距離問題轉向 AC 解法。核心是 step up voltage、step down voltage、safe levels、thinner and less expensive wires，以及 AC 可用 transformer 技術解決長距離傳輸。"
+      },
+      {
+        "number": "5",
+        "summary": "首句介紹 Tesla 是來自 Serbia 的貧窮移民，曾在 Edison 的 Menlo lab 工作一年；尾句說他與Edison 正面衝突後立即辭職，之後一度靠勞力工作維生。只看首尾句，可以估計本段講 Tesla 與Edison 的關係惡化。中間會說 Tesla 提出 AC system，Edison dismiss it as impractical，Tesla 懂理論並發明 AC induction motor。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Tesla 並非第一個支持 AC 的人；尾句說 War of Currents 即將開始。只看首尾句，可以估計本段引入 Westinghouse，並把 Tesla 和 Westinghouse 連成 AC 陣營。中間講歐洲 AC 試驗成功，Westinghouse 接受 AC，成立公司，購買 transformer 和 Tesla AC motor patents，再聘請Tesla 協助商業化和宣傳 AC。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Edison 的第一擊是聲稱 high-voltage systems 太危險；尾句說他用 AC 公開電死動物，甚至連馬戲團不要的大象也被拍成影片。只看首尾句，可以估計本段講 Edison 抹黑 AC 的第一批策略：把 AC 與危險、死亡、公眾恐懼連接。他也試圖影響州政府限制低電壓傳輸，藉此把 AC 排除出競爭。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說下一步自然是展示 AC 對人類本身的致命性；尾句說 electric chair 留下來了，但 AC 沒有如 Edison 所願被污名化成殺人工具。只看首尾句，可以估計本段講 Edison 把 AC 和死刑連接的策略，以及 Westinghouse 的反擊。中間有 first electric chair、execution of prisoners、hiring lawyers、botched execution 和 public image 結果。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 AC 的 range and efficiency 令 Westinghouse 得到高聲望工程項目；尾句說戰爭實際上已經勝出，AC 幾乎完全接管。只看首尾句，可以估計本段是全文結果段。Ames Hydro-electric Plant、Niagara Falls、Columbian Exposition、fluorescent lamps、Tesla’s AC motors 都用來展示AC 的成功和公關勝利。"
+      }
+    ]
+  }
+}

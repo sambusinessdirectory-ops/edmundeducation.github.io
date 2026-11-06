@@ -1,0 +1,1511 @@
+{
+  "id": "p1-046-ants-could-teach-ants",
+  "catalogueId": "p1-046",
+  "catalogueIds": [
+    "p1-046"
+  ],
+  "passage": 1,
+  "title": "Ants Could Teach Ants",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "A",
+    "D",
+    "A",
+    "B",
+    "A",
+    "B",
+    "E",
+    "G",
+    "NO",
+    "NOT GIVEN",
+    "NO",
+    "YES"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C — Tim Caro",
+      "answerKey": "C — Tim Caro",
+      "type": "Matching Features",
+      "prompt": "“Animals could use objects to locate food.”",
+      "translation": "動物可以使用物件來尋找食物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是人物配對題。題目中的高價值定位詞是 “objects” 和 “locate food”。原文可能不會用 objects，可能用具體物件，例如 stick。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tim Caro, a zoologist, presented two cases of animal communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "動物學家 Tim Caro 提出了兩個動物溝通的案例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another example, birds that watched other birds use a stick to locate food such as insects were later observed doing the same thing themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在另一個例子中，有些鳥看見其他鳥用一根 stick 來尋找 insects 之類的食物，之後也被觀察到自己做同樣事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以立即看到本段由 Tim Caro 引出，最後提到 birds use a stick to locate food。這與題目幾乎直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“objects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“locate food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“use a stick to locate food such as insects”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用一根 stick 來尋找 insects 這類食物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“stick” 是 object 的具體例子。題目把具體物件 stick 概括成 objects；原文的 “locate food” 和題目完全重合。這個例子由 Tim Caro 提出，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "animals= birds objects= a stick locate food= locate food such as insects所以 Question 1 答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要只看到 “food” 就回到螞蟻段落。螞蟻是找 food，但沒有使用 object。真正控制答案的是“objects / stick”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A — Nigel Franks",
+      "answerKey": "A — Nigel Franks",
+      "type": "Matching Features",
+      "prompt": "“Ants demonstrate two-way, interactive teaching behaviour.”",
+      "translation": "螞蟻展示了雙向互動式教學行為。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰認為螞蟻有 two-way teaching。定位詞是 “two-way” 和 “interactive”，原文最可能用bidirectional feedback。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Tandem running is an example of teaching, to our knowledge the first in a non-human animal, that involves bidirectional feedback between teacher and pupil,’ remarks Nigel Franks, professor of animal behaviour and ecology, whose paper on the ant educators was published last week in the journal Nature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nigel Franks 說：「tandem running 是一個 teaching 的例子；據我們所知，這是非人類動物中的首例，而且它涉及 teacher 和 pupil 之間的 bidirectional feedback。」最後一句：本段只有這一句，因此它同時承擔段落開頭、結尾和答案證據的功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“two-way”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interactive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“teaching behaviour”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“bidirectional feedback between teacher and pupil”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "teacher 和 pupil 之間的雙向回饋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “Tandem running is an example of teaching” 對應題目 “teaching behaviour”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bidirectional feedback” 就是 two-way interaction：teacher 不是單方面帶路，pupil 也透過觸碰等行為給出回饋，leader 再根據回饋繼續行動。說這句的人是 Nigel Franks。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "two-way= bidirectional interactive= feedback between teacher and pupil teaching behaviour= an example of teaching所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Hauser 也談 teaching 的定義，因此容易混淆。但 Hauser 是質疑者；Franks 才是明確把 ant tandem running 稱為 teaching 的人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D — Bennett Galef Jr.",
+      "answerKey": "D — Bennett Galef Jr.",
+      "type": "Matching Features",
+      "prompt": "“It is risky to claim that ants teach one another as humans do.”",
+      "translation": "聲稱螞蟻像人類一樣互相教學，是有風險的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “risky to claim” 需要找 warning / cautious view。定位詞是 “as humans do”，原文會接近 human-like behaviour / human-like thinking。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bennett Galef Jr, a psychologist who studies animal behaviour and social learning at McMaster University in Canada, maintained that ants were unlikely to have a ‘theory of mind’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加拿大 McMaster University 研究 animal behaviour 和 social learning 的心理學家 Bennett Galef Jr 認為，螞蟻不大可能具備 “theory of mind”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Animals may behave in ways similar to humans without having a similar cognitive system, he said, so their behaviour is not necessarily a reliable guide to how humans came to think as they do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，動物可以用類似人類的方式行動，卻沒有相似的 cognitive system，因此牠們的行為不一定能可靠地指引我們理解人類如何形成自己的思考方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Galef 的核心態度很謹慎：動物行為看似像人類，不代表背後有相同思維。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“risky”"
+            },
+            {
+              "kind": "quote",
+              "text": "“as humans do”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“He warned that scientists may be barking up the wrong tree when they seek not only examples of human-like behaviour in other animals but also the human-like thinking presumed to underlie it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他警告說，科學家如果不只尋找其他動物中的 human-like behaviour，還推定背後有 human-like thinking，可能走錯方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“warned” 對應題目 “risky”。“human-like behaviour” 和 “human-like thinking” 對應題目 “as humans do”。Galef 的意思是：動物行為可能和人類相似，但不能立刻推定牠們具有相同的心理機制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "risky to claim= warned / may be barking up the wrong tree teach as humans do= human-like behaviour + human-like thinking所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Marc Hauser 也談 human teaching 和 theory of mind，所以 B 有一定吸引力。但 Q3 的語氣是“risky to claim”，最貼近 Galef 的 “warned” 和 “barking up the wrong tree”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A — Nigel Franks",
+      "answerKey": "A — Nigel Franks",
+      "type": "Matching Features",
+      "prompt": "“Ant leadership makes finding food faster.”",
+      "translation": "螞蟻 leader 的引導能令找食物更快。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 leader guidance 和 food faster 的關係。定位詞是 “leader”, “food”, “more quickly”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, Franks conducted a further study and found that there were even races between leaders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，Franks 進行了進一步研究，發現 leader 之間甚至會有比賽。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The students who worked with Franks on the video project supported his interpretation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與 Franks video project 的學生支持他的解讀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段講 Franks 的後續研究及其支持證據。題目問 leadership 對找食物速度的影響，正好在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“leadership”"
+            },
+            {
+              "kind": "quote",
+              "text": "“finding food faster”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“With guidance from a leader, ants could find food more quickly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 leader 的指導下，螞蟻能更快找到食物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 ants，條件是 “With guidance from a leader”，結果是 “find food more quickly”。題目把 “guidance from a leader” 概括成 “Ant leadership”，把 “find food more quickly” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“makes finding food faster”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Ant leadership= guidance from a leader makes finding food faster= could find food more quickly所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段後面說 leader 付出 cost，因為自己會被 follower 拖慢。這不是否定 leader 有用；相反，正因leader 犧牲速度幫 follower，才支持 Franks 的 teaching 解讀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B — Marc Hauser",
+      "answerKey": "B — Marc Hauser",
+      "type": "Matching Features",
+      "prompt": "“Communication between ants does not necessarily constitute teaching.”",
+      "translation": "螞蟻之間的溝通不一定構成 teaching。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰把 teaching 和 information transfer 分開。定位詞是 “communication”, “not necessarily”, “teaching”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Opposing views still arose, however.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反對意見仍然出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This happens throughout the animal kingdom, but we don’t call it teaching, even though it is clearly a transfer of information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況在整個動物界都會發生，但即使它明顯是資訊傳遞，我們也不稱它為 teaching。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段是反對觀點，而且核心正是 information transfer 未必等於 teaching。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“communication”"
+            },
+            {
+              "kind": "quote",
+              "text": "“constitute teaching”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 Hauser 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hauser noted that mere communication of information is commonplace in the animal world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hauser 指出，單純的資訊溝通在動物界很常見。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“we don’t call it teaching, even though it is clearly a transfer of information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使這明顯是資訊傳遞，我們也不稱它為 teaching。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hauser 的論點是：動物可以傳遞資訊，甚至付出成本讓其他個體受益，但這仍未必達到 teaching的標準。題目說 “does not necessarily constitute teaching”，正是把他的觀點概括出來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "communication between ants= mere communication of information does not necessarily constitute teaching= we don’t call it teaching, even though it is clearly a transfer of information所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目寫 “between ants”，原文在 Paragraph 5 用的是更廣的 animal communication 例子。這是Hauser 對 ant teaching 論文提出的反駁框架，因此人物仍然是 Hauser。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A, B, E, G",
+      "answerKey": "A, B, E, G",
+      "type": "Choose FOUR behaviours",
+      "prompt": "Questions 6–9",
+      "translation": "當 follower 找到方向後，牠會用 antennae 觸碰 leader，令這堂「課」真的進入下一步。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "填入 6–9 的順序可互換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A touch one another with their antennae原文證據位於 Paragraph 1："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once a follower had its bearings, it tapped the leader with its antennae, prompting the lesson literally to proceed to the next step.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項 A 的 “touch one another with their antennae” 對應 “tapped the leader with its antennae”。這是螞蟻 tandem running 中最具體的互動行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A 要選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B warn others when danger is present原文證據位於 Paragraph 5："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consider a species, for example, that uses alarm calls to warn fellow members about the presence of a predator.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，想像有一種動物會使用 alarm calls，警告同伴附近有 predator。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的 “warn others when danger is present” 對應 “warn fellow members about the presence of a predator”。這是 Hauser 用來說明 animal communication 的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 B 要選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E hunt food for their young原文證據位於 Paragraph 6："
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that cheetah mothers taking their cubs on hunts gradually allowed the cubs to do more of the hunting—for example, progressing from killing a gazelle and allowing young cubs to eat it to merely tripping the gazelle and letting the cubs finish it off.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現 cheetah mothers 帶 cubs 去 hunting，並逐步讓 cubs 做更多 hunting；例如，一開始是母親殺死 gazelle 讓幼崽吃，後來只是絆倒 gazelle，讓 cubs 完成最後一步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡清楚提到 cheetah mothers hunting，並讓 young cubs eat it。選項 E 概括了這個行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 E 要選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G use tools such as twigs原文證據位於 Paragraph 6："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another example, birds that watched other birds use a stick to locate food such as insects were later observed doing the same thing themselves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個例子中，有些鳥看到其他鳥用 stick 找 insects 這類食物，後來也被觀察到自己做同樣事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 G 的 “tools such as twigs” 對應原文 “a stick”。stick 屬於工具，twigs 是類似物件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 G 要選。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Option C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “escape from predators” 很容易吸引人，因為 Paragraph 5 有 “allows others to flee to safety”。不過這句是 alarm call 的效果，題目四選題更穩妥地抓四個主要展開行為：antennae touch、alarm calls、cheetah hunting、stick use。若只按字面看 “flee to safety”，C 的確有爭議；考試答案通常會以更明確的四個行為例子為準。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Ants’ tandem running involves only one-way communication.”",
+      "translation": "螞蟻的 tandem running 只涉及單向溝通。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有一個很強的控制詞：only one-way。只要原文說它是雙向，答案就會是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Tandem running is an example of teaching, to our knowledge the first in a non-human animal, that involves bidirectional feedback between teacher and pupil,’ remarks Nigel Franks…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nigel Franks 說，tandem running 是 teaching 的例子，而且涉及 teacher 和 pupil 之間的bidirectional feedback。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：本段只有這一句，它同時是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“tandem running”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only one-way communication”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“bidirectional feedback between teacher and pupil”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "teacher 和 pupil 之間的雙向回饋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 only one-way，原文說 bidirectional feedback。Bidirectional 的意思是雙向；feedback 也表示雙方有互動回應。這和 “only one-way communication” 在核心方向上衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：tandem running 只單向溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：tandem running 有 teacher 和 pupil 之間的雙向回饋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果只看 leader 帶 follower，很容易以為訊息由 leader 單向傳給 follower。細讀時要抓住follower tapping 和 bidirectional feedback；這才是 Franks 認為它像 teaching 的原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Franks’s theory immediately gained many supporters after publication.”",
+      "translation": "Franks 的理論發表後立即得到很多支持者。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 publication 後的 immediate reaction，並且有 “many supporters” 這個數量要求。要找文章是否說有很多人立即支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No sooner was the paper published, of course, than another educator questioned it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "論文剛發表，當然馬上就有另一位教育研究者質疑它。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marc Hauser, a psychologist and biologist and one of the scientists who came up with the definition of teaching, said it was unclear whether the ants had learned a new skill or merely acquired new information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理學家兼生物學家 Marc Hauser 是提出 teaching 定義的科學家之一；他說目前不清楚螞蟻學到的是新技能，還只是取得新資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到文章強調論文發表後立刻有質疑，而不是立刻得到大量支持。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“immediately”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many supporters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“after publication”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No sooner was the paper published… than another educator questioned it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "論文剛發表，便有另一位教育研究者質疑它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了 immediate questioning，也就是有一位學者馬上質疑。Paragraph 4 後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The students who worked with Franks on the video project supported his interpretation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 Franks 一起做 video project 的學生支持他的解讀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說學生支持他的 interpretation，沒有說 publication 後 immediately gained many supporters。題目需要三個元素同時成立： Franks’s theory immediately after publication many supporters文章有 immediate criticism，也有 later support from students，但沒有 “many supporters after publication” 這個資料。由於文章沒有明確排除可能有支持者，只是沒有提供 “many” 這項資料，所以嚴格判斷是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有人會因 “questioned it” 直接選 NO。更精確地說，一位學者立即質疑，未能排除同時也有一些人支持。問題在 “many supporters” 這項資訊缺失，所以我判 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Ants’ teaching behaviour is the same as that of humans.”",
+      "translation": "螞蟻的教學行為和人類的教學行為相同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “the same as”。文章可以承認螞蟻有 teaching-like behaviour，但若同時指出human teaching 涉及更高層的 theory of mind，而螞蟻未必有，就不能說兩者相同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7 and Paragraph 9 Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychologists study animal behaviour partly to understand the evolutionary roots of human behaviour, Hauser said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hauser 說，心理學家研究動物行為，其中一個目的，是理解人類行為的演化根源。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That, Hauser said, would suggest that a follower ant actually knew the leader was better informed and was not merely following an instinctive routine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hauser 說，若出現那種情況，才會顯示 follower ant 真的知道 leader 掌握更多資訊，而不只是跟隨本能規則。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bennett Galef Jr… maintained that ants were unlikely to have a ‘theory of mind’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bennett Galef Jr 認為螞蟻不大可能具備 theory of mind。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Animals may behave in ways similar to humans without having a similar cognitive system…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "動物可以用類似人類的方式行動，卻沒有相似的 cognitive system。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“same as humans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“teaching behaviour”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The challenge in deciding whether other animals truly teach one another, he added, is that human teaching involves a ‘theory of mind’: teachers are aware that students do not know something.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他補充說，判斷其他動物是否真正互相教學的難點在於，人類教學涉及 “theory of mind”：teacher意識到 student 不知道某件事。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類 teaching 的關鍵是 teacher 知道 learner 不知道。可是文章接著問："
+            },
+            {
+              "kind": "quote",
+              "text": "“He questioned whether Franks’s leader ants really knew that their followers were ignorant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他質疑 Franks 的 leader ants 是否真的知道 followers 無知。"
+            },
+            {
+              "kind": "label",
+              "text": "Galef 進一步說："
+            },
+            {
+              "kind": "quote",
+              "text": "“ants were unlikely to have a ‘theory of mind’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "螞蟻不大可能具備 theory of mind。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子共同表示：螞蟻行為可能和人類教學相似，但文章反覆提醒我們不能把它等同於人類教學。題目說 “is the same as that of humans”，範圍過強，和原文的謹慎態度相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “the same as humans”對照原文 “similar to humans without having a similar cognitive system”題目說 same；原文把 behaviour similarity 和 cognitive similarity 分開處理，並提出強烈保留。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 和 2 的確說 ants exhibit teaching behaviour，這容易令人選 YES。但後文討論的重點是：這種 teaching 是否具有人類 teaching 的心理條件。題目加了 “the same as humans”，這就超過了 Franks 的原始發現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Cheetahs share their kills with their young.”",
+      "translation": "獵豹會把自己獵殺的獵物分享給幼崽。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 YES / NO / NOT GIVEN。定位詞很直接：cheetahs、kills、young。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tim Caro, a zoologist, presented two cases of animal communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "動物學家 Tim Caro 提出了兩個動物溝通的案例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another example, birds that watched other birds use a stick to locate food such as insects were later observed doing the same thing themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個例子中，有些鳥看到其他鳥用 stick 找 insects，後來也自己做同樣事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段會舉 animal communication 或 learning 的例子。cheetah mothers 的例子就在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cheetahs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“kills”"
+            },
+            {
+              "kind": "quote",
+              "text": "“young”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that cheetah mothers taking their cubs on hunts gradually allowed the cubs to do more of the hunting—for example, progressing from killing a gazelle and allowing young cubs to eat it to merely tripping the gazelle and letting the cubs finish it off.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現 cheetah mothers 帶 cubs 去 hunting，逐步讓 cubs 參與更多 hunting；例如，一開始是殺死 gazelle 讓幼崽吃，後來只是絆倒 gazelle，讓 cubs 完成最後一步。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “killing a gazelle and allowing young cubs to eat it” 正好對應題目 “share their kills with their young”。雖然原文沒有用 share 這個字，但讓 cubs 吃自己殺死的 gazelle，就等於把獵物給幼崽吃。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "kills= killing a gazelle share with their young= allowing young cubs to eat it所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句的主要功能是說 cheetah mothers 逐步讓 cubs 學習 hunting，不只是餵食。不過題目只問是否有把 kill 給 young 吃；原文有清楚證據，所以 YES 成立。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Ants Could Teach Ants.pdf",
+    "sha256": "0380babe0f8bed25f85f6935f28044159d4098f446734d52abb45a69cffd8e52",
+    "pageCount": 17
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，可以看到文章由英格蘭南岸的小螞蟻開始，最後收束到研究人員認為Temnothorax albipennis 是第一種已知展示 teaching behaviour 的非人類動物。本段功能是描述實驗現象：leader ants 帶 follower ants 找食物，follower 會跟隨、記路標，再用 antennae 觸碰leader，令路線教學繼續。這段是 antennae、tandem running、ants teach ants 的核心背景段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句即引出 Nigel Franks 的直接評論，尾句也是同一句引文的延伸，說 tandem running 是teaching 的例子，而且涉及 teacher 和 pupil 之間的 bidirectional feedback。只看本段，可以知道Franks 是支持「螞蟻教學」說法的主要人物。他的重點不只在螞蟻能帶路，也在這個過程有雙向互動：leader 走，follower 反應，leader 再根據反應調整。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說論文剛發表，便有另一位教育研究者提出質疑；尾句說 Marc Hauser 認為不清楚螞蟻到底學到新技能，還只是取得新資訊。只看首尾句，可以估計本段功能是提出第一個反對聲音。 Hauser 的質疑點在 teaching 和 information transfer 的界線：若 follower 只是知道食物位置，未必等於被教會一項 skill。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Franks 後來做了 further study，發現 leader 之間甚至有 races；尾句說參與 video project的學生支持 Franks 的解讀。只看首尾句，可以知道本段強化 Franks 的論點：有 leader 指導時，螞蟻找食物更快；leader 自己付出代價，因為帶 follower 會拖慢速度。這段很適合定位 leader guidance、food faster、cost to leader 一類題目。"
+      },
+      {
+        "number": "5",
+        "summary": "首句用 opposing views still arose 開始，說反對意見仍然出現；尾句用 Hauser 的話總結：這種情況在動物界很普遍，但即使有 information transfer，也不稱為 teaching。只看首尾句，可以知道本段是 Hauser 的進一步反駁。他用 alarm calls 作類比：動物警告同伴有 predator，自己付出風險，同伴獲益並取得新知識，但這仍通常歸入 communication。"
+      },
+      {
+        "number": "6",
+        "summary": "首句引入 zoologist Tim Caro，說他提出兩個 animal communication 案例；尾句說有些鳥看見其他鳥用 stick 找 insects，之後自己也做同樣事情。只看首尾句，可以估計本段處理其他動物學習例子：cheetah mothers 逐步讓 cubs 參與 hunting，birds 觀察同類用工具找食物。這段對 Q1 和Q6–9 尤其重要。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 psychologists 研究 animal behaviour，是為了了解 human behaviour 的 evolutionary roots；尾句說如果 follower ant 會因食物被移走而對 leader 生氣，才可能顯示牠知道 leader 比自己掌握更多資訊。只看首尾句，可以看到 Hauser 的深層問題：human teaching 涉及 theory of mind，也就是 teacher 知道 student 不知道。螞蟻是否具備這種理解，仍然受到質疑。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說爭議持續，而且有充分理由；尾句說在 social animals 中，決定 teaching 何時演化的，可能是 information 的價值，不是 brain size 的限制。只看首尾句，可以知道本段是文章中段總結：如果螞蟻 teaching 被證明為真，代表 tiny brains 也能演化出教學行為。這段把討論由單一螞蟻實驗，提升到 teaching evolution 的大問題。"
+      },
+      {
+        "number": "9",
+        "summary": "首句引入 Bennett Galef Jr，他認為螞蟻不大可能具備 theory of mind；尾句說動物行為未必可靠地指引我們理解人類思維如何出現。只看首尾句，可以知道本段是更謹慎的總結觀點。Galef 的重點是：動物可以表現得像人類，但背後不一定有相同 cognitive system。這段很適合定位「不要輕率把動物行為解讀成人類式思考」的題目。 Answer Key Questio Answer n 1 C 2 A 3 D 4 A 5 B 6 A 7 B 8 E 9 G 10 NO 11 NOT GIVEN 12 NO 13 YES Q6–9 是四選題，A、B、E、G 的填格順序通常不影響得分。C 有迷惑性，因為原文有 “flee to safety”，但它是 alarm call 例子的結果；四個最明確作為行為例子展開的選項是 A、B、E、G。"
+      }
+    ]
+  }
+}

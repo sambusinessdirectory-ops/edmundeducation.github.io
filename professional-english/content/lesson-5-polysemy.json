@@ -1,0 +1,6354 @@
+{
+  "lesson": 5,
+  "title": "一詞多義 (Polysemy) 練習",
+  "source": "Lesson_5_Multiple_meanings_fixed.pdf",
+  "words": [
+    {
+      "id": "stay",
+      "word": "stay",
+      "baseWord": "stay",
+      "sourcePage": 5,
+      "senses": [
+        {
+          "id": "stay-0",
+          "zh": "留在；待在；暫時不要離開",
+          "sourceMeaning": "To remain in the same place temporarily and not move away."
+        },
+        {
+          "id": "stay-1",
+          "zh": "留在；待在",
+          "sourceMeaning": "Remain in place"
+        },
+        {
+          "id": "stay-2",
+          "zh": "保持",
+          "sourceMeaning": "Continue in a state"
+        },
+        {
+          "id": "stay-3",
+          "zh": "暫住；留宿",
+          "sourceMeaning": "Live temporarily"
+        }
+      ],
+      "questions": [
+        {
+          "id": "stay-1-1",
+          "kind": "example",
+          "en": "Please stay in the lobby until staff arrive.",
+          "zh": "請留在大堂，直到職員到達。",
+          "answer": "stay-1",
+          "acceptedAnswers": [
+            "stay-0",
+            "stay-1"
+          ]
+        },
+        {
+          "id": "stay-2-1",
+          "kind": "example",
+          "en": "Stay calm during the alarm.",
+          "zh": "警鐘響起時請保持冷靜。",
+          "answer": "stay-2"
+        },
+        {
+          "id": "stay-3-1",
+          "kind": "example",
+          "en": "She stayed at a hotel nearby.",
+          "zh": "她暫住在附近酒店。",
+          "answer": "stay-3"
+        },
+        {
+          "id": "stay-1-2",
+          "kind": "example",
+          "en": "Stay where you are until the route is clear.",
+          "zh": "請留在原位，直到路線暢通。",
+          "answer": "stay-1",
+          "acceptedAnswers": [
+            "stay-0",
+            "stay-1"
+          ]
+        },
+        {
+          "id": "stay-2-2",
+          "kind": "example",
+          "en": "The door should stay closed.",
+          "zh": "門應保持關上。",
+          "answer": "stay-2"
+        },
+        {
+          "id": "stay-3-2",
+          "kind": "example",
+          "en": "The visitor stayed with relatives.",
+          "zh": "訪客暫住在親戚家。",
+          "answer": "stay-3"
+        },
+        {
+          "id": "stay-passage",
+          "kind": "passage",
+          "en": "Please stay where you are for the moment.",
+          "zh": "請暫時留在原位。",
+          "answer": "stay-0",
+          "acceptedAnswers": [
+            "stay-0",
+            "stay-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 5,
+        "label": "5",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "calm",
+      "word": "calm",
+      "baseWord": "calm",
+      "sourcePage": 6,
+      "senses": [
+        {
+          "id": "calm-0",
+          "zh": "冷靜；鎮定；不要驚慌",
+          "sourceMeaning": "Not panicking; emotionally controlled during an emergency."
+        },
+        {
+          "id": "calm-1",
+          "zh": "冷靜；鎮定",
+          "sourceMeaning": "Not panicking"
+        },
+        {
+          "id": "calm-2",
+          "zh": "平靜的；安靜的",
+          "sourceMeaning": "Peaceful or quiet"
+        },
+        {
+          "id": "calm-3",
+          "zh": "安撫；使冷靜",
+          "sourceMeaning": "Make someone less worried"
+        }
+      ],
+      "questions": [
+        {
+          "id": "calm-1-1",
+          "kind": "example",
+          "en": "Please remain calm and follow instructions.",
+          "zh": "請保持冷靜並跟從指示。",
+          "answer": "calm-1",
+          "acceptedAnswers": [
+            "calm-0",
+            "calm-1"
+          ]
+        },
+        {
+          "id": "calm-2-1",
+          "kind": "example",
+          "en": "The lobby was calm after the alarm stopped.",
+          "zh": "警鐘停止後，大堂變得平靜。",
+          "answer": "calm-2"
+        },
+        {
+          "id": "calm-3-1",
+          "kind": "example",
+          "en": "Clear instructions can calm visitors.",
+          "zh": "清楚指示可以安撫訪客。",
+          "answer": "calm-3"
+        },
+        {
+          "id": "calm-1-2",
+          "kind": "example",
+          "en": "The guard used a calm voice.",
+          "zh": "保安使用冷靜語氣。",
+          "answer": "calm-1",
+          "acceptedAnswers": [
+            "calm-0",
+            "calm-1"
+          ]
+        },
+        {
+          "id": "calm-2-2",
+          "kind": "example",
+          "en": "The area became calm again.",
+          "zh": "該區再次平靜。",
+          "answer": "calm-2"
+        },
+        {
+          "id": "calm-3-2",
+          "kind": "example",
+          "en": "The guard tried to calm the passenger.",
+          "zh": "保安嘗試安撫乘客。",
+          "answer": "calm-3"
+        },
+        {
+          "id": "calm-passage",
+          "kind": "passage",
+          "en": "Please stay calm and follow my instructions.",
+          "zh": "請保持冷靜，並跟從我的指示。",
+          "answer": "calm-0",
+          "acceptedAnswers": [
+            "calm-0",
+            "calm-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 6,
+        "label": "6",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "affected",
+      "word": "affected",
+      "baseWord": "affect",
+      "sourcePage": 7,
+      "senses": [
+        {
+          "id": "affected-0",
+          "zh": "受影響的；受波及的；出現問題的",
+          "sourceMeaning": "Impacted by a problem, danger, emergency, or incident."
+        },
+        {
+          "id": "affected-1",
+          "zh": "受影響的；受波及的",
+          "sourceMeaning": "Impacted by an incident"
+        },
+        {
+          "id": "affected-2",
+          "zh": "影響",
+          "sourceMeaning": "Influence or change"
+        },
+        {
+          "id": "affected-3",
+          "zh": "情緒受影響",
+          "sourceMeaning": "Emotionally affected"
+        }
+      ],
+      "questions": [
+        {
+          "id": "affected-1-1",
+          "kind": "example",
+          "en": "The affected floor is closed temporarily.",
+          "zh": "受影響樓層暫時關閉。",
+          "answer": "affected-1",
+          "acceptedAnswers": [
+            "affected-0",
+            "affected-1"
+          ]
+        },
+        {
+          "id": "affected-2-1",
+          "kind": "example",
+          "en": "The alarm affected normal registration.",
+          "zh": "警鐘影響正常登記。",
+          "answer": "affected-2"
+        },
+        {
+          "id": "affected-3-1",
+          "kind": "example",
+          "en": "The passenger was affected by the entrapment.",
+          "zh": "乘客因困人事件受影響。",
+          "answer": "affected-3"
+        },
+        {
+          "id": "affected-1-2",
+          "kind": "example",
+          "en": "Keep away from the affected section.",
+          "zh": "請遠離受影響部分。",
+          "answer": "affected-1",
+          "acceptedAnswers": [
+            "affected-0",
+            "affected-1"
+          ]
+        },
+        {
+          "id": "affected-2-2",
+          "kind": "example",
+          "en": "The power failure affected the lights.",
+          "zh": "停電影響照明。",
+          "answer": "affected-2"
+        },
+        {
+          "id": "affected-3-2",
+          "kind": "example",
+          "en": "Several visitors were affected by the incident.",
+          "zh": "幾位訪客受事件影響。",
+          "answer": "affected-3"
+        },
+        {
+          "id": "affected-passage",
+          "kind": "passage",
+          "en": "Please keep away from the affected area.",
+          "zh": "請遠離受影響範圍。",
+          "answer": "affected-0",
+          "acceptedAnswers": [
+            "affected-0",
+            "affected-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 7,
+        "label": "7",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "area",
+      "word": "area",
+      "baseWord": "area",
+      "sourcePage": 8,
+      "senses": [
+        {
+          "id": "area-0",
+          "zh": "區域；範圍；地方",
+          "sourceMeaning": "A part, section, or place inside or around a building."
+        },
+        {
+          "id": "area-1",
+          "zh": "區域；範圍",
+          "sourceMeaning": "Place or section"
+        },
+        {
+          "id": "area-2",
+          "zh": "範疇；領域",
+          "sourceMeaning": "Subject or field"
+        },
+        {
+          "id": "area-3",
+          "zh": "面積",
+          "sourceMeaning": "Measurement of surface"
+        }
+      ],
+      "questions": [
+        {
+          "id": "area-1-1",
+          "kind": "example",
+          "en": "The area near the lift lobby is closed.",
+          "zh": "升降機大堂附近區域已關閉。",
+          "answer": "area-1",
+          "acceptedAnswers": [
+            "area-0",
+            "area-1"
+          ]
+        },
+        {
+          "id": "area-2-1",
+          "kind": "example",
+          "en": "Safety is an important area of training.",
+          "zh": "安全是培訓的重要範疇。",
+          "answer": "area-2"
+        },
+        {
+          "id": "area-3-1",
+          "kind": "example",
+          "en": "The wet area covered several square metres.",
+          "zh": "濕滑範圍覆蓋數平方米。",
+          "answer": "area-3"
+        },
+        {
+          "id": "area-1-2",
+          "kind": "example",
+          "en": "Please keep the area clear.",
+          "zh": "請保持該區域暢通。",
+          "answer": "area-1",
+          "acceptedAnswers": [
+            "area-0",
+            "area-1"
+          ]
+        },
+        {
+          "id": "area-2-2",
+          "kind": "example",
+          "en": "Visitor control is part of your work area.",
+          "zh": "訪客管制是您的工作範疇之一。",
+          "answer": "area-2"
+        },
+        {
+          "id": "area-3-2",
+          "kind": "example",
+          "en": "The lobby area is large.",
+          "zh": "大堂面積很大。",
+          "answer": "area-3"
+        },
+        {
+          "id": "area-passage",
+          "kind": "passage",
+          "en": "Please keep away from the affected area.",
+          "zh": "請遠離受影響範圍。",
+          "answer": "area-0",
+          "acceptedAnswers": [
+            "area-0",
+            "area-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 8,
+        "label": "8",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "safe",
+      "word": "safe",
+      "baseWord": "safe",
+      "sourcePage": 9,
+      "senses": [
+        {
+          "id": "safe-0",
+          "zh": "安全的；沒有危險的；可安全使用的",
+          "sourceMeaning": "Not dangerous; suitable to use during an emergency."
+        },
+        {
+          "id": "safe-1",
+          "zh": "安全的",
+          "sourceMeaning": "Not dangerous"
+        },
+        {
+          "id": "safe-2",
+          "zh": "受保護的；平安的",
+          "sourceMeaning": "Protected from harm"
+        },
+        {
+          "id": "safe-3",
+          "zh": "保險箱",
+          "sourceMeaning": "A metal box"
+        }
+      ],
+      "questions": [
+        {
+          "id": "safe-1-1",
+          "kind": "example",
+          "en": "Move to a safe area if instructed.",
+          "zh": "如有指示，請移到安全區域。",
+          "answer": "safe-1",
+          "acceptedAnswers": [
+            "safe-0",
+            "safe-1"
+          ]
+        },
+        {
+          "id": "safe-2-1",
+          "kind": "example",
+          "en": "The passengers are safe inside the lift.",
+          "zh": "乘客在升降機內是安全的。",
+          "answer": "safe-2"
+        },
+        {
+          "id": "safe-3-1",
+          "kind": "example",
+          "en": "The keys are kept in the safe.",
+          "zh": "鑰匙放在保險箱裡。",
+          "answer": "safe-3"
+        },
+        {
+          "id": "safe-1-2",
+          "kind": "example",
+          "en": "It is not safe to return yet.",
+          "zh": "目前返回並不安全。",
+          "answer": "safe-1",
+          "acceptedAnswers": [
+            "safe-0",
+            "safe-1"
+          ]
+        },
+        {
+          "id": "safe-2-2",
+          "kind": "example",
+          "en": "Everyone is safe after evacuation.",
+          "zh": "疏散後所有人都平安。",
+          "answer": "safe-2"
+        },
+        {
+          "id": "safe-3-2",
+          "kind": "example",
+          "en": "Documents are locked in the office safe.",
+          "zh": "文件鎖在辦公室保險箱內。",
+          "answer": "safe-3"
+        },
+        {
+          "id": "safe-passage",
+          "kind": "passage",
+          "en": "Please use the nearest safe staircase.",
+          "zh": "請使用最近的安全樓梯。",
+          "answer": "safe-0",
+          "acceptedAnswers": [
+            "safe-0",
+            "safe-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 9,
+        "label": "9",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "staircase",
+      "word": "staircase",
+      "baseWord": "staircase",
+      "sourcePage": 10,
+      "senses": [
+        {
+          "id": "staircase-0",
+          "zh": "樓梯；樓梯間；樓梯通道",
+          "sourceMeaning": "A set of stairs inside a building used to move between floors, especially during evacuation."
+        },
+        {
+          "id": "staircase-1",
+          "zh": "疏散樓梯；逃生樓梯",
+          "sourceMeaning": "Evacuation route"
+        },
+        {
+          "id": "staircase-2",
+          "zh": "樓梯；裝飾樓梯",
+          "sourceMeaning": "Decorative stairs"
+        },
+        {
+          "id": "staircase-3",
+          "zh": "樓梯間",
+          "sourceMeaning": "Stairwell area"
+        }
+      ],
+      "questions": [
+        {
+          "id": "staircase-1-1",
+          "kind": "example",
+          "en": "Follow the signs to the emergency staircase.",
+          "zh": "請依照標示前往緊急疏散樓梯。",
+          "answer": "staircase-1",
+          "acceptedAnswers": [
+            "staircase-0",
+            "staircase-1"
+          ]
+        },
+        {
+          "id": "staircase-2-1",
+          "kind": "example",
+          "en": "The main staircase is in the lobby.",
+          "zh": "主樓梯在大堂。",
+          "answer": "staircase-2"
+        },
+        {
+          "id": "staircase-3-1",
+          "kind": "example",
+          "en": "Smoke was reported in the staircase.",
+          "zh": "有人報告樓梯間有煙。",
+          "answer": "staircase-3"
+        },
+        {
+          "id": "staircase-1-2",
+          "kind": "example",
+          "en": "Do not block the fire staircase.",
+          "zh": "請勿阻塞消防樓梯。",
+          "answer": "staircase-1",
+          "acceptedAnswers": [
+            "staircase-0",
+            "staircase-1"
+          ]
+        },
+        {
+          "id": "staircase-2-2",
+          "kind": "example",
+          "en": "The hotel has a wide staircase.",
+          "zh": "酒店有一道寬闊樓梯。",
+          "answer": "staircase-2"
+        },
+        {
+          "id": "staircase-3-2",
+          "kind": "example",
+          "en": "Keep the staircase door closed.",
+          "zh": "請保持樓梯門關上。",
+          "answer": "staircase-3"
+        },
+        {
+          "id": "staircase-passage",
+          "kind": "passage",
+          "en": "Please use the nearest safe staircase. Do not use the lift.",
+          "zh": "請使用最近的安全樓梯，切勿使用升降機。",
+          "answer": "staircase-0",
+          "acceptedAnswers": [
+            "staircase-0",
+            "staircase-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 10,
+        "label": "10",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "lift",
+      "word": "lift",
+      "baseWord": "lift",
+      "sourcePage": 11,
+      "senses": [
+        {
+          "id": "lift-0",
+          "zh": "升降機；電梯",
+          "sourceMeaning": "An elevator; a machine that carries people between floors."
+        },
+        {
+          "id": "lift-1",
+          "zh": "舉起；抬起",
+          "sourceMeaning": "Raise upward"
+        },
+        {
+          "id": "lift-2",
+          "zh": "載一程；順風車",
+          "sourceMeaning": "Give someone a ride"
+        },
+        {
+          "id": "lift-3",
+          "zh": "解除；取消",
+          "sourceMeaning": "Remove a restriction"
+        }
+      ],
+      "questions": [
+        {
+          "id": "lift-1-1",
+          "kind": "example",
+          "en": "Please do not lift the barrier manually.",
+          "zh": "請不要手動抬起閘機。",
+          "answer": "lift-1"
+        },
+        {
+          "id": "lift-2-1",
+          "kind": "example",
+          "en": "He gave me a lift to the station.",
+          "zh": "他載我到車站。",
+          "answer": "lift-2"
+        },
+        {
+          "id": "lift-3-1",
+          "kind": "example",
+          "en": "The restriction was lifted after inspection.",
+          "zh": "檢查後限制被解除。",
+          "answer": "lift-3"
+        },
+        {
+          "id": "lift-1-2",
+          "kind": "example",
+          "en": "Two workers lifted the box carefully.",
+          "zh": "兩名工人小心抬起箱子。",
+          "answer": "lift-1"
+        },
+        {
+          "id": "lift-2-2",
+          "kind": "example",
+          "en": "Can I get a lift to the office?",
+          "zh": "可以載我到辦公室嗎？",
+          "answer": "lift-2"
+        },
+        {
+          "id": "lift-3-2",
+          "kind": "example",
+          "en": "The alarm was lifted after the all-clear.",
+          "zh": "安全確認後警報解除。",
+          "answer": "lift-3"
+        },
+        {
+          "id": "lift-passage",
+          "kind": "passage",
+          "en": "Please use the nearest safe staircase. Do not use the lift.",
+          "zh": "請使用最近的安全樓梯，切勿使用升降機。",
+          "answer": "lift-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 11,
+        "label": "11",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "follow",
+      "word": "follow",
+      "baseWord": "follow",
+      "sourcePage": 12,
+      "senses": [
+        {
+          "id": "follow-0",
+          "zh": "依照；跟從；遵從",
+          "sourceMeaning": "To obey or act according to signs, directions, rules, or instructions."
+        },
+        {
+          "id": "follow-1",
+          "zh": "跟著；跟隨",
+          "sourceMeaning": "Go behind"
+        },
+        {
+          "id": "follow-2",
+          "zh": "接著；隨後",
+          "sourceMeaning": "Come after"
+        },
+        {
+          "id": "follow-3",
+          "zh": "聽懂；理解",
+          "sourceMeaning": "Understand"
+        }
+      ],
+      "questions": [
+        {
+          "id": "follow-1-1",
+          "kind": "example",
+          "en": "Please follow me to the staircase.",
+          "zh": "請跟我到樓梯。",
+          "answer": "follow-1"
+        },
+        {
+          "id": "follow-2-1",
+          "kind": "example",
+          "en": "Further instructions will follow.",
+          "zh": "稍後會有進一步指示。",
+          "answer": "follow-2"
+        },
+        {
+          "id": "follow-3-1",
+          "kind": "example",
+          "en": "Do you follow what I am saying?",
+          "zh": "您明白我說的嗎？",
+          "answer": "follow-3"
+        },
+        {
+          "id": "follow-1-2",
+          "kind": "example",
+          "en": "The visitor followed the staff outside.",
+          "zh": "訪客跟隨職員到外面。",
+          "answer": "follow-1"
+        },
+        {
+          "id": "follow-2-2",
+          "kind": "example",
+          "en": "A short update will follow.",
+          "zh": "稍後會有簡短更新。",
+          "answer": "follow-2"
+        },
+        {
+          "id": "follow-3-2",
+          "kind": "example",
+          "en": "The caller could not follow the directions.",
+          "zh": "來電者未能理解方向。",
+          "answer": "follow-3"
+        },
+        {
+          "id": "follow-passage",
+          "kind": "passage",
+          "en": "Please follow the evacuation signs and staff instructions.",
+          "zh": "請依照疏散指示及職員指示。",
+          "answer": "follow-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 12,
+        "label": "12",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "signs-signage",
+      "word": "signs / signage",
+      "baseWord": "sign",
+      "sourcePage": 13,
+      "senses": [
+        {
+          "id": "signs-signage-0",
+          "zh": "標示；指示牌；疏散指示",
+          "sourceMeaning": "Written or visual notices that show people where to go or what to do during evacuation."
+        },
+        {
+          "id": "signs-signage-1",
+          "zh": "跡象；徵兆",
+          "sourceMeaning": "Evidence or symptom"
+        },
+        {
+          "id": "signs-signage-2",
+          "zh": "手勢；示意",
+          "sourceMeaning": "Hand gesture"
+        },
+        {
+          "id": "signs-signage-3",
+          "zh": "簽署；簽名",
+          "sourceMeaning": "Sign officially"
+        }
+      ],
+      "questions": [
+        {
+          "id": "signs-signage-1-1",
+          "kind": "example",
+          "en": "A burning smell can be a sign of danger.",
+          "zh": "燒焦味可能是危險跡象。",
+          "answer": "signs-signage-1"
+        },
+        {
+          "id": "signs-signage-2-1",
+          "kind": "example",
+          "en": "Staff gave a sign to stop.",
+          "zh": "職員用手勢示意停止。",
+          "answer": "signs-signage-2"
+        },
+        {
+          "id": "signs-signage-3-1",
+          "kind": "example",
+          "en": "Please sign the visitor log.",
+          "zh": "請在訪客紀錄上簽名。",
+          "answer": "signs-signage-3"
+        },
+        {
+          "id": "signs-signage-1-2",
+          "kind": "example",
+          "en": "Check for signs of breathing.",
+          "zh": "請檢查是否有呼吸跡象。",
+          "answer": "signs-signage-1"
+        },
+        {
+          "id": "signs-signage-2-2",
+          "kind": "example",
+          "en": "The guard made a sign for visitors to wait.",
+          "zh": "保安示意訪客等候。",
+          "answer": "signs-signage-2"
+        },
+        {
+          "id": "signs-signage-3-2",
+          "kind": "example",
+          "en": "The tenant signed the incident report.",
+          "zh": "租戶簽署了事故報告。",
+          "answer": "signs-signage-3"
+        },
+        {
+          "id": "signs-signage-passage",
+          "kind": "passage",
+          "en": "Please follow the evacuation signs and staff instructions.",
+          "zh": "請跟從疏散標示和職員指示。",
+          "answer": "signs-signage-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 13,
+        "label": "13",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "route",
+      "word": "route",
+      "baseWord": "route",
+      "sourcePage": 14,
+      "senses": [
+        {
+          "id": "route-0",
+          "zh": "路線；通道；進出路徑",
+          "sourceMeaning": "A path or way that people use to enter, leave, or reach someone."
+        },
+        {
+          "id": "route-1",
+          "zh": "疏散路線",
+          "sourceMeaning": "Evacuation path"
+        },
+        {
+          "id": "route-2",
+          "zh": "路線；路程",
+          "sourceMeaning": "Travel path"
+        },
+        {
+          "id": "route-3",
+          "zh": "轉接；轉交",
+          "sourceMeaning": "Send a call/report"
+        }
+      ],
+      "questions": [
+        {
+          "id": "route-1-1",
+          "kind": "example",
+          "en": "Follow the evacuation route to the assembly area.",
+          "zh": "請沿疏散路線前往集合地點。",
+          "answer": "route-1",
+          "acceptedAnswers": [
+            "route-0",
+            "route-1"
+          ]
+        },
+        {
+          "id": "route-2-1",
+          "kind": "example",
+          "en": "Which route should I take to the main entrance?",
+          "zh": "我應該走哪條路去正門？",
+          "answer": "route-2"
+        },
+        {
+          "id": "route-3-1",
+          "kind": "example",
+          "en": "The call was routed to the control room.",
+          "zh": "電話被轉到控制室。",
+          "answer": "route-3"
+        },
+        {
+          "id": "route-1-2",
+          "kind": "example",
+          "en": "Staff will guide you along the safe route.",
+          "zh": "職員會沿安全路線引導您。",
+          "answer": "route-1",
+          "acceptedAnswers": [
+            "route-0",
+            "route-1"
+          ]
+        },
+        {
+          "id": "route-2-2",
+          "kind": "example",
+          "en": "This route goes through the car park.",
+          "zh": "這條路線會經過停車場。",
+          "answer": "route-2"
+        },
+        {
+          "id": "route-3-2",
+          "kind": "example",
+          "en": "The report was routed to Facilities.",
+          "zh": "報告被轉交設施部。",
+          "answer": "route-3"
+        },
+        {
+          "id": "route-passage",
+          "kind": "passage",
+          "en": "Please keep the access route clear while help is on the way.",
+          "zh": "請保持通道暢通，讓救援人員進入。",
+          "answer": "route-0",
+          "acceptedAnswers": [
+            "route-0",
+            "route-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 14,
+        "label": "14",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "force",
+      "word": "force",
+      "baseWord": "force",
+      "sourcePage": 15,
+      "senses": [
+        {
+          "id": "force-0",
+          "zh": "強行；用力；硬要打開",
+          "sourceMeaning": "To use physical strength to try to open or move something."
+        },
+        {
+          "id": "force-1",
+          "zh": "迫使；強迫",
+          "sourceMeaning": "Make someone do something"
+        },
+        {
+          "id": "force-2",
+          "zh": "力量；力度",
+          "sourceMeaning": "Power or strength"
+        },
+        {
+          "id": "force-3",
+          "zh": "隊伍；部隊",
+          "sourceMeaning": "Official group"
+        }
+      ],
+      "questions": [
+        {
+          "id": "force-1-1",
+          "kind": "example",
+          "en": "Do not force the visitor to move.",
+          "zh": "不要強迫訪客移動。",
+          "answer": "force-1"
+        },
+        {
+          "id": "force-2-1",
+          "kind": "example",
+          "en": "Too much force may damage the door.",
+          "zh": "力度太大可能損壞門。",
+          "answer": "force-2"
+        },
+        {
+          "id": "force-3-1",
+          "kind": "example",
+          "en": "The police force arrived quickly.",
+          "zh": "警隊很快到達。",
+          "answer": "force-3"
+        },
+        {
+          "id": "force-1-2",
+          "kind": "example",
+          "en": "The alarm forced everyone to evacuate.",
+          "zh": "警鐘迫使所有人疏散。",
+          "answer": "force-1"
+        },
+        {
+          "id": "force-2-2",
+          "kind": "example",
+          "en": "The door opened with force.",
+          "zh": "門被用力打開。",
+          "answer": "force-2"
+        },
+        {
+          "id": "force-3-2",
+          "kind": "example",
+          "en": "The security force controlled the entrance.",
+          "zh": "保安隊伍控制入口。",
+          "answer": "force-3"
+        },
+        {
+          "id": "force-passage",
+          "kind": "passage",
+          "en": "Please remain calm and do not force the doors open.",
+          "zh": "請保持冷靜，切勿強行打開升降機門。",
+          "answer": "force-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 15,
+        "label": "15",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "exact",
+      "word": "exact",
+      "baseWord": "exact",
+      "sourcePage": 16,
+      "senses": [
+        {
+          "id": "exact-0",
+          "zh": "確切的；準確的；精確的",
+          "sourceMeaning": "Precise and specific; not vague or general."
+        },
+        {
+          "id": "exact-1",
+          "zh": "準確的；完全正確的",
+          "sourceMeaning": "Completely correct"
+        },
+        {
+          "id": "exact-2",
+          "zh": "完全相同的；一模一樣的",
+          "sourceMeaning": "Same in every detail"
+        },
+        {
+          "id": "exact-3",
+          "zh": "強求；要求",
+          "sourceMeaning": "Demand or require"
+        }
+      ],
+      "questions": [
+        {
+          "id": "exact-1-1",
+          "kind": "example",
+          "en": "We need the exact lift number.",
+          "zh": "我們需要準確的升降機編號。",
+          "answer": "exact-1"
+        },
+        {
+          "id": "exact-2-1",
+          "kind": "example",
+          "en": "Please repeat the exact message.",
+          "zh": "請覆述完全相同的訊息。",
+          "answer": "exact-2"
+        },
+        {
+          "id": "exact-3-1",
+          "kind": "example",
+          "en": "The job exacts careful attention.",
+          "zh": "這份工作要求高度專注。",
+          "answer": "exact-3"
+        },
+        {
+          "id": "exact-1-2",
+          "kind": "example",
+          "en": "The exact time was 3:15 p.m.",
+          "zh": "準確時間是下午三時十五分。",
+          "answer": "exact-1"
+        },
+        {
+          "id": "exact-2-2",
+          "kind": "example",
+          "en": "The two reports used the exact same wording.",
+          "zh": "兩份報告用詞完全相同。",
+          "answer": "exact-2"
+        },
+        {
+          "id": "exact-3-2",
+          "kind": "example",
+          "en": "Emergency work can exact a lot of energy.",
+          "zh": "緊急工作會消耗很多精力。",
+          "answer": "exact-3"
+        },
+        {
+          "id": "exact-passage",
+          "kind": "passage",
+          "en": "May I confirm the exact floor, suite, lift number or area?",
+          "zh": "可以請您確認確切的樓層、單位、升降機編號或區域嗎？",
+          "answer": "exact-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 16,
+        "label": "16",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "team",
+      "word": "team",
+      "baseWord": "team",
+      "sourcePage": 17,
+      "senses": [
+        {
+          "id": "team-0",
+          "zh": "團隊；小組；負責處理的人員",
+          "sourceMeaning": "A group of people responsible for handling a situation, emergency, or building matter."
+        },
+        {
+          "id": "team-1",
+          "zh": "工作團隊",
+          "sourceMeaning": "Work group"
+        },
+        {
+          "id": "team-2",
+          "zh": "球隊；隊伍",
+          "sourceMeaning": "Sports group"
+        },
+        {
+          "id": "team-3",
+          "zh": "合作；組隊",
+          "sourceMeaning": "Work together"
+        }
+      ],
+      "questions": [
+        {
+          "id": "team-1-1",
+          "kind": "example",
+          "en": "The security team handled the alarm.",
+          "zh": "保安團隊處理了警鐘。",
+          "answer": "team-1",
+          "acceptedAnswers": [
+            "team-0",
+            "team-1"
+          ]
+        },
+        {
+          "id": "team-2-1",
+          "kind": "example",
+          "en": "Our team won the match.",
+          "zh": "我們隊伍贏了比賽。",
+          "answer": "team-2"
+        },
+        {
+          "id": "team-3-1",
+          "kind": "example",
+          "en": "Staff teamed up to guide visitors.",
+          "zh": "職員合作引導訪客。",
+          "answer": "team-3"
+        },
+        {
+          "id": "team-1-2",
+          "kind": "example",
+          "en": "The Facilities team checked the lift.",
+          "zh": "設施團隊檢查了升降機。",
+          "answer": "team-1",
+          "acceptedAnswers": [
+            "team-0",
+            "team-1"
+          ]
+        },
+        {
+          "id": "team-2-2",
+          "kind": "example",
+          "en": "The football team arrived early.",
+          "zh": "足球隊提早到達。",
+          "answer": "team-2"
+        },
+        {
+          "id": "team-3-2",
+          "kind": "example",
+          "en": "Security teamed with management.",
+          "zh": "保安與管理層合作。",
+          "answer": "team-3"
+        },
+        {
+          "id": "team-passage",
+          "kind": "passage",
+          "en": "I’m contacting the emergency / management team now.",
+          "zh": "我現在聯絡緊急支援／管理團隊。",
+          "answer": "team-0",
+          "acceptedAnswers": [
+            "team-0",
+            "team-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 17,
+        "label": "17",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "provided",
+      "word": "provided",
+      "baseWord": "provide",
+      "sourcePage": 18,
+      "senses": [
+        {
+          "id": "provided-0",
+          "zh": "提供的；已提供；給出的",
+          "sourceMeaning": "Given or supplied information to someone."
+        },
+        {
+          "id": "provided-1",
+          "zh": "提供；供應",
+          "sourceMeaning": "Supply something needed"
+        },
+        {
+          "id": "provided-2",
+          "zh": "只要；如果",
+          "sourceMeaning": "Provided that"
+        },
+        {
+          "id": "provided-3",
+          "zh": "提供證據",
+          "sourceMeaning": "Give evidence"
+        }
+      ],
+      "questions": [
+        {
+          "id": "provided-1-1",
+          "kind": "example",
+          "en": "Staff provided assistance at the lobby.",
+          "zh": "職員在大堂提供協助。",
+          "answer": "provided-1"
+        },
+        {
+          "id": "provided-2-1",
+          "kind": "example",
+          "en": "You may proceed provided that it is safe.",
+          "zh": "只要安全，您可以繼續。",
+          "answer": "provided-2"
+        },
+        {
+          "id": "provided-3-1",
+          "kind": "example",
+          "en": "CCTV provided useful evidence.",
+          "zh": "閉路電視提供有用證據。",
+          "answer": "provided-3"
+        },
+        {
+          "id": "provided-1-2",
+          "kind": "example",
+          "en": "The building provides emergency support.",
+          "zh": "大廈提供緊急支援。",
+          "answer": "provided-1"
+        },
+        {
+          "id": "provided-2-2",
+          "kind": "example",
+          "en": "Enter provided that access is confirmed.",
+          "zh": "只要進入權限已確認，您可以進入。",
+          "answer": "provided-2"
+        },
+        {
+          "id": "provided-3-2",
+          "kind": "example",
+          "en": "The report provided proof of the fault.",
+          "zh": "報告提供故障證明。",
+          "answer": "provided-3"
+        },
+        {
+          "id": "provided-passage",
+          "kind": "passage",
+          "en": "I’ll give them your exact location and the information you have provided.",
+          "zh": "我會向他們提供您的確切位置和您已提供的資料。",
+          "answer": "provided-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 18,
+        "label": "18",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "conscious",
+      "word": "conscious",
+      "baseWord": "conscious",
+      "sourcePage": 19,
+      "senses": [
+        {
+          "id": "conscious-0",
+          "zh": "清醒的；有意識的；有知覺的",
+          "sourceMeaning": "Awake, aware, and able to respond to surroundings."
+        },
+        {
+          "id": "conscious-1",
+          "zh": "意識到；察覺",
+          "sourceMeaning": "Aware of something"
+        },
+        {
+          "id": "conscious-2",
+          "zh": "有意的；刻意的",
+          "sourceMeaning": "Intentional"
+        },
+        {
+          "id": "conscious-3",
+          "zh": "有……意識的",
+          "sourceMeaning": "Concerned about"
+        }
+      ],
+      "questions": [
+        {
+          "id": "conscious-1-1",
+          "kind": "example",
+          "en": "Staff should be conscious of safety risks.",
+          "zh": "職員應意識到安全風險。",
+          "answer": "conscious-1"
+        },
+        {
+          "id": "conscious-2-1",
+          "kind": "example",
+          "en": "The guard made a conscious effort to stay calm.",
+          "zh": "保安刻意努力保持冷靜。",
+          "answer": "conscious-2"
+        },
+        {
+          "id": "conscious-3-1",
+          "kind": "example",
+          "en": "The team is safety-conscious.",
+          "zh": "團隊有安全意識。",
+          "answer": "conscious-3"
+        },
+        {
+          "id": "conscious-1-2",
+          "kind": "example",
+          "en": "Be conscious of people nearby.",
+          "zh": "要留意附近的人。",
+          "answer": "conscious-1"
+        },
+        {
+          "id": "conscious-2-2",
+          "kind": "example",
+          "en": "It was a conscious decision not to guess.",
+          "zh": "不猜測是有意識的決定。",
+          "answer": "conscious-2"
+        },
+        {
+          "id": "conscious-3-2",
+          "kind": "example",
+          "en": "The building is security-conscious.",
+          "zh": "大廈有保安意識。",
+          "answer": "conscious-3"
+        },
+        {
+          "id": "conscious-passage",
+          "kind": "passage",
+          "en": "Is the person conscious and breathing?",
+          "zh": "傷者是否清醒及有呼吸？",
+          "answer": "conscious-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 19,
+        "label": "19",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "breathing",
+      "word": "breathing",
+      "baseWord": "breathe",
+      "sourcePage": 20,
+      "senses": [
+        {
+          "id": "breathing-0",
+          "zh": "呼吸；有呼吸；正在呼吸",
+          "sourceMeaning": "Taking air into and out of the body."
+        },
+        {
+          "id": "breathing-1",
+          "zh": "正常呼吸",
+          "sourceMeaning": "Breathe normally"
+        },
+        {
+          "id": "breathing-2",
+          "zh": "喘口氣；稍作休息",
+          "sourceMeaning": "Rest briefly"
+        },
+        {
+          "id": "breathing-3",
+          "zh": "透氣；通風",
+          "sourceMeaning": "Allow air to pass"
+        }
+      ],
+      "questions": [
+        {
+          "id": "breathing-1-1",
+          "kind": "example",
+          "en": "Are they breathing normally?",
+          "zh": "他們是否正常呼吸？",
+          "answer": "breathing-1",
+          "acceptedAnswers": [
+            "breathing-0",
+            "breathing-1"
+          ]
+        },
+        {
+          "id": "breathing-2-1",
+          "kind": "example",
+          "en": "Take a moment to breathe before explaining.",
+          "zh": "解釋前先喘口氣。",
+          "answer": "breathing-2"
+        },
+        {
+          "id": "breathing-3-1",
+          "kind": "example",
+          "en": "This mask allows you to breathe easily.",
+          "zh": "這個口罩讓您較容易呼吸。",
+          "answer": "breathing-3"
+        },
+        {
+          "id": "breathing-1-2",
+          "kind": "example",
+          "en": "Tell me if breathing changes.",
+          "zh": "如果呼吸有變化，請告訴我。",
+          "answer": "breathing-1",
+          "acceptedAnswers": [
+            "breathing-0",
+            "breathing-1"
+          ]
+        },
+        {
+          "id": "breathing-2-2",
+          "kind": "example",
+          "en": "The guard paused to breathe.",
+          "zh": "保安停下來喘口氣。",
+          "answer": "breathing-2"
+        },
+        {
+          "id": "breathing-3-2",
+          "kind": "example",
+          "en": "The room needs space to breathe.",
+          "zh": "房間需要通風空間。",
+          "answer": "breathing-3"
+        },
+        {
+          "id": "breathing-passage",
+          "kind": "passage",
+          "en": "Is the person conscious and breathing?",
+          "zh": "傷者是否清醒及有呼吸？",
+          "answer": "breathing-0",
+          "acceptedAnswers": [
+            "breathing-0",
+            "breathing-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 20,
+        "label": "20",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "alarm",
+      "word": "alarm",
+      "baseWord": "alarm",
+      "sourcePage": 21,
+      "senses": [
+        {
+          "id": "alarm-0",
+          "zh": "警鐘；警報；警報系統",
+          "sourceMeaning": "A warning sound or system that alerts people to danger, especially fire or emergency."
+        },
+        {
+          "id": "alarm-1",
+          "zh": "警報器；警報系統",
+          "sourceMeaning": "Alarm system/device"
+        },
+        {
+          "id": "alarm-2",
+          "zh": "驚慌；憂慮",
+          "sourceMeaning": "Fear or worry"
+        },
+        {
+          "id": "alarm-3",
+          "zh": "鬧鐘",
+          "sourceMeaning": "Alarm clock"
+        }
+      ],
+      "questions": [
+        {
+          "id": "alarm-1-1",
+          "kind": "example",
+          "en": "The alarm system is being checked.",
+          "zh": "警報系統正在檢查。",
+          "answer": "alarm-1",
+          "acceptedAnswers": [
+            "alarm-0",
+            "alarm-1"
+          ]
+        },
+        {
+          "id": "alarm-2-1",
+          "kind": "example",
+          "en": "The loud noise caused alarm.",
+          "zh": "巨響引起驚慌。",
+          "answer": "alarm-2"
+        },
+        {
+          "id": "alarm-3-1",
+          "kind": "example",
+          "en": "My alarm goes off at 6 a.m.",
+          "zh": "我的鬧鐘早上六時響。",
+          "answer": "alarm-3"
+        },
+        {
+          "id": "alarm-1-2",
+          "kind": "example",
+          "en": "The door alarm activated.",
+          "zh": "門警報器啟動了。",
+          "answer": "alarm-1",
+          "acceptedAnswers": [
+            "alarm-0",
+            "alarm-1"
+          ]
+        },
+        {
+          "id": "alarm-2-2",
+          "kind": "example",
+          "en": "There is no need for alarm if you follow instructions.",
+          "zh": "如依照指示，無需驚慌。",
+          "answer": "alarm-2"
+        },
+        {
+          "id": "alarm-3-2",
+          "kind": "example",
+          "en": "I set an alarm for the briefing.",
+          "zh": "我為簡報設定了鬧鐘。",
+          "answer": "alarm-3"
+        },
+        {
+          "id": "alarm-passage",
+          "kind": "passage",
+          "en": "The fire alarm is sounding.",
+          "zh": "火警鐘正在響。",
+          "answer": "alarm-0",
+          "acceptedAnswers": [
+            "alarm-0",
+            "alarm-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 21,
+        "label": "21",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "sounding",
+      "word": "sounding",
+      "baseWord": "sound",
+      "sourcePage": 22,
+      "senses": [
+        {
+          "id": "sounding-0",
+          "zh": "響起；發出聲音；正在鳴響",
+          "sourceMeaning": "Making a sound or noise, especially a warning sound."
+        },
+        {
+          "id": "sounding-1",
+          "zh": "聽起來；似乎",
+          "sourceMeaning": "Seem when heard"
+        },
+        {
+          "id": "sounding-2",
+          "zh": "健全的；狀況良好的",
+          "sourceMeaning": "Healthy / in good condition"
+        },
+        {
+          "id": "sounding-3",
+          "zh": "合理的；可靠的",
+          "sourceMeaning": "Sensible and reliable"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sounding-1-1",
+          "kind": "example",
+          "en": "That sounds urgent.",
+          "zh": "那聽起來很緊急。",
+          "answer": "sounding-1"
+        },
+        {
+          "id": "sounding-2-1",
+          "kind": "example",
+          "en": "The structure was found to be sound.",
+          "zh": "結構經檢查後確認良好。",
+          "answer": "sounding-2"
+        },
+        {
+          "id": "sounding-3-1",
+          "kind": "example",
+          "en": "That is sound advice.",
+          "zh": "那是可靠建議。",
+          "answer": "sounding-3"
+        },
+        {
+          "id": "sounding-1-2",
+          "kind": "example",
+          "en": "The caller sounded nervous.",
+          "zh": "來電者聽起來很緊張。",
+          "answer": "sounding-1"
+        },
+        {
+          "id": "sounding-2-2",
+          "kind": "example",
+          "en": "The equipment is sound after inspection.",
+          "zh": "設備檢查後狀況良好。",
+          "answer": "sounding-2"
+        },
+        {
+          "id": "sounding-3-2",
+          "kind": "example",
+          "en": "A sound procedure helps staff respond.",
+          "zh": "可靠程序有助職員應對。",
+          "answer": "sounding-3"
+        },
+        {
+          "id": "sounding-passage",
+          "kind": "passage",
+          "en": "The fire alarm is sounding.",
+          "zh": "火警鐘正在響。",
+          "answer": "sounding-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 22,
+        "label": "22",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "return",
+      "word": "return",
+      "baseWord": "return",
+      "sourcePage": 23,
+      "senses": [
+        {
+          "id": "return-0",
+          "zh": "返回；回去；折返",
+          "sourceMeaning": "To go back to a place where you were before."
+        },
+        {
+          "id": "return-1",
+          "zh": "歸還；交還",
+          "sourceMeaning": "Give something back"
+        },
+        {
+          "id": "return-2",
+          "zh": "回覆；回應",
+          "sourceMeaning": "Reply or respond"
+        },
+        {
+          "id": "return-3",
+          "zh": "再次出現",
+          "sourceMeaning": "Happen again"
+        }
+      ],
+      "questions": [
+        {
+          "id": "return-1-1",
+          "kind": "example",
+          "en": "Please return the visitor pass.",
+          "zh": "請交還訪客證。",
+          "answer": "return-1"
+        },
+        {
+          "id": "return-2-1",
+          "kind": "example",
+          "en": "The office returned my call.",
+          "zh": "辦公室回了我的電話。",
+          "answer": "return-2"
+        },
+        {
+          "id": "return-3-1",
+          "kind": "example",
+          "en": "The smell returned after a few minutes.",
+          "zh": "幾分鐘後氣味再次出現。",
+          "answer": "return-3"
+        },
+        {
+          "id": "return-1-2",
+          "kind": "example",
+          "en": "He returned the access card.",
+          "zh": "他交還了門禁卡。",
+          "answer": "return-1"
+        },
+        {
+          "id": "return-2-2",
+          "kind": "example",
+          "en": "Management returned our message.",
+          "zh": "管理層回覆了我們的訊息。",
+          "answer": "return-2"
+        },
+        {
+          "id": "return-3-2",
+          "kind": "example",
+          "en": "The fault returned after reset.",
+          "zh": "重設後故障再次出現。",
+          "answer": "return-3"
+        },
+        {
+          "id": "return-passage",
+          "kind": "passage",
+          "en": "Please do not return to the affected floor.",
+          "zh": "請不要返回受影響樓層。",
+          "answer": "return-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 23,
+        "label": "23",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "designated",
+      "word": "designated",
+      "baseWord": "designate",
+      "sourcePage": 24,
+      "senses": [
+        {
+          "id": "designated-0",
+          "zh": "指定的；指定安排的；獲指派的",
+          "sourceMeaning": "Officially chosen, assigned, or named for a particular purpose."
+        },
+        {
+          "id": "designated-1",
+          "zh": "指派的；指定用途的",
+          "sourceMeaning": "Assigned for a purpose"
+        },
+        {
+          "id": "designated-2",
+          "zh": "標明的；標示的",
+          "sourceMeaning": "Marked or labelled"
+        },
+        {
+          "id": "designated-3",
+          "zh": "指定聯絡人",
+          "sourceMeaning": "Designated contact"
+        }
+      ],
+      "questions": [
+        {
+          "id": "designated-1-1",
+          "kind": "example",
+          "en": "The designated staff member will guide visitors.",
+          "zh": "指定職員會引導訪客。",
+          "answer": "designated-1",
+          "acceptedAnswers": [
+            "designated-0",
+            "designated-1"
+          ]
+        },
+        {
+          "id": "designated-2-1",
+          "kind": "example",
+          "en": "Please wait in the designated area.",
+          "zh": "請在指定區域等候。",
+          "answer": "designated-2"
+        },
+        {
+          "id": "designated-3-1",
+          "kind": "example",
+          "en": "Please contact the designated person.",
+          "zh": "請聯絡指定人士。",
+          "answer": "designated-3"
+        },
+        {
+          "id": "designated-1-2",
+          "kind": "example",
+          "en": "Use the designated entrance for deliveries.",
+          "zh": "送貨請使用指定入口。",
+          "answer": "designated-1",
+          "acceptedAnswers": [
+            "designated-0",
+            "designated-1"
+          ]
+        },
+        {
+          "id": "designated-2-2",
+          "kind": "example",
+          "en": "Park only in the designated spaces.",
+          "zh": "只可停泊在指定車位。",
+          "answer": "designated-2"
+        },
+        {
+          "id": "designated-3-2",
+          "kind": "example",
+          "en": "The tenant gave a designated emergency contact.",
+          "zh": "租戶提供了指定緊急聯絡人。",
+          "answer": "designated-3"
+        },
+        {
+          "id": "designated-passage",
+          "kind": "passage",
+          "en": "Please proceed to the designated assembly area as directed by staff.",
+          "zh": "請依照職員指示前往指定集合地點。",
+          "answer": "designated-0",
+          "acceptedAnswers": [
+            "designated-0",
+            "designated-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 24,
+        "label": "24",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "assembly-area",
+      "word": "assembly area",
+      "baseWord": "assembly",
+      "sourcePage": 25,
+      "senses": [
+        {
+          "id": "assembly-area-0",
+          "zh": "集合地點；集合區；疏散集合處",
+          "sourceMeaning": "A place where people gather after evacuation."
+        },
+        {
+          "id": "assembly-area-1",
+          "zh": "集會；集合的人群",
+          "sourceMeaning": "Group gathered together"
+        },
+        {
+          "id": "assembly-area-2",
+          "zh": "早會；集會",
+          "sourceMeaning": "School meeting"
+        },
+        {
+          "id": "assembly-area-3",
+          "zh": "組裝；裝配",
+          "sourceMeaning": "Putting parts together"
+        }
+      ],
+      "questions": [
+        {
+          "id": "assembly-area-1-1",
+          "kind": "example",
+          "en": "The assembly waited outside the building.",
+          "zh": "集合的人群在大廈外等候。",
+          "answer": "assembly-area-1"
+        },
+        {
+          "id": "assembly-area-2-1",
+          "kind": "example",
+          "en": "The school assembly started at 8 a.m.",
+          "zh": "學校早會八時開始。",
+          "answer": "assembly-area-2"
+        },
+        {
+          "id": "assembly-area-3-1",
+          "kind": "example",
+          "en": "The assembly of the new barrier took two hours.",
+          "zh": "新閘機的組裝用了兩小時。",
+          "answer": "assembly-area-3"
+        },
+        {
+          "id": "assembly-area-1-2",
+          "kind": "example",
+          "en": "The staff assembly moved to a safer place.",
+          "zh": "職員集合隊伍移到較安全地方。",
+          "answer": "assembly-area-1"
+        },
+        {
+          "id": "assembly-area-2-2",
+          "kind": "example",
+          "en": "Students attended assembly in the hall.",
+          "zh": "學生在禮堂參加集會。",
+          "answer": "assembly-area-2"
+        },
+        {
+          "id": "assembly-area-3-2",
+          "kind": "example",
+          "en": "Equipment assembly must follow the manual.",
+          "zh": "設備組裝必須按照手冊。",
+          "answer": "assembly-area-3"
+        },
+        {
+          "id": "assembly-area-passage",
+          "kind": "passage",
+          "en": "Please proceed to the designated assembly area as directed by staff.",
+          "zh": "請依照職員指示前往指定集合地點。",
+          "answer": "assembly-area-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 25,
+        "label": "25",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "all-clear",
+      "word": "all-clear",
+      "baseWord": "clear",
+      "sourcePage": 26,
+      "senses": [
+        {
+          "id": "all-clear-0",
+          "zh": "安全確認；解除警報；可恢復進入的通知",
+          "sourceMeaning": "An official signal or confirmation that danger has passed and it is safe to return or continue."
+        },
+        {
+          "id": "all-clear-1",
+          "zh": "危險解除信號",
+          "sourceMeaning": "Signal danger has passed"
+        },
+        {
+          "id": "all-clear-2",
+          "zh": "清楚的；明白的",
+          "sourceMeaning": "Clear = easy to understand"
+        },
+        {
+          "id": "all-clear-3",
+          "zh": "暢通的；無阻礙的",
+          "sourceMeaning": "Clear = not blocked"
+        }
+      ],
+      "questions": [
+        {
+          "id": "all-clear-1-1",
+          "kind": "example",
+          "en": "The all-clear was given after inspection.",
+          "zh": "檢查後發出危險解除信號。",
+          "answer": "all-clear-1",
+          "acceptedAnswers": [
+            "all-clear-0",
+            "all-clear-1"
+          ]
+        },
+        {
+          "id": "all-clear-2-1",
+          "kind": "example",
+          "en": "Give clear instructions during evacuation.",
+          "zh": "疏散期間給出清楚指示。",
+          "answer": "all-clear-2"
+        },
+        {
+          "id": "all-clear-3-1",
+          "kind": "example",
+          "en": "Keep the access route clear.",
+          "zh": "請保持進出通道暢通。",
+          "answer": "all-clear-3"
+        },
+        {
+          "id": "all-clear-1-2",
+          "kind": "example",
+          "en": "Visitors waited until the all-clear.",
+          "zh": "訪客等到解除警報。",
+          "answer": "all-clear-1",
+          "acceptedAnswers": [
+            "all-clear-0",
+            "all-clear-1"
+          ]
+        },
+        {
+          "id": "all-clear-2-2",
+          "kind": "example",
+          "en": "The announcement was clear.",
+          "zh": "公告很清楚。",
+          "answer": "all-clear-2"
+        },
+        {
+          "id": "all-clear-3-2",
+          "kind": "example",
+          "en": "The staircase must remain clear.",
+          "zh": "樓梯必須保持暢通。",
+          "answer": "all-clear-3"
+        },
+        {
+          "id": "all-clear-passage",
+          "kind": "passage",
+          "en": "Re-entry can only be confirmed after the authorised team gives the all-clear.",
+          "zh": "必須等授權團隊確認安全後，才可以重新進入。",
+          "answer": "all-clear-0",
+          "acceptedAnswers": [
+            "all-clear-0",
+            "all-clear-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 26,
+        "label": "26",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "urgent",
+      "word": "urgent",
+      "baseWord": "urgent",
+      "sourcePage": 27,
+      "senses": [
+        {
+          "id": "urgent-0",
+          "zh": "緊急的；迫切的；急需處理的",
+          "sourceMeaning": "Needing immediate attention or action."
+        },
+        {
+          "id": "urgent-1",
+          "zh": "迫切的；急切的",
+          "sourceMeaning": "Time-sensitive important"
+        },
+        {
+          "id": "urgent-2",
+          "zh": "急需；迫切需要",
+          "sourceMeaning": "Strong need"
+        },
+        {
+          "id": "urgent-3",
+          "zh": "緊急訊息",
+          "sourceMeaning": "Urgent message"
+        }
+      ],
+      "questions": [
+        {
+          "id": "urgent-1-1",
+          "kind": "example",
+          "en": "Report urgent issues immediately.",
+          "zh": "請立即匯報迫切問題。",
+          "answer": "urgent-1",
+          "acceptedAnswers": [
+            "urgent-0",
+            "urgent-1"
+          ]
+        },
+        {
+          "id": "urgent-2-1",
+          "kind": "example",
+          "en": "There is an urgent need to keep the route clear.",
+          "zh": "急需保持通道暢通。",
+          "answer": "urgent-2"
+        },
+        {
+          "id": "urgent-3-1",
+          "kind": "example",
+          "en": "I received an urgent message from the tenant.",
+          "zh": "我收到租戶的緊急訊息。",
+          "answer": "urgent-3"
+        },
+        {
+          "id": "urgent-1-2",
+          "kind": "example",
+          "en": "The tenant made an urgent request.",
+          "zh": "租戶提出緊急要求。",
+          "answer": "urgent-1",
+          "acceptedAnswers": [
+            "urgent-0",
+            "urgent-1"
+          ]
+        },
+        {
+          "id": "urgent-2-2",
+          "kind": "example",
+          "en": "The injured person has an urgent need for help.",
+          "zh": "傷者急需協助。",
+          "answer": "urgent-2"
+        },
+        {
+          "id": "urgent-3-2",
+          "kind": "example",
+          "en": "Send urgent updates to management.",
+          "zh": "把緊急更新發給管理層。",
+          "answer": "urgent-3"
+        },
+        {
+          "id": "urgent-passage",
+          "kind": "passage",
+          "en": "We need urgent help.",
+          "zh": "我們需要緊急協助。",
+          "answer": "urgent-0",
+          "acceptedAnswers": [
+            "urgent-0",
+            "urgent-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 27,
+        "label": "27",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "collapsed",
+      "word": "collapsed",
+      "baseWord": "collapse",
+      "sourcePage": 28,
+      "senses": [
+        {
+          "id": "collapsed-0",
+          "zh": "暈倒；倒下；突然倒地",
+          "sourceMeaning": "Fell down suddenly because of illness, weakness, injury, or loss of consciousness."
+        },
+        {
+          "id": "collapsed-1",
+          "zh": "倒塌；塌下",
+          "sourceMeaning": "Structure falls down"
+        },
+        {
+          "id": "collapsed-2",
+          "zh": "崩潰；癱瘓",
+          "sourceMeaning": "System stops working"
+        },
+        {
+          "id": "collapsed-3",
+          "zh": "倒閉；瓦解",
+          "sourceMeaning": "Business fails"
+        }
+      ],
+      "questions": [
+        {
+          "id": "collapsed-1-1",
+          "kind": "example",
+          "en": "Part of the ceiling collapsed after the leak.",
+          "zh": "漏水後部分天花倒塌。",
+          "answer": "collapsed-1"
+        },
+        {
+          "id": "collapsed-2-1",
+          "kind": "example",
+          "en": "The visitor system collapsed during peak time.",
+          "zh": "訪客系統在繁忙時間癱瘓。",
+          "answer": "collapsed-2"
+        },
+        {
+          "id": "collapsed-3-1",
+          "kind": "example",
+          "en": "The company collapsed after financial problems.",
+          "zh": "公司因財務問題倒閉。",
+          "answer": "collapsed-3"
+        },
+        {
+          "id": "collapsed-1-2",
+          "kind": "example",
+          "en": "The old wall collapsed during repairs.",
+          "zh": "舊牆在維修期間倒塌。",
+          "answer": "collapsed-1"
+        },
+        {
+          "id": "collapsed-2-2",
+          "kind": "example",
+          "en": "The network collapsed after the power failure.",
+          "zh": "停電後網絡崩潰。",
+          "answer": "collapsed-2"
+        },
+        {
+          "id": "collapsed-3-2",
+          "kind": "example",
+          "en": "The project collapsed due to lack of support.",
+          "zh": "項目因缺乏支援而告吹。",
+          "answer": "collapsed-3"
+        },
+        {
+          "id": "collapsed-passage",
+          "kind": "passage",
+          "en": "One of my colleagues has collapsed near the lift lobby.",
+          "zh": "我的一位同事在升降機大堂附近暈倒了。",
+          "answer": "collapsed-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 28,
+        "label": "28",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "lobby",
+      "word": "lobby",
+      "baseWord": "lobby",
+      "sourcePage": 29,
+      "senses": [
+        {
+          "id": "lobby-0",
+          "zh": "大堂；升降機大堂；等候區",
+          "sourceMeaning": "An open area near the lifts where people wait or pass through."
+        },
+        {
+          "id": "lobby-1",
+          "zh": "大堂；入口大堂",
+          "sourceMeaning": "Main entrance hall"
+        },
+        {
+          "id": "lobby-2",
+          "zh": "游說團體",
+          "sourceMeaning": "Political influence group"
+        },
+        {
+          "id": "lobby-3",
+          "zh": "游說；爭取支持",
+          "sourceMeaning": "To influence a decision"
+        }
+      ],
+      "questions": [
+        {
+          "id": "lobby-1-1",
+          "kind": "example",
+          "en": "Please wait in the main lobby.",
+          "zh": "請在主大堂等候。",
+          "answer": "lobby-1"
+        },
+        {
+          "id": "lobby-2-1",
+          "kind": "example",
+          "en": "The business lobby supported the proposal.",
+          "zh": "商界游說團體支持建議。",
+          "answer": "lobby-2"
+        },
+        {
+          "id": "lobby-3-1",
+          "kind": "example",
+          "en": "Residents lobbied for better safety measures.",
+          "zh": "居民游說爭取更好安全措施。",
+          "answer": "lobby-3"
+        },
+        {
+          "id": "lobby-1-2",
+          "kind": "example",
+          "en": "The visitor is standing in the lobby.",
+          "zh": "訪客正站在大堂。",
+          "answer": "lobby-1"
+        },
+        {
+          "id": "lobby-2-2",
+          "kind": "example",
+          "en": "The environmental lobby opposed the plan.",
+          "zh": "環保游說團體反對計劃。",
+          "answer": "lobby-2"
+        },
+        {
+          "id": "lobby-3-2",
+          "kind": "example",
+          "en": "The group lobbied management.",
+          "zh": "該團體游說管理層。",
+          "answer": "lobby-3"
+        },
+        {
+          "id": "lobby-passage",
+          "kind": "passage",
+          "en": "One of my colleagues has collapsed near the lift lobby.",
+          "zh": "我的一位同事在升降機大堂附近暈倒了。",
+          "answer": "lobby-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 29,
+        "label": "29",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "awake",
+      "word": "awake",
+      "baseWord": "awake",
+      "sourcePage": 30,
+      "senses": [
+        {
+          "id": "awake-0",
+          "zh": "醒著；清醒；有意識",
+          "sourceMeaning": "Not asleep; conscious enough to show signs of awareness."
+        },
+        {
+          "id": "awake-1",
+          "zh": "醒來；醒過來",
+          "sourceMeaning": "Become awake"
+        },
+        {
+          "id": "awake-2",
+          "zh": "意識到；察覺",
+          "sourceMeaning": "Aware of something"
+        },
+        {
+          "id": "awake-3",
+          "zh": "保持清醒",
+          "sourceMeaning": "Stay awake"
+        }
+      ],
+      "questions": [
+        {
+          "id": "awake-1-1",
+          "kind": "example",
+          "en": "He awoke after a few minutes.",
+          "zh": "他幾分鐘後醒來。",
+          "answer": "awake-1",
+          "acceptedAnswers": [
+            "awake-0",
+            "awake-1"
+          ]
+        },
+        {
+          "id": "awake-2-1",
+          "kind": "example",
+          "en": "Staff must be awake to safety risks.",
+          "zh": "職員必須意識到安全風險。",
+          "answer": "awake-2"
+        },
+        {
+          "id": "awake-3-1",
+          "kind": "example",
+          "en": "Try to stay awake while help is on the way.",
+          "zh": "救援前來時請盡量保持清醒。",
+          "answer": "awake-3"
+        },
+        {
+          "id": "awake-1-2",
+          "kind": "example",
+          "en": "Tell me immediately if the person wakes up.",
+          "zh": "如果那個人醒過來，請立即告訴我。",
+          "answer": "awake-1",
+          "acceptedAnswers": [
+            "awake-0",
+            "awake-1"
+          ]
+        },
+        {
+          "id": "awake-2-2",
+          "kind": "example",
+          "en": "Be awake to changes in condition.",
+          "zh": "要留意狀況變化。",
+          "answer": "awake-2"
+        },
+        {
+          "id": "awake-3-2",
+          "kind": "example",
+          "en": "Please stay awake and keep talking.",
+          "zh": "請保持清醒並繼續說話。",
+          "answer": "awake-3"
+        },
+        {
+          "id": "awake-passage",
+          "kind": "passage",
+          "en": "Is the person awake and breathing?",
+          "zh": "那個人是否清醒？是否有呼吸？",
+          "answer": "awake-0",
+          "acceptedAnswers": [
+            "awake-0",
+            "awake-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 30,
+        "label": "30",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "unresponsive",
+      "word": "unresponsive",
+      "baseWord": "respond",
+      "sourcePage": 31,
+      "senses": [
+        {
+          "id": "unresponsive-0",
+          "zh": "沒有反應；無反應；叫喚沒有回應",
+          "sourceMeaning": "Not reacting, answering, or responding to people."
+        },
+        {
+          "id": "unresponsive-1",
+          "zh": "沒有回覆；不回應",
+          "sourceMeaning": "Not replying"
+        },
+        {
+          "id": "unresponsive-2",
+          "zh": "設備／系統無反應",
+          "sourceMeaning": "Device/system not reacting"
+        },
+        {
+          "id": "unresponsive-3",
+          "zh": "有反應；反應良好",
+          "sourceMeaning": "Responsive = reacts well"
+        }
+      ],
+      "questions": [
+        {
+          "id": "unresponsive-1-1",
+          "kind": "example",
+          "en": "The office has been unresponsive today.",
+          "zh": "辦公室今天一直沒有回覆。",
+          "answer": "unresponsive-1"
+        },
+        {
+          "id": "unresponsive-2-1",
+          "kind": "example",
+          "en": "The lift panel is unresponsive.",
+          "zh": "升降機面板沒有反應。",
+          "answer": "unresponsive-2"
+        },
+        {
+          "id": "unresponsive-3-1",
+          "kind": "example",
+          "en": "The person became responsive after a few minutes.",
+          "zh": "幾分鐘後那個人有反應了。",
+          "answer": "unresponsive-3"
+        },
+        {
+          "id": "unresponsive-1-2",
+          "kind": "example",
+          "en": "The tenant was unresponsive to our message.",
+          "zh": "租戶沒有回覆我們的訊息。",
+          "answer": "unresponsive-1"
+        },
+        {
+          "id": "unresponsive-2-2",
+          "kind": "example",
+          "en": "The reader became unresponsive after the scan.",
+          "zh": "掃描後讀卡器變得沒有反應。",
+          "answer": "unresponsive-2"
+        },
+        {
+          "id": "unresponsive-3-2",
+          "kind": "example",
+          "en": "The system is responsive again.",
+          "zh": "系統再次有反應。",
+          "answer": "unresponsive-3"
+        },
+        {
+          "id": "unresponsive-passage",
+          "kind": "passage",
+          "en": "He is breathing, but he is unresponsive.",
+          "zh": "他有呼吸，但沒有反應。",
+          "answer": "unresponsive-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 31,
+        "label": "31",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "assistance",
+      "word": "assistance",
+      "baseWord": "assist",
+      "sourcePage": 32,
+      "senses": [
+        {
+          "id": "assistance-0",
+          "zh": "協助；支援；援助",
+          "sourceMeaning": "Help or support, especially from an emergency, security, or management team."
+        },
+        {
+          "id": "assistance-1",
+          "zh": "幫助；協助",
+          "sourceMeaning": "General help"
+        },
+        {
+          "id": "assistance-2",
+          "zh": "支援；協助處理",
+          "sourceMeaning": "Team support"
+        },
+        {
+          "id": "assistance-3",
+          "zh": "技術支援",
+          "sourceMeaning": "Technical assistance"
+        }
+      ],
+      "questions": [
+        {
+          "id": "assistance-1-1",
+          "kind": "example",
+          "en": "Please ask staff for assistance.",
+          "zh": "請向職員尋求協助。",
+          "answer": "assistance-1",
+          "acceptedAnswers": [
+            "assistance-0",
+            "assistance-1"
+          ]
+        },
+        {
+          "id": "assistance-2-1",
+          "kind": "example",
+          "en": "Security requested assistance from management.",
+          "zh": "保安向管理層要求支援。",
+          "answer": "assistance-2"
+        },
+        {
+          "id": "assistance-3-1",
+          "kind": "example",
+          "en": "We need technical assistance for the lift panel.",
+          "zh": "我們需要升降機面板的技術支援。",
+          "answer": "assistance-3"
+        },
+        {
+          "id": "assistance-1-2",
+          "kind": "example",
+          "en": "We are here to provide assistance.",
+          "zh": "我們會提供協助。",
+          "answer": "assistance-1",
+          "acceptedAnswers": [
+            "assistance-0",
+            "assistance-1"
+          ]
+        },
+        {
+          "id": "assistance-2-2",
+          "kind": "example",
+          "en": "Facilities provided assistance with the lift issue.",
+          "zh": "設施部協助處理升降機問題。",
+          "answer": "assistance-2"
+        },
+        {
+          "id": "assistance-3-2",
+          "kind": "example",
+          "en": "Technical assistance was requested for the alarm system.",
+          "zh": "已要求警報系統技術支援。",
+          "answer": "assistance-3"
+        },
+        {
+          "id": "assistance-passage",
+          "kind": "passage",
+          "en": "I’m requesting emergency assistance now and will give them your exact location.",
+          "zh": "我現在正要求緊急協助，並會向他們提供您的確切位置。",
+          "answer": "assistance-0",
+          "acceptedAnswers": [
+            "assistance-0",
+            "assistance-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 32,
+        "label": "32",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "move",
+      "word": "move",
+      "baseWord": "move",
+      "sourcePage": 33,
+      "senses": [
+        {
+          "id": "move-0",
+          "zh": "移動；搬動；移走",
+          "sourceMeaning": "To change someone’s position or location."
+        },
+        {
+          "id": "move-1",
+          "zh": "移動；前往",
+          "sourceMeaning": "Go to another place"
+        },
+        {
+          "id": "move-2",
+          "zh": "搬遷；搬走",
+          "sourceMeaning": "Change home or office"
+        },
+        {
+          "id": "move-3",
+          "zh": "感動；觸動",
+          "sourceMeaning": "Affect emotionally"
+        }
+      ],
+      "questions": [
+        {
+          "id": "move-1-1",
+          "kind": "example",
+          "en": "Move to the safe staircase if instructed.",
+          "zh": "如有指示，請移到安全樓梯。",
+          "answer": "move-1"
+        },
+        {
+          "id": "move-2-1",
+          "kind": "example",
+          "en": "The tenant moved to another floor.",
+          "zh": "租戶搬到另一層。",
+          "answer": "move-2"
+        },
+        {
+          "id": "move-3-1",
+          "kind": "example",
+          "en": "The visitor was moved by the staff’s help.",
+          "zh": "訪客被職員的幫助感動。",
+          "answer": "move-3"
+        },
+        {
+          "id": "move-1-2",
+          "kind": "example",
+          "en": "Please move away from the affected area.",
+          "zh": "請離開受影響區域。",
+          "answer": "move-1"
+        },
+        {
+          "id": "move-2-2",
+          "kind": "example",
+          "en": "Our office will move next month.",
+          "zh": "我們辦公室下月搬遷。",
+          "answer": "move-2"
+        },
+        {
+          "id": "move-3-2",
+          "kind": "example",
+          "en": "Her calm response moved the caller.",
+          "zh": "她冷靜的回應感動了來電者。",
+          "answer": "move-3"
+        },
+        {
+          "id": "move-passage",
+          "kind": "passage",
+          "en": "Please do not move him unless there is immediate danger.",
+          "zh": "除非有即時危險，否則請不要移動他。",
+          "answer": "move-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 33,
+        "label": "33",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "immediate",
+      "word": "immediate",
+      "baseWord": "immediate",
+      "sourcePage": 34,
+      "senses": [
+        {
+          "id": "immediate-0",
+          "zh": "即時的；眼前的；迫切的",
+          "sourceMeaning": "Happening now or needing action now; not delayed."
+        },
+        {
+          "id": "immediate-1",
+          "zh": "立即的；馬上的",
+          "sourceMeaning": "Without delay"
+        },
+        {
+          "id": "immediate-2",
+          "zh": "最近的；最接近的",
+          "sourceMeaning": "Nearest in time/place"
+        },
+        {
+          "id": "immediate-3",
+          "zh": "直接的；緊接的",
+          "sourceMeaning": "Direct"
+        }
+      ],
+      "questions": [
+        {
+          "id": "immediate-1-1",
+          "kind": "example",
+          "en": "Please report any immediate risk.",
+          "zh": "如有即時風險，請匯報。",
+          "answer": "immediate-1"
+        },
+        {
+          "id": "immediate-2-1",
+          "kind": "example",
+          "en": "Use the immediate exit if directed.",
+          "zh": "如有指示，請使用最近出口。",
+          "answer": "immediate-2"
+        },
+        {
+          "id": "immediate-3-1",
+          "kind": "example",
+          "en": "The immediate cause was the blocked route.",
+          "zh": "直接原因是路線受阻。",
+          "answer": "immediate-3"
+        },
+        {
+          "id": "immediate-1-2",
+          "kind": "example",
+          "en": "We need immediate assistance.",
+          "zh": "我們需要即時協助。",
+          "answer": "immediate-1"
+        },
+        {
+          "id": "immediate-2-2",
+          "kind": "example",
+          "en": "Keep the immediate area clear.",
+          "zh": "請保持附近範圍暢通。",
+          "answer": "immediate-2"
+        },
+        {
+          "id": "immediate-3-2",
+          "kind": "example",
+          "en": "The immediate response was to call for help.",
+          "zh": "即時反應是求援。",
+          "answer": "immediate-3"
+        },
+        {
+          "id": "immediate-passage",
+          "kind": "passage",
+          "en": "Please do not move him unless there is immediate danger.",
+          "zh": "除非有即時危險，否則請不要移動他。",
+          "answer": "immediate-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 34,
+        "label": "34",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "danger",
+      "word": "danger",
+      "baseWord": "danger",
+      "sourcePage": 35,
+      "senses": [
+        {
+          "id": "danger-0",
+          "zh": "危險；危險情況；風險",
+          "sourceMeaning": "A situation that may cause harm, injury, or serious risk."
+        },
+        {
+          "id": "danger-1",
+          "zh": "可能出事；危機",
+          "sourceMeaning": "Possibility of harm"
+        },
+        {
+          "id": "danger-2",
+          "zh": "危險物；危險因素",
+          "sourceMeaning": "Dangerous thing"
+        },
+        {
+          "id": "danger-3",
+          "zh": "脫離危險",
+          "sourceMeaning": "Out of danger"
+        }
+      ],
+      "questions": [
+        {
+          "id": "danger-1-1",
+          "kind": "example",
+          "en": "There is a danger of slipping on the wet floor.",
+          "zh": "濕滑地面有滑倒危險。",
+          "answer": "danger-1"
+        },
+        {
+          "id": "danger-2-1",
+          "kind": "example",
+          "en": "The exposed wire is a danger to visitors.",
+          "zh": "外露電線對訪客構成危險。",
+          "answer": "danger-2"
+        },
+        {
+          "id": "danger-3-1",
+          "kind": "example",
+          "en": "The person is not out of danger yet.",
+          "zh": "那個人尚未脫離危險。",
+          "answer": "danger-3"
+        },
+        {
+          "id": "danger-1-2",
+          "kind": "example",
+          "en": "There is a danger of panic during an alarm.",
+          "zh": "警鐘期間有恐慌的風險。",
+          "answer": "danger-1"
+        },
+        {
+          "id": "danger-2-2",
+          "kind": "example",
+          "en": "A blocked exit is a serious danger.",
+          "zh": "出口受阻是嚴重危險。",
+          "answer": "danger-2"
+        },
+        {
+          "id": "danger-3-2",
+          "kind": "example",
+          "en": "Wait until everyone is out of danger.",
+          "zh": "請等到所有人脫離危險。",
+          "answer": "danger-3"
+        },
+        {
+          "id": "danger-passage",
+          "kind": "passage",
+          "en": "Please do not move him unless there is immediate danger.",
+          "zh": "除非有即時危險，否則請不要移動他。",
+          "answer": "danger-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 35,
+        "label": "35",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "assess",
+      "word": "assess",
+      "baseWord": "assess",
+      "sourcePage": 36,
+      "senses": [
+        {
+          "id": "assess-0",
+          "zh": "評估；判斷；檢視情況",
+          "sourceMeaning": "To examine a situation and decide how serious it is or what should be done."
+        },
+        {
+          "id": "assess-1",
+          "zh": "評估嚴重程度",
+          "sourceMeaning": "Estimate seriousness"
+        },
+        {
+          "id": "assess-2",
+          "zh": "評核；評估表現",
+          "sourceMeaning": "Evaluate performance"
+        },
+        {
+          "id": "assess-3",
+          "zh": "評估風險／損壞",
+          "sourceMeaning": "Assess risk/damage"
+        }
+      ],
+      "questions": [
+        {
+          "id": "assess-1-1",
+          "kind": "example",
+          "en": "Management will assess the seriousness of the incident.",
+          "zh": "管理層會評估事件嚴重程度。",
+          "answer": "assess-1"
+        },
+        {
+          "id": "assess-2-1",
+          "kind": "example",
+          "en": "The trainer assessed the role-play performance.",
+          "zh": "培訓員評估角色扮演表現。",
+          "answer": "assess-2"
+        },
+        {
+          "id": "assess-3-1",
+          "kind": "example",
+          "en": "Assess the risk before entering the affected area.",
+          "zh": "進入受影響範圍前先評估風險。",
+          "answer": "assess-3"
+        },
+        {
+          "id": "assess-1-2",
+          "kind": "example",
+          "en": "The team assessed the water leak as urgent.",
+          "zh": "團隊評估漏水情況為緊急。",
+          "answer": "assess-1"
+        },
+        {
+          "id": "assess-2-2",
+          "kind": "example",
+          "en": "Supervisors assess guards during drills.",
+          "zh": "主管在演習中評核保安。",
+          "answer": "assess-2"
+        },
+        {
+          "id": "assess-3-2",
+          "kind": "example",
+          "en": "Facilities assessed the damage to the lift.",
+          "zh": "設施部評估升降機損壞。",
+          "answer": "assess-3"
+        },
+        {
+          "id": "assess-passage",
+          "kind": "passage",
+          "en": "The responding team will assess the situation on arrival.",
+          "zh": "應變團隊到場後會評估情況。",
+          "answer": "assess-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 36,
+        "label": "36",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "condition",
+      "word": "condition",
+      "baseWord": "condition",
+      "sourcePage": 37,
+      "senses": [
+        {
+          "id": "condition-0",
+          "zh": "狀況；身體情況；病情",
+          "sourceMeaning": "A person’s physical state, especially in a medical situation."
+        },
+        {
+          "id": "condition-1",
+          "zh": "狀態；情況",
+          "sourceMeaning": "State of something"
+        },
+        {
+          "id": "condition-2",
+          "zh": "條件；要求",
+          "sourceMeaning": "Requirement"
+        },
+        {
+          "id": "condition-3",
+          "zh": "條款及細則",
+          "sourceMeaning": "Terms and conditions"
+        }
+      ],
+      "questions": [
+        {
+          "id": "condition-1-1",
+          "kind": "example",
+          "en": "The lift is in poor condition.",
+          "zh": "升降機狀況欠佳。",
+          "answer": "condition-1"
+        },
+        {
+          "id": "condition-2-1",
+          "kind": "example",
+          "en": "Re-entry is allowed only under safe conditions.",
+          "zh": "只有在安全條件下才可重新進入。",
+          "answer": "condition-2"
+        },
+        {
+          "id": "condition-3-1",
+          "kind": "example",
+          "en": "Please read the terms and conditions.",
+          "zh": "請閱讀條款及細則。",
+          "answer": "condition-3"
+        },
+        {
+          "id": "condition-1-2",
+          "kind": "example",
+          "en": "The staircase is in good condition.",
+          "zh": "樓梯狀況良好。",
+          "answer": "condition-1"
+        },
+        {
+          "id": "condition-2-2",
+          "kind": "example",
+          "en": "Tenant confirmation is a condition for access.",
+          "zh": "租戶確認是進入條件。",
+          "answer": "condition-2"
+        },
+        {
+          "id": "condition-3-2",
+          "kind": "example",
+          "en": "Access is subject to building conditions.",
+          "zh": "進入須遵守大廈條件。",
+          "answer": "condition-3"
+        },
+        {
+          "id": "condition-passage",
+          "kind": "passage",
+          "en": "Tell me immediately if his condition changes.",
+          "zh": "如果他的情況有變，請立即告訴我。",
+          "answer": "condition-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 37,
+        "label": "37",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "stopped",
+      "word": "stopped",
+      "baseWord": "stop",
+      "sourcePage": 38,
+      "senses": [
+        {
+          "id": "stopped-0",
+          "zh": "停止；停住；停下來",
+          "sourceMeaning": "No longer moving or operating."
+        },
+        {
+          "id": "stopped-1",
+          "zh": "停止；中止",
+          "sourceMeaning": "End an action"
+        },
+        {
+          "id": "stopped-2",
+          "zh": "阻止；制止",
+          "sourceMeaning": "Prevent"
+        },
+        {
+          "id": "stopped-3",
+          "zh": "車站；站點",
+          "sourceMeaning": "Transport stop"
+        }
+      ],
+      "questions": [
+        {
+          "id": "stopped-1-1",
+          "kind": "example",
+          "en": "Stop normal registration and begin evacuation.",
+          "zh": "停止正常登記並開始疏散。",
+          "answer": "stopped-1"
+        },
+        {
+          "id": "stopped-2-1",
+          "kind": "example",
+          "en": "Staff stopped visitors from entering the affected area.",
+          "zh": "職員阻止訪客進入受影響範圍。",
+          "answer": "stopped-2"
+        },
+        {
+          "id": "stopped-3-1",
+          "kind": "example",
+          "en": "The bus stop is outside the building.",
+          "zh": "巴士站在大廈外。",
+          "answer": "stopped-3"
+        },
+        {
+          "id": "stopped-1-2",
+          "kind": "example",
+          "en": "Please stop using the lift during the alarm.",
+          "zh": "警鐘期間請停止使用升降機。",
+          "answer": "stopped-1"
+        },
+        {
+          "id": "stopped-2-2",
+          "kind": "example",
+          "en": "The barrier stopped cars from leaving.",
+          "zh": "閘機阻止車輛離開。",
+          "answer": "stopped-2"
+        },
+        {
+          "id": "stopped-3-2",
+          "kind": "example",
+          "en": "The shuttle stop is near the main entrance.",
+          "zh": "穿梭巴士站在正門附近。",
+          "answer": "stopped-3"
+        },
+        {
+          "id": "stopped-passage",
+          "kind": "passage",
+          "en": "The lift has stopped and the doors will not open.",
+          "zh": "升降機停住了，門打不開。",
+          "answer": "stopped-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 38,
+        "label": "38",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "car",
+      "word": "car",
+      "baseWord": "car",
+      "sourcePage": 39,
+      "senses": [
+        {
+          "id": "car-0",
+          "zh": "升降機轎廂；電梯轎廂",
+          "sourceMeaning": "The enclosed part of a lift/elevator that carries people between floors."
+        },
+        {
+          "id": "car-1",
+          "zh": "汽車；私家車",
+          "sourceMeaning": "Road vehicle"
+        },
+        {
+          "id": "car-2",
+          "zh": "火車車廂",
+          "sourceMeaning": "Train carriage"
+        },
+        {
+          "id": "car-3",
+          "zh": "車輛；汽車",
+          "sourceMeaning": "Car park context"
+        }
+      ],
+      "questions": [
+        {
+          "id": "car-1-1",
+          "kind": "example",
+          "en": "A car is blocking the exit lane.",
+          "zh": "一輛車阻塞出口車道。",
+          "answer": "car-1"
+        },
+        {
+          "id": "car-2-1",
+          "kind": "example",
+          "en": "Passengers moved to the next car.",
+          "zh": "乘客移到下一節車廂。",
+          "answer": "car-2"
+        },
+        {
+          "id": "car-3-1",
+          "kind": "example",
+          "en": "Several cars are waiting at the barrier.",
+          "zh": "幾輛車正在閘機前等候。",
+          "answer": "car-3"
+        },
+        {
+          "id": "car-1-2",
+          "kind": "example",
+          "en": "Please do not park your car here.",
+          "zh": "請不要把車停在這裡。",
+          "answer": "car-1"
+        },
+        {
+          "id": "car-2-2",
+          "kind": "example",
+          "en": "The dining car is at the end of the train.",
+          "zh": "餐車在火車尾部。",
+          "answer": "car-2"
+        },
+        {
+          "id": "car-3-2",
+          "kind": "example",
+          "en": "Cars can still exit via Lane 1.",
+          "zh": "車輛仍可經 1 號線離開。",
+          "answer": "car-3"
+        },
+        {
+          "id": "car-passage",
+          "kind": "passage",
+          "en": "The car has stopped between floors and the doors are not opening.",
+          "zh": "升降機轎廂停在樓層之間，門沒有打開。",
+          "answer": "car-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 39,
+        "label": "39",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "between",
+      "word": "between",
+      "baseWord": "between",
+      "sourcePage": 40,
+      "senses": [
+        {
+          "id": "between-0",
+          "zh": "在……之間；介乎……之間",
+          "sourceMeaning": "In the space separating two places, levels, or things."
+        },
+        {
+          "id": "between-1",
+          "zh": "在兩個地方中間",
+          "sourceMeaning": "Middle of two places"
+        },
+        {
+          "id": "between-2",
+          "zh": "由……共同；在……之間分配",
+          "sourceMeaning": "Shared by people"
+        },
+        {
+          "id": "between-3",
+          "zh": "在……期間",
+          "sourceMeaning": "Time range"
+        }
+      ],
+      "questions": [
+        {
+          "id": "between-1-1",
+          "kind": "example",
+          "en": "The staircase is between the lift lobby and the pantry.",
+          "zh": "樓梯在升降機大堂和茶水間之間。",
+          "answer": "between-1"
+        },
+        {
+          "id": "between-2-1",
+          "kind": "example",
+          "en": "The passengers shared one phone between them.",
+          "zh": "乘客共用一部電話。",
+          "answer": "between-2"
+        },
+        {
+          "id": "between-3-1",
+          "kind": "example",
+          "en": "The incident happened between 3:00 and 3:10 p.m.",
+          "zh": "事件發生在下午三時至三時十分之間。",
+          "answer": "between-3"
+        },
+        {
+          "id": "between-1-2",
+          "kind": "example",
+          "en": "The corridor is between two office areas.",
+          "zh": "走廊在兩個辦公區域之間。",
+          "answer": "between-1"
+        },
+        {
+          "id": "between-2-2",
+          "kind": "example",
+          "en": "Divide the task between security and management.",
+          "zh": "把任務分配給保安和管理層。",
+          "answer": "between-2"
+        },
+        {
+          "id": "between-3-2",
+          "kind": "example",
+          "en": "Please wait between updates.",
+          "zh": "請在更新之間等候。",
+          "answer": "between-3"
+        },
+        {
+          "id": "between-passage",
+          "kind": "passage",
+          "en": "The car has stopped between floors and the doors are not opening.",
+          "zh": "升降機轎廂停在樓層之間，門沒有打開。",
+          "answer": "between-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 40,
+        "label": "40",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "inside",
+      "word": "inside",
+      "baseWord": "inside",
+      "sourcePage": 41,
+      "senses": [
+        {
+          "id": "inside-0",
+          "zh": "在裡面；在內；在升降機內",
+          "sourceMeaning": "In the lift car; within the enclosed space."
+        },
+        {
+          "id": "inside-1",
+          "zh": "室內；在室內",
+          "sourceMeaning": "Indoors"
+        },
+        {
+          "id": "inside-2",
+          "zh": "在……之內",
+          "sourceMeaning": "Within a time limit"
+        },
+        {
+          "id": "inside-3",
+          "zh": "內部消息；內情",
+          "sourceMeaning": "Private information"
+        }
+      ],
+      "questions": [
+        {
+          "id": "inside-1-1",
+          "kind": "example",
+          "en": "Visitors waited inside the lobby before evacuation.",
+          "zh": "疏散前訪客在大堂內等候。",
+          "answer": "inside-1"
+        },
+        {
+          "id": "inside-2-1",
+          "kind": "example",
+          "en": "The team arrived inside ten minutes.",
+          "zh": "團隊在十分鐘內到達。",
+          "answer": "inside-2"
+        },
+        {
+          "id": "inside-3-1",
+          "kind": "example",
+          "en": "Do not share inside information.",
+          "zh": "不要分享內部消息。",
+          "answer": "inside-3"
+        },
+        {
+          "id": "inside-1-2",
+          "kind": "example",
+          "en": "Please stay inside until directed.",
+          "zh": "請留在室內，直到有指示。",
+          "answer": "inside-1"
+        },
+        {
+          "id": "inside-2-2",
+          "kind": "example",
+          "en": "Update us inside five minutes if anything changes.",
+          "zh": "如有變化，請在五分鐘內更新我們。",
+          "answer": "inside-2"
+        },
+        {
+          "id": "inside-3-2",
+          "kind": "example",
+          "en": "Only authorised staff know the inside details.",
+          "zh": "只有授權職員知道內情。",
+          "answer": "inside-3"
+        },
+        {
+          "id": "inside-passage",
+          "kind": "passage",
+          "en": "How many people are inside?",
+          "zh": "裡面有多少人？",
+          "answer": "inside-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 41,
+        "label": "41",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "hurt-injured",
+      "word": "hurt / injured",
+      "baseWord": "hurt / injure",
+      "sourcePage": 42,
+      "senses": [
+        {
+          "id": "hurt-injured-0",
+          "zh": "受傷；受傷的；有人受傷",
+          "sourceMeaning": "Physically harmed or wounded."
+        },
+        {
+          "id": "hurt-injured-1",
+          "zh": "感到疼痛",
+          "sourceMeaning": "Physical pain"
+        },
+        {
+          "id": "hurt-injured-2",
+          "zh": "傷心；受傷害",
+          "sourceMeaning": "Emotional pain"
+        },
+        {
+          "id": "hurt-injured-3",
+          "zh": "損害；影響",
+          "sourceMeaning": "Damage something"
+        }
+      ],
+      "questions": [
+        {
+          "id": "hurt-injured-1-1",
+          "kind": "example",
+          "en": "My arm hurts after the fall.",
+          "zh": "跌倒後我的手臂痛。",
+          "answer": "hurt-injured-1"
+        },
+        {
+          "id": "hurt-injured-2-1",
+          "kind": "example",
+          "en": "The angry words hurt the visitor.",
+          "zh": "憤怒的說話傷害了訪客。",
+          "answer": "hurt-injured-2"
+        },
+        {
+          "id": "hurt-injured-3-1",
+          "kind": "example",
+          "en": "Poor communication can hurt trust.",
+          "zh": "溝通不良會損害信任。",
+          "answer": "hurt-injured-3"
+        },
+        {
+          "id": "hurt-injured-1-2",
+          "kind": "example",
+          "en": "Tell me where it hurts.",
+          "zh": "請告訴我哪裡痛。",
+          "answer": "hurt-injured-1"
+        },
+        {
+          "id": "hurt-injured-2-2",
+          "kind": "example",
+          "en": "He felt hurt after the complaint.",
+          "zh": "投訴後他感到受傷。",
+          "answer": "hurt-injured-2"
+        },
+        {
+          "id": "hurt-injured-3-2",
+          "kind": "example",
+          "en": "Delays hurt service quality.",
+          "zh": "延誤會影響服務質素。",
+          "answer": "hurt-injured-3"
+        },
+        {
+          "id": "hurt-injured-passage",
+          "kind": "passage",
+          "en": "Is anyone hurt or feeling unwell?",
+          "zh": "有沒有人受傷或感到不適？",
+          "answer": "hurt-injured-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 42,
+        "label": "42",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "nervous-anxious",
+      "word": "nervous / anxious",
+      "baseWord": "nervous / anxious",
+      "sourcePage": 43,
+      "senses": [
+        {
+          "id": "nervous-anxious-0",
+          "zh": "緊張；焦慮；不安",
+          "sourceMeaning": "Worried, frightened, or uneasy because of the lift entrapment."
+        },
+        {
+          "id": "nervous-anxious-1",
+          "zh": "擔心；憂慮",
+          "sourceMeaning": "Afraid something bad may happen"
+        },
+        {
+          "id": "nervous-anxious-2",
+          "zh": "怯場；考試前緊張",
+          "sourceMeaning": "Before performance/test"
+        },
+        {
+          "id": "nervous-anxious-3",
+          "zh": "急切想做；渴望",
+          "sourceMeaning": "Anxious to do something"
+        }
+      ],
+      "questions": [
+        {
+          "id": "nervous-anxious-1-1",
+          "kind": "example",
+          "en": "The passenger is anxious about the lift doors.",
+          "zh": "乘客擔心升降機門。",
+          "answer": "nervous-anxious-1"
+        },
+        {
+          "id": "nervous-anxious-2-1",
+          "kind": "example",
+          "en": "The new guard felt nervous during the role-play.",
+          "zh": "新保安在角色扮演時緊張。",
+          "answer": "nervous-anxious-2"
+        },
+        {
+          "id": "nervous-anxious-3-1",
+          "kind": "example",
+          "en": "The tenant was anxious to get an update.",
+          "zh": "租戶急切想得到更新。",
+          "answer": "nervous-anxious-3"
+        },
+        {
+          "id": "nervous-anxious-1-2",
+          "kind": "example",
+          "en": "Visitors became nervous during the alarm.",
+          "zh": "警鐘期間訪客變得緊張。",
+          "answer": "nervous-anxious-1"
+        },
+        {
+          "id": "nervous-anxious-2-2",
+          "kind": "example",
+          "en": "Students are often anxious before an exam.",
+          "zh": "學生考試前經常焦慮。",
+          "answer": "nervous-anxious-2"
+        },
+        {
+          "id": "nervous-anxious-3-2",
+          "kind": "example",
+          "en": "The visitor was anxious to leave.",
+          "zh": "訪客急著想離開。",
+          "answer": "nervous-anxious-3"
+        },
+        {
+          "id": "nervous-anxious-passage",
+          "kind": "passage",
+          "en": "No one is hurt, but one person is very nervous.",
+          "zh": "沒有人受傷，但有一個人非常緊張。",
+          "answer": "nervous-anxious-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 43,
+        "label": "43",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "attempt",
+      "word": "attempt",
+      "baseWord": "attempt",
+      "sourcePage": 44,
+      "senses": [
+        {
+          "id": "attempt-0",
+          "zh": "嘗試；企圖；試圖",
+          "sourceMeaning": "To try to do something, especially something difficult or unsafe."
+        },
+        {
+          "id": "attempt-1",
+          "zh": "嘗試；努力",
+          "sourceMeaning": "Effort or try"
+        },
+        {
+          "id": "attempt-2",
+          "zh": "嘗試聯絡",
+          "sourceMeaning": "Attempt to contact"
+        },
+        {
+          "id": "attempt-3",
+          "zh": "未遂；企圖但未完成",
+          "sourceMeaning": "Attempted action not completed"
+        }
+      ],
+      "questions": [
+        {
+          "id": "attempt-1-1",
+          "kind": "example",
+          "en": "This is your first attempt at the report.",
+          "zh": "這是你第一次嘗試寫報告。",
+          "answer": "attempt-1",
+          "acceptedAnswers": [
+            "attempt-0",
+            "attempt-1"
+          ]
+        },
+        {
+          "id": "attempt-2-1",
+          "kind": "example",
+          "en": "We attempted to contact management.",
+          "zh": "我們嘗試聯絡管理層。",
+          "answer": "attempt-2"
+        },
+        {
+          "id": "attempt-3-1",
+          "kind": "example",
+          "en": "It was an attempted unauthorised entry.",
+          "zh": "這是企圖未經授權進入。",
+          "answer": "attempt-3"
+        },
+        {
+          "id": "attempt-1-2",
+          "kind": "example",
+          "en": "The first attempt to contact the tenant failed.",
+          "zh": "第一次嘗試聯絡租戶失敗。",
+          "answer": "attempt-1",
+          "acceptedAnswers": [
+            "attempt-0",
+            "attempt-1"
+          ]
+        },
+        {
+          "id": "attempt-2-2",
+          "kind": "example",
+          "en": "Please record each attempt to call the office.",
+          "zh": "請記錄每次致電辦公室的嘗試。",
+          "answer": "attempt-2"
+        },
+        {
+          "id": "attempt-3-2",
+          "kind": "example",
+          "en": "The report mentioned an attempted door opening.",
+          "zh": "報告提到有人企圖開門。",
+          "answer": "attempt-3"
+        },
+        {
+          "id": "attempt-passage",
+          "kind": "passage",
+          "en": "Please remain inside and do not attempt to force the doors open.",
+          "zh": "請留在升降機內，不要嘗試強行打開門。",
+          "answer": "attempt-0",
+          "acceptedAnswers": [
+            "attempt-0",
+            "attempt-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 44,
+        "label": "44",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "entrapment",
+      "word": "entrapment",
+      "baseWord": "entrap",
+      "sourcePage": 45,
+      "senses": [
+        {
+          "id": "entrapment-0",
+          "zh": "升降機困人；被困；困住",
+          "sourceMeaning": "A situation where people are trapped inside a lift and cannot get out safely by themselves."
+        },
+        {
+          "id": "entrapment-1",
+          "zh": "被困；困住",
+          "sourceMeaning": "Trapped in a place"
+        },
+        {
+          "id": "entrapment-2",
+          "zh": "被機器夾住；機械夾困",
+          "sourceMeaning": "Machinery entrapment"
+        },
+        {
+          "id": "entrapment-3",
+          "zh": "誘捕；執法誘陷",
+          "sourceMeaning": "Legal entrapment"
+        }
+      ],
+      "questions": [
+        {
+          "id": "entrapment-1-1",
+          "kind": "example",
+          "en": "The worker faced entrapment in the service room.",
+          "zh": "工人在服務房內面臨被困。",
+          "answer": "entrapment-1",
+          "acceptedAnswers": [
+            "entrapment-0",
+            "entrapment-1"
+          ]
+        },
+        {
+          "id": "entrapment-2-1",
+          "kind": "example",
+          "en": "Machinery entrapment is a serious risk.",
+          "zh": "機械夾困是嚴重風險。",
+          "answer": "entrapment-2"
+        },
+        {
+          "id": "entrapment-3-1",
+          "kind": "example",
+          "en": "The lawyer discussed police entrapment.",
+          "zh": "律師討論警方誘捕。",
+          "answer": "entrapment-3"
+        },
+        {
+          "id": "entrapment-1-2",
+          "kind": "example",
+          "en": "Avoid areas with entrapment risk.",
+          "zh": "避開有被困風險的區域。",
+          "answer": "entrapment-1",
+          "acceptedAnswers": [
+            "entrapment-0",
+            "entrapment-1"
+          ]
+        },
+        {
+          "id": "entrapment-2-2",
+          "kind": "example",
+          "en": "Keep hands away from moving parts.",
+          "zh": "手要遠離活動部件。",
+          "answer": "entrapment-2"
+        },
+        {
+          "id": "entrapment-3-2",
+          "kind": "example",
+          "en": "Entrapment can be a legal issue.",
+          "zh": "誘捕可能是法律問題。",
+          "answer": "entrapment-3"
+        },
+        {
+          "id": "entrapment-passage",
+          "kind": "passage",
+          "en": "I’m reporting the entrapment for urgent assistance now.",
+          "zh": "我現在會匯報升降機困人事件，要求緊急協助。",
+          "answer": "entrapment-0",
+          "acceptedAnswers": [
+            "entrapment-0",
+            "entrapment-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 45,
+        "label": "45",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "released",
+      "word": "released",
+      "baseWord": "release",
+      "sourcePage": 46,
+      "senses": [
+        {
+          "id": "released-0",
+          "zh": "解困；被放出；恢復可離開",
+          "sourceMeaning": "Freed from being stuck or trapped, so passengers can leave the lift safely."
+        },
+        {
+          "id": "released-1",
+          "zh": "釋放；放走",
+          "sourceMeaning": "Let someone go free"
+        },
+        {
+          "id": "released-2",
+          "zh": "發布；公布",
+          "sourceMeaning": "Make information public"
+        },
+        {
+          "id": "released-3",
+          "zh": "放開；鬆開",
+          "sourceMeaning": "Stop holding"
+        }
+      ],
+      "questions": [
+        {
+          "id": "released-1-1",
+          "kind": "example",
+          "en": "The person was released after questioning.",
+          "zh": "該人士問話後獲釋。",
+          "answer": "released-1"
+        },
+        {
+          "id": "released-2-1",
+          "kind": "example",
+          "en": "Management released an update.",
+          "zh": "管理層發布更新。",
+          "answer": "released-2"
+        },
+        {
+          "id": "released-3-1",
+          "kind": "example",
+          "en": "Release the button after the light turns green.",
+          "zh": "綠燈亮起後放開按鈕。",
+          "answer": "released-3"
+        },
+        {
+          "id": "released-1-2",
+          "kind": "example",
+          "en": "Security released the visitor after confirmation.",
+          "zh": "確認後保安讓訪客離開。",
+          "answer": "released-1"
+        },
+        {
+          "id": "released-2-2",
+          "kind": "example",
+          "en": "The report was released yesterday.",
+          "zh": "報告昨天公布。",
+          "answer": "released-2"
+        },
+        {
+          "id": "released-3-2",
+          "kind": "example",
+          "en": "Do not release the door until safe.",
+          "zh": "安全前不要放開門。",
+          "answer": "released-3"
+        },
+        {
+          "id": "released-passage",
+          "kind": "passage",
+          "en": "Can you tell us when the lift will be released?",
+          "zh": "你可以告訴我們甚麼時候可以被放出來嗎？",
+          "answer": "released-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 46,
+        "label": "46",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "hang-up",
+      "word": "hang up",
+      "baseWord": "hang",
+      "sourcePage": 47,
+      "senses": [
+        {
+          "id": "hang-up-0",
+          "zh": "掛線；掛斷電話；中斷通話",
+          "sourceMeaning": "To end a phone or intercom call."
+        },
+        {
+          "id": "hang-up-1",
+          "zh": "掛起；懸掛",
+          "sourceMeaning": "Hang something on a hook"
+        },
+        {
+          "id": "hang-up-2",
+          "zh": "等一下；不要掛線",
+          "sourceMeaning": "Hang on"
+        },
+        {
+          "id": "hang-up-3",
+          "zh": "執著；放不下",
+          "sourceMeaning": "Get hung up on"
+        }
+      ],
+      "questions": [
+        {
+          "id": "hang-up-1-1",
+          "kind": "example",
+          "en": "Hang the notice near the lift lobby.",
+          "zh": "把告示掛在升降機大堂附近。",
+          "answer": "hang-up-1"
+        },
+        {
+          "id": "hang-up-2-1",
+          "kind": "example",
+          "en": "Please hang on while I check.",
+          "zh": "我查一下，請稍等。",
+          "answer": "hang-up-2"
+        },
+        {
+          "id": "hang-up-3-1",
+          "kind": "example",
+          "en": "Do not get hung up on one detail.",
+          "zh": "不要執著於一個細節。",
+          "answer": "hang-up-3"
+        },
+        {
+          "id": "hang-up-1-2",
+          "kind": "example",
+          "en": "Please hang your coat in the staff room.",
+          "zh": "請把外套掛在職員室。",
+          "answer": "hang-up-1"
+        },
+        {
+          "id": "hang-up-2-2",
+          "kind": "example",
+          "en": "Hang on; help is being arranged.",
+          "zh": "請不要掛線，正在安排支援。",
+          "answer": "hang-up-2"
+        },
+        {
+          "id": "hang-up-3-2",
+          "kind": "example",
+          "en": "He was hung up on the earlier mistake.",
+          "zh": "他一直放不下之前的錯誤。",
+          "answer": "hang-up-3"
+        },
+        {
+          "id": "hang-up-passage",
+          "kind": "passage",
+          "en": "Please don’t hang up.",
+          "zh": "請不要掛線。",
+          "answer": "hang-up-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 47,
+        "label": "47",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "maintain",
+      "word": "maintain",
+      "baseWord": "maintain",
+      "sourcePage": 48,
+      "senses": [
+        {
+          "id": "maintain-0",
+          "zh": "保持；維持；持續",
+          "sourceMeaning": "To continue keeping something in place; to keep contact without stopping."
+        },
+        {
+          "id": "maintain-1",
+          "zh": "保養；維修",
+          "sourceMeaning": "Keep in good condition"
+        },
+        {
+          "id": "maintain-2",
+          "zh": "維持水平；保持狀態",
+          "sourceMeaning": "Continue a standard"
+        },
+        {
+          "id": "maintain-3",
+          "zh": "堅稱；主張",
+          "sourceMeaning": "State strongly"
+        }
+      ],
+      "questions": [
+        {
+          "id": "maintain-1-1",
+          "kind": "example",
+          "en": "Facilities maintains the lift system.",
+          "zh": "設施部保養升降機系統。",
+          "answer": "maintain-1"
+        },
+        {
+          "id": "maintain-2-1",
+          "kind": "example",
+          "en": "Maintain a calm tone during the call.",
+          "zh": "通話期間保持冷靜語氣。",
+          "answer": "maintain-2"
+        },
+        {
+          "id": "maintain-3-1",
+          "kind": "example",
+          "en": "The tenant maintained that the person was still in the corridor.",
+          "zh": "租戶堅稱該人士仍在走廊。",
+          "answer": "maintain-3"
+        },
+        {
+          "id": "maintain-1-2",
+          "kind": "example",
+          "en": "The building must maintain emergency equipment.",
+          "zh": "大廈必須維護緊急設備。",
+          "answer": "maintain-1"
+        },
+        {
+          "id": "maintain-2-2",
+          "kind": "example",
+          "en": "Staff maintained clear communication.",
+          "zh": "職員保持清晰溝通。",
+          "answer": "maintain-2"
+        },
+        {
+          "id": "maintain-3-2",
+          "kind": "example",
+          "en": "He maintained that he had reported the incident.",
+          "zh": "他堅稱已匯報事件。",
+          "answer": "maintain-3"
+        },
+        {
+          "id": "maintain-passage",
+          "kind": "passage",
+          "en": "Yes. I’ll maintain contact.",
+          "zh": "是的，我會保持聯絡。",
+          "answer": "maintain-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 48,
+        "label": "48",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "changes",
+      "word": "changes",
+      "baseWord": "change",
+      "sourcePage": 49,
+      "senses": [
+        {
+          "id": "changes-0",
+          "zh": "有變化；改變；情況有變",
+          "sourceMeaning": "Becomes different from before, especially in a way that may affect safety."
+        },
+        {
+          "id": "changes-1",
+          "zh": "更改；改動",
+          "sourceMeaning": "Make different"
+        },
+        {
+          "id": "changes-2",
+          "zh": "更換；替換",
+          "sourceMeaning": "Replace"
+        },
+        {
+          "id": "changes-3",
+          "zh": "找續；零錢",
+          "sourceMeaning": "Money returned"
+        }
+      ],
+      "questions": [
+        {
+          "id": "changes-1-1",
+          "kind": "example",
+          "en": "We may need to change the route.",
+          "zh": "我們可能需要更改路線。",
+          "answer": "changes-1"
+        },
+        {
+          "id": "changes-2-1",
+          "kind": "example",
+          "en": "Change the damaged sign.",
+          "zh": "更換損壞標示。",
+          "answer": "changes-2"
+        },
+        {
+          "id": "changes-3-1",
+          "kind": "example",
+          "en": "The cashier gave me the wrong change.",
+          "zh": "收銀員找錯錢給我。",
+          "answer": "changes-3"
+        },
+        {
+          "id": "changes-1-2",
+          "kind": "example",
+          "en": "Management changed the evacuation instruction.",
+          "zh": "管理層更改了疏散指示。",
+          "answer": "changes-1"
+        },
+        {
+          "id": "changes-2-2",
+          "kind": "example",
+          "en": "The technician changed the faulty part.",
+          "zh": "技術員更換了故障零件。",
+          "answer": "changes-2"
+        },
+        {
+          "id": "changes-3-2",
+          "kind": "example",
+          "en": "Do you have any change?",
+          "zh": "你有零錢嗎？",
+          "answer": "changes-3"
+        },
+        {
+          "id": "changes-passage",
+          "kind": "passage",
+          "en": "Please tell me immediately if anyone becomes unwell or if the situation changes.",
+          "zh": "如果有人感到不適，或情況有任何變化，請立即告訴我。",
+          "answer": "changes-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 49,
+        "label": "49",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "suspicious",
+      "word": "suspicious",
+      "baseWord": "suspicious",
+      "sourcePage": 50,
+      "senses": [
+        {
+          "id": "suspicious-0",
+          "zh": "可疑的；令人懷疑的；有問題的",
+          "sourceMeaning": "Making people think something may be wrong, unsafe, or not allowed."
+        },
+        {
+          "id": "suspicious-1",
+          "zh": "懷疑的；不信任的",
+          "sourceMeaning": "Distrustful"
+        },
+        {
+          "id": "suspicious-2",
+          "zh": "異常的；不尋常的",
+          "sourceMeaning": "Strange or unusual"
+        },
+        {
+          "id": "suspicious-3",
+          "zh": "可疑包裹／物件",
+          "sourceMeaning": "Suspicious package/object"
+        }
+      ],
+      "questions": [
+        {
+          "id": "suspicious-1-1",
+          "kind": "example",
+          "en": "The tenant was suspicious of the stranger.",
+          "zh": "租戶懷疑那名陌生人。",
+          "answer": "suspicious-1"
+        },
+        {
+          "id": "suspicious-2-1",
+          "kind": "example",
+          "en": "A suspicious smell was reported near the lobby.",
+          "zh": "有人報告大堂附近有異常氣味。",
+          "answer": "suspicious-2"
+        },
+        {
+          "id": "suspicious-3-1",
+          "kind": "example",
+          "en": "Do not touch a suspicious package.",
+          "zh": "不要觸碰可疑包裹。",
+          "answer": "suspicious-3"
+        },
+        {
+          "id": "suspicious-1-2",
+          "kind": "example",
+          "en": "Staff became suspicious after repeated access attempts.",
+          "zh": "多次嘗試進入後，職員開始起疑。",
+          "answer": "suspicious-1"
+        },
+        {
+          "id": "suspicious-2-2",
+          "kind": "example",
+          "en": "The sound seemed suspicious.",
+          "zh": "該聲音似乎不尋常。",
+          "answer": "suspicious-2"
+        },
+        {
+          "id": "suspicious-3-2",
+          "kind": "example",
+          "en": "Keep people away from suspicious objects.",
+          "zh": "請讓人遠離可疑物件。",
+          "answer": "suspicious-3"
+        },
+        {
+          "id": "suspicious-passage",
+          "kind": "passage",
+          "en": "Suspicious Person in a Restricted Area",
+          "zh": "受管制區域內有可疑人士。",
+          "answer": "suspicious-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 50,
+        "label": "50",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "restricted",
+      "word": "restricted",
+      "baseWord": "restrict",
+      "sourcePage": 51,
+      "senses": [
+        {
+          "id": "restricted-0",
+          "zh": "受限制的；受管制的；只限授權人士的",
+          "sourceMeaning": "Limited to authorised people only; not open to everyone."
+        },
+        {
+          "id": "restricted-1",
+          "zh": "受限制的；有限制的",
+          "sourceMeaning": "Limited by rule"
+        },
+        {
+          "id": "restricted-2",
+          "zh": "受限制資料；機密資料",
+          "sourceMeaning": "Restricted information"
+        },
+        {
+          "id": "restricted-3",
+          "zh": "限制移動",
+          "sourceMeaning": "Restrict movement"
+        }
+      ],
+      "questions": [
+        {
+          "id": "restricted-1-1",
+          "kind": "example",
+          "en": "Access is restricted during the alarm.",
+          "zh": "警鐘期間進出受限制。",
+          "answer": "restricted-1",
+          "acceptedAnswers": [
+            "restricted-0",
+            "restricted-1"
+          ]
+        },
+        {
+          "id": "restricted-2-1",
+          "kind": "example",
+          "en": "Do not share restricted information.",
+          "zh": "不要分享受限制資料。",
+          "answer": "restricted-2"
+        },
+        {
+          "id": "restricted-3-1",
+          "kind": "example",
+          "en": "Staff may restrict movement during evacuation.",
+          "zh": "疏散期間職員可能限制人員移動。",
+          "answer": "restricted-3"
+        },
+        {
+          "id": "restricted-1-2",
+          "kind": "example",
+          "en": "Parking is restricted to authorised vehicles.",
+          "zh": "泊車只限授權車輛。",
+          "answer": "restricted-1",
+          "acceptedAnswers": [
+            "restricted-0",
+            "restricted-1"
+          ]
+        },
+        {
+          "id": "restricted-2-2",
+          "kind": "example",
+          "en": "Medical details may be restricted information.",
+          "zh": "醫療詳情可能屬受限制資料。",
+          "answer": "restricted-2"
+        },
+        {
+          "id": "restricted-3-2",
+          "kind": "example",
+          "en": "The blocked corridor restricted movement.",
+          "zh": "走廊受阻限制了人員移動。",
+          "answer": "restricted-3"
+        },
+        {
+          "id": "restricted-passage",
+          "kind": "passage",
+          "en": "Suspicious Person in a Restricted Area",
+          "zh": "限制區域內的可疑人士。",
+          "answer": "restricted-0",
+          "acceptedAnswers": [
+            "restricted-0",
+            "restricted-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 51,
+        "label": "51",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "recognise",
+      "word": "recognise",
+      "baseWord": "recognise",
+      "sourcePage": 52,
+      "senses": [
+        {
+          "id": "recognise-0",
+          "zh": "認出；認得；識別",
+          "sourceMeaning": "To know someone because you have seen or met them before."
+        },
+        {
+          "id": "recognise-1",
+          "zh": "識別；辨認",
+          "sourceMeaning": "Identify correctly"
+        },
+        {
+          "id": "recognise-2",
+          "zh": "正式承認；認可",
+          "sourceMeaning": "Officially accept"
+        },
+        {
+          "id": "recognise-3",
+          "zh": "表揚；肯定",
+          "sourceMeaning": "Give praise"
+        }
+      ],
+      "questions": [
+        {
+          "id": "recognise-1-1",
+          "kind": "example",
+          "en": "Please describe the person so staff can recognise him.",
+          "zh": "請描述該人士，好讓職員識別他。",
+          "answer": "recognise-1",
+          "acceptedAnswers": [
+            "recognise-0",
+            "recognise-1"
+          ]
+        },
+        {
+          "id": "recognise-2-1",
+          "kind": "example",
+          "en": "The company recognised the new procedure.",
+          "zh": "公司認可新程序。",
+          "answer": "recognise-2"
+        },
+        {
+          "id": "recognise-3-1",
+          "kind": "example",
+          "en": "The supervisor recognised the team’s good work.",
+          "zh": "主管表揚團隊良好工作。",
+          "answer": "recognise-3"
+        },
+        {
+          "id": "recognise-1-2",
+          "kind": "example",
+          "en": "The system failed to recognise the access card.",
+          "zh": "系統未能識別門禁卡。",
+          "answer": "recognise-1",
+          "acceptedAnswers": [
+            "recognise-0",
+            "recognise-1"
+          ]
+        },
+        {
+          "id": "recognise-2-2",
+          "kind": "example",
+          "en": "The qualification is recognised by management.",
+          "zh": "該資格獲管理層認可。",
+          "answer": "recognise-2"
+        },
+        {
+          "id": "recognise-3-2",
+          "kind": "example",
+          "en": "Management recognised staff for calm handling.",
+          "zh": "管理層肯定職員冷靜處理事件。",
+          "answer": "recognise-3"
+        },
+        {
+          "id": "recognise-passage",
+          "kind": "passage",
+          "en": "There is someone I don’t recognise near the corridor.",
+          "zh": "走廊附近有一個我不認得的人。",
+          "answer": "recognise-0",
+          "acceptedAnswers": [
+            "recognise-0",
+            "recognise-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 52,
+        "label": "52",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "corridor",
+      "word": "corridor",
+      "baseWord": "corridor",
+      "sourcePage": 53,
+      "senses": [
+        {
+          "id": "corridor-0",
+          "zh": "走廊；通道",
+          "sourceMeaning": "A long passage inside a building that connects rooms, offices, lift lobbies, or service areas."
+        },
+        {
+          "id": "corridor-1",
+          "zh": "服務走廊",
+          "sourceMeaning": "Service corridor"
+        },
+        {
+          "id": "corridor-2",
+          "zh": "交通走廊；運輸通道",
+          "sourceMeaning": "Transport corridor"
+        },
+        {
+          "id": "corridor-3",
+          "zh": "野生動物通道",
+          "sourceMeaning": "Wildlife corridor"
+        }
+      ],
+      "questions": [
+        {
+          "id": "corridor-1-1",
+          "kind": "example",
+          "en": "The person is near the rear service corridor.",
+          "zh": "該人士在後方服務走廊附近。",
+          "answer": "corridor-1"
+        },
+        {
+          "id": "corridor-2-1",
+          "kind": "example",
+          "en": "The rail corridor is closed for repairs.",
+          "zh": "鐵路走廊因維修關閉。",
+          "answer": "corridor-2"
+        },
+        {
+          "id": "corridor-3-1",
+          "kind": "example",
+          "en": "The park created a wildlife corridor.",
+          "zh": "公園建立了野生動物通道。",
+          "answer": "corridor-3"
+        },
+        {
+          "id": "corridor-1-2",
+          "kind": "example",
+          "en": "Visitors should not enter the service corridor.",
+          "zh": "訪客不應進入服務走廊。",
+          "answer": "corridor-1"
+        },
+        {
+          "id": "corridor-2-2",
+          "kind": "example",
+          "en": "This road is an important transport corridor.",
+          "zh": "這條路是重要交通走廊。",
+          "answer": "corridor-2"
+        },
+        {
+          "id": "corridor-3-2",
+          "kind": "example",
+          "en": "The corridor allows animals to move safely.",
+          "zh": "該通道讓動物安全移動。",
+          "answer": "corridor-3"
+        },
+        {
+          "id": "corridor-passage",
+          "kind": "passage",
+          "en": "There is someone I don’t recognise near the corridor.",
+          "zh": "走廊附近有一個我不認得的人。",
+          "answer": "corridor-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 53,
+        "label": "53",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "trying",
+      "word": "trying",
+      "baseWord": "try",
+      "sourcePage": 54,
+      "senses": [
+        {
+          "id": "trying-0",
+          "zh": "嘗試；試圖；正在試",
+          "sourceMeaning": "Attempting to open or use something, especially in a way that looks suspicious."
+        },
+        {
+          "id": "trying-1",
+          "zh": "試用；試一試",
+          "sourceMeaning": "Test something"
+        },
+        {
+          "id": "trying-2",
+          "zh": "努力；盡力",
+          "sourceMeaning": "Make an effort"
+        },
+        {
+          "id": "trying-3",
+          "zh": "令人吃力的；難熬的",
+          "sourceMeaning": "Trying = difficult"
+        }
+      ],
+      "questions": [
+        {
+          "id": "trying-1-1",
+          "kind": "example",
+          "en": "Try another access card if instructed.",
+          "zh": "如有指示，請試另一張門禁卡。",
+          "answer": "trying-1"
+        },
+        {
+          "id": "trying-2-1",
+          "kind": "example",
+          "en": "Please try to stay calm.",
+          "zh": "請盡量保持冷靜。",
+          "answer": "trying-2"
+        },
+        {
+          "id": "trying-3-1",
+          "kind": "example",
+          "en": "Lift entrapment can be a trying experience.",
+          "zh": "升降機困人可能是難熬的經歷。",
+          "answer": "trying-3"
+        },
+        {
+          "id": "trying-1-2",
+          "kind": "example",
+          "en": "The technician tried the lift panel.",
+          "zh": "技術員測試了升降機面板。",
+          "answer": "trying-1"
+        },
+        {
+          "id": "trying-2-2",
+          "kind": "example",
+          "en": "Staff tried to keep the route clear.",
+          "zh": "職員努力保持通道暢通。",
+          "answer": "trying-2"
+        },
+        {
+          "id": "trying-3-2",
+          "kind": "example",
+          "en": "It was a trying day for the team.",
+          "zh": "那天對團隊來說很難熬。",
+          "answer": "trying-3"
+        },
+        {
+          "id": "trying-passage",
+          "kind": "passage",
+          "en": "He keeps trying different doors.",
+          "zh": "他一直在試開不同的門。",
+          "answer": "trying-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 54,
+        "label": "54",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "handles",
+      "word": "handles",
+      "baseWord": "handle",
+      "sourcePage": 55,
+      "senses": [
+        {
+          "id": "handles-0",
+          "zh": "門把；把手；門柄",
+          "sourceMeaning": "The part of a door that you hold, turn, or pull to open it."
+        },
+        {
+          "id": "handles-1",
+          "zh": "處理；應付",
+          "sourceMeaning": "Deal with a situation"
+        },
+        {
+          "id": "handles-2",
+          "zh": "觸碰；搬動；操作",
+          "sourceMeaning": "Touch or move with hands"
+        },
+        {
+          "id": "handles-3",
+          "zh": "掌握；了解",
+          "sourceMeaning": "Have a handle on"
+        }
+      ],
+      "questions": [
+        {
+          "id": "handles-1-1",
+          "kind": "example",
+          "en": "The guard handled the emergency calmly.",
+          "zh": "保安冷靜處理緊急情況。",
+          "answer": "handles-1"
+        },
+        {
+          "id": "handles-2-1",
+          "kind": "example",
+          "en": "Do not handle the suspicious object.",
+          "zh": "不要觸碰可疑物件。",
+          "answer": "handles-2"
+        },
+        {
+          "id": "handles-3-1",
+          "kind": "example",
+          "en": "The team has a handle on the situation.",
+          "zh": "團隊已掌握情況。",
+          "answer": "handles-3"
+        },
+        {
+          "id": "handles-1-2",
+          "kind": "example",
+          "en": "Management will handle the complaint.",
+          "zh": "管理層會處理投訴。",
+          "answer": "handles-1"
+        },
+        {
+          "id": "handles-2-2",
+          "kind": "example",
+          "en": "Staff handled the equipment carefully.",
+          "zh": "職員小心操作設備。",
+          "answer": "handles-2"
+        },
+        {
+          "id": "handles-3-2",
+          "kind": "example",
+          "en": "We need facts before we have a handle on it.",
+          "zh": "我們需要事實才能掌握情況。",
+          "answer": "handles-3"
+        },
+        {
+          "id": "handles-passage",
+          "kind": "passage",
+          "en": "He is still trying door handles.",
+          "zh": "他仍然在試門把。",
+          "answer": "handles-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 55,
+        "label": "55",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "observe",
+      "word": "observe",
+      "baseWord": "observe",
+      "sourcePage": 56,
+      "senses": [
+        {
+          "id": "observe-0",
+          "zh": "觀察；看到；留意到",
+          "sourceMeaning": "To see, notice, or watch facts directly."
+        },
+        {
+          "id": "observe-1",
+          "zh": "觀察；監察",
+          "sourceMeaning": "Watch carefully"
+        },
+        {
+          "id": "observe-2",
+          "zh": "遵守；遵循",
+          "sourceMeaning": "Follow a rule/law"
+        },
+        {
+          "id": "observe-3",
+          "zh": "說；評論",
+          "sourceMeaning": "Make a comment"
+        }
+      ],
+      "questions": [
+        {
+          "id": "observe-1-1",
+          "kind": "example",
+          "en": "Continue to observe from a safe distance.",
+          "zh": "請繼續從安全距離觀察。",
+          "answer": "observe-1",
+          "acceptedAnswers": [
+            "observe-0",
+            "observe-1"
+          ]
+        },
+        {
+          "id": "observe-2-1",
+          "kind": "example",
+          "en": "Visitors must observe building rules.",
+          "zh": "訪客必須遵守大廈規則。",
+          "answer": "observe-2"
+        },
+        {
+          "id": "observe-3-1",
+          "kind": "example",
+          "en": "The supervisor observed that the report was clear.",
+          "zh": "主管指出報告很清楚。",
+          "answer": "observe-3"
+        },
+        {
+          "id": "observe-1-2",
+          "kind": "example",
+          "en": "Security observed the corridor through CCTV.",
+          "zh": "保安透過閉路電視監察走廊。",
+          "answer": "observe-1",
+          "acceptedAnswers": [
+            "observe-0",
+            "observe-1"
+          ]
+        },
+        {
+          "id": "observe-2-2",
+          "kind": "example",
+          "en": "Staff observed emergency procedures.",
+          "zh": "職員遵循緊急程序。",
+          "answer": "observe-2"
+        },
+        {
+          "id": "observe-3-2",
+          "kind": "example",
+          "en": "She observed that more training was needed.",
+          "zh": "她指出需要更多培訓。",
+          "answer": "observe-3"
+        },
+        {
+          "id": "observe-passage",
+          "kind": "passage",
+          "en": "Could you describe only what you can observe -what the person is doing, their clothing, and where they are standing?",
+          "zh": "請只描述您能觀察到的事情。",
+          "answer": "observe-0",
+          "acceptedAnswers": [
+            "observe-0",
+            "observe-1"
+          ]
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 56,
+        "label": "56",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "standing",
+      "word": "standing",
+      "baseWord": "stand",
+      "sourcePage": 57,
+      "senses": [
+        {
+          "id": "standing-0",
+          "zh": "站著；站立；站在哪裡",
+          "sourceMeaning": "Being on one’s feet in a particular place."
+        },
+        {
+          "id": "standing-1",
+          "zh": "仍然成立；有效",
+          "sourceMeaning": "Remain valid"
+        },
+        {
+          "id": "standing-2",
+          "zh": "代表；意思是",
+          "sourceMeaning": "Stand for"
+        },
+        {
+          "id": "standing-3",
+          "zh": "待命；等候",
+          "sourceMeaning": "Stand by"
+        }
+      ],
+      "questions": [
+        {
+          "id": "standing-1-1",
+          "kind": "example",
+          "en": "The instruction still stands.",
+          "zh": "該指示仍然有效。",
+          "answer": "standing-1"
+        },
+        {
+          "id": "standing-2-1",
+          "kind": "example",
+          "en": "G/F stands for ground floor.",
+          "zh": "G/F 代表地下。",
+          "answer": "standing-2"
+        },
+        {
+          "id": "standing-3-1",
+          "kind": "example",
+          "en": "Please stand by for further instructions.",
+          "zh": "請待命等候進一步指示。",
+          "answer": "standing-3"
+        },
+        {
+          "id": "standing-1-2",
+          "kind": "example",
+          "en": "The evacuation order stands until the all-clear.",
+          "zh": "疏散命令在安全確認前仍有效。",
+          "answer": "standing-1"
+        },
+        {
+          "id": "standing-2-2",
+          "kind": "example",
+          "en": "CS stands for Customer Service.",
+          "zh": "CS 代表客戶服務。",
+          "answer": "standing-2"
+        },
+        {
+          "id": "standing-3-2",
+          "kind": "example",
+          "en": "Security is standing by near the lobby.",
+          "zh": "保安正在大堂附近待命。",
+          "answer": "standing-3"
+        },
+        {
+          "id": "standing-passage",
+          "kind": "passage",
+          "en": "Could you describe only what you can observe -what the person is doing, their clothing, and where they are standing?",
+          "zh": "請說明他站在甚麼位置。",
+          "answer": "standing-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 57,
+        "label": "57",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "approach",
+      "word": "approach",
+      "baseWord": "approach",
+      "sourcePage": 58,
+      "senses": [
+        {
+          "id": "approach-0",
+          "zh": "接近；靠近；走近",
+          "sourceMeaning": "To go near or move closer to someone."
+        },
+        {
+          "id": "approach-1",
+          "zh": "接洽；聯絡",
+          "sourceMeaning": "Speak to someone"
+        },
+        {
+          "id": "approach-2",
+          "zh": "方法；處理方式",
+          "sourceMeaning": "Method"
+        },
+        {
+          "id": "approach-3",
+          "zh": "臨近；接近",
+          "sourceMeaning": "Come near in time"
+        }
+      ],
+      "questions": [
+        {
+          "id": "approach-1-1",
+          "kind": "example",
+          "en": "Approach reception if you need help.",
+          "zh": "如需協助，請找接待處。",
+          "answer": "approach-1"
+        },
+        {
+          "id": "approach-2-1",
+          "kind": "example",
+          "en": "A calm approach helps in emergencies.",
+          "zh": "冷靜的處理方式有助應急。",
+          "answer": "approach-2"
+        },
+        {
+          "id": "approach-3-1",
+          "kind": "example",
+          "en": "The deadline is approaching.",
+          "zh": "截止日期快到了。",
+          "answer": "approach-3"
+        },
+        {
+          "id": "approach-1-2",
+          "kind": "example",
+          "en": "The tenant approached security about the person.",
+          "zh": "租戶向保安反映該人士。",
+          "answer": "approach-1"
+        },
+        {
+          "id": "approach-2-2",
+          "kind": "example",
+          "en": "The best approach is to report facts only.",
+          "zh": "最佳做法是只匯報事實。",
+          "answer": "approach-2"
+        },
+        {
+          "id": "approach-3-2",
+          "kind": "example",
+          "en": "As inspection time approached, staff prepared.",
+          "zh": "檢查時間臨近時職員準備。",
+          "answer": "approach-3"
+        },
+        {
+          "id": "approach-passage",
+          "kind": "passage",
+          "en": "Please keep a safe distance and do not approach him.",
+          "zh": "請保持安全距離，不要接近他。",
+          "answer": "approach-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 58,
+        "label": "58",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "confront",
+      "word": "confront",
+      "baseWord": "confront",
+      "sourcePage": 59,
+      "senses": [
+        {
+          "id": "confront-0",
+          "zh": "對峙；質問；正面面對對方",
+          "sourceMeaning": "To face someone directly in a challenging, questioning, or possibly aggressive way."
+        },
+        {
+          "id": "confront-1",
+          "zh": "面對；處理",
+          "sourceMeaning": "Face difficult situation"
+        },
+        {
+          "id": "confront-2",
+          "zh": "正視問題",
+          "sourceMeaning": "Confront a problem"
+        },
+        {
+          "id": "confront-3",
+          "zh": "對峙；衝突",
+          "sourceMeaning": "Confrontation"
+        }
+      ],
+      "questions": [
+        {
+          "id": "confront-1-1",
+          "kind": "example",
+          "en": "Staff must confront emergencies calmly.",
+          "zh": "職員必須冷靜面對緊急情況。",
+          "answer": "confront-1"
+        },
+        {
+          "id": "confront-2-1",
+          "kind": "example",
+          "en": "We need to confront the safety problem.",
+          "zh": "我們需要正視安全問題。",
+          "answer": "confront-2"
+        },
+        {
+          "id": "confront-3-1",
+          "kind": "example",
+          "en": "Avoid confrontation with suspicious persons.",
+          "zh": "避免與可疑人士對峙。",
+          "answer": "confront-3"
+        },
+        {
+          "id": "confront-1-2",
+          "kind": "example",
+          "en": "The team confronted a serious access issue.",
+          "zh": "團隊面對嚴重門禁問題。",
+          "answer": "confront-1"
+        },
+        {
+          "id": "confront-2-2",
+          "kind": "example",
+          "en": "Management confronted the repeated fault.",
+          "zh": "管理層正視重複故障。",
+          "answer": "confront-2"
+        },
+        {
+          "id": "confront-3-2",
+          "kind": "example",
+          "en": "A confrontation may increase risk.",
+          "zh": "對峙可能增加風險。",
+          "answer": "confront-3"
+        },
+        {
+          "id": "confront-passage",
+          "kind": "passage",
+          "en": "Please keep a safe distance and do not approach or confront the person.",
+          "zh": "請保持安全距離，不要接近或質問該人士。",
+          "answer": "confront-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 59,
+        "label": "59",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "engage",
+      "word": "engage",
+      "baseWord": "engage",
+      "sourcePage": 60,
+      "senses": [
+        {
+          "id": "engage-0",
+          "zh": "接觸；交涉；與……互動",
+          "sourceMeaning": "To interact with someone, speak to them, or get involved with them."
+        },
+        {
+          "id": "engage-1",
+          "zh": "吸引；引起興趣",
+          "sourceMeaning": "Attract interest"
+        },
+        {
+          "id": "engage-2",
+          "zh": "參與；從事",
+          "sourceMeaning": "Take part"
+        },
+        {
+          "id": "engage-3",
+          "zh": "聘用；雇用",
+          "sourceMeaning": "Hire someone"
+        }
+      ],
+      "questions": [
+        {
+          "id": "engage-1-1",
+          "kind": "example",
+          "en": "Clear training engages students.",
+          "zh": "清楚培訓能吸引學生投入。",
+          "answer": "engage-1"
+        },
+        {
+          "id": "engage-2-1",
+          "kind": "example",
+          "en": "Staff engaged in emergency practice.",
+          "zh": "職員參與緊急練習。",
+          "answer": "engage-2"
+        },
+        {
+          "id": "engage-3-1",
+          "kind": "example",
+          "en": "The building engaged a contractor.",
+          "zh": "大廈聘用了承辦商。",
+          "answer": "engage-3"
+        },
+        {
+          "id": "engage-1-2",
+          "kind": "example",
+          "en": "The role-play engaged the whole class.",
+          "zh": "角色扮演令全班投入。",
+          "answer": "engage-1"
+        },
+        {
+          "id": "engage-2-2",
+          "kind": "example",
+          "en": "The team engaged in a safety drill.",
+          "zh": "團隊參與安全演習。",
+          "answer": "engage-2"
+        },
+        {
+          "id": "engage-3-2",
+          "kind": "example",
+          "en": "Management engaged a lift technician.",
+          "zh": "管理層聘請升降機技術員。",
+          "answer": "engage-3"
+        },
+        {
+          "id": "engage-passage",
+          "kind": "passage",
+          "en": "Please do not engage with him.",
+          "zh": "請不要與他接觸／交涉。",
+          "answer": "engage-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 60,
+        "label": "60",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "description",
+      "word": "description",
+      "baseWord": "describe",
+      "sourcePage": 61,
+      "senses": [
+        {
+          "id": "description-0",
+          "zh": "描述；外貌描述；特徵資料",
+          "sourceMeaning": "Details about what a person looks like, what they are wearing, what they are carrying, and what they are doing."
+        },
+        {
+          "id": "description-1",
+          "zh": "說明；描述",
+          "sourceMeaning": "Explanation"
+        },
+        {
+          "id": "description-2",
+          "zh": "職責說明；職位描述",
+          "sourceMeaning": "Job description"
+        },
+        {
+          "id": "description-3",
+          "zh": "符合描述",
+          "sourceMeaning": "Match description"
+        }
+      ],
+      "questions": [
+        {
+          "id": "description-1-1",
+          "kind": "example",
+          "en": "The report included a clear description.",
+          "zh": "報告包括清楚描述。",
+          "answer": "description-1"
+        },
+        {
+          "id": "description-2-1",
+          "kind": "example",
+          "en": "Emergency reporting is in the guard’s job description.",
+          "zh": "緊急匯報屬保安職責之一。",
+          "answer": "description-2"
+        },
+        {
+          "id": "description-3-1",
+          "kind": "example",
+          "en": "The person matches the description.",
+          "zh": "該人士符合描述。",
+          "answer": "description-3"
+        },
+        {
+          "id": "description-1-2",
+          "kind": "example",
+          "en": "The tenant gave a short description of the incident.",
+          "zh": "租戶簡短描述了事件。",
+          "answer": "description-1"
+        },
+        {
+          "id": "description-2-2",
+          "kind": "example",
+          "en": "The job description includes visitor control.",
+          "zh": "職位描述包括訪客管制。",
+          "answer": "description-2"
+        },
+        {
+          "id": "description-3-2",
+          "kind": "example",
+          "en": "The backpack matches the tenant’s description.",
+          "zh": "背包符合租戶描述。",
+          "answer": "description-3"
+        },
+        {
+          "id": "description-passage",
+          "kind": "passage",
+          "en": "I’ll report the exact location and description to the security / management team immediately.",
+          "zh": "我會立刻把確切位置和該人士的特徵資料匯報給保安或管理團隊。",
+          "answer": "description-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 61,
+        "label": "61",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "informed",
+      "word": "informed",
+      "baseWord": "inform",
+      "sourcePage": 62,
+      "senses": [
+        {
+          "id": "informed-0",
+          "zh": "已通知；已告知；已獲通知",
+          "sourceMeaning": "Told or notified about the situation."
+        },
+        {
+          "id": "informed-1",
+          "zh": "通知；告知",
+          "sourceMeaning": "Give information"
+        },
+        {
+          "id": "informed-2",
+          "zh": "消息靈通；了解情況",
+          "sourceMeaning": "Well-informed"
+        },
+        {
+          "id": "informed-3",
+          "zh": "知情決定",
+          "sourceMeaning": "Informed decision"
+        }
+      ],
+      "questions": [
+        {
+          "id": "informed-1-1",
+          "kind": "example",
+          "en": "Please inform security immediately.",
+          "zh": "請立即通知保安。",
+          "answer": "informed-1"
+        },
+        {
+          "id": "informed-2-1",
+          "kind": "example",
+          "en": "A well-informed guard can respond clearly.",
+          "zh": "了解情況的保安能清楚應對。",
+          "answer": "informed-2"
+        },
+        {
+          "id": "informed-3-1",
+          "kind": "example",
+          "en": "The supervisor made an informed decision.",
+          "zh": "主管作出知情決定。",
+          "answer": "informed-3"
+        },
+        {
+          "id": "informed-1-2",
+          "kind": "example",
+          "en": "Inform the tenant if the situation changes.",
+          "zh": "如情況有變，請通知租戶。",
+          "answer": "informed-1"
+        },
+        {
+          "id": "informed-2-2",
+          "kind": "example",
+          "en": "Keep staff well-informed during emergencies.",
+          "zh": "緊急期間要讓職員充分了解情況。",
+          "answer": "informed-2"
+        },
+        {
+          "id": "informed-3-2",
+          "kind": "example",
+          "en": "Accurate facts support informed decisions.",
+          "zh": "準確事實支持知情決定。",
+          "answer": "informed-3"
+        },
+        {
+          "id": "informed-passage",
+          "kind": "passage",
+          "en": "The responding team has been informed.",
+          "zh": "應變團隊已獲通知。",
+          "answer": "informed-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 62,
+        "label": "62",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "power-failure",
+      "word": "power failure",
+      "baseWord": "power",
+      "sourcePage": 63,
+      "senses": [
+        {
+          "id": "power-failure-0",
+          "zh": "停電；電力故障；電力中斷",
+          "sourceMeaning": "A loss of electrical power; electricity has stopped working in an area."
+        },
+        {
+          "id": "power-failure-1",
+          "zh": "電力；電源",
+          "sourceMeaning": "Electricity"
+        },
+        {
+          "id": "power-failure-2",
+          "zh": "權力；權限",
+          "sourceMeaning": "Authority"
+        },
+        {
+          "id": "power-failure-3",
+          "zh": "電源供應；停電",
+          "sourceMeaning": "Power supply/outage"
+        }
+      ],
+      "questions": [
+        {
+          "id": "power-failure-1-1",
+          "kind": "example",
+          "en": "The lift needs power to operate.",
+          "zh": "升降機需要電力運作。",
+          "answer": "power-failure-1"
+        },
+        {
+          "id": "power-failure-2-1",
+          "kind": "example",
+          "en": "Only authorised staff have the power to give the all-clear.",
+          "zh": "只有授權職員有權發出安全確認。",
+          "answer": "power-failure-2"
+        },
+        {
+          "id": "power-failure-3-1",
+          "kind": "example",
+          "en": "Facilities checked the power supply.",
+          "zh": "設施部檢查電源供應。",
+          "answer": "power-failure-3"
+        },
+        {
+          "id": "power-failure-1-2",
+          "kind": "example",
+          "en": "Do not touch equipment near water and power.",
+          "zh": "不要觸碰靠近水和電源的設備。",
+          "answer": "power-failure-1"
+        },
+        {
+          "id": "power-failure-2-2",
+          "kind": "example",
+          "en": "Security does not have the power to promise re-entry.",
+          "zh": "保安無權承諾重新進入。",
+          "answer": "power-failure-2"
+        },
+        {
+          "id": "power-failure-3-2",
+          "kind": "example",
+          "en": "A power outage affected the lights.",
+          "zh": "停電影響照明。",
+          "answer": "power-failure-3"
+        },
+        {
+          "id": "power-failure-passage",
+          "kind": "passage",
+          "en": "Water Leak + Power Failure",
+          "zh": "漏水及電力故障。",
+          "answer": "power-failure-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 63,
+        "label": "63",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "ceiling",
+      "word": "ceiling",
+      "baseWord": "ceiling",
+      "sourcePage": 64,
+      "senses": [
+        {
+          "id": "ceiling-0",
+          "zh": "天花板；天花",
+          "sourceMeaning": "The inside top surface of a room or corridor."
+        },
+        {
+          "id": "ceiling-1",
+          "zh": "上限；最高限額",
+          "sourceMeaning": "Upper limit"
+        },
+        {
+          "id": "ceiling-2",
+          "zh": "天花板塊／天花燈",
+          "sourceMeaning": "Ceiling panel/light"
+        },
+        {
+          "id": "ceiling-3",
+          "zh": "玻璃天花板；無形障礙",
+          "sourceMeaning": "Glass ceiling"
+        }
+      ],
+      "questions": [
+        {
+          "id": "ceiling-1-1",
+          "kind": "example",
+          "en": "There is a ceiling on overtime hours.",
+          "zh": "加班時數有上限。",
+          "answer": "ceiling-1"
+        },
+        {
+          "id": "ceiling-2-1",
+          "kind": "example",
+          "en": "A ceiling panel is loose.",
+          "zh": "有一塊天花板鬆脫。",
+          "answer": "ceiling-2"
+        },
+        {
+          "id": "ceiling-3-1",
+          "kind": "example",
+          "en": "The company discussed the glass ceiling.",
+          "zh": "公司討論玻璃天花板問題。",
+          "answer": "ceiling-3"
+        },
+        {
+          "id": "ceiling-1-2",
+          "kind": "example",
+          "en": "The budget ceiling cannot be exceeded.",
+          "zh": "不可超出預算上限。",
+          "answer": "ceiling-1"
+        },
+        {
+          "id": "ceiling-2-2",
+          "kind": "example",
+          "en": "The ceiling light has gone out.",
+          "zh": "天花燈熄滅了。",
+          "answer": "ceiling-2"
+        },
+        {
+          "id": "ceiling-3-2",
+          "kind": "example",
+          "en": "The glass ceiling limits promotion opportunities.",
+          "zh": "玻璃天花板限制晉升機會。",
+          "answer": "ceiling-3"
+        },
+        {
+          "id": "ceiling-passage",
+          "kind": "passage",
+          "en": "Water is coming from the ceiling.",
+          "zh": "天花板有水滲下來。",
+          "answer": "ceiling-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 64,
+        "label": "64",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "gone-out",
+      "word": "gone out",
+      "baseWord": "go",
+      "sourcePage": 65,
+      "senses": [
+        {
+          "id": "gone-out-0",
+          "zh": "熄滅；熄掉；沒有亮",
+          "sourceMeaning": "Stopped working or stopped shining."
+        },
+        {
+          "id": "gone-out-1",
+          "zh": "停電；失去電力",
+          "sourceMeaning": "Power stops working"
+        },
+        {
+          "id": "gone-out-2",
+          "zh": "外出；出去",
+          "sourceMeaning": "Leave socially"
+        },
+        {
+          "id": "gone-out-3",
+          "zh": "發出；送出",
+          "sourceMeaning": "Be sent/issued"
+        }
+      ],
+      "questions": [
+        {
+          "id": "gone-out-1-1",
+          "kind": "example",
+          "en": "The power has gone out on this floor.",
+          "zh": "這層樓停電了。",
+          "answer": "gone-out-1"
+        },
+        {
+          "id": "gone-out-2-1",
+          "kind": "example",
+          "en": "He went out after the meeting.",
+          "zh": "他會議後外出了。",
+          "answer": "gone-out-2"
+        },
+        {
+          "id": "gone-out-3-1",
+          "kind": "example",
+          "en": "The emergency message went out to staff.",
+          "zh": "緊急訊息已發給職員。",
+          "answer": "gone-out-3"
+        },
+        {
+          "id": "gone-out-1-2",
+          "kind": "example",
+          "en": "If the power goes out, follow staff instructions.",
+          "zh": "如果停電，請依照職員指示。",
+          "answer": "gone-out-1"
+        },
+        {
+          "id": "gone-out-2-2",
+          "kind": "example",
+          "en": "Staff should not go out through the affected area.",
+          "zh": "職員不應經受影響範圍外出。",
+          "answer": "gone-out-2"
+        },
+        {
+          "id": "gone-out-3-2",
+          "kind": "example",
+          "en": "A notice has gone out to tenants.",
+          "zh": "通知已發給租戶。",
+          "answer": "gone-out-3"
+        },
+        {
+          "id": "gone-out-passage",
+          "kind": "passage",
+          "en": "The lights in the corridor have gone out.",
+          "zh": "走廊燈已經熄掉。",
+          "answer": "gone-out-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 65,
+        "label": "65",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "socket",
+      "word": "socket",
+      "baseWord": "socket",
+      "sourcePage": 66,
+      "senses": [
+        {
+          "id": "socket-0",
+          "zh": "插座；電源插座",
+          "sourceMeaning": "An electrical outlet where a plug is inserted."
+        },
+        {
+          "id": "socket-1",
+          "zh": "插口；插槽",
+          "sourceMeaning": "Place where something fits"
+        },
+        {
+          "id": "socket-2",
+          "zh": "眼窩／牙槽／關節窩",
+          "sourceMeaning": "Body socket"
+        },
+        {
+          "id": "socket-3",
+          "zh": "燈座／套筒",
+          "sourceMeaning": "Light/tool socket"
+        }
+      ],
+      "questions": [
+        {
+          "id": "socket-1-1",
+          "kind": "example",
+          "en": "Insert the cable into the correct socket.",
+          "zh": "把電線插入正確插口。",
+          "answer": "socket-1"
+        },
+        {
+          "id": "socket-2-1",
+          "kind": "example",
+          "en": "The doctor checked the eye socket.",
+          "zh": "醫生檢查了眼窩。",
+          "answer": "socket-2"
+        },
+        {
+          "id": "socket-3-1",
+          "kind": "example",
+          "en": "Do not touch a wet light socket.",
+          "zh": "不要觸碰潮濕燈座。",
+          "answer": "socket-3"
+        },
+        {
+          "id": "socket-1-2",
+          "kind": "example",
+          "en": "The network socket is beside the desk.",
+          "zh": "網絡插口在桌旁。",
+          "answer": "socket-1"
+        },
+        {
+          "id": "socket-2-2",
+          "kind": "example",
+          "en": "The dentist cleaned the tooth socket.",
+          "zh": "牙醫清潔了牙槽。",
+          "answer": "socket-2"
+        },
+        {
+          "id": "socket-3-2",
+          "kind": "example",
+          "en": "The technician used a socket wrench.",
+          "zh": "技術員使用套筒扳手。",
+          "answer": "socket-3"
+        },
+        {
+          "id": "socket-passage",
+          "kind": "passage",
+          "en": "A socket is nearby.",
+          "zh": "附近有一個插座。",
+          "answer": "socket-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 66,
+        "label": "66",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "access-cards",
+      "word": "access cards",
+      "baseWord": "access card",
+      "sourcePage": 67,
+      "senses": [
+        {
+          "id": "access-cards-0",
+          "zh": "門禁卡；出入卡；通行卡",
+          "sourceMeaning": "Cards used to unlock doors or enter controlled areas."
+        },
+        {
+          "id": "access-cards-1",
+          "zh": "訪客證；訪客通行卡",
+          "sourceMeaning": "Visitor card/pass"
+        },
+        {
+          "id": "access-cards-2",
+          "zh": "證件／付款卡",
+          "sourceMeaning": "ID/payment card"
+        },
+        {
+          "id": "access-cards-3",
+          "zh": "讀卡器",
+          "sourceMeaning": "Card reader"
+        }
+      ],
+      "questions": [
+        {
+          "id": "access-cards-1-1",
+          "kind": "example",
+          "en": "Please wear your visitor card visibly.",
+          "zh": "請把訪客證佩戴在明顯位置。",
+          "answer": "access-cards-1"
+        },
+        {
+          "id": "access-cards-2-1",
+          "kind": "example",
+          "en": "Please show your ID card.",
+          "zh": "請出示身分證。",
+          "answer": "access-cards-2"
+        },
+        {
+          "id": "access-cards-3-1",
+          "kind": "example",
+          "en": "Tap the access card on the card reader.",
+          "zh": "請把門禁卡拍在讀卡器上。",
+          "answer": "access-cards-3"
+        },
+        {
+          "id": "access-cards-1-2",
+          "kind": "example",
+          "en": "Return the visitor card before leaving.",
+          "zh": "離開前請交還訪客證。",
+          "answer": "access-cards-1"
+        },
+        {
+          "id": "access-cards-2-2",
+          "kind": "example",
+          "en": "He used a card to pay for parking.",
+          "zh": "他用卡支付泊車費。",
+          "answer": "access-cards-2"
+        },
+        {
+          "id": "access-cards-3-2",
+          "kind": "example",
+          "en": "The card reader did not respond.",
+          "zh": "讀卡器沒有反應。",
+          "answer": "access-cards-3"
+        },
+        {
+          "id": "access-cards-passage",
+          "kind": "passage",
+          "en": "Unknown person trying several access cards.",
+          "zh": "有不明人士在嘗試用多張門禁卡進入。",
+          "answer": "access-cards-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 67,
+        "label": "67",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "aggressive",
+      "word": "aggressive",
+      "baseWord": "aggressive",
+      "sourcePage": 68,
+      "senses": [
+        {
+          "id": "aggressive-0",
+          "zh": "具攻擊性的；咄咄逼人的；激動的",
+          "sourceMeaning": "Angry, forceful, threatening, or behaving in a way that may create risk."
+        },
+        {
+          "id": "aggressive-1",
+          "zh": "強硬的；強勢的",
+          "sourceMeaning": "Forceful manner"
+        },
+        {
+          "id": "aggressive-2",
+          "zh": "有肢體攻擊性的",
+          "sourceMeaning": "Physically aggressive"
+        },
+        {
+          "id": "aggressive-3",
+          "zh": "進取的；積極的",
+          "sourceMeaning": "Energetic/determined"
+        }
+      ],
+      "questions": [
+        {
+          "id": "aggressive-1-1",
+          "kind": "example",
+          "en": "Avoid aggressive language at the counter.",
+          "zh": "櫃檯應避免強硬語言。",
+          "answer": "aggressive-1"
+        },
+        {
+          "id": "aggressive-2-1",
+          "kind": "example",
+          "en": "Call for help if aggression increases.",
+          "zh": "如果攻擊性增加，請求援。",
+          "answer": "aggressive-2"
+        },
+        {
+          "id": "aggressive-3-1",
+          "kind": "example",
+          "en": "The company has an aggressive growth plan.",
+          "zh": "公司有進取的增長計劃。",
+          "answer": "aggressive-3"
+        },
+        {
+          "id": "aggressive-1-2",
+          "kind": "example",
+          "en": "A calm boundary is better than an aggressive reply.",
+          "zh": "冷靜設界線比強硬回應更好。",
+          "answer": "aggressive-1"
+        },
+        {
+          "id": "aggressive-2-2",
+          "kind": "example",
+          "en": "Keep distance if the person becomes aggressive.",
+          "zh": "如果對方變得具攻擊性，請保持距離。",
+          "answer": "aggressive-2"
+        },
+        {
+          "id": "aggressive-3-2",
+          "kind": "example",
+          "en": "An aggressive schedule may pressure staff.",
+          "zh": "進取的時間表可能給職員壓力。",
+          "answer": "aggressive-3"
+        },
+        {
+          "id": "aggressive-passage",
+          "kind": "passage",
+          "en": "Aggressive Visitor",
+          "zh": "具攻擊性的訪客。",
+          "answer": "aggressive-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 68,
+        "label": "68",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "gate",
+      "word": "gate",
+      "baseWord": "gate",
+      "sourcePage": 69,
+      "senses": [
+        {
+          "id": "gate-0",
+          "zh": "閘；閘門；出入閘口",
+          "sourceMeaning": "A controlled entry point that blocks or allows access."
+        },
+        {
+          "id": "gate-1",
+          "zh": "停車場閘；閘機",
+          "sourceMeaning": "Car park barrier"
+        },
+        {
+          "id": "gate-2",
+          "zh": "登機閘口",
+          "sourceMeaning": "Airport boarding gate"
+        },
+        {
+          "id": "gate-3",
+          "zh": "大門；入口",
+          "sourceMeaning": "Entrance to property"
+        }
+      ],
+      "questions": [
+        {
+          "id": "gate-1-1",
+          "kind": "example",
+          "en": "The car park gate is not opening.",
+          "zh": "停車場閘門沒有打開。",
+          "answer": "gate-1"
+        },
+        {
+          "id": "gate-2-1",
+          "kind": "example",
+          "en": "Please proceed to Gate 12.",
+          "zh": "請前往 12 號登機閘口。",
+          "answer": "gate-2"
+        },
+        {
+          "id": "gate-3-1",
+          "kind": "example",
+          "en": "The delivery arrived at the side gate.",
+          "zh": "送貨到達側門。",
+          "answer": "gate-3"
+        },
+        {
+          "id": "gate-1-2",
+          "kind": "example",
+          "en": "The exit gate remains closed.",
+          "zh": "出口閘仍然關閉。",
+          "answer": "gate-1"
+        },
+        {
+          "id": "gate-2-2",
+          "kind": "example",
+          "en": "The boarding gate closes at 3 p.m.",
+          "zh": "登機閘口下午三時關閉。",
+          "answer": "gate-2"
+        },
+        {
+          "id": "gate-3-2",
+          "kind": "example",
+          "en": "The front gate is locked.",
+          "zh": "前門已上鎖。",
+          "answer": "gate-3"
+        },
+        {
+          "id": "gate-passage",
+          "kind": "passage",
+          "en": "Open the gate now. I’m going upstairs.",
+          "zh": "現在開閘，我要上樓。",
+          "answer": "gate-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 69,
+        "label": "69",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "side",
+      "word": "side",
+      "baseWord": "side",
+      "sourcePage": 70,
+      "senses": [
+        {
+          "id": "side-0",
+          "zh": "一邊；這邊；側",
+          "sourceMeaning": "One part or position beside a boundary, gate, counter, or access point."
+        },
+        {
+          "id": "side-1",
+          "zh": "左邊／右邊；側邊",
+          "sourceMeaning": "Left/right side"
+        },
+        {
+          "id": "side-2",
+          "zh": "方面；角度",
+          "sourceMeaning": "Aspect of situation"
+        },
+        {
+          "id": "side-3",
+          "zh": "偏袒；站隊",
+          "sourceMeaning": "Take sides"
+        }
+      ],
+      "questions": [
+        {
+          "id": "side-1-1",
+          "kind": "example",
+          "en": "The staircase is on the left side.",
+          "zh": "樓梯在左邊。",
+          "answer": "side-1"
+        },
+        {
+          "id": "side-2-1",
+          "kind": "example",
+          "en": "We need to understand the safety side of the issue.",
+          "zh": "我們需要了解安全方面。",
+          "answer": "side-2"
+        },
+        {
+          "id": "side-3-1",
+          "kind": "example",
+          "en": "Security should not take sides in a dispute.",
+          "zh": "保安不應偏袒任何一方。",
+          "answer": "side-3"
+        },
+        {
+          "id": "side-1-2",
+          "kind": "example",
+          "en": "The service door is on the other side.",
+          "zh": "服務門在另一邊。",
+          "answer": "side-1"
+        },
+        {
+          "id": "side-2-2",
+          "kind": "example",
+          "en": "From the visitor’s side, the delay is frustrating.",
+          "zh": "從訪客角度看，延誤令人沮喪。",
+          "answer": "side-2"
+        },
+        {
+          "id": "side-3-2",
+          "kind": "example",
+          "en": "Staff should side with procedure, not emotion.",
+          "zh": "職員應按程序行事。",
+          "answer": "side-3"
+        },
+        {
+          "id": "side-passage",
+          "kind": "passage",
+          "en": "Please remain on this side of the access point.",
+          "zh": "請留在門禁點這邊，不要越過去。",
+          "answer": "side-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 70,
+        "label": "70",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "strong",
+      "word": "strong",
+      "baseWord": "strong",
+      "sourcePage": 71,
+      "senses": [
+        {
+          "id": "strong-0",
+          "zh": "強烈的；濃烈的；明顯的",
+          "sourceMeaning": "Intense, noticeable, or powerful in smell."
+        },
+        {
+          "id": "strong-1",
+          "zh": "強壯的；有力的",
+          "sourceMeaning": "Physical power"
+        },
+        {
+          "id": "strong-2",
+          "zh": "有力的；有效的",
+          "sourceMeaning": "Effective/persuasive"
+        },
+        {
+          "id": "strong-3",
+          "zh": "訊號強；連線穩定",
+          "sourceMeaning": "Signal/connection"
+        }
+      ],
+      "questions": [
+        {
+          "id": "strong-1-1",
+          "kind": "example",
+          "en": "Two strong staff moved the barrier.",
+          "zh": "兩名強壯職員移開圍欄。",
+          "answer": "strong-1"
+        },
+        {
+          "id": "strong-2-1",
+          "kind": "example",
+          "en": "The report gave strong evidence.",
+          "zh": "報告提供有力證據。",
+          "answer": "strong-2"
+        },
+        {
+          "id": "strong-3-1",
+          "kind": "example",
+          "en": "The radio signal is strong in the lobby.",
+          "zh": "大堂無線電訊號很強。",
+          "answer": "strong-3"
+        },
+        {
+          "id": "strong-1-2",
+          "kind": "example",
+          "en": "The door needs a strong push.",
+          "zh": "這扇門需要用力推。",
+          "answer": "strong-1"
+        },
+        {
+          "id": "strong-2-2",
+          "kind": "example",
+          "en": "Clear facts make a strong report.",
+          "zh": "清楚事實形成有力報告。",
+          "answer": "strong-2"
+        },
+        {
+          "id": "strong-3-2",
+          "kind": "example",
+          "en": "Keep a strong connection on the intercom.",
+          "zh": "請保持對講機連線穩定。",
+          "answer": "strong-3"
+        },
+        {
+          "id": "strong-passage",
+          "kind": "passage",
+          "en": "Another tenant reports a strong burning smell near Lift Lobby B.",
+          "zh": "有租戶報告 B 升降機大堂附近有很濃的燒焦味。",
+          "answer": "strong-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 71,
+        "label": "71",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "burning",
+      "word": "burning",
+      "baseWord": "burn",
+      "sourcePage": 72,
+      "senses": [
+        {
+          "id": "burning-0",
+          "zh": "燒焦的；燃燒的；燒著的",
+          "sourceMeaning": "Smelling like something is on fire, overheated, or being burned."
+        },
+        {
+          "id": "burning-1",
+          "zh": "燒傷；灼傷",
+          "sourceMeaning": "Injury by heat"
+        },
+        {
+          "id": "burning-2",
+          "zh": "強烈的；迫切的",
+          "sourceMeaning": "Strong feeling"
+        },
+        {
+          "id": "burning-3",
+          "zh": "燒壞／燒痕",
+          "sourceMeaning": "Burn out/mark"
+        }
+      ],
+      "questions": [
+        {
+          "id": "burning-1-1",
+          "kind": "example",
+          "en": "Do not touch hot equipment; it may burn you.",
+          "zh": "不要觸碰熱設備，可能會燙傷。",
+          "answer": "burning-1"
+        },
+        {
+          "id": "burning-2-1",
+          "kind": "example",
+          "en": "She had a burning question about safety.",
+          "zh": "她有一個迫切的安全問題。",
+          "answer": "burning-2"
+        },
+        {
+          "id": "burning-3-1",
+          "kind": "example",
+          "en": "The light bulb burned out.",
+          "zh": "燈泡燒壞了。",
+          "answer": "burning-3"
+        },
+        {
+          "id": "burning-1-2",
+          "kind": "example",
+          "en": "The worker burned his hand on the panel.",
+          "zh": "工人的手被面板燙傷。",
+          "answer": "burning-1"
+        },
+        {
+          "id": "burning-2-2",
+          "kind": "example",
+          "en": "There was a burning need for clear instructions.",
+          "zh": "非常需要清楚指示。",
+          "answer": "burning-2"
+        },
+        {
+          "id": "burning-3-2",
+          "kind": "example",
+          "en": "There was a burn mark near the socket.",
+          "zh": "插座附近有燒痕。",
+          "answer": "burning-3"
+        },
+        {
+          "id": "burning-passage",
+          "kind": "passage",
+          "en": "Another tenant reports a strong burning smell near Lift Lobby B.",
+          "zh": "B 升降機大堂附近有很濃的燒焦味。",
+          "answer": "burning-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 72,
+        "label": "72",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "late",
+      "word": "late",
+      "baseWord": "late",
+      "sourcePage": 73,
+      "senses": [
+        {
+          "id": "late-0",
+          "zh": "遲到；晚了；趕不及",
+          "sourceMeaning": "After the expected or arranged time."
+        },
+        {
+          "id": "late-1",
+          "zh": "後期；較晚時候",
+          "sourceMeaning": "Near end of period"
+        },
+        {
+          "id": "late-2",
+          "zh": "太遲；來不及",
+          "sourceMeaning": "Too late"
+        },
+        {
+          "id": "late-3",
+          "zh": "已故的／前任的",
+          "sourceMeaning": "Late = deceased/former"
+        }
+      ],
+      "questions": [
+        {
+          "id": "late-1-1",
+          "kind": "example",
+          "en": "The report came late in the afternoon.",
+          "zh": "報告在下午較晚時候傳來。",
+          "answer": "late-1"
+        },
+        {
+          "id": "late-2-1",
+          "kind": "example",
+          "en": "It is too late to return to the affected floor.",
+          "zh": "現在返回受影響樓層太遲。",
+          "answer": "late-2"
+        },
+        {
+          "id": "late-3-1",
+          "kind": "example",
+          "en": "The late manager set the rule.",
+          "zh": "已故經理制定規則。",
+          "answer": "late-3"
+        },
+        {
+          "id": "late-1-2",
+          "kind": "example",
+          "en": "The alarm sounded late in the shift.",
+          "zh": "警鐘在值班後段響起。",
+          "answer": "late-1"
+        },
+        {
+          "id": "late-2-2",
+          "kind": "example",
+          "en": "Do not wait until it is too late.",
+          "zh": "不要等到太遲。",
+          "answer": "late-2"
+        },
+        {
+          "id": "late-3-2",
+          "kind": "example",
+          "en": "The late director introduced the policy.",
+          "zh": "前董事引入政策。",
+          "answer": "late-3"
+        },
+        {
+          "id": "late-passage",
+          "kind": "passage",
+          "en": "Can I just take the lift? I’m already late.",
+          "zh": "我可以直接搭升降機嗎？我已經遲到了。",
+          "answer": "late-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 73,
+        "label": "73",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "report",
+      "word": "report",
+      "baseWord": "report",
+      "sourcePage": 74,
+      "senses": [
+        {
+          "id": "report-0",
+          "zh": "匯報；報告；通報",
+          "sourceMeaning": "To officially tell or record information about an incident."
+        },
+        {
+          "id": "report-1",
+          "zh": "報告；紀錄",
+          "sourceMeaning": "Written record"
+        },
+        {
+          "id": "report-2",
+          "zh": "新聞報道",
+          "sourceMeaning": "News story"
+        },
+        {
+          "id": "report-3",
+          "zh": "向某人匯報；隸屬於",
+          "sourceMeaning": "Report to someone"
+        }
+      ],
+      "questions": [
+        {
+          "id": "report-1-1",
+          "kind": "example",
+          "en": "Complete the incident report after evacuation.",
+          "zh": "疏散後完成事故報告。",
+          "answer": "report-1"
+        },
+        {
+          "id": "report-2-1",
+          "kind": "example",
+          "en": "The news report mentioned the power failure.",
+          "zh": "新聞報道提到停電。",
+          "answer": "report-2"
+        },
+        {
+          "id": "report-3-1",
+          "kind": "example",
+          "en": "The guard reports to the supervisor.",
+          "zh": "保安向主管匯報。",
+          "answer": "report-3"
+        },
+        {
+          "id": "report-1-2",
+          "kind": "example",
+          "en": "The report should include action and status.",
+          "zh": "報告應包括行動和狀態。",
+          "answer": "report-1"
+        },
+        {
+          "id": "report-2-2",
+          "kind": "example",
+          "en": "A traffic report said the road was blocked.",
+          "zh": "交通報道說道路受阻。",
+          "answer": "report-2"
+        },
+        {
+          "id": "report-3-2",
+          "kind": "example",
+          "en": "Report to management immediately.",
+          "zh": "請立即向管理層匯報。",
+          "answer": "report-3"
+        },
+        {
+          "id": "report-passage",
+          "kind": "passage",
+          "en": "I’ll report the exact location and the information received.",
+          "zh": "我會匯報確切位置和收到的資料。",
+          "answer": "report-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 74,
+        "label": "74",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    },
+    {
+      "id": "status",
+      "word": "status",
+      "baseWord": "status",
+      "sourcePage": 75,
+      "senses": [
+        {
+          "id": "status-0",
+          "zh": "狀態；現況；最新情況",
+          "sourceMeaning": "The current condition, progress, or latest situation of an incident."
+        },
+        {
+          "id": "status-1",
+          "zh": "進度；處理情況",
+          "sourceMeaning": "Progress of case/task"
+        },
+        {
+          "id": "status-2",
+          "zh": "身份；地位；法律狀態",
+          "sourceMeaning": "Official position"
+        },
+        {
+          "id": "status-3",
+          "zh": "系統狀態",
+          "sourceMeaning": "System condition"
+        }
+      ],
+      "questions": [
+        {
+          "id": "status-1-1",
+          "kind": "example",
+          "en": "What is the status of the incident?",
+          "zh": "事故處理情況如何？",
+          "answer": "status-1"
+        },
+        {
+          "id": "status-2-1",
+          "kind": "example",
+          "en": "The visitor’s access status is not confirmed.",
+          "zh": "訪客進入狀態尚未確認。",
+          "answer": "status-2"
+        },
+        {
+          "id": "status-3-1",
+          "kind": "example",
+          "en": "The system status shows power failure.",
+          "zh": "系統狀態顯示電力故障。",
+          "answer": "status-3"
+        },
+        {
+          "id": "status-1-2",
+          "kind": "example",
+          "en": "Update me on the status of the lift entrapment.",
+          "zh": "請更新升降機困人事件的進度。",
+          "answer": "status-1"
+        },
+        {
+          "id": "status-2-2",
+          "kind": "example",
+          "en": "The contractor’s registration status is pending.",
+          "zh": "承辦商登記狀態仍待處理。",
+          "answer": "status-2"
+        },
+        {
+          "id": "status-3-2",
+          "kind": "example",
+          "en": "The alarm panel status must be checked.",
+          "zh": "警報面板狀態必須檢查。",
+          "answer": "status-3"
+        },
+        {
+          "id": "status-passage",
+          "kind": "passage",
+          "en": "After evacuation, report: WHAT -WHERE - WHEN - WHO - ACTION -STATUS.",
+          "zh": "疏散後，請匯報事情、位置、時間、人物、已採取行動及目前狀況。",
+          "answer": "status-0"
+        }
+      ],
+      "source": {
+        "lesson": 5,
+        "page": 75,
+        "label": "75",
+        "pdf": "materials/lesson-5-polysemy.pdf",
+        "directPdf": true
+      }
+    }
+  ],
+  "sourceNotes": "MC labels are transcribed from the PDF's 繁體中文 column; the answer-giving 'Please note' lines are excluded."
+}

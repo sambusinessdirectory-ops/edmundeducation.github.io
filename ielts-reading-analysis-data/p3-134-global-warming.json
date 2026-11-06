@@ -1,0 +1,1279 @@
+{
+  "id": "p3-134-global-warming",
+  "catalogueId": "p3-134",
+  "catalogueIds": [
+    "p3-134"
+  ],
+  "passage": 3,
+  "title": "Global Warming",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "D",
+    "C",
+    "D",
+    "D",
+    "A",
+    "NOT GIVEN",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "YES",
+    "in recycled paper",
+    "most to lose"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "D — does not say what he believes the causes of global warming are",
+      "answerKey": "D — does not say what he believes the causes of global warming are",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問作者自己是否表明 global warming 的成因。四個選項中，A 說作者相信人類造成全球暖化；B 說作者相信全球暖化是自然過程；C 說作者確定成因；D 說作者沒有說明自己相信成因是甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So should we pay any attention to those stories that scream out at us from billboards and television news headlines, claiming that man, with his inexhaustible dependence on oil-based machinery and ever more sophisticated forms of transport, is creating a nightmare level of greenhouse gas emissions, poisoning his environment and ripping open the ozone layer?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，我們是否應該留意那些從廣告牌和電視新聞標題中尖叫出來的故事？它們聲稱人類由於無止境地依賴燃油機器和日益先進的交通工具，正在製造可怕水平的溫室氣體排放，污染環境，並撕裂臭氧層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And my own opinion? The jury’s still out as far as I am concerned!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於我自己的看法？就我來說，仍未有定論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 明顯是作者把不同聲音放在一起，最後交代自己暫不下結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “author”, “believes”, “causes”。原文最直接的位置是 “And my own opinion?”，因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為這裡直接講作者本人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The jury’s still out as far as I am concerned!”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個習語，意思是「仍未有定案；仍未能作出最終判斷」。作者沒有選擇人為成因，也沒有選擇自然循環成因。他只是說自己尚未作出結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 和 B 都把作者寫成已選邊站；選項 C 說他 sure，和 “still out” 的保留態度相反。D 最貼近原文：作者沒有明確說自己相信 global warming 的原因是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — often, the answer depends on which expert you consult",
+      "answerKey": "C — often, the answer depends on which expert you consult",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：關於 global warming 的成因，作者認為答案在甚麼情況下取決於誰被諮詢。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Day after day, we hear about how anthropogenic development is causing global warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日復一日，我們都聽到人類發展如何造成全球暖化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It seems – as is so often the case – that it depends on which expert you listen to, or which statistics you study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，就像經常出現的情況一樣，答案取決於你聽哪位專家，或研究哪一組統計數據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph A 是爭議引入段：作者指出媒體常說人類造成 global warming，但真正答案會因專家和統計而變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cause of global warming”, “depends”, “expert”。原文有非常直接的 “depends on"
+            },
+            {
+              "kind": "paragraph",
+              "text": "which expert you listen to”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “as is so often the case”，即「正如經常如此」。這對應選項 C 的 “often”。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“which expert you consult” 對應原文 “which expert you listen to”。 A 的 “occasionally” 太弱，原文是 often。B 的 “facts always depend” 太絕對，原文說的是看法或答案似乎取決於專家和統計，沒有說 facts always change。D 說不應諮詢專家，原文沒有這個意思。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "D — global warming is not man-made, but the result of natural cyclical changes",
+      "answerKey": "D — global warming is not man-made, but the result of natural cyclical changes",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問美國超過 80% 的 top meteorologists 對 global warming 成因有甚麼看法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yes, it is true that there is a mass of evidence to indicate that the world is getting warmer, with one of the world’s leading weather predictors stating that air temperatures have shown an increase of just under half a degree Celsius since the beginning of the twentieth century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "是的，確實有大量證據顯示世界正在變暖；其中一位世界頂尖天氣預測者表示，自二十世紀初以來，氣溫上升了略低於半攝氏度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An analysis of the views of major meteorologists in the United States showed that less than 20% of them believed that any change in temperature over the last hundred years was our own fault – the rest attributed it to natural cyclical changes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項對美國主要氣象學家觀點的分析顯示，少於 20% 的人相信過去一百年任何溫度變化是我們自己的錯，其餘的人則把它歸因於自然週期變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “more than 80%”, “meteorologists”, “United States”。原文用 “less than 20%” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the rest” 表達同一組比例。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果少於 20% 認為溫度變化是 “our own fault”，那麼 “the rest” 就是超過 80%。原文說這"
+            },
+            {
+              "kind": "paragraph",
+              "text": "些人 “attributed it to natural cyclical changes”，即把原因歸於自然週期變化。選項 D 完整對應這一點：not man-made 對應 not our own fault；natural cyclical changes 是原文原字。A 談 lose sleep，來自前文修辭，不是 meteorologists 的看法。B 把方向倒轉。C 是國際媒體呈現的嚴重後果，不是這批 meteorologists 的結論。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "D — is not very developed yet",
+      "answerKey": "D — is not very developed yet",
+      "type": "Multiple Choice",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：我們對 weather 的理解處於甚麼狀態。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is, of course, no denying that we are still at a very early stage in understanding weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，無可否認，我們對天氣的理解仍處於非常早期的階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, he now believes that, rather than getting hotter, our planet is getting greener as a result of increased carbon dioxide, with the prospect of more vegetation in areas that have recently been frozen wastelands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他現在認為，由於二氧化碳增加，我們的星球與其說正在變熱，不如說正在變綠；一些最近仍是冰凍荒地的地區，可能會出現更多植被。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph C 首尾句，可以估計這段重點是氣候理解和預測的不確定性，以及 Hansen 的觀點轉變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “understanding of the weather”。原文第一句直接有 “understanding weather”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“we are still at a very early stage in understanding weather.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“very early stage” 表示仍不成熟、仍未高度發展。選項 D “is not very developed yet” 正好把這句改寫成普通說法。 A 說 leads to reliable predictions，原文後面反而說 predictions cannot always be relied on。B “is variable” 模糊，沒有抓到 very early stage。C 只借用了 “no denying” 的語氣，沒有回答understanding 的實際狀態。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "A — It is nearly impossible to predict weather change using artificial models.",
+      "answerKey": "A — It is nearly impossible to predict weather change using artificial models.",
+      "type": "Multiple Choice",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Dr James Hansen 的 current view。這題最重要的是 current，不可用他 1988 年的舊說法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is, of course, no denying that we are still at a very early stage in understanding weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，無可否認，我們對天氣的理解仍處於非常早期的階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, he now believes that, rather than getting hotter, our planet is getting greener as a result of increased carbon dioxide, with the prospect of more vegetation in areas that have recently been frozen wastelands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，他現在認為，由於二氧化碳增加，地球正在變得更綠；一些原本像冰凍荒地的地區，可能會長出更多植被。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Dr James Hansen” 和 “current view”。原文先講 1988 年，再用 “He has since…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 “he now believes…” 轉入後來觀點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He has since gone on record as stating that using artificial climate models to predict change is all but impossible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他後來公開表示，使用人工氣候模型來預測變化幾乎是不可能的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“All but impossible” 是非常重要的短語，意思是「幾乎不可能」。選項 A 的 “nearly impossible” 直接對應它。 B 和 C 是 Hansen 在 1988 年提出的舊觀點：disastrous consequences 和 strong cause-and-effect relationship。題目問 current view，所以不能選。D 說 Earth is getting colder，原文說 greener，不是 colder。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“At the same time that computer-based weather models have become more sophisticated, weather forecasters have become more expert.”",
+      "translation": "當電腦天氣模型變得更精密時，天氣預報員也變得更專業。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, there is some evidence to suggest that as our computer-based weather models have become more sophisticated, the predicted rises in temperature have been cut back.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，有些證據顯示，隨著電腦天氣模型變得更精密，預測中的氣溫升幅已被下調。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, if we look at the much-reported rise in global temperature over the last century, a close analysis reveals that the lion’s share of that increase, almost three quarters in total, occurred before man began to ‘poison’ his world with industrial processes and the accompanying greenhouse gas emissions in the second half of the twentieth century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，如果我們看上世紀被廣泛報導的全球氣溫上升，仔細分析會發現其中最大部分、總共接近四分之三，發生在人類於二十世紀下半葉開始以工業過程和相關溫室氣體排放「污染」世界之前。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “computer-based weather models”, “more sophisticated”, “weather forecasters”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“more expert”。原文只找到 models have become more sophisticated。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 computer-based weather models become more sophisticated，也說 predicted"
+            },
+            {
+              "kind": "paragraph",
+              "text": "rises have been cut back。可是題目多加了 “weather forecasters have become more expert”。原文沒有說 weather forecasters 的專業水平有沒有提高。這題不能判 NO，因為文章沒有說 forecasters 沒有變專業。真正情況是：文章只提供 model sophistication，缺少 forecaster expertise 這個核心資訊。所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Most of the increase in global temperature happened in the second half of the twentieth century.”",
+      "translation": "全球氣溫上升的大部分發生在二十世紀下半葉。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, there is some evidence to suggest that as our computer-based weather models have become more sophisticated, the predicted rises in temperature have been cut back.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些證據顯示，隨著電腦天氣模型變得更精密，預測中的氣溫升幅已被下調。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, if we look at the much-reported rise in global temperature over the last century, a close analysis reveals that the lion’s share of that increase, almost three quarters in total, occurred before man began to ‘poison’ his world with industrial processes and the accompanying greenhouse gas emissions in the second half of the twentieth century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仔細分析上世紀全球氣溫上升會發現，其中最大部分，接近四分之三，發生在人類於二十世紀下半葉開始工業污染和溫室氣體排放之前。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Most”, “increase in global temperature”, “second half of the twentieth century”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 “the lion’s share”, “almost three quarters”, “before”, “second half”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 most of the increase happened in the second half。原文說 almost three quarters"
+            },
+            {
+              "kind": "paragraph",
+              "text": "occurred before the second half industrial-emission period。這是明確衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The lion’s share” 意思是最大部分。原文把最大部分放在 second half 之前；題目把最大部分放在second half 之中。因此答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The media wants us to blame ourselves for global warming.”",
+      "translation": "媒體希望我們把全球暖化歸咎於自己，也就是歸咎於人類。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So should we pay any attention to those stories that scream out at us from billboards and television news headlines, claiming that man, with his inexhaustible dependence on oil-based machinery and ever more sophisticated forms of transport, is creating a nightmare level of greenhouse gas emissions, poisoning his environment and ripping open the ozone layer?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些廣告牌和電視新聞標題中的故事聲稱，人類因為依賴燃油機械和日益先進的交通工具，正在製造可怕的溫室氣體排放，污染環境，並撕裂臭氧層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And my own opinion? The jury’s still out as far as I am concerned!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於我自己的看法？就我而言，仍未有定論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “media”, “blame ourselves”。原文的 media 對應 “billboards and television news"
+            },
+            {
+              "kind": "paragraph",
+              "text": "headlines”，blame ourselves 對應 “man … is creating”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說媒體標題中的故事 claim that man is creating greenhouse gas emissions,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "poisoning his environment and ripping open the ozone layer。這把問題責任放在人類身上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “ourselves” 可以理解為 humans。原文中的 “man” 也是人類整體。因此，題目將原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“claiming that man is creating…” 概括成 “wants us to blame ourselves”。所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The media encourages the public to use environment-friendly vehicles, such as electric cars, to combat global warming.”",
+      "translation": "媒體鼓勵公眾使用環保車輛，例如電動車，以對抗全球暖化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So should we pay any attention to those stories that scream out at us from billboards and television news headlines, claiming that man, with his inexhaustible dependence on oil-based machinery and ever more sophisticated forms of transport, is creating a nightmare level of greenhouse gas emissions, poisoning his environment and ripping open the ozone layer?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "廣告牌和電視新聞標題中的故事聲稱，人類依賴燃油機械和交通工具，正在製造大量溫室氣體排放，污染環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And my own opinion? The jury’s still out as far as I am concerned!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於作者自己的看法，他仍未作定論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “media”, “environment-friendly vehicles”, “electric cars”, “combat global"
+            },
+            {
+              "kind": "paragraph",
+              "text": "warming”。原文有 media/headlines，也有 cars，但沒有 electric cars 或 environment-friendly vehicles。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Who, then, to believe: the environmentalist exhorting us to leave the car at home, to buy re-usable products packaged in recycled paper and to plant trees in our back yard?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，我們應該相信誰？是那位勸我們把車留在家裡、購買用再生紙包裝且可重複使用的產品、並在後院種樹的環保人士嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是 environmentalist，不是 media。內容是 leave the car at home，即不開車；沒有提到electric cars，也沒有說使用環保車輛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章提供了相關背景：交通工具、汽車、環保建議。但題目需要的完整資訊是 media encourages electric/environment-friendly vehicles。這個資訊缺失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Environmentalists are very effective at persuading people to be kind to the environment.”",
+      "translation": "環保人士非常有效地說服人們善待環境。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So should we pay any attention to those stories that scream out at us from billboards and television news headlines…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們是否應該理會那些從廣告牌和電視新聞標題中大聲傳出的故事？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And my own opinion? The jury’s still out as far as I am concerned!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者自己的看法仍未有定論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “environmentalists”, “effective”, “persuading”。原文有 “the environmentalist"
+            },
+            {
+              "kind": "paragraph",
+              "text": "exhorting us”，但沒有 effective。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the environmentalist exhorting us to leave the car at home, to buy re-usable products packaged in recycled paper and to plant trees in our back yard”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "環保人士勸我們把車留在家裡，購買可重複使用且以再生紙包裝的產品，並在後院種樹。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Exhorting” 表示勸告、力勸。這只說明 environmentalist 提出建議或呼籲。題目說 “very effective at persuading”，需要原文提供效果，例如 people follow them、successfully persuade、public changed behaviour 等。文章完全沒有這類結果。所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Many big businesses are on the side of the sceptics as regards the cause of global warming.”",
+      "translation": "許多大企業在全球暖化成因問題上站在懷疑派一邊。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So should we pay any attention to those stories that scream out at us from billboards and television news headlines…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們是否應該理會媒體標題中的警告故事？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And my own opinion? The jury’s still out as far as I am concerned!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者自己的看法仍未有定論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “big businesses” 和 “sceptics”。原文直接出現 “skeptics—including, of course,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "many big businesses”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or should we believe the skeptics—including, of course, many big businesses with the most to lose—when they tell us that we are making a mountain out of a molehill?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "又或者，我們是否應該相信懷疑派？當中當然包括許多損失最大的大企業；他們告訴我們，我們是在小題大做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 many big businesses 放在 skeptics 之中。題目說 big businesses are on the side of the sceptics，就是把這個 inclusion 關係改寫成站隊關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“making a mountain out of a molehill” 意思是小題大做。這也顯示 sceptics 認為人們對全球暖化反應過度。所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "in recycled paper",
+      "answerKey": "in recycled paper",
+      "type": "Sentence Completion",
+      "prompt": "“As well as planting trees and not driving, the environmentalist would like us to choose products that are wrapped 39 ______ and can be used more than once.”",
+      "translation": "除了種樹和不開車之外，環保人士希望我們選擇用 ______ 包裝，並且可以重複使用的產品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So should we pay any attention to those stories that scream out at us from billboards and television news headlines…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們是否應該理會那些廣告牌和電視新聞標題中的警告故事？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And my own opinion? The jury’s still out as far as I am concerned!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者自己的看法仍未有定論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “planting trees”, “not driving”, “products”, “used more than once”。原文有 “leave"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the car at home”, “re-usable products”, “packaged in recycled paper”, “plant trees”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the environmentalist exhorting us to leave the car at home, to buy re-usable products packaged in recycled paper and to plant trees in our back yard”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "環保人士勸我們把車留在家裡，購買用再生紙包裝且可重複使用的產品，並在後院種樹。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目改寫如下： not driving= leave the car at home can be used more than once= re-usable products wrapped= packaged wrapped ______= packaged in recycled paper因為題目已經有 wrapped，所以空格填 “in recycled paper” 才能形成自然句子：wrapped in recycled paper。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 in recycled paper。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "most to lose",
+      "answerKey": "most to lose",
+      "type": "Sentence Completion",
+      "prompt": "“Big businesses would have us believe that we are making too much fuss about global warming, because they have 40 ______.”",
+      "translation": "大企業會讓我們相信，我們對全球暖化太小題大做，因為它們有 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So should we pay any attention to those stories that scream out at us from billboards and television news headlines…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們是否應該理會那些媒體和廣告牌中的警告故事？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And my own opinion? The jury’s still out as far as I am concerned!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者自己的看法仍未有定論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “big businesses”, “making too much fuss”。原文有 “many big businesses with"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the most to lose” 和 “making a mountain out of a molehill”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or should we believe the skeptics—including, of course, many big businesses with the most to lose—when they tell us that we are making a mountain out of a molehill?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "又或者，我們是否應該相信懷疑派？當中當然包括許多損失最大的大企業；他們告訴我們，我們是在小題大做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“making a mountain out of a molehill” 是習語，意思是把小問題誇大成大問題，即 “making too much fuss”。題目中的 because they have ______ 對應原文 “with the most to lose”。由於答案限制是 no more than three words，填 “most to lose” 最符合字數要求。答案是 most to lose。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Global Warming.pdf",
+    "sha256": "eabefd7c7ef15a67bb6e766a10edb30462c74d68bf74ee6aaec9181ba69612fc",
+    "pageCount": 15
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句說我們每天都聽到 anthropogenic development 正在導致 global warming；最後一句說答案似乎取決於你聽哪位專家、看哪組統計。只看首尾句，可以先看出這段是全篇立場引入：作者沒有立即支持某一方，反而把議題設定成「證據、媒體、專家意見」之間的爭議。Question 29 很可能定位到這段，因為題目問 global warming 的原因是否取決於 consulted expert。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句承認有大量證據顯示世界正在變暖；最後一句說美國主要 meteorologists 中，少於 20% 認為百年溫度變化是人類造成，其餘歸因於自然循環。只看首尾句，可以先猜這段會呈現兩派看法：一方面有溫度上升證據，另一方面有專家認為這是 natural cyclical changes。Question 30 明顯會來自這段，因為它有 less than 20%、the rest、meteorologists 等強定位詞。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說我們對 weather 的理解仍處於 very early stage；最後一句說 Hansen 現在認為地球因二氧化碳增加而變得 greener，某些冰凍荒地可能會有更多植被。只看首尾句，這段大概會講氣候預測的不確定性，以及 James Hansen 觀點的轉變。Questions 31 和 32 都很可能定位到這段：前者問 weather understanding，後者問 Hansen’s current view，要分清他 1988 年舊觀點和後來觀點。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說隨著 computer-based weather models 更 sophisticated，預測中的升溫幅度反而被下調；最後一句說上世紀升溫的大部分，其實發生在二十世紀下半葉工業排放前。只看首尾句，可以估計這段用電腦模型和時間分布來質疑「人類工業排放是主因」的說法。Questions 33 和 34 會在這段找：一題問 models 和 forecasters，一題問升溫主要發生在哪個時段。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句問我們是否應相信 billboards 和 TV headlines 中那些警告故事；最後一句說作者自己的看法是 The jury’s still out。只看首尾句，這段是全文總結：它先描寫媒體、環保人士、懷疑派和商界的不同聲音，最後作者表示仍未下定論。Question 28 會回到這段最後一句；Questions 35–40 也集中在這段，因為題目問 media、environmentalists、big businesses、recycled paper 和 most to lose。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 40 原文完整短語是 “with the most to lose”。因題目限制 no more than three words，填most to lose 最安全。"
+  ]
+}

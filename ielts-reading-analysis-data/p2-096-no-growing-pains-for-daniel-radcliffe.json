@@ -1,0 +1,1707 @@
+{
+  "id": "p2-096-no-growing-pains-for-daniel-radcliffe",
+  "catalogueId": "p2-096",
+  "catalogueIds": [
+    "p2-096"
+  ],
+  "passage": 2,
+  "title": "No Growing Pains for Daniel Radcliffe",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "E",
+    "H",
+    "G",
+    "B",
+    "可任意排序。",
+    "可任意排序。",
+    "可任意排序。",
+    "可任意排序。",
+    "可任意排序。",
+    "B, C",
+    "B, C",
+    "A, C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "E — Security",
+      "answerKey": "E — Security",
+      "type": "Matching Headings",
+      "prompt": "Security",
+      "translation": "安全／保安問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段最適合 “Security” 這個 heading。Security 可以指 bodyguards、fans 是否危險，也可以延伸到 actor career longevity 的安全感。要找段落中是否反覆出現 danger、bodyguards、worry、security issue 這類字眼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Except for premieres, Radcliffe’s family employs no bodyguards, according to the actor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據 Radcliffe 所說，除了首映禮之外，他的家人沒有聘用保鑣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It begins shooting in Australia in December.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部電影會在十二月於 Australia 開拍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段一開始明顯講 personal security：bodyguards。段尾轉到 December Boys，表示段落後半又轉向他未來作為演員的發展。這個首尾差異很重要，因為本段中間把 “security issue”由人身安全轉到演員生涯長久性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Security”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The security issue that absorbs him at the moment is longevity as an actor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前真正令他投入思考的安全問題，是作為演員能否長久發展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 有兩層 security。第一層是實際人身安全："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fan interest ‘never got too aggressive’, he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，粉絲的興趣「從未變得太具侵略性」。"
+            },
+            {
+              "kind": "quote",
+              "text": "“I never really feel in danger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我從未真正覺得自己處於危險之中。"
+            },
+            {
+              "kind": "label",
+              "text": "第二層是職業上的安全感："
+            },
+            {
+              "kind": "quote",
+              "text": "“The security issue that absorbs him at the moment is longevity as an actor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前最令他關注的安全問題，是作為演員的長遠發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾句一起說明 Paragraph E 最適合 “Security”。文章先說他通常沒有 bodyguards，再說 fans 沒有令他感到危險，最後把 security 重新聚焦到 career longevity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Security= bodyguards= feel in danger= security issue= longevity as an actor答案判斷： Paragraph E 是唯一同時明確出現 bodyguards、danger 和 security issue 的段落，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 有 action scene 和 underwater scene，看起來也有危險，但該段重點是拍攝挑戰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 14 的 heading 是 Security，真正定案的原字在 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "H — Underwater scene",
+      "answerKey": "H — Underwater scene",
+      "type": "Matching Headings",
+      "prompt": "Underwater scene",
+      "translation": "水底場景。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題非常直接，定位詞是 underwater。要找哪一段提到 Radcliffe 拍攝水底戲。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No. 4 puts Radcliffe through his paces in a hormonally charged setting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四集讓 Radcliffe 在一個充滿荷爾蒙張力的環境中接受考驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radcliffe seems to enjoy the spotlight more than his co-stars, piping in with glib comments as Grint, 17, stumbled through the afternoon news conference.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 似乎比其他 co-stars 更享受 spotlight；在下午記者會中，17 歲的 Grint 回答得有點stumbling，而 Radcliffe 則不時流暢插入機智評論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 主要講第四集中的挑戰，以及他在公開場合的表現。雖然首尾句沒有underwater 原字，但第一句 “puts Radcliffe through his paces” 已預告他會接受一些考驗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Underwater”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 中間直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although he is a poor swimmer, Radcliffe immersed himself in an extended underwater scene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他游泳不好，Radcliffe 仍投入拍攝一場很長的水底戲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although he is a poor swimmer, Radcliffe immersed himself in an extended underwater scene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他游泳能力不佳，Radcliffe 仍投入一場長時間水底場景的拍攝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含： poor swimmer：他本身游泳不好； immersed himself：投入、浸入水中拍攝； extended underwater scene：長時間水底場景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading “Underwater scene” 幾乎是原文短語重現，所以定位非常穩定。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Underwater scene= extended underwater scene答案判斷： Paragraph H 是唯一提到 extended underwater scene 的段落，所以答案是 H。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 和 G 也講 Potter 電影拍攝，但沒有 underwater。看到 filming 不能立即選；這題要用 underwater 作稀有定位詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "G — Balancing filming and studies",
+      "answerKey": "G — Balancing filming and studies",
+      "type": "Matching Headings",
+      "prompt": "Balancing filming and studies",
+      "translation": "平衡拍攝與學業。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找同時講 filming 和 schoolwork 的段落。最有定位力的是 school、filming、performance、schoolwork、same routine。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It would be too intense if I did that much school and that much filming at the same time,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "他說：「如果我同時做那麼多學校功課和那麼多拍攝，強度會太高。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, it’s a long way away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，那仍然是很久以後的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，答案方向已很清楚：這段直接把 school 和 filming 放在同一句中比較。最後一句轉到第六集仍遙遠，說明他也在考慮未來是否繼續拍攝。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 定位詞： filming studies / school balance Paragraph G 直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both my performance and schoolwork would suffer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我的演出表現和學業都會受損。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It would be too intense if I did that much school and that much filming at the same time,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我同時做那麼多學業和拍攝，壓力會太大。"
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Both my performance and schoolwork would suffer.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我的演出和學業都會受影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句完整支持 heading。Balancing filming and studies 的核心並非單純說他有 tutoring；更準確地說，重點在於他如何避免 filming 和 schoolwork 互相拖累。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "filming = filming / performance studies = school / schoolwork balancing = avoiding doing too much at the same time / following the same routine would suffer = 需要控制兩者比例答案判斷： Paragraph F 也提到 tutoring，但 Paragraph G 直接說 school 和 filming 同時進行會太 intense，並說兩者都會 suffer。因此 Question 16 最適合 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "B — Not a bad star",
+      "answerKey": "B — Not a bad star",
+      "type": "Matching Headings",
+      "prompt": "Not a bad star",
+      "translation": "不是一個變壞的明星；沒有典型童星壞榜樣問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的 heading 帶有概括意味，不會原字重現。要找哪段反覆描寫 Radcliffe 沒有變成troublemaker child star。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radcliffe, now an articulate 16-year-old, has not been arrested, has not warred with his parents over his millions now tucked away, and has not thrown hissy fits on the set.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 現在是一位表達清晰的 16 歲少年；他沒有被捕，沒有因存起來的巨額財富和父母爭鬥，也沒有在片場大發脾氣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite endless adoration, he seems to be avoiding that notorious fraternity of thespian lads who turn rotten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管受到無盡崇拜，他似乎避開了那群年少成名後變壞的男演員圈子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的功能很清楚：它把 Radcliffe 和那些 “turn rotten” 的童星作對照，強調他沒有走壞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading “Not a bad star” 可能對應： has not been arrested has not warred with his parents has not thrown hissy fits have not become impossible avoiding those who turn rotten"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘They all know exactly what they’re worth,’ ‘Goblet’ director Mike Newell says of Radcliffe and co-stars Emma Watson and Rupert Grint, ‘but they have not become impossible.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Goblet》導演 Mike Newell 談到 Radcliffe、Emma Watson 和 Rupert Grint 時說：「他們都很清楚自己的價值，但他們沒有變得難以相處。」這句支撐 “Not a bad star”。他們知道自己很有名、很有價值，但沒有變成難搞的人。首句的三個"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“has not” 也支撐同一方向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Not a bad star= has not been arrested= has not thrown hissy fits= has not become impossible= avoiding actors who turn rotten答案判斷： Paragraph B 是最貼合的段落。Paragraph C 講他專業和父母保護；Paragraph B 直接講他沒有典型童星壞行為，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A, B, C, E, G",
+      "answerKey": "A, B, C, E, G",
+      "type": "FIVE true statements",
+      "prompt": "Questions 18–22",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可任意排序。"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 multiple-answer 題。題目要求找 FIVE true statements，因此每個選項都要獨立檢查，不能只憑感覺選五個最像的。"
+            },
+            {
+              "kind": "label",
+              "text": "Option A選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first showing of ‘Harry Potter and the Goblet of Fire’ was in New York.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Harry Potter and the Goblet of Fire》的首次放映在 New York。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 first showing / New York。原文用的是 “premiere”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Harry Potter and the Goblet of Fire’, opening Nov. 18 (after its premiere Saturday in New York City).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Harry Potter and the Goblet of Fire》將於 11 月 18 日上映；在此之前，它於星期六在 New York City 首映。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "premiere 就是首次公開放映或首映。題目把 premiere 改寫成 first showing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE，所以 A 要選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option B選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daniel Radcliffe started acting when he was ten years old.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Daniel Radcliffe 十歲時開始演出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 ten years old / started acting。原文用 10-year-old 和 won a casting call。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radcliffe became a global icon as a 10-year-old when he won a worldwide casting call to breathe life into the hero from J. K. Rowling’s best-selling fantasy books.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 在十歲時透過全球 casting call 獲選，把 J. K. Rowling 暢銷奇幻書中的主角演活，並成為全球偶像。"
+            },
+            {
+              "kind": "quote",
+              "text": "“breathe life into the hero” 在這裡指扮演 Harry Potter。題目說 started acting，概括了他取得Harry Potter 角色、開始以這個角色進入全球視野。判斷：TRUE，所以 B 要選。細節邊界：原文支持的是他十歲時取得 Harry Potter 角色；文章沒有討論他更早是否有其他小型演出。此題按文章語境，B 是正確選項。 Option C選項：“Daniel Radcliffe doesn’t talk to reporters often.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Daniel Radcliffe 不常接受記者訪問。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 reporters / often。原文用 interviews。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although he gives relatively few interviews, he does not flinch at potentially awkward questions, either.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他接受的訪問相對較少，但他面對可能尷尬的問題時也不退縮。"
+            },
+            {
+              "kind": "quote",
+              "text": "“gives relatively few interviews” 對應 “doesn’t talk to reporters often”。判斷：TRUE，所以 C 要選。 Option D選項：“Daniel Radcliffe is treated specially at school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Daniel Radcliffe 在學校受到特別對待。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At school, the hubbub over his presence dies down after a few weeks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在學校裡，因他出現而引起的騷動幾週後便會平息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說起初有騷動，後來會平息。它沒有說學校給他 special treatment，例如特別規則、特別課程、特別待遇。題目加入了 treated specially 這個關係，原文缺少這項資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：不選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option E選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“When filming, Daniel Radcliffe is tutored at the film studio.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拍攝時，Daniel Radcliffe 在電影 studio 接受 tutoring。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the moment, Radcliffe is preparing for the fifth Potter edition, ‘Harry Potter and the Order of the Phoenix’. It requires him to take tutoring at the Leavesden Studios in Hertfordshire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前 Radcliffe 正在準備第五部 Potter 電影《Harry Potter and the Order of the Phoenix》。這需要他在 Hertfordshire 的 Leavesden Studios 接受 tutoring。"
+            },
+            {
+              "kind": "quote",
+              "text": "“take tutoring at the Leavesden Studios” 直接支持選項。判斷：TRUE，所以 E 要選。 Option F選項：“Daniel Radcliffe gets on with the ‘Harry Potter’ director.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Daniel Radcliffe 和 Harry Potter 導演相處融洽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B / H"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文有 Mike Newell 對他的評價："
+            },
+            {
+              "kind": "quote",
+              "text": "“they have not become impossible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們沒有變得難以相處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說導演認為 Radcliffe 和 co-stars 沒有變得 difficult，但沒有直接說 Radcliffe 和 director 關係很好，也沒有說 gets on with。原文只提供導演評價，未建立兩人私人相處關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：不選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option G選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daniel Radcliffe seems to be better at dealing with reporters than Rupert Grint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Daniel Radcliffe 似乎比 Rupert Grint 更擅長應付記者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radcliffe seems to enjoy the spotlight more than his co-stars, piping in with glib comments as Grint, 17, stumbled through the afternoon news conference.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 似乎比其他同演員更享受 spotlight；在下午記者會中，17 歲的 Grint 回答得有點stumbling，而 Radcliffe 則流暢插入機智評論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 的 “glib comments” 和 Grint 的 “stumbled” 形成對比。題目把這個對比概括成 better at dealing with reporters。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE，所以 G 要選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option H選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daniel Radcliffe’s parents were unhappy with the press conference.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Daniel Radcliffe 的父母對記者會不高興。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All the while, Radcliffe’s parents sat in the back row, watching with thin smiles and arms folded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個過程中，Radcliffe 的父母坐在後排，帶著淡淡笑容，雙臂交叉地觀看。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“thin smiles and arms folded” 可以呈現保留、觀察、克制的姿態，但原文沒有明確說 unhappy。這項判斷超出文章可證明範圍。判斷：不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B, C",
+      "answerKey": "B, C",
+      "type": "Choose the correct",
+      "prompt": "“The writer says that Daniel Radcliffe…”",
+      "translation": "作者說 Daniel Radcliffe……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題可有多於一個正確答案。要找 writer 對 Radcliffe 的描述，目標段落主要是 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a one-to-one conversation at a London hotel, the 5-foot-7 Radcliffe, without those H. P. spectacles, emerges as very much a boy, but with a showman’s polish that no abracadabra could evoke when he first wielded a magic wand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在倫敦酒店一對一談話中，5 呎 7 吋、沒有 Harry Potter 眼鏡的 Radcliffe 看起來仍很像男孩，但已帶有表演者的 polished manner；這種氣場在他初次揮動魔杖時還無法憑咒語召喚出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His parents, Alan Radcliffe and Marcia Gresham, have provided a magic carpet ride into puberty by protecting him from both the adulation and the evisceration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的父母 Alan Radcliffe 和 Marcia Gresham 保護他免受過度崇拜和尖刻批評影響，讓他較平穩地進入青春期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會講 Radcliffe 的成熟表現，以及父母如何保護他免受 media praise/ criticism 傷害。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的定位詞：taller / glasses B 的定位詞：professionally C 的定位詞：reviews / read"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A looks taller without his glasses.原文只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the 5-foot-7 Radcliffe, without those H. P. spectacles, emerges as very much a boy…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "5 呎 7 吋、沒有 H.P. 眼鏡的 Radcliffe 看起來仍很像男孩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡提到 without spectacles，但沒有說他看起來更高。A 不選。"
+            },
+            {
+              "kind": "label",
+              "text": "B behaves very professionally.原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He makes small talk before the first question is popped and, later, in a press conference, works the room like a professional comedian.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一個問題還未提出前，他已會寒暄；之後在記者會上，他像專業喜劇演員般掌控全場。"
+            },
+            {
+              "kind": "quote",
+              "text": "“works the room like a professional comedian” 直接支持 very professionally。B 要選。 C doesn’t read reviews of his acting.原文關鍵句：“He has never been stung by a bad review or an unflattering portrait. That is because he has never read any of his press.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他從未被負面評論或不討好的描寫刺傷。原因是他從不讀任何關於自己的報道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "bad review 可包括演技評論；never read any of his press 範圍更廣，足以支持 C。C 要選。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "behaves very professionally= works the room like a professional comedian doesn’t read reviews= has never read any of his press答案判斷： 23 的正確答案是 B, C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "B, C",
+      "answerKey": "B, C",
+      "type": "Choose the correct",
+      "prompt": "“Daniel Radcliffe says that he…”",
+      "translation": "Daniel Radcliffe 說他……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清 writer’s report 和 Radcliffe’s own words。目標段落是 Paragraph D，因為該段集中談wealth。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although he is reportedly ranked in wealth just behind fellow young Britons Charlotte Church and Prince Harry, Radcliffe remains blissfully ignorant of his riches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然據報他的財富排名只在年輕英國人 Charlotte Church 和 Prince Harry 後面，但 Radcliffe 對自己的財富仍保持一種愉快的無知。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radcliffe wears a green striped dress shirt, and his only accessory is his publicist and long-time family friend Vanessa Davies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 穿著綠色條紋襯衫，唯一的 accessory 是他的 publicist 兼長期家族朋友 Vanessa Davies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 會描寫他的金錢態度、訪問狀態和低調形象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A：Prince Harry B：doesn’t know how much money C：doesn’t care how much money"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A has less money than Prince Harry.原文確實有："
+            },
+            {
+              "kind": "quote",
+              "text": "“he is reportedly ranked in wealth just behind fellow young Britons Charlotte Church and Prince Harry”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據報他的財富排名在 Charlotte Church 和 Prince Harry 後面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是作者提供的 reported information，不是 Radcliffe 自己說的話。題幹限定 “Daniel Radcliffe says that he”，所以 A 不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B doesn’t know how much money he has made.原文直接引用 Radcliffe："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘To be honest, I don’t actually know how much at this point,’ Radcliffe says. ‘I don’t, really.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 說：「老實說，我此刻其實不知道有多少。我真的不知道。」這直接支持 B。B 要選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C doesn’t care how much money he has made.原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘In a way, I think that’s right. It’s not something that affects the way I think about things.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「某程度上，我覺得這樣是對的。那不是會影響我思考事情方式的東西。」這句表示 money amount 不影響他的 thinking。題目 C 把這種態度概括成 doesn’t care how much money he has made。這是短距離概括，獲原文支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "doesn’t know how much= I don’t actually know how much / I don’t, really doesn’t care how much= It’s not something that affects the way I think about things答案判斷： 24 的正確答案是 B, C。A 雖有相關背景，但題幹問 Radcliffe 自己說了甚麼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Choose the correct",
+      "prompt": "“Daniel Radcliffe wants to play roles other than Harry Potter because…”",
+      "translation": "Daniel Radcliffe 想演 Harry Potter 以外的角色，原因是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找他想演其他角色的原因。目標段落是 Paragraph F，因為該段提到 Gary Oldman、various on-screen personas 和 be seen as anything else。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Taking a cue from one of his idols, Gary Oldman, who plays Harry’s godfather Sirius Black in the Potter movies, Radcliffe wants to forge various on-screen personas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 受到其中一位偶像 Gary Oldman 的啟發；Gary Oldman 在 Potter 電影中飾演 Harry 的教父 Sirius Black，而 Radcliffe 想塑造不同的銀幕形象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each film typically takes 11 months to finish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每部電影通常需要 11 個月完成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接帶出他想有 various on-screen personas，也提到 Gary Oldman。這正好對應題目問他想演 Harry Potter 以外角色的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A：idol Gary Oldman B：suggested C：people think he can only play Harry Potter"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "A his idol Gary Oldman did that.原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Taking a cue from one of his idols, Gary Oldman…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他從自己的偶像之一 Gary Oldman 身上得到提示／啟發。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Taking a cue from” 表示他受 Gary Oldman 的榜樣啟發。雖然原文沒有長篇介紹 Oldman 的career，但這一句已明確把 Radcliffe 想塑造多種銀幕形象和 Gary Oldman 的示範作用連起來。A要選。 B his idol, Gary Oldman, suggested it.原文沒有說 Gary Oldman 親自 suggested it，也沒有提到任何建議或對話。Taking a cue 可以是受榜樣啟發，不等於 Gary Oldman 開口建議。B 不選。 C he doesn’t want people to think he can only play Harry Potter.原文直接引用 Radcliffe：“‘If I were to complete the series without having done anything else during that time, it would be harder to be seen as anything else,’ he says. ‘It’s just showing people I can do other things.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「如果我完成整個系列期間沒有做過其他事情，要被人看成其他角色就會更難。這只是向人們展示我能做其他事。」這直接支持 C。C 要選。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "wants to play roles other than Harry Potter= wants to forge various on-screen personas= showing people I can do other things people think he can only play Harry Potter= harder to be seen as anything else答案判斷： 25 的正確答案是 A, C。B 把 “受啟發” 改成 “親自建議”，這個動作原文沒有提供。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Choose the correct",
+      "prompt": "“Daniel Radcliffe says that he has not been successful with girls because…”",
+      "translation": "Daniel Radcliffe 說自己和女生相處不算成功，原因是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Radcliffe 自己對 “less-than-magical ways with girls” 的解釋。目標段落是 Paragraph I。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All the while, Radcliffe’s parents sat in the back row, watching with thin smiles and arms folded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個過程中，Radcliffe 的父母坐在後排，帶著淡淡笑容，雙臂交叉地觀看。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘This has given me a feeling of confidence,’ says Radcliffe, ‘which I might not have had otherwise.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 說：「這給了我一種自信；如果沒有這段經歷，我可能不會有這種自信。」只看首尾句，可以估計 Paragraph I 會總結家庭保護、青春期尷尬和 Potter 經驗帶來的自信。題目問 girls，應該在段落中段定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞： girls expectations Harry teenager dating原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radcliffe spoke frankly about his less-than-magical ways with girls, saying their expectations of him as Harry dissolve into a ‘grimmer reality’.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radcliffe spoke frankly about his less-than-magical ways with girls, saying their expectations of him as Harry dissolve into a ‘grimmer reality’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radcliffe 坦率談到自己和女生相處時不太神奇的一面，說她們對他作為 Harry 的期待，會化成一種「更灰暗的現實」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點是 girls have expectations of him as Harry。女生可能先把他想像成 Harry Potter，但現實中的 Daniel Radcliffe 和角色不同，所以期待落差令他和女生相處不順。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "A he is still a teenager.原文前一句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“He is still just a teenager, more an on-screen dragon slayer than ladykiller.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他仍只是青少年；在銀幕上更像屠龍者，生活中未算風流高手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是作者的描述，不是 Radcliffe 自己給出的直接原因。題幹說 “Daniel Radcliffe says”，所以 A 不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B they expect him to be like Harry Potter.這正好對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“their expectations of him as Harry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她們對他作為 Harry 的期待。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 要選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C his parents won’t let him go dating.原文沒有提到父母不准他 dating。C 不選。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "they expect him to be like Harry Potter= their expectations of him as Harry has not been successful with girls= his less-than-magical ways with girls expectation gap= dissolve into a “grimmer reality”答案判斷： 26 的正確答案是 B。A 來自作者旁述，C 缺乏原文支援；真正由 Radcliffe 的說法支持的是女生把他想像成 Harry Potter。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 14 E 15 H 16 G 17 B 18 A 19 B 20 C 21 E 22 G 23 B, C 24 B, C 25 A, C 26 B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - No Growing Pains for Daniel Radcliffe.pdf",
+    "sha256": "86b6d043b4a8ee87c0308703ed7412ce77a76d913bf2442a6fdb0218fca5dbc6",
+    "pageCount": 22
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 以 child star 常見的 “lost youth” 故事開場，然後說讀者大概不會在 Daniel Radcliffe身上聽到這種故事。段尾引用 Radcliffe 自己的話，說他的 childhood 雖然 bizarre 和 strange，但很 great。只看首尾句，可以先估計這段功能是建立文章主調：Radcliffe 雖然很早成名，卻沒有把童年描述成悲劇。這段也交代第四集 Harry Potter 電影即將上映，以及首映地點。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句列出 Radcliffe 沒有出現的童星負面行為：沒有被捕、沒有因財產和父母爭鬥、沒有在片場發脾氣。段尾說他似乎避開了那些年少成名後變壞的男演員圈子。只看首尾句，這段主要塑造 Radcliffe 作為「沒有變壞的童星」形象。中間 Mike Newell 的評語也支撐這點：他知道自己的價值，但沒有變得 impossible。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句描寫一對一訪問中的 Radcliffe：沒有 Harry Potter 眼鏡，仍很像男孩，但已有showman’s polish。段尾說父母保護他免受過度崇拜和尖刻批評影響。只看首尾句，這段大概會講他的專業應對能力和父母保護。中間說他會 small talk、在 press conference 像 professional comedian 般控制場面，也說他從不讀自己的 press，所以沒有被 bad review 刺傷。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句轉到金錢：雖然據報他的財富排名只在 Charlotte Church 和 Prince Harry 後面，但他對自己的財富仍 blissfully ignorant。段尾說他穿綠色條紋襯衫，唯一 accessory 是 publicist兼長期家族朋友 Vanessa Davies。只看首尾句，這段功能是說明 Radcliffe 對金錢和訪問都很淡定。他不知道自己有多少錢，也說金錢不影響自己的思考方式。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說除了 premiere，Radcliffe 家人沒有聘用 bodyguards。段尾轉到新電影December Boys，說它十二月會在 Australia 開拍。只看首尾句，這段表面由 personal security 開始，後面轉到 career security / longevity，即他關心自己能否長久當演員。中間提到學校裡的騷動幾週後會平息，fans 沒有太 aggressive；真正令他投入思考的是如何避免只停留在 Harry Potter角色。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句說 Radcliffe 受偶像 Gary Oldman 啟發，希望塑造 various on-screen personas。段尾說每部 Harry Potter 電影通常要 11 個月完成。只看首尾句，這段主要講他想避免typecasting，即只被人看成 Harry Potter，同時交代他準備第五集、在 Leavesden Studios 接受tutoring，並希望維持舊有工作時間表。題目若問其他角色、tutoring、studio 或 schedule，應優先看這段。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句引用 Radcliffe，說若同時做太多 school 和 filming，強度會太高。段尾說第六集仍是 long way away。只看首尾句，這段核心是 balancing filming and studies：他認為過度兼顧會令 performance 和 schoolwork 都受損。後半又說是否繼續第六集，取決於 script、director 和challenge。這段比 Paragraph F 更直接處理學業與拍攝之間的平衡。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句說第四集把 Radcliffe 放在一個充滿荷爾蒙張力的環境中，並讓他接受不少挑戰。段尾說他似乎比 co-stars 更享受 spotlight，在下午記者會中流暢插話，而 Rupert Grint 表現得比較 stumble。只看首尾句，這段主要處理 Goblet of Fire 的拍攝挑戰和公開場合表現。中間的underwater scene 是最明顯定位：他雖然游泳差，仍完成長時間水底場景。"
+      },
+      {
+        "number": "I",
+        "summary": "Paragraph I 首句說 Radcliffe 的父母一直坐在後排，帶著 thin smiles 和 folded arms 觀看。段尾引用 Radcliffe，說 Potter experience 給了他原本未必有的 confidence。只看首尾句，這段是全文收束：父母令他保持 grounded，他仍只是 teenager，也坦白談自己和女生相處的尷尬。女生期待他像 Harry，現實卻變得 grimmer。最後回到正面：演出經驗給他信心。"
+      }
+    ]
+  }
+}

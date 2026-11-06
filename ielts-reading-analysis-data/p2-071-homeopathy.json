@@ -1,0 +1,1348 @@
+{
+  "id": "p2-071-homeopathy",
+  "catalogueId": "p2-071",
+  "catalogueIds": [
+    "p2-071"
+  ],
+  "passage": 2,
+  "title": "Homeopathy",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "v",
+    "vii",
+    "viii",
+    "x",
+    "iii",
+    "ix",
+    "alcohol and water",
+    "shaken",
+    "stronger",
+    "heal itself",
+    "control symptoms",
+    "cheaper",
+    "side effects"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "v — Theoretical and experimental basis",
+      "answerKey": "v — Theoretical and experimental basis",
+      "type": "Matching Headings",
+      "prompt": "Section B 的最佳 heading。",
+      "translation": "這段最適合的標題是「理論和實驗基礎」。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hahnemann’s discovery of the principle of homeopathy was accidental.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hahnemann 對 homeopathy 原理的發現是偶然的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means that a disease can be cured by a medicine which produces in a healthy person symptoms similar to those experienced by the patient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示，一種疾病可以由某種藥物治療；這種藥物會在健康人身上產生和病人相似的症狀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Section B 很明顯在講 homeopathy 的 principle，即基本理論。最後一句更直接解釋"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“let likes be cured by likes” 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的定位詞是 “Theoretical” 和 “experimental basis”。原文有 theory、testing、substances、recording symptoms、drug pictures、results 等訊號。關鍵句包括：“He decided to explore his theory by testing other substances used as medicine at the time…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他決定透過測試當時用作藥物的其他物質，去探索自己的理論。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“These recorded results created ‘drug pictures’ which formed the basis for the new system of medicine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些記錄下來的結果形成了 “drug pictures”，並成為這套新醫療系統的基礎。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段有兩條主線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一條是 theoretical basis： similia similibus curentur，即 let likes be cured by likes。意思是某種物質若能在健康人身上造成某組症狀，就可用來治療有相似症狀的病人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二條是 experimental basis： Hahnemann 把 arsenic、belladonna 等物質用在自己或健康 volunteer 身上，記錄症狀，形成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“drug pictures”。 Heading iv “Dr. S. Hahnemann” 只抓到人物名，覆蓋面太闊；Section B 的真正焦點在他的理論如何經由實驗建立。Heading v 能同時涵蓋 theory 和 tests，所以答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "vii — Preparation of medicines",
+      "answerKey": "vii — Preparation of medicines",
+      "type": "Matching Headings",
+      "prompt": "Section C 的最佳 heading。",
+      "translation": "這段最適合的標題是「藥物製備」。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The process of making remedies is very precise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製作 remedies 的過程非常精準。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This makes no sense in light of present-day science but regardless of what science tells us is impossible, in practice, the higher the dilution, the stronger and longer-lasting the effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從現代科學角度看，這說不通；但文章聲稱在實際使用中，稀釋度越高，效果越強且越持久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接指出 “making remedies”。這是非常明確的段落主旨訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的定位詞是 “Preparation” 和 “medicines”。原文反覆出現 make remedies、raw material、dissolved、mixture、strained、diluted、potency、one drop、99 drops、shaken 等製作流程詞。"
+            },
+            {
+              "kind": "label",
+              "text": "答案句群："
+            },
+            {
+              "kind": "quote",
+              "text": "“To make remedies, the raw material is dissolved in a mixture of alcohol and water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要製作 remedies，原材料會被溶解在酒精和水的混合物中。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The resulting liquid or tincture is then diluted according to very specific measures at a ratio of 1:100.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所得液體或 tincture 會按照非常具體的比例 1:100 稀釋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "整段由原料、浸泡、過濾、稀釋、搖晃，到 potency 的形成，完整描述 medicine preparation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 headings 都只能覆蓋局部。例如 “concerns about homeopathy” 可連到最後一句的present-day science，但那只是本段結尾的評語。全段最反覆、最穩定的主題是 remedies 如何製作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "viii — Debate over effectiveness",
+      "answerKey": "viii — Debate over effectiveness",
+      "type": "Matching Headings",
+      "prompt": "Section D 的最佳 heading。",
+      "translation": "這段最適合的標題是「關於效用的爭論」。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is this use of high dilutions that has given rise to controversy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是這種高稀釋度的使用，引起了爭議。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Controlled clinical studies performed by medical researchers are demonstrating that homeopathy can be an effective method of treatment for many diseases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由醫學研究者進行的受控臨床研究正在顯示，homeopathy 可以成為治療許多疾病的有效方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 controversy，尾句有 effective method。兩句合起來，已可判斷本段核心在 homeopathy是否有效。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的定位詞是 “Debate” 和 “effectiveness”。原文中的對應詞包括 controversy、claim、placebo、effective、clinical studies。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many conventional doctors claim that homeopathy functions only as a placebo because the dosage is so small.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 conventional doctors 聲稱，由於劑量太小，homeopathy 只發揮 placebo 作用。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the clinical experience of homeopathy shows that this tiny dose can be effective…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，homeopathy 的臨床經驗顯示，這種微小劑量可以有效。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段同時呈現質疑和支持。質疑方說：劑量太小，所以只是 placebo。支持方說：它對 unconscious people、infants、animals 都有效，controlled clinical studies 也支持它可治療 many diseases。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “Concerns about homeopathy” 只覆蓋 conventional doctors 的疑慮，未能包含後半段的支持證據。Heading viii “Debate over effectiveness” 更完整，因為整段正在處理「有沒有效」這個爭論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "x — Aspects of treatment",
+      "answerKey": "x — Aspects of treatment",
+      "type": "Matching Headings",
+      "prompt": "Section E 的最佳 heading。",
+      "translation": "這段最適合的標題是「治療的各個方面」。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most important part of homeopathic treatment lies in the lengthy interview which the homeopath conducts with the patient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathic treatment 最重要的部分，在於 homeopath 和病人進行的長時間面談。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A single dose is given for the shortest period of time necessary to stimulate the body’s healing power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫師會用最短所需時間給予單一劑量，以刺激身體的 healing power。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 consultation，尾句講 dose。這顯示本段不是單講一個概念，而是在介紹治療流程中的幾個方面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x 的定位詞是 “treatment”。原文反覆出現 treatment、interview、consultation、history、symptoms、medicine、prescribe、dose、healing power。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea behind this one- to two-hour consultation is to build up a psychological, emotional and physical history of the patient…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個一至兩小時 consultation 的目的，是建立病人的心理、情緒和身體病史。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The homeopath then decides which medicine to prescribe based on the closest match…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後 homeopath 會根據最接近的配對，決定開哪一種 medicine。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Section E 的段落功能很集中：它講 homeopathic treatment 如何進行。先是長時間 interview，再建立病史，然後把 patient’s symptoms 和 medicine 在健康人身上引出的 symptoms 作 closest match，最後給 single dose。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading x “Aspects of treatment” 能涵蓋 consultation、prescription、dosage 這三個治療面向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “Preparation of medicines” 屬 Section C；Section E 講使用和處方，不再講製作方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "iii — Comparison with traditional western medicine",
+      "answerKey": "iii — Comparison with traditional western medicine",
+      "type": "Matching Headings",
+      "prompt": "Section F 的最佳 heading。",
+      "translation": "這段最適合的標題是「和傳統西方醫學的比較」。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How does the concept of homeopathy differ from that of conventional medicine?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 的概念和 conventional medicine 有甚麼不同？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homeopathy’s aim is the cure: ‘The complete restoration of perfect health,’ as Dr. Hahnemann said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 的目標是治癒；正如 Hahnemann 醫生所說，是「完全恢復完美健康」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接用 “differ from” 提出比較，尾句給出 homeopathy 的核心目標。這段的功能很清楚：比較兩種醫學觀念。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的定位詞是 “Comparison” 和 “traditional western medicine”。原文用 “conventional medicine” 表達這個概念。"
+            },
+            {
+              "kind": "label",
+              "text": "答案句群："
+            },
+            {
+              "kind": "quote",
+              "text": "“homeopathy attempts to stimulate the body to recover itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 嘗試刺激身體自行復原。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In much of conventional therapy the illness is controlled through regular use of medical substances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多 conventional therapy 中，疾病透過定期使用醫療物質受到控制。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段把兩種治療觀放在一起比較： Homeopathy：把 symptoms 看作身體嘗試幫助自己的 signs；治療目標是 stimulate the body to recover itself，最終達到 complete restoration of perfect health。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Conventional medicine：很多時候透過 regular medication 控制 illness；若停止 medication， illness returns。高血壓藥例子說明這種 treatment 控制症狀，但未必等於 cure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 完整概括全段。答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "ix — Advantages and limitations of homeopathy",
+      "answerKey": "ix — Advantages and limitations of homeopathy",
+      "type": "Matching Headings",
+      "prompt": "Section G 的最佳 heading。",
+      "translation": "這段最適合的標題是「homeopathy 的優點和限制」。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homeopathy has made significant progress in treating diseases which orthodox medicine finds difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 在治療 orthodox medicine 覺得困難的疾病方面取得明顯進展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The resulting savings in costs and the increase in personal independence represent a significant contribution to healthcare.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由此帶來的成本節省和個人獨立性的提升，代表它對 healthcare 有重要貢獻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句偏向好處，尾句也偏向貢獻。中間則會提到哪些病適合、哪些病不適合，因此 Section G 很可能是優點和限制的總結段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 的定位詞是 “Advantages” 和 “limitations”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is best at dealing with inflammatory conditions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它最擅長處理 inflammatory conditions。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But homeopathy is not an appropriate treatment for degenerative diseases such as emphysema.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 homeopathy 不適合作為 emphysema 等 degenerative diseases 的治療方法。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two of the main advantages of homeopathy are the low cost of the medications and the rarity of adverse reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 的兩個主要優點是藥物成本低，以及不良反應罕見。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段先說 progress 和適用範圍：arthritis、skin conditions、migraines、respiratory problems linked to allergies、asthma。接著說限制：degenerative diseases、destroy tissue 的疾病不能單靠它處理。最後再講 advantages：low cost、rare adverse reactions、safe、easy to use、節省 healthcare costs、提升 personal independence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 完整涵蓋本段的正反兩面，所以答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "alcohol and water",
+      "answerKey": "alcohol and water",
+      "type": "Making a homeopathic",
+      "prompt": "“A single substance from a plant, animal or mineral source is mixed with 20 ______ and left to stand for two to four weeks.”",
+      "translation": "來自植物、動物或礦物來源的單一物質，會和 20 ______ 混合，並靜置兩至四星期。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The process of making remedies is very precise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製作 remedies 的過程非常精準。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This makes no sense in light of present-day science but regardless of what science tells us is impossible, in practice, the higher the dilution, the stronger and longer-lasting the effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從現代科學角度看，這說不通；但文章聲稱在實際使用中，稀釋度越高，效果越強且越持久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section C 專門講 remedy 製作，所以 Questions 20–22 都集中在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “plant, animal or mineral source”、“mixed with”、“two to four weeks”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The substances may be made from plants, minerals and even animals…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些物質可由植物、礦物，甚至動物製成。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“To make remedies, the raw material is dissolved in a mixture of alcohol and water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要製作 remedies，原材料會被溶解在酒精和水的混合物中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “mixed with 20 ______”，原文說 “dissolved in a mixture of alcohol and water”。題目把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dissolved in a mixture of” 簡化成 “mixed with”。空格後面需要填混合物內容。答案要來自原文，不超過三個字。“alcohol and water” 正好三個字，意思和文法都合適。所以答案是 alcohol and water。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "shaken",
+      "answerKey": "shaken",
+      "type": "Making a homeopathic",
+      "prompt": "“One drop of the tincture is added to 99 drops of alcohol and water, then 21 ______ vigorously to produce a remedy with a potency of 1C.”",
+      "translation": "一滴 tincture 加入 99 滴酒精和水後，然後被猛烈 21 ______，以製成 1C potency 的 remedy。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section C。首句說 remedy 製作過程 very precise；尾句說稀釋度越高，效果越強且越持久。這段包含 tincture、1C potency 和 dilution 程序。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “one drop”、“99 drops”、“1C potency”、“vigorously”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, to produce a remedy called 1C potency or strength, one drop of the tincture is added to 99 drops of alcohol/water mixture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，要製作一種稱為 1C potency 或 strength 的 remedy，一滴 tincture 會被加入 99 滴酒精水混合物中。"
+            },
+            {
+              "kind": "label",
+              "text": "後面補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“At each stage of dilution the remedy is shaken vigorously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在每一個稀釋階段，remedy 都會被猛烈搖晃。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目句型是 “then 21 ______ vigorously”，前面已有 “is added”，整句是被動結構，所以空格需要past participle。原文答案詞是 “shaken”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不應填 “shaken vigorously”，因為題目已經提供 vigorously。填 “shaken vigorously” 會重複vigorously，也可能超出答案句文法需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 shaken。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "stronger",
+      "answerKey": "stronger",
+      "type": "Making a homeopathic",
+      "prompt": "“As the remedy becomes more diluted, it becomes 22 ______.”",
+      "translation": "remedy 越被稀釋，它就變得越 22 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Section C。最後幾句集中解釋 dilution 和 strength 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “more diluted” 和 “becomes”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, ironically, the more dilute the remedy, the stronger it is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，帶有諷刺意味的是，remedy 越稀釋，它就越強。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“in practice, the higher the dilution, the stronger and longer-lasting the effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章聲稱在實際使用中，稀釋度越高，效果越強且越持久。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “As the remedy becomes more diluted” 對應原文 “the more dilute the remedy”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “it becomes” 對應原文 “the stronger it is”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要形容詞。答案 “stronger” 一個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 stronger。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "heal itself",
+      "answerKey": "heal itself",
+      "type": "Comparison Summary",
+      "prompt": "“Conventional medicine views symptoms as indications that something is wrong, whereas homeopathy regards them as signs that the body is attempting to 23 ______.”",
+      "translation": "conventional medicine 把 symptoms 看成某些事情出錯的 सकं े त ；homeopathy 則把 symptoms看成身體正在嘗試 23 ______ 的 signs。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How does the concept of homeopathy differ from that of conventional medicine?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 的概念和 conventional medicine 有甚麼不同？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homeopathy’s aim is the cure: ‘The complete restoration of perfect health,’ as Dr. Hahnemann said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 的目標是治癒；正如 Hahnemann 醫生所說，是「完全恢復完美健康」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section F 專門比較兩種 medicine，所以 Questions 23–24 都在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “symptoms”、“something wrong”、“body is attempting”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead of viewing symptoms as something wrong that must be corrected, the homeopath sees them as signs of the way the body is attempting to help itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopath 沒有把症狀看成必須糾正的錯誤，會把它們看成身體嘗試幫助自己的跡象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文答案意思是 “help itself”。不過 box 中沒有 “help itself”，因此要選最接近的詞組。根據同段內容，homeopathy attempts to stimulate the body to recover itself，且 aims at cure。box 中 “heal itself” 最能接上題目句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the body is attempting to heal itself”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思自然：身體正在嘗試自我療癒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 heal itself。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "control symptoms",
+      "answerKey": "control symptoms",
+      "type": "Comparison Summary",
+      "prompt": "“Many conventional medicines 24 ______, but the illness returns if the medicine is withdrawn.”",
+      "translation": "許多 conventional medicines 會 24 ______，但如果停止用藥，疾病會回來。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section F。首句提出 homeopathy 和 conventional medicine 的概念差異；尾句說homeopathy 的目標是 complete restoration of perfect health。這段中間必然會比較 conventional medication 的作用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “conventional medicines”、“illness returns”、“medicine is withdrawn”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In much of conventional therapy the illness is controlled through regular use of medical substances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多 conventional therapy 中，疾病透過定期使用醫療物質受到控制。"
+            },
+            {
+              "kind": "quote",
+              "text": "“If the medication is withdrawn, the illness returns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果停止 medication，疾病就會回來。"
+            },
+            {
+              "kind": "label",
+              "text": "再看例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“a person who takes a pill for high blood pressure every day is not undergoing a cure but is only controlling the symptoms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個每天服用高血壓藥的人，並沒有經歷治癒，只是在控制症狀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目句子把原文兩句濃縮：原文：illness is controlled through regular use of medical substances"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：Many conventional medicines ______"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文例子：only controlling the symptoms box 選項：control symptoms答案要接在 “Many conventional medicines” 後面，所以動詞片語 “control symptoms” 最合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 control symptoms。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "cheaper",
+      "answerKey": "cheaper",
+      "type": "Comparison Summary",
+      "prompt": "“Homeopathic remedies are 25 ______ than conventional medicines…”",
+      "translation": "homeopathic remedies 比 conventional medicines 更 25 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homeopathy has made significant progress in treating diseases which orthodox medicine finds difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 在治療 orthodox medicine 覺得困難的疾病方面取得明顯進展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The resulting savings in costs and the increase in personal independence represent a significant contribution to healthcare.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由此帶來的成本節省和個人獨立性的提升，代表它對 healthcare 有重要貢獻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講治療進展，尾句講成本節省。題目問 cost，所以應看 Section G 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cost”、“remedies”、“conventional medicines”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two of the main advantages of homeopathy are the low cost of the medications and the rarity of adverse reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 的兩個主要優點是藥物成本低，以及不良反應罕見。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The medicines are inexpensive, safe, and easy to use…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些藥物便宜、安全，而且容易使用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目句型是 “are ______ than conventional medicines”，所以需要比較級 adjective。box 中符合cost 意思和比較級文法的是 “cheaper”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “low cost” 和 “inexpensive” 對應 “cheaper”。題目加入 “than conventional medicines” 來表達比較關係，文章則從 homeopathy 的 advantage 角度說 medications 成本低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 cheaper。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "side effects",
+      "answerKey": "side effects",
+      "type": "Comparison Summary",
+      "prompt": "“Homeopathic remedies are cheaper than conventional medicines and have fewer 26 ______.”",
+      "translation": "homeopathic remedies 比 conventional medicines 便宜，而且有較少 26 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Section G。這段最後部分列出 homeopathy 的 main advantages。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “fewer”、“effects”、“adverse”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two of the main advantages of homeopathy are the low cost of the medications and the rarity of adverse reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "homeopathy 的兩個主要優點是藥物成本低，以及不良反應罕見。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The medicines are inexpensive, safe, and easy to use…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些藥物便宜、安全，而且容易使用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “fewer 26 ______” 對應原文 “rarity of adverse reactions”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“adverse reactions” 即不良反應，在日常醫療英語中可概括為 “side effects”。 box 中 “side effects” 最合適： have fewer side effects= 有較少副作用 / 不良反應較少所以答案是 side effects。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Homeopathy.pdf",
+    "sha256": "3f88eed8cde01f9ec506a7b8eca887f08d44f15186bdd744b8d7a3eeeac6a22e",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句Sectio Rough roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 首句直接定義 homeopathy：它是一種 alternative system of medicine，由德國醫生Samuel Hahnemann 在十九世紀初創立。尾句列出法國和英國醫生使用或轉介homeopathic treatment 的比例。只看首尾句可見，本段功能是介紹 homeopathy 的起源和現代復興，亦解釋為何 Section A 的 example heading 是 vi “Revival of homeopathy”。 B 首句說 Hahnemann 發現 homeopathy 原理是偶然的，因為他服用 quinine 後出現類似 malaria 的症狀。尾句解釋核心原則：疾病可由一種在健康人身上造成相似症狀的藥物治療。首尾句顯示，本段重點在理論形成、實驗方法和 “like cures like” 的基礎。 C 首句指出製作 remedies 的過程非常精準。尾句說無論現代科學怎樣判斷，文章聲稱",
+        "label": "n"
+      },
+      {
+        "number": "2",
+        "summary": "remedy preparation：原料來源、酒精水混合、tincture、1:100 稀釋、搖晃，以及potency 的概念。 D 首句說正是 high dilutions 引起爭議。尾句說 controlled clinical studies 正在顯示homeopathy 可成為治療多種疾病的有效方法。首尾句顯示，本段功能是呈現effectiveness debate：一方說劑量太小，只是 placebo；另一方引用臨床經驗和研究支持效果。 E 首句說 homeopathic treatment 最重要的部分，在於 homeopath 和病人之間長時間的 interview。尾句說單一劑量會在最短必要時間內使用，以刺激身體的 healing power。首尾句顯示，本段集中講治療程序：長時間問診、建立心理情緒和身體病史、找出 disease patterns，再按症狀配藥。 F 首句直接問 homeopathy 和 conventional medicine 的概念有何不同。尾句引用Hahnemann，說 homeopathy 的目標是 “The complete restoration of perfect health”。首尾句顯示，本段是比較段：conventional medicine 常控制症狀，homeopathy 則嘗試刺激身體自我復原，並以 complete cure 為目標。 G 首句說 homeopathy 在治療 orthodox medicine 覺得困難的疾病上有明顯進展。尾句說節省成本和增加個人獨立性，對 healthcare 有重要貢獻。只看首尾句可見，本段總結 homeopathy 的適用範圍、限制和好處：某些炎症和過敏相關疾病較適合，退化性疾病較不適合；藥物便宜且不良反應少。",
+        "label": "在實際治療中，稀釋度越高，效果越強且越持久。只看首尾句可見，本段主要講"
+      }
+    ]
+  }
+}

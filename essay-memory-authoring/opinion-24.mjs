@@ -1,0 +1,369 @@
+// Model Essay 24 · Opinion: texting, grammar and language register.
+const simple=[
+  'People often say that short and simple language in text messages and quick online chats will one day stop people from using grammar and spelling correctly.',
+  'I do not agree because informal language online mostly depends on the situation, and modern ways of talking can even help people notice written language more.',
+  'The first reason is that short online messages do not need to follow the same rules as school essays, business letters or official papers.',
+  'When people write “u” instead of “you” or leave out full stops in a quick message to a friend, they are usually trying to be fast and make life easier, not showing that they have forgotten correct English.',
+  'This is like how people speak in one way at home and in another way during a job interview.',
+  'A student may write in a relaxed way in a group chat, but still use full sentences, correct spelling and formal words in an exam.',
+  'In this way, texting is not killing grammar; it is just another way of using language in a different situation.',
+  'Another important idea is that digital ways of talking have made writing a more usual part of daily life.',
+  'Many people now write emails, comments, words under pictures, messages and work news each day, so they see written language much more often than people in the past did.',
+  'It is true that some online writing is careless, but school, work rules, tools that check grammar and wanting others to take us seriously can help people correct bad habits.',
+  'For example, a worker may use short forms with friends but still check every word carefully before sending a written plan to a customer.',
+  'The need to write clearly has not gone away; in fact, people may notice it even more now.',
+  'In short, I do not think quick online messages will destroy grammar and spelling.',
+  'Although texting makes people use shorter and simpler language, they can still change how they write for different goals and readers.',
+  'Grammar is not dying; people are using it in more different ways.',
+];
+const vocabulary=[
+  [['It is often argued','People often say','人們常認為'],['brief and simplified style','short and simple language','簡短而簡化的風格'],['instant online conversations','quick online chats','即時網上對話'],['eventually destroy','one day stop','最終破壞'],['ability to use grammar and spelling correctly','using grammar and spelling correctly','正確使用文法拼字的能力']],
+  [['I disagree with this view','I do not agree','不同意此觀點'],['informal digital language','informal language online','非正式數位語言'],['mainly a matter of context','mostly depends on the situation','主要是語境問題'],['modern communication','modern ways of talking','現代溝通'],['strengthen people’s awareness of written language','help people notice written language more','加強書面語言意識']],
+  [['conventions','rules','規範'],['academic essays','school essays','學術文章'],['official documents','official papers','正式文件'],['not meant to follow','do not need to follow','本來不須遵循']],
+  [['leave out punctuation','leave out full stops','省略標點'],['speed and convenience','be fast and make life easier','速度和便利'],['standard English','correct English','標準英語']],
+  [['similar to the way','like how','類似方式'],['speak differently','speak in one way','用不同方式說話'],['job interview','job interview','工作面試']],
+  [['write casually','write in a relaxed way','隨意書寫'],['group chat','group chat','群組聊天'],['formal vocabulary','formal words','正式詞彙'],['examination','exam','考試']],
+  [['In this sense','In this way','從這意義上'],['the death of grammar','killing grammar','文法死亡'],['another register of communication','another way of using language in a different situation','另一種溝通語域']],
+  [['Another important point','Another important idea','另一重要觀點'],['digital communication','digital ways of talking','數位溝通'],['a more regular part of daily life','a more usual part of daily life','日常中更常見的一部分']],
+  [['compose','write','撰寫'],['captions','words under pictures','圖片說明'],['work updates','work news','工作更新'],['exposed to written language','see written language','接觸書面語言'],['previous generations','people in the past','以往世代']],
+  [['Admittedly','It is true','誠然'],['careless','careless','粗心'],['professional expectations','work rules','專業期望'],['grammar-checking tools','tools that check grammar','文法檢查工具'],['taken seriously','take us seriously','被認真看待']],
+  [['employee','worker','員工'],['abbreviations','short forms','縮寫'],['proposal','a written plan','建議書'],['client','customer','客戶']],
+  [['pressure to communicate clearly','need to write clearly','清楚溝通的要求'],['has not disappeared','has not gone away','沒有消失'],['if anything','in fact','反而'],['more visible','notice it even more','更顯眼']],
+  [['In conclusion','In short','總結來說'],['instant online communication','quick online messages','即時網上溝通'],['destroy grammar and spelling','destroy grammar and spelling','破壞文法和拼字']],
+  [['Although','Although','儘管'],['shorter and simpler style','shorter and simpler language','較短較簡單的風格'],['adjust their language','change how they write','調整語言'],['purpose and audience','different goals and readers','目的和受眾']],
+  [['Grammar is not dying','Grammar is not dying','文法未死'],['used more flexibly','using it in more different ways','使用更靈活']],
+];
+const chunkOverrides=[
+  ['It is often argued that the brief and simplified style of text messages and instant online conversations','will eventually destroy people’s ability to use grammar and spelling correctly.'],
+  ['I disagree with this view because informal digital language is mainly a matter of context,','and modern communication can actually strengthen people’s awareness of written language.'],
+  ['The first reason is that short online messages','are not meant to follow the same conventions as academic essays, business letters, or official documents.'],
+  ['When people type “u” instead of “you” or leave out punctuation in a quick message to a friend,','they are usually choosing speed and convenience,','not showing that they have forgotten standard English.'],
+  ['This is similar to the way people speak differently','at home and in a job interview.'],
+  ['A student may write casually in a group chat,','but the same student can still use full sentences, correct spelling, and formal vocabulary in an examination.'],
+  ['In this sense, texting is not the death of grammar;','it is simply another register of communication.'],
+  ['Another important point is that digital communication','has made writing a more regular part of daily life.'],
+  ['Many people now compose emails, online comments, captions, messages, and work updates every day,','so they are exposed to written language far more often than previous generations were.'],
+  ['Admittedly, some online writing is careless,','but poor habits are corrected by school, professional expectations, grammar-checking tools,','and the need to be taken seriously in public or workplace settings.'],
+  ['For example, an employee may use abbreviations with friends,','yet still check spelling carefully before sending a proposal to a client.'],
+  ['The pressure to communicate clearly has not disappeared;','if anything, it has become more visible.'],
+  ['In conclusion, I do not believe that instant online communication','will destroy grammar and spelling.'],
+  ['Although texting encourages a shorter and simpler style,','people can still adjust their language according to purpose and audience.'],
+  ['Grammar is not dying;','it is being used more flexibly.'],
+];
+const simpleChunkOverrides=[
+  ['People often say that short and simple language in text messages and quick online chats','will one day stop people from using grammar and spelling correctly.'],
+  ['I do not agree because informal language online mostly depends on the situation,','and modern ways of talking can even help people notice written language more.'],
+  ['The first reason is that short online messages','do not need to follow the same rules as school essays, business letters or official papers.'],
+  ['When people write “u” instead of “you” or leave out full stops in a quick message to a friend,','they are usually trying to be fast and make life easier,','not showing that they have forgotten correct English.'],
+  ['This is like how people speak in one way','at home and in another way during a job interview.'],
+  ['A student may write in a relaxed way in a group chat,','but still use full sentences, correct spelling and formal words in an exam.'],
+  ['In this way, texting is not killing grammar;','it is just another way of using language in a different situation.'],
+  ['Another important idea is that digital ways of talking','have made writing a more usual part of daily life.'],
+  ['Many people now write emails, comments, words under pictures, messages and work news each day,','so they see written language much more often than people in the past did.'],
+  ['It is true that some online writing is careless,','but school, work rules, tools that check grammar','and wanting others to take us seriously can help people correct bad habits.'],
+  ['For example, a worker may use short forms with friends','but still check every word carefully before sending a written plan to a customer.'],
+  ['The need to write clearly has not gone away;','in fact, people may notice it even more now.'],
+  ['In short, I do not think quick online messages','will destroy grammar and spelling.'],
+  ['Although texting makes people use shorter and simpler language,','they can still change how they write for different goals and readers.'],
+  ['Grammar is not dying;','people are using it in more different ways.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
+const structures=[
+  S('It is often argued that short messages will eventually weaken students’ ability to write formal essays.','It is often argued that 歸屬他人主張；will eventually destroy 是尚待論證的強預測。','引言準確描述擔憂，未把它當成作者結論。',[1,2,7],
+    F('It is often argued that [簡短數位文風] will eventually destroy [正確使用文法拼字的能力]','先轉述簡化語言將破壞正式能力的強主張，準備反駁。','題目預測新做法會造成長期損害時，要先清楚呈現該預測。',[['It is often argued that ','link','轉述他人主張'],['the brief and simplified style of text messages and instant online conversations','slot','簡短數位文風'],[' will eventually destroy ','link','預測長期破壞'],['people’s ability to use grammar and spelling correctly.','slot','正確使用文法拼字的能力']])),
+  S('I disagree because casual chat language depends on context, and frequent writing can improve awareness of words.','because 引出兩條不同反駁：語域因場合而異，以及寫作接觸增加。','這句不說每條網上訊息都正確，而說形式選擇與能力不能混為一談。',[0,2,7],
+    F('I disagree with [破壞預測] because [非正式語言取決於語境], and [現代溝通可加強書面意識]','引言即給立場及兩條段落路線。','反對極端預測時，要預告兩個可分開檢驗的機制時。',[['I disagree with ','link','表明反對'],['this view','slot','破壞預測'],[' because ','link','解釋理由'],['informal digital language is mainly a matter of context','slot','非正式語言取決於語境'],[', and ','link','並列另一理由'],['modern communication can actually strengthen people’s awareness of written language.','slot','現代溝通可加強書面意識']])),
+  S('The first reason is that quick notes to friends are not meant to follow the rules of a formal report.','not meant to follow 指語言用途不同，不等於寫訊息者不懂正式規範。','第一段的中心是可隨目的切換語域。',[1,3,6],
+    F('The first reason is that [短網上訊息] are not meant to follow [學術與正式文件規範]','先將非正式短訊與正式文章的要求分開。','首段要區分在某情境不使用一項能力與根本不具備該能力時。',[['The first reason is that ','link','提出第一理由'],['short online messages','slot','短網上訊息'],[' are not meant to follow ','link','目的不在遵守'],['the same conventions as academic essays, business letters, or official documents.','slot','學術與正式文件規範']])),
+  S('When friends type “u” or leave out full stops in a quick note, they usually choose speed, not prove that they forgot spelling.','When 設例；usually choosing...not showing... 區分便利選擇與能力喪失。','這是語境判斷，不是鼓勵在考試中使用「u」。',[2,4,5],
+    F('When [朋友短訊使用縮寫或省標點], they are usually choosing [速度便利], not showing [忘了標準英語]','用「u」的具體例子，拆開外在寫法與內在能力的推論。','要反駁只憑一種外在表現便斷定能力受損時。',[['When ','link','設定情境'],['people type “u” instead of “you” or leave out punctuation in a quick message to a friend','slot','朋友短訊使用縮寫或省標點'],[', they are usually choosing ','link','解釋常見目的'],['speed and convenience','slot','速度便利'],[', not showing that ','link','排除過度推論'],['they have forgotten standard English.','slot','忘了標準英語']])),
+  S('This is similar to how people talk one way with family and another way in a job interview.','This 回指短訊與正式語言切換；similar to 用口語場景類比。','類比指出能切換語境，未主張所有場合規範相同。',[3,5,6],
+    F('This is similar to the way people speak differently [在家] and [面試]','以口語場景說明同一人可依對象和目的改變表達方式。','提出一個具體例子後，要說明不同情境切換做法並非新現象時。',[['This is similar to the way people speak differently ','link','引入語境類比'],['at home','slot','在家'],[' and ','link','對照'],['in a job interview.','slot','面試']])),
+  S('A pupil may write casually to friends but still use full sentences and correct spelling in a test.','may...but can still... 以同一人跨場合表現，證明非正式寫法與正式能力可以共存。','例子不保證每個學生都會寫好考卷，主張只是可以切換。',[3,4,6],
+    F('A student may [群組隨意書寫], but the same student can still [考試使用正式文法拼字]','用同一人兩種寫作場合，排除把短訊習慣直接等同能力喪失。','用類比說明情境差異後，要加入更貼近原題的實際例子時。',[['A student may ','link','容許非正式行為'],['write casually in a group chat','slot','群組隨意書寫'],[', but the same student can still ','link','同一人仍能'],['use full sentences, correct spelling, and formal vocabulary in an examination.','slot','考試使用正式文法拼字']])),
+  S('In this sense, texting is not the death of spelling; it is another style for a different situation.','not...; it is... 重新界定短訊：語域而非文法死亡。','此句收束第一段，沒有宣稱所有非正式寫作都合適。',[3,5,7],
+    F('In this sense, [短訊] is not [文法死亡]; it is simply [另一種溝通語域]','由例子歸納：看似不正式的短訊寫法服務不同情境。','首段末要概括兩種看似相反的做法可以並存時。',[['In this sense, ','link','由例子概括'],['texting','slot','短訊'],[' is not ','link','否定錯誤標籤'],['the death of grammar','slot','文法死亡'],['; it is simply ','link','重新界定'],['another register of communication.','slot','另一種溝通語域']])),
+  S('Another important point is that online work has made writing a regular daily habit for many people.','Another important point 引出第二理由：數位環境使書寫更頻繁。','頻繁接觸不自動保證人人精通文法，後文仍承認有粗心寫作。',[6,8,9],
+    F('Another important point is that [數位溝通] has made [寫作] [更常見的日常活動]','第二段從語境切換轉向寫作接觸的頻率。','證明一項能力仍可保留後，接着要指出新做法可能提供正面練習時。',[['Another important point is that ','link','另一論點'],['digital communication','slot','數位溝通'],[' has made ','link','使其成為'],['writing','slot','寫作'],[' ','link','連接補語'],['a more regular part of daily life.','slot','更常見的日常活動']])),
+  S('Many people now write emails, comments and work notes each day, so they meet written language more often.','so 由每日撰寫多種內容，推到接觸書面語言的頻率；不是只談電郵。','因果關係不限於某個群體，也沒有保證寫得都正確。',[7,9,10],
+    F('Many people now [每天撰寫多種內容], so they are [比過去更常接觸書面語]','以日常寫作清單支撐數位溝通增加文字接觸的論點。','提出某行為更常見後，要列出實際形式及可能結果時。',[['Many people now ','link','引出每日習慣'],['compose emails, online comments, captions, messages, and work updates every day','slot','每天撰寫多種內容'],[', so they are ','link','推出結果'],['exposed to written language far more often than previous generations were.','slot','比過去更常接觸書面語']])),
+  S('Admittedly, some posts are careless, but teachers, workplace rules and checking tools can help correct poor writing habits.','Admittedly 承認反例；but 轉向學校、工作和工具等糾正機制。','不是說所有粗心習慣都必然被糾正，而是指出存在糾正力量。',[7,8,10],
+    F('Admittedly, [有些網上寫作粗心], but [壞習慣] are corrected by [多種教育與社會機制]','先承認數位寫作會出錯，再說明為何這不等於文法必然被摧毀。','論述頻繁練習的好處時，要正面處理品質欠佳的反例時。',[['Admittedly, ','link','承認反例'],['some online writing is careless','slot','有些網上寫作粗心'],[', but ','link','轉入限制'],['poor habits','slot','壞習慣'],[' are corrected by ','link','可能受糾正'],['school, professional expectations, grammar-checking tools, and the need to be taken seriously in public or workplace settings.','slot','多種教育與社會機制']])),
+  S('For example, a worker may use short forms with friends yet still check a client report carefully.','may...yet still... 用同一人展示朋友訊息與客戶文件可使用不同標準。','這是能依受眾調整的具體例子，不是說客戶文件可以隨意縮寫。',[5,9,11],
+    F('For example, [員工與朋友用縮寫], yet still [發送客戶建議前仔細查拼字]','用職場實例說明專業後果會促使寫作者採用正式標準。','列出糾正力量後，要給出一個可觀察的行為例子時。',[['For example, ','link','引出例子'],['an employee may use abbreviations with friends','slot','員工與朋友用縮寫'],[', yet still ','link','同一人轉換標準'],['check spelling carefully before sending a proposal to a client.','slot','發送客戶建議前仔細查拼字']])),
+  S('The need to communicate clearly has not vanished; if anything, it is more visible in public writing.','has not...; if anything... 否定要求消失，並進一步說它更顯眼。','此句概括寫作增加和被認真看待的社會壓力。',[8,9,10],
+    F('[清楚溝通的壓力] has not disappeared; if anything, it has become [更明顯]','在第二段末反駁文法要求已消失的推斷。','承認缺點並交代修正機制後，要作審慎結論時。',[['The pressure to communicate clearly','slot','清楚溝通的壓力'],[' has not disappeared; if anything, it has become ','link','否定消失並強調'],['more visible.','slot','更明顯']])),
+  S('In conclusion, I do not believe that group chats will destroy spelling and grammar.','In conclusion 重申不相信極端破壞預測，直接回應題目。','反對「destroy」不等於說網上寫作永無問題。',[0,1,13],
+    F('In conclusion, I do not believe that [即時網上溝通] will destroy [文法拼字]','結論直接否定「數位短訊會毀掉正式語言」的核心預測。','完成兩方面論證後，要重答題目的長期影響判斷時。',[['In conclusion, I do not believe that ','link','總結立場'],['instant online communication','slot','即時網上溝通'],[' will destroy ','link','不信會破壞'],['grammar and spelling.','slot','文法拼字']])),
+  S('Although short messages encourage a simpler style, students can still adjust language for teachers and friends.','Although 承認短訊風格較簡；can still 強調可依目的與讀者切換。','並未聲稱同一種縮寫在考試或正式文件也合適。',[5,6,12],
+    F('Although [短訊鼓勵簡短風格], people can still adjust [語言] according to [目的與讀者]','以具體可操作的語境調整，收束第一主體段的主要理路。','結論承認新做法較簡略，同時說明它何以不會消滅正式能力時。',[['Although ','link','承認影響'],['texting encourages a shorter and simpler style','slot','短訊鼓勵簡短風格'],[', people can still adjust ','link','仍可調整'],['their language','slot','語言'],[' according to ','link','依據'],['purpose and audience.','slot','目的與讀者']])),
+  S('Grammar is not dead; people use it differently across situations.','not...; it is... 用極簡對照留下最終觀點：語言形式會按場合轉換。','不是說正式規則不重要，而是反對它因短訊存在便死亡。',[6,12,13],
+    F('[文法] is not [死亡]; it is being used [更靈活]','一句話總結「文法並未被破壞，而是可依語境使用」。','文章最後要以短而有力、但不誇張的句子收束時。',[['Grammar','slot','文法'],[' is not ','link','否定'],['dying','slot','死亡'],['; it is being used ','link','重新界定'],['more flexibly.','slot','更靈活']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
+const intro=[
+  Q('作者是否相信短訊和即時網上對話最終會毀掉文法和拼字能力？',[
+    '不同意：非正式寫法要看語境；數位溝通還讓人更常接觸文字',
+    '完全同意：一個「u」就證明寫作者忘了標準英語',
+    '認為正式文章也應完全照搬朋友短訊的風格',
+    '沒有立場：只列網上平台的名稱',
+  ],'引言說 I disagree；兩條理由分別是 context 和 awareness of written language。'),
+  {type:'multi',prompt:'選出兩條不同的反駁路線',detail:'選兩項，再按「確認」。',options:[
+    '朋友短訊與正式文件本來使用不同語域，同一人可按情境切換',
+    '數位生活增加日常寫作；教育、工作要求與檢查工具仍可糾正習慣',
+    '所有網上文字都比學術文章更正式',
+    '只要寫得快，就永遠不需在客戶文件中檢查拼字',
+  ],correct:[0,1],why:'第一段重點是語域，第二段重點是文字接觸頻率與糾正機制。'},
+];
+const route=[sequence('先排好全文四段',[
+  ['引言 · 反對毀滅預測','作者反對短訊將毀掉文法，提出語境與書面語意識兩條理由。'],
+  ['主體段一 · 語域切換','縮寫和省略標點可服務快速私訊；同一人在考試仍可使用正式寫法。'],
+  ['主體段二 · 寫得更多','日常數位寫作增加；學校、職場和檢查工具也促使人保持清楚表達。'],
+  ['結論 · 靈活而非死亡','短訊風格較簡，但人可依目的和受眾調整語言；文法被更靈活地使用。'],
+],'簡化寫法的擔憂 → 語境解釋 → 日常寫作與糾正力量 → 文法可靈活運用。')];
+const evidence=[
+  Q('「u」代替「you」的例子，最主要反駁哪個推論？',[
+    '朋友短訊中選擇快速寫法，不足以證明忘記標準英語',
+    '使用縮寫便證明所有正式規則都已消失',
+    '朋友短訊與學術文章必須採用完全相同的風格',
+    '只要快，就可在任何文件中隨意拼字',
+  ],'usually choosing speed and convenience, not showing...forgotten standard English 是原句核心。'),
+  Q('在家與求職面試說話方式不同，為何能支持作者？',[
+    '同一人能按場合調整語言，寫短訊與正式作文也可使用不同標準',
+    '每個人在家都忘記了正式詞語',
+    '一改變說話方式，便永遠失去另一種方式',
+    '面試不需要任何清楚表達能力',
+  ],'類比證明語域切換是正常能力，非語法死亡。'),
+  Q('群組聊天的學生和考試中的同一學生，如何形成關鍵對照？',[
+    '可在聊天中隨意寫，考試時仍使用完整句子、正確拼字與正式詞彙',
+    '在聊天中用縮寫，就一定在考試中不能寫完整句子',
+    '考試的正式詞彙應完全換成所有朋友用的簡寫',
+    '聊天和考試在原文中被視為相同目的與受眾',
+  ],'same student can still... 直接檢驗非正式習慣是否必然摧毀正式能力。'),
+  Q('作者承認網上寫作存在甚麼問題，又指出哪些糾正力量？',[
+    '有些寫作粗心；學校、職場期望、文法檢查工具和被認真看待的需要可促使改進',
+    '每條網上訊息都完美，所以不需任何糾正',
+    '一旦有粗心寫作，學校便不能再教文法',
+    '只有手機自動更正會影響書寫，工作要求不會',
+  ],'Admittedly...but... 明確承認反例再列四類糾正力量。'),
+  Q('每天寫電郵、留言與工作更新，與第二主體段有甚麼關係？',[
+    '數位溝通使人更常接觸書面語言，不能只把它看成寫作消失',
+    '寫得越多，便必然每一句都無錯',
+    '數位平台令任何人不再需要寫字',
+    '只有紙本文件才包含書面語言',
+  ],'so...exposed to written language far more often 推出頻率增加，不保證品質必然提高。'),
+  Q('員工向客戶發送建議書前檢查拼字，說明甚麼？',[
+    '同一人可與朋友用縮寫，但在專業情境調整標準並仔細檢查',
+    '只要和朋友用縮寫，就不可能替客戶寫建議書',
+    '客戶文件與朋友短訊必須使用完全相同標準',
+    '職場不重視清楚寫作，所以不用檢查',
+  ],'yet still 展示專業受眾和目的促使語言切換。'),
+];
+const logic=[
+  sequence('第一主體段：短訊簡寫為何不等於文法能力喪失？',[
+    ['第一理由','朋友短訊與正式文章本來不使用完全相同的規範。'],
+    ['具體寫法','「u」和省略標點多為快速方便的情境選擇。'],
+    ['類比說明','同一人在家與面試說話方式也會不同。'],
+    ['學生驗證','群組聊天隨意的人，考試仍可寫完整句和正確拼字。'],
+    ['段落概括','短訊是一種不同溝通語域，非文法死亡。'],
+  ],'非正式寫法有不同目的 → 同一人可按情境切換 → 不能由縮寫推定能力消失。'),
+  sequence('第二主體段：數位溝通為何不必削弱書寫？',[
+    ['另一觀點','數位溝通使寫作更常出現在日常生活。'],
+    ['接觸頻率','電郵、留言、圖片說明及工作更新增加文字接觸。'],
+    ['承認反例','有些網上寫作確實粗心。'],
+    ['糾正力量','學校、工作要求、檢查工具和社會期望可促使改正。'],
+    ['員工例子','與朋友用縮寫，對客戶文件仍仔細查拼字。'],
+    ['段落結論','清楚溝通的要求沒有消失，反而可能更顯眼。'],
+  ],'日常文字接觸增加 → 粗心習慣仍可受不同情境要求糾正 → 清楚書寫依然重要。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const transfer=[
+  T('一名學生在朋友群組輸入「u」，老師因此斷定他已經不會拼寫「you」。','哪項最能運用第一主體段？',[
+    '先看語境：聊天簡寫可能是求快，不等於正式拼字能力消失',
+    '只要寫過「u」，便永遠不能在考試中寫「you」',
+    '朋友聊天與考試必須使用完全相同的文風',
+    '為求方便，所有正式作文也應改用「u」',
+  ],[
+    '範文把快速選擇與忘記標準英語明確分開。',
+    '一次簡寫不能證明永久失能。',
+    '兩種場合規範不同。',
+    '範文沒有建議在正式作文中用聊天簡寫。',
+  ],[2,3,5,6],'範文以 “u” 例子反對把非正式選擇當成正式能力喪失。'),
+  T('一名員工對朋友寫「thx」，對客戶則寫完整感謝信。','哪項最能解釋兩種寫法？',[
+    '員工按受眾和目的切換語域，兩種寫法可在不同情境並存',
+    '對朋友用短寫法，便證明他不能寫完整信件',
+    '客戶信與朋友私訊的規範必須毫無差異',
+    '只有對朋友的寫法能顯示員工全部語言能力',
+  ],[
+    '這對應同一學生或員工可在聊天與正式場合採不同標準。',
+    '短寫法不等於不能寫長信。',
+    '兩者目的與讀者不同。',
+    '不能只憑單一場合推定全部能力。',
+  ],[4,5,10,13],'範文以 same student 及 employee with friends/client 對比語域切換。'),
+  T('學校發現學生每天在網上寫留言，就宣布：「寫得多，所以每個人的文法必定正確。」','哪項最貼近第二主體段的限定？',[
+    '文字接觸增加不保證無錯；仍需教育、正式要求與檢查習慣',
+    '只要寫留言，就不可能寫出任何錯字',
+    '留言越多，學校越不必教正式寫作',
+    '因有粗心留言，便可斷定學生從不接觸書面語',
+  ],[
+    '範文同時說文字接觸增加並承認有些網上寫作粗心。',
+    '頻率與準確度不同。',
+    '學校是糾正力量之一。',
+    '留言本身仍是文字接觸。',
+  ],[7,8,9],'範文的 Admittedly...but... 防止把「更常寫」推成「必定寫對」。'),
+  T('社團要寫給新生的正式通知，學生直接貼上朋友聊天的縮寫。','哪項改進最符合全文原則？',[
+    '按正式通知的目的和讀者，改用完整句子、清楚標點及準確拼字',
+    '既然聊天可用縮寫，正式通知也必須照搬',
+    '只要有縮寫，學生便再也學不會正式寫作',
+    '因正式通知要清楚，所有朋友私訊也必須像公文',
+  ],[
+    '範文強調依目的和受眾調整，正式通知應採相應規範。',
+    '不同語域不應混用。',
+    '一次錯用可修改，不證明永久失能。',
+    '朋友私訊不須一律採公文風格。',
+  ],[2,5,6,13],'範文結論說 adjust language according to purpose and audience。'),
+  T('一名學生在家說話很隨意，面試時卻能清楚正式地回答。','這最能支持哪個語言觀點？',[
+    '同一人可依場合改變表達，聊天與考試的書寫也可如此',
+    '在家說話隨意，便一定無法完成面試',
+    '面試與家庭談話必須遵守完全一樣的規範',
+    '一旦學會正式用語，便不可能再與家人輕鬆交談',
+  ],[
+    '範文正用家中與面試的口語差異類比書面語域切換。',
+    '例子展示可切換。',
+    '場合要求本來不同。',
+    '掌握正式方式不會抹去日常方式。',
+  ],[4,5,6],'範文說 speak differently at home and in a job interview。'),
+  T('小型公司要求員工發客戶建議書前用拼字工具檢查，平日群組聊天則較隨意。','哪項最能解釋這項安排？',[
+    '專業受眾需要清楚可信，工具和職場期望可促使正式文件改進',
+    '拼字工具存在，便證明員工永遠不會粗心',
+    '客戶建議書的標準應與朋友聊天完全一致',
+    '員工聊天較隨意，所以不必再檢查客戶文件',
+  ],[
+    '這把範文所說的職場要求、檢查工具與客戶例子結合。',
+    '工具不能保證零錯，但可協助糾正。',
+    '目的與受眾不同。',
+    '聊天隨意不會取消正式責任。',
+  ],[9,10,11,13],'範文列 professional expectations 和 grammar-checking tools，並舉檢查 proposal 的員工。'),
+  T('一名評論者看見貼文少了標點，便說「數位時代讓文法死亡」。','哪項最能指出過度概括？',[
+    '一則非正式貼文不能代表所有情境的寫作能力，更不能證明文法已消失',
+    '任何省標點的貼文都必然是正式文件',
+    '文法已死亡，所以考試不會再看拼字',
+    '只要貼文有標點，作者在所有正式場合必然完美',
+  ],[
+    '範文區分短訊語域與正式能力，也否定「文法死亡」的極端說法。',
+    '貼文通常有其非正式語境。',
+    '範文指出正式場合仍有要求。',
+    '一則貼文也不能保證全面能力。',
+  ],[3,5,6,12,14],'範文說 texting is not the death of grammar，最後重申 Grammar is not dying。'),
+  T('學生每天寫遊戲社群留言，又每週修改一篇正式作文。','哪項最符合第二主體段的積極可能性？',[
+    '數位活動增加書面語接觸，作文修改又提供使用正式規範的機會',
+    '留言一多，正式作文便再也無法修改',
+    '只要每天寫留言，正式寫作便必然完美',
+    '正式作文與留言沒有任何共同的文字基礎',
+  ],[
+    '範文說數位生活使寫作更常見，正式場景仍要求清楚表達。',
+    '兩種活動可以並存。',
+    '頻繁書寫不保證必然正確。',
+    '兩者都是文字使用，只是語域不同。',
+  ],[7,8,9,13],'範文把 daily writing 的增長與正式期望仍存在兩點結合。'),
+  T('一位家長說：「孩子只要在網上寫錯一次，將來必定不能用正確英文。」','哪項最忠實於文章的推論範圍？',[
+    '一次錯誤不足以預言能力毀滅；學校、練習與正式用途仍可協助改正',
+    '一次錯誤能保證孩子日後永遠錯下去',
+    '既然可以改正，網上寫作便永不會有粗心問題',
+    '只要學校教文法，孩子便不必再留意受眾',
+  ],[
+    '範文承認粗心，但列出糾正機制，反對絕對化長期預測。',
+    '單次錯誤不證明永久結果。',
+    '可改正不等於沒有錯誤。',
+    '仍須按目的和受眾調整。',
+  ],[0,9,12,13],'範文用 Admittedly 承認問題，以 school 等力量反駁必然毀滅。'),
+  T('一名設計師對朋友傳表情符號和縮寫，對公共展覽卻寫清楚的說明文字。','哪項最能說明「語域」？',[
+    '同一人可為不同讀者使用不同風格，而保持正式表達能力',
+    '只有公共展覽的文字才算語言，朋友訊息不算',
+    '使用表情符號便證明不能寫完整句子',
+    '一種語域存在，另一種語域便必須消失',
+  ],[
+    '範文稱短訊為另一種溝通語域，重點在情境選擇。',
+    '朋友訊息仍是溝通。',
+    '簡寫不足以證明不能正式書寫。',
+    '語域可以並存。',
+  ],[2,5,6,13],'範文的 register of communication 對應目的與受眾差異。'),
+  T('校刊編輯主張完全禁止網上寫作，理由是有些帖子粗心。','哪項最能平衡反例與益處？',[
+    '承認帖子可能粗心，同時教學生核對正式稿件並善用日常寫作機會',
+    '因有錯誤，便否定數位生活增加文字接觸的事實',
+    '只要容許網上寫作，就無須再教正確拼字',
+    '要避免錯誤，便令所有學生停止寫任何文字',
+  ],[
+    '這對應範文「承認粗心—指出糾正力量」的論證方式。',
+    '範文仍說寫作更常見。',
+    '增加寫作不會取代正式指導。',
+    '停止書寫不是範文的解方。',
+  ],[7,8,9,10],'範文承認 careless writing，並列教育與專業要求等糾正機制。'),
+  T('一個學生把短訊縮寫當作唯一寫法，另一個能在短訊、作文和工作電郵間調整語言。','哪個學習目標最接近文章結論？',[
+    '學會按目的與讀者選擇適合的完整度和詞語，而非只守一種寫法',
+    '把所有正式作文都改成朋友短訊的縮寫',
+    '只會正式寫作，不需理解朋友訊息的場合',
+    '只要有三種場景，正確拼字便不再重要',
+  ],[
+    '範文最後說文法可被更靈活使用，而目的與受眾決定寫法。',
+    '正式文章仍有其規範。',
+    '理解語境切換更完整。',
+    '靈活不是放棄準確。',
+  ],[5,6,13,14],'範文結論為 adjust according to purpose and audience，Grammar is not dying。'),
+];
+const reviewedTransferOptions=[
+  ['聊天簡寫或求快，不等於正式拼字能力消失','寫過「u」，便永遠不能在考試中再正確寫「you」','朋友聊天與考試，必須使用完全相同文風','圖方便，正式作文也應一律改用「u」寫作'],
+  ['員工按受眾切換寫法，兩種語域可並存','對朋友用短寫法，便證明不能寫完整信件','客戶信與私訊，必須遵守完全相同規範','朋友私訊足以顯示員工全部語言能力'],
+  ['接觸文字多仍會犯錯，須靠教育與檢查改進','只要寫留言，便不可能再寫出任何錯字','留言愈多，學校便毋須再教正式寫作','有粗心留言，便證明從未接觸書面語'],
+  ['按正式通知讀者，改用完整句與清楚標點','聊天能用縮寫，正式通知也必須照搬','曾用縮寫，學生便再也學不會正式寫作','通知要清楚，朋友私訊也必須像公文'],
+  ['同一人可因場合改變表達，聊天考試亦然','在家說話隨意，便一定不能完成面試','面試與家庭談話，必須遵守同一套規範','學過正式用語，便不能與家人輕鬆交談'],
+  ['職場期望與工具，可促使員工檢查正式文件','有拼字工具，員工便永遠不會再粗心','建議書標準，應與朋友聊天完全一致','聊天較隨意，客戶文件便毋須再檢查'],
+  ['一則私帖不代表全部能力，更不證明文法消失','任何省標點貼文，必然都是正式的公文','文法已死，所以考試不再看正確的拼字','貼文有標點，正式場合便必然全都完美'],
+  ['數位寫作增接觸，作文修改可練正式規範','留言一多，正式作文便再也無法修改','每天寫留言，正式寫作便必然變完美','正式作文與留言，沒有共同文字基礎'],
+  ['一次錯誤不定未來，學校與練習仍可改正','一次拼字錯誤，便保證孩子永遠錯下去','可以改正，網上寫作便永遠不會粗心','學校教文法，孩子便不必再留意受眾'],
+  ['因讀者不同而換風格，仍可保留正式能力','只有展覽文字算語言，朋友訊息不算','用了表情符號，便不能寫出完整句','一種語域存在，另一種便必須消失'],
+  ['承認帖子或粗心，也教核對稿件並多練習','有錯誤，便否定數位生活增加文字接觸','容許網上寫作，便不用再教正確拼字','為免出錯，讓學生停止寫任何文字'],
+  ['按目的與讀者選擇詞語和完整度，不守一式','把正式作文全改為朋友短訊的縮寫','只學正式寫作，不必理解朋友的訊息','場景一多，正確拼字便完全不再重要'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+const lessObviousAlternatives=[
+  [0,1,'群組簡寫反覆出現，可直接視作考試拼字弱點'],
+  [0,2,'朋友聊天與考試的書寫標準應盡量一致'],
+  [1,2,'客戶信與私訊應優先維持同一種簡潔規範'],
+  [1,3,'朋友私訊可作評估正式寫作的主要證據'],
+  [2,1,'網上留言夠多，拼字問題便會自然減少'],
+  [4,1,'在家說話隨意，面試能力可能因此受限制'],
+  [5,1,'設了拼字工具，員工可減少自行覆核步驟'],
+  [5,2,'客戶建議書可沿用群組內較省字的表達'],
+  [6,1,'省標點貼文較能代表學生平日的正式文風'],
+  [6,3,'貼文有標點，便可推定正式寫作的能力'],
+  [7,2,'每日寫留言已足以取代正式作文的修改'],
+  [8,1,'一次拼字錯誤可作未來能力的主要判據'],
+  [8,2,'已有改正渠道，家長便可少查學生當前錯誤'],
+  [10,3,'為避免錯誤，校刊應先減少學生的公開寫作'],
+  [11,3,'場景變多，正式拼字準確度便可稍後再學'],
+];
+lessObviousAlternatives.forEach(([row,option,wording])=>{transfer[row].options[option]=wording;});
+transfer[0].options[3]='圖方便，正式作文也應一律直接改用「u」寫作';
+transfer[8].explanations[2]='能改正也仍須留意當前錯誤與正式用途。';
+transfer[10].explanations[3]='減少書寫機會不是範文的改進方向。';
+structures[0].example='It is often argued that short messages will eventually destroy students’ ability to write formal essays.';
+structures[1].example='I disagree with this view because casual chat language depends on context, and frequent writing can improve awareness of words.';
+structures[3].example='When friends type “u” or leave out full stops in a quick note, they are usually choosing speed, not showing that they have forgotten spelling.';
+structures[4].example='This is similar to the way people speak differently with family and in a job interview.';
+structures[5].example='A student may write casually to friends, but the same student can still use full sentences and correct spelling in a test.';
+structures[6].example='In this sense, texting is not the death of spelling; it is simply another style for a different situation.';
+structures[8].example='Many people now write emails, comments and work notes each day, so they are meeting written language more often.';
+structures[9].example='Admittedly, some posts are careless, but poor habits are corrected by teachers, workplace rules and checking tools.';
+structures[10].example='For example, a worker may use short forms with friends, yet still check a client report carefully.';
+structures[11].example='The need to communicate clearly has not disappeared; if anything, it has become more visible in public writing.';
+structures[13].example='Although short messages encourage a simpler style, people can still adjust language according to readers and purposes.';
+structures[14].example='Grammar is not dead; it is being used differently across situations.';
+export default {
+  key:'opinion:24',
+  meta:{topic:'短訊語域、文法能力與日常寫作',summary:'作者反對短訊會毀掉文法和拼字的預測。朋友訊息可用較快的非正式語域，而正式寫作仍有不同要求；數位生活也增加文字接觸，學校和職場會促使人寫得清楚。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

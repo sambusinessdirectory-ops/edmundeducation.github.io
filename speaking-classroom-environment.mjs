@@ -95,7 +95,7 @@ export async function createClassroomEnvironment(deskScene,loader=new THREE.Text
  plant(-3.6);plant(5.1);
  for(const x of [-.75,.75]){const desk=deskScene.clone(true);desk.name='Examiner desk';desk.position.set(x,0,2.5);desk.rotation.y=Math.PI;desk.traverse(n=>{if(n.isMesh){n.castShadow=true;n.receiveShadow=true;}});group.add(desk);}
  if(flags){
-  const logoFiles=['Static Images/HKU Logo.png','https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/company-logo.webp'];
+  const logoFiles=['https://edmund-public-media.edmundeducation.workers.dev/Static%20Images/HKU%20Logo.png','https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/company-logo.webp'];
   for(let i=0;i<logoFiles.length;i++){
    const source=await loader.loadAsync(new URL(logoFiles[i],import.meta.url).href);source.colorSpace=THREE.SRGBColorSpace;textures.add(source);
    const canvas=document.createElement('canvas');canvas.width=768;canvas.height=1152;const ctx=canvas.getContext('2d');

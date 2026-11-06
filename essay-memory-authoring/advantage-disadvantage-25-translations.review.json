@@ -1,0 +1,125 @@
+{
+  "key": "advantage-disadvantage:25",
+  "sourceSentenceCount": 16,
+  "reason": "Canonical Traditional Chinese has added, shifted or omitted material; proposed items align one-to-one with physical English sentences.",
+  "sentences": [
+    {
+      "number": 1,
+      "english": "In many countries, once people obtain a driving licence, they can continue driving for years without being formally reassessed.",
+      "sourceChinese": "在許多國家，一旦人們取得駕駛執照，他們之後多年都可以繼續駕駛，而無須再接受正式評估。",
+      "proposedChinese": "在許多國家，一旦人們取得駕駛執照，他們之後多年都可以繼續駕駛，而無須再接受正式評估。"
+    },
+    {
+      "number": 2,
+      "english": "Some therefore argue that motorists should be required to retake their driving test every five years.",
+      "sourceChinese": "因此，有些人認為，駕駛者應該被規定每五年重新參加一次駕駛考試。",
+      "proposedChinese": "因此，有些人認為，駕駛者應該被規定每五年重新參加一次駕駛考試。"
+    },
+    {
+      "number": 3,
+      "english": "This policy would bring certain clear benefits, although it would also create practical difficulties.",
+      "sourceChinese": "這項政策會帶來一些明顯的好處，但同時也會造成實際上的困難。",
+      "proposedChinese": "這項政策會帶來一些明顯的好處，但同時也會造成實際上的困難。"
+    },
+    {
+      "number": 4,
+      "english": "One obvious advantage is that repeated testing could improve road safety by ensuring that drivers still meet an acceptable standard.",
+      "sourceChinese": "一個明顯的優點是，重複測試可以確保駕駛者仍然達到可接受的標準，從而提升道路安全。",
+      "proposedChinese": "一個明顯的優點是，重複測試可以確保駕駛者仍然達到可接受的標準，從而提升道路安全。"
+    },
+    {
+      "number": 5,
+      "english": "Over time, people often develop bad habits such as failing to check mirrors properly, signalling too late, or becoming careless at junctions.",
+      "sourceChinese": "隨著時間過去，人們往往會養成壞習慣，例如沒有正確查看倒後鏡、打方向燈太遲，或者在路口變得粗心。",
+      "proposedChinese": "隨著時間過去，人們往往會養成壞習慣，例如沒有正確查看倒後鏡、打方向燈太遲，或者在路口變得粗心。"
+    },
+    {
+      "number": 6,
+      "english": "A compulsory retest would force them to correct these habits before they caused accidents.",
+      "sourceChinese": "強制性的重考會迫使他們在這些習慣引發交通意外之前作出糾正。",
+      "proposedChinese": "強制性的重考會迫使他們在這些習慣引發交通意外之前作出糾正。"
+    },
+    {
+      "number": 7,
+      "english": "In addition, such a system would help authorities ensure that drivers remain familiar with current traffic laws.",
+      "sourceChinese": "此外，這樣的制度也能幫助當局確保駕駛者仍然熟悉現行交通法規。",
+      "proposedChinese": "此外，這樣的制度也能幫助當局確保駕駛者仍然熟悉現行交通法規。"
+    },
+    {
+      "number": 8,
+      "english": "Road rules do not stand still, and many motorists who passed their test decades ago may be unaware of newer regulations on speed limits, mobile phone use, or cyclist protection.",
+      "sourceChinese": "交通規則並不是一成不變的，而許多在數十年前通過考試的駕駛者，可能並不知道有關車速限制、使用手機或保護單車使用者的新規定。因此，定期評估既可以成為一道安全保障，也可以起到重新溫習和更新知識的作用。",
+      "proposedChinese": "交通規則並非一成不變，而許多在數十年前通過考試的駕駛者，可能不知道關於車速限制、使用手機或保障單車使用者的新規定。"
+    },
+    {
+      "number": 9,
+      "english": "A periodic assessment could therefore act as both a safety net and a refresher.",
+      "sourceChinese": "總體而言，定期重考可以令道路更安全，並讓駕駛者跟上現代法規的更新。",
+      "proposedChinese": "因此，定期評估既可作為安全保障，也可幫助駕駛者重溫規則。"
+    },
+    {
+      "number": 10,
+      "english": "However, the drawbacks are equally significant.",
+      "sourceChinese": "然而，這項做法的缺點同樣相當明顯。",
+      "proposedChinese": "然而，這項做法的缺點同樣相當明顯。"
+    },
+    {
+      "number": 11,
+      "english": "First, making every driver retake the test every five years would place a heavy burden on testing centres and examiners.",
+      "sourceChinese": "首先，要求每位駕駛者每五年重考一次，會對考試中心和考官造成沉重負擔。",
+      "proposedChinese": "首先，要求每位駕駛者每五年重考一次，會對考試中心和考官造成沉重負擔。"
+    },
+    {
+      "number": 12,
+      "english": "In densely populated areas, the number of licence holders is so large that waiting times could become unmanageable, which would frustrate the public and stretch government resources.",
+      "sourceChinese": "在人口稠密的地區，持牌駕駛者的人數十分龐大，等候時間可能會變得難以控制，這不但會令公眾感到不滿，也會令政府資源承受壓力。",
+      "proposedChinese": "在人口稠密的地區，持牌駕駛者的人數十分龐大，等候時間可能會變得難以控制，這不但會令公眾感到不滿，也會令政府資源承受壓力。"
+    },
+    {
+      "number": 13,
+      "english": "Second, this policy could unfairly affect competent drivers with long records of safe driving.",
+      "sourceChinese": "第二，這項政策可能會對那些長期安全駕駛、實際上很有能力的駕駛者造成不公平影響。",
+      "proposedChinese": "第二，這項政策可能會對那些長期安全駕駛、實際上很有能力的駕駛者造成不公平影響。"
+    },
+    {
+      "number": 14,
+      "english": "Someone who has driven responsibly for twenty years may still fail because of nerves on the day rather than genuine incompetence.",
+      "sourceChinese": "一個已經負責任地駕駛了二十年的人，仍然有可能只是因為當天緊張而未能通過考試，而不是因為真正缺乏駕駛能力。",
+      "proposedChinese": "一個已經負責任地駕駛了二十年的人，仍然有可能只是因為當天緊張而未能通過考試，而不是因為真正缺乏駕駛能力。"
+    },
+    {
+      "number": 15,
+      "english": "In that case, the system would punish anxiety instead of improving safety.",
+      "sourceChinese": "在那種情況下，這個制度懲罰的其實是緊張情緒，而不是真正提升道路安全。基於這些原因，強制重考可能會造成嚴重的行政問題，並為某些駕駛者帶來不公平的結果。",
+      "proposedChinese": "在那種情況下，制度懲罰的會是緊張情緒，而非提升道路安全。"
+    },
+    {
+      "number": 16,
+      "english": "In summary, requiring people to retake their driving test every five years could raise driving standards and update drivers’ knowledge, but it could also create serious administrative pressure and unfair outcomes for some motorists.",
+      "sourceChinese": "總結來說，要求人們每五年重新參加一次駕駛考試，可以提升駕駛水平，並更新駕駛者的知識。與此同時，它也可能帶來嚴重的行政壓力，並對某些駕駛者造成不公平的結果。",
+      "proposedChinese": "總括而言，要求人們每五年重考駕駛試，可能提升駕駛水平並更新駕駛者的知識，但也可能造成嚴重的行政壓力，並令部分駕駛者遭遇不公平的結果。"
+    }
+  ],
+  "rawChinese": [
+    "在許多國家，一旦人們取得駕駛執照，他們之後多年都可以繼續駕駛，而無須再接受正式評估。",
+    "因此，有些人認為，駕駛者應該被規定每五年重新參加一次駕駛考試。",
+    "這項政策會帶來一些明顯的好處，但同時也會造成實際上的困難。",
+    "一個明顯的優點是，重複測試可以確保駕駛者仍然達到可接受的標準，從而提升道路安全。",
+    "隨著時間過去，人們往往會養成壞習慣，例如沒有正確查看倒後鏡、打方向燈太遲，或者在路口變得粗心。",
+    "強制性的重考會迫使他們在這些習慣引發交通意外之前作出糾正。",
+    "此外，這樣的制度也能幫助當局確保駕駛者仍然熟悉現行交通法規。",
+    "交通規則並非一成不變，而許多在數十年前通過考試的駕駛者，可能不知道關於車速限制、使用手機",
+    "或保障單車使用者的新規定。",
+    "因此，定期評估既可作為安全保障，也可幫助駕駛者重溫規則。",
+    "然而，這項做法的缺點同樣相當明顯。",
+    "首先，要求每位駕駛者每五年重考一次，會對考試中心和考官造成沉重負擔。",
+    "在人口稠密的地區，持牌駕駛者的人數十分龐大，等候時間可能會變得難以控制，這不但會令公眾感到不滿，也會令政府資源承受壓力。",
+    "第二，這項政策可能會對那些長期安全駕駛、實際上很有能力的駕駛者造成不公平影響。",
+    "一個已經負責任地駕駛了二十年的人，仍然有可能只是因為當天緊張而未能通過考試，而不是因為真正缺乏駕駛能力。",
+    "在那種情況下，",
+    "制度懲罰的會是緊張情緒，而非提升道路安全。",
+    "總括而言，要求人們每五年重考駕駛試，可能提升駕駛水平並更新駕駛者的知識，",
+    "但也可能造成嚴重的行政壓力，並令部分駕駛者遭遇不公平的結果。"
+  ],
+  "rawItemCount": 19
+}

@@ -1,0 +1,1493 @@
+{
+  "date": "2026-10-23T15:54:21.619Z",
+  "scope": "idiom-01 through idiom-138",
+  "lessonCount": 138,
+  "originalQuestionCount": 6900,
+  "compassCoverage": 138,
+  "zeroStructuralIssueLessons": 113,
+  "errorCount": 25,
+  "errors": [
+    "idiom-06 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-07 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-08 REPEATED_RATIONALE_REVIEW: 56",
+    "idiom-09 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-10 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-11 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-12 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-13 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-14 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-15 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-16 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-17 REPEATED_RATIONALE_REVIEW: 51",
+    "idiom-18 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-19 REPEATED_RATIONALE_REVIEW: 54",
+    "idiom-20 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-21 REPEATED_RATIONALE_REVIEW: 180",
+    "idiom-22 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-23 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-24 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-25 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-26 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-27 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-28 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-29 REPEATED_RATIONALE_REVIEW: 60",
+    "idiom-30 REPEATED_RATIONALE_REVIEW: 60"
+  ],
+  "lessons": [
+    {
+      "order": 1,
+      "lessonId": "idiom-01",
+      "title": "Start the Ball Rolling",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 2,
+      "lessonId": "idiom-02",
+      "title": "Shake a Leg",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 3,
+      "lessonId": "idiom-03",
+      "title": "Hit the Ground Running",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 4,
+      "lessonId": "idiom-04",
+      "title": "Chop and Change",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 5,
+      "lessonId": "idiom-05",
+      "title": "Think Big",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 6,
+      "lessonId": "idiom-06",
+      "title": "Strike While the Iron Is Hot",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 7,
+      "lessonId": "idiom-07",
+      "title": "Easy on the Eye",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 8,
+      "lessonId": "idiom-08",
+      "title": "In Your Bones",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 56"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 56
+    },
+    {
+      "order": 9,
+      "lessonId": "idiom-09",
+      "title": "Open-and-shut",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 10,
+      "lessonId": "idiom-10",
+      "title": "See Which Way the Cat Jumps",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 11,
+      "lessonId": "idiom-11",
+      "title": "Better Safe Than Sorry",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 12,
+      "lessonId": "idiom-12",
+      "title": "Play with Fire",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 13,
+      "lessonId": "idiom-13",
+      "title": "Add Fuel to the Fire",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 14,
+      "lessonId": "idiom-14",
+      "title": "Talk Big",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 15,
+      "lessonId": "idiom-15",
+      "title": "A Ball of Fire",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 16,
+      "lessonId": "idiom-16",
+      "title": "Break the Bank",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 17,
+      "lessonId": "idiom-17",
+      "title": "Cost an Arm and a Leg",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 51"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 51
+    },
+    {
+      "order": 18,
+      "lessonId": "idiom-18",
+      "title": "Built on Sand",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 19,
+      "lessonId": "idiom-19",
+      "title": "Under a Cloud",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 54"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 54
+    },
+    {
+      "order": 20,
+      "lessonId": "idiom-20",
+      "title": "A Dark Horse",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 21,
+      "lessonId": "idiom-21",
+      "title": "The Law of the Jungle",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 180"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 180
+    },
+    {
+      "order": 22,
+      "lessonId": "idiom-22",
+      "title": "Take the Plunge",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 23,
+      "lessonId": "idiom-23",
+      "title": "Have Many Irons in the Fire",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 24,
+      "lessonId": "idiom-24",
+      "title": "Above Yourself",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 25,
+      "lessonId": "idiom-25",
+      "title": "The Acid Test",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 26,
+      "lessonId": "idiom-26",
+      "title": "hang up your boots",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 27,
+      "lessonId": "idiom-27",
+      "title": "in a dog’s age",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 28,
+      "lessonId": "idiom-28",
+      "title": "be like oil and water",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 29,
+      "lessonId": "idiom-29",
+      "title": "a lion in the way",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 30,
+      "lessonId": "idiom-30",
+      "title": "The Lion’s Mouth",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [
+        "REPEATED_RATIONALE_REVIEW: 60"
+      ],
+      "distinctGuidedChoices": 12,
+      "mostRepeatedRationale": 60
+    },
+    {
+      "order": 31,
+      "lessonId": "idiom-31",
+      "title": "Fight Like Cat and Dog",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 32,
+      "lessonId": "idiom-32",
+      "title": "fight fire with fire",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 33,
+      "lessonId": "idiom-33",
+      "title": "turn the tables",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 34,
+      "lessonId": "idiom-34",
+      "title": "sticky fingers",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 35,
+      "lessonId": "idiom-35",
+      "title": "make or break something",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 36,
+      "lessonId": "idiom-36",
+      "title": "big fish",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 37,
+      "lessonId": "idiom-37",
+      "title": "the moment of truth",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 38,
+      "lessonId": "idiom-38",
+      "title": "face the music",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 39,
+      "lessonId": "idiom-39",
+      "title": "a meeting of minds",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 40,
+      "lessonId": "idiom-40",
+      "title": "Go Through Fire",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 41,
+      "lessonId": "idiom-41",
+      "title": "eat dirt",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 42,
+      "lessonId": "idiom-42",
+      "title": "turn a blind eye to",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 43,
+      "lessonId": "idiom-43",
+      "title": "go bananas",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 44,
+      "lessonId": "idiom-44",
+      "title": "under the weather",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 45,
+      "lessonId": "idiom-45",
+      "title": "be all ears",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 46,
+      "lessonId": "idiom-46",
+      "title": "First Among Equals",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 47,
+      "lessonId": "idiom-47",
+      "title": "point the finger",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 48,
+      "lessonId": "idiom-48",
+      "title": "make your blood boil",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 49,
+      "lessonId": "idiom-49",
+      "title": "half the battle",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 50,
+      "lessonId": "idiom-50",
+      "title": "back the wrong horse",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 51,
+      "lessonId": "idiom-51",
+      "title": "bark up the wrong tree",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 52,
+      "lessonId": "idiom-52",
+      "title": "meet trouble halfway",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 53,
+      "lessonId": "idiom-53",
+      "title": "raise the devil",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 54,
+      "lessonId": "idiom-54",
+      "title": "get under someone’s skin",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 55,
+      "lessonId": "idiom-55",
+      "title": "a breath of fresh air",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 56,
+      "lessonId": "idiom-56",
+      "title": "in the blink of an eye",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 57,
+      "lessonId": "idiom-57",
+      "title": "turn over a new leaf",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 58,
+      "lessonId": "idiom-58",
+      "title": "give up the ghost",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 59,
+      "lessonId": "idiom-59",
+      "title": "The Dead of Winter",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 60,
+      "lessonId": "idiom-60",
+      "title": "The Dead of Night",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 61,
+      "lessonId": "idiom-61",
+      "title": "breathe fire",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 62,
+      "lessonId": "idiom-62",
+      "title": "a paper tiger",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 63,
+      "lessonId": "idiom-63",
+      "title": "kill two birds with one stone",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 64,
+      "lessonId": "idiom-64",
+      "title": "take a back seat",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 65,
+      "lessonId": "idiom-65",
+      "title": "Two-Way Street",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 66,
+      "lessonId": "idiom-66",
+      "title": "a bitter pill (to swallow)",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 67,
+      "lessonId": "idiom-67",
+      "title": "a blank cheque",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 68,
+      "lessonId": "idiom-68",
+      "title": "a black sheep",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 69,
+      "lessonId": "idiom-69",
+      "title": "bite the dust",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 70,
+      "lessonId": "idiom-70",
+      "title": "Top Dollar",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 71,
+      "lessonId": "idiom-71",
+      "title": "a house of cards",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 72,
+      "lessonId": "idiom-72",
+      "title": "Divide and Rule",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 73,
+      "lessonId": "idiom-73",
+      "title": "a halfway house",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 74,
+      "lessonId": "idiom-74",
+      "title": "Jump on the Bandwagon",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 75,
+      "lessonId": "idiom-75",
+      "title": "born to the purple",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 76,
+      "lessonId": "idiom-76",
+      "title": "pigs might fly",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 77,
+      "lessonId": "idiom-77",
+      "title": "Shoulder to Shoulder",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 78,
+      "lessonId": "idiom-78",
+      "title": "a shoulder to cry on",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 79,
+      "lessonId": "idiom-79",
+      "title": "A Little Bird Told Me",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 80,
+      "lessonId": "idiom-80",
+      "title": "bell the cat",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 81,
+      "lessonId": "idiom-81",
+      "title": "a sacred cow",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 82,
+      "lessonId": "idiom-82",
+      "title": "Walk on Eggs / Walk on Eggshells",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 83,
+      "lessonId": "idiom-83",
+      "title": "at the crossroads",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 84,
+      "lessonId": "idiom-84",
+      "title": "Have a Lot of Bottle",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 85,
+      "lessonId": "idiom-85",
+      "title": "cold feet",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 86,
+      "lessonId": "idiom-86",
+      "title": "go cold turkey",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 87,
+      "lessonId": "idiom-87",
+      "title": "go hot and cold",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 88,
+      "lessonId": "idiom-88",
+      "title": "a Trojan horse",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 89,
+      "lessonId": "idiom-89",
+      "title": "put your heads together",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 90,
+      "lessonId": "idiom-90",
+      "title": "pick someone’s brains",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 91,
+      "lessonId": "idiom-91",
+      "title": "Turn The Corner",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 92,
+      "lessonId": "idiom-92",
+      "title": "have your heart in your mouth",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 93,
+      "lessonId": "idiom-93",
+      "title": "not just a pretty face",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 94,
+      "lessonId": "idiom-94",
+      "title": "Slip on a Banana Skin",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 95,
+      "lessonId": "idiom-95",
+      "title": "second banana",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 96,
+      "lessonId": "idiom-96",
+      "title": "a bag of bones",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 97,
+      "lessonId": "idiom-97",
+      "title": "back to square one",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 98,
+      "lessonId": "idiom-98",
+      "title": "A Bird’s-Eye View",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 99,
+      "lessonId": "idiom-99",
+      "title": "lick your wounds",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 100,
+      "lessonId": "idiom-100",
+      "title": "play it safe",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 101,
+      "lessonId": "idiom-101",
+      "title": "top banana",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 102,
+      "lessonId": "idiom-102",
+      "title": "the beautiful people",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 103,
+      "lessonId": "idiom-103",
+      "title": "get it in the neck",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 104,
+      "lessonId": "idiom-104",
+      "title": "a back-seat driver",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 105,
+      "lessonId": "idiom-105",
+      "title": "a running battle",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 106,
+      "lessonId": "idiom-106",
+      "title": "(fight) a losing battle",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 107,
+      "lessonId": "idiom-107",
+      "title": "A Pitched Battle",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 108,
+      "lessonId": "idiom-108",
+      "title": "it takes two to tango",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 109,
+      "lessonId": "idiom-109",
+      "title": "A Tiger In Your Tank",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 110,
+      "lessonId": "idiom-110",
+      "title": "bad blood",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 111,
+      "lessonId": "idiom-111",
+      "title": "fit like a glove",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 112,
+      "lessonId": "idiom-112",
+      "title": "as sure as eggs is eggs",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 113,
+      "lessonId": "idiom-113",
+      "title": "At Sixes and Sevens",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 114,
+      "lessonId": "idiom-114",
+      "title": "a bed of roses",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 115,
+      "lessonId": "idiom-115",
+      "title": "cost the earth",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 116,
+      "lessonId": "idiom-116",
+      "title": "hang fire",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 117,
+      "lessonId": "idiom-117",
+      "title": "speak of the devil",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 118,
+      "lessonId": "idiom-118",
+      "title": "go with the tide",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 119,
+      "lessonId": "idiom-119",
+      "title": "Bury Your Head in the Sand",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 120,
+      "lessonId": "idiom-120",
+      "title": "spill the beans",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 121,
+      "lessonId": "idiom-121",
+      "title": "show your hand",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 122,
+      "lessonId": "idiom-122",
+      "title": "In Black and White",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 123,
+      "lessonId": "idiom-123",
+      "title": "a blessing in disguise",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 124,
+      "lessonId": "idiom-124",
+      "title": "beginner’s luck",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 125,
+      "lessonId": "idiom-125",
+      "title": "eat humble pie",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 126,
+      "lessonId": "idiom-126",
+      "title": "apples and oranges",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 127,
+      "lessonId": "idiom-127",
+      "title": "Diamond Cuts Diamond",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 128,
+      "lessonId": "idiom-128",
+      "title": "walk on air",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 129,
+      "lessonId": "idiom-129",
+      "title": "on cloud nine",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 130,
+      "lessonId": "idiom-130",
+      "title": "nine times out of ten",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 131,
+      "lessonId": "idiom-131",
+      "title": "dice with death",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 132,
+      "lessonId": "idiom-132",
+      "title": "smoke and mirrors",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 133,
+      "lessonId": "idiom-133",
+      "title": "Sick to Your Stomach",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 134,
+      "lessonId": "idiom-134",
+      "title": "Upset the Apple Cart",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 135,
+      "lessonId": "idiom-135",
+      "title": "set one’s heart on",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 136,
+      "lessonId": "idiom-136",
+      "title": "full of beans",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 137,
+      "lessonId": "idiom-137",
+      "title": "Which Way the Wind Blows",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    },
+    {
+      "order": 138,
+      "lessonId": "idiom-138",
+      "title": "once in a blue moon",
+      "originalCount": 50,
+      "bonusCount": 10,
+      "guidePresent": true,
+      "issues": [],
+      "distinctGuidedChoices": 12
+    }
+  ]
+}

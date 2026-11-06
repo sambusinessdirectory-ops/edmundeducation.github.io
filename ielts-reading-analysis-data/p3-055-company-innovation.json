@@ -1,0 +1,1790 @@
+{
+  "id": "p3-055-company-innovation",
+  "catalogueId": "p3-055",
+  "catalogueIds": [
+    "p3-055"
+  ],
+  "passage": 3,
+  "title": "Company Innovation",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "F",
+    "C",
+    "F",
+    "B",
+    "F",
+    "E",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "C",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "an approach to retaining the best employees",
+      "translation": "一種留住最佳員工的方法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some giants, including General Electric and Cisco, have been remarkably successful at snapping up and integrating scores of small companies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些巨企，包括 General Electric 和 Cisco，在收購並整合大量小公司方面非常成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Elsewhere, the search for innovation has led to a craze for ‘intrapreneurship’—devolving power, setting up internal ideas factories and offering tracking stock so that talented staff will not leave.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他地方，尋找創新的過程帶來了 “intrapreneurship” 熱潮，包括下放權力、建立內部創意工廠，以及提供 tracking stock，讓有才華的員工不會離開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 明顯談大公司如何處理小公司、人才和內部創新。題目問 retaining best employees，最後一句的 talented staff will not leave 非常貼近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“retaining”"
+            },
+            {
+              "kind": "quote",
+              "text": "“best employees”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有用 retaining，但用了："
+            },
+            {
+              "kind": "quote",
+              "text": "“so that talented staff will not leave”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好是 retain 的意思：讓人才留下。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Elsewhere, the search for innovation has led to a craze for ‘intrapreneurship’—devolving power, setting up internal ideas factories and offering tracking stock so that talented staff will not leave.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他地方，尋找創新的過程帶來了 “intrapreneurship” 熱潮：下放權力、建立內部創意工廠、提供 tracking stock，目的在於讓有才華的員工不離開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “best employees” 是原文 “talented staff” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“retaining” 對應 “will not leave”。“an approach” 對應 intrapreneurship、tracking stock 等方法。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "increased spending on acquiring innovative ideas",
+      "translation": "用更多金錢去取得創新 ideas。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A new book by two consultants from Arthur D. Little records that, over the past 15 years, the top 20 per cent of firms in an annual innovation poll by Fortune magazine have achieved double the shareholder returns of their peers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arthur D. Little 兩位顧問的新書記錄，在過去 15 年，Fortune 年度創新調查中排名前 20% 的公司，其股東回報達到同業兩倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the Pasadena-based Patent & Licence Exchange, trading in intangible assets in the United States rose from $15 billion in 1990 to $100 billion in 1998, with an increasing proportion of the rewards going to small firms and individuals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Pasadena 的 Patent & Licence Exchange，美國 intangible assets 交易額由 1990 年的 150億美元升至 1998 年的 1000 億美元，而且愈來愈多回報流向小公司和個人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 的重點是創新 ideas 已經成為可交易、可投資、可帶來高回報的資產。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“increased spending”"
+            },
+            {
+              "kind": "quote",
+              "text": "“acquiring innovative ideas”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C，可見："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of today’s merger boom is driven by a desperate search for new ideas.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“So is the fortune now spent on licensing and buying others’ intellectual property.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天很多併購熱潮都是由迫切尋找新 ideas 所推動。如今花在授權和購買他人 intellectual property 上的巨額金錢，也是同一原因造成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “the fortune now spent” 表示現在花了大量金錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“licensing and buying others’ intellectual property” 就是取得別人的創新 ideas、技術、概念或知識產權。題目將原文濃縮成：● increased spending= the fortune now spent / trading rose from $15 billion to $100 billion● acquiring innovative ideas= licensing and buying others’ intellectual property / search for new ideas所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "an adverse effect produced by integrating outside firms",
+      "translation": "整合外部公司所產生的一項負面影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some giants, including General Electric and Cisco, have been remarkably successful at snapping up and integrating scores of small companies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些巨企，包括 General Electric 和 Cisco，非常成功地收購並整合大量小公司。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Elsewhere, the search for innovation has led to a craze for ‘intrapreneurship’—devolving power, setting up internal ideas factories and offering tracking stock so that talented staff will not leave.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他地方，尋找創新帶來了 intrapreneurship 熱潮，包括下放權力、建立內部創意工廠和提供tracking stock，以免有才華的員工離開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提到 integrating small companies，這就是題目的 outside firms。段落中間自然會交代整合之後的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“integrating outside firms”"
+            },
+            {
+              "kind": "quote",
+              "text": "“adverse effect”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中與負面影響相關的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But many others worry about the prices they have to pay and the difficulty of holding on to the talent that dreamt up the idea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但許多其他公司擔心自己必須付出的價格，以及難以留住原本想出 idea 的人才。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句列出兩個問題： 1. “the prices they have to pay”收購價格可能太高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. “the difficulty of holding on to the talent that dreamt up the idea”很難留住原本創造 idea 的人才。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “an adverse effect”，即負面影響。這段提供的負面影響正是收購與整合外部小公司後，人才可能流失，成本也可能過高。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● integrating outside firms= snapping up and integrating scores of small companies● adverse effect= worry about prices / difficulty of holding on to talent所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "an example of three famous innovative American companies",
+      "translation": "三間著名創新美國公司的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovation has become the buzzword of American management.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Innovation 已成為美國管理界的熱門詞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The stars of American business today tend to be innovators such as Dell, Amazon and Wal-Mart, which have produced ideas or products that have changed their industries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日美國商業界的明星往往是 Dell、Amazon 和 Wal-Mart 這類創新者，它們創造了改變自身行業的 ideas 或 products。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 明確把 innovation 和美國企業明星連在一起，並直接列出三間公司。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“three famous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“innovative American companies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dell, Amazon and Wal-Mart”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三間公司放在 “The stars of American business” 和 “innovators” 之後，完全對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The stars of American business today tend to be innovators such as Dell, Amazon and Wal-Mart, which have produced ideas or products that have changed their industries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日美國商業界的明星往往是 Dell、Amazon 和 Wal-Mart 這類創新者，它們創造了改變自身行業的 ideas 或 products。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “famous innovative American companies” 對應：● “stars of American business”= famous American companies● “innovators”= innovative companies● “Dell, Amazon and Wal-Mart”= three examples所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "an example of a company changing its focus",
+      "translation": "一間公司改變其 focus 的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some giants, including General Electric and Cisco, have been remarkably successful at snapping up and integrating scores of small companies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些巨企，包括 General Electric 和 Cisco，非常成功地收購並整合大量小公司。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Elsewhere, the search for innovation has led to a craze for ‘intrapreneurship’—devolving power, setting up internal ideas factories and offering tracking stock so that talented staff will not leave.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他地方，尋找創新引發了 intrapreneurship 熱潮，包括下放權力、建立內部創意工廠和提供tracking stock，讓人才留下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段不只講收購，也講大公司如何調整內部結構和 focus。題目中的 “company changing its focus” 很可能在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“company”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changing its focus”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Procter & Gamble is now shifting its entire business focus from countries to products; one aim is to get innovations accepted across the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Procter & Gamble 現在正把整個 business focus 從國家轉向產品；其中一個目標是讓innovations 在整間公司被接受。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確使用 “shifting its entire business focus”，幾乎就是題目 “changing its focus” 的原文對應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● changing its focus= shifting its entire business focus● company= Procter & Gamble所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "an example of a company financing an innovative idea independently",
+      "translation": "一間公司獨立為創新 idea 融資的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is easier for ideas to thrive outside big firms these days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，ideas 更容易在大公司外部成長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Around a third of drug firms’ total revenue now comes from licensed-in technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，藥廠總收入約三分之一來自 licensed-in technology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句可見，本段主題是 ideas 走出大公司後如何成長、創業者如何自己推進早期研究，最後再和大公司合作或出售技術。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“financing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“independently”"
+            },
+            {
+              "kind": "quote",
+              "text": "“innovative idea”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, with plenty of cheap venture capital, they are more likely to set up on their own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，由於有大量低成本 venture capital，他們更可能自行創業。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Umagic has already raised $5 million and is about to raise $25 million more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Umagic 已經籌得 500 萬美元，並即將再籌 2500 萬美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“set up on their own” 對應 independently。“raised $5 million … raise $25 million more” 對應 financing。 Umagic 的 virtual experts idea 是 Paragraph A 介紹的 innovative idea；Paragraph E 補充它如何透過資金支持繼續發展。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Umagic is the most successful innovative company in this new field.",
+      "translation": "Umagic 是這個新領域中最成功的創新公司。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a scruffy office in midtown Manhattan, a team of 30 artificial-intelligence programmers is trying to simulate the brains of an eminent sexologist, a well-known dietitian, a celebrity fitness trainer and several other experts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Manhattan 中城一間破舊辦公室裡，一支 30 人的人工智能程式員團隊正嘗試模擬一位著名性學家、一位知名營養師、一位名人健身教練和幾位其他專家的大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the company and others like it are beginning to spook large American firms because they see such half-barmy ‘innovative’ ideas as the key to their own future success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這間公司以及其他類似公司開始令美國大型企業感到不安，因為大公司把這類半瘋狂的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“innovative” ideas 視為自己未來成功的關鍵。只看首尾句可見，Paragraph A 介紹 Umagic 作為小型創新公司的例子，但沒有做排名。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“Umagic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most successful”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new field”"
+            },
+            {
+              "kind": "label",
+              "text": "原文提到 Umagic 的前景："
+            },
+            {
+              "kind": "quote",
+              "text": "“Umagic’s prospects are hard to gauge…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Umagic 的前景很難估計。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要證明三件事： 1. Umagic 屬於這個新領域； 2. 它很成功； 3. 它是最成功的，即與其他公司相比排名第一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只支援第 1 點：Umagic 是這類創新公司之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文還說其 “prospects are hard to gauge”，即未來難以判斷。這沒有提供「最成功」的比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不選 FALSE？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 Umagic 不成功，也沒有說其他公司比它更成功。它只是沒有提供排名或成功程度比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Amazon and Wal-Mart shared their experience of innovation.",
+      "translation": "Amazon 和 Wal-Mart 分享了它們的創新經驗。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovation has become the buzzword of American management.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Innovation 已成為美國管理界的熱門詞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The stars of American business today tend to be innovators such as Dell, Amazon and Wal-Mart, which have produced ideas or products that have changed their industries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日美國商業界的明星往往是 Dell、Amazon 和 Wal-Mart 這類創新者，它們創造了改變自身行業的 ideas 或 products。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 只是把這些公司列為 innovators 的例子，沒有提到它們公開分享經驗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amazon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Wal-Mart”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shared their experience”"
+            },
+            {
+              "kind": "label",
+              "text": "原文只找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“innovators such as Dell, Amazon and Wal-Mart”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“produced ideas or products that have changed their industries.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題是：● Amazon 和 Wal-Mart 是 innovators；● 它們創造了改變行業的 ideas 或 products。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題加入了新動作：● shared their experience of innovation分享創新經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有提及 Amazon 或 Wal-Mart 曾發言、分享、寫書、提供案例訪談或向其他公司傳授經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有相反證據說它們沒有分享，所以不能選 FALSE。資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "In the past, originators of new ideas took them to small companies.",
+      "translation": "過去，新 ideas 的創造者會把 ideas 帶到小公司。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is easier for ideas to thrive outside big firms these days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，ideas 更容易在大公司外部成長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Around a third of drug firms’ total revenue now comes from licensed-in technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，藥廠總收入約三分之一來自 licensed-in technology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落第一句已經建立今昔對比：現在 ideas 容易在大公司外部成長。題目問 “In the past”，所以要看段落中的過去情況。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the past”"
+            },
+            {
+              "kind": "quote",
+              "text": "“originators of new ideas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“small companies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the past, if a clever scientist had an idea they wanted to commercialise, they would take it first to a big company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去，如果一位聰明科學家有一個想商業化的 idea，他們會先把它帶到一間大公司。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“took them to small companies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“take it first to a big company”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“originators of new ideas” 對應原文 “a clever scientist had an idea”。“took them” 對應 “take it first”。真正衝突位在 company size：● 題目：small companies● 原文：a big company因此答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "IBM failed to understand Umagic’s proposal of a new idea.",
+      "translation": "IBM 未能理解 Umagic 的新 idea proposal。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Will all this creative destruction, cannibalisation and culture tweaking make big firms more creative?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 creative destruction、cannibalisation 和 culture tweaking 會否令大公司更有創造力？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovation—unlike, apparently, sex, parenting and fitness—is one area where a computer cannot tell you what to do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Innovation 這個範疇，看來不像 sex、parenting 和 fitness，並沒有電腦能告訴你該怎樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph J 是結尾反思：大公司是否真的能靠這些方法變創新，作者保持懷疑和開放。題目有 IBM 和 Umagic，這段正好有 David Post 回憶向 IBM 推銷 idea。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“IBM”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Umagic’s proposal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“failed to understand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also recalls with glee the looks of total incomprehension when he tried to hawk his ‘virtual experts’ idea three years ago to the idea labs of firms such as IBM…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也愉快地回想起三年前他試圖把自己的 “virtual experts” idea 推銷給 IBM 等公司的 idea labs時，對方那種完全不理解的表情。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“total incomprehension” 是核心短語，意思是完全不明白、完全理解不了。“tried to hawk his ‘virtual experts’ idea” 對應題目的 proposal of a new idea。“firms such as IBM” 把 IBM 明確包括在例子中。題目說 IBM failed to understand，原文說 IBM 等公司的 idea labs 表現出 total incomprehension。意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位是後半句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“though, as he cheerfully adds, ‘of course, they could have been right.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過他也愉快補充：「當然，他們可能是對的。」這只是 David Post 承認 IBM 當年拒絕或困惑也可能有道理，沒有推翻 “total incomprehension”這項描述。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "C — It is becoming increasingly important.",
+      "answerKey": "C — It is becoming increasingly important.",
+      "type": "Multiple Choice",
+      "prompt": "What is the author’s opinion on innovation in paragraph C?",
+      "translation": "作者在 Paragraph C 對 innovation 的看法是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A new book by two consultants from Arthur D. Little records that, over the past 15 years, the top 20 per cent of firms in an annual innovation poll by Fortune magazine have achieved double the shareholder returns of their peers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arthur D. Little 兩位顧問的新書記錄，在過去 15 年，Fortune 年度創新調查排名前 20% 的公司，其股東回報達到同業兩倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the Pasadena-based Patent & Licence Exchange, trading in intangible assets in the United States rose from $15 billion in 1990 to $100 billion in 1998, with an increasing proportion of the rewards going to small firms and individuals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Pasadena 的 Patent & Licence Exchange，美國 intangible assets 交易額由 1990 年 150億美元升至 1998 年 1000 億美元，且愈來愈多回報流向小公司和個人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 用數據和市場行為證明 innovation 的商業重要性大幅上升。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“author’s opinion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“innovation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“paragraph C”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段主要訊號包括：● double shareholder returns● merger boom● desperate search for new ideas● fortune spent on licensing and buying intellectual property● intangible assets rose from $15 billion to $100 billion這些全部指向 innovation 的重要性正在提升。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of today’s merger boom is driven by a desperate search for new ideas. So is the fortune now spent on licensing and buying others’ intellectual property.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天很多併購熱潮都是由迫切尋找新 ideas 推動的。如今花在授權和購買他人知識產權上的巨額金錢，也是如此。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“desperate search” 表示企業非常急切地尋找新 ideas。“fortune now spent” 表示公司願意花大筆金錢去取得創新資產。加上股東回報和 intangible assets 交易額大升，本段的核心觀點是：innovation 已成為企業競爭中愈來愈重要的資源。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. It only works for big companies. Paragraph C 最後還說 rewards increasingly go to small firms and individuals，所以 A 的範圍太窄。 B. Fortune magazine has a huge global influence. Fortune 只是 innovation poll 的來源之一，段落重點不在雜誌影響力。 C. It is becoming increasingly important.正確。它概括了高回報、併購、知識產權購買和 intangible assets 交易增長。 D. Its effects on American companies are more evident.段落確實用美國資料，但核心不只是「更明顯」，重點是企業為 innovation 付出更多資金並獲得更高回報。所以 38 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — Small companies are more innovative than big ones.",
+      "answerKey": "A — Small companies are more innovative than big ones.",
+      "type": "Multiple Choice",
+      "prompt": "What is Peter Chernin’s point of view on innovation?",
+      "translation": "Peter Chernin 對 innovation 的觀點是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And therein lies the terror for big companies: innovation seems to work best outside them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是大公司的恐懼所在：innovation 似乎在它們之外運作得最好。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He has therefore tried to break the studio into smaller units, even at the risk of incurring higher costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他嘗試把 studio 拆成較小單位，即使這樣可能帶來更高成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 已經把答案方向說得很清楚：創新較適合小型、靈活、投入度高的環境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Chernin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“point of view”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘In the management of creativity, size is your enemy,’ argues Peter Chernin, who runs the Fox television and film empire for News Corporation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "News Corporation 旗下 Fox 電視與電影帝國的負責人 Peter Chernin 認為：「在管理創意時，規模是你的敵人。」接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“One person managing 20 movies is never going to be as involved as one managing five.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人管理 20 部電影，永遠不會像管理 5 部電影那樣投入。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Chernin 的核心觀點是：● size is your enemy規模會阻礙創意管理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● one managing five is more involved than one managing twenty單位越小，負責人越能投入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● he tried to break the studio into smaller units他用行動把大型 studio 拆小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說 “Small companies are more innovative than big ones.”雖然原文更精確地談 “smaller units” 和 creativity management，不只是 small companies，但四個選項中 A 最貼近他對 size 和 innovation 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. Small companies are more innovative than big ones.正確。它概括 “size is your enemy” 和 break into smaller units。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. The film industry needs more innovation than other industries.原文只是因他在 Fox 工作而用電影管理作例子，沒有比較其他行業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. We need to cut costs when risks arise.原文說他拆小 studio，即使成本可能更高。C 和原文方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. New ideas are more likely to go to big companies. Paragraph E 說現今 ideas 更可能在大公司外部成長，D 不合全文方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — The author’s attitude towards innovation is uncertain.",
+      "answerKey": "D — The author’s attitude towards innovation is uncertain.",
+      "type": "Multiple Choice",
+      "prompt": "What is the author’s opinion on innovation at the end of this passage?",
+      "translation": "文章結尾作者對 innovation 的態度是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Will all this creative destruction, cannibalisation and culture tweaking make big firms more creative?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 creative destruction、cannibalisation 和 culture tweaking 會否令大公司更有創造力？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovation—unlike, apparently, sex, parenting and fitness—is one area where a computer cannot tell you what to do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Innovation 這個範疇，看來不像 sex、parenting 和 fitness，沒有電腦能告訴你該怎樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，結尾用問句開始，用帶諷刺意味的句子收束，顯示作者沒有提供明確答案或簡單公式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“author’s opinion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“end of this passage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph J 有幾個關鍵訊號：● “Will … make big firms more creative?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “David Post … is sceptical”● “of course, they could have been right”● “a computer cannot tell you what to do”這些都讓結尾呈現保留、懷疑和不確定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“David Post, the founder of Umagic, is sceptical: ‘The only successful intrapreneurs are ones who leave and become entrepreneurs.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Umagic 創辦人 David Post 表示懷疑：「唯一成功的 intrapreneurs，是那些離開公司、成為entrepreneurs 的人。」再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also recalls with glee the looks of total incomprehension when he tried to hawk his ‘virtual experts’ idea three years ago to the idea labs of firms such as IBM—though, as he cheerfully adds, ‘of course, they could have been right.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也愉快地回想，三年前向 IBM 等公司的 idea labs 推銷 “virtual experts” idea 時，對方完全不理解；不過他也補充：「當然，他們可能是對的。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovation—unlike, apparently, sex, parenting and fitness—is one area where a computer cannot tell you what to do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Innovation 這個範疇，看來不像 sex、parenting 和 fitness，沒有電腦能告訴你該怎樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "結尾的意思是：innovation 沒有固定答案，無法靠一個系統、電腦或簡單規則告訴公司該怎樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者沒有說大公司一定失敗，也沒有說 Umagic 一定成功。這種語氣最貼近 D。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. Umagic’s success lies in the accidental ‘virtual experts’ concept.文章沒有說 Umagic 已成功，也沒有說其概念是 accidental。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. Innovation is easy and straightforward.最後一句直接顯示 innovation 沒有簡單指引，B 方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. IBM sets a good example of innovation. IBM 只是被提到曾對 Umagic idea 顯得不理解，沒有被稱為好榜樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. The author’s attitude towards innovation is uncertain.正確。更準確地說，作者呈現的是開放、保留和帶諷刺的態度：innovation 很重要，但沒有萬用公式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 28. F 29. C 30. F 31. B 32. F 33. E 34. NOT GIVEN 35. NOT GIVEN 36. FALSE 37. TRUE 38. C 39. A 40. D"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Company Innovation.pdf",
+    "sha256": "693ecb731f47fc18aaf81dda92529868c36e9a4ba1b5c6a3f0f4c96b097ffb21",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句介紹 Umagic 在 Manhattan 一間破舊辦公室中，用人工智能模擬多位專家大腦；尾句說這類半瘋狂的 innovative ideas 開始令美國大型公司不安，因為大公司也視創新為未來成功關鍵。只看首尾句，可見本段功能是用 Umagic 作開場例子，引出「小型創新公司威脅大公司」這個全文主題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 innovation 已成為美國管理界的熱門詞；尾句舉 Dell、Amazon 和 Wal-Mart 為例，說它們的 ideas 或 products 改變了各自行業。只看首尾句，可見本段功能是解釋為何 innovation 變得重要：外判和重組等舊方法已被競爭者模仿，真正突出的企業往往靠創新改變市場。"
+      },
+      {
+        "number": "C",
+        "summary": "首句引用 Arthur D. Little 顧問的新書，指出 Fortune innovation poll 中排名前 20% 的公司股東回報是同業兩倍；尾句說美國 intangible assets 交易由 1990 年 150 億美元升至 1998 年 1000 億美元，更多回報流向小公司和個人。只看首尾句，可見本段主題是創新的金錢價值愈來愈高。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說大型公司的恐懼在於：創新似乎在公司外部效果最好；尾句說 Peter Chernin 嘗試把 studio拆成較小單位，即使成本可能上升也在所不惜。只看首尾句，可見本段集中討論 size 和 creativity的矛盾：大公司雖有資源，規模卻可能壓抑創意，所以小型單位更容易推動創新。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說現今 ideas 更容易在大公司外部成長；尾句說藥廠約三分之一收入來自 licensed-in technology。只看首尾句，可見本段在解釋為何小公司和創業者更容易推動 idea：venture capital較充足，科學家可自行創業；即使在藥物等高資本行業，小公司也可做早期研究，再把技術賣給大公司。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 General Electric 和 Cisco 等巨企成功收購並整合大量小公司；尾句說 intrapreneurship 風潮包括下放權力、設立內部 ideas factories 和提供 tracking stock，以免人才離開。只看首尾句，可見本段主題是大公司如何吸收外部創新和保留內部人才，同時也點出收購成本高、人才難留的問題。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說有些人認為這類 restructuring 仍不足夠；尾句舉 General Electric 的“Destroyyourbusiness.com” 作例。只看首尾句，可見本段功能是介紹更激進的創新策略：大公司要設立會挑戰自身既有業務的新部門，甚至主動 cannibalise 自己，以應對 disruptive technologies，而非只做表面重組。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說沒有人會懷疑 innovation 重要，但大型公司是否真的需要如此悲觀；尾句說 Bhidé 認為大公司應做高成本、低不確定性的項目，低成本、高不確定性的項目可留給小創業者，等 idea 成熟後再採用。只看首尾句，可見本段提供平衡觀點：大公司未必完全失去創新能力，分工可能比盲目自我改造更合理。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Kimberly-Clark 的 Sanders 要先推翻一種看法：新產品工作是給「無法在真正業務中生存的人」做的；尾句說 Depend 這個成功產品源自早前失敗的 Kotex Personals。只看首尾句，可見本段主題是公司文化與 incentives：要鼓勵創新，就要獎勵成功 idea，也要容許實驗失敗，因為失敗可能成為下一個成功的基礎。"
+      },
+      {
+        "number": "J",
+        "summary": "首句問這些 creative destruction、cannibalisation 和 culture tweaking 能否令大公司更有創造力；尾句說 innovation 這一範疇沒有電腦能告訴你該怎樣做。只看首尾句，可見結尾保持開放和懷疑：Umagic 創辦人對 intrapreneurship 不樂觀，但也承認 IBM 當年可能看對了。文章最後沒有給出簡單公式。"
+      }
+    ]
+  }
+}

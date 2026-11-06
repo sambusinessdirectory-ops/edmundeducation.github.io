@@ -1,0 +1,1658 @@
+{
+  "id": "p3-041-source-of-knowledge",
+  "catalogueId": "p3-041",
+  "catalogueIds": [
+    "p3-041"
+  ],
+  "passage": 3,
+  "title": "Source of Knowledge",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "E",
+    "F",
+    "H",
+    "H",
+    "I",
+    "G",
+    "D",
+    "B",
+    "bad cough",
+    "blood pressure",
+    "friends and family",
+    "practitioner",
+    "training and background",
+    "experience"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“the contrast between the nature of personal judgment and the nature of a doctor’s diagnosis”",
+      "translation": "個人判斷的性質，和醫生診斷的性質之間的對比。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This scenario shows many different sources of knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個情境展示了許多不同的知識來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the doctor’s expert diagnosis is based on experience and training, with sources of knowledge as diverse as other experts, laboratory reports, medical textbooks and years of experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，醫生的專家診斷建基於經驗和訓練，並使用多種知識來源，包括其他專家、實驗室報告、醫學教科書和多年經驗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “personal judgment”● “doctor’s diagnosis”● “contrast” Paragraph E 同時出現 “personal knowledge about your own body” 和 “doctor’s expert diagnosis”，非常貼近題目的 personal vs doctor contrast。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, you decide to consult the doctor in the first place because you feel unwell—this is personal knowledge about your own body.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，你一開始決定看醫生，是因為你覺得不舒服；這是你對自己身體的個人知識。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the doctor’s expert diagnosis is based on experience and training…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，醫生的專家診斷建基於經驗和訓練……題目說 “personal judgment”，原文用 “personal knowledge about your own body” 表達；題目說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“doctor’s diagnosis”，原文用 “doctor’s expert diagnosis”。這段清楚把兩種知識來源分開：一邊是病人因自己身體感覺作出的個人判斷，另一邊是醫生根據訓練、經驗和醫學資料作出的專業診斷。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“a reference to cultural ideas about stress”",
+      "translation": "提到文化中關於 stress 的觀念。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One source of knowledge is the experience of our own bodies: the personal knowledge we have of changes that might be significant, as well as the subjective experience of pain and physical distress.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種知識來源是我們對自己身體的經驗，包括我們對可能重要的身體變化所擁有的個人知識，以及痛楚和身體不適的主觀經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is therefore not surprising that we might seek such an explanation for physical symptoms of discomfort.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，我們可能用這類解釋來理解身體不適，並不令人意外。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最強定位詞是 “stress”。Paragraph F 中直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Western culture has placed significant emphasis on stress-related illness in the media.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原字定位，十分明確。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the past decade, for example, Western culture has placed significant emphasis on stress-related illness in the media.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，在過去十年，西方文化在媒體中非常強調與壓力相關的疾病。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reference to being ‘stressed out’ has become a common response in daily workplace exchanges and part of popular common-sense knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提到自己 “stressed out” 已經成為日常職場交流中的常見反應，也成為流行常識的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “cultural ideas about stress”。原文中的 “Western culture”、 “stress-related illness”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“popular common-sense knowledge” 正好支援這一點。它不是單純提到個人感覺，也是在說文化如何提供一套常見解釋，讓人把身體不適理解成 stress。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“Sick leave will not be permitted without professional diagnosis”",
+      "translation": "沒有專業診斷，就不會獲准病假。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most influential and authoritative source of knowledge is the medical knowledge provided by the general practitioner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許最有影響力、最具權威的知識來源，是普通科醫生提供的醫學知識。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there is a range of different knowledge on which we draw when making decisions about our own state of health.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在判斷自己的健康狀態時，我們會依靠一系列不同種類的知識。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “Sick leave”● “permitted”● “professional diagnosis”原文沒有直接說 “sick leave”，但有 “employer”、 “off work”、 “certificate”、 “expert medical diagnosis”。這些都是病假制度的同義線索。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would not be acceptable to notify our employer that we simply felt too unwell to turn up for work…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們只是通知僱主自己感到太不舒服，所以不能上班，這並不可接受。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need an expert medical diagnosis to obtain the necessary certificate if we need to be off work for more than the statutory self-certification period.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們需要在法定自行證明期之後繼續不上班，就需要專家醫學診斷，才能取得所需證明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “Sick leave will not be permitted” 對應原文 “not acceptable to notify our employer” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“need… certificate”。題目的 “professional diagnosis” 對應 “expert medical diagnosis”。因此， Paragraph H 明確說明，在工作制度中，單靠自己說不舒服不足夠，超過自行證明期後需要醫學診斷和證明。所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“how doctors’ opinions are regarded in society”",
+      "translation": "醫生的意見在社會中如何被看待。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most influential and authoritative source of knowledge is the medical knowledge provided by the general practitioner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許最有影響力、最具權威的知識來源，是普通科醫生提供的醫學知識。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there is a range of different knowledge on which we draw when making decisions about our own state of health.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在判斷自身健康狀態時，我們會動用多種不同知識。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “doctors’ opinions”● “regarded in society”原文對應詞包括：● “authoritative”● “expert knowledge”● “socially sanctioned”● “privileged”● “legally”這些字都在說社會如何承認醫生知識的權威。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We expect the doctor to have access to expert knowledge. This is socially sanctioned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們預期醫生能接觸專家知識。這一點受到社會認可。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The knowledge of the medical sciences is privileged in this respect in contemporary Western culture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在當代西方文化中，醫學科學的知識在這方面享有特權地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “how doctors’ opinions are regarded in society” 被原文改寫成 “socially sanctioned” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“privileged”。換句話說，醫生的診斷不只是個人意見；在社會制度中，它具有特別權威，能影響病假證明和藥物處方。所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“how a patient’s illness can contribute to new knowledge”",
+      "translation": "病人的疾病如何可以促成新知識。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there is more than existing knowledge in this little story; new knowledge is constructed within it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在這個小故事裡，除了既有知識之外，還有新知識在當中被建構出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It will then be added to the doctor’s medical knowledge and may help in future diagnoses of pneumonia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些知識之後會被加入醫生的醫學知識之中，並可能幫助日後診斷肺炎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “patient’s illness”● “contribute”● “new knowledge” Paragraph I 第一 句直接出現 “new knowledge is constructed”，最後一句又說會 “be added to the doctor’s medical knowledge”，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This creates new knowledge both for you and for the doctor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這為你和醫生都創造了新知識。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“It will then be added to the doctor’s medical knowledge and may help in future diagnoses of pneumonia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些知識之後會加入醫生的醫學知識，並可能幫助日後診斷肺炎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a patient’s illness can contribute to new knowledge”。原文的流程是：醫生面對病人症狀，提出 pneumonia hypothesis，利用 observations 和 instruments 檢查，再用 training and experience 解讀。這個診斷過程不只讓病人知道自己病了，也令醫生的診斷經驗增加，日後可能幫助其他 pneumonia cases。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“a description of knowledge drawn from non-specialised sources other than personal knowledge”",
+      "translation": "描述除了個人知識之外，來自非專門來源的知識。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We might also rely on the observations of others who know us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們也可能依賴認識我們的人對我們作出的觀察。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Complementary health practices, such as holistic medicine, produce their own bodies of knowledge, on which we might also draw when deciding the nature and degree of our ill health and considering possible treatments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充健康療法，例如整全醫學，也會產生自己的知識體系；我們判斷疾病性質、嚴重程度和可能治療方法時，也可能參考這些知識。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “non-specialised sources”● “other than personal knowledge”原文對應的是 “others who know us” 和 “friends and family”。這些人不是醫學專家，但他們的觀察仍可能影響我們判斷健康狀態。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Comments from friends and family, such as ‘you do look ill’ or ‘that’s a bad cough’, might be another source of knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "朋友和家人的評論，例如「你看起來真的病了」或「那咳嗽很嚴重」，可能是另一種知識來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句正好描述非專門來源：friends and family。它們不同於 personal bodily experience，也不同於 doctor’s expert diagnosis。Paragraph G 後面再加入 complementary health practices，說明人們也會參考非主流醫療知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“an example that combines personal experience with a professional diagnosis”",
+      "translation": "一個把個人經驗和專業診斷結合起來的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Things do not improve, but you struggle on, thinking that you should pull yourself together and that perhaps things will ease off at work soon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "情況沒有改善，但你仍然硬撐，覺得自己應該振作起來，也許工作上的事情很快會緩和。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You have a medically authenticated diagnosis and it appears that you are seriously ill; you know you are ill and have evidence on which to base this knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你有了經醫學認證的診斷，看來你病得相當嚴重；你知道自己病了，並有證據作為這種知識的基礎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “personal experience”● “professional diagnosis”● “combines” Paragraph D 中有一個非常直接的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the result of combining your own subjective experience with the diagnosis of someone who has the status of a medical expert.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the result of combining your own subjective experience with the diagnosis of someone who has the status of a medical expert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是把你自己的主觀經驗，和具有醫學專家地位的人所作出的診斷結合起來的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “personal experience” 對應 “your own subjective experience”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “professional diagnosis” 對應 “diagnosis of someone who has the status of a medical expert”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “combines” 對應原文 “combining”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 不是只說病人有症狀，也不是只說醫生給出診斷；它清楚展示兩者如何合起來變成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“you know you are ill”。因此答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“a reference to the fact that some people do not realise they are ill”",
+      "translation": "提到有些人沒有意識到自己生病。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do you know when you are ill?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你怎樣知道自己病了？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So how do we know we are ill, and what counts as knowledge?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，我們怎樣知道自己病了？甚麼才算知識？"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “some people”● “do not realise”● “ill” Paragraph B 中有一句直接處理這個意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“At other times, people may be suffering from a disease and fail to become aware of the illness until it has reached a late stage in its development.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At other times, people may be suffering from a disease and fail to become aware of the illness until it has reached a late stage in its development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他時候，人們可能正患有某種疾病，卻直到疾病發展到晚期才意識到自己生病。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “do not realise they are ill”。原文用 “fail to become aware of the illness” 表達同一意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “some people”，原文說 “people may be suffering from a disease”，語氣上是可能情況，不是所有人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "bad cough",
+      "answerKey": "bad cough",
+      "type": "Notes Completion",
+      "prompt": "Question 35",
+      "translation": "個人經驗：一個 ______ 和疲倦的症狀。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Personal experience — Symptoms of a 35 ______ and tiredness”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Think about this example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想想這個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You visit the doctor, who listens to your chest and heart, takes your temperature and blood pressure, and then prescribes antibiotics for your cough.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你去看醫生，醫生聽你的胸腔和心臟，量你的體溫和血壓，然後為你的咳嗽開抗生素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Symptoms” 和 “tiredness”。Paragraph C 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“You have a bad cough and always seem to be tired.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 cough 和 tired。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You have a bad cough and always seem to be tired.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你咳嗽得很厲害，而且似乎一直很疲倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已給 “and tiredness”，所以空格要填 cough 前面的描述。原文是 “a bad cough”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：bad cough 兩個詞，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 bad cough。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "blood pressure",
+      "answerKey": "blood pressure",
+      "type": "Notes Completion",
+      "prompt": "Question 36",
+      "translation": "醫生的測量項目：______ 和體溫。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Doctor’s measurements: 36 ______ and temperature”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Think about this example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想想這個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You visit the doctor, who listens to your chest and heart, takes your temperature and blood pressure, and then prescribes antibiotics for your cough.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你去看醫生，醫生聽你的胸腔和心臟，量你的體溫和血壓，然後為你的咳嗽開抗生素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “measurements” 和 “temperature”。原文用動詞 “takes” 表示測量："
+            },
+            {
+              "kind": "quote",
+              "text": "“takes your temperature and blood pressure”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“takes your temperature and blood pressure”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "量你的體溫和血壓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把順序改成 “______ and temperature”，因此要填另一個被測量項目：blood pressure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：兩個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 blood pressure。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "friends and family",
+      "answerKey": "friends and family",
+      "type": "Notes Completion",
+      "prompt": "Question 37",
+      "translation": "來自身邊 ______ 的一般判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Common judgement from 37 ______ around you”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We might also rely on the observations of others who know us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們也可能依賴認識我們的人對我們作出的觀察。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Complementary health practices, such as holistic medicine, produce their own bodies of knowledge, on which we might also draw when deciding the nature and degree of our ill health and considering possible treatments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充健康療法，例如整全醫學，也有自己的知識體系；我們在判斷健康狀態和治療方法時也可能參考它們。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Common judgement” 和 “around you”。原文對應的是 “others who know us”，再具體化為："
+            },
+            {
+              "kind": "quote",
+              "text": "“Comments from friends and family…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Comments from friends and family, such as ‘you do look ill’ or ‘that’s a bad cough’, might be another source of knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "朋友和家人的評論，例如「你看起來真的病了」或「那咳嗽很嚴重」，可能是另一種知識來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “Common judgement” 對應 friends and family 的 comments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“around you” 是對 “others who know us” 的概括。答案直接取自原文：friends and family。字數檢查：三個詞，符合限制。所以答案是 friends and family。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "practitioner",
+      "answerKey": "practitioner",
+      "type": "Notes Completion",
+      "prompt": "Question 38",
+      "translation": "科學證據：來自 general ______ 的醫學知識。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientific evidence — Medical knowledge from the general 38 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most influential and authoritative source of knowledge is the medical knowledge provided by the general practitioner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許最有影響力、最具權威的知識來源，是普通科醫生提供的醫學知識。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there is a range of different knowledge on which we draw when making decisions about our own state of health.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，我們判斷自己的健康狀態時，會依靠多種不同知識。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目幾乎直接保留原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Medical knowledge from the general ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“medical knowledge provided by the general practitioner”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“the medical knowledge provided by the general practitioner”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "普通科醫生提供的醫學知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經給出 “general”，所以空格只需要填 practitioner。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：一個詞，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 practitioner。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "training and background",
+      "answerKey": "training and background",
+      "type": "Notes Completion",
+      "prompt": "Question 39",
+      "translation": "例如，醫生的 medical ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, a doctor’s medical 39 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there is more than existing knowledge in this little story; new knowledge is constructed within it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這個小故事裡除了既有知識之外，還有新知識在當中被建構出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It will then be added to the doctor’s medical knowledge and may help in future diagnoses of pneumonia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些知識之後會加入醫生的醫學知識中，並可能幫助日後診斷肺炎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “doctor’s medical”。Paragraph I 中直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given the doctor’s medical training and background…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given the doctor’s medical training and background…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "基於醫生的醫學訓練和背景……題目已給 “a doctor’s medical”，所以空格要接在 medical 後面，形成原文片語："
+            },
+            {
+              "kind": "quote",
+              "text": "“medical training and background”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 training and background。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：三個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 training and background。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "experience",
+      "answerKey": "experience",
+      "type": "Notes Completion",
+      "prompt": "Question 40",
+      "translation": "運用以往的訓練和 ______ 來檢查醫學假設。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Examine the medical hypothesis using previous training and 40 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there is more than existing knowledge in this little story; new knowledge is constructed within it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這個小故事中除了既有知識之外，還有新知識被建構出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It will then be added to the doctor’s medical knowledge and may help in future diagnoses of pneumonia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些知識之後會加入醫生的醫學知識中，並可能幫助日後診斷肺炎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “medical hypothesis”● “previous training”● “using”原文有 “hypothesise” 和 “training and experience”，對應非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She will use observations and instruments to assess the evidence and—critically—interpret it in the light of her training and experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她會使用觀察和儀器來評估證據，並且關鍵地說，她會根據自己的訓練和經驗來解讀這些證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Examine the medical hypothesis” 對應原文 “assess the evidence” 和 “interpret it”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “using previous training and ______” 對應原文 “in the light of her training and experience”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 experience。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Source of Knowledge.pdf",
+    "sha256": "dc8d9d7bdcc8f84aa5f88bde87b0dafb779bfcd1bc8f685ee7552dfe01dc09cb",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首尾句，可以看到文章先提出一組哲學式問題：甚麼算是 knowledge？我們說自己知道某件事時，到底代表甚麼？最後一句把討論範圍縮窄到 medicine。這段功能是引入全文主題，提醒讀者文章不是單純講疾病，也在討論不同知識來源的地位。後文所有例子都會圍繞「病人怎樣知道自己病了」和「醫學診斷為何有權威」展開。"
+      },
+      {
+        "number": "B",
+        "summary": "首句問 “How do you know when you are ill?”，最後一句再問 “So how do we know we are ill, and what counts as knowledge?” 首尾都是問題，表示這段功能是拆解「知道自己生病」這件看似簡單的事。中間會說身體感覺不一定等於真正疾病，也有人真正有病卻未察覺。因此 Paragraph B 很可能回答「有些人不知道自己病了」這類題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句 “Think about this example.” 明顯開啟一個具體案例。最後一句說醫生聽胸腔和心臟、量temperature 和 blood pressure，然後為 cough 開 antibiotics。這段功能是建立病人求醫前半段：病人有 bad cough 和 tiredness，也可能把不適歸因於 stress、work 或 smoking。Questions 35–36 的症狀和測量項目很可能來自這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說情況沒有改善，但你仍然硬撐，覺得可能只是工作壓力。最後一句說你有 medically authenticated diagnosis，知道自己病了，並有 evidence 支持這種知識。這段功能是描述情境轉變：同樣症狀在醫生診斷後取得新意義。它同時結合 subjective experience 和 medical expert diagnosis，所以 Paragraph D 對 Questions 27 或 33 都很重要。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說這個 scenario 展示了 many different sources of knowledge。最後一句說醫生的 expert diagnosis 建基於 experience、training，以及其他 experts、laboratory reports、medical textbooks和 years of experience。這段功能是把前面的故事抽象化：病人因身體感覺而求醫，這是personal knowledge；醫生診斷則來自專業訓練和多種醫學資料。Question 27 的 personal judgment vs doctor’s diagnosis 特別貼近本段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說一種 knowledge source 是我們對自己身體的 experience，包括 pain 和 physical distress。最後一句說我們可能用 stress 來解釋身體不適，這並不奇怪。這段功能是說明 personal bodily knowledge 如何受語言、家人朋友 common sense 和 popular culture 影響。中間提到 Western culture 近十年很重視 stress-related illness，因此 Question 28 會定位到這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說我們也可能依賴認識我們的人所作出的 observations。最後一句說 complementary health practices，例如 holistic medicine，也有自己的 knowledge bodies，可影響我們判斷 illness 和treatment。這段功能是介紹個人身體感覺以外的非正式或非傳統知識來源，例如 friends and family comments、holistic medicine 等。Question 32 和 Question 37 很可能在這裡找到答案。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說最 influential and authoritative 的 knowledge source 可能是 general practitioner 提供的medical knowledge。最後一句說我們判斷健康狀態時，仍會運用一系列不同 knowledge。這段功能是說明醫生知識在西方社會中的權威地位：病假證明、處方藥、legal right、employer acceptance 都依賴 medical diagnosis。Questions 29、30 和 38 主要定位到本段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句用轉折說，這個故事不只涉及 existing knowledge，還有 new knowledge 被 constructed。最後一句說這些新知識會加入醫生的 medical knowledge，日後可能幫助 pneumonia diagnosis。這段功能是解釋診斷過程如何產生新知識：醫生提出 hypothesis，收集 evidence，再用 training and experience interpret it。Questions 31、39、40 會集中在這裡。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "建立段落地圖時，先看標題、每段第一句、每段最後一句、重複主題詞、轉折詞和明顯問句。這一步不是直接作答，而是建立導航，方便後面定位。"
+  ]
+}

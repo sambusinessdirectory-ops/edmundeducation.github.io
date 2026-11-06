@@ -1,0 +1,2423 @@
+{
+  "id": "p1-045-t-rex-hunter-or-scavenger",
+  "catalogueId": "p1-045",
+  "catalogueIds": [
+    "p1-045"
+  ],
+  "passage": 1,
+  "title": "T-Rex: Hunter or Scavenger?",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "shin bone",
+    "slow walker",
+    "cheetah",
+    "run fast",
+    "blunt",
+    "crush"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“At the age of eight, Jack Horner knew exactly which dinosaur the bone from his father’s former ranch belonged to.”",
+      "translation": "Jack Horner 八歲時，已經準確知道父親舊牧場那塊骨頭屬於哪種恐龍。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Horner 八歲時對骨頭身份的確定程度。控制詞是 “knew exactly”。題目如果只說他找到骨頭，原文可支持；但現在題目說他準確知道屬於哪種恐龍，所以要細讀原文的語氣。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His father had a sand and gravel quarry in Montana, and the young Horner was a collector of stones and bones, complete with notes about when and where he found them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的父親在 Montana 有一個砂石採石場，年幼的 Horner 會收集石頭和骨頭，並完整記下何時、何地找到它們。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It obviously started before I was eight, and I have literally been driven ever since. I feel like I was born this way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯然在我八歲之前已經開始，而我自那以後一直被這種熱情推動。我覺得自己天生就是這樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 是 Horner 童年與恐龍骨頭的背景段。題目提到 age of eight和 father’s former ranch，因此這段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“eight years old”"
+            },
+            {
+              "kind": "quote",
+              "text": "“father’s former ranch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“knew exactly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bone”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So when I was eight years old he took me back to the area that had been his ranch, to where he had seen these big old bones. I picked up one. I am pretty sure it was the upper arm bone of a duckbilled dinosaur: it probably wasn’t a duckbilled dinosaur but closely related to that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以我八歲時，他帶我回到以前是他牧場的地區，也就是他曾看見那些大舊骨頭的地方。我撿起其中一塊。我相當肯定那是 duckbilled dinosaur 的上臂骨；它大概其實不是真正的 duckbilled dinosaur，但和那類恐龍關係很近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句最重要的地方是語氣。Horner 說 “I am pretty sure”，即「我相當肯定」，已經不是 absolutely certain。接著他又修正自己：“it probably wasn’t a duckbilled dinosaur but closely related to that”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示他並沒有準確知道骨頭屬於哪一種恐龍。他的判斷大致方向可能接近，但具體物種或分類仍不確定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Horner knew exactly which dinosaur the bone belonged to.原文命題： Horner was “pretty sure”，並且說 it “probably wasn’t” exactly a duckbilled dinosaur.比較結果：題目用 “exactly” 把確定程度推得太高。原文提供的是不確定和後來修正，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“knew exactly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“I am pretty sure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it probably wasn’t…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換關係： knew exactly = 完全準確知道pretty sure / probably wasn’t = 有把握但仍有不確定，甚至原判斷可能不準"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 “duckbilled dinosaur” 這個原字吸引。題目和原文都提到某種恐龍，位置很好找；真正決定答案的是程度詞 “exactly”。做 TRUE / FALSE / NOT GIVEN 時，看到 exactly、all、only、first 這類詞，要優先檢查原文語氣是否同樣強。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Jack Horner earned a university degree.”",
+      "translation": "Jack Horner 取得了大學學位。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問一個 factual result：他有沒有 earned a university degree。控制詞是 earned，不是 studied。原文如果只說他讀過大學，不足以支持題目；要看是否完成並取得學位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horner spent seven years at university but never graduated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horner 在大學待了七年，但從未畢業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I have the education; I just do not have the piece of paper,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「我有受教育的內容；我只是沒有那張紙。」只看首尾句，Paragraph 3 已非常清楚：他有大學教育經歷，但沒有正式畢業證書或學位。題目問earned a university degree，目標段就是 Paragraph 3。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“university degree”"
+            },
+            {
+              "kind": "quote",
+              "text": "“earned”"
+            },
+            {
+              "kind": "quote",
+              "text": "“graduated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中直接相關的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horner spent seven years at university but never graduated.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“So I could not earn a degree; I simply was not capable of it.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So I could not earn a degree; I simply was not capable of it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以我無法取得學位；我就是沒有能力完成這件事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句由 Horner 自己說出，主語是 “I”，核心動詞是 “could not earn”，對象是 “a degree”。它與題目"
+            },
+            {
+              "kind": "quote",
+              "text": "“earned a university degree” 完全相反。前文也解釋原因：“A degree in geology or biology required two years of a foreign language. There was no way in the world I could do that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地質或生物學位要求兩年外語。對我來說，那是完全不可能的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以他雖然修讀相關課程，甚至 “wrote a thesis and did all sorts of things”，但正式結果仍然是沒有 degree。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Horner earned a university degree.原文命題： He “never graduated” and “could not earn a degree”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文提供直接相反資料，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“earned a university degree”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“could not earn a degree”"
+            },
+            {
+              "kind": "quote",
+              "text": "“never graduated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“do not have the piece of paper”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的中伏位是 “spent seven years at university” 和 “wrote a thesis”。這些資訊會讓人感覺他完成了大學訓練，但 IELTS 要看最後結果。讀過大學、修過課、寫過 thesis，都不等於 earned a degree。真正定案的是 “never graduated” 和 “could not earn a degree”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Jack Horner believes that prey should greatly outnumber predators.”",
+      "translation": "Jack Horner 認為獵物的數量應該大大多於捕食者。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Horner 對 predator–prey ratio 的理解。控制詞是 “prey should greatly outnumber predators”。原文未必逐字說 prey outnumber predators，但會用 “predator–prey ratio” 和 “top predator should be rare” 來表達同一個生態邏輯。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 4–5 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We definitely know that we are working on a very broad coastal plain, with streams and rivers bordered by conifers and hardwood plants; the areas between the rivers were probably covered with ferns.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們很確定，我們研究的是一片非常廣闊的海岸平原，有河流和溪流，兩岸長著針葉樹和闊葉植物；河流之間的區域大概覆蓋著蕨類。」Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, the small dromaeosaurs, which we know were effective predators, have not been found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，我們知道是有效捕食者的小型 dromaeosaurs 並沒有被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why he sees T. rex not as the lion of the Cretaceous savannah but as its vulture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他把 T. rex 看作白堊紀稀樹草原上的禿鷲，而非獅子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些首尾句，可以先估計 Paragraph 4 建立恐龍群落比例，Paragraph 5 用這個比例解釋 T. rex 更像 scavenger。題目問 predator / prey ratio，兩段需要連讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“prey”"
+            },
+            {
+              "kind": "quote",
+              "text": "“predators”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ratio”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outnumber”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What we would consider the predator–prey ratio seems completely out of scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“If T. rex were a top predator, especially considering its size, you would expect it to be extremely rare—much rarer than the small dromaeosaurs. Yet T. rex is everywhere; it is a dime a dozen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 T. rex 是頂級捕食者，尤其考慮到它的體型，你會預期它極為罕見，遠比小型dromaeosaurs 更罕見。然而 T. rex 到處都是；它十分常見。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horner 的邏輯是：真正的 top predator，尤其是大型肉食動物，數量應很少。這是 predator–prey ratio 的基本想法：食物鏈上層的捕食者數量通常不能和獵物一樣多，更不應該到處都是。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Triceratops is very common…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“T. rex, for a meat-eating dinosaur, is also very common.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“What we would consider the predator–prey ratio seems completely out of scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Triceratops 很常見；T. rex 作為肉食恐龍也很常見；按我們理解的捕食者與獵物比例，這似乎完全不合比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "T. rex 如果是 predator，數量太多；這就是 Horner 懷疑它是 scavenger 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Horner believes prey should greatly outnumber predators.原文命題： If T. rex were a top predator, you would expect it to be extremely rare.比較結果：兩者方向一致。原文沒有逐字寫 “prey should greatly outnumber predators”，但 “top predator should be extremely rare” 等同於捕食者數量應遠少於獵物。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“prey should greatly outnumber predators”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“you would expect [a top predator] to be extremely rare”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： predators extremely rare = 捕食者數量少prey common / Triceratops everywhere = 獵物數量多predator–prey ratio out of scale = 現有比例不合正常預期"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題需要小心 “believes” 並非只找 “I believe”。Horner 的觀點透過生態比例推理呈現：如果 T. rex 真是 top predator，它應極罕見。題目把這個推理概括成「獵物應大大多於捕食者」，屬於合理改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The number of T. rex was equivalent to the number of vultures in the Serengeti.”",
+      "translation": "T. rex 的數量和 Serengeti 的禿鷲數量相等。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個核心元素：T. rex 的數量，以及 Serengeti vultures 的數量是否 equivalent。原文確實用 Serengeti vultures 作類比，但要檢查有沒有進行數量相等的比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why he sees T. rex not as the lion of the Cretaceous savannah but as its vulture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他把 T. rex 看作白堊紀稀樹草原上的禿鷲，而非獅子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He stood by his theory and findings and remained committed to further research, but said he would, of course, reevaluate his view if additional evidence or alternative explanations emerged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他堅持自己的理論和發現，也繼續投入後續研究；但他也說，如果出現額外證據或其他解釋，他當然會重新評估自己的看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 5 是 Horner 把 T. rex 類比為 vulture 的核心段落。題目也提到vultures in the Serengeti，所以 Paragraph 5 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“T. rex”"
+            },
+            {
+              "kind": "quote",
+              "text": "“vultures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Serengeti”"
+            },
+            {
+              "kind": "quote",
+              "text": "“number”"
+            },
+            {
+              "kind": "quote",
+              "text": "“equivalent”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Look at the wildebeest that migrate across the Serengeti in Africa: of a million animals, about 200,000 die during the annual migration. That creates a tremendous supply of carrion. You therefore have hyenas and enormous numbers of scavenging vultures, but not many animals that are efficient predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看看非洲 Serengeti 遷徙的 wildebeest：一百萬隻動物中，每年遷徙期間約有二十萬隻死亡。這產生大量腐肉。因此你會有 hyenas 和大量食腐禿鷲，但有效捕食者不多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實把 T. rex 和 Serengeti vultures 放在同一個類比中。Horner 的意思是：當有大量 carrion，就會支持大量 scavengers。因此如果 T. rex 數量很多，它可能更像 scavenging vulture。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目說 “equivalent to the number of vultures”，即 T. rex 數量和 Serengeti vultures 數量相等或等同。原文沒有提供： T. rex 具體數量Serengeti vultures 具體數量兩者之間的數值比較equivalent / same number / equal population 這類資訊原文只說 “T. rex is everywhere; it is a dime a dozen”，意思是 T. rex 很常見。它也說 Serengeti 有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“enormous numbers of scavenging vultures”。兩邊都表示「多」，仍不能推出數量相等。題目命題： T. rex number = vultures in the Serengeti number.原文命題： T. rex is common; Serengeti has enormous numbers of scavenging vultures.比較結果：文章有相關類比，但缺少相等比較，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是類比語言。Horner 把 T. rex 看成 vulture，是功能類比：它們都可能吃 carrion。這不代表數量等同。IELTS Reading 中，functional comparison 和 numerical equivalence 要分開處理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The hypothesis that T. rex was a top predator conflicts with the predator–prey ratio Horner found.”",
+      "translation": "T. rex 是頂級捕食者這個假說，和 Horner 發現的捕食者—獵物比例相衝突。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷兩件事：第一，是否有 “T. rex as top predator” 這個假說；第二，它是否和 Horner 的predator–prey ratio 不合。定位詞是 “top predator”、“predator–prey ratio” 和 “conflicts”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 4–5 Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, the small dromaeosaurs, which we know were effective predators, have not been found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，我們知道是有效捕食者的小型 dromaeosaurs 並沒有被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why he sees T. rex not as the lion of the Cretaceous savannah but as its vulture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他把 T. rex 看作白堊紀稀樹草原上的禿鷲，而非獅子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 4 的結尾和 Paragraph 5 的開首，可以推測這裡會處理「有效捕食者不見了，但T. rex 很常見」這個矛盾，並由此轉向 T. rex 可能是 scavenger 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“top predator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“predator–prey ratio”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conflicts”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“What we would consider the predator–prey ratio seems completely out of scale.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“If T. rex were a top predator, especially considering its size, you would expect it to be extremely rare—much rarer than the small dromaeosaurs. Yet T. rex is everywhere; it is a dime a dozen.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說 T. rex 作為 meat-eating dinosaur 也很 common，然後說 predator–prey ratio"
+            },
+            {
+              "kind": "quote",
+              "text": "“completely out of scale”。這已經暗示問題：如果把 T. rex 放進 predator 類別，它的數量不合理。 Paragraph 5 的條件句更直接：“If T. rex were a top predator… you would expect it to be extremely rare…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 T. rex 是頂級捕食者，你會預期它極為罕見。"
+            },
+            {
+              "kind": "label",
+              "text": "接著用 “Yet” 轉折："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet T. rex is everywhere; it is a dime a dozen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，T. rex 到處都是，十分常見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 Yet 是答案關鍵。它表示「理論預期」和「實際發現」方向相反。理論預期：top predator 應罕見。Horner 發現：T. rex 很常見。這正是題目所說 conflicts with predator–prey ratio。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： T. rex as top predator conflicts with Horner’s predator–prey ratio.原文命題： If T. rex were top predator, it should be extremely rare; yet it is everywhere.比較結果：題目與原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“conflicts with”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“would expect… extremely rare” + “Yet T. rex is everywhere”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“predator–prey ratio Horner found”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“predator–prey ratio seems completely out of scale”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求原文逐字說 “conflict”。它用 “conflicts” 概括原文的轉折句。做這類題時，要特別看However、Yet、But 這類詞，它們通常顯示假說和證據之間的張力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Jack Horner refused to consider any other interpretation of the T. rex evidence.”",
+      "translation": "Jack Horner 拒絕考慮任何其他對 T. rex 證據的解釋。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Horner 對自己理論的態度。控制詞很強：refused、any other interpretation。要檢查原文是否說他完全拒絕其他解釋，或相反表示願意重新評估。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why he sees T. rex not as the lion of the Cretaceous savannah but as its vulture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他把 T. rex 看作白堊紀稀樹草原上的禿鷲，而非獅子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He stood by his theory and findings and remained committed to further research, but said he would, of course, reevaluate his view if additional evidence or alternative explanations emerged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他堅持自己的理論和發現，也繼續投入後續研究；但他也說，如果出現額外證據或其他解釋，他當然會重新評估自己的看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經能看到題目的關鍵衝突。Horner 堅持理論，但仍願意在新證據或其他解釋出現時重新評估。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“refused”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consider”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other interpretation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evidence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應最明顯的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“reevaluate his view if additional evidence or alternative explanations emerged”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He stood by his theory and findings and remained committed to further research, but said he would, of course, reevaluate his view if additional evidence or alternative explanations emerged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他堅持自己的理論和發現，並繼續投入後續研究；但他也說，如果有額外證據或其他解釋出現，他當然會重新評估自己的看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有兩層意思：第一，Horner “stood by his theory and findings”，表示他目前支持自己的理論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，he would “reevaluate his view”，表示他願意重新評估。條件是 “if additional evidence or alternative explanations emerged”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “refused to consider any other interpretation”。這與原文第二層資訊相反。原文清楚說他會考慮 alternative explanations，至少在有新資料出現時會重新評估。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Horner refused any other interpretation.原文命題： Horner would reevaluate if alternative explanations emerged.比較結果：原文提供相反資料，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“refused to consider”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“would… reevaluate”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“any other interpretation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“alternative explanations”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被 “stood by his theory” 誤導。這個短語表示他目前支持自己的觀點，但不代表他完全封閉。後面的 “but” 很重要，它把語氣轉向：他仍會在新證據或其他解釋出現時重新評估。判斷時要讀完整句，不要停在前半句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Jack Horner was the first person in the world to discover T. rex bones.”",
+      "translation": "Jack Horner 是世界上第一個發現 T. rex 骨頭的人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求判斷一個歷史排名：first person in the world。原文如果只說 Horner 發現恐龍骨頭、挖出第一具 skeleton，仍要看是否 specifically T. rex bones，以及是否 world first。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 1–2 Paragraph 1 第一段首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jack Horner is an unlikely academic: his dyslexia is so severe that he has trouble reading a book.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jack Horner 是一位不太像傳統學者的學者：他的 dyslexia 嚴重到連讀一本書都有困難。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一段首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His father had a sand and gravel quarry in Montana, and the young Horner was a collector of stones and bones, complete with notes about when and where he found them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的父親在 Montana 有一個砂石採石場，年幼的 Horner 會收集石頭和骨頭，並記錄發現的時間和地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首句，可以看到文章介紹 Horner 的身份和早年化石經驗。但題目問 “first person in the world to discover T. rex bones”，需要非常明確的世界第一資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first person”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in the world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“T. rex bones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discover”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有幾處相關但不足的資料："
+            },
+            {
+              "kind": "quote",
+              "text": "“I picked up one. I am pretty sure it was the upper arm bone of a duckbilled dinosaur…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“I excavated my first dinosaur skeleton.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及後文多次談 T. rex 研究，但沒有說 Horner 首次發現 T. rex bones。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 Horner 年幼時撿到骨頭，也說他在 high school excavated his first dinosaur skeleton。可是這些都沒有等同於題目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，八歲時撿到的骨頭被他認為可能是 duckbilled dinosaur 或 closely related dinosaur 的上臂骨，並非 T. rex。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，“my first dinosaur skeleton” 指他個人第一次挖掘的恐龍骨架，不是全球第一次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，文章沒有任何句子說 “first person in the world”、“first to discover T. rex bones” 或類似意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Horner was the world’s first discoverer of T. rex bones.原文資料： Horner collected stones and bones, found a possible duckbilled dinosaur bone, later excavated his first dinosaur skeleton, and studied T. rex evidence.比較結果：文章沒有提供世界第一這個核心資料，也沒有明確否定他不是第一人。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“first dinosaur skeleton” 是最容易誤導的位置。這是 Horner 自己的 first，不是人類歷史上的 first；而且原文沒有說那具 skeleton 是 T. rex。IELTS 常把 personal first 改成 world first，這種比較範圍一變，答案通常要特別小心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "shin bone",
+      "answerKey": "shin bone",
+      "type": "Summary Completion",
+      "prompt": "“Jack Horner found that T. rex’s 8 ______ was shorter than its thigh bone…”",
+      "translation": "Jack Horner 發現 T. rex 的 ______ 比 thigh bone 短。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “T. rex’s”，後面有 “was shorter than its thigh bone”，所以答案應該是身體部位或骨頭名稱，而且要和 thigh bone 形成比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He examined the leg bones of T. rex and compared the length of the thigh bone, or upper leg, with that of the shin bone, or lower leg.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他檢查 T. rex 的腿骨，並比較 thigh bone，也就是上腿骨，和 shin bone，也就是下腿骨的長度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same pattern can be observed in modern animals built to run fast, such as the ostrich and cheetah.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣模式也可見於現代為快速奔跑而構造的動物，例如 ostrich 和 cheetah。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 6 是腿骨比例和跑步能力的證據段。題目中的 thigh bone、shorter、swift animals 都指向這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“thigh bone”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shorter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“leg bones”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that the thigh bone was equal in length to, or slightly longer than, the shin bone and was much thicker and heavier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現 thigh bone 的長度等於或略長於 shin bone，而且厚得多、重得多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 thigh bone equal in length to, or slightly longer than, shin bone。題目把這個比較換成另一個方向：如果 thigh bone equal to or slightly longer than shin bone，就可以說 shin bone was equal to or slightly shorter than thigh bone。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子是 “T. rex’s ______ was shorter than its thigh bone”。最符合的就是 shin bone。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： shin bone = two words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“was shorter than its thigh bone”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the thigh bone was equal in length to, or slightly longer than, the shin bone”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： thigh bone slightly longer than shin bone= shin bone shorter than thigh bone"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “lower leg”。原文確實說 shin bone, or lower leg，但題目空格後接 “was shorter than its thigh bone”，答案要是骨頭名稱。lower leg 是部位解釋，shin bone 是原文精確名詞，最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "slow walker",
+      "answerKey": "slow walker",
+      "type": "Summary Completion",
+      "prompt": "“…demonstrating that it was actually a 9 ______…”",
+      "translation": "這證明 T. rex 實際上是一種 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，答案需要單數名詞短語。題目中的 “demonstrating” 對應原文的 “suggested”。要找腿骨比例說明 T. rex 是甚麼類型的動物。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He examined the leg bones of T. rex and compared the length of the thigh bone, or upper leg, with that of the shin bone, or lower leg.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他檢查 T. rex 的腿骨，並比較 thigh bone 和 shin bone 的長度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same pattern can be observed in modern animals built to run fast, such as the ostrich and cheetah.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣模式可見於現代為快速奔跑而構造的動物，例如 ostrich 和 cheetah。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的核心是用 leg bone pattern 判斷行動能力。題目問 “actually a ______”，答案一定在這段中間的結論句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“demonstrating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“actually”"
+            },
+            {
+              "kind": "quote",
+              "text": "“swift animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“built to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This suggested that the animal was built to be a slow walker rather than a fast runner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示這種動物的身體構造適合慢走，而非快速奔跑。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的結論非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“built to be a slow walker”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “demonstrating that it was actually a ______”，把 “suggested” 強化成 “demonstrating”，但空格答案仍要用原文詞。因為前面有冠詞 “a”，最自然答案是： slow walker答案形式檢查： slow walker = two words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“demonstrating that it was actually…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This suggested that…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“a ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a slow walker”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "fast runner 也在同一句出現，但它被 “rather than” 排除。題目說 T. rex actually was a…，應填前半的 slow walker。看到 “rather than” 時，要分清前後哪一邊是作者結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "cheetah",
+      "answerKey": "cheetah",
+      "type": "Summary Completion",
+      "prompt": "“…unlike other swift animals such as the ostrich or 10 ______…”",
+      "translation": "不像其他快速動物，例如 ostrich 或 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格和 “ostrich” 並列，因此答案應是另一種動物名稱。題目中的 “swift animals” 對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“animals built to run fast”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6第一句：“He examined the leg bones of T. rex and compared the length of the thigh bone, or upper leg, with that of the shin bone, or lower leg.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他檢查 T. rex 的腿骨，並比較 thigh bone 和 shin bone 的長度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same pattern can be observed in modern animals built to run fast, such as the ostrich and cheetah.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣模式也可見於現代為快速奔跑而構造的動物，例如 ostrich 和 cheetah。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，答案已明確出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ostrich”"
+            },
+            {
+              "kind": "quote",
+              "text": "“swift animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“run fast”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same pattern can be observed in modern animals built to run fast, such as the ostrich and cheetah.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “animals built to run fast” 改寫成 “swift animals”。swift 意思是快速的。原文列出兩個例子： ostrich cheetah題目已給 ostrich，因此空格填 cheetah。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： cheetah = one word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“swift animals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“animals built to run fast”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“ostrich or…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“ostrich and cheetah”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “dromaeosaurs”。它們在 Paragraph 4 和 Paragraph 6 出現，屬於 fast-running predatory dinosaurs 的化石比較，但題目說 “such as the ostrich or…”，明顯要求 modern animal example。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "run fast",
+      "answerKey": "run fast",
+      "type": "Summary Completion",
+      "prompt": "“…which were built to 11 ______.”",
+      "translation": "牠們的身體構造適合 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “built to”，答案應是動詞短語。題目中的 “which” 指前面的 ostrich 或 cheetah，所以要找這些動物被 built to do 甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He examined the leg bones of T. rex and compared the length of the thigh bone, or upper leg, with that of the shin bone, or lower leg.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他檢查 T. rex 的腿骨，並比較 thigh bone 和 shin bone 的長度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same pattern can be observed in modern animals built to run fast, such as the ostrich and cheetah.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣模式也可見於現代為快速奔跑而構造的動物，例如 ostrich 和 cheetah。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句同時包含 ostrich、cheetah 和 built to run fast，是本題答案句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“built to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ostrich”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cheetah”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“modern animals built to run fast, such as the ostrich and cheetah”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子的 “which” 指 ostrich or cheetah。原文說這些 modern animals 是 “built to run fast”。因此答案是動詞短語： run fast答案形式檢查： run fast = two words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“which were built to…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“modern animals built to run fast”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "run fast"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “fast-running”。原文中有 “fast-running predatory dinosaurs”，但題目空格前是 “built to”，後面要接動詞短語，所以 “run fast” 在文法上最自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "blunt",
+      "answerKey": "blunt",
+      "type": "Summary Completion",
+      "prompt": "“Another piece of evidence supporting his idea was that T. rex’s teeth were rather 12 ______…”",
+      "translation": "支持他觀點的另一項證據是，T. rex 的牙齒相當 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “rather”，答案應是形容詞。定位詞是 “T. rex’s teeth”。原文會比較 T. rex 和 Velociraptor的牙齒形態。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also studied the fossil teeth of T. rex and compared them with those of Velociraptor, putting another nail in the coffin of the ‘T. rex as hunter’ theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也研究 T. rex 的化石牙齒，並與 Velociraptor 的牙齒比較，這進一步打擊了 “T. rex as hunter”的理論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Propelled by enormous jaw muscles, they enabled the animal only to crush bones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在巨大顎部肌肉推動下，這些牙齒只能讓動物壓碎骨頭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 7 是牙齒證據段。題目說 another piece of evidence，明顯指這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“T. rex’s teeth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Velociraptor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rather”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“T. rex’s teeth were huge and sharp at the tip but otherwise blunt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "T. rex 的牙齒巨大，尖端鋒利，但其他部分鈍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說 Velociraptor 的牙齒："
+            },
+            {
+              "kind": "quote",
+              "text": "“Velociraptor’s teeth were like steak knives: sharp, razor-edged and capable of tearing through flesh with ease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Velociraptor 的牙齒像牛排刀：鋒利、有剃刀般邊緣，能輕易撕開肉。"
+            },
+            {
+              "kind": "label",
+              "text": "接著對比 T. rex："
+            },
+            {
+              "kind": "quote",
+              "text": "“T. rex’s teeth were huge and sharp at the tip but otherwise blunt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "T. rex 的牙齒很大，尖端鋒利，但其他部分鈍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “rather ______” 概括 T. rex’s teeth 的主要特徵。答案是 blunt。雖然原文也說 sharp at the tip，但決定功能的是 otherwise blunt，因為下一句說它們只能 crush bones，不能像 Velociraptor那樣 tear flesh。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： blunt = one word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“teeth were rather…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“otherwise blunt”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "blunt"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "sharp 也在同一句出現，但它只限定於 “at the tip”。題目後半說 “instead of tearing flesh like Velociraptor”，所以它要填能支撐不能撕肉的特徵。真正定案的是 blunt。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "crush",
+      "answerKey": "crush",
+      "type": "Summary Completion",
+      "prompt": "“…allowing it only to 13 ______ hard bones instead of tearing flesh like Velociraptor.”",
+      "translation": "這只容許牠 ______ 堅硬骨頭，而不能像 Velociraptor 一樣撕裂肉。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “to”，後面有 “hard bones”，答案應是動詞。題目用 “instead of tearing flesh” 對比Velociraptor 的牙齒功能，所以要找 T. rex 牙齒能做的動作。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also studied the fossil teeth of T. rex and compared them with those of Velociraptor, putting another nail in the coffin of the ‘T. rex as hunter’ theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也研究 T. rex 的化石牙齒，並與 Velociraptor 的牙齒比較，進一步打擊 T. rex 是獵手的理論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Propelled by enormous jaw muscles, they enabled the animal only to crush bones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在巨大顎部肌肉推動下，這些牙齒只能讓這種動物壓碎骨頭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接提供答案。題目中的 only to 也與原文 only to crush bones 高度對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tearing flesh”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Velociraptor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Propelled by enormous jaw muscles, they enabled the animal only to crush bones.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句中的 “they” 指 T. rex’s teeth。核心動詞是 “enabled”，意思是「使牠能夠」。真正能力是："
+            },
+            {
+              "kind": "quote",
+              "text": "“only to crush bones”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只能壓碎骨頭。"
+            },
+            {
+              "kind": "label",
+              "text": "題目改成："
+            },
+            {
+              "kind": "quote",
+              "text": "“allowing it only to ______ hard bones”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "allowing it = enabled the animal hard bones = bones only to = only to因此空格應填動詞 crush。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： crush = one word，符合 NO MORE THAN TWO WORDS。題目已經有 bones，所以不能填"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“crush bones”，否則句子會變成 “crush bones hard bones”，不合文法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“allowing it only to…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“enabled the animal only to…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“instead of tearing flesh like Velociraptor”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文： Velociraptor’s teeth were “capable of tearing through flesh with ease”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "crush"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易多抄 “crush bones”。Sentence Completion 要把答案放回題目句子檢查。因為題目後面已經有 “hard bones”，答案只需填 crush。答題時一定要讀空格前後，避免把原文長片語直接搬入造成重複。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - T-Rex_ Hunter or Scavenger_.pdf",
+    "sha256": "d45c042d8cec22ffc26a90f0db9970cb12e9c44e8a76cbcf89908fafa12a7654",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 Jack Horner 是一位不太像傳統學者的人，因為他的 dyslexia 嚴重到連讀書都有困難。末句卻說他成為 Montana State University Museum of the Rockies 的古生物學 curator，領導大型科學項目，並擔任 Steven Spielberg 等 Hollywood figures 的顧問。只看首尾句，可以先看到這段在建立人物反差：他讀文字困難，但能讀懂化石和地層留下的生命痕跡，並在古生物界取得重要地位。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Horner 的父親在 Montana 有 sand and gravel quarry，年幼的 Horner 會收集 stones and bones，並記下發現時間與地點。末句說他覺得自己似乎天生如此，從很小開始便被恐龍化石吸引。只看首尾句，可以估計這段會交代 Horner 的童年背景和最早接觸恐龍骨頭的經歷。題目若問 eight years old、father’s ranch、first bone、early motivation，就要看這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Horner 在大學待了七年，但從未畢業。末句是他的自述：他有 education，只是沒有那張piece of paper。只看首尾句，可以看到這段處理他的學歷和 dyslexia 如何影響正式資格。段落大概會解釋他無法完成 foreign language 和 English 要求，因此不能取得 degree；但他仍修讀課程、寫 thesis，也累積了相關學術訓練。"
+      },
+      {
+        "number": "4",
+        "summary": "首句用 Horner 的引述開始，說他們研究的是 broad coastal plain，有 streams and rivers，河邊有conifers 和 hardwood plants。末句說 small dromaeosaurs 這些已知有效捕食者沒有被發現。只看首尾句，可以估計這段描述 6800 萬年前的環境和恐龍群落比例。重點在 Triceratops、duck-billed dinosaurs、T. rex 和 dromaeosaurs 的數量關係，為 predator–prey ratio 及 T. rex 身份問題鋪路。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說正因如此，Horner 把 T. rex 看成 Cretaceous 時代的 vulture，而非 lion。末句說他堅持自己的理論和發現，也願意在有額外證據或其他解釋時重新評估。只看首尾句，可以看到這段是全文核心觀點段：Horner 用 Serengeti 遷徙和 carrion supply 作類比，說 T. rex 數量太多，若它是top predator 便不合比例；因此他更傾向把 T. rex 視作 scavenger。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說他檢查 T. rex 的 leg bones，並比較 thigh bone 和 shin bone 的長度。末句說 modern animals built to run fast，例如 ostrich 和 cheetah，也有 shin bone longer than thigh bone 的特徵。只看首尾句，可以估計這段用骨骼比例支持 T. rex 行動緩慢的觀點。這段明顯是 summary completion 的核心答案段，會提供 shin bone、thigh bone、slow walker、run fast 等答案。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說他也研究 T. rex 的 fossil teeth，並和 Velociraptor 比較，進一步打擊 “T. rex as hunter” theory。末句說 T. rex 的牙齒在巨大 jaw muscles 推動下，只能 crush bones。只看首尾句，可以看到這段用牙齒形態作第二組證據。Velociraptor 的牙齒像 steak knives，可撕裂 flesh；T. rex 的牙齒尖端銳利但其餘 blunt，功能偏向壓碎骨頭。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說根據 documentary 中提出的證據，Horner 認為 T. rex 作為 ruthless hunting and killing machine 的形象大概是 myth。末句說 nearly all scavengers 通常 vile and unpleasant-looking。只看首尾句，可以估計這段總結他的論證：T. rex 可能 slow、sluggish、vision poor、smell excellent，常在真正捕食者吃完後才到達 carcass，甚至要嚇走其他動物，形象更接近 scavenger。"
+      }
+    ]
+  }
+}

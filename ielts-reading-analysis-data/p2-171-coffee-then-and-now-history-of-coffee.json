@@ -1,0 +1,469 @@
+{
+  "id": "p2-171-coffee-then-and-now-history-of-coffee",
+  "catalogueId": "p2-171",
+  "catalogueIds": [
+    "p2-171"
+  ],
+  "passage": 2,
+  "title": "Coffee then and now (History of coffee)",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "viii — The spread of coffee",
+    "ix — Consuming coffee",
+    "vi — Coffee varieties",
+    "xi — The coffee plant",
+    "i — Growing coffee",
+    "iii — Processing the bean",
+    "epicarp",
+    "mesocarp",
+    "endocarp",
+    "wet milled",
+    "overnight",
+    "raked",
+    "customers’ specifications"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "viii — The spread of coffee",
+      "answerKey": "viii — The spread of coffee",
+      "type": "Matching Headings",
+      "prompt": "Questions 15–20",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 15 — Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 首句說 news quickly spread；尾句說 coffee 從 Arabia 傳到 Turkey，再傳到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Europe。只看首尾句，這段已經呈現「傳播路線」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 transported、cultivated、remained a secret、spreading、European continent、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venetian merchants。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 不是只講 Arabia。它先講 coffee berries 從 Ethiopia 到 Arabian Peninsula，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後在 Yemen cultivated，再講 Arabia、Turkey、Europe。整段核心是地理傳播，所以 viii 最能概括全段。v Arabian coffee 只覆蓋中間一部分，範圍太窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 16 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ix — Consuming coffee"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 首句說 coffee first eaten as food，尾句說 coffeehouses、filtering、sweetening"
+            },
+            {
+              "kind": "paragraph",
+              "text": "、adding milk。首尾句都在講人如何使用、飲用、改良 coffee。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 eaten、drink、boiling、roasting、beverage、coffeehouses、filtering、milk。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段按時間講 coffee 的消費方式：先吃 berries / beans，後來煮成有 narcotic effects and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "medicinal value 的飲品，再因 roasting 變成 delicious drink，最後進入歐洲 coffeehouse culture。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整段主題是「飲用與消費方式」，所以 ix 正確。v Arabian coffee 只適合其中 Arabia 的部分，不能概括整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 17 — Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vi — Coffee varieties"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句說全球有約 60 species of coffee plants；尾句說 Arabica 和 Robusta 因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ecological differences 產生 many mutations and subspecies。首尾句都指向 varieties / species。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 60 species、ten cultivated、two species、Coffea Arabica、Coffea Canephora、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Robusta、subspecies。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落先講 wild species，再講 actually cultivated 的只有約十種，最後指出幾乎全世界咖啡"
+            },
+            {
+              "kind": "paragraph",
+              "text": "都來自 Arabica 和 Robusta。這正是 coffee varieties。xi The coffee plant 太寬，因為 Paragraph D 不重點描述花、果、種子或植物外形。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 18 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：xi — The coffee plant"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 首句講 wild plants 和 cultivated plants 的高度；尾句講 bean 的顏色和大小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段由整棵植物一路講到 bean 的細部結構。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 plants、height、flowers、berry、epicarp、mesocarp、seeds、beans、endocarp。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段描述 coffee plant 的高度、花的氣味、berry 的外觀、果皮和果肉、種子、parchment、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "silver film、bean 的顏色和大小。整段是植物和果實結構描寫，所以 xi 最合適。vi Coffee varieties在這段不是主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 19 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：i — Growing coffee"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 首句說 coffee plants need special conditions；尾句給出每株 Arabica /"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Robusta 的 regular yield。首尾句已經指向栽培條件和收成。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 climate、soil、altitude、cultivation、nurseries、seedlings、plantations、yield。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 不只講 climate，還講 soil、irrigation、subsoil、hillsides、altitude、nurseries、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "rainy season、interplanted with other species、五年後 regular yield。x Suitable climates for coffee 只概括氣候部分；i Growing coffee 覆蓋整段的栽培流程、條件和產量，因此更準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 20 — Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii — Processing the bean"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 首句講 harvesting time；尾句講 green beans roasted, cooled, packaged and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sent to customers。這段明顯是由收成到加工完成的流程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 picked、pulping mills、pulped、ferment、sun-dried、raked、milled、remove、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "roasted、packaged。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的重點是 coffee cherries 變成可烘焙 green beans 的加工過程：採摘、wet"
+            },
+            {
+              "kind": "paragraph",
+              "text": "milling、發酵、曬乾、翻動、去除 parchment and silver skin、烘焙和包裝。iii Processing the bean最能概括整段。vii Modern coffee 沒有具體對應，範圍也太模糊。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "epicarp, mesocarp, endocarp",
+      "answerKey": "epicarp, mesocarp, endocarp",
+      "type": "Diagram Label Completion",
+      "prompt": "Questions 21–23",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Diagram Label Completion。先看圖上箭咀指向咖啡果實 / 咖啡豆的哪一層，再回"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 找結構描寫。完整版本的題目圖和答案表都顯示三個標籤依次是 epicarp、mesocarp、endocarp。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questio Answer 原文定位與判斷n 21 epicarp 原文說 berry 外面有 “a thin, red film (epicarp)”。圖中最外層薄紅膜對應epicarp。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "22 mesocar 原文說 epicarp 內含 “a white, sugary mucilaginous flesh (mesocarp)”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "p 圖中果肉層對應 mesocarp。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "23 endocar 原文說 beans 外面有 resistant golden-yellow parchment，called the p endocarp。圖中包住 beans 的羊皮紙狀層對應 endocarp。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 silver film。原文也提到 each bean is covered by another very thin, silvery film，但題目圖的三個箭咀對應的是 berry 由外到內的三層：epicarp → mesocarp → endocarp，不要把silvery film 放進 21–23。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "wet milled, overnight, raked, customers’ specifications",
+      "answerKey": "wet milled, overnight, raked, customers’ specifications",
+      "type": "Flowchart Completion",
+      "prompt": "Questions 24–27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flowchart Completion 要跟 Paragraph G 的時間順序。手冊提醒這類 completion 要檢"
+            },
+            {
+              "kind": "paragraph",
+              "text": "查空格前後文法、詞性、單複數和字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整版本的流程圖顯示四個空格位置分別在 “pulped or ___”、 “left ___”、 “are ___ often”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“roasted to ___”，答案表也列出 wet milled、overnight、raked、customers’ specifications。 Questio Answer Skim / Scan / Read n 24 wet milled Scan 找 pulped。原文說 coffee cherries can be “pulped (or wet milled)”。空格在 “pulped or ___” 後面，所以答案直接填 wet milled。 25 overnight Scan 找 ferment。原文說 pulped beans rest, covered in pure rainwater “to ferment overnight”。空格需要時間副詞，overnight完全文法合適。 26 raked Scan 找 dry evenly。原文說 beans need to be “raked many times”。流程圖是 passive form “are ___ often”，所以填 past participle raked。 27 customers’ Scan 找 roasted。原文說 green beans are roasted according to specifications “customers’ specifications”。題目限制 NO MORE THAN THREE WORDS，customers’ specifications 符合字數。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        24,
+        25,
+        26,
+        27
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Coffee then and now (History of coffee).pdf",
+    "sha256": "db47187374156f8767f99eebe26b03c05fa5737507f005f85b2f4e645793048f",
+    "pageCount": 5
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段先把 coffee 的最早發現地定位在 East Africa / Ethiopia。尾句說 Kaldi 吃了berries 後得到 renewed energy，所以段落功能很清楚：它用 Kaldi 和山羊的傳說解釋咖啡如何被人注意到。這段重點不是種植或傳播，而是 first discovery、legend、energy effect。題目例子Paragraph A — iv 正是利用這個功能判斷。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說這種 energy-laden fruit 的消息迅速在地區內傳開；尾句說 coffee 先在 Arabia 保密，之後傳到 Turkey，再經 Venetian merchants 到 Europe。只看首尾句，已經能看到「地理移動路線」： Ethiopia → Arabian Peninsula / Yemen → Arabia → Turkey → Europe。這段主題偏向 coffee 的傳播，而不是單純講 Arabian coffee。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 coffee 最初作為 food 被吃，後來 Arabia 的人把 beans 煮成 drink；尾句說歐洲coffeehouses 出現，Viennese 又發展出 filtering, sweetening, adding milk 的飲用方式。首尾句合起來顯示，這段在講 coffee 的消費方式如何由食物、藥用飲品、Arabian wine，逐步變成現代人熟悉的飲品文化。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說如果在全球尋找 coffee，會發現約 60 species of coffee plants wild in Africa, Malaysia and other regions；尾句說因各產地 ecological differences，兩大種類出現 many mutations and subspecies。只看首尾句，這段功能是介紹 coffee varieties：野生品種、實際栽培品種、Arabica /Robusta，以及後來的 subspecies。它不是描述植物外形。"
+      },
+      {
+        "number": "E",
+        "summary": "首句比較 wild plants 和 cultivated plants 的高度，指出栽培植物約四米高，方便收成和經濟栽培；尾句細講 bean 的顏色和大小。首尾句提示這段會由整棵 coffee plant 講到果實、果皮、果肉、種子和 bean 的結構。這段最適合用來處理 coffee plant 和 coffee bean diagram label 題。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 coffee plants need special conditions to give a satisfactory crop；尾句交代 Arabica 和Robusta 每株的 regular yield。只看首尾句，這段明顯在講 coffee 的 growing requirements： climate、rain、temperature、soil、altitude、nursery、plantation、shade、wind protection，以及五年後穩定收成。它比 “suitable climates” 更廣，因為還包括栽培方法和產量。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 harvesting time depends on geography，所以各產國時間不同；尾句說 green beans roasted, cooled, packaged and sent to customers。首尾句顯示這段是 production / processing chain：picking cherries、pulping、fermenting、sun-drying、raking、milling、removing parchment and silver skin、roasting、packaging。這段特別適合 flowchart completion，因為所有步驟按時間順序排列。"
+      }
+    ]
+  }
+}

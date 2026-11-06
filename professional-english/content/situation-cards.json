@@ -1,0 +1,1631 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Professional Lobby Communication",
+      "cards": [
+        {
+          "number": 1,
+          "title": "Scheduled Visitor",
+          "turns": [
+            {
+              "role": "Security Officer",
+              "en": "Good afternoon. How can I help you?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Hi. I am David Chan from Bright Star Ltd. I have a meeting with Olivia Ho."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. What time is your meeting?"
+            },
+            {
+              "role": "Visitor",
+              "en": "2:15 p.m."
+            },
+            {
+              "role": "Security Officer",
+              "en": "And which floor are you going to?"
+            },
+            {
+              "role": "Visitor",
+              "en": "The 18th floor."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. So you are David Chan from Bright Star Ltd. You are meeting Ms Olivia Ho at Golden Finance at 2:15 p.m. on the 18th floor. Is that correct?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Yes, that is correct."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. Please wait here while I check your appointment."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you for waiting. Your appointment is confirmed. You may register for your visitor pass now."
+            },
+            {
+              "role": "Visitor",
+              "en": "Thank you."
+            },
+            {
+              "role": "Security Officer",
+              "en": "You are welcome. Enjoy your visit."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Unannounced Urgent Visitor",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Hi. I need to see Raymond Cheung. It is urgent."
+            },
+            {
+              "role": "Security Officer",
+              "en": "I understand. Is Mr Cheung expecting you today?"
+            },
+            {
+              "role": "Visitor",
+              "en": "No. But it is an urgent private matter."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Okay. May I have your name and company, please?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Amy Lee from Sunrise Computers."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you, Ms Lee. I need confirmation before I can send you upstairs."
+            },
+            {
+              "role": "Visitor",
+              "en": "But I only need a few minutes."
+            },
+            {
+              "role": "Security Officer",
+              "en": "I understand. I can call the office for you."
+            },
+            {
+              "role": "Visitor",
+              "en": "How long will it take?"
+            },
+            {
+              "role": "Security Officer",
+              "en": "I am not sure yet. Please wait here while I check."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay, but please hurry."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Certainly. I will let you know when I have an update."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Contradictory Floor Information",
+          "turns": [
+            {
+              "role": "Security Officer",
+              "en": "Good afternoon. How can I help you?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Hi. I am here to see Anthony Lau."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Certainly. Which company are you visiting?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Tommy Fashion Limited."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. Which floor does your email show?"
+            },
+            {
+              "role": "Visitor",
+              "en": "The 23rd floor."
+            },
+            {
+              "role": "Security Officer",
+              "en": "I see. Our directory says the 15th floor."
+            },
+            {
+              "role": "Visitor",
+              "en": "Really? Are you sure the directory is up to date?"
+            },
+            {
+              "role": "Security Officer",
+              "en": "I am not sure, so I need to check."
+            },
+            {
+              "role": "Visitor",
+              "en": "My email definitely says the 23rd floor."
+            },
+            {
+              "role": "Security Officer",
+              "en": "I understand. Please wait here while I contact the office."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. I will let you know when I have the correct floor."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Confirmed Appointment, Missing Details",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Good afternoon. I have a 3:30 meeting with Rachel Lee at City Finance."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Good afternoon. May I have your name, please?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Kevin Wong."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. And which company are you from?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Hung Kai Trading."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. Which floor is your meeting on?"
+            },
+            {
+              "role": "Visitor",
+              "en": "The 12th floor."
+            },
+            {
+              "role": "Security Officer",
+              "en": "So you are Kevin Wong from Hung Kai Trading. You are meeting Ms Rachel Lee at City Finance at 3:30 p.m. on the 12th floor. Is that correct?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Yes."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. Please wait here while I check your appointment."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you for waiting. Your appointment is confirmed. Please register at the counter."
+            },
+            {
+              "role": "Visitor",
+              "en": "All right."
+            },
+            {
+              "role": "Security Officer",
+              "en": "You will receive a visitor pass. Then please take the correct lift to the 12th floor."
+            },
+            {
+              "role": "Visitor",
+              "en": "Thank you."
+            },
+            {
+              "role": "Security Officer",
+              "en": "You are welcome."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Extra Visitor Not on Appointment",
+          "turns": [
+            {
+              "role": "Security Officer",
+              "en": "Good morning. How can I help you?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Hi. I am Peter Wong from Star Trading Ltd. I have an 11:00 meeting with Karen Lee."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. Is your colleague joining the same meeting?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Yes. She is with me."
+            },
+            {
+              "role": "Security Officer",
+              "en": "May I have your colleague's name, please?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Mary Chan."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. I can see your name on the appointment, but Ms Chan's name is not listed."
+            },
+            {
+              "role": "Visitor",
+              "en": "She is with me. Does she really need to register too?"
+            },
+            {
+              "role": "Security Officer",
+              "en": "Yes. All visitors need to register."
+            },
+            {
+              "role": "Visitor",
+              "en": "Can we just go upstairs together?"
+            },
+            {
+              "role": "Security Officer",
+              "en": "Sorry. I need to check with the office first."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Please wait here while I check."
+            },
+            {
+              "role": "Visitor",
+              "en": "All right."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you for waiting. The office has confirmed both visitors. Please register at the counter."
+            },
+            {
+              "role": "Visitor",
+              "en": "Great. Thank you."
+            },
+            {
+              "role": "Security Officer",
+              "en": "You are welcome. After registration, you can both receive visitor passes."
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Visitor Arrives After Office Hours",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Good evening. I am here for a meeting with Jenny Chan."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Good evening. May I have your name and company, please?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Eric Wong from Metro Design Ltd."
+            },
+            {
+              "role": "Security Officer",
+              "en": "What time is your appointment?"
+            },
+            {
+              "role": "Visitor",
+              "en": "6:30 p.m."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you. The office normally closes at 6:00 p.m."
+            },
+            {
+              "role": "Visitor",
+              "en": "She told me she would still be in the office. Can you just call upstairs?"
+            },
+            {
+              "role": "Security Officer",
+              "en": "Yes. I can call the office."
+            },
+            {
+              "role": "Visitor",
+              "en": "Can I go upstairs first?"
+            },
+            {
+              "role": "Security Officer",
+              "en": "Sorry. I need confirmation before I can send you upstairs."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Please wait here while I check."
+            },
+            {
+              "role": "Visitor",
+              "en": "All right."
+            },
+            {
+              "role": "Security Officer",
+              "en": "Thank you for waiting. Ms Chan is still in the office, and your meeting is confirmed."
+            },
+            {
+              "role": "Visitor",
+              "en": "Great."
+            },
+            {
+              "role": "Security Officer",
+              "en": "You may register now and then go to the 19th floor."
+            },
+            {
+              "role": "Visitor",
+              "en": "Thank you."
+            },
+            {
+              "role": "Security Officer",
+              "en": "You are welcome."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "title": "Three Garden Road Visitor Guidance",
+      "cards": [
+        {
+          "number": 1,
+          "title": "Wrong Lift Zone",
+          "turns": [
+            {
+              "role": "Security / CS",
+              "en": "Good afternoon. Which floor are you going to?"
+            },
+            {
+              "role": "Visitor",
+              "en": "The 26th floor. I am here to see Mr Jason Ho."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Your visit is already confirmed."
+            },
+            {
+              "role": "Visitor",
+              "en": "Great. I will just use these lifts."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am afraid these are not the right lifts for the 26th floor."
+            },
+            {
+              "role": "Visitor",
+              "en": "Oh. Why not?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "The lifts serve different floors. You need the correct lift zone."
+            },
+            {
+              "role": "Visitor",
+              "en": "Which lift should I use?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Please use the lift for the 26th floor. I can show you the way."
+            },
+            {
+              "role": "Visitor",
+              "en": "Thank you."
+            },
+            {
+              "role": "Security / CS",
+              "en": "You are welcome. Please keep your QR receipt for the exit gate."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay. I will."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Enjoy your visit."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Escort Back to G/F",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Excuse me. I am not sure how to get back downstairs."
+            },
+            {
+              "role": "Security / CS",
+              "en": "No problem. Which floor did you come from?"
+            },
+            {
+              "role": "Visitor",
+              "en": "The 21st floor."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Okay. I can show you back to G/F."
+            },
+            {
+              "role": "Visitor",
+              "en": "Thank you. Which lift should we use?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Please follow me. We will use this lift."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "We are on the ground floor now."
+            },
+            {
+              "role": "Visitor",
+              "en": "Which way is the exit?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "The exit gate is on your left."
+            },
+            {
+              "role": "Visitor",
+              "en": "Do I scan my QR code there?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Yes. Please scan your QR code at the gate."
+            },
+            {
+              "role": "Visitor",
+              "en": "Thank you for helping me."
+            },
+            {
+              "role": "Security / CS",
+              "en": "You are welcome. Have a good day."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "After-Hours Appointment",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Good evening. I am here to see David Lam."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Good evening. May I have your name and company, please?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Lisa Wong from East Point Capital."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. What time is your appointment?"
+            },
+            {
+              "role": "Visitor",
+              "en": "7:00 p.m."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I see. It is now 7:10 p.m. The normal office hours have ended."
+            },
+            {
+              "role": "Visitor",
+              "en": "He texted me five minutes ago. Surely I can just go up?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. But I need to check that Mr Lam is still available."
+            },
+            {
+              "role": "Visitor",
+              "en": "Can't I go upstairs first?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Sorry. I need confirmation before I can send you upstairs."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Please wait here while I contact him."
+            },
+            {
+              "role": "Visitor",
+              "en": "All right."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. I will let you know when I have an update."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "QR Code Will Not Scan",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Excuse me. My QR code is not working."
+            },
+            {
+              "role": "Security / CS",
+              "en": "No problem. Are you at the exit gate?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Yes. I scanned it twice."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I see. Please do not force the gate."
+            },
+            {
+              "role": "Visitor",
+              "en": "Can I just push it open? I am in a hurry for a taxi."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Sorry. Please do not push the gate."
+            },
+            {
+              "role": "Visitor",
+              "en": "What should I do?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Let me check your QR receipt for you."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Please wait a moment."
+            },
+            {
+              "role": "Visitor",
+              "en": "Is there another way out?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "If the QR code still does not work, please come back to the CS counter with me."
+            },
+            {
+              "role": "Visitor",
+              "en": "All right."
+            },
+            {
+              "role": "Security / CS",
+              "en": "We can help you there."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Visitor Separates from Host",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Excuse me. Is the main exit this way?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Let me help you. Which floor did you come from?"
+            },
+            {
+              "role": "Visitor",
+              "en": "The 24th floor."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Did you come down by yourself?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Yes. My host stayed upstairs."
+            },
+            {
+              "role": "Security / CS",
+              "en": "No problem. The exit is on the other side."
+            },
+            {
+              "role": "Visitor",
+              "en": "Oh, I thought it was this way."
+            },
+            {
+              "role": "Security / CS",
+              "en": "That is okay. Please follow me."
+            },
+            {
+              "role": "Visitor",
+              "en": "Thank you."
+            },
+            {
+              "role": "Security / CS",
+              "en": "The exit gate is over there."
+            },
+            {
+              "role": "Visitor",
+              "en": "Do I use my QR code?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Yes. Please scan your QR code at the gate."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "If you need help, please let me know."
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Host Cannot Be Reached After Hours",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Good evening. I have an appointment with Karen Wong."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Good evening. May I have your name and company, please?"
+            },
+            {
+              "role": "Visitor",
+              "en": "May Chan from Green Star Ltd."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. What time is your appointment?"
+            },
+            {
+              "role": "Visitor",
+              "en": "6:45 p.m."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I see. It is now 6:55 p.m., and the office is outside normal hours."
+            },
+            {
+              "role": "Visitor",
+              "en": "I have her message on my phone. Isn't that enough?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand you have an appointment. But I still need confirmation before I can send you upstairs."
+            },
+            {
+              "role": "Visitor",
+              "en": "Can you call her?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Yes. I will try to contact the office now."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Please wait here while I check."
+            },
+            {
+              "role": "Visitor",
+              "en": "All right."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you for waiting. I have not been able to reach the office yet."
+            },
+            {
+              "role": "Visitor",
+              "en": "So what can I do?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry, but I cannot send you upstairs without confirmation."
+            },
+            {
+              "role": "Visitor",
+              "en": "I see."
+            },
+            {
+              "role": "Security / CS",
+              "en": "You can wait a little longer while I try again, or contact your host directly."
+            },
+            {
+              "role": "Visitor",
+              "en": "Okay. I will call her."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "title": "Complaint Handling and Calm Response",
+      "cards": [
+        {
+          "number": 1,
+          "title": "Blocked Fire Route + Hygiene",
+          "turns": [
+            {
+              "role": "Tenant",
+              "en": "Excuse me. There is a serious problem near our office."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry to hear that. What happened?"
+            },
+            {
+              "role": "Tenant",
+              "en": "There are some boxes in the rear staircase. The fire route is blocked."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. Which floor is it?"
+            },
+            {
+              "role": "Tenant",
+              "en": "18/F."
+            },
+            {
+              "role": "Security / CS",
+              "en": "And which staircase is it?"
+            },
+            {
+              "role": "Tenant",
+              "en": "The rear staircase beside the refuse room."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Is there any other problem there?"
+            },
+            {
+              "role": "Tenant",
+              "en": "Yes. There is a strong smell. We have also seen rats and mosquitoes."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry about the situation. I will report the blocked fire route and the hygiene problem to management now."
+            },
+            {
+              "role": "Tenant",
+              "en": "Please send cleaners immediately. We also need more patrols and a warning to the unit."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. I will pass those requests to management."
+            },
+            {
+              "role": "Tenant",
+              "en": "This is a fire risk. Why has no one dealt with it?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand your concern. I will report this as urgent."
+            },
+            {
+              "role": "Tenant",
+              "en": "When will it be cleared?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I cannot confirm the exact time yet, but I will update you when management responds."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Warm Reception + Locked Washroom",
+          "turns": [
+            {
+              "role": "Tenant",
+              "en": "Hi. Our reception area is very warm, and the washroom nearby is locked."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry about that. Which floor are you on?"
+            },
+            {
+              "role": "Tenant",
+              "en": "12/F, Suite 1203."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Where exactly is the warm area?"
+            },
+            {
+              "role": "Tenant",
+              "en": "The reception area outside Suite 1203."
+            },
+            {
+              "role": "Security / CS",
+              "en": "And which washroom is locked?"
+            },
+            {
+              "role": "Tenant",
+              "en": "The washroom beside Lift Lobby B."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Is the air-conditioning completely off?"
+            },
+            {
+              "role": "Tenant",
+              "en": "No. It is running, but the area is still very warm."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. I will report the air-conditioning problem and the washroom problem."
+            },
+            {
+              "role": "Tenant",
+              "en": "Can you fix both within ten minutes?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry, but I cannot confirm the repair time yet."
+            },
+            {
+              "role": "Tenant",
+              "en": "So what will happen now?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I will report both issues to management and engineering and update you when I have more information."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Dim Meeting Room Before Client Meeting",
+          "turns": [
+            {
+              "role": "Tenant",
+              "en": "Excuse me. The lights in our meeting room are not working properly. It is very dim."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry. Which floor and meeting room is it?"
+            },
+            {
+              "role": "Tenant",
+              "en": "15/F, Meeting Room 3, Suite 3001."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Are all the lights off?"
+            },
+            {
+              "role": "Tenant",
+              "en": "No. Only a few lights are working."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. Is the room still very dark?"
+            },
+            {
+              "role": "Tenant",
+              "en": "Yes. We have a client meeting in 20 minutes."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. I will report this as urgent to management and engineering."
+            },
+            {
+              "role": "Tenant",
+              "en": "I need someone here immediately."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand the urgency. I will ask the team to come as soon as possible."
+            },
+            {
+              "role": "Tenant",
+              "en": "Can you guarantee it will be fixed before they arrive?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry, but I cannot confirm that yet."
+            },
+            {
+              "role": "Tenant",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I will follow up and update you as soon as I receive a response."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Angry Visitor + Access Rule",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Excuse me. My access card is not opening the gate."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry about that. What happened?"
+            },
+            {
+              "role": "Visitor",
+              "en": "I registered already, but the card still does not work."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. Did the card work before?"
+            },
+            {
+              "role": "Visitor",
+              "en": "No. I have done all this already. Just let me through."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand this is frustrating."
+            },
+            {
+              "role": "Visitor",
+              "en": "Then open the gate for me."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry. For security reasons, I still need to check the access problem."
+            },
+            {
+              "role": "Visitor",
+              "en": "This is ridiculous. I want to speak to the manager."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Certainly. I will contact my supervisor for you."
+            },
+            {
+              "role": "Visitor",
+              "en": "How long will this take?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I cannot confirm the exact time yet, but I will ask my supervisor to come as soon as possible."
+            },
+            {
+              "role": "Visitor",
+              "en": "Fine."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Please wait here while I check. I will update you on the next step."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "title": "Telephone, WhatsApp, Message Taking and Confirmation Calls",
+      "cards": [
+        {
+          "number": 1,
+          "title": "Caller Wants One Employee [PHONE]",
+          "turns": [
+            {
+              "role": "Security / CS",
+              "en": "Good morning. Three Garden Road CS counter. How can I help you?"
+            },
+            {
+              "role": "Caller",
+              "en": "Hi. Can I speak to Karen Wong at Apex Design?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Certainly. May I ask who is calling, please?"
+            },
+            {
+              "role": "Caller",
+              "en": "Michael Ho."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Which company are you from?"
+            },
+            {
+              "role": "Caller",
+              "en": "Prime Logistics."
+            },
+            {
+              "role": "Security / CS",
+              "en": "May I have your callback number, please?"
+            },
+            {
+              "role": "Caller",
+              "en": "Yes. It is 9128 6654."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. And what is the call about?"
+            },
+            {
+              "role": "Caller",
+              "en": "It is about the delivery schedule."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Please hold for a moment while I check."
+            },
+            {
+              "role": "Caller",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you for holding. I can put you through to the Apex Design office, but I cannot transfer you directly to Ms Wong."
+            },
+            {
+              "role": "Caller",
+              "en": "Can't you just transfer me straight to Karen?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry. We can only transfer calls to the tenant's office."
+            },
+            {
+              "role": "Caller",
+              "en": "All right. What if nobody answers?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "You can leave a message or a callback number, and we can pass it to the office."
+            },
+            {
+              "role": "Caller",
+              "en": "Okay. Please transfer me."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Certainly. Please hold while I put you through to the tenant's office."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Registered Visitor Waiting [WHATSAPP]",
+          "turns": [
+            {
+              "role": "Security / CS",
+              "en": "Good afternoon. This is the Three Garden Road CS counter. Sophie Lau from Vertex Media has registered and is waiting in the lobby. May I confirm whether you are expecting her?"
+            },
+            {
+              "role": "Tenant",
+              "en": "Yes. She has a 2:30 meeting with us."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Should we send her upstairs, or should she wait in the lobby?"
+            },
+            {
+              "role": "Tenant",
+              "en": "Please ask her to wait. My colleague Ben will collect her."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Where will Ben meet her - at the CS counter or the main entrance?"
+            },
+            {
+              "role": "Tenant",
+              "en": "At the CS counter."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Just to confirm: Sophie will wait at the CS counter, and Ben will come down to collect her. Is that correct?"
+            },
+            {
+              "role": "Tenant",
+              "en": "Actually, please change that. Ben will meet her at the main entrance."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you for the update. Just to make sure I have this right: Sophie will wait in the lobby, and Ben will meet her at the main entrance."
+            },
+            {
+              "role": "Tenant",
+              "en": "Yes, correct."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. We will proceed accordingly."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Parking Barrier Queue [WHATSAPP]",
+          "turns": [
+            {
+              "role": "Tenant",
+              "en": "Hi. The parking exit barrier is not working. Cars are queueing."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am sorry about that. May I confirm the exact location?"
+            },
+            {
+              "role": "Tenant",
+              "en": "B2 East Wing."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Which lane is affected?"
+            },
+            {
+              "role": "Tenant",
+              "en": "Lane 2."
+            },
+            {
+              "role": "Security / CS",
+              "en": "To help us report this accurately, what happens when you scan the card?"
+            },
+            {
+              "role": "Tenant",
+              "en": "The scan works, but the barrier stays down."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Understood. Is another exit lane still working?"
+            },
+            {
+              "role": "Tenant",
+              "en": "Yes. Lane 1 is open, but six cars are queueing."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. I will log this as: B2 East Wing, Lane 2; valid scan but barrier stays down; six cars queueing; Lane 1 still open."
+            },
+            {
+              "role": "Tenant",
+              "en": "Why are you asking questions? Just send someone! I need the Facilities Manager immediately."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand it is urgent. I will include your request in the report and escalate the issue to Facilities and management now."
+            },
+            {
+              "role": "Tenant",
+              "en": "Will the Facilities Manager come?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I cannot confirm who will attend yet, but I will update you here when I receive a response."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Leave a Message [PHONE]",
+          "turns": [
+            {
+              "role": "Security / CS",
+              "en": "Good afternoon. Three Garden Road CS counter. How can I help you?"
+            },
+            {
+              "role": "Caller",
+              "en": "Hi. I am trying to contact the tenant office."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Certainly. Please hold for a moment while I check."
+            },
+            {
+              "role": "Caller",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you for holding. I am sorry, but the tenant office is not answering. Would you like to leave a message?"
+            },
+            {
+              "role": "Caller",
+              "en": "Yes, please."
+            },
+            {
+              "role": "Security / CS",
+              "en": "May I have your name, please?"
+            },
+            {
+              "role": "Caller",
+              "en": "Rachel Ng."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Which company are you from?"
+            },
+            {
+              "role": "Caller",
+              "en": "Silverline Services."
+            },
+            {
+              "role": "Security / CS",
+              "en": "And may I have your callback number?"
+            },
+            {
+              "role": "Caller",
+              "en": "63824170."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Sorry, could you repeat the number slowly, please?"
+            },
+            {
+              "role": "Caller",
+              "en": "6382 4170."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. And what message would you like me to pass on?"
+            },
+            {
+              "role": "Caller",
+              "en": "Please call me about tomorrow's loading-bay booking."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Let me read that back to you. Your name is Rachel Ng from Silverline Services. Your callback number is 6382 4170, and you would like the tenant office to call you about tomorrow's loading-bay booking. Is that correct?"
+            },
+            {
+              "role": "Caller",
+              "en": "Yes, that is correct."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. I will pass the details to the tenant's office."
+            },
+            {
+              "role": "Caller",
+              "en": "Thank you."
+            },
+            {
+              "role": "Security / CS",
+              "en": "You are welcome. Thank you for calling. Have a good day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "title": "Emergency and Unexpected Incidents Response",
+      "cards": [
+        {
+          "number": 1,
+          "title": "Water Leak + Power Failure",
+          "turns": [
+            {
+              "role": "Tenant",
+              "en": "Excuse me. There is water coming from the ceiling."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. Which floor and where exactly is it?"
+            },
+            {
+              "role": "Tenant",
+              "en": "18/F, outside Suite 1807."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Is the water near any electrical equipment?"
+            },
+            {
+              "role": "Tenant",
+              "en": "Yes. There is a socket nearby."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Understood. Please keep away from the wet area."
+            },
+            {
+              "role": "Tenant",
+              "en": "The corridor lights are also off."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. I will report the water leak and the power problem separately."
+            },
+            {
+              "role": "Tenant",
+              "en": "Can we just walk through quickly?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "No. Please keep clear of the area for now."
+            },
+            {
+              "role": "Tenant",
+              "en": "When will the power come back?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "I cannot confirm the time yet. I will update you when we receive verified information."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Suspicious Person Near Restricted Door",
+          "turns": [
+            {
+              "role": "Tenant",
+              "en": "Excuse me. There is someone near the service corridor."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand. Where exactly is the person?"
+            },
+            {
+              "role": "Tenant",
+              "en": "On G/F, near a restricted door."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. What is the person doing?"
+            },
+            {
+              "role": "Tenant",
+              "en": "They are trying several access cards and pulling the door handle."
+            },
+            {
+              "role": "Security / CS",
+              "en": "What do they look like?"
+            },
+            {
+              "role": "Tenant",
+              "en": "I am not sure who they are. They keep looking around."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Understood. Please keep a safe distance."
+            },
+            {
+              "role": "Tenant",
+              "en": "Should I go over and ask what they are doing?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "No. Please do not confront the person."
+            },
+            {
+              "role": "Tenant",
+              "en": "Okay."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am contacting the security team now."
+            },
+            {
+              "role": "Tenant",
+              "en": "What should I do?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Stay in a safe place and tell us if the person moves or their behaviour changes."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Aggressive Visitor",
+          "turns": [
+            {
+              "role": "Visitor",
+              "en": "Open the gate now. I am going upstairs."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I want to help, but please step back and speak calmly."
+            },
+            {
+              "role": "Visitor",
+              "en": "I already told you. Let me through."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I understand you are upset, but I cannot open the gate yet."
+            },
+            {
+              "role": "Visitor",
+              "en": "This is ridiculous!"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Please stay on this side of the access point."
+            },
+            {
+              "role": "Visitor",
+              "en": "I am not moving."
+            },
+            {
+              "role": "Security / CS",
+              "en": "I am contacting my supervisor for assistance."
+            },
+            {
+              "role": "Visitor",
+              "en": "I want to speak to the manager now!"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Certainly. I will ask my supervisor to come and assist you."
+            },
+            {
+              "role": "Visitor",
+              "en": "[Bangs the counter once.] Hurry up!"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Please do not bang the counter. Keep a safe distance and speak calmly."
+            },
+            {
+              "role": "Visitor",
+              "en": "Fine."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Please wait here while my supervisor comes."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Final Mixed Scenario",
+          "turns": [
+            {
+              "role": "Security / CS",
+              "en": "Good afternoon. How can I help you?"
+            },
+            {
+              "role": "Visitor",
+              "en": "Hi. I am Sophia Lau from Vertex Media. I am going to 26/F."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Who are you here to see?"
+            },
+            {
+              "role": "Visitor",
+              "en": "I am not sure if they confirmed me yet."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Okay. Please wait here while I check."
+            },
+            {
+              "role": "Tenant",
+              "en": "Excuse me. There is a strong burning smell near Lift Lobby B."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Thank you. Which floor is Lift Lobby B on?"
+            },
+            {
+              "role": "Tenant",
+              "en": "26/F."
+            },
+            {
+              "role": "Security / CS",
+              "en": "Understood. I will report the exact location now."
+            },
+            {
+              "role": "Stage",
+              "en": "[Fire alarm sounds.]"
+            },
+            {
+              "role": "Visitor",
+              "en": "What is happening?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "The fire alarm is sounding. Please stay calm."
+            },
+            {
+              "role": "Visitor",
+              "en": "Can I just take the lift? I am already late."
+            },
+            {
+              "role": "Security / CS",
+              "en": "No. Please do not use the lift."
+            },
+            {
+              "role": "Visitor",
+              "en": "Then where should I go?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Please use the nearest safe staircase and follow the evacuation signs."
+            },
+            {
+              "role": "Visitor",
+              "en": "Can I go back for my bag?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "No. Please continue evacuating."
+            },
+            {
+              "role": "Visitor",
+              "en": "When can I come back in?"
+            },
+            {
+              "role": "Security / CS",
+              "en": "Re-entry needs the authorised all-clear."
+            },
+            {
+              "role": "Supervisor",
+              "en": "Give me a quick report."
+            },
+            {
+              "role": "Security / CS",
+              "en": "A strong burning smell was reported near Lift Lobby B on 26/F. It was reported while Sophia Lau from Vertex Media was waiting for visitor confirmation. Then the fire alarm sounded. I stopped the normal visitor process, told the visitor not to use the lift, and directed her to the nearest safe staircase. Everyone was told to follow the evacuation signs. Re-entry has not been confirmed yet."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

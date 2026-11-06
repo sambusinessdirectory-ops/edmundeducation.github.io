@@ -1,0 +1,1923 @@
+{
+  "id": "p1-001-italian-architect-palladio",
+  "catalogueId": "p1-001",
+  "catalogueIds": [
+    "p1-001"
+  ],
+  "passage": 1,
+  "title": "Italian Architect Palladio",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "stonemason",
+    "Gian Giorgio Trissino",
+    "Inigo Jones",
+    "temple architecture",
+    "Quattro Libri dell’Architettura",
+    "benevolent calm"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The building where the exhibition is staged has been newly renovated.”",
+      "translation": "舉行展覽的建築最近經過翻新。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求判斷展覽場地是否 newly renovated。題目中的控制詞是 “newly renovated”，所以只找到展覽在哪裡舉行還不足夠；原文必須提到 recently renovated、restored、rebuilt、renewed 等意思，才可以判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The exhibition has the special advantage of being held in one of Palladio’s buildings, Palazzo Barbaran da Porto.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個展覽有一個特別優勢，就是在 Palladio 的其中一座建築 Palazzo Barbaran da Porto 中舉行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The show has been organised on the same principles, according to Howard Burns, the architectural historian who co-curated it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "共同策展人、建築史學家 Howard Burns 表示，這個展覽也按照同樣原則組織。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 會描述展覽場地和展覽設計原則。題目問 building where exhibition is staged，所以 Paragraph B 是合理目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “building where the exhibition is staged”。原文直接對應 “being held in one of Palladio’s buildings, Palazzo Barbaran da Porto”。接下來要掃描 renovated 的同義詞，例如 restored、rebuilt、renewed、modernised。Paragraph B 只描述 facade、columns、pediments、atrium、interior 和 design principles，沒有任何翻新資料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The exhibition has the special advantage of being held in one of Palladio’s buildings, Palazzo Barbaran da Porto.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個展覽的特別優勢，是在 Palladio 的建築 Palazzo Barbaran da Porto 中舉行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句能證明展覽地點，但不能證明建築 recently renovated。後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s design is simple, clear and not over-crowded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 的設計簡單、清晰，沒有過分擁擠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是風格描述，仍然沒有講 renovation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要：newly renovated原文提供：held in one of Palladio’s buildings；建築風格和室內設計描述缺失：recent renovation / restoration / rebuilding判斷原文沒有提供「最近翻新」這項資料，也沒有明確說它未翻新。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“new exhibition” 可能會令人聯想到場地也新裝修過。可是 new 修飾的是 exhibition，不修飾building。遇到這種題，要看形容詞到底修飾哪個名詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Palazzo Barbaran da Porto typically represent the Palladio’s design.”",
+      "translation": "Palazzo Barbaran da Porto 典型地體現 Palladio 的設計風格。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Palazzo Barbaran da Porto 是否能代表 Palladio 的 typical design。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“typically represent” 需要找原文是否把這座建築和 Palladian trademark、design principles 或Palladio’s design 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句：“The exhibition has the special advantage of being held in one of Palladio’s buildings, Palazzo Barbaran da Porto.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個展覽有一個特別優勢，就是在 Palladio 的其中一座建築 Palazzo Barbaran da Porto 中舉行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The show has been organised on the same principles, according to Howard Burns, the architectural historian who co-curated it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "共同策展人、建築史學家 Howard Burns 表示，這個展覽也按照同樣原則組織。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段會把建築本身和 Palladio 的 design principles 連起來，因此很可能回答 Q2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Palazzo Barbaran da Porto” 和 “Palladio’s design”。原文除了第一句直接出現場地名，還有幾個很強的代表性訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“a Palladian trademark”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s design is simple, clear and not over-crowded”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞比單純地點名更重要，因為它們把這座建築的特徵連到 Palladio 的典型風格。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the second floor the pediments are alternately curved or pointed, a Palladian trademark.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二樓的三角楣飾交替呈現弧形或尖形，這是 Palladian 的標誌性特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s design is simple, clear and not over-crowded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 的設計簡單、清晰，沒有過分擁擠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句一起支援題目。第一句直接說建築中某特徵是 “Palladian trademark”，即 Palladio 風格的標誌。第二句總結 Palladio’s design principles，而展覽也按 same principles 組織。這說明Palazzo Barbaran da Porto 具有典型 Palladian design features。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：typically represent Palladio’s design"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：a Palladian trademark / Palladio’s design is simple, clear and not over-crowded判斷題目與原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能覺得 “one of Palladio’s buildings” 只證明它由 Palladio 設計，未必證明典型。真正定案的不是這一句，而是 “a Palladian trademark” 和 “Palladio’s design is simple, clear...” 這些風格判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Palladio’s father worked as an architect.”",
+      "translation": "Palladio 的父親是一名建築師。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很直接，要判斷 Palladio’s father 的職業。題目說 architect，原文若給出不同職業，答案就是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s father was a miller who settled in Vicenza, where the young Andrea was apprenticed to a skilled stonemason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 的父親是一名磨坊工人，後來定居 Vicenza；年輕的 Andrea 則跟一名熟練石匠做學徒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was plainly intelligent, and lucky enough to come across a rich patron, Gian Giorgio Trissino, a landowner and scholar, who organised his education, taking him to Rome in the 1540s, where he studied the masterpieces of classical Roman and Greek architecture and the work of other influential architects of the time, such as Donato Bramante and Raphael.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他顯然很聰明，也幸運地遇到富有贊助人 Gian Giorgio Trissino；Trissino 是地主兼學者，安排他的教育，並在 1540 年代帶他到 Rome，讓他研究古典羅馬、希臘建築名作，以及 Donato Bramante 和 Raphael 等當時有影響力的建築師作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接提供 father 的職業，因此 Paragraph C 是答案段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Palladio’s father”。原文第一句完全重現。題目中的 “architect” 需要和原文職業比對。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s father was a miller...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 的父親是一名磨坊工人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "miller 指磨坊工人或經營磨坊的人。題目說 architect，即建築師。兩個職業不同，原文給出明確替代資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：father worked as an architect"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：father was a miller判斷原文清楚說父親是 miller，和題目說的 architect 衝突。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段後面有 many architects，例如 Bramante 和 Raphael，容易令學生被 architect 一字吸走。可是 those architects 是 Palladio 後來研究的對象，並非他的父親。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Palladio’s family refused to pay for his architectural studies.”",
+      "translation": "Palladio 的家人拒絕支付他的建築學習費用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題包含兩個重點：family refused to pay，以及 architectural studies。原文有沒有說誰安排教育？有。可是有沒有說 family refused to pay？沒有。這就是判斷核心。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s father was a miller who settled in Vicenza, where the young Andrea was apprenticed to a skilled stonemason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 的父親是一名磨坊工人，後來定居 Vicenza；年輕的 Andrea 則跟一名熟練石匠做學徒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was plainly intelligent, and lucky enough to come across a rich patron, Gian Giorgio Trissino, a landowner and scholar, who organised his education, taking him to Rome in the 1540s, where he studied the masterpieces of classical Roman and Greek architecture and the work of other influential architects of the time, such as Donato Bramante and Raphael.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他顯然很聰明，也幸運地遇到富有贊助人 Gian Giorgio Trissino；Trissino 安排他的教育，並在1540 年代帶他到 Rome，讓他研究古典羅馬、希臘建築名作，以及當時其他有影響力的建築師作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段處理 Palladio 的家庭背景、學徒訓練和教育安排。題目問 studies 的費用和 family，因此 Paragraph C 是合理目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “family” 對應 father / miller， “architectural studies” 對應 “organised his education” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“studied the masterpieces...”。“refused to pay” 可能會用 refused、would not pay、could not afford、declined、paid by 等字出現。原文沒有這類付款或拒絕資訊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文真正說的是：“He was plainly intelligent, and lucky enough to come across a rich patron, Gian Giorgio Trissino... who organised his education...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他顯然很聰明，也幸運地遇到富有贊助人 Gian Giorgio Trissino；Trissino 安排了他的教育。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句能證明 Trissino arranged his education。可是 “organised his education” 不等於 Palladio’s family refused to pay。原文沒有交代學費由誰支付，也沒有說 Palladio’s family 有沒有能力支付，更沒有說他們拒絕。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要：family refused to pay原文提供：rich patron organised his education缺失：family’s attitude / payment / refusal判斷文章提供了教育安排者，但沒有提供家人拒絕付款這項資料。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“rich patron” 可能讓人推想 Palladio 家庭貧窮或不願支付費用。這種推想超出文章可證明的範圍。IELTS 中，資助者出現不等於家人拒絕付款。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Palladio’s alternative design for the Ducal Palace in Venice was based on an English building.”",
+      "translation": "Palladio 為 Venice Ducal Palace 提出的替代設計，是以一座英國建築為基礎。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題考 influence direction，即建築影響方向。題目說 Palladio 的設計 based on an English building。原文則說他的設計和 London Banqueting House 相似，原因是 Banqueting House 的設計者 Inigo Jones 是 Palladio 的 first foreign disciple。要看誰影響誰。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He tried his hand at bridges—his unbuilt version of the Rialto Bridge was decorated with the large pediment and columns of a temple—and, after a fire at the Ducal Palace, he offered an alternative design which bears an uncanny resemblance to the Banqueting House in Whitehall in London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也嘗試設計橋樑；他未建成的 Rialto Bridge 版本以大型 temple pediment 和 columns 裝飾；而在 Ducal Palace 發生火災後，他提出了一個替代設計，與 London Whitehall 的 Banqueting House 有驚人的相似。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since it was designed by Inigo Jones, Palladio’s first foreign disciple, this is not as surprising as it sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Banqueting House 是 Inigo Jones 設計的，而 Jones 是 Palladio 的第一位外國門徒，所以這種相似沒有聽起來那麼令人驚訝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句合作得很清楚：本段在講 Palladio 的設計與後來英國建築的相似，以及這種相似背後的師承關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “alternative design”, “Ducal Palace”, “English building”。原文第一句直接有 “after a fire at the Ducal Palace, he offered an alternative design”，並提到 “Banqueting House in Whitehall in London”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...he offered an alternative design which bears an uncanny resemblance to the Banqueting House in Whitehall in London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他提出了一個替代設計，與 London Whitehall 的 Banqueting House 有驚人的相似。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句解釋相似原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since it was designed by Inigo Jones, Palladio’s first foreign disciple, this is not as surprising as it sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 Banqueting House 是 Palladio 的第一位外國門徒 Inigo Jones 設計的，所以這種相似不算奇怪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“It” 指 Banqueting House。這句把 Inigo Jones 定義為 Palladio’s first foreign disciple，表示 Jones受 Palladio 影響。題目把方向調轉成 Palladio based on English building，與原文邏輯相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：Palladio’s design was based on an English building"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：English building was designed by Palladio’s disciple判斷原文呈現的影響方向是 Palladio → Inigo Jones → Banqueting House。題目說 English building→ Palladio’s design。方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“bears an uncanny resemblance” 很容易令人以為 Palladio 抄襲或參考英國建築。細讀下一句才知道，相似的原因來自 Inigo Jones 是 Palladio 的門徒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Palladio designed for both wealthy and poor people.”",
+      "translation": "Palladio 曾為富裕人士和貧困人士設計。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Palladio 的設計對象是否涵蓋 wealthy 和 poor。要跨段看：rich landowners 在Paragraph D；cheap housing 在 Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D 和 Paragraph G Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Burns argues that social mobility was also important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Burns 認為社會流動性也很重要。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Venice the aristocracy were anxious to co-opt talented artists, and Palladio was given the chance to design the buildings that have made him famous—the churches of San Giorgio Maggiore and the Redentore, both easy to admire because they can be seen from the city’s historical centre across a stretch of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Venice，貴族急於吸納有才華的藝術家，Palladio 因此得到機會設計令他成名的建築，包括San Giorgio Maggiore 和 Redentore 兩座教堂。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s work for rich landowners alienates unreconstructed critics on the Italian left, but among the papers in the show are designs for cheap housing in Venice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 為富裕地主所作的作品令意大利左派一些守舊批評者感到疏離；不過，展覽文件中也包括他為 Venice cheap housing 所作的設計。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His influence spread to St Petersburg and to Charlottesville in Virginia, where Thomas Jefferson commissioned a Palladian villa he called Monticello.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的影響傳到 St Petersburg，也傳到 Virginia 的 Charlottesville；Thomas Jefferson 在那裡委託建造了一座 Palladian villa，名為 Monticello。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “wealthy” 和 “poor people”。原文中 wealthy 對應 “rich landowners”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“entrepreneurs, prosperous from agriculture”, “aristocracy”。poor people 沒有直接出現，但“cheap housing in Venice” 是低成本住宅設計，能支援較貧困群體。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 說：“Entrepreneurs, prosperous from agriculture in the Veneto, commissioned the promising local architect to design their country villas and their urban mansions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Veneto 因農業致富的企業家委託這位有前途的本地建築師設計鄉村別墅和城市宅邸。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...among the papers in the show are designs for cheap housing in Venice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "展覽文件中也有 Venice cheap housing 的設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句支援 wealthy clients：prosperous entrepreneurs、country villas、urban mansions。第二句支援 low-cost housing：cheap housing。題目把這兩類設計對象概括成 wealthy and poor people。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "wealthy people = rich landowners / prosperous entrepreneurs / aristocracy poor people = cheap housing 的潛在使用者designed for = commissioned to design / designs for判斷原文支援 Palladio 既有 wealthy landowners 的項目，也有 cheap housing designs，所以答案是TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“cheap housing” 沒有逐字說 poor people。可是 housing 的成本屬性和題目的 poor people 是合理短距離概括。這裡沒有把範圍擴大到所有貧困人士，只是說他的設計不局限於 wealthy clients。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The exhibition includes paintings of people by famous artists.”",
+      "translation": "展覽包括由著名藝術家繪畫的人物畫。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷展覽是否有 paintings of people，而且畫家是否 famous artists。題目中的 “people” 會對應 portraits；famous artists 可能由 Titian、Veronese、Tintoretto 這些名家支援。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vicenza’s show contains detailed models of the major buildings and is leavened by portraits of Palladio’s teachers and clients by Titian, Veronese and Tintoretto; the paintings of his Venetian buildings are all by Canaletto, no less.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vicenza 的展覽包括主要建築的詳細模型，也穿插了 Titian、Veronese 和 Tintoretto 為 Palladio的老師和客戶所畫的肖像；他的 Venice 建築畫作則全都出自 Canaletto 之手。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio is history’s most therapeutic architect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 是歷史上最具療癒感的建築師。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接列出展覽內容，包括 models、portraits 和 paintings，因此是 Q7 的答案段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “paintings of people” 和 “famous artists”。原文用 “portraits of Palladio’s teachers and clients by Titian, Veronese and Tintoretto”。portraits 就是人物肖像畫；Titian、Veronese、Tintoretto 是著名畫家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vicenza’s show contains detailed models of the major buildings and is leavened by portraits of Palladio’s teachers and clients by Titian, Veronese and Tintoretto...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vicenza 的展覽包括主要建築的詳細模型，也穿插了 Titian、Veronese 和 Tintoretto 為 Palladio的老師和客戶所畫的肖像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “paintings of people” 對應 “portraits of Palladio’s teachers and clients”。teachers and clients 是人物；portraits 是人物畫。題目中的 “famous artists” 對應 Titian、Veronese、Tintoretto這些畫家名字。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "paintings of people = portraits of teachers and clients famous artists = Titian, Veronese and Tintoretto includes = contains / is leavened by判斷題目與原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句後半也提到 Canaletto 的 Venetian buildings paintings。那是建築畫，不是人物畫。Q7 問paintings of people，因此真正證據是 portraits of teachers and clients。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "stonemason",
+      "answerKey": "stonemason",
+      "type": "Short-answer Questions",
+      "prompt": "“What job was Palladio training for before he became an architect?”",
+      "translation": "Palladio 成為建築師之前，正在接受哪一種工作訓練？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。問題問 What job，答案應是一個職業名詞。字數限制是 NO MORE THAN THREE WORDS，所以答案應從原文抽取簡短職業名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s father was a miller who settled in Vicenza, where the young Andrea was apprenticed to a skilled stonemason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 的父親是一名磨坊工人，後來定居 Vicenza；年輕的 Andrea 則跟一名熟練石匠做學徒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was plainly intelligent, and lucky enough to come across a rich patron, Gian Giorgio Trissino, a landowner and scholar, who organised his education, taking him to Rome in the 1540s, where he studied the masterpieces of classical Roman and Greek architecture and the work of other influential architects of the time, such as Donato Bramante and Raphael.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他顯然很聰明，也幸運地遇到富有贊助人 Gian Giorgio Trissino；Trissino 安排了他的教育，帶他到 Rome 研究古典建築和當時重要建築師的作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經交代早期訓練；尾句交代正式建築教育。因此 Q8 必然在 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “training for” 和 “before he became an architect”。原文用 “was apprenticed to” 表示做學徒，這正是 training 的同義表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the young Andrea was apprenticed to a skilled stonemason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕的 Andrea 跟一名熟練石匠做學徒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“apprenticed to” 指向某人學藝、接受職業訓練。題目問他受訓成為甚麼職業；原文中的職業是“skilled stonemason”。答案可以填 skilled stonemason，但最簡潔的職業名稱是 stonemason。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "training for = was apprenticed to job = stonemason before he became an architect = the young Andrea 的早期階段答案形式stonemason 是一個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 miller。miller 是 Palladio father 的職業。題目問 Palladio 自己 training for 的工作，所以要看 “young Andrea was apprenticed to...”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "Gian Giorgio Trissino",
+      "answerKey": "Gian Giorgio Trissino",
+      "type": "Short-answer Questions",
+      "prompt": "“Who arranged Palladio’s architectural studies?”",
+      "translation": "誰安排了 Palladio 的建築學習？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Who，所以答案應是人名。字數限制是 NO MORE THAN THREE WORDS；Gian Giorgio Trissino 正好是三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s father was a miller who settled in Vicenza, where the young Andrea was apprenticed to a skilled stonemason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 的父親是一名磨坊工人，後來定居 Vicenza；年輕的 Andrea 則跟一名熟練石匠做學徒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was plainly intelligent, and lucky enough to come across a rich patron, Gian Giorgio Trissino, a landowner and scholar, who organised his education, taking him to Rome in the 1540s, where he studied the masterpieces of classical Roman and Greek architecture and the work of other influential architects of the time, such as Donato Bramante and Raphael.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他顯然很聰明，也幸運地遇到富有贊助人 Gian Giorgio Trissino；Trissino 是地主兼學者，安排他的教育，並在 1540 年代帶他到 Rome 研究古典羅馬和希臘建築名作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段由早期職業訓練轉到正式教育安排。Q9 問 arranged studies，所以目標段落很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “arranged” 和 “architectural studies”。原文用 “organised his education” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“studied the masterpieces of classical Roman and Greek architecture” 表達同一資訊。掃描時也要找人名。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“...a rich patron, Gian Giorgio Trissino, a landowner and scholar, who organised his education...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位富有贊助人 Gian Giorgio Trissino，是地主兼學者，安排了他的教育。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“who” 這個關係代詞指 Gian Giorgio Trissino。核心動作是 “organised his education”，對應題目“arranged Palladio’s architectural studies”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "arranged = organised architectural studies = education involving Roman and Greek architecture Who = Gian Giorgio Trissino答案形式Gian Giorgio Trissino 是三個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 Rome。Rome 是他學習的地方，不是安排者。也不要填 Donato Bramante 或 Raphael；他們是 Palladio 研究的建築師，不是替他安排教育的人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "Inigo Jones",
+      "answerKey": "Inigo Jones",
+      "type": "Short-answer Questions",
+      "prompt": "“Who was the first non-Italian architect influenced by Palladio?”",
+      "translation": "第一位受 Palladio 影響的非意大利建築師是誰？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Who，答案應是人名。題目中的 “first non-Italian architect influenced by Palladio” 對應原文 “first foreign disciple”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He tried his hand at bridges—his unbuilt version of the Rialto Bridge was decorated with the large pediment and columns of a temple—and, after a fire at the Ducal Palace, he offered an alternative design which bears an uncanny resemblance to the Banqueting House in Whitehall in London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也嘗試設計橋樑；他未建成的 Rialto Bridge 版本以大型 temple pediment 和 columns 裝飾；而在 Ducal Palace 發生火災後，他提出一個替代設計，與 London Whitehall 的 Banqueting House有驚人的相似。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since it was designed by Inigo Jones, Palladio’s first foreign disciple, this is not as surprising as it sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Banqueting House 是 Inigo Jones 設計的，而 Jones 是 Palladio 第一位外國門徒，所以這種相似不如聽起來那樣令人驚訝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接含答案，Paragraph E 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first”, “non-Italian”, “influenced by Palladio”。原文沒有 non-Italian，但 “foreign” 就是相對於 Palladio 的意大利身份而言的外國。disciple 表示門徒，正好代表受其影響的人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since it was designed by Inigo Jones, Palladio’s first foreign disciple...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為它是 Inigo Jones 設計的，而 Inigo Jones 是 Palladio 的第一位外國門徒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “it” 指前一句的 Banqueting House。Inigo Jones 是其設計者，也被稱為 Palladio’s first foreign disciple。題目的 first non-Italian architect influenced by Palladio，就是這個身份的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first non-Italian architect = first foreign disciple influenced by Palladio = disciple of Palladio Who = Inigo Jones答案形式Inigo Jones 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 Banqueting House。那是建築名稱，不是 architect。題目問 Who，必須回到人名 Inigo Jones。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "temple architecture",
+      "answerKey": "temple architecture",
+      "type": "Short-answer Questions",
+      "prompt": "“What type of Ancient Roman buildings most heavily influenced Palladio’s work?”",
+      "translation": "哪一類 Ancient Roman buildings 對 Palladio 的作品影響最大？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 What type，答案應是一種建築類型。題目中的 Ancient Roman buildings 對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“buildings of ancient Rome as models”。要找最主要的 theme。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F第一句：“Jones, who visited Italy in 1614, bought a trunk full of the master’s architectural drawings; they passed through the hands of the Dukes of Burlington and Devonshire before settling at the Royal Institute of British Architects in 1894.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jones 於 1614 年到 Italy，買了一整箱 Palladio 的建築圖紙；這些圖紙先後經過 Burlington 和Devonshire 公爵之手，最後於 1894 年落到 Royal Institute of British Architects。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The major theme of both his rural and urban building was temple architecture, with a strong pointed pediment supported by columns and approached by wide steps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他鄉村和城市建築的主要主題都是 temple architecture，特色是由 columns 支撐的強烈尖形pediment，以及寬闊台階。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段先講圖紙流傳，後講 Palladio 如何從 ancient Rome 建築中取法。尾句直接回答建築類型。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Ancient Roman buildings” 和 “influenced Palladio’s work”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“What they show is how Palladio drew on the buildings of ancient Rome as models.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些圖紙顯示 Palladio 如何以 ancient Rome 的建築作為 model。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著下一句說 major theme 是 temple architecture。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“What they show is how Palladio drew on the buildings of ancient Rome as models.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些圖紙顯示 Palladio 如何借鑑 ancient Rome 的建築作為範本。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The major theme of both his rural and urban building was temple architecture...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他鄉村和城市建築的主要主題都是 temple architecture。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what type of Ancient Roman buildings most heavily influenced...” 原文的答案是 “temple architecture”。這不是只影響某一類建築，而是 his rural and urban building 的 major theme。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "most heavily influenced = major theme / drew on as models Ancient Roman buildings = buildings of ancient Rome type = temple architecture答案形式temple architecture 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 columns 或 pediment。columns 和 pointed pediment 是 temple architecture 的特徵，並非建築類型本身。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "Quattro Libri dell’Architettura",
+      "answerKey": "Quattro Libri dell’Architettura",
+      "type": "Short-answer Questions",
+      "prompt": "“What did Palladio write that strengthened his reputation?”",
+      "translation": "Palladio 寫了甚麼作品，令他的聲譽得到加強？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 What did Palladio write，答案應是作品名稱。題目中的 “strengthened his reputation” 對應原文 “reputation has been nurtured by”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio’s work for rich landowners alienates unreconstructed critics on the Italian left, but among the papers in the show are designs for cheap housing in Venice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 為富裕地主所作的作品令意大利左派一些守舊批評者感到疏離；不過，展覽文件中也有Venice cheap housing 的設計。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His influence spread to St Petersburg and to Charlottesville in Virginia, where Thomas Jefferson commissioned a Palladian villa he called Monticello.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的影響傳到 St Petersburg，也傳到 Virginia 的 Charlottesville；Thomas Jefferson 在那裡委託建造了一座 Palladian villa，名為 Monticello。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph G 處理 Palladio 的社會範圍和國際影響。題目問 reputation，也應在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “write” 和 “reputation”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the wider world, Palladio’s reputation has been nurtured by a text he wrote and illustrated,‘Quattro Libri dell’ Architettura’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在更廣大的世界中，Palladio 的聲譽由他所撰寫並繪圖說明的一本文本《Quattro Libri dell’ Architettura》滋養和推動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Palladio’s reputation”，核心動詞是 “has been nurtured by”，表示他的聲譽受到某東西培養、維持和擴大。這個東西是 “a text he wrote and illustrated”，其書名是 “Quattro Libri dell’ Architettura”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What did Palladio write”，所以應填作品名稱。按常見書名寫法，dell’Architettura 可視作一個詞，答案符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "strengthened his reputation = reputation has been nurtured by wrote = wrote and illustrated what = Quattro Libri dell’Architettura答案形式Quattro Libri dell’Architettura 是書名答案。若按題目印刷格式看到 “dell’ Architettura” 中間有空格，核心仍是同一書名；考試作答通常會保留書名。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “a text” 作最終答案。這確實是原文中的上位類別，但題目問具體寫了甚麼，而且原文緊接著給出作品名稱。能填書名時，書名比 “a text” 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "benevolent calm",
+      "answerKey": "benevolent calm",
+      "type": "Short-answer Questions",
+      "prompt": "“In the writer’s opinion, what feeling will visitors to the exhibition experience?”",
+      "translation": "按照作者看法，展覽參觀者會感受到甚麼情緒或感覺？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 what feeling，所以答案應是情緒或感受名詞短語。題目中的 “writer’s opinion” 提示要看作者總評，通常在段落後半或結尾。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vicenza’s show contains detailed models of the major buildings and is leavened by portraits of Palladio’s teachers and clients by Titian, Veronese and Tintoretto; the paintings of his Venetian buildings are all by Canaletto, no less.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vicenza 的展覽包括主要建築的詳細模型，也穿插了 Titian、Veronese 和 Tintoretto 為 Palladio的老師和客戶所畫的肖像；他的 Venice 建築畫作則全都出自 Canaletto。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Palladio is history’s most therapeutic architect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Palladio 是歷史上最具療癒感的建築師。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph H 從展覽內容轉到作者感受和評價。題目問 visitors’ feeling，因此應看本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “feeling” 和 “visitors”。原文沒有 visitors，但有 “viewer”。掃描 Paragraph H 後半可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the impact of harmonious lines and satisfying proportions is to impart in a viewer a feeling of benevolent calm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和諧線條與令人滿足的比例，其影響是在觀者心中傳遞一種 benevolent calm 的感覺。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the impact of harmonious lines and satisfying proportions is to impart in a viewer a feeling of benevolent calm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和諧線條與令人滿足的比例，會在觀者心中產生一種仁厚、安寧的平靜感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“viewer” 對應 visitors to the exhibition。題目問 “what feeling”，原文直接說 “a feeling of benevolent calm”。答案應填 benevolent calm。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "visitors = viewer experience = impart in a viewer feeling = a feeling of benevolent calm = benevolent calm答案形式benevolent calm 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “therapeutic architect”。這是作者對 Palladio 的總評，不是觀眾感受到的具體 feeling。題目問 feeling，答案要回到 “a feeling of...” 後面的詞。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Italian Architect Palladio.pdf",
+    "sha256": "83b9393fa66c1eeb005264fe2ffe24de109aed7b7bc52454e52abd45e8aba062",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句介紹 Vicenza 是 Veneto 一座宜人而富庶的城市，位於 Venice 以西 60 公里。尾句說因Palladio 500 年前出生，International Centre for the Study of Palladio’s Architecture 有充分理由舉辦大型展覽。只看首尾句，可以估計本段是全文背景：先介紹地點 Vicenza，再引出 Palladio 的重要性、Palladian style，以及這次展覽的紀念性質。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說展覽有一個特別優勢：它在 Palladio 自己設計的 Palazzo Barbaran da Porto 中舉行。尾句說展覽也按照 simple、clear、not over-crowded 這些原則組織。只看首尾句，可以判斷本段主要描述展覽場地和 Palladio 的建築風格。中間的 facade、columns、pediments、harmonious proportions 和 interior 都在展示這座建築如何體現 Palladian design。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Palladio 的父親是 miller，後來定居 Vicenza，而年輕的 Andrea 曾跟 skilled stonemason做學徒。尾句說 Trissino 帶他到 Rome 學習古典羅馬、希臘建築，以及 Bramante 和 Raphael 等建築師作品。只看首尾句，可以判斷本段講 Palladio 由低微背景走向建築成才的過程，重點包括早期訓練、patron 和正式教育。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Burns 認為 social mobility 也很重要。尾句說 Palladio 得到機會設計令他成名的 Venice churches：San Giorgio Maggiore 和 Redentore。只看首尾句，可以看到本段把個人成才放入社會背景：農業致富的 entrepreneurs 和 Venice aristocracy 給了 Palladio 機會，讓他設計 country villas、urban mansions 和重要教堂。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Palladio 也曾嘗試設計 bridges，其中未建成的 Rialto Bridge 版本帶有 temple-like pediment 和 columns。尾句說 Ducal Palace 的替代設計與 London 的 Banqueting House 相似，這不令人意外，因為 Banqueting House 由 Palladio 第一位外國門徒 Inigo Jones 設計。只看首尾句，可以判斷本段講 Palladio 對其他建築類型和海外建築師的影響。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Inigo Jones 於 1614 年到 Italy，買了一整箱 Palladio 的建築圖紙。尾句說 Palladio 城市和鄉村建築的主要主題是 temple architecture，包括 pointed pediment、columns 和 wide steps。只看首尾句，可以判斷本段重點是 Palladio drawings 的流傳，以及他如何以 ancient Rome 的建築為 model。這段對 Inigo Jones 和 Roman temple influence 很重要。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Palladio 為富裕地主工作，因此令意大利左派部分批評者感到疏離；不過展覽文件中也有Venice cheap housing 的設計。尾句說他的影響傳到 St Petersburg 和 Virginia 的 Monticello。只看首尾句，可以判斷本段處理 Palladio 的社會範圍和國際聲望：他服務 wealthy landowners，也有 cheap housing designs，而聲譽靠著其著作向外擴散。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Vicenza 的展覽包括主要建築的 detailed models，也有 Titian、Veronese、Tintoretto 畫的Palladio teachers and clients portraits。尾句說 Palladio 是歷史上最 therapeutic 的建築師。只看首尾句，可以判斷本段是對展覽內容和觀展感受的總評：它有模型、名家畫作、Canaletto 畫作，也帶出 harmonious lines 和 satisfying proportions 造成的平靜感。"
+      },
+      {
+        "number": "I",
+        "summary": "這段只有一句，交代 “Palladio, 500 Anni: La Grande Mostra” 在 Vicenza Palazzo Barbaran da Porto 展出至 2009 年 1 月 6 日，之後到 London Royal Academy of Arts，再到 Barcelona 和Madrid。只看這一句，可以判斷本段提供展覽行程和日期，不太會回答建築風格、人物經歷或作品影響題，主要屬於 practical exhibition information。"
+      }
+    ]
+  }
+}

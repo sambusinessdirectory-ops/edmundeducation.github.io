@@ -1,0 +1,1848 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 5,
+  "sourceSha256": "df9bf4dba59acf465ceb8cbe075266fcf1b06581f7254e36b40ac215d1e72387",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Hinchingbrooke Country Park",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "audioSha256": "0a98a26a28d4cf9c22e36b990508233099a9d70eda10646207b811239866daf0",
+      "transcriptSha256": "2aac6e2ee4c2cc01dd0bd9be969b7b0ab53a19a0fdf8ab3fe06e39a674a536b0",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%205%20Part%201.mp3",
+      "duration": 360.071875,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 77.42,
+          "end": 85.42,
+          "endLine": 5,
+          "answer": "69",
+          "accepted": [
+            "69"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Altogether the park covers 170 acres, that's 69 hectares",
+          "evidence": [
+            {
+              "lineId": "p1-line-5",
+              "line": 5,
+              "quote": "Altogether the park covers 170 acres, that's 69 hectares",
+              "revealAt": 85.42
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Area: 1 __________ hectares"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 117.46,
+          "end": 124.02,
+          "endLine": 12,
+          "answer": "stream",
+          "accepted": [
+            "stream"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：There are also several smaller ones, ponds and a stream that flows through the park",
+          "evidence": [
+            {
+              "lineId": "p1-line-12",
+              "line": 12,
+              "quote": "There are also several smaller ones, ponds and a stream that flows through the park",
+              "revealAt": 124.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Wetland: lakes, ponds and a 2 __________"
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 166.3,
+          "end": 171.04,
+          "endLine": 19,
+          "answer": "data",
+          "accepted": [
+            "data"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：They also collect and analyse data about the things they see",
+          "evidence": [
+            {
+              "lineId": "p1-line-19",
+              "line": 19,
+              "quote": "They also collect and analyse data about the things they see",
+              "revealAt": 171.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Science: Children look at 3 __________ about plants, etc."
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 175.42,
+          "end": 183.52,
+          "endLine": 22,
+          "answer": "map",
+          "accepted": [
+            "map"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：learn and practise reading a map and using a compass to navigate around the park",
+          "evidence": [
+            {
+              "lineId": "p1-line-22",
+              "line": 22,
+              "quote": "learn and practise reading a map and using a compass to navigate around the park",
+              "revealAt": 183.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Geography: includes learning to use a 4 __________ and compass"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 198.58,
+          "end": 211.3,
+          "endLine": 26,
+          "answer": "visitors",
+          "accepted": [
+            "visitors"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：That focuses on your visitors, I would imagine / Yes, mostly",
+          "evidence": [
+            {
+              "lineId": "p1-line-25",
+              "line": 25,
+              "quote": "That focuses on your visitors, I would imagine",
+              "revealAt": 202.1
+            },
+            {
+              "lineId": "p1-line-26",
+              "line": 26,
+              "quote": "Yes, mostly",
+              "revealAt": 211.3
+            },
+            {
+              "lineId": "p1-line-26",
+              "line": 26,
+              "quote": "The children find out about them, their requirements, the problems they may cause",
+              "revealAt": 211.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Leisure and tourism: mostly concentrates on the park's 5 __________"
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 212.42,
+          "end": 223.56,
+          "endLine": 27,
+          "answer": "sounds",
+          "accepted": [
+            "sounds"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：the children experiment with natural materials to create sounds and explore rhythm and tempo",
+          "evidence": [
+            {
+              "lineId": "p1-line-27",
+              "line": 27,
+              "quote": "the children experiment with natural materials to create sounds and explore rhythm and tempo",
+              "revealAt": 223.56
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Music: Children make 6 __________ with natural materials, and experiment"
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 277.7,
+          "end": 283.64,
+          "endLine": 32,
+          "answer": "freedom",
+          "accepted": [
+            "freedom"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I would imagine they get a sense of freedom that might not be a normal part of their lives",
+          "evidence": [
+            {
+              "lineId": "p1-line-32",
+              "line": 32,
+              "quote": "I would imagine they get a sense of freedom that might not be a normal part of their lives",
+              "revealAt": 283.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "● They give children a feeling of 7 __________ that they may not have elsewhere."
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 283.64,
+          "end": 296.06,
+          "endLine": 34,
+          "answer": "skills",
+          "accepted": [
+            "skills"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：they develop new skills / This gives them greater self-confidence",
+          "evidence": [
+            {
+              "lineId": "p1-line-33",
+              "line": 33,
+              "quote": "they develop new skills",
+              "revealAt": 292.94
+            },
+            {
+              "lineId": "p1-line-34",
+              "line": 34,
+              "quote": "This gives them greater self-confidence",
+              "revealAt": 296.06
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Children learn new 8 __________ and gain self-confidence."
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 310.64,
+          "end": 318.88,
+          "endLine": 37,
+          "answer": "4.95",
+          "accepted": [
+            "4.95"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：If there are over 30, it costs £4.95 for each child who attends on the day",
+          "evidence": [
+            {
+              "lineId": "p1-line-37",
+              "line": 37,
+              "quote": "If there are over 30, it costs £4.95 for each child who attends on the day",
+              "revealAt": 318.88
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Cost per child: £9 __________"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 327.28,
+          "end": 332.64,
+          "endLine": 39,
+          "answer": "leaders",
+          "accepted": [
+            "leaders"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：There's no charge for leaders and other adults",
+          "evidence": [
+            {
+              "lineId": "p1-line-39",
+              "line": 39,
+              "quote": "There's no charge for leaders and other adults",
+              "revealAt": 332.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Adults, such as 10 __________, free"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Stanthorpe Twinning Association",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Write the correct letter, A–H, next to Questions 16–20.",
+      "audioSha256": "74029f685a9b42b7716f66f52e9ceb0f7e391636b685f6bfeaf6ed7f881ea58c",
+      "transcriptSha256": "e17af57d357465b203275d6453f334876574d49c61f42ed0967086f14507a5e3",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%205%20Part%202.mp3",
+      "duration": 407.04,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 94.14,
+          "end": 110.56,
+          "endLine": 5,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：We learned how cheese is produced / we all had a great time on the final boat trip down the river – that was the real highlight",
+          "evidence": [
+            {
+              "lineId": "p2-line-4",
+              "line": 4,
+              "quote": "We learned how cheese is produced",
+              "revealAt": 99.94
+            },
+            {
+              "lineId": "p2-line-5",
+              "line": 5,
+              "quote": "we all had a great time on the final boat trip down the river – that was the real highlight",
+              "revealAt": 110.56
+            }
+          ],
+          "distractors": [],
+          "questionText": "During the visit to Malatte, in France, members especially enjoyed"
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 119.64,
+          "end": 133.82,
+          "endLine": 8,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：they're planning / building a footbridge",
+          "evidence": [
+            {
+              "lineId": "p2-line-7",
+              "line": 7,
+              "quote": "they're planning",
+              "revealAt": 125.44
+            },
+            {
+              "lineId": "p2-line-7",
+              "line": 7,
+              "quote": "building a footbridge",
+              "revealAt": 125.44
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "we've decided to plant a poplar tree in the museum gardens",
+              "revealAt": 133.82
+            }
+          ],
+          "distractors": [],
+          "questionText": "What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?"
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 142.0,
+          "end": 160.2,
+          "endLine": 11,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Our pancake evening was well attended and made record profits / was nearly as successful",
+          "evidence": [
+            {
+              "lineId": "p2-line-10",
+              "line": 10,
+              "quote": "Our pancake evening was well attended and made record profits",
+              "revealAt": 153.44
+            },
+            {
+              "lineId": "p2-line-11",
+              "line": 11,
+              "quote": "was nearly as successful",
+              "revealAt": 160.2
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which event raised most funds this year?"
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 186.4,
+          "end": 196.24,
+          "endLine": 15,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Don't try to do too much that first evening as they'll be tired, so have dinner in the house or garden rather than eating out",
+          "evidence": [
+            {
+              "lineId": "p2-line-15",
+              "line": 15,
+              "quote": "Don't try to do too much that first evening as they'll be tired, so have dinner in the house or garden rather than eating out",
+              "revealAt": 196.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "For the first evening with the French visitors host families are advised to"
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 211.24,
+          "end": 222.76,
+          "endLine": 18,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：On Saturday evening, we'll all meet up at the football club, where once again we'll have Toby Sharp and his band performing English and Scottish country songs.",
+          "evidence": [
+            {
+              "lineId": "p2-line-18",
+              "line": 18,
+              "quote": "On Saturday evening, we'll all meet up at the football club, where once again we'll have Toby Sharp and his band performing English and Scottish country songs.",
+              "revealAt": 222.76
+            }
+          ],
+          "distractors": [],
+          "questionText": "On Saturday evening there will be the chance to"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 289.4,
+          "end": 310.64,
+          "endLine": 23,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：it's in the old stables, which is the first building you come to / They're built round a courtyard, and the shop's in the far corner on the left",
+          "evidence": [
+            {
+              "lineId": "p2-line-22",
+              "line": 22,
+              "quote": "it's in the old stables, which is the first building you come to",
+              "revealAt": 299.92
+            },
+            {
+              "lineId": "p2-line-23",
+              "line": 23,
+              "quote": "They're built round a courtyard, and the shop's in the far corner on the left",
+              "revealAt": 310.64
+            }
+          ],
+          "distractors": [
+            {
+              "line": 23,
+              "quote": "a small café on the right as you go in",
+              "candidateAt": 310.64,
+              "rejectAt": 310.64,
+              "why": "中伏位：H 位於 courtyard 的右下方，反而符合下一句 “a small café on the right as you go in”。"
+            }
+          ],
+          "questionText": "Farm shop"
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 317.44,
+          "end": 328.52,
+          "endLine": 25,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：The main entrance to the house has a lot of steps so you might want to use the disabled entry. This is on the far side of the house from the car park.",
+          "evidence": [
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "The main entrance to the house has a lot of steps so you might want to use the disabled entry. This is on the far side of the house from the car park.",
+              "revealAt": 328.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "Disabled entry"
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 334.84,
+          "end": 344.54,
+          "endLine": 27,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：That's at the northern end of the larger lake, in a bend on the path that leads to the lake",
+          "evidence": [
+            {
+              "lineId": "p2-line-27",
+              "line": 27,
+              "quote": "That's at the northern end of the larger lake, in a bend on the path that leads to the lake",
+              "revealAt": 344.54
+            }
+          ],
+          "distractors": [],
+          "questionText": "Adventure playground"
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 349.58,
+          "end": 364.02,
+          "endLine": 30,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：The kitchen gardens are rectangular and surrounded by a wall / quite near the smaller lake",
+          "evidence": [
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "The kitchen gardens are rectangular and surrounded by a wall",
+              "revealAt": 354.08
+            },
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "quite near the smaller lake",
+              "revealAt": 364.02
+            },
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "They're to the north-east of the house",
+              "revealAt": 364.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "Kitchen gardens"
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 371.62,
+          "end": 389.08,
+          "endLine": 33,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：go past the western sides of the stables and the house / when the path forks, take the right-hand path",
+          "evidence": [
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "go past the western sides of the stables and the house",
+              "revealAt": 378.22
+            },
+            {
+              "lineId": "p2-line-33",
+              "line": 33,
+              "quote": "when the path forks, take the right-hand path",
+              "revealAt": 389.08
+            },
+            {
+              "lineId": "p2-line-33",
+              "line": 33,
+              "quote": "with the woods on your left and the temple is right at the end",
+              "revealAt": 389.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "The Temple of the Four Winds"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "evidence"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Bread reuse project",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose TWO letters, A–E. · Choose SIX answers from the box and write the correct letter, A–H, next to",
+      "audioSha256": "12303706d9f504cb32c0545a4b9a891375add43c73ae856354441bb6d9dac8b5",
+      "transcriptSha256": "ea96e4be38ebcc4a845ab03904ba746a955a65ff0f3b8fd314e918561d9c50a8",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%205%20Part%203.mp3",
+      "duration": 395.52,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 80.62,
+          "end": 128.66,
+          "endLine": 11,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：to make them a more appetising colour / had time to play around with different patterns",
+          "evidence": [
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "to make them a more appetising colour",
+              "revealAt": 111.04
+            },
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "had time to play around with different patterns",
+              "revealAt": 111.04
+            },
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "I was really pleased with what I managed to produce",
+              "revealAt": 111.04
+            },
+            {
+              "lineId": "p3-line-10",
+              "line": 10,
+              "quote": "It must've been a great feeling to make something appetising out of bits of old bread that would've been thrown away otherwise",
+              "revealAt": 119.8
+            },
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "It was",
+              "revealAt": 128.66
+            }
+          ],
+          "distractors": [
+            {
+              "line": 7,
+              "quote": "quite straightforward",
+              "candidateAt": 88.14,
+              "rejectAt": 128.66,
+              "why": "中伏位：3-D printing 他以前已經用過，所以學習這項技術不是這次最有滿足感的地方。Basic process 更被他形容為 “quite straightforward”。Restaurants 現階段只是他希望將來會有興趣，尚未真正提供 support。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO things did Colin find most satisfying about his bread reuse project?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 80.62,
+          "end": 128.66,
+          "endLine": 11,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：to make them a more appetising colour / had time to play around with different patterns",
+          "evidence": [
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "to make them a more appetising colour",
+              "revealAt": 111.04
+            },
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "had time to play around with different patterns",
+              "revealAt": 111.04
+            },
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "I was really pleased with what I managed to produce",
+              "revealAt": 111.04
+            },
+            {
+              "lineId": "p3-line-10",
+              "line": 10,
+              "quote": "It must've been a great feeling to make something appetising out of bits of old bread that would've been thrown away otherwise",
+              "revealAt": 119.8
+            },
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "It was",
+              "revealAt": 128.66
+            }
+          ],
+          "distractors": [
+            {
+              "line": 7,
+              "quote": "quite straightforward",
+              "candidateAt": 88.14,
+              "rejectAt": 128.66,
+              "why": "中伏位：3-D printing 他以前已經用過，所以學習這項技術不是這次最有滿足感的地方。Basic process 更被他形容為 “quite straightforward”。Restaurants 現階段只是他希望將來會有興趣，尚未真正提供 support。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO things did Colin find most satisfying about his bread reuse project?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 164.74,
+          "end": 190.18,
+          "endLine": 19,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I thought it might be really good for drug storage in hospitals and pharmacies / Like how many kilograms a joint of meat is, for example",
+          "evidence": [
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "I thought it might be really good for drug storage in hospitals and pharmacies",
+              "revealAt": 174.78
+            },
+            {
+              "lineId": "p3-line-18",
+              "line": 18,
+              "quote": "Like how many kilograms a joint of meat is, for example",
+              "revealAt": 186.94
+            },
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "Yes, there's all sorts of possibilities",
+              "revealAt": 190.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO ways do the students agree that touch-sensitive sensors for food labels could be developed in future?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 164.74,
+          "end": 190.18,
+          "endLine": 19,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I thought it might be really good for drug storage in hospitals and pharmacies / Like how many kilograms a joint of meat is, for example",
+          "evidence": [
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "I thought it might be really good for drug storage in hospitals and pharmacies",
+              "revealAt": 174.78
+            },
+            {
+              "lineId": "p3-line-18",
+              "line": 18,
+              "quote": "Like how many kilograms a joint of meat is, for example",
+              "revealAt": 186.94
+            },
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "Yes, there's all sorts of possibilities",
+              "revealAt": 190.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO ways do the students agree that touch-sensitive sensors for food labels could be developed in future?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 246.66,
+          "end": 263.64,
+          "endLine": 23,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the shops are still full of imported foods / they need to be more proactive to address that",
+          "evidence": [
+            {
+              "lineId": "p3-line-21",
+              "line": 21,
+              "quote": "the shops are still full of imported foods",
+              "revealAt": 255.98
+            },
+            {
+              "lineId": "p3-line-22",
+              "line": 22,
+              "quote": "they need to be more proactive to address that",
+              "revealAt": 259.36
+            },
+            {
+              "lineId": "p3-line-23",
+              "line": 23,
+              "quote": "motivate consumers to change",
+              "revealAt": 263.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "Use of local products"
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 263.96,
+          "end": 281.18,
+          "endLine": 25,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：just about everything / is still covered in plastic",
+          "evidence": [
+            {
+              "lineId": "p3-line-24",
+              "line": 24,
+              "quote": "just about everything",
+              "revealAt": 278.38
+            },
+            {
+              "lineId": "p3-line-24",
+              "line": 24,
+              "quote": "is still covered in plastic",
+              "revealAt": 278.38
+            },
+            {
+              "lineId": "p3-line-24",
+              "line": 24,
+              "quote": "The government needs to do something about it",
+              "revealAt": 278.38
+            },
+            {
+              "lineId": "p3-line-25",
+              "line": 25,
+              "quote": "It's got to change",
+              "revealAt": 281.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "Reduction in unnecessary packaging"
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 293.62,
+          "end": 301.34,
+          "endLine": 29,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Lots of people I know have been buying that type of food for years now",
+          "evidence": [
+            {
+              "lineId": "p3-line-28",
+              "line": 28,
+              "quote": "Lots of people I know have been buying that type of food for years now",
+              "revealAt": 298.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "Gluten-free and lactose-free food"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 301.88,
+          "end": 333.26,
+          "endLine": 31,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：but I won't again / it didn't actually taste of anything",
+          "evidence": [
+            {
+              "lineId": "p3-line-30",
+              "line": 30,
+              "quote": "but I won't again",
+              "revealAt": 322.28
+            },
+            {
+              "lineId": "p3-line-31",
+              "line": 31,
+              "quote": "it didn't actually taste of anything",
+              "revealAt": 333.26
+            }
+          ],
+          "distractors": [],
+          "questionText": "Use of branded products related to celebrity chefs"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 340.18,
+          "end": 361.7,
+          "endLine": 37,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：What are they / people aren't aware of that – it's all kept very quiet",
+          "evidence": [
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "What are they",
+              "revealAt": 341.9
+            },
+            {
+              "lineId": "p3-line-35",
+              "line": 35,
+              "quote": "people aren't aware of that – it's all kept very quiet",
+              "revealAt": 356.24
+            },
+            {
+              "lineId": "p3-line-36",
+              "line": 36,
+              "quote": "So people don't realise the food's not actually from the restaurant",
+              "revealAt": 360.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "Development of ‘ghost kitchens’ for takeaway food"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 373.72,
+          "end": 381.24,
+          "endLine": 40,
+          "answer": "H",
+          "accepted": [
+            "H"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：They might be taking a big risk there / it's hard to know which varieties are safe to eat",
+          "evidence": [
+            {
+              "lineId": "p3-line-39",
+              "line": 39,
+              "quote": "They might be taking a big risk there",
+              "revealAt": 377.16
+            },
+            {
+              "lineId": "p3-line-40",
+              "line": 40,
+              "quote": "it's hard to know which varieties are safe to eat",
+              "revealAt": 381.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "Use of mushrooms for common health concerns"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Céide Fields",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "5e34401f525941721cd56c7337b03b56a1357f66392de6ababf731f0d1476d88",
+      "transcriptSha256": "fef7db78efd0188184e95547dfa92a4c1072216cd88cf76e33172ff2152ee8fd",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%205%20Part%204.mp3",
+      "duration": 378.0440625,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 122.86,
+          "end": 132.12,
+          "endLine": 4,
+          "answer": "walls",
+          "accepted": [
+            "walls"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：He realised that these must be walls",
+          "evidence": [
+            {
+              "lineId": "p4-line-4",
+              "line": 4,
+              "quote": "He realised that these must be walls",
+              "revealAt": 132.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "were once 31 __________."
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 140.08,
+          "end": 149.64,
+          "endLine": 6,
+          "answer": "son",
+          "accepted": [
+            "son"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Patrick Caulfield's son Seamus, who had become an archaeologist",
+          "evidence": [
+            {
+              "lineId": "p4-line-6",
+              "line": 6,
+              "quote": "Patrick Caulfield's son Seamus, who had become an archaeologist",
+              "revealAt": 149.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "● His 32 __________ became an archaeologist and undertook an"
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 150.48,
+          "end": 163.18,
+          "endLine": 7,
+          "answer": "fuel",
+          "accepted": [
+            "fuel"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：traditional method which local people had always used for finding fuel buried in the bog",
+          "evidence": [
+            {
+              "lineId": "p4-line-7",
+              "line": 7,
+              "quote": "traditional method which local people had always used for finding fuel buried in the bog",
+              "revealAt": 163.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ a traditional method used by local people to dig for 33 __________ was used to identify where stones were located"
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 199.64,
+          "end": 206.26,
+          "endLine": 11,
+          "answer": "oxygen",
+          "accepted": [
+            "oxygen"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Objects remain so well preserved / because of the acidity of the peat and the deficiency of oxygen",
+          "evidence": [
+            {
+              "lineId": "p4-line-11",
+              "line": 11,
+              "quote": "Objects remain so well preserved",
+              "revealAt": 206.26
+            },
+            {
+              "lineId": "p4-line-11",
+              "line": 11,
+              "quote": "because of the acidity of the peat and the deficiency of oxygen",
+              "revealAt": 206.26
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Items are well preserved in the bog because of a lack of 34 __________."
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 246.02,
+          "end": 253.98,
+          "endLine": 16,
+          "answer": "rectangular",
+          "accepted": [
+            "rectangular"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：rectangular with a small hole in the roof that allowed smoke to escape",
+          "evidence": [
+            {
+              "lineId": "p4-line-16",
+              "line": 16,
+              "quote": "rectangular with a small hole in the roof that allowed smoke to escape",
+              "revealAt": 253.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Houses were 35 __________ in shape and had a hole in the roof."
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 274.5,
+          "end": 284.98,
+          "endLine": 20,
+          "answer": "lamps",
+          "accepted": [
+            "lamps"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：pots were filled with a small amount of fat and when this was set alight, they served as lamps",
+          "evidence": [
+            {
+              "lineId": "p4-line-20",
+              "line": 20,
+              "quote": "pots were filled with a small amount of fat and when this was set alight, they served as lamps",
+              "revealAt": 284.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ pots used for storage and to make 36 __________."
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 293.12,
+          "end": 300.08,
+          "endLine": 22,
+          "answer": "family",
+          "accepted": [
+            "family"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：each plot of land was of a suitable size to sustain an extended family",
+          "evidence": [
+            {
+              "lineId": "p4-line-22",
+              "line": 22,
+              "quote": "each plot of land was of a suitable size to sustain an extended family",
+              "revealAt": 300.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Each field at Céide was large enough to support a big 37 __________."
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 310.74,
+          "end": 317.42,
+          "endLine": 24,
+          "answer": "winter",
+          "accepted": [
+            "winter"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：no structures have been found which would have been used to shelter animals in the winter",
+          "evidence": [
+            {
+              "lineId": "p4-line-24",
+              "line": 24,
+              "quote": "no structures have been found which would have been used to shelter animals in the winter",
+              "revealAt": 317.42
+            }
+          ],
+          "distractors": [],
+          "questionText": "evidence of structures to house them during 38 __________."
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 332.16,
+          "end": 336.58,
+          "endLine": 27,
+          "answer": "soil",
+          "accepted": [
+            "soil"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The soil would have become less productive and led to the abandonment of farming",
+          "evidence": [
+            {
+              "lineId": "p4-line-27",
+              "line": 27,
+              "quote": "The soil would have become less productive and led to the abandonment of farming",
+              "revealAt": 336.58
+            }
+          ],
+          "distractors": [],
+          "questionText": "● a decline in 39 __________ quality"
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 348.44,
+          "end": 357.9,
+          "endLine": 30,
+          "answer": "rain",
+          "accepted": [
+            "rain"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：the conditions became wetter as there was a lot more rain",
+          "evidence": [
+            {
+              "lineId": "p4-line-30",
+              "line": 30,
+              "quote": "the conditions became wetter as there was a lot more rain",
+              "revealAt": 357.9
+            }
+          ],
+          "distractors": [],
+          "questionText": "● an increase in 40 __________"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "evidence"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        }
+      ]
+    }
+  ]
+}

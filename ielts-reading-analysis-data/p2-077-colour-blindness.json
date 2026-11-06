@@ -1,0 +1,1038 @@
+{
+  "id": "p2-077-colour-blindness",
+  "catalogueId": "p2-077",
+  "catalogueIds": [
+    "p2-077"
+  ],
+  "passage": 2,
+  "title": "Colour Blindness",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "H",
+    "F",
+    "B",
+    "C",
+    "J",
+    "E",
+    "G",
+    "C",
+    "D",
+    "D",
+    "optic nerve",
+    "retina",
+    "macula"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "H — can be acquired or inherited.",
+      "answerKey": "H — can be acquired or inherited.",
+      "type": "Sentence Endings",
+      "prompt": "Colour blindness ______",
+      "translation": "色盲可以是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2 和 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many types of colour blindness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：色盲有很多種類。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most cases of colour blindness, about 99 per cent, are inherited.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：約 99% 的色盲個案是遺傳而來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Colour blindness”。這題問整體來源，所以要找 birth、acquired、inherited 這組"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字。Paragraph 2 有 “whether present at birth or acquired later”，Paragraph 3 有 “inherited”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When there are deficiencies in the cones, whether present at birth or acquired later, the cones are not able to distinguish the particular wavelengths and thus that colour range is seen differently.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當 cone cells 有缺陷時，不論是出生時已有，還是後天獲得，cones 都不能辨認特定波"
+            },
+            {
+              "kind": "paragraph",
+              "text": "長，因此那一段顏色範圍會被看成不同樣子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“present at birth” 對應 inherited / congenital 的方向；“acquired later” 對應 acquired。再由Paragraph 3 的 “Most cases … are inherited” 補強，答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "F — can see things that people with normal vision cannot.",
+      "answerKey": "F — can see things that people with normal vision cannot.",
+      "type": "Sentence Endings",
+      "prompt": "Surprisingly, some people who are colour blind ______",
+      "translation": "令人意外的是，有些色盲人士……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Colour vision problems can have a significant impact on a person’s life, learning abilities and career choices.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：色覺問題會對一個人的生活、學習能力和職業選擇造成重大影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At one time the US Army found that colour-blind people can spot camouflage colours in cases where those with normal colour vision are typically fooled.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：美國陸軍曾發現，在正常色覺人士通常會被迷惑的情況下，色盲人士能看出偽裝色。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Surprisingly”。原文沒有 directly say surprisingly，但有 “may even discover"
+            },
+            {
+              "kind": "paragraph",
+              "text": "instances”，表示有點出乎意料的優勢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“most colour-deficient people compensate well for their defect and may even discover instances in which they can discern details and images that would escape people with normal colour vision.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：多數色覺缺陷人士能很好地補償自己的缺陷，甚至可能發現某些情況下，他們能辨認"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正常色覺人士會錯過的細節和影像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“discern details and images that would escape people with normal colour vision” 對應 “can see things that people with normal vision cannot”。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B — cannot be treated by surgery.",
+      "answerKey": "B — cannot be treated by surgery.",
+      "type": "Sentence Endings",
+      "prompt": "People with hereditary colour blindness ______",
+      "translation": "有遺傳性色盲的人……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inherited colour vision problems cannot be treated or corrected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：遺傳性色覺問題無法被治療或矯正。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this situation there is only one light; no top or bottom, no right or left, just one light that is either red or yellow.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在這種情況下，只有一盞燈；沒有上下、沒有左右，只有一盞可能是紅色或黃色的燈。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “hereditary colour blindness”。原文用 “Inherited colour vision problems”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據有兩句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inherited colour vision problems cannot be treated or corrected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：遺傳性色覺問題無法治療或矯正。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some acquired colour vision problems can be treated with surgery, such as the removal of a cataract, depending on the cause.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：某些後天性色覺問題可以透過手術治療，例如移除白內障，視乎成因而定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來表示：surgery 只可能幫到 some acquired problems；hereditary problems 無法treatment / correction。因此答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C — affects men much more often than women.",
+      "answerKey": "C — affects men much more often than women.",
+      "type": "Sentence Endings",
+      "prompt": "Because of our genetic make-up, colour blindness ______",
+      "translation": "由於我們的基因構成，色盲……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most cases of colour blindness, about 99 per cent, are inherited.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：約 99% 的色盲個案是遺傳而來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This disorder occurs with equal frequency in men and women and usually accompanies certain other physical disorders, such as liver disease or diabetes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種疾病在男女中出現頻率相同，並通常伴隨某些其他身體疾病，例如肝病或糖尿"
+            },
+            {
+              "kind": "paragraph",
+              "text": "病。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “genetic make-up”。原文對應 “X chromosome”、“males have an X–Y pairing and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "females have X–X”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The gene for this is carried on the X chromosome. Since males have an X–Y pairing and females have X–X, colour blindness can occur much more easily in males and is typically passed to them by their mothers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種基因位於 X 染色體上。由於男性是 X–Y 配對，女性是 X–X 配對，色盲在男性身"
+            },
+            {
+              "kind": "paragraph",
+              "text": "上更容易出現，並通常由母親傳給他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Because of our genetic make-up” 對應 X–Y / X–X pairing。原文的 “much more easily in males” 對應選項 C 的 “affects men much more often than women”。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "J — cannot distinguish certain colours if they stand alone.",
+      "answerKey": "J — cannot distinguish certain colours if they stand alone.",
+      "type": "Sentence Endings",
+      "prompt": "Red-green genetic photoreceptor disorders mean that people ______",
+      "translation": "紅綠遺傳性 photoreceptor disorders 表示人們……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 inherited cases；最後一句講較罕見的 blue-yellow problem。這段中間集中解釋red-green colour blindness，所以是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Red-green genetic photoreceptor disorders”。原文幾乎原字出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most common disorders are red–green hereditary (genetic) photoreceptor disorders collectively referred to as ‘red-green colour blindness’.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“People with this disorder cannot identify red or green when either colour appears alone, but can do so when it appears among other colours.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有這種 disorder 的人，在 red 或 green 單獨出現時不能辨認，但當它出現在其他顏色"
+            },
+            {
+              "kind": "paragraph",
+              "text": "之中時，便能辨認。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“when either colour appears alone” 對應 “if they stand alone”。“cannot identify red or green” 對應 “cannot distinguish certain colours”。所以答案是 J。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "E — can see no colour at all, other than shades of black, grey and white.",
+      "answerKey": "E — can see no colour at all, other than shades of black, grey and white.",
+      "type": "Sentence Endings",
+      "prompt": "People with monochromacy ______",
+      "translation": "有 monochromacy 的人……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rarest form of all is total colour blindness, monochromacy, in which one can see only shades of black, grey and white as in a black-and-white film or photograph.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最罕見的形式是 total colour blindness，即 monochromacy，患者只能看到黑、灰、白"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的不同深淺，就像黑白電影或照片。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another term for total colour blindness is achromatopsia, the inability to see colour.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：total colour blindness 另一個名稱是 achromatopsia，即無法看見顏色。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “monochromacy”。這是很強的專有名詞，直接帶到 Paragraph 4 第一行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句就是第一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“one can see only shades of black, grey and white” 對應選項 E 的 “can see no colour at all, other than shades of black, grey and white”。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "G — can have very dangerous consequences for colour-blind people.",
+      "answerKey": "G — can have very dangerous consequences for colour-blind people.",
+      "type": "Sentence Endings",
+      "prompt": "The inability to see certain lights ______",
+      "translation": "不能看清某些燈號……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 inherited problems cannot be treated or corrected；最後一句說 warning lights 只有一盞燈，沒有上下左右提示，只可能是 red 或 yellow。只看首尾句，已可估計本段後半會講交通燈和警示燈的實際風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “certain lights”。原文有 “traffic lights” 和 “warning lights”。題目中的 “inability to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "see” 對應 colour-blind people 對 red / yellow lights 的判斷困難。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“One frequent problem involves traffic lights and, worst of all, warning lights.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一個常見問題涉及交通燈；最嚴重的是警示燈。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But warning lights present an entirely different problem. In this situation there is only one light; no top or bottom, no right or left, just one light that is either red or yellow.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但警示燈帶來完全不同的問題。在這種情況中，只有一盞燈；沒有上下、沒有左右，只"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一盞可能是紅色或黃色的燈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“worst of all” 顯示危險程度較高。警示燈失去位置提示後，色盲人士不能靠 top / bottom 或 left /right 補償，因此可能有嚴重後果。答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "C — the malfunction of cone cells.",
+      "answerKey": "C — the malfunction of cone cells.",
+      "type": "Multiple Choice",
+      "prompt": "What causes colour blindness?",
+      "translation": "甚麼造成色盲？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Colour blindness results from an absence or malfunction of certain colour-sensitive cells in the retina.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：色盲來自 retina 中某些對顏色敏感的細胞缺失或運作失常。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hence, the huge variety of colours we perceive stems from the cone cells’ response to different combinations of wavelengths of light.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，我們感知到的大量顏色，來自 cone cells 對不同光波長組合的反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “causes colour blindness”。原文用 “results from”。同時要找 colour-sensitive"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cells 到底是哪類 cell。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 解釋 rod cells cannot distinguish colour，而 cone cells are sensitive to colour"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。首句說 certain colour-sensitive cells 缺失或 malfunction 會造成 colour blindness；後文指出負責 colour vision 的是 cone cells。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以選 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項：A 和 B 都把焦點放在 rod cells，但原文說 rod cells cannot distinguish colour，主要負責 low light / night vision。D 說 retina’s inability to detect light，範圍太大；文章說的是特定colour-sensitive cells 出問題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "D — people with achromatopsia.",
+      "answerKey": "D — people with achromatopsia.",
+      "type": "Multiple Choice",
+      "prompt": "Which group is the rarest?",
+      "translation": "哪一組人最罕見？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rarest form of all is total colour blindness, monochromacy…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：所有類型之中最罕見的是 total colour blindness，即 monochromacy。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another term for total colour blindness is achromatopsia, the inability to see colour.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：total colour blindness 另一名稱是 achromatopsia，即不能看見顏色。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “rarest”。原文直接有 “The rarest form of all”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一句說 rarest form 是 total colour blindness / monochromacy；最後一句再說 total colour"
+            },
+            {
+              "kind": "paragraph",
+              "text": "blindness 也叫 achromatopsia。選項 D “people with achromatopsia” 正好對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 是 blue-yellow problem，原文說 much rarer，但未去到 rarest。B anomalous trichromats 是most common type。C dichromacy 不是本段標明 rarest 的類型。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "D — not being able to buy matching clothes.",
+      "answerKey": "D — not being able to buy matching clothes.",
+      "type": "Multiple Choice",
+      "prompt": "What would colour-blind people consider an everyday nuisance?",
+      "translation": "色盲人士會把哪一件事視為日常煩惱？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Colour vision problems can have a significant impact on a person’s life, learning abilities and career choices.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：色覺問題會對一個人的生活、學習能力和職業選擇有重大影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At one time the US Army found that colour-blind people can spot camouflage colours…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：美國陸軍曾發現，色盲人士能看出某些偽裝色。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “everyday nuisance”。原文用 “On an everyday basis, there are some"
+            },
+            {
+              "kind": "paragraph",
+              "text": "annoyances and frustrations”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“On an everyday basis, there are some annoyances and frustrations: not being able to differentiate between unripe green tomatoes and ripe red ones when preparing food, for example, or buying clothes that to people with normal colour vision seem positively garish.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在日常生活中有些惱人和令人挫折的事：例如準備食物時不能分辨未熟的綠番茄和成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "熟的紅番茄，或者買了在正常色覺人士眼中看起來非常刺眼的衣服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “not being able to buy matching clothes” 是對 “buying clothes … seem positively garish”的概括。B 的 apple / tomato 改變了原文例子；原文比較的是 unripe green tomatoes 和 ripe red ones。A warning lights 更偏安全問題，不是此題問的 everyday nuisance。C “not being able to cook” 說得過闊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "optic nerve",
+      "answerKey": "optic nerve",
+      "type": "Diagram Completion",
+      "prompt": "Question 24",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 colour blindness 來自 retina 中 colour-sensitive cells 的 absence or malfunction；最後一句說顏色感知來自 cone cells 對 wavelength combinations 的反應。這段負責交代眼部結構和資訊傳送路線。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞要看 diagram 位置。若標籤指向 retina 附近、連接眼球和大腦的神經線，原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“optic nerve”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“All of these cells send information about colour to the brain via the optic nerve, which connects to the retina at a point very close to the macula.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：所有這些細胞會透過 optic nerve 把顏色資訊傳送到大腦；optic nerve 在非常接近"
+            },
+            {
+              "kind": "paragraph",
+              "text": "macula 的位置連接 retina。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 optic nerve，兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "retina",
+      "answerKey": "retina",
+      "type": "Diagram Completion",
+      "prompt": "Question 25",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Colour blindness results from an absence or malfunction of certain colour-sensitive cells in the retina.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：色盲來自 retina 中某些對顏色敏感的細胞缺失或運作失常。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "若 diagram 標籤指向眼球後方內壁的光敏薄膜，原文最直接是 “retina”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The retina is a light-sensitive membrane lining the inside back of the eye, behind the lens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：retina 是一層對光敏感的薄膜，位於眼球內部後方、lens 後面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 retina，一個字，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "macula",
+      "answerKey": "macula",
+      "type": "Diagram Completion",
+      "prompt": "Question 26",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。這段不只講 retina，也提到 cone cells 集中在 retina 中央部分的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個區域。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果 diagram 標籤指向 retina 中央、靠近 optic nerve 連接點的位置，原文對應 “macula”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cone cells, also called photoreceptors, are concentrated mostly in the central part of the retina, in an area called the macula.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：cone cells 也叫 photoreceptors，主要集中在 retina 的中央部分，這個區域稱為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "macula。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 macula，一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Colour Blindness.pdf",
+    "sha256": "d6945eb279607f08d47cc94f6a5a31cc4398fd574ffc95b7189a7d0b017808c8",
+    "pageCount": 10
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 colour blindness 來自 retina 中某些 colour-sensitive cells 缺失或運作失常；尾句說我們能看到大量顏色，是因為 cone cells 對不同 wavelength combinations 有反應。只看首尾句，可以估計本段是基礎生理解釋：retina、rod cells、cone cells、macula、optic nerve 和 trichromats 都會出現。題目若問 causes、normal colour vision、diagram labels，目標多半在這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句指出 colour blindness 有很多類型；尾句說缺少負責 green 和 red hues 的 cones 也會影響brightness sensitivity。只看首尾句，可以估計本段講 colour blindness 的種類和 cone pigment 缺陷。中間提到 anomalous trichromats、dichromacy、red/orange/yellow/green 看似相同。題目若問acquired/inherited、sensitivity to brightness、dichromacy 或某些顏色分不清，這段很重要。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說約 99% colour blindness 屬 inherited；尾句說 blue-yellow discrimination problems 較少見，男女頻率相同，並常伴隨 liver disease 或 diabetes。只看首尾句，可以估計本段重點是hereditary colour blindness，尤其 red-green genetic photoreceptor disorders。中間會解釋 X chromosome、males affected more commonly、females carriers，以及 red/green 單獨出現時難以辨認。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說最罕見形式是 total colour blindness，即 monochromacy；尾句說 total colour blindness 另一名稱是 achromatopsia，意思是 inability to see colour。只看首尾句，可以估計本段專門處理最嚴重、最稀有的情況。題目若問 rarest group、monochromacy、achromatopsia、black/grey/white shades，答案幾乎可以直接定位到本段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 inherited colour vision problems 無法治療或矯正；尾句說 warning lights 只有一盞燈，可能是 red 或 yellow，沒有上下左右位置提示。只看首尾句，可以估計本段講 treatment / correction、輔助方法和實際危險。中間包括 surgery 只適用於部分 acquired cases、tinted filters、contact lenses、computer software、traffic lights 和 warning lights。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 colour vision problems 對生活、學習能力和職業選擇有重大影響；尾句說美國陸軍曾發現 colour-blind people 有時能看出 camouflage colours。只看首尾句，可以估計本段講日常不便和補償能力。中間會提到 tomatoes、clothes，以及 colour-blind people 有時能察覺 normal colour vision people 會錯過的 details and images。"
+      }
+    ]
+  }
+}

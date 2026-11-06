@@ -1,0 +1,2304 @@
+{
+  "id": "p1-056-timekeeper-invention-of-marine-chronometer",
+  "catalogueId": "p1-056",
+  "catalogueIds": [
+    "p1-056"
+  ],
+  "passage": 1,
+  "title": "Timekeeper: Invention of Marine Chronometer",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "E",
+    "A",
+    "E",
+    "G",
+    "A",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "local time",
+    "2.8 seconds",
+    "lubrication",
+    "sextant",
+    "angles",
+    "marine chronometer"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“a description of Harrison’s background”",
+      "translation": "描述 Harrison 的背景。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找哪一段包含 Harrison 的個人背景。最有定位力的字是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Harrison’s background”。background 通常會對應出身、職業、家庭、早期經歷或早期工作。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E第一句：“The prize, worth about £2 million today, inspired John Harrison, a self-taught Yorkshire carpenter, to design a practical marine clock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這筆相當於今天約二百萬英鎊的獎金，啟發 John Harrison 這位來自 Yorkshire 的自學木匠，設計一個實用的航海鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its remarkable performance, the Board of Longitude withheld the prize until it was fully satisfied.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管它表現出色，Board of Longitude 仍一直扣起獎金，直到它完全滿意為止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph E 主要講 Harrison 的人物身份、發明歷程和獎金結果。第一句已經直接提供 “self-taught Yorkshire carpenter”，這就是人物背景資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison”"
+            },
+            {
+              "kind": "quote",
+              "text": "“background”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph E，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Harrison, a self-taught Yorkshire carpenter”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early in his career, he worked with his younger brother James.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prize, worth about £2 million today, inspired John Harrison, a self-taught Yorkshire carpenter, to design a practical marine clock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這筆相當於今天約二百萬英鎊的獎金，啟發 John Harrison 這位自學成才的 Yorkshire 木匠，設計實用航海鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early in his career, he worked with his younger brother James.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在職業生涯早期，他和弟弟 James 一起工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句提供 Harrison 的身份背景和早期工作背景。題目只要求 “a description”，不要求完整傳記，因此 Paragraph E 足夠。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison’s background”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a self-taught Yorkshire carpenter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Early in his career, he worked with his younger brother James”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： background = 出身、職業身份、早期經歷答案判斷： Paragraph E 明確包含 Harrison 的身份與早期經歷，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也和 Harrison 後來追求的 prize 有關，但 D 沒有 Harrison 的個人背景。看到 prize時，要繼續找人名 Harrison 是否出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“problems caused by poor ocean navigation”",
+      "translation": "海上導航不準確造成的問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求找 problems。定位詞是 “poor ocean navigation”，原文可能用 “could not determine their exact position at sea” 來表達；problems 則可能是 shipwreck、supplies 等具體後果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the middle of the 18th century, navigators could not determine their exact position at sea and therefore faced many risks, including shipwreck and running out of supplies before reaching their destination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 18 世紀中期，航海者都無法準確判斷自己在海上的位置，因此面對許多風險，包括沉船，以及在抵達目的地前耗盡補給。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Establishing one’s position on Earth requires two essential coordinates, one of which is longitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要確定人在地球上的位置，需要兩個基本座標，其中一個是經度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，已經看到 navigation problem 和 consequences。這段很明顯是全文問題背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“problems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“poor ocean navigation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“could not determine their exact position at sea and therefore faced many risks, including shipwreck and running out of supplies…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the middle of the 18th century, navigators could not determine their exact position at sea and therefore faced many risks, including shipwreck and running out of supplies before reaching their destination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 18 世紀中期，航海者無法準確判斷海上位置，因此會面對沉船和補給耗盡等風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯很清楚：原因：could not determine their exact position at sea結果：faced many risks例子：shipwreck / running out of supplies題目中的 “poor ocean navigation” 是對 “could not determine their exact position at sea” 的概括。題目中的 “problems caused by” 對應原文的 “therefore faced many risks”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "poor ocean navigation= could not determine exact position at sea problems= many risks caused by= therefore答案判斷Paragraph A 直接列出海上定位不準造成的風險，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B、C 也講導航計算方法，但 Question 2 問的是 consequences。若題目問方法，才會往後看；若題目問風險，Paragraph A 的第一句最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“the person who gave financial support to Harrison”",
+      "translation": "給 Harrison 經濟支持的人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求找人物。定位詞是 “financial support” 和 “Harrison”。原文可能不用 financial support，會用 funded、support、money、backed 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prize, worth about £2 million today, inspired John Harrison, a self-taught Yorkshire carpenter, to design a practical marine clock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這筆相當於今天約二百萬英鎊的獎金，啟發 John Harrison 這位自學 Yorkshire 木匠設計實用航海鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its remarkable performance, the Board of Longitude withheld the prize until it was fully satisfied.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管它表現出色，Board of Longitude 仍扣起獎金，直到它完全滿意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都和 money / prize / Harrison 有關，因此這段很可能包含 financial support 的資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison”"
+            },
+            {
+              "kind": "quote",
+              "text": "“financial support”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph E，找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison designed a marine clock in 1730 and travelled to London in search of financial support.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著找到人物："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graham funded Harrison’s early work on sea clocks.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He explained his ideas to Edmond Halley, the Astronomer Royal, who introduced him to George Graham, one of Britain’s foremost clockmakers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他向 Astronomer Royal Edmond Halley 解釋自己的想法，Halley 把他介紹給 George Graham； Graham 是英國最重要的鐘錶匠之一。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graham funded Harrison’s early work on sea clocks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graham 資助了 Harrison 早期的海上鐘研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “the person who gave financial support”。原文的 funded 就是資助、出錢支持。給錢的人是 Graham，即 George Graham。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "financial support= funded person who gave support= George Graham答案判斷Paragraph E 同時出現 Harrison、financial support、Graham funded，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Edmond Halley 也在同一段出現，而且他幫 Harrison 見到 Graham。可是 Halley 的動作是introduced him to George Graham；真正 funded Harrison’s early work 的人是 Graham。做人物題時，要看每個人物後面的動詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“an analysis of the long-term importance of the marine chronometer”",
+      "translation": "分析 marine chronometer 的長期重要性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 long-term importance。定位詞是 “marine chronometer” 和 “long-term”。原文可能用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“for the next century and a half” 表示長期影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G第一句：“Most pioneers of the chronometer in that generation were English, but not every achievement was theirs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那一代 chronometer 的大多數先驅是英格蘭人，但並非每一項成就都屬於他們。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work turned it into a genuine modern commercial product and a safe, practical navigational aid for the next century and a half.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的工作把它變成真正的現代商業產品，並讓它在接下來一個半世紀中成為安全、實用的導航工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經看到 long-term importance：未來一個半世紀的 navigational aid。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“long-term importance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“marine chronometer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“for the next century and a half”"
+            },
+            {
+              "kind": "quote",
+              "text": "“safe, practical navigational aid”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work turned it into a genuine modern commercial product and a safe, practical navigational aid for the next century and a half.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的工作令它成為真正的現代商業產品，也讓它在接下來一個半世紀成為安全而實用的導航輔助工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “His work” 指 Thomas Earnshaw 的工作。句中有兩層重要性：第一，commercial product：它被轉化成可生產、可銷售的現代產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，safe, practical navigational aid：它長期幫助航海安全和定位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “long-term importance”，原文以 “for the next century and a half” 表示時間跨度，因此Paragraph G 是最佳答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "long-term= for the next century and a half importance= safe, practical navigational aid / genuine modern commercial product marine chronometer= chronometer / marine chronometer答案判斷Paragraph G 專門說明 chronometer 的最終形態和長期導航價值，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講 Harrison 的 H1 和 H4，與 invention 發展有關；但真正談到產品化和一個半世紀長期用途的是 Paragraph G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“a practical use of longitude”",
+      "translation": "longitude 的實際用途。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 longitude 有甚麼實際作用。定位詞是 “practical use” 和 “longitude”。原文未必寫practical use，可能用 “establishing one’s position” 來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the middle of the 18th century, navigators could not determine their exact position at sea and therefore faced many risks, including shipwreck and running out of supplies before reaching their destination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 18 世紀中期，航海者都無法準確判斷自己在海上的位置，因此面對沉船和補給耗盡等風險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Establishing one’s position on Earth requires two essential coordinates, one of which is longitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要確定人在地球上的位置，需要兩個基本座標，其中一個是 longitude。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到 longitude 的用途：幫助確定位置。這就是導航中的 practical use。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“longitude”"
+            },
+            {
+              "kind": "quote",
+              "text": "“use”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最直接的位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Establishing one’s position on Earth requires two essential coordinates, one of which is longitude.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Establishing one’s position on Earth requires two essential coordinates, one of which is longitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要確定地球上的位置，需要兩個基本座標，其中一個就是經度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚說明 longitude 的實際功能：它是確定位置所需的基本座標之一。放在文章語境中，這個功能尤其服務於 sea navigation，因為前一句剛說 navigators 無法確定 exact position at sea。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "practical use= establishing one’s position on Earth / determining exact position at sea longitude= one of two essential coordinates答案判斷Paragraph A 說明 longitude 在確定位置中的用途，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 詳細解釋如何 calculate longitude，Paragraph F 說 sextant could help determine longitude。那些段落偏向「如何取得 longitude」。Question 5 問實際用途，Paragraph A 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“establishing one’s position” 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In theory, sailors can easily calculate their longitude at sea.”",
+      "translation": "理論上，水手可以在海上輕易計算經度。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目控制詞是 “In theory” 和 “easily”。我們要判斷文章是否說，在理論層面，海上計算 longitude 是簡單的。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Longitude measures how far east or west a place lies from a reference meridian, unlike latitude, which uses the naturally occurring baseline of the equator.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "longitude 衡量一個地點距離參考子午線有多遠，方向是向東或向西；latitude 則使用自然形成的赤道作基準線。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But how could a sailor know the home time while at sea?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，水手在海上如何知道家鄉時間呢？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph B 會先解釋 longitude，再推到 home time 的技術問題。題目有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“in theory”，應在這段中間找 “in theory” 原字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：“In theory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“calculate longitude”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at sea”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In theory, calculating longitude was straightforward even in mid-ocean with no land in sight.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In theory, calculating longitude was straightforward even in mid-ocean with no land in sight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "理論上，即使身處看不見陸地的海洋中央，計算 longitude 也是直接明瞭的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“straightforward” 對應題目中的 “easily”。“mid-ocean with no land in sight” 比 “at sea” 更具體，意思是即使在海中央也可以。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“sailors can easily calculate their longitude at sea”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“calculating longitude was straightforward even in mid-ocean”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： easily = straightforward at sea = in mid-ocean with no land in sight答案判斷題目和原文方向一致。題目說 “In theory”，原文也明確限制在理論層面，因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後文說實際上很難，因為需要準確 clock。這不會推翻 Question 6，因為題目限定 “In theory”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "IELTS 很常用 in theory / in practice 這類對比詞控制答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“To determine longitude, the measurement of the distance from the Moon to a given star is essential.”",
+      "translation": "要判斷 longitude，量度月亮和指定星星之間的距離是必不可少的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題重點在 “essential”。原文確實提到 lunar distance，但要檢查它是否被描述成所有 longitude計算都必須使用的方法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Longitude measures how far east or west a place lies from a reference meridian, unlike latitude, which uses the naturally occurring baseline of the equator.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "longitude 衡量一個地點在參考子午線以東或以西多遠；latitude 則以赤道作自然基準。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But how could a sailor know the home time while at sea?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，水手在海上如何知道家鄉時間呢？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會介紹 longitude 的不同判定方法，並收束到 home time 的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“star”"
+            },
+            {
+              "kind": "quote",
+              "text": "“distance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“essential”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To determine longitude, navigators measured the angle between the Moon’s centre and a specific star—the lunar distance—using a marine sextant…”"
+            },
+            {
+              "kind": "label",
+              "text": "另一個重要句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another proposed method used the difference between home time and local time.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“To determine longitude, navigators measured the angle between the Moon’s centre and a specific star—the lunar distance—using a marine sextant…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了判斷 longitude，航海者會用 marine sextant 量度月亮中心和特定星星之間的角度，也就是lunar distance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 lunar distance method 的操作方式。不過段落後面接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another proposed method used the difference between home time and local time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種被提出的方法使用家鄉時間和當地時間之間的差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這第二種方法的核心是 home time 和 local time，不依靠月亮與星星之間的距離。題目把 lunar distance 說成 “essential”，意思是必不可少。原文提供另一種可行理論方法，因此這個 “essential”過強。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the measurement … is essential”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：第一種方法使用 lunar distance另一種方法使用 home time 和 local time 的差異答案判斷原文呈現 lunar distance 為一種方法，並且緊接著介紹另一種方法。題目把其中一種方法提升為必要條件，和原文範圍不符，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被第一句 “To determine longitude…” 吸引。真正控制答案的是 “essential”。看到essential、only、must 這類絕對詞，要檢查原文是否提供其他路徑。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Greenwich Mean Time was set up by the English navigators.”",
+      "translation": "Greenwich Mean Time 是由英國航海者建立的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 GMT 的建立者。定位詞是 “Greenwich Mean Time” 和 “English navigators”。文章有提到 GMT，但要看是否說明誰建立它。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Longitude measures how far east or west a place lies from a reference meridian, unlike latitude, which uses the naturally occurring baseline of the equator.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "longitude 衡量地點在參考子午線以東或以西多遠；latitude 則使用赤道作基準線。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But how could a sailor know the home time while at sea?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，水手在海上如何知道家鄉時間呢？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會談 GMT 如何用於 longitude 計算，但首尾句沒有暗示 GMT 的創立者。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greenwich Mean Time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“English navigators”"
+            },
+            {
+              "kind": "label",
+              "text": "原文只出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“A nautical almanac then allowed Greenwich Mean Time (GMT) to be determined.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A nautical almanac then allowed Greenwich Mean Time (GMT) to be determined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，航海曆可以讓人確定 Greenwich Mean Time，即 GMT。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供的是 GMT 的使用方式：nautical almanac allowed GMT to be determined。它沒有說GMT 是誰 set up，也沒有說 English navigators 建立了 GMT。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的資料是： GMT was set up by English navigators原文有的資料是： GMT could be determined using a nautical almanac兩者涉及不同問題：一個是「由誰建立」，另一個是「如何確定」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷原文沒有足夠資料判斷 GMT 是否由 English navigators 建立。也沒有明確說它不是由他們建立，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Greenwich” 和 “British government” 都可能令人聯想到 England，但 IELTS Reading 不能靠地名或常識補出創立者。題目問 set up by whom，原文沒有提供這條資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "local time",
+      "answerKey": "local time",
+      "type": "Sentence Completion",
+      "prompt": "“Sailors could use the position of the Sun to calculate 9 ______.”",
+      "translation": "水手可以利用太陽的位置計算 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 calculate，答案應是一個名詞短語。定位詞是 “position of the Sun”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The obvious answer was to take an accurate clock set to home time before departure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最明顯的答案，是出發前帶上一個設定為家鄉時間的準確時鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In practice, nobody in the 18th century had managed to create a clock that could withstand a ship’s violent movement and fluctuating temperatures while remaining accurate enough for navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實際上，18 世紀沒有人成功製造出一個能承受船隻劇烈晃動和溫度波動、同時仍足夠準確支援導航的時鐘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph C 在講 home time clock 的理論解法和實際困難。題目提到Sun’s position，應在本段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sun’s position”"
+            },
+            {
+              "kind": "quote",
+              "text": "“calculate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Comparing it with local time, easily identified from the Sun’s position…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Comparing it with local time, easily identified from the Sun’s position, would reveal the time difference and therefore the ship’s longitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把它和當地時間比較，而當地時間可以輕易從太陽位置辨認出來，就能顯示時間差，進而得出船隻的 longitude。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “it” 指前一句的 accurate clock set to home time。太陽位置的作用是 identify local time，即判斷當地時間。題目把 “identified from the Sun’s position” 改成 “use the position of the Sun to calculate”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查local time = two words，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "use the position of the Sun= from the Sun’s position calculate= identify答案判斷太陽位置用來判斷 local time，所以答案是 local time。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句後面還出現 “longitude”，容易誤填 longitude。可是句子結構是：Sun’s position → local time → time difference → longitude。題目問太陽位置直接計算甚麼，答案要填 local time。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "2.8 seconds",
+      "answerKey": "2.8 seconds",
+      "type": "Sentence Completion",
+      "prompt": "“A prize-winning invention could lose no more than 10 ______ each day.”",
+      "translation": "能贏得獎金的發明每天誤差不能超過 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問數字限制。定位詞是 “prize-winning invention” 和 “each day”。答案應包含數字和時間單位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1714, the British government offered a prize of £20,000, administered by the grandly named Board of Longitude, for a solution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1714 年，英國政府懸賞 £20,000，由名稱宏大的 Board of Longitude 管理，以尋找解決方案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was considered impossible for any clock or watch at sea, even under the best conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使在最佳條件下，任何海上 clock 或 watch 要做到這點，都被視為不可能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph D 講獎金和準確度要求。題目中的 prize-winning invention 很自然定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“prize”"
+            },
+            {
+              "kind": "quote",
+              "text": "“each day”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no more than”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a timekeeper was the answer—and the prize was not restricted to timekeepers—its error could be no more than 2.8 seconds per day.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a timekeeper was the answer—and the prize was not restricted to timekeepers—its error could be no more than 2.8 seconds per day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 timekeeper 是答案——雖然這個獎項並不限於 timekeepers——它的誤差每天不能超過2.8 秒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “could lose no more than” 表達每天誤差的上限。原文用 “its error could be no more than 2.8 seconds per day”。因此答案直接來自原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查2.8 seconds = 一個數字加一個詞，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "could lose no more than= its error could be no more than each day= per day答案判斷答案是 2.8 seconds。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 £20,000。£20,000 是獎金金額；題目問每天可容許的時間誤差，應看 “per day”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "lubrication",
+      "answerKey": "lubrication",
+      "type": "Sentence Completion",
+      "prompt": "“John and James Harrison’s clock remained accurate without 11 ______.”",
+      "translation": "John 和 James Harrison 的時鐘在沒有 ______ 的情況下仍能保持準確。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。定位詞是 “John and James Harrison’s clock”。空格前有 without，答案應是一種東西或程序。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prize, worth about £2 million today, inspired John Harrison, a self-taught Yorkshire carpenter, to design a practical marine clock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這筆相當於今天約二百萬英鎊的獎金，啟發 John Harrison 這位自學 Yorkshire 木匠設計實用航海鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its remarkable performance, the Board of Longitude withheld the prize until it was fully satisfied.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管它表現出色，Board of Longitude 仍扣起獎金，直到它完全滿意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 是 Harrison 的早期工作和發明歷程，John and James 也在這段出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“John and James Harrison”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clock”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early in his career, he worked with his younger brother James. Their first major project was a turret clock for the stables at Brocklesby Park, revolutionary because it required no lubrication.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their first major project was a turret clock for the stables at Brocklesby Park, revolutionary because it required no lubrication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的第一個大型項目，是為 Brocklesby Park 馬廄製作一座 turret clock；這很具革命性，因為它不需要潤滑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “John and James Harrison’s clock” 對應 “Their first major project was a turret clock”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “without” 對應 “required no”。答案就是 lubrication。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查lubrication = one word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "without lubrication= required no lubrication clock remained accurate / clock functioned successfully= revolutionary because it required no lubrication答案判斷答案是 lubrication。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “remained accurate”，原文說 “revolutionary because it required no lubrication”。雖然原文沒有逐字寫 remained accurate，但在 clock 的語境中，重點是它能運作而無需潤滑。空格要填原文中 after no 的名詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "sextant",
+      "answerKey": "sextant",
+      "type": "Sentence Completion",
+      "prompt": "“Harrison’s main competitor invented an instrument known as the 12 ______.”",
+      "translation": "Harrison 的主要競爭者發明了一種稱為 ______ 的儀器。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問人物與發明物。定位詞非常明顯：Harrison’s main competitor。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison’s main competitor for the valuable prize was the English mathematician John Hadley, who developed the sextant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harrison 在爭奪這筆高額獎金時的主要競爭者，是英國數學家 John Hadley；他發明了 sextant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sextant was also significant because it could help determine longitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "sextant 也很重要，因為它能幫助判斷 longitude。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經看到答案。這段集中介紹 John Hadley 和 sextant。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison’s main competitor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“instrument”"
+            },
+            {
+              "kind": "label",
+              "text": "原文首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison’s main competitor … was … John Hadley, who developed the sextant.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison’s main competitor for the valuable prize was the English mathematician John Hadley, who developed the sextant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harrison 的主要競爭者是英國數學家 John Hadley，他發明了 sextant。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “invented an instrument known as” 對應原文 “developed the sextant”。答案就是sextant。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查sextant = one word，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "invented= developed instrument known as= the sextant答案判斷答案是 sextant。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 John Hadley。題目已經問 competitor invented 的 instrument，人物只是定位詞，真正答案是儀器名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "angles",
+      "answerKey": "angles",
+      "type": "Sentence Completion",
+      "prompt": "“Hadley’s instrument uses 13 ______ to calculate the location of ships or aircraft.”",
+      "translation": "Hadley 的儀器使用 ______ 來計算船隻或飛機的位置。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 instrument 的運作方式。定位詞是 “Hadley’s instrument” 和 “calculate the location of ships or aircraft”。答案應是名詞，表示 sextant 量度的東西。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison’s main competitor for the valuable prize was the English mathematician John Hadley, who developed the sextant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harrison 的主要競爭者是英國數學家 John Hadley，他發明了 sextant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sextant was also significant because it could help determine longitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "sextant 也很重要，因為它能幫助判斷 longitude。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 sextant 的功能和重要性。Question 13 接著 Question 12，很明顯仍在 Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“calculate the location”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ship or aircraft”"
+            },
+            {
+              "kind": "quote",
+              "text": "“instrument”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This instrument measures angles, such as that between the Sun and the horizon, to calculate the location of a ship or aircraft.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This instrument measures angles, such as that between the Sun and the horizon, to calculate the location of a ship or aircraft.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種儀器量度角度，例如太陽和地平線之間的角度，以計算船隻或飛機的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “uses” 取代原文 “measures”。sextant 用來量度的是 angles。後面的 example “between the Sun and the horizon” 只是其中一種角度例子，答案要填上位名詞 angles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查angles = one word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "uses angles= measures angles ships or aircraft= a ship or aircraft答案判斷答案是 angles。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Sun and horizon”。那是角度的例子。題目問使用甚麼來計算位置，應填總類名詞 angles。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "marine chronometer",
+      "answerKey": "marine chronometer",
+      "type": "Sentence Completion",
+      "prompt": "“The modern version of Harrison’s invention is called the 14 ______.”",
+      "translation": "Harrison 發明的現代版本稱為 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求填 invention 的現代名稱。定位詞是 “modern version” 和 “Harrison’s invention”。原文可能在最後一段用 “modern commercial product” 和 “marine chronometer” 說明。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most pioneers of the chronometer in that generation were English, but not every achievement was theirs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那一代 chronometer 的大多數先驅是英格蘭人，但成就並非全由他們取得。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work turned it into a genuine modern commercial product and a safe, practical navigational aid for the next century and a half.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的工作把它變成真正的現代商業產品，也讓它在接下來一個半世紀成為安全而實用的導航工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph G 講 chronometer 的 final development 和 modern product，因此很可能是答案段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“modern”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Harrison’s invention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“called”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thomas Earnshaw … established the final form and production system of the marine chronometer.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One important figure was the Lancastrian Thomas Earnshaw, who created the definitive chronometer escapement—the spring-detent escapement—and established the final form and production system of the marine chronometer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一位重要人物是 Lancastrian Thomas Earnshaw，他創造了最終定型的 chronometer escapement，即 spring-detent escapement，並建立了 marine chronometer 的最終形態和生產系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harrison 在 Paragraph E 設計的是 “practical marine clock”。到 Paragraph G，Earnshaw 把這類技術推向 final form and production system，名稱是 “marine chronometer”。題目說 modern version of Harrison’s invention，對應這個最終成形的產品名稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查marine chronometer = two words，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "modern version= final form / genuine modern commercial product Harrison’s invention= practical marine clock / sea clocks called the= the marine chronometer答案判斷答案是 marine chronometer。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 chronometer。雖然 Paragraph G 第一句有 chronometer，但題目句子 “called the______” 對應原文的完整產品名稱 “the marine chronometer”。在字數限制容許下，保留完整名稱最穩。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Timekeeper_ Invention of Marine Chronometer.pdf",
+    "sha256": "c8130ea2ebc8364565883a6e17318ce344410c5fe60fca7614658b5fed5d65e0",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說直到 18 世紀中期，航海者仍無法準確判斷自己在海上的位置，因此面對沉船和補給耗盡等風險。末句說要確定地球上的位置，需要兩個基本座標，其中一個是 longitude。只看首尾句，可以先估計這段是問題背景：古代海上導航的核心困難在於位置判斷，longitude 是解決這個問題不可缺少的座標之一。"
+      },
+      {
+        "number": "B",
+        "summary": "首句解釋 longitude 衡量地點距離 reference meridian 的東西方向位置，並和 latitude 作比較。末句用問題收結：水手在海上如何知道 home time？只看首尾句，可以看到這段會介紹 longitude 的計算方法與困難。中間大概會說 lunar distance、GMT、time difference、weather problem，以及「只要知道家鄉準確時間，理論上就能算 longitude」這個關鍵想法。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說最明顯的答案是出發前帶一個設定為 home time 的準確時鐘。末句說 18 世紀沒有人能製造出一個在船隻劇烈晃動和溫度變化下仍足夠準確的 clock。只看首尾句，可以看到這段把「理論方法」轉到「實際技術瓶頸」：海上經度計算需要準確時計，但當時的鐘受海上環境影響，無法可靠支援導航。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 1714 年英國政府懸賞 £20,000，由 Board of Longitude 管理，尋找解決方案。末句說即使在最佳情況下，任何海上 clock 或 watch 達到這種準確度都被視為不可能。只看首尾句，可以估計這段講 prize 的嚴格要求，尤其是 timekeeper 每天誤差不得超過 2.8 seconds。這段和 prize、error limit、impossible conditions 有關。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說這筆相當於今天約 £2 million 的獎金，啟發 John Harrison 這位 self-taught Yorkshire carpenter 設計實用 marine clock。末句說即使 H4 表現出色，Board of Longitude 仍到完全滿意後才發放獎金。只看首尾句，可以看到這段是 Harrison 的人物與發明歷程：背景、早期 clock、Halley、George Graham funding、H1 和 H4 都在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Harrison 在爭奪獎金上的主要競爭者是 English mathematician John Hadley，他發明了sextant。末句說 sextant 之所以重要，是因為它也能幫助 determine longitude。只看首尾句，可以估計這段介紹另一條導航技術線：sextant 透過 measuring angles 來計算船或飛機的位置，也和longitude 判定有實用關係。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說那一代 chronometer 先驅多數是 English，但成就並非全由他們完成。末句說 Thomas Earnshaw 的工作把 marine chronometer 變成真正現代商業產品，也成為未來一個半世紀安全、實用的導航工具。只看首尾句，可以看到這段是總結延伸：它處理 Earnshaw 對 chronometer final form、production system 和長期導航價值的貢獻。"
+      }
+    ]
+  }
+}

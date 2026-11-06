@@ -1,0 +1,1298 @@
+{
+  "id": "p3-053-can-hurricanes-be-moderated-or-diverted",
+  "catalogueId": "p3-053",
+  "catalogueIds": [
+    "p3-053"
+  ],
+  "passage": 3,
+  "title": "Can Hurricanes be Moderated or Diverted?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "v",
+    "ii",
+    "vi",
+    "iii",
+    "vii",
+    "iv",
+    "viii",
+    "thunderstorms",
+    "Condensation",
+    "heat",
+    "eye",
+    "land",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "v — Are hurricanes unbeatable?",
+      "answerKey": "v — Are hurricanes unbeatable?",
+      "type": "Matching Headings",
+      "prompt": "Questions 27–33",
+      "translation": "每年，風速超過每小時 74 英里的巨大旋轉風暴都會橫掃熱帶海洋並襲擊海岸，經常摧毀大片地區。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Headings 題不能只看段內某個例子，要判斷 heading 是否覆蓋全段主題；手冊亦提醒， heading 題要分清主題、例子、細節和結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 27 — Paragraph A"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph A 選 heading。Paragraph A 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each year, massive swirling storms with winds exceeding 74 miles per hour sweep across tropical oceans and strike shorelines, often devastating vast swaths of territory.”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 的最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But can we ever find a way to control these formidable forces of nature?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但我們是否有可能找到方法控制這些可怕的自然力量？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到這段先展示 hurricane 的巨大破壞力，再提出「能否控制」的問題。首句讓讀者感受到 hurricanes 強大、危險、常襲擊 shorelines；最後一句將焦點轉到 control hurricanes。段落功能是引入全文核心疑問。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading 中最有定位力的是 “unbeatable”。原文沒有直接用 unbeatable，但有相近概念：● “almost nothing stands in their way”● “formidable forces of nature”● “can we ever find a way to control”這些都在問 hurricanes 是否真的無法阻擋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文中最直接控制 heading 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, almost nothing stands in their way. But can we ever find a way to control these formidable forces of nature?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，幾乎沒有任何東西能阻擋它們。但我們是否有可能找到方法控制這些可怕的自然力量？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v “Are hurricanes unbeatable?” 正好概括這個段落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unbeatable” 對應 “almost nothing stands in their way”；heading 用問句形式，也對應原文最後一句的問句。 Heading i “Hurricanes in history” 不合適，因為 Paragraph A 沒有講歷史案例、年份或過去著名hurricane。它只是描述每年發生的現象和破壞力，最後提出可否控制的問題。所以答案是 v。 Question 28 — Paragraph B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ii — How hurricanes form"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的第一句是：“To see why hurricanes and other severe tropical storms may be susceptible to human intervention, a researcher must first learn about their nature and origins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若要了解 hurricanes 和其他 severe tropical storms 為何可能受到人為干預，研究者必須先了解它們的本質和起源。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 的最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it reaches land, the hurricane no longer has a continuous supply of warm water, which causes it to swiftly weaken.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 hurricane 到達陸地時，它不再有持續的 warm water 供應，因此會迅速減弱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首句說要先了解 hurricanes 的 nature and origins；最後一句說登陸後因失去 warm water 而減弱。這段大概會解釋 hurricane 的形成、增強和減弱機制。Heading 需要概括整段科學過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading ii 的定位詞是 form。原文對應詞包括：● “origins”● “grow from”● “begins to form and strengthen”● “creating the familiar eye”這些都指向形成過程。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hurricanes grow from clusters of thunderstorms above the tropical seas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hurricanes 由 tropical seas 上方的一群 thunderstorms 發展而來。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually, the tropical depression begins to form and strengthen, creating the familiar eye—the calm central hub around which a hurricane spins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，tropical depression 開始形成並增強，形成熟悉的 eye，也就是 hurricane 旋轉時的平靜中心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整段從 thunderstorms、warm moist air、condensation、latent heat、feedback process 講到 eye的形成，完整說明 hurricane 如何形成。Heading ii “How hurricanes form” 最能覆蓋全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 29 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vi — Revisiting earlier ideas"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our current research was inspired by an intuition I had while studying chaos theory 30 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們目前的研究，源自我三十年前研究 chaos theory 時產生的一個直覺。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 的最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Back then, I was not able to test my ideas, but thanks to advances in computer simulation and remote-sensing technologies over the last 10 years, I can now renew my interest in large-scale weather control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當年我未能測試自己的想法，但多虧過去十年 computer simulation 和 remote-sensing technologies 的進步，我現在可以重新投入 large-scale weather control 的研究興趣。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段首句把研究源頭拉回三十年前；尾句說因新科技進步，作者現在能重新研究這些想法。段落功能是「舊想法的重新啟動」，不是正式實驗結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vi 的定位詞是 Revisiting earlier ideas。原文對應：● “30 years ago”● “Back then”● “not able to test my ideas”● “renew my interest”這些時間詞和動詞共同指向「重新拾起早年想法」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Back then, I was not able to test my ideas, but thanks to advances in computer simulation and remote-sensing technologies over the last 10 years, I can now renew my interest in large-scale weather control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當年我未能測試自己的想法，但由於過去十年電腦模擬和遙感技術進步，我現在可以重新投入大規模天氣控制研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “Revisiting earlier ideas” 正好概括：● earlier ideas = 30 年前 chaos theory 帶來的想法；● revisiting = can now renew my interest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 提到 future technologies，較適合 Paragraph F；Paragraph C 講的是過去想法因近年科技發展而重啟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vi。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 30 — Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii — How a laboratory exercise rerouted a hurricane"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To find out whether the sensitivity of the atmospheric system could be exploited to adjust such robust atmospheric phenomena as hurricanes, our research team ran simulation experiments on computers for a hurricane named Iniki that occurred in 1992.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了了解 atmospheric system 的 sensitivity 是否可以被利用來調整 hurricanes 這類強大的大氣現象，我們的研究團隊用電腦對 1992 年的 Hurricane Iniki 進行 simulation experiments。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 的最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then we used this target to generate artificial observations and put these into the computer model.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，我們用這個 target 產生 artificial observations，並把這些資料輸入 computer model。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首句明確提到 simulation experiments on computers；尾句說把 artificial observations 放入computer model。這段功能是描述電腦實驗的設計方法：先選目標位置，再生成資料，放入模型，嘗試調整 hurricane path。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iii 的定位詞是：● laboratory exercise● rerouted● hurricane原文對應：● laboratory exercise = simulation experiments on computers；● rerouted = altering the path；● hurricane = Hurricane Iniki。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the goal of altering the path of Iniki in mind, we first picked the spot where we wanted the storm to stop after six hours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以改變 Iniki 路徑為目標，我們先選出希望風暴六小時後停下的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "這句說明實驗目的就是 altering the path。下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then we used this target to generate artificial observations and put these into the computer model.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著用這個目標產生人工觀測資料，並放入電腦模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “How a laboratory exercise rerouted a hurricane” 最貼近 Paragraph D，因為這段介紹電腦模擬這個 laboratory exercise 如何設計來改變 hurricane 路徑。Paragraph E 會呈現結果，但Paragraph D 已經建立實驗方法和 rerouting 的目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 31 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vii — How lives might have been saved"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most significant alteration turned out to be the initial temperatures and winds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最重要的改動結果是 initial temperatures and winds。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 的最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In terms of structure, the initial and altered versions of Hurricane Iniki seemed almost the same, but the changes in critical variables were so substantial that the altered storm veered west during the first six hours of the simulation and then travelled due north, leaving Kauai untouched.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從結構上看，Hurricane Iniki 的初始版本和修改版本幾乎一樣；但 critical variables 的改變相當重要，使修改後的風暴在模擬前六小時向西偏移，之後正北移動，令 Kauai 沒有受到襲擊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首句說關鍵改動是 temperature 和 wind；尾句說 altered storm 改變路線，最後 leaving Kauai untouched。這段從變數調整講到實際避開 Kauai 的結果，因此 focus 不只在技術，也在避災效果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vii 的定位詞是 lives might have been saved。原文沒有直接寫 lives saved，但有：● “leaving Kauai untouched”● Paragraph A 的背景：hurricanes can kill thousands and cause property damage所以這個 heading 是一種結果概括：若 storm 避開 inhabited island，生命和財產損失便可能避免。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the altered storm veered west during the first six hours of the simulation and then travelled due north, leaving Kauai untouched.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "修改後的風暴在模擬前六小時向西偏移，之後正北移動，令 Kauai 沒有受到襲擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “How lives might have been saved” 對應這個結果。Kauai 沒有被 hurricane 觸及，表示原本可能遭受風暴影響的地方被避開。雖然原文沒有逐字說 lives were saved，heading 用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“might have been” 保留推測語氣，符合模擬實驗語境。 Heading iii 也和這段有關，但 Paragraph D 更集中講 laboratory exercise 的設計；Paragraph E更突出 altered storm 令 Kauai untouched 的避災結果。所以答案是 vii。 Question 32 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iv — Exciting ways to utilise future technologies"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 是單句段：“Future earth-orbiting solar power stations, equipped with large mirrors to focus the sun’s rays and panels of photovoltaic cells to gather and send energy to the Earth, might be adapted to beam microwaves that would be absorbed by water vapour molecules inside or around the storm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "未來繞地球運行的 solar power stations，配備大型 mirrors 聚焦陽光，並有 photovoltaic cells 收集和向地球傳送能量，可能被改造成發射 microwaves；這些 microwaves 會被 storm 內外的water vapour molecules 吸收。"
+            },
+            {
+              "kind": "label",
+              "text": "段末繼續說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The microwaves would cause the water molecules to vibrate and heat up the surrounding air, thereby causing the hurricane to slow down or move in a preferred direction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 microwaves 會令 water molecules 振動並加熱周圍空氣，從而令 hurricane 減速或向指定方向移動。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段開頭直接說 future earth-orbiting solar power stations；全段介紹一種未來科技干預颶風的方法。它涉及 mirrors、photovoltaic cells、microwaves、water vapour molecules 等高科技設備和物理機制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的定位詞是：● future technologies● utilise● exciting ways原文對應：● “Future earth-orbiting solar power stations”● “large mirrors”● “photovoltaic cells”● “beam microwaves”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的主題不是 hurricane 形成，也不是電腦模擬，而是提出未來可利用的科技方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv “Exciting ways to utilise future technologies” 最能概括整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii “low-tech methods” 不合適，因為 solar power stations、photovoltaic cells 和microwaves 顯然屬於高科技方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iv。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 33 — Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：viii — A range of low-tech methods"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 是單句段："
+            },
+            {
+              "kind": "quote",
+              "text": "“Computer simulations of hurricanes have suggested that changing precipitation, evaporation and air temperature could make a difference to a storm’s route or abate its winds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hurricane 的 computer simulations 顯示，改變 precipitation、evaporation 和 air temperature 可能影響 storm route 或減弱其 wind。"
+            },
+            {
+              "kind": "label",
+              "text": "後半句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Intervention could take many forms: precisely targeted clouds seeded with silver iodide or other rainfall-inducing agents might deprive a hurricane of the water it needs to grow by disrupting its formidable eyewall, which is the essential characteristic of a severe tropical storm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "干預可以有多種形式：例如精準針對雲層，用 silver iodide 或其他誘發降雨的物質進行 cloud seeding，可能透過擾亂 hurricane 強大的 eyewall，令它失去成長所需的水分。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全段先說模擬顯示改變 precipitation、evaporation、air temperature 可能有效；後半列出intervention could take many forms，並舉 cloud seeding with silver iodide 的例子。段落功能是介紹多種較具操作性的干預方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading viii 的定位詞是：● range● low-tech methods原文對應：● “Intervention could take many forms”● “clouds seeded with silver iodide”● “rainfall-inducing agents”與 Paragraph F 的太空太陽能站和 microwaves 相比，Paragraph G 的 cloud seeding 明顯較低技術門檻。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Intervention could take many forms” 對應 heading 的 “A range”。“silver iodide or other rainfall-inducing agents” 對應 “low-tech methods”。所以答案是 viii。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "thunderstorms",
+      "answerKey": "thunderstorms",
+      "type": "Summary Completion",
+      "prompt": "“Hurricanes originate as groups of 34 ______ over the tropical oceans.”",
+      "translation": "Hurricanes 起源於 tropical oceans 上方的一群甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To see why hurricanes and other severe tropical storms may be susceptible to human intervention, a researcher must first learn about their nature and origins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者若要理解 hurricanes 和 severe tropical storms 為何可能受人為干預，必須先了解它們的本質和起源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it reaches land, the hurricane no longer has a continuous supply of warm water, which causes it to swiftly weaken.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 hurricane 到達陸地，它便失去持續的 warm water 供應，因此迅速減弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯講 hurricanes 的 origins 和形成過程，所以 Question 34 應定位到這段開頭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “originate”● “groups”● “tropical oceans”原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hurricanes grow from clusters of thunderstorms above the tropical seas.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hurricanes grow from clusters of thunderstorms above the tropical seas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hurricanes 由 tropical seas 上方的一群 thunderstorms 發展而來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● originate as = grow from● groups of = clusters of● tropical oceans = tropical seas所以答案是 thunderstorms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：one word，符合 ONE WORD ONLY。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "Condensation",
+      "answerKey": "Condensation",
+      "type": "Summary Completion",
+      "prompt": "“35 ______ releases heat—the solar heat it took to evaporate the water at the ocean surface.”",
+      "translation": "甚麼會釋放 heat，也就是當初用來讓 ocean surface 的水蒸發的 solar heat？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句說研究者要先了解 hurricanes 的 nature and origins；最後一句說 hurricane 到達 land 後失去 warm water 供應而減弱。這段中間必然解釋熱力、水汽和上升氣流如何推動 storm 發展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “releases heat”● “solar heat”● “evaporate the water”原文中直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Condensation releases the solar heat used to evaporate the water at the ocean surface.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Condensation releases the solar heat used to evaporate the water at the ocean surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Condensation 會釋放當初用於使 ocean surface 的水蒸發的 solar heat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子幾乎照原文改寫：● “releases heat” = “releases the solar heat”● “it took to evaporate” = “used to evaporate”● 空格需要主語，所以答案是 Condensation字數檢查：one word。由於空格在句首，寫 Condensation 最自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "heat",
+      "answerKey": "heat",
+      "type": "Summary Completion",
+      "prompt": "“This so-called latent 36 ______ of condensation makes the air more buoyant…”",
+      "translation": "這種所謂 condensation 的 latent ______ 使空氣更有浮力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B Paragraph B 講 hurricanes 的形成機制。Question 36 出現 “latent” 和 “condensation”，這是很強的原文定位詞，應該直接找 “latent” 附近的片語。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “latent”● “condensation”● “buoyant”原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This so-called latent heat of condensation makes the air more buoyant…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This so-called latent heat of condensation makes the air more buoyant, causing the air to rise higher in a self-reinforcing feedback process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種所謂 condensation 的 latent heat 令空氣更有浮力，使空氣在 self-reinforcing feedback process 中升得更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目保留了原文結構：● This so-called latent ______ of condensation● 原文：latent heat of condensation所以答案是 heat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：one word。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "eye",
+      "answerKey": "eye",
+      "type": "Summary Completion",
+      "prompt": "“Eventually, the tropical depression begins to organise and strengthen, forming the familiar 37______ —the calm central hub around which a hurricane spins.”",
+      "translation": "最後，tropical depression 開始組織和增強，形成 familiar ______，也就是 hurricane 旋轉的平靜中心。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B這段由 hurricane origins 講到結構形成。題目中的 “calm central hub” 是非常強的定位短語，應掃描到 hurricane 結構描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “familiar”● “calm central hub”● “spins”原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“creating the familiar eye—the calm central hub around which a hurricane spins.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually, the tropical depression begins to form and strengthen, creating the familiar eye—the calm central hub around which a hurricane spins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，tropical depression 開始形成和增強，產生熟悉的 eye，也就是 hurricane 旋轉時的平靜中心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “creating” 改成 “forming”，把 “form and strengthen” 改成 “organise and strengthen”，但答案詞保持不變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 eye。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：one word。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "land",
+      "answerKey": "land",
+      "type": "Summary Completion",
+      "prompt": "“On passing over 38 ______, the hurricane’s sustaining source of warm water is cut off…”",
+      "translation": "當 hurricane 經過甚麼之後，它持續獲得 warm water 的來源被切斷，因此迅速減弱？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B最後一句直接說 hurricane 到達 land 後，失去 continuous supply of warm water。Question 38 的內容幾乎就是 Paragraph B 最後一句的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “warm water”● “cut off”● “rapid weakening”原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it reaches land, the hurricane no longer has a continuous supply of warm water, which causes it to swiftly weaken.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it reaches land, the hurricane no longer has a continuous supply of warm water, which causes it to swiftly weaken.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 hurricane 到達 land，它不再有持續的 warm water 供應，因此迅速減弱。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● On passing over = When it reaches● sustaining source of warm water is cut off = no longer has a continuous supply of warm water● rapid weakening = swiftly weaken所以答案是 land。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：one word。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B — advances in computer technology",
+      "answerKey": "B — advances in computer technology",
+      "type": "Multiple Choice",
+      "prompt": "“What encouraged the writer to restart researching hurricane control?”",
+      "translation": "甚麼鼓勵作者重新開始研究 hurricane control？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our current research was inspired by an intuition I had while studying chaos theory 30 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們目前的研究源自我三十年前研究 chaos theory 時的一個直覺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Back then, I was not able to test my ideas, but thanks to advances in computer simulation and remote-sensing technologies over the last 10 years, I can now renew my interest in large-scale weather control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當年我無法測試自己的想法，但多虧過去十年 computer simulation 和 remote-sensing technologies 的進步，我現在可以重新投入 large-scale weather control。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段分成兩層：三十年前 chaos theory 給作者靈感；近十年 technology advances 令他能重新研究。題目問 restart / renew，因此要看最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “encouraged”● “restart”● “researching hurricane control”原文對應：● “thanks to”● “advances in computer simulation and remote-sensing technologies”● “renew my interest in large-scale weather control”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“restart” 對應 “renew my interest”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "核心句是：“Back then, I was not able to test my ideas, but thanks to advances in computer simulation and remote-sensing technologies over the last 10 years, I can now renew my interest in large-scale weather control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當年我未能測試想法，但由於 computer simulation 和 remote-sensing technologies 在過去十年的進步，我現在可以重新投入大規模天氣控制研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “advances in computer technology” 最貼近原文。原文其實更完整，包含 computer simulation 和 remote-sensing technologies；選項 B 把前者概括為 computer technology，是四項中最受支援的一項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “the enormous damage hurricanes cause” Paragraph A 確實說 hurricanes 破壞巨大，但題目問 restart research 的直接原因。原文把restart 明確連到 technology advances。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “the requirement of some local people”文章沒有提到 local people 要求作者研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the writer’s study of chaos theory” chaos theory 是早年 intuition 的來源，屬於 original inspiration；題目問 restart / renew research的原因，真正控制答案的是 “thanks to advances…” 這一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — surprised that their intervention had the intended effect",
+      "answerKey": "C — surprised that their intervention had the intended effect",
+      "type": "Multiple Choice",
+      "prompt": "“What was the writer’s reaction after the first experiment?”",
+      "translation": "第一次實驗後，作者有甚麼反應？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To find out whether the sensitivity of the atmospheric system could be exploited to adjust such robust atmospheric phenomena as hurricanes, our research team ran simulation experiments on computers for a hurricane named Iniki that occurred in 1992.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了了解 atmospheric system 的 sensitivity 是否可被利用來調整 hurricanes 這類強大的大氣現象，研究團隊用電腦對 1992 年的 Hurricane Iniki 進行 simulation experiments。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then we used this target to generate artificial observations and put these into the computer model.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，我們用這個 target 生成 artificial observations，並把它們放入 computer model。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 是實驗設計段。題目問 first experiment 後作者反應，應掃描段落中間找 reaction word。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “reaction”● “first experiment”● “surprised”原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“...we were surprised that our first simulation was an immediate success.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 reaction 和 first simulation，值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current forecasting technologies were far from perfect, so we were surprised that our first simulation was an immediate success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時的 forecasting technologies 遠未完善，所以我們對第一次 simulation 立即成功感到驚訝。"
+            },
+            {
+              "kind": "label",
+              "text": "前文補充實驗目的："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the goal of altering the path of Iniki in mind…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的目標是改變 Iniki 的路徑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以作者驚訝的內容是：第一次 simulation 已經達到 altering the path 的目標。選項 C “surprised that their intervention had the intended effect” 正好概括：● surprised = we were surprised● intervention = artificial observations / computer model experiment● intended effect = altering the path of Iniki / immediate success錯項分析： A “surprised that their intervention had achieved very little”原文說 immediate success，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “ecstatic about the first experiment’s success”原文只說 surprised，沒有說 ecstatic。ecstatic 是非常興奮、狂喜，語氣過強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “regretful about the experiment’s likely success”文章沒有 regretful，也沒有表示作者後悔實驗成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Can Hurricanes be Moderated or Diverted_.pdf",
+    "sha256": "83cbe7e4297e503a9ceea79726620e8eacbe0142cbd55b5fae54a1e93a811864",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，Paragraph A 先展示 hurricanes 的破壞力，再以問題收結。首句說每年都有massive swirling storms 橫掃 tropical oceans 並襲擊 shorelines；尾句問人類能否找到方法control these formidable forces of nature。這段功能是開場：先建立 hurricanes 幾乎無物可擋、可造成巨大傷亡和財產損失的形象，再提出全文中心問題——這種自然力量是否真的無法控制。 Heading 應抓住「能否控制」這個疑問。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句說研究者若要理解 hurricanes 為何可能受人為干預，必須先了解其 nature and origins；尾句說 hurricane 到達 land 後，失去 continuous supply of warm water，便會 swiftly weaken。這段功能非常清楚：解釋 hurricane 的形成過程，由 tropical seas 上方的 thunderstorm clusters 開始，經 warm moist air、condensation、latent heat、feedback process，最後形成 eye。它是全文的科學背景段，主要回答 hurricane 如何形成及為何登陸後減弱。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句說作者現時研究源自三十年前研究 chaos theory 時的 intuition；尾句說當年未能測試想法，但近十年 computer simulation 和 remote-sensing technologies 的進步，令作者可以 renew his interest in large-scale weather control。這段功能是交代研究想法的來源和重新啟動的原因。重點不在具體實驗，焦點在早年想法如何因科技成熟而重新變得可行。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句說研究團隊為測試 atmospheric system 的 sensitivity 是否可被利用，對 1992年 Hurricane Iniki 進行 computer simulation experiments；尾句說他們先設定六小時後希望storm 停下的位置，再用這個 target 產生 artificial observations 並放入 computer model。這段功能是描述「實驗如何設計」：用電腦模擬和人工觀測資料，嘗試改變颶風路徑。它開始展示laboratory exercise 如何 reroute hurricane。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說最重要的 alteration 是 initial temperatures and winds；尾句說 altered storm先向 west 偏移，再向 due north 移動，最後 leaving Kauai untouched。這段功能是交代實驗結果及關鍵變數：溫度只需改變很少，部分 wind-speed 變化也不大，但在 critical variables 上的變動足以令颶風改道。段落焦點是模擬中成功避免 Kauai 受襲，暗示若真能做到，傷亡和損失可能減少。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 是一段單句段。句子開頭提出 future earth-orbiting solar power stations，並說這些裝置可能配備 mirrors、photovoltaic cells 等；句尾解釋 microwaves 可被 storm 內外的 water vapour molecules 吸收，令空氣變暖，進而使 hurricane slow down 或 move in a preferred direction。這段功能是提出未來高科技干預方式：利用太空太陽能站和微波改變風暴內部熱力條件。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 也是單句段。首句說 computer simulations suggest changing precipitation, evaporation and air temperature could affect route 或 abate winds；後半句列出 intervention 形式，例如用 silver iodide 或其他 rainfall-inducing agents seed clouds，嘗試 disrupt eyewall，令hurricane 失去成長所需的水分。這段功能是補充較低技術門檻的干預方法，尤其是雲層播種和改變降雨過程。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1345 @@
+{
+  "id": "p3-090-the-mother-of-all-languages",
+  "catalogueId": "p3-090",
+  "catalogueIds": [
+    "p3-090"
+  ],
+  "passage": 3,
+  "title": "The Mother of All Languages",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "linguistic circles",
+    "tightly-knit",
+    "Caspian Steppe",
+    "volcanic eruption",
+    "B — Geneticists",
+    "E — Scholars",
+    "A — Archaeologists",
+    "D — Linguists",
+    "C — Geologists",
+    "Proto-Human",
+    "Proto-Nostratic",
+    "Altaic",
+    "Southern India",
+    "D — fascinating"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "linguistic circles",
+      "answerKey": "linguistic circles",
+      "type": "Question Analysis",
+      "prompt": "“William Jones’s findings are mostly known within 27 ______.”",
+      "translation": "William Jones 的發現主要在 ______ 之內為人所知。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1786, William Jones, a British judge stationed in India, made what must be ranked as one of the most amazing discoveries of all time, yet it is little known outside of linguistic circles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1786 年，駐印度的英國法官 William Jones 作出了一項堪稱史上最驚人的發現之一，但在語言學圈子之外，這項發現鮮為人知。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He would later write that Sanskrit has ‘a stronger affinity’ with these other languages ‘than could possibly have been produced by accident’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他後來寫道，Sanskrit 和這些其他語言有「更強的親緣關係」，這種關係「不可能由偶然造成」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph 1 介紹 William Jones 的發現，以及這個發現主要屬於語言學領域。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “William Jones’s findings” 和 “mostly known”。原文沒有 “mostly known within”，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“little known outside of linguistic circles”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“yet it is little known outside of linguistic circles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在語言學圈子之外，這項發現鮮為人知。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：mostly known within"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：little known outside of這是一個方向轉換：外面少人知道，即主要在某個圈子內被知道。答案是 linguistic circles。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "tightly-knit",
+      "answerKey": "tightly-knit",
+      "type": "Question Analysis",
+      "prompt": "“A community which speaks a proto-language is 28 ______.”",
+      "translation": "使用 proto-language 的社群是 ______ 的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to linguistic theory, proto-languages are usually spoken over relatively limited geographical areas, over a short time span, and by a tightly-knit community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據語言學理論，proto-languages 通常在相對有限的地理區域、較短時間內，由一個緊密聯繫的社群使用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The big question concerns who these Proto-Indo-Europeans were and where their ancestral homeland lay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正的大問題是：這些 Proto-Indo-Europeans 是誰，以及他們祖先的 homeland 在哪裡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接提供 proto-language community 的特徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “community” 和 “proto-language”。原文直接有 “proto-languages” 和 “tightly-knit community”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“proto-languages are usually spoken … by a tightly-knit community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "proto-languages 通常由一個緊密聯繫的社群使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把句子改成 “A community which speaks a proto-language is ______”，所以空格需要形容詞。答案是 tightly-knit。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： tightly-knit 是 hyphenated compound，一般按一個 word 處理，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "Caspian Steppe",
+      "answerKey": "Caspian Steppe",
+      "type": "Question Analysis",
+      "prompt": "“Proto-Indo-Europeans might have come from the 29 ______.”",
+      "translation": "Proto-Indo-Europeans 可能來自 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Looking at just one example, there are PIE words for the temperate trees of the Northern Hemisphere, but not tropical or Mediterranean varieties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看其中一個例子，PIE 有北半球溫帶樹木的詞，但沒有熱帶或地中海樹木種類的詞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their language was spoken around 4000 BC (plus or minus a millennium, since exact dates are impossible at such an early stage in European prehistory).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的語言大約在公元前 4000 年被使用；由於歐洲史前早期很難確定精確日期，時間可能有前後一千年的誤差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段用語言線索推測 PIE 起源地和年代。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Proto-Indo-Europeans” 和 “come from”。原文更常使用 “PIE origin” 和 “homeland”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“And so, with such detailed linguistic analysis, the most widely accepted theory places the PIE origin in the Caspian Steppe…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，透過這樣詳細的語言分析，最廣泛接受的理論把 PIE 的起源地放在 Caspian Steppe。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“might have come from” = origin is placed in“Proto-Indo-Europeans” = PIE population / PIE origin答案是 Caspian Steppe。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "volcanic eruption",
+      "answerKey": "volcanic eruption",
+      "type": "Question Analysis",
+      "prompt": "“Mount Toba was the site of a 30 ______.”",
+      "translation": "Mount Toba 是一次 ______ 的發生地。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, it is mind-boggling that perhaps almost every single language on Earth can ultimately be traced back to a single source spoken by a small group of individuals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，幾乎地球上每一種語言也許最終都能追溯到一小群人所說的單一來源，這令人難以置信。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this is true, it is intriguing to think that had that catastrophe not occurred, we would all be speaking totally different languages today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這是真的，那麼想到若那場災難沒有發生，今天我們所有人可能會說完全不同的語言，確實令人著迷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段討論 Proto-Human 和 Mount Toba catastrophe。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Mount Toba”。原文直接出現 Mount Toba in Indonesia。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“One interesting theory posited by geologists is that a huge catastrophe occurred in the not-so-distant past some 70,000 years ago, linked to the volcanic eruption of Mount Toba in Indonesia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地質學家提出一個有趣理論：大約 70,000 年前，在不算非常遙遠的過去，曾發生一場巨大災難，與印尼 Mount Toba 的火山爆發有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 Mount Toba 是甚麼的發生地。原文有 “the volcanic eruption of Mount Toba”，所以答案是volcanic eruption。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 31–35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — Geneticists",
+      "answerKey": "B — Geneticists",
+      "type": "Question Analysis",
+      "prompt": "“Which people believe that reliable nutrition may be the answer?”",
+      "translation": "哪一類人認為穩定可靠的食物供應可能是答案？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What then enabled this single tribe to advance outwards and take over Eurasia?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，是甚麼讓這個單一部落能向外擴張並影響 Eurasia？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps then, PIE simply moved alongside the outward spread of agriculture, together with a rapidly expanding and interbreeding population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許，PIE 只是隨著農業向外擴散，加上人口快速增長和通婚融合，一同向外移動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 PIE 擴張原因，食物供應正是其中一個解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “reliable nutrition”。原文沒有這兩字，但有 “stable and steady food supply”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of them have also suggested that the discovery of farming was the impetus of this tribe’s advance, as with a stable and steady food supply at hand, their numbers could increase…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一些人也提出，農業的發現是這個部落擴張的推動力，因為有穩定而持續的食物供應，他們的人口便能增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “Some of them” 指前一句的 “Some geneticists”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reliable nutrition” 對應 “stable and steady food supply”。所以答案是 B — Geneticists。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "E — Scholars",
+      "answerKey": "E — Scholars",
+      "type": "Question Analysis",
+      "prompt": "“Which people have categorised very many languages?”",
+      "translation": "哪一類人把大量語言歸入分類？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jones drew the conclusion that Greek and Latin, and even the Germanic languages (including English), were all related to Sanskrit…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jones 得出結論：Greek、Latin，甚至包括 English 在內的 Germanic languages，都和 Sanskrit 有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are, in fact, hundreds of languages and dialects all over Europe, Iran, and South Asia, whose ancestry can now be traced to an original Indo-European language…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，歐洲、伊朗和南亞有數百種語言與方言，其祖先現在可追溯到一種原始 Indo-European language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講語言分類擴大，並把大量語言加入同一 family。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “very many languages” 對應原文的 Romance、Slavic、Indo-Iranian，以及 “hundreds of languages and dialects”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Subsequent scholars were able to confirm this, adding to this linguistic family all of the Romance languages…, Slavic languages…, and the Indo-Iranian languages…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來的學者能夠確認這一點，並把所有 Romance languages、Slavic languages 和 Indo-Iranian languages 加入這個語言家族。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“have categorised very many languages” 是對 “adding to this linguistic family…” 的概括。所以答案是 E — Scholars。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "A — Archaeologists",
+      "answerKey": "A — Archaeologists",
+      "type": "Question Analysis",
+      "prompt": "“Which people often face anger and controversy?”",
+      "translation": "哪一類人經常面對憤怒和爭議？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Archaeologists have examined many sites of European prehistory, occasionally identifying these as the homeland of the PIE population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考古學家研究過許多歐洲史前遺址，偶爾把其中一些地點認定為 PIE population 的 homeland。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is tempting to read into this a tentative lifestyle and location, with the quaint proviso that it remains ‘at best, highly speculative’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們很容易想由此推測暫時性的生活方式和地點，但也要帶著一個重要保留：這最多仍然是高度推測。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先講 archaeologists 的 homeland claims，接著提到 anger 和 controversy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “anger” 和 “controversy”。原文直接出現 “arousing the anger” 和 “there still remains controversy”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“This is often done with nationalistic overtones, arousing the anger of others in this field, and there still remains controversy over each claim.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種做法常帶有民族主義色彩，引起該領域其他人的憤怒，而且每一項 claim 仍然存在爭議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“This” 指前一句 archaeologists identifying sites as PIE homeland。所以答案是 A — Archaeologists。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "D — Linguists",
+      "answerKey": "D — Linguists",
+      "type": "Question Analysis",
+      "prompt": "“Which people are sceptical about some issues?”",
+      "translation": "哪一類人對某些主張保持懷疑？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But even PIE must have evolved from some earlier language, and audacious linguists are digging deeper into the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但即使 PIE 也必定從某種更早的語言演化而來，大膽的語言學家正在向更深的過去探索。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most linguists maintain that… it is next to impossible to prove… and thus they remain sceptical of such a claim.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數語言學家認為，雖然理論上這樣的原始語言可能存在，但幾乎不可能證明，因此他們對這種 claim 保持懷疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sceptical”。原文直接重現 “remain sceptical”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most linguists maintain that… it is next to impossible to prove… and thus they remain sceptical of such a claim.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數語言學家認為，這種主張幾乎不可能證明，因此仍抱持懷疑態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D — Linguists。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "C — Geologists",
+      "answerKey": "C — Geologists",
+      "type": "Question Analysis",
+      "prompt": "“Which people have speculated about a disaster?”",
+      "translation": "哪一類人推測曾發生一場災難？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, it is mind-boggling that perhaps almost every single language on Earth can ultimately be traced back to a single source…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎每一種語言也許都能追溯到同一來源，這令人難以置信。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this is true, it is intriguing to think that had that catastrophe not occurred, we would all be speaking totally different languages today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這是真的，想到若那場災難沒有發生，今天人類可能會說完全不同的語言，確實令人著迷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “disaster”。原文用 “huge catastrophe”，意思非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“One interesting theory posited by geologists is that a huge catastrophe occurred…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地質學家提出一個有趣理論：曾經發生一場巨大災難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“speculated about a disaster” 對應 “theory posited by geologists” 和 “huge catastrophe occurred”。所以答案是 C — Geologists。 Questions 36–39這組是 flow chart completion，要先看圖表方向和層級。Golden Manual 對 diagram / flow chart題的提醒是：先看方向、部件和空格類型，再根據文章順序定位，不能只看某個單字。圖表由左至右顯示 Earlier in time → Later in time。左邊最早的 36 先變成 37，37 再分成Dravidian、Proto-Indo-European 和 38。這代表 36 是更古老的共同來源；37 是幾個語系可能共同屬於的 macro-family；38 是包含 Mongolian 和 Japanese 的語系。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "Proto-Human",
+      "answerKey": "Proto-Human",
+      "type": "Question Analysis",
+      "prompt": "Question 36",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, it is mind-boggling that perhaps almost every single language on Earth can ultimately be traced back to a single source spoken by a small group of individuals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎地球上每一種語言也許最終都可追溯到一小群人所說的單一來源，這令人難以置信。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this is true, it is intriguing to think that had that catastrophe not occurred, we would all be speaking totally different languages today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這是真的，想到若那場災難沒有發生，今天人類可能會說完全不同的語言，確實令人著迷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This language is sometimes called Proto-Human, the mother of all languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種語言有時被稱為 Proto-Human，即所有語言之母。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表最左邊代表最早的 single source，所以答案是 Proto-Human。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "Proto-Nostratic",
+      "answerKey": "Proto-Nostratic",
+      "type": "Question Analysis",
+      "prompt": "Question 37",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But even PIE must have evolved from some earlier language, and audacious linguists are digging deeper into the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使 PIE 也必定由某種更早的語言演化而來，大膽的語言學家正在探索更早的過去。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most linguists maintain that… they remain sceptical of such a claim.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數語言學家認為這種主張幾乎不可能證明，因此仍保持懷疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been proposed that these themselves may all belong to a ‘macro-family’, sometimes called Proto-Nostratic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人提出，這些語系本身可能都屬於一個 macro-family，有時稱為 Proto-Nostratic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表中 37 分支出 Dravidian、Proto-Indo-European 和 Altaic，正好對應 macro-family 的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 Proto-Nostratic。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "Altaic",
+      "answerKey": "Altaic",
+      "type": "Question Analysis",
+      "prompt": "Question 38",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7第一句提到 linguists 正在向 PIE 之前的過去探索；最後一句說大多數 linguists 對這些更早共同來源的 claim 保持懷疑。這段中間列出語系名稱，是圖表第 38 格的核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖表詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表右邊列出 “Mongolian, Japanese, Others”。要在原文找哪個 family 包含 Mongolian 和Japanese。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“...and Altaic (which includes Mongolian and Japanese).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及 Altaic，它包括 Mongolian 和 Japanese。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 Altaic。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "Southern India",
+      "answerKey": "Southern India",
+      "type": "Question Analysis",
+      "prompt": "Question 39",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7這段列出 PIE 之外的其他 language families，包括 Afro-Asiatic、Dravidian 和 Altaic。Question 39在圖表上接在 Dravidian 後面，所以要找 Dravidian 的說明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖表詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Dravidian”。原文直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Dravidian (comprising the many languages of Southern India)”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dravidian 包括 Southern India 的許多語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表已經印有 “languages”，所以空格填 Southern India，完整意思是 Dravidian 包括 Southern India 的語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： Southern India = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — fascinating",
+      "answerKey": "D — fascinating",
+      "type": "Question Analysis",
+      "prompt": "“The author thinks the subject is…”",
+      "translation": "作者認為這個主題是怎樣的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A complicated = 複雜B controversial = 有爭議C interesting = 有趣D fascinating = 令人著迷"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文態度"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 whole passage attitude 題，不能只看某一個細節。全文從 Jones 的 “amazing discoveries”開始，到最後 Proto-Human 和 Mount Toba theory，作者語氣一直帶有驚嘆感。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找態度詞"
+            },
+            {
+              "kind": "label",
+              "text": "最強態度詞在 Paragraph 8："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, it is mind-boggling that perhaps almost every single language on Earth can ultimately be traced back to a single source…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎地球上每一種語言也許都能追溯到單一來源，這令人難以置信。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this is true, it is intriguing to think that had that catastrophe not occurred, we would all be speaking totally different languages today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這是真的，想到若那場災難沒有發生，今天我們可能會說完全不同的語言，確實令人著迷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "判斷選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mind-boggling” 和 “intriguing” 都帶有強烈吸引、驚奇和令人想繼續探索的感覺。四個選項中， fascinating 最貼近這種語氣。 A “complicated” 有一定合理性，因為語言演化確實複雜，但作者最突出的語氣是驚嘆。 B “controversial” 只適合 Paragraph 4 和 Paragraph 7 的部分討論。 C “interesting” 太弱，而且原文的 “One interesting theory” 只形容 Mount Toba theory，不足以概括整篇態度。 D “fascinating” 最能對應 “mind-boggling” 和 “intriguing”。所以答案是 D — fascinating。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Mother of All Languages.pdf",
+    "sha256": "5c6807ddf361ff21972c19ed7da6434151173dd6132e192feb3ebe3caa2df826",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，可以見到文章由 William Jones 在 1786 年研究 Sanskrit 時的重要發現開場，最後收在 Sanskrit 和 Greek、Latin 之間的相似程度不可能只是偶然。這段功能是介紹Indo-European 語系研究的起點：Jones 注意到 Sanskrit、Greek、Latin 的詞彙相似，並由此開始懷疑這些語言可能有共同來源。題目若問 Jones、Sanskrit、linguistic circles 或 early discovery，通常要定位這段。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說 Jones 得出結論：Greek、Latin、Germanic languages，包括 English，都和 Sanskrit有關；最後一句說歐洲、伊朗和南亞的數百種語言與方言，都可追溯到 Proto-Indo-European。這段功能是擴大第一段的發現：由 Jones 的初步推論，發展成後來學者確認的 Indo-European family。這段特別適合回答「哪些語言被歸類」、「scholars 做了甚麼」、「Proto-Indo-European 是甚麼」等題目。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說 proto-languages 通常在較有限地區、較短時間內，由 tightly-knit community 使用；最後一句提出大問題：Proto-Indo-Europeans 是誰，祖先 homeland 在哪裡。這段功能是由語言理論推到民族與地理問題。中間說某個古老部落可能曾經擴張到中西 Eurasian landmass，並把語言傳播出去。Question 28 關於 community 的描述就在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說 archaeologists 曾研究很多歐洲史前遺址，偶爾把它們認定為 PIE homeland；最後一句提醒，雖可嘗試由語言重建生活方式與位置，但這最多仍是 highly speculative。這段功能是比較考古證據和語言證據。考古 claim 常帶 nationalistic overtones，引起同行憤怒和爭議；語言相似則讓 linguists 推測 grammar、vocabulary 和可能生活環境。Questions 33 會用這段。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句用樹木詞彙作例子：PIE 有北半球溫帶樹木詞，沒有熱帶或 Mediterranean 樹木詞；最後一句說 PIE 約在 4000 BC 使用，但日期只能粗略估計。這段功能是用 linguistic evidence 推測PIE homeland。文章認為這些詞彙指向 cold climate 和 northern European location，最廣泛接受的理論把 PIE 起源放在 Caspian Steppe。Question 29 直接在這段定位。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句問：這個單一部落為何能向外擴張並影響 Eurasia；最後一句提出 PIE 可能隨農業擴散與人口混合一同前進。這段功能是解釋 Proto-Indo-Europeans 擴張的可能原因。中間列出geneticists 的兩個推測：horse domestication 可能帶來軍事優勢；farming 帶來 stable and steady food supply，令人口增加。Question 31 的 reliable nutrition 主要對應 farming 和 food supply。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句說即使 PIE 本身也必定從更早語言演化而來；最後一句說大多數 linguists 對Proto-Nostratic 這類 claim 保持 sceptical。這段功能是把語言演化推得更早：PIE 之外還有Afro-Asiatic、Dravidian、Altaic 等 family，這些可能同屬一個 macro-family，稱為 Proto-Nostratic。 Question 34 和 Questions 37–39 都集中在這段，尤其 Dravidian 和 Altaic 的例子。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段首句說幾乎地球上每一種語言也許最終都可追溯至 single source；最後一句想像如果Mount Toba catastrophe 沒有發生，今天人類可能會說完全不同的語言。這段功能是把討論推到最深層的 Proto-Human。中間引入 geologists 的 theory：70,000 年前 Mount Toba volcanic eruption 可能造成巨大災難，世界人口縮減為少數 survivors，其語言成為後來所有語言的來源。"
+      }
+    ]
+  }
+}

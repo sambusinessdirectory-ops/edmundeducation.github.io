@@ -1,0 +1,2077 @@
+{
+  "id": "p1-094-fordlandia",
+  "catalogueId": "p1-094",
+  "catalogueIds": [
+    "p1-094"
+  ],
+  "passage": 1,
+  "title": "Fordlandia",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "suitable",
+    "significant quantity",
+    "company engineers",
+    "monoculture farming",
+    "local customs",
+    "riot",
+    "leaf blight",
+    "trained horticulturists",
+    "synthetic rubber"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Henry Wickham destroyed the Brazilian rubber boom.”",
+      "translation": "Henry Wickham 摧毀了巴西橡膠熱潮。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問的是 Henry Wickham 的行為和 Brazilian rubber boom 崩潰之間是否有因果關係。定位詞是 “Henry Wickham” 和 “Brazilian rubber boom”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural latex, or rubber, comes from the sap of rubber trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然乳膠，也就是橡膠，來自橡膠樹的樹液。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the Brazilian rubber boom crashed, leaving control of the world’s supplies with the plantation owners in Malaysia (where, to this day, most of the world’s natural rubber is still produced).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，巴西橡膠熱潮崩潰，世界橡膠供應的控制權落入馬來西亞種植園主手中；直到今天，世界大部分天然橡膠仍在那裡生產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會交代橡膠來源、巴西早期壟斷，以及巴西橡膠熱潮崩潰的原因。題目問 Brazilian rubber boom，所以本段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Henry Wickham”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Brazilian rubber boom”"
+            },
+            {
+              "kind": "quote",
+              "text": "“destroyed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...until thousands of the tree’s seeds were smuggled out by an entrepreneurial Brit, Henry Wickham.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到一位有企業家精神的英國人 Henry Wickham 偷運出數千顆橡膠樹種子。"
+            },
+            {
+              "kind": "label",
+              "text": "再看結果句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the Brazilian rubber boom crashed...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，巴西橡膠熱潮崩潰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的因果鏈很清楚： Henry Wickham smuggled out thousands of seeds. Henry Wickham 偷運大量種子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "These seeds were used to start plantations in British-controlled East Asia.這些種子被用來在英國控制的東亞地區建立種植園。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "The trees thrived there.橡膠樹在那裡生長旺盛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thus, the Brazilian rubber boom crashed.因此，巴西橡膠熱潮崩潰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “destroyed” 概括原文的 “crashed”。雖然 “destroyed” 語氣較強，但原文已用 “Thus” 建立結果關係，說明 Wickham 偷運種子引發巴西優勢崩潰。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "destroyed= caused the boom to crash Brazilian rubber boom= the boom in wild rubber / the Brazilian rubber boom答案判斷：題目命題和原文因果方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把多步因果簡化成 Henry Wickham 一個人 “destroyed”。細讀時要看原文是否給出因果鏈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有 “until” 和 “Thus”，足以支持這個概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Rubber trees are well suited to Malaysia.”",
+      "translation": "橡膠樹很適合在馬來西亞生長。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題仍是 TRUE / FALSE / NOT GIVEN。題目問 rubber trees 和 Malaysia 的適合程度。定位詞是 “Malaysia” 和 “rubber trees”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural latex, or rubber, comes from the sap of rubber trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然乳膠，也就是橡膠，來自橡膠樹的樹液。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the Brazilian rubber boom crashed, leaving control of the world’s supplies with the plantation owners in Malaysia (where, to this day, most of the world’s natural rubber is still produced).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，巴西橡膠熱潮崩潰，世界橡膠供應的控制權落入馬來西亞種植園主手中；直到今天，世界大部分天然橡膠仍在那裡生產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已顯示 Paragraph 1 會講橡膠樹來源和橡膠生產重心轉移。Malaysia 出現在最後一句，所以這題應回到本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rubber trees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“well suited”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Malaysia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These were used to start plantations throughout British-controlled East Asia, where the trees, facing none of their natural insect or fungal enemies, thrived.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些種子被用來在英國控制的東亞各地建立種植園；在那裡，橡膠樹沒有面對原生地的昆蟲或真菌天敵，因此生長旺盛。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“...plantation owners in Malaysia (where, to this day, most of the world’s natural rubber is still produced).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……馬來西亞的種植園主；直到今天，世界大部分天然橡膠仍在馬來西亞生產。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “well suited to Malaysia”，原文沒有逐字使用 “well suited”，但有兩組很強證據：第一，橡膠樹在 East Asia “thrived”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "thrived 表示生長良好、發展旺盛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Malaysia 到今天仍生產世界大部分天然橡膠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示馬來西亞在文中被呈現為非常成功的橡膠生產地。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "well suited= thrived / most natural rubber is still produced there Malaysia= plantation owners in Malaysia答案判斷：原文顯示橡膠樹在英國控制的東亞種植園成功生長，並把馬來西亞列為主要生產地。題目方向和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文先說橡膠樹 native to Amazon，學生可能以為只有亞馬遜最適合橡膠樹。可是文中重點是：在東亞缺少原生天敵，樹反而 thrive。判斷要跟文章，不用常識補充。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Tapajós River is very wide.”",
+      "translation": "Tapajós River 非常寬闊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心句法。題目問的是 Tapajós River 的寬度。定位詞是 “Tapajós River” 和 “wide”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first mistake was to hire a rather untrustworthy Brazilian to scout for the best location in the Amazon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一個錯誤是聘請一位相當不可靠的巴西人，在亞馬遜尋找最佳地點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The surface forest was cleared, scores of Ford’s employees were relocated, and out of this wilderness sprang an instant slice of America, complete with a modern hospital, library, hotels, ice cream makers, and row upon row of prefabricated houses positioned along nicely paved streets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表層森林被清理，大批 Ford 員工被遷來；這片荒野中突然冒出一片美國式城鎮，配有現代化醫院、圖書館、酒店、雪糕機，以及一排排沿著漂亮鋪路街道而建的預製房屋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 Fordlandia 第一個選址錯誤和初期建設。題目問 Tapajós River，正好位於選址描述中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tapajós River”"
+            },
+            {
+              "kind": "quote",
+              "text": "“very wide”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This man recommended a damp, rocky, and infertile series of hillsides near the Tapajós River, a tributary of the wide and mighty Amazon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個人推薦了一片潮濕、多石、貧瘠的山坡，位於 Tapajós River 附近；Tapajós River 是寬闊而壯大的 Amazon River 的一條支流。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子中的 “wide and mighty” 修飾的是 “Amazon”，不是 “Tapajós River”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句法關係是： Tapajós River= a tributary of the Amazon Tapajós 是 Amazon 的支流。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "wide and mighty Amazon= 寬闊而壯大的 Amazon River。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 Tapajós River 寬或窄。它只說 Tapajós 是 Amazon 的支流，並描述 Amazon wide and mighty。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Tapajós River內容：very wide原文命題：主體：Amazon內容：wide and mighty比較結果：主體錯開了。文章沒有提供 Tapajós River 的寬度資料，也沒有說它不寬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：缺少關鍵資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被 “wide and mighty” 這兩個字吸引。真正要看的是形容詞修飾誰。IELTS 很常考這種相鄰名詞陷阱：同一句有 Tapajós River 和 wide，但 wide 實際指向 Amazon。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Fordlandia may have succeeded.”",
+      "translation": "Fordlandia 有可能成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否保留 Fordlandia 成功的可能性。定位詞是 “Fordlandia” 和 “succeeded”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in the late 1920s, the automobile tycoon Henry Ford had a vision.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在 1920 年代後期，汽車大亨 Henry Ford 有一個構想。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be called Fordlandia—ambitious, grandiose, and doomed from the beginning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它會被稱為 Fordlandia——雄心龐大、誇張，而且從一開始便注定失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 2 介紹 Fordlandia 的構想，同時在段末直接給出作者對項目前景的評價。題目問是否 may have succeeded，應看段末語氣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fordlandia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may have succeeded”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be called Fordlandia—ambitious, grandiose, and doomed from the beginning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它會被稱為 Fordlandia——雄心龐大、誇張，而且從一開始便注定失敗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最重要的短語是 “doomed from the beginning”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“doomed” 表示注定失敗、命運已經走向壞結果。“from the beginning” 表示從一開始已經如此。題目說 “may have succeeded”，意思是 Fordlandia 有成功可能。原文用 “doomed from the beginning” 排除了這種可能性。文章後面多段也逐一展示選址、農業、文化、產量、合成橡膠等失敗原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "may have succeeded= had a real possibility of success doomed from the beginning= destined to fail from the start答案判斷：題目和原文方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 “may have”，語氣看似保守，但原文的 “doomed from the beginning” 很強。遇到 may /possible 這類詞，要檢查原文是否留下可能性；這裡沒有。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "suitable",
+      "answerKey": "suitable",
+      "type": "Table Completion",
+      "prompt": "“The first tract of land was not 5 __________ for rubber trees.”",
+      "translation": "第一塊土地不 5 __________ 橡膠樹。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Table Completion。空格前有 “not”，所以答案要填一個正面形容詞，整句才會形成 “not suitable”。定位詞是 “first tract of land” 和 “rubber trees”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After three years with no significant quantity of rubber to show for the effort, Ford did what he should have done from the beginning and hired a trained horticulturist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "努力三年後仍沒有可觀數量的橡膠產出，Ford 終於做了他一開始便應該做的事：聘請一位受過訓練的園藝專家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ford’s factories were hoping for almost 40,000 tons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford 的工廠原本希望得到接近 40,000 噸橡膠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講第一階段失敗、專家評估土地、第二次嘗試和最終低產量。題目問第一塊地是否適合橡膠樹，答案應在專家判斷中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first tract of land”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not ___ for rubber trees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rubber trees”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The expert ultimately concluded that, regardless of how the rubber trees were planted, the land was unsuitable for their cultivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位專家最後得出結論：不論橡膠樹如何種植，這片土地都不適合栽培它們。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用 “unsuitable for their cultivation”。題目句型是 “was not ___ for rubber trees”，所以空格要填 “suitable”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果填 unsuitable，句子會變成 “was not unsuitable”，意思會變成「並非不適合」，和原文相反。因此要按題目文法把原文 “unsuitable” 轉成 “not suitable”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not suitable for rubber trees= unsuitable for their cultivation rubber trees= their答案形式： suitable = 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易錯在文法。原文有 “unsuitable”，但題目已經有 “not”。做填空題時，答案不只要來自文章，也要放回句子後文法和意思都成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "significant quantity",
+      "answerKey": "significant quantity",
+      "type": "Table Completion",
+      "prompt": "“No 6 __________ of rubber was produced.”",
+      "translation": "沒有產出 6 __________ 的橡膠。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是表格中的結果。空格前有 “No”，後面是 “of rubber”，所以答案應是表示數量的名詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “rubber was produced” 和 “No”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After three years with no significant quantity of rubber to show for the effort, Ford did what he should have done from the beginning and hired a trained horticulturist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "努力三年後仍沒有可觀數量的橡膠產出，Ford 終於做了他一開始便應該做的事：聘請一位受過訓練的園藝專家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ford’s factories were hoping for almost 40,000 tons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford 的工廠原本希望得到接近 40,000 噸橡膠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以直接看到本段會談橡膠產量不足。題目句 “No ___ of rubber” 和首句非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“No”"
+            },
+            {
+              "kind": "quote",
+              "text": "“of rubber”"
+            },
+            {
+              "kind": "quote",
+              "text": "“produced”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After three years with no significant quantity of rubber to show for the effort...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "努力三年後仍沒有可觀數量的橡膠成果……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“no significant quantity of rubber” 直接對應題目 “No ___ of rubber was produced”。“to show for the effort” 表示經過努力後可拿出來的成果，放入表格時可概括成 produced。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "No ___ of rubber was produced= no significant quantity of rubber to show for the effort答案形式： significant quantity = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “750 tons”。750 tons 是第二個地點十年後的產量，不是第一階段三年後的結果。表格的“One” 對應第一個問題和第一塊土地，所以要用 “no significant quantity”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "company engineers",
+      "answerKey": "company engineers",
+      "type": "Table Completion",
+      "prompt": "“7 __________ were unfamiliar with farming.”",
+      "translation": "7 __________ 不熟悉農業。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是表格填空。空格後是 “were”，所以答案應是複數名詞。題目問誰不熟悉 farming。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“farming / agricultural endeavour” 和 “unfamiliar”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“The second big mistake was that, incredibly, Ford never thought to consult trained horticulturists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個大錯誤是，令人難以置信地，Ford 從未想到要諮詢受過訓練的園藝專家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ford’s young rubber trees had no sooner appeared from the ground than they were attacked by caterpillars, ants, red spiders, and most significantly, South American leaf blight, which, to this day, limits the number of rubber plantations in this, the tree’s native land.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford 的年輕橡膠樹剛從地裡長出來，就受到毛蟲、螞蟻、紅蜘蛛，以及最重要的 South American leaf blight 攻擊；直到今天，這種病害仍限制橡膠樹原產地的種植園數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段會講專業農業知識缺失和病蟲害後果。題目問誰不熟悉 farming，因此應看 Ford 用了誰來處理農業工作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“unfamiliar with farming”"
+            },
+            {
+              "kind": "quote",
+              "text": "“farming”"
+            },
+            {
+              "kind": "quote",
+              "text": "“engineers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He naively assumed that his own company engineers, who had proved their worth in the production of cars, would prove equally adept at this agricultural endeavour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他天真地以為，自己公司的工程師既然已在汽車生產中證明了價值，在這項農業事業中也會同樣能幹。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “were unfamiliar with farming”，原文用較間接的說法呈現：Ford 沒有找 trained horticulturists，反而相信 company engineers 可以處理 agricultural endeavour。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的核心對比是： trained horticulturists= 有農業 / 園藝專業的人company engineers= 擅長汽車生產的人"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“naively assumed” 表示 Ford 的想法天真，暗示工程師不具備相應農業能力。題目把這個意思概括成 “were unfamiliar with farming”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "farming= agricultural endeavour were unfamiliar with farming= had proved their worth in cars, yet were assumed to be adept in agriculture答案形式： company engineers = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “trained horticulturists”。原文說 Ford 沒有諮詢他們；真正被派去處理種植、又缺乏農業背景的是 company engineers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "monoculture farming",
+      "answerKey": "monoculture farming",
+      "type": "Table Completion",
+      "prompt": "“An unwise 8 __________ approach was used.”",
+      "translation": "他們使用了一種不明智的 8 __________ 方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後有 “approach”，答案應是形容這種 approach 的名詞或形容詞短語。定位詞是 “unwise approach” 和種植方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second big mistake was that, incredibly, Ford never thought to consult trained horticulturists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個大錯誤是，Ford 竟然沒有想到要諮詢受過訓練的園藝專家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ford’s young rubber trees had no sooner appeared from the ground than they were attacked by caterpillars, ants, red spiders, and most significantly, South American leaf blight...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford 的年輕橡膠樹剛長出來，就受到毛蟲、螞蟻、紅蜘蛛，以及最重要的 South American leaf blight 攻擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段集中講種植專業失誤和病蟲害。表格第二項 “unwise approach” 應在段中描述種植方式的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“approach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unwise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“farming”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In such environments, monoculture farming approaches are dubious at best.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這樣的環境中，單一作物種植方式充其量也很可疑。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“monoculture farming” 指大面積種植單一作物。Ford 的工程師把橡膠樹種得很密，原以為在原生環境中會 flourish，但在亞馬遜雨林，野生橡膠樹本來相距很遠，這是抵禦害蟲和病菌的一種方式。“dubious at best” 是關鍵短語，意思是「充其量也很可疑」，表示這種方法很不可靠。題目把它改寫成 “unwise approach”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "unwise approach= dubious at best monoculture farming approach= monoculture farming approaches答案形式： monoculture farming = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “farming”。題目問的是哪一種 farming approach。真正決定答案的是 “monoculture”，即單一作物種植。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "local customs",
+      "answerKey": "local customs",
+      "type": "Table Completion",
+      "prompt": "“Workers were not allowed to follow 9 __________.”",
+      "translation": "工人不被允許遵從 9 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是表格填空。空格前的 “follow” 需要一個可被遵從的名詞短語，例如 customs、rules、habits。定位詞是 “workers” 和 “not allowed / denied”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next problem arose from cultural differences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一個問題來自文化差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The riot was finally quelled with the arrival of the Brazilian army.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "暴動最後在巴西軍隊到達後才被平息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段由文化差異開始，最後以暴動收束。題目問工人不能 follow 甚麼，應在文化差異和生活規定的描述中找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not allowed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“follow”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a year of being denied their local customs, the disgruntled workers had had enough, and a riot followed...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在被剝奪當地習俗一年後，心懷不滿的工人受夠了，隨後發生暴動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “were not allowed to follow”，原文用 “being denied” 表達同一意思。denied their local customs 表示他們不能按自己的本地習俗生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前文提供具體例子：當地習慣是在中午酷熱前後工作，但 Ford 要他們做標準 9-to-5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們要吃美國食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "週末活動要符合 Ford 認定的健康標準，例如詩歌朗讀和 square dancing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "酒精被嚴格禁止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子都支持 “local customs” 這個答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not allowed to follow= being denied local customs= local custom of working before and after the heat / food / alcohol / social practices答案形式： local customs = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “healthy lifestyle”。那是 Ford 強加給工人的生活模式。題目問工人不能遵從甚麼，答案要從工人的角度看，是 local customs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "riot",
+      "answerKey": "riot",
+      "type": "Table Completion",
+      "prompt": "“A 10 __________ occurred.”",
+      "translation": "發生了一場 10 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問結果。空格前有 “A”，答案應是單數可數名詞。定位詞是 workers、not allowed to follow local customs 之後的結果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next problem arose from cultural differences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一個問題來自文化差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The riot was finally quelled with the arrival of the Brazilian army.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "暴動最後在巴西軍隊到達後才被平息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，答案方向很明顯：文化差異引發了嚴重後果，段末直接出現 riot。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“occurred”"
+            },
+            {
+              "kind": "quote",
+              "text": "“workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“result”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a year of being denied their local customs, the disgruntled workers had had enough, and a riot followed...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在被剝奪當地習俗一年後，心懷不滿的工人受夠了，隨後發生暴動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a riot followed” 對應題目 “A ___ occurred”。followed 在這裡表示「隨後發生」。題目把動詞changed 成 occurred，答案仍是同一個事件名詞：riot。後一句 “The riot was finally quelled...” 也確認 riot 是事件本身，而不是一般不滿情緒。quelled 表示鎮壓、平息，通常用於暴動、騷亂。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "occurred= followed a riot= a riot答案形式： riot = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “disgruntled workers”。這是暴動前的狀態和主體，不是發生的事件。空格前有 “A”，也提示答案應是單數事件名詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "leaf blight",
+      "answerKey": "leaf blight",
+      "type": "Sentence Completion",
+      "prompt": "“The most significant natural enemy of rubber trees is 11 __________.”",
+      "translation": "橡膠樹最重要的天敵是 11 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格需要一個名詞短語，表示病害或生物敵人。定位詞是 “most significant” 和 “natural enemy”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second big mistake was that, incredibly, Ford never thought to consult trained horticulturists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個大錯誤是，Ford 竟然沒有想到要諮詢受過訓練的園藝專家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ford’s young rubber trees had no sooner appeared from the ground than they were attacked by caterpillars, ants, red spiders, and most significantly, South American leaf blight, which, to this day, limits the number of rubber plantations in this, the tree’s native land.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford 的年輕橡膠樹剛從地裡長出來，就受到毛蟲、螞蟻、紅蜘蛛，以及最重要的 South American leaf blight 攻擊；直到今天，這種病害仍限制橡膠樹原產地的種植園數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段會講種植失敗和橡膠樹敵害。題目中的 “most significant” 幾乎直接對應段末。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“most significant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural enemy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rubber trees”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...they were attacked by caterpillars, ants, red spiders, and most significantly, South American leaf blight...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……它們受到毛蟲、螞蟻、紅蜘蛛，以及最重要的 South American leaf blight 攻擊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出幾種攻擊橡膠樹的東西： caterpillars毛蟲ants螞蟻red spiders紅蜘蛛South American leaf blight南美葉枯病題目問 “most significant natural enemy”，原文說 “most significantly” 後面的項目是 South American leaf blight。不過題目限制是 NO MORE THAN TWO WORDS，因此不能填完整四詞名稱 “South American leaf blight”。保留核心名稱 “leaf blight” 即可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "most significant natural enemy= most significantly, South American leaf blight答案形式： leaf blight = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 caterpillars、ants 或 red spiders。它們同樣攻擊橡膠樹，但原文用 “most significantly” 特別標出 leaf blight。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "trained horticulturists",
+      "answerKey": "trained horticulturists",
+      "type": "Sentence Completion",
+      "prompt": "“Plantations definitely need the skills of 12 __________.”",
+      "translation": "種植園明顯需要 12 __________ 的技能。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Fordlandia 失敗顯示需要哪類專業人員。空格前是 “skills of”，答案應是人或專業群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “plantations”、 “skills” 和 “need”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second big mistake was that, incredibly, Ford never thought to consult trained horticulturists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個大錯誤是，令人難以置信地，Ford 從未想到要諮詢受過訓練的園藝專家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ford’s young rubber trees had no sooner appeared from the ground than they were attacked by caterpillars, ants, red spiders, and most significantly, South American leaf blight...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford 的年輕橡膠樹剛長出來，就受到毛蟲、螞蟻、紅蜘蛛，以及最重要的 South American leaf blight 攻擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已說 Ford 的錯誤是沒有諮詢 trained horticulturists；段末則展示這個錯誤帶來病蟲害失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 plantations need whose skills，答案就在這個專業缺口中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“skills”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plantations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“need”"
+            },
+            {
+              "kind": "quote",
+              "text": "“horticulturists”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second big mistake was that, incredibly, Ford never thought to consult trained horticulturists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個大錯誤是，Ford 竟然沒有想到要諮詢受過訓練的園藝專家。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 也有補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ford did what he should have done from the beginning and hired a trained horticulturist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford 終於做了他一開始便應該做的事：聘請一位受過訓練的園藝專家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個句子合起來建立完整證據鏈： Paragraph 4 說 Ford 沒有 consult trained horticulturists，這是 big mistake。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 說他後來 hired a trained horticulturist，這是他 should have done from the beginning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，文章清楚顯示橡膠種植園需要這類專業技能。題目把 “consult / hired” 改寫成 “need the skills of”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "need the skills of= should have consulted / should have hired trained horticulturists= trained horticulturist / horticultural expertise答案形式： trained horticulturists = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “company engineers”。他們是 Ford 誤用的人。真正需要的專業來自 trained horticulturists。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "synthetic rubber",
+      "answerKey": "synthetic rubber",
+      "type": "Sentence Completion",
+      "prompt": "“Fordlandia closed down upon the invention of 13 __________.”",
+      "translation": "Fordlandia 在 13 __________ 發明後關閉。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Fordlandia 最終關閉的外部原因。定位詞是 “closed down”、 “invention / development”和文章結尾。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final nail in the coffin was the development of synthetic rubber, and in 1945, it was time to admit defeat, although it was not Ford who did so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "棺材上的最後一根釘子是合成橡膠的發展；到 1945 年，是時候承認失敗了，不過承認失敗的人已不是 Ford 本人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The holdings were sold back to the Brazilian government for a pittance, resulting in a loss of over $20 million (which would be more than ten times as much in today’s terms)—a complete and utter financial disaster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些土地和資產以極低價賣回巴西政府，造成超過 2,000 萬美元損失；按今天金額計算會超過十倍，是一場徹底的財政災難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段交代 Fordlandia 的最終失敗原因和財務結局。題目問 closed down upon the invention of something，目標明顯在首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“closed down”"
+            },
+            {
+              "kind": "quote",
+              "text": "“invention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“synthetic”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final nail in the coffin was the development of synthetic rubber...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一擊是合成橡膠的發展。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“...Henry Ford II, who closed down the entire rubber operation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Henry Ford II 關閉了整個橡膠業務。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “invention” 對應原文 “development”。“upon” 表示在這項技術出現或發展之後。原文把synthetic rubber 稱為 “final nail in the coffin”，意思是它令 Fordlandia 的失敗變得無可挽回。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整因果鏈是： synthetic rubber developed合成橡膠發展起來it was time to admit defeat是時候承認失敗Henry Ford II closed down the entire rubber operation Henry Ford II 關閉整個橡膠業務"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "invention of synthetic rubber= development of synthetic rubber Fordlandia closed down= closed down the entire rubber operation答案形式： synthetic rubber = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “latex rubber”。latex rubber 是 Ford 本來想生產的天然橡膠。導致計劃最後失去意義的是 synthetic rubber。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Fordlandia.pdf",
+    "sha256": "71f2502612a20b40c5d7c5bf60617e21b6173f69c2a46d466fb8bcd8eccce113",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說天然乳膠或橡膠來自橡膠樹的樹液。末句說巴西橡膠熱潮崩潰，世界橡膠供應控制權落入馬來西亞種植園主手中。只看首尾句，可以先判斷本段交代橡膠產業的早期背景：橡膠樹原產亞馬遜，巴西一度壟斷，後來種子被帶到英國控制的東亞地區，種植園成功發展，巴西失去優勢。"
+      },
+      {
+        "number": "2",
+        "summary": "首句用 “But” 轉入 Henry Ford 在 1920 年代後期的構想。末句說這個地方會被稱為 Fordlandia，雄心龐大、誇張，而且從一開始便注定失敗。只看首尾句，可以估計本段會講 Ford 為何想在亞馬遜建立自己的橡膠來源：他相信垂直整合，希望擺脫英國種植園利益，於是決定建立世界最大橡膠種植園。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說第一個錯誤是聘請一位相當不可靠的巴西人去尋找亞馬遜最好的地點。末句說森林被清理，Ford 員工被搬來，荒野中突然出現一片美國式城鎮。只看首尾句，可以看出本段講Fordlandia 的選址和初期建設：地點其實潮濕、多石、貧瘠，但 Ford 仍投入大量設備和金錢建造基建。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說第二個大錯誤是 Ford 竟然沒有諮詢受過訓練的園藝專家。末句說年輕橡膠樹剛長出來，就受到毛蟲、螞蟻、紅蜘蛛，尤其是 South American leaf blight 攻擊。只看首尾句，可以判斷本段重點是農業失誤：Ford 讓汽車工程師處理種植，採用密集單一作物方式，結果橡膠樹受病蟲害嚴重破壞。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說下一個問題來自文化差異。末句說暴動最後在巴西軍隊到達後才被平息。只看首尾句，可以估計本段講勞工管理失敗：當地工人被要求跟從 Ford 式健康生活，包括 9-to-5 班次、美式食物、詩歌朗讀、方塊舞和禁酒。這些安排剝奪了當地習俗，最終引發工人不滿和暴動。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說努力三年後仍沒有大量橡膠產出，Ford 終於做了本應一開始便做的事：聘請受訓園藝專家。末句說 Ford 工廠原本希望有接近 40,000 噸橡膠。只看首尾句，可以判斷本段講 Ford 嘗試補救：專家判斷第一塊土地不適合種橡膠，他又買第二塊較合適的地，引入抗病樹和專業知識，但產量仍遠遠不足。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說最後一擊是合成橡膠的發展；到 1945 年，是時候承認失敗。末句說土地以極低價賣回巴西政府，造成超過 2,000 萬美元損失，是徹底的財政災難。只看首尾句，可以判斷結尾段交代Fordlandia 的死亡原因和結局：合成橡膠使天然橡膠計劃失去意義，Henry Ford II 關閉業務，整個項目以巨大虧損告終。"
+      }
+    ]
+  }
+}

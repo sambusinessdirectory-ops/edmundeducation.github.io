@@ -1,0 +1,1077 @@
+{
+  "id": "p2-134-tv-addiction",
+  "catalogueId": "p2-134",
+  "catalogueIds": [
+    "p2-134"
+  ],
+  "passage": 2,
+  "title": "TV Addiction",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "A",
+    "C",
+    "D",
+    "D",
+    "B",
+    "A",
+    "pastime",
+    "TV addicts",
+    "orienting response"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Even researchers sometimes find watching television more compelling than talking to other people.”",
+      "translation": "即使是研究人員，有時也覺得電視比和別人談話更能吸引自己。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Excessive cravings do not necessarily involve physical substances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過度渴求未必涉及實體物質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This occurs not only during dull conversations but during reasonably interesting ones just as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況不只在沉悶對話中出現，就算對話相當有趣，也一樣會發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 在說：addiction-like craving 可出現在非物質活動中，而television 是一個很強的例子。尾句尤其指出，即使對話有趣，電視仍會吸引人的眼睛。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 researchers、talking to other people、watching television。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 中有 “Even researchers who study TV for a living…” 以及 Percy Tannenbaum 的quote，所以可以停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even researchers who study TV for a living marvel at the medium’s hold on them personally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使是以研究電視為職業的研究者，也驚訝於這個媒介對自己個人的吸引力。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Tannenbaum 的自白："
+            },
+            {
+              "kind": "quote",
+              "text": "“I am engaged in conversation in a room while a TV set is on, and I cannot for the life of me stop from periodically glancing over to the screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我在一個有電視開著的房間裡和人談話時，我無論如何也忍不住會不時望向螢幕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “more compelling than talking to other people” 對應原文中研究者談話時仍忍不住望電視。這不一定表示他完全停止談話，但足以支持 “television is more compelling” 這種吸引力判斷。答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Television, as an information medium, has always been a priority for scientific research.”",
+      "translation": "作為資訊媒介，電視一直是科學研究的優先重點。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have been studying the effects of television for decades, generally focusing on whether watching violence on TV correlates with being violent in real life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家研究電視影響已有數十年，通常集中於觀看電視暴力是否和現實中的暴力行為有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Less attention has been paid to the basic allure of the small screen—the medium, as opposed to the message.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較少注意力放在小螢幕本身的基本吸引力上，也就是媒介形式本身，而非訊息內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的重點是研究方向的偏差。科學家有研究 TV，但主要研究暴力內容和行為之間的關係；對 medium itself 的吸引力關注較少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 information medium、always、priority、scientific research。原文相關詞是"
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have been studying…” 和 “Less attention has been paid…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “has always been a priority”，但原文清楚說 “Less attention has been paid to the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "basic allure of the small screen—the medium…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Less attention” 和 “priority” 方向相反。原文承認有很多 TV research，但研究重點通常是violence effects，對 medium 本身吸引力的研究較少。因此答案是 NO。中伏位在 “Scientists have been studying the effects of television for decades”。這句只證明 TV effects 長期被研究，未能證明 “television as a medium” 一直是優先研究對象。真正控制答案的是最後一句的 “Less attention”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The term ‘TV addiction’ is, to some extent, unscientific.”",
+      "translation": "“TV addiction” 這個詞在某程度上不夠科學。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The term ‘TV addiction’ is imprecise and laden with value judgments, but it captures the essence of a very real phenomenon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“TV addiction” 這個詞不夠精確，而且帶有價值判斷，但它捕捉到一個非常真實現象的核心。最後一句：“Psychologists and psychiatrists formally define substance dependence as a disorder characterized by criteria that include…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理學家和精神科醫生正式把物質依賴定義為一種 disorder，並列出多項判斷標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph C 正在把日常詞語 “TV addiction” 和正式 clinical criteria 作比較。首句已指出這個 term 有問題，但不等於整個現象不存在。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞非常直接：TV addiction、unscientific。原文沒有用 unscientific，但 “imprecise”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 “laden with value judgments” 是同義方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“The term ‘TV addiction’ is imprecise and laden with value judgments…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“TV addiction” 這個詞不夠精確，而且帶有價值判斷。“imprecise” 表示不夠嚴謹；“laden with value judgments” 表示用詞帶有主觀評價。題目中的 “to some extent, unscientific” 正是把這兩點概括成「某程度上不夠科學」。原文後半說它仍 captures a real phenomenon，這只是補充平衡，沒有推翻題目。答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Children do not know why they exercise too little.”",
+      "translation": "兒童不知道自己為何運動太少。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最接近的段落是 Paragraph E，因為它講 viewing time、adults、teenagers 和 surveys。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The amount of time people spend watching television is astonishing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們花在看電視上的時間令人震驚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other surveys have consistently shown that roughly 10 percent of adults call themselves TV addicts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他調查一直顯示，大約 10% 成年人稱自己是 TV addicts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的功能是用統計數字說明人們看 TV 的時間很多，並有不少人認為自己看太多。它沒有處理 exercise。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 children、exercise too little、know why。全文可見 children / teenagers /"
+            },
+            {
+              "kind": "paragraph",
+              "text": "parents / adults，但沒有出現 exercise 或 physical activity，也沒有說 children 是否知道原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Gallup polls in 1992 and 1999, two out of five adult respondents and seven out of 10 teenagers said they spent too much time watching TV.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1992 和 1999 年 Gallup polls 中，五分之二成年受訪者和十分之七青少年表示自己花太多時間看電視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句最多支援 “teenagers know they watch too much TV”。題目卻加入 “exercise too little” 和 “do not know why”。文章沒有提到兒童運動量，也沒有討論他們是否知道原因。缺少核心資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "A, C, D",
+      "answerKey": "A, C, D",
+      "type": "Choose THREE",
+      "prompt": "Questions 19–21",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：以下哪三項是 watching TV 的 benefits？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All these criteria can apply to people who watch a lot of television.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有這些依賴標準都可以套用到看很多電視的人身上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some knowledge of how the medium exerts its pull may help heavy viewers gain better control over their lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "了解這個媒介如何產生吸引力，可能幫助重度觀眾更好控制自己的生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 先承認 TV viewing 可符合 addiction criteria，再立即平衡說 television itself 未必有問題。真正的 benefits 在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 benefits。原文對應句非常集中："
+            },
+            {
+              "kind": "quote",
+              "text": "“Television can teach and amuse; it can reach aesthetic heights; it can provide much-needed distraction and escape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電視可以教人知識，也可以娛樂人；它可以達到審美高度；它也可以提供非常需要的分心和逃離。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Artistic inspiration 對應 “reach aesthetic heights”。aesthetic 是審美、藝術層面的價值，所以 A可選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Stress relief 對應 “much-needed distraction and escape”。當人需要抽離壓力時，distraction and escape 可概括為減壓功能，所以 C 可選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Knowledge and education 對應 “Television can teach”。teach 直接支持知識和教育，所以 D可選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項： B Family reunions 原文沒有說 TV 促進家庭團聚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E Work efficiency 原文沒有說看 TV 提高工作效率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F Easing communication conflicts 原文沒有說 TV 可緩和溝通衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A, C, D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "D — It is difficult to ignore the effects of television.",
+      "answerKey": "D — It is difficult to ignore the effects of television.",
+      "type": "Matching Researchers",
+      "prompt": "Question 22",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Percy Tannenbaum"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 excessive cravings 不一定涉及 physical substances；最後一句說即使對話有趣，仍會望向 TV screen。這段用 Tannenbaum 的例子展示 TV 的吸引力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Percy Tannenbaum。原文直接說他是 University of California at Berkeley 的研究"
+            },
+            {
+              "kind": "paragraph",
+              "text": "者，並引用他的自白。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“I cannot for the life of me stop from periodically glancing over to the screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我無論如何也不能阻止自己不時望向螢幕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "List D 的 “It is difficult to ignore the effects of television” 概括這種難以忽視 TV 的吸引力。雖然原文用的是 personal example，選項 D 把它概括成 general statement。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B — Television’s distractions trigger a physical response to a new or sudden stimulus.",
+      "answerKey": "B — Television’s distractions trigger a physical response to a new or sudden stimulus.",
+      "type": "Matching Researchers",
+      "prompt": "Question 23",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Ivan Pavlov"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句問 TV 為何如此抓住我們；最後一句說 orienting response 是 evolutionary heritage 的一部分，和 movement / threats 的敏感度有關。這段引入 biological explanation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 Ivan Pavlov。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“First described by Ivan Pavlov in 1927, the orienting response is our instinctive visual or auditory reaction to any sudden or novel stimulus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "orienting response 最早由 Ivan Pavlov 在 1927 年描述，是我們對任何突然或新奇刺激的本能視覺或聽覺反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "List B 的 “new or sudden stimulus” 對應原文 “sudden or novel stimulus”；“physical"
+            },
+            {
+              "kind": "paragraph",
+              "text": "response” 對應 “instinctive visual or auditory reaction”。雖然 Pavlov 描述的是一般 orienting response，文章用它來解釋 TV 的吸引力，所以 B 最貼近。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — The medium’s specific formal characteristics are what matter.",
+      "answerKey": "A — The medium’s specific formal characteristics are what matter.",
+      "type": "Matching Researchers",
+      "prompt": "Question 24",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Byron Reeves and Esther Thorson"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Reeves、Thorson 和同事研究 TV formal features 是否 activate the orienting response。最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is the form, not the content, of television that is unique.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電視獨特之處在於形式，而非內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Byron Reeves、Esther Thorson。掃描到 formal features、cuts、edits、zooms、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pans、sudden noises。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the simple formal features of television—cuts, edits, zooms, pans, sudden noises—activate the orienting response”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電視的簡單形式特徵，例如剪接、編輯、變焦、搖鏡、突然聲音，會啟動 orienting response。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "List A 的 “specific formal characteristics” 直接對應 “formal features”。“what matter” 對應最後一句 “form, not the content”。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "pastime",
+      "answerKey": "pastime",
+      "type": "Summary Completion",
+      "prompt": "Question 25",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary："
+            },
+            {
+              "kind": "quote",
+              "text": "“Television has become a worldwide 25 _________.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個名詞，前面有 “a worldwide”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。首句講 excessive cravings；中間引出 “the world’s most popular"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pastime, television”；尾句展示 TV 強到令研究者分心。這段是全文引入，最可能支援 summary 開頭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 worldwide、television、popular。原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One activity, however, stands out for its prominence and ubiquity—the world’s most popular pastime, television.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一項活動因其突出和無處不在而格外顯眼，那就是世界上最受歡迎的消遣活動：電視。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "summary 已經用 “worldwide” 改寫 “world’s”。空格填 “pastime” 後成為 “a worldwide"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pastime”，文法自然，且來自原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文片語 “popular pastime” 也在句中出現，但 summary 前面已有 worldwide，所以正式填答建議用 pastime。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "TV addicts",
+      "answerKey": "TV addicts",
+      "type": "Summary Completion",
+      "prompt": "Question 26",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to surveys, a small group even describe themselves as 26 _________.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格在 “describe themselves as” 後面，需要名詞或名詞短語，指一類人。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。首句說 TV viewing time astonishing；尾句說 surveys 顯示約"
+            },
+            {
+              "kind": "paragraph",
+              "text": "10% adults call themselves TV addicts。首尾句已經直接指向答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 surveys、describe themselves、small group。原文用 “Other surveys” 和 “call"
+            },
+            {
+              "kind": "paragraph",
+              "text": "themselves”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Other surveys have consistently shown that roughly 10 percent of adults call themselves TV addicts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他調查一貫顯示，大約 10% 成年人稱自己是 TV addicts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “describe themselves as” 對應原文 “call themselves”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a small group” 對應 “roughly 10 percent of adults”。答案是 TV addicts，兩個 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "orienting response",
+      "answerKey": "orienting response",
+      "type": "Summary Completion",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary："
+            },
+            {
+              "kind": "quote",
+              "text": "“One researcher believes this attraction arises from a human instinct known as the 27_________, an inbuilt part of our evolutionary heritage.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “known as the”，後面有 “an inbuilt part of our evolutionary heritage”，需要一個專有概念名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。首句問 TV 為何有如此吸引力；尾句說這種反應是 evolutionary"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heritage 的一部分。這段明顯解釋 attraction 的生物本能來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 attraction、human instinct、evolutionary heritage。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the attraction seems to spring from our biological ‘orienting response.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種吸引力似乎部分來自我們的生物性 “orienting response”。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is part of our evolutionary heritage…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它是我們進化遺產的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "summary 的 “arises from a human instinct” 對應原文 “spring from our biological orienting"
+            },
+            {
+              "kind": "paragraph",
+              "text": "response”。"
+            },
+            {
+              "kind": "quote",
+              "text": "“inbuilt part of our evolutionary heritage” 對應原文 “part of our evolutionary heritage, a built-in sensitivity…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 orienting response。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - TV Addiction.pdf",
+    "sha256": "b60636f2e4c3a8476e86e6438721dc5d6fa9533f187f7d38a2fbfc93a623f8f7",
+    "pageCount": 11
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先把 “excessive cravings” 擴闊到非物質活動，例如 gambling、sex，之後把 television 放在最突出的位置。尾句引用 Percy Tannenbaum，說即使自己正在進行有趣對話，也會忍不住望向電視。只看首尾句，這段大概是用日常經驗和研究者自白，說明 TV 的吸引力很強，甚至會令人分心，為 “TV addiction” 這個主題鋪路。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說科學家研究 television effects 已有數十年，重點通常放在 TV violence 是否和現實暴力有關。尾句說較少研究放在 small screen 的 basic allure，即 medium itself，而非 message。首尾句合起來，段落功能很清楚：作者指出以往研究偏重內容效果，忽略電視形式本身為何吸引人。這段特別適合判斷 scientific research priority 類題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接評價 “TV addiction” 這個詞：它 imprecise，而且帶有 value judgments，但仍捕捉到真實現象。尾句列出 substance dependence 的正式標準，包括花很多時間使用、用得比預期多、想減少但失敗、放棄重要活動，以及停止時出現 withdrawal symptoms。這段功能是定義 addiction 的判斷框架，讓讀者明白 TV addiction 雖然用詞不精準，但可和依賴症狀比較。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說上述 addiction criteria 可以套用到看很多電視的人身上。尾句說了解 TV 如何 exert its pull，可能幫助 heavy viewers 更好控制生活。只看首尾句，可以推測這段在平衡兩面：一方面承認heavy TV viewing 可符合依賴特徵；另一方面提醒 watching television itself 未必有問題。中間列出 TV 的正面功能，例如 teach、amuse、aesthetic heights、distraction and escape。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說人們花在 TV 上的時間 astonishing。尾句說其他調查一貫顯示約 10% adults 自稱 TV addicts。首尾句顯示這段用數字說明 TV viewing 的規模：工業化世界平均每天三小時，等於leisure time 的一半；75 歲人生中有九年在電視前。段落後半用 Gallup polls 和 surveys 說明很多人其實對自己看電視的時間有 misgivings。"
+      },
+      {
+        "number": "F",
+        "summary": "首句提出核心問題：TV 到底有甚麼力量如此抓住我們？尾句說 orienting response 是evolutionary heritage 的一部分，是對 movement 和 potential predatory threats 的內建敏感度。這段功能是引入生物心理學解釋：TV 的吸引力部分來自 “orienting response”，即人遇到 sudden or novel stimulus 時自然出現的視覺或聽覺反應。Ivan Pavlov 是重要定位人名。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 1986 年 Byron Reeves、Esther Thorson 及同事研究 TV 的 formal features 是否會activate the orienting response。尾句強調 “It is the form, not the content, of television that is unique.” 首尾句顯示這段重點是形式特徵：cuts、edits、zooms、pans、sudden noises。這些技巧會觸發 involuntary responses，令注意力停留在螢幕上。這段適合研究者配對題。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 orienting response 可部分解釋觀眾常說的 “can’t keep my eyes off it” 和 “feel hypnotized”。尾句說 ads、action sequences 和 music videos 的 formal features 可達每秒一次，從而持續啟動 orienting response。首尾句顯示這段把前文理論連到觀眾感受，再引入 Annie Lang 的 heart rate research。電視吸引力並非單純意志薄弱，也有身體反應因素。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Lang 和同事也研究 formal features 是否影響人們對所見內容的記憶。尾句說如果 cuts在兩分鐘內超過十次，recognition 會 sharply drop off。首尾句顯示這段集中處理 format 與memory 的關係：edits 可提高 memory recognition，因為它令注意力集中；cuts 也有相似效果，但只到某一限度。剪接太多會令大腦負荷過重，記憶反而下降。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說 children’s educational television producers 發現 formal features 可以幫助 learning。尾句說 ESM findings 顯示相似結果。首尾句顯示這段進一步評價 formal features 的雙重效果：適量可幫助學習，過量 cuts and edits 會 overload the brain。Music videos 和 commercials 常用 rapid intercutting 來 hold attention，多於傳達資訊；觀眾可能記得產品或樂隊名，卻不記得廣告細節。"
+      },
+      {
+        "number": "K",
+        "summary": "首句說 product memory 有時非常 subtle。尾句說 advertisers 相信，只要廣告曾取得你的注意力，之後你在商店看到產品時，會因 vaguely remembering it 而感到更舒服。這段功能是補充advertising 的潛在效果：人未必 conscious remember the product，但模糊熟悉感仍可能影響購買時的感覺。這段與前文的 attention、memory 和 formal features 有關。"
+      }
+    ]
+  }
+}

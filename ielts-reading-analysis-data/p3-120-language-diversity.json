@@ -1,0 +1,1885 @@
+{
+  "id": "p3-120-language-diversity",
+  "catalogueId": "p3-120",
+  "catalogueIds": [
+    "p3-120"
+  ],
+  "passage": 3,
+  "title": "Language diversity",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "YES",
+    "B",
+    "C",
+    "C",
+    "B",
+    "D",
+    "B",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“In the final decades of the twentieth century, a single theory of language learning was dominant.”",
+      "translation": "在二十世紀最後幾十年，一套語言學習理論佔主導地位。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the most influential ideas in the study of languages is that of universal grammar (UG).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在語言研究中，最有影響力的想法之一是 universal grammar，即 UG。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand language, it implied, you must sweep aside the huge diversity of languages, and find their common human core.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它暗示，如果要理解語言，就必須先撇開語言之間的巨大差異，並尋找它們共同的人類核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 1 是 UG 的背景和核心主張。題目有 “single theory”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dominant”、“final decades of the twentieth century”，所以要在這段找 UG 提出時間和影響力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “final decades of the twentieth century”、“single theory” 和 “dominant”。原文未直接寫dominant，但有：“For five decades this idea prevailed, and influenced work in linguistics, psychology and cognitive science.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “prevailed” 就是「佔上風、盛行、取得主導地位」的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Put forward by Noam Chomsky in the 1960s, it is widely interpreted as meaning that all languages are basically the same, and that the human brain is born language-ready, with an in-built programme that is able to interpret the common rules underlying any mother tongue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這套理論由 Noam Chomsky 在 1960 年代提出，普遍被理解為：所有語言基本相同，而人腦天生已準備好學語言，內置一套能解讀任何母語底層共同規則的程式。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“For five decades this idea prevailed, and influenced work in linguistics, psychology and cognitive science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "五十年間，這個想法盛行，並影響了語言學、心理學和認知科學的研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “a single theory of language learning” 指 UG 這套理論。原文說它在 1960s 提出，之後五十年間 prevailed。二十世紀最後幾十年，即 1970s、1980s、1990s，正落在這段影響期內。題目中的 “dominant” 對應 “prevailed”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “one of the most influential ideas”。這句本身只表示非常有影響力；真正支援 dominant的詞是後面的 “prevailed”。做題時不要只靠第一句，要掃到時間和影響力同時出現的句子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The majority of UG rules proposed by linguists do apply to all human languages.”",
+      "translation": "語言學家提出的大多數 UG 規則都適用於所有人類語言。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the theory of UG was proposed, linguists have identified many universal language rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 UG 理論提出以來，語言學家已找出許多 universal language rules。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This universal lasted until 1999, when linguists showed that Arrernte, spoken by Indigenous Australians from the area around Alice Springs in the Northern Territory, has VC syllables but no CV syllables.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條 universal rule 一直維持到 1999 年；當時語言學家顯示，Northern Territory Alice Springs 一帶的 Indigenous Australians 所說的 Arrernte 有 VC 音節，但沒有 CV 音節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句表面上支持 UG rules，尾句卻用 Arrernte 推翻一條 universal。只看首尾句，可以先猜這段的功能是指出 universals 常被例外挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “UG rules”、“apply to all human languages” 和 “majority”。原文沒有 “majority”，但有一句很關鍵："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there are almost always exceptions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“exceptions” 是這題的真正答案詞，因為題目問 universal rules 是否真的適用於所有語言。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Since the theory of UG was proposed, linguists have identified many universal language rules. However, there are almost always exceptions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 UG 理論提出後，語言學家已找出許多 universal language rules。然而，幾乎總是有例外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “do apply to all human languages”，意思是大多數規則真正適用於所有語言。原文說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“almost always exceptions”，即這些所謂 universal rules 幾乎總能找到例外。只要有例外，就不能說該規則 applies to all human languages。後文 Arrernte 例子也強化這點。原本的規則說：若一種語言有 VC syllables，也會有 CV syllables；但 Arrernte 有 VC，沒有 CV，直接推翻這條規則。所以答案是 NO。中伏位是第一句的 “many universal language rules”。它只說語言學家曾經 identified many rules，沒有保證這些規則全部有效。真正要細讀的是轉折詞 “However” 之後的內容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“There is disagreement amongst linguists about an aspect of Straits Salish grammar.”",
+      "translation": "語言學家之間對 Straits Salish 語法的某一方面存在分歧。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other non-universal universals describe the basic rules of putting words together.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 non-universal universals 描述了詞語組合的基本規則。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, they have a single class of words to include events, objects and qualities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，它們用單一詞類涵蓋 events、objects 和 qualities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段是在談 word classes，例如 nouns、verbs、adjectives、adverbs。題目提到Straits Salish grammar，所以要在這段找該語言和詞類相關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞非常清楚："
+            },
+            {
+              "kind": "quote",
+              "text": "“Straits Salish”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disagreement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grammar”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有 Straits Salish："
+            },
+            {
+              "kind": "quote",
+              "text": "“More controversially, some linguists argue that a few languages, such as Straits Salish…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“More controversially” 和 “some linguists argue” 都暗示這個觀點有爭議，並非所有語言學家都同意。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“More controversially, some linguists argue that a few languages, such as Straits Salish, spoken by indigenous people from north-western regions of North America, do not even have distinct nouns or verbs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更具爭議的是，一些語言學家認為，少數語言，例如北美西北地區原住民所說的 Straits Salish，甚至沒有清楚分開的 nouns 或 verbs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “disagreement amongst linguists” 對應原文 “More controversially” 和 “some linguists argue”。如果只是所有人都接受的事實，原文通常不會用 controversially，也不會特別寫 some linguists argue。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “an aspect of Straits Salish grammar” 指 nouns and verbs 是否 distinct，即詞類是否分明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是題目沒有問 Straits Salish 是否真的沒有 nouns 或 verbs。它問的是有沒有disagreement。判斷點落在 “More controversially” 和 “some linguists argue”，不是落在你是否相信這個語法分析本身。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The search for new universal language rules has largely ended.”",
+      "translation": "尋找新的 universal language rules 這件事已大致結束。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2、Paragraph 6、Paragraph 9 Paragraph 2 第一和最後句顯示：語言學家曾找出 many universal language rules，但 Arrernte 推翻其中一條。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 第一和最後句顯示：Evans 和 Levinson 提出替代看法，認為沒有 absolute universal traits，只有 strong and weak tendencies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 第一和最後句顯示：他們的觀點引起廣泛反響，有人甚至說 UG 已死。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要跨段掃描，因為它問整個研究方向是否已經結束。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “search”、“new universal language rules”、“largely ended”。文章出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“linguists have identified many universal language rules”"
+            },
+            {
+              "kind": "quote",
+              "text": "“There are no absolutely universal traits of language, they say, only tendencies.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Universal grammar is dead”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都和 universal rules 有關，但沒有一句直接說「尋找新 universal rules 已經大致停止」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關證據"
+            },
+            {
+              "kind": "label",
+              "text": "相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the theory of UG was proposed, linguists have identified many universal language rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 UG 理論提出後，語言學家已找出許多 universal language rules。"
+            },
+            {
+              "kind": "label",
+              "text": "相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are no absolutely universal traits of language, they say, only tendencies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們說，語言沒有絕對普遍的特徵，只有 tendences。"
+            },
+            {
+              "kind": "label",
+              "text": "相關句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, their arguments have generated widespread enthusiasm, particularly among those linguists who are tired of trying to squeeze their findings into the straitjacket of ‘absolute universals’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他們的論點引發了廣泛熱情，特別是在那些厭倦把自己的發現硬塞進 “absolute universals” 框架的語言學家之間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子確實顯示 UG 和 absolute universals 受到挑戰，甚至有些語言學家不再喜歡用universal rules 框架理解語言。但題目說 “The search … has largely ended”，涉及整個領域的現況和程度。文章沒有說研究界已停止尋找新的 universal rules，也沒有提供 “largely ended” 這種總結。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是最後一句 “Universal grammar is dead”。這是 Michael Tomasello 的強烈評論，顯示某些人認為 UG 已失去說服力。可是從「有人宣稱 UG dead」到「尋找新 universal rules 已大致結束」，中間缺少文章明示或可直接推出的證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“If Evans and Levinson are right, people develop in the same way no matter what language they speak.”",
+      "translation": "如果 Evans 和 Levinson 正確，無論人們說甚麼語言，他們都會以相同方式發展。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what if the very diversity of languages is the key to understanding human communication?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果語言本身的多樣性正是理解人類溝通的關鍵，又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And that leads to a disturbing conclusion: every time a language becomes extinct, humanity loses an important piece of diversity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這導向一個令人不安的結論：每當一種語言滅絕，人類就失去一塊重要的多樣性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段轉向 Evans 和 Levinson 的主張，主題是 diversity。題目說 people develop in the same way，和 diversity 的方向有明顯張力，所以要細讀本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Evans and Levinson”、“people develop in the same way”、“what language they speak”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“language in turn shapes our brains”"
+            },
+            {
+              "kind": "quote",
+              "text": "“humans are more diverse than we thought”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brains having differences depending on the language environment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子直接對應題目中的發展方式和語言環境。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While there is no doubt that human thinking influences the form that language takes, if Evans and Levinson are correct, language in turn shapes our brains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然人類思維無疑會影響語言形式，但如果 Evans 和 Levinson 正確，語言也會反過來塑造我們的大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“This suggests that humans are more diverse than we thought, with our brains having differences depending on the language environment in which we grew up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示人類比我們以為的更多樣；我們的大腦會因成長時所處的語言環境不同而有所差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 people develop in the same way no matter what language they speak。原文說 brains have differences depending on the language environment。這是直接方向衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “no matter what language they speak” 表示語言不影響發展；原文正好說語言環境會影響大腦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是開頭 “human thinking influences the form that language takes”。這半句說思維影響語言；若只看這半句，可能以為所有人類思維相同，所以語言差異不影響發展。可是後半句 “language in turn shapes our brains” 才是 Evans 和 Levinson 的關鍵轉向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The loss of any single language might have implications for the human race.”",
+      "translation": "任何一種語言的消失，都可能對整個人類有影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what if the very diversity of languages is the key to understanding human communication?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果語言本身的多樣性正是理解人類溝通的關鍵，又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And that leads to a disturbing conclusion: every time a language becomes extinct, humanity loses an important piece of diversity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這導向一個令人不安的結論：每當一種語言滅絕，人類就失去一塊重要的多樣性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經明確把 language diversity 和 humanity 連起來。題目提到 loss of language 和 human race，所以答案很可能在尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “loss”、“single language”、“human race”。原文對應如下："
+            },
+            {
+              "kind": "quote",
+              "text": "“every time a language becomes extinct”"
+            },
+            {
+              "kind": "quote",
+              "text": "“humanity loses an important piece of diversity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“humanity” 就是 “the human race” 的同義概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“And that leads to a disturbing conclusion: every time a language becomes extinct, humanity loses an important piece of diversity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這導向一個令人不安的結論：每當一種語言滅絕，人類就失去一塊重要的多樣性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “any single language” 對應 “every time a language becomes extinct”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “might have implications for the human race” 對應 “humanity loses an important piece of diversity”。這裡的 implication 指影響或後果；原文指出後果是 humanity 失去 diversity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是題目用了 “might have implications”，語氣較寬；原文 “humanity loses” 反而更直接。題目沒有誇大原文，只是把 “loses an important piece of diversity” 概括成 “has implications”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — The differences between languages outweigh the similarities.",
+      "answerKey": "B — The differences between languages outweigh the similarities.",
+      "type": "Multiple Choice",
+      "prompt": "Question 33",
+      "translation": "Evans 和 Levinson 持有以下哪一種語言觀？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Which of the following views about language are held by Evans and Levinson?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5–6 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what if the very diversity of languages is the key to understanding human communication?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果語言本身的多樣性正是理解人類溝通的關鍵，又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And it is a mix of strong and weak tendencies that characterises the ‘bio-cultural’ mix that we call language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們稱為語言的 bio-cultural mix，正是由 strong and weak tendencies 的混合所構成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段是 Evans 和 Levinson 的主張核心：語言差異、多因素塑造、沒有絕對普遍規則。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Evans and Levinson”、“views about language”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evans and Levinson … believe that languages do not share a common set of rules. Instead, they say, their sheer variety is a defining feature of human communication…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are no absolutely universal traits of language, they say, only tendencies.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Linguists Nicholas Evans … and Stephen Levinson … believe that languages do not share a common set of rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言學家 Nicholas Evans 和 Stephen Levinson 認為，各種語言沒有共享同一套共同規則。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, they say, their sheer variety is a defining feature of human communication –something not seen in other animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們說，語言本身的巨大多樣性是人類溝通的定義性特徵，這是其他動物身上看不到的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說 “The differences between languages outweigh the similarities.”這是對 “sheer variety is a defining feature” 的最佳概括。文章沒有用 outweigh 這個字，但Evans 和 Levinson 的重點正是語言差異比共同規則更能定義人類語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “Each of the world’s languages develops independently.”原文說語言由 culture、genetics、history 等因素塑造，沒有說每種語言完全獨立發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Only a few language features are universal.”原文說 “There are no absolutely universal traits of language … only tendencies.” C 仍保留 “a few universal”，和原文不夠貼合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Each language is influenced by the characteristics of other languages.”原文沒有說每種語言受其他語言特徵影響。它說受 culture、genetics、history 等因素影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — shared modes of perception",
+      "answerKey": "C — shared modes of perception",
+      "type": "Multiple Choice",
+      "prompt": "Question 34",
+      "translation": "根據 Evans 和 Levinson，不同語言表面上的相似性可能由甚麼造成？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： According to Evans and Levinson, apparent similarities between languages could be due to what?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the two linguists, the strong tendencies explain why many languages display common patterns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據這兩位語言學家，strong tendencies 解釋了為甚麼許多語言呈現共同模式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the fact that before we learn to speak we perceive the world as a place full of things causing actions (agents) and things having actions done to them (patients) explains why most languages deploy these grammatical categories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，在學會說話以前，我們已把世界感知為充滿造成行動的事物，即 agents，以及承受行動的事物，即 patients；這解釋了為甚麼多數語言使用這些語法類別。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 開頭明確說明 common patterns 的原因，所以 Question 34 定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “similarities between languages”、“due to”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“common patterns”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shared linguistic elements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particularly human kind of reasoning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“we perceive the world…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “apparent similarities” 對應原文 “common patterns / widely shared linguistic elements”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Widely shared linguistic elements may also be ones that build on a particularly human kind of reasoning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "廣泛共享的語言元素，也可能建基於一種特別屬於人類的推理方式。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the fact that before we learn to speak we perceive the world as a place full of things causing actions (agents) and things having actions done to them (patients) explains why most languages deploy these grammatical categories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，在學會說話之前，我們已把世界感知為有造成行動者和承受行動者；這解釋了為甚麼多數語言使用這些語法類別。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “shared modes of perception” 最貼近 “we perceive the world…” 這個例子。不同語言有相似語法類別，可能因為人類在學會說話前已有相似的感知和推理方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “close social contact”原文沒有說語言相似源自社會接觸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “faulty analysis”文章沒有說語言相似只是分析錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “narrow descriptive systems”這像對 UG 框架的批評，但 Paragraph 7 的正面解釋是 shared reasoning / perception。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "C — The possible cause of something.",
+      "answerKey": "C — The possible cause of something.",
+      "type": "Multiple Choice",
+      "prompt": "Question 35",
+      "translation": "第八段提到 middle-ear infection 的作用是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： In the eighth paragraph, what purpose does the reference to a middle-ear infection serve?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Weak tendencies, in contrast, are explained by the idiosyncrasies of different languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相對地，weak tendencies 由不同語言的獨特性解釋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether this condition has shaped the sound systems of these languages is unknown, says Evans, but it is important to consider the idea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Evans 說，這種情況是否塑造了這些語言的聲音系統仍未知，但這個想法值得考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 8 是用某些獨特因素解釋不同語言的差異。尾句直接說 middle-ear infection 可能 shaped sound systems，所以題目答案應與 possible cause 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “middle-ear infection”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“indigenous Australian children have by far the highest incidence of chronic middle-ear infection…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most indigenous Australian languages lack many sounds…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether this condition has shaped the sound systems of these languages is unknown…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, Andy Butcher … has observed that indigenous Australian children have by far the highest incidence of chronic middle-ear infection of any population on the planet, and that most indigenous Australian languages lack many sounds that are common in other languages, but which are hard to hear with a middle-ear infection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Andy Butcher 觀察到，澳洲原住民兒童的慢性中耳感染發生率遠高於地球上任何其他族群；而大多數澳洲原住民語言缺少許多其他語言常見的聲音，這些聲音在有中耳感染時難以聽見。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether this condition has shaped the sound systems of these languages is unknown, says Evans, but it is important to consider the idea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Evans 說，這種情況是否塑造了這些語言的聲音系統仍未知，但這個想法值得考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "middle-ear infection 被用來提出一個可能因果關係：兒童聽覺條件可能影響某些語言的 sound systems。原文很謹慎，用 “whether … is unknown”，所以不能說它是已證實原因；更準確是possible cause。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “The possible cause of something” 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “A justification for something”原文不是在替某行動辯護。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “A contrast with something”這裡沒有主要對比功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “The likely result of something” middle-ear infection 是可能原因，缺少某些 sounds / sound systems 變化才是可能結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — It is presented in a convincing way.",
+      "answerKey": "B — It is presented in a convincing way.",
+      "type": "Multiple Choice",
+      "prompt": "Question 36",
+      "translation": "作者對 Evans 和 Levinson 的語言發展理論有甚麼看法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What does the writer suggest about Evans’ and Levinson’s theory of language development?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Levinson and Evans are not the first to question the theory of universal grammar, but no one has summarised these ideas quite as persuasively, and given them as much reach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Levinson 和 Evans 不是第一批質疑 universal grammar 的人，但沒有人像他們那樣有說服力地總結這些想法，並讓它們有如此大的影響範圍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Universal grammar is dead,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「Universal grammar 已死。」Paragraph 9 是作者評價 Evans 和 Levinson 的影響。首句直接有 persuasively，和 convincing 對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “writer suggest”、“Evans’ and Levinson’s theory”、“language development”。原文最關鍵字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“persuasively”"
+            },
+            {
+              "kind": "quote",
+              "text": "“given them as much reach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“generated widespread enthusiasm”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Levinson and Evans are not the first to question the theory of universal grammar, but no one has summarised these ideas quite as persuasively, and given them as much reach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Levinson 和 Evans 不是第一批質疑 UG 的人，但沒有人像他們那樣有說服力地總結這些想法，也沒有人讓這些想法有如此廣泛的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “It is presented in a convincing way.” 正好對應 “summarised these ideas quite as persuasively”。persuasively = in a convincing way。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “It had not been previously considered.”原文說他們 not the first to question UG，所以之前已有相關想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “It has been largely rejected by other linguists.”原文說 generated widespread enthusiasm，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “It is not supported by the evidence.”原文沒有說缺乏證據，語氣也沒有否定其理論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "D — To outline opposing views concerning the nature of language.",
+      "answerKey": "D — To outline opposing views concerning the nature of language.",
+      "type": "Multiple Choice",
+      "prompt": "Question 37",
+      "translation": "以下哪一項最能概括作者寫這篇文章的目的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Which of the following best describes the writer’s purpose?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看全文，不只看單段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 引入 UG：所有語言有共同核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraphs 2–4 用 Arrernte、Lao、Straits Salish、Pirahã 逐步挑戰 universals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraphs 5–8 介紹 Evans 和 Levinson：語言多樣性可能才是理解人類溝通的關鍵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 收結：這些觀點引發熱情，也被一些人看成 UG 的重大打擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文結構很明顯：先講一個長期主導觀點，再講反例與相反觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求 writer’s purpose，不能只找單一定位詞。要掃描全文重複主題："
+            },
+            {
+              "kind": "quote",
+              "text": "“universal grammar”"
+            },
+            {
+              "kind": "quote",
+              "text": "“universal language rules”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exceptions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“languages do not share a common set of rules”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no absolutely universal traits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Universal grammar is dead”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞建立了兩方觀點：UG 的共同規則論，以及 Evans / Levinson 的 diversity / tendencies 論。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“To outline opposing views concerning the nature of language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "概述關於語言本質的相反觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是全文目的。文章先介紹 UG：人腦天生 language-ready，所有語言有共同規則。接著列出多個例外，並介紹 Evans 和 Levinson 的相反主張：語言沒有共同規則，語言多樣性才是人類溝通的定義性特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “To describe progress in the field of cognitive science.”文章有提到 cognitive science，但主題不是認知科學發展史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “To defend a long-held view of language learning.”文章沒有替 UG 辯護，反而大篇幅展示它受到挑戰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “To identify the similarities between particular languages.”文章有談 similarities，但重心更大：普遍性與多樣性的對立觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — a sequence of sounds predicted by UG.",
+      "answerKey": "B — a sequence of sounds predicted by UG.",
+      "type": "Sentence Endings",
+      "prompt": "The Arrernte language breaks a ‘rule’ concerning a sequence of sounds predicted by UG.",
+      "translation": "Arrernte language 打破了一條關於 UG 所預測的聲音序列規則。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the theory of UG was proposed, linguists have identified many universal language rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 UG 理論提出以來，語言學家已找出許多 universal language rules。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This universal lasted until 1999, when linguists showed that Arrernte, spoken by Indigenous Australians from the area around Alice Springs in the Northern Territory, has VC syllables but no CV syllables.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條 universal 一直維持到 1999 年；當時語言學家顯示，Arrernte 有 VC 音節，但沒有 CV 音節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 專門講 universal rule 被 Arrernte 推翻。題目有 Arrernte，直接定位到本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Arrernte language” 和 “breaks a rule”。原文中最接近 “rule” 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was once believed, for example, that if a language had syllables that begin with a vowel and end with a consonant (VC), it would also have syllables that begin with a consonant and end with a vowel (CV).”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was once believed, for example, that if a language had syllables that begin with a vowel and end with a consonant (VC), it would also have syllables that begin with a consonant and end with a vowel (CV).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，人們曾經相信，如果一種語言有以 vowel 開頭、以 consonant 結尾的 VC 音節，它也會有以 consonant 開頭、以 vowel 結尾的 CV 音節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文說 Arrernte 有 VC syllables but no CV syllables。這推翻的是一條關於 syllable sequence 的規則。註腳說 syllable 是 “a unit of sound”，所以選項 B 的 “a sequence of sounds predicted by UG” 最貼合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 屬於 Lao；D 屬於 Pirahã；E “sentences beyond a specified length” 把 recursion 誤解成句長限制，與 Arrernte 無關。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — words of a certain grammatical type.",
+      "answerKey": "A — words of a certain grammatical type.",
+      "type": "Sentence Endings",
+      "prompt": "The Lao language has been identified as lacking words of a certain grammatical type.",
+      "translation": "Lao 被指出缺少某一種語法類別的詞。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other non-universal universals describe the basic rules of putting words together.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 non-universal universals 描述了詞語組合的基本規則。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, they have a single class of words to include events, objects and qualities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們使用單一詞類涵蓋 events、objects 和 qualities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中討論 word classes。題目有 Lao，所以直接在 Paragraph 3 找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Lao” 和 “lacking”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others, such as Lao, spoken in Laos, have no adjectives at all.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others, such as Lao, spoken in Laos, have no adjectives at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他語言，例如 Laos 所說的 Lao，完全沒有 adjectives。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "adjectives 是一種 grammatical word class，即語法詞類。選項 A “words of a certain grammatical type” 正好概括 adjectives。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “has been identified as lacking” 改寫原文 “have no adjectives at all”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是選項 C “words which can have more than one meaning”。原文沒有說 Lao 的詞有多義問題；它說的是缺少 adjectives 這一詞類。要看 “word class” 這個段落主題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — the language feature regarded as the most basic.",
+      "answerKey": "D — the language feature regarded as the most basic.",
+      "type": "Sentence Endings",
+      "prompt": "It has now been suggested that Amazonian Pirahã does not have the language feature regarded as the most basic.",
+      "translation": "現在有人提出，Amazonian Pirahã 沒有那項被認為最基本的語言特徵。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even apparently indisputable universals have been found lacking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使看似不可爭議的 universals，也被發現有缺陷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet Dan Everett at Illinois State University recently published controversial work showing that Amazonian Pirahã does not have this quality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Illinois State University 的 Dan Everett 最近發表具爭議的研究，顯示 Amazonian Pirahã沒有這種特質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說看似無可爭議的 universals 也有問題；尾句直接提 Amazonian Pirahã lacks this quality。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目正是問 this quality 是甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Amazonian Pirahã” 和 “does not have”。要回看前一句中的 this quality 指代甚麼。原文前面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This includes recursion…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“It is widely considered to be the most essential characteristic of human language…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This includes recursion, or the ability to infinitely place one grammatical unit inside a similar unit, such as ‘Jack thinks that Mary thinks that … the bus will be on time’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這包括 recursion，即把一個語法單位無限放入另一個相同語法單位中的能力，例如 “Jack thinks that Mary thinks that … the bus will be on time”。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is widely considered to be the most essential characteristic of human language, one that sets it apart from the communications of all other animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它被廣泛認為是人類語言最核心的特徵，也是把人類語言和其他動物溝通區分開來的特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet Dan Everett … published controversial work showing that Amazonian Pirahã does not have this quality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Dan Everett 發表具爭議的研究，顯示 Amazonian Pirahã 沒有這種特質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "this quality 指 recursion。選項 D “the language feature regarded as the most basic” 對應 “the most essential characteristic of human language”。basic 是 essential 的概括改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是選項 E “sentences beyond a specified length”。recursion 可以製造很長的句子，但原文重點在「語法嵌套能力」，不是句子長度限制。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Language diversity.pdf",
+    "sha256": "81758dde13de7b65b4d4e0f51a666726e3648dc88c5752b7879a37c686aa5535",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，這段是 universal grammar 的總引入。首句說 UG 是語言研究中最有影響力的想法之一，尾句說若要理解語言，就要先撇開大量語言差異，尋找共同的人類核心。中間應會交代 Chomsky、1960s、human brain born language-ready、common rules 等內容。這段很可能支援關於 UG 曾經流行、曾經主導語言研究方向，以及它如何看待語言多樣性的題目。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說自 UG 提出後，語言學家已找出許多 universal language rules；尾句卻說 Arrernte 有 VC syllables，但沒有 CV syllables，推翻了一條原本相信普遍成立的規則。只看首尾句，這段大概用具體例子說明：所謂 universal rule 常有例外。題目若提到 UG rules、exceptions、Arrernte、vowel-consonant、consonant-vowel、sequence of sounds，就應優先回到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說另一類 non-universal universals 涉及 words 如何組合；尾句說有些語言甚至被部分語言學家認為沒有 distinct nouns or verbs，而以單一詞類涵蓋 events、objects 和 qualities。這段功能是挑戰「每種語言都有相同基本 word classes」的想法。它會處理 nouns、verbs、adjectives、adverbs、Lao、Straits Salish 以及 linguists 是否有爭議等題目。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說即使看似不可爭議的 universals，也被發現有缺陷。尾句說 Dan Everett 最近發表具爭議的研究，指出 Amazonian Pirahã 沒有 recursion。這段集中處理 recursion，即可把一個語法單位無限放入相同單位中的能力。由首尾句可見，作者想指出連最核心、最基本的人類語言特徵也可能不普遍。Questions 40 明顯定位到這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句用問句轉向新觀點：假如語言多樣性本身才是理解人類溝通的關鍵？尾句指出令人不安的結論：每當一種語言滅絕，人類就失去重要的 diversity。這段是全篇思想轉折，介紹 Evans 和Levinson。他們認為語言沒有共同規則；語言差異塑造人腦，成長語言環境會令大腦有所不同。 Questions 31、32、33 很可能回到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句追問：如果語言沒有共同規則，那它們如何被創造？尾句說 strong and weak tendencies 的混合，構成我們稱為 language 的 bio-cultural mix。這段會解釋 Evans 和 Levinson 的替代方案：沒有絕對 universal traits，只有 tendencies；語言是由 culture、genetics、history 等因素共同塑造的 complex system。Question 33 也可用這段補強，因為它直接說語言沒有 absolute universals。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 strong tendencies 解釋為何許多語言顯示 common patterns。尾句用 agents 和 patients作例子，說人在學會說話前已把世界感知為「造成行動者」與「承受行動者」，這解釋了多數語言為何使用這些語法類別。這段功能是解釋跨語言相似性的來源：brain structure、speech biology、communication efficiency、人類特有 reasoning。Question 34 應定位到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 weak tendencies 則由不同語言的 idiosyncrasies 解釋。尾句說 middle-ear infection 是否塑造了這些語言的 sound systems 仍未知，但 Evans 認為值得考慮。這段用 Indigenous Australian children 的 chronic middle-ear infection 作例子，說某族群自然歷史或健康條件可能影響語言聲音系統。Question 35 問 middle-ear infection 的作用，答案就在這段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Levinson 和 Evans 並非第一批質疑 UG 的人，但沒有人像他們那樣有說服力地總結並擴大這些想法的影響。尾句引用 Tomasello 說 “Universal grammar is dead.” 這段是全文收結，描述Evans 和 Levinson 觀點的影響：引發廣泛熱情，特別是在厭倦 absolute universals 的語言學家之間。Questions 36、37 應回到這段看作者如何評價他們的理論。"
+      }
+    ]
+  }
+}

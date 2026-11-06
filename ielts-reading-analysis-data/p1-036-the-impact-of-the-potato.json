@@ -1,0 +1,1987 @@
+{
+  "id": "p1-036-the-impact-of-the-potato",
+  "catalogueId": "p1-036",
+  "catalogueIds": [
+    "p1-036"
+  ],
+  "passage": 1,
+  "title": "The Impact of the Potato",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "flower",
+    "prejudice",
+    "reverse",
+    "meat",
+    "crops",
+    "soil",
+    "cultivation",
+    "investment"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The early Spanish called the potato by the Incan name ‘Chuño’”",
+      "translation": "早期西班牙人用 Incan 名稱 “Chuño” 稱呼 potato。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷兩個關係是否正確：第一，early Spanish 如何稱呼 potato；第二，Chuño 是否是他們用來稱呼 potato 的名稱。定位詞是 “early Spanish” 和 “Chuño”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early Spanish chroniclers who misused the Indian word batata (sweet potato) as the name for the potato noted the importance of the tuber to the Incan Empire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期西班牙編年史家誤用 Indian word “batata”（sweet potato）作為 potato 的名稱，並記錄這種塊莖對 Incan Empire 的重要性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As well as using the food as a staple crop, the Incas thought potatoes made childbirth easier and used them to treat injuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了把這種食物作為主糧外，Incas 認為 potatoes 可令分娩更容易，也用它們治療傷患。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段會講西班牙記錄者如何稱呼 potato，以及 Incas 如何使用 potatoes。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “Spanish” 和 “Chuño”。Paragraph B 中 “Spanish chroniclers” 出現在第一句；“Chuño” 出現在中間："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Incas had learned to preserve the potato for storage by dehydrating and mashing potatoes into a substance called Chuño.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Incas 學會把 potatoes 脫水、搗碎成一種叫 Chuño 的物質，以便保存。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把兩個名稱分得很清楚：第一，early Spanish chroniclers 使用的名稱是 “batata”，而且是誤用 sweet potato 的 Indian word。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，“Chuño” 是 Incas 把 potatoes 脫水搗碎後製成的保存食品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 early Spanish called the potato by the Incan name Chuño。這把 “batata” 和 “Chuño” 的角色混在一起。原文中，Chuño 指保存後的 potato product，不是 early Spanish 對 potato 的稱呼。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“called the potato by the Incan name ‘Chuño’”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“misused the Indian word batata … as the name for the potato”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a substance called Chuño”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供了相反資訊：西班牙人誤用的是 batata；Chuño 是 Inca 的保存食品名稱。因此答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Chuño 和 Incan Empire 在同一段出現，很容易令人以為 Chuño 是 potato 的原名。細讀時要看"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“called” 修飾甚麼。原文說 “a substance called Chuño”，所以 Chuño 指製成品。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Spanish came to Peru in order to find potatoes”",
+      "translation": "西班牙人來到 Peru 是為了尋找 potatoes。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問目的。題目中的 “in order to find potatoes” 是因果／目的關係，定位詞是 “Spanish”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Peru” 和 “find potatoes”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“The Spanish conquistadors first encountered the potato when they arrived in Peru in 1532 in search of gold, and noted Inca miners eating chuño.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "西班牙征服者在 1532 年來到 Peru 尋找 gold 時，首次遇到 potato，並記錄 Inca 礦工食用chuño。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the arrival of the potato in Spain in 1570, a few Spanish farmers began to cultivate them on a small scale, mostly as food for livestock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "potato 於 1570 年到達 Spain 後，一些西班牙農民開始小規模種植，主要用作牲畜食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph C 講西班牙人如何遇到 potato，以及之後如何在 Spain 初步種植。第一句已經把到 Peru 的目的說清楚：search of gold。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Peru” 和 “find potatoes”。原文第一句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“arrived in Peru in 1532 in search of gold”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1532 年來到 Peru 尋找 gold。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的核心結構是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Spanish conquistadors first encountered the potato when they arrived in Peru in 1532 in search of gold…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "西班牙征服者是在到 Peru 尋找黃金時，首次遇到 potato。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“first encountered the potato” 表示他們碰巧遇到 potato；“in search of gold” 才是他們去 Peru 的目的。題目把目的改成 “find potatoes”，與原文目的相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“came to Peru in order to find potatoes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“arrived in Peru … in search of gold”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first encountered the potato”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文說目的在 gold，potato 是途中遇見的東西。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有 “Spanish”、“Peru”、“potatoes” 三個原文字眼，表面很像原文。真正定案的是目的短語 “in search of gold”。做 TRUE / FALSE 題時，名詞相同只能定位，目的關係才決定答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Spanish believed that the potato had the same nutritional value as other vegetables”",
+      "translation": "西班牙人相信 potato 和其他 vegetables 有相同營養價值。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Spanish 對 potato nutritional value 的看法。定位詞是 “Spanish”、“nutritional value” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“other vegetables”。要特別留意：文章有說西班牙人低估 potato 的價值，但是否談到「營養價值與其他蔬菜相同」，要再確認。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“The Spanish conquistadors first encountered the potato when they arrived in Peru in 1532 in search of gold, and noted Inca miners eating chuño.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "西班牙征服者於 1532 年到 Peru 尋找黃金時，首次遇到 potato，並記錄 Inca 礦工食用 chuño。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the arrival of the potato in Spain in 1570, a few Spanish farmers began to cultivate them on a small scale, mostly as food for livestock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "potato 於 1570 年到達 Spain 後，一些西班牙農民開始小規模種植，主要用作牲畜食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜這段會講 Spanish early response：他們看到 potato，之後在 Spain 小規模種植。這和題目主體 Spanish 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “nutritional value” 在原文沒有直接出現。與價值最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the time the Spaniards failed to realize that the potato represented a far more important treasure than either silver or gold…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時西班牙人沒有意識到 potato 代表的寶藏遠比 silver 或 gold 更重要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說西班牙人低估了 potato 的重要性。後文又說他們把 potatoes 當作 ship rations，之後在Spain mostly as food for livestock。可是文章沒有說他們把 potato 和其他 vegetables 作營養比較，也沒有說他們相信兩者營養價值相同或不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有的資料：西班牙人來 Peru 找 gold。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們記錄 Inca miners eating chuño。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們未意識到 potato 的重大價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們後來把 potatoes 用作船上基本糧食和牲畜食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少的資料： Spanish 對 potato nutrition 的具體看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "potato 和 other vegetables 的營養比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "same nutritional value 這個判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文提供相關背景，但缺少題目所需的核心比較，因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“failed to realize … far more important treasure” 很容易令人想判 FALSE，因為西班牙人明顯低估 potato。但低估重要性不等於他們相信 potato 和其他蔬菜營養相同。題目加入了 nutrition comparison，文章沒有交代這一層。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Peasants at the time did not like to eat potatoes because they were ugly”",
+      "translation": "當時 peasants 不喜歡吃 potatoes，原因之一是 potatoes 外形醜陋。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目主體是 peasants，動作是 did not like to eat potatoes，原因是 ugly。定位詞是 “peasants” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ugly”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D第一句：“Throughout Europe, potatoes were regarded with suspicion, distaste and fear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在整個 Europe，potatoes 被人以懷疑、厭惡和恐懼的態度看待。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some felt that the potato plant’s resemblance to plants in the nightshade family hinted that it was the creation of witches or devils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人覺得 potato plant 與 nightshade family 植物相似，暗示它可能是 witches 或 devils 的創造物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph D 是歐洲抗拒 potatoes 的段落。它從 general suspicion 講到迷信恐懼，因此 peasants 的反感原因很可能出現在中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “peasants” 和 “ugly”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even peasants refused to eat from a plant that produced ugly, misshapen tubers and that had come from a heathen civilization.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至 peasants 也拒絕食用這種植物，因為它長出 ugly、misshapen 的塊莖，而且來自 heathen civilization。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Even peasants”。核心動作是 “refused to eat”。原因包括兩項：第一，the plant produced ugly, misshapen tubers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，it had come from a heathen civilization。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目只提第一個原因：potatoes were ugly。這沒有越過原文，因為 ugly / misshapen tubers 確實是原文列出的原因之一。題目沒有使用 only，因此不需要涵蓋全部原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“did not like to eat potatoes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“refused to eat”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“because they were ugly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“produced ugly, misshapen tubers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目方向和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文還提到 heathen civilization。這只是另一個補充原因，不會推翻 ugly 這個原因。若題目寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“only because they were ugly”，答案便要重新判斷；現在題目沒有 only。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The popularity of potatoes in the UK was due to food shortages during the war”",
+      "translation": "potatoes 在 UK 受歡迎，與戰爭期間的食物短缺有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 UK / England 接受 potatoes 的原因。定位詞是 “UK”、“food shortages” 和 “war”。文章用England，而題目用 UK；在這篇文章中，相關證據在 England 段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In meat-loving England, farmers and urban workers regarded potatoes with extreme distaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在愛吃肉的 England，farmers 和 urban workers 對 potatoes 極度反感。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gradually, the lower classes began to follow the lead of the upper classes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "漸漸地，lower classes 開始跟隨 upper classes 的做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段講 England 從反感到逐漸接受 potatoes 的過程。題目問 popularity 的原因，自然應看這段中間的推動因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “food shortages” 和 “war”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Potatoes did not become a staple until, during the food shortages associated with the Revolutionary Wars, the English government began to officially encourage potato cultivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 Revolutionary Wars 相關的食物短缺期間，English government 開始正式鼓勵 potato cultivation，potatoes 才成為 staple。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的時間條件是 “during the food shortages associated with the Revolutionary Wars”。結果是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Potatoes … become a staple”。中間的推動力量是 English government began to officially encourage cultivation。題目把整個過程概括為 popularity due to food shortages during the war，方向吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“popularity of potatoes in the UK”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Potatoes … become a staple”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lower classes began to follow the lead of the upper classes”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“food shortages during the war”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“food shortages associated with the Revolutionary Wars”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文清楚把 potatoes 成為 staple 的轉折點連到 Revolutionary Wars 期間的 food shortages 和政府鼓勵。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "真正原因鏈有兩層：food shortages 製造需要，government encouragement 推動 cultivation。題目只概括 food shortages，沒有說它是唯一原因，所以仍然成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "flower",
+      "answerKey": "flower",
+      "type": "Sentence Completion",
+      "prompt": "“In France, people started to overcome their distaste for potatoes because the King wore a potato 6 _________________ in his buttonhole.”",
+      "translation": "在 France，人們開始克服對 potatoes 的反感，因為國王在 buttonhole 戴了一朵 potato ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，限制是 NO MORE THAN ONE WORD。空格前有 “a potato”，後面有 “in his buttonhole”，所以答案應是可佩戴的物件名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar pattern emerged across the English Channel in the Netherlands, Belgium and France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 English Channel 對岸的 Netherlands、Belgium 和 France，也出現類似模式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The people began to overcome their distaste when the plant received the royal seal of approval: Louis XVI began to sport a potato flower in his buttonhole, and Marie-Antoinette wore the purple potato blossom in her hair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這種植物獲得 royal seal of approval 時，人們開始克服反感：Louis XVI 開始在 buttonhole 戴potato flower，Marie-Antoinette 則在頭髮戴紫色 potato blossom。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經可以定位 Question 6。最後一句同時有 France acceptance、King 和buttonhole。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “France”、“buttonhole” 和 “King”。原文中的 “Louis XVI” 是 King 的具體人物，並有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“potato flower in his buttonhole”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵短語：“Louis XVI began to sport a potato flower in his buttonhole”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Louis XVI 開始在 buttonhole 戴上一朵 potato flower。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經給出 “a potato ______ in his buttonhole”，所以空格填 flower。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： flower = 1 word，符合 NO MORE THAN ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入句子：a potato flower in his buttonhole。文法自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“blossom” 也在同一句出現，但它屬於 Marie-Antoinette wore the purple potato blossom in her hair。題目問 King 和 buttonhole，所以答案是 flower。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "prejudice",
+      "answerKey": "prejudice",
+      "type": "Sentence Completion",
+      "prompt": "“Frederick recognised the potato’s potential, but he had to overcome ordinary people’s 7_________________ against it.”",
+      "translation": "Frederick 看出 potato 的潛力，但他需要克服普通人對它的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “ordinary people’s ______ against it” 中，需要一個名詞。定位詞是 Frederick 和 potential。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frederick the Great of Prussia saw the potato’s potential to help feed his nation and lower the price of bread, but faced the challenge of overcoming the people’s prejudice against the plant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Prussia 的 Frederick the Great 看出 potato 可幫助養活國家並降低 bread price，但他面對一個挑戰：克服人民對這種植物的 prejudice。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, this was entirely in line with Frederick’s wishes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，這完全符合 Frederick 的願望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph G 講 Frederick 如何推動 potatoes，尤其是克服人民反感。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Frederick”、“potential”、“against it” 在原文第一句全部出現，答案也在同一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“overcoming the people’s prejudice against the plant”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "克服人民對這種植物的偏見。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “ordinary people” 改寫為原文 “the people”。“against it” 對應 “against the plant”。空格要填的名詞是 prejudice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： prejudice = 1 word，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入句子：ordinary people’s prejudice against it。文法自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“ordinary people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the people”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“against it”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“against the plant”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：prejudice。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "reverse",
+      "answerKey": "reverse",
+      "type": "Sentence Completion",
+      "prompt": "“The King of Prussia adopted some 8 _________________ psychology to make people accept potatoes.”",
+      "translation": "Prussia 國王採用了一些 ______ psychology，令人民接受 potatoes。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “some ___ psychology” 中，需要一個形容詞或修飾詞。定位詞是 King of Prussia、psychology、accept potatoes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frederick the Great of Prussia saw the potato’s potential to help feed his nation and lower the price of bread, but faced the challenge of overcoming the people’s prejudice against the plant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Prussia 的 Frederick the Great 看出 potato 的潛力，但需要克服人民對它的偏見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, this was entirely in line with Frederick’s wishes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，這完全符合 Frederick 的願望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會講 Frederick 的策略，尤其是如何讓 peasants 自己想要 potatoes。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “psychology”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frederick used a bit of reverse psychology…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frederick 使用了一點 reverse psychology。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文完整句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trying a less direct approach to encourage his subjects to begin planting potatoes, Frederick used a bit of reverse psychology: he planted a royal field of potato plants and stationed a heavy guard to protect this field from thieves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了用較間接方式鼓勵臣民開始種 potatoes，Frederick 使用了一點 reverse psychology：他種了一片 royal potato field，並派重兵守衛，防止小偷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已給 “some ___ psychology”，原文是 “a bit of reverse psychology”。答案為 reverse。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： reverse = 1 word，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入句子：some reverse psychology。自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要填 psychology，因為題目已經提供 psychology。Completion 要看空格前後，不能重複題目已有的字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "meat",
+      "answerKey": "meat",
+      "type": "Sentence Completion",
+      "prompt": "“Before 1800, people in England preferred eating 9 _________________ with bread, butter and cheese.”",
+      "translation": "1800 年以前，England 的人主要吃 ______，再配 bread、butter 和 cheese。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要食物名詞。定位詞是 Before 1800、England、bread、butter、cheese。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historians debate whether the potato was primarily a cause or an effect of the huge population boom in industrial-era England and Wales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史學家爭論 potato 主要是 industrial-era England and Wales 人口大增的原因，還是結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“High-yielding, easily prepared potato crops were the obvious solution to England’s food problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高產且容易準備的 potato crops 是 England food problems 的明顯解法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講 England 的人口、飲食和 food problems。題目問 pre-1800 diet，應在中間找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Prior to 1800” 和 “bread, butter and cheese”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prior to 1800, the English diet had consisted primarily of meat, supplemented by bread, butter and cheese.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1800 年以前，English diet 主要由 meat 組成，並以 bread、butter 和 cheese 作補充。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的核心是 “consisted primarily of meat”。題目寫 “preferred eating ___ with bread, butter and cheese”，把 “consisted primarily of” 改成較口語的 preferred eating。空格填 meat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： meat = 1 word。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入題目：eating meat with bread, butter and cheese。語法自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before 1800”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prior to 1800”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“preferred eating”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“diet had consisted primarily of”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：meat。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "crops",
+      "answerKey": "crops",
+      "type": "Sentence Completion",
+      "prompt": "“The obvious solution to England’s food problems was high-yielding potato 10_________________”",
+      "translation": "England food problems 的明顯解法是高產的 potato ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “high-yielding potato” 後面，需要名詞。定位詞是 obvious solution、England’s food problems、high-yielding。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historians debate whether the potato was primarily a cause or an effect of the huge population boom in industrial-era England and Wales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史學家爭論 potato 主要是 England and Wales 工業時代人口大增的原因，還是結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“High-yielding, easily prepared potato crops were the obvious solution to England’s food problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高產且容易準備的 potato crops 是 England food problems 的明顯解法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經幾乎可直接答題，因為題目重現 obvious solution、England’s food problems和 high-yielding potato。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞 “obvious solution” 原文逐字出現。答案短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“High-yielding, easily prepared potato crops”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “potato crops were the obvious solution”。題目已經給 “high-yielding potato”，所以空格補上 crops。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： crops = 1 word，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入句子：high-yielding potato crops。文法自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “potato”，因為題目已經提供 potato。也不要填 “easily”，因為空格位置需要名詞，並非副詞或形容詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "soil",
+      "answerKey": "soil",
+      "type": "Sentence Completion",
+      "prompt": "“Irish 11 _________________ and climate suited potatoes well.”",
+      "translation": "Irish ______ and climate 很適合 potatoes。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格與 climate 並列，應該是一個自然條件名詞。定位詞是 Irish、climate、suited potatoes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whereas most of their neighbors regarded the potato with suspicion and had to be persuaded to use it by the upper classes, the Irish peasantry embraced the tuber more passionately than anyone since the Incas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數鄰國對 potato 抱有懷疑，並需要 upper classes 說服才使用；Irish peasantry 則是 Incas以來最熱情接受這種塊莖的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potato was well suited to Irish soil and climate, and its high yield suited the most important concern of most Irish farmers: to feed their families.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "potato 非常適合 Irish soil and climate，而且它的高產量配合大多數 Irish farmers 最重要的需要：養活家人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph I 解釋 Irish acceptance 的原因。Question 11 直接改寫最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Irish” 和 “climate”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Irish soil and climate”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potato was well suited to Irish soil and climate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "potato 很適合 Irish soil and climate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目保留 “Irish ___ and climate”，所以空格填 soil。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： soil = 1 word。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入句子：Irish soil and climate suited potatoes well。自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "cultivation",
+      "answerKey": "cultivation",
+      "type": "Sentence Completion",
+      "prompt": "“Between 1780 and 1841, because of the 12 _________________ of potatoes, the Irish population doubled to eight million.”",
+      "translation": "1780 至 1841 年間，由於 potatoes 的 ______，Irish population 翻倍至八百萬。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “because of the ___ of potatoes” 中，需要名詞。定位詞是 1780、1841、population doubled 和 eight million。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most dramatic example of the potato’s potential to alter population patterns occurred in Ireland, where the potato had become a staple by 1800.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "potato 改變人口模式的最劇烈例子出現在 Ireland；到 1800 年，potato 已成為當地 staple。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The abundance provided by potatoes greatly decreased infant mortality and encouraged early marriage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "potatoes 帶來的充裕食物大幅降低 infant mortality，並鼓勵 early marriage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph J 會講 potatoes 如何影響 Irish population。題目中的年份和人口翻倍應在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “1780”、“1841” 和 “doubled”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Irish population doubled to eight million between 1780 and 1841; this without any significant expansion of industry or reform of agricultural techniques beyond the widespread cultivation of the potato.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Irish population 在 1780 至 1841 年間翻倍至八百萬；在此期間，industry 沒有顯著擴張， agricultural techniques 也沒有重大改革，除了 potato 的 widespread cultivation。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文指出人口倍增沒有依靠工業擴張，也沒有依靠農業技術改革。唯一被標出的重大變化是 “the widespread cultivation of the potato”。題目把這句壓縮成 “because of the ___ of potatoes”，空格需要填 cultivation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： cultivation = 1 word，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入句子：because of the cultivation of potatoes。文法自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“abundance” 也在最後一句出現，而且確實和 infant mortality、early marriage 有關。不過題目中有 1780–1841 和 population doubled，這直接對應含 “widespread cultivation” 的句子。從定位精準度看，cultivation 最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "investment",
+      "answerKey": "investment",
+      "type": "Sentence Completion",
+      "prompt": "“The potato’s high yields helped even the poorest farmers produce healthier food with almost no 13 _________________”",
+      "translation": "potato 的高產量幫助最貧窮的 farmers 幾乎不用 ______，也能生產更健康的食物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “with almost no” 後面，需要名詞。定位詞是 high yields、poorest farmers、healthy food。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most dramatic example of the potato’s potential to alter population patterns occurred in Ireland, where the potato had become a staple by 1800.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "potato 改變人口模式的最劇烈例子出現在 Ireland；到 1800 年，它已成為當地 staple。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The abundance provided by potatoes greatly decreased infant mortality and encouraged early marriage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "potatoes 帶來的食物充裕大幅降低嬰兒死亡率，並鼓勵早婚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段講 Ireland、potato high yield 和人口增長。題目問 poorest farmers，應掃描中間關於 landholding 和 yields 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “poorest farmers” 和 “high yields”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though Irish landholding practices were primitive in comparison with those of England, the potato’s high yields allowed even the poorest farmers to produce more healthy food than they needed with scarcely any investment or hard labor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Irish landholding practices 與 England 相比相當原始，但 potato 的高產量讓即使最貧窮的farmers，也能以幾乎不需 investment 或 hard labor 的方式，生產出超過需要的健康食物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的答案部分是 “with scarcely any investment or hard labor”。題目寫 “with almost no ___”，其中 “almost no” 對應 “scarcely any”。在 ONE WORD 限制下，最自然答案是 investment，因為原文直接有 “scarcely any investment”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： investment = 1 word，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入句子：with almost no investment。文法自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充邊界：原文同時提到 “hard labor”，但這是兩個字，而且題目只留一個空格。若只填 labor，會漏掉原文中的 hard，精準度較低。這題最穩答案是 investment。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“almost no”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“scarcely any”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“helped even the poorest farmers produce healthier food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“allowed even the poorest farmers to produce more healthy food”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：investment。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "_Question Analysis Website Free Resource - Passage 1 - The Impact of the Potato _.pdf",
+    "sha256": "ddf941726c023fdc248464e72717108d949fbfe75cccb4053b48d7dea6079809",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 potato 最早在 South America 被栽培，時間可追溯至三千至七千年前；末句說基因分佈顯示 potato 很可能起源於南美洲中西部山區。只看首尾句，可以先判斷這段是起源段，重點在potato 的地理來源、時間深度和野生生長可能性。這段適合處理 origin、South America、cultivated、wild、genetic patterns 類題目。"
+      },
+      {
+        "number": "B",
+        "summary": "首句提到早期 Spanish chroniclers 誤用 batata 這個 Indian word 來稱呼 potato，並記錄 tuber 對Incan Empire 的重要性；末句說 Incas 認為 potatoes 可令 childbirth 更容易，也用來治療 injuries。只看首尾句，可以估計這段處理 Incan 使用方式：保存成 Chuño、作 staple crop、防 famine，也有醫療和生育相關用途。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Spanish conquistadors 到 Peru 尋找 gold 時首次遇到 potato；末句說 potato 到達 Spain後，一些 Spanish farmers 小規模種植，主要用作 livestock food。只看首尾句，可以判斷這段講西班牙人接觸 potato 的早期反應。重點在 search for gold、未意識到 potato 價值、船上 basic rations，以及最初主要餵牲畜。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說整個 Europe 對 potatoes 抱有 suspicion、distaste 和 fear；末句說有人覺得 potato plant與 nightshade family 相似，暗示它可能來自 witches or devils。只看首尾句，可以估計這段是歐洲抗拒段。重點包括不適合人食用、只作 animal fodder、botanical gardens、peasants 拒食，以及外形醜陋和宗教／迷信恐懼。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說在 meat-loving England，farmers 和 urban workers 對 potatoes 極度反感；末句說 lower classes 逐漸跟隨 upper classes 的做法。只看首尾句，可以判斷這段講 England 接受 potato 的過程。中間會出現 Royal Society、food shortages、Revolutionary Wars、government encouragement、pamphlet、newspaper editorials 和 recipes 等推動因素。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 English Channel 對岸的 Netherlands、Belgium 和 France 出現相似模式；末句說 Louis XVI 在 buttonhole 戴 potato flower，Marie-Antoinette 在頭髮戴 purple potato blossom。只看首尾句，可以估計這段講法國等地如何由懷疑轉向接受。核心在 peasants suspicious、Faculté de Paris 證明無害有益，以及 royal seal of approval。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Frederick the Great 看出 potato 可幫助養活國家、降低 bread price，但要克服人民偏見；末句說 peasants 偷走 royal field 的 potato plants，這完全符合 Frederick 的願望。只看首尾句，可以判斷這段講 Prussia 的推廣策略。重點是 famine protection、town of Kolberg 的拒絕、reverse psychology 和 guarded royal field。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 historians 爭論 potato 是 industrial-era England and Wales population boom 的原因還是結果；末句說 high-yielding、easily prepared potato crops 是 England food problems 的 obvious solution。只看首尾句，可以估計這段講工業革命城市化後的飲食問題。關鍵包括 pre-1800 diet、meat、few vegetables、crowded cities、沒有 oven / coal storage、長工時。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說大多鄰國對 potato 懷疑，要由 upper classes 說服才使用；Irish peasantry 則像 Incas 之後最熱情地接受它。末句說 potato suited Irish soil and climate，而且 high yield 配合 Irish farmers最重要的需要：feed their families。只看首尾句，可以判斷這段集中講 Ireland 為何特別接受potato。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說 potato 改變 population patterns 的最劇烈例子出現在 Ireland；末句說 potatoes 帶來的abundance 大幅降低 infant mortality，並鼓勵 early marriage。只看首尾句，可以估計這段講potato 與 Irish population boom 的關係。重點包括 1780–1841 人口倍增、widespread cultivation、poorest farmers、healthy food、low investment / hard labor。"
+      }
+    ]
+  }
+}

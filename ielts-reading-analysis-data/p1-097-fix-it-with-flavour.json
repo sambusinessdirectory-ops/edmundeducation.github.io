@@ -1,0 +1,2187 @@
+{
+  "id": "p1-097-fix-it-with-flavour",
+  "catalogueId": "p1-097",
+  "catalogueIds": [
+    "p1-097"
+  ],
+  "passage": 1,
+  "title": "Fix it with Flavour",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "G",
+    "E",
+    "C",
+    "A",
+    "muddled",
+    "arthritis",
+    "vitamin C",
+    "pleasure",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“The reason that turmeric is yellow”",
+      "translation": "turmeric 呈黃色的原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies at the Indian Institute of Science, in Bangalore, suggest that curcumin, the chemical that gives turmeric its yellow colour, might also help to treat malaria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bangalore 的 Indian Institute of Science 研究顯示，curcumin 這種令 turmeric 呈黃色的化學物質，也可能幫助治療 malaria。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After 20 days, a third of the treated mice were alive, whereas the untreated animals all died by day 13.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "20 日後，接受治療的小鼠有三分之一仍然存活；未接受治療的小鼠則全部在第 13 日前死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph G 主要講 curcumin 和 malaria 實驗。首句已經直接包含turmeric yellow colour 的原因，所以這段非常值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“turmeric”"
+            },
+            {
+              "kind": "quote",
+              "text": "“yellow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reason”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“curcumin, the chemical that gives turmeric its yellow colour”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 turmeric、yellow colour 和原因關係，所以可以停下。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies at the Indian Institute of Science, in Bangalore, suggest that curcumin, the chemical that gives turmeric its yellow colour, might also help to treat malaria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bangalore 的 Indian Institute of Science 研究顯示，curcumin 這種令 turmeric 呈黃色的化學物質，也可能幫助治療 malaria。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “curcumin”。插入語 “the chemical that gives turmeric its yellow colour” 解釋curcumin 的作用：它令 turmeric 呈黃色。題目問的是哪一段包含 “the reason that turmeric is yellow”，答案就落在 Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the reason that turmeric is yellow”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the chemical that gives turmeric its yellow colour”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： reason = the chemical cause turmeric is yellow = gives turmeric its yellow colour所以答案是 G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 Paragraph D 也說 turmeric 是 “the yellow ingredient”。那句只說 turmeric 是黃色材料，沒有解釋原因。Question 1 問 reason，所以真正定案要找 curcumin。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“How turmeric is used by Indians”",
+      "translation": "印度人如何使用 turmeric。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Turmeric is used in Indian homes as a first-aid treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Turmeric 在印度家庭中被用作急救處理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is also supposed to be a cure for arthritis, and scientists are now researching its potential ability to suppress the growth of cancer cells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也被認為可能是治療 arthritis 的方法，而科學家現正研究它抑制 cancer cells 生長的潛力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 明顯講 turmeric 在印度家庭中的具體使用方式，以及一些醫療聲稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “How turmeric is used by Indians”，最貼近 Paragraph E 的家庭使用例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“turmeric”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Indians”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文不一定直接說 Indians，但 “Indian homes” 是最強對應。Paragraph E 第一題就有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Turmeric is used in Indian homes as a first-aid treatment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著用 small cut 作例子，所以這段就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Turmeric is used in Indian homes as a first-aid treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Turmeric 在印度家庭中被用作急救處理。"
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, if you had a small cut on your finger, you’d run it under the tap and then dust the wound with turmeric.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，如果你的手指有小傷口，你會先用水龍頭沖洗，然後把 turmeric 灑在傷口上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來說明 Indians 如何使用 turmeric：作為家庭急救材料，尤其用於小傷口。題目問的是一段資訊位置，所以答案是 Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“How turmeric is used by Indians”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“used in Indian homes as a first-aid treatment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dust the wound with turmeric”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Indians = Indian homes how it is used = first-aid treatment / dust the wound答案是 E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也講印度醫生和印度烹調中的 turmeric，但 D 偏向介紹 turmeric 的一般地位和antibacterial properties。Question 2 的 “How” 更像要求具體操作方式；Paragraph E 的 wound example 更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A medieval remedy for stomach upsets”",
+      "translation": "一種中世紀用來處理 stomach upsets 的療法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ginger was held to be good for stomach upsets, and it is now known to have anti-nausea properties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ginger 曾被認為對 stomach upsets 有好處，現代也知道它有抗噁心作用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, those muddled medieval medics also believed that ginger was a cure for the Black Death—it isn’t—and that eating borage would give you courage, just because the words rhymed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，那些混亂的中世紀醫者也相信 ginger 可以治 Black Death——其實不能——又相信吃borage 會令人有勇氣，只因兩個字押韻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接出現 ginger 和 stomach upsets，末句提到 medieval medics。這段顯然含有 Question 3的答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“medieval”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remedy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stomach upsets”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時不只找 remedy，也要找 “good for” 或 “cure”。Paragraph C 第一個句子已經出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ginger was held to be good for stomach upsets…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 remedy 的意思和 stomach upsets。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ginger was held to be good for stomach upsets, and it is now known to have anti-nausea properties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ginger 曾被認為對 stomach upsets 有好處，現代也知道它有抗噁心作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“was held to be” 表示「當時被認為是」。題目說 “medieval remedy”，雖然這句沒有把 medieval 放在同一句中，但 Paragraph C 的最後一句說 “those muddled medieval medics”，把這些觀念放回中世紀醫學語境。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a medieval remedy for stomach upsets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ginger was held to be good for stomach upsets”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： remedy = something held to be good for a condition medieval = those muddled medieval medics stomach upsets = stomach upsets所以答案是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph A 也講 stomach / guts problems，但那段是 Gabriele Dionisi 的個人方法； Question 3 有 “medieval”，所以要找古代醫學語境。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The method Gabriele Dionisi uses to treat stomach upsets”",
+      "translation": "Gabriele Dionisi 用來處理 stomach upsets 的方法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gabriele Dionisi, a 38-year-old Italian computer wizard living in London, is a true individualist when it comes to food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gabriele Dionisi 是一位住在倫敦、38 歲的意大利電腦高手；說到食物，他是一個非常個人化的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s an old Italian recipe,’ he says. ‘My grandmother taught me to make it. It’s very good for digestion.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「這是一個古老的意大利配方。我的祖母教我做的。它對消化很好。」首句給出人物名，末句給出 recipe 和 digestion。Question 4 指名 Gabriele Dionisi，所以Paragraph A 是最直接的定位段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gabriele Dionisi”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stomach upsets”"
+            },
+            {
+              "kind": "quote",
+              "text": "“method”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有寫 stomach upsets，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“problems with his guts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“digestion”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph A 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then he makes himself a hot cup of camomile tea with honey and half a spoonful of chilli flakes.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“For some unfathomable reason, he sometimes has problems with his guts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出於某些難以理解的原因，他有時會腸胃不適。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Then he makes himself a hot cup of camomile tea with honey and half a spoonful of chilli flakes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後他會為自己泡一杯熱 camomile tea，加 honey 和半匙 chilli flakes。"
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s very good for digestion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它對消化很好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句建立完整證據鏈：他有 gut problems；他的處理方法是熱 camomile tea 加 honey 和 chilli flakes；他認為這對 digestion 有好處。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“stomach upsets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“problems with his guts”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“method”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“makes himself a hot cup of camomile tea with honey and half a spoonful of chilli flakes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "muddled",
+      "answerKey": "muddled",
+      "type": "Sentence Completion",
+      "prompt": "“The article refers to medieval herbalists as 5 _________________ because they didn’t always use herbs properly.”",
+      "translation": "文章把中世紀 herbalists 稱為 ______，因為他們並不總是正確使用草藥或香料。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ginger was held to be good for stomach upsets, and it is now known to have anti-nausea properties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ginger 曾被認為對 stomach upsets 有好處，現代也知道它有抗噁心作用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, those muddled medieval medics also believed that ginger was a cure for the Black Death—it isn’t—and that eating borage would give you courage, just because the words rhymed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，那些混亂的中世紀醫者也相信 ginger 可以治 Black Death——其實不能——又相信吃borage 會令人有勇氣，只因兩個字押韻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 先說中世紀療法有時有道理，最後轉到錯誤療法。Question 5 的 “didn’t always use herbs properly” 就是這個轉折。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“medieval herbalists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“didn’t always”"
+            },
+            {
+              "kind": "quote",
+              "text": "“properly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相近說法是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately”"
+            },
+            {
+              "kind": "quote",
+              "text": "“muddled medieval medics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ginger was a cure for the Black Death—it isn’t”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 herbalists，原文用 medics，都是指那些中世紀用香料和草藥治病的人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, those muddled medieval medics also believed that ginger was a cure for the Black Death—it isn’t—and that eating borage would give you courage, just because the words rhymed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，那些混亂的中世紀醫者也相信 ginger 可以治 Black Death——其實不能——又相信吃borage 會令人有勇氣，只因兩個字押韻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要填的是文章如何形容他們。完整原文短語是 “muddled medieval medics”，但題目限制最多兩個字。若填 “muddled medieval medics” 會超字數。若填 “medieval medics”，只表示身份，沒有表達 “didn’t always use herbs properly” 的評價。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最適合的答案是 muddled。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： muddled = 一個字詞性：形容詞放回題目：refers to medieval herbalists as muddled意思自然：稱他們混亂、糊塗，因為他們有時把療法搞錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 muddled。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "arthritis",
+      "answerKey": "arthritis",
+      "type": "Sentence Completion",
+      "prompt": "“The article provides no support for the suggestion that turmeric can help to deal with 6_________________, though this is being investigated.”",
+      "translation": "文章沒有提供充分證據支持 turmeric 可以處理 ______ 的說法，雖然這方面正在被研究。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E，並可連到 Paragraph F 作背景核對。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Turmeric is used in Indian homes as a first-aid treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Turmeric 在印度家庭中被用作急救處理。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is also supposed to be a cure for arthritis, and scientists are now researching its potential ability to suppress the growth of cancer cells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也被認為可能是治療 arthritis 的方法，而科學家現正研究它抑制 cancer cells 生長的潛力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 主要列出 turmeric 的家庭用途和醫療聲稱。Question 6 的 “no support” 和 “being investigated” 正好對應這句中的 “supposed to be” 和 “researching”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“turmeric”"
+            },
+            {
+              "kind": "quote",
+              "text": "“deal with”"
+            },
+            {
+              "kind": "quote",
+              "text": "“being investigated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文的對應詞可能是："
+            },
+            {
+              "kind": "quote",
+              "text": "“supposed to be a cure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“researching”"
+            },
+            {
+              "kind": "quote",
+              "text": "“arthritis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cancer cells”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph E 時，最關鍵句就是最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is also supposed to be a cure for arthritis…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也被認為可能是治療 arthritis 的方法。"
+            },
+            {
+              "kind": "quote",
+              "text": "“supposed to be” 很重要。它表示「被認為是」、「據說是」，語氣上未提供實證。題目說 “provides no support for the suggestion”，正是把 “supposed to be” 的不確定性改寫出來。後文 Paragraph F 又說：“researchers at the Columbia University College of Physicians and Surgeons are investigating Zyflamend, a herbal treatment for arthritis, which contains turmeric and ginger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Columbia University College of Physicians and Surgeons 的研究者正在研究 Zyflamend，這是一種用於 arthritis 的草本療法，當中含有 turmeric 和 ginger。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可以解釋題目中的 “though this is being investigated”。不過文章沒有直接證明 turmeric 本身能治 arthritis；它只說 turmeric 被認為可治 arthritis，另有含 turmeric 和 ginger 的草本療法被研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： arthritis = 一個字原文有同字放入題目：turmeric can help to deal with arthritis語法自然，意思清楚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 arthritis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 cancer cells。Paragraph E 也提到 scientists researching cancer cells，但 Paragraph F接著提供 Zyflamend 對 cancer cell death 的研究結果。Question 6 的 “provides no support for the suggestion” 更貼近 “supposed to be a cure for arthritis”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "vitamin C",
+      "answerKey": "vitamin C",
+      "type": "Sentence Completion",
+      "prompt": "“A single chilli provides more 7 _________________ than a person needs in a day.”",
+      "translation": "一隻 chilli 提供的 ______ 超過一個人每日所需。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you want to know what chillies do to the body, cut open a fresh chilli and hold it on the back of your hand for 15 or 20 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你想知道 chillies 對身體有甚麼作用，可以切開一隻新鮮 chilli，放在手背上 15 至 20 分鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One chilli contains 100 mg of vitamin C—more than the recommended daily amount—and capsaicin, the chemical in chillies that gives them heat, is also a natural decongestant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一隻 chilli 含有 100 毫克 vitamin C，超過每日建議攝取量；而 capsaicin，即令 chillies 產生辣感的化學物質，也是天然通鼻劑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 介紹 chilli 對身體的影響和營養。Question 7 的 “single chilli” 直接對應最後一句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“One chilli”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“single chilli”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than”"
+            },
+            {
+              "kind": "quote",
+              "text": "“needs in a day”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“One chilli”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than the recommended daily amount”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩組字高度相似，可以直接停在 Paragraph H 最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One chilli contains 100 mg of vitamin C—more than the recommended daily amount…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一隻 chilli 含有 100 毫克 vitamin C，超過每日建議攝取量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “a person needs in a day” 對應 “recommended daily amount”。空格前是 “more”，後面需要一個營養成分名詞。原文給出的營養成分是 vitamin C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： vitamin C = 兩個字 / 一個專有營養名詞符合 “NO MORE THAN TWO WORDS”放入題目：A single chilli provides more vitamin C than a person needs in a day.所以答案是 vitamin C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "pleasure",
+      "answerKey": "pleasure",
+      "type": "Sentence Completion",
+      "prompt": "“Eating chillies creates a feeling of 8 _________________ thanks to the release of endorphins.”",
+      "translation": "吃 chillies 會因 endorphins 釋放而產生一種 ______ 的感覺。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pleasure of chillies comes from the pain of eating them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chillies 帶來的 pleasure 來自吃它們時的 pain。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the light of this, perhaps the late Signora Dionisi should have taught her favourite grandson how to make something other than chilli camomile tea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這點看來，已故 Signora Dionisi 或許應該教她最喜歡的孫子煮 chilli camomile tea 以外的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 解釋 chilli 帶來愉快感的生理原因，並用 Signora Dionisi 的笑話收尾。Question 8 提到 endorphins，必定在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“endorphins”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feeling”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the burning sensation in the mouth triggers the release of endorphins”"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“This makes you feel good…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pleasure of chillies comes from the pain of eating them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chillies 帶來的 pleasure 來自吃它們時的 pain。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Literally, the burning sensation in the mouth triggers the release of endorphins, opiate-like painkilling chemicals, in the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按字面來說，口腔中的灼熱感會觸發大腦釋放 endorphins；endorphins 是類似 opiate 的止痛化學物質。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This makes you feel good…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會令你感覺良好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要填 “a feeling of ___”。如果填 “good”，會變成 “a feeling of good”，語法不自然。Paragraph I 第一個字眼 “pleasure” 正好是名詞，並且總結 endorphins 帶來的愉悅感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： pleasure = 一個字來自原文放回句子：a feeling of pleasure語法自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 pleasure。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cloves are used to make aspirin.”",
+      "translation": "Cloves 被用來製造 aspirin。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spices such as chilli have been used for medicinal purposes in Europe for centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chilli 等香料在歐洲已有數百年藥用歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cloves also contain salicylic acid, the basis of aspirin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cloves 也含有 salicylic acid，而 salicylic acid 是 aspirin 的基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 講歐洲香料藥用歷史，cloves 和 aspirin 都在最後一句出現。這段是唯一需要細讀的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cloves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aspirin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used to make”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接有 cloves 和 aspirin，但沒有 “used to make”。因此要細讀句子關係，不能只看名詞重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cloves also contain salicylic acid, the basis of aspirin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cloves 也含有 salicylic acid，而 salicylic acid 是 aspirin 的基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明兩件事：第一，cloves 含有 salicylic acid。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，salicylic acid 是 aspirin 的基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目提出的命題是： cloves are used to make aspirin這需要文章提供「cloves 作為 aspirin 製造材料」或「cloves 被用於 aspirin 生產」這類資訊。原文只說 cloves 含有某種與 aspirin 有關的化學物質，仍未說 aspirin 由 cloves 製成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有相關背景：cloves contain salicylic acid。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少關鍵動作：used to make aspirin。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章也沒有說 cloves 沒有被用來製 aspirin，所以不應選 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 TRUE / FALSE / NOT GIVEN 規則，缺少核心資料時選 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫檢查",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“are used to make”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“contain”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個動詞關係不同。contain 只說成分；used to make 說用途或製造過程。關鍵缺失正是在這個動詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Turmeric is not used in Indian cooking because of its taste.”",
+      "translation": "Turmeric 在印度烹調中使用，原因不在於它的味道。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Doctors in India have long used spices as medicines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "印度醫生長期把香料用作藥物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Turmeric is an antiseptic and disinfectant, and it is used widely not so much for its taste but for its antibacterial properties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Turmeric 是 antiseptic 和 disinfectant，而且它被廣泛使用，主要原因不太在味道，重點在antibacterial properties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的功能是介紹印度對香料的醫療性使用，尤其 turmeric 的醫療價值。Question 10問 taste，答案就在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Turmeric”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Indian cooking”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taste”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Indian chef’s favourite medical spice is turmeric, the yellow ingredient used in almost all Indian cookery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "印度廚師最喜愛的醫療香料是 turmeric，這種黃色材料幾乎用於所有印度烹調。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“used widely not so much for its taste but for its antibacterial properties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它被廣泛使用，主要原因不太在味道，重點在抗菌特性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Turmeric is an antiseptic and disinfectant, and it is used widely not so much for its taste but for its antibacterial properties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Turmeric 是 antiseptic 和 disinfectant，而且它被廣泛使用，主要原因不太在味道，重點在antibacterial properties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子需要小心讀。它的意思應理解為：turmeric 在印度烹調中使用，原因並非味道。原文說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“not so much for its taste”，表示味道不是主要理由；真正被強調的是 antibacterial properties。題目命題： Turmeric is not used in Indian cooking because of its taste.原文命題： Turmeric is used widely not so much for its taste, but for antibacterial properties.兩者方向一致，所以答案是 TRUE。中伏位在於英文 “not used in Indian cooking because of its taste” 有機會令人誤讀為「turmeric 沒有用於印度烹調」。可是前文已明確說它是 “used in almost all Indian cookery”。因此這題的合理讀法是：它的使用原因不在 taste。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“not … because of its taste”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“not so much for its taste”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Zyflamend can kill cancer cells.”",
+      "translation": "Zyflamend 能殺死 cancer cells。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2002, staff at the oncology department of Leicester University noticed that of 500 patients with colon cancer, only two were Asian, despite the fact that 20 per cent of the population in Leicester is Asian.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2002 年，Leicester University 腫瘤科職員注意到，在 500 名 colon cancer 患者中，只有兩人是Asian，儘管 Leicester 有 20% 人口是 Asian。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zyflamend has shown an ability to reduce prostate cancer cell proliferation by as much as 78%and induce cancer cell death.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zyflamend 已顯示能把 prostate cancer cell proliferation 降低最多 78%，並誘導 cancer cell death。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 明顯講 cancer 研究，最後一句直接提到 Zyflamend 和 cancer cell death。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zyflamend”"
+            },
+            {
+              "kind": "quote",
+              "text": "“kill”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cancer cells”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有用 kill，但有非常接近的科學表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“induce cancer cell death”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zyflamend has shown an ability to reduce prostate cancer cell proliferation by as much as 78%and induce cancer cell death.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zyflamend 已顯示能把前列腺癌細胞增殖降低最多 78%，並誘導癌細胞死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個效果：第一，reduce prostate cancer cell proliferation，減少癌細胞增殖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，induce cancer cell death，誘導癌細胞死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “kill cancer cells”，是把 “induce cancer cell death” 用更日常的語言表達出來。雖然 “kill”較口語，核心意思和 cancer cell death 一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can kill cancer cells”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“has shown an ability to … induce cancer cell death”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： kill = cause death cancer cells = cancer cell所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Chillies help prevent colds because they contain capsaicin.”",
+      "translation": "Chillies 能幫助預防 colds，是因為它們含有 capsaicin。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you want to know what chillies do to the body, cut open a fresh chilli and hold it on the back of your hand for 15 or 20 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你想知道 chillies 對身體有甚麼作用，可以切開一隻 fresh chilli，放在手背上 15 至 20 分鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One chilli contains 100 mg of vitamin C—more than the recommended daily amount—and capsaicin, the chemical in chillies that gives them heat, is also a natural decongestant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一隻 chilli 含有 100 毫克 vitamin C，超過每日建議攝取量；而 capsaicin，即令 chillies 有辣感的化學物質，也是天然通鼻劑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 講 chilli 的身體作用、營養成分和 capsaicin。Question 12 同時問 colds 和capsaicin，所以需要細讀 Paragraph H 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chillies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prevent colds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "quote",
+              "text": "“capsaicin”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“chilli contains twice as much vitamin C as an orange, and it really can help to protect the body from colds and flu.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“capsaicin … is also a natural decongestant.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句相鄰，所以要檢查因果關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, chilli contains twice as much vitamin C as an orange, and it really can help to protect the body from colds and flu.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，chilli 含有橙兩倍的 vitamin C，而且它確實能幫助身體抵禦 colds and flu。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One chilli contains 100 mg of vitamin C—more than the recommended daily amount—and capsaicin, the chemical in chillies that gives them heat, is also a natural decongestant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一隻 chilli 含有 100 毫克 vitamin C，超過每日建議攝取量；而 capsaicin，即令 chillies 有辣感的化學物質，也是天然通鼻劑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 chillies help prevent colds because they contain capsaicin。這裡錯在因果關係。原文把colds and flu 的保護作用連到 vitamin C；capsaicin 的功能是 natural decongestant，也就是幫助通鼻、減輕鼻塞相關症狀。文章沒有說 capsaicin 是預防 colds 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： because of capsaicin → prevent colds原文命題： vitamin C → help protect body from colds and flu capsaicin → natural decongestant原文已經給出另一個明確原因，所以題目把原因換錯了。答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 capsaicin 和 colds 在同一段後半很接近。看到兩個關鍵詞相鄰，仍要看動詞和因果詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 12 的控制詞是 because。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Signora Dionisi taught her favourite grandson many traditional Italian recipes.”",
+      "translation": "Signora Dionisi 教了她最喜歡的孫子很多傳統意大利配方。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A 和 Paragraph I Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gabriele Dionisi, a 38-year-old Italian computer wizard living in London, is a true individualist when it comes to food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gabriele Dionisi 是一位住在倫敦、38 歲的意大利電腦高手；說到食物，他是一個非常個人化的人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s an old Italian recipe,’ he says. ‘My grandmother taught me to make it. It’s very good for digestion.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「這是一個古老的意大利配方。我的祖母教我做的。它對消化很好。」Paragraph I 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the light of this, perhaps the late Signora Dionisi should have taught her favourite grandson how to make something other than chilli camomile tea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這點看來，已故 Signora Dionisi 或許應該教她最喜歡的孫子煮 chilli camomile tea 以外的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 13 要把祖母、孫子和 recipes 連起來，所以需要跨 Paragraph A 和 I。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Signora Dionisi”"
+            },
+            {
+              "kind": "quote",
+              "text": "“favourite grandson”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional Italian recipes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 有 “My grandmother taught me to make it.” Paragraph I 有 “Signora Dionisi” 和 “favourite grandson”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子有關，但還要檢查數量 many 和 recipe 的範圍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s an old Italian recipe,’ he says. ‘My grandmother taught me to make it. It’s very good for digestion.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「這是一個古老的意大利配方。我的祖母教我做的。它對消化很好。」這句只支援一件事：祖母教他做這個 old Italian recipe，也就是 camomile tea with honey and chilli flakes。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the light of this, perhaps the late Signora Dionisi should have taught her favourite grandson how to make something other than chilli camomile tea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這點看來，已故 Signora Dionisi 或許應該教她最喜歡的孫子煮 chilli camomile tea 以外的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是作者的幽默評論，表示作者覺得祖母也許應該教他別的東西。它沒有說她實際教過 many recipes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題包含三部分：第一，Signora Dionisi taught him recipes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，這些 recipes 是 traditional Italian recipes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，數量是 many。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只支援第一部分中的一個例子：她教過他一個 old Italian recipe。文章沒有提供 “many” 的證據，也沒有列出多個 traditional Italian recipes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “old Italian recipe” 和 “something other than chilli camomile tea”。這些字容易令人聯想到她懂很多傳統配方，但 IELTS 不能靠聯想補資料。原文只確認一個配方，沒有確認 many。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Fix it with Flavour.pdf",
+    "sha256": "00f502db6ce75e25baf0df4eb11329d74f494d3096736b0379a21afa9daa4eb5",
+    "pageCount": 29
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段介紹 Gabriele Dionisi，一個住在倫敦的意大利電腦高手，並說他在食物方面非常個人化。只看末句，他用祖母教的意大利老配方，即 camomile tea、honey 和 chilli flakes，來幫助消化。因此 Paragraph A 主要用人物故事引入「香料可作療法」這個主題。題目若問 Gabriele Dionisi、stomach upsets、digestion 或 family recipe，應先回到這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 chilli 等香料在歐洲已有數百年藥用歷史。末句說 cloves 也含有 salicylic acid，也就是aspirin 的基礎。首尾句顯示，Paragraph B 主要講中世紀歐洲 herbalists 對香料醫療用途的理解有時正確，有時偏差很大。cloves、toothache、eugenol、local anaesthetic、aspirin 都是重要定位詞。Question 9 關於 cloves 和 aspirin，會用到這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 ginger 曾被認為對 stomach upsets 有好處，現代也知道它有 anti-nausea properties。末句說中世紀醫者也有錯誤想法，例如 ginger 治 Black Death、borage 令人勇敢，只因字音押韻。這段的功能是延續 Paragraph B：展示古代香料醫學「有些對，有些錯」。ginger、stomach upsets、anti-nausea、muddled medieval medics 都是題目定位點。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說印度醫生長期把香料當藥使用。末句說 turmeric 廣泛使用，重點不太在味道，而在antibacterial properties。由首尾句可估計，Paragraph D 主要介紹印度香料醫學傳統，尤其turmeric 在印度烹調和醫療中的地位。若題目問 Indian doctors、Indian cookery、taste、antibacterial properties 或 turmeric 的一般用途，應先掃這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 turmeric 在印度家庭中用作 first-aid treatment。末句說它也被認為可治 arthritis，科學家正研究它抑制 cancer cells 生長的潛力。只看首尾句，Paragraph E 的核心是 turmeric 的家庭急救用途和仍在研究中的醫療聲稱。small cut、tap、dust the wound、arthritis、cancer cells 都是強定位詞。Questions 2 和 6 都會重點看這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Leicester University 腫瘤科在 2002 年注意到，500 名 colon cancer 患者中只有兩名是Asian。末句說 Zyflamend 能降低 prostate cancer cell proliferation，並誘導 cancer cell death。這段主要用研究和數據把 spicy diet、turmeric、ginger、cancer 連起來。題目若問 Asian patients、colon cancer、Zyflamend、prostate cancer 或 cancer cell death，就應定位此段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Bangalore 的 Indian Institute of Science 研究顯示，curcumin 也可能幫助治療 malaria。末句說 treated mice 有三分之一在 20 日後仍活著，untreated animals 到第 13 日全死。這段集中講 curcumin，即令 turmeric 呈黃色的化學物質，以及它在 malaria 實驗中的效果。Question 1 關於 turmeric 為何是黃色，答案很明顯藏在這段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句用實驗式語氣說，想知道 chilli 對身體有何作用，可把 fresh chilli 放在手背上 15 至 20 分鐘。末句說一隻 chilli 含超過每日建議量的 vitamin C，而 capsaicin 也是 natural decongestant。這段主要講 chillies 對身體的正負作用：過量會刺激胃，小劑量幫助消化，也含多種營養。Questions 7和 12 都會用到這段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說吃 chilli 的 pleasure 來自 pain。末句幽默地說，已故 Signora Dionisi 或許應該教她最喜歡的孫子煮 chilli camomile tea 以外的東西。這段解釋 chilli 為何令人上癮：burning sensation 觸發endorphins 釋放，使人感覺良好。Question 8 關於 endorphins 帶來的感覺，Question 13 關於Signora Dionisi 和 recipes，都要回到這段。"
+      }
+    ]
+  }
+}

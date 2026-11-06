@@ -1,0 +1,1398 @@
+{
+  "id": "p2-082-uncovering-the-truth-about-germanys-autobahns",
+  "catalogueId": "p2-082",
+  "catalogueIds": [
+    "p2-082"
+  ],
+  "passage": 2,
+  "title": "UNCOVERING THE TRUTH ABOUT GERMANY’S AUTOBAHNS",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "i",
+    "iv",
+    "vii",
+    "iii",
+    "ii",
+    "D",
+    "A",
+    "D",
+    "B",
+    "B",
+    "physical and mechanical",
+    "car manufacturers self-regulate",
+    "the German government"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "i — The Fascination Explained",
+      "answerKey": "i — The Fascination Explained",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph A 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 第一部分介紹 autobahns 的正式名稱和一般印象："
+            },
+            {
+              "kind": "quote",
+              "text": "“Officially called the Bundesautobahnen—a term meaning federal expressways—they are known more commonly as the autobahns: Germany’s impressive system of motorways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們正式稱為 Bundesautobahnen，意思是聯邦高速公路；人們更常稱它們為 autobahns，即德國令人印象深刻的高速公路系統。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surely having no speed limit whatsoever is a recipe for disaster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完全沒有速度限制，肯定像一個會造成災難的配方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段的功能是：介紹 autobahns 為何令人好奇，並把焦點推向「無速度上限」這個最吸引外國人的特徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 字眼定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的關鍵是 “Fascination Explained”，即解釋人們為何著迷。Paragraph A 中有多個對應字眼："
+            },
+            {
+              "kind": "quote",
+              "text": "“why has the term autobahn become so well known?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“what fascinates us about the autobahns…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how fast you can go on them”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字直接指向 fascination。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落中心"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“what fascinates us about the autobahns has nothing to do with their technical or design features. It does, however, have a lot to do with how fast you can go on them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "autobahns 令人著迷的地方，和技術或設計特色無關；真正關乎的是你可以在上面開得多快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接解釋 fascination 的來源：不是長度排名，不是工程設計，而是速度自由。Heading i 能概括整段：先排除長度和設計，再揭示真正吸引力。Heading viii “The Longest Motorways Examined” 只符合段中關於美國、中國、印度、德國排名的細節，不能覆蓋全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "iv — Speed Limits That Are Not Speed Limits",
+      "answerKey": "iv — Speed Limits That Are Not Speed Limits",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph B 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To clarify, there is a ‘recommended’ speed limit of 130 km/h on all stretches of German motorway, and a hard limit is imposed on some vehicles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了澄清，德國所有高速公路路段都有 130 km/h 的「建議」速度限制，部分車輛也有硬性限制。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, many of them do and it is not uncommon to see a car racing past you on the autobahn travelling in excess of 140 km/h.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，很多車確實會這樣做；在 autobahn 上看見一輛車以超過 140 km/h 的速度從你身旁飛馳並不罕見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句形成一種有趣張力：開頭說有 recommended speed limit，結尾說很多車仍高速超過140 km/h。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 字眼定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 的核心是 “Speed Limits That Are Not Speed Limits”。Paragraph B 反覆出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“recommended”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hard limit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not allowed to exceed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by no means bound to it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“travel as fast as they please”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字眼顯示本段焦點是：有些限制是真正限制，有些只是建議。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落中心"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nonetheless, the fact remains that all other cars, trucks and motorbikes, while encouraged to adhere to the ‘recommended’ speed limit, are by no means bound to it and can, in effect, travel as fast as they please.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過事實仍然是，其他汽車、貨車和電單車雖然被鼓勵遵守「建議」速度限制，卻完全不受其約束；實際上，它們可以按自己想要的速度行駛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 很貼合，因為本段說明一種看似 speed limit 的東西，在很多車輛身上只屬recommended，不具約束力。Heading vi “Safety Compromised” 未能概括本段，因為 B 段主要處理法規和車輛類別，不是安全結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "vii — Safety Not Only Factor Driving Speed Regulators",
+      "answerKey": "vii — Safety Not Only Factor Driving Speed Regulators",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph C 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In such circumstances, it would not be at all surprising to learn that Germany has an awful record on road safety, except that it doesn’t.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種情況下，如果得知德國道路安全紀錄很差，本來完全不令人驚訝；但事實上它並沒有很差。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Mad’ you may say, but the Germans actually seem to think this is safe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你可能會說這很瘋狂，但德國人其實似乎認為這樣是安全的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會回應「無速度上限是否危險」這個疑問。中間內容會解釋德國其實在危險地點和特殊情況下仍有速度限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 字眼定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的關鍵是 “Safety Not Only Factor”。Paragraph C 中有一句特別重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, safety considerations aside, the Germans have even imposed speed limits for other purposes, such as to reduce pollution and noise on some stretches of the autobahn…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 safety、other purposes、pollution、noise。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落中心"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說德國 road safety record 與其他歐洲工業國家相若，有些情況甚至更好。接着補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“speed limits do apply at junctions and other danger spots, such as sections under repair, and that there are even weather-related speed limits on some stretches of the autobahn…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在交匯處和其他危險地點，例如維修路段，速度限制確實適用；某些 autobahn 路段甚至有與天氣相關的速度限制。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Germans have even imposed speed limits for other purposes, such as to reduce pollution and noise…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國人甚至因其他目的設置速度限制，例如減少污染和噪音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不只說安全，也說 pollution 和 noise。因此 heading vii 最能概括全段。Heading v"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Recklessness Rewarded” 只呼應 “luck rewarding recklessness?” 這個反問，沒有覆蓋後文的解釋。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "iii — A Policy Well Conceived",
+      "answerKey": "iii — A Policy Well Conceived",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph D 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The statistics appear to back them up, though.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，統計數字似乎支持他們的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Germans have therefore reasoned that they don’t need to regulate rural motorways a great deal, and it would seem they are right.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此德國人推論，他們不需要大幅管制鄉郊高速公路；看起來他們是對的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯是在為德國政策辯護：先說統計支持，最後說德國人的推論看來正確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 字眼定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的核心是 “well conceived”，即政策考慮周全、設計合理。Paragraph D 有多個支援點："
+            },
+            {
+              "kind": "quote",
+              "text": "“2.2 road-user fatalities…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“4.5 road-user fatalities…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only 2% of all traffic…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“low traffic volume”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some of the safest driving conditions”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落中心"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“there are 2.2 road-user fatalities per billion vehicle kilometres on German autobahns each year. Using the same measure, 4.5 road-user fatalities per billion vehicle kilometres occur on United States motorways each year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國 autobahns 每十億車公里有 2.2 名道路使用者死亡；用同一計量方式，美國高速公路每十億車公里有 4.5 名道路使用者死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "接着原文解釋："
+            },
+            {
+              "kind": "quote",
+              "text": "“only 2% of all traffic regularly travels on the unrestricted stretches…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有 2% 的所有交通量會經常行駛於無速度上限路段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再加上 rural areas、low traffic volume、strict regulation、speed cameras、unmarked police cars等細節，全段都在說德國政策其實經過風險分配和執法考慮。Heading iii 最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "ii — Speedsters Thwarted by Manufacturers",
+      "answerKey": "ii — Speedsters Thwarted by Manufacturers",
+      "type": "Matching Headings",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph E 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, the myth of limitless speed is also quite misleading.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，無限速度這個神話也相當誤導。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the way the German government sees it, they might as well be driving that fast there rather than in the suburbs, so let them do it!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按德國政府的看法，他們與其在市郊開得那麼快，不如就在這些路段開，所以讓他們這樣做吧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段會修正大家對 “limitless speed” 的想像：理論上某些車可無上限行駛，實際上仍有其他限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 字眼定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 的關鍵是 “Speedsters” 和 “Manufacturers”。Paragraph E 中直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“all German car manufacturers…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“limit the top speed of their cars to around 150 km/h”"
+            },
+            {
+              "kind": "quote",
+              "text": "“car manufacturers self-regulate”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落中心"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In reality, all German car manufacturers (and most international ones) keep to a gentleman’s agreement whereby they limit the top speed of their cars to around 150 km/h for safety reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實際上，所有德國汽車製造商，以及大多數國際汽車製造商，都遵守一項君子協定：基於安全理由，把汽車最高速度限制在大約 150 km/h。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 說 speedsters 被 manufacturers 阻擋或限制。這正好對應製造商自我限制最高速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使某些路段法律上沒有上限，車本身也常被製造商限制。Heading i、iii 等都已被其他段落更完整地使用，Paragraph E 的獨特焦點就是 manufacturers self-regulation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — passenger cars carrying trailers must not exceed a limit of 80 km/h without prior",
+      "answerKey": "D — passenger cars carrying trailers must not exceed a limit of 80 km/h without prior",
+      "type": "Multiple Choice",
+      "prompt": "“German road regulations state that…”",
+      "translation": "德國道路規例指出……",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "approval."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。這段專門列出不同車輛的速度限制。首句說有 130 km/h 建議上限，也有部分車輛硬性限制；尾句說普通車高速超過 140 km/h 並不罕見。題目問 regulations，所以Paragraph B 是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “road regulations”、“buses”、“trailers”、“80 km/h”、“approval”。Paragraph B 中相關資料集中在："
+            },
+            {
+              "kind": "quote",
+              "text": "“Buses carrying standing passengers and motorbikes pulling trailers cannot go faster than 60 km/h.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“All other buses, as well as passenger cars and trucks with trailers… are not allowed to exceed 80 km/h.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Rare exceptions include buses that have been officially certified to travel at 100 km/h and passenger cars carrying trailers that have received similar certification.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項排除"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說所有車輛都必須遵守 130 km/h recommended speed limit。問題在 “must adhere”。原文說recommended，普通車並不受約束。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說所有 buses 的 speed limit 是 100 km/h。原文說 standing passengers 的 buses 是 60 km/h，其他 buses 通常是 80 km/h，只有獲 official certification 的 buses 才可 100 km/h。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說所有 towing trailer 的車都不能超過 80 km/h。這太絕對，因為原文說 passenger cars carrying trailers 如獲 similar certification，可以例外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 passenger cars carrying trailers 如沒有 prior approval / certification，不得超過 80 km/h。這正好對應原文 “passenger cars … with trailers … not allowed to exceed 80 km/h” 和 “passenger cars carrying trailers that have received similar certification” 這兩句。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A — are sometimes imposed on all vehicles in difficult driving conditions.",
+      "answerKey": "A — are sometimes imposed on all vehicles in difficult driving conditions.",
+      "type": "Multiple Choice",
+      "prompt": "“Special motorway speed limits…”",
+      "translation": "特殊高速公路速度限制……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。這段回應安全疑慮，並指出在 junctions、danger spots、sections under repair、wet lanes 等情況下會設速度限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Special motorway speed limits”。原文沒有直接用 special，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“speed limits do apply at junctions and other danger spots…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weather-related speed limits…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lower speed limits are used in cases of wet lanes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都屬特殊情況下的限速。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說在 difficult driving conditions，有時會對所有車輛設限。原文說 wet lanes 會有 lower speed limits，這是典型 difficult driving conditions；junctions、repair sections 也屬危險或特殊路況。A 最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說限速從不適用於 cars, trucks and motorcycles。原文相反，Paragraph C 明確說 speed limits do apply at junctions and other danger spots。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說所有德國速度限制只是建議，不能依法執行。這和 Paragraph B 的 hard limit、Paragraph D的 strictly regulated / heavily enforced 都衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說只在 junctions 和維修路段可見。這漏掉 weather-related limits、wet lanes，也漏掉 pollution and noise 的目的。題目中 only 類似絕對詞，範圍太窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "D — receives a comparatively small amount of the country’s overall traffic volume.",
+      "answerKey": "D — receives a comparatively small amount of the country’s overall traffic volume.",
+      "type": "Multiple Choice",
+      "prompt": "“The section of the German motorway system which has no upper speed limit for some vehicles…”",
+      "translation": "德國高速公路系統中，對某些車輛沒有最高速度上限的部分……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。首句說統計支持德國做法，尾句說德國人認為 rural motorways 不需要大量管制，看來是正確的。這段專門解釋無速度上限路段為何相對安全。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “no upper speed limit”、“section”、“traffic volume”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“only 2% of all traffic regularly travels on the unrestricted stretches of motorway…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“they are strategically located in rural areas with low traffic volume.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說這些路段有最多交通量。原文說 low traffic volume，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說這些路段只佔德國高速公路約 2%。原文的 2% 指 “all traffic”，即交通量，不是高速公路總長度或系統比例。這是一個常見數字轉移陷阱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說這些路段由 unmarked police cars patrol，並 monitor traffic flow。原文確實提到 unmarked police cars，但功能是 “pull over speed offenders and reckless drivers”，並且這段主要講整體motorway enforcement，不是專門說無上限路段用來 monitor traffic flow。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說這些路段承載的全國整體交通量較小。這正好對應 “only 2% of all traffic” 和 “low traffic volume”。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "B — self-regulate to an extent when it comes to safety considerations.",
+      "answerKey": "B — self-regulate to an extent when it comes to safety considerations.",
+      "type": "Multiple Choice",
+      "prompt": "“German car manufacturers…”",
+      "translation": "德國汽車製造商……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。這段的首句說 “limitless speed” 這個神話具誤導性，段落核心是汽車製造商會自我限制最高速度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “German car manufacturers”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“all German car manufacturers (and most international ones) keep to a gentleman’s agreement…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“car manufacturers self-regulate…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說它們有 legal agreement。原文用 “gentleman’s agreement”，指非正式協議，不是法律協議。"
+            },
+            {
+              "kind": "label",
+              "text": "B 說它們在安全考慮上某程度自我規管。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“they limit the top speed of their cars to around 150 km/h for safety reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們基於安全理由，把汽車最高速度限制在大約 150 km/h。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“car manufacturers self-regulate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "汽車製造商進行自我規管。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 完整對應這兩句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說它們限制 fuel consumption。原文沒有 fuel consumption。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說它們定期保養車輛。原文提到 cars are constantly serviced 只是用 motor racing 作比較，說明高於 150 km/h 時需要非常嚴格保養；這不是 German car manufacturers 的日常做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B — It initially appears baffling, but, on closer inspection, makes a lot of sense.",
+      "answerKey": "B — It initially appears baffling, but, on closer inspection, makes a lot of sense.",
+      "type": "Multiple Choice",
+      "prompt": "“What do you think is the writer’s view of the German approach to speed regulation?”",
+      "translation": "你認為作者怎樣看德國速度規管方法？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看全文態度"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題問 writer’s view，需要看全文語氣。Paragraph A 末句用 “recipe for disaster” 製造初步疑問； Paragraph D 說 “the German approach might not be so daft as it first seemed”；Paragraph D 末句說 “it would seem they are right”。因此作者的態度由初步疑惑轉為認為有其道理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找態度詞"
+            },
+            {
+              "kind": "label",
+              "text": "最重要的態度句是 Paragraph D："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, when you look beyond the myth of the motorway without speed limits… you realise that the German approach might not be so daft as it first seemed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，當你看穿「沒有速度限制的高速公路」這個神話，並看到較冷靜的現實時，你會意識到德國方法可能沒有一開始看起來那麼愚蠢。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“it would seem they are right.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看起來他們是對的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說 irresponsible and reckless。作者一開始模擬這種疑問，但後文數據和解釋推翻這個簡化印象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 initially appears baffling, but on closer inspection makes sense。這完整概括全文態度：起初像災難，細看後有數據、低流量路段、嚴格執法、製造商自律支撐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說城市規管不足、鄉郊仍有問題。原文沒有這樣批評，反而說 rural motorways 不需要大量管制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說過度依賴製造商和司機自律。Paragraph E 確實提到 manufacturers self-regulate，但全文還有 speed cameras、unmarked police cars、strict regulations、weather limits 等制度安排，所以 D只抓到局部。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "physical and mechanical",
+      "answerKey": "physical and mechanical",
+      "type": "Sentence Completion",
+      "prompt": "“For cars operating at high speeds, it is necessary to maintain optimal tyre pressure and ensure that the vehicle is serviced regularly in order to combat the heightened risk of 24_________________ failures.”",
+      "translation": "對高速行駛的汽車來說，需要保持最佳胎壓並確保車輛定期保養，以應對 ______ 故障風險上升。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。這段說 “limitless speed” 神話具誤導性，並解釋高於約 150 km/h 的風險和製造商自我限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “tyre pressure”、“serviced regularly”、“failures”。Paragraph E 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unless tyre pressure is optimally maintained and cars are constantly serviced…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can lead to blowouts and other physical and mechanical failures…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unless tyre pressure is optimally maintained and cars are constantly serviced (as would happen, say, in motor racing), travelling at higher speeds than that is, well, extremely risky and can lead to blowouts and other physical and mechanical failures that have the potential to cause death.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除非胎壓保持在最佳狀態，汽車也經常保養，就像賽車中會做的那樣，否則以高於那個速度行駛是極其危險的，並可能導致爆胎，以及其他可能造成死亡的物理和機械故障。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格後已有 “failures”，所以不能填整個 “physical and mechanical failures”。只需填 failures前的修飾語： physical and mechanical答案共三個詞，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "car manufacturers self-regulate",
+      "answerKey": "car manufacturers self-regulate",
+      "type": "Sentence Completion",
+      "prompt": "“In reality, due to the practice whereby 25 _________________, few vehicles have the capacity to travel at speeds in excess of 150 km/h.”",
+      "translation": "實際上，由於 ______ 這種做法，很少車輛有能力以超過 150 km/h 的速度行駛。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。首句說 limitless speed 是 misleading；中段說製造商會限制車輛最高速度；因此本題應找 manufacturers / self-regulate / top speed 附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “practice whereby”、“few vehicles”、“capacity”、“in excess of 150 km/h”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore, the situation is a little different from what we might have assumed because while there is no official speed limit in theory, car manufacturers self-regulate so, in practice, a limit on the maximum speed vehicles can travel at has been put in place.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，情況和我們本來假設的有點不同；雖然理論上沒有官方速度限制，汽車製造商會自我規管，所以實際上，車輛可行駛的最高速度已經有了限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the practice whereby”，後面需要一個主謂結構，說明是甚麼做法。原文中最合文法、也符合三詞限制的是： car manufacturers self-regulate填入後句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“due to the practice whereby car manufacturers self-regulate…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思自然：由於汽車製造商自我規管這種做法……答案三個詞，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "the German government",
+      "answerKey": "the German government",
+      "type": "Sentence Completion",
+      "prompt": "“When it comes to vehicles capable of travelling at very high speeds, whose drivers are determined to do so, 26 _________________ would rather they attempted to drive excessively fast on the parts of the motorway it deems safe than anywhere else.”",
+      "translation": "對於能高速行駛、且駕駛者決心這樣做的車輛，______ 寧願他們在其認為安全的高速公路路段嘗試超高速駕駛，也不要在其他地方這樣做。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。這段尾部談到少數能超過 150 km/h 的車輛，以及德國政府對這些駕駛者的態度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “would rather”、“drivers are determined”、“very high speeds”。原文結尾有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the way the German government sees it, they might as well be driving that fast there rather than in the suburbs, so let them do it!”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, the few vehicles which are capable of clocking speeds in excess of 150 km/h seldom get the opportunity (the time and space) to build up to these speeds on the German autobahns, and, if they do, well, the way the German government sees it, they might as well be driving that fast there rather than in the suburbs, so let them do it!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，少數能達到超過 150 km/h 的車輛，很少有機會在德國 autobahns 上取得足夠時間和空間加速到這些速度；如果真的有機會，按德國政府的看法，他們與其在市郊那樣快開車，不如就在那裡開，所以讓他們這樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “would rather they attempted to drive excessively fast on the parts of the motorway it deems safe than anywhere else” 對應原文 “they might as well be driving that fast there rather than in the suburbs”。主體就是： the German government答案三個詞，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - UNCOVERING THE TRUTH ABOUT GERMANY’S AUTOBAHNS.pdf",
+    "sha256": "49126be51553775d46df128ef76f736b6a84720c0de7c33df86b5acfdf62971a",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句介紹 autobahns 的正式名稱 Bundesautobahnen，並說它們是德國令人印象深刻的高速公路系統。末句提出一個帶懷疑語氣的問題：完全沒有速度限制，肯定像災難配方。只看首尾句，可以估計本段是引入段：先說 autobahn 為何世界知名，再逐步指出真正吸引外國人的地方並非長度或工程設計，重點在於某些路段可以任意高速駕駛。"
+      },
+      {
+        "number": "B",
+        "summary": "首句澄清德國高速公路有 130 km/h 的 “recommended” speed limit，部分車輛也有硬性限制。末句說在 autobahn 上看見車輛以超過 140 km/h 飛馳並不罕見。只看首尾句，可以估計這段會處理速度限制的細節：有些限制具法律效力，有些只是建議；不同車輛類別有不同上限，普通車在某些情況下實際上可高速行駛。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說在這種情況下，大家可能以為德國 road safety record 很差，但事實並非如此。末句以略帶諷刺的語氣說，雖然有人會覺得 “Mad”，德國人似乎真的認為這樣是安全的。只看首尾句，可以估計這段會回應安全疑慮：它會指出仍有危險地點、天氣情況、污染和噪音相關的速度限制，所以德國政策並非單純縱容高速。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說統計數字似乎支持德國人的看法。末句說德國人推論出 rural motorways 不需要太多管制，而且看來他們是對的。只看首尾句，可以估計這段會用數據和路段分布來證明政策合理。中間應會比較德國和美國死亡率，並解釋無上限路段其實只承載很少交通量，其他路段有嚴格監管和執法。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 “limitless speed” 這個神話其實相當誤導。末句說如果某些人真的要開得非常快，德國政府寧願他們在這些高速公路路段開，也不要在市郊開。只看首尾句，可以估計這段會修正「完全無限制」的想像：雖然法律上某些車沒有正式上限，實際上汽車製造商會自我限制最高速度，車輛和空間條件也限制真正超高速駕駛。"
+      }
+    ]
+  }
+}

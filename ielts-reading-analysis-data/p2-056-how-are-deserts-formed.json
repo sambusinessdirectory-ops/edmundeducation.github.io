@@ -1,0 +1,1779 @@
+{
+  "id": "p2-056-how-are-deserts-formed",
+  "catalogueId": "p2-056",
+  "catalogueIds": [
+    "p2-056"
+  ],
+  "passage": 2,
+  "title": "How are deserts formed?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "G",
+    "A",
+    "H",
+    "D",
+    "C",
+    "C",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“a reference to the irregular movement of particles”",
+      "translation": "提到 particles 不規則或連鎖式移動的地方。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In arid areas where there is no vegetation cover protecting the land, sand and dust storms will frequently take place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在沒有植被覆蓋保護土地的乾旱地區，沙塵暴會頻繁發生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When they fall onto the ground, they hit other particles which will then be jerked into the air in their turn, initiating a chain reaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它們落到地面時，會撞擊其他微粒，而那些微粒接著也會被猛然彈到空中，形成連鎖反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 主要解釋 sand and dust storms 的形成過程，尤其是particles 如何被 wind 帶起。題目中的 “movement of particles” 和本段最後一句的 particles、jerked into the air、chain reaction 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “particles”。掃描 Paragraph B，可以連續看到 “fine particles”、“some of the particles”、“other particles”。題目中的 “irregular movement” 沒有原字重現，但原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“vibrating”、“lifted into the air”、“fall”、“hit”、“jerked into the air” 描寫一連串不平穩、被撞擊帶起的movement。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句組：“When a steady wind starts to blow, fine particles on the open ground will begin vibrating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當穩定的風吹起時，開闊地面上的細小微粒會開始震動。"
+            },
+            {
+              "kind": "quote",
+              "text": "“As the wind picks up, some of the particles are lifted into the air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當風力增強，一些微粒會被帶到空中。"
+            },
+            {
+              "kind": "quote",
+              "text": "“When they fall onto the ground, they hit other particles which will then be jerked into the air in their turn, initiating a chain reaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它們落回地面，會撞擊其他微粒，而那些微粒又接著被猛然彈入空中，形成連鎖反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組句子完整描述 particles 的 movement：先 vibrating，再 lifted，之後 fall，然後 hit other particles，最後使更多 particles 被 jerked into the air。題目說 “irregular movement”，比較準確的說法是原文描寫的是「風力和撞擊造成的非平穩微粒運動」。所以答案是 Paragraph B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "irregular movement = vibrating / lifted / fall / hit / jerked into the air particles = fine particles / other particles reference to = description of the process"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 和 D 都談 erosion，但它們集中講 human activities 和 livestock grazing。真正有particles movement 細節的是 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“mention of a productive land turning into a desert in the 20th century”",
+      "translation": "提到 20 世紀時，一片有生產力的土地變成 desert。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 20th century, one US state had a large section of farmland that had turned into desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 20 世紀，美國某州有一大片農地變成了沙漠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Changing the general economic and institutional structures that create new opportunities for people to support themselves would alleviate the current pressures accompanying the desertification processes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "改變能為人們創造新謀生機會的整體經濟和制度結構，將會減輕 desertification processes 所帶來的現有壓力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句已能大幅縮窄範圍：productive land 對應 farmland，turned into a desert 對應 turned into desert，in the 20th century 完全原字重現。這段後面再談 prevention measures 和alternative livelihoods。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “20th century”、“productive land”、“turning into a desert”。Paragraph G 第一 句同時包含 “20th century”、“farmland” 和 “turned into desert”。farmland 是 productive land 的具體例子，因為農地本身用於耕作和生產食物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 20th century, one US state had a large section of farmland that had turned into desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 20 世紀，美國某州有一大片農地變成了沙漠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “one US state”，核心資訊是 “a large section of farmland”。“farmland” 是productive land 的下位例子；“had turned into desert” 直接對應題目 “turning into a desert”。題目沒有要求指出州名，原文亦沒有提供州名，因此不用自行補充。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "productive land = farmland turning into a desert = had turned into desert in the 20th century = In the 20th century答案判斷： Paragraph G 明確包含題目要求的資訊，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也講 cultivation 和 crop failures，但那裡描述的是耕作造成 land 失去 vegetation cover 和 erosion risk。Question 15 指定 20th century 和 farmland turned into desert，只有Paragraph G 精準符合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“types of deserts”",
+      "translation": "deserts 的類型或分類方式。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A desert refers to a barren section of land, mainly in arid and semi-arid areas, where there is almost no precipitation, and the environment is hostile to life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "desert 指一片荒蕪土地，主要位於乾旱和半乾旱地區，那裡幾乎沒有降雨，環境不利生命。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some places, deserts have clear boundaries marked by rivers, mountains or other landforms, while in other places, there are no clear-cut borders between desert and other landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些地方，deserts 有由河流、山脈或其他地貌標示的清楚邊界；在另一些地方，desert 和其他landscapes 之間沒有明確分界。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph A 是 desert 的基本介紹段。它先定義 desert，再談 deserts 的邊界。本題問 types of deserts，應該掃描這段中關於分類的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “types”。原文不一定用 types，但可對應 “classified”。Paragraph A 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Deserts have been classified in a number of ways…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接表示 deserts 有不同分類方式。分類通常就是 types / categories 的概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Deserts have been classified in a number of ways, generally combining total precipitation, the number of days on which rain falls, temperature, humidity, and sometimes additional factors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "deserts 曾以多種方式分類，通常會結合總降雨量、降雨日數、溫度、濕度，有時也會加入其他因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有列出每一種 desert 名稱，例如 hot desert、cold desert 等，但它明確說 deserts “have been classified in a number of ways”。因此題目用 “types of deserts” 概括這一分類資訊是合理的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "types of deserts = deserts have been classified classification criteria = precipitation / rain days / temperature / humidity mention of types = discussion of classification答案判斷： Paragraph A 包含 deserts 的分類方式，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 第一 句有 “arid and semi-arid areas”，也能令人想到 desert types；不過最穩的答案證據是 “classified in a number of ways”。題目問 types，不宜只靠 arid / semi-arid 兩個形容詞定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“mention of technological methods used to address desertification”",
+      "translation": "提到用科技方法處理 desertification 的地方。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, new technologies are being used to address the problems caused by desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，新科技正在被用來處理 desertification 造成的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even so, alternative technologies are still needed to address the problems and processes of desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，仍然需要其他技術來處理 desertification 的問題和過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 的功能已非常清晰：它談 technology and desertification。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“technological methods” 和 “address desertification” 幾乎直接對應本段首尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “technological methods” 和 “address desertification”。Paragraph H 中 “new technologies”、“Satellites”、“alternative technologies” 都屬於 technology-related words。尤其首句中的 “used to address” 和題目完全接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Today, new technologies are being used to address the problems caused by desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，新科技正在被用來處理 desertification 所造成的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Satellites have been used to investigate the influence that people and livestock have on desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "satellites 已被用來調查 people 和 livestock 對 desertification 的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來說明：科技已投入使用，其中一個具體方法是 satellites。題目說 “technological methods” 是上位概括，原文用 “new technologies” 和 “Satellites” 作具體呈現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "technological methods = new technologies / satellites / alternative technologies used to address = being used to address desertification = desertification答案判斷： Paragraph H 明確提到科技方法，所以答案是 H。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 提到 measures to prevent desertification，例如 greenhouse agriculture 和 dryland aquaculture；這些可算 livelihood / prevention schemes。Question 17 專門問 technological methods，Paragraph H 的 “new technologies” 和 “satellites” 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“the influence of traditional livestock-grazing practices on desertification”",
+      "translation": "傳統 livestock grazing practices 對 desertification 的影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Raising livestock in semi-arid areas accelerates soil erosion and is one cause of advancing desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在半乾旱地區飼養 livestock 會加速 soil erosion，並且是 desertification 推進的原因之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For some nomads, wherever they move to, the desert follows.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對某些 nomads 來說，不論他們移到哪裡，desert 都會跟隨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句直接說 livestock 對 desertification 的影響；最後一句用 nomads 的移動生活作結。這段明顯處理 grazing、herds、pasture、topsoil 和 nomadic traditions。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “livestock-grazing practices” 和 “traditional”。原文相關詞包括 “Raising livestock”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“livestock grazing”、“graze”、“herd”、“nomads”、“flocks and herds”。其中 “For centuries, nomads have moved their flocks and herds…” 直接指向傳統牧民放牧方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句組：“Raising livestock in semi-arid areas accelerates soil erosion and is one cause of advancing desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在半乾旱地區飼養牲畜會加速土壤侵蝕，也是 desertification 推進的原因之一。"
+            },
+            {
+              "kind": "quote",
+              "text": "“When a specific field is used to graze an excessively large herd, the field will lose vegetation cover, and the soil will be trampled and pulverised…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當某一片土地被用來放牧過大的畜群，該地會失去植被覆蓋，土壤也會被踩踏並壓碎。"
+            },
+            {
+              "kind": "quote",
+              "text": "“For centuries, nomads have moved their flocks and herds wherever pasture can be found…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個世紀以來，nomads 會把羊群和畜群移到任何有 pasture 的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子解釋了傳統放牧和過度放牧如何破壞 vegetation cover，使 topsoil 暴露於 wind 和sudden thunderstorms 等 destructive forces。題目中的 “influence” 對應原文的 “accelerates soil erosion” 和 “one cause of advancing desertification”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "traditional livestock-grazing practices = for centuries, nomads have moved their flocks and herds influence on desertification = accelerates soil erosion / one cause of advancing desertification livestock grazing = graze an excessively large herd答案判斷： Paragraph D 專門討論 livestock grazing 對 desertification 的影響，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“a lack of agreement among scientists about the causes of desertification”",
+      "translation": "科學家或學術界對 desertification 成因缺乏共識。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has been a great deal of publicity about how severe desertification can be, but the academic community has never agreed on the causes of desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 desertification 可以有多嚴重，已有大量 publicity；但學術界從未就 desertification 的成因達成一致。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1990s, dryland areas went through a population growth of 18.5 per cent, mostly in severely impoverished developing countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個 1990s，dryland areas 的人口增長達 18.5%，主要發生在極度貧困的 developing countries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接回答題目。Paragraph C 大概先說成因沒有共識，再說常見誤解，以及作者指出human activities、population growth 和 cultivation expansion 更常造成 desertification。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “lack of agreement”、“scientists”、“causes”。原文用 “academic community has never agreed on the causes”。“academic community” 是 scientists / scholars 的上位群體；“has never agreed” 直接等於 lack of agreement。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has been a great deal of publicity about how severe desertification can be, but the academic community has never agreed on the causes of desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "desertification 的嚴重程度受到大量公開關注，但學術界從未就 desertification 的成因達成一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the academic community”，核心動詞是 “has never agreed”，對象是 “the causes of desertification”。題目把 academic community 改寫成 scientists，方向完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lack of agreement = has never agreed scientists = academic community causes of desertification = causes of desertification答案判斷： Paragraph C 包含科學界對成因缺乏共識的資訊，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也提到還需要 alternative technologies，顯示研究仍未完成。不過 Q19 問 causes上的學術共識，這個資訊只在 Paragraph C 首句清楚出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“a description of the adverse effects of growing food crops”",
+      "translation": "描述種植糧食作物帶來的負面影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has been a great deal of publicity about how severe desertification can be, but the academic community has never agreed on the causes of desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "desertification 的嚴重性受到大量公開關注，但學術界從未就 desertification 成因達成一致。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1990s, dryland areas went through a population growth of 18.5 per cent, mostly in severely impoverished developing countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個 1990s，dryland areas 的人口增長達 18.5%，主要發生在極度貧困的 developing countries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph C 會討論 desertification causes，尤其人口壓力。題目問 growing food crops 的 adverse effects，應掃描本段中間關於 cultivation、crop failures、vegetation cover、erosion 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “growing food crops”。原文沒有 food crops 這個完整短語，但有 “cultivation”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Growing most crops”、“crop failures”。“adverse effects” 可對應 “devoid of plant cover”、“susceptible to wind and water erosion”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句組：“Since the population density has increased, cultivation has expanded into progressively drier areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著人口密度增加，耕作已經擴展到越來越乾旱的地區。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Growing most crops requires the natural vegetation cover to be removed first…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "種植大多數作物，需要先移除天然植被覆蓋。"
+            },
+            {
+              "kind": "quote",
+              "text": "“…when crop failures occur, extensive tracts of land are devoid of plant cover and thus susceptible to wind and water erosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當作物失收時，大面積土地會沒有植物覆蓋，因此容易受到風蝕和水蝕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句構成完整因果鏈：人口增長 → cultivation 擴展到更乾旱地區 → 種植作物前要移除 natural vegetation cover → crop failures 後土地沒有 plant cover → wind and water erosion 風險上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “adverse effects” 就是這些負面後果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "growing food crops = Growing most crops / cultivation adverse effects = removal of vegetation cover / crop failures / erosion risk description = the cause-effect explanation in Paragraph C答案判斷： Paragraph C 描述種植作物如何令土地失去保護並受侵蝕，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也說土地失去 vegetation cover，但那裡主因是 livestock grazing。Question 20 指定 growing food crops，所以 Paragraph C 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It is difficult to ascertain where the deserts end in some areas.”",
+      "translation": "在某些地區，很難確定 deserts 在哪裡結束。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A desert refers to a barren section of land, mainly in arid and semi-arid areas, where there is almost no precipitation, and the environment is hostile to life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "desert 指一片荒蕪土地，主要位於 arid 和 semi-arid 地區，幾乎沒有降雨，環境不利生命。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some places, deserts have clear boundaries marked by rivers, mountains or other landforms, while in other places, there are no clear-cut borders between desert and other landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些地方，deserts 有由河流、山脈或其他地貌標示的清楚邊界；在另一些地方，desert 和其他landscapes 之間沒有明確分界。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，本題答案方向已相當明確。題目說 “difficult to ascertain where deserts end”，原文說 “no clear-cut borders”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “where the deserts end” 和 “some areas”。原文的對應表達是 “in other places” 和 “no clear-cut borders between desert and other landscapes”。“ascertain” 即 determine / know clearly；“no clear-cut borders” 表示難以準確判斷邊界。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some places, deserts have clear boundaries marked by rivers, mountains or other landforms, while in other places, there are no clear-cut borders between desert and other landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一些地方，deserts 有清晰邊界，由河流、山脈或其他地貌標示；在另一些地方，desert 和其他landscapes 之間沒有明確界線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題是：在某些地區很難確定 desert 結束的位置。原文命題是：在另一些地方，desert 和其他landscapes 沒有清楚分界。沒有清楚分界，就代表難以確定邊界在哪裡。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "some areas = in other places difficult to ascertain where deserts end = no clear-cut borders between desert and other landscapes deserts end = boundary between desert and other landscapes判斷：題目和原文意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句前半說 “some places” 有 clear boundaries。學生若只看前半，會以為邊界容易判斷。細讀時要看 “while in other places” 之後的轉折，題目正是考後半句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The media are uninterested in the problems of desertification.”",
+      "translation": "媒體對 desertification 問題不感興趣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has been a great deal of publicity about how severe desertification can be, but the academic community has never agreed on the causes of desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 desertification 可以多嚴重，已有大量 publicity；但學術界從未就 desertification 成因達成一致。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1990s, dryland areas went through a population growth of 18.5 per cent, mostly in severely impoverished developing countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在整個 1990s，dryland areas 的人口增長達 18.5%，主要發生在極度貧困的 developing countries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提到 publicity。題目用 media 表達 public attention / publicity 的概念，問是否uninterested。原文說 “a great deal of publicity”，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “media” 和 “uninterested”。原文沒有 media，但有 “publicity”。如果某議題有 “a great deal of publicity”，通常表示它受到媒體或公眾層面的廣泛關注。題目中的 “uninterested” 可對應缺乏關注，但原文剛好說有大量 publicity。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has been a great deal of publicity about how severe desertification can be…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 desertification 可以有多嚴重，已有大量公開報道或宣傳關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“A great deal of publicity” 表示該問題受到很多公開關注。題目說 media are uninterested，即媒體沒有興趣或缺乏關注。兩者方向衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "media are uninterested = little or no publicity / lack of public attention原文：a great deal of publicity = large public/media attention problems of desertification = how severe desertification can be判斷：原文提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文後半句說 academic community has never agreed on causes。這是科學界未達成共識，不代表媒體不關注。題目把「學術爭議」和「媒體興趣」放在同一區域，細讀時要分清對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The most common cause of desertification is the lack of rainfall.”",
+      "translation": "desertification 最常見的原因是 rainfall 不足。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has been a great deal of publicity about how severe desertification can be, but the academic community has never agreed on the causes of desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "desertification 的嚴重程度受到大量公開關注，但學術界從未就成因達成一致。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1990s, dryland areas went through a population growth of 18.5 per cent, mostly in severely impoverished developing countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個 1990s，dryland areas 的人口增長達 18.5%，主要發生在極度貧困的 developing countries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段討論 desertification causes。題目問 “most common cause” 和 “lack of rainfall”，應看段落中間是否把 precipitation shortage 當成成因，或是否被否定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “lack of rainfall”。原文對應 “shortage of precipitation”。題目中的 “most common cause”可能對應 “more often than not” 或 “primary cause”。掃描 Paragraph C 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“A common misunderstanding is that a shortage of precipitation causes desertification…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, more often than not, human activities are responsible for desertification.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“A common misunderstanding is that a shortage of precipitation causes desertification—even the land in some barren areas will soon recover after the rain falls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個常見誤解是：降雨不足會造成 desertification；其實一些 barren areas 的土地在下雨後很快會恢復。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, more often than not, human activities are responsible for desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，多數情況下，人類活動才是 desertification 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 lack of rainfall 是 most common cause。原文先說這是 common misunderstanding，接著用 “In fact” 轉向真正較常見的原因：human activities。這是清楚的相反證據。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lack of rainfall = shortage of precipitation most common cause = more often than not responsible原文真正方向：human activities are responsible more often than not common misunderstanding = incorrect common belief判斷：題目把 common misunderstanding 當成事實；原文隨即糾正這個誤解。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有 “common”，原文也有 “common misunderstanding”。看到 common 不可立即選 TRUE，因為原文說 common 的是誤解，不是正確原因。真正定案的是 “In fact”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Raising livestock in semi-arid areas will increase soil erosion.”",
+      "translation": "在 semi-arid areas 飼養 livestock 會增加 soil erosion。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Raising livestock in semi-arid areas accelerates soil erosion and is one cause of advancing desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在半乾旱地區飼養 livestock 會加速 soil erosion，也是 desertification 推進的原因之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For some nomads, wherever they move to, the desert follows.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對某些 nomads 來說，不論他們移到哪裡，desert 都會跟隨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句幾乎直接重現題目：Raising livestock、semi-arid areas、soil erosion 全部出現。題目用increase，原文用 accelerates。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Raising livestock”、“semi-arid areas”、“soil erosion”。Paragraph D 第一 句已全部對應，不需要跨段。唯一改寫是 increase = accelerates。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Raising livestock in semi-arid areas accelerates soil erosion and is one cause of advancing desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在半乾旱地區飼養牲畜會加速土壤侵蝕，也是 desertification 推進的原因之一。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Raising livestock in semi-arid areas will increase soil erosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Raising livestock in semi-arid areas accelerates soil erosion…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“accelerates” 比 “increase” 更具體，表示加快、加劇。題目把它概括成 increase，意思成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "will increase = accelerates raising livestock = raising livestock semi-arid areas = semi-arid areas soil erosion = soil erosion判斷：題目與原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很直接，但要留意原文後半還說 “one cause of advancing desertification”。題目只問 soil erosion，不需要再證明 desertification 的全部過程。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People in Asian countries no longer use firewood as the chief fuel.”",
+      "translation": "亞洲國家的人們不再把 firewood 作為主要燃料。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trees are of great importance when it comes to maintaining topsoil and reducing wind speed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在保持 topsoil 和降低 wind speed 方面，trees 非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When too many trees are cut down, windstorms and dust storms tend to occur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當太多 trees 被砍下，windstorms 和 dust storms 便容易發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 討論 trees、deforestation 和 storms。題目提到 Asian countries 和firewood，應掃描本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Asian countries”、“firewood”、“chief fuel”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many Asian countries, firewood is the chief fuel used for cooking and heating…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句與題目高度相似，但方向要細看。題目說 “no longer use”，原文說 “is the chief fuel”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many Asian countries, firewood is the chief fuel used for cooking and heating, which has caused uncontrolled clear-cutting of forests in dryland ecosystems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在許多亞洲國家，firewood 是 cooking and heating 所用的主要燃料，這導致 dryland ecosystems 中森林被失控式砍伐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 no longer use firewood as the chief fuel，即現在已不再用作主要燃料。原文用現在式 “is the chief fuel”，清楚表示 firewood 仍是主要燃料。兩者直接衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "no longer use = used in the past but not now原文：is the chief fuel = 現在仍是主要燃料Asian countries = many Asian countries判斷：原文提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “People in Asian countries” 范圍較寬，原文用 “many Asian countries”。即使範圍不完全相同，原文的 “many” 已足以反駁 “no longer” 這種全面否定。只要仍有 many countries 使用，題目說 no longer use 便站不住。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Technology for studying the effects of people and livestock on desertification has not yet been developed.”",
+      "translation": "用來研究 people 和 livestock 對 desertification 影響的科技尚未被開發。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, new technologies are being used to address the problems caused by desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，新科技正在被用來處理 desertification 造成的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even so, alternative technologies are still needed to address the problems and processes of desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，仍需要其他技術來處理 desertification 的問題和過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段討論 technology 的現有使用和未來需求。題目問 technology has not yet been developed，需要細讀本段是否已有某種 technology used。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “technology”、“people and livestock”、“desertification”。Paragraph H 中有一句非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Satellites have been used to investigate the influence that people and livestock have on desertification.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 technology 類別 satellites、people、livestock、desertification 和 investigate influence。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Satellites have been used to investigate the influence that people and livestock have on desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "satellites 已經被用來調查 people 和 livestock 對 desertification 的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 technology “has not yet been developed”，意思是尚未有這種科技。原文說 “Satellites have been used”，表示這種科技不只已存在，也已投入使用。兩者方向明顯相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "technology for studying = satellites used to investigate effects = influence people and livestock = people and livestock has not yet been developed = not available yet原文：have been used = already developed and used判斷：原文提供相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 最後一句說 “alternative technologies are still needed”。這表示現有科技仍未完全足夠，並不代表相關 technology 尚未 developed。題目把「仍需要其他技術」放大成「技術尚未出現」，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - How are deserts formed_.pdf",
+    "sha256": "7522cf9d3983feaa34e22722cbc0dcd27ef3868c9855075298202fdfdb51be59",
+    "pageCount": 23
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句定義 desert：它是 arid 或 semi-arid 地區中 barren 的土地，降雨極少，環境不利生命。末句說，有些地方 deserts 有清楚邊界，例如 rivers、mountains 或 landforms；另一些地方，desert 和其他 landscapes 之間沒有清楚分界。只看首尾句，可以估計本段是概念介紹段，會處理 deserts 的定義、分類方式、邊界問題和不同 landscape 之間的模糊過渡。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說，在沒有 vegetation cover 保護土地的乾旱地區，sand and dust storms 會頻繁發生。末句說，掉落地面的 particles 會撞擊其他 particles，使它們接著被彈到空中，形成 chain reaction。初步來看，本段集中解釋風如何移動沙塵微粒：從 ground vibration，到 particles lifted into air，再到連鎖式揚起。題目若問 particles movement、storms、wind erosion，很可能定位這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說，desertification 的嚴重程度受到大量 publicity 關注，但學術界從未就其成因達成一致。末句說，1990s 期間，dryland areas 的人口增長達 18.5%，主要發生在嚴重貧困的 developing countries。只看首尾句，本段大概討論 desertification 的成因爭議，以及人類活動、人口增長、cultivation 擴張、crop failures 和 vegetation cover 消失如何加劇土地退化。"
+      },
+      {
+        "number": "D",
+        "summary": "首句直接指出，在 semi-arid areas 飼養 livestock 會加速 soil erosion，也是 advancing desertification 的原因之一。末句說，對某些 nomads 來說，不論移到哪裡，desert 都會跟隨。這段功能很清楚：它講 livestock grazing、grasses、topsoil、overgrazing、trampling 和 nomadic practices 如何令土地失去保護，進一步推動 desertification。題目若問 livestock、grazing、nomads、soil erosion，應定位此段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說，trees 對 maintaining topsoil 和 reducing wind speed 非常重要。末句說，當太多 trees 被砍下，windstorms 和 dust storms 便傾向出現。只看首尾句，可以估計本段討論 deforestation 對desertification 的影響。中間應解釋 Asian countries 中 firewood 作為 cooking and heating 的chief fuel，如何造成 dryland ecosystems 中 uncontrolled clear-cutting，令土壤更易受風暴影響。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說，political conflicts and wars 也可以 contribute to desertification。末句說，refugees 可能帶來不適合新環境的 farming practices。這段很短，功能是補充一種非農業、非氣候的因素：戰爭與政治衝突迫使 refugees 大規模進入 vulnerable ecosystems，並使用不合當地環境的 farming methods。若題目問 wars、refugees、unsuited farming practices，答案會在此段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說，20 世紀時，美國某州有大片 farmland 變成 desert。末句說，改變產生新機會的 general economic and institutional structures，可減輕 desertification processes 帶來的壓力。只看首尾句，本段主要談 prevention 和 alternatives：曾有 productive farmland desertified，後來採取措施，包括較少依賴 land resources 的 livelihood、dryland aquaculture、greenhouse agriculture、tourism，以及改善城市和非乾旱地區經濟前景。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說，今天新技術正被用來處理 desertification 造成的問題。末句說，即使如此，仍然需要alternative technologies 來處理 desertification 的 problems and processes。初步來看，本段是科技應用段：satellites 已用於研究 people and livestock 對 desertification 的影響，但現有科技未完全足夠，仍需其他技術輔助。題目若問 technological methods、satellites、people and livestock influence，應看此段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航；Skim 的目的只是判斷段落功能和可能定位，不直接定答案。手冊亦提醒，Skim 要看段落第一句、最後一句，暫時跳過中間細節，再推測段落功能。"
+  ]
+}

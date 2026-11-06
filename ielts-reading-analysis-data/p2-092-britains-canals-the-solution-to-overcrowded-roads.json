@@ -1,0 +1,2463 @@
+{
+  "id": "p2-092-britains-canals-the-solution-to-overcrowded-roads",
+  "catalogueId": "p2-092",
+  "catalogueIds": [
+    "p2-092"
+  ],
+  "passage": 2,
+  "title": "Britain’s canals – the solution to overcrowded roads?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "H",
+    "C",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "G",
+    "H",
+    "A",
+    "C",
+    "B",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "奧運相關運輸。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Olympic transport”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Headings。Heading 要能概括整段核心，不能只對應一個孤立單字。這題最有定位力的詞是 Olympic，因為它是專有名詞，文章中只集中出現在 Paragraph H。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though details have yet to be decided, British Waterways believes the most appropriate way to transport some of the building materials destined for London’s giant Olympic construction project is by the network of waterways that links the Thames and east London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然細節仍未決定，British Waterways 認為，把部分運往倫敦大型奧運建設工程的建材經由連接 Thames 和 east London 的水道網絡運輸，是最合適的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The canals’ gentle pace will always make them a niche player in a busy world, but after 200 years of neglect, the tide is starting to turn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "canals 的緩慢速度會令它們在繁忙世界中一直只是小眾角色，但經過二百年的忽視後，形勢開始轉變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 先講 Olympic construction project 的運輸安排，再用一句總結指出 canals 的未來角色有限但正在復興。Heading “Olympic transport” 覆蓋本段前半最明確的內容，也符合本段作為未來應用例子的功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Olympic”。掃描全文時，只有 Paragraph H 直接出現 “London’s giant Olympic construction project” 和 “Olympic Delivery Authority”。因此 Paragraph H 是唯一精準定位段。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“British Waterways believes the most appropriate way to transport some of the building materials destined for London’s giant Olympic construction project is by the network of waterways…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "British Waterways 認為，運往倫敦大型奧運建設工程的一部分建材，最合適的運輸方法是使用水道網絡。"
+            },
+            {
+              "kind": "label",
+              "text": "後文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Olympic Delivery Authority says: ‘It’s being looked at and the final solution could well involve some transportation by water.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Olympic Delivery Authority 表示，這個方案正在研究中，最終方案很可能包含部分水路運輸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句共同說明本段主題是 Olympic project 的建材如何使用 waterways 運輸。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Olympic transport= transport building materials for London’s Olympic construction project= final solution could involve some transportation by water答案判斷： Paragraph H 直接以 Olympic project 的 water transport 作主題，所以答案是 H。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也講把 freight 從 roads 轉到 inland waterways，但那是整體政策引入；Question 14的 Olympic 是專有定位詞，只有 Paragraph H 完整處理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "英國 canals 的衰落。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“The decline of British canals”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段的中心是 British canals 為何衰落、如何被忽略。定位詞是 decline、British canals。留意 heading 不是問 canals 的復興，而是問 decline。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mainland Europe has never, in fairness, left it completely untapped.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公平地說，歐洲大陸從未完全放棄這種潛力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact many European countries actually enlarged their canals 100 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，許多歐洲國家一百年前其實擴大了自己的 canals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段看似先講 Mainland Europe，但中間很可能會和 Britain 作比較。首句說歐洲沒有完全放棄水路，最後句說歐洲甚至擴大 canals；這暗示英國情況可能相反。Heading “The decline of British canals” 很可能藏在本段中間的對照部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “decline” 和 “British canals”。掃描 Paragraph C 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Attempts to revive freight on British canals have been hampered…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“For much of the intervening period, many have simply been left to rot.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Our network was in decline for a long time…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“our canals were neglected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞全部指向衰落、腐朽和忽視。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Attempts to revive freight on British canals have been hampered by the fact that their heyday lasted barely 60 years, and they were first considered obsolete 150 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "重振英國 canals 貨運的嘗試受阻，原因是它們的全盛期只有短短約 60 年，而且早在 150 年前已首次被視為過時。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For much of the intervening period, many have simply been left to rot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其後大部分時間裡，許多 canals 乾脆被任由腐爛。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Eugene Baston 的話："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our network was in decline for a long time compared to much of Europe…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與歐洲許多地區相比，我們的水道網絡長期處於衰落狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子非常直接：British canals 全盛期短，被視為 obsolete，之後被 left to rot，network was in decline，canals were neglected。整段中心就是把英國 canals 的 decline 放在歐洲大陸持續使用水道的背景下比較。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "decline = in decline / left to rot / neglected / considered obsolete British canals = our network / British canals heading focus = 英國水道長期衰落答案判斷： Paragraph C 最能概括 “The decline of British canals”，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 第一 句也有 “That decline in Britain has been reversed”，但它的中心是 decline 被reversed，即復興，不是衰落本身。Question 15 問 decline，C 更貼近整段主題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "現代休閒用途。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern leisure uses”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Headings。定位詞是 leisure uses。要找一段不只提到 canals，也提到現代人如何用 canals 作休閒、生活和城市更新。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That decline in Britain has been reversed, first by leisure seekers and more recently by industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國 canals 的衰落已經被逆轉，最先由休閒活動者推動，近年則由工業再次推動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And, despite our obsession with road transport, environmental considerations are forcing government and business to turn the clock back 200 years and—at least in a minor way—get our waterways working again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我們對道路運輸非常依賴，但環境因素正迫使政府和企業把時鐘撥回二百年，至少以小規模方式，讓 waterways 再次發揮運輸功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 是過渡段：先講 leisure seekers 如何帶動復興，再轉向industry 和 environmental considerations。Heading “Modern leisure uses” 對應段落開頭和中間具體休閒用法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “leisure”。原文第一句直接有 “leisure seekers”。再掃描中間，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Boaters, anglers, walkers and cyclists now benefit from around 4,000 miles of navigable waterways…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一串具體 modern leisure users。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Boaters, anglers, walkers and cyclists now benefit from around 4,000 miles of navigable waterways and the paths and trails that run alongside them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "划船者、釣魚者、步行者和單車人士，如今受益於約 4,000 英里可通航水道，以及沿水道而建的小徑和路徑。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Waterside living is fashionable, and city-centre canals have been a focus for urban renewal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水邊居住變得時尚，而市中心 canals 已成為城市更新的焦點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資訊都屬於現代休閒、生活和城市形象用途。雖然本段最後也轉向 industry，但段落開頭明確說 canals 的復興首先由 leisure seekers 推動，接著列出 boaters、anglers、walkers、cyclists，所以 heading “Modern leisure uses” 適合 Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "modern leisure uses = leisure seekers / boaters / anglers / walkers / cyclists uses = benefit from waterways and paths modern = now / fashionable / urban renewal答案判斷： Paragraph D 最集中處理現代休閒和生活用途，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 提到 Castlefield 和 Brindley Place 變成 urban cool，也有現代城市休閒感。但 A 的整段功能是引入 canals 從破敗到貨運復興的整體問題；D 才系統列出現代 leisure users。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "能源效率。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Energy efficiency”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪段集中說 water freight 比 road transport 更省能源、排放更低。定位詞是 energy efficiency。Heading 不一定原字重現，但要找 energy use、emissions、environmentally friendly。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, industrial goods such as coal, steel, aggregates and petroleum have never completely disappeared from large rivers and designated commercial waterways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，coal、steel、aggregates 和 petroleum 等工業貨物，從未完全從大型 rivers 和指定commercial waterways 消失。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canals can do that. They can help cut the pollution that causes climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Canals 可以做到這一點。它們能幫助減少導致氣候變化的污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 由工業貨運引入，最後落在減少污染。中間很可能解釋 barge 相比lorry 的能源和排放優勢。Heading “Energy efficiency” 很可能在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “energy”。掃描 Paragraph E 可直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Carrying freight by water uses about a quarter of the energy of an equivalent road journey.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接包含 energy，並比較 water freight 和 road journey。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Carrying freight by water uses about a quarter of the energy of an equivalent road journey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用水路運輸貨物所消耗的能源，約為同等道路運輸旅程的四分之一。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“In comparison to lorries, barges produce low emissions and little noise, and are visually unobtrusive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與貨車相比，barges 排放低、噪音小，而且視覺上不突兀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句共同支援 energy efficiency。第一句直接講能源使用量，指出水運只用相同道路旅程約四分之一能源；第二句擴展到排放和噪音優勢。Paragraph E 因此不只是談貨運例子，也是在說為何水運環境表現較佳。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "energy efficiency = uses about a quarter of the energy freight by water = barges / canals road journey = lorries / equivalent road journey答案判斷： Paragraph E 直接提供 energy consumption comparison，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 有 “more efficient, reliable and environmentally friendly”，但那是歐洲整體政策的引言，沒有具體 energy 數據。Question 17 的 heading 更適合 Paragraph E，因為它有 “about a quarter of the energy” 這個精準證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "TRUE，選 A",
+      "answerKey": "TRUE，選 A",
+      "type": "Multiple-answer Questions",
+      "prompt": "Questions 18–22",
+      "translation": "根據文章，下列八項陳述中有五項正確。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目要求："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the text, FIVE of the following statements are true.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類題要逐項檢查，不可只憑印象選五個。Golden Manual 對 multiple-answer 題的要求是：每個正確選項要獨立證明，也要追蹤每個選項是否被提及、支持、限制或否定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案：A, D, E, G, H Option A"
+            },
+            {
+              "kind": "label",
+              "text": "選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canals were important in the industrial revolution in Britain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Canals 在英國工業革命中很重要。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s hard to imagine that only a decade or so ago many of the nation’s canals were little more than the last resting place for abandoned shopping trolleys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很難想像，大約十年前，英國許多 canals 幾乎只是被棄置購物車最後停放的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last month, for example, the European Commission proposed a seven-year plan to shift large amounts of freight from roads to inland waterways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，上月 European Commission 提出一項七年計劃，要把大量貨運從道路轉移到 inland waterways。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 是全文引入，既講 canals 從破敗到復興，也講它們過去和現在的運輸角色。選項 A問 industrial revolution，應看本段中間歷史句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “industrial revolution”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the second half of the 18th century, canals drove the industrial revolution.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the second half of the 18th century, canals drove the industrial revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十八世紀下半葉，canals 推動了工業革命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“drove” 在這裡意思是推動、促進。選項說 “were important”，語氣比 drove 更保守。原文說 canals drove the industrial revolution，足以支持它們很重要。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "were important in = drove the industrial revolution = the industrial revolution Britain = 本文主題為 Britain’s Canals，且 Paragraph A 講 “nation’s canals” 和 18th-century motorway system判斷：選項 A 獲原文直接支持，所以 A 是正確答案之一。 Option B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選 B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項句子：“The use of canals in Europe is expected to grow by a third over the next ten years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐洲 canals 的使用量預計未來十年增長三分之一。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Europe’s enthusiasm comes as no surprise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐洲對 inland waterways 的熱情並不令人意外。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Europe cannot afford to leave that potential untapped.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐洲不能承受讓這種潛力未被開發的後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段談歐洲為何支持水路貨運。選項 B 有 Europe、grow by a third、next ten years，應看本段的數字句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “grow by a third” 和 “next decade”。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freight traffic is expected to grow by a third in the next decade.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freight traffic is expected to grow by a third in the next decade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "貨運交通預計在未來十年增長三分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Freight traffic，不是 the use of canals。文章意思是：整體貨運需求會增長，因此歐洲更需要利用 inland waterways 減少道路壓力。選項把 “freight traffic” 改成 “the use of canals”，主語錯位。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義檢查",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Freight traffic = 貨運交通整體the use of canals = canals 使用量兩者不能直接互換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： B 不選。原文說貨運量將增長三分之一，沒有說 canal use 本身一定增長三分之一。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是典型「數字正確，主語錯誤」。看到 one third 和 next decade 不能即刻選，要看增長的是freight traffic 還是 canals use。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選 C"
+            },
+            {
+              "kind": "label",
+              "text": "選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain was the only European country to let its canals decline.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國是唯一讓 canals 衰落的歐洲國家。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mainland Europe has never, in fairness, left it completely untapped.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公平地說，歐洲大陸從未完全放棄這種潛力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact many European countries actually enlarged their canals 100 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，許多歐洲國家一百年前其實擴大了 canals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段比較 Britain 和 much of Europe 的 canal use。選項 C 的 only 是絕對詞，需要非常清楚的原文支持。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “only European country” 和 “decline”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our network was in decline for a long time compared to much of Europe…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Whereas other countries developed road and rail transport but carried on using their waterways as well…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our network was in decline for a long time compared to much of Europe…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與歐洲許多地區相比，我們的水道網絡長期處於衰落狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 compared to much of Europe，即和歐洲許多地方相比，英國較落後或衰落較嚴重。它沒有說 Britain was the only European country。再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact many European countries actually enlarged their canals 100 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多歐洲國家一百年前其實擴大了 canals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明很多歐洲國家沒有像英國那樣忽略 canals，但 “many” 不等於 “all other countries”。因此原文不足以支持 “only”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： C 不選。文章支持「英國相對歐洲許多地區更忽略 canals」，沒有支持「英國是唯一一個讓 canals衰落的歐洲國家」。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "only 是控制詞。原文有 “much of Europe” 和 “many European countries”，這些都是部分範圍，不能放大成 every other European country。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE，選 D"
+            },
+            {
+              "kind": "label",
+              "text": "選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canals in Britain have become a focus for city-centre renewal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國 canals 已成為市中心更新的焦點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That decline in Britain has been reversed, first by leisure seekers and more recently by industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國 canals 的衰落已被逆轉，最初由休閒活動者推動，近年則由工業推動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And, despite our obsession with road transport, environmental considerations are forcing government and business to turn the clock back 200 years and—at least in a minor way—get our waterways working again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我們十分依賴道路運輸，但環境因素正迫使政府和企業重新讓 waterways 發揮作用，至少是以小規模方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段講英國 canals 復興，包括休閒、居住、城市更新和少量工業用途。選項 D 有 city-centre renewal，應看本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “city-centre renewal”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“city-centre canals have been a focus for urban renewal.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Waterside living is fashionable, and city-centre canals have been a focus for urban renewal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水邊居住變得時尚，而市中心 canals 已成為城市更新的焦點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項把 urban renewal 改成 city-centre renewal。由於原文主語是 city-centre canals，所以renewal 發生在市中心語境中，選項意思成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "city-centre renewal = urban renewal involving city-centre canals have become a focus = have been a focus Canals in Britain = city-centre canals判斷： D 獲原文直接支持，所以是正確答案之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE，選 E"
+            },
+            {
+              "kind": "label",
+              "text": "選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Barges are less polluting than lorries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Barges 比 lorries 污染少。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, industrial goods such as coal, steel, aggregates and petroleum have never completely disappeared from large rivers and designated commercial waterways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，煤、鋼、骨料和石油等工業貨品從未完全從大型 rivers 和指定商業水道消失。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canals can do that. They can help cut the pollution that causes climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Canals 可以做到這一點。它們能幫助減少造成氣候變化的污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 明顯講 water freight 的環境效益。選項 E 問 barges 和 lorries 的污染比較，直接定位本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “barges” 和 “lorries”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In comparison to lorries, barges produce low emissions and little noise…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In comparison to lorries, barges produce low emissions and little noise, and are visually unobtrusive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與貨車相比，barges 排放低、噪音小，而且在視覺上不突兀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“low emissions” 就是污染少的主要證據。選項說 less polluting，是對 low emissions 的自然概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "less polluting = produce low emissions barges = barges lorries = lorries comparison = In comparison to判斷： E 獲原文直接支持，所以是正確答案之一。 Option F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選 F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項句子：“In London, most waste is transported on canals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在倫敦，大部分廢物都經 canals 運輸。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a limit to what canals can carry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "canals 能運載的東西有限。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Current arrangements could be just the tip of the iceberg.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前的安排可能只是冰山一角。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段談 waste management 和 recycling schemes，並有 Hackney pilot scheme。選項 F 的 “most waste” 是很強的數量判斷，要小心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “London”、“waste”、“most”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of the proposals to utilise Britain’s waterways are based on waste management and recycling schemes.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a pilot scheme in Hackney, east London, has seen municipal waste collected by truck and transferred to a barge…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, a pilot scheme in Hackney, east London, has seen municipal waste collected by truck and transferred to a barge for transportation to a reprocessing plant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，在倫敦東部 Hackney 的一項試驗計劃中，municipal waste 先由 truck 收集，再轉到 barge，運往再處理廠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 Hackney 有一個 pilot scheme，並且廢物先由 truck 收集，再轉到 barge。它沒有說整個London 的 most waste 都靠 canals 運輸。 “pilot scheme” 反而表示規模仍在試驗階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： F 不選。原文有 London waste scheme，但沒有 most waste 這個範圍。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Hackney, east London” 和 “municipal waste” 會吸引學生，但 most 是範圍放大。文章只支援一個試驗計劃，未支援全倫敦大部分廢物。 Option G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE，選 G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項句子：“The amount of waste that can be taken to the Powerday plant by road is limited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可經道路運往 Powerday plant 的廢物數量有限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Planning permission has been given for a Powerday recycling plant at Willesden Junction, a site at the intersection of road, rail and canal networks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "位於 Willesden Junction 的 Powerday recycling plant 已獲規劃許可，該地點位於道路、鐵路和canal networks 的交界。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Powerday project, on the other hand, is proof of what really can be done.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Powerday project 則證明 canals freight 真正可以做到甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 是 Powerday 個案段，選項 G 的 Powerday 和 road 都直接定位本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Powerday”、“road”、“limited”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the amount carried by road will be capped at 500,000 tons”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "capped 就是設上限。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The plant will have the capacity to handle a million and a half tons of waste every year, but the amount carried by road will be capped at 500,000 tons…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座 plant 每年有能力處理 150 萬噸廢物，但經道路運輸的數量會被限制在 500,000 噸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“will be capped” 表示設立上限。選項說 “is limited”，語氣完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the amount of waste by road is limited = the amount carried by road will be capped Powerday plant = Powerday recycling plant by road = carried by road判斷： G 獲原文直接支持，所以是正確答案之一。 Option H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE，選 H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項句子：“Canals will not become a major form of transport in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Canals 不會成為世界上的主要交通或運輸形式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though details have yet to be decided, British Waterways believes the most appropriate way to transport some of the building materials destined for London’s giant Olympic construction project is by the network of waterways that links the Thames and east London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然細節尚未決定，British Waterways 認為部分奧運建設材料最適合經由連接 Thames 和 east London 的水道網絡運輸。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The canals’ gentle pace will always make them a niche player in a busy world, but after 200 years of neglect, the tide is starting to turn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "canals 的緩慢速度會令它們在繁忙世界中一直只是小眾角色，但經過二百年忽視後，形勢開始轉變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 H 問 canals 未來是否會成為 major form of transport。Paragraph H 最後一句正好談 future role。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “major form of transport”。原文沒有 major，但有 “niche player”。niche player 指小眾角色，和 major form 意思相反。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The canals’ gentle pace will always make them a niche player in a busy world…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "canals 的緩慢速度會令它們在繁忙世界中一直只是小眾角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 canals will always be a niche player，就表示它們不會成為主要運輸形式。選項 H 把 niche player 轉成 “will not become a major form of transport”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "will not become a major form = will always be a niche player in the world = in a busy world reason = gentle pace判斷： H 獲原文支持，所以是正確答案之一。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章最後說 “the tide is starting to turn”，表示 canals 正重新受到重視；但重新受到重視不等於成為主流。真正控制範圍的是 “niche player”。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A — relatively little investment",
+      "answerKey": "A — relatively little investment",
+      "type": "Multiple Choice",
+      "prompt": "“Canals will require…”",
+      "translation": "Canals 將需要……選項： A relatively little investment.相對較少投資。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B considerable investment.大量投資。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C investment equal to 1% of Europe’s transport budget.相等於歐洲交通預算 1% 的投資。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s hard to imagine that only a decade or so ago many of the nation’s canals were little more than the last resting place for abandoned shopping trolleys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很難想像，大約十年前，英國許多 canals 幾乎只是被棄置購物車最後停放的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last month, for example, the European Commission proposed a seven-year plan to shift large amounts of freight from roads to inland waterways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，上月 European Commission 提出七年計劃，把大量貨運從道路轉移到 inland waterways。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段在引入 canals 復興和運輸功能。題目問 investment，應看本段中間關於transport network 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “investment”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canals and navigable rivers form a major transport network, in need of only piecemeal investment…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canals and navigable rivers form a major transport network, in need of only piecemeal investment, and with the spare capacity to eliminate the need for hundreds of thousands of lorry journeys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Canals 和可通航 rivers 構成一個主要交通網絡，只需要零星、逐步的小規模投資，並有剩餘容量，可消除數十萬次 lorry journeys 的需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“piecemeal investment” 指分段、零碎、逐步的小規模投資。它和選項 A “relatively little investment” 最接近。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。relatively little investment 對應 only piecemeal investment。 B 錯在 considerable。原文說 only piecemeal，語氣上明顯偏少。 C 錯在 1%。Paragraph B 的 1% 指 pollution and congestion cost may swallow one per cent of Europe’s GDP by 2010，不是 canals investment，也不是 Europe’s transport budget。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "relatively little investment = only piecemeal investment will require = in need of canals = canals and navigable rivers答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — has actually been expanded in some countries over the last hundred years",
+      "answerKey": "C — has actually been expanded in some countries over the last hundred years",
+      "type": "Multiple Choice",
+      "prompt": "“The European canal network…”",
+      "translation": "歐洲 canal network……選項： A transported most of Europe’s goods for 60 years.曾在 60 年間運輸歐洲大部分貨品。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B was built mostly about 150 years ago.大多在約 150 年前建成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C has actually been expanded in some countries over the last hundred years.在過去一百年中，某些國家其實曾擴展 canals。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mainland Europe has never, in fairness, left it completely untapped.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公平地說，歐洲大陸從未完全放棄這種潛力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact many European countries actually enlarged their canals 100 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，許多歐洲國家一百年前其實擴大了自己的 canals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 明顯在比較 Europe 和 Britain。最後一句已經直接指向選項 C： European countries enlarged canals 100 years ago。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “European canal network” 和 “hundred years”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“many European countries actually enlarged their canals 100 years ago.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact many European countries actually enlarged their canals 100 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，許多歐洲國家一百年前其實擴大了 canals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“enlarged” 就是 expanded。 “many European countries” 對應 some countries，因為 many 當然屬於 some 的範圍內。 “100 years ago” 對應 over the last hundred years / about a hundred years ago 的時間概念。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 正確。expanded = enlarged；some countries = many European countries。 A 錯在 most of Europe’s goods 和 60 years。原文說英國 canals 的 heyday lasted barely 60 years，這不是歐洲 canals 運輸大部分貨品的時間。 B 錯在 built mostly。原文說 British canals 150 years ago 被 considered obsolete，不是European network mostly built 150 years ago。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "expanded = enlarged some countries = many European countries over the last hundred years = 100 years ago答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 B 都借用了 Paragraph C 的數字：60 years、150 years。這類題要看數字連到哪個主語和動作。60 years 是英國 canals 的 heyday；150 years 是英國 canals 被視為 obsolete 的時間。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — fuel",
+      "answerKey": "B — fuel",
+      "type": "Multiple Choice",
+      "prompt": "“Suitable products for transportation by canal include…”",
+      "translation": "適合用 canal 運輸的產品包括……選項： A fresh fruit and vegetables.新鮮水果和蔬菜。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B fuel.燃料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C cereal.穀物。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E + Paragraph F Paragraph E 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, industrial goods such as coal, steel, aggregates and petroleum have never completely disappeared from large rivers and designated commercial waterways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，coal、steel、aggregates 和 petroleum 等工業貨物，從未完全從大型 rivers 和指定commercial waterways 消失。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a limit to what canals can carry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "canals 能運載的東西有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題問 suitable products，需要同時看 E 的實際貨物例子和 F 的限制。E 列出工業貨物，F 排除fresh produce。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “suitable products”。選項 A 的 fresh fruit and vegetables 對應原文 “fresh produce”；選項 B fuel 對應 coal / petroleum；選項 C cereal 原文沒有提到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, industrial goods such as coal, steel, aggregates and petroleum have never completely disappeared from large rivers and designated commercial waterways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，coal、steel、aggregates 和 petroleum 等工業貨品從未完全從大型 rivers 和指定商業水道消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "coal 和 petroleum 都可歸入 fuel。這支持 B。"
+            },
+            {
+              "kind": "label",
+              "text": "再看排除 A 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The slow pace of water travel does not fit well with the limited shelf-life of fresh produce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水路運輸速度慢，和 fresh produce 有限的保存期限不太配合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fresh produce 包括新鮮水果和蔬菜，所以 A 不合適。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。原文說 fresh produce 不適合慢速水運，因為 shelf-life 有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。coal 和 petroleum 都屬於燃料或能源類工業貨品，且原文說它們從未完全從commercial waterways 消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。cereal 沒有在原文中出現，也沒有被列為適合水運的貨品。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "fuel = coal and petroleum suitable for transportation by canal = have never completely disappeared from commercial waterways fresh fruit and vegetables = fresh produce答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能覺得 canal 慢速很適合糧食或 cereal，但文章沒有提 cereal。IELTS Reading 要跟文本走；可想像的合適貨物不等於文章支持的答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — 1.5 million tons",
+      "answerKey": "A — 1.5 million tons",
+      "type": "Multiple Choice",
+      "prompt": "“How much waste can the Powerday recycling plant treat in one year?”",
+      "translation": "Powerday recycling plant 一年可以處理多少 waste？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A 1.5 million tons. 150 萬噸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 500 tons. 500 噸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 15 million tons. 1,500 萬噸。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Planning permission has been given for a Powerday recycling plant at Willesden Junction, a site at the intersection of road, rail and canal networks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "位於 Willesden Junction 的 Powerday recycling plant 已獲規劃許可，該地點位於道路、鐵路和canal networks 的交界。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Powerday project, on the other hand, is proof of what really can be done.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Powerday project 則證明 canals freight 真正可以做到甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 是 Powerday plant 個案段。題目問 how much waste one year，應掃描本段數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Powerday recycling plant”、“waste”、“one year”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The plant will have the capacity to handle a million and a half tons of waste every year…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The plant will have the capacity to handle a million and a half tons of waste every year, but the amount carried by road will be capped at 500,000 tons…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座 plant 每年有能力處理 150 萬噸 waste，但經道路運輸的數量會被限制在 500,000 噸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “can the plant treat in one year”，即 plant 的年處理能力。答案應看 “capacity to handle”，不是看 “carried by road”。因此是 a million and a half tons，即 1.5 million tons。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。1.5 million tons = a million and a half tons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。原文是 500,000 tons by road，不是 500 tons，也不是 plant 的總處理能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。15 million tons 多了一個零，原文沒有這個數字。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "can treat = capacity to handle in one year = every year 1.5 million tons = a million and a half tons答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本題最容易被 500,000 tons 干擾。500,000 是 road transport cap；題目問 plant capacity，所以要回到 “capacity to handle a million and a half tons”。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Britain’s canals – the solution to overcrowded roads_.pdf",
+    "sha256": "830235a9bc959768393eed7e2c89c636d4eb5b4ec3b7e3279275e0f41d8e4210",
+    "pageCount": 28
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說，大約十年前，英國很多 canals 幾乎只是被棄置購物車佔據的地方。末句說，European Commission 上月提出七年計劃，把大量貨運從道路轉移到 inland waterways。只看首尾句，可以估計本段功能是引入 canals 的復興：它們曾由破敗城市水道變成 urban cool，現在更被重新看作可減輕道路擠塞的貨運網絡。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說，Europe 對 inland waterways 的熱情並不令人意外。末句引用 Jacques Barrot，說歐洲不能讓這種潛力未被開發。初步來看，本段解釋歐洲推動水路貨運的背景：未來 freight traffic 會增長，污染和擠塞成本很高，而 inland waterways 有龐大 vessels capacity，可令歐洲運輸更有效、可靠和環保。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說，公平而言，Mainland Europe 從未完全放棄 inland waterways 的潛力。末句說，許多歐洲國家一百年前其實擴大了 canals。只看首尾句，本段主要比較英國和歐洲大陸的不同路線：歐洲繼續使用甚至擴展水道，英國工業則轉向 railways and roads，令 canals 長期衰落和被忽略。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說，英國 canals 的 decline 已經被逆轉，先由 leisure seekers 推動，近年再由 industry 推動。末句說，環境因素迫使政府和企業把時鐘撥回二百年，讓 waterways 再次工作。這段大概會處理 canals 的現代復興：boaters、anglers、walkers、cyclists、waterside living、urban renewal，以及水道重新承擔少量貨運功能。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說，coal、steel、aggregates 和 petroleum 等工業貨物從未完全從大型 rivers 和 commercial waterways 消失。末句引用 Friends of the Earth 的 Tony Bosworth，說 canals 可幫助減少導致氣候變化的污染。只看首尾句，本段焦點是貨運和環境效益：barge 可取代 lorry loads，水運耗能較少、排放低、噪音小，值得發展。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說，canals 能承載的東西有限。末句說，目前安排可能只是 iceberg 的 tip，即未來潛力很大。初步來看，本段先指出限制：水運速度慢，不適合 fresh produce；接著轉向適合的用途，例如waste paper、plastic、waste management 和 recycling schemes。Hackney 試驗計劃顯示，垃圾可由 truck 轉到 barge 運往再處理廠。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說，Powerday recycling plant at Willesden Junction 已獲 planning permission，該地點位於road、rail 和 canal networks 的交界。末句說，Powerday project 證明 canals freight 真正可以做到。只看首尾句，本段功能是具體案例：Powerday recycling plant 有龐大處理能力，但 road 運輸有上限，因此若業務增長，必須利用 canal network。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說，雖然細節仍未決定，British Waterways 認為 London Olympic construction project 的部分 building materials 最適合經 waterways 運輸。末句說，canals 的慢速會令它們一直只是 niche player，但長期 neglect 後，情況開始轉變。這段是結論和未來應用：Olympic transport、sustainability、waterway network，以及 canals 不會成為主流但正在重新被重視。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 18–22 的五個答案順序一般可互換；這裡按文章出現順序填入：A, D, E, G, H。",
+    "每段只根據第一句和最後一句作初步導航。"
+  ]
+}

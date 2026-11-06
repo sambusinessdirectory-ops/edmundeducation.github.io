@@ -1,0 +1,798 @@
+{
+  "id": "p3-058-texting-the-television",
+  "catalogueId": "p3-058",
+  "catalogueIds": [
+    "p3-058"
+  ],
+  "passage": 3,
+  "title": "Texting the Television",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "vi",
+    "vii",
+    "i",
+    "v",
+    "viii",
+    "A",
+    "D",
+    "C",
+    "D",
+    "E",
+    "A",
+    "C",
+    "F"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "vi — Factors relevant to the rapid increase in interactive TV",
+      "answerKey": "vi — Factors relevant to the rapid increase in interactive TV",
+      "type": "Matching Headings",
+      "prompt": "Questions 28–32",
+      "translation": "這個現象大致可歸因於 reality TV shows 的快速增長，例如 Big Brother，在這類節目中，觀眾可以透過投票決定結果。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 28 — Section B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Section B 選 heading。Matching Headings 要看整段焦點，不可只拿其中一個例子作答案。Section B 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This phenomenon can be largely attributed to the rapid growth of reality TV shows such as ‘Big Brother’, where viewers get to decide the result through voting.”"
+            },
+            {
+              "kind": "label",
+              "text": "Section B 最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“TV audiences tend to sit on the sofa with their mobile phones right by their sides, and ‘it’s a natural way to interact,’ says Adam Daum of Gartner.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "電視觀眾通常坐在沙發上，手機就在身邊；Gartner 的 Adam Daum 說，這是一種自然的互動方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可見，Section B 的起點是 reality TV 推動 texting，終點是手機在觀眾身邊，所以 texting很自然。中間列出 voting、news comments、game shows、music requests 和 on-screen chatrooms。這些全部都是 interactive TV 增長的原因、形式和使用場景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 說 “Factors relevant to the rapid increase in interactive TV”，即互動電視快速增加的相關因素。這能覆蓋全段：reality TV 增長、觀眾投票、節目類型擴展、手機使用習慣，都屬於rapid increase 的因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 中，iii “Growing interest in profitable games” 只符合 game shows 這個細節； Section B 不只講 games。ii “An overview of a fast-growing business” 太接近 Section A 或 C 的大方向，但 Section B 核心在互動方式和增長原因，不在整體商業概覽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vi。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 29 — Section C"
+            },
+            {
+              "kind": "label",
+              "text": "Section C 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mobile service providers charge premium rates for messages to certain numbers, which is why TV-texting can bring in a lot of cash.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mobile service providers 對發往某些號碼的訊息收取 premium rates，因此 TV-texting 可以帶來大量現金。"
+            },
+            {
+              "kind": "label",
+              "text": "Section C 最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It plans to set up a direct billing system with the users and bypass the providers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它計劃和用戶建立 direct billing system，從而繞過 providers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這一 section 已經明顯圍繞 money：開頭說 premium rates 帶來 cash，結尾說Endemol 想繞過 providers，自行直接向用戶收費。中間再用多個節目例子展示文字投票、quiz、crossword 如何收費；後半則解釋 providers 通常取得每條 text 的 40–50% 收入，其餘由broadcaster、programme producer 和 message-processing technology company 分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “Revenue gains and profit sharing” 最準確，因為它同時涵蓋兩部分：● Revenue gains：Big Brother、MTV Videoclash、Belgian quiz show、Spanish crossword 都帶來收入；● Profit sharing：providers、broadcasters、producers、technology suppliers 如何分帳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “An overview of a fast-growing business” 也有少許吸引力，因為 Section C 確實講business。但它沒有捕捉本段最具體的核心：收入增長和分帳比例。Heading iii “profitable games”只符合部分 quiz / game 例子，覆蓋不了 Big Brother、providers revenue 和 Endemol billing system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 30 — Section D"
+            },
+            {
+              "kind": "label",
+              "text": "Section D 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why has the combination of television and text messaging proved so successful?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 television 和 text messaging 的結合如此成功？"
+            },
+            {
+              "kind": "label",
+              "text": "Section D 最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emergence of these universal short codes was a game-changer, because short codes are much easier to remember when shown on screen, according to Lars Becker of Flytxt, a mobile-marketing company.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Flytxt 的 Lars Becker 說，這些 universal short codes 的出現改變了局面，因為 short codes 顯示在螢幕上時更容易被記住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的核心詞反覆出現：special four-, five- or six-digit numbers、short codes、universal short codes、shown on screen、easier to remember。Section D 不只是一般解釋成功原因，它把成功歸到一個很具體的技術與商業安排：不同 providers 合作推出所有 networks 都可用的 short codes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i “The use of short codes on the TV screen” 完整概括本段。它包含兩個重點：● short codes；● shown on screen / easy to remember。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “Factors relevant to the rapid increase in interactive TV” 也像是原因類 heading，但已更適合 Section B；Section D 的焦點比 vi 更窄，集中在 short codes。因此 i 比 vi 更精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 i。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 31 — Section E"
+            },
+            {
+              "kind": "label",
+              "text": "Section E 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Operators’ cooperation in expanding the market is part of a broader trend, observes Katrina Bond of Analysys, a consultancy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Analysys 的 Katrina Bond 觀察到，operators 合作擴大市場，是更大趨勢的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "Section E 最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Orange, a French operator, has gone so far as to launch a rate card for sharing text-message revenue, a new level of transparency that used to be unimaginable.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國 operator Orange 甚至推出 text-message revenue sharing rate card，這種透明程度以前難以想像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section E 的段落功能是解釋 operators 的商業態度轉變。前文說他們以前面對兩個選擇：保護margins，或容許新 medium 出現。過去他們選擇保護 margins，WAP 因 providers 不願與content providers 分享收入而失敗。現在他們學到教訓，開始改變運作方式，甚至公開 revenue sharing rate card。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v “A new perspective on sharing the business opportunities” 最貼近本段。它的 “new perspective” 對應 “learnt their lesson” 和 “altering the way they operate”；“sharing the business opportunities” 對應 revenue sharing、cooperation、rate card。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 也提到 profit sharing，但 Section C 更直接講收入與分帳比例。Section E 的重點在operators 的新態度和合作趨勢，所以選 v。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 32 — Section G"
+            },
+            {
+              "kind": "label",
+              "text": "Section G 的第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The triumph of TV-related texting reminds everyone in the business of how easily a fancy technology can suddenly be replaced by a less complicated, lower-tech method.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "TV-related texting 的成功提醒業界所有人：一項 fancy technology 很容易突然被較不複雜、技術較低的方法取代。"
+            },
+            {
+              "kind": "label",
+              "text": "Section G 最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“After all, couch potatoes would love some thumb exercises.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢竟，長時間坐著看電視的人也會喜歡做一點拇指運動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經直接給出 heading 的核心：fancy technology 被 lower-tech method 取代。這裡的fancy technology 指傳統 interactive TV / set-top boxes 等較複雜方案；simpler alternatives 指TV-related texting。後文說 old-fashioned approach to interactive TV 不一定結束，但 texting 的成功證明需求存在，而且觀眾希望做更多事，不只 staring at the TV screen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 幾乎是 Section G 第一 句的重寫：● complex technology = fancy technology；● replaced by simpler alternatives = replaced by a less complicated, lower-tech method。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix “A change of mind among set-top-box providers” 較適合 Section F 最後一句，但Section G 的焦點更大，是整個業界看到 low-tech texting 取代 fancy technology 的可能性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "A — sending text messages",
+      "answerKey": "A — sending text messages",
+      "type": "Multiple Choice",
+      "prompt": "Question 33",
+      "translation": "在歐洲，研究暗示年輕觀眾在甚麼方面花費更多？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Europe, research suggests that young audiences spend more money on…”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section A Section A 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once upon a time, if a television show with any self-respect wanted to target a young audience, it needed to have an e-mail address.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "曾經，任何想吸引年輕觀眾的電視節目，都需要有一個 e-mail address。"
+            },
+            {
+              "kind": "label",
+              "text": "Section A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gartner’s statistics show that 20% of French teenagers, 11% of British teenagers and 9% of German teenagers have responded to TV programmes by sending a text message.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gartner 的統計顯示，20% 法國青少年、11% 英國青少年和 9% 德國青少年曾經透過 sending a text message 回應電視節目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時最有定位力的字是 “research”、“young audiences”、“Europe”。原文對應 “according to Gartner’s research” 和 “across Europe”。關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It therefore comes as no surprise that, according to Gartner’s research, texting has recently surpassed Internet usage across Europe.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，根據 Gartner 的研究，texting 最近在歐洲已經超過 Internet usage，這並不令人意外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "嚴格看，原文說的是 usage，即使用量或使用情況；題目寫 “spend more money” 時，文章沒有直接提供金額比較。不過，在四個選項中，只有 A “sending text messages” 與 Gartner research、texting surpassed Internet usage、teenagers sending text messages 完全同方向。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “sending text messages”最貼近原文。Section A 反覆說 texting / text message。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “writing e-mails”原文說 e-mail address 正逐漸被 telephone numbers 取代，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “watching TV programmes”原文講的是和 TV programmes 互動，不是比較看電視本身的花費。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “talking through mobile phones”原文重點是 texting，不是 voice calls。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。如果嚴格按 “money” 判斷，要記得原文直接支援的是 texting usage 高於 Internet usage，金額花費沒有明示；但 MCQ 中 A 仍是唯一有文本支援的選項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "D — Their participation could change the result.",
+      "answerKey": "D — Their participation could change the result.",
+      "type": "Multiple Choice",
+      "prompt": "Question 34",
+      "translation": "當 reality TV shows 邀請觀眾投票時，會發生甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“What would happen when reality TV shows invite the audience to vote?”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B Section B 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This phenomenon can be largely attributed to the rapid growth of reality TV shows such as ‘Big Brother’, where viewers get to decide the result through voting.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個現象大致可歸因於 reality TV shows 的快速增長，例如 Big Brother；在這些節目中，觀眾可以透過 voting 決定結果。"
+            },
+            {
+              "kind": "label",
+              "text": "Section B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“TV audiences tend to sit on the sofa with their mobile phones right by their sides, and ‘it’s a natural way to interact,’ says Adam Daum of Gartner.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "觀眾坐在沙發上時，手機通常就在旁邊；Gartner 的 Adam Daum 說，這是自然的互動方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “reality TV shows”、“vote”。原文第一句直接說 viewers “get to decide the result through voting”。這句的主語是 viewers，動作是 get to decide，對象是 the result，方式是 through voting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “Their participation could change the result” 是原文的概括改寫：● participation = voting；● could change the result = get to decide the result。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “Viewers would get an attractive bonus.”原文沒有說投票者會得到 bonus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “They would be part of the competition.” Section B 確實說 game shows enable the audience to be part of the competition，但那是 game shows，不是 reality TV voting 的重點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Their questions would be answered.”原文說 music shows answer requests by taking text messages，沒有說 reality TV voting 會回答問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最直接對應 Big Brother voting 的功能，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "C — building an embedded message platform",
+      "answerKey": "C — building an embedded message platform",
+      "type": "Multiple Choice",
+      "prompt": "Question 35",
+      "translation": "Interactive TV 會由集中於 set-top devices，轉向甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interactive TV will change from concentrating on set-top devices to…”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section F Section F 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At a recent conference, Han Weegink of CMG, a company that provides text-message infrastructure to the television industry, pointed out that the television industry is changing in a subtle yet fundamental way.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在最近一次 conference 上，CMG 的 Han Weegink 指出，television industry 正在以微妙但根本的方式改變；CMG 是為電視業提供 text-message infrastructure 的公司。"
+            },
+            {
+              "kind": "label",
+              "text": "Section F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Providers of set-top box technology are now adding texting functionality to the design of their products.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "set-top box technology 的 providers 現在也在產品設計中加入 texting functionality。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時要找 “set-top devices / set-top boxes” 和 “change”。原文中最關鍵的對比是：interactive TV 原本設計成配合 special set-top boxes；但這方法有多個問題，包括軟件開發和測試成本高、set-top boxes 類型不兼容、market penetration 只有 40% 或更低，低於 mobile phones 的約 85%。接著 Mr Daum 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“What’s more, it’s quicker to develop and set up apps for mobile phones.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，為 mobile phones 開發和設置 apps 更快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再加上最後一句，set-top box providers 也開始加入 texting functionality。整段顯示 interactive TV的焦點正在由傳統 set-top boxes，轉向以 mobile texting / messaging 功能作為互動基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "四個選項中，C “building an embedded message platform” 最能概括這個轉向：把 messaging 功能嵌入 interactive TV 的設計和平台之中。它不是原文逐字重現，而是對 “text-message infrastructure”、“apps for mobile phones” 和 “adding texting functionality” 的最佳概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “increasing their share in the market”原文有 market penetration，但不是 interactive TV 的新方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “setting up a modified set-top box”這個選項容易令人被最後一句 “set-top box technology providers…” 吸引；但整段重點在 texting functionality 和 mobile-phone-based interaction。B 只停留在 set-top box 本身，沒有抓到messaging layer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “marching into the European market”原文沒有說 interactive TV 將進軍歐洲市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案選 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "D — CMG",
+      "answerKey": "D — CMG",
+      "type": "Matching Companies",
+      "prompt": "Question 36",
+      "translation": "提供 mobile-phone messaging technology。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“offered mobile-phone messaging technology”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At a recent conference, Han Weegink of CMG, a company that provides text-message infrastructure to the television industry, pointed out that the television industry is changing in a subtle yet fundamental way.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一次最近的 conference 上，CMG 的 Han Weegink 指出，television industry 正在以微妙但根本的方式改變；CMG 是一家向電視業提供 text-message infrastructure 的公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “mobile-phone messaging technology” 對應原文 “text-message infrastructure”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 infrastructure 指支撐短訊運作的技術系統或平台。公司名稱與功能在同一句出現：● Company：CMG；● Function：provides text-message infrastructure to the television industry。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D — CMG。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Flytxt。Flytxt 是 mobile-marketing company，也與手機行銷有關，但原文把 “provides text-message infrastructure” 明確給了 CMG。因此公司功能題要以原文公司旁邊的 appositive description 作準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "E — mmO2",
+      "answerKey": "E — mmO2",
+      "type": "Matching Companies",
+      "prompt": "Question 37",
+      "translation": "透過一個著名節目賺到可觀收入。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“earned a considerable amount of money through a famous programme”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C Section C 中段有關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In July, mmO2, a British operator, reported unexpectedly strong results, which could be attributed to the massive volume of text traffic created by ‘Big Brother’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "七月，英國 operator mmO2 公布了出乎意料地強勁的業績，這可歸因於 Big Brother 製造的大量text traffic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “famous programme” 對應 ‘Big Brother’。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“earned a considerable amount of money” 對應 “unexpectedly strong results” 和 “massive volume of text traffic”。原文沒有用 earned 這個字，但 “strong results” 在 business context 中表示業績亮眼，與收入有關。公司定位：● mmO2：British operator；● famous programme：Big Brother；● money result：unexpectedly strong results due to massive text traffic。 Endemol 也和 Big Brother 有關，因為它是 responsible for many reality TV shows including Big Brother 的 production firm。但 Question 37 的 “earned a considerable amount of money” 更貼近mmO2 的 “reported unexpectedly strong results”。Endemol 的主要定位在 Question 39 的database。所以答案是 E — mmO2。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — Flytxt",
+      "answerKey": "A — Flytxt",
+      "type": "Matching Companies",
+      "prompt": "Question 38",
+      "translation": "表示 short codes 顯示在螢幕上時很方便記住。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“expressed the view that short codes are convenient to remember when displayed on screen”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emergence of these universal short codes was a game-changer, because short codes are much easier to remember when shown on screen, according to Lars Becker of Flytxt, a mobile-marketing company.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Flytxt 的 Lars Becker 說，universal short codes 的出現改變了局面，因為 short codes 顯示在螢幕上時更容易記住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目與原文幾乎逐項對應：● expressed the view = according to Lars Becker；● short codes = short codes；● convenient to remember = much easier to remember；● displayed on screen = shown on screen；● company = Flytxt。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A — Flytxt。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的定位詞很強：short codes 和 on screen 只集中在 Section D。找到 Lars Becker 後，看 “of Flytxt” 就能確定公司。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C — Endemol",
+      "answerKey": "C — Endemol",
+      "type": "Matching Companies",
+      "prompt": "Question 39",
+      "translation": "建立自己的 mobile-user database。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“built its own mobile-user database”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Endemol, the Netherlands-based production firm that is responsible for many reality TV shows including ‘Big Brother’, has begun constructing its own database for mobile-phone users.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Endemol 是總部位於 Netherlands 的 production firm，負責許多 reality TV shows，包括 Big Brother；它已經開始建立自己的 mobile-phone users database。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “built its own mobile-user database” 對應：● built = has begun constructing；● its own = its own；● mobile-user database = database for mobile-phone users。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案非常直接：C — Endemol。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Netherlands。List of headings 裡也有 “Why the Netherlands takes the leading role”，但這是 heading 干擾；在 company matching 中，Netherlands-based 只是 Endemol 的背景，不代表荷蘭主導整個行業。真正答案詞是 “constructing its own database”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "F — Gartner",
+      "answerKey": "F — Gartner",
+      "type": "Matching Companies",
+      "prompt": "Question 40",
+      "translation": "指出人們看 interactive TV 時很容易發送訊息。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“indicated that it is easy for people to send messages while watching interactive TV”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“TV audiences tend to sit on the sofa with their mobile phones right by their sides, and ‘it’s a natural way to interact,’ says Adam Daum of Gartner.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "電視觀眾通常坐在沙發上，手機就在身邊；Gartner 的 Adam Daum 說，這是一種自然的互動方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文概括成 “easy for people to send messages while watching interactive TV”。原文沒有逐字說 easy，但 “mobile phones right by their sides” 和 “natural way to interact” 表示這種互動很方便、順手、符合使用習慣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司定位：● Person：Adam Daum；● Company：Gartner；● View：it’s a natural way to interact；● Reason：audiences sit with mobile phones beside them。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F — Gartner。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Section A 的 Gartner statistics。Gartner 在 Section A 和 Section B 都出現：Section A是 research statistics，Section B 是 Adam Daum 的評論。Question 40 問 “indicated that it is easy…”，因此要用 Section B 的 Adam Daum quote。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Texting the Television.pdf",
+    "sha256": "6ad6a832c468cac4d941ef0422215c36586e709c71c1b503708c7338b85d0b02",
+    "pageCount": 15
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim：全文 Section Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以先看到本文主題是 TV 節目和 mobile texting 的結合。首句說以前電視節目若想吸引年輕觀眾，需要有 e-mail address；尾句則給出法國、英國、德國青少年用 text message 回應 TV programmes 的比例。這段功能是引入趨勢：電視互動由 e-mail 轉向手機短訊，且 texting 在歐洲已經成為快速增長的互動方式。Questions 33 和整體主題會用到這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說這個現象大致可歸因於 reality TV shows 的快速增長，例如 Big Brother，觀眾可透過投票決定結果。尾句說觀眾坐在沙發上時手機就在旁邊，所以 texting 是自然的互動方式。這段不只講voting，也列出 news comments、game shows、music requests、on-screen chatrooms 等多種互動形式。整段主題是互動電視快速增長的原因和應用場景。Questions 28 和 34 主要定位到此。"
+      },
+      {
+        "number": "C",
+        "summary": "Section C 開首說 mobile service providers 對某些號碼收取 premium rates，因此 TV-texting 可帶來大量現金。最後一句說 Endemol 計劃建立 direct billing system，繞過 providers。這一section 先用 Big Brother、MTV、quiz show、crossword 等例子展示收入，再說 revenue 如何在providers、broadcasters、producers、technology companies 之間分配。整段主題是收入、利潤和分帳模式。Questions 29、37、39 會用到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句直接提出問題：television 和 text messaging 的結合為何如此成功？尾句回答關鍵：universal short codes 是 game-changer，因為短碼顯示在螢幕上時更容易記住。這段集中講 special four-, five- or six-digit numbers，也就是 short codes，並解釋 providers 由各自控制短碼，轉向合作推出跨網絡可用的 universal short codes。Question 30 和 38 會直接定位到此。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 operators 合作擴大市場，是更大趨勢的一部分。尾句說 Orange 推出 text-message revenue sharing rate card，這種透明度以前難以想像。這段比較過去和現在：以前 providers 為了保護 margins，不願和 content providers 分享收入，導致 WAP 失敗；現在他們吸取教訓，開始改變運作方式。整段主題是對收入共享和商業機會的新態度。Question 31 會用到這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句引入 CMG 的 Han Weegink，指出 television industry 正在以微妙但根本的方式改變。尾句說set-top box technology providers 現在也在產品設計中加入 texting functionality。這段比較兩種interactive TV 路線：傳統 set-top boxes 成本高、兼容性差、普及率低；mobile phones 普及率高、開發快、中間人少。Questions 35 和 36 主要定位到這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 TV-related texting 的成功提醒業界：fancy technology 很容易被 simpler, lower-tech method 取代。尾句用幽默方式說 couch potatoes 也想做一些 thumb exercises。這段是全文總結：texting 作為簡單低技術方案，挑戰了原本較複雜的 interactive TV 技術。不過，舊式 interactive TV 還未完全結束，因為市場需求仍然存在。Question 32 的 heading 直接來自這段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 33 小提醒：題目寫 “spend more money”，但 Section A 原文直接支援的是 texting usage / interaction 超過 Internet usage，沒有明確比較年輕觀眾在不同活動上的花費金額。若按四個選項選最貼近原文者，答案是 A。"
+  ]
+}

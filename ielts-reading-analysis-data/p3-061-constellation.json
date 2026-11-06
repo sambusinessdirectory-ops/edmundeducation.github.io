@@ -1,0 +1,1970 @@
+{
+  "id": "p3-061-constellation",
+  "catalogueId": "p3-061",
+  "catalogueIds": [
+    "p3-061"
+  ],
+  "passage": 3,
+  "title": "Constellation",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "x — Formal marking of constellations",
+    "v — Different interpretations of star groupings",
+    "xii — Historical and modern reference",
+    "vi — Common misconceptions",
+    "i — Different methods of locating and identifying",
+    "ii — A better view of the constellations",
+    "vii — Bypassing terrestrial limitations",
+    "viii — Renewed interest in the stars",
+    "reflective mirror",
+    "infrared light",
+    "medium-sized",
+    "diffraction",
+    "blurred"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "x — Formal marking of constellations",
+      "answerKey": "x — Formal marking of constellations",
+      "type": "Matching Headings",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph A 選 heading。Matching Headings 的核心不是找某個例子，而是找能覆蓋整段的主題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A constellation is a group of stars which, when viewed collectively, appear to have physical proximity in the sky.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Constellation 是一組星星，當我們把它們一起觀看時，它們看起來在天空中位置相近。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The constellations of the southern hemisphere—which were invisible to the Greeks because of their geographical location—were not defined until the early modern era.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "南半球的星座由於古希臘人的地理位置而無法被他們看見，所以直到近代早期才被定義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會做兩件事：先給 constellation 一個基本定義，再交代正式星座定義如何形成。中間的 IAU、1930、Eugene Delporte 和 88 official constellations 就是關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading x 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Formal marking of constellations”"
+            },
+            {
+              "kind": "label",
+              "text": "這個 heading 的定位重點在："
+            },
+            {
+              "kind": "quote",
+              "text": "“formal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“marking”"
+            },
+            {
+              "kind": "quote",
+              "text": "“constellations”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 中有直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Constellation boundaries and definitions … were formalised in 1930 by Eugene Delporte.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星座的邊界和定義在 1930 年由 Eugene Delporte 正式化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 的核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Constellation boundaries and definitions as used today in Western culture, and as defined by the International Astronomical Union (IAU), were formalised in 1930 by Eugene Delporte.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天西方文化中使用、並由 International Astronomical Union 定義的星座邊界和定義，是在1930 年由 Eugene Delporte 正式化的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句明確說的是 boundaries and definitions 的 formalisation。Heading x 的 “Formal marking” 就是把星座正式劃分、標定和定義。"
+            },
+            {
+              "kind": "label",
+              "text": "這段也提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are 88 official constellations recognised by the IAU…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "IAU 承認 88 個官方星座。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“official constellations” 進一步支持 “formal marking”。星座不是隨便由肉眼想像出來，現代使用有正式邊界、正式定義和正式名單。為何不是 xii？ Heading xii “Historical and modern reference” 也有一點吸引力，因為 Paragraph A 確實提到ancient Greeks 和 early modern era。不過這些歷史資料服務於更大的主題：現代正式星座如何被定義和承認。Paragraph A 最具控制力的句子是 “boundaries and definitions … were formalised”，所以 x 更能概括整段。答案是 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "v — Different interpretations of star groupings",
+      "answerKey": "v — Different interpretations of star groupings",
+      "type": "Matching Headings",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選 heading。這段很長，最重要的是抓反覆出現的概念：zodiac、Chinese constellations、Hindu/Vedic astronomy、mythology。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Arguably, the twelve constellations through which the sun passes – as used to represent the signs of the zodiac to define birth characteristics – are the most culturally significant and well-known of those established by the ancient Greeks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以說，太陽經過的十二個星座，也就是用來代表 zodiac signs 並定義出生特質的星座，是古希臘建立的星座中最具文化意義、最廣為人知的一組。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Greek mythology, for example, Pegasus, the winged horse, is said to have sprung from the decapitated head of Medusa, and later was used by the god-king Zeus to carry thunder and lightning to Earth, before being placed among the constellations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如在希臘神話中，帶翼馬 Pegasus 據說從 Medusa 被砍下的頭顱中誕生，後來被神王 Zeus用來把雷電帶到地球，最後被放入星座之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段在講星座的文化詮釋：zodiac、birth characteristics、mythology 都不是純粹天文定位，而是文化理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading v 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different interpretations of star groupings”"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的核心詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different interpretations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“star groupings”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 的直接定位句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cultural differences in interpretation and definition of star constellations mainly relate to these zodiac interpretations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同文化在星座詮釋和定義上的差異，主要和這些 zodiac interpretations 有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 先講希臘 zodiac，然後指出不同文化的星座分類不同："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chinese constellations, for example, differ from those defined in the Western world because ancient Chinese astronomy developed independently…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，中國星座和西方定義的星座不同，因為古代中國天文學是獨立發展出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Hindu/Vedic astronomy, in which constellations are known as ‘rashis’, 12 rashis corresponding directly to the twelve Western star signs are acknowledged…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Hindu/Vedic astronomy 中，星座被稱為 rashis；其中承認 12 個 rashis，直接對應西方十二星座。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子共同說明：不同文化會把星群分成不同系統，並賦予不同意義。Heading v 的 “Different interpretations of star groupings” 正好覆蓋 zodiac、Chinese Xiu、Hindu rashis / Nakshatras 和Greek mythology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析Heading ix “Ethnic differences in celestial mapping” 有一定迷惑性，因為段落確實提到 Chinese和 Hindu/Vedic astronomy。不過這段不只在講民族地圖劃分；它更強調 interpretation and definition，還包含 zodiac birth characteristics 和 mythology。Heading v 的 “interpretations” 比"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mapping” 更能涵蓋整段。 Heading xi “Universal myths of constellations” 只符合最後神話例子。Pegasus 是例子，不足以概括整段。答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "xii — Historical and modern reference",
+      "answerKey": "xii — Historical and modern reference",
+      "type": "Matching Headings",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph C 選 heading。這段的中心是 constellation names 如何作為參照方式： Latin 名稱、genitive form、IAU abbreviation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Western astronomy, all modern constellation names derive from Latin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在西方天文學中，所有現代星座名稱都源自拉丁文。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, all constellation names have a standard three-letter abbreviation as assigned by the IAU, under which, for example, Pisces becomes Psc.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，所有星座名稱都有 IAU 指定的標準三字母縮寫；例如 Pisces 會變成 Psc。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段處理星座名稱的「參照形式」：現代名稱來自 Latin，並有 IAU 標準縮寫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading xii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historical and modern reference”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “historical” 對應 Latin 來源；“modern reference” 對應 IAU standard three-letter abbreviation。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 中的定位詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“derive from Latin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“genitive form”"
+            },
+            {
+              "kind": "quote",
+              "text": "“standard three-letter abbreviation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“assigned by the IAU”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 的三句共同建立一個命名系統："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Western astronomy, all modern constellation names derive from Latin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代西方星座名稱全部源自拉丁文。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some stars within the constellations are named using the genitive form of the Latin word, following the usual rules of Latin grammar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星座中的一些星星會使用該拉丁詞的所有格形式來命名，遵循一般拉丁語法規則。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, all constellation names have a standard three-letter abbreviation as assigned by the IAU…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，所有星座名稱都有 IAU 指定的標準三字母縮寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的內容不是在講星座本身的位置，也不是講文化神話。它講如何用名稱和縮寫作為天文參照。Latin 是歷史語言來源；IAU abbreviation 是現代標準形式。因此 xii 最合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析Heading x “Formal marking of constellations” 容易令人誤選，因為 C 也有 IAU。不過 C 的 IAU 工作是 abbreviation，重點在 naming / reference；Paragraph A 才是正式邊界和官方星座定義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i “Different methods of locating and identifying” 留給 Paragraph E，因為 E 明確講celestial coordinate systems。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 xii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "vi — Common misconceptions",
+      "answerKey": "vi — Common misconceptions",
+      "type": "Matching Headings",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph D 選 heading。這段很典型，第一句已經指出 laypeople wrongly consider。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some star patterns that laypeople wrongly consider to be constellations are actually‘asterisms’—groups of stars that appear to form patterns in the sky—and are not among the 88 officially defined constellations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些普通人錯誤地認為是 constellations 的星星圖案，其實是 asterisms，也就是看起來在天空中形成圖案的星群；它們不屬於 88 個正式定義的星座。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In astronomical terms, this famous star formation is in fact considered only part of the larger constellation known as Ursa Major.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從天文學角度看，這個著名星群其實只被視為較大星座 Ursa Major 的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句和尾句都在處理「一般人以為 X，但天文學分類不同」這種錯誤理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vi 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Common misconceptions”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 的定位詞非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“laypeople wrongly consider”"
+            },
+            {
+              "kind": "quote",
+              "text": "“often mistaken for a constellation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in fact considered only part of…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些短語全部指向誤解。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A famous example of an asterism often mistaken for a constellation is the ‘Big Dipper’ … or the‘Plough’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個經常被錯認為星座的著名 asterism 是 Big Dipper，英國稱為 Plough。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是具體例子。真正主題是人們把 asterisms 和 constellations 混淆。Big Dipper / Plough 是例子；Ursa Major 是正確分類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “Common misconceptions” 概括全段，因為整段的任務就是糾正常見錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析Heading v “Different interpretations of star groupings” 看似也可用，因為 asterism 也是一種 star grouping。不過 Paragraph D 的焦點不在不同文化或不同理解方式，而在普通人錯把非正式星群當成正式星座。真正控制答案的是 “wrongly consider” 和 “mistaken”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "i — Different methods of locating and identifying",
+      "answerKey": "i — Different methods of locating and identifying",
+      "type": "Matching Headings",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph E 選 heading。這段有很清楚的定位字：identify the position of stars、coordinate systems、reference point。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to identify the position of stars relative to the Earth, there are a number of different celestial coordinate systems that can provide a detailed reference point in space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了識別星星相對於地球的位置，有多種不同的 celestial coordinate systems 可以在太空中提供詳細參照點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The five most common celestial systems are the Horizontal system, the Equatorial system, the Ecliptical system, the Galactic system and the Supergalactic system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "五種最常見的 celestial systems 是 Horizontal system、Equatorial system、Ecliptical system、Galactic system 和 Supergalactic system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以直接判斷這段講「定位方法」和「不同系統」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading i 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different methods of locating and identifying”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 中的直接對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“identify the position of stars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different celestial coordinate systems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reference point in space”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不是介紹某一個座標系統，而是說有 many different systems。它們的共同用途是："
+            },
+            {
+              "kind": "quote",
+              "text": "“identify the position of stars relative to the Earth”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "識別星星相對地球的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "接著補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“all of which are largely similar but differ in the position of the fundamental plane…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些系統大致相似，但 fundamental plane 的位置不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading i 的 “Different methods” 對應 different celestial coordinate systems；“locating and identifying” 對應 identify the position of stars。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析Heading xii “Historical and modern reference” 不合適，因為這段的 reference point 是空間定位，不是名稱參照。Heading ix “Ethnic differences in celestial mapping” 也不合適，因為這段講天文座標系統，不涉及民族或文化差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "ii — A better view of the constellations",
+      "answerKey": "ii — A better view of the constellations",
+      "type": "Matching Headings",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph F 選 heading。這段開始轉向 Hubble Space Telescope，重點是它改變觀測宇宙的方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The launch of the Hubble Space Telescope in April 1990 changed the way that astronomers saw the universe, providing detailed digital images of constellations, planets and gas clouds that had never been seen before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble Space Telescope 於 1990 年 4 月發射，改變了天文學家觀看宇宙的方式，提供了過去從未見過的 constellations、planets 和 gas clouds 的詳細 digital images。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the combination of its precision optics, state-of-the-art instrumentation, and unprecedented pointing stability and control allows Hubble to more than make up for its lack of size, giving it a range of well over 12 billion light-years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，它的精密光學、先進儀器，以及前所未有的指向穩定性和控制能力，足以彌補尺寸不足，使它的觀測範圍超過 120 億光年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講 Hubble 如何帶來更好的觀測視野。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A better view of the constellations”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 中的對應詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“changed the way that astronomers saw the universe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“providing detailed digital images”"
+            },
+            {
+              "kind": "quote",
+              "text": "“had never been seen before”"
+            },
+            {
+              "kind": "quote",
+              "text": "“range of well over 12 billion light-years”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段雖然提到 precision optics 和 state-of-the-art instrumentation，但技術細節主要是為了支撐一個結果：Hubble 能看得更清楚、看得更遠。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“providing detailed digital images of constellations, planets and gas clouds that had never been seen before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提供過去從未見過的星座、行星和氣體雲詳細數碼影像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 “A better view” 的意思。heading ii 雖然只說 constellations，但文章同時列出 planets and gas clouds。作為 heading，它抓住了 Hubble 改善觀測的中心效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析Heading iii “Technological advances in research and development” 有吸引力，因為段落提到Hubble 的 advanced instruments。不過整段的重點不是研發過程，而是發射後帶來的觀測效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "技術只是原因，主旨在 “changed the way astronomers saw the universe” 和 detailed images。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 更貼近首句和整段功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "vii — Bypassing terrestrial limitations",
+      "answerKey": "vii — Bypassing terrestrial limitations",
+      "type": "Matching Headings",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph G 選 heading。這段的關鍵是 Hubble 在 atmosphere above 的位置如何避開地球大氣限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The telescope’s location above the Earth’s atmosphere also has a number of significant advantages over land-based telescopes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這台望遠鏡位於地球大氣層之上，因此相比地面望遠鏡有多個重要優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hubble Space Telescope can also observe infrared light that would otherwise be blocked by the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble Space Telescope 也能觀察到原本會被大氣層阻擋的 infrared light。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以直接估計這段主題：Hubble 避開大氣層，因此突破地面望遠鏡受大氣影響的限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bypassing terrestrial limitations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“terrestrial” 指地球或地面的。Paragraph G 反覆比較：“above the Earth’s atmosphere”"
+            },
+            {
+              "kind": "quote",
+              "text": "“over land-based telescopes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ground-based telescopes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blocked by the atmosphere”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全部指向地球環境造成的限制。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The atmosphere bends light due to a phenomenon known as diffraction…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大氣會因 diffraction 這種現象而使光線彎曲。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“this is what causes starlight to appear to twinkle and leads to the often blurred images seen through ground-based telescopes”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會造成星光看起來閃爍，也會導致透過地面望遠鏡看到的影像常常模糊。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hubble Space Telescope can also observe infrared light that would otherwise be blocked by the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble 也能觀察原本會被大氣阻擋的紅外光。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 Paragraph G 的兩大內容都是「大氣造成限制」與「Hubble 位於大氣層之上所以避開限制」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析Heading iv “Atmospheric weaknesses of telescopes in orbit” 方向錯。段落不是說 orbit telescope有 atmospheric weaknesses；它說地面望遠鏡受大氣影響，而 Hubble 在大氣層之上可以避開這些問題。問題不在 Hubble 的弱點，在地球大氣對地面觀測的限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "viii — Renewed interest in the stars",
+      "answerKey": "viii — Renewed interest in the stars",
+      "type": "Matching Headings",
+      "prompt": "Question 35",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph H 選 heading。這段先提 early setbacks，再講 Hubble 對大眾興趣的影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite early setbacks – one of the reflective mirrors had to be replaced after it was found to have been ground incorrectly and did not produce the images expected – the telescope has reignited interest in space amongst the general public…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管早期遇到挫折，其中一塊反射鏡因磨製錯誤而需要更換，且未能產生預期影像，這台望遠鏡仍重新燃起大眾對太空的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句同一長句結尾："
+            },
+            {
+              "kind": "quote",
+              "text": "“…an important outcome, given that taxpayers funded the telescope’s research, deployment and maintenance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個重要成果，因為納稅人資助了這台望遠鏡的研究、部署和維護。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段只有一個長句，核心轉折在 despite early setbacks 之後：Hubble 重新激發 public interest。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading viii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Renewed interest in the stars”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 的直接對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“reignited interest in space amongst the general public”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reignited” = 重新點燃“renewed interest” = 重新產生興趣"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這段一開始提到 mirror flaw，但那只是讓步背景。真正主句是：“the telescope has reignited interest in space amongst the general public”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這台望遠鏡重新燃起大眾對太空的興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的 “stars” 比原文 “space” 稍窄，但在 heading 題中可視為同一主題範圍。它概括了Hubble 的 public impact。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析有些學生可能選 iii “Technological advances in research and development”，因為句尾有research, deployment and maintenance。不過那只是說明納稅人資助了 Hubble，凸顯 public interest 的重要性。段落主旨不在研發技術，重點在大眾興趣被重新點燃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "reflective mirror",
+      "answerKey": "reflective mirror",
+      "type": "Summary Completion",
+      "prompt": "“Despite an initial flaw in a 36 ______, the Hubble space telescope is superior to telescopes on land…”",
+      "translation": "儘管 Hubble 初期有一個 ______ 的缺陷，它仍優於地面望遠鏡。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite early setbacks – one of the reflective mirrors had to be replaced after it was found to have been ground incorrectly and did not produce the images expected – the telescope has reignited interest in space amongst the general public…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管早期遇到挫折，其中一塊反射鏡被發現磨製錯誤，未能產生預期影像，因此需要更換，這台望遠鏡仍重新燃起大眾對太空的興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句同時包含 “early setbacks” 和 mirror problem，直接對應 summary 的 “initial flaw”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“initial flaw”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hubble”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite early setbacks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the reflective mirrors had to be replaced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ground incorrectly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “initial flaw” 概括原文 “early setbacks” 以及 reflective mirror 磨製錯誤。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the reflective mirrors had to be replaced after it was found to have been ground incorrectly”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一塊 reflective mirror 被發現磨製錯誤後，必須更換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “a”，空格後沒有名詞，所以答案要是一個單數名詞短語。原文是 plural “reflective mirrors”，但題目是 “a 36”，因此要填： reflective mirror這符合 no more than two words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要填 “ground incorrectly”，因為題目問 flaw in a something，空格位置要填出現缺陷的物件，不是缺陷本身。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "infrared light",
+      "answerKey": "infrared light",
+      "type": "Summary Completion",
+      "prompt": "“…it can identify 37 ______ which would not normally reach the Earth’s surface.”",
+      "translation": "它能識別／觀察到通常無法到達地球表面的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The telescope’s location above the Earth’s atmosphere also has a number of significant advantages over land-based telescopes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這台望遠鏡位於地球大氣層之上，因此比地面望遠鏡有多個重要優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hubble Space Telescope can also observe infrared light that would otherwise be blocked by the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble Space Telescope 也能觀察到原本會被大氣層阻擋的 infrared light。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經指出 Hubble 的優勢來自位置高於大氣層，也提到 infrared light。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“identify”"
+            },
+            {
+              "kind": "quote",
+              "text": "“would not normally reach the Earth’s surface”"
+            },
+            {
+              "kind": "label",
+              "text": "原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“observe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“would otherwise be blocked by the atmosphere”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “would not normally reach the Earth’s surface” 是對 “blocked by the atmosphere” 的改寫。若被大氣層阻擋，就不能正常到達地面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hubble Space Telescope can also observe infrared light that would otherwise be blocked by the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble Space Telescope 也能觀察到原本會被大氣層阻擋的紅外光。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “identify” 改寫 “observe”。答案需要是 Hubble 能觀察到的東西： infrared light兩個詞，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “light” 一字。有些學生可能只填 light，但原文重點是 infrared light。普通 light 太寬，不能準確反映被大氣阻擋但 Hubble 可觀察到的對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "medium-sized",
+      "answerKey": "medium-sized",
+      "type": "Summary Completion",
+      "prompt": "“This is all the more impressive given that Hubble is only classified as a 38 ______ telescope.”",
+      "translation": "這一點更令人印象深刻，因為 Hubble 只被歸類為一台 ______ telescope。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The launch of the Hubble Space Telescope in April 1990 changed the way that astronomers saw the universe…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble Space Telescope 於 1990 年 4 月發射，改變了天文學家觀看宇宙的方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the combination of its precision optics, state-of-the-art instrumentation, and unprecedented pointing stability and control allows Hubble to more than make up for its lack of size, giving it a range of well over 12 billion light-years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，它的精密光學、先進儀器和前所未有的指向穩定與控制能力，足以彌補尺寸不足，使它的觀測範圍超過 120 億光年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先承認 Hubble 尺寸不算大，再說它靠技術彌補 size limitation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“classified as”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“telescope”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hubble would be considered a medium-sized telescope on the ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果放在地面，Hubble 會被視為一台中型望遠鏡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With a primary mirror diameter of 2.4 metres (94.5 inches), Hubble would be considered a medium-sized telescope on the ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble 的主鏡直徑為 2.4 米，如果是在地面，它會被視為一台中型望遠鏡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格後已經有 “telescope”，所以答案不能填 “medium-sized telescope”，否則會變成 “a medium-sized telescope telescope”。正確填法是： medium-sized這是一個 hyphenated adjective，視作一個答案單位，符合 no more than two words。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "diffraction",
+      "answerKey": "diffraction",
+      "type": "Summary Completion",
+      "prompt": "“Being above the atmosphere, it also has the advantage of not being affected by 39 ______…”",
+      "translation": "由於位於大氣層之上，它也有不受 ______ 影響的優勢。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The telescope’s location above the Earth’s atmosphere also has a number of significant advantages over land-based telescopes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這台望遠鏡位於地球大氣層之上，因此相比地面望遠鏡有多個重要優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hubble Space Telescope can also observe infrared light that would otherwise be blocked by the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble Space Telescope 也能觀察到原本會被大氣阻擋的紅外光。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段整體講 Hubble 如何避開大氣層造成的限制。Question 39 問「不受甚麼影響」，要看大氣影響光線的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“affected by”"
+            },
+            {
+              "kind": "quote",
+              "text": "“atmosphere”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lead to images”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The atmosphere bends light due to a phenomenon known as diffraction…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大氣會因一種稱為 diffraction 的現象而使光線彎曲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說地面望遠鏡看到影像模糊，是因為大氣造成 diffraction。Hubble 在大氣層之上，因此避開這種問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是： diffraction這個詞直接來自原文，符合一詞限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 atmosphere。題目句子已有 “above the atmosphere”，所以空格不應再填 atmosphere。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要填的是大氣造成的具體現象，也就是 diffraction。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "blurred",
+      "answerKey": "blurred",
+      "type": "Summary Completion",
+      "prompt": "“…which would otherwise lead to 40 ______ images.”",
+      "translation": "這種現象本會導致 ______ images。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The telescope’s location above the Earth’s atmosphere also has a number of significant advantages over land-based telescopes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble 位於地球大氣層之上，因此比地面望遠鏡有多項重要優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hubble Space Telescope can also observe infrared light that would otherwise be blocked by the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hubble 也能觀察原本會被大氣阻擋的紅外光。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的中間句解釋大氣如何令地面望遠鏡影像變差，正好回答 Question 40。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lead to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“images”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“leads to the often blurred images seen through ground-based telescopes”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "導致透過地面望遠鏡看到的影像常常模糊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文完整句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The atmosphere bends light due to a phenomenon known as diffraction (this is what causes starlight to appear to twinkle and leads to the often blurred images seen through ground-based telescopes).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大氣會因 diffraction 這種現象而使光線彎曲；這就是星光看起來閃爍的原因，也會導致透過地面望遠鏡看到的影像常常模糊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子已經有 “lead to ______ images”，所以答案最自然是： blurred原文中 “often blurred images” 也可看到答案位置，但 summary 已經用 “would otherwise” 表達一般情況，填 “blurred” 最精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要填 “often blurred”，因為 blank 後面已有 images，雖然文法可行，但答案通常取核心形容詞即可。这里真正控制答案的是 image quality，即影像是否清晰；原文答案詞是 blurred。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Constellation.pdf",
+    "sha256": "37f8ff68c67d765e5a8aea315dd153cebae6cab27771c1e9d0e2126ed7ba145b",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句定義 constellation：一組星星從地球看來像在天空中位置相近；最後一句說 southern hemisphere 的星座因古希臘人看不到，到 early modern era 才被定義。只看首尾句，可以先估計這段是全文的基礎定義段：它會交代 constellation 是甚麼、現代邊界如何正式化、哪些星座來自古希臘，哪些較晚才定義。Question 28 會定位到這段，因為 heading 要概括正式邊界、IAU 和 88個 official constellations。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說十二個太陽經過的 zodiac constellations 最具文化意義；最後一句用 Pegasus 的希臘神話作例子，說明星座背後有複雜 mythology。只看首尾句，可以估計這段會處理不同文化如何理解星座，尤其是 zodiac。中間提到 Chinese astronomy、28 Xiu、Hindu/Vedic rashis、Nakshatras，說明各文化對 star groupings 有不同分類和詮釋。Question 29 會定位到這段。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說 Western astronomy 中所有現代 constellation names 都來自 Latin；最後一句說所有constellation names 都有 IAU 指定的 standard three-letter abbreviation，例如 Pisces 變成 Psc。只看首尾句，可以估計這段講星座名稱的參照方式：一方面有 Latin 來源和語法形式，另一方面有現代標準縮寫。Question 30 會定位到這段，因為它要找一個能概括命名、Latin genitive 和 IAU abbreviation 的 heading。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說有些 laypeople 錯把某些 star patterns 當成 constellations，其實它們是 asterisms；最後一句說 Big Dipper / Plough 其實只是 Ursa Major 這個較大 constellation 的一部分。只看首尾句，可以很快判斷這段主題是 common mistakes：人們以為某些熟悉圖案是正式星座，但天文學分類不同。Question 31 的 heading 會是 Common misconceptions。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說為了識別星星相對地球的位置，有不同 celestial coordinate systems 可以提供 detailed reference point in space；最後一句列出五個常見系統：Horizontal、Equatorial、Ecliptical、Galactic 和 Supergalactic。只看首尾句，可以判斷這段不是講神話或文化，而是講定位和識別方法。Question 32 會來自這段，因為 heading 中的 locating and identifying 正好對應 identify the position of stars。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說 Hubble Space Telescope 於 1990 年發射後改變了天文學家觀看宇宙的方式，提供前所未見的 detailed digital images；最後一句說 Hubble 靠 precision optics、advanced instruments和穩定控制彌補尺寸不足，觀測範圍超過 12 billion light-years。只看首尾句，可以估計這段主題是 Hubble 帶來更清晰、更遙遠的宇宙視野。Question 33 會定位到這段。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說 Hubble 位於地球大氣層之上，因此比 land-based telescopes 有重要優勢；最後一句說Hubble 也能觀察原本會被大氣阻擋的 infrared light。只看首尾句，可以估計這段集中解釋「避開地球大氣限制」的好處。中間會提到 diffraction 使星光閃爍，地面望遠鏡影像常會模糊。Question 34 及 summary 的 37、39、40 會定位到這段。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說 despite early setbacks，其中一塊 reflective mirror 因磨製錯誤而需要更換；最後一句說Hubble 重新燃起大眾對 space 的興趣，這很重要，因為納稅人資助了它的研究、部署和維護。只看首尾句，可以估計這段是 Hubble 的收結段：先承認早期問題，再指出它帶來的大眾影響。 Question 35 和 Question 36 都會定位到這段。"
+      }
+    ]
+  }
+}

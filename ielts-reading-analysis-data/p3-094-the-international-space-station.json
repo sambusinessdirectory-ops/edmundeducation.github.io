@@ -1,0 +1,2117 @@
+{
+  "id": "p3-094-the-international-space-station",
+  "catalogueId": "p3-094",
+  "catalogueIds": [
+    "p3-094"
+  ],
+  "passage": 3,
+  "title": "The International Space Station",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "white dot",
+    "awkward-looking conglomeration",
+    "enormous cost",
+    "ready-made",
+    "lateral velocity",
+    "solar arrays",
+    "thermal radiators",
+    "hydrogen",
+    "Zarya",
+    "Zvezda",
+    "solid-fuel",
+    "tidal forces",
+    "pure oxygen",
+    "human isolation"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "white dot",
+      "answerKey": "white dot",
+      "type": "Short-answer Questions",
+      "prompt": "“What does the ISS physically look like from Earth?”",
+      "translation": "從地球看，ISS 的外觀像甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just before sunrise, on a clear night, look up, and you may be able to see it travelling steadily across the dark, starry sky.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日出前，在晴朗夜晚抬頭看，你可能會見到它穩定地橫過黑暗而滿天星星的天空。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“About $100 billion has been spent on it so far, and it will need much more money by the time it ceases operation, sometime after 2025.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，它已花費約 1000 億美元；到它在 2025 年後某個時間停止運作前，還需要更多資金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 1 會介紹 ISS 從地球可見的情況，然後引出它的巨大成本。題目問 “from Earth”，所以 Paragraph 1 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 from Earth / physically look like。原文沒有直接寫 “from Earth”，但開頭的 “look up”和 “dark, starry sky” 已經設定觀察者在地球表面。"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sun’s light has lit it up while your surroundings remain dark, but don’t discount that white dot as something inconsequential.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太陽光已照亮它，而你周圍仍然黑暗；但不要把那個白點當作不重要的東西。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “physically look like”，需要填外觀名詞。原文用 “that white dot” 直接描述從地球看到的ISS。它看起來像夜空中的一個白點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“physically look like from Earth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“that white dot”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：從地球仰望夜空時，ISS 的可見外觀就是 a white dot。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 white dot。兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "awkward-looking conglomeration",
+      "answerKey": "awkward-looking conglomeration",
+      "type": "Short-answer Questions",
+      "prompt": "“What does the ISS physically look like from space?”",
+      "translation": "從太空看，ISS 的外觀像甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This enormous cost could not, of course, be paid by one nation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這筆巨大成本當然不能由一個國家支付。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It eventually became an awkward-looking conglomeration, yet, when viewed with planet Earth in the background, it is a grand and inspiring monument to humankind’s ingenuity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它最後成為一個外形笨拙、由不同部分組成的集合體；然而，若以地球作背景觀看，它是人類智慧的宏偉而鼓舞人心的紀念碑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估這段會講 ISS 的多國合作、模組式建造和最後外觀。題目問 “from space”，通常會對應 “viewed with planet Earth in the background”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 physically look like from space。原文中 “when viewed with planet Earth in the background” 就是從太空視角看 ISS。"
+            },
+            {
+              "kind": "label",
+              "text": "答案短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“an awkward-looking conglomeration”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個外形笨拙的集合體；由多個部分拼接而成的組合。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“conglomeration” 指由不同東西拼在一起的組合體。ISS 是 module by module 建造，所以外觀不會像一個完整、流線型的物件，反而像不同部件拼接而成。題目問的是物理外觀，所以應填“awkward-looking conglomeration”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“from space”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“viewed with planet Earth in the background”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“physically look like”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“awkward-looking conglomeration”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 awkward-looking conglomeration。hyphenated “awkward-looking” 通常算一個詞，加上 conglomeration，共兩個詞，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "enormous cost",
+      "answerKey": "enormous cost",
+      "type": "Short-answer Questions",
+      "prompt": "“What forced the five space agencies to work together on the ISS?”",
+      "translation": "甚麼迫使五個 space agencies 共同建造 ISS？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This enormous cost could not, of course, be paid by one nation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這筆巨大成本當然不能由一個國家支付。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It eventually became an awkward-looking conglomeration, yet, when viewed with planet Earth in the background, it is a grand and inspiring monument to humankind’s ingenuity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它最後成為一個外形笨拙的拼合體；然而，若以地球作背景觀看，它是人類智慧的宏偉紀念碑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接回應 “forced the agencies to work together”：成本太高，單一國家無法負擔。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 five space agencies 和 work together。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ISS was necessarily a joint effort by no fewer than five different space agencies: America’s NASA, Russia’s RKA, Canada’s CSA, Japan’s JAXA, and the European equivalent, ESA.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 必然是至少五個不同 space agencies 的共同努力：美國 NASA、俄羅斯 RKA、加拿大 CSA、日本 JAXA，以及歐洲的 ESA。"
+            },
+            {
+              "kind": "label",
+              "text": "這句前面的原因是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This enormous cost could not, of course, be paid by one nation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這筆巨大成本當然不能由一個國家支付。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “forced” 對應原文 “necessarily”。意思是：多國合作不是隨意選擇，而是因為 cost 太高，單一國家承擔不了。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“forced the five space agencies to work together”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“could not ... be paid by one nation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“necessarily a joint effort”"
+            },
+            {
+              "kind": "label",
+              "text": "答案短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“enormous cost”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 enormous cost。它解釋了為何 ISS 需要五個 space agencies 共同參與。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "ready-made",
+      "answerKey": "ready-made",
+      "type": "Short-answer Questions",
+      "prompt": "“What were the original space stations like?”",
+      "translation": "早期的 space stations 是怎樣的？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This enormous cost could not, of course, be paid by one nation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這筆巨大成本當然不能由一個國家支付。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It eventually became an awkward-looking conglomeration, yet, when viewed with planet Earth in the background, it is a grand and inspiring monument to humankind’s ingenuity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它最後成為一個外形笨拙的拼合體；然而，以地球作背景觀看，它是人類智慧的宏偉紀念碑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 由合作成本講到建造方式。題目問 “original space stations”，要找 earliest varieties一類字眼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 original space stations。原文寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“a project of the scale of the ISS could not be a ready-made station (such as the earliest varieties).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像 ISS 這種規模的項目不可能是一個現成建好的太空站，像最早那些類型那樣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "括號中的 “such as the earliest varieties” 指早期 space stations。原文說 ISS 不能像早期太空站那樣成為 “a ready-made station”。題目問 “What were the original space stations like?”，答案需要形容詞，表示它們是現成建好的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“original space stations”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the earliest varieties”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were ... like”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“ready-made station”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案填 ready-made 最自然。原文完整短語是 “ready-made station”，但題目問 “like”，所以用形容詞 “ready-made” 回答最貼合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "lateral velocity",
+      "answerKey": "lateral velocity",
+      "type": "Short-answer Questions",
+      "prompt": "“What stops the ISS from striking the Earth?”",
+      "translation": "甚麼阻止 ISS 撞向地球？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such a construction would immediately break to pieces under its own weight in ordinary gravity—but, because the station is in orbit, its weight is not felt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣的結構若在普通重力下，會立刻因自身重量碎裂；但因為太空站在軌道中，所以感覺不到重量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being so large and loosely connected, the parts of the ISS further from the Earth flex more than the parts closer, using up energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 體積如此巨大，而且連接較鬆散，遠離地球的部分比靠近地球的部分彎曲得更多，從而耗用能量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估這段解釋 ISS 在軌道中的物理狀態，以及它為何會逐步失去能量。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 striking the Earth / hitting the planet。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The station is constantly free-falling under Earth’s gravitational pull, yet never hitting the planet due to the station’s lateral velocity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太空站不斷在地球引力下自由落下，但由於太空站的橫向速度，它永遠沒有撞上地球。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What stops...” 需要填原因。原文的原因結構非常清楚："
+            },
+            {
+              "kind": "quote",
+              "text": "“due to the station’s lateral velocity”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於太空站的橫向速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 一直受重力拉向地球，但它有足夠的 sideways motion，所以它不會直接撞地，而是不斷繞地球運行。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“stops the ISS from striking the Earth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“never hitting the planet due to...”"
+            },
+            {
+              "kind": "label",
+              "text": "答案短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“lateral velocity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 lateral velocity。兩個字，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "solar arrays",
+      "answerKey": "solar arrays",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置： 32 的箭頭指向左邊一組大型網格狀板。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The largest component of the ISS is the Truss Structure, a non-pressurised ten-segment spine to which are connected the station’s extensive solar arrays at one end and thermal radiators towards the centre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 最大的組件是 Truss Structure，即一條非加壓、由十段組成的 spine；太空站的大型 solar arrays 連接在其中一端，thermal radiators 則位於較接近中央的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, the Truss Structure was fixed to the Unity Module, followed by the Harmony Module beyond that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，Truss Structure 被固定到 Unity Module，之後再加上 Harmony Module。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "32 的箭頭指向遠離中央、位於一端的大型板狀結構。原文說 “solar arrays at one end”，正好吻合圖中左端的大型網格板。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“solar arrays” 是太陽能板陣列，用來接收太陽能。圖中 32 指向的兩大片網格狀結構正符合“arrays” 的視覺特徵。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與圖像配對",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中：大型網格狀板，位於 ISS 一端。原文： “extensive solar arrays at one end”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 solar arrays。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "thermal radiators",
+      "answerKey": "thermal radiators",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置： 33 的箭頭指向靠近中央的一組板狀散熱結構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The largest component of the ISS is the Truss Structure, a non-pressurised ten-segment spine to which are connected the station’s extensive solar arrays at one end and thermal radiators towards the centre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 最大的組件是 Truss Structure，一條非加壓、十段式 spine；solar arrays 位於一端，thermal radiators 位於較接近中央的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, the Truss Structure was fixed to the Unity Module, followed by the Harmony Module beyond that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，Truss Structure 被固定到 Unity Module，之後再加上 Harmony Module。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "33 的箭頭沒有指向最外端的大型太陽能板，而是指向較接近 ISS 中央的板狀部件。這與原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“thermal radiators towards the centre” 相符。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一句同時提到兩類板狀部件：“solar arrays at one end”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一端的太陽能板陣列。"
+            },
+            {
+              "kind": "quote",
+              "text": "“thermal radiators towards the centre”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "靠近中央的散熱器。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "32 已經指向 “at one end” 的 solar arrays；33 指向靠近中央的板狀結構，所以答案應為 thermal radiators。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與圖像配對",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中：中央附近的板狀散熱結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文： “thermal radiators towards the centre”答案判斷答案是 thermal radiators。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "hydrogen",
+      "answerKey": "hydrogen",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 34",
+      "translation": "34 要填「釋放／排出甚麼」。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目圖中文字："
+            },
+            {
+              "kind": "quote",
+              "text": "“34 release of ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ISS’s main source of oxygen is the ‘Elektron’ system, which uses an electric current to break apart water molecules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 的主要氧氣來源是 “Elektron” system，它用電流分解水分子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A bubble of their own exhaled carbon dioxide would form, leaving them oxygen-deprived and struggling to breathe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們自己呼出的二氧化碳會形成氣泡，令他們缺氧並呼吸困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 主要講氧氣、氫氣、緊急氧氣和空氣循環。題目圖中有 release of，應找 “vented into space” 這類短語。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 release of。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The oxygen produced is vented into the pressurised modules, while the other by-product, hydrogen, is vented into space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "產生的氧氣會被排入加壓模組；另一種副產品 hydrogen 則會被排入太空。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩種物質： oxygen→ vented into the pressurised modules→ 排入加壓模組，供 crew 呼吸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "hydrogen→ vented into space→ 排出太空。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 34 的波浪線畫在太空站外部，文字是 “release of”，所以它問的是排到太空的氣體。答案是hydrogen。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目圖："
+            },
+            {
+              "kind": "quote",
+              "text": "“release of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“vented into space”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“hydrogen”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 hydrogen。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "Zarya",
+      "answerKey": "Zarya",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 35",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置： 35 的箭頭指向與垂直 pressurised module 鏈相關、位於中下方的模組部分。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The largest component of the ISS is the Truss Structure, a non-pressurised ten-segment spine to which are connected the station’s extensive solar arrays at one end and thermal radiators towards the centre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 最大的組件是 Truss Structure，一條非加壓、十段式 spine；solar arrays 位於一端，thermal radiators 位於較接近中央的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, the Truss Structure was fixed to the Unity Module, followed by the Harmony Module beyond that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，Truss Structure 被固定到 Unity Module，之後再加上 Harmony Module。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的中間按建造順序介紹 pressurised modules，特別是 Zarya、Unity、Zvezda 和 Harmony。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中位置定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The station actually began with one of these: Zarya, first launched in 1998.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太空站其實就是由其中一個加壓模組開始的：Zarya，它在 1998 年首先發射。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only two weeks later, Unity was directly attached to this...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "僅兩週後，Unity 直接連接到 Zarya。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 35 指向的模組位於 Unity 和另一端模組之間，這與 Zarya 的角色相符：Zarya 是最初模組，後來 Unity 接上它；再之後 Zvezda 接到 Zarya 的另一端。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與圖像配對",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zarya, first launched in 1998”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Unity was directly attached to this”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Zvezda was attached to Zarya’s opposite end”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中： 35 位於 pressurised module 鏈中，處在 Unity 和 Zvezda 之間的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 Zarya。若考卷容許完整模組名，Zarya Module 也符合原文用語和字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "Zvezda",
+      "answerKey": "Zvezda",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 36",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置： 36 的箭頭指向 pressurised module 鏈底端的模組。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The largest component of the ISS is the Truss Structure, a non-pressurised ten-segment spine to which are connected the station’s extensive solar arrays at one end and thermal radiators towards the centre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 最大的組件是 Truss Structure，一條非加壓、十段式 spine；solar arrays 位於一端，thermal radiators 位於較接近中央的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, the Truss Structure was fixed to the Unity Module, followed by the Harmony Module beyond that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，Truss Structure 被固定到 Unity Module，之後再加上 Harmony Module。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中位置定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It took almost two more years before Zvezda was attached to Zarya’s opposite end.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "又過了將近兩年，Zvezda 才被連接到 Zarya 的另一端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 Zvezda 在 Zarya 的 opposite end，即另一端。圖中 36 指向下方端點模組，符合 “opposite end” 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "35 若為 Zarya，36 指向它另一端的模組，便對應 Zvezda。這也和 Question 37 有關，因為下一題的 emergency oxygen generator 在文中和 Zvezda / Zarya Modules 相連。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與圖像配對",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中： 36 是 pressurised module 鏈的端部模組。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zvezda was attached to Zarya’s opposite end”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 Zvezda。若填 Zvezda Module，也在字數限制內。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "solid-fuel",
+      "answerKey": "solid-fuel",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 37",
+      "translation": "緊急氧氣產生器，屬於甚麼類型？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目圖中文字："
+            },
+            {
+              "kind": "quote",
+              "text": "“emergency oxygen generator (______ type)”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ISS’s main source of oxygen is the ‘Elektron’ system, which uses an electric current to break apart water molecules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 的主要氧氣來源是 “Elektron” system，它用電流分解水分子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A bubble of their own exhaled carbon dioxide would form, leaving them oxygen-deprived and struggling to breathe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們自己呼出的二氧化碳會形成氣泡，令他們缺氧並呼吸困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 會講主氧氣系統和 emergency backups。圖中已寫 “emergency oxygen generator”，所以要找 oxygen generator 的類型。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 emergency oxygen generator。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This system generates enough oxygen for a six-member crew, although it has proven so unreliable that the emergency backups have been regularly required: bottled oxygen (ferried up by unmanned supply craft), a solid-fuel oxygen generator, and a chemical one, in the Zvezda and Zarya Modules, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個系統能為六名 crew 產生足夠氧氣；不過它證明相當不可靠，所以緊急備份經常需要使用：瓶裝氧氣、solid-fuel oxygen generator，以及 chemical one，分別位於 Zvezda 和 Zarya Modules。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目圖中已給出 “oxygen generator”，括號問 “type”。原文完整短語是 “a solid-fuel oxygen generator”。因此，將 “solid-fuel” 放入括號後，會成為："
+            },
+            {
+              "kind": "quote",
+              "text": "“emergency oxygen generator (solid-fuel type)”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與圖像配對",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“emergency oxygen generator (_____ type)”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a solid-fuel oxygen generator”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 solid-fuel。hyphenated word 算一個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "tidal forces",
+      "answerKey": "tidal forces",
+      "type": "Table Completion",
+      "prompt": "Question 38",
+      "translation": "ISS 減速的一個原因是 aerodynamic drag，另一個原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格： Effect / Incident: ISS slowing down One cause: aerodynamic drag Another cause: 38 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such a construction would immediately break to pieces under its own weight in ordinary gravity—but, because the station is in orbit, its weight is not felt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣的結構若在普通重力下會因自身重量碎裂；但因為太空站在軌道中，所以感覺不到重量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being so large and loosely connected, the parts of the ISS further from the Earth flex more than the parts closer, using up energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ISS 體積巨大，而且連接較鬆散，遠離地球的部分比靠近地球的部分彎曲得更多，從而耗用能量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 ISS 的軌道物理問題，包括減速和 orbital decay。表格已給 aerodynamic drag，所以答案應在同一段附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用表格詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 aerodynamic drag 和 slowing down。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“With its low-Earth orbit, there is aerodynamic drag from the faint atmosphere through which the station continually ploughs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 ISS 位於低地球軌道，它不斷穿過稀薄大氣，因此會受到 aerodynamic drag。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This results in a small yet steady and perceptible loss of speed, and consequent orbital decay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這造成細小但穩定且可察覺的速度損失，並導致軌道衰減。"
+            },
+            {
+              "kind": "label",
+              "text": "再下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contributing to this loss are, surprisingly, tidal forces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人意外的是，tidal forces 也造成這種速度損失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格已經把 aerodynamic drag 作為第一個 cause。原文用 “Contributing to this loss” 明確加入另一個 cause，而 “this loss” 指前一句的 “loss of speed”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "表格："
+            },
+            {
+              "kind": "quote",
+              "text": "“ISS slowing down”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“loss of speed”"
+            },
+            {
+              "kind": "label",
+              "text": "表格："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another cause”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contributing to this loss are...”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“tidal forces”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 tidal forces。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "pure oxygen",
+      "answerKey": "pure oxygen",
+      "type": "Table Completion",
+      "prompt": "Question 39",
+      "translation": "Apollo 1 火災的一個原因是 random spark，另一個原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格： Effect / Incident: Apollo 1 fire One cause: 39 ______Another cause: random spark"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The station’s interior is no less complicated, and with a six-member crew staying on board for up to six months, the life-support systems are crucial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太空站內部同樣複雜，而且六名 crew 最多可在站內逗留六個月，所以 life-support systems 極其重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A random spark started a fire which raced through the craft, killing all three crew members, and the experiment was never repeated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個 random spark 引發火災，火勢迅速穿過整艘太空船，殺死三名 crew members，而這項實驗之後再也沒有重複。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見 Paragraph 5 由生命維持系統講到 Apollo 1 的致命事故。表格已有 random spark，所以另一個原因應在同段前面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用表格詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Apollo 1 fire 和 random spark。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1967, the Apollo 1 craft used a pure-oxygen atmosphere, with tragic consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1967 年，Apollo 1 craft 使用 pure-oxygen atmosphere，結果造成悲劇。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although this allowed a lower air pressure (better from an engineering standpoint), pure oxygen more readily fuels combustion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這可讓氣壓較低，從工程角度看較有利，但 pure oxygen 更容易助長燃燒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "火災由兩個因素形成： 1. pure oxygen / pure-oxygen atmosphere→ 容易助長燃燒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. random spark→ 觸發火災。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格已列出 random spark，因此 39 要填另一個 cause：pure oxygen。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "表格："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apollo 1 fire”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A random spark started a fire...”"
+            },
+            {
+              "kind": "label",
+              "text": "表格："
+            },
+            {
+              "kind": "quote",
+              "text": "“One cause”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“pure oxygen more readily fuels combustion”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 pure oxygen。若填 pure-oxygen atmosphere，也符合原文和字數限制；但表格問cause，pure oxygen 已足夠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "human isolation",
+      "answerKey": "human isolation",
+      "type": "Table Completion",
+      "prompt": "Question 40",
+      "translation": "ISS crew-member stress 的一個原因是 difficult life，另一個原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格： Effect / Incident: ISS crew-member stress One cause: difficult life Another cause: 40 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This indicates that life on the ISS is no pleasure cruise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯示 ISS 上的生活絕不輕鬆愉快。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As one returning crew member said, ‘It’s an interesting place for a visit, but you wouldn’t want to live there.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如一名返回地球的 crew member 所說：「那是一個值得參觀的有趣地方，但你不會想住在那裡。」只看首尾句，可以估 Paragraph 7 總結 ISS 生活困難。表格中的 “difficult life” 就是對這段前半的概括。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用表格詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 stress / difficult life。原文列出："
+            },
+            {
+              "kind": "quote",
+              "text": "“The close and cramped quarters, the awkward and uncomfortable facilities, the strict eating, hygiene, and two-hour-per-day exercise protocols, the dizziness and fatigue induced in that weightless environment, and the long workday devoted to maintenance and scientific experiments, all create a difficult life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "狹窄擁擠的居住空間、笨拙而不舒適的設施、嚴格的飲食、衛生和每天兩小時運動規程、失重環境造成的頭暈和疲勞，以及用於維修和科學實驗的長工時，全都造成艱難生活。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“These conditions, together with human isolation, can strain relationships and aggravate tensions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些條件加上 human isolation，會令關係受壓並加劇緊張。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格第一個 cause “difficult life” 概括前一句列出的多種艱難生活條件。原文下一句用 “together with human isolation” 加入另一個原因。這正好對應表格中的 “Another cause”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "表格："
+            },
+            {
+              "kind": "quote",
+              "text": "“ISS crew-member stress”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“strain relationships and aggravate tensions”"
+            },
+            {
+              "kind": "label",
+              "text": "表格："
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult life”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“all create a difficult life”"
+            },
+            {
+              "kind": "label",
+              "text": "表格："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another cause”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“together with human isolation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 human isolation。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The International Space Station.pdf",
+    "sha256": "42f44e4c655ac5e602b84ef5c60c5f5ff58006efb667b9581ffcb7d4ebb3ec2c",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句叫讀者在日出前的晴朗夜空抬頭看，可能會見到 ISS 穩定橫過星空；末句說這個 white dot已花費約 100 billion dollars，並且到 2025 後停止運作前仍要更多資金。只看首尾句，可以先估這段是引入 ISS：先講它從地球看起來的樣子和移動速度，再轉到它背後的巨大成本。Questions 27和部分成本背景會用到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說這種 enormous cost 當然不能由單一國家支付；末句說 ISS 雖然外形像 awkward-looking conglomeration，但以地球作背景觀看時，是人類智慧的宏偉紀念碑。只看首尾句，可以看到這段處理兩件事：多國合作的原因，以及 ISS 模組式建造後的外觀。Questions 28、29、30 的答案主要在這段，尤其是 cost、joint effort、ready-made station 和 awkward-looking conglomeration。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說這種結構在普通重力下會立刻因自身重量碎裂；末句說 ISS 體積巨大、連接鬆散，遠離地球的部分比近地部分 flex more，耗用能量。只看首尾句，可以先估這段解釋 ISS 為何不會撞地球，以及為何仍會逐步減速。中間的 lateral velocity、aerodynamic drag、orbital decay 和 tidal forces 是核心。Questions 31 和 38 會定位到這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 ISS 最大組件是 Truss Structure，一條非加壓的十段式 spine；末句說 Truss Structure 後來固定到 Unity Module，之後再加上 Harmony Module。只看首尾句，可以看出這段是 diagram label 的核心段：它描述 ISS 外部結構和模組排列，包括 solar arrays、thermal radiators、pressurised modules、Zarya、Unity、Cupola、Zvezda、Harmony。Questions 32、33、35、36 主要靠這段配合圖中箭頭判斷。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 ISS 內部同樣複雜，而且六名 crew 可在站內逗留最多六個月，所以 life-support systems極重要；末句說 Apollo 1 的 pure-oxygen atmosphere 實驗帶來悲劇，之後再也沒有重複。只看首尾句，可以估這段由 ISS 生命維持系統，轉入 Apollo 1 火災作警告例子。Question 39 會定位在這段，因為它問 Apollo 1 fire 的原因。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 ISS 的主要氧氣來源是 Elektron system，用電流分解水分子；末句說如果沒有強力風扇，靜止的 astronaut 周圍會形成自己呼出的 carbon dioxide bubble，令人缺氧和呼吸困難。只看首尾句，可以看到這段講氧氣製造、氫氣排放、緊急氧氣備份和空氣循環。Questions 34 和 37 主要在這段，因為圖中有 release of gas 和 emergency oxygen generator。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說以上情況顯示 ISS 生活並非 pleasure cruise；末句引用 crew member 說這地方適合參觀，但不會想住在那裡。只看首尾句，可以先估這段總結太空站生活的艱難：狹窄設施、嚴格生活規程、失重引起的不適、長工時、關係緊張、太陽輻射風險。Question 40 會定位到這段，因為它問crew-member stress 的另一原因。"
+      }
+    ]
+  }
+}

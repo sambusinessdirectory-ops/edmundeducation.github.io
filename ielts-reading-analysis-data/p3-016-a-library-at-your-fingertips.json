@@ -1,0 +1,1827 @@
+{
+  "id": "p3-016-a-library-at-your-fingertips",
+  "catalogueId": "p3-016",
+  "catalogueIds": [
+    "p3-016"
+  ],
+  "passage": 3,
+  "title": "A LIBRARY AT YOUR FINGERTIPS",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "B",
+    "C",
+    "A",
+    "legal problems",
+    "market for e-books",
+    "retailers and publishers",
+    "book world",
+    "manga comic books",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A — people would read fewer ‘paper’ books.",
+      "answerKey": "A — people would read fewer ‘paper’ books.",
+      "type": "Question Analysis",
+      "prompt": "“A few years ago, it was widely thought that…”",
+      "translation": "幾年前，人們普遍認為甚麼事情會發生？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A few years ago, at the height of the dotcom boom, it was widely assumed that a publishing revolution, in which the printed word would be supplanted by the computer screen, was just around the corner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾年前，在 dotcom boom 高峰期，人們普遍認為一場出版革命即將來臨；在這場革命中，印刷文字會被電腦螢幕取代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent flurry of activity by big technology companies – including Google, Amazon, Microsoft and Yahoo! – suggests that the dream of bringing books online is still very much alive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Google、Amazon、Microsoft 和 Yahoo! 等大型科技公司最近一連串行動顯示，把書本搬到網上的夢想仍然非常活躍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會交代早期電子書／網上書本的想像，以及後來科技公司重新推動online books。題目使用 “A few years ago” 和 “widely thought”，與第一句的 “A few years ago” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“widely assumed” 直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “A few years ago” 和 “widely thought”。原文幾乎用相同結構：“A few years ago… it was widely assumed…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得停下細讀，因為題目問的是「當年大家普遍認為甚麼」，原文的 assumed 後面就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the printed word would be supplanted by the computer screen”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "印刷文字會被電腦螢幕取代。"
+            },
+            {
+              "kind": "quote",
+              "text": "“supplanted” 指被取代。這句沒有逐字說 people would read fewer paper books，但如果 printed word 被 computer screen 取代，意思就是紙本閱讀會下降，螢幕閱讀會取代部分或大量紙本閱讀。選項 A：“people would read fewer ‘paper’ books.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們會讀較少紙本書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原文的合理概括。題目問的是 early belief，而選項 A 把 “printed word would be supplanted by the computer screen” 改寫成 “read fewer paper books”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析B “companies like Amazon would go bankrupt” 沒有原文支援。文章提到 Amazon 後來進軍e-book market，沒有說當時人們認為 Amazon 會破產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “the dotcom boom would soon end” 也不合題意。原文只是用 “at the height of the dotcom boom” 作時間背景，沒有說大家預測 dotcom boom 快將結束。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — they think Google is in breach of copyright.",
+      "answerKey": "B — they think Google is in breach of copyright.",
+      "type": "Question Analysis",
+      "prompt": "“Publishers are unhappy with Google because…”",
+      "translation": "Publishers 為甚麼不滿 Google？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five large book firms are suing Google for violating copyright on material that it has scanned and, although out of print, is still protected by law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "五間大型圖書公司正在控告 Google，原因是 Google 掃描了一些 material，而這些 material 雖然已經 out of print，仍然受到法律保護；它們認為 Google 侵犯 copyright。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The searchable collection of extracts and book information is intended to tempt readers to buy the complete books online or in print form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個可搜尋的 extracts 和 book information 集合，目的是吸引讀者購買完整的網上版或印刷版書籍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測這段會處理 Google 和 publishers 之間的 copyright dispute，也會提到Google 另一個與 publishers 合作的 project。題目問 publishers unhappy with Google 的原因，因此第一句已經非常可能是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Publishers”、“unhappy”、“Google”。Paragraph 2 先說 “the plan has attracted the ire of publishers”，即計劃惹怒 publishers。Paragraph 3 緊接解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five large book firms are suing Google for violating copyright…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 publishers 的代表、Google、suing 和 copyright，因此要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five large book firms are suing Google for violating copyright on material that it has scanned and, although out of print, is still protected by law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "五間大型圖書公司正控告 Google 侵犯它所掃描 material 的 copyright；那些 material 雖然已絕版，仍受法律保護。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“they think Google is in breach of copyright.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為 Google 違反 copyright。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “publishers are unhappy” = “book firms are suing Google”● “in breach of copyright” = “violating copyright”● “Google” = “Google”錯項分析A “Google is only publishing extracts, not complete books” 方向不合。Google 說自己只會publish short extracts from material under copyright unless given permission。這是 Google 的防禦說法，不是 publishers 不滿的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Google is co-operating with leading research libraries” 來自 Paragraph 2，但不滿的核心在copyright。合作本身未被原文說成 publishers 起訴的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — allow people to buy only parts that they want to read from books.",
+      "answerKey": "C — allow people to buy only parts that they want to read from books.",
+      "type": "Question Analysis",
+      "prompt": "“Amazon will…”",
+      "translation": "Amazon 將會做甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not to be outdone, Amazon, the world’s largest online retailer, has unveiled plans for its own foray into the mass e-book market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amazon 是全球最大的 online retailer；它也不甘落後，公布了自己進軍 mass e-book market 的計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Customers are likely to have to pay around five cents a page, with the bulk going to the publisher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顧客可能需要每頁支付約五美分，其中大部分收入會給 publisher。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段是介紹 Amazon 的 e-book services 和收費模式。題目只問 “Amazon will”，因此答案大概率在這段的新服務描述中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Amazon will”。原文中有兩個服務名稱：Amazon Pages 和 Amazon Upgrade。題目選項 C 講 “buy only parts”，應該對應 Amazon Pages。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amazon Pages will allow customers to search for key terms in selected books and then buy and read online whatever part they wish, from individual pages to chapters or complete works.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amazon Pages 會讓顧客在 selected books 中搜尋關鍵詞，然後購買並在線閱讀他們想要的任何部分，從單頁、章節到完整作品都可以。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“allow people to buy only parts that they want to read from books.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讓人們只購買他們想讀的書本部分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “customers” = “people”● “buy and read online whatever part they wish” = “buy only parts that they want to read”● “individual pages to chapters” = “parts”錯項分析A “sell books that previously only Google sold online” 沒有原文支援。Paragraph 4 說 Amazon不甘被 Google 進入其核心領域，但沒有說 Amazon 會賣 previously only Google sold 的書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “buy the copyright for many books it sells online” 沒有原文支援。文章說顧客每頁付費，大部分收入給 publisher；沒有說 Amazon 買 copyright。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — ‘paper’ books.",
+      "answerKey": "A — ‘paper’ books.",
+      "type": "Question Analysis",
+      "prompt": "“It is clear that most readers, if given the choice, prefer…”",
+      "translation": "如果可以選擇，多數讀者明顯較喜歡甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 6 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A few years ago, at the height of the dotcom boom, it was widely assumed that a publishing revolution, in which the printed word would be supplanted by the computer screen, was just around the corner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾年前，在 dotcom boom 高峰期，人們普遍認為出版革命即將來臨，印刷文字會被電腦螢幕取代。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 第二句也是重要句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t: for many, there is still little to match the joy of cracking the spine of a good book and settling down for an hour or two of reading.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果沒有發生；對許多人來說，打開一本好書、安坐一兩小時閱讀的樂趣，仍然很難被其他事物相比。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 中間也有相關證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“While buyers were reluctant to sit in front of a computer screen to read the latest novels, dedicated e-book reading gadgets failed to catch on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "買家不願坐在電腦螢幕前閱讀最新小說，而專門的 e-book reading gadgets 也未能流行起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “prefer” 和 “readers”。原文未必直接說 prefer，但會出現 reluctance、joy、failed to catch on 等態度詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 的 “little to match the joy” 代表紙本書仍有強大吸引力。Paragraph 6 的 “reluctant to sit in front of a computer screen” 又顯示讀者抗拒螢幕閱讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 的關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“for many, there is still little to match the joy of cracking the spine of a good book…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對很多人來說，翻開一本好書的樂趣仍然無可比擬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “cracking the spine of a good book” 指翻開實體書，尤其是紙本書。它和 computer screen形成對照。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 的關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“buyers were reluctant to sit in front of a computer screen to read the latest novels…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "買家不太願意坐在電腦螢幕前閱讀最新小說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來，最合理的選項是 A：紙本書。雖然題目用了 “most readers” 這個較強的概括，原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“for many” 和 “buyers were reluctant” 來表達讀者行為；在三個選項中，A 的證據最完整，B 和 C都被原文否定。錯項分析B “reading from computer screens” 與 Paragraph 6 的 “buyers were reluctant” 相反。 C “using dedicated e-book readers” 也不合，因為原文說 “dedicated e-book reading gadgets failed to catch on”，即未能流行。所以答案是 A。 Questions 31–35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "legal problems",
+      "answerKey": "legal problems",
+      "type": "Question Analysis",
+      "prompt": "“If companies publish books online that are not covered by copyright, they avoid 31 ______”",
+      "translation": "如果公司把不受 copyright 保護的書放到網上，它們可以避免甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Microsoft, too, has joined the online-book bandwagon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Microsoft 也加入了 online-book 的潮流。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On Thursday, coincidentally the same day as Google and Amazon announced their initiatives, Microsoft released details of a deal with the British Library, the country’s main reference library, to digitise some 25 million pages; these will be made available through MSN Book Search, which will be launched next year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星期四，剛好與 Google 和 Amazon 宣布項目的同一天，Microsoft 公布了與 British Library 的合作細節，將 digitise 約 2,500 萬頁；這些內容將透過明年推出的 MSN Book Search 提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要介紹 Microsoft 如何加入 digitising books 的競爭。題目中的 “not covered by copyright”可能對應 public domain。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “not covered by copyright” 和 “avoid”。原文沒有直接重複 “not covered by copyright”，而用 “public domain”。“public domain” 指作品已進入公有領域，通常可以使用而不涉及 copyright restrictions。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the end of October, the software giant said it would spend around $200 million to digitise texts, starting with 150,000 that are in the public domain, to avoid legal problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十月底，這間 software giant 表示會花約 2 億美元 digitise texts，先從 150,000 本 public domain texts 開始，以避免法律問題。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“If companies publish books online that are not covered by copyright, they avoid ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the public domain, to avoid legal problems”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “not covered by copyright” = “in the public domain”● “avoid” = “avoid”● 答案 = “legal problems”字數檢查： legal problems = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "market for e-books",
+      "answerKey": "market for e-books",
+      "type": "Question Analysis",
+      "prompt": "“The 32 ______ is very small but getting larger”",
+      "translation": "甚麼東西很小，但正在變大？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These companies are hoping for a return to the levels of interest in e-books seen when Stephen King, a best-selling horror writer, published ‘Riding the Bullet’ exclusively on the Internet in 2000.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些公司希望 e-books 能重新得到像 2000 年 Stephen King 在網上獨家出版 Riding the Bullet時那樣的關注。"
+            },
+            {
+              "kind": "label",
+              "text": "最後句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The market for e-books is growing again, though from a tiny base.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "e-books 的市場又開始增長，不過起點非常小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段先回顧 e-books 早期熱潮，再說現時市場正在從很小的基礎上增長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎是這句的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “very small but getting larger”。原文對應 “growing again, though from a tiny base”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The market for e-books is growing again, though from a tiny base.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "e-books 的市場再次增長，雖然基礎很小。"
+            },
+            {
+              "kind": "label",
+              "text": "題目把這句改寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ______ is very small but getting larger.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “getting larger” = “growing again”● “very small” = “tiny base”● 主語 = “market for e-books”答案是 market for e-books。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： market for e-books = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "retailers and publishers",
+      "answerKey": "retailers and publishers",
+      "type": "Question Analysis",
+      "prompt": "“The 33 ______ expect that they will be able to convince more people to read online.”",
+      "translation": "誰預期自己能說服更多人 online reading？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both retailers and publishers reckon they will eventually be able to persuade consumers to do a lot more of their reading on the web.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "retailers 和 publishers 都認為，他們終有一天能說服消費者在網上進行更多閱讀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The book world has no equivalent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書本世界沒有相當於 iPod 的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 7 比較 online books 與 online music，並說 retailers /publishers 希望推動 online reading，但 book world 缺少像 iPod 這樣的推動工具。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “expect”、“convince more people” 和 “read online” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“reckon they will eventually be able to persuade consumers to do a lot more of their reading on the web.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both retailers and publishers reckon they will eventually be able to persuade consumers to do a lot more of their reading on the web.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "retailers 和 publishers 都認為，他們最後會能夠說服消費者更多地在網上閱讀。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “expect” = “reckon”● “convince” = “persuade”● “more people” = “consumers”● “read online” = “do … reading on the web”● 主語 = “retailers and publishers”答案是 retailers and publishers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： retailers and publishers = 3 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "book world",
+      "answerKey": "book world",
+      "type": "Question Analysis",
+      "prompt": "“The 34 ______ has nothing similar to an iPod.”",
+      "translation": "哪個領域沒有類似 iPod 的東西？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both retailers and publishers reckon they will eventually be able to persuade consumers to do a lot more of their reading on the web.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "retailers 和 publishers 都認為，他們終有一天能說服消費者在網上進行更多閱讀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The book world has no equivalent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書本世界沒有相應的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目提到 iPod，因此同段中比較 online music 和 online books 的部分很重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “iPod”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The iPod music player and its like have proved a fashionable and popular new way to listen to songs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "iPod 音樂播放器及類似產品已證明是一種時尚且流行的新聽歌方式。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The book world has no equivalent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書本世界沒有相應物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ______ has nothing similar to an iPod.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The book world has no equivalent.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “nothing similar to an iPod” = “no equivalent”● “The ______” = “The book world”答案是 book world。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： book world = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "manga comic books",
+      "answerKey": "manga comic books",
+      "type": "Question Analysis",
+      "prompt": "“In Japan, most of the publications sent to mobile phones are 35 ______”",
+      "translation": "在日本，大部分傳送到 mobile phones 的出版物是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the commercial prospects for sellers of online books do not yet look very bright.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，online books sellers 的商業前景暫時看起來並不太明朗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Japan, the value of e-books (mainly manga comic books) delivered to mobile phones has jumped, though it will be worth only around ¥6 billion ($51 million) in 2005, according to estimates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在日本，傳送到 mobile phones 的 e-books 價值已經跳升，這些 e-books 主要是 manga comic books；不過據估計，2005 年價值仍只有約 60 億日圓，即 5,100 萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段在說 online books 的商業前景和可能推動市場的創新，包括 mobile phones。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Japan”、“mobile phones” 和 “publications”。原文末句直接有 “In Japan” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“delivered to mobile phones”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“In Japan, the value of e-books (mainly manga comic books) delivered to mobile phones has jumped…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在日本，傳送到 mobile phones 的 e-books 價值已跳升，這些主要是 manga comic books。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “most of the publications” 對應原文括號中的 “mainly”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“publications sent to mobile phones” 對應 “e-books delivered to mobile phones”。答案是 manga comic books。字數檢查： manga comic books = 3 words，符合限制。 Questions 36–40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Books that are out of print are not covered by copyright law.”",
+      "translation": "已經 out of print 的書不受 copyright law 保護。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five large book firms are suing Google for violating copyright on material that it has scanned and, although out of print, is still protected by law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "五間大型圖書公司正控告 Google 侵犯它所掃描 material 的 copyright；那些 material 雖然已經out of print，仍然受到法律保護。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The searchable collection of extracts and book information is intended to tempt readers to buy the complete books online or in print form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個可搜尋的 extracts 和 book information 集合，目的是吸引讀者購買完整的網上版或印刷版書籍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目直接講 out of print 和 copyright law，Paragraph 3 首句已經是核心證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “out of print” 和 “copyright law”。原文同一句有 “although out of print” 和 “still protected by law”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“although out of print, is still protected by law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然已經絕版，仍然受法律保護。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“out of print are not covered by copyright law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已絕版就不受 copyright law 保護。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有明確衝突：● 題目：not covered● 原文：still protected"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“still” 很重要，它表示即使已 out of print，法律保護仍然存在。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "很多學生會用常識推測：既然 out of print，可能就不受 copyright 限制。這題剛好考相反概念。真正控制答案的是 “still protected by law”，不要只看 “out of print”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Amazon began by selling books online.”",
+      "translation": "Amazon 一開始是 online selling books。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not to be outdone, Amazon, the world’s largest online retailer, has unveiled plans for its own foray into the mass e-book market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amazon 是全球最大的 online retailer；它也不甘落後，公布了自己進軍 mass e-book market 的計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Customers are likely to have to pay around five cents a page, with the bulk going to the publisher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顧客可能需要每頁支付約五美分，其中大部分收入會給 publisher。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 Amazon 的新 e-book services，也提到 Amazon 的起源。題目問 Amazon began by doing what，應看段中關於 “began” 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Amazon” 和 “began”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The firm, which began ten years ago as an online book retailer…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The firm, which began ten years ago as an online book retailer, now sells a vast array of goods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這家公司十年前以 online book retailer 起家，現在銷售大量不同商品。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amazon began by selling books online.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● Amazon = The firm● began by selling books online = began … as an online book retailer● online book retailer = 在網上售賣書籍的零售商原文和題目方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Microsoft signed a deal with the British Library on the same day as Google and Amazon made their announcements.”",
+      "translation": "Microsoft 在 Google 和 Amazon 宣布新計劃的同一天，與 British Library 簽署了一項協議。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Microsoft, too, has joined the online-book bandwagon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Microsoft 也加入了 online-book 的潮流。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On Thursday, coincidentally the same day as Google and Amazon announced their initiatives, Microsoft released details of a deal with the British Library, the country’s main reference library, to digitise some 25 million pages; these will be made available through MSN Book Search, which will be launched next year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星期四，剛好是 Google 和 Amazon 宣布項目的同一天，Microsoft 公布了與 British Library 的一項合作細節；這項合作會 digitise 約 2,500 萬頁，並透過明年推出的 MSN Book Search 提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目和段尾高度相似，但要小心動詞不同：題目說 signed，原文說 released details。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Microsoft”、“British Library”、“same day”、“Google and Amazon”。原文最後一句全部出現，所以要細讀動詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Microsoft released details of a deal with the British Library…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Microsoft 公布了與 British Library 的一項合作細節。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Microsoft signed a deal with the British Library on the same day…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Microsoft 在同一天簽署了協議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的問題在動詞：● 原文：released details of a deal公布協議細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 題目：signed a deal簽署協議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說公布細節發生在 same day as Google and Amazon announced their initiatives。可是文章沒有說簽署協議也在同一天發生。協議可能早已簽署，只是在那天公布；也可能那天簽署，但原文沒有提供這項資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 TRUE / FALSE / NOT GIVEN 規則，這不是 FALSE，因為原文沒有明確說 Microsoft 沒有在那天簽署。它只是缺少 signed 的時間證據。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 same day。原文和題目都出現同一天，學生很容易急著選 TRUE。真正控制答案的是動詞：released details 不等於 signed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Barnes and Noble published Riding the Bullet online.”",
+      "translation": "Barnes and Noble 在網上出版了 Riding the Bullet。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These companies are hoping for a return to the levels of interest in e-books seen when Stephen King, a best-selling horror writer, published ‘Riding the Bullet’ exclusively on the Internet in 2000.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些公司希望 e-books 能重新得到像 2000 年 Stephen King 在網上獨家出版 Riding the Bullet時那樣的關注。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Barnes and Noble, a leading American bookshop chain, began selling e-books with fanfare in 2000 but quietly pulled the plug in 2003 as interest faded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Barnes and Noble 是美國主要書店連鎖；它在 2000 年高調開始售賣 e-books，但隨著興趣減退，2003 年悄悄停止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段同時提到 Stephen King 的 Riding the Bullet 和 Barnes and Noble，因此題目容易混淆兩個資訊來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Barnes and Noble” 和 “Riding the Bullet”。它們在同一段，但出現在不同句子。需要檢查誰做了 published 這個動作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句清楚說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stephen King, a best-selling horror writer, published ‘Riding the Bullet’ exclusively on the Internet in 2000.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "暢銷恐怖小說作家 Stephen King 在 2000 年把 Riding the Bullet 獨家發表於互聯網。"
+            },
+            {
+              "kind": "label",
+              "text": "後面關於 Barnes and Noble 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Barnes and Noble… began selling e-books with fanfare in 2000…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Barnes and Noble 在 2000 年高調開始售賣 e-books。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩件事混在一起：● Riding the Bullet 的 online publication：Stephen King● Barnes and Noble 的行動：began selling e-books原文已明確把 published Riding the Bullet 的主體給了 Stephen King。Barnes and Noble 的動作是 selling e-books，不是 published this specific work。題目主體與動作配錯，因此答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“The ability to sample a book online before buying it might help sales.”",
+      "translation": "購買前先在網上試讀一本書，可能有助銷售。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3 和 Paragraph 8 Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The searchable collection of extracts and book information is intended to tempt readers to buy the complete books online or in print form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個可搜尋的 extracts 和 book information 集合，目的是吸引讀者購買完整的網上版或印刷版書籍。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 中間句："
+            },
+            {
+              "kind": "quote",
+              "text": "“or readers may want a taste of a book that they subsequently buy in hard copy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "或者讀者可能想先試讀一本書，之後再購買 hard copy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 sample before buying 對應 “taste of a book” 和 “subsequently buy”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sample”、“before buying”、“might help sales”。原文沒有 sample，但有 “online taste”和 “a taste of a book”。這是 IELTS 常見的比喻改寫：taste = sample。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 的關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“or readers may want a taste of a book that they subsequently buy in hard copy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讀者也可能想先試讀一本書，然後再購買實體書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和題目非常接近：● sample a book online = want a taste of a book● before buying it = subsequently buy in hard copy● might help sales = could help / may tempt customers Paragraph 3 也補強同一概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“The searchable collection of extracts and book information is intended to tempt readers to buy the complete books…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可搜尋的摘錄和書本資訊旨在吸引讀者購買完整書本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以文章明確支持「先試讀可刺激購買」這一點。答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -A LIBRARY AT YOUR FINGERTIPS.pdf",
+    "sha256": "b84f9b5f486df4fec6375956121a48e847187f3fef9a368cd316c0f845e8b390",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一段開首回顧 dotcom boom 高峰期的預測：很多人以為出版革命即將來臨，printed word 會被computer screen 取代。段尾轉到 Google、Amazon、Microsoft、Yahoo! 等科技公司的新動作，說明把書本搬到網上的夢想仍然活躍。這段功能是引入全文大背景：早年的電子書幻想沒有完全實現，但大型科技公司重新推動 online books。Q27 和 Q30 會用到這段，因為它談紙本書與螢幕閱讀的關係。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段開首說，將大量印刷書 digitise 並非沒有爭議。段尾指出，雖然目前 Google Print 包含的書尚未受 copyright 保護，但整個計劃已惹怒 publishers。這段功能是介紹 Google Print 的目的和爭議起點：Google 與多間 leading research libraries 合作，希望讓大量書籍可免費 online search and read。這段主要建立 Google project 的背景，亦為下一段 copyright dispute 鋪路。Q28 和Q31 的定位會由這段延伸到下一段。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段開首直接說五間大型 book firms 正控告 Google，原因是它們認為 Google 掃描了仍受copyright law 保護的 material。段尾說 Google Print Publisher 透過 online extracts and book information，吸引讀者購買完整書本。這段功能是具體解釋 publishers 為何不滿 Google，也補充一個諷刺點：一些 publishers 一方面控告 Google，另一方面又與 Google 合作推廣 commercially available books。Q28、Q36 和 Q40 都會用到這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段開首轉到 Amazon，說它也公布進軍 mass e-book market 的計劃。段尾說 customer 可能每頁支付約五美分，大部分收入給 publisher。這段功能是介紹 Amazon 的兩項新服務：Amazon Pages 讓顧客搜尋書內關鍵詞，並購買個別頁面、章節或全書；Amazon Upgrade 讓已買實體書的顧客取得 online access。Q29 和 Q37 主要定位在這段。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段開首說 Microsoft 也加入 online-book bandwagon。段尾說 Microsoft 與 British Library 的合作會把約 2,500 萬頁 digitise，並透過明年推出的 MSN Book Search 提供。這段功能是補充Microsoft 和 Yahoo! 的數碼書計劃，並特別指出 Microsoft 先從 public domain texts 開始，以avoid legal problems。Q31 和 Q38 主要定位在這段，尤其要分清 released details 和 signed 的時間。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段開首說，這些公司希望重燃 Stephen King 在 2000 年網上出版 Riding the Bullet 時引發的電子書熱潮。段尾說 e-book market 的確再次增長，但基礎很小，銷售額與整個出版業相比仍然微不足道。這段功能是回顧早期 e-books 的熱潮與退潮：讀者不願長時間坐在電腦前讀小說，專門 e-book reading gadgets 也未流行。Q30、Q32 和 Q39 都會用到這段。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段開首說，retailers and publishers 都估計終有一天能說服更多消費者在網上閱讀。段尾指出 book world 沒有 iPod 那種 equivalent。這段功能是比較 online books 和 online music：online music 由 illegal filesharing 帶動，之後由合法平台接手，再由 iPod 令消費方式流行；書本世界暫時沒有相同推動力。Q33 和 Q34 主要定位在這段。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段開首總結 online books 的 commercial prospects 暫時並不明朗。段尾轉到 Japan，說手機上的 e-books，主要是 manga comic books，價值已跳升，但 2005 年估計仍只值約 ¥6 billion。這段功能是收束全文：雖然商業前景未亮，但下載書本部分內容、在 hand-held devices 和 3G phones 上閱讀，都可能刺激市場。Q35 和 Q40 主要定位在這段。"
+      }
+    ]
+  }
+}

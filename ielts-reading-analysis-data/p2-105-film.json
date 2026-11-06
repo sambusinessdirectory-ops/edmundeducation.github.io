@@ -1,0 +1,1888 @@
+{
+  "id": "p2-105-film",
+  "catalogueId": "p2-105",
+  "catalogueIds": [
+    "p2-105"
+  ],
+  "passage": 2,
+  "title": "film",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "D",
+    "F",
+    "B",
+    "H",
+    "E",
+    "A",
+    "G",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The inventors of cinema regarded it as a minor attraction.”",
+      "translation": "電影的發明者把電影視為一種小型娛樂或次要吸引物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN，要判斷題目是否和文章資訊一致。重點在 “inventors of cinema” 和 “minor attraction”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has always been a sense in which America and Europe owned film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一直以來都有一種感覺：美國和歐洲擁有電影。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“D. W. Griffith in California glimpsed its grace, German directors used it as an analogue to the human mind and the modernising city, Soviets emphasised its agitational and intellectual properties, and the Italians reconfigured it on an operatic scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加州的 D. W. Griffith 看見了電影的優雅；德國導演把它用作人類心智和現代化城市的類比；蘇聯人強調它的鼓動性和思想性；意大利人則以歌劇般的規模重新塑造它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會講西方發明電影，以及電影如何由早期工具發展成藝術形式。題目問 inventors 最初如何看待 cinema，所以要在本段前半找早期態度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “inventors” 和 “minor attraction”。原文沒有直接用 minor attraction，但有相關概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, they saw their clumsy new camera-projectors merely as more profitable versions of Victorian lantern shows, mechanical curiosities which might have a use as a sideshow at a funfair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，他們只把笨重的新式攝影放映機看成更賺錢版本的維多利亞式幻燈表演，是一種機械奇觀，或許可在遊樂場作為旁邊的小表演使用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “they” 指前文的 America and Europe / early inventors。核心動詞是 “saw”，表示他們如何理解自己的發明。最重要的短語是 “merely as”和 “a sideshow at a funfair”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“merely” 表示「只不過、僅僅」。“sideshow at a funfair” 指遊樂場中的小型附屬表演，不是主要節目。題目的 “minor attraction” 正好概括這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "inventors of cinema = America and Europe who invented it regarded it as = saw it as minor attraction = sideshow at a funfair / mechanical curiosity at first = early stage of invention題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段後半說電影逐漸 evolve as an art，這不會推翻 Question 14。題目問的是 inventors 最初如何看待它；原文也明確用 “At first” 限定早期態度。做這類題，要先鎖定時間詞，不要把後來的藝術發展套回最初階段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some directors were aware of cinema’s artistic possibilities from the very beginning.”",
+      "translation": "有些導演從最一開始就意識到電影的藝術可能性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 “some directors” 是否和原文相符，更要留意 “from the very beginning” 這個時間限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has always been a sense in which America and Europe owned film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一直以來都有一種感覺：美國和歐洲擁有電影。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“D. W. Griffith in California glimpsed its grace, German directors used it as an analogue to the human mind and the modernising city, Soviets emphasised its agitational and intellectual properties, and the Italians reconfigured it on an operatic scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加州的 D. W. Griffith 看見了電影的優雅；德國導演把它用作人類心智和現代化城市的類比；蘇聯人強調它的鼓動性和思想性；意大利人則以歌劇般的規模重新塑造它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測本段會由電影的發明講到電影藝術可能性的開發。題目提到 directors 和artistic possibilities，因此 Paragraph 1 是最合理定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “directors”、“artistic possibilities” 和 “from the very beginning”。原文相關句有兩組："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, they saw their clumsy new camera-projectors merely as more profitable versions of Victorian lantern shows…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，他們只把笨重的新式攝影放映機看成更賺錢版本的維多利亞式幻燈表演。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then the best of the pioneers looked beyond the fairground properties of their invention. A few directors, now mostly forgotten, saw that the flickering new medium was more than just a diversion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後，最優秀的一些先驅者看到了這項發明超越遊樂場屬性的可能。有幾位如今大多被遺忘的導演，看出這種閃爍的新媒介不只是一種消遣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩部分：第一，some directors were aware of artistic possibilities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部分獲得支持，因為原文說 “A few directors … saw that the flickering new medium was more than just a diversion.”第二，from the very beginning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部分和原文時間線相衝。原文先說 “At first” 他們只把電影看成 lantern shows / mechanical curiosities / funfair sideshow。然後才用 “Then” 引出 pioneers 和 directors 開始看見更深可能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： some directors 從最開始已看見藝術可能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：最初人們只看見商業娛樂和機械奇觀；之後少數導演才看見超越消遣的可能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "artistic possibilities = more than just a diversion / began to evolve as an art from the very beginning = At first原文的 At first 對應的內容是 minor entertainment，不是 art因此，題目把後來出現的認識放到最初階段，時間錯位，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“A few directors” 和題目 “Some directors” 很吻合，這會令人想選 TRUE。細讀時要看 “from the very beginning”。IELTS 很常用一個正確主體加一個錯誤時間詞來設陷。這題真正控制答案的是“At first” 和 “Then” 之間的先後關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The development of cinema’s artistic potential depended on technology.”",
+      "translation": "電影藝術潛力的發展依賴科技。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否有說明「藝術潛力發展」和「technology」之間的依賴關係。注意，文章提到camera-projectors，不自動等於它說藝術發展 depended on technology。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has always been a sense in which America and Europe owned film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一直以來都有一種感覺：美國和歐洲擁有電影。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“D. W. Griffith in California glimpsed its grace, German directors used it as an analogue to the human mind and the modernising city, Soviets emphasised its agitational and intellectual properties, and the Italians reconfigured it on an operatic scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加州的 D. W. Griffith 看見了電影的優雅；德國導演把它用作人類心智和現代化城市的類比；蘇聯人強調它的鼓動性和思想性；意大利人則以歌劇般的規模重新塑造它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 1 會講電影由發明走向藝術。題目問 artistic potential 的發展原因，所以最可能在本段尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “artistic potential” 和 “technology”。原文有與 technology 相關的詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“camera-projectors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mechanical curiosities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“invention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new medium”"
+            },
+            {
+              "kind": "label",
+              "text": "也有與 artistic potential 相關的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This crass commercial invention gradually began to evolve as an art.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項粗俗的商業發明逐漸開始演變成一種藝術。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說電影起初是一項 “commercial invention”，也提到 camera-projectors 這種機械裝置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，題目更進一步說 artistic potential 的 development depended on technology。要選 TRUE，文章需要指出科技改良、技術進步、設備發展等因素推動藝術潛力。原文沒有建立這條因果線。"
+            },
+            {
+              "kind": "label",
+              "text": "本段真正說出的發展因素是人的理解和使用方式："
+            },
+            {
+              "kind": "quote",
+              "text": "“the best of the pioneers looked beyond…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“A few directors … saw…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“D. W. Griffith … German directors … Soviets … Italians…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子強調導演、國家電影傳統和藝術觀念如何改造電影。文章沒有說 technology 是關鍵條件，也沒有說沒有技術進步就無法發展藝術潛力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要： artistic development depended on technology.原文提供： cinema was a mechanical invention; later directors developed its artistic uses.缺少部分： dependence / technological progress / causal link between technology and artistic potential.所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“camera-projectors” 和 “mechanical curiosities” 會令人聯想到 technology。可是定位詞只帶你到段落，不能直接決定答案。要判 TRUE，需要看到 “depended on” 這種因果依賴關係。文章沒有提供這一點，因此不能自行補入常識。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cinema’s possibilities were developed in varied ways in different Western countries.”",
+      "translation": "電影的可能性在不同西方國家以多種方式發展。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看文章是否有比較不同 Western countries / regions 如何發展 cinema’s possibilities。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There has always been a sense in which America and Europe owned film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一直以來都有一種感覺：美國和歐洲擁有電影。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“D. W. Griffith in California glimpsed its grace, German directors used it as an analogue to the human mind and the modernising city, Soviets emphasised its agitational and intellectual properties, and the Italians reconfigured it on an operatic scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加州的 D. W. Griffith 看見了電影的優雅；德國導演把它用作人類心智和現代化城市的類比；蘇聯人強調它的鼓動性和思想性；意大利人則以歌劇般的規模重新塑造它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 1 最後會列出不同西方電影傳統如何發展電影。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“varied ways” 和 “different Western countries” 直接對應本段末句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “varied ways” 和 “different Western countries”。原文末句列出四組： D. W. Griffith in California German directors Soviets Italians每一組後面都有不同動作： glimpsed its grace used it as an analogue emphasised its agitational and intellectual properties reconfigured it on an operatic scale"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文末句正是題目的完整證據。“D. W. Griffith in California glimpsed its grace”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是 Griffith 看見了電影的優雅和形式美。"
+            },
+            {
+              "kind": "quote",
+              "text": "“German directors used it as an analogue to the human mind and the modernising city”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是德國導演把電影當作表達人類心智和現代城市的工具。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Soviets emphasised its agitational and intellectual properties”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是蘇聯電影人強調電影的鼓動和思想功能。"
+            },
+            {
+              "kind": "quote",
+              "text": "“the Italians reconfigured it on an operatic scale”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是意大利人以歌劇般宏大的規模重新塑造電影。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子清楚展示 cinema’s possibilities 被不同西方地區以不同方向開發。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cinema’s possibilities = its grace / analogue / properties / operatic scale developed in varied ways = glimpsed, used, emphasised, reconfigured different Western countries = California, German, Soviets, Italians題目和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 會轉去 Asian film industries，學生可能以為 Question 17 也要看亞洲。但題目限定"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Western countries”，Paragraph 1 末句已完整處理西方內部差異。先看限定詞 Western，就不會走到後文中國、印度、日本段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Western businessmen were concerned about the emergence of film industries in other parts of the world.”",
+      "translation": "西方商人擔心世界其他地方電影工業的興起。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷西方 financial backers / businessmen 對亞洲 film industries emergence 的態度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So heady were these first decades of cinema that America and Europe can be forgiven for assuming that they were the only game in town.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電影最初幾十年如此令人振奮，以致美國和歐洲以為自己是唯一主角，這種想法也可以理解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But film industries were emerging in Shanghai, Bombay and Tokyo, some of which would outgrow those in the West.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但上海、孟買和東京的電影工業正在興起，其中一些後來會超越西方的電影工業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 會由西方自信講到亞洲電影工業興起。題目提到 Western businessmen 和 other parts of the world，這段正是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Western businessmen”、“concerned” 和 “emergence”。原文用 “financial backers” 對應 businessmen："
+            },
+            {
+              "kind": "quote",
+              "text": "“It never occurred to its financial backers that another continent might borrow their magic box and make it its own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的資金支持者從未想到，另一個大洲可能會借用他們的魔法盒，並把它變成自己的東西。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Western businessmen were concerned，表示他們有意識到風險並感到擔心。原文說 “It never occurred to its financial backers”，意思是這件事根本沒有進入他們的想像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確相反： concerned= aware and worried never occurred to them= they did not even think of it題目中的 “emergence of film industries in other parts of the world” 對應下一句 “film industries were emerging in Shanghai, Bombay and Tokyo”。可是，西方 financial backers 對此的態度不是concern，而是完全沒有預料。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Western businessmen = financial backers were concerned = worried / thought about risk never occurred to them = did not imagine it other parts of the world = Shanghai, Bombay and Tokyo / another continent所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段最後說亞洲某些 film industries 會 outgrow those in the West，這聽起來很值得西方商人擔心。但題目問當時 businessmen 的態度，原文說他們根本沒有想到。要分清「後來事實」和「當時認知」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — silent",
+      "answerKey": "D — silent",
+      "type": "Note Completion",
+      "prompt": "Question 19",
+      "translation": "中國電影：1930 年代製作了大量 ______ 電影。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chinese cinema — large number of 19 __________ films produced in the 1930s”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1930 and 1935, China produced more than 500 films, mostly conventionally made in studios in Shanghai, without soundtracks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1930 至 1935 年間，中國製作了超過 500 部電影，大多以傳統方式在上海攝影棚製作，並且沒有聲帶。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Peach Girl (1931) and Street Angel (1937) are regularly voted among the best ever made in the country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《桃花泣血記》（1931）和《馬路天使》（1937）經常被選為中國影史最佳作品之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段講 1930 年代中國電影產量、製作方式和經典作品。Question 19 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“large number” 和 “1930s” 直接對應第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “large number” 和 “1930s”。原文對應 “more than 500 films” 和 “Between 1930 and 1935”。空格要形容 films。原文關鍵短語：“without soundtracks”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“without soundtracks” 意思是沒有聲軌，即 silent films。選項 D “silent” 正好概括這點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "large number = more than 500 1930s = between 1930 and 1935 without soundtracks = silent所以 Question 19 答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "F — outstanding",
+      "answerKey": "F — outstanding",
+      "type": "Note Completion",
+      "prompt": "Question 20",
+      "translation": "一些早期電影至今仍普遍被視為 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“some early films still generally regarded as 20 __________”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1930 and 1935, China produced more than 500 films, mostly conventionally made in studios in Shanghai, without soundtracks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1930 至 1935 年間，中國製作了超過 500 部電影，大多以傳統方式在上海攝影棚製作，並且沒有聲帶。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Peach Girl (1931) and Street Angel (1937) are regularly voted among the best ever made in the country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《桃花泣血記》（1931）和《馬路天使》（1937）經常被選為中國影史最佳作品之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段不只講產量，也講某些中國早期電影的高度評價。Question 20 的 “still generally regarded as” 對應 “regularly voted among the best”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “early films” 和 “regarded as”。原文用具體片名作例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Peach Girl (1931) and Street Angel (1937) are regularly voted among the best ever made in the country.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“among the best ever made” 表示在中國影史中屬於最佳作品之一。選項 F “outstanding” 意思是出色、傑出，最貼近這個評價。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "still generally regarded as = regularly voted best ever made = outstanding some early films = The Peach Girl and Street Angel所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 I “realistic” 也會令人留意，因為同段說中國導演 introduced elements of realism。不過Question 20 問的是這些 early films 的評價，不是它們的拍攝風格。真正證據是 “best ever made”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，所以 F 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — negative",
+      "answerKey": "B — negative",
+      "type": "Note Completion",
+      "prompt": "Question 21",
+      "translation": "印度電影：電影包含音樂插段；電影避開 ______ 題材。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indian cinema — films included musical interludes; films avoided 21 __________ topics”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“India followed a different course.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "印度走了另一條不同的路線。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Performed in Hindi (rather than any of the numerous regional languages), they addressed social and peasant themes in an optimistic and romantic way and found markets in the Middle East, Africa and the Soviet Union.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些電影以 Hindi 演出，而不是使用眾多地方語言之一；它們以樂觀和浪漫的方式處理社會與農民題材，並在中東、非洲和蘇聯找到市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講印度電影和西方 musical 的不同路線。題目有 musical interludes 和topics，應看 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “musical interludes” 和 “topics”。原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“in India, every one of the 5,000 films made between 1931 and the mid-1950s had musical interludes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在印度，1931 年至 1950 年代中期製作的 5000 部電影，每一部都有音樂插段。"
+            },
+            {
+              "kind": "label",
+              "text": "然後末句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“they addressed social and peasant themes in an optimistic and romantic way…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們以樂觀和浪漫的方式處理社會與農民題材。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “avoided”，所以選項要表達電影沒有採用某種方向。原文沒有逐字說 “avoided”，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“optimistic and romantic way” 表示這些電影即使處理 social and peasant themes，也以正面、浪漫、希望感較強的方式呈現。在選項中，B “negative” 最符合這個改寫： optimistic and romantic = positive in tone avoided negative topics = 沒有把題材處理成陰暗、悲觀、負面方向"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "musical interludes = musical interludes optimistic and romantic way = avoided negative treatment / negative topics themes = topics所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 E “social” 很吸引，因為原文直接有 “social and peasant themes”。但 notes 說 “films avoided ___ topics”。原文是 addressed social themes，表示有處理社會題材；因此不能填 social。這題要看空格前的 “avoided”，不能只被原字 social 吸引。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "H — powerful",
+      "answerKey": "H — powerful",
+      "type": "Note Completion",
+      "prompt": "Question 22",
+      "translation": "日本電影的特別之處，在於導演非常 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japanese cinema — unusual because film director was very 22 __________”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Japan, the film industry did not rival India’s in size but was unusual in other ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在日本，電影工業的規模不及印度，但在其他方面很特別。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1930s and 1940s, this freedom of the director led to the production of some of Asia’s finest films.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1930 和 1940 年代，導演的這種自由促成了一些亞洲最佳電影的誕生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講日本電影制度的 unusual 之處，尤其是 director freedom。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 22 直接定位到本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “director” 和 “unusual”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whereas in Hollywood the producer was the central figure, in Tokyo the director chose the stories and hired the producer and actors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Hollywood，producer 是核心人物；在 Tokyo，導演選故事，也聘用 producer 和演員。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文指出東京制度中，導演有選故事、聘用 producer 和演員的權力。後文又說 future director 會逐步 gaining authority，最後 promoted to director with the power to select screenplays and performers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 H “powerful” 最能概括這一點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "very powerful = chose stories, hired producer and actors, had power to select screenplays and performers unusual = whereas in Hollywood producer was central, in Tokyo director held authority director freedom = director power所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "E — social",
+      "answerKey": "E — social",
+      "type": "Note Completion",
+      "prompt": "Question 23",
+      "translation": "Mizoguchi 聚焦於女性面對的 ______ 限制。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mizoguchi – focused on the 23 __________ restrictions faced by women”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The films of Kenji Mizoguchi were among the greatest of these.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kenji Mizoguchi 的電影屬於這些偉大作品之列。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one had used the camera with such finesse before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此前沒有人如此精巧地使用攝影機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 Mizoguchi 的作品成就和電影技巧。題目提到 Mizoguchi 和women restrictions，因此要看本段中間的主題句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Mizoguchi”、“women” 和 “restrictions”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mizoguchi’s films were usually set in the nineteenth century and analysed the way in which the lives of the female characters whom he chose as his focus were constrained by the society of the time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mizoguchi 的電影通常設定在十九世紀，並分析他作為焦點的女性角色，其人生如何受當時社會限制。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前後是 “the ___ restrictions faced by women”。原文說 women’s lives were “constrained by the society of the time”。constrained = 受限制；society of the time = 當時社會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E “social” 正好對應 society。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "female characters = women constrained = restricted by the society of the time = social restrictions faced by women = women’s lives constrained by society所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — emotional",
+      "answerKey": "A — emotional",
+      "type": "Note Completion",
+      "prompt": "Question 24",
+      "translation": "Mizoguchi 的鏡頭移動和電影的 ______ 內容有關。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mizoguchi – camera movement related to 24 __________ content of film”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The films of Kenji Mizoguchi were among the greatest of these.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kenji Mizoguchi 的電影屬於這些偉大作品之列。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one had used the camera with such finesse before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此前沒有人如此精巧地使用攝影機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 6 既講 Mizoguchi 的主題，也講 camera use。Question 24 的camera movement 很明顯在本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “camera movement”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From Osaka Elegy (1936) to Ugetsu Monogatari (1953) and beyond, he evolved a sinuous way of moving his camera in and around a scene, advancing towards significant details but often retreating at moments of confrontation or strong feeling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從《大阪輓歌》（1936）到《雨月物語》（1953）及其後作品，他發展出一種蜿蜒流動的鏡頭運動方式，在場景內外移動，靠近重要細節，但常在衝突或強烈情感的時刻退開。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 camera 會在 “moments of confrontation or strong feeling” retreat。strong feeling 就是emotional content。題目把具體的 “strong feeling” 概括成選項 A “emotional”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "camera movement = moving his camera related to content = retreating at moments of confrontation or strong feeling strong feeling = emotional film content = moments within the scene所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 J “stylistic” 也可能吸引人，因為 camera movement 是風格問題。不過題目空格後是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“content of film”，即鏡頭和影片內容的關係。原文的 “strong feeling” 明確指情感內容，因此 A 比J 更貼近。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "G — little",
+      "answerKey": "G — little",
+      "type": "Note Completion",
+      "prompt": "Question 25",
+      "translation": "Ozu：鏡頭移動很 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ozu – 25 __________ camera movement”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even more important for film history, however, is the work of the great Ozu.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，對電影史更重要的是偉大的 Ozu 的作品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many historians now compare such ‘pillow shots’ to the Buddhist idea that mu – empty space or nothing – is itself an element of composition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多歷史學家現在把這些 “pillow shots” 和佛教中的 mu 相比；mu 指空間或無本身也是構圖元素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 Ozu 的電影史重要性和他的特殊鏡頭語言。Question 25 直接問camera movement，所以看本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Ozu” 和 “camera movement”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His camera seldom moved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的攝影機很少移動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“seldom moved” 表示很少移動。選項 G “little” 可以接成 “little camera movement”，意思是鏡頭運動很少。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "seldom moved = little camera movement Ozu = the great Ozu camera movement = His camera moved所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — A different basis: how has the cinema of Asian countries been shaped by their",
+      "answerKey": "B — A different basis: how has the cinema of Asian countries been shaped by their",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following is the most suitable title for Reading Passage 2?”",
+      "translation": "以下哪一個最適合作為本文標題？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cultures and beliefs?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是主旨題。不能只看某一段，要看全文結構：文章如何由西方電影起源，轉到亞洲電影工業，再總結亞洲電影的文化和哲學基礎。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文功能"
+            },
+            {
+              "kind": "label",
+              "text": "最重要段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the art form most swayed by money and market, cinema would appear to be too busy to bother with questions of philosophy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為最受金錢和市場左右的藝術形式，電影看起來似乎太忙碌，無暇處理哲學問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yes, these films are visually striking, but it is their different sense of what a person is, and what space and action are, which makes them new to Western eyes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒錯，這些電影在視覺上很突出，但真正令西方觀眾覺得新鮮的，是它們對人是甚麼、空間和行動是甚麼，有著不同理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一段首尾句，可以看到全文總結已轉向 culture, beliefs, philosophy, person, space and action。這比單純講電影工業興起更深一層。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項關鍵詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的關鍵詞是 “Asian countries”、“shaped by their cultures and beliefs”。原文最後一段有非常接近的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just as deep ideas about individual freedom have led to the aspirational cinema of Hollywood, so it is the beliefs which underlie cultures such as those of China and Japan that explain the distinctiveness of Asian cinema at its best.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如關於個人自由的深層理念造就了 Hollywood 的理想化電影，那些支撐中國和日本等文化的信念，也解釋了亞洲電影在最佳狀態下的獨特性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是全文主旨句。它說亞洲電影的 distinctive quality 來自 “beliefs which underlie cultures”。這正好對應選項 B 的 “shaped by their cultures and beliefs”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文結構也支持 B： Paragraph 1–2：先講西方發明電影，並未預料亞洲電影會興起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3：中國電影，強調 early production 和 realism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4：印度電影，強調 musical interludes、Hindi、optimistic and romantic treatment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5–7：日本電影，尤其導演權力、Mizoguchi 和 Ozu 的風格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8：總結亞洲電影的獨特性來自文化信念和哲學理解。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Blind to change: how is it that the West has ignored Asian cinema for so long?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章有說西方最初沒有預料亞洲電影興起，但全文沒有集中討論「西方長期忽視亞洲電影」的原因。A 只抓到 Paragraph 2 的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “A different basis: how has the cinema of Asian countries been shaped by their cultures and beliefs?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。它覆蓋中國、印度、日本的差異，也抓住最後一段 culture and beliefs 的總結。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Outside Asia: how did the origins of cinema affect its development worldwide?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章開頭有講 cinema origins 在 America and Europe，但主體並非追蹤全球發展如何受起源影響。C 過度放大開頭背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Two cultures: how has Western cinema tried to come to terms with the challenge of the Asian market?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有說 Western cinema 嘗試應對 Asian market challenge。Paragraph 2 說西方 financial backers 沒有預料亞洲興起，後文也沒有講西方如何回應挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Asian countries = China, India, Japan cultures and beliefs = beliefs which underlie cultures shaped by = explain the distinctiveness different basis = different sense of person, space and action所以最適合的標題是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - film.pdf",
+    "sha256": "eda6d1f15de0e089c937cd2e6e1bf21757e434ee413da1886ae188172457e412",
+    "pageCount": 22
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 America and Europe 一直有一種「擁有電影」的感覺，因為它們在十九世紀末發明了電影。末句列出 Griffith、German directors、Soviets 和 Italians 如何把電影發展成不同藝術形式。只看首尾句，可以估計本段由電影發明起點，走向西方各國對電影藝術潛力的開發。中間會提到早期發明者最初只把電影看成 funfair sideshow，之後才有導演看見其藝術可能。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 cinema 最初幾十年太令人興奮，以致 America and Europe 以為自己是唯一主角，這種想法也可理解。末句卻說 Shanghai、Bombay 和 Tokyo 的 film industries 正在興起，其中一些後來會超越西方。只看首尾句，可以估計本段功能是從西方自信轉向亞洲電影工業的出現。中間會提到西方電影迅速成長、明星成名、賺取巨額收入，也說西方投資者沒有預料其他大洲會把電影變成自己的東西。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 1930 至 1935 年間，中國製作了超過 500 部電影，大多在上海 studio 傳統方式製作，且沒有 soundtracks。末句說 The Peach Girl 和 Street Angel 經常被選為中國影史最佳作品之一。只看首尾句，可以估計本段專講 Chinese cinema 的早期規模和成就。中間會補充中國最佳導演Bu Wancang 和 Yuan Muzhi，把 realism 元素引入故事之中。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 India followed a different course，表示印度電影走了不同路線。末句說這些 Hindi 電影以optimistic and romantic way 處理 social and peasant themes，並找到 Middle East、Africa 和Soviet Union 市場。只看首尾句，可以估計本段介紹 Indian cinema 的特色：talkies 之後，印度電影幾乎全部有 musical interludes；作品較西方 musical 更混合，片長較長，製作成本形成獨特national style，並逐漸與 Bombay / Bollywood 連上關係。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說日本電影工業規模不及印度，但在其他方面 unusual。末句說 1930s and 1940s，導演的自由促成亞洲一些最佳電影。只看首尾句，可以估計本段重點是 Japanese cinema 的製作制度，尤其導演權力。中間會比較 Hollywood producer central figure 和 Tokyo director choosing stories, hiring producer and actors。這段不是介紹某一位導演的風格，重點是日本導演在 studio system 中逐步取得權威。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Kenji Mizoguchi 的電影屬於上述亞洲傑作之列。末句說之前沒有人能如此精細地使用camera。只看首尾句，可以估計本段集中講 Mizoguchi 的電影主題和鏡頭技巧。中間提到他的電影多設於十九世紀，分析女性角色如何受當時社會限制；camera movement 會在場景內外流動，靠近重要細節，並在 confrontation 或 strong feeling 時退開。Questions 23–24 很可能定位在這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說對 film history 更重要的是 Ozu 的作品。末句說許多歷史學家把他的 pillow shots 和Buddhist idea of mu 相比。只看首尾句，可以估計本段專講 Ozu 的電影語言和哲學意味。中間會說 Hollywood 加強 drama，但 Ozu 避開戲劇化；他的 camera 很少移動，常放在坐姿高度，也不按西方常規剪接，反而用 tree、kettle、clouds 等空鏡作安靜停頓。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 cinema 受 money and market 影響最大，看似太忙，不會理會 philosophy。末句說亞洲電影讓西方觀眾感到新鮮，原因在於它們對 person、space 和 action 有不同理解。只看首尾句，可以估計本段是全文總結：亞洲國家證明電影可以承載哲學和文化信念。文章最後把 Hollywood 的individual freedom 和 China / Japan 的文化底層信念相對照，說明亞洲電影的獨特性來自深層文化基礎。"
+      }
+    ]
+  }
+}

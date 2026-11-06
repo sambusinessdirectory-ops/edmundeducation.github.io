@@ -1,0 +1,1805 @@
+{
+  "id": "p3-125-memory-decoding",
+  "catalogueId": "p3-125",
+  "catalogueIds": [
+    "p3-125"
+  ],
+  "passage": 3,
+  "title": "Memory Decoding",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "E",
+    "A",
+    "C",
+    "G",
+    "F",
+    "specific person",
+    "three cards",
+    "mental walk",
+    "loci method",
+    "education",
+    "A",
+    "D",
+    "B",
+    "E"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "Why exceptional memory skills were significant in academic settings",
+      "translation": "為何卓越記憶技巧在學術／教育場景中重要。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more resonant the images are, the more difficult they are to forget.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖像越有共鳴，就越難忘記。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before printed books, the art of memory was considered a staple of classical education, on a par with grammar, logic, and rhetoric.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在印刷書出現之前，記憶術被視為古典教育的基本內容，地位可與文法、邏輯和修辭相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph E 會解釋記憶術的原理和歷史地位。最後一句直接出現classical education，和題目中的 academic settings 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“academic settings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exceptional memory skills”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“classical education”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grammar, logic, and rhetoric”"
+            },
+            {
+              "kind": "quote",
+              "text": "“art of memory”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Academic settings 不一定逐字出現。這裡要找 education、school、classical training、grammar、logic、rhetoric 這類教育語義場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before printed books, the art of memory was considered a staple of classical education, on a par with grammar, logic, and rhetoric.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在印刷書出現之前，記憶術被視為古典教育的基本內容，地位可與文法、邏輯和修辭相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供完整證據。題目問的是記憶技巧為何在 academic settings 中重要；原文說 art of memory 是 classical education 的 staple。Staple 指基本、核心、不可少的內容。再加上 “on a par with grammar, logic, and rhetoric”，即和古典教育三大核心科目同級，說明其學術地位很高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 27 答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "Mention of a competition for extraordinary memory held over many years",
+      "translation": "提到一個多年舉辦、測試超常記憶的比賽。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In timed trials, contestants were challenged to look at and then recite a two-page poem, memorize rows of 40-digit numbers, recall the names of 110 people after looking at their photographs, and perform seven other feats of extraordinary retention.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在限時測試中，參賽者要看完並背誦一首兩頁詩、記住多行 40 位數字、看過照片後記住 110 人的名字，並完成另外七項非凡記憶任務。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anyone can learn them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何人都可以學會這些技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 首句已明確介紹比賽項目，並用 “contestants” 和 “extraordinary retention” 指向memory competition。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“competition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extraordinary memory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“held over many years”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“World Memory Championships”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 14 years since the World Memory Championships was founded”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feats of extraordinary retention”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“14 years” 對應 “held over many years”。“World Memory Championships” 直接對應 competition。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“In the 14 years since the World Memory Championships was founded, no one has memorized the order of a shuffled deck of playing cards in less than 30 seconds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 World Memory Championships 創立以來的 14 年中，還沒有人能在 30 秒內記住一副洗亂撲克牌的順序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含比賽名稱和多年時間跨度。題目中的 “held over many years” 由 “In the 14 years since … was founded” 支持。題目中的 “extraordinary memory” 對應首句的 “feats of extraordinary retention”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "A demonstration of an exceptional person performing an unusual recall task",
+      "translation": "描述一位記憶高手示範不尋常的回憶任務。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It might seem odd that the memory contestants would use visual imagery and spatial navigation to remember numbers, but the activity makes sense when their techniques are revealed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "記憶參賽者用視覺圖像和空間導航來記數字，乍看可能很奇怪，但一旦他們的技巧被揭示，這種做法便合理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next three cards were the king of hearts, the king of spades, and the jack of clubs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來三張牌是紅心 K、黑桃 K 和梅花 J。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會先引出技巧，再用撲克牌示範。尾句仍在列牌，顯示這段正在展示一個實際記憶任務。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“demonstration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exceptional person”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unusual recall task”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cooke pulled out a deck of cards and shuffled it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“He held up three cards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Destiny’s Child is whacking Franz Schubert with handbags”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些內容不像普通解釋，更像現場示範。Cooke 的身份也被描述為 “a grand master of brain storage”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Lamb and Flag, Cooke pulled out a deck of cards and shuffled it. He held up three cards– the 7 of spades, the queen of clubs, and the 10 of spades. He pointed at a fireplace and said,‘Destiny’s Child is whacking Franz Schubert with handbags.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Lamb and Flag，Cooke 拿出一副牌並洗牌。他舉起三張牌：黑桃 7、梅花 Q 和黑桃 10。他指著壁爐說：「Destiny’s Child 正用手袋打 Franz Schubert。」這段確實是 demonstration：有地點、有動作、有牌、有奇怪句子。題目中的 “exceptional person”對應 Cooke，因為前文說他能在一小時內記住 10 副牌的順序，也能在一分鐘內記住一副牌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Unusual recall task 指把撲克牌轉成怪異圖像，再用圖像回憶牌序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "A belief that extraordinary memory can be gained through enough practice",
+      "translation": "一種觀點：透過足夠練習，可以取得超常記憶能力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anders Ericsson, a Swedish-born psychologist at Florida State University, thinks anyone can acquire Shereshevski’s skills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Florida State University 的瑞典裔心理學家 Anders Ericsson 認為，任何人都可以取得Shereshevski 的技能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I don’t think that there’s any compelling evidence that there are such people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「我不認為有任何有力證據顯示存在這種人。」首句已直接說 anyone can acquire，最後一句則否定天生多方面超卓記憶者的證據。段落功能明顯是強調練習和技巧。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“belief”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extraordinary memory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“practice”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“thinks anyone can acquire”"
+            },
+            {
+              "kind": "quote",
+              "text": "“250 hours of testing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lots of practice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“if they wasted 50 hours, they’d be exceptional at it”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “enough practice” 對應原文 “lots of practice” 和 “50 hours”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When he reviewed original case studies of naturals, he found that exceptional memorizers were using techniques – sometimes without realizing it – and lots of practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他回看天生記憶者的原始個案研究時，他發現那些 exceptional memorizers 使用了技巧，有時自己也沒有意識到，並且有大量練習。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Ericsson 的引文："
+            },
+            {
+              "kind": "quote",
+              "text": "“If we look at some of these memory tasks, they’re the kind of thing most people don’t even waste one hour practicing, but if they wasted 50 hours, they’d be exceptional at it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們看某些記憶任務，它們通常是大部分人連一小時都不會花來練習的事情；但如果他們花50 小時練習，便會變得非常出色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “can be gained through enough practice” 由 “anyone can acquire” 和 “lots of practice”支持。S. F. 的 digit span 從 7 增至 80 以上，就是練習效果的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "A description of a rare ability that aids exceptional memory",
+      "translation": "描述一種罕見能力，它能幫助超常記憶。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most famous of the naturals was the Russian journalist S. V. Shereshevski, who could recall long lists of numbers memorized decades earlier, as well as poems, strings of nonsense syllables, and just about anything else he was asked to remember.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有名的天生記憶者是俄羅斯記者 S. V. Shereshevski，他能回憶幾十年前記住的長串數字，以及詩、無意義音節串，還有幾乎任何被要求記住的東西。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Synesthetic reactions evoke a response in more areas of the brain, making memory easier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聯覺反應會在更多腦區引發反應，使記憶更容易。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句介紹 exceptional memory 的人物，尾句說 synesthetic reactions make memory easier。這和題目完全配合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rare ability”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aids exceptional memory”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“synesthesia, a rare condition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“senses become intertwined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“making memory easier”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rare condition” 是最強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Shereshevski also had synesthesia, a rare condition in which the senses become intertwined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shereshevski 也有 synesthesia，這是一種罕見狀況，人的感官會互相交織。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Synesthetic reactions evoke a response in more areas of the brain, making memory easier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聯覺反應會在更多腦區引發反應，使記憶更容易。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rare ability” 對應 “synesthesia, a rare condition”。“aids exceptional memory” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“making memory easier”。所以該資訊位於 Paragraph F。所以 31 答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "specific person",
+      "answerKey": "specific person",
+      "type": "Summary Completion",
+      "prompt": "“He remembered the card by encoding it as a 32 ______”",
+      "translation": "他把這張牌編碼成一個 ______ 來記住它。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How did he do it?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他是怎樣做到的？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s why the MRIs of the memory contestants showed activation in the brain areas associated with visual imagery and spatial navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是為何記憶參賽者的 MRI 顯示 visual imagery 和 spatial navigation 相關腦區被激活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段專門解釋 Cooke 如何把牌轉成圖像和路線，所以 Q32 應在 Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“7 of spades”"
+            },
+            {
+              "kind": "quote",
+              "text": "“encoding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“card”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cooke has already memorized a specific person, verb, and object that he associates with each card in the deck.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, for the 7 of spades, the person … is always the singing group Destiny’s Child.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前是 “as a”，需要一個單數名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cooke has already memorized a specific person, verb, and object that he associates with each card in the deck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cooke 已經為牌組中的每一張牌記住一個特定人物、一個動作和一個物件。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, for the 7 of spades, the person (or, in this case, persons) is always the singing group Destiny’s Child…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，對於黑桃 7，人物總是歌唱組合 Destiny’s Child。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目特別提到 7 of spades，所以要看這張牌在系統中的角色。它在三張牌組合中成為 person。原文中的完整短語是 “specific person”，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 答案是 specific person。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "three cards",
+      "answerKey": "three cards",
+      "type": "Summary Completion",
+      "prompt": "“he commits a deck to memory in groups of 33 ______.”",
+      "translation": "他以每組 ______ 的方式記住一副牌。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How did he do it?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他是怎樣做到的？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s why the MRIs of the memory contestants showed activation in the brain areas associated with visual imagery and spatial navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是為何記憶參賽者的 MRI 顯示 visual imagery 和 spatial navigation 相關腦區被激活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 解釋 Cooke 的撲克牌編碼方法。題目問每組多少張牌，正好在此段中部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“commits a deck to memory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“groups of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Cooke commits a deck to memory, he does it three cards at a time.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Every three-card group forms a single image…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“three cards at a time” 直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“When Cooke commits a deck to memory, he does it three cards at a time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Cooke 記住一副牌時，他每次以三張牌為一組處理。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every three-card group forms a single image of a person doing something to an object.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一組三張牌會形成一個單一圖像：一個人物對一個物件做某件事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “in groups of ___” 需要可接在 “groups of” 後面的名詞短語。原文 “three cards at a time” 改成題目中的 “groups of three cards”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 答案是 three cards。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "mental walk",
+      "answerKey": "mental walk",
+      "type": "Summary Completion",
+      "prompt": "“When it is time to recall the cards, Cooke takes a 34 ______ along his route…”",
+      "translation": "到回憶牌時，Cooke 會沿著自己的路線進行一個 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How did he do it?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他是怎樣做到的？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s why the MRIs of the memory contestants showed activation in the brain areas associated with visual imagery and spatial navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是為何記憶參賽者的 MRI 顯示 visual imagery 和 spatial navigation 相關腦區被激活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講方法步驟。題目問 recall 階段，所以應找 “When it comes time to recall”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“recall”"
+            },
+            {
+              "kind": "quote",
+              "text": "“along his route”"
+            },
+            {
+              "kind": "quote",
+              "text": "“translates”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it comes time to recall, Cooke takes a mental walk along his route and translates the images into cards.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it comes time to recall, Cooke takes a mental walk along his route and translates the images into cards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到回憶時，Cooke 會沿著自己的路線進行一次 mental walk，然後把圖像翻譯回撲克牌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎照原文改寫，只把 “When it comes time to recall” 改成 “When it is time to recall the cards”。空格正好需要 “mental walk”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 答案是 mental walk。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "loci method",
+      "answerKey": "loci method",
+      "type": "Summary Completion",
+      "prompt": "“The strategy was called the 35 ______…”",
+      "translation": "這種策略稱為 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more resonant the images are, the more difficult they are to forget.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖像越有共鳴，就越難忘記。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before printed books, the art of memory was considered a staple of classical education, on a par with grammar, logic, and rhetoric.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在印刷書出現之前，記憶術被視為古典教育的基本內容，地位可與文法、邏輯和修辭相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段由圖像和路線技巧延伸到歷史來源。題目說 “traced to ancient Greece”，明顯要找 E 段中的Simonides 和方法名稱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ancient Greece”"
+            },
+            {
+              "kind": "quote",
+              "text": "“strategy was called”"
+            },
+            {
+              "kind": "quote",
+              "text": "“method”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“That technique, known as the loci method, reportedly originated in 477 BC with the Greek poet Simonides of Ceos.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“known as” 對應題目 “called”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“That technique, known as the loci method, reportedly originated in 477 BC with the Greek poet Simonides of Ceos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種技巧稱為 loci method，據說起源於公元前 477 年的希臘詩人 Simonides of Ceos。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “The strategy was called the…” 對應原文 “known as the loci method”。答案需取原文兩詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 答案是 loci method。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "education",
+      "answerKey": "education",
+      "type": "Summary Completion",
+      "prompt": "“…became a major subject in classical 36 ______.”",
+      "translation": "……成為 classical ______ 中的重要內容。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more resonant the images are, the more difficult they are to forget.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖像越有共鳴，就越難忘記。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before printed books, the art of memory was considered a staple of classical education, on a par with grammar, logic, and rhetoric.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在印刷書出現之前，記憶術被視為古典教育的基本內容，地位可與文法、邏輯和修辭相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接提供 “classical education”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“major subject”"
+            },
+            {
+              "kind": "quote",
+              "text": "“classical”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a staple of classical education”"
+            },
+            {
+              "kind": "quote",
+              "text": "“on a par with grammar, logic, and rhetoric”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “staple” 改寫成 “major subject”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before printed books, the art of memory was considered a staple of classical education, on a par with grammar, logic, and rhetoric.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在印刷書出現之前，記憶術被視為古典教育的基本內容，地位可與文法、邏輯和修辭相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “major subject” 對應 “staple”。空格前有 “classical”，所以答案只需填 education，組成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“classical education”。所以 36 答案是 education。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "A and D",
+      "answerKey": "A and D",
+      "type": "Multiple-answer Questions",
+      "prompt": "According to the passage, which activities were included in the World Memory Championships?",
+      "translation": "根據文章，World Memory Championships 包括哪些活動？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In timed trials, contestants were challenged to look at and then recite a two-page poem, memorize rows of 40-digit numbers, recall the names of 110 people after looking at their photographs, and perform seven other feats of extraordinary retention.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在限時測試中，參賽者要看完並背誦一首兩頁詩、記住多行 40 位數字、看過照片後記住 110 人的名字，並完成另外七項非凡記憶任務。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anyone can learn them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何人都可以學會這些技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接列出比賽項目，所以這組題主要看 Paragraph A。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “memorising a long sequence of digits”對應原文 “memorize rows of 40-digit numbers”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “matching names with photographs and facial features”對應原文 “recall the names of 110 people after looking at their photographs”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 有 “poem”，但選項說 “Greek poem”，原文只說 “a two-page poem”，沒有 Greek。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項判斷"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“memorize rows of 40-digit numbers”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "記住多行 40 位數字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說 “memorising a long sequence of digits”。Digits 即數字，40-digit numbers 屬於 long sequence of digits，所以 A 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“recall the names of 110 people after looking at their photographs”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看過 110 人的照片後，記住並回憶他們的名字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 “matching names with photographs and facial features”。原文的核心任務是照片與名字之間的配對記憶。D 中的 “photographs” 對應原文；“facial features” 是由 photographs 帶出的合理概括。相較之下，B “recalling people’s faces” 把任務方向改掉了，原文是看照片後回憶名字，並非回憶人臉本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除B “recalling people’s faces”原文是 recall the names after looking at photographs。要回憶的是 names，不是 faces。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “reciting a long Greek poem”原文有 recite a two-page poem，但沒有 Greek。選項加入了原文沒有的來源或語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “recalling what people ate and did the previous day”原文沒有提到飲食、前一天活動或生活細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37–38 答案是 A and D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        37,
+        38
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B and E",
+      "answerKey": "B and E",
+      "type": "Multiple-answer Questions",
+      "prompt": "What did the MRI experiment conducted by psychologists Elizabeth Valentine and John Wilding find?",
+      "translation": "Elizabeth Valentine 和 John Wilding 進行的 MRI 實驗有甚麼發現？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychologists Elizabeth Valentine and John Wilding, authors of the monograph Superior Memory, recently teamed up with Eleanor Maguire, a neuroscientist at University College London, to study eight people, including Karsten, who had finished near the top of the World Memory Championships.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Superior Memory》的作者、心理學家 Elizabeth Valentine 和 John Wilding，最近與 University College London 的神經科學家 Eleanor Maguire 合作，研究八位曾在 World Memory Championships 排名靠前的人，其中包括 Karsten。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These regions, which included the right posterior hippocampus, are known to be involved in visual memory and spatial navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些腦區包括 right posterior hippocampus，已知與 visual memory 和 spatial navigation 有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句引入實驗團隊和研究對象，尾句總結 MRI 發現涉及的腦區功能。題目直接問 MRI experiment，因此目標段落就是 B。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項中的強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“brain scans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“three-digit numbers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“visual and spatial memory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“control subjects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“MRI machine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“memorizing sequences of three-digit numbers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain scans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different from those the control subjects were using”"
+            },
+            {
+              "kind": "quote",
+              "text": "“visual memory and spatial navigation”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "正確選項 B"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers put the competitors and a group of control subjects into an MRI machine and asked them to perform several different memory tests while their brains were being scanned. When it came to memorizing sequences of three-digit numbers, the difference between the memory contestants and the control subjects was, as expected, immense.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者把參賽者和一組控制組受試者放入 MRI 機器，要求他們在腦部被掃描時完成幾種不同記憶測試。當任務是記住三位數字序列時，記憶參賽者和控制組之間的差異如預期般巨大。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“differences between champions’ and control subjects’ brain scans appeared when they memorised sequences of three-digit numbers”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他們記住三位數字序列時，冠軍和控制組的腦部掃描出現差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 能得到原文支持，因為這段先說受試者在 MRI 掃描期間做 memory tests，接著提到 three-digit numbers 的任務差異，再說 brain scans 顯示記憶高手使用不同腦區。這是題目對原文測試情境和掃描結果的概括。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "正確選項 E"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the researchers analyzed the brain scans, they found that the memory champs were activating some brain regions that were different from those the control subjects were using. These regions, which included the right posterior hippocampus, are known to be involved in visual memory and spatial navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者分析腦部掃描時發現，記憶冠軍激活了一些與控制組不同的腦區。這些腦區包括 right posterior hippocampus，已知與 visual memory 和 spatial navigation 有關。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“some parts of the brain are involved in visual and spatial memory”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大腦某些部分與視覺和空間記憶有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接說這些腦區 involved in visual memory and spatial navigation。E 把 “spatial navigation”概括成 “spatial memory”，方向合理，因為整段正在解釋記憶高手如何用空間路線輔助記憶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除A “the champions’ brains differ in some way from those of ordinary people”這個選項最容易令人心動，因為原文有 “They wondered if the contestants’ brains were different in some way.” 不過這只是研究者最初的疑問。實驗真正顯示的是他們在任務中激活不同腦區，重點在使用方式或策略相關的 activation pattern，不能簡化為大腦本身天生不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “champions performed much worse when asked to remember photographs”原文說他們看到 magnified snowflakes 時 “did no better than the control group”，意思是沒有比控制組好；並沒有說 much worse。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the memory champions activated more brain regions than the control subjects”原文說的是 “different” brain regions，沒有說 “more”。IELTS 很常把 different 改成 more 來製造錯項。這裡控制答案的是腦區類型不同，不是數量更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39–40 答案是 B and E。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Memory Decoding.pdf",
+    "sha256": "9b39cf79d9803edbac0b298a839cf1028b68527dd35318c563761764ec267f15",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 首句說，在 timed trials 中，參賽者要背誦兩頁詩、記住 40-digit numbers、記住 110人的名字，並完成其他記憶任務。尾句說這些技巧任何人都可以學會。只看首尾句，可以估計這段介紹 World Memory Championships 的項目和核心觀點：參賽者表現驚人，但他們多數聲稱自己記憶力普通；科學測試也支持這點，重點在於技巧如何利用大腦編碼方式。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句介紹 Elizabeth Valentine、John Wilding 和 Eleanor Maguire 研究八位 World Memory Championships 高排名參賽者。尾句說這些被激活的腦區，包括 right posterior hippocampus，與 visual memory 和 spatial navigation 有關。只看首尾句，可以推測這段處理科學研究：研究者想知道記憶冠軍的大腦是否有差異，MRI 結果顯示他們使用的腦區和普通受試者不同，尤其涉及視覺和空間導航。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句指出，記憶參賽者用 visual imagery 和 spatial navigation 記數字，表面看似奇怪，但理解他們的技巧後便合理。尾句列出下一組三張牌：king of hearts、king of spades、jack of clubs。只看首尾句，這段功能是用 Ed Cooke 作現場示範。他在 pub 內把撲克牌轉化成奇怪、鮮明、可視化的句子，讓讀者看到高手如何把抽象資料變成圖像。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句問 “How did he do it?”，準備解釋 Cooke 的方法。尾句說這解釋了為何記憶參賽者的 MRI 顯示 visual imagery 和 spatial navigation 相關腦區被激活。只看首尾句，可以知道這段是技巧解碼：Cooke 先為每張牌記住 person、verb、object，再把三張牌組成一個圖像，放在熟悉路線上；回想時，他沿路進行 mental walk。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說，圖像越有共鳴，就越難忘記。尾句說，在印刷書出現前，art of memory 是classical education 的基本內容，地位可與 grammar、logic、rhetoric 相比。只看首尾句，可以推測這段會交代 loci method 的歷史和教育價值。它由 Simonides 的傳說開始，說明人腦擅長記住圖像和空間資訊，並解釋這種技巧為何曾在古典教育中重要。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句介紹最有名的 natural memory case：Russian journalist S. V. Shereshevski，他能記住數十年前的長串數字、詩和無意義音節。尾句說 synesthetic reactions 會在更多腦區引發反應，使記憶更容易。只看首尾句，可以估計這段講天生或特殊記憶者。重點是 Shereshevski 的synesthesia：數字、文字、顏色、味道等感官互相連結，因而幫助記憶。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句說 Anders Ericsson 認為任何人都能取得 Shereshevski 的技能。尾句說，他認為沒有有力證據顯示有人能在多種任務中都天生卓越。只看首尾句，可以推測這段回到全文核心：超強記憶主要來自技巧和練習。S. F. 的 digit span 從 7 提升到 80 以上，支持 Ericsson 的看法：大量練習可製造驚人表現，天生全能記憶天才缺乏證據。"
+      }
+    ]
+  }
+}

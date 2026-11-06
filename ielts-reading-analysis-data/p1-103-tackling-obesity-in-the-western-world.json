@@ -1,0 +1,1593 @@
+{
+  "id": "p1-103-tackling-obesity-in-the-western-world",
+  "catalogueId": "p1-103",
+  "catalogueIds": [
+    "p1-103"
+  ],
+  "passage": 1,
+  "title": "Tackling Obesity in the Western World",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "x",
+    "vii",
+    "iii",
+    "iv",
+    "xi",
+    "ii",
+    "vi",
+    "viii",
+    "Metabolism",
+    "Less",
+    "Genetic",
+    "Consume",
+    "Behaviour"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "x — Shifting the blame",
+      "answerKey": "x — Shifting the blame",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A題目要求為 Paragraph A 選最合適 heading。Heading x 的意思是「轉移責任／把責任推給其他因素」。這段的核心不是醫學治療本身，而是肥胖人士常把問題歸咎於 slow metabolism。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obesity is a huge problem in many Western countries and one which now attracts considerable medical interest as researchers take up the challenge to find a ‘cure’ for the common condition of being seriously overweight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肥胖是許多西方國家的一個巨大問題，也吸引醫學界高度關注，因為研究人員正試圖為嚴重超重這種常見狀況尋找「治療方法」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The argument goes like this: it doesn’t matter how little they eat, they gain weight because their bodies break down food and turn it into energy more slowly than those with a so-called normal metabolic rate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種說法大致是：無論他們吃得多少都會增重，因為他們的身體分解食物並把食物轉化成能量的速度，比所謂正常代謝率的人更慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段先提出肥胖問題，後面轉向人們對肥胖原因的解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading x 的定位概念是 blame。原文有非常直接的線索："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than take responsibility for their weight, obese people have often sought solace in the excuse that they have a slow metabolism”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肥胖人士往往沒有為自己的體重負責，反倒從「自己代謝慢」這個藉口中尋求安慰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rather than take responsibility” 指沒有承擔責任；“sought solace in the excuse” 指找藉口安慰自己。兩個短語合起來，正正是 shifting the blame 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Shifting the blame原文：rather than take responsibility / sought solace in the excuse"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iv “New perspective on the horizon” 看似可能，因為本段提到 medical interest 和 cure。但 Paragraph A 的主軸仍是 slow metabolism excuse，並未真正提出新醫學觀點。答案選 x 更能覆蓋整段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "vii — Expert explains energy requirements of obese people",
+      "answerKey": "vii — Expert explains energy requirements of obese people",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B題目要求為 Paragraph B 選 heading。這段由 Dr Susan Jebb 這位專家直接解釋肥胖者的energy use，因此 vii 最貼合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘This is nonsense,’ says Dr Susan Jebb from the Dunn Nutrition Unit at Cambridge in England.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國劍橋 Dunn Nutrition Unit 的 Susan Jebb 博士說：「這是胡說。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have more cells, bigger hearts, bigger lungs and they all need more energy just to keep going.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有更多細胞、更大的心臟、更大的肺部，而這些都需要更多能量才能維持運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段先否定慢代謝神話，再用身體能量需求解釋肥胖者實際消耗更多energy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的關鍵是 Expert、energy requirements、obese people。原文中 Dr Susan Jebb 是expert；“burn off more energy” 和 “need more energy” 對應 energy requirements。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“overweight people actually burn off more energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超重人士實際上會消耗更多能量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著原文解釋原因：他們有更多細胞、更大心肺，身體基本運作已需要更多能量。這不是抽象評論，而是專家用生理需求解釋肥胖者能量消耗。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：energy requirements原文：need more energy just to keep going / burn off more energy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Proof of the truth” 也有一點吸引力，因為本段說 “science has known”。但本段主要是 expert explanation；具體 proof 由 Paragraph C 的 sealed room 個案提供。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "iii — Proof of the truth",
+      "answerKey": "iii — Proof of the truth",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C這段用一個受控實驗證明病人的 metabolism 其實快，不是慢。Heading iii “Proof of the truth” 最能概括這段功能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It took only one night, spent in a sealed room at the Dunn Unit, to disabuse one of their patients of the beliefs of a lifetime: her metabolism was fast, not slow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Dunn Unit 的密封房間裡過了一晚，便足以使一位病人放下她一生相信的觀念：她的代謝其實快，並非慢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t the answer she expected and probably not the one she wanted, but she took the news philosophically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不是她預期的答案，也大概不是她想聽到的答案，但她平靜地接受了這個消息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段是個案驗證：病人原本相信自己代謝慢，實驗結果推翻這個信念。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的 “proof” 對應原文 “measuring the exact amount of oxygen she used” 和 “were able to show her”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By sealing the room and measuring the exact amount of oxygen she used, researchers were able to show her that her metabolism was not the culprit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員把房間密封，並測量她使用的精確氧氣量，從而向她證明代謝並非元兇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“were able to show her” 是證明的訊號；“not the culprit” 表示代謝不是造成肥胖的罪魁禍首。這正是前一段專家說法的實驗證據。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Proof of the truth原文：measuring the exact amount of oxygen / show her that her metabolism was not the culprit"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 也可能吸引學生，因為本段仍講 metabolism 和 energy measurement。但 Paragraph C 的中心在「用測量證明真相」，不是一般性專家解釋，所以 iii 更準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "iv — New perspective on the horizon",
+      "answerKey": "iv — New perspective on the horizon",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D Paragraph D 開始轉向 genes，並引用 O’Rahilly 說我們正站在改變 obesity 觀念的門檻上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 最能概括本段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the metabolism myth has been completely disproved, science has far from ruled out our genes as factors responsible for making us whatever weight we are, fat or thin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然代謝神話已被完全推翻，科學仍遠未排除基因在決定我們胖瘦方面的作用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have a medical condition due to a genetic defect and that causes them to be obese.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有一種由基因缺陷造成的醫學狀況，而這使他們肥胖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段把焦點從 metabolism 轉向 genes，並把部分肥胖重新理解成 medical condition。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iv 的 “New perspective” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“we are on the threshold of a complete change in the way we view not only morbid obesity, but also everyday overweight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正處於一個門檻上，即將徹底改變我們看待病態肥胖和日常超重的方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“on the threshold” 表示即將進入某個新階段；“complete change in the way we view” 指觀點將有重大轉變。本段從 weak-willed、slothful、lazy 這些道德評價，轉到 genetic defect 和 medical condition 的醫學框架。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：New perspective on the horizon原文：on the threshold of a complete change in the way we view obesity"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ix “Nature or nurture” 也有關，因為段落提到 genes 和 willpower。但本段最突出的語言是 “complete change in the way we view”，更直接對應 new perspective on the horizon。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "xi — Lifestyle change required despite new findings",
+      "answerKey": "xi — Lifestyle change required despite new findings",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E Paragraph E 承認 minor genetic variations 可能影響體重，但最後明確指出大多數人仍要靠 diet和 exercise 減重。Heading xi 最準。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Australia, the University of Sydney’s Professor Ian Caterson says that while major genetic defects may be rare, many people probably have minor genetic variations that combine to dictate weight and are responsible for things such as how much we eat, the amount of exercise we do and the amount of energy we need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在澳洲，悉尼大學 Ian Caterson 教授說，重大基因缺陷也許少見，但很多人可能有一些較小的基因差異，這些差異共同決定體重，也影響我們吃多少、做多少運動，以及需要多少能量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He is confident that science will, eventually, be able to ‘cure’ some forms of obesity but the only effective way for the vast majority of overweight and obese people to lose weight is a change of diet and an increase in exercise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他相信科學最終能治癒某些形式的肥胖，但對絕大多數超重和肥胖人士來說，唯一有效的減重方法是改變飲食並增加運動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句合作得很清楚：前半承認 genes，後半回到 lifestyle change。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading xi 的定位概念是 lifestyle change required 和 despite new findings。原文有 “science will eventually be able to cure some forms”，這是 new findings；同一句又有 “only effective way... is a change of diet and an increase in exercise”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是最後一句的讓步結構：科學將來或可治癒 some forms of obesity；可是 vast majority 仍要靠 diet 和 exercise。這就是 “despite new findings” 的意思：即使有基因研究進展，日常減重仍離不開生活方式改變。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Lifestyle change required原文：a change of diet and an increase in exercise Heading：despite new findings原文：science will eventually be able to cure some forms of obesity, but..."
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ix “Nature or nurture” 很吸引，因為本段說 genetic variations 會影響 eating、exercise、energy needs。不過段落收束在 “only effective way” 這個實際建議，所以 xi 覆蓋更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "ii — Hidden dangers",
+      "answerKey": "ii — Hidden dangers",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F Paragraph F 主要講傳統減肥方法，例如 drugs 和 surgery 的嚴重副作用，甚至死亡。Heading ii"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Hidden dangers” 最合適。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“Despite the $500 million a year Australians spend trying to lose weight and the $830 million it costs the community in health care, obesity has reached epidemic proportions here, as it has in all Western nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管澳洲人每年花 5 億美元嘗試減重，社會也因醫療保健承擔 8.3 億美元成本，肥胖在澳洲已達到流行病規模，正如所有西方國家一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surgery for obesity has also claimed many lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肥胖手術也曾奪去許多生命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段從成本和肥胖流行程度，推進到減肥治療可能造成死亡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ii 的 “dangers” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“many caused severe side effects and even death in some patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多藥物造成嚴重副作用，甚至令一些病人死亡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段先說傳統 research and treatment 集中於 behaviour modification、drugs 和 surgery。接著指出藥物如何運作經常不清楚，並且有 severe side effects 和 death。最後一句再補充 surgery 也claimed many lives。這些都支持 hidden dangers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Hidden dangers原文：severe side effects / even death / claimed many lives"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v “No known treatment” 看似可能，因為本段說一些 treatment 問題多。但原文明確列出已有 treatment，只是帶有危險。題目重點落在 dangers，不是完全沒有 treatment。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "vi — Rodent research leads the way",
+      "answerKey": "vi — Rodent research leads the way",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G Paragraph G 的核心是 Professor Friedman 研究 obese mouse，發現 leptin，並讓科學轉向新方向。Heading vi 最準。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has long been known that a part of the brain called the hypothalamus is responsible for regulating hunger, among other things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們早已知道，大腦中名為 hypothalamus 的部分負責調節飢餓感等功能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prof. Friedman gave the fat mouse leptin and it lost 30% of its body weight in two weeks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Friedman 教授給那隻肥胖老鼠 leptin，牠在兩星期內減去 30% 體重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段從 hunger regulation 的腦部機制，講到老鼠 leptin 實驗的減重效果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的 rodent research 對應 “studying an obese mouse”。“leads the way” 對應 “sent science in a new direction”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it wasn’t until 1994 that Professor Jeffrey Friedman from Rockefeller University in the US sent science in a new direction by studying an obese mouse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1994 年，美國 Rockefeller University 的 Jeffrey Friedman 教授透過研究一隻肥胖老鼠，才把科學帶向一個新方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接把 mouse research 和 new scientific direction 連起來。後文 leptin discovery 和 fat mouse losing 30% body weight，展示這項 rodent research 為後續人類研究打開路線。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Rodent research leads the way原文：sent science in a new direction by studying an obese mouse"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i “Obesity in animals” 也有表面關聯，但太籠統。Paragraph G 的重點不是單純講動物肥胖，而是老鼠研究如何帶領肥胖科學進入新方向。因此 vi 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "viii — A very uncommon complaint",
+      "answerKey": "viii — A very uncommon complaint",
+      "type": "Matching Headings",
+      "prompt": "Question 8",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H Paragraph H 由人類 leptin deficiency 案例開始，最後指出這種情況 extremely rare。Heading viii最能概括段落收束點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other side of the Atlantic, Prof. O’Rahilly read about this research with great excitement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在大西洋另一邊，O’Rahilly 教授讀到這項研究時非常興奮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But leptin deficiency turned out to be an extremely rare condition and there is a lot more research to be done before the ‘magic’ cure for obesity is ever found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 leptin 缺乏最終被證明是一種極為罕見的情況；在找到肥胖的「神奇」療法之前，仍有大量研究要做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段從興奮的研究接續，到冷靜指出 leptin deficiency 極少見。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的 “very uncommon” 對應原文 “extremely rare condition”。“complaint” 在醫學語境中可指疾病或病症，對應 condition。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文雖然說 leptin 治療讓其中一位 cousin 減去 one stone，也說 O’Rahilly made medical history，但最後一句收束整段：leptin deficiency 極罕見。這表示它不能解釋大多數肥胖，也不能即時提供普遍 cure。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：A very uncommon complaint原文：an extremely rare condition"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Proof of the truth” 有吸引力，因為本段有 “first proof that a genetic defect could cause obesity in humans”。但 Paragraph C 已經更集中地展示「證明代謝神話錯誤」。Paragraph H 的結尾明確強調 rare condition，所以 viii 更能概括全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "Metabolism",
+      "answerKey": "Metabolism",
+      "type": "Summary Completion",
+      "prompt": "“They do this by seeking to blame their 9 ________________ for the fact that they are overweight...”",
+      "translation": "他們透過把自己超重的事歸咎於自己的 ____________，來否認責任。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “their”，後面需要名詞。題目說 people with a weight problem try to deny responsibility，定位到 Paragraph A。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 第一和最後一句已顯示，本段介紹 obesity 問題及肥胖人士常用的 slow metabolism 解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “deny responsibility” 和 “blame”。原文寫作："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than take responsibility for their weight, obese people have often sought solace in the excuse that they have a slow metabolism”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肥胖人士往往沒有為自己的體重負責，反倒從「自己代謝慢」這個藉口中尋求安慰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “slow metabolism” 正是他們拿來解釋 overweight 的原因。題目把 “sought solace in the excuse” 改寫成 “seeking to blame”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "blame their metabolism = sought solace in the excuse that they have a slow metabolism答案形式box 中可填入的名詞是 Metabolism，放入 “their metabolism” 文法正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "Less",
+      "answerKey": "Less",
+      "type": "Summary Completion",
+      "prompt": "“...and erroneously believe that they use 10 ________________ energy than thin people to stay alive.”",
+      "translation": "並錯誤相信自己為了維持生命，比瘦人使用 ____________ 能量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “use ___ energy than thin people” 中，需要比較詞。box 中 “Less” 和 “More” 都可能，要靠原文方向判斷。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 講 slow metabolism excuse；Paragraph B 由 Dr Jebb 反駁，指出實情相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “use energy” 和 “than thin people”。Paragraph A 說他們相信身體轉化能量較慢； Paragraph B 說事實相反。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A："
+            },
+            {
+              "kind": "quote",
+              "text": "“their bodies break down food and turn it into energy more slowly than those with a so-called normal metabolic rate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的身體分解食物並轉化成能量的速度，比所謂正常代謝率的人慢。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fat people have faster metabolisms than thin people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "胖人的代謝比瘦人更快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是他們 “erroneously believe” 的內容，即錯誤信念，不是科學真相。他們相信自己 slow metabolism，所以會以為自己使用較少能量維持生命。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "slow metabolism = use less energy exact opposite is true = 實際上 fat people use more energy答案形式Less 放入句子後是 “use less energy than thin people”，文法正確。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 More。Paragraph B 的真相是 overweight people burn off more energy，但題目空格問"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“erroneously believe”，所以要填錯誤信念中的 Less。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "Genetic",
+      "answerKey": "Genetic",
+      "type": "Summary Completion",
+      "prompt": "“However, recent research has shown that a 11 ________________ problem can be responsible for obesity...”",
+      "translation": "然而，近期研究顯示，一個 ____________ 問題可能導致肥胖。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “a ___ problem” 中，需要形容詞。box 中 Genetic 最符合。定位到 Paragraph D 和 H 的基因研究。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句說 science has far from ruled out our genes；最後一句說 genetic defect causes people to be obese。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “problem” 和 “responsible for obesity”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“obesity can be caused by our genes”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肥胖可以由我們的基因造成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have a medical condition due to a genetic defect and that causes them to be obese.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有一種由基因缺陷造成的醫學狀況，而這使他們肥胖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “problem” 是對 “defect” 的概括；“can be responsible for obesity” 對應 “causes them to be obese”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "genetic defect = genetic problem causes them to be obese = responsible for obesity答案形式Genetic 是形容詞，放入 “a genetic problem” 正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "Consume",
+      "answerKey": "Consume",
+      "type": "Summary Completion",
+      "prompt": "“...as some people seem programmed to 12 ________________ more than others.”",
+      "translation": "因為有些人似乎被設定成比其他人 ____________ 更多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “programmed to ___ more” 後，需要動詞原形。box 中可以作動詞的有 Use、Consume。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要根據原文語境選。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。首句說 minor genetic variations 影響 how much we eat、exercise 和energy needs；最後一句說大多數人仍需改變 diet 和 exercise。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “programmed” 和 “more than others”。原文沒有 programmed，但有 “genetically predisposed to putting on weight”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“many people probably have minor genetic variations that combine to dictate weight and are responsible for things such as how much we eat, the amount of exercise we do and the amount of energy we need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人可能有一些較小的基因差異，這些差異共同決定體重，也影響我們吃多少、做多少運動，以及需要多少能量。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“some people are genetically predisposed to putting on weight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人在基因上較容易增重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “programmed to ___ more than others” 要找一個可導致增重的行為。原文 “how much we eat” 對應 Consume。Use more energy 反而會較接近消耗能量，與 putting on weight 的方向不合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "how much we eat = consume more genetically predisposed = seem programmed答案形式Consume 是動詞原形，接在 “programmed to” 後文法正確。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Use 也是動詞，容易吸引學生。但 “use more energy” 在本文中屬於 Paragraph B 的真相； Question 12 的語境是基因使人容易增重，所以 “consume more” 更合理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "Behaviour",
+      "answerKey": "Behaviour",
+      "type": "Summary Completion",
+      "prompt": "“The new research points to a shift from trying to change people’s 13 ________________ to seeking an answer to the problem in the laboratory.”",
+      "translation": "新研究顯示焦點有所轉移：從試圖改變人們的 ____________，轉向在實驗室尋找答案。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “change people’s ___” 中，需要名詞。box 中 Behaviour 最符合。定位到 Paragraph F 和G。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 首句講肥胖成本和流行程度；最後一句說 surgery 也奪去生命。中間提到傳統處理方法。Paragraph G 首句講 hypothalamus，之後由 obese mouse 研究把科學帶向新方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “shift”, “change people’s”, “laboratory”。Paragraph F 有 “behaviour modification”； Paragraph G 有 “sent science in a new direction by studying an obese mouse”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until recently, research and treatment for obesity had concentrated on behaviour modification, drugs to decrease appetite and surgery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到最近，肥胖研究和治療一直集中於行為改變、降低食慾的藥物和手術。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Jeffrey Friedman ... sent science in a new direction by studying an obese mouse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jeffrey Friedman 教授透過研究一隻肥胖老鼠，把科學帶向新方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “trying to change people’s behaviour” 對應 “behaviour modification”。“seeking an answer ... in the laboratory” 則概括 leptin、mouse study、hormone test 等研究方向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "change people’s behaviour = behaviour modification new research points to a shift = sent science in a new direction答案形式Behaviour 是名詞，放入 “people’s behaviour” 文法正確。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Tackling Obesity in the Western World.pdf",
+    "sha256": "2644959aecd65a890f89ad894a75d8080a61df2bb55a766281c6ac9ddeb004e0",
+    "pageCount": 16
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句提出 obesity 是許多西方國家的巨大問題，也吸引醫學界尋找 “cure”。尾句轉到肥胖人士常見的解釋：不論吃得多少都會增重，因為身體把食物轉化為能量的速度較慢。只看首尾句，可以先判斷本段功能是介紹肥胖問題及一個常見藉口。段落焦點落在 people avoiding responsibility，尤其是把體重問題歸咎於 slow metabolism。"
+      },
+      {
+        "number": "B",
+        "summary": "首句由 Dr Susan Jebb 直接否定 metabolism myth，說 “This is nonsense”。尾句解釋 overweight people 有更多細胞、更大的心肺，維持身體運作本身已需要更多能量。只看首尾句，可以看到本段是專家反駁慢代謝說法。重點不是肥胖者消耗較少能量；真正資訊是他們通常消耗更多能量，因為較大的身體本身需要更多 energy。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Dunn Unit 只用一晚密封房間測試，便令一位病人放下長年信念。尾句說這不是她預期或想聽到的答案，但她平靜接受。只看首尾句，可以推測本段提供具體實驗證據：研究人員透過測量氧氣使用量，證明病人的 metabolism 並非慢，肥胖的原因不能簡單歸咎於代謝慢。這段功能偏向以個案證明前段觀點。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說雖然 metabolism myth 已被推翻，科學仍未排除 genes 對胖瘦的影響。尾句引用O’Rahilly，指出有些人因 genetic defect 造成 medical condition，這使他們變得肥胖。只看首尾句，可以看到本段轉向新理解：肥胖不只可由行為或意志力解釋，也可能有基因缺陷。段落功能偏向提出未來視角和醫學觀念轉變。"
+      },
+      {
+        "number": "E",
+        "summary": "首句轉到澳洲學者 Ian Caterson，說 major genetic defects 也許少見，但很多人可能有 minor genetic variations。尾句說科學或許終有一天能治癒部分肥胖，但大多數 overweight and obese people 仍需改變飲食和增加運動。只看首尾句，可以判斷本段承認基因新發現，同時把實際減重方法拉回 lifestyle change。"
+      },
+      {
+        "number": "F",
+        "summary": "首句用澳洲人每年花費和醫療成本帶出 obesity epidemic。尾句說 obesity surgery 也曾奪去許多生命。只看首尾句，可以看到本段重點是傳統減肥處理方法的風險與代價。中間提到 behaviour modification、drugs、surgery，並指出某些藥物機制不明、嚴重副作用甚至死亡。段落功能偏向提醒舊式治療方法藏有危險。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說科學早已知道 hypothalamus 負責調節 hunger 等功能。尾句說 Friedman 給肥胖老鼠leptin 後，牠兩星期內減去 30% 體重。只看首尾句，可以判斷本段講一項老鼠研究如何推動肥胖研究新方向。中間介紹 leptin：脂肪細胞製造這種 hormone，向 hypothalamus 發訊號關閉appetite。段落主題是 rodent research leading scientific progress。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說在大西洋另一邊，O’Rahilly 讀到 Friedman 的研究後非常興奮。尾句說 leptin deficiency最後被證明極為罕見，離找到肥胖的 “magic” cure 仍需大量研究。只看首尾句，可以估計本段由老鼠研究轉到人類病例，並展示 leptin 缺乏能引起肥胖的第一個人類證據。可是結尾強調這種情況非常少見，不能當成普遍解方。"
+      }
+    ]
+  }
+}

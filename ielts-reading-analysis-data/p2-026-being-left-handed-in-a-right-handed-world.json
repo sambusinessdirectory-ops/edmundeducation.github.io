@@ -1,0 +1,1345 @@
+{
+  "id": "p2-026-being-left-handed-in-a-right-handed-world",
+  "catalogueId": "p2-026",
+  "catalogueIds": [
+    "p2-026"
+  ],
+  "passage": 2,
+  "title": "Being Left-handed in a Right-handed World",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "A",
+    "B",
+    "F",
+    "D",
+    "B",
+    "F",
+    "D",
+    "A",
+    "YES",
+    "NO",
+    "NO",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A preference for using one side of the body among animal species”",
+      "translation": "動物物種中偏好使用身體某一邊的現象。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But even if these correlations were true, they did not explain what actually causes left-handedness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使這些相關性成立，它們仍未解釋究竟是甚麼造成左撇子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That fact directs attention toward the brain’s two hemispheres and perhaps toward language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個事實把注意力引向大腦兩個半球，也可能引向語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Section C 會由「原因仍不清楚」轉入另一個解釋方向。中間提到animals，就是為了比較人類和其他動物的側向偏好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 animal species 和 one side of the body。掃描時不用只找 “animal species” 原字，也要留意 cats、horses、crabs、paw、hoof、claw 這些動物和身體部位詞。"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, specialization on either side of the body is common among animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，身體某一側的專門化在動物之中很常見。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cats will favor one paw over another when fishing toys out from under the couch. Horses stomp more frequently with one hoof than the other. Certain crabs gesture predominantly with the left or right claw.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "貓從沙發底下撥玩具時，會偏好用某一隻爪。馬會較常用某一隻蹄踏地。某些螃蟹主要用左鉗或右鉗做動作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “preference for using one side of the body” 對應原文的 “favor one paw over another”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“one hoof than the other”、“left or right claw”。Section C 不只提到動物，也用多個例子說明牠們會偏用身體某一邊。因此答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The likelihood that a child will be left-handed”",
+      "translation": "孩子成為左撇子的可能性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The probability that two right-handed people would have a left-handed child is only about 9.5 percent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個右撇子父母生出左撇子孩子的機率只有約 9.5%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genes, therefore, are not solely responsible for handedness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，基因並不能單獨負責 handedness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接講 probability；這和題目中的 likelihood 完全同義。只看首尾句，可以判斷 Section A 主要處理孩子左撇子機率和遺傳因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 likelihood、child、left-handed。原文用 “probability”、“chance rises”、“left-handed child” 表達。"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chance rises to 19.5 percent if one parent is a lefty and 26 percent if both parents are left-handed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果其中一位父母是左撇子，機率升至 19.5%；如果雙方父母都是左撇子，機率升至 26%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Section A 的開頭連續列出三組機率：兩個右撇子父母 → 左撇子孩子機率約 9.5%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位父母是左撇子 → 機率 19.5%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雙方父母都是左撇子 → 機率 26%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有問具體百分比，只問哪一段包含 “the likelihood that a child will be left-handed”。Section A 直接以多個百分比回答這個主題，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“The age at which a preference for one hand becomes established”",
+      "translation": "慣用某一隻手的偏好在甚麼年齡固定下來。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genetic theory is also undermined by results from Peter Hepper and his team at Queen’s University in Belfast, Ireland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Hepper 和他在愛爾蘭 Belfast Queen’s University 團隊的研究結果，也削弱了遺傳理論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genetic predetermination is also contradicted by the widespread observation that children do not settle on either their right or left hand until they are two or three years old.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "廣泛觀察也和遺傳預定論有衝突：兒童要到兩三歲才固定使用右手或左手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接出現 “two or three years old”，而且講 “settle on either their right or left hand”。這就是題目要找的年齡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 age、preference for one hand、established。原文沒有用 established，改用 “settle on”。這裡要留意同義改寫：settle on = 固定下來、確定選擇。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“children do not settle on either their right or left hand until they are two or three years old.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童要到兩三歲才固定使用右手或左手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “becomes established” 對應原文 “settle on”。題目問 age，原文提供 “two or three years old”。Section B 因此是答案段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Occupations in which left-handed people are commonly found”",
+      "translation": "左撇子常見於哪些職業或身份群體。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps we will know more soon. In the meantime, we can revel in what, if any, differences handedness brings to our human talents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許我們很快會知道更多。在此之前，我們可以先看看 handedness 可能為人類才能帶來甚麼差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Possibly if these individuals are among the lefties whose language abilities are evenly distributed between hemispheres, the intense interplay required could lead to unusual mental capabilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這些人屬於語言能力平均分布於兩個半球的左撇子，所需的密集互動可能導致不尋常的心智能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section F 的主題是 left-handedness 和 human talents，因此題目問職業分布時，很自然定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 left-handed people 和 occupations。原文用 “lefties” 表示左撇子，用 artists、composers、political thinkers 表示常見群體。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet lefties are prevalent among artists, composers and the generally acknowledged great political thinkers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，左撇子在藝術家、作曲家，以及公認偉大的政治思想家之中相當常見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “commonly found” 對應原文 “prevalent among”。artists、composers、political thinkers都屬於職業或著名社會角色，所以 Section F 正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A reference to an early discovery about the functions of the brain’s hemispheres”",
+      "translation": "提到早期關於大腦半球功能的發現。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interest in hemispheres dates back to at least 1836.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對大腦半球的興趣至少可追溯到 1836 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The surgical cut also stopped almost all normal communication between the two hemispheres, which offered researchers the opportunity to investigate each side’s activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個手術切口也幾乎停止了兩個半球之間的正常溝通，讓研究者有機會調查每一邊大腦的活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 “1836”，明顯是 early discovery 的時間線；尾句講兩個 hemispheres 的獨立活動。Section D 很適合這題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 early discovery、functions、brain’s hemispheres。掃描時會找到 Marc Dax、left side of the brain、left hemisphere controlled speech 等資訊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the conference, Dax elaborated on his theory, stating that each half of the brain was responsible for certain functions and that the left hemisphere controlled speech.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在會議上，Dax 詳細說明他的理論，指出大腦每一半負責某些功能，而左半球控制語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “functions of the brain’s hemispheres” 對應原文 “each half of the brain was responsible for certain functions”。“early discovery” 對應 1836 和 Marc Dax 的報告。因此答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B — No single biological factor determines a child’s handedness.",
+      "answerKey": "B — No single biological factor determines a child’s handedness.",
+      "type": "Matching Researchers",
+      "prompt": "Question 19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Marian Annett"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The probability that two right-handed people would have a left-handed child is only about 9.5 percent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個右撇子父母生出左撇子孩子的機率只有約 9.5%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genes, therefore, are not solely responsible for handedness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，基因並不能單獨負責 handedness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section A 的功能是討論 handedness 的遺傳解釋，同時指出基因不能獨自解釋全部現象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 Marian Annett。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“British biologist Marian Annett of the University of Leicester hypothesized that no single gene determines handedness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Leicester 的英國生物學家 Marian Annett 假設，沒有單一基因決定 handedness。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說 “No single biological factor determines a child’s handedness.”原文說 “no single gene determines handedness”，並進一步說某種 fetal molecular factor 只是increase the probability that the right hand will be dominant。也就是說，這個因素只能提高機率，不能完全決定結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項把 “single gene” 概括成 “single biological factor”。雖然範圍稍闊，但在可選答案中，B最貼近 Annett 的理論核心。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "F — The faster development of one side of a fetus’s body may influence later hemispheric",
+      "answerKey": "F — The faster development of one side of a fetus’s body may influence later hemispheric",
+      "type": "Matching Researchers",
+      "prompt": "Question 20",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "preference.題目人物：Peter Hepper"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genetic theory is also undermined by results from Peter Hepper and his team at Queen’s University in Belfast, Ireland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Hepper 和他在 Belfast Queen’s University 的團隊所得結果，也削弱了遺傳理論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genetic predetermination is also contradicted by the widespread observation that children do not settle on either their right or left hand until they are two or three years old.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童到兩三歲才固定使用右手或左手，這個廣泛觀察也和遺傳預定論有衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B 直接以 Peter Hepper 開段，因此人物定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Peter Hepper、fetus、developing more quickly。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hepper speculates that fetuses tend to prefer whichever side of the body is developing more quickly and that their movements, in turn, influence the brain’s development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hepper 推測，胎兒傾向偏好身體中發育較快的一側，而他們的動作又會反過來影響大腦發展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The faster development of one side of a fetus’s body may influence later hemispheric preference.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "胎兒身體某一側較快發育，可能影響後來大腦半球偏好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “whichever side of the body is developing more quickly” 對應 “faster development of one side of a fetus’s body”。原文的 “influence the brain’s development” 對應選項中的 “influence later hemispheric preference”。雖然原文語氣是 “speculates”，表示推測，選項用 “may” 保留了不確定性，所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "D — Language is processed mainly in the brain’s left hemisphere.",
+      "answerKey": "D — Language is processed mainly in the brain’s left hemisphere.",
+      "type": "Matching Researchers",
+      "prompt": "Question 21",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Brenda Milner and Theodore Rasmussen"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1949 neurosurgeon Juhn Wada devised the first test to provide access to the brain’s functional organization of language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1949 年，神經外科醫生 Juhn Wada 設計了第一個測試，用來了解大腦語言功能的組織方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the left hemisphere began to dominate speech, it would have dominated gestures, too, and because the left brain controls the right side of the body, the right hand developed more strongly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果左半球開始主導 speech，它也會主導 gestures；由於左腦控制身體右側，右手便發展得更強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section E 集中處理 language processing、left hemisphere 和 handedness 之間的關係。Milner和 Rasmussen 的研究在這段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Brenda Milner、Theodore Rasmussen。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Based on this approach, Brenda Milner and the late Theodore Rasmussen of the Montreal Neurological Institute published a major study in 1975…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "基於這個方法，Montreal Neurological Institute 的 Brenda Milner 和已故 Theodore Rasmussen在 1975 年發表了一項重要研究……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…confirmed the theory that country doctor Dax had formulated nearly 140 years earlier: in 96 percent of right-handed people, language is processed much more intensely in the left hemisphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……證實了鄉村醫生 Dax 約 140 年前提出的理論：在 96% 的右撇子中，語言在左半球中處理得更為密集。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 “Language is processed mainly in the brain’s left hemisphere.”原文說 “language is processed much more intensely in the left hemisphere”，意思非常接近。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A — The evolution of language is connected with bodily gesture and may therefore have",
+      "answerKey": "A — The evolution of language is connected with bodily gesture and may therefore have",
+      "type": "Matching Researchers",
+      "prompt": "Question 22",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "affected hand preference.題目人物：Michael Corballis"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1949 neurosurgeon Juhn Wada devised the first test to provide access to the brain’s functional organization of language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1949 年，神經外科醫生 Juhn Wada 設計了第一個測試，用來了解大腦語言功能的組織方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the left hemisphere began to dominate speech, it would have dominated gestures, too, and because the left brain controls the right side of the body, the right hand developed more strongly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果左半球開始主導 speech，它也會主導 gestures；由於左腦控制身體右側，右手便發展得更強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句已經把 speech、gestures 和 right hand 連起來。這正好是 Corballis 的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 Michael C. Corballis。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, some researchers, including evolutionary psychologist Michael C. Corballis of the University of Auckland in New Zealand, think that the origin of human speech lies in gestures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一些研究者，包括紐西蘭 University of Auckland 的 evolutionary psychologist Michael C. Corballis，認為人類 speech 的起源在於 gestures。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gestures predated words and helped language emerge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "手勢早於詞語出現，並幫助語言形成。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the left hemisphere began to dominate speech, it would have dominated gestures, too, and because the left brain controls the right side of the body, the right hand developed more strongly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果左半球開始主導 speech，它也會主導 gestures；由於左腦控制右半身，右手便發展得較強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 把這條邏輯概括得很完整：language evolution connected with gesture → gesture linked to body movement → may affect hand preference。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Research involving twins shows that genes are not the only factor determining left-handedness.”",
+      "translation": "涉及雙胞胎的研究顯示，基因不是決定左撇子的唯一因素。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The probability that two right-handed people would have a left-handed child is only about 9.5 percent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個右撇子父母生出左撇子孩子的機率只有約 9.5%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genes, therefore, are not solely responsible for handedness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，基因並不能單獨負責 handedness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示 Section A 在討論基因與 handedness。題目提到 twins，所以要看同段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 twins、genes、not the only factor。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research conducted on twins complicates the theory, however.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，對雙胞胎進行的研究使這個理論變得更複雜。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One in five sets of identical twins involves one right-handed and one left-handed person, despite the fact that their genetic material is the same. Genes, therefore, are not solely responsible for handedness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每五對 identical twins 中，就有一對是一個右撇子、一個左撇子，儘管他們的遺傳物質相同。因此，基因不能單獨負責 handedness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “genes are not the only factor determining left-handedness”。原文說 “Genes … are not solely responsible for handedness.” not the only factor = not solely responsible。意思一致，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Marc Dax’s report was widely accepted in his time.”",
+      "translation": "Marc Dax 的報告在他的時代被廣泛接受。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interest in hemispheres dates back to at least 1836.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對大腦半球的興趣至少可追溯到 1836 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The surgical cut also stopped almost all normal communication between the two hemispheres, which offered researchers the opportunity to investigate each side’s activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個手術切口也幾乎停止了兩個半球之間的正常溝通，讓研究者有機會調查每一邊大腦的活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section D 開頭直接講 1836 年和早期半球研究；Marc Dax 正在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Marc Dax、widely accepted、in his time。原文可找到 Dax 在 medical conference 提出理論，接著立刻說其他專家反應冷淡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other experts showed little interest in the Frenchman’s ideas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他專家對這位法國人的想法幾乎沒有興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “widely accepted”，意思是廣泛接受。原文說 “showed little interest”，表示當時其他專家並沒有重視他的理論。這是方向相反的證據，所以答案是 NO。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是後文 “Over time, however, scientists found more and more evidence…”後來科學家找到越來越多證據支持他的方向，但題目限定 “in his time”。判斷要落在當時反應，不可用後來發展代替。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Juhn Wada based his findings on his research of people with language problems.”",
+      "translation": "Juhn Wada 的發現基於他對有語言問題人士的研究。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1949 neurosurgeon Juhn Wada devised the first test to provide access to the brain’s functional organization of language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1949 年，神經外科醫生 Juhn Wada 設計了第一個測試，用來了解大腦語言功能的組織方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the left hemisphere began to dominate speech, it would have dominated gestures, too, and because the left brain controls the right side of the body, the right hand developed more strongly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果左半球開始主導 speech，它也會主導 gestures；由於左腦控制身體右側，右手便發展得較強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section E 開頭直接講 Wada test，所以題目中的 Wada 應該定位到這段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Juhn Wada、language problems、research of people。掃描時要留意 Wada 的研究對象和方法。原文提到的是 “healthy brain”，並非 language-problem patients。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By injecting an anaesthetic into the right or left carotid artery, Wada temporarily paralyzed one side of a healthy brain, enabling him to more closely study the other side’s capabilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wada 透過把麻醉劑注入右側或左側頸動脈，暫時麻痺健康大腦的一邊，使他能更仔細研究另一邊的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說他的 findings 基於 “people with language problems”。原文說他的測試方法是暫時麻痺"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“one side of a healthy brain”。這與題目說法不相容。另外，有語言問題的病人出現在 Section D 的 Marc Dax 例子中：Dax 曾遇到 speech was difficult 的病人。題目把 Dax 相關背景放到 Wada 身上，人物關係錯位。因此答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“There tend to be more men with left-handedness than women.”",
+      "translation": "左撇子男性通常比女性更多。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落：全篇都在談 left-handedness，但沒有任何一段首尾句顯示會處理性別比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section A 首尾句談 parent probability 和 genes；Section B 談 fetus / childhood development； Section F 談 talents and creativity。沒有一段明顯以 male / female ratio 為主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 men、women、more、left-handedness。全文唯一接近的地方是 Section D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dax had encountered more than 40 men and women for whom speech was difficult…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dax 曾遇到超過 40 名有 speech difficulties 的男女。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 men and women，但它談的是 speech difficulties caused by brain damage，不是left-handedness 的男女比例。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供 left-handed men 和 left-handed women 的數量比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它有很多比例，例如：● 兩個右撇子父母生出左撇子孩子的機率 9.5%；● 一位父母左撇子時機率 19.5%；● 雙方父母左撇子時機率 26%；● identical twins 中 one in five sets 出現左右手不同；● 96% right-handed people 語言主要由左半球處理；● lefties 中 two-thirds 仍以左半球處理語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這些比例都沒有比較男性和女性左撇子的數量。因此題目所需的核心資料缺失，答案是NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Being Left-handed in a Right-handed World.pdf",
+    "sha256": "a6ba683623e60fa68582e70fe4ec9bf6e508355b0c519813279a5963b3bc2b35",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句，Section A 先用父母慣用手與孩子左撇子機率開場，顯示本段會討論 handedness 的遺傳可能。尾句說 identical twins 有相同 genetic material，但一對雙胞胎可一個右撇子、一個左撇子，因此 genes 不能單獨解釋 handedness。這段大概處理 genetic influence、Marian Annett的理論、左右腦控制身體，以及為何基因理論仍有漏洞。",
+        "label": "Section A"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Peter Hepper 的研究結果也削弱 genetic theory。尾句說兒童通常到兩三歲才固定使用右手或左手，這也和 genetic predetermination 有衝突。只看首尾句，可以估計這段主題是胎兒早期偏好和後期發展之間的矛盾。中間提到 15th week of pregnancy、thumb sucking、brain not yet controlling limbs，以及身體某一邊較快發育可能影響腦部發展。",
+        "label": "Section B"
+      },
+      {
+        "number": "3",
+        "summary": "首句說即使某些 correlations 成立，它們仍沒有解釋 left-handedness 的真正原因。尾句把注意力轉向 brain’s two hemispheres 和 language。只看首尾句，這段大概會由動物的左右偏好，轉到人類右手優勢的特殊性。中間用 cats、horses、crabs 作例，說動物也會偏用某一邊身體，但人類大規模右手優勢更可能和大腦半球及語言有關。",
+        "label": "Section C"
+      },
+      {
+        "number": "4",
+        "summary": "首句說人們對 hemispheres 的興趣至少可追溯到 1836 年。尾句說 split-brain surgery 讓研究者有機會分別研究兩邊大腦的活動。只看首尾句，可以估計這段是半球功能研究的歷史背景。重點人物是 Marc Dax；他觀察到 speech difficulties 和 left-brain damage 有關。後文又提到 right hemisphere damage 影響 perception / concentration，以及 1960s 手術如何推進研究。",
+        "label": "Section D"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Juhn Wada 在 1949 年設計了第一個測試，用來接觸大腦語言功能組織。尾句說如果左腦開始主導 speech，也會主導 gestures，右手便會發展得較強。這段功能很密集：前半講 Wada test、Milner 和 Rasmussen 證實語言多由左半球處理；後半討論 language dominance 和handedness 是否相關，最後引入 Corballis 的 gesture theory。",
+        "label": "Section E"
+      },
+      {
+        "number": "6",
+        "summary": "首句說將來也許會知道更多，目前可先看看 handedness 可能帶來甚麼人類才能差異。尾句說如果某些 lefties 的語言能力平均分布於兩個半球，兩邊半球的密集互動可能導致 unusual mental capabilities。只看首尾句，這段主題是左撇子與創造力、藝術、政治思想等才能的關係，同時作者也保留科學謹慎態度，指出部分說法仍屬 speculation。",
+        "label": "Section F"
+      },
+      {
+        "number": "7",
+        "summary": "這段很短。首句說也許某些 lefties 變得高度 creative，是因為他們要在 right-handed world 中生存，必須更聰明地應對。尾句說這場從童年早期開始的 battle，可能為 exceptional achievements打下基礎。只看全段，可以看到它是全文收結：左撇子的成就未必只來自大腦結構，也可能來自長期適應右撇子世界所培養出的解難能力。",
+        "label": "Section G"
+      }
+    ]
+  }
+}

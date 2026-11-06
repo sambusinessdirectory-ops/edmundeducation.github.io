@@ -1,0 +1,1284 @@
+{
+  "id": "p2-074-the-cells-from-hell",
+  "catalogueId": "p2-074",
+  "catalogueIds": [
+    "p2-074"
+  ],
+  "passage": 2,
+  "title": "The cells from hell",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "plant",
+    "poisons",
+    "eats",
+    "disappears",
+    "pollution",
+    "large numbers of",
+    "new types of",
+    "carried by ships",
+    "C",
+    "B",
+    "C",
+    "B",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "plant",
+      "answerKey": "plant",
+      "type": "Summary Completion",
+      "prompt": "“Under normal conditions, it acts like a 14 ______…”",
+      "translation": "在正常情況下，它表現得像一種 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the research intensified, some startling discoveries were made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著研究加深，一些令人震驚的發現出現了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one had ever seen an organism do this before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從來沒有人見過一種生物會這樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會講 Pfiesteria 的異常行為。題目說 under normal conditions，重點會在它未進入 attack mode 之前的狀態。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “normal conditions” 和 “acts like”。原文沒有 normal conditions 這個原字，但有 “In tanks” 和 “quite content to behave like”。掃描 Paragraph 5 時，會找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In tanks, Pfiesteria was quite content to behave like a plant and photosynthesise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在魚缸中，Pfiesteria 很安然地表現得像植物一樣，並進行光合作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “acts like a”，後面需要一個單數名詞。原文 “behave like a plant” 和題目 “acts like a___” 是直接同義改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：acts like a"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：behave like a"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：plant"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 14 填 plant。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "poisons",
+      "answerKey": "poisons",
+      "type": "Summary Completion",
+      "prompt": "“…but it has also developed powerful 15 ______ as a defence against being eaten by fish.”",
+      "translation": "但它也發展出強力的 ______，作為避免被魚吃掉的防禦。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pfiesteria belongs to a prehistoric group of algae that are part plant, part animal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pfiesteria 屬於一種史前藻類群，部分像植物，部分像動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are at the bottom of the food chain but, to deter fish from swallowing them, some have evolved powerful toxins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們位於食物鏈底層，但為了阻止魚吞食它們，有些已演化出強力毒素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先介紹 Pfiesteria 的分類，再講 toxins 的防禦功能。Question 15 的 “defence against being eaten by fish” 幾乎直接對應尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “developed powerful” 和 “defence against being eaten by fish”。原文用 “evolved powerful toxins” 和 “to deter fish from swallowing them”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文答案詞是 “toxins”，但題目提供的是 word box，而 word box 沒有 toxins。最接近並符合語法的是 poisons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：developed powerful poisons"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：evolved powerful toxins defence against being eaten = to deter fish from swallowing them所以 Question 15 填 poisons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 “poisons” 也可以作動詞，但這裡放在 “powerful ___” 後面，語法上需要名詞複數，剛好等於 toxins。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "eats",
+      "answerKey": "eats",
+      "type": "Summary Completion",
+      "prompt": "“When the fish are disabled and killed by the neurotoxins, the organism 16 ______ them…”",
+      "translation": "當魚被神經毒素弄至失去能力並死亡後，這種生物會 ______ 牠們。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the research intensified, some startling discoveries were made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著研究加深，一些令人震驚的發現出現了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one had ever seen an organism do this before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從來沒有人見過一種生物會這樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段描述 Pfiesteria 從植物式狀態轉為 attack mode 的完整過程。Question 16 問 fish killed 之後，下一步做甚麼，所以要按事件順序讀中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “fish are disabled and killed” 和 “them”。原文相應位置是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fish quickly became disoriented and within five minutes all were dead. Pfiesteria changed shape again and devoured them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "魚很快變得迷失方向，五分鐘內全部死亡。Pfiesteria 再次改變形狀，並把牠們吞食。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “disabled” 改寫原文 “became disoriented”，用 “killed” 改寫 “all were dead”。魚死後，原文動詞是 “devoured”，意思是吞食、吃掉。word box 裡最自然的同義答案是 eats。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 16 填 eats。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "disappears",
+      "answerKey": "disappears",
+      "type": "Summary Completion",
+      "prompt": "“…and it 17 ______ afterward.”",
+      "translation": "然後它之後會 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the research intensified, some startling discoveries were made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著研究加深，一些令人震驚的發現出現了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one had ever seen an organism do this before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從來沒有人見過一種生物會這樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 17 延續 Question 16 的事件順序。Pfiesteria 吃魚之後，原文有一個收尾動作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “afterward”。原文對應的是 “Once it had eaten its fill”。接著會出現真正答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once it had eaten its fill, it vanished.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦它吃飽了，它就消失了。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "word box 中與 vanished 最接近的詞是 disappears。題目 “afterward” 對應原文 “Once it had eaten its fill”，即吃完之後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vanished = disappeared it vanished = it disappears所以 Question 17 填 disappears。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "pollution",
+      "answerKey": "pollution",
+      "type": "Sentence / Note Completion",
+      "prompt": "“Conditions which favour the growth of toxic algae include high levels of 18 ______…”",
+      "translation": "有利於 toxic algae 增長的條件包括高水平的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Initially scientists believed this was part of a natural cycle, but on closer examination, it seemed pollution was to blame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初科學家相信這是自然循環的一部分，但更仔細檢查後，污染似乎才是原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is the perfect habitat for Pfiesteria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那正是 Pfiesteria 的完美棲息地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句已出現 pollution，尾句說 perfect habitat，表示全段在講有利於 Pfiesteria 轉化或增長的環境條件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “high levels”。原文有完全對應的 “high levels of pollution”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the water containing the biggest fish kills was analysed, scientists found high levels of pollution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當科學家分析那些出現最大規模魚類死亡的水體時，他們發現了高水平污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：high levels of ___"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：high levels of pollution所以 Question 18 填 pollution。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "large numbers of",
+      "answerKey": "large numbers of",
+      "type": "Sentence / Note Completion",
+      "prompt": "“…and 19 ______ fish feeding together.”",
+      "translation": "以及 ______ 魚聚集在一起覓食。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Initially scientists believed this was part of a natural cycle, but on closer examination, it seemed pollution was to blame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初科學家相信這是自然循環的一部分，但更仔細檢查後，污染似乎才是原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is the perfect habitat for Pfiesteria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那正是 Pfiesteria 的完美棲息地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段除了 pollution，也列出其他可促進 Pfiesteria 轉化的因素。Question 19 的 “fish feeding together” 會帶我們到同段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “fish feeding together”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others include large numbers of fish travelling and feeding together in poorly flushed areas with abundant algae and other food sources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他因素包括大量魚在水流不暢、藻類和其他食物來源充足的地方一起移動和覓食。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目已經給出 “fish feeding together”，空格要補前面的數量描述。原文是 “large numbers of fish”。答案限制是 NO MORE THAN THREE WORDS，所以 large numbers of 正好三個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：___ fish feeding together"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：large numbers of fish travelling and feeding together所以 Question 19 填 large numbers of。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "new types of",
+      "answerKey": "new types of",
+      "type": "Sentence / Note Completion",
+      "prompt": "“Research scientists at the international conference learned about 20 ______ toxic algae…”",
+      "translation": "國際會議上的研究科學家了解到 ______ toxic algae。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Pfiesteria is not the only concern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Pfiesteria 並不是唯一令人擔心的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what dominated the proceedings was news that toxic algae are spreading to new shores in ballast water carried by ships.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但會議最主要討論的消息是：toxic algae 正透過船隻攜帶的 ballast water 擴散到新的海岸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段從 Pfiesteria 擴展到全球 toxic algae / harmful algal blooms。題目提到 international conference，所以目標就是 Paragraph 7 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “international conference learned about”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers from forty-seven nations met recently to share the latest information about harmful algal blooms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自 47 個國家的研究人員最近開會，分享有關 harmful algal blooms 的最新資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“They heard about new types of toxins and discussed possible links between toxic algae and whale strandings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們聽取了有關新型毒素的資訊，並討論 toxic algae 和鯨魚擱淺之間的可能關聯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文是 “new types of toxins”，題目把意思壓縮成 “new types of toxic algae”。在你貼出的句子中，空格在 “toxic algae” 前面，因此最合語法、也符合字數限制的是 new types of。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：new types of"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 toxins，因為題目空格後面已經有 toxic algae；填 toxins 會變成 “toxins toxic"
+            },
+            {
+              "kind": "paragraph",
+              "text": "algae”，語法不通。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "carried by ships",
+      "answerKey": "carried by ships",
+      "type": "Sentence / Note Completion",
+      "prompt": "“…and how they are spreading around the world in water 21 ______.”",
+      "translation": "以及它們如何在 ______ 的水中傳播到世界各地。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Pfiesteria is not the only concern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Pfiesteria 並不是唯一令人擔心的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what dominated the proceedings was news that toxic algae are spreading to new shores in ballast water carried by ships.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但會議最主要討論的消息是：toxic algae 正透過船隻攜帶的 ballast water 擴散到新的海岸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題直接來自段落最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “spreading around the world” 和 “water”。原文相應片語是 “spreading to new shores in ballast water carried by ships”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "你貼出的題目是 “in water 21 ______”，空格在 water 後面，因此要填能接在 water 後方的修飾語。原文中的後置修飾是 “carried by ships”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "water carried by ships= 由船隻攜帶的水所以按你貼出的版本，Question 21 填 carried by ships。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若原卷句子實際是 “in 21 ______ carried by ships”，完整答案應是 ballast water。這是排版位置問題，不是理解問題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Classification",
+      "prompt": "“death of sea-lions off the coast of California (1990s)”",
+      "translation": "1990 年代 California 海岸 sea lions 死亡。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Pfiesteria is not the only concern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Pfiesteria 並不是唯一令人擔心的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what dominated the proceedings was news that toxic algae are spreading to new shores in ballast water carried by ships.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但會議最主要討論的消息是：toxic algae 正透過船隻攜帶的 ballast water 擴散到新的海岸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 global harmful algal blooms，不再限於 Pfiesteria。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “sea-lions” 和 “California”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the last decade, these algal blooms have poisoned sea lions in California…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去十年，這些 algal blooms 曾毒害 California 的海獅。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有把 California sea lions 事件歸因於 Pfiesteria，也沒有說是 Chattonella。它只說 “similar kinds of algae” 和 “these algal blooms”。在分類選項中，未命名的 toxic algae 最適合 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 22 答 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Classification",
+      "prompt": "“fish kill in Japan (1972)”",
+      "translation": "1972 年 Japan 的魚類死亡事件。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That may have already happened in Australian waters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那可能已經在澳洲水域發生了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same Chattonella killed half a billion dollars’ worth of fish in Japan in 1972.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一種 Chattonella 在 1972 年於日本殺死了價值五億美元的魚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段尾句直接提到 Japan 1972 和 Chattonella。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Japan” 和 “1972”。原文尾句完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文直接說 “The same Chattonella killed…” 主語是 Chattonella，動詞是 killed，事件是 Japan in 1972。這是最直接的分類證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 23 答 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Classification",
+      "prompt": "“shellfish industry losses in New Zealand (1990s)”",
+      "translation": "1990 年代 New Zealand shellfish industry 的損失。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Pfiesteria is not the only concern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Pfiesteria 並不是唯一令人擔心的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what dominated the proceedings was news that toxic algae are spreading to new shores in ballast water carried by ships.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但會議最主要討論的消息是：toxic algae 正透過船隻攜帶的 ballast water 擴散到新的海岸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段列出全球多個 algal blooms 的影響，New Zealand shellfish industry 在同一句列表中出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “shellfish industry” 和 “New Zealand”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the last decade, these algal blooms have … devastated the shellfish industry in New Zealand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去十年，這些 algal blooms 也重創了 New Zealand 的貝類產業。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文用 “these algal blooms”，沒有命名 Pfiesteria 或 Chattonella。由於分類選項 C 是 “caused by an unidentified microorganism”，這類未具體命名的 algal bloom 事件應歸入 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 24 答 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Classification",
+      "prompt": "“tuna industry losses in Australia (1990s)”",
+      "translation": "1990 年代 Australia tuna industry 的損失。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 8–9 Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That may have already happened in Australian waters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那可能已經在澳洲水域發生了。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in Japan this was a prime example of an algal bloom induced by the waste products of the aquaculture industry itself, and of course that is not something that the tuna industry wants to hear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而在日本，這正是由水產養殖業自身廢物誘發 algal bloom 的典型例子；當然，這不是 tuna industry 想聽到的說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段處理 Australia tuna kill 與 Chattonella 的證據和爭議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “tuna”, “Australia”, “1996”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“A tuna kill in 1996 cost fish farmers an estimated $45 million.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 年一場金槍魚死亡事件令養魚戶估計損失 4,500 萬美元。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a water sample was examined, it was found to be teeming with an alga never before seen in Australia, called Chattonella.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當水樣被檢查時，發現其中充滿一種以前從未在 Australia 見過的藻類，名叫 Chattonella。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph 9 再補強："
+            },
+            {
+              "kind": "quote",
+              "text": "“A toxin produced by this alga was also present in the livers of the dead tuna.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由這種藻類產生的毒素，也出現在死去金槍魚的肝臟中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然官方說法仍然是 storm，但題目要在 A / B / C 中分類。文章提供的微生物證據指向Chattonella：水樣有 Chattonella，死魚肝臟也有該藻產生的 toxin。因此 Question 25 答 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 official explanation。官方仍說 storm was the killer，但 classification 題給的是微生物選項；在這個選項框架下，文章證據最支持 Chattonella。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Classification",
+      "prompt": "“fish kill in North Carolina (1980s)”",
+      "translation": "1980 年代 North Carolina 的魚類死亡事件。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the mid-1980s, fishermen in North Carolina, on the eastern coast of the United States, began complaining about mysterious fish kills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1980 年代中期，美國東岸 North Carolina 的漁民開始投訴神秘魚類死亡事件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was later named Pfiesteria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它後來被命名為 Pfiesteria。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已把 North Carolina fish kills 和 Pfiesteria 的發現連在一起。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “North Carolina” 和 “1980s”。原文第一句直接定位。接著 1988 年研究中心事故讓研究員發現 unknown microorganism。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers spotted an unknown microorganism in the water. It was later named Pfiesteria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究員在水中發現一種未知微生物。它後來被命名為 Pfiesteria。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一開始它是 unknown microorganism，但文章隨即說後來命名為 Pfiesteria。因此分類時要用後來確認的名稱，而不是停留在 unknown。Question 26 答 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The cells from hell.pdf",
+    "sha256": "81012c107c1a9b4621ed25932c8642d3ab8aa1d6febd2d89a5db71f6e56a83bd",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句也是全段唯一一句，直接說最近一個 international team of biologists 開會討論一場 global crisis。這場危機來自 strange marine microorganisms，它們突然出現，而且不只可以 poison fish，也可以 poison people。只看這段，可以先估計全文主題不是單一魚類死亡事件，而是海洋微生物變毒所造成的全球問題。標題 The Cells from Hell 也配合這種危險、異常和失控的語氣。"
+      },
+      {
+        "number": "2",
+        "summary": "首句把時間拉回 mid-1980s，地點是 North Carolina，fishermen 開始投訴 mysterious fish kills。尾句說這種 unknown microorganism 後來被命名為 Pfiesteria。只看首尾句，這段功能是交代Pfiesteria 被發現的背景：最初漁民懷疑污染，但沒有人理會；直到 1988 年研究中心魚缸大量魚突然死亡，研究員才在水中發現未知微生物。Questions 26 和 Pfiesteria 起源會定位到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Pfiesteria 屬於一種 prehistoric group of algae，part plant, part animal。尾句說某些dinoflagellates 為了阻止魚吞食，已演化出 powerful toxins。只看首尾句，這段功能是介紹Pfiesteria 的生物分類和防禦機制。中間的 dinoflagellates、flagella、bottom of the food chain 都是背景；真正和題目相關的是 plant / animal 特性，以及 toxins 作為防止被魚吃掉的保護方式。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說研究員發現 Pfiesteria 不只 discourages fish，它會 actively hunt them, then eat them。尾句列出一位 researcher 因毒素而出現 sweating、tingling、liver and kidney problems、memory loss。只看首尾句，這段功能是擴大 Pfiesteria 的危險性：它不只吃魚，食物範圍橫跨 estuary 的food web，也可以傷害人類。例子中的 air-conditioning duct 幾乎令研究員死亡，對應分類題的例子。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說研究加深後，出現一些 startling discoveries。尾句說 no one had ever seen an organism do this before。只看首尾句，可以估計這段會描述 Pfiesteria 最異常的行為。中間說它平時可以像植物一樣 photosynthesise；魚出現後，它會改變形狀、分泌 toxin、令魚迷失方向並死亡，然後再次改變形狀，把魚吃掉，吃飽後 vanished。Questions 14、16、17 都在這段找到核心答案。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說科學家最初以為這是 natural cycle，但細看後污染似乎是原因。尾句說這些條件構成Pfiesteria 的 perfect habitat。只看首尾句，段落功能是解釋 Pfiesteria 轉化和增長的有利條件。高污染水域、很多魚聚集及一起覓食、poorly flushed areas、abundant algae and other food sources 都是關鍵。Questions 18 和 19 會定位到這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句用 But 轉折，指出 Pfiesteria is not the only concern。尾句說會議中最受關注的是 toxic algae 透過 ships 所攜帶的 ballast water 傳到新海岸。只看首尾句，這段功能是把焦點由Pfiesteria 擴展到全球 harmful algal blooms。中間列出 California sea lions、Pacific /Mediterranean / North Sea fish kills、New Zealand shellfish industry，以及 47 nations conference。Questions 20–22、24 都主要在這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說類似情況可能已經在 Australian waters 發生。尾句說同一種 Chattonella 曾於 1972 年在Japan 殺死價值 half a billion dollars 的魚。只看首尾句，這段功能是介紹 Australia tuna kill 和Chattonella 的證據。1996 年 tuna kill 官方說法是 storm，但水中 orange-brown streaks 和 water sample 中首次在 Australia 發現的 Chattonella，令這事件很可能和 toxic algae 有關。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 dead tuna 的 livers 裡也有由這種 alga 產生的 toxin。尾句說在 Japan，這是 aquaculture industry waste products 誘發 algal bloom 的 prime example，而 tuna industry 不想聽到這種說法。只看首尾句，可以估計這段在處理證據和利益衝突：雖然 Chattonella toxin 出現在死魚肝臟，但官方仍維持 storm explanation；文章暗示產業污染和養殖廢物可能是更敏感的原因。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 Chattonella 已明確存在於 Australian waters。尾句警告，如果人類繼續 mismanage nutrients and pollutants 的釋放，將要面對 new versions of the cells from hell。只看首尾句，這段是全文結論和警告：目前仍不清楚還有甚麼微生物會出現、來源何在；更令人憂慮的是，人類不願承認自己的活動正促使原本 benign organisms 轉化為 increasingly dangerous forms。"
+      }
+    ]
+  }
+}

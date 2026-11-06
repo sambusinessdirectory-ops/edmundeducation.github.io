@@ -1,0 +1,1725 @@
+{
+  "id": "p2-160-coral-reefs",
+  "catalogueId": "p2-160",
+  "catalogueIds": [
+    "p2-160"
+  ],
+  "passage": 2,
+  "title": "Coral reefs",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "A",
+    "C",
+    "C",
+    "D",
+    "E",
+    "D",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "The geographical distribution of the world’s coral reefs",
+      "translation": "全球 coral reefs 的地理分布。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coral reefs are estimated to cover 284,300 km², just under 0.1% of the oceans’ surface area, about half the area of France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Coral reefs 估計覆蓋 284,300 平方公里，少於海洋表面面積的 0.1%，約等於法國面積的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are also rare along the coast around northeastern South America and Bangladesh due to the freshwater released from the Amazon and Ganges Rivers, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們在 South America 東北部和 Bangladesh 附近海岸也很少見，原因分別是 Amazon River 和Ganges River 釋放淡水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會講 coral reefs 在全球哪些地方多、哪些地方少，以及哪些水溫、水流或淡水因素影響它們的分布。這和題目中的 “geographical distribution” 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “geographical distribution” 和 “world’s coral reefs”。掃描時要找地區名、比例、oceans、region、coast、latitude 等訊號。Paragraph A 中出現 Indo-Pacific、Southeast Asia、Pacific、Australia、Atlantic、Caribbean、Norway、American and African west coasts、South Asia、Bangladesh 等多個地理位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The Indo-Pacific region accounts for 91.9% of this total area. Southeast Asia accounts for 32.3% of that figure, while the Pacific, including Australia, accounts for 40.8%. Atlantic and Caribbean coral reefs account for 7.6%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Indo-Pacific region 佔 coral reefs 總面積的 91.9%。Southeast Asia 佔其中 32.3%，而包括Australia 在內的 Pacific 佔 40.8%。Atlantic 和 Caribbean coral reefs 則佔 7.6%。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "geographical distribution= which regions account for what percentage= where coral reefs are found or rare所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "How coral reefs benefit local economies",
+      "translation": "coral reefs 如何令地方經濟受益。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The value of reefs in biodiverse regions can be even higher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在生物多樣性高的地區，reefs 的價值可以更高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是在 Sri Lanka，aquarium fish export industry 已支持約 50,000 人，並每年產生約 550 萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 C 段會用不同地區例子說明 reefs 帶來收入、工作和生計。這正好對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“local economies”，因為段內不是只談全球價值，還談 Indonesia、Caribbean、Australia、Philippines、Sri Lanka 等地的旅遊、漁業和就業。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “benefit local economies” 未必逐字出現。掃描時要找 worth、tourism、employment、livelihoods、fishers、industry、generates、supports 等經濟字眼。Paragraph C 中 “reef tourism is an important source of employment” 和 “small-scale fishers depend directly on coral reefs for their livelihoods” 特別重要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Further, reef tourism is an important source of employment, especially for some of the world’s poorest people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，reef tourism 是重要的就業來源，尤其對世界上一些最貧困的人而言更是如此。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Philippines, for example, more than one million small-scale fishers depend directly on coral reefs for their livelihoods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如在 Philippines，超過一百萬名小規模漁民直接依賴 coral reefs 維持生計。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "benefit local economies= provide employment= support livelihoods= generate tourism and fishing income Paragraph B 也提到 tourism、fisheries 和 coastline protection，但 Paragraph C 更具體說明地方層面的收入、就業和生計，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "Statistics demonstrating the economic significance of coral reefs",
+      "translation": "展示 coral reefs 經濟重要性的統計數字。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The value of reefs in biodiverse regions can be even higher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在生物多樣性高的地區，reefs 的價值可以更高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是在 Sri Lanka，aquarium fish export industry 已支持約 50,000 人，並每年產生約 550 萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段已顯示它會用 value、people supported、money generated 來說明經濟重要性。中間大量數字會進一步驗證這個段落功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “statistics” 是強訊號。掃描 Paragraph C 時，可以看到 US$1 million per square kilometer、1.8 million tourists、AU$4.3 billion、US$2 billion、US$625 million、30 million small-scale fishers、one million fishers、$15,000 to $150,000 per square kilometer、$500 a kilogram、US$5.5 million 等密集數字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Each year more than 1.8 million tourists visit the reef, spending an estimated AU$4.3 billion (Australian dollars) on reef-related industries from diving to boat rental to posh island resort stays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年超過 180 萬名遊客到訪 Great Barrier Reef，並估計在與 reef 相關的行業花費 43 億澳元，包括潛水、租船和高級島嶼度假村住宿。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Caribbean, says UNEP, the net annual benefits from diver tourism were US$2 billion in 2000 with US$625 million spent directly on diving on reefs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UNEP 表示，在 Caribbean，2000 年來自潛水旅遊的年度淨收益為 20 億美元，其中 6.25 億美元直接花在 reef diving 上。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "statistics= 1.8 million tourists / AU$4.3 billion / US$2 billion / US$625 million / US$5.5 million economic significance= value / spending / benefits / income / employment Paragraph B 有一個全球估值 US$375 billion per year，但 Paragraph C 有一整組統計數字，最能對應 “statistics demonstrating economic significance”。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "A list of reasons for the decline in coral reefs",
+      "translation": "coral reefs 下降或衰退的原因清單。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, coral reefs are dying around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不幸的是，coral reefs 正在全球各地死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some instances, people fish with explosives (blast fishing), which blast apart the surrounding coral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些情況下，人們用 explosives 捕魚，也就是 blast fishing，這會把周圍的 coral 炸開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 D 段是威脅和破壞原因段。第一句提出死亡問題，最後一句給出破壞性捕魚例子。題目問 “reasons for the decline”，正好要找這種列表型段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “reasons” 和 “decline” 可以對應 原文的 “threats”、“degradation”、“dying”。掃描Paragraph D 時，會看到一串原因：coral mining、agricultural and urban runoff、pollution、disease、digging of canals、sea temperature rise、sea-level rise、pH changes、cyanide fishing、overfishing、blast fishing。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In particular, coral mining, agricultural and urban runoff, pollution (organic and inorganic), disease, and the digging of canals and access channels into islands and bays are localized threats to coral ecosystems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "尤其是 coral mining、農業和城市 runoff、有機和無機 pollution、disease，以及在 islands 和 bays挖掘 canals 和 access channels，都是 coral ecosystems 的局部威脅。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Broader threats are sea temperature rise, sea-level rise and pH changes from ocean acidification, all associated with greenhouse gas emissions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更廣泛的威脅包括 sea temperature rise、sea-level rise，以及 ocean acidification 引起的 pH changes，這些都與 greenhouse gas emissions 有關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reasons for decline= localized threats + broader threats + destructive fishing practices decline= dying / degradation / threats to coral ecosystems所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "Physical contact with coral reefs by people",
+      "translation": "人類與 coral reefs 的身體接觸。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tourist resorts that empty their sewage directly into the water surrounding coral reefs contribute to coral reef degradation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把 sewage 直接排入 coral reefs 周圍水域的 tourist resorts，會造成 coral reef degradation。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Corals are also harmed or killed when people drop anchors on them or when people collect coral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們把 anchors 掉在 corals 上，或收集 coral 時，corals 也會受傷或死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 E 段處理與旅遊、人類活動和直接破壞相關的威脅。最後一句已經明確出現 anchors on them 和 collect coral，與 physical contact 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “physical contact” 不一定原字出現。要掃描 grab、kick、walk on、drop anchors、collect coral 這些動作。Paragraph E 中有一整句直接列出人類觸碰 coral 的方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Whenever people grab, kick or walk on coral, or stir up sediment on reefs, they contribute to coral reef destruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每當人們抓住 coral、踢到 coral、在 coral 上行走，或攪起 reefs 上的 sediment，他們都會造成coral reef destruction。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Corals are also harmed or killed when people drop anchors on them or when people collect coral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們把 anchors 掉在 corals 上，或收集 coral 時，corals 也會受傷或死亡。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "physical contact= grab / kick / walk on / drop anchors on / collect coral by people= whenever people / when people所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "Unsustainable fishing methods used around the world",
+      "translation": "全球使用的不可持續捕魚方式。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, coral reefs are dying around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不幸的是，coral reefs 正在全球各地死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some instances, people fish with explosives (blast fishing), which blast apart the surrounding coral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些情況下，人們用 explosives 捕魚，也就是 blast fishing，這會把周圍的 coral 炸開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 D 段處理全球 reefs 死亡和 destructive practices。最後一句明確是fishing method，因此題目問 unsustainable fishing methods 時，D 段最值得掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “unsustainable fishing methods” 對應原文 “destructive and unsustainable”。掃描Paragraph D，可以找到 cyanide fishing、overfishing、blast fishing 和 muro-ami。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some current fishing practices are destructive and unsustainable. These include cyanide fishing, overfishing and blast fishing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些現行捕魚做法具有破壞性，也不可持續。這些包括 cyanide fishing、overfishing 和 blast fishing。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Poor fishing practices, such as banging on the reef with sticks (muro-ami), destroy coral formations that normally function as fish habitat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不良捕魚做法，例如用 sticks 敲打 reef，也就是 muro-ami，會破壞原本作為 fish habitat 的 coral formations。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "unsustainable fishing methods= destructive and unsustainable fishing practices methods= cyanide fishing / overfishing / blast fishing / muro-ami所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Coral reefs provide habitats for a variety of marine life.”",
+      "translation": "Coral reefs 為多種海洋生物提供棲息地。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coral reefs are estimated to cover 284,300 km², just under 0.1% of the oceans’ surface area, about half the area of France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Coral reefs 估計覆蓋 284,300 平方公里，少於海洋表面面積的 0.1%，約等於法國面積的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are also rare along the coast around northeastern South America and Bangladesh due to the freshwater released from the Amazon and Ganges Rivers, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們在 South America 東北部和 Bangladesh 附近海岸也很少見，原因分別是 Amazon River 和Ganges River 釋放淡水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 不只講分布，也在中段說明 coral reefs 的生態角色，因此 “habitats” 和 “marine life”很可能在這裡找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “habitats” 和 “marine life”。原文未必用 habitats，但可能用 “provide a home for”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 A 段時，直接看到 “provide a home for 25% of all marine species”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“They provide a home for 25% of all marine species, including fish, molluscs, worms, crustaceans, echinoderms, sponges, tunicates and other cnidarians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們為所有 marine species 中的 25% 提供家園，包括 fish、molluscs、worms、crustaceans、echinoderms、sponges、tunicates 和其他 cnidarians。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 coral reefs provide habitats for a variety of marine life。原文說 reefs provide a home for 25% of all marine species，並列出多種生物。意思方向完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "provide habitats= provide a home a variety of marine life= 25% of all marine species, including fish, molluscs, worms, etc.所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Coral reefs are distributed disproportionately throughout the oceans.”",
+      "translation": "Coral reefs 在全球海洋中的分布並不平均。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coral reefs are estimated to cover 284,300 km², just under 0.1% of the oceans’ surface area, about half the area of France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Coral reefs 估計覆蓋 284,300 平方公里，少於海洋表面面積的 0.1%，約等於法國面積的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are also rare along the coast around northeastern South America and Bangladesh due to the freshwater released from the Amazon and Ganges Rivers, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們在 South America 東北部和 Bangladesh 附近海岸也很少見，原因分別是 Amazon River 和Ganges River 釋放淡水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已可看到 A 段會談面積比例和罕見地區。題目中的 “distributed disproportionately”要找的是不均勻分布的證據，例如某些地區佔比極高，某些地區罕見。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有使用原文詞 “Indo-Pacific” 或 “rare”，但 “distributed disproportionately” 可對應很多比例和地理限制。掃描 A 段時，91.9%、32.3%、40.8%、7.6% 都是強訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The Indo-Pacific region accounts for 91.9% of this total area. Southeast Asia accounts for 32.3% of that figure, while the Pacific, including Australia, accounts for 40.8%. Atlantic and Caribbean coral reefs account for 7.6%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Indo-Pacific region 佔總面積的 91.9%。Southeast Asia 佔其中 32.3%，包括 Australia 的 Pacific佔 40.8%。Atlantic 和 Caribbean coral reefs 佔 7.6%。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coral reefs are rare along the American and African west coasts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Coral reefs 在 American 和 African west coasts 一帶很少見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 reefs 分布不平均。原文大量數字顯示大部分集中在 Indo-Pacific，Atlantic and Caribbean只佔 7.6%，某些海岸甚至 rare。這正好支持 “disproportionately”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "distributed disproportionately= 91.9% in one broad region, 7.6% in another, rare in some coasts throughout the oceans= across Indo-Pacific, Pacific, Atlantic, Caribbean, coasts and latitudes所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Coral reefs are becoming increasingly important for scientific purposes.”",
+      "translation": "Coral reefs 對科學用途正變得越來越重要。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To find answers for these problems, scientists and researchers study the various factors that affect reefs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了尋找這些問題的答案，科學家和研究人員研究影響 reefs 的各種因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The threat to the health of reefs is particularly strong in Southeast Asia, where 80% of reefs are endangered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Reefs 健康面對的威脅在 Southeast Asia 特別嚴重，當地 80% 的 reefs 正處於 endangered 狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 F 段涉及 scientists and researchers，也涉及 reefs 的風險。不過題目不是單純說 “scientists study coral reefs”，而是加入 “becoming increasingly important” 這個變化趨勢。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “scientific purposes” 和 “increasingly important”。原文有 “scientists and researchers study”，這只定位到研究活動；接著要找 increasingly、more important、growing value、greater importance 等比較或趨勢訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“To find answers for these problems, scientists and researchers study the various factors that affect reefs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了尋找這些問題的答案，科學家和研究人員研究影響 reefs 的各種因素。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The list includes the ocean’s role as a carbon dioxide sink, atmospheric changes, ultraviolet light, ocean acidification, viruses, impacts of dust storms carrying agents to far-flung reefs, pollutants, algal blooms and others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究清單包括海洋作為 carbon dioxide sink 的角色、atmospheric changes、ultraviolet light、ocean acidification、viruses、dust storms 把 agents 帶到遠方 reefs 的影響、pollutants、algal blooms 等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文只說科學家研究影響 reefs 的因素，沒有說 coral reefs 對 scientific purposes 正變得 more important，也沒有比較過過去和現在的重要性。題目加入了 “becoming increasingly important”這個趨勢，文章沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料狀態：原文有：scientists study reefs原文沒有：scientific importance is increasing / reefs are becoming more important for science所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Coral reefs are widely traded and exported to other countries.”",
+      "translation": "Coral reefs 被廣泛交易，並出口到其他國家。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C / D / E 需要檢查"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看可能段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The value of reefs in biodiverse regions can be even higher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在生物多樣性高的地區，reefs 的價值可以更高。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是在 Sri Lanka，aquarium fish export industry 已支持約 50,000 人，並每年產生約 550 萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段談 economic value 和 export industry，所以最容易被這題吸引。但題目主體是 “coral reefs”，不是 aquarium fish。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “traded”、“exported”、“other countries”。原文出現最接近的是 “aquarium fish export industry”。此外，D 段有 “coral mining”，E 段有 “collect coral”，但都沒有說 coral reefs 被widely traded and exported。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aquarium fish export industry 支持約 50,000 人，並在 Sri Lanka 每年產生約 550 萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句真正被 export 的對象是 aquarium fish，不是 coral reefs。再看 E 段："
+            },
+            {
+              "kind": "quote",
+              "text": "“Corals are also harmed or killed when people drop anchors on them or when people collect coral.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們把 anchors 掉在 corals 上，或收集 coral 時，corals 也會受傷或死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 collect coral，但沒有 traded、exported、widely 或 other countries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 coral reefs are widely traded and exported。原文只提到 aquarium fish export industry，以及有人 collect coral 會造成傷害。文章沒有提供 coral reefs 本身被廣泛交易和出口的資訊，也沒有明確否定這件事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料狀態：原文有：aquarium fish export industry原文有：people collect coral原文沒有：coral reefs are widely traded/exported to other countries所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Reef tourism is economically important, particularly for some poor people.”",
+      "translation": "Reef tourism 在經濟上很重要，尤其對一些貧困人士而言。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The value of reefs in biodiverse regions can be even higher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在生物多樣性高的地區，reefs 的價值可以更高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是在 Sri Lanka，aquarium fish export industry 已支持約 50,000 人，並每年產生約 550 萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段主題是 reef economic value、tourism、employment 和 livelihoods。題目中的 “reef tourism”和 “poor people” 都很可能在這段找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “reef tourism”、“economically important” 和 “poor people”。掃描 C 段，可以直接看到 “reef tourism is an important source of employment” 和 “especially for some of the world’s poorest people”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Further, reef tourism is an important source of employment, especially for some of the world’s poorest people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，reef tourism 是重要的就業來源，尤其對世界上一些最貧困的人而言更是如此。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 reef tourism is economically important。原文說它是 important source of employment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Employment 是經濟重要性的直接表現。題目又說 particularly for some poor people；原文說especially for some of the world’s poorest people。意思完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "economically important= important source of employment particularly= especially some poor people= some of the world’s poorest people所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“As with other fishing industries, coral-reef fisheries are unsuitable for women and children.”",
+      "translation": "如其他漁業一樣，coral-reef fisheries 不適合女性和兒童。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The value of reefs in biodiverse regions can be even higher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在生物多樣性高的地區，reefs 的價值可以更高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是在 Sri Lanka，aquarium fish export industry 已支持約 50,000 人，並每年產生約 550 萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段確實談 reef fisheries、small-scale fishers 和 livelihoods，所以這題應先檢查 C 段。但題目加入 “women and children” 和 “unsuitable”，需要找性別、兒童、工作適合性等資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “women”、“children”、“unsuitable”、“coral-reef fisheries”。掃描 C 段，能找到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“small-scale fishers”、“livelihoods”、“reef fisheries”，但找不到 women、children、unsuitable、safe、dangerous、suitable 等概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“UNEP says that of the estimated 30 million small-scale fishers in the developing world, most are dependent to a greater or lesser extent on coral reefs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UNEP 表示，在 developing world 估計 3,000 萬名 small-scale fishers 中，多數或多或少依賴coral reefs。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Philippines, for example, more than one million small-scale fishers depend directly on coral reefs for their livelihoods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如在 Philippines，超過一百萬名小規模漁民直接依賴 coral reefs 維持生計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文只說許多 small-scale fishers 依賴 coral reefs，沒有提到 women、children，也沒有比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“other fishing industries”。題目中的 “unsuitable for women and children” 是新增資訊，文章無法判斷。資料狀態：原文有：small-scale fishers depend on reefs原文沒有：women and children / unsuitable / comparison with other fishing industries所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "C — To present the general benefits of coral reefs and the alarming situation they face",
+      "answerKey": "C — To present the general benefits of coral reefs and the alarming situation they face",
+      "type": "Multiple Choice",
+      "prompt": "“What is the main purpose of the passage?”",
+      "translation": "這篇文章的主要目的 是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A To demonstrate how coral reefs grow in the ocean"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B To explain that coral reefs are widely used in scientific projects"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C To present the general benefits of coral reefs and the alarming situation they face"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D To show the important efforts being made to protect coral reefs in Australia"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看全文結構"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 先介紹 coral reefs 的分布、生物多樣性和 habitat value。Paragraph B 和 C 講ecosystem services、tourism、fisheries、coastline protection 和 economic value。Paragraph D、E、F 轉向死亡、退化、污染、破壞性捕魚、旅遊傷害、全球風險比例。Paragraph G 才講保護例子，包括 Australia 和 Papua New Guinea。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題幹定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “main purpose”，不能只找某一段原字，要看全篇功能。最重要的訊號是文章前半的benefits 和後半的 threats / degradation / dying / endangered。這剛好對應選項 C 的 “general benefits” 和 “alarming situation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀代表性句子"
+            },
+            {
+              "kind": "label",
+              "text": "A 段："
+            },
+            {
+              "kind": "quote",
+              "text": "“They provide a home for 25% of all marine species…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們為所有 marine species 中的 25% 提供家園。"
+            },
+            {
+              "kind": "label",
+              "text": "B 段："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coral reefs deliver ecosystem services to tourism, fisheries and coastline protection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Coral reefs 為 tourism、fisheries 和 coastline protection 提供 ecosystem services。"
+            },
+            {
+              "kind": "label",
+              "text": "D 段："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, coral reefs are dying around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不幸的是，coral reefs 正在全球各地死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "F 段："
+            },
+            {
+              "kind": "quote",
+              "text": "“About 60% of the world’s reefs are at risk due to destructive, human-related activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球約 60% 的 reefs 因 destructive, human-related activities 而處於風險之中。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯在範圍太窄。文章開首有介紹 coral reefs 的構成，但沒有把重點放在 “how coral reefs grow”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯在過度放大科學研究。F 段有 scientists and researchers study reefs，但這只是回應威脅的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。它同時覆蓋前半的 benefits 和後半的 alarming threats。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯在只符合 G 段一部分。Australia 的 Great Barrier Reef protection 是保護例子之一，未能概括全文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "general benefits= provide home for marine species / tourism / fisheries / coastline protection / employment /livelihoods alarming situation= dying around the world / degradation / destructive practices / 60% at risk / 80% endangered in Southeast Asia所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Coral reefs.pdf",
+    "sha256": "ff92427a07d517ed0c3fb83a32b860f1e7d78469cd6285f56022cb02b184cf93",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼Opening definition",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句直接給出面積數字：coral reefs 只覆蓋 284,300 km²，少於 oceans’ surface area 的 0.1%。最後一句說它們在 northeastern South America 和 Bangladesh 附近也很少見，原因和 Amazon、Ganges Rivers 釋放 freshwater 有關。只看首尾句，已可預測 A 段主要講全球分布、面積比例、常見與罕見地區，也會兼談 coral reefs 為多種 marine species 提供 habitat。"
+      },
+      {
+        "number": "B",
+        "summary": "首句概括 coral reefs 的 ecosystem services：tourism、fisheries 和 coastline protection。最後一句說 coral reefs 能吸收 wave energy，保護海岸；許多 small islands 若沒有 reefs 保護，甚至不會存在。只看首尾句，可以估計 B 段功能是總括 coral reefs 的 practical benefits，尤其是經濟、旅遊、漁業和海岸保護。不過這段較短，數據也比較少。"
+      },
+      {
+        "number": "C",
+        "summary": "首句指出，在 biodiverse regions，reefs 的價值可以更高。最後一句說 Sri Lanka 的 aquarium fish export industry 支持約 50,000 人，並每年產生約 US$5.5 million。只看首尾句，可以看出 C段集中用地區例子和金額數字說明 reef-related industries 的經濟價值。這段會是 local economies、tourism income、employment、small-scale fishers 和 economic statistics 的重要定位段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句用 “Unfortunately” 轉折，直接指出 coral reefs 正在全球死亡。最後一句說 blast fishing 會把周圍 coral 炸開。只看首尾句，D 段功能非常清楚：列出 coral reefs decline 的原因，尤其是mining、runoff、pollution、disease、canals、climate-related threats，以及 cyanide fishing、overfishing、blast fishing 等破壞性漁法。凡是問 decline reasons 或 unsustainable fishing，先看D 段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 tourist resorts 把 sewage 直接排入 coral reefs 周圍的水域，會造成 degradation。最後一句說 corals 也會因 people drop anchors on them 或 collect coral 而受傷或死亡。只看首尾句，可判斷 E 段處理 tourism-related human damage，特別是 sewage、boating、diving、snorkeling、walking、kicking、anchoring 和 collecting coral。若題目問 physical contact 或 careless tourism， E 段最集中。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 scientists and researchers 研究各種影響 reefs 的 factors，以尋找問題答案。最後一句指出 Southeast Asia 的威脅特別嚴重，80% of reefs are endangered。只看首尾句，可以估計 F 段是研究和風險概況段：一方面列出 scientists 研究的因素，例如 ocean acidification、viruses、pollutants、algal blooms；另一方面給出全球 reefs dead / at risk / endangered 的比例。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Great Barrier Reef 在 Australia 受 Great Barrier Reef Marine Park Authority 和相關legislation 保護。最後一句說在 fishing 受限制的地區，biomass 和 individual fish sizes 明顯大於unrestricted fishing 的地方。只看首尾句，可以判斷 G 段是保護措施與管理例子段：Australia 的法律保護，以及 Papua New Guinea 傳統限制捕魚做法，都展示 conservation 的效果。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "開首未標字母的部分先定義 coral reefs：它們是由 corals 分泌 calcium carbonate 形成的水底結構，也是 tiny living animals 的 colonies。最後一句補充，多數 coral reefs 由 stony corals 建成，而stony corals 又由 clustered polyps 組成。這部分主要提供基本生物和結構背景，但 Questions 15–20 指明只可選 A–G，所以這段通常不作 matching information 的答案段。"
+  ]
+}

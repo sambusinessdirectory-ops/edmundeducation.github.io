@@ -1,0 +1,3089 @@
+{
+  "id": "p1-159-grey-workers",
+  "catalogueId": "p1-159",
+  "catalogueIds": [
+    "p1-159"
+  ],
+  "passage": 1,
+  "title": "Grey Workers",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "D",
+    "E",
+    "C",
+    "D",
+    "B",
+    "D",
+    "D",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Sun Life of Canada decided to replace its British employees with Canadian staff in order to bring in new blood.”",
+      "translation": "Sun Life of Canada 決定用加拿大員工取代英國員工，以便引入新血。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目有兩個核心部分：第一，Sun Life of Canada 要讓英國員工離職，以 “bring in new blood”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，它要用 Canadian staff 取代 British employees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一部分原文有明確提及；第二部分需要特別小心，因為 “Sun Life of Canada” 是公司名稱，不等於它要聘用加拿大員工。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given the speed at which their workers are growing greyer, employers know surprisingly little about how productive they are.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然僱員老化速度很快，僱主對年長員工到底有多高生產力，竟然知道得相當少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earlier this year, Sun Life of Canada, an insurance company, announced that it was offering redundancy to all its British employees aged 50 or over ‘to bring in new blood’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年較早時，加拿大永明人壽這間保險公司宣布，會向所有 50 歲或以上的英國員工提供裁員安排，以「引入新血」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以先猜 Paragraph A 的功能：這段提出全文問題，即僱主對年長員工生產力了解不足，並舉例說明企業在削減成本或更新員工結構時，會推動年長員工提早離開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sun Life of Canada 的例子正好在段末，所以 Question 1 應該在這裡找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sun Life of Canada”"
+            },
+            {
+              "kind": "quote",
+              "text": "“British employees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new blood”"
+            },
+            {
+              "kind": "label",
+              "text": "原文段末直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sun Life of Canada … announced that it was offering redundancy to all its British employees aged 50 or over ‘to bring in new blood’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句支援題目的一部分，但還要看有沒有 “Canadian staff”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sun Life of Canada, an insurance company, announced that it was offering redundancy to all its British employees aged 50 or over ‘to bring in new blood’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加拿大永明人壽這間保險公司宣布，會向所有 50 歲或以上的英國員工提供裁員安排，以「引入新血」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚說明三件事： 1. 公司是 Sun Life of Canada。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. 受影響的是它的 British employees aged 50 or over，即 50 歲或以上英國員工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. 目的用引號寫成 “to bring in new blood”，即引入新血。"
+            },
+            {
+              "kind": "label",
+              "text": "可是題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“replace its British employees with Canadian staff”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 replacement staff 來自加拿大。它只說公司名有 Canada，也說員工是 British employees，但沒有說新員工是 Canadian staff，也沒有說新員工的國籍、所在地或來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“new blood” 在這裡比較自然是指較年輕的新員工、新人或新一批人才。它不等同於 Canadian staff。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與資料缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有支援的部分：“British employees”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “all its British employees aged 50 or over”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in order to bring in new blood”"
+            },
+            {
+              "kind": "label",
+              "text": "= “‘to bring in new blood’”題目缺失的部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“with Canadian staff”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有：● Canadian staff；● staff from Canada；● replacing British workers with Canadians；● recruitment nationality；● transfer of employees from Canada。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 Sun Life of Canada 要讓年長英國員工離職，也提到目的為 “bring in new blood”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但題目加入了 “Canadian staff” 這個額外資訊，文章沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題不宜選 TRUE，因為 Canadian staff 沒有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題也不宜選 FALSE，因為文章沒有明確說新員工不會是加拿大人。資料不足，所以是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是公司名稱 “Sun Life of Canada”。學生可能看到 Canada，就推斷新員工是Canadian staff。這是用公司名稱作額外推理，文章沒有支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “new blood”。這個片語不是指某個國籍的人，而是指新加入的人、較新或較年輕的員工。題目把它具體化成 Canadian staff，已經超出原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “Canadian staff” 這個新增資訊。文章有 redundancy 和 new blood，沒有replacement nationality。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“In Japan, pay is more closely tied to length of service than in most other countries.”",
+      "translation": "在日本，薪酬比大多數其他國家更緊密地和服務年資掛鈎。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目重點是 Japan、pay、length of service，以及比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“than in most other countries”。掃描時要找 Japan 和 pay linked to seniority。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句：“In Japan, says Mariko Fujiwara, an industrial anthropologist who runs a think-tank for Hakuhodo, Japan’s second-largest advertising agency, most companies are bringing down the retirement age from the traditional 57 to 50 or thereabouts—and in some cases, such as Nissan, to 45.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mariko Fujiwara 說，在日本，大部分公司正把退休年齡由傳統的 57 歲降至約 50 歲；在某些公司，例如 Nissan，甚至降至 45 歲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that the percentage of workers who have spent more than 32 years with the same employer rose from 11 per cent in 1980 to 42 per cent by 1994, it is hardly surprising that seniority-based wage costs have become the most intractable item on corporate profit-and-loss accounts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鑑於在同一僱主工作超過 32 年的員工比例，從 1980 年的 11% 升至 1994 年的 42%，按年資計算的薪酬成本成為企業損益帳上最難處理的項目，也就毫不令人意外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 的功能：這段解釋日本企業為何急於降低退休年齡。核心背景是日本薪酬與年資掛鈎，導致資深員工成本很高。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“length of service”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than perhaps anywhere else, pay in Japan is linked to seniority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許比任何其他地方都更甚，在日本，薪酬與年資相連。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than perhaps anywhere else, pay in Japan is linked to seniority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許比任何其他地方都更甚，在日本，薪酬與年資相連。"
+            },
+            {
+              "kind": "quote",
+              "text": "“pay” 對應題目中的 pay。“seniority” 指資歷、年資、在公司服務時間的長短。這對應題目中的 “length of service”。“More than perhaps anywhere else” 表示比其他地方更明顯，至少是比大多數地方更強。題目說：“more closely tied to length of service than in most other countries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好是對 “More than perhaps anywhere else … linked to seniority” 的改寫。"
+            },
+            {
+              "kind": "label",
+              "text": "後文進一步支持這點："
+            },
+            {
+              "kind": "quote",
+              "text": "“seniority-based wage costs have become the most intractable item…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按年資計算的薪酬成本，已成為最難處理的項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明日本企業成本壓力與 seniority-based pay 有直接關係。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“pay is more closely tied to length of service”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“pay in Japan is linked to seniority”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： tied to= linked to length of service= seniority more closely than in most other countries= more than perhaps anywhere else所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “retirement age”。段落一開始談降低退休年齡，學生可能以為題目問退休政策。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "實際上題目問薪酬制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “most other countries” 和 “perhaps anywhere else”。原文的 “perhaps anywhere else” 語氣有一點保留，但意思仍然是日本這種 pay-seniority link 非常突出。題目用 “most other countries” 比原文更溫和，所以可以接受。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pay in Japan is linked to seniority”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Some German companies dismiss older workers in order to rejuvenate their corporate culture.”",
+      "translation": "一些德國公司解僱年長員工，是為了使企業文化恢復活力／更新。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目重點是 German companies、dismiss older workers，以及目的 rejuvenate corporate culture。掃描時要找 Germany、older workers、average age、corporate culture、defrost 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Germany, Patrick Pohl, spokesman for Hoechst, expresses a widely held view: ‘The company is trying to lower the average age of the workforce.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在德國，Hoechst 發言人 Patrick Pohl 表達了一種普遍看法：「公司正試圖降低員工平均年齡。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is collective bargaining: the union agreement puts strict limits on the proportion of workers that may retire early.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因是集體談判：工會協議對可以提早退休的員工比例設下嚴格限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 的功能：這段討論德國公司對年長員工的態度。前半講公司想降低員工平均年齡，後半講有些公司受到工會協議限制，不能太快讓年長員工離開。Question 3 提到 German companies 和 corporate culture，目標段落非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“German companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“older workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“corporate culture”"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the main reason for replacing older workers is that it makes it easier to ‘defrost’ the corporate culture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "取代年長員工的主要原因，也許是這樣會更容易「解凍」企業文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company is trying to lower the average age of the workforce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司正試圖降低員工平均年齡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示公司想讓員工組成更年輕。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the main reason for replacing older workers is that it makes it easier to ‘defrost’ the corporate culture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "取代年長員工的主要原因，也許是這樣會更容易「解凍」企業文化。"
+            },
+            {
+              "kind": "quote",
+              "text": "“replacing older workers” 對應題目中的 “dismiss older workers”。雖然 replace 不一定逐字等於dismiss，但在這個語境中，公司想降低平均年齡，並且後面又說有些公司想 “getting rid of older workers”，因此意思接近讓年長員工離開或被替換。“defrost the corporate culture” 是比喻。defrost 字面是解凍，這裡指讓僵化的企業文化重新流動、更新、變得有活力。題目用 “rejuvenate their corporate culture” 概括這個意思。rejuvenate 指使重新年輕、恢復活力。後面還有：“Older workers are less willing to try a new way of thinking. Younger workers are cheaper and more flexible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年長員工較不願嘗試新的思考方式。年輕員工較便宜，也較靈活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這進一步解釋為何公司覺得年輕化可令文化更新。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“dismiss older workers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“replacing older workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“getting rid of older workers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： dismiss= replace / get rid of in employment context"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“rejuvenate their corporate culture”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“defrost the corporate culture”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： rejuvenate= refresh / make more flexible / make less frozen corporate culture= corporate culture所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “Some German companies”。原文不是說所有德國公司都能這樣做，因為有些公司受到 collective bargaining 限制。題目只說 some，所以範圍合理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “dismiss”。原文最直接的字是 replacing 和 getting rid of。這些字在此都指年長員工被公司移出原有員工結構。題目用 dismiss 作概括，可以接受。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“replacing older workers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“defrost the corporate culture”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“According to Peter Hicks, companies pay older people more regardless of the contribution they make.”",
+      "translation": "根據 Peter Hicks 的說法，公司給年長員工更高薪酬，與他們作出的貢獻無關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目重點是 Peter Hicks 的觀點，以及 “regardless of the contribution they make”。我們要找 Peter Hicks 原話或觀點，看他認為年長員工高薪是否有價值基礎。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, when older people do heavy physical work, their age may affect their productivity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很明顯，當年長人士從事重體力工作時，年齡可能會影響他們的生產力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Hicks, who co-ordinates OECD work on the policy implications of ageing, says that plenty of research suggests older people are paid more because they are worth more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Hicks 負責統籌 OECD 關於老齡化政策影響的工作。他表示，大量研究顯示年長人士薪酬較高，是因為他們更有價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph D 的功能：這段平衡前文對年長員工的負面假設。它承認年齡可能影響重體力工作，但指出其他能力會隨年齡增加，尤其是管理能力。最後 Peter Hicks 明確說年長員工薪酬較高，因為他們 worth more。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Hicks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pay older people more”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contribution”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“older people are paid more because they are worth more.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Hicks … says that plenty of research suggests older people are paid more because they are worth more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Hicks 說，大量研究顯示年長人士薪酬較高，是因為他們更有價值。"
+            },
+            {
+              "kind": "label",
+              "text": "這句有明確因果："
+            },
+            {
+              "kind": "quote",
+              "text": "“paid more”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "薪酬較高"
+            },
+            {
+              "kind": "quote",
+              "text": "“because they are worth more”"
+            },
+            {
+              "kind": "label",
+              "text": "因為他們更有價值題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“regardless of the contribution they make”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：不管他們作出多少貢獻，公司仍然付更多錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文方向相反。原文不是說高薪和貢獻無關；它說研究顯示高薪有原因，原因是他們 worth more。worth more 在這裡可以理解成他們對企業有更多價值或貢獻。"
+            },
+            {
+              "kind": "label",
+              "text": "前文也支持 Peter Hicks 的觀點："
+            },
+            {
+              "kind": "quote",
+              "text": "“other skills may increase with age, including many that are crucial for good management…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他技能可能會隨年齡增加，包括很多對良好管理至關重要的技能。"
+            },
+            {
+              "kind": "label",
+              "text": "例如："
+            },
+            {
+              "kind": "quote",
+              "text": "“an ability to handle people diplomatically, to run a meeting or to spot a problem before it blows up”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能圓滑地處理人際關係、主持會議，或在問題惡化前發現問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都表示年長員工可作出實際貢獻。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“pay older people more regardless of the contribution they make”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“older people are paid more because they are worth more”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反向關係： regardless of contribution= 高薪與貢獻無關because they are worth more= 高薪與價值有關所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 Paragraph A 的 general assumption。A 段說一般假設是 older workers paid more “in spite of” extra productivity，即企業可能覺得年長員工拿高薪並非因為更高生產力。可是Question 4 指明 “According to Peter Hicks”。因此一定要用 Peter Hicks 的觀點，不可用Paragraph A 的 general assumption。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “contribution” 沒有在原文逐字出現。原文用 “worth more” 表示價值更高，這正好和 contribution 有關。題目把這層關係說成 regardless，方向相反。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“because they are worth more”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D and E",
+      "answerKey": "D and E",
+      "type": "Question Analysis",
+      "prompt": "“Which TWO advantages of employing older people are mentioned in the passage?”",
+      "translation": "文章提到聘用年長人士有哪兩個優點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D — They have better interpersonal skills. E — They can identify problems early."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Choose TWO。每個答案都要有獨立原文證據。題目問 older people 的 advantages，不是young workers 的優點，也不是企業為何想裁減年長員工。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, when older people do heavy physical work, their age may affect their productivity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很明顯，當年長人士從事重體力工作時，年齡可能會影響他們的生產力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Hicks … says that plenty of research suggests older people are paid more because they are worth more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Hicks 說，大量研究顯示年長人士薪酬較高，是因為他們更有價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph D 的功能：這段先承認年長人士在重體力工作中可能受年齡影響，再轉向年齡帶來的其他能力優勢。段落最後更指出研究支持 older people are worth more。所以這段非常可能包含 Questions 5–6 的答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“advantages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“older people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But other skills may increase with age, including many that are crucial for good management, such as an ability to handle people diplomatically, to run a meeting or to spot a problem before it blows up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但其他技能可能會隨年齡增長而提升，包括很多對良好管理非常重要的技能，例如能圓滑地處理人際關係、主持會議，或在問題惡化前發現問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句列出三個可能優點。要和選項逐一配對。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語一："
+            },
+            {
+              "kind": "quote",
+              "text": "“an ability to handle people diplomatically”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能夠圓滑、得體地處理人際關係。"
+            },
+            {
+              "kind": "quote",
+              "text": "“handle people diplomatically” 指懂得與人相處、處理人際衝突或溝通，不會太生硬。這正好對應D：“They have better interpersonal skills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有較好的人際交往能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "interpersonal skills = 與人相處、溝通、協調的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語二："
+            },
+            {
+              "kind": "quote",
+              "text": "“to spot a problem before it blows up”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在問題惡化前發現問題。"
+            },
+            {
+              "kind": "quote",
+              "text": "“spot” 指察覺、看出。“before it blows up” 指在問題變嚴重、爆發前。這對應 E：“They can identify problems early.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們能及早識別問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "identify = spot early = before it blows up所以 D 和 E 都有清楚原文支援。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Their products are superior to those of younger workers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的產品比年輕員工的產品更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提到 products，也沒有比較產品質素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “They are paid less than younger workers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們比年輕員工薪酬低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文方向相反。文章多次提到年長員工常因 seniority-based pay 而薪酬較高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “They run meetings quickly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們開會速度快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “to run a meeting”，意思是主持會議、管理會議流程。沒有說 quickly。C 把 “run a meeting” 加上了文章沒有的速度概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “They have better interpersonal skills.”正確，對應 “handle people diplomatically”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “They can identify problems early.”正確，對應 “spot a problem before it blows up”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D： handle people diplomatically= have better interpersonal skills E： spot a problem before it blows up= identify problems early"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 C。很多學生看到 “run a meeting” 就選 C，但選項加了 quickly。原文只說能主持會議，沒有說速度快。IELTS 錯項經常保留原文核心詞，再加入未被支持的形容詞或副詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 B。文章前面說 older workers are paid more，且企業因成本想推動他們退休。B說 paid less，方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正答案是 D 和 E，因為它們直接對應 Paragraph D 中的管理能力例子。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        5,
+        6
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "C and D",
+      "answerKey": "C and D",
+      "type": "Question Analysis",
+      "prompt": "“Compared with older employees, which TWO weaknesses do young graduates have?”",
+      "translation": "與年長員工相比，年輕畢業生有哪兩個弱點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C — They change jobs more often. D — Their educational standards are lower."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Choose TWO。題目問 young graduates 的 weaknesses，而且是 compared with older employees。答案應來自文章中對 young workers / young high-school graduates 的直接比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the virtues of the young may be exaggerated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕人的優點可能被誇大了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The median age for employer-driven training is the late 40s and early 50s,’ says Mr Hicks. ‘It goes mainly to managers.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hicks 先生說：「由僱主主導的培訓中位年齡是四十多歲後期到五十多歲初期。培訓主要給管理人員。」只看首尾句，可以先猜 Paragraph E 的功能：這段質疑企業對年輕員工的過度理想化，並指出年長員工也值得保留和培訓。題目問年輕畢業生相對弱點，應該在這一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“young graduates”"
+            },
+            {
+              "kind": "quote",
+              "text": "“older employees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weaknesses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有兩句特別重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“their educational standards are much better than those of today’s young high-school graduates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的教育水平比今天的年輕高中畢業生好得多。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“in fact, young people tend to switch jobs so frequently that they offer the worst returns on training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，年輕人往往非常頻繁地轉工，因此他們帶來最差的培訓回報。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "先看第一個證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Besides, their educational standards are much better than those of today’s young high-school graduates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，他們的教育水平比今天的年輕高中畢業生好得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “their” 指前文 “older workers”。句子意思是：年長員工的教育水平比今天的年輕高中畢業生更好。反過來看，young high-school graduates 的 educational standards lower。"
+            },
+            {
+              "kind": "label",
+              "text": "這對應 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their educational standards are lower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的教育水平較低。"
+            },
+            {
+              "kind": "label",
+              "text": "再看第二個證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“young people tend to switch jobs so frequently that they offer the worst returns on training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕人往往轉工非常頻繁，所以在培訓投資上回報最差。"
+            },
+            {
+              "kind": "quote",
+              "text": "“switch jobs so frequently” 對應 C：“They change jobs more often.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們更常轉工。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “They are not worth training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們不值得培訓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 young people offer the worst returns on training，意思是因為他們頻繁轉工，培訓投資回報差。這和 “not worth training” 接近，但題目要選兩個明確弱點，C 已經更精準地抓到原因： change jobs more often。A 的語氣較絕對，且原文中 “not worth training” 是 companies may say about older workers 的說法，不是作者對 young graduates 的直接表述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Their productivity is lower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們生產力較低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 young graduates productivity lower。文章甚至說年長員工 productivity is good，但沒有直接比較年輕畢業生生產力較低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確，對應 “switch jobs so frequently”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確，對應 “educational standards … better than those of today’s young high-school graduates”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “They are usually high-school graduates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們通常是高中畢業生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提到 “today’s young high-school graduates”，但這只是比較對象，不是說所有年輕員工通常都是高中畢業生，也不是弱點本身。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C： switch jobs so frequently= change jobs more often D： older workers’ educational standards are much better= young graduates’ educational standards are lower"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 A。原文確實有 “not worth training”，但這是 companies may say about older workers，即公司可能說年長員工不值得培訓。後文反過來指出年輕人頻繁轉工，培訓回報更差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選 C 比 A 更精準，因為 C 抓住實際原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 E。題目說 young graduates，原文也有 high-school graduates，但 E 只是身份描述，不是 weakness。題目問 weaknesses，所以要找負面比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C 和 D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        7,
+        8
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — People are uncomfortable when their pay is reduced late in their careers.",
+      "answerKey": "B — People are uncomfortable when their pay is reduced late in their careers.",
+      "type": "Question Analysis",
+      "prompt": "“According to paragraph F, which view do companies and workers still hold?”",
+      "translation": "根據 Paragraph F，公司和員工仍然持有哪一種看法？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice。題目指明 Paragraph F，所以不需要跨段找。關鍵詞是 “companies and workers still hold”，即公司和很多員工共同仍然感到怎樣、接受甚麼或不接受甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take away those seniority-based pay scales, and older workers may become a much more attractive employment proposition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果拿走那些按年資計算的薪級制度，年長員工可能會成為更具吸引力的僱用選擇。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So retaining the services of older workers may mean employing them in new ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，保留年長員工的服務，可能意味著要以新的方式聘用他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph F 的功能：這段討論如何讓年長員工在薪酬上變得更有吸引力。若取消 seniority-based pay，僱主會更願意聘用年長員工；但降低後期薪酬會令公司和員工都感到不舒服，所以需要新的聘用方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“companies and workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“still hold”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“But most companies (and many workers) are uncomfortable with the idea of reducing someone’s pay in later life…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但大多數公司以及很多員工，都對在人生後期降低某人的薪酬這個想法感到不舒服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But most companies (and many workers) are uncomfortable with the idea of reducing someone’s pay in later life—although workers on piece-rates often earn less over time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但大多數公司以及很多員工，都對在職業生涯後期降低某人薪酬這個想法感到不舒服，雖然按件計酬的工人常常會隨時間賺得較少。"
+            },
+            {
+              "kind": "label",
+              "text": "這句的主體是："
+            },
+            {
+              "kind": "quote",
+              "text": "“most companies (and many workers)”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正好對應題目 “companies and workers”。"
+            },
+            {
+              "kind": "label",
+              "text": "核心態度是："
+            },
+            {
+              "kind": "quote",
+              "text": "“are uncomfortable with the idea of reducing someone’s pay in later life”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即對晚年或職業生涯後期減薪感到不安、不自在、不願接受。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“People are uncomfortable when their pay is reduced late in their careers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們在職業生涯後期被減薪時，會感到不舒服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Older workers are more likely to attract other staff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年長員工更可能吸引其他員工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 older workers may become “a much more attractive employment proposition”，意思是對僱主而言更具吸引力，不是說他們會吸引其他員工加入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Older people are more motivated to remain than younger people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年長人士比年輕人更有動力留下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 沒有比較 older people 和 younger people 的 motivation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Young people on piece rates often earn less over time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按件計酬的年輕人常常隨時間賺得較少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “workers on piece-rates often earn less over time”，沒有說 young people。題目問公司和員工對減薪的看法，D 只是原文中的讓步背景，且加入 young people 這個未支援限定。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“uncomfortable with the idea of reducing someone’s pay in later life”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“uncomfortable when their pay is reduced late in their careers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： reducing someone’s pay= pay is reduced in later life= late in their careers companies and workers= people / companies and many workers"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 A。原文的 “attractive employment proposition” 是站在僱主角度說年長員工可能更值得聘用，不是說年長員工能吸引其他 staff。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 D。原文提到 piece-rates，但沒有說 young people，也不是段落主旨。這句只是說現實中某些工人收入會隨時間下降，以襯托公司和員工對後期減薪的不自在。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“most companies (and many workers) are uncomfortable…”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "D — Early retirees were re-employed for fewer hours and lower pay.",
+      "answerKey": "D — Early retirees were re-employed for fewer hours and lower pay.",
+      "type": "Question Analysis",
+      "prompt": "“Which arrangement did IBM’s SkillTeam introduce?”",
+      "translation": "IBM 的 SkillTeam 引入了哪一種安排？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice。題目問 SkillTeam 的安排。掃描時要找 IBM Belgium、SkillTeam、re-employed、early retirees、work 58 per cent、88 per cent salary 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One innovation, described in Mr Walker’s report on combating age barriers, was devised by IBM Belgium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Walker 先生在關於對抗年齡障礙的報告中描述了一項創新安排；這項安排由 IBM Belgium 設計。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company offered services to IBM, thus allowing it to retain access to some of the intellectual capital it would otherwise have lost.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該公司向 IBM 提供服務，因此讓 IBM 保留對部分智力資本的使用，而這些智力資本本來可能會流失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph G 的功能：這段介紹 IBM Belgium 如何用新模式保留年長員工的知識和服務，同時削減成本。SkillTeam 是一個具體案例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“IBM’s SkillTeam”"
+            },
+            {
+              "kind": "quote",
+              "text": "“arrangement”"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“IBM set up a separate company called SkillTeam, which re-employed any of the early retirees who wanted to go on working up to the age of 60.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "IBM 成立了一間名為 SkillTeam 的獨立公司，重新聘用任何想繼續工作到 60 歲的提早退休員工。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“An employee who joined SkillTeam at the age of 55 on a five-year contract would work for 58 per cent of his time, over the full period, for 88 per cent of his last IBM salary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名 55 歲加入 SkillTeam 並簽五年合約的員工，在整段期間會工作 58% 的時間，並收取其最後IBM 薪酬的 88%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "SkillTeam 安排有三個核心元素：第一："
+            },
+            {
+              "kind": "quote",
+              "text": "“re-employed any of the early retirees”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "重新聘用提早退休員工。"
+            },
+            {
+              "kind": "label",
+              "text": "第二："
+            },
+            {
+              "kind": "quote",
+              "text": "“work for 58 per cent of his time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "工作時間降至原來的 58%。"
+            },
+            {
+              "kind": "label",
+              "text": "第三："
+            },
+            {
+              "kind": "quote",
+              "text": "“for 88 per cent of his last IBM salary”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "薪酬為最後 IBM 薪金的 88%。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early retirees were re-employed for fewer hours and lower pay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提早退休者被重新聘用，工作時間較少，薪酬也較低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括三個元素。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “All older workers continued on their former hours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有年長員工都按原來工時繼續工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 re-employed any early retirees who wanted to go on working，不是所有 older workers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且工時是 58%，不是 former hours。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “The company continued reducing the proportion of older employees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司繼續降低年長員工比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "IBM 的原先目標確實是 cut staff costs，且集中 cuts on 55–60-year-olds，但 SkillTeam 的安排是重新聘用部分早退者，並保留 intellectual capital。選項 B 沒有抓到 SkillTeam 的具體安排。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Employees worked extra hours for additional pay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "員工加班以獲得額外薪酬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文方向相反：58% time，88% salary。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“early retirees”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= early retirees"
+            },
+            {
+              "kind": "quote",
+              "text": "“re-employed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= re-employed"
+            },
+            {
+              "kind": "quote",
+              "text": "“work for 58 per cent of his time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= fewer hours"
+            },
+            {
+              "kind": "quote",
+              "text": "“for 88 per cent of his last IBM salary”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= lower pay所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 A。原文確實說想繼續工作到 60 歲，但不是按原來工時工作。58% time 是關鍵數字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 B。SkillTeam 的背景是削減成本，但題目問 SkillTeam introduced 的arrangement。真正安排是 re-employment with reduced time and pay。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“58 per cent of his time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“88 per cent of his last IBM salary”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D — Some older people continued working because they wanted to, rather than for",
+      "answerKey": "D — Some older people continued working because they wanted to, rather than for",
+      "type": "Question Analysis",
+      "prompt": "“Which statement is correct according to Mr Quinn’s research?”",
+      "translation": "根據 Mr Quinn 的研究，哪一個說法正確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "financial reasons."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice。題目指明 Mr Quinn，所以要去 Paragraph H 找他的研究。核心詞是bridge jobs、carry on working、have to / want to。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best way to tempt the old to go on working may be to build on such ‘bridge’ jobs: part-time or temporary employment that creates a more gradual transition from full-time work to retirement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "吸引年長人士繼續工作的最佳方法，可能是發展這類「橋樑工作」：兼職或臨時工作，使全職工作到退休之間的過渡更逐步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are,” he says, “two very different types of bridge job-holders—those who continue working because they have to and those who continue working because they want to, even though they could afford to retire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「橋樑工作者有兩種非常不同的類型：一種是因為不得不工作而繼續工作的人；另一種是即使有能力退休，仍因為想工作而繼續工作的人。」只看首尾句，可以先猜 Paragraph H 的功能：這段介紹 bridge jobs，並根據 Mr Quinn 的研究說明哪些人會在退休前後繼續工作。Question 11 的答案應在最後一句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Quinn”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bridge jobs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“continued working”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Quinn, who has studied the phenomenon…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“those who continue working because they have to and those who continue working because they want to…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In general, it is the best-paid and worst-paid who carry on working…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，繼續工作的人包括最高薪和最低薪兩類人。"
+            },
+            {
+              "kind": "label",
+              "text": "接著 Mr Quinn 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“two very different types of bridge job-holders—those who continue working because they have to and those who continue working because they want to, even though they could afford to retire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "橋樑工作者有兩種非常不同的類型：一類因為不得不工作而繼續，一類即使有能力退休，也因為想工作而繼續。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some older people continued working because they wanted to, rather than for financial reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些年長人士繼續工作，是因為他們想工作，而非因為財政需要。"
+            },
+            {
+              "kind": "label",
+              "text": "這正好對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“continue working because they want to, even though they could afford to retire.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“could afford to retire” 表示他們經濟上可以退休，所以繼續工作不是出於財務壓力。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “About half of all US employees moved into bridge jobs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約一半美國員工轉入橋樑工作。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“nearly half of all men and women who had been in full-time jobs in middle age”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即中年時做全職工作的人之中，接近一半進入 bridge jobs。A 把範圍擴大成 all US employees，太闊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Only the worst-paid people continued to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有最低薪的人繼續工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 best-paid and worst-paid 都會繼續工作，所以 B 方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “More men than women entered bridge employment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男性比女性更多進入橋樑工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 men and women，沒有比較男女比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“continue working because they want to”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“continued working because they wanted to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“even though they could afford to retire”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than for financial reasons”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： could afford to retire= not forced by financial need"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 A。原文有 “nearly half”，但範圍限定為中年時曾做全職工作的人，不是所有美國員工。IELTS 很常考量詞和範圍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 B。原文確實提到 worst-paid，但同一句也說 best-paid。B 加入 “Only”，導致意思錯誤。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“because they want to, even though they could afford to retire”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C — Businesses started by people over 55 are more likely to survive.",
+      "answerKey": "C — Businesses started by people over 55 are more likely to survive.",
+      "type": "Question Analysis",
+      "prompt": "“Which statement is correct according to David Storey?”",
+      "translation": "根據 David Storey 的說法，哪一個陳述正確？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice。題目指名 David Storey，所以要找 Paragraph I 中他的研究。核心詞是businesses、people over 55、survived、average 19 per cent。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the job market grows more flexible, the old may find more jobs that suit them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果就業市場變得更靈活，年長人士可能會找到更多適合自己的工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only then will there be many more Joe Clarks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有到那時，才會有更多 Joe Clark 這樣的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph I 的功能：這段討論更靈活的工作市場如何幫助年長人士，包括自僱、創業，以及工作本身是否足夠吸引。David Storey 的研究出現在中段，應該是關於年長人士創業成功率。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“David Storey”"
+            },
+            {
+              "kind": "quote",
+              "text": "“businesses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“over 55”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“a study by David Storey of Warwick University found that, in Britain, 70 per cent of businesses started by people over 55 survived, compared with an average of only 19 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Warwick University 的 David Storey 一項研究發現，在英國，由 55 歲以上人士創辦的企業有70% 存活下來，而平均存活率只有 19%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句有兩個數字："
+            },
+            {
+              "kind": "quote",
+              "text": "“70 per cent of businesses started by people over 55 survived”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "55 歲以上人士創辦的企業中，有 70% 存活。"
+            },
+            {
+              "kind": "quote",
+              "text": "“compared with an average of only 19 per cent”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，平均存活率只有 19%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個清楚比較：over-55 founders 的 business survival rate 高於平均。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Businesses started by people over 55 are more likely to survive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由 55 歲以上人士創辦的企業更有可能存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是原文 70% 對 19% 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Seventy per cent of businesses succeed if they employ more older people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果企業聘用更多年長人士，70% 會成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 businesses started by people over 55，不是 employ more older people。創辦者年齡和員工組成不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “The average survival rate of self-employed businesses is declining.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自僱企業的平均存活率正在下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 declining，也沒有時間趨勢。只有 70% 和 average 19% 的比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Older people have more flexible working hours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年長人士有更靈活工時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 說如果 job market 更靈活，年長人士可能找到更合適工作，但 David Storey 的研究不是關於 working hours。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“businesses started by people over 55 survived”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Businesses started by people over 55 are more likely to survive”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“70 per cent … compared with an average of only 19 per cent”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫： more likely to survive= higher survival rate than average"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 A。原文的 over 55 指創辦企業的人，不是企業聘用的員工。A 把 founder age 改成 employee age，關係錯了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 B。原文有 average of 19 per cent，但沒有說平均存活率正在下降。不要把低數字理解成下降趨勢。"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“70 per cent … compared with an average of only 19 per cent”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — To argue that older people should be valued appropriately in employment",
+      "answerKey": "B — To argue that older people should be valued appropriately in employment",
+      "type": "Question Analysis",
+      "prompt": "“What is the author’s main purpose in writing the passage?”",
+      "translation": "作者寫這篇文章的主要目的是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是主旨題。不能只看某一段或某一個例子。要看全文如何展開：文章先指出僱主低估年長員工，接著展示各國裁減年長員工的做法，再指出年長員工其實有管理能力、判斷力和培訓價值，最後提出更靈活的聘用方式和 bridge jobs。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文結構"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“employers know surprisingly little about how productive they are.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "僱主對年長員工的生產力了解得出奇地少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "功能：提出問題——僱主對年長員工有假設，但證據不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B–C日本和德國例子說明企業為降低成本、降低平均年齡或更新文化，推動年長員工離開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "功能：展示企業常如何處理年長員工。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D–E文章轉向年長員工的優點："
+            },
+            {
+              "kind": "quote",
+              "text": "“other skills may increase with age”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他技能可能會隨年齡增加。"
+            },
+            {
+              "kind": "quote",
+              "text": "“older people are paid more because they are worth more”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年長人士薪酬較高，是因為他們更有價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "功能：反駁年長員工只是不划算的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F–H討論如何保留年長員工，例如新的聘用方式、SkillTeam、bridge jobs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "功能：提出 practical arrangements，讓年長員工繼續發揮價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I講靈活市場、自僱、創業和工作吸引力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "功能：總結未來需要讓工作適合年長人士，才能吸引更多人繼續工作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用主旨詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 main purpose，所以要找全文反覆出現的核心概念：● older workers；● productivity；● paid more / worth more；● training；● retain services；● bridge jobs；● jobs that suit them。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全部指向一個中心：年長員工不應只被視為成本或淘汰對象；企業應按其實際價值和工作方式重新看待他們。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨證據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 的問題設定："
+            },
+            {
+              "kind": "quote",
+              "text": "“The general assumption is that the old are paid more in spite of, rather than because of, their extra productivity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般假設是，年長員工薪酬較高，並非由於額外生產力，反而像是儘管他們生產力較高與否，仍然拿更多錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是作者要挑戰的假設。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 直接反轉："
+            },
+            {
+              "kind": "quote",
+              "text": "“plenty of research suggests older people are paid more because they are worth more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量研究顯示年長人士薪酬較高，是因為他們更有價值。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The few companies that have kept on older workers find they have good judgment and their productivity is good.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "少數保留年長員工的公司發現，他們判斷力好，生產力也好。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“retaining the services of older workers may mean employing them in new ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "保留年長員工的服務，可能意味著要用新的方式聘用他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子合起來說明作者並非只介紹退休制度，而是在說年長員工應被更合理地評估、保留和安排。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “To argue for a successful retirement programme for older people”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主張一個成功的年長人士退休計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章有談 early retirement 和 bridge jobs，但主旨不是推銷某一個 retirement programme。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SkillTeam 只是例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “To argue that older people should be valued appropriately in employment”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主張年長人士在就業中應得到恰當重視和評價。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這最符合全文。文章先呈現僱主低估或排斥年長員工，再提出證據說他們有價值，最後討論如何以新方式繼續聘用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “To argue that older workers should help younger employees develop”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主張年長員工應幫助年輕員工發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有把 mentoring younger workers 作為主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “To show that more jobs are available only to older people”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯示更多工作只提供給年長人士。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有說 jobs are available only to older people。它說如果市場更靈活，年長人士可能找到更多適合自己的工作。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全文主旨： older workers may be productive and valuable● companies should retain their services in new ways● bridge jobs and flexible work can suit them選項 B： older people should be valued appropriately in employment改寫關係： valued appropriately= not dismissed simply as expensive / recognised for judgment, productivity and skills in employment= retaining services, bridge jobs, training, flexible job market所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 A。文章中有 early retirement、retirement transition 和 bridge jobs，但這些都是討論年長員工就業價值的工具，不是全文唯一目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 D。最後一段說 flexible job market may help the old find more jobs that suit them，但沒有說工作只屬於年長人士。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制主旨的是全文的轉折：前文說企業把年長員工視為成本，後文用研究和例子指出他們仍有價值，並應透過更合適的工作安排保留。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Grey Workers.pdf",
+    "sha256": "793666fa3598eb82269973f128ea837fb36132ecf4ee54bb7c678e3ae9e42e7e",
+    "pageCount": 39
+  },
+  "version": "2026-08-08.2"
+}

@@ -1,0 +1,2210 @@
+{
+  "id": "p1-072-survivor-from-the-sky",
+  "catalogueId": "p1-072",
+  "catalogueIds": [
+    "p1-072"
+  ],
+  "passage": 1,
+  "title": "Survivor from the sky",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "eighteen / 18",
+    "biologist",
+    "lightning",
+    "A",
+    "D",
+    "C",
+    "A",
+    "B",
+    "C",
+    "D",
+    "NO",
+    "NO",
+    "YES",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "eighteen / 18",
+      "answerKey": "eighteen / 18",
+      "type": "Short-answer Questions",
+      "prompt": "“How old was Juliane at the time of the crash?”",
+      "translation": "Juliane 在空難發生時幾歲？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 How old，所以答案應該是年齡。最有定位力的字是 “at the time of the crash” 和 “Juliane”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a remarkable documentary, Wings of Hope, German director Werner Herzog recounts the true story of an eighteen-year-old girl, the sole survivor of a plane crash in the Amazon jungle in 1971.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一部出色的紀錄片 Wings of Hope 中，德國導演 Werner Herzog 講述一名十八歲女孩的真實故事；她是 1971 年亞馬遜叢林空難中的唯一生還者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twenty-nine years later, Herzog returns to the jungle with Juliane Koepke, now a 46-year-old biologist, and she tells her amazing story on film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十九年後，Herzog 與 Juliane Koepke 重返叢林；她如今是 46 歲的生物學家，並在影片中講述自己的驚人故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段同時提供兩個年齡：空難時十八歲，以及二十九年後四十六歲。題目問 at the time of the crash，所以要選第一句的年齡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Juliane”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at the time of the crash”"
+            },
+            {
+              "kind": "quote",
+              "text": "“How old”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 1 時，直接看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“an eighteen-year-old girl, the sole survivor of a plane crash…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名十八歲女孩，是一場空難的唯一生還者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “an eighteen-year-old girl” 緊接 “the sole survivor of a plane crash”，表示她在這次空難時是十八歲。題目問的是 crash 時的年齡，答案直接來自這個短語。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "at the time of the crash= the girl who was the sole survivor of the crash How old= eighteen-year-old答案形式： eighteen = 1 word；18 = number。兩者都符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段最後一句也有 “46-year-old biologist”。這是二十九年後拍攝紀錄片時的年齡，不是空難發生時的年齡。做年齡題要先看時間限制：at the time of the crash 指 1971 年，不是現在。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "biologist",
+      "answerKey": "biologist",
+      "type": "Short-answer Questions",
+      "prompt": "“What is her occupation now?”",
+      "translation": "她現在的職業是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 occupation，所以答案應該是職業名詞。題目中的 “now” 是控制詞，表示要找她目前身份。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a remarkable documentary, Wings of Hope, German director Werner Herzog recounts the true story of an eighteen-year-old girl, the sole survivor of a plane crash in the Amazon jungle in 1971.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在紀錄片 Wings of Hope 中，Werner Herzog 講述一名十八歲女孩的真實故事；她是 1971 年亞馬遜叢林空難唯一生還者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twenty-nine years later, Herzog returns to the jungle with Juliane Koepke, now a 46-year-old biologist, and she tells her amazing story on film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十九年後，Herzog 與 Juliane Koepke 重返叢林；她如今是 46 歲的生物學家，並在影片中講述自己的驚人故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 1 提供 Juliane 的過去身份和現在身份。題目問 “now”，所以答案應在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“occupation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“now”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“now a 46-year-old biologist”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今是一名 46 歲的生物學家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個短語中，46-year-old 是年齡，biologist 是職業。題目問 occupation，不問 age，所以只填biologist。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "occupation= biologist now= now a 46-year-old biologist答案形式： biologist = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “46-year-old biologist”。雖然這個短語在字數上可能符合三詞限制，但題目問職業，年齡不需要放入答案。短答題要精準回答問句類型：What occupation? → biologist。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "lightning",
+      "answerKey": "lightning",
+      "type": "Short-answer Questions",
+      "prompt": "“What was the cause of the plane crash?”",
+      "translation": "這場空難的原因是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 cause，所以要找飛機為何失事。定位詞是 “plane crash”和 “cause”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Juliane had just graduated from high school in Lima, Peru and, with her mother, was flying out to spend Christmas at her father’s research station in the jungle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Juliane 剛從秘魯 Lima 的高中畢業，正和母親乘飛機前往父親在叢林中的研究站過聖誕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before she lost consciousness, Juliane saw the dense jungle below, ‘a deep green, like broccoli’, with no clearings for hundreds of miles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在失去意識前，Juliane 看見下方密林，一片像 broccoli 般的深綠色，幾百英里內都沒有空地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段描述空難從飛行到墜落的完整過程。題目問 crash cause，所以要細讀本段中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cause”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plane crash”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the midst of wild turbulence, the plane was struck by lightning and fell into a nosedive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在劇烈亂流中，飛機被 lightning 擊中，然後進入俯衝下墜。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the plane”。核心動詞是 “was struck by lightning” 和 “fell into a nosedive”。因果鏈是：飛機被 lightning 擊中，然後失控俯衝。題目問 cause of crash，所以答案是 lightning。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cause of the plane crash= the plane was struck by lightning答案形式： lightning = 1 word。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果需要保留原文動作，也可以答 “struck by lightning”，共 3 words。不過問 cause 時，lightning已足夠。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段也提到 “a horrific storm” 和 “wild turbulence”。它們是背景條件，但最直接導致飛機俯衝的句子是 “struck by lightning”。題目問 cause 時，要找最明確的觸發事件。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A — It broke apart in the air.",
+      "answerKey": "A — It broke apart in the air.",
+      "type": "Multiple Choice",
+      "prompt": "“What happened to the plane?”",
+      "translation": "飛機發生了甚麼事？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問飛機本身發生甚麼，定位詞是 “plane” 和 “happened”。要找 crash過程中 plane 的狀態變化。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Juliane had just graduated from high school in Lima, Peru and, with her mother, was flying out to spend Christmas at her father’s research station in the jungle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Juliane 剛從 Lima 的高中畢業，正和母親乘機去父親在叢林中的研究站過聖誕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before she lost consciousness, Juliane saw the dense jungle below, ‘a deep green, like broccoli’, with no clearings for hundreds of miles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在失去意識前，Juliane 看見下方密林，像 broccoli 般深綠，而且幾百英里內沒有空地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段從飛行背景推進到 Juliane 墜落前的視覺記憶。飛機解體的資訊應在中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“plane”"
+            },
+            {
+              "kind": "quote",
+              "text": "“happened”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then the plane broke into pieces, and suddenly Juliane found herself outside the aircraft, free-falling 30,000 feet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後飛機碎裂成幾部分，Juliane 突然發現自己已在 aircraft 外面，從三萬英尺高空自由墜落。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“broke into pieces” 表示飛機在空中解體。Juliane 隨即發現自己在 aircraft outside，這也證明飛機已經不再完整包住乘客。選項 A “It broke apart in the air” 對應最精準。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A It broke apart in the air.正確。broke apart 對應 broke into pieces；in the air 由 free-falling 30,000 feet 支持。 B It hit trees and exploded.錯。原文說 Juliane hit the canopy of trees，但飛機沒有被描述為撞樹爆炸。 C It crashed into a mountainside.錯。原文沒有 mountainside，只有 Amazon jungle。 D It hit the ground and burst into flames.錯。原文沒有說飛機撞地起火。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "broke apart= broke into pieces in the air= before Juliane free-fell 30,000 feet"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 說 Juliane hit the canopy of trees，容易令人把 Juliane 的墜落過程誤放到 plane 身上。題目問 the plane，所以要回到 Paragraph 2 的 “the plane broke into pieces”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D — a parachute",
+      "answerKey": "D — a parachute",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following did NOT help to slow her fall?”",
+      "translation": "以下哪一項沒有幫助減慢她的墜落？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice，並且有 NOT。要找哪些因素有幫助，再選沒有出現或沒有幫助的一項。定位詞是 “slow her fall”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Somehow, miraculously, Juliane survived that fall from the sky.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不知怎樣，Juliane 奇蹟地從空中墜落後生還。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, hitting the canopy of trees, she tumbled through a maze of vines which slowed her landing in deep mud.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，她撞上樹冠，穿過藤蔓迷宮，藤蔓減慢了她落入深泥中的速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段專門解釋她如何從高空墜落中活下來。題目問 slow her fall，目標段落很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“slow her fall”"
+            },
+            {
+              "kind": "quote",
+              "text": "“help”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, the storm had produced a strong updraft from the thunderclouds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，暴風雨從雷雲中產生了強烈上升氣流。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Secondly, being strapped into a row of seats, she was aware of falling in a spiralling movement, like a maple seed pod.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，由於她被繫在一排座位上，她意識到自己像楓樹種子莢一樣旋轉下墜。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, hitting the canopy of trees, she tumbled through a maze of vines which slowed her landing in deep mud.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，她撞上樹冠，穿過藤蔓迷宮，藤蔓減慢了她落入深泥中的速度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出三類減速因素： 1. strong updraft from thunderclouds對應 A：an updraft caused by storm clouds 2. strapped into a row of seats，spiralling movement like a maple seed pod對應 C：the section of seats to which she was attached 3. maze of vines which slowed her landing對應 B：hitting vines選項 D “a parachute” 完全沒有在原文出現，也不屬於她生還的因素。題目問 did NOT help，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 沒有原文支援。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 NOT，所以要反向選。這類題最安全的做法是先在原文逐項勾出「有幫助」的因素，剩下沒有證據的一項才是答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C — concussion",
+      "answerKey": "C — concussion",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following injuries did she sustain?”",
+      "translation": "她受了以下哪一種傷？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 injuries，答案應出現在她醒來後檢查身體狀況的位置。定位詞是injuries / fractured / cuts / concussion。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But surviving the fall, though miraculous in itself, was just the beginning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然從墜落中生還本身已是奇蹟，但這只是開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She was also in shock, lost and totally alone in the Amazon jungle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她同時處於休克狀態，在亞馬遜叢林中迷路，完全孤身一人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段從墜落生還轉入受傷、迷路和求生困境。injuries 應在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“injuries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sustain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Staggering to her feet, she assessed her injuries: a fractured bone in her neck, concussion and deep cuts in her leg and back.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她搖搖晃晃站起來，評估自己的傷勢：頸部有一塊骨頭骨折、腦震盪，腿部和背部有深切傷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出三項傷勢： a fractured bone in her neck頸部骨折concussion腦震盪deep cuts in her leg and back腿和背部深傷選項 C “concussion” 原文直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A a broken foot錯。原文沒有 foot，骨折位置是 neck。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B a broken arm錯。原文沒有 arm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C concussion正確。原文逐字出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D cuts on her head錯。原文說 cuts in her leg and back，位置不同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "injuries did she sustain= assessed her injuries concussion= concussion"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 B 都用 broken 來改寫 fractured，但位置不對。這題不能只看到 “fractured / broken” 就選，還要檢查身體部位。原文是 neck，不是 foot 或 arm。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — knowledge of the jungle",
+      "answerKey": "A — knowledge of the jungle",
+      "type": "Multiple Choice",
+      "prompt": "“What helped her to survive?”",
+      "translation": "甚麼幫助她生存下來？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 survival factor。定位詞是 “helped her survive”。原文未必逐字重複 survive，但可能用enabled her to cope。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No doubt it was her familiarity with the wilderness that enabled her to cope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，是她對 wilderness 的熟悉使她能夠應付這個處境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Initially, I saw planes circling above me, but after a few days I realised the search had been called off,’ she said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「起初，我看見飛機在我上方盤旋，但幾天後我明白搜尋已經停止。」只看首尾句，可以判斷本段主題是她如何在叢林中自救，尤其是靠 wilderness familiarity。題目問helped her survive，答案在首句已非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“helped her”"
+            },
+            {
+              "kind": "quote",
+              "text": "“survive”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No doubt it was her familiarity with the wilderness that enabled her to cope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，是她對荒野的熟悉使她能夠應付處境。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Her parents were biologists and Juliane had grown up in the jungle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的父母是生物學家，Juliane 在叢林中長大。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “familiarity with the wilderness” 表示她熟悉野外環境。下一句說她在 jungle 長大，解釋為何她有這種熟悉度。選項 A “knowledge of the jungle” 正好概括這點。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A knowledge of the jungle正確。familiarity with the wilderness / grown up in the jungle 對應這項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B a map showing the location of the river錯。她沒有地圖，只靠 little stream 的方向判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C appropriate clothing and shoes錯。原文說她穿著 miniskirt，只穿一隻鞋，條件很差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D food supplies from the plane錯。原文說 With no provisions，即沒有補給。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "knowledge of the jungle= familiarity with the wilderness helped her survive= enabled her to cope"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 看似合理，因為飛機碎片附近可能有物資；但原文直接說 “With no provisions”。C 也不成立，因為她衣著和鞋履都很不適合叢林求生。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — stingrays",
+      "answerKey": "B — stingrays",
+      "type": "Multiple Choice",
+      "prompt": "“What was the biggest threat to her survival?”",
+      "translation": "她求生過程中最大的威脅是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 biggest threat，所以要找原文中的程度詞，例如 more serious than all the others。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surprisingly, she felt no hunger but as the days passed her health was deteriorating rapidly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人驚訝的是，她並不感到飢餓，但隨著日子過去，她的健康迅速惡化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before each step, she had to poke ahead in the sand with a stick to avoid treading on poisonous stingrays hidden on the bottom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每走一步之前，她都必須用棍子在前方沙中探路，以避免踩到藏在河底的有毒 stingrays。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段講她身體狀況變差，以及在水中行走時最大的危險。題目問 biggest threat，段末 stingrays 很可能是答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“biggest threat”"
+            },
+            {
+              "kind": "quote",
+              "text": "“survival”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Walking in the stream, however, presented one risk more serious than all the others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在溪流中行走帶來了一種比所有其他風險都更嚴重的危險。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before each step, she had to poke ahead in the sand with a stick to avoid treading on poisonous stingrays hidden on the bottom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每走一步前，她都要用棍子探沙，以免踩到藏在底部的有毒 stingrays。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“one risk more serious than all the others” 直接對應 biggest threat。下一句揭示這個 risk 是poisonous stingrays。原文雖然也提到傷口惡化、蛆蟲、飢餓、crocodiles，但只有 stingrays 被明確描述為比所有其他風險更嚴重。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A infected wounds錯。傷口和蛆蟲很危險，但原文沒有說這是 more serious than all the others。 B stingrays正確。poisonous stingrays 是最大風險。 C starvation錯。她後面確實 starving，但 Paragraph 6 明確標出 stingrays 為最大風險。 D crocodiles錯。Paragraph 7 有 crocodiles，但她相信牠們怕人，原文沒有說牠們是最大威脅。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "biggest threat= one risk more serious than all the others stingrays= poisonous stingrays hidden on the bottom"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "crocodiles 很容易吸引注意，因為牠們看似更可怕。但 IELTS 要跟原文程度詞走。原文把 “more serious than all the others” 放在 stingrays 前面，所以答案要選 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "C — 10 days",
+      "answerKey": "C — 10 days",
+      "type": "Multiple Choice",
+      "prompt": "“How long was she lost in the jungle?”",
+      "translation": "她在叢林中迷失了多久？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 How long，所以要找時間詞。定位詞是 lost in the jungle / day。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the stream grew into a river, swimming was the only option.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當溪流變成河流時，游泳成為唯一選擇。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rescue was at hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "救援就在眼前。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講她從溪流走到河流、繼續求生，最後接近救援。題目問迷失多久，答案應在她找到救援前一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“How long”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lost”"
+            },
+            {
+              "kind": "quote",
+              "text": "“day”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the tenth day, starving and barely conscious, she spotted a hut and a canoe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第十天，她飢餓且幾乎失去意識時，看見一間小屋和一艘 canoe。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“On the tenth day” 表示她是在第十天發現 hut and canoe。下一句說它們屬於 nearby woodcutters，並且 rescue was at hand。由此可知，她在叢林中迷失至第十天才接近獲救。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 3 days錯。Paragraph 8 提到她記得第三天經過 engine，但不是獲救時間。 B 5 days錯。沒有五天的證據。 C 10 days正確。On the tenth day。 D 15 days錯。原文沒有十五天。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "How long was she lost= when she finally spotted rescue signs 10 days= On the tenth day"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 說 “on the third day” 是她記得經過 engine 的日子，不是迷失總時長。看到數字題時，要檢查該數字描述的是哪件事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "D — She reached a campsite along the river.",
+      "answerKey": "D — She reached a campsite along the river.",
+      "type": "Multiple Choice",
+      "prompt": "“How was she finally rescued?”",
+      "translation": "她最後是怎樣獲救的？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 How was she rescued，要找她如何遇到人或到達救援點。定位詞是 “finally rescued”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the stream grew into a river, swimming was the only option.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當溪流變成河流時，游泳成為唯一選擇。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rescue was at hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "救援就在眼前。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段由她沿水路前進，最後走到可被救的位置。題目問 finally rescued，答案一定在段末附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“finally rescued”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hut”"
+            },
+            {
+              "kind": "quote",
+              "text": "“canoe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“woodcutters”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the tenth day, starving and barely conscious, she spotted a hut and a canoe. They belonged to three woodcutters working nearby. Rescue was at hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第十天，她飢餓且幾乎失去意識時，看見一間小屋和一艘 canoe。它們屬於在附近工作的三名woodcutters。救援就在眼前。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 search party 找到她，也沒有說她向飛機發訊號。她是沿著水路前進，最後看見 hut and canoe，這些屬於附近 woodcutters。選項 D “She reached a campsite along the river” 是最接近的概括：hut and canoe 構成河邊工作營地或臨時據點。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A A search party found her in the jungle.錯。她幾天後已發現 search had been called off。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Native hunters found her.錯。原文是 three woodcutters，不是 native hunters。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C She signalled to a plane from the river.錯。原文只說她早期看到 planes circling，後來搜尋停止，沒有 signal。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D She reached a campsite along the river.正確。她看到 hut and canoe，屬於附近 woodcutters。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "campsite along the river= a hut and a canoe belonging to woodcutters nearby finally rescued= Rescue was at hand"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A 很有吸引力，因為 Paragraph 5 的確出現 planes circling above。可是她後來意識到search had been called off。真正獲救線索是 hut, canoe, woodcutters。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Other survivors of the crash were found in the jungle.”",
+      "translation": "空難的其他生還者在叢林中被找到。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有兩個核心：other survivors，以及 were found in the jungle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要找文章是否說 Juliane 之外還有人生還。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a remarkable documentary, Wings of Hope, German director Werner Herzog recounts the true story of an eighteen-year-old girl, the sole survivor of a plane crash in the Amazon jungle in 1971.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在紀錄片 Wings of Hope 中，Werner Herzog 講述一名十八歲女孩的真實故事；她是 1971 年亞馬遜叢林空難中的唯一生還者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twenty-nine years later, Herzog returns to the jungle with Juliane Koepke, now a 46-year-old biologist, and she tells her amazing story on film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十九年後，Herzog 與如今 46 歲、身為生物學家的 Juliane Koepke 重返叢林，並由她在影片中講述自己的故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 1 已經把 Juliane 定位為 sole survivor。題目說 other survivors，需要和 sole 這個範圍詞比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other survivors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crash”"
+            },
+            {
+              "kind": "quote",
+              "text": "“jungle”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最重要短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“the sole survivor of a plane crash”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一場空難中的唯一生還者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sole” 是整題控制答案的詞。sole survivor 表示唯一生還者。若 Juliane 是唯一生還者，就不可能有 other survivors 被找到。題目提出的 “Other survivors” 與原文 “sole survivor” 互相衝突。題目命題：主體：Other survivors動作：were found地點：in the jungle原文命題：主體：Juliane身份：the sole survivor事件：plane crash in the Amazon jungle比較結果：原文直接排除 “other survivors”。答案判斷：題目和原文相反，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “were found in the jungle”，但真正控制答案的是 “Other survivors”。即使文章有 jungle、crash、rescue 等字，sole survivor 已經決定沒有其他生還者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Juliane was upset when she revisited the crash site.”",
+      "translation": "Juliane 重訪空難地點時感到情緒激動或難過。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問 Juliane 的情緒反應，定位詞是 revisited crash site / upset。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Juliane, now 46, reliving such a traumatic experience on film must have been a great challenge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對如今 46 歲的 Juliane 來說，在電影中重溫如此創傷性的經歷必定是巨大挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, back in the town, standing in front of a monument erected in memory of the victims of the crash, entitled Alas de Esperanza (Wings of Hope), Juliane comments simply, ‘I emerged as the sole embodiment of hope from this disaster.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後回到城鎮，她站在為紀念空難遇難者所建、名為 Alas de Esperanza（Wings of Hope）的紀念碑前，只簡單地評論說：「我從這場災難中成為唯一的希望化身。」只看首尾句，可以先猜 Paragraph 8 講她重返現場的心理反應。首句承認這是 great challenge，但末句的 comments simply 提示她表現很克制。要判斷 upset，需要看中間細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“upset”"
+            },
+            {
+              "kind": "quote",
+              "text": "“revisited”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crash site”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But she shows little emotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但她幾乎沒有表現出情緒。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“She is dispassionate and unemotional when describing the flight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她描述那次飛行時冷靜、沒有情緒波動。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Juliane remains detached and scientific, looking through the debris, now buried under dense vegetation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Juliane 仍然保持抽離和科學化的態度，查看如今被茂密植被掩埋的殘骸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說她 was upset。原文提供多個相反描述： shows little emotion幾乎沒有表現情緒dispassionate and unemotional冷靜、沒有情緒波動detached and scientific抽離、科學化這些詞都和 upset 方向相反。雖然段首說 reliving traumatic experience must have been a great challenge，但後文清楚描述她實際表現很冷靜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Juliane情緒：was upset時間：when revisited crash site原文命題：主體：Juliane情緒表現：little emotion / dispassionate / unemotional / detached時間：when describing flight and looking through debris at crash site比較結果：情緒方向相反，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“traumatic experience” 和 “great challenge” 很容易令人推測她 upset。可是文章後面用 But 轉折，真正描述她反應的是 little emotion、unemotional、detached。做 YES / NO 題時，要優先看明確情緒詞，不要只靠合理想像。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Wings of Hope is the name given to a memorial statue.”",
+      "translation": "Wings of Hope 是一座紀念性雕像／紀念物的名稱。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問 Wings of Hope 是否是紀念遇難者的 memorial object 的名稱。定位詞是 “Wings of Hope” 和 “memorial”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Juliane, now 46, reliving such a traumatic experience on film must have been a great challenge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對如今 46 歲的 Juliane 來說，在電影中重溫如此創傷性的經歷必定是巨大挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, back in the town, standing in front of a monument erected in memory of the victims of the crash, entitled Alas de Esperanza (Wings of Hope), Juliane comments simply, ‘I emerged as the sole embodiment of hope from this disaster.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後回到城鎮，她站在為紀念空難遇難者所建、名為 Alas de Esperanza（Wings of Hope）的紀念物前，只簡單地評論說：「我從這場災難中成為唯一的希望化身。」只看首尾句，可以看到 Wings of Hope 在兩個地方出現：Paragraph 1 是紀錄片名稱；Paragraph 8 是紀念物名稱的英文翻譯。題目問 memorial statue，需要看 Paragraph 8 最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wings of Hope”"
+            },
+            {
+              "kind": "quote",
+              "text": "“memorial statue”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“a monument erected in memory of the victims of the crash, entitled Alas de Esperanza (Wings of Hope)”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一座為紀念空難遇難者而建的 monument，名為 Alas de Esperanza（Wings of Hope）。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “monument erected in memory of the victims”。這等於 memorial monument，即紀念遇難者的紀念物。它的名稱是 “Alas de Esperanza”，括號中給出英文 “Wings of Hope”。題目用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“memorial statue” 概括這個 memorial monument。嚴格來說，原文的字是 monument，不是statue；不過這題的核心關係是：Wings of Hope 是不是給某個紀念遇難者的物件使用的名稱。原文支持這個關係。題目命題：主體：Wings of Hope關係：is the name given to對象：a memorial statue / memorial object原文命題：主體：Alas de Esperanza (Wings of Hope)關係：entitled對象：a monument erected in memory of the victims比較結果： name / entitled 對應；memorial / erected in memory 對應；Wings of Hope 對應括號英文名稱。答案判斷：題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 Paragraph 1 中 Wings of Hope 也是 documentary 的名稱。文章中同一名稱同時用於紀錄片和紀念物。第二個中伏位是 statue / monument 的詞語距離；原文提供的是monument，題目用 memorial statue 近似概括。判斷時要看它是否指「紀念遇難者的具體物件」，原文正好有這個資訊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Juliane suffered nightmares for many years as a result of her experience.”",
+      "translation": "Juliane 因這次經歷而多年受噩夢困擾。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目包含結果和時間：nightmares，以及 for many years。要檢查文章是否提到她長期心理後遺症。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Juliane, now 46, reliving such a traumatic experience on film must have been a great challenge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對如今 46 歲的 Juliane 來說，在電影中重溫如此創傷經歷必定是巨大挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, back in the town, standing in front of a monument erected in memory of the victims of the crash, entitled Alas de Esperanza (Wings of Hope), Juliane comments simply, ‘I emerged as the sole embodiment of hope from this disaster.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後回到城鎮，她站在紀念空難遇難者的 monument 前，只簡單地說：「我從這場災難中成為唯一的希望化身。」只看首尾句，可以估計本段談 trauma 和重返現場，但不一定談 nightmares。題目問長期噩夢，要仔細找是否有 nightmare / dreams / sleep / years 這類證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“nightmares”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“as a result”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關資訊只有："
+            },
+            {
+              "kind": "quote",
+              "text": "“reliving such a traumatic experience on film must have been a great challenge”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在電影中重溫這種創傷經歷必定是巨大挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“But she shows little emotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但她幾乎沒有表現情緒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說這次經歷 traumatic，也說重溫這件事是 great challenge。這些資訊可以支持她經歷過巨大心理壓力，但文章沒有說：她做噩夢；噩夢持續多年；噩夢由空難直接造成；她有任何睡眠問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Juliane結果：suffered nightmares時間：for many years原因：as a result of her experience原文命題：主體：Juliane情況：重溫創傷經歷很有挑戰表現：shows little emotion / detached and scientific比較結果：原文有 trauma 背景，但缺少 nightmares 和 many years 兩個核心元素。文章也沒有明確說她沒有噩夢，所以不能選 NO。資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“traumatic experience” 很容易令人聯想到 nightmares。這是合理想像，但 IELTS Reading 需要文章證據。只要文章沒有提供 nightmare、sleep、dreams、long-term suffering 之類資訊，就不能把創傷自動推成多年噩夢。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Survivor from the sky.pdf",
+    "sha256": "ce77e7955bde247110bbe3718121665ef5de79c47fb765a7f41719de8f795a21",
+    "pageCount": 29
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句介紹紀錄片 Wings of Hope，由德國導演 Werner Herzog 講述 1971 年亞馬遜空難中唯一生還者的真實故事。末句說二十九年後，Herzog 帶 Juliane Koepke 重返叢林，由她在鏡頭前講述經歷。只看首尾句，可以判斷本段是人物與故事背景：Juliane 當年 18 歲，如今 46 歲，是biologist，文章會圍繞她的空難、生還和重返現場展開。"
+      },
+      {
+        "number": "2",
+        "summary": "首句交代 Juliane 剛在秘魯 Lima 高中畢業，與母親乘機去父親位於叢林的研究站過聖誕。末句說她失去意識前看到下方密林，像深綠色 broccoli，幾百英里都沒有空地。只看首尾句，可以估計本段主要講空難發生過程：飛機遇上暴風，被 lightning 擊中，機身解體，Juliane 連同座位從三萬英尺高空墜落。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Juliane 奇蹟地從空中墜落後生還。末句說她撞上樹冠後，穿過藤蔓迷宮，降落速度被減慢，最後落入深泥中。只看首尾句，可以判斷本段解釋她為何沒有當場死亡：storm updraft、座椅排列造成 spiralling movement、樹冠、vines 和 mud 共同減慢衝擊。這段對「甚麼幫助減慢墜落」特別重要。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說雖然墜落生還本身已是奇蹟，但真正求生才剛開始。末句說她有頸部骨折、腦震盪、腿和背部深傷，同時休克、迷路，完全獨自在亞馬遜叢林。只看首尾句，可以看出本段功能是轉入survival challenge：Juliane 醒來後雖然活著，身體狀況很差，沒有同伴，必須在受傷和孤立中自救。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說毫無疑問，她對 wilderness 的熟悉使她能夠應付處境。末句引用她的說法：起初看到飛機在上空盤旋，但幾天後明白搜尋已經停止。只看首尾句，可以估計本段講她靠叢林知識求生：她父母是 biologists，自己在叢林長大，因此知道應沿著小溪走，希望溪流通向大河，最終帶來救援。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說奇怪的是她並不感到飢餓，但日子過去後健康迅速惡化。末句說她每走一步前都要用棍子探沙，以免踩到藏在河底的 poisonous stingrays。只看首尾句，可以判斷本段講求生期間身體惡化和最大危險：傷口感染、蛆蟲、留在水中求生，以及在溪流中行走時避開 stingrays。題目問biggest threat 時要特別看本段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說溪流變成河流後，游泳成了唯一選擇。末句說她看見一間 hut 和一艘 canoe，它們屬於附近工作的三名 woodcutters，救援就在眼前。只看首尾句，可以判斷本段講最後幾天的危險和獲救過程：水深後有 crocodiles，但她仍繼續游；第十天，飢餓且幾乎失去意識時，她到達木匠的臨時據點。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說對 46 歲的 Juliane 來說，在電影中重溫如此創傷的經歷必定是巨大挑戰。末句她站在紀念遇難者的 monument 前說，自己從災難中成為唯一的希望象徵。只看首尾句，可以判斷本段講她重返現場時的反應：她沒有明顯情緒崩潰，反而冷靜、科學化地看待殘骸、溪流、紀念碑和自己的survivor identity。"
+      }
+    ]
+  }
+}

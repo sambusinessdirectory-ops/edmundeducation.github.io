@@ -1,0 +1,1307 @@
+{
+  "id": "p2-062-the-brains-business",
+  "catalogueId": "p2-062",
+  "catalogueIds": [
+    "p2-062"
+  ],
+  "passage": 2,
+  "title": "The Brains Business",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "G",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "F*",
+    "H",
+    "C",
+    "C",
+    "A, B",
+    "A, C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B — Paragraph B",
+      "answerKey": "B — Paragraph B",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Education for the masses"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is happening for four reasons. The first is the democratisation of higher education –‘massification’ in the language of the educational profession.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況出現有四個原因。第一個是高等教育民主化，用教育界的說法就是「大眾化」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“China doubled its student population in the late 1990s, and India is trying to follow suit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國在 1990 年代末把學生人口增加一倍，印度也正嘗試跟隨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的段落功能很清楚：它講 higher education 由少數人享有，逐漸變成大眾接受的教育。heading 中的 “for the masses” 對應 “massification”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “masses / mass education / democratisation”。原文直接出現 “massification”，並補充developed countries 成人高等教育資格比例由 22% 升至 41%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The proportion of adults with higher educational qualifications in developed countries almost doubled between 1975 and 2000, from 22 per cent to 41 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1975 至 2000 年間，發達國家擁有高等教育資格的成年人比例幾乎翻倍，由 22% 增至 41%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句提供實際數據，證明 higher education 進入大眾化階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Education for the masses” 是對 “democratisation of higher education / massification” 的自然概括，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "G — Paragraph G",
+      "answerKey": "G — Paragraph G",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Future possibilities"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What, if anything, can be done?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果有任何方法可行，到底可以做甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They think it is foolish to waste higher education on people who would rather study ‘Seinfeld’ than Socrates, and disingenuous to confuse the pursuit of truth with the pursuit of profit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為，把高等教育浪費在寧願研究《Seinfeld》也不研究 Socrates 的人身上是愚蠢的；把追求真理和追求利潤混在一起也顯得不真誠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出 solution / future direction，最後一句呈現 conservative view。這段不是單純描述現在問題，而是討論未來大學可能走向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “future possibilities”。原文沒有完全重複這個 heading，但有 “can be done”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“revolution”、 “Thirty years from now”、 “Internet tuition”、 “for-profit universities”。這些都是未來方案和預測的訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Thirty years from now the big university campuses will be relics,” says Peter Drucker."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Drucker 說：「三十年後，大型大學校園將成為遺跡。」再看：“Fortunately, in his view, help is on the way in the form of Internet tuition and for-profit universities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他看來，幸好幫助正在到來，形式是網上教學和牟利大學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段同時列出 techno-utopian solution 和 conservative reaction，所以 “Future possibilities” 最能概括全段。答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "D — Paragraph D",
+      "answerKey": "D — Paragraph D",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Globalisation and competition"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third factor is globalisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個因素是全球化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are more than 80 million students worldwide, and 3.5 million people are employed to teach them or look after them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球有超過 8000 萬學生，並有 350 萬人受聘教導或照顧他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接標明 globalisation；中段轉入 “The fourth is competition.” 這段剛好包含 heading 的兩個主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “globalisation” 和 “competition”。原文中兩個詞都直接出現，並且分別展開。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“The number of people from developed countries studying abroad has doubled over the past twenty years, to 1.9 million.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自發達國家、到海外讀書的人數在過去二十年翻倍，達到 190 萬。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditional universities are being forced to compete for students and research grants, and private companies are trying to break into a sector which they regard as ‘the new healthcare’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統大學被迫競爭學生和研究經費，私人公司也嘗試進入這個它們視為「新醫療保健」的行業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句支援 globalisation；第二句支援 competition。Heading 完整覆蓋全段，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "E — Paragraph E",
+      "answerKey": "E — Paragraph E",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading：Funding problem"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this sounds as though a golden age for universities has arrived.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切聽起來像是大學的黃金時代已經來臨。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many governments have tried to square the circle through tighter management, but management cannot make up for lack of resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多政府嘗試透過更嚴格管理來解決這個難題，但管理不能彌補資源不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句先營造正面期待，後面用 “However” 轉向大學內部困境。最後一句把問題落在 lack of resources，正好對應 funding problem。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “funding / funds / resources”。原文有 politicians who fund them、provide the requisite funds、charge realistic fees、lack of resources。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If more and more governments are embracing massification, few of them are willing to draw the appropriate conclusion from their enthusiasm: that they should either provide the requisite funds … or allow universities to charge realistic fees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果越來越多政府接受高等教育大眾化，很少政府願意從這份熱情中得出應有結論：它們應提供所需資金，或容許大學收取現實水平的學費。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接指出問題：政府想要 massification，卻沒有配套資金或學費安排。Heading “Funding problem” 概括全段核心，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A, D, E, F, H",
+      "answerKey": "A, D, E, F, H",
+      "type": "Multiple-answer Questions",
+      "prompt": "Questions 18–22",
+      "translation": "有些大學正在互相合併或結合。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這類題要逐項判斷每個選項是否獲原文支援；不能只憑某個字眼相似就選。Multiple-answer 題每個正確選項都要單獨證明。"
+            },
+            {
+              "kind": "label",
+              "text": "A 正確Statement："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some universities are joining with each other.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。首句講古老大學和傳統；尾句說變化正在拉扯大學的根基。這段會列出大學面對變化時採取的做法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “joining with each other”。原文不會用 joining，較可能用 mergers、acquisitions、partnerships。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Universities are experimenting with new ways of funding … forging partnerships with private companies and engaging in mergers and acquisitions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大學正在試驗新的資金來源，與私人公司建立合作關係，並參與合併和收購。"
+            },
+            {
+              "kind": "quote",
+              "text": "“mergers and acquisitions” 支援 “joining with each other”。雖然原文也提到 private companies，但 mergers and acquisitions 本身已表示機構之間結合。A 正確。 D 正確Statement：“The number of people from developed countries studying outside their home countries has doubled in the last two decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自發達國家、到本國以外讀書的人數在過去二十年翻倍。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。第一句直接說第三個因素是 globalisation。這段前半集中處理留學、海外校園和教育出口。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “developed countries”、“studying outside their home countries”、“doubled”、“last two decades”。原文幾乎逐字對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The number of people from developed countries studying abroad has doubled over the past twenty years, to 1.9 million.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自發達國家、到海外讀書的人數在過去二十年翻倍，達到 190 萬。"
+            },
+            {
+              "kind": "quote",
+              "text": "“studying abroad” = studying outside their home countries“over the past twenty years” = in the last two decades所以 D 正確。 E 正確Statement：“Scandinavian governments provide enough money for their universities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "北歐政府為大學提供足夠資金。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。這段處理 funding problem，尤其是政府願不願意提供資金。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Scandinavian governments” 和 “provide enough money”。原文直接提到 “the"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“they should either provide the requisite funds (as the Scandinavian countries do) or allow universities to charge realistic fees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們應該提供所需資金，像北歐國家那樣，或者容許大學收取現實水平的學費。"
+            },
+            {
+              "kind": "quote",
+              "text": "“requisite funds” 意思是所需資金。題目說 “provide enough money”，就是把 “provide the requisite funds” 改成較日常的說法。E 正確。 F 最可能正確，但要留意證據距離Statement：“The largest university in the world is in Turkey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界上最大的大學在 Turkey。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。這段講 massification 帶來的品質壓力，並舉出 mega-institutions。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “largest university” 和 “Turkey”。原文沒有直接寫 “largest university in the world”，但有Turkey’s Anadolu University 和學生人數。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In mega-institutions such as the University of Rome (180,000 students), the National University of Mexico (more than 200,000), and Turkey’s Anadolu University (530,000), individual attention to students is bound to take a back seat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一些超大型機構中，例如 University of Rome 有 180,000 名學生、National University of Mexico 有超過 200,000 名學生、Turkey’s Anadolu University 有 530,000 名學生，學生得到個別關注必然會退居次位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在文中列出的 mega-institutions 裡，Anadolu University 的 530,000 明顯最高。因此，如果題目要求選五項，F 是最合理的第五個選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過教學上要誠實提醒：原文沒有直接宣稱 “largest university in the world”。它只提供幾個超大型大學例子和人數。這題若按非常嚴格的 IELTS 證據標準，F 的支援比 A、D、E、H 弱。"
+            },
+            {
+              "kind": "label",
+              "text": "H 正確Statement："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Drucker foresees the end of university campuses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Drucker 預見大學校園將走向終結。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。第一句問可以做甚麼；中段引用 Peter Drucker 的未來預測。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Peter Drucker” 和 “university campuses”。原文直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Thirty years from now the big university campuses will be relics,” says Peter Drucker, a veteran management guru."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "資深管理大師 Peter Drucker 說：「三十年後，大型大學校園將成為遺跡。」“will be relics” 表示將成為過去時代留下的東西。題目 “foresees the end of university campuses”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "概括這個預測，所以 H 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項簡析B 錯：原文說 developed countries 正在消化高等教育人數大增，沒有說 graduates 不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯：原文說 “best companies” 把至少三分之一 investment 投入 knowledge-intensive intangibles；選項改成 “most companies”、 “profits”、 “research and development”，三個關鍵都越過原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 錯：原文說 Italian universities 要所有學生接受 viva voce examination，平均約五分鐘；選項加入 “before being accepted into university”，文章沒有提供這個入學前條件。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "C — charging students higher fees",
+      "answerKey": "C — charging students higher fees",
+      "type": "Multiple Choice",
+      "prompt": "“Universities are responding to change by…”",
+      "translation": "大學正在怎樣回應變化？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For those of a certain age and educational background, it is hard to think of higher education without thinking of ancient institutions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對某些年齡和教育背景的人來說，一想到高等教育，就很難不想到古老機構。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such changes are tugging at the ivy’s roots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些變化正在拉扯常春藤的根基，也就是動搖傳統大學的根基。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 先講 tradition，再講 universities 正面對 fundamental changes。題目問 “responding to change”，所以要看段落後半列出的具體做法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “responding to change”。原文對應 “experimenting with new ways of funding”、“student fees”、“partnerships”、“mergers and acquisitions”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Universities are experimenting with new ways of funding (most notably through student fees), forging partnerships with private companies and engaging in mergers and acquisitions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大學正在試驗新的資金方式，最明顯的是透過學生學費；它們也與私人公司建立合作關係，並參與合併和收購。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “charging students higher fees” 對應 “through student fees”。雖然原文用的是 student fees，沒有直接寫 higher fees，但在後文 Paragraph E 又提到 “allow universities to charge realistic fees”，說明學費是大學解決資金壓力的一項方向。因此 C 是最有證據的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯：原文說較新的大學努力創造古老氣氛，但沒有說它們建造 old-style buildings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯：文章沒有說 universities 回應變化的方法是 introducing new subjects。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 23 答 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — heavily reliant on universities",
+      "answerKey": "C — heavily reliant on universities",
+      "type": "Multiple Choice",
+      "prompt": "“The knowledge economy is…”",
+      "translation": "知識經濟是怎樣的？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second reason is the rise of the knowledge economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個原因是知識經濟的興起。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only do they produce the brain workers who man it, they also provide much of its backbone, from laboratories to libraries to computer networks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大學不單培養運作知識經濟的腦力工作者，也提供其大部分支柱，從實驗室、圖書館到電腦網絡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 的功能很直接：解釋 knowledge economy 為何提升 universities 的重要性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “knowledge economy” 和 “universities”。原文在同段反覆出現 knowledge-based industries、knowledge-intensive intangibles、universities。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Universities are among the most important engines of the knowledge economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大學是知識經濟最重要的引擎之一。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only do they produce the brain workers who man it, they also provide much of its backbone…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大學不單培養支撐它的人才，也提供它的大部分基礎支柱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “heavily reliant on universities” 是對這兩句的概括。knowledge economy 依靠大學提供人才和基礎設施。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯：原文只提供 Germany 和 Britain 的數據，沒有說 knowledge economy 在 Germany rise most of all。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯：文章沒有說 Britain 未充分重視 knowledge economy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Multiple Choice",
+      "prompt": "“Current problems at universities, especially in Europe, include…”",
+      "translation": "目前大學面對的問題，尤其在歐洲，包括哪些？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this sounds as though a golden age for universities has arrived.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切聽起來像大學的黃金時代已經來臨。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many governments have tried to square the circle through tighter management, but management cannot make up for lack of resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多政府嘗試用更嚴格管理來處理這個難題，但管理不能彌補資源不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句先說外表像黃金時代，接著用 “However” 轉向 academia 內部感受。這段特別適合題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“current problems”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Europe”、“administrators”、“funders”、“funding”、“management”。原文對應“particularly in Europe”、“administrators are locked in bad-tempered exchanges with the politicians who fund them”、“lack of resources”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 的證據：“Academics complain and administrators are locked in bad-tempered exchanges with the politicians who fund them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學者抱怨，行政人員也和資助他們的政治人物陷入火藥味濃厚的爭論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接支援 A：administrators arguing with government funders。"
+            },
+            {
+              "kind": "label",
+              "text": "B 的證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“The biggest problem is the role of the state.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大的問題是國家的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“few of them are willing … either provide the requisite funds … or allow universities to charge realistic fees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少政府願意提供所需資金，或容許大學收取現實水平的學費。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支援 B：problems with funding。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯：原文提到 governments tried tighter management，但最後說 management cannot make up for lack of resources。問題焦點在資源不足，不在 poor management。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 25 答 A, B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Multiple Choice",
+      "prompt": "“Possible solutions put forward by reformists and conservatives include…”",
+      "translation": "改革派和保守派提出的可能解決方法包括哪些？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What, if anything, can be done?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果有任何方法可行，到底可以做甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They think it is foolish to waste higher education on people who would rather study ‘Seinfeld’ than Socrates, and disingenuous to confuse the pursuit of truth with the pursuit of profit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為，把高等教育浪費在寧願研究《Seinfeld》也不研究 Socrates 的人身上是愚蠢的；把追求真理和追求利潤混在一起也顯得不真誠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接引出 solutions。段落內有兩派：techno-utopians 和 cultural conservatives。題目問reformists and conservatives，所以答案很可能一項來自前半，一項來自後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “solutions”、“technology”、“conservatives”、“fewer students”。原文對應 “Internet tuition”、“for-profit universities”、“best way forward is backward”、“foolish to waste higher education on people…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "A 的證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fortunately, in his view, help is on the way in the form of Internet tuition and for-profit universities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他看來，幫助正在以網上教學和牟利大學的形式到來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Internet tuition 直接支援 A “greater use of technology”。"
+            },
+            {
+              "kind": "label",
+              "text": "C 的證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cultural conservatives, on the other hand, believe that the best way forward is backward.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，文化保守派認為最好的前進方式是回到過去。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They think it is foolish to waste higher education on people who would rather study ‘Seinfeld’ than Socrates…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為，把高等教育浪費在寧願研究《Seinfeld》也不研究 Socrates 的人身上是愚蠢的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這反映 conservatives 對 mass higher education 有保留，認為高等教育不應擴展到所有人。選項C “teaching fewer students” 是對這種回到較精英式大學模式的概括，所以可選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯：Peter Drucker 是 management guru，但原文沒有提出 “employing management gurus to teach” 作為方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 26 答 A, C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Brains Business.pdf",
+    "sha256": "4c8eae1fbb75fd29cbbbff29bf33a56e5ad5a4bd604685770c6d39429b0eb5d1",
+    "pageCount": 16
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說，對某些年齡和教育背景的人來說，一想到 higher education，就很難不想到古老大學。尾句說這些改變正在拉扯 ivy’s roots，即傳統大學的根基。只看首尾句，可以估計這段在建立主題：大學表面上愛傳統、重歷史，但正面對非常深層的變化。中間提到 student fees、private companies、mergers and acquisitions，都是大學回應新環境的方法。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說這些變化有四個原因，第一個是 higher education 的 democratisation，也叫 massification。尾句說 China 在 1990 年代末把學生人口翻倍，India 也嘗試跟隨。只看首尾句，可以判斷這段主題是高等教育大眾化：發達國家成人高等教育資格比例大增，富裕國家仍在消化人數增長，而發展中國家也開始進入同一趨勢。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說第二個原因是 knowledge economy 的興起。尾句說大學不只生產 brain workers，也提供laboratories、libraries、computer networks 等 backbone。首尾句顯示這段的主題是知識經濟如何改變大學地位。中間用 Germany 和 Britain 的數據說明 knowledge-based industries 佔比上升，並指出頂尖公司投資 knowledge-intensive intangibles，例如 R&D、licensing、marketing。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說第三個因素是 globalisation。尾句列出全球高等教育規模：每年 3000 億美元、8000 萬學生、350 萬教職員。首尾句顯示這段有兩個連續主題：globalisation 和 competition。前半講距離消失、留學人數翻倍、海外校園和教育出口；後半講傳統大學被迫競爭學生與研究經費，私人公司也想進入高等教育市場。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說這一切聽起來像大學黃金時代已經來臨。尾句說 management 不能彌補資源不足。只看首尾句，可以先估計這段用轉折處理大學內部的困境，尤其在 Europe。段落核心是 funding problem：政府推動 massification，卻不願提供足夠資金，也不願讓大學收取 realistic fees，結果行政人員和資助者之間出現衝突。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說在學術世界許多地方，Kingsley Amis 的 “more means worse” 正在成真。尾句用 Italian universities 的 viva voce examination 作例子，說學術界保守態度不利於適應 massification。只看首尾句，段落大概在講大眾化後的品質壓力：薪酬下跌、建築和圖書館惡化、超大型大學難以照顧學生，以及舊制度不配合新學生規模。"
+      },
+      {
+        "number": "G",
+        "summary": "首句問：What, if anything, can be done? 尾句說 cultural conservatives 認為把 truth 的追求和profit 的追求混在一起，是不真誠的。首尾句顯示這段討論未來可能方向和改革爭議。前半是techno-utopians：Internet tuition、for-profit universities、campuses 可能變成 relics；後半是cultural conservatives：主張回到精英式高等教育，反對把大學過度市場化。"
+      }
+    ]
+  }
+}

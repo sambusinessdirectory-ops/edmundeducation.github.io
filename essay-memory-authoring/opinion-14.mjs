@@ -1,0 +1,362 @@
+// Model Essay 14 · Opinion: charm, competence and lasting trust.
+const simple=[
+  'In many places, people often think successful people are sure of themselves, easy to like and naturally good at making others like them.',
+  'So some people say the ability to make others like you is needed to succeed.',
+  'I fully disagree because success that lasts depends much more on skills, self-control and being someone others can trust than on being charming.',
+  'The main reason charm is not needed is that many kinds of success come from skills rather than being liked by other people.',
+  'In most jobs, people are finally judged by whether they can fix problems, make good choices and do good work again and again.',
+  'For example, a doctor does not succeed just by speaking kindly to patients; they must find out exactly what is wrong and give treatment that works.',
+  'Likewise, an engineer who helps keep a bridge from falling may be quiet and not enjoy talking to people, but their work is still just as valuable.',
+  'In these cases, charm may make talking easier, but it cannot take the place of real knowledge and skill.',
+  'So success is more like a strong base than a bright light: what matters most is not how much attention someone gets, but how well they do important work.',
+  'Another reason is that charm without real ability can fail easily and may even cause harm.',
+  'Charming people may get noticed quickly, but being noticed is not the same as achieving something.',
+  'If a leader is charming but cannot be trusted, workers may feel encouraged at first, yet they will soon lose trust when promises are broken or choices are poor.',
+  'On the other hand, a person who is less charming but honest, ready and reliable can slowly earn strong respect.',
+  'This kind of respect gets less attention, but it stays for a longer time.',
+  'At work, in schools and in public life, people in the end trust good results more than nice words.',
+  'In short, charm can help, but people do not need it to succeed.',
+  'Real success comes from skills, doing good work again and again and being honest, not just from making others admire you.',
+];
+const vocabulary=[
+  [['many societies','many places','許多社會'],['confident','sure of themselves','自信'],['magnetic','easy to like','有吸引力'],['naturally charming','naturally good at making others like them','天生有人格魅力']],
+  [['As a result','So','因此'],['charisma','ability to make others like you','個人魅力'],['necessary ingredient for achievement','needed to succeed','取得成就的必要條件']],
+  [['completely disagree','fully disagree','完全不同意'],['long-term success','success that lasts','長期成功'],['competence','skills','能力'],['discipline','self-control','自律'],['trustworthiness','being someone others can trust','可靠性'],['personal charm','being charming','個人魅力']],
+  [['charisma','charm','個人魅力'],['not essential','not needed','並非必要'],['many forms of success','many kinds of success','許多形式的成功'],['social appeal','being liked by other people','社交吸引力']],
+  [['professions','jobs','職業'],['ultimately judged','finally judged','最終評價'],['solve problems','fix problems','解決問題'],['sound decisions','good choices','明智決定'],['deliver consistent results','do good work again and again','持續交出成果']],
+  [['simply','just','單純'],['speaking warmly','speaking kindly','親切地說話'],['diagnose illnesses accurately','find out exactly what is wrong','準確診斷疾病'],['provide effective treatment','give treatment that works','提供有效治療']],
+  [['Similarly','Likewise','同樣地'],['prevents a bridge from collapsing','helps keep a bridge from falling','防止橋倒塌'],['socially reserved','not enjoy talking to people','不擅社交'],['any less valuable','still just as valuable','較不重要']],
+  [['charisma','charm','個人魅力'],['communication smoother','talking easier','溝通更順暢'],['cannot replace expertise','cannot take the place of real knowledge and skill','不能取代專業能力']],
+  [['therefore','So','因此'],['foundation','strong base','基礎'],['spotlight','bright light','聚光燈'],['how brightly a person shines in public','how much attention someone gets','公眾面前的光芒'],['perform when real responsibility is placed on them','do important work','真正承擔責任時的表現']],
+  [['charisma without substance','charm without real ability','沒有實質能力的魅力'],['fragile','fail easily','脆弱'],['dangerous','cause harm','有危險']],
+  [['Charismatic people','Charming people','有魅力的人'],['attract attention quickly','get noticed quickly','很快吸引注意'],['attention is not the same as achievement','being noticed is not the same as achieving something','注意力不等於成就']],
+  [['unreliable','cannot be trusted','不可靠'],['employees','workers','員工'],['initially feel inspired','feel encouraged at first','起初受到鼓舞'],['lose confidence','lose trust','失去信心'],['decisions are poorly made','choices are poor','決策做得差']],
+  [['By contrast','On the other hand','相比之下'],['less charismatic','less charming','較少魅力'],['prepared','ready','有準備'],['dependable','reliable','可靠'],['gradually earn deep respect','slowly earn strong respect','逐漸贏得深厚尊重']],
+  [['quieter','gets less attention','較不張揚'],['lasts longer','stays for a longer time','更持久']],
+  [['In business, education, and public life','At work, in schools and in public life','在商業教育與公共生活中'],['eventually','in the end','最終'],['results','good results','成果'],['attractive words','nice words','動聽言辭']],
+  [['In conclusion','In short','總結來說'],['charisma','charm','個人魅力'],['can be useful','can help','可以有用'],['not essential for success','people do not need it to succeed','並非成功所必需']],
+  [['Real success is built on','Real success comes from','真正成功建基於'],['ability','skills','能力'],['consistency','doing good work again and again','穩定性'],['integrity','being honest','誠信'],['not merely','not just','不僅僅'],['power to impress others','making others admire you','打動他人的能力']],
+];
+const chunkOverrides=[
+  ['In many societies, successful people are often imagined','as confident, magnetic, and naturally charming.'],
+  ['As a result, some argue','that charisma is a necessary ingredient for achievement.'],
+  ['I completely disagree with this view,','because long-term success depends far more on competence, discipline, and trustworthiness','than on personal charm.'],
+  ['The main reason charisma is not essential','is that many forms of success are built on skill','rather than social appeal.'],
+  ['In most professions, people are ultimately judged','by whether they can solve problems, make sound decisions,','and deliver consistent results.'],
+  ['A doctor, for example, does not become successful','simply by speaking warmly to patients;','he or she must diagnose illnesses accurately and provide effective treatment.'],
+  ['Similarly, an engineer whose work prevents a bridge from collapsing','may be quiet and socially reserved,','but that does not make the achievement any less valuable.'],
+  ['In these cases, charisma may make communication smoother,','but it cannot replace expertise.'],
+  ['Success is therefore more like a foundation than a spotlight:','what matters most is not how brightly a person shines in public,','but how solidly they perform when real responsibility is placed on them.'],
+  ['Another reason is that charisma without substance','can be fragile, and sometimes even dangerous.'],
+  ['Charismatic people may attract attention quickly,','but attention is not the same as achievement.'],
+  ['If a leader is charming but unreliable,','employees may initially feel inspired,','yet they will soon lose confidence','when promises are broken or decisions are poorly made.'],
+  ['By contrast, a less charismatic person','who is honest, prepared, and dependable','can gradually earn deep respect.'],
+  ['This kind of respect is quieter,','but it lasts longer.'],
+  ['In business, education, and public life,','people eventually trust results more than attractive words.'],
+  ['In conclusion, charisma can be useful,','but it is not essential for success.'],
+  ['Real success is built on ability, consistency, and integrity,','not merely on the power to impress others.'],
+];
+const simpleChunkOverrides=[
+  ['In many places, people often think successful people are sure of themselves,','easy to like and naturally good at making others like them.'],
+  ['So some people say','the ability to make others like you is needed to succeed.'],
+  ['I fully disagree because success that lasts','depends much more on skills, self-control and being someone others can trust','than on being charming.'],
+  ['The main reason charm is not needed','is that many kinds of success come from skills','rather than being liked by other people.'],
+  ['In most jobs, people are finally judged','by whether they can fix problems, make good choices','and do good work again and again.'],
+  ['For example, a doctor does not succeed','just by speaking kindly to patients;','they must find out exactly what is wrong and give treatment that works.'],
+  ['Likewise, an engineer who helps keep a bridge from falling','may be quiet and not enjoy talking to people,','but their work is still just as valuable.'],
+  ['In these cases, charm may make talking easier,','but it cannot take the place of real knowledge and skill.'],
+  ['So success is more like a strong base than a bright light:','what matters most is not how much attention someone gets,','but how well they do important work.'],
+  ['Another reason is that charm without real ability','can fail easily and may even cause harm.'],
+  ['Charming people may get noticed quickly,','but being noticed is not the same as achieving something.'],
+  ['If a leader is charming but cannot be trusted,','workers may feel encouraged at first,','yet they will soon lose trust','when promises are broken or choices are poor.'],
+  ['On the other hand, a person who is less charming','but honest, ready and reliable','can slowly earn strong respect.'],
+  ['This kind of respect gets less attention,','but it stays for a longer time.'],
+  ['At work, in schools and in public life,','people in the end trust good results more than nice words.'],
+  ['In short, charm can help,','but people do not need it to succeed.'],
+  ['Real success comes from skills, doing good work again and again and being honest,','not just from making others admire you.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
+const structures=[
+  S('In many schools, good leaders are often imagined as loud, confident and quick to speak.','are often imagined as 指出社會形象，並不把形象當成已證明的成功條件。','這句先描寫常見印象，沒有宣告該特質必然必要。',[1,3,15],
+    F('In many [社會或群體], [成功者] are often imagined as [引人注目的特徵]','用 are often imagined as 標明這是一種常見想像，為後文檢驗其真確性作鋪墊。','引言先呈現一種常見的刻板印象，準備檢驗它是否必要時。',[['In many ','link','設定常見想像的範圍'],['societies','slot','社會或群體'],[', ','link','接被想像的人'],['successful people','slot','成功者'],[' are often imagined as ','link','標示想像而非事實'],['confident, magnetic, and naturally charming.','slot','引人注目的特徵']])),
+  S('As a result, some argue that speaking loudly is necessary for leading a team.','As a result 將前述形象推到有人主張某特質必要。','這句從印象引出他人主張，但主張仍待檢驗。',[0,2,10],
+    F('As a result, some argue that [受重視的特質] is a necessary ingredient for [成就]','交代常見形象如何使人提出「某特質必不可少」的主張；some argue 保留歸屬。','剛呈現刻板印象，接着要公平說明由此產生的題目主張時。',[['As a result, some argue that ','link','由常見形象轉述主張'],['charisma','slot','受重視的特質'],[' is a necessary ingredient for ','link','聲稱必要'],['achievement.','slot','成就']])),
+  S('I completely disagree, because lasting school results depend more on careful preparation than on a teacher’s confident voice.','because 提出反對理由，more on...than on 指出更重要的成功基礎。','這句由立場轉入兩組條件比較，不只是描述常見形象。',[1,3,7],
+    F('I completely disagree with [主張], because [長期成果] depend far more on [實質品質] than on [表面吸引力]','明確反對必要性主張，再比較長期成功真正依賴的素質與個人魅力。','引言要表明立場，並預告較合適的評價標準時。',[['I completely disagree with ','link','表明反對'],['this view','slot','主張'],[', because ','link','引出原因'],['long-term success','slot','長期成果'],[' depends far more on ','link','指出更重要依據'],['competence, discipline, and trustworthiness','slot','實質品質'],[' than on ','link','對照較弱依據'],['personal charm.','slot','表面吸引力']])),
+  S('The main reason popularity is not essential is that good teaching is built on knowledge rather than a pleasing manner.','is that 給出主因；rather than 對照技能與社交吸引力。','這句解釋不必然需要受歡迎的原因，沒有進入具體職業評價。',[2,4,10],
+    F('The main reason [某特質] is not essential is that [成果] are built on [實質能力] rather than [社交吸引力]','先指出某特質非必要，再把原因落到成果真正建立的基礎。','首段要挑戰某項被當作必要條件的特質，提出另一標準時。',[['The main reason ','link','引出主因'],['charisma','slot','某特質'],[' is not essential is that ','link','指出非必要的原因'],['many forms of success','slot','成果'],[' are built on ','link','提出真正基礎'],['skill','slot','實質能力'],[' rather than ','link','排除較弱標準'],['social appeal.','slot','社交吸引力']])),
+  S('In most schools, teachers are judged by whether they explain clearly, prepare lessons and help pupils improve.','judged by whether 列實際可觀察的工作表現標準。','這句從抽象原則轉到三項具體評價標準。',[3,5,14],
+    F('In most [職業領域], people are judged by whether they can [能力一], [能力二] and [持續交出成果]','說明在多數職業中，評價重點是可驗證的工作行為與成果。','說明一種表面特質未必最重要後，要列出實際衡量表現的標準時。',[['In most ','link','設定職業範圍'],['professions','slot','職業領域'],[', people are ultimately judged by whether they can ','link','提出評價標準'],['solve problems','slot','能力一'],[', ','link','並列'],['make sound decisions','slot','能力二'],[', and ','link','並列'],['deliver consistent results.','slot','持續交出成果']])),
+  S('A pilot does not become reliable simply by greeting passengers warmly; the pilot must make safe decisions and control the aircraft well.','not simply by...; must... 對照友好表現與職位必需能力。','這句用具體職業說明親切與核心工作能力不同。',[3,4,7],
+    F('A [專業人員] does not become successful simply by [親切互動]; [專業人員] must [完成核心工作]','用分號前後對照：良好談吐可能有用，但不足以取代職位所需的專業工作。','提出抽象能力標準後，要用高責任情境檢驗表面特質是否足夠時。',[['A ','link','引出職業例子'],['doctor','slot','專業人員'],[', for example, does not become successful simply by ','link','否定單靠互動'],['speaking warmly to patients','slot','親切互動'],['; ','link','轉向必需工作'],['he or she','slot','專業人員'],[' must ','link','標示核心職責'],['diagnose illnesses accurately and provide effective treatment.','slot','完成核心工作']])),
+  S('Similarly, a technician who prevents serious errors may be quiet, but that does not make the work less valuable.','Similarly 增添另一職業；may...but 保留個性與成就價值可分離。','這句用第二職業例子證明沉靜不減少成就價值。',[4,5,7],
+    F('Similarly, [完成重要工作的人] may be [安靜的個性], but that does not make [成就] any less valuable','用另一職業例子指出：社交風格不應掩蓋工作的真實價值。','一個例子證明某特質不足夠，另一例要展示缺少它仍可有價值時。',[['Similarly, ','link','加上同類例子'],['an engineer whose work prevents a bridge from collapsing','slot','完成重要工作的人'],[' may be ','link','承認可能的個性'],['quiet and socially reserved','slot','安靜的個性'],[', but that does not make ','link','否定價值下降'],['the achievement','slot','成就'],[' any less valuable.','link','保留成就價值']])),
+  S('In these cases, a friendly manner may ease teamwork, but it cannot replace technical knowledge.','may 承認交流的好處；but cannot replace 設定不能跨越的界線。','這句讓步後界定必要能力，並非否認交流全無用處。',[2,5,6],
+    F('In these cases, [較易被看見的特質] may make [互動] smoother, but it cannot replace [核心專業]','先承認魅力的輔助作用，再清楚說明它不能替代專業。','舉例後，要精確區分「有幫助」與「必不可少」時。',[['In these cases, ','link','總結前述職業例子'],['charisma','slot','較易被看見的特質'],[' may make ','link','承認可能好處'],['communication','slot','互動'],[' smoother, but it cannot replace ','link','轉向不可取代的核心'],['expertise.','slot','核心專業']])),
+  S('Leadership is more like a strong foundation than a bright stage: what matters most is not how well someone speaks in public, but how reliably they act under pressure.','基礎與舞台的比喻引出 not...but...，對照外顯形象與承擔責任時的表現。','這句用比喻加明確比較收束第一段，而不是只舉一個職業例子。',[2,7,14],
+    F('[成功] is more like [穩固基礎] than [外顯光芒]: what matters most is not [公共形象], but [承擔責任時的表現]','先用比喻建立對照，再用 not...but...說明真正重要的是實際承擔責任的表現。','用多個例子說明差異後，要提升成可通用的判斷原則時。',[['Success','slot','成功'],[' is therefore more like ','link','提出比喻對照'],['a foundation','slot','穩固基礎'],[' than ','link','對照'],['a spotlight','slot','外顯光芒'],[': what matters most is not ','link','排除表象標準'],['how brightly a person shines in public','slot','公共形象'],[', but ','link','提出真正標準'],['how solidly they perform when real responsibility is placed on them.','slot','承擔責任時的表現']])),
+  S('Another reason is that a popular plan without clear evidence can be weak, and sometimes even harmful.','第二理由談缺乏實質支撐的優勢為何脆弱，甚至有害。','這句是第二段的風險總論，沒有單獨說注意力與成就的差別。',[3,8,10],
+    F('Another reason is that [缺少實質能力的表面優勢] can be fragile, and sometimes even dangerous','開啟第二條理由：外在吸引力若缺少實質能力，短期有效也可能維持不住，甚至有風險。','完成某特質不足以取代能力的論證後，要轉入過度依賴它的風險時。',[['Another reason is that ','link','引出第二理由'],['charisma without substance','slot','缺少實質能力的表面優勢'],[' can be fragile, and sometimes even dangerous.','link','說明脆弱與風險']])),
+  S('Confident speakers may win attention quickly, but attention is not the same as a useful plan.','but 區分引起注意與真正取得成果，不否認魅力可吸引人。','這句對照注意力與實質成果，沒有直接談領導者失信後果。',[7,9,11],
+    F('[有吸引力的人] may attract [注意力] quickly, but [注意力] is not the same as [實質成就]','先承認快速吸引注意的可能，再否定注意力與成就可以畫等號。','要解釋一項特質為何能帶來短期影響，卻不能單獨證明長期成功時。',[['Charismatic people','slot','有吸引力的人'],[' may attract ','link','可能快速吸引'],['attention','slot','注意力'],[' quickly, but ','link','轉入關鍵區分'],['attention','slot','注意力'],[' is not the same as ','link','不等同'],['achievement.','slot','實質成就']])),
+  S('If a manager speaks well but keeps breaking promises, staff may feel excited at first, yet lose trust when projects are handled badly.','If 設定有魅力但不可靠的條件；yet 對照初時鼓舞與後來失信。','這句把表面吸引力可能失效的過程放入具體領導情境。',[9,10,12],
+    F('If [領導者有魅力但不可靠], [員工] may initially [受鼓舞], yet they will [失去信心] when [承諾或決策出問題]','把第二理由轉成時間上的變化：初步感受可好，但行為不可靠會侵蝕信任。','已指出得到注意不等於成就，要說明信任為何需要其他條件時。',[['If ','link','設定對照條件'],['a leader is charming but unreliable','slot','領導者有魅力但不可靠'],[', ','link','接員工初期反應'],['employees','slot','員工'],[' may initially ','link','表示初時可能'],['feel inspired','slot','受鼓舞'],[', yet they will soon ','link','轉向後來變化'],['lose confidence','slot','失去信心'],[' when ','link','指出觸發情況'],['promises are broken or decisions are poorly made.','slot','承諾或決策出問題']])),
+  S('By contrast, a quiet organiser who is honest, ready and reliable can gradually earn strong respect.','By contrast 以可靠但不顯眼的人對照只靠魅力的人。','這句提供相反的人物和時間較長的信任結果。',[10,11,13],
+    F('By contrast, [較不吸引目光的人] who is [誠實、有準備且可靠] can gradually earn [深厚尊重]','對照上一句失去信心的領袖，指出可依賴的行為如何逐漸建立尊重。','提出某人因失信受損後，要展示另一人如何以可靠行動贏得信任時。',[['By contrast, ','link','轉入對照人物'],['a less charismatic person','slot','較不吸引目光的人'],[' who is ','link','提出實質品質'],['honest, prepared, and dependable','slot','誠實、有準備且可靠'],[' can gradually earn ','link','指出逐步累積的結果'],['deep respect.','slot','深厚尊重']])),
+  S('This form of respect is less visible, but it lasts longer.','but 對照外表不顯眼與關係更持久。','這句比較尊重的可見程度與持續時間，沒有提供新人物例子。',[10,12,14],
+    F('This kind of [由可靠行為贏得的尊重] is [較不張揚], but it [更持久]','承認這種尊重不顯眼，但指出它在時間上更有價值。','已說明可靠的人逐漸獲尊重，要對比短期注意與長期信任時。',[['This kind of ','link','指回前一句的尊重'],['respect','slot','由可靠行為贏得的尊重'],[' is ','link','描述外在程度'],['quieter','slot','較不張揚'],[', but it ','link','對照長期價值'],['lasts longer.','slot','更持久']])),
+  S('In schools, hospitals and local government, people eventually trust steady results more than confident speeches.','more than 把實際結果置於動聽言辭之上，並跨三個領域概括。','這句把第二段例子提升為跨領域原則。',[8,11,13],
+    F('In [領域一、二及三], people eventually trust [實際成果] more than [吸引人的言辭]','跨領域歸納：長時間後，實際成果比言辭更能建立信任。','兩種人或做法對照後，要提出可廣泛應用的評價準則時。',[['In ','link','設定跨領域範圍'],['business, education, and public life','slot','領域一、二及三'],[', people eventually trust ','link','指出長期信任依據'],['results','slot','實際成果'],[' more than ','link','對照表面因素'],['attractive words.','slot','吸引人的言辭']])),
+  S('In conclusion, a friendly manner can help, but it is not essential for good teaching.','can...but not essential 區分輔助作用與必要條件。','這句重申可有用但非必要的立場，不列出成功的完整基礎。',[2,7,16],
+    F('In conclusion, [表面優勢] can be useful, but it is not essential for [成果]','結論承認魅力可有幫助，同時重申它不是成功必需條件。','正文證明另一條件較重要，結論要直接回答原特質是否必要時。',[['In conclusion, ','link','重申全文判斷'],['charisma','slot','表面優勢'],[' can be useful, but it is not essential for ','link','讓步並否定必要性'],['success.','slot','成果']])),
+  S('Real trust is built on honesty, reliable actions and skill, not merely on words that impress others.','is built on...not merely on 比較真正基礎與不足以單獨支撐結果的因素。','這句以實質品質收束，不是單純說某特質有用或沒用。',[2,8,15],
+    F('[真正成果] is built on [實質品質], not merely on [使人印象深刻的能力]','把全篇論證收束為正面標準：能力、穩定表現與誠信是基礎，打動他人不足夠。','最後一句要取代狹窄的成功標準，指出成果建立在哪些條件上時。',[['Real success','slot','真正成果'],[' is built on ','link','提出真正基礎'],['ability, consistency, and integrity','slot','實質品質'],[', not merely on ','link','排除不足依據'],['the power to impress others.','slot','使人印象深刻的能力']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
+const intro=[
+  Q('作者是否認為個人魅力是成功的必要條件？',[
+    '完全不同意：魅力可幫助溝通，但長期成功更依賴能力、穩定表現與可信程度',
+    '完全同意：只要言談吸引人，專業能力便不再重要',
+    '認為沒有任何個人魅力的人不能取得任何工作成果',
+    '沒有立場：全文只列出不同職業的工作時間',
+  ],'引言說 completely disagree；結論明言 charisma can be useful, but it is not essential。'),
+  {type:'multi',prompt:'選出正文兩條不同的反對理由',detail:'選兩項，再按「確認」。',options:[
+    '多數職業重視解難、判斷與持續成果；魅力不能代替專業',
+    '只有魅力而缺乏實質能力，注意力與鼓舞難以維持真正信任',
+    '醫生只要親切說話，無需準確診斷或有效治療',
+    '安靜的人即使工作有價值，也一定無法得到任何尊重',
+  ],correct:[0,1],why:'第一主體段用醫生與工程師論證專業；第二主體段以失信領導與可靠人物對照短期注意及長期信任。'},
+];
+const route=[sequence('先排好全文四段',[
+  ['引言 · 常見形象與反對立場','社會常想像成功者有魅力；作者完全反對把魅力視為必要條件。'],
+  ['主體段一 · 專業勝於光芒','醫生須準確診斷，工程師可沉靜而有重要成就；魅力不能取代專業。'],
+  ['主體段二 · 信任勝於注意','魅力可迅速吸引人，但失信會流失信心；可靠的人能逐漸贏得持久尊重。'],
+  ['結論 · 真正基礎','魅力可有幫助，但成功建基於能力、穩定性與誠信。'],
+],'常見成功形象 → 以職業表現檢驗 → 以領導信任檢驗 → 魅力有用但非必要。')];
+const evidence=[
+  Q('醫生的例子為何反駁「親切就能成功」？',[
+    '親切談話不足夠；醫生還須準確診斷及提供有效治療',
+    '親切談話能取代所有診斷與治療',
+    '診斷與治療只關乎社交吸引力，不關乎專業',
+    '只要病人感到舒服，醫生的工作結果便不重要',
+  ],'原句以 does not...simply by...; must... 清楚區分親切與核心專業工作。'),
+  Q('安靜的工程師例子想證明甚麼？',[
+    '不擅社交也不會減少防止橋倒塌這類成就的價值',
+    '工程師只有善於演說才可能完成安全工作',
+    '工作能否防止危險與成就價值完全無關',
+    '安靜等於欠缺專業判斷，所以成果較差',
+  ],'原文承認工程師可能 quiet and socially reserved，隨後否定成就價值因此下降。'),
+  Q('作者如何精確評價魅力對溝通的作用？',[
+    '魅力可能讓溝通較順暢，但不能取代專業能力',
+    '魅力完全沒有任何可能的溝通好處',
+    '魅力一旦改善溝通，就自動成為所有職位的必要條件',
+    '專業能力可由說話方式完全取代',
+  ],'may make communication smoother 是有限讓步；but it cannot replace expertise 是關鍵界線。'),
+  Q('沒有實質能力的魅力，為何可能使領導者失去信任？',[
+    '初時可鼓舞員工，但失信或差決策會使信心很快下降',
+    '只要領導者有魅力，打破承諾就不會影響員工',
+    '員工只會按領導者第一次演說的表現作永久判斷',
+    '差決策必定令每位員工永遠更受鼓舞',
+  ],'If...but unreliable 設定條件；yet 從初時受鼓舞轉到承諾破裂後失信。'),
+  Q('可靠但魅力較少的人與失信領導者形成甚麼對照？',[
+    '可靠者可逐漸得到深厚且持久的尊重，失信者的早期注意力難以維持',
+    '可靠者必定在第一天吸引最多公眾注意，無須時間',
+    '失信領導者會因打破承諾而自動獲得更深尊重',
+    '誠實與準備工作對信任完全沒有作用',
+  ],'By contrast 後的 honest, prepared, dependable 與 gradually earn deep respect，對照上一句的 lose confidence。'),
+  Q('結論區分哪兩類成功依據？',[
+    '能力、穩定表現和誠信是基礎；打動他人本身不足以解釋真正成功',
+    '能力與誠信只是可忽略的裝飾，口才才是唯一標準',
+    '吸引注意力與交出穩定成果完全相同',
+    '公眾面前的形象比工作結果更能保證長期信任',
+  ],'not merely on 把打動他人的能力放在不足以單獨支撐結果的位置。'),
+];
+const logic=[
+  sequence('第一主體段：為何魅力不能代替專業？',[
+    ['首項理由','許多成功建基於技能，而非社交吸引力。'],
+    ['職業標準','人按解難、明智決策與持續結果接受評價。'],
+    ['醫生例子','親切談話不足，還須準確診斷並有效治療。'],
+    ['工程師例子','安靜的工程師仍可防止橋倒塌，成就價值不減。'],
+    ['有限讓步','魅力可能使溝通順暢，卻無法取代專業。'],
+    ['段落原則','真正重要的是承擔責任時的穩健表現。'],
+  ],'專業工作標準 → 兩個職業例子 → 承認溝通好處但否定替代作用。'),
+  sequence('第二主體段：注意力為何不同於持久尊重？',[
+    ['第二理由','沒有實質能力支撐的魅力脆弱，甚至有風險。'],
+    ['短期優勢','有魅力的人可能很快吸引注意，但注意不等於成就。'],
+    ['失信例子','領導者初時鼓舞員工，失信或差決策後信心下降。'],
+    ['對照人物','較少魅力但誠實、有準備又可靠者，可逐漸贏得尊重。'],
+    ['時間差別','這份尊重較不張揚，但維持較久。'],
+    ['段落原則','商業、教育與公共生活最終更信任成果而非言辭。'],
+  ],'迅速注意 ≠ 成就；可靠行動逐漸積累更持久的尊重。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const transfer=[
+  T('學校要選實驗室組長。甲說話吸引人，乙較安靜但能準確處理器材並遵守安全程序。','哪項選人標準最符合範文？',[
+    '先看安全操作、解難與穩定表現，再把溝通能力列作輔助因素',
+    '只按誰在面試時最吸引目光決定，毋須看安全操作',
+    '因乙安靜，便推斷乙的實驗能力一定比較差',
+    '只看一次自我介紹，不查過往工作結果',
+  ],[
+    '這保留魅力可有幫助，但不能取代專業表現的界線。',
+    '面試印象不足以證明安全能力。',
+    '安靜與能力沒有必然關係。',
+    '穩定結果是原文強調的評價依據。',
+  ],[3,4,6,7],'範文用醫生與工程師說明核心技能及可驗證成果比社交吸引力重要。'),
+  T('一位教練演說很有感染力，但常臨時改變訓練計畫，並未追蹤隊員進步。','哪項最準確指出「注意力不等於成就」？',[
+    '比較隊員長期進步、計畫執行與承諾是否兌現，而非只看演說當下的反應',
+    '只要隊員演說時鼓掌，便可證明訓練計畫有效',
+    '不追蹤進步，因演說是否精彩已足以衡量教練',
+    '把隊員初時受鼓舞當作承諾必然會兌現',
+  ],[
+    '這把早期鼓舞與長期可靠成果分開檢驗。',
+    '鼓掌只說明當下反應。',
+    '缺少成果資料無法評估訓練效果。',
+    '初時鼓舞不保證日後履行承諾。',
+  ],[9,10,11,14],'範文說有魅力可迅速吸引注意，但差決策或失信會令員工失去信心。'),
+  T('社區中心的活動主持人很幽默，卻未能準時安排場地及處理報名問題。','哪項最符合「有用但不能取代」的評價？',[
+    '承認幽默令交流較輕鬆，同時要求主持人準時安排及解決實際問題',
+    '只因主持人幽默，便不再追究活動安排是否可行',
+    '認為幽默完全不能改善與參加者的交流',
+    '把現場笑聲當作報名問題已解決的證據',
+  ],[
+    '這同時保留溝通好處與工作能力的必要區分。',
+    '好氣氛不能代替實際安排。',
+    '原文承認魅力可能改善交流。',
+    '笑聲與報名系統是否運作是兩回事。',
+  ],[4,7,15],'範文說魅力可能使溝通順暢，但不能取代專業。'),
+  T('一名研究員不喜歡公開演說，但長期交出可重複核實的準確研究結果。','哪項最能套用安靜工程師的例子？',[
+    '不應因演說風格安靜而降低對其研究成果的評價',
+    '若不擅演說，研究結果就必定無法核實',
+    '研究是否準確應完全由演說音量決定',
+    '研究員安靜表示工作沒有實質價值',
+  ],[
+    '這把社交風格與成果價值分開評估。',
+    '演說風格不決定資料是否可核實。',
+    '音量不能代替研究品質標準。',
+    '範文正否定安靜會貶低成就。',
+  ],[4,6,8],'範文指出工程師雖安靜，防止橋倒塌的成就仍然有價值。'),
+  T('兩位餐廳經理都能吸引客人：甲經常答應事項後做不到，乙較內斂但穩定處理投訴。','哪項最能解釋兩人信任的長期差別？',[
+    '記錄承諾兌現與投訴處理結果，觀察顧客信任是否隨時間改變',
+    '只統計兩人開場時得到多少笑聲，便判定誰較可靠',
+    '只要甲吸引客人，承諾是否兌現便永遠無關緊要',
+    '因乙較內斂，便不需查看其處理投訴的成果',
+  ],[
+    '這用可靠行動與實際結果檢驗注意力能否變成持久尊重。',
+    '笑聲反映短期注意，不直接證明可靠。',
+    '反覆失信可侵蝕信任。',
+    '內斂不能取代對成果的評估。',
+  ],[10,11,12,13,14],'範文把有魅力但失信的領袖，與較不耀眼但可靠的人作對照。'),
+  T('小學聘請教師。面試時一位候選人表達流暢，另一位較緊張，但試教時能清楚解釋並讓學生理解。','哪項評估最貼近範文的「真正基礎」？',[
+    '比較教學效果、備課與持續表現，並把面試魅力視為其中一項輔助資料',
+    '只看面試說話是否流暢，忽略試教與備課',
+    '因試教較好者面試緊張，便斷定學生不能理解課堂',
+    '只看學生是否喜歡候選人外表，不評估學習結果',
+  ],[
+    '這以工作能力與穩定成果作主要標準，同時容許交流能力有輔助價值。',
+    '面試印象不能代替實際教學。',
+    '試教效果比未經證實的推斷更相關。',
+    '外表喜好不能代表學生學到甚麼。',
+  ],[2,3,4,7,16],'範文的核心標準是能力、穩定結果與可靠性；魅力有用但非必要。'),
+  T('一個手機應用程式因宣傳片出色而迅速獲得下載，但使用者常遇到無法儲存資料的問題。','哪項最能套用「聚光燈與基礎」的比喻？',[
+    '以長期穩定性及問題修復評價產品，並將宣傳帶來的注意力另行看待',
+    '下載量一高，便等同資料儲存問題不存在',
+    '只看宣傳片是否吸引人，不追蹤產品運作',
+    '把短期曝光直接當成長期使用者信任',
+  ],[
+    '這把吸睛的外在光芒與可靠運作的實際基礎分開。',
+    '下載與功能可靠性需要分別檢驗。',
+    '宣傳不能修好儲存問題。',
+    '長期信任需靠持續結果。',
+  ],[8,10,14],'範文以 foundation 與 spotlight 對照公眾形象和真正承擔責任時的表現。'),
+  T('義工組織有兩名帶隊者：甲迅速贏得掌聲，乙按時完成準備並在每次活動後改進流程。','哪項最能預測誰較可能逐漸贏得尊重？',[
+    '持續觀察任務完成、承諾兌現與流程改善，而不只記錄初次掌聲',
+    '只用首場活動掌聲作多年信任的唯一證據',
+    '忽略乙的可靠準備，因它不及即時掌聲顯眼',
+    '認為無論甲之後做甚麼，首場掌聲都不可能改變',
+  ],[
+    '這抓住「逐漸建立的尊重」與「迅速注意」的時間差。',
+    '一次掌聲不足以證明多年表現。',
+    '較不顯眼的可靠行動可能更持久。',
+    '信任會隨後續行為改變。',
+  ],[10,11,12,13],'範文說魅力吸引注意很快，誠實、準備與可靠則逐漸贏得較持久尊重。'),
+  T('醫院的資訊主任善於介紹新系統，但系統多次當機，護理人員因此難以查看病歷。','哪項最能轉用醫生例子的論證？',[
+    '要求系統穩定可用並能解決實際問題，不能只以介紹是否動聽判定成功',
+    '只要介紹有說服力，系統當機便與工作結果無關',
+    '護理人員的使用情況不應列入評估',
+    '把受歡迎的簡報視為系統已正常運作的證據',
+  ],[
+    '這把專業任務成果放在外在表達之前。',
+    '當機會妨礙核心工作。',
+    '實際使用者的結果是重要資料。',
+    '簡報不能直接證明系統穩定。',
+  ],[4,5,7,8],'範文指出親切說話不能取代準確診斷與有效治療，溝通亦不能取代專業。'),
+  T('一名學生在選舉演說中承諾每週分享會議紀錄，當選後卻從未公布。','哪項最符合範文的領導信任機制？',[
+    '初時吸引人不代表長期可信；應查看承諾是否兌現及決策是否妥當',
+    '只要演說精彩，未公布紀錄不會影響任何同學的信心',
+    '因獲得選票，便推定所有日後承諾已自動完成',
+    '只追問演說音量，不查會議紀錄是否公開',
+  ],[
+    '這直接對照初時受鼓舞與承諾落空後可能失去信任。',
+    '未兌現承諾正是範文提出的信任風險。',
+    '當選與履行承諾是不同階段。',
+    '音量不是承諾有否履行的證據。',
+  ],[10,11],'範文指出有魅力但不可靠的領袖，在承諾落空後會失去員工信心。'),
+  T('一家本地劇團的兩位導演，一人擅長宣傳，另一人較安靜但能穩定排練並完成高品質演出。','哪項評價最能保留文章的有限讓步？',[
+    '承認宣傳可助交流與吸引觀眾，同時以排練品質和演出結果衡量持久成就',
+    '宣傳有用，便可取代排練及作品品質',
+    '安靜導演完成好作品，仍應因不擅宣傳而否定所有成就',
+    '作品品質良好，便認定與觀眾交流永遠沒有任何作用',
+  ],[
+    '這將魅力的輔助價值與核心成果的基礎清楚分開。',
+    '有用不等於能取代專業。',
+    '安靜不會消除實際成就。',
+    '原文承認溝通較順暢可有好處。',
+  ],[6,7,8,15,16],'範文既說魅力可能使溝通順暢，也說成功根基是能力、穩定與誠信。'),
+  T('社區建築計畫的發言人很有感染力，但工程進度及安全報告與承諾不符。','哪項最能結合兩段論證？',[
+    '檢查工程與安全結果，也核對承諾履行，分開評估外在吸引力和實質可靠性',
+    '只看發言人受歡迎程度，並把它當作工程安全已達標',
+    '只看第一場發表會，不追蹤進度或承諾',
+    '因報告與承諾不符，便說溝通能力永遠毫無作用',
+  ],[
+    '這同時套用專業成果與持久信任兩項標準，並保留溝通的有限價值。',
+    '受歡迎不會直接證明工程安全。',
+    '第一印象無法代表後續成果。',
+    '溝通可有用，只是不能代替可靠表現。',
+  ],[4,7,8,10,11,14,16],'範文先以職業成果否定魅力必要性，再以失信領袖說明注意力不等於信任。'),
+];
+const reviewedTransferOptions=[
+  ['先看安全操作與穩定表現，再考慮溝通能力','只看面試時誰最搶眼，不查安全操作能力','因乙較安靜，便斷定其實驗能力較差','只看一次自我介紹，不查過往工作結果'],
+  ['看長期進步與承諾兌現，不只看演說當下反應','隊員在演說時鼓掌，便證明訓練計畫有效','不追蹤隊員進步，因精彩演說已足夠衡量教練','把初時受鼓舞當作日後承諾必然兌現'],
+  ['承認幽默有助交流，仍要檢查安排與解難能力','主持人幽默，便不再追究活動安排是否可行','認為幽默完全不能改善與參加者的交流','把現場笑聲當作報名問題已獲解決的證據'],
+  ['不因演說安靜而低估研究成果的價值','不擅演說，研究結果便一定無法核實','研究是否準確，全由演說音量決定','研究員安靜，便代表工作毫無價值'],
+  ['追蹤承諾與投訴處理，觀察顧客長期信任','只數開場笑聲，便判定兩人誰比較可靠','甲能吸引客人，承諾履行便永遠無關緊要','乙較內斂，便不必查他處理投訴的成果'],
+  ['比較試教、備課與長期表現，輔看面試魅力','只看面試說話流暢與否，忽略試教與備課','試教較好者面試緊張，便斷定學生聽不懂','只看學生是否喜歡其外表，不評估學習結果'],
+  ['按穩定性與修復能力評價產品，另看宣傳關注','下載量高，便認定儲存資料的問題不存在','只看宣傳片吸引力，不追蹤產品實際運作','把短期曝光直接當成長期使用者信任'],
+  ['觀察任務、承諾與流程改善，不只記首場掌聲','只以首場掌聲當作多年信任的唯一證據','忽略乙可靠準備，因它沒有即時掌聲顯眼','認為甲以後做甚麼，都不會改變初次掌聲'],
+  ['要求系統穩定解難，不只聽介紹是否動聽','介紹有說服力，系統當機便與結果無關','護理人員能否使用系統，不應列入任何評估','把受歡迎簡報視為系統已正常運作的證據'],
+  ['初時吸引人仍須核查承諾兌現及決策品質','演說精彩，未公布紀錄便不會影響同學信心','既然獲得選票，日後承諾便算自動完成','只問演說音量，不查會議紀錄是否公開'],
+  ['承認宣傳助交流，仍以排練與演出衡量成就','宣傳既然有用，便可取代排練及作品品質','安靜導演有好作品，仍因不擅宣傳否定成果','作品好，便認為與觀眾交流永遠沒有作用'],
+  ['查工程安全與承諾履行，分開看吸引力和可靠性','只看發言人受歡迎，便當作工程安全已達標','只看首場發表會，不追蹤進度或承諾兌現','報告與承諾不符，便說溝通能力完全無用'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[1].example='As a result, some argue that public speaking is a necessary ingredient for leadership.';
+structures[2].example='I completely disagree with this view, because lasting school success depends far more on careful preparation than on a teacher’s confident voice.';
+structures[3].example='The main reason popularity is not essential is that strong schools are built on sound teaching rather than a pleasing manner.';
+structures[4].example='In most schools, people are ultimately judged by whether they can explain clearly, prepare lessons, and help pupils improve.';
+structures[5].example='A pilot, for example, does not become successful simply by greeting passengers warmly; he or she must make safe decisions and control the aircraft well.';
+structures[6].example='Similarly, a technician who prevents serious errors may be quiet, but that does not make the achievement any less valuable.';
+structures[7].example='In these cases, a friendly manner may make teamwork smoother, but it cannot replace technical knowledge.';
+structures[8].example='Leadership is therefore more like a strong foundation than a bright stage: what matters most is not how well someone speaks in public, but how reliably they act under pressure.';
+structures[9].example='Another reason is that a popular plan without clear evidence can be fragile, and sometimes even dangerous.';
+structures[10].example='Confident speakers may attract attention quickly, but attention is not the same as achievement.';
+structures[11].example='If a manager speaks well but keeps breaking promises, staff may initially feel excited, yet they will soon lose trust when projects are handled badly.';
+structures[13].example='This kind of respect is less visible, but it lasts longer.';
+structures[15].example='In conclusion, a friendly manner can be useful, but it is not essential for good teaching.';
+export default {
+  key:'opinion:14',
+  meta:{topic:'個人魅力、專業能力與持久信任',summary:'作者完全反對魅力是成功必要條件：魅力可令溝通順暢，但專業成果不可替代；缺乏實質與可靠行動的魅力只能帶來短期注意，難以建立持久尊重。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

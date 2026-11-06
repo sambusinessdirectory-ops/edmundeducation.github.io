@@ -1,0 +1,1995 @@
+{
+  "id": "p1-088-its-dynamite",
+  "catalogueId": "p1-088",
+  "catalogueIds": [
+    "p1-088"
+  ],
+  "passage": 1,
+  "title": "It’s Dynamite",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "shock",
+    "death toll",
+    "shatter rock",
+    "detonates",
+    "frozen",
+    "iron, steel",
+    "blasting oil",
+    "volcanic pumice",
+    "peacetime engineering",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "shock",
+      "answerKey": "shock",
+      "type": "Summary Completion",
+      "prompt": "“Nitroglycerine could explode with even a small 1 _________________;”",
+      "translation": "Nitroglycerine 甚至受到很小的__________也可能爆炸。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “a small”，所以答案需要一個單數名詞。題目問nitroglycerine 為何容易爆炸，定位詞是 “explode”、“small” 和第一段事故中的 “dropped”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1866, an American railroad company was constructing a tunnel through the Sierra Nevada mountains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1866 年，一間美國鐵路公司正在 Sierra Nevada 山脈修建一條隧道。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its transportation was soon banned, and from then on, it had to be manufactured in on-site laboratories – an expensive and still quite dangerous task, as the number of deadly explosions would demonstrate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的運輸很快被禁止；從那時起，它必須在現場實驗室製造，這既昂貴，仍然相當危險，後來多次致命爆炸也證明了這點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會用鐵路隧道背景和事故說明 nitroglycerine 的危險性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和題目中的 could explode 很直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “explode” 和 “small”。原文先說 crates were “accidentally dropped” 後爆炸，接著給出總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Nitro’ was dangerously shock-sensitive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得停下，因為 shock-sensitive 正正解釋為何很小的碰撞或震動也可能引發爆炸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The point was taken. ‘Nitro’ was dangerously shock-sensitive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們明白了重點：nitro 對震動／衝擊極度敏感，危險性很高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shock-sensitive” 是複合形容詞，意思是「對震動、撞擊、衝擊敏感」。題目把形容詞拆成名詞結構：“explode with even a small ______”。空格要填造成爆炸的觸發因素，所以答案是 shock。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“could explode with even a small shock”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“dangerously shock-sensitive”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： shock-sensitive = sensitive to shock could explode = 原文中 being dropped promptly exploded 的結果small = 題目自行加入，用來概括 “dangerously sensitive” 的程度答案形式檢查shock 是一個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：shock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "death toll",
+      "answerKey": "death toll",
+      "type": "Summary Completion",
+      "prompt": "“it was therefore the cause of a growing 2 _________________.”",
+      "translation": "因此，它造成不斷增加的__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a growing”，所以答案應是名詞短語。題目問 nitroglycerine 造成甚麼不斷增加，定位詞是 growing、cause、deaths 或 explosions。這題主要來自 Paragraph 2，也可由 Paragraph 1的 deadly explosions 支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The history of nitroglycerine is full of such sad events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "nitroglycerine 的歷史充滿這類悲傷事件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Again, a mounting death toll would testify to this fact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "再次，不斷上升的死亡人數會證明這個事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 明顯延續上一段的危險事故，並用 death toll 作總結。題目中的growing 和原文 mounting 高度相近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “growing”。掃描 Paragraph 2 時，原文的 “mounting” 是最直接對應。"
+            },
+            {
+              "kind": "label",
+              "text": "題目要找 growing 後面的名詞，原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a mounting death toll”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Again, a mounting death toll would testify to this fact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "再次，不斷上升的死亡人數會證明這個事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mounting” 指逐漸增加、越來越多。題目用 “growing” 改寫它。空格前已經有 “a growing”，因此答案只需要填原文中的名詞短語 “death toll”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a growing death toll”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a mounting death toll”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： growing = mounting death toll = death toll 原字重現cause of = 前文多次 explosion 和 impossible to handle safely 的結果答案形式檢查death toll 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：death toll"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "shatter rock",
+      "answerKey": "shatter rock",
+      "type": "Summary Completion",
+      "prompt": "“It was able to 3 _________________ because, unlike gunpowder, it 4 _________________.”",
+      "translation": "它能夠__________，因為與 gunpowder 不同，它會__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題和 Question 4 共用 Paragraph 3。Question 3 要填的是 nitroglycerine 的能力或用途；空格前是 “able to”，答案應是動詞短語。定位詞是 gunpowder、unlike、able to。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet nitroglycerine always remained in demand, being the first practical mining explosive produced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，nitroglycerine 一直有需求，因為它是第一種被製造出來的實用採礦炸藥。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only nitro could really do the job, and the Swedish chemist Alfred Nobel became interested.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有 nitro 真正能完成這項工作，而瑞典化學家 Alfred Nobel 開始對它產生興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 會解釋 nitroglycerine 為何有實際價值。第一句說它是practical mining explosive；最後一句說只有它能 do the job。中間必然會比較它與 gunpowder 的效果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “gunpowder”。Paragraph 3 多次出現 gunpowder，真正答案句在比較句附近："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gunpowder could not efficiently shatter rock … Only nitro could really do the job…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接說 gunpowder 做不到甚麼，nitro 能做到甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gunpowder could not efficiently shatter rock (although it was suitable for bullets and artillery shells). Only nitro could really do the job…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gunpowder 不能有效地炸碎岩石，雖然它適合用於子彈和炮彈。只有 nitro 真正能完成這項工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目主語 “It” 指 nitroglycerine。空格前 “was able to” 需要接動詞短語。原文中的 “shatter rock” 正好是 nitro 能完成、gunpowder 不能有效完成的工作。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was able to shatter rock”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gunpowder could not efficiently shatter rock… Only nitro could really do the job”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： able to = could really do shatter rock = shatter rock 原字重現it = nitroglycerine / nitro答案形式檢查shatter rock 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：shatter rock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "detonates",
+      "answerKey": "detonates",
+      "type": "Summary Completion",
+      "prompt": "“It was able to 3 _________________ because, unlike gunpowder, it 4 _________________.”",
+      "translation": "它能夠炸碎岩石，因為與 gunpowder 不同，它會__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求解釋 nitroglycerine 為何比 gunpowder 更能炸碎岩石。空格前是 “it”，所以答案應是動詞。定位詞仍是 gunpowder、unlike，以及 nitro 的爆炸方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet nitroglycerine always remained in demand, being the first practical mining explosive produced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，nitroglycerine 一直有需求，因為它是第一種被製造出來的實用採礦炸藥。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only nitro could really do the job, and the Swedish chemist Alfred Nobel became interested.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有 nitro 真正能完成這項工作，而瑞典化學家 Alfred Nobel 開始對它產生興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示這段會說明 nitro 的實用價值。Question 4 要找原因，因此應在中間比較 gunpowder和 nitro 的句子中細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 3，會看到一組非常清楚的對比："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gunpowder is a ‘low’ explosive…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Nitro is a ‘high’ explosive…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “unlike gunpowder” 表示兩者不同，答案應來自 nitro 那一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nitro is a ‘high’ explosive, meaning that it ‘detonates’ – that is, reacts when triggered by a virtually instantaneous shock wave, producing gases which expand at more than the speed of sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nitro 是一種「高級／高爆速」炸藥，意思是它會「爆轟」；也就是說，它在幾乎瞬間的衝擊波觸發下反應，產生以超過音速膨脹的氣體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 unlike gunpowder，是因為 gunpowder “burns” from layer to layer；nitro 則 “detonates”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個動詞正是它能有效炸碎岩石的原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“unlike gunpowder, it detonates”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nitro is a ‘high’ explosive, meaning that it ‘detonates’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： unlike gunpowder = low explosive vs high explosive it = nitro detonates = detonates 原字重現答案形式檢查detonates 是一個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：detonates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "frozen",
+      "answerKey": "frozen",
+      "type": "Summary Completion",
+      "prompt": "“When 5 _________________, nitro could be handled more safely, yet deaths continued.”",
+      "translation": "當 nitro 被__________時，它可以較安全地處理，但死亡事件仍然持續。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “When ______” 後，答案可能是過去分詞或形容詞，描述 nitro 的狀態。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“handled more safely” 和 “deaths continued”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“The history of nitroglycerine is full of such sad events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "nitroglycerine 的歷史充滿這類悲傷事件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Again, a mounting death toll would testify to this fact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "再次，不斷上升的死亡人數會證明這個事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 2 會繼續講危險和死亡。題目中的 “yet deaths continued” 對應最後一句的 death toll，因此答案也應在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “more safely” 可對應原文 “much less sensitive to shock”。掃描 Paragraph 2，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“when frozen (at about 5°C), nitro was much less sensitive to shock.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, it was soon discovered that when frozen (at about 5°C), nitro was much less sensitive to shock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們很快發現，當 nitro 被冷凍時，大約在攝氏 5 度，它對震動的敏感度會低得多。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem arose when it was thawed back into liquid form, at which point it became even more unstable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題出現在它被解凍回液態時；在那一刻，它變得更加不穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子 “could be handled more safely” 是對 “much less sensitive to shock” 的概括。真正狀態是 when frozen。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“When frozen, nitro could be handled more safely”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“when frozen … nitro was much less sensitive to shock”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： handled more safely = less sensitive to shock When ______ = when frozen yet deaths continued = mounting death toll答案形式檢查frozen 是一個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：frozen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "iron, steel",
+      "answerKey": "iron, steel",
+      "type": "Short-answer Questions",
+      "prompt": "“What were the two products that Nobel’s companies originally manufactured?”",
+      "translation": "Nobel 的公司原本製造哪兩種產品？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “two products”，所以答案要列出兩項。字數限制是 NO MORE THAN TWO WORDS，因此答案格中可寫 iron, steel，用逗號分隔兩個產品，避免把連接詞也寫進答案格。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobel’s companies were shifting from the production of iron and steel to the almost exclusive manufacture of cannons, armaments, and gunpowder, and he saw the commercial value in making nitroglycerine manageable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel 的公司正從生產 iron and steel，轉向幾乎專門製造 cannons、armaments 和 gunpowder；他也看到了使 nitroglycerine 變得可管理的商業價值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His factory was destroyed on two more occasions!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的工廠後來又被炸毀兩次！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 會講 Nobel 的商業背景和實驗失敗。第一句直接提到原本的生產項目，因此這題定位很快。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “originally manufactured”。原文用 “shifting from the production of…” 表示原本生產的東西，再轉向其他軍火產品。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobel’s companies were shifting from the production of iron and steel…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel 的公司正從 iron and steel 的生產轉型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “from the production of iron and steel” 指原本的生產方向。題目問 “two products”，所以答案是 iron 和 steel。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“originally manufactured”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“shifting from the production of”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： originally = from 的原來起點manufactured = production two products = iron, steel答案形式檢查原文完整短語是 “iron and steel”。由於題目限制是 NO MORE THAN TWO WORDS，答案格可寫 iron, steel，實際內容是兩個產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iron, steel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "blasting oil",
+      "answerKey": "blasting oil",
+      "type": "Short-answer Questions",
+      "prompt": "“What was the first nitroglycerine product called?”",
+      "translation": "第一種 nitroglycerine 產品叫甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 product name，最有定位力的是 “first nitroglycerine product” 和 “called”。原文可能用marketed as、under the name of、called 這類表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobel’s companies were shifting from the production of iron and steel to the almost exclusive manufacture of cannons, armaments, and gunpowder, and he saw the commercial value in making nitroglycerine manageable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel 的公司正從 iron and steel 的生產轉向幾乎專門製造 cannon、armaments 和 gunpowder；他也看到了使 nitroglycerine 變得可管理的商業價值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His factory was destroyed on two more occasions!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的工廠後來又被炸毀兩次！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 的功能是講 Nobel 嘗試製造可管理的 nitroglycerine 產品，但過程多次爆炸。題目問 first product，所以應在本段中部找 marketing / product name。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first” 和 “product called”。Paragraph 4 中的關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He first tried combining nitro with conventional gunpowder, marketing the final product as‘blasting oil’…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“first tried” 對應 first；“marketing the final product as” 對應 product called。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“He first tried combining nitro with conventional gunpowder, marketing the final product as‘blasting oil’, yet accidental explosions continued.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他首先嘗試把 nitro 和傳統 gunpowder 結合，並把最終產品以 “blasting oil” 的名稱推出市場，但意外爆炸仍然持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 Nobel 的第一個 nitroglycerine 產品名稱是 blasting oil。題目問 “What was … called?”，答案需填名稱本身。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“first nitroglycerine product called”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“He first tried…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“marketing the final product as ‘blasting oil’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： called = marketed as first product = first tried combining… final product nitroglycerine = nitro答案形式檢查blasting oil 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：blasting oil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "volcanic pumice",
+      "answerKey": "volcanic pumice",
+      "type": "Short-answer Questions",
+      "prompt": "“What rock does diatomite resemble?”",
+      "translation": "diatomite 像哪一種岩石？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 What rock，答案應是岩石名稱。最強定位詞是 diatomite 和 resemble。原文可能不用resemble，而用 similar to。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The breakthrough finally came when Nobel’s company mixed liquid nitroglycerine with an inert absorbent silicate sand, known as ‘diatomaceous earth’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "突破終於出現：Nobel 的公司把 liquid nitroglycerine 和一種惰性、具吸收性的矽酸鹽砂混合，這種砂稱為 “diatomaceous earth”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobel patented his invention in 1867 under the name of ‘dynamite’, based on ‘dynamis’, the Greek word for ‘power’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel 在 1867 年以 “dynamite” 的名稱為這項發明申請專利；這個名稱源自希臘語 “dynamis”，意思是 power。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 5 是 dynamite 的突破和命名段。diatomite 是這段對 diatomaceous earth的補充說明，所以答案也在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “diatomite” 和 “resemble”。原文中沒有 resemble，但有 similar to："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is similar to volcanic pumice…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was produced by grinding down diatomite, a rock found around the local hills. It is similar to volcanic pumice, being very light and highly porous…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是透過磨碎 diatomite 製成的；diatomite 是當地山丘附近找到的一種岩石。它類似 volcanic pumice，非常輕，而且高度多孔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“It” 指 diatomite。題目問 diatomite 像哪種岩石，原文直接說 similar to volcanic pumice。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“does diatomite resemble”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is similar to volcanic pumice”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： resemble = be similar to rock = volcanic pumice diatomite = It答案形式檢查volcanic pumice 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：volcanic pumice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "peacetime engineering",
+      "answerKey": "peacetime engineering",
+      "type": "Short-answer Questions",
+      "prompt": "“In what field was dynamite used most beneficially?”",
+      "translation": "dynamite 在哪個領域中最有益地被使用？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 field，答案應是領域或用途範圍。定位詞是 beneficially，原文未必用 beneficial，而可能用commendable purpose。這題要避開 weapons，因為題目問 beneficial use。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In its best-known form, dynamite was made in short paper-wrapped sticks consisting of three-quarters nitro and one-quarter diatomaceous earth, but it would always remain dangerous to manufacture, store, and use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在最廣為人知的形式中，dynamite 被製成短紙包炸藥棒，由四分之三 nitro 和四分之一diatomaceous earth 組成，但它在製造、儲存和使用上一直很危險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, while high explosives serve a commendable purpose in peacetime engineering projects, Nobel’s fortune was also based on weapons of death and destruction, and the public knew it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，雖然 high explosives 在和平時期的工程項目中有值得稱許的用途，Nobel 的財富也來自死亡與破壞的武器，而且公眾知道這一點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 同時講 dynamite 的危險、正面工程用途和負面軍火用途。題目問 most beneficially，應看最後一句的 commendable purpose。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “beneficially”。原文中的對應詞是 “commendable”，意思是值得稱許、正面有益。"
+            },
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“serve a commendable purpose in peacetime engineering projects”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, while high explosives serve a commendable purpose in peacetime engineering projects, Nobel’s fortune was also based on weapons of death and destruction, and the public knew it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，雖然高爆炸藥在和平時期工程項目中有值得稱許的用途，Nobel 的財富也來自死亡與破壞的武器，而公眾也知道這點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “In what field”，所以答案要抓領域。原文的完整短語是 “peacetime engineering projects”。受 NO MORE THAN TWO WORDS 限制，最適合保留 field 意思的是 peacetime engineering。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“used most beneficially”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“serve a commendable purpose”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： beneficially = commendable purpose field = peacetime engineering dynamite / high explosives = 同一類爆炸物用途答案形式檢查peacetime engineering 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：peacetime engineering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Dynamite is safer than nitroglycerine.”",
+      "translation": "Dynamite 比 nitroglycerine 安全。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目是一個比較句：dynamite 和 nitroglycerine 之間的安全程度比較。定位詞是 dynamite、safer、nitroglycerine。文章如果說 dynamite made nitro less dangerous，就可支持 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The breakthrough finally came when Nobel’s company mixed liquid nitroglycerine with an inert absorbent silicate sand, known as ‘diatomaceous earth’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "突破終於出現：Nobel 的公司把 liquid nitroglycerine 和一種惰性、具吸收性的矽酸鹽砂混合，這種砂稱為 “diatomaceous earth”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobel patented his invention in 1867 under the name of ‘dynamite’, based on ‘dynamis’, the Greek word for ‘power’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel 在 1867 年以 “dynamite” 的名稱為這項發明申請專利；名稱源自希臘語 “dynamis”，意思是 power。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 5 講 liquid nitroglycerine 加入吸收物後成為 dynamite。若題目問 dynamite 是否比 nitro 安全，應在本段找 “less dangerous” 等比較詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “safer”。原文沒有 safer，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This combination immediately made nitro less dangerous to handle…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“less dangerous” 就是 safer 的直接改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“This combination immediately made nitro less dangerous to handle and, because it was solid, more convenient to package and transport.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種組合立刻使 nitro 處理起來較不危險；而且因為它是固體，包裝和運輸也更方便。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “This combination” 指 liquid nitroglycerine + diatomaceous earth，也就是後文 Nobel 命名為 dynamite 的發明。原文說它 made nitro less dangerous to handle，所以 dynamite 比原本的liquid nitroglycerine 較安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Dynamite關係：is safer than對象：nitroglycerine原文命題主體：This combination / Nobel’s invention關係：made nitro less dangerous to handle對象：liquid nitroglycerine比較結果題目和原文同方向。雖然 Paragraph 6 仍提醒 dynamite dangerous to manufacture, store, and use，但 “still dangerous” 不會推翻 “safer than nitroglycerine”。較安全不代表完全安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“French newspapers condemned Alfred Nobel because of his wealth.”",
+      "translation": "法國報紙譴責 Alfred Nobel，是因為他的財富。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 condemnation 的原因。題目把原因說成 “because of his wealth”。原文若說重點在"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“became rich by finding ways to kill more people faster”，就要判斷題目是否把原因簡化錯位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7第一句：“Nobel himself was to become greatly perturbed, especially because of the events surrounding the death of his brother Ludvig.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel 本人後來變得非常不安，尤其是因為圍繞他弟弟 Ludvig 之死的一些事件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was certainly this event which influenced him, in 1895, to write a new will and testament, one year before he died.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是這件事在 1895 年影響他寫下新的遺囑；那是在他去世前一年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 7 講一件令 Nobel 受震動並改寫遺囑的事件。題目提到 French newspapers 和 condemned，所以應在本段中部找 obituary 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “French newspapers” 和 “condemned”。Paragraph 7 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“French newspapers mistook Ludvig’s death for Alfred’s and published an obituary.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the obituary was harsh and condemnatory…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet the obituary was harsh and condemnatory, calling Nobel the ‘merchant of death’, someone who ‘became rich by finding ways to kill more people faster than ever before’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這篇訃聞語氣嚴厲並帶有譴責，稱 Nobel 為「死亡商人」，說他是「透過找出讓更多人以前所未有速度被殺的方法而致富的人」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 condemnation 的原因是 “his wealth”。原文中的譴責焦點更精確：他 “became rich by finding ways to kill more people faster”。也就是說，報紙譴責的核心在於他透過殺傷性技術致富，不只是有錢本身。若只寫 wealth，會把 moral criticism 的真正對象縮錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：French newspapers動作：condemned Alfred Nobel原因：because of his wealth原文命題主體：the obituary in French newspapers動作：was harsh and condemnatory原因／內容：merchant of death；became rich by finding ways to kill more people faster比較結果題目把原因落在 wealth 本身；原文的原因落在 “致富方式與殺人技術”。兩者因果焦點不同，因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“became rich” 確實出現在原文，很容易令人把答案判成 TRUE。細讀時要看 “became rich” 後面的 by phrase：“by finding ways to kill more people faster”。這個 by phrase 才是譴責力量所在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：FALSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nobel’s will left some money to his friends.”",
+      "translation": "Nobel 的遺囑把一些錢留給了他的朋友。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要檢查 “some money” 和 “friends” 兩部分。原文若只說minor bequests，沒有說收款人身份，就不能自行補成 friends。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Alfred Nobel died, single and childless, at the age of 63, he specified that, apart from some minor bequests, his vast fortune (about 200 million dollars in today’s money) be set aside for the establishment of the Nobel Prizes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 在 63 歲去世時未婚無子；他指定除了一些小額遺贈之外，他的龐大財富，大約相當於今天的 2 億美元，應留作設立 Nobel Prizes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few consider that all that money came from nitroglycerine, dynamite, gunpowder, and armament manufacture—activities that indirectly caused incalculable human carnage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少人想到所有這些錢都來自 nitroglycerine、dynamite、gunpowder 和軍火製造，而這些活動間接造成不可估量的人類殺戮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，Paragraph 8 明確講 Nobel 的遺囑安排。題目說 “left some money to his friends”，需要檢查 minor bequests 的對象是否有說明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “will”、“some money”、“friends”。原文中 “will” 在 Paragraph 7 出現，真正財產安排在 Paragraph 8："
+            },
+            {
+              "kind": "quote",
+              "text": "“apart from some minor bequests”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但全文沒有 friends / companions / colleagues / relatives 等對象說明。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Alfred Nobel died, single and childless, at the age of 63, he specified that, apart from some minor bequests, his vast fortune … be set aside for the establishment of the Nobel Prizes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 去世時未婚無子；他指定除了一些小額遺贈之外，龐大財富應用於設立 Nobel Prizes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援 “some money” 這部分，因為 “minor bequests” 意思是小額遺贈。可是題目還加入 “to his friends”。文章沒有說這些小額遺贈給了誰，也沒有說朋友是否包括在內。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Nobel’s will動作：left some money對象：his friends原文命題主體：Nobel動作：apart from some minor bequests, vast fortune set aside for Nobel Prizes對象：minor bequests 的收款人沒有說明比較結果原文提供相關背景，但缺少 “friends” 這個核心對象。也沒有明確說不是朋友，所以不能判FALSE。資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“single and childless” 可能令人推想他大概把小額遺贈留給朋友，但 IELTS Reading 不接受生活常識補空白。答案只可根據文章。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Many now condemn Nobel for his production of weapons.”",
+      "translation": "現在有許多人因 Nobel 生產武器而譴責他。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查現代人對 Nobel 的態度。關鍵詞是 Many、now、condemn、production of weapons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說很多人現在譴責他；原文若說 Nobel Prizes 很有聲望，而且很少人想到財富來源，就會和題目方向衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Alfred Nobel died, single and childless, at the age of 63, he specified that, apart from some minor bequests, his vast fortune (about 200 million dollars in today’s money) be set aside for the establishment of the Nobel Prizes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 在 63 歲去世時未婚無子；他指定除了一些小額遺贈之外，他的龐大財富應留作設立 Nobel Prizes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few consider that all that money came from nitroglycerine, dynamite, gunpowder, and armament manufacture—activities that indirectly caused incalculable human carnage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少人想到所有這些錢都來自 nitroglycerine、dynamite、gunpowder 和軍火製造，而這些活動間接造成不可估量的人類殺戮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 8 處理 Nobel 的現代名聲和財富來源。題目說 many now condemn，需要看段末是否支持 “many” 和 “condemn”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many”"
+            },
+            {
+              "kind": "quote",
+              "text": "“now”"
+            },
+            {
+              "kind": "quote",
+              "text": "“condemn”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weapons”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“now considered among the most prestigious”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Few consider”"
+            },
+            {
+              "kind": "quote",
+              "text": "“armament manufacture”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobel’s strategy worked, as the Nobel Prizes are now considered among the most prestigious in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel 的策略奏效了，因為 Nobel Prizes 如今被視為世界上最具聲望的獎項之一。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few consider that all that money came from nitroglycerine, dynamite, gunpowder, and armament manufacture—activities that indirectly caused incalculable human carnage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少人想到所有那些錢都來自 nitroglycerine、dynamite、gunpowder 和軍火製造，而這些活動間接造成不可估量的人類殺戮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Many now condemn Nobel”。原文說 Nobel 的策略奏效，Nobel Prizes 現在極具聲望；更重要的是，Few consider 這筆錢的武器和炸藥來源。若很少人甚至想到這個來源，文章方向就不支持 “many now condemn”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：Many people now動作：condemn Nobel原因：his production of weapons原文命題主體：Nobel Prizes / public memory動作：now considered prestigious；few consider the money’s source原因來源：nitroglycerine, dynamite, gunpowder, armament manufacture比較結果題目說 many condemn；原文說 few consider the source，並指出 Nobel 的聲望策略成功。數量和態度方向都相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文最後一句確實提到 armament manufacture 和 incalculable human carnage，這很容易令人以為現代人很多都譴責他。可是句子的主語是 “Few consider”，真正控制答案的是 Few，不是weapons 這個字本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：FALSE"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - It’s Dynamite.pdf",
+    "sha256": "4d236481e0e6f3118ecbbd787fcd62c85f2e73585c9c6b4ff38c3c8b82f49fd1",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句寫 1866 年美國鐵路公司在 Sierra Nevada mountains 建隧道，遇到特別堅硬的岩石；末句說 nitroglycerine 後來必須在現場實驗室製造，既昂貴又危險，死亡爆炸事故仍不少。只看首尾句，可以先判斷這段用鐵路隧道事故引入 nitroglycerine 的危險性，重點包括 shock-sensitive、transportation banned、on-site manufacture 和 deadly explosions。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 nitroglycerine 的歷史充滿悲劇事件；末句說再次有不斷上升的死亡人數證明它解凍後更不穩定。只看首尾句，這段大概會回顧 nitroglycerine 的早期發現、Sobrero 的警告，以及冷凍後較安全、解凍後更危險的矛盾。遇到 first synthesised、frozen、less sensitive、death toll 這些題目，應先定位此段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句用 Yet 轉折，說 nitroglycerine 仍有需求，因為它是第一種實用採礦炸藥；末句說只有 nitro真正能完成炸碎岩石的工作，瑞典化學家 Alfred Nobel 因而產生興趣。只看首尾句，這段功能是比較 gunpowder 和 nitro 的爆炸能力，解釋為何 nitro 雖危險仍重要，也自然引出 Nobel。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Nobel 的公司正從 iron and steel 生產轉向 cannon、armaments 和 gunpowder 製造；末句說他的工廠又被炸毀兩次。只看首尾句，這段會講 Nobel 為了商業價值嘗試使 nitroglycerine變得可管理，過程中發生多次爆炸，包括弟弟和工人死亡，以及第一款 nitro 產品 blasting oil 仍不穩定。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說突破來自把 liquid nitroglycerine 和一種惰性吸收性矽酸鹽砂混合；末句說 Nobel 於 1867年以 dynamite 之名為發明申請專利，名稱來自希臘語 power。只看首尾句，這段明顯是dynamite 的誕生段：diatomaceous earth 讓 nitro 較易處理、包裝和運輸，也交代 diatomite 的來源與特性。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 dynamite 最著名的形式是短紙包炸藥棒，由四分之三 nitro 和四分之一 diatomaceous earth 組成；末句說公眾知道 Nobel 的財富也來自死亡和破壞武器。只看首尾句，這段功能有兩層：先提醒 dynamite 仍然危險，再說它在鐵路、隧道和和平工程中有用途，但同時與軍火財富連在一起。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Nobel 本人後來大受困擾，尤其因弟弟 Ludvig 逝世相關事件；末句說這件事影響他在1895 年重寫遺囑，並改變歷史進程。只看首尾句，這段大概會講 French newspapers 誤把Ludvig 之死當成 Alfred 之死，刊登嚴厲訃聞，稱他為 merchant of death，這刺激了他的遺囑安排。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Alfred Nobel 63 歲去世時未婚無子，指定大部分財富用來設立 Nobel Prizes；末句說很少人想到這些錢來自 nitroglycerine、dynamite、gunpowder 和 armament manufacture，而這些活動間接造成不可估量的人類殺戮。只看首尾句，這段是結論段，講 Nobel 用獎項重塑名聲，以及今日記憶和財富來源之間的落差。"
+      }
+    ]
+  }
+}

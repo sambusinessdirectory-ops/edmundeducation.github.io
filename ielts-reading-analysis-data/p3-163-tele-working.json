@@ -1,0 +1,1838 @@
+{
+  "id": "p3-163-tele-working",
+  "catalogueId": "p3-163",
+  "catalogueIds": [
+    "p3-163"
+  ],
+  "passage": 3,
+  "title": "Tele-working",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "F — shopping",
+    "A — pollution",
+    "C — paper usage",
+    "I — electronically",
+    "M — work-related",
+    "K — equipment",
+    "H — fuels and gases",
+    "D — construction and maintenance",
+    "A — stress and tension",
+    "C — the problem of less communication with colleagues",
+    "F — technical support staff",
+    "D — problems when equipment does not work",
+    "C — The author believes it is generally positive and encouraging."
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "F — shopping",
+      "answerKey": "F — shopping",
+      "type": "Summary Completion",
+      "prompt": "“telecommuters spend more time 28 ______ than traditional workers during non-commuting weekend travel.”",
+      "translation": "在非通勤的周末出行中，遠距工作者比傳統工作者花更多時間 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two other areas in which SUSTEL has added to the economic impact knowledge base are absenteeism and space utilisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SUSTEL 在兩個其他範疇補充了經濟影響方面的知識：缺勤和空間使用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Regarding non-commuting weekend travel, home-based workers, who include a substantial population of people who are not telecommuters, spend more time shopping away from home than traditional workers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於非通勤的周末出行，居家工作者，包括大量並非正式 telecommuters 的人，比傳統工作者花更多時間在外購物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“non-commuting weekend travel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spend more time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional workers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三組字在 Paragraph C 最後一句幾乎原字重現，所以直接定位到該句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“spend more time shopping away from home than traditional workers.”"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“spend more time ______ than traditional workers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者結構完全對應。空格需要一個活動名詞或動名詞，選項 F shopping 正好填入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 是 F — shopping。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要被 “home-based workers” 和 “telecommuters” 的小差異嚇到。原文說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "home-based workers 包含一大群非 telecommuters，但 summary 用 telecommuters 作概括，考點仍然落在 “spend more time shopping”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — pollution",
+      "answerKey": "A — pollution",
+      "type": "Summary Completion",
+      "prompt": "“Teleworking also benefits the environment by reducing 29 ______ through decreased road repairs, urban heating, and even…”",
+      "translation": "遠距工作也透過減少道路維修、城市熱化等方式，降低 ______，從而有利環境。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half-time telecommuting could reduce carbon emissions by over 51 million metric tons a year—the equivalent of taking all of New York’s commuters off the road.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "半時間遠距工作每年可減少超過 5,100 萬公噸碳排放，相當於讓紐約所有通勤者不上路。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The three major areas where energy can be conserved are vehicle-related materials and resources; highway-related materials and resources; and work-related materials and resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可節省能源的三大範圍是：車輛相關材料和資源、公路相關材料和資源，以及工作相關材料和資源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “environment”、“road repairs”、“urban heating” 對應 Paragraph D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Additional carbon footprint savings will come from reduced office energy, roadway repairs, urban heating, office construction, business travel, and paper usage…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "額外的碳足跡節省會來自辦公室能源、道路維修、城市熱化、辦公室建設、商務旅行和紙張使用的減少。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句提到 “reduce carbon emissions”，後面又說 “carbon footprint savings”。選項中沒有carbon emissions 或 carbon footprint，所以要找最接近的上位概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A pollution 是最合理的概括，因為 carbon emissions 屬於環境污染的一種，且題目句子說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“benefits the environment by reducing…”。所以 29 是 A — pollution。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 B internet energy。文章沒有說 teleworking 透過減少 internet energy 來保護環"
+            },
+            {
+              "kind": "paragraph",
+              "text": "境。相反，遠距工作仍需要網絡和電腦設備，原文沒有把它列為節省來源。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — paper usage",
+      "answerKey": "C — paper usage",
+      "type": "Summary Completion",
+      "prompt": "“…through decreased road repairs, urban heating, and even 30 ______, because office staff can send documents 31 ______.”",
+      "translation": "透過減少道路維修、城市熱化，甚至減少 ______，因為辦公室員工可以 ______ 發送文件。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half-time telecommuting could reduce carbon emissions by over 51 million metric tons a year…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "半時間遠距工作每年可減少超過 5,100 萬公噸碳排放。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The three major areas where energy can be conserved are vehicle-related materials and resources; highway-related materials and resources; and work-related materials and resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可節省能源的三大範圍是車輛、公路和工作相關材料及資源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “documents” 很有定位力，因為 Paragraph D 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“paper usage (as electronic documents replace paper).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "紙張使用量，因為電子文件取代紙張。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出 carbon footprint savings 的來源，其中包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“paper usage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “even 30 ______”，後面再用 “because office staff can send documents 31 ______” 解釋原因。這明顯指向紙張使用減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 是 C — paper usage。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 是名詞短語，剛好接在 “even” 後面。I electronically 是副詞，不能填在 30，因為 “even"
+            },
+            {
+              "kind": "paragraph",
+              "text": "electronically” 放在這裡文法不自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "I — electronically",
+      "answerKey": "I — electronically",
+      "type": "Summary Completion",
+      "prompt": "“because office staff can send documents 31 ______.”",
+      "translation": "因為辦公室員工可以 ______ 發送文件。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half-time telecommuting could reduce carbon emissions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "半時間遠距工作可減少碳排放。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The three major areas where energy can be conserved are…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可節能的三大範圍包括車輛、公路和工作相關材料及資源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是 “documents”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“paper usage (as electronic documents replace paper).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "紙張使用量，因為電子文件取代紙張。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀改寫"
+            },
+            {
+              "kind": "label",
+              "text": "原文是名詞短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“electronic documents”"
+            },
+            {
+              "kind": "label",
+              "text": "題目改成動作句："
+            },
+            {
+              "kind": "quote",
+              "text": "“send documents ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要副詞，表示文件傳送方式。選項 I electronically 是 “electronic” 的副詞形式，意思是「以電子方式」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 I — electronically。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文用的是形容詞 electronic，答案選項用的是副詞 electronically。這是常見的語法轉換"
+            },
+            {
+              "kind": "paragraph",
+              "text": "：形容詞修飾名詞，副詞修飾動詞 send。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "M — work-related",
+      "answerKey": "M — work-related",
+      "type": "Summary Completion",
+      "prompt": "“In addition, vehicle-related, highway-related, and 32 ______ materials will be saved.”",
+      "translation": "此外，車輛相關、公路相關和 ______ 材料將會被節省。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half-time telecommuting could reduce carbon emissions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "半時間遠距工作可減少碳排放。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The three major areas where energy can be conserved are vehicle-related materials and resources; highway-related materials and resources; and work-related materials and resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可節省能源的三大範圍是車輛相關材料和資源、公路相關材料和資源，以及工作相關材料和資源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎照抄最後一句： vehicle-related highway-related______ materials原文第三項是："
+            },
+            {
+              "kind": "quote",
+              "text": "“work-related materials and resources”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “vehicle-related, highway-related, and”，所以空格也需要一個 “-related” 形容詞。選項M work-related 完全符合原文和文法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 M — work-related。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 D construction and maintenance。它在 Paragraph E 出現，和 highways 的建"
+            },
+            {
+              "kind": "paragraph",
+              "text": "設維修有關，但題目這裡要完成 Paragraph D 的三大分類。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "K — equipment",
+      "answerKey": "K — equipment",
+      "type": "Summary Completion",
+      "prompt": "“Traditionally, a great deal of energy is required to produce 33 ______, including public transport and private cars.”",
+      "translation": "傳統上，生產 ______ 需要大量能源，包括公共交通和私家車。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A tremendous amount of energy is required to produce transportation equipment such as automobiles, buses, trains and jet aircraft.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生產交通設備，例如汽車、巴士、火車和噴射飛機，需要大量能源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first two areas are related to getting to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前兩個範圍都和上班交通有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “produce”、“public transport and private cars” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce transportation equipment such as automobiles, buses, trains and jet aircraft.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "原文的核心名詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“transportation equipment”"
+            },
+            {
+              "kind": "label",
+              "text": "選項中只有 K equipment 可放入題目句："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce equipment, including public transport and private cars”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然題目沒有寫 transportation，但後面的 public transport and private cars 已經限定 equipment的類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 K — equipment。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 E materials。原文此句講的是製造交通工具本身，即 equipment；materials 是製"
+            },
+            {
+              "kind": "paragraph",
+              "text": "造或道路建設中會消耗的東西。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "H — fuels and gases",
+      "answerKey": "H — fuels and gases",
+      "type": "Summary Completion",
+      "prompt": "“With the rise of telecommuting, resources and 34 ______ will be saved.”",
+      "translation": "隨著遠距工作增加，資源以及 ______ 將會被節省。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A tremendous amount of energy is required to produce transportation equipment…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生產交通設備需要大量能源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first two areas are related to getting to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前兩個範圍與上班交通有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “resources” 和 “saved” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fuel resources and gases needed to operate this equipment will be reduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "操作這些設備所需的燃料資源和氣體將會減少。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "原文說會減少："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fuel resources and gases”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 H 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“fuels and gases”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “Fuel resources and gases” 改寫成 “resources and fuels and gases” 這類 summary 結構。雖然句子讀起來有點壓縮，但從原文對應來看，答案最清楚是 H。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 H — fuels and gases。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 A pollution。這裡 Paragraph E 講操作交通設備時用到的 fuel resources and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "gases，不是總括環境污染。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — construction and maintenance",
+      "answerKey": "D — construction and maintenance",
+      "type": "Summary Completion",
+      "prompt": "“Energy and materials used in 35 ______ will also be conserved.”",
+      "translation": "用於 ______ 的能源和材料也會被節省。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A tremendous amount of energy is required to produce transportation equipment…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生產交通設備需要大量能源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first two areas are related to getting to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前兩個範圍與上班交通有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “Energy and materials” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Building, repairing, and maintaining highways also require a great deal of energy…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建造、修理和維護公路也需要大量能源。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“manufacture and transport the required materials.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造和運送所需材料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "題目把原文的三個動作壓縮："
+            },
+            {
+              "kind": "quote",
+              "text": "“Building, repairing, and maintaining highways”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“construction and maintenance”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "construction 對應 building；maintenance 對應 maintaining，也可涵蓋 repairing 的概念。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Energy and materials used in…” 後面需要名詞短語，所以 D 文法和意思都合適。所以 35 是 D — construction and maintenance。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "K equipment 已在 Question 33 用於交通設備；這裡焦點已轉到 highways 的建造與維"
+            },
+            {
+              "kind": "paragraph",
+              "text": "護。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "A — stress and tension",
+      "answerKey": "A — stress and tension",
+      "type": "Sentence Endings",
+      "prompt": "“More working time is often connected with:”",
+      "translation": "更長工作時間通常和甚麼有關？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The finding that many teleworkers report both longer working hours and a better quality of life is paradoxical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多遠距工作者同時表示工時更長和生活質素更好，這個發現很矛盾。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As one survey respondent noted, ‘Although the amount of time has not changed it has made the weekends freer, as domestic activities can be fitted in during lunchtimes or early morning.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如一位受訪者所說，雖然時間總量沒有改變，但周末變得更自由，因為家務可安排在午飯時間或清晨。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“More working time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“More time working is usually associated with increased stress, domestic tension and other factors that reduce the quality of life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更多工作時間通常和壓力增加、家庭緊張，以及其他降低生活質素的因素有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “connected with” 對應原文 “associated with”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案是："
+            },
+            {
+              "kind": "quote",
+              "text": "“increased stress, domestic tension”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“stress and tension”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 A — stress and tension。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段後面解釋 teleworking 為何仍能改善生活質素，但 Question 36 問的是一般情況下"
+            },
+            {
+              "kind": "paragraph",
+              "text": "more working time 的常見關聯，所以要用前半句 “usually associated with”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — the problem of less communication with colleagues",
+      "answerKey": "C — the problem of less communication with colleagues",
+      "type": "Sentence Endings",
+      "prompt": "“Oracle’s ‘FUNctional’ office concept aims to improve:”",
+      "translation": "Oracle 的 “FUNctional” 辦公室概念旨在改善甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Socially, the SUSTEL research found that most survey respondents felt that teleworking gave them a better quality of life and work-life balance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在社會層面，SUSTEL 研究發現，多數受訪者認為遠距工作給他們更好的生活質素和工作生活平衡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Designed to increase communication and interaction when people are at the office, they are bright and focused around a central cafe to stimulate ideas and face-to-face contact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些辦公室設計明亮，圍繞中央咖啡區，目的是在人們回到辦公室時增加溝通和互動，刺激想法和面對面接觸。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Oracle’s ‘FUNctional’ offices”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The loss of teamwork and team spirit within teleworking populations was tackled through ideas such as Oracle’s ‘FUNctional’ offices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠距工作群體中團隊合作和團隊精神的流失，透過 Oracle 的 “FUNctional” 辦公室等想法來處理。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "Oracle 的設計目的在下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Designed to increase communication and interaction…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "設計目的在於增加溝通和互動。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“the problem of less communication with colleagues”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與同事溝通減少的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文用 “loss of teamwork and team spirit”，再說 “increase communication and interaction”，選項 C 把這兩句合成一個問題：同事之間溝通和互動不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 C — the problem of less communication with colleagues。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 A。stress and tension 是 Paragraph G 講 more working time 的一般問題，不是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Oracle office design 的目標。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "F — technical support staff",
+      "answerKey": "F — technical support staff",
+      "type": "Sentence Endings",
+      "prompt": "“When you work in an office, equipment such as computers and printers is maintained by:”",
+      "translation": "當你在辦公室工作時，電腦和打印機等設備由誰維護？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When you work in an office or a cubicle and something goes wrong with any hardware or software you have the option of calling in the IT man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你在辦公室或小隔間工作時，如果任何硬件或軟件出問題，你可以選擇叫 IT 人員來處理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If your computer hard drive crashed today, would you have the funds to replace it?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你的電腦硬碟今天壞了，你是否有資金更換它？"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“work in an office”"
+            },
+            {
+              "kind": "quote",
+              "text": "“equipment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“computers and printers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“maintained by”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, all of the equipment that you use at the office is supported by technical staff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，你在辦公室使用的所有設備都由技術人員支援。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “maintained by” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“supported by technical staff”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 F 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“technical support staff”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與原文的 “technical staff” 和 support 概念完全一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 F — technical support staff。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "J IT 曾在詞表中出現於前一部分，但 36–39 的句尾選項裡沒有 J。這題要從 A–F 選，最"
+            },
+            {
+              "kind": "paragraph",
+              "text": "貼近的是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — problems when equipment does not work",
+      "answerKey": "D — problems when equipment does not work",
+      "type": "Sentence Endings",
+      "prompt": "“When you work from home and use hardware and software:”",
+      "translation": "當你在家工作並使用硬件和軟件時，會怎樣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When you work in an office or a cubicle and something goes wrong with any hardware or software you have the option of calling in the IT man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在辦公室工作時，硬件或軟件出問題，你可叫 IT 人員來處理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If your computer hard drive crashed today, would you have the funds to replace it?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果電腦硬碟今天壞了，你是否有資金更換它？"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“work from home”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hardware and software”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“That means that regular updates and maintenance for various and sundry office tools like land-line phones, computers, internet connections, laptops, cell phones, printers, and other office equipment are all up to you when you work from home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表當你在家工作時，固定電話、電腦、網絡連接、手提電腦、手機、打印機和其他辦公設備的定期更新與維護都要由你自己負責。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You will surely encounter technical problems…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你肯定會遇到技術問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目開頭是 “When you work from home and use hardware and software”，要接一個結果。原文結果是："
+            },
+            {
+              "kind": "quote",
+              "text": "“you will surely encounter technical problems”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“problems when equipment does not work”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當設備不能運作時出現的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 D — problems when equipment does not work。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F 已經用於辦公室的 technical support staff。Question 39 的重點轉為 home working 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題：設備和軟件出事時，支援不再像辦公室那樣現成。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — The author believes it is generally positive and encouraging.",
+      "answerKey": "C — The author believes it is generally positive and encouraging.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the author’s attitude towards teleworking?”",
+      "translation": "作者對遠距工作的態度是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是整體態度，不可只看一個段落。MCQ 的做法是選最完整、最精確受到原文支援的選項，並檢查其他選項哪裡越過文章。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文走向"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一段已給整體框架："
+            },
+            {
+              "kind": "quote",
+              "text": "“Teleworking—working remotely from an office—is said to have many benefits for organisations, the environment and society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠距工作被指對機構、環境和社會都有很多好處。"
+            },
+            {
+              "kind": "label",
+              "text": "同段最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether you like it or not, it is true to say that work is no longer dependent on geography and this opens up a range of opportunities for working in new ways and environments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你喜不喜歡，可以肯定的是，工作已不再依賴地理位置，這為新的工作方式和工作環境打開了一系列機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句顯示作者開局較正面：有好處、有新機會，但也承認 reactions are mixed。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找全篇態度訊號"
+            },
+            {
+              "kind": "label",
+              "text": "正面證據很多： Paragraph B："
+            },
+            {
+              "kind": "quote",
+              "text": "“not only was productivity higher but also that absenteeism and error rates were lower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生產力較高，缺勤率和錯誤率也較低。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half-time telecommuting could reduce carbon emissions by over 51 million metric tons a year…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "半時間遠距工作每年可減少超過 5,100 萬公噸碳排放。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F："
+            },
+            {
+              "kind": "quote",
+              "text": "“most survey respondents felt that teleworking gave them a better quality of life and work-life balance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多數受訪者認為遠距工作給他們更好的生活質素和工作生活平衡。"
+            },
+            {
+              "kind": "label",
+              "text": "也有保留： Paragraph H："
+            },
+            {
+              "kind": "quote",
+              "text": "“You will surely encounter technical problems…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你肯定會遇到技術問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀作者態度"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者並沒有把 teleworking 描寫成完美方案。Paragraph A 說它 “provokes mixed reactions”； Paragraph H 也明確指出在家工作可能缺乏 IT support，甚至設備壞了要自己處理成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，全篇大部分篇幅都在列舉 teleworking 的好處：企業方面：productivity higher、absenteeism lower、error rates lower、space requirements reduced。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "環境方面：carbon emissions reduced、office energy、roadway repairs、paper usage reduced。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會方面：better quality of life、work-life balance、health benefits、local communities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "時間方面：saved commuting time、freer weekends、more control of activities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以作者態度最接近 C：整體正面和鼓勵，但帶有實際限制提醒。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. The author is surprised by its rapid growth.錯。文章沒有說 teleworking 迅速增長，也沒有表達 surprised。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. The author is unconcerned about its future development.錯。作者不是漠不關心；全文正是在分析它的影響，包括好處和問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. The author believes it is generally positive and encouraging.正確。全文大部分段落展示 teleworking 對公司、環境和生活質素的好處。雖然最後提醒技術問題，但整體語氣仍偏正面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. The author is worried about the economic problems that may arise.錯。文章提到經濟層面的內容多是 productivity、absenteeism、space utilisation 等好處，沒有集中憂慮經濟問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Tele-working.pdf",
+    "sha256": "e18de11e5b7cfdb1849465be0b5f2e851639dc45133fb9ff2dd46e891dd5e0b5",
+    "pageCount": 21
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 teleworking 被指對機構、環境和社會都有很多好處，但不同人反應不一；尾句指出工作已不再受地理位置限制，這打開了新的工作方式和工作環境。只看首尾句，可先估計本段是全文引入：遠距工作有爭議，但整體趨勢是工作地點彈性增加，文章接下來會討論它的好處、限制和影響。"
+      },
+      {
+        "number": "B",
+        "summary": "首句提到調查顯示生產力提升主要不因工時變長；尾句說一項比較研究發現 teleworkers 生產力較高，缺勤率和錯誤率較低。只看首尾句，本段重點很清楚：遠距工作可能提高工作表現，而且這種提升不只靠加班解釋。段落大概會處理企業或經濟層面的好處，尤其 productivity、absenteeism 和 error rates。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 SUSTEL 在 absenteeism 和 space utilisation 兩方面補充了經濟影響資料；尾句轉到非通勤周末出行，說 home-based workers 比 traditional workers 花更多時間外出購物。只看首尾句，可見本段前半談公司層面的缺勤和辦公空間節省，尾句加入生活行為變化。這段很可能回答summary 中 shopping、absenteeism、space requirements 等細節題。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說半時間遠距工作可每年減少大量碳排放，相當於讓紐約所有通勤者不上路；尾句列出三個節能範圍：vehicle-related、highway-related 和 work-related materials and resources。只看首尾句，本段明顯轉入 environmental benefits：少通勤可減碳、節省能源，也減少辦公、道路和文件使用相關消耗。這段是 29–32 的核心定位段落。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說製造交通設備，如汽車、巴士、火車和飛機，需要大量能源；尾句說前兩個節能範圍都和上班交通有關。只看首尾句，可估計本段延續 Paragraph D 的 environmental theme，細講vehicle-related 和 highway-related savings。中間應該會提到交通工具的生產、維修、燃料與道路建設維護，適合定位 equipment、fuels and gases、construction and maintenance。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 SUSTEL 研究發現，多數受訪者認為 teleworking 改善生活質素和 work-life balance；尾句說 Oracle 的 FUNctional offices 色彩明亮，圍繞中央咖啡區，以刺激想法和面對面接觸。只看首尾句，可見本段處理社會和人際層面：遠距工作提高生活質素，但可能削弱團隊精神，因此企業用辦公室設計補回溝通和互動。"
+      },
+      {
+        "number": "G",
+        "summary": "首句提出矛盾：很多 teleworkers 同時報告更長工時和更好生活質素；尾句引用受訪者說，時間總量沒變，但家務可安排在午飯或清晨，所以周末更自由。只看首尾句，可估計本段解釋teleworking 如何「創造時間感」：雖然工時增加，但省下通勤、減少通勤壓力、可多工處理家務，令生活質素仍然改善。36 題會在此定位。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說在辦公室或 cubicle 工作時，硬件或軟件出問題可以叫 IT man；尾句問如果電腦硬碟今天壞了，你是否有資金更換。只看首尾句，可見本段轉向缺點：在家工作時，技術支援和設備維修責任可能落到自己身上。這段會回答 technical support、hardware、software、equipment problems等句尾配對題。"
+      }
+    ]
+  }
+}

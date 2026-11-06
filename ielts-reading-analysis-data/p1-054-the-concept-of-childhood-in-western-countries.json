@@ -1,0 +1,1999 @@
+{
+  "id": "p1-054-the-concept-of-childhood-in-western-countries",
+  "catalogueId": "p1-054",
+  "catalogueIds": [
+    "p1-054"
+  ],
+  "passage": 1,
+  "title": "The Concept of Childhood in Western Countries",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "history of childhood",
+    "miniature adults",
+    "industrialisation",
+    "Factory Act",
+    "play and education",
+    "in a classroom"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Ariès argued that children did different kinds of work from adults during the Middle Ages.”",
+      "translation": "Ariès 認為，在中世紀，兒童從事的工作種類和成人不同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心是 “children did different kinds of work from adults”。要檢查 Ariès 是否主張兒童和成人工作不同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether childhood itself is a recent invention is one of the most intensely debated issues in its history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "childhood 本身是否近期發明，是兒童史中最激烈討論的問題之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The concept should not be confused with affection for children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個概念不應和對兒童的感情混淆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 會處理 Ariès 對 childhood concept 的主張，也會區分「有沒有兒童概念」和「有沒有愛護兒童」。題目直接點名 Ariès 和 Middle Ages，所以這段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ariès”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Middle Ages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different kinds of work”"
+            },
+            {
+              "kind": "quote",
+              "text": "“adults”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph 2，可以找到 “during the Middle Ages” 和 “children and adults”。真正要看的不是有沒有 work，而是 work 前後的關係詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After examining medieval pictures and diaries, he concluded that children and adults were not clearly distinguished because they shared similar work and leisure activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在研究中世紀圖畫和日記後，他得出結論：兒童和成人沒有被清楚區分，因為他們共享相似的工作和休閒活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “he”，指 Ariès。核心動詞是 “concluded”。內容是 “children and adults were not clearly distinguished”，原因是 “they shared similar work and leisure activities”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說：children did different kinds of work from adults。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：children and adults shared similar work。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "different kinds of work↔ shared similar work判斷：題目說兒童和成人工作不同；原文說兒童和成人有相似工作和休閒活動。兩者方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 Paragraph 3 提到 children performed chores、worked as servants or apprentices，就以為兒童工作和成人不同。但 Question 1 問的是 Ariès 對 Middle Ages 的觀點，答案句在Paragraph 2，不可用後面一般歷史描述取代 Ariès 的主張。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Working children during the Middle Ages were generally unloved.”",
+      "translation": "中世紀工作的兒童一般不受愛。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否說中世紀兒童因為工作而缺乏愛。控制詞是 “generally unloved”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether childhood itself is a recent invention is one of the most intensely debated issues in its history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "childhood 本身是否近期發明，是兒童史中最激烈討論的問題之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The concept should not be confused with affection for children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "childhood 這個概念不應和對兒童的感情混淆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示：本段討論的是 childhood concept，不是父母是否愛孩子。尾句尤其重要，因為它直接處理 affection。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Middle Ages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unloved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“working children”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 unloved 這個字，但可找近義或反義概念： neglected abandoned despised affection for children"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, he argued, this did not mean that children were neglected, abandoned or despised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，他認為，這並不表示兒童被忽視、被拋棄或被鄙視。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The concept should not be confused with affection for children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "childhood 這個概念不應和對兒童的感情混淆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來很清楚：Ariès 認為中世紀未必有現代意義上的 childhood concept，但不能因此推論兒童不受愛、被忽視或被輕視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Working children during the Middle Ages內容：generally unloved原文命題：主體：children in that historical discussion內容：this did not mean they were neglected, abandoned or despised補充：concept should not be confused with affection比較結果：題目把「兒童和成人界線不清」理解成「兒童一般不受愛」。原文已提醒不能這樣混淆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 說兒童被視為 useful，又要做 chores 或離家工作。這些內容可顯示兒童有經濟功能，但不能推出 “generally unloved”。文章特別提醒 concept 和 affection 要分開。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some scientists thought that overwork might damage the health of young children.”",
+      "translation": "一些科學研究者認為，過度工作可能損害兒童健康。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷是否有人認為 child labour / overwork 可能影響兒童身體健康。控制詞是 “some”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“overwork”、“damage the health”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“In the 18th and 19th centuries, industrialisation created new demand for child labour, forcing many children to work long hours in mines, workshops and factories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十八和十九世紀，工業化為童工創造了新的需求，迫使許多兒童在礦場、工場和工廠長時間工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether such labour interfered with their physical growth began to concern social reformers, some of whom recognised the potential of systematic studies to measure how these early deprivations affected development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類勞動是否干擾兒童身體成長，開始引起社會改革者關注；其中一些人意識到，系統研究可用來衡量這些早期 deprivation 如何影響發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 的功能是說 industrialisation 令大量兒童長時間工作，並引出對身體成長和發展影響的關注。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“overwork”"
+            },
+            {
+              "kind": "quote",
+              "text": "“damage the health”"
+            },
+            {
+              "kind": "quote",
+              "text": "“young children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 overwork，但有 “work long hours”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 health，但有 “physical growth” 和 “development”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 scientists，但有 “systematic studies”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether such labour interfered with their physical growth began to concern social reformers, some of whom recognised the potential of systematic studies to measure how these early deprivations affected development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類勞動是否干擾兒童身體成長，開始引起社會改革者關注；其中一些人意識到系統研究可衡量這些早期 deprivation 如何影響發展。"
+            },
+            {
+              "kind": "label",
+              "text": "這句的重點有三個："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“such labour” 指上一句的 children work long hours。“interfered with their physical growth” 指可能阻礙身體成長。“systematic studies” 指用較有系統的方法研究這種影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "overwork= work long hours / such labour damage the health= interfered with physical growth / affected development some scientists= some people connected with systematic studies判斷：題目把 “long hours of child labour might interfere with physical growth” 概括成 “overwork might damage health”。這個方向得到原文支持，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的身份詞有少許距離：原文直接寫的是 social reformers，不是 scientists。不過題目用“Some scientists” 來對應 “systematic studies” 的研究方向。若只看核心信息，即「有人開始用系統研究關注過度童工對兒童發展的損害」，答案成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The rise of trade unions was the main factor protecting children from exploitation in the 19th century.”",
+      "translation": "工會興起是十九世紀保護兒童免受剝削的主要因素。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 trade unions 是否是 main factor。控制詞是 “main factor”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reformers’ concerns gradually improved children’s working conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "改革者的關注逐漸改善了兒童工作條件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the first decade of the 21st century, the ‘useful child’ became controversial, especially amid global concern about the many children still engaged in labour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到二十一世紀第一個十年，“useful child” 變得具爭議，尤其在全球關注仍有許多兒童從事勞動的背景下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句顯示本段會處理 working conditions 的改善。題目問 protecting children from exploitation，最可能在此段找法律、改革、工會等原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“trade unions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“main factor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“protecting children from exploitation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph 5，可見 “Factory Act of 1833”、“legal protection against exploitation”、“Factory reform”、“trade unions and economic change also helped”。這些都是答案相關詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Britain, for example, the Factory Act of 1833 marked the emergence of legal protection against exploitation and was associated with the rise of schools for factory children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如在英國，1833 年 Factory Act 標誌著防止剝削的法律保護開始出現，並與 factory children學校的興起有關。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Factory reform gradually eliminated the worst abuses, while trade unions and economic change also helped by making some forms of child labour redundant during the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工廠改革逐漸消除了最嚴重的弊端；同時，工會和經濟變化也透過令某些形式的童工變得多餘，在十九世紀提供了幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把主要保護線索放在 Factory Act、legal protection 和 Factory reform。trade unions 的角色是 “also helped”，表示輔助因素。題目把 trade unions 提升為 “the main factor”，範圍和程度過大。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "trade unions = main factor原文： Factory Act marked legal protection Factory reform eliminated worst abuses trade unions and economic change also helped判斷：原文承認工會有幫助，但沒有說它是主要因素。題目把次要或共同因素說成主因，所以答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “trade unions” 原字重現，很容易急著選 TRUE。這題真正定案的是 “also helped” 和題目中的 “main factor”。定位詞只是帶路，程度詞才決定答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“With the aid of half-time schools, most children went to school in the mid-19th century.”",
+      "translation": "在 half-time schools 的幫助下，十九世紀中期大多數兒童都有上學。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 mid-19th century 的 school attendance 情況。控制詞是 “most children”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The half-time schools established under the Factory Act of 1833 allowed children to work and attend school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1833 年 Factory Act 下建立的 half-time schools 讓兒童可以一邊工作，一邊上學。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the 19th century in Britain, the situation changed dramatically, and schools became central to the concept of a ‘normal’ childhood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到十九世紀末，英國情況大幅改變，學校成為 “normal” childhood 概念的核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段會比較 half-time schools 初期效果和十九世紀末學校地位的變化。題目問mid-19th century，所以要看段中 1840s 的資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“half-time schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mid-19th century”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應時間是 “in the 1840s”，即十九世紀中期。掃描後會找到 “a significant proportion of children did not attend school” 和 “many ... dropped out”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, a significant proportion of children did not attend school in the 1840s, and many of those who did dropped out by the age of 10 or 11.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在 1840 年代，有相當比例的兒童沒有上學；而在那些有上學的兒童之中，很多人在十歲或十一歲時便退學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句用 “However” 轉折，修正前一句 “half-time schools allowed children to work and attend school”。也就是說，制度上可以一邊工作一邊上學，但實際上仍有相當比例沒有出席，並且很多出席者很早退學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：半工半讀學校幫助下most children went to school mid-19th century原文命題： half-time schools allowed work and school however, significant proportion did not attend in 1840s many attendees dropped out by 10 or 11比較結果：題目把制度可能性講成普遍出席。原文的方向是：即使有 half-time schools，1840s 的學校出席仍然不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一句 “allowed children to work and attend school” 很容易令人以為制度已成功普及教育。可是第二句用 “However” 提醒讀者：實際出席情況仍有問題。遇到轉折詞，要優先細讀轉折後內容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In the 20th century, almost all children were required to attend school full-time.”",
+      "translation": "在二十世紀，幾乎所有兒童都被要求全日制上學。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查三個元素：20th century、almost all children、required to attend school full-time。原文若只說 school became central 或 every child is expected，仍要檢查是否有 full-time 和 required。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 和 Paragraph 7 Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the 19th century in Britain, the situation changed dramatically, and schools became central to the concept of a ‘normal’ childhood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到十九世紀末，英國情況大幅改變，學校成為 “normal” childhood 概念的核心。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“School attendance is no longer a privilege, and every child is expected to spend a substantial part of the day in a classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上學不再是一種特權，每個兒童都被期待每天花相當一部分時間在課室中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句顯示學校確實變得重要，也變得普遍。但題目要的 full-time requirement 仍需要更精準證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“20th century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“almost all children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“required”"
+            },
+            {
+              "kind": "quote",
+              "text": "“full-time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the 19th century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“School attendance is no longer a privilege”"
+            },
+            {
+              "kind": "quote",
+              "text": "“every child is expected”"
+            },
+            {
+              "kind": "quote",
+              "text": "“substantial part of the day”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是原文沒有明確出現： required full-time school almost all children in the 20th century"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“School attendance is no longer a privilege, and every child is expected to spend a substantial part of the day in a classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上學不再是一種特權，每個兒童都被期待每天花相當一部分時間在課室中。"
+            },
+            {
+              "kind": "label",
+              "text": "這句支持「現代兒童普遍要上學」。但題目多了幾個更具體的要求："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“required” 表示法律或制度強制。原文用 “expected”，語氣較寬。“full-time” 表示全日制。原文只說 “a substantial part of the day”，即一天中相當一部分時間。“in the 20th century” 在題目中限定時間，但原文從十九世紀末轉到現代 schooling，沒有清楚說二十世紀幾乎所有兒童被要求全日制上學。判斷：文章提供相關背景：學校出席變普遍，學校在兒童生活中很重要。可惜題目要求的「二十世紀、幾乎所有兒童、被要求、全日制」沒有完整證據。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“every child is expected” 很容易吸引學生選 TRUE。但 “expected” 和 “required” 不完全相同；“substantial part of the day” 也未必等於 full-time。判斷要落在題目較細的限制詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Today, children’s needs are differentiated and categorised according to age.”",
+      "translation": "今天，兒童的需要會按年齡作出區分和分類。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷現代兒童是否被視為有 distinctive needs，並按 age 組織或分類。控制詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“according to age”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8第一句：“Industrialisation, urbanisation and mass schooling created new challenges for those responsible for protecting children’s welfare and promoting learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工業化、城市化和大眾教育為負責保護兒童福利和促進學習的人帶來新挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They also require tools for sorting and selecting children according to ability and potential.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們也需要工具，按兒童的能力和潛力進行分類和選拔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 8 會講現代兒童福利、學習、分類、評估和教育管理。題目問 needs 和age，應在本段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“children’s needs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“categorised”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“children are treated as a group with distinctive needs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“organised according to age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“instruction suits different age groups”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Increasingly, children are treated as a group with distinctive needs and organised according to age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越多情況下，兒童被視為一個有獨特需要的群體，並按年齡組織起來。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Teachers, for example, need to know what to expect from children, which instruction suits different age groups and how best to assess progress.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，教師需要知道應對兒童有甚麼期待、哪種教學適合不同年齡組別，以及如何最好地評估進度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "children’s needs are differentiated= children are treated as a group with distinctive needs categorised according to age= organised according to age / different age groups判斷：題目和原文方向一致。原文直接說 children 有 distinctive needs 並按 age 組織，後文又補充different age groups。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最後一句提到 ability and potential，可能令人以為分類只按能力。其實本段有兩層分類：先按age 組織，再按 ability and potential sorting / selecting。Question 7 問的是 age，所以中間句已足夠定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "history of childhood",
+      "answerKey": "history of childhood",
+      "type": "Short-answer Questions",
+      "prompt": "“What subject became prominent after Philippe Ariès’s influential book appeared?”",
+      "translation": "Philippe Ariès 的重要著作出版後，哪一個學科／主題變得突出？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，答案不超過三個字。題目問 “What subject”，所以答案應是一個名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The history of childhood has been a prominent topic in social history since the influential book Centuries of Childhood, written by the French historian Philippe Ariès, appeared in 1960.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自法國歷史學家 Philippe Ariès 的重要著作 Centuries of Childhood 於 1960 年問世以來，history of childhood 一直是 social history 中一個重要議題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ariès claimed that ‘childhood’ is a concept created by modern society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ariès 聲稱，“childhood” 是現代社會創造出來的概念。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Philippe Ariès”"
+            },
+            {
+              "kind": "quote",
+              "text": "“influential book”"
+            },
+            {
+              "kind": "quote",
+              "text": "“became prominent”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接有 “prominent topic” 和 “influential book”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The history of childhood has been a prominent topic in social history since the influential book Centuries of Childhood, written by the French historian Philippe Ariès, appeared in 1960.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 Philippe Ariès 的 Centuries of Childhood 於 1960 年出版後，history of childhood 成為 social history 中的重要議題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What subject became prominent”，原文直接回答 “The history of childhood”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： history of childhood = 3 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 history of childhood。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "miniature adults",
+      "answerKey": "miniature adults",
+      "type": "Short-answer Questions",
+      "prompt": "“According to Ariès, what was the typical image of children in Western Europe during the Middle Ages?”",
+      "translation": "根據 Ariès，中世紀西歐兒童的典型形象是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what was the typical image”，答案應是名詞短語。定位詞是 Ariès、Western Europe、Middle Ages。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether childhood itself is a recent invention is one of the most intensely debated issues in its history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "childhood 本身是否近期發明，是兒童史中最激烈討論的問題之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The concept should not be confused with affection for children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個概念不應和對兒童的感情混淆。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ariès”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Western Europe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Middle Ages”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“children in Western Europe were regarded as miniature adults”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Philippe Ariès argued that during the Middle Ages, up to about the end of the 15th century, children in Western Europe were regarded as miniature adults, with all the intellect and personality that this implied.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Philippe Ariès 認為，在中世紀直到大約十五世紀末，西歐兒童被看作 miniature adults，即縮小版成人，並被認為具有這種看法所暗示的智力和人格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 typical image，原文的 “were regarded as” 就是「被看作」。答案是 miniature adults。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： miniature adults = 2 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 miniature adults。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "industrialisation",
+      "answerKey": "industrialisation",
+      "type": "Short-answer Questions",
+      "prompt": "“What historical event generated the need for a large number of children to work long hours in the 18th and 19th centuries?”",
+      "translation": "十八和十九世紀，哪一個歷史事件造成大量兒童長時間工作的需要？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What historical event”，答案應是名詞。定位詞是 18th and 19th centuries、work long hours。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 18th and 19th centuries, industrialisation created new demand for child labour, forcing many children to work long hours in mines, workshops and factories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十八和十九世紀，工業化產生了新的童工需求，迫使許多兒童在礦場、工場和工廠長時間工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether such labour interfered with their physical growth began to concern social reformers, some of whom recognised the potential of systematic studies to measure how these early deprivations affected development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類勞動是否干擾兒童身體成長，開始引起社會改革者關注；一些人也看到系統研究可衡量早期deprivation 對發展的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“18th and 19th centuries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“large number of children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“work long hours”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句已經原字重現 “18th and 19th centuries” 和 “work long hours”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 18th and 19th centuries, industrialisation created new demand for child labour, forcing many children to work long hours in mines, workshops and factories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十八和十九世紀，industrialisation 創造新的童工需求，迫使許多兒童長時間工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what historical event generated the need”。原文的 “created new demand” 對應generated the need。答案是 industrialisation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： industrialisation = 1 word。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 industrialisation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "Factory Act",
+      "answerKey": "Factory Act",
+      "type": "Short-answer Questions",
+      "prompt": "“Which Act was enacted to protect children from exploitation in 19th-century Britain?”",
+      "translation": "十九世紀英國哪一條法案被制定來保護兒童免受剝削？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，答案不超過三個字。題目問 Which Act，答案應是法案名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reformers’ concerns gradually improved children’s working conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "改革者的關注逐漸改善兒童工作條件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the first decade of the 21st century, the ‘useful child’ became controversial, especially amid global concern about the many children still engaged in labour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十一世紀初，“useful child” 變得具爭議，尤其在全球關注許多兒童仍從事勞動的背景下。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Act”"
+            },
+            {
+              "kind": "quote",
+              "text": "“protect children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exploitation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Britain ... the Factory Act of 1833 marked the emergence of legal protection against exploitation”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Britain, for example, the Factory Act of 1833 marked the emergence of legal protection against exploitation and was associated with the rise of schools for factory children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如在英國，1833 年 Factory Act 標誌著防止剝削的法律保護開始出現，並與工廠兒童學校興起有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問哪一條 Act。原文完整名稱是 “Factory Act of 1833”。但題目限制 NO MORE THAN THREE WORDS；“Factory Act of 1833” 是四個字，所以答題時應寫 Factory Act。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： Factory Act = 2 words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Factory Act。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Factory Act of 1833”，因為超過三個字。若考卷以字數嚴格計算，這會失分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "play and education",
+      "answerKey": "play and education",
+      "type": "Short-answer Questions",
+      "prompt": "“Which activities were becoming regarded as preferable for almost all children in the 19th century?”",
+      "translation": "十九世紀，哪些活動開始被視為幾乎所有兒童都應該有的活動？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 activities，答案應是兩項活動的名詞短語。定位詞是 regarded、appropriate / preferable、all children、19th century。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reformers’ concerns gradually improved children’s working conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "改革者的關注逐漸改善了兒童工作條件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the first decade of the 21st century, the ‘useful child’ became controversial, especially amid global concern about the many children still engaged in labour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十一世紀初，“useful child” 變得具爭議，尤其在全球仍有許多兒童從事勞動的背景下。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“regarded”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“activities”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應句有 “play and education came to be regarded as appropriate for all children”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Initiating children into work was no longer the priority, and play and education came to be regarded as appropriate for all children rather than only a privileged minority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讓兒童開始工作不再是優先事項；play and education 開始被視為適合所有兒童，而不只屬於少數特權群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “preferable” 對應原文 “appropriate”；“almost all children” 對應 “all children rather than only a privileged minority”。答案就是兩項活動：play and education。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： play and education = 3 words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 play and education。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "in a classroom",
+      "answerKey": "in a classroom",
+      "type": "Short-answer Questions",
+      "prompt": "“Where are children expected to spend a substantial part of each school day?”",
+      "translation": "兒童被期待每天在學校日的大部分時間在哪裡度過？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Where，答案應是地點名詞短語，限制不超過三個字。定位詞是 substantial part、day、classroom。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“School attendance is no longer a privilege, and every child is expected to spend a substantial part of the day in a classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上學不再是一種特權，每個兒童都被期待每天花相當一部分時間在課室中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Education also dominates children’s waking hours through classroom time, homework, the growth of after-school activities and the importance attached to parental involvement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "教育也透過課堂時間、功課、課外活動增加，以及對父母參與的重視，主導兒童清醒時的大部分時間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“substantial part”"
+            },
+            {
+              "kind": "quote",
+              "text": "“school day”"
+            },
+            {
+              "kind": "quote",
+              "text": "“where”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句直接有 “spend a substantial part of the day in a classroom”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“School attendance is no longer a privilege, and every child is expected to spend a substantial part of the day in a classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上學不再是一種特權，每個兒童都被期待每天花相當一部分時間在課室中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 Where，原文的地點短語是 “in a classroom”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： in a classroom = 3 words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 in a classroom。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Concept of Childhood in Western Countries.pdf",
+    "sha256": "f299cb8dd640da24230deabbf780845ffd6592475ebbf376520d1c59a8cb4691",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一段首句說，自 Philippe Ariès 於 1960 年出版 Centuries of Childhood 以來，childhood history已成為 social history 中的重要議題。尾句說 Ariès 聲稱 childhood 是 modern society 創造出來的概念。只看首尾句，可以先估計這段是全文引入：它會交代 Ariès、書名、出版年份，以及文章核心爭議，即 childhood 是否一個現代社會概念。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說，childhood 本身是否近期發明，是兒童史中最激烈討論的問題之一。尾句說， childhood 的概念不應和對兒童的 affection 混淆。只看首尾句，可以估計本段會展開 Ariès 的觀點：中世紀兒童被看成 miniature adults，兒童和成人界線不清；但這不等於兒童被忽視、拋棄或不受愛。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說，傳統上兒童透過貢獻家庭收入扮演 functional role，因此被視為 useful。尾句說，十六世紀九至十歲兒童常被鼓勵甚至被迫離家，去富裕家庭做 servants 或當 apprentices 學手藝。只看首尾句，可以估計這段會講早期兒童勞動的常態，重點在兒童如何因經濟功能而被安排工作。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說，十八和十九世紀 industrialisation 產生新的 child labour 需求，迫使許多兒童在礦場、工場和工廠長時間工作。尾句說，一些改革者意識到 systematic studies 可用來衡量早期deprivation 如何影響發展。只看首尾句，可以估計這段會由家庭勞動轉到工業童工，並引出健康、成長和社會改革關注。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說，改革者的關注逐漸改善兒童工作條件。尾句說，二十一世紀初，useful child 變得具爭議，尤其在全球仍有大量兒童勞動的背景下。只看首尾句，可以估計本段會講法律保護、Factory Act、學校、工會、經濟變化，以及兒童從工作者逐漸轉向依賴、學習和發展中的個體。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句說，1833 年 Factory Act 下建立的 half-time schools 讓兒童一邊工作，一邊上學。尾句說，到十九世紀末，英國情況大幅改變，學校成為 normal childhood 概念的核心。只看首尾句，可以估計本段會比較 mid-19th century 學校出席不足與 late-19th century 學校地位上升，重點在schooling 如何成為正常童年的標準。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句說，school attendance 已不再是 privilege，每個兒童都被期待每天花大量時間在classroom。尾句說，教育也透過課堂、功課、課外活動和父母參與，主導兒童清醒時的大部分時間。只看首尾句，可以估計本段會講現代學校如何把兒童生活與家庭及成人工作世界分開，並塑造孩子的心智、行為和道德。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段首句說，industrialisation、urbanisation 和 mass schooling 為保護兒童福利、促進學習的人帶來新挑戰。尾句說，教師也需要工具，按兒童能力和潛力進行分類和選拔。只看首尾句，可以估計本段會講現代兒童管理：兒童被視為有 distinctive needs 的群體，並按年齡、能力和發展階段組織和評估。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1779 @@
+{
+  "id": "p1-080-alternative-energy-sources",
+  "catalogueId": "p1-080",
+  "catalogueIds": [
+    "p1-080"
+  ],
+  "passage": 1,
+  "title": "ALTERNATIVE ENERGY SOURCES",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "D",
+    "C",
+    "D",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "toxins",
+    "renewable energy",
+    "organic matter",
+    "geothermal energy",
+    "high cost"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B and D",
+      "answerKey": "B and D",
+      "type": "Multiple-answer Questions",
+      "prompt": "“The writer mentions a number of facts relating to alternative power sources. Which TWO of the following facts are mentioned?”",
+      "translation": "作者提到了一些關於 alternative power sources 的事實。以下哪兩項在文章中有提及？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple-answer 題。題目要求選 TWO，所以每個正確選項都要有獨立證據。不能因為選項聽起來合理就選，也不能只靠選項出現一兩個原文字。要逐項檢查文章是否真的提及該事實。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看文章功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題問 facts relating to alternative power sources，不限定單一段落，所以要用全文段落地圖處理。Paragraph A–B 是總覽；Paragraph C–I 逐一介紹 biomass、geothermal、hydropower、solar、wind、fuel cells 和 ocean energy。題目選項中若出現 future impact、expense、chemical waste、international cooperation、US homes 等內容，就要回到相關能源段落尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的核心是 “one alternative energy source” 和 “great impact in the years to come”。掃描時要找預測、increase、2020、future 等字。Paragraph C 出現 biomass 的未來增長數據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的核心是 “Expense” 和 “main obstacle”。掃描時要找 cost、manufacturing、prevented 等字。Paragraph H 的 fuel cells 直接出現 high cost。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項 B"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“One alternative energy source in particular will have a great impact in the years to come.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某一種 alternative energy source 在未來數年會有重大影響。"
+            },
+            {
+              "kind": "label",
+              "text": "原文 Paragraph C："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is estimated that biomass will have the largest increase among renewable energy sources, rising by 80 per cent and reaching 65.7 billion kWh in 2020.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據估計，biomass 將在 renewable energy sources 中有最大升幅，上升 80%，並在 2020 年達到65.7 billion kWh。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 biomass，核心資訊是 “will have the largest increase”。選項 B 把這個資訊概括為某一種替代能源未來會有很大影響。雖然原文沒有逐字說 “great impact”，但 “largest increase”加上 80% growth 和 65.7 billion kWh，足以支援這個概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "one alternative energy source in particular = biomass great impact in the years to come = largest increase / rising by 80 per cent / reaching 65.7 billion kWh in 2020"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項 D"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Expense is the main obstacle to developing one of these forms of energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成本是一種能源形式發展的主要障礙。"
+            },
+            {
+              "kind": "label",
+              "text": "原文 Paragraph H："
+            },
+            {
+              "kind": "quote",
+              "text": "“The high cost of manufacturing fuel cells has prevented the mass use of this valuable energy source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造 fuel cells 的高成本阻礙了這種有價值能源的大規模使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “The high cost of manufacturing fuel cells”，核心動詞是 “has prevented”，對象是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the mass use”。選項 D 的 “Expense” 對應 high cost；“main obstacle” 對應 has prevented the mass use；“one of these forms” 指 fuel cells。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Expense = high cost main obstacle = has prevented the mass use one form of energy = fuel cells錯項分析A 提到 international co-operation 未能帶來大規模應用。Paragraph A 只提到 many countries signing the Kyoto Treaty，沒有說國際合作失敗或尚未有效推行 alternative power。 C 說某種能源會產生 chemical waste。Paragraph G 說 wind produces no emissions or chemical wastes，方向相反。 E 說約五分之一美國家庭會使用某種能源。Paragraph F 只說 PV industry 可能提供 up to 15 per cent of new US peak electricity capacity，沒有說 one in five homes。 F 說這些能源的一般吸引力是 relatively low production costs。文章有說 biomass 可因 lower production costs 增加使用，但這只是 biomass 相關，不是 alternative energy general attraction。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        1,
+        2
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C — extracting water or steam from beneath the earth’s surface",
+      "answerKey": "C — extracting water or steam from beneath the earth’s surface",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Geothermal energy is produced by...”",
+      "translation": "Geothermal energy 是透過甚麼方式產生的？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 MCQ。題目問 geothermal energy 的產生方式。關鍵詞是 “Geothermal energy” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“produced by”。需要定位到 Paragraph D，因為該段專門介紹 geothermal energy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D第一句：“Geothermal energy uses heat from within the earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Geothermal energy 使用地球內部的熱能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have been experimenting by pumping water into the hot dry rock that is 3–6 miles below the earth’s surface for use in geothermal power plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家一直在實驗把水泵入地表下 3–6 miles 的 hot dry rock，以供 geothermal power plants 使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講 geothermal energy 的來源和技術方式。第一句提供核心概念：熱能來自地球內部；最後一句補充新技術是把水泵入地下熱岩層。題目問 produced by，所以要看段中如何把地下熱能轉成 electricity。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “Geothermal energy”。Paragraph D 第一字就重現。接著要找 produced /generate electricity 的句子。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wells are drilled into geothermal reservoirs to bring the hot water or steam to the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們把井鑽入 geothermal reservoirs，把 hot water 或 steam 帶到地表。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The steam then drives a turbine-generator to generate electricity in geothermal plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著 steam 推動 turbine-generator，在 geothermal plants 中發電。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正答案要由兩句合起來看。第一句說 hot water or steam 從地下 geothermal reservoirs 被帶到地表；第二句說 steam 推動 turbine-generator 發電。因此，geothermal energy 的發電過程依靠從地底取出 hot water 或 steam，再用 steam 驅動發電設備。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“extracting water or steam from beneath the earth’s surface”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從地表之下抽取水或蒸汽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接對應原文 “bring the hot water or steam to the surface”。“beneath the earth’s surface” 是對 geothermal reservoirs 和 within the earth 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A 說 heating the air below the surface of the ground。原文提到 heat、hot water、steam，但沒有說加熱地下空氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 employing the force of falling water。這是 hydropower，對應 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 using the earth’s natural electricity。原文說 uses heat from within the earth，沒有說 natural electricity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "D — fuel cell energy",
+      "answerKey": "D — fuel cell energy",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Which form of alternative energy does not involve the use of turbines?”",
+      "translation": "哪一種 alternative energy 不涉及 turbines？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 MCQ。題目問的是「不涉及 turbines」的能源形式。需要檢查四個選項是否使用 turbine 或類似轉動發電設備。注意題目沒有把 solar 放入選項，雖然 Paragraph F 也明確說 solar energy 不需要 turbine。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看相關段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 講 geothermal：steam drives a turbine-generator。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講 hydropower：falling water drives turbine-generators。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 講 wind：windmill blades spin, shaft powers a pump or generator。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 講 fuel cells：electrochemical devices, no moving parts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 最可能支援答案，因為 fuel cells 的特徵和機械轉動無關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目關鍵詞是 “does not involve” 和 “turbines”。文章中 geothermal 和 hydropower 直接出現turbine-generator / turbine-generators；tidal energy 也有 electricity-producing turbines。Fuel cells 段落則出現 “contain no moving parts”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fuel cells are electrochemical devices that produce electricity through a chemical reaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fuel cells 是透過化學反應產生電力的 electrochemical devices。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fuel cells are rechargeable, contain no moving parts, are clean, and produce no noise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fuel cells 可充電，沒有移動部件，乾淨，並且不產生噪音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“no moving parts” 是決定答案的訊號。Turbines 本質上是會旋轉的機械部件；若 fuel cells 沒有moving parts，就不會涉及 turbines。選項 D 正確。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A wind energy：Paragraph G 說 wind passes through blades of a windmill, the blades spin, and shaft turns a generator。雖然原文沒有直接用 turbine 一詞，但風力發電涉及 rotating blades。 B geothermal energy：Paragraph D 直接說 steam drives a turbine-generator。 C tidal energy：Paragraph I 說 reservoirs are discharged through electricity-producing turbines。 D fuel cell energy：Paragraph H 說 chemical reaction 和 no moving parts，最符合題目要求。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的 solar energy 也說 “without a turbine or electromagnet”，但 solar 不在選項內。遇到 MCQ 時，不能只找文章中第一個符合題意的句子，還要回到四個選項中選最合適的一項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Wind power is the most efficient form of alternative energy.”",
+      "translation": "Wind power 是最有效率的 alternative energy 形式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目包含比較和最高級：“the most efficient”。要選 TRUE，原文必須明確支持 wind power 在所有 alternative energy 中最有效率。要選 FALSE，原文要明確說另一種能源效率更高，或說 wind power 並非最有效率。若文章只說 wind 在某些地方較有效率，沒有跨能源比較，就應選 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wind energy can be used to produce electricity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wind energy 可用來發電。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wind-powered electricity is gaining in popularity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "風力發電越來越受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph G 介紹 wind energy 的發電方式、影響因素和優點。題目問wind power 的 efficiency，這段應是首要目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Wind power” 和 “most efficient”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wind energy is more efficient in windier parts of the country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wind energy 在風較大的地區較有效率。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的比較範圍是 “in windier parts of the country”。它只是在比較同一種 wind energy 在不同地區的效率：風較大的地方更有效率。它沒有把 wind power 和 biomass、geothermal、hydropower、solar、fuel cells 或 ocean energy 比較。"
+            },
+            {
+              "kind": "label",
+              "text": "文章其他地方有一句可能造成干擾： Paragraph E："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hydropower produces more electricity than any other alternative energy source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hydropower 產生的電力比任何其他 alternative energy source 都多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是 “produces more electricity”，也就是產電量最多；它沒有直接談 efficiency。產電量和效率不是同一概念。題目問 most efficient，所以不能用 hydropower 的產電量資料來判斷 wind power 的效率排名。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要：wind power = most efficient among all alternative energy forms原文提供：wind energy = more efficient in windier areas缺少：所有 alternative energy sources 之間的 efficiency ranking判斷原文沒有足夠資料證明或否定 wind power 是否為最有效率形式，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “more efficient” 很容易急著判 TRUE 或 FALSE。真正要看的是比較範圍。原文的比較範圍是地區，題目的比較範圍是能源種類。範圍不同，資料不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Wave energy can be derived from a number of sources.”",
+      "translation": "Wave energy 可以來自多種來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “derived from a number of sources”，也就是wave energy 的來源不只一種。要找 wave energy 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ocean energy sources: Oceans, which cover more than 70 per cent of the earth, contain both thermal energy from the sun’s heat and mechanical energy from the tides and waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ocean energy sources：海洋覆蓋地球超過 70%，同時包含來自太陽熱力的 thermal energy，以及來自 tides and waves 的 mechanical energy。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This technology is still in the exploratory phase in the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項技術在美國仍處於探索階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 ocean energy 的多種形式，最後聚焦到 wave energy technology的發展階段。題目問 wave energy 來源，因此 Paragraph I 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Wave energy”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wave energy conversion extracts energy from surface waves, from pressure fluctuations below the water surface, or from the waves themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wave energy conversion 從 surface waves、水面以下的 pressure fluctuations，或 waves themselves 中提取能量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句列出三個來源： surface waves水面波浪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pressure fluctuations below the water surface水面以下的壓力波動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the waves themselves波浪本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “a number of sources” 是概括說法，對應原文列出的多個來源。句中 “from... from... or from...” 的並列結構清楚顯示不只一種來源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "can be derived from = extracts energy from a number of sources = surface waves / pressure fluctuations / waves themselves判斷題目與原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 最後一句說 this technology is still in the exploratory phase，這只是技術成熟度，不影響它有多個能量來源。題目問來源數量，不問發展成熟程度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Alternative energy sources serve several purposes.”",
+      "translation": "Alternative energy sources 有幾種用途或目的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目中的 “several purposes” 很寬，需要找文章是否列出alternative energy 的多個作用。Paragraph A 是總覽段，最有可能支援。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many reasons why we are looking towards alternative energy sources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們尋找 alternative energy sources 有很多原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand how alternative energy use can help preserve the delicate ecological balance of the planet, and help us conserve the non-renewable energy sources like fossil fuels, it is important to know what types of alternative energy are out there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若要理解 alternative energy 如何幫助保存地球脆弱的生態平衡，並幫助我們節省 fossil fuels 等不可再生能源，就必須知道有哪些 alternative energy 類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經看到 “many reasons” 和多個作用：preserve ecological balance、conserve fossil fuels。這直接對應 several purposes。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “serve several purposes”。原文未必重複 serve / purposes，但有 “many reasons”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reduce pollutants”, “protect”, “preserve”, “conserve”。這些都是目的或作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A：“Alternative, or renewable, energy sources show significant promise in helping to reduce the amount of toxins that are by-products of energy use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alternative 或 renewable energy sources 在幫助減少能源使用所產生的 toxins 方面顯示出很大潛力。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only do they protect against harmful by-products, but using alternative energy helps to preserve many of the natural resources that we currently use as sources of energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們不只可防止 harmful by-products，使用 alternative energy 也有助保存我們目前用作能源來源的許多自然資源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“help preserve the delicate ecological balance of the planet”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "幫助保存地球脆弱的生態平衡。"
+            },
+            {
+              "kind": "quote",
+              "text": "“help us conserve the non-renewable energy sources like fossil fuels”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "幫助我們節省 fossil fuels 這類不可再生能源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "serve several purposes = reduce toxins / protect against harmful by-products / preserve natural resources / conserve non-renewable energy sources判斷原文列出多個作用，題目說 several purposes，意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目很概括，答案不需要找一個叫 “purposes” 的原字。這題要把動詞清單整合起來：reduce、protect、preserve、conserve 都是 alternative energy 的功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Fossil fuels are needed in at least one of these alternative energy sources.”",
+      "translation": "這些 alternative energy sources 至少有一種需要 fossil fuels。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “fossil fuels are needed”。我們要找文章是否說alternative energy 需要 fossil fuels，或明確排除 fossil fuels。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternative energy comes from resources that are constantly replenished and are usually less polluting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alternative energy 來自會不斷補充的資源，而且通常污染較少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternative energy sources include biomass energy, geothermal energy, hydroelectric power, solar power, wind power, fuel cells, ocean thermal energy conversion, tidal energy, and wave energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alternative energy sources 包括 biomass energy、geothermal energy、hydroelectric power、solar power、wind power、fuel cells、ocean thermal energy conversion、tidal energy 和 wave energy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段在定義 alternative energy 和列出類別。題目問 fossil fuels 是否needed，這段定義句最關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Fossil fuels”。Paragraph B 有直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are not the result of burning fossil fuels or splitting atoms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們不是燃燒 fossil fuels 或分裂 atoms 的結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “They” 指 alternative energy resources / alternative energy sources。核心資訊是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“are not the result of burning fossil fuels”。也就是說，alternative energy 的產生並不依靠燃燒fossil fuels。題目說 fossil fuels are needed in at least one of these alternative energy sources。原文定義層面已把 alternative energy 和 burning fossil fuels 分開。雖然 Paragraph C 說 biomass materials are burned as fuel，但這些是 organic matter，如 wood、animal waste、agricultural crops，並非 fossil fuels。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：fossil fuels are needed"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：not the result of burning fossil fuels判斷原文直接排除 fossil fuels 作為 alternative energy 的產生方式，因此題目與原文相反，答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 biomass fuels are burned as fuel，就以為其中一種 alternative energy 也需要fossil fuels。要看清楚 biomass 的燃料來源是 organic matter，不是 coal、oil 或 natural gas。 burning 不等於 burning fossil fuels。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "toxins",
+      "answerKey": "toxins",
+      "type": "Sentence Completion",
+      "prompt": "“By using alternative energy sources, we can cut the 9 _________________ that are produced by current power sources.”",
+      "translation": "透過使用 alternative energy sources，我們可以減少現有能源來源產生的 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 “cut the”，後面有 “that are produced”，所以空格需要複數名詞。題目限制是 NO MORE THAN THREE WORDS，答案要來自原文。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many reasons why we are looking towards alternative energy sources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們尋找 alternative energy sources 有很多原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand how alternative energy use can help preserve the delicate ecological balance of the planet, and help us conserve the non-renewable energy sources like fossil fuels, it is important to know what types of alternative energy are out there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若要理解 alternative energy 如何幫助保存地球脆弱的生態平衡，並幫助我們節省 fossil fuels 等不可再生能源，就必須知道有哪些 alternative energy 類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 是總覽段，重點是 alternative energy 的好處，因此最可能藏有 reduce / cut 相關答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “cut” 和 “produced by current power sources”。原文不一定用 cut，可能用 reduce；“produced by current power sources” 對應 by-products of energy use。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternative, or renewable, energy sources show significant promise in helping to reduce the amount of toxins that are by-products of energy use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alternative 或 renewable energy sources 在幫助減少能源使用所產生的 toxins 數量方面顯示出很大潛力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “cut” 對應 “reduce the amount of”。題目的 “that are produced by current power sources”對應 “that are by-products of energy use”。空格需要填的是被減少的東西，即 toxins。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cut = reduce the amount of produced by current power sources = by-products of energy use alternative energy sources = alternative, or renewable, energy sources答案形式toxins 是複數名詞，放入句子後是 “cut the toxins that are produced...”，文法自然，也符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“pollutants and greenhouse gases” 在 Paragraph A 前面也出現，但超過三個字，而且題目句子“that are produced by current power sources” 更貼近 “toxins that are by-products of energy use”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。所以 toxins 是最穩答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "renewable energy",
+      "answerKey": "renewable energy",
+      "type": "Sentence Completion",
+      "prompt": "“In addition to burning fossil fuels and splitting atoms, we presently use 10_________________ as part of our energy supply.”",
+      "translation": "除了燃燒 fossil fuels 和分裂 atoms 之外，我們目前也使用 ____________ 作為能源供應的一部分。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “we presently use ___ as part of our energy supply” 中，需要名詞短語。題目限制 NO MORE THAN THREE WORDS。定位詞是 “burning fossil fuels”, “splitting atoms”, “energy supply”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternative energy comes from resources that are constantly replenished and are usually less polluting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alternative energy 來自會不斷補充的資源，通常污染較少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternative energy sources include biomass energy, geothermal energy, hydroelectric power, solar power, wind power, fuel cells, ocean thermal energy conversion, tidal energy, and wave energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alternative energy sources 包括 biomass energy、geothermal energy、hydroelectric power、solar power、wind power、fuel cells、ocean thermal energy conversion、tidal energy 和 wave energy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 在定義 alternative / renewable energy，並說明它與 fossil fuels 和 atom splitting 的不同。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “burning fossil fuels” 和 “splitting atoms” 在原文直接重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are not the result of burning fossil fuels or splitting atoms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們不是燃燒 fossil fuels 或分裂 atoms 的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句附近有答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“The use of renewable energy is contributing to our energy supply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "renewable energy 的使用正在為我們的能源供應作出貢獻。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主語是 “The use of renewable energy”，動詞是 “is contributing to”，對象是 “our energy supply”。題目把這句改寫成 “we presently use renewable energy as part of our energy supply”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "is contributing to our energy supply = use as part of our energy supply renewable energy = renewable energy not the result of burning fossil fuels or splitting atoms = in addition to burning fossil fuels and splitting atoms答案形式renewable energy 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “alternative energy sources”。語意也接近，但原文真正對應 “is contributing to our energy supply” 的主語是 “renewable energy”。題目句子需要一個較自然的名詞短語，renewable energy 最貼原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "organic matter",
+      "answerKey": "organic matter",
+      "type": "Sentence Completion",
+      "prompt": "“Renewable energy called biomass is produced from 11 _________________.”",
+      "translation": "名為 biomass 的 renewable energy 是由 ____________ 產生的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “is produced from”，後面需要材料或來源名詞短語。題目限制 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Biomass is renewable energy that is produced from organic matter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Biomass 是由 organic matter 產生的 renewable energy。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is estimated that biomass will have the largest increase among renewable energy sources, rising by 80 per cent and reaching 65.7 billion kWh in 2020.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據估計，biomass 將在 renewable energy sources 中有最大升幅，上升 80%，並在 2020 年達到65.7 billion kWh。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一行幾乎直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “biomass” 和 “produced from”。原文第一句完全重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Biomass is renewable energy that is produced from organic matter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Biomass 是由 organic matter 產生的 renewable energy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子結構非常直接：主語：Biomass補語：renewable energy關係從句：that is produced from organic matter空格問 produced from 甚麼，所以答案是 organic matter。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Renewable energy called biomass = Biomass is renewable energy is produced from = is produced from organic matter = organic matter答案形式organic matter 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後面列出 wood、animal waste、grains、agricultural crops 和 aquatic plants。這些都是 biomass fuels 的例子。題目問總來源，應填上位類別 organic matter，而不是其中一個例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "geothermal energy",
+      "answerKey": "geothermal energy",
+      "type": "Sentence Completion",
+      "prompt": "“The renewable energy that comes from within the earth is called 12 _________________.”",
+      "translation": "來自地球內部的 renewable energy 稱為 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “is called” 後面，需要能源名稱。題目限制 NO MORE THAN THREE WORDS。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“within the earth”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D第一句：“Geothermal energy uses heat from within the earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Geothermal energy 使用地球內部的熱能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have been experimenting by pumping water into the hot dry rock that is 3–6 miles below the earth’s surface for use in geothermal power plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家一直在實驗把水泵入地表下 3–6 miles 的 hot dry rock，以供 geothermal power plants 使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，答案已經很清楚。Paragraph D 專門介紹 geothermal energy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “within the earth”。原文第一句直接出現 “from within the earth”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geothermal energy uses heat from within the earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Geothermal energy 使用地球內部的熱能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文改寫成 “The renewable energy that comes from within the earth is called...” 也就是問能源名稱。原文中的能源名稱是 geothermal energy。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "comes from within the earth = uses heat from within the earth is called = energy name in the sentence geothermal energy = geothermal energy答案形式geothermal energy 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “heat”。Heat 是 geothermal energy 使用的來源；題目問這種 renewable energy 叫甚麼，所以要填能源名稱 geothermal energy。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "high cost",
+      "answerKey": "high cost",
+      "type": "Sentence Completion",
+      "prompt": "“One of the reasons that fuel cells are not widely used is the 13 _________________ of manufacturing.”",
+      "translation": "Fuel cells 未被廣泛使用的其中一個原因是製造的 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “the ___ of manufacturing” 中，需要名詞或形容詞 + 名詞。題目限制 NO MORE THAN THREE WORDS。定位詞是 “fuel cells”, “not widely used”, “manufacturing”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fuel cells are electrochemical devices that produce electricity through a chemical reaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fuel cells 是透過 chemical reaction 產生 electricity 的 electrochemical devices。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The high cost of manufacturing fuel cells has prevented the mass use of this valuable energy source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造 fuel cells 的高成本阻礙了這種有價值能源的大規模使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，最後一句已經直接對應 not widely used 的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “fuel cells”, “not widely used”, “manufacturing”。原文有 “manufacturing fuel cells”和 “prevented the mass use”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The high cost of manufacturing fuel cells has prevented the mass use of this valuable energy source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造 fuel cells 的高成本阻礙了這種有價值能源的大規模使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 “The high cost of manufacturing fuel cells”。動詞是 “has prevented”。賓語是 “the mass use”。題目把 “has prevented the mass use” 改寫成 “are not widely used”。空格放在 “the___ of manufacturing” 之中，所以答案要填 high cost。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not widely used = prevented the mass use reason = high cost of manufacturing = of manufacturing fuel cells答案形式high cost 是兩個字，放入題目後是 “the high cost of manufacturing”，文法完整，也符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "只填 cost 也有核心意思，但原文完整短語是 high cost。題目有 “the ___ of manufacturing”，填high cost 可以保留程度詞 high，答案更精準。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - ALTERNATIVE ENERGY SOURCES.pdf",
+    "sha256": "2113cbd4bc8f70e72487d3ee2576ad749be86219a1211b7123fbd6bbd423864a",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說人類尋找 alternative energy sources 有很多原因。尾句說若要理解 alternative energy 如何保存地球生態平衡、節省 fossil fuels，就要知道有哪些 alternative energy types。只看首尾句，可以先判斷本段是全文導入：它解釋為何社會轉向替代能源，包括減少污染、減少 greenhouse gases、保護自然資源，以及保存不可再生能源。這段最可能支援 general benefits 題和 sentence completion 題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句定義 alternative energy：來自不斷補充的資源，通常污染較少。尾句列出多種 alternative energy sources，包括 biomass、geothermal、hydroelectric、solar、wind、fuel cells、ocean thermal、tidal 和 wave energy。只看首尾句，可以判斷本段功能是下定義和分類。這段不會深入解釋任何一種能源，但會回答「目前能源供應是否已使用 renewable energy」以及「有哪些替代能源類別」這類總覽題。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 biomass 是由 organic matter 產生的 renewable energy。尾句預測 biomass 在renewable energy sources 中升幅最大，到 2020 年會上升 80%，達到 65.7 billion kWh。只看首尾句，可以先估計本段介紹 biomass 的來源、燃料例子、處理方法及未來增長。這段很容易對應選項題中 “one alternative energy source will have a great impact” 以及填充題 “biomass is produced from...” 。"
+      },
+      {
+        "number": "D",
+        "summary": "首句指出 geothermal energy 使用地球內部熱能。尾句說科學家正實驗把水泵入地下 3–6 miles的 hot dry rock，用於 geothermal power plants。只看首尾句，可以判斷本段介紹 geothermal energy 的基本原理和技術發展：從地下取出 hot water 或 steam，再用 steam 推動turbine-generator。這段可回答 geothermal energy 如何產生，以及它是否涉及 turbines。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 hydropower 利用 falling water 的力量推動 turbine-generators 發電。尾句解釋hydropower 預計下降，原因是最佳水電地點多已開發，並且大型水電設施可能對環境有負面影響。只看首尾句，可以判斷本段重點是 hydropower 的工作方式、產電量優勢和未來下降原因。這段特別要注意 turbine-generators、more electricity than any other alternative source 和 adverse environmental impact。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 solar energy 不需要 turbine 或 electromagnet。尾句說 domestic PV industry 到 2020 年或可提供美國新增 peak electricity capacity 的 15%。只看首尾句，可以判斷本段講 solar energy的兩種用途：photovoltaic cells 把 sunlight 直接轉成 electricity，以及 solar thermal technology 直接加熱家用水。這段對 Q4 有干擾性，因為它明確說不用 turbine，但選項沒有 solar。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 wind energy 可用來發電。尾句說 wind-powered electricity 越來越受歡迎。只看首尾句，可以估計本段會說明風力如何使 blades 轉動，再帶動 pump 或 generator 發電，電力會儲存在batteries。中間還會補充 wind speed、blade size、windier locations 和 wind farms。這段可支援wind 無污染，也可判斷「wind power 是否最有效率」這類題目是否有足夠證據。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 fuel cells 是透過 chemical reaction 產生 electricity 的 electrochemical devices。尾句指出manufacturing fuel cells 的 high cost 阻礙了這種 valuable energy source 的大規模使用。只看首尾句，可以判斷本段主要介紹 fuel cells 的特性與限制：rechargeable、no moving parts、clean、no noise，可能用於汽車和發電廠，但成本太高。這段對 Q2、Q4 和 Q13 都很重要。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 ocean energy sources 來自海洋中的 thermal energy 以及 tides and waves 的mechanical energy。尾句說 wave energy technology 在美國仍處於 exploratory phase。只看首尾句，可以判斷本段總括三種 ocean energy：OTEC 利用海水溫差，tidal energy 利用潮汐差， wave energy 從表面波浪、水下壓力波動或波浪本身取能。這段最可能支援 Q6 和 ocean-related MCQ。"
+      }
+    ]
+  }
+}

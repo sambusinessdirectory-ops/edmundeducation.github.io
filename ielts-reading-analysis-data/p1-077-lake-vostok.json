@@ -1,0 +1,1916 @@
+{
+  "id": "p1-077-lake-vostok",
+  "catalogueId": "p1-077",
+  "catalogueIds": [
+    "p1-077"
+  ],
+  "passage": 1,
+  "title": "Lake Vostok",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "viii",
+    "ii",
+    "iv",
+    "iii",
+    "B",
+    "A",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "YES",
+    "NO",
+    "YES"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "viii — Scientific interest in Lake Vostok",
+      "answerKey": "viii — Scientific interest in Lake Vostok",
+      "type": "Matching Headings",
+      "prompt": "Section B",
+      "translation": "為 B 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As details have emerged, a growing number of scientists are showing interest, with dozens of investigators keen to explore the feature, known as Lake Vostok.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着更多細節浮現，越來越多科學家表現出興趣，數十名研究者都渴望探索這個名為 Lake Vostok 的地貌特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although cheaper than a mission to Europa, any expedition to Vostok would represent a significant investment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然前往 Vostok 的考察比前往 Europa 的任務便宜，但任何 Vostok 考察仍代表一筆相當大的投資。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 B 段主要講「為何科學家對 Lake Vostok 感興趣」。第一句有 scientists are showing interest，最後一句提到 expedition 和 investment，表示本段會從研究價值推向探索成本。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii 的核心是 “Scientific interest”。B 段有多個科學興趣來源："
+            },
+            {
+              "kind": "quote",
+              "text": "“A thick layer of sediment at the bottom of the lake could hold novel clues to the planet’s climate going back tens of millions of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "湖底厚厚的沉積層可能保存新的線索，幫助人們了解地球氣候可追溯至數千萬年前的變化。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“NASA has expressed interest in Lake Vostok because of its similarity to Europa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NASA 因 Lake Vostok 和 Europa 相似而表達了興趣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段不是單一講 cost，也不是單一講 Europa。它先說氣候研究價值，再說 NASA 對 Europa 類比的興趣，最後說 Vostok 可作 future missions 的技術測試場。這些內容全部屬於 scientific interest。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading “Scientific interest in Lake Vostok”= 原文 “a growing number of scientists are showing interest”= climate clues + Europa similarity + testing ground for future missions"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "i “Cost of exploration” 有吸引力，因為最後一句提到 significant investment。但 cost 只是本段最後補充，無法覆蓋 climate、NASA、Europa 和 technology testing。整段主題應選 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "ii — Location and description of the lake",
+      "answerKey": "ii — Location and description of the lake",
+      "type": "Matching Headings",
+      "prompt": "Section C",
+      "translation": "為 C 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vostok Station holds the uncomfortable distinction of having recorded the coldest temperature on Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 擁有一項令人不太舒服的紀錄：它曾錄得地球上最低的氣溫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Vostok Station, which sits at the southern end of the lake, the water depth appears to be 500 m according to seismic experiments carried out by Russian researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 位於湖的南端；根據 Russian researchers 進行的 seismic experiments，該處水深似乎為 500 米。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 C 段會描述 Vostok 的位置、環境和物理特徵。第一句提供極端寒冷環境，最後一句提供湖的南端和水深。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii 的核心是 “Location and description”。C 段中可掃描到大量描述性資料："
+            },
+            {
+              "kind": "quote",
+              "text": "“The record was set in July 1983, and the average temperature hovers around −55°C.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該紀錄於 1983 年 7 月創下，平均氣溫徘徊在約零下 55°C。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lake Vostok is the largest of these, stretching 280 km from south to north and about 60 km from east to west.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lake Vostok 是這些湖中最大的一個，南北長 280 km，東西寬約 60 km。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段也解釋湖為何能在冰下存在，包括 thick ice insulating blanket、geothermal heat 和 intense pressure。不過這些內容仍然服務於同一個段落功能：描述 Lake Vostok 的自然環境、形成條件、尺寸和深度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading “Location and description of the lake”= Vostok Station at southern end + 4 km ice + hidden lakes + 280 km by 60 km + 500 m depth"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "若只看中段，可能會覺得這段標題應是 “why the lake does not freeze”。可是 headings list 沒有這個選項。ii 能包住地點、環境、形成原因、尺寸和深度，是最合適的總標題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "iv — Challenges of exploration",
+      "answerKey": "iv — Challenges of exploration",
+      "type": "Matching Headings",
+      "prompt": "Section D",
+      "translation": "為 D 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first clues to Lake Vostok’s existence came in the 1970s, when British, US, and Danish researchers collected radar observations by flying over this region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lake Vostok 存在的最早線索出現在 1970 年代，當時 British、US 和 Danish researchers 飛越該地區並收集雷達觀測資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers must find a way to penetrate the icy covering without introducing any microorganisms or pollutants into the sealed-off water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者必須找到一種方法穿透冰蓋，同時不把任何微生物或污染物帶入這個與外界隔絕的水體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 D 段前半有 discovery 的元素，但最後一句把焦點推向 exploration challenge：如何鑽穿冰層而不污染湖水。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的核心是 “Challenges of exploration”。掃描 D 段後半會找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Along with the potential rewards come a host of challenges.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "潛在回報伴隨着一連串挑戰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句非常直接，說明本段後半的主題不是只回顧發現歷史，還指出未來探索的困難。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段前半說 radar 如何發現湖泊存在；中間說 airborne survey 是 eventually drilling into the water 的 first step；最後兩句提出挑戰：冰層厚、湖水封閉、不能引入 microorganisms 或pollutants。由於 Section A 的例題已經是 “Discovery of the lake”，D 段更合適的功能是探索前的挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading “Challenges of exploration”= 原文 “a host of challenges”= penetrate icy covering without microorganisms or pollutants"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "v “Discovery of the lake” 很吸引，因為 D 段開頭有 first clues 和 radar observations。不過整篇題目已把 A 段作為 discovery example；D 段真正要看的轉折在 “Along with the potential rewards come a host of challenges.” 所以答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "iii — Potential for living organisms in the lake",
+      "answerKey": "iii — Potential for living organisms in the lake",
+      "type": "Matching Headings",
+      "prompt": "Section E",
+      "translation": "為 E 段選出最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What about life in the depths?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，深處是否有生命呢？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The results of this analysis may indirectly indicate whether anything survives in the lightless body of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項分析的結果可能間接顯示，在這片沒有光的水體中是否有任何東西存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以清楚看見 E 段由 “life in the depths” 開始，以 “whether anything survives” 收結。段落整體框架是 Lake Vostok 中是否可能存在生命。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iii 的核心是 “living organisms”。E 段中有多個相關詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“If tiny microbes do populate the lake, they may be some of the hungriest organisms ever discovered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果微小微生物確實生活在湖中，它們可能是至今發現過最飢餓的一些生物。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bacteria, yeasts, fungi, algae and even pollen grains have been found in the Vostok ice core samples...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Vostok 冰芯樣本中，人們發現了細菌、酵母、真菌、藻類，甚至花粉粒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段中間花大量篇幅討論 nutrients and energy：湖底可能有 hydrothermal fluids，但地質證據顯示 crust old and dead；如果下方沒有營養來源，上方冰層可能帶來 gases、rock 和 organic compounds。這些細節都是為了回答第一句的大問題：湖中是否可能有生命存活。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading “Potential for living organisms in the lake”= “What about life in the depths?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “If tiny microbes do populate the lake...”= “whether anything survives in the lightless body of water”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vi “Possible sources of nutrients to support life” 也很吸引，因為中段確實大量談 nutrients。不過這些 nutrients 是用來評估生命能否存在的證據鏈。整段首尾都鎖定 “life / survives”，所以 iii 更能概括全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B — to develop anti-pollution devices",
+      "answerKey": "B — to develop anti-pollution devices",
+      "type": "Multiple Choice",
+      "prompt": "“Which is NOT given as a reason for interest in exploring Lake Vostok?”",
+      "translation": "以下哪一項並沒有被文章列為探索 Lake Vostok 的興趣原因？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice，且題幹有 NOT。要找三個文章有提及的原因，再找一個沒有被列為探索原因的選項。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section B，並輔以 Section E Section B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As details have emerged, a growing number of scientists are showing interest, with dozens of investigators keen to explore the feature, known as Lake Vostok.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着更多細節浮現，越來越多科學家表現出興趣，數十名研究者都渴望探索 Lake Vostok。"
+            },
+            {
+              "kind": "label",
+              "text": "Section B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although cheaper than a mission to Europa, any expedition to Vostok would represent a significant investment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然前往 Vostok 的考察比前往 Europa 的任務便宜，但仍需要相當大的投資。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段明顯在解釋科學家為何有興趣探索 Vostok。題目問 reason for interest，所以先看 B 段最穩。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “interest in exploring”。B 段有 “scientists are showing interest” 和 “keen to explore”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接着要找選項中的 climate、technology、life、pollution 是否出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “to test technology for space exploration”原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vostok would be an ideal testing ground for technology for future missions to Europa or even more distant places...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok 會是未來 Europa 任務，甚至更遠任務所需技術的理想測試場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to investigate the history of Earth’s climate”原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A thick layer of sediment at the bottom of the lake could hold novel clues to the planet’s climate going back tens of millions of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "湖底厚沉積層可能保存有關地球氣候的全新線索，可追溯至數千萬年前。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to look for living organisms” Section E 全段討論湖中生命可能性，第一句就是："
+            },
+            {
+              "kind": "quote",
+              "text": "“What about life in the depths?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "深處是否有生命呢？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 有文章支援，至少是探索 Lake Vostok 的一大科學問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to develop anti-pollution devices” Section D 確實提到 pollution："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers must find a way to penetrate the icy covering without introducing any microorganisms or pollutants into the sealed-off water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者必須找到方法穿透冰蓋，同時不把微生物或污染物帶入封閉湖水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是探索時要避免污染，是一項限制和挑戰。文章沒有說科學家探索 Lake Vostok 是為了develop anti-pollution devices。因此答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 最容易中伏，因為原文有 pollutants。可是題目問的是 reason for interest；原文中的 pollutants屬於探索風險和操作限制。看到原字重現後，要回到題幹檢查關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A — a thick ice cover provides insulation.",
+      "answerKey": "A — a thick ice cover provides insulation.",
+      "type": "Multiple Choice",
+      "prompt": "“Lake Vostok does not freeze because ...”",
+      "translation": "Lake Vostok 沒有結冰，原因是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問原因，要找 “does not freeze” 的因果句。Section C 是目標段，因為它直接解釋湖在極冷環境下仍能存在。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vostok Station holds the uncomfortable distinction of having recorded the coldest temperature on Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 曾錄得地球最低氣溫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Vostok Station, which sits at the southern end of the lake, the water depth appears to be 500 m according to seismic experiments carried out by Russian researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 位於湖的南端；根據 Russian researchers 的 seismic experiments，該處水深似乎為 500 m。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 C 段會解釋 Lake Vostok 的極冷環境、湖泊仍存在的原因，以及湖的尺寸和深度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “does not freeze”。原文對應詞是 “survive in such a frozen environment” 和 “keeps the lake from freezing”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The four kilometres of ice act effectively as an insulating blanket protecting the bedrock underneath the ice from the cold temperatures above.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "四公里厚的冰層實際上像一張保溫毯，保護冰下方的基岩免受上方寒冷氣溫影響。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geothermal heat coming from the planet’s interior keeps the lake from freezing and warms the lowest layers of ice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自地球內部的地熱防止湖水結冰，並加熱最低層的冰。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “a thick ice cover provides insulation.”正確。這對應 “four kilometres of ice” 和 “insulating blanket”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “it is warmed by heat from the earth’s surface.”錯在 surface。原文說 heat comes from the planet’s interior，即地球內部，不是地表。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “low pressure prevents freezing.”錯在 low pressure。原文說 “pressure is intense enough”，即高壓有助熔冰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “an underwater volcano erupted recently.”原文沒有 underwater volcano，也沒有 recent eruption。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 很吸引，因為原文有 geothermal heat。但題目選項把 source 改成 earth’s surface，和原文planet’s interior 不一致。A 是最直接、最安全的答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Only one lake has been found beneath Antarctica.”",
+      "translation": "南極洲冰下只發現了一個湖泊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有強限制詞 only one，所以要找文章是否提供數量資料。如果原文明確說多於一個，答案就是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vostok Station holds the uncomfortable distinction of having recorded the coldest temperature on Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 曾錄得地球最低氣溫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Vostok Station, which sits at the southern end of the lake, the water depth appears to be 500 m according to seismic experiments carried out by Russian researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 位於湖的南端；根據 Russian researchers 的 seismic experiments，該處水深似乎為 500 m。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段描述 Lake Vostok 的自然環境和物理特徵。若題目問 Antarctica 冰下湖泊數量，本段中段最可能出現相關資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Only one lake” 和 “beneath Antarctica”。掃描 C 段時要找 hidden lakes、more than、largest 等數量詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 70 hidden lakes have been detected in the small portion of the continent surveyed to date.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，在這片大陸已調查的小部分區域中，已有超過 70 個隱藏湖泊被偵測到。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lake Vostok is the largest of these...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lake Vostok 是這些湖泊中最大的一個。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Only one lake has been found beneath Antarctica.即：冰下只發現一個湖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： More than 70 hidden lakes have been detected.即：已偵測到超過 70 個隱藏湖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果： only one 和 more than 70 明確衝突，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段說 scientists identified an immense lake，容易讓人只記得 Lake Vostok 這一個。細讀 C 段可見 Vostok 是 largest of these，代表它屬於多個 hidden lakes 之一。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Lake Vostok was detected by radar.”",
+      "translation": "Lake Vostok 是透過雷達偵測到的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問 discovery / detection method。定位詞 radar 很強，應直接找 Section D。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first clues to Lake Vostok’s existence came in the 1970s, when British, US, and Danish researchers collected radar observations by flying over this region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lake Vostok 存在的最早線索出現在 1970 年代，當時 British、US 和 Danish researchers 飛越該地區並收集雷達觀測資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers must find a way to penetrate the icy covering without introducing any microorganisms or pollutants into the sealed-off water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者必須找到方法穿透冰蓋，同時不把微生物或污染物帶入封閉湖水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段一開始就是 radar observations，所以題目中的 radar 可直接定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “radar”。原文有 “radar observations” 和 “The radar penetrates the ice”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The radar penetrates the ice and bounces off whatever sits below.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雷達穿透冰層，並從下方物體反射回來。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“When researchers found a surface as flat as a mirror, they surmised that a lake must exist underneath the ice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當研究者發現一個像鏡子一樣平坦的表面時，他們推測冰下必定有一個湖泊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Lake Vostok was detected by radar。原文說最早線索來自 radar observations，雷達穿透冰層後反射，研究者因此推測冰下湖泊存在。意思一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文用 “surmised” 表示推測，未必是直接肉眼看見湖水。不過題目用 “detected by radar” 很適合，因為雷達提供了冰下湖存在的觀測線索。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Exploration of Lake Vostok is coordinated by Russia.”",
+      "translation": "Lake Vostok 的探索由俄羅斯協調。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問 coordination，即誰負責組織或統籌探索。文章若只提到Russian researchers 或 Russia’s Vostok Station，仍未必足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看可能段落"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Sections A、C、D Section A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recently, Russian and British glaciologists identified an immense lake... immediately below Russia’s Vostok Station.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近，Russian and British glaciologists 發現一個巨大湖泊，位於 Russia’s Vostok Station 正下方。"
+            },
+            {
+              "kind": "label",
+              "text": "Section C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Vostok Station... the water depth appears to be 500 m according to seismic experiments carried out by Russian researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Vostok Station，根據 Russian researchers 進行的 seismic experiments，水深似乎為 500 m。"
+            },
+            {
+              "kind": "label",
+              "text": "Section D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first clues to Lake Vostok’s existence came in the 1970s, when British, US, and Danish researchers collected radar observations...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lake Vostok 最早線索來自 1970 年代，當時 British、US 和 Danish researchers 收集雷達觀測資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以看到多國研究者參與：Russian、British、US、Danish。但 “coordinated by Russia” 是更強的管理關係，需要明確證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “coordinated by Russia”。原文有 Russia’s Vostok Station、Russian glaciologists、Russian researchers，但沒有 coordinated、led、managed、organised 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀資料是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相關原文只支援： Russian and British glaciologists identified the lake. Vostok Station is Russia’s station. Russian researchers carried out seismic experiments. British, US, and Danish researchers collected radar observations.這些資料都只是參與者、地點或研究活動。題目要求的是 coordination，即「由誰統籌探索」。文章沒有說俄羅斯統籌整個探索，也沒有說其他國家統籌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：相關俄羅斯資料存在，但核心關係 “coordinated by Russia” 缺失。文章也沒有相反說法，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Russia’s Vostok Station” 很容易令人推想探索由俄羅斯主導。可是 station ownership 和exploration coordination 是兩種不同關係。IELTS 這類題不能用地點歸屬推出管理權。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Nutrients to support life have been found in the Antarctic ice.”",
+      "translation": "支持生命所需的營養物已在南極冰層中被發現。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有兩個核心：nutrients to support life；have been found in Antarctic ice。要看文章是否明確說「營養物已被發現」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What about life in the depths?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "深處是否有生命呢？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The results of this analysis may indirectly indicate whether anything survives in the lightless body of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項分析結果可能間接顯示，在這片沒有光的水體中是否有任何東西存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段明顯討論冰下湖中的生命可能性。題目問 nutrients support life，所以應在本段找 nutrients、organic compounds、ice core samples 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Nutrients” 和 “found in the Antarctic ice”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the only nutrients would come from below”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chemical nutrients”"
+            },
+            {
+              "kind": "quote",
+              "text": "“organic compounds useful to microorganisms”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bacteria, yeasts, fungi, algae and even pollen grains have been found...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Russian investigators have speculated that the lake floor may have hot springs spewing out hydrothermal fluids stocked with reduced metals and other sorts of chemical nutrients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Russian investigators 推測湖底可能有 hot springs 噴出 hydrothermal fluids，其中含有 reduced metals 和其他化學營養物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是 speculated 和 may have，表示推測，未說已發現。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the glacier recently passed over rock before reaching the lake, it could be supplying organic compounds useful to microorganisms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果冰川在到達湖之前最近經過岩石，它可能正在供應對微生物有用的有機化合物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 If 和 could，也只是可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bacteria, yeasts, fungi, algae and even pollen grains have been found in the Vostok ice core samples...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Vostok 冰芯樣本中，人們發現了細菌、酵母、真菌、藻類，甚至花粉粒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說發現的是 organisms / biological material，不是明確說發現了 nutrients to support life。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章提出可能的營養來源，也說冰芯中發現了多種生物或生物痕跡。但題目要求「支持生命的營養物已在南極冰中被發現」，原文沒有這個完成事實。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“organic compounds useful to microorganisms” 很像 nutrients，但原文用了 If / could，表示條件推測。做 YES / NO / NOT GIVEN 時，may、could、if 不能直接變成 have been found。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The ice above the lake is moving to the east.”",
+      "translation": "湖上方的冰正在向東移動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問方向：moving to the east。定位詞是 ice above the lake 和east。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What about life in the depths?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "深處是否有生命呢？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The results of this analysis may indirectly indicate whether anything survives in the lightless body of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項分析結果可能間接顯示，在這片沒有光的水體中是否有任何東西存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段主要討論生命可能性和冰層如何可能把物質帶進湖中。題目問 ice above the lake 的移動方向，應在本段中間找 ice sheet movement。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “ice above the lake” 和 “east”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ice sheet above the water is creeping from west to east...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ice sheet above the water is creeping from west to east at a rate of roughly four metres per year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水體上方的冰蓋正以每年大約四米的速度從西向東緩慢移動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： The ice above the lake is moving to the east.原文命題： The ice sheet above the water is creeping from west to east."
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ice above the lake= ice sheet above the water moving to the east= creeping from west to east原文和題目方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“creeping” 不是停止或靜止，意思是緩慢移動。題目用 moving 概括 creeping，完全可接受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Scientists have drilled through the ice into the water of Lake Vostok.”",
+      "translation": "科學家已經鑽穿冰層，進入 Lake Vostok 的湖水。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目關鍵是 have drilled through into the water，表示已完成。要找原文對 drilling 的時間和狀態。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section D，並輔以 Section E Section D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first clues to Lake Vostok’s existence came in the 1970s...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lake Vostok 存在的最早線索出現在 1970 年代。"
+            },
+            {
+              "kind": "label",
+              "text": "Section D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers must find a way to penetrate the icy covering without introducing any microorganisms or pollutants into the sealed-off water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者必須找到方法穿透冰蓋，同時不把微生物或污染物帶入封閉湖水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 D 段首尾句，可以看到鑽探尚涉及未解決挑戰。最後一句 “must find a way” 暗示尚未安全完成穿透湖水的操作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “drilled through the ice into the water”。原文對應 “eventually drilling into the water” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“must find a way to penetrate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“An airborne survey of the lake is being undertaken as the first step towards eventually drilling into the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前正在進行湖泊的空中調查，作為最終鑽入湖水的第一步。"
+            },
+            {
+              "kind": "label",
+              "text": "這句非常重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“is being undertaken” = 現在正在進行的是 airborne survey“first step towards eventually drilling” = 只是通往將來鑽探的第一步“eventually” = 最終、日後再看 Section E：“Bacteria, yeasts, fungi, algae and even pollen grains have been found in the Vostok ice core samples taken down to depths of 2,750 m – three-quarters of the way to the bottom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在深至 2,750 m 的 Vostok 冰芯樣本中，人們發現了細菌、酵母、真菌、藻類和花粉粒；這深度約為到達底部的四分之三。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡說鑽到 2,750 m 的冰芯樣本，仍只是到達底部的三分之四，沒有進入湖水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Scientists have drilled through the ice into the water.原文命題： airborne survey is first step towards eventual drilling；ice core samples only reach 2,750 m, three-quarters of the way.比較結果：題目把未來目標寫成已完成事實，和原文時間衝突。因此答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Section E 的 ice core samples 很容易誤導學生，以為科學家已經鑽穿至湖水。細節在"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“three-quarters of the way to the bottom”：只到四分之三，尚未到水體。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The water in the lake is approximately 500 m deep at the southern end.”",
+      "translation": "湖的南端水深約 500 米。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問 lake water depth 和 southern end。定位詞非常清楚：500 m、southern end。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vostok Station holds the uncomfortable distinction of having recorded the coldest temperature on Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 曾錄得地球最低氣溫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Vostok Station, which sits at the southern end of the lake, the water depth appears to be 500 m according to seismic experiments carried out by Russian researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 位於湖的南端；根據 Russian researchers 進行的 seismic experiments，該處水深似乎為 500 米。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段最後一句已經包含 southern end 和 500 m，因此這題可直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “500 m” 和 “southern end”。兩個詞在 C 段最後一句一起出現，定位非常穩。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Vostok Station, which sits at the southern end of the lake, the water depth appears to be 500 m according to seismic experiments carried out by Russian researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vostok Station 位於湖的南端；根據 Russian researchers 的 seismic experiments，該處水深似乎為 500 米。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： The water in the lake is approximately 500 m deep at the southern end.原文命題： At Vostok Station, which sits at the southern end of the lake, the water depth appears to be 500 m."
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "approximately= appears to be at the southern end= Vostok Station, which sits at the southern end 500 m deep= water depth appears to be 500 m原文和題目一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“appears to be” 帶有根據實驗估計的語氣，題目用 approximately 也保留了估計感。若題目說“exactly 500 m”，就要更小心；但 approximately 與 appears to be 很吻合。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Lake Vostok.pdf",
+    "sha256": "81f79f3bfe320b493870c12f21ce70e373bf1e2f647327faefdb9e5e6f4ab637",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 段第一句說 Antarctica 的白色冰層下面藏着幾乎無人探索的半個大陸，最後一句指出 Russian and British glaciologists 最近發現一個巨大湖泊，埋在 Vostok Station 下方 4,000 metres of ice之下。只看首尾句，可以先估計本段是發現背景段：它介紹 Lake Vostok 的隱藏位置、冰下環境，以及科學家剛確認其存在。因此例題 Section A 配 “Discovery of the lake” 很合理。",
+        "label": "Section A"
+      },
+      {
+        "number": "2",
+        "summary": "B 段第一句說隨着更多細節浮現，越來越多科學家對 Lake Vostok 感興趣。最後一句說雖然比Europa 任務便宜，任何前往 Vostok 的考察仍需 significant investment。只看首尾句，本段大概會解釋科學興趣來源：湖底沉積物可研究古氣候；NASA 關注它和 Europa 的相似性；Vostok 可作太空探索技術測試場。若題目問 scientific interest、climate、Europa、technology 或 cost，應先看本段。",
+        "label": "Section B"
+      },
+      {
+        "number": "3",
+        "summary": "C 段第一句說 Vostok Station 曾錄得地球最低氣溫，最後一句說在湖的南端，水深根據 Russian seismic experiments 似乎約 500 m。只看首尾句，可估計本段會描述 Lake Vostok 的環境和物理特徵：極低氣溫、厚冰保溫、地熱、冰壓、隱藏湖泊數量、Lake Vostok 的長寬和水深。若題目問湖為何不結冰、位置、尺寸、深度或 hidden lakes，本段最重要。",
+        "label": "Section C"
+      },
+      {
+        "number": "4",
+        "summary": "D 段第一句說 Lake Vostok 最早的線索來自 1970s 的 radar observations，最後一句指出研究者必須找到方法穿過冰層，同時不把 microorganisms 或 pollutants 帶進封閉水體。只看首尾句，可以看出本段由發現方法轉到探索難題。它會講 radar 如何穿透冰層、為何平坦反射面暗示湖泊存在、airborne survey 如何作為鑽探前一步，以及未來鑽探面對的污染控制挑戰。",
+        "label": "Section D"
+      },
+      {
+        "number": "5",
+        "summary": "E 段第一句直接問湖底是否有生命，最後一句說冰芯分析結果可能間接顯示黑暗水體中是否有生物存活。只看首尾句，可以估計本段處理 Lake Vostok 的生命可能性。中間會談 energy-limited environment、nutrient sources、hot springs 是否可能、冰層移動是否帶來 gases、rock、organic compounds，以及 ice core samples 中發現的 bacteria、yeasts、fungi、algae 和 pollen grains。 Answer Key Questio Answer n 1 viii 2 ii 3 iv 4 iii 5 B 6 A 7 NO 8 YES 9 NOT GIVEN 10 NOT GIVEN 11 YES 12 NO 13 YES",
+        "label": "Section E"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1905 @@
+{
+  "id": "p3-130-detection-of-a-meteorite-lake",
+  "catalogueId": "p3-130",
+  "catalogueIds": [
+    "p3-130"
+  ],
+  "passage": 3,
+  "title": "Detection of a meteorite Lake",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "的重建流程是：",
+    "的重建流程是：",
+    "的重建流程是：",
+    "的重建流程是：",
+    "shipping container",
+    "seismic reflection profiling",
+    "laboratory",
+    "three-dimensional",
+    "fishing nets"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“By investigating the lake, scientists may be able to predict future climate changes.”",
+      "translation": "透過研究這個湖泊，科學家可能能夠預測未來氣候變化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the sun rose over picturesque Lake Bosumtwi, a team of Syracuse University researchers prepared for another day of using state-of-the-art equipment to help map the lake bottom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當太陽從風景如畫的 Lake Bosumtwi 上升起時，一隊 Syracuse University 研究人員準備再用先進儀器測繪湖底。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This information will also improve the scientists’ understanding of the changes that occur in a region struck by a massive meteorite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資料也會改善科學家對一個遭巨大隕石撞擊地區所發生變化的理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 是研究引入：研究人員正在測繪湖底，而這些湖底資料有科學用途。題目問 predict future climate changes，應在本段中間找 “future climate changes” 或相近說法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“predict future climate changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“investigating the lake”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph A，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the lake holds an untapped reservoir of information that could help scientists predict future climate changes by looking at evidence from the past.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 lake、information、predict future climate changes 和 evidence from the past，所以值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nestled in the heart of Ghana, the lake holds an untapped reservoir of information that could help scientists predict future climate changes by looking at evidence from the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個湖位於 Ghana 中心地帶，蘊藏著尚未被開發的資料寶庫；科學家可以透過過去的證據，利用這些資料來預測未來氣候變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “By investigating the lake”，原文說 lake holds information，研究人員正在 map the lake bottom。這兩者在意思上相連。題目說 “may be able to predict”，原文用 “could help scientists predict”，語氣同樣是可能性，不是保證一定能預測。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“may be able to predict future climate changes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“could help scientists predict future climate changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may be able to” = “could help”"
+            },
+            {
+              "kind": "quote",
+              "text": "“future climate changes” = “future climate changes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩邊方向一致，語氣也一致，所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於題目把 “by investigating the lake” 概括了原文的 map lake bottom 和 lake holds information。這是合理概括，因為整段正是在說研究這個湖可以取得資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The crater resulting from a meteorite impact is the largest and best-preserved one in the world.”",
+      "translation": "這個由隕石撞擊造成的 crater 是世界上最大、保存最好的 crater。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The project, led by earth sciences professor Christopher Scholz of the College of Arts and Sciences and funded by the National Science Foundation (NSF), is the first large-scale effort to study Lake Bosumtwi, which formed 1.1 million years ago when a giant meteor crashed into the Earth’s surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個項目由 College of Arts and Sciences 的 earth sciences professor Christopher Scholz 領導，並由 National Science Foundation 資助；它是第一個大規模研究 Lake Bosumtwi 的項目，而這個湖在 110 萬年前由巨大 meteor 撞擊地表形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Our data should provide information about what happens when an impact hits hard, pre-Cambrian, crystalline rocks that are a billion years old,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「我們的數據應可提供資料，說明一次撞擊撞上堅硬、前寒武紀、已有十億年歷史的crystalline rocks 時會發生甚麼。」Paragraph B 明顯介紹 meteorite impact、crater 和項目地質價值。題目問 crater 是否世界最大和保存最好，所以要在本段找形容 crater 的程度詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“crater”"
+            },
+            {
+              "kind": "quote",
+              "text": "“largest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“best-preserved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in the world”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The resulting crater is one of the largest and most well-preserved geologically young craters in the world…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和題目高度相似，但要留意 “one of” 和 “geologically young”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The resulting crater is one of the largest and most well-preserved geologically young craters in the world, says Scholz…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scholz 說，這個撞擊形成的 crater 是世界上最大及保存最完好的年輕地質 crater 之一。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the largest and best-preserved one in the world”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the largest and most well-preserved geologically young craters in the world”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 one of。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“one of the largest” 表示「最大之一」，並沒有說它是唯一最大。題目改成 “the largest”，範圍被加強了。同樣，“most well-preserved geologically young craters” 也限定在 geologically young craters 這個類別內；題目把它概括成整個世界所有 craters 中保存最好，語氣更絕對。題目命題與原文不一致，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位很明顯",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目和原文都有 largest、best-preserved、world，學生容易只看相同字眼。細讀時"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要看程度詞：one of 和 the 的差別，往往直接決定 TRUE / FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Water leaves Lake Bosumtwi only by seeping through the lake sediments.”",
+      "translation": "Lake Bosumtwi 的水只會透過滲入湖泊沉積物離開。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Equally important is the fact that the lake, which is about 8 kilometers in diameter, has no natural outlet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣重要的是，這個直徑約 8 公里的湖沒有天然出口。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand the global climate, we need to have records of climate changes from many sites around the world, including the tropics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要理解全球氣候，我們需要來自世界多個地點的氣候變化記錄，包括熱帶地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句已經提示水如何離開湖泊是重點。題目有 “only by seeping”，所以要找水離開 Lake Bosumtwi 的方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Water leaves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seeping through the lake sediments”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Streams flow into the lake, Scholz says, but the water leaves only by evaporation, or by seeping through the lake sediments.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 “water leaves”、“only” 和 “seeping through the lake sediments”，是直接答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Streams flow into the lake, Scholz says, but the water leaves only by evaporation, or by seeping through the lake sediments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scholz 說，溪流流入湖中，但湖水只會透過蒸發，或透過滲入湖泊沉積物離開。"
+            },
+            {
+              "kind": "label",
+              "text": "題目只保留其中一種方式："
+            },
+            {
+              "kind": "quote",
+              "text": "“only by seeping through the lake sediments”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有兩種方式： 1. evaporation 2. seeping through the lake sediments題目中的 “only” 把 seeping through sediments 說成唯一方式，但原文清楚加入 evaporation。這是一個明確衝突，不是資料不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於原文確實有 “only”，也確實有 “seeping through the lake sediments”。但 “only” 管的是兩個選項合起來：only by evaporation, or by seeping。題目把兩個方法縮成一個，令意思變窄了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Historical climate changes can be detected by the analysis of the sediment in the lake.”",
+      "translation": "透過分析湖泊中的沉積物，可以偵測過去的氣候變化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Equally important is the fact that the lake, which is about 8 kilometers in diameter, has no natural outlet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣重要的是，這個直徑約 8 公里的湖沒有天然出口。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand the global climate, we need to have records of climate changes from many sites around the world, including the tropics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要理解全球氣候，我們需要來自世界多個地點的氣候變化記錄，包括熱帶地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談 lake 沒有自然出口、湖水隨氣候變化升降，以及氣候記錄。題目問 historical climate changes 和 sediment，因此答案大概率藏在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“historical climate changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sediment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“detected / analysis”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 “historical climate changes” 這個完整片語，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the past million years…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changes in precipitation and the tropical climate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The record of those changes is hidden in the sediment below the lake bottom.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞共同對應「過去氣候變化記錄藏在沉積物中」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the past million years, the lake has acted as a tropical rain gauge, filling and drying with changes in precipitation and the tropical climate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去一百萬年中，這個湖就像一個熱帶雨量計，隨著降雨和熱帶氣候的變化而充滿或乾涸。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The record of those changes is hidden in the sediment below the lake bottom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些變化的記錄藏在湖底下方的沉積物之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來非常清楚：湖泊在過去一百萬年中記錄了 precipitation 和 tropical climate 的變化，而這些記錄保存在 sediment。題目中的 “detected by the analysis” 是對研究動作的概括；原文說record hidden in sediment，科學研究 sediment 就可以讀出這些記錄。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historical climate changes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the past million years… changes in precipitation and the tropical climate”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be detected by the analysis of the sediment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The record of those changes is hidden in the sediment below the lake bottom.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是短距離、合理的推論。答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於原文沒有直接寫 “analysis”。但全文主題是研究湖底，Paragraph F 也說 data processed and analyzed in the laboratory。對 Question 30 來說，關鍵是 record hidden in sediment，足以支援「分析沉積物可偵測過去變化」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The greatest obstacle faced by the researchers was local opposition based on indigenous beliefs.”",
+      "translation": "研究人員面對的最大障礙，是基於原住民信仰的當地反對。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G、H、I Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team members spent about four weeks in Ghana collecting the data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊成員在 Ghana 花了約四星期收集資料。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Problems that arose were primarily non-scientific – tree stumps, fishing nets, cultural barriers, and occasional misunderstandings with local villagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出現的問題主要是非科學性質，包括樹樁、漁網、文化障礙，以及偶爾與當地村民的誤會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 第一和最後句告訴我們湖對 Ashanti people 具有 sacred 意義，並且研究船需要tribal chiefs 特別批准。Paragraph I 則說一開始有謠言，但當地人明白後非常 helpful。這三段都和障礙、文化、村民反應有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“greatest obstacle”"
+            },
+            {
+              "kind": "quote",
+              "text": "“local opposition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“indigenous beliefs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中沒有 “greatest obstacle”。相關詞有："
+            },
+            {
+              "kind": "quote",
+              "text": "“cultural barriers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“occasional misunderstandings with local villagers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sacred to the Ashanti people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“special permission from tribal chiefs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“once the local people understood why we were there, they were very helpful”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是相關背景，但要判斷題目，需要看有沒有「最大障礙」和「當地反對」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Problems that arose were primarily non-scientific – tree stumps, fishing nets, cultural barriers, and occasional misunderstandings with local villagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出現的問題主要是非科學性質，包括樹樁、漁網、文化障礙，以及偶爾與當地村民的誤會。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lake Bosumtwi, the largest natural freshwater lake in the country, is sacred to the Ashanti people, who believe their souls come to the lake to bid farewell to their god.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lake Bosumtwi 是該國最大的天然淡水湖，對 Ashanti people 來說是神聖的；他們相信自己的靈魂會來到湖邊向神告別。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before the research project could begin, Scholz and his Ghanaian counterparts had to secure special permission from tribal chiefs to put the R/V Kilindi on the lake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究項目開始前，Scholz 和他的 Ghanaian 合作夥伴必須取得 tribal chiefs 的特別批准，才可把R/V Kilindi 放到湖上。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句四："
+            },
+            {
+              "kind": "quote",
+              "text": "“But once the local people understood why we were there, they were very helpful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但當地人一旦明白我們為何在那裡，他們便非常幫忙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩個核心要求： 1. 最大障礙是 local opposition 2. 這種 opposition 基於 indigenous beliefs原文確實提到文化背景、神聖信仰、需要 tribal chiefs permission，也提到 misunderstandings。可是文章沒有把這些稱為 “the greatest obstacle”。它也沒有說 local people opposed the project。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 甚至說當地人明白後 very helpful。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡缺少的是 ranking 和 opposition 兩個核心資料。因此答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 “sacred to the Ashanti people” 很容易令人聯想到 indigenous beliefs，也容易聯想到反對研究。但 IELTS 判斷題不能把文化禁忌自動推成「最大障礙」。原文只支援「有文化障礙和誤會，需要特別許可」，沒有支援「最大障礙是當地反對」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "high-pressure air gun",
+      "answerKey": "high-pressure air gun",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "備註：若原卷句子是 “creates ______ in the water”，答案會是 small, pneumatic explosions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In mid-January, five members of the team – Keely Brooks, an earth sciences graduate student; Peter Cattaneo, a research analyst; and Kiram Lezzar, a postdoctoral scholar, all from SU; James McGill, a geophysical field engineer; and Nick Peters, a Ph.D. student in geophysics from the University of Miami – returned to Abono to begin collecting data about the lake’s subsurface using a technique called seismic reflection profiling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1 月中旬，五名團隊成員回到 Abono，開始使用一種稱為 seismic reflection profiling 的技術，收集湖泊 subsurface 的資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sound energy penetrates about 1,000 to 2,000 meters into the lake’s subsurface before bouncing back to the surface of the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聲能深入湖泊 subsurface 約 1,000 至 2,000 米，然後反彈回水面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講資料收集技術的開始部分：使用 seismic reflection profiling，製造聲能，讓聲能進入湖底。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 32 作為 flow chart 第一格，大概率問啟動程序的設備或第一步動作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this process, a high-pressure air gun is used to create small, pneumatic explosions in the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個過程中，研究人員使用 high-pressure air gun 在水中製造小型氣動爆炸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若 flow chart 的空格是「使用甚麼設備」，答案是 high-pressure air gun。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若 flow chart 的空格是「製造甚麼」，答案則是 small, pneumatic explosions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "從你貼出的題目只有空線，沒有前後文，所以我把最可能作為第一步工具的 high-pressure air gun 放入 Answer Key，同時保留另一個可能答案。這是因為 IELTS flow chart 的答案形式必須看空格前後文法；沒有圖中文字時，無法百分百確定空格要設備還是動作結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "sound energy",
+      "answerKey": "sound energy",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In mid-January, five members of the team… returned to Abono to begin collecting data about the lake’s subsurface using a technique called seismic reflection profiling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1 月中旬，五名團隊成員回到 Abono，開始使用 seismic reflection profiling 收集湖泊 subsurface資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sound energy penetrates about 1,000 to 2,000 meters into the lake’s subsurface before bouncing back to the surface of the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聲能深入湖泊 subsurface 約 1,000 至 2,000 米，然後反彈回水面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的尾句直接描述高壓氣槍製造爆炸後，下一步進入湖底的是 sound energy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sound energy penetrates about 1,000 to 2,000 meters into the lake’s subsurface before bouncing back to the surface of the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聲能深入湖泊 subsurface 約 1,000 至 2,000 米，然後反彈回水面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flow chart 第二步若描述 “______ penetrates into the lake’s subsurface”，答案應是 sound energy。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義和流程關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“small, pneumatic explosions” 產生聲能→ “sound energy” 進入湖底→ sound energy 反彈回水面所以 Question 33 的合理答案是 sound energy。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "hydrophones",
+      "answerKey": "hydrophones",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reflected sound energy is detected by underwater microphones – called hydrophones –embedded in a 50-meter-long cable that is towed behind the boat as it crosses the lake in a carefully designed grid pattern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反射回來的聲能由 underwater microphones 偵測；這些水底咪高峰稱為 hydrophones，嵌在一條 50 米長的電纜內，船按照仔細設計的網格路線橫越湖面時，這條電纜會拖在船後。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We are now developing a three-dimensional perspective of the lake’s subsurface and the layers of sediment that have been laid down.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們現在正建立湖泊 subsurface 及已沉積下來的 sediment layers 的三維視角。」Paragraph F 接續 Paragraph E，講聲能反彈後如何被偵測。Question 34 若是 flow chart 第三步，應定位到本段首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reflected sound energy is detected by underwater microphones – called hydrophones…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反射回來的聲能由水底咪高峰偵測，這些設備稱為 hydrophones。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目若寫 “reflected sound energy is detected by ______”，答案就是 hydrophones。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“underwater microphones” 是普通描述；“hydrophones” 是專門名稱。IELTS 通常接受原文中較精準的答案詞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“returning waves” / “reflected sound energy” = 反射回來的聲能“collected / detected” = 偵測、接收“underwater microphones” = hydrophones所以答案是 hydrophones。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "on-board computers",
+      "answerKey": "on-board computers",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 35",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reflected sound energy is detected by underwater microphones – called hydrophones –embedded in a 50-meter-long cable that is towed behind the boat as it crosses the lake in a carefully designed grid pattern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反射回來的聲能由 hydrophones 偵測；它們嵌在一條 50 米長的電纜內，船按網格路線橫越湖面時，電纜拖在船後。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We are now developing a three-dimensional perspective of the lake’s subsurface and the layers of sediment that have been laid down.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們正在建立湖泊 subsurface 和沉積層的三維視角。」本段首句講偵測，接下來必定講記錄和分析。Question 35 作為流程最後一步，應找 record /signals / computers。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On-board computers record the signals, and the resulting data are then processed and analyzed in the laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "船上的電腦記錄這些訊號，而所得數據之後會在實驗室中處理和分析。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若 flow chart 寫 “______ record the signals”，答案是 on-board computers。"
+            },
+            {
+              "kind": "label",
+              "text": "這裡要分清兩步："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“on-board computers” = 記錄訊號“laboratory” = 之後處理和分析數據Question 35 屬於收集資料流程，所以答案應是記錄訊號的設備：on-board computers。 Question 38 才問數據在哪裡 processed and analyzed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "shipping container",
+      "answerKey": "shipping container",
+      "type": "Summary Completion",
+      "prompt": "“Before crossing the lake, the boat dubbed R/V Kilindi was dismantled and stored in a 36______.”",
+      "translation": "在橫越湖面之前，名為 R/V Kilindi 的船被拆開，並存放在一個甚麼之中。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN THREE WORDS。空格前有 “a”，需要單數名詞片語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before the researchers could explore the lake’s subsurface, they needed a boat with a large, working deck area that could carry eight tons of scientific equipment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在研究人員可以探索湖泊 subsurface 之前，他們需要一艘有大型工作甲板、能承載八噸科學儀器的船。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The research team then spent the next two weeks testing the boat and equipment before returning to the United States for the holidays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究團隊之後花了兩星期測試船和設備，然後返回美國度假。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯講船的準備和運送。題目有 R/V Kilindi、dismantled、stored，所以應在 Paragraph D 中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“R/V Kilindi”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dismantled”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stored”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was constructed in modules that were dismantled, packed inside a shipping container, and reassembled…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 dismantled 和 packed inside，正好對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was constructed in modules that were dismantled, packed inside a shipping container, and reassembled over a 10-day period in late November and early December 1999 in the rural village of Abono, Ghana.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它以模組形式建造；這些模組被拆開，裝入一個 shipping container，並於 1999 年 11 月底至 12月初，在 Ghana 的 Abono 鄉村用 10 天時間重新組裝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “stored in” 對應原文 “packed inside”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “dismantled” 原字重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是船模組被裝入的容器：shipping container。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合字數限制：shipping / container，共兩個詞。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “modules”。modules 是船的構造方式，空格問的是存放位置或容器。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "seismic reflection profiling",
+      "answerKey": "seismic reflection profiling",
+      "type": "Summary Completion",
+      "prompt": "“The technique used was called 37 ______.”",
+      "translation": "所使用的技術稱為甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN THREE WORDS。空格需要一個技術名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In mid-January, five members of the team – Keely Brooks, an earth sciences graduate student; Peter Cattaneo, a research analyst; and Kiram Lezzar, a postdoctoral scholar, all from SU; James McGill, a geophysical field engineer; and Nick Peters, a Ph.D. student in geophysics from the University of Miami – returned to Abono to begin collecting data about the lake’s subsurface using a technique called seismic reflection profiling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1 月中旬，五名團隊成員回到 Abono，開始使用一種稱為 seismic reflection profiling 的技術，收集湖泊 subsurface 的資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sound energy penetrates about 1,000 to 2,000 meters into the lake’s subsurface before bouncing back to the surface of the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聲能深入湖泊 subsurface 約 1,000 至 2,000 米，然後反彈回水面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段首句直接提供技術名稱，題目也直接問 technique used was called，所以答案在首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…returned to Abono to begin collecting data about the lake’s subsurface using a technique called seismic reflection profiling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們回到 Abono，開始使用一種稱為 seismic reflection profiling 的技術，收集湖泊 subsurface的資料。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“The technique used was called ______.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“using a technique called seismic reflection profiling”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案直接是 seismic reflection profiling。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "符合 NO MORE THAN THREE WORDS：seismic / reflection / profiling，剛好三個詞。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “geophysics” 或 “high-pressure air gun”。前者是 Nick Peters 的學科背景，後者"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是技術中使用的設備；題目問技術名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "laboratory",
+      "answerKey": "laboratory",
+      "type": "Summary Completion",
+      "prompt": "“The data were then processed and analysed in the 38 ______.”",
+      "translation": "數據之後在甚麼地方被處理和分析。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN THREE WORDS。空格前有 “the”，需要地點名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reflected sound energy is detected by underwater microphones – called hydrophones –embedded in a 50-meter-long cable that is towed behind the boat as it crosses the lake in a carefully designed grid pattern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反射回來的聲能由稱為 hydrophones 的水底咪高峰偵測；這些 hydrophones 嵌在一條 50 米長的電纜中，船按仔細設計的網格路線橫越湖面時，電纜拖在船後。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We are now developing a three-dimensional perspective of the lake’s subsurface and the layers of sediment that have been laid down.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們正在建立湖泊 subsurface 和已沉積 sediment layers 的三維視角。」這段從偵測訊號講到記錄、處理和分析，再講分析結果。題目有 processed and analysed，應在本段中間找原字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On-board computers record the signals, and the resulting data are then processed and analyzed in the laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "船上的電腦記錄訊號，而所得數據之後會在實驗室中處理和分析。"
+            },
+            {
+              "kind": "label",
+              "text": "題目幾乎逐字改寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“The data were then processed and analysed in the ______.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the resulting data are then processed and analyzed in the laboratory.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 laboratory。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “on-board computers”。它們負責 record the signals；processed and analyzed 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "地點是 laboratory。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "three-dimensional",
+      "answerKey": "three-dimensional",
+      "type": "Summary Completion",
+      "prompt": "“Scholz added that the team was developing a 39 ______ perspective of the lake’s subsurface and sediment layers.”",
+      "translation": "Scholz 補充說，團隊正在建立一個關於湖泊 subsurface 和沉積層的甚麼 perspective。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN THREE WORDS。空格在 “a” 和 “perspective” 之間，需要形容詞或形容詞片語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reflected sound energy is detected by underwater microphones – called hydrophones –embedded in a 50-meter-long cable that is towed behind the boat as it crosses the lake in a carefully designed grid pattern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反射回來的聲能由 hydrophones 偵測；這些 hydrophones 嵌在拖於船後的 50 米長電纜內。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We are now developing a three-dimensional perspective of the lake’s subsurface and the layers of sediment that have been laid down.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們現在正建立湖泊 subsurface 以及已沉積下來的 sediment layers 的三維視角。」本段尾句直接含有 “perspective”，與題目相同，所以答案在尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are now developing a three-dimensional perspective of the lake’s subsurface and the layers of sediment that have been laid down.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們現在正建立湖泊 subsurface 和已沉積沉積層的三維視角。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“developing a ______ perspective”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“developing a three-dimensional perspective”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 three-dimensional。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數方面，hyphenated compound 一般作一個答案項目處理；即使分開看，也在三詞限制內。空格後已有 perspective，所以不要填 “three-dimensional perspective”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "fishing nets",
+      "answerKey": "fishing nets",
+      "type": "Summary Completion",
+      "prompt": "“The equipment worked well, but the boat had to avoid physical barriers, including tree stumps and 40 ______ floating on the lake’s surface.”",
+      "translation": "設備運作良好，但船要避開湖面上的實體障礙，包括樹樁和甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN THREE WORDS。空格前有 “tree stumps and”，所以答案應是另一種複數障礙物。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team members spent about four weeks in Ghana collecting the data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊成員在 Ghana 花了約四星期收集資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Problems that arose were primarily non-scientific – tree stumps, fishing nets, cultural barriers, and occasional misunderstandings with local villagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出現的問題主要是非科學性質，包括樹樁、漁網、文化障礙，以及偶爾與當地村民的誤會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講實地收集資料時遇到的問題。題目已給 tree stumps，空格應在同一句列表中找另一個physical barrier。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Problems that arose were primarily non-scientific – tree stumps, fishing nets, cultural barriers, and occasional misunderstandings with local villagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出現的問題主要是非科學性質，包括樹樁、漁網、文化障礙，以及偶爾與當地村民的誤會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入 “physical barriers” 和 “floating on the lake’s surface”。在原文列出的四項中： tree stumps = physical barrier fishing nets = physical barrier cultural barriers = 抽象文化障礙misunderstandings = 誤會因此與 tree stumps 同類、可漂浮在湖面並阻礙船隻的是 fishing nets。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合字數限制：fishing / nets，共兩個詞。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “cultural barriers”。雖然它在同一句出現，但題目說 physical barriers，並加上"
+            },
+            {
+              "kind": "paragraph",
+              "text": "floating on the lake’s surface，所以只能選具體物件。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Detection of a meteorite Lake.pdf",
+    "sha256": "9083530a4b3c8e11bc4df8ad91a20451c299a74539abb6bb853cb49d6135352a",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以先估計這段是全文引入。首句描寫 Lake Bosumtwi 日出時，Syracuse University 團隊準備用先進儀器測繪湖底。尾句指出，這些資料也會改善科學家對巨大隕石撞擊地區變化的理解。因此本段主要交代研究地點、研究行動和研究價值：一方面可從過去證據預測未來氣候變化，另一方面可理解 meteorite impact 後的地區變化。Question 27 很可能定位於此。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Christopher Scholz 領導、NSF 資助的項目，是第一個大規模研究 Lake Bosumtwi 的行動；湖泊由 110 萬年前巨大 meteor 撞擊形成。尾句引用 Scholz，說數據可提供巨大撞擊撞上古老crystalline rocks 時會發生甚麼的資料。這段功能是交代項目背景、資助、合作機構、湖泊形成原因和 crater 的地質重要性。Question 28 會用到這段，尤其要看 “one of the largest” 這類程度限制。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說另一個同樣重要的事實，是 Lake Bosumtwi 沒有天然出口。尾句指出，若要理解全球氣候，必須有來自世界多個地點的氣候變化記錄，包括熱帶地區。這段功能是解釋湖泊為何適合研究tropical climate changes：水只靠蒸發或滲入沉積物離開，湖水隨降雨和熱帶氣候變化而升降，這些變化的記錄藏在湖底 sediment。Questions 29 和 30 直接定位於此。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說研究人員在探索湖底以前，需要一艘有大型工作甲板、能承載八噸科學儀器的船。尾句說研究團隊花兩星期測試船和設備，之後回美國度假。只看首尾句，本段是在講研究前的物流準備： R/V Kilindi 的建造、拆件、裝入 container、運到 Ghana、重新組裝，以及測試。Question 36 會定位到這段，因為它問船在過湖前被拆開並存放在哪裡。"
+      },
+      {
+        "number": "E",
+        "summary": "首句交代 1 月中旬五名團隊成員回到 Abono，開始用 seismic reflection profiling 收集湖底資料。尾句說聲能會深入湖泊 subsurface 約 1,000 至 2,000 米，然後反彈回水面。只看首尾句，可以估計本段是「資料收集技術的第一半」：誰回到 Ghana、使用甚麼技術、如何用 high-pressure air gun製造 small pneumatic explosions、聲能如何進入湖底。Questions 32、33、37 都會用到這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說反射回來的 sound energy 由 underwater microphones，即 hydrophones 偵測；這些hydrophones 嵌在拖在船後的 50 米長電纜內。尾句引用 Scholz，說團隊正建立湖泊 subsurface和沉積層的 three-dimensional perspective。這段功能是「資料收集技術的第二半」：hydrophones偵測訊號，on-board computers 記錄訊號，數據在實驗室處理和分析，最後幫助研究 basin shape、sediment thickness 和 sediment accumulation changes。Questions 34、35、38、39 都定位於此。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說團隊成員在 Ghana 花約四星期收集資料。尾句說問題主要屬於非科學性質，包括 tree stumps、fishing nets、cultural barriers，以及與村民的偶然誤會。只看首尾句，這段是田野工作記錄：工作時間、每日流程、設備和船整體表現，以及實際障礙。Question 31 會用到這段來判斷「最大障礙」是否有原文支援；Question 40 則定位到 physical barriers 中的 fishing nets。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Lake Bosumtwi 是 Ghana 最大的天然淡水湖，對 Ashanti people 來說是 sacred。尾句說研究開始前，Scholz 和 Ghanaian counterparts 必須取得 tribal chiefs 的特別許可，才可把 R/V Kilindi 放到湖上。這段功能是交代湖泊的文化和宗教背景：靈魂向神告別、周邊 26 條村的漁業來源、傳統 planks、禁止 conventional canoes and boats。Question 31 可能被這段吸引，但仍要看有沒有 “greatest obstacle”。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說團隊開始收集資料時，湖邊流傳各種謠言，大家猜測研究人員為何到來。尾句說當地人一旦明白研究目的，就非常 helpful。這段功能是收結當地人反應：一開始有誤解，例如以為研究團隊在 dredging gold、drain the lake 或買下湖泊；後來明白後便幫忙。Question 31 需要這段作輔助，因為它直接顯示 local misunderstanding 存在，但未證明「最大障礙」或持續 opposition。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2095 @@
+{
+  "id": "p1-136-intelligence-and-giftedness",
+  "catalogueId": "p1-136",
+  "catalogueIds": [
+    "p1-136"
+  ],
+  "passage": 1,
+  "title": "Intelligence and Giftedness",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "G",
+    "C",
+    "B",
+    "D",
+    "A",
+    "B",
+    "A",
+    "C",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“IQ is only one measure of human characteristics.”",
+      "translation": "IQ 只是量度人類特質的其中一種方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的不是 IQ 的定義，也不是 IQ 由誰命名；它要找的是「IQ 只是眾多心理或人類特質測量之一」這種分類關係。因此定位時不能只找 IQ，也要找 other characteristics、psychological qualities、specific abilities 等相關概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Measurement is fundamental to science and technology.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：測量對科學和科技來說是根本性的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether intelligence can be measured at all is still controversial: some say it cannot; others say that IQ tests are psychology’s greatest accomplishments.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：智力到底能否被量度仍然有爭議：有人說不能；也有人說 IQ 測驗是心理學最偉大的成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "就。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph G 會把 IQ 放入更大的「測量」討論中。首句從 measurement 的重要性說起，尾句回到 intelligence measurement 的爭議。這個段落功能和題目中的 “only one measure” 很接近，因為題目正在把 IQ 放在「多種測量」之中理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“IQ”"
+            },
+            {
+              "kind": "quote",
+              "text": "“one measure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human characteristics”"
+            },
+            {
+              "kind": "label",
+              "text": "原文未必逐字說 one measure，所以掃描時要留意："
+            },
+            {
+              "kind": "quote",
+              "text": "“psychological qualities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more specific abilities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“anxiety”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extroversion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“emotional stability”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compatibility”"
+            },
+            {
+              "kind": "label",
+              "text": "在 Paragraph G 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychometrics has long tried to develop ways to gauge psychological qualities such as intelligence and more specific abilities, anxiety, extroversion, emotional stability, compatibility with a marriage partner, and so on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理測量學長久以來嘗試發展方法，去量度心理特質，例如智力和更具體的能力、焦慮、外向性、情緒穩定度、與婚姻伴侶的相容性等等。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Psychometrics，核心動詞是 “has long tried to develop ways to gauge”，即一直嘗試發展量度方法。被量度的東西不只有 intelligence，也包括 specific abilities、anxiety、extroversion、emotional stability 和 compatibility。題目中的 “human characteristics” 是對這些psychological qualities 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “IQ is only one measure”= 原文 “psychological qualities such as intelligence and more specific abilities, anxiety…”題目 “human characteristics”= 原文 “psychological qualities”所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也出現 IQ，而且直接解釋 IQ score，所以很吸引。但 D 的重點是 IQ 的名稱和Stanford-Binet test，不涉及 IQ 與其他人類特質測量之間的關係。這題真正控制答案的是 “only one measure”，因此要找「IQ 之外還有其他測量對象」的句子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A discussion of the method behind Professor Stern’s test”",
+      "translation": "討論 Stern 教授測驗背後的方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 method，也就是計算方式或設計原理。定位詞 “Professor Stern” 非常強，幾乎可以直接帶到 Paragraph C。細讀時要看他如何把 mental age 和 physical age 轉成一個數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Binet’s test was popular, it was a bit inconvenient to deal with a variety of physical and mental ages.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：雖然 Binet 的測驗很受歡迎，但要處理各種 physical age 和 mental age 有點不方便。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number much lower than 100 would suggest the need for help, and one much higher would suggest a child well ahead of their peers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：遠低於 100 的分數會表示孩子需要幫助；遠高於 100 的分數則表示孩子大幅領先同"
+            },
+            {
+              "kind": "paragraph",
+              "text": "齡人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 會介紹一種簡化 Binet 測驗的方法。第一句說原本方法不方便；最後一句說簡化後的數字如何解讀。這正好符合題目 “method behind Professor Stern’s test”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Stern”"
+            },
+            {
+              "kind": "quote",
+              "text": "“method”"
+            },
+            {
+              "kind": "quote",
+              "text": "“test”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“So in 1912, Wilhelm Stern suggested simplifying this by reducing the two to a single number: he divided the mental age by the physical age and multiplied the result by 100.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以在 1912 年，Wilhelm Stern 建議把這件事簡化，把兩個年齡化為一個單一數字：他用 mental age 除以 physical age，再把結果乘以 100。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚交代方法： mental age ÷ physical age × 100這就是 Stern 的計算方法。原文的 “reducing the two to a single number” 表示把 mental age 和physical age 的比較，轉化成一個較方便使用的分數。下一句 “An average child, irrespective of age, would score 100” 進一步說明這個方法的結果：平均孩子分數為 100。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “method behind Professor Stern’s test”= 原文 “he divided the mental age by the physical age and multiplied the result by 100”題目 “Professor Stern”= 原文 “Wilhelm Stern”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也講 IQ score，容易令人覺得答案在 D。但 D 是講這個 measurement 後來稱為 IQ，以及 Terman 創造 IQ 一詞；真正交代 Stern 計算方法的是 Paragraph C。看到 method，要優先找公式、步驟和操作動詞，例如 divided、multiplied、reduced。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“The limitations of Binet’s IQ test”",
+      "translation": "Binet 智力測驗的限制。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Binet 測驗本身的限制或使用邊界。題目雖然寫 “IQ test”，但嚴格來說 Binet 當時的測驗是 IQ tests 的前身；IQ 這個名稱後來才出現。定位時應找 Binet 對自己測驗目的的說明，尤其是它是否真的量度 intelligence。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A large disparity in the wrong direction (e.g., a child of nine with a mental age of four) might suggest inability rather than laziness and mean he or she was earmarked for special schooling.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：如果出現很大的負面差距，例如九歲孩子的 mental age 只有四歲，這可能表示能力不"
+            },
+            {
+              "kind": "paragraph",
+              "text": "足，而非懶散，並意味著他或她會被標記為需要特殊教育。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This message was, however, lost and caused many problems and misunderstandings later.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可是，這個訊息後來被忽略，造成許多問題和誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 會處理 Binet 測驗的真正用途和後來誤解。第一句說它可用作 special schooling 的診斷；最後一句說後人沒有理解 Binet 的原意。這非常適合「限制」類資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Binet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“limitations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“IQ test”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Binet, however, denied that the test was measuring intelligence; its purpose was simply diagnostic, for selection only.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，Binet 否認這項測驗是在量度智力；它的目的只屬診斷性，只用於篩選。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句最重要的是 “denied that the test was measuring intelligence”。Binet 本人不認為這個測驗真正量度 intelligence。第二個重點是 “simply diagnostic, for selection only”，表示用途很有限，只是診斷和篩選，尤其是教育分流。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “limitations”，原文的限制具體體現在兩方面：第一，測驗不應被理解為真正量度 intelligence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，它只應作 diagnostic / selection 用途。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “limitations of Binet’s IQ test”= 原文 “denied that the test was measuring intelligence”= 原文 “simply diagnostic, for selection only”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也提到 Binet’s test “was a bit inconvenient”，這確實是一種 practical inconvenience。不過 Question 2 已經明確指向 Stern 的簡化方法；Question 3 的 “limitations” 更關乎 Binet 對測驗性質的警告：這測驗不能被當成真正 intelligence measurement。段落 B 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“This message was… lost” 也說明後來問題正源於忽略這個限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“The term ‘IQ’ was coined by a professor.”",
+      "translation": "“IQ” 這個術語由一位教授創造。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 term、IQ、coined、professor。這些都是強定位詞，尤其 “coined” 表示「創造某個詞語」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案應該在介紹 IQ 名稱來源的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This measurement is what is now termed the IQ (for intelligence quotient) score and it has evolved to be used to show how a person, adult or child, performs in relation to others.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種測量現在稱為 IQ，即 intelligence quotient 分數，後來用來顯示一個人，不論成人"
+            },
+            {
+              "kind": "paragraph",
+              "text": "或兒童，相對於其他人的表現如何。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He had constructed an enormously influential revision of Binet’s test, called the Stanford-Binet test, versions of which are still widely administered.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他對 Binet 測驗作出一個極具影響力的修訂，稱為 Stanford-Binet test，其不同版本至"
+            },
+            {
+              "kind": "paragraph",
+              "text": "今仍廣泛使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 會講 IQ 這個概念如何被命名，以及 Terman 如何修訂 Binet測驗。題目中的 “term IQ” 和首句 “termed the IQ” 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“term”"
+            },
+            {
+              "kind": "quote",
+              "text": "“IQ”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“professor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term IQ was coined by Lewis M. Terman, professor of psychology and education at Stanford University, in 1916.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "IQ 這個術語由 Lewis M. Terman 在 1916 年創造；他是 Stanford University 的心理學與教育學教授。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接提供完整答案： term IQ = IQ 這個術語was coined by = 由……創造Lewis M. Terman = 人名professor of psychology and education = 教授身份at Stanford University = 大學in 1916 = 年份"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “The term ‘IQ’ was coined by a professor”= 原文 “The term IQ was coined by Lewis M. Terman, professor…”所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 有 Stern 的公式，很容易和 IQ 的形成混在一起。Stern 提出的是計算方法；Terman創造的是 IQ 這個名稱，並修訂 Binet 測驗。題目問 term was coined，所以要找 “coined” 和professor，不要只看到 IQ 計算方法就停下。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A — identify those who did not perform satisfactorily.",
+      "answerKey": "A — identify those who did not perform satisfactorily.",
+      "type": "Multiple Choice",
+      "prompt": "“Professor Binet devised the test to…”",
+      "translation": "Binet 教授設計這個測驗，是為了……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題幹問目的，所以要找 why / purpose / sought a way / got the job /diagnostic。最重要的是分清 Binet 的原意：篩選和診斷，不是建立永久智力標準。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A and Paragraph B Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1904 the French minister of education, facing limited resources for schooling, sought a way to separate the unable from the merely lazy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：1904 年，法國教育部長面對有限的學校資源，想找方法分辨真正能力不足的學生和只"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是懶散的學生。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The child’s mental age was then compared to their physical age.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然後，孩子的 mental age 會與他們的 physical age 作比較。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A large disparity in the wrong direction… might suggest inability rather than laziness…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：如果出現很大的負面差距，可能表示能力不足，而非懶散。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This message was, however, lost and caused many problems and misunderstandings later.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可是，這個訊息後來被忽略，造成許多問題和誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這兩段一起交代 Binet 測驗的背景、方法和用途：它是為了教育篩選，找出可能需要特殊幫助的學生。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Binet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“devised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“test”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alfred Binet got the job of devising selection principles…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Alfred Binet 得到這項工作，負責設計篩選原則。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“its purpose was simply diagnostic, for selection only.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它的目的只屬診斷性，只用於篩選。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A identify those who did not perform satisfactorily.正確。原文 “separate the unable from the merely lazy” 和 “suggest inability rather than laziness”表示測驗用來找出表現不理想背後可能有能力問題的學生。A 的 “did not perform satisfactorily”是較概括的說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B select the best-performing children.錯。原文關注的是 unable / special schooling / need for help，不是選出最優秀學生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C measure intelligence.錯。Paragraph B 明確說 “Binet… denied that the test was measuring intelligence”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D establish a standard measure of intelligence.錯。這比 C 更過界。Binet 沒有打算建立標準智力量度；他想做的是 diagnostic selection。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 “separate the unable from the merely lazy”= 選項 A “identify those who did not perform satisfactorily”原文 “diagnostic, for selection only”= 測驗用於辨識和分流學生所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很吸引，因為文章標題和後文一直說 intelligence tests。但 Binet 本人否認測驗是在量度intelligence。看到 Binet devised the test，要回到最初目的，不要用後來 IQ testing 的發展去改寫他的原意。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B — age.",
+      "answerKey": "B — age.",
+      "type": "Multiple Choice",
+      "prompt": "“The test was designed according to…”",
+      "translation": "這個測驗是根據甚麼設計的？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題延續 Binet 測驗。題幹問設計依據，所以要找 test determined what、norm、mental age、physical age、compared 等字。選項中 age 是最直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1904 the French minister of education, facing limited resources for schooling, sought a way to separate the unable from the merely lazy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：1904 年，法國教育部長面對有限的學校資源，想找方法分辨真正能力不足的學生和只"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是懶散的學生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The child’s mental age was then compared to their physical age.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然後，孩子的 mental age 會與他們的 physical age 作比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到 Paragraph A 的功能：交代 Binet 測驗的目的和基本計算框架。尾句直接出現 mental age 和 physical age，已經強烈提示答案會和 age 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“test”"
+            },
+            {
+              "kind": "quote",
+              "text": "“designed according to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“according to” 可改寫成 determined by / norm / compared to原文關鍵句：“The test determined a given child’s ‘mental age’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項測驗判定某個孩子的 “mental age”。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“A norm had previously been established for children of a given physical age…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之前已經為某個 physical age 的孩子建立了標準。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“The child’s mental age was then compared to their physical age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，孩子的 mental age 會與 physical age 作比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A mathematics.錯。Stern 後來的公式涉及計算，但 Binet 測驗本身的設計依據是年齡比較，不是數學科能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B age.正確。原文反覆出現 mental age、physical age、children of a given physical age，測驗結果要透過兩種 age 的比較來理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C reading ability.錯。原文提到 abilities related to intellect，例如 judgement and reasoning，沒有說 reading ability是設計依據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D gender.錯。文章沒有把性別作為測驗設計基礎。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 “age”= 原文 “mental age” + “physical age” + “children of a given physical age”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 有一定迷惑性，因為 Paragraph C 的 Stern 方法用到 division 和 multiplication。不過 Question 6 的 “the test” 承接 Question 5，指 Binet 的測驗。Binet 的核心設計是按年齡建立 norm，然後比較 mental age 和 physical age。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — Officers.",
+      "answerKey": "A — Officers.",
+      "type": "Multiple Choice",
+      "prompt": "“What did the US Army use intelligence tests to select?”",
+      "translation": "美國軍隊用智力測驗來挑選甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 US Army / military / intelligence tests / select。定位段落是 Paragraph E。題目問select what，所以答案通常會跟軍隊分流、職位分配有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The field studying intelligence and developing tests eventually coalesced into a sub-field of psychology called psychometrics…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究智力並發展測驗的領域，最終形成心理學的一個分支，稱為 psychometrics。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The examiners also came up with the quite astounding conclusion from the testing that the average American adult’s intelligence was equal to that of a thirteen-year-old!”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：考官還從測驗中得出相當驚人的結論：美國成年人平均智力等同十三歲兒童。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 會講 psychometrics 的早期大規模應用，並帶有批判語氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中間很可能交代軍隊如何使用 intelligence tests。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“US Army”"
+            },
+            {
+              "kind": "quote",
+              "text": "“intelligence tests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“select”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接說 US Army，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The military had to build up an army very quickly; it had two million inductees to sort out. Who would become officers and who would become enlisted men?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "軍方必須非常快速地建立軍隊；它有二百萬名新兵需要分流。誰會成為軍官，誰會成為普通士兵？"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychometricians developed two intelligence tests that helped sort all these people out, at least to some extent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理測量學家發展了兩種智力測驗，至少在某種程度上幫助把這些人分流。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A Officers.正確。原文直接提出 “Who would become officers…?”，智力測驗用來幫助決定誰成為 officers，誰成為 enlisted men。題目問 select，最符合的是 officers，因為 officer 是需要挑選出的職位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Ordinary soldiers.有干擾性。原文的確提到 enlisted men，但軍隊測驗常見目的在於分辨誰適合做 officer。題目用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“select” 單問一項，A 更貼近 “Who would become officers”。 C Examiners.錯。examiners 是執行測驗的人，不是被選出的人。 D Submarine crews.錯。文章提到 Germany’s unrestricted submarine warfare，這是美國參戰背景，不是美軍用測驗挑選潛艇人員。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “US Army”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “The military… build up an army”題目 “use intelligence tests to select”= 原文 “developed two intelligence tests that helped sort all these people out”題目答案 “Officers”= 原文 “Who would become officers…”所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 是典型相鄰背景陷阱。原文提到 submarine warfare，但那是德國潛艇戰引發美國參戰的背景。題目問美國軍隊用測驗挑選的人員類別，答案要回到 officers / enlisted men 這一句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — To discuss the validity and limitations of intelligence testing.",
+      "answerKey": "C — To discuss the validity and limitations of intelligence testing.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the main purpose of the passage?”",
+      "translation": "本文的主要目的 是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是主旨題。不能只看某一段，也不能只看最多年份的段落。要把全文結構串起來：Binet 的原意、Stern 和 Terman 的發展、軍隊使用、政治社會濫用、後來法律與學術爭議。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全文功能回看"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A：介紹 Binet 測驗的起源和 mental age。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B：指出 Binet 否認測驗真正量度 intelligence，後來被誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C：介紹 Stern 如何把兩種年齡化成一個分數。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D：介紹 IQ 一詞和 Stanford-Binet test。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E：講軍隊大規模使用測驗，以及條件和結論問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F：講測驗加強種族和社會偏見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G：總結 IQ 分數被過度重視，以及 intelligence 能否被量度仍具爭議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體來看，文章不是單純讚揚某個人物，也不是只列出時間線。它從歷史發展引出一個核心問題：智力測驗到底能不能有效量度 intelligence，以及使用它會帶來甚麼限制、誤解和社會後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看主旨訊號"
+            },
+            {
+              "kind": "label",
+              "text": "全文的主旨訊號包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“denied that the test was measuring intelligence”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：否認測驗是在量度智力。"
+            },
+            {
+              "kind": "quote",
+              "text": "“many problems and misunderstandings later”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：後來造成許多問題和誤解。"
+            },
+            {
+              "kind": "quote",
+              "text": "“horrendously bad conditions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：極差的測驗條件。"
+            },
+            {
+              "kind": "quote",
+              "text": "“reinforced political and social prejudice”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：加強政治和社會偏見。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The main criticism was and still is that current tests don’t really measure intelligence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：主要批評過去和現在都是：現行測驗其實沒有真正量度智力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A To give credit to Binet’s contribution to IQ testing.太窄。文章確實從 Binet 開始，也承認他的方案重要，但後文大量討論 Stern、Terman、軍隊、偏見、法律爭議和測驗有效性。A 只能覆蓋開頭部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B To prove that a particular theory is feasible.錯。文章沒有要證明某個理論可行。相反，它展示不同測驗方法如何被發展和爭議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C To discuss the validity and limitations of intelligence testing.正確。validity 指測驗是否真正量度 intelligence；limitations 指使用邊界、誤解、偏差、濫用和社會後果。Paragraph B 和 G 尤其清楚支撐這一點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D To outline the history of intelligence testing.很有迷惑性。文章確實按年代鋪排：1904、1905、1912、1916、1917、1970s。可是這條歷史線的功能不只在講「發生過甚麼」，更在展示測驗從教育診斷工具變成社會決策工具後，引發 validity、bias 和 misuse 問題。與 D 相比，C 更能覆蓋作者的批判重心。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C “validity”= 原文 “tests don’t really measure intelligence” / “Whether intelligence can be measured at all is still controversial”選項 C “limitations”= 原文 “simply diagnostic, for selection only” / “test bias controversies” / “important decisions based on IQ test scores”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 是最強干擾項，因為文章很明顯有歷史順序。但主旨題要問「作者為甚麼用這條歷史線」。本文用歷史發展展示一個更大的問題：智力測驗的有效性、限制和社會後果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Part of Professor Binet’s intention in designing the test was misunderstood.”",
+      "translation": "Binet 教授設計測驗時的部分意圖被誤解了。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有 intention 和 misunderstood，所以要找 Binet 的原意，以及後人是否誤解這個原意。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A large disparity in the wrong direction (e.g., a child of nine with a mental age of four) might suggest inability rather than laziness and mean he or she was earmarked for special schooling.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：如果出現很大的負面差距，例如九歲孩子的 mental age 只有四歲，這可能表示能力不"
+            },
+            {
+              "kind": "paragraph",
+              "text": "足，而非懶散，並意味著他或她會被標記為需要特殊教育。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This message was, however, lost and caused many problems and misunderstandings later.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可是，這個訊息後來被忽略，造成許多問題和誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 已經很明顯處理 Binet 測驗的 intended use 和 later misunderstanding。尾句的 misunderstandings 直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“intention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“designing the test”"
+            },
+            {
+              "kind": "quote",
+              "text": "“misunderstood”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Binet, however, denied that the test was measuring intelligence; its purpose was simply diagnostic, for selection only. This message was, however, lost and caused many problems and misunderstandings later.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，Binet 否認這項測驗是在量度智力；它的目的只屬診斷性，只用於篩選。可是，這個訊息後來被忽略，造成許多問題和誤解。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Part of Binet’s intention動作：was misunderstood內容：設計測驗的意圖被誤解原文命題：主體：this message，即 Binet 關於測驗用途的說明動作：was lost and caused misunderstandings內容：測驗只屬 diagnostic / selection，不是 measuring intelligence題目 “intention”= 原文 “its purpose was simply diagnostic, for selection only”題目 “was misunderstood”= 原文 “This message was… lost and caused many problems and misunderstandings later”判斷：原文和題目方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看 Paragraph A 的設計過程。Paragraph A 告訴我們測驗如何運作；Paragraph B 才告訴我們 Binet 如何限定測驗用途，以及這個限定後來被忽略。題目問 intention misunderstood，因此真正答案在 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Age as a factor was completely overlooked in Wilhelm Stern’s simplified test.”",
+      "translation": "在 Wilhelm Stern 的簡化測驗中，年齡這個因素被完全忽略。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心 “completely overlooked”。這是很強的否定，表示完全沒有考慮 age。只要原文顯示Stern 的方法用了 age，答案就會是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Binet’s test was popular, it was a bit inconvenient to deal with a variety of physical and mental ages.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：雖然 Binet 的測驗很受歡迎，但要處理各種 physical age 和 mental age 有點不方便。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number much lower than 100 would suggest the need for help, and one much higher would suggest a child well ahead of their peers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：遠低於 100 的分數會表示孩子需要幫助；遠高於 100 的分數則表示孩子大幅領先同"
+            },
+            {
+              "kind": "paragraph",
+              "text": "齡人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Stern 的簡化方法正是為了解決 age 處理上的不便。這已經暗示 age 沒有被忽略。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“completely overlooked”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Wilhelm Stern”"
+            },
+            {
+              "kind": "quote",
+              "text": "“simplified test”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“So in 1912, Wilhelm Stern suggested simplifying this by reducing the two to a single number: he divided the mental age by the physical age and multiplied the result by 100.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以在 1912 年，Wilhelm Stern 建議把這件事簡化，把兩個年齡化為一個單一數字：他用 mental age 除以 physical age，再把結果乘以 100。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 age was completely overlooked，即年齡完全沒有被考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Stern 的方法是： mental age ÷ physical age × 100這裡 mental age 和 physical age 都是 age。Stern 的簡化方法不是刪除 age，而是把兩種 age 的比較壓縮成一個數字。題目中的 “completely overlooked” 和原文的 age-based formula 直接衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Age… completely overlooked”= 完全沒有使用年齡因素原文 “mental age / physical age”= 年齡因素是公式核心判斷：原文提供相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “simplified” 可能令人以為 Stern 簡化後不再考慮年齡。實際上，他只是把兩種 age 轉成一個分數。看到 completely、all、never 這類強詞，要優先檢查原文是否有任何反例。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Einstein was a counterexample to the conclusions drawn from IQ tests.”",
+      "translation": "Einstein 是反駁 IQ 測驗結論的一個反例。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被常識帶走。文章確實提到 Einstein，也提到 IQ tests 得出荒謬結論，但題目要求的是 Einstein 和 those conclusions 之間的反例關係。要找原文是否明確建立這個關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The field studying intelligence and developing tests eventually coalesced into a sub-field of psychology called psychometrics…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究智力並發展測驗的領域，最終形成心理學的一個分支，稱為 psychometrics。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The examiners also came up with the quite astounding conclusion from the testing that the average American adult’s intelligence was equal to that of a thirteen-year-old!”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：考官還從測驗中得出相當驚人的結論：美國成年人平均智力等同十三歲兒童。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 會講智力測驗的大規模使用和問題性結論。Einstein 出現在這段中間，但要確認他只是時間標記，還是被用來反駁測驗結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Einstein”"
+            },
+            {
+              "kind": "quote",
+              "text": "“counterexample”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conclusions drawn from IQ tests”"
+            },
+            {
+              "kind": "label",
+              "text": "原文提到 Einstein："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1917, when Einstein published his grand theory of relativity, mass-scale testing was already in use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1917 年，也就是 Einstein 發表其偉大的相對論時，大規模測驗已經投入使用。"
+            },
+            {
+              "kind": "label",
+              "text": "原文提到 testing conclusion："
+            },
+            {
+              "kind": "quote",
+              "text": "“The examiners also came up with the quite astounding conclusion from the testing that the average American adult’s intelligence was equal to that of a thirteen-year-old!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考官還從測驗中得出相當驚人的結論：美國成年人平均智力等同十三歲兒童。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求的關係是： Einstein = counterexample反駁對象 = conclusions drawn from IQ tests原文實際提供的是： Einstein published relativity in 1917 mass-scale testing was already in use by 1917 examiners later drew an astounding conclusion about average American adult intelligence這些資訊之間沒有建立 “Einstein was a counterexample” 的關係。文章沒有說 Einstein 參加過IQ test，也沒有說他的智力結果和測驗結論衝突，更沒有說作者用 Einstein 來反駁美軍測驗結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提到 Einstein，但只作時間背景。題目加入了 counterexample 這層關係，文章沒有提供。所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是常識。很多學生知道 Einstein 是天才，看到 “average American adult’s intelligence was equal to that of a thirteen-year-old” 便想用 Einstein 反駁。可是 IELTS Reading 不能靠常識補證據。題目問的是文章是否說 Einstein 是 counterexample；答案是沒有說。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“IQ tests may lead to racial discrimination.”",
+      "translation": "IQ 測驗可能導致種族歧視。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 IQ tests / intelligence testing 和 racial discrimination 的關係。題目用 may lead to，表示可能造成或促成。原文如果說測驗結果被用來支持種族偏見，就足以支撐 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Intelligence testing reinforced political and social prejudice.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：智力測驗加強了政治和社會偏見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And so abuse and test bias controversies continued to plague psychometrics.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，濫用和測驗偏差爭議持續困擾心理測量學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 的功能非常清楚：它批評 intelligence testing 被濫用，並與 prejudice和 bias 連在一起。這正好對應 racial discrimination。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“IQ tests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“racial discrimination”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may lead to”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 racial discrimination，但有更具體的種族例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its results were used to argue that Jews ought to be kept out of the United States because they were so intellectually inferior that they would pollute the racial mix, and blacks ought not to be allowed to breed at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其結果被用來主張猶太人應被拒於美國之外，因為他們智力太低，會污染種族混合；黑人則根本不應被允許繁殖。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “IQ tests may lead to racial discrimination” 是概括說法。原文給出具體例子： Jews ought to be kept out of the United States猶太人應被拒於美國之外blacks ought not to be allowed to breed黑人不應被允許繁殖這些主張明顯屬於種族歧視和優生學式濫用。原文還說 intelligence testing “reinforced political and social prejudice”，表示這類測驗強化偏見。題目的 “may lead to” 較保守，與原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reinforced” 和 “results were used to argue” 相符。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “racial discrimination”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “Jews ought to be kept out…” + “blacks ought not to be allowed to breed”題目 “may lead to”= 原文 “reinforced” / “results were used to argue”判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 IQ tests，原文說 intelligence testing。這裡可接受，因為全文都在講從 Binet 測驗到 IQ tests 和 psychometrics 的智力測驗傳統。Paragraph F 的 discrimination 例子雖然沒有逐字說 IQ，但它明確承接 intelligence testing 的濫用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The writer regards the goal of measuring intelligence as largely meaningless.”",
+      "translation": "作者認為量度智力這個目標大致上沒有意義。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 writer’s view。關鍵是 “regards” 和 “largely meaningless”。要找作者是否把 measuring intelligence 這個目標貶低到「沒有意義」。文章最後確實說有爭議，但 controversial 和meaningless 不是同一件事。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Measurement is fundamental to science and technology.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：測量對科學和科技來說是根本性的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether intelligence can be measured at all is still controversial: some say it cannot; others say that IQ tests are psychology’s greatest accomplishments.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：智力到底能否被量度仍然有爭議：有人說不能；也有人說 IQ 測驗是心理學最偉大的成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "就。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到作者採取的是「測量很重要，但智力能否被量度仍有爭議」的立場。這和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“largely meaningless” 不同。作者沒有把 measuring intelligence 直接說成無意義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“writer regards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“goal of measuring intelligence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“meaningless”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Measurement is fundamental to science and technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "測量對科學和科技來說是根本性的。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychometrics has long tried to develop ways to gauge psychological qualities such as intelligence…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理測量學長久以來嘗試發展方法，去量度包括智力在內的心理特質。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether intelligence can be measured at all is still controversial…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "智力到底能否被量度仍然有爭議。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說作者認為 measuring intelligence 的 goal largely meaningless，即這個目標大致沒有價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文表達的是： measurement is fundamental測量很根本psychometrics has long tried to gauge intelligence心理測量學長期嘗試量度智力whether intelligence can be measured is controversial智力是否可被量度仍有爭議some say cannot; others say IQ tests are greatest accomplishments兩邊意見並存作者批評的是 current tests 可能沒有真正量度 intelligence，也批評 IQ 分數被過度用於重要決策。可是他沒有說「量度智力這個目標本身沒有意義」。相反，Paragraph G 開頭先肯定measurement 在科學中的重要性，最後把 intelligence measurement 描述為 controversial。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “largely meaningless”= 目標大致沒有價值原文 “Measurement is fundamental”= 測量本身對科學非常重要原文 “still controversial”= 仍有爭議，未有定論判斷：原文和題目方向不一致，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "很多學生會看到 “current tests don’t really measure intelligence” 就以為作者覺得 measuring intelligence 沒有意義。這句的重點其實是 current tests 的有效性不足，並非否定 measuring intelligence 這個目標本身。測驗工具有問題，不等於整個測量目標毫無價值。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Intelligence and Giftedness.pdf",
+    "sha256": "dda41c40f8e3c863a2bb7ffad9e1e1fd33ec6930959445c51a0b78d14e810f83",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以先看到文章從 1904 年法國教育部的實際需要開始：學校資源有限，需要分辨真正能力不足的學生和只是懶散的學生。尾句說 Binet 的方法是把兒童的 mental age 和physical age 作比較，所以本段功能是介紹 Binet 測驗的起源、設計原理和「mental age」概念。這段很可能回答 Binet 為何設計測驗，以及測驗根據甚麼而設計。"
+      },
+      {
+        "number": "B",
+        "summary": "首句延續 Paragraph A，說如果 mental age 和 physical age 出現很大負面差距，可能表示兒童需要特殊教育。尾句說 Binet 的原意後來被誤解，造成許多問題。只看首尾句，可以估計本段重點是 Binet 對自己測驗的限制說明：它只作診斷和篩選用途，並非真正量度 intelligence。本段很可能回答「Binet 的意圖被誤解」和「測驗限制」相關題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句用 Although 轉入 Binet 測驗的實際不便：同時處理 physical age 和 mental age 很麻煩。尾句說 Stern 的單一數字能顯示孩子是否需要幫助或是否遠超同齡人。只看首尾句，可以估計本段會解釋 Stern 如何把兩種年齡轉成一個分數，也就是 IQ 計算方法的雛形。本段很可能回答 Stern方法、公式、age factor 相關題目。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說這個 measurement 現在稱為 IQ score，用來顯示一個人和其他人相比的表現。尾句提到Terman 修訂 Binet 測驗，形成 Stanford-Binet test，至今仍廣泛使用。只看首尾句，可以看到本段功能是把 Stern 的計算方法連到 IQ 這個名稱，並介紹 Terman 的命名和 Stanford-Binet 測驗。這段很可能回答 IQ 一詞由誰創造。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 intelligence testing 和 test development 後來形成 psychometrics。尾句說考官竟然根據測驗得出驚人結論：美國成年人平均智力等同十三歲兒童。只看首尾句，可以估計本段會講心理測量學如何被大規模使用，特別是第一次世界大戰期間美軍用測驗分流人員。本段也帶有批判語氣，因為測驗條件差，結果也顯得荒謬。"
+      },
+      {
+        "number": "F",
+        "summary": "首句直接說 intelligence testing 加強了政治和社會偏見。尾句說濫用和測驗偏差爭議持續困擾psychometrics。只看首尾句，可以非常清楚看到本段功能：批評 IQ 測驗或智力測驗被用來支持種族和社會歧視。這段很短，但資訊密度很高，很可能回答 racial discrimination、prejudice、test bias 和 abuse 相關題目。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 measurement 對科學和科技非常根本。尾句說 intelligence 是否能被量度仍有爭議，有人否定，有人則高度推崇 IQ tests。只看首尾句，可以估計本段功能是總結 psychometrics 的更大問題：它嘗試量度多種心理特質，但 IQ 分數常被過度重視，也引發法律和學術爭議。本段很可能回答 IQ 只是眾多測量之一，以及作者是否否定測量智力這個目標。 Answer Key Questio Answer n 1 G 2 C 3 B 4 D 5 A 6 B 7 A 8 C 9 TRUE 10 FALSE 11 NOT GIVEN 12 TRUE 13 FALSE"
+      }
+    ]
+  }
+}

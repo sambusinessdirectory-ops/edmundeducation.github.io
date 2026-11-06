@@ -1,0 +1,2017 @@
+{
+  "id": "p1-034-going-bananas",
+  "catalogueId": "p1-034",
+  "catalogueIds": [
+    "p1-034"
+  ],
+  "passage": 1,
+  "title": "Going Bananas",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "ten thousand",
+    "South-East Asia",
+    "hard seeds",
+    "F",
+    "A",
+    "D",
+    "C",
+    "E",
+    "B",
+    "C",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "ten thousand",
+      "answerKey": "ten thousand",
+      "type": "Sentence Completion",
+      "prompt": "“The banana was first eaten as a fruit by humans almost 1 _________________ years ago.”",
+      "translation": "人類最早把 banana 作為水果食用，差不多是在 1 ______ 年前。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 “almost”，後面有 “years ago”，所以答案需要是一個時間數字。定位詞是 “first eaten / first edible banana / years ago”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The banana is among the world’s oldest crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香蕉是世界上最古老的 crops 之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It lacks the genetic diversity to fight off pests and diseases that are invading the banana plantations of Central America and the smallholdings of Africa and Asia alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它缺乏抵抗 pests and diseases 所需的 genetic diversity；這些病蟲害正在侵入 Central America的 banana plantations，以及 Africa and Asia 的 smallholdings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 會從 banana 的古老起源開始，最後轉向現代危機。題目問最早吃香蕉的時間，所以應在本段開頭附近尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“first eaten”"
+            },
+            {
+              "kind": "quote",
+              "text": "“years ago”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Agricultural scientists believe that the first edible banana was discovered around ten thousand years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農業科學家相信，第一種可食用香蕉約在一萬年前被發現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “the first edible banana” 對應題目的 “first eaten as a fruit by humans”。題目用 “almost”改寫原文的 “around”，兩者都表示約數。空格後面已有 “years ago”，所以只填數字部分即可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “first eaten as a fruit”= 原文 “the first edible banana was discovered”題目 “almost”= 原文 “around”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ten thousand” 是兩個詞，符合 NO MORE THAN THREE WORDS。所以答案是 ten thousand。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “around ten thousand”，因為題目已經有 almost，填入 around 會造成語氣重複。答案只需保留數字本身。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "South-East Asia",
+      "answerKey": "South-East Asia",
+      "type": "Sentence Completion",
+      "prompt": "“The banana was first cultivated in 2 _________________”",
+      "translation": "香蕉最早是在 2 ______ 被栽培。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題需要地點。定位詞是 “first cultivated”，原文未必用 cultivated，可能用 propagated、jungles、South-East Asia。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The banana is among the world’s oldest crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香蕉是世界上最古老的 crops 之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It lacks the genetic diversity to fight off pests and diseases that are invading the banana plantations of Central America and the smallholdings of Africa and Asia alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它缺乏抵抗病蟲害所需的 genetic diversity；這些威脅正在侵入 Central America、Africa 和 Asia的香蕉種植地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提示本段會講 banana 的早期 crop history。題目問 first cultivated in where，因此仍要留在Paragraph 1 的前半部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first cultivated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been at an evolutionary standstill ever since it was first propagated in the jungles of South-East Asia at the end of the last ice age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從它在上一個冰河時期結束時，最早於 South-East Asia 的叢林中被繁殖以來，它的演化幾乎停滯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“propagated” 在植物語境中指繁殖、栽培、種植延續。題目用 “cultivated” 作較普通的改寫。地點是 “the jungles of South-East Asia”。由於題目句子已經是 “in ___”，而答案上限是三個詞，最合適的是保留核心地點 “South-East Asia”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “first cultivated”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “first propagated”題目 “in”= 原文 “in the jungles of South-East Asia”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“South-East Asia” 一般視為兩個詞或一個連字地名，符合字數限制。所以答案是 South-East Asia。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“jungles of South-East Asia” 意思完整，但若嚴格計算，容易超過字數或使句子變得累贅。題目要的是地區，不是地貌，所以 South-East Asia 已足夠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "hard seeds",
+      "answerKey": "hard seeds",
+      "type": "Sentence Completion",
+      "prompt": "“Wild bananas are virtually inedible because of their 3 _________________”",
+      "translation": "野生香蕉幾乎不能食用，原因是它們有 3 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找原因。空格前有 “because of their”，答案應是名詞短語，而且要解釋 why wild bananas are inedible。定位詞是 “wild bananas”, “virtually inedible”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The banana is among the world’s oldest crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香蕉是世界上最古老的 crops 之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It lacks the genetic diversity to fight off pests and diseases that are invading the banana plantations of Central America and the smallholdings of Africa and Asia alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它缺乏抵抗病蟲害所需的 genetic diversity；這些病蟲害正威脅多地香蕉種植。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段從香蕉起源講到現代風險，中間一定會解釋 edible bananas 和 wild bananas 的差異，因此適合定位本題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wild bananas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“virtually inedible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Normally the wild banana, a giant jungle herb called Musa acuminata, contains a mass of hard seeds that make the fruit virtually inedible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，野生香蕉是一種名為 Musa acuminata 的巨大叢林草本植物，含有大量 hard seeds，使果實幾乎不能食用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 “the wild banana”。核心動詞是 “contains”。真正造成 inedible 的原因是 “a mass of hard seeds”。題目已經有 “because of their”，所以答案要填能接在 their 後面的名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Wild bananas are virtually inedible because of their…”= 原文 “contains a mass of hard seeds that make the fruit virtually inedible”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hard seeds” 是兩個詞，符合 NO MORE THAN THREE WORDS。“a mass of hard seeds” 太長，而且題目已有 their，填入後也不夠自然。所以答案是 hard seeds。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Musa acuminata”。這是野生香蕉的學名，負責介紹物種身份；使它難以食用的真正原因是 hard seeds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "F — Geoff Hawtin",
+      "answerKey": "F — Geoff Hawtin",
+      "type": "Matching Features",
+      "prompt": "“A pest invasion may seriously damage the banana industry.”",
+      "translation": "pest 入侵可能嚴重破壞 banana industry。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。題目要找「誰提出 pest or disease 可能造成 severe epidemic」。定位詞是 “pest invasion”, “seriously damage”, “industry”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first Stone Age plant breeders cultivated these sterile freaks by replanting cuttings from their stems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最早的 Stone Age plant breeders 透過重新種植 stems cuttings，來培育這些 sterile mutants。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘When some pest or disease comes along, severe epidemics can occur,’ says Geoff Hawtin, director of the Rome-based International Plant Genetic Resources Institute.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rome-based International Plant Genetic Resources Institute 的 director Geoff Hawtin 說：「當某種 pest or disease 出現時，severe epidemics 可能會發生。」只看首尾句，可以先猜本段會從 banana 的 clonal nature 講到 disease vulnerability。最後一句直接出現 pest、disease 和 severe epidemics，與題目非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“pest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seriously damage”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“When some pest or disease comes along, severe epidemics can occur,” says Geoff Hawtin.這句中的 “severe epidemics” 對應題目的 “seriously damage”。說話者是 Geoff Hawtin。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文主語是 “some pest or disease”。核心結果是 “severe epidemics can occur”。在上一句，文章剛說如果 plant breeders 的 efforts falter，即使最 productive crop 的 yields 也 could swiftly crash。這個前後文把 Hawtin 的說法放入「標準化作物遇到病蟲害會大幅受損」的框架。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “A pest invasion”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “some pest or disease comes along”題目 “may seriously damage”= 原文 “severe epidemics can occur” / “yields … could swiftly crash”所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Frison 也多次談 disease 和 banana crisis，特別是 black Sigatoka。但本題的 “pest invasion may seriously damage” 最貼近 Hawtin 的 “pest or disease … severe epidemics”。Matching Features要以最直接說出該觀點的人為準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A — Rodomiro Ortiz",
+      "answerKey": "A — Rodomiro Ortiz",
+      "type": "Matching Features",
+      "prompt": "“The effect of fungal infection in soil is often long-lasting.”",
+      "translation": "真菌感染土壤後，其影響通常會維持很久。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 fungus in soil 和 long-lasting effect。定位詞是 “fungal infection”, “soil”, “long-lasting”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The banana is an excellent case in point.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香蕉正是一個非常好的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But even so, it is a minority in the world’s banana crop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，它在全球 banana crop 中仍只佔少數。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 會用 banana 的商業歷史作 case study，尤其可能討論某種variety 和 disease 的關係。題目提到 fungal infection in soil，這很可能在 Gros Michel / Panama disease 的描述中出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fungal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long-lasting”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Once the fungus gets into the soil, it remains there for many years. There is nothing farmers can do. Even chemical spraying won’t get rid of it,” says Rodomiro Ortiz, director of the International Institute for Tropical Agriculture in Ibadan, Nigeria."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rodomiro Ortiz 說：「一旦 fungus 進入 soil，它會在那裡停留許多年。農民無能為力。即使chemical spraying 也無法清除它。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the fungus”。核心動詞是 “remains”。時間短語是 “for many years”，直接對應“long-lasting”。後面 “There is nothing farmers can do” 和 “Even chemical spraying won’t get rid of it” 進一步說明其影響難以解除。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “fungal infection in soil”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “the fungus gets into the soil”題目 “often long-lasting”= 原文 “remains there for many years”所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段還提到 Panama disease 和 Cavendish resistance。若只找 disease 名稱，可能停在品種歷史；本題真正定案詞是 “soil” 和 “many years”，這兩個詞直接鎖定 Ortiz。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "D — Ronald Romero",
+      "answerKey": "D — Ronald Romero",
+      "type": "Matching Features",
+      "prompt": "“A commercial manufacturer gave up on breeding disease-resistant bananas.”",
+      "translation": "一家商業公司放棄培育抗病香蕉。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “commercial manufacturer” 指 commercial banana companies，特別是 Chiquita。定位詞是 “gave up”, “breeding”, “commercial banana companies”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neither Western supermarket consumers nor peasant growers like the new hybrid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Western supermarket consumers 和 peasant growers 都不喜歡這種 new hybrid。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We supported a breeding programme for 40 years, but it wasn’t able to develop an alternative to the Cavendish. It was very expensive and we got nothing back,’ says Ronald Romero, head of research at Chiquita, one of the Big Three companies that dominate the international banana trade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chiquita 研究主管 Ronald Romero 說：「我們支持了一個 breeding programme 40 年，但它未能開發出 Cavendish 的替代品。它非常昂貴，而且我們沒有得到回報。」只看首尾句，可以知道 Paragraph 7 在講 hybrid 不被接受，以及商業公司對 breeding 的失望。最後一句已經直接給出 Ronald Romero。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“commercial manufacturer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gave up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“breeding”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And commercial banana companies are now washing their hands of the whole breeding effort, preferring to fund a search for new fungicides instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "商業香蕉公司現在已經抽手，不再承擔整個 breeding effort，轉而資助尋找 new fungicides。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Romero 的引文："
+            },
+            {
+              "kind": "quote",
+              "text": "“We supported a breeding programme for 40 years, but it wasn’t able to develop an alternative to the Cavendish. It was very expensive and we got nothing back.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們支持了 breeding programme 40 年，但它無法開發 Cavendish 替代品；成本很高，卻沒有回報。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“washing their hands of” 是習語，意思是抽手、不再參與、不願繼續負責。題目 “gave up on breeding” 就是這個意思的概括。人物方面，Romero 是 Chiquita 的 head of research，而Chiquita 屬於 Big Three commercial banana companies，所以他代表 commercial manufacturer的立場。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “gave up on breeding”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “washing their hands of the whole breeding effort”題目 “commercial manufacturer”= 原文 “Chiquita, one of the Big Three companies”所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落前面說 “plant breeders have until now turned their backs on the banana”，也有 “turned their backs” 這個放棄意思。但題目說 commercial manufacturer，真正要配到的是 Chiquita 的Ronald Romero。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "C — Emile Frison",
+      "answerKey": "C — Emile Frison",
+      "type": "Matching Features",
+      "prompt": "“A banana pathogen may develop resistance to chemical sprays.”",
+      "translation": "banana pathogen 可能對 chemical sprays 產生 resistance。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 pathogen / disease 對 fungicide 的 resistance。定位詞是 “resistance”, “chemical sprays”, “fungicide”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half a billion people in Asia and Africa depend on bananas, which provide their largest source of calories and are eaten daily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲和非洲有五億人依賴 bananas；香蕉提供他們最大熱量來源，而且每日食用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only option will be to find a new variety.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一選擇將是尋找新的 variety。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會說明當前 disease 對 food security 的威脅，以及為何需要 new variety。chemical control 和 disease resistance 很可能在中間出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“chemical sprays”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resistance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“As soon as you bring in a new fungicide, they develop resistance,” says Frison."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frison 說：「只要你引入一種新的 fungicide，它們很快就會產生 resistance。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “they” 指前文 diseases such as black Sigatoka。前一句說 “despite the fungicides, diseases such as black Sigatoka are getting more and more difficult to control.” 也就是即使用fungicides，這些 disease 仍越來越難控制。Frison 的句子解釋原因：病原體對新的 fungicide 產生resistance。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “banana pathogen”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “diseases such as black Sigatoka”題目 “chemical sprays”= 原文 “fungicide” / “fungicide sprayings”題目 “may develop resistance”= 原文 “they develop resistance”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Rodomiro Ortiz 也說 chemical spraying 無法清除 soil fungus，但那一題重點在 Panama disease fungus 長期留在 soil。Question 7 的核心是 resistance to new fungicide，Frison 的引文最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "E — Luadir Gasparotto",
+      "answerKey": "E — Luadir Gasparotto",
+      "type": "Matching Features",
+      "prompt": "“A banana disease has destroyed a large number of banana plantations.”",
+      "translation": "一種 banana disease 已經摧毀大量 banana plantations。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 destroyed 和 large number of fields / plantations。定位詞是 “destroyed”, “banana fields”, “disease”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half a billion people in Asia and Africa depend on bananas, which provide their largest source of calories and are eaten daily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲和非洲有五億人依賴香蕉，香蕉是他們最大的熱量來源，而且每日食用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only option will be to find a new variety.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一選擇將是尋找新的 variety。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段是 black Sigatoka 威脅段，尤其談 poor farmers 和 disease impact。題目說 destroyed plantations，應在本段後半尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“destroyed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“banana plantations / fields”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Most of the banana fields in Amazonia have already been destroyed by the disease,” says Luadir Gasparotto, Brazil’s leading banana pathologist with the government research agency EMBRAPA."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brazil 的 banana pathologist Luadir Gasparotto 說：「Amazonia 的大多數 banana fields 已經被這種 disease 摧毀。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文主語是 “Most of the banana fields in Amazonia”。核心動詞是 “have already been destroyed”。原因是 “by the disease”。題目把 “banana fields” 概括成 “banana plantations”，把“most” 概括成 “a large number”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “a large number of banana plantations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “Most of the banana fields in Amazonia”題目 “has destroyed”= 原文 “have already been destroyed by the disease”所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Frison 也說 black Sigatoka 不會輸，語氣很強；但“已經摧毀大多數 banana fields in Amazonia”這個具體事實由 Gasparotto 提出。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — David McLaughlin",
+      "answerKey": "B — David McLaughlin",
+      "type": "Matching Features",
+      "prompt": "“Consumers would not accept genetically modified crops.”",
+      "translation": "消費者不會接受 genetically modified crops。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 GM research、consumer acceptance、customers 的反應。定位詞是 “genetically modified”, “consumers”, “accept”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It sounds promising, but the big banana companies have, until now, refused to get involved in GM research for fear of alienating their customers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這聽起來有前景，但大型 banana companies 到目前為止拒絕參與 GM research，因為害怕疏遠customers。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We may even see the extinction of the banana as both a lifesaver for hungry and impoverished Africans and the most popular product on the world’s supermarket shelves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們甚至可能看到香蕉消失；它既是飢餓與貧困非洲人的 lifesaver，也是世界超市貨架上最受歡迎的產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 9 是 biotechnology 的阻力和最後警告。題目說 consumer acceptance，必定看本段開頭與 McLaughlin 引文。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“genetically modified”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consumers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accept”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Biotechnology is extremely expensive and there are serious questions about consumer acceptance,” says David McLaughlin, Chiquita’s senior director for environmental affairs."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chiquita 環境事務 senior director David McLaughlin 說：「Biotechnology 非常昂貴，而且consumer acceptance 方面存在嚴重問題。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “would not accept genetically modified crops” 比原文語氣稍強。原文沒有直接說所有consumers 一定不接受；它說公司擔心 alienating customers，McLaughlin 又說 “serious questions about consumer acceptance”。在 Matching Features 中，題目通常把人物觀點壓縮成較簡潔表述。能與 consumer acceptance of GM research 直接相連的人是 David McLaughlin。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “genetically modified crops”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “GM research” / “Biotechnology”題目 “Consumers would not accept”= 原文 “fear of alienating their customers” + “serious questions about consumer acceptance”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Ronald Romero 代表 Chiquita 談 breeding programme 成本和失敗；David McLaughlin 代表Chiquita 談 GM research 的成本和 consumer acceptance。兩人同屬商業公司，但觀點不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C — Emile Frison",
+      "answerKey": "C — Emile Frison",
+      "type": "Matching Features",
+      "prompt": "“Lessons can be learned from bananas for other crops.”",
+      "translation": "香蕉的情況可以為其他 crops 提供教訓。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “lessons” 是強定位詞。要找誰明確說 banana holds a lesson for other crops。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some ways, the banana today resembles the potato before blight brought famine to Ireland a century and a half ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些方面，今天的香蕉很像一個半世紀前 blight 導致愛爾蘭饑荒之前的 potato。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The state of the banana,’ Frison warns, ‘can teach a broader lesson: the increasing standardisation of food crops round the world is threatening their ability to adapt and survive.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frison 警告說：「香蕉的狀況可以帶來更廣泛的教訓：全球食物作物越來越標準化，正威脅它們適應和生存的能力。」只看首尾句，Paragraph 2 的功能就是把 banana 危機變成 broader crop lesson。題目幾乎直接改寫最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lessons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other crops”"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“it holds a lesson for other crops, too,” says Emile Frison."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Emile Frison 說：「它也為其他 crops 提供了一個教訓。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接點名 Frison，內容也和題目一致。後一句再補充教訓內容：food crops 的standardisation 正威脅 adapt and survive 的能力。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Lessons can be learned from bananas for other crops”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “it holds a lesson for other crops, too”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Geoff Hawtin 也將 banana-like vulnerability 推廣到 standardised crops，說 pest or disease 可造成 severe epidemics。但 “lesson for other crops” 這個說法由 Frison 直接提出，因此本題配 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The banana is the oldest known fruit.”",
+      "translation": "香蕉是已知最古老的水果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩個控制點：第一是最高級 “the oldest”；第二是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“known fruit”。文章必須明確比較香蕉和其他水果，才能支持這句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1第一句：“The banana is among the world’s oldest crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香蕉是世界上最古老的 crops 之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It lacks the genetic diversity to fight off pests and diseases that are invading the banana plantations of Central America and the smallholdings of Africa and Asia alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它缺乏抵抗 pests and diseases 的 genetic diversity；這些威脅正在侵入多地 banana plantations和 smallholdings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，的確可找到 oldest 相關資訊。但題目說 “the oldest known fruit”，比原文 “among the world’s oldest crops” 更強，需要細讀範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“oldest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fruit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The banana is among the world’s oldest crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香蕉是世界上最古老的作物之一。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Agricultural scientists believe that the first edible banana was discovered around ten thousand years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農業科學家相信，第一種可食用香蕉約在一萬年前被發現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援兩件事：香蕉是世界上最古老的 crops 之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種 edible banana 約在一萬年前被發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要證明：香蕉是最古老的 fruit。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有已知 fruits 之中，banana 排第一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供其他 fruits 的年代，也沒有作 fruit-to-fruit ranking。“among the world’s oldest crops”只表示屬於最古老的一批 crops，仍不足以推出 “the oldest known fruit”。另外，crop 和 fruit 的分類也不完全相同；文章沒有專門討論 “known fruit” 的排名。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：banana = the oldest known fruit"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：banana = among the world’s oldest crops比較結果：原文有相關背景，但缺少最高級比較和 fruit ranking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“oldest” 原字出現，很容易令人選 TRUE。判斷要落在 “among” 和 “the oldest” 的差別：前者表示屬於最古老的一類；後者表示第一名。文章沒有給出第一名證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Gros Michel is still being used as a commercial product.”",
+      "translation": "Gros Michel 至今仍作為商業產品使用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Gros Michel 的 current commercial status。控制詞是 “still”。要找 Gros Michel 是否仍在商業市場中使用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The banana is an excellent case in point.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香蕉正是一個非常好的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But even so, it is a minority in the world’s banana crop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，它在全球 banana crop 中仍只佔少數。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段是 banana case study。中間會講 commercial banana business、Gros Michel、Panama disease、Cavendish replacement，所以這是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gros Michel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“still”"
+            },
+            {
+              "kind": "quote",
+              "text": "“commercial product”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the 1950s, one variety, the Gros Michel, dominated the world’s commercial banana business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1950s，一個品種 Gros Michel 支配了全球 commercial banana business。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“So plantation owners played a running game, abandoning infested fields and moving to ‘clean’ land – until they ran out of clean land in the 1950s and had to abandon the Gros Michel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 plantation owners 一直轉移陣地，放棄受感染田地，搬到 “clean” land；直到 1950s 他們沒有 clean land 可用，只好放棄 Gros Michel。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Gros Michel still being used。原文說 “had to abandon the Gros Michel”。“abandon” 表示放棄。接著文章又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its successor, and still the reigning commercial king, is the Cavendish banana…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的繼任者、至今仍是 commercial king 的，是 Cavendish banana。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句指出 current commercial king 是 Cavendish。再加上 “During the 1960s, it replaced the Gros Michel on supermarket shelves”，意思是 Cavendish 在 1960s 取代 Gros Michel 出現在supermarket shelves 上。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “still being used as a commercial product”對照原文 “had to abandon the Gros Michel” / “Cavendish … replaced the Gros Michel”原文提供相反資料，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "句子 “Until the 1950s… dominated” 可能令人只記得 Gros Michel 曾經很重要。題目問 “still”，所以要繼續讀到 “had to abandon” 和 “replaced”。時間詞是本題真正控制答案的地方。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Bananas are a staple food in some countries.”",
+      "translation": "香蕉在某些國家是 staple food，即主食。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 bananas 是否在某些地方作為主食。定位詞是 staple food，但原文可能用 depend on、largest source of calories、eaten daily、synonymous with food。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half a billion people in Asia and Africa depend on bananas, which provide their largest source of calories and are eaten daily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲和非洲有五億人依賴 bananas；香蕉提供他們最大的熱量來源，而且每日食用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only option will be to find a new variety.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一選擇將是尋找新的 variety。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，已經能看到 bananas 對 Asia and Africa 一些人群的重要性。題目中的 staple food 很可能對應 largest source of calories and eaten daily。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“staple food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Half a billion people in Asia and Africa depend on bananas, which provide their largest source of calories and are eaten daily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲和非洲有五億人依賴香蕉；香蕉提供他們最大的熱量來源，而且每日食用。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some languages, the name for banana is synonymous with food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些語言中，banana 這個名稱和 food 是同義的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“staple food” 指日常主要食物，通常提供主要熱量。原文 “largest source of calories” 和 “eaten daily” 非常清楚地支援這點。文章雖然沒有直接說 “countries”，但 “Asia and Africa” 中有大量地區和語言社群，且 “in some languages” 表示某些文化語境中 banana 幾乎等同 food。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “staple food”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “provide their largest source of calories and are eaten daily”題目 “in some countries”= 原文 “Half a billion people in Asia and Africa” / “In some languages”所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要被 “minority in the world’s banana crop” 影響。那句說 Cavendish 在全球 banana crop 中只佔少數；本題問 bananas 對某些人群是否是主食，答案依靠 Paragraph 5 的 “largest source of calories and eaten daily”。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Going Bananas.pdf",
+    "sha256": "7c9b90d8f650b07b3693780f38acebacc6c982b0313ce55d820390f0b22bfb63",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和最後一句，可以看到文章從 banana 是世界上最古老 crops 之一開始，最後落在它缺乏 genetic diversity，難以抵抗 pests and diseases。這段功能是交代香蕉的起源、生殖特性和危機根源。中間提到第一種 edible banana 約一萬年前被發現，最早在 South-East Asia 的叢林繁殖；野生香蕉因 hard seeds 幾乎不能吃，現代可食香蕉多來自 sterile mutants。"
+      },
+      {
+        "number": "2",
+        "summary": "首句把 banana 和愛爾蘭馬鈴薯饑荒前的 potato 作比較；最後一句由 Frison 警告，全球食物作物越來越標準化，正威脅其適應與生存能力。這段功能是把 banana 的危機提升成 broader lesson。它不只談香蕉，也提醒其他 crops：當全世界依賴少數標準化品種時，一旦 disease or pest 出現，整個作物系統會變得非常脆弱。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Stone Age plant breeders 透過重新種植 stems cuttings 來培育 sterile bananas；最後一句由 Geoff Hawtin 警告，當 pest or disease 出現，severe epidemics 可能爆發。這段功能是解釋clonal crops 為何危險：今天吃的香蕉幾乎是原始 cuttings 的後代，缺少 genetic diversity。段落也把香蕉問題連到其他 high-yielding standardised crops，說明遺傳單一化會削弱抗病彈性。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 banana 是一個極佳例子；最後一句指出今天買到的香蕉幾乎肯定是 Cavendish，但它只是全球 banana crop 的一小部分。這段功能是講商業香蕉歷史：Gros Michel 曾支配國際市場，但因 Panama disease 被放棄；Cavendish 因 resistant to Panama disease 取代它，拯救commercial banana industry。這段很適合定位 Gros Michel、Panama disease、Cavendish 題目。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說亞洲和非洲有五億人依賴 bananas 作主要熱量來源；最後一句說唯一選擇將是尋找新variety。這段功能是介紹 black Sigatoka 這種 fungal disease 的全球威脅。它會使產量下降50–70%，縮短 banana plants 的 productive lifetime。Commercial growers 依賴大量 fungicide，但 disease 逐漸產生 resistance；poor farmers 無法負擔 chemicals，只能看著 plants die。"
+      },
+      {
+        "number": "6",
+        "summary": "首句問 “But how?”，承接前段尋找 new variety 的困難；最後一句說 back-crossing with wild bananas 得到一種同時抵抗 black Sigatoka 和 Panama disease 的 seedless banana。這段功能是解釋 breeding 的技術困境和少數可能性。因 edible bananas 幾乎都 sterile，很難引入 new genetic traits；只有極少數 genetic accident 會產生接近正常的 seed，給 breeders 一個非常狹窄的改良窗口。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Western supermarket consumers 和 peasant growers 都不喜歡 new hybrid；最後一句由Ronald Romero 解釋，Chiquita 支持 breeding programme 40 年，成本很高，卻沒有得到alternative to Cavendish。這段功能是說明 breeding solution 的商業失敗。新 hybrid 味道不被接受，plant breeders 轉向容易處理的 crops，大型 banana companies 也放棄 breeding effort，改為資助尋找 new fungicides。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Frison 領導的 global consortium 宣布計劃在五年內 sequencing the banana genome；最後一句說 resistant genes 可被放入 edible varieties 的 laboratory tissue cultures，再繁殖成disease-resistant plants 給 farmers。這段功能是介紹 genome sequencing 和 biotechnology 的希望。科學家會先研究 inedible wild bananas，因為許多野生品種對 black Sigatoka 有 resistance，再嘗試找出保護性 genes。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說這個方案聽起來有前景，但大型 banana companies 至今因擔心 customers 反感而拒絕參與 GM research；最後一句警告，沒有 biotechnology，香蕉可能作為飢餓人口的 lifesaver 和全球超市最受歡迎產品而走向 extinction。這段功能是總結 biotechnology 的希望與阻力：GM 研究昂貴，consumer acceptance 有問題，公司資金不足，smallholders 也未必負擔得起新 varieties。 Answer Key Questio Answer n 1 ten thousand 2 South-East Asia 3 hard seeds 4 F 5 A 6 D 7 C 8 E 9 B 10 C 11 NOT GIVEN 12 FALSE 13 TRUE"
+      }
+    ]
+  }
+}

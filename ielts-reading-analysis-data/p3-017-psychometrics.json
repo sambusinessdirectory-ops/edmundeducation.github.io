@@ -1,0 +1,628 @@
+{
+  "id": "p3-017-psychometrics",
+  "catalogueId": "p3-017",
+  "catalogueIds": [
+    "p3-017"
+  ],
+  "passage": 3,
+  "title": "PSYCHOMETRICS",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "G",
+    "C",
+    "B",
+    "F",
+    "G",
+    "FALSE",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "C",
+    "C",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Physiological evidence from Gardner that his intelligence theories are sound.”",
+      "translation": "Gardner 用生理／大腦方面的證據支持自己的智力理論。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gardner however maintains that his theories are sound, since an identifiable and separate part of the brain is responsible for controlling aspects related to each of the different types of intelligence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過 Gardner 堅持自己的理論是可靠的，因為大腦中有可識別、互相分開的部分，負責控制與不同智力類型相關的方面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 physiological evidence 對應原文的 separate part of the brain。brain 是身體／生理層面的證據，所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“Aims of intelligence testing”",
+      "translation": "智力測驗的目的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Intelligence testing methods are not intended to determine a level of genetic intelligence separate from and unaffected by the environment…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "智力測驗方法的目的並非判斷一個人與環境完全分開、不受環境影響的遺傳智力水平。"
+            },
+            {
+              "kind": "label",
+              "text": "下一部分才是真正目的："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather to measure the intelligence of an individual apparent as a result of both nature and nurture.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更準確地說，它們是用來測量一個人在先天和後天共同影響下表現出來的智力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 aims，Paragraph C 明確解釋 intelligence testing intended / not intended 的目的，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Initial failure in successful measurement”",
+      "translation": "早期測量嘗試未能成功。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the approach was not successful, the studies conducted by Galton were to influence the work of future researchers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這種方法並不成功，但 Galton 所做的研究後來影響了未來研究者的工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 講 Francis Galton 早期用 physical power、height、weight 等身體指標估計intelligence，但方法 was not successful。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“How high level social skills are linked and classified as interpersonal intelligence.”",
+      "translation": "高水平社交能力如何被歸類為 interpersonal intelligence。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interpersonal intelligence relates to an individual’s ability to communicate and empathise with others; typically extroverts, they learn well through discussion, debate and interaction with others.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人際智力與一個人和他人溝通、共情的能力有關；這類人通常外向，透過討論、辯論和與他人互動學習得很好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 high level social skills 對應原文的 communicate and empathise with others、discussion, debate and interaction with others。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Differences in opinions on what constitutes talent or intelligence”",
+      "translation": "不同人對甚麼算 talent、甚麼算 intelligence 有分歧。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Doubts have been raised that others, such as musical intelligence, are in reality talents.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人提出質疑，認為其他類別，例如 musical intelligence，實際上可能只是才能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 還說一些 detractors 認為 interpersonal 或 intrapersonal intelligence 更接近personality，naturalistic intelligence 被很多人 dismiss as no more than a hobby。這一整段都在討論：Gardner 所稱的 intelligence，到底是否真的屬於 intelligence，還是 personality、hobby 或talent。答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Early studies into intelligence were misguided and have had no impact on today’s methods.”",
+      "translation": "早期智力研究方向錯誤，並且對今天的方法沒有任何影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the approach was not successful, the studies conducted by Galton were to influence the work of future researchers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這種方法並不成功，但 Galton 所做的研究後來影響了未來研究者的工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩部分：第一，early studies were misguided。原文只說 approach was not successful，沒有直接用misguided 這麼重的評價。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，have had no impact on today’s methods。這部分和原文明確相反。原文說 Galton 的studies were to influence the work of future researchers，即有影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Research into IQ is designed to determine the level of intelligence an individual is born with.”",
+      "translation": "IQ 研究的設計目的是判斷一個人天生擁有多少智力。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Intelligence testing methods are not intended to determine a level of genetic intelligence separate from and unaffected by the environment…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "智力測驗方法的目的並非判斷一種與環境分開、完全不受環境影響的遺傳智力水平。"
+            },
+            {
+              "kind": "label",
+              "text": "原文再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather to measure the intelligence of an individual apparent as a result of both nature and nurture.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更準確地說，它們測量的是一個人在先天和後天共同作用下表現出來的智力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 IQ research 是為了測量 born with 的智力，即先天智力。原文直接否定這個目的，並說測量的是 nature and nurture 的共同結果。答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Howard Gardner has confirmed 9 different types of intelligence.”",
+      "translation": "Howard Gardner 已經確認了九種不同智力。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gardner first identified seven different types of intelligence…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gardner 最初識別出七種不同智力。"
+            },
+            {
+              "kind": "label",
+              "text": "後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1999 after further research he added an 8th element… and at the time of writing is investigating the possibility of a 9th…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1999 年進一步研究後，他加入第八項；在本文寫作時，他正在研究第九項存在的可能性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚區分：● 已識別：7；● 後來加入：8th；● 正在研究可能性：9th。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 has confirmed 9，但原文只說正在 investigating the possibility of a 9th。答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Spatial intelligence has been linked to creativity.”",
+      "translation": "Spatial intelligence 和創意／藝術能力有關。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spatial intelligence is related to vision and spatial judgement; such individuals have been observed to have a strong visual memory and the potential to excel in artistic subjects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空間智力與視覺和空間判斷有關；這類人被觀察到有很強的視覺記憶，也有潛力在藝術科目中表現出色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 creativity 沒有原字出現，但 artistic subjects 可以支持與創意／藝術表現相關。這是概念改寫，不是逐字重現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● creativity= artistic ability / artistic subjects● linked to= related to / potential to excel in所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“An individual may demonstrate high levels of intelligence in contradictory areas.”",
+      "translation": "一個人可能在看似不同甚至相反的智力範疇中都表現很高。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A final criticism attached to the theory is that some believe that the intelligences cannot be treated as separate entities as some individuals may perform equally well in what could be considered diverse areas; linguistic and logical-mathematical for example.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對該理論的最後一項批評是，有人認為各種智力不能被視為完全分開的實體，因為有些人在可被視為不同範疇的領域中可能同樣表現很好，例如語言智力和邏輯數學智力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 contradictory areas 對應原文的 diverse areas。雖然 contradictory 比 diverse 語氣更強，但在這題語境中，題目想測的是：一個人能否在不同智力範疇同時表現好。原文說 some individuals may perform equally well，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Those demonstrating intrapersonal intelligence always make bad managers.”",
+      "translation": "展現 intrapersonal intelligence 的人一定會成為差勁的管理者。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs F and H Paragraph F 原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“intrapersonal intelligence… such individuals working best independently.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "內省智力的人最適合獨立工作。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“those showing a dominant intrapersonal intelligence are said to be better suited to professions involving more self reflection and lower levels of interaction with the outside world such as writing, philosophy or theology.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以內省智力為主的人據說較適合需要更多自我反思、與外界互動較少的職業，例如寫作、哲學或神學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 intrapersonal intelligence 的人較適合 low interaction professions，也說interpersonal skills 的人 often make effective managers。但原文沒有說 intrapersonal intelligence 的人 always make bad managers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 always 太絕對，而且 bad managers 沒有原文支援。原文只說職業傾向，不足以判斷他們一定不適合管理職位。答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Multiple Choice",
+      "prompt": "“Some believe that IQ tests do not correctly estimate an individual’s intelligence because…”",
+      "translation": "有些人認為 IQ tests 不能正確估計一個人的智力，原因是……目標段落：Paragraph D原文關鍵句：“IQ tests are commonly used to test intelligence, though some believe that this testing is unfair and not truly representative of the subject’s intellect as individuals may excel in different areas of reasoning.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "IQ tests 通常用來測試智力，不過有人認為這種測試不公平，不能真正代表受測者的智力，因為個人可能在不同 reasoning 領域有出色表現。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“while people may have weaknesses in one area they may have strengths in others.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們可能在某一方面較弱，但在其他方面較強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應原文 individuals may excel in different areas of reasoning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A 說 tests are based on physical and physiological benchmarks。這是 Galton 早期方法，不是 IQ tests 被批評的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 some people may perform badly on the day of the test。原文沒有提到考試當日狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 tests do not accurately assess ability to reason, think and solve problems。原文批評點更具體：不同人可能在不同 reasoning areas 表現出色；D 太籠統，沒有抓住 Gardner 理論引出的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Multiple Choice",
+      "prompt": "“The intelligence, as classified by Gardner, relating to an ability to memorise items seen is…”",
+      "translation": "按照 Gardner 的分類，與記住所見事物能力相關的智力是……目標段落：Paragraph E原文關鍵句：“Spatial intelligence is related to vision and spatial judgement; such individuals have been observed to have a strong visual memory…”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空間智力與視覺和空間判斷有關；這類人被觀察到具有很強的視覺記憶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 memorise items seen 對應原文的 strong visual memory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● items seen = visual information● memorise = memory● strong visual memory = ability to memorise what is seen所以答案是 C — spatial intelligence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Multiple Choice",
+      "prompt": "“The harshest criticism of Gardner’s theory has been focussed towards…”",
+      "translation": "對 Gardner 理論最嚴厲的批評集中在哪一類智力？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more recently identified naturalistic intelligence, which relates to an affinity to the natural world and an ability to nurture and cultivate, has been dismissed completely by many as no more than a hobby.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近期提出的 naturalistic intelligence 與親近自然世界、培育和栽種的能力有關，但很多人完全否定它，認為它只不過是一種嗜好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句的語氣最強，因為有 dismissed completely 和 no more than a hobby。其他批評雖然也存在，例如 musical intelligence 被質疑是 talent，但 naturalistic intelligence 被 “dismissed completely”，批評程度最重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D — naturalistic intelligence。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -PSYCHOMETRICS.pdf",
+    "sha256": "7f07c52a37a529e51ddfc90da3021bb745f0bd3ab3df64f52c044246f6a1eefa",
+    "pageCount": 12
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "段落對應表",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A Paragraph 介紹 psychometrics 的定義和兩大焦點",
+        "label": "落"
+      },
+      {
+        "number": "2",
+        "summary": "B Paragraph 介紹早期智力測量，尤其 Galton 的方法和後續影響",
+        "label": "1"
+      },
+      {
+        "number": "3",
+        "summary": "C Paragraph 介紹 Stanford-Binet IQ test，以及 intelligence testing 的目的",
+        "label": "2"
+      },
+      {
+        "number": "4",
+        "summary": "D Paragraph 介紹 IQ test 爭議和 Gardner 的 Multiple Intelligences",
+        "label": "3"
+      },
+      {
+        "number": "5",
+        "summary": "E Paragraph 解釋 linguistic、logical-mathematical、spatial、bodily-kinesthetic",
+        "label": "4"
+      },
+      {
+        "number": "6",
+        "summary": "F Paragraph 解釋 musical、interpersonal、intrapersonal intelligence",
+        "label": "5 intelligence"
+      },
+      {
+        "number": "7",
+        "summary": "G Paragraph 介紹對 Gardner 理論的批評，以及 Gardner 的回應",
+        "label": "6"
+      },
+      {
+        "number": "8",
+        "summary": "H Paragraph 說明 Gardner 理論在教育和職業方向上的應用8",
+        "label": "7"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "題目說文章有 A–H 段，但原文用 1–8 自然段呈現，所以可以這樣對應：題目段 原文自然段 主要功能"
+  ]
+}

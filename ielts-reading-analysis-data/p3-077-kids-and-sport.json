@@ -1,0 +1,1487 @@
+{
+  "id": "p3-077-kids-and-sport",
+  "catalogueId": "p3-077",
+  "catalogueIds": [
+    "p3-077"
+  ],
+  "passage": 3,
+  "title": "Kids and Sport",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 12,
+  "questionNumberStart": 29,
+  "answerKey": [
+    "freedom",
+    "organised",
+    "sports grounds",
+    "intensive",
+    "one",
+    "assessments",
+    "fun",
+    "pressure",
+    "C",
+    "B",
+    "D",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 29,
+      "answer": "freedom",
+      "answerKey": "freedom",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“Marte & Notarnicola define the spontaneous sporting games of children as activities of 29______.”",
+      "translation": "Marte 和 Notarnicola 把兒童自發的運動遊戲定義為 ______ 的活動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two Italian psychologists, Vincenzo Marte and Giovanni Notarnicola, describe the traditional spontaneous practice of sport by children—climbing trees, riding a bicycle along quiet roads, racing their friends across the fields – as an activity of freedom, a special activity of discovery and learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位意大利心理學家 Vincenzo Marte 和 Giovanni Notarnicola 把兒童傳統上自發進行運動，例如爬樹、沿安靜道路踩單車、和朋友在田野間賽跑，描述為一種自由活動，也是一種特殊的發現和學習活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of free sporting activity, the child’s time is given up entirely to the activity, as can be seen in the endless games of football young children play, which may then be followed by bicycle races and/or a swim in the river, for example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在自由運動活動中，孩子的時間會完全投入到活動之中，例如小孩子無止境地踢足球，之後可能再比單車或到河裡游泳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段在定義「自發運動」的本質：自由、探索、學習和完全投入。題目直接提到 Marte & Notarnicola，因此 Paragraph 1 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有定位力的字是 “Marte & Notarnicola”、“spontaneous sporting games” 和 “activities of”。原文直接出現 “spontaneous practice of sport” 和 “an activity of freedom”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“an activity of freedom”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種自由活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 singular 的 “an activity of freedom” 改成 plural 的 “activities of ______”。空格需要名詞，原文名詞是 freedom。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “spontaneous sporting games” = “traditional spontaneous practice of sport”● “activities of” = “an activity of”● “freedom” 原字重現所以答案是 freedom。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "organised",
+      "answerKey": "organised",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“Because today sport is often decided and 30 ______ by parents, children lose their autonomy.”",
+      "translation": "因為今天運動常常由父母決定和 ______，孩子便失去自主性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, however, children’s discovery of sport has become very different.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而今天，孩子發現和接觸運動的方式已經變得很不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By organising sport for children, and often deciding for them, we unfortunately create an imbalance preventing them from managing their own play/sports time, thus denying them the opportunity for the autonomy and independence that were possible in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們替孩子組織運動，並經常替他們作決定，這不幸地造成一種失衡，使他們不能管理自己的遊戲／運動時間，也剝奪了過去可能有的自主和獨立機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句已經把答案方向說得很清楚：現代問題來自成人安排和決定孩子的運動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “decided”、“parents” 和 “autonomy”。原文有 “often parents who take their children…”、“organised activity”、“By organising sport for children, and often deciding for them”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children’s first experience of sport thus takes place as an organised activity, which they see as the organisation of their free time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，孩子第一次接觸運動時，通常是以有組織活動的形式出現，而他們也會把它視為自己自由時間被組織起來。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“By organising sport for children, and often deciding for them…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過替孩子組織運動，並經常替他們作決定……題目句子需要 “decided and ______ by parents”。因為空格要和 decided 平行，最自然要用 past participle。原文中有 “organised activity”，所以答案用 organised 最合適。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “decided by parents” = “often deciding for them”● “organised by parents” = “By organising sport for children”● “children lose their autonomy” = “denying them the opportunity for the autonomy and independence”所以答案是 organised。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "sports grounds",
+      "answerKey": "sports grounds",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“A first imbalance occurs because 31 ______ are out of the city and often crowded…”",
+      "translation": "第一種失衡出現，是因為 ______ 位於城市外圍，而且經常擁擠。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A first possible reason for the imbalance in the practice of sport by children is therefore linked to the urban society we live in today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，兒童運動實踐中第一個可能造成失衡的原因，與我們今天身處的城市社會有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How can we find the balance of a varied and spontaneous relationship to sport under such conditions?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這樣的條件下，我們如何找回與運動之間那種多樣而自發的平衡關係？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段在解釋城市環境如何限制兒童自由運動。題目中的 out of the city and often crowded 明顯指向城市設施問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “out of the city” 和 “crowded”。原文不會用 exactly out of the city，而是用 “on the outskirts of cities”。“crowded” 對應 “overcrowded”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sports grounds are often on the outskirts of cities, and are overcrowded and invariably enclosed, while recreational areas such as parks or hard-packed surfaces are very few and far between.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "運動場地經常位於城市外圍，而且擁擠，並且總是被圍起來；與此同時，公園或硬地面等休閒區非常稀少。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “out of the city” = “on the outskirts of cities”● “often crowded” = “overcrowded”● “open recreational areas” = “recreational areas such as parks or hard-packed surfaces”空格後面是 “are”，所以答案應是複數名詞。原文複數名詞是 sports grounds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 sports grounds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "intensive",
+      "answerKey": "intensive",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“The second imbalance occurs because they start early 32 ______ training very young…”",
+      "translation": "第二種失衡出現，是因為他們很小就開始早期 ______ 訓練。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For children, sport remains a special kind of discovery and learning, no matter how much adults limit and control the practice of early intensive training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對孩子來說，運動仍是一種特殊的發現和學習，不論成人如何限制和控制早期密集訓練的實踐。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When adult-style competitions are introduced at an early age, the conditions which encourage a balanced development of children through sport are no longer respected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當成人式競賽在很早的年齡被引入時，那些透過運動促進兒童平衡發展的條件便不再受到尊重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見這段處理第二個 imbalance：成人式、過早、密集、專項訓練破壞兒童平衡發展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “second imbalance”、“early training” 和 “very young”。原文有 “second example of imbalance” 和 “early intensive training begins at the youngest possible age”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, early intensive training begins at the youngest possible age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，早期密集訓練從可能的最小年齡便開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子 “early 32 ______ training” 直接對應原文 “early intensive training”。空格只缺中間形容詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 intensive。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "one",
+      "answerKey": "one",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“…and participate in only 33 ______ specific activity.”",
+      "translation": "並且只參與 ______ 個特定活動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6這段首句提到 early intensive training，尾句講 adult-style competitions 過早出現會破壞balanced development。題目問 only one specific activity，所以應該在段落中間找 one specific sport。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “only”、“specific activity”。原文用 “one specific sport”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes this is even before the age of six and is usually one specific sport within an organised framework.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時這甚至在六歲前已經開始，而且通常是在有組織框架內進行一項特定運動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “one specific sport” 改寫成 “one specific activity”。因為題目空格後已經有 “specific activity”，所以空格只需要填 one。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “one specific sport” = “one specific activity”● “within an organised framework” = 在成人安排的制度內所以答案是 one。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "assessments",
+      "answerKey": "assessments",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“Children often give up a sport because of negative 34 ______.”",
+      "translation": "孩子經常因為負面的 ______ 而放棄某項運動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why do very young children give up sport?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼很年幼的孩子會放棄運動？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is up to trainers, sports doctors and psychologists to implement the measures necessary to limit this excessive early practice of sport by children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訓練員、運動醫生和心理學家有責任實施必要措施，以限制兒童過度早期進行運動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落第一句就是題目主題：children give up sport。答案通常在後面原因句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “give up a sport” 和 “negative”。原文直接有 “negative assessments”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, children may leave a sport because they believe that they have received too much criticism and too many negative assessments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，孩子可能會離開某項運動，因為他們認為自己受到太多批評和太多負面評估。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “leave a sport” 改寫成 “give up a sport”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “negative”，原文是 “negative assessments”，所以答案是 assessments。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “give up a sport” = “leave a sport”● “because of” = “because they believe that they have received”● “negative assessments” 原字重現所以答案是 assessments。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "fun",
+      "answerKey": "fun",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“It is important that trainers avoid excessive criticism of young children, who should have 35______ at sporting activities.”",
+      "translation": "訓練員應避免過度批評年幼孩子，因為孩子在運動活動中應該有 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8這段開頭問孩子為何放棄運動，最後說專業人士應限制過早過度運動。中間談 criticism、negative assessments 和孩子的主要需要。題目問 children should have something at sporting activities，所以要找 child desire / main desire。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “excessive criticism” 和 “young children”。原文直接有 “avoid excessive criticism” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“primary school children’s main desire”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“It should be remembered that primary school children’s main desire is to have fun and socialise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們應記住，小學生最主要的願望是玩得開心和社交。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前是 “should have”，所以答案要能接成 “have fun”。原文完整短語是 “have fun and socialise”，但題目只問一個名詞／短語，且 “at sporting activities” 後面不用接動詞 “socialise”。最自然答案是 fun。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “young children” = “primary school children”● “should have fun” = “main desire is to have fun”● “at sporting activities” = 運動活動情境所以答案是 fun。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "pressure",
+      "answerKey": "pressure",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“This third imbalance occurs as parents exert 36 ______ on children to win rather than to enjoy sport.”",
+      "translation": "第三種失衡出現，是因為父母向孩子施加 ______，要求他們勝利，而非享受運動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A third source of imbalance which threatens children and sport is parental attitudes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個威脅兒童與運動關係的失衡來源，是父母態度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Martens highlights, ‘adults are solely to blame if joy and sadness become synonymous in a child’s mind with victory and defeat.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Martens 強調，如果在孩子心中，快樂和悲傷變成與勝利和失敗同義，責任完全在成人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已顯示本段處理 parental attitudes 和 win/lose 心態。題目中的 third imbalance 和 parents exert 直接定位這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “parents”、“win” 和 “give up sport”。原文出現 “parental pressure” 和 “glory through victory”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several studies have shown that parental pressure is high on the list of reasons why children leave sport.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多項研究顯示，父母壓力是孩子離開運動的主要原因之一。"
+            },
+            {
+              "kind": "label",
+              "text": "前面還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The American psychologist Rainer Martens emphasises that ‘too often children’s joy of sports is destroyed by adults who want glory through victory.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國心理學家 Rainer Martens 強調，孩子對運動的喜悅太常被那些想透過勝利獲得榮耀的成人破壞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “parental pressure” 改寫成 “parents exert pressure”。空格只需要填名詞 pressure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 pressure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 37–40 Multiple Choice 要選最完整、最精確獲原文支持的選項，不能只看選項中某個字有沒有在原文出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — it puts them in charge of what they do and when they do it.",
+      "answerKey": "C — it puts them in charge of what they do and when they do it.",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“Children’s expression of this ‘freedom’ is important because …”",
+      "translation": "孩子表達這種「自由」很重要，原因是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, however, children’s discovery of sport has become very different.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而今天，孩子發現和接觸運動的方式已變得很不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By organising sport for children, and often deciding for them, we unfortunately create an imbalance preventing them from managing their own play/sports time, thus denying them the opportunity for the autonomy and independence that were possible in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們替孩子組織運動，並經常替他們作決定，這造成一種失衡，使他們不能管理自己的遊戲／運動時間，也剝奪了過去可能有的自主和獨立機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段直接說明「freedom」的價值：孩子能管理自己的時間，擁有 autonomy and independence。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “freedom” 和 “important because”。原文沒有直接說 “important because”，但用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“managing their own play/sports time”、“autonomy and independence” 說明原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“preventing them from managing their own play/sports time, thus denying them the opportunity for the autonomy and independence that were possible in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使他們不能管理自己的遊戲／運動時間，也剝奪了過去可能有的自主和獨立機會。"
+            },
+            {
+              "kind": "label",
+              "text": "C 選項說："
+            },
+            {
+              "kind": "quote",
+              "text": "“it puts them in charge of what they do and when they do it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它讓孩子自己掌控做甚麼，以及甚麼時候做。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “in charge of what they do” = “managing their own play/sports time”● “when they do it” = 管理自己的時間● “freedom” = autonomy and independence錯項分析： A “it allows them to be lazy”原文的 freedom 指自主和自我管理，不是懶散。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “it means they can learn to swim and ride a bike”原文有 bicycle races 和 swim in the river 的例子，但它們只是自由活動例子，不能概括 freedom的重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “it relieves the parents from transporting their children to sports”原文提到 parents take their children to sports grounds，但沒有說 freedom 的目的在於減輕父母接送負擔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — offering a range of different sports in each sports club.",
+      "answerKey": "B — offering a range of different sports in each sports club.",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“Ways of allowing children to develop this ‘freedom’ include …”",
+      "translation": "讓孩子發展這種「自由」的方法包括甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Measures that could reverse this imbalance include increasing the number of sports facilities which encourage self-organisation by the children, and also setting up unstructured playing areas with little in the way of equipment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能逆轉這種失衡的措施包括：增加能鼓勵孩子自我組織的運動設施，也設立設備很少的非結構化遊戲區。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children should be offered pre-school activities where they can discover different sports.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子應獲提供學前活動，讓他們能發現不同運動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見本段就是 solution paragraph，列出重建 freedom 的方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “ways”、“develop this freedom”。原文對應 “Measures that could reverse this imbalance” 和 “recreate this freedom”。選項 B 的 “range of different sports” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“multidisciplinary sports training”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Areas where street sport can be practised need to be established and sports clubs which offer multidisciplinary sports training should be supported.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應建立可進行街頭運動的區域，也應支持提供多學科／多項運動訓練的體育會。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“offering a range of different sports in each sports club.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在每個體育會提供一系列不同運動。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “a range of different sports” = “multidisciplinary sports training”● “sports club” = “sports clubs”● “ways of allowing children to develop freedom” = “Measures that could reverse this imbalance”錯項分析： A “making transport to sports clubs free”文章沒有提到免費交通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “offering sporting tuition to pre-school children”原文說 pre-school activities where children can discover different sports，重點是 discover different sports，不是 formal tuition。這個選項把 discovery 改成 tuition，語氣太成人化、太正式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “making children play outside regularly”文章希望增加場所和自由空間，但沒有說要強制孩子定期到戶外玩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — the opportunity to mix socially with their peers at sport.",
+      "answerKey": "D — the opportunity to mix socially with their peers at sport.",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“To encourage young children to continue with sport, we should give them …”",
+      "translation": "為了鼓勵年幼孩子繼續參與運動，我們應給他們甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why do very young children give up sport?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼很年幼的孩子會放棄運動？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is up to trainers, sports doctors and psychologists to implement the measures necessary to limit this excessive early practice of sport by children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訓練員、運動醫生和心理學家有責任實施必要措施，以限制兒童過度早期運動訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段專門解釋孩子為何離開 sport，以及成人應如何避免這種情況。Question 39 直接問如何encourage continue with sport，因此目標段落很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “continue with sport” 和 “young children”。原文對應 “leave a sport”、“primary school children’s main desire”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It should be remembered that primary school children’s main desire is to have fun and socialise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們應記住，小學生最主要的願望是玩得開心和社交。"
+            },
+            {
+              "kind": "label",
+              "text": "D 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“the opportunity to mix socially with their peers at sport.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在運動中與同伴社交的機會。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “young children” = “primary school children”● “mix socially with their peers” = “socialise”● “at sport” = sporting activities● “continue with sport” = avoid leaving sport / remain involved錯項分析： A “accurate feedback about their ability at sport”原文說 young children up to eleven or twelve cannot assess their own level of competence，而且對 criticism 很敏感。因此文章的方向是避免過度批評和負面評估，不是強調準確能力回饋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “experience of failure as well as success” Paragraph 9 提到 parents presence can prevent children from experiencing success and failure as their own，但 Question 39 問的是年幼孩子繼續 sport 的方法。Paragraph 8 的直接答案是 fun and socialise。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “experience of being reserves as well as first choice team members”原文剛好說 trainers should avoid strategies that discriminate against the child, for example naming first-choice players and reserves。這個選項方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — playing sport is an important part of children’s development.",
+      "answerKey": "B — playing sport is an important part of children’s development.",
+      "type": "Summary Completion 要先讀空格前後文法，判斷答案詞性、單複數和字數限制，再回原文找同",
+      "prompt": "“The author believes that …”",
+      "translation": "作者相信甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是全篇主旨題，要看文章最後結論，也要避免被局部批評誤導。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the children make the decisions, this ensures that they enjoy sport as children and are relaxed about their development as human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果由孩子作決定，這能確保他們以孩子的方式享受運動，並且對自己作為人的發展保持放鬆。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Playing sport is a source of learning, progress and pleasure—an additional way of enriching life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與運動是學習、進步和快樂的來源，也是豐富人生的另一種方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到作者的總結立場：運動本身非常有價值，前提是要讓孩子以合適方式參與，保留自由、樂趣和自我發現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “author believes”。這類題不靠一個人名，而是看 concluding paragraph 的價值判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 “source of learning, progress and pleasure”、“self-discovery”、“development as human beings” 都是高價值訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By acting as a route to self-discovery, sport gives children both the opportunity to know their limits and to acquire tools which will allow them to surpass them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為自我發現的途徑，運動給孩子機會去了解自己的限制，也讓他們獲得能夠超越這些限制的工具。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Playing sport is a source of learning, progress and pleasure—an additional way of enriching life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與運動是學習、進步和快樂的來源，也是豐富人生的另一種方式。"
+            },
+            {
+              "kind": "label",
+              "text": "B 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“playing sport is an important part of children’s development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與運動是兒童發展的重要部分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “development as human beings” = children’s development● “route to self-discovery” = 發展的一部分● “learning, progress and pleasure” = sport 對孩子成長有重要價值● “enriching life” = 增加人生發展和經驗錯項分析： A “children’s sport should not be organised by adults”作者批評過度組織和過早密集訓練，但文章也提到 sports facilities、sports clubs、pre-school activities、trainers、sports doctors and psychologists。作者主張的是平衡和尊重孩子發展，不是完全取消成人組織。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “children need to learn that sport is about losing as well as winning” Paragraph 9 提到 success and failure，但作者批評的是成人把 joy/sadness 綁死在victory/defeat 上。這不是全篇最合適主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “children can be psychologically and physiologically damaged by sport”文章確實提到 early intensive training 的 disadvantages 和 criticism 的負面影響，但作者沒有把sport 本身描寫成傷害來源。真正問題在過度控制、過早密集訓練和父母壓力。sport 本身在結論中被肯定為 learning、progress、pleasure 和 self-discovery 的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Kids and Sport.pdf",
+    "sha256": "b01f7a1a40e5d81cf2f464de6bbb5cc6c80c26cda7ee2a9d0336c5a66a42b7f9",
+    "pageCount": 19
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首尾句，第一段先引用 Vincenzo Marte 和 Giovanni Notarnicola，說兒童傳統上自發進行sport，例如爬樹、踩單車、比賽跑步，是一種 freedom、discovery and learning。段尾補充自由運動中，孩子會完全投入活動，例如長時間踢足球，之後再踩單車或游泳。這段功能是建立全文理想狀態：兒童運動本來應該自發、多樣、由孩子掌控，並帶來自由探索。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句以 today, however 轉折，指出今天孩子接觸 sport 的方式已大不同；尾句說成人替孩子組織和決定運動，會阻止他們管理自己的 play/sports time，也剝奪過去可能有的 autonomy and independence。這段功能是提出核心問題：現代兒童運動過度由父母和制度安排，導致自由和自主性下降。Questions 30 和 37 主要依靠這段。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說第一個 imbalance 可能與現代 urban society 有關；最後一句提出問題：在這些條件下，如何找回多樣而自發的 sport relationship？這段功能是解釋為何城市環境令兒童自發運動變困難。中間提到 clubs、outskirts of cities、overcrowded、enclosed、parks 和 recreational areas very few and far between。Question 31 的 sports grounds 直接出自這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說已有一些有趣答案，並會考慮重建這種 freedom 的需要；尾句說再早開始的 formal training 也不能取代這些 first experiences。這段功能是用 Marte and Notarnicola 的研究支持自由運動的價值。它指出曾經有自由運動經驗的孩子，在 12–13 歲加入 organised sport 時，被trainer 視為更有能力。這段為後面提出設施和活動改革做鋪墊。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說可逆轉失衡的措施包括增加讓孩子 self-organisation 的 sports facilities，以及建立equipment 很少的 unstructured playing areas；尾句說孩子應有 pre-school activities，讓他們發現不同 sports。這段功能是提出具體解決方法：更多自由運動空間、street sport areas、支援multidisciplinary sports training 的 clubs，以及讓學前兒童接觸不同運動。Question 38 主要在這段定位。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句說無論成人如何限制和控制 early intensive training，sport 對孩子仍然是 special discovery and learning；尾句說若過早引入 adult-style competitions，透過 sport 促進 balanced development 的條件便不再被尊重。這段功能是引出第二個 imbalance：孩子太早接受 intensive training，並在 organized framework 中只做 one specific sport。Questions 32 和 33 主要在這段。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句說 today, early intensive training 已非常普遍；最後一句說面對早期能力需求，需要safety net 來最大化好處、最小化壞處。這段功能是解釋為何早期密集訓練會被體育組織採用。中間提到 “golden age” for acquiring physical skills，尤其 skater 和 gymnast 若錯過這段時間，會大幅落後。這段補充 early intensive training 背後的理由與風險管理。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段首句問 very young children 為何放棄 sport；最後一句說 trainers、sports doctors 和psychologists 應實施措施，限制兒童過度早期練習 sport。這段功能是分析孩子退出運動的原因和教練應如何處理。中間提到 criticism、negative assessments、孩子無法準確評估 competence、對成人和同伴批評敏感，以及 primary school children 主要想 have fun and socialise。 Questions 34、35、39 都集中在此段。"
+      },
+      {
+        "number": "9",
+        "summary": "第九段首句指出第三個威脅 children and sport 的 imbalance 是 parental attitudes；尾句引用Martens，說若孩子把 joy and sadness 與 victory and defeat 畫上等號，責任完全在成人。這段功能是批評父母壓力：有些成人想透過孩子勝利得到 glory，parental pressure 也是孩子離開 sport的重要原因。Question 36 直接出自這段，亦可幫助排除 Question 40 的錯項。"
+      },
+      {
+        "number": "10",
+        "summary": "第十段首句說若由 children make the decisions，便能確保他們以兒童方式享受 sport，並對自己作為人的發展保持 relaxed；尾句總結 playing sport 是 learning、progress and pleasure 的來源，也是 enriching life 的方式。這段功能是全文總結：sport 應該幫助孩子 self-discovery、了解 limits、學會超越 limits，並成為成長的一部分。Question 40 的全篇主旨答案來自這段。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1890 @@
+{
+  "id": "p2-032-optimism-and-health",
+  "catalogueId": "p2-032",
+  "catalogueIds": [
+    "p2-032"
+  ],
+  "passage": 2,
+  "title": "Optimism and Health",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "seven",
+    "lung function",
+    "immune system",
+    "heart patients",
+    "C",
+    "A",
+    "E",
+    "F",
+    "D",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "NO",
+    "YES"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "seven",
+      "answerKey": "seven",
+      "type": "Summary Completion",
+      "prompt": "“A Yale University study found that optimism can add an average of 14 __________ years to a person’s life.”",
+      "translation": "一項 Yale University 研究發現，optimism 可以平均為一個人的壽命增加 __________ 年。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，答案要 NO MORE THAN TWO WORDS。空格前是 “an average of”，空格後是 “years”，所以答案應該是數字或數字文字。題目中的最強定位詞是 Yale University study 和 add an average of … years。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimists have something else to be cheerful about – in general, they are more robust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Optimists 還有另一件值得高興的事：一般來說，他們更強健。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Preliminary studies on heart patients suggest that, by changing a person’s outlook, you can reduce their mortality risk,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「關於心臟病人的初步研究顯示，透過改變一個人的 outlook，可以降低死亡風險。」只看首尾句，可以先估計 Paragraph 5 是 health benefits 段。第一句提出 optimists 更 robust；最後一句說 outlook 改變可能降低 mortality risk。Question 14 問 Yale study 和壽命年份，因此目標段落非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Yale University” 和 “average”。掃描 Paragraph 5，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, a study of 660 volunteers by the Yale University psychologist Dr. Becca Levy found that thinking positively adds an average of seven years to your life.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時出現 Yale University、study、average、years 和 life，因此值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, a study of 660 volunteers by the Yale University psychologist Dr. Becca Levy found that thinking positively adds an average of seven years to your life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Yale University 心理學家 Dr. Becca Levy 對 660 名志願者進行的研究發現，正面思考平均可為壽命增加七年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “a study of 660 volunteers by the Yale University psychologist Dr. Becca Levy”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "核心動詞是 “found”。真正答案短語是 “seven years”。題目已經提供 years，所以空格只需要填seven。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "optimism = thinking positively add an average of … years to a person’s life = adds an average of seven years to your life Yale University study = a study by Yale University psychologist Dr. Becca Levy答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“seven” 是一個字，符合 NO MORE THAN TWO WORDS。填入後句子是： optimism can add an average of seven years to a person’s life.文法完整，意思準確。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句還有 “660 volunteers”，很容易被數字吸引。但題目空格後是 years，所以要找壽命增加的年數，不是研究對象人數。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "lung function",
+      "answerKey": "lung function",
+      "type": "Summary Completion",
+      "prompt": "“A Harvard study suggests a biological basis: optimists have better 15 __________ because a positive outlook strengthens the 16 __________.”",
+      "translation": "Harvard study 提出一個生物學基礎：optimists 有更好的 __________，因為正面 outlook 會強化__________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Summary Completion，答案不超過兩個字。空格前是 “better”，所以答案需要一個名詞短語，表示 optimists 在身體上較好的某項功能。題目定位詞是 Harvard study 和 better。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimists have something else to be cheerful about – in general, they are more robust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Optimists 還有另一件值得高興的事：整體而言，他們更強健。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Preliminary studies on heart patients suggest that, by changing a person’s outlook, you can reduce their mortality risk,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「關於心臟病人的初步研究顯示，透過改變一個人的 outlook，可以降低死亡風險。」這段明顯集中在 optimism 對健康的影響。首句說 robust，後面會用研究證據支撐。題目問Harvard study，因此繼續在 Paragraph 5 中掃描 Harvard。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Harvard study”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A Harvard Medical School study of 670 men found that the optimists have significantly better lung function.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 Harvard、study、optimists、better，定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A Harvard Medical School study of 670 men found that the optimists have significantly better lung function.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harvard Medical School 一項針對 670 名男性的研究發現，optimists 的 lung function 明顯較好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子的主語是 “A Harvard Medical School study of 670 men”。核心動詞是 “found”。賓語從句中的核心是 “the optimists have significantly better lung function”。題目把 “significantly better” 簡化成 “better”，所以空格填原文名詞短語 lung function。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Harvard study = A Harvard Medical School study optimists have better ___ = optimists have significantly better lung function biological basis = physical mechanism / health mechanism behind optimism答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lung function” 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同句有 “670 men”，但這是研究樣本，不是 optimists 擁有較好的身體功能。空格前的 “better” 是文法提示，答案應是可被 better 修飾的名詞短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "immune system",
+      "answerKey": "immune system",
+      "type": "Summary Completion",
+      "prompt": "“…because a positive outlook strengthens the 16 __________.”",
+      "translation": "因為正面 outlook 會強化 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題和 Question 15 同段。空格前有 “the”，答案應是一個名詞短語。定位詞是 positive outlook和 strengthens，原文可能用 attitude / outlook，以及 strengthens。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimists have something else to be cheerful about – in general, they are more robust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Optimists 還有另一件值得高興的事：一般來說，他們更強健。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Preliminary studies on heart patients suggest that, by changing a person’s outlook, you can reduce their mortality risk,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「關於心臟病人的初步研究顯示，透過改變一個人的 outlook，可以降低死亡風險。」Paragraph 5 從 robust 講到 lung function，再講 outlook 和 mortality risk。題目中的 “positive outlook strengthens…” 應該來自 Harvard study 後面一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “positive outlook” 和 “strengthens”。原文中對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lead author, Dr. Rosalind Wright, believes that attitude somehow strengthens the immune system.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 positive outlook 改寫 attitude。strengthens 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lead author, Dr. Rosalind Wright, believes that attitude somehow strengthens the immune system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要作者 Dr. Rosalind Wright 相信，attitude 會以某種方式強化 immune system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Dr. Rosalind Wright。核心動詞是 believes。真正答案是 strengthens 的受詞：the immune system。題目空格前已經有 “the”，但答案可以保留原文名詞短語 “immune system”，填入後是 “the immune system”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "positive outlook = attitude strengthens = strengthens biological basis = attitude affects the immune system the immune system = immune system答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“immune system” 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “attitude”。attitude 是造成強化的因素；題目問被強化的是甚麼，所以答案應落在 immune system。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "heart patients",
+      "answerKey": "heart patients",
+      "type": "Summary Completion",
+      "prompt": "“A study of 17 __________ was cited as further evidence.”",
+      "translation": "一項關於 __________ 的研究被引用為進一步證據。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，空格前是 “A study of”，所以答案需要一個研究對象名詞短語。題目中的 “further evidence” 指的是 Paragraph 5 最後一句的 preliminary studies。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimists have something else to be cheerful about – in general, they are more robust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Optimists 還有另一件值得高興的事：整體而言，他們更強健。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Preliminary studies on heart patients suggest that, by changing a person’s outlook, you can reduce their mortality risk,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「關於 heart patients 的初步研究顯示，透過改變一個人的 outlook，可以降低死亡風險。」只看最後一句，已經可以看到 study 對象是 heart patients。題目用 “A study of…” 概括"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Preliminary studies on…”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “study of” 和 “further evidence”。原文最後一句有 “Preliminary studies on heart patients”。雖然題目是單數 “A study”，原文是複數 “studies”，但 Summary 可以把研究證據概括成一項研究類型。真正答案是研究對象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“‘Preliminary studies on heart patients suggest that, by changing a person’s outlook, you can reduce their mortality risk,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「關於心臟病人的初步研究顯示，透過改變一個人的 outlook，可以降低他們的死亡風險。」這句的 “on heart patients” 表示研究對象。題目 “A study of ___” 改寫原文 “studies on ___”。所以答案是 heart patients。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A study of = studies on further evidence = suggest that changing outlook reduces mortality risk heart patients = heart patients答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“heart patients” 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “mortality risk”。這是研究發現的結果，不是研究對象。空格前的 “study of” 明確提示要填人群。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "C — optimism is advantageous to human evolution.",
+      "answerKey": "C — optimism is advantageous to human evolution.",
+      "type": "Sentence Endings",
+      "prompt": "“Brice Pitt believes…”",
+      "translation": "Brice Pitt 相信……選項 C：“optimism is advantageous to human evolution.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "optimism 對人類演化有利。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Faced with 12 months of a plummeting economy and rising human distress, staunchly maintaining a rosy view might seem deludedly Pollyannaish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對 12 個月的經濟急跌和人類痛苦增加，堅定保持樂觀看法可能看似天真到近乎自欺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimism is a piece of evolutionary equipment that carried us through millennia of setbacks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Optimism 是一件 evolutionary equipment，幫助我們度過數千年的 setbacks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 在處理 optimism paradox：樂觀看似不現實，但從演化角度看，它幫助人類面對長期挫折。Brice Pitt 的名字也出現在本段中間，所以目標段落清晰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目最強定位詞是 “Brice Pitt”。原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Brice Pitt, an emeritus professor of the psychiatry of old age at Imperial College, London, told me…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "找到人名後，要讀完整引號內容，因為 Matching Features 要分清人物觀點，而非作者概括。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimists are unrealistic. Depressive people see things as they really are, but that is a disadvantage from an evolutionary point of view. Optimism is a piece of evolutionary equipment that carried us through millennia of setbacks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimists are unrealistic.” 樂觀者不完全現實。“Depressive people see things as they really are, but that is a disadvantage from an evolutionary point of view.” 抑鬱的人看到事情真實樣貌，但從演化角度看，這是一種劣勢。“Optimism is a piece of evolutionary equipment that carried us through millennia of setbacks.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂觀是幫助人類度過數千年挫折的一種演化工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的重點在最後一句。Brice Pitt 承認 optimists unrealistic，但他真正評價 optimism 時，把它稱為 evolutionary equipment。這表示 optimism 在人類長期生存和演化上有功能和好處。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "advantageous to human evolution = carried us through millennia of setbacks / evolutionary equipment Brice Pitt believes = Brice Pitt told me optimism = optimism答案判斷：選項 C 最準確。選項 B “optimists tend to be unrealistic about human evolution” 把 unrealistic 和human evolution 混在一起。原文說 optimists are unrealistic，並另外說 optimism 在演化上有用； B 的關係不準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "A — material wealth does not necessarily create happiness.",
+      "answerKey": "A — material wealth does not necessarily create happiness.",
+      "type": "Sentence Endings",
+      "prompt": "“Research at the Henley Centre finds…”",
+      "translation": "Henley Centre 的研究發現……選項 A：“material wealth does not necessarily create happiness.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "物質財富不一定帶來幸福或富足感。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies also show that belief can help with the financial pinch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究也顯示，belief 可以幫助人應對財務壓力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their attitudes and behaviour patterns, however, are different from one another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，他們的態度和行為模式彼此不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 講財務壓力和主觀信念。它不是單純比較收入，而是比較人如何感覺自己富有或貧窮。Henley Centre 和 Chad Wallens 的研究位於這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Henley Centre”。原文寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chad Wallens, a social forecaster at the Henley Centre who surveyed middle-class Britons’ beliefs about income…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "找到 Henley Centre 後，要看 Chad Wallens 的 quote，因為選項會概括研究結論。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the people who feel wealthiest, and those who feel poorest, actually have almost the same amount of money at their disposal. Their attitudes and behaviour patterns, however, are different from one another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些覺得自己最富有的人，以及那些覺得自己最貧窮的人，實際上可支配的金錢幾乎一樣。然而，他們的態度和行為模式彼此不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點是：實際金錢數量相近，但主觀感受差距很大。題目選項 A 用 “material wealth does not necessarily create happiness” 作概括。雖然原文沒有直接用 happiness，但 “feel wealthiest /feel poorest” 指的是主觀富足感和生活感受，與物質金錢不完全同步。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "material wealth = amount of money at their disposal does not necessarily create happiness = people with almost the same money can feel wealthiest or poorest research finds = surveyed beliefs about income / has found答案判斷： A 是最合適答案。它概括了 Henley Centre 研究的核心：金錢數量相近，感受和行為卻不同。H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“an optimistic outlook is a habit” 屬於 Martin Seligman 段落，不屬於 Henley Centre。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要留意 “feel wealthiest / feel poorest”。原文談的是主觀財富感，不是銀行戶口絕對數字。選項 A 用 material wealth 和 happiness 概括，雖然不是逐字重現，但方向貼近。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "E — levels of optimism vary by gender.",
+      "answerKey": "E — levels of optimism vary by gender.",
+      "type": "Sentence Endings",
+      "prompt": "“The Adweek survey finds…”",
+      "translation": "Adweek survey 發現……選項 E：“levels of optimism vary by gender.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "optimism 水平會因性別而有所不同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few studies have tried to ascertain the proportion of optimists in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少研究嘗試確定世界上 optimists 的比例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But a 1995 nationwide survey conducted by the American magazine Adweek found that about half the population counted themselves as optimists, with women slightly more apt than men (53 per cent versus 48 per cent) to see the sunny side.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但美國雜誌 Adweek 在 1995 年進行的一項全國調查發現，約半數人口自認為 optimists，而女性比男性略更容易看到光明面，比例為 53% 對 48%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段很短，最後一句直接提供 Adweek survey 的結果。題目問 Adweek survey，目標位置非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Adweek survey”。原文直接有 “a 1995 nationwide survey conducted by the American magazine Adweek”。接著要看它 found 的內容，尤其是 women versus men 的百分比。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adweek found that about half the population counted themselves as optimists, with women slightly more apt than men (53 per cent versus 48 per cent) to see the sunny side.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Adweek 發現，約半數人口自認為 optimists；女性比男性略更容易看到光明面，比例是 53% 對48%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩層資料：第一，約半數人口自認 optimists；第二，女性和男性比例不同。選項 E 對應第二層：levels of optimism vary by gender。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vary by gender = women slightly more apt than men levels of optimism = counted themselves as optimists / see the sunny side Adweek survey finds = Adweek found答案判斷： E 正確。這題不是問「有多少人是 optimists」的具體比例，而是問哪個 sentence ending 能接上Adweek survey。E 把 53% versus 48% 的差異概括成 gender variation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求填 53% 或 48%。看到數字時，要判斷它們在選項中如何被概括。這裡數字服務於"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“vary by gender”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "F — a good sense of humour supports flexibility.",
+      "answerKey": "F — a good sense of humour supports flexibility.",
+      "type": "Sentence Endings",
+      "prompt": "“The Annual Review of Clinical Psychology reports…”",
+      "translation": "Annual Review of Clinical Psychology 報告指出……選項 F：“a good sense of humour supports flexibility.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "良好的幽默感有助保持靈活態度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimism is one of the central traits required in building resilience, say Yale University investigators in the Annual Review of Clinical Psychology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Yale University 研究者在 Annual Review of Clinical Psychology 中表示，optimism 是 building resilience 所需的核心特質之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ability to accept your lot with equanimity also plays an important role, the study adds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該研究補充說，以平靜心態接受自己的處境也扮演重要角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 9 講 resilience 的心理特質，包括 optimism 和 equanimity。中間句提到humour 和 flexible attitude，正是 Question 21 的重點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Annual Review of Clinical Psychology”。找到段落後，掃描選項關鍵詞 “humour” 和"
+            },
+            {
+              "kind": "quote",
+              "text": "“flexibility”。原文有：“They add that resilient people learn to hold on to their sense of humour and this can help them to keep a flexible attitude when big changes of plan are warranted.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接連接 humour 和 flexibility。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They add that resilient people learn to hold on to their sense of humour and this can help them to keep a flexible attitude when big changes of plan are warranted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們補充說，resilient people 會學會保持幽默感，而這可以幫助他們在需要大幅改變計劃時，保持靈活態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “They” 指前一句的 Yale University investigators。核心內容是：sense of humour helps keep a flexible attitude。選項 F 用更簡潔方式表達同一點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a good sense of humour = hold on to their sense of humour supports flexibility = help them to keep a flexible attitude Annual Review reports = investigators in Annual Review say / add答案判斷： F 是最直接答案。G “equanimity under stress helps build resilience” 也和同段最後一句有關，但選項 G 加入 “under stress” 和 “helps build resilience” 的概括距離較遠；F 幾乎逐字連接 humour和 flexible attitude，因此更穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "D — adversity fosters resilience.",
+      "answerKey": "D — adversity fosters resilience.",
+      "type": "Sentence Endings",
+      "prompt": "“Steven Stack reports…”",
+      "translation": "Steven Stack 報告指出……選項 D：“adversity fosters resilience.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逆境能培養 resilience。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sociologist Steven Stack reports that one of the best ways to acquire resilience is by experiencing a difficult childhood in the Journal of Social Psychology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會學家 Steven Stack 在 Journal of Social Psychology 中報告說，獲得 resilience 的最佳方法之一，是經歷 difficult childhood。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, those who enjoyed adversity-free youths can get derailed by setbacks later on because they’ve never been inoculated against aggro.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，那些年少時沒有逆境的人，後來遇到 setbacks 時可能會失控，因為他們從未對衝突和壓力產生心理免疫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經清楚顯示段落功能：difficult childhood / adversity 可以建立心理防禦，缺少 adversity會令後來 setbacks 更難承受。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Steven Stack”。原文第一句直接出現。接著看他 reports 的內容：“one of the best ways to acquire resilience is by experiencing a difficult childhood”。選項 D 的 adversity 對應 difficult childhood、bullies、mickey-taking、aggro。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sociologist Steven Stack reports that one of the best ways to acquire resilience is by experiencing a difficult childhood in the Journal of Social Psychology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會學家 Steven Stack 報告說，獲得 resilience 的最佳方法之一，是經歷艱難童年。"
+            },
+            {
+              "kind": "label",
+              "text": "後文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“short men are less likely to commit suicide than tall guys, he says, because shorties develop psychological defence skills to handle the bullies and mickey-taking that their lack of stature attracts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，矮個男性比高個男性更不容易自殺，因為矮個男性會發展心理防禦技巧，去應付因身高不足而引來的欺凌和取笑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子把 adversity 和 resilience 連起來。選項 D 的 “fosters” 意思是促進、培養。原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“acquire resilience” 和 “develop psychological defence skills” 支持這個概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "adversity = difficult childhood / bullies and mickey-taking / aggro fosters resilience = acquire resilience / develop psychological defence skills Steven Stack reports = The sociologist Steven Stack reports答案判斷： D 正確。這題的真正控制詞是 difficult childhood 和 acquire resilience。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The health benefits of optimism have long been known.”",
+      "translation": "optimism 對健康的好處早已為人所知。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有兩個核心： 1. optimism 有 health benefits； 2. 這些 health benefits have long been known，即很早已被知道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文若只提健康好處，仍不足以支持 “long been known”。要找時間長度或早已知道的證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimists have something else to be cheerful about – in general, they are more robust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Optimists 還有另一件值得高興的事：一般來說，他們更強健。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Preliminary studies on heart patients suggest that, by changing a person’s outlook, you can reduce their mortality risk,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「關於心臟病人的初步研究顯示，透過改變一個人的 outlook，可以降低死亡風險。」只看首尾句，可以先估計 Paragraph 5 一定講 health benefits。但最後一句用 “Preliminary studies” 這種語氣，重點是研究正在提出或初步支持某些健康關聯，未見 “long been known”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “health benefits” 和 “long been known”。原文相關句包括：● “thinking positively adds an average of seven years to your life”● “better lung function”● “strengthens the immune system”● “Preliminary studies on heart patients suggest…”但原文沒有 “long known”、“for many years”、“well established”、“known for decades” 等時間證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other American research claims to have identified a physical mechanism behind this.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他美國研究聲稱已經找到這背後的一種 physical mechanism。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Preliminary studies on heart patients suggest that, by changing a person’s outlook, you can reduce their mortality risk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於心臟病人的初步研究顯示，改變 outlook 可能降低死亡風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 optimism 和 health 有關，但它使用 “claims to have identified” 和 “Preliminary studies suggest”。這些詞展示研究證據，但沒有說這些健康好處早已為人所知。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：health benefits of optimism動作：have long been known時間程度：long原文命題：主體：studies on optimism and health動作：found / claims / suggest時間程度：沒有說 long known比較結果：原文支援「有健康好處的研究證據」，但缺少「早已知道」這個時間判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 NOT GIVEN。這題不能選 NO，因為原文也沒有說 health benefits 是最近才知道，或過去完全不知道。它只是沒有交代 “long been known” 這個時間資訊。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 Yale study、Harvard study、heart patients studies，就以為 health benefits 很明確，因此選 YES。細讀時要看題目真正多加了 long been known。文章有健康證據，仍沒有提供「早已為人所知」這個結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Optimists have better relationships with people than pessimists.”",
+      "translation": "optimists 和人的關係比 pessimists 更好。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求比較：optimists vs pessimists，並且比較內容是 relationships with people。要選 YES，原文必須支持「樂觀者的人際關係較悲觀者好」。只提到 optimists 在工作或壓力上表現較好，不等於人際關係較好。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看可能段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落：Paragraph 3、Paragraph 12、Paragraph 13 Paragraph 3 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Optimists have plenty to be happy about.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Optimists 有很多值得高興的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The research shows that when times get tough, optimists do better than pessimists – they are more successful at work, respond better to stress, suffer fewer depressive episodes, and achieve more personal goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，當時勢艱難時，optimists 比 pessimists 表現更好：他們工作更成功、對壓力反應更好、較少出現抑鬱 episodes，並達成更多個人目標。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 12 唯一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And despite being thick-skinned, resilient types are also more open than average to other people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 resilient types 厚臉皮、抗打擊，他們也比一般人更 open to other people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句或單句，可以看到原文有兩類相關背景：optimists vs pessimists 的表現比較，以及resilient people 對他人的 openness。但題目要求把 optimism、pessimism 和 relationships 三者直接比較，仍要小心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “optimists”、“pessimists”、“relationships”。Paragraph 3 有 optimists 和 pessimists，但沒有 relationships。Paragraph 12 有 open to other people，但主語是 resilient types，不是optimists；比較對象是 average，不是 pessimists。Paragraph 13 有 “being confident that people will like you”，但也沒有比較 optimists 和 pessimists 的 relationships。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的句子一："
+            },
+            {
+              "kind": "quote",
+              "text": "“optimists do better than pessimists – they are more successful at work, respond better to stress, suffer fewer depressive episodes, and achieve more personal goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "optimists 比 pessimists 表現更好：工作更成功、壓力反應更好、抑鬱發作較少、達成更多個人目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的比較項目包括 work、stress、depressive episodes、personal goals。沒有 relationships。"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的句子二："
+            },
+            {
+              "kind": "quote",
+              "text": "“resilient types are also more open than average to other people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "resilient types 也比一般人更願意向他人開放。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句講的是 resilient types，不是 optimists；比較對象是 average，不是 pessimists；內容是openness，不是 relationships quality。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：optimists比較對象：pessimists比較內容：better relationships with people原文有： optimists vs pessimists：有，但比較內容不是 relationships。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "resilient types vs average：有，但主體不是 optimists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "people will like you / smiling / warm：有，但未建立 relationships 比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 NOT GIVEN。文章提供相關概念，但沒有足夠資料判斷 optimists 的人際關係是否比pessimists 更好。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 13 的 “being confident that people will like you” 和 “being warm to people” 很容易令人想選 YES。可是這只是建議 optimistic risk-taking 的做法，並沒有說 optimists 已經擁有更好的人際關係，也沒有和 pessimists 比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“People who had happy childhoods may be unable to practise optimism.”",
+      "translation": "童年幸福的人可能無法練習 optimism。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 writer’s claim。主體是 people who had happy childhoods，動作是 may be unable to practise optimism。題目用了 may，看似保守，但原文若明確說這些人可以透過 practising proactive optimism 變得更 resilient，就和題目方向相衝。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 11第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you are handicapped by having had a happy childhood, then practising proactive optimism can help you to become more resilient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你因為有過 happy childhood 而處於不利位置，那麼 practising proactive optimism 可以幫助你變得更有 resilience。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies of resilient people show that they take more risks; they court failure and learn not to fear it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 resilient people 的研究顯示，他們會承擔更多風險；他們會主動接近失敗，並學會不害怕失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，答案方向已經很清楚：有 happy childhood 的人可以 practising proactive optimism，而且這樣可以幫助建立 resilience。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “happy childhoods” 和 “practise optimism”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you are handicapped by having had a happy childhood, then practising proactive optimism can help you to become more resilient.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “had happy childhoods” 對應 “having had a happy childhood”。“practise optimism” 對應 “practising proactive optimism”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you are handicapped by having had a happy childhood, then practising proactive optimism can help you to become more resilient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "假如你因為有過幸福童年而處於不利位置，那麼練習 proactive optimism 可以幫助你變得更有韌性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有條件句： If you are handicapped by having had a happy childhood = 即使你因幸福童年而缺少逆境訓練then practising proactive optimism can help = 你仍可透過練習主動樂觀來改善 resilience題目說這些人 “may be unable to practise optimism”。原文使用 “practising proactive optimism can help you”，表示 writer 認為這條路可行。題目把可行方法說成可能無法做到，方向衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "people who had happy childhoods = having had a happy childhood practise optimism = practising proactive optimism may be unable = cannot / may not be able原文 = can help you to become more resilient答案判斷：答案是 NO。原文不是沉默；它明確提出 practising proactive optimism 作為 happy childhood 的補救方法。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “may” 會降低語氣，看起來像安全說法。但只要原文直接說 “can help”，就足以反駁"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unable to practise” 的方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Resilient people are often both open and thick-skinned.”",
+      "translation": "resilient people 通常既 open，又 thick-skinned。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 writer 是否認為 resilient people 兼具兩項特質：open 和 thick-skinned。定位詞非常明確：resilient people / open / thick-skinned。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句，也是全段唯一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And despite being thick-skinned, resilient types are also more open than average to other people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 resilient types 厚臉皮、抗打擊，他們也比一般人更願意向他人開放。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Paragraph 12 只有一句，Skim 和 Read 的核心都會落在同一句。這句同時出現thick-skinned、resilient types、open 和 other people，與題目幾乎完全重合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Resilient people”、“open”、“thick-skinned”。原文對應：● resilient people = resilient types● open = more open than average to other people● thick-skinned = thick-skinned這是高度直接的定位，不需要跨段。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And despite being thick-skinned, resilient types are also more open than average to other people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 resilient types 很抗打擊，他們也比一般人更願意向他人開放。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的結構很重要。 “despite being thick-skinned” 表示先承認 resilient types 有 thick-skinned 的特點；“also more open than average to other people” 再補充他們也有 openness。also 是關鍵，表示兩種特質可以同時存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “both open and thick-skinned”。原文用 “despite being thick-skinned” 加 “also more open”表達同一組合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Resilient people = resilient types both open and thick-skinned = despite being thick-skinned, also more open open = more open than average to other people thick-skinned = thick-skinned答案判斷：答案是 YES。題目用 “often” 稍作概括，原文用 “resilient types are…” 表示這是一類人的典型特徵，足以支持。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“thick-skinned” 有時帶負面感，好像冷漠或不易受傷；但原文說 resilient types 在抗打擊的同時，也更 open to other people。這裡要看 “also”，它把兩個特質放在同一人群身上。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Optimism and Health.pdf",
+    "sha256": "03728886619411f489bed22660a02a98ead512624bab703e97ac25b677a5ed71",
+    "pageCount": 26
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 “Mindset is all”，直接把全文焦點放在心態上。末句補充，即使 optimism 和 resilience 看似不足，兩者其實都能顯著提升。只看首尾句，可以估計本段是全文引入：它提出新一年如何開始會影響後續，並把 optimism 和 resilience 設定為兩個核心性格特質。後文應會分別說明optimism 的好處、resilience 的定義，以及兩者如何被培養。"
+      },
+      {
+        "number": "2",
+        "summary": "首句指出，在經濟下滑和人類痛苦增加的一年中，保持樂觀看似天真。末句引用 Brice Pitt，說optimism 是一種幫助人類度過挫折的 evolutionary equipment。初步來看，本段主題是 optimism paradox：樂觀者或許不完全現實，但從演化角度看，這種不完全現實反而有生存價值。Question 18 的 Brice Pitt 會定位到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 optimists 有很多值得高興的地方。末句總結 research：困難時期，optimists 在工作、壓力、抑鬱發作和個人目標方面都比 pessimists 表現更好。只看首尾句，可以估計本段說明optimism 的實際心理和行為優勢。中間引用 Martin Seligman，把 optimism 解釋為一種解釋setback 的 habitual way。選項 H 會和本段有關，但題目沒有直接問 Seligman。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 belief 也能幫助人面對 financial pinch。末句引用 Chad Wallens，指出自覺最富和最窮的人手上可用金錢差不多，但態度和行為模式不同。這段大概處理 optimism / belief 和財務壓力之間的關係。它不是說金錢完全不重要，而是指出主觀財富感和客觀可支配金錢之間並不完全一致。Question 19 會定位到 Henley Centre。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 optimists 還有另一件值得開心的事：整體而言，他們更 robust。末句引用 Rosalind Wright，說改變 outlook 可能降低 heart patients 的 mortality risk。初步來看，本段集中講 optimism 和health：Yale study 說正面思考增加壽命，Harvard study 說樂觀者 lung function 較好，並提出immune system 作可能機制。Questions 14–17 的 summary 主要來自此段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說很少研究嘗試確定世界上 optimists 的比例。末句說 Adweek survey 發現約半數人口自認為 optimists，女性比男性更容易看到 sunny side。只看首尾句，可以估計本段處理 optimism 的人口比例和性別差異。Question 20 會定位到 Adweek survey，答案重點在 53 per cent versus 48 per cent 的 gender difference。"
+      },
+      {
+        "number": "7",
+        "summary": "首句承認 optimism 不能保證你避開經濟危機最差影響，但最佳策略仍是 keep smiling。末句說成功人士會從失敗中站起來、學習並走向下一個機會。這段由 optimism 轉向 resilience：困境可以塑造性格，但前提是人有 resilience skills。中間的 tycoons and business leaders 例子說明成功道路常有 sackings、bankruptcies 和 harsh criticism。"
+      },
+      {
+        "number": "8",
+        "summary": "首句也是全段核心：American Psychological Association 把 resilience 定義為面對 adversity、trauma 或 tragedy 時的適應能力。末句說 resilient person 可能經歷 difficulty and uncertainty，但會 doggedly bounce back。此段是 definition 段，建立 resilience 的基本意思：不是完全避免痛苦，而是在困難後能夠回彈、恢復和繼續前進。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Yale University investigators 在 Annual Review of Clinical Psychology 中指出，optimism是 building resilience 的核心特質之一。末句說，以 equanimity 接受自己的處境也很重要。初步來看，本段講 resilience 的組成因素：optimism、sense of humour、flexible attitude 和 equanimity。 Question 21 會定位到這段，尤其是 humour 和 flexible attitude 的直接連接。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 Steven Stack 在 Journal of Social Psychology 中指出，獲得 resilience 的最佳方法之一，是經歷 difficult childhood。末句說，沒有經歷逆境的年輕時期可能令人在後來遇上 setbacks 時失控，因為未曾被 inoculated against aggro。這段主題是 adversity 如何訓練心理防禦力。Question 22 會定位到 Stack 的觀點。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說，如果你因 happy childhood 而處於不利位置，practising proactive optimism 可以幫你更有 resilience。末句說 resilient people 會 take more risks、court failure，並學會不怕失敗。此段很短，但對 Question 25 很重要：文章沒有說 happy childhood 令人不能練習 optimism；相反，它提出 proactive optimism 作補救方法。"
+      },
+      {
+        "number": "12",
+        "summary": "首句也是全段唯一句：儘管 resilient types 厚臉皮、抗打擊，他們也比一般人更 open to other people。這句同時包含 thick-skinned 和 open，直接支援 Question 26。它也把 resilience 從單純「忍受打擊」擴展到 social openness：能承受 knockbacks，同時仍願意接觸他人。"
+      },
+      {
+        "number": "13",
+        "summary": "首句說這關乎 optimistic risk-taking，即相信 people will like you。末句說 hard times can bring out the best in you。只看首尾句，可以估計全文結尾把 optimism、resilience 和人際行動結合起來：微笑、溫暖待人、主動冒險，都可以在困難時期強化自己。這段是整體收束，語氣正面，強調艱難環境也可以激發人的優點。"
+      }
+    ]
+  }
+}

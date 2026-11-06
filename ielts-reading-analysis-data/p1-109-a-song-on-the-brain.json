@@ -1,0 +1,1935 @@
+{
+  "id": "p1-109-a-song-on-the-brain",
+  "catalogueId": "p1-109",
+  "catalogueIds": [
+    "p1-109"
+  ],
+  "passage": 1,
+  "title": "A song on the brain",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "A",
+    "D",
+    "E",
+    "D",
+    "F",
+    "B",
+    "I",
+    "G",
+    "E",
+    "D",
+    "A",
+    "F"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B — cannot decide what information it needs to retain.",
+      "answerKey": "B — cannot decide what information it needs to retain.",
+      "type": "Multiple Choice",
+      "prompt": "Question 1",
+      "translation": "作者說 song-in-head syndrome 可能出現，是因為大腦怎樣？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“The writer says that ‘song-in-head syndrome’ may occur because the brain…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But why does the mind annoy us like this?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，為甚麼大腦會這樣煩擾我們？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roger Chaffin, a psychologist at the University of Connecticut, says, ‘It’s a manifestation of an aspect of memory which is normally an asset to us, but in this instance it can be a nuisance.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "康涅狄格大學心理學家 Roger Chaffin 說，這是記憶某一面向的表現；這種記憶能力平常對我們有益，但在這種情況下會變成麻煩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的功能已很清楚：它在回答「為何歌會卡在腦中」這個原因題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“may occur”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because the brain”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B，可找到真正原因句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one knows for sure, but it’s probably because the brain is better at holding onto information than it is at knowing what information is important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人確切知道原因，但這很可能是因為大腦比較擅長保存資訊，卻不太擅長知道哪些資訊重要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩層意思：第一，大腦很會 “holding onto information”，即保存資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，大腦較弱的是 “knowing what information is important”，即判斷哪些資訊重要。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot decide what information it needs to retain”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不能決定需要保留哪些資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文 “better at holding onto information than … knowing what information is important”。大腦把資訊留住，但未能有效篩選重要性，於是無關緊要的旋律也被保存並反覆出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “confuses two different types of memory”原文沒有說兩種記憶被混淆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “has been damaged by harmful input”原文沒有 brain damage 或 harmful input。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “cannot hold onto all the information it processes”方向相反。原文說大腦很擅長 holding onto information，問題在於篩選重要性不足。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cannot decide what information it needs to retain= not good at knowing what information is important所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A — it is simple and unoriginal.",
+      "answerKey": "A — it is simple and unoriginal.",
+      "type": "Multiple Choice",
+      "prompt": "Question 2",
+      "translation": "一段旋律在甚麼情況下更容易留在腦中？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“A tune is more likely to stay in your head if…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This eager acquisitiveness of the brain may have helped our ancestors remember important information in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大腦這種積極吸收資訊的能力，過去可能幫助我們的祖先記住重要資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, superficial, repetitive pop tunes are, by their very nature, more likely to stick than something more inventive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不幸的是，膚淺、重複的流行曲由於本質如此，比更有創意的音樂更容易黏在腦中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講記憶能力原本有用，末句轉到哪類音樂最容易黏住。Question 2 問 tune 容易留在腦中的條件，所以 Paragraph C 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“tune”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more likely to stay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文的對應詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“more likely to stick”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案句就是 Paragraph C 最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“superficial, repetitive pop tunes”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "膚淺、重複的流行曲。"
+            },
+            {
+              "kind": "quote",
+              "text": "“more likely to stick”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更容易黏住；更容易停留在腦中。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is simple and unoriginal”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它簡單，而且缺乏原創性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是對 “superficial, repetitive” 的概括。superficial 對應 simple / shallow；repetitive 和 “something more inventive” 的反面，支持 unoriginal。原文還補充 “by their very nature”，表示這類旋律本身的性質就容易令人記住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： B “you have musical training”文章提到 musicians rely on memory to memorise complicated pieces，但沒有說受過音樂訓練的人更容易被 tune 纏住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “it is part of your culture”全文沒有把文化歸屬作為旋律黏住的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “you have a good memory” Paragraph C 說大腦的記憶功能普遍存在，沒有把個人好記性列為條件。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "simple and unoriginal= superficial and repetitive more likely to stay in your head= more likely to stick所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D — remembered a tune they had heard previously.",
+      "answerKey": "D — remembered a tune they had heard previously.",
+      "type": "Multiple Choice",
+      "prompt": "Question 3",
+      "translation": "Robert Zatorre 發現，志願者在做甚麼時，auditory cortex 的某一部分被啟動？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Robert Zatorre found that a part of the auditory cortex was activated when volunteers…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The annoying playback probably originates in the auditory cortex.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種惱人的腦內播放很可能源自 auditory cortex，即聽覺皮層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brain imaging studies showed that this activated the same region of the auditory cortex as when the people actually heard the song.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "腦影像研究顯示，這會啟動 auditory cortex 中同一個區域，和人們實際聽到歌曲時啟動的區域相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 明顯是神經科學實驗段，重點是 auditory cortex 和腦中重播音樂。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞非常強："
+            },
+            {
+              "kind": "quote",
+              "text": "“Robert Zatorre”"
+            },
+            {
+              "kind": "quote",
+              "text": "“auditory cortex”"
+            },
+            {
+              "kind": "quote",
+              "text": "“activated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文寫道："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neuroscientist Robert Zatorre of McGill University in Montreal proved this some years ago when he asked volunteers to replay the theme from the TV show Dallas in their heads.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蒙特利爾 McGill University 的神經科學家 Robert Zatorre 幾年前證明了這一點；他請志願者在腦中重播電視劇 Dallas 的主題曲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵動作是："
+            },
+            {
+              "kind": "quote",
+              "text": "“replay the theme … in their heads”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在腦中重播那段主題曲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示志願者不是當場聽音樂，也不是學樂器，而是在腦中回想／重播一段他們曾聽過的旋律。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“remembered a tune they had heard previously”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "記起一段他們先前聽過的旋律。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是最精準的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “listened to certain types of music”原文的比較句提到 “actually heard the song”，但實驗重點是 volunteers replayed the theme in their heads。A 把對照情況當成主要動作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “learned to play a tune on an instrument”原文沒有樂器學習。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “replayed a piece of music after several years” some years ago 指 Zatorre 做實驗的時間，不表示志願者多年後才重播歌曲。這是時間修飾對象的中伏位。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "remembered a tune= replayed the theme in their heads had heard previously= 能在腦中重播，表示早前已接觸該旋律所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "E — Sandra Calvert",
+      "answerKey": "E — Sandra Calvert",
+      "type": "Matching Theories with",
+      "prompt": "Question 4",
+      "translation": "某些旋律容易被記住這一特性，可以幫助其他學習過程。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目理論："
+            },
+            {
+              "kind": "quote",
+              "text": "“The memorable nature of some tunes can help other learning processes.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But this ability can be useful as well as annoying.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這種能力除了惱人，也可以有用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, in one experiment students who heard a history text set as the lyrics to a catchy song remembered the words better than those who simply read them, says Sandra Calvert, a psychologist at Georgetown University in Washington DC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，華盛頓 Georgetown University 的心理學家 Sandra Calvert 說，在一項實驗中，聽到歷史文本被改寫成 catchy song 歌詞的學生，比單純閱讀文本的學生更能記住文字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說此能力有用，末句給出學習實驗，所以這段很可能回答 Question 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“memorable nature”"
+            },
+            {
+              "kind": "quote",
+              "text": "“help other learning processes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“memory reinforcement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“setting their lessons to music”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remembered the words better”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Teachers can tap into memory reinforcement by setting their lessons to music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "教師可以把課堂內容配上音樂，利用記憶強化效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著 Sandra Calvert 的實驗說，學生聽到歷史文本作為 catchy song 的歌詞時，記得比單純閱讀更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好支持題目：音樂容易記住的特質，能幫助學習其他材料，例如 history text。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物配對： Sandra Calvert = 關於 catchy song 幫助學生記住 history text 的實驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D — Caroline Palmer",
+      "answerKey": "D — Caroline Palmer",
+      "type": "Matching Theories with",
+      "prompt": "Question 5",
+      "translation": "音樂在記憶中未必總是以一個個分開音符的形式儲存。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目理論："
+            },
+            {
+              "kind": "quote",
+              "text": "“Music may not always be stored in the memory in the form of separate notes.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brown’s experience of repeated musical loops may represent a phenomenon called ‘chunking’, in which people remember musical phrases as a single unit of memory, says Caroline Palmer, a psychologist at Ohio State University in Columbus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ohio State University 的心理學家 Caroline Palmer 說，Brown 的重複音樂循環經驗，可能代表一種叫 “chunking” 的現象；在這種現象中，人們會把音樂片語作為單一記憶單位來記住。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s why you’re more likely to be haunted by the tunes of pop music than by those of a classical composer such as J. S. Bach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是為甚麼你更可能被流行曲旋律纏住，而不是被 J. S. Bach 這類古典作曲家的旋律纏住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接出現 Caroline Palmer 和 chunking，是 Question 5 的核心段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有直接說 “chunking”，但 “not always stored … separate notes” 可預期對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“musical phrases”"
+            },
+            {
+              "kind": "quote",
+              "text": "“single unit of memory”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“people remember musical phrases as a single unit of memory”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們把音樂片語當成一個單一記憶單位來記住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說音樂未必以 separate notes 儲存。原文說人們會把 musical phrases 作為 single unit 記住。這表示記憶單位可以是一段 phrase / chunk，而不一定是一粒粒 notes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物配對： Caroline Palmer = chunking / musical phrases as a single unit of memory所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "F — Leon James",
+      "answerKey": "F — Leon James",
+      "type": "Matching Theories with",
+      "prompt": "Question 6",
+      "translation": "人們可能因為需要記住東西，才開始製作音樂。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目理論："
+            },
+            {
+              "kind": "quote",
+              "text": "“People may have started to make music because of their need to remember things.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This sort of memory enhancement may even explain the origin of music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種記憶增強作用甚至可能解釋音樂的起源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This message functions to unite society and to standardise the thought processes of people in society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種信息的功能是團結社會，並使社會中人們的思想過程標準化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 從 memory enhancement 轉到 origin of music，Question 6 的 started to make music / need to remember things 明顯應看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“started to make music”"
+            },
+            {
+              "kind": "quote",
+              "text": "“need to remember things”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“origin of music”"
+            },
+            {
+              "kind": "quote",
+              "text": "“memorised it in songs”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before the written word could be used to record history, people memorised it in songs, says Leon James, a psychologist at the University of Hawaii.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Hawaii 的心理學家 Leon James 說，在文字可用來記錄歷史之前，人們用歌曲把歷史記住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支持題目。文字記錄出現以前，人類需要保存歷史；歌曲提供記憶工具，因此音樂起源可能與記憶需要有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物配對： Leon James = origin of music / memorised history in songs所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — Susan Ball",
+      "answerKey": "B — Susan Ball",
+      "type": "Matching Theories with",
+      "prompt": "Question 7",
+      "translation": "當大腦某一部分疲倦時，歌曲在腦中盤旋的情況可能更常發生。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目理論："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having a song going round your head may happen to you more often when one part of the brain is tired.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not every stored musical memory emerges into consciousness, however.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，並非每個被儲存的音樂記憶都會浮上意識。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tell the brain not to think about pink elephants, and it’s guaranteed to do so,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，叫大腦不要想粉紅色大象，它就肯定會去想。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講音樂記憶是否進入意識，末句講壓抑想法反而會令它出現。中間很可能解釋哪個腦部區域負責控制。Question 7 的 one part of the brain is tired 正好吻合這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“one part of the brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tired”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“frontal lobe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fatigued or depressed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Susan Ball”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The frontal lobe of the brain gets to decide which thoughts become conscious and which ones are simply stored away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大腦的 frontal lobe 會決定哪些思想進入意識，哪些只是被存放起來。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it can become fatigued or depressed, which is when people most commonly suffer from song-in-head syndrome and other intrusive thoughts, says Susan Ball…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但它可能會變得疲倦或低落；Susan Ball 說，這時人們最常受到 song-in-head syndrome 和其他intrusive thoughts 影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “one part of the brain is tired” 對應 “frontal lobe … fatigued”。人物是 Susan Ball。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“a claim that music strengthens social bonds”",
+      "translation": "一項聲稱音樂能加強社會連結的說法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This sort of memory enhancement may even explain the origin of music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種記憶增強作用甚至可能解釋音樂的起源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This message functions to unite society and to standardise the thought processes of people in society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種信息的功能是團結社會，並使社會中人們的思想過程標準化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句的 “unite society” 已經非常接近 “strengthens social bonds”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“social bonds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 social bonds 原字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“unite society”"
+            },
+            {
+              "kind": "quote",
+              "text": "“standardise the thought processes of people in society”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“All music has a message,” he says. “This message functions to unite society and to standardise the thought processes of people in society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「所有音樂都有信息。這種信息的功能是團結社會，並使社會中人們的思想過程標準化。」題目說 “music strengthens social bonds”。原文的 “unite society” 就是使人們更連結、更團結。這是直接近義改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“two reasons why some bits of music tend to stick in your mind more than others”",
+      "translation": "某些音樂片段比其他片段更容易黏在腦中的兩個原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brown’s experience of repeated musical loops may represent a phenomenon called ‘chunking’, in which people remember musical phrases as a single unit of memory, says Caroline Palmer…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Caroline Palmer 說，Brown 的重複音樂循環經驗可能代表 “chunking” 現象；人們會把音樂片語當成單一記憶單位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s why you’re more likely to be haunted by the tunes of pop music than by those of a classical composer such as J. S. Bach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是為甚麼你更容易被流行曲旋律纏住，而較少被 J. S. Bach 這類古典作曲家的旋律纏住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段顯然解釋哪些 music chunks 更 sticky。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“two reasons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stick”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bits of music”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Particular chunks may be especially ‘sticky’ if…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 “if” 後面就是兩個原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Particular chunks may be especially ‘sticky’ if you hear them often or if they follow certain predictable patterns, such as the chord progression of rock ‘n’ roll music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些音樂片段如果你常常聽到，或者如果它們遵循某些可預測的模式，例如 rock ’n’ roll music 的和弦進程，就可能特別黏腦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個原因是：第一，you hear them often第二，they follow certain predictable patterns題目中的 “some bits of music” 對應 “particular chunks”。“tend to stick” 對應 “especially sticky”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“an example of how the brain may respond in opposition to your wishes”",
+      "translation": "一個例子，說明大腦可能和你的意願相反地反應。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not every stored musical memory emerges into consciousness, however.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，並非每個被儲存的音樂記憶都會浮上意識。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tell the brain not to think about pink elephants, and it’s guaranteed to do so,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，叫大腦不要想粉紅色大象，它就一定會去想。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看末句，已經能看到 “opposition to your wishes”：你叫大腦不要想，它偏偏去想。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“opposition to your wishes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“try to suppress”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the more you get it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not to think about pink elephants”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The more you try to suppress a thought, the more you get it,” says Ball."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ball 說，你越嘗試壓抑某個想法，它就越會出現。接著：“We call this the pink elephant phenomenon. Tell the brain not to think about pink elephants, and it’s guaranteed to do so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們稱這為粉紅色大象現象。叫大腦不要想粉紅色大象，它就一定會這樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要找 example，Paragraph E 的 pink elephant phenomenon 就是例子。大腦的反應與你的願望相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“the name of the part of the brain where song-in-head syndrome begins”",
+      "translation": "song-in-head syndrome 開始出現的腦部區域名稱。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The annoying playback probably originates in the auditory cortex.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種惱人的腦內播放很可能源自 auditory cortex。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brain imaging studies showed that this activated the same region of the auditory cortex as when the people actually heard the song.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "腦影像研究顯示，這會啟動 auditory cortex 中同一區域，和人們實際聽到歌曲時相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接說 originates in auditory cortex，所以這段必然是答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“part of the brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“begins”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“originates in the auditory cortex”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The annoying playback probably originates in the auditory cortex.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種惱人的腦內播放很可能源自 auditory cortex。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“originates in” 對應題目 “where … begins”。“auditory cortex” 就是腦部區域名稱。題目問的是哪一段 contains the information，所以答案是 Paragraph D。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“examples of two everyday events that can set off song-in-head syndrome”",
+      "translation": "兩個日常事件例子，可以觸發 song-in-head syndrome。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everyone knows the situation in which you can’t get a song out of your head.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人人都知道那種情況：你無法把一首歌從腦中趕走。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The condition now even has a medical name: ‘song-in-head syndrome’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種狀態現在甚至有一個醫學名稱：“song-in-head syndrome”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句引入現象，末句命名現象。中間很可能會舉出日常觸發例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“two everyday events”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set off”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“You hear…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“or even just read…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“You hear a pop song on the radio—or even just read the song’s title—and it haunts you for hours…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你在收音機聽到一首流行歌，甚至只是讀到歌名，它就會在你腦中縈繞數小時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個 everyday events 是：第一，hear a pop song on the radio第二，read the song’s title題目中的 “set off song-in-head syndrome” 對應 “it haunts you for hours, playing over and over in your mind”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“a description of what one person does to prevent song-in-head syndrome”",
+      "translation": "描述某個人如何預防 song-in-head syndrome。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For those not severely afflicted, simply avoiding certain kinds of music can help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對症狀不嚴重的人來說，單純避開某些類型的音樂可能有幫助。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It tends to involve short fragments between, say, 5 and 15 seconds. They sometimes seem to loop for hours,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「它往往涉及大約 5 至 15 秒的短片段。這些片段有時似乎會循環數小時。」首句提到 avoiding music can help，正好是 prevention。末句給出 Steven Brown 的個人經驗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“what one person does”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prevent”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“I will not play them in the early morning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“for fear that…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 Steven Brown 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“I know certain pieces that are kind of ‘sticky’ to me, so I will not play them in the early morning for fear that they will run around in my head all day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我知道某些樂曲對我來說有點「黏腦」，所以我不會在清晨播放它們，因為我怕它們整天在我腦中打轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是「某個人做甚麼來預防」：他避開在早上播放某些容易黏腦的樂曲。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prevent song-in-head syndrome= avoid certain sticky pieces, especially in the early morning what one person does= Steven Brown will not play them in the early morning答案是 F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後定位總表題號 題型 目標段落 核心定位詞1 MCQ B brain / holding onto information / important 2 MCQ C superficial / repetitive / pop tunes 3 MCQ D Robert Zatorre / replay / auditory cortex 4 Matching Features H Sandra Calvert / history text / catchy song 5 Matching Features G Caroline Palmer / chunking 6 Matching Features I Leon James / origin of music 7 Matching Features E Susan Ball / frontal lobe / fatigued 8 Matching Information I unite society 9 Matching Information G hear them often / predictable patterns 10 Matching Information E pink elephant phenomenon 11 Matching Information D auditory cortex 12 Matching Information A hear a pop song / read the title 13 Matching Information F will not play them in the early morning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - A song on the brain.pdf",
+    "sha256": "e26771ea9c1ee4be50d6733b5dbffe40dc0ccea486dce61fac4e4ed283f7650a",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段直接描述人人都熟悉的情況：一首歌在腦中揮之不去。末句把這種狀態命名為“song-in-head syndrome”。因此 Paragraph A 主要是引入現象，說明它如何被觸發，例如聽到流行歌，甚至只是看到歌名。這段最可能回答「日常觸發例子」類題目，尤其 Question 12。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用問題開頭：為何大腦會這樣煩擾我們？末句引用 Roger Chaffin，說這本來是記憶的有用功能，在此情況下卻變成 nuisance。只看首尾句，可以估計這段主要解釋 song-in-head syndrome的可能原因：大腦擅長保存資訊，卻未必擅長判斷哪些資訊重要。Question 1 很可能定位到這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說大腦這種 eager acquisitiveness 可能幫助祖先記住重要資訊。末句指出膚淺、重複的流行曲比更有創意的音樂更容易黏住。由首尾句可見，Paragraph C 會先講記憶功能的好處，再轉到它失控時如何令旋律卡在腦中。Question 2 的 simple / repetitive / pop tunes 線索集中在這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說這種惱人的腦內播放很可能源自 auditory cortex。末句說腦影像顯示，人在腦中重播歌曲時，啟動的正是實際聽歌時同一個 auditory cortex 區域。由首尾句可見，Paragraph D 主要講神經科學證據，特別是 Robert Zatorre 的實驗。Questions 3 和 11 都應定位到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說並非每個被儲存的音樂記憶都會浮上意識。末句用 “pink elephant phenomenon” 解釋：越叫大腦不要想，越會想。Paragraph E 主要處理 frontal lobe 如何決定哪些思想進入意識，以及疲倦或低落時 intrusive thoughts 更常出現。這段最可能回答 Susan Ball、frontal lobe fatigue、suppression backfire 相關題目，即 Questions 7 和 10。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說對症狀不嚴重的人來說，避開某些音樂可能有幫助。末句引用 Steven Brown，說腦中常重播 5 至 15 秒的短片段，有時會循環數小時。由首尾句可見，Paragraph F 主要講個人預防方法和repeated musical loops 的主觀經驗。Question 13 的 prevention，還有 Brown 的短音樂片段經驗，都在這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Brown 的 repeated musical loops 可能代表 “chunking” 現象，即人們把音樂片語當成一個記憶單位。末句說這解釋了為何 pop music 比 Bach 這類古典作曲家的旋律更容易纏住你。這段主要講 musical chunks、predictable patterns 和 frequent exposure。Question 5 和 Question 9都會用到 Paragraph G。"
+      },
+      {
+        "number": "H",
+        "summary": "首句轉折說這種能力雖然惱人，也可以有用。末句舉 Sandra Calvert 的實驗：學生聽到用 catchy song 唱出的歷史文本，比單純閱讀更能記住文字。由首尾句可見，Paragraph H 主要講音樂如何幫助學習和記憶強化。Question 4 的 “help other learning processes” 應找這段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說這種 memory enhancement 甚至可能解釋音樂的起源。末句引用 Leon James，說音樂的信息能團結社會，並標準化社會中人們的思想過程。由首尾句可見，Paragraph I 從記憶用途擴展到音樂起源和社會功能。Question 6 的 origin of music 和 Question 8 的 social bonds 都在這段。"
+      }
+    ]
+  }
+}

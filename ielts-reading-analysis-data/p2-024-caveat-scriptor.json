@@ -1,0 +1,1543 @@
+{
+  "id": "p2-024-caveat-scriptor",
+  "catalogueId": "p2-024",
+  "catalogueIds": [
+    "p2-024"
+  ],
+  "passage": 2,
+  "title": "Caveat Scriptor",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "glamour",
+    "research",
+    "editing process",
+    "summary",
+    "readers",
+    "alterations",
+    "writing",
+    "ups and downs",
+    "A",
+    "D",
+    "appraisal",
+    "invaluable advice",
+    "radical re-drafting",
+    "waiting"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "glamour",
+      "answerKey": "glamour",
+      "type": "Summary Completion",
+      "prompt": "“People often associate writing with 14 _________.”",
+      "translation": "人們常把 writing 和 _________ 聯想在一起。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 summary completion，而且答案要從 box 選。空格在 “associate writing with” 後面，需要一個名詞，表示一般人對 writing profession 的印象。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People think that writing as a profession is glamorous—that it is just about sitting down and churning out words on a page, or more likely these days on a computer screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們以為寫作作為一種職業很有魅力，好像只需要坐下來，把文字源源不斷寫在紙上，或如今更常見地打在電腦螢幕上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes, however, instinct takes the place of market research and the contents are dictated not by plans and exhaustive research, but by experience and knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時候，直覺會取代市場研究，內容也由經驗和知識決定，而非由計劃和詳盡研究決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 2 先講寫作的表面印象，再轉入研究、直覺和經驗。Question 14 問大眾把 writing 和甚麼聯想在一起，明顯要看第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “People often associate writing”。原文對應 “People think that writing as a profession is glamorous”。box 中和 glamorous 對應的名詞是 glamour。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “writing as a profession is glamorous”。題目把形容詞 glamorous 轉成名詞 glamour，形成 “associate writing with glamour”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "writing as a profession is glamorous= writing is associated with glamour答案判斷：答案是 glamour。它在 box 中出現，詞性也符合句子需要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "research",
+      "answerKey": "research",
+      "type": "Summary Completion",
+      "prompt": "“But being a writer involves managing conflicting emotions, as well as 15 _________ and instinct.”",
+      "translation": "但成為 writer 需要管理互相矛盾的情緒，也牽涉 _________ 和 instinct。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格和 instinct 並列，所以需要名詞。題目中的 “conflicting emotions” 對應原文 “contradictory feelings”，因此仍在 Paragraph 2。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People think that writing as a profession is glamorous—that it is just about sitting down and churning out words on a page, or more likely these days on a computer screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們以為寫作作為一種職業很有魅力，好像只是坐下來把文字寫出來，或打在螢幕上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes, however, instinct takes the place of market research and the contents are dictated not by plans and exhaustive research, but by experience and knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時候，直覺會取代市場研究，內容也由經驗和知識決定，而非由計劃和詳盡研究決定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “conflicting emotions” 可掃到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being a writer is about managing a galaxy of contradictory feelings…”"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, it also involves carrying out detailed research…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, it also involves carrying out detailed research: first, to establish whether there is a market for the planned publication, and second, to determine what the book’s content should be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，寫作也牽涉進行詳細研究：第一，確認計劃出版的作品是否有市場；第二，決定書的內容應該是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “carrying out detailed research” 壓縮成 box 中的 research，再和 instinct 並列。原文之後確實說 instinct 有時取代 market research，所以 summary 的 “research and instinct” 是合理概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 research。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "editing process",
+      "answerKey": "editing process",
+      "type": "Summary Completion",
+      "prompt": "“Contrary to what some people believe, advanced technology does not make the 16_________ faster.”",
+      "translation": "和某些人的想法相反，advanced technology 並沒有令 _________ 變得更快。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “make the ___ faster” 中，需要名詞短語。題目中的 advanced technology 和 faster 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the publication has been embarked upon, there is a long period of turmoil as the text takes shape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦出版計劃開始，文本成形的過程會經歷一段長時間的混亂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So a passage that is endlessly reworked may end up nothing remotely like the original, and completely out of place when compared with the rest of the text.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以一段被無止境重寫的文字，最後可能和原文完全不像，並且和其餘文本相比顯得格格不入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯講 drafting、checking、editing 和 repeated edits。題目問 advanced technology 有沒有加快某個過程，正好在 Paragraph 3 中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：advanced technology、checking、editing、sped up。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“While some people might think that with new technology the checking and editing process is sped up, the experienced writer would hardly agree.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然有些人可能以為有了新科技，checking and editing process 會加快，但有經驗的作家大概不會同意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用了 “Contrary to what some people believe” 對應 “some people might think”。“does not make … faster” 對應 “the experienced writer would hardly agree”。box 中有 editing process，比 “checking and editing process” 更符合選項，也符合題目空格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 editing process。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "summary",
+      "answerKey": "summary",
+      "type": "Summary Completion",
+      "prompt": "“When a writer has a draft ready, it is useful to prepare a 17 _________ for friends and agents to review.”",
+      "translation": "當 writer 已經有 draft 時，準備一份 _________ 給朋友和 agents 參考會有用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案要從 box 選。空格前有 “a”，需要單數名詞。原文使用 synopsis / outline，但 box 沒有這兩個詞，因此要找最接近的概括詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the trauma of self-editing and looking for howlers, it is time to show the text to other people, friends perhaps, for appraisal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過自我編輯和尋找嚴重錯誤的折磨後，是時候把文本給其他人，也許是朋友，作評估。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This acts as a guide for the author, and a general reference for friends and later for agents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可以作為作者的指南，也可成為朋友和之後 agents 的一般參考。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 draft、friends、agents 都在 Paragraph 4 出現。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also helps, at this stage, to offer a synopsis of the book, if it is a novel, or an outline if it is a textbook.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個階段，若作品是小說，提供一本書的 synopsis 也有幫助；若是 textbook，則提供 outline。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 synopsis / outline 概括成一個 box-word。box 中最合適的是 summary，因為 synopsis 和outline 都是作品內容的簡要說明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 summary。這裡要留意：答案來自 box 的概括詞，不是逐字從原文抽出 synopsis 或outline。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "readers",
+      "answerKey": "readers",
+      "type": "Summary Completion",
+      "prompt": "“If a publisher accepts an author, the draft is given to 18 _________ for vetting.”",
+      "translation": "如果 publisher 接納作者，draft 會交給 _________ 作 vetting。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “given to” 後面，需要人物或群體名詞。題目中的 publisher、draft、vetting 都很有定位力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lucky few taken on by publishers or agents then have their books subjected to a number of readers, whose job it is to vet a book: deciding whether it is worth publishing and whether the text as it stands is acceptable or not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "少數被 publishers 或 agents 接納的幸運者，之後他們的書會交給多位 readers；這些人的工作是審核一本書，判斷它是否值得出版，以及目前文本是否可接受。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A book’s creation period is complex and unnerving, but the publisher’s reworkings and text amputations can also be a tortuous process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一本書的創作期複雜且令人不安，出版方的重寫和刪削也可能是一個折磨人的過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “for vetting” 對應原文 “whose job it is to vet a book”。主體是 “a number of readers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完整證據已說明：books are subjected to a number of readers。題目把 “subjected to” 改成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“given to”，意思相近。box 中的答案是 readers。答案判斷：答案是 readers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "alterations",
+      "answerKey": "alterations",
+      "type": "Summary Completion",
+      "prompt": "“19 _________ are then often made, and the writer may find them difficult to accept.”",
+      "translation": "之後常會作出 _________，writer 可能覺得很難接受。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在句首，後面是 “are … made”，所以答案要用複數名詞。題目中的 difficult to accept 對應原文 “taking on board the publisher’s alterations”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lucky few taken on by publishers or agents then have their books subjected to a number of readers, whose job it is to vet a book: deciding whether it is worth publishing and whether the text as it stands is acceptable or not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "少數被接納的作者，其作品會交給 readers 審核，判斷是否值得出版和文本是否可接受。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A book’s creation period is complex and unnerving, but the publisher’s reworkings and text amputations can also be a tortuous process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書的創作期複雜且令人不安，出版方的重寫和刪削也可能是折磨人的過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：publisher、difficulties、alterations、accept。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a book has finally been accepted by a publisher, one of the greatest difficulties for the writer lies in taking on board the publisher’s alterations to the text.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書終於被 publisher 接納後，對 writer 來說最大的困難之一，是接受出版方對文本作出的alterations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “taking on board” 改成 “find them difficult to accept”。box 中有 alterations，而且它是複數，符合 “are then often made”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 alterations。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "writing",
+      "answerKey": "writing",
+      "type": "Summary Completion",
+      "prompt": "“However, 20 _________ remains compelling…”",
+      "translation": "然而，_________ 仍然有強烈吸引力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格作主語，需要名詞。題目中的 remains compelling 對應文章最後的 compulsion to create and write。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Abandon writing? Nonsense.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "放棄寫作？荒謬。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once smitten, it is not easy to escape the compulsion to create and write, despite the roller-coaster ride of contradictory emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦著迷，就不容易逃離創作和寫作的衝動，即使過程像情緒上的雲霄飛車，充滿矛盾感受。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 compelling 可對應原文 “compulsion”。box 中最合適的主語是 writing。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “the compulsion to create and write”，即創作和寫作的衝動。題目把它改寫成 “writing remains compelling”，意思是寫作雖然艱難，仍有令人無法抽身的吸引力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 writing。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "ups and downs",
+      "answerKey": "ups and downs",
+      "type": "Summary Completion",
+      "prompt": "“…even though it involves 21 _________.”",
+      "translation": "即使它牽涉 _________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 involves 後面，需要名詞短語。box 中 “roller-coaster” 和 “ups and downs” 都和最後一句有關，但要看句子文法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Abandon writing? Nonsense.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "放棄寫作？荒謬。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once smitten, it is not easy to escape the compulsion to create and write, despite the roller-coaster ride of contradictory emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦被寫作迷住，就不容易逃離創作和寫作的衝動，儘管這是一段充滿矛盾情緒的雲霄飛車式經歷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “even though it involves” 對應原文 “despite the roller-coaster ride of contradictory emotions”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“roller-coaster ride” 是比喻，表示情緒起伏很大。box 中 “ups and downs” 正好把這個比喻改成普通說法。題目句子 “it involves ups and downs” 文法自然；若填 roller-coaster，句子會變得不完整。答案判斷：答案是 ups and downs。它對應 “roller-coaster ride of contradictory emotions”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A — instinct can replace market research.",
+      "answerKey": "A — instinct can replace market research.",
+      "type": "Multiple Choice",
+      "prompt": "“In the planning stages of a book,”",
+      "translation": "在一本書的 planning stages 中……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是單選題。題目問 writing planning stage，定位詞是 planning、market research 和 instinct。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People think that writing as a profession is glamorous—that it is just about sitting down and churning out words on a page, or more likely these days on a computer screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們以為寫作作為職業很有魅力，好像只是坐下來把文字寫出來，或打在電腦螢幕上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes, however, instinct takes the place of market research and the contents are dictated not by plans and exhaustive research, but by experience and knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時候，直覺會取代市場研究，內容也由經驗和知識決定，而非由計劃和詳盡研究決定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 planning stages 會帶到 “planned publication”、“market research”、“plans and exhaustive research”。最關鍵一句正是段尾。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “instinct can replace market research.”原文說 “Sometimes … instinct takes the place of market research”。take the place of = replace，所以 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “market research can replace instinct.”方向倒轉。原文說 instinct 有時取代 market research。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “market research is essential.”原文說 writing involves research，但又補充 sometimes instinct takes the place of market research，所以 “essential” 過強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “instinct frequently replaces market research.”原文說 Sometimes，不是 frequently。程度詞不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 A。控制答案的是 “Sometimes” 和 “takes the place of”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "D — many writers cannot resist changing the text repeatedly.",
+      "answerKey": "D — many writers cannot resist changing the text repeatedly.",
+      "type": "Multiple Choice",
+      "prompt": "“The problem with using advanced technology for editing is that…”",
+      "translation": "用 advanced technology 來 editing 的問題是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 advanced technology 在 editing 中造成的主要問題。定位詞是 advanced technology、editing、problem。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the publication has been embarked upon, there is a long period of turmoil as the text takes shape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦出版計劃開始，文本成形會經歷一段長時間的混亂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So a passage that is endlessly reworked may end up nothing remotely like the original, and completely out of place when compared with the rest of the text.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以一段被無止境重寫的文字，最後可能和原文完全不像，並且與其餘文本相比顯得格格不入。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, advanced technology now allows the writer the luxury of countless edits; a temptation many writers find hard to resist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不幸地，先進科技如今給了 writer 進行無數次修改的奢侈可能；這種誘惑是很多 writer 難以抗拒的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “the edited text becomes different from the original.”這是可能結果，但原文說 “may end up”，只限於 endlessly reworked 的 passage。它不是問題的最直接源頭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “using the technology is unfortunate.”原文有 “Unfortunately”，但這只是作者語氣，選項把語氣誤當答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “the technology is a luxury.”原文說 “the luxury of countless edits”，重點是 countless edits 帶來誘惑，不是 technology 本身作為 luxury。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “many writers cannot resist changing the text repeatedly.”這直接對應 “a temptation many writers find hard to resist” 和 “countless edits”。D 最準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 D。A 有原文影子，但 D 更貼近問題的原因：科技讓反覆修改變得太容易，writer 難以停手。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "appraisal",
+      "answerKey": "appraisal",
+      "type": "Sentence Completion",
+      "prompt": "“Once a text is finished, the writer needs to get the 24 _________ of other people.”",
+      "translation": "文本完成後，writer 需要取得其他人的 _________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 sentence completion，答案要從 passage 取，最多三個詞。空格在 “get the ___ of other people” 中，需要名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the trauma of self-editing and looking for howlers, it is time to show the text to other people, friends perhaps, for appraisal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過自我編輯和尋找嚴重錯誤的折磨後，是時候把文本給其他人，也許是朋友，作評估。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This acts as a guide for the author, and a general reference for friends and later for agents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可作為作者的指南，也可成為朋友和之後 agents 的一般參考。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 text finished、other people。原文 “show the text to other people … for appraisal” 直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “show the text to other people for appraisal” 改成 “get the appraisal of other people”。空格只需填 appraisal。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 appraisal。一個詞，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "invaluable advice",
+      "answerKey": "invaluable advice",
+      "type": "Sentence Completion",
+      "prompt": "“Some agents may reject a book’s draft, while others may offer 25 _________.”",
+      "translation": "有些 agents 可能拒絕書稿，但另一些可能會提供 _________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 offer 後面，需要名詞短語。題目中的 agents、reject、offer 是定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although it is tempting to send the draft to every possible agent at one time, it is probably unwise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然很想一次把 draft 寄給所有可能的 agent，但這樣做大概不明智。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such information may be of use in finally being given a contract by an agent or publisher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資訊可能有助作者最終獲得 agent 或 publisher 的 contract。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some agents may reject the publication out of hand, but others may proffer some invaluable advice, for example about content or the direction to be taken.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些 agents 可能會直接拒絕作品，但另一些可能會提供一些非常寶貴的建議，例如關於內容或應採取的方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “proffer” 改成 “offer”。答案要抄原文名詞短語：invaluable advice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 invaluable advice。兩個詞，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "radical re-drafting",
+      "answerKey": "radical re-drafting",
+      "type": "Sentence Completion",
+      "prompt": "“Apart from requiring a draft to conform to an in-house style, a publisher’s changes may include 26 _________.”",
+      "translation": "除了要求 draft 符合 in-house style 之外，publisher 的修改也可能包括 _________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要名詞短語。題目中的 in-house style 是強定位詞，答案就在同段後面。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lucky few taken on by publishers or agents then have their books subjected to a number of readers, whose job it is to vet a book: deciding whether it is worth publishing and whether the text as it stands is acceptable or not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "少數被 publishers 或 agents 接納的人，他們的書會交給多位 readers 審核，判斷是否值得出版，以及文本現狀是否可接受。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A book’s creation period is complex and unnerving, but the publisher’s reworkings and text amputations can also be a tortuous process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一本書的創作期複雜又令人不安，出版方的重寫和刪削也可能是一個折磨人的過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "先找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“it will probably have to conform to an in-house style, as regards language, spelling and punctuation.”"
+            },
+            {
+              "kind": "label",
+              "text": "後面再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“More seriously, the integrity of the text may be challenged, and this may require radical re-drafting…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更嚴重的是，文本的完整性可能受到挑戰，而這可能需要徹底重寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Apart from requiring … in-house style”，所以答案要找 in-house style 之外更嚴重的修改。原文用 “More seriously” 明確提示答案是 radical re-drafting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案是 radical re-drafting。兩個詞，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "waiting",
+      "answerKey": "waiting",
+      "type": "Sentence Completion",
+      "prompt": "“A publisher’s alterations are difficult for a writer, as is the 27 _________ while the book is being produced.”",
+      "translation": "publisher 的修改令 writer 難受；書被製作期間的 _________ 也同樣難受。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “the” 後面，需要名詞或動名詞。題目中的 while the book is being produced 對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“waiting for it to be put together for the printer”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7第一句：“For many writers, the most painful period comes when the text has been accepted, and the writer is waiting for it to be put together for the printer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對很多 writers 來說，最痛苦的時期是在 text 已被接納之後，作者等待它被整理好交給 printer 的時候。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By this stage, it is not uncommon for the writer to be thoroughly sick of the text.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了這個階段，writer 對文本感到徹底厭倦也並不罕見。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 accepted、produced、painful period。原文直接說 “the most painful period comes when … the writer is waiting…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “while the book is being produced” 概括原文 “put together for the printer”。真正痛苦的是等待過程，所以空格填 waiting。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "while the book is being produced= when the text is being put together for the printer答案判斷：答案是 waiting。一個詞，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 14 glamour 15 research 16 editing process 17 summary 18 readers 19 alterations 20 writing 21 ups and downs 22 A 23 D 24 appraisal 25 invaluable advice 26 radical re-drafting 27 waiting"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Caveat Scriptor.pdf",
+    "sha256": "f78d91ae2d64aaae7eb019c6369536be1bbfe972394d8f976d26aa4cea3c038a",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 1 是文章的警告式開場。第一句 “Let the would-be writer beware!” 直接提醒有志成為writer 的人要小心；最後一句說無論寫 academic treatise、novel，甚至 article，都應先讀這篇文章。只看首尾句，可以先估計這段功能是建立文章語氣：它會揭開 writing career 背後較艱難的一面。標題 “Caveat Scriptor” 本身也像 “writer beware”，暗示全文會提醒寫作者不要只看見寫作的浪漫表象。"
+      },
+      {
+        "number": "2",
+        "summary": "Paragraph 2 先指出大眾以為 writing profession 很 glamorous，彷彿只是坐下來把文字打出來。段尾說有時 instinct 會取代 market research，內容也可能由 experience and knowledge 決定。只看首尾句，這段功能是拆解寫作的表面想像，說明寫作牽涉 contradictory feelings、detailed research、market consideration、content planning，也有靠直覺和經驗推動的時候。題目若問glamour、research、instinct 或 planning stage，主要應看這段。"
+      },
+      {
+        "number": "3",
+        "summary": "Paragraph 3 首句說一旦 publication 開始，text takes shape 的過程會經歷 long period of turmoil。段尾說一段被反覆修改的文字，最後可能和原本完全不同，並且和整體文本格格不入。只看首尾句，可以先判斷這段主題是 drafting、self-editing 和 technology 帶來的反覆修改問題。它尤其強調 first draft rarely final，writing 需要 altering、reordering、deleting；advanced technology 反而令 writers 更難抗拒 endless edits。"
+      },
+      {
+        "number": "4",
+        "summary": "Paragraph 4 首句說經過 self-editing 和找 howlers 之後，作者應把 text 給其他人，例如朋友，作appraisal。段尾說 synopsis 或 outline 可成為 author 的 guide，也可給朋友和之後的 agents 作general reference。只看首尾句，可以看出這段處理「給外人看稿」的階段。重點包括：先找朋友評估，不宜太早交給 literary agent 或 publishers；同時準備 synopsis / outline，方便各方理解作品方向。"
+      },
+      {
+        "number": "5",
+        "summary": "Paragraph 5 首句說雖然很想把 draft 一次過寄給所有可能的 agents，但這樣大概不明智。段尾說某些 agent 的 advice 可能最終有助作者拿到 agent 或 publisher 的 contract。只看首尾句，這段主題是投稿策略：不要急於大量投遞。中間說有些 agents 會直接 reject，但也有些會提出invaluable advice，例如 content 或 direction。題目若問 agents reject / offer advice，答案通常在這段。"
+      },
+      {
+        "number": "6",
+        "summary": "Paragraph 6 首句說少數被 publishers 或 agents 接納的幸運作者，作品會交給多位 readers vet。段尾說 book creation period 複雜又令人緊張，publisher 的 reworkings and text amputations 也可以很折磨。只看首尾句，可以估計這段會講出版方審稿、內部風格、修改要求和作者心理壓力。中間特別提到 in-house style、language、spelling、punctuation、integrity of text、radical re-drafting，這些都是後段題目的核心。"
+      },
+      {
+        "number": "7",
+        "summary": "Paragraph 7 只有兩句，但資訊很集中。首句說對很多 writers 來說，最痛苦的時期是在 text accepted 之後，等待它被 put together for the printer。最後一句說到了這個階段，作者對 text 感到徹底厭倦也很常見。只看首尾句，可以判斷這段處理 accepted 後到 printing 前的等待期。題目若問 book being produced 時 writer 覺得痛苦的內容，答案會落在 waiting 這個詞。"
+      },
+      {
+        "number": "8",
+        "summary": "Paragraph 8 是全文收束。第一句用 “Abandon writing? Nonsense.” 反問式否定放棄寫作的念頭。最後一句說一旦被 writing 吸引，就不容易逃離 create and write 的 compulsion，即使過程像roller-coaster ride，充滿 contradictory emotions。只看首尾句，可以知道文章最後回到矛盾結論：寫作很痛苦、反覆、折磨人，卻仍然具有強烈吸引力。題目若問 writing remains compelling 或 ups and downs，答案在此段。"
+      }
+    ]
+  }
+}

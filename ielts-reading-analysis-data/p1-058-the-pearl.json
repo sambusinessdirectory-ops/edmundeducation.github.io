@@ -1,0 +1,1969 @@
+{
+  "id": "p1-058-the-pearl",
+  "catalogueId": "p1-058",
+  "catalogueIds": [
+    "p1-058"
+  ],
+  "passage": 1,
+  "title": "The Pearl",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "A",
+    "E",
+    "G",
+    "C",
+    "ancient Rome",
+    "Eastern countries",
+    "Mallorca",
+    "Japan",
+    "Australia",
+    "Bahrain",
+    "TRUE",
+    "FALSE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“historical accounts of pearls and their owners”",
+      "translation": "關於珍珠及其擁有者的歷史記載。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information 題。題目中的 strongest locator 是 “historical accounts” 和 “owners”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們要找哪一段講珍珠在歷史上由哪些人擁有、如何使用、代表甚麼身份。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pearls have always held special status among the rich and powerful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "珍珠一直在富有和有權勢的人之間享有特殊地位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Eastern countries such as Persia, ground pearl powder was used as medicine for ailments ranging from heart disease to epilepsy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在波斯等東方國家，磨碎的珍珠粉曾被用作藥物，治療從心臟病到癲癇等疾病。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph A 的功能是歷史引入：它不只說珍珠漂亮，也說珍珠和 wealthy /powerful people、ancient Rome、Eastern medicine 有關。這和題目中的 historical accounts 非常貼近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “owners” 不一定原字出現。掃描時要找 people who possessed or used pearls。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women in ancient Rome, for example, reportedly wore pearls to bed so that, on waking, they would be reminded of their wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，據說古羅馬女性會戴著珍珠睡覺，這樣醒來時便會想起自己的財富。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供了非常清楚的 historical account。它有地點 ancient Rome，有人物 women，有行為wore pearls to bed，有原因 reminded of their wealth。題目中的 “pearls and their owners” 對應原文中擁有和佩戴珍珠的 rich women。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“historical accounts”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women in ancient Rome, for example, reportedly…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“pearls and their owners”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pearls … among the rich and powerful”"
+            },
+            {
+              "kind": "quote",
+              "text": "“women … wore pearls … reminded of their wealth”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph A 以多個歷史例子說明珍珠的地位和擁有者，因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也有 historical information，講 Persian Gulf 和 Bahrain。但 Question 1 的 “owners”更貼近 Paragraph A 中 rich and powerful、ancient Roman women 這些人群。Paragraph H 的焦點是產地和產業歷史，不是珍珠擁有者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“difficulties in the cultivation process”",
+      "translation": "珍珠培養過程中的困難。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 “cultivation process” 和 “difficulties”。要找哪段講 pearls 生產需要很久、失敗率高、mollusc 可能死亡或珍珠變形。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whichever method is used, producing pearls usually takes several years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論採用哪種方法，生產珍珠通常需要幾年時間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of the pearls eventually produced, only about 5% are of sufficiently high quality for jewellers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在最終產出的珍珠之中，只有約 5% 品質足以供珠寶商使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段的問題感很強。第一句指出時間長，最後一句指出高品質比例極低。這已經提示 cultivation process 並不容易。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “difficulties” 可能改寫成 takes years、rejected、deformed、die、only half survived、only 5%。Paragraph E 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes the irritant is rejected; the pearl may become badly deformed or the oyster may die from complications such as disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時 irritant 會被排斥；珍珠可能嚴重變形，oyster 也可能因疾病等併發症而死亡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句列出 cultivation 的三種風險： irritant is rejected= 植入物可能被排斥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pearl may become badly deformed= 珍珠可能嚴重變形。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "oyster may die= oyster 可能死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前文還說 mussels mature 可需 almost three years，珍珠再需 approximately another three years才達 full size。後文說五至十年週期後只有 half the oysters may have survived，最終只有 about 5% 達 jeweller quality。這些證據共同支援 “difficulties in the cultivation process”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“difficulties”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“takes several years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rejected”"
+            },
+            {
+              "kind": "quote",
+              "text": "“badly deformed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“die”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only half … survived”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only about 5%”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph E 全段都在說珍珠培養的時間、風險和低成功率，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“factors that determine the value of pearls”",
+      "translation": "決定珍珠價值的因素。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪段列出 value factors。定位詞是 “value” 和 “factors”。文章中有一段直接列出 size、shape、colour、surface quality、lustre。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several factors are considered when evaluating a pearl: size, shape, colour, surface quality and lustre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "評估一顆珍珠時會考慮幾個因素：大小、形狀、顏色、表面品質和光澤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s Akoya pearls are among the most lustrous available, while the southern seas around Australia produce larger pearls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的 Akoya pearls 屬於目前最有光澤的珍珠之一，而澳洲南部海域出產較大的珍珠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 的功能十分清楚：它講 pearl evaluation、value hierarchy 和不同地區珍珠的 quality traits。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “determine the value” 在原文可對應 “evaluating a pearl” 和 “in descending order of value”。Paragraph G 首句已經是答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several factors are considered when evaluating a pearl: size, shape, colour, surface quality and lustre.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Several factors”。核心動作是 “are considered”。情境是 “when evaluating a pearl”。後面列出的五項就是 value factors： size shape colour surface quality lustre Paragraph D 也說 “individual qualities determine a pearl’s value more than its source”，但該段沒有完整列出評估因素。Paragraph G 直接列出 factors，覆蓋題目最精準。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“factors that determine the value”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“factors are considered when evaluating”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： evaluating a pearl 就是判斷 pearl value 的過程；Paragraph G 直接列出因素，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 有 “determine a pearl’s value” 的原字，容易令人誤選 D。不過 D 的主旨是來源與培養方法；G 才是專門列出 size、shape、colour、surface quality、lustre 的評估因素段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“a growth mechanism that distinguishes cultured pearls from natural ones”",
+      "translation": "一種把 cultured pearls 和 natural pearls 區分開來的生長機制。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求找 growth mechanism，並且要能 distinguish cultured from natural。定位詞是 cultured pearls、natural ones、difference、process。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A cultured pearl undergoes the same process, with one difference: the irritant is a bead called‘mother-of-pearl’, surgically implanted in the oyster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "cultured pearl 經歷同樣過程，但有一個差別：irritant 是一顆稱為 mother-of-pearl 的珠粒，透過手術植入 oyster 內。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As long as enough layers of nacre—the secreted fluid coating the irritant—form a beautiful, gem-quality pearl, the nucleus’s size does not affect its beauty or durability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要有足夠層的 nacre，也就是包裹 irritant 的分泌液，形成美麗且達寶石品質的珍珠，nucleus的大小便不會影響其美觀或耐久度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示，這段專門解釋 cultured pearl 的形成方式，以及它和 natural pearl 的差別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “distinguishes” 對應原文 “with one difference”。Paragraph C 首句直接提供："
+            },
+            {
+              "kind": "quote",
+              "text": "“with one difference: the irritant is a bead called ‘mother-of-pearl’, surgically implanted in the oyster.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 說 natural pearl 是 grain of sand 等 irritant 自然進入 mollusc 後形成。Paragraph C說 cultured pearl 的 irritant 是 mother-of-pearl bead，並由人 surgically implanted。這就是兩者生長機制的差異。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“This produces a much larger core in cultured pearls than in natural ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會令 cultured pearls 的 core 比 natural pearls 大得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句更直接支援 “distinguishes cultured pearls from natural ones”。cultured pearl 的中心更大，原因是植入的 bead 成為較大的 nucleus。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“growth mechanism”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“undergoes the same process, with one difference”"
+            },
+            {
+              "kind": "quote",
+              "text": "“surgically implanted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“layers of nacre … form”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“distinguishes cultured pearls from natural ones”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a much larger core in cultured pearls than in natural ones”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph C 清楚解釋 cultured pearl 的植入機制和較大 core，因此答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "ancient Rome",
+      "answerKey": "ancient Rome",
+      "type": "Summary Completion",
+      "prompt": "“Women in 5 _________________ also wore pearls as gems.”",
+      "translation": "______ 的女性也會佩戴珍珠作為寶飾。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “Women in”，所以答案需要是地點或時代地點名詞。題目中的 “wore pearls” 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pearls have always held special status among the rich and powerful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "珍珠一直在富有和有權勢的人之間享有特殊地位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Eastern countries such as Persia, ground pearl powder was used as medicine for ailments ranging from heart disease to epilepsy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在波斯等東方國家，磨碎的珍珠粉曾被用作治療從心臟病到癲癇等疾病的藥物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph A 是歷史例子段，會講不同地區和時代的人如何使用珍珠。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Women” 和 “wore pearls”。Paragraph A 中直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women in ancient Rome, for example, reportedly wore pearls to bed so that, on waking, they would be reminded of their wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，據說 ancient Rome 的女性會戴著珍珠睡覺，這樣醒來時便會想起自己的財富。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經給出 “Women in”，所以空格需要接地點／時代名詞。原文是 “Women in ancient Rome”。因此答案是 ancient Rome。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： ancient Rome = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放回題目：Women in ancient Rome also wore pearls as gems.句子通順。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“wore pearls as gems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“wore pearls to bed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目概括了佩戴珍珠這個行為；原文更具體地說她們戴著珍珠睡覺。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "Eastern countries",
+      "answerKey": "Eastern countries",
+      "type": "Summary Completion",
+      "prompt": "“Pearl powder was used as medicine in 6 _________________.”",
+      "translation": "珍珠粉在 ______ 被用作藥物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “in” 後面，需要地點名詞。題目中的 “pearl powder” 和 “medicine” 都是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pearls have always held special status among the rich and powerful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "珍珠一直在富有和有權勢的人之間享有特殊地位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Eastern countries such as Persia, ground pearl powder was used as medicine for ailments ranging from heart disease to epilepsy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在波斯等東方國家，磨碎的珍珠粉曾被用作治療從心臟病到癲癇等疾病的藥物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經可以直接定位 Question 6。它同時包含 pearl powder、medicine 和地點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pearl powder”"
+            },
+            {
+              "kind": "quote",
+              "text": "“medicine”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“ground pearl powder was used as medicine”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文開頭的地點短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Eastern countries such as Persia…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在波斯等東方國家……題目問 pearl powder was used as medicine in ______。按原文主體，最完整答案是 “Eastern countries”。Persia 是例子，用來說明 Eastern countries 的其中一個地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： Eastern countries = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放回題目：Pearl powder was used as medicine in Eastern countries.文法自然，意思貼合原文。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Persia 也在同一句出現，而且是明確地名。不過原文結構是 “Eastern countries such as Persia”，主體地點是 Eastern countries，Persia 只是例子。Summary 通常會保留上位類別，因此 Eastern countries 更穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "Mallorca",
+      "answerKey": "Mallorca",
+      "type": "Summary Completion",
+      "prompt": "“... while the island of 7 _________________ is famous for its imitation-pearl industry.”",
+      "translation": "而 ______ 這個島以 imitation-pearl industry 聞名。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the island of”，所以答案應該是島名。定位詞是 “imitation-pearl industry”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Imitation pearls are another matter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "imitation pearls 則是另一回事。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One way to distinguish an imitation is to rub it gently against the teeth: fake pearls feel smooth, whereas the layers of nacre on real pearls feel gritty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分辨 imitation pearl 的一種方法，是把它輕輕在牙齒上摩擦：fake pearls 感覺平滑，real pearls因有 nacre layers 會感覺粗砂般。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 會講 imitation pearls 的來源、製造和分辨方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “imitation-pearl industry”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The island of Mallorca in Spain is renowned for its imitation-pearl industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "西班牙的 Mallorca 島以其 imitation-pearl industry 聞名。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “is famous for” 改寫原文 “is renowned for”。兩者都是「以……聞名」。空格前已有 “the island of”，所以只需填 Mallorca。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： Mallorca = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放回題目：the island of Mallorca is famous for its imitation-pearl industry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "Japan",
+      "answerKey": "Japan",
+      "type": "Summary Completion",
+      "prompt": "“8 _________________ produces some of the most lustrous pearls…”",
+      "translation": "______ 出產一些最有光澤的珍珠。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格是句子主語，需要地名或產地。定位詞是 “most lustrous pearls”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several factors are considered when evaluating a pearl: size, shape, colour, surface quality and lustre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "評估一顆珍珠時會考慮幾個因素：大小、形狀、顏色、表面品質和光澤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s Akoya pearls are among the most lustrous available, while the southern seas around Australia produce larger pearls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的 Akoya pearls 屬於目前最有光澤的珍珠之一，而澳洲南部海域出產較大的珍珠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段會講珍珠評估因素和不同產地珍珠特色。Question 8 的 lustrous 直接在最後一句出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“most lustrous”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s Akoya pearls are among the most lustrous available…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “Japan’s Akoya pearls”，即日本的 Akoya pearls。題目句子寫成 “______ produces some of the most lustrous pearls”，需要一個地點主語。由於原文中的地點是 Japan，答案填 Japan 最自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： Japan = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放回題目：Japan produces some of the most lustrous pearls."
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Akoya pearls” 很吸引，因為它直接和 lustrous 連在一起。但空格後動詞是 produces，主語需要產地；“Akoya pearls produces” 文法不通。因此答案用 Japan。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "Australia",
+      "answerKey": "Australia",
+      "type": "Summary Completion",
+      "prompt": "“... while 9 _________________ produces larger pearls because of the favourable environment along its coastline.”",
+      "translation": "而 ______ 因沿岸環境有利，出產較大的珍珠。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格是主語，需要地名。定位詞是 “larger pearls”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several factors are considered when evaluating a pearl: size, shape, colour, surface quality and lustre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "評估一顆珍珠時會考慮大小、形狀、顏色、表面品質和光澤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s Akoya pearls are among the most lustrous available, while the southern seas around Australia produce larger pearls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的 Akoya pearls 屬於目前最有光澤的珍珠之一，而澳洲南部海域出產較大的珍珠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，Question 9 的定位非常清楚，因為 larger pearls 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “larger pearls”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the southern seas around Australia produce larger pearls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲周圍的 southern seas 出產較大的珍珠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完整產地是 “the southern seas around Australia”。題目空格只有兩個字限制，而且句子是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“while ______ produces larger pearls”，最自然的地名答案是 Australia。原文中的 “southern seas around Australia” 說明更準確的產區；summary 把它壓縮成國家名。答案形式檢查： Australia = 1 word，符合 NO MORE THAN TWO WORDS。放回題目：Australia produces larger pearls."
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“southern seas” 是原文的一部分，但若填進題目，句子會變成 “southern seas produces”，主謂數不自然。題目要的答案是地名 Australia。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "Bahrain",
+      "answerKey": "Bahrain",
+      "type": "Summary Completion",
+      "prompt": "“In the past, 10 _________________ in the Persian Gulf produced the world’s best pearls.”",
+      "translation": "過去，Persian Gulf 的 ______ 出產世界上最好的珍珠。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “in the Persian Gulf” 前後，答案應該是 Persian Gulf 內的具體地點。定位詞是 “world’s best pearls”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historically, the world’s highest-quality pearls came from the Persian Gulf, particularly the waters around Bahrain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史上，世界最高品質的珍珠來自 Persian Gulf，特別是 Bahrain 附近水域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ironically, much of that stock originally came from Bahrain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "具有諷刺意味的是，其中很大部分存量最初來自 Bahrain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Bahrain 是這段的核心地點，並且和最高品質 natural pearls 有直接關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Persian Gulf”"
+            },
+            {
+              "kind": "quote",
+              "text": "“world’s best pearls”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the world’s highest-quality pearls came from the Persian Gulf, particularly the waters around Bahrain.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“world’s highest-quality pearls” 對應題目 “world’s best pearls”。原文說最關鍵位置是 “the waters around Bahrain”。字數限制是 NO MORE THAN TWO WORDS，因此不能完整填 “waters around Bahrain”。題目句子已有 “in the Persian Gulf”，所以填 Bahrain 即可。答案形式檢查： Bahrain = 1 word，符合 NO MORE THAN TWO WORDS。放回題目：Bahrain in the Persian Gulf produced the world’s best pearls.雖然原文更精確地說 waters around Bahrain，答案 Bahrain 能保留核心地點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Generally, the centre of a cultured pearl is significantly larger than that of a natural pearl.”",
+      "translation": "一般而言，cultured pearl 的中心比 natural pearl 的中心大很多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心是 cultured pearl centre vs natural pearl centre的比較。定位詞是 cultured pearl、natural pearl、centre、larger。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A cultured pearl undergoes the same process, with one difference: the irritant is a bead called‘mother-of-pearl’, surgically implanted in the oyster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "cultured pearl 經歷同一個過程，但有一個差別：irritant 是稱為 mother-of-pearl 的珠粒，經手術植入 oyster 內。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As long as enough layers of nacre—the secreted fluid coating the irritant—form a beautiful, gem-quality pearl, the nucleus’s size does not affect its beauty or durability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要有足夠層的 nacre 形成美麗且達寶石品質的珍珠，nucleus 的大小便不會影響其美觀或耐久度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段講 cultured pearl 的形成和 nucleus / core 的問題。這和題目中的centre 比較直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “centre” 在原文用 “core” 或 “nucleus” 表達。Paragraph C 中間句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This produces a much larger core in cultured pearls than in natural ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會令 cultured pearls 的 core 比 natural pearls 大得多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “This” 指前一句的 implanted mother-of-pearl bead。它造成的結果是 “a much larger core in cultured pearls than in natural ones”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “centre” 對應 “core”；“significantly larger” 對應 “much larger”；“than that of a natural pearl” 對應 “than in natural ones”。題目加了 generally，沒有超出原文，因為 Paragraph C 在描述cultured pearl 的一般形成差異。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“centre”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“core” / “nucleus”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“significantly larger”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“much larger”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目命題和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Sometimes, fake pearls can be more expensive.”",
+      "translation": "有時候，fake pearls 可能更昂貴。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 fake pearls 的價值。題目中的 “fake pearls” 對應 imitation pearls。真正控制答案的是 more expensive 是否和原文的 value hierarchy 相符。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several factors are considered when evaluating a pearl: size, shape, colour, surface quality and lustre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "評估一顆珍珠時會考慮大小、形狀、顏色、表面品質和光澤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s Akoya pearls are among the most lustrous available, while the southern seas around Australia produce larger pearls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本 Akoya pearls 屬於目前最有光澤的珍珠之一，而澳洲南部海域出產較大的珍珠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph G 講 value evaluation。fake pearls 的價值應在這段中間的value ranking。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “fake pearls” 可能以 imitation pearls 出現。Paragraph G 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In descending order of value, the three types are natural, cultured and imitation, the last of which is essentially worthless.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按價值由高到低排列，三種類型依次是 natural、cultured 和 imitation；最後一種基本上沒有價值。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚建立 value ranking： natural pearls→ 最高價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cultured pearls→ 次一級。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "imitation pearls→ 最後，而且 “essentially worthless”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 fake pearls can be more expensive。fake pearls 對應 imitation pearls。原文說 imitation pearls 在價值排序中最低，甚至 essentially worthless。因此題目方向和原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“fake pearls”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“imitation”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be more expensive”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“in descending order of value … natural, cultured and imitation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the last of which is essentially worthless”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供明確相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 說 Mallorca 有 imitation-pearl industry，可能令人以為 imitation pearls 也可以有商業價值。不過商業產業存在，不代表它們比真珍珠昂貴。價值排序由 Paragraph G 定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Pearls produced in Japan are generally smaller than those produced in Australia.”",
+      "translation": "日本出產的珍珠一般比澳洲出產的珍珠小。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求比較 Japan 和 Australia 的 pearl size。定位詞是 Japan、Australia、smaller / larger。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several factors are considered when evaluating a pearl: size, shape, colour, surface quality and lustre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "評估一顆珍珠時會考慮大小、形狀、顏色、表面品質和光澤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s Akoya pearls are among the most lustrous available, while the southern seas around Australia produce larger pearls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的 Akoya pearls 屬於目前最有光澤的珍珠之一，而澳洲南部海域出產較大的珍珠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，這題的目標段落很清楚。Japan 和 Australia 在同一句中出現，並且一邊講lustrous，一邊講 larger。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“smaller”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 smaller，但有比較方向相反的 “larger”："
+            },
+            {
+              "kind": "quote",
+              "text": "“the southern seas around Australia produce larger pearls.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文把兩類珍珠並列："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s Akoya pearls are among the most lustrous available”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本 Akoya pearls 屬於最有光澤的一類。"
+            },
+            {
+              "kind": "quote",
+              "text": "“while the southern seas around Australia produce larger pearls”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲南部海域出產較大的珍珠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “while” 建立對比：日本 Akoya pearls 的突出特點是 lustre；Australia 的突出特點是 size。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說日本珍珠 generally smaller than Australia pearls，是從 “Australia produce larger pearls”得出的合理反向表述。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan … smaller than Australia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s Akoya pearls…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia produce larger pearls”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫方式： Australia pearls are larger= Japan pearls are smaller by comparison判斷：題目與原文比較方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要留意原文更精確地說 “Japan’s Akoya pearls”，題目概括成 “Pearls produced in Japan”。在這篇文章的語境中，Japan 的珍珠例子就是 Akoya pearls；題目沒有要求所有日本珍珠品種逐一成立，因此這個概括可接受。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Pearl.pdf",
+    "sha256": "3747a784e30fc65abb7b3484f9765af5269e18451f01f4648cce6c234c0f3b31",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 pearls 一直在 rich and powerful 群體中有 special status；末句說在 Eastern countries such as Persia，珍珠粉曾被用作治療心臟病到癲癇等疾病的 medicine。只看首尾句，可以先估這段是歷史引入，功能是說明珍珠過去的地位、財富象徵和用途。中間的 ancient Rome、diamonds、medicine 都應是 historical examples。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 pearls 一般可分成 natural、cultured 和 imitation 三類；末句說 layers gradually accumulate around the irritant，直到形成有光澤的 natural pearl。只看首尾句，可以估計這段在建立分類，並解釋 natural pearl 的基本形成機制。重點是 irritant 進入 oyster、mussel 或 clam 後，mollusc 分泌 defensive fluid 包裹它。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 cultured pearl 經歷同一個過程，但有一個差別；末句說只要有足夠 nacre 形成美麗的gem-quality pearl，nucleus 大小不會影響美觀或耐久度。只看首尾句，可以判斷這段專門比較cultured pearls 和 natural pearls 的形成差異。核心應是 surgically implanted mother-of-pearl bead，以及 cultured pearl 的 core 較大。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 pearls 來自 saltwater 和 freshwater sources；末句列出 producers 的不同做法，例如用freshwater 或 saltwater shellfish、把 graft 放在 mantle 或 gonad、加 spherical bead 或不用 bead。只看首尾句，可以估計這段講來源和生產方法。中間會處理 saltwater / freshwater 品質、形狀、價值判斷和中國 freshwater cultured pearls。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說無論用哪種方法，producing pearls usually takes several years；末句說最終產出的珍珠中，只有約 5% 達到 jewellers 所需的高品質。只看首尾句，可以即時判斷這段在講 cultivation 的困難和低成功率。重點包括 mussels mature 需時、irritant 可能被 rejected、珍珠可能 deform、oyster 可能死亡，以及五至十年週期後只有一半存活。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 imitation pearls are another matter，提示這段轉向假珍珠；末句說可用牙齒輕輕摩擦來分辨，fake pearls 感覺 smooth，real pearls 因 nacre layers 會感覺 gritty。只看首尾句，可以判斷這段處理 imitation-pearl industry 和真假判斷方法。Mallorca、fish scales solution、thin coating、wears away 都是關鍵細節。"
+      },
+      {
+        "number": "G",
+        "summary": "首句列出評估 pearl 的因素：size、shape、colour、surface quality 和 lustre；末句說 Japan’s Akoya pearls 屬於最有光澤的一類，Australia southern seas 產出較大的 pearls。只看首尾句，可以估計這段集中講 value assessment 和各類珍珠的品質差異。中間還會講 natural、cultured、imitation 的價值排序，以及 X-ray 分辨 natural / cultured。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說歷史上世界最高品質的珍珠來自 Persian Gulf，特別是 Bahrain 附近水域；末句說今日India 可能擁有最大 natural pearls stock，但很大部分最初來自 Bahrain。只看首尾句，可以判斷這段講 natural pearl 的歷史產地、Persian Gulf industry 的終結，以及 Bahrain 和 India 之間的stock 來源關係。"
+      }
+    ]
+  }
+}

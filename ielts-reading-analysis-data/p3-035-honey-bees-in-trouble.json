@@ -1,0 +1,1825 @@
+{
+  "id": "p3-035-honey-bees-in-trouble",
+  "catalogueId": "p3-035",
+  "catalogueIds": [
+    "p3-035"
+  ],
+  "passage": 3,
+  "title": "Honey bees in trouble",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "YES",
+    "B",
+    "C",
+    "A",
+    "D",
+    "B",
+    "B",
+    "F",
+    "E",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“In the United States, farmers have used honeybees on a large scale in recent years.”",
+      "translation": "在美國，近年農民大規模使用 honeybees。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 YES / NO / NOT GIVEN，問的是 writer’s claims。要判斷原文是否支持三個元素：地點是United States；時間是 recent years；規模是 large scale。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what few accounts acknowledge is that what’s at risk is not itself a natural state of affairs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但很少報道承認一點：目前受威脅的狀態本身並非自然狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Concern about these practices and their effects on pollinators isn’t new—in her 1962 ecological alarm cry Silent Spring, Rachel Carson warned of a ‘Fruitless Fall’ that could result from the disappearance of insect pollinators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對這些做法及其對授粉者影響的憂慮並不新鮮；Rachel Carson 在 1962 年的生態警號 Silent Spring 中警告，昆蟲授粉者消失可能導致一個「沒有果實的秋天」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 會處理現代農業授粉系統的非自然狀態，以及農業做法如何影響 pollinators。題目中的 United States、recent years、honeybees 大規模使用，正好與這段的industrial pollination 背景有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “United States”、“honeybees”、“large scale” 和 “recent years”。原文不一定使用 “large scale” 這個詞，因此也要留意具體數字，例如 millions、hives、industry。"
+            },
+            {
+              "kind": "label",
+              "text": "在 Paragraph B 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The total number of hives involved in the US pollination industry has been somewhere between 2.5 million and 3 million in recent years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年，美國授粉產業所涉及的蜂箱總數大約在 250 萬至 300 萬之間。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “The total number of hives involved in the US pollination industry”，核心資訊是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“between 2.5 million and 3 million”，時間是 “in recent years”。250 萬至 300 萬蜂箱是一個非常大的數量，足以支援題目中的 “on a large scale”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● 題目：In the United States原文：the US pollination industry● 題目：farmers have used honeybees原文：hives involved in the pollination industry● 題目：on a large scale原文：between 2.5 million and 3 million● 題目：in recent years原文：in recent years判斷時要注意：原文沒有逐字說 “farmers used honeybees”，但 “pollination industry” 在上下文中正是為 crops 授粉的農業系統，前後又一直談 farmers and crops。因此題目是合理概括。答案是YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Clean-farming practices would be harmful to farmers’ health.”",
+      "translation": "Clean-farming practices 會危害農民健康。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否談到 clean-farming practices 對 farmers’ health 的影響。題目重點不只是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“harmful”，還有限定對象 “farmers’ health”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句：“But what few accounts acknowledge is that what’s at risk is not itself a natural state of affairs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但很少報道承認一點：目前受威脅的狀態本身並非自然狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Concern about these practices and their effects on pollinators isn’t new—in her 1962 ecological alarm cry Silent Spring, Rachel Carson warned of a ‘Fruitless Fall’ that could result from the disappearance of insect pollinators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對這些做法及其對授粉者影響的憂慮並不新鮮；Rachel Carson 在 1962 年的生態警號 Silent Spring 中警告，昆蟲授粉者消失可能導致一個「沒有果實的秋天」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是講 agricultural practices 對 pollinators 的影響。題目提到 clean-farming practices，所以 Paragraph B 是正確定位段落；但題目加入 farmers’ health，需要檢查原文是否真的說到農民健康。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “clean-farming practices” 和 “farmers’ health”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“adopted ‘clean farming’ practices that scrubbed native vegetation from field margins and roadsides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "採用了 “clean farming” 做法，把田邊和路旁的原生植被清除掉。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These practices killed many native bees outright—they’re as vulnerable to insecticides as any agricultural pest—and made the agricultural landscape inhospitable to those that remained.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些做法直接殺死了許多 native bees；牠們和任何農業害蟲一樣容易受 insecticides 傷害，並使剩下的蜜蜂難以在農業景觀中生存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “These practices” 指前文的一連串做法，包括 insecticides、monocultures 和 clean farming。原文清楚指出受害對象是 native bees 和 pollinators，並說農業景觀對剩下的蜜蜂變得inhospitable。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：● 主體：clean-farming practices● 動作：would be harmful● 對象：farmers’ health原文命題：● 主體：these practices● 動作：killed / made inhospitable● 對象：native bees / pollinators原文沒有談 farmers’ health。這題不能選 NO，因為原文沒有說 clean farming 不會危害農民健康；它只談 pollinators。題目加入了 “farmers’ health” 這個原文沒有提供的對象，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“The blue orchard bee is the most efficient pollinator for every crop.”",
+      "translation": "Blue orchard bee 是每一種作物最有效率的授粉者。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查兩個關鍵限制：第一，blue orchard bee；第二，for every crop。IELTS 很常用 “every /all” 把原文的局部例子放大成絕對說法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, a few wild bees are already being successfully managed for crop pollination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，已有一些 wild bees 成功被管理並用於 crop pollination。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Brazil, Breno Freitas has found that Centris tarsata, the native pollinator of wild cashew, can survive in commercial cashew orchards if growers provide a source of floral oils, such as by interplanting their cashew trees with Caribbean cherry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在巴西，Breno Freitas 發現 Centris tarsata 這種 wild cashew 的 native pollinator，如果種植者提供 floral oils 來源，例如在 cashew trees 之間種植 Caribbean cherry，便能在 commercial cashew orchards 中存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph E 會舉出 native / wild bees 可用於 crop pollination 的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 blue orchard bee 正是此段中間的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “blue orchard bee”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, about 750 blue orchard bees (Osmia lignaria) can pollinate a hectare of apples or almonds, a task that would require roughly 50,000 to 150,000 honeybees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，大約 750 隻 blue orchard bees 可以為一公頃 apples 或 almonds 授粉；同一任務大約需要 50,000 至 150,000 隻 honeybees。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句之前還有一個重要限定："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, native bees can be much more efficient pollinators of certain crops than honeybees, so you don’t need as many to do the job.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，native bees 在某些作物上可以比 honeybees 更有效率，因此完成同一工作不需要那麼多 bees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡真正控制答案的是 “certain crops”。原文只把高效率限制在 “certain crops”，後面具體例子也只是 apples 或 almonds。題目卻說 “for every crop”，把局部優勢擴大成所有作物。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● 原文：certain crops"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：every crop"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 原文：apples or almonds"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：every crop"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 原文：native bees can be much more efficient than honeybees in certain cases"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：blue orchard bee is the most efficient pollinator for every crop"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有明確範圍衝突。原文支持 blue orchard bees 在 apples 或 almonds 這些例子上非常有效率；它沒有把牠提升到所有作物的最佳授粉者。由於題目用 “every crop” 過度概括，答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“It is beneficial to other local creatures to protect native bees.”",
+      "translation": "保護 native bees 對其他本地生物也有好處。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否說保護 native bees / wild pollinators 時，也會幫助其他 wild species。定位時要留意題目可能用 “local creatures” 改寫原文的 “wild species”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The region I work in is not typical of the way most food is produced,’ Winfree admits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Winfree 承認：「我工作的地區並不代表大多數食物生產的方式。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, ‘pollinator-friendly’ farming practices would not only aid pollination of agricultural crops, but also serve as a key element in the overall conservation strategy for wild pollinators, and often aid other wild species as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，“pollinator-friendly” farming practices 不只會幫助農作物授粉，也會成為 wild pollinators 整體保育策略中的關鍵元素，並且常常也幫助其他 wild species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段先說 Delaware Valley 的特殊性，再總結 pollinator-friendly practices 的廣泛好處。題目中的 “other local creatures” 很可能對應 “other wild species”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “beneficial”、“other local creatures”、“protect native bees”。原文沒有 “local creatures”，但有 “other wild species”。原文也沒有直接用 “protect native bees”，但有 “conservation strategy for wild pollinators”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘pollinator-friendly’ farming practices would not only aid pollination of agricultural crops, but also serve as a key element in the overall conservation strategy for wild pollinators, and often aid other wild species as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pollinator-friendly” farming practices 不只會幫助農作物授粉，也會成為 wild pollinators 整體保育策略中的關鍵元素，並且常常也幫助其他 wild species。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● protect native bees= conservation strategy for wild pollinators● beneficial= aid● other local creatures= other wild species題目沒有要求說所有本地生物都受益，只說有好處；原文的 “often aid other wild species as well”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "足夠支持。答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 31–35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — impacts of losing insect pollinators",
+      "answerKey": "B — impacts of losing insect pollinators",
+      "type": "Question Analysis",
+      "prompt": "“The example of the ‘Fruitless Fall’ underlines the writer’s point about…”",
+      "translation": "“Fruitless Fall” 這個例子強調作者關於甚麼的觀點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句：“But what few accounts acknowledge is that what’s at risk is not itself a natural state of affairs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但很少報道承認一點：目前受威脅的狀態本身並非自然狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Concern about these practices and their effects on pollinators isn’t new—in her 1962 ecological alarm cry Silent Spring, Rachel Carson warned of a ‘Fruitless Fall’ that could result from the disappearance of insect pollinators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對這些做法及其對授粉者影響的憂慮並不新鮮；Rachel Carson 在 1962 年的生態警號 Silent Spring 中警告，昆蟲授粉者消失可能導致一個「沒有果實的秋天」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Fruitless Fall”。原文直接出現，而且同一句有 “disappearance of insect pollinators”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文把 “Fruitless Fall” 直接定義為一種可能結果："
+            },
+            {
+              "kind": "quote",
+              "text": "“a ‘Fruitless Fall’ that could result from the disappearance of insect pollinators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個可能由昆蟲授粉者消失所導致的「沒有果實的秋天」。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“impacts of losing insect pollinators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "失去昆蟲授粉者造成的影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● losing insect pollinators= disappearance of insect pollinators● impacts= could result from / Fruitless Fall選項 A “the need to use pesticides” 方向不合，因為此段把 insecticides 描述成傷害 native bees的因素。C “vulnerabilities of native bees” 只抓住 bees 的脆弱性，未能概括 “Fruitless Fall” 的後果。D “benefits of building more pollination industries” 原文沒有這種意思。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — Honeybee hives can be moved away from pesticides.",
+      "answerKey": "C — Honeybee hives can be moved away from pesticides.",
+      "type": "Question Analysis",
+      "prompt": "“Why can honeybees adapt to the modern agricultural system?”",
+      "translation": "為甚麼 honeybees 能適應現代農業系統？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If that ‘Fruitless Fall’ has not—yet—occurred, it may be largely thanks to the honeybee, which farmers turned to as the ability of wild pollinators to service crops declined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果那個「沒有果實的秋天」至今尚未發生，很大程度上可能要歸功於 honeybee；當 wild pollinators 為作物授粉的能力下降時，農民便轉向 honeybee。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that system is also vulnerable, because making a farm field into the photosynthetic equivalent of a factory floor, and pollination into a series of continent-long assembly lines, also leaches out some of the resilience characteristic of natural ecosystems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這個系統也很脆弱，因為把農田變成類似 factory floor 的光合作用場所、把授粉變成一系列跨洲 assembly lines，也會抽走自然生態系統原有的一部分 resilience。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是解釋 honeybee 為何適合 emerging agricultural system，同時指出這種工業化系統的脆弱性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “adapt to the modern agricultural system”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the bees’ biology is in many ways suited to the kind of agricultural system that was emerging.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些蜜蜂的生物特性在許多方面都適合當時正在形成的農業系統。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文用 “For example” 給出第一個具體原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, honeybee hives can be closed up and moved out of the way when pesticides are applied to a field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，當農田施用 pesticides 時，honeybee hives 可以被關起來並移到一旁。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Honeybee hives can be moved away from pesticides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Honeybee hives 可以移離 pesticides。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文的 “moved out of the way when pesticides are applied” 幾乎直接對應。更重要的是， Paragraph B 剛剛指出 modern agriculture 使用大量 organophosphate insecticides，Paragraph C 接著解釋 honeybee hives 能在 pesticide application 時被移走，因此牠們更能配合這套現代農業操作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “Honeybees can pollinate many crops” 也有原文支援："
+            },
+            {
+              "kind": "quote",
+              "text": "“The bees are generalist pollinators, so they can be used to pollinate many different crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些蜜蜂是 generalist pollinators，因此可用於為很多不同作物授粉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個真實干擾，因為它也是 honeybees 適合農業的原因。不過題目問 “adapt to the modern agricultural system”，最貼近現代系統中 pesticide use 的直接例子是 C；而且原文以 “For example” 首先提出 hives 可移離 pesticides。B 被原文弱化，因為文章說 “it wasn’t just familiarity that determined this choice”。D 說的是農民轉向 honeybee 的背景，未直接解釋 honeybee 本身為何適合現代系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以最佳答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "A — one drawback of the industrialised agricultural system",
+      "answerKey": "A — one drawback of the industrialised agricultural system",
+      "type": "Question Analysis",
+      "prompt": "“The writer mentions factories and assembly lines to illustrate…”",
+      "translation": "作者提到 factories 和 assembly lines，是為了說明甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If that ‘Fruitless Fall’ has not—yet—occurred, it may be largely thanks to the honeybee, which farmers turned to as the ability of wild pollinators to service crops declined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果那個「沒有果實的秋天」至今尚未發生，很大程度上可能要歸功於 honeybee；當 wild pollinators 為作物授粉的能力下降時，農民便轉向 honeybee。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that system is also vulnerable, because making a farm field into the photosynthetic equivalent of a factory floor, and pollination into a series of continent-long assembly lines, also leaches out some of the resilience characteristic of natural ecosystems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這個系統也很脆弱，因為把農田變成類似 factory floor 的光合作用場所、把授粉變成一系列跨洲 assembly lines，也會抽走自然生態系統原有的一部分 resilience。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段先說 honeybee 的重要性，再用 factory floor / assembly lines 比喻工業化農業的弱點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “factories and assembly lines”。原文直接用 “factory floor” 和 “assembly lines”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵結構是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that system is also vulnerable, because…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這個系統也很脆弱，因為……factory floor 和 assembly lines 出現在 because 後面，作用是解釋為何 industrial agriculture vulnerable。句末 “leaches out some of the resilience characteristic of natural ecosystems” 更清楚地指出：工業化方式會流失自然生態系統的 resilience。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“one drawback of the industrialised agricultural system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工業化農業系統的一個缺點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● drawback= vulnerable / leaches out resilience● industrialised agricultural system= farm field as factory floor; pollination as assembly lines B “a low cost in modern agriculture” 只抓到前一句 “more cheaply than ever before”，但 factory /assembly line 例子真正服務的是 vulnerability。C “role of honeybees” 符合前文 honeybee crucial cog，但該比喻的重點已轉向系統脆弱。D “high yields” 原文沒有把 factory floor 比喻用來說明 high yields。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "D — wild bees work more efficiently as pollinators than honeybees in certain cases.",
+      "answerKey": "D — wild bees work more efficiently as pollinators than honeybees in certain cases.",
+      "type": "Question Analysis",
+      "prompt": "“In the 6th paragraph, Winfree’s experiment proves that…”",
+      "translation": "第六段中，Winfree 的實驗證明甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In certain places, native bees may already be doing more than they’re getting credit for.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些地方，native bees 可能已經做了很多，只是沒有得到足夠 credit。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, honeybees alone could provide sufficient pollination at only 78 per cent of farms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，honeybees alone 只能在 78% 的 farms 提供足夠授粉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句已表示 native bees 的貢獻被低估；尾句用數字比較 native bees 和 honeybees 的授粉能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Winfree”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ecologist Rachael Winfree recently led a team that looked at pollination of four summer crops…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ecologist Rachael Winfree 最近帶領一個團隊研究四種 summer crops 的授粉。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩組重要證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Winfree’s team identified 54 species of wild bees that visited these crops, and found that wild bees were the most important pollinators in the system…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Winfree 的團隊辨認出 54 種曾到訪這些作物的 wild bees，並發現 wild bees 是該系統中最重要的授粉者。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“wild bees were responsible for 62 per cent of flower visits in the study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在研究中，wild bees 負責 62% 的 flower visits。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 watermelon study："
+            },
+            {
+              "kind": "quote",
+              "text": "“native bees alone could provide sufficient pollination at 90 per cent of the 23 farms studied. By contrast, honeybees alone could provide sufficient pollination at only 78 per cent of farms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "native bees alone 可以在 23 個受研究 farms 中的 90% 提供足夠授粉。相比之下，honeybees alone 只在 78% farms 提供足夠授粉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 概括這些數據：wild bees 在 certain cases 比 honeybees 更有效。這裡 “certain cases” 很重要，因為 Winfree 的研究限定於 New Jersey and Pennsylvania 的 29 farms 和特定 crops，不是所有農業場景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “there are many types of wild bees as pollinators” 是真實細節，因為原文有 54 species。但題目問 experiment proves 的主要結論，D 更能覆蓋 wild bees 的 relative effectiveness。C 提到yield，原文談 pollination / flower visits，沒有談 yield。A 講 honeybees pollinate various crops，並非 Winfree 研究重點。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B — the use of different bee species in agricultural systems of various sizes",
+      "answerKey": "B — the use of different bee species in agricultural systems of various sizes",
+      "type": "Question Analysis",
+      "prompt": "“What does the writer want to suggest in the last paragraph?”",
+      "translation": "作者在最後一段想建議甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, not all farmers will be able to implement all of these practices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，不是所有 farmers 都能實施所有這些做法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, they’re saying, we still have an opportunity to replace a risky monoculture with something diverse, resilient, and robust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，他們認為，我們仍有機會用 diverse、resilient、robust 的系統，取代 risky monoculture。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段是收結和建議：不是所有農民都能做同一套做法，所以需要多元、具彈性的授粉系統。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “last paragraph” 和 “suggest”。要找段落中的 proposed system。原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“researchers are suggesting a shift to a kind of polyglot agricultural system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者正建議轉向一種 polyglot agricultural system。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文接著細分："
+            },
+            {
+              "kind": "quote",
+              "text": "“For some small-scale farms, native bees may indeed be all that’s needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對一些 small-scale farms 來說，native bees 可能確實已足夠。"
+            },
+            {
+              "kind": "label",
+              "text": "再看大型 farms："
+            },
+            {
+              "kind": "quote",
+              "text": "“For larger operations, a suite of managed bees—with honeybees filling the generalist role and other native bees pollinating specific crops—could be augmented by free pollination services from resurgent wild pollinators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對較大型 operations 來說，可以使用一組 managed bees：honeybees 擔任 generalist role，其他native bees 為 specific crops 授粉，再由復興中的 wild pollinators 提供免費授粉服務作補充。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“the use of different bee species in agricultural systems of various sizes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在不同大小的農業系統中使用不同 bee species。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● different bee species= honeybees + other native bees + wild pollinators● agricultural systems of various sizes= small-scale farms + larger operations● use= native bees may be all that’s needed / suite of managed bees A 只強調 honeybees，與最後一段的 diverse system 不合。C 比較 intensive / extensive agricultural systems，原文沒有這組比較。D 問為何 farmers can rely on native pollinators，只抓住小型 farms 的部分內容，不能覆蓋 larger operations。答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 36–40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — it would cause severe consequences for both commerce and agriculture.",
+      "answerKey": "B — it would cause severe consequences for both commerce and agriculture.",
+      "type": "Question Analysis",
+      "prompt": "“Headlines about colony collapse disorder state that it would cause severe consequences for both commerce and agriculture.”",
+      "translation": "關於 colony collapse disorder 的 headlines 表示，它會對商業和農業造成嚴重後果。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recently, ominous headlines have described a mysterious ailment, colony collapse disorder (CCD), that is wiping out the honeybees that pollinate many crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近，一些不祥的 headlines 描述了一種神秘疾病 colony collapse disorder，即 CCD；它正在消滅為許多 crops 授粉的 honeybees。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without honeybees, the story goes, fields will be sterile, economies will collapse, and food will be scarce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照這種說法，如果沒有 honeybees，田野會不結果，經濟會崩潰，食物會短缺。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題幹的 “Headlines about colony collapse disorder” 幾乎直接對應 Paragraph A 第一句 “ominous headlines … colony collapse disorder”。句尾要找 headlines 所聲稱的後果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “fields will be sterile, economies will collapse, and food will be scarce”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● fields will be sterile = agricultural consequence田野不結果，屬於農業後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● economies will collapse = commercial / economic consequence經濟崩潰，屬於商業和經濟後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● food will be scarce = food supply consequence食物短缺，也是嚴重社會後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的 “severe consequences for both commerce and agriculture” 最能概括這三個結果。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "F — an agricultural system is fragile when relying on a single pollinator.",
+      "answerKey": "F — an agricultural system is fragile when relying on a single pollinator.",
+      "type": "Question Analysis",
+      "prompt": "“Freitas’s observations show that an agricultural system is fragile when relying on a single pollinator.”",
+      "translation": "Freitas 的觀察顯示，當農業系統依賴單一授粉者時，系統會變得脆弱。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Breno Freitas, an agronomist, pointed out that in nature such a high degree of specialisation is usually a very dangerous game: it works well while all the rest is in equilibrium, but can quickly lead to extinction at the slightest imbalance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農學家 Breno Freitas 指出，在自然界中，如此高度的專門化通常是非常危險的遊戲：在其他一切保持平衡時它運作良好，但只要出現最輕微的不平衡，便可能迅速導致 extinction。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And when the human-honeybee relationship is disrupted, as it has been by colony collapse disorder, the vulnerability of that agricultural system begins to become clear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人類與 honeybee 的關係被打斷，例如受到 colony collapse disorder 影響時，這個農業系統的vulnerability 便開始變得清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “Freitas”。Paragraph D 第一個字就是 Breno Freitas。句尾要找他的 observation的核心意思：high specialisation dangerous / single pollinator reliance vulnerable。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In effect, by developing an agricultural system that is heavily reliant on a single pollinator species, we humans have become dangerously overspecialised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實際上，透過發展一個高度依賴 single pollinator species 的農業系統，人類已變得危險地過度專門化。"
+            },
+            {
+              "kind": "label",
+              "text": "這句直接對應選項 F："
+            },
+            {
+              "kind": "quote",
+              "text": "“an agricultural system is fragile when relying on a single pollinator.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● fragile= vulnerable / dangerous / can quickly lead to extinction● relying on a single pollinator= heavily reliant on a single pollinator species● agricultural system= agricultural system所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "E — large numbers of honeybees are needed for pollination.",
+      "answerKey": "E — large numbers of honeybees are needed for pollination.",
+      "type": "Question Analysis",
+      "prompt": "“Examples of blue orchard bees have shown that large numbers of honeybees are needed for pollination.”",
+      "translation": "Blue orchard bees 的例子顯示，若使用 honeybees 授粉，需要大量 honeybees。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, a few wild bees are already being successfully managed for crop pollination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，已有一些 wild bees 成功被管理並用於 crop pollination。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Brazil, Breno Freitas has found that Centris tarsata, the native pollinator of wild cashew, can survive in commercial cashew orchards if growers provide a source of floral oils, such as by interplanting their cashew trees with Caribbean cherry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在巴西，Breno Freitas 發現 Centris tarsata 這種 wild cashew 的 native pollinator，如果種植者提供 floral oils 來源，例如在 cashew trees 之間種植 Caribbean cherry，便能在 commercial cashew orchards 中存活。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “blue orchard bees”。原文直接出現 blue orchard bees 和具體數字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, about 750 blue orchard bees (Osmia lignaria) can pollinate a hectare of apples or almonds, a task that would require roughly 50,000 to 150,000 honeybees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，大約 750 隻 blue orchard bees 可以為一公頃 apples 或 almonds 授粉；同一任務大約需要 50,000 至 150,000 隻 honeybees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的對比非常清楚：● 750 blue orchard bees● 50,000 to 150,000 honeybees選項 E 說 “large numbers of honeybees are needed for pollination”，正是把 50,000 至 150,000這個數量概括成 large numbers。答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — native pollinators can survive when a specific plant is supplied.",
+      "answerKey": "A — native pollinators can survive when a specific plant is supplied.",
+      "type": "Question Analysis",
+      "prompt": "“Centris tarsata is mentioned to exemplify that native pollinators can survive when a specific plant is supplied.”",
+      "translation": "Centris tarsata 被提及，是為了說明 native pollinators 在提供某種特定植物時可以存活。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, a few wild bees are already being successfully managed for crop pollination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，已有一些 wild bees 成功被管理並用於 crop pollination。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Brazil, Breno Freitas has found that Centris tarsata, the native pollinator of wild cashew, can survive in commercial cashew orchards if growers provide a source of floral oils, such as by interplanting their cashew trees with Caribbean cherry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在巴西，Breno Freitas 發現 Centris tarsata 這種 wild cashew 的 native pollinator，如果種植者提供 floral oils 來源，例如在 cashew trees 之間種植 Caribbean cherry，便能在 commercial cashew orchards 中存活。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Centris tarsata”。原文只在 Paragraph E 最後一句出現一次，因此定位很直接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文條件句很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“can survive in commercial cashew orchards if growers provide a source of floral oils, such as by interplanting their cashew trees with Caribbean cherry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果種植者提供 floral oils 的來源，例如在 cashew trees 之間種植 Caribbean cherry，牠便能在commercial cashew orchards 中存活。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“native pollinators can survive when a specific plant is supplied.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● native pollinators= Centris tarsata, the native pollinator of wild cashew● can survive= can survive● when a specific plant is supplied= if growers provide a source of floral oils, such as Caribbean cherry答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — some agricultural landscapes are favourable for supporting wild bees.",
+      "answerKey": "D — some agricultural landscapes are favourable for supporting wild bees.",
+      "type": "Question Analysis",
+      "prompt": "“One finding of the research in Delaware Valley is that some agricultural landscapes are favourable for supporting wild bees.”",
+      "translation": "Delaware Valley 研究的一個發現是，某些農業景觀有利於支持 wild bees。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The region I work in is not typical of the way most food is produced,’ Winfree admits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Winfree 承認：「我工作的地區並不代表大多數食物生產的方式。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, ‘pollinator-friendly’ farming practices would not only aid pollination of agricultural crops, but also serve as a key element in the overall conservation strategy for wild pollinators, and often aid other wild species as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，“pollinator-friendly” farming practices 不只會幫助農作物授粉，也會成為 wild pollinators 整體保育策略中的關鍵元素，並且常常也幫助其他 wild species。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Delaware Valley”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Delaware Valley, most farms and farm fields are relatively small…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Delaware Valley，大多數 farms 和 farm fields 都相對較小。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The landscape is a bee-friendly patchwork that provides a variety of nesting habitat and floral resources distributed among different kinds of crops, weedy field margins, fallow fields, suburban neighborhoods, and semi-natural habitat like old woodlots, all at a relatively small scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這片 landscape 是一種 bee-friendly patchwork，提供多種 nesting habitat 和 floral resources；這些資源分布在不同作物、雜草田邊、休耕地、郊區社區，以及 old woodlots 這類半自然棲息地之中，而且整體尺度相對較小。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“some agricultural landscapes are favourable for supporting wild bees.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● favourable= bee-friendly● supporting wild bees= provides nesting habitat and floral resources● agricultural landscapes= farms, farm fields, crops, field margins, fallow fields這裡要留意 “some”。原文說 Delaware Valley “is not typical”，表示這種 landscape 不是所有農業區都有，但至少有些地區具備支持 wild bees 的條件。因此 D 的 “some agricultural landscapes”很精準。答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Honey bees in trouble.pdf",
+    "sha256": "fd000aa5ef590b8bcf3f7edc6a5c30e94be97cf5f7241f5226799c9773050fae",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首尾句，Paragraph A 先用近期報道引入 colony collapse disorder，即 CCD，並說這種神秘問題正在消滅負責為許多 crops 授粉的 honeybees。段尾描寫報道中的災難敘事：沒有honeybees，田野會不結果、經濟會崩潰、食物會短缺。這段功能是製造危機背景，呈現主流媒體對蜂群崩潰的恐慌說法。Questions 36 直接定位於此段，因為題目問 headlines about CCD state that。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句用 “But” 轉折，指出很多報道忽略了一點：當前受威脅的農業授粉系統本身並非自然狀態。段尾引用 Rachel Carson 在 Silent Spring 中對 “Fruitless Fall” 的警告，說昆蟲授粉者消失可能造成沒有果實的秋天。這段功能是補充歷史和背景：美國 honeybees 並非 native species，現代授粉是 industrial pollination；農藥、單一作物和 clean farming 已經破壞 native bees。Q27、Q28、Q31 主要在這段。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句說，如果 “Fruitless Fall” 尚未發生，很大程度上可能要歸功於 honeybee；段尾指出，把農田變成 factory floor、把授粉變成跨洲 assembly lines，會抽走自然生態系統的resilience。這段功能是解釋為何 honeybees 成為現代農業核心：hives 可移動、能授粉多種作物、數量龐大。段落後半轉向風險：工業化農業高效又廉價，但也因過度依賴 honeybee 而變得脆弱。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句引用 Breno Freitas，指出自然界高度專門化通常是危險遊戲；段尾說當人類與honeybee 的關係因 CCD 受干擾時，農業系統的 vulnerability 就變得清楚。這段功能是把前段的vulnerability 講得更明確：人類把農業授粉建立在 single pollinator species 上，等於變得dangerously overspecialised。Q37 的句尾配對會用到這段，因為 Freitas 的觀察正是關於單一依賴的風險。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說，已有一些 wild bees 成功被管理用於 crop pollination；段尾舉 Brazil 例子， Freitas 發現 Centris tarsata 只要有 floral oils 來源，便能在 commercial cashew orchards 存活。這段功能是回答標題副題：native pollinators 是否能填補 gap。段中先提出困難：短時間內可靠地提供足夠 native bees 很難；接著提出優勢：某些 native bees 比 honeybees 更有效率，例如 blue orchard bees 授粉 apples 或 almonds 所需數量遠少於 honeybees。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句說，在某些地方，native bees 可能已經做了很多，只是沒有得到足夠 credit；段尾比較 watermelon 研究，native bees alone 可在 90% farms 提供足夠授粉，honeybees alone只在 78% farms 達到。這段功能是提供 Rachael Winfree 的實證研究。她的團隊在 New Jersey和 Pennsylvania 的 29 個 farms 研究四種 summer crops，發現 54 species of wild bees，並指出wild bees 負責 62% flower visits。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句承認 Delaware Valley 並非典型大規模食物生產區；段尾說 pollinator-friendly farming practices 不只幫助 crop pollination，也能成為 wild pollinators conservation strategy 的核心，並常常幫助其他 wild species。這段功能是解釋為何 Winfree 的研究地區適合 wild bees： farm fields 較小、作物多樣、農地和 suburban land use 混合，並提供多種 nesting habitat 和floral resources。Q30 和 Q40 主要定位在這段。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句說，當然，不是所有 farmers 都能實施所有做法；段尾總結，仍有機會用 diverse、resilient、robust 的系統取代 risky monoculture。這段功能是提出最後建議：建立 polyglot agricultural system。小型 farms 可能只需 native bees；大型 operations 可用多種 managed bees，honeybees 承擔 generalist role，其他 native bees 負責 specific crops，再加上 wild pollinators的免費授粉服務。Q35 直接考這段主旨。"
+      }
+    ]
+  }
+}

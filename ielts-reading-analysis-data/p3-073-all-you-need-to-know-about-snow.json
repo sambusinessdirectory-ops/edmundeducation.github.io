@@ -1,0 +1,2006 @@
+{
+  "id": "p3-073-all-you-need-to-know-about-snow",
+  "catalogueId": "p3-073",
+  "catalogueIds": [
+    "p3-073"
+  ],
+  "passage": 3,
+  "title": "ALL YOU NEED TO KNOW ABOUT SNOW",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "YES",
+    "NO",
+    "YES",
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "quantities",
+    "trend",
+    "prolonged cold weather",
+    "subtle climatic change",
+    "A — uninterrupted",
+    "E — extreme",
+    "D — waning"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“When a warm front from an extratropical cyclone meets a cold front, snow is more likely to occur on the poleward side of the weather system.”",
+      "translation": "當 extratropical cyclone 的 warm front 遇上 cold front 時，雪較可能出現在這個 weather system的 poleward side。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snow is typically the product of weather conditions in which an extratropical cyclone has formed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雪通常是某些天氣條件的產物，而這些條件中形成了 extratropical cyclone。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the warm front and cold front collide, snow can result on the poleward side of the precipitation band; that is, on the northern side in the Northern Hemisphere and on the southern side in the Southern Hemisphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 warm front 和 cold front 碰撞時，雪可能出現在 precipitation band 的 poleward side；也就是在 Northern Hemisphere 的北側，或 Southern Hemisphere 的南側。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 的功能很清楚：它解釋 extratropical cyclone、fronts 和 snow 的位置關係。題目有 warm front、cold front、poleward side，所以應先找這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“warm front”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cold front”"
+            },
+            {
+              "kind": "quote",
+              "text": "“poleward side”"
+            },
+            {
+              "kind": "label",
+              "text": "原文完全重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the warm front and cold front collide…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“snow can result on the poleward side…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “weather system” 概括了原文的 “precipitation band”。這是上位概括，不影響核心意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the warm front and cold front collide, snow can result on the poleward side of the precipitation band…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當暖鋒和冷鋒碰撞時，雪可能在降水帶朝向極地的一側出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “snow is more likely to occur on the poleward side”。原文的 “can result on the poleward side” 雖然語氣較保守，但清楚指出雪出現的位置是 poleward side。題目沒有說一定會下雪，只說較可能出現，和原文方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "warm front meets cold front= warm front and cold front collide weather system= precipitation band snow is more likely to occur= snow can result on the poleward side= on the poleward side所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Lake-effect snow is aptly named, given that it is a weather phenomenon which is only associated with lakes.”",
+      "translation": "Lake-effect snow 這個名稱很貼切，因為這種天氣現象只和 lakes 有關。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lake-effect snow is another kind of common snowfall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lake-effect snow 是另一種常見降雪。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the temperature difference between the body of water and the air above is significant, about 13°C or more, this can result in heavy and prolonged snowfall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果水體和上方空氣之間的溫差明顯，大約達到 13°C 或以上，便可能造成大雪和長時間降雪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 是 lake-effect snow 的定義和形成條件段。題目直接提到 Lake-effect snow 和 lakes，所以定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lake-effect snow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only associated with lakes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最重要的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the name suggests that this type of precipitation is associated only with lakes, any narrow body of water may generate it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個名稱令人以為這種 precipitation 只和 lakes 有關，但任何 narrow body of water 都可能產生它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “only associated with lakes”。原文正好處理這個誤解："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the name suggests…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 雖然名稱令人以為……"
+            },
+            {
+              "kind": "quote",
+              "text": "“associated only with lakes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 只和 lakes 有關"
+            },
+            {
+              "kind": "quote",
+              "text": "“any narrow body of water may generate it”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 任何狹窄水體都可能產生它所以原文清楚排除 “only lakes” 這個說法。題目說這名稱很貼切，原因是它只和 lakes 有關；原文說名稱有誤導性，因為不限於 lakes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：only associated with lakes"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：any narrow body of water may generate it題目把名稱暗示當作事實；原文說這只是名稱帶出的錯覺。答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Heavy snowfall is more likely to be seen on the side of the mountain that is exposed to high winds.”",
+      "translation": "Heavy snowfall 較可能出現在山的迎風一側。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mountainous areas are also prone to experiencing heavy snowfall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "山區也容易經歷 heavy snowfall。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Accumulations typically occur on the windward side of the mountain as precipitation is‘squeezed out’ of the warm moist air as it is forced to ascend the slopes; the moisture condenses upon contact with the colder air found at higher altitudes and heavy snowfall can then occur if ground conditions are sufficiently cold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "積雪通常出現在山的 windward side，因為 warm moist air 被迫沿山坡上升時，降水會被「擠出」；水分接觸高海拔較冷空氣後凝結，若地面條件足夠寒冷，便可能出現 heavy snowfall。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾都圍繞 mountainous areas 和 heavy snowfall，題目也有 mountain，所以定位到Paragraph 3。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“side of the mountain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exposed to high winds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heavy snowfall”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“windward side of the mountain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“forced to ascend the slopes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heavy snowfall can then occur”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“windward side” 指迎風面，也就是面向風、受風影響的一側。題目用 “exposed to high winds” 來改寫這個概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Accumulations typically occur on the windward side of the mountain…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "積雪通常出現在山的迎風面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文解釋原因：暖濕空氣被迫上升，水分遇冷凝結，若地面足夠冷，就會有 heavy snowfall。題目說 heavy snowfall 更可能在 exposed to high winds 的山側出現，和原文 “windward side” 一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "side exposed to high winds= windward side more likely to be seen= accumulations typically occur heavy snowfall= heavy snowfall can then occur所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“In the absence of dust or a similar particle to start the freezing process, supercooled moisture will not freeze in a cloud whose mean temperature is −34°C or higher.”",
+      "translation": "如果沒有 dust 或類似粒子啟動 freezing process，supercooled moisture 在平均溫度為 −34°C或更高的雲中不會凍結。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snow crystals form from tiny, supercooled cloud droplets at extremely low temperatures in the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雪晶由大氣中極低溫下的 tiny, supercooled cloud droplets 形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In warmer clouds, an aerosol particle such as clay or desert dust, or an ice nucleus is needed for the freezing to start.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在較暖的雲中，需要 aerosol particle，例如 clay、desert dust，或 ice nucleus，才可開始 freezing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 snow crystal 形成的初始條件，題目有 supercooled moisture、dust、freezing process，所以很明顯要看 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“dust”"
+            },
+            {
+              "kind": "quote",
+              "text": "“freezing process”"
+            },
+            {
+              "kind": "quote",
+              "text": "“−34°C or higher”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Temperatures lower than minus 35 degrees Celsius are required for this supercooled moisture to freeze by itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 supercooled moisture 要自行凍結，需要低於 −35°C 的溫度。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“In warmer clouds, an aerosol particle such as clay or desert dust, or an ice nucleus is needed for the freezing to start.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在較暖的雲中，需要 clay、desert dust 或 ice nucleus 這類粒子來啟動凍結。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文給出條件：低於 −35°C→ supercooled moisture 可以 freeze by itself warmer clouds→ 需要 aerosol particle / clay / desert dust / ice nucleus題目說 −34°C or higher。−34°C 比 −35°C 暖，所以屬於原文所說的 warmer clouds。題目還加上"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“In the absence of dust or a similar particle”，正好排除了原文所需的啟動條件。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dust or a similar particle= aerosol particle such as clay or desert dust, or an ice nucleus start the freezing process= needed for the freezing to start−34°C or higher= warmer than minus 35 degrees Celsius supercooled moisture will not freeze= cannot freeze by itself without the required particle所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The real colour of snow is the same as the colour snow appears to be to the human eye.”",
+      "translation": "雪的真實顏色和人眼看到的顏色相同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once a droplet of water has frozen, it starts to grow in the supersaturated environment of the cloud.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦一滴水凍結，它便會在雲中的 supersaturated environment 中開始生長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the ice crystals that land on the ground are actually transparent, hollow imperfections in them mean that light is scattered and they often appear white in colour owing to diffuse reflection of the whole spectrum of light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然落到地面的 ice crystals 實際上是 transparent，但其中的 hollow imperfections 令光線散射，所以它們常因整個光譜的 diffuse reflection 而看起來是 white。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 5 講冰晶生長、落地成雪，以及雪為何看起來是白色。題目問real colour 和 apparent colour，所以答案在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“real colour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“appears”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human eye”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 human eye，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“actually transparent”"
+            },
+            {
+              "kind": "quote",
+              "text": "“appear white in colour”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個短語直接建立「實際狀態」和「看起來」的差別。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the ice crystals that land on the ground are actually transparent…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然落到地面的冰晶實際上是透明的……"
+            },
+            {
+              "kind": "quote",
+              "text": "“they often appear white in colour…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們常常看起來是白色的……題目說 real colour 和 apparent colour 相同。原文說實際上是 transparent，但看起來 often appear white。這是清楚的不相容資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "real colour= actually transparent appears to human eye= appear white in colour same↔ 原文顯示 transparent 和 white 不同所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Snowflakes shaped like a prism are more likely to form in milder weather than are flakes with more intricate growth patterns.”",
+      "translation": "prism 形狀的 snowflakes，比有更複雜 growth patterns 的 snowflakes 更可能在較溫和的天氣中形成。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The shape of a snowflake is determined by the atmospheric conditions present at the time of its formation, specifically temperature and humidity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "snowflake 的形狀由其形成時的大氣條件決定，特別是 temperature 和 humidity。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At temperatures of −22°C and below, as well as the column-like structures, more complex growth patterns also form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 −22°C 及以下，除了 column-like structures，也會形成 more complex growth patterns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 是形狀與溫度對應段。題目有 prism 和 complex growth patterns，這段正是目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“prism”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more intricate growth patterns”"
+            },
+            {
+              "kind": "quote",
+              "text": "“milder weather”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From −3°C to −8°C, the crystals form needles or prisms with pencil-like shapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 −3°C 至 −8°C 之間，crystals 會形成 needles 或 prisms，也就是 pencil-like shapes。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“At temperatures of −22°C and below… more complex growth patterns also form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 −22°C 及以下，會形成更複雜的生長形態。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要比較兩種形狀的溫度範圍： prisms= −3°C to −8°C more complex growth patterns= −22°C and below−3°C 至 −8°C 明顯比 −22°C 及以下溫和。題目中的 “milder weather” 就是較高、較暖的溫度條件。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "shaped like a prism= form needles or prisms with pencil-like shapes more intricate growth patterns= more complex growth patterns milder weather= −3°C to −8°C, compared with −22°C and below因此答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The thin flat crystals created at temperatures of between zero and minus three degrees Celsius are more voluminous than column-like crystals.”",
+      "translation": "在 0°C 至 −3°C 之間形成的 thin flat crystals，比 column-like crystals 體積更大。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The shape of a snowflake is determined by the atmospheric conditions present at the time of its formation, specifically temperature and humidity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "snowflake 的形狀由形成時的大氣條件決定，尤其是 temperature 和 humidity。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At temperatures of −22°C and below, as well as the column-like structures, more complex growth patterns also form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 −22°C 及以下，除了 column-like structures，也會形成 more complex growth patterns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 提供不同溫度下的形狀分類，但首尾句沒有顯示任何體積比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“thin flat crystals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“zero and minus three degrees Celsius”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more voluminous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“column-like crystals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有前兩組資料："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 0°C and −3°C, thin flat crystals called planar crystals grow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 0°C 至 −3°C 之間，會長出稱為 planar crystals 的 thin flat crystals。"
+            },
+            {
+              "kind": "label",
+              "text": "原文也有 column-like structures："
+            },
+            {
+              "kind": "quote",
+              "text": "“At temperatures of −22°C and below, as well as the column-like structures…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 −22°C 及以下，除了 column-like structures……但原文沒有 “more voluminous” 或任何 size / volume comparison。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只支援兩點：第一，0°C 至 −3°C 會形成 thin flat planar crystals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，−22°C 及以下會有 column-like structures 和 complex growth patterns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目多加了一個核心比較： thin flat crystals are more voluminous than column-like crystals這需要原文提供體積、厚度、大小或容量方面的比較。文章只說 thin flat、needles、prisms、plate-like、column-like、complex growth patterns，這些都是形狀分類，沒有比較哪一種更voluminous。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此原文資料不足以判斷題目真假。答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "quantities",
+      "answerKey": "quantities",
+      "type": "Sentence Completion",
+      "prompt": "“While snowfall is not an uncommon feature of a United Kingdom winter, it is rare for significant 34 ______ to accumulate, or for the snow to remain on the ground for any great length of time.”",
+      "translation": "雖然英國冬天下雪並不少見，但很少有大量 ______ 累積，雪也很少在地上維持很長時間。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snowfall occurs frequently in the UK, but the quantities are typically small and it seldom persists for very long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國經常下雪，但 snow 的 quantities 通常很小，而且雪很少持續很久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consequence, despite the occasional incident of prolonged cold, Britain’s winters are typically not very severe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，儘管偶爾會有 prolonged cold，Britain’s winters 通常並不 very severe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接對應題目句子的前半和後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“not uncommon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accumulate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remain on the ground”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“occurs frequently”"
+            },
+            {
+              "kind": "quote",
+              "text": "“quantities are typically small”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seldom persists for very long”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “quantities are typically small” 改寫成 “rare for significant quantities to accumulate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snowfall occurs frequently in the UK, but the quantities are typically small and it seldom persists for very long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國下雪很常見，但雪量通常很小，而且很少維持很久。"
+            },
+            {
+              "kind": "label",
+              "text": "題目已經提供："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is rare for significant ______ to accumulate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個複數名詞，並且要能和 significant 搭配。原文中最合適的是： quantities完整句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is rare for significant quantities to accumulate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文 “the quantities are typically small” 是反向改寫：原文說雪量通常很少；題目說大量累積很少見。答案是 quantities。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "trend",
+      "answerKey": "trend",
+      "type": "Sentence Completion",
+      "prompt": "“Three consecutive winters have failed to follow the 35 ______ towards milder, wetter weather.”",
+      "translation": "連續三個冬季沒有跟隨向 milder, wetter weather 發展的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snowfall occurs frequently in the UK, but the quantities are typically small and it seldom persists for very long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國經常下雪，但雪量通常很少，也很少持續很久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consequence, despite the occasional incident of prolonged cold, Britain’s winters are typically not very severe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，儘管偶爾有長時間寒冷，Britain’s winters 通常不算 very severe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間會解釋近年冬季趨勢和例外情況，題目提到 three consecutive winters，所以要看中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“three consecutive winters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“milder, wetter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“failed to follow”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In recent years, a trend towards milder, wetter winters has been developing, though the 2010/11, 2011/12 and 2012/13 winters seem to have bucked the trend…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年來，一個向較溫和、較潮濕冬季發展的 trend 正在形成；不過 2010/11、2011/12 和 2012/13的冬季似乎 bucked the trend，即逆著這個趨勢發展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “failed to follow” 對應原文 “bucked”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“buck the trend” 是固定表達，意思是違反趨勢、逆勢發展。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“failed to follow the ______ towards milder, wetter weather”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a trend towards milder, wetter winters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格最自然是： trend答案符合字數限制，也保留原文詞形。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "prolonged cold weather",
+      "answerKey": "prolonged cold weather",
+      "type": "Sentence Completion",
+      "prompt": "“Despite its latitude, the British Isles do not suffer from 36 ______ on account of the influence of the Gulf Stream.”",
+      "translation": "儘管 British Isles 所處緯度本應較寒冷，但由於 Gulf Stream 影響，它們沒有承受 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snowfall occurs frequently in the UK, but the quantities are typically small and it seldom persists for very long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國經常下雪，但雪量通常很小，也很少持續很久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consequence, despite the occasional incident of prolonged cold, Britain’s winters are typically not very severe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，儘管偶爾出現 prolonged cold，Britain’s winters 通常不算 very severe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半解釋 British Isles 為何沒有出現和緯度相稱的嚴寒冬季，核心原因是 Gulf Stream。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its latitude”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Gulf Stream”"
+            },
+            {
+              "kind": "quote",
+              "text": "“do not suffer from”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For its latitude, the British Isles should see far more prolonged cold weather in winter and regular snowfall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按其緯度來看，British Isles 在冬季本應出現遠更長時間的寒冷天氣和規律降雪。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the Gulf Stream, a mild Atlantic Ocean current, keeps the climate several degrees warmer than regions of similar latitude in other parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Gulf Stream 這股溫和的大西洋洋流，使該地氣候比世界其他相似緯度地區暖幾度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目問 British Isles 沒有承受甚麼。原文先說它本應有："
+            },
+            {
+              "kind": "quote",
+              "text": "“far more prolonged cold weather in winter and regular snowfall”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後用 “However” 轉折，說 Gulf Stream 令氣候更暖。題目句子只留一個空格，最適合填： prolonged cold weather"
+            },
+            {
+              "kind": "label",
+              "text": "完整句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“the British Isles do not suffer from prolonged cold weather…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文 “should see far more prolonged cold weather” 形成對應。原文不是說完全沒有冷天氣，後面還補充 “despite the occasional incident of prolonged cold”。題目重點是：在 Gulf Stream 影響下，British Isles 的冬季通常沒有出現與緯度相稱的長時間嚴寒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "subtle climatic change",
+      "answerKey": "subtle climatic change",
+      "type": "Sentence Completion",
+      "prompt": "“Should next winter be another unusually cold one, this may be indicative of the fact that a 37______ is under way.”",
+      "translation": "如果下一個冬天又異常寒冷，這可能表示一場 ______ 正在發生。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long-term weather forecasts for the British Isles are notoriously hard to get right…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "British Isles 的 long-term weather forecasts 向來很難準確。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Were their predictions to be realised, then this would point to the isles undergoing a subtle climatic change and a return to more severe winters in general.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他們的預測成真，這將顯示英倫群島正在經歷 subtle climatic change，並回到整體上更嚴寒的冬季。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談未來預測，題目也用 “Should next winter…” 作假設，因此定位到 Paragraph 9。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“next winter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“another unusually cold one”"
+            },
+            {
+              "kind": "quote",
+              "text": "“indicative”"
+            },
+            {
+              "kind": "quote",
+              "text": "“under way”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“forecasters are predicting another winter of record-breaking low temperatures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Were their predictions to be realised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“would point to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“undergoing a subtle climatic change”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Were their predictions to be realised, then this would point to the isles undergoing a subtle climatic change…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他們的預測成真，這會顯示英倫群島正在經歷一場 subtle climatic change。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “this may be indicative of the fact that…” 對應原文 “this would point to…”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “is under way” 對應原文 “undergoing”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個名詞短語，原文答案是： subtle climatic change答案三個字，符合 no more than three words。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — uninterrupted",
+      "answerKey": "A — uninterrupted",
+      "type": "Summary Completion",
+      "prompt": "“...the longest 38 ______ period of cold winters for more than half a century.”",
+      "translation": "……半個多世紀以來最長的 ______ 寒冬期。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Snowfall occurs frequently in the UK, but the quantities are typically small and it seldom persists for very long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國經常下雪，但雪量通常很小，也很少持續很久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consequence, despite the occasional incident of prolonged cold, Britain’s winters are typically not very severe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，儘管偶爾有長時間寒冷，Britain’s winters 通常不算 very severe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間提到最近三個冬季與長期趨勢不同，所以 summary 的 “last three winters” 應看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“three winters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“longest period”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than half a century”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the 2010/11, 2011/12 and 2012/13 winters seem to have bucked the trend and, indeed, represent the longest period of consecutive cold winters for more than 50 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2010/11、2011/12 和 2012/13 的冬季似乎逆著趨勢發展，而且代表 50 多年來最長的一段consecutive cold winters。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文答案詞是 “consecutive”，但 word list 沒有 consecutive。選項中最接近的是： A — uninterrupted consecutive= 連續的uninterrupted= 沒有中斷的題目句子中 “period of cold winters” 需要形容詞修飾 period。A 放進去後："
+            },
+            {
+              "kind": "quote",
+              "text": "“the longest uninterrupted period of cold winters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法和意思都自然。答案是 A — uninterrupted。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "E — extreme",
+      "answerKey": "E — extreme",
+      "type": "Summary Completion",
+      "prompt": "“...this could signal a permanent move to more 39 ______ winter weather in general.”",
+      "translation": "這可能標誌著整體上永久轉向更 ______ 的冬季天氣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long-term weather forecasts for the British Isles are notoriously hard to get right…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "British Isles 的長期天氣預測向來很難準確。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Were their predictions to be realised, then this would point to the isles undergoing a subtle climatic change and a return to more severe winters in general.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果預測成真，這會顯示英倫群島正在經歷 subtle climatic change，並回到整體上更 severe winters。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“permanent move”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more ______ winter weather”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in general”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a return to more severe winters in general”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Word list 沒有 severe，所以要找最接近的同義詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中可修飾 winter weather 的有： B mild E extreme原文是 “more severe winters”。Severe 指嚴酷、嚴寒、強烈。和它最接近的是： E — extreme"
+            },
+            {
+              "kind": "label",
+              "text": "完整句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“a permanent move to more extreme winter weather in general”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是對 “a return to more severe winters in general” 的改寫。B mild 方向相反，因為文章正說近幾年寒冬可能顯示冬季變得更嚴重。答案是 E — extreme。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — waning",
+      "answerKey": "D — waning",
+      "type": "Summary Completion",
+      "prompt": "“Scientists blame sunspot and geothermal activity as well as the 40 ______ influence of the Gulf Stream…”",
+      "translation": "科學家／預報者把原因歸於 sunspot and geothermal activity，以及 Gulf Stream 影響力的______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long-term weather forecasts for the British Isles are notoriously hard to get right…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "British Isles 的長期天氣預測出了名難以準確。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Were their predictions to be realised, then this would point to the isles undergoing a subtle climatic change and a return to more severe winters in general.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果預測成真，這會指向 subtle climatic change，以及整體更嚴寒冬季的回歸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講未來寒冬預測，並列出 forecasters 使用的 indicators。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“sunspot”"
+            },
+            {
+              "kind": "quote",
+              "text": "“geothermal activity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Gulf Stream”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“They point to sunspot and geothermal activity, and changes in the strength of the Gulf Stream as key indicators of the fact that a cold winter is in prospect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們指出 sunspot and geothermal activity，以及 Gulf Stream strength 的變化，是 cold winter 即將出現的重要 indicators。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “changes in the strength of the Gulf Stream”，但 word list 需要一個形容詞放在"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“influence” 前面。選項中與「Gulf Stream 影響變弱，令 British Isles 不再那麼溫和」最配合的是： D — waning waning = 逐漸減弱的、衰退中的。為甚麼不是 C strengthening？因為 Paragraph 7 已經說 Gulf Stream “keeps the climate several degrees warmer”。如果 Gulf Stream influence strengthening，理應更暖，和 “record-breaking low temperatures” 及 “more severe winters” 方向不配合。Question 40 需要根據 summary 的寒冬語境，把 “changes in the strength” 具體理解成 warming influence 減弱。所以答案是 D — waning。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -ALL YOU NEED TO KNOW ABOUT SNOW.pdf",
+    "sha256": "1303dab387ec71ebdd33ca1c3ba75624d8cf981cd73ad4e9883dd9cd6adbe377",
+    "pageCount": 26
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一句說 snow 通常和 extratropical cyclone 的天氣條件有關；最後一句說 warm front 和 cold front 相遇時，snow 可在 precipitation band 的 poleward side 出現。只看首尾句，可以先估計這段在解釋第一種 snowfall：由氣旋和鋒面碰撞產生的雪。這段會處理 warm front、cold front、poleward side、Northern Hemisphere 和 Southern Hemisphere 的方向，因此 Question 27 很可能定位到這裡。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說 lake-effect snow 是另一種常見降雪；最後一句說若水體和上方空氣溫差明顯，大約13°C 或以上，便可能造成 heavy and prolonged snowfall。只看首尾句，可以估計這段解釋lake-effect snow 的形成條件：暖水面遇上冷空氣，濕暖空氣上升並形成垂直雲層。這段也會澄清名稱誤導，因為它並不限於 lakes。Question 28 會定位到這裡。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說 mountainous areas 也容易經歷 heavy snowfall；最後一句說 warm moist air 被迫沿山坡上升，水分遇到高海拔冷空氣後凝結，若地面足夠冷，heavy snowfall 便會發生。只看首尾句，可以看出這段解釋山區降雪。重點在 windward side、air forced to ascend、moisture condenses和 colder air。Question 29 會定位到這裡，因為題目提到 mountain side exposed to winds。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說 snow crystals 由大氣中極低溫下的 tiny, supercooled cloud droplets 形成；最後一句說在較暖的雲中，需要 clay、desert dust 或 ice nucleus 等粒子來開始 freezing。只看首尾句，可以估計這段處理雪晶形成的起點：水滴如何凍結。中間的 −35°C 是控制條件，沒有粒子時，溫度要低於這一點才可自行凍結。Question 30 會用到這段。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說一旦水滴 frozen，它便開始在 supersaturated cloud environment 中生長；最後一句說落到地面的 ice crystals 其實 transparent，但因內部 hollow imperfections 令光線散射，所以常看起來是 white。只看首尾句，可以估計這段講冰晶長大、下落成雪，以及 snow appearance。 Question 31 會定位到這裡，因為題目問 real colour 和 apparent colour 是否一致。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說 snowflake 的形狀由形成時的 atmospheric conditions 決定，特別是 temperature 和humidity；最後一句說在 −22°C 及以下，除了 column-like structures，也會形成 more complex growth patterns。只看首尾句，可以估計這段是 snowflake shape table 的文字版。它把溫度範圍和形狀連起來：planar crystals、needles、prisms、plate-like forms、complex patterns。Questions 32 和 33 都會定位到這裡。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說 UK 經常下雪，但 quantity 通常很少，且 snow seldom persists for very long；最後一句說受 Gulf Stream 影響，Britain’s winters 通常不算 very severe。只看首尾句，可以估計這段解釋British Isles 雪況：有雪但不多，也不長久。中間提到 recent trend towards milder, wetter winters及三個 cold winters bucked the trend。Questions 34–36 和 38 會集中在這段。"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說英倫群島有些地方每年幾乎少見雪；最後一句說連續三個 bumper seasons 令 Scottish ski industry 壓力減輕，早前它一度面臨消失危機。只看首尾句，可以估計這段比較不同地區的雪量，並特別講 Scottish Highlands 和 ski resorts。這段主要補充地理分布及滑雪業背景。本題組沒有直接問這段，但它幫助我們明白哪些地區最 snow-prone。"
+      },
+      {
+        "number": "9",
+        "summary": "第一句說 British Isles 的 long-term weather forecasts notoriously hard to get right；最後一句說若預測成真，這會指向 subtle climatic change，以及更 severe winters 的回歸。只看首尾句，可以估計這段處理未來預測：forecasters 預測低溫冬季，並把 sunspot、geothermal activity 和 Gulf Stream strength changes 當作指標。Questions 37、39 和 40 會定位到這裡。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "文章沒有 A、B、C 段落標記，以下按自然段編為 Paragraph 1–9；小標題不計入段落。"
+  ]
+}

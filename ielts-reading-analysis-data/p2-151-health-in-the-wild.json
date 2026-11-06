@@ -1,0 +1,1928 @@
+{
+  "id": "p2-151-health-in-the-wild",
+  "catalogueId": "p2-151",
+  "catalogueIds": [
+    "p2-151"
+  ],
+  "passage": 2,
+  "title": "Health in the Wild",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "pith",
+    "terpenes",
+    "alkaloids",
+    "detoxify",
+    "hooks",
+    "G — geophagy",
+    "D — toxic",
+    "E — clay tablets",
+    "C — unpleasant"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Dr Engel has spent ten years studying animal self-medication.”",
+      "translation": "Dr Engel 花了十年研究動物自我醫療。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心有三個部分：人物是 Dr Engel；時間是 ten years；研究內容是 animal self-medication。三項都要和原文吻合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the past decade Dr Engel, a lecturer in environmental sciences at Britain’s Open University, has been collating examples of self-medicating behaviour in wild animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去十年，英國 Open University 的環境科學講師 Dr Engel 一直在整理野生動物自我醫療行為的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But a growing number of animal behaviourists now think that wild animals can and do deal with their own medical needs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但現在愈來愈多動物行為學家認為，野生動物能夠並且確實會處理自己的醫療需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph A 負責介紹 Dr Engel 的研究背景，以及學界對動物自我醫療的態度轉變。題目直接問 Dr Engel 和十年研究，所以目標段落非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Dr Engel”、“ten years” 和 “animal self-medication”。原文沒有用 “ten years”，但用 “for the past decade”。decade 就是十年。題目中的 “studying” 對應原文 “collating examples”，即收集整理相關例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the past decade Dr Engel … has been collating examples of self-medicating behaviour in wild animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去十年，Dr Engel 一直在整理野生動物自我醫療行為的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Dr Engel；時間是 for the past decade；動作是 has been collating examples；內容是 self-medicating behaviour in wild animals。題目把 “for the past decade” 改寫成 “ten years”，把 “collating examples” 概括成 “studying”。這種概括合理，因為收集整理例子正是研究過程的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ten years= for the past decade animal self-medication= self-medicating behaviour in wild animals studying= collating examples"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“collating” 不是 conducting experiments。可是題目只用較寬的 studying，沒有說她做實驗，所以不構成衝突。答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Animals usually need to travel long distances to find medicinal plants.”",
+      "translation": "動物通常需要走很遠，才找到有醫療用途的植物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題重點是 “usually” 和 “travel long distances”。文章需要提供「動物通常要長距離移動」這個習性，才可選 TRUE。若原文說相反，例如牠們在附近取得植物，才可選 FALSE。若沒有距離資料，答案就是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標範圍：Paragraph B 和 Paragraph F Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One example of self-medication was discovered in 1987.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1987 年，一個自我醫療例子被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some consume it indiscriminately and succumb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些動物不加分辨地食用它，結果死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A third instance of animal self-medication is the use of mechanical scours to get rid of gut parasites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個動物自我醫療例子，是使用機械性清刷方式去除腸道寄生蟲。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, undigested leaves were found on the forest floor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，在森林地面上發現了未消化的葉子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段都涉及植物或葉子與醫療用途：Paragraph B 講 Vernonia；Paragraph F 講 Aspilia leaves。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們是掃描 “medicinal plants” 的合理範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “animals”、“travel long distances” 和 “medicinal plants”。原文出現 plant、leaves、chimpanzees、Vernonia、Aspilia，但沒有出現 long distances、travel far、walk far、remote、far away 等距離概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Michael Huffman and Mohamedi Seifu, working in the Mahale Mountains National Park in Tanzania, noticed that local chimpanzees suffering from intestinal worms would dose themselves with the pith of a plant called Vernonia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael Huffman 和 Mohamedi Seifu 在坦桑尼亞 Mahale Mountains National Park 工作時，注意到當地受腸道寄生蟲困擾的黑猩猩，會用 Vernonia 這種植物的 pith 給自己服用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 “local chimpanzees”，但 local 只表示牠們是當地黑猩猩，沒有說植物距離遠近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也只說黑猩猩吃 Aspilia leaves，沒有交代牠們需要走多遠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提供了動物會使用植物作醫療用途的例子，但沒有提供 “usually need to travel long distances” 這個資訊。這不是 FALSE，因為文章也沒有明確說牠們通常不需要長距離移動。核心資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能會因為看到 national park、forest、local chimpanzees，就想像野生動物需要四處尋找植物。這是生活常識推測，文章沒有提供距離證據。IELTS Reading 要看文本支持，不靠常識補充。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Birds such as macaws are seen eating clay because it forms part of their natural diet.”",
+      "translation": "像 macaws 這類鳥被看見吃 clay，是因為 clay 是牠們天然飲食的一部分。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要特別看 because。題目給出原因：macaws 吃 clay 的原因是它屬於自然飲食。原文若提供另一個明確機制，並把 clay 和 detoxification 連起來，題目的原因就和原文方向相衝。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current belief is that soil—and particularly the clay in it—helps to detoxify the defensive poisons that some plants produce in an attempt to prevent themselves from being eaten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前的看法是，泥土，尤其當中的 clay，有助解除某些植物為避免被吃掉而產生的防禦性毒素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several hours later, the macaws that had eaten the clay had 60% less alkaloid in their bloodstreams than those that had not, suggesting that the hypothesis is correct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，吃了 clay 的 macaws 血液中的 alkaloid 比沒有吃 clay 的少 60%，這顯示該假說是正確的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph D 是實驗證據段，重點是 clay 能幫助 macaws 降低毒素吸收。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和題目的 macaws eating clay 直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “macaws”、“eating clay” 和 “because”。掃描 Paragraph D 時，可以找到 “Macaws eat seeds containing alkaloids” 和 “In the wild, the birds are frequently seen perched on eroding riverbanks eating clay.” 接著實驗比較有 clay 和沒有 clay 的差別。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Macaws eat seeds containing alkaloids, a group of chemicals that has some notoriously toxic members, such as strychnine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Macaws 會吃含有 alkaloids 的種子；alkaloids 是一組化學物，其中一些成員惡名昭彰地有毒，例如 strychnine。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the wild, the birds are frequently seen perched on eroding riverbanks eating clay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在野外，人們常見到這些鳥停在受侵蝕的河岸上吃 clay。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several hours later, the macaws that had eaten the clay had 60% less alkaloid in their bloodstreams than those that had not…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，吃了 clay 的 macaws 血液中的 alkaloid 比沒有吃 clay 的少 60%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句合起來顯示：macaws 吃含毒素的種子，吃 clay 後血液中的毒素較少。因此，clay 的作用和 detoxify 有關。題目說原因是 natural diet，原文沒有這個原因；更重要的是，原文已經給出醫療／解毒原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "because it forms part of their natural diet原文： clay helps to detoxify defensive poisons macaws with clay had 60% less alkaloid題目原因偏向普通飲食；原文原因偏向解除毒素。因果方向不吻合，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“in the wild” 容易令人聯想到 natural diet。可是 “in the wild” 只說觀察環境是野外，沒有說 clay是普通食物。真正控制答案的是 because 後面的原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“According to Dr Engel, it is exciting that research into animal self-medication could help in the development of new painkillers.”",
+      "translation": "根據 Dr Engel，動物自我醫療研究令人興奮，是因為它可能幫助開發新的止痛藥。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有一個明確人物觀點：According to Dr Engel。要判斷她興奮的原因是否是 new painkillers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文若沒有 painkillers 或藥物開發資料，就不能把這句判為 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Following that observation, Dr Engel is now particularly excited about how knowledge of the way that animals look after themselves could be used to improve the health of livestock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那項觀察之後，Dr Engel 現在特別興奮的是：了解動物照顧自己的方式，可能被用來改善家畜健康。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The medical stalls in African markets frequently sell tablets made of different sorts of clays, appropriate to different medical conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "非洲市場中的醫療攤檔經常出售由不同種類 clay 製成的 tablets，用於不同醫療狀況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段處理動物自我醫療研究的應用。首句明確說 Dr Engel 興奮的方向是 livestock health；末句轉到人類 clay tablets 的醫療傳統。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Dr Engel”、“exciting”、“research into animal self-medication”、“new painkillers”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 有 “Dr Engel is now particularly excited”，所以定位明確。但掃描全段，沒有painkiller、pain、analgesic、drug development 等相關字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Engel is now particularly excited about how knowledge of the way that animals look after themselves could be used to improve the health of livestock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Engel 現在特別興奮的是，關於動物如何照顧自己的知識，可能用來改善家畜健康。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚提供一個應用方向：improve the health of livestock。題目提出另一個很具體的應用： development of new painkillers。文章沒有提及新止痛藥，也沒有說這項研究不能用於止痛藥開發。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文支援的是 livestock health；題目的 painkillers 缺少文本證據。由於文章沒有直接否定painkillers 的可能性，最穩妥答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“medical stalls”、“medical conditions” 可能令學生聯想到藥物開發。但這裡講的是 African markets 出售 clay tablets，沒有連到 new painkillers。題目中的 painkillers 是額外資訊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "pith",
+      "answerKey": "pith",
+      "type": "Question Analysis",
+      "prompt": "Question 18",
+      "translation": "1987 年，Michael Huffman 和 Mohamedi Seifu 發現黑猩猩會吃 Vernonia 的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格內容： 1987 / Michael Huffman and Mohamedi Seifu / Chimpanzee / 18 ______ of Vernonia"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 NO MORE THAN ONE WORD。空格前後是 “_____ of Vernonia”，所以答案應是一個植物部位名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One example of self-medication was discovered in 1987.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1987 年，一個自我醫療例子被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some consume it indiscriminately and succumb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些動物不加分辨地食用它，結果死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 1987，直接對應表格日期；本段必定是 Question 18 和 Question 19 的主要答案段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “1987”、“Michael Huffman and Mohamedi Seifu”、“Chimpanzee” 和 “Vernonia”。原文第二句完整出現這些訊號，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Michael Huffman and Mohamedi Seifu, working in the Mahale Mountains National Park in Tanzania, noticed that local chimpanzees suffering from intestinal worms would dose themselves with the pith of a plant called Vernonia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael Huffman 和 Mohamedi Seifu 在坦桑尼亞 Mahale Mountains National Park 工作時，注意到當地受腸道寄生蟲困擾的黑猩猩，會用 Vernonia 這種植物的 pith 給自己服用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Food: ______ of Vernonia” 對應原文 “the pith of a plant called Vernonia”。答案是一個字，符合 ONE WORD 限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：pith"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "terpenes",
+      "answerKey": "terpenes",
+      "type": "Question Analysis",
+      "prompt": "Question 19",
+      "translation": "它含有名為 ______ 的化學物，可以殺死寄生蟲。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格內容： Contained chemicals named 19 ______, which can kill parasites"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 NO MORE THAN ONE WORD。空格前有 “chemicals named”，答案應是一個化學物名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One example of self-medication was discovered in 1987.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1987 年，一個自我醫療例子被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some consume it indiscriminately and succumb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些動物不加分辨地食用它，結果死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 Vernonia 這個案例，首句對應年份，段落中間自然會說明植物為何有效。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “chemicals”、“kill parasites”。原文有 “poisonous chemicals called terpenes” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“kill gut parasites”。這是直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“This plant produces poisonous chemicals called terpenes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種植物會產生名為 terpenes 的有毒化學物。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its pith contains a strong enough concentration to kill gut parasites…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的 pith 含有足夠高濃度，可以殺死腸道寄生蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩句合併：chemicals named ______ + can kill parasites。原文中化學物名稱是 terpenes，且只有一個詞，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：terpenes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "alkaloids",
+      "answerKey": "alkaloids",
+      "type": "Question Analysis",
+      "prompt": "Question 20",
+      "translation": "Macaw 吃含有 ______ 的種子，以及 clay。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格內容： Macaw / Seeds contain 20 ______ and clay"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 NO MORE THAN ONE WORD。空格前是 seeds contain，答案應是種子內含的物質名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current belief is that soil—and particularly the clay in it—helps to detoxify the defensive poisons that some plants produce in an attempt to prevent themselves from being eaten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前的看法是，泥土，尤其當中的 clay，有助解除某些植物為避免被吃掉而產生的防禦性毒素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several hours later, the macaws that had eaten the clay had 60% less alkaloid in their bloodstreams than those that had not, suggesting that the hypothesis is correct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，吃了 clay 的 macaws 血液中的 alkaloid 比沒有吃 clay 的少 60%，這顯示該假說是正確的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向 clay 的解毒作用；末句直接出現 macaws 和 alkaloid，因此本段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “1999”、“James Gilardi”、“Macaw”、“Seeds”。在 Paragraph D 可找到 “Evidence… came in 1999” 和 “Macaws eat seeds containing alkaloids”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Macaws eat seeds containing alkaloids, a group of chemicals that has some notoriously toxic members, such as strychnine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Macaws 會吃含有 alkaloids 的種子；alkaloids 是一組化學物，其中一些成員惡名昭彰地有毒，例如 strychnine。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Seeds contain ______” 對應原文 “seeds containing alkaloids”。答案是一個詞，符合 ONE WORD 限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：alkaloids"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "detoxify",
+      "answerKey": "detoxify",
+      "type": "Question Analysis",
+      "prompt": "Question 21",
+      "translation": "Clay 可以 ______ 食物中的有毒成分。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格內容： Clay can 21 ______ the poisonous contents in food"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 NO MORE THAN ONE WORD。空格前有 can，答案應是動詞原形。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current belief is that soil—and particularly the clay in it—helps to detoxify the defensive poisons that some plants produce in an attempt to prevent themselves from being eaten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前的看法是，泥土，尤其當中的 clay，有助解除某些植物為避免被吃掉而產生的防禦性毒素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several hours later, the macaws that had eaten the clay had 60% less alkaloid in their bloodstreams than those that had not, suggesting that the hypothesis is correct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，吃了 clay 的 macaws 血液中的 alkaloid 比沒有吃 clay 的少 60%，這顯示該假說是正確的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句已直接提供 clay 的作用，所以這題定位很快。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Clay”、“poisonous contents” 和 “food”。原文對應 “clay”、“defensive poisons” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“plants produce”。題目把 plants’ poisons 概括成 poisonous contents in food。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The current belief is that soil—and particularly the clay in it—helps to detoxify the defensive poisons…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前的看法是，泥土，尤其當中的 clay，有助解除防禦性毒素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子是 “Clay can ______ the poisonous contents”。空格需要動詞原形。原文答案詞 detoxify正好可接在 can 後面。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "poisonous contents in food= defensive poisons that some plants produce can detoxify= helps to detoxify"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：detoxify"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "hooks",
+      "answerKey": "hooks",
+      "type": "Question Analysis",
+      "prompt": "Question 22",
+      "translation": "表面有微小 ______ 的葉子。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格內容： Leaves with tiny 22 ______ on their surface"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 NO MORE THAN ONE WORD。空格前有 “tiny”，後面有 “on their surface”，答案應是葉面上的細小結構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was Dr Huffman who got to the bottom of the problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "解開這個問題的是 Dr Huffman。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These caught the worms and dragged them from their lodgings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些東西抓住 worms，並把牠們從寄居處拖走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 提供真正機制：某種葉面結構把腸道寄生蟲帶走。題目問leaves with tiny ______，正好要找這個結構。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “leaves”、“tiny” 和 “surface”。原文對應 “leaves”、“microscopic” 和 “covered with”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要留意 tiny 可能改寫成 microscopic。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The factor common to all 19 species of leaves swallowed by the chimps was that they were covered with microscopic hooks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "黑猩猩吞下的 19 種葉子有一個共同因素：它們都覆蓋著 microscopic hooks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “tiny” 對應 “microscopic”；“on their surface” 對應 “covered with”。答案詞是 hooks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：hooks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "G — geophagy",
+      "answerKey": "G — geophagy",
+      "type": "Question Analysis",
+      "prompt": "Question 23",
+      "translation": "其中一項證據特別涉及 ______，這是一種在多種動物中常見的吃泥土行為。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“One piece of evidence particularly deals with 23 ______, a soil-consuming behaviour commonly found across animal species…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion with Box。空格後面已給出解釋：“a soil-consuming behaviour”。答案應是該行為名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the Vernonia-eating chimps were discovered, more evidence has emerged suggesting that animals often eat things for medical rather than nutritional reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從吃 Vernonia 的黑猩猩被發現後，更多證據出現，顯示動物常因醫療原因，而非營養原因，吃某些東西。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, the animals must be getting something else out of eating earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很明顯，動物吃泥土一定另有所得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph C 引入吃泥土這個行為，並把它放在 medical reasons 的框架下。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “soil-consuming behaviour”。原文直接有 “consume dirt, a behaviour known as geophagy”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many species, for example, consume dirt, a behaviour known as geophagy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，許多物種會吃泥土，這種行為稱為 geophagy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “soil-consuming behaviour” 解釋這個術語，原文用 “consume dirt” 定義它。選項 G 是geophagy。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "soil-consuming behaviour= consume dirt commonly found across animal species= Many species"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：G — geophagy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "D — toxic",
+      "answerKey": "D — toxic",
+      "type": "Question Analysis",
+      "prompt": "Question 24",
+      "translation": "因為泥土，通常是 clay，可以中和牠們飲食中的 ______ 成分。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…because the earth, often clay, can neutralize the 24 ______ content of their diet.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion with Box。空格在 “the ______ content” 中，需要形容詞。選項中能形容 content 並和 poison 對應的是 toxic。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current belief is that soil—and particularly the clay in it—helps to detoxify the defensive poisons that some plants produce in an attempt to prevent themselves from being eaten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前的看法是，泥土，尤其當中的 clay，有助解除某些植物為避免被吃掉而產生的防禦性毒素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several hours later, the macaws that had eaten the clay had 60% less alkaloid in their bloodstreams than those that had not, suggesting that the hypothesis is correct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，吃了 clay 的 macaws 血液中的 alkaloid 比沒有吃 clay 的少 60%，這顯示該假說是正確的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的首句直接講 clay 和 poison，因此是本題核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “neutralize” 對應原文 “detoxify”。“content of their diet” 對應原文中的 “defensive poisons that some plants produce” 和 “seeds containing alkaloids”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current belief is that soil—and particularly the clay in it—helps to detoxify the defensive poisons…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前的看法是，泥土，尤其當中的 clay，有助解除防禦性毒素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“detoxify” 的意思是解除毒性。題目改寫成 “neutralize the ______ content”，即中和有毒成分。選項 D “toxic” 正好是 poisonous 的形容詞版本。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "detoxify= neutralize toxic content defensive poisons= toxic content"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D — toxic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "E — clay tablets",
+      "answerKey": "E — clay tablets",
+      "type": "Question Analysis",
+      "prompt": "Question 25",
+      "translation": "這種行為也可在人類身上看到；在非洲，人們會在市場攤檔購買 ______，作為治療疾病的一種藥物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such behaviour can also be found among humans in Africa, where people purchase 25______ at market stalls as a kind of medication for their illnesses.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion with Box。空格前是 people purchase，後面是 at market stalls，因此答案應是可購買的物品。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Following that observation, Dr Engel is now particularly excited about how knowledge of the way that animals look after themselves could be used to improve the health of livestock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那項觀察之後，Dr Engel 現在特別興奮的是，了解動物照顧自己的方式，可能被用來改善家畜健康。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The medical stalls in African markets frequently sell tablets made of different sorts of clays, appropriate to different medical conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "非洲市場中的醫療攤檔經常出售由不同種類 clay 製成的 tablets，用於不同醫療狀況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段由動物知識轉到家畜和人類應用。最後一句直接出現 African markets、medical stalls 和 clay tablets，與題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “humans in Africa”、“purchase”、“market stalls” 和 “medication”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“African markets”、“medical stalls”、“sell tablets made of different sorts of clays”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The medical stalls in African markets frequently sell tablets made of different sorts of clays, appropriate to different medical conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "非洲市場中的醫療攤檔經常出售由不同種類 clay 製成的 tablets，用於不同醫療狀況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “people purchase” 是從 “stalls sell” 轉換角度：攤檔出售，所以人們購買。選項 E “clay tablets” 正好概括 “tablets made of different sorts of clays”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "market stalls= medical stalls in African markets purchase= sell 的購買角度clay tablets= tablets made of different sorts of clays"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：E — clay tablets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "C — unpleasant",
+      "answerKey": "C — unpleasant",
+      "type": "Question Analysis",
+      "prompt": "Question 26",
+      "translation": "另一個例子是黑猩猩吃一種味道常常 ______ 的葉子；直到其特殊結構被發現前，這些葉子看似沒有明顯藥用價值。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another example of this is found in chimps eating leaves of an often 26 ______ taste but with no apparent medicinal value until its unique structure came to light.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion with Box。空格在 “an often ______ taste” 中，需要形容詞。要找原文對黑猩猩吞葉經驗的描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F 和 Paragraph G Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A third instance of animal self-medication is the use of mechanical scours to get rid of gut parasites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個動物自我醫療例子，是使用機械性清刷方式去除腸道寄生蟲。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, undigested leaves were found on the forest floor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，在森林地面上發現了未消化的葉子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Wrangham rightly guessed that the leaves had a medicinal purpose—this was, indeed, one of the earliest interpretations of a behaviour pattern as self-medication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Wrangham 正確猜到這些葉子有醫療目的；這確實是最早把某種行為模式解讀為自我醫療的例子之一。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drug hypothesis was looking more and more dubious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藥物假說看起來愈來愈可疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段合起來說明：黑猩猩吞葉子，過程似乎不舒服；早期研究以為葉子含藥物，但化學假說後來受到質疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “chimps eating leaves”、“taste”、“no apparent medicinal value”。Paragraph F 有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“wrinkling their noses” 和 “unpleasant”；Paragraph G 有 “few suitable chemicals in common” 和“drug hypothesis … dubious”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Some of the chimps were noticed wrinkling their noses as they swallowed these leaves, suggesting the experience was unpleasant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人注意到一些黑猩猩吞下這些葉子時皺起鼻子，這顯示這個經驗令人不舒服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “leaves of an often ______ taste”。原文沒有直接說 taste，但 “wrinkling their noses” 和"
+            },
+            {
+              "kind": "quote",
+              "text": "“experience was unpleasant” 表示吞食時感受不好。選項 C “unpleasant” 是原文原字。再看 Paragraph G 的支持：“But by the 1990s, chimps across Africa had been seen swallowing the leaves of 19 different species that seemed to have few suitable chemicals in common.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但到 1990 年代，人們看到非洲各地的黑猩猩吞下 19 種不同植物的葉子，而這些葉子似乎沒有多少合適的共同化學成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句解釋 “with no apparent medicinal value until its unique structure came to light”：早期找不到共同藥物成分，後來 Paragraph H 才發現 microscopic hooks 的機械作用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "experience was unpleasant= unpleasant taste / unpleasant swallowing experience few suitable chemicals in common= no apparent medicinal value through chemicals unique structure= microscopic hooks"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C — unpleasant"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Health in the Wild.pdf",
+    "sha256": "fc67e1b02518c8e032647156a27f2e3d61d5a984dc10d3bcfde2a8c1e087ebde",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首句和末句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Dr Engel 過去十年一直整理野生動物自我醫療行為的例子；末句說愈來愈多動物行為學家相信野生動物能處理自己的醫療需要。只看首尾句，可以估計這段是全文引入：先介紹研究者和研究範圍，再指出學界態度由懷疑逐漸轉向接受。題目若問 Dr Engel、十年研究、動物自我治療是否被認可，答案很可能在這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 1987 年有一個自我醫療例子被發現；末句說某些動物隨意吃 Vernonia 後會死亡。只看首尾句，可以預測本段會提供一個具體案例：黑猩猩吃某種植物治療寄生蟲，但植物本身有毒，使用方式需要準確。這段大概包含年份、人物、動物、植物名稱、有效成分和風險，特別適合處理表格填空。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說，自從發現吃 Vernonia 的黑猩猩後，更多證據顯示動物常因醫療原因進食某些東西；末句說動物吃泥土一定另有所得。只看首尾句，段落功能偏向引入第二類證據：geophagy，即吃泥土。它先否定單純營養解釋的充足性，再暗示泥土可能有醫療用途。題目若問 soil-consuming behaviour，應定位到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說目前看法是泥土，尤其 clay，可以幫助解除植物防禦性毒素；末句說吃 clay 的 macaws 血液中 alkaloid 少 60%，支持這個假說。只看首尾句，可以看出這段是實驗證據段。它會講macaws、seeds、alkaloids、clay、detoxify 等核心內容。題目若問 macaw、clay 的作用、poisonous chemicals，答案多半在這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說其他觀察也支持 clay 有解毒作用；末句說在家牛飼料中加入 clay，可增加牠們吸收的營養 10–20%。首尾合看，這段會用多個旁證支持 Paragraph D 的 clay detoxification 假說。中間大概會比較熱帶地區植物毒素、草食動物吃泥土、elephants 何時舔 clay，以及 clay 對家畜營養吸收的好處。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說第三個動物自我醫療例子，是用 mechanical scours 清除腸道寄生蟲；末句說後來在森林地面上發現未消化的葉子。只看首尾句，可以估計本段會講 chimpanzees 吞葉子的異常行為。它重點不在營養，而在葉子通過腸道時可能發揮機械作用。題目若問 1972、Richard Wrangham、Aspilia leaves、unpleasant experience，應看這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Dr Wrangham 正確猜到葉子有醫療目的，但猜錯了機制；末句說 drug hypothesis 變得愈來愈可疑。首尾合看，這段是錯誤假說修正段。它會先講早期以為葉子含藥物，再說長時間化學研究無法找到共同有效成分。這段適合處理「有醫療目的但不靠藥物成分」的題目，也為下一段的真正機制鋪路。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Dr Huffman 解開了問題，方法是觀察黑猩猩排出的東西；末句說葉子上的微小 hooks 會抓住 worms 並把它們拖離寄居處。只看首尾句，可以看出這段提供真正機制：答案不在葉子吃進去時含甚麼化學物，而在葉子排出時帶走甚麼。題目若問 microscopic hooks、worms、intestines，很可能直接定位到這段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Dr Engel 對這些觀察特別興奮，因為動物照顧自己的知識可能改善家畜健康；末句說非洲市場的醫療攤檔常出售由不同 clay 製成的 tablets。首尾句顯示本段從野生動物轉向應用： livestock health 和 human geophagy。題目若問 Dr Engel 的興奮原因、人類吃 clay、African markets、clay tablets，答案應在這段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說被帶到美洲為奴的非洲人延續吃 clay 的傳統，這曾被奴隸主鄙視；末句說泥土有時對人有益，甚至 “as sick as a parrot” 可能是值得追求的狀態。只看首尾句，這段是收結段：它把人類傳統、gorillas、Western digestive medicines 和 clay 的益處連在一起，帶出文章最後的反諷與總結。"
+      }
+    ]
+  }
+}

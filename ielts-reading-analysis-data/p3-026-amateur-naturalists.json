@@ -1,0 +1,2307 @@
+{
+  "id": "p3-026-amateur-naturalists",
+  "catalogueId": "p3-026",
+  "catalogueIds": [
+    "p3-026"
+  ],
+  "passage": 3,
+  "title": "Amateur Naturalists",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "B",
+    "C",
+    "H",
+    "G",
+    "E",
+    "D",
+    "A",
+    "beekeepin g",
+    "life cycles",
+    "droughts",
+    "C",
+    "D",
+    "D",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "The definition of phenology",
+      "translation": "哪一段提供了 phenology 物候學 的定義？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題屬於 Matching Information。題目不是問某位科學家的研究，也不是問 amateur records 的例子，而是問「定義」。做定義題時，要特別留意原文是否出現 or、括號、破折號、逗號後解釋，或者像 “interested in…” 這類描述研究範圍的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, such records are being put to uses that their authors could not possibly have expected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，這些紀錄正被用於它們原作者不可能預想到的用途。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The amount of interest is almost frightening,’ says Sparks, a climate researcher at the Centre for Ecology and Hydrology in Monks Wood, Cambridgeshire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sparks 說：「人們的興趣之大幾乎令人害怕。」他是劍橋郡 Monks Wood 生態與水文中心的氣候研究員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 的功能：這段會把 Paragraph A 的舊紀錄帶入現代科學用途，說明科學家如何使用 amateur records。既然題目問 phenology 的定義，很可能在這種「介紹研究用途」的段落中出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞是： phenology這是專門術語，定位力非常高。掃描 Paragraph B，可以直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“These data sets, and others like them, are proving invaluable to ecologists interested in the timing of biological events, or phenology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資料集，以及其他類似資料，對研究生物事件發生時間的生態學家來說非常寶貴；這個研究範疇稱為 phenology，即物候學。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "句中關鍵結構是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the timing of biological events, or phenology”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 or 不是「或者」的普通選擇意思，而是用來引出解釋： phenology = the timing of biological events也就是研究自然界生物事件發生時間的學問，例如植物何時開花、樹木何時長葉、鳥類何時遷徙、蝴蝶何時結束冬眠。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文definition of phenology the timing of biological events, or phenology definition “or” 引出的解釋phenology timing of biological events"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提到 “recording the life cycles of plants and animals”，看起來很接近 phenology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Paragraph A 只是例子，沒有明確把它定義為 phenology。真正出現術語並解釋其意思的是Paragraph B，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "How Sparks first became aware of amateur records",
+      "translation": "Sparks 最初是如何知道這些業餘紀錄的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心不是 Sparks 現在如何研究，也不是他後來如何尋找更多資料，而是 first became aware，即第一次接觸、第一次意識到這類紀錄。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sparks first became aware of the army of ‘closet phenologists’, as he describes them, when a retiring colleague gave him the Marsham records.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sparks 第一次意識到這群他稱為「隱藏的物候學家」的人，是在一位即將退休的同事把 Marsham的紀錄交給他時。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The British devotion to recording and collecting makes his job easier—one man from Kent sent him 30 years’ worth of kitchen calendars, on which he had noted the date that his neighbour’s magnolia tree flowered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國人熱衷於記錄和收集，令他的工作更容易；例如 Kent 有一位男士寄給他三十年份的廚房月曆，上面記下鄰居木蘭花開花的日期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 明顯在講 Sparks 如何發現、追蹤和收集 amateur phenologists 的資料。第一句已直接包含題目中的 “first became aware”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： Sparks first became aware amateur records原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sparks first became aware of the army of ‘closet phenologists’…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原字級定位。題目中的 “amateur records” 被原文改寫成 “closet phenologists” 和 “Marsham records”。“closet phenologists” 指那些平日不是職業科學家，但長期私下記錄自然現象的人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文完整證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sparks first became aware of the army of ‘closet phenologists’, as he describes them, when a retiring colleague gave him the Marsham records.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sparks 第一次知道這群「隱藏的物候學家」，是在一位退休同事把 Marsham 紀錄交給他的時候。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是「如何 first became aware」，答案所在段落正是 Paragraph C，因為這段直接交代事件起點： a retiring colleague gave him the Marsham records"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文amateur records closet phenologists / Marsham records how Sparks first became when a retiring colleague gave him the Marsham aware records first became aware first became aware"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也出現 Sparks，而且第一句就是 “Tim Sparks slides a small leather-bound notebook…”；這很容易令人以為答案在 A。可是 A 是現在展示 Walter Coates notebook 的場景， C 才明確講 first became aware。題目中的 first 是控制答案的關鍵字，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Question Analysis",
+      "prompt": "How people reacted to their involvement in data collection",
+      "translation": "人們對自己參與資料收集有甚麼反應？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找的是 people reacted，尤其是 ordinary people / amateur collectors 的情緒反應。它不是問科學家如何評價資料，也不是問資料如何用於預測，而是問參與者知道自己的資料有科學用途時的感受。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phenology also helps to drive home messages about climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "物候學也有助於把氣候變化的訊息更有力地傳達給大眾。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People are thrilled to think that the data they’ve been collecting as a hobby can be used for something scientific—it empowers them,’ says Root.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Root 說：「人們想到自己作為興趣所收集的資料能用於科學用途，會感到非常興奮；這令他們有力量感。」只看首尾句，可以猜 Paragraph H 的功能：這段從科學研究轉到公眾層面，講 phenology 如何讓公眾理解氣候變化，也講普通人參與資料收集後的感受。題目問 people reacted，和最後一句完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： people reacted involvement data collection原文沒有直接用 “reacted”，但有情緒詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“People are thrilled…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“thrilled” 表示非常興奮、非常高興。這就是人們的反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“‘People are thrilled to think that the data they’ve been collecting as a hobby can be used for something scientific—it empowers them,’ says Root.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Root 說，人們想到自己作為興趣所收集的資料可以用在科學事情上，會非常興奮；這令他們覺得自己有力量、有價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “their involvement in data collection” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the data they’ve been collecting as a hobby”"
+            },
+            {
+              "kind": "label",
+              "text": "題目的 “How people reacted” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“People are thrilled”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這項資訊位於 Paragraph H。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文people reacted People are thrilled involvement in data collection data they’ve been collecting as a hobby data collection collecting data reaction thrilled / empowers them"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也談 amateur observers，並說他們有 “raw power of science”，看起來也和業餘參與有關。但 G 的焦點是科學家如何處理 amateur data：quality control、statistics、standardised schemes。H 才講 people 本身的情緒反應，所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Question Analysis",
+      "prompt": "The necessity to encourage amateur data collection",
+      "translation": "哪一段提到鼓勵業餘人士收集資料的必要性？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心是 necessity，即「為甚麼需要」。它不是單純問 amateur data 有沒有價值，而是問為甚麼科學研究需要大量業餘觀察者參與。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overall, most phenologists are positive about the contribution that amateurs can make.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，大多數物候學家對業餘人士能作出的貢獻持正面態度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s very difficult to collect data on a large geographical scale without enlisting an army of observers,’ says Root.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Root 說：「如果不招募一大批觀察者，就很難在大範圍地理尺度上收集資料。」只看首尾句，可以先猜 Paragraph G 的功能：這段承接 F 的質疑，說明雖然 amateur data 有問題，但科學家仍然肯定它的價值，並指出未來需要更多觀察者。最後一句尤其直接回應題目的necessity。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： necessity encourage amateur data collection原文沒有直接用 “encourage”，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“enlisting an army of observers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“enlist” 指招募、邀請加入；“an army of observers” 指大量觀察者。這就是鼓勵或動員業餘人士收集資料的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“‘It’s very difficult to collect data on a large geographical scale without enlisting an army of observers,’ says Root.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Root 說，如果沒有招募一大批觀察者，要在大地理範圍內收集資料是非常困難的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯是： 1. Phenology 需要大範圍資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. 職業科學家人手有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. 如果沒有大量觀察者，很難做到大尺度資料收集。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "4. 因此，鼓勵或招募 amateur observers 有必要。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文necessity It’s very difficult … without encourage amateur data enlisting an army of collection observers amateur data collectors observers data collection collect data"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也說 researchers are combing through records taken by thousands of amateur naturalists，看起來和大量資料收集有關。但 B 主要講現有 records 的科學用途。G 的最後一句明確指出沒有這些觀察者就很難做 large geographical scale 的資料收集，這才是 “necessity” 的證據。因此答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Question Analysis",
+      "prompt": "A description of using amateur records to make predictions",
+      "translation": "哪一段描述了如何用業餘紀錄作出預測？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個控制點：第一，必須是 amateur records；第二，必須是 make predictions，尤其是對未來自然變化或氣候影響作預測。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overall, such records have helped to show that, compared with 20 years ago, a raft of natural events now occur earlier across much of the northern hemisphere, from the opening of leaves to the return of birds from migration and the emergence of butterflies from hibernation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，這些紀錄幫助顯示，與二十年前相比，北半球大部分地區許多自然事件現在都更早發生，包括樹葉展開、候鳥回歸，以及蝴蝶從冬眠中出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The number of waterfowl in North America will most probably drop significantly with global warming,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「隨著全球暖化，北美水禽數量很可能會大幅下降。」只看首尾句，可以看出 Paragraph E 先講過去和現在的自然事件變化，再走向未來預測。題目問using records to make predictions，這段非常吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： amateur records predictions原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The data can also hint at how nature will change in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資料也能暗示自然界未來將如何變化。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文提供具體例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Terry Root … has collected birdwatchers’ counts of wildfowl … and combined them with climate data and models of future warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Terry Root 收集了觀鳥者對野生水禽的計數，並把這些資料與氣候資料和未來暖化模型結合。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The data can also hint at how nature will change in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資料也可以提示自然界未來會如何改變。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Terry Root … has collected birdwatchers’ counts of wildfowl taken between 1955 and 1996 on seasonal ponds in the American Midwest and combined them with climate data and models of future warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Terry Root 收集了 1955 至 1996 年間，美國中西部季節性池塘上的觀鳥者野生水禽計數，並把它們與氣候資料和未來暖化模型結合。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Her analysis shows that the increased droughts that the models predict could halve the breeding populations at the ponds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的分析顯示，模型預測增加的乾旱可能使這些池塘的繁殖族群減半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是一個完整的 prediction chain： amateur birdwatchers’ counts→ combined with climate data and future warming models→ predict increased droughts→ predict waterfowl breeding populations may halve"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文amateur records birdwatchers’ counts make predictions hint at how nature will change in the future predictions models of future warming / models predict description of using collected counts and combined them with climate records data"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也說 records can allow improved predictions about climate change impact。可是 B是概括說明，E 才具體描述一項研究如何把 amateur records 和 climate models 結合，再得出waterfowl 下降的預測。題目有 “A description of using…”，所以 E 比 B 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "Records of a competition providing clues to climate change",
+      "translation": "哪一段提到一項比賽紀錄能提供氣候變化線索？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的強定位詞是 competition。文章中只有一段提到 betting contest，因此定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other researchers have unearthed data from equally odd sources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他研究人員也從同樣奇特的來源中發掘出資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The competition has taken place annually on the Nenana River in Alaska since 1917, and analysis of the results showed that the thaw now arrives five days earlier than it did when the contest began.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項比賽自 1917 年起每年在阿拉斯加 Nenana River 舉行，而對結果的分析顯示，現在融冰比比賽開始時早了五天。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph D 會提供一個 unusual data source 的例子，並展示它如何反映氣候變化。最後一句直接說 thaw now arrives five days earlier，這就是氣候變化線索。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： competition records clues to climate change原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a betting contest”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“analysis of the results showed that the thaw now arrives five days earlier…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“results” 就是比賽紀錄；“thaw arrives earlier” 是氣候變化相關線索。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Rafe Sagarin, an ecologist at Stanford University in California, recently studied records of a betting contest in which participants attempt to guess the exact time at which a specially erected wooden tripod will fall through the surface of a thawing river.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加州 Stanford University 的生態學家 Rafe Sagarin 研究了一項下注比賽的紀錄；參賽者要猜一個特別架設的木製三腳架會在融冰河面上掉下去的確切時間。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The competition has taken place annually on the Nenana River in Alaska since 1917, and analysis of the results showed that the thaw now arrives five days earlier than it did when the contest began.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項比賽自 1917 年起每年在阿拉斯加 Nenana River 舉行，而分析結果顯示，現在融冰比比賽剛開始時早了五天。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中的 “five days earlier” 是核心氣候訊號：河流融冰時間提前，反映溫度和季節變化。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文competition betting contest records records / results providing clues analysis showed climate change thaw now arrives five days earlier"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 有 old records，Paragraph E 有 climate predictions，都可能和 “clues to climate change” 有關。但只有 Paragraph D 同時有 competition / contest，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "A description of a very old record compiled by generations of amateur naturalists",
+      "translation": "哪一段描述了一份由幾代業餘自然觀察者編成的非常古老紀錄？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最重要的控制詞有三個： 1. very old record 2. compiled by generations 3. amateur naturalists這些訊號共同指向 Marsham family records。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tim Sparks slides a small leather-bound notebook out of an envelope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tim Sparks 從信封中拿出一本小小的皮面筆記本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Successive Marshams continued compiling these notes for 211 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marsham 家族一代又一代繼續整理這些筆記，長達 211 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 已經明顯和舊紀錄、長時間紀錄、幾代人整理資料有關。最後一句的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Successive Marshams” 和 “211 years” 正好對應題目的 generations 和 very old。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： very old generations compiled原文對應：“Around two centuries before Coates…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Successive Marshams continued compiling these notes for 211 years.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Successive Marshams” 指一代又一代 Marsham 家族成員。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文證據組：“Around two centuries before Coates, Robert Marsham, a landowner from Norfolk in the east of England, began recording the life cycles of plants and animals on his estate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約在 Coates 之前兩個世紀，英格蘭東部 Norfolk 的地主 Robert Marsham 開始記錄自己莊園中植物和動物的生命週期。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Successive Marshams continued compiling these notes for 211 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marsham 家族後來的成員一代接一代繼續整理這些筆記，長達 211 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “compiled by generations of amateur naturalists”，原文的 “Successive Marshams” 正好表達幾代人延續紀錄。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文very old record Around two centuries before Coates / 211 years compiled continued compiling generations Successive Marshams amateur Marsham family members recording nature naturalists"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Walter Coates 的 beekeeping notes 也很舊，時間是 1941–1969，但題目說 generations 和 211 years，這明顯對應 Marsham family records，而不是 Coates 的個人筆記。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "beekeeping",
+      "answerKey": "beekeeping",
+      "type": "Question Analysis",
+      "prompt": "Walter Coates’s records largely contain information about 34 ______",
+      "translation": "Walter Coates 的紀錄主要包含關於 ______ 的資料。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Sentence Completion，要求 NO MORE THAN TWO WORDS from the passage。答案必須直接來自原文，並且放回句子後文法自然。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tim Sparks slides a small leather-bound notebook out of an envelope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tim Sparks 從信封中拿出一本小小的皮面筆記本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Successive Marshams continued compiling these notes for 211 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marsham 家族一代又一代繼續整理這些筆記，長達 211 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 是介紹歷史紀錄的段落。Walter Coates 在開頭出現，所以 Q34 應在Paragraph A 前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： Walter Coates records contain information about原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“The book’s yellowing pages contain beekeeping notes made between 1941 and 1969 by the late Walter Coates of Kilworth, Leicestershire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這本書泛黃的頁面包含已故 Leicestershire Kilworth 的 Walter Coates 在 1941 至 1969 年間所寫的養蜂筆記。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Walter Coates’s records largely contain information about ______原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“contain beekeeping notes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “beekeeping notes” 改成 “information about ______”。空格要填 notes 的主題，所以答案是： beekeeping答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：beekeeping"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：information about beekeeping，自然正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文records book’s yellowing pages /notes contain information about contain notes Walter Coates’s by the late Walter Coates beekeeping beekeeping"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 beekeeping notes。題目已經有 “information about”，如果填 “beekeeping notes”，句子會變成 “information about beekeeping notes”，意思偏成「關於養蜂筆記的資訊」，不如"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“information about beekeeping” 精準。答案應填主題名詞 beekeeping。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "life cycles",
+      "answerKey": "life cycles",
+      "type": "Question Analysis",
+      "prompt": "Robert Marsham is famous for recording the 35 ______ of animals and plants on his land.",
+      "translation": "Robert Marsham 以記錄自己土地上動植物的 ______ 而聞名。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題也是 Sentence Completion，要求 NO MORE THAN TWO WORDS from the passage。空格前是 “the”，後面接 “of animals and plants”，所以答案很可能是名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tim Sparks slides a small leather-bound notebook out of an envelope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tim Sparks 從信封中拿出一本小皮面筆記本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Successive Marshams continued compiling these notes for 211 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marsham 家族後代繼續整理這些筆記，長達 211 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Robert Marsham 在 Paragraph A 後半出現，而最後一句也講 Marsham 家族延續紀錄，所以答案就在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： Robert Marsham animals and plants recording原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Robert Marsham, a landowner from Norfolk in the east of England, began recording the life cycles of plants and animals on his estate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英格蘭東部 Norfolk 的地主 Robert Marsham 開始記錄自己莊園中植物和動物的生命週期。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "recording the ______ of animals and plants原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“recording the life cycles of plants and animals”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “plants and animals” 改成 “animals and plants”，順序反過來，但意思相同。空格應填： life cycles答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：life cycles"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：2 words，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：the life cycles of animals and plants，自然正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文recording began recording animals and plants and plants animals on his land on his estate life cycles life cycles"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文後面列出例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“when the first wood anemones flowered, the dates on which the oaks burst into leaf and the rooks began nesting”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子都屬於 life cycles，但題目要求填概括詞，而且原文已直接提供 “life cycles”。不要填"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“flowered” 或 “nesting” 這些單一例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "droughts",
+      "answerKey": "droughts",
+      "type": "Question Analysis",
+      "prompt": "According to some phenologists, global warming may cause the number of waterfowl in North America to drop significantly due to increased 36 ______",
+      "translation": "根據一些物候學家，全球暖化可能會因增加的 ______ 而導致北美水禽數量大幅下降。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Sentence Completion，答案要來自原文，且空格前已有 “increased”，所以填答案時要避免重複。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overall, such records have helped to show that, compared with 20 years ago, a raft of natural events now occur earlier across much of the northern hemisphere…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，這些紀錄幫助顯示，與二十年前相比，北半球很多自然事件現在都更早發生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The number of waterfowl in North America will most probably drop significantly with global warming,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「隨著全球暖化，北美水禽數量很可能會大幅下降。」首尾句已經出現 “waterfowl”、“global warming” 和自然變化，因此 Q36 明顯定位在 Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： waterfowl North America drop significantly global warming increased原文最後一句與題目高度重合："
+            },
+            {
+              "kind": "quote",
+              "text": "“The number of waterfowl in North America will most probably drop significantly with global warming…”"
+            },
+            {
+              "kind": "label",
+              "text": "然後前一句提供原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“Her analysis shows that the increased droughts that the models predict could halve the breeding populations at the ponds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的分析顯示，模型預測增加的乾旱可能使這些池塘的繁殖族群減半。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "label",
+              "text": "due to increased ______原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the increased droughts”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為題目已經提供 “increased”，所以空格只需要填： droughts如果填 “increased droughts”，題目句會變成 “due to increased increased droughts”，文法和意思都重複。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：droughts"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：due to increased droughts，自然正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文global warming may cause with global warming number of waterfowl … drop The number of waterfowl … will most probably drop significantly significantly due to increased droughts increased droughts … could halve the breeding populations waterfowl wildfowl / waterfowl"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文同段有很多自然事件，例如 leaves、birds、butterflies，也提到 breeding populations。可是題目問下降的原因，真正原因詞在 “increased droughts”。空格前已有 increased，因此答案只填droughts。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — Amateur data is not reliable.",
+      "answerKey": "C — Amateur data is not reliable.",
+      "type": "Question Analysis",
+      "prompt": "Why do many scientists discredit the data collected by amateurs?",
+      "translation": "為甚麼許多科學家不信任業餘人士收集的資料？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Multiple Choice。題目問的是許多科學家為何 discredit amateur data。discredit 在這裡指不信任、不願使用、認為資料可靠性不足。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But not all professionals are happy to use amateur data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但並非所有專業人士都樂意使用業餘資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Measuring the onset of autumn can be particularly problematic because deciding when leaves change colour is a more subjective process than noting when they appear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "測量秋天何時開始尤其有問題，因為判斷葉子何時變色比記錄葉子何時出現更主觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 的功能很清楚：它專門提出 professional scientists 對 amateur data 的保留，尤其是資料是否精確、是否標準化、是否主觀。這正好對應 Q37。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： scientists discredit data collected by amateurs原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“A lot of scientists won’t touch them; they say they’re too full of problems…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多科學家不會碰這些資料；他們說這些資料充滿問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接解釋了 scientists discredit amateur data 的原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘A lot of scientists won’t touch them; they say they’re too full of problems,’ says Root, because different observers can have different ideas of what constitutes, for example, an open snowdrop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Root 說：「很多科學家不會碰這些資料；他們說資料問題太多。」原因是不同觀察者對某些現象可能有不同判斷，例如怎樣才算一朵雪花蓮開了。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The biggest concern with ad hoc observations is how carefully and systematically they were taken,’ says Mark Schwartz…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mark Schwartz 說：「對這類臨時或非正式觀察的最大擔心，是它們記錄時有多仔細、有多系統。」兩句合起來表示：問題不在 amateur identity 本身，而在資料可能不一致、不精確、不夠系統，因此可靠性受到質疑。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Scientific methods were not used in data collection.這個選項有一定吸引力，因為原文提到 “how carefully and systematically”。可是它說得太絕對：原文沒有說所有 amateur data 都沒有科學方法，也沒有說完全沒有 method。原文重點是資料有problems，可靠性有疑問。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Amateur observers are not careful in recording their data.這也太直接指責 observers。原文說 concern is how carefully and systematically they were taken，是對資料質量的擔心，不等於所有 amateur observers 都不小心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Amateur data is not reliable.正確。它概括了 “too full of problems”、“different observers can have different ideas”、“how carefully and systematically” 這些訊息。科學家不願用這類資料，核心原因是可靠性不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Amateur data is collected by unsuitable observers.原文沒有說 amateur observers 不適合，也沒有說他們資格不對。Paragraph G 甚至肯定amateurs 的貢獻。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 選項 C too full of problems not reliable different observers can have different ideas inconsistent data concern with how carefully and systematically doubts about reliability won’t touch them discredit / avoid using"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易吸引學生，因為 “scientific methods” 聽起來像 “systematically”。但原文沒有把問題說成「完全沒有科學方法」。更穩妥的概括是 amateur data may be unreliable，所以答案選 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "D — valuable information is often precise.",
+      "answerKey": "D — valuable information is often precise.",
+      "type": "Question Analysis",
+      "prompt": "Mark Schwartz used the example of leaves to illustrate that…",
+      "translation": "Mark Schwartz 用葉子的例子說明甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要抓住 Mark Schwartz 的論點。葉子只是例子，真正要理解的是他透過這個例子想說明甚麼：有價值的觀察資料需要足夠精確。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But not all professionals are happy to use amateur data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但並非所有專業人士都樂意使用業餘資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Measuring the onset of autumn can be particularly problematic because deciding when leaves change colour is a more subjective process than noting when they appear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "測量秋天何時開始尤其有問題，因為判斷葉子何時變色，比記錄葉子何時出現更主觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的功能是解釋 amateur data 的問題，尤其是觀察標準是否清楚。葉子的例子在這段中用來說明精確記錄的重要性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞： Mark Schwartz leaves原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The biggest concern with ad hoc observations is how carefully and systematically they were taken,’ says Mark Schwartz…”"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We need to know pretty precisely what a person’s been observing—if they just say‘I noted when the leaves came out’, it might not be that useful.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schwartz 說：「我們需要相當精確地知道一個人一直在觀察甚麼；如果他只是說『我記下了葉子長出來的時間』，這可能不太有用。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Mark Schwartz 的核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need to know pretty precisely what a person’s been observing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要相當精確地知道一個人在觀察甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句才是論點。後面的 leaves example 是為了展示「不夠精確」會令資料價值下降："
+            },
+            {
+              "kind": "quote",
+              "text": "“if they just say ‘I noted when the leaves came out’, it might not be that useful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他們只是說「我記下葉子長出來的時間」，這可能不太有用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不太有用？因為 “leaves came out” 可能有不同理解：是第一片葉？多數葉？某一棵樹？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "某一片區域？有沒有固定觀察位置？有沒有同一標準？這些資料不清楚，科學分析價值就下降。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A amateur records can’t be used.太絕對。Paragraph G 會說多數 phenologists positive about amateur contribution。Schwartz 只是要求精確，不是完全否定 amateur records。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B amateur records are always unsystematic."
+            },
+            {
+              "kind": "paragraph",
+              "text": "“always” 太強。原文只說 ad hoc observations 可能有問題，沒有說所有 amateur records 一定不系統。 C the colour change of leaves is hard to observe.原文後面確實說 autumn leaves change colour 比較主觀，但 Mark Schwartz 的主要例子是“leaves came out”，重點是觀察描述要精確。C 只抓到後文一個局部細節。 D valuable information is often precise.正確。雖然選項 wording 有少少概括，但它最貼近 “We need to know pretty precisely…” 的意思：資料要有價值，就要精確到足以讓科學家知道觀察標準。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 選項 D We need to know pretty valuable information is precise precisely it might not be that useful lack of precision reduces value how carefully and systematically precise and reliable"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很吸引，因為 Paragraph F 最後一句真的提到 leaves change colour。可是題目問的是 Mark Schwartz 用 leaves 的例子說明甚麼。他的核心觀點在 quote 中的 “pretty precisely”，所以答案是D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — By applying statistical techniques",
+      "answerKey": "D — By applying statistical techniques",
+      "type": "Question Analysis",
+      "prompt": "How do the scientists suggest amateur data should be used?",
+      "translation": "科學家建議應該如何使用 amateur data？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的重點不是 amateur data 本身是否有價值，而是如何處理它的問題。前一段 F 提出質疑， Paragraph G 則提供解決方向：quality control、interviews、statistics、standardised schemes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overall, most phenologists are positive about the contribution that amateurs can make.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，大多數物候學家對業餘人士能作出的貢獻持正面態度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s very difficult to collect data on a large geographical scale without enlisting an army of observers,’ says Root.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Root 說：「如果不招募一大批觀察者，就很難在大範圍地理尺度上收集資料。」只看首尾句，這段是在說：專業人士大體肯定 amateur data，但需要方法去處理問題。題目問 how data should be used，因此要看中間的處理方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： scientists suggest amateur data used原文中最直接的處理方法是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others suggest that the right statistics can iron out some of the problems with amateur data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他人則建議，合適的統計方法可以消除或修正 amateur data 的一些問題。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Arnold van Vliet is developing statistical techniques to account for the uncertainty in amateur phenological data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arnold van Vliet 正在發展統計技術，用以處理 amateur phenological data 中的不確定性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚提到兩個統計相關短語： 1. the right statistics 2. statistical techniques題目問 “How … should be used?”，四個選項中 D 最直接對應： By applying statistical techniques"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過應用統計技術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的邏輯是：amateur data 有不確定性和個別觀察者差異，所以科學家不是直接無條件使用raw data，而是用 statistical techniques 去修正和控制不確定性。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A By using improved methods Paragraph G 後面確實提到 standardised recording schemes for future efforts，但題目問現有amateur data 如何使用，最直接答案是 statistical techniques。A 太寬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B By observing more carefully這是對未來觀察者的建議方向之一，但題目問 scientists 如何使用資料，不是單純叫人觀察更小心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C By using raw data原文提到 “raw power of science”，但 raw 在那裡指科學的原始力量：careful observation。它不是說直接使用未處理原始資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D By applying statistical techniques正確，直接對應 “statistical techniques”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文how data should be used right statistics can iron out problems applying statistical techniques developing statistical techniques amateur data amateur phenological data problems / uncertainty uncertainty in amateur phenological data"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 也有一定道理，因為後文有 standardised recording schemes。但那主要是 future efforts，即未來新的記錄計劃。題目問現在如何使用 amateur data，最直接的原文方法是 statistical techniques，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — It empowers the public.",
+      "answerKey": "A — It empowers the public.",
+      "type": "Question Analysis",
+      "prompt": "What is one implication of phenology for ordinary people?",
+      "translation": "物候學對普通人有甚麼一項影響或意義？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 Paragraph H。題目中的 ordinary people 可以對應 public、people、hobby collectors。段落中確實有幾個和公眾有關的效果，但最直接回答 “for ordinary people” 的是 “it empowers them”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phenology also helps to drive home messages about climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "物候學也有助於把氣候變化的訊息更有力地傳達給大眾。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People are thrilled to think that the data they’ve been collecting as a hobby can be used for something scientific—it empowers them,’ says Root.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Root 說：「人們想到自己作為興趣收集的資料能用於科學用途，會非常興奮；這令他們感到有力量。」只看首尾句，Paragraph H 的功能是講 phenology 的公眾層面：一方面幫助大眾理解 climate change，另一方面令普通參與者覺得自己的興趣和資料有科學價值。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： ordinary people implication原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the public understand these records”"
+            },
+            {
+              "kind": "quote",
+              "text": "“People are thrilled…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it empowers them”"
+            },
+            {
+              "kind": "label",
+              "text": "其中最直接對應選項 A 的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“it empowers them”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People are thrilled to think that the data they’ve been collecting as a hobby can be used for something scientific—it empowers them,’ says Root.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們想到自己作為興趣所收集的資料能用於科學研究，會感到很興奮；這令他們覺得自己有能力、有價值，也感到被科學研究接納。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 ordinary people 的 involvement 和 emotional / social effect 連起來： amateur hobby data→ used for science→ people feel thrilled→ it empowers them"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A It empowers the public.正確。直接對應 “it empowers them”。這裡的 them 指那些作為興趣收集資料的人，也就是ordinary people / amateur collectors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It promotes public relations.原文說 “getting people involved is great for public relations”，但這比較像科學項目或研究機構得到的好處，不是 ordinary people 本身的主要 implication。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C It warns people of animal infestation.原文有 rat infestations 的例子，但這只是 climate change unpleasant consequences 的一個例子，不是整體 implication。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D It raises public awareness of climate change.這個選項有迷惑性，因為 Paragraph H 開頭說 phenology helps to drive home messages about climate change。它的確是段落內容之一。不過題目問 “for ordinary people”，而且四個選項中 A直接對應最後一句的 “it empowers them”。D 更偏向 public communication 的大方向；A 更貼近ordinary people 作為參與者得到的影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文ordinary people people / public / hobby collectors implication effect / result empowers the public it empowers them involvement in phenology data they’ve been collecting as a hobby"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 是最強干擾項，因為原文第一句確實講 climate change messages。但題目沒有問 phenology對 climate change education 的整體作用，而是問對 ordinary people 有甚麼 implication。最後一句直接說 ordinary people 會因自己的 hobby data 被用於 science 而感到 empowered，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Amateur Naturalists.pdf",
+    "sha256": "53d7fe80fc7d88e595f4fdd8c65dfb0761fad1eede8b1db9ec54b40b0a3ab2de",
+    "pageCount": 33
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "引入業餘自然觀察者留下的舊紀錄，並舉 Walter Coates 和Robert Marsham 家族為例。"
+      },
+      {
+        "number": "B",
+        "summary": "說明這些舊紀錄今天如何被生態學家使用，並定義 phenology。"
+      },
+      {
+        "number": "C",
+        "summary": "說明 Sparks 如何第一次接觸這類 amateur records，並描述他如何追尋更多歷史資料。"
+      },
+      {
+        "number": "D",
+        "summary": "介紹一個很奇特的資料來源：阿拉斯加 Nenana River 的下注比賽，用來推斷融冰時間變早。"
+      },
+      {
+        "number": "E",
+        "summary": "說明 amateur records 如何顯示自然事件提前，並用 waterfowl研究展示如何預測未來氣候影響。"
+      },
+      {
+        "number": "F",
+        "summary": "提出科學界對 amateur data 的質疑：資料可能不夠精確、不夠系統、觀察標準不一致。"
+      },
+      {
+        "number": "G",
+        "summary": "說明多數 phenologists 仍肯定業餘資料的價值，但要做 quality control、統計修正和標準化記錄。"
+      },
+      {
+        "number": "H",
+        "summary": "說明 phenology 對公眾溝通的作用：讓人理解氣候變化，也讓參與者覺得自己的興趣有科學價值。"
+      }
+    ]
+  }
+}

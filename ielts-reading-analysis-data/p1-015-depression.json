@@ -1,0 +1,1778 @@
+{
+  "id": "p1-015-depression",
+  "catalogueId": "p1-015",
+  "catalogueIds": [
+    "p1-015"
+  ],
+  "passage": 1,
+  "title": "Depression",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "E",
+    "F",
+    "C",
+    "A",
+    "B",
+    "C",
+    "E",
+    "G",
+    "I",
+    "B",
+    "H",
+    "D",
+    "G"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Details of treatment alternatives for worst case scenario depression.”",
+      "translation": "最嚴重情況下，憂鬱症可採取哪些替代治療方式的細節。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問哪一段包含「worst case scenario depression」的 treatment alternatives。定位時要找 treatment、extreme cases、fail、hospitalisation、ECT 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clinical depression was originally solely attributed to chemical imbalance in the brain…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "臨床憂鬱症原本完全歸因於大腦中的化學失衡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In extreme cases, where an individual exhibits behaviour which Indicates that they may cause physical harm to themselves, psychiatric hospitalisation may be necessary as a form of intensive therapy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在極端情況下，如果一個人表現出可能對自己造成身體傷害的行為，精神科住院治療可能是必要的密集治療形式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph E 的功能是由 depression 的成因觀念，轉到不同治療方案；末句明確出現 extreme cases，正好對應題目的 worst case scenario。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“treatment alternatives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“worst case scenario”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必使用 worst case，但會用 extreme cases、where initial approaches fail、hospitalisation這類同義或相關概念。Paragraph E 中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more controversial electroconvulsive therapy (ECT) may also be used where initial approaches fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當初步治療方法失效時，也可能使用較具爭議性的電痙攣治療。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“In extreme cases… psychiatric hospitalisation may be necessary…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都屬於較嚴重或最壞情況下的治療安排。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文提供一條治療層級："
+            },
+            {
+              "kind": "quote",
+              "text": "“some variation of a combination of medication and psychotherapy is most commonly used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最常見的是某種藥物與心理治療的結合。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more controversial electroconvulsive therapy (ECT) may also be used where initial approaches fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果初步治療失效，可能使用 ECT。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“In extreme cases… psychiatric hospitalisation may be necessary…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在極端情況下，可能需要精神科住院治療。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “treatment alternatives” 指藥物與心理治療以外，或初步治療失效後可採取的其他方式。原文的 ECT 和 psychiatric hospitalisation 正是這類 alternative / intensive treatment。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“worst case scenario depression”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In extreme cases”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“treatment alternatives”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“ECT may also be used” / “psychiatric hospitalisation may be necessary”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 Paragraph F 也講 treatment，尤其 psychotherapy rather than medication。不過Question 1 有 worst case scenario，真正對應的是 Paragraph E 的 “where initial approaches fail”和 “In extreme cases”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Information regarding cases where drug treatment is inappropriate.”",
+      "translation": "某些情況下不適合用藥物治療的資訊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪段說明 medication 不適合，或心理治療比藥物更合適。定位詞是 drug treatment、inappropriate、medication、psychotherapy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some recent studies, such as those published by the Archives of General Psychiatry, hold that around a quarter of diagnosed clinical depression cases should actually be considered as significant but none-the-less ordinary sadness and maladjustment to coping with trials in life, indicating that in such cases, psychotherapy rather than treatment through medication is required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些近期研究認為，大約四分之一被診斷為臨床憂鬱症的病例，其實應視為嚴重但仍屬普通的悲傷，以及面對人生考驗時的適應不良；這表示在這些情況下，需要心理治療，而非藥物治療。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sessions involve encouragement of an individual to view themselves and their relationships in a more positive manner, with the intention of helping patients to replace negative thoughts with a more positive outlook.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "療程會鼓勵個人以更正面的方式看待自己和人際關係，目的在於幫助患者以更正面的觀點取代負面想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，這段已經明確提到 psychotherapy rather than medication，所以它和 Question 2 的drug treatment inappropriate 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“drug treatment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inappropriate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“psychotherapy rather than treatment through medication is required”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種否定式改寫：題目說 drug treatment inappropriate，原文說此類個案 require psychotherapy rather than medication。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...around a quarter of diagnosed clinical depression cases should actually be considered as significant but none-the-less ordinary sadness and maladjustment to coping with trials in life, indicating that in such cases, psychotherapy rather than treatment through medication is required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約四分之一被診斷為臨床憂鬱症的病例，其實應被視為嚴重但仍屬一般悲傷和適應不良；這表示在這些情況下，需要心理治療，而非藥物治療。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 recent studies。核心判斷是：部分 diagnosed cases 實際上不應按 clinical depression 的藥物治療方向處理。由於這些個案屬於 ordinary sadness and maladjustment，治療上應採取 psychotherapy。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“drug treatment is inappropriate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“psychotherapy rather than treatment through medication is required”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“cases”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“around a quarter of diagnosed clinical depression cases”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph E 也說 medication and psychotherapy commonly used。那是一般治療概述。Question 2 問藥物不合適的個案，F 的第一句直接提供條件。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“Details of how those diagnosed with depression may be more vulnerable than other members of society.”",
+      "translation": "被診斷為憂鬱症的人，如何比其他社會成員更脆弱。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 depressed sufferers 的 vulnerability。掃描時要找 higher risk、drug abuse、suicide attempts、than the rest of the population 這種比較結構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of us may experience periods of low morale or mood and feelings of dejection, as a natural human response to negative events in our lives such as bereavement, redundancy or breakdown of a relationship.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人都可能因生活中的負面事件，例如喪親、失業或感情破裂，經歷士氣低落、情緒低落和沮喪，這是自然的人類反應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sufferers of clinical depression are said to be at higher risk of resorting to drug abuse or even suicide attempts than the rest of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據說臨床憂鬱症患者比一般人口更高風險訴諸藥物濫用，甚至企圖自殺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 會由普通低落情緒，轉向 clinical depression 的較嚴重後果。最後一句直接出現 higher risk 和 than the rest of the population，非常貼合題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more vulnerable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other members of society”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必用 vulnerable，但可預期出現 higher risk、more likely、than others。Paragraph C 最後一句中的 “higher risk” 和 “than the rest of the population” 直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sufferers of clinical depression are said to be at higher risk of resorting to drug abuse or even suicide attempts than the rest of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "臨床憂鬱症患者比一般人更有可能訴諸藥物濫用，甚至企圖自殺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 sufferers of clinical depression。核心比較是 “higher risk … than the rest of the population”。題目用 “more vulnerable than other members of society” 概括這個風險比較。更脆弱的具體表現就是 drug abuse 和 suicide attempts。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“those diagnosed with depression”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sufferers of clinical depression”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“more vulnerable than other members of society”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“at higher risk … than the rest of the population”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“Information about society’s attitudes to depression and similar illnesses.”",
+      "translation": "社會對憂鬱症及相關心理疾病的態度。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 general public / society 對 mental illness 的看法。定位詞包括 stigma、belief、lack strength、public awareness、sympathy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is often more difficult for outsiders and non-sufferers to understand mental rather than physical illness in others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對局外人和非患者而言，理解他人的心理疾病通常比理解身體疾病更困難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pressures of modern life seem to have resulted in an increase in cases of emotional disharmony and government initiatives in many countries have, of late, focussed on increasing the general public’s awareness and sympathy towards sufferers of mental illness and related conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代生活壓力似乎導致情緒失調案例增加，而近來多國政府措施也集中於提升大眾對心理疾病及相關狀況患者的認識和同情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph A 的功能是討論心理疾病如何被社會理解，並說明政府為何要改善 public awareness。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“society’s attitudes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“depression and similar illnesses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 society’s attitudes 這個完整片語，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is often a stigma attached to being mentally ill”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“a belief that such conditions only exist in individuals who lack the strength of character…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些正是社會態度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While it may be easy for us to sympathise with individuals living with the burden of a physical illness or disability, there is often a stigma attached to being mentally ill, or a belief that such conditions only exist in individuals who lack the strength of character to cope with the real world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我們可能容易同情承受身體疾病或障礙的人，但心理疾病往往伴隨污名；也有人相信，這些狀況只出現在缺乏足夠性格力量去面對現實世界的人身上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚說明社會對 mental illness 的偏見：stigma 和 blame。題目中的 depression and similar illnesses 屬於 mental illness and related conditions 的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“society’s attitudes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“stigma” / “a belief that…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“depression and similar illnesses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“mental illness and related conditions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Information regarding why estimates of incidence of future growth in cases may be overly exaggerated.”",
+      "translation": "為何對未來病例增長的估計可能被過度誇大的資訊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 future projection、figures、not supported、diagnostic criteria、wrongly classified 這些訊號。重點是為何 future growth estimates 可能偏高。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clinical depression, or ‘major depressive disorder’, a state of extreme sadness or despair, is said to affect up to almost 20% of the population at some point in their lives prior to the age of 40.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "臨床憂鬱症，也就是重度憂鬱症，是一種極度悲傷或絕望的狀態；據說在 40 歲以前的人生某階段，最多可能影響近 20% 人口。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, such figures are not unanimously supported, as some experts believe that the diagnostic criteria used to identify the condition are not precise enough, leading to other types of depression being wrongly classified as ‘clinical’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些數字並未獲得一致支持，因為有些專家認為，用來判定該病症的診斷標準不夠精準，導致其他類型的憂鬱症被錯誤歸類為「臨床」憂鬱症。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段先提供 incidence 數字，最後質疑數字可靠性。題目問 estimates may be exaggerated，B 是最佳位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“estimates”"
+            },
+            {
+              "kind": "quote",
+              "text": "“future growth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“overly exaggerated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“World Health Organisation projections”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may become the second most significant cause…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“such figures are not unanimously supported”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not precise enough”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wrongly classified”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“World Health Organisation projections indicate that clinical depression may become the second most significant cause of disability on a global scale by 2020.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界衛生組織預測，到 2020 年，臨床憂鬱症可能成為全球第二大重要的失能原因。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, such figures are not unanimously supported, as some experts believe that the diagnostic criteria used to identify the condition are not precise enough, leading to other types of depression being wrongly classified as ‘clinical’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些數字未獲一致支持，因為部分專家認為診斷標準不夠精準，導致其他類型的憂鬱症被錯誤歸為 clinical depression。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “overly exaggerated” 由 “diagnostic criteria… not precise enough” 支撐。若其他depression 被 wrongly classified as clinical，clinical depression 的統計數字和未來預測就可能偏高。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“estimates of incidence of future growth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“World Health Organisation projections”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“may be overly exaggerated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“figures are not unanimously supported” / “wrongly classified as ‘clinical’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C, E, G",
+      "answerKey": "C, E, G",
+      "type": "Choose THREE",
+      "prompt": "Questions 6–8",
+      "translation": "以下哪三項關於 depression 的說法正確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "letters題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which THREE of the following statements are true of depression?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組是 Multiple-answer Questions。每一個正確選項都要有獨立證據；錯項不能只憑感覺排除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Golden Manual 對多選題的要求也是逐一追蹤每個選項是否被支持、限制或否定。"
+            },
+            {
+              "kind": "label",
+              "text": "C 正確選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Britain, it is likely that there are more individuals who live with the condition without the help of a doctor than those being officially treated.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在英國，沒有醫生協助、未被正式診斷或治療的人，可能多於正式接受診斷的人。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“...in the UK almost 3 million people are said to be diagnosed with some form of depression at any one time, and experts believe that as many as a further 9 million other cases may go undiagnosed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在英國，任何時候據說約有近 300 萬人被診斷出某種形式的憂鬱症；專家認為，另外可能有多達900 萬個病例未被診斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 diagnosed cases 是 almost 3 million，undiagnosed cases 可能多達 9 million。9 million 明顯多於 3 million，所以 C 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“without the help of a doctor”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “may go undiagnosed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“officially treated”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “diagnosed with some form of depression” E 正確選項 E："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lethargy may be one of the symptoms of depression.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "倦怠、無精打采可能是憂鬱症症狀之一。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clinical depression is classified as an on-going state of negativity, with no tangible cause, where sufferers enter a spiral of persistent negative thinking, often experiencing irritability, perpetual tiredness and listlessness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "臨床憂鬱症被歸類為一種沒有明確原因的持續負面狀態，患者會陷入持續負面思考的循環，常常出現易怒、長期疲倦和無精打采。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lethargy” 即 lack of energy / listlessness / tiredness。原文的 “perpetual tiredness and listlessness” 直接支持 E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“lethargy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “perpetual tiredness and listlessness” G 正確選項 G："
+            },
+            {
+              "kind": "quote",
+              "text": "“Approaches to treating depression are not universal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療憂鬱症的方法並非各地完全一致。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Treatment approaches vary quite dramatically from place to place and are often tailored to an individual’s particular situation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療方式因地而異，差異相當大，且通常會依照個人的具體情況調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說 treatment approaches vary from place to place。選項 G 的 “not universal” 就是對vary dramatically 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“not universal”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “vary quite dramatically from place to place”為何 A、B、D、F 不選A 說 governments have generally failed to educate the public。Paragraph A 說 “government initiatives in many countries have… focussed on increasing the general public’s awareness and sympathy”。方向相反，所以 A 不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說最高病例數在 USA。原文只說 North America 中 clinical depression 是 leading cause of disability，另列 UK 數字；沒有說 USA 的病例數最高。B 缺乏支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 clinical depression may be triggered by divorce。Paragraph C 的 “breakdown of a relationship” 屬於 many of us 的 low mood / dejection，是自然反應；clinical depression 隨後被定義為 “with no tangible cause”。所以 D 把一般低落情緒的誘因套到 clinical depression 上，不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 說 prescribed pharmaceuticals 近年大幅改變。Paragraph E 只說 anti-depressant drugs are still commonly prescribed today，並說成因理解有所擴展；沒有說處方藥物本身 radically changed。不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "I — gradual",
+      "answerKey": "I — gradual",
+      "type": "Summary Completion",
+      "prompt": "“Whilst recovery through counselling rather than medicine may be more 9 ______________…”",
+      "translation": "雖然透過諮商而非藥物康復，過程可能更加 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some recent studies… hold that around a quarter of diagnosed clinical depression cases should actually be considered as significant but none-the-less ordinary sadness… indicating that in such cases, psychotherapy rather than treatment through medication is required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些近期研究指出，約四分之一被診斷為 clinical depression 的病例，其實屬於嚴重但普通的悲傷和適應不良，因此這些情況需要 psychotherapy，而非 medication。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sessions involve encouragement of an individual to view themselves and their relationships in a more positive manner…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "諮商療程會鼓勵個人以更正面的方式看待自己和人際關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要比較 psychotherapy 和 medication，並說明 counselling 的作用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“recovery through counselling rather than medicine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recovery as a result of psychotherapy tends, in most cases, to be a slower process than improvements related to medication…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數情況下，心理治療帶來的康復通常比藥物相關改善更慢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “slower process” 對應選項 I “gradual”。gradual 表示逐步的、漸進的。題目空格前是 “may be more”，後面需要形容詞；gradual 在文法上也合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不是 F difficulty？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“more difficulty” 放入句子會變成 “may be more difficulty”，文法不自然；原文重點在康復過程較慢，不是說心理治療本身更困難。答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "B — longevity",
+      "answerKey": "B — longevity",
+      "type": "Summary Completion",
+      "prompt": "“...results once achieved may have more 10 ______________ with some patients.”",
+      "translation": "但一旦取得成果，對某些病人而言，結果可能有更高的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。這段第一句說某些個案需要 psychotherapy rather than medication，後面比較心理治療與藥物改善的時間和持久度。Question 10 的 “results once achieved” 明顯承接Question 9 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“results once achieved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some patients”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“improvements as a result of psychological treatment, once achieved, have been observed in some individuals to be more long term and sustainable…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“...improvements as a result of psychological treatment, once achieved, have been observed in some individuals to be more long term and sustainable than those attained through prescription drugs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦心理治療取得改善，在某些人身上，這些改善被觀察到比處方藥帶來的效果更長期、更可持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “may have more ___” 需要名詞。原文的 “more long term and sustainable” 可以概括成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“longevity”，即持久性、長期維持能力。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“more long term and sustainable”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “more longevity”答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "H — self-image",
+      "answerKey": "H — self-image",
+      "type": "Summary Completion",
+      "prompt": "“Counselling sessions are geared towards improving the subject’s relationship with others and their own 11 ______________…”",
+      "translation": "諮商療程旨在改善個體與他人的關係，以及其自身的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F Paragraph F 後半集中講 counselling approaches。第一句說何時需要 psychotherapy，最後一句講 sessions 如何鼓勵個人重新看待自己和人際關係。Question 11 的 relationship with others and their own ___ 應對應 “view themselves and their relationships”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“relationship with others”"
+            },
+            {
+              "kind": "quote",
+              "text": "“their own”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sessions involve encouragement of an individual to view themselves and their relationships in a more positive manner…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "療程會鼓勵個人以更正面的方式看待自己和自己的人際關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩個對象："
+            },
+            {
+              "kind": "quote",
+              "text": "“themselves”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 自己"
+            },
+            {
+              "kind": "quote",
+              "text": "“their relationships”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 自己的人際關係題目把 “their relationships” 改寫成 “relationship with others”，再把 “view themselves” 改寫成"
+            },
+            {
+              "kind": "quote",
+              "text": "“their own self-image”。self-image 指一個人如何看待自己。這正好符合原文的 “view themselves”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "D — optimistic",
+      "answerKey": "D — optimistic",
+      "type": "Summary Completion",
+      "prompt": "“...encouraging sufferers of depression to take on a more 12 ______________ outlook.”",
+      "translation": "鼓勵憂鬱症患者採取更 ______ 的人生觀或看法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F這段最後一句說 counselling 的目的，是幫助患者 replace negative thoughts with a more positive outlook。題目保留 outlook，空格要找 positive 的近義詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“outlook”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“with the intention of helping patients to replace negative thoughts with a more positive outlook.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目的在於幫助患者以更正面的觀點取代負面想法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “more ___ outlook” 對應原文 “a more positive outlook”。在選項中，optimistic 最接近positive。pessimistic 則方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“positive outlook”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “optimistic outlook”答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "G — inconclusive",
+      "answerKey": "G — inconclusive",
+      "type": "Summary Completion",
+      "prompt": "“The extent to which genetic disposition and sociological factors impact on state of mind is 13______________.”",
+      "translation": "遺傳傾向與社會因素對心理狀態影響到甚麼程度，目前仍 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is apparent that susceptibility to depression can run in families.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很明顯，罹患憂鬱症的傾向可能會在家庭中出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some cases, sufferers of depression may need to unlearn certain behaviours and attitudes they have established in life and develop new coping strategies…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某些情況下，憂鬱症患者可能需要放下生活中已建立的某些行為和態度，並發展新的因應策略。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph G 會討論 family pattern、genetic / environmental factors，以及治療中需要改掉習得的行為模式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“genetic disposition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sociological factors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“impact”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“inherited genetic trait”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biological and environmental factors common to family members”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it remains unclear”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, it remains unclear as to whether this is truly an inherited genetic trait or whether biological and environmental factors common to family members may be at the root of the problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，目前仍不清楚這是否真的是遺傳而來的基因特質，還是家庭成員共享的生物和環境因素才是問題根源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“remains unclear” 表示仍未有確定結論。選項 G “inconclusive” 的意思正是尚無定論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“remains unclear”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “inconclusive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inherited genetic trait”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “genetic disposition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biological and environmental factors common to family members”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “sociological / family-related factors”答案是 G。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Depression.pdf",
+    "sha256": "afa15cea3883ae6639a436ea30bde5df88987a5483ee5f83b2e78167b1c56e7e",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段先指出局外人往往較難理解心理疾病，多於身體疾病。只看末句，段落轉到現代生活壓力、情緒失調增加，以及多國政府推動公眾對心理疾病患者的理解和同情。因此Paragraph A 主要處理社會態度：心理疾病帶有 stigma，患者常被誤解為性格軟弱。Question 4的 society’s attitudes 明顯應先定位到這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句定義 clinical depression / major depressive disorder，並指出 40 歲前最多近 20% 人口可能受影響。末句用 however 轉向專家分歧：部分人認為診斷標準不夠精準，可能把其他 depression類型錯歸為 clinical depression。這段主要處理統計數字、英美病例、WHO 預測和數據可信度。 Question 5 關於 future growth estimates exaggerated，應定位到這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說很多人會因喪親、失業、感情破裂等負面事件經歷低落和沮喪。末句指出 clinical depression 患者比一般人更高風險訴諸 drug abuse，甚至 suicide attempts。因此 Paragraph C主要區分一般情緒低落與 clinical depression，並說明患者會陷入持續負面思考，常有 irritability、tiredness、listlessness。Question 3 的 vulnerable 和 Question 6–8 的 lethargy 都可在這段找到。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 clinical depression 通常在一個人持續兩週或以上出現 excessively depressed mood 或anhedonia，並伴隨五種或以上其他症狀時診斷。末句列出額外症狀，包括失眠、嗜睡、罪惡感、恐懼、無法集中、記憶受干擾、執著死亡、飲食和體重劇變。這段功能非常集中：介紹診斷標準和症狀清單。若題目問 diagnosis、symptoms、anhedonia，應定位到 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 clinical depression 原先只歸因於 brain chemical imbalance；現在專家認為發病可能由多種生理和社會心理因素共同造成。末句說極端情況下，如果患者可能傷害自己，psychiatric hospitalisation 可能成為 intensive therapy。這段主要處理治療方式：anti-depressant drugs、psychotherapy、ECT、hospitalisation。Question 1 的 worst case treatment alternatives 和Question 6–8 的 treatment approaches vary 都會看這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說近期研究認為約四分之一 diagnosed clinical depression cases 其實屬於嚴重但普通的sadness 和 maladjustment，因此需要 psychotherapy rather than medication。末句說counselling 會鼓勵患者以更正面的方式看待自己和人際關係，幫助他們以 positive outlook 取代negative thoughts。這段主題是 psychotherapy / counselling：何時不適合藥物、心理治療較慢但較持久、改善 self-image 和 outlook。Questions 2、9–12 主要來自這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 susceptibility to depression 似乎可以在家庭中出現。末句說部分患者需要 unlearn 已建立的 behaviours and attitudes，並發展新的 coping strategies，改掉從 role models 身上學來的destructive behaviour patterns。這段主要討論成因仍未定案：可能是 inherited genetic trait，也可能是 family members 共享的 biological and environmental factors。Question 13 的 inconclusive直接來自這段。"
+      }
+    ]
+  }
+}

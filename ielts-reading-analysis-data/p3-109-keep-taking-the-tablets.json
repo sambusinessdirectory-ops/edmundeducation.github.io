@@ -1,0 +1,2055 @@
+{
+  "id": "p3-109-keep-taking-the-tablets",
+  "catalogueId": "p3-109",
+  "catalogueIds": [
+    "p3-109"
+  ],
+  "passage": 3,
+  "title": "Keep taking the tablets",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "E",
+    "G",
+    "D",
+    "H",
+    "A",
+    "C",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "E",
+    "F",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "E — the medical uses of a particular tree",
+      "answerKey": "E — the medical uses of a particular tree",
+      "type": "Sentence Endings",
+      "prompt": "“Ancient Egyptian and Greek doctors were aware of the medical uses of a particular tree.”",
+      "translation": "古埃及和古希臘醫生知道某一種樹的醫療用途。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 Ancient Egyptian and Greek doctors 共同知道甚麼。題幹的人物和時代非常清楚： Ancient Egyptian physicians 和 Greek physician Hippocrates。要找他們使用或推薦的東西。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its properties have been known for thousands of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的特性已被人類認識了數千年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the end of the nineteenth century, a German company, Friedrich Bayer & Co., succeeded in creating a relatively safe and very effective chemical compound, acetylsalicylic acid, which was renamed aspirin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀末，德國公司 Friedrich Bayer & Co. 成功製造出一種相對安全且非常有效的化合物acetylsalicylic acid，後來改名為 aspirin。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估這段會從古代藥用知識講到現代 aspirin 的化學合成。題目提 ancient doctors，目標自然在這段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Ancient Egyptian、Greek、doctors。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ancient Egyptian physicians used extracts from the willow tree as an analgesic, or painkiller.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古埃及醫生使用 willow tree 的提取物作為 analgesic，也就是 painkiller。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Centuries later the Greek physician Hippocrates recommended the bark of the willow tree as a remedy for the pains of childbirth and as a fever reducer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個世紀後，希臘醫生 Hippocrates 建議使用 willow tree 的樹皮，作為舒緩分娩痛楚和退燒的療法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句共同提到 willow tree。古埃及醫生使用 willow tree extracts 止痛；Hippocrates 推薦 willow tree bark 處理 childbirth pain 和 fever。這說明他們知道這種樹有醫療用途。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E “the medical uses of a particular tree” 正好概括這兩句。particular tree 指 willow tree； medical uses 指 painkiller、childbirth pain remedy 和 fever reducer。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were aware of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“used” / “recommended”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the medical uses of a particular tree”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“willow tree as an analgesic” / “bark of the willow tree as a remedy”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "G “the chemical found in the willow tree” 很吸引人，因為下一句提到 salicylates。可是古代醫生知道的是 willow tree 的療效，文章沒有說他們認識 salicylates 這種化學物質。Q28 才應用到 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "G — the chemical found in the willow tree",
+      "answerKey": "G — the chemical found in the willow tree",
+      "type": "Sentence Endings",
+      "prompt": "“Friedrich Bayer & Co. were able to reproduce the chemical found in the willow tree.”",
+      "translation": "Friedrich Bayer & Co. 能夠複製 willow tree 中的化學物質。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 Bayer 公司在十九世紀末成功做到甚麼。題幹中的 Friedrich Bayer & Co. 是強定位詞，直接帶我們回到 Paragraph 2 的結尾。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its properties have been known for thousands of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的特性已被人類認識了數千年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the end of the nineteenth century, a German company, Friedrich Bayer & Co., succeeded in creating a relatively safe and very effective chemical compound, acetylsalicylic acid, which was renamed aspirin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀末，德國公司 Friedrich Bayer & Co. 成功製造出一種相對安全且非常有效的化合物acetylsalicylic acid，後來改名為 aspirin。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段會由 willow tree 的古代藥用知識，推向 Bayer 的化學合成成果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Friedrich Bayer & Co. 和 reproduce。原文前面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“salicylates—the chemical found in the willow tree—became the subject of serious scientific investigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "salicylates，也就是 willow tree 中的化學物質，成為嚴肅科學研究的對象。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The race was on to identify the active ingredient and to replicate it synthetically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們展開競賽，要找出 active ingredient，並用合成方式複製它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “reproduce” 對應原文 “replicate it synthetically”。這裡的 it 指 active ingredient，也就是前一句所說 willow tree 中的 chemical：salicylates 相關成分。Bayer 最後成功製造出acetylsalicylic acid，這就是 aspirin 的化學基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 G “the chemical found in the willow tree” 正好是原文破折號中的說明。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were able to reproduce”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“succeeded in creating” / “replicate it synthetically”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“the chemical found in the willow tree”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“salicylates—the chemical found in the willow tree”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 只適合古代醫生，因為它指 medical uses。Bayer 的工作已進入科學化和合成化階段，所以重點在 chemical，而非單純 tree 的藥用經驗。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "D — the industrial revolution",
+      "answerKey": "D — the industrial revolution",
+      "type": "Sentence Endings",
+      "prompt": "“The development of aspirin was partly due to the effects of the industrial revolution.”",
+      "translation": "aspirin 的發展部分受 industrial revolution 影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 aspirin 的發展背後有哪些社會或歷史條件。題幹的 “partly due to” 表示答案不一定是唯一原因，只需原文說它是重要背景之一。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But an understanding of the nature of science and scientific inquiry is not enough on its own to explain how society innovates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只理解 science 和 scientific inquiry 的本質，仍不足以解釋社會如何創新。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of aspirin, that happened piecemeal – a series of minor, often unrelated advances, fertilised by the century’s broader economic, medical and scientific developments, that led to one big final breakthrough.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就 aspirin 而言，這個過程是逐步發生的：一系列較小、常常互不相關的進展，受到該世紀更廣泛的經濟、醫學和科學發展滋養，最後帶來一個重大突破。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段不只講科學本身，也講社會創新條件和十九世紀背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 development of aspirin 和 industrial revolution。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the nineteenth century, scientific advance was closely linked to the industrial revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十九世紀，科學進步和 industrial revolution 緊密相連。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句建立 scientific advance 和 industrial revolution 的關係。後文再說當時人們 “had the means, motive and determination to take an idea and turn it into reality”，意思是工業革命時期提供了資源、動機和執行力，讓科學概念可變成實際產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aspirin 的發展正是在這個大環境下 piecemeal 發生。因此，選項 D “the industrial revolution” 是正確句尾。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“was partly due to the effects of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“was closely linked to” / “fertilised by the century’s broader economic, medical and scientific developments”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“the industrial revolution”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要只停在 Paragraph 3 的 “scientists wanted to answer questions”。那只說科學研究氣氛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 29 問 aspirin development 的 wider cause，Paragraph 4 的 industrial revolution 更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "H — commercial advertising campaigns",
+      "answerKey": "H — commercial advertising campaigns",
+      "type": "Sentence Endings",
+      "prompt": "“The creation of a market for aspirin as a painkiller was achieved through commercial advertising campaigns.”",
+      "translation": "aspirin 作為止痛藥的市場，是透過商業宣傳活動建立起來的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 aspirin 為甚麼能在市場上作為 ordinary everyday analgesic 長期存在。題幹中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“creation of a market” 要找 promoting、publicising、advertising、money 等商業字眼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5第一句：“The link between big money and pharmaceutical innovation is also a significant one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "big money 和 pharmaceutical innovation 之間的連結也非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Had it not been for these findings, this pharmaceutical marvel might well have disappeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有這些發現，這個 pharmaceutical marvel 很可能已經消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段講商業資金如何維持 aspirin 的市場生命，也講後來醫學發現如何避免它消失。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 market for aspirin as a painkiller。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aspirin’s continued shelf life was ensured because for the first 70 years of its life, huge amounts of money were put into promoting it as an ordinary everyday analgesic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "aspirin 能繼續留在市場上，是因為在它生命的最初 70 年，大量金錢被投入，把它推廣成普通日常止痛藥。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“promoting it as an ordinary everyday analgesic” 正好對應 “creation of a market for aspirin as a painkiller”。ordinary everyday analgesic 就是日常止痛藥。huge amounts of money put into promoting it 表示有大量商業推廣資源。選項 H “commercial advertising campaigns” 是對這種 promotion 的概括。原文用 promoting，選項用 advertising campaigns，意思接近。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“creation of a market”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“continued shelf life was ensured” / “huge amounts of money were put into promoting it”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“as a painkiller”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“as an ordinary everyday analgesic”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "analgesic = painkiller。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “new medical applications” 也出現在同段，但它解釋的是 aspirin 後來差點被淘汰時如何獲得新生命。Q30 問 painkiller market 的建立，所以 H 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "A — the discovery of new medical applications",
+      "answerKey": "A — the discovery of new medical applications",
+      "type": "Sentence Endings",
+      "prompt": "“Aspirin might have become unavailable without the discovery of new medical applications.”",
+      "translation": "如果沒有發現新的醫療用途，aspirin 可能已經不再可得。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 aspirin 為何沒有從市場消失。題幹中的 “might have become unavailable without” 要找原文中的反事實句，例如 “Had it not been for... might have disappeared”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The link between big money and pharmaceutical innovation is also a significant one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "big money 和 pharmaceutical innovation 之間的連結也非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Had it not been for these findings, this pharmaceutical marvel might well have disappeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有這些發現，這個 pharmaceutical marvel 很可能已經消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句幾乎直接對應題幹，所以 Paragraph 5 是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 might have become unavailable、without。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“But just at the same time, discoveries were made regarding the beneficial role of aspirin in preventing heart attacks, strokes and other afflictions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但就在同一時期，人們發現 aspirin 在預防 heart attacks、strokes 和其他疾病方面有益。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Had it not been for these findings, this pharmaceutical marvel might well have disappeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有這些發現，這個 pharmaceutical marvel 很可能已經消失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“these findings” 指前一句的 discoveries：aspirin 可幫助預防 heart attacks、strokes 和其他afflictions。這些都是 painkiller 以外的新 medical applications。題目中的 “might have become unavailable” 對應原文 “might well have disappeared”。一種藥若disappeared，就表示它可能不再留在市場，使用者也未必能取得。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“without the discovery of new medical applications”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Had it not been for these findings” + “discoveries ... beneficial role ... preventing heart attacks, strokes”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“might have become unavailable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“might well have disappeared”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不能只看 aspirin 作為 painkiller 的宣傳。宣傳讓它早期存活很久；真正讓它在 1970s 後避免被淘汰的是新的醫學用途發現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — the large pharmaceutical companies",
+      "answerKey": "C — the large pharmaceutical companies",
+      "type": "Sentence Endings",
+      "prompt": "“The way in which aspirin actually worked was not investigated by the large pharmaceutical companies.”",
+      "translation": "aspirin 實際如何發揮作用，沒有被大型藥廠研究。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問誰沒有研究 aspirin 的作用機制。題幹的 “the way in which aspirin actually worked” 對應原文 “the way in which it achieved its effects”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 6–7 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the relationship between big money and drugs is an odd one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 big money 和 drugs 之間的關係很奇特。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be just another forgotten drug that people hadn’t bothered to explore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它就會變成另一種被遺忘、沒有人願意探索的藥。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“None of the recent discoveries of aspirin’s benefits were made by the big pharmaceutical companies; they were made by scientists working in the public sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期關於 aspirin benefits 的發現，沒有一項是由大型藥廠完成的；它們是由 public sector 的科學家完成的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段共同處理「誰研究／誰沒有研究 aspirin」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 way in which aspirin worked 和 investigated。Paragraph 6 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of aspirin, a potential ‘wonder drug’ was around for over 70 years without anybody investigating the way in which it achieved its effects, because they were making more than enough money out of it as it was.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 aspirin 為例，這種可能的 wonder drug 存在了 70 多年，卻沒有人研究它如何產生效果，因為它原本已經帶來足夠多的收益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 再補充 big pharmaceutical companies 沒有作出近年新發現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“without anybody investigating” 表示作用機制沒有被研究。前後文都在講 commercial markets、drug companies、big pharmaceutical companies，以及它們如何受 profit 影響。Paragraph 7 直接指出 recent discoveries 不是由 big pharmaceutical companies 做出，因為 aspirin 已 no profit、no patent、tiny profit margins。因此，選項 C 是最符合句尾的答案：large pharmaceutical companies 沒有投入這類研究。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the way in which aspirin actually worked”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the way in which it achieved its effects”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“was not investigated by”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“without anybody investigating” + “None ... were made by the big pharmaceutical companies”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題表面上可選 “commercial advertising campaigns” 或 “big money”，但題幹問的是 who did not investigate。選項中能作出研究行為的主體是 “the large pharmaceutical companies”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“For nineteenth-century scientists, small-scale research was enough to make important discoveries.”",
+      "translation": "對十九世紀科學家來說，小規模研究已足以作出重要發現。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問作者是否認為十九世紀時，一個人、一間實驗室、少量器材也能帶來重大科學突破。控制詞是 small-scale research 和 important discoveries。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The late nineteenth century was a fertile period for experimentation, partly because of the hunger among scientists to answer some of the great scientific questions, but also because those questions were within their means to answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀末是實驗的肥沃時期，一部分原因是科學家渴望回答重大科學問題，也因為那些問題仍在他們能力和資源範圍內。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One scientist in a laboratory with some chemicals and a test tube could make significant breakthroughs whereas today, in order to map the human genome for instance, one needs ‘an army of researchers, a bank of computers and millions and millions of dollars’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時，一位科學家在實驗室裡，用一些化學品和一支試管，就可以取得重大突破；相比之下，今天若要繪製 human genome，例如需要「一隊研究人員、一批電腦和數以百萬計的資金」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 nineteenth-century scientists、small-scale research、important discoveries。原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“One scientist in a laboratory with some chemicals and a test tube could make significant breakthroughs…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“one scientist”、“a laboratory”、“some chemicals”、“a test tube” 共同構成 small-scale research。“could make significant breakthroughs” 對應 important discoveries。“could” 表示當時這樣做是可行的，不是偶然個案的誇張描述。判斷題目命題：十九世紀小規模研究足以產生重要發現。原文命題：一位科學家用少量化學品和試管也能取得 significant breakthroughs。方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “enough” 不是說所有研究都只需小規模，也不是說大型研究不存在。它只說 small-scale research 能作出重要發現，這正好是原文 “could make significant breakthroughs” 的意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The nineteenth-century industrial revolution caused a change in the focus of scientific research.”",
+      "translation": "十九世紀 industrial revolution 導致 scientific research 的焦點改變。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 industrial revolution 是否導致研究焦點改變。它包含一個明確因果：industrial revolution caused a change，而且改變的對象是 focus of scientific research。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But an understanding of the nature of science and scientific inquiry is not enough on its own to explain how society innovates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只理解 science 和 scientific inquiry 的本質，仍不足以解釋社會如何創新。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of aspirin, that happened piecemeal – a series of minor, often unrelated advances, fertilised by the century’s broader economic, medical and scientific developments, that led to one big final breakthrough.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就 aspirin 而言，這是逐步發生的：一系列較小、常常互不相關的進展，受到該世紀更廣泛的經濟、醫學和科學發展滋養，最後帶來一個重大突破。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 industrial revolution 和 scientific research。原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the nineteenth century, scientific advance was closely linked to the industrial revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十九世紀，科學進步和 industrial revolution 緊密相連。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 scientific advance 和 industrial revolution closely linked。這表示兩者關係密切。後文再說當時人們有 means、motive 和 determination，把 idea 變成 reality。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目說的是 caused a change in the focus of scientific research。原文沒有說 industrial revolution 改變了科學研究的焦點，也沒有描述研究方向從 A 轉向 B。文章只說它與科學進步和實際創新有密切關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目需要：industrial revolution → caused change in research focus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：scientific advance was closely linked to industrial revolution。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少 “change in focus” 這個核心資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“closely linked” 很容易讓學生直接選 YES。可是 linked 只表示有關；caused a change in focus 是更具體的因果與方向轉變。文章沒有提供這一步。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The development of aspirin in the nineteenth century followed a structured pattern of development.”",
+      "translation": "aspirin 在十九世紀的發展遵循一個有結構、有計劃的發展模式。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 aspirin 的發展是否 structured。要找文章如何描述 aspirin 的創新過程：是有計劃、有順序，還是逐步、零散、偶然累積。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But an understanding of the nature of science and scientific inquiry is not enough on its own to explain how society innovates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只理解 science 和 scientific inquiry 的本質，仍不足以解釋社會如何創新。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the case of aspirin, that happened piecemeal – a series of minor, often unrelated advances, fertilised by the century’s broader economic, medical and scientific developments, that led to one big final breakthrough.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就 aspirin 而言，這是逐步、零散地發生的：一系列較小、常常互不相關的進展，受到該世紀更廣泛的經濟、醫學和科學發展滋養，最後帶來一個重大突破。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 structured pattern 和 development of aspirin。原文的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“piecemeal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a series of minor, often unrelated advances”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "piecemeal = 零散地、逐步拼湊地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "a series of minor, often unrelated advances = 一系列較小、常常互不相關的進展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“structured pattern” 表示有清晰框架、步驟和規劃。原文卻用 “piecemeal” 和 “often unrelated” 描述 aspirin 的發展。這表示它不是按照一套清楚結構前進，而是由很多小進展逐漸累積，最後形成突破。判斷題目命題：aspirin development followed a structured pattern。原文命題：aspirin development happened piecemeal through minor, often unrelated advances。兩者衝突，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“one big final breakthrough” 可能讓人覺得整個過程很有目標。可是原文說 big breakthrough 來自 piecemeal advances。判斷要看過程描述，不只看最後成果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“In the 1970s sales of new analgesic drugs overtook sales of aspirin.”",
+      "translation": "在 1970s，新止痛藥的銷量超過 aspirin 的銷量。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 sales comparison。控制詞是 overtook sales of aspirin，表示需要有新藥銷量與 aspirin銷量之間的比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The link between big money and pharmaceutical innovation is also a significant one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "big money 和 pharmaceutical innovation 之間的連結也非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Had it not been for these findings, this pharmaceutical marvel might well have disappeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有這些發現，這個 pharmaceutical marvel 很可能已經消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會講市場、宣傳、其他止痛藥進入市場，以及 aspirin 差點消失。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 1970s、analgesic drugs、sales。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1970s other analgesics, such as ibuprofen and paracetamol, were entering the market, and the pharmaceutical companies then focused on publicising these new drugs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1970s，其他止痛藥，例如 ibuprofen 和 paracetamol，正在進入市場，藥廠於是把焦點放在宣傳這些新藥上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有三項資料： 1. 1970s 有其他 analgesics 進入市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. 例子包括 ibuprofen 和 paracetamol。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. pharmaceutical companies focused on publicising these new drugs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是原文沒有提供 sales figures，也沒有說 new analgesics 的銷量超過 aspirin。publicising new drugs 只是宣傳重點轉移，不等於銷量已超越。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目需要：new analgesic sales > aspirin sales。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：new analgesics entered market and were publicised。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“entering the market” 和 “focused on publicising” 容易讓人推想新藥銷售更好。這是合理商業推測，但文章沒有給出銷量比較，因此不能選 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Commercial companies may have both good and bad effects on the availability of pharmaceutical products.”",
+      "translation": "商業公司可能同時對藥物產品是否能留在市場上產生好影響和壞影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 commercial companies / commercial markets 的雙面作用。要找原文是否同時說它們能維持產品，也可能讓產品消失。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the relationship between big money and drugs is an odd one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 big money 和 drugs 之間的關係相當奇特。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be just another forgotten drug that people hadn’t bothered to explore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它就會變成另一種被遺忘、沒有人願意探索的藥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段評論商業力量和藥物命運之間的複雜關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Commercial companies、good and bad effects、availability。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Commercial markets are necessary for developing new products and ensuring that they remain around long enough for scientists to carry out research on them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "商業市場對開發新產品是必要的，也能確保這些產品留存足夠長時間，讓科學家能對它們進行研究。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the commercial markets are just as likely to kill off certain products when something more attractive comes along.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但當更有吸引力的東西出現時，商業市場同樣可能淘汰某些產品。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句是 good effect：developing new products、ensuring they remain around。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二句是 bad effect：kill off certain products。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 availability 對應 “remain around” 和 “kill off”。一種藥能否繼續留在市場，就是availability 的核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：商業公司可能有好壞兩面影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：commercial markets can help products remain around, but can also kill off products。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “commercial companies”，原文主要用 “commercial markets”。在語境中，市場力量由pharmaceutical companies 和商業資金推動，所以這個概括可以接受。題目的 may 也保留了可能性，不是絕對化說法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "E — major drug companies",
+      "answerKey": "E — major drug companies",
+      "type": "Summary Completion",
+      "prompt": "“Jeffreys argues that the reason why 38 ______ did not find out about new uses of aspirin…”",
+      "translation": "Jeffreys 認為，______ 沒有發現 aspirin 新用途的原因是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“None of the recent discoveries of aspirin’s benefits were made by the big pharmaceutical companies; they were made by scientists working in the public sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期關於 aspirin benefits 的發現，沒有一項由大型藥廠完成；它們是由 public sector 的科學家完成的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, there’s almost a disincentive for drug companies to further boost the drug, he argues, as it could possibly put them out of business by stopping them from selling their more expensive brands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為，事實上，藥廠幾乎沒有誘因進一步推廣 aspirin，因為這可能讓它們無法銷售更昂貴的品牌，甚至影響其生意。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 did not find out about new uses。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“None of the recent discoveries of aspirin’s benefits were made by the big pharmaceutical companies…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接指出沒有作出新發現的是 big pharmaceutical companies。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "List 中 E “major drug companies” 對應原文 “big pharmaceutical companies”。major = big；drug companies = pharmaceutical companies。"
+            },
+            {
+              "kind": "label",
+              "text": "答案 E 放入句子後也文法自然："
+            },
+            {
+              "kind": "quote",
+              "text": "“the reason why major drug companies did not find out…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案38 = E major drug companies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "F — profitable",
+      "answerKey": "F — profitable",
+      "type": "Summary Completion",
+      "prompt": "“…is that aspirin is no longer a 39 ______ drug.”",
+      "translation": "原因是 aspirin 已不再是一種 ______ 的藥。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“None of the recent discoveries of aspirin’s benefits were made by the big pharmaceutical companies; they were made by scientists working in the public sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期關於 aspirin benefits 的發現，沒有一項由大型藥廠完成；它們是由 public sector 的科學家完成的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, there’s almost a disincentive for drug companies to further boost the drug…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，藥廠幾乎沒有誘因進一步推廣 aspirin。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 no longer 和 drug companies。原文 Jeffreys 解釋："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drug companies will only pursue research that is going to deliver financial benefits. There’s no profit in aspirin any more.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藥廠只會追求能帶來財務利益的研究。aspirin 已經沒有利潤了。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“There’s no profit in aspirin any more” 等於 “aspirin is no longer a profitable drug”。空格前有 “a”，後面是 “drug”，所以需要形容詞。List F “profitable” 正好符合文法與意思。答案39 = F profitable"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “cheap” 也和 aspirin 有關，因為原文說 it is incredibly inexpensive。可是 Summary 的因果核心是藥廠不研究它，因為 no profit / tiny profit margins。cheap 是背景，profitable 才是答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — state",
+      "answerKey": "C — state",
+      "type": "Summary Completion",
+      "prompt": "“He therefore suggests that there should be 40 ______ support for further research into the possible applications of the drug.”",
+      "translation": "因此，他建議應該有 ______ 支持，繼續研究 aspirin 可能的用途。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So what is the solution to a lack of commercial interest in further exploring the therapeutic benefits of aspirin?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，面對商業界缺乏興趣繼續探索 aspirin 的治療益處，解決方法是甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We should put a lot more money into trying to find out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們應投入更多資金去找出答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段提出解決方案：商業界沒有興趣，便需要另一種資金來源支持研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 support for further research。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“More public money going into clinical trials, says Jeffreys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jeffreys 說，應有更多 public money 投入 clinical trials。"
+            },
+            {
+              "kind": "label",
+              "text": "接著他以 Department of Health 的角度說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If I were the Department of Health, I would say ‘this is a very inexpensive drug. There may be a lot of other things we could do with it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我是 Department of Health，我會說：「這是一種非常便宜的藥。我們也許還能用它做很多其他事情。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“public money” 指公共資金，語境上與 Department of Health 相關，即政府或 state support。List中沒有 public，所以最合適的是 C “state”。“state support” 文法自然，意思是由國家或公共部門提供支持。答案40 = C state"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "I “health officials” 看似和 Department of Health 有關，但 “health officials support” 文法不自然。題目空格要修飾 support，因此需要形容詞或名詞作定語；“state support” 最貼合 “public money”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Keep taking the tablets.pdf",
+    "sha256": "88322bc8ac153c05fc71477794a91f7db6483e4493d4cda294dcd7bcc802da7b",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 aspirin 的歷史像一場跨越時間的 rollercoaster ride，包含 accidental discoveries、intuitive reasoning 和 corporate rivalry；末句引用 Jeffreys 對 aspirin 的高度評價，說它能止痛、退燒，甚至治療一些致命疾病。只看首尾句，可以先估這段是全篇引入：它把 aspirin 包裝成一種「普通小白藥丸背後有非凡歷史」的藥物。若題目問整本書的主題、aspirin 的多功能性，這段很重要。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 aspirin 的 properties 已被人類認識數千年；末句說十九世紀末 Friedrich Bayer & Co. 成功製造出較安全且有效的 acetylsalicylic acid，並把它改名為 aspirin。首尾句顯示這段由古代willow tree 藥用知識，推進到十九世紀的化學合成。中間提到 Ancient Egyptian physicians、Hippocrates、salicylates 和 willow tree。因此 Questions 27 和 28 很可能在這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說十九世紀末是實驗的 fertile period，部分原因是科學家渴望解答重大科學問題；末句把當時一名科學家、一間實驗室和一支 test tube 的研究模式，對比今日 human genome 研究所需的龐大資源。只看首尾句，可以看到這段主題是十九世紀研究條件較小型，個別科學家也能作出重大突破。Question 33 的 small-scale research 明顯會定位到這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說只理解 science 和 scientific inquiry 本身，仍不足以解釋 society 如何 innovates；末句說aspirin 的發展是 piecemeal 的，由一系列較小、常常互不相關的進展，受更廣泛的經濟、醫學和科學發展推動，最後形成突破。只看首尾句，可以估這段講 aspirin innovation 的社會與工業背景。industrial revolution、means、motive、determination 和 piecemeal 是重點。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 big money 和 pharmaceutical innovation 之間的關係也很重要；末句說若沒有 aspirin 能預防 heart attacks、strokes 等發現，這種 pharmaceutical marvel 可能早已消失。只看首尾句，可以看到這段講商業宣傳如何讓 aspirin 長期留在市場，也講後來新 medical applications 如何救回aspirin 的命運。Questions 30 和 31 都應回到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 big money 和 drugs 的關係相當奇怪；末句說如果 ibuprofen 或 paracetamol 早十年進入市場，aspirin 可能已成為一種無人探索、被遺忘的藥。首尾句顯示這段在分析 commercial markets 的雙面性：它們可以讓產品留下來，也可以在更吸引人的新產品出現時淘汰舊藥。 Questions 32 和 37 都與這段的商業力量有關。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說近年關於 aspirin benefits 的發現沒有一項由 big pharmaceutical companies 完成；末句說Jeffreys 認為藥廠甚至可能不想進一步推廣 aspirin，因為它會影響更昂貴品牌的銷售。只看首尾句，可以看到這段主題是大型藥廠缺乏繼續研究 aspirin 的商業誘因。profit、patent、tiny profit margins、expensive brands 是重點。Summary 題 38–39 主要在這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句提出問題：面對商業興趣不足，如何繼續探索 aspirin 的 therapeutic benefits？末句引用Jeffreys 的想法，說應投入更多資金去找出 aspirin 可能還能做甚麼。首尾句顯示這段提出解決方向：更多 public money、clinical trials 和 Department of Health 角度的支持。Question 40 要找的support 就在這段。"
+      },
+      {
+        "number": "9",
+        "summary": "這段只有一句，說 Jeffreys 的書不只講述 wonder drug 的故事，也探索 innovation 的本質，以及big business、public money 和 regulation 的角色，提醒我們為何這類研究如此重要。這是全文總結段。它把前文的歷史、商業、市場、公共研究和監管連成一個大主題：aspirin 的故事其實也是社會如何推動或限制醫學創新的故事。"
+      }
+    ]
+  }
+}

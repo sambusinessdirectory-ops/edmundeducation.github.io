@@ -1,0 +1,1861 @@
+{
+  "id": "p3-164-the-impact-of-environment-to-children",
+  "catalogueId": "p3-164",
+  "catalogueIds": [
+    "p3-164"
+  ],
+  "passage": 3,
+  "title": "The Impact of Environment to Children",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "genetic",
+    "all siblings",
+    "10 per cent",
+    "Non-shared environment",
+    "40%",
+    "overridden",
+    "variations",
+    "interests",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "genetic",
+      "answerKey": "genetic",
+      "type": "Table Completion",
+      "prompt": "Question 28",
+      "translation": "來自父母和家庭的 ______ 背景，適用於所有兄弟姊妹，影響率為 40%–50%。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“28 ______ background from parents and family | Including all siblings | 40%–50%”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Think of these influences as building blocks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以把這些影響想像成建築積木。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the timing of puberty is largely the result of heredity, but environmental factors such as nutrition can also have an effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，青春期出現的時間很大程度上由遺傳決定，但營養等環境因素也可以產生影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 會處理 nature versus nurture，即 genetic inheritance 和environmental influences 的關係。題目表格第一行有 “background from parents and family” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“40%–50%”，所以應回到這段找 genetic 相關資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：“background”"
+            },
+            {
+              "kind": "quote",
+              "text": "“parents and family”"
+            },
+            {
+              "kind": "quote",
+              "text": "“40%–50%”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all siblings”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩處關鍵："
+            },
+            {
+              "kind": "quote",
+              "text": "“your genetic inheritance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“our genetic background”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Generally, genetic influences account for 40% to 50% of child development and may apply to all siblings in a family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，遺傳影響佔兒童發展的 40% 至 50%，並可能適用於家庭中的所有兄弟姊妹。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格後面已經有 “background”，所以答案不應填 genetic background，否則會變成 “genetic background background”。表格需要一個形容詞修飾 background。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “genetic background” 提供了完整搭配，因此空格應填： genetic"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "background from parents and family原文： genetic inheritance / genetic background"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "40%–50%原文： account for 40% to 50%所以 Question 28 答案是 genetic。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "all siblings",
+      "answerKey": "all siblings",
+      "type": "Table Completion",
+      "prompt": "Question 29",
+      "translation": "Shared environment 適用於 ______，影響率少於 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shared environment | 29 ______ | less than 30 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The shared environment (also called common environment) refers to environmental influences that have the effect of making siblings more similar to one another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shared environment，又稱 common environment，指那些會令兄弟姊妹彼此更相似的環境影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shared environmental effects may apply to all siblings in a family, but their rate of influence is less than 10 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shared environmental effects 可能適用於家庭中所有兄弟姊妹，但其影響率少於 10%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句已經直接對應表格：shared environment 的定義、適用對象、影響率都在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shared environment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Applicability to Siblings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all siblings”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shared environmental effects may apply to all siblings in a family…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shared environmental effects 可能適用於家庭中所有兄弟姊妹。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求 no more than three words。原文完整片語 “all siblings in a family” 有 5 個字，超出限制。因此應抽取核心答案： all siblings表格中的 “Applicability to Siblings” 已經說明這欄是在問適用於哪些 siblings，所以 “all siblings”足夠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "10 per cent",
+      "answerKey": "10 per cent",
+      "type": "Table Completion",
+      "prompt": "Question 30",
+      "translation": "Shared environment 的影響率少於 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shared environment | 29 ______ | less than 30 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The shared environment (also called common environment) refers to environmental influences that have the effect of making siblings more similar to one another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shared environment，又稱 common environment，指那些會令兄弟姊妹彼此更相似的環境影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shared environmental effects may apply to all siblings in a family, but their rate of influence is less than 10 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shared environmental effects 可能適用於家庭中所有兄弟姊妹，但其影響率少於 10%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 30 明顯是數字題，最後一句已經出現 “less than 10 per cent”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rate of influence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less than”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“their rate of influence is less than 10 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們的影響率少於 10%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經有 “less than”，所以只需要填數字和單位： 10 per cent不要填 “less than 10 per cent”，因為題目本身已經提供 “less than”。若填完整片語，句子會重複成 “less than less than 10 per cent”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "Non-shared environment",
+      "answerKey": "Non-shared environment",
+      "type": "Table Completion",
+      "prompt": "Question 31",
+      "translation": "______ 適用於部分兄弟姊妹，影響率為 ______–50%。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“31 ______ | Including some siblings | 32 ______–50%”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The importance of the non-shared environment has lain hidden within quantitative genetic studies since they began nearly a century ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自近一個世紀前 quantitative genetic studies 開始以來，non-shared environment 的重要性一直隱藏在這類研究之中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Non-shared environmental influences may affect only some siblings in a family and account for 40% to 50% of the total influence on children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Non-shared environmental influences 可能只影響家庭中的部分兄弟姊妹，並佔兒童總影響的40% 至 50%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句直接對應表格最後一行：type 是 non-shared environment，適用對象是 some siblings，比例是 40%–50%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“some siblings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“40% to 50%”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Non-shared”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩個可能答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“The importance of the non-shared environment…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Non-shared environmental influences may affect only some siblings…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格第一欄是 Type of Impact on Children。上一行已有 “Shared environment”，因此相對應的類型應寫： Non-shared environment如果答案表更偏向最後一句，也可能接受： Non-shared environmental influences但從表格對稱性看，Non-shared environment 最自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "40%",
+      "answerKey": "40%",
+      "type": "Table Completion",
+      "prompt": "Question 32",
+      "translation": "Non-shared environment 的影響率是 ______–50%。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“31 ______ | Including some siblings | 32 ______–50%”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The importance of the non-shared environment has lain hidden within quantitative genetic studies since they began nearly a century ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自近一個世紀前 quantitative genetic studies 開始以來，non-shared environment 的重要性一直隱藏在這類研究之中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Non-shared environmental influences may affect only some siblings in a family and account for 40% to 50% of the total influence on children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Non-shared environmental influences 可能只影響家庭中的部分兄弟姊妹，並佔兒童總影響的40% 至 50%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“some siblings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“50%”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rate of influence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“account for 40% to 50% of the total influence on children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "佔兒童總影響的 40% 至 50%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格後面已有 “–50%”，所以只需要填前面的數字： 40%不要填 “40% to 50%”，因為題目已經提供後半部分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "overridden",
+      "answerKey": "overridden",
+      "type": "Summary Completion",
+      "prompt": "“Recent research indicated that the influence of parents can frequently be 33 ______ by peer pressure.”",
+      "translation": "近期研究指出，父母的影響經常可以被同儕壓力 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet it took many decades for the full meaning of these findings to emerge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這些研究發現的完整意義花了很多十年才浮現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of interests conflict between fathers and mothers, or between parents and their children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父親與母親之間，或父母與子女之間，存在多種利益衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 會講 non-shared environment 研究的後續意義，以及家庭內部、父母、同儕、文化等影響如何互相競爭。題目有 parents 和 peer pressure，應看這段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“influence of parents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“peer pressure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“frequently”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in recent years has suggested that the influence of parents can easily be overridden by peer influence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年研究指出，父母的影響很容易被同儕影響蓋過。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前是 “can frequently be”，後面又有 “by peer pressure”，所以空格需要過去分詞。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“can easily be overridden by peer influence”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can frequently be ______ by peer pressure”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "easily = frequently / 很容易、常常peer influence = peer pressure / 同儕影響或同儕壓力答案是： overridden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "variations",
+      "answerKey": "variations",
+      "type": "Summary Completion",
+      "prompt": "“It also indicated that 34 ______ in the knowledge children acquire from other cultures are increasing.”",
+      "translation": "研究亦指出，孩子從其他文化獲得的知識中的 ______ 正在增加。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet it took many decades for the full meaning of these findings to emerge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現的完整意義花了很多十年才浮現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of interests conflict between fathers and mothers, or between parents and their children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母雙方之間，或父母與孩子之間，存在多種利益衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 後半集中講近期研究發現，包括 parents、peers、other cultures 和 conflicts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 34 有 “knowledge” 和 “other cultures”，定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“knowledge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other cultures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research has also shown that variations in the knowledge that children acquire from other cultures are increasing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究亦顯示，孩子從其他文化獲得的知識中的差異正在增加。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子幾乎照搬原文："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“______ in the knowledge children acquire from other cultures are increasing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“variations in the knowledge that children acquire from other cultures are increasing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要 plural noun，因為後面動詞是 “are increasing”。答案是： variations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "interests",
+      "answerKey": "interests",
+      "type": "Summary Completion",
+      "prompt": "“The study found many competing 35 ______ between parents and children, or even between parents themselves.”",
+      "translation": "研究發現父母與孩子之間，甚至父母雙方之間，有很多互相競爭的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet it took many decades for the full meaning of these findings to emerge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現的完整意義花了很多十年才浮現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of interests conflict between fathers and mothers, or between parents and their children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母雙方之間，或父母與孩子之間，存在多種利益衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題其實由段落最後一句直接定案，因為題目中的 “competing” 改寫了原文 “conflict”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“between parents and children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“between parents themselves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“competing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of interests conflict between fathers and mothers, or between parents and their children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母雙方之間，或父母與孩子之間，存在多種利益衝突。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “competing” 對應原文 “conflict”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “parents themselves” 對應原文 “fathers and mothers”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “between parents and children” 原文也直接出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “many competing”，後面需要複數名詞。原文複數名詞是： interests答案是 interests。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The more children there are in a family, the greater the environmental impact.”",
+      "translation": "一個家庭中孩子越多，環境影響就越大。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D / Paragraph G Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The shared environment (also called common environment) refers to environmental influences that have the effect of making siblings more similar to one another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shared environment 指那些會令兄弟姊妹彼此更相似的環境影響。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because siblings living in the same home share some but not all of the potential genetic and environmental factors that influence their behaviors, teasing apart the potential influences of genetic and non-genetic factors that differentiate siblings is very difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於住在同一家庭中的兄弟姊妹共享部分但非全部影響行為的遺傳和環境因素，要分辨哪些genetic and non-genetic factors 令兄弟姊妹不同，是非常困難的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以知道文章多次談 siblings 和 family environment，但題目問的是孩子數量和環境影響大小的比例關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“family”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater environmental impact”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文可找到 family、siblings、shared environment、non-shared environment，但沒有出現： number of children more children greater impact because of family size"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章說： shared environmental effects 可適用於 all siblings； non-shared environmental influences 可能只影響 some siblings； siblings share some but not all genetic and environmental factors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是文章沒有說：家庭孩子越多，環境影響越大；孩子數量和 environmental impact 有正比例關係；兄弟姊妹數目會增加 shared 或 non-shared effects。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了一個新的比較結構： the more X, the greater Y原文完全沒有建立這種關係。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位在於",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章很多次提到 siblings and family，容易令人以為和「孩子數量」有關。但 siblings"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只是研究對象，不等於文章討論家庭孩子數量的影響。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Methods based on twin studies still encounter unexpected differences that cannot be explained purely by genetics.”",
+      "translation": "以雙胞胎研究為基礎的方法仍然會遇到一些不能單靠遺傳解釋的差異。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The importance of the non-shared environment has lain hidden within quantitative genetic studies since they began nearly a century ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "non-shared environment 的重要性，自 quantitative genetic studies 近一個世紀前開始以來，一直隱藏在其中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Non-shared environmental influences may affect only some siblings in a family and account for 40% to 50% of the total influence on children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Non-shared environmental influences 可能只影響家庭中的部分兄弟姊妹，並佔兒童總影響的40% 至 50%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph E 會講 quantitative genetic studies 如何揭示 non-shared environment 的重要性。題目有 twin studies 和 genetics，因此定位在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“twin studies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“genetics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“differences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be explained”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Quantitative genetic methods, such as twin and adoption methods, were designed to tease apart nature and nurture in order to explain family resemblance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Quantitative genetic methods，例如雙胞胎和收養研究方法，原本設計用來分辨 nature 和nurture，以解釋家庭成員之間的相似性。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“genetic influence never explains all of the variance for complex phenotypes, and the remaining variance must be ascribed to environmental influences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對複雜表型而言，遺傳影響從來不能解釋所有變異，剩餘的變異必須歸因於環境影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “methods based on twin studies” 對應原文 “twin and adoption methods”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “differences” 對應原文 “variance”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “cannot be explained purely by genetics” 對應原文 “genetic influence never explains all of the variance”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文明確說 genetic influence never explains all variance，剩餘部分要歸因於 environmental influences。這正好支持題目：雙胞胎等方法仍會遇到不能只靠 genetics 解釋的差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要留意 “unexpected” 沒有逐字出現，但它在題目中只是形容這些 remaining variance 對純遺傳解釋造成挑戰。真正控制答案的是 “cannot be explained purely by genetics”，這點有原文直接支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Children prefer the language spoken by children of the same age to the language spoken by their parents.”",
+      "translation": "孩子較喜歡同齡孩子所說的語言，多於父母所說的語言。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet it took many decades for the full meaning of these findings to emerge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究發現的完整意義花了很多十年才浮現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of interests conflict between fathers and mothers, or between parents and their children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母雙方之間，或父母與孩子之間，存在多種利益衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 會處理 parents、children、peer influence 和 family conflicts。題目提到children of the same age 和 parents，似乎會被 peer influence 吸引。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“children of the same age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“parents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“language”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in recent years has suggested that the influence of parents can easily be overridden by peer influence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年研究指出，父母的影響很容易被同儕影響蓋過。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 peer influence 可能蓋過 parent influence。這是一般影響力的比較。題目加入了三個新元素： language spoken by peers language spoken by parents children prefer one language over another文章沒有討論語言偏好，也沒有說孩子喜歡同齡人的語言多於父母的語言。peer influence 可以包括很多事情，例如行為、態度、知識、習慣，但原文沒有把它限制到 language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “peer influence”。學生看到 peer，就可能聯想到同齡孩子；但 IELTS 判斷不能靠聯想補出 language preference。文章只提供 peer influence，不足以支持題目整句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The study of non-shared environmental influences is generally accepted among researchers in the field.”",
+      "translation": "研究 non-shared environmental influences 這個方向，在該領域研究者中普遍被接受。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because siblings living in the same home share some but not all of the potential genetic and environmental factors that influence their behaviors, teasing apart the potential influences of genetic and non-genetic factors that differentiate siblings is very difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於住在同一家庭中的兄弟姊妹共享部分但非全部 genetic and environmental factors，要分辨哪些因素令兄弟姊妹不同，是非常困難的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the impetus for the current study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是目前這項研究的推動力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段重點是研究困難和 current study 的必要性。題目說 generally accepted，應檢查原文是否呈現穩定共識，還是仍有方法疑問。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“non-shared environmental influences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“generally accepted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“researchers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Turkheimer and Waldron (2000) have noted that non-shared environmental influences—which include all of the random measurement error—may not be systematic, but instead may operate idiosyncratically and in ways that cannot be ascertained.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Turkheimer 和 Waldron 指出，non-shared environmental influences 包括所有隨機測量誤差，可能並不具系統性，反而可能以個別、特殊、無法確定的方式運作。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the question is whether or not quasi-experimental behavioral genetic designs can be used to actually identify systematic non-shared environmental mechanisms cross-sectionally and longitudinally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，問題在於 quasi-experimental behavioral genetic designs 是否真的能夠在橫斷面和縱向研究中識別出有系統的 non-shared environmental mechanisms。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “generally accepted”，意思是這個研究方向已經在研究者中有普遍共識。可是原文的語氣很謹慎："
+            },
+            {
+              "kind": "quote",
+              "text": "“may not be systematic”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能不具系統性"
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be ascertained”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "無法確定"
+            },
+            {
+              "kind": "quote",
+              "text": "“the question is whether or not…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題在於是否真的能做到這些語句共同顯示：作者把 current studies 放在未完全確立、仍需驗證的狀態。Question 40 也延續這點，正確選項是 “not sufficiently substantiated”。所以 Question 39 的 “generally accepted”和原文的 tentative / uncertain framing 不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NO。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充一點：原文沒有逐字寫 “researchers do not accept it”。可是 YES / NO / NOT GIVEN 題看的是 writer’s claims。作者在 Paragraph G 明確把這個研究方向寫成仍有方法疑問、系統性未明、需要 current study 推動的狀態，所以 “generally accepted” 太肯定，和原文立場相衝。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — They have not been sufficiently substantiated.",
+      "answerKey": "B — They have not been sufficiently substantiated.",
+      "type": "Multiple Choice",
+      "prompt": "“According to the passage, which statement is TRUE about current studies of non-shared environmental influences on children?”",
+      "translation": "根據文章，關於目前針對兒童 non-shared environmental influences 的研究，哪一項說法正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because siblings living in the same home share some but not all of the potential genetic and environmental factors that influence their behaviors, teasing apart the potential influences of genetic and non-genetic factors that differentiate siblings is very difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為同住一家的兄弟姊妹共享部分但非全部 genetic and environmental factors，要分清哪些因素令他們不同，是非常困難的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the impetus for the current study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是目前這項研究的推動力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 current studies，所以 Paragraph G 最後一句 “current study” 是強定位訊號。這段不只是講結果，更是在講研究仍面對甚麼問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“current studies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“non-shared environmental influences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“non-shared environmental influences—which include all of the random measurement error—may not be systematic, but instead may operate idiosyncratically and in ways that cannot be ascertained.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "non-shared environmental influences 包括所有隨機測量誤差，可能不具系統性，並可能以個別、特殊、無法確定的方式運作。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“the question is whether or not quasi-experimental behavioral genetic designs can be used to actually identify systematic non-shared environmental mechanisms…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題在於 quasi-experimental behavioral genetic designs 是否真的能識別出有系統的non-shared environmental mechanisms。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A. They are somewhat biased."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們有某種偏見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提到 biased、bias、偏見、研究傾向不公等概念。Paragraph G 講的是方法困難、隨機測量誤差、能否識別 systematic mechanisms。A 缺乏原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. They have not been sufficiently substantiated."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們尚未得到足夠證實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文最吻合。原文說 non-shared environmental influences 可能不具系統性，可能以無法確定的方式運作，並提出 “the question is whether or not…” 這種未解決問題。這些都表示目前研究仍未充分證實和穩定識別其 mechanisms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. They are highly systematic."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們高度系統化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文方向相反。原文說 “may not be systematic”，即可能並不具系統性。因此 C 可以排除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. They can be applied in practice."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們可以實際應用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 current studies 已可 practical application。它仍在問研究設計能否 actually identify mechanisms。既然識別本身仍是問題，文章沒有支援已能實際應用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： B — They have not been sufficiently substantiated."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Impact of Environment to Children.pdf",
+    "sha256": "ec741af9442e1472b17de74d6e5438ff4b02879a71d6c538a738605978120bea",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句問 “What determines how a child develops?”，最後一句列出 genetics、parenting、experiences、friends、family relationships、school 等明顯因素。只看首尾句，可以先估計這段是全篇引入：作者承認兒童發展受很多因素影響，無法逐一計算每個因素，但可以先研究最明顯的幾類。這段不會直接給數字答案，功能偏向建立主題範圍：child development 由遺傳、家庭、學校、朋友和生活經歷共同影響。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句把各種影響比喻成 building blocks，最後一句用 puberty 說明 heredity 主要決定青春期時間，但 nutrition 等環境因素也可影響。只看首尾句，這段大概會介紹 nature versus nurture debate，即遺傳和環境之爭。中間很可能有 genetic inheritance、genetic background、40% to 50% 等數字。Questions 28 很可能定位在這段，因為題目表格第一行問 inherited / parental background 和 40%–50%。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說從生命最早時刻開始，heredity 和 environment 的互動塑造孩子；最後一句說這種nature and nurture interaction 是 persistent and lifelong。只看首尾句，這段是在深化 Paragraph B：基因像發展 road map，但環境可以影響這些指令如何表達、形成，甚至被抑制。這段較偏理論解釋，未必直接出現表格答案，但有助理解文章核心：遺傳和環境並非分開運作，而是長期互動。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句定義 shared environment：會令 siblings 更相似的環境影響；最後一句說 shared environmental effects 可適用於 all siblings，但影響率 less than 10 per cent。只看首尾句，這段明顯服務 Questions 29–30。中間可能補充 shared family experiences、same school、same community，以及這類影響在成人行為研究中證據不強。段落功能是介紹 common environment的定義、例子、生命歷程中的變化和影響比例。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說 non-shared environment 的重要性在 quantitative genetic studies 中隱藏了近一個世紀；最後一句說 non-shared environmental influences 只影響 some siblings，佔 total influence 的40% to 50%。只看首尾句，這段明顯會回答 Questions 31–32。中間會談 twin and adoption methods，以及 genetic influence 不能解釋所有 variance，所以剩餘差異要歸因於 environmental influences。段落重點是：令同一家庭孩子不同的環境因素很重要。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說這些研究結果的完整意義花了很多十年才浮現；最後一句說 fathers and mothers、parents and children 之間存在利益衝突。只看首尾句，這段功能是解釋 non-shared environment為何長期未被充分重視，以及近年研究如何轉向 peer influence、other cultures、family conflicts。 Questions 33–35 明顯會定位到這段，因為 summary 中有 parents、peer pressure、knowledge from other cultures、competing interests 等字眼。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說 siblings in the same home 共享部分 genetic and environmental factors，但並非全部，所以很難區分 genetic and non-genetic factors；最後一句說這正是 current study 的 impetus。只看首尾句，這段功能是指出研究 non-shared environmental influences 的方法困難。中間會出現Turkheimer and Waldron、random measurement error、not systematic、cannot be ascertained、identify systematic mechanisms 等句子。Questions 36–40 很可能集中在這段或由這段定案。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "補充：Question 31 寫 Non-shared environmental influences 也有原文支援，但表格上一行已用 Shared environment，所以 Non-shared environment 更整齊。"
+  ]
+}

@@ -1,0 +1,1387 @@
+{
+  "id": "p3-123-fueling-the-future",
+  "catalogueId": "p3-123",
+  "catalogueIds": [
+    "p3-123"
+  ],
+  "passage": 3,
+  "title": "FUELING THE FUTURE",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "YES",
+    "YES",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "B — unleaded gasoline",
+    "C — ethanol",
+    "C — ethanol",
+    "D — diesel",
+    "A — Australia only",
+    "B — America only",
+    "B — America only",
+    "C — both Australia and America",
+    "B — America only"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The need to control air pollution is why ethanol came into use.”",
+      "translation": "控制空氣污染的需要，是 ethanol 被使用的原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求判斷作者是否把 ethanol 和控制 air pollution 連起來。控制詞是 need to control air pollution 和 ethanol came into use。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The world’s 750 million motor vehicles emit well over 900 million metric tonnes of carbon dioxide each year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球 7.5 億輛汽車每年排放超過 9 億公噸二氧化碳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One serious contender put forward as a solution to the pollution problem is ethanol.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為污染問題解決方案而被提出的一個有力候選，就是 ethanol。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 的功能：先指出汽車排放和交通污染的嚴重性，再引出ethanol 作為替代燃料方案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“air pollution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ethanol”"
+            },
+            {
+              "kind": "quote",
+              "text": "“why”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中相關句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, in an attempt to address this problem, many governments around the world have been looking at ways to implement alternative fuel sources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，為了處理這個問題，世界各地許多政府一直在尋找推行替代燃料來源的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“One serious contender put forward as a solution to the pollution problem is ethanol.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ethanol 是被提出來解決污染問題的一個有力候選。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “The need to control air pollution”。原文沒有逐字說 control，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“tackling traffic-related air pollution should be high on any government’s list of priorities”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "處理交通相關空氣污染應該是任何政府的高度優先事項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和下一句 “in an attempt to address this problem” 連起來，表示政府尋找 alternative fuel sources 的原因正是要處理交通污染。Ethanol 隨即被列為一個 solution to the pollution problem。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“need to control air pollution”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“tackling traffic-related air pollution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in an attempt to address this problem”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“ethanol came into use”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“one serious contender put forward as a solution … is ethanol”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，題目和原文方向一致，答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 Paragraph 2。Paragraph 2 後來說 1970s 的 E10 受 skyrocketing oil prices 推動，這是ethanol 在某個歷史階段作為 fuel-extender 的原因。但 Question 27 放在全文開端，問的是作者把 ethanol 作為替代燃料方案引入時的污染背景。Paragraph 1 的 “solution to the pollution problem” 最能控制本題答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Brazil uses more ethanol for transportation than America.”",
+      "translation": "巴西在交通運輸方面使用的 ethanol 多於美國。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 for transportation。如果只看哪個國家整體消耗最多 ethanol，會被後文干擾。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ethanol is a type of alcohol made by fermenting plant material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ethanol 是一種由植物材料發酵製成的酒精。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, Brazil has the largest transportation ethanol fuel market in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，巴西擁有世界上最大的交通用 ethanol 燃料市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段會介紹 ethanol 的製造和交通燃料用途，最後聚焦 Brazil 在transportation ethanol market 的地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brazil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“transportation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“America”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 先講 USA，再講 Brazil。關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today there are more than 4.2 million ethanol-powered vehicles in Brazil (40 per cent of passenger-carrying vehicles) which consume 4 billion gallons of ethanol annually.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，巴西有超過 420 萬輛 ethanol-powered vehicles，佔載客車輛的 40%，每年消耗 40 億加侖 ethanol。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, Brazil has the largest transportation ethanol fuel market in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，巴西擁有世界上最大的交通用 ethanol 燃料市場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “uses more ethanol for transportation than America”。原文說 Brazil has the largest transportation ethanol fuel market in the world。既然是世界最大交通用 ethanol 市場，便包括大於 America 在交通燃料方面的市場規模。"
+            },
+            {
+              "kind": "label",
+              "text": "這裡的同義橋是："
+            },
+            {
+              "kind": "quote",
+              "text": "“uses more ethanol for transportation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “largest transportation ethanol fuel market”注意 “transportation” 是本題核心。Paragraph 3 之後說 USA 是 “the largest ethanol-consuming nation in the world”，那是整體 ethanol consumption；Question 28 限定交通運輸用途，因此Paragraph 2 的 Brazil 句子更精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Selected food crops become more expensive due to ethanol production.”",
+      "translation": "某些食用作物會因 ethanol 生產而變得更貴。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要判斷 selected food crops 是否對應原文中的 feed grains / corn，以及 become more expensive 是否對應 monetary value increases。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that ethanol is made from a variety of plant substances, when it is used in fuel production, it increases the monetary value of feed grains grown by farmers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 ethanol 由多種植物物質製成，當它用於燃料生產時，會提高農民種植的飼料穀物的金錢價值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In America, the Clean Air Act of 1990 and the National Energy Policy Act of 1992 have both created new market opportunities for cleaner, more efficient fuels with many state governments in America’s Midwest purchasing fleet vehicles capable of running on E-85 fuels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，1990 年《清潔空氣法》和 1992 年《國家能源政策法》都為更清潔、更高效的燃料創造了新市場機會，美國中西部許多州政府也購買可使用 E-85 的車隊車輛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見本段會講 ethanol 的好處：農業價值增加、減排、市場和政策支持。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“food crops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more expensive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ethanol production”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“ethanol production adds 30 cents to the value of a bushel of corn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ethanol 生產會令每蒲式耳玉米的價值增加 30 美仙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “selected food crops”。原文第一句講 “feed grains”，後面具體例子是 “corn”。Corn 可作飼料穀物，也可作食物作物，因此題目用 selected food crops 作概括可以接受。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說 “become more expensive”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“increases the monetary value”"
+            },
+            {
+              "kind": "quote",
+              "text": "“adds 30 cents to the value”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個短語都表示價值上升。價值上升在市場語境中可對應價格或作物價值提高。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "selected food crops= feed grains / corn become more expensive= increases the monetary value / adds 30 cents to the value due to ethanol production= when it is used in fuel production / ethanol production adds所以題目和原文方向一致，答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The Australian sugar industry will benefit from the production of ethanol.”",
+      "translation": "澳洲糖業將會因 ethanol 生產而受惠。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目使用 will benefit，語氣很肯定。原文若只說 “可能受惠” 或 “有條件受惠”，便不能支持這個肯定說法。若原文提供相反方向，答案就是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although it makes good fuel, some drawbacks have been documented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 ethanol 是不錯的燃料，但已有一些缺點被記錄下來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent study by the Australian Bureau of Agricultural and Resource Economies found that without assistance, large-scale production of ethanol would not be commercially viable in Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲農業與資源經濟局近期一項研究發現，如果沒有協助，大規模 ethanol 生產在澳洲沒有商業可行性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見 Paragraph 4 主要處理 ethanol 的限制和成本問題。題目問 Australian sugar industry 是否必然受惠，因此目標很可能在這段中後部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australian sugar industry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“production of ethanol”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Principal economist for the Australian Bureau of Agriculture, Andrew Dickson, points out that the money sugarcane growers get for their cane is not determined by the domestic consumption or domestic demand for ethanol; it is entirely determined by the world sugar market and the world trade in molasses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲農業局首席經濟學家 Andrew Dickson 指出，甘蔗種植者從甘蔗所得的收入，並不由國內ethanol 消費或需求決定；它完全由世界糖市場和全球糖蜜貿易決定。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“He believes that the only way the sugar industry can benefit from the existence of an ethanol industry is if it invests in the ethanol industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為，糖業能從 ethanol 產業存在中受惠的唯一方法，是糖業本身投資 ethanol 產業。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “will benefit”，表示生產 ethanol 本身會帶來好處。原文把情況說得更有限：糖業收入由world sugar market 和 molasses trade 決定，不由 domestic demand for ethanol 決定。"
+            },
+            {
+              "kind": "label",
+              "text": "更重要的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the only way the sugar industry can benefit … is if it invests in the ethanol industry”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個條件句。受惠需要一個額外條件：投資 ethanol 產業。題目沒有這個條件，直接說 will benefit，語氣過強。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還有引號："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sugar producer does not get any more money for their molasses so what incentive do they have to produce any more?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "糖生產者不會因糖蜜得到更多錢，那他們有甚麼誘因生產更多？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句進一步削弱題目說法。原文指出 ethanol demand 不會自動提高 sugar producer 的收入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以題目和原文方向相反，答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位在 Paragraph 5 的第一句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Regardless of whether the Australian sugar industry will benefit from a mandated 10% ethanol mix…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不論澳洲糖業是否會從強制 10% ethanol 混合中受惠……這句本身也表示糖業受惠並非確定事實。題目把不確定、有條件的 benefit 說成必然，因此不可選YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Primary ethanol (E-85) has been extensively tested in Australia.”",
+      "translation": "Primary ethanol，也就是 E-85，已經在澳洲經過廣泛測試。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要同時檢查三個元素：E-85、extensively tested、in Australia。三者都要由原文支持，才可選YES。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although it makes good fuel, some drawbacks have been documented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 ethanol 是不錯的燃料，但已有一些缺點被記錄下來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent study by the Australian Bureau of Agricultural and Resource Economies found that without assistance, large-scale production of ethanol would not be commercially viable in Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲農業與資源經濟局近期一項研究發現，如果沒有協助，大規模 ethanol 生產在澳洲沒有商業可行性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會談澳洲研究和 ethanol blend 對車輛的影響，所以和題目有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“E-85”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tested”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia”"
+            },
+            {
+              "kind": "label",
+              "text": "E-85 出現在 Paragraph 2："
+            },
+            {
+              "kind": "quote",
+              "text": "“as a primary fuel with 85 parts of ethanol blended with 15 parts of unleaded fuel (E-85).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為主要燃料時，E-85 由 85 份 ethanol 和 15 份 unleaded fuel 混合而成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Australia 的 testing / review 出現在 Paragraph 4："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Australia, a government review into the impacts of a 20% ethanol blend on vehicles found the information to be insufficient or conflicting…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在澳洲，一項政府對 20% ethanol blend 對車輛影響的審查發現，相關資訊不足或互相矛盾。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 Australia，也提到 ethanol blend review，但澳洲審查的是 20% ethanol blend，不是 E-85。E-85 是 85% ethanol，兩者不是同一種 fuel blend。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另外，原文說 “information to be insufficient or conflicting”，即資料不足或互相矛盾。這和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“extensively tested” 的感覺相距很遠。不過，由於原文沒有明確討論 E-85 在澳洲的測試情況，最穩定判斷是資料缺失。題目需要： E-85● Australia● extensively tested原文提供： E-85 的定義● Australia 對 20% blend 的 review● 資訊 insufficient or conflicting關鍵鏈條沒有完成，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — unleaded gasoline",
+      "answerKey": "B — unleaded gasoline",
+      "type": "Fuel Types Matching",
+      "prompt": "Question 32",
+      "translation": "價格大約是 ethanol 的一半。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“costs about half the price of ethanol”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Australia, fuel ethanol costs around 70 cents per litre compared with around 35 cents per litre for unleaded petrol.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在澳洲，fuel ethanol 每公升約 70 仙，而 unleaded petrol 每公升約 35 仙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "70 cents 和 35 cents 是二比一關係。題目說 costs about half the price of ethanol，即某燃料價格約為 ethanol 的一半。原文中符合這個描述的是 unleaded petrol，對應選項 B unleaded gasoline。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A regular gasoline 看似也可能是 petrol，但原文精準詞是 unleaded petrol。選項 B 和原"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文用詞最貼近。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — ethanol",
+      "answerKey": "C — ethanol",
+      "type": "Fuel Types Matching",
+      "prompt": "Question 33",
+      "translation": "和某些金屬反應不佳，可能造成損害。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“reacts poorly with some metals”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It does not explode like gasoline, and it can absorb water, which can cause oxidation, rust and corrosion.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它不像 gasoline 那樣爆燃，而且它能吸收水分，這可能造成氧化、生鏽和腐蝕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “it” 指前面的 ethanol。Oxidation、rust、corrosion 都和金屬受損有關，因此題目把這句概括成 reacts poorly with some metals。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reacts poorly with some metals= can absorb water → cause oxidation, rust and corrosion所以 33 是 C — ethanol。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — ethanol",
+      "answerKey": "C — ethanol",
+      "type": "Fuel Types Matching",
+      "prompt": "Question 34",
+      "translation": "是貨車需要較大油箱的原因。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“is the reason why trucks have been fitted with larger fuel tanks”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Compared to diesel – the standard fuel in the heavy transport industry – ethanol is known to have a lower energy content so ethanol trucks require larger fuel tanks to achieve the same range as a diesel-powered vehicle.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "與柴油這種重型運輸業標準燃料相比，ethanol 的能量含量較低，所以 ethanol trucks 需要較大的油箱，才能達到與柴油車相同的行駛距離。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “reason why trucks have been fitted with larger fuel tanks”。原文說原因是 ethanol has a lower energy content。由於 fuel type 選項中沒有 “lower energy content”，只能選造成這個問題的燃料：ethanol。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 C — ethanol。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D diesel 出現在同一句，但 diesel 是比較基準。真正導致大油箱的是 ethanol 的能量含量"
+            },
+            {
+              "kind": "paragraph",
+              "text": "較低。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — diesel",
+      "answerKey": "D — diesel",
+      "type": "Fuel Types Matching",
+      "prompt": "Question 35",
+      "translation": "常用於貨運或重型運輸業。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“commonly used in the trucking industry”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Compared to diesel – the standard fuel in the heavy transport industry…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "與柴油相比——柴油是重型運輸業的標準燃料……題目中的 “commonly used” 對應原文 “the standard fuel”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“trucking industry” 對應 “heavy transport industry”。所以 35 是 D — diesel。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "A — Australia only",
+      "answerKey": "A — Australia only",
+      "type": "Country Classification",
+      "prompt": "“makes ethanol out of sugar cane”",
+      "translation": "用 sugar cane 製造 ethanol。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Principal economist for the Australian Bureau of Agriculture, Andrew Dickson, points out that the money sugarcane growers get for their cane is not determined by the domestic consumption or domestic demand for ethanol…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲農業局首席經濟學家 Andrew Dickson 指出，甘蔗種植者從甘蔗所得的收入，並不由國內ethanol 消費或需求決定。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文又提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the world sugar market and the world trade in molasses”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界糖市場和全球糖蜜貿易。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡把 Australia、sugarcane growers、molasses 和 ethanol demand 放在同一條產業鏈中。雖然句子重點是糖業是否能從 ethanol demand 中受惠，但資料顯示澳洲討論的是 sugar cane /molasses 與 ethanol 產業的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "America 段落則集中在 corn："
+            },
+            {
+              "kind": "quote",
+              "text": "“ethanol production adds 30 cents to the value of a bushel of corn.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ethanol 生產令每蒲式耳玉米價值增加 30 美仙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，sugar cane 這項分類在文章中只連到 Australia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 A — Australia only。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "B — America only",
+      "answerKey": "B — America only",
+      "type": "Country Classification",
+      "prompt": "“uses more ethanol than any other country in the world”",
+      "translation": "使用 ethanol 的量比世界任何其他國家都多。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, in the USA, the largest ethanol-consuming nation in the world, ethanol production adds$4.5 billion to the farm economy every year.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在美國這個世界最大的 ethanol 消費國，ethanol 生產每年為農業經濟增加 45 億美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the largest ethanol-consuming nation in the world” 直接對應 “uses more ethanol than any other country in the world”。所以 37 是 B — America only。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 說 Brazil has the largest transportation ethanol fuel market in the world。那"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句有 transportation 限定。Question 37 沒有說 transportation，問的是整體 ethanol consumption，所以要用 USA 這句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — America only",
+      "answerKey": "B — America only",
+      "type": "Country Classification",
+      "prompt": "“receives government assistance for ethanol production”",
+      "translation": "在 ethanol 生產方面得到政府協助。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In America, one report revealed that even with government assistance, ethanol costs nearly 35 per cent more than diesel.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，一份報告顯示，即使有政府協助，ethanol 的成本仍比 diesel 高將近 35%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說 America 有 government assistance。"
+            },
+            {
+              "kind": "label",
+              "text": "Australia 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent study by the Australian Bureau of Agricultural and Resource Economies found that without assistance, large-scale production of ethanol would not be commercially viable in Australia.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲農業與資源經濟局近期研究發現，如果沒有協助，大規模 ethanol 生產在澳洲沒有商業可行性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 Australia 若要大規模生產可能需要 assistance，但沒有說 Australia 已經 receives government assistance。題目用 receives，表示現有狀態，因此只能選 America。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 B — America only。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C — both Australia and America",
+      "answerKey": "C — both Australia and America",
+      "type": "Country Classification",
+      "prompt": "“proved ethanol production is costly”",
+      "translation": "證明 ethanol 生產成本高。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4 Australia 的證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Australia, fuel ethanol costs around 70 cents per litre compared with around 35 cents per litre for unleaded petrol.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在澳洲，fuel ethanol 每公升約 70 仙，而 unleaded petrol 每公升約 35 仙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接成本比較：ethanol 約為 unleaded petrol 兩倍。"
+            },
+            {
+              "kind": "label",
+              "text": "Australia 另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent study by the Australian Bureau of Agricultural and Resource Economies found that without assistance, large-scale production of ethanol would not be commercially viable in Australia.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲農業與資源經濟局研究發現，若沒有協助，大規模 ethanol 生產在澳洲沒有商業可行性。"
+            },
+            {
+              "kind": "label",
+              "text": "America 的證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“In America, one report revealed that even with government assistance, ethanol costs nearly 35 per cent more than diesel.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，一份報告顯示，即使有政府協助，ethanol 的成本仍比 diesel 高將近 35%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩國都有成本高的證據：Australia 有 70 cents vs 35 cents 和 commercial viability 問題；America有 35% more than diesel 的報告。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 C — both Australia and America。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — America only",
+      "answerKey": "B — America only",
+      "type": "Country Classification",
+      "prompt": "“their government bought ethanol-friendly cars”",
+      "translation": "其政府購買了適合使用 ethanol 的車輛。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In America, the Clean Air Act of 1990 and the National Energy Policy Act of 1992 have both created new market opportunities for cleaner, more efficient fuels with many state governments in America’s Midwest purchasing fleet vehicles capable of running on E-85 fuels.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，1990 年《清潔空氣法》和 1992 年《國家能源政策法》都為更清潔、更高效的燃料創造新市場機會，美國中西部許多州政府也購買了可使用 E-85 燃料的車隊車輛。"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “ethanol-friendly cars” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“fleet vehicles capable of running on E-85 fuels”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E-85 是 85% ethanol fuel，因此能使用 E-85 的車輛就是 ethanol-friendly cars。原文明確說 many state governments in America’s Midwest purchasing，因此只適用於 America。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 B — America only。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. YES 28. YES 29. YES 30. NO 31. NOT GIVEN 32. B 33. C 34. C 35. D 36. A 37. B 38. B 39. C 40. B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -FUELING THE FUTURE.pdf",
+    "sha256": "1bf341692f6661bd985f6dd4b8ed4fdfdce946dfdc78531efb43cef9a029337f",
+    "pageCount": 19
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說全球 7.5 億輛汽車每年排放超過 9 億公噸二氧化碳；尾句說 ethanol 是解決污染問題的一個有力候選燃料。只看首尾句，可先判斷本段功能是引入交通污染的嚴重性，然後指出各國政府尋找替代燃料的背景。這段很可能處理 air pollution、government priority、alternative fuel 和ethanol 作為環保方案的原因。"
+      },
+      {
+        "number": "2",
+        "summary": "首句定義 ethanol：它是一種由植物材料發酵而成的酒精；尾句說 Brazil 今天擁有世界最大的交通用 ethanol fuel market。只看首尾句，可見本段會介紹 ethanol 的製造、燃料混合方式，以及美國和巴西的歷史使用情況。這段重點包括 E10、E-85、1970s oil prices、Brazil ethanol-powered vehicles 和 transportation market。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 ethanol 由多種植物製成，因此用於燃料生產時會提高農民種植 feed grains 的金錢價值；尾句說美國多個中西部州政府購買可使用 E-85 的車隊車輛。只看首尾句，可估計本段偏向benefits：農業收益、corn 價值、溫室氣體減排，以及美國政策和政府採購如何擴大 cleaner fuels的市場。"
+      },
+      {
+        "number": "4",
+        "summary": "首句轉折說 ethanol 雖然可作燃料，但已有一些缺點被記錄；尾句說澳洲研究指出，若沒有協助，大規模 ethanol 生產在澳洲沒有商業可行性。只看首尾句，這段明顯處理 drawbacks：車輛損壞風險、腐蝕、能量較低、油箱較大、糖業利益不確定、成本高，以及政府補助對競爭力的重要性。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說不論澳洲糖業是否會受惠，ethanol 生產擴張肯定會增加農業地區的經濟活動；尾句說ethanol 的未來看來有希望，無論好壞，它似乎會成為明日燃料的有力競爭者。只看首尾句，可見結論偏正面但保留現實限制：ethanol 可能刺激就業和貿易，也可能衝擊現有產業。"
+      }
+    ]
+  }
+}

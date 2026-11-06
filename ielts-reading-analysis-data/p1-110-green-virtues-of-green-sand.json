@@ -1,0 +1,2694 @@
+{
+  "id": "p1-110-green-virtues-of-green-sand",
+  "catalogueId": "p1-110",
+  "catalogueIds": [
+    "p1-110"
+  ],
+  "passage": 1,
+  "title": "Green virtues of green sand",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "D",
+    "E",
+    "G",
+    "B",
+    "D",
+    "F",
+    "A",
+    "C",
+    "G",
+    "E",
+    "natural resource",
+    "recycling industry",
+    "drinkable liquids",
+    "sand"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“a description of plans to expand production of AFM”",
+      "translation": "描述擴大 AFM 生產的計劃。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的是哪一段提到「擴大生產」，因此重點不只是 AFM 這個產品名，也要找 plans、expand、production 這組概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The factory is designed to produce 100 tonnes of AFM a day, although Mr Dryden regards this as a large-scale pilot project rather than full production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這間工廠設計每日生產 100 噸 AFM，雖然 Dryden 先生把它視為大型試驗項目，尚未算全面生產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So he intends to build five or six factories in cities where there are large quantities of bottles, in order to cut down on transport costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此他打算在有大量瓶子的城市建立五至六間工廠，以減低運輸成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段明顯和 AFM 生產規模有關。第一句給出現有工廠每日 100 噸的生產能力，最後一句講未來建五至六間新工廠。這個首尾結構已經很接近題目中的 expand production。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“plans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“expand production”"
+            },
+            {
+              "kind": "quote",
+              "text": "“AFM”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時，原文未必逐字寫 “expand production”，但會用 “produce”、“full production”、“build five or six factories” 這些字表達同一概念。Paragraph D 同時有 produce 100 tonnes、pilot project、UK market estimates、build factories，因此值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So he intends to build five or six factories in cities where there are large quantities of bottles, in order to cut down on transport costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此他打算在有大量瓶子的城市建立五至六間工廠，以減低運輸成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “he”，指 Howard Dryden。核心動詞是 “intends to build”，表示計劃。內容是 “five or six factories”，這自然代表生產網絡會由現有一間工廠擴大到多間工廠。題目中的 “expand production” 沒有原字出現，但「建立五至六間工廠」就是擴大生產的具體方式。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“plans to expand production of AFM”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“intends to build five or six factories”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： plans = intends expand production = build more factories AFM production = factories producing AFM判斷： Paragraph D 描述 AFM 的生產能力和未來增設工廠計劃，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也有 “full production”，但它說的是現有工廠何時開始正式生產；Question 1 要找擴大生產的計劃，真正定案的是 D 段最後一句的 “build five or six factories”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“the identification of a potential danger in the raw material for AFM”",
+      "translation": "指出 AFM 原材料中可能存在的危險。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 potential danger，並且危險必須和 raw material 有關。raw material 在這篇文章中指用來製造 AFM 的玻璃瓶來源。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current factory will be completed this month and is expected to go into full production on 14 January next year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現有工廠將於本月完成，並預計在明年 1 月 14 日全面投產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only problem that could be foreseen was possible contamination if some glass came from sources other than beverage bottles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一可預見的問題是：如果部分玻璃來自飲品瓶以外的來源，便可能出現污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段先講工廠投產，尾句轉到 possible contamination。這個尾句非常接近題目中的potential danger。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“potential danger”"
+            },
+            {
+              "kind": "quote",
+              "text": "“raw material”"
+            },
+            {
+              "kind": "quote",
+              "text": "“AFM”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“problem”"
+            },
+            {
+              "kind": "quote",
+              "text": "“possible contamination”"
+            },
+            {
+              "kind": "quote",
+              "text": "“glass came from sources other than beverage bottles”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "potential danger 不一定用 danger 一字，可能以 problem、risk、contamination 表達。E 段尾句同時有 “only problem” 和 “possible contamination”，定位很強。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only problem that could be foreseen was possible contamination if some glass came from sources other than beverage bottles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一可預見的問題是：如果部分玻璃來自飲品瓶以外的來源，便可能出現污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中，危險是 “possible contamination”。條件是 “if some glass came from sources other than beverage bottles”。換句話說，AFM 的原材料必須來自飲品瓶；如果玻璃來源混入其他類別，安全性便可能受影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“potential danger”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the only problem that could be foreseen”"
+            },
+            {
+              "kind": "quote",
+              "text": "“possible contamination”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“raw material for AFM”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“some glass came from sources other than beverage bottles”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： raw material = glass used to make AFM potential danger = possible contamination判斷： Paragraph E 明確指出原材料玻璃來源若不純，可能造成污染，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也說 Dryden 需要 bottles that have already contained drinkable liquids，以確保drinking water 不會被污染。這是背景理由。Question 2 要找「指出潛在危險」的句子，E 段的 “The only problem...” 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“an example of AFM use in the export market”",
+      "translation": "AFM 用於出口市場的一個例子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找一個實際例子，不只是 general sales plan。關鍵詞是 export market，即和國際貿易、出口商品、送往外國市場有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Dryden has set up a network of agents round the world to sell AFM.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dryden 先生已經在全球建立代理網絡來銷售 AFM。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I believe it performs better and lasts longer than sand, so it is going to be better value too.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我相信它比沙表現更好，也更耐用，所以它的價值也會更高。」只看首尾句，G 段明顯涉及 AFM 的國際銷售、實際應用和商業價值。題目問 export market，這段最值得掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“AFM use”"
+            },
+            {
+              "kind": "quote",
+              "text": "“export market”"
+            },
+            {
+              "kind": "quote",
+              "text": "“example”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 G 段，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Central America”"
+            },
+            {
+              "kind": "quote",
+              "text": "“banana plantations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“despatched to European markets”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“European markets” 是 export market 的強烈提示，因為香蕉從 Central America 洗淨後送往歐洲市場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“It is already in use in Central America to filter water on banana plantations where the fruit has to be washed before being despatched to European markets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AFM 已經在中美洲使用，用來過濾香蕉種植園的水；這些香蕉在運往歐洲市場前必須先清洗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供完整例子：地點：Central America用途：filter water on banana plantations出口連結：fruit washed before being despatched to European markets題目中的 “export market” 沒有原字重現，但 “despatched to European markets” 清楚表示這些香蕉面向歐洲市場，因此屬於出口情境。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“AFM use in the export market”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“in use in Central America”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fruit ... despatched to European markets”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： use = in use export market = European markets receiving exported fruit example = banana plantations判斷： Paragraph G 提供 AFM 在中美洲香蕉出口鏈中的實際使用例子，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 提到 Scotland swimming pools，這是實際使用例子，但它沒有出口市場。Question 3 的定案詞是 “European markets”，所以 G 才正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“a comparison of the value of green glass and other types of glass”",
+      "translation": "比較 green glass 和其他玻璃種類的價值。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 comparison，而且內容必須是 value。最有力的定位詞是 green glass、clear glass、worth、double。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is not only to avoid using up an increasingly scarce natural resource—sand—but also to solve a crisis in the recycling industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個構想一方面是避免耗盡越來越稀缺的天然資源——沙；另一方面也要解決回收業的一場危機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clear glass, which is melted down and used for whisky bottles, mainly for export, is worth double that amount.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透明玻璃會被熔化並用於威士忌酒瓶，主要用於出口，其價值是那個金額的兩倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 recycling industry crisis，尾句直接比較 clear glass 的價值。這段很可能解釋 green glass為何成為回收業問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“value”"
+            },
+            {
+              "kind": "quote",
+              "text": "“green glass”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other types of glass”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關字："
+            },
+            {
+              "kind": "quote",
+              "text": "“green glass is worth only $25 a tonne”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Clear glass ... is worth double that amount”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 B 段時，worth 和 double 是最重要的定案詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because there is so much of it, and it is used less in domestic production than other types, green glass is worth only $25 a tonne.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 green glass 數量太多，而且在本地生產中的使用量少於其他種類，所以 green glass 每噸只值 25 美元。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clear glass, which is melted down and used for whisky bottles, mainly for export, is worth double that amount.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透明玻璃會被熔化並用於威士忌酒瓶，主要用於出口，其價值是那個金額的兩倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來形成比較： green glass = $25 per tonne clear glass = double that amount = $50 per tonne"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“comparison of the value”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“worth only $25 a tonne”"
+            },
+            {
+              "kind": "quote",
+              "text": "“worth double that amount”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“other types of glass”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clear glass”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph B 明確比較 green glass 和 clear glass 的價值，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也說 AFM could give green glass a cash value，但它沒有比較 green glass 和其他glass。Question 4 要找 comparison，所以 B 段更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“a list of potential applications of AFM in the domestic market”",
+      "translation": "列出 AFM 在本地市場中的潛在用途。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要同時找兩個元素：list of applications 和 domestic market。domestic market 在文章中對應UK market。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The factory is designed to produce 100 tonnes of AFM a day, although Mr Dryden regards this as a large-scale pilot project rather than full production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這間工廠設計每日生產 100 噸 AFM，雖然 Dryden 先生把它視為大型試驗項目，尚未算全面生產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So he intends to build five or six factories in cities where there are large quantities of bottles, in order to cut down on transport costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此他打算在有大量瓶子的城市建立五至六間工廠，以減低運輸成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段和生產規模、英國市場需求、工廠選址有關。題目中的 domestic market 很可能在這段中間以 UK market 形式出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“potential applications”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domestic market”"
+            },
+            {
+              "kind": "quote",
+              "text": "“AFM”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“UK market”"
+            },
+            {
+              "kind": "quote",
+              "text": "“filtering drinking water, sewage, industrial water, swimming pools and fish farming”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一串用途清單，正好符合 “a list of potential applications”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Current estimates of the UK market for this glass for filtering drinking water, sewage, industrial water, swimming pools and fish farming are between 175,000 and 217,000 tonnes a year, which will use up most of the glass available near the factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前對英國市場的估計顯示，這種玻璃可用於過濾飲用水、污水、工業用水、泳池和魚類養殖；每年需求介乎 175,000 至 217,000 噸，這將消耗工廠附近大部分可用玻璃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句列出五個用途： drinking water sewage industrial water swimming pools fish farming而 “UK market” 對應題目中的 domestic market，因為文章以英國和蘇格蘭工廠為背景，本地市場自然是 UK market。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“domestic market”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“UK market”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“potential applications”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“for filtering drinking water, sewage, industrial water, swimming pools and fish farming”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph D 列出 AFM 在英國市場的多個潛在用途，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也列出 AFM 的用途，例如 banana plantations 和 sewage works，但 G 的重點偏向國際代理、海外應用和成本。Question 5 指明 domestic market，因此 D 段的 “UK market” 才是決定性線索。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“the conclusions drawn from laboratory checks on the process of AFM production”",
+      "translation": "從實驗室檢查 AFM 生產過程後得出的結論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 laboratory checks 和 conclusions。文章未必用 laboratory checks 一詞，但會出現testing、batches、appears to do the job、no reason it would not work 這些實驗評估語言。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among those who have tested the glass already is Caroline Fitzpatrick of the civil and environmental engineering department of University College London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已經測試過這種玻璃的人之中，包括 University College London 土木及環境工程系的 Caroline Fitzpatrick。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Since glass from wine bottles and other beverages has no impurities and clearly did not leach any substances into the contents of the bottles, there was no reason to believe there would be a problem,’ Dr Fitzpatrick added.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fitzpatrick 博士補充說：「由於酒瓶和其他飲品瓶的玻璃沒有雜質，而且顯然沒有把任何物質滲入瓶內內容物，所以沒有理由相信會出現問題。」首句指出外部測試者，尾句給出安全性結論。這段很明顯處理 laboratory-style evaluation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“laboratory checks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conclusions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“AFM production”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“tested the glass”"
+            },
+            {
+              "kind": "quote",
+              "text": "“looked at a number of batches”"
+            },
+            {
+              "kind": "quote",
+              "text": "“appears to do the job”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no reason ... why it would not work”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no impurities”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“batches” 尤其像生產過程中不同批次材料的檢查。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“‘We have looked at a number of batches and it appears to do the job,’ she said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "她說：「我們檢查過多個批次，它看起來能完成這項工作。」原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Basically, sand is made of glass and Mr Dryden is turning bottles back into sand. It seems a straightforward idea and there is no reason we can think of why it would not work.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「基本上，沙是由玻璃構成的，而 Dryden 先生是把瓶子轉回沙。這似乎是一個簡單直接的想法，我們想不到任何它不能成功的理由。」原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since glass from wine bottles and other beverages has no impurities and clearly did not leach any substances into the contents of the bottles, there was no reason to believe there would be a problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於酒瓶和其他飲品瓶的玻璃沒有雜質，而且顯然沒有把物質滲入瓶內內容物，所以沒有理由相信會出現問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子共同給出檢查結論：多個批次看來有效；把 bottles back into sand 的想法合理；飲品瓶玻璃沒有雜質和滲出問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“laboratory checks”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“tested the glass”"
+            },
+            {
+              "kind": "quote",
+              "text": "“looked at a number of batches”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“conclusions drawn”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“appears to do the job”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no reason ... why it would not work”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no reason to believe there would be a problem”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph F 提供專家測試後的結論，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也提到 “tests show that AFM does the job better than sand”，但那是 Dryden 自己對產品性能的主張。Question 6 的 “laboratory checks” 更貼近 F 段 UCL 專家對 batches 的檢查。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“identification of current funding for the production of green sand”",
+      "translation": "指出目前 green sand 生產的資金來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 funding source。定位詞很清楚：funding、production、green sand。原文可能用 backed by 表示獲資助。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the past 100 years, special high-grade white sand dug from the ground at Leighton Buzzard in the UK has been used to filter tap water to remove bacteria and impurities, but this may no longer be necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去一百年，英國 Leighton Buzzard 地下挖出的特殊高級白沙一直用來過濾自來水，以去除細菌和雜質；但這可能不再必要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The green sand has already been successfully tested by water companies and is being used in 50 swimming pools in Scotland to keep the water clean.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 green sand 已經成功通過水公司測試，並正在蘇格蘭 50 個泳池中使用，以保持水質潔淨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段是引入新材料 green sand 的段落。它會說明新工廠、回收 wine bottles 和生產green sand 的背景，所以 funding 很可能藏在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“current funding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“production of green sand”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 A 段時，找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Backed by $1.6m from the European Union and the Department for Environment, Food and Rural Affairs (Defra)”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Backed by” 就是 funded by / supported by 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Backed by $1.6m from the European Union and the Department for Environment, Food and Rural Affairs (Defra), a company based in Scotland is building the factory, which will turn beverage bottles back into the sand from which they were made in the first place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 European Union 和 Department for Environment, Food and Rural Affairs，即 Defra，提供160 萬美元支持下，一間位於蘇格蘭的公司正在興建工廠；該工廠會把飲品瓶轉回它們最初所來自的沙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含三個重要資料：資金：$1.6m來源：European Union and Defra用途：building the factory that turns beverage bottles into sand"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“funding”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Backed by $1.6m from...”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“production of green sand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“building the factory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“turn beverage bottles back into the sand”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph A 指出 green sand 生產工廠獲 EU 和 Defra 資助，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 提到 government agency，但沒有說它資助現有生產。Q7 要找 current funding，A段的 $1.6m 才是直接證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“an explanation of the chosen brand name for crushed green glass”",
+      "translation": "解釋為何 crushed green glass 使用這個品牌名稱。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 brand name 和 explanation。品牌名稱在文章中是 Active Filtration Media, or AFM。要找的不只是名字，也要找為何使用這名字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howard Dryden, a scientist and managing director of the company Dryden Aqua, of Bonnyrigg, near Edinburgh, has spent six years working on the product he calls Active Filtration Media, or AFM.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howard Dryden 是科學家，也是 Edinburgh 附近 Bonnyrigg 的 Dryden Aqua 公司董事總經理；他花了六年研發這種他稱為 Active Filtration Media，即 AFM 的產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The fact is that tests show that AFM does the job better than sand; it is easier to clean and reuse and has all sorts of properties that make it ideal for other applications,’ he claimed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他聲稱：「事實是，測試顯示 AFM 比沙更有效；它較容易清潔和重用，而且具備各種特性，適合其他用途。」首句直接引入 AFM 名稱，尾句說產品性能。這段自然會解釋為何將 recycled glass 包裝成 AFM這個名稱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“brand name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crushed green glass”"
+            },
+            {
+              "kind": "quote",
+              "text": "“explanation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Active Filtration Media, or AFM”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fancy name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remove the stigma”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inferior product”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fancy name” 是 brand name explanation 的直接線索。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“He concedes that he has given what is basically recycled glass a ‘fancy name’ to remove the stigma of what most people would regard as an inferior product.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他承認，他給基本上就是 recycled glass 的東西取了一個「花巧的名字」，目的是消除大多數人會把它視為劣質產品的污名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 AFM 名稱的策略功能：recycled glass 可能令人想到 inferior product，所以需要一個較專業、較正面的名稱。這正好回答題目中的 “chosen brand name”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“chosen brand name”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“given ... a ‘fancy name’”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“crushed green glass”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“what is basically recycled glass”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“explanation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“to remove the stigma”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph C 解釋 AFM 名稱背後的原因，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也談 green glass cash value，但沒有解釋 AFM 這個名稱。Question 8 要找命名原因，C 段的 “fancy name” 最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“a description of plans for exporting AFM”",
+      "translation": "描述 AFM 出口或海外銷售計劃。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題和 Question 3 同樣在 G 段，但焦點不同。Question 3 要找 export market 的使用例子； Question 9 要找 plans for exporting AFM，即銷售網絡或海外推廣計劃。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Dryden has set up a network of agents round the world to sell AFM.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dryden 先生已經在全球建立代理網絡來銷售 AFM。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I believe it performs better and lasts longer than sand, so it is going to be better value too.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我相信它比沙表現更好，也更耐用，所以它的價值也會更高。」首句已經直接表示全球銷售網絡，這正是 exporting / overseas sales 的計劃。尾句則補充產品價值主張。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“plans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exporting AFM”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可能不直接寫 exporting，而會用："
+            },
+            {
+              "kind": "quote",
+              "text": "“round the world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“agents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sell AFM”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 G 段，第一句已經把答案定位清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr Dryden has set up a network of agents round the world to sell AFM.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dryden 先生已經在全球建立代理網絡來銷售 AFM。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Mr Dryden，動作是 “has set up”，內容是 “a network of agents round the world”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“round the world” 表示跨國銷售，和題目中的 exporting AFM 對應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“plans for exporting AFM”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“set up a network of agents round the world to sell AFM”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： exporting = selling round the world plans = set up a network AFM = AFM判斷： Paragraph G 描述了 AFM 的全球代理銷售安排，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 3 和 Question 9 都可以用 G。做題時要分清：banana plantations 是「實際使用例子」； network of agents 是「出口／海外銷售計劃」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“a description of what has to happen before AFM is accepted for general use”",
+      "translation": "描述 AFM 被普遍使用前必須發生的事情。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 approval process。關鍵詞是 before accepted for general use，原文可能會用 tests、approve、widespread use 這些字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current factory will be completed this month and is expected to go into full production on 14 January next year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現有工廠將於本月完成，並預計在明年 1 月 14 日全面投產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only problem that could be foreseen was possible contamination if some glass came from sources other than beverage bottles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一可預見的問題是：如果部分玻璃來自飲品瓶以外的來源，便可能出現污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段處理正式投產與潛在問題。中間很可能會講 AFM 正式進入 drinking water market 之前的檢測和政府審批。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“before”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accepted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“general use”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“perform tests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“approve it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“widespread use”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gain approval”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“widespread use” 和 “general use” 是直接同義。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Once it is providing a ‘regular’ product, the government’s drinking water inspectorate will be asked to perform tests and approve it for widespread use by water companies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦它能提供「穩定」產品，政府的飲用水監察機構將被要求進行測試，並批准它讓水公司廣泛使用。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“A Defra spokesman said it was hoped that AFM could gain approval within six months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Defra 發言人表示，希望 AFM 能在六個月內獲得批准。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句清楚說明 general use 前的步驟：先有 regular product再由 government drinking water inspectorate perform tests再 approve it for widespread use最後 AFM gain approval"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“what has to happen before AFM is accepted for general use”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“perform tests and approve it for widespread use”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gain approval”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： accepted = approved / gain approval general use = widespread use what has to happen = inspectorate tests and approval判斷： Paragraph E 描述 AFM 普遍使用前需要政府機構測試和批准，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的 external testing 也說 AFM seems to do the job，但那是專家測試結論。Question 10 問 accepted for general use，重點在正式審批流程，所以 E 段更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "natural resource",
+      "answerKey": "natural resource",
+      "type": "Summary Completion",
+      "prompt": "“The use of crushed green glass (AFM) may have two significant impacts: it may help to save a diminishing 11 _________________ while at the same time solving a major problem for the 12_________________ in the UK.”",
+      "translation": "使用 crushed green glass，即 AFM，可能有兩個重要影響：它可能幫助節省一種正在減少的 11________，同時解決英國 12 ________ 的重大問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格 11 前面有 “a diminishing”，後面要接一個單數名詞短語。答案必須不超過兩個字，並來自原文。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is not only to avoid using up an increasingly scarce natural resource—sand—but also to solve a crisis in the recycling industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個構想一方面是避免耗盡越來越稀缺的天然資源——沙；另一方面也要解決回收業的一場危機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clear glass, which is melted down and used for whisky bottles, mainly for export, is worth double that amount.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透明玻璃會被熔化並用於威士忌酒瓶，主要用於出口，其價值是那個金額的兩倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經同時對應 summary 的兩個空格：save a diminishing natural resource 和 solve a major problem for recycling industry。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“save”"
+            },
+            {
+              "kind": "quote",
+              "text": "“diminishing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“major problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“avoid using up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasingly scarce”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural resource”"
+            },
+            {
+              "kind": "quote",
+              "text": "“solve a crisis”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "diminishing 對應 increasingly scarce，save 對應 avoid using up。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is not only to avoid using up an increasingly scarce natural resource—sand—but also to solve a crisis in the recycling industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個構想一方面是避免耗盡越來越稀缺的天然資源——沙；另一方面也要解決回收業的一場危機。"
+            },
+            {
+              "kind": "label",
+              "text": "空格句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“save a diminishing 11 ________”"
+            },
+            {
+              "kind": "label",
+              "text": "原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“avoid using up an increasingly scarce natural resource—sand”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案要填 “natural resource”。雖然原文後面用破折號指出這種 resource 是 sand，但空格前有 “a diminishing”，所以填入 “natural resource” 後語法最自然："
+            },
+            {
+              "kind": "quote",
+              "text": "“save a diminishing natural resource”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： natural resource = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "save = avoid using up diminishing = increasingly scarce natural resource = natural resource答案是 natural resource。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能想填 sand。可是 “save a diminishing sand” 語法不自然。原文的完整名詞短語是 “an increasingly scarce natural resource—sand”，summary 已經用 “diminishing” 改寫 increasingly scarce，所以空格應填 natural resource。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "recycling industry",
+      "answerKey": "recycling industry",
+      "type": "Summary Completion",
+      "prompt": "“... while at the same time solving a major problem for the 12 _________________ in the UK.”",
+      "translation": "……同時解決英國 12 ________ 的重大問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 12 前有 “the”，後面需要一個名詞或名詞短語。題目中的 major problem 對應原文的 crisis。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is not only to avoid using up an increasingly scarce natural resource—sand—but also to solve a crisis in the recycling industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個構想一方面是避免耗盡越來越稀缺的天然資源——沙；另一方面也要解決回收業的一場危機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clear glass, which is melted down and used for whisky bottles, mainly for export, is worth double that amount.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透明玻璃會被熔化並用於威士忌酒瓶，主要用於出口，其價值是那個金額的兩倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段首句已經直接說 “solve a crisis in the recycling industry”。summary 把 crisis 改寫成 major problem。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“solving”"
+            },
+            {
+              "kind": "quote",
+              "text": "“major problem”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in the UK”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“solve a crisis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recycling industry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain uses 5.5m tonnes of glass...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is not only to avoid using up an increasingly scarce natural resource—sand—but also to solve a crisis in the recycling industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個構想一方面是避免耗盡越來越稀缺的天然資源——沙；另一方面也要解決回收業的一場危機。"
+            },
+            {
+              "kind": "label",
+              "text": "summary 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“solving a major problem for the 12 ________ in the UK”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“solve a crisis in the recycling industry”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 recycling industry。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： recycling industry = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "major problem = crisis solving = solve the recycling industry in the UK = the recycling industry / Britain’s recycling context答案是 recycling industry。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “glass” 或 “green glass”。它們是問題中的材料；真正面臨 crisis 的行業是 recycling industry。題目問 “for the ___ in the UK”，所以需要填一個行業名詞短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "drinkable liquids",
+      "answerKey": "drinkable liquids",
+      "type": "Summary Completion",
+      "prompt": "“However, according to Howard Dryden, only glass from bottles that have been used for 13_________________ can be used in the production process.”",
+      "translation": "然而，根據 Howard Dryden，生產過程中只能使用曾裝過 13 ________ 的瓶子玻璃。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “used for”，後面需要名詞短語。題目問的是 Dryden 對原料瓶來源的限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howard Dryden, a scientist and managing director of the company Dryden Aqua, of Bonnyrigg, near Edinburgh, has spent six years working on the product he calls Active Filtration Media, or AFM.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howard Dryden 是科學家，也是 Edinburgh 附近 Bonnyrigg 的 Dryden Aqua 公司董事總經理；他花了六年研發這種他稱為 Active Filtration Media，即 AFM 的產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The fact is that tests show that AFM does the job better than sand; it is easier to clean and reuse and has all sorts of properties that make it ideal for other applications,’ he claimed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他聲稱：「事實是，測試顯示 AFM 比沙更有效；它較容易清潔和重用，而且具備各種特性，適合其他用途。」C 段由 Dryden 本人介紹 AFM，內容包括產品名稱、原料要求和性能。因此 Question 13 很可能在 C 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howard Dryden”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only glass from bottles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used for”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He says he needs bottles that have already contained drinkable liquids...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“already contained” 和題目的 “have been used for” 意思接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“He says he needs bottles that have already contained drinkable liquids to be sure that drinking water filtered through the AFM would not be contaminated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，他需要那些已經裝過可飲用液體的瓶子，以確保經 AFM 過濾的飲用水不會受到污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “He”，即 Howard Dryden。動詞是 “needs”，表示原料要求。原料是 “bottles that have already contained drinkable liquids”。原因是避免 drinking water 被污染。"
+            },
+            {
+              "kind": "label",
+              "text": "summary 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“bottles that have been used for 13 ________”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“bottles that have already contained drinkable liquids”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 drinkable liquids。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： drinkable liquids = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "have been used for = have already contained drinkable liquids = drinkable liquids only glass from bottles = bottles that have already contained...答案是 drinkable liquids。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“beverage bottles” 也在文章多次出現，但放入題目會變成 “bottles that have been used for beverage bottles”，語法不通。這一格需要瓶子曾裝過的內容物，所以 drinkable liquids 最準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "sand",
+      "answerKey": "sand",
+      "type": "Summary Completion",
+      "prompt": "“AFM is more effective than 14 _________________ as a water filter, and also has other uses.”",
+      "translation": "AFM 作為濾水材料比 14 ________ 更有效，而且還有其他用途。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “more effective than”，後面需要比較對象。題目問的是 AFM 和哪種傳統材料相比更有效。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howard Dryden, a scientist and managing director of the company Dryden Aqua, of Bonnyrigg, near Edinburgh, has spent six years working on the product he calls Active Filtration Media, or AFM.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howard Dryden 是科學家，也是 Edinburgh 附近 Bonnyrigg 的 Dryden Aqua 公司董事總經理；他花了六年研發這種他稱為 Active Filtration Media，即 AFM 的產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The fact is that tests show that AFM does the job better than sand; it is easier to clean and reuse and has all sorts of properties that make it ideal for other applications,’ he claimed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他聲稱：「事實是，測試顯示 AFM 比沙更有效；它較容易清潔和重用，而且具備各種特性，適合其他用途。」C 段尾句幾乎直接包含 summary 的內容：does the job better than sand，以及 ideal for other applications。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“more effective than”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water filter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other uses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“does the job better than sand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ideal for other applications”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“more effective” 在原文中用 “does the job better” 表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“‘The fact is that tests show that AFM does the job better than sand; it is easier to clean and reuse and has all sorts of properties that make it ideal for other applications,’ he claimed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他聲稱：「事實是，測試顯示 AFM 比沙更有效；它較容易清潔和重用，而且具備各種特性，適合其他用途。」這句有兩個部分： AFM does the job better than sand= AFM 作為濾水材料比 sand 做得更好ideal for other applications= 它還適合其他用途summary 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“AFM is more effective than 14 ________ as a water filter, and also has other uses.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對應原文後，空格應填 sand。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： sand = 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "more effective than = does the job better than other uses = other applications water filter = filtration job / filter water context答案是 sand。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文前一句也說 “Crushed beverage glass has fewer impurities than real sand”，所以有些學生可能填 real sand。可是 summary 的比較句更直接來自 “AFM does the job better than sand”。答案填 sand 最自然，也完全符合原文。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Green virtues of green sand.pdf",
+    "sha256": "821be9cf6b67838f722c069c7375fd60633d9c7e4d32eb08032b0f859034c18b",
+    "pageCount": 31
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說英國過去一百年用 Leighton Buzzard 的高級白沙過濾自來水，去除細菌和雜質；尾句說 green sand 已通過水公司測試，並在蘇格蘭 50 個泳池中使用。只看首尾句，可以估計這段是全文引入：傳統濾水沙可能被 recycled glass 製成的新材料取代，並開始展示 funding、factory、testing 和實際應用。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說這個構想一方面避免耗盡越來越稀缺的沙，另一方面解決回收業危機；尾句比較 clear glass 的價值，說它可用於 whisky bottles，價值是 green glass 的兩倍。只看首尾句，可以估計這段會解釋回收問題背後的經濟原因：英國玻璃用量大、回收量低，尤其 green glass 價值偏低。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句介紹 Howard Dryden 和他研發六年的產品 Active Filtration Media，即 AFM；尾句說測試顯示 AFM 比 sand 更有效、較易清潔和重用，並適合其他用途。只看首尾句，可以估計這段會處理產品名稱、材料來源、性能測試和 Dryden 對 AFM 的主張，尤其是為何 recycled glass 可成為濾水材料。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說工廠設計每日生產 100 tonnes AFM，但 Dryden 把它視為大型 pilot project；尾句說他計劃在有大量瓶子的城市建五至六間工廠，以減少運輸成本。只看首尾句，可以估計這段集中於production scale、market demand 和未來擴產計劃，並會列出 AFM 在英國市場的不同用途。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說現有工廠本月完成，預計明年 1 月 14 日全面投產；尾句說唯一可預見問題是若部分玻璃來自飲品瓶以外的來源，可能造成污染。只看首尾句，可以估計這段會講正式投產、政府檢測與審批流程，也會指出 AFM 大規模用於飲用水前仍要處理原料污染風險。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 University College London 的 Caroline Fitzpatrick 已經測試過這種玻璃；尾句說酒瓶和其他飲品瓶的玻璃沒有雜質，也沒有把物質滲入瓶內內容物，因此沒有理由相信會出問題。只看首尾句，可以估計這段提供外部專家驗證，重點在 laboratory checks、batches、可行性和安全性結論。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說 Dryden 已建立全球代理網絡來銷售 AFM；尾句說他相信 AFM 比 sand 表現更好、壽命更長，因此 value 更高。只看首尾句，可以估計這段轉向國際銷售和實際應用，例如 banana plantations、sewage works、EU regulations、成本問題，以及大規模生產後價格下降的可能。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段首句說如果 AFM 成為成功產品，將大大幫助負責為 recycled products 尋找市場的政府機構；尾句說 AFM 可能有廣泛用途，並令 green glass 具有 cash value。只看首尾句，可以估計這段是總結意義：AFM 可能擴大 recycled glass 的市場，提升 green glass 的經濟價值，也支持更廣泛的回收產品使用。"
+      }
+    ]
+  }
+}

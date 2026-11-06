@@ -1,0 +1,1816 @@
+{
+  "id": "p1-125-the-success-of-cellulose",
+  "catalogueId": "p1-125",
+  "catalogueIds": [
+    "p1-125"
+  ],
+  "passage": 1,
+  "title": "The success of cellulose",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "B",
+    "A",
+    "C",
+    "D",
+    "C",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "plastic tubes",
+    "selective membranes",
+    "extract"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C — Richard Tobey",
+      "answerKey": "C — Richard Tobey",
+      "type": "Matching Features",
+      "prompt": "“Believes a key to success is the bioreactor in which the organisms live”",
+      "translation": "認為成功關鍵之一是讓生物體居住的 bioreactor。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。題目要找的是「誰提出某個觀點」。定位時要先找 bioreactor，再看引號或 reporting verb 指向哪個人物。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘heart and soul of the Coskata process,’ as Tobey puts it, is the bioreactor in which the bacteria live.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：按 Tobey 的說法，Coskata 流程的「核心和靈魂」就是讓細菌生活的 bioreactor。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Standard distillation or filtration techniques could extract the alcohol from the water.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：標準蒸餾或過濾技術可以從水中提取酒精。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph F 是 Coskata bioreactor 的操作說明段。首句已經直接出現Tobey 和 bioreactor，所以本題定位很穩。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“key to success”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bioreactor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“organisms live”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘heart and soul of the Coskata process,’ as Tobey puts it, is the bioreactor in which the bacteria live.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “heart and soul” 對應題目的 “key to success”。“organisms” 是題目對 “bacteria” 的上位概括。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“as Tobey puts it” 明確表示這是 Tobey 的說法。句子把 bioreactor 稱為 “heart and soul”，語氣非常強，表示它是流程中最核心的部分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “a key to success”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “heart and soul of the Coskata process”題目 “organisms live”= 原文 “bacteria live”因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本題容易因 “bioreactor” 屬於技術名詞而只看設備，忽略人物。Matching Features 的關鍵不是找到設備名稱，還要確認句子前後的說話者。這裡 “as Tobey puts it” 直接定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B — James Gaddy",
+      "answerKey": "B — James Gaddy",
+      "type": "Matching Features",
+      "prompt": "“Developed a similar biochemical process for producing ethanol”",
+      "translation": "發展出一種類似的生化 ethanol 生產流程。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 similar biochemical process。定位詞不一定會逐字重現；原文可能用 similar three-step pathway、syngas consumed by bacteria 來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company plans to construct a 40,000-gallon-a-year pilot plant near the GM test track in Milford, Mich., by the end of this year and hopes to build a full-scale, 100-million-gallon-a-year plant by 2011.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：該公司計劃在今年年底前，在密歇根 Milford 的 GM 測試車道附近建造一座年產"
+            },
+            {
+              "kind": "paragraph",
+              "text": "40,000 gallon 的試驗廠，並希望到 2011 年建成年產 1 億 gallon 的 full-scale plant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Considering the advances in these and other methods, plant cellulose could provide the greener ethanol everyone wants.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：考慮到這些方法和其他方法的進展，植物纖維素可能提供人人想要的更環保 ethanol。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph H 是商業化展望和其他競爭技術段。它會提到 Coskata 以外的類似方法，因此很可能回答 “similar process” 題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“similar”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biochemical process”"
+            },
+            {
+              "kind": "quote",
+              "text": "“producing ethanol”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bioengineering Resources in Fayetteville, Ark., is already developing what seems to be a similar three-step pathway in which syngas is consumed by bacteria isolated by James Gaddy, a retired chemical engineer at the University of Arkansas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "阿肯色州 Fayetteville 的 Bioengineering Resources 已經在發展一條看似相似的三步路徑；在這個路徑中，syngas 被 James Gaddy 分離出的細菌消耗，而 James Gaddy 是 University of Arkansas 的退休化學工程師。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句有兩層："
+            },
+            {
+              "kind": "quote",
+              "text": "“a similar three-step pathway”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 類似流程"
+            },
+            {
+              "kind": "quote",
+              "text": "“syngas is consumed by bacteria isolated by James Gaddy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 這個流程使用 Gaddy 分離出的細菌題目用 “developed” 概括人物和流程的關係。原文更精確地說，是 Bioengineering Resources 在發展該 pathway，而 Gaddy 分離出了其中使用的 bacteria。因為選項只有人物，且 James Gaddy是唯一與 similar pathway 直接相連的人，所以配 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “similar biochemical process”= 原文 “similar three-step pathway” + “syngas is consumed by bacteria”題目 “producing ethanol”= 該段承接前文 cellulosic ethanol / greener ethanol 的流程背景所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心 “developed” 的概括程度。原文沒有說 Gaddy 一人建立整個工業流程；它說類似路徑使用他分離出的 bacteria。Matching Features 常把原文技術細節壓縮成人物貢獻，答案要找最直接連接的人名。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "A — George W. Huber",
+      "answerKey": "A — George W. Huber",
+      "type": "Matching Features",
+      "prompt": "“Helped to develop particular processing techniques”",
+      "translation": "曾協助發展某些特定處理技術。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 “helped to develop” 的原文改寫。可能出現 contributed、techniques、processing route等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So scientists and engineers are working on dozens of possible biofuel-processing routes, reports Charles Wyman, a chemical engineer at the University of California, Riverside, who is a founder of Mascoma Corporation in Cambridge, Mass., a leading developer of cellulosic ethanol processing.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：University of California, Riverside 的化學工程師 Charles Wyman 報告說，科學家和工"
+            },
+            {
+              "kind": "paragraph",
+              "text": "程師正在研究數十種可能的 biofuel-processing routes；他也是 Mascoma Corporation 的創辦人之一，該公司是 cellulosic ethanol processing 的主要開發者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The oil companies say that it takes 10 years to fully commercialise an industrial processing route,” warns Huber, who has contributed some thermochemical techniques to another biomass start-up, Virent Energy Systems in Madison, Wis."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Huber 警告說：「石油公司說，一條工業處理路線需要 10 年才能完全商業化。」他曾向"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一家 biomass start-up，威斯康辛州 Madison 的 Virent Energy Systems，貢獻一些thermochemical techniques。只看首尾句，可以看到本段談 biofuel-processing routes 的研發難度，並且尾句直接提到 Huber contributed techniques。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“helped”"
+            },
+            {
+              "kind": "quote",
+              "text": "“develop”"
+            },
+            {
+              "kind": "quote",
+              "text": "“processing techniques”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Huber, who has contributed some thermochemical techniques to another biomass start-up…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Huber 曾向另一家 biomass start-up 貢獻一些 thermochemical techniques。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“contributed” 表示作出技術貢獻，可對應題目的 “helped to develop”。“thermochemical techniques” 是 particular processing techniques。這裡的人物是 Huber，即 George W. Huber。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Helped to develop”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “has contributed”題目 “particular processing techniques”= 原文 “some thermochemical techniques”因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 同時有 Wyman 和 Huber。Wyman 是報告者，說很多 routes 正在研究；Huber 才是被描述為 “contributed some thermochemical techniques” 的人物。Matching Features 要留意同段多人物，避免把段落主題直接配給第一個出現的人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — Richard Tobey",
+      "answerKey": "C — Richard Tobey",
+      "type": "Matching Features",
+      "prompt": "“Says that achieving efficient mass transfer is difficult”",
+      "translation": "說達成 efficient mass transfer 很困難。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題定位非常明確。關鍵詞 efficient mass transfer 具技術性，原文大概率會原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘heart and soul of the Coskata process,’ as Tobey puts it, is the bioreactor in which the bacteria live.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：按 Tobey 的說法，Coskata 流程的「核心和靈魂」就是讓細菌生活的 bioreactor。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Standard distillation or filtration techniques could extract the alcohol from the water.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：標準蒸餾或過濾技術可以從水中提取酒精。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會描述 bioreactor 如何讓 syngas、water、bacteria 和 ethanol 互動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "mass transfer 屬於這類技術操作細節，所以目標段落很合理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“efficient mass transfer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“We get an efficient mass transfer with the tubes, which is not easy,” Tobey says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tobey 說：「我們用這些管子達到高效質量傳遞，而這並不容易。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “which is not easy” 直接對應題目 “is difficult”。說話者在句末明確標示為 Tobey says，所以人物是 Richard Tobey。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “achieving efficient mass transfer is difficult”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “We get an efficient mass transfer… which is not easy”所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很直接，但仍要注意 “with the tubes” 不等於人物。真正決定人物的是句末 “Tobey says”。在人物配對題中，技術名詞負責定位，reporting verb 才負責配對。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D — Charles Wyman",
+      "answerKey": "D — Charles Wyman",
+      "type": "Matching Features",
+      "prompt": "“Believes there is no shortcut to developing a commercial production process”",
+      "translation": "認為發展商業化生產流程沒有捷徑。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “no shortcut” 改寫原文。要找 miracle process、money、time、commercialise 等語義。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So scientists and engineers are working on dozens of possible biofuel-processing routes, reports Charles Wyman…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Charles Wyman 報告說，科學家和工程師正在研究數十種可能的 biofuel-processing"
+            },
+            {
+              "kind": "paragraph",
+              "text": "routes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The oil companies say that it takes 10 years to fully commercialise an industrial processing route,” warns Huber…"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Huber 警告說，石油公司表示，一條工業處理路線需要 10 年才能完全商業化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句合起來顯示本段討論 commercial production process 的研發難度和時間成本。題目中的no shortcut 很可能對應本段中間的直接評論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“no shortcut”"
+            },
+            {
+              "kind": "quote",
+              "text": "“commercial production process”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There’s no miracle process out there,’ he remarks. And fine-tuning a process involves considerable money and time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他評論說：「外面沒有甚麼奇蹟流程。」調校一個流程需要相當多的金錢和時間。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “he” 指前一句的 Charles Wyman。句子 “There’s no miracle process out there” 表示沒有神奇、快速、簡單解法。後一句 “considerable money and time” 進一步說明商業化流程需要大量投入。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “no shortcut”= 原文 “no miracle process”題目 “developing a commercial production process”= 原文 “fine-tuning a process involves considerable money and time” 以及後文 “fully commercialise an industrial processing route”所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Huber 在同段也說 “takes 10 years”，這和 no shortcut 很接近。但題目說 “Believes there is no shortcut”，最直接的原文是 Wyman 的 “no miracle process”。Huber 的句子支持同一段的難度背景，人物配對仍要依靠誰說了最接近題目意思的話。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C — Richard Tobey",
+      "answerKey": "C — Richard Tobey",
+      "type": "Matching Features",
+      "prompt": "“Says a combination of chemical and biological processes could substantially reduce production costs”",
+      "translation": "說化學和生物流程的組合可以大幅降低生產成本。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題需要跨 Paragraph D、E、G 讀。題目把 Coskata 的整體流程概括成 chemical + biological processes，再把成本優勢概括成 substantially reduce production costs。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D and Paragraph E Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One promising biofuel procedure that avoids the complex enzymatic chemistry required to break down cellulose is now being explored by Coskata in Warrenville, Ill…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一種有前景的 biofuel 流程正在伊利諾州 Warrenville 的 Coskata 被探索；它可避開分"
+            },
+            {
+              "kind": "paragraph",
+              "text": "解 cellulose 所需的複雜酵素化學。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ability to handle multiple plant feedstocks would boost the flexibility of the overall process because each region in the country has access to certain feedstocks but not others.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：能處理多種植物原料會提高整體流程的彈性，因為全國不同地區可取得的原料各不相"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead of using thermochemical methods to convert the syngas to fuel—a process that can be significantly more costly because of the added expense of pressurising gases, according to Tobey—the Coskata group chose a biochemical route.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：根據 Tobey 的說法，Coskata 團隊沒有採用 thermochemical methods 把 syngas 轉成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fuel，因為氣體加壓的額外成本會使這流程顯著更昂貴；他們選擇了 biochemical route。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These anaerobic bugs make ethanol by voraciously consuming syngas.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些厭氧微生物透過大量消耗 syngas 來製造 ethanol。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“chemical”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biological”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce production costs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 chemical side 是 Paragraph D 的 gasification system："
+            },
+            {
+              "kind": "quote",
+              "text": "“a conventional gasification system will use heat to turn various feedstocks into… syngas”"
+            },
+            {
+              "kind": "label",
+              "text": "生物 side 是 Paragraph E："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Coskata group chose a biochemical route”"
+            },
+            {
+              "kind": "label",
+              "text": "成本 side 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be significantly more costly because of the added expense of pressurising gases, according to Tobey”"
+            },
+            {
+              "kind": "label",
+              "text": "以及 Paragraph G："
+            },
+            {
+              "kind": "quote",
+              "text": "“could deliver ethanol at under $1 per gallon—less than half of today’s $2-per-gallon wholesale price, Tobey claims.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Coskata 先用 gasification，以 heat 把 feedstocks 轉成 syngas；接著用 biochemical route，讓bacteria consume syngas 產生 ethanol。Tobey 認為避免用昂貴的 thermochemical conversion，可以減少 pressurising gases 的成本。Paragraph G 再把成本優勢量化為 under $1 per gallon，少於當時 wholesale price 的一半。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “combination of chemical and biological processes”= 原文 “gasification system… use heat” + “chose a biochemical route”題目 “substantially reduce production costs”= 原文 “significantly more costly” 被避開 + “under $1 per gallon—less than half…”因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不會只靠一個句子完成。Paragraph D 解釋 syngas 來源，Paragraph E 解釋 biochemical route，Paragraph G 才補出成本數字。可是人物線索一直指向 Tobey：D、E、G 都由 Tobey 說明或聲稱，所以答案是 Richard Tobey。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Bioethanol production is shifting away from the parts of food crops traditionally used as feedstocks.”",
+      "translation": "Bioethanol 生產正在從傳統用作原料的食物作物部分轉移開去。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “shifting away from food crops”。要找原文是否說新流程不再集中 starches、sugars、fats，而改用 lignocellulose 或 nonfood plant feedstocks。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A successor tier of start-up ventures aims to avoid those problems.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：新一層 start-up ventures 旨在避開那些問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But no company has yet demonstrated a cost-competitive industrial process for making cellulosic biofuels.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可是，到目前為止，仍沒有公司展示出具成本競爭力的 cellulosic biofuels 工業流程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph B 介紹新一代 cellulosic biofuels：方向明確，但成本競爭力未被證明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“food crops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feedstocks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shifting away”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather than focusing on the starches, sugars, and fats of food crops, many of the prototype bioethanol processes work with lignocellulose…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 prototype bioethanol processes 避免以食物作物中的澱粉、糖和脂肪為中心，改用lignocellulose。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“its use opens the industry to nonfood plant feedstocks such as agricultural wastes, wood chips, and switchgrass.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 cellulose 讓這個產業能採用非食物植物原料，例如農業廢料、木屑和柳枝稷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 bioethanol production 正在離開傳統食物作物部分。原文說 many prototype processes已不再集中 food crops 的 starches、sugars、fats，改用 lignocellulose 和 nonfood plant feedstocks。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “parts of food crops traditionally used as feedstocks”= 原文 “starches, sugars, and fats of food crops”題目 “shifting away”= 原文 “Rather than focusing on…”判斷：原文和題目方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 production is shifting，原文說 many prototype processes。這代表一個產業方向，尚未等於所有公司已完成商業化。可是題目沒有說所有 bioethanol production 已全面轉型，只是說正在轉向，因此 TRUE 成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It takes a long time to develop a fully commercial industrial process.”",
+      "translation": "發展一套完全商業化的工業流程需要很長時間。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 long time / fully commercial / industrial process。年份數字很可能是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So scientists and engineers are working on dozens of possible biofuel-processing routes…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：科學家和工程師正在研究數十種可能的 biofuel-processing routes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The oil companies say that it takes 10 years to fully commercialise an industrial processing route,” warns Huber…"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Huber 警告說，石油公司表示，一條工業處理路線需要 10 年才能完全商業化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，答案已經非常清楚。Paragraph C 是研發難度與商業化時間段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“long time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fully commercial”"
+            },
+            {
+              "kind": "quote",
+              "text": "“industrial process”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“it takes 10 years to fully commercialise an industrial processing route”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完全商業化一條工業處理路線需要 10 年。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “takes a long time” 是概括，原文 “takes 10 years” 是具體數字。10 年在這個語境中明顯屬於 long time。題目 “fully commercial industrial process” 對應原文 “fully commercialise an industrial processing route”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “develop a fully commercial industrial process”= 原文 “fully commercialise an industrial processing route”題目 “a long time”= 原文 “10 years”判斷：題目和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不需要知道 oil companies 是否一定正確。題目只說 “It takes a long time”，文章引述 Huber的警告和 oil companies 的說法作為資料來源。IELTS factual T/F 題通常接受文章中明確報道的說法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Coskata is pessimistic about the cost advantage of greener ethanol.”",
+      "translation": "Coskata 對 greener ethanol 的成本優勢持悲觀看法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題核心是 pessimistic。要找 Coskata 對成本是否負面，或是否相反地樂觀。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coskata researchers estimate that their commercialised process could deliver ethanol at under$1 per gallon—less than half of today’s $2-per-gallon wholesale price, Tobey claims.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Tobey 聲稱，Coskata researchers 估計其商業化流程能以每 gallon 低於 $1 的成本提"
+            },
+            {
+              "kind": "paragraph",
+              "text": "供 ethanol，少於當時每 gallon $2 wholesale price 的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Outside evaluators at Argonne National Laboratory measured the input-output ‘energy balance’ of the Coskata process and found that, optimally, it could produce 7.7 times as much energy in the end product as it takes to make it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Argonne National Laboratory 的外部評估者測量 Coskata 流程的投入產出能源平衡，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "發現在最佳情況下，最終產品可產生製造它所需能源的 7.7 倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段整體是正面評估：成本低，energy balance 高。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coskata”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pessimistic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cost advantage”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“could deliver ethanol at under $1 per gallon—less than half of today’s $2-per-gallon wholesale price”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能以每 gallon 低於 $1 的成本提供 ethanol，少於當時 wholesale price 的一半。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Coskata pessimistic，即悲觀。原文卻說 Coskata researchers estimate 成本可以低於 $1，少於市場 wholesale price 一半。這是非常正面的成本優勢描述。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “pessimistic about the cost advantage”= 對成本優勢不抱希望原文 “under $1 per gallon—less than half…”= 成本大幅低於市場價格，語氣樂觀判斷：原文提供相反方向的證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 說沒有公司已展示 cost-competitive industrial process，可能令人以為 Coskata 也悲觀。但 Paragraph G 是 Coskata 對自己流程的成本估計，語氣明顯樂觀。判斷時要看題目主體Coskata，不要把整個產業的困難直接套到某家公司身上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some companies are seeking to acquire shares in Coskata.”",
+      "translation": "有些公司正在尋求收購 Coskata 的股份。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心時間和動作。題目說 “are seeking to acquire”，表示正在尋求收購股份。原文若只說某公司已經取得 stake，仍需檢查是否支援 “seeking”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One promising biofuel procedure that avoids the complex enzymatic chemistry required to break down cellulose is now being explored by Coskata in Warrenville, Ill., a firm launched in 2006 by high-profile investors and entrepreneurs (General Motors recently took a minority stake in it as well).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Coskata 正在探索一種有前景的 biofuel 流程；這家公司於 2006 年由高知名度投資者"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和企業家創立，General Motors 最近也取得了該公司的少數股權。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ability to handle multiple plant feedstocks would boost the flexibility of the overall process because each region in the country has access to certain feedstocks but not others.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：能處理多種植物原料會提高整體流程彈性，因為不同地區可取得的原料不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到段落介紹 Coskata、GM minority stake 和其技術彈性。題目涉及 shares，所以 Paragraph D 是最可能位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“acquire shares”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Coskata”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“General Motors recently took a minority stake in it as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "General Motors 最近也取得了該公司的少數股權。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的是： General Motors recently took a minority stake題目要求的是： some companies are seeking to acquire shares兩者有相關性，因為 “minority stake” 和 shares / ownership 有關。可是原文沒有說「有些公司正在尋求收購股份」。它只說 General Motors 已經取得少數股權。文章也沒有說其他公司正在洽談、尋求、計劃或嘗試 acquire shares。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有 shares 相關背景，但缺少題目核心動作 “are seeking”。同時，原文也沒有明確否定有公司正在尋求收購股份。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “took a minority stake”。這和 “acquire shares” 很接近，所以容易急著選 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目用的是 “are seeking”，重點在當前意圖或行動；原文說的是一個已發生的 stake acquisition。時間和動作不同，證據不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "plastic tubes",
+      "answerKey": "plastic tubes",
+      "type": "Summary Completion",
+      "prompt": "Question 11",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“uses 11 _________________ as a bioreactor”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法預測：空格前是 uses，後面是 as a bioreactor，所以空格需要名詞或名詞短語。因為後句說 “Bacteria on their outer surface”，答案很可能是有外表面的物件，而且要承載 bacteria。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“bioreactor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outer surface”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bacteria”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The firm relies on plastic tubes—filter-fabric straws as thin as human hair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該公司依靠 plastic tubes，也就是像人類頭髮一樣細的 filter-fabric straws。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前一句說 bioreactor 是 bacteria live 的地方；後一句馬上說 firm relies on plastic tubes。再往後看，原文說 bacteria embedded in their outer surfaces，這個 their 指前面的 tubes。可見 plastic tubes 是整個 bioreactor 結構的核心物件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查： plastic tubes = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “uses ___ as a bioreactor”= 原文 “The firm relies on plastic tubes”所以 11 答案是 plastic tubes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "selective membranes",
+      "answerKey": "selective membranes",
+      "type": "Summary Completion",
+      "prompt": "Question 12",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“syngas that passes through a coated 12 _________________”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法預測：空格需要名詞。題目用 “passes through” 改寫原文中 syngas / gases 穿過管道與膜的過程。雖然summary 的單數文法略不自然，原文真正可抄的短語是 “selective membranes”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“syngas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“passes through”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outer surface”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The syngas flows through the straws, and water is pumped across their exteriors. The gases diffuse across the tubes’ selective membranes to bacteria embedded in their outer surfaces; the membranes permit no water inside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Syngas 流經這些細管，水被泵送到它們的外部。氣體穿過管子的 selective membranes，擴散到嵌在外表面的 bacteria；這些 membranes 不讓水進入內部。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有兩個移動步驟： syngas flows through the straws= syngas 流過細管內部gases diffuse across the tubes’ selective membranes= 氣體再穿過 selective membranes 到達外表面的 bacteria題目說 bacteria on their outer surface consume syngas that passes through a coated structure，最接近原文的是 selective membranes，因為 membranes 控制氣體通過，同時阻止水進入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查： selective membranes = 2 words，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “passes through”= 原文 “diffuse across”題目 “coated / selective structure”= 原文 “selective membranes”所以 12 答案是 selective membranes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "小提醒：原文用複數 “selective membranes”。若只按 summary 的 “a coated ___” 看，單數 “selective membrane” 文法較順；但 IELTS 指示要求從文章取詞，原文短語是 selective membranes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "extract",
+      "answerKey": "extract",
+      "type": "Summary Completion",
+      "prompt": "Question 13",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“from which researchers later 13 _________________ it using standard techniques”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法預測：空格前有 researchers later，後面有 it，所以空格需要動詞原形。句子意思是：研究人員之後用標準技術從水中把 alcohol / ethanol 取出。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“surrounding water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“standard techniques”"
+            },
+            {
+              "kind": "quote",
+              "text": "“later”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Standard distillation or filtration techniques could extract the alcohol from the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "標準蒸餾或過濾技術可以從水中提取酒精。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主語是 Standard distillation or filtration techniques，動詞是 extract，受詞是 the alcohol。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把句子改寫成 researchers later ___ it using standard techniques，所以空格只需要動詞extract。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查： extract = 1 word，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不應填 “extract the alcohol”，因為 summary 後面已經有 it；填入後會變成 “extract the alcohol it”，文法不通。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “using standard techniques”= 原文 “Standard distillation or filtration techniques”題目 “___ it”= 原文 “extract the alcohol”所以 13 答案是 extract。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The success of cellulose.pdf",
+    "sha256": "f9d9e8dfd3ad61665a55ac179e27cf5e5000c0dfa13f3ecc6c928b44e12053c9",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以看到文章先從投資者對 biomass renewable fuels 的期待開始，再指出第一代 biofuels 已經遇到問題。首句說很多投資者曾押注 biomass fuels 會成為能源界下一個大方向；尾句指出若干研究認為某些生產過程沒有淨能源收益，甚至排放更多二氧化碳。本段功能是交代第一代以 corn、sugarcane、soybeans 為原料的 biofuels 的環境和經濟問題，為後文cellulosic biofuels 鋪路。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說新一層 start-up ventures 想避開上述問題，尾句指出至今仍沒有公司展示具成本競爭力的工業化 cellulosic biofuels 生產流程。只看首尾句，可以估計本段重點是「新方向」和「未解決難題」：由食物作物的 starches、sugars、fats，轉向 lignocellulose，即植物木質纖維組織。它的優點是可用 agricultural wastes、wood chips、switchgrass 等非食物原料，但工業化成本仍是障礙。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說科學家和工程師正在研究數十種 biofuel-processing routes，尾句引用 Huber 警告：oil companies 說完整商業化一條工業處理路線需要 10 年。只看首尾句，可以估計本段是「研發難度」段：沒有 miracle process，商業化需要金錢、時間和調校。這段有兩位人物：Charles Wyman說沒有奇蹟流程；George W. Huber 提到工業流程商業化需時，並曾貢獻 thermochemical techniques。"
+      },
+      {
+        "number": "D",
+        "summary": "首句介紹 Coskata 正探索一種 promising biofuel procedure，可以避開分解 cellulose 所需的複雜 enzymatic chemistry。尾句說能處理多種 plant feedstocks 會提高流程彈性，因各地可取得的原料不同。只看首尾句，可以估計本段功能是介紹 Coskata 的基本路線：用 conventional gasification system 以熱把不同原料變成 syngas。Richard Tobey 在這段出現，是後面多題的人物定位核心。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Coskata 沒有採用 thermochemical methods 把 syngas 轉成 fuel，因為 Tobey 認為那會因加壓氣體而顯著提高成本；尾句說 anaerobic bugs 透過大量 consuming syngas 產生 ethanol。只看首尾句，可以看到本段重點是 Coskata 的 biochemical route：用細菌處理 syngas。這段很可能回答「化學加生物流程」、「降低成本」、「bacteria consume syngas」相關題目。"
+      },
+      {
+        "number": "F",
+        "summary": "首句直接說 Coskata process 的 “heart and soul” 是 bacteria live 的 bioreactor。尾句說標準distillation 或 filtration techniques 可以從水中 extract the alcohol。只看首尾句，可以估計本段會詳細解釋 bioreactor 的結構和運作：plastic tubes / filter-fabric straws、syngas、selective membranes、bacteria、ethanol、water。這段是 summary completion 的核心段，也回答 Tobey 關於 mass transfer 的說法。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Coskata researchers 估計商業化流程可以把 ethanol 成本降至每 gallon 低於 $1，少於當時 wholesale price 的一半。尾句說 Argonne National Laboratory 的外部評估發現，在最佳情況下，產出能量可達投入能量的 7.7 倍。只看首尾句，可以估計本段是「成本與能源平衡」段，功能是展示 Coskata process 的潛在經濟優勢和能源效率。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說公司計劃在 GM test track 附近建 pilot plant，並希望到 2011 年建成 full-scale plant。尾句總結：考慮到這些和其他方法的進展，plant cellulose 可能提供大家想要的 greener ethanol。只看首尾句，可以估計本段功能是展望商業化時間表和競爭者。它也提到 Bioengineering Resources和 James Gaddy，對人物配對題很重要。 Answer Key Questio Answer n 1 C 2 B 3 A 4 C 5 D 6 C 7 TRUE 8 TRUE 9 FALSE 10 NOT GIVEN 11 plastic tubes 12 selective membranes 13 extract"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 12 採用原文短語 selective membranes（複數）。若只按 summary 的 “a coated ___” 看，單數 selective membrane 在文法上較順；但 IELTS 指示要求從文章取詞，所以保留原文複數形式。"
+  ]
+}

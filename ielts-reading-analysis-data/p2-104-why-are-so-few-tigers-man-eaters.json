@@ -1,0 +1,2063 @@
+{
+  "id": "p2-104-why-are-so-few-tigers-man-eaters",
+  "catalogueId": "p2-104",
+  "catalogueIds": [
+    "p2-104"
+  ],
+  "passage": 2,
+  "title": "Why are so few tigers man-eaters?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "A",
+    "F",
+    "B",
+    "E",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "C",
+    "B",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“a rejected explanation of why tiger attacks on humans are rare”",
+      "translation": "一個被作者放棄或質疑的解釋：為何老虎襲擊人類很少見。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找「哪一段包含某種資訊功能」，不是問某個詞在哪裡出現。控制詞是 rejected explanation。也就是說，我們要找一段先提出某種解釋，然後作者表示它不夠好，或轉向另一個解釋。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is widely assumed that the constraint is fear; but what exactly are tigers afraid of?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍假設限制老虎襲人的因素是恐懼；但老虎究竟怕甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But I think the explanation may be simpler and, in a way, more intriguing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但作者認為，解釋可能更簡單，而且從某種角度看更有趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 的功能：它先提出一個常見解釋，即老虎因為 fear 而不常襲人；然後作者表示自己傾向另一個更簡單的解釋。這正好符合題目中的 rejected explanation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “rejected explanation”。原文不會直接寫 rejected，但會出現一組訊號： widely assumed、perhaps、but I think。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C 時，可以看到作者連續提出問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“Can they really know that we may be even better armed than they are? Surely not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們真的知道我們可能比牠們武裝得更好嗎？當然不會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句削弱了「老虎因知道人類危險而害怕」的想法。後面又說 genes / instinct 也只是 “Perhaps”，語氣保留。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is widely assumed that the constraint is fear; but what exactly are tigers afraid of?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍假設限制因素是恐懼；但老虎究竟怕甚麼？"
+            },
+            {
+              "kind": "quote",
+              "text": "“Can they really know that we may be even better armed than they are? Surely not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們真的能知道我們可能武裝得比牠們更好嗎？當然不能。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But I think the explanation may be simpler and, in a way, more intriguing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但作者認為，解釋可能更簡單，也更耐人尋味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句合起來顯示：作者先提出 fear 這個廣泛假設，再用反問削弱它，最後引出自己的新解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 Paragraph C 包含「被質疑的解釋」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "rejected explanation = widely assumed … but / surely not / I think the explanation may be simpler why attacks are rare = the constraint fear = tigers are afraid of humans答案判斷： Paragraph C 正是提出並質疑常見解釋的位置，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提出「為何襲擊不更頻繁」這個大問題，但它未提供被質疑的解釋。真正出現「常見解釋被作者轉開」的是 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“a reason why tiger attacks on humans might be expected to happen more often than they do”",
+      "translation": "一個原因，說明為何我們本來可能預期老虎襲人應該更常發生。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「為何理論上應該更常發生」的理由。控制詞是 “might be expected”。也就是說，原文會提出一些條件，令讀者覺得襲擊人類應該很常見。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As you leave the Bandhavgarh National Park in central India, there is a notice which shows a huge, placid tiger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你離開印度中部的 Bandhavgarh National Park 時，會看到一個告示，上面有一隻巨大而平靜的老虎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surely, then, it is a little strange that attacks on humans are not more frequent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，人類遇襲並沒有更頻繁發生，確實有點奇怪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph A 正在建立全文問題：老虎與人類接觸機會多，老虎又有強大攻擊力，可是襲人事件不算頻繁。題目問「為何本來預期會更多」，因此 Paragraph A 是最直接段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “expected to happen more often”。原文對應 “strange that attacks on humans are not more frequent”。"
+            },
+            {
+              "kind": "label",
+              "text": "再掃描本段中間，可以找到兩個理由："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are more than a billion people in India and Indian tigers probably see humans every single day of their lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "印度有超過十億人口，而印度老虎一生中大概每天都會見到人類。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Tigers can and do kill almost everything they meet in the jungle; they will even attack elephants and rhinos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "老虎能夠並且確實會殺死叢林中幾乎所有遇到的東西；牠們甚至會攻擊大象和犀牛。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的答案靠一組原因建立。第一，老虎在印度很常見到人類；第二，老虎攻擊力極強，甚至會攻擊大型動物。這些資訊共同令讀者覺得：如果老虎每天都見到人，而且能殺死各種大型動物，按常理推想，襲人事件應該更多。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "might be expected to happen more often = it is a little strange that attacks are not more frequent humans are common in tiger environment = tigers probably see humans every single day tigers are capable predators = kill almost everything / attack elephants and rhinos答案判斷： Paragraph A 提供了「為何襲人應該更多」的理由，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也討論 attack frequency，但它處理的是「過去和今日相比是否常見」。Question 15問的是「為何本來預期會更多」，最貼近 Paragraph A 的反差鋪墊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“examples of situations in which humans are more likely to be attacked by tigers”",
+      "translation": "一些情況例子，顯示人類在甚麼姿勢或活動中較容易被老虎襲擊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目需要 examples of situations，所以要找具體場景，例如某種姿勢、某種工作或某種環境。控制詞是 “more likely to be attacked”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the theory that a tiger is disconcerted to find that a standing human is both very big and yet somehow invisible is correct, the opposite should be true of a squatting human.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果老虎看到站立人類既很大、又某種程度上看不見背部而感到困惑這個理論正確，那麼蹲下的人類應該會出現相反情況。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many incidents of attacks on people involve villagers squatting or bending over to cut grass for fodder or building material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多襲人事件涉及村民蹲下或彎腰割草，用作飼料或建築材料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 明顯講蹲下或彎腰的人更容易被攻擊。最後一句直接提供 incidents 和villagers 的例子，正好對應題目中的 examples of situations。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “situations” 和 “more likely to be attacked”。掃描 Paragraph F 時，要留意"
+            },
+            {
+              "kind": "quote",
+              "text": "“squatting”、“bending over”、“attacks on people” 這些具體動作詞。關鍵句是：“Many incidents of attacks on people involve villagers squatting or bending over to cut grass for fodder or building material.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 attack incidents 和具體人類姿勢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先建立理論："
+            },
+            {
+              "kind": "quote",
+              "text": "“A squatting human is half the size and presents twice the spread of back, and more closely resembles a medium-sized deer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蹲下的人類高度減半，背部展開面積卻加倍，並且更像一隻中型鹿。"
+            },
+            {
+              "kind": "label",
+              "text": "接着給例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many incidents of attacks on people involve villagers squatting or bending over to cut grass for fodder or building material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多襲人事件涉及村民蹲下或彎腰割草，用作飼料或建材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “squatting” 和 “bending over” 是兩種具體高危姿勢；“cut grass for fodder or building material” 是具體活動。題目說 examples of situations，Paragraph F 的最後一句正好提供多個實際例子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "situations = squatting / bending over / cutting grass more likely to be attacked = many incidents of attacks involve humans = villagers答案判斷： Paragraph F 有具體攻擊情境例子，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也提到人在車內遇到老虎，以及車威脅幼崽時老虎可能衝過來。可是 Question 16的 plural examples 更貼近 Paragraph F 末句中一連串具體場景：villagers squatting or bending over to cut grass。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“a claim about the relative frequency of tiger attacks on humans”",
+      "translation": "一個關於老虎襲人相對頻率的說法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 relative frequency，即相對頻率。要找比較：過去與現在相比，或者老虎數量與襲擊次數相比。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people might argue that these attacks were in fact common in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人可能會說，這些襲擊在過去其實很常見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So in proportion, attacks appear to have been as rare then as they are today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以按比例看，襲擊在當時似乎和今天一樣罕見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph B 是頻率比較段。它先提出「過去很常見」的印象，最後用 “in proportion” 修正這個印象。題目中的 relative frequency 直接對應這個比例判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “relative frequency”。原文沒有這個短語，但有 “in proportion” 和 “as rare then as they are today”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“in proportion” 是比例概念，正是 relative frequency 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句組：“There were also far more tigers around in those days (probably 60,000 in the subcontinent compared to just 3,000 today).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些年代也有多得多的老虎，在南亞次大陸大概有 60,000 隻，相比之下今日只有約 3,000 隻。"
+            },
+            {
+              "kind": "quote",
+              "text": "“So in proportion, attacks appear to have been as rare then as they are today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以按比例看，當時的襲擊似乎和今天一樣罕見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的邏輯是：過去襲人故事可能聽起來多，但當時老虎數量也遠高於現在。把老虎數量納入比較後，襲人事件的相對頻率其實仍然很低。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "relative frequency = in proportion claim = attacks appear to have been as rare then as today past vs present = then vs today答案判斷： Paragraph B 明確提出相對頻率判斷，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能只看到 “common in the past” 就以為本段說過去常見。細讀時要看段落最後的修正：按比例看，過去和現在一樣罕見。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“an explanation of tiger behaviour based on the principles of ethology”",
+      "translation": "一個根據 ethology 原則解釋老虎行為的說法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易在 Paragraph D 和 E 之間搖擺。Paragraph D 解釋 ethology 原則；Paragraph E 把這個原則用到老虎身上。題目問的是 an explanation of tiger behaviour，所以要找實際解釋老虎反應的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I suspect that a tiger’s fear of humans lies not in some preprogrammed ancestral logic but in the way it actually perceives us visually.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者懷疑，老虎對人類的恐懼並非源於某種預設的祖先邏輯，重點在牠實際上如何以視覺感知我們。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is especially true of a solitary hunter such as the tiger and may explain why lions—particularly young lionesses, which tend to encourage one another to take risks—are more dangerous than tigers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點尤其適用於像老虎這樣的獨行獵手，也可能解釋為何獅子，尤其會互相鼓勵冒險的年輕母獅，比老虎更危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 正是在解釋老虎為何不常攻擊人：老虎看見人時，視覺感知可能令牠困惑。這正好是 ethology 原則的應用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “ethology”。Paragraph E 沒有重複 ethology，但有一個非常重要的提示："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you think like a tiger…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你像老虎一樣思考……這句直接呼應 Paragraph D 的 ethology 原則：try to think as the animal we are studying does。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 的 ethology 原則是："
+            },
+            {
+              "kind": "quote",
+              "text": "“requires us to try to think as the animal we are studying does…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要求我們嘗試像正在研究的動物那樣思考。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 應用這個方法："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you think like a tiger, a human in a car might appear just to be a part of the car…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你像老虎一樣思考，車內的人可能看起來只是車的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又解釋站立的人："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the front the man is huge, but looked at from the side he all but disappears. This must be very disconcerting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從正面看，人很巨大；但從側面看，他幾乎消失。這一定很令人困惑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子全都是從老虎視覺和獵食信心出發解釋行為，正符合 ethology 的核心。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "based on ethology = think like a tiger / perceive us visually explanation of tiger behaviour = why tiger does not attack / why a hunter is not confident when disconcerted principles = from the animal’s point of view答案判斷： Paragraph E 是真正用 ethology 來解釋老虎行為的段落，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 是方法論段，很重要，但它主要定義 ethology。Question 18 要找 explanation of tiger behaviour，答案要落在 Paragraph E 的實際分析。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Tigers in the Bandhavgarh National Park are a protected species.”",
+      "translation": "Bandhavgarh National Park 的老虎是受保護物種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目包含兩個要素：第一，Bandhavgarh National Park；第二，tigers are a protected species。要選 TRUE，原文必須明確支持 protected species。只有提到National Park，仍不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As you leave the Bandhavgarh National Park in central India, there is a notice which shows a huge, placid tiger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你離開印度中部的 Bandhavgarh National Park 時，會看到一個告示，上面有一隻巨大而平靜的老虎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surely, then, it is a little strange that attacks on humans are not more frequent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，人類遇襲並沒有更頻繁，確實有點奇怪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 用 National Park 的告示帶出「老虎常見人，但襲人不多」的問題。它不是保育政策段，也沒有明顯談 protected species。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Bandhavgarh National Park” 和 “protected species”。掃描 Paragraph A，可找到Bandhavgarh National Park，但找不到 protected、conservation、endangered、law、reserve、species protection 等相關概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“As you leave the Bandhavgarh National Park in central India, there is a notice which shows a huge, placid tiger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你離開印度中部 Bandhavgarh National Park 時，會看到一個告示，上面有一隻巨大而平靜的老虎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說明地點和告示內容。National Park 在現實世界中常與保護野生動物有關，但 IELTS 判斷要靠文章證據。文章沒有說 Bandhavgarh 的老虎受法律保護，也沒有說牠們是 protected species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Tigers in Bandhavgarh National Park動作 / 狀態：are a protected species原文命題：主體：a notice at Bandhavgarh National Park內容：shows a tiger and says “You may not have seen me, but I have seen you.”缺失部分：protected species判斷：原文有相關地點和老虎，但缺少「受保護物種」這個核心資訊，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "National Park 這個詞很容易令學生用常識補答案。現實常識可能合理，可是文章沒有明示protected species，考試不能自行補入。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some writers of fiction have exaggerated the danger of tigers to man.”",
+      "translation": "有些小說或故事作家誇大了老虎對人類的危險。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否支持「作家誇大危險」。控制詞是 Some writers、exaggerated、danger of tigers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people might argue that these attacks were in fact common in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人可能會說，這些襲擊在過去其實很常見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So in proportion, attacks appear to have been as rare then as they are today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以按比例看，襲擊在當時似乎和今天一樣罕見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段正在修正「過去老虎襲人很常見」這種印象。題目講 writers exaggerated danger，應該在本段中間關於 British writers 的部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “writers of fiction” 和 “exaggerated”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“British writers of adventure stories, such as Jim Corbett…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“they may have overstated the terror spread by tigers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“overstated” 就是 exaggerated 的近義詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“British writers of adventure stories, such as Jim Corbett, gave the impression that village life in India in the early years of the twentieth century involved a state of constant siege by man-eating tigers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jim Corbett 等英國冒險故事作家，給人一種印象：二十世紀初印度村莊生活彷彿長期被食人虎圍困。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But they may have overstated the terror spread by tigers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他們可能誇大了老虎造成的恐怖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “writers of fiction” 可對應 “writers of adventure stories”；“exaggerated” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“overstated”；“danger of tigers to man” 對應 “terror spread by tigers” 和 “man-eating tigers”。判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“may have overstated” 帶有保留語氣，但題目也只是說 Some writers have exaggerated，並非說所有作家必然嚴重誇大。文章明確支援「可能誇大」這個方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The fear of humans may be passed down in a tiger’s genes.”",
+      "translation": "老虎對人類的恐懼可能透過基因傳下去。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要留意 may。題目沒有說這一定是真的，只說可能。原文若出現 perhaps、may、可能性，已足以支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is widely assumed that the constraint is fear; but what exactly are tigers afraid of?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍假設限制老虎襲人的因素是恐懼；但老虎究竟怕甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But I think the explanation may be simpler and, in a way, more intriguing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但作者認為，解釋可能更簡單，也更耐人尋味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會討論 fear 這個假設，以及作者是否接受它。題目有 fear 和 genes，因此一定要看本段中間關於 genes 和 instinct 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “fear of humans” 和 “genes”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Has the species programmed the experiences of all tigers with humans into its genes to be inherited as instinct? Perhaps.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 genes、inherited、instinct，定位非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Has the species programmed the experiences of all tigers with humans into its genes to be inherited as instinct? Perhaps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個物種是否已把所有老虎與人類接觸的經驗寫入基因，使其作為本能被繼承？也許。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是反問加保留回答。作者沒有說這是最終解釋，但 “Perhaps” 表示可能性存在。題目說 “may be passed down”，語氣同樣保留。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目不是問作者最後最支持的解釋；它只問這種可能性有沒有得到文章支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "fear of humans = experiences of all tigers with humans / constraint is fear passed down = inherited in a tiger’s genes = into its genes may = Perhaps判斷：題目使用 may，原文使用 Perhaps，語氣一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "作者最後傾向更簡單的視覺解釋，這不會取消 “Perhaps” 所承認的可能性。若題目說 “definitely is passed down”，答案就不同；但題目只說 may。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Konrad Lorenz claimed that some animals are more intelligent than humans.”",
+      "translation": "Konrad Lorenz 聲稱某些動物比人類更聰明。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷某個人物是否提出某個 claim。控制詞是 Konrad Lorenz、claimed、more intelligent than humans。只要人物和 intelligence 在同段出現，也不代表 claim 成立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the growth of ethology in the 1950s, we have tried to understand animal behaviour from the animal’s point of view.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1950 年代 ethology 興起以來，人們嘗試從動物自身角度理解動物行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The principle of ethology, on the other hand, requires us to try to think as the animal we are studying does, and to observe every tiny detail of its behaviour without imposing our own human significance on its actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，ethology 的原則要求我們嘗試像研究對象那種動物一樣思考，並觀察其行為的每個細節，避免把人類意義強加到牠的行為上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph D 講的是 ethology 的研究方法，不是比較人類與動物智力高低的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Konrad Lorenz” 和 “more intelligent than humans”。掃描 Paragraph D，可找到Konrad Lorenz："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the first elegant experiments by pioneers in the field such as Konrad Lorenz, naturalists wrote about animals as if they were slightly less intelligent humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Konrad Lorenz 等先驅作出早期優雅實驗之前，自然學家寫動物時，彷彿把牠們寫成智力稍低一點的人類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 intelligent，但主語是 naturalists，不是 Konrad Lorenz。內容是 “slightly less intelligent humans”，也不是 “more intelligent than humans”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the first elegant experiments by pioneers in the field such as Konrad Lorenz, naturalists wrote about animals as if they were slightly less intelligent humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Konrad Lorenz 等領域先驅的早期實驗之前，自然學家寫動物時，彷彿動物只是智力稍低的人類。"
+            },
+            {
+              "kind": "label",
+              "text": "句子結構很重要："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pioneers … such as Konrad Lorenz” 是時間標記的一部分，表示 Lorenz 屬於 ethology 先驅。真正做出 “wrote about animals…” 這個動作的是 naturalists。文章沒有說 Lorenz claimed anything about animals being more intelligent than humans。題目命題：主體：Konrad Lorenz動作：claimed內容：some animals are more intelligent than humans原文命題：主體：naturalists before ethology動作：wrote about animals as if they were slightly less intelligent humans Lorenz 的角色：ethology pioneer判斷：文章沒有提供 Lorenz 作出這項主張的資料，也沒有說某些動物比人類更聰明。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被 “Konrad Lorenz” 和 “intelligent humans” 的同段出現吸引。真正要檢查的是誰claimed，以及 claim 的內容是否為 “more intelligent”。兩個核心都缺失。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Ethology involves applying principles of human behaviour to animals.”",
+      "translation": "Ethology 涉及把人類行為原則套用到動物身上。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問 ethology 的定義或方法。若原文說 ethology 要避免把人類意義套到動物身上，題目就和原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the growth of ethology in the 1950s, we have tried to understand animal behaviour from the animal’s point of view.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1950 年代 ethology 興起以來，人們嘗試從動物自身角度理解動物行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The principle of ethology, on the other hand, requires us to try to think as the animal we are studying does, and to observe every tiny detail of its behaviour without imposing our own human significance on its actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，ethology 的原則要求我們嘗試像正在研究的動物那樣思考，並觀察其行為細節，避免把人類意義強加到動物行為上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 已經非常清楚：ethology 的方向是從動物角度理解行為，而不是以人類行為作模板。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Ethology” 和 “human behaviour”。原文中對應 “ethology” 和 “without imposing our own human significance on its actions”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“applying principles of human behaviour” 對應的概念是 imposing human significance，但原文前面有 without，表示避免這樣做。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The principle of ethology, on the other hand, requires us to try to think as the animal we are studying does, and to observe every tiny detail of its behaviour without imposing our own human significance on its actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ethology 的原則要求我們嘗試像研究中的動物那樣思考，並觀察其每個細微行為，避免把我們人類自己的意義強加到牠的行為上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 ethology involves applying human behaviour principles。原文說 ethology requires thinking as the animal does，並且 without imposing human significance。兩邊方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "applying human principles to animals = imposing our own human significance原文：without imposing"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：involves applying"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文說 ethology 避免人類中心式解讀；題目說 ethology 要把人類行為原則套到動物。方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 前面提到過去 naturalists 把動物寫得像 slightly less intelligent humans。那是ethology 出現以前的做法，並非 ethology 本身。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — They do not think people in cars are living creatures.",
+      "answerKey": "C — They do not think people in cars are living creatures.",
+      "type": "Multiple Choice",
+      "prompt": "“Why do tigers rarely attack people in cars?”",
+      "translation": "為甚麼老虎很少攻擊坐在車內的人？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A They have learned that cars are not dangerous.牠們學會了車並不危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B They realise that people in cars cannot be harmed.牠們知道車內的人不會受傷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C They do not think people in cars are living creatures.牠們不把車內的人視為活物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D They do not want to put their cubs at risk.牠們不想讓幼崽冒險。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I suspect that a tiger’s fear of humans lies not in some preprogrammed ancestral logic but in the way it actually perceives us visually.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者懷疑，老虎對人類的恐懼並非源於某種預設祖先邏輯，重點在牠實際上如何以視覺感知我們。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is especially true of a solitary hunter such as the tiger and may explain why lions—particularly young lionesses, which tend to encourage one another to take risks—are more dangerous than tigers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對像老虎這樣的獨行獵手尤其成立，也可能解釋為何獅子，尤其是會互相鼓勵冒險的年輕母獅，比老虎更危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 是視覺感知解釋段。題目問 people in cars，正好在這段開頭部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “people in cars”。原文對應 “a human in a car”。掃描 Paragraph E，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you think like a tiger, a human in a car might appear just to be a part of the car, and because tigers don’t eat cars the human is safe…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接回答題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you think like a tiger, a human in a car might appear just to be a part of the car, and because tigers don’t eat cars the human is safe…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你像老虎一樣思考，車內的人可能看起來只是車的一部分；因為老虎不吃車，所以人便安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心不是老虎知道車安全，也不是牠知道人不能受傷。作者的推論是：老虎視覺上把車內的人看成車的一部分；車不是獵物，老虎不吃車，因此不攻擊車內的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“do not think people in cars are living creatures” 對應 “a human in a car might appear just to be a part of the car”。如果人被看成車的一部分，就不再像一個可吃的活物。 A 錯在 learned。原文沒有說老虎學會車不危險。 B 錯在 cannot be harmed。原文沒有說老虎理解人能否受傷。 D 錯在 cubs。原文提到 cubs 的情境是例外：如果車威脅老虎或幼崽，老虎可能衝過來；這不是牠平時不攻擊車內人的原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "people in cars = a human in a car do not think they are living creatures = appear just to be a part of the car rarely attack = the human is safe because tigers don’t eat cars答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — they are confused by the man’s shape.",
+      "answerKey": "B — they are confused by the man’s shape.",
+      "type": "Multiple Choice",
+      "prompt": "“The writer says that tigers rarely attack a man who is standing up because…”",
+      "translation": "作者說老虎很少攻擊站立的人，原因是……選項： A they are afraid of the man’s height.牠們害怕人的高度。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B they are confused by the man’s shape.牠們被人的形狀弄得困惑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C they are puzzled by the man’s lack of movement.牠們因人不動而困惑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D they are unable to look at the man directly.牠們無法直接看着人。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I suspect that a tiger’s fear of humans lies not in some preprogrammed ancestral logic but in the way it actually perceives us visually.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者懷疑，老虎對人類的恐懼並非源於預設的祖先邏輯，重點在牠實際上如何以視覺感知我們。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is especially true of a solitary hunter such as the tiger and may explain why lions—particularly young lionesses, which tend to encourage one another to take risks—are more dangerous than tigers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這點對老虎這類獨行獵手尤其成立，也可能解釋為何獅子，尤其是年輕母獅，比老虎更危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段解釋老虎看到人類時的視覺問題。題目問 standing man，應該看段落中間由 “A human on foot” 開始的分析。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “standing up”。原文不一定用 standing up，但有 “A human on foot”、“face on”、"
+            },
+            {
+              "kind": "quote",
+              "text": "“from the front”、“from the side”。掃描時可找到：“A human on foot is a different sort of puzzle.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the front the man is huge, but looked at from the side he all but disappears. This must be very disconcerting.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“puzzle” 和 “disconcerting” 都指困惑、令人不安。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句組：“A human on foot is a different sort of puzzle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "步行的人類是另一種難題。"
+            },
+            {
+              "kind": "quote",
+              "text": "“When a tiger sees the man face on, it might not be unreasonable for it to assume that the man is 6 m long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當老虎從正面看見這個人時，牠假設這個人有 6 米長，也不算不合理。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But when it looks behind the man it can’t see a back.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但當牠看向人的後方時，卻看不到背部。"
+            },
+            {
+              "kind": "quote",
+              "text": "“From the front the man is huge, but looked at from the side he all but disappears. This must be very disconcerting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從正面看，這個人很巨大；但從側面看，他幾乎消失。這必然令人很困惑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者的意思是：站立的人從正面和側面看起來差異太大，老虎無法把他穩定辨認成可攻擊獵物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是形狀問題，不只是高度問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "confused by the man’s shape 對應 “puzzle”、“huge from the front”、“all but disappears from the side”、“disconcerting”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 只抓到 height。原文確實提到 1.8 m，但重點不在單純高度；關鍵在正面巨大、側面消失這種形狀矛盾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 沒有 movement 支援。原文沒有說人不動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 沒有支援。原文說老虎可以從正面和側面看人，問題在視覺判斷結果，不在無法直視。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "confused = puzzle / disconcerting man’s shape = huge from the front, almost disappears from the side standing up = human on foot / man face on答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "D — his back appears longer in relation to his height.",
+      "answerKey": "D — his back appears longer in relation to his height.",
+      "type": "Multiple Choice",
+      "prompt": "“A human is more vulnerable to tiger attack when squatting because…”",
+      "translation": "人蹲下時更容易被老虎攻擊，原因是……選項： A he may be unaware of the tiger’s approach.他可能沒有察覺老虎靠近。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B he cannot easily move his head to see behind him.他不容易轉頭看身後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C his head becomes a better target for the tiger.他的頭成為更好的攻擊目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D his back appears longer in relation to his height.相對於高度，他的背部看起來更長或更展開。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the theory that a tiger is disconcerted to find that a standing human is both very big and yet somehow invisible is correct, the opposite should be true of a squatting human.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果老虎看到站立的人既很大、又某種程度上看不見背部而困惑這個理論正確，那麼蹲下的人類應該出現相反情況。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many incidents of attacks on people involve villagers squatting or bending over to cut grass for fodder or building material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多襲人事件涉及村民蹲下或彎腰割草，用作飼料或建材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 明確談蹲下或彎腰的人更易受攻擊。題目問 squatting，因此答案一定在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “squatting”。原文直接有 “a squatting human”。接着的句子就是原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“A squatting human is half the size and presents twice the spread of back, and more closely resembles a medium-sized deer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 size、back、resembles deer，是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A squatting human is half the size and presents twice the spread of back, and more closely resembles a medium-sized deer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蹲下的人類高度只有一半，背部展開面積卻加倍，並且更像一隻中型鹿。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點有三層：第一，蹲下使人的高度變矮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，背部看起來更大、更展開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，整體形狀更像老虎熟悉的獵物，例如中型鹿。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “his back appears longer in relation to his height” 雖然不是逐字重現，但它精準概括 “half the size” 和 “twice the spread of back” 之間的比例變化。換言之，人蹲下時，背部相對高度變得更明顯，令老虎更容易把他視作可攻擊獵物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“back appears longer in relation to height” 對應 “half the size” + “twice the spread of back”。 A 沒有原文支援。文章沒有說蹲下的人看不到老虎。 B 沒有原文支援。文章沒有討論轉頭能力。 C 錯在 head。原文完全沒有把頭作為攻擊目標，重點在 back。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "squatting = squatting / bending over more vulnerable = more attractive as a target / many incidents involve back appears longer in relation to height = half the size and twice the spread of back答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Why are so few tigers man-eaters_.pdf",
+    "sha256": "19836599b92a07b5a90ff762f271f224fce8979a42f10db7645264911c411810",
+    "pageCount": 26
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句寫到 Bandhavgarh National Park 出口處有告示，畫着一隻平靜的大老虎，告訴遊客老虎可能已看見他們。末句說，既然老虎能殺死叢林中幾乎所有遇到的動物，甚至會攻擊大象和犀牛，人類遇襲頻率卻不高，這點似乎奇怪。初步來看，本段用印度人虎共存的現象引出全文問題：為何老虎很少主動獵殺人類？"
+      },
+      {
+        "number": "B",
+        "summary": "首句提出另一種看法：有人可能認為老虎襲人過去其實很常見。末句說，按比例看，當時的襲擊似乎和今天一樣罕見。只看首尾句，可以估計本段在處理歷史印象與實際頻率之間的差距。作者會提到英國冒險故事作家如何塑造恐怖形象，再用過去老虎數量遠多於今日這點修正讀者對頻率的理解。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說，人們普遍假設限制老虎襲人的因素是 fear。末句說，作者認為解釋可能更簡單，也更耐人尋味。只看首尾句，可以估計本段會先提出常見解釋，再把它放在懷疑位置。中間應該會追問老虎究竟怕甚麼，以及這種怕人的反應是否可能來自基因。題目若問 rejected explanation，很可能定位這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說，自 1950s ethology 興起以來，人們嘗試從動物自身角度理解 animal behaviour。末句說， ethology 要求研究者嘗試像動物一樣思考，觀察細節，避免把人類意義強加到動物行為上。初步來看，本段是方法論段：它解釋作者接下來會如何分析老虎。題目若問 ethology 原則或動物行為解釋的基礎，可先看此段，再看下一段實際應用。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說，作者懷疑老虎怕人並非源自某種預設祖先邏輯，重點在牠實際上如何以視覺感知人類。末句說，這也可能解釋為何獅子，尤其年輕母獅，比老虎更危險。只看首尾句，可以估計本段是全文核心解釋：作者從老虎視角想像人類在車內、站立時的外形，說明老虎為何感到困惑，進而不敢攻擊。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說，如果站立人類令老虎困惑這個理論正確，相反情況應該出現在蹲下的人身上。末句說，許多襲擊事件涉及村民蹲下或彎腰割草，用作飼料或建材。初步來看，本段提供驗證作者理論的反向證據：人站立時形狀難判斷，蹲下或彎腰時更像中型鹿，背部面積更明顯，因此更容易成為攻擊目標。"
+      },
+      {
+        "number": "G",
+        "summary": "首句也是全段唯一一句，指出人類直立站姿可能不只使人類有別於幾乎所有其他物種，也可能幫助人類在危險、難以預測的環境中生存。只看這句，可以估計本段是全文結論：作者把前文的老虎視覺理論提升到人類演化意義。直立姿勢不單是生理特徵，也可能具有保命功能，因為它令大型獵食者較難把人類判定為可攻擊獵物。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航。"
+  ]
+}

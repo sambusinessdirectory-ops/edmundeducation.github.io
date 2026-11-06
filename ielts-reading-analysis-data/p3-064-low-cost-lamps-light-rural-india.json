@@ -1,0 +1,1765 @@
+{
+  "id": "p3-064-low-cost-lamps-light-rural-india",
+  "catalogueId": "p3-064",
+  "catalogueIds": [
+    "p3-064"
+  ],
+  "passage": 3,
+  "title": "Low-Cost Lamps Light Rural India",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "B",
+    "A",
+    "C",
+    "cell phones",
+    "useful light",
+    "remote",
+    "heavy import duties",
+    "dust",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — are powered by the sun.",
+      "answerKey": "C — are powered by the sun.",
+      "type": "Question Analysis",
+      "prompt": "Question 27",
+      "translation": "GSBF 的燈具具有哪一項特點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“The GSBF lamps…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until three months ago, life in this humble village without electricity would come to a halt after sunset.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到三個月前，這個沒有電的樸素村莊在日落後生活幾乎會停頓下來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“LED lighting, like cell phones, is another example of a technology whose low cost could allow the rural poor to leap into the 21st century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LED lighting 就像手機一樣，是另一種低成本科技，可讓農村貧困人口跨入 21 世紀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 會介紹農村沒有電的問題，以及 LED 照明作為低成本解決方案。題目直接問 GSBF lamps，因此要在第一段掃描 GSBF 和 lamps。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “GSBF lamps”。原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lights were installed by the Grameen Surya Bijli Foundation (GSBF)…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些燈由 Grameen Surya Bijli Foundation，即 GSBF 安裝。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The GSBF lamps use LEDs—light-emitting diodes—that are four times more efficient than a conventional bulb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GSBF 的燈使用 LED，即 light-emitting diodes，效率比傳統燈泡高四倍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正支援 C 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“That all changed with the installation of low-cost, energy-efficient lamps that are powered entirely by the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著低成本、高能源效率的燈具安裝後，一切都改變了；這些燈完全由太陽供電。"
+            },
+            {
+              "kind": "label",
+              "text": "另外一句也補強："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the $55 installation cost, solar energy powers the lamp free of charge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支付 55 美元安裝費後，太陽能便可免費為燈供電。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “are powered by the sun” 直接對應 “powered entirely by the sun” 和 “solar energy powers the lamp”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除A “provide light for 100,000 Indian villages” 錯在把背景數字誤作已完成效果。原文說 “Some 100,000 Indian villages do not yet have electricity”，意思是約 100,000 條印度村莊尚未有電，沒有說 GSBF lamps 已照亮這些村莊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “are very expensive to install” 方向不合。原文稱這些燈為 “low-cost”，安裝費為 $55，而且安裝後太陽能供電免費。題目問 GSBF lamps 的特點，最有直接證據的是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — biomass as a cooking fuel.",
+      "answerKey": "B — biomass as a cooking fuel.",
+      "type": "Question Analysis",
+      "prompt": "Question 28",
+      "translation": "印度農村人口超過一半使用甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than half of India’s rural population uses…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The technology, which is not yet widely known in India, faces some scepticism here.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項技術在印度尚未廣為人知，並在當地面對一些懷疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If only LEDs weren’t imported but manufactured locally,’ he says, ‘and in bulk.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「要是 LED 不靠進口，能在本地大量生產就好了。」只看首尾句，可以估計 Paragraph 3 會講 LED 技術在印度推行時面對的問題，包括懷疑、成本和本地生產。題目問 “More than half of India’s rural population”，要在中間掃描百分比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “more than half” 和 “rural population”。原文用 “Nearly 60 per cent of India’s rural population”，這明顯高於一半。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nearly 60 per cent of India’s rural population burns 180 million tonnes of biomass each year in primitive wood-burning stoves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "印度農村人口近 60% 每年在原始燃木爐中燃燒 1.8 億噸 biomass。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “More than half” 對應 “Nearly 60 per cent”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “uses” 對應 “burns”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的 “biomass as a cooking fuel” 對應 “biomass … in primitive wood-burning stoves”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除A “kerosene as a cooking fuel” 有原文字眼 kerosene，但語境錯了。Paragraph 2 說很多人用kerosene 作為 primary lighting medium，即照明媒介，不是煮食燃料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “solar power as a cooking fuel” 也不合。文章說太陽能為 LED lamp 供電，並沒有說印度農村超過一半人口用 solar power 煮食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — in rural areas.",
+      "answerKey": "A — in rural areas.",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "在印度，GSBF lamps 對哪一類人來說太昂貴？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“In India, the GSBF lamps are too expensive for most people…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lamps installed in nearly 300 homes by GSBF cost nearly half the price of other solar lighting systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GSBF 在近 300 戶家庭安裝的燈，價格接近其他太陽能照明系統的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“LUTW is in the process of creating such a microcredit facility for South Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LUTW 正在為 South Africa 建立這類 microcredit facility。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph 4 主要講成本、可負擔性和 microcredit。題目問太貴對哪類人造成問題，應該在這段中間找 urban markets / rural markets 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “too expensive”、“most people”、“rural / urban”。原文沒有 “too expensive” 這幾個字，但有 “cannot afford it”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As he looks to make the project self-sustainable, he recognises that it is only urban markets—which have also shown a keen interest in LED lighting—that can afford the higher price.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他希望令這個項目能自我持續時，他承認只有 urban markets 能負擔較高價格；城市市場也對LED lighting 表現出濃厚興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rural markets in India cannot afford it, he says, until the prices are brought down.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，在價格降下來之前，印度的 rural markets 負擔不起這種燈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “too expensive for most people” 對應 “cannot afford it”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “in rural areas” 對應 “The rural markets in India”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除B “in urban areas” 和原文方向相反。原文說 “only urban markets … can afford the higher price”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “in all areas” 範圍太大。文章分清 urban markets 和 rural markets：城市市場能負擔較高價格，農村市場暫時不能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — only provide four hours of light a day.",
+      "answerKey": "C — only provide four hours of light a day.",
+      "type": "Question Analysis",
+      "prompt": "Question 30",
+      "translation": "GSBF 的燈具還有哪一項特點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“The GSBF lamps…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In villages near Khadakwadi, the newly installed LED lamps are a source of envy even to those connected to the grid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Khadakwadi 附近的村莊，新安裝的 LED lamps 甚至令已接上電網的人羨慕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Its luminosity and life will diminish if you let the dust settle on it,’ he warns them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他警告他們：「如果讓灰塵積在上面，它的亮度和壽命都會下降。」只看首尾句，可以知道這段會比較 LED lamps 和電網，也會講使用和保養。題目問 GSBF lamps的特點，應定位到本段中後部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “GSBF lamps”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lamps provided by GSBF have enough power to provide just four hours of light a day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GSBF 提供的燈有足夠電力，每天只可提供四小時照明。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “only provide four hours of light a day” 幾乎直接改寫原文 “provide just four hours of light a day”。"
+            },
+            {
+              "kind": "quote",
+              "text": "“just” 在原文中表示限制，和選項的 “only” 對應。錯項排除A “are not as reliable as electricity from the national power grid” 與原文相反。原文說：“the lamps are more reliable than light from India’s electrical grid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些燈比印度電網提供的照明更可靠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “require skill to use” 缺乏支援。文章說村民會接受 GSBF officials 的訓練，學習如何充分使用和清潔新燈，但沒有說需要技術能力才懂得使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 31–35 Sentence Completion 要先看空格前後文法、詞性和字數限制，再回原文找同義位置。手冊對Completion 題特別要求檢查空格所需詞性、原文證據和字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "cell phones",
+      "answerKey": "cell phones",
+      "type": "Question Analysis",
+      "prompt": "“Another example of inexpensive technology helping poor people in rural areas is 31 ______”",
+      "translation": "另一個幫助農村貧困人口的低成本科技例子是 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until three months ago, life in this humble village without electricity would come to a halt after sunset.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到三個月前，這個沒有電的樸素村莊在日落後生活幾乎會停頓下來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“LED lighting, like cell phones, is another example of a technology whose low cost could allow the rural poor to leap into the 21st century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LED lighting 就像 cell phones 一樣，是另一種低成本科技，可讓農村貧困人口跨入 21 世紀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題直接由段尾回答。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “another example”、“inexpensive technology”、“poor people in rural areas”。原文對應"
+            },
+            {
+              "kind": "quote",
+              "text": "“another example of a technology whose low cost could allow the rural poor…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“LED lighting, like cell phones, is another example…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LED lighting 就像 cell phones 一樣，是另一個例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Another example of inexpensive technology helping poor people in rural areas is…”原文把 LED lighting 和 cell phones 作比較，說兩者同屬低成本、幫助 rural poor 的科技。由於題目問 “another example”，答案是 cell phones。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： cell phones = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "useful light",
+      "answerKey": "useful light",
+      "type": "Question Analysis",
+      "prompt": "“Kerosene lamps and conventional bulbs produce less 32 ______ than GSBF lamps.”",
+      "translation": "Kerosene lamps 和 conventional bulbs 產生的 ______ 比 GSBF lamps 少。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As many as 1.5 billion people – nearly 80 million in India alone – light their houses using kerosene as their primary lighting medium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多達 15 億人使用 kerosene 作為主要照明媒介，其中單是印度就接近 8,000 萬人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Founded in 1997, LUTW has used LED technology to bring light to nearly 10,000 homes in remote and disadvantaged corners of some 27 countries, including India, Nepal, Sri Lanka, Bolivia, and the Philippines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LUTW 成立於 1997 年，已使用 LED 技術把光帶到約 27 個國家偏遠及弱勢地區的近 10,000 戶家庭，包括印度、尼泊爾、斯里蘭卡、玻利維亞和菲律賓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要比較 kerosene、conventional bulb 和 LED 的成本、健康風險與光效。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “kerosene lamps”、“conventional bulbs”、“produce less”。原文用比較級 “produce nearly 200 times more useful light”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“LED lamps, or more specifically white LEDs, are believed to produce nearly 200 times more useful light than a kerosene lamp and almost 50 times as much useful light as a conventional bulb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LED lamps，更精確地說是 white LEDs，被認為產生的 useful light 接近 kerosene lamp 的 200倍，也差不多是 conventional bulb 的 50 倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文方向反過來表達：原文：LEDs produce more useful light than kerosene lamp / conventional bulb."
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：Kerosene lamps and conventional bulbs produce less useful light than GSBF lamps."
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要填名詞短語，因此答案是 useful light。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： useful light = 2 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "remote",
+      "answerKey": "remote",
+      "type": "Question Analysis",
+      "prompt": "“It is unlikely that the Indian government will achieve its aim of connecting 112,000 villages to electricity because many villages are 33 ______”",
+      "translation": "印度政府未必容易達成把 112,000 條村接上電力的目標，因為許多村莊都很 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The technology, which is not yet widely known in India, faces some scepticism here.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項技術在印度尚未廣為人知，並在當地面對一些懷疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If only LEDs weren’t imported but manufactured locally,’ he says, ‘and in bulk.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「要是 LED 不靠進口，能在本地大量生產就好了。」這段中間提到 Indian government 的大型 electrification project，因此是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “112,000 villages” 和 “government”. 原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In April, the Indian government launched an ambitious project to bring electricity to 112,000 rural villages in the next decade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "四月時，印度政府啟動了一項雄心勃勃的計劃，希望在未來十年把電力帶到 112,000 條農村村莊。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句就是原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the remote locations of the villages will make reaching this goal difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這些村莊位置偏遠，會令達成這個目標變得困難。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前是 “many villages are”，所以需要形容詞。原文短語是 “remote locations of the villages”，意思是村莊地點偏遠。放入題目時，最自然答案是 remote。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果填 “remote locations”，句子會變成 “many villages are remote locations”，文法上雖可勉強理解，但焦點會由「村莊偏遠」變成「村莊是地點」。題目要的形容詞明顯是 remote。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： remote = 1 word，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "heavy import duties",
+      "answerKey": "heavy import duties",
+      "type": "Question Analysis",
+      "prompt": "“GSBF lamps would be cheaper if it were not for 34 ______”",
+      "translation": "如果沒有 ______，GSBF lamps 會更便宜。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lamps installed in nearly 300 homes by GSBF cost nearly half the price of other solar lighting systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GSBF 在近 300 戶家庭安裝的燈，價格接近其他 solar lighting systems 的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“LUTW is in the process of creating such a microcredit facility for South Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LUTW 正在為 South Africa 建立這類 microcredit facility。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段專門講成本、進口、本地生產和 microcredit，題目問 cheaper 的原因限制，應在這段定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cheaper”。原文用 “cost … could plummet to $22”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If manufactured locally, the cost of his LED lamp could plummet to $22, because the lamps would no longer incur heavy import duties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果在本地生產，他的 LED lamp 成本可大幅降至 22 美元，因為這些燈便不再需要承擔 heavy import duties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “would be cheaper if it were not for…” 對應原文 “could plummet … because … no longer incur…”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要填造成高成本的原因，所以答案是 heavy import duties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： heavy import duties = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "dust",
+      "answerKey": "dust",
+      "type": "Question Analysis",
+      "prompt": "“Users need to wipe 35 ______ off the LED in order to keep it working well.”",
+      "translation": "使用者需要把 ______ 從 LED 上擦走，才能保持它運作良好。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In villages near Khadakwadi, the newly installed LED lamps are a source of envy even to those connected to the grid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Khadakwadi 附近的村莊，新安裝的 LED lamps 甚至令已接上電網的人羨慕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Its luminosity and life will diminish if you let the dust settle on it,’ he warns them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他警告他們：「如果讓灰塵積在上面，它的亮度和壽命都會下降。」段尾已經直接提到 clean / dust / luminosity / life，與題目完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “wipe off”、“working well”。原文用 “clean the lamp regularly” 和 “dust settle on it”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An official from GSBF instructs Jadhav and his family to clean the lamp regularly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名 GSBF official 指示 Jadhav 和他的家人要定期清潔燈。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Its luminosity and life will diminish if you let the dust settle on it,’ he warns them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他警告他們：「如果讓灰塵積在上面，它的亮度和壽命都會下降。」題目把 “clean the lamp regularly” 和 “dust settle on it” 改寫成 “wipe dust off the LED”。空格要填被擦走的東西，所以答案是 dust。若答案要求完全貼近原文短語，the dust 也有文本根據；但在這個句子中填 dust 最自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 36–40 TRUE / FALSE / NOT GIVEN 題要保留題目標籤，重點是判斷「同義、相反、資料缺失」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Ganpat Jadhav’s monthly ration of kerosene was insufficient.”",
+      "translation": "Ganpat Jadhav 每月配給的 kerosene 不足夠。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until three months ago, life in this humble village without electricity would come to a halt after sunset.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到三個月前，這個沒有電的樸素村莊在日落後生活幾乎會停頓下來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“LED lighting, like cell phones, is another example of a technology whose low cost could allow the rural poor to leap into the 21st century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LED lighting 就像手機一樣，是另一種低成本科技，可讓農村貧困人口跨入 21 世紀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先描述 Jadhav 一家過去用 kerosene lamp 的困境，再引入 GSBF solar LED lamp 作為轉變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Ganpat Jadhav”、“monthly ration / quota”、“kerosene”。原文直接提到 Ganpat Jadhav和 “monthly fuel quota”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inside his mud-and-clay home, Ganpat Jadhav’s three children used to study in the dim, smoky glow of a kerosene lamp, but their monthly fuel quota of four litres ran out in just a fortnight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他的泥土和黏土房子裡，Ganpat Jadhav 的三個孩子過去要在昏暗、冒煙的 kerosene lamp 光線下讀書，但他們每月四公升的燃料配額只用了兩星期便耗盡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a fortnight” 是兩星期。每月配額只撐半個月，表示該 quota / ration 不足以支持整個月照明。題目中的 “monthly ration” 對應 “monthly fuel quota”。題目中的 “insufficient” 對應 “ran out in just a fortnight”。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Kerosene causes many fires in homes in developing countries.”",
+      "translation": "Kerosene 在發展中國家的家庭中造成很多火災。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As many as 1.5 billion people – nearly 80 million in India alone – light their houses using kerosene as their primary lighting medium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多達 15 億人使用 kerosene 作為主要照明媒介，其中單是印度就接近 8,000 萬人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Founded in 1997, LUTW has used LED technology to bring light to nearly 10,000 homes in remote and disadvantaged corners of some 27 countries, including India, Nepal, Sri Lanka, Bolivia, and the Philippines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LUTW 成立於 1997 年，已使用 LED 技術把光帶到約 27 個國家的偏遠和弱勢地區近 10,000 戶家庭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中說 kerosene 的規模、危險、污染、成本和 indoor air pollution。題目問 fires，所以要看原文有沒有火災資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “kerosene”、“fires”、“developing countries”。原文有 kerosene，也有 “dangerous, dirty”，但沒有 fires。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fuel is dangerous, dirty and—despite being subsidised—consumes nearly four per cent of a typical rural Indian household’s budget.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種燃料危險、骯髒，而且即使有補貼，仍消耗典型印度農村家庭預算近 4%。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent report by the Intermediate Technology Development Group suggests that indoor air pollution from such lighting media results in 1.6 million deaths worldwide every year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Intermediate Technology Development Group 一份近期報告指出，這類照明媒介造成的室內空氣污染，每年在全球導致 160 萬人死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 “dangerous” 和 “indoor air pollution deaths”，但沒有提到 fires，也沒有說 “many fires in homes in developing countries”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目加入了 “fires” 這個具體後果。雖然 kerosene dangerous 可能令人聯想到火災，但文章實際提供的是污染和死亡數字，沒有提供火災資料。這是資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“LED systems could solve the world’s energy problems.”",
+      "translation": "LED systems 可以解決世界能源問題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The technology, which is not yet widely known in India, faces some scepticism here.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項技術在印度尚未廣為人知，並在當地面對一些懷疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If only LEDs weren’t imported but manufactured locally,’ he says, ‘and in bulk.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「要是 LED 不靠進口，能在本地大量生產就好了。」這段開頭已提示會有 scepticism，也就是對 LED 技術的保留看法。題目說 LED systems 能解決global energy problems，應在這段找是否有相反表述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “solve the world’s energy problems”。原文出現非常接近的短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“this isn’t a magic solution to the world’s energy problems”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘LED systems are revolutionising rural lighting, but this isn’t a magic solution to the world’s energy problems,’ says Ashok Jhunjhunwala…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ashok Jhunjhunwala 說：「LED systems 正在革新農村照明，但這並不能視為世界能源問題的神奇解方。」這句有明確轉折：LED systems 對 rural lighting 有革命性影響，但不能解決所有 energy problems。後文進一步說農村還有 biomass cooking、clean energy for other domestic purposes等更廣泛問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “could solve the world’s energy problems”，原文說 “isn’t a magic solution to the world’s energy problems”。方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Chaddha has so far funded the GSBF lamp project himself.”",
+      "translation": "到目前為止，Chaddha 自己出資支持 GSBF lamp project。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lamps installed in nearly 300 homes by GSBF cost nearly half the price of other solar lighting systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GSBF 在近 300 戶家庭安裝的燈，價格接近其他太陽能照明系統的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“LUTW is in the process of creating such a microcredit facility for South Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LUTW 正在為 South Africa 建立這類 microcredit facility。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹 GSBF lamps 的成本、Chaddha 的投入、本地生產計劃和 microcredit。題目點名Chaddha，所以可直接掃描人名。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Chaddha”、“funded”、“himself”。原文沒有 funded 這個字，但有 “poured his own money into the project”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An entrepreneur who made his money in plastics, Chaddha has poured his own money into the project, providing the initial installations free of charge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chaddha 是一位靠 plastics 賺錢的企業家，他已把自己的錢投入這個項目，並免費提供最初的安裝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “funded … himself” = “poured his own money into the project”● “so far” = “initial installations” 和後文 “as he looks to make the project self-sustainable”顯示目前仍在尋求長遠自我維持模式● “GSBF lamp project” = “the project” in the paragraph about GSBF lamps這題要小心：原文直接支援的是 Chaddha 用自己的錢支持項目，尤其是 initial installations。文章沒有說未來擴展也全由他個人支付；但題目的 “so far” 把時間限制在目前階段，和原文相符。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Microcredit would help to get more people to use LED lamps.”",
+      "translation": "Microcredit 會幫助更多人使用 LED lamps。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lamps installed in nearly 300 homes by GSBF cost nearly half the price of other solar lighting systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GSBF 在近 300 戶家庭安裝的燈，價格接近其他太陽能照明系統的一半。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“LUTW is in the process of creating such a microcredit facility for South Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LUTW 正在為 South Africa 建立這類 microcredit facility。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半集中處理 rural markets 負擔不起 LED lamp 的問題，以及 microcredit 如何幫助家庭按週付款。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Microcredit”。原文出現三次左右，包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rural markets would be able to afford it, says Mr. Irvine-Halliday, if they had access to microcredit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Irvine-Halliday 先生說，如果 rural markets 能取得 microcredit，他們就能負擔這種燈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rural markets would be able to afford it, says Mr. Irvine-Halliday, if they had access to microcredit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Irvine-Halliday 先生說，如果 rural markets 能取得 microcredit，他們就能負擔這種燈。"
+            },
+            {
+              "kind": "label",
+              "text": "後面用 South Africa 的例子補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“These families could pay for a solid-state lighting system in just over a year if their weekly payments matched what they would normally spend on candles and paraffin—if they had access to microcredit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這些家庭的每週付款額與平時花在 candles and paraffin 上的金額相同，而且他們能取得microcredit，那麼他們只需一年多便能支付一套 solid-state lighting system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “help to get more people to use LED lamps” 對應原文的 “would be able to afford it”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Microcredit 的作用是把一次性成本轉化為可承擔的分期付款，因此能提升採用 LED lighting 的可能性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Low-Cost Lamps Light Rural India.pdf",
+    "sha256": "a634916e1ff24947ff4ebd76df899c2a8c07003be4827692179cbe4e7fb5041d",
+    "pageCount": 20
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，第一段由一個沒有電的印度村莊開場，說三個月前日落後生活幾乎停頓；段尾則把 LED lighting 和 cell phones 放在一起，說這類低成本科技可讓農村貧困人口跨入 21 世紀。這段功能是介紹問題和新方案：以前孩子靠 kerosene lamp、cooking fire 讀書，現在 GSBF 安裝太陽能 LED 燈。Q27、Q31、Q36 主要定位在這段。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句提出大背景：全球多達 15 億人用 kerosene 照明，印度約 8,000 萬人；段尾介紹LUTW 自 1997 年成立以來，已在 27 個國家的偏遠和弱勢地區為近 10,000 戶帶來照明。這段功能是說明 kerosene 的危險、污染和成本問題，也比較 LED 與 kerosene lamp、conventional bulb的光效。Q32 主要由這段回答。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句指出 LED 技術在印度尚未廣為人知，並面對一些懷疑；段尾引用 A. K. Lakhina，說若LED 不再依賴進口、可在本地大量生產，情況會更理想。這段功能是平衡介紹：LED 有潛力，但不能解決所有 energy problems。中間提到印度農村人口大量使用 biomass 煮食、政府計劃十年內把 112,000 條村接上電力，以及 remote locations 會令目標困難。Q28、Q33、Q38 主要在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說 GSBF 在近 300 戶安裝的燈，比其他 solar lighting systems 便宜近一半；段尾轉到LUTW 正在為 South Africa 建立 microcredit facility。這段功能是集中處理成本問題：Chaddha 目前從中國進口 LED，希望在印度本地生產 LED 和 solar panel，因為 heavy import duties 令成本偏高。段中也指出 rural markets 負擔不起現價，但 microcredit 可提升可負擔性。Q29、Q34、Q39、Q40 都集中在這段。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說 Khadakwadi 附近村莊新安裝的 LED lamps，甚至令已接上電網的人羨慕；段尾則引用 GSBF official，提醒 Jadhav 一家要定期清潔燈，否則 dust 會令 luminosity 和 life 下降。這段功能是比較 LED lamps 和 national grid：電網常有斷電、技術老舊、盜電和損耗問題；LED 系統維修少、壽命長、沒有電費，但每日只可提供四小時照明。Q30、Q35 主要定位於此。"
+      }
+    ]
+  }
+}

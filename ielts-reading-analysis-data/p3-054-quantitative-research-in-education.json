@@ -1,0 +1,1493 @@
+{
+  "id": "p3-054-quantitative-research-in-education",
+  "catalogueId": "p3-054",
+  "catalogueIds": [
+    "p3-054"
+  ],
+  "passage": 3,
+  "title": "Quantitative Research in Education",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "B — Mehan",
+    "A — Piaget",
+    "C — Donaldson",
+    "D — Lacey, Hargreaves and Lambert",
+    "B — Mehan",
+    "liquid",
+    "Disneyland",
+    "rigorous experimentation",
+    "grammar school",
+    "B",
+    "D",
+    "F",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "B — Mehan",
+      "answerKey": "B — Mehan",
+      "type": "Question Analysis",
+      "prompt": "“A wrong answer indicates a child’s different perspective rather than an inability to reason.”",
+      "translation": "錯誤答案顯示孩子有不同理解角度，並不代表孩子沒有推理能力。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same kinds of criticisms have been directed at psychological and educational tests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同類批評也被用來質疑心理測試和教育測試。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score sheet does not prove that a child lacks reasoning ability; it records only that the child gave a different answer rather than the one the tester expected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分數表不能證明孩子缺乏推理能力；它只記錄孩子給出的答案不同於測試者預期的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 會處理「測試結果是否真的代表能力不足」這個問題。題目提到 wrong answer 和 inability to reason，和段尾高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有定位力的是 “wrong answer”、“different perspective” 和 “inability to reason”。原文沒有直接用 perspective，但用了 “interpret the test questions differently” 和 “different answer rather than the one the tester expected”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, Mehan argues that the participants might interpret the test questions differently from the way the experimenter intended.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Mehan 認為參與者可能會以不同於實驗者原意的方式理解測試問題。"
+            },
+            {
+              "kind": "label",
+              "text": "再看段尾："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score sheet does not prove that a child lacks reasoning ability; it records only that the child gave a different answer rather than the one the tester expected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分數表不能證明孩子缺乏推理能力；它只記錄孩子給出的答案不同於測試者預期的答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “wrong answer” = “a different answer rather than the one the tester expected”● “different perspective” = “interpret the test questions differently”● “rather than an inability to reason” = “does not prove that a child lacks reasoning ability”這是 Mehan 的觀點，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — Piaget",
+      "answerKey": "A — Piaget",
+      "type": "Question Analysis",
+      "prompt": "“The logical reasoning involved in the experiment is beyond the children’s stage of cognitive development.”",
+      "translation": "實驗所涉及的邏輯推理超出了孩子當時的認知發展階段。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many educational researchers used to work on the assumption that children experience different phases of development, and that they cannot perform complex cognitive operations until they have reached an advanced stage of cognitive development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多教育研究者過去假設，孩子會經歷不同發展階段，而且未達到較高認知發展階段前，不能完成複雜的認知操作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The implication is that Piaget’s investigation and attempts to replicate it measure not only children’s capacity for logical thought, but also how well they understood the instructions, how willing they were to comply, how clearly the experimenters communicated and how effectively they motivated the children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著 Piaget 的研究及其複製實驗測量的，不只是孩子的邏輯思考能力，也包括他們理解指示的程度、配合意願、實驗者溝通是否清楚，以及是否有效激勵孩子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落開頭介紹 stage of cognitive development 的傳統假設；中間引入 Piaget 實驗；段尾再提出批評。題目問的是「邏輯推理超出孩子認知階段」這個說法，應回到 Piaget 的 conclusion。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “logical reasoning”、“stage of cognitive development”。原文直接有 “logical task” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“cognitive development had not reached the necessary phase”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Piaget concluded that the children were incapable of performing the logical task of understanding that the two containers held the same amount of liquid despite their different shapes, because their cognitive development had not reached the necessary phase.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 得出結論：孩子無法完成這項邏輯任務，即理解兩個不同形狀的容器仍盛有相同份量的液體，原因是他們的認知發展尚未到達所需階段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “logical reasoning involved in the experiment” = “the logical task”● “beyond the children’s stage” = “incapable of performing”● “cognitive development” = “cognitive development had not reached the necessary phase”這是 Piaget 的結論，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — Donaldson",
+      "answerKey": "C — Donaldson",
+      "type": "Question Analysis",
+      "prompt": "“Children’s reluctance to follow the rules of the experiment or miscommunication may be another explanation.”",
+      "translation": "孩子不願意配合實驗規則，或實驗中出現溝通問題，可能是另一種解釋。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many educational researchers used to work on the assumption that children experience different phases of development…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多教育研究者過去假設，孩子會經歷不同發展階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The implication is that Piaget’s investigation and attempts to replicate it measure not only children’s capacity for logical thought, but also how well they understood the instructions, how willing they were to comply, how clearly the experimenters communicated and how effectively they motivated the children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著 Piaget 的研究及其複製實驗測量的，不只包括邏輯思考能力，也包括孩子是否理解指示、是否願意配合、實驗者溝通是否清楚，以及是否有效激勵孩子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以見到段落由 Piaget 的 stage theory 開始，最後轉到 alternative explanations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 reluctance 和 miscommunication 很明顯對應段尾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “reluctance”、“rules of the experiment”、“miscommunication”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unwilling to play the experimenter’s game”、“did not quite understand the question” 和 “how clearly the experimenters communicated”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Critics of his work, such as Donaldson, have questioned this interpretation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Donaldson 等批評者質疑了這種詮釋。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They point out the possibility that the children might simply have been unwilling to play the experimenter’s game, or that they did not quite understand the question asked by the experimenter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們指出另一種可能：孩子可能只是 unwilling to play the experimenter’s game，或者他們沒有完全理解實驗者提出的問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “reluctance to follow the rules” = “unwilling to play the experimenter’s game”● “miscommunication” = “did not quite understand the question”● “may be another explanation” = “point out the possibility”這裡的 “Critics … such as Donaldson” 指出該觀點，因此答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "D — Lacey, Hargreaves and Lambert",
+      "answerKey": "D — Lacey, Hargreaves and Lambert",
+      "type": "Question Analysis",
+      "prompt": "“There is evidence of a systematic observation approach to research.”",
+      "translation": "有證據顯示研究採用了有系統的觀察方法。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The primary forms of data analysis include verbal descriptions and explanations and involve explicit interpretations of both the meanings and functions of human behaviours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料分析的主要形式包括文字描述和解釋，並且明確詮釋人類行為的意義和功能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They studied the schools for a considerable amount of time and spent many months gathering data and tracking changes over time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們研究這些學校相當長一段時間，並花了很多個月收集資料和追蹤變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段會講 qualitative research 的資料分析方式，以及某些研究者如何長時間觀察學校。題目說 observation approach，應定位到本段的研究例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “observation approach”。原文直接提到 “ethnographic or participant observation approach”。要留意：Paragraph 6 的 “systematic observation” 用來描述 quantitative researchers的典型做法；Paragraph 7 用的是 “participant observation”。在這題的選項人物中，真正有觀察研究證據的是 Lacey, Hargreaves and Lambert。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A series of studies conducted by Lacey, Hargreaves and Lambert in a boys’ grammar school, a boys’ secondary modern school, and a girls’ grammar school in Britain in the 1960s marked the beginning of the trend towards qualitative research in the sociology of education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lacey、Hargreaves 和 Lambert 在 1960 年代英國一間男校 grammar school、一間男校secondary modern school，以及一間女校 grammar school 進行的一系列研究，標誌著 sociology of education 中 qualitative research 趨勢的開始。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers employed an ethnographic or participant observation approach…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者採用了 ethnographic 或 participant observation 的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "再看具體行動："
+            },
+            {
+              "kind": "quote",
+              "text": "“These researchers observed lessons, interviewed both the teachers and the students, and examined school records.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究者觀察課堂，訪問教師和學生，並查看學校紀錄。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “observation approach” = “participant observation approach”● “evidence of” = “observed lessons, interviewed…, examined school records”● “research” = “a series of studies conducted by Lacey, Hargreaves and Lambert”題目用 “systematic observation” 這個說法稍為容易混淆，因為原文在 Paragraph 6 把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“systematic observation” 和 quantitative coding 連在一起。不過在人物配對中，只有 D 的研究提供了長時間觀察學校的具體證據，因此答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — Mehan",
+      "answerKey": "B — Mehan",
+      "type": "Question Analysis",
+      "prompt": "“There is a flaw in experiments on children’s language development.”",
+      "translation": "兒童語言發展測試存在缺陷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same kinds of criticisms have been directed at psychological and educational tests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同類批評也被用來質疑心理測試和教育測試。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score sheet does not prove that a child lacks reasoning ability; it records only that the child gave a different answer rather than the one the tester expected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分數表不能證明孩子缺乏推理能力；它只記錄孩子給出的答案不同於測試者預期的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講 tests 的 validity 問題，並用 language development test 作例子。因此題目中的language development 明確定位到本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “language development test”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a language development test…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句後面描述 medieval fortress、initial consonants D, C and G，以及 children choose D 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, Mehan argues that the participants might interpret the test questions differently from the way the experimenter intended.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Mehan 認為參與者可能會以不同於實驗者原意的方式理解測試問題。"
+            },
+            {
+              "kind": "label",
+              "text": "接著例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a language development test, researchers show children a picture of a medieval fortress, complete with a moat, drawbridge and parapets, alongside three initial consonants: D, C and G.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一個語言發展測試中，研究者給孩子看一幅中世紀堡壘的圖片，圖片有護城河、吊橋和城牆，同時展示三個開頭輔音 D、C 和 G。"
+            },
+            {
+              "kind": "label",
+              "text": "段尾總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score sheet does not prove that a child lacks reasoning ability…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分數表不能證明孩子缺乏推理能力。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “flaw in experiments” = participants interpret questions differently; score sheet does not prove lack of ability● “children’s language development” = “a language development test”● “Mehan” 是提出這一批評的人所以答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 33–36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "liquid",
+      "answerKey": "liquid",
+      "type": "Question Analysis",
+      "prompt": "“In Piaget’s experiment, he asked children to compare the amount of 33 ______ in different containers.”",
+      "translation": "在 Piaget 的實驗中，他要求孩子比較不同容器中 ______ 的份量。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many educational researchers used to work on the assumption that children experience different phases of development…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多教育研究者過去假設，孩子會經歷不同發展階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The implication is that Piaget’s investigation and attempts to replicate it measure not only children’s capacity for logical thought…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著 Piaget 的研究及其複製實驗測量的，不只包括孩子的邏輯思考能力……題目指名 Piaget’s experiment，所以 Paragraph 1 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “compare”、“amount”、“containers”。原文直接有 “compare the amount of liquid in containers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the researcher Jean Piaget conducted a well-known experiment in which he asked children to compare the amount of liquid in containers with different shapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，研究者 Jean Piaget 進行了一個著名實驗，他要求孩子比較不同形狀容器中的液體份量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎直接改寫原文：● “he asked children to compare” 原字重現● “the amount of…” 原字重現● “in different containers” = “in containers with different shapes”空格需要名詞，答案是 liquid。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "Disneyland",
+      "answerKey": "Disneyland",
+      "type": "Question Analysis",
+      "prompt": "“In Mehan’s test, many children gave the answer 34 ______ instead of identifying the word beginning with C.”",
+      "translation": "在 Mehan 提到的測試中，許多孩子給出 ______ 這個答案，而沒有識別出 C 開頭的詞。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same kinds of criticisms have been directed at psychological and educational tests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同類批評也被用來質疑心理測試和教育測試。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score sheet does not prove that a child lacks reasoning ability; it records only that the child gave a different answer rather than the one the tester expected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分數表不能證明孩子缺乏推理能力；它只記錄孩子給出的答案不同於測試者預期的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段用測試例子說明 children 可能理解不同，所以答案要在 castle / Disneyland 例子中找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Mehan’s test”、“beginning with C”。原文提到 “The answer is C, but many children choose D.” 這句看似也有用，但題目問 “gave the answer ______”，並且說 “instead of identifying the word beginning with C”，更完整地對應後面的 “Disneyland”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The answer is C, but many children choose D.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案是 C，但許多孩子選了 D。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“When asked what the name of the building was, the children responded ‘Disneyland’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當被問到那座建築物叫甚麼時，孩子回答 “Disneyland”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡要分清兩層：● 在字母選擇上，孩子 choose D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 在命名建築物上，孩子 responded “Disneyland”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “gave the answer ______ instead of identifying the word beginning with C”，空格需要的是孩子給出的具體答案。原文直接說 “responded ‘Disneyland’”，所以答案是 Disneyland。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "rigorous experimentation",
+      "answerKey": "rigorous experimentation",
+      "type": "Question Analysis",
+      "prompt": "“Some people criticised the results of Piaget’s experiment, but Donaldson thought the flaw could be rectified by 35 ______.”",
+      "translation": "有些人批評 Piaget 實驗的結果，但 Donaldson 認為這個缺陷可以透過 ______ 修正。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This raises questions about the validity of the measures on which quantitative research findings are usually based.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這引發了關於 measures 是否 valid 的問題，而 quantitative research findings 通常就是建基於這些 measures。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In contrast, others like Mehan reckon that the problems are not merely with particular experiments or tests, but they might legitimately jeopardise the validity of all research of this type.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，Mehan 等人認為問題不只出在個別實驗或測試，也可能合理地威脅整類研究的有效性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落功能是比較 Donaldson 和 Mehan 對 validity problem 的不同判斷。題目點名 Donaldson，因此答案在本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Donaldson”、“flaw could be rectified”。原文沒有 “flaw” 和 “rectified”，但有 “technical issues” 和 “resolved”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scholars such as Donaldson consider these to be technical issues, which can be resolved through more rigorous experimentation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Donaldson 等學者認為這些是技術問題，可以透過更嚴謹的實驗來解決。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “flaw” = “technical issues”● “rectified” = “resolved”● “by” = “through”● “rigorous experimentation” 來自 “more rigorous experimentation”題目限制是 NO MORE THAN TWO WORDS。原文完整短語 “more rigorous experimentation”有三個 words，因此要在不破壞意思的情況下保留核心名詞短語：rigorous experimentation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "grammar school",
+      "answerKey": "grammar school",
+      "type": "Question Analysis",
+      "prompt": "“Most qualitative research conducted by Lacey, Hargreaves and Lambert was done in a 36______.”",
+      "translation": "Lacey、Hargreaves 和 Lambert 進行的大部分 qualitative research，是在 ______ 中完成的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The primary forms of data analysis include verbal descriptions and explanations and involve explicit interpretations of both the meanings and functions of human behaviours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料分析的主要形式包括文字描述和解釋，並明確詮釋人類行為的意義和功能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They studied the schools for a considerable amount of time and spent many months gathering data and tracking changes over time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們研究這些學校相當長一段時間，並花了很多個月收集資料和追蹤變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段給出 qualitative research 的具體學校研究例子。題目問 Lacey, Hargreaves and Lambert，所以目標段落很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是三個人名 “Lacey, Hargreaves and Lambert”。原文直接列出他們研究的三間學校。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A series of studies conducted by Lacey, Hargreaves and Lambert in a boys’ grammar school, a boys’ secondary modern school, and a girls’ grammar school in Britain in the 1960s marked the beginning of the trend towards qualitative research in the sociology of education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lacey、Hargreaves 和 Lambert 在 1960 年代英國一間男校 grammar school、一間男校secondary modern school，以及一間女校 grammar school 進行的一系列研究，標誌著 sociology of education 中 qualitative research 趨勢的開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "三間學校中，有兩間是 grammar school：● a boys’ grammar school● a girls’ grammar school所以 “most” 指三間中的兩間。答案是 grammar school。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "B, D, F",
+      "answerKey": "B, D, F",
+      "type": "Question Analysis",
+      "prompt": "Questions 37–39",
+      "translation": "下面哪些是文章提到的 qualitative research 特徵？選三項。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目要求："
+            },
+            {
+              "kind": "quote",
+              "text": "“The list below includes characteristics of qualitative research. Which THREE are mentioned by the writer of the passage?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Qualitative research has an intensive focus on exploring the nature of certain phenomena in the field of education, instead of setting out to test hypotheses about them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Qualitative research 集中深入探索教育領域某些現象的本質，而不是一開始就設定 hypotheses去測試。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Actually, qualitative interviews are often designed to resemble casual conversations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，qualitative interviews 經常被設計成像 casual conversations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明確列出 qualitative research 的特徵，因此三個答案應主要在此段找。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — Designing an interview to resemble a casual conversation.正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Actually, qualitative interviews are often designed to resemble casual conversations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，qualitative interviews 經常被設計成像 casual conversations。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫非常直接",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “Designing an interview” = “interviews are often designed”● “resemble a casual conversation” = “resemble casual conversations”所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — Collecting detailed data rather than large amounts of questionnaire data.正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, when engaging in observation, qualitative researchers use audio or video devices to record what happens or write detailed, open-ended field notes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，在進行觀察時，qualitative researchers 會使用音訊或視訊設備記錄發生的事情，或寫下詳細、開放式的 field notes。"
+            },
+            {
+              "kind": "label",
+              "text": "再看訪問部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, in an interview, interviewers will ask open-ended questions instead of ones that require specific, predefined answers of the kind typical of a postal questionnaire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣，在訪問中，訪問者會問 open-ended questions，而不會問那種要求特定、預先定義答案的問題；後者是 postal questionnaire 的典型形式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 “detailed data” 對應 “detailed, open-ended field notes”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 “rather than … questionnaire data” 對應 “instead of … predefined answers … typical of a postal questionnaire”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有逐字說 “large amounts”，但 D 是四個錯項以外最貼近原文的概括。這裡的重點在detailed / open-ended data 與 questionnaire-style predefined answers 的對比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F — Recording the research setting and taking notes.正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“qualitative researchers use audio or video devices to record what happens or write detailed, open-ended field notes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "qualitative researchers 會使用音訊或視訊設備記錄發生的事情，或寫下詳細、開放式的 field notes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “Recording the research setting” = “use audio or video devices to record what happens”● “taking notes” = “write detailed, open-ended field notes”所以 F 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除A “Coding behaviour in terms of a predefined set of categories.”這是文章用來描述 quantitative researchers 的做法。原文說 qualitative researchers record /take notes，然後補充 “instead of coding behaviour according to a predetermined set of categories”。所以 A 和 qualitative research 的方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Working with well-organised data in a closed set of analytical categories.”原文說 qualitative research tends to deal with “unstructured data”，而且資料 collection 過程中沒有按照 closed set of analytical categories 編碼。因此 C 與原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “Asking for open-ended answers in questionnaires.”原文說 qualitative interviews ask open-ended questions，並和 postal questionnaire 的predefined answers 作對比。E 把 open-ended questions 放入 questionnaires，關係錯了。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — to explain quantitative research and the criticisms of it.",
+      "answerKey": "C — to explain quantitative research and the criticisms of it.",
+      "type": "Question Analysis",
+      "prompt": "“What is the main idea of the passage?”",
+      "translation": "全文主旨是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看全文結構"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文可以分成三大部分： Paragraph 1–2：用 Piaget 和 Mehan 的例子說明 quantitative experiments / tests 可能出現validity 問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3–4：把批評提升到方法論層面，討論 measures、variables、causal relationships 是否能充分理解 human social life。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5–7：說明這些批評如何促使 qualitative methodologies 興起，並介紹其特徵和研究例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此全文的主線是：先解釋 quantitative research 的假設和例子，再展示學者對它的批評，最後說明 qualitative research 如何因這些批評而發展。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “to prove that quantitative research is most applicable to children’s education.”錯。文章並沒有證明 quantitative research 最適合 children’s education。相反，文章主要列出它在兒童實驗、測試理解、社會互動和 causal model 上的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to illustrate society’s lack of a deep understanding of educational approaches.”錯。全文並非在批評 society 對教育方法理解不足。文章焦點在 research methodology，即quantitative 與 qualitative research 的方法和限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to explain quantitative research and the criticisms of it.”正確。文章先介紹 quantitative research 的實驗、測試和變量操控假設，再逐步呈現 Donaldson、Mehan 及其他 critics 的質疑。後半雖然介紹 qualitative research，但它是由 criticisms of quantitative research 引出的發展。因此 C 最能覆蓋全文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to imply that qualitative research is flawless compared with quantitative research.”錯。文章介紹 qualitative research 的興起和特徵，但沒有說它 flawless。這個選項加入了過度絕對的評價。原文只是說許多研究者因批評 quantitative research 而採用 qualitative methodologies，沒有把 qualitative research 描述為完美方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Quantitative Research in Education.pdf",
+    "sha256": "8b1b16eed57761cb74e05e3a42813af81a913cd3443684b8ac51a9cd9fe6e609",
+    "pageCount": 18
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首尾句，第一段先交代過去許多教育研究者相信兒童會經歷不同認知發展階段，未到較高階段前不能完成複雜認知操作；段尾則把 Piaget 的實驗重新放入「社交情境」來看，指出實驗結果也可能反映孩子是否理解指示、是否願意配合、實驗者是否溝通清楚。這段功能是介紹 Piaget 的quantitative experiment，並引入 Donaldson 對其詮釋的批評。Q29、Q30、Q33 主要在此段。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說，同類批評也指向 psychological and educational tests；段尾指出 score sheet 不能證明孩子缺乏 reasoning ability，只記錄孩子給了不同於 tester 預期的答案。這段功能是介紹Mehan 對測試 validity 的批評，並用 castle / Disneyland 例子說明孩子可能採用合理推理，只是從自身理解出發得出不同答案。Q28、Q32、Q34 都集中在這段。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說，這些批評引出 quantitative research 所依賴的 measures 是否 valid 的問題；段尾說 Mehan 認為問題可能不只存在於個別實驗或測試，也可能威脅整類研究的有效性。這段功能是比較 Donaldson 和 Mehan 對問題嚴重程度的看法：Donaldson 偏向把問題看成可透過更嚴謹實驗處理的技術問題；Mehan 的批評更根本。Q35 要定位這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說，quantitative educational research 還有另一個假設受到質疑：研究者以為可透過物理或統計方式操控 variables 來找出 causes；段尾說 social life 比這種 causal relationship 模型更 contextually variable and complex。這段功能是從兒童實驗和測試，擴展到 quantitative research 對人類社會生活的整體理解問題。它主要服務全文主旨和 Q40。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說，這些對 quantitative educational research 的批評，促使越來越多教育研究者在過去三四十年採用 qualitative methodologies；段尾列出 ethnography、case study、participant observation、life history、unstructured interviewing、discourse analysis 等形式。這段功能是承上啟下：由 quantitative research 的問題，轉入 qualitative research 的興起與類型。它是 Q37–39 的背景段。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句說，qualitative research intensive focus 於探索教育領域中某些現象的 nature，而非先設定 hypotheses 再測試；段尾說 qualitative interviews often resemble casual conversations。這段功能是正式列出 qualitative research 的特徵：處理 unstructured data、使用 audio / video 記錄或 detailed open-ended field notes、不用 predetermined categories 編碼、訪問中問open-ended questions。Q37–39 主要靠此段判斷。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句說，qualitative data analysis 主要形式包括 verbal descriptions and explanations，並明確詮釋 human behaviours 的 meanings and functions；段尾說 Lacey、Hargreaves 和 Lambert長時間研究學校，花了很多個月收集資料和追蹤變化。這段功能是提供 qualitative research 在sociology of education 中興起的具體例子。研究者在英國多間學校用 ethnographic / participant observation approach，並觀察課堂、訪問師生和查看校方紀錄。Q31、Q36 主要在這段。"
+      }
+    ]
+  }
+}

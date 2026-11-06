@@ -1,0 +1,356 @@
+// Model Essay 16 · Opinion: cooperation, trust and durable relationships.
+const simple=[
+  'People rarely succeed completely on their own.',
+  'In almost every kind of work or study, people need to work with others, convince them and respond to what they expect.',
+  'For this reason, I fully agree that being good with people is needed for success because it helps turn one person’s skills into useful results with others at work and in life.',
+  'First, being good with people affects how well someone works with a group.',
+  'A skilled worker who does not explain things well may have good ideas, but others may misunderstand, ignore or oppose them.',
+  'On the other hand, someone who listens closely, explains clearly and deals calmly with different opinions can help a team work towards the same goal.',
+  'For example, in a work project, a person who shares tasks with care and talks about problems before they become personal fights is more likely to get results than a very clever coworker who pushes everyone away.',
+  'In this way, being good with people links what someone can do to what a team actually achieves.',
+  'Second, success often needs trust and relationships that last.',
+  'Bosses, customers, teachers and coworkers are more likely to help people who seem reliable, respectful and able to handle feelings well.',
+  'People rarely get chances only because of what their certificates say; they get them when others can see and trust their character.',
+  'For example, a small shop owner may sell a very good product, but if he ignores customers’ worries or treats workers badly, people will soon think less of his business.',
+  'On the other hand, an owner who listens to complaints, supports workers and makes customers want to return can turn single purchases into relationships that last.',
+  'These relationships often help a business grow later.',
+  'In short, I fully agree that being good with people is needed for success.',
+  'Knowledge, talent and hard work are very important, but if people cannot explain ideas, work together and earn trust, those strengths are much less likely to lead to real success.',
+];
+const vocabulary=[
+  [['Success is rarely achieved','People rarely succeed','成功很少取得'],['in isolation','completely on their own','獨自一人']],
+  [['almost every field','almost every kind of work or study','幾乎每個領域'],['have to work with others','need to work with others','必須與他人合作'],['persuade them','convince them','說服他人'],['respond to their expectations','respond to what they expect','回應其期望']],
+  [['completely agree','fully agree','完全同意'],['people skills','being good with people','人際能力'],['essential','needed','必不可少'],['individual ability','one person’s skills','個人能力'],['social and professional outcomes','results with others at work and in life','社交及專業成果']],
+  [['interpersonal skills','being good with people','人際交往能力'],['determine','affects','決定'],['how effectively','how well','多有效地'],['cooperate in a group','works with a group','在群體合作']],
+  [['capable worker','skilled worker','有能力員工'],['communicates poorly','does not explain things well','溝通欠佳'],['produce good ideas','have good ideas','提出好主意'],['misunderstood, ignored, or resisted','misunderstand, ignore or oppose','被誤解、忽略或抗拒']],
+  [['By contrast','On the other hand','相比之下'],['listens carefully','listens closely','仔細聆聽'],['handles disagreement calmly','deals calmly with different opinions','冷靜處理分歧'],['keep a team moving in the same direction','help a team work towards the same goal','令團隊同向前進']],
+  [['workplace project','work project','職場項目'],['divide responsibilities tactfully','shares tasks with care','得體地分配責任'],['personal conflicts','personal fights','人際衝突'],['deliver results','get results','取得成果'],['brilliant colleague','very clever coworker','才華出眾的同事'],['alienates everyone','pushes everyone away','疏遠所有人']],
+  [['In this sense','In this way','從這個意義上說'],['people skills','being good with people','人際能力'],['act as the bridge','links','充當橋樑'],['competence','what someone can do','能力'],['performance','what a team actually achieves','實際表現']],
+  [['depends on','needs','取決於'],['long-term relationships','relationships that last','長期關係']],
+  [['Employers, clients, teachers, and colleagues','Bosses, customers, teachers and coworkers','僱主、客戶、老師和同事'],['support','help','支持'],['appear','seem','看起來'],['emotionally mature','able to handle feelings well','情緒成熟']],
+  [['Opportunities','chances','機會'],['qualifications on paper alone','what their certificates say','紙面資歷'],['character others can read and trust','others can see and trust their character','他人可理解並信任的品格']],
+  [['small business owner','small shop owner','小企業老闆'],['excellent product','very good product','出色產品'],['dismisses customers’ concerns','ignores customers’ worries','忽視顧客疑慮'],['treats staff harshly','treats workers badly','苛待員工'],['reputation will quickly suffer','people will soon think less of his business','聲譽迅速受損']],
+  [['encourages employees','supports workers','鼓勵員工'],['builds loyalty','makes customers want to return','建立忠誠度'],['ordinary transactions','single purchases','普通交易'],['lasting relationships','relationships that last','長久關係']],
+  [['become the foundation','help','成為基礎'],['future growth','a business grow later','未來發展']],
+  [['In conclusion','In short','總結來說'],['people skills','being good with people','人際能力'],['essential','needed','至關重要']],
+  [['matter greatly','are very important','非常重要'],['communicate','explain ideas','溝通'],['cooperate','work together','合作'],['meaningful achievement','real success','有意義的成就'],['far less likely','much less likely','遠較不可能']],
+];
+const chunkOverrides=[
+  ['Success is rarely achieved','in isolation.'],
+  ['In almost every field, from education to business,','people have to work with others, persuade them,','and respond to their expectations.'],
+  ['For this reason, I completely agree that people skills are essential for success,','because they turn individual ability','into useful social and professional outcomes.'],
+  ['First, interpersonal skills determine','how effectively a person can cooperate in a group.'],
+  ['A capable worker who communicates poorly may produce good ideas,','but those ideas can be misunderstood, ignored, or resisted.'],
+  ['By contrast, someone who listens carefully, explains clearly,','and handles disagreement calmly','can keep a team moving in the same direction.'],
+  ['For example, in a workplace project,','the employee who can divide responsibilities tactfully','and discuss problems before they become personal conflicts','is more likely to deliver results than a brilliant colleague who alienates everyone.'],
+  ['In this sense, people skills act as the bridge','between competence and performance.'],
+  ['Second, success often depends','on trust and long-term relationships.'],
+  ['Employers, clients, teachers, and colleagues are more likely to support people','who appear reliable, respectful, and emotionally mature.'],
+  ['Opportunities are rarely offered to qualifications on paper alone;','they are offered to people whose character others can read and trust.'],
+  ['A small business owner, for instance, may sell an excellent product,','but if he dismisses customers’ concerns or treats staff harshly,','his reputation will quickly suffer.'],
+  ['On the other hand, an owner who listens to complaints,','encourages employees, and builds loyalty','can turn ordinary transactions into lasting relationships.'],
+  ['These relationships often become','the foundation of future growth.'],
+  ['In conclusion, I fully agree','that people skills are essential for success.'],
+  ['Knowledge, talent, and hard work matter greatly,','but without the ability to communicate, cooperate, and earn trust,','those strengths are far less likely to produce meaningful achievement.'],
+];
+const simpleChunkOverrides=[
+  ['People rarely succeed','completely on their own.'],
+  ['In almost every kind of work or study,','people need to work with others, convince them','and respond to what they expect.'],
+  ['For this reason, I fully agree that being good with people is needed for success','because it helps turn one person’s skills','into useful results with others at work and in life.'],
+  ['First, being good with people affects','how well someone works with a group.'],
+  ['A skilled worker who does not explain things well may have good ideas,','but others may misunderstand, ignore or oppose them.'],
+  ['On the other hand, someone who listens closely, explains clearly','and deals calmly with different opinions','can help a team work towards the same goal.'],
+  ['For example, in a work project,','a person who shares tasks with care','and talks about problems before they become personal fights','is more likely to get results than a very clever coworker who pushes everyone away.'],
+  ['In this way, being good with people links','what someone can do to what a team actually achieves.'],
+  ['Second, success often needs','trust and relationships that last.'],
+  ['Bosses, customers, teachers and coworkers are more likely to help people','who seem reliable, respectful and able to handle feelings well.'],
+  ['People rarely get chances only because of what their certificates say;','they get them when others can see and trust their character.'],
+  ['For example, a small shop owner may sell a very good product,','but if he ignores customers’ worries or treats workers badly,','people will soon think less of his business.'],
+  ['On the other hand, an owner who listens to complaints,','supports workers and makes customers want to return','can turn single purchases into relationships that last.'],
+  ['These relationships often help','a business grow later.'],
+  ['In short, I fully agree','that being good with people is needed for success.'],
+  ['Knowledge, talent and hard work are very important,','but if people cannot explain ideas, work together and earn trust,','those strengths are much less likely to lead to real success.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
+const structures=[
+  S('A community project is rarely completed in isolation.','is rarely...in isolation 先指出成果通常需要其他人參與。','這句是全篇前提，未列出實際的人際行動。',[1,3,8],
+    F('[成果] is rarely achieved in isolation','開頭先指出成功通常牽涉他人，為討論合作技能建立共同前提。','討論個人成果前，要先指出它往往也依賴他人時。',[['Success','slot','成果'],[' is rarely achieved in isolation.','link','指出很少獨力完成']])),
+  S('In almost every project, from sport to community work, people need to share tasks and respond to other people’s needs.','from...to... 展開不同場景，接着列出各場景共同的人際要求。','這句以跨場景列舉支持前提，未直接表明作者立場。',[0,2,9],
+    F('In almost every [領域], from [例一] to [例二], people have to [合作、說服與回應期望]','用兩個不同領域表示需求普遍，再列出需與他人完成的具體行動。','提出一項一般判斷後，要用不同領域說明它並非單一例外時。',[['In almost every ','link','指出普遍範圍'],['field','slot','領域'],[', from ','link','舉跨領域例子'],['education','slot','例一'],[' to ','link','跨到另一領域'],['business','slot','例二'],[', people have to ','link','提出共同要求'],['work with others, persuade them, and respond to their expectations.','slot','合作、說服與回應期望']])),
+  S('For this reason, I completely agree that teamwork matters, because it turns each person’s knowledge into a useful shared result.','For this reason 接前述合作前提；because 解釋技能如何轉化個人能力。','這句表明完全同意及核心轉化機制，而非只列角色。',[0,1,7],
+    F('For this reason, I completely agree that [人際技能] are essential for [成果], because they turn [個人能力] into [社會或工作成果]','由不能獨力成功推出立場，再說明人際技能如何讓個人能力產生集體結果。','引言要回答題目，並用一條機制統領後面兩段論證時。',[['For this reason, I completely agree that ','link','由前提推出立場'],['people skills','slot','人際技能'],[' are essential for ','link','指出必要關係'],['success','slot','成果'],[', because they turn ','link','說明轉化作用'],['individual ability','slot','個人能力'],[' into ','link','轉成'],['useful social and professional outcomes.','slot','社會或工作成果']])),
+  S('First, listening skills determine how effectively volunteers can work in a group.','determine how effectively 把人際技能連到群體合作品質。','這句提出第一主體段的合作焦點，尚未列出好想法被誤解的情境。',[2,4,8],
+    F('First, [人際技能] determine how effectively [人] can cooperate in [群體]','首項理由聚焦合作的效率與品質；後文應解釋具體怎樣影響團隊。','第一段要由個人能力轉入群體合作的成效時。',[['First, ','link','引出首項理由'],['interpersonal skills','slot','人際技能'],[' determine how effectively ','link','指出合作品質'],['a person','slot','人'],[' can cooperate in ','link','設定情境'],['a group.','slot','群體']])),
+  S('A skilled researcher who explains poorly may find useful evidence, but colleagues may misunderstand or ignore it.','may...but... 對照有價值的想法與因表達不足而被誤解。','這句說明個人能力不會自動變成團隊可用的成果。',[3,5,10],
+    F('A [有能力但溝通差的人] may produce [好想法], but [想法] can be [誤解、忽略或抗拒]','先承認個人有能力，再說明溝通差如何阻斷想法在團隊中發揮作用。','要指出一項能力存在與它被他人接受之間的落差時。',[['A capable worker who communicates poorly','slot','有能力但溝通差的人'],[' may produce ','link','承認可能成就'],['good ideas','slot','好想法'],[', but ','link','轉入溝通後果'],['those ideas','slot','想法'],[' can be ','link','指出可能受阻'],['misunderstood, ignored, or resisted.','slot','誤解、忽略或抗拒']])),
+  S('By contrast, someone who listens carefully, explains clearly and handles disagreements calmly can help a committee agree on its next steps.','By contrast 轉向三種可觀察行動，can 指出團隊共同方向。','這句以積極人際行動對照前句的想法受阻。',[3,4,6],
+    F('By contrast, someone who [細聽、說清、冷靜處理分歧] can keep [團隊] moving in [同一方向]','對照溝通差的人，列出三項人際行動如何使團隊維持共同方向。','指出想法可能被誤解後，要提出改善合作的具體行為時。',[['By contrast, someone who ','link','轉入對照人物'],['listens carefully, explains clearly, and handles disagreement calmly','slot','細聽、說清、冷靜處理分歧'],[' can keep ','link','促使團隊'],['a team','slot','團隊'],[' moving in ','link','維持方向'],['the same direction.','slot','同一方向']])),
+  S('In a school project, the pupil who shares tasks fairly and discusses problems early is more likely to finish well than a brilliant pupil who pushes everyone away.','more likely...than 對照有技巧的協作與才華高但疏遠他人。','這句以具體項目驗證團隊合作比孤立的才華更能交出成果。',[4,5,7],
+    F('In [具體項目], [能得體分工並及早討論問題的人] is more likely to [交出成果] than [有才華但疏遠他人的人]','把團隊合作放進項目：有技巧地分工與防止個人衝突，比單有才華更可能帶來結果。','抽象對照後，要以具體工作情境呈現可觀察的差別時。',[['For example, in ','link','引出具體情境'],['a workplace project','slot','具體項目'],[', ','link','接第一種人'],['the employee who can divide responsibilities tactfully and discuss problems before they become personal conflicts','slot','能得體分工並及早討論問題的人'],[' is more likely to ','link','提出可能結果'],['deliver results','slot','交出成果'],[' than ','link','對照'],['a brilliant colleague who alienates everyone.','slot','有才華但疏遠他人的人']])),
+  S('In this sense, good communication is the bridge between a team’s knowledge and its final work.','bridge between...and... 概括把個人能力轉為可見表現的中介作用。','這句提煉首段機制，不再增加新例子。',[2,5,6],
+    F('In this sense, [人際技能] act as the bridge between [能力] and [實際表現]','用橋樑比喻概括前面兩種員工的差別：技能使既有能力轉成共同成果。','首段結尾要把具體例子歸納為可遷移的原則時。',[['In this sense, ','link','概括例子'],['people skills','slot','人際技能'],[' act as the bridge between ','link','說明連接作用'],['competence','slot','能力'],[' and ','link','連到'],['performance.','slot','實際表現']])),
+  S('Second, a local club’s growth often depends on trust and relationships that last.','Second 開啟第二理由；depends on 指出長期關係的作用。','這句從即時合作轉向較長期的信任與支持。',[3,7,9],
+    F('Second, [長遠成果] often depends on [信任與長期關係]','第二段提出另一作用：關係中的信任和持續支持使機會及成長更可能發生。','首段談即時合作後，第二段要轉入長期關係時。',[['Second, ','link','引出第二理由'],['success','slot','長遠成果'],[' often depends on ','link','指出依賴條件'],['trust and long-term relationships.','slot','信任與長期關係']])),
+  S('Teachers and colleagues are more likely to support a student who is reliable, respectful and able to handle disagreements calmly.','more likely to 審慎連接被看見的行為品質與他人的支持。','這句解釋哪些人際品質會使他人較願意提供支持。',[8,10,11],
+    F('[不同關係中的人] are more likely to support people who appear [可靠、尊重且情緒成熟]','說明信任不是抽象感覺，而與他人可觀察到的行為特質有關。','提出長期信任後，要交代誰會支持一個人、依據甚麼判斷時。',[['Employers, clients, teachers, and colleagues','slot','不同關係中的人'],[' are more likely to support people who appear ','link','審慎指出支持傾向'],['reliable, respectful, and emotionally mature.','slot','可靠、尊重且情緒成熟']])),
+  S('Opportunities are rarely offered for certificates alone; they are offered to people whose actions others can understand and trust.','兩個 offered 被動句對照紙面資歷與可信的人。','這句指出機會也取決於他人能否信任實際品格。',[8,9,11],
+    F('Opportunities are rarely offered to [紙面資歷] alone; they are offered to [可被理解和信任的人]','分號兩邊用重複被動結構修正選人標準：資格重要，但信任也影響機會。','說明可靠者較易獲支持後，要指出紙面資格為何仍不足夠時。',[['Opportunities are rarely offered to ','link','否定單一依據'],['qualifications on paper','slot','紙面資歷'],[' alone; they are offered to ','link','轉向真正接受機會的人'],['people whose character others can read and trust.','slot','可被理解和信任的人']])),
+  S('A shop owner may offer excellent goods, but if she ignores customers or speaks harshly to staff, the shop’s reputation may suffer.','but if 設定待人不善的條件；好產品仍可能伴隨聲譽損失。','這句以小企業例子顯示產品品質不足以單獨保護信任。',[9,10,12],
+    F('[小企業主], for instance, may sell [好產品], but if [忽視顧客或苛待員工], [聲譽] will [受損]','承認產品品質，同時用 but if 指出待人態度可能破壞企業聲譽。','要承認一項優點，同時用 but if 指出另一條件可能使預期結果落空時。',[['A small business owner','slot','小企業主'],[', for instance, may sell ','link','承認產品優勢'],['an excellent product','slot','好產品'],[', but if ','link','設定不良互動條件'],['he dismisses customers’ concerns or treats staff harshly','slot','忽視顧客或苛待員工'],[', ','link','接結果'],['his reputation','slot','聲譽'],[' will ','link','引出後果'],['quickly suffer.','slot','受損']])),
+  S('On the other hand, an owner who listens to complaints, supports staff and earns loyalty can turn one-time sales into lasting relationships.','On the other hand 對照前句；turn...into... 說明互動品質如何轉變交易性質。','這句把聆聽與支持連到長期關係，而非只看單次銷售。',[9,11,13],
+    F('On the other hand, [善於聆聽和鼓勵的經營者] can turn [單次交易] into [長久關係]','提供正面做法，說明如何把一次購買發展為可持續的人際關係。','指出不良互動的代價後，要展示改善關係的替代途徑時。',[['On the other hand, ','link','轉入正面對照'],['an owner who listens to complaints, encourages employees, and builds loyalty','slot','善於聆聽和鼓勵的經營者'],[' can turn ','link','指出轉化作用'],['ordinary transactions','slot','單次交易'],[' into ','link','轉成'],['lasting relationships.','slot','長久關係']])),
+  S('These relationships often become the foundation of future community support.','foundation of... 將長期關係連到未來可持續發展。','這句概括前例的後續價值，沒有再列新人物。',[8,12,14],
+    F('These [長久關係] often become the foundation of [未來成長]','簡短收束第二段：反覆建立的信任可支持日後發展。','具體例子已形成長期關係，要指出這關係的未來價值時。',[['These ','link','指回前文'],['relationships','slot','長久關係'],[' often become the foundation of ','link','指出後續作用'],['future growth.','slot','未來成長']])),
+  S('In conclusion, I fully agree that careful communication is essential for a team’s success.','結論直接重申完全同意與核心技能。','這句是立場回收，下一句才歸納原有優勢和人際能力。',[2,8,15],
+    F('In conclusion, I fully agree that [人際技能] are essential for [成功]','簡潔回應題目中的必要性，不添新理由。','兩個主體段已完成，需要先重申同意程度時。',[['In conclusion, I fully agree that ','link','重申完全同意'],['people skills','slot','人際技能'],[' are essential for ','link','指出必要關係'],['success.','slot','成功']])),
+  S('Knowledge and hard work matter, but without the ability to listen, cooperate and earn trust, those strengths are less likely to bring lasting results.','but without... 指出原有優勢仍重要，但缺少人際能力時較難轉成成果。','這句把能力與人際技能的關係精確收束，沒有否定知識或努力。',[2,8,14],
+    F('[知識、天分與努力] matter greatly, but without [溝通、合作及信任], those strengths are far less likely to produce [有意義成就]','先承認既有能力的重要，接着說缺少人際能力會削弱其成果；不是說才華不重要。','最後一句要把個人能力與合作、信任兩種作用合併時。',[['Knowledge, talent, and hard work','slot','知識、天分與努力'],[' matter greatly, but without ','link','承認優勢並指出缺口'],['the ability to communicate, cooperate, and earn trust','slot','溝通、合作及信任'],[', those strengths are far less likely to produce ','link','指出結果機率下降'],['meaningful achievement.','slot','有意義成就']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
+const intro=[
+  Q('作者對「人際能力對成功至關重要」持甚麼立場？',[
+    '完全同意：人際能力使個人本領能用於團隊合作，並建立長期信任',
+    '完全反對：任何成果都可以完全獨自完成',
+    '認為只有才華重要，待人方式與機會沒有關係',
+    '沒有立場：文章只描述公司產品的價格',
+  ],'引言完全同意，結論說知識、才華和努力重要，但缺少溝通合作與信任，較難產生成果。'),
+  {type:'multi',prompt:'選出正文兩條主要理由',detail:'選兩項，再按「確認」。',options:[
+    '仔細聆聽、清楚解釋及冷靜處理分歧，可讓團隊朝共同方向工作',
+    '可靠和尊重他人可累積信任，讓一次交易發展成長久關係',
+    '只要個人才華出眾，即使疏遠所有同事也必定合作順利',
+    '紙面資格足以保證每位顧客和員工長期信任',
+  ],correct:[0,1],why:'第一段談團隊合作與分工，第二段談可信品格、顧客及員工關係。'},
+];
+const route=[sequence('先排好全文四段',[
+  ['引言 · 成功很少獨力完成','各領域需與人合作；作者完全同意人際能力重要。'],
+  ['主體段一 · 團隊合作','好想法可被誤解；聆聽、解釋及處理分歧讓項目團隊同向前進。'],
+  ['主體段二 · 長期信任','可靠與尊重使人獲支持；小企業主能把普通交易變成長久關係。'],
+  ['結論 · 能力需透過人發揮','知識、才華及努力重要；缺少溝通、合作和信任，較難帶來成就。'],
+],'個人能力 → 有效合作 → 可信關係 → 有意義的長期成果。')];
+const evidence=[
+  Q('為甚麼有能力員工的好主意仍可能受阻？',[
+    '溝通欠佳可使好主意被誤解、忽略或遭抗拒',
+    '只要主意好，所有同事便必然立即理解',
+    '有能力的員工必定不會提出有用想法',
+    '主意被採用與團隊是否理解完全無關',
+  ],'原文先承認 capable worker may produce good ideas，再說 ideas can be misunderstood, ignored, or resisted。'),
+  Q('得體分工的員工與才華出眾但疏遠人的同事，原文比較甚麼？',[
+    '前者能及早處理問題，較可能交出項目成果',
+    '後者因疏遠所有人，便保證團隊更易協作',
+    '兩人都不需要與任何人討論工作',
+    '得體分工必定令所有個人衝突即刻消失',
+  ],'比較焦點是有技巧地協作與疏遠同事對成果的影響，措辭為 more likely，不是保證。'),
+  Q('「能力與表現之間的橋樑」指甚麼？',[
+    '人際技能使已有的個人能力較能轉成團隊的實際成果',
+    '人際技能會取代所有專業知識，不需個人能力',
+    '只要個人能力很高，團隊便自動有共同方向',
+    '橋樑是文章中實際要建造的工程設施',
+  ],'比喻概括前面兩類員工：一位想法好但溝通差，另一位能聆聽、分工與協調。'),
+  Q('紙面上的資歷為何不足以單獨帶來機會？',[
+    '提供機會的人也會看能否理解並信任對方的品格',
+    '所有資格都完全無用，文章要人停止學習',
+    '紙面資歷一出現，他人便必然信任申請者',
+    '機會只取決於申請表字體，不看行為',
+  ],'原文的 rarely...alone 與 offered to people whose character others can read and trust，沒有否定資格本身。'),
+  Q('小企業老闆例子如何顯示產品好仍不足夠？',[
+    '即使產品出色，若忽視顧客疑慮或苛待員工，聲譽仍可能迅速受損',
+    '只要產品出色，待客和待員工方式不可能影響聲譽',
+    '顧客提出疑慮便代表產品必定沒有任何價值',
+    '苛待員工會自動使顧客更願意回來',
+  ],'but if 使產品品質與人際行為同時進入評估；後者會影響聲譽。'),
+  Q('「普通交易變成長久關係」依賴哪些做法？',[
+    '聆聽投訴、鼓勵員工並建立忠誠度',
+    '忽視投訴並令員工不願再工作',
+    '只做一次銷售，從此不回應任何顧客',
+    '只看產品包裝，不看與人的互動',
+  ],'原文以 listens、encourages、builds loyalty 三項行動，接 turn...into... 的長期轉化。'),
+];
+const logic=[
+  sequence('第一主體段：人際能力如何把好想法變成成果？',[
+    ['首項理由','人際技能影響人在群體中合作的效率。'],
+    ['溝通阻礙','有能力員工即使有好想法，仍可能被誤解或忽略。'],
+    ['正面做法','仔細聆聽、清楚解釋、冷靜處理分歧。'],
+    ['具體項目','得體分配責任，在問題變成個人衝突前討論。'],
+    ['人物比較','善於協作者較可能交出成果，才華高但疏遠人者較難合作。'],
+    ['段落原則','人際技能是個人能力與實際表現之間的橋樑。'],
+  ],'好想法須被理解 → 分工與解決分歧 → 才能較可能帶來團隊成果。'),
+  sequence('第二主體段：一次接觸如何變成長期支持？',[
+    ['新理由','成功也依賴信任與長期關係。'],
+    ['支持依據','僱主、顧客等較願意支持可靠、尊重他人的人。'],
+    ['機會判斷','紙面資歷重要，但他人也須能理解和信任其品格。'],
+    ['負面例子','好產品若伴隨忽視顧客或苛待員工，聲譽會受損。'],
+    ['正面做法','聆聽投訴、鼓勵員工、建立忠誠度。'],
+    ['長期結果','普通交易可變成持久關係，成為未來成長基礎。'],
+  ],'可信的待人方式 → 支持與回訪 → 長期關係 → 未來成長。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const transfer=[
+  T('科學專題組有一名學生找到關鍵資料，卻沒有向其他組員說明資料與結論的關係。','哪項最能用「能力與表現之間的橋樑」處理？',[
+    '請他用簡單步驟解釋資料，再與組員討論如何運用',
+    '只把資料留在他的電腦內，期待其他人自行理解',
+    '因資料重要，便認定小組報告已自動完成',
+    '只稱讚他的才華，不檢查組員是否明白',
+  ],[
+    '這使個人找到的資料能進入團隊理解與實際成果。',
+    '不分享資料無法讓團隊採用。',
+    '有資料不等於已形成共同結論。',
+    '才華仍需經溝通轉成小組表現。',
+  ],[3,4,7],'範文說好想法可能因溝通差被誤解，人際能力連接能力與表現。'),
+  T('社區義工要分配大量食物包，有人認為自己的工作比別人重，氣氛開始緊張。','哪項最貼近範文中的得體分工？',[
+    '先聆聽負擔，再公開說明分工依據，趁分歧未變成衝突時調整',
+    '只說每人要有團隊精神，不討論實際工作量',
+    '直接責備提出疑問的人，避免其他人發言',
+    '讓所有人各自猜任務，不再確認分工',
+  ],[
+    '這結合仔細聆聽、清楚解釋與及早處理分歧。',
+    '口號不能回答具體負擔問題。',
+    '責備容易使分歧個人化。',
+    '不確認任務會增加誤解。',
+  ],[5,6],'範文以得體分配責任、在問題變成個人衝突前討論，說明合作技能。'),
+  T('一位軟件開發者能力很高，但每次都否定同事問題，團隊不敢測試他的方案。','哪項最符合文章的人物比較？',[
+    '改善解釋與聆聽方式，使方案能被檢驗並與團隊共同推進',
+    '只因開發者技術高，便不需顧及團隊是否理解',
+    '讓團隊保持沉默，因提問會降低方案品質',
+    '把同事不敢測試當作方案必然已成功的證據',
+  ],[
+    '這保留專業能力，同時補上讓能力轉成成果的人際環節。',
+    '技術高不保證他人能採用想法。',
+    '測試與提問有助發現方案問題。',
+    '無人測試不能證明方案已有效。',
+  ],[4,5,6,7],'範文對照善於協作的員工與才華出眾卻疏遠所有人的同事。'),
+  T('校內導師要推薦學生參與長期小組研究，兩名學生學科成績相近。','哪項補充資料最貼近文章的信任論證？',[
+    '了解兩人能否守時、尊重組員並可靠地完成共同工作',
+    '只按成績單字體決定誰較值得信任',
+    '因成績相近，便認定兩人的合作方式必然相同',
+    '只看誰說話較快，不查過往小組表現',
+  ],[
+    '這把紙面資歷與可觀察的可信品格一同考慮。',
+    '字體不是可靠性的證據。',
+    '成績相近不代表人際行為相同。',
+    '說話速度不能替代合作紀錄。',
+  ],[8,9,10],'範文說機會不只取決於紙面資格，也取決於他人能否理解並信任其品格。'),
+  T('一家麵包店產品很好，但顧客多次反映訂單錯誤，店主只說「產品好就夠了」。','哪項最能回應店主？',[
+    '聆聽投訴、修正訂單流程，讓產品品質與可靠服務一起建立信任',
+    '因產品好，便不需處理任何顧客疑慮',
+    '只請顧客不要投訴，不檢查訂單問題',
+    '認為一次良好口味足以保證多年回訪',
+  ],[
+    '這把產品優勢與顧客互動兩項條件放在一起。',
+    '忽視顧客關注可能損害聲譽。',
+    '不查問題便難防止重複錯誤。',
+    '長期關係仍需持續可靠的服務。',
+  ],[11,12,13],'範文說好產品不能抵銷忽視顧客的損失；聆聽投訴可支持長期關係。'),
+  T('網店想提高回購率，客服同事知道常見問題，卻沒有渠道把回饋傳給產品團隊。','哪項最能把普通交易變成持續關係？',[
+    '建立客服與產品團隊的回饋流程，回應顧客問題並追蹤是否再來購買',
+    '只寄更多廣告，不查看顧客的實際投訴',
+    '把客服回饋全部隱藏，期待顧客自行解決',
+    '只計一次訂單金額，便斷定顧客必然忠誠',
+  ],[
+    '這把聆聽、內部合作與顧客留存連成可觀察的流程。',
+    '廣告不能直接解決產品問題。',
+    '忽視回饋不利於建立關係。',
+    '單次交易不等於長期忠誠。',
+  ],[5,11,12,13],'範文把聆聽投訴、鼓勵員工和忠誠度連到長久關係。'),
+  T('一家小型旅行社接到團體訂單，業務員答應了行程，前線同事卻不知道安排。','哪項最能解釋人際能力的「橋樑」作用？',[
+    '讓業務員與前線確認期望、分工和風險，把方案轉成一致執行',
+    '只保留業務員個人的承諾，不讓其他同事知道',
+    '因業務員善於銷售，便認定服務一定已安排妥當',
+    '各同事分別向顧客作不同承諾，不設協調',
+  ],[
+    '這把個人銷售能力連到團隊共同交付的成果。',
+    '單一承諾若不傳達便不能落實。',
+    '銷售不等於服務已實際完成。',
+    '不同承諾會增加混亂。',
+  ],[1,5,6,7],'範文的人際能力連接個人本領與群體表現，具體包括清楚分工與回應期望。'),
+  T('一名教師經常準時回覆家長、尊重學生，雖不擅長華麗演說，仍獲同事願意合作。','哪項最能說明支持的來源？',[
+    '可靠與尊重是他人可觀察的品質，可逐步建立信任與支持',
+    '只有華麗演說才會讓任何人願意合作',
+    '準時回覆與尊重他人完全無法影響信任',
+    '同事願意合作便證明專業知識不再重要',
+  ],[
+    '這對應可靠、尊重及可信品格與支持的關係。',
+    '範文並未把天生魅力設為唯一來源。',
+    '可觀察的行為正是信任依據。',
+    '知識仍重要，人際能力幫它發揮作用。',
+  ],[8,9,10,15],'範文說僱主、老師和同事更願意支持可靠、尊重他人的人。'),
+  T('博物館要安排多位義工帶領參觀，某人很熟悉展品，但容易在意見不同時斥責其他義工。','哪項最符合文章的兩段理由？',[
+    '保留展品知識，同時練習聆聽及處理分歧，讓團隊更信任其帶領',
+    '只要展品知識充足，其他義工是否願意合作便無關緊要',
+    '只要求其他義工不提意見，不檢視帶領方式',
+    '因人際能力重要，便完全不再要求展品知識',
+  ],[
+    '這兼顧個人知識、眼前合作與長期信任。',
+    '帶領參觀仍需多位義工配合。',
+    '禁止意見不能真正處理分歧。',
+    '結論明言知識重要，只是需人際能力幫助發揮。',
+  ],[4,5,8,9,15],'範文兩段分別談合作與信任；結論承認知識、才華和努力的重要。'),
+  T('一個社區運動班有不少首次參加者，教練想讓他們持續回來，而非只參加一次。','哪項最能轉用「交易變關係」的邏輯？',[
+    '聽取新人的困難、鼓勵參與並保持可靠安排，觀察是否持續出席',
+    '只看第一堂報名人數，不問後續體驗',
+    '不理會新人意見，因第一次出席已等於長期承諾',
+    '每週更改安排而不通知學員，仍假設大家會信任',
+  ],[
+    '這把單次接觸延伸成持續信任與參與。',
+    '第一堂人數不能代表長期關係。',
+    '首次參加與持續支持不同。',
+    '可靠安排有助建立信任。',
+  ],[8,9,12,13],'範文說普通交易可因聆聽和支持轉成長久關係，成為未來成長基礎。'),
+  T('某青年團隊成員各有專長，但負責人只在截止當日才說明任務，成員互相埋怨。','哪項最能按範文的因果鏈改善？',[
+    '提前清楚分工，定期聆聽問題，在責備變成人際衝突前協調',
+    '只招募更多專長者，維持同樣含糊的分工',
+    '讓負責人獨自完成所有工作，不再使用團隊能力',
+    '等衝突加劇後再決定是否告知截止日期',
+  ],[
+    '這讓既有才華透過人際協調轉成團隊成果。',
+    '增加能力不會自動修好分工。',
+    '完全獨做放棄了其他成員的貢獻。',
+    '及早討論正是原文強調的做法。',
+  ],[0,3,5,6,7,15],'範文強調清楚分工與及早討論，否則有才華的人也可能使團隊難以交出成果。'),
+  T('一間本地商店有好產品與熟練員工，卻因新主管常忽視顧客意見和苛待同事而流失熟客。','哪項最完整運用全文？',[
+    '保留產品與員工專長，同時改善聆聽、協作及可靠服務，追蹤回訪與聲譽',
+    '只提高產品品質，完全不處理顧客或員工關係',
+    '只做一場宣傳活動，便認定顧客會永久回來',
+    '因待人方式重要，便停止檢查產品是否有用',
+  ],[
+    '這把個人能力、團隊合作和長期信任三者合併。',
+    '好產品也可能因忽視人而損害聲譽。',
+    '一次宣傳不等於長期關係。',
+    '文章沒有否定產品與專業能力。',
+  ],[4,7,11,12,13,15],'範文既承認好產品及才華的重要，也指出合作與信任使其較可能形成持久成果。'),
+];
+const reviewedTransferOptions=[
+  ['請他用簡單步驟講解資料，再討論小組如何運用','只把資料留在電腦內，期待其他人自行理解','因資料本身重要，便認定報告已自動完成','只稱讚他的才華，不檢查組員是否真正理解'],
+  ['先聽負擔、說明分工，再於衝突前調整安排','只叫大家有團隊精神，不討論實際工作量','直接責備提出疑問的人，阻止其他人發言','讓所有人各自猜任務，不再確認具體分工'],
+  ['改善解釋與聆聽，讓方案被檢驗及共同推進','開發者技術好，便不用管團隊能否理解','讓團隊保持沉默，因提問只會降低品質','把同事不敢測試當作方案成功的證據'],
+  ['查兩人能否守時、尊重組員並可靠完成工作','只按成績單字體，決定誰更值得信任','成績相近，便認定兩人的合作方式相同','只看誰說話較快，不查過往小組表現'],
+  ['聽投訴、修訂單流程，讓品質與服務建立信任','產品品質好，便毋須處理任何顧客疑慮','只請顧客不要投訴，不檢查訂單出錯原因','一次口味良好，便保證顧客多年持續回訪'],
+  ['建立客服回饋流程，回應問題並追蹤再次購買','只寄更多廣告，不查看顧客的實際投訴','把客服回饋全部隱藏，期待顧客自行解決','只計單次訂單金額，便斷定顧客一定忠誠'],
+  ['與前線確認期望、分工及風險，讓方案一致執行','只保留業務員個人承諾，不告知其他同事','業務員善於銷售，便認定服務已安排妥當','各同事向顧客作不同承諾，毋須共同協調'],
+  ['可靠與尊重可被觀察，逐步帶來他人信任和支持','只有華麗演說，才能讓其他人主動願意合作','準時回覆與尊重他人，完全不會影響信任','同事願意合作，便代表專業知識不再重要'],
+  ['保留展品知識，也學聆聽與處理分歧以建立信任','展品知識充足，義工是否合作便完全無關緊要','只叫義工不要提意見，不檢查實際帶領方式','人際能力重要，便不再要求任何基本展品知識'],
+  ['聽新人困難並保持可靠安排，追蹤持續出席','只看首堂報名人數，不問往後的參與體驗','不理新人意見，因首次出席已等於長期承諾','每週改安排卻不通知，仍假定學員會信任'],
+  ['先清楚分工、定期聽問題，在衝突前協調','只招募更多專長者，維持原有含糊分工','讓負責人獨做全部工作，不使用團隊能力','等衝突加劇，才決定是否告知截止日期'],
+  ['保留專長並改善協作與服務，再追蹤回訪聲譽','只提高產品品質，不處理顧客或員工關係','只做一場宣傳，便斷定顧客會永久回來','待人方式重要，便停止檢查產品是否有用'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='A community project is rarely achieved in isolation.';
+structures[1].example='In almost every project, from sport to community work, people have to share tasks and respond to other people’s needs.';
+structures[2].example='For this reason, I completely agree that teamwork skills are essential for success, because they turn each person’s knowledge into a useful shared result.';
+structures[3].example='First, listening skills determine how effectively volunteers can cooperate in a group.';
+structures[4].example='A skilled researcher who explains poorly may produce useful evidence, but those findings can be misunderstood or ignored.';
+structures[5].example='By contrast, someone who listens carefully, explains clearly and handles disagreements calmly can keep a committee moving in the same direction.';
+structures[6].example='For example, in a school project, the pupil who shares tasks fairly and discusses problems early is more likely to finish well than a brilliant pupil who pushes everyone away.';
+structures[7].example='In this sense, good communication skills act as the bridge between a team’s knowledge and its final work.';
+structures[9].example='Teachers and colleagues are more likely to support people who appear reliable, respectful and able to handle disagreements calmly.';
+structures[10].example='Opportunities are rarely offered to certificates alone; they are offered to people whose actions others can understand and trust.';
+structures[11].example='A shop owner, for instance, may sell excellent goods, but if she ignores customers or speaks harshly to staff, her reputation will quickly suffer.';
+structures[14].example='In conclusion, I fully agree that careful communication skills are essential for a team’s success.';
+structures[15].example='Knowledge and hard work matter greatly, but without the ability to listen, cooperate and earn trust, those strengths are far less likely to produce lasting results.';
+export default {
+  key:'opinion:16',
+  meta:{topic:'人際能力、團隊合作與長期信任',summary:'作者完全同意人際能力是成功關鍵：聆聽、解釋與協調讓個人本領轉成團隊成果；可靠與尊重則建立信任，把一次接觸變成長久關係。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

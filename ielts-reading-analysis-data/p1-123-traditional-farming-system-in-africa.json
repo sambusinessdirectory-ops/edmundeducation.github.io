@@ -1,0 +1,1787 @@
+{
+  "id": "p1-123-traditional-farming-system-in-africa",
+  "catalogueId": "p1-123",
+  "catalogueIds": [
+    "p1-123"
+  ],
+  "passage": 1,
+  "title": "Traditional Farming System in Africa",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "need",
+    "ashes",
+    "vegetable cassava",
+    "houses",
+    "C",
+    "B",
+    "A",
+    "A",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "need",
+      "answerKey": "need",
+      "type": "Sentence Completion",
+      "prompt": "“In Luapula, land allocation is in accordance with 1 ______.”",
+      "translation": "在 Luapula，土地分配是按照 ______ 進行的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格前是 “in accordance with”，後面需要名詞或名詞短語。答案要來自原文，不多於兩個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By tradition, land in Luapula is not owned by individuals but, as in many other parts of Africa, is allocated by the headman or headwoman of a village to people of either sex, according to need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照傳統，Luapula 的土地不由個人擁有；正如非洲許多其他地方一樣，土地由村中的男村長或女村長，根據需要分配給男女。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In these areas registered ownership patterns are becoming prevalent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些地區，登記擁有的模式正變得普遍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 A 段處理 Luapula 的土地分配制度。第一句直接講傳統分配方式，最後一句講部分地方轉向登記擁有。題目中的 “land allocation” 正好對應第一句的 “allocated”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “land allocation” 和 “in accordance with”。原文對應詞是 “allocated” 和 “according to”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 A 段第一句即可找到答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“land in Luapula is ... allocated by the headman or headwoman of a village to people of either sex, according to need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Luapula 的土地由村中的男村長或女村長，根據需要分配給男女。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “land allocation is in accordance with”= 原文 “land ... is allocated ... according to”題目空格需要的是分配依據。原文清楚寫 “according to need”，所以答案是 need。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “headman” 或 “headwoman”。他們是負責分配土地的人；題目問的是按照甚麼標準分配。真正控制答案的是 “according to need”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "ashes",
+      "answerKey": "ashes",
+      "type": "Sentence Completion",
+      "prompt": "“The citemene system provides the land with 2 ______ on which crops are planted.”",
+      "translation": "citemene 系統為土地提供 ______，作物種在其上。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格前是 “with”，後面需要名詞。題目已經說 crops are planted “on which”，所以要找作物種在甚麼上面。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the traditional cropping in Luapula, as in the Bemba area to the east, is based on citemene, a system whereby crops are grown on the ashes of tree branches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Luapula 大部分傳統種植，如東面的 Bemba 地區一樣，都基於 citemene；在這種制度下，作物種在樹枝灰燼上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wood is fired before the rains and in the first year the area is planted with the African cereal finger millet (Eleusine coracana).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "木材會在雨季來臨前被焚燒，第一年該區域會種植非洲穀物 finger millet。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段明顯講 citemene 的基本做法：樹枝被砍下、堆乾、燃燒，然後利用灰燼種植作物。題目問 citemene system provides the land with 甚麼，首句已給出答案方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “citemene”、“crops are planted”。原文直接寫 “crops are grown on the ashes of tree branches”。題目 “planted” 對應原文 “grown”；題目 “on which” 對應原文 “on the ashes”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“citemene, a system whereby crops are grown on the ashes of tree branches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "citemene 是一種作物種在樹枝灰燼上的制度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “crops are planted”= 原文 “crops are grown”題目 “provides the land with”= 原文中透過砍枝和燃燒形成 “ashes”答案要填作物種植的基質。原文是 “ashes of tree branches”，但字數限制是 NO MORE THAN TWO WORDS，最核心答案是 ashes。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “tree branches”。樹枝是被砍下和燃燒的材料；作物真正種在 ashes 上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "vegetable cassava",
+      "answerKey": "vegetable cassava",
+      "type": "Sentence Completion",
+      "prompt": "“During the second season, the last crop planted is 3 ______.”",
+      "translation": "第二季期間，最後種下的作物是 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格前有 “the last crop planted is”，後面需要作物名稱。答案要找second season 及 sequence ends。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the second season, and possibly for a few seasons more, the area is planted with variously mixed combinations of annuals such as maize, pumpkins (Telfairia occidentalis) and other cucurbits, sweet potatoes, groundnuts, Phaseolus beans and various leafy vegetables, grown with a certain amount of rotation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二季期間，並可能再持續幾季，該區域會種植各種混合的一年生作物，例如玉米、南瓜和其他葫蘆科植物、番薯、花生、Phaseolus beans，以及各種葉菜，並有一定程度的輪作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The diverse sequence ends with vegetable cassava, which is often planted into the developing last-but-one crop as a relay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個多樣化的種植序列以 vegetable cassava 作結；它常被作為接續作物，種入正在生長的倒數第二種作物之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到 C 段講 second season 之後的作物組合和種植順序。最後一句的 “ends with” 很強，直接對應題目的 “last crop”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “second season”、“last crop”。原文第一句有 “During the second season”，最後一句有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sequence ends with”。這兩個訊號合起來指向同一答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The diverse sequence ends with vegetable cassava.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個多樣化的種植序列以 vegetable cassava 作結。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “the last crop planted”= 原文 “sequence ends with”原文完整作物名稱是 vegetable cassava，兩個字，符合字數限制。因此答案是 vegetable cassava。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cassava 在 D、E、J 段也出現，但 Q3 有 “During the second season” 這個強定位詞，所以應看 C段。若只填 cassava，意思通常仍清楚；考試中原文完整答案 vegetable cassava 更穩陣。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "houses",
+      "answerKey": "houses",
+      "type": "Sentence Completion",
+      "prompt": "“Under suitable conditions, fruit trees are planted near 4 ______.”",
+      "translation": "在合適條件下，果樹會種在 ______ 附近。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格前是 “near”，後面需要地點名詞。題目中的 “suitable conditions” 可能不會原字重現，要找條件描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When forest is not available—this is increasingly the case nowadays—various ridging systems (ibala) are built on small areas, to be planted with combinations of maize, beans, groundnuts and sweet potatoes, usually relayed with cassava.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當森林不可用時，而這種情況如今越來越常見，人們會在小面積土地上建立各種壟作系統 ibala，種植玉米、豆類、花生和番薯，通常再接種 cassava。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In season, some of the fruit is sold by the roadside or in local markets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在當造季節，部分水果會在路邊或本地市場出售。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段從森林不足時的替代耕作講到果樹和水果銷售。題目問 fruit trees planted near where，應在本段中間尋找 fruit trees 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “fruit trees”。原文具體列出 “mango, guava and oil-palm trees”。題目 “under suitable conditions” 對應原文 “Where their roots have year-round access to water tables”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where their roots have year-round access to water tables, mango, guava and oil-palm trees often grow around houses, forming a traditional agroforestry system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在樹根全年都能接觸地下水位的地方，芒果、番石榴和油棕樹常在房屋周圍生長，形成一種傳統農林複合系統。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Under suitable conditions”= 原文 “Where their roots have year-round access to water tables”題目 “fruit trees are planted near”= 原文 “trees often grow around”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“around houses” 即在房屋附近，所以答案是 houses。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “water tables”。water tables 是合適條件；題目問 near 哪裡，地點答案是 houses。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "C — goats",
+      "answerKey": "C — goats",
+      "type": "Classification",
+      "prompt": "“are used on special occasions, such as celebrations.”",
+      "translation": "用於特殊場合，例如慶祝或儀式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Classification。要在 A fish / B oxen / C goats 之中找哪一項符合描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only small numbers of cattle or oxen are kept in the province owing to the prevalence of the tsetse fly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 tsetse fly 盛行，該省只養少量牛或役牛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These animals are not a regular part of most people’s diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些動物並不是多數人日常飲食的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，I 段處理家畜：oxen 因害蟲受限，chickens and goats 則作為儲備，偶爾在儀式或接待重要客人時宰殺。題目問 special occasions，應看本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “special occasions”、“celebrations”。原文未必用 celebrations，但會用 “ceremonies” 或"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“important visitors”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Most people keep free-roaming chickens and goats. These act as a reserve for bartering, but may also be occasionally slaughtered for ceremonies or for entertaining important visitors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數人養自由走動的雞和山羊。這些動物可作交換儲備，也可能偶爾在儀式中或招待重要客人時被宰殺。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “special occasions, such as celebrations”= 原文 “ceremonies or entertaining important visitors”選項中有 goats，沒有 chickens，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文同時提到 chickens and goats，但題目選項只有 goats。這類 classification 題要在提供的三個選項中找可支援項，不需要自行加入 chickens。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B — oxen",
+      "answerKey": "B — oxen",
+      "type": "Classification",
+      "prompt": "“cannot thrive because they are affected by pests.”",
+      "translation": "因受害蟲影響，所以不能興旺繁殖或大量飼養。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Classification。要判斷 fish / oxen / goats 中哪一項受 pests 影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only small numbers of cattle or oxen are kept in the province owing to the prevalence of the tsetse fly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 tsetse fly 盛行，該省只養少量牛或役牛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These animals are not a regular part of most people’s diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些動物並不是多數人日常飲食的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，I 段第一句已直接把 oxen 和 tsetse fly 連起來。題目中的 pests 是概括詞，原文中的tsetse fly 是具體害蟲。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “pests” 和 “affected”。原文沒有 pests 這個字，但 “tsetse fly” 是一種害蟲／媒介昆蟲，並用 “owing to” 表示原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only small numbers of cattle or oxen are kept in the province owing to the prevalence of the tsetse fly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 tsetse fly 盛行，該省只養少量牛或役牛。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “cannot thrive”= 原文 “Only small numbers ... are kept”題目 “affected by pests”= 原文 “owing to the prevalence of the tsetse fly”所以答案是 B — oxen。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "goats 也在同一段出現，但 goats 的用途是 bartering、ceremonies、entertaining visitors。受tsetse fly 限制的是 cattle or oxen。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — fish",
+      "answerKey": "A — fish",
+      "type": "Classification",
+      "prompt": "“provide the largest source of income.”",
+      "translation": "提供最大的收入來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Classification。要找 fish / oxen / goats 中哪一項與 income 或 cash 關係最強。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G，並由 Paragraph H 補強Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fishing has long provided a much-needed protein supplement to the diet of Luapulans, as well as being the one substantial source of cash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "捕魚長期為 Luapula 人的飲食提供十分需要的蛋白質補充，同時也是一個重要的現金來源。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fishing has always been a far more remunerative activity in Luapula than crop husbandry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Luapula，捕魚一直比農作物耕種賺錢得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩句，可以看到 fishing 在經濟上最重要。題目問 largest source of income，fish/fishing 是最直接答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “income”。原文對應詞包括 “cash”、“earn”、“remunerative”、“earnings”。G 段有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“substantial source of cash”，H 段有 “far more remunerative”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“Fishing has long provided ... the one substantial source of cash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "捕魚長期以來提供了一個重要的現金來源。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“A fisherman may earn more in a week than a bean or maize grower in a whole season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名漁民一星期的收入，可能比種豆或種玉米的人整季收入還多。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “largest source of income”= 原文 “the one substantial source of cash” + “far more remunerative”選項 A 是 fish。雖然原文常用 fishing 指活動，分類選項用 fish 指資源類別，兩者在本題中指向同一經濟來源。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "oxen 和 goats 屬於 livestock，但文中沒有說牠們帶來最大收入。goats 只作 bartering reserve，這比 “substantial source of cash” 弱很多。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A — fish",
+      "answerKey": "A — fish",
+      "type": "Classification",
+      "prompt": "“are sold beyond the local area.”",
+      "translation": "被售往本地以外的地區。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Classification。要找哪一項會被賣到 local area 之外。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fishing has long provided a much-needed protein supplement to the diet of Luapulans, as well as being the one substantial source of cash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "捕魚長期為 Luapula 人的飲食提供十分需要的蛋白質補充，同時也是一個重要的現金來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several previously abundant and desirable species, such as the Luapula salmon or mpumbu (Labeo altivelis) and pale (Sarotherodon machochir) have all but disappeared from Lake Mweru, apparently due to mismanagement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾種過去豐富且受歡迎的魚類，例如 Luapula salmon 或 mpumbu，以及 pale，幾乎已從 Lake Mweru 消失，原因似乎是管理不善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，G 段是魚類資源段，既講食物和現金，也講魚類減少。題目問 sold beyond local area，應看本段中間與 fish sale 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sold beyond the local area”。原文改寫為 “sale to areas away from the main waterways”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much fish is dried for sale to areas away from the main waterways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多魚會被曬乾，出售到遠離主要水道的地區。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “sold beyond the local area”= 原文 “sale to areas away from the main waterways”答案是 A — fish。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 和 F 也提到 fruit / vegetables sold in local markets，但題目選項沒有 fruit 或vegetables，而且 “local markets” 指本地市場，和 “beyond the local area” 相反。fish 才有 “away from the main waterways”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People rarely use animals to cultivate land.”",
+      "translation": "人們很少使用動物來耕種土地。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。要判斷題目是否和文章事實一致。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only small numbers of cattle or oxen are kept in the province owing to the prevalence of the tsetse fly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 tsetse fly 盛行，該省只養少量牛或役牛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These animals are not a regular part of most people’s diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些動物並不是多數人日常飲食的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，I 段處理動物數量、用途和限制。題目問 animals to cultivate land，應找 oxen、draught power、plough、cultivate 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “animals”、“cultivate land”。原文對應詞是 “animal draught power”、“plough and cultivate land”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The absence of animal draught power greatly limits people’s ability to plough and cultivate land: a married couple can rarely manage to prepare much land by hand-hoeing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺乏動物牽引力大大限制了人們犁地和耕種土地的能力；一對已婚夫婦很少能只靠手鋤準備大量土地。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “People rarely use animals to cultivate land”= 原文 “absence of animal draught power” + “limits ... plough and cultivate land”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“absence” 表示缺乏；再加上前文 “Only small numbers of cattle or oxen are kept”，可得出人們很少能使用役畜耕作。題目方向和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “rarely use animals”，原文沒有逐字寫 rarely use animals。但 “absence of animal draught power” 已足夠支持這個意思。這是概括式改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“During busy periods, children usually take part in the labour force.”",
+      "translation": "在繁忙時期，兒童通常會參與勞動力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。重點是 children、busy periods、usually take part。三個元素都要有原文支援才可選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Richards (1969) observed that the practice of citemene entails a definite division of labour between men and women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Richards 於 1969 年觀察到，citemene 的做法包含男女之間明確的勞動分工。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thereafter the plot is abandoned, and a new area is pollarded for the next citemene cycle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後該地塊會被棄置，新的區域會被修枝，進入下一個 citemene 週期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段確實談 labour，但焦點是 men and women 的分工，以及 citemene 的週期。題目問 children，需掃描段內是否出現兒童參與。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “children”、“busy periods”、“labour force”。Paragraph D 找到 men、women、man、women and men，但沒有 children。其他段落也沒有說兒童在繁忙時期加入勞動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The dangerous work of felling branches is the men’s province, and involves much pride. Branches are stacked by the women, and fired by the men. Formerly women and men cooperated in the planting work, but the harvesting was always done by the women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "砍樹枝這種危險工作屬於男人的範圍，並帶有很強的自豪感。樹枝由女人堆放，由男人燃燒。過去男女會合作種植，但收割一直由女人負責。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚講的是 men and women 的分工，沒有提到 children，也沒有說 busy periods，也沒有usually take part。相關主題存在，但題目加入了文章沒有提供的角色和時間條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章沒有明確說兒童會參與，也沒有說兒童不會參與。缺少核心資料時，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “division of labour” 很容易聯想到全家人一起工作，包括兒童。但 IELTS Reading 不能用常識補資料。原文只支援 adult men and women 的分工。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Local residents eat goats on a regular basis.”",
+      "translation": "當地居民定期吃山羊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。要判斷 goats 是否 regular part of diet。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only small numbers of cattle or oxen are kept in the province owing to the prevalence of the tsetse fly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 tsetse fly 盛行，該省只養少量牛或役牛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These animals are not a regular part of most people’s diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些動物並不是多數人日常飲食的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，I 段最後一句已經很接近題目。題目說 goats are eaten regularly；原文最後一句說這些動物不是日常飲食的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “goats”、“regular basis”。原文有 “goats” 和 “not a regular part”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people keep free-roaming chickens and goats. These act as a reserve for bartering, but may also be occasionally slaughtered for ceremonies or for entertaining important visitors. These animals are not a regular part of most people’s diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數人養自由走動的雞和山羊。這些動物可作交換儲備，也可能偶爾在儀式中或招待重要客人時被宰殺。這些動物並不是多數人日常飲食的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “eat goats on a regular basis”= 定期吃山羊原文 “occasionally slaughtered”= 偶爾宰殺原文 “not a regular part of most people’s diet”= 並非多數人的日常食物題目和原文方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文的確說 goats 會被宰殺，這可能令人誤選 TRUE。決定答案的是頻率：題目說 regular，原文說 occasionally，並且明確否定 regular part of diet。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Although citemene is a sophisticated system, it cannot provide enough protein.”",
+      "translation": "雖然 citemene 是一套精巧的制度，但它不能提供足夠蛋白質。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。要檢查兩部分：citemene 是否被正面評價；蛋白質是否不足。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Citemene has been an ingenious system for providing people with seasonal production of high-quality cereals and vegetables in regions of acid, heavily leached soils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在酸性、嚴重淋溶的土壤地區，citemene 一直是一套巧妙的制度，能為人們提供季節性的優質穀物和蔬菜生產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the same time, storage and distribution systems must allow everyone access to at least a moderate share of the total.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，儲存和分配系統必須讓每個人至少能取得總量中的適度份額。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，J 段是全篇總結，會評價 citemene 的優點和限制。題目問 protein deficiency，應看本段第二句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “citemene”、“sophisticated system”、“protein”。原文 “ingenious system” 對應sophisticated；“deficiency was that of protein” 對應 cannot provide enough protein。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Citemene has been an ingenious system for providing people with seasonal production of high-quality cereals and vegetables...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "citemene 一直是一套巧妙制度，能提供季節性的優質穀物和蔬菜。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nutritionally, the most serious deficiency was that of protein.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從營養角度看，最嚴重的不足是蛋白質。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “sophisticated system”= 原文 “ingenious system”題目 “cannot provide enough protein”= 原文 “the most serious deficiency was that of protein”題目用 although 連接「系統精巧」和「蛋白質不足」，原文也正是先肯定 citemene 的設計，再指出營養缺口。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為原文稱 citemene “ingenious” 就選 FALSE。文章同時肯定它的農業適應性，也指出它在蛋白質方面有嚴重不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — They are not capable of adequately supporting the population.",
+      "answerKey": "B — They are not capable of adequately supporting the population.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the writer’s opinion of the traditional practices?”",
+      "translation": "作者對傳統做法的看法是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。這題問 writer’s opinion，需要看總結段，尤其是作者的評價句。手冊對 MCQ 的要求是選出獲得最完整、最精確原文支援的一項，不能只靠選項中的單字配對。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Citemene has been an ingenious system for providing people with seasonal production of high-quality cereals and vegetables in regions of acid, heavily leached soils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在酸性、嚴重淋溶的土壤地區，citemene 一直是一套巧妙制度，能為人們提供季節性的優質穀物和蔬菜生產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the same time, storage and distribution systems must allow everyone access to at least a moderate share of the total.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，儲存和分配系統必須讓每個人至少能取得總量中的適度份額。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 J 段不是單純讚美傳統制度。它先肯定 citemene 曾經巧妙有效，然後把焦點轉到未來人口、食物、生產、儲存和分配的壓力。題目問作者整體 opinion，應看 J 段中後部的總結評價。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “traditional practices”。原文直接有 “unmodified traditional practices”。選項 B 的 “not capable of ... supporting the population” 對應原文 “neither ... are capable ... of supporting the people”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although population densities are still much lower than in several countries of Southeast Asia, neither the fisheries nor the forests and woodlands of Luapula are capable, with unmodified traditional practices, of supporting the people in a sustainable manner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然人口密度仍低於東南亞幾個國家，但在未經修改的傳統做法下，Luapula 的漁業、森林和林地都無法以可持續方式支撐當地人民。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是全題核心。作者承認傳統系統過去適應 miombo regions 的生態，也可持續很長時間，但這有前提：human population densities stayed at low levels。如今作者指出 fisheries、forests and woodlands 在未改良的傳統做法下，已不能 sustainable support the people。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “They can supply all the nutrition that people need.”錯。原文說最嚴重營養不足是 protein，並且需要魚補充。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “They are not capable of adequately supporting the population.”正確。這對應 “neither the fisheries nor the forests and woodlands ... are capable ... of supporting the people in a sustainable manner”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “They are productive systems that need no further development.”錯。原文最後說 people must learn to intensify and diversify their productive systems，明顯需要發展和調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “They will be easily modified in the future.”錯。原文說 “Overall, people must learn to intensify and diversify...”，並稱 increasing overall production of food 是 “a vast challenge”。文章沒有說修改很容易。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B “not capable of adequately supporting the population”= 原文 “not capable ... of supporting the people in a sustainable manner”題目 “traditional practices”= 原文 “unmodified traditional practices”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很吸引，因為 J 段開頭稱 citemene 是 ingenious system，能提供 high-quality cereals and vegetables。可是作者之後立即指出 protein deficiency 和可持續支撐人口的問題。主旨判斷要看整段最終評價，不能停在第一句的正面描述。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Traditional Farming System in Africa.pdf",
+    "sha256": "55ae80614e56ca459f733c79fab7f8b821d6fb70575f6eecefedb75b22c3db85",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段第一句說 Luapula 的土地傳統上不由個人擁有，而由村長按需要分配給男女。最後一句提到在部分地區，registered ownership patterns 正變得普遍。只看首尾句，可以先估計本段處理土地制度：由傳統的按需分配，逐漸轉向某些地方的正式登記擁有。若題目問 land allocation、ownership、need、scarcity 或 Valley，本段就是主要定位區。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段第一句介紹 Luapula 傳統耕作主要依靠 citemene，即在樹枝灰燼上種植作物。最後一句說木材在雨季前燃燒，第一年種 finger millet。只看首尾句，可推測本段講 citemene 的基本程序：砍枝、堆乾、焚燒、利用灰燼種植。這段很可能回答 citemene 是甚麼、ashes 從何而來、第一年種甚麼等完成句子題。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段第一句說第二季及之後幾季會種混合的一年生作物，例如 maize、pumpkins、sweet potatoes、groundnuts、beans 和 leafy vegetables。最後一句說作物序列以 vegetable cassava 作結，cassava 常作 relay crop 種入前一批作物中。只看首尾句，本段功能是描述 citemene 後續作物輪替。若題目問 second season、last crop、sequence、relay，答案大多在這段。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段第一句引用 Richards，指出 citemene 有明確的男女分工。最後一句說之後土地被棄置，新的地方會被 pollarded，進入下一個 citemene cycle。只看首尾句，可見本段重點是 citemene 的勞動安排和完整耕作週期：男人定界、砍枝、燒枝；女人堆枝和收割；雜草和養分變化會決定何時改種 cassava 並棄地。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段第一句說當森林不足時，會在小面積土地上建立 ridging systems，即 ibala。最後一句說某些水果會在季節中於路邊或本地市場出售。只看首尾句，本段轉到 citemene 以外的替代耕作方式：小型壟作、家庭附近的果樹、傳統 agroforestry，以及水果出售。若題目問 fruit trees、houses、water tables、forest not available，應看這段。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段第一句說 dambo 邊緣有時在雨季種本地水稻，鄰近地方在旱季用 dambo 水灌溉蔬菜。最後一句說近城鎮地區部分蔬菜會在本地市場出售。只看首尾句，本段功能是補充另一種濕地邊緣耕作：水稻、灌溉蔬菜、技術要求高、耕作範圍有限。題目若問 dambo、rice、vegetables、dry season irrigation 或 local markets，可定位到這段。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段第一句說 fishing 長期為 Luapulans 提供蛋白質補充，也是重要現金來源。最後一句指出幾種過去豐富、受歡迎的魚類幾乎從 Lake Mweru 消失，原因似乎是管理不善。只看首尾句，本段重點是魚的雙重作用：食物和現金；同時也帶出生態資源下降。若題目問 protein supplement、cash、dried fish、sale outside local area、species decline，應看本段。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段第一句說 fishing 一直比 crop husbandry 更賺錢。最後一句用較口語化方式說，有閒錢的漁民可能寧願去酒吧享樂。只看首尾句，本段主要討論 fishing 帶來較高但不穩定的收入，以及這種收入如何影響投資意願和生活態度。若題目問 earnings、cash、remunerative、investment、easy come easy go，本段是核心段落。"
+      },
+      {
+        "number": "I",
+        "summary": "I 段第一句說因 tsetse fly 盛行，省內只養少量 cattle 或 oxen。最後一句說這些動物並非多數人日常飲食的一部分。只看首尾句，可推測本段講畜牧限制和家畜用途：牛和役牛少，缺少 animal draught power，限制耕地能力；雞和山羊可作交換儲備，也可在儀式或接待重要客人時宰殺。題目問 oxen、goats、cultivation、regular diet，多在這段。"
+      },
+      {
+        "number": "J",
+        "summary": "J 段第一句評價 citemene 是一套巧妙制度，能在酸性、淋溶嚴重的土壤中提供優質穀物和蔬菜。最後一句說 storage and distribution systems 也必須確保人人至少取得適度份額。只看首尾句，本段是總結和評價：傳統系統曾適應當地生態，但人口上升後難以持續；未來需要 intensify、diversify、提高食物生產，也要改善儲存和分配。 Answer Key Questio Answer n 1 need 2 ashes 3 vegetable cassava 4 houses 5 C 6 B 7 A 8 A 9 TRUE 10 NOT GIVEN 11 FALSE 12 TRUE 13 B"
+      }
+    ]
+  }
+}

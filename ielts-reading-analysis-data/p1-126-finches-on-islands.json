@@ -1,0 +1,1827 @@
+{
+  "id": "p1-126-finches-on-islands",
+  "catalogueId": "p1-126",
+  "catalogueIds": [
+    "p1-126"
+  ],
+  "passage": 1,
+  "title": "Finches on Islands",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "severe drought",
+    "large seeds",
+    "heavy rains",
+    "small seeds",
+    "adaptive radiation",
+    "medium-sized bills",
+    "human population",
+    "rice",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "severe drought",
+      "answerKey": "severe drought",
+      "type": "Table Completion",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：1977 / Climate"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 table completion，要求填 1977 年的 climate。空格位於 “Climate” 欄，答案應該是天氣或氣候狀況的名詞短語。題目限制是 NO MORE THAN TWO WORDS，所以要從原文抽取不超過兩字的答案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the Grants began their study in the 1970s, only two species of finch lived on Daphne Major, the medium ground finch and the cactus finch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Grants 在 1970 年代開始研究時，Daphne Major 上只有兩種 finch：medium ground finch 和cactus finch。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smaller members of the medium ground finch population, lacking the bill strength to crack large seeds, died out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "medium ground finch 群體中較小的個體，因為缺乏啄開大種子的 bill strength，便死亡了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 會講 1970s Daphne Major 的 finch species，以及某次環境壓力如何令 small-billed medium ground finches 死亡。題目問 1977 climate，所以 Paragraph C是高可能段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “1977”。掃描 Paragraph C，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a severe drought hit in 1977, the birds soon devoured the last of the small, easily eaten seeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 1977 年一場 severe drought 襲來時，鳥很快吃光了最後一批小而容易吃的種子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子的核心是 “a severe drought hit in 1977”。主語是 “a severe drought”，動作是 “hit”，時間是1977。題目表格的 Year 已經給出 1977，Climate 欄自然要填 severe drought。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：Climate"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：a severe drought hit題目沒有直接說 “weather condition”，但表格欄目要求 climate，因此 drought 正是氣候事件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式severe drought 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 drought。雖然 drought 也能表達核心意思，但原文完整答案是 severe drought。表格沒有要求 ONE WORD ONLY，所以保留 severe 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "large seeds",
+      "answerKey": "large seeds",
+      "type": "Table Completion",
+      "prompt": "“Small-billed birds failed to survive because they could not open 2 _________________.”",
+      "translation": "small-billed birds 無法生存，因為牠們不能打開／啄開 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “could not open”，後面應填可被打開或啄開的名詞。題目限制是 NO MORE THAN TWO WORDS，所以答案應是原文中的短名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the Grants began their study in the 1970s, only two species of finch lived on Daphne Major, the medium ground finch and the cactus finch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Grants 在 1970 年代開始研究時，Daphne Major 上只有兩種 finch：medium ground finch 和cactus finch。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smaller members of the medium ground finch population, lacking the bill strength to crack large seeds, died out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "medium ground finch 群體中較小的成員，因為沒有足夠 bill strength 去啄開 large seeds，便死亡了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經能看到 small birds、lack bill strength、crack large seeds、died out 幾個重要元素，和題目完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “small-billed birds”, “failed to survive”, “could not open”。原文沒有 “open”，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“crack”。在 bird / seed 語境中，crack seeds 就是啄開種子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Smaller members of the medium ground finch population, lacking the bill strength to crack large seeds, died out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "medium ground finch 群體中較小的個體，因為沒有足夠啄力去啄開大種子，結果死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的因果很清楚：較小個體沒有足夠 bill strength → 不能 crack large seeds → died out。題目把 “died out” 改成 “failed to survive”，把 “crack” 改成 “open”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "failed to survive = died out could not open = lacking the bill strength to crack large seeds = large seeds答案形式large seeds 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “small seeds”。1977 drought 期間 small, easily eaten seeds 被吃光，剩下難以處理的大種子；small-billed birds 的問題正是不能處理 large seeds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "heavy rains",
+      "answerKey": "heavy rains",
+      "type": "Table Completion",
+      "prompt": "Question 3",
+      "translation": "1985 年，El Niño 帶來的 ____________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：1985 / Climate / “3 _________________ brought by El Niño”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面已有 “brought by El Niño”，所以答案應是被 El Niño 帶來的氣候現象。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eight years later, heavy rains brought by an El Niño transformed the normally meagre vegetation on Daphne Major.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "八年後，El Niño 帶來的 heavy rains 改變了 Daphne Major 平時稀疏的植被。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When local conditions reverse themselves, so does the direction of adaptation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當本地環境條件逆轉時，適應方向也會跟著逆轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段講 1977 後八年的相反氣候事件，以及環境逆轉如何令 adaptation 方向改變。1977 加八年正是 1985，所以本段對應表格第二行。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “1985” 和 “El Niño”。原文沒有直接寫 1985，但有 “Eight years later”。由於前一行是 1977，eight years later 就是 1985。再掃描 “El Niño”，第一句直接找到答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eight years later, heavy rains brought by an El Niño transformed the normally meagre vegetation on Daphne Major.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "八年後，El Niño 帶來的暴雨改變了 Daphne Major 平時貧乏的植被。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目框架是 “3 ______ brought by El Niño”，原文原句就是 “heavy rains brought by an El Niño”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格應填 heavy rains。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1985 = Eight years later after 1977 Climate = heavy rains brought by El Niño = brought by an El Niño答案形式heavy rains 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “El Niño”。題目已經給出 “brought by El Niño”，空格問的是 El Niño 帶來了甚麼；答案是heavy rains。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "small seeds",
+      "answerKey": "small seeds",
+      "type": "Table Completion",
+      "prompt": "“Large-billed birds died out, with 4 _________________ as the main food resource.”",
+      "translation": "large-billed birds 死亡，而當時主要食物資源是 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “as the main food resource” 前面，應填一種食物。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eight years later, heavy rains brought by an El Niño transformed the normally meagre vegetation on Daphne Major.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "八年後，El Niño 帶來的暴雨改變了 Daphne Major 平時稀疏的植被。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When local conditions reverse themselves, so does the direction of adaptation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當本地環境條件逆轉時，適應方向也會跟著逆轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段講環境逆轉，因此要留意與 1977 相反的 seed supply。1977 是 small seeds 被吃光，大種子留下；1985 則轉向 small seeds 成為主要食物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Large-billed birds died out” 和 “main food resource”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small seeds came to dominate the food supply, and big birds with big bills died out at a higher rate than smaller ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "小種子開始主導食物供應，而大鳥和大 bill 鳥死亡率高於較小的鳥。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “Small seeds came to dominate the food supply” 對應題目的 “as the main food resource”。“dominate” 表示成為主導，所以 small seeds 成了主要食物來源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "main food resource = dominate the food supply Large-billed birds = big birds with big bills died out = died out at a higher rate small seeds = small seeds答案形式small seeds 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “large seeds”。1985 的情況和 1977 相反。題目中的 large-billed birds died out 正好提示：大 bill 不再有優勢，因為主要食物變成 small seeds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "adaptive radiation",
+      "answerKey": "adaptive radiation",
+      "type": "Summary Completion",
+      "prompt": "“On the inhabited island of Santa Cruz, Andrew Hendry and Jeffrey Podos studied a reversal of 5 _________________ caused by human activity.”",
+      "translation": "在有人居住的 Santa Cruz 島上，Andrew Hendry 和 Jeffrey Podos 研究了一種由人類活動造成的 ____________ 逆轉。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “a reversal of” 後面，需要名詞短語。題目限制是 NO MORE THAN TWO WORDS。題目有 Santa Cruz、Andrew Hendry、Jeffrey Podos、human activity，定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I，並由 Paragraph J / K 補充結果Paragraph I 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Academy Bay records dating back to the early 1960s show that medium ground finches captured there had either small or large bills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Academy Bay 追溯至 1960 年代初的紀錄顯示，當地捕獲的 medium ground finches 要麼有small bills，要麼有 large bills。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Now an intermediate bill can do fine,’ Hendry says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hendry 說：「現在中等大小的 bill 也可以生存得很好。」只看首尾句，可以看到本段由原本 small / large bills 分化，轉到 intermediate bill 也能生存。這正好暗示原本的分化過程被人類活動改變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “reversal” 不一定原字重現，所以要找原文中的「原本正在分化，後來開始合併」這條線。Paragraph I 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The finches appeared to be in the early stages of a new adaptive radiation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 finches 似乎正處於一種新的 adaptive radiation 的早期階段。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The finches appeared to be in the early stages of a new adaptive radiation: If the trend continued, the medium ground finch on Santa Cruz could split into two distinct subspecies, specialising in different types of seeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 finches 似乎處於一種新的 adaptive radiation 早期階段；如果趨勢持續，Santa Cruz 的medium ground finch 可能會分裂成兩個不同 subspecies，專門吃不同種類的種子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "adaptive radiation 指同一祖先或同一類群在不同 ecological niches 中逐漸分化。題目說 reversal of X，原文說 finches 原本可能 split into two distinct subspecies，但後來 medium-sized bills 開始thrive。Paragraph J 再補充 town 中 “once-distinct populations are merging”。這就是 adaptive radiation 的逆轉。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reversal = split into two groups 的趨勢被 population merging 取代adaptive radiation = adaptive radiation caused by human activity = human population introduced new food sources / human meddling答案形式adaptive radiation 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “finch evolution”。Paragraph H 的確有 “man-made twist in finch evolution”，但題目問 “a reversal of...” 時，最精準的原文名詞是 adaptive radiation，因為後文明確說原本可能分化成 two distinct subspecies。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "medium-sized bills",
+      "answerKey": "medium-sized bills",
+      "type": "Summary Completion",
+      "prompt": "“By the late 1960s and early 1970s, however, finches with 6 _________________ flourished.”",
+      "translation": "但到了 1960 年代末和 1970 年代初，擁有 ____________ 的 finches 開始興盛。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “finches with” 後面，需要身體特徵或名詞短語。題目限制是 NO MORE THAN TWO WORDS。hyphenated word “medium-sized” 通常算一個詞，所以 medium-sized bills 符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Academy Bay records dating back to the early 1960s show that medium ground finches captured there had either small or large bills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Academy Bay 早至 1960 年代初的紀錄顯示，當地 medium ground finches 要麼有小 bill，要麼有大 bill。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Now an intermediate bill can do fine,’ Hendry says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hendry 說：「現在中等 bill 也可以生存得很好。」首尾句已顯示本段在比較 small / large bills 和 intermediate bills。題目問 late 1960s and early 1970s 的 finches with 甚麼特徵，答案很可能在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “late 1960s and early 1970s” 和 “flourished”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in the late 1960s and early 1970s, medium ground finches with medium-sized bills began to thrive at Academy Bay along with small and large-billed birds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在 1960 年代末和 1970 年代初，擁有 medium-sized bills 的 medium ground finches 開始在Academy Bay 興盛，並與 small-billed 和 large-billed birds 一起存在。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 “began to thrive” 對應題目的 “flourished”。空格問 finches with 甚麼，原文直接說 “with medium-sized bills”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "flourished = began to thrive finches with = medium ground finches with medium-sized bills = medium-sized bills答案形式medium-sized bills 符合 NO MORE THAN TWO WORDS，因為 medium-sized 是一個連字符複合詞，bills 是第二個詞。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “intermediate bill”。Paragraph I 最後一句說 “an intermediate bill can do fine”，意思接近，但題目句子是複數 “finches with...”，原文更自然、最直接的答案是 medium-sized bills。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "human population",
+      "answerKey": "human population",
+      "type": "Summary Completion",
+      "prompt": "“The researchers suggest that this was due to the growing 7 _________________, which introduced exotic plants and bird-feeding stations…”",
+      "translation": "研究者認為，這是由於不斷增長的 ____________，它引入了 exotic plants 和 bird-feeding stations。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the growing”，後面需要名詞短語。題目後面的 “which introduced...” 指這個名詞短語能夠引入新食物來源。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Academy Bay records dating back to the early 1960s show that medium ground finches captured there had either small or large bills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Academy Bay 早至 1960 年代初的紀錄顯示，當地捕獲的 medium ground finches 要麼有 small bills，要麼有 large bills。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Now an intermediate bill can do fine,’ Hendry says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hendry 說：「現在 intermediate bill 也可以生存得很好。」本段功能是說明 bill size 原本很關鍵，後來因新食物來源而不再決定生存。題目問原因，因此要找 introduced new food sources 的主體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “introduced exotic plants and bird-feeding stations” 幾乎直接重現原文。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The booming human population had introduced new food sources, including exotic plants and bird feeding stations stocked with rice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "迅速增長的人口引入了新的食物來源，包括外來植物和裝有米的餵鳥站。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句主語是 “The booming human population”。動詞是 “had introduced”。賓語是 “new food sources”。題目把 “booming” 改寫成 “growing”，所以答案是 human population。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "growing = booming introduced exotic plants and bird-feeding stations = had introduced new food sources, including exotic plants and bird feeding stations human population = human population答案形式human population 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “new food sources”。題目後面已經說 “which introduced exotic plants...”，所以空格要填引入者，不是被引入的東西。真正主語是 human population。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "rice",
+      "answerKey": "rice",
+      "type": "Summary Completion",
+      "prompt": "“…bird-feeding stations where the birds sometimes ate 8 _________________.”",
+      "translation": "……餵鳥站中，鳥有時會吃 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “ate” 後面，需要食物名詞。字數限制是 NO MORE THAN TWO WORDS。題目中的bird-feeding stations 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Academy Bay records dating back to the early 1960s show that medium ground finches captured there had either small or large bills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Academy Bay 早至 1960 年代初的紀錄顯示，當地 medium ground finches 要麼有小 bill，要麼有大 bill。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Now an intermediate bill can do fine,’ Hendry says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hendry 說：「現在中等 bill 也可以生存得很好。」Paragraph I 的後半解釋為何 bill size 不再決定 survival：人類帶來新食物。題目問鳥在餵鳥站吃甚麼，所以看 introduced new food sources 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “bird-feeding stations”。原文寫作 “bird feeding stations stocked with rice”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The booming human population had introduced new food sources, including exotic plants and bird feeding stations stocked with rice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "迅速增長的人口引入了新的食物來源，包括外來植物，以及裝有米的餵鳥站。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“stocked with rice” 表示餵鳥站裡備有 rice。題目把它改寫成 “where the birds sometimes ate...”，答案是 rice。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "bird-feeding stations where birds ate X = bird feeding stations stocked with X rice = rice答案形式rice 是一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “exotic plants”。題目限定在 bird-feeding stations 內吃的東西；原文把 exotic plants 和bird feeding stations 分成兩種 new food sources，餵鳥站具體 stocked with rice。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Grants’ discovery has called Darwin’s theory into question.”",
+      "translation": "Grants 的發現質疑了 Darwin 的理論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目主體是 “The Grants’ discovery”，核心動作是 “called Darwin’s theory into question”，意思是使 Darwin 的理論受到質疑。要看原文是否說 Grants 的研究支持或挑戰 Darwin。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, the quest continues.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，這項探索仍在繼續。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have witnessed Darwin’s principle in action again and again, over many generations of finches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們在許多代 finches 身上，一次又一次親眼見證 Darwin’s principle 正在發揮作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經能看到 Grants 的研究和 Darwin’s principle 是支持關係。題目說 called into question，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Grants”, “Darwin’s theory”, “called into question”。原文沒有 “theory”，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Darwin’s principle”。“called into question” 可能對應 challenge、doubt、question 等；原文卻出現“witnessed... in action again and again”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“They have witnessed Darwin’s principle in action again and again, over many generations of finches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們在許多代 finches 中，一次又一次看見 Darwin 原理實際運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“witnessed... in action” 表示親眼看見理論所描述的過程發生。這是支持 Darwin 的自然選擇原理，不是質疑它。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：called Darwin’s theory into question"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：witnessed Darwin’s principle in action again and again判斷原文與題目方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “discovery” 可能讓人聯想到新發現會推翻舊理論。但 IELTS 要回到原文。本文開頭就把 Grants 的研究定性為 Darwin’s principle 的現場證據，因此不能憑 “discovery” 推出 challenge。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cactus finches are less affected by food supply than medium ground finches.”",
+      "translation": "cactus finches 受 food supply 影響較 medium ground finches 小。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目提出比較：cactus finches vs medium ground finches。要判 TRUE，原文必須提供兩者受food supply 影響的比較；要判 FALSE，原文要說 cactus finches 受影響更大或一樣大。若只提到其中一方，通常是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the Grants began their study in the 1970s, only two species of finch lived on Daphne Major, the medium ground finch and the cactus finch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Grants 在 1970 年代開始研究時，Daphne Major 上只有兩種 finch：medium ground finch 和cactus finch。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smaller members of the medium ground finch population, lacking the bill strength to crack large seeds, died out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "medium ground finch 群體中較小的個體因缺乏啄開大種子的啄力而死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提到 cactus finch，但最後一句只談 medium ground finch 的死亡。這已經提示：文章可能沒有比較 cactus finch 的受影響程度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “cactus finches”, “less affected”, “food supply”。原文只在 Paragraph C 第一行提到 cactus finch 作為島上兩種鳥之一。後文討論 food supply 時，重點放在 medium ground finch的 small-billed members。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a severe drought hit in 1977, the birds soon devoured the last of the small, easily eaten seeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 1977 年 severe drought 襲來，鳥很快吃光了最後的小而容易吃的種子。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smaller members of the medium ground finch population, lacking the bill strength to crack large seeds, died out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "medium ground finch 中較小的個體因不能啄開 large seeds 而死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只說明 medium ground finch 內部不同 bill size 的生存差異。原文沒有說 cactus finches是否受食物供應影響較少，也沒有提供 cactus finch 的死亡率、築巢情況、食物偏好或競爭結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目需要比較關係：cactus finches are less affected than medium ground finches。原文缺少cactus finches 的受影響程度，也缺少兩者比較。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 cactus finches 沒有被描述為 died out，就推測牠們受影響較少。這是常見資料缺失陷阱：原文沒有講某群體受害，不代表牠們受害較少。沒有比較資料，就不能判 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In 2002 and 2003, all the birds were affected by the drought.”",
+      "translation": "在 2002 和 2003 年，所有鳥都受到 drought 影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 “all the birds were affected”。要找 2002 and 2003 這個時間點，看 drought 是否影響所有鳥。注意 “affected” 不一定只指死亡，也可以指繁殖、築巢、覓食等受到影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recently, the Grants witnessed another form of natural selection acting on the medium ground finch: competition from bigger, stronger cousins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近，Grants 在 medium ground finch 身上看到另一種 natural selection：來自更大、更強親緣物種的競爭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Medium ground finches with large bills, crowded out of feeding areas by the more powerful large ground finches, were hit particularly hard.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "large-billed medium ground finches 被更強壯的 large ground finches 擠出覓食區，受到特別嚴重的打擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段講 competition 加 drought 的影響，並且某些 medium ground finches受害尤其嚴重。題目問 all the birds，答案要看中間是否有涵蓋所有鳥的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “2002 and 2003” 和 “drought”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, in 2002 and 2003, another drought struck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，在 2002 和 2003 年，另一場 drought 襲來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“None of the birds nested that year, and many died out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那一年沒有任何鳥築巢，而且許多鳥死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“None of the birds nested” 是非常強的全體訊號。它表示所有鳥在繁殖行為上都受影響。題目說“all the birds were affected by the drought”，沒有說 all died，所以原文不需要證明所有鳥都死亡；只要證明所有鳥都受到某種影響即可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "all the birds were affected = none of the birds nested drought = another drought struck 2002 and 2003 = in 2002 and 2003判斷原文說 none of the birds nested，這支援 all the birds were affected，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 all the birds were affected，學生可能誤讀成 all the birds died。原文只說 many died out，不是 all died out。但 “affected” 範圍較廣，none nested 已足夠支持所有鳥受影響。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Andrew Hendry and Jeffrey Podos made the same discovery as earlier researchers.”",
+      "translation": "Andrew Hendry 和 Jeffrey Podos 作出了與 earlier researchers 相同的發現。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 “the same discovery as earlier researchers”。要找 Hendry 和 Podos 的研究是否被描述為 same，還是 new。若原文清楚說他們發現的是 new twist，則和 “same discovery” 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the inhabited island of Santa Cruz, just south of Daphne Major, Andrew Hendry of McGill University and Jeffrey Podos of the University of Massachusetts at Amherst have discovered a new, man-made twist in finch evolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Daphne Major 南面的有人居住島嶼 Santa Cruz 上，McGill University 的 Andrew Hendry 和University of Massachusetts at Amherst 的 Jeffrey Podos 發現了 finch evolution 中一個新的、人為造成的轉折。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People have taken this extremely arid place and tried to turn it into a Caribbean resort.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hendry 說：「人們把這個極度乾旱的地方，試圖變成加勒比海式度假地。」首句直接把他們的發現稱為 “a new, man-made twist”。這與題目 “same discovery as earlier researchers” 不同。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Andrew Hendry”, “Jeffrey Podos”, “same discovery”, “earlier researchers”。原文第一句同時出現兩位研究者姓名，並給出描述 “discovered a new, man-made twist”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Andrew Hendry ... and Jeffrey Podos ... have discovered a new, man-made twist in finch evolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Andrew Hendry 和 Jeffrey Podos 發現了 finch evolution 中一個新的、人為造成的轉折。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“new” 是控制答案的字。題目說 “the same discovery as earlier researchers”，意思是他們和之前研究者發現相同內容。原文描述為 “new”，重點是新的、人類造成的演化變化。判斷題目說 same discovery；原文說 new, man-made twist。兩者方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 提到 “Academy Bay records dating back to the early 1960s”，學生可能以為早期紀錄代表 earlier researchers 已經發現同一件事。實際上，early records 是資料來源，用來對比後來變化；Hendry 和 Podos 的發現被作者明確稱為 new, man-made twist。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The evolution of finches on Santa Cruz appears to be a response to human intervention.”",
+      "translation": "Santa Cruz 上 finches 的演化看來是對人類干預的反應。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目主體是 Santa Cruz finches 的 evolution，核心關係是 response to human intervention。要找原文是否把 Santa Cruz 的 bill changes / population merging 連到人類活動。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph K，並回扣 Paragraph H–I Paragraph K 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The finches of Santa Cruz demonstrate a subtle process in which human meddling can stop evolution in its tracks, ending the formation of new species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Santa Cruz 的 finches 展示了一個微妙過程：人類干預可以令演化中途停止，終止新物種形成。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph K 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If we hope to regain some of the diversity that’s already been lost,’ Hendry says, ‘we need to protect not just existing creatures, but also the processes that drive the origin of new species.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hendry 說：「如果我們希望恢復一些已經失去的多樣性，我們需要保護的不只是現存生物，也包括推動新物種起源的過程。」首句已經直接把 Santa Cruz finches 的演化變化連到 human meddling。這和題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Santa Cruz”, “evolution”, “human intervention”。原文可找到多個對應： Paragraph H: “a new, man-made twist in finch evolution” Paragraph I: “The booming human population had introduced new food sources...” Paragraph K: “human meddling can stop evolution in its tracks”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文一："
+            },
+            {
+              "kind": "quote",
+              "text": "“...have discovered a new, man-made twist in finch evolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們發現了 finch evolution 中一個新的人為轉折。"
+            },
+            {
+              "kind": "label",
+              "text": "原文二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The booming human population had introduced new food sources, including exotic plants and bird feeding stations stocked with rice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "迅速增長的人口引入了新的食物來源，包括外來植物和裝有米的餵鳥站。"
+            },
+            {
+              "kind": "label",
+              "text": "原文三："
+            },
+            {
+              "kind": "quote",
+              "text": "“The finches of Santa Cruz demonstrate a subtle process in which human meddling can stop evolution in its tracks, ending the formation of new species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Santa Cruz 的 finches 展示了人類干預如何令演化停止，並終止新物種形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句合起來非常清楚：Santa Cruz 的 finch evolution 被人類活動改變。人類人口增加帶來新食物來源，令 medium bills 也能生存，原本分化中的族群開始合併。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "human intervention = human meddling / man-made / booming human population introduced new food sources evolution appears to be a response = human activity changed the direction or process of evolution Santa Cruz = Santa Cruz / Academy Bay / Puerto Ayora context判斷題目與原文同向，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看 Daphne Major 的自然 drought 例子。Paragraph A–G 主要講自然選擇與物種競爭； Paragraph H–K 轉到 Santa Cruz，重點變成人類活動如何改變演化過程。题目中的 Santa Cruz是關鍵定位詞。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Finches on Islands.pdf",
+    "sha256": "685d49d3ecea3ce1cbbd50ff4eb4c55f466294e41479943ff2e623a7c4036e55",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句以 “Today, the quest continues” 開場，然後把場景放到 Daphne Major，介紹 Peter and Rosemary Grant 長期觀察 Darwin’s finches 如何面對 storms、drought 和 food competition。尾句說他們多次親眼看見 Darwin’s principle in action。只看首尾句，可以估計本段是全文背景段：介紹研究地點、研究者、研究時間長度，以及這項研究如何支持 Darwin 的自然選擇原理。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Grants 最戲劇性的洞見來自觀察 medium ground finch 的 bill 演化。尾句把牠的 bill 放入Galápagos finches 的大小光譜中：比 small ground finch 強壯，但比 large ground finch 小。只看首尾句，可以判斷本段主要介紹研究主角 medium ground finch，並交代 bill size 與食物種類之間的關係，為後文 drought、seed size 和 natural selection 鋪路。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 1970s Grants 開始研究時，Daphne Major 只有兩種 finch：medium ground finch 和cactus finch。尾句說 medium ground finch 中較小個體因無力 crack large seeds 而死亡。只看首尾句，可以合理預測本段會講 1977 drought 如何改變食物供應，並展示小 bill 個體在大種子環境下失去生存優勢。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 bill and body size 是 inherited traits，下一代有較高比例的 big-billed individuals。尾句指出 Grants 記錄到 natural selection at work，並把這個過程連到 Galápagos 14 種 finch 的長期演化。只看首尾句，可以看到本段功能是解釋 Paragraph C 的結果：drought 篩走小 bill 個體，留下大 bill 基因較多的下一代，形成可觀察的自然選擇證據。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說八年後 El Niño 帶來 heavy rains，令 Daphne Major 原本稀疏的植被大變。尾句引用Rosemary Grant：環境改變時，自然選擇可被觀察；當 local conditions reverse，adaptation 的方向也會 reverse。只看首尾句，可以判斷本段講 1985 的相反情況：雨水令植物和種子供應改變，小種子變多，大 bill 鳥反而失去優勢。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Grants 最近看見另一種 natural selection：來自 bigger, stronger cousins 的 competition。尾句說 2002–2003 drought 後，medium ground finches with large bills 因被 large ground finches 擠出 feeding areas，受到特別嚴重打擊。只看首尾句，可以估計本段重點是 interspecies competition：不是單純氣候變化，還有大種 finch 的競爭壓力。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 2004 wetter weather returned，finches 再次築巢，新一代 medium ground finch 以smaller birds with smaller bills 為主。尾句說 Peter Grant 認為這是首次完整追蹤由 species competition 造成的 evolutionary change，也是他 33 年研究中最強烈的 natural selection response。只看首尾句，可以知道本段總結 Paragraph F 的競爭結果：medium ground finch 朝smaller bill 方向演化。"
+      },
+      {
+        "number": "H",
+        "summary": "首句轉到 Santa Cruz，說 Andrew Hendry 和 Jeffrey Podos 發現 finch evolution 中一個 new, man-made twist。尾句引用 Hendry，說 Puerto Ayora 已滿是 hotels 和 mai tai bars，人類試圖把乾旱地區改造成 Caribbean resort。只看首尾句，可以看到本段從自然環境轉向人類干預：研究地點由無人島 Daphne Major 移到有人居住的 Santa Cruz。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Academy Bay 自 1960s 初期的紀錄顯示，medium ground finches 要麼有 small bills，要麼有 large bills，很少有 mid-size bills。尾句說 “Now an intermediate bill can do fine”。只看首尾句，可以判斷本段會解釋 Santa Cruz 的 bill-size pattern 如何被人類改變：原本可能分化成兩類，但新食物來源令中等 bill 也能生存。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說在遠離 Puerto Ayora、較少受人類影響的 control site，medium ground finch 仍分成large-billed 和 small-billed 兩群。尾句說在 town 內，原本 distinct populations are merging。只看首尾句，可以判斷本段用 control site 和 town 對比：未受干擾地區仍在 diversify，人類活動多的地方則出現 population merging。"
+      },
+      {
+        "number": "K",
+        "summary": "首句說 Santa Cruz 的 finches 展示一個 subtle process：human meddling can stop evolution in its tracks，終止新物種形成。尾句引用 Hendry，說若想恢復已失去的 diversity，不只要保護existing creatures，也要保護產生新物種的 processes。只看首尾句，可以看到全文結論：finches不只證明自然選擇，也提醒人類活動可能中斷演化過程。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2800 @@
+{
+  "id": "p3-068-care-in-the-community",
+  "catalogueId": "p3-068",
+  "catalogueIds": [
+    "p3-068"
+  ],
+  "passage": 3,
+  "title": "Care in the Community",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 15,
+  "questionNumberStart": 26,
+  "answerKey": [
+    "D",
+    "B",
+    "B",
+    "A",
+    "B",
+    "B",
+    "A",
+    "C",
+    "C",
+    "B",
+    "B",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 26,
+      "answer": "D — In the past, others often benefitted when a patient was sent to a mental asylum.",
+      "answerKey": "D — In the past, others often benefitted when a patient was sent to a mental asylum.",
+      "type": "Multiple Choice",
+      "prompt": "Question 26",
+      "translation": "以下哪一項說法準確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Which of the following statements is accurate?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目沒有指定某一段，所以要先根據選項中的訊號定位。四個選項都關於過去精神病院、法律、手術、婚姻或病人被送入 asylum 的原因。最有價值的定位詞包括：● 20th century● surgical procedures● Victorian era● heir or spouse● mental asylum"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the mid-twentieth century, institutions for the mentally ill were regarded more as places of isolation and punishment than as places of healing and solace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到二十世紀中期，精神病院較常被視為隔離和懲罰病人的地方，並非真正用來治療和安撫病人的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Little wonder then that the appalling catalogue of treatment of the mentally ill led to a call for change from social activists and psychologists alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "難怪這一連串令人震驚的精神病人待遇，會令社會運動人士和心理學家同樣要求改革。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 主要講過去精神病院的殘酷歷史，以及這些做法如何引發改革呼聲。題目四個選項都涉及精神病院過去的處理方式，所以 Paragraph 2 是最重要段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的定位詞是：● others benefitted● sent to a mental asylum● in the past原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“individuals were frequently sent to the ‘madhouse’ as a legal means of permanently disposing of an unwanted heir or spouse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些人經常被送到「瘋人院」，作為一種合法手段，用來永久處理掉不受歡迎的繼承人或配偶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 sent to the madhouse、legal means、unwanted heir or spouse。因此它是Question 26 的核心證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說，一個人可能被送入 madhouse，原因並非真的需要治療，而是其他人想永久移除一位不受歡迎的繼承人或配偶。這代表病人被收容後，某些外人可能得到好處。例如：● 移除不想要的配偶；● 排除繼承人；● 利用法律制度處理家庭或財產問題。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the past, others often benefitted when a patient was sent to a mental asylum.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文意思。原文的 disposing of an unwanted heir or spouse 表示某些人利用精神病院制度達成自己的目的。選項中的 others benefitted 是較概括的說法。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A In the 20th century, illegal surgical procedures were carried out on the mentally ill.原文確實提到二十世紀中期精神病院進行 lobotomy，並且是在病人不同意的情況下進行。但原文沒有說這些手術是 illegal。題目加入了「非法」這一層，文章沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The Victorian era saw an increase in mental illness amongst married couples.原文提到 Victorian literature 中有人被送入 madhouse，尤其是 unwanted heir or spouse。這講的是濫用制度，不是已婚夫婦精神病增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Mental institutions of the past were better-equipped for dealing with the mentally ill.原文方向相反。Paragraph 2 說過去院舍多被視為 isolation and punishment 的地方，不是healing and solace 的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “disposing of an unwanted heir or spouse” 支持「其他人從病人被送入精神病院中得益」這個概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 / 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“others often benefitted”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“disposing of an unwanted heir or spouse”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：被送走的人是 unwanted heir or spouse；使用這種手段的人可以移除對自己不利的人；所以可概括為 others benefitted。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易誤選，因為原文真的有 lobotomy 和 without their consent。可是 “without consent” 不一定等於原文聲稱 “illegal”。IELTS MCQ 常把原文中嚴重、負面的內容再加上一個沒有明示的法律判斷。這題要選原文最完整支持的一項，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "B — Maltreatment of mentally ill patients was not illegal and so was tolerated.",
+      "answerKey": "B — Maltreatment of mentally ill patients was not illegal and so was tolerated.",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "作者說病人受到的「治療」是合法化的虐待，是甚麼意思？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What does the writer mean by patient treatment being ‘legitimised abuse’?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題考詞語在語境中的意思。關鍵詞是 legitimised abuse。不能只看 abuse，也要看 legitimised。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "abuse 指虐待；legitimised 指被制度、法律或官方做法包裝成可以接受的事情。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Bedlam’ is a word that has become synonymous in the English language with chaos and disorder.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bedlam” 這個字在英語中已經成為混亂和失序的同義詞。最後一句：“There is little indication to suggest that other institutions founded at around the same time in other European countries were much better.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有太多跡象顯示，同一時期在其他歐洲國家成立的類似機構有好得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 1 的功能是介紹早期精神病院的惡劣形象，並把 Bedlam 作為代表例子。這段會解釋為何它的名字後來變成 chaos and disorder 的代名詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● patient treatment● legitimised abuse原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Patient ‘treatment’ amounted to little more than legitimised abuse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "病人的所謂「治療」幾乎只不過是被合法化或制度化的虐待。"
+            },
+            {
+              "kind": "label",
+              "text": "後文立即提供例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inmates were beaten and forced to live in unsanitary conditions, whilst others were placed on display to a curious public as a sideshow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "院友會被毆打，被迫生活在不衛生的環境中；另一些人更被展示給好奇的公眾觀看，像旁枝表演一樣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 treatment 放在引號中，代表作者對這個字有保留。表面上，機構說自己在 treatment；實際內容包括 beaten、unsanitary conditions、placed on display。這些都屬於虐待。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題在於這些虐待發生在正式機構內，而且被包裝成精神病人管理或治療的一部分。因此"
+            },
+            {
+              "kind": "quote",
+              "text": "“legitimised abuse” 的意思是：虐待行為在當時制度下被容忍，甚至被視為正常做法。選項 B 說：“Maltreatment of mentally ill patients was not illegal and so was tolerated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "虐待精神病人的做法沒有被視為非法，因此被容忍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這最貼近 “legitimised abuse” 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A There were proper guidelines for the punishment of mentally ill patients.原文沒有說有 proper guidelines。它說的是虐待被容忍，不是有正式懲罰指引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“legitimised” 對應 not illegal / tolerated；“abuse” 對應 maltreatment。 C Only those who were legally entitled to do so could punish mentally ill patients.原文沒有討論誰有法律權力懲罰病人。 D Physical abuse of mentally ill patients was a legal requirement of mental institutions.這太極端。原文沒有說毆打病人是法律要求，只是說虐待被制度容忍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文：“legitimised abuse”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“maltreatment … was not illegal and so was tolerated”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： abuse = maltreatment legitimised = not illegal / tolerated / treated as acceptable within the system"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 的陷阱在於它也有 legal 和 physical abuse，但它把「被容忍」誇大成「法律要求」。原文沒有提供這種強制性。細讀時要分清：legitimised 表示被制度化、被容許，不等於法律明令必須虐待。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — People rebelled against the consistent abuse of mentally ill patients.",
+      "answerKey": "B — People rebelled against the consistent abuse of mentally ill patients.",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "是甚麼促成精神病人待遇的改變？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What brought about changes in the treatment of mentally ill patients?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 cause，即改變的原因。題目中的 “brought about changes” 要找原文中的因果表達，例如led to a call for change。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until the mid-twentieth century, institutions for the mentally ill were regarded more as places of isolation and punishment than as places of healing and solace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到二十世紀中期，精神病院較常被視為隔離和懲罰的地方，而不是治療和安慰的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Little wonder then that the appalling catalogue of treatment of the mentally ill led to a call for change from social activists and psychologists alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "難怪這一連串令人震驚的精神病人待遇，會令社會運動人士和心理學家同樣要求改革。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句已經很明確：Paragraph 2 先列出歷史上的可怕待遇，最後說這些待遇引發改革呼聲。因此 Question 28 的答案大概率在 Paragraph 2 結尾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● brought about● changes● treatment原文對應是：● “appalling catalogue of treatment”● “led to a call for change”其中 led to 是因果詞，直接對應 brought about。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the appalling catalogue of treatment of the mentally ill led to a call for change from social activists and psychologists alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一連串令人震驚的精神病人待遇，導致社會運動人士和心理學家都要求改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個核心部分：● appalling catalogue of treatment：一連串令人震驚的待遇；● led to：導致；● a call for change：改革呼聲。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“People rebelled against the consistent abuse of mentally ill patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們反對精神病人長期受到虐待。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 “rebelled” 比原文 “a call for change” 語氣強一點，但四個選項中，只有 B 捕捉到「人們因病人長期受到不人道對待而要求改變」這條因果鏈。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A A radio documentary exposed patient maltreatment.原文沒有 radio documentary。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“consistent abuse” 對應 appalling catalogue of treatment；“rebelled against” 概括 social activists and psychologists called for change。 C Previous treatments of mentally ill patients were proved to be ineffective.原文重點是待遇殘酷、不人道，不是用醫學實驗證明治療無效。 D The maltreatment of mentally ill patients could never be revealed.方向不合。原文正是把 maltreatment 描述出來，並說它引起改革呼聲。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文：“appalling catalogue of treatment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“led to a call for change”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“People rebelled against the consistent abuse”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： appalling catalogue = repeated / consistent mistreatment call for change = public or professional opposition social activists and psychologists = people pushing for reform"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很有吸引力，因為文章提到 lobotomy 會造成 devastating effects。但 Question 28 問的是改革原因，原文說原因是整體殘酷待遇引起社會運動人士和心理學家的改革呼聲，並沒有把焦點放在「治療被證明無效」這件事上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — Patient support was more the responsibility of relatives than of professionals.",
+      "answerKey": "A — Patient support was more the responsibility of relatives than of professionals.",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "早期 community care 方案有甚麼特點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What was a feature of early care in the community schemes?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 early。要找 care in the community 剛開始時的形式，不能用近年 CMHTs 和psychiatric nurses 的資料作答案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Improvements began in institutions from the mid-1950s onwards, along with the introduction of care in the community for less severely ill patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從二十世紀五十年代中期開始，精神病院內部有所改善，同時也開始為病情較輕的病人引入社區照顧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The patient is therefore provided with the help they need to survive in the everyday world whilst maintaining a degree of autonomy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，病人可得到在日常世界中生活所需的幫助，同時保有一定程度的自主性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph 3 是介紹 community care 的出現、目的和支援形式。題目問early care，因此要在 Paragraph 3 中找 “early stages” 一類時間詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● early● care in the community● feature原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In its early stages, however, community care consisted primarily of help from the patient’s extended family network.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在早期階段，社區照顧主要由病人的大家庭支援網絡提供幫助。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是：● In its early stages：在早期；● consisted primarily of：主要由……構成；● help from the patient’s extended family network：來自病人大家庭網絡的幫助。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Patient support was more the responsibility of relatives than of professionals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "病人的支援較多由親屬負責，而非由專業人士負責。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接對應原文。extended family network 就是 relatives / family members；primarily 表示主要依靠這些家庭支援，而不是專業團隊。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期 community care 主要靠 extended family network。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Advanced professional help was available to patients.這是近年發展，不是早期特點。原文後面才說 “In more recent years” 有 specialist CMHTs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C All mentally ill patients could benefit from the scheme.原文說 care in the community 是 for less severely ill patients，不是所有病人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Patients were allowed to enjoy full independence.原文說 relatively independent life 和 a degree of autonomy，並非 full independence。病人也"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“was not meant to be left entirely to their own devices”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文：“help from the patient’s extended family network”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“responsibility of relatives”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： extended family network = relatives / wider family consisted primarily of help from family = support mainly came from relatives"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 的陷阱在於原文確實說 community patients were free to live a relatively independent life。但relatively 和 a degree of 都有限度。題目問早期方案的特點，最直接答案是 family network，而不是 full independence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — More professional services are available to patients.",
+      "answerKey": "B — More professional services are available to patients.",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "今天的 community care 方案有甚麼真實情況？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is true of care in the community schemes today?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 today。文章沒有直接用 today，但有 In more recent years。所以要找近年相對於早期的變化。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Improvements began in institutions from the mid-1950s onwards, along with the introduction of care in the community for less severely ill patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從二十世紀五十年代中期開始，精神病院內部有所改善，同時也開始為病情較輕的病人引入社區照顧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The patient is therefore provided with the help they need to survive in the everyday world whilst maintaining a degree of autonomy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，病人得到日常生活所需的幫助，同時保有一定自主性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落先講早期 community care，然後用 “In more recent years” 轉入現代發展。這正好對應題目today。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● today● care in the community schemes● true原文對應時間詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“In more recent years…”"
+            },
+            {
+              "kind": "label",
+              "text": "相關證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“In more recent years, such care has extended to the provision of specialist community mental health teams (CMHTs) in the UK.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年來，這種照顧已擴展至英國專門的社區精神健康團隊。"
+            },
+            {
+              "kind": "label",
+              "text": "後文列出："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such teams cover a wide range of services from rehabilitation to home treatment and assessment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些團隊涵蓋多種服務，從復康到家居治療和評估。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文指出，近年的 community care 已經由早期主要靠家庭支援，發展至有專門團隊介入。服務包括：● rehabilitation 復康；● home treatment 家居治療；● assessment 評估；● psychiatric nurses administer prescription medication and give injections 精神科護士協助處方藥和注射。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“More professional services are available to patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "病人可以獲得更多專業服務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括 Paragraph 3 近年部分。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A They permit greater patient autonomy. community care 的確讓病人保持一定自主性，但這是整個方案的基本目標，不是 “today” 相對於早期的新發展。題目問 today，最直接的時間對應是 “In more recent years”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "specialist teams、rehabilitation、home treatment、assessment、psychiatric nurses 都支持 “more professional services”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Family support networks have become unnecessary.原文沒有說家庭支援已不需要。它只是說近年增加了專業團隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D All patients can now become part of these schemes.原文沒有說 all patients。Paragraph 3 起初已限定 less severely ill patients；Dr. Mayalla 也說scheme isn’t for everyone。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“specialist community mental health teams”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wide range of services”"
+            },
+            {
+              "kind": "quote",
+              "text": "“psychiatric nurses”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“more professional services”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： specialist teams + nurses + rehabilitation / treatment / assessment = professional services"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 看似合理，因為原文確實說 autonomy。但題目中的 today 很關鍵。今天相對早期最大的變化是專業支援服務增加。因此 B 比 A 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — He believes that it can only work under certain circumstances.",
+      "answerKey": "B — He believes that it can only work under certain circumstances.",
+      "type": "Multiple Choice",
+      "prompt": "Question 31",
+      "translation": "作者對 community care 的態度是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What can be said of the writer’s attitude towards care in the community?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 writer’s attitude，不能只看某一個例子，也不能只看其中一位受訪者。要把 Paragraph 3和 Paragraph 4 合起來看：先看作者介紹方案的優點，再看他指出實行後的問題和條件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3–4 Paragraph 3 第一大方向：community care 較人道，讓病人可在社區中保有自主性。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, though, when a policy is put into practice, its failings become apparent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，政策一旦實行，它的缺陷往往會顯現出來。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It should always be remembered that whilst you can take the patient out of the institution, you can’t take the institution out of the patient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們必須記住：你可以把病人帶離院舍，但病人心中或身上的院舍影響，並不會因此完全消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 4 首尾句，可以知道作者並非單純支持或單純反對。他承認方案有理想，但也指出病人不能被完全放手不管。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● writer’s attitude● care in the community● scheme原文最能呈現作者立場的是 Paragraph 4："
+            },
+            {
+              "kind": "quote",
+              "text": "“The solution, therefore, is to ensure that the patient is always in touch with professional helpers and not left alone to fend for themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，解決方法是確保病人始終與專業支援者保持聯繫，而不是被留下來獨自應付問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是作者自己的總結式判斷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者在 Paragraph 3 承認 community care 的目的：● more humane and purposeful；● relatively independent life；● help needed to survive in everyday world；● a degree of autonomy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Paragraph 4 又指出風險：● 病人可能不願或不能求助；● 病情關鍵期可能獨自一人；● 可能 self-harm；● 可能 pose a threat；● 可能因貧窮、孤立和社會排斥而 relapse。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後作者提出條件：病人要 always in touch with professional helpers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，作者態度最接近 B：community care 只有在某些條件下才可行，例如病人狀況合適、支援系統存在、病人不能被完全放任、專業人員要持續跟進。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A He believes that the scheme has proved to be a failure.太絕對。作者指出 failings，但沒有說整個 scheme 已證明失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者承認方案有價值，但必須有持續專業支援和合適條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C He believes that it will never work as mentally ill patients will always be disadvantaged.太絕對。原文沒有說 will never work。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D He believes it has failed due to patient neglect by professional helpers.原文指出病人可能沒有求助或未能評估自己狀況，也說不能 left alone，但沒有把失敗直接歸咎於 professional helpers neglect。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“ensure that the patient is always in touch with professional helpers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not left alone to fend for themselves”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“can only work under certain circumstances”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：需要持續專業接觸 + 不能獨自求生 + 需處理風險= 方案只在特定條件下可行"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 D 都容易誤選，因為 Paragraph 4 語氣較批判。但作者不是把方案整體否定，他更像是在說：方案有理想和好處，可是實行時不能忽略病人的脆弱性和支援需要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "A — Dr. Mayalla",
+      "answerKey": "A — Dr. Mayalla",
+      "type": "Matching Features",
+      "prompt": "“This person acknowledges certain inadequacies in the concept of care in the community, but recognises that attempts have been made to improve on existing schemes.”",
+      "translation": "這個人承認 community care 這個概念有某些不足，但也認同現有方案已有人嘗試改善。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要先找三個人的原話，再建立人物觀點表。題目中的關鍵概念是：● inadequacies● not perfect / not for everyone● attempts to improve● better than previously"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看人物段落"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Opinions about care in the community are divided among members of the public and within the mental-healthcare profession itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公眾和精神健康護理專業內部，對 community care 的看法都有分歧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But I also think that there is a far better infrastructure of helpers and social workers in place now than previously and the scheme stands a greater chance of success than in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但我也認為，現在已有比以前完善得多的支援者和社工基礎架構，因此這個方案比過去更有成功機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 是 Dr. Mayalla 的觀點段。首句說意見有分歧，Dr. Mayalla 的意見正是專業界中的一種平衡看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● inadequacies● improve existing schemes原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“I don’t think it’s a one-size-fits-all policy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我不認為這是一個適合所有人的政策。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“far better infrastructure of helpers and social workers in place now than previously”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有比以前完善得多的支援者和社工基礎架構。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Dr. Mayalla 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those suffering moderate cases of mental illness stand to gain more from care in the community than those with more pronounced mental illness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "患有中度精神疾病的人，比病情更明顯或更嚴重的人，更可能從 community care 中得益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句承認方案有局限：它更適合中度病人，不適合所有病人。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“I don’t think it’s a one-size-fits-all policy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我不認為它是一個人人適用的政策。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是題目中的 acknowledges certain inadequacies。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is a far better infrastructure of helpers and social workers in place now than previously”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在的支援者和社工架構比以前好得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對應 recognises that attempts have been made to improve on existing schemes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“acknowledges certain inadequacies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“isn’t for everyone”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not a one-size-fits-all policy”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“attempts have been made to improve”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“far better infrastructure … now than previously”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Bob Ratchett 也提到只有 well on their way to recovery 的人適合，因此看似也承認限制。但Question 32 同時問到「現有方案已有改善」，這一點由 Dr. Mayalla 的 “far better infrastructure …now than previously” 最直接支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — Bob Ratchett",
+      "answerKey": "C — Bob Ratchett",
+      "type": "Matching Features",
+      "prompt": "“This person, whilst emphasising the benefits to the patient from care in the community schemes, is critical of traditional care methods.”",
+      "translation": "這個人強調 community care 對病人的好處，同時批評傳統照顧方式。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看人物段落"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bob Ratchett, a former mental health nurse, takes a more positive view of community-care projects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bob Ratchett 是前精神健康護士，他對 community care 項目持較正面的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you think about it, is it really fair to condemn an individual to a lifetime in an institution when they could be living a fairly fulfilled and independent life outside the institution?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你想一想，當一個人本可以在院舍外過著相當充實和獨立的生活時，判定他一生都困在院舍裡，真的公平嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Bob 的段落有兩個重點：第一，他對 community care 較正面；第二，他質疑把病人長期困在院舍的公平性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● benefits to the patient● critical of traditional care methods原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“I’ve seen how a patient can benefit from living an independent life, away from an institution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我見過病人如何能從遠離院舍、過獨立生活中受益。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“is it really fair to condemn an individual to a lifetime in an institution…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "判定一個人一生待在院舍裡真的公平嗎？"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Bob 先從專業經驗出發："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having worked in the field myself, I’ve seen how a patient can benefit from living an independent life, away from an institution.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 benefit from living an independent life 直接對應題目中的 emphasising the benefits to the patient。"
+            },
+            {
+              "kind": "label",
+              "text": "他接著補充條件："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously, only individuals well on their way to recovery would be suitable…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，只有康復進展良好的人才適合考慮參與這類方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明他支持 community care，但不是無條件支持所有人出院。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句批評傳統院舍方式："
+            },
+            {
+              "kind": "quote",
+              "text": "“is it really fair to condemn an individual to a lifetime in an institution…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 condemn 語氣很強，有「把人判入某種命運」的感覺。Bob 認為，若病人可在外面過獨立生活，終身留院是不公平的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits to the patient”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a patient can benefit from living an independent life”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“critical of traditional care methods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“is it really fair to condemn an individual to a lifetime in an institution”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Dr. Mayalla 也談到哪些病人 stand to gain more，但他的核心是「不適合所有人」和「支援架構改善」。Bob 的語氣更明顯地批評傳統院舍方式，因此 Question 33 要選 Bob。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — Bob Ratchett",
+      "answerKey": "C — Bob Ratchett",
+      "type": "Matching Features",
+      "prompt": "“This person’s views have been moderated by their professional contact with the mentally ill.”",
+      "translation": "這個人的看法受到他與精神病人專業接觸經驗的影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看人物段落"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bob Ratchett, a former mental health nurse, takes a more positive view of community-care projects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bob Ratchett 是前精神健康護士，他對 community care 項目持較正面的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you think about it, is it really fair to condemn an individual to a lifetime in an institution when they could be living a fairly fulfilled and independent life outside the institution?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果病人本可在院舍外過相當充實和獨立的生活，判定他一生待在院舍裡真的公平嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段開頭的 former mental health nurse 已經明確標示 Bob 有精神健康護理工作的專業背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● professional contact● mentally ill● views原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having worked in the field myself, I’ve seen how a patient can benefit from living an independent life, away from an institution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我自己曾在這個領域工作，我見過病人如何能從院舍外的獨立生活中受益。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的結構很清楚：● Having worked in the field myself：他曾親身在這個領域工作；● I’ve seen how a patient can benefit：他親眼見過病人如何受益；● living an independent life, away from an institution：受益來自院舍外的獨立生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說他的 views have been moderated by professional contact。這裡的 professional contact不是抽象推測，而是原文直接寫出的工作經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bob 的看法不是純粹基於公眾恐懼或理論立場；他用自己的精神健康護理經驗作為支持community care 的依據。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“professional contact with the mentally ill”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having worked in the field myself”"
+            },
+            {
+              "kind": "quote",
+              "text": "“I’ve seen how a patient can benefit”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： worked in the field = professional experience seen how a patient can benefit = direct contact with patients shaping his view"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Dr. Mayalla 也是 practising clinical psychologist，所以也有專業身份。可是 Question 34 的文字更貼近 Bob 的原話，因為 Bob 明確說 “Having worked in the field myself, I’ve seen…”。這是最直接的「專業接觸影響觀點」證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B — Anita Brown",
+      "answerKey": "B — Anita Brown",
+      "type": "Matching Features",
+      "prompt": "“This person places the welfare of others above that of the mentally ill.”",
+      "translation": "這個人把其他人的福祉放在精神病人福祉之上。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看人物段落"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anita Brown, mother of three, takes a different view.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Anita Brown 是三名孩子的母親，她持有不同看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I like to feel secure where I live, but more to the point, that my children are not under any threat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我希望自己居住的地方安全；更重要的是，我的孩子不會受到任何威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Anita 的觀點來自母親身份，核心關注是自己和子女的安全。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● welfare of others● above that of the mentally ill原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a mother, I’m very protective towards my children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為母親，我非常保護自己的孩子。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would not support any scheme that I felt might put my children in danger…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我覺得某個方案可能令我的孩子身處危險，我不會支持它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Anita 的整段話集中於 children’s safety：● 她先說自己是 mother of three；● 她強調 protective towards my children；● 她反對任何可能令孩子有危險的方案；● 她最後說 children are not under any threat 是更重要的一點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此題目說她把 welfare of others 放在 mentally ill 之上，這裡的 others 主要是她的 children 和community members。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "她不是從病人康復、病人自主或病人人權角度出發，而是從社區安全和兒童安全出發。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“welfare of others”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“my children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feel secure where I live”"
+            },
+            {
+              "kind": "quote",
+              "text": "“my children are not under any threat”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“above that of the mentally ill”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would not support any scheme that I felt might put my children in danger”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：若病人社區照顧可能帶來風險，她優先考慮孩子安全。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Anita 並沒有直接說她不關心精神病人。但 Matching Features 不一定要求逐字重現。她整段話的重心都在 children safety，所以題目把她的立場概括為 placing the welfare of others above that of the mentally ill。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — Anita Brown",
+      "answerKey": "B — Anita Brown",
+      "type": "Matching Features",
+      "prompt": "“This person acknowledges that a mistrust of care in the community schemes may be unfounded.”",
+      "translation": "這個人承認，對 community care 方案的不信任也許未必有根據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看人物段落"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anita Brown, mother of three, takes a different view.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Anita Brown 是三名孩子的母親，她持不同看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I like to feel secure where I live, but more to the point, that my children are not under any threat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我希望自己住的地方安全；更重要的是，我的孩子不受威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 整體上是 Anita 對 community care 的保留和反對。不過題目問的是她有沒有承認自己的不信任可能缺乏基礎，所以要找她語氣中有沒有讓步。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● mistrust● may be unfounded● acknowledges原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“I guess there must be assessment methods in place to ensure that dangerous individuals are not let loose amongst the public…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我猜應該有評估方法，確保危險人士不會被放任到公眾之中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Anita 的主要態度是反對："
+            },
+            {
+              "kind": "quote",
+              "text": "“I’m not for it at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我完全不支持它。"
+            },
+            {
+              "kind": "label",
+              "text": "可是她也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“I guess there must be assessment methods in place…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的語氣是讓步。她雖然害怕和不信任 community care，但她承認應該有 assessment methods 存在，用來確保危險人士不會隨便進入社區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就支持題目中的 mistrust … may be unfounded。換句話說，她知道自己的恐懼可能已有制度保障去處理，只是她情感上仍然不支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“mistrust … may be unfounded”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“I guess there must be assessment methods in place”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：如果有 assessment methods，則她對危險人士被放入社區的擔心未必完全成立。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易只看 Anita 的最後立場 “I’m not for it at all”，然後忽略中間那句 “I guess…”。Matching Features 經常考人物觀點中的細小讓步。即使一個人整體反對，仍可能承認某一個反對理由未必完全站得住腳。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There is a better understanding of the dynamics of mental illness today.”",
+      "translation": "今天人們對精神疾病的運作機制有更好的理解。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問的是事實資訊，所以要用 TRUE / FALSE / NOT GIVEN 的標籤，不應改成 YES / NO。手冊也提醒，TRUE / FALSE / NOT GIVEN 的核心是比較題目資訊和原文資訊：同義、相反，或資料不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題控制詞是：● better understanding● dynamics of mental illness● today"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能相關的是 Paragraph 3 和 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 第一重點：community care 服務比以前更專業。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is a far better infrastructure of helpers and social workers in place now than previously…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有比以前完善得多的支援者和社工基礎架構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 better 和 now than previously，看起來很接近題目 today / better。但細讀要看 better 的對象是甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● better understanding● dynamics● mental illness原文有：● better infrastructure；● specialist community mental health teams；● assessment；● rehabilitation；● home treatment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但沒有出現 understanding、knowledge、dynamics、causes、mechanisms 一類概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "Dr. Mayalla 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is a far better infrastructure of helpers and social workers in place now than previously”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有比以前完善得多的支援者和社工基礎架構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說支援架構改善了。它沒有說人們更理解 mental illness 的 dynamics。infrastructure 是服務制度和人手安排；understanding of dynamics 是對疾病運作方式、病情變化或心理機制的理解。兩者相關，但不能自動等同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 也提到 specialist teams、rehabilitation、home treatment、assessment。這些說明服務更全面，仍未直接說今天對精神疾病本質有更好理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目需要原文支持：今天對 mental illness dynamics 的理解比以前更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：今天有更好的支援架構和專業服務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分：沒有說理解更深；沒有比較 today 和 past 的 understanding；沒有提到 dynamics。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “far better infrastructure”。學生看到 better 和 now than previously，可能直接選TRUE。可是 better 的對象要看清楚：原文說的是 infrastructure，不是 understanding。題目把「服務制度改善」換成「理解疾病機制改善」，這一步超出原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Community care schemes do not provide adequate psychological support for patients.”",
+      "translation": "community care 方案沒有為病人提供足夠的心理支援。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 community care 是否「沒有提供足夠支援」。核心詞是：● do not provide● adequate psychological support● patients要找原文中 community care 是否有 services / help / support。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3–4 Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The patient is therefore provided with the help they need to survive in the everyday world whilst maintaining a degree of autonomy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，病人獲得在日常世界生活所需的幫助，同時保有一定程度的自主性。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一線索："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst backup services may exist, an individual may not call upon them when needed…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然後備支援服務可能存在，但個別病人在需要時可能不會求助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都和 support 有關，但方向要細分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● provide● support● patients原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“provided with the help they need”"
+            },
+            {
+              "kind": "quote",
+              "text": "“backup services may exist”"
+            },
+            {
+              "kind": "quote",
+              "text": "“professional helpers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“specialist community mental health teams”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都表示 community care 中存在支援。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 說 community care 已擴展至：● specialist community mental health teams；● rehabilitation；● home treatment；● assessment；● psychiatric nurses；● medication and injections。"
+            },
+            {
+              "kind": "label",
+              "text": "最後總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“The patient is therefore provided with the help they need to survive in the everyday world…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接表示方案提供所需幫助。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 的問題比較細："
+            },
+            {
+              "kind": "quote",
+              "text": "“an individual may not call upon them when needed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不是說服務完全沒有提供，也不是說服務本身一定不足。它說即使 backup services 存在，病人可能因不願意或不能評估自己狀況而沒有求助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此題目說 do not provide adequate psychological support，與 Paragraph 3 的 “provided with the help they need” 方向相衝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題： community care schemes do not provide adequate support.原文命題： community care provides help, specialist teams and backup services; problem may be patient not calling upon them.比較結果：原文提供相反方向的資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 確實指出 community care 有 failings。學生可能看到 self-harm、threat、social alienation、relapse，就以為支援不足，因此選 TRUE。可是原文對問題的描述更精細：支援可能存在，病人未必使用；病人也不能被獨自留下。題目把「實行有風險」簡化為「沒有提供足夠心理支援」，這與原文不完全配合，而且和 Paragraph 3 的幫助描述相衝。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Dr. Mayalla believes that the scheme is less successful than in the past.”",
+      "translation": "Dr. Mayalla 認為這個方案比過去較不成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有明確人名 Dr. Mayalla，所以要定位到 Paragraph 5。核心比較詞是：● less successful● than in the past要檢查原文中 Dr. Mayalla 對現在和過去的比較方向。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Opinions about care in the community are divided among members of the public and within the mental-healthcare profession itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公眾和精神健康護理專業內部，對 community care 的看法都有分歧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But I also think that there is a far better infrastructure of helpers and social workers in place now than previously and the scheme stands a greater chance of success than in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但我也認為，現在已有比以前完善得多的支援者和社工基礎架構，因此這個方案比過去更有成功機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經看到和題目相反的方向：原文是 greater chance of success than in the past；題目是 less successful than in the past。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● Dr. Mayalla● less successful● past原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the scheme stands a greater chance of success than in the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個方案比過去更有成功機會。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr. Mayalla 的觀點有兩部分：第一，他承認 community care 不是人人適用："
+            },
+            {
+              "kind": "quote",
+              "text": "“I don’t think it’s a one-size-fits-all policy.”"
+            },
+            {
+              "kind": "label",
+              "text": "第二，他認為現時條件比以前好："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is a far better infrastructure of helpers and social workers in place now than previously”"
+            },
+            {
+              "kind": "label",
+              "text": "最後他得出結論："
+            },
+            {
+              "kind": "quote",
+              "text": "“the scheme stands a greater chance of success than in the past.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確表示現在比以前更可能成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “less successful than in the past”，意思是現在比以前差。這與原文方向直接相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題： Dr. Mayalla believes scheme is less successful now than before.原文命題： Dr. Mayalla believes scheme has greater chance of success now than before.比較結果：核心比較方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能被 Dr. Mayalla 的 “scheme isn’t for everyone” 吸引，覺得他很負面。可是這只是他承認方案有限制。真正回答 Question 39 的是比較句 “greater chance of success than in the past”。比較方向一清楚，答案就不能選 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The goal of community care schemes is to make patients less dependent on the system.”",
+      "translation": "community care 方案的目標，是令病人對制度的依賴減少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 community care 的 goal。要找 Paragraph 3 中方案的目的和理念。核心詞是：● goal● less dependent● system● patients原文未必用 “less dependent” 這個字，但可能用 independent、autonomy、not confined 等概念表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Improvements began in institutions from the mid-1950s onwards, along with the introduction of care in the community for less severely ill patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從二十世紀五十年代中期開始，精神病院內部有所改善，同時也開始為病情較輕的病人引入社區照顧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The patient is therefore provided with the help they need to survive in the everyday world whilst maintaining a degree of autonomy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，病人得到在日常世界生活所需的幫助，同時保有一定程度的自主性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 3 是介紹 community care 的理念：病人不再完全被困在院舍內，而是在社區中生活，保留一定自主性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● less dependent● goal● system原文對應概念是：● “relatively independent life”● “not meant to be left entirely to their own devices”● “maintaining a degree of autonomy”最核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“patients in the community were free to live a relatively independent life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在社區中的病人可以自由地過一種相對獨立的生活。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 institutionalised patients 和 community patients 對比："
+            },
+            {
+              "kind": "quote",
+              "text": "“Institutionalised patients lived out their existence in confinement, forced to obey institutional regulations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "住院病人在禁閉中度日，被迫遵守院舍規則。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“patients in the community were free to live a relatively independent life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社區中的病人則可以自由地過相對獨立的生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個對比很重要。community care 的目的就是把病人從完全由院舍制度管理的狀態中移出來，讓他們在社區中生活，保持相對獨立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“whilst maintaining a degree of autonomy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時保持一定程度的自主性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "autonomy 就是自主性，與 less dependent on the system 意思相近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題： Community care aims to make patients less dependent on the system.原文命題： Community care lets suitable patients live relatively independent lives and maintain autonomy, while still receiving help.比較結果：意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的中伏位是 “not meant to be left entirely to their own devices”。原文確實說病人不應被完全放手不管，所以 community care 不是 full independence。但題目只說 less dependent，不是totally independent。原文的 “relatively independent life” 和 “a degree of autonomy” 正好支援less dependent 這個較溫和的說法。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Care in the Community.pdf",
+    "sha256": "d97929d8eb15a03cd40bd74fb3c8baf60c793954228f411d03352e09222c5f1e",
+    "pageCount": 37
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 介紹 “Bedlam” 一詞來源，並說明早期精神病院對病人的待遇近乎虐待。",
+        "label": "段落 段落功能"
+      },
+      {
+        "number": "2",
+        "summary": "Paragraph 描述二十世紀以前至二十世紀中期精神病院的殘酷處理方式，包括隔離、懲罰、2 濫用收容制度和 lobotomy，最後引出改革呼聲。 Paragraph 說明 care in the community 的出現、早期形式和近年專業支援服務的發展，並強3 調病人可保有一定自主性。 Paragraph 分析 community care 實行後暴露的問題：病人可能未能求助、可能自殘或危及他4 人，也可能因貧窮和孤立而復發。 Paragraph Dr. Mayalla 的看法：community care 對部分病人有幫助，但並不適合所有病人； 5 現時支援架構較以前完善。 Paragraph Anita Brown 的看法：她以母親身份出發，重視子女安全，因此反對可能令社區出6 現風險的方案。 Paragraph Bob Ratchett 的看法：以精神健康護士經驗出發，認為合適病人可從院外獨立生7 活中受益，並批評終身困在院舍的做法。",
+        "label": "1"
+      }
+    ]
+  }
+}

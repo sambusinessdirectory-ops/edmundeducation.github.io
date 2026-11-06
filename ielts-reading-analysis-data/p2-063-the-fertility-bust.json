@@ -1,0 +1,1813 @@
+{
+  "id": "p2-063-the-fertility-bust",
+  "catalogueId": "p2-063",
+  "catalogueIds": [
+    "p2-063"
+  ],
+  "passage": 2,
+  "title": "The Fertility Bust",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "F",
+    "E",
+    "B",
+    "C",
+    "A",
+    "C",
+    "D",
+    "G",
+    "H",
+    "A, B",
+    "A, C",
+    "A, B",
+    "A, B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "會否進一步下跌？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even further falls?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a twist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事情還有一個轉折。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That does not necessarily mean that birth rates will fall even more: there may yet be some natural floor, but it could mean that recovery from very low fertility rates proves to be slow or even non-existent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不一定代表出生率會進一步下跌；也許仍有某個自然底線，但這可能表示從極低 fertility rates中恢復會很慢，甚至不會恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經見到 heading 的核心：birth rates 是否 “fall even more”。這段不單講已發生的下降，也討論未來是否繼續下跌，以及 recovery 會否出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading 中最有定位力的是 “further falls”。原文對應 “fall even more”。另外，“natural floor” 表示可能有一個出生率不再下降的底線。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“People restrict family size by choice. Social, economic, and cultural factors then cause this natural fertility decline to overshoot. This changes expectations, to which people respond by having even fewer children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們出於選擇限制家庭規模。社會、經濟和文化因素之後令這種自然 fertility decline 過度下跌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會改變人們的期望，而人們又以生更少孩子作回應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾句建立了進一步下降的機制：少生孩子 → 社會期望改變 → 更少人想生孩子。最後一句再補充，出生率未必無限下跌，可能有 natural floor，但 recovery 也可能變得非常慢。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Even further falls= birth rates will fall even more= having even fewer children所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "一孩政策。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“One-child policy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent paper suggests how this might come about.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一篇近期論文提出，這種情況可能如何出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Postponement could permanently lower fertility, not just redistribute it across time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "延遲生育可能永久降低 fertility，而不只是把生育時間向後移。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段要解釋「為何人們最後生少於自己想要的孩子」。答案不在首句，但最後一句已提示：postponement 可能令 fertility 永久下降。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading 的定位詞是 “one-child policy”。原文中直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“If everyone does the same, one child becomes the norm: a one-child policy by example rather than coercion, as it were.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果每個人都這樣做，一個孩子便成為常態：可以說是一種靠榜樣形成、而非靠強制實施的一孩政策。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“If women postpone their first child past their mid-30s, it may be too late to have a second even if they want one…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果女性把第一胎推遲到三十五歲以後，即使她們想要第二個孩子，也可能已經太遲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句解釋為何 one child 會變成 norm。不是政府強迫人們只生一個，重點在時間推遲帶來的現實限制。大家都遲生第一胎時，社會上自然會形成一孩常態。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "One-child policy= one child becomes the norm= a one-child policy by example rather than coercion所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "德國情況不同。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany differs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany is something of an oddity in this.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國在這方面有點特殊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It raises questions about whether the low birth rates of Italy and Poland, say, really are, as some have argued, merely temporary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這令人質疑，例如 Italy 和 Poland 的低出生率是否真的如某些人所說，只是暫時現象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句中的 “oddity” 已直接表示 Germany differs。最後一句把德國經驗放到其他國家身上，說明德國的特殊情況可能令大家重新理解歐洲低 fertility。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading 的定位詞是 “Germany” 和 “differs”。原文有多個對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany is something of an oddity…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany is also odd…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany combines both.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國有點特殊；德國也很特殊；德國把兩種情況結合起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In most countries with low fertility, young women have their first child late, and stop at one. In Germany, women with children often have two or three, but many have none at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在大多數低 fertility 國家，年輕女性較遲生第一個孩子，然後只生一個。在德國，有孩子的女性通常有兩三個，但很多女性完全沒有孩子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是德國第一個差異：問題不只是每個家庭少生，也包括很多女性完全 childless。第二個差異是時間長："
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany is also odd in experiencing low fertility for such a long time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國另一個特殊之處是低 fertility 持續了很久。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Germany differs= Germany is something of an oddity= Germany is also odd= Germany combines both所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "可能原因。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Possible reasons”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The list of explanations for why German fertility has not rebounded is long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "解釋德國 fertility 為何沒有回升的原因清單很長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If social and economic explanations account for persistent low fertility there, then they may well produce the same persistence elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果社會和經濟解釋能說明德國持續低 fertility，那它們也很可能在其他地方造成同樣持久的低fertility。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 “explanations”，和 heading “Possible reasons” 幾乎同義。這段的任務就是列出可能原因，並提出這些原因可能不只適用於德國。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading 的定位詞是 “reasons”。原文用 “explanations” 和 Michael Teitelbaum 的 list："
+            },
+            {
+              "kind": "quote",
+              "text": "“poor childcare; unusually extended higher education; inflexible labour laws; high youth unemployment; and non-economic or cultural factors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "差劣的 childcare、異常漫長的 higher education、缺乏彈性的 labour laws、高青年失業率，以及非經濟或文化因素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些項目不是單一原因，而是一串可能因素。後文 Günter Grass 的 novel 是 cultural factor 的例子，說一對模範夫婦寧願在亞洲海灘玩樂，也不願投入時間和精力養育孩子。段末再說除了cultural factor 外，這些特徵都不是德國獨有。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Possible reasons= explanations= poor childcare / higher education / labour laws / youth unemployment / cultural factors所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Five True Statements",
+      "prompt": "Questions 18–22",
+      "translation": "德國有最高比例的無子女女性。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目要求："
+            },
+            {
+              "kind": "quote",
+              "text": "“FIVE of the following statements are true.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文提醒：這題不是 TRUE / FALSE / NOT GIVEN 逐題判斷，而是八選五。每個正確選項要獨立找到原文支援；Golden Manual 對 multiple-answer 題也提醒，不能用一段模糊證據一次包辦所有答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案：A, C, D, G, H Statement A"
+            },
+            {
+              "kind": "label",
+              "text": "句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany has the highest percentage of childless women.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Falling populations – the despair of state pension systems – are often regarded with calmness, even a secret satisfaction, by ordinary people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人口下降令國家退休金制度憂心，但普通人往往平靜看待，甚至暗中滿意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even if the share is 25 per cent, as other surveys suggest, it is by far the highest in Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使比例是其他調查所指的 25%，它仍遠遠是歐洲最高。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 statement 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Germany”、“highest percentage” 和 “childless women”。原文有 “30 per cent of German women are, and will remain, childless” 和 “highest in Europe”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Germans have been agonising about recent European Union estimates suggesting that 30 per cent of German women are, and will remain, childless.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國人一直為近期 European Union 的估算感到焦慮，該估算指 30% 德國女性現在無子女，並且將會保持無子女狀態。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Even if the share is 25 per cent, as other surveys suggest, it is by far the highest in Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使比例是其他調查所說的 25%，這仍然遠遠是歐洲最高。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "highest percentage of childless women= by far the highest in Europe= share of German women who are childless所以 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Statement C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the reasons given by Michael Teitelbaum are not unique to Germany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael Teitelbaum 提出的多數原因並非德國獨有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The list of explanations for why German fertility has not rebounded is long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "解釋德國 fertility 為何沒有回升的原因清單很長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If social and economic explanations account for persistent low fertility there, then they may well produce the same persistence elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果社會和經濟解釋能說明德國持續低 fertility，那它們也很可能在其他地方造成同樣持續的低fertility。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 statement 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Michael Teitelbaum” 和 “not unique to Germany”。原文先列出 Teitelbaum 的原因，再說 “none of these features is peculiar to Germany”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Michael Teitelbaum… ticks them off: poor childcare; unusually extended higher education; inflexible labour laws; high youth unemployment; and non-economic or cultural factors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael Teitelbaum 列出這些原因：差劣 childcare、異常漫長的 higher education、缺乏彈性的labour laws、高青年失業率，以及非經濟或文化因素。"
+            },
+            {
+              "kind": "quote",
+              "text": "“With the exception of this cultural factor, none of these features is peculiar to Germany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了這個文化因素外，這些特徵沒有一項是德國獨有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Most of the reasons”，原文說除 cultural factor 外，其餘都不獨屬德國。這正好支持"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“most”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not unique to Germany= none of these features is peculiar to Germany所以 C 正確。 Statement D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子：“Governments in eastern Europe encouraged people to have children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "東歐政府曾鼓勵人們生育。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reason for hoping otherwise is that the initial decline in southern and eastern Europe was drastic, and may be reversible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍可抱有希望的原因，是南歐和東歐最初的 decline 很劇烈，而且可能可逆轉。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or people may really be having fewer children than they claim to want.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "或者，人們實際上真的生少於自己聲稱想要的孩子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 statement 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “eastern Europe” 和 “encouraged people to have children”。原文用 “pro-birth policies”表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In eastern Europe, it was associated with the collapse in living standards and the ending of pro-birth policies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在東歐，fertility decline 與生活水平崩潰，以及 pro-birth policies 的結束有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pro-birth policies” 指鼓勵生育的政策。既然文章說這些政策 ended，代表以前存在過鼓勵生育的政策。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Governments encouraged people to have children= pro-birth policies所以 D 正確。 Statement G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子：“In 2001, people wanted fewer children than in 1979, according to Eurobarometer research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Eurobarometer 研究，2001 年人們想要的孩子數比 1979 年少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D + Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 提到 1979 年 Eurobarometer 的 ideal family size；Paragraph F 則提到 2001 年重複調查的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1979, Eurobarometer asked Europeans how many children they would like. Almost everywhere, the answer was two…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1979 年，Eurobarometer 問歐洲人想要多少孩子。幾乎每個地方的答案都是兩個。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Eurobarometer repeated its poll about ideal family size in 2001, support for the two-child model had fallen everywhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Eurobarometer 在 2001 年重複關於理想家庭規模的民調時，各地對 two-child model 的支持都下降了。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 statement 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “2001”、“1979” 和 “Eurobarometer”。這題需要跨段連接兩次調查。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1979 年：人們幾乎都回答 two。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2001 年：support for the two-child model had fallen everywhere。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不代表每個人都一定想要零個或一個，但在本文脈絡中，two-child ideal 的支持下降，表示理想家庭規模有向下移動的趨勢。Statement G 把這個趨勢概括成 people wanted fewer children than in 1979，是合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "people wanted fewer children= support for the two-child model had fallen 1979 two-child ideal= almost everywhere, the answer was two所以 G 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Statement H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“There may be a natural level at which birth rates stop declining.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出生率可能有一個自然底線，到那裡便停止下跌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a twist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事情還有一個轉折。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That does not necessarily mean that birth rates will fall even more: there may yet be some natural floor…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不一定代表出生率會進一步下跌；也許仍有某個 natural floor。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 statement 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “natural level” 和 “stop declining”。原文對應 “natural floor”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“there may yet be some natural floor”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許仍有某個自然底線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“floor” 在這裡不是地板，而是最低水平。自然底線表示出生率可能不會一直向下跌。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "natural level at which birth rates stop declining= natural floor所以 H 正確。錯項快速排除B 錯：原文說 Italy 和 Poland 是 “low birth rates”，不是 high birth rates。 E 錯：1979 年 Eurobarometer 問的是人們想要多少孩子，不是實際家庭有幾個孩子。 F 錯：這是 politicians 的預期說法，而且後文的 overshoot theory 對此有所保留；文章沒有把它當成已證明的一般事實。所以 Questions 18–22 答案是 A, C, D, G, H。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Choose the correct",
+      "prompt": "“Reasons that ordinary Europeans do not think it is necessary to have as many children include…”",
+      "translation": "普通歐洲人覺得沒有必要生那麼多孩子的原因包括甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Falling populations – the despair of state pension systems – are often regarded with calmness, even a secret satisfaction, by ordinary people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人口下降令國家退休金制度憂心，但普通人往往平靜看待，甚至暗中滿意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even if the share is 25 per cent, as other surveys suggest, it is by far the highest in Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使比例是 25%，它仍遠遠是歐洲最高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 段前半解釋 ordinary people 為何不太擔心 falling populations；題目也直接問 ordinary Europeans 的 reasons，因此定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 “less labour needed to farm land” 對應 “no longer need large families to gather the harvest”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的 “Europe is too crowded” 直接對應 “Much of Europe is too crowded as it is”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 的 “general dislike of children” 原文沒有出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Europeans no longer need large families to gather the harvest or to look after parents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐洲人不再需要大家庭去收割農作物或照顧父母。"
+            },
+            {
+              "kind": "quote",
+              "text": "“They have used their good fortune to have fewer children, thinking this will make their lives better.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們利用自己的好運少生孩子，認為這會令生活更好。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of Europe is too crowded as it is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐洲很多地方本來已經太擠迫。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。gather the harvest = farm labour。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。Europe too crowded 是原文直接支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 不成立。原文沒有說 Europeans 普遍不喜歡 children。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A, B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Choose the correct",
+      "prompt": "“Michael Teitelbaum adds the following reasons…”",
+      "translation": "Michael Teitelbaum 補充了哪些原因？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The list of explanations for why German fertility has not rebounded is long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "解釋德國 fertility 為何沒有回升的原因清單很長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If social and economic explanations account for persistent low fertility there, then they may well produce the same persistence elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果社會和經濟解釋能說明德國持續低 fertility，它們也可能在其他地方造成同樣持久的低fertility。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有 Michael Teitelbaum，是強定位詞。原文在 C 段直接列出他的 reasons。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Michael Teitelbaum… ticks them off: poor childcare; unusually extended higher education; inflexible labour laws; high youth unemployment; and non-economic or cultural factors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael Teitelbaum 列出原因：差劣 childcare、異常漫長的 higher education、缺乏彈性的 labour laws、高青年失業率，以及非經濟或文化因素。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A poor childcare facilities正確。原文是 “poor childcare”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B longer working hours不成立。原文提到 “inflexible labour laws”，沒有說 longer working hours。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C high unemployment amongst young adults正確。原文是 “high youth unemployment”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A, C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Choose the correct",
+      "prompt": "“Initial declines in southern and eastern Europe occurred because of…”",
+      "translation": "南歐和東歐最初 fertility decline 的原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reason for hoping otherwise is that the initial decline in southern and eastern Europe was drastic, and may be reversible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍有不同希望的原因，是南歐和東歐最初的 decline 很劇烈，並且可能可逆轉。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or people may really be having fewer children than they claim to want.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "或者，人們真的生少於自己聲稱想要的孩子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接出現 “initial decline in southern and eastern Europe”，和題目完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 Catholic Church 對應 “traditional Catholicism”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的 lower standards of living 對應 “collapse in living standards”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 的 governments encouraged smaller families 與原文 “ending of pro-birth policies” 不相符。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Mediterranean, demographic decline was associated with freeing young women from the constraints of traditional Catholicism, which encouraged large families.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Mediterranean 地區，人口下降與年輕女性從傳統 Catholicism 的限制中解放出來有關；傳統Catholicism 鼓勵大家庭。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In eastern Europe, it was associated with the collapse in living standards and the ending of pro-birth policies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在東歐，人口下降與生活水平崩潰，以及鼓勵生育政策的結束有關。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。reduced influence of Catholic Church 對應 freeing young women from traditional Catholicism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。lower standards of living 對應 collapse in living standards。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 不成立。原文說 pro-birth policies ended，即鼓勵生育的政策停止；這不等於政府鼓勵 small families。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A, B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Choose the correct",
+      "prompt": "“People may have fewer children than they want because…”",
+      "translation": "人們可能生少於自己想要的孩子，原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent paper suggests how this might come about.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一篇近期論文提出，這種情況可能如何出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Postponement could permanently lower fertility, not just redistribute it across time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "延遲生育可能永久降低 fertility，而不只是把生育重新分配到較後時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段結尾提出 “people may really be having fewer children than they claim to want”，E 段首句的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“this” 正是回應這個問題。所以 Q26 應主要看 E 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 “later age” 對應 “postpone their first child past their mid-30s”。 B 的 “following the example of other people” 對應 “one-child policy by example rather than coercion”。 C 的 politicians 沒有原文支援。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“If women postpone their first child past their mid-30s, it may be too late to have a second even if they want one…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果女性把第一個孩子延遲到三十五歲以後，即使她們想要第二個孩子，也可能太遲。"
+            },
+            {
+              "kind": "quote",
+              "text": "“If everyone does the same, one child becomes the norm: a one-child policy by example rather than coercion, as it were.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果所有人都這樣做，一個孩子便成為常態：可以說是一種靠榜樣形成、而非靠強制的一孩政策。"
+            },
+            {
+              "kind": "quote",
+              "text": "“If women wait to start a family until they are established at work, they may end up postponing children longer than they might otherwise have chosen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果女性等到工作穩定才開始建立家庭，她們最後可能把生育推遲得比原本會選擇的時間更久。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。女性較遲生孩子，可能令第二胎變得太遲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。大家都遲生、少生時，一個孩子變成 norm，其他人也會受 example 影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 不成立。文章提到 politicians 的說法，是他們預期南歐女性會很快生第二、第三胎；原文沒有說politicians 想人們少生孩子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A, B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Fertility Bust.pdf",
+    "sha256": "506517494ead7a295c091e44954e108e1c0c25523001f8b7fd2f43faa0c043ab",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 population falling 令 state pension systems 絕望，但 ordinary people 反應卻較平靜，甚至暗中滿意。最後一句說，即使德國無子女女性比例是 25%，仍是歐洲最高。只看首尾句，可以先估計 A 段主要建立問題背景：歐洲人覺得少生孩子未必是壞事，因為現代生活不再需要大家庭；但德國女性 childless 比例特別高，令社會開始擔憂。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接說 Germany 在這方面有點 oddity，即情況特別。最後一句說，這引發疑問：Italy 和Poland 的低出生率是否真的只是 temporary。只看首尾句，可以估計 B 段重點是比較德國與其他歐洲國家的 fertility pattern。德國特殊之處在於很多女性完全沒有孩子，而且低 fertility 維持很久，這挑戰了「歐洲生育率會自然回穩」的想法。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說解釋德國 fertility 沒有 rebound 的原因清單很長。最後一句指出，如果社會和經濟因素能解釋德國持續低 fertility，它們也可能在其他地方造成同樣持久的低生育率。只看首尾句，可以估計 C 段是「原因段」：它會列出 childcare、higher education、labour laws、youth unemployment 和cultural factors。題目若問 possible reasons 或 Michael Teitelbaum，應先看這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說仍有理由希望南歐和東歐情況不同，因為它們初期 fertility decline 很劇烈，可能可逆轉。最後一句提出兩種可能：舊思維仍影響答案，或人們真的生少於自己聲稱想要的孩子。只看首尾句，可以估計 D 段處理「低生育率是否會回升」這個問題，並比較 Mediterranean、Eastern Europe、Italy、Spain 和 Germany 的不同下降原因。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說一篇 recent paper 解釋為何人們可能生少於自己想要的孩子。最後一句說，postponement可能永久降低 fertility，不單是把生育時間向後推。只看首尾句，可以判斷 E 段核心是 delayed childbirth：女性太遲生第一胎，便可能趕不及生第二胎；如果大家都這樣做，一個孩子會變成社會標準，形成「靠例子形成的一孩政策」。"
+      },
+      {
+        "number": "F",
+        "summary": "首句用 “There is a twist” 帶出新變化：如果人們生少於自己聲稱想要的孩子，他們對家庭的看法也可能改變。最後一句說，這未必代表出生率會繼續下跌，但可能令 recovery 很慢，甚至不會出現。只看首尾句，可以估計 F 段處理更長遠的 demographic trap：低生育改變期望，期望再推低生育意願。"
+      }
+    ]
+  }
+}

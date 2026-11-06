@@ -1,0 +1,2349 @@
+{
+  "id": "p1-089-the-search-for-colour",
+  "catalogueId": "p1-089",
+  "catalogueIds": [
+    "p1-089"
+  ],
+  "passage": 1,
+  "title": "The Search for Colour",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "visible",
+    "natural clays",
+    "biological matter",
+    "carminic acid",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "mucus",
+    "leaves",
+    "stone",
+    "stable",
+    "accidentally"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "visible",
+      "answerKey": "visible",
+      "type": "Sentence Completion",
+      "prompt": "“Ultimately, pigments are important because they are so 1 ______.”",
+      "translation": "歸根究底，顏料之所以重要，是因為它們非常 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 “so”，答案大概率是形容詞。題目用 “Ultimately” 概括整段邏輯，所以要找 Paragraph 1 中作者解釋 pigments 為何重要的位置。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We seldom reflect on the artificial colour of modern merchandise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們很少思考現代商品的人造顏色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consequently, the production of these substances is big business, now accounting for over twenty billion dollars annually in global sales—yet there was a time when none of it existed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，這些物質的生產是一門大生意，如今全球年銷售額超過二百億美元；但曾經有一段時間，這一切都不存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能是介紹 colour / pigment 的日常存在感和商業重要性。題目問 pigments important because they are so…，自然要在這段找 colour 為何影響商品選擇。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“pigments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“important”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the case, colour is the most visible element in the objects we desire, so pigments can be said to underlie customer choice and, therefore, almost all commercial transactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論是哪一種情況，顏色都是我們想要的物件中最看得見的元素；所以可以說，顏料支撐著顧客選擇，進一步影響幾乎所有商業交易。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案藏在 “colour is the most visible element”。題目把原文的完整邏輯壓縮成一句：顏色很 visible→ 顏料提供顏色→ 顏料影響 customer choice→ 顏料有重大商業重要性題目問 “pigments are important because they are so ______”，雖然原文直接說 visible 的主語是colour，但在語境中 pigment 的重要性正是來自它決定商品顏色。題目需要從 passage 取詞，最精準是一個形容詞： visible"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“pigments are important”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“pigments can be said to underlie customer choice”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“because they are so ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“colour is the most visible element”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： visible 是一個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “big business”。那是結果，說明顏料產業賺錢；題目問顏料重要的根本原因，重點要回到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“most visible element”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "natural clays",
+      "answerKey": "natural clays",
+      "type": "Sentence Completion",
+      "prompt": "“Umber and sienna are examples of 2 ______.”",
+      "translation": "Umber 和 sienna 是 ______ 的例子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求一個名詞短語。題目中的 umber、sienna 是強定位詞，因為它們是具體顏色或顏料名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Going back into the mists of prehistory, objects, tools, and clothing were all in natural, muted tones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "回到史前時代的迷霧中，物件、工具和衣服都呈自然、柔和的色調。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ash and charcoal (derived from heating wood in the absence of oxygen) were also used to provide black, but in the search for colour, it was soon discovered that biological matter, such as plants, animal waste, molluscs, and insects, could yield more interesting results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "灰和木炭也曾用來提供黑色；但在尋找顏色的過程中，人們很快發現植物、動物廢物、軟體動物和昆蟲等生物材料能帶來更有趣的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 2 交代早期顏色來源，先是自然和礦物顏料，再轉到 biological matter。umber 和 sienna 出現在礦物顏料部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“umber”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sienna”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first pigments used were of mineral origin—from natural clays tinted by the presence of iron oxides. The best-known examples are the gold colour of ochre, the brown of umber, and the yellow of sienna.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最早使用的顏料來自礦物，即受氧化鐵影響而帶色的天然黏土。最著名的例子包括赭石的金色、umber 的棕色，以及 sienna 的黃色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句先給大類："
+            },
+            {
+              "kind": "quote",
+              "text": "“natural clays tinted by the presence of iron oxides”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二句再列例子： ochre umber sienna因此 umber 和 sienna 是 natural clays 的例子。雖然前面也有 “of mineral origin”，但題目句子是"
+            },
+            {
+              "kind": "quote",
+              "text": "“examples of ______”，填 “natural clays” 在文法和意思上最自然；“examples of mineral origin”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "語法不順。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Umber and sienna are examples of…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best-known examples are … the brown of umber, and the yellow of sienna.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： natural clays 是 two words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“mineral origin” 很接近答案位置，但它描述來源類型；空格要求可數或集合名詞短語，和examples of 最自然連接的是 natural clays。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "biological matter",
+      "answerKey": "biological matter",
+      "type": "Sentence Completion",
+      "prompt": "“Originally, more unusual colours were derived from 3 ______.”",
+      "translation": "起初，較特別的顏色來自 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “from”，答案應是一個來源名詞短語。題目中的 “more unusual colours” 對應原文中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“more interesting results”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“Going back into the mists of prehistory, objects, tools, and clothing were all in natural, muted tones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "回到史前時代，物件、工具和衣服都呈自然、柔和色調。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ash and charcoal (derived from heating wood in the absence of oxygen) were also used to provide black, but in the search for colour, it was soon discovered that biological matter, such as plants, animal waste, molluscs, and insects, could yield more interesting results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "灰和木炭也曾用來提供黑色；但在尋找顏色時，人們很快發現植物、動物廢物、軟體動物和昆蟲等生物材料能帶來更有趣的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已可看到由 ash / charcoal 轉向 biological matter。題目中的 more unusual colours 應該定位到 “more interesting results”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more unusual colours”"
+            },
+            {
+              "kind": "quote",
+              "text": "“derived from”"
+            },
+            {
+              "kind": "quote",
+              "text": "“originally”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“biological matter, such as plants, animal waste, molluscs, and insects, could yield more interesting results.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“yield” 在這裡表示「產生」。“more interesting results” 指相對於自然、柔和、礦物色和黑色，生物材料能帶來更鮮明或更特別的顏色。題目把 “could yield” 改寫成 “were derived from”。答案要用文章原詞，所以填： biological matter"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“more unusual colours”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“more interesting results”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were derived from”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“could yield”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： biological matter 是 two words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填後面列舉的 plants、molluscs 或 insects。那些只是 biological matter 的例子；題目問總來源，應填上位類別。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "carminic acid",
+      "answerKey": "carminic acid",
+      "type": "Sentence Completion",
+      "prompt": "“Generally, predators of insects do not like the taste of 4 ______.”",
+      "translation": "一般來說，昆蟲的捕食者不喜歡 ______ 的味道。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “taste of”，答案應是一種物質。題目把 “predators do not like the taste” 用普通說法表達，原文可能用 “discourages predation”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 3–4 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crimson—a bright red colour—is a good example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crimson 這種明亮紅色就是一個好例子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This increased the price of the product, the end result being that, in Northern Europe, pure crimson long remained a luxury colour for clothing and textiles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這提高了產品價格，最終令純正 crimson 在北歐長期成為服裝和紡織品中的奢侈顏色。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, across the Pacific Ocean, people were producing the same colour from the same chemical in another insect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，在太平洋彼岸，人們也從另一種昆蟲中的同一化學物質製造同一種顏色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首尾句，可以看到 crimson 的來源是昆蟲中的某種化學物質。題目問捕食者不喜歡的taste，應掃描 chemical / predation 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“predators”"
+            },
+            {
+              "kind": "quote",
+              "text": "“insects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taste”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 taste，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pigment comes from carminic acid produced inside the creature’s body, which discourages predation by birds or other insects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種顏料來自該生物體內產生的 carminic acid；這種物質會阻止鳥類或其他昆蟲捕食牠。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 亦有："
+            },
+            {
+              "kind": "quote",
+              "text": "“they need to produce higher concentrations of carminic acid for protection”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們需要產生更高濃度的 carminic acid 來保護自己。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“discourages predation” 表示令捕食者不想吃牠們。題目把這個機制用更日常的說法改寫成“predators … do not like the taste”。雖然原文沒有直接說 taste，但昆蟲產生 carminic acid 來防止被吃，題目中的 taste 是對這種防禦效果的合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“predators of insects do not like the taste of…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“carminic acid … discourages predation by birds or other insects”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： carminic acid 是 two words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 crimson。Crimson 是顏色名稱，並非昆蟲用來防禦捕食者的化學物質。真正控制答案的是 “discourages predation”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Kermes were easy to collect.”",
+      "translation": "Kermes 很容易採集。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目主體是 Kermes，判斷點是 “easy to collect”。要看原文有沒有說採集容易，或提供相反資訊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crimson—a bright red colour—is a good example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crimson 這種明亮紅色就是一個好例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This increased the price of the product, the end result being that, in Northern Europe, pure crimson long remained a luxury colour for clothing and textiles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這提高了產品價格，結果是純正 crimson 在北歐長期屬於服裝和紡織品中的奢侈顏色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段會解釋 crimson 為何昂貴。若昂貴原因和 kermes 採集困難有關，題目很可能在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kermes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“easy to collect”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, with the trees being large and bushy, and the sap-feeding insects few and far between, pigment production was a meticulous and time-consuming process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，由於樹木又大又茂密，這些吸食樹液的昆蟲又非常稀少，顏料生產是一個細緻且耗時的過程。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Kermes were easy to collect。原文提供多個相反訊號： trees being large and bushy= 宿主樹大而濃密，不易尋找昆蟲insects few and far between= 昆蟲稀少，分散難找meticulous and time-consuming process= 生產過程細緻且耗時這些資訊共同表示 kermes 採集和生產並不容易。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“easy to collect”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“few and far between”"
+            },
+            {
+              "kind": "quote",
+              "text": "“meticulous and time-consuming”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文直接提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 kermes 是 “small insect found on southern European oak trees”，便覺得找到宿主樹即可採集。但後句說樹大、昆蟲稀少，這才是判斷答案的核心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Kermes produce better pigment than cochineals.”",
+      "translation": "Kermes 產生的顏料比 cochineals 更好。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較 kermes 和 cochineals 的 pigment quality。判斷點是 “better pigment than”。要找原文是否有 stronger、longer-lasting、advantages 等比較詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, across the Pacific Ocean, people were producing the same colour from the same chemical in another insect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，在太平洋彼岸，人們從另一種昆蟲中的同一化學物質製造同一種顏色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, after the Spanish conquest of Mexico, cochineals replaced kermes almost completely, becoming a lucrative Central American export for the next few centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，在西班牙征服墨西哥後，cochineals 幾乎完全取代 kermes，並在接下來幾個世紀成為有利可圖的中美洲出口品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段主旨是 cochineals 如何取代 kermes。若題目說 kermes 更好，就要細讀比較句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kermes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cochineals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“better pigment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These insects have many advantages over kermes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些昆蟲相對 kermes 有許多優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pigment which results is also stronger and longer-lasting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由此產生的顏料也更強烈，而且更持久。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“these insects” 指 cochineals。原文說 cochineals have many advantages over kermes，並指出其 pigment stronger and longer-lasting。這表示 cochineals 的顏料品質更好。題目說 Kermes produce better pigment than cochineals，方向和原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kermes produce better pigment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文： cochineals produce pigment that is “stronger and longer-lasting”判斷：原文清楚說 cochineals 在顏料方面更有優勢，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "kermes 先被介紹，並且在 Northern Europe 長期屬於 luxury colour，容易令人覺得它品質高。但貴的原因主要是難以生產，不代表比 cochineals 的顏料更好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Kermes are bigger than cochineals.”",
+      "translation": "Kermes 比 cochineals 大。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是比較題。要選 TRUE 或 FALSE，原文必須提供兩者大小比較。只說兩者都是 small，不足以判斷誰更大。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 3–4 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crimson—a bright red colour—is a good example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crimson 這種明亮紅色就是一個好例子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, across the Pacific Ocean, people were producing the same colour from the same chemical in another insect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，在太平洋彼岸，人們從另一種昆蟲中的同一化學物質製造同一種顏色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首句，可知 Paragraph 3 介紹 kermes，Paragraph 4 介紹 cochineals。題目要求比較兩者大小，所以要跨兩段檢查是否有 size comparison。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kermes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cochineals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bigger”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對 kermes 的描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“a small insect found on southern European oak trees”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種在南歐橡樹上找到的小昆蟲。"
+            },
+            {
+              "kind": "label",
+              "text": "原文對 cochineals 的描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“small, scaly creatures”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "小而有鱗狀外表的生物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說： kermes = small insect cochineals = small, scaly creatures兩者都被稱為 small，但沒有比較： kermes larger than cochineals cochineals larger than kermes same size body length / weight / scale題目要求的是 “bigger than”，這是明確比較。原文提供相關背景，仍缺少比較結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：沒有明確衝突，也沒有支持，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "兩段都出現 small，學生可能想推斷兩者一樣大或無法更大。但 IELTS 不能用 vague size adjectives 自行比較。small 只表示小，沒有建立 kermes 和 cochineals 的相對大小。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cochineals are still a valuable crop.”",
+      "translation": "Cochineals 現在仍然是一種有價值的商業產物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 “still” 和 “valuable”。原文可能不直接用 crop 或 valuable，但若說其顏料重新受歡迎、商業生產、出口，就可支持這個說法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mass production followed, bringing industrial prosperity to Northern Europe but causing decline in many parts of the world where organic pigments were still produced by traditional methods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨後出現大規模生產，為北歐帶來工業繁榮，但也令世界許多仍以傳統方法生產有機顏料的地方走向衰落。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pigment is now commercially produced in several countries, with Peru being the largest exporter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種顏料如今在多個國家商業生產，其中 Peru 是最大出口國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段由傳統有機顏料衰落，轉向某些天然顏料的現代商業復興。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cochineals 應該在中間句出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cochineals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“still”"
+            },
+            {
+              "kind": "quote",
+              "text": "“valuable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crop”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this modern age, there has been a shift back towards natural products, even in pigments, and this has seen a resurgence in the popularity of cochineals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在現代，市場重新轉向天然產品，即使顏料亦如此；這令 cochineals 的受歡迎程度重新上升。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pigment is now commercially produced in several countries, with Peru being the largest exporter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種顏料現在在多個國家商業生產，Peru 是最大出口國。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “still a valuable crop”。原文沒有逐字說 valuable crop，但提供清楚商業證據： resurgence in popularity= 重新受歡迎commercially produced= 商業生產largest exporter= 有出口市場和經濟價值另外 Paragraph 4 曾說 cochineals became “a lucrative Central American export”。Paragraph 8說它在現代重新流行並被商業生產，這支援 still valuable 這個概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“still a valuable crop”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“resurgence in the popularity of cochineals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“commercially produced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“largest exporter”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文支持 cochineals 到今天仍具商業價值，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“crop” 一字可能令學生猶豫，因為 cochineals 是昆蟲，不是植物作物。這裡 crop 可理解為可生產和出口的商業產物；題目核心在 “still valuable”，原文的 commercially produced 和 exporter 足以支撐。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "mucus",
+      "answerKey": "mucus",
+      "type": "Summary Completion",
+      "prompt": "“The best purple originally came from the 9 ______ of sea snails…”",
+      "translation": "最好的紫色最初來自海螺的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the”，後面有 “of sea snails”，答案應是 sea snails 身上的某種物質。題目中的 “best purple” 對應 Tyrian purple。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lure of crimson was only exceeded by the vivid ‘Tyrian purple’—a colour which had been held in the highest regard since antiquity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crimson 的吸引力只被鮮明的 Tyrian purple 超越；這種顏色自古以來一直受到最高推崇。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roman emperors traditionally wore clothing of this colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "羅馬皇帝傳統上穿著這種顏色的衣服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 5 講 Tyrian purple 的尊貴地位和來源。題目說 best purple originally came from sea snails，目標段就是這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“purple”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sea snails”"
+            },
+            {
+              "kind": "quote",
+              "text": "“came from”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its source was the medium-sized Murex sea snail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的來源是中等大小的 Murex 海螺。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Distributed around the Mediterranean coast, early civilisations there soon realised that the mucus the snail secretes when poked and prodded could be treated to produce a purplish-blue dye which did not fade with time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Murex 海螺分布於地中海沿岸；當地早期文明很快發現，海螺被戳刺和刺激時分泌的黏液可經處理製成一種不會隨時間褪色的紫藍色染料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “came from the ______ of sea snails”。原文說能製成 dye 的物質是 “the mucus the snail secretes”。所以答案是 mucus。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“best purple originally came from…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“mucus … could be treated to produce a purplish-blue dye”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： mucus 是 one word，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 snail。題目已經有 sea snails，空格問的是海螺身上的具體物質。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "leaves",
+      "answerKey": "leaves",
+      "type": "Summary Completion",
+      "prompt": "“…although the oldest pigment for clothing was from the 10 ______ of indigo.”",
+      "translation": "雖然最古老的衣物染色顏料來自 indigo 的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the”，後面有 “of indigo”，答案應是植物部位。題目中的 “oldest pigment for clothing”對應原文 “oldest pigment used to colour fabric”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For a less durable blue suitable for dyeing clothes, people discovered that the indigo plant could be used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了取得一種較不持久但適合染衣服的藍色，人們發現可以使用 indigo plant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others, however, were deliberately extravagant in its use, producing proportionally more expensive paintings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，另一些藝術家故意大量使用這種昂貴顏料，製作出成本比例更高的畫作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段先講 indigo clothing dye，後面轉向昂貴繪畫用藍色。Question 10 關於 clothing，所以應在段落前半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“indigo”"
+            },
+            {
+              "kind": "quote",
+              "text": "“oldest pigment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clothing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its leaves were fermented and left to age; the resulting sediment was then dried, treated and reduced to a blue powder.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的葉子會被發酵並放置陳化；所產生的沉澱物再被乾燥、處理，並還原成藍色粉末。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“This pigment can, in fact, be said to be the oldest pigment used to colour fabric.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，這種顏料可說是最古老的布料染色顏料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “oldest pigment for clothing” 對應 “oldest pigment used to colour fabric”。前一句說這種 pigment 的製作源頭是 indigo plant 的 leaves。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 leaves。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“for clothing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“to colour fabric”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“from the ______ of indigo”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its leaves were fermented…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： leaves 是 one word，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 plant。題目已經寫 “of indigo”，問的是 indigo 的哪個部位。真正答案來自 “Its leaves”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "stone",
+      "answerKey": "stone",
+      "type": "Summary Completion",
+      "prompt": "“The blue pigment used for painting came from a 11 ______ that cost so much…”",
+      "translation": "用於繪畫的藍色顏料來自一種非常昂貴的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，答案應是單數可數名詞。題目中的 “blue pigment used for painting” 對應 indigo 後面轉出的 artist / painting 部分。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For a less durable blue suitable for dyeing clothes, people discovered that the indigo plant could be used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了取得一種較不持久但適合染衣服的藍色，人們發現可以使用 indigo plant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others, however, were deliberately extravagant in its use, producing proportionally more expensive paintings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，有些藝術家故意大量使用這種昂貴顏料，製作成本比例更高的畫作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到段落從 clothes dye 轉到 paintings。題目問 painting blue pigment，應看段落後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“painting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blue pigment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cost so much”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“For that, European artists used a mixture derived from the grinding up of lapis lazuli, a semi-precious stone, whose only known source was in far-off Afghanistan.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了繪畫用途，歐洲藝術家使用一種混合物，它來自研磨 lapis lazuli；lapis lazuli 是一種半寶石，當時唯一已知來源在遙遠的阿富汗。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consequently, this colour was very costly…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，這種顏色非常昂貴。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 came from a ______ that cost so much。原文說 lapis lazuli 是 “a semi-precious stone”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為題目限制 ONE WORD，不能填 semi-precious stone；最核心名詞是 stone。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“blue pigment used for painting”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“For that, European artists used…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“came from a ______ that cost so much”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“lapis lazuli, a semi-precious stone”"
+            },
+            {
+              "kind": "quote",
+              "text": "“this colour was very costly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： stone 是 one word，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lapis lazuli 是 two words，不符合 ONE WORD。題目語法也提示答案要填 “a stone” 這個上位名詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "stable",
+      "answerKey": "stable",
+      "type": "Summary Completion",
+      "prompt": "“…an artificial replacement, Prussian Blue, was eventually produced, being not only inexpensive but also 12 ______.”",
+      "translation": "人工替代品 Prussian Blue 最終被製造出來，它不但便宜，也很 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “also”，並與 “inexpensive” 並列，所以答案應是形容詞。題目把 “cheap” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“inexpensive”，要找另一個並列形容詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7第一句：“The cost of this paint resulted in much experimentation during the Industrial Revolution in search of chemical-based alternatives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種顏料的成本促使工業革命期間出現大量實驗，以尋找化學替代品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such efforts, affordable pigments were soon found in all colours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過這些努力，各種顏色的可負擔顏料很快被找到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段講人工、化學顏料如何取代昂貴天然顏料。Prussian Blue 應是此段關鍵例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prussian Blue”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inexpensive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“replacement”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Discovered in Germany in the early 18th century, it was rapidly put into production and exported, giving artists around the world the first cheap yet stable blue pigment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它於 18 世紀初在德國被發現，很快投入生產並出口，為世界各地藝術家提供了第一種便宜但穩定的藍色顏料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “inexpensive” 對應原文 “cheap”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “but also ______” 對應原文 “yet stable”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 stable。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“not only inexpensive but also…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“cheap yet stable”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： stable 是 one word，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 affordable。affordable 出現在段落最後，概括所有顏色的顏料；Question 12 專門問Prussian Blue 除了便宜之外的另一特質，答案在 “cheap yet stable”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "accidentally",
+      "answerKey": "accidentally",
+      "type": "Summary Completion",
+      "prompt": "“Ironically, the prized purple colour was discovered 13 ______.”",
+      "translation": "諷刺的是，珍貴的紫色是 ______ 被發現的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位置在 discovered 後面，答案應是副詞，描述發現方式。題目中的 “prized purple colour” 對應 Murex snail 的 vivid purple / mauveine。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The cost of this paint resulted in much experimentation during the Industrial Revolution in search of chemical-based alternatives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種顏料的高成本，在工業革命期間引發大量實驗，以尋找化學替代品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such efforts, affordable pigments were soon found in all colours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過這些努力，各種顏色的可負擔顏料很快被找到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段整體講合成顏料突破。題目說 “Ironically” 和 “prized purple”，應找 purple 的人工發現方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“purple”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discovered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“William Perkin”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The vivid purple of the Murex snail was accidentally produced by an English chemist, William Perkin, who soon put ‘mauveine’ into commercial production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Murex sea snail 所提供的鮮明紫色，被英國化學家 William Perkin 意外製造出來；他很快把mauveine 投入商業生產。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “was discovered ______”，原文說 “was accidentally produced”。discovered 和 produced在這裡都指人工合成紫色的突破方式。原文提供的方式副詞是 accidentally。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“was discovered”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“was accidentally produced”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“prized purple colour”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the vivid purple of the Murex snail”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： accidentally 是 one word，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “commercial”。commercial production 是後續發展，題目問發現方式。真正定案的是副詞accidentally。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Search for Colour.pdf",
+    "sha256": "cd37130ffbb6f5e2e379ce50ef70ac09ddd95f124a231cc23710d197fd16eaed",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說我們很少思考現代商品的人造顏色，接著用 blue car、red chair、green bicycle 引入colour 和 pigment。末句說 pigment production 現在每年全球銷售超過二百億美元，但曾經有一段時間完全沒有這個產業。只看首尾句，可以先估計這段是全文導入：由日常商品顏色引出pigment / dye 的定義、商業價值，以及後文會回顧人類尋找顏色的歷史。"
+      },
+      {
+        "number": "2",
+        "summary": "首句把時間推回 prehistory，說物品、工具和衣服都是自然、柔和的色調。末句轉向 biological matter，指出植物、動物廢物、軟體動物和昆蟲能帶來更有趣的顏色。只看首尾句，可以看到這段負責交代最早顏料來源：先是 mineral origin 和 natural clays，例如 ochre、umber、sienna；之後人類發現生物材料可製造更特殊、更鮮明的顏色。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 crimson 是很好的例子，並解釋它是一種明亮紅色。末句說在 Northern Europe，pure crimson 長期是衣服和紡織品中的奢侈顏色。只看首尾句，可以估計這段會介紹 kermes insect 如何提供 crimson，以及為何這種顏色昂貴。段落中間應會說採集困難、生產耗時、樹木大而昆蟲稀少，所以這段對 kermes 相關判斷題非常重要。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說在太平洋彼岸，人們從另一種昆蟲中用同一化學物質製造同一顏色。末句說西班牙征服墨西哥後，cochineals 幾乎完全取代 kermes，成為接下來幾個世紀有利可圖的中美洲出口品。只看首尾句，可以先知道這段比較 cochineals 和 kermes：同樣產生 crimson，但 cochineals 更容易獲得、含有更多 carminic acid，顏料更強、更持久。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 crimson 的吸引力只被 vivid Tyrian purple 超越，這種顏色自古以來極受尊崇。末句說Roman emperors 傳統上穿這種顏色的衣服。只看首尾句，可以估計這段介紹最珍貴的紫色來源：Murex sea snail。中間應會解釋 snail mucus 如何製成不褪色 dye，以及為何需要大量海螺和複雜工序，結果紫色成為 ruling classes 和 royalty 的象徵。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說若要一種較不持久、適合染衣服的藍色，人們發現可用 indigo plant。末句說有些藝術家故意大量使用昂貴的藍色，讓畫作比例上更昂貴。只看首尾句，可以看到這段處理兩種 blue：一種來自 indigo leaves，適合染布，尤其和 jeans 有關；另一種來自 lapis lazuli，適合繪畫，但因來源遠在 Afghanistan，所以非常昂貴。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說這種 paint 的成本在 Industrial Revolution 期間引發大量實驗，尋找 chemical-based alternatives。末句說經過這些努力，各種顏色的 affordable pigments 很快被找到。只看首尾句，可以估計這段會說人工合成顏料的突破：Prussian Blue 是第一種 modern synthetic pigment，提供便宜又穩定的藍色；William Perkin 又意外製成 mauveine，令 purple 也走向商業生產。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 mass production 隨後出現，令 Northern Europe 工業繁榮，但令仍以傳統方式生產有機顏料的地區衰落。末句說 cochineal pigment 如今在多個國家商業生產，其中 Peru 是最大出口國。只看首尾句，可以看到這段是結尾：人工顏料造成傳統產業衰退，但現代社會又回到 natural products，cochineals 因此重新受歡迎，並保留商業價值。"
+      }
+    ]
+  }
+}

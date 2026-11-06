@@ -1,0 +1,1323 @@
+{
+  "id": "p2-137-paper-or-computer",
+  "catalogueId": "p2-137",
+  "catalogueIds": [
+    "p2-137"
+  ],
+  "passage": 2,
+  "title": "Paper or Computer?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "iv",
+    "iii",
+    "viii",
+    "ii",
+    "ix",
+    "i",
+    "collaborative and iterative",
+    "tangible",
+    "tailorable",
+    "search",
+    "A",
+    "A",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "iv — Overview of an unexpected situation: paper survives",
+      "answerKey": "iv — Overview of an unexpected situation: paper survives",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph A 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Computer technology was supposed to replace paper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：電腦科技原本被認為會取代紙張。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The dismay people feel at the sight of a messy desk — or the spectacle of air-traffic controllers tracking flights through notes scribbled on paper strips – arises from a fundamental confusion about the role that paper plays in our lives.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：人們看見凌亂書桌，或看見航空管制員用寫在紙條上的筆記追蹤航班時感到不安，源"
+            },
+            {
+              "kind": "paragraph",
+              "text": "自對紙張在生活中角色的根本誤解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最有定位力的概念是 “supposed to replace paper” 和 “paper has persisted”。Heading iv 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unexpected situation” 對應原文開頭的反差：電腦應該取代紙，但現實沒有發生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段中間說 Western world 每人用紙量比十年前更多，美國 office paper consumption 也"
+            },
+            {
+              "kind": "paragraph",
+              "text": "上升。作者再說，這通常被理解成舊習難改；可是 cognitive psychologists 和 ergonomics experts不同意，他們認為 paper persisted for very good reasons。所以 Paragraph A 的主旨不是單純講浪費，也不是比較哪個效率較高。它的真正功能是建立全文矛盾：paper should disappear, but it survives。Heading iv 最能概括。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v 提到 comparison between paper and computers，Paragraph A 的確有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "computerization，但 A 只是提出現象，未正式比較兩者功能。真正比較 paper / digital affordances的段落是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "iii — A favourable situation in which economists used paper",
+      "answerKey": "iii — A favourable situation in which economists used paper",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph B 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The case for paper is made most eloquently in ‘The Myth of the Paperless Office’, by two social scientists, Abigail Sellen and Richard Harper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Abigail Sellen 和 Richard Harper 兩位社會科學家的 The Myth of the Paperless"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Office 最有力地提出支持紙張的理據。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the end of the process, the author spreads out all the pages with comments on his desk and starts to enter them on the computer — moving the pages around as he works, organizing and reorganizing, saving and discarding.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：過程最後，作者把所有有註釋的頁面鋪在桌上，開始把修改輸入電腦；工作時他會移動"
+            },
+            {
+              "kind": "paragraph",
+              "text": "紙張、組織和重新組織、保留和捨棄。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “economists” 和 “IMF”。Paragraph B 直接說 “Economists at the IMF spend most"
+            },
+            {
+              "kind": "paragraph",
+              "text": "of their time writing reports”。這段不是講所有 office paper 的一般優點，而是用 IMF economists作個案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 IMF 的報告寫作是 “an intensely collaborative process”，涉及很多人的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "professional judgments and contributions。他們把 draft 帶到 conference rooms，鋪開頁面，協商修改，再手寫 comments，最後作者把所有頁面鋪開整理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的 “economists used paper” 對應 IMF economists；“favourable situation” 可理解為：在協作寫報告這個情境下，paper 特別有用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iii。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “The IMF’s paperless office appears to waste paper” 看似有 IMF 和 paper，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但原文沒有說 IMF 是 paperless office，也沒有把用紙描寫成 waste。段落立場偏向解釋 paper 有用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "viii — Advantages of using paper in offices",
+      "answerKey": "viii — Advantages of using paper in offices",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph C 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without paper, this kind of collaborative and iterative work process would be much more difficult.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沒有紙張，這種協作和反覆修改的工作流程會困難得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Knowing these things is important because they help a group coordinate its discussions and reach a shared understanding of what is being discussed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：知道這些事情很重要，因為它們幫助小組協調討論，並對正在討論的內容形成共同理"
+            },
+            {
+              "kind": "paragraph",
+              "text": "解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “paper has a unique set of affordances”。段內明確列出 paper 的三個"
+            },
+            {
+              "kind": "paragraph",
+              "text": "affordances：tangible、spatially flexible、tailorable。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段先說 paper 的優點：可拿起、翻閱、快速掌握文件；可鋪開和按需要排列；可註釋和塗"
+            },
+            {
+              "kind": "paragraph",
+              "text": "寫，而且不改變原文。然後承認 digital documents 也有優點，例如 searchable、shared、stored、remote access、linked。可是對一群人一起寫報告，paper 的可見性特別重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii “Advantages of using paper in offices” 覆蓋全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v “comparison between the efficiency of paper and computers” 有部分相關，因為段內有 digital documents，但主旨落在 paper 在 office collaboration 中的優點。v 太偏向效率比較，未能概括尾段的 group coordination。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "ii — Piles can inspire rather than indicate disorganisation",
+      "answerKey": "ii — Piles can inspire rather than indicate disorganisation",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph D 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paper enables a certain kind of thinking.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：紙張促成某一類思考。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over time, they get broken down and resorted, sometimes chronologically and sometimes thematically and sometimes chronologically and thematically; clues about certain documents may be physically embedded in the file by, say, stacking a certain piece of paper at an angle or inserting dividers into the stack.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：隨時間推移，紙堆會被拆開和重新整理，有時按時間，有時按主題，有時兩者兼用；某"
+            },
+            {
+              "kind": "paragraph",
+              "text": "些文件的線索甚至會透過把紙斜放或插入分隔物，實體地嵌入文件堆中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “piles”。Paragraph D 多次出現 piles、piling behavior、disorderly piles、archives、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "urgent business。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “The piles look like a mess, but they aren’t.” 這是本段關鍵。Apple Computer 的研"
+            },
+            {
+              "kind": "paragraph",
+              "text": "究發現，即使最凌亂的紙堆，對堆放者來說通常也很有意思。離工作區最近的堆通常是最急事務，最重要文件可能在最上方。紙堆會隨工作狀態被重新分類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 的 “rather than indicate disorganisation” 對應 “look like a mess, but they aren’t”。“can inspire” 稍微概括了第一句 “enables a certain kind of thinking”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ii。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x 提到 clear space，Paragraph D 的確有 “clear space roughly eighteen inches"
+            },
+            {
+              "kind": "paragraph",
+              "text": "square”，但那只是桌面描述的局部細節，不是全段主旨。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "ix — Piles reflect characteristics of people’s thoughts",
+      "answerKey": "ix — Piles reflect characteristics of people’s thoughts",
+      "type": "Matching Headings",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph E 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But why do we pile documents instead of filing them?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但為什麼我們把文件堆起來，而非全部歸檔？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What we see when we look at the piles on our desks is, in a sense, the contents of our brains.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：某種意義上，當我們看著桌上的紙堆時，我們看到的是自己大腦中的內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “piles”, “thinking”, “ideas”, “contents of our brains”。Heading ix 的 “people’s"
+            },
+            {
+              "kind": "paragraph",
+              "text": "thoughts” 直接對應原文 “ideas” 和 “contents of our brains”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Alison Kidd 的研究指出，knowledge workers 用桌面空間保存那些 “they cannot yet"
+            },
+            {
+              "kind": "paragraph",
+              "text": "categorize or even decide how they might use” 的 ideas。換句話說，紙堆反映腦中仍未分類的想法。messy desk 未必顯示無組織，也可能顯示工作複雜，因為想法仍在發展中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 最精準：piles reflect characteristics of people’s thoughts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 17 的 Paragraph D 偏向說紙堆有秩序；Paragraph E 再推進到認知層面，說紙堆像大腦內容的外化。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "i — Paper remains essential for sharing and management",
+      "answerKey": "i — Paper remains essential for sharing and management",
+      "type": "Matching Headings",
+      "prompt": "Question 19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph F 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This idea that paper facilitates a highly specialized cognitive and social process is a far cry from the way we have historically thought about the stuff.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：紙張促成高度專門化的認知和社交過程，這個想法與我們歷史上對紙張的看法相距很"
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paper was important not to facilitate creative collaboration and thought but as an instrument of control.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：紙張過去重要，重點在於它作為控制工具，而不是促進創意協作和思考。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “systematic management”, “monthly sales report”, “office manual”, “internal"
+            },
+            {
+              "kind": "paragraph",
+              "text": "company newsletter”, “instrument of control”。這些都和 management 直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段回到十九世紀後期 industrial economy。Managers 需要 company-wide policies，又要"
+            },
+            {
+              "kind": "paragraph",
+              "text": "求下屬定期提交 monthly、weekly、daily updates，於是出現 sales reports、office manuals、internal newsletters。Typewriter 和 carbon paper 令大量文件生產與複製更容易。Paper 在這裡是管理工具，也是控制工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的 “sharing and management” 可覆蓋公司報告、手冊、內部通訊和管理控制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 i。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “failed attempt to avoid paper records” 不合適，因為本段沒有講某次避免紙"
+            },
+            {
+              "kind": "paragraph",
+              "text": "張的失敗嘗試；它講 paper 在管理制度中的歷史角色。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "collaborative and iterative",
+      "answerKey": "collaborative and iterative",
+      "type": "Summary Completion",
+      "prompt": "“First, it allows staff to work in a 20 _________________ way with colleagues.”",
+      "translation": "首先，它讓員工能以一種 __________ 的方式與同事工作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without paper, this kind of collaborative and iterative work process would be much more difficult.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沒有紙張，這種協作和反覆修改的工作流程會困難得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Knowing these things is important because they help a group coordinate its discussions and reach a shared understanding of what is being discussed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：知道這些事情很重要，因為它們幫助小組協調討論，並對討論內容形成共同理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “work … with colleagues”。原文對應 “collaborative and iterative work process”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “in a”，空格後是 “way”，所以答案需要形容詞或形容詞短語。原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“collaborative and iterative” 正好可以放入：“work in a collaborative and iterative way”。 collaborative = 協作的。 iterative = 反覆修改、反覆推進的。字數限制是 no more than three words；“collaborative and iterative” 三個字，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "tangible",
+      "answerKey": "tangible",
+      "type": "Summary Completion",
+      "prompt": "“Next, unlike virtual digital versions, paper is 21 _________________.”",
+      "translation": "其次，和虛擬的數碼版本不同，紙張是 __________ 的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說沒有 paper，協作和反覆修改會更難。最後一句說可見的紙張動作有助小組協調。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “unlike virtual digital versions”。原文在列 paper affordances 時說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paper is tangible: we can pick up a document, flip through it, read little bits here and there, and quickly get a sense of it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "紙張是有實體、可觸摸的：我們可以拿起文件、翻閱、到處讀一小部分，並快速掌握它的大概內容。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要形容詞。tangible 的意思是「有實體的、可觸摸的」。這正好和題目中的 “unlike"
+            },
+            {
+              "kind": "paragraph",
+              "text": "virtual digital versions” 對應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "virtual digital versions = 非實體的數碼文件paper is tangible = 紙張有實體，可以拿起和翻閱所以答案是 tangible。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "tailorable",
+      "answerKey": "tailorable",
+      "type": "Summary Completion",
+      "prompt": "“Finally, because it is 22 _________________, notes or comments can be added easily.”",
+      "translation": "最後，因為紙張是 __________ 的，所以可以容易地加上筆記或評語。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句指出 paper 支持協作流程；最後一句指出 paper 的可見使用方式有助討論和共同理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “notes or comments can be added easily”。原文對應 “annotate it, and scribble"
+            },
+            {
+              "kind": "paragraph",
+              "text": "on it”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“And it’s tailorable: we can easily annotate it, and scribble on it as we read, without altering the original text.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它也是可按需要修改或標記的：我們閱讀時可以容易地在上面註釋和塗寫，而且不會"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改變原本正文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "tailorable = 可按需要調整、可加註、可作個人化處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “notes or comments can be added easily” 正是對 “we can easily annotate it, and scribble on it” 的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 tailorable。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "search",
+      "answerKey": "search",
+      "type": "Summary Completion",
+      "prompt": "“Its shortcoming, however, is a lack of convenience for a task involving a 23_________________.”",
+      "translation": "但它的缺點是，遇到涉及 __________ 的任務時不夠方便。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 paper 的協作優勢；中段轉到 digital documents 的優點；最後一句再說 paper 對 group coordination 的重要性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “shortcoming” 和 “lack of convenience”。原文沒有直接說 paper 的 shortcoming"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，而是用對比方式列出 digital documents 的 affordances："
+            },
+            {
+              "kind": "quote",
+              "text": "“Digital documents, of course, have their own affordances. They can be easily searched, shared, stored, accessed remotely, and linked to other relevant material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數碼文件當然也有自己的用途特質。它們可以容易地被搜尋、分享、儲存、遠端存取，以及連結到其他相關材料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求 “a task involving a ___”，所以空格需要名詞。原文用動詞形式 “searched”；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 句子用 noun form “search” 才合乎文法。這題的意思是：paper 在搜尋任務上不及digital documents 方便。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "digital documents can be easily searched= paper lacks convenience for a task involving a search答案是 search。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — They freely note their comments on drafts.",
+      "answerKey": "A — They freely note their comments on drafts.",
+      "type": "Multiple Choice",
+      "prompt": "“What do the IMF economists say about their way of writing documents?”",
+      "translation": "IMF 的經濟學家在寫文件的方法上，有甚麼做法？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The case for paper is made most eloquently in ‘The Myth of the Paperless Office’, by two social scientists, Abigail Sellen and Richard Harper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Abigail Sellen 和 Richard Harper 最有力地提出支持紙張的理據。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the end of the process, the author spreads out all the pages with comments on his desk and starts to enter them on the computer — moving the pages around as he works, organizing and reorganizing, saving and discarding.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：過程最後，作者把所有有註釋的頁面鋪在桌上，再把修改輸入電腦；工作時會移動紙"
+            },
+            {
+              "kind": "paragraph",
+              "text": "張、組織和重新組織、保留和捨棄。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “IMF economists”, “writing documents”, “comments”, “drafts”。Paragraph B 直接"
+            },
+            {
+              "kind": "paragraph",
+              "text": "描述 drafts、comments、annotated draft。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“They go back to their offices and jot down comments in the margin, taking advantage of the freedom offered by the informality of the handwritten note.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他們回到辦公室，在頁邊寫下評語，利用手寫筆記那種非正式形式所帶來的自由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 “freely note their comments on drafts” 對應： freely = taking advantage of the freedom note their comments = jot down comments on drafts = in the margin / annotated draft所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： B 說 they complete all their writing individually，和原文 “intensely collaborative process” 相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 看似接近協作流程，但 “before an electronic version is produced” 說得太絕對；原文只說最後把 comments 輸入電腦，沒有說此前完全未有 electronic version。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 exclusively 使用 electronic documents，和整段大量使用 paper drafts 的描述不合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A — They have an underlying order.",
+      "answerKey": "A — They have an underlying order.",
+      "type": "Multiple Choice",
+      "prompt": "“What is implied by the ‘piles’ mentioned in the passage?”",
+      "translation": "文章提到的紙堆暗示了甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paper enables a certain kind of thinking.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：紙張促成某一類思考。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over time, they get broken down and resorted, sometimes chronologically and sometimes thematically and sometimes chronologically and thematically; clues about certain documents may be physically embedded in the file by, say, stacking a certain piece of paper at an angle or inserting dividers into the stack.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：隨時間推移，紙堆會被拆開和重新整理，有時按時間，有時按主題，有時兩者兼用；某"
+            },
+            {
+              "kind": "paragraph",
+              "text": "些文件線索也可透過斜放紙張或加入分隔物實體地留在紙堆中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “piles”。原文直接有 “The piles look like a mess, but they aren’t.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a group at Apple Computer studied piling behavior several years ago, they found that even the most disorderly piles usually make perfect sense to the piler, and that office workers could hold forth in great detail about the precise history and meaning of their piles.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Apple Computer 的一個小組研究堆放行為時發現，即使看來最凌亂的紙堆，通常對堆"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放者來說也完全有意義；辦公室工作者還能詳細說明自己紙堆的精確歷史和意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句證明 piles 有內在秩序。它們外觀可能凌亂，但對 piler 來說有意義、有優先次序、有歷史線索。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 正確：They have an underlying order. B 說 necessarily a mess，方向太絕對，原文說 “look like a mess”，但馬上補充 “but they aren’t”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 arranged chronologically，只符合部分情況；原文說有時按時間，有時按主題，有時兩者兼用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 arranged alphabetically，原文沒有支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — Paper records could be used as a management tool.",
+      "answerKey": "A — Paper records could be used as a management tool.",
+      "type": "Multiple Choice",
+      "prompt": "“What did managers believe about paper in the industrial economy?”",
+      "translation": "在工業經濟中，管理者認為 paper 有甚麼作用？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This idea that paper facilitates a highly specialized cognitive and social process is a far cry from the way we have historically thought about the stuff.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：紙張促成高度專門化的認知和社交過程，這個想法與我們歷史上對紙張的理解相距很"
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paper was important not to facilitate creative collaboration and thought but as an instrument of control.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：紙張過去重要，重點在於它作為控制工具，並不在於促進創意協作和思考。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “managers” 和 “industrial economy”。Paragraph F 直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“To cope with the complexity of the industrial economy, managers were instituting company-wide policies and demanding monthly, weekly, or even daily updates from their subordinates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了應付工業經濟的複雜性，管理者建立全公司政策，並要求下屬每月、每週，甚至每天提交更新。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段提到 monthly sales report、office manual、internal company newsletter，這些都是管"
+            },
+            {
+              "kind": "paragraph",
+              "text": "理文件。最後一句 “instrument of control” 直接說明 paper 作為控制和管理工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 正確：Paper records could be used as a management tool. B carbon paper should be compulsory：原文只說 carbon paper 令 typist 可同時製作十份副本，沒有 compulsory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Teamwork is most important：這是前面協作段落的現代功能，不是工業經濟中 managers 的看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Monthly reports are the best approach：原文提到 monthly sales report，但沒有說它是 best approach。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "D — It facilitates collaboration and is useful for implementing and managing tasks.",
+      "answerKey": "D — It facilitates collaboration and is useful for implementing and managing tasks.",
+      "type": "Multiple Choice",
+      "prompt": "“According to the passage, why has paper not been replaced by electronic documents?”",
+      "translation": "根據文章，為甚麼 paper 沒有被 electronic documents 取代？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要整合全文，主要看 Paragraph A、B、C、F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 第一句說 computer technology was supposed to replace paper；但本段指出 paper persisted for good reasons。Paragraph C 第一和最後一句說 paper 支持 collaborative and iterative work process，並幫助 group coordination。Paragraph F 最後一句說 paper historically functioned as an instrument of control。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “why”, “not been replaced”, “electronic documents”。Paragraph A 的 “Paper has"
+            },
+            {
+              "kind": "paragraph",
+              "text": "persisted” 是總答案方向；Paragraph C 的 “paper has a unique set of affordances” 提供主要原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章核心證據有兩組。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一組來自 Paragraph C：paper 是 tangible、spatially flexible、tailorable，而且其使用行為對同事可見，因此幫助團隊協調討論和形成 shared understanding。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二組來自 Paragraph F：paper 在辦公室歷史中也用於 reports、manuals、newsletters 和control，與管理制度密切相關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確，因為它把全文兩條主線合起來： facilitates collaboration = Paragraph B / C 的 IMF collaborative process 和 group coordination useful for implementing and managing tasks = Paragraph F 的 company-wide policies、updates、reports、manuals、instrument of control錯項分析： A paper is inexpensive to buy：文章沒有討論價格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B contributed to management theories in western countries：Paragraph F 講 systematic management 中 paper 的角色，但沒有說它創造或貢獻 management theories。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C people need time to change old habits：Paragraph A 說很多人一般會這樣理解，但 cognitive psychologists and ergonomics experts don’t agree。文章主立場不是「舊習難改」，而是 paper 本身有實際功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Paper or Computer_.pdf",
+    "sha256": "d714f4eb7adea4913f0ffbe1468ffbec46b58e5f7179f7e542f7db2c04dfcf0f",
+    "pageCount": 13
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 computer technology 原本被預期會取代 paper；尾句指出人們看到 messy desk 或航空管制員用紙條時的不安，源自對 paper 角色的誤解。只看首尾句，可以先估計本段是全文矛盾開場：電腦普及後，紙張沒有消失，反倒繼續存在。作者會解釋 paper 在認知任務和日常工作中仍有功能。"
+      },
+      {
+        "number": "B",
+        "summary": "首句介紹 Sellen 和 Harper 的 The Myth of the Paperless Office；尾句描述作者最後把所有有comments 的紙張鋪在桌上，再把修改輸入電腦。只看首尾句，可以先估計本段用 IMF 作個案，說明 economists 寫報告時需要多人協作、討論、手寫註釋、面對面交接和重新組織紙張。題目若問 IMF、economists、drafts、comments，應回到 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說沒有 paper，這種 collaborative and iterative work process 會困難得多；尾句引用 Sellen和 Harper，指出可見同事如何處理紙張有助 group coordination 和 shared understanding。只看首尾句，可以估計本段主力比較 paper 和 digital documents 的 affordances。Paper 的重點是tangible、spatially flexible、tailorable，適合團隊一起處理報告。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 paper enables a certain kind of thinking；尾句說某些文件線索可透過角度、分隔物、堆疊方式嵌入紙堆中。只看首尾句，可以估計本段討論桌面紙堆的秩序。表面上 piles 很亂，實際上對使用者有清晰意義：近身工作區的紙堆通常最急，最重要文件常在頂部。題目若問 piles 是否messy，D 是目標段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句問為何人們堆文件，而非全部歸檔；尾句說我們看見桌上紙堆，某種意義上是在看自己大腦中的內容。只看首尾句，可以估計本段進一步解釋 piles 與 thinking 的關係。紙堆保存未分類、未完成、未決定用途的 ideas，也作為 contextual cues，幫助人們在中斷後恢復複雜工作線索。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 paper 支持 specialized cognitive and social process 這個想法，和歷史上人們對 paper的理解相距很遠；尾句說 paper 過去重要，原因是它作為 an instrument of control。只看首尾句，可以估計本段轉入歷史：十九世紀末 systematic management、sales report、office manual、newsletter、typewriter、carbon paper 令 paper 成為管理和控制工具。"
+      }
+    ]
+  }
+}

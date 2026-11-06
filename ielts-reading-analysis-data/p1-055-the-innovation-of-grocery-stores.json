@@ -1,0 +1,1940 @@
+{
+  "id": "p1-055-the-innovation-of-grocery-stores",
+  "catalogueId": "p1-055",
+  "catalogueIds": [
+    "p1-055"
+  ],
+  "passage": 1,
+  "title": "The Innovation of Grocery Stores",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "D",
+    "C",
+    "A",
+    "E",
+    "grocery clerk",
+    "front lobby",
+    "sales department",
+    "stockroom",
+    "customers",
+    "C",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“layout of Clarence Saunders’ store”",
+      "translation": "Clarence Saunders 店舖的布局。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目不是問 Saunders 的整個創新，而是問哪一段描述店舖 layout，即空間安排、區域分布、顧客和員工如何在店內移動。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1902, Saunders moved to Memphis to put his idea into practice by establishing a wholesale grocery cooperative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1902 年，Saunders 搬到 Memphis，透過建立一個批發雜貨合作社，把他的想法付諸實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new layout accommodated more customers at once and contributed to phenomena that had previously been unimaginable, including impulse buying and, later, the supermarket.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種新布局可以同時容納更多顧客，並促成以前難以想像的現象，包括衝動購物，以及後來的超級市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段已經很明顯和 layout 有關。第一句說他開始實行想法，最後一句直接出現 “new layout”，所以這段很可能描述具體店舖設計。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “layout”。原文 C 段雖然到最後一句才出現 “new layout”，但中間有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“divided his new store into three areas” 這個強訊號。掃描時要找 areas、department、lobby、stockroom、aisles、shelves 這些空間詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“He divided his new store into three areas. A ‘front lobby’ served as both entrance and exit and contained the checkouts. A ‘sales department’ allowed customers to walk along aisles and select their own groceries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他把新店分成三個區域。front lobby 既是入口也是出口，並設有收銀處。sales department 讓顧客沿著通道行走，自己選取雜貨。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“A third area, the ‘stockroom’, contained large refrigerators for keeping products fresh and was open only to staff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個區域叫 stockroom，裡面有大型雪櫃，用來保持產品新鮮，而且只開放給員工。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “layout”= 原文 “divided his new store into three areas” + “front lobby / sales department / stockroom”這段完整描述店舖被分成哪些區域、每區用途、顧客和員工可以去哪裡，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 段也說 Saunders contributed greatly to the design and layout of grocery stores。可是 E 段重點是他的歷史貢獻和商業成功；真正詳細描述店舖空間布局的是 C 段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“a reference to a reduction by chain stores in labour costs”",
+      "translation": "提到連鎖店降低人工成本。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 “chain stores” 和 “labour costs” 的關係。重點不只在 cost，也要找到 workers / labour這條線。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 6 September 1916, Saunders launched the self-service revolution in the United States by opening the first Piggly Wiggly at 79 Jefferson Street in Memphis, Tennessee.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1916 年 9 月 6 日，Saunders 在 Tennessee 州 Memphis 的 Jefferson Street 79 號開設第一間Piggly Wiggly，啟動了美國的自助服務革命。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chains such as Piggly Wiggly therefore cut unnecessary costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，Piggly Wiggly 這類連鎖店削減了不必要成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 D 段會說明第一間 Piggly Wiggly 的運作方式，以及它如何降低成本。最後一句直接出現 “Chains” 和 “cut unnecessary costs”，非常貼近題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “chain stores”、“labour costs”、“reduction”。原文對應詞包括 “Chains”、“cut unnecessary costs”、“workers”、“labour is a major expense”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you look at how grocery stores operated before Piggly Wiggly and Alpha Beta, you find that a great many workers were involved, and labour is a major expense.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你看看 Piggly Wiggly 和 Alpha Beta 出現以前雜貨店如何運作，就會發現當時牽涉大量工人，而人工是主要開支。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chains such as Piggly Wiggly therefore cut unnecessary costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，Piggly Wiggly 這類連鎖店削減了不必要成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "證據鏈：舊式商店需要 many workers→ labour is a major expense→ Piggly Wiggly 這類連鎖店透過 self-service 減少不必要成本題目 “reduction in labour costs” 對應原文 “labour is a major expense” 和 “cut unnecessary costs”。答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 段也有經濟成功，例如 $100 million、share price doubled，但那是銷售和股市表現。Question 2 的控制詞是 labour costs，所以要看 D 段的 workers / labour / costs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“how Clarence Saunders implemented his idea”",
+      "translation": "Clarence Saunders 如何實行他的想法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Saunders 把 idea 變成實際店舖或制度的方法。定位重點是 implemented / put into practice。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1902, Saunders moved to Memphis to put his idea into practice by establishing a wholesale grocery cooperative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1902 年，Saunders 搬到 Memphis，透過建立一個批發雜貨合作社，把他的想法付諸實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new layout accommodated more customers at once and contributed to phenomena that had previously been unimaginable, including impulse buying and, later, the supermarket.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種新布局可以同時容納更多顧客，並促成以前難以想像的現象，包括衝動購物，以及後來的超級市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段第一句已直接說 “put his idea into practice”，即把想法落地實行。最後一句則說這種 layout 帶來新消費現象，因此 C 段就是描述實行方式的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “implemented his idea” 不一定原字出現。原文用的是 “put his idea into practice”。掃描時也要看 establishing、divided、allowed、displayed 這些動作詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1902, Saunders moved to Memphis to put his idea into practice by establishing a wholesale grocery cooperative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1902 年，Saunders 搬到 Memphis，透過建立一個批發雜貨合作社，把他的想法付諸實行。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文詳細說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He divided his new store into three areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他把新店分成三個區域。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clerks no longer retrieved every item; instead, neatly arranged aisles and shelves displayed the goods and allowed shoppers to browse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "店員不再取出每件商品；相反，整齊排列的通道和貨架展示商品，讓顧客可以瀏覽。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “implemented his idea”= 原文 “put his idea into practice”題目 “how”= 原文 “by establishing...” + “divided his new store...” + “allowed shoppers to browse” C 段既有 “put his idea into practice” 這個直接提示，也有具體方式，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 段開頭也說他開了第一間 Piggly Wiggly，這也屬於實際行動。不過題目用 “implemented his idea” 這個語義，C 段第一句的 “put his idea into practice” 是最直接的改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“how people used to shop before Clarence Saunders’ stores opened”",
+      "translation": "Clarence Saunders 的店開業前，人們過去如何購物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 before Saunders’ stores opened，因此要找舊式 grocery stores 的購物方式。時間線非常重要。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the beginning of the 20th century, American grocery stores offered full service: customers asked clerks behind counters for the items they wanted, and the clerks wrapped them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "20 世紀初，美國雜貨店提供全服務：顧客向櫃檯後的店員索取想買的物品，然後由店員包裝。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early chains such as A&P, although full-service, made shopping time-consuming and inefficient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期連鎖店如 A&P 雖然提供全服務，但令購物耗時且低效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 A 段功能是描述 Saunders 改革前的舊式 full-service 模式。題目問people used to shop，A 段就是最清楚的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “used to shop before”。原文對應 “At the beginning of the 20th century” 和 “full service”。掃描時要找 customers、clerks、shopping lists、delivery boys。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“customers asked clerks behind counters for the items they wanted, and the clerks wrapped them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顧客向櫃檯後的店員索取想買的物品，店員再替他們包裝。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“To save time, customers could have delivery boys take their shopping lists to a store, or deliver the lists themselves, then return later to pay for the goods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了節省時間，顧客可以讓送貨男孩把購物清單帶到店裡，也可以自己把清單交到店裡，之後再回來付款取貨。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “how people used to shop”= 原文 “customers asked clerks...” + “shopping lists...” + “return later to pay” A 段完整描述 Saunders 的自助店出現前，顧客如何靠店員和清單購物，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 段也比較 conventional groceries 和 Piggly Wiggly，但 A 段是最完整的舊制度描述。做Matching Information 時，要找資訊最完整的段落，不只找有相關字的一句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“a description of the economic success generated by Saunders’s stores”",
+      "translation": "描述 Saunders 的店帶來的經濟成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 economic success。定位時應看 sales、locations、share price、stock exchange、retailer ranking 等商業數據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piggly Wiggly and other self-service stores rapidly gained popularity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piggly Wiggly 和其他自助商店迅速流行起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Saunders contributed greatly to the design and layout of grocery stores and even invented the turnstile to keep customers moving smoothly through the entrance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Saunders 對雜貨店的設計和布局貢獻很大，甚至發明了轉閘，讓顧客順暢通過入口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段會先講 Piggly Wiggly 的迅速流行，後面再評價 Saunders 的設計貢獻。題目問 economic success，應看本段中間的數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “economic success”。原文未必用 success，但會用 grew、locations、sold、$100 million、third-largest、New York Stock Exchange、share price doubled。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through self-service and franchising, the chain grew to nearly 1,300 locations by 1923.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過自助服務和特許經營，這個連鎖店到 1923 年已增長至接近 1,300 間分店。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piggly Wiggly sold $100 million in groceries—equivalent to about $1.3 billion today—and became the nation’s third-largest grocery retailer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piggly Wiggly 售出價值 1 億美元的雜貨，相當於今天約 13 億美元，並成為全國第三大雜貨零售商。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was listed on the New York Stock Exchange, where its share price doubled between late 1922 and March 1923.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在紐約證券交易所上市，股價在 1922 年底至 1923 年 3 月期間翻了一倍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “economic success”= 原文 “1,300 locations” + “$100 million” + “third-largest grocery retailer” + “share price doubled”所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 段提到 lower prices 和 cut costs，這是商業優勢；E 段有成長規模、銷售額、排名和股價，才是economic success 的完整描述。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "grocery clerk",
+      "answerKey": "grocery clerk",
+      "type": "Sentence Completion",
+      "prompt": "“Clarence Saunders’s first job in a grocery store was as 6 ______.”",
+      "translation": "Clarence Saunders 在雜貨店的第一份工作是做 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 “as”，所以答案應是職位名稱。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born in Virginia, Clarence Saunders left school at fourteen in 1895 and began work as a grocery clerk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clarence Saunders 出生於 Virginia，1895 年 14 歲離校後開始做雜貨店店員。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With enthusiasm and imagination, Saunders proposed an unprecedented solution: consumers would serve themselves, an idea that could revolutionise the entire industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Saunders 以熱情和想像力提出一個前所未有的解決方法：消費者自己服務自己，這個想法可能改變整個行業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段介紹 Saunders 的早期經歷和他提出自助購物概念的過程。題目問 first job，B段第一句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “first job” 和 “grocery store”。原文用 “began work as” 表示第一份工作／開始工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clarence Saunders left school at fourteen in 1895 and began work as a grocery clerk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clarence Saunders 在 1895 年 14 歲離校後，開始做雜貨店店員。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “first job ... was as”= 原文 “began work as”答案是 grocery clerk。兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “clerk” alone 也許意思可通，但完整原文職位是 grocery clerk，更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "front lobby",
+      "answerKey": "front lobby",
+      "type": "Sentence Completion",
+      "prompt": "“In Saunders’s store, customers paid for goods in the 7 ______.”",
+      "translation": "在 Saunders 的店裡，顧客在 ______ 付款。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 “in the”，所以答案應是店內某個區域名稱，而不是一個動作。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1902, Saunders moved to Memphis to put his idea into practice by establishing a wholesale grocery cooperative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1902 年，Saunders 搬到 Memphis，透過建立批發雜貨合作社，把想法付諸實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new layout accommodated more customers at once and contributed to phenomena that had previously been unimaginable, including impulse buying and, later, the supermarket.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種新布局能同時容納更多顧客，並促成以前難以想像的現象，包括衝動購物，以及後來的超級市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 C 段會描述店舖設計和區域安排。題目問付款位置，所以要在 C 段找checkouts 或 containing checkouts 的區域。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “paid for goods”。原文對應詞是 “contained the checkouts”。checkout 就是付款位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 C 段時可找到 front lobby 這一區。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A ‘front lobby’ served as both entrance and exit and contained the checkouts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "front lobby 同時作為入口和出口，並設有收銀處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說顧客 “paid for goods in the...” ，而原文說 front lobby “contained the checkouts”。由於付款是在 checkouts 完成，而 checkouts 位於 front lobby，所以空格應填 front lobby。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “paid for goods”= 原文 “checkouts”題目 “in the...”= 原文區域名稱 “front lobby”答案是 front lobby，兩個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 checkouts。checkouts 是付款櫃位本身；題目用 “in the” 問店內區域，front lobby 更符合句子文法和原文布局。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "sales department",
+      "answerKey": "sales department",
+      "type": "Sentence Completion",
+      "prompt": "“Customers were under surveillance while shopping in the 8 ______.”",
+      "translation": "顧客在 ______ 購物時受到觀察。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 “shopping in the”，所以答案應是顧客購物所在的店內區域。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1902, Saunders moved to Memphis to put his idea into practice by establishing a wholesale grocery cooperative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1902 年，Saunders 搬到 Memphis，透過建立批發雜貨合作社，把想法付諸實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new layout accommodated more customers at once and contributed to phenomena that had previously been unimaginable, including impulse buying and, later, the supermarket.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種新布局能同時容納更多顧客，並促成以前難以想像的現象，包括衝動購物，以及後來的超級市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段是布局段。題目中的 surveillance 對應原文的 observe customers，因此應看 C段中間關於 gallery 和 sales department 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “surveillance”。原文沒有 surveillance，但有 “supervisors could observe customers”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時要找 customers 當時在哪個區域購物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A ‘sales department’ allowed customers to walk along aisles and select their own groceries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "sales department 讓顧客沿著通道行走，自己選取雜貨。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“From a gallery above the sales department, supervisors could observe customers without disturbing them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 sales department 上方的 gallery，監督人員可以在不打擾顧客的情況下觀察他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "顧客購物的地點是 sales department；監督人員站在上方 gallery 觀察。因此題目 “while shopping in the...” 應填 sales department。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “under surveillance”= 原文 “supervisors could observe customers”題目 “while shopping in”= 原文 “sales department allowed customers to walk along aisles and select...”答案是 sales department。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "gallery 很吸引，因為監督人員從 gallery 觀察。可是顧客不是在 gallery 購物；顧客在 sales department 購物，gallery 是觀察位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "stockroom",
+      "answerKey": "stockroom",
+      "type": "Sentence Completion",
+      "prompt": "“Another area was called the ‘9 ______’ and was accessible only to staff.”",
+      "translation": "另一個區域叫作 ______，並且只供員工進入。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有引號，表示要填原文中的區域名稱。題目中的 “accessible only to staff” 是強定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1902, Saunders moved to Memphis to put his idea into practice by establishing a wholesale grocery cooperative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1902 年，Saunders 搬到 Memphis，透過建立批發雜貨合作社，把想法付諸實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new layout accommodated more customers at once and contributed to phenomena that had previously been unimaginable, including impulse buying and, later, the supermarket.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種新布局能同時容納更多顧客，並促成以前難以想像的現象，包括衝動購物，以及後來的超級市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段處理新店布局。題目說 another area and staff only，這很自然會定位到三個區域中的第三個。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “accessible only to staff”。原文對應 “open only to staff”。這是直接同義。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A third area, the ‘stockroom’, contained large refrigerators for keeping products fresh and was open only to staff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個區域叫 stockroom，裡面有大型雪櫃，用來保持產品新鮮，並且只開放給員工。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Another area was called...”= 原文 “A third area, the ‘stockroom’...”題目 “accessible only to staff”= 原文 “open only to staff”答案是 stockroom，一個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 refrigerators。large refrigerators 是 stockroom 裡面的設備；題目問區域名稱，所以應填stockroom。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "customers",
+      "answerKey": "customers",
+      "type": "Sentence Completion",
+      "prompt": "“In Saunders’s design, much of the work was done by the 10 ______.”",
+      "translation": "在 Saunders 的設計中，很多工作由 ______ 完成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 “by the”，答案需要是做動作的人。題目問 self-service 的本質：原本由店員做的部分工作，轉移給誰完成。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B 和 Paragraph C Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born in Virginia, Clarence Saunders left school at fourteen in 1895 and began work as a grocery clerk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clarence Saunders 出生於 Virginia，1895 年 14 歲離校後開始做雜貨店店員。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With enthusiasm and imagination, Saunders proposed an unprecedented solution: consumers would serve themselves, an idea that could revolutionise the entire industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Saunders 以熱情和想像力提出一個前所未有的解決方法：消費者自己服務自己，這個想法可能改變整個行業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一、最後一句也顯示它是 layout and implementation 段。Question 10 問Saunders’s design 的操作核心，所以要連接 B 段的 idea 和 C 段的實際布局。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “work was done by”。原文對應 “consumers would serve themselves”、“customers ... select their own groceries”、“shoppers selected goods from shelves and paid... themselves”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“consumers would serve themselves”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消費者會自己服務自己。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“A ‘sales department’ allowed customers to walk along aisles and select their own groceries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "sales department 讓顧客沿著通道行走，自己選取雜貨。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piggly Wiggly shoppers selected goods from shelves and paid for the items themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piggly Wiggly 的購物者從貨架上選取商品，並自己付款。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句合起來說明：舊式 full-service 需要 clerks 取貨、包裝；Saunders 的新設計讓 customers 自己選貨和完成更多購物步驟。題目中的 “much of the work” 就是把店員原本做的部分工作轉給顧客。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “much of the work was done by the...”= 原文 “consumers would serve themselves”= 原文 “customers ... select their own groceries”答案用 customers，因為 C 段的設計句明確使用 “customers”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "clerks 在舊制度中很重要，但 Saunders 的設計減少了 clerks 的取貨角色。這題要看動作轉移：從 clerks retrieving every item，轉到 customers selecting their own groceries。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "C — He thought this would make customers’ lives more convenient.",
+      "answerKey": "C — He thought this would make customers’ lives more convenient.",
+      "type": "Multiple Choice",
+      "prompt": "“Why did Clarence Saunders want to improve grocery stores?”",
+      "translation": "Clarence Saunders 為甚麼想改良雜貨店？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問動機，因此要回到 Saunders 看見舊制度問題的段落，而非只看後來 Piggly Wiggly 的成功。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born in Virginia, Clarence Saunders left school at fourteen in 1895 and began work as a grocery clerk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clarence Saunders 出生於 Virginia，1895 年 14 歲離校後開始做雜貨店店員。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With enthusiasm and imagination, Saunders proposed an unprecedented solution: consumers would serve themselves, an idea that could revolutionise the entire industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Saunders 以熱情和想像力提出一個前所未有的解決方法：消費者自己服務自己，這個想法可能改變整個行業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段介紹他的工作背景和自助購物概念。中間應該會解釋他為何覺得舊制度需要改良。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “why” 和 “improve grocery stores”。原文對應 “noticed how inefficient the shopping process was”、“cumbersome”、“wasted considerable time and money”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While working, he noticed how inefficient the shopping process was.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工作期間，他注意到購物過程非常低效。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an era without computers, the system was cumbersome and wasted considerable time and money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在沒有電腦的年代，這個制度笨重繁瑣，浪費大量時間和金錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明 Saunders 的改革動機：舊式購物流程低效、麻煩、耗時又耗錢。選項 C “make customers’ lives more convenient” 雖然沒有逐字重現，但能概括他想消除 inefficient /cumbersome / wasted time 的問題。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “He wanted to transfer business to retailing.”原文沒有說他想把業務轉到零售業。文中只說他曾做 grocery clerk，後來建立 grocery cooperative。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “He thought it was profitable.”後文確實顯示 Piggly Wiggly 很成功，但 Paragraph B 的初始動機是解決低效購物流程。只用profitable 解釋，證據不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “He thought this would make customers’ lives more convenient.”正確。原文說舊流程 inefficient、cumbersome、wasted time and money。改善後讓顧客自己選貨，能令購物更方便。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “He wanted to create a new shop by himself.”原文有 establishing a cooperative 和 opening Piggly Wiggly，但這是實行方式，不是最核心動機。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 很容易吸引人，因為後文有 $100 million 和 share price doubled。不過題目問 want to improve的原因，要看創新前的問題意識。真正控制答案的是 “inefficient” 和 “wasted considerable time and money”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — characterised primarily by self-service.",
+      "answerKey": "B — characterised primarily by self-service.",
+      "type": "Multiple Choice",
+      "prompt": "“The Piggly Wiggly store was”",
+      "translation": "Piggly Wiggly 這間店的主要特點是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 Piggly Wiggly store 的特徵，定位詞是 Piggly Wiggly。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 6 September 1916, Saunders launched the self-service revolution in the United States by opening the first Piggly Wiggly at 79 Jefferson Street in Memphis, Tennessee.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1916 年 9 月 6 日，Saunders 在 Tennessee 州 Memphis 的 Jefferson Street 79 號開設第一間Piggly Wiggly，啟動了美國的自助服務革命。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chains such as Piggly Wiggly therefore cut unnecessary costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，Piggly Wiggly 這類連鎖店削減了不必要成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段直接把 Piggly Wiggly 和 self-service revolution 連起來，因此其主要特徵應該是 self-service。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Piggly Wiggly store”。原文 D 段中反覆出現 Piggly Wiggly shoppers selected goods、paid for items themselves、could roam freely。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike customers in conventional groceries, Piggly Wiggly shoppers selected goods from shelves and paid for the items themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與傳統雜貨店的顧客不同，Piggly Wiggly 的購物者會從貨架上自己選取商品，並自己付款。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were not at the mercy of staff but could roam freely, inspect products and choose what they needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們不再受店員支配，可以自由走動、檢查商品並選擇自己需要的東西。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “located in Virginia.”錯。Saunders 出生於 Virginia，但第一間 Piggly Wiggly 在 Memphis, Tennessee。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “characterised primarily by self-service.”正確。原文第一句有 “self-service revolution”，並且說顧客自己選貨和付款。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “initially very unpopular with customers.”錯。Paragraph E 說 Piggly Wiggly and other self-service stores rapidly gained popularity，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “expected to have a poor future.”原文沒有說人們預期它前景差。後文更說它迅速擴張。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 利用 Virginia 製造人物地點陷阱。Virginia 是 Saunders 出生地，不是 Piggly Wiggly 店址。做地點題時要分清人物背景和店舖位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — his association with Piggly Wiggly stores.",
+      "answerKey": "C — his association with Piggly Wiggly stores.",
+      "type": "Multiple Choice",
+      "prompt": "“Today, Clarence Saunders is chiefly remembered for”",
+      "translation": "今天，人們主要因甚麼記得 Clarence Saunders？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 today / chiefly remembered，應看文章最後總結段，因為作者通常在結尾評價人物 legacy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句／唯一一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clarence Saunders died in 1953, leaving a lasting legacy symbolised chiefly by Piggly Wiggly, whose model spread widely and endured.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clarence Saunders 於 1953 年去世，留下持久遺產，而這份遺產主要由 Piggly Wiggly 象徵；它的模式廣泛傳播並延續下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段只有一句。這一句直接處理 death、lasting legacy、symbolised chiefly by Piggly Wiggly，正好對應題目 “Today... chiefly remembered for”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “chiefly remembered”。原文對應 “lasting legacy symbolised chiefly by Piggly Wiggly”。chiefly 原字重現，非常強。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clarence Saunders died in 1953, leaving a lasting legacy symbolised chiefly by Piggly Wiggly, whose model spread widely and endured.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clarence Saunders 於 1953 年去世，留下持久遺產，而這份遺產主要由 Piggly Wiggly 象徵；它的模式廣泛傳播並延續下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是： lasting legacy= 他被後世記住的原因symbolised chiefly by Piggly Wiggly= 主要由 Piggly Wiggly 代表"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “the opening of a fully automatic store near his first store.”原文沒有 fully automatic store，也沒有 near his first store。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the popularity of his Piggly Wiggly store at the time.” Paragraph E 有當時流行和商業成功，但 Question 13 問 today chiefly remembered。B 只抓住當時 popularity，範圍較窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “his association with Piggly Wiggly stores.”正確。這概括 “lasting legacy symbolised chiefly by Piggly Wiggly”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “having his name printed alongside that of his famous store.”原文沒有說他的名字被印在店名旁邊。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 看似有證據，因為 Piggly Wiggly 的確 rapidly gained popularity。但題目問今日主要記憶點，F段說的是 lasting legacy，而非只限當年流行。C 能覆蓋 lasting legacy 和 Piggly Wiggly 的長期關係。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Innovation of Grocery Stores.pdf",
+    "sha256": "21afc97bbf5f77f5b49796722c5cb8a7d2129281249c7ae1edf078653c511a36",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段第一句說 20 世紀初的美國雜貨店提供 full service，顧客要向櫃檯後的店員索取商品。最後一句說早期連鎖店如 A&P 雖然也是 full-service，但購物過程耗時又低效。只看首尾句，可以估計本段是舊式購物模式背景：顧客不能自由拿貨，要依賴店員、送貨男孩和購物清單。若題目問Saunders 出現前人們如何購物，A 段就是核心定位段。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段第一句介紹 Clarence Saunders 出生於 Virginia，14 歲離校後成為 grocery clerk。最後一句說他提出前所未有的解決方法：讓 consumers serve themselves，這個想法可以改變整個行業。只看首尾句，可以估計本段是人物背景和創新動機段：Saunders 親身看到舊制度低效、浪費時間和金錢，於是提出自助購物。若題目問第一份工作、為何想改革、self-service idea，就看 B 段。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段第一句說 1902 年 Saunders 搬到 Memphis，把想法付諸實行，建立 wholesale grocery cooperative。最後一句說新 layout 可同時容納更多顧客，並促成 impulse buying 和後來的supermarket。只看首尾句，可以估計本段是實施和店舖布局段：front lobby、sales department、gallery、stockroom、refrigerators 都會出現。Questions 1、3、7、8、9 很可能集中在這一段。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段第一句說 Saunders 於 1916 年 9 月 6 日在 Memphis 開設第一間 Piggly Wiggly，啟動美國self-service revolution。最後一句說 Piggly Wiggly 這類連鎖店削減了不必要成本。只看首尾句，可以估計本段講 Piggly Wiggly 的正式開業、顧客自助選貨、自由瀏覽、明碼實價，以及低價格和labour cost reduction。若題目問 Piggly Wiggly 特點或 chain stores 降低人工成本，D 段最關鍵。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段第一句說 Piggly Wiggly 和其他自助商店很快流行起來。最後一句說 Saunders 對雜貨店的design and layout 貢獻很大，甚至發明 turnstile，令顧客順暢通過入口。只看首尾句，可以估計本段是擴張和商業成功段：branches、patent、franchising、1,300 locations、$100 million、third-largest retailer、NYSE、share price doubled 都是經濟成就訊號。Question 5 要看這段。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段只有一句，說 Clarence Saunders 於 1953 年去世，留下 lasting legacy，主要由 Piggly Wiggly 象徵，而它的模式廣泛傳播並延續下來。只看這句，可以估計本段是總結段：文章最後不再講具體流程或成本，而是評價 Saunders 的歷史地位。若題目問今天人們主要因甚麼記得他，F段就是最直接的段落。 Answer Key Questio Answer n 1 C 2 D 3 C 4 A 5 E 6 grocery clerk 7 front lobby 8 sales department 9 stockroom 10 customers 11 C 12 B 13 C小提醒：Question 10 若答案表接受 “consumers”，意思也能由 Paragraph B 的 “consumers would serve themselves” 支援。不過本題句子講 Saunders’s design，Paragraph C 用“customers” 描述顧客自己選貨，所以我用 customers 作主答案。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 10 採用 customers 作為主答案，因為 Paragraph C 的設計句明確使用 “customers”；但 Paragraph B 也寫作 “consumers would serve themselves”，所以 consumers 同樣有原文根據。"
+  ]
+}

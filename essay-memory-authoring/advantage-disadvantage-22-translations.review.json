@@ -1,0 +1,97 @@
+{
+  "key": "advantage-disadvantage:22",
+  "sourceSentenceCount": 15,
+  "reason": "Canonical Traditional Chinese contains shifted, added or omitted content; proposed translations align each physical English sentence.",
+  "sentences": [
+    {
+      "number": 1,
+      "english": "Labour-saving household appliances have made it increasingly possible for mothers to take paid employment while still raising dependent children.",
+      "sourceChinese": "省時省力的家用電器，使母親在照顧仍需依賴父母的子女的同時，也越來越有可能從事有薪工作。",
+      "proposedChinese": "省時省力的家用電器，使母親在照顧仍需依賴父母的子女的同時，也越來越有可能從事有薪工作。"
+    },
+    {
+      "number": 2,
+      "english": "Although some people argue that this can place extra strain on family life, I believe the disadvantages are clearly outweighed by the advantages, chiefly because a working mother can improve a family’s financial security and create a more balanced home environment.",
+      "sourceChinese": "儘管有些人認為這種情況會為家庭生活帶來額外壓力，我認為其缺點明顯小於優點，主要原因在於，母親工作不但能提升家庭的經濟保障，亦能建立一個更平衡的家庭環境。",
+      "proposedChinese": "儘管有些人認為這種情況會為家庭生活帶來額外壓力，我認為其缺點明顯小於優點，主要原因在於，母親工作不但能提升家庭的經濟保障，亦能建立一個更平衡的家庭環境。"
+    },
+    {
+      "number": 3,
+      "english": "The first major advantage is economic stability.",
+      "sourceChinese": "第一個主要優點是經濟穩定。",
+      "proposedChinese": "第一個主要優點是經濟穩定。"
+    },
+    {
+      "number": 4,
+      "english": "When both parents earn an income, the household is less vulnerable to inflation, unexpected medical bills, or the loss of one job.",
+      "sourceChinese": "當父母雙方都有收入時，家庭便較不容易受到通貨膨脹、突如其來的醫療開支或其中一方失業的影響。",
+      "proposedChinese": "當父母雙方都有收入時，家庭便較不容易受到通貨膨脹、突如其來的醫療開支或其中一方失業的影響。"
+    },
+    {
+      "number": 5,
+      "english": "This greater financial resilience allows parents to provide better food, safer housing, and stronger educational support, which directly benefits children.",
+      "sourceChinese": "更強的經濟抗壓能力，能讓父母為孩子提供更好的飲食、更安全的居住環境，以及更充足的教育支援，而這些都會直接令孩子受益。",
+      "proposedChinese": "更強的經濟抗壓能力，能讓父母為孩子提供更好的飲食、更安全的居住環境，以及更充足的教育支援，而這些都會直接令孩子受益。"
+    },
+    {
+      "number": 6,
+      "english": "For example, a dual-income family may be able to afford reliable childcare, private tutoring, or a home in a better school district, opportunities that might otherwise be out of reach.",
+      "sourceChinese": "例如，雙收入家庭可能有能力負擔可靠的托兒服務、私人補習，或搬到校網更佳的地區居住，而這些機會本來可能是他們無法取得的。同樣重要的是，經濟壓力減輕通常也會減少因金錢而起的爭執，因此整個家庭對每一位成員而言都會變得更平靜、更有安全感。",
+      "proposedChinese": "例如，雙收入家庭或許能負擔可靠的托兒服務、私人補習，或較佳校網的住宅；這些機會原本可能遙不可及。"
+    },
+    {
+      "number": 7,
+      "english": "Just as importantly, reduced financial pressure often leads to fewer arguments over money, so the home becomes calmer and more secure for everyone.",
+      "sourceChinese": "當父母不再時刻為帳單和開支憂心時，他們更有可能保持耐性、願意合作，並在情感上更能照顧孩子的需要。例如，一個收入較穩定的家庭，家中衝突往往會較少，這使父母能把時間用來支持孩子，而不是爭論金錢問題。因此，母親就業所帶來的更大經濟保障，不但能在物質上加強家庭，也能在情感層面令家庭更穩固。",
+      "proposedChinese": "同樣重要的是，經濟壓力減輕通常會減少為錢爭執，因此家對每個人來說都變得更平靜、更有安全感。"
+    },
+    {
+      "number": 8,
+      "english": "A second benefit is that maternal employment can improve the overall culture of the family.",
+      "sourceChinese": "第二個優點是，母親工作可以改善整個家庭的文化與價值觀。",
+      "proposedChinese": "第二個優點是，母親工作可以改善整個家庭的文化與價值觀。"
+    },
+    {
+      "number": 9,
+      "english": "Children who see their mother contributing professionally are more likely to grow up with a healthier understanding of responsibility, independence, and gender equality.",
+      "sourceChinese": "當孩子看見母親在職場上作出貢獻時，他們更有可能在成長過程中建立對責任感、獨立性以及性別平等的更健康理解。這有助他們明白，男性與女性都可以支撐家庭、作出決策，並對社會作出有意義的貢獻。",
+      "proposedChinese": "看見母親在職場上作出貢獻的孩子，更可能在成長過程中對責任、獨立和性別平等形成較健康的理解。"
+    },
+    {
+      "number": 10,
+      "english": "A daughter may learn that motherhood does not require economic dependence, while a son may be less likely to assume that childcare and housework are solely female duties.",
+      "sourceChinese": "例如，女兒可能會明白，成為母親並不代表必須在經濟上依附他人；而兒子則較不會認為照顧孩子和做家務只是女性的責任。",
+      "proposedChinese": "例如，女兒可能會明白，成為母親並不代表必須在經濟上依附他人；而兒子則較不會認為照顧孩子和做家務只是女性的責任。"
+    },
+    {
+      "number": 11,
+      "english": "Admittedly, there are drawbacks, most notably reduced time at home and the risk of fatigue.",
+      "sourceChinese": "誠然，這樣的安排亦有缺點，其中最明顯的是母親留在家中的時間減少，以及更容易感到疲累。",
+      "proposedChinese": "誠然，這樣的安排亦有缺點，其中最明顯的是母親留在家中的時間減少，以及更容易感到疲累。"
+    },
+    {
+      "number": 12,
+      "english": "However, these problems are usually manageable through modern appliances, childcare arrangements, and a fairer division of labour between parents.",
+      "sourceChinese": "然而，這些問題通常可以透過現代家電、適當的托兒安排，以及父母之間更公平的家務分工來加以處理。",
+      "proposedChinese": "然而，這些問題通常可以透過現代家電、適當的托兒安排，以及父母之間更公平的家務分工來加以處理。"
+    },
+    {
+      "number": 13,
+      "english": "In other words, a small loss of time is far less damaging than long-term financial insecurity or an unequal family structure.",
+      "sourceChinese": "例如，若父母雙方共同分擔家務，並善用節省時間的家用電器，母親的負擔便可大幅減輕，令這些缺點變得沒有那麼嚴重。換言之，與長遠的經濟不穩定或不平等的家庭結構相比，少量相處時間的減少所造成的影響其實小得多。",
+      "proposedChinese": "換言之，少量相處時間的減少，遠不及長期經濟不穩定或不平等的家庭結構那麼有害。"
+    },
+    {
+      "number": 14,
+      "english": "In conclusion, when a mother works, the family usually gains not only a stronger financial foundation but also a more modern and balanced set of values.",
+      "sourceChinese": "總結而言，當母親工作時，家庭通常不但能獲得更穩固的經濟基礎，亦能建立一套更現代、更平衡的價值觀。",
+      "proposedChinese": "總結而言，當母親工作時，家庭通常不但能獲得更穩固的經濟基礎，亦能建立一套更現代、更平衡的價值觀。"
+    },
+    {
+      "number": 15,
+      "english": "While this arrangement can create some practical pressure, the disadvantages are limited and do not outweigh the substantial long-term benefits.",
+      "sourceChinese": "雖然這種安排可能帶來一些實際壓力，但其缺點是有限的，並不足以超過那些重大的長遠利益。",
+      "proposedChinese": "雖然這種安排可能帶來一些實際壓力，但其缺點是有限的，並不足以超過那些重大的長遠利益。"
+    }
+  ]
+}

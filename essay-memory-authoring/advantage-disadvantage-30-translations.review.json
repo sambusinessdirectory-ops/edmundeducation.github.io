@@ -1,0 +1,145 @@
+{
+  "key": "advantage-disadvantage:30",
+  "sourceSentenceCount": 19,
+  "reason": "Canonical Traditional Chinese has added, shifted or omitted material; proposed items align one-to-one with physical English sentences.",
+  "sentences": [
+    {
+      "number": 1,
+      "english": "In many countries, online home-based work has become a normal form of employment.",
+      "sourceChinese": "在許多國家，在家線上工作已逐漸成為一種愈來愈普遍的就業模式。",
+      "proposedChinese": "在許多國家，網上在家工作已成為一種正常的就業形式。"
+    },
+    {
+      "number": 2,
+      "english": "Although this shift can weaken workplace relationships and blur personal boundaries, I believe it is overall beneficial because it improves employees’ daily lives and makes the labour market more inclusive.",
+      "sourceChinese": "儘管這種趨勢可能削弱職場人際關係，並模糊工作與私人生活之間的界線，我認為整體而言這是一項正面的發展，因為它改善了員工的生活質素，並讓更廣泛的人群更容易獲得工作機會。",
+      "proposedChinese": "儘管這種趨勢可能削弱職場人際關係，並模糊工作與私人生活之間的界線，我認為整體而言這是一項正面的發展，因為它改善了員工的生活質素，並讓更廣泛的人群更容易獲得工作機會。"
+    },
+    {
+      "number": 3,
+      "english": "One clear advantage is better work-life balance.",
+      "sourceChinese": "在家線上工作的主要優點是，它讓人們對自己的時間和日常安排有更大的掌控。",
+      "proposedChinese": "一項明顯的好處是更好的工作與生活平衡。"
+    },
+    {
+      "number": 4,
+      "english": "Without long commutes, workers recover time for sleep, exercise, childcare, and a calmer start to the day.",
+      "sourceChinese": "由於不需要每天通勤，員工可以節省原本要花在交通上的時間和精力。",
+      "proposedChinese": "沒有漫長的通勤，員工便可騰出時間睡覺、運動、照顧孩子，並以較從容的心情開始一天。"
+    },
+    {
+      "number": 5,
+      "english": "Less time pressure usually means less stress and better concentration, so productivity may also rise.",
+      "sourceChinese": "這些額外時間可以用於睡眠、運動、照顧孩子，或只是以更從容的狀態開始一天，從而減輕壓力、提升專注力，並且往往帶來更好的工作表現。",
+      "proposedChinese": "時間壓力減少通常意味著壓力較低、專注力較好，因此生產力亦可能提高。"
+    },
+    {
+      "number": 6,
+      "english": "For example, someone who no longer spends two hours commuting can prepare meals at home and begin work in a far better frame of mind.",
+      "sourceChinese": "例如，一名不再每天花兩小時通勤的員工，可能可以在家準備餐食，並以好得多的精神狀態開始工作。",
+      "proposedChinese": "例如，一名不再每天花兩小時通勤的員工，可能可以在家準備餐食，並以好得多的精神狀態開始工作。"
+    },
+    {
+      "number": 7,
+      "english": "Another benefit is broader access to jobs.",
+      "sourceChinese": "另一個重要好處是，遙距工作擴大了就業機會的可及性。",
+      "proposedChinese": "另一個重要好處是，遙距工作擴大了就業機會的可及性。"
+    },
+    {
+      "number": 8,
+      "english": "Because location matters less, firms can hire talent from rural areas, while parents and people with limited mobility can apply for roles once beyond their reach.",
+      "sourceChinese": "由於地點不再那麼重要，公司可以聘用來自偏遠地區的人才，而家長及行動不便的人也能申請以往難以從事的工作。",
+      "proposedChinese": "由於地點不再那麼重要，公司可以聘用來自偏遠地區的人才，而家長及行動不便的人也能申請以往難以從事的工作。"
+    },
+    {
+      "number": 9,
+      "english": "For instance, a city-based company can employ a skilled programmer who lives hundreds of kilometres away.",
+      "sourceChinese": "例如，一間位於城市的公司，仍然可以聘用住在數百公里外的優秀軟件工程師。因此，在家線上工作既能提升個人生活質素，也能增加人們獲得就業機會的可能。",
+      "proposedChinese": "例如，一家位於城市的公司，可以聘用住在數百公里外的熟練程式員。"
+    },
+    {
+      "number": 10,
+      "english": "However, this trend also has disadvantages.",
+      "sourceChinese": "然而，這種趨勢也有明顯缺點，尤其是在社交連結和個人界線方面。",
+      "proposedChinese": "然而，這種趨勢也有缺點。"
+    },
+    {
+      "number": 11,
+      "english": "The first is social and professional isolation.",
+      "sourceChinese": "第一個問題是職場中的孤立感。",
+      "proposedChinese": "第一項是社交與職業上的孤立。"
+    },
+    {
+      "number": 12,
+      "english": "When communication happens mainly through screens, spontaneous conversations, informal mentoring, and team cohesion all decline.",
+      "sourceChinese": "當大部分互動都透過螢幕進行時，自發性的交流、非正式指導以及團隊凝聚力往往都會下降，這會使員工對同事產生疏離感，並在工作中感到較少支援。",
+      "proposedChinese": "當溝通主要透過螢幕進行時，自發交談、非正式指導和團隊凝聚力都會減少。"
+    },
+    {
+      "number": 13,
+      "english": "This is particularly damaging for younger staff, who often learn by observing experienced colleagues solve problems in real time.",
+      "sourceChinese": "例如，一名新員工雖然可以在線上收到正式指示，但仍然會錯過在共享辦公室中本來能自然獲得的即時建議與支持。",
+      "proposedChinese": "這對較年輕的員工尤其有害，因為他們往往透過觀察資深同事如何即時解決問題來學習。"
+    },
+    {
+      "number": 14,
+      "english": "For example, a new employee may receive formal instructions online yet still miss the quick advice that would naturally be available in a shared office.",
+      "sourceChinese": "第二個缺點是，在家工作會模糊工作與私人生活之間的界線。",
+      "proposedChinese": "例如，新員工即使在網上收到正式指示，仍可能錯過在共用辦公室自然會得到的即時建議。"
+    },
+    {
+      "number": 15,
+      "english": "A second drawback is that home working can erase the boundary between work and private life.",
+      "sourceChinese": "由於電腦和手機總在身邊，有些員工會感到壓力，深夜仍要回覆訊息，結果彈性工作逐漸演變成隨時待命，最終導致疲勞甚至職業倦怠。",
+      "proposedChinese": "第二項缺點是，在家工作可能抹去工作與私人生活之間的界線。"
+    },
+    {
+      "number": 16,
+      "english": "Because the laptop is always nearby, some people keep checking messages late into the evening.",
+      "sourceChinese": "例如，一位每天晚飯後仍持續回覆電郵的經理，可能會發現自己根本無法真正放鬆。",
+      "proposedChinese": "由於手提電腦總在身邊，有些人到了晚上仍不斷查看訊息。"
+    },
+    {
+      "number": 17,
+      "english": "A manager who replies to emails after dinner every night, for example, may gradually slip into fatigue and burnout instead of enjoying genuine flexibility.",
+      "sourceChinese": "因此，儘管遙距工作帶來了自由，它同時也可能削弱職場歸屬感，並助長過度工作。",
+      "proposedChinese": "例如，一位每晚飯後都回覆電郵的經理，可能漸漸陷入疲勞與職業倦怠，而不是享受真正的彈性。"
+    },
+    {
+      "number": 18,
+      "english": "In conclusion, working online from home brings real drawbacks, but it remains a positive development overall.",
+      "sourceChinese": "總括而言，在家線上工作的增加確實帶來一些缺點，但整體上仍屬正面發展。",
+      "proposedChinese": "總括而言，在家線上工作的增加確實帶來一些缺點，但整體上仍屬正面發展。"
+    },
+    {
+      "number": 19,
+      "english": "While it can reduce face-to-face interaction and encourage overwork, its benefits for well-being and access to employment are more significant.",
+      "sourceChinese": "雖然它可能削弱職場中的面對面互動，並模糊私人生活的界線，但它對日常生活質素及就業機會可及性的好處更為重要。",
+      "proposedChinese": "雖然在家工作可能減少面對面交流並助長過度工作，但它對福祉和就業機會的好處更重要。"
+    }
+  ],
+  "rawChinese": [
+    "在許多國家，網上在家工作已成為一種正常的就業形式。",
+    "儘管這種趨勢可能削弱職場人際關係，並模糊工作與私人生活之間的界線，",
+    "我認為整體而言這是一項正面的發展，因為它改善了員工的生活質素，並讓更廣泛的人群更容易獲得工作機會。",
+    "一項明顯的好處是更好的工作與生活平衡。",
+    "沒有漫長的通勤，員工便可騰出時間睡覺、運動、照顧孩子，並以較從容的心情開始一天。",
+    "時間壓力減少通常意味著壓力較低、專注力較好，因此生產力亦可能提高。",
+    "例如，一名不再每天花兩小時通勤的員工，可能可以在家準備餐食，並以好得多的精神狀態開始工作。",
+    "另一個重要好處是，遙距工作擴大了就業機會的可及性。",
+    "由於地點不再那麼重要，公司可以聘用來自偏遠地區的人才，而家長及行動不便的人也能申請以往難以從事的工作。",
+    "例如，",
+    "一家位於城市的公司，可以聘用住在數百公里外的熟練程式員。",
+    "然而，這種趨勢也有缺點。",
+    "第一項是社交與職業上的孤立。",
+    "當溝通主要透過螢幕進行時，自發交談、非正式指導和團隊凝聚力都會減少。",
+    "這對較年輕的員工尤其有害，因為他們往往透過觀察資深同事如何即時解決問題來學習。",
+    "例如，新員工即使在網上收到正式指示，仍可能錯過在共用辦公室自然會得到的即時建議。",
+    "第二項缺點是，在家工作可能抹去工作與私人生活之間的界線。",
+    "由於手提電腦總在身邊，有些人到了晚上仍不斷查看訊息。",
+    "例如，一位每晚飯後都回覆電郵的經理，可能漸漸陷入疲勞與職業倦怠，而不是享受真正的彈性。",
+    "總括而言，在家線上工作的增加確實帶來一些缺點，但整體上仍屬正面發展。",
+    "雖然在家工作可能減少面對面交流並助長過度工作，但它對福祉和就業機會的好處更重要。"
+  ],
+  "rawItemCount": 21
+}

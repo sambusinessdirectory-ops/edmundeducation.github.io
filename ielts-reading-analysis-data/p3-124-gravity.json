@@ -1,0 +1,2002 @@
+{
+  "id": "p3-124-gravity",
+  "catalogueId": "p3-124",
+  "catalogueIds": [
+    "p3-124"
+  ],
+  "passage": 3,
+  "title": "GRAVITY",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 15,
+  "questionNumberStart": 26,
+  "answerKey": [
+    "vii",
+    "iv",
+    "ix",
+    "ii",
+    "x",
+    "i",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "J — air resistance",
+    "E — gravity fields",
+    "I — convection currents",
+    "C — 3.2 km"
+  ],
+  "questions": [
+    {
+      "number": 26,
+      "answer": "vii — Scientific definition and contemporary views",
+      "answerKey": "vii — Scientific definition and contemporary views",
+      "type": "Matching Headings",
+      "prompt": "Question 26",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選 heading。Heading 題要抓全段主題，不能只抓其中一個例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the late 16th century Galileo deduced that while gravitation propels all objects to the ground at the same rate, air resistance resulted in heavier objects appearing to fall more quickly; his theories contradicted earlier belief systems established by Aristotle and others, paving the way for formulation of modern theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十六世紀末，Galileo 推論出：雖然 gravitation 使所有物體以相同速度落向地面，但 air resistance令較重物體看起來落得較快；他的理論推翻了 Aristotle 等人建立的早期信念，並為現代理論的形成鋪路。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain scientific theories hold that gravitation may be initiated by a combination of factors and not simply the existence of gravity alone; though doubts have been raised regarding some of these theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些科學理論認為，gravitation 可能由多種因素共同引發，並不只取決於 gravity 的存在；不過，部分理論也受到質疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 由 Galileo 的發現開始，然後轉向現代科學定義和當代理論。這不是單純歷史段落，因為後半段明顯在講 scientific usage 和 current theories。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 headings 關鍵詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最貼近的 heading 是： vii Scientific definition and contemporary views科學定義和當代觀點段內有兩組很強的對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“distinct meanings in scientific usage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學用法中有不同意思"
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain scientific theories hold…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些科學理論認為……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀為何選 vii"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the two terms are now used interchangeably in everyday speech, they have distinct meanings in scientific usage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這兩個詞現在在日常說話中會被交替使用，但在科學用法中，它們有不同意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應 heading vii 的 Scientific definition。後文再說某些 scientific theories 認為gravitation 可由多種因素引發，這對應 contemporary views。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Historic theories” 有迷惑性，因為本段第一句提到 Galileo 和 Aristotle。不過整段重點很快轉入 scientific usage 和 modern / contemporary theories。用 iii 會只抓到開頭，覆蓋不了後半。因此答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "iv — The general rule of gravity and an exception",
+      "answerKey": "iv — The general rule of gravity and an exception",
+      "type": "Matching Headings",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph C 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gravity is directly proportional to mass; thus, a smaller object possesses less gravity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gravity 和 mass 成正比；因此，較小的物體擁有較少 gravity。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1960s, as a result of research into the worldwide gravity fields, it was discovered, inexplicably, that areas around and including the Hudson Bay area of Canada appeared to possess significantly lower levels of gravity than other parts of the globe; the reasons for this dissimilarity have since been extensively investigated resulting in two explanations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1960 年代，由於對全球 gravity fields 的研究，人們無法解釋地發現：加拿大 Hudson Bay 及其周邊地區的 gravity 水平似乎明顯低於全球其他地區；這種差異的原因後來被廣泛研究，形成了兩種解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句是一般規則：mass 越大，gravity 越大。最後一句引出例外：Hudson Bay gravity 異常偏低。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 headings 關鍵詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 是： The general rule of gravity and an exception gravity 的一般規則和一個例外Paragraph C 直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gravity is directly proportional to mass”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般規則"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hudson Bay … significantly lower levels of gravity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例外現象"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的中間還有 Moon 和 Earth shape："
+            },
+            {
+              "kind": "quote",
+              "text": "“To illustrate, the Moon is a quarter of the Earth’s size and possesses only 1/6 of its gravity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "舉例來說，月球大小是地球的四分之一，只有地球六分之一的 gravity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一般規則的例子。之後提到地球 mass 分布不均，gravity 在不同地點會變化，再引出Hudson Bay anomaly。整段結構就是：一般規則 → 例子 → 地球內部差異 → Hudson Bay 例外 → 後文兩種解釋Heading vi “How proximity to the poles affected Hudson Bay” 有干擾，因為段中提到 poles 和equator。但文章沒有說 Hudson Bay 的異常由靠近 poles 或位於 poles / equator 之間造成。真正段落主題是 general rule + exception，所以答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "ix — An alternative viewpoint",
+      "answerKey": "ix — An alternative viewpoint",
+      "type": "Matching Headings",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph E 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recently a second conjecture suggested that, in fact, lower levels of gravity in the area are a result of occurrences during the Ice Age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近期的第二個推測認為，該地區較低的 gravity 水平其實是 Ice Age 期間發生的事情所造成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the ice melted, a deep indentation remained, and the area around Hudson Bay was thinner because material had been pushed towards the edges of the ice sheet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冰層融化後，深深的凹陷仍然留下；Hudson Bay 周圍地區變得較薄，因為物質被推向冰層邊緣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句的 “a second conjecture” 非常重要。Paragraph D 已經是 first explanation，Paragraph E 引入第二種看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 headings 關鍵詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix： An alternative viewpoint另一種觀點原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recently a second conjecture…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近期的第二個推測"
+            },
+            {
+              "kind": "quote",
+              "text": "“in fact…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "重新解釋原本現象"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀為何選 ix"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的核心是 Laurentide Ice Sheet。原文說這片冰層覆蓋加拿大大部分地區和美國北端，厚達 3.2 km，多處 Hudson Bay 上方達 3.7 km。冰層重量壓低地表，冰融後凹陷保留，造成當地質量較少、gravity 偏低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 Paragraph D 的 mantle / magma activity 解釋不同。Heading ix 最能概括這段的功能：提出另一個 viewpoint。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “Substantiating a hypothesis” 較適合 Paragraph F，因為 F 用 GRACE satellite data去支持 Ice Sheet theory。Paragraph E 本身主要提出假說，尚未展示 satellite evidence。因此Question 28 答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "ii — Substantiating a hypothesis",
+      "answerKey": "ii — Substantiating a hypothesis",
+      "type": "Matching Headings",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph F 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Extensive investigation has since been carried out by the Harvard-Smithsonian Center for Astrophysics using data collected by satellites during the Gravity Recovery and Climate Experiment (GRACE) between 2002 and 2006.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後，Harvard-Smithsonian Center for Astrophysics 使用 2002 至 2006 年間 GRACE 衛星收集的資料，進行了大量研究。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The areas possessing the lowest gravity today correlate with the areas covered in the thickest layers of ice at that time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天 gravity 最低的地區，和當時被最厚冰層覆蓋的地區相吻合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 research method，最後一句說 research result。段落功能就是用數據支持前一段 Ice Sheet hypothesis。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 headings 關鍵詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii： Substantiating a hypothesis證實或支持一個假說原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Extensive investigation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量研究"
+            },
+            {
+              "kind": "quote",
+              "text": "“using data collected by satellites”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用衛星資料"
+            },
+            {
+              "kind": "quote",
+              "text": "“correlate with”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "與……相吻合這些字都指向 evidence / support。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 中間解釋 GRACE satellites 如何測量重力差異："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the first satellite enters an area with lower gravity, it moves slightly away from the Earth and farther from the satellite following it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當第一顆衛星進入 gravity 較低的區域時，它會稍微遠離地球，也會離後方衛星更遠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 movement 讓 scientists create maps of gravitational fields。接著，GRACE findings 讓科學家估計 Hudson Bay 在 10,000 多年前大融冰前的樣貌。最後的 correlation 直接支持 Paragraph E 的 Ice Sheet explanation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這段不是單純介紹衛星，也不只是講 gravity fields 的研究工具。它的核心功能是用 GRACE evidence 支持 hypothesis。因此答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "x — Consolidating theories",
+      "answerKey": "x — Consolidating theories",
+      "type": "Matching Headings",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph G 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers now believe that both theories regarding reduced gravity levels in the Hudson Bay region are accurate and that the area’s characteristics are a result of both magma activity and the impact of the Laurentide Ice Sheet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者現在相信，關於 Hudson Bay 區域 reduced gravity levels 的兩種理論都正確，該地區的特徵同時由 magma activity 和 Laurentide Ice Sheet 的影響造成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been estimated that the former accounts for 55–75% of the gravity reduction and that pressure resulting from the latter accounts for 25–45%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據估計，前者佔 gravity reduction 的 55–75%，後者造成的壓力佔 25–45%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 只有兩句，但兩句都在整合前文兩個理論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 headings 關鍵詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading x： Consolidating theories整合多個理論原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“both theories … are accurate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個理論都正確"
+            },
+            {
+              "kind": "quote",
+              "text": "“a result of both…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時源於兩者"
+            },
+            {
+              "kind": "quote",
+              "text": "“former … latter…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前者與後者分別佔比"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀為何選 x"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 是 mantle / magma explanation。Paragraph E 是 Laurentide Ice Sheet explanation。Paragraph F 用 GRACE evidence 支持 Ice Sheet hypothesis。到了 Paragraph G，作者沒有再把兩個理論當成只能二選一的 competing explanations，而是說： magma activity accounts for 55–75%Laurentide Ice Sheet pressure accounts for 25–45%這正是 consolidating theories：把兩種解釋放進同一個總體模型中，並分配比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 不適合，因為 Paragraph G 已經不再主要用證據支持某一假說；它在整合結論。答案是x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "i — Return to previous form",
+      "answerKey": "i — Return to previous form",
+      "type": "Matching Headings",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph H 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The effects of the Laurentide Ice Sheet are reversible due to the Earth’s layers’ capability to‘rebound’ in response to removal of the weight which once restricted it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Laurentide Ice Sheet 的影響是可逆的，因為地球各層在曾經壓住它的重量移除後，有能力"
+            },
+            {
+              "kind": "quote",
+              "text": "“rebound”。最後一句：“The rebound activity in the area is also measurable through observation of sea levels; unlike the rest of the world, sea levels are not rising in the area as a result of melting icecaps, but are dropping as the land recovers its previous form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該地區的 rebound activity 也可透過觀察 sea levels 來測量；和世界其他地方不同，該區 sea levels 沒有因冰帽融化而上升，反而隨著土地恢復舊形而下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都圍繞 rebound、recover、previous form。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 headings 關鍵詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i： Return to previous form回到先前形態原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“rebound”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "回彈"
+            },
+            {
+              "kind": "quote",
+              "text": "“recover the altitude it once possessed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "恢復曾有的高度"
+            },
+            {
+              "kind": "quote",
+              "text": "“recovers its previous form”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "恢復舊形"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 說，Laurentide Ice Sheet 的重量移除後，地球表層會慢慢回彈。這個過程非常慢， Hudson Bay 周邊還要 5,000 年才會恢復 Ice Sheet 之前的 altitude。sea levels dropping 也不是一般全球 sea-level rise 的例子，而是因為土地上升，海平面相對下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 覆蓋整段。其他 headings 如 viii “Relevance to our future” 已給 Paragraph I；ii"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Substantiating a hypothesis” 則更貼近 Paragraph F。Question 31 答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Differentiation between gravity and gravitational pull is generally only made by academics in the field.”",
+      "translation": "gravity 和 gravitational pull 之間的區分，一般只有該領域的學者或科學人員才會作出。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the late 16th century Galileo deduced that while gravitation propels all objects to the ground at the same rate, air resistance resulted in heavier objects appearing to fall more quickly; his theories contradicted earlier belief systems established by Aristotle and others, paving the way for formulation of modern theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十六世紀末，Galileo 推論出：雖然 gravitation 使所有物體以同樣速度落地，但 air resistance 令較重物體看似落得較快；他的理論推翻了 Aristotle 等人的早期信念，並為現代理論鋪路。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain scientific theories hold that gravitation may be initiated by a combination of factors and not simply the existence of gravity alone; though doubts have been raised regarding some of these theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些科學理論認為，gravitation 可能由多種因素共同引發，不單靠 gravity 本身的存在；不過，有些理論受到質疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 已經顯示它處理科學觀點、詞義分別和現代理論。這讓我們把Question 32 定位到此段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Differentiation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gravity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“generally only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“academics in the field”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最重要句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the two terms are now used interchangeably in everyday speech, they have distinct meanings in scientific usage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這兩個詞現在在日常說話中會被交替使用，但在科學用法中，它們有不同意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個對照： everyday speech= 日常說話中，兩個詞會混用scientific usage= 科學用法中，兩個詞有 distinct meanings題目中的 “academics in the field” 可以對應 “scientific usage”。題目中的 “generally only made”對應原文 “everyday speech” 中不作區分、scientific usage 中才作區分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“used interchangeably in everyday speech”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 普通人日常會混用"
+            },
+            {
+              "kind": "quote",
+              "text": "“distinct meanings in scientific usage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 科學語境會分辨所以按考題意圖，答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要小心的是，原文最準確分辨的是 gravitation 和 gravity，題目寫 “gravity and gravitational pull”稍微不精確。若逐字執著 “gravitational pull” 這個短語，文章沒有專門說它和 gravity 的學術分別。不過 IELTS 題目多半把它當作對 Paragraph B 這句的改寫，答案應取 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Gravity levels in areas around the equator are significantly higher than around the poles.”",
+      "translation": "赤道附近地區的 gravity levels 明顯高於兩極附近地區。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gravity is directly proportional to mass; thus, a smaller object possesses less gravity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gravity 和 mass 成正比；因此，較小物體擁有較少 gravity。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1960s, as a result of research into the worldwide gravity fields, it was discovered, inexplicably, that areas around and including the Hudson Bay area of Canada appeared to possess significantly lower levels of gravity than other parts of the globe; the reasons for this dissimilarity have since been extensively investigated resulting in two explanations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1960 年代，由於對全球 gravity fields 的研究，人們發現加拿大 Hudson Bay 及其周邊地區的gravity 明顯低於全球其他地方；這種差異後來被廣泛研究，形成兩種解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段確實提到 poles 和 equator，所以 Question 33 應先看 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“equator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“poles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significantly higher”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mass of the Earth itself is not spread out proportionally, being flatter at the poles than the equator as a result of its rotation; gravity and gravitational pull in different locations throughout the world also vary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球本身的質量分布並不均勻；由於自轉，地球在兩極比在赤道更扁平；世界不同地點的 gravity和 gravitational pull 也會有所不同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了三個資訊：地球質量分布不均；地球在 poles 比 equator 更扁；不同地點的 gravity 會有所不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目要求一個很具體的比較： equator areas 的 gravity levels高於 poles areas而且是 significantly higher原文沒有說 equator 比 poles 高，也沒有說 poles 比 equator 高。它只說不同位置會 vary。這種"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“vary” 不足以推出 “equator significantly higher”。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位在於",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實出現 equator 和 poles，學生容易以為可以判斷。但 TRUE / FALSE / NOT"
+            },
+            {
+              "kind": "paragraph",
+              "text": "GIVEN 題要看完整比較關係。這裡缺少 “higher than” 的方向和 “significantly” 的程度資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It was first believed that lower gravity levels in Hudson Bay could be attributed to its location between the poles and the equator.”",
+      "translation": "最初人們認為 Hudson Bay 的低 gravity levels 可歸因於它位於 poles 和 equator 之間的位置。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The original theory attributed this anomaly to activity which occurs 100–200 kilometres below the Earth’s surface within the layer known as the ‘mantle’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初的理論把這個異常現象歸因於地表下 100–200 公里、稱為 “mantle” 的地層內發生的活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research findings indicated that such activity had occurred in the Hudson Bay region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究結果顯示，這類活動曾在 Hudson Bay region 發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 直接交代 original theory，也就是題目中的 “first believed”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first believed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lower gravity levels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hudson Bay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“location between the poles and the equator”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應 “first believed” 的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The original theory attributed this anomaly to activity … within … the ‘mantle’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初理論把異常歸因於 mantle 內的活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說最初解釋是 Hudson Bay 的位置，也就是它在 poles 和 equator 之間。原文對 original theory 的說法很明確：原因在地表下 100–200 公里的 mantle activity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些活動涉及 magma、convection currents 和 continental plates 的 lowering。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究發現 Hudson Bay region 曾有這類活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原因放在地理位置；原文把 original theory 放在地球內部活動。兩者原因不相容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 33 和 Question 34 容易混在一起。Paragraph C 的確提到 poles 和 equator，但那只是說地球形狀和不同位置 gravity 會 vary。Paragraph D 才是 original theory，原因是 mantle activity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Molten rock activity within the magma layer has had less of an impact on gravity levels in the Hudson Bay area than the Laurentide Ice Sheet.”",
+      "translation": "magma layer 中的 molten rock activity 對 Hudson Bay gravity levels 的影響，比 Laurentide Ice Sheet 小。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers now believe that both theories regarding reduced gravity levels in the Hudson Bay region are accurate and that the area’s characteristics are a result of both magma activity and the impact of the Laurentide Ice Sheet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者現在相信，關於 Hudson Bay reduced gravity levels 的兩個理論都正確，該地區特徵同時由 magma activity 和 Laurentide Ice Sheet 的影響造成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been estimated that the former accounts for 55–75% of the gravity reduction and that pressure resulting from the latter accounts for 25–45%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據估計，前者佔 gravity reduction 的 55–75%，後者造成的壓力佔 25–45%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段直接比較兩種原因的影響比例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“molten rock / magma”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less of an impact”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Laurentide Ice Sheet”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“both magma activity and the impact of the Laurentide Ice Sheet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the former accounts for 55–75%”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the latter accounts for 25–45%”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要先處理代詞： the former= magma activity the latter= the impact / pressure from the Laurentide Ice Sheet原文數字： magma activity：55–75%Laurentide Ice Sheet pressure：25–45%題目說 magma activity had less impact than Laurentide Ice Sheet。原文數字剛好相反：magma activity 佔比更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “both theories … are accurate”。這句只說兩個理論都成立，不代表兩者影響相同。真正控制答案的是後一句的 percentages。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The GRACE project’s main focus was areas of Canada and North America once thought to be covered by the Laurentide Ice Sheet.”",
+      "translation": "GRACE project 的主要焦點，是加拿大和北美那些曾被認為由 Laurentide Ice Sheet 覆蓋的地區。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Extensive investigation has since been carried out by the Harvard-Smithsonian Center for Astrophysics using data collected by satellites during the Gravity Recovery and Climate Experiment (GRACE) between 2002 and 2006.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後，Harvard-Smithsonian Center for Astrophysics 使用 GRACE 在 2002 至 2006 年間由satellites 收集的資料，進行了大量研究。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The areas possessing the lowest gravity today correlate with the areas covered in the thickest layers of ice at that time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天 gravity 最低的地區，和當時被最厚冰層覆蓋的地區相吻合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的確有 GRACE，也有 Hudson Bay / Ice Sheet 研究。但題目問的是 GRACE project的 main focus。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“GRACE project”"
+            },
+            {
+              "kind": "quote",
+              "text": "“main focus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Canada and North America”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Laurentide Ice Sheet”"
+            },
+            {
+              "kind": "label",
+              "text": "原文提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“using data collected by satellites during the Gravity Recovery and Climate Experiment (GRACE)”"
+            },
+            {
+              "kind": "quote",
+              "text": "“orbit 500 km above Earth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“create maps of gravitational fields”"
+            },
+            {
+              "kind": "quote",
+              "text": "“estimate the appearance of Hudson Bay…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Harvard-Smithsonian 的研究使用 GRACE 衛星資料來研究 Hudson Bay。也說 GRACE satellites 會 orbit Earth，測量不同地區的 gravitational pull，幫助製作 gravitational field maps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是文章沒有說： GRACE project 的主要研究目標是 Canada； GRACE project 的 main focus 是 North America； GRACE project 專門為 Laurentide Ice Sheet 設計； GRACE project 主要研究曾被冰層覆蓋的地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它只說這些資料後來被用來研究 Hudson Bay。這和 “main focus was…” 仍有距離。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位在於",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "GRACE findings 確實支援 Hudson Bay / Ice Sheet hypothesis。不過「某研究使用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "GRACE 資料」不等於「GRACE project 本身的主要焦點就是 Hudson Bay 或 Laurentide Ice Sheet」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "J — air resistance",
+      "answerKey": "J — air resistance",
+      "type": "Box Completion",
+      "prompt": "“The impact of 37 ______ on objects falling to the ground was not considered by Aristotle.”",
+      "translation": "Aristotle 沒有考慮 ______ 對落向地面的物體造成的影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the late 16th century Galileo deduced that while gravitation propels all objects to the ground at the same rate, air resistance resulted in heavier objects appearing to fall more quickly; his theories contradicted earlier belief systems established by Aristotle and others, paving the way for formulation of modern theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十六世紀末，Galileo 推論出：雖然 gravitation 使所有物體以同樣速度落地，但 air resistance 令較重物體看似落得較快；他的理論推翻了 Aristotle 等人的早期信念，並為現代理論鋪路。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain scientific theories hold that gravitation may be initiated by a combination of factors and not simply the existence of gravity alone; though doubts have been raised regarding some of these theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些科學理論認為，gravitation 可能由多種因素共同引發，不單靠 gravity 本身存在；不過部分理論受到質疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 第一個句子已經把 Galileo 和 Aristotle 對比起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“objects falling to the ground”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Aristotle”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not considered”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“air resistance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heavier objects appearing to fall more quickly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contradicted earlier belief systems established by Aristotle”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Galileo 發現 air resistance 會使較重物體看起來落得較快，這推翻了 Aristotle 等人的早期 belief systems。題目說 Aristotle 沒有考慮哪個影響，答案就是 Galileo 後來補上的因素： J — air resistance這題的 box 中有 “mass” 也很吸引人，因為 Paragraph A 說 Aristotle 認為物體下墜和 weight 有關。但題目問 “impact of ___ on objects falling”，而 Paragraph B 明確說影響外觀下落速度的是air resistance。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "E — gravity fields",
+      "answerKey": "E — gravity fields",
+      "type": "Box Completion",
+      "prompt": "“Investigations of 38 ______ first led to the discovery of the unusual gravity levels in Hudson Bay.”",
+      "translation": "對 ______ 的研究，最初導致人們發現 Hudson Bay 的異常 gravity levels。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gravity is directly proportional to mass; thus, a smaller object possesses less gravity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gravity 和 mass 成正比；因此，較小物體擁有較少 gravity。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1960s, as a result of research into the worldwide gravity fields, it was discovered, inexplicably, that areas around and including the Hudson Bay area of Canada appeared to possess significantly lower levels of gravity than other parts of the globe; the reasons for this dissimilarity have since been extensively investigated resulting in two explanations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1960 年代，由於對全球 gravity fields 的研究，人們發現加拿大 Hudson Bay 及其周邊地區的gravity 水平明顯低於全球其他地區；這種差異後來被廣泛研究，形成兩種解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Investigations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first led to the discovery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unusual gravity levels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hudson Bay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“as a result of research into the worldwide gravity fields, it was discovered…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Investigations of” 對應原文 “research into”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “first led to the discovery” 對應原文 “it was discovered”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “unusual gravity levels” 對應原文 “significantly lower levels of gravity”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： E — gravity fields注意：答案不是 “gravity” 或 “gravitational pull”。題目問的是被研究的對象，原文完整搭配是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“worldwide gravity fields”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "I — convection currents",
+      "answerKey": "I — convection currents",
+      "type": "Box Completion",
+      "prompt": "“The Earth’s surface has been observed to sink as a direct result of 39 ______.”",
+      "translation": "人們觀察到 Earth’s surface 會因 ______ 的直接作用而下沉。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The original theory attributed this anomaly to activity which occurs 100–200 kilometres below the Earth’s surface within the layer known as the ‘mantle’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初理論把這個異常現象歸因於地表下 100–200 公里、稱為 mantle 的地層內發生的活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research findings indicated that such activity had occurred in the Hudson Bay region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究結果顯示，這類活動曾在 Hudson Bay region 發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 講第一個理論，涉及 mantle、magma、convection currents、continental plates 和gravity reduction。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earth’s surface”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sink”"
+            },
+            {
+              "kind": "quote",
+              "text": "“direct result”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These convection currents can result in the lowering of the continental plates which make up the Earth’s surface; as a result, when this occurs, the mass in that area and its gravity is also reduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 convection currents 可導致構成地球表面的 continental plates 下沉；結果是，當這種情況發生時，該地區的 mass 和 gravity 也會降低。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Earth’s surface has been observed to sink”。原文說 “the lowering of the continental plates which make up the Earth’s surface”。也就是說，continental plates 是下沉的對象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “as a direct result of ______”，所以要填造成下沉的原因。原文的原因是："
+            },
+            {
+              "kind": "quote",
+              "text": "“These convection currents can result in…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 convection currents 可導致……因此答案是： I — convection currents中伏位是 D — continental plates。它確實出現在答案句中，但它是被 lowering 的東西，不是造成 lowering 的原因。題目空格前有 “as a direct result of”，所以要找 cause，而不是找 object。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — 3.2 km",
+      "answerKey": "C — 3.2 km",
+      "type": "Box Completion",
+      "prompt": "“The largest part of the Laurentide Ice Sheet was 40 ______ thick.”",
+      "translation": "Laurentide Ice Sheet 的最大部分厚度為 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recently a second conjecture suggested that, in fact, lower levels of gravity in the area are a result of occurrences during the Ice Age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近期的第二個推測認為，該地區較低的 gravity levels 其實源於 Ice Age 期間發生的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the ice melted, a deep indentation remained, and the area around Hudson Bay was thinner because material had been pushed towards the edges of the ice sheet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冰層融化後，深深的凹陷仍然留下；Hudson Bay 周圍地區變得較薄，因為物質被推向冰層邊緣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講 Laurentide Ice Sheet，也包含厚度數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“largest part”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Laurentide Ice Sheet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“thick”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Laurentide Ice Sheet, which covered most of Canada and the northern tip of the USA until it melted 10,000 years ago, is thought to have been 3.2 km thick in most parts and 3.7 km thick over two areas of Hudson Bay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Laurentide Ice Sheet 覆蓋加拿大大部分地區和美國北端，直到一萬年前融化；人們認為它在大部分地區厚 3.2 km，在 Hudson Bay 的兩個區域厚 3.7 km。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “largest part”，意思是最大範圍、最多部分。原文對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“in most parts”"
+            },
+            {
+              "kind": "label",
+              "text": "在大部分地區這些部分的厚度是："
+            },
+            {
+              "kind": "quote",
+              "text": "“3.2 km thick”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： C — 3.2 km中伏位是 3.7 km。它是最厚的數字，但只出現在 “two areas of Hudson Bay”。題目問 largest part，不是 thickest part。largest part 對應 most parts，所以選 3.2 km。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -GRAVITY.pdf",
+    "sha256": "a52b0f301934e37a53a13e42f574a1e283aacbc7f49598a0233b349b5194b810",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句說如果沒有 gravitation，地球和其他行星無法繞太陽運行；最後一句說 Aristotle 在公元前四世紀提出早期假說，認為物體會按重量比例墜向地球。只看首尾句，可以估計這段是全篇引入：先說重力對天體運行、潮汐和對流的重要性，再交代人類很早已嘗試解釋 gravity。這段主要建立歷史背景和基本概念，Questions 37 會借用 Aristotle 的舊觀點作對比。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說 Galileo 在十六世紀末推論出所有物體受 gravitation 影響會以同樣速度落地，但 air resistance 使較重物體看似落得較快；最後一句說一些當代理論認為 gravitation 可能由多種因素引發，但部分理論受到質疑。只看首尾句，這段由 Galileo 轉入現代科學定義和理論分歧。 Paragraph B 明顯會處理 gravity / gravitation 的科學用法，因此 Questions 26、32、37 都會定位到這段。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說 gravity 和 mass 成正比，所以較小物體擁有較少 gravity；最後一句說 Hudson Bay 一帶gravity 顯著較低的原因後來經廣泛研究，形成兩種解釋。只看首尾句，這段的功能很清楚：先提出 gravity 的一般規則，再引出例外現象。Moon、Earth shape、poles、equator 都是背景，真正推動後文的是 Hudson Bay anomaly。Questions 27、33、34、38 都會和這段有關。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說最初理論把 Hudson Bay 的異常現象歸因於地表下 100–200 公里的 mantle 活動；最後一句說研究結果顯示 Hudson Bay region 曾發生這類活動。只看首尾句，這段是第一個解釋： mantle 內的 magma 流動形成 convection currents，令 continental plates 下沉，質量和 gravity隨之降低。題目已把 Paragraph D 的 heading 給作 example：v — The initial explanation。 Question 39 也會用到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說較近期的第二個 conjecture 認為該區較低 gravity 其實源於 Ice Age 期間發生的事；最後一句說冰層融化後留下深凹，Hudson Bay 周圍因物質被推向冰層邊緣而變薄。只看首尾句，這段提出另一個解釋：Laurentide Ice Sheet 的重量壓低地表，冰融後留下 indentation。這段是Paragraph D 之外的 alternative viewpoint，也含有 Question 40 的厚度數據。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說 Harvard-Smithsonian Center for Astrophysics 使用 GRACE 於 2002–2006 年間由satellites 收集的資料進行大量研究；最後一句說今天最低 gravity 的區域，和一萬多年前最厚冰層覆蓋的區域相吻合。只看首尾句，這段功能是用 satellite data 支持 Ice Sheet hypothesis。中間的 satellites、gravitational pull、maps of gravitational fields 都是研究方法。Question 29 的heading 和 Question 36 都集中在這段。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說研究者現在相信 Hudson Bay reduced gravity 的兩個理論都準確，該區特徵同時源於magma activity 和 Laurentide Ice Sheet 的影響；最後一句給出比例估算：前者佔 55–75%，後者佔 25–45%。只看首尾句，這段就是把兩個解釋整合起來。Paragraph D 和 E 原本像兩種競爭解釋，Paragraph G 則指出二者共同成立。Questions 30 和 35 會直接定位到這段。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說 Laurentide Ice Sheet 的影響可以逆轉，因為地球各層能在重量移除後 rebound；最後一句說當地 sea levels 沒有像世界其他地方那樣上升，反而隨著土地恢復舊形而下降。只看首尾句，這段講的是地表回彈和恢復原來高度。中間會出現 5,000 years、recover the altitude、sea levels are dropping 等關鍵訊息。Question 31 的 heading 明顯在這段。"
+      },
+      {
+        "number": "I",
+        "summary": "第一句說針對 Laurentide Ice Sheet 的研究具有全球層面的重大意義；最後一句說了解該地長期變化，有助我們理解其他地方目前變化將如何在長期中呈現。只看首尾句，這段是全文收結： Hudson Bay 研究不只解釋一個局部 gravity anomaly，也能幫助預測其他地區未來長期變化。題目已給 Paragraph I 的 heading：viii — Relevance to our future。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 32 有一點 wording 要小心：原文最清楚分辨的是 gravitation 和 gravity。題目寫成",
+    "“gravity and gravitational pull” 不算最乾淨。不過考題意圖明顯是測 Paragraph B 中 “everyday speech” 和 “scientific usage” 的分別，所以我會按考試意圖判 TRUE。"
+  ]
+}

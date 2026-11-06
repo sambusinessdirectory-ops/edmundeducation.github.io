@@ -1,0 +1,2188 @@
+{
+  "id": "p1-085-if-at-first-you-dont-succeed",
+  "catalogueId": "p1-085",
+  "catalogueIds": [
+    "p1-085"
+  ],
+  "passage": 1,
+  "title": "If at first you don’t succeed…",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "E",
+    "D",
+    "B",
+    "C",
+    "A",
+    "quitting",
+    "vague far-off",
+    "motivation",
+    "brands",
+    "success rate",
+    "relapse",
+    "failure",
+    "realistic"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Smoker Modes",
+      "prompt": "Question 1",
+      "translation": "你知道大眾對吸煙有負面看法，但這完全不影響你，而且你對自己被視為 smoker 感到相對自在。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Mode： Pre-contemplation Mode選項 E："
+            },
+            {
+              "kind": "quote",
+              "text": "“You are aware of the negative perception of smoking that exists among the wider public, but it does not affect you in the slightest, and you are content to be labelled a smoker.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 和 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一個關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first, pre-contemplation, is typically the most difficult point from which to start quitting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種模式 pre-contemplation，通常是最難開始戒煙的狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These smokers tend only to say that they will try to quit when pressured to do so by a loved one, but really they have no desire whatsoever to give up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些吸煙者通常只有在親近的人施壓時，才說自己會試著戒煙；但實際上他們完全沒有戒煙欲望。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一、二句繼續描述這類人："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such individuals are unlikely to be affected by public health warnings and rarely listen to the negative publicity smoking receives in the media or place any importance on the wider society’s view of them and their habit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些人不太可能受公共健康警告影響，也很少聽進媒體對吸煙的負面宣傳，或重視更廣泛社會對他們及其習慣的看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以估計 pre-contemplation mode 的核心是：低動機、不重視外界評價、沒有真正戒煙意願。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“negative perception”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wider public”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not affect you”"
+            },
+            {
+              "kind": "quote",
+              "text": "“content”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字說 negative perception，但有 “negative publicity”、 “wider society’s view” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“relatively content”。這三組詞把我們帶到 Paragraph 3。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正證據是：“Such individuals are unlikely to be affected by public health warnings and rarely listen to the negative publicity smoking receives in the media or place any importance on the wider society’s view of them and their habit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些人不太可能受公共健康警告影響，也很少聽進媒體對吸煙的負面宣傳，或重視更廣泛社會對他們及其習慣的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are relatively content…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們相對滿足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E 把原文壓縮成一個人物狀態：知道社會有負面眼光，但這不影響自己，仍然對 smoker 身份感到自在。原文的 “rarely listen to the negative publicity” 和 “place any importance on the wider society’s view” 對應 “does not affect you”。“They are relatively content” 對應 “content to be labelled a smoker”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“negative perception … wider public”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“negative publicity … wider society’s view”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“does not affect you”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“unlikely to be affected / rarely listen / place any importance”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“content”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“relatively content”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 1 答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 G 提到 bereavement，容易吸引眼睛，因為 Paragraph 3 也有 “bereavement”。但原文說bereavement 或 health scare 可能提供戒煙動機，選項 G 說 significant life events may impede quitting，即阻礙戒煙，方向相反。因此 G 不能配 pre-contemplation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Smoker Modes",
+      "prompt": "Question 2",
+      "translation": "你不喜歡被視為 smoker，會告訴別人自己將會戒煙，但你懷疑自己是否有能力真正擺脫香煙。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Mode： Contemplation Mode選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“You dislike being labelled a smoker and tell others that you will quit, but you doubt your ability to remove cigarettes from your life.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Someone who genuinely wants to quit is in what we term ‘contemplation’ mode.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真心想戒煙的人處於我們稱為 contemplation mode 的狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is why he draws attention to a time when, as he perceives it, his willpower will have increased – such as after the birth of his firstborn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是為甚麼他會把注意力放在將來某個時間點；在他看來，到那時自己的意志力會增強，例如第一個孩子出生之後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會描述一種「想戒，但仍未真正行動」的狀態。它和 Question 2 的contemplation mode 完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“tell others that you will quit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“doubt your ability”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“constantly saying that they will quit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seriously doubts his own willpower”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個短語都在 Paragraph 4，所以定位很穩。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These people, the contemplators, are of a mind to quit but still lack the motivation to try.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 contemplators 有戒煙的想法，但仍缺乏嘗試的動機。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are constantly saying that they will quit, and often set vague far-off dates for when the act of quitting is likely to occur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們不斷說自己會戒煙，而且常常為真正戒煙設下含糊而遙遠的日期。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in reality, while the smoker knows he should quit, his motivation to do so is still not strong and he seriously doubts his own willpower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，實際上，雖然吸煙者知道自己應該戒煙，他的戒煙動機仍然不強，而且嚴重懷疑自己的意志力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 最重要的兩部分是 “tell others that you will quit” 和 “doubt your ability”。這兩部分分別對應 “constantly saying that they will quit” 和 “seriously doubts his own willpower”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“tell others that you will quit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“constantly saying that they will quit”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“doubt your ability to remove cigarettes from your life”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“seriously doubts his own willpower”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 前半句 “dislike being labelled a smoker” 在原文中沒有逐字重現；可是整個選項的核心行為和心理狀態都和 contemplation mode 最接近。這類 Matching 題要選整體最貼合的 statement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心 E。E 也有 “labelled a smoker”，但 E 的人對外界眼光無感，並且相對滿足；這正是pre-contemplation。Contemplation 的核心是：知道應該戒、常說會戒、仍缺乏行動力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Smoker Modes",
+      "prompt": "Question 3",
+      "translation": "你正在考慮轉用較淡的香煙，並第一次嘗試減少每日吸煙量。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Mode： Action Mode選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“You are considering switching to a weaker cigarette and are trying to reduce your daily cigarette consumption for the first time.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5 和 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Really, the only way to ever successfully give up smoking is to just get on with it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說到底，成功戒煙的唯一方法就是直接開始做。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, they really are trying to quit and not just talking about it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個階段，他們真的在嘗試戒煙，而非只是在談論戒煙。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have different approaches to action mode; some change brands initially, some cut down on the amount they smoke, others wear patches or take other nicotine substitutes, and a few try to go cold turkey, a practice that does not actually have a very high success rate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入 action mode 的人有不同做法；有些人一開始會換品牌，有些人減少吸煙量，有些人使用貼片或其他尼古丁替代品，也有少數人直接完全停止吸煙，但這種做法成功率其實不太高。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“switching”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weaker cigarette”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce”"
+            },
+            {
+              "kind": "quote",
+              "text": "“daily cigarette consumption”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 “weaker cigarette”，但有 “change brands” 和 “cut down on the amount they smoke”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個短語和選項 B 的行動高度對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have different approaches to action mode; some change brands initially, some cut down on the amount they smoke…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入 action mode 的人有不同做法；有些人一開始會換品牌，有些人減少吸煙量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“change brands initially” 可以包含轉用較淡、較弱或較不同類型的香煙。題目用 “switching to a weaker cigarette” 作更具體的改寫。“cut down on the amount they smoke” 直接對應 “reduce your daily cigarette consumption”。 Action mode 的本質在 Paragraph 5 已說明：這些人真的開始戒煙行動。選項 B 描述的正是初步行動，而非空談。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項：“switching to a weaker cigarette”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“change brands initially”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“trying to reduce your daily cigarette consumption”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“cut down on the amount they smoke”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 3 答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Action mode 不一定等於完全即時戒斷。原文列出很多做法，包括換品牌、減量、貼片和替代品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要是真實戒煙嘗試，就屬於 action mode。因此 B 比 “cold turkey” 更能代表這段列出的初步行動。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Smoker Modes",
+      "prompt": "Question 4",
+      "translation": "經過一番掙扎後，你終於向吸煙衝動讓步。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Mode： Relapse Mode選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“After much deliberation, you have finally given in to the urge to smoke.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7 和 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When you get to the maintenance phase, in which you have stopped smoking completely, but are still within the first year after quitting, there is a tendency to assume that you are out of the woods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你到了 maintenance phase，也就是已完全停止吸煙但仍處於戒煙後第一年內，你會傾向以為自己已經脫離危險。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, failure is not the end, so despair not; you have simply entered another phase—relapse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "話雖如此，失敗並非終點，所以不要絕望；你只是進入另一個階段——relapse。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一個句子直接定義 relapse："
+            },
+            {
+              "kind": "quote",
+              "text": "“Relapse is a return to daily smoking after a period of non-smoking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Relapse 指經過一段不吸煙期後，重新回到每天吸煙。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“given in”"
+            },
+            {
+              "kind": "quote",
+              "text": "“urge to smoke”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中相近情境是 Paragraph 7："
+            },
+            {
+              "kind": "quote",
+              "text": "“I’ll just have one—surely I don’t need them any more”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“one cigarette quickly becomes two, two become three…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子描述戒煙者向 temptation 讓步後，逐步回到上癮狀態。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phrases such as ‘I’ll just have one—surely I don’t need them any more’ are not uncommon at this point, and all the hard work it took to quit is undone in a moment or two of madness during which one cigarette quickly becomes two, two become three, and before you know it, you are a fully-fledged addict again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個時候，人們常會說「我只抽一支——我現在肯定已經不需要它們了」之類的話；而所有戒煙的努力就在一兩個瘋狂瞬間被毀掉，一支煙很快變成兩支，兩支變成三支，等你回過神來，你又再次成為完全上癮的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “given in to the urge to smoke” 概括了這個過程：原本已戒煙，後來容許自己再抽一支，最後重新上癮。Paragraph 8 再把這個狀態正式命名為 relapse。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“given in to the urge to smoke”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“I’ll just have one” / “one cigarette quickly becomes two”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“finally”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“after a period of non-smoking” / maintenance phase 之後重新吸煙所以 Question 4 答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易和 maintenance phase 混淆。Paragraph 7 開頭說 maintenance 是已完全停止吸煙但仍在第一年內；一旦 “just one” 變成 daily smoking，狀態便轉入 relapse。題目問 Relapse Mode，所以要用 Paragraph 8 的定義收尾判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Smoker Modes",
+      "prompt": "Question 5",
+      "translation": "你過去的戒煙嘗試，使你現在從統計上更有機會成功戒煙。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Mode： Renewed-Action Mode選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your previous attempts make you statistically more likely to succeed in quitting now.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Relapse is a return to daily smoking after a period of non-smoking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Relapse 指經過一段不吸煙期後，重新回到每天吸煙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this mode, you are as determined as ever to quit, but you have an edge—you can learn from your past mistakes and keep your expectations realistic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個模式中，你仍然像以往一樣決心戒煙，但你有一項優勢：你可以從過去錯誤中學習，並保持現實的期望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 8 會從 relapse 轉向 renewed-action mode，重點在於失敗後如何重新開始，並利用過去經驗增加成功可能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“previous attempts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“statistically”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more likely to succeed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有非常直接的對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Failing in the quitting smoking stakes actually makes you less likely to fail the next time you try…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是全題核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Failing in the quitting smoking stakes actually makes you less likely to fail the next time you try—practice really makes perfect in this game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在戒煙這件事上失敗，其實會令你下次嘗試時更不容易失敗——在這件事上，練習真的會帶來進步。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 renewed-action 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pluck up the courage to try again and you will find yourself in a state very familiar to anyone who has tried to quit: renewed-action mode.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鼓起勇氣再試一次，你就會發現自己進入一個任何曾經試過戒煙的人都熟悉的狀態： renewed-action mode。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “less likely to fail the next time” 等同於 “more likely to succeed”。“learn from your past mistakes” 則解釋為何 previous attempts 會有幫助。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“previous attempts”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“past mistakes” / “the next time you try”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“more likely to succeed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“less likely to fail”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“statistically”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：前文 Paragraph 6 的 “statistically, succeed” 以及 Paragraph 8 的 general success pattern所以 Question 5 答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Relapse 乍看是失敗，所以學生可能以為它只代表壞結果。可是 Paragraph 8 的重點是：失敗後再次行動會帶來優勢。Renewed-action mode 的核心在 “try again” 和 “learn from your past mistakes”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "quitting",
+      "answerKey": "quitting",
+      "type": "Note Completion",
+      "prompt": "“6 _________________ is only likely to become a goal if the smoker is in what is termed contemplation mode…”",
+      "translation": "只有當吸煙者處於所謂 contemplation mode 或之後階段時，______ 才較可能成為目標。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, quitting is possible so long as the smoker is at least in contemplation mode.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "話雖如此，只要吸煙者至少處於 contemplation mode，戒煙就是可能的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These smokers tend only to say that they will try to quit when pressured to do so by a loved one, but really they have no desire whatsoever to give up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些吸煙者通常只有在親近的人施壓時，才說自己會試著戒煙；但實際上他們完全沒有戒煙欲望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 直接把 quitting 和 contemplation mode 連在一起，所以 Question 6 應定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“contemplation mode”"
+            },
+            {
+              "kind": "quote",
+              "text": "“goal”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“quitting is possible so long as the smoker is at least in contemplation mode”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, quitting is possible so long as the smoker is at least in contemplation mode.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "話雖如此，只要吸煙者至少處於 contemplation mode，戒煙就是可能的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “quitting is possible” 改寫成 “quitting is only likely to become a goal”。兩者都表達：戒煙要從 contemplation 或之後階段才真正有希望。空格是句子主語，需要一個名詞或動名詞。原文中的 “quitting” 符合文法和意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 quitting。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "vague far-off",
+      "answerKey": "vague far-off",
+      "type": "Note Completion",
+      "prompt": "“Smokers in contemplation mode have good intentions, but their target dates are often 7_________________.”",
+      "translation": "處於 contemplation mode 的吸煙者有良好意圖，但他們設定的目標日期通常很 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Someone who genuinely wants to quit is in what we term ‘contemplation’ mode.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真心想戒煙的人處於我們稱為 contemplation mode 的狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is why he draws attention to a time when, as he perceives it, his willpower will have increased – such as after the birth of his firstborn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是為甚麼他會把注意力放在將來某個時間點；在他看來，到那時自己的意志力會增強，例如第一個孩子出生之後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 講 contemplators 的想法和拖延方式，題目中的 target dates 正好在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“target dates”"
+            },
+            {
+              "kind": "quote",
+              "text": "“often”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are constantly saying that they will quit, and often set vague far-off dates for when the act of quitting is likely to occur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們不斷說自己會戒煙，而且常常為真正戒煙設下含糊而遙遠的日期。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“vague far-off dates”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "含糊而遙遠的日期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文的名詞短語改成 “their target dates are often ___”。空格需要形容詞短語。原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“vague far-off” 正好描述 dates。答案形式： vague far-off = 兩個詞以內來自原文放入句子：their target dates are often vague far-off雖然自然英文中加逗號會更順，但 IELTS 答案通常按原文詞組判斷。答案是 vague far-off。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "motivation",
+      "answerKey": "motivation",
+      "type": "Note Completion",
+      "prompt": "“Their 8 _________________ is still somewhat lacking.”",
+      "translation": "他們的 ______ 仍然有些不足。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 genuinely wants to quit 的人屬於 contemplation mode；最後一句說他們把戒煙推到將來某個 willpower 似乎會更強的時間。由此可見，這段會處理「想戒煙」和「實際動機不足」之間的差距。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“still”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lacking”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“still lack the motivation to try”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“his motivation to do so is still not strong”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These people, the contemplators, are of a mind to quit but still lack the motivation to try.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 contemplators 有戒煙想法，但仍缺乏嘗試的動機。"
+            },
+            {
+              "kind": "label",
+              "text": "後文再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in reality, while the smoker knows he should quit, his motivation to do so is still not strong…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，實際上，雖然吸煙者知道自己應該戒煙，他的戒煙動機仍然不強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “somewhat lacking” 對應 “still lack” 和 “still not strong”。空格前是 “Their”，後面是 “is”，所以需要單數抽象名詞。motivation 完全文法合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 motivation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "brands",
+      "answerKey": "brands",
+      "type": "Note Completion",
+      "prompt": "“Simply switching 9 _________________ to a weaker type of cigarette is a move in the right direction.”",
+      "translation": "只是轉換到較淡的香煙 ______，也算是朝正確方向走了一步。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have different approaches to action mode; some change brands initially, some cut down on the amount they smoke, others wear patches or take other nicotine substitutes, and a few try to go cold turkey, a practice that does not actually have a very high success rate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入 action mode 的人有不同做法；有些人一開始會換品牌，有些人減少吸煙量，有些人使用貼片或其他尼古丁替代品，也有少數人直接完全停止吸煙，但這種做法成功率其實不太高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One clear message can be drawn from this: keep trying!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這裡可以得到一個清楚信息：繼續嘗試！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 是 action mode 的方法清單。Question 9 的 switching 和 weaker cigarette 應到這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“switching”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weaker type”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“some change brands initially”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“change” 對應 “switching”；“brands” 是空格答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：“some change brands initially”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人一開始會換品牌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “change brands” 改寫成 “switching brands to a weaker type of cigarette”。空格前是switching，後面有 to a weaker type，所以文法上需要名詞 “brands”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 brands。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "success rate",
+      "answerKey": "success rate",
+      "type": "Note Completion",
+      "prompt": "“Surprisingly, giving up smoking completely straight away has a low 10 _________________.”",
+      "translation": "令人意外的是，立即完全戒煙的 ______ 很低。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句列出 action mode 的不同方法，其中包含 cold turkey。最後一句 “keep trying” 則強調反覆嘗試比一次到位更實際。Question 10 講 “giving up smoking completely straight away”，這正是cold turkey 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“giving up smoking completely straight away”"
+            },
+            {
+              "kind": "quote",
+              "text": "“low”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有這個完整表達，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“go cold turkey”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not actually have a very high success rate”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…and a few try to go cold turkey, a practice that does not actually have a very high success rate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有少數人嘗試 cold turkey，即立即完全戒煙；這種做法其實成功率並不高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“go cold turkey” 指突然完全停止某種上癮行為。題目用 “giving up smoking completely straight away” 解釋這個短語。原文的 “does not actually have a very high success rate” 被題目改寫成“has a low success rate”。答案形式： success rate = 兩個詞原文直接出現放入句子：has a low success rate答案是 success rate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "relapse",
+      "answerKey": "relapse",
+      "type": "Note Completion",
+      "prompt": "“Most people who try to quit will have a 11 _________________ and start smoking regularly again at some point.”",
+      "translation": "大多數嘗試戒煙的人，在某個時候會出現一次 ______，並重新開始規律吸煙。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Relapse is a return to daily smoking after a period of non-smoking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Relapse 指經過一段不吸煙期後，重新回到每天吸煙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this mode, you are as determined as ever to quit, but you have an edge—you can learn from your past mistakes and keep your expectations realistic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個模式中，你仍然像以往一樣決心戒煙，但你有一項優勢：你可以從過去錯誤中學習，並保持現實的期望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 直接定義 relapse，Question 11 的 “start smoking regularly again” 就是 relapse 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“start smoking regularly again”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“return to daily smoking”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost three quarters of smokers will find themselves here the first time they try to quit.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Relapse is a return to daily smoking after a period of non-smoking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Relapse 指經過一段不吸煙期後，重新回到每天吸煙。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost three quarters of smokers will find themselves here the first time they try to quit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "差不多四分之三的吸煙者第一次嘗試戒煙時，都會發現自己到了這個階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Most people” 對應 “Almost three quarters”，因為四分之三就是大多數。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“start smoking regularly again” 對應 “return to daily smoking”。空格前有 “have a”，所以需要一個可數名詞。relapse 符合。答案是 relapse。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "failure",
+      "answerKey": "failure",
+      "type": "Note Completion",
+      "prompt": "“This is no reason to stop trying: most ex-smokers faced 12 _________________ at least once before managing to kick the habit.”",
+      "translation": "這沒有理由讓人停止嘗試：大多數 ex-smokers 在成功戒掉之前，至少曾面對一次 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 和 Paragraph 7。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One clear message can be drawn from this: keep trying!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這裡可以得到一個清楚信息：繼續嘗試！"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, failure is not the end, so despair not; you have simply entered another phase—relapse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "話雖如此，失敗並非終點，所以不要絕望；你只是進入另一個階段——relapse。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “no reason to stop trying” 和 “faced ___ at least once” 明顯對應反覆失敗後繼續嘗試。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“most ex-smokers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at least once”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before managing to kick the habit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than 70 per cent of ex-smokers … tried and failed to give up once before they were successful.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, more than 70 per cent of ex-smokers (that is, former smokers who have been off cigarettes for in excess of one year) tried and failed to give up once before they were successful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，超過 70% 的 ex-smokers，也就是已戒煙超過一年的 former smokers，在成功之前都曾經嘗試戒煙並失敗一次。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 也有名詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“failure is not the end”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "失敗並非終點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前是 “faced”，後面是 “at least once”，所以需要名詞。原文中最合適的名詞是 failure。它概括 “tried and failed”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 failure。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“most ex-smokers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than 70 per cent of ex-smokers”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“faced failure at least once”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“tried and failed to give up once”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 failure。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "realistic",
+      "answerKey": "realistic",
+      "type": "Note Completion",
+      "prompt": "“People in this mode set 13 _________________ targets, having learned from their past mistakes.”",
+      "translation": "處於這個模式的人，因為已從過去錯誤中學習，所以會設定 ______ 的目標。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句定義 relapse；最後一句講 renewed-action mode 的優勢：吸煙者可以從 past mistakes 中學習，並保持 expectations realistic。Question 13 的 “having learned from their past mistakes” 幾乎直接重現最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“learned from their past mistakes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“targets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“learn from your past mistakes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“keep your expectations realistic”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this mode, you are as determined as ever to quit, but you have an edge—you can learn from your past mistakes and keep your expectations realistic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個模式中，你仍然像以往一樣決心戒煙，但你有一項優勢：你可以從過去錯誤中學習，並保持現實的期望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “expectations” 改成 “targets”。兩者意思接近，都是戒煙時對自己設定的目標或預期。原文的形容詞 “realistic” 可直接放在題目空格前修飾 “targets”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： realistic = 一個詞來自原文放入句子：set realistic targets答案是 realistic。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - If at first you don’t succeed….pdf",
+    "sha256": "58ed449e3ff1cc5f63b4a7e56c000ab1a5f72ab4839a44d49c08b7f54b0100b8",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句，這段先把 smokers 分成兩類：為 pleasure 而吸煙的人，以及 stressed 時吸煙的人。只看末句，段落最後說依靠香煙作 coping mechanism 的人戒煙更困難，因為他們要處理內在壓力來源和吸煙習慣本身。這段主要建立全文背景：不同吸煙動機會影響戒煙難度。遇到 pleasure smokers、stress smokers、coping mechanism、quitting harder 等題目，可先看這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說，只要吸煙者至少進入 contemplation mode，戒煙就是可能的。末句說 pre-contemplation smokers 只有在親友施壓時才說會試著戒，但其實完全沒有戒煙欲望。由首尾句可見，Paragraph 2 開始介紹六種 smoker modes，重點落在第一種 pre-contemplation。這段最適合定位pre-contemplation、low motivation、poor willpower、no desire to give up 等資訊。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說這些人不太受公共健康警告影響，也很少理會媒體對吸煙的負面宣傳或社會眼光。末句說只有直接經歷吸煙危害，例如親人去世或健康驚嚇，才可能給他們真正動機改變態度並戒煙。因此 Paragraph 3 延續 pre-contemplation mode，補充這類人的心理狀態：對外界批評無感，只有personal fright 才可能推動改變。Question 1 的 E 很靠近這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 genuinely wants to quit 的人處於 contemplation mode。末句解釋，這類人常把戒煙推到將來某個時間，因為他以為到那時 willpower 會變強，例如第一個孩子出生後。這段主要描述contemplators：他們知道應該戒煙，也常說會戒，卻動機不足、日期含糊、懷疑自己意志力。 Question 2 和 Questions 7–8 都會用到這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說成功戒煙的唯一方法是立即開始，不要拖到明天。末句說在 action mode 中，吸煙者真的正在嘗試戒煙，而非只談論戒煙。由首尾句可見，Paragraph 5 是從 contemplation 轉向 action 的過渡段。它強調戒煙不能再靠藉口延後，要進入實際行動。Question 3 和 Question 9 的 action mode 會由這段連到下一段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句列出 action mode 的不同方法，例如換品牌、減量、使用 nicotine substitutes，或直接 cold turkey。末句用 “keep trying” 作總結，強調反覆嘗試的重要性。這段主要說明 action mode 的具體做法，以及失敗嘗試對最終成功很常見。Question 3、9、10、12 都和這段有關，尤其 change brands、success rate、tried and failed 這些定位詞。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 maintenance phase 指已完全停止吸煙，但仍在戒煙後第一年內。末句說失敗並非終點；這只代表進入另一階段，即 relapse。由首尾句可見，Paragraph 7 描述戒煙後初期的危險：很多人以為已經安全，結果因 “just one” 而重新上癮。這段是 maintenance 和 relapse 的橋樑， Question 4 和 Question 11 都需要它。"
+      },
+      {
+        "number": "8",
+        "summary": "首句直接定義 relapse：在一段不吸煙期後重新回到每天吸煙。末句說 renewed-action mode 中的人仍然決心戒煙，而且有優勢：可以從過去錯誤中學習，保持 realistic expectations。這段主要處理 relapse 和 renewed-action mode 的關係。它把 failure 轉成 learning experience，說明曾經失敗會提高下次成功機會。Questions 5、11、13 的核心證據都在這裡。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Golden Manual 建議正式逐題前，先看標題、每段第一句、最後一句、明顯人名、年代、重複主題詞和轉折詞，建立段落地圖。"
+  ]
+}

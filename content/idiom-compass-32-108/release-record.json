@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-23",
+  "release": "Idiom Compass lessons 32–108",
+  "authorization": "Owner explicitly requested all lessons 32–108, no human review, and autonomous live publication.",
+  "manual": "Idiom_Super_Curation_and_Exercise_Golden_Manual_2026-10-23.pdf",
+  "baseCommit": "52751e506",
+  "scope": {
+    "lessons": 77,
+    "originalQuestions": 3850,
+    "extensions": 770,
+    "items": 4620,
+    "choices": 18480,
+    "guidedDecisions": 308,
+    "humanReviewedItems": 0,
+    "categories": {
+      "correct": 4620,
+      "polarity": 4576,
+      "certainty": 4159,
+      "target-omission": 2863,
+      "場所": 47,
+      "時段": 46,
+      "真假": 17,
+      "時間早晚": 66,
+      "length-flag": 191,
+      "交通工具": 62,
+      "時間先後": 371,
+      "程度": 18,
+      "數量": 201,
+      "關注事項": 27,
+      "文件種類": 17,
+      "年齡關係": 29,
+      "新舊": 353,
+      "發生頻率": 66,
+      "活動": 132,
+      "設備": 70,
+      "情緒": 40,
+      "時間長短": 154,
+      "結果": 32,
+      "涉及事物": 48,
+      "公平與否": 47,
+      "食物": 17,
+      "款項種類": 8,
+      "環境情況": 34,
+      "星期": 28,
+      "涉及物件": 26,
+      "涉及事項": 25,
+      "考核活動": 10,
+      "場合": 7,
+      "誠實與否": 20,
+      "價格": 16,
+      "安全條件": 30,
+      "editorial": 120,
+      "工作內容": 2,
+      "時間界線": 23,
+      "爭議事項": 7,
+      "變化方向": 5,
+      "交通方式": 6,
+      "取態": 23,
+      "位置": 10,
+      "重複次數": 2
+    },
+    "sourceIdsPreserved": true,
+    "reviewMethod": "AI authored extension pairs and boundaries; deterministic source-preserving contrast assembly, automated checks and AI exception review. No independent human review."
+  },
+  "contentSha256": "d68265ac9c5d8f5be361c8eda1a5b0ed34a8a38ec6d1e08275e5e8e88d25c2a5",
+  "validation": {
+    "runtimeChecks": 26,
+    "catalogueAndPaperChecks": 19,
+    "workerChecks": 11,
+    "mobileControlSystems": 3,
+    "previewPages": [
+      [
+        32,
+        2
+      ],
+      [
+        68,
+        3
+      ],
+      [
+        82,
+        5
+      ],
+      [
+        108,
+        7
+      ],
+      [
+        68,
+        8
+      ],
+      [
+        108,
+        8
+      ]
+    ],
+    "previewWidths": [
+      1280,
+      390
+    ],
+    "previewHorizontalOverflow": false,
+    "sourceAnswersUnchanged": 3850,
+    "humanEnglishReview": 0,
+    "humanChineseReview": 0
+  },
+  "changes": [
+    "Seven Compass guide stages and 60 multiple-choice items for each lesson.",
+    "Distinct bilingual situation, tone, response and boundary decisions.",
+    "770 new themed extensions; original IDs and answer keys preserved.",
+    "Corrected extracted register labels for lessons 43, 65, 69 and 97.",
+    "Narrow-screen practice cards now stay within the available width."
+  ],
+  "knownLimitations": [
+    "AI drafting, grammar checks and representative visual inspection do not constitute an independent expert audit of every sentence.",
+    "The contrast bank uses recurring polarity and certainty patterns; this release is not claimed to meet a full item-by-item editorial rubric.",
+    "191 of 4620 items exceed a 1.5 maximum-to-minimum option word-count ratio. See assessment-audit.json.",
+    "Extension progress retains the existing device-local behaviour; original-question progress retains the account-backed behaviour."
+  ],
+  "lexicalChecks": [
+    "https://dictionary.cambridge.org/us/dictionary/english/go-bananas",
+    "Source dossier register contexts for lessons 65, 69 and 97."
+  ],
+  "deployment": "Published through the repository’s existing idiom release workflow; deployment status is recorded by GitHub Actions for the release commit.",
+  "deploymentCorrection": "Initial Pages run 39972900834 stopped because the mobile test pinned the previous CSS cache version. Updated that assertion to the new release version, retaining all checks."
+}

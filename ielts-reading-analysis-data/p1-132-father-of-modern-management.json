@@ -1,0 +1,2360 @@
+{
+  "id": "p1-132-father-of-modern-management",
+  "catalogueId": "p1-132",
+  "catalogueIds": [
+    "p1-132"
+  ],
+  "passage": 1,
+  "title": "Father of modern management",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "i",
+    "v",
+    "ix",
+    "vi",
+    "ii",
+    "viii",
+    "NO",
+    "NO",
+    "YES",
+    "NO",
+    "A",
+    "E",
+    "A",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "i — The popularity and impact of Drucker’s work",
+      "answerKey": "i — The popularity and impact of Drucker’s work",
+      "type": "Matching Headings",
+      "prompt": "Paragraph A",
+      "translation": "選出 A 段最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Drucker was one of the most important management thinkers of the past hundred years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Drucker 是過去一百年最重要的管理思想家之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wherever people grapple with tricky management problems, from big organisations to small ones, from the public sector to the private, and increasingly in the voluntary sector, you can find Drucker’s fingerprints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論人們在哪裡處理棘手的管理問題，不論是大型組織或小型組織、公共部門或私人部門，甚至越來越多在志願部門，都可以看到 Drucker 的痕跡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段大概在介紹 Drucker 的整體地位和廣泛影響。第一句把他放在過去百年管理思想家的頂尖位置；最後一句把他的影響擴展到不同規模、不同部門、不同組織類型。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading i 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“popularity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“impact”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Drucker’s work”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the most important”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the range of his influence was extraordinary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Drucker’s fingerprints”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The range of his influence was extraordinary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的影響範圍非常驚人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再看尾句的 “you can find Drucker’s fingerprints”。fingerprints 在這裡是比喻，意思是他的思想和痕跡出現在很多管理問題和組織實踐之中。整段沒有集中介紹某一本書，也沒有批評他的理論；它的重點是總體地位和廣泛影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“The popularity and impact of Drucker’s work”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the most important management thinkers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the range of his influence was extraordinary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“you can find Drucker’s fingerprints”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： i 最能概括全段。這段重點在 Drucker 的重要性和影響力，所以答案是 i。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "v “Drucker’s early publications” 不適合 A，因為 A 段沒有逐本介紹他的早期作品。A 段是開場總評，真正講早期出版的是 B 段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "v — Drucker’s early publications",
+      "answerKey": "v — Drucker’s early publications",
+      "type": "Matching Headings",
+      "prompt": "Paragraph B",
+      "translation": "選出 B 段最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His first two books—The End of Economic Man (1939) and The Future of Industrial Man (1942)—had their admirers, including Winston Churchill, but they annoyed academic critics by ranging so widely over so many different subjects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的頭兩本書——1939 年的 The End of Economic Man 和 1942 年的 The Future of Industrial Man——有欣賞者，包括 Winston Churchill，但也因為涉獵太多不同題目而惹惱學術批評者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His third book, The Concept of the Corporation, became an instant bestseller and has remained in print ever since.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的第三本書 The Concept of the Corporation 立即成為暢銷書，並一直出版至今。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句和尾句都在列舉 Drucker 的早期書籍：first two books、third book。段落功能明顯是交代早期出版物的反應和成功。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading v 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“early publications”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first two books”"
+            },
+            {
+              "kind": "quote",
+              "text": "“third book”"
+            },
+            {
+              "kind": "quote",
+              "text": "“became an instant bestseller”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remained in print”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段中間也提到第二本書的重要主張：companies had a social dimension as well as an economic purpose。這是內容細節，但整段框架仍然由三本早期作品組成。段落先講前兩本書，再講第三本書的暢銷地位，所以 heading v 覆蓋整段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drucker’s early publications”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“His first two books...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“His third book...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 v。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "i “The popularity and impact of Drucker’s work” 只符合尾句的 bestseller，但不足以概括整段。B段的主軸是早期著作的出版和反應，不只是受歡迎程度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "ix — The changing role of the employee",
+      "answerKey": "ix — The changing role of the employee",
+      "type": "Matching Headings",
+      "prompt": "Paragraph C",
+      "translation": "選出 C 段最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two most interesting arguments in The Concept of the Corporation actually had little to do with the decentralisation fad.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Concept of the Corporation 中兩個最有趣的論點，其實和 decentralisation 這股潮流關係不大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had to come to terms with the fact that they were neither ‘bosses’ nor ‘workers’, but something in between: entrepreneurs who had responsibility for developing their most important resource, brainpower, and who also needed to take more control of their own careers, including their pension plans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們必須接受一個事實：自己既非「老闆」，也非傳統「工人」，而是介乎兩者之間的人；他們像企業家一樣，要負責發展自己最重要的資源——腦力，也要更主動掌控自己的事業，包括退休金安排。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句指出這段會講 The Concept of the Corporation 的兩個重要論點；尾句落在知識工作者的身份變化、自我發展和職業自主。這已經明顯指向 employee role 的變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ix 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“changing role”"
+            },
+            {
+              "kind": "quote",
+              "text": "“employee”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“empowering workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“workers as resources rather than just as costs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“knowledge workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“neither ‘bosses’ nor ‘workers’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“take more control of their own careers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段有兩條主線。第一是 “empowering workers”，即把員工視為資源，而非成本。第二是 “rise of knowledge workers”，即社會從 goods economy 轉向 knowledge economy，員工變成 brain workers。這兩條主線共同指向員工地位和角色轉變。"
+            },
+            {
+              "kind": "label",
+              "text": "heading ix："
+            },
+            {
+              "kind": "quote",
+              "text": "“The changing role of the employee”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“empowering workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“knowledge workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“entrepreneurs ... developing ... brainpower”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： ix 最能概括整段。這段的中心不在政府政策，也不在全球化，而在 Drucker 如何重新理解員工。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vi “Drucker’s view of balanced management” 比較適合 D 段。C 段有 managers 和 politicians，但它們是被知識經濟影響的人，不是段落主角。段落真正焦點在 worker / employee 的角色變化。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "vi — Drucker’s view of balanced management",
+      "answerKey": "vi — Drucker’s view of balanced management",
+      "type": "Matching Headings",
+      "prompt": "Paragraph D",
+      "translation": "選出 D 段最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there was also a hard side to his work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，他的作品也有較硬性的一面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He believed that management is ‘the defining organ of all modern institutions’, not just corporations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他相信管理是「所有現代機構的決定性器官」，不限於公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句用 However 轉向 Drucker 較硬性的管理思想；尾句擴大到他對 management 的整體看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間必然會解釋他如何看待目標、控制、創意和賦權之間的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vi 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“balanced management”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“management by objectives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clear long-term objectives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“if you rely too much on empowerment you risk anarchy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“if you rely too much on command-and-control you sacrifice creativity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set long-term goals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“allow their employees to work out ways”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Drucker it was all perfectly consistent: if you rely too much on empowerment you risk anarchy, whereas if you rely too much on command-and-control you sacrifice creativity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 Drucker 來說，這些想法完全一致：過度依賴員工賦權，會有無政府狀態的風險；過度依賴命令與控制，則會犧牲創意。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trick is for managers to set long-term goals, but then allow their employees to work out ways of achieving those goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵做法是管理者設定長期目標，之後讓員工自行找出達成目標的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 balanced management：管理者提供方向，員工保留執行自主。它同時避開過度放任和過度控制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drucker’s view of balanced management”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“too much empowerment ... anarchy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“too much command-and-control ... sacrifice creativity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set long-term goals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“allow employees to work out ways”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 vi。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iv “Government regulation of business” 不適合。段中有 politicians 嗎？沒有以政府監管為主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段討論的是管理方法和機構管理，不是政府如何規管商業。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "ii — Finding fault with Drucker",
+      "answerKey": "ii — Finding fault with Drucker",
+      "type": "Matching Headings",
+      "prompt": "Paragraph E",
+      "translation": "選出 E 段最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are three persistent criticisms of Drucker’s work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Drucker 的作品有三項持續存在的批評。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no single area of academic management theory that he made his own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在學術管理理論中，沒有任何單一領域可說是完全由他建立成自己的專屬範圍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接給出段落功能：列出 criticism。尾句仍然在講其中一項批評，即他在學術管理理論中缺少明確專屬領域。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ii 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finding fault”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“criticisms”"
+            },
+            {
+              "kind": "quote",
+              "text": "“criticism”"
+            },
+            {
+              "kind": "quote",
+              "text": "“criticised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dead end”"
+            },
+            {
+              "kind": "quote",
+              "text": "“maverick”"
+            },
+            {
+              "kind": "quote",
+              "text": "“left behind”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段列出三項批評：第一，他太集中研究大型組織，較少處理小型組織。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，他對 management by objectives 的熱情可能把商業帶入死胡同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，他被批評為 maverick，並被更嚴謹的學術管理領域拋離。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii “Finding fault with Drucker” 正好概括這三項批評。Finding fault 即挑毛病、指出問題，與 “three persistent criticisms” 完全同向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 ii。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vii “Drucker’s rejection of big business” 很容易誤導，因為 E 段提到 big organisations。可是原文說的是他被批評太重視大型組織，沒有說他拒絕大型商業。方向不符。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "viii — An appreciation of the strengths and weaknesses of Drucker’s work",
+      "answerKey": "viii — An appreciation of the strengths and weaknesses of Drucker’s work",
+      "type": "Matching Headings",
+      "prompt": "Paragraph F",
+      "translation": "選出 F 段最合適的標題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is some truth in the first two arguments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前兩項批評有部分道理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work on the management of voluntary organisations remained at the cutting edge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他對志願組織管理的研究仍然處於前沿位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句承認批評有一定道理；尾句重新肯定他晚年作品仍具前沿性。這段不是單純批評，也不是單純讚美，而是平衡評估。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading viii 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“appreciation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“strengths and weaknesses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“some truth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“short-sighted and unfair”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pioneering role”"
+            },
+            {
+              "kind": "quote",
+              "text": "“victim of his own success”"
+            },
+            {
+              "kind": "quote",
+              "text": "“continued to produce new ideas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cutting edge”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段先承認兩個弱點：Drucker 對 entrepreneurial start-ups 的作品不如 The Concept of the Corporation；management by objectives 和他對 knowledge workers / self-directed teams 的重視之間不太協調。接著作者批評第三項指控短視和不公平，因為它忽略 Drucker 在建立現代管理專業中的開創作用。"
+            },
+            {
+              "kind": "label",
+              "text": "heading viii："
+            },
+            {
+              "kind": "quote",
+              "text": "“An appreciation of the strengths and weaknesses of Drucker’s work”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“There is some truth...” = 承認弱點“pioneering role” = 肯定強項“victim of his own success” = 解釋他的成功為何反而令人低估他“cutting edge” = 肯定晚年思想仍有前沿性判斷：答案是 viii。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “Finding fault with Drucker” 比較適合 E 段。F 段雖然也提到批評，但目的在於重新評價批評是否公平，並肯定 Drucker 的長遠價值。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Drucker believed that employees should have the same status as employers in a company.”",
+      "translation": "Drucker 相信員工在公司中應該和僱主有相同地位。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN 題，問的是作者呈現的 Drucker 觀點。題目控制詞是 “same status as employers”。要判斷原文是否說 Drucker 主張員工和僱主地位相同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two most interesting arguments in The Concept of the Corporation actually had little to do with the decentralisation fad.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Concept of the Corporation 中兩個最有趣的論點，其實和 decentralisation 這股潮流關係不大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had to come to terms with the fact that they were neither ‘bosses’ nor ‘workers’, but something in between: entrepreneurs who had responsibility for developing their most important resource, brainpower, and who also needed to take more control of their own careers, including their pension plans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們必須接受一個事實：自己既非「老闆」，也非傳統「工人」，而是介乎兩者之間的人；他們像企業家一樣，要負責發展自己的腦力資源，也要更主動掌控自己的事業，包括退休金安排。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段確實談員工身份變化。不過尾句說的是 neither bosses nor workers, but something in between，這已經提示題目中的 “same status as employers” 很可疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“employees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“same status”"
+            },
+            {
+              "kind": "quote",
+              "text": "“employers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bosses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“neither ‘bosses’ nor ‘workers’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“something in between”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had to come to terms with the fact that they were neither ‘bosses’ nor ‘workers’, but something in between...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們必須接受一個事實：自己既非「老闆」，也非傳統「工人」，而是介乎兩者之間的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說員工應該和 employers 有 same status。原文的說法更加精細：knowledge workers 不再只是傳統工人，但也沒有變成 bosses。他們是介乎兩者之間，像 entrepreneurs 一樣發展自己的brainpower 和 career。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：employees動作：should have內容：same status as employers原文命題：主體：knowledge workers動作：were neither bosses nor workers內容：something in between比較結果：原文沒有支持「和僱主地位相同」。相反，它明確說他們不是 bosses，只是也不再是傳統 workers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“same status as employers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“neither ‘bosses’ nor ‘workers’, but something in between”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目把「角色介乎兩者之間」改成「和僱主同等地位」。這超過原文，而且和 “neither bosses” 方向不符。因此答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易被 “empowering workers” 吸引。empowerment 表示提高員工自主性和價值，不等於員工變成僱主，也不等於公司內地位完全相同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Drucker argued that managers and politicians would dominate the economy during a social transition.”",
+      "translation": "Drucker 認為在社會轉型期間，經濟將由管理者和政治人物主導。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 Drucker 對社會轉型的看法。控制詞是 “managers and politicians would dominate the economy”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two most interesting arguments in The Concept of the Corporation actually had little to do with the decentralisation fad.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Concept of the Corporation 中兩個最有趣的論點，其實和 decentralisation 這股潮流關係不大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had to come to terms with the fact that they were neither ‘bosses’ nor ‘workers’, but something in between: entrepreneurs who had responsibility for developing their most important resource, brainpower, and who also needed to take more control of their own careers, including their pension plans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "知識工作者必須接受自己介乎老闆和傳統工人之間，並要負責發展腦力和掌控自己的職業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段主要不是說 managers and politicians 會成為主導階層，而是說知識工作者、brain workers 和員工角色出現變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“managers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“politicians”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dominate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“economy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最相關句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He insisted that this had profound implications for both managers and politicians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他堅持認為，這對管理者和政治人物都有深遠影響。"
+            },
+            {
+              "kind": "label",
+              "text": "另有："
+            },
+            {
+              "kind": "quote",
+              "text": "“... from a society dominated by an industrial proletariat to one dominated by brain workers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從一個由工業無產階級主導的社會，轉向一個由腦力工作者主導的社會。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drucker argued that the world is moving from an ‘economy of goods’ to an economy of‘knowledge’—and from a society dominated by an industrial proletariat to one dominated by brain workers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Drucker 認為世界正從「商品經濟」轉向「知識經濟」，並從由工業無產階級主導的社會，轉向由腦力工作者主導的社會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文真正說會 dominate 的群體是 brain workers，不是 managers and politicians。Managers 和politicians 的角色是要理解這個變化：managers 要停止把員工當成巨大機器中的齒輪；politicians要明白 knowledge 和 education 是先進社會最重要的資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：managers and politicians動作：would dominate對象：the economy / social transition原文命題：主體：brain workers動作：dominated對象：society比較結果：題目把「受轉型影響、需要作出回應的人」改成「主導經濟的人」。原文中的主導者是 brain workers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實出現 managers and politicians，所以很容易誤判。定位詞帶到句子後，真正要看的是動詞：原文說 implications for managers and politicians，並非由他們 dominate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Drucker supported the idea that workers should not define themselves solely by their employment relationship and should take responsibility for developing their intellectual resources.”",
+      "translation": "Drucker 支持這個想法：工作者不應只用僱傭關係界定自己，也應負責發展自己的智力資源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是長 statement，要拆成兩部分：第一，workers 不只用 employment relationship 定義自己；第二，他們要發展 intellectual resources。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two most interesting arguments in The Concept of the Corporation actually had little to do with the decentralisation fad.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Concept of the Corporation 中兩個最有趣的論點，其實和 decentralisation 這股潮流關係不大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had to come to terms with the fact that they were neither ‘bosses’ nor ‘workers’, but something in between: entrepreneurs who had responsibility for developing their most important resource, brainpower, and who also needed to take more control of their own careers, including their pension plans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們必須接受自己既非老闆，也非傳統工人，而是介乎兩者之間；他們像企業家一樣，要負責發展自己最重要的資源——腦力，也要更主動掌控自己的事業，包括退休金安排。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經高度吻合題目。尤其是尾句同時包含 identity、brainpower 和 career responsibility。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“not define themselves solely”"
+            },
+            {
+              "kind": "quote",
+              "text": "“employment relationship”"
+            },
+            {
+              "kind": "quote",
+              "text": "“take responsibility”"
+            },
+            {
+              "kind": "quote",
+              "text": "“intellectual resources”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“neither ‘bosses’ nor ‘workers’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“something in between”"
+            },
+            {
+              "kind": "quote",
+              "text": "“entrepreneurs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“responsibility for developing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brainpower”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had to come to terms with the fact that they were neither ‘bosses’ nor ‘workers’, but something in between: entrepreneurs who had responsibility for developing their most important resource, brainpower...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們必須接受一個事實：自己既非「老闆」，也非傳統「工人」，而是介乎兩者之間的人；他們像企業家一樣，要負責發展自己最重要的資源——腦力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “employment relationship” 指 boss / worker 這種僱傭身份。原文說 knowledge workers既不完全是 boss，也不只是 worker，表示他們不能只用傳統僱傭關係理解自己。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“intellectual resources” 對應原文 “brainpower”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“should not define themselves solely by their employment relationship”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“neither ‘bosses’ nor ‘workers’, but something in between”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“take responsibility for developing their intellectual resources”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“responsibility for developing their most important resource, brainpower”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目兩部分都得到原文支持，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題句子很長，但答案集中在 C 段最後一句。處理長 statement 時，要拆成幾個命題逐項核對，不要只看到其中一半就下結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Drucker’s work on management is out of date in modern times.”",
+      "translation": "Drucker 的管理研究在現代已經過時。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問作者整體評價。控制詞是 “out of date in modern times”。要看作者是否認為 Drucker 的管理思想今日已失去價值。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is some truth in the first two arguments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前兩項批評有部分道理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work on the management of voluntary organisations remained at the cutting edge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他對志願組織管理的研究仍然處於前沿位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句承認批評有部分道理，尾句卻明確肯定他的部分工作仍在前沿。這已經和 “out of date” 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“out of date”"
+            },
+            {
+              "kind": "quote",
+              "text": "“modern times”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“may sound a little banal today”"
+            },
+            {
+              "kind": "quote",
+              "text": "“continued to produce new ideas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cutting edge”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“His writings on the importance of knowledge workers and empowerment may sound a little banal today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他關於知識工作者和賦權重要性的文章，今天聽起來可能有點平常。"
+            },
+            {
+              "kind": "label",
+              "text": "這一句表面上好像接近 “out of date”，但後一句立刻補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they certainly weren’t banal when he first dreamed them up in the 1940s, or when they were first put into practice in the Anglo-Saxon world in the 1980s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在他於 1940 年代首次構想這些觀點時，或在 1980 年代這些觀點首次於英語世界付諸實踐時，它們絕對不平常。"
+            },
+            {
+              "kind": "label",
+              "text": "再看尾段關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, Drucker continued to produce new ideas into his 90s. His work on the management of voluntary organisations remained at the cutting edge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，Drucker 到九十多歲仍繼續提出新想法。他對志願組織管理的研究仍處於前沿位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Drucker’s work = management work is out of date = 已過時原文命題： some ideas may sound banal today = 今天聽來可能平常continued to produce new ideas = 持續提出新思想remained at the cutting edge = 仍處於前沿比較結果：作者不是說他的工作過時；作者說部分觀點今天看似平常，正是因為它們已進入 conventional wisdom。更重要的是，他晚年仍有 cutting-edge work。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和作者評價方向相反，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“may sound a little banal today” 是最真實中伏位。banal 是「平常、老生常談」，但作者用這句來說明 Drucker 太成功，以致他的想法變成常識；這不等於他的管理研究過時。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "A, E",
+      "answerKey": "A, E",
+      "type": "Choose TWO",
+      "prompt": "“Which TWO of the following statements are true of Drucker’s views?”",
+      "translation": "以下哪兩項符合 Drucker 的觀點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "主要目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there was also a hard side to his work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，他的作品也有較硬性的一面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He believed that management is ‘the defining organ of all modern institutions’, not just corporations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他相信管理是所有現代機構的決定性器官，並不限於公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段會講 Drucker 較硬性的管理思想，尤其是 management by objectives 和管理角色。這正好對應題目問 “Drucker’s views”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 的定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“High-ranking executives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“balanced positions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“elite corps of general managers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“employees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“if you rely too much on empowerment...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“if you rely too much on command-and-control...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set long-term goals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“allow their employees...”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E 的定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leaders”"
+            },
+            {
+              "kind": "quote",
+              "text": "“look beyond the details”"
+            },
+            {
+              "kind": "quote",
+              "text": "“establish strategic goals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“general managers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clear long-term objectives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set these long-term objectives”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“He argued that firms should have an elite corps of general managers, who set these long-term objectives, and then a group of more specialised managers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為公司應該有一批精英 general managers，由他們設定長期目標，然後再有一組更專門化的管理者。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trick is for managers to set long-term goals, but then allow their employees to work out ways of achieving those goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵做法是管理者設定長期目標，之後讓員工自行找出達成目標的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A A："
+            },
+            {
+              "kind": "quote",
+              "text": "“High-ranking executives and workers should occupy balanced positions in management practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高層管理者和員工在管理實踐中應各自佔有平衡的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個選項要小心理解。它不是說員工和僱主有完全相同地位；Question 7 已經排除了那種理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “balanced positions” 比較適合理解為：管理者負責設定長期目標，員工則有空間自行決定如何達成目標。原文用 “too much empowerment” 和 “too much command-and-control” 建立平衡邏輯，然後用 “set long-term goals” 和 “allow employees to work out ways” 說明實踐方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A 可以成立，但成立基礎是 “balanced management practice”，不是 “same status”。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E E："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leaders should look beyond the details of management and establish strategic goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "領導者應超越管理細節，建立策略性目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是最直接受支持的選項。原文說 general managers 要 “set these long-term objectives”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Long-term objectives 就是較高層次的策略目標，不是日常細節。原文還說 specialised managers另有角色，這也表示高層管理者的重點在長期方向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 E："
+            },
+            {
+              "kind": "quote",
+              "text": "“leaders” = general managers“strategic goals” = long-term objectives“look beyond the details” = 不停留在 immediate / specialised details因此 E 正確。錯項分析B：“Young executives should have opportunities to begin in low-level jobs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕管理人員應有機會從低層職位開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 young executives，也沒有 low-level jobs。這是缺乏原文支援。"
+            },
+            {
+              "kind": "label",
+              "text": "C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greater emphasis should be placed on developing trade unions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應更重視發展工會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 trade unions。雖然文章談 workers，但沒有工會發展。"
+            },
+            {
+              "kind": "label",
+              "text": "D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Management should provide workers with tools for self-appraisal instead of controlling them through external forces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "管理層應提供員工自我評估工具，而非透過外在力量控制他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個選項有一定迷惑性，因為原文確實反對過度 command-and-control，也強調讓員工自行找出達成目標的方法。不過本文沒有明確提到 “tools for self-appraisal”。如果只按這篇文章的文字判斷，D 的 “self-appraisal tools” 證據不足；A 和 E 更能由原文直接支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終答案： A, E"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        11,
+        12
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Choose TWO",
+      "prompt": "“Which TWO criticisms of Drucker and his views are mentioned in the passage?”",
+      "translation": "文章提到以下哪兩項對 Drucker 及其觀點的批評？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are three persistent criticisms of Drucker’s work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Drucker 的作品有三項持續存在的批評。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no single area of academic management theory that he made his own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在學術管理理論中，沒有任何單一領域可說是完全由他建立成自己的專屬範圍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經明示：這題大概率在 E 段。題目問 criticisms，所以 “three persistent criticisms” 是強定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“big organisations rather than small ones”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“management by objectives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“imposed from on high”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bottom and middle of the organisations”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A A："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work focuses too much on large organisations and ignores small ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的作品過度集中於大型組織，忽略小型組織。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first is that he focused on big organisations rather than small ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一項批評是，他集中於大型組織多於小型組織。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接改寫： large organisations = big organisations ignores small ones = rather than small ones A 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C C："
+            },
+            {
+              "kind": "quote",
+              "text": "“He placed greater emphasis on objectives set by corporate executives than on those proposed by ordinary workers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他更重視由企業高層設定的目標，多於由普通員工提出的目標。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second criticism is that Drucker’s enthusiasm for management by objectives helped to lead business down a dead end.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二項批評是，Drucker 對 management by objectives 的熱情，幫助把商業引向死胡同。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They prefer to allow ideas, including ideas for long-term strategies, to bubble up from the bottom and middle of the organisations rather than being imposed from on high.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日很多優秀組織更喜歡讓想法，包括長期策略想法，從組織底層和中層自然湧現，而不是由高層向下施加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段批評 management by objectives 的 top-down 傾向。原文說今日組織偏好 bottom and middle 的想法，而不喜歡 “imposed from on high”。選項 C 把這種批評概括為：Drucker 的做法太重視由高層設定的 objectives。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "corporate executives = from on high / elite general managers ordinary workers = bottom and middle of organisations objectives set by executives = management by objectives / long-term objectives imposed from above C 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "錯項分析B："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work is too broad and lacks precision and factual accuracy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的作品太廣泛，缺乏精確性和事實準確性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有一半迷惑性。B 段的確說早期作品 “ranging so widely over so many different subjects” 惹惱academic critics，但文章沒有說 factual accuracy 有問題。因此 B 加入了原文沒有的 “factual accuracy”。"
+            },
+            {
+              "kind": "label",
+              "text": "D："
+            },
+            {
+              "kind": "quote",
+              "text": "“He behaved like a maverick and did not establish his own school of management.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他像 maverick 一樣行事，並沒有建立自己的管理學派。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 也很接近原文，因為 E 段確實說他 “criticised for being a maverick”，並說 “There is no single area of academic management theory that he made his own.” 不過選項把 “no single area of academic management theory” 改成 “his own school of management”。這個說法比原文更大，因為 “school of management” 可以指一整個學派或思想傳統。若嚴格按本文，A 和 C 的證據更直接。"
+            },
+            {
+              "kind": "label",
+              "text": "E："
+            },
+            {
+              "kind": "quote",
+              "text": "“He overstated the case for knowledge workers when warning businesses to prepare.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在提醒企業準備時，過度誇大 knowledge workers 的重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說他 overstated knowledge workers。相反，F 段說他對 knowledge workers 和empowerment 的看法今天可能聽來平常，但在 1940 年代和 1980 年代並不平常，作者整體上是在肯定他的前瞻性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終答案： A, C"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        13,
+        14
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Father of modern management.pdf",
+    "sha256": "3f749adb6232b48c2109e4a99cf83aef058fd500ecd4e9e9a1982646c8c185dc",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說 Peter Drucker 是過去百年最重要的管理思想家之一；尾句說從大型組織到小型組織、從公共部門到私人部門，甚至志願部門，都能看到他的影響。只看首尾句，可以先估計這段是全文總介紹，重點在 Drucker 的地位、管理思想的重要性，以及他的影響力如何廣泛滲透不同類型的機構。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句提到 Drucker 早期兩本書 The End of Economic Man 和 The Future of Industrial Man，並說它們有欣賞者，也惹惱學術批評者；尾句說第三本書 The Concept of the Corporation 立即成為暢銷書，至今仍在出版。只看首尾句，這段應是早期出版史，介紹他早年作品的反應、爭議和成功。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說 The Concept of the Corporation 中兩個最有趣的論點其實和 decentralisation 熱潮關係不大；尾句說知識工作者要接受自己介乎 bosses 和 workers 之間，並要掌控自己的事業和退休安排。只看首尾句，這段大概會講員工角色變化，尤其是 empowerment、knowledge workers、brainpower 和職業自主。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句以 “However” 轉折，說 Drucker 的作品也有較硬的一面；尾句說他是 management thinker，不限於 business thinker，並相信管理是所有現代機構的 defining organ。只看首尾句，這段會由員工賦權轉向 management by objectives，並解釋他如何在長期目標、員工自主和管理控制之間尋找平衡。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句直接說 Drucker 的作品有三項持續存在的批評；尾句說他沒有把任何單一 academic management theory 變成自己的專屬領域。只看首尾句，這段功能非常明確：集中列出對 Drucker的批評，包括大型組織、management by objectives，以及他在學術管理理論中位置較難歸類。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句承認前兩項批評有部分道理；尾句說 Drucker 到九十多歲仍繼續提出新想法，而他對志願組織管理的研究仍處於 cutting edge。只看首尾句，這段應是總評：承認缺點，同時重新肯定他的開創性、長遠影響和思想生命力。它會平衡前段批評，形成較公允的評價。"
+      }
+    ]
+  }
+}

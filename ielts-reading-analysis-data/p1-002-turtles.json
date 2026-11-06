@@ -1,0 +1,1683 @@
+{
+  "id": "p1-002-turtles",
+  "catalogueId": "p1-002",
+  "catalogueIds": [
+    "p1-002"
+  ],
+  "passage": 1,
+  "title": "Turtles",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "i",
+    "iv",
+    "ix",
+    "viii",
+    "x",
+    "iii",
+    "about 35,000",
+    "the bony carapace",
+    "cooler waters",
+    "Florida, America",
+    "earth’s magnetic fields",
+    "its meat",
+    "jellyfish"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "i — Sea turtles are found in unusual locations",
+      "answerKey": "i — Sea turtles are found in unusual locations",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B題目要求為 Paragraph B 選最合適 heading。這類題要抓整段主旨，不可只看一個細節，例如"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“necropsy” 或 “Florida”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“During the past month, four turtles have washed up along Irish coasts from Wexford to Kerry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去一個月，有四隻 turtles 被沖上 Irish coasts，範圍由 Wexford 到 Kerry。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During this same period, two leatherback turtles were found in Scotland, and a rare Kemp’s Ridley turtle was found in Wales, thus making it an exceptional month for stranded turtles in Ireland and the UK.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一期間，Scotland 發現兩隻 leatherback turtles，Wales 發現一隻罕見 Kemp’s Ridley turtle，因此這成為 Ireland 和 UK 一個異常的 stranded turtles 月份。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 很明顯在講 turtles 出現在 Ireland、Scotland、Wales 這些地方，而且事件屬 exceptional。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading i 的定位概念是 “unusual locations”。Paragraph B 中間有一句直接支援："
+            },
+            {
+              "kind": "quote",
+              "text": "“These turtles are more typical of warmer waters and only occur in Irish waters when they stray off course.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 turtles 較典型地出現在較溫暖水域，只有在偏離航道時才會出現在 Irish waters。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句把 unusual location 講得很清楚。Irish waters 並非這些 turtles 的正常生活水域；牠們"
+            },
+            {
+              "kind": "paragraph",
+              "text": "來到這裡，通常代表 stray off course。段落後面又列出 Scotland 和 Wales 的例子，加強 “unusual locations” 這個主旨。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading i： Sea turtles are found in unusual locations原文： washed up along Irish coasts only occur in Irish waters when they stray off course exceptional month for stranded turtles in Ireland and the UK heading viii “The fate of the lost turtles” 也有少量吸引力，因為這段提到 stranded turtles。可是Paragraph B 沒有解釋牠們最後如何死亡或身體如何 shut down；那是 Paragraph E 的重心。因此 Question 1 選 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "iv — Methods used for routes tracking",
+      "answerKey": "iv — Methods used for routes tracking",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C這個 heading 的英文略不自然，比較準確可理解為：turtles 用甚麼方法追蹤或重找 migratory routes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Actually, There has been extensive research conducted regarding the sea turtles’ abilities to return to their nesting regions and sometimes exact locations from hundreds of miles away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，已有大量研究探討 sea turtles 從數百英里外回到 nesting regions，甚至精確回到相同地點的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some explanations of this phenomenon have found that sea turtles can detect the angle and intensity of the earth’s magnetic fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對這種現象的一些解釋指出，sea turtles 能夠感應地球磁場的角度和強度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段集中處理 sea turtles 如何重找路線。首句是能力；末句是可能方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的定位概念是 “routes tracking”。Paragraph C 中間也有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite their limited vision, and lack of landmarks in the open water, turtles are able to retrace their migratory paths.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管牠們視力有限，而且 open water 中缺少地標，turtles 仍能重走自己的 migratory paths。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段真正主題是 turtles 如何在沒有 landmarks 的海洋中 retrace routes。末句的 “detect"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the angle and intensity of the earth’s magnetic fields” 就是可能解釋。這與 heading iv 最吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv： Methods used for routes tracking原文： retrace their migratory paths detect the angle and intensity of the earth’s magnetic fields heading v “Predict the migration routes” 也有路線意味，但 Paragraph C 並沒有預測未來 route；它講的是 turtles 如何找回已知 migratory paths。因此 Question 2 選 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "ix — What are trips supposed to look like?",
+      "answerKey": "ix — What are trips supposed to look like?",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D這個 heading 的英文也不太自然，意思大概是：turtles 正常 migration trip 應該是怎樣的路線。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, Loggerhead turtles are not normally found in Irish waters, because water temperatures here are far too cold for their survival.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Loggerhead turtles 通常不會出現在 Irish waters，因為這裡的水溫對牠們生存來說太冷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Loggerheads may circulate around the North Atlantic several times before they settle in the coastal waters of Florida or the Caribbean.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Loggerheads 可能會繞 North Atlantic 循環數次，最後才定居在 Florida 或 Caribbean 的 coastal waters。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段在解釋 loggerheads 的正常地理範圍和 migration circuit。Ireland 是異常地點；North Atlantic circulation 是正常路線的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading ix 的定位概念是 “trips supposed to look like”。Paragraph D 中間有一段 route 描"
+            },
+            {
+              "kind": "label",
+              "text": "述："
+            },
+            {
+              "kind": "quote",
+              "text": "“these tiny turtles enter the North Atlantic Gyre … that takes them from America, across to Europe (Azores area), down towards North Africa, before being transported back again to America via a different current.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 tiny turtles 進入 North Atlantic Gyre，這個巨大環流會把牠們從 America 帶到 Europe 的Azores 一帶，再向南到 North Africa，之後經另一股洋流帶回 America。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段用很完整的順序描述 loggerhead 的 round trip：America → Europe / Azores → North"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Africa → America。這正好是 “trip” 的正常樣貌。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading ix： What are trips supposed to look like?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文： enter the North Atlantic Gyre from America, across to Europe down towards North Africa back again to America heading i 也提 Irish waters，不過 Paragraph D 的核心並非單純講 unusual location；重點在解釋這些 turtles 原本的 migration route。因此 Question 3 選 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "viii — The fate of the lost turtles",
+      "answerKey": "viii — The fate of the lost turtles",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E題目要求為 Paragraph E 選 heading。這段的首尾句已很清楚：先說牠們偏離暖流，再說冷水中死亡。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These four turtles were probably on their way around the Atlantic when they strayed a bit too far north from the Gulf Stream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這四隻 turtles 可能正在繞行 Atlantic 時，從 Gulf Stream 偏離得太北。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once in cool waters, the body of a loggerhead begins to shut down as they get ‘cold stunned’, then get hypothermia and die.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦進入冷水，loggerhead 的身體開始停止正常運作，牠們會先 cold stunned，接著hypothermia，最後死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯在講 lost turtles 的結果。第一句是迷路原因；最後一句是死亡過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading viii 的定位詞是 “fate” 和 “lost turtles”。原文沒有 fate 這個字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“their fate was sealed”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們的命運已經注定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "完整句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once they did, their fate was sealed, as the cooler waters of the North East Atlantic are too cold for loggerheads…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦牠們這樣做，牠們的命運便已注定，因為 North East Atlantic 較冷的海水對 loggerheads 來說太冷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 heading viii。段落後面又描述 cold stunned、hypothermia、die，完整呈現 lost turtles 的 fate。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading viii： The fate of the lost turtles原文： strayed a bit too far north their fate was sealed get ‘cold stunned’ get hypothermia and die因此 Question 4 選 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "x — Factors leading to population decline",
+      "answerKey": "x — Factors leading to population decline",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F Paragraph F 的首句和末句都在提示一件事：Leatherbacks 族群正在下降，而且數量很少。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leatherbacks are in immanent danger of extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leatherbacks 正處於迫近 extinction 的危險中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “immanent” 似乎應為 “imminent”，但分析仍按原文語境理解為「迫近的」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have estimated that there are only about 35,000 Leatherback turtles in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家估計全球只有約 35,000 隻 Leatherback turtles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段會解釋 leatherback 數量下降和瀕危的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading x 的定位概念是 “factors leading to population decline”。Paragraph F 中間連續列"
+            },
+            {
+              "kind": "label",
+              "text": "出多項原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“A critical factor (among others) is the harvesting of eggs from nests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個 critical factor 是從 nests 中收集 eggs。"
+            },
+            {
+              "kind": "label",
+              "text": "後面還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other critical factors causing the leatherbacks’ decline are pollution such as plastics … fishing practices such as longline fishing and gill nets, and development on habitat areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "造成 leatherbacks decline 的其他 critical factors 包括 plastic 等污染、longline fishing 和 gill nets等捕魚方式，以及 habitat areas 的 development。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段反覆使用 factor / decline / extinction / only about 35,000，主旨非常清楚。它不只說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "leatherbacks 少，更列出使牠們下降的具體因素。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading x： Factors leading to population decline原文： critical factor egg harvesting pollution such as plastics longline fishing and gill nets development on habitat areas causing the leatherbacks’ decline因此 Question 5 選 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "iii — The Leatherback’s contribution",
+      "answerKey": "iii — The Leatherback’s contribution",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G Paragraph G 從物種在環境中的作用講起，然後具體說 leatherback 對 fish populations 的可能貢獻。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看首尾句。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are often unable to understand the critical impact a species has on the environment—that is, until that species becomes extinct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們往往無法理解一個物種對環境有多重要，直到那個物種 extinct 後才明白。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Saving sea turtles is an International endeavor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拯救 sea turtles 是一項國際性的努力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段會講 leatherback 對 environment 的重要性，並以保育呼籲作結。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iii 的定位概念是 “contribution”。Paragraph G 中間最重要的一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists now speculate that the Leatherback may play an important role in the recovery of diminishing fish populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些科學家現在推測，Leatherback 可能在恢復正在減少的魚類族群方面扮演重要角色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "後面解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the Leatherback consumes its weight in jellyfish per day, it helps to keep Jellyfish populations in check.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Leatherback 每天會吃掉相當於自身重量的 jellyfish，牠有助控制 Jellyfish populations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 leatherback 的 ecological contribution：控制 jellyfish，間接保護 fish larvae，幫助魚類族群恢復。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iii： The Leatherback’s contribution原文： play an important role recovery of diminishing fish populations keep Jellyfish populations in check因此 Question 6 選 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "about 35,000",
+      "answerKey": "about 35,000",
+      "type": "Short-answer Questions",
+      "prompt": "“How many Leatherback turtles are there in the world?”",
+      "translation": "世界上有多少隻 Leatherback turtles？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “How many”，答案需要數字。定位詞是 “Leatherback turtles” 和 “in the world”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leatherbacks are in immanent danger of extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leatherbacks 正處於迫近 extinction 的危險中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have estimated that there are only about 35,000 Leatherback turtles in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家估計世界上只有約 35,000 隻 Leatherback turtles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經可以直接定位這題。它同時包含 scientists have estimated、about 35,000、Leatherback turtles、in the world。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “How many” 和 “in the world”。Paragraph F 末句正好提供數量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have estimated that there are only about 35,000 Leatherback turtles in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家估計世界上只有約 35,000 隻 Leatherback turtles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問數量，因此答案為： about 35,000答案形式檢查： about 35,000 = 2 words / number unit，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 提到 four turtles、two leatherback turtles、a rare Kemp’s Ridley turtle。那些數字是stranded turtles 的地區事件，題目問全球 leatherback 數量，真正答案在 Paragraph F 末句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "the bony carapace",
+      "answerKey": "the bony carapace",
+      "type": "Short-answer Questions",
+      "prompt": "“What is the most noticeable difference between other sea turtles and leatherbacks?”",
+      "translation": "其他 sea turtles 和 leatherbacks 最明顯的差異是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “most noticeable difference”，答案要找 leatherback 與其他 sea turtles 的 distinguishing feature。定位詞是 “most noticeable” 和 “other sea turtles”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leatherback turtles follow the general sea turtle body plan of having a large, flattened, round body with two pairs of very large flippers and a short tail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leatherback turtles 符合一般 sea turtle 的身體構造：大而扁平的圓形身體、兩對很大的 flippers和短尾巴。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its most notable feature is that it lacks the bony carapace of the other extant sea turtles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠最明顯的特徵是缺少其他現存 sea turtles 擁有的 bony carapace。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段先講 leatherback 和一般 sea turtles 相似，最後指出最顯著差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “most noticeable difference” 對應原文 “most notable feature”。這是很直接的同"
+            },
+            {
+              "kind": "paragraph",
+              "text": "義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its most notable feature is that it lacks the bony carapace of the other extant sea turtles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠最明顯的特徵是缺少其他現存 sea turtles 擁有的 bony carapace。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 difference 是甚麼。原文說 leatherback 缺少其他海龜有的 bony carapace。因此答題時可寫： the bony carapace答案形式檢查： the bony carapace = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提到 front flippers 可長到 2.7 meters，而且比例上最大。這是重要特徵，但原文用 “most notable feature” 明確指定答案為 bony carapace。做 Short-answer 時要優先相信原文的程度詞，例如 most notable。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "cooler waters",
+      "answerKey": "cooler waters",
+      "type": "Short-answer Questions",
+      "prompt": "Question 9",
+      "translation": "是甚麼導致 loggerhead turtles 在 Irish / North East Atlantic waters 死亡？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目原句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What candle therback turtles to die in Irish waters?”"
+            },
+            {
+              "kind": "label",
+              "text": "較合理理解："
+            },
+            {
+              "kind": "quote",
+              "text": "“What caused the loggerhead turtles to die in Irish waters?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題原文題目有明顯錯字。“candle therback” 無法形成正常英文。按文章內容，真正死亡的是Paragraph E 的 loggerheads，不是 leatherbacks。要根據 source 實際支援的內容答題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These four turtles were probably on their way around the Atlantic when they strayed a bit too far north from the Gulf Stream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這四隻 turtles 可能正在繞行 Atlantic 時，從 Gulf Stream 偏離得太北。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once in cool waters, the body of a loggerhead begins to shut down as they get ‘cold stunned’, then get hypothermia and die.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦進入冷水，loggerhead 的身體開始停止正常運作，牠們會先 cold stunned，接著hypothermia，最後死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段處理 lost loggerheads 的死亡原因：偏離 Gulf Stream 後進入 cool waters。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目若問 death cause，定位詞是 “die”。Paragraph E 末句直接有 die。前一句亦說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the cooler waters of the North East Atlantic are too cold for loggerheads…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "North East Atlantic 較冷的水域對 loggerheads 來說太冷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案證據有兩句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once they did, their fate was sealed, as the cooler waters of the North East Atlantic are too cold for loggerheads…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦牠們偏離得太北，命運便已注定，因為 North East Atlantic 較冷的水域對 loggerheads 來說太冷。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Once in cool waters, the body of a loggerhead begins to shut down as they get ‘cold stunned’, then get hypothermia and die.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦進入冷水，loggerhead 身體開始停止正常運作，先 cold stunned，再 hypothermia，最後死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目若問 cause，最合適答案是： cooler waters答案形式檢查： cooler waters = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "重要邊界：若題目真的問 leatherback turtles，原文反而說 leatherback turtles “have many anatomical and physiological adaptations to enable them to swim in our seas”。所以這題必須按上下文修正為loggerheads 才能成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "Florida, America",
+      "answerKey": "Florida, America",
+      "type": "Short-answer Questions",
+      "prompt": "“Where did the four turtles probably come from?”",
+      "translation": "這四隻 turtles 可能來自哪裡？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Where，答案需要地點。定位詞是 “four turtles” 和 “probably come from / originated from”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the past month, four turtles have washed up along Irish coasts from Wexford to Kerry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去一個月，有四隻 turtles 被沖上 Irish coasts，範圍由 Wexford 到 Kerry。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During this same period, two leatherback turtles were found in Scotland, and a rare Kemp’s Ridley turtle was found in Wales, thus making it an exceptional month for stranded turtles in Ireland and the UK.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一時期，Scotland 發現兩隻 leatherback turtles，Wales 發現一隻罕見 Kemp’s Ridley turtle，令Ireland 和 UK 出現一個異常的 stranded turtles 月份。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段主題是 stranded turtles，其中首句直接提到 four turtles。這是 Q10 的主要定位段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “probably come from” 對應原文 “It is likely that they may have originated from”。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is likely that they may have originated from Florida, America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們很可能來自 America 的 Florida。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is likely that they may have originated from Florida, America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們很可能來自 Florida, America。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “they” 回指前文的 four turtles。因此答案是： Florida, America答案形式檢查： Florida, America = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充： Paragraph D 也說 “The four turtles that were found have probably originated from the North American population of loggerheads.” 這是較廣的生物族群描述。題目問 where，Paragraph B 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Florida, America” 作為地點答案更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "earth’s magnetic fields",
+      "answerKey": "earth’s magnetic fields",
+      "type": "Short-answer Questions",
+      "prompt": "“By which means can sea turtles retrace their migratory paths?”",
+      "translation": "sea turtles 透過甚麼方式重走 migratory paths？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 By which means，答案要找 navigation method。定位詞是 “retrace their migratory paths”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Actually, There has been extensive research conducted regarding the sea turtles’ abilities to return to their nesting regions and sometimes exact locations from hundreds of miles away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已有大量研究探討 sea turtles 從數百英里外返回 nesting regions，甚至精確返回相同地點的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some explanations of this phenomenon have found that sea turtles can detect the angle and intensity of the earth’s magnetic fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對這種現象的一些解釋指出，sea turtles 能感應地球磁場的角度和強度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph C 會解釋 sea turtles 如何定位和回游。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “retrace their migratory paths” 在原文中原字出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“turtles are able to retrace their migratory paths.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "turtles 能重走自己的 migratory paths。"
+            },
+            {
+              "kind": "label",
+              "text": "接著下一句解釋方法："
+            },
+            {
+              "kind": "quote",
+              "text": "“sea turtles can detect the angle and intensity of the earth’s magnetic fields.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "完整證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite their limited vision, and lack of landmarks in the open water, turtles are able to retrace their migratory paths.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管牠們視力有限，而且 open water 中缺少地標，turtles 仍能重走自己的 migratory paths。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some explanations of this phenomenon have found that sea turtles can detect the angle and intensity of the earth’s magnetic fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些解釋指出，sea turtles 能感應地球磁場的角度和強度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 means，因此答案應寫： earth’s magnetic fields答案形式檢查： earth’s magnetic fields = 3 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “limited vision” 或 “landmarks”。原文提到這兩點，是為了說明海龜即使缺少一般導航線索，仍能靠 magnetic fields 找路。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "its meat",
+      "answerKey": "its meat",
+      "type": "Short-answer Questions",
+      "prompt": "“For what purpose are Green Sea turtles killed by people?”",
+      "translation": "人們為了甚麼目的殺 Green Sea turtles？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 purpose，答案要找 “for + noun” 結構。定位詞是 “Green Sea turtle” 和 “killed”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leatherbacks are in immanent danger of extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leatherbacks 正處於迫近 extinction 的危險中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have estimated that there are only about 35,000 Leatherback turtles in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家估計世界上只有約 35,000 隻 Leatherback turtles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 會講 leatherback 瀕危和人類威脅。Green Sea turtle 的資料也在這段中間，因為它被拿來和 leatherback 比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞 “Green Sea turtle” 在原文中只出現一次："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leatherback, unlike the Green Sea turtle, is not often killed for its meat…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leatherback 跟 Green Sea turtle 不同，並不常因肉而被殺。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句的比較關係很重要。原文說 leatherback unlike Green Sea turtle is not often killed for"
+            },
+            {
+              "kind": "paragraph",
+              "text": "its meat。這表示 Green Sea turtle 會因 its meat 被殺。題目問 Green Sea turtles are killed for what purpose，答案就是： its meat答案形式檢查： its meat = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 大量講 leatherback eggs 被採集，但題目問 Green Sea turtles。Green Sea turtle在這裡只用來作比較，真正答案是 meat，不是 eggs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "jellyfish",
+      "answerKey": "jellyfish",
+      "type": "Short-answer Questions",
+      "prompt": "“What kind of species will benefit from a decline in Leatherback populations?”",
+      "translation": "哪種物種會因 Leatherback populations 下降而得益？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 species，答案需要一種生物名稱。定位詞是 “decline in Leatherback populations” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“benefit”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G第一句：“We are often unable to understand the critical impact a species has on the environment—that is, until that species becomes extinct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們往往直到一個物種 extinct 後，才明白牠對 environment 的 critical impact。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Saving sea turtles is an International endeavor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拯救 sea turtles 是一項國際性的努力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講 leatherback 的生態作用，以及為何保護 sea turtles 重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞 “decline in Leatherback populations” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rapid decline in Leatherback populations over the last 50 years has been accompanied by a significant increase in jellyfish and a marked decrease in fish in our oceans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去 50 年 Leatherback populations 快速下降，同時 jellyfish 大幅增加，而 ocean fish 明顯減少。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這句清楚說明受益或增加的物種是 jellyfish。前一句也解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the Leatherback consumes its weight in jellyfish per day, it helps to keep Jellyfish populations in check.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Leatherback 每天會吃掉相當於自身重量的 jellyfish，牠有助控制 Jellyfish populations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Leatherback 減少，jellyfish 失去主要控制因素，數量便增加。因此答案是： jellyfish答案形式檢查： jellyfish = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 benefit from leatherback decline。Fish populations 反而下降，因為 jellyfish consume fish larvae。真正增加的是 jellyfish。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Turtles.pdf",
+    "sha256": "af5b3dd6ecf50bee0dabc736a0b8002ad19cc74dc4d5f27e378b28c4d857e542",
+    "pageCount": 19
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句描述 leatherback turtles 的基本身體結構：大而扁平的圓形身體、兩對大 flippers 和短尾巴。末句指出牠最明顯的特徵是缺少其他現存海龜擁有的 bony carapace。只看首尾句，可以估計這段主要介紹 leatherback 的外形和獨特生理特徵。這段雖然不在 headings 題範圍內，但會支援Question 8。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說過去一個月有四隻 turtles 被沖上 Irish coasts，範圍由 Wexford 到 Kerry。末句說同一時期Scotland 和 Wales 也發現 turtles，令 Ireland 和 UK 出現一個異常的 stranded turtles 月份。只看首尾句，可以判斷這段主題是 turtles 出現在平常不常見的地點，尤其是 Irish / UK waters。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說已有大量研究探討 sea turtles 如何回到 nesting regions，甚至精確地回到相同地點。末句提出一個解釋：sea turtles 能感應地球磁場的角度和強度。只看首尾句，可以估計這段集中講 sea turtles 如何在海中重新找到 migratory paths。重點是路線追蹤、回游能力和 magnetic fields。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 loggerhead turtles 通常不在 Irish waters 出現，因為當地水溫太低，無法讓牠們生存。末句說 loggerheads 可能會在 North Atlantic 循環多次，最後才定居於 Florida 或 Caribbean coastal waters。只看首尾句，可以判斷這段主要描寫 loggerhead 的正常 migration route，以及牠們本來應走的 Atlantic round trip。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說這四隻 turtles 很可能正在繞行 Atlantic 時，從 Gulf Stream 偏離得太北。末句說一旦進入冷水，loggerhead 身體會逐步 shut down，先 cold stunned，再 hypothermia，最後死亡。只看首尾句，可以判斷這段主題是迷路 turtles 的命運：偏離暖流後進入冷水，結果無法生存。"
+      },
+      {
+        "number": "F",
+        "summary": "首句直接說 Leatherbacks 正處於 extinction 的 imminent danger。末句說科學家估計全球只剩約35,000 隻 Leatherback turtles。只看首尾句，可以判斷這段處理 leatherback population decline。中間會列出原因，例如 egg harvesting、black market trade、pollution、plastic debris、longline fishing、gill nets 和 habitat development。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說人類往往直到某物種 extinct 後，才明白牠對 environment 的 critical impact。末句說saving sea turtles 是 international endeavour。只看首尾句，可以估計這段轉向生態意義： Leatherback 可能幫助魚類族群恢復，因為牠們大量捕食 jellyfish，而 jellyfish 會吃 fish larvae。"
+      }
+    ]
+  }
+}

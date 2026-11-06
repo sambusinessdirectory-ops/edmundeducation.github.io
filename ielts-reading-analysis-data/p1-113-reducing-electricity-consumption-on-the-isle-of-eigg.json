@@ -1,0 +1,2051 @@
+{
+  "id": "p1-113-reducing-electricity-consumption-on-the-isle-of-eigg",
+  "catalogueId": "p1-113",
+  "catalogueIds": [
+    "p1-113"
+  ],
+  "passage": 1,
+  "title": "Reducing electricity consumption on the Isle of Eigg",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "a hundred / 100",
+    "50 percent",
+    "water",
+    "energy monitors",
+    "diesel generators",
+    "insulation",
+    "greenhouses",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "a hundred / 100",
+      "answerKey": "a hundred / 100",
+      "type": "Short-answer Questions",
+      "prompt": "“Approximately how many people live on Eigg?”",
+      "translation": "大約有多少人住在 Eigg？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer 題。問題詞是 “how many people”，所以答案應是人數。題目已有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Approximately”，代表答案可以用大約數字，不需要再強行保留所有修飾語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1第一句：“The Isle of Eigg is situated off the west coast of Scotland, and is reached by ferry from the mainland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg 島位於蘇格蘭西岸外，可由本土乘渡輪到達。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, although the island has most modern conveniences, CO2 emissions per household are 20 percent lower than the UK average, and electricity use is 50 percent lower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，雖然島上有大部分現代便利設施，但每戶二氧化碳排放比英國平均低 20%，用電量低50%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 是背景段，會交代 Eigg 的地理、人口、生活成本和能源使用特點。題目問 “people live on Eigg”，最自然應到背景段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “people live on Eigg”，原文可能用 residents、community、population。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 1，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the island community of about a hundred residents…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對這個大約有一百名居民的島嶼社群來說……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “about a hundred residents” 直接回答題目。residents 對應 people who live there。題目問 approximately，所以答案可以寫 “a hundred” 或 “100”。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a hundred” 是 two words，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。“100” 也符合一個 number。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "people live on Eigg= residents / island community所以答案是 a hundred / 100。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “about a hundred residents”，因為這是 three words，加上 residents 會超過題目限制。題目本身已經有 approximately，所以 “a hundred” 足夠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "50 percent",
+      "answerKey": "50 percent",
+      "type": "Short-answer Questions",
+      "prompt": "“What proportion of a UK household’s electricity consumption does an Eigg household consume?”",
+      "translation": "Eigg 一個家庭的用電量，相當於英國家庭用電量的多少比例？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 proportion，即比例。控制詞是 electricity consumption，不是 CO2 emissions，所以要小心同一句中兩個百分比。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Isle of Eigg is situated off the west coast of Scotland, and is reached by ferry from the mainland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg 島位於蘇格蘭西岸外，可由本土乘渡輪到達。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, although the island has most modern conveniences, CO2 emissions per household are 20 percent lower than the UK average, and electricity use is 50 percent lower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，雖然島上有大部分現代便利設施，但每戶二氧化碳排放比英國平均低 20%，用電量低50%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經看到 electricity use 和 UK average 的比較，因此 Paragraph 1 是最直接定位段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“UK household”"
+            },
+            {
+              "kind": "quote",
+              "text": "“electricity consumption”"
+            },
+            {
+              "kind": "quote",
+              "text": "“proportion”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“electricity use is 50 percent lower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用電量低 50%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Eigg 的 electricity use 比 UK average “50 percent lower”。如果比英國平均低 50%，就表示 Eigg 家庭只用英國家庭平均用電量的一半，也就是 50 percent。"
+            },
+            {
+              "kind": "label",
+              "text": "同一句還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“CO2 emissions per household are 20 percent lower…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每戶二氧化碳排放低 20%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 emissions，不是 electricity。題目問 electricity consumption，所以 20 percent 不能用。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“50 percent” 是一個數字加一個詞，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "electricity consumption= electricity use a UK household= the UK average consume what proportion= 50 percent lower → half of the average所以答案是 50 percent。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 20 percent 干擾，因為它和 50 percent 同一句出現。判斷時要先看名詞：CO2 emissions 對 20 percent；electricity use 對 50 percent。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "water",
+      "answerKey": "water",
+      "type": "Short-answer Questions",
+      "prompt": "“Apart from wind and sun, where does most of Eigg’s electricity come from?”",
+      "translation": "除了風和太陽之外，Eigg 大部分電力還來自哪裡？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 What / where 題。題目中的 “wind and sun” 對應 wind and solar power，並要求排除它們，找剩下的 renewable source。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Eigg designed its electricity grid, which was switched on in February 2008, it quickly became apparent that in order to keep the capital building costs down, it would be necessary to manage demand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Eigg 設計其電網時，這個電網於 2008 年 2 月啟用；當時很快便清楚，要壓低建設資本成本，就必須管理需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This goal was overseen by the Eigg Heritage Trust (EHT).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個目標由 Eigg Heritage Trust 監督。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講新電網、需求管理和 EHT 的角色。題目問 Eigg’s electricity come from，所以應在這段找 electricity generation sources。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wind”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sun”"
+            },
+            {
+              "kind": "quote",
+              "text": "“electricity come from”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This would also allow the island to generate most of its electricity from renewable sources, mainly water, wind and solar power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這也會讓島上大部分電力來自可再生能源，主要是水力、風力和太陽能。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出三個主要 renewable sources： water wind solar power題目說 “Apart from wind and sun”，即排除 wind 和 solar power。剩下的來源就是 water。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "sun= solar power where does electricity come from= generate electricity from renewable sources most= most of its electricity / mainly所以答案是 water。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “renewable sources”，因為題目問的是除了風和太陽之外的具體來源。也不要填 “solar power”，因為 sun 已在題目中被排除。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "energy monitors",
+      "answerKey": "energy monitors",
+      "type": "Short-answer Questions",
+      "prompt": "“What device measures the amount of electricity Eigg’s households are using?”",
+      "translation": "哪一種裝置量度 Eigg 家庭正在使用多少電？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題詞是 “What device”，所以答案應是一個裝置名稱。題目中的 “measures the amount of electricity” 可能會在原文以 display usage、current usage、cumulative usage 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eigg manages electricity demand mainly by capping the instantaneous power that can be used to five kilowatts (kW) for a household and ten kW for a business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg 主要透過限制即時可用功率來管理電力需求：家庭為五千瓦，商業為十千瓦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result is that Eigg residents have a keen sense of how much power different electrical appliances use, and are careful to minimise energy consumption.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是 Eigg 居民很清楚不同電器使用多少電力，並且小心把能源消耗降到最低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段講用電限制和居民如何掌握用電量。題目問 measuring device，應在這段中間找技術工具。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“device”"
+            },
+            {
+              "kind": "quote",
+              "text": "“measures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“amount of electricity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“households”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“All households and businesses have energy monitors, which display current and cumulative electricity usage…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有家庭和商業用戶都有 energy monitors，這些裝置會顯示目前和累計的用電量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“energy monitors” 是裝置名稱。後面的 relative clause “which display current and cumulative electricity usage” 解釋它們的功能：顯示即時和累計用電量。題目中的 “measures the amount” 概括為 “display … electricity usage”。答案形式檢查：“energy monitors” 是 two words，符合題目限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "amount of electricity households are using= current and cumulative electricity usage device= energy monitors所以答案是 energy monitors。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文同一句還提到 “sound an alarm”。alarm 是提醒功能，並非題目問的 measuring device。真正裝置名稱是 energy monitors。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "diesel generators",
+      "answerKey": "diesel generators",
+      "type": "Short-answer Questions",
+      "prompt": "“When renewable energy supplies are insufficient, what backs them up?”",
+      "translation": "當可再生能源供應不足時，甚麼會作為後備支援？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 what backs them up，答案應是一種設備或供電來源。定位詞是 renewable energy、insufficient、back up。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Demand is also managed by warning the entire island when renewable energy generation is lower than demand and diesel generators are operating to back it up—a so-called ‘red light day’, as opposed to ‘green light days’ when there is sufficient renewable energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當可再生能源發電量低於需求，而柴油發電機正在運作以作支援時，Eigg 也會透過警示整個島來管理需求；這稱為 “red light day”，相對於可再生能源充足時的 “green light days”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Residents then take steps to reduce electricity demand even further, or postpone demand until renewable energy generation has increased.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "居民之後會採取措施進一步減少用電需求，或把用電需求延後到可再生能源發電量增加之後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯講 renewable generation 不足時的系統反應。題目問 backup，第一句已經有答案訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“renewable energy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“insufficient”"
+            },
+            {
+              "kind": "quote",
+              "text": "“backs them up”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“diesel generators are operating to back it up”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "柴油發電機正在運作以支援它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “it” 指前面的 renewable energy generation 或整個供電需求情況。當 renewable energy generation lower than demand，就由 diesel generators back it up。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "renewable energy supplies are insufficient= renewable energy generation is lower than demand what backs them up= diesel generators are operating to back it up答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“diesel generators” 是 two words，符合題目限制。所以答案是 diesel generators。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“red light day” 是警示日名稱，不是後備供電設備。題目問 “what backs them up”，因此要找真正運作支援供電的東西。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "insulation",
+      "answerKey": "insulation",
+      "type": "Short-answer Questions",
+      "prompt": "“What has EHT provided free of charge in all the houses it owns?”",
+      "translation": "EHT 在自己擁有的所有房屋中免費提供了甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目控制詞是 EHT、free of charge、all the houses it owns。答案要符合 “all” 和 “free”，不能只找EHT 曾經資助過的任何項目。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eigg Heritage Trust has installed insulation in all of its own properties at no cost to the tenants, while private properties have paid for their own insulation to be installed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg Heritage Trust 已在所有自己擁有的物業安裝隔熱層，住戶無需支付費用；私人物業則自行支付隔熱安裝費用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Purchases included bikes, solar water heating, secondary glazing, thicker curtains, and greenhouses to grow food locally, rather than importing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購買項目包括單車、太陽能熱水、二層窗、較厚窗簾，以及用來在本地種植食物的溫室，減少入口食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，已經看到 EHT、all its own properties、at no cost，與題目完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“EHT”"
+            },
+            {
+              "kind": "quote",
+              "text": "“free of charge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all the houses it owns”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eigg Heritage Trust has installed insulation in all of its own properties at no cost to the tenants…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "EHT 已在所有自己擁有的物業安裝 insulation，租戶不用付費。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “houses it owns” 對應 “its own properties”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “free of charge” 對應 “at no cost to the tenants”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "被提供和安裝的項目是 insulation。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“insulation” 是 one word，符合題目限制。所以答案是 insulation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段也提到 solar water heating，但原文說 “not all Trust properties have received this as yet”，即並非所有 Trust properties 都已安裝。題目要求 all the houses it owns，所以不能填 solar water heating。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "greenhouses",
+      "answerKey": "greenhouses",
+      "type": "Short-answer Questions",
+      "prompt": "“Which gardening aid did some Eigg inhabitants claim grants for?”",
+      "translation": "一些 Eigg 居民申請補助購買哪一種園藝輔助物？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “gardening aid”，原文未必會直接使用 gardening 這個字，可能用 grow food locally 來暗示。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eigg Heritage Trust has installed insulation in all of its own properties at no cost to the tenants, while private properties have paid for their own insulation to be installed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "EHT 已在所有自己擁有的物業安裝隔熱層，住戶無需支付費用；私人物業則自行支付隔熱安裝費用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Purchases included bikes, solar water heating, secondary glazing, thicker curtains, and greenhouses to grow food locally, rather than importing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購買項目包括單車、太陽能熱水、二層窗、較厚窗簾，以及用來在本地種植食物的溫室，減少入口食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，可以看到 Green Grants 支持的多個購買項目。其中只有 greenhouses 明顯與gardening / growing food 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“grants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gardening aid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inhabitants”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Trust also operates a Green Grants scheme, under which residents can claim 50 percent of the cost of equipment to reduce carbon emissions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Trust 也營運 Green Grants 計劃，居民可申請補助，取回減碳設備成本的 50%。"
+            },
+            {
+              "kind": "label",
+              "text": "再看購買項目："
+            },
+            {
+              "kind": "quote",
+              "text": "“greenhouses to grow food locally”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用來在本地種植食物的溫室。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Eigg inhabitants” 對應原文 “residents”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“claim grants for” 對應 “residents can claim 50 percent of the cost”。“gardening aid” 對應 “greenhouses to grow food locally”。答案形式檢查：“greenhouses” 是 one word，符合題目限制。所以答案是 greenhouses。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句列出多個 Green Grants 購買項目，例如 bikes、curtains、secondary glazing。題目用“gardening aid” 收窄範圍，只有 greenhouses 和種植食物有直接關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Electricity was available for the first time on Eigg when a new grid was switched on.”",
+      "translation": "當新電網啟用時，Eigg 第一次有了電力供應。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心在 “for the first time”。如果原文顯示新 grid 前已有電力，只是供電方式不同，就要選 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prior to the installation of the new electricity grid and renewable energy generation, most households on Eigg used diesel generators to supply electricity, resulting in significant carbon emissions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在新電網和可再生能源發電設施安裝之前，Eigg 大部分家庭使用柴油發電機供電，造成顯著碳排放。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homes were also poorly insulated and had old, inefficient oil-burning boilers, or used coal for heating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "房屋隔熱也很差，並使用老舊低效的燃油鍋爐，或用煤取暖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，已能看到新電網之前已經有 electricity，只是由 diesel generators supply。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“for the first time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new grid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“electricity was available”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prior to the installation of the new electricity grid … most households on Eigg used diesel generators to supply electricity…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在新電網安裝之前，大部分 Eigg 家庭已使用柴油發電機供電。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說新 grid switched on 時 electricity 才首次 available。原文提供相反事實：prior to the installation，most households already used diesel generators to supply electricity。這表示電力在新電網之前已存在，只是以 diesel generators 形式供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：新電網啟用 = 第一次有電原文命題：新電網之前 = 多數家庭已有柴油發電機供電判斷：兩者衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的 “electricity grid … switched on in February 2008” 只說新電網啟用時間，沒有說電力首次出現。看到 switched on 不可自動理解成第一次有 electricity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Eigg’s carbon emissions are now much lower than before.”",
+      "translation": "Eigg 現在的碳排放比以前低很多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目控制詞是 “now much lower than before”。要找現在與以前的比較，以及 carbon emissions是否 significant reductions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work of the Eigg Heritage Trust to reduce energy use has resulted in significant reductions in carbon emissions from the island’s households and businesses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg Heritage Trust 減少能源使用的工作，已令島上家庭和商業的碳排放顯著下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emissions should fall even further over the next few years as the supply of wood for heating increases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著供取暖用的木材供應增加，未來幾年排放應該還會進一步下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 8 明確是 carbon emissions reduction 的證據段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“carbon emissions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“much lower”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Domestic carbon emissions have fallen by 47 percent, from 8.4 to 4.45 tonnes per year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "家庭碳排放已下降 47%，由每年 8.4 噸降至 4.45 噸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“have fallen by 47 percent” 是非常強的下降證據。題目中的 “much lower than before” 對應： significant reductions fallen by 47 percent from 8.4 to 4.45 tonnes per year“now” 對應現在完成式 “have fallen”，表示到目前為止已經下降。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "much lower than before= significant reductions / fallen by 47 percent carbon emissions= domestic carbon emissions / emissions from households and businesses判斷：原文清楚支持題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看 Paragraph 1 的 “CO2 emissions per household are 20 percent lower than the UK average”。那句比較的是 Eigg 與 UK average。Question 9 問 Eigg 現在和以前比較，Paragraph 8 的 47 percent fall 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Wood will soon be the main source of heating on Eigg.”",
+      "translation": "木材很快會成為 Eigg 主要取暖來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個核心元素：soon 和 main source of heating。原文即使提到 wood for heating，也要檢查是否說它會很快成為主要來源。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 5 and 8 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Energy use on the island has also been reduced through improved wall and loft insulation in homes, new boilers, solar water heating, car-sharing and various small, energy-saving measures in households.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "島上能源使用也透過房屋牆壁和閣樓隔熱改善、新鍋爐、太陽能熱水、共乘和家庭中的小型節能措施而減少。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New energy supplies are being developed, including sustainably harvested forests to supply wood for heating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的能源供應正在發展，包括可持續採伐的森林，以供應取暖用木材。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emissions should fall even further over the next few years as the supply of wood for heating increases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著取暖用木材供應增加，未來幾年排放應該會進一步下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以知道 wood heating 會增加，但仍未看到 “main source”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wood”"
+            },
+            {
+              "kind": "quote",
+              "text": "“main source”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soon”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到兩處："
+            },
+            {
+              "kind": "quote",
+              "text": "“wood for heating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the supply of wood for heating increases”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“New energy supplies are being developed…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示木材供應正在發展。"
+            },
+            {
+              "kind": "label",
+              "text": "又有："
+            },
+            {
+              "kind": "quote",
+              "text": "“over the next few years as the supply of wood for heating increases”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示未來幾年木材供應會增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目說 “the main source of heating”。原文沒有提供： wood 會成為最大取暖來源wood 會取代 oil / coal / boilers大多數家庭將主要靠 wood heating wood heating 的比例會超過其他取暖方式判斷：原文支持 “wood for heating will increase”，但沒有支援 “main source”。也沒有相反證據說 wood不會成為主要來源。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“over the next few years” 很接近 soon，容易令人以為題目成立。真正缺少的是 main。IELTS 這類題常把 “increase” 推大成 “become the main source”，這一步沒有原文支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Eigg is quieter as a result of having a new electricity supply.”",
+      "translation": "由於有了新的電力供應，Eigg 變得更安靜。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 social benefits 中是否提到 noise reduction。題目 “quieter” 可能在原文用 elimination of noise 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The completion of Eigg’s electricity grid has made a significant difference to the island’s residents, freeing them from dependence on diesel generators and providing them with a stable and affordable power supply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg 電網完成後，對島上居民帶來重大改變，使他們不再依賴柴油發電機，並獲得穩定和負擔得起的電力供應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every household has the same five kW cap, irrespective of income, thereby distributing the available resources equally across the island’s population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每戶都有同樣五千瓦上限，不論收入如何，因此可用資源在島上人口之間平均分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，已經看到居民不再依賴 diesel generators；中間很可能會說這帶來哪些生活改善。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“quieter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new electricity supply”"
+            },
+            {
+              "kind": "quote",
+              "text": "“noise”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“A reliable electricity supply has brought improvements in other areas, for example, better treatment of drinking water in some houses, and the elimination of the constant noise of diesel generators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可靠的電力供應也在其他方面帶來改善，例如一些房屋的飲用水處理更好，以及柴油發電機持續噪音的消除。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the elimination of the constant noise of diesel generators” 表示柴油發電機長期噪音被消除。這正好等於 Eigg is quieter。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "quieter= elimination of the constant noise as a result of having a new electricity supply= A reliable electricity supply has brought improvements判斷：原文清楚支持題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求整個島完全無聲，只說 quieter。原文說 constant noise 被消除，已足以支持「更安靜」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Well-off households pay higher prices for the use of extra electricity.”",
+      "translation": "富裕家庭若使用額外電力，需要支付更高價格。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目涉及 income、higher prices、extra electricity。要到 social benefits 的 equitable access 部分找。若原文說不按 income 或 usage 收不同價格，而且每戶 cap 一樣，就構成 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The completion of Eigg’s electricity grid has made a significant difference to the island’s residents, freeing them from dependence on diesel generators and providing them with a stable and affordable power supply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg 電網完成後，對島上居民帶來重大改變，使他們不再依賴柴油發電機，並獲得穩定和負擔得起的電力供應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every household has the same five kW cap, irrespective of income, thereby distributing the available resources equally across the island’s population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每戶都有同樣五千瓦上限，不論收入如何，因此可用資源在島上人口之間平均分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經直接觸及 income 和 equal distribution，因此是本題核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Well-off households”"
+            },
+            {
+              "kind": "quote",
+              "text": "“higher prices”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extra electricity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“income”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the incentives for capping electricity use, rather than charging different amounts according to usage, was to make access to energy equitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制用電量的其中一個誘因，是讓能源取得更公平，而非按照使用量收取不同金額。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every household has the same five kW cap, irrespective of income…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每戶都有同樣五千瓦上限，不論收入如何……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 well-off households pay higher prices for extra electricity。原文提供的制度方向相反：不按 usage charging different amounts每戶 same five kW cap irrespective of income available resources equally distributed這代表制度設計不是讓有錢家庭多付錢買更多電，而是每戶同樣 cap，按資源公平分配。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "well-off households= households with higher income pay higher prices被原文 “rather than charging different amounts according to usage” 排除extra electricity被 “same five kW cap” 限制，沒有提供可多買額外電力的資訊判斷：原文與題目方向衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“affordable power supply” 可能令人想到價格制度，但真正定案的是 “same five kW cap, irrespective of income”。只看 affordable 不夠，必須看後面如何設計公平分配。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The new electricity grid has created additional employment opportunities on Eigg.”",
+      "translation": "新電網為 Eigg 創造了額外就業機會。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 employment opportunities，因此要找 jobs、employed、post、businesses start up 等就業或經濟活動證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eigg’s electricity grid supports four part-time maintenance jobs on the island, and residents have also been employed for building work to improve Trust-owned houses and other buildings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg 的電網在島上支持四個兼職維修職位，居民也受僱進行建築工程，以改善 Trust 擁有的房屋和其他建築。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Eigg has become known for cutting carbon emissions and protecting the environment, an increasing number of visitors have come to the island to learn about its work, bringing a further economic benefit to the residents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 Eigg 因減少碳排放和保護環境而聞名，越來越多遊客到島上了解其工作，為居民帶來進一步經濟收益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 10 明顯是 economic and employment benefits 段。首句已直接提到 jobs和 employed。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new electricity grid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“employment opportunities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“created”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eigg’s electricity grid supports four part-time maintenance jobs on the island…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eigg 的電網支持島上四個兼職維修職位。"
+            },
+            {
+              "kind": "label",
+              "text": "同段還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the start of organised harvesting of wood for heating has created several forestry jobs for residents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有組織地採伐取暖木材也為居民創造了幾個林業職位。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“A part-time ‘green project manager’ post has also been created.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個兼職 green project manager 職位也已創立。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 created additional employment opportunities。原文雖然第一句用 “supports” 而非created，但它清楚表示電網帶來四個 part-time maintenance jobs。後文又補充 building work、forestry jobs 和 green project manager post。這些都屬於額外 employment opportunities。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "created additional employment opportunities= supports jobs / residents have been employed / jobs have been created / post has been created on Eigg= on the island / for residents判斷：原文多次明確提到 jobs 和 employment，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看 “economic benefit” 這個大概念。真正支撐 TRUE 的是具體就業詞：four part-time maintenance jobs、residents employed、forestry jobs、green project manager post。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Reducing electricity consumption on the Isle of Eigg.pdf",
+    "sha256": "0d97d964dfc072903c06ac50ba8256fb0219b1cb8cabf57c5ec7a6fc03956ef3",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 Isle of Eigg 位於蘇格蘭西岸外，需要由 mainland 坐 ferry 到達。末句指出今天島上雖有大部分現代便利設施，但每戶 CO2 emissions 比 UK average 低 20 percent，electricity use 低50 percent。只看首尾句，可以先看到背景重點：Eigg 地理上較隔離，因此形成 self-sufficiency 和careful use of resources，後面很可能會解釋低耗電和低碳排的原因。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Eigg 設計 electricity grid 時，很快發現若要壓低 capital building costs，就需要 manage demand。末句說這個 goal 由 Eigg Heritage Trust overseen。只看首尾句，可以估計這段會解釋新電網設計背後的策略：控制需求、壓低成本，以及讓島上多數電力來自 renewable sources。這段對 water、wind、solar、demand management 和 EHT 都很重要。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Eigg 主要透過限制 instantaneous power 來管理 electricity demand：家庭五 kW，商業十kW。末句說結果是居民很清楚不同 electrical appliances 用多少電，也小心減少 consumption。只看首尾句，可以估計這段會介紹核心技術和行為改變：用 cap、cut-off 和 energy monitors 讓用戶即時知道耗電情況，從制度上迫使居民養成節電意識。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說當 renewable energy generation 低於 demand，而且 diesel generators 要支援時，整個島會收到 warning。末句說居民會進一步減少用電，或把需求延後到 renewable energy generation 增加之後。只看首尾句，可以看到這段重點在 red light day / green light day 的島嶼級提醒制度。它解釋柴油發電機的 backup role，也說明居民如何配合能源供應波動。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說島上 energy use 亦透過 improved insulation、新 boilers、solar water heating、car-sharing 和 small energy-saving measures 減少。末句說新的 energy supplies 正在發展，包括 sustainably harvested forests，用 wood for heating。只看首尾句，可以估計這段不只講電網技術，也講建築、交通、熱水和取暖方式的節能措施。wood for heating 在這裡首次出現，之後可能連到 carbon emissions 下降。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 EHT 已在所有自己擁有的 properties 安裝 insulation，而且 tenants 不用付費。末句列出Green Grants 支持的購買項目，包括 bikes、solar water heating、secondary glazing、thicker curtains 和 greenhouses。只看首尾句，可以看到這段集中講資助和實際改善措施。題目若問EHT free of charge、Trust properties、grants、gardening aid，就應該回到這段細讀。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說新 electricity grid 和 renewable energy generation 安裝之前，大部分 Eigg 家庭用 diesel generators 供電，造成 significant carbon emissions。末句補充，房屋 insulation 差，boilers 老舊低效，也有人用 coal heating。只看首尾句，可以看到這段是「改善前」的環境背景：柴油、煤、舊鍋爐和隔熱差共同造成高碳排。它可用來判斷新電網前是否已有 electricity。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 EHT 減少 energy use 的工作，令 households and businesses 的 carbon emissions 顯著下降。末句說隨著 wood for heating supply 增加，emissions 未來幾年應該會進一步下降。只看首尾句，可以看到這段是 environmental benefits 的核心證據段：有 kWh、UK average、domestic carbon emissions、47 percent fall 等數字。題目若問 carbon emissions 是否比以前低，或 wood heating 的未來影響，應定位這裡。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Eigg electricity grid 完成後，對居民有 significant difference，使他們脫離 diesel generators，得到 stable and affordable power supply。末句說每戶都有同樣 five kW cap，不論income，令 available resources 平均分配。只看首尾句，可以估計這段處理 social benefits：穩定供電、飲用水改善、少了柴油機噪音、房屋更暖，以及能源使用更公平。價格和收入題也會落在這段。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 Eigg electricity grid 支持島上四個 part-time maintenance jobs，居民也因 Trust-owned houses 和 buildings 改善工程受僱。末句說因 Eigg 以減碳和環保聞名，更多 visitors 到島上學習，為居民帶來 further economic benefit。只看首尾句，可以看到這段是 economic and employment benefits：維修、建築、林業、green project manager、新 businesses 和 visitors 都連到就業或經濟收益。"
+      }
+    ]
+  }
+}

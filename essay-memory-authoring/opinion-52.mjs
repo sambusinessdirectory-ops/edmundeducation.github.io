@@ -1,0 +1,224 @@
+const simple=[
+  'In every country, keeping people safe is one of the government’s main jobs.',
+  'Some people say this job means the government should spend more on the army and less on help for people who need it.',
+  'I strongly disagree because weapons alone cannot make people safe; safety also needs ordinary people to be healthy, secure, and treated with respect.',
+  'First, cutting help for people can make a country less safe.',
+  'This spending pays for health care, help for people without jobs, money for older people, and help with housing.',
+  'These are basic needs; they stop people in difficulty from feeling that they have no way forward.',
+  'When families cannot pay for medicine, rent, or basic food, a problem at home can grow into trouble for the wider community, crime, and groups turning against each other.',
+  'For example, a worker who loses a job but gets help for a short time can learn new skills and look for another job.',
+  'Without that help to fall back on, the same person may get into debt, lose a home, and feel deeply angry.',
+  'So help for people in difficulty is not money spent on something unimportant; it helps keep the country safe.',
+  'Second, spending too much on the army may waste limited public money if it takes money away from services people need each day.',
+  'A bigger army or newer equipment may keep borders safe, but it cannot teach children, care for people with long-term illness, or help older people living alone.',
+  'These services make a country stronger inside by helping workers stay healthy, young people gain skills, and communities trust the government.',
+  'A government that forgets these basic needs may build a strong wall around a weak society.',
+  'For example, if hospitals do not get enough money while defence projects grow, people may feel their leaders have left them alone even when there is no war.',
+  'In short, I do not agree that governments should spend more on defence by cutting help for people who need it.',
+  'Real public safety is more than protecting a country with its army.',
+  'It comes from safe borders and also from people who are healthy, educated, and protected from serious hardship.',
+];
+const vocabulary=[
+  [['protecting citizens','keeping people safe','保護公民'],['state’s core duties','government’s main jobs','國家核心職責']],
+  [['this duty','this job','這項責任'],['higher defence budgets','spend more on the army','增加國防預算'],['lower spending on welfare programmes','less on help for people who need it','減少福利開支']],
+  [['completely disagree','strongly disagree','完全不同意'],['weapons alone','weapons alone','單靠武器'],['health, stability and dignity','healthy, secure, and treated with respect','健康穩定尊嚴']],
+  [['reducing social benefits','cutting help for people','削減社會福利'],['less safe, not more','less safe','更不安全']],
+  [['Welfare spending funds','This spending pays for','福利開支資助'],['unemployment support','help for people without jobs','失業援助'],['pensions','money for older people','退休金'],['housing assistance','help with housing','住房援助']],
+  [['not luxuries','basic needs','並非奢侈品'],['vulnerable citizens','people in difficulty','弱勢公民'],['falling into desperation','feeling that they have no way forward','陷入絕望']],
+  [['cannot afford','cannot pay for','無法負擔'],['private hardship','a problem at home','私人困境'],['spill over into','grow into','蔓延成'],['public disorder','trouble for the wider community','公共秩序混亂'],['social division','groups turning against each other','社會分裂']],
+  [['receives temporary support','gets help for a short time','獲得臨時支援'],['retrain','learn new skills','重新培訓'],['find employment','look for another job','尋找工作']],
+  [['safety net','help to fall back on','安全網'],['debt','debt','債務'],['eviction','lose a home','被迫搬遷'],['deep resentment','feel deeply angry','深層怨恨']],
+  [['In this sense','So','從這角度看'],['social benefits','help for people in difficulty','社會福利'],['not soft spending','not money spent on something unimportant','非可有可無的支出'],['domestic security','keep the country safe','國內安全']],
+  [['excessive military spending','spending too much on the army','過度軍費'],['poor use of limited public money','waste limited public money','有限資金的不良使用'],['crowds out','takes money away from','擠壓'],['services that citizens rely on every day','services people need each day','日常依賴的服務']],
+  [['larger army','bigger army','更大軍隊'],['newer equipment','newer equipment','更新裝備'],['protect borders','keep borders safe','保護邊境'],['educate children','teach children','教育兒童'],['treat chronic illnesses','care for people with long-term illness','治療慢性疾病'],['elderly citizens living alone','older people living alone','獨居長者']],
+  [['strengthen a country from within','make a country stronger inside','從內部強化國家'],['healthier workers','workers stay healthy','更健康勞動人口'],['more capable young people','young people gain skills','更有能力的青年'],['communities that trust the state','communities trust the government','信任政府的社區']],
+  [['neglects these foundations','forgets these basic needs','忽視基礎'],['risks building','may build','可能冒險建立'],['strong shield around a weak society','strong wall around a weak society','脆弱社會外的強盾']],
+  [['For instance','For example','例如'],['underfunded','do not get enough money','資金不足'],['defence projects expand','defence projects grow','國防項目擴張'],['feel abandoned by their own leaders','feel their leaders have left them alone','覺得被領袖拋棄'],['peacetime','when there is no war','和平時期']],
+  [['In conclusion','In short','總結'],['finance higher defence spending','spend more on defence','資助較高軍費'],['cutting social benefits','cutting help for people who need it','削減社會福利']],
+  [['True public safety','Real public safety','真正公共安全'],['broader than military protection','more than protecting a country with its army','不限於軍事保護']],
+  [['secure borders','safe borders','安全邊境'],['protected from extreme hardship','protected from serious hardship','免於極端困境']],
+];
+const chunkOverrides=[
+  ['In every country, protecting citizens','is one of the state’s core duties.'],
+  ['Some argue that this duty requires higher defence budgets','and lower spending on welfare programmes.'],
+  ['I completely disagree with this view,','because safety is not created by weapons alone;','it also depends on the health, stability and dignity of ordinary people.'],
+  ['First, reducing social benefits','can make society less safe, not more.'],
+  ['Welfare spending funds healthcare, unemployment support,','pensions and housing assistance.'],
+  ['These are not luxuries;','they keep vulnerable citizens from falling into desperation.'],
+  ['When families cannot afford medicine, rent or basic food,','problems that begin as private hardship can spill over into public disorder, crime and social division.'],
+  ['For example, a worker who loses his job but receives temporary support','has time to retrain and find employment.'],
+  ['Without that safety net,','the same person may face debt, eviction and deep resentment.'],
+  ['In this sense, social benefits are not soft spending,','but a form of domestic security.'],
+  ['Second, excessive military spending can become a poor use of limited public money','when it crowds out services that citizens rely on every day.'],
+  ['A larger army or newer equipment may protect borders,','but it cannot educate children, treat chronic illnesses or support elderly citizens living alone.'],
+  ['These services strengthen a country from within','by producing healthier workers, more capable young people and communities that trust the state.'],
+  ['A government that neglects these foundations','risks building a strong shield around a weak society.'],
+  ['For instance, if hospitals are underfunded while defence projects expand,','citizens may feel abandoned by their own leaders even in peacetime.'],
+  ['In conclusion, I do not agree','that governments should finance higher defence spending by cutting social benefits.'],
+  ['True public safety','is broader than military protection.'],
+  ['It comes not only from secure borders,','but also from citizens who are healthy, educated and protected from extreme hardship.'],
+];
+const simpleChunkOverrides=[
+  ['In every country, keeping people safe','is one of the government’s main jobs.'],
+  ['Some people say this job means the government should spend more on the army','and less on help for people who need it.'],
+  ['I strongly disagree','because weapons alone cannot make people safe;','safety also needs ordinary people to be healthy, secure, and treated with respect.'],
+  ['First, cutting help for people','can make a country less safe.'],
+  ['This spending pays for health care, help for people without jobs,','money for older people, and help with housing.'],
+  ['These are basic needs;','they stop people in difficulty from feeling that they have no way forward.'],
+  ['When families cannot pay for medicine, rent, or basic food,','a problem at home can grow into trouble for the wider community, crime, and groups turning against each other.'],
+  ['For example, a worker who loses a job but gets help for a short time','can learn new skills and look for another job.'],
+  ['Without that help to fall back on,','the same person may get into debt, lose a home, and feel deeply angry.'],
+  ['So help for people in difficulty is not money spent on something unimportant;','it helps keep the country safe.'],
+  ['Second, spending too much on the army may waste limited public money','if it takes money away from services people need each day.'],
+  ['A bigger army or newer equipment may keep borders safe,','but it cannot teach children, care for people with long-term illness, or help older people living alone.'],
+  ['These services make a country stronger inside','by helping workers stay healthy, young people gain skills, and communities trust the government.'],
+  ['A government that forgets these basic needs','may build a strong wall around a weak society.'],
+  ['For example, if hospitals do not get enough money while defence projects grow,','people may feel their leaders have left them alone even when there is no war.'],
+  ['In short, I do not agree','that governments should spend more on defence by cutting help for people who need it.'],
+  ['Real public safety','is more than protecting a country with its army.'],
+  ['It comes from safe borders','and also from people who are healthy, educated, and protected from serious hardship.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
+const structures=[
+  S('In every school, helping pupils learn is one of the head teacher’s core duties.','In every... 設定範圍；one of...core duties 指出基本責任。','此句只確立責任，未推定某一種開支必須增加。', [1,6,15],F('In every country, [行動] is one of [決策者的核心職責]','先承認各方都會接受的一項基本責任。','引言要先建立一項共同承認的責任，再討論如何履行時。',[['In every country, ','link','設定範圍'],['protecting citizens','slot','行動'],[' is one of ','link','是其中一項'],['the state’s core duties.','slot','決策者的基本責任']])),
+  S('Some argue that better exam results require longer school days and less time for sport.','Some argue that 轉述他人；higher...and lower... 並列資源增減兩面。','轉述不等於作者支持；主張包括增加一項、削減另一項。', [0,2,15],F('Some argue that [目標] requires [增加甲] and [減少乙]','準確呈現題目中的交換式資源方案。','要公平轉述一方認為提高甲開支須同時削減乙開支的主張時。',[['Some argue that ','link','轉述主張'],['this duty','slot','目標'],[' requires ','link','需要'],['higher defence budgets','slot','增加甲'],[' and ','link','並且'],['lower spending on welfare programmes.','slot','減少乙']])),
+  S('I disagree because good health is not created by medicines alone; it also depends on safe homes and clean food.','not...alone; it also depends on... 反駁單一來源，把核心概念擴成多個條件。','不是說藥物毫無作用，而是說藥物不足以單獨產生健康。', [1,3,16],F('I disagree, because [結果] is not created by [甲] alone; it also depends on [乙]','表明立場，重新界定一個比題目假設更廣的概念。','要反對單一因素足以造成某結果的假設，並指出其他必要條件時。',[['I completely disagree with this view, because ','link','表明反對並說明原因'],['safety','slot','結果'],[' is not created by ','link','不是靠'],['weapons','slot','甲'],[' alone; it also depends on ','link','單獨造成，亦取決於'],['the health, stability and dignity of ordinary people.','slot','乙']])),
+  S('First, cutting school meals may make learning harder, not easier.','not...but... 對比政策原意與可能的相反結果。','此句提出首項判斷，後面仍須列出具體服務與機制。',[2,6,9],F('First, [削減某支援] can make [目標] worse, not better','指出削減原本有助目標的支援，可能反而使目標更難達成。','首段要提出某措施可能適得其反的核心判斷時。',[['First, ','link','引入首項理由'],['reducing social benefits','slot','削減某支援'],[' can make ','link','可能使'],['society','slot','目標'],[' less safe, not more.','link','更差而非更好']])),
+  S('Community funding pays for meals, transport, and local advice.','funds 後列具體服務，將抽象預算轉成可見的支出內容。','列出用途本身尚未證明效果；下一句仍需解釋用途的作用。',[3,7,10],F('[一項開支] funds [數項具體服務]','列出政策款項實際支持甚麼。','提出一項開支後，要以具體服務清單避免空泛討論時。',[['Welfare spending','slot','一項開支'],[' funds ','link','資助'],['healthcare, unemployment support, pensions and housing assistance.','slot','數項具體服務']])),
+  S('These are not luxuries; they keep families from falling into serious hardship.','These 回指前句服務；not luxuries; they... 對比錯誤標籤與實際功能。','這句說明必要性，未聲稱每個項目都不需要評估效率。',[4,8,11],F('[前述事物] are not [貶低標籤]; they [實際保護作用]','把前句服務由可有可無重新界定為基本保障。','要糾正某種事物被視為可有可無的標籤，並說明它的實際作用時。',[['These','slot','前述服務'],[' are not ','link','不是'],['luxuries','slot','貶低標籤'],['; they ','link','而是'],['keep vulnerable citizens from falling into desperation.','slot','實際保護作用']])),
+  S('When households cannot pay for heating or food, private hardship can spill over into wider health and social problems.','When 設定基本需要無法滿足；spill over into 追蹤私人困難如何成為公共問題。','can 保留可能性，不聲稱所有陷困家庭都會犯罪。', [3,7,8],F('When [家庭缺基本資源], [私人困難] can spill over into [公共後果]','把個人層面的困境接到社會層面的風險。','要解釋個人困難在甚麼條件下可能擴大為公共問題時。',[['When ','link','設定條件'],['families cannot afford medicine, rent or basic food','slot','家庭缺基本資源'],[', problems that begin as ','link','原本屬於'],['private hardship','slot','私人困難'],[' can spill over into ','link','可能擴散成'],['public disorder, crime and social division.','slot','公共後果']])),
+  S('For example, a trainee who loses work but receives short-term help has time to study and find another job.','who...but receives... 設具體人物與支援；has time to 指出過渡期的實際作用。','例子說臨時支援提供時間，並非保證立即找到工作。', [3,6,8],F('For example, [遇到困難的人] but receives [暫時支援] has time to [重新準備]','以一人具體說明短期支援如何避免長期失去機會。','提出支援有用後，要用一位典型受助者展示支援提供的實際機會時。',[['For example, ','link','引出例子'],['a worker who loses his job','slot','遇到困難的人'],[' but receives ','link','但得到'],['temporary support','slot','暫時支援'],[' has time to ','link','便有時間'],['retrain and find employment.','slot','重新準備']])),
+  S('Without that safety net, the same family may face debt, eviction, and lasting stress.','Without 設反面條件；the same person 保持與上句同一個案作對照。','may 是可能後果，不能改寫成每名受助者必然被迫搬遷。', [3,7,9],F('Without [先前的支援], the same [人物] may face [多重損失]','將前句有支援的結果與失去支援的結果對照。','用同一人物對比有支援與無支援兩種可能情況時。',[['Without ','link','設定缺失條件'],['that safety net','slot','先前的支援'],[', the same ','link','同一位'],['person','slot','人物'],[' may face ','link','可能面對'],['debt, eviction and deep resentment.','slot','多重損失']])),
+  S('In this sense, free school meals are not soft spending, but a way to help pupils learn safely.','In this sense 根據前例收束；not...but... 由「可有可無」重定為重要功能。','此句重定支出功能，不是說所有項目都毋須檢查效率。', [3,8,10],F('In this sense, [甲支出] are not [貶低標籤], but [核心功能]','把正反個案提升為對一項開支的新判斷。','舉例後，要糾正一項支出看似無關核心目標的印象時。',[['In this sense, ','link','由前文推論'],['social benefits','slot','甲支出'],[' are not ','link','不是'],['soft spending','slot','貶低標籤'],[', but ','link','而是'],['a form of domestic security.','slot','核心功能']])),
+  S('Second, a large building project can waste scarce council money when it crowds out daily care services.','Second 開新理由；when it crowds out... 限定某開支何時成為不良選擇。','批評的是過度投入及擠壓必要服務，不是任何相關開支。', [3,9,11],F('Second, [過度甲開支] can become [不良資金用途] when it crowds out [日常服務]','從首段的正面保障，轉入資源被擠壓的另一理由。','要指出某項開支在擠走更基本服務的條件下可能不合理時。',[['Second, ','link','引出第二理由'],['excessive military spending','slot','過度甲開支'],[' can become ','link','可能變成'],['a poor use of limited public money','slot','不良資金用途'],[' when it crowds out ','link','若它擠壓'],['services that citizens rely on every day.','slot','日常服務']])),
+  S('A newer stadium may host events, but it cannot teach pupils, treat illness, or house older people.','may 承認一項作用；but it cannot... 列出其不能取代的不同服務。','不是說甲完全無用；重點是它不能替代乙的功能。', [10,12,13],F('[甲資源] may [本身的作用], but it cannot [乙資源的多項功能]','公平承認一項開支的用途，再指出它不能取代其他基本服務。','要比較兩類資源的功能時，先承認甲的作用再列它不能完成的乙功能。',[['A larger army or newer equipment','slot','甲資源'],[' may ','link','可能'],['protect borders','slot','本身的作用'],[', but it cannot ','link','但不能'],['educate children, treat chronic illnesses or support elderly citizens living alone.','slot','乙資源的多項功能']])),
+  S('These services strengthen a town from within by producing healthier residents and stronger trust.','by producing... 說明「從內部強化」如何發生，列三類可觀察結果。','不能只重複強大；應指出人或社區發生甚麼改變。', [11,13,14],F('These [服務] strengthen [整體] from within by producing [幾項人的結果]','把具體服務轉成更大的共同體效益。','提出多項服務後，要解釋它們如何經人員能力與信任強化整體時。',[['These services','slot','服務'],[' strengthen ','link','強化'],['a country','slot','整體'],[' from within by producing ','link','從內部透過'],['healthier workers, more capable young people and communities that trust the state.','slot','幾項人的結果']])),
+  S('A school that neglects its pupils risks building an impressive hall around a weak learning community.','A...that neglects...risks... 指出忽視基礎的風險；shield/weak society 形成可記憶對照。','這是比喻，不表示實際建築或裝備必然有害。', [9,12,14],F('A [決策者] that neglects [基礎] risks building [表面強大、內部脆弱的事物]','用反差圖像指出只顧外部而忽略內部的代價。','已列出被忽略的基本功能後，要以精確比喻概括表面強大與內在脆弱時。',[['A government','slot','決策者'],[' that neglects ','link','忽略'],['these foundations','slot','基礎'],[' risks building ','link','可能建立'],['a strong shield around a weak society.','slot','表面強大、內部脆弱的事物']])),
+  S('For instance, if school meals lose funding while a new sports hall expands, pupils may feel their daily needs are ignored.','if...while... 對比一方缺款、一方擴張；may feel 追蹤受影響者感受。','感受是可能結果，不表示所有人必然一樣反應。', [10,12,13],F('For instance, if [必要服務資金不足] while [另一項目擴張], [受影響者] may feel [被忽略]','把擠壓效應變成一個可想像的資源對照。','要用同時發生的兩項預算變化，展示受影響者可能如何理解政策時。',[['For instance, if ','link','引出對照情況'],['hospitals are underfunded','slot','必要服務資金不足'],[' while ','link','同時'],['defence projects expand','slot','另一項目擴張'],[', ','link','則'],['citizens','slot','受影響者'],[' may feel ','link','可能覺得'],['abandoned by their own leaders even in peacetime.','slot','被忽略']])),
+  S('In conclusion, I do not agree that a council should fund new offices by cutting support for local clinics.','In conclusion 重申反對；by cutting... 點出反對的是以削減乙資助甲的方式。','作者不是否認甲可能有用，而是反對特定籌款方法。', [1,10,16],F('In conclusion, I do not agree that [決策者] should finance [增加甲] by cutting [乙]','結論直接回應題目所提的資金轉移方案。','要反對「削減乙以增加甲」的具體政策時，在結論重申兩個方向。',[['In conclusion, I do not agree that ','link','重申反對'],['governments','slot','決策者'],[' should finance ','link','應資助'],['higher defence spending','slot','增加甲'],[' by cutting ','link','透過削減'],['social benefits.','slot','乙']])),
+  S('Real educational quality is broader than exam scores.','broader than 明確指出複雜概念不可縮成單一指標。','此句沒有否定考試作用，只說整體品質更廣。',[2,11,15],F('True [複雜概念] is broader than [單一指標]','先用一句話擴大讀者對核心概念的理解。','結論要糾正把複雜概念縮成單一來源的看法時。',[['True public safety','slot','複雜概念'],[' is broader than ','link','範圍比...更廣'],['military protection.','slot','單一指標']])),
+  S('It comes not only from strong test scores, but also from safe classrooms and supportive teaching.','not only...but also... 在保留甲作用下增加另一必要來源；It 回指前句核心概念。','不能把 but also 誤作要取消甲；兩者共同構成結果。',[2,9,16],F('[前句核心概念] comes not only from [來源甲], but also from [來源乙]','列出核心概念的兩類互相補充來源。','指出概念不止一種來源後，要用平行結構明列兩類來源時。',[['It','slot','前句核心概念'],[' comes not only from ','link','不僅來自'],['secure borders','slot','來源甲'],[', but also from ','link','亦來自'],['citizens who are healthy, educated and protected from extreme hardship.','slot','來源乙']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
+const intro=[
+  Q('作者是否同意以削減社會福利來增加國防開支？',['完全不同意；福利亦保障國內安全，過度軍費可能擠壓日常服務','完全同意；福利與安全毫無關係','沒有立場，只介紹兩邊說法','只同意取消醫院和住房援助'],'completely disagree；safety is not created by weapons alone。'),
+  {type:'multi',prompt:'選出兩段主體的不同理由',detail:'選兩項，再按「確認」。',options:['福利支援可防止私人困境擴大成公共秩序及社會問題','過度軍費若擠走醫療教育，可能削弱國家內部力量','軍隊完全沒有保護邊境的作用','人人獲福利後必然永不失業'],correct:[0,1],why:'第一段論福利的國內安全作用；第二段論過度軍費與公共服務的擠壓。'},
+];
+const route=[sequence('先排好全文四段',[
+  ['引言 · 安全不限武器','承認保護公民責任，反對以削福利換增軍費。'],
+  ['主體段一 · 福利也是國內保障','列醫療、失業、退休及住房支援；用失業工人正反對照。'],
+  ['主體段二 · 擠壓基本服務的代價','軍隊可護邊境，卻不能替代教育醫療；醫院缺款例子。'],
+  ['結論 · 安全是更廣的概念','不支持削福利增軍費；安全兼有邊境與居民福祉。'],
+],'承認政府責任 → 福利防止危機擴散 → 過度軍費擠壓服務 → 擴大安全定義。')];
+const evidence=[
+  Q('社會福利開支具體資助哪些服務？',['醫療、失業援助、退休金和住房援助','只資助軍艦與新裝備','只資助體育比賽','只資助私人廣告'],'原文列四項日常服務，說明福利不是空泛標籤。'),
+  Q('家庭無法負擔藥物、租金或食物時，作者指出甚麼可能後果？',['私人困境可能擴大為公共秩序混亂、犯罪與社會分裂','人人必然即時犯罪','醫院會自動解決所有財政問題','只影響家庭，不可能影響社會'],'can spill over into 是可能的擴散機制，非必然犯罪。'),
+  Q('失業工人正反例子說明臨時支援有何作用？',['提供時間重新培訓和找工作，避免可能的債務及被迫搬遷','保證人人立即找到高薪工作','使工作技能變得無用','讓失業者永久不必再工作'],'has time to retrain；Without that safety net...may face。'),
+  Q('作者是否否認軍隊能保護邊境？',['沒有；軍隊可能護邊境，但不能替代教育、醫療和長者支援','有；作者說軍隊完全沒有功能','沒有；所以作者支持削掉所有社會服務','作者完全沒有提邊境'],'may protect borders, but it cannot... 公平承認並界定功能。'),
+  Q('「強盾保護脆弱社會」比喻批評甚麼？',['只顧外部防衛，忽視使居民健康、有能力且信任政府的內部基礎','所有盾牌都會傷害人民','醫療應只在戰時運作','國家只需要更多武器'],'strong shield around a weak society 對照外部與內部。'),
+  Q('作者的「真正公共安全」包含甚麼？',['安全邊境，以及健康、受教育和免於極端困境的居民','只有國防裝備','只有福利，邊境完全無關','只有居民收入，與教育醫療無關'],'not only...but also... 明列兩類來源。'),
+];
+const logic=[
+  sequence('第一主體段：為何削福利可能使社會更不安全？',[
+    ['主張','削福利可能使社會更不安全。'],
+    ['具體服務','醫療、失業、退休和住房支援並非奢侈品。'],
+    ['擴散機制','基本需要未獲滿足，私人困境可能蔓延為公共問題。'],
+    ['人物對照','失業者有臨時支援可再培訓；缺安全網或負債、失屋。'],
+    ['段落收束','社會福利亦是國內安全的一種形式。'],
+  ],'福利服務 → 減少絕望與擴散風險 → 失業者對照 → 國內安全。'),
+  sequence('第二主體段：為何過度軍費可能削弱國家？',[
+    ['主張','過度軍費擠壓日常服務時，資金可能用得不好。'],
+    ['功能區分','軍隊可護邊境，但不能教育、治病或支援獨居長者。'],
+    ['內部效益','服務培養健康勞動者、能幹青年及社區信任。'],
+    ['比喻與例子','強盾不應包着脆弱社會；醫院缺款而軍費擴張會傷害信任。'],
+    ['回到題目','安全不只靠邊境，也靠居民免於極端困境。'],
+  ],'軍費擠壓 → 服務功能不可替代 → 內部力量 → 更廣的安全概念。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const transfer=[
+  T('某市增加警車預算，準備完全取消失業者的短期培訓支援。','哪項最符合文章對安全的理解？',['比較警務作用與支援失業者防止困境擴散的作用，不應假設兩者必然互斥','只要警車增加，所有失業問題必然消失','短期支援與公共安全完全無關','任何警務開支都必然沒有價值'],['原文承認外部防護，亦指出福利有國內安全作用。','推論過度。','忽略擴散機制。','原文未否定保護作用。'],[2,3,4,5,6,7,8,9],'safety is not created by weapons alone。'),
+  T('一名工人失業後得到三個月支援，期間學新技能；另一人沒有支援，因欠租被迫搬走。','這個對照支持哪條推理？',['臨時安全網提供重新就業時間，亦可能減少長遠社會困境','有支援者必然立即獲得高薪工作','無支援者必然犯罪','培訓和住房與安全毫無關係'],['正反例子顯示支援的過渡作用及缺失風險。','原文沒有保證。','may 不可改必然。','文章將私人與公共相連。'],[6,7,8,9],'temporary support...has time to retrain；Without...may face。'),
+  T('政府想減少對獨居長者的探訪服務，以購買更新防衛設備。','哪項評估最忠於本文？',['設備或有邊境作用，但不能替代長者日常照顧與社區信任','設備更新必然完成所有社會服務','長者支援必然屬奢侈品','只要和平，任何安全議題都不存在'],['may protect...but cannot... 指功能界線。','忽略服務差異。','與文章相反。','和平時期仍有需求。'],[10,11,12,14],'may protect borders, but it cannot...support elderly citizens。'),
+  T('學校想用所有輔導經費建新門禁設備。','哪個問題能避免只看外部防護？',['門禁及輔導各自保護學生甚麼需要；削輔導會否使校內問題惡化？','哪個項目名稱更威風？','門禁是否能自動解決學生心理困難？','能否完全不看實際用途？'],['以內部與外部安全作功能比較。','名稱不是成效。','無法保證。','原文要求看具體服務。'],[2,3,4,5,10,11,13],'strong shield around a weak society。'),
+  T('一個家庭負擔不起藥物和租金，問題逐漸影響鄰里。','哪條因果鏈最貼近原文？',['基本需要未獲滿足，私人困境可能擴大為公共問題','私人困境必然永不影響其他人','家庭困難只由武器不足造成','每個困難家庭必然犯罪'],['When...can spill over into... 保留可能性。','忽略擴散。','原文談民生。','can 非必然。'],[3,4,5,6],'private hardship can spill over into public disorder。'),
+  T('某城要在公共交通與豪華辦公樓之間分配有限資金。','何時可用「crowds out」這種推理？',['當較大開支擠走居民每日依賴的交通服務時','只要兩項開支同時存在就必然可用','任何新建築都必然浪費','交通服務完全不需資金'],['when 明確限定擠壓條件。','須證明擠壓。','不能絕對化。','與題設相反。'],[10,11,12],'when it crowds out services...every day。'),
+  T('有人說：「國家安全只等於邊境沒被攻擊。」','文章會如何修正？',['邊境安全重要，居民健康、教育與免於極端困境也構成公共安全','邊境完全不需保護','福利開支可保證永無任何風險','只要裝備新，居民自然健康'],['not only...but also... 擴大概念但保留邊境。','原文承認護邊。','沒有保證。','缺乏機制。'],[2,11,16,17],'True public safety is broader than military protection。'),
+  T('某區有華麗的消防總部，卻長期削減消防員訓練和居民防火教育。','哪個比喻最適合提醒決策者？',['不要在薄弱的內部能力外建造看似強大的盾牌','總部越漂亮，火災必然越少','訓練與社區安全無關','只看建築外觀便知道系統強弱'],['strong shield around weak society 可跨領域指表面與基礎。','沒有因果保證。','原文重視內部服務。','外觀不足。'],[12,13],'strong shield around a weak society。'),
+  T('某政策報告只列武器數量，卻沒看居民是否能看病、上學與安居。','哪項指標組合更完整？',['同時檢查邊境保護、健康、教育與極端困境風險','只看武器數量','只看報告篇幅','任何民生指標都應排除'],['結論明列兩類安全來源。','過於狹窄。','與安全無關。','忽略內部安全。'],[2,11,12,16,17],'not only from secure borders, but also from citizens...'),
+  T('有議員說：「國防增加是好事，所以削減住房援助一定合理。」','哪項回應最精確？',['國防或有作用，但仍須證明削減住房援助不會損害居民安全','只要國防有用，其他服務必然無用','住房支援不能影響穩定','任何軍費都應立即取消'],['本文反對以削福利作為增軍費的資金來源。','假設錯誤。','福利支撐穩定。','原文承認邊境作用。'],[1,2,3,4,5,15,16,17],'finance higher defence spending by cutting social benefits。'),
+  T('醫院資金不足，但大型設備工程繼續擴張。','哪項後果與文章例子最接近？',['居民可能覺得領導者忽視他們的日常需要，即使沒有危機','居民必然對政府更信任','醫院有沒有錢與居民感受無關','所有設備工程都必須永遠停止'],['if...while...may feel 指預算對照與可能感受。','與例子相反。','文章說可能被拋棄。','不能由例子推至全部。'],[10,12,13,14],'if hospitals are underfunded while defence projects expand...'),
+  T('要用一句話概括全文。','哪項最準確？',['作者反對削福利增軍費：福利可防止困境擴散，日常服務使國家從內部更強大','作者認為任何邊境保護都沒有作用','作者支持把所有福利預算轉給國防','作者只討論武器種類，不談居民生活'],['包含立場及兩段不同理由。','原文承認軍隊可護邊。','與立場相反。','忽略福利與內部力量。'],[2,3,4,5,6,9,10,11,12,13,15,16,17],'social benefits...domestic security；strengthen from within。'),
+];
+const reviewedExamples={
+  0:'In every country, public health is one of the main duties of government.',
+  1:'Some argue that good education requires longer classes and stricter homework.',
+  2:'I completely disagree with this view, because success is not created by talent alone; it also depends on practice.',
+  3:'First, cutting street lights can make night travel less safe, not more.',
+  4:'A local tax funds schools, roads, and clinics.',
+  6:'When rent rises suddenly, problems that begin as private debt can spill over into community hardship.',
+  10:'Second, a large new stadium can become a burden when it crowds out local health services.',
+  15:'In conclusion, I do not agree that local councils should finance luxury offices by cutting home-care services.',
+};
+for(const [index,example] of Object.entries(reviewedExamples))structures[Number(index)].example=example;
+const reviewedTransfer=[
+  [
+    ['警務與就業支援都可能防止困境，應比較兩者成效','只看新增警車數量，未衡量失業者支援的作用','只保留培訓開支，便認為警務完全沒有需要','按哪項宣傳較響亮分款，不查居民安全結果'],
+    ['安全不只有外部防護，也包括防止困境擴散。','警車數量未衡量另一服務的安全作用。','支援就業不要求否定警務需要。','宣傳聲量不是實際安全效益。']
+  ],
+  [
+    ['短期支援給再就業時間，也可減少後續社會困境','只比較兩人的失業日數，未看支援後能否學技能','因一人欠租搬走，便認定所有短期援助都無效','只算支援金額，未檢查能否避免住房與就業危機'],
+    ['安全網讓人有時間調整，或免於更嚴重的後果。','失業日數不足以看出支援的轉變作用。','個別無援助後果不證明援助無效。','支出應與預防困境的效果一同看。']
+  ],
+  [
+    ['設備或護邊境，仍須衡量長者照顧和社區信任','只比較防衛設備新舊，不查長者是否仍獲探訪','因探訪有益，便認為邊境防護完全不再重要','只看購買設備的成本，未估計失去照顧的影響'],
+    ['外部防護有用，也不可忽視居民日常需要。','設備規格未涵蓋照顧與社區信任。','原文沒有否定所有防衛支出。','省下一方開支可能令另一方受損。']
+  ],
+  [
+    ['同看門禁與輔導保護甚麼，及削輔導的代價','只看門禁能否擋陌生人，未查學生心理需要','只看輔導預算多少，未估計校園進出風險','先建設備再取消輔導，不追蹤校內問題變化'],
+    ['外部防護和校內支援要按各自作用比較。','門禁未處理校內情緒與關係。','輔導重要也不等於門禁沒有用途。','取消支援後的後果仍須評估。']
+  ],
+  [
+    ['基本需要未獲滿足，私人困境或擴成公共問題','只把欠租當個人過失，不查醫療與住房障礙','只看鄰里是否抱怨，未查家庭的基本需要','因問題先在家中出現，便認定與社區完全無關'],
+    ['個人困境若不處理，可能產生更廣的社會影響。','情境中的藥物和租金需要不能被忽略。','抱怨不足以說明問題來源和規模。','私人起點不代表後果永遠只留在家中。']
+  ],
+  [
+    ['大型工程擠走居民每日依賴的交通服務時','只看辦公樓落成時間，未查公交通勤是否受影響','只比較樓宇設計，未衡量原有交通服務的作用','因工程規模較大，便認定居民會自動得到好處'],
+    ['crowds out 指資源轉移令另一項必要服務被壓縮。','完工時間沒有顯示被擠走的服務。','設計未回答居民日常需要。','規模大不保證對居民有益。']
+  ],
+  [
+    ['安全包括邊境，也包括健康、教育及免於極端困境','只看邊境有否被攻擊，不查居民能否看病上學','只看醫療服務，便認定邊境防護不再有用','只算國防設備數量，不問居民日常安全需要'],
+    ['外部安全和居民生活基礎共同構成安全。','邊境只是安全的一部分。','居民服務重要也不取消外部防護。','設備數字未涵蓋健康與困境。']
+  ],
+  [
+    ['華麗外殼不能代替消防訓練與居民防火能力','只看總部外觀，便認為消防員已具足夠訓練','只修總部設備，不查居民是否知道如何防火','因總部華麗，便停止檢查日常救援與教育'],
+    ['外部形象不能替代內部服務能力。','建築外觀不能證明消防員熟練。','設備之外還要看居民防火知識。','華麗總部不保證實際安全。']
+  ],
+  [
+    ['同查邊境保護、居民健康、教育與困境風險','只數武器數量，不查居民是否能求醫與上學','只看醫院床位，未問邊境與住房是否安全','只列教育支出，不評估家庭是否陷入極端困境'],
+    ['安全評估需同時涵蓋外部和日常生活。','武器數量不足以代表居民整體安全。','醫療只是多項條件之一。','教育金額未涵蓋全部生活風險。']
+  ],
+  [
+    ['增國防或有益，仍須查削住房援助會否損害安全','只證明國防需要增加，未估計失房者的生活風險','只看住房援助開支，便判定國防完全沒有作用','因國防有益，便認定所有福利削減都必然合理'],
+    ['一方有用不使另一方的損失自動合理。','住房支援若減少，後果仍須檢查。','原文承認國防有一定作用。','不能由國防有益直接推出每項削福利都可行。']
+  ],
+  [
+    ['設備擴張擠走醫院服務，居民或感到需要被忽略','只看設備完工進度，不查醫院等候時間有否增加','只問居民是否喜歡新設備，未查日常醫療需求','因尚未有危機，便斷定削醫院經費不會傷人'],
+    ['日常服務被擠走，可能削弱居民的信任和安全。','工程進度未反映醫療服務受到的影響。','喜好不能代替醫療可及性。','沒有即時危機仍可能累積風險。']
+  ],
+  [
+    ['反對削福利增軍費：福利與日常服務也能強化國家','只談國防設備增加，未看福利如何減少居民困境','只保留福利支出，便認定任何軍事防護都無用','只比較兩種預算數字，未評估對人民安全的作用'],
+    ['作者反對削福利作軍費，因安全也來自社會內部。','設備增加不能說明削福利的代價。','文章承認國防仍有其作用。','金額要連到可觀察的安全後果。']
+  ],
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{
+  transfer[i].options=options;
+  transfer[i].explanations=explanations;
+  transfer[i].why=explanations[0];
+});
+export default {
+  key:'opinion:52',
+  meta:{topic:'國防開支與社會福利的安全取捨',summary:'作者完全反對以削減社會福利來增加國防開支。福利資助醫療、失業、退休與住房，防止私人困境擴散為公共問題；過度軍費若擠壓教育醫療，可能削弱國家內部力量。國防可保護邊境，但真正安全還包括健康、教育與免於極端困境的居民。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,mediumExtras:[],
+};

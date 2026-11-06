@@ -1,0 +1,1775 @@
+{
+  "id": "p1-043-ancient-chinese-chariots",
+  "catalogueId": "p1-043",
+  "catalogueIds": [
+    "p1-043"
+  ],
+  "passage": 1,
+  "title": "Ancient Chinese Chariots",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "elm",
+    "oil",
+    "thirty-two",
+    "cone",
+    "struts",
+    "bronze",
+    "neck",
+    "sand",
+    "underground caverns"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“When discovered, the written records of the grave goods proved to be accurate.”",
+      "translation": "墓葬被發現後，關於陪葬品的書面記錄證明是準確的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 written records 和 grave goods 的關係。要判斷原文是否說出土陪葬品和書面記錄互相吻合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Tomb of Fu Hao is an archaeological site at Yinxu, the ruins of Yin, the ancient capital of the Shang Dynasty, within the modern city of Anyang in Henan Province, China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fu Hao 墓是位於 Yinxu 的一處考古遺址；Yinxu 是 Yin 的遺址，即商代古都，位於今天中國河南省安陽市內。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beneath the body was a small pit containing the remains of six sacrificial dogs, while along the edge lay the skeletons of human slaves—evidence of human sacrifice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "屍身下方有一個小坑，內有六隻祭祀犬的遺骸；邊緣則躺著人奴的骨架，這是人祭的證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 B 段會講 Fu Hao 墓的位置、墓主身份、出土物和祭祀遺跡。題目中的grave goods 和 written records 都屬於墓葬考古內容，因此 B 段是合理定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “written records” 和 “grave goods”。原文沒有直接寫 “written records of the grave goods”，但有 “oracle texts” 和 “grave goods are confirmed”。掃描 B 段可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artefacts unearthed from the grave included objects made of jade, bone and bronze. These grave goods are confirmed by the oracle texts...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含出土物、grave goods 和 oracle texts，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These grave goods are confirmed by the oracle texts, which constitute almost all of the first-hand written record we possess of the Shang Dynasty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些陪葬品得到甲骨文文本確認；這些甲骨文構成我們所擁有的幾乎全部商代第一手書面記錄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “These grave goods” 指前一句的 jade、bone、bronze objects。 “oracle texts” 是 Shang Dynasty 的 first-hand written record。題目說 written records proved to be accurate，原文說grave goods are confirmed by oracle texts，意思是考古出土物和書面記錄相互吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “written records”= 原文 “oracle texts” / “first-hand written record”題目 “grave goods”= 原文 “These grave goods”題目 “proved to be accurate”= 原文 “are confirmed”判斷：原文支持題目方向，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有逐字使用 oracle texts，學生可能找不到 “written records”。做這題時要把 oracle texts看成 Shang Dynasty 的第一手書面記錄，再連回 confirmed 這個動詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Human skeletons in the Anyang tomb were identified as soldiers killed in war.”",
+      "translation": "安陽墓中的人類骨架被確認為戰死士兵。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩個重點：human skeletons 的身份，以及死亡原因或語境。要看原文是否把它們描述為 soldiers killed in war。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Tomb of Fu Hao is an archaeological site at Yinxu, the ruins of Yin, the ancient capital of the Shang Dynasty, within the modern city of Anyang in Henan Province, China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fu Hao 墓是位於 Yinxu 的一處考古遺址；Yinxu 是 Yin 的遺址，即商代古都，位於今天中國河南省安陽市內。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beneath the body was a small pit containing the remains of six sacrificial dogs, while along the edge lay the skeletons of human slaves—evidence of human sacrifice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "屍身下方有一個小坑，內有六隻祭祀犬的遺骸；邊緣則躺著人奴的骨架，這是人祭的證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段很可能提供 human skeletons 的身份和墓葬語境。最後一句直接出現 skeletons，因此它就是本題的答案句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Human skeletons”、“Anyang tomb”、“soldiers killed in war”。原文中對應到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“skeletons of human slaves” 和 “human sacrifice”。雖然 A 段提到 weapons of war，但 B 段處理的是 Fu Hao 墓邊緣的人骨。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“...along the edge lay the skeletons of human slaves—evidence of human sacrifice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……沿著墓邊躺著人奴的骨架，這是人祭的證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Human skeletons = soldiers killed in war.原文命題： Human skeletons = human slaves；語境 = human sacrifice.比較結果：題目把人骨身份改成 soldiers，又把死亡語境改成 killed in war。原文提供了明確不同的身份和語境：human slaves 與 human sacrifice。這已經構成直接衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段出現 “weapons of war”，容易令學生聯想到戰爭和士兵。可是 Question 2 問的是 B 段墓中人骨。真正控制答案的是 “human slaves” 和 “human sacrifice”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Terracotta Army was discovered by local people by chance.”",
+      "translation": "兵馬俑是由當地人偶然發現的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要核對三項資訊：Terracotta Army、local people、by chance。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Terracotta Army was discovered on 29 March 1974, east of Xi’an in Shaanxi.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兵馬俑於 1974 年 3 月 29 日在陝西西安以東被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each was designed for two people and had its axle sawn through so that it could be brought along the narrow corridor into the tomb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每輛車都設計供兩人使用，車軸被鋸開，以便沿著狹窄走廊帶入墓中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 C 段前半講兵馬俑的發現，後半轉到 Tutankhamun 墓中的 chariots。題目問兵馬俑如何被發現，因此段首附近就是目標位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Terracotta Army”、“local people”、“by chance”。原文對應 “Local farmers found...”和 “by chance”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Local farmers found the terracotta soldiers by chance while digging a well during a drought...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當地農民在乾旱期間挖井時，偶然發現了這些兵馬俑士兵。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “local people”= 原文 “Local farmers”題目 “by chance”= 原文 “by chance”題目 “Terracotta Army was discovered”= 原文 “found the terracotta soldiers”原文和題目方向完全一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “Terracotta Army”，原文答案句用 “terracotta soldiers”。這是整體名稱和具體成員之間的改寫；不要因為 soldier 和 army 不同字就懷疑答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“King Tutankhamun’s tomb is larger than Emperor Qin’s tomb.”",
+      "translation": "Tutankhamun 國王的墓比秦始皇的墓大。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要求比較兩個墓的大小：Tutankhamun’s tomb 和Emperor Qin’s tomb。要有直接或可嚴格推出的大小比較才可選 TRUE 或 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看可能段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C 和 Paragraph F Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Terracotta Army was discovered on 29 March 1974, east of Xi’an in Shaanxi.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兵馬俑於 1974 年 3 月 29 日在陝西西安以東被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each was designed for two people and had its axle sawn through so that it could be brought along the narrow corridor into the tomb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每輛車都設計供兩人使用，車軸被鋸開，以便沿著狹窄走廊帶入墓中。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The advantages offered by the new chariots were not lost on the Warring States, whose conflicts continued until the Qin unification of China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新式戰車帶來的優勢沒有被戰國各國忽視；這些衝突一直持續到秦統一中國。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ancient Chinese, like many peoples including the ancient Egyptians, believed that objects and even people buried with a person could accompany that person into the afterlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古代中國人和包括古埃及人在內的許多民族一樣，相信與死者一同埋葬的物品，甚至人，可以陪伴死者進入來世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首尾句，可以估計 C 段提到 Tutankhamun chariots，F 段提到 Qin Shi Huang 的tomb complex 和 afterlife belief。題目要求大小比較，所以需要跨段檢查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Tutankhamun” 和 “Qin Shi Huang”。C 段有 Tutankhamun；F 段有 Qin Shi Huang。還要掃描比較詞：larger、smaller、bigger、size、more spacious 等。文章沒有提供這類直接比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "C 段相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, the burial of Tutankhamun yielded six complete but dismantled chariots of unparalleled richness and sophistication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，Tutankhamun 的墓葬出土了六輛完整但被拆開的戰車，其華麗與精巧程度無與倫比。"
+            },
+            {
+              "kind": "label",
+              "text": "F 段相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Qin Shi Huang was buried in the most opulent tomb complex ever constructed in China, a sprawling, city-sized collection of underground caverns containing everything the emperor would need for the afterlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "秦始皇被埋葬在中國有史以來最奢華的陵墓建築群中；那是一個龐大、如城市般大小的地下洞室集合，內有皇帝來世所需的一切。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了： Tutankhamun 墓中出土六輛戰車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "秦始皇陵是中國最奢華的陵墓建築群，規模如城市般大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供： Tutankhamun 墓的整體大小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tutankhamun 墓與秦始皇陵的尺寸比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tutankhamun’s tomb > Qin’s tomb 這種關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章有相關背景，但缺少題目要求的大小比較。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“By contrast” 容易令人以為文章正在全面比較兩個墓。細讀後可見，原文比較的是 chariot burial/ chariot richness，不是兩個 tomb 的整體大小。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "elm",
+      "answerKey": "elm",
+      "type": "Notes Completion",
+      "prompt": "“The hub is made from the wood of the 5 ______ tree.”",
+      "translation": "車輪的 hub 是由 ______ 樹的木材製成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前有 “wood of the”，後面有 “tree”，因此答案應是樹種名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Excavations of ancient Chinese chariots have confirmed the descriptions in the earliest texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古代中國戰車的發掘已確認最早文本中的描述。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leather was wrapped around the edge of the wheel to retain the bronze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "皮革被包在車輪邊緣，以保留青銅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 D 段會細講古代中國戰車的結構和車輪製作。題目問 hub 的材料，正好屬於本段技術細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “hub”。原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“elm provided the hub”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wheels were constructed from a variety of woods: elm provided the hub, rosewood the spokes and oak the felloes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "車輪由多種木材製成：榆木用於 hub，玫瑰木用於 spokes，橡木用於 felloes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “wood of the ___ tree” 把 “elm provided the hub” 改成材料填空。答案是 elm，一個字，符合ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句同時有 elm、rosewood、oak。題目問 hub，所以只可填 elm；rosewood 對應 spokes，oak對應 felloes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "oil",
+      "answerKey": "oil",
+      "type": "Notes Completion",
+      "prompt": "“The hole through the hub held a tapering axle, which was wrapped in leather to retain 6______.”",
+      "translation": "穿過 hub 的孔容納一條逐漸變細的 axle，外面包皮革以保留 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前是 retain，答案應是被保留的物質。題目限制 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Excavations of ancient Chinese chariots have confirmed the descriptions in the earliest texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古代中國戰車的發掘已確認最早文本中的描述。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leather was wrapped around the edge of the wheel to retain the bronze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "皮革被包在車輪邊緣，以保留青銅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段會連續描述車輪部件和保護材料。題目提到 hub、axle、leather，很明顯要在 D 段前半段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “tapering axle” 和 “retain”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the tapering axle was fitted, and the whole was covered with leather to retain lubricating oil.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The hub was drilled through to form an empty space into which the tapering axle was fitted, and the whole was covered with leather to retain lubricating oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hub 被鑽穿，形成一個空間，讓逐漸變細的 axle 裝入其中；整個部分再用皮革覆蓋，以保留潤滑油。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完整短語是 “lubricating oil”。題目限制 ONE WORD，因此不能填兩個字。保留的核心物質是oil。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “wrapped in leather”= 原文 “covered with leather”題目 “retain”= 原文 “retain”答案是 oil。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果題目允許 TWO WORDS，lubricating oil 會更完整。這裡題目明確要求 ONE WORD，所以答案應寫 oil。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "thirty-two",
+      "answerKey": "thirty-two",
+      "type": "Notes Completion",
+      "prompt": "“The number of spokes varied from 18 to 7 ______.”",
+      "translation": "spokes 的數量由 18 到 ______ 不等。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前有 “from 18 to”，答案應是數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Excavations of ancient Chinese chariots have confirmed the descriptions in the earliest texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古代中國戰車的發掘已確認最早文本中的描述。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leather was wrapped around the edge of the wheel to retain the bronze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "皮革被包在車輪邊緣，以保留青銅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段是車輪結構段，spokes 是車輪主要部件之一。題目問數量範圍，應在提到 spokes 後不久找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “spokes” 和 “18”。原文寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“by the fourth century BCE a wheel usually had between eighteen and thirty-two.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the number of spokes varied, by the fourth century BCE a wheel usually had between eighteen and thirty-two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 spokes 的數量有所不同，但到公元前四世紀，一個車輪通常有十八至三十二根 spokes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 eighteen 改成 18，並要求填另一端數字。答案是 thirty-two。以 hyphen 連接時通常視作一個詞，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “fourth century BCE”。這是時間；題目空格位於 from 18 to ___，需要數量上限。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "cone",
+      "answerKey": "cone",
+      "type": "Notes Completion",
+      "prompt": "“The shape of the wheel resembles a 8 ______.”",
+      "translation": "車輪的形狀像一個 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前有 “a”，答案應是單數名詞。題目限制 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Excavations of ancient Chinese chariots have confirmed the descriptions in the earliest texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古代中國戰車的發掘已確認最早文本中的描述。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leather was wrapped around the edge of the wheel to retain the bronze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "皮革被包在車輪邊緣，以保留青銅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段後半轉到 wheel 的 constructional feature，尤其是 dishing。題目問 shape resembles，應找resembles 這個原文詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “shape” 和 “resembles”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“which resembles a flat cone.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This refers to the dish-like shape of an advanced wooden wheel, which resembles a flat cone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這指的是高級木輪的碟狀形態，看起來像一個扁平圓錐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完整答案是 “flat cone”。可是題目限制 ONE WORD，且空格前有 “a”，所以應填核心名詞cone。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “The shape of the wheel resembles...”= 原文 “dish-like shape ... resembles...”答案是 cone。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“flat cone” 是原文完整短語，但這裡不能填兩個字。IELTS completion 題要先服從字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "struts",
+      "answerKey": "struts",
+      "type": "Notes Completion",
+      "prompt": "“Two 9 ______ were used to strengthen the wheel.”",
+      "translation": "兩個 ______ 被用來加固車輪。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格前是 Two，所以答案應是複數名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Excavations of ancient Chinese chariots have confirmed the descriptions in the earliest texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古代中國戰車的發掘已確認最早文本中的描述。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leather was wrapped around the edge of the wheel to retain the bronze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "皮革被包在車輪邊緣，以保留青銅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段後半講 dished wheel 的加固方法。題目問 strengthen the wheel，應找 strengthened 或supports。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “strengthen”。原文寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“wheelwrights strengthened a dished wheel with a pair of struts...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On occasion, wheelwrights strengthened a dished wheel with a pair of struts running from rim to rim on either side of the hub.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時，造輪工會用一對 struts 加固碟狀車輪；這對支撐件從輪緣一側延伸到另一側，位於 hub 的兩邊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Two” 對應原文 “a pair of”。被用來加固車輪的是 struts。由於題目是 Two ___，答案要用複數 struts。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 supports。原文下一句有 “these extra supports”，但題目要求 ONE WORD from passage。最直接名稱是 struts；supports 是後文對它們功能的概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "bronze",
+      "answerKey": "bronze",
+      "type": "Notes Completion",
+      "prompt": "“Leather was wrapped around the edge of the wheel to retain 10 ______.”",
+      "translation": "皮革包在車輪邊緣，用來保留 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。題目幾乎直接重現段落最後一句，答案應是被 retain 的物質。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Excavations of ancient Chinese chariots have confirmed the descriptions in the earliest texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古代中國戰車的發掘已確認最早文本中的描述。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leather was wrapped around the edge of the wheel to retain the bronze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "皮革被包在車輪邊緣，以保留青銅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題直接來自 D 段最後一句。首尾句也顯示本段講車輪結構細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Leather”、“edge of the wheel”、“retain”。三個詞都在原文最後一句中重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leather was wrapped around the edge of the wheel to retain the bronze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "皮革被包在車輪邊緣，以保留青銅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目與原文幾乎相同，空格後答案就是 bronze。它是一個字，符合 ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Q6 也有 leather 和 retain，但那裡保留的是 lubricating oil；Q10 的位置是 edge of the wheel，答案是 bronze。相同詞重現時，要看包在哪個部位。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "neck",
+      "answerKey": "neck",
+      "type": "Short-answer Questions",
+      "prompt": "“From which part of a horse’s body did the shaft-chariot design remove pressure?”",
+      "translation": "shaft-chariot 設計把壓力從馬身體哪個部位移走？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。問題問 From which part，即要回答身體部位。答案不能超過三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within a millennium, however, Chinese chariot-makers had developed a vehicle with shafts, the precursor of the true carriage or cart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在一千年內，中國戰車製造者已發展出有 shafts 的車輛，這是真正 carriage 或 cart 的前身。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At full speed, such passes were very dangerous for the crews of both chariots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在全速下，這種擦身而過對兩輛戰車的車組人員都十分危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段講 shaft chariot 的設計、效率和戰場使用。題目問 shaft-chariot design，因此 E 段是直接定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “shaft-chariot design” 和 “pressure”。原文沒有 pressure 這個名詞，但有 “harness pressed against...” 這個動作。掃描時要找 shafts、harness、shoulders、neck。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because the shafts curved upwards and the harness pressed against a horse’s shoulders rather than its neck, the shaft chariot was extremely efficient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 shafts 向上彎曲，harness 壓在馬的肩部，而非頸部，因此 shaft chariot 非常高效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 remove pressure from which part。原文說壓力由 neck 轉到 shoulders。題目要的是被移走壓力的部位，所以答案是 neck。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “remove pressure”= 原文 “pressed against ... shoulders rather than its neck”題目 “from which part”= 原文 “rather than its neck”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "shoulders 很容易吸引人，因為原文說 harness pressed against a horse’s shoulders。可是題目問壓力從哪裡移走；正確部位是 neck。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "sand",
+      "answerKey": "sand",
+      "type": "Short-answer Questions",
+      "prompt": "“On what kind of surface did researchers measure the chariot’s speed?”",
+      "translation": "研究者在甚麼表面上測量戰車速度？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。問題問 surface，答案應是一種地面或材料。不能超過三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within a millennium, however, Chinese chariot-makers had developed a vehicle with shafts, the precursor of the true carriage or cart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在一千年內，中國戰車製造者已發展出有 shafts 的車輛，這是真正 carriage 或 cart 的前身。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At full speed, such passes were very dangerous for the crews of both chariots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在全速下，這種擦身而過對兩輛戰車的車組人員都十分危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段後半會談戰車速度和危險程度。題目問 speed measured on what surface，應在本段後半找 tests 或 speed。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “speed” 和 “surface”。原文直接有 “Tests on sand showed that the chariot was quite fast.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tests on sand showed that the chariot was quite fast.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在沙地上的測試顯示，這種戰車相當快速。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “measure the chariot’s speed” 對應原文 “Tests ... showed that the chariot was quite fast”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "測試表面是 sand，所以答案是 sand。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “full speed”。full speed 出現在下一句，描述危險情況；題目問測試表面，答案要找 “on sand”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "underground caverns",
+      "answerKey": "underground caverns",
+      "type": "Short-answer Questions",
+      "prompt": "“In what part of his afterlife complex was Emperor Qin Shi Huang buried?”",
+      "translation": "秦始皇被埋葬在其來世建築群中的哪個部分？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。問題問 “in what part”，答案應是地點名詞短語。不能超過三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The advantages offered by the new chariots were not lost on the Warring States, whose conflicts continued until the Qin unification of China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新式戰車帶來的優勢沒有被戰國各國忽視；這些衝突一直持續到秦統一中國。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ancient Chinese, like many peoples including the ancient Egyptians, believed that objects and even people buried with a person could accompany that person into the afterlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古代中國人和包括古埃及人在內的許多民族一樣，相信與死者一同埋葬的物品，甚至人，可以陪伴死者進入來世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 F 段把 Warring States、Qin unification、Qin Shi Huang 的墓葬和 afterlife belief 連起來。題目直接問 Emperor Qin Shi Huang 和 afterlife complex，所以 F 段是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Qin Shi Huang” 和 “afterlife complex”。原文直接提到 “Qin Shi Huang was buried...”以及 “underground caverns containing everything the emperor would need for the afterlife.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Qin Shi Huang was buried in the most opulent tomb complex ever constructed in China, a sprawling, city-sized collection of underground caverns containing everything the emperor would need for the afterlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "秦始皇被埋葬在中國有史以來最奢華的陵墓建築群中；那是一個龐大、如城市般大小的地下洞室集合，內有皇帝來世所需的一切。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “tomb complex ... containing everything ... for the afterlife” 概括成 “afterlife complex”。問"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“in what part”，最具體的位置是 “underground caverns”。答案形式： underground caverns兩個字，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“tomb complex” 也在同一句出現，但題目已經用 afterlife complex 概括整個陵墓系統。空格問其中的具體部分，所以 underground caverns 更貼近問題。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "_Question Analysis Website Free Resource - Passage 1 - Ancient Chinese Chariots _.pdf",
+    "sha256": "5dc241367aa517c44b1645f9a22d71b0e4e592cdbf5fb1421fc3b9b48d971f6c",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段第一句介紹 Shang / Yin Dynasty 在 Yellow River valley 的歷史背景，最後一句說 Yin royal tombs、palaces、ritual sites 中有 weapons of war，以及 animal and human sacrifices 的遺跡。只看首尾句，可以先估計本段是背景鋪墊：它先交代朝代和地理位置，再把焦點放到考古發現。這段主要讓讀者知道 Anyang / Ruins of Yin 是商代後期都城遺址，也預告後文會談墓葬、武器和祭祀。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段第一句介紹 Tomb of Fu Hao 位於 Yinxu，即商代古都 Yin 的遺址內。最後一句說墓中有六隻 sacrificial dogs 的遺骸，旁邊還有 human slaves 的骨架，證明 human sacrifice。只看首尾句，可以估計本段重點是 Fu Hao 墓的考古內容：墓主身份、出土 artefacts、oracle texts，以及殉葬人畜。若題目問 grave goods、written records、human skeletons 或 sacrifice，本段會是主要定位段。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段第一句說 Terracotta Army 在 1974 年 3 月 29 日於 Xi’an 以東被發現。最後一句轉到Tutankhamun 的墓，說其中六輛完整但拆開的 chariots 每輛可載兩人，車軸也被鋸開以便帶入墓中。只看首尾句，可以估計本段一方面講兵馬俑如何被偶然發現，另一方面比較秦陵和Tutankhamun 墓中的車輛陪葬品。若題目問 discovery by chance、Terracotta Army 數量或Tutankhamun，應看 C 段。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段第一句說古代中國戰車的 excavations 已確認早期文本中的描述。最後一句說 leather wrapped around the edge of the wheel to retain the bronze。只看首尾句，可以估計本段是技術結構段：它會講古代車輪如何製造，包括 hub、spokes、felloes、axle、leather、lubricating oil、spoke number、dishing、struts 和 bronze。Questions 5–10 幾乎全部來自這段，做題時要按原文技術順序定位。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段第一句說在一千年內，中國戰車製造者已發展出有 shafts 的車輛，這是真正 carriage 或 cart的前身。最後一句說 full speed 下兩車交會對雙方車組都十分危險。只看首尾句，可以估計本段講 shaft chariot 的設計優勢和戰場使用：harness 由壓頸轉為壓肩、效率提高、halberd 成為標準戰車武器，並提到在 sand 上測試速度。Questions 11 和 12 會在這段定位。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段第一句說新戰車的優勢被 Warring States 注意到，這些國家衝突一直持續到秦統一中國。最後一句說古代中國人和古埃及人一樣，相信隨葬的物品甚至人物可以陪伴死者進入 afterlife。只看首尾句，可以估計本段把戰車優勢、秦始皇陵和兵馬俑放進死後世界觀中理解。若題目問 Qin Shi Huang、afterlife complex、Terracotta Army 或 underground caverns，應看 F 段。 Answer Key Questio Answer n 1 TRUE 2 FALSE 3 TRUE 4 NOT GIVEN 5 elm 6 oil 7 thirty-two 8 cone 9 struts 10 bronze 11 neck 12 sand 13 underground caverns"
+      }
+    ]
+  }
+}

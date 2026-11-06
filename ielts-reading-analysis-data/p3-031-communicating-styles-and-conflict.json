@@ -1,0 +1,879 @@
+{
+  "id": "p3-031-communicating-styles-and-conflict",
+  "catalogueId": "p3-031",
+  "catalogueIds": [
+    "p3-031"
+  ],
+  "passage": 3,
+  "title": "Communicating Styles and Conflict",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "iii",
+    "vii",
+    "i",
+    "iv",
+    "ix",
+    "viii",
+    "v",
+    "ii",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "iii — Physical explanation",
+      "answerKey": "iii — Physical explanation",
+      "type": "Matching Headings",
+      "prompt": "Question 27",
+      "translation": "早在 Hippocrates 的年代，人們已嘗試根據 personality type 或 temperament 去理解別人。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section A Section A 開頭："
+            },
+            {
+              "kind": "quote",
+              "text": "“As far back as Hippocrates’ time (460–370 BC), people have tried to understand other people by characterizing them according to personality type or temperament.”"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制 heading 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hippocrates believed there were four different body fluids that influenced four basic types of temperament.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hippocrates 相信有四種不同的體液會影響四種基本氣質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的焦點是古人用 body fluids，即身體內的液體，解釋人的 temperament。Heading iii"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Physical explanation” 正好概括這種「用身體因素解釋性格」的歷史觀點。其他 heading 為何不適合： x “Self-assessment determines one’s temperament” 很吸引，因為段落最後提到self-assessment tools。不過 Section A 沒有說 self-assessment 決定 temperament，只是說現代有很多工具和 Galen 的分類有關。因此 iii 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "vii — The benefits of understanding communication styles",
+      "answerKey": "vii — The benefits of understanding communication styles",
+      "type": "Matching Headings",
+      "prompt": "Question 28",
+      "translation": "能辨認人格、學習、溝通和衝突處理風格的自我評估工具，其價值在於它們能幫助人們把人際衝突去個人化。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section B Section B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The value of self-assessments that help identify personality, learning, communication and conflict-handling styles… is that they help depersonalize conflict in interpersonal relationships.”"
+            },
+            {
+              "kind": "label",
+              "text": "段落最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“When used appropriately, understanding communication styles can help resolve conflict on teams.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若使用得當，理解溝通風格可以幫助團隊解決衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B 全段都在說理解 communication styles 的好處：不會把別人的行為直接視為故意冒犯，也能明白別人可能只是資訊需求、工作焦點或處理速度不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 vii。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段有 conflict，但 heading 不是單純 “conflict”。重點是 understanding communication styles 帶來的 benefits。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "i — Summarising personality types",
+      "answerKey": "i — Summarising personality types",
+      "type": "Matching Headings",
+      "prompt": "Question 29",
+      "translation": "Hippocrates 及後來的 Galen 認為有四種基本氣質：sanguine、phlegmatic、melancholic 和choleric。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section C Section C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hippocrates and later Galen determined that there were four basic temperaments: sanguine, phlegmatic, melancholic and choleric.”"
+            },
+            {
+              "kind": "label",
+              "text": "段落最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“In today’s world, they translate into the four fairly common communication styles described below.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在今天，它們可以轉化為下文所描述的四種常見溝通風格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是總結四種 personality / temperament types，並為後面四段逐一介紹四種溝通風格作鋪墊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "iv — A lively person who encourages others",
+      "answerKey": "iv — A lively person who encourages others",
+      "type": "Matching Headings",
+      "prompt": "Question 30",
+      "translation": "sanguine 氣質對應 expressive 或 spirited 的溝通風格。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section D Section D 介紹 sanguine temperament："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sanguine temperament corresponds to the expressive or spirited style of communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "核心證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of their enthusiasm, they are great team motivators.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於他們熱情高漲，他們是很好的團隊激勵者。"
+            },
+            {
+              "kind": "label",
+              "text": "再看其他描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“They invest a lot of emotion and energy in their communication and often speak quickly.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們在溝通中投入很多情感和能量，而且常常說話很快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv “A lively person who encourages others” 對應 lively = emotion and energy /enthusiasm；encourages others = great team motivators。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "ix — Factual and analytical personality",
+      "answerKey": "ix — Factual and analytical personality",
+      "type": "Matching Headings",
+      "prompt": "Question 31",
+      "translation": "這種溝通風格專注於事實和技術細節。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section E Section E 介紹 phlegmatic / technical / systematic style："
+            },
+            {
+              "kind": "quote",
+              "text": "“This style of communication is focused on facts and technical details.”"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phlegmatic people have an orderly, methodical way of approaching tasks…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "phlegmatic people 以有秩序、有方法的方式處理任務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 的 “Factual and analytical personality” 正好概括 facts、technical details、orderly、methodical 這組特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "viii — Cautious and caring",
+      "answerKey": "viii — Cautious and caring",
+      "type": "Matching Headings",
+      "prompt": "Question 32",
+      "translation": "melancholic person 心腸柔軟，傾向為別人做事，對應 considerate 或 sympathetic 的溝通風格。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section F Section F 介紹 melancholic / considerate / sympathetic style。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The melancholic person who is soft-hearted and oriented toward doing things for others translates into the considerate or sympathetic communication style.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 caring 的部分。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 change："
+            },
+            {
+              "kind": "quote",
+              "text": "“They believe that change threatens the status quo and tends to make people feel uneasy…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為改變會威脅現狀，並且容易令人感到不安。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 cautious 的部分：面對 change 會較謹慎，需要時間考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii — Cautious and caring。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "v — Demanding and unsympathetic personality",
+      "answerKey": "v — Demanding and unsympathetic personality",
+      "type": "Matching Headings",
+      "prompt": "Question 33",
+      "translation": "這種風格的人溝通很簡短；字越少越好。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section G Section G 介紹 choleric / bold / direct style。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“People with this style are brief in their communication—the fewer words, the better.”"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are focused on tasks and outcomes and often forget that the people involved in carrying out the tasks have needs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們專注於任務和結果，常常忘記執行任務的人也有需要。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because they are so direct, they often seem forceful and can be very intimidating to others.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為他們非常直接，所以常常顯得很強勢，甚至會令別人感到受威嚇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的用字較負面，但在所有選項中，它最能概括 Section G：task-focused、direct、forceful、intimidating、forget people’s needs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "ii — Combining styles in the workplace",
+      "answerKey": "ii — Combining styles in the workplace",
+      "type": "Matching Headings",
+      "prompt": "Question 34",
+      "translation": "一個運作良好的團隊應該具備所有這些溝通風格，才會真正有效。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section H Section H 第一段核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A well-functioning team should have all of these communication styles to be truly effective.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著原文說團隊需要 task focus，也需要 relationships；需要 big picture，也需要 details。這正是combining styles。"
+            },
+            {
+              "kind": "label",
+              "text": "段落後半還提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work environment can influence communication styles…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "工作環境可以影響溝通風格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 Section H 的主題是：不同溝通風格在工作環境和團隊中如何互補，以及人可以如何發展彈性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It is believed that sanguine people dislike variety.”",
+      "translation": "文章認為 sanguine people 不喜歡變化和多樣性。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section D原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They love change and are constantly looking for new and exciting adventures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們喜歡變化，並且不斷尋找新的、令人興奮的冒險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 dislike variety，即不喜歡變化或多樣性。原文說 love change and new adventures，方向完全相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● 題目：dislike variety● 原文：love change / new and exciting adventures● 判斷：方向相反"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Melancholic and phlegmatic people have similar characteristics.”",
+      "translation": "melancholic people 和 phlegmatic people 有相似特徵。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section F，並需要回看 Section E Section E 說 phlegmatic people："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are not as comfortable with conflict.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們不太習慣衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "Section F 說 melancholic people："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because they are so concerned with the needs of others and smoothing over issues, they do not like conflict.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為他們很關心別人的需要，也希望把問題處理得平順，所以他們不喜歡衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Section F："
+            },
+            {
+              "kind": "quote",
+              "text": "“…people with this communication style, like phlegmatic people, need time to consider the changes in order to adapt to them.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種溝通風格的人和 phlegmatic people 一樣，需要時間考慮變化，才能適應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接出現 “like phlegmatic people”，清楚指出兩者有相似處：不喜歡或不習慣 conflict，面對change 都需要時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Managers often select their best employees according to personality types.”",
+      "translation": "管理者經常根據 personality types 選出最佳員工。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：沒有直接目標段落；可掃描全文與 managers / employees / selection 相關資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章確實談到：● self-assessment tools；● personality / communication styles；● teams；● work environment；● conflict handling。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但原文沒有提到 managers，也沒有說 managers 如何 select their best employees，更沒有說best employees 會根據 personality types 選出。"
+            },
+            {
+              "kind": "label",
+              "text": "相關但不足的原文是 Section H："
+            },
+            {
+              "kind": "quote",
+              "text": "“A well-functioning team should have all of these communication styles to be truly effective.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個運作良好的團隊應該具備所有這些溝通風格，才會真正有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說團隊需要混合不同風格，沒有涉及 managers selecting employees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 workplace、team、effective，就推想 managers 會用 personality types 選人。但IELTS Reading 不能用職場常識補資料。原文沒有 selection / best employees / managers 這三個核心元素。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It is possible to change one’s personality type.”",
+      "translation": "人可以改變自己的 personality type。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section H這題要小心。原文更精確地談的是 communication style 的 flexibility，而題目用 personality type作概括。由於文章一直把古典 temperament 轉化成 modern communication styles，所以這裡可以按「風格可調整」理解。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of us can easily move from one style to another and adapt our style to the needs of the situation at hand…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人可以輕易從一種風格轉到另一種風格，並根據眼前情況的需要調整自己的風格。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The good news about communication styles is that we have the ability to develop flexibility in our styles.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於溝通風格的好消息是，我們有能力發展自己風格上的彈性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句支持：人的溝通風格不是完全固定的，可以 adapt，也可以 develop flexibility。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "精準提醒：題目用 personality type，原文用 communication styles。如果按極度字面理解，原文沒有說「人格本質完全改變」。但在這篇文章的框架中，personality / temperament / communication styles 被連在一起討論，因此考點落在「風格是否可以調整」；原文答案是可以。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Workplace environment can affect which communication style is most effective.”",
+      "translation": "工作環境可以影響哪一種溝通風格最有效。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Section H原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work environment can influence communication styles either by the type of work that is required or by the predominance of one style reflected in that environment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "工作環境可以影響溝通風格，影響方式可以來自工作本身的要求，也可以來自該環境中某一種風格佔主導地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支持 workplace environment can affect communication style。Section H 前面也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A well-functioning team should have all of these communication styles to be truly effective.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個運作良好的團隊需要所有這些溝通風格，才會真正有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以題目把 “work environment can influence communication styles” 概括成 “can affect which communication style is most effective”。在文章語境中，這是合理改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — help people understand colleagues’ behaviour",
+      "answerKey": "B — help people understand colleagues’ behaviour",
+      "type": "Multiple Choice",
+      "prompt": "“The writer believes using self-assessment tools can…”",
+      "translation": "作者認為使用自我評估工具可以……目標段落：Section B Section B 第一個關鍵句：“The value of self-assessments that help identify personality, learning, communication and conflict-handling styles… is that they help depersonalize conflict in interpersonal relationships.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這些自我評估工具的價值，在於它們能幫助人們把人際衝突去個人化。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文解釋 depersonalize conflict 是甚麼："
+            },
+            {
+              "kind": "quote",
+              "text": "“The depersonalization occurs when you realize that others aren’t trying to be difficult, but they need different or more information than you do.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你意識到別人並不是故意難相處，只是比你需要不同或更多資訊時，衝突就會被去個人化。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They’re not intending to be rude; they are so focused on the task they forget about greeting people.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們並沒有打算無禮；他們只是太專注任務，所以忘記打招呼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子清楚說明：self-assessment tools 幫助我們理解同事或團隊成員的行為，不會立刻把對方解讀成 rude、difficult 或 hostile。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A help develop one’s personality"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：幫助發展個人性格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 self-assessment tools 會 develop personality。Section H 說人可以 develop flexibility in communication styles，但 Question 40 問的是 using self-assessment tools 的作用，Section B的重點是理解風格和衝突去個人化。因此 A 不夠準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B help people understand colleagues’ behaviour"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：幫助人們理解同事行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。原文說別人不是故意 difficult，也不是故意 rude；他們可能只是需要更多資訊、專注任務、重視關係或需要時間收集資料。這正是理解 colleagues’ behaviour。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C improve one’s relationship with the employer"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：改善和僱主的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文談 interpersonal relationships 和 teams，沒有特別提到 employer，也沒有說主要改善僱主關係。C 把範圍縮到 employer，缺乏文本支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D directly resolve conflicts"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：直接解決衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When used appropriately, understanding communication styles can help resolve conflict on teams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若使用得當，理解溝通風格可以幫助團隊解決衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有兩個限制：第一，是 understanding communication styles can help，不是 self-assessment tools automatically solve。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，是 used appropriately，表示需要正確使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 “directly resolve conflicts” 太強，超出原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Communicating Styles and Conflict.pdf",
+    "sha256": "2de85a9440c143de9813c242454baea110487d1b7a220537264c39a953821481",
+    "pageCount": 15
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "功能：介紹人格／氣質分類的歷史來源。這段從 Hippocrates 講起，提到古人曾用四種 body fluids 解釋人的 temperament。後來 Galen 發展這套想法。現代已不再相信體液決定性格，但許多 self-assessment tools 仍和 Galen 的基本分類有關。"
+      },
+      {
+        "number": "B",
+        "summary": "功能：說明理解溝通風格的好處。這段指出 self-assessments 的價值：它們能幫助人們把衝突「去個人化」。我們會明白別人不一定是故意難相處，有時只是需要不同資訊、有不同工作焦點或不同溝通習慣。理解溝通風格可以幫助團隊處理衝突。"
+      },
+      {
+        "number": "C",
+        "summary": "功能：總結四種古典 temperament，並引入現代四種 communication styles。這段把 Hippocrates / Galen 的四種 temperaments：sanguine、phlegmatic、melancholic、choleric，轉化成今日常見的四種溝通風格。"
+      },
+      {
+        "number": "D",
+        "summary": "功能：介紹 sanguine / expressive / spirited style。這類人有活力、情感投入、說話快、容易講故事、能鼓勵團隊。他們重視人和關係，喜歡 spirited discussion，也喜歡 change 和新冒險。"
+      },
+      {
+        "number": "E",
+        "summary": "功能：介紹 phlegmatic / technical / systematic style。這類人重視 facts、technical details、orderly methodical approach。他們專注任務和細節，不太習慣 conflict，需要時間理解 change 的邏輯和步驟。"
+      },
+      {
+        "number": "F",
+        "summary": "功能：介紹 melancholic / considerate / sympathetic style。這類人重視 people and relationships，是好聆聽者，會照顧別人感受。他們不喜歡 conflict，認為change 會令人不安，所以和 phlegmatic people 一樣，需要時間適應變化。"
+      },
+      {
+        "number": "G",
+        "summary": "功能：介紹 choleric / bold / direct style。這類人說話簡短直接，重視 task and outcomes，喜歡 big picture，也喜歡同時參與很多事。他們可能忽略別人的需要，顯得 forceful 或 intimidating。他們喜歡挑戰，也非常喜歡 change。"
+      },
+      {
+        "number": "H",
+        "summary": "功能：說明團隊需要混合不同溝通風格，並指出人可以發展風格彈性。這段說 effective team 需要四種風格互補：任務、關係、大局、細節都要兼顧。工作環境也會影響溝通風格。最後指出，人可以 develop flexibility in communication styles，越有彈性，越能處理潛在或實際衝突。"
+      }
+    ]
+  }
+}

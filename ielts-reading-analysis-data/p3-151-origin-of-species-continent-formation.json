@@ -1,0 +1,1098 @@
+{
+  "id": "p3-151-origin-of-species-continent-formation",
+  "catalogueId": "p3-151",
+  "catalogueIds": [
+    "p3-151"
+  ],
+  "passage": 3,
+  "title": "Origin of Species & Continent Formation",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "E",
+    "A",
+    "D",
+    "B",
+    "C",
+    "B",
+    "F",
+    "G",
+    "migrated",
+    "withering skin",
+    "tectonic plates",
+    "dispersalism",
+    "vicarianism"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "E — Lyell and Hooker",
+      "answerKey": "E — Lyell and Hooker",
+      "type": "Matching People",
+      "prompt": "“Urged Darwin to publish his scientific findings”",
+      "translation": "催促 Darwin 發表他的科學發現。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Darwin had been documenting his ideas on natural selection for many years when he received a paper on this selfsame subject from Wallace, who asked for Darwin’s opinion and help in getting it published.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Darwin 多年來一直記錄自己關於自然選擇的想法；這時他收到 Wallace 一篇同樣主題的論文， Wallace 請 Darwin 給意見並幫忙發表。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Presiding over the hastily called but now historic meeting of the Linnean Society in London, Lyell and Hooker explained to the distinguished members how ‘these two gentlemen’ … had‘independently and unknown to one another, conceived the same very ingenious theory.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lyell 和 Hooker 主持了倫敦林奈學會一場倉促召開、如今具歷史意義的會議，並向會員解釋這兩位先生如何彼此不知情地獨立構想出同一個精巧理論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Urged Darwin” 和 “publish”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In July 1858, Charles Lyell and J. D. Hooker, close friends of Darwin, pressed Darwin to present his conclusions so that he would not lose priority to an unknown naturalist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1858 年 7 月，Darwin 的密友 Charles Lyell 和 J. D. Hooker 催促 Darwin 發表自己的結論，以免他把優先權輸給一位不知名的自然學者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “urged” 對應原文 “pressed”；“publish his scientific findings” 對應 “present his"
+            },
+            {
+              "kind": "paragraph",
+              "text": "conclusions”。人物是 Lyell and Hooker，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — Suess",
+      "answerKey": "A — Suess",
+      "type": "Matching People",
+      "prompt": "“Described the physical features of the Earth’s crust.”",
+      "translation": "描述了地殼的物理特徵。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The theory that Wegener dismissed in preference to his own proposed that plants and animals had once migrated across now-submerged intercontinental land bridges.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wegener 放棄並選擇自己理論取代的那個理論主張，動植物曾經跨越如今已沉沒的洲際陸橋遷移。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggested that the planet’s seas and oceans now fill the wrinkles between once-contiguous plateaus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他提出，地球上的海和洋如今填滿了曾經相連的高原之間的皺褶。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Earth’s crust”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eduard Suess, theorized that as the rigid Earth cools, its upper crust shrinks and wrinkles like the withering skin of an aging apple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eduard Suess 提出，當堅硬的地球冷卻時，它的上層地殼會收縮並起皺，就像老蘋果枯萎的外皮。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “physical features of the Earth’s crust”，原文具體描述 “upper crust shrinks and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "wrinkles”。這正是地殼外形和物理狀態的描述。人物是 Suess，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "D — Wegener",
+      "answerKey": "D — Wegener",
+      "type": "Matching People",
+      "prompt": "“Believed in continental drift while rejecting the land-bridge theory”",
+      "translation": "相信大陸漂移，同時拒絕陸橋理論。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his Origin of Continents and Oceans, Wegener quoted at length from Wallace’s Geographical Distribution of Animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wegener 在他的 Origin of Continents and Oceans 中，大量引用 Wallace 的 Geographical Distribution of Animals。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From this and related data, Wegener concluded that the then broadly accepted ‘land-bridge’ theory could not account for this distribution of animals and that only his theory of continental drift could explain it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據這些和相關資料，Wegener 得出結論：當時被廣泛接受的 “land-bridge” 理論無法解釋這種動物分布，只有他的大陸漂移理論能夠解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “continental drift” 和 “land-bridge theory”。這兩個詞在 Paragraph G 最後一句同"
+            },
+            {
+              "kind": "paragraph",
+              "text": "時出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 land-bridge theory “could not account for” 動物分布，意思是 Wegener 認為它解釋"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不了；同一句又說 “only his theory of continental drift could explain it”。題目把這句改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“believed in continental drift while rejecting the land-bridge theory”。人物是 Wegener，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — Wallace",
+      "answerKey": "B — Wallace",
+      "type": "Matching People",
+      "prompt": "“Published work on the distribution of animals in different regions.”",
+      "translation": "出版了關於不同地區動物分布的著作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both Darwin and Wallace had realized that the anomalous distribution of species in particular regions had profound evolutionary significance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Darwin 和 Wallace 都意識到，特定地區物種異常分布具有深遠的演化意義。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In contrast, Wallace applied himself to the science of biogeography, the study of the pattern and distribution of species, and its significance, resulting in the publication of a massive two-volume work, The Geographical Distribution of Animals in 1876.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相較之下，Wallace 投身於生物地理學，即研究物種分布模式及其意義的科學，結果是在 1876年出版了巨著 The Geographical Distribution of Animals，全書兩大卷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Published work” 和 “distribution of animals”。原文直接有 “publication” 和書名"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The Geographical Distribution of Animals”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “work” 指著作；原文的 “massive two-volume work” 明確說 Wallace 出版了兩卷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本作品。書名也直接包含 “Distribution of Animals”。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — Darwin and Wallace",
+      "answerKey": "C — Darwin and Wallace",
+      "type": "Matching People",
+      "prompt": "“Argued that species evolve through natural selection.”",
+      "translation": "主張物種透過自然選擇演化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A 或 C；最直接是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fact that there was once a Pangean supercontinent, a Panthalassa Ocean, and a Tethys Ocean, has profound implications for the evolution of multicellular life on Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "曾經存在 Pangea 超大陸、Panthalassa Ocean 和 Tethys Ocean 這件事，對地球上多細胞生命的演化有深遠影響。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wallace later wrote in My Life of his own inspiration:”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wallace 後來在 My Life 中寫下自己的靈感。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “species evolve” 和 “natural selection”。原文在 Paragraph A 中說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Quite independently of each other, Charles Darwin and his young contemporary Alfred Russel Wallace reached the conclusion that life had evolved by natural selection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Charles Darwin 和年輕的同代人 Alfred Russel Wallace 彼此獨立地得出結論：生命是透過自然選擇演化而來的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “species evolve through natural selection” 對應原文 “life had evolved by natural"
+            },
+            {
+              "kind": "paragraph",
+              "text": "selection”。人物是 Darwin and Wallace，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“The best-adapted animals survived.”",
+      "translation": "最能適應環境的動物存活下來。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why do some species die and some live?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼有些物種死亡，有些物種存活？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... in every generation the inferior would inevitably be killed off and the superior would remain, that is, the fittest would survive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一代中，較差者不可避免會被淘汰，較優者會留下，也就是最適者生存。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “best-adapted” 和 “survived”。原文有 “best fitted lived” 和 “the fittest would"
+            },
+            {
+              "kind": "paragraph",
+              "text": "survive”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “best-adapted animals” 沒有逐字出現，但 “best fitted” 和 “fittest” 就是最適應環境"
+            },
+            {
+              "kind": "paragraph",
+              "text": "者。題目的 “survived” 對應原文 “lived” 和 “would survive”。所以答案是 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“A boundary called Wallace’s Line was found between Asian and Australian fauna.”",
+      "translation": "在亞洲和澳洲動物群之間發現了一條名為 Wallace’s Line 的邊界。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wallace was a gentle and modest man, but also persistent and quietly courageous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wallace 是一位溫和謙遜的人，同時也堅持不懈、安靜地勇敢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The closure of the Tethys Ocean today is manifested by the ongoing collision of Australia/New Guinea with Indochina/Indonesia and the continuing closure of the Mediterranean Sea – a remnant of the Western Tethys Ocean.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tethys Ocean 的閉合在今天表現為 Australia/New Guinea 與 Indochina/Indonesia 的持續碰撞，以及 Mediterranean Sea 這個 Western Tethys Ocean 遺跡的持續閉合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Wallace’s Line”、“Asian” 和 “Australian”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One result of his work was the conclusion that there is a distinct faunal boundary, called‘Wallace’s Line,’ between an Asian realm of animals in Java, Borneo and the Philippines and an Australian realm in New Guinea and Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他工作的其中一項結論是：在 Java、Borneo 和 Philippines 的亞洲動物區，以及 New Guinea 和Australia 的澳洲動物區之間，有一條明顯的動物群邊界，稱為 “Wallace’s Line”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎是原文的壓縮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“boundary called Wallace’s Line” 對應 “a distinct faunal boundary, called ‘Wallace’s Line’”；“Asian and Australian fauna” 對應 “an Asian realm of animals” 和 “an Australian realm”。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Links exist between animals in Australia and Africa.”",
+      "translation": "澳洲和非洲的動物之間存在關聯。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his Origin of Continents and Oceans, Wegener quoted at length from Wallace’s Geographical Distribution of Animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wegener 在 Origin of Continents and Oceans 中大量引用 Wallace 的 Geographical Distribution of Animals。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From this and related data, Wegener concluded that the then broadly accepted ‘land-bridge’ theory could not account for this distribution of animals and that only his theory of continental drift could explain it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wegener 根據這些及相關資料得出結論：當時普遍接受的陸橋理論不能解釋這種動物分布，只有大陸漂移理論能解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Australia” 和 “Africa”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wallace had shown that animals long established in southwestern Australia had an affinity with animals in South Africa, Madagascar, India, and Ceylon, but did not have an affinity with those in Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wallace 顯示，長期存在於澳洲西南部的動物，與 South Africa、Madagascar、India 和 Ceylon 的動物有親緣關係，但與亞洲動物沒有親緣關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“links exist” 對應原文 “had an affinity with”。South Africa 屬於 Africa 題目範圍，因此"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“animals in Australia and Africa” 正好對應 southwestern Australia 和 South Africa。答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "migrated",
+      "answerKey": "migrated",
+      "type": "Summary Completion",
+      "prompt": "“The rejected theory proposed that plants and animals had once 36 ______ between continents.”",
+      "translation": "被拒絕的理論提出，動植物曾經在各大陸之間 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The theory that Wegener dismissed in preference to his own proposed that plants and animals had once migrated across now-submerged intercontinental land bridges.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wegener 放棄並選擇自己理論取代的那個理論主張，動植物曾經跨越如今已沉沒的洲際陸橋遷移。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggested that the planet’s seas and oceans now fill the wrinkles between once-contiguous plateaus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他提出，地球上的海和洋如今填滿了曾經相連的高原之間的皺褶。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “rejected theory”、“plants and animals” 和 “between continents”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The theory that Wegener dismissed” 和 “plants and animals had once migrated”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “had once”，後面是 “between continents”，文法上需要過去分詞或動詞形式。原"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文答案詞是 “migrated”。若填 “migrated across”，會和題目後面的 “between continents” 不自然地重疊。因此答案是 migrated。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "withering skin",
+      "answerKey": "withering skin",
+      "type": "Summary Completion",
+      "prompt": "“Eduard Suess compared the wrinkles in the Earth’s crust to the 37 ______ of an aging apple.”",
+      "translation": "Eduard Suess 把地殼皺褶比作老蘋果的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句交代 Wegener 拒絕的陸橋理論；最後一句說海洋填滿曾經相連高原間的皺褶。這段中間自然會解釋 Suess 如何想像地殼形狀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Eduard Suess”、“wrinkles” 和 “aging apple”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eduard Suess, theorized that as the rigid Earth cools, its upper crust shrinks and wrinkles like the withering skin of an aging apple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eduard Suess 提出，當堅硬的地球冷卻，上層地殼會收縮並起皺，就像老蘋果枯萎的外皮。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “compared … to the ______ of an aging apple” 對應原文 “like the withering skin"
+            },
+            {
+              "kind": "paragraph",
+              "text": "of an aging apple”。答案不能超過兩字，所以填 withering skin。這比只填 skin 更完整，因為withering 描述了那種收縮起皺的狀態。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "tectonic plates",
+      "answerKey": "tectonic plates",
+      "type": "Summary Completion",
+      "prompt": "“Today, we know that we live on a planet with 38 ______ in constant motion, rather than the kind of Earth Suess described.”",
+      "translation": "今天我們知道，我們生活在一個有 ______ 不斷運動的星球上，而非 Suess 描述的那種地球。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph I。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, we know that we live on a dynamic Earth with shifting, colliding and separating tectonic plates, not a ‘withering skin’, and the main debate in the field of biogeography has shifted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天我們知道，我們生活在一個動態地球上，有正在移動、碰撞和分離的板塊，而非一個"
+            },
+            {
+              "kind": "quote",
+              "text": "“withering skin”；生物地理學中的主要爭論也已轉移。最後一句：“Vicarian evolution, however, depends upon the separation and isolation of a variety of species within the confines of natural barriers in the form of islands, lakes, or shallow seas –topographical features that take a long time to develop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，替代性分化演化依賴多種物種在自然屏障範圍內被分隔和孤立；這些屏障可以是島嶼、湖泊或淺海等需要長時間形成的地形特徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Today”、“planet” 和 “constant motion”。原文用 “dynamic Earth” 及 “shifting,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "colliding and separating tectonic plates” 表達同一概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “in constant motion” 是對 “shifting, colliding and separating” 的概括。空格需要"
+            },
+            {
+              "kind": "paragraph",
+              "text": "名詞短語，原文答案是 “tectonic plates”。所以答案是 tectonic plates。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "dispersalism",
+      "answerKey": "dispersalism",
+      "type": "Summary Completion",
+      "prompt": "“The central debate in biogeography has shifted to two concepts: ‘39 ______’ and ‘40 ______’.”",
+      "translation": "生物地理學的核心爭論已轉向兩個概念：“” 和 “”。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph I。第一句已經明確說 “the main debate in the field of biogeography"
+            },
+            {
+              "kind": "paragraph",
+              "text": "has shifted”，這和題目 “central debate in biogeography has shifted” 幾乎完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “debate”、“biogeography” 和 “two concepts”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The discussion now concerns ‘dispersalism’ versus ‘vicarianism’: unrestricted radiation of species on the one hand and the development of barriers to migration on the other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今的討論涉及 “dispersalism” 與 “vicarianism”：一方面是物種不受限制地擴散，另一方面是遷移屏障的形成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “two concepts” 改寫原文 “discussion now concerns”。第一個概念是 dispersalism，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Q39 答案是 dispersalism。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "vicarianism",
+      "answerKey": "vicarianism",
+      "type": "Summary Completion",
+      "prompt": "“The central debate in biogeography has shifted to two concepts: ‘39 ______’ and ‘40 ______’.”",
+      "translation": "生物地理學的核心爭論已轉向兩個概念：“dispersalism” 和 “______”。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍然是 Paragraph I。首句指出現代生物地理學爭論已轉移；尾句解釋 vicarian evolution 依"
+            },
+            {
+              "kind": "paragraph",
+              "text": "賴物種被自然屏障分離和隔離。這表示本段不只列出概念，也補充其中一個概念的含義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The discussion now concerns ‘dispersalism’ versus ‘vicarianism’...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今的討論涉及 “dispersalism” 對 “vicarianism”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求兩個概念，順序跟原文一致。Q39 是 dispersalism，Q40 是 vicarianism。注意答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要照原文拼字，不要改成 vicarian evolution，因為題目問的是概念名稱。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Origin of Species & Continent Formation.pdf",
+    "sha256": "54ac9757fe7091b2c4181a8404697d2171bbac9083b4adffa274ba1d53e4a7ce",
+    "pageCount": 13
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句提出 Pangea、Panthalassa Ocean 和 Tethys Ocean 對多細胞生命演化有深遠影響；尾句引出 Wallace 在 My Life 中記錄自己的靈感。只看首尾句，可以先估計本段是全文導入：把古大陸、古海洋和生物演化連起來，同時交代 19 世紀科學家在未知板塊背景下作出驚人推論。段末轉到Wallace，暗示下一段會詳細解釋自然選擇思想如何出現。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用 “Why do some species die and some live?” 提出物種存亡問題；尾句說 inferior 會被淘汰，superior 會留下，也就是 fittest would survive。只看首尾句，可判斷本段是 Wallace 對自然選擇的核心表述：生物面對疾病、敵人和飢荒時，較適合環境者存活，較弱者被淘汰。這段很明顯會對應 “best-adapted animals survived” 或 survival of the fittest 類題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Darwin 和 Wallace 的自然選擇觀念都受 Malthus 的人口論影響；尾句分別列出 Darwin在 Beagle 航程和 Galapagos，以及 Wallace 在 Amazon 和 Indonesian-Australian Archipelago的觀察。只看首尾句，可以估計本段功能是解釋兩人如何獨立形成自然選擇理論：既有思想來源，也有地理觀察證據。這段適合定位 Darwin and Wallace、natural selection、personal observation、geographic locations 等題目。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Darwin 多年來已記錄自然選擇想法，後來收到 Wallace 關於同一主題的論文；尾句說Lyell 和 Hooker 向 Linnean Society 解釋兩人獨立提出同一理論。只看首尾句，可以判斷本段是歷史事件段：講 Wallace 投稿、Darwin 的優先權問題，以及 Lyell 和 Hooker 如何推動 Darwin 公布結論。這段很適合人物配對題，尤其是 “urged Darwin to publish” 類資訊。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Darwin 和 Wallace 都意識到特定地區物種異常分布有深遠演化意義；尾句說 Wallace 研究 biogeography，並於 1876 年出版 The Geographical Distribution of Animals。只看首尾句，可以先看到本段在比較 Darwin 和 Wallace 之後的研究方向：Darwin 專注 species origin，Wallace則投身動物地理分布研究。這段會對應 “published work on the distribution of animals” 或biogeography 題目。"
+      },
+      {
+        "number": "F",
+        "summary": "首句形容 Wallace 溫和謙遜，但堅持且勇敢；尾句說 Tethys Ocean 的關閉今天表現為Australia/New Guinea 與 Indochina/Indonesia 的碰撞，以及 Mediterranean Sea 的持續閉合。首尾句距離很大，暗示本段由 Wallace 的實地工作，推進到 Wallace’s Line 和現代板塊解釋。只看首尾句，可以估計本段重點是 Wallace 在 Malay Archipelago 的觀察，以及 Asian / Australian fauna 邊界的地質原因。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Wegener 在 Origin of Continents and Oceans 中大量引用 Wallace 的 Geographical Distribution of Animals；尾句說 Wegener 認為 land-bridge theory 無法解釋動物分布，只有continental drift 可以。只看首尾句，可以判斷本段是 Wegener 使用 Wallace 動物分布證據支持大陸漂移的段落。這段適合定位 Wegener、continental drift、land-bridge theory、Australia / Africa/ South America 動物關聯等題目。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Wegener 捨棄的理論主張動植物曾經跨越如今沉沒的洲際陸橋遷移；尾句說 Suess 認為海洋和大海現在填滿了曾經連續高原之間的皺褶。只看首尾句，可以看出本段介紹 land-bridge theory 和 Suess 的 “withering skin” 地球模型。這段特別適合 summary completion 中 migrated、withering skin 等答案，也適合人物配對題中 Suess 描述地殼特徵。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說今天我們知道地球是由移動、碰撞和分離的 tectonic plates 組成，不是 Suess 的“withering skin”；尾句說 vicarian evolution 依賴自然屏障內的物種分離和隔離。只看首尾句，可以判斷本段是現代總結：從舊地球模型轉向板塊運動，並把生物地理學的核心爭論轉到dispersalism 與 vicarianism。這段很適合 summary completion 的最後三個空格。"
+      }
+    ]
+  }
+}

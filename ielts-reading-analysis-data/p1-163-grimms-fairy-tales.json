@@ -1,0 +1,3466 @@
+{
+  "id": "p1-163-grimms-fairy-tales",
+  "catalogueId": "p1-163",
+  "catalogueIds": [
+    "p1-163"
+  ],
+  "passage": 1,
+  "title": "Grimm’s Fairy Tales",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "NO",
+    "A",
+    "C",
+    "D",
+    "D",
+    "A",
+    "H",
+    "E",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“The Grimm brothers believed that they would achieve international fame.”",
+      "translation": "格林兄弟相信自己將會獲得國際名聲。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such lasting fame would have shocked the humble Grimms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種長久的名聲本會令謙遜的格林兄弟感到震驚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young, single and workaholic, the brothers shared a cramped flat as they undertook the fairy-tale collection with the goal of preserving the endangered oral tradition of Germany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時兩兄弟年輕、未婚、工作狂，住在狹小的公寓裡，進行童話收集工作，目標是保存德國瀕危的口述傳統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，我們可以先猜 Paragraph 2 的功能：這一段主要交代格林兄弟當時的身份、動機和處境。第一句直接指出，他們對後來的名聲應該會感到震驚；最後一句說明他們真正的工作目標是保存德國口述傳統。這段的功能偏向「推翻現代讀者對他們成名動機的想像」，並把焦點放回他們當年的文化保存使命。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“believed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“achieve international fame”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字會提示我們去找原文中和「名聲、出名、預期、相信」有關的內容。Paragraph 1 說這套故事集至今仍然無與倫比，似乎與 fame 有關；可是題目問的是 “The Grimm brothers believed”，即格林兄弟自己的想法，所以要繼續掃描到 Paragraph 2。Paragraph 2 第一句的 “lasting fame” 就是最直接的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such lasting fame would have shocked the humble Grimms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種長久的名聲本會令謙遜的格林兄弟感到震驚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句中最重要的是 “would have shocked”。這個結構表示：如果他們知道後來有這種長久名聲，他們會感到震驚。換句話說，他們當年並沒有預期自己會取得這種名聲。題目說 “believed that they would achieve international fame”，意思是他們相信自己將會成為國際知名人物；原文意思剛好相反：這種後來的名聲會令他們驚訝。"
+            },
+            {
+              "kind": "label",
+              "text": "再看同段的其他句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“During their lifetimes the collection sold modestly in Germany, at first only a few hundred copies a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他們有生之年，這套故事集在德國銷量普通，最初每年只有幾百本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句進一步支持 NO。假如他們當年相信自己會取得國際名聲，原文很可能會出現 ambition、expect、hope、dream、famous 等意思接近的字。實際上，原文說銷量普通，初期一年只賣幾百本，這和 “achieve international fame” 的方向相衝。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jacob and Wilhelm viewed themselves as patriotic folklorists, not as entertainers of children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雅各布和威廉把自己視為愛國的民俗學者，並非兒童娛樂作家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句也很重要。它說明他們的自我定位是 patriotic folklorists，即愛國的民俗研究者。他們的目標是保存文化傳統，沒有呈現追逐國際名聲的心態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷 YES / NO / NOT GIVEN這題要判斷的是 writer 的 claims。原文並非沉默；它直接給出相反方向的證據。題目說他們believed they would achieve international fame。原文說 lasting fame would have shocked them。這就是清楚的 contradiction，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“believed that they would achieve international fame”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such lasting fame would have shocked the humble Grimms.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換關係： believed they would become famous= expected fame would have shocked them= they did not expect fame所以，題目方向和原文方向相衝。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一個中伏位是 Paragraph 1 的結尾："
+            },
+            {
+              "kind": "quote",
+              "text": "“remains unrivalled to this day”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天仍然無可匹敵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句確實說明格林童話今日非常重要，但這是作者今日回望的評價，不代表格林兄弟當年相信自己會成名。IELTS Reading 很常把「後來結果」和「當時想法」分開考。題目問的是 believed，即他們當時的預期；原文說的是 shocked，即他們原本沒有預料到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “international fame” 和 “lasting fame”。兩者詞義接近，學生看到 fame 便可能急著選 YES。細讀時要看 fame 前後的動詞。題目是 “believed”；原文是 “would have shocked”。真正決定答案的不是 fame 這個名詞本身，關鍵在動詞態度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“The Grimm brothers were forced to work in secret.”",
+      "translation": "格林兄弟被迫秘密工作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such lasting fame would have shocked the humble Grimms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種長久的名聲本會令謙遜的格林兄弟感到震驚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young, single and workaholic, the brothers shared a cramped flat as they undertook the fairy-tale collection with the goal of preserving the endangered oral tradition of Germany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時兩兄弟年輕、未婚、工作狂，住在狹小的公寓裡，進行童話收集工作，目標是保存德國瀕危的口述傳統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 的大概功能是：解釋格林兄弟當年沒有預期會成名，同時說明他們進行故事收集工作的背景和目的。最後一句出現 “preserving the endangered oral tradition of Germany”，說明他們工作的核心是文化保存。這段也有政治背景，因此很容易和題目的 “forced”產生聯想。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“forced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“work in secret”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個詞都屬於壓迫、危險、秘密行動的語義場。掃描文章時，我們會被 Paragraph 2 中這句吸引："
+            },
+            {
+              "kind": "quote",
+              "text": "“They began their work at a time when Germany had been overrun by the French under Napoleon, who was intent on suppressing local culture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們開始工作時，德國已被拿破崙統治下的法國佔領；拿破崙有意壓制地方文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含 “overrun”、 “Napoleon”、 “suppressing local culture”，全部都很像題目 “forced” 和 “in secret” 的背景線索。因此 Paragraph 2 是合理定位段落。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“They began their work at a time when Germany had been overrun by the French under Napoleon, who was intent on suppressing local culture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們開始工作時，德國已被拿破崙統治下的法國佔領；拿破崙有意壓制地方文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句只說明文化和政治背景：德國被法國佔領，拿破崙想壓制地方文化。這可以解釋為何格林兄弟特別重視保存德國口述傳統。可是題目有兩個額外要求：第一，他們 “were forced”即：有人強迫他們這樣做。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，他們 “work in secret”即：他們秘密工作、不能公開進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供這兩點。它說的是 “began their work at a time when…”，中文意思是「他們開始工作時正值某個時代背景」。這句提供時代背景，沒有說他們被命令、被威脅、被迫、被禁止公開工作，也沒有說他們暗中收集故事。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句也需要看："
+            },
+            {
+              "kind": "quote",
+              "text": "“the brothers shared a cramped flat as they undertook the fairy-tale collection with the goal of preserving the endangered oral tradition of Germany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩兄弟住在狹小公寓裡，進行童話收集工作，目標是保存德國瀕危的口述傳統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shared a cramped flat” 可能讓人感覺生活艱難，但 cramped 只表示地方狹小，不等於秘密工作。 “undertook the fairy-tale collection” 只是說他們從事這項收集工作，也沒有包含 secrecy。判斷 YES / NO / NOT GIVEN NOT GIVEN 的核心是：原文沒有足夠資料判斷題目真假。這題不是 NO，因為原文沒有明確說他們沒有被迫，也沒有說他們公開工作。它只是沒有提供 “forced” 和 “in secret” 的證據。所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據： forced= compelled / made to do it / had no choice work in secret= secretly / hidden / privately / not openly原文實際有的證據： Germany had been overrun= 德國被佔領Napoleon suppressing local culture= 拿破崙壓制地方文化preserving endangered oral tradition= 保存瀕危口述傳統原文有政治壓力背景，但沒有 “forced” 和 “secretly”。這就是 NOT GIVEN 的典型情況：題目說法聽起來合理，可是文章沒有把它講出來。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “suppressing local culture”。很多學生看到「壓制地方文化」就會推理：既然文化被壓制，他們一定要秘密工作。這種推理在現實世界可能合理，但 IELTS Reading 不接受額外腦補。題目判斷只能依靠文章明示內容或可直接推出的內容。另一個中伏位是 “endangered oral tradition”。endangered 表示瀕危、面臨消失，不等於非法，也不等於被迫。它描述文化傳統的狀態，沒有說格林兄弟的人身安全或工作方式。這題的教學重點是：看到政治背景時，要分清「背景合理」和「文章有證據」。題目問 “were forced to work in secret”，原文只支援「他們在文化受壓背景下工作」，所以只能選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“Some parents today still consider the Grimms’ fairy tales unsuitable for children.”",
+      "translation": "今天仍有一些父母認為格林童話不適合兒童。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For much of the 19th century, teachers, parents, and religious figures, particularly in the United States, deplored the Grimms’ collection for its raw, uncivilised content.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十九世紀的大部分時間裡，教師、父母和宗教人士，尤其在美國，都因格林故事集內容粗野、未經文明修飾而譴責它。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even today, some protective parents shy from the Grimms’ tales because of their reputation for violence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使到了今天，一些保護欲較強的父母仍因格林童話有暴力名聲而避開這些故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜出 Paragraph 3 的功能：這段主要講格林童話的負面接受史，特別是成人、父母和宗教人士對其暴力和殘酷內容的不滿。第一句談十九世紀，最後一句轉到 today，說明這種疑慮到今天仍然存在。這正好和題目中的 “Some parents today still” 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“today”"
+            },
+            {
+              "kind": "quote",
+              "text": "“still”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unsuitable for children”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描時最明顯的對應是 Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even today, some protective parents shy from the Grimms’ tales because of their reputation for violence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句包含： Even today = today still some protective parents = some parents shy from = avoid / keep away from reputation for violence = 因暴力名聲而覺得不適合兒童"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even today, some protective parents shy from the Grimms’ tales because of their reputation for violence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使到了今天，一些保護欲較強的父母仍因格林童話有暴力名聲而避開這些故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句裡面有幾個要細讀的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，“Even today” 直接對應題目 “today still”。Even 有「甚至到了……仍然」的意思，因此它本身就帶有 still 的感覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，“some protective parents” 對應題目 “Some parents”。題目沒有說 all parents，所以不需要原文支持所有父母都這樣想。IELTS 很重視量詞一致：some 對 some，範圍一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，“shy from” 是關鍵動詞。這裡不是害羞的意思，而是 avoid / keep away from，即避開、不願接觸。父母避開格林童話，原因是 “their reputation for violence”。這表示他們擔心內容暴力，覺得不適合孩子。"
+            },
+            {
+              "kind": "label",
+              "text": "再看前文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Offended adults objected to the gruesome punishments inflicted on the stories’ villains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "感到冒犯的成年人反對故事中施加於反派身上的可怕懲罰。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the original ‘Snow White’, the evil stepmother is forced to dance in red-hot iron shoes until she falls down dead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在原版《白雪公主》中，邪惡繼母被迫穿著燒紅的鐵鞋跳舞，直到倒地身亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子解釋為何父母會覺得內容不適合兒童：故事有殘酷懲罰和暴力元素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷 YES / NO / NOT GIVEN題目說：Some parents today still consider the tales unsuitable for children.原文說：Even today, some protective parents shy from the tales because of violence.這兩者在意思上相符。雖然原文沒有逐字使用 “unsuitable for children”，但 “parents shy from the tales because of violence” 已經表達出他們不願讓孩子接觸這些故事。題目是原文的概括改寫，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parents today still consider … unsuitable for children.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even today, some protective parents shy from the Grimms’ tales because of their reputation for violence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換： today still= Even today some parents= some protective parents consider unsuitable= shy from because of violence for children= parents’ protective concern, connected to children’s reading這裡的 “unsuitable for children” 是根據父母避開故事的原因作出的合理概括。原文段落前面也一直談 teachers, parents, religious figures 反對它的 raw, uncivilised content，所以題目沒有越界。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “some”。有些學生看到「今天仍有一些父母」會懷疑是否太強。其實題目很保守，只說 some parents。原文也只說 some protective parents，所以完全吻合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “unsuitable for children”。原文沒有這幾個字，但 IELTS Reading 不需要逐字重複。只要意思等同即可。父母因 violence 而 shy from the tales，這在語境中就是認為故事不適合兒童。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “protective parents”。protective 不是貶義重點；它只是說這些父母保護孩子的意識較強。題目省略 protective，只保留 some parents，不影響答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“The first edition of the Grimms’ fairy tales sold more widely in England than in Germany.”",
+      "translation": "格林童話第一版在英國比在德國賣得更廣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要跨段掃描，主要涉及 Paragraph 2 和 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such lasting fame would have shocked the humble Grimms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種長久名聲本會令謙遜的格林兄弟感到震驚。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young, single and workaholic, the brothers shared a cramped flat as they undertook the fairy-tale collection with the goal of preserving the endangered oral tradition of Germany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時兩兄弟年輕、未婚、工作狂，住在狹小公寓裡進行童話收集工作，目標是保存德國瀕危的口述傳統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的功能是講他們早期沒有預期會成名、作品早期銷量普通、創作目的偏向民俗保存。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its sometimes rocky reception, Children’s and Household Tales gradually took root with the public.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管這套《兒童與家庭童話集》有時受到不穩定甚至不友善的接受，它仍逐漸在大眾之中扎根。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Grimms’ hands, cruel mothers became nasty stepmothers, unmarried lovers were made chaste, and the incestuous father was recast as the devil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在格林兄弟的修改下，殘酷的母親變成惡毒的繼母，未婚戀人被改成貞潔，亂倫父親被改寫成魔鬼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 的功能是講這套故事集如何逐步被公眾接受，並和歐洲兒童文學興起相遇；後半段講格林兄弟為兒童讀者修飾故事。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first edition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sold more widely”"
+            },
+            {
+              "kind": "quote",
+              "text": "“England”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時，我們會找到 Paragraph 2 的 “During their lifetimes the collection sold modestly in Germany” 和 Paragraph 4 的 “English publishers led the way”。這兩處都和題目看似有關。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“During their lifetimes the collection sold modestly in Germany, at first only a few hundred copies a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他們有生之年，這套故事集在德國銷量普通，最初每年只有幾百本。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“English publishers led the way, issuing high-quality picture books such as Jack and the Beanstalk and handsome folktale collections, all to satisfy a newly literate audience seeking virtuous material for the nursery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國出版商走在前面，出版高質素圖畫書，例如《傑克與魔豆》，以及精美的民間故事集，以滿足新近具備閱讀能力、並為兒童房尋找有道德內容的讀者群。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的句子只告訴我們：格林童話在德國早期銷量普通，最初一年只有幾百本。這提供Germany 的銷售情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目要求比較： sold more widely in England than in Germany要證明這句，需要文章提供英國銷售量，並且和德國銷售量比較。原文沒有這個比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 的 “English publishers led the way” 也很容易令人誤會。這句不是說格林童話第一版在英國賣得較廣。它說的是英國出版商在歐洲兒童文學興起中走在前面，出版高質素圖畫書和民間故事集。這是市場發展背景，並非格林童話第一版的英國銷售數據。"
+            },
+            {
+              "kind": "quote",
+              "text": "“English publishers led the way” 的中文意思是：英國出版商帶頭推動兒童文學出版。它沒有等同於： The first edition sold more widely in England.題目還特別說 “first edition”。原文 Paragraph 1 說：“published the first of seven editions in Germany in 1812.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1812 年在德國出版了七個版本中的第一版。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說第一版在德國出版，沒有說它在英國銷售如何。Paragraph 2 說早期在德國銷量普通； Paragraph 4 說英國出版商在兒童文學出版方面領先。兩者放在一起仍然不能推出「第一版在英國賣得比德國更廣」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷 YES / NO / NOT GIVEN這題是 NOT GIVEN，因為原文沒有提供 England vs Germany 的銷售比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不是 NO 的原因很重要：原文沒有說第一版在德國賣得比英國更廣，也沒有說英國完全沒有銷售。文章只是沒有提供足夠資料判斷題目真假。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： first edition● sales in England● sales in Germany● comparison: England > Germany原文有： first edition published in Germany in 1812 sold modestly in Germany English publishers led children’s literature market缺失部分： first edition sales in England direct comparison between England and Germany所以答案只能是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “English publishers led the way”。學生容易把 “English publishers” 和 “sold more widely in England” 連在一起。其實 led the way 的意思是「在兒童文學出版潮流中領先」，沒有說格林童話第一版的銷售地點或銷售量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “sold modestly in Germany”。看到德國銷量普通，有人會推想英國可能賣得更好。但 IELTS Reading 不接受「可能」；必須有原文直接或可嚴格推出的證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “first edition”。Paragraph 4 的 children’s literature boom 發生在格林故事集出現之後，講的是後來市場和讀者群變化，不等於第一版銷售資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“Adults enjoy reading the Grimms’ fairy tales for reasons different from those of children.”",
+      "translation": "成年人喜歡閱讀格林童話的原因，和兒童喜歡它們的原因不同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 20th century, the Grimms’ fairy tales have come to rule the bookshelves of children’s bedrooms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了二十世紀，格林童話已經佔據兒童睡房書架的重要位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the Grimms, the collection served as ‘a manual of manners’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照格林兄弟的說法，這套故事集是一部「禮儀手冊」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 5 的功能：這段解釋格林童話為何在二十世紀成為兒童閱讀經典，同時說明故事含有道德教育功能。第一句強調兒童閱讀地位；最後一句強調道德教化。這段自然會處理 children 和 parents / adults 的不同閱讀角度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adults”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reasons different”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有直接用 “adults enjoy reading”，但 Paragraph 5 有 “parents keep reading”。Parents 屬於 adults，且 reading 直接出現，所以這是最強定位。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The stories read like dreams come true: handsome lads and beautiful damsels, armed with magic, triumph over giants and witches and wild beasts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些故事讀起來像夢想成真：英俊少年和美麗少女帶著魔法，戰勝巨人、女巫和野獸。"
+            },
+            {
+              "kind": "quote",
+              "text": "“And parents keep reading because they approve of the finger-wagging lessons inserted into the stories: keep your promises, don’t talk to strangers, work hard, obey your parents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母繼續讀這些故事，是因為他們認同故事中加入的訓誡式教訓：守承諾、不要跟陌生人說話、努力工作、服從父母。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先描述故事本身對孩子的吸引力："
+            },
+            {
+              "kind": "quote",
+              "text": "“The stories read like dreams come true…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "故事讀起來像夢想成真。"
+            },
+            {
+              "kind": "label",
+              "text": "接著列舉："
+            },
+            {
+              "kind": "quote",
+              "text": "“handsome lads and beautiful damsels”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "英俊少年和美麗少女"
+            },
+            {
+              "kind": "quote",
+              "text": "“armed with magic”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "帶著魔法"
+            },
+            {
+              "kind": "quote",
+              "text": "“triumph over giants and witches and wild beasts”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰勝巨人、女巫和野獸"
+            },
+            {
+              "kind": "quote",
+              "text": "“They outwit mean, selfish adults.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們智勝刻薄自私的大人。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Inevitably the boy and girl fall in love and live happily ever after.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後男孩女孩相愛，從此幸福地生活下去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些內容屬於幻想、冒險、勝利、愛情和童話式圓滿結局。這是兒童讀者容易被吸引的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "然後原文轉向父母："
+            },
+            {
+              "kind": "quote",
+              "text": "“And parents keep reading because they approve of the finger-wagging lessons inserted into the stories…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母繼續讀，是因為他們認同故事中加入的訓誡式教訓。"
+            },
+            {
+              "kind": "quote",
+              "text": "“finger-wagging lessons” 很重要。finger-wagging 字面是搖手指，語氣上帶有教訓、提醒、規訓的感覺。這些 lessons 包括：“keep your promises”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "守承諾"
+            },
+            {
+              "kind": "quote",
+              "text": "“don’t talk to strangers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要跟陌生人說話"
+            },
+            {
+              "kind": "quote",
+              "text": "“work hard”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "努力工作"
+            },
+            {
+              "kind": "quote",
+              "text": "“obey your parents”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "服從父母所以，原文確實呈現兩種閱讀理由：孩子：被夢想成真、魔法、冒險、勝利、幸福結局吸引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母：重視故事中的道德教訓和行為規範。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 adults enjoy reading for reasons different from those of children。原文中的 adults 由parents 代表；原文清楚分別描寫故事對孩子的幻想吸引力，以及父母對道德教訓的認同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷 YES / NO / NOT GIVEN答案是 YES。題目是原文意思的概括。原文雖然沒有直接說 “for different reasons”，但整段先講兒童故事魅力，再用 “And parents keep reading because…” 引出父母的原因。這種結構已經清楚顯示兩種原因不同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Adults enjoy reading= parents keep reading reasons different from those of children= children enjoy dream-like plots; parents approve of moral lessons原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The stories read like dreams come true…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= child-facing appeal, fantasy and wish fulfilment"
+            },
+            {
+              "kind": "quote",
+              "text": "“parents keep reading because they approve of the finger-wagging lessons…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= adult-facing reason, moral instruction"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “Adults” 和 “parents”。題目用 Adults，比原文的 parents 更廣。這可以接受，因為parents 是成人讀者的一種，而且段落討論的是父母為孩子讀故事的情境。題目沒有說 all adults，只是說 Adults 作為一類讀者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “enjoy reading”。原文用 “keep reading”，沒有直接說 enjoy。可是 “keep reading because they approve…” 表示父母有理由持續閱讀給孩子聽。題目把這種持續閱讀概括成adults enjoy reading，意思上可接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “finger-wagging”。學生可能不知道這個詞。它不是普通的「手指動作」，在這裡表示道德訓誡、行為教導。父母喜歡這些故事，不單因為故事好看，也因為故事可用來教孩子守規矩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“The Grimm brothers based ‘Cinderella’ on the life of Dorothea Viehmann.”",
+      "translation": "格林兄弟把《灰姑娘》建基於 Dorothea Viehmann 的人生。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Altogether, some 40 people contributed tales to the Grimms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "總共有大約四十人向格林兄弟提供故事。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of these had been adapted from earlier Italian tales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中許多故事改編自更早的意大利故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜出 Paragraph 6 的功能：這段主要講故事來源和貢獻者。第一句說有四十人contributed tales，即提供故事；最後一句說很多故事有更早的意大利來源。整段焦點是故事如何被傳述、混合、改編，並非某個人的人生傳記。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cinderella”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Dorothea Viehmann”"
+            },
+            {
+              "kind": "quote",
+              "text": "“based on the life”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph 6，我們很快找到 Dorothea Viehmann 和 Cinderella。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The brothers particularly welcomed the visits of Dorothea Viehmann, a widow who walked to town to sell produce from her garden.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩兄弟尤其歡迎 Dorothea Viehmann 來訪；她是一位寡婦，會走到鎮上售賣自己花園的農產品。"
+            },
+            {
+              "kind": "quote",
+              "text": "“An innkeeper’s daughter, Viehmann had grown up listening to stories from travellers on the road to Frankfurt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Viehmann 是旅店老闆的女兒，從小聽前往法蘭克福路上的旅人講故事。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Among her treasures was ‘Aschenputtel’—Cinderella.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她珍藏的故事之中有《Aschenputtel》——也就是《灰姑娘》。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Viehmann had grown up listening to stories from travellers on the road to Frankfurt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Viehmann 從小聽前往法蘭克福路上的旅人講故事。"
+            },
+            {
+              "kind": "label",
+              "text": "這句說明她的故事來源：旅人講述的口頭故事。接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among her treasures was ‘Aschenputtel’—Cinderella.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她珍藏的故事之中有《Aschenputtel》——《灰姑娘》。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “treasures” 指她保留、知道、能講述的故事寶藏。原文說 Cinderella 是她 treasured stories中的一個，也就是她作為 storyteller 提供或傳述的故事之一。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“based ‘Cinderella’ on the life of Dorothea Viehmann”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個說法多了兩層意思：第一，格林兄弟以 Dorothea Viehmann 的人生作為《灰姑娘》的藍本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Dorothea Viehmann 本人與 Cinderella 角色經歷有傳記式關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有這樣說。相反，原文給出的關係是：Viehmann 從旅人那裡聽到很多故事，而 Cinderella是她知道並傳述的故事之一。她是 story contributor / storyteller，不是 Cinderella 人物原型。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Altogether, some 40 people contributed tales to the Grimms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "總共有大約四十人向格林兄弟提供故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句也很有用，因為它建立了整段框架：這些人 contributed tales，即貢獻故事。Dorothea Viehmann 在這段中的身份要放在這個框架內理解。她的功能是提供故事資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷 YES / NO / NOT GIVEN答案是 NO。題目說 Cinderella 基於 Viehmann 的人生；原文把 Cinderella 放在她聽來和保存下來的故事傳統之中。兩者關係不同。原文的證據足以排除 “based on the life” 這種說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡不選 NOT GIVEN，因為文章已經明確說出 Cinderella 和 Viehmann 的關係：它是她故事寶藏中的一個，來自她從旅人那裡聽故事的成長背景。題目把「故事傳述者」改成「人生原型」，方向錯了。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "based on the life of Dorothea Viehmann= Cinderella came from her personal life story原文： Viehmann grew up listening to stories from travellers= 她從旅人口中聽故事長大Among her treasures was Cinderella= Cinderella 是她所保存／傳述的故事之一contributed tales= 提供故事，不代表提供自傳材料"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “Dorothea Viehmann” 和 “Cinderella” 的相鄰出現。學生看到同一段出現兩個名字，容易以為 Cinderella 來自 Viehmann 的人生。IELTS 常用這種「相鄰資訊」製造錯覺：兩個資訊有關，但關係類型要精準判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “a widow who walked to town to sell produce from her garden”。這些是Viehmann 的人生背景，但原文沒有把這些經歷連到 Cinderella 的故事情節。不要看到人物背景就自動推成故事原型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “treasures”。這裡是比喻，指她珍貴的故事材料，不是人生經歷的寶藏。要把它放回 Paragraph 6 的主題：contributors and tale origins。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — Literacy levels were rising.",
+      "answerKey": "A — Literacy levels were rising.",
+      "type": "Question Analysis",
+      "prompt": "“What development was taking place in Europe when the Grimms’ collection appeared?”",
+      "translation": "格林故事集出現時，歐洲正在發生什麼發展？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its sometimes rocky reception, Children’s and Household Tales gradually took root with the public.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管《兒童與家庭童話集》有時受到不穩定甚至不友善的接受，它仍逐漸在大眾之中扎根。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Grimms’ hands, cruel mothers became nasty stepmothers, unmarried lovers were made chaste, and the incestuous father was recast as the devil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在格林兄弟的修改下，殘酷的母親變成惡毒的繼母，未婚戀人被改成貞潔，亂倫父親被改寫成魔鬼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 Paragraph 4 的功能：這段講格林故事集如何慢慢被大眾接受，以及格林兄弟如何因應新的兒童讀者群修改故事。這一段很可能回答關於 literary development、audience、publication、children’s literature 的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“development”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Europe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“when the Grimms’ collection appeared”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 4，可以看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The brothers had not foreseen that the appearance of their work would coincide with a great flowering of children’s literature in Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩兄弟沒有預見到，他們作品的出現會剛好遇上歐洲兒童文學的大繁榮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應題目： when the Grimms’ collection appeared= the appearance of their work development in Europe= a great flowering of children’s literature in Europe接著文章解釋這個 development 的具體原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“English publishers led the way, issuing high-quality picture books such as Jack and the Beanstalk and handsome folktale collections, all to satisfy a newly literate audience seeking virtuous material for the nursery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國出版商走在前面，出版高質素圖畫書，例如《傑克與魔豆》，以及精美的民間故事集，以滿足新近具備閱讀能力、並為兒童房尋找有道德內容的讀者群。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這題的答案藏在："
+            },
+            {
+              "kind": "quote",
+              "text": "“a newly literate audience”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新近具備閱讀能力的讀者群。"
+            },
+            {
+              "kind": "quote",
+              "text": "“literate” 指能讀寫、有閱讀能力。 “newly literate” 表示這個群體剛剛或新近具備閱讀能力。既然出現一批 newly literate audience，就表示 literacy levels were rising，即識字率正在上升。選項 A：“Literacy levels were rising.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "識字水平正在上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應 “newly literate audience”。題目問 Europe 當時發生什麼發展，原文說兒童文學繁榮，出版商滿足新近識字的讀者。選項 A 抓到這個基礎社會變化。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Literacy levels were rising.正確。 “newly literate audience” 表示有新讀者具備閱讀能力，對應識字率上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B New printing technology made publication easier.原文沒有提到新印刷技術，也沒有說出版變容易。Paragraph 4 提到 publishers，但 publishers不等於 printing technology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Schools were opening to children.原文沒有提到學校擴展，也沒有 school 這個概念。newly literate audience 可能和教育有關，但文章沒有說 schools were opening。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D People had begun collecting elaborate picture books.原文說 English publishers issued high-quality picture books，意思是出版商出版圖畫書。D 說people had begun collecting，加入了 collecting 這個文章沒有提供的動作。 “elaborate picture books” 也不是重點；重點是新識字讀者帶動兒童文學市場。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "What development was taking place in Europe?"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a great flowering of children’s literature in Europe”"
+            },
+            {
+              "kind": "label",
+              "text": "= 歐洲兒童文學蓬勃發展原因／背景："
+            },
+            {
+              "kind": "quote",
+              "text": "“a newly literate audience”"
+            },
+            {
+              "kind": "label",
+              "text": "= 新近識字的讀者群選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Literacy levels were rising.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 越來越多人有閱讀能力"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 B。看到 publishers，學生可能聯想到 printing technology。可是文章只講出版商發行作品，沒有提到印刷技術更新。IELTS 選項常把合理背景知識放進錯項；現實中出版繁榮可能和技術有關，但文章沒有提供這點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 D。原文有 picture books，但動詞是 publishers issued，不是 people collected。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "考 IELTS Reading 要看誰做了什麼。角色錯了，選項就錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “children’s literature”。題目問 development，選項 A 看似社會發展，不是文學發展；但原文用 newly literate audience 解釋兒童文學市場，A 是最根本、最貼近原文證據的答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — They made the content less violent.",
+      "answerKey": "C — They made the content less violent.",
+      "type": "Question Analysis",
+      "prompt": "“What changes did the Grimm brothers make in later editions?”",
+      "translation": "格林兄弟在後來版本中作了什麼改動？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its sometimes rocky reception, Children’s and Household Tales gradually took root with the public.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管《兒童與家庭童話集》有時受到不穩定甚至不友善的接受，它仍逐漸在大眾之中扎根。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Grimms’ hands, cruel mothers became nasty stepmothers, unmarried lovers were made chaste, and the incestuous father was recast as the devil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在格林兄弟的修改下，殘酷的母親變成惡毒的繼母，未婚戀人被改成貞潔，亂倫父親被改寫成魔鬼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 4 會講兩件事：第一，故事集逐漸被公眾接受；第二，格林兄弟修改了故事內容。最後一句直接列出修改例子，所以這題很可能在 Paragraph 4 後半段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“later editions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“make”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接說 later editions，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the Brothers Grimm recognised this new audience, they set about refining and softening their tales…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦格林兄弟意識到這個新的讀者群，他們便開始修飾並軟化自己的故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “set about refining and softening” 就是 changes did they make。後面例子就是 later editions 中的內容修訂方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the Brothers Grimm recognised this new audience, they set about refining and softening their tales, which had originated centuries earlier as earthy peasant fare.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦格林兄弟意識到這個新的讀者群，他們便開始修飾並軟化這些故事；這些故事在數百年前源自粗樸的農民故事材料。"
+            },
+            {
+              "kind": "quote",
+              "text": "“refining” 指修飾、使更文雅。“softening” 指使內容較溫和、較不刺激、較容易被接受。下一句是具體例子：“In the Grimms’ hands, cruel mothers became nasty stepmothers, unmarried lovers were made chaste, and the incestuous father was recast as the devil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在格林兄弟手中，殘酷的母親變成惡毒的繼母，未婚戀人被改成貞潔，亂倫父親被改寫成魔鬼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子共同指向一個方向：把較殘酷、粗俗、性道德上敏感或家庭倫理上難以接受的元素變得較溫和。選項 C “They made the content less violent” 抓到 softening 的主要方向，尤其和前段Paragraph 3 談 violence、gruesome punishments 的背景呼應。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A They shortened the stories.原文沒有說 shorten，也沒有說篇幅變短。refining 不等於 shortening。修飾可以是語氣、內容、角色關係調整，不代表縮短。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B They used more oral language.原文說故事源自 oral tradition，但後來修改方向是 “refining and softening”，沒有說更口語化。相反，refining 往往表示更文雅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C They made the content less violent.正確。 “softening their tales” 和 “cruel mothers became nasty stepmothers” 等例子顯示內容變得較溫和。雖然 softening 不只涉及暴力，也包括性和道德內容，但在四個選項中，C 最貼近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D They found different origins for the tales.原文沒有說他們替故事尋找不同起源。故事來源仍然是 oral tradition / peasant fare；他們做的是editorial changes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "label",
+              "text": "changes in later editions原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“set about refining and softening their tales”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“made the content less violent”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換： soften= make less harsh / less cruel / less disturbing cruel mothers became nasty stepmothers= harsh family cruelty reduced or redirected unmarried lovers were made chaste= sexually sensitive content cleaned up incestuous father recast as the devil= morally disturbing human family role changed into supernatural evil"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “oral tradition”。整篇一開始說故事 drawn mostly from oral narratives，學生可能以為後來版本更接近口語，所以選 B。可是 Paragraph 4 的動詞是 refining and softening，方向是修飾和溫和化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 A。refining 有時讓人想到 editing，editing 可能包括縮短，但原文沒有說shortened。IELTS Reading 不能把 editing 自動理解成 shorter。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 C 本身的精準度。C 說 less violent，而原文 softening 的範圍比 violence 更大，也包含 sexual morality 和 family relations。不過四個選項中只有 C 抓到「使內容更溫和」這個核心方向。因此要教學生：multiple choice 不一定每個字都完美覆蓋原文，選最被原文支持、最少問題的一項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "D — She told oral stories that drew on tales with Italian origins.",
+      "answerKey": "D — She told oral stories that drew on tales with Italian origins.",
+      "type": "Question Analysis",
+      "prompt": "“What did Marie Hassenpflug contribute to the Grimms’ fairy tales?”",
+      "translation": "Marie Hassenpflug 對格林童話作出了什麼貢獻？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Altogether, some 40 people contributed tales to the Grimms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "總共有大約四十人向格林兄弟提供故事。"
+            },
+            {
+              "kind": "label",
+              "text": "最後句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of these had been adapted from earlier Italian tales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中許多故事改編自更早的意大利故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜出 Paragraph 6 的功能：這段不是講格林兄弟自己創作故事，而是講不同contributors 如何提供故事，以及這些故事的來源如何跨越不同傳統。第一句有 contributed tales，題目也有 contribute，所以定位非常直接。最後一句提到 Italian tales，剛好和選項 D 的 Italian origins 對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie Hassenpflug”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contribute”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Italian origins”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 6，找到 Marie 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie Hassenpflug was a 20-year-old friend of their sister, Charlotte, from a well-bred, French-speaking family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marie Hassenpflug 是他們妹妹 Charlotte 的二十歲朋友，出身良好，家庭使用法語。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie’s wonderful stories blended motifs from the oral tradition and from Perrault’s influential 1697 book, Tales of My Mother Goose, which contained elaborate versions of ‘Little Red Riding Hood’, ‘Snow White’, and ‘Sleeping Beauty’, among others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marie 的精彩故事融合了口述傳統的母題，以及 Perrault 於 1697 年出版的具影響力作品《鵝媽媽故事》中的母題；該書包含《小紅帽》、《白雪公主》、《睡美人》等故事的精緻版本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of these had been adapted from earlier Italian tales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中許多故事改編自更早的意大利故事。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的答案由三層組成。"
+            },
+            {
+              "kind": "label",
+              "text": "第一層："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie’s wonderful stories…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marie 的精彩故事……這說明 Marie 貢獻的是 stories，即故事。她不是翻譯者，也不是正式作者；她作為 contributor 提供故事材料。"
+            },
+            {
+              "kind": "label",
+              "text": "第二層："
+            },
+            {
+              "kind": "quote",
+              "text": "“blended motifs from the oral tradition…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "融合了口述傳統的母題。"
+            },
+            {
+              "kind": "quote",
+              "text": "“motifs” 指故事中的常見元素、情節模式或主題元素，例如魔法物件、危險森林、被迫害的孩子、邪惡繼母等。 “oral tradition” 表示口頭流傳。第三層：“and from Perrault’s influential 1697 book…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也融合了 Perrault 於 1697 年出版的具影響力作品中的元素。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of these had been adapted from earlier Italian tales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些故事之中有許多又是從更早的意大利故事改編而來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Marie 的貢獻是：她提供的口述故事融合了口頭傳統和 Perrault 版本，而 Perrault 版本中的許多故事又可追溯至更早的意大利故事。選項 D 將這條來源鏈壓縮成："
+            },
+            {
+              "kind": "quote",
+              "text": "“She told oral stories that drew on tales with Italian origins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她講述了口頭故事，而這些故事吸收了具有意大利來源的故事元素。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A She wrote new stories.原文沒有說 she wrote new stories。Paragraph 6 的主題是 contributed tales, oral tradition, motifs, adapted tales。這是傳述和融合，不是創作全新故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B She discussed the stories with the brothers.原文沒有說 discussed。她是 their sister’s friend，也提供 wonderful stories，但沒有提及討論過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C She translated a popular book for them.原文提到 Perrault’s book，但沒有說 Marie 翻譯該書。French-speaking family 可能令學生聯想到 translation，但原文沒有這個動作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D She told oral stories that drew on tales with Italian origins.正確。 “stories blended motifs from the oral tradition” 對應 told oral stories；“Many of these had been adapted from earlier Italian tales” 對應 Italian origins。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "What did Marie contribute?"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie’s wonderful stories blended motifs…”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“She told oral stories that drew on tales with Italian origins.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換： wonderful stories= stories she contributed / told oral tradition= oral stories blended motifs from= drew on earlier Italian tales= Italian origins"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “French-speaking family”。學生可能看到她來自法語家庭，又看到 Perrault 是法國作家，於是選 C translated。可是原文只說她的故事融合了 Perrault 書中的母題，沒有說她替格林兄弟翻譯書本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “wrote”。IELTS 很常把 storyteller 和 writer 混淆。Marie 的角色是故事來源之一；原文沒有把她描述為 author。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 Italian origins 的距離較遠。選項 D 的 Italian origins 不是直接形容 Marie 本人，而是通過 Perrault’s book 再追溯到 earlier Italian tales。這是跨句理解題，要把 Marie’s stories →Perrault → earlier Italian tales 連起來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "D — tell of the simplicity of life in the German countryside.",
+      "answerKey": "D — tell of the simplicity of life in the German countryside.",
+      "type": "Question Analysis",
+      "prompt": "“Heinz Rölleke said that the Grimms’ tales are German because they ______.”",
+      "translation": "Heinz Rölleke 說格林童話很德國，原因是它們 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that many of the Grimm fairy tales have origins across Europe, the Middle East and Asia, the question must be asked: How German are the Grimm tales?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "既然許多格林童話的來源遍及歐洲、中東和亞洲，一個問題就必須提出：格林童話到底有多德國？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The cruelty in the stories was not the Grimms’ fantasy,’ Rölleke points out. ‘It reflected the law-and-order system of the old times.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rölleke 指出：「故事中的殘酷並非格林兄弟的幻想；它反映了舊時代的法律與秩序制度。」只看首尾句，可以判斷 Paragraph 7 的功能：這段討論「格林童話有多德國」這個問題。第一句提出疑問，最後一句解釋故事殘酷元素和舊時代社會制度的關係。中間必然會出現 Rölleke 對German character 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Heinz Rölleke”"
+            },
+            {
+              "kind": "quote",
+              "text": "“German”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because they”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“How German are the Grimm tales? Very, says scholar Heinz Rölleke.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "格林童話有多德國？學者 Heinz Rölleke 說：非常德國。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Love of the underdog, rustic simplicity, creative energy—these are Teutonic traits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對弱者的喜愛、鄉村式的樸素、創造力——這些都是日耳曼特質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句是 Question 10 的核心答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“rustic simplicity”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鄉村式的樸素；質樸的鄉野感。"
+            },
+            {
+              "kind": "quote",
+              "text": "“rustic” = 鄉村的、鄉野的、樸拙的。“simplicity” = 簡樸、單純、樸素。選項 D：“tell of the simplicity of life in the German countryside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "講述德國鄉村生活的樸素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 中的 “simplicity” 直接對應原文 “simplicity”；“German countryside” 對應 “rustic” 和段落主題 “How German are the Grimm tales?”。因此 D 是最合理的配對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的完整邏輯是：雖然很多故事來源跨越歐洲、中東和亞洲，但 Rölleke 認為它們非常德國，因為它們具有Teutonic traits，即日耳曼特質。這些特質包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“Love of the underdog”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "喜愛弱者、同情弱者"
+            },
+            {
+              "kind": "quote",
+              "text": "“rustic simplicity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "鄉村式的樸素"
+            },
+            {
+              "kind": "quote",
+              "text": "“creative energy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "創造力題目要把 “because they” 接到一個句尾。D 抓住其中最明顯的可配對元素：rustic simplicity。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D tell of the simplicity of life in the German countryside.正確。它對應 “rustic simplicity”。雖然原文沒有逐字說 “life in the German countryside”，但 rustic本身已有鄉村意味，並且這句位於討論 Teutonic traits 的段落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A reflect what life was like at that time.這比較適合 Question 11。因為後面講 children were often neglected and abandoned，以及witches were burned at the stake，這些是在說故事反映歷史現實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C demonstrate the outdated system.這和段落最後 “law-and-order system of the old times” 有關，但 Question 10 問的是 tales are German because they…，答案應該連回 German / Teutonic traits，不是只講舊制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E encourage people to believe that they can do anything.這是 Jack Zipes 的觀點，在 Paragraph 8，不是 Rölleke 的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“rustic simplicity”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“the simplicity of life in the German countryside”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換： rustic= rural / countryside / 鄉村的simplicity= simplicity / 樸素Teutonic traits= German characteristics / 德國或日耳曼特質"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 A。A “reflect what life was like at that time” 看起來也和 Paragraph 7 有關，因為段落後半確實談到中世紀德國的生活殘酷，例如棄兒和燒女巫。但 Question 10 的主語是 “the Grimms’ tales are German because they…” 這題問的是 Rölleke 對德國特質的概括，而 “rustic simplicity” 更直接對應 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “Teutonic”。學生若不知道 Teutonic，可能跳過這句。Teutonic 在這裡等於Germanic / German cultural traits，即日耳曼或德國文化特質。句子中的三個名詞短語就是他認為故事「很德國」的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是把 “German” 理解成「故事源頭全部在德國」。Paragraph 7 開頭已說 many tales have origins across Europe, the Middle East and Asia。Rölleke 的 German 是文化氣質上的German，不是地理來源全部德國。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "A — reflect what life was like at that time.",
+      "answerKey": "A — reflect what life was like at that time.",
+      "type": "Question Analysis",
+      "prompt": "“Heinz Rölleke said that the abandoned children in the tales ______.”",
+      "translation": "Heinz Rölleke 說故事中被遺棄的孩子 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that many of the Grimm fairy tales have origins across Europe, the Middle East and Asia, the question must be asked: How German are the Grimm tales?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "既然許多格林童話的來源遍及歐洲、中東和亞洲，一個問題就必須提出：格林童話到底有多德國？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The cruelty in the stories was not the Grimms’ fantasy,’ Rölleke points out. ‘It reflected the law-and-order system of the old times.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rölleke 指出：「故事中的殘酷並非格林兄弟的幻想；它反映了舊時代的法律與秩序制度。」只看首尾句，可以推測 Paragraph 7 不只談 German traits，也會談故事中的殘酷元素如何反映舊時代社會。最後一句的 “It reflected…” 對 Question 11 非常重要，因為選項 A 也有 reflect。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“abandoned children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Heinz Rölleke”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 7，找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout Europe, children were often neglected and abandoned, like Hansel and Gretel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在整個歐洲，孩子經常被忽略和遺棄，就像《糖果屋》中的 Hansel 和 Gretel。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句就是 Question 11 的目標句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout Europe, children were often neglected and abandoned, like Hansel and Gretel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在整個歐洲，孩子經常被忽略和遺棄，就像《糖果屋》中的 Hansel 和 Gretel。"
+            },
+            {
+              "kind": "label",
+              "text": "這裡要注意句子結構："
+            },
+            {
+              "kind": "quote",
+              "text": "“children were often neglected and abandoned”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子常被忽略和遺棄"
+            },
+            {
+              "kind": "quote",
+              "text": "“like Hansel and Gretel”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像 Hansel 和 Gretel這不是在說 Hansel and Gretel 是純粹幻想例子。它把童話中的棄兒情節和歐洲歷史現實連起來。意思是：故事中的棄兒反映了當時社會中真實存在的兒童被忽視和遺棄的情況。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句也提供背景："
+            },
+            {
+              "kind": "quote",
+              "text": "“The coarse texture of life during medieval times in Germany, when many of the tales entered the oral tradition, also coloured the narratives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多故事進入口述傳統時，中世紀德國生活的粗糙質感也影響了這些敘事。"
+            },
+            {
+              "kind": "quote",
+              "text": "“coloured the narratives” 意思是影響故事的內容和風格。也就是說，當時的社會現實滲入了童話敘事。後面還有另一個例子：“Accused witches were burned at the stake, like the evil mother-in-law in ‘The Six Swans’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被指控為女巫的人會被綁在火刑柱上燒死，就像《六隻天鵝》中的邪惡婆婆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子共同說明：故事中的殘酷情節反映歷史生活現實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項配對A reflect what life was like at that time.正確。children were often neglected and abandoned 說明童話中的 abandoned children 對應當時社會現實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C demonstrate the outdated system.這看似和最後一句 “law-and-order system of the old times” 有關，但 Question 11 專門問abandoned children。被忽略和遺棄的孩子主要反映社會生活情況，不是直接示範法律制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D tell of the simplicity of life in the German countryside.這是 Question 10 的 rustic simplicity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B help children deal with their problems.這是 Bettelheim 的 therapeutic value，在 Paragraph 9。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“children were often neglected and abandoned”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“reflect what life was like at that time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換： children in tales abandoned= like Hansel and Gretel real children often neglected and abandoned= this was part of life then therefore tales reflect life at that time= 故事反映當時生活現實"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是最後一句的 “law-and-order system”。學生可能看見 “reflected the law-and-order system of the old times” 便想選 C “demonstrate the outdated system”。但 Question 11 問abandoned children，不是 witches or punishment。對 abandoned children 來說，最直接證據是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“children were often neglected and abandoned”，所以 A 更貼題。第二個中伏位是 Hansel and Gretel。很多學生知道它是童話，可能只想到情節內容，忽略前面的“Throughout Europe”。這個地理和歷史框架告訴我們，作者在把童話情節和真實歷史生活連接。第三個中伏位是 “often”。often 表示這種情況經常發生，因此不是單一故事設計。題目答案 A 的“what life was like at that time” 正是把 often 的歷史普遍性概括出來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "H — avoid details about the characters’ social settings.",
+      "answerKey": "H — avoid details about the characters’ social settings.",
+      "type": "Question Analysis",
+      "prompt": "“Bernhard Lauer said that the Grimms’ writing style is universal because the tales ______.”",
+      "translation": "Bernhard Lauer 說格林童話的寫作風格具有普遍性，原因是這些故事 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The editorial fingerprints left by the Grimms betray the specific values of 19th-century Christian, bourgeois German society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "格林兄弟留下的編輯痕跡透露出十九世紀基督教、中產階級德國社會的特定價值觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We can identify with the heroes of the tales and become in our mind the masters and mistresses of our own destinies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可以認同故事中的英雄，並在心中成為自己命運的主人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 Paragraph 8 的功能：這段解釋一個看似矛盾的現象。第一句說格林童話帶有十九世紀德國社會特定價值；接下來應該會解釋為何它們仍被世界各文化接受。最後一句講讀者可以把自己投射進英雄身上，這是普遍流行的原因之一。Question 12 問 Bernhard Lauer 的universal style，所以定位在 Paragraph 8 中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bernhard Lauer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“universal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“writing style”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bernhard Lauer points to the ‘universal style’ of the writing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bernhard Lauer 指出，原因在於寫作的「普遍風格」。"
+            },
+            {
+              "kind": "label",
+              "text": "接著是答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You have no concrete descriptions of the land, the clothes, the forest or the castles. It makes the stories timeless and placeless.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "故事中沒有對土地、衣服、森林或城堡作具體描寫。這使故事超越時間和地點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You have no concrete descriptions of the land, the clothes, the forest or the castles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "故事中沒有具體描寫土地、衣服、森林或城堡。"
+            },
+            {
+              "kind": "quote",
+              "text": "“no concrete descriptions” 是解題核心。concrete 表示具體的、明確的。no concrete descriptions就是沒有明確細節。列出的內容包括：“the land”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "土地、地方"
+            },
+            {
+              "kind": "quote",
+              "text": "“the clothes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "衣服"
+            },
+            {
+              "kind": "quote",
+              "text": "“the forest”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "森林"
+            },
+            {
+              "kind": "quote",
+              "text": "“the castles”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "城堡這些都是故事中的外在背景、場景、社會環境和視覺細節。因為故事不提供具體地點、服飾、建築或地方描寫，所以不同文化的讀者都能把故事放進自己的想像中。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It makes the stories timeless and placeless.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使故事不受特定時間和地點限制。"
+            },
+            {
+              "kind": "quote",
+              "text": "“timeless” = 不受時間限制“placeless” = 不受特定地點限制選項 H：“avoid details about the characters’ social settings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "避免描寫人物所處社會環境的細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對應 “no concrete descriptions of the land, the clothes, the forest or the castles”。social settings 不只是社會階級，也包括人物生活環境、場景、文化背景。衣服、土地、城堡都會暴露具體時代和社會位置；原文說這些都沒有具體描寫，所以 H 正確。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "H avoid details about the characters’ social settings.正確。 “no concrete descriptions” 對應 avoid details；land, clothes, forest, castles 對應 social settings / background details。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E encourage people to believe that they can do anything.這是 Jack Zipes 的觀點，在同一段後半，但不是 Bernhard Lauer 的 universal style。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F recognise the heroes in real life.原文後面說 “identify with the heroes”，意思是心理上認同英雄，不是現實生活中辨認英雄。這題問 Bernhard Lauer，不能跳到 Zipes 的句子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G contribute to a belief in the power of nature.原文有 forest，但沒有說 nature power。這是用單一字 forest 製造的錯項。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“no concrete descriptions”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 H："
+            },
+            {
+              "kind": "quote",
+              "text": "“avoid details”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“land, clothes, forest or castles”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 H："
+            },
+            {
+              "kind": "quote",
+              "text": "“characters’ social settings”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“timeless and placeless”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思：因為缺少具體背景，所以跨時代、跨地域。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是同段有兩位學者：Bernhard Lauer 和 Jack Zipes。Question 12 指名 Bernhard Lauer，所以答案必須來自 Lauer 的 quote，不要滑到 Zipes 的 “utopian longings” 和 “masters of our own destinies”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “forest”。選項 G 提到 nature，學生可能看到 forest 便選 G。可是 forest 在原文中只是「沒有具體描寫的背景之一」，不是自然力量的象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “universal style”。很多學生會把 universal 理解成「所有文化都有同樣英雄」或「人人都追求幸福」。這些想法和後文有關，但 Lauer 的 universal 是寫法上的 universal：沒有具體描述，讓故事不被固定在某時某地。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "E — encourage people to believe that they can do anything.",
+      "answerKey": "E — encourage people to believe that they can do anything.",
+      "type": "Question Analysis",
+      "prompt": "“Jack Zipes said that the pursuit of happiness in the tales means that they ______.”",
+      "translation": "Jack Zipes 說故事中對幸福的追求意味著它們 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The editorial fingerprints left by the Grimms betray the specific values of 19th-century Christian, bourgeois German society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "格林兄弟留下的編輯痕跡透露出十九世紀基督教、中產階級德國社會的特定價值觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We can identify with the heroes of the tales and become in our mind the masters and mistresses of our own destinies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可以認同故事中的英雄，並在心中成為自己命運的主人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 的功能是解釋為何帶有特定德國價值的故事仍能被全球文化接受。前半由 Bernhard Lauer 解釋 universal style；後半由 Jack Zipes 解釋童話如何承載人類對幸福和命運掌控的想像。Question 13 明確提到 Jack Zipes，所以要看 Paragraph 8 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jack Zipes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pursuit of happiness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“says Jack Zipes of the University of Minnesota…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "明尼蘇達大學的 Jack Zipes 說……接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“They show a striving for happiness that none of us knows but that we sense is possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們展示了一種追求幸福的努力；這種幸福我們沒有人真正知道，卻感覺它是可能的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“striving for happiness” 直接對應題目 “pursuit of happiness”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵原文：“The tales allow us to express our utopian longings…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些故事讓我們表達烏托邦式的渴望。"
+            },
+            {
+              "kind": "quote",
+              "text": "“utopian longings” 指對理想世界、完滿人生或更好命運的渴望。接著：“They show a striving for happiness that none of us knows but that we sense is possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們展示了一種追求幸福的努力；這種幸福我們沒有人真正知道，卻感覺它是可能的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “striving” = 努力追求。題目把它改寫成 pursuit。兩者很接近。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是答案核心："
+            },
+            {
+              "kind": "quote",
+              "text": "“We can identify with the heroes of the tales and become in our mind the masters and mistresses of our own destinies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可以認同故事中的英雄，並在心中成為自己命運的主人。"
+            },
+            {
+              "kind": "quote",
+              "text": "“masters and mistresses of our own destinies” 是一個很重要的短語。它表示我們想像自己能掌控自己的命運，而非被命運牽著走。童話中的英雄通常從弱勢出發，最後戰勝惡勢力、得到幸福。讀者認同英雄時，也會想像自己有能力改變人生。選項 E：“encourage people to believe that they can do anything.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鼓勵人們相信自己可以做到任何事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是比較誇張但方向相同的概括。 “become the masters and mistresses of our own destinies” 表示相信自己可以掌控命運，追求幸福。E 中的 “can do anything” 不是逐字對應，而是概括這種自我能動性和命運掌控感。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E encourage people to believe that they can do anything.正確。它對應 “masters and mistresses of our own destinies”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F recognise the heroes in real life.這是中伏選項。原文說 “identify with the heroes”，意思是認同、代入英雄，不是說在現實中辨認英雄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B help children deal with their problems.這是 Bettelheim 的 therapeutic value，在 Paragraph 9。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H avoid details about the characters’ social settings.這是 Bernhard Lauer 的 universal style，在同一段前半。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "label",
+              "text": "pursuit of happiness原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“striving for happiness”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E： believe that they can do anything原文支撐："
+            },
+            {
+              "kind": "quote",
+              "text": "“become … the masters and mistresses of our own destinies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換： striving for happiness= pursuit of happiness masters of our destinies= able to control life / believe in personal agency believe they can do anything= a broad paraphrase of confidence in shaping destiny"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “identify with the heroes”。學生可能看到 heroes，便選 F “recognise the heroes in real life”。可是 identify with 是心理代入，不是現實辨認。它的意思是「覺得自己和英雄有共通點，能把自己想像成英雄」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “utopian longings”。utopian 不是 fantasy only。這裡的功能是說童話讓人表達對理想幸福和更好命運的渴望。它連到 “masters of our own destinies”，所以答案應該和自我掌控、可能性、希望有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是同一段有 Lauer 和 Zipes 兩個觀點。Question 13 指名 Jack Zipes，必須從 “says Jack Zipes…” 之後找，不要拿 Lauer 的 no concrete descriptions 作答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "B — help children deal with their problems.",
+      "answerKey": "B — help children deal with their problems.",
+      "type": "Question Analysis",
+      "prompt": "“Bruno Bettelheim said that the therapeutic value of the tales means that they ______.”",
+      "translation": "Bruno Bettelheim 說這些故事的治療價值意味著它們 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fairy tales provide a workout for the unconscious, psychoanalysts maintain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "精神分析學家認為，童話能給無意識提供一種鍛鍊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The flexibility of interpretation suits them for almost any time and any culture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種詮釋上的靈活性使它們幾乎適合任何時代和任何文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 Paragraph 9 的功能：這段討論童話的心理功能和解讀彈性。第一句有psychoanalysts 和 unconscious，暗示心理分析；最後一句說不同時代文化都能解讀它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 14 提到 Bruno Bettelheim 和 therapeutic value，所以必然定位於 Paragraph 9 前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bruno Bettelheim”"
+            },
+            {
+              "kind": "quote",
+              "text": "“therapeutic value”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bruno Bettelheim famously promoted the therapeutic value of the Grimms’ stories, calling fairy tales the ‘great comforters’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bruno Bettelheim 著名地提倡格林故事的治療價值，稱童話為「偉大的安慰者」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應題目。"
+            },
+            {
+              "kind": "label",
+              "text": "接著就是解釋 therapeutic value 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“By confronting fears and phobias, symbolised by witches, heartless stepmothers, and hungry wolves, children find they can master their anxieties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過面對由女巫、無情繼母和飢餓的狼所象徵的恐懼和恐懼症，孩子會發現自己能掌控焦慮。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語一："
+            },
+            {
+              "kind": "quote",
+              "text": "“confronting fears and phobias”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對恐懼和恐懼症。"
+            },
+            {
+              "kind": "quote",
+              "text": "“confront” 指正面面對。 “fears and phobias” 指孩子心中的害怕和焦慮來源。關鍵短語二：“symbolised by witches, heartless stepmothers, and hungry wolves”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些恐懼由女巫、無情繼母和飢餓的狼象徵出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表童話裡的怪物和壞人可以被理解成孩子心理恐懼的象徵。孩子讀故事時，不只是看一個外在冒險，也是在安全距離下面對內心恐懼。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語三："
+            },
+            {
+              "kind": "quote",
+              "text": "“children find they can master their anxieties”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子發現自己能掌控焦慮。"
+            },
+            {
+              "kind": "quote",
+              "text": "“master” 在這裡不是名詞「主人」，而是動詞，意思是控制、克服、掌握。 “anxieties” 指焦慮、不安、內心問題。選項 B：“help children deal with their problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幫助孩子處理自己的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括 Bettelheim 的 therapeutic value。童話讓孩子透過象徵方式面對恐懼，並學會掌控焦慮，所以它們幫助孩子處理心理問題。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B help children deal with their problems.正確。 “master their anxieties” 對應 deal with their problems。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E encourage people to believe that they can do anything.這是 Jack Zipes 的命運掌控觀點，在 Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G contribute to a belief in the power of nature.原文沒有說自然力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H avoid details about the characters’ social settings.這是 Bernhard Lauer 的 writing style，不是 Bettelheim 的 therapeutic value。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "label",
+              "text": "therapeutic value原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“great comforters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“confronting fears and phobias”"
+            },
+            {
+              "kind": "quote",
+              "text": "“master their anxieties”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“help children deal with their problems”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換： therapeutic= psychologically helpful / 有心理療癒作用fears and phobias= children’s problems / inner fears master their anxieties= deal with their problems"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 “unconscious”。學生可能看到 psychoanalysts 和 unconscious，就把答案想得太抽象。其實題目選項很日常，B “help children deal with their problems” 就是把 “master their anxieties” 用簡單語言說出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 “witches, heartless stepmothers, and hungry wolves”。這些不是答案本身，它們是 fears and phobias 的象徵。題目問 therapeutic value 的意思，所以要看孩子通過這些象徵後得到什麼：master their anxieties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個中伏位是 “Bettelheim’s theory continues to be hotly debated.” 這句說 Bettelheim 的理論仍有爭議，但題目問的是 Bettelheim said 的內容，不是問作者是否完全同意他。即使理論有爭議，Bettelheim 的主張仍然清楚：童話能安慰孩子，幫助他們面對恐懼和焦慮。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Grimm’s Fairy Tales.pdf",
+    "sha256": "18d050ffa584eef98d5e6419b9e420151c07ab8c51159e34aec5a11ebac86a4e",
+    "pageCount": 50
+  },
+  "version": "2026-08-08.2"
+}

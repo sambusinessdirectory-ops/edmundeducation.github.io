@@ -1,0 +1,1249 @@
+{
+  "id": "p3-042-e-training",
+  "catalogueId": "p3-042",
+  "catalogueIds": [
+    "p3-042"
+  ],
+  "passage": 3,
+  "title": "E-training",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "i",
+    "ix",
+    "iv",
+    "vii",
+    "v",
+    "iii",
+    "A",
+    "B",
+    "F",
+    "D",
+    "B",
+    "C",
+    "E"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "i — Overview of the benefits of e-training",
+      "answerKey": "i — Overview of the benefits of e-training",
+      "type": "Matching Headings",
+      "prompt": "Questions 28–33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 28 — Paragraph A"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要為 Paragraph A 選 heading。這類題的重點是找能覆蓋全段的標題，不要被段內單一例子吸引。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“E-learning is an umbrella term for online learning, web-based training, and technology-delivered instruction, which can greatly benefit corporations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "E-learning 是 online learning、web-based training 和 technology-delivered instruction 的總稱，能為企業帶來很大好處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ernst and Young reduced training costs by 35 per cent while improving consistency and scalability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ernst and Young 把培訓成本減少 35%，同時改善一致性和可擴展性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph A 的主題是：e-learning / e-training 對公司有好處，尤其能節省成本，並能提高訓練一致性和擴展能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最接近的 headings 是：● i Overview of the benefits of e-training● ii IBM’s successful training choice● x Training delivered through computers Paragraph A 確實提到 IBM Basic Blue，但 IBM 是 “for instance”，即例子。全段還提到 travel expenses、online course、employees can learn anywhere、Ernst and Young reduced costs。因此 heading ii 範圍太窄。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主線"
+            },
+            {
+              "kind": "label",
+              "text": "核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“IBM, for instance, claims that the introduction of its e-training programme, Basic Blue, whose purpose is to train new managers, saved the company about $200 million in 1999.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如 IBM 聲稱，它引入用來訓練新經理的 e-training programme Basic Blue，在 1999 年為公司節省約 2 億美元。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cutting the travel expenses required to bring employees and instructors to a central classroom accounts for the lion’s share of the savings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "節省把員工和導師帶到中央課室所需的差旅費，是大部分節省金額的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子都在支援 e-training 的 benefits，尤其 economic benefits。Heading x 只符合第一句的定義，未能概括 IBM 和 Ernst and Young 的成本效益。Heading i 最能覆蓋全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 i。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 29 — Paragraph B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ix — Other advantages besides economic considerations"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to generally positive economic benefits, other advantages such as convenience, standardised delivery, self-paced learning, and variety of available content have made e-learning a high priority for many corporations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了一般正面的經濟效益外，便利性、標準化傳遞、自主進度學習，以及可用內容多樣化等其他優勢，也令 e-learning 成為許多公司高度優先處理的項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But if it helps reduce costs and the number of windowless classrooms filled with snoring students, it definitely has its advantages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果它能幫助減少成本，以及減少那些沒有窗、坐滿打瞌睡學生的課室數量，它確實有其優勢。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 的 wording 幾乎直接對應本段第一句：● “Other advantages” 對應 “other advantages”● “besides economic considerations” 對應 “In addition to generally positive economic benefits”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主線"
+            },
+            {
+              "kind": "label",
+              "text": "本段不只講錢，還講："
+            },
+            {
+              "kind": "quote",
+              "text": "“E-learning is widely believed to offer flexible ‘any time, any place’ learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍相信 e-learning 能提供靈活的「任何時間、任何地點」學習。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "又說它可用於 IT certification、sexual harassment education、safety training 和 management training。段末補充 blended approach，但這只是建議使用方式，不是整段主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i “Overview of the benefits of e-training” 也像合理答案，但 Paragraph B 的第一句已明確限定：這裡講的是 economic benefits 之外的 other advantages。因此 ix 比 i 更精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ix。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 30 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iv — Learners’ achievement and advanced teaching materials"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of the discussion about implementing e-learning has focused on the technology, but as Driscoll and others have reminded us, e-learning is not just about technology; it also involves many human factors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於實施 e-learning 的許多討論都集中在科技上，但正如 Driscoll 和其他人提醒我們，e-learning不只涉及科技，也涉及許多人的因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nelson reported a significant difference between the mean grades earned by 406 university students in traditional and distance-education classes, with the distance learners outperforming the traditional learners.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nelson 報告指出，406 名大學生在傳統課堂和 distance-education classes 中取得的平均成績有顯著差異，而且 distance learners 表現優於 traditional learners。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 有兩部分：● Learners’ achievement● advanced teaching materials Paragraph C 中間正好提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“E-training promises more effective teaching techniques by integrating audio, video, animation, text and interactive materials…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "E-training 透過整合 audio、video、animation、text 和 interactive materials，承諾提供更有效的教學技巧。"
+            },
+            {
+              "kind": "label",
+              "text": "後半又提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“e-learners performed 20 per cent better than traditional learners.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "e-learners 比 traditional learners 表現好 20%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不是單純講 technology，也不是只講 distance learners outperform traditional learners。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 只符合段尾 Nelson 的研究；Heading vi 只抓到 multimedia 這一項。Paragraph C 的完整主線是：e-training 透過多媒體和互動材料改善教學，並帶來較好的 learning performance、motivation 和 lower test anxiety。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 heading iv 同時覆蓋「材料」和「成效」，最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iv。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 31 — Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vii — Technology can be a major financial burden"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, nobody said e-training technology would be cheap.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，沒有人說 e-training technology 會便宜。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many other success stories exist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "還有許多其他成功例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已非常強，直接指出本段會談成本問題。段尾雖然提到 success stories，但中間大部分內容都在列出開發、平台和網絡的費用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的 “financial burden” 對應段中大量成本資料：● $10,000 to $60,000 to develop one hour of online instruction● LMS infrastructure● network bandwidth● costs can top $500,000 in the first year"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主線"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A complete e-learning solution also includes the technology platform…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一套完整的 e-learning solution 也包括 technology platform。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the LMS infrastructure and a dozen or so online courses, costs can top $500,000 in the first year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LMS infrastructure 加上大約十多個 online courses，首年成本可超過 500,000 美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 最精準，因為全段重點是 e-training 技術和平台帶來高昂成本。段尾 Rockwell Collins的例子說明大型公司可成功回收成本，但它沒有改變全段主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 32 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：v — Limitations of e-training compared with traditional classes"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“E-learning isn’t expected to replace the classroom entirely.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們不預期 e-learning 會完全取代課室。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A student who does not possess these skills or does not have access to these tools cannot succeed in an e-learning programme.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果學生沒有這些技能，或沒有使用這些工具的途徑，就無法在 e-learning programme 中成功。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的 “Limitations” 對應本段多個限制：● bandwidth limitations● e-training isn’t suited to every mode of instruction or topic● ineffective at imparting cultural values or building teams● loss of research time● computer literacy and access to equipment"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "label",
+              "text": "本段直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, e-training isn’t suited to every mode of instruction or topic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，e-training 並不適合每一種教學模式或主題。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Group training sessions are more suitable for these purposes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Group training sessions 更適合這些目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示本段把 e-training 和 traditional / group classes 作比較，指出哪些情境仍需課室或面對面訓練。Heading v 最能覆蓋整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 33 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii — Future direction and a new style of teaching"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While few people debate the obvious advantages of e-learning, systematic research is needed to confirm that learners are actually acquiring and using the skills that are being taught online, and that e-learning is the best way to achieve the outcomes in a corporate environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然很少人質疑 e-learning 的明顯優點，但仍需要 systematic research 來確認學習者是否真正取得並運用 online 所教技能，以及 e-learning 是否是在企業環境中達成成果的最佳方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through a blended learning approach, technology will be more important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過 blended learning approach，technology 將會變得更重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iii 的 “Future direction” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nowadays, a blended-learning approach… is gaining popularity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，blended-learning approach 正變得流行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a new style of teaching” 對應 combining face-to-face classroom methods with computer-mediated activities。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主線"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“It combines traditional face-to-face classroom methods with more modern computer-mediated activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它結合傳統面對面課堂方法和較現代的電腦媒介活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不是繼續列出成本或限制，而是指出未來較可能流行的方向：blended learning。Heading iii最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iii。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“Project Basic Blue at IBM was highly successful.”",
+      "translation": "IBM 的 Basic Blue project 非常成功。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。這段首句定義 e-learning 並說它能 greatly benefit corporations；尾句補充 Ernst and Young 的成本下降。段落功能是介紹企業採用 e-training 的好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “IBM” 和 “Basic Blue”。Paragraph A 直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“IBM, for instance, claims that the introduction of its e-training programme, Basic Blue, whose purpose is to train new managers, saved the company about $200 million in 1999.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如 IBM 聲稱，它引入用來訓練新經理的 e-training programme Basic Blue，在 1999 年為公司節省約 2 億美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“saved the company about $200 million” 足以支持 “highly successful”。題目沒有要求找 exact amount，只問哪段提到 Basic Blue 的成功。Paragraph A 是唯一出現 IBM Basic Blue 的段落。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“E-learning is a priority for many corporations because of its flexibility.”",
+      "translation": "E-learning 因其靈活性而成為許多公司的優先事項。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。首句已說 other advantages made e-learning a high priority for many corporations；段中又講 flexible “any time, any place” learning。這段和題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “priority”、“corporations”、“flexibility”。Paragraph B 首句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“...have made e-learning a high priority for many corporations.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“E-learning is widely believed to offer flexible ‘any time, any place’ learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍相信 e-learning 能提供靈活的「任何時間、任何地點」學習。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “flexibility” 概括自 “any time, any place learning”，也呼應 convenience、self-paced learning 等優勢。這組資訊集中在 Paragraph B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“The combination of the traditional and e-training environments may prevail.”",
+      "translation": "傳統訓練環境和 e-training 環境的結合可能會成為主流。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。首句說仍需 systematic research；段尾說 blended learning approach 中technology 會更重要。這段明顯是未來方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “combination”、“traditional”、“e-training environments”、“may prevail”。Paragraph F 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nowadays, a blended-learning approach, which refers to a mix of different learning environments, is gaining popularity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，blended-learning approach 正變得流行；它指的是不同學習環境的混合。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“It combines traditional face-to-face classroom methods with more modern computer-mediated activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它結合傳統面對面課堂方法和較現代的電腦媒介活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“is gaining popularity” 對應 “may prevail”；“combines traditional face-to-face classroom methods with… computer-mediated activities” 對應題目的 traditional and e-training environments。 Paragraph B 也短暫提到 “blended” approach，但 Paragraph F 用整段討論 blended learning 的興起和未來角色，因此更適合作為答案。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“An example of rapid electronic delivery for a company’s products to its customers.”",
+      "translation": "某公司把產品快速以電子方式傳送給客戶的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。這段主題是 technology cost burden，但後半轉到大型公司的成功例子，其中包括 Rockwell Collins。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “rapid electronic delivery”、“company’s products”、“customers”。原文沒有 customers這個字，但有 “clients”；沒有 products，但有 “courses that Rockwell Collins offers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, over half of the 400-plus courses that Rockwell Collins offers are delivered instantly to its clients in an e-learning format, a change that has reduced its annual training costs by 40 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，Rockwell Collins 提供的 400 多個課程中，超過一半能以 e-learning format 即時傳送給客戶；這項改變令其年度培訓成本減少 40%。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● rapid electronic delivery = delivered instantly in an e-learning format● customers = clients● company’s products = courses that Rockwell Collins offers所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B, C, E",
+      "answerKey": "B, C, E",
+      "type": "Choose THREE Letters",
+      "prompt": "Questions 38–40",
+      "translation": "首先，在 Internet 上呈現 multimedia 時，bandwidth limitations 仍然是一個問題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這組多選題要每個正確選項獨立證明，並追蹤每個選項是否被原文支持、限制或否定。 從選項內容來看，這組考的是 e-learning / e-training 的限制，目標段落集中在 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — Presenting multimedia over the Internet is restricted due to the bandwidth limitations.正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“For one thing, bandwidth limitations are still an issue in presenting multimedia over the Internet.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和選項 B 幾乎是直接改寫：● bandwidth limitations = bandwidth limitations● presenting multimedia over the Internet = presenting multimedia over the Internet● restricted / issue = 受到限制、構成問題所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C — It is ineffective at imparting unique corporate values to new employees.正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, e-training isn’t suited to every mode of instruction or topic. For instance, it’s rather ineffective at imparting cultural values or building teams.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，e-training 並不適合每一種教學模式或主題。例如，它在傳達文化價值或建立團隊方面相當無效。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“If your company has a unique corporate culture, it would be difficult to convey that to first-time employees through a computer monitor.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你的公司有獨特 corporate culture，要透過電腦螢幕把它傳達給首次入職員工會很困難。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● unique corporate values = unique corporate culture / cultural values● new employees = first-time employees● ineffective at imparting = difficult to convey所以 C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E — More preparation time is needed to keep the course at a suitable level.正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, there is a perceived loss of research time because of the work involved in developing and teaching online classes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，由於開發和教授 online classes 涉及大量工作，人們感到研究時間有所損失。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Wallin estimated that it required between 500 and 1,000 person-hours, that is, Wallin-hours, to keep the course at the appropriate level of currency and usefulness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wallin 教授估計，要讓課程保持適當的時效性和實用性，需要 500 至 1,000 person-hours，也就是 Wallin-hours。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● More preparation time is needed = required between 500 and 1,000 person-hours● keep the course at a suitable level = keep the course at the appropriate level of currency and usefulness所以 E 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 A 和 D 不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A — Technical facilities are difficult to obtain. Paragraph E 確實說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any e-learning system involves basic equipment and a minimum level of computer knowledge…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何 e-learning system 都涉及基本設備和最低程度的電腦知識。"
+            },
+            {
+              "kind": "label",
+              "text": "也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A student who does not possess these skills or does not have access to these tools cannot succeed…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果學生沒有這些技能，或沒有使用這些工具的途徑，就無法成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援的是「需要設備和電腦知識」以及「沒有 access 會失敗」。選項 A 進一步說 technical facilities are difficult to obtain，加入了「難以取得」這個程度判斷。文章沒有直接說 technical facilities 普遍難以取得，因此 A 的證據不如 B、C、E 精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — Employees must spend long periods away from their jobs to attend training.這句看似有原文支援，但它其實來自 Paragraph C 對 traditional classroom instruction 的批評："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the classroom’s greatest disadvantage is the fact that it takes employees out of their jobs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "課室教學最大的缺點大概是，它會把員工從工作崗位上抽離。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 traditional classroom 的問題，並非 Paragraph E 中 e-learning 的限制。Questions 38–40 要找 e-learning 的限制，所以 D 不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        38,
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -E-training.pdf",
+    "sha256": "c1ac2870404b70d62f577068f90c57538f84eca3e92cb2156dd4ee2a08d3b349",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首尾句，Paragraph A 先定義 e-learning 是 online learning、web-based training 和technology-delivered instruction 的總稱，並指出它對公司有很大好處。段尾用 Ernst and Young作例，說它減少 training costs 35%，同時改善 consistency 和 scalability。這段功能是介紹e-training 的整體企業利益，特別是節省成本。IBM Basic Blue 只是其中一個例子，不能把全段縮成 IBM 一家公司。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句以 “In addition to generally positive economic benefits” 開始，直接指出除經濟好處外，e-learning 還有 convenience、standardised delivery、self-paced learning 和內容多樣化等優勢。段尾說 e-learning 不是 universal solution，但若能減少成本和沉悶課室，確實有其優點。這段功能是補充非金錢層面的好處，尤其 flexible “any time, any place” learning，以及適合明確目標的 training topics。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句提醒，e-learning 的討論不應只集中在 technology，也涉及 human factors。段尾引用 Nelson 的研究，說 distance learners 成績優於 traditional learners。這段功能是說明e-training 如何改善教學和學習表現：它能整合 audio、video、animation、text 和 interactive materials，讓學生按個人速度學習。段中也提到 motivation、time on task、test anxiety 和performance results，因此重心落在學習成效與教學材料。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句用 “On the other hand” 轉折，指出 e-training technology 並不便宜。段尾說仍有很多 success stories。這段功能是處理高成本問題：online instruction 每小時開發費可達$10,000 至 $60,000，LMS、network bandwidth 和 multimedia courses 也令首年成本可超過$500,000。雖然大型公司可透過規模效益回本，段落主線仍是 technology 成本負擔。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說 e-learning 預計不會完全取代 classroom。段尾說，如果學生沒有基本電腦知識或設備，就無法在 e-learning programme 中成功。這段功能是列出 e-training 相比傳統課堂的限制：bandwidth limitations、某些 topic 不適合、難以傳達 corporate culture 或建立 teams、製作和更新課程需大量時間，以及學生需要 computer literacy 和 access to equipment。Questions 38–40 主要集中在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句說，雖然很少人質疑 e-learning 的明顯優點，但仍需要 systematic research 來確認學習者是否真正取得並運用 online 所教技能。段尾說，在 blended learning approach 中， technology 會更重要。這段功能是展望未來方向：blended learning 正變得流行，把 traditional face-to-face classroom methods 和 computer-mediated activities 結合，形成更 integrated 的教與學模式。"
+      }
+    ]
+  }
+}

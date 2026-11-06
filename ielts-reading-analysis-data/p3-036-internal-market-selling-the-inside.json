@@ -1,0 +1,1183 @@
+{
+  "id": "p3-036-internal-market-selling-the-inside",
+  "catalogueId": "p3-036",
+  "catalogueIds": [
+    "p3-036"
+  ],
+  "passage": 3,
+  "title": "Internal Market: Selling the inside",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "C",
+    "D",
+    "A",
+    "E",
+    "B",
+    "YES",
+    "YES",
+    "NO",
+    "NO",
+    "NO",
+    "NO",
+    "NOT GIVEN",
+    "YES"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — produced a conflicting image between its employees and the general public.",
+      "answerKey": "C — produced a conflicting image between its employees and the general public.",
+      "type": "Sentence Endings",
+      "prompt": "“A health company ______”",
+      "translation": "一間健康／醫療保險公司……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。第一句說員工需要聽到公司向市場發出的相同訊息；最後一句說另一間金融機構沒有把改變在內部推行，所以員工行為沒有配合外部承諾。只看首尾句，這段明顯處理 internal message 和 external message 不一致的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “health company”。原文沒有直接寫 “health company”，但有 “One health insurance company”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One health insurance company, for instance, advertised that the welfare of patients was the company’s number one priority, while employees were told that their main goal was to increase the value of their stock options through cost reductions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一間健康保險公司對外宣稱病人的福祉是公司的首要任務；同時，員工卻被告知，他們的主要目標是透過削減成本來提高股票期權價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有兩個訊息：對外：patients’ welfare = number one priority對內：cost reductions / stock options = main goal這正好對應 C 的 “conflicting image between its employees and the general public”。顧客看到的是以病人為先；員工收到的是以成本和股票價值為先。兩邊訊息不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — produced a conflicting image between its employees and the general public.",
+      "answerKey": "C — produced a conflicting image between its employees and the general public.",
+      "type": "Sentence Endings",
+      "prompt": "“A financial institution ______”",
+      "translation": "一間金融機構……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍然是 Paragraph 4。段落第一句強調員工需要聽到和市場相同的訊息；最後一句指出金融機構領導層沒有在內部推廣轉型，因此員工行為沒有配合新的 adviser role。這段同時包含 health company 和 financial institution 兩個例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “financial institution”。原文直接出現 “one major financial services institution”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And one major financial services institution told customers that it was making a major shift in focus from being a financial retailer to a financial adviser, but, a year later, research showed that the customer experience with the company had not changed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一間大型金融服務機構告訴顧客，公司正從金融零售商轉向金融顧問；但一年後，研究顯示顧客體驗沒有改變。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“It turned out that company leaders had not made an effort to sell the change internally, so employees were still churning out transactions and hadn’t changed their behaviour to match their new adviser role.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果發現，公司領導層沒有努力在內部推廣這項改變，所以員工仍然只是大量處理交易，沒有改變行為去配合新的顧問角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對外形象：financial adviser員工實際行為：still churning out transactions這也是內外訊息不一致，所以同樣配 C。題目說選項可以重複使用，因此 27 和 28 都可選 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "D — successfully used an advertising campaign to inspire employees.",
+      "answerKey": "D — successfully used an advertising campaign to inspire employees.",
+      "type": "Sentence Endings",
+      "prompt": "“A computer company ______”",
+      "translation": "一間電腦公司……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。首句指出內外訊息一致不只為了滿足顧客期望，也可推動公司達成原本難以達成的目標。最後一句說現在人們更容易把 “e-business” 和 IBM 聯繫起來。這段核心例子就是 IBM。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “computer company”。原文沒有直接寫 computer company，但 IBM 是明顯的科技／電腦公司；更強定位詞是 “e-business campaign” 和 “IBM”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although to the outside world this looked like an external marketing effort, IBM was also using the campaign to align employees around the idea of the Internet as the future of technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然在外界看來，這像是一場外部行銷活動，但 IBM 也在利用這場活動，讓員工圍繞「互聯網是科技未來」這一理念保持一致。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The campaign was successful largely because it gave employees a sense of direction and purpose…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場活動之所以成功，很大程度上是因為它給員工方向感和目標感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 “successfully used an advertising campaign to inspire employees”，正好概括 IBM 的e-business campaign。它既是 external marketing，也成功激勵和調整員工方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — alienated its employees by its apologetic branding campaign.",
+      "answerKey": "A — alienated its employees by its apologetic branding campaign.",
+      "type": "Sentence Endings",
+      "prompt": "“An airline ______”",
+      "translation": "一間航空公司……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。第一句提醒公司要把員工納入考慮，避免品牌訊息引起員工怨氣；最後一句明確說 United 的廣告原則失效，原因在於沒有考慮 internal market。這段就是 United Airlines 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “airline”。原文直接出現 “United Airlines”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an effort to own up to the industry’s shortcomings, United launched a new campaign,‘Rising,’ in which it sought to differentiate itself by acknowledging poor service and promising incremental improvements such as better meals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了承認航空業的不足，United 推出新的 “Rising” 活動，希望透過承認服務差並承諾逐步改善，例如更好的餐膳，來讓自己與其他公司區分開來。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“While this was a logical premise for the campaign given the tenor of the times, a campaign focusing on customers’ distaste for flying was deeply discouraging to the staff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在當時氣氛下，這個活動前提對顧客來說有其邏輯；但一個集中於顧客厭惡飛行體驗的活動，對員工來說非常令人灰心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的 “apologetic branding campaign” 對應原文的 “acknowledging poor service”。“alienated its employees” 對應 “deeply discouraging to the staff” 和 “Employee resentment”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "E — draws on the legends of the company spirit.",
+      "answerKey": "E — draws on the legends of the company spirit.",
+      "type": "Sentence Endings",
+      "prompt": "“A sport shoe company ______”",
+      "translation": "一間運動鞋公司……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。第一句說廣告不是連接內外行銷的唯一方法；最後一句說 Nike 透過講述創新故事，保持公司內部的創新精神。這段明顯是 Nike。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sport shoe company”。原文直接提到 Nike，並提到 shoe、Waffle Sole 和 Bill Bowerman。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Nike, a number of senior executives now hold the additional title of ‘Corporate Storyteller.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Nike，一些高層現在還擁有 “Corporate Storyteller” 這個額外職銜。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“One tale, for example, recalls how legendary coach and Nike cofounder Bill Bowerman…poured rubber into the family waffle iron, giving birth to the prototype of Nike’s famous Waffle Sole.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，其中一個故事回憶傳奇教練兼 Nike 共同創辦人 Bill Bowerman 如何把橡膠倒進家中的窩夫機，從而誕生 Nike 著名 Waffle Sole 的原型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nike 用公司創辦故事、創新故事和品牌精神來教育內部員工。選項 E 的 “legends of the company spirit” 正好概括這種 Corporate Storyteller 做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — attracted negative publicity through its advertising campaign.",
+      "answerKey": "B — attracted negative publicity through its advertising campaign.",
+      "type": "Sentence Endings",
+      "prompt": "“A railway company ______”",
+      "translation": "一間鐵路公司……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。第一句說外部承諾可稍微走在內部現實之前；最後一句說 British Rail的例子令員工士氣受挫。這段用 Ford 和 British Rail 對比說明承諾差距的界線。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “railway company”。原文直接出現 “British Rail”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a beleaguered British Rail launched a campaign announcing service improvements under the banner ‘We’re Getting There,’ it did so prematurely.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當處境艱難的 British Rail 以 “We’re Getting There” 為口號推出宣傳，宣布服務改善時，它推出得太早。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“By drawing attention to the gap between the promise and the reality, it prompted destructive press coverage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場宣傳把人們注意力引向承諾和現實之間的差距，因而引發破壞性的媒體報道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“destructive press coverage” 對應選項 B 的 “negative publicity”。因此 railway company 配 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“A strong conviction in the brand can contribute to higher job performance.”",
+      "translation": "對品牌有強烈信念，可以有助提升工作表現。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。第一句直接問 internal marketing 為何重要；最後一句說員工會被共同目標感和身份感團結並激勵。這段明顯講品牌信念對員工行為的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “strong conviction in the brand” 和 “higher job performance”。原文對應 “care about and believe in the brand” 以及 “motivated to work harder”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We’ve found that when people care about and believe in the brand, they’re motivated to work harder and their loyalty to the company increases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們發現，當人們關心並相信品牌時，他們會更有動力努力工作，對公司的忠誠度也會提升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “strong conviction in the brand” 對應 “care about and believe in the brand”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “higher job performance” 對應 “motivated to work harder”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文沒有逐字寫 performance，但 “work harder” 直接支援工作表現提高的方向。答案是YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It is common for companies to overlook the necessity for internal communication.”",
+      "translation": "公司常常忽略內部溝通的必要性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題可由 Paragraph 1、3 和 4 合併支持。Paragraph 1 最後一句說公司經常忽略 employees 這個 critical constituency。Paragraph 3 第一句說 internal marketing 在多數公司做得很差，甚至根本沒有。Paragraph 4 第一和最後一句則展示訊息沒有在內部有效傳達所帶來的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “common”、“overlook”、“internal communication”。原文對應 “very often ignore”、“in most companies”、“done poorly, if at all”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph 1 原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…companies very often ignore this critical constituency.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司經常忽略這個重要群體。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, in most companies, internal marketing is done poorly, if at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不幸的是，在多數公司，內部行銷即使存在，也做得很差。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“At most companies, however, internal and external communications are often mismatched.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在大多數公司，內部和外部溝通常常不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “internal communication” 概括文章所講的 internal marketing / internal messages /internal communications。文章不只說偶然出現問題，而是用 “very often”、“in most companies”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“at most companies” 反覆強調這是常見現象。答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 也說 executives recognise the need to keep people informed about strategy and direction。這代表有些高層知道要通知員工策略，但文章真正批評的是：他們沒有把品牌訊息有效地賣給員工，也沒有讓內外訊息一致。因此整體方向仍支持 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Consumers were ready to view IBM as a leader in e-business before the advertising campaign.”",
+      "translation": "在廣告活動之前，消費者已準備好把 IBM 視為 e-business 領導者。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。第一句說公司配合內外訊息也可幫助達成原本難以達成的目標；最後一句說今天人們很容易把 “e-business” 與 IBM 聯繫。這暗示 IBM 的成功是 campaign 之後建立的，不是 campaign 前已自然存在。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “IBM”、“leader in e-business”、“before the advertising campaign”。原文直接出現 IBM和 e-business。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1997, when IBM launched its e-business campaign … it chose to ignore research that suggested consumers were unprepared to embrace IBM as a leader in e-business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1997 年，IBM 推出 e-business 宣傳活動時，它選擇忽略一項研究；該研究指出消費者尚未準備好接受 IBM 作為 e-business 領導者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 consumers were ready。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 consumers were unprepared。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接相反，所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“United Airlines’ failure in its branding campaign was due to bad advice from an advertising agency.”",
+      "translation": "United Airlines 品牌活動失敗，是因為廣告公司給了錯誤建議。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。第一句說公司需要把員工納入考慮，否則訊息可能引起員工怨氣；最後一句說 United 失敗是因為沒有考慮 internal market。只看首尾句，已經可以預測失敗原因在員工和內部市場，不在廣告公司建議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “United Airlines”、“failure”、“advertising agency”。原文有 United Airlines，但沒有advertising agency。真正對應 failure cause 的字是 “employee resentment”、“employee opposition” 和 “did not consider the internal market”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employee resentment ultimately made it impossible for United to deliver the improvements it was promising, which in turn undermined the ‘Rising’ pledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "員工怨氣最終使 United 無法實現它所承諾的改善，這反過來削弱了 “Rising” 的承諾。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three years later, United decided employee opposition was undermining its success and pulled the campaign.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "三年後，United 認為員工反對正在削弱活動的成功，因此撤回了這場活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…failed United because it did not consider the internal market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個原則在 United 身上失效，原因是它沒有考慮內部市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文已經明確給出失敗原因：employee resentment / employee opposition / failure to consider the internal market。題目把原因改成 bad advice from an advertising agency，但文章沒有這個人物或機構，也沒有把責任歸給外部廣告公司。由於文章已有明確原因，題目原因與原文主張不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“United Airlines eventually abolished its campaign to boost its image as a result of market research.”",
+      "translation": "United Airlines 最後因市場研究而撤回提升形象的宣傳活動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍然是 Paragraph 6。第一句說如果考慮員工，公司可以避免訊息引起怨氣；最後一句說 United的問題是沒有考慮 internal market。段落主軸是員工反應，不是市場研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “United Airlines”、“abolished its campaign”、“market research”。原文有 survey，但要看它對應的是哪個行動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1996, United Airlines shelved its ‘Come Fly the Friendly Skies’ slogan when presented with a survey that revealed the depth of customer resentment toward the airline industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 年，United Airlines 在看到一項調查後，擱置了 “Come Fly the Friendly Skies” 口號；該調查揭示顧客對航空業怨氣很深。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 survey 確實促使 United 放棄舊 slogan。可是題目說 eventually abolished its campaign，較自然指後來撤回 “Rising” campaign。原文對 “Rising” campaign 的撤回原因是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three years later, United decided employee opposition was undermining its success and pulled the campaign.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "三年後，United 認為員工反對正在削弱它的成功，因此撤回了這場活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "撤回 “Rising” 的原因是 employee opposition，不是 market research。題目把早前 survey 的作用錯放到後來 pull the campaign 的原因上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It was an expensive mistake for IBM to launch its new e-business campaign.”",
+      "translation": "IBM 推出新的 e-business 活動是一個昂貴的錯誤。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5 和 Paragraph 7。Paragraph 5 最後一句顯示 IBM e-business campaign 結果成功；Paragraph 7 說八頁廣告很昂貴，但也是強而有力的溝通方式。這題容易混合 true 和 false：expensive 有根據，mistake 沒有根據，且和原文方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “IBM”、“expensive”、“e-business campaign”。原文 Paragraph 7 有 “This is an expensive way to capture attention”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is an expensive way to capture attention, but if used sparingly, it is the most powerful form of communication…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種昂貴的吸引注意方式，但如果謹慎使用，它是最有力的溝通形式。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The campaign was successful largely because it gave employees a sense of direction and purpose…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場活動之所以成功，很大程度上是因為它給員工方向感和目標感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 expensive 部分得到支持，但 mistake 和原文相反。原文把 IBM 的 campaign 描述為successful、powerful，並說它成功建立了 IBM 和 e-business 的聯想。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “expensive” 原字時，學生可能想選 YES。真正控制答案的是 “mistake”。一個做法可以expensive，但仍然 effective。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Nike employees claimed that they were inspired by their company stories.”",
+      "translation": "Nike 員工聲稱，他們受到公司故事啟發。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。第一句說廣告不是連接內外行銷的唯一方式；最後一句說 Nike 希望透過創新故事保持公司內部的創新精神。這段講 Nike 的做法和公司希望達成的效果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Nike employees”、“claimed”、“inspired”、“company stories”。原文有 Nike、Corporate Storyteller、stories，但沒有 employees claimed。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Nike, a number of senior executives now hold the additional title of ‘Corporate Storyteller.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Nike，一些高層現在還擁有 “Corporate Storyteller” 這個額外職銜。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“By talking about such inventive moves, the company hopes to keep the spirit of innovation that characterises its ad campaigns alive and well within the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過講述這類創新舉動，公司希望把其廣告活動所展現的創新精神在公司內部保持鮮活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 company hopes，即公司希望這些故事維持創新精神。題目說 employees claimed，即員工自己聲稱受到啟發。文章沒有提供員工的反應、訪問、評價或聲明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“company hopes” 不等於 “employees claimed”。前者是公司意圖，後者是員工反饋。原文只提供意圖，沒有提供結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“A slight difference between internal and external promises can create a sense of purpose.”",
+      "translation": "內部現實和外部承諾之間有一點差距，可以創造目標感。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。第一句說公司要讓 external promises a little ahead of internal realities；最後一句用 British Rail 說明差距太大會打擊員工士氣。只看首尾句，可以先猜這段處理「承諾與現實之間的距離」：一點差距有激勵作用，過大差距會出事。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “slight difference”、“internal and external promises”、“sense of purpose”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“external promises a little ahead of internal realities”、“provide incentives”、“something to live up to”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“But while their messages must be aligned, companies must also keep external promises a little ahead of internal realities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然公司訊息必須一致，但公司也要讓外部承諾稍微走在內部現實之前。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such promises provide incentives for employees and give them something to live up to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類承諾會給員工激勵，讓他們有一個可以努力達到的目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “slight difference” 對應 “a little ahead”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “create a sense of purpose” 對應 “provide incentives” 和 “something to live up to”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "嚴格來說，原文說的是 external promises 和 internal realities，不是兩種 promises。但題目抓住的核心方向是：外部承諾稍微超前內部現實，可以激勵員工，給他們努力方向。這個意思由原文清楚支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要同時看到限制。原文支持的是 “a little ahead”，不是大幅超前。後面 British Rail 的例子提醒我們：如果承諾走得太前，就會 lose credibility，甚至引發 destructive press coverage。真正成立的是「小差距可激勵」，不是「任何差距都有效」。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Internal Market_ Selling the inside.pdf",
+    "sha256": "f3103053391f2183e3d4307b7aca2a142c7d89a7e1d33559531485b8d67d2176",
+    "pageCount": 19
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "引入 internal market 的重要性第一句：“When you think of marketing, you more than likely think of marketing to your customers: How can you persuade more people to buy what you sell?”中文意思：當你想到 marketing，你很可能想到的是向顧客行銷：怎樣說服更多人購買你的產品？最後一句：“Yet in our work helping executives develop and carry out branding campaigns, my colleagues and I have found that companies very often ignore this critical constituency.”中文意思：然而，在我們協助高層制定和執行品牌宣傳時，我和同事發現，公司經常忽略這個重要群體。段落功能：這段提出全文主題：除了顧客，公司還有另一個重要市場，即 employees。作者指出很多公司忽略員工這個內部市場。"
+      },
+      {
+        "number": "2",
+        "summary": "internal marketing 能提升員工投入和表現第一句：“Why is internal marketing so important?”中文意思：為甚麼內部行銷如此重要？最後一句：“Employees are united and inspired by a common sense of purpose and identity.”中文意思：員工會因共同的目標感和身份感而團結並受到鼓舞。段落功能：這段解釋內部行銷的核心價值：員工若相信品牌，會更努力、更忠誠，也更能一致地實踐品牌承諾。Question 33 主要來自這段。"
+      },
+      {
+        "number": "3",
+        "summary": "多數公司做不好 internal marketing第一句：“Unfortunately, in most companies, internal marketing is done poorly, if at all.”中文意思：不幸的是，在大多數公司，內部行銷即使存在，也做得很差。最後一句：“While executives recognise the need to keep people informed about the company’s strategy and direction, few understand the need to convince employees of the brand’s power—they take it as a given.”中文意思：雖然高層知道需要讓員工了解公司的策略和方向，但很少人明白還需要說服員工相信品牌的力量；他們把這一點視為理所當然。段落功能：這段指出常見問題：公司通常只把內部溝通理解成「通知策略」，沒有真正說服員工相信品牌。 Question 34 可定位到這段，也可結合 Paragraph 1 和 4 理解。"
+      },
+      {
+        "number": "4",
+        "summary": "內外訊息不一致的例子：health company 和financial institution第一句：“Employees need to hear the same messages that you send out to the marketplace.”中文意思：員工需要聽到和公司向市場發出的相同訊息。最後一句：“It turned out that company leaders had not made an effort to sell the change internally, so employees were still churning out transactions and hadn’t changed their behaviour to match their new adviser role.”中文意思：結果發現，公司領導層沒有努力把這項轉變在內部推廣，因此員工仍然只是大量處理交易，行為並沒有改變成新的顧問角色。段落功能：這段處理內部和外部訊息不一致的風險，並提供兩個例子：health insurance company 和financial services institution。Questions 27 和 28 來自這段。"
+      },
+      {
+        "number": "5",
+        "summary": "IBM：用品牌宣傳推動員工方向感第一句：“Enabling employees to deliver on customer expectations is important, of course, but it’s not the only reason a company needs to match internal and external messages.”中文意思：讓員工能夠實踐顧客期望當然重要，但這不是公司需要配合內外訊息的唯一原因。最後一句：“Today, research shows that people are four times more likely to associate the term ‘e-business’ with IBM than with its nearest competitor.”中文意思：今天，研究顯示人們把 “e-business” 這個詞和 IBM 聯繫起來的可能性，是其最接近競爭對手的四倍。段落功能：這段用 IBM 說明：外部宣傳也可以同時推動內部轉型，令員工建立方向感、目的感和信心。 Questions 29、35、38 都和這段有關。"
+      },
+      {
+        "number": "6",
+        "summary": "United Airlines：忽略員工感受令品牌承諾失敗第一句：“Perhaps even more important, by taking employees into account, a company can avoid creating a message that doesn’t resonate with staff or, worse, one that builds resentment.”中文意思：也許更重要的是，如果公司把員工納入考慮，就能避免創造出一個員工沒有共鳴，甚至引起怨氣的訊息。最後一句：“Here, a fundamental principle of advertising—find and address a customer concern—failed United because it did not consider the internal market.”中文意思：在這個例子中，一條基本廣告原則——找出並回應顧客關注——在 United 身上失效，原因是它沒有考慮內部市場。段落功能：這段分析 United Airlines 的 “Rising” campaign 為何失敗：它回應了顧客不滿，卻令員工感到沮喪和抗拒。Questions 30、36、37 來自這段。"
+      },
+      {
+        "number": "7",
+        "summary": "用同一個 external ad 同時對外和對內溝通第一句：“When it comes to execution, the most common and effective way to link internal and external marketing campaigns is to create external advertising that targets both audiences.”中文意思：執行時，連接內部和外部行銷活動最常見、最有效的方法，是創造同時面向兩類受眾的外部廣告。最後一句：“Such a tactic signals that the company is taking its pledge very seriously; it also signals transparency—the same message going out to both audiences.”中文意思：這種做法顯示公司非常認真看待自己的承諾；它也顯示透明度，因為同一個訊息同時發給兩類受眾。段落功能：這段補充 IBM 的執行方法：用一個高能見度廣告同時觸達外部顧客和內部持份者。"
+      },
+      {
+        "number": "8",
+        "summary": "Nike：用公司故事延續品牌精神第一句：“Advertising isn’t the only way to link internal and external marketing.”中文意思：廣告不是連接內部和外部行銷的唯一方法。最後一句：“By talking about such inventive moves, the company hopes to keep the spirit of innovation that characterises its ad campaigns alive and well within the company.”中文意思：透過講述這類創新舉動，公司希望把其廣告活動所展現的創新精神在公司內部保持鮮活。段落功能：這段用 Nike 說明，除了廣告，公司也可以透過故事傳承品牌精神。Question 31 和 39 來自這段。"
+      },
+      {
+        "number": "9",
+        "summary": "外部承諾可稍微超前現實，但不能過度第一句：“But while their messages must be aligned, companies must also keep external promises a little ahead of internal realities.”中文意思：雖然公司訊息必須一致，但公司也要讓外部承諾稍微走在內部現實之前。最後一句：“This, in turn, demoralised staff, who had been legitimately proud of the service advances they had made.”中文意思：這反過來令員工士氣受挫；其實他們本來有理由為自己已經取得的服務進步感到自豪。段落功能：這段提出細緻原則：外部承諾可以稍微高於內部現實，因為它能給員工目標；但若差距太大，就會失去可信度，引發負面宣傳並打擊士氣。Questions 32 和 40 來自這段。"
+      }
+    ]
+  }
+}

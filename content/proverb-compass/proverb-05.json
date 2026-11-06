@@ -1,0 +1,543 @@
+{
+  "id": "proverb-05",
+  "titleEn": "He Who Is Absent Is Always in the Wrong",
+  "titleZh": "人不在場，容易被怪責",
+  "version": "2026-10-28.1",
+  "scoredCount": 12,
+  "items": [
+    {
+      "id": "proverb-05-q01",
+      "number": 1,
+      "promptEn": "While Ka was on leave, the team blamed her for a late report without checking the record.",
+      "promptZh": "會議時嘉嘉請假，組員未查紀錄便把遲交報告歸咎於她。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The team blamed Ka before hearing her account—he who is absent is always in the wrong.",
+          "reasonZh": "未聽她解釋便怪責，符合諺語的警告。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ka admitted that she had delayed the report—he who is absent is always in the wrong.",
+          "reasonZh": "原文沒有嘉嘉承認的事實。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The team waited to hear Ka before deciding—he who is absent is always in the wrong.",
+          "reasonZh": "組員沒有等她說明。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Ka’s absence proved she had caused the delay—he who is absent is always in the wrong.",
+          "reasonZh": "缺席不能證明造成延誤。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q02",
+      "number": 2,
+      "promptEn": "A gym key went missing, and the only employee absent from the meeting was immediately suspected.",
+      "promptZh": "健身室鑰匙失蹤，唯一不在場的職員立即被懷疑。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The absent employee was suspected before being heard—he who is absent is always in the wrong.",
+          "reasonZh": "懷疑來自無法在場回應，不等於證實。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The absent employee was caught taking the key—he who is absent is always in the wrong.",
+          "reasonZh": "沒有目擊偷鑰匙。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The employee was present and explained everything—he who is absent is always in the wrong.",
+          "reasonZh": "員工當時缺席。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The missing key was found in the employee’s bag—he who is absent is always in the wrong.",
+          "reasonZh": "沒有從袋中找到鑰匙的資料。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q03",
+      "number": 3,
+      "promptEn": "After the team lost, the captain missed the review meeting and others said it was all his fault.",
+      "promptZh": "校隊敗了，隊長不在檢討會上，眾人便說全是他的錯。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The team assigned blame to the absent captain without his response—he who is absent is always in the wrong.",
+          "reasonZh": "隊長缺席，仍被單方面判全責。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The captain accepted sole responsibility at the meeting—he who is absent is always in the wrong.",
+          "reasonZh": "他沒出席，也未承認責任。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The group heard the captain and shared responsibility—he who is absent is always in the wrong.",
+          "reasonZh": "眾人沒有聽隊長說法。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The loss proves that captains are always to blame—he who is absent is always in the wrong.",
+          "reasonZh": "一次失敗不能證明隊長永遠有錯。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q04",
+      "number": 4,
+      "promptEn": "An audio file was damaged; the absent technician was blamed before anyone inspected it.",
+      "promptZh": "錄音檔損壞後，不在場的技術員被怪責，雖然檔案尚未檢查。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The technician was blamed before the file was inspected or he could reply—he who is absent is always in the wrong.",
+          "reasonZh": "責任未查明，缺席者卻先被責怪。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The technician confessed to deleting the file—he who is absent is always in the wrong.",
+          "reasonZh": "題目沒有技術員承認。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The file was inspected and cleared the technician—he who is absent is always in the wrong.",
+          "reasonZh": "尚未檢查檔案。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The damaged file alone proved who caused it—he who is absent is always in the wrong.",
+          "reasonZh": "檔案損壞不能單獨指明責任人。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q05",
+      "number": 5,
+      "promptEn": "When supplies ran out, staff blamed the buyer who was on holiday without checking the orders.",
+      "promptZh": "餐廳缺貨時，休假的採購員被指責，其他人卻未查看訂單。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Staff blamed the buyer before checking the orders or hearing from her—he who is absent is always in the wrong.",
+          "reasonZh": "先怪責休假者，未核對訂單。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The buyer had admitted forgetting the order—he who is absent is always in the wrong.",
+          "reasonZh": "沒有承認漏訂。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Staff checked the order and found a delivery fault—he who is absent is always in the wrong.",
+          "reasonZh": "原文說沒有查看訂單。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The holiday itself caused the shortage—he who is absent is always in the wrong.",
+          "reasonZh": "請假本身不能證明缺貨原因。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q06",
+      "number": 6,
+      "promptEn": "After a display fell, the absent designer was blamed; nobody asked who moved it.",
+      "promptZh": "展板跌倒後，缺席的設計師被怪責；沒人問當時是誰把展板移位。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The absent designer was blamed before anyone checked who moved the display—he who is absent is always in the wrong.",
+          "reasonZh": "關鍵移位者未查，設計師又不在場。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The designer was seen moving the display—he who is absent is always in the wrong.",
+          "reasonZh": "沒有人看到設計師移位。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The group asked everyone involved before deciding—he who is absent is always in the wrong.",
+          "reasonZh": "原文說沒人查問。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The fall proved the design was faulty—he who is absent is always in the wrong.",
+          "reasonZh": "跌倒不能單獨證明設計有問題。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q07",
+      "number": 7,
+      "promptEn": "A wrong notice was sent; an offline moderator was blamed before the other moderators checked the log.",
+      "promptZh": "群組誤發通知，沒有上線的管理員被責怪，其他管理員尚未查記錄。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The offline moderator took the blame before anyone checked the log—he who is absent is always in the wrong.",
+          "reasonZh": "未查紀錄就怪責無法即時回應的人。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The log already showed that the moderator sent it—he who is absent is always in the wrong.",
+          "reasonZh": "紀錄尚未檢查。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Every moderator had been asked for an explanation—he who is absent is always in the wrong.",
+          "reasonZh": "沒有問遍所有管理員。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Being offline is proof of sending the notice—he who is absent is always in the wrong.",
+          "reasonZh": "離線與發送通知沒有必然關係。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q08",
+      "number": 8,
+      "promptEn": "Bin missed a family discussion, and relatives said he caused all the moving trouble.",
+      "promptZh": "阿彬缺席家庭討論，親戚便說搬家的麻煩都是他造成。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Relatives blamed Bin while he was not there to tell his side—he who is absent is always in the wrong.",
+          "reasonZh": "阿彬沒有機會回應，已被推責。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Bin explained and accepted all responsibility—he who is absent is always in the wrong.",
+          "reasonZh": "他未在場解釋。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Relatives delayed judgment until Bin returned—he who is absent is always in the wrong.",
+          "reasonZh": "親戚沒有等他回來。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A missed discussion proves that Bin arranged the move badly—he who is absent is always in the wrong.",
+          "reasonZh": "缺席不證明搬遷安排有問題。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q09",
+      "number": 9,
+      "promptEn": "A box of books was missing; a volunteer absent from stocktake was blamed before loan records were checked.",
+      "promptZh": "圖書館遺失一箱書，缺席點算的義工先被責怪，借還記錄仍未查。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The volunteer was blamed without being heard or checking the loans—he who is absent is always in the wrong.",
+          "reasonZh": "先責怪缺席者，借還紀錄卻未查。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The volunteer was caught taking the box—he who is absent is always in the wrong.",
+          "reasonZh": "沒有抓到義工取書。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The loan records had already settled the question—he who is absent is always in the wrong.",
+          "reasonZh": "原文說紀錄仍未查。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The absence made the books disappear—he who is absent is always in the wrong.",
+          "reasonZh": "缺席不會造成書本憑空消失。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q10",
+      "number": 10,
+      "promptEn": "Trip photos vanished, and a friend who missed the discussion was accused of deleting them.",
+      "promptZh": "旅行照片不見了，沒有參加討論的朋友被指刪除檔案。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The friend was accused while unable to answer the group—he who is absent is always in the wrong.",
+          "reasonZh": "缺席者被指責，尚未有其說法。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The friend confirmed deleting the photos—he who is absent is always in the wrong.",
+          "reasonZh": "沒有朋友承認。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The group checked the backup before accusing anyone—he who is absent is always in the wrong.",
+          "reasonZh": "題目沒有先查備份。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Missing the discussion proves who deleted the files—he who is absent is always in the wrong.",
+          "reasonZh": "缺席不能證明刪檔。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q11",
+      "number": 11,
+      "promptEn": "A decision drew complaints, and the former chair absent from a new meeting was treated as solely responsible.",
+      "promptZh": "一項決定引起投訴，沒有出席新會議的舊主席被當作唯一責任人。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The absent former chair was blamed before the group examined who made the decision—he who is absent is always in the wrong.",
+          "reasonZh": "沒有核對決策過程便把責任推給缺席者。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The former chair stated that he alone made the decision—he who is absent is always in the wrong.",
+          "reasonZh": "沒有主席承認獨自決定。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The group checked the minutes before assigning blame—he who is absent is always in the wrong.",
+          "reasonZh": "原文未說先查會議紀錄。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Complaints prove that the absent chair alone was wrong—he who is absent is always in the wrong.",
+          "reasonZh": "投訴不證明唯一責任人。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-05-q12",
+      "number": 12,
+      "promptEn": "A rehearsal time changed; the ill choreographer was blamed without anyone calling to check with her.",
+      "promptZh": "排演時間被改，正在生病的編舞者被怪責，但沒有人打電話向她核實。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The choreographer was blamed while unable to offer her account—he who is absent is always in the wrong.",
+          "reasonZh": "她不在場且未獲查問，卻被責怪。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The choreographer confirmed changing the time—he who is absent is always in the wrong.",
+          "reasonZh": "她未確認改時間。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The cast called and heard her explanation first—he who is absent is always in the wrong.",
+          "reasonZh": "原文說沒有人致電。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Illness proves that she made the change—he who is absent is always in the wrong.",
+          "reasonZh": "生病不是改時間的證據。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "某人不在場、不能說明自己的立場時，其他人容易把錯推到他身上。",
+      "en": "An absent person may be blamed unfairly because they cannot present their side."
+    },
+    "model": {
+      "zh": "開會時阿傑不在，大家便把延誤歸咎於他，卻沒有人核對紀錄。",
+      "en": "Jay missed the meeting, and the group blamed him for the delay without checking the record—he who is absent is always in the wrong."
+    },
+    "picture": {
+      "zh": "想像一張空椅子：旁人都在發言，椅子的主人無法回應。",
+      "en": "Picture an empty chair while everyone else speaks; its owner cannot answer back."
+    },
+    "boundary": {
+      "zh": "諺語描述被指責的處境，不證明缺席者真的犯錯。",
+      "en": "The proverb describes an unfair advantage for those present; it does not prove the absent person guilty."
+    },
+    "where": {
+      "zh": "適合提醒團隊先聽缺席者的說法，再決定責任。",
+      "en": "Use it to urge a group to hear the absent person before assigning blame."
+    },
+    "tone": {
+      "zh": "常帶批評或警惕意味，並非替所有缺席者開脫。",
+      "en": "Often critical or cautionary; it does not excuse every absent person."
+    },
+    "checks": [
+      {
+        "zh": "誰沒有機會回應？",
+        "en": "Who cannot answer?"
+      },
+      {
+        "zh": "責任是證實了，還是被推定？",
+        "en": "Is fault established or assumed?"
+      },
+      {
+        "zh": "我有沒有先核對另一方說法？",
+        "en": "Have I checked the other side?"
+      }
+    ],
+    "readAloud": {
+      "zh": "不要因為安妮今天請假，就把遺失的文件算在她頭上。",
+      "en": "Let’s hear Annie’s account before blaming her for the missing file—he who is absent is always in the wrong."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境顯示缺席者容易被錯怪？",
+          "en": "Which scene shows the risk described by the proverb?"
+        },
+        "options": [
+          {
+            "zh": "會議只聽到一方說法，就指責了請假的同事。",
+            "en": "A meeting blames a colleague who is on leave after hearing only one side.",
+            "reasonZh": "缺席者無法回應，責任卻已被分配。",
+            "correct": true
+          },
+          {
+            "zh": "同事在場承認自己弄丟了文件。",
+            "en": "The colleague is present and admits losing the file.",
+            "reasonZh": "這是當面承認，不是因缺席而被推責。",
+            "correct": false
+          },
+          {
+            "zh": "會議延後結論，等待請假的同事說明。",
+            "en": "The meeting postpones its conclusion until the absent colleague can speak.",
+            "reasonZh": "團隊避免了諺語所警告的偏差。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "有人指責不在場的同學，你應如何回應？",
+          "en": "Someone blames an absent classmate. How should you respond?"
+        },
+        "options": [
+          {
+            "zh": "「先聽他說明，別只憑一方說法定責。」",
+            "en": "“Let’s hear his account before deciding who was responsible.”",
+            "reasonZh": "讓缺席者有機會說明。",
+            "correct": true
+          },
+          {
+            "zh": "「他不在場，所以一定是他做錯。」",
+            "en": "“He is absent, so he must be at fault.”",
+            "reasonZh": "把不能自辯誤當作犯錯證據。",
+            "correct": false
+          },
+          {
+            "zh": "「他不在場，所以一定完全無辜。」",
+            "en": "“He is absent, so he must be completely innocent.”",
+            "reasonZh": "諺語也不能證明無辜。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "報告出錯時，唯一缺席的編輯立即被怪責。哪句最貼切？",
+          "en": "The only absent editor is immediately blamed for an error. Which line fits?"
+        },
+        "options": [
+          {
+            "zh": "「先別急著怪責她；人不在場，最容易被說成有錯。」",
+            "en": "“Let’s not blame her before checking—he who is absent is always in the wrong.”",
+            "reasonZh": "用諺語提醒大家不要作單方面判斷。",
+            "correct": true
+          },
+          {
+            "zh": "「她已承認出錯；人不在場，最容易被說成有錯。」",
+            "en": "“She has admitted the error—he who is absent is always in the wrong.”",
+            "reasonZh": "題目沒有說她承認出錯。",
+            "correct": false
+          },
+          {
+            "zh": "「我們已聽過她的解釋；人不在場，最容易被說成有錯。」",
+            "en": "“We have heard her explanation—he who is absent is always in the wrong.”",
+            "reasonZh": "她尚未有機會回應。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "哪個推論有根據？",
+          "en": "Which inference is justified?"
+        },
+        "options": [
+          {
+            "zh": "「缺席的人可能遭到不公平指責；仍須查證事實。」",
+            "en": "“An absent person may be blamed unfairly; the facts still need checking.”",
+            "reasonZh": "區分被指責與真正有錯。",
+            "correct": true
+          },
+          {
+            "zh": "「被指責就證明缺席的人有罪。」",
+            "en": "“Being blamed proves that the absent person was guilty.”",
+            "reasonZh": "指責本身不是證據。",
+            "correct": false
+          },
+          {
+            "zh": "「缺席的人永遠不會犯錯。」",
+            "en": "“Absent people can never be responsible.”",
+            "reasonZh": "諺語沒有這種保證。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

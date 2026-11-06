@@ -1,0 +1,976 @@
+{
+  "id": "analysis-p2-119",
+  "catalogueId": "p2-119",
+  "catalogueIds": [
+    "p2-119"
+  ],
+  "passage": 2,
+  "title": "CAN WE BELIEVE OUR OWN EYES?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 13,
+  "answerKey": [
+    "Physiological illusions",
+    "knowledge and experience",
+    "direct realism",
+    "C",
+    "B",
+    "D",
+    "A",
+    "D",
+    "B",
+    "圖未顯示；應選 lower-left face 被視為 front 的圖",
+    "圖未顯示；應選有 three lines with arrow-like ends 的圖",
+    "A",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 13,
+      "answer": "Physiological illusions",
+      "answerKey": "Physiological illusions",
+      "type": "Short-answer Questions",
+      "prompt": "“What type of illusion results from interference with neurone activity?”",
+      "translation": "哪一類 illusion 由神經活動受干擾或眼腦系統受刺激造成？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 2。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physiological illusions result from excessive stimulation of the eyes and brain, which creates a temporary state of confusion and mixed messages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Physiological illusions 來自眼睛和大腦受到過度刺激，這會造成短暫混亂和混合訊息。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the same way, a contingent perceptual after-effect may occur after someone stares at a particular colour: receptors in the brain may process subsequent colours inaccurately until the overload has passed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，當一個人凝望某種特定顏色後，可能出現一種依附性的知覺後效；大腦中的 receptors可能會錯誤處理之後看到的顏色，直到過度負荷消退。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “neurone activity”。原文沒有完全重複這個說法，但有 “eyes and brain”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“receptors in the brain”、“excessive stimulation”。這些都屬於生理和神經處理層面的線索。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句直接說 “Physiological illusions result from excessive stimulation of the eyes and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "brain”。題目把 “excessive stimulation of the eyes and brain” 概括成 “interference with neurone activity”。所以答案是 Physiological illusions。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 也出現 “neurone activity”，但它說 cognitive illusions are said to arise “not"
+            },
+            {
+              "kind": "paragraph",
+              "text": "from neurone activity”。這個 not 很重要。看到 neurone activity 不能立刻選 cognitive illusions；要看句子方向。真正由眼腦刺激造成的是 physiological illusions。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "knowledge and experience",
+      "answerKey": "knowledge and experience",
+      "type": "Short-answer Questions",
+      "prompt": "“Which two factors influence how we process information at a cognitive level?”",
+      "translation": "哪兩個因素影響我們在 cognitive level 上如何處理資訊？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 3。第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cognitive illusions, on the other hand, are said to arise not from neurone activity but from assumptions we consciously make based on our knowledge and experience of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，cognitive illusions 據說源自我們根據對世界的知識和經驗，有意識作出的assumptions，而非神經活動本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說 fictional illusion 是由 drug use 或 schizophrenia 等 brain condition 引起的hallucination。只看首尾句，這段會解釋 cognitive illusions 的成因和其中一類的特殊性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cognitive level”、“two factors”、“process information”。原文最直接對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“based on our knowledge and experience of the world”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "基於我們對世界的知識和經驗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 two factors，答案正好是兩個並列名詞：knowledge and experience。字數限制是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN THREE WORDS，這個答案剛好三個字，並且直接取自原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 knowledge and experience。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "direct realism",
+      "answerKey": "direct realism",
+      "type": "Short-answer Questions",
+      "prompt": "“Which theory holds that people perceive the world exactly as it is?”",
+      "translation": "哪一個理論認為人們感知到的世界，正正就是世界本身的樣子？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。第一句說 Necker cube 幫助研究者理解 human visual system；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說它雖然只是二維線條圖，我們卻可看出一個或兩個三維 cube 版本。這段功能是講Necker cube 的研究和哲學意義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “theory”、“world exactly”、“human mind perceives”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has also been used in epistemology—the study of knowledge—to challenge direct realism, the theory that the world is exactly as the human mind perceives it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也被用於 epistemology，即知識研究，去挑戰 direct realism；direct realism 是一種認為世界正如人類心靈所感知那樣的理論。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “people perceive the world exactly as it is” 對應原文 “the world is exactly as the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "human mind perceives it”。答案是 theory 名稱，所以填 direct realism。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "epistemology 是學科名稱，不是該理論。題目問 which theory，答案要取 “direct realism”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Classification",
+      "prompt": "“may be perceived differently by people from different ethnic backgrounds”",
+      "translation": "可能被不同族群或文化背景的人以不同方式感知。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。第一句說 distorting illusions 影響 size、length 或 curvature 的判"
+            },
+            {
+              "kind": "paragraph",
+              "text": "斷；最後一句說 non-Western subjects，尤其不常接觸 rectangular buildings 和 door frames 的人，較少誤判線條長度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “different ethnic backgrounds”。原文用的是 “Cultural background affects"
+            },
+            {
+              "kind": "paragraph",
+              "text": "perceptions of this illusion”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cultural background affects perceptions of this illusion: international research has shown that non-Western subjects, particularly those who are not regularly exposed to rectangular buildings and door frames, are less likely to misjudge the lines’ true lengths.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文化背景會影響人們對這個 illusion 的感知：國際研究顯示，非西方受試者，尤其是不常接觸矩形建築和門框的人，較少誤判線條的真實長度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “this illusion” 指上一句的 Müller-Lyer illusion，而它屬於 distorting illusions。因此答案是C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Classification",
+      "prompt": "“may override our natural ability to make rational judgements”",
+      "translation": "可能壓過我們作理性判斷或判斷地面傾斜的自然能力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7 和 Paragraph 8。Paragraph 7 首句定義 paradox illusions，說它"
+            },
+            {
+              "kind": "paragraph",
+              "text": "們令人相信自己看到 impossible 的東西。Paragraph 8 最後一句說 misleading visual stimuli 和lack of horizon 可以 override our innate sense of balance。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “override”、“rational judgements”、“impossible”。Paragraph 7 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Visual information therefore conflicts with rational judgement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，視覺資訊與理性判斷發生衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“misleading visual stimuli and the lack of a horizon can override that ability”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "誤導性的視覺刺激和缺少地平線可以壓過那種能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這兩句都在解釋 gravity hills，而 gravity hills 是 Paragraph 7 中 paradox illusions 的自然"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例子。Paradox illusions 的核心特徵正是：人明知某件事不可能，例如物件自己向上滾，眼前視覺卻令大腦相信它正在發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Classification",
+      "prompt": "“may be interpreted differently even by the same person”",
+      "translation": "甚至同一個人也可以對它作出不同解讀。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。第一句直接定義 ambiguous illusions；最後一句說 Necker cube"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也可以把另一個面解讀成 front。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “interpreted differently”、“same person”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One individual may perceive an image differently from another, and the same person can often interpret it in more than one form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人對同一圖像的感知可能和另一個人不同，而同一個人也常常可以把它解讀成多於一種形式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援題目。它所在段落講的是 ambiguous illusions，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“interpreted differently even by the same person”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “the same person can often interpret it in more than one form”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Classification",
+      "prompt": "“may result from chemical stimulation”",
+      "translation": "可能由化學刺激引起。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。這段最後一句直接提到 fictional illusion 的成因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “chemical stimulation”。原文沒有這個 exact phrase，但 “drug use” 是化學物質"
+            },
+            {
+              "kind": "paragraph",
+              "text": "造成的刺激或影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A fictional illusion is, in fact, a hallucination caused by drug use or a brain condition such as schizophrenia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fictional illusion 其實是一種 hallucination，可由 drug use 或 schizophrenia 之類的 brain condition 引起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "drug use 對應 chemical stimulation。因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "schizophrenia 也在句中，但它是 brain condition 的例子；題目問 chemical stimulation，更"
+            },
+            {
+              "kind": "paragraph",
+              "text": "貼近 drug use。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Classification",
+      "prompt": "“has been used to question the validity of arguments in another field”",
+      "translation": "曾被用來質疑另一個學科中的理論或觀點是否成立。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。這段繼續講 Necker cube，而 Necker cube 屬於 Paragraph 4 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ambiguous illusion。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “another field”、“question the validity”。原文用 “epistemology” 和 “challenge"
+            },
+            {
+              "kind": "paragraph",
+              "text": "direct realism”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has also been used in epistemology—the study of knowledge—to challenge direct realism…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也被用於 epistemology，即知識研究，去挑戰 direct realism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“It” 指 Necker cube。Necker cube 是 ambiguous illusion 的例子，所以分類答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“question the validity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “challenge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“another field”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “epistemology—the study of knowledge”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — are the only type that is completely subjective.",
+      "answerKey": "B — are the only type that is completely subjective.",
+      "type": "Multiple Choice",
+      "prompt": "Question 21",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Fictional illusions 有甚麼特點？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。首句講 cognitive illusions 的成因；尾句解釋 fictional illusion 實"
+            },
+            {
+              "kind": "paragraph",
+              "text": "際是 hallucination。這段中間直接說 fictional illusion 的特殊性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Fictional illusions”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Including fictional illusions in the cognitive group is somewhat misleading, however, because this type is seen only by an individual in a particular situation and has no tangible form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把 fictional illusions 放入 cognitive group 有點誤導，因為這一類只由特定情況中的某個個人看見，並沒有可觸摸或實在的形式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的 “completely subjective” 對應 “seen only by an individual” 和 “has no tangible form”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是說，它只存在於個人感知中，沒有外在實體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A 說 may eventually lead to schizophrenia。原文說 fictional illusion 可由 schizophrenia 這類brain condition 引起，方向反了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 very similar to paradox illusions。原文沒有建立兩者相似。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 typical of cognitive illusions。原文反而說把 fictional illusions 放入 cognitive group 有點misleading，所以 D 不貼近原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Multiple Choice",
+      "prompt": "Question 22",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位第 4 段的 lower-left face。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "原題圖像核對",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原 PDF 的 A 圖把左下方、底邊平行地面的正面着色，符合第 4 段對 Necker cube 的描述。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Multiple Choice",
+      "prompt": "Question 23",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位第 6 段的 middle line、above 及 third。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "原題圖像核對",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "對照原 PDF：B 圖把兩端不同的線放在最下方，中間及上方分別為兩端外張及內收的線，符合第 6 段指定的排列。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — can persuade viewers that they are seeing something impossible.",
+      "answerKey": "A — can persuade viewers that they are seeing something impossible.",
+      "type": "Multiple Choice",
+      "prompt": "“The Penrose Stairs are an example of a model that…”",
+      "translation": "Penrose Stairs 是一種模型例子，它可以怎樣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。第一句定義 paradox illusions；第二句直接提到 Penrose Stairs。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Penrose Stairs”。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paradox illusions encourage the mind to believe that it is seeing something known to be impossible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paradox illusions 會促使大腦相信自己正在看見一件明知不可能的東西。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Penrose Stairs and Penrose Triangle, developed by Lionel Penrose, are models created to illustrate this phenomenon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由 Lionel Penrose 發展出的 Penrose Stairs 和 Penrose Triangle，是用來說明這種現象的模型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說 “can persuade viewers that they are seeing something impossible”，正好對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“encourage the mind to believe that it is seeing something known to be impossible”。錯項分析： B 說 disproved established theories of knowledge。原文沒有說 Penrose Stairs 推翻知識理論； challenge direct realism 的是 Necker cube。 C 說 naturally occurring paradox illusion。Penrose Stairs 是 models created by Lionel Penrose，不是自然出現。 D 說 can be seen in several locations around the world。這是 gravity hills，不是 Penrose Stairs。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "C — misleading natural reference points.",
+      "answerKey": "C — misleading natural reference points.",
+      "type": "Multiple Choice",
+      "prompt": "“Occurrences on ‘gravity’ or ‘magnetic’ hills result from…”",
+      "translation": "gravity hills 或 magnetic hills 上那些看似違反重力的現象，是由甚麼造成？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。第一句直接提出 scientific explanation；最後一句說 misleading"
+            },
+            {
+              "kind": "paragraph",
+              "text": "visual stimuli 和 lack of horizon 可壓過 innate sense of balance。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “gravity hills”、“magnetic hills”、“result from”。Paragraph 8 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The scientific explanation is that these areas lie on slightly sloping ground without a visible horizon against which to establish perspective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學解釋是：這些地區位於略微傾斜的地面上，而且沒有可用來建立透視感的可見地平線。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surrounding reference points that we expect to be perpendicular, such as trees, may themselves be on a slope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "周圍一些我們預期應該垂直的參照物，例如樹木，本身也可能位於斜坡上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 的 “misleading natural reference points” 對應 “surrounding reference points… such as"
+            },
+            {
+              "kind": "paragraph",
+              "text": "trees, may themselves be on a slope”。這些自然參照物會誤導觀察者，使下坡看起來像水平或向上傾斜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A 說 soil mineral content，對應 Paragraph 7 中遊客宣傳的 supposed magnetic properties，但Paragraph 8 給出的 scientific explanation 沒有支持它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 science cannot currently explain，和 “The scientific explanation is…” 方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 rising slopes being misinterpreted as downward slopes，方向顛倒。原文說 downward slopes may seem horizontal or tilted upwards，即下坡被看成水平或上坡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - CAN WE BELIEVE OUR OWN EYES_.pdf",
+    "sha256": "555d3320218e326633c3023132553dd50bfefc3a41092bc643649fa7a3daf4fd",
+    "pageCount": 12
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragrap 首句定義 optical illusion：眼睛傳到大腦的資訊經處理後，所得假設不符合h 1 physical reality。尾句說 cognitive illusions 可分成四個 subtypes。只看首尾句可見，本段是全文總介紹：先解釋 optical illusion 的本質，再建立分類框架。後文很可能按 physiological illusions 和 cognitive illusions 展開，並逐一介紹 cognitive illusions 的四種類型。 Paragrap 首句說 physiological illusions 由 eyes and brain 的 excessive stimulation 造成， h 2 形成短暫混亂和 mixed messages。尾句說凝望某種顏色後，大腦 receptors 可能暫時錯誤處理之後看到的顏色。這段功能很清楚：解釋 physiological illusions 的成因和例子，重點在眼睛、大腦、過度刺激、短暫錯誤處理。Question 13 很可能在此。 Paragrap 首句用 “on the other hand” 轉到 cognitive illusions，說它們來自人根據h 3 knowledge and experience 作出的 assumptions。尾句說 fictional illusion 實際上是由 drug use 或 schizophrenia 等 brain condition 引起的 hallucination。這段功能是分類與修正：介紹 cognitive illusions 四類，同時指出 fictional illusions 放入cognitive group 有點誤導。Questions 14、19、21 很可能在此。 Paragrap 首句定義 ambiguous illusions：圖片或物件結構可令人以多於一種方式理解。尾句h 4 說 Necker cube 也可把另一個面理解成 front。只看首尾句可見，本段會介紹ambiguous illusions 的核心特點：同一圖像可被不同人、甚至同一個人作不同解讀。Necker cube 是主要例子。Questions 18、22 很可能在此。 Paragrap 首句說 Necker cube 幫助研究者理解 human visual system，因為它提供 brain 有h 5 兩種可互換狀態的證據。尾句說我們通常可看到兩種三維 cube 版本，雖然圖像只是由 12 條線組成的二維圖。這段功能是延伸 Necker cube 的研究意義：它不只是一個視覺例子，也被用於 epistemology 來挑戰 direct realism。Questions 15、20很可能在此。 Paragrap 首句說 distorting illusions 影響人判斷 size、length 或 curvature 的能力。尾句說h 6 non-Western subjects，尤其較少接觸 rectangular buildings 和 door frames 的人，較少誤判線條長度。首尾句顯示，本段介紹 Müller-Lyer illusion，重點在長度判斷錯誤，以及 cultural background 如何影響視覺判斷。Questions 16、23 很可能在此。 Paragrap 首句說 paradox illusions 會鼓勵 mind 相信自己看到不可能的東西。尾句說h 7 gravity hills 或 magnetic hills 的神秘性被積極宣傳，有時被歸因於土地的磁性。這段功能是介紹 paradox illusions：包括 Penrose Stairs、Penrose Triangle 和自然出現的 gravity hills。重點在 impossible appearance、rational judgement conflict 和旅遊宣傳。Questions 17、24、25 可能在此。 Paragrap 首句給出 scientific explanation：這些地區位於略微傾斜的地面上，並缺少 visible h 8 horizon 去建立 perspective。尾句說 misleading visual stimuli 和 lack of horizon可壓過 innate sense of balance，特別在斜度很輕微時。這段功能是解釋 gravity hills 的真正成因：參照物傾斜、地平線缺失、視覺刺激誤導，令下坡看似上坡。 Question 25 很可能在此。",
+        "label": "段落 Rough roadmap"
+      },
+      {
+        "number": "2",
+        "summary": "22 圖未顯示；應選 lower-left face 被視為 front 的圖23 圖未顯示；應選有 three lines with arrow-like ends 的圖24 A 25 C",
+        "label": "21 B"
+      }
+    ]
+  }
+}

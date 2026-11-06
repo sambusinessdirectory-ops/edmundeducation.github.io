@@ -1,0 +1,2133 @@
+{
+  "id": "p3-113-the-accidental-rainforest",
+  "catalogueId": "p3-113",
+  "catalogueIds": [
+    "p3-113"
+  ],
+  "passage": 3,
+  "title": "The accidental rainforest",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "B",
+    "F",
+    "D",
+    "G",
+    "A",
+    "B",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“When Peter Osbeck visited Ascension, he found no inhabitants on the island.”",
+      "translation": "Peter Osbeck 到訪 Ascension 時，發現島上沒有居民。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題屬於 TRUE / FALSE / NOT GIVEN。題目要求判斷原文是否有說 Peter Osbeck 到訪時島上沒有 inhabitants。控制詞是 no inhabitants，也就是人口資訊。這題不能只看 Ascension 很荒涼，就推斷沒有居民；要找原文有沒有明確提到 people、inhabitants、residents 或類似資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to ecological theory, rainforests are supposed to develop slowly over millions of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照生態學理論，rainforests 應該經過數百萬年慢慢形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All it boasted was a couple of dozen species of plant, most of them ferns and some of them unique to the island.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它僅有的可稱道之物，是二十多種植物；其中大多是蕨類，有些更是這座島獨有的植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能：提出傳統 rainforest theory，再描寫 Ascension 原本貧瘠的自然狀態。題目提到 Peter Osbeck visited Ascension，所以這段是合理目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 Peter Osbeck、visited Ascension 和 inhabitants。掃描 Paragraph 1，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Peter Osbeck, a Swedish priest, stopped off at the mid-Atlantic island of Ascension in 1752 on his way home from China, he wrote of ‘a heap of ruinous rocks’ with a bare, white mountain in the middle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1752 年，瑞典牧師 Peter Osbeck 從中國返家途中停靠在大西洋中部的 Ascension 島；他把它描寫成「一堆破敗的岩石」，中間有一座光禿禿的白色山。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 Peter Osbeck，動作是 stopped off 和 wrote of。原文描述的是島的地貌：ruinous rocks、bare white mountain。後一句描述植物數量：a couple of dozen species of plant。這些都屬於自然環境資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “he found no inhabitants on the island”。原文沒有提到 inhabitants，也沒有提到他看到居民或看不到居民。荒涼的 landscape 可能令人聯想到人煙稀少，但 IELTS Reading 不能用想像補足人口資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Osbeck 發現島上沒有居民。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Osbeck 描述了破敗岩石、白色光禿山，以及少量植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少的核心資料是 inhabitants / people / residents。原文沒有明確支持，也沒有提供相反資訊，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “a heap of ruinous rocks” 和 “bare, white mountain”。這些字把島描寫得很荒涼，但荒涼地貌不等於無人居住。做 NOT GIVEN 題時，要分清「氣氛推測」和「文章證據」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The natural vegetation on the island contained some species which were found nowhere else.”",
+      "translation": "島上的天然植被包含一些在其他地方找不到的物種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷島上原本的 plants 是否包括 unique species。題目中的 “found nowhere else” 很可能改寫成 unique、endemic、only found on the island 等表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to ecological theory, rainforests are supposed to develop slowly over millions of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照生態學理論，rainforests 應該經過數百萬年慢慢形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All it boasted was a couple of dozen species of plant, most of them ferns and some of them unique to the island.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它僅有的可稱道之物，是二十多種植物；其中大多是蕨類，有些更是這座島獨有的植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 1 會介紹 Ascension 原本的自然狀態。題目問 natural vegetation，因此目標位置非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 natural vegetation、species、nowhere else。原文最後一句直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“some of them unique to the island.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一些是這座島獨有的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unique to the island” 的意思是只屬於這座島，其他地方沒有。題目中的 “found nowhere else” 正好是這個意思的改寫。原文還說 “a couple of dozen species of plant”，這對應題目中的 “vegetation” 和 “species”。判斷題目命題：島上天然植被有些物種在別處找不到。原文命題：some of them unique to the island。兩者方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“found nowhere else”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“unique to the island”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： unique to the island = 只在這座島存在 = found nowhere else。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方法總結看到 “nowhere else” 時，要特別找 only、unique、endemic 這類詞。這題的答案詞非常直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Joseph Hooker assumed that human activity had caused the decline in the island’s plant life.”",
+      "translation": "Joseph Hooker 假設人類活動導致島上植物生命衰退。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Hooker 對 plant life decline 的原因判斷。真正控制答案的是 human activity。原文如果說 natural calamity，就和題目的人為原因相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And so it might have remained.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它本來可能就這樣一直保持下去。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And, perhaps lacking anything else to do, the sailors set out with a will.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "或許因為沒有其他事情可做，水手們便滿腔幹勁地開始行動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 是轉折段：Ascension 原本可能繼續荒涼，但 Hooker 到訪後提出種植計劃，sailors 開始執行。題目問 Joseph Hooker 的 assumed cause，答案應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Joseph Hooker、decline、plant life、human activity。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveying the bare earth, he concluded that the island had suffered some natural calamity that had denuded it of vegetation and triggered a decline in rainfall that was turning the place into a desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他觀察這片光禿土地後，得出結論：這座島曾遭受某種自然災難，令它失去植被，並引發 rainfall下降，使這地方逐漸變成沙漠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的核心動詞是 concluded，對應題目中的 assumed。"
+            },
+            {
+              "kind": "label",
+              "text": "但原因不同：原文原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“some natural calamity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "某種自然災難。"
+            },
+            {
+              "kind": "label",
+              "text": "題目原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“human activity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然災難和人類活動屬於不同類型的原因。原文不是沒有提原因，而是提供了與題目不同的原因，因此答案要判 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Hooker 認為人類活動造成植物衰退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Hooker 認為某種自然災難使島嶼失去植被。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因被原文取代，方向不一致，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “decline” 很容易吸引學生，因為原文也有 “decline in rainfall”。但題目問的是 plant life decline 的原因。真正要比較的是 human activity 和 natural calamity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“British sailors on the island took part in a major tree planting project.”",
+      "translation": "島上的 British sailors 參與了一項大型種樹計劃。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查三個元素：British sailors、took part、major tree planting project。原文不一定逐字寫major，但如果有 several thousand trees a year，就足以支援大規模。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 2–3 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And so it might have remained.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它本來可能就這樣一直保持下去。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And, perhaps lacking anything else to do, the sailors set out with a will.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "或許因為沒有其他事情可做，水手們便滿腔幹勁地開始行動。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1845, a naval transport ship from Argentina delivered a batch of seedlings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1845 年，一艘從 Argentina 來的 naval transport ship 送來一批 seedlings。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With sailors planting several thousand trees a year, the bare white mountain was soon cloaked in green and renamed Green Mountain, and by the early twentieth century the mountain’s slopes were covered with a variety of trees and shrubs from all over the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於水手們每年種下數千棵樹，原本光禿的白色山很快披上綠色，並改名為 Green Mountain；到二十世紀初，山坡已覆蓋來自世界各地的各種 trees and shrubs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 顯示 sailors 開始執行 Hooker 的方案；Paragraph 3 顯示這項種植工程規模很大。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 sailors、tree planting、major project。原文最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With sailors planting several thousand trees a year…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水手們每年種下數千棵樹。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“sailors planting” 直接支援 took part。“several thousand trees a year” 支援 major tree planting project。前文還說 Hooker “suggested an ambitious scheme for planting trees and shrubs”，ambitious 也表示計劃規模大、目標高。 British 的來源來自 Paragraph 2：“The British Navy, which by then maintained a garrison on the island…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時 British Navy 在島上駐有一支 garrison。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，British Navy 的 sailors 實際參與了種植工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：British sailors 參與大型種樹計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：British Navy 在島上駐軍；sailors 開始執行方案；sailors 每年種下數千棵樹。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者一致，所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方法總結這題需要跨句建立證據鏈：British Navy → sailors → planting several thousand trees a year。不要只看單一句，要把參與者和行動規模連起來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hooker sent details of his planting scheme to a number of different countries.”",
+      "translation": "Hooker 把自己種植方案的細節寄給多個不同國家。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 Hooker 有沒有 sent details，而且對象是 a number of different countries。原文確實提到植物和種子來自不同地區，但要看是否有說 Hooker 把方案細節寄出去。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 2–3 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And so it might have remained.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它本來可能就這樣一直保持下去。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And, perhaps lacking anything else to do, the sailors set out with a will.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "或許因為沒有其他事情可做，水手們便滿腔幹勁地開始行動。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1845, a naval transport ship from Argentina delivered a batch of seedlings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1845 年，一艘從 Argentina 來的 naval transport ship 送來一批 seedlings。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With sailors planting several thousand trees a year, the bare white mountain was soon cloaked in green and renamed Green Mountain, and by the early twentieth century the mountain’s slopes were covered with a variety of trees and shrubs from all over the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於水手們每年種下數千棵樹，原本光禿的白色山很快披上綠色，並改名為 Green Mountain；到二十世紀初，山坡已覆蓋來自世界各地的各種 trees and shrubs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，Paragraph 2 有 Hooker 的 proposal，Paragraph 3 有來自不同地方的植物。這些都是相關資料，但未必足以回答 sent details。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Hooker、sent details、different countries。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggested an ambitious scheme for planting trees and shrubs…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他建議一項雄心勃勃的方案，種植 trees and shrubs。"
+            },
+            {
+              "kind": "label",
+              "text": "原文也有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the following years, more than 200 species of plant arrived from South Africa; from England came 700 packets of seeds…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來幾年，超過 200 種植物從 South Africa 抵達；England 則送來 700 包種子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 Hooker suggested a scheme。它沒有說他把 details 寄給誰，也沒有提 letters、instructions、plans、documents 或 communication with countries。Paragraph 3 的 Argentina、South Africa、England 只說植物和種子來源，不能自動推成 Hooker 寄出方案細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Hooker sent details of the scheme to several countries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：Hooker suggested a scheme；plants and seeds later arrived from several places。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少的資料是 sent details 這個動作。文章沒有明確支持，也沒有直接否定，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 countries 迷惑。原文確實出現 Argentina、South Africa、England，但這些地名只表示 plants / seeds 的來源。地名重現只能幫助定位，不能證明 Hooker 做過 “sent details” 這個動作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The bamboo and prickly pear seeds sent from England were unsuitable for Ascension.”",
+      "translation": "從 England 送來的 bamboo 和 prickly pear 種子不適合 Ascension。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 bamboo 和 prickly pear 是否 unsuitable。要找原文對這兩種植物在 Ascension 上的反應或適應情況。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1845, a naval transport ship from Argentina delivered a batch of seedlings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1845 年，一艘從 Argentina 來的 naval transport ship 送來一批 seedlings。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With sailors planting several thousand trees a year, the bare white mountain was soon cloaked in green and renamed Green Mountain, and by the early twentieth century the mountain’s slopes were covered with a variety of trees and shrubs from all over the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於水手們每年種下數千棵樹，原本光禿的白色山很快披上綠色，並改名為 Green Mountain；到二十世紀初，山坡已覆蓋來自世界各地的各種 trees and shrubs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 3 會講植物引進和種植結果。題目問 England、bamboo、prickly pear，這段中間就是目標位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 bamboo、prickly pear、England、unsuitable。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“from England came 700 packets of seeds, including those of two species that especially liked the place: bamboo and prickly pear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "England 送來 700 包種子，其中包括兩種尤其喜歡這地方的植物：bamboo 和 prickly pear。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的關鍵短語是 especially liked the place。意思是這兩種植物很適應 Ascension 的環境，甚至特別適合在那裡生長。題目說 unsuitable，意思是“不合適”。這和原文方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：bamboo 和 prickly pear 不適合 Ascension。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：這兩種植物 especially liked the place。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者不一致，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were unsuitable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“especially liked the place”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是反向關係。especially liked the place 表示很適合；unsuitable 表示不適合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方法總結遇到 suitable / unsuitable，要找原文有沒有 positive 或 negative evaluation。這題的 “especially liked” 是非常清楚的正面評價。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — many of the island’s original species were threatened with destruction.",
+      "answerKey": "B — many of the island’s original species were threatened with destruction.",
+      "type": "Sentence Endings",
+      "prompt": "“The reason for modern conservationists’ concern over Hooker’s tree planting programme is that many of the island’s original species were threatened with destruction.”",
+      "translation": "現代 conservationists 擔心 Hooker 的種樹計劃，是因為島上許多原生物種受到破壞威脅。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern ecologists throw up their hands in horror at what they see as Hooker’s environmental anarchy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代 ecologists 對他們眼中的 Hooker 式 environmental anarchy 感到震驚和無奈。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, he saw greater benefit in improving rainfall and encouraging more prolific vegetation on the island.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Hooker 看見改善 rainfall 和促進島上更繁茂植被有更大好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，這段比較 modern ecologists 的批評和 Hooker 當年的取捨。題目問conservationists’ concern，第一句已直接提示答案位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 modern conservationists’ concern 和 Hooker’s tree planting programme。原文中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The exotic species wrecked the indigenous ecosystem, squeezing out the island’s endemic plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些外來物種破壞了本地生態系統，並排擠島上的 endemic plants。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“exotic species” 指外來物種，即 Hooker 方案引入的植物。“indigenous ecosystem” 指本地原有生態系統。“endemic plants” 指只存在於該島的植物。“wrecked” 和 “squeezing out” 都是非常強的負面動詞，表示原本的生態系統和 endemic plants受到嚴重威脅。選項 B 的 “original species” 對應 indigenous / endemic plants；“threatened with destruction” 對應 wrecked 和 squeezing out。判斷B 正確。它完整接回題幹後，文法自然，意思也精準。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E “steps should be taken to prevent the destruction of the original ecosystem” 看似也和conservation 有關，但題幹問的是 concern 的原因，不是下一步應採取的行動。原文在這裡解釋他們為何震驚：外來物種破壞原有生態。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F — randomly introduced species can coexist together.",
+      "answerKey": "F — randomly introduced species can coexist together.",
+      "type": "Sentence Endings",
+      "prompt": "“David Wilkinson says the creation of the rainforest in Ascension is important because it shows that randomly introduced species can coexist together.”",
+      "translation": "David Wilkinson 認為 Ascension rainforest 的形成重要，因為它顯示隨機引入的物種可以共存。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 5–7 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But there is a much deeper issue here than the relative benefits of sparse endemic species versus luxuriant imported ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有一個更深層的問題，超過 sparse endemic species 和 luxuriant imported ones 之間的利弊比較。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Green Mountain system is a man-made system that has produced a tropical rainforest without any co-evolution between its constituent species,’ says Wilkinson.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wilkinson 說，Green Mountain system 是一個 man-made system，在 constituent species 之間沒有任何 co-evolution 的情況下，產生了一個 tropical rainforest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾段顯示 Wilkinson 的重點：Ascension 的 rainforest 挑戰傳統生態理論，因為它由世界各地引入的物種組成，卻成為 functioning forest。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 David Wilkinson、creation of the rainforest、important。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today’s Green Mountain, says Wilkinson, is ‘a fully functioning man-made tropical cloud forest’ that has grown from scratch from a ragbag of species collected more or less at random from all over the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wilkinson 說，今天的 Green Mountain 是一個「完全運作的人造熱帶雲霧林」，它從零開始，由一批幾乎隨機從世界各地收集來的物種組成並成長起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個關鍵點： 1. fully functioning：這個森林真的運作起來了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. man-made：它是人類造成的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. ragbag of species collected more or less at random：物種來源混雜，幾乎隨機收集。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F “randomly introduced species can coexist together” 正好概括這三點：物種是隨機引入的，而且能共存並形成 functioning forest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷F 正確。題目說 “creation ... is important because it shows that...” 後面需要一個 Wilkinson 從這個案例得出的生態結論。F 最貼近他的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D “rainforests can only develop through slow and complex evolution” 是傳統理論，不是Wilkinson 的結論。Wilkinson 正在挑戰這個理論，所以不能把傳統 theory 配給他的觀點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — rainforests can only develop through a process of slow and complex evolution.",
+      "answerKey": "D — rainforests can only develop through a process of slow and complex evolution.",
+      "type": "Sentence Endings",
+      "prompt": "“Wilkinson says the existence of Ascension’s rainforest challenges the theory that rainforests can only develop through a process of slow and complex evolution.”",
+      "translation": "Wilkinson 認為 Ascension rainforest 的存在挑戰了一個理論：rainforests 只能透過漫長而複雜的演化過程形成。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 6–7 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today’s Green Mountain, says Wilkinson, is ‘a fully functioning man-made tropical cloud forest’ that has grown from scratch from a ragbag of species collected more or less at random from all over the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wilkinson 說，今天的 Green Mountain 是一個完全運作的人造 tropical cloud forest，由幾乎隨機從世界各地收集來的物種從零開始形成。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that’s not what happened on Green Mountain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Green Mountain 上發生的情況並非如此。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩句，可以看到段落形成對比：傳統理論說 complex ecosystems 要靠 co-evolution；Green Mountain 的情況卻不按這個劇本走。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 challenges the theory、rainforest、evolution。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional ecological theory says that complex ecosystems such as cloud forests can emerge only through evolutionary processes in which each organism develops in concert with others to fill particular niches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統生態理論認為，cloud forests 這類 complex ecosystems 只能透過 evolutionary processes出現；在這些過程中，每個 organism 與其他 organisms 協同發展，填補特定 niches。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 only through evolutionary processes 是核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rainforests can only develop through a process of slow and complex evolution” 是對這句的概括。雖然原文寫的是 complex ecosystems such as cloud forests，Ascension 的 forest正是 tropical cloud forest，所以可對應 rainforest 類型。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Green Mountain system is a man-made system that has produced a tropical rainforest without any co-evolution between its constituent species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Green Mountain system 是一個人造系統，在組成物種之間沒有 co-evolution 的情況下產生tropical rainforest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說明為何 Ascension 挑戰傳統理論：它沒有 long co-evolution，仍形成 rainforest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷D 正確。它是被 Wilkinson 挑戰的理論內容。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F 和 D 很容易混。F 是 Wilkinson 從 Ascension 得出的可能性；D 是他挑戰的傳統理論。題幹有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“challenges the theory that”，所以要選被挑戰的理論，不要選 Wilkinson 支持的新觀點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "G — the introduced species may have less ecological significance than the original ones.",
+      "answerKey": "G — the introduced species may have less ecological significance than the original ones.",
+      "type": "Sentence Endings",
+      "prompt": "“Alan Gray questions Wilkinson’s theory, claiming that the introduced species may have less ecological significance than the original ones.”",
+      "translation": "Alan Gray 質疑 Wilkinson 的理論，認為外來物種的生態重要性可能低於原有物種。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not everyone agrees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "並非所有人都同意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new arrivals may just be an adornment, with little structural importance for the ecosystem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新來物種可能只是裝飾，對這個 ecosystem 的結構重要性很低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以立即估到這段是反方觀點。題目有 Alan Gray 和 questions Wilkinson’s theory，所以 Paragraph 8 是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Alan Gray、questions Wilkinson’s theory。原文完整段落："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alan Gray, an ecologist at the University of Edinburgh in the UK, argues that the surviving endemic species on Green Mountain, though small in number, may still form the framework of the new ecosystem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國 University of Edinburgh 的 ecologist Alan Gray 認為，Green Mountain 上存活下來的endemic species 雖然數量少，仍可能構成新 ecosystem 的 framework。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new arrivals may just be an adornment, with little structural importance for the ecosystem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新來物種可能只是裝飾，對 ecosystem 的結構重要性很低。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alan Gray 的觀點有兩層：第一，surviving endemic species 可能是 ecosystem 的 framework。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，new arrivals 可能只是 adornment，structural importance 很低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 G 說 “introduced species may have less ecological significance than the original ones”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "introduced species = new arrivals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "original ones = surviving endemic species / original species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "less ecological significance = little structural importance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷G 正確。它準確概括 Alan Gray 對 Wilkinson 的保留態度：外來物種看似繁盛，但原有物種可能才是框架。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C “the species in the original rainforest were more successful than the newer arrivals” 不準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gray 沒有說原有物種更 successful；他說它們可能更 structurally important。成功程度和結構重要性不是同一件事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "A — other rainforests may have originally been planted by man.",
+      "answerKey": "A — other rainforests may have originally been planted by man.",
+      "type": "Sentence Endings",
+      "prompt": "“Additional support for Wilkinson’s theory comes from findings that other rainforests may have originally been planted by man.”",
+      "translation": "Wilkinson 理論的額外支持，來自一些發現：其他 rainforests 可能最初也是由人類種植出來的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But to Wilkinson this sounds like clutching at straws.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在 Wilkinson 看來，這種說法像是在抓住稻草，勉強支撐。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the idea of the instant formation of rainforests sounds increasingly plausible as research reveals that supposedly pristine tropical rainforests from the Amazon to south-east Asia may in places be little more than the overgrown gardens of past rainforest civilisations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著研究顯示，從 Amazon 到 south-east Asia 的一些 supposedly pristine tropical rainforests，在某些地方可能只不過是過去 rainforest civilisations 遺留下來並過度生長的 gardens， rainforests 可以迅速形成這個想法也變得越來越可信。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段提供 Wilkinson 理論的延伸支持：其他看似天然的 rainforest 也可能有人類參與的歷史。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 additional support、findings、other rainforests、planted by man。原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“supposedly pristine tropical rainforests from the Amazon to south-east Asia may in places be little more than the overgrown gardens of past rainforest civilisations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 Amazon 到 south-east Asia 的一些表面上原始的熱帶雨林，在某些地方可能只是過去rainforest civilisations 的過度生長花園。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“overgrown gardens” 是答案核心。Garden 通常是人類種植和管理的地方。若今日的 rainforest是過去 civilisations 的 gardens 長成的結果，就表示一些 rainforests 可能有人類種植起源。選項 A “other rainforests may have originally been planted by man” 正好概括這個意思。 other rainforests = supposedly pristine tropical rainforests from Amazon to south-east Asia。 planted by man = overgrown gardens of past rainforest civilisations。判斷A 正確。它把 “overgrown gardens” 轉成更直接的說法：human-planted origin。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F “randomly introduced species can coexist together” 是 Ascension 個案本身的結論，較適合Question 34。Question 37 問 “Additional support”，也就是 Ascension 以外的研究發現，所以要選A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — it is not focusing on the most important question.",
+      "answerKey": "B — it is not focusing on the most important question.",
+      "type": "Multiple Choice",
+      "prompt": "“Wilkinson suggests that conservationists’ concern about the island is misguided because…”",
+      "translation": "Wilkinson 認為 conservationists 對這座島的擔憂有偏差，原因是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 10–11 Paragraph 10 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most surprising thing of all is that no ecologists have thought to conduct proper research into this human-made rainforest ecosystem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最令人驚訝的是，沒有 ecologists 想到要對這個 human-made rainforest ecosystem 進行 proper research。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 11 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in their urgency to protect endemics, ecologists are missing out on the study of a great enigma.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但由於急於保護 endemics，ecologists 正錯過研究一個重大謎團的機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，Wilkinson 的批評重點不是保育本身完全不合理；他批評的是研究焦點失衡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 conservationists’ concern、misguided、Wilkinson。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conservationists have understandable concerns, Wilkinson says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wilkinson 說，conservationists 的擔憂可以理解。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in their urgency to protect endemics, ecologists are missing out on the study of a great enigma.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他們急於保護 endemics，結果錯過了研究重大謎團的機會。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡要看語氣。Wilkinson 沒有否認 endemic species 的危機。原文甚至說："
+            },
+            {
+              "kind": "quote",
+              "text": "“At least four endemic species have gone extinct on Ascension since the exotics started arriving.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從外來物種開始抵達 Ascension，至少已有四種 endemic species 滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 conservationists 的 concern 有合理基礎。問題在焦點：他們只急著保護 endemics，忽略了這個人造 rainforest 如何形成、如何運作、如何能教我們理解 rainforest ecology。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。原文沒有說 conservationists 基於 economic principles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。對應 “missing out on the study of a great enigma”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文說 conservationists 想保護 endemic species，不是鼓勵 destruction of endemic species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。local authorities 正在把 Green Mountain 變成 national park，並打算 cull invasive introduced species；這不是 Wilkinson 批評的核心。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“not focusing on the most important question”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“missing out on the study of a great enigma”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "great enigma = 重大未解問題；missing out = 沒有把焦點放上去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — the possibility of new ecological relationships.",
+      "answerKey": "A — the possibility of new ecological relationships.",
+      "type": "Multiple Choice",
+      "prompt": "“According to Wilkinson, studies of insects on the island could demonstrate…”",
+      "translation": "根據 Wilkinson，研究島上的 insects 可以展示甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘As you walk through the forest, you see lots of leaves that have had chunks taken out of them by various insects.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wilkinson 說：「當你走過森林時，你會看到許多葉子被各種 insects 咬去一塊塊。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such questions go to the heart of how rainforests happen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些問題觸及 rainforests 如何形成的核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 12 用 insects 作例子，引出 rainforest formation 的核心問題。題目問studies of insects，這段是直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 insects、could demonstrate。原文提出一串問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“But where did they come from? Are they endemic or alien? If alien, did they come with the plant on which they feed or discover it on arrival?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但牠們從哪裡來？牠們是 endemic 還是 alien？如果是 alien，牠們是隨著所吃的植物一起來到島上，還是抵達後才發現這種植物？"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些問題都在研究 insects 和 plants 之間的關係：● insects 是否和植物一起抵達？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● insects 是否到達後才開始吃某些植物？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● endemic insects 是否開始利用 introduced plants？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● alien insects 是否與新環境建立新的 feeding relationship？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都屬於 ecological relationships，即物種之間的生態關係，尤其是 herbivory、feeding、adaptation 和 arrival history。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。new ecological relationships 對應 insects 和 plants 之間可能形成的新關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。原文沒有把 insects 描述成 future threat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文問 endemic or alien，不等於發現 previously unknown species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。原文沒有說 studies of insects 會提供 rainforest ecology survival 的機會。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“studies of insects”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：問題串：where did they come from / endemic or alien / come with the plant / discover it on arrival選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“new ecological relationships”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： insects 來到後如何找到、利用或依附 plants，就是新的 ecological relationships。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — the speed and success of its development.",
+      "answerKey": "D — the speed and success of its development.",
+      "type": "Multiple Choice",
+      "prompt": "“Overall, what feature of the Ascension rainforest does the writer stress?”",
+      "translation": "整體來看，作者最強調 Ascension rainforest 的哪一個特點？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是全文主旨型 MCQ。不能只用某一句作答案，要看 opening、Wilkinson 的核心觀點、結尾總結，以及全文反覆出現的主題。題目問 “overall”，所以答案要覆蓋整篇文章的主軸。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看全文首尾"
+            },
+            {
+              "kind": "label",
+              "text": "文章第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to ecological theory, rainforests are supposed to develop slowly over millions of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "按照生態學理論，rainforests 應該經過數百萬年慢慢形成。"
+            },
+            {
+              "kind": "label",
+              "text": "文章最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the irony is that the most artificial rainforest in the world could tell us more about rainforest ecology than any number of natural forests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "諷刺的是，世界上最人工的 rainforest 可能比許多 natural forests 更能告訴我們 rainforest ecology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出傳統理論：rainforests 應該非常慢地形成。結尾說 Ascension 這個 artificial rainforest 可能極具研究價值。全篇就是在說：一個由人類、偶然、外來物種造成的森林，竟然快速而成功地成為 functioning rainforest，迫使 ecologists 重新思考 rainforest 形成方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找反覆主題"
+            },
+            {
+              "kind": "label",
+              "text": "全文多次出現 speed 和 success 的線索："
+            },
+            {
+              "kind": "quote",
+              "text": "“the introduced species have been a roaring success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "引入的物種取得了巨大的成功。"
+            },
+            {
+              "kind": "quote",
+              "text": "“a fully functioning man-made tropical cloud forest”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個完全運作的人造 tropical cloud forest。"
+            },
+            {
+              "kind": "quote",
+              "text": "“has grown from scratch from a ragbag of species collected more or less at random”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由幾乎隨機收集來的混雜物種從零開始生長而成。"
+            },
+            {
+              "kind": "quote",
+              "text": "“the idea of the instant formation of rainforests sounds increasingly plausible”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "rainforests 可以快速形成這個想法聽起來越來越可信。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者不是單純說 Ascension forest 很奇怪，也不只是說它破壞了自然。文章前半交代 Hooker 的種植計劃如何把荒山變成 Green Mountain；中段用 Wilkinson 的觀點指出，這個森林由隨機引入物種建立，卻變成 fully functioning cloud forest；後段說這種 “instant formation” 的可能性正在變得更可信。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，選項 D “the speed and success of its development” 最能覆蓋全文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "speed 對應 opening 的 millions of years 與 later 的 instant formation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "success 對應 roaring success 和 fully functioning rainforest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “the conflict of natural and artificial systems”文章有 natural / artificial 對比，但作者焦點不是二者衝突，而是人工森林為何能成功形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the unusual nature of its ecological structure”這是很有迷惑性的選項。文章確實談到沒有 co-evolution、random species、framework 等生態結構問題。但這更像其中一層理論意義，不足以覆蓋開頭對 rainforest slow development 的挑戰，以及全文反覆出現的 success / instant formation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “the harm done by interfering with nature”這是 conservationists 的部分觀點。文章承認 endemic species 有損失，但作者後半清楚把焦點推向更大的 ecological mystery。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。它同時抓住快速形成和成功運作，是全文最穩的整體概括。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The accidental rainforest.pdf",
+    "sha256": "9239050f5fdc627e3bd88c81be7ae46c59451f2bc4f8841c9725bb83ae5888b3",
+    "pageCount": 28
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說生態理論認為 rainforests 應該經過數百萬年慢慢形成；末句說 Ascension 當時只有二十多種植物，大多是 ferns，其中一些更是島上獨有。只看首尾句，可以先看到這段有兩個功能：先提出傳統 rainforest theory，再介紹 Ascension 原本非常貧瘠的狀態。Peter Osbeck 的觀察重點是荒涼地貌和少量植物，所以若題目問早期 vegetation、unique species 或 inhabitants，要回到這段細讀。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Ascension 本來可能一直保持原狀；末句說 sailors 很有幹勁地開始實行 Hooker 的建議。只看首尾句，可以先估這段是轉折段：Joseph Hooker 到訪後，把荒涼島嶼理解成自然災害後的結果，並向 British Navy 提出大規模種樹和種 shrubs 的方案。這段的功能是解釋 tree planting programme 的起點，也交代 sailors 為何參與行動。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 1845 年，一艘從 Argentina 來的 naval transport ship 送來一批 seedlings；末句說到二十世紀初，山坡已覆蓋來自世界各地的各種 trees and shrubs。只看首尾句，可見這段講種植計劃的實際推行和規模擴大。中間有 South Africa、England、700 packets of seeds、bamboo、prickly pear，以及 sailors 每年種下數千棵樹。若題目問種子來源或植物是否適合，目標多在此段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 modern ecologists 對 Hooker 的 environmental anarchy 感到震驚；末句說 Hooker 看見改善 rainfall 和增加 vegetation 有更大好處。只看首尾句，可以看到這段處理 conservationists 對計劃的批評，以及 Hooker 當時的取捨。中間提到 exotic species wrecked indigenous ecosystem，並擠壓 endemic plants。若題目問現代 conservationists 為何擔心 Hooker’s programme，這段是核心定位段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說這裡有比 sparse endemic species 和 luxuriant imported ones 之間的利弊更深層的問題；末句說 introduced species have been a roaring success。只看首尾句，可以先看到段落焦點由保育爭議轉向更大的生態學問題。David Wilkinson 的觀點在這裡出現：保育人士對少數 unique species 的擔憂可以理解，但他們可能忽略了 introduced species 成功建立生態系統這件令人驚訝的事。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Wilkinson 稱今天的 Green Mountain 是 fully functioning man-made tropical cloud forest；末句說土壤中的 microbes 會演化去處理 leaf litter。首尾句顯示這段先提出 Ascension 的驚人結果，再交代 conventional ecological theory。理論認為 cloud forests 這類 complex ecosystems 要靠 organisms 長期共同演化，分別填補 ecological niches。若題目問 rainforest theory 或 slow complex evolution，這段極重要。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Green Mountain 發生的事情並不符合上一段的傳統理論；末句 Wilkinson 說這個man-made system 在 constituent species 之間沒有 co-evolution 的情況下產生 tropical rainforest。只看首尾句，可見這段是 Wilkinson 對傳統理論的挑戰：自然 rainforest 可能比人們想像中更受 chance 影響。這段直接支援「randomly introduced species can coexist together」和「rainforest theory 被挑戰」兩類題目。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說並非所有人都同意 Wilkinson；末句說新來物種可能只是 adornment，對 ecosystem 的structure 重要性很低。只看首尾句，可以看出這段提供反方觀點。Alan Gray 認為，雖然 surviving endemic species 數量少，仍可能構成新 ecosystem 的 framework。這段功能是限制 Wilkinson的說法：introduced species 或許成功，但它們未必是整個生態系統最關鍵的結構力量。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Wilkinson 覺得 Alan Gray 的說法像 clutching at straws；末句說從 Amazon 到 south-east Asia，一些 supposedly pristine tropical rainforests 可能只是古代 rainforest civilisations 的overgrown gardens。只看首尾句，可以估這段給 Wilkinson 的理論提供更廣泛支持。重點在於：其他看似天然的 rainforests 也可能有人類種植痕跡，因此 Ascension 並非孤立例外，man-made rainforest 的可能性變得更可信。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說最令人驚訝的是，沒有 ecologists 對這個 human-made rainforest ecosystem 做過 proper research；末句說 introduced species，至少 invasive ones，被標記為應該 culling，而非conservation。只看首尾句，可見這段批評研究焦點偏窄。University of Edinburgh 的 flora survey只關心 endemic species，把其他 species 視作 threat；當地 national park 管理方向也偏向清除invasive introduced species。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說 Wilkinson 承認 conservationists 的 concerns 可以理解；末句說 ecologists 因急於保護endemics，錯過研究一個 great enigma 的機會。只看首尾句，這段把態度講得更平衡：endemic species 確實有滅絕風險，至少四種已消失；但如果只把 introduced species 視作威脅，就會錯過理解 rainforest 如何形成的珍貴案例。Question 38 的答案主要來自這段。"
+      },
+      {
+        "number": "12",
+        "summary": "首句 Wilkinson 說在森林中可見許多葉子被 insects 咬去一塊塊；末句說這些問題觸及rainforests 如何形成的核心。只看首尾句，可以看到這段用 insects 作為未解之謎的具體例子。中間問題包括：牠們從哪裡來？是 endemic 還是 alien？若是 alien，是隨植物而來，還是抵達後才找到食物？這段支援 Question 39。"
+      },
+      {
+        "number": "13",
+        "summary": "首句說 Green Mountain forest holds many secrets；末句說世界上最 artificial 的 rainforest 可能比許多 natural forests 更能告訴我們 rainforest ecology。只看首尾句，可見這是全文總結： Ascension 的森林雖然人工、偶然、混雜，卻非常有研究價值。作者最後強調一種 irony：最不像傳統 rainforest 形成方式的森林，可能最能迫使 ecologists 重新理解 rainforest 的發展和成功。"
+      }
+    ]
+  }
+}

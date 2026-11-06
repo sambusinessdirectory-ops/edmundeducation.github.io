@@ -1,0 +1,1489 @@
+{
+  "id": "p1-026-william-gilbert-and-magnetism",
+  "catalogueId": "p1-026",
+  "catalogueIds": [
+    "p1-026"
+  ],
+  "passage": 1,
+  "title": "William Gilbert and Magnetism",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "v",
+    "i",
+    "vi",
+    "x",
+    "ix",
+    "iv",
+    "ii",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "C",
+    "D",
+    "E"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "v — Pioneers of early science",
+      "answerKey": "v — Pioneers of early science",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "為 A 段選出最能概括全段的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph A 的 heading"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sixteenth and seventeenth centuries saw two great pioneers of modern science: Galileo and Gilbert.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：十六和十七世紀出現了兩位現代科學的重要先驅：Galileo 和 Gilbert。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, he is less well known than he deserves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可是，他的知名度低於他應得的地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 A 段會介紹 Gilbert 的科學史地位，並把他放在 early modern science的開端來看。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的核心詞是 “Pioneers” 和 “early science”。Paragraph A 開頭直接出現 “two"
+            },
+            {
+              "kind": "paragraph",
+              "text": "great pioneers of modern science”，非常有定位力。中間又說 Gilbert 是 “the first modern scientist” 和 “the acknowledged father of the sciences of electricity and magnetism”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全段不是在講 Gilbert 的出生，也不是集中列出單一磁學發現，而是先從 Galileo and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gilbert 這兩位現代科學先驅開場，再說明 Gilbert 在 electricity and magnetism 的奠基地位。最後一句 “less well known than he deserves” 也是對他科學史地位的總評。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Pioneers of early science= two great pioneers of modern science early science= sixteenth and seventeenth centuries / first modern scientist"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ix “His discoveries about magnetism” 也有吸引力，因為 A 段提到 magnetism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過 A 段的功能更像人物總定位，具體磁學發現集中在 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "i — Early years of Gilbert",
+      "answerKey": "i — Early years of Gilbert",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "為 B 段選出最能概括全段的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph B 的 heading"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph B。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“William Gilbert was born before Galileo.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：William Gilbert 比 Galileo 更早出生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, he travelled on the Continent and eventually settled in London.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：後來，他在歐洲大陸旅行，最後定居倫敦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段按時間順序交代 Gilbert 的早期人生，由出生說到教育、旅行和定居。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的關鍵是 “Early years”。Paragraph B 中有 born、family、grammar school、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "studied medicine、graduating in 1573、travelled、settled in London。這些全部是早年履歷資料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落沒有討論科學發現，也沒有談他的實驗方法。它主要交代背景資料：出生地"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Colchester、出生日期 24 May 1544、家庭 prominent local family、教育路徑和醫學訓練。因此heading i 最能覆蓋全段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Early years= born / went to grammar school / studied medicine / travelled / settled"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 “studied medicine” 便想到醫學事業，但 B 段只講教育階段，真正的職業成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "就要到 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "vi — Professional and social recognition",
+      "answerKey": "vi — Professional and social recognition",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "為 C 段選出最能概括全段的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph C 的 heading"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph C。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was a very successful and eminent doctor.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他是一位非常成功且有聲望的醫生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He died on 30 November 1603, only a few months after his appointment as personal physician to King James I.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他於 1603 年 11 月 30 日去世，當時距離他被任命為 King James I 的私人醫生只有幾"
+            },
+            {
+              "kind": "paragraph",
+              "text": "個月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 C 段會講他的醫學地位、官方職位和宮廷認可。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的核心是 “Professional and social recognition”。C 段出現 “successful and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "eminent doctor”、“election as President of the Royal College of Physicians”、“appointed personal physician to Queen Elizabeth I”、“personal physician to King James I”。這些都是專業與社會地位的證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “Becoming President of the Royal College of Physicians” 只覆蓋其中一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 還包括 Queen Elizabeth I 和 King James I 的私人醫生身份，因此 heading vi 的範圍更完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "professional recognition= successful and eminent doctor / President of the Royal College of Physicians social recognition= personal physician to Queen Elizabeth I / King James I"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 很容易令人誤選，因為它使用了原文 “President of the Royal College of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Physicians”。但 headings 題要選全段主旨，不應只抓一個局部細節。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "x — His change of focus",
+      "answerKey": "x — His change of focus",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "為 D 段選出最能概括全段的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph D 的 heading"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph D。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert was first interested in chemistry, but later changed his focus because of the considerable mysticism involved in alchemy, such as the transmutation of metals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gilbert 起初對 chemistry 感興趣，但後來因 alchemy 中涉及大量神秘思想，例如金屬"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉化，於是改變了研究焦點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“His major work was On the Magnet, Magnetic Bodies, and the Great Magnet of the Earth.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他的主要著作是《論磁石、磁體與地球大磁體》。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段由研究興趣轉變開始，最後落到磁學代表作。段落功能偏向說明Gilbert 如何轉向 magnetism。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x 的核心是 “change of focus”。原文第一句直接有 “changed his focus”。中間補充"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他如何從 alchemy 的神秘色彩轉向 physics，尤其是 ancient Greeks’ knowledge of lodestones，再由指南針問題引出二十年的 magnetism experiments。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "雖然段末提到 “His major work”，Heading viii “The great work of Gilbert” 只抓到最後一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整段更大的邏輯是：chemistry → alchemy mysticism → physics → lodestones → compass questions → experiments → major work。因此 x 最能概括全段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "His change of focus= first interested in chemistry, but later changed his focus towards magnetism= developed an interest in physics / lodestones / experiments to understand magnetism"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 很有原字吸引力，因為 D 段最後確實寫 “His major work was…”。不過這只"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是結果句，段落主線是研究興趣的轉移。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "ix — His discoveries about magnetism",
+      "answerKey": "ix — His discoveries about magnetism",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "為 E 段選出最能概括全段的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph E 的 heading"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph E。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert’s discoveries were very important to modern physics.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gilbert 的發現對現代物理學非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was a French scientist named Charles du Fay who later discovered that there are actually two types of electrical charge.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：後來是一位名叫 Charles du Fay 的法國科學家發現電荷其實有兩種類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段會列出 Gilbert 的科學發現，也會說明他未完成的部分和後人補充的發現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 的關鍵是 “discoveries” 和 “magnetism”。本段有 “investigated the nature of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "magnetism and electricity”、“coined the word electric”、“metals could be magnetised”、“north pole and south pole”、“attract or repel”。這些都是具體發現或科學命名。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段的核心不在 biography，也不在 method，而在 discoveries about magnetism and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "electricity。雖然末句提到 Charles du Fay，但這是用來說明 Gilbert 尚未完成 electricity 方面的工作；段落主體仍是 Gilbert 在 magnetism 的發現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "His discoveries about magnetism= found metals could be magnetised / named the ends of a magnet / poles attract or repel"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 heading 只寫 magnetism，但段落也談 electricity。這不影響 ix，因為磁學發現佔段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "落主線，electricity 部分是延伸與限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "iv — Questioning traditional astronomy",
+      "answerKey": "iv — Questioning traditional astronomy",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "為 F 段選出最能概括全段的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph F 的 heading"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert also questioned traditional astronomical beliefs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gilbert 也質疑傳統天文信念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was perhaps the first proposal that a force might cause a celestial orbit.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這也許是首次提出某種力可能造成天體軌道運行的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，段落功能非常清楚：它從質疑傳統天文開始，最後落到 celestial orbit 的科學構想。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 的核心詞是 “Questioning traditional astronomy”。原文第一句直接重現這個意"
+            },
+            {
+              "kind": "paragraph",
+              "text": "思。段中還有 Copernican thought、Earth centre / orbit around the sun、stars not equidistant、Earth as giant magnet、moon orbit by magnetic attraction 等天文相關內容。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全段不是單純講磁學實驗，重點是 Gilbert 把 magnetism 推到天文解釋之中：指南針、地球"
+            },
+            {
+              "kind": "paragraph",
+              "text": "磁性、地球自轉、星體距離、月球軌道。Heading iv 能覆蓋整段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Questioning traditional astronomy= questioned traditional astronomical beliefs astronomy= Earth / sun / stars / moon / celestial orbit"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 段也有 magnetism，F 段也說 Earth like a giant magnet。判斷段落主旨時，要看第一句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和結尾。F 段真正的範圍是 astronomical beliefs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "ii — What was new about his scientific research method",
+      "answerKey": "ii — What was new about his scientific research method",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "為 G 段選出最能概括全段的標題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph G 的 heading"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph G。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert’s research method was revolutionary because he used experiments rather than relying purely on logic and reasoning, as the ancient Greek philosophers had done.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gilbert 的研究方法具有革命性，因為他使用實驗，而非只依靠古希臘哲學家所採用的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "邏輯與推理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“His approach of careful observation and experimentation, rather than reliance on the authoritative opinions or deductive philosophy of others, laid the foundation for modern science.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他採取仔細觀察和實驗的方法，不依賴權威意見或他人的演繹哲學，這為現代科學奠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定基礎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 的核心是 “new” 和 “scientific research method”。G 段直接說 “research method"
+            },
+            {
+              "kind": "paragraph",
+              "text": "was revolutionary”、“new attitude towards scientific investigation”、“careful observation and experimentation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段的主旨是方法，不是單一發現。中間提到 magnetomotive force 單位 named the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "gilbert，是後人紀念他的方式；真正段落重心仍在 experiments、observation、modern science foundation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "what was new= revolutionary / new attitude scientific research method= experiments / careful observation and experimentation"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能被 “unit of magnetomotive force” 吸引，以為段落講貢獻紀念。不過首尾句都集"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中在 research method，因此 ii 最貼近全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "He is less famous than he should be.",
+      "translation": "他的名氣低於他應得的程度。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。這題要判斷文章是否支持 Gilbert 的知名度不足。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sixteenth and seventeenth centuries saw two great pioneers of modern science: Galileo and Gilbert.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：十六和十七世紀出現了兩位現代科學的重要先驅：Galileo 和 Gilbert。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, he is less well known than he deserves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可是，他的知名度低於他應得的地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段已把 Gilbert 放在重要科學先驅位置，並指出他沒有得到相應知名度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “less famous” 和 “should be”。原文的直接對應是 “less well known than he"
+            },
+            {
+              "kind": "paragraph",
+              "text": "deserves”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “famous” 等於原文 “well known”；“than he should be” 對應 “than he deserves”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說他應得到更高知名度，與題目方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：Gilbert 的名氣低於應有水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：he is less well known than he deserves。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "less famous= less well known than he should be= than he deserves判斷：意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 段先說他是 first modern scientist，學生可能覺得這麼重要的人應該很有名。可是題目"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問的是文章資訊，真正定案在最後一句 “less well known than he deserves”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "He was famous as a doctor before he was employed by the Queen.",
+      "translation": "在受 Queen Elizabeth I 聘用之前，他已經是一位有名望的醫生。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。題目控制詞是 “before”，要看醫學名望與 Queen"
+            },
+            {
+              "kind": "paragraph",
+              "text": "appointment 的先後關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph C。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was a very successful and eminent doctor.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他是一位非常成功且有聲望的醫生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He died on 30 November 1603, only a few months after his appointment as personal physician to King James I.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他於 1603 年 11 月 30 日去世，距離他被任命為 King James I 的私人醫生只有幾個"
+            },
+            {
+              "kind": "paragraph",
+              "text": "月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 C 段講他的醫學聲望和宮廷任命。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “doctor”、“Queen”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This success culminated in his election as President of the Royal College of Physicians. He was also appointed personal physician to Queen Elizabeth I and faithfully served her until her death.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種成功最終使他當選為 Royal College of Physicians 的主席。他也被任命為 Queen"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Elizabeth I 的私人醫生，並忠誠服務她直到她去世。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一句 “He was a very successful and eminent doctor” 先建立他的醫學聲望；接著 “This"
+            },
+            {
+              "kind": "paragraph",
+              "text": "success culminated…” 表示這份成功達到高峰，讓他當選主席；然後 “He was also appointed…”引出 Queen Elizabeth I 的任命。文字順序和邏輯都顯示：他先已有成功和聲望，後來才得到女王私人醫生的任命。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "famous as a doctor= successful and eminent doctor employed by the Queen= appointed personal physician to Queen Elizabeth I before= “This success culminated…” 之後再 “also appointed…”判斷：原文支持這個先後關係，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 “famous”，但 “eminent” 已表示有名望、受尊重。這是合理的近義改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "He lost faith in the medical theories of his time.",
+      "translation": "他對當時的醫學理論失去信心。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。這題要看文章是否有 medical theories 和 lost faith 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資訊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落有 Paragraph C 和 D。Paragraph C 講醫學職業成功；Paragraph D 講他由"
+            },
+            {
+              "kind": "paragraph",
+              "text": "chemistry / alchemy 轉向 physics / magnetism。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was a very successful and eminent doctor.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他是一位非常成功且有聲望的醫生。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert was first interested in chemistry, but later changed his focus because of the considerable mysticism involved in alchemy, such as the transmutation of metals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gilbert 起初對 chemistry 感興趣，但後來因 alchemy 中含有大量神秘思想，例如金屬"
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉化，於是改變了研究焦點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “lost faith”、“medical theories”。文章沒有出現 medical theories，也沒有說他"
+            },
+            {
+              "kind": "paragraph",
+              "text": "懷疑醫學。最接近的是 D 段的 “changed his focus because of… mysticism involved in alchemy”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 段只說他不再沿著 alchemy / chemistry 的方向走，原因是 alchemy 帶有神秘主義，尤其"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是 transmutation of metals。這和 medical theories 不是同一個對象。C 段甚至說他是 successful and eminent doctor，沒有說他放棄醫學、否定醫學理論或對當時醫學失去信心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據： Gilbert lost faith in medical theories of his time.原文提供的資訊：他是成功醫生；他因 alchemy 的神秘色彩改變研究焦點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分： medical theories、lost faith、of his time 這三個核心元素都沒有被文章建立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能把 “alchemy” 和 “medicine” 聯想在一起，但文章的直接對象是 alchemy and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "chemistry，不是 medical theories。不能用背景知識補出文章沒有說的內容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "C, D, E",
+      "answerKey": "C, D, E",
+      "type": "Choose THREE letters",
+      "prompt": "Questions 11–13",
+      "translation": "以下哪三項屬於 Gilbert 的發現、信念或科學提議？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Which THREE of the following were part of Gilbert’s discoveries, beliefs, or scientific proposals?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要逐項確認：某說法必須是 Gilbert 自己的 discovery、belief 或 proposal。若只是當時迷信、alchemy 內容，或後人發現，就不能選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案之一：C — Metals can be magnetised.目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert’s discoveries were very important to modern physics.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gilbert 的發現對現代物理學非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was a French scientist named Charles du Fay who later discovered that there are actually two types of electrical charge.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：後來是一位名叫 Charles du Fay 的法國科學家發現電荷其實有兩種類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段會列出 Gilbert 的 discoveries，也會分清哪些事情由後人發現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的定位詞是 “Metals” 和 “magnetised”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert also found that metals could be magnetised.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gilbert 也發現金屬可以被磁化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Gilbert，動詞是 found，對象是 metals could be magnetised。這完全符合題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目 “Gilbert’s discoveries”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Metals can be magnetised= metals could be magnetised discovery= Gilbert found所以 C 必選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案之二：D — Stars are at different distances from the Earth.目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert also questioned traditional astronomical beliefs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Gilbert 也質疑傳統天文信念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was perhaps the first proposal that a force might cause a celestial orbit.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這也許是首次提出某種力可能造成天體軌道運行的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯包含 Gilbert 的天文信念和科學提議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的定位詞是 “Stars” 和 “different distances”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, he believed that stars were not equidistant from the Earth, but had their own Earth-like planets orbiting around them.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可是，他相信星星與地球的距離並不相等，並且有自己的類地行星繞著它們運行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“not equidistant” 的意思是「距離不相等」。選項 D 把這句改寫成 “Stars are at different"
+            },
+            {
+              "kind": "paragraph",
+              "text": "distances from the Earth.” 這是直接同義改寫，而且原文有 “he believed”，符合題目中的 beliefs。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not equidistant from the Earth= at different distances from the Earth belief= he believed所以 D 必選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案之三：E — The Earth wobbles on its axis.目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 E 的定位詞是 “Earth”、“wobbles”、“axis”。原文有兩組相關證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his view, the Earth rotated on an axis aligned with its magnetic polarity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在他看來，地球沿著一條與其磁性極性一致的軸旋轉。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, he believed that the sun and other stars wobbled just as the Earth did around a crystal core.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：此外，他相信太陽和其他星體像地球一樣，圍繞一個 crystal core 搖擺。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 E 把兩個原文資訊壓縮在一起：一方面，Gilbert 認為 Earth rotated on an axis；另一方"
+            },
+            {
+              "kind": "paragraph",
+              "text": "面，原文說 Earth did wobble around a crystal core。雖然選項中的 “on its axis” 比原文的 “around a crystal core” 略作簡化，但在可選項中，E 明顯是 Gilbert 的 belief，且有直接文本支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Earth wobbles= Earth did wobble around a crystal core on its axis= rotated on an axis aligned with its magnetic polarity所以 E 是第三個正確答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除A Metal can be transformed into another metal.原文在 Paragraph D 說 “alchemy, such as the transmutation of metals”，意思是 alchemy 中有所謂金屬轉化的神秘觀念。這是 Gilbert 改變研究焦點的原因，並非 Gilbert 的 discovery、belief或 proposal。文章沒有說他相信金屬可以互相轉化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Garlic can remove magnetism. Paragraph E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, some people believed that rubbing garlic on a lodestone could neutralise its magnetism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：例如，有些人相信把 garlic 擦在 lodestone 上可以中和其磁性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主語是 “some people”，不是 Gilbert。這是早期迷信例子，Gilbert 的段落功能是調查磁學並擺脫superstition，所以 B 不能選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F There are two types of electrical charge. Paragraph E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was a French scientist named Charles du Fay who later discovered that there are actually two types of electrical charge.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：後來是一位名叫 Charles du Fay 的法國科學家發現電荷其實有兩種類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項發現屬於 Charles du Fay，而且時間是 later。題目問 Gilbert 的 discoveries, beliefs, or proposals，因此 F 不能選。"
+            },
+            {
+              "kind": "label",
+              "text": "總結同義橋C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gilbert also found that metals could be magnetised.”"
+            },
+            {
+              "kind": "label",
+              "text": "= Metals can be magnetised. D："
+            },
+            {
+              "kind": "quote",
+              "text": "“stars were not equidistant from the Earth”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= Stars are at different distances from the Earth. E："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Earth rotated on an axis” + “Earth did [wobble] around a crystal core”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= The Earth wobbles on its axis.最容易中伏的是 B 和 F。B 有 magnetism 原字，但它是 superstition by some people；F 是真實科學發現，但發現者是 Charles du Fay。题目要求 Gilbert，人物主體一定要對準。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        11,
+        12,
+        13
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - William Gilbert and Magnetism.pdf",
+    "sha256": "d86b1514427668a5127f06b8e3bb0bf0ebebb4d3c38168ffbbafbe3f54abeaaf",
+    "pageCount": 16
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把 Galileo 和 Gilbert 並列為十六、十七世紀現代科學的兩位重要先驅。末句說 Gilbert 的知名度低於他應得的地位。只看首尾句，可以估計本段是人物定位段：它會介紹 Gilbert 在科學史上的重要性，尤其是 electricity 和 magnetism 的奠基地位，也會對比他之前古人對 lodestone、amber、jet 的有限認識。題目若問 early science pioneers 或 Gilbert 的名聲，應看 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 William Gilbert 比 Galileo 更早出生。末句說他後來在歐洲大陸旅行，最後定居倫敦。只看首尾句，可以估計本段是早年生平段：內容會包括出生地、家庭背景、出生日期、學校教育、劍橋醫學訓練、畢業年份和後來的旅居經歷。題目若問 early years、birth、education 或 settled in London，目標段落會是 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Gilbert 是一位非常成功且有聲望的醫生。末句說他在被任命為 King James I 的私人醫生後不久便去世。只看首尾句，可以估計本段主題是他的醫學事業與社會地位：成功醫生、Royal College of Physicians 的主席、Queen Elizabeth I 的私人醫生，以及後來與 King James I 的關係。題目若問 professional recognition 或 Queen employment，應看 C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Gilbert 起初對 chemistry 感興趣，但後來因 alchemy 中大量 mysticism 而轉變研究焦點。末句說他的主要著作是 On the Magnet, Magnetic Bodies, and the Great Magnet of the Earth。只看首尾句，可以估計本段講他的研究方向如何由 chemistry / alchemy 轉向 physics / magnetism，並交代航海、指南針和磁力問題如何推動他的長期實驗。題目若問 change of focus，應看 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Gilbert 的發現對 modern physics 非常重要。末句說後來由 Charles du Fay 發現電荷其實有兩種類型。只看首尾句，可以估計本段集中介紹 Gilbert 的具體科學發現：他研究 magnetism和 electricity，創造 electric 一詞，批判 garlic 迷信，發現 metals could be magnetised，命名磁鐵的 north pole / south pole，也初步研究 static electricity。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Gilbert 也質疑傳統天文信念。末句說他可能是第一個提出某種 force 會造成 celestial orbit 的人。只看首尾句，可以估計本段主題是 astronomy 和 cosmology：他受 Copernican thought 影響，認為 stars 距離地球不相等，相信 Earth 像 giant magnet，compasses 因此指北，也提出地球、太陽、星體和月球的磁性或運動想法。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Gilbert 的研究方法很革命，因為他使用 experiments，而非只依靠 logic and reasoning。末句說他的 careful observation and experimentation 奠定了 modern science 的基礎。只看首尾句，可以估計本段是方法論總結：它強調 Gilbert 的新科學態度、實驗精神、對權威意見和deductive philosophy 的突破，以及後人以 gilbert 作為 magnetic potential 單位來紀念他的貢獻。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "第 11–13 題是 Choose THREE，C、D、E 的次序通常可以互換。"
+  ]
+}

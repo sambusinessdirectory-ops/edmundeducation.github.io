@@ -1,0 +1,1951 @@
+{
+  "id": "p2-128-lighting-up-the-lies",
+  "catalogueId": "p2-128",
+  "catalogueIds": [
+    "p2-128"
+  ],
+  "passage": 2,
+  "title": "Lighting up the lies",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D — Marcus Raichle",
+    "A — Henry T. Greely and Judy Illes",
+    "C — Henry T. Greely",
+    "A — Henry T. Greely and Judy Illes",
+    "B — Steven Laken",
+    "A — Henry T. Greely and Judy Illes",
+    "A — Henry T. Greely and Judy Illes",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "peripheral measures",
+    "polygraph",
+    "entrepreneurs"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D — Marcus Raichle",
+      "answerKey": "D — Marcus Raichle",
+      "type": "Matching Opinions or",
+      "prompt": "“believes that an apparently impossible goal may still be achievable”",
+      "translation": "相信一個表面上似乎不可能的目標，仍然可能達成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Opinions。題目沒有問一個事實，而是問某人「相信」甚麼。關鍵詞是 apparently impossible、may still be achievable。這類題通常要找引號或 reporting verb，例如 says、believes、asserts、called for。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To assess how fMRI and other neuroscience findings affect the law, the MacArthur Foundation provided $10 million last year to run the Law and Neuroscience Project as a three-year pilot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了評估 fMRI 和其他神經科學發現如何影響法律，MacArthur Foundation 去年提供一千萬美元，開展為期三年的 Law and Neuroscience Project 試點項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two scholars found that lie detection studies conducted so far (still fewer than 20 in all) failed to prove that fMRI is ‘effective as a lie detector in the real world at any accuracy level.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位學者發現，目前已進行的測謊研究總數仍少於二十項，尚未證明 fMRI 在真實世界中可作為任何準確水平的有效測謊工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 是一個「評估可行性」的段落。它一方面有大型研究項目，另一方面有學者指出現有研究不足。題目說「看似不可能但仍可能達成」，很可能藏在某位研究者對未來 research programme 的評價中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 apparently impossible 和 achievable。原文未必會逐字說 achievable，所以要找 possible / impossible / not impossible 這類詞。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 中 Marcus Raichle 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“I think it’s not possible, given the current technology, to trust the results,”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it’s not impossible to set up a research program to determine whether that’s possible.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡同時出現 not possible 和 not impossible，正好對應題目的 apparently impossible may still be achievable。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“I think it’s not possible, given the current technology, to trust the results,” says Marcus Raichle…"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marcus Raichle 說：「以目前技術來看，我認為不可能信任這些結果。」接著他補充：“But it’s not impossible to set up a research program to determine whether that’s possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「但設立一個研究計劃，去判斷那件事是否可能，並非不可能。」這句有一個很重要的轉折：current technology 暫時不足以令人 trust the results，但他沒有把未來可能性完全關掉。他認為可以建立 research program，去測試可靠 fMRI lie detection 是否可行。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "apparently impossible goal = not possible, given the current technology, to trust the results may still be achievable = not impossible to set up a research program to determine whether that’s possible believes = says / his stated view person = Marcus Raichle因此答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 “not possible” 就停下，以為這人只是在否定技術。細讀時要看下一句的 “not impossible”。這題真正控制答案的是兩句之間的轉折：目前不可相信，不代表未來不能透過研究確認可行性。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A — Henry T. Greely and Judy Illes",
+      "answerKey": "A — Henry T. Greely and Judy Illes",
+      "type": "Matching Opinions or",
+      "prompt": "“doubts the effectiveness of functional magnetic resonance imaging for detecting lies”",
+      "translation": "懷疑 fMRI 用於測謊的有效性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪個人物或群體對 fMRI 測謊的 effectiveness 有保留。控制詞是 effectiveness 和detecting lies。最理想的原文證據會直接出現 effective、lie detector 或 accuracy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To assess how fMRI and other neuroscience findings affect the law, the MacArthur Foundation provided $10 million last year to run the Law and Neuroscience Project as a three-year pilot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了評估 fMRI 和其他神經科學發現如何影響法律，MacArthur Foundation 去年提供一千萬美元，開展為期三年的 Law and Neuroscience Project 試點項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two scholars found that lie detection studies conducted so far (still fewer than 20 in all) failed to prove that fMRI is ‘effective as a lie detector in the real world at any accuracy level.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位學者發現，目前已進行的測謊研究總數仍少於二十項，尚未證明 fMRI 在真實世界中可作為任何準確水平的有效測謊工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經可以估計本段很可能回答 Question 15。題目說 doubts the effectiveness，原文說 failed to prove effective，語意高度接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 functional magnetic resonance imaging、detecting lies、effectiveness。Paragraph D 的最後一句有 fMRI、effective、lie detector，三個核心詞都集中在同一句。這是非常強的答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two scholars found that lie detection studies conducted so far (still fewer than 20 in all) failed to prove that fMRI is ‘effective as a lie detector in the real world at any accuracy level.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位學者發現，目前進行過的測謊研究仍不足二十項，尚未證明 fMRI 在真實世界中能以任何準確水平成為有效測謊工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 The two scholars，指前一句的 Henry T. Greely 和 Judy Illes。核心動詞是 found，表示他們在 review article 中作出的研究判斷。最重要的短語是 failed to prove，意思是「未能證明」。這不只是一般質疑，而是指出目前研究證據未達到證明 fMRI 有效的水平。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "doubts the effectiveness = found that studies failed to prove effective functional magnetic resonance imaging = fMRI for detecting lies = as a lie detector person / group = Henry T. Greely and Judy Illes因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Marcus Raichle 也說 current technology 不能 trust the results，所以 D 有一定吸引力。不過Question 15 的 wording 特別貼近 Paragraph D 最後一句：effectiveness 對應 effective；detecting lies 對應 lie detector。這個語言橋最精準地指向 Greely and Illes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C — Henry T. Greely",
+      "answerKey": "C — Henry T. Greely",
+      "type": "Matching Opinions or",
+      "prompt": "“warns of the dangers behind lie-detection technology”",
+      "translation": "警告測謊技術背後的危險。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 warning。要找人物單獨說出 danger、bad consequences、mistakes 或 abuse 的地方。選項中有 A “Greely and Illes” 和 C “Henry T. Greely”，所以一定要分清是兩人共同觀點，還是Greely 個人引言。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potential for abuse prompts caution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "潛在濫用風險令人必須謹慎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Considering the long and controversial history of the polygraph, gradualism may be the wisest course to follow for a new diagnostic that probes an essential quality governing social interaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到 polygraph 長期而具爭議的歷史，對於這種探測社交互動核心特質的新診斷技術，逐步推進可能是最明智的路線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 是全文的警告和結論段。第一句有 abuse 和 caution，最後一句有 gradualism，說明作者和引用者都在提醒讀者不要急於應用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 dangers。Paragraph H 直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The danger is…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The danger for science is…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "而說話者是 Greely，所以答案應該是 Henry T. Greely 單獨，而非 Greely and Illes 兩人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The danger is that people’s lives can be changed in bad ways because of mistakes in the technology,” Greely says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greely 說：「危險在於，由於技術出錯，人們的人生可能會被以壞的方式改變。」下一句：“The danger for science is that it gets a black eye because of this very high-profile use of neuroimaging that goes wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「對科學來說，危險在於如果這種高調使用 neuroimaging 的做法出錯，科學本身會名譽受損。」兩句都由 Greely says 引出，主語清楚是 Henry T. Greely。這裡的 danger 不只是技術層面，也包括人的生活和科學信譽。題目用 dangers behind lie-detection technology 概括這兩層風險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "warns = says “The danger is…” dangers behind lie-detection technology = people’s lives changed badly + science gets a black eye person = Henry T. Greely因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 也很吸引，因為 Greely 和 Illes 在 Paragraph G 一起主張限制用途。不過 Question 16 的warning 由 Greely 個人直接說出，而且題目中的 dangers 直接對應 “The danger is…”。所以要選C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A — Henry T. Greely and Judy Illes",
+      "answerKey": "A — Henry T. Greely and Judy Illes",
+      "type": "Matching Opinions or",
+      "prompt": "“calls for limiting lie-detection technology to research”",
+      "translation": "主張把測謊技術限制在研究用途內。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「限制用途」這個行動。關鍵詞是 limiting 和 research。原文很可能用 ban on non-research uses 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But until formal clinical trials prove that the machines meet safety and effectiveness criteria, Greely and Illes have called for a ban on non-research uses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在正式臨床試驗證明這些機器符合安全和有效性標準之前，Greely 和 Illes 已主張禁止非研究用途。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“White lies—‘no, dinner really was fantastic’—would have to be compared against untruths about sexual peccadilloes to ensure that the brain reacts identically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白色謊言，例如「不，晚餐真的很好」，必須與關於性方面小過失的不實說法比較，以確保大腦反應相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，答案已經很明顯。Paragraph G 的功能是講臨床試驗和監管條件，第一句直接提出在安全有效標準未達成之前應限制非研究用途。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 limiting、research。掃描時要找 research、non-research、ban。原文第一句有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“called for a ban on non-research uses”，和題目是反向表達同一意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“But until formal clinical trials prove that the machines meet safety and effectiveness criteria, Greely and Illes have called for a ban on non-research uses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但在正式臨床試驗證明機器符合安全和有效標準之前，Greely 和 Illes 主張禁止非研究用途。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Greely and Illes。核心動作是 have called for，表示提出主張。賓語是 a ban on non-research uses，即禁止研究以外的用途。題目說 “limiting lie-detection technology to research”，就是把「禁止非研究用途」轉成正面說法：「只限研究用途」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "calls for = have called for limiting to research = a ban on non-research uses lie-detection technology = the machines / fMRI and other brain-scanning technology person / group = Greely and Illes因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "留意這題選 A，不選 C。雖然 Henry T. Greely 個人也在 Paragraph H 發出警告，但 Paragraph G第一 句清楚寫的是 Greely and Illes 共同 called for a ban。因此這題要選兩人組合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B — Steven Laken",
+      "answerKey": "B — Steven Laken",
+      "type": "Matching Opinions or",
+      "prompt": "“reports successful real-world applications of lie-detection technology”",
+      "translation": "報告或聲稱測謊技術已有成功的真實應用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找比較正面的商業聲稱。關鍵詞是 successful、real-world applications。文章中誰在強調技術已經很準確、已掃描很多人、已解決問題？這會指向商業公司人物。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The biggest challenge—which the Law and Neuroscience Project is already funding research to address—is how to diminish the artificiality of the test protocol.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大的挑戰，是如何降低測試程序的人為性；Law and Neuroscience Project 已在資助研究處理這個問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He asserts that the technology has achieved 97 percent accuracy and that the more than 100 people scanned using the Cephos protocol have provided data that have resolved many of the issues that Greely and Illes cited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他聲稱這項技術已達到 97% 準確率，而且超過 100 名使用 Cephos protocol 掃描的人所提供的資料，已解決 Greely 和 Illes 提出的許多問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句形成鮮明對照：段首說研究程序仍有人為性挑戰；段尾引述 Steven Laken 聲稱 Cephos 已取得高準確率和大量掃描資料。題目問 successful real-world applications，很可能指段尾這位公司 CEO 的說法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 reports successful、real-world applications。原文未必有 successful 這個字，但會有 accuracy、people scanned、resolved issues。掃描 Paragraph F，可以找到 Steven Laken 的引言和後面的 asserts。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“We may have to take many shots on goal before we actually see a courtroom,” says Cephos chief executive Steven Laken."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cephos 行政總裁 Steven Laken 說：「在真正走進法庭之前，我們可能要多次嘗試射門。」接著：“He asserts that the technology has achieved 97 percent accuracy and that the more than 100 people scanned using the Cephos protocol have provided data that have resolved many of the issues that Greely and Illes cited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他聲稱這項技術已達到 97% 準確率，而且超過 100 名使用 Cephos protocol 掃描的人提供的資料，已解決 Greely 和 Illes 提出的許多問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 reports successful real-world applications 是對 Laken 說法的概括。文章用 asserts，代表這是他聲稱的內容，不代表作者完全接納。successful 對應 97 percent accuracy 和 resolved many issues；real-world applications 對應 people scanned using the Cephos protocol，以及希望scans accepted by the courts。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reports = asserts successful = 97 percent accuracy / resolved many issues real-world applications = more than 100 people scanned / scans accepted by courts person = Steven Laken因此答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生要小心：這是 Laken 的 claim，不是文章最後結論。Paragraph F 前半仍指出 artificiality 是major challenge。題目只問誰 reports / asserts 這種成功，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "A — Henry T. Greely and Judy Illes",
+      "answerKey": "A — Henry T. Greely and Judy Illes",
+      "type": "Matching Opinions or",
+      "prompt": "“identifies shortcomings in current lie-detection research”",
+      "translation": "指出目前測謊研究的不足。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰分析現有研究 deficiencies。關鍵詞是 shortcomings、current research。原文很可能用 deficiencies of existing research。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D，並延伸到 Paragraph E Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To assess how fMRI and other neuroscience findings affect the law, the MacArthur Foundation provided $10 million last year to run the Law and Neuroscience Project as a three-year pilot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為評估 fMRI 和其他神經科學發現如何影響法律，MacArthur Foundation 去年提供一千萬美元，開展三年試點項目。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two scholars found that lie detection studies conducted so far (still fewer than 20 in all) failed to prove that fMRI is ‘effective as a lie detector in the real world at any accuracy level.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位學者發現，目前進行過的測謊研究仍不足二十項，尚未證明 fMRI 在真實世界中能以任何準確水平作為有效測謊工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 第一及最後一句進一步列出缺陷：大多研究檢查 groups，不是 individuals；亮起腦區也與多種 cognitive behaviours 有關。這些內容正是 shortcomings。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 shortcomings 和 current research。Paragraph D 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“explores the deficiencies of existing research”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "deficiencies = shortcomings；existing research = current research。這是精準改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A major review article last year in the American Journal of Law and Medicine by Henry T. Greely of Stanford University and Judy Illes, now at the University of British Columbia, explores the deficiencies of existing research and what may be needed to move the technology forward.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年刊於 American Journal of Law and Medicine 的一篇重要 review article，由 Stanford University 的 Henry T. Greely 和現任 University of British Columbia 的 Judy Illes 撰寫，探討現有研究的缺陷，以及推動這項技術向前可能需要甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的作者是 Henry T. Greely and Judy Illes。核心動詞是 explores，表示他們分析和指出。核心名詞是 deficiencies of existing research，即現有研究的不足。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 再補充具體不足："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most studies examined groups, not individuals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大部分研究檢查的是群體，而非個人。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“the regions also correlate with a wide range of cognitive behaviors, including memory, self-monitoring and conscious self-awareness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些區域也與多種認知行為相關，包括記憶、自我監控和有意識的自我覺察。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "identifies shortcomings = explores the deficiencies current research = existing research / studies conducted so far person / group = Henry T. Greely and Judy Illes因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 沒有每句都重複 Greely and Illes 的名字，但它延續 Paragraph D 的 “The two scholars”。做 Matching Features 時，要把代詞和上一段人物連回去，不能把 Paragraph E 的缺陷當成無人提出的作者背景。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A — Henry T. Greely and Judy Illes",
+      "answerKey": "A — Henry T. Greely and Judy Illes",
+      "type": "Matching Opinions or",
+      "prompt": "“says further work is needed to improve lie-detection technology”",
+      "translation": "表示需要進一步工作，才能改進測謊技術。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題和 Question 19 很接近，但焦點不同。Q19 問 current research 的 shortcomings；Q20 問further work / improve technology。要找 “what may be needed to move the technology forward”這類句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To assess how fMRI and other neuroscience findings affect the law, the MacArthur Foundation provided $10 million last year to run the Law and Neuroscience Project as a three-year pilot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為評估 fMRI 和其他神經科學發現如何影響法律，MacArthur Foundation 去年提供一千萬美元，開展三年試點項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two scholars found that lie detection studies conducted so far (still fewer than 20 in all) failed to prove that fMRI is ‘effective as a lie detector in the real world at any accuracy level.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位學者發現，目前測謊研究尚未證明 fMRI 在真實世界中能作為有效測謊工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的功能是「評估現有證據，並指出未來要做甚麼」。題目問 further work needed，所以段落中間關於 move the technology forward 的句子最重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 further work、improve、technology。原文的對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“what may be needed to move the technology forward.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "move the technology forward = improve / develop the technology。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A major review article last year in the American Journal of Law and Medicine by Henry T. Greely of Stanford University and Judy Illes, now at the University of British Columbia, explores the deficiencies of existing research and what may be needed to move the technology forward.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Henry T. Greely 和 Judy Illes 的重要 review article 探討現有研究缺陷，以及推動這項技術向前可能需要甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個並列部分：第一，explores the deficiencies of existing research；第二，what may be needed to move the technology forward。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 19 主要對應第一部分；Question 20 主要對應第二部分。題目說 further work is needed to improve technology，其實就是把 what may be needed to move the technology forward 用較普通語言改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "further work is needed = what may be needed improve lie-detection technology = move the technology forward person / group = Greely and Illes因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Marcus Raichle 也提到 research program，因此 D 有吸引力。不過 Q14 已經精準對應他的 “not impossible”。Q20 的 wording “improve technology” 更貼近 Greely and Illes article 中 “move the technology forward”。所以這題選 A 更穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The lie-detection test on the convicted woman was first conducted by European researchers.”",
+      "translation": "對那名被定罪女子進行的測謊測試，最初由歐洲研究者進行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩個核心部分：第一，對象是 the convicted woman；第二，測試由 European researchers conducted。這裡的 first 不宜理解成「全球歷史上第一個fMRI 測謊研究」，在本題語境中較合理理解為這宗女子個案的測試首先由哪一方進行。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last year Sean A. Spence, a professor at the school of medicine at the University of Sheffield in England, performed brain scans that showed that a woman convicted of poisoning a child in her care appeared to be telling the truth when she denied committing the crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，英國 University of Sheffield 醫學院教授 Sean A. Spence 進行了腦部掃描；掃描顯示，一名被判毒害其照顧兒童的女子，在否認犯案時似乎是在說真話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The brain study of the woman later appeared in the journal European Psychiatry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這名女子的腦部研究後來刊登於 European Psychiatry 期刊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph A 是「個案來源段」。它交代誰做掃描、對象是誰、結果大概是甚麼，以及研究後來在哪裡發表。題目問 convicted woman，所以很明顯應定位 Paragraph A。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 convicted woman 和 conducted。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a woman convicted of poisoning a child…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Sean A. Spence… University of Sheffield in England, performed brain scans…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "conducted 在原文中沒有逐字出現，但 performed brain scans 就是進行測試 / 掃描。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last year Sean A. Spence, a professor at the school of medicine at the University of Sheffield in England, performed brain scans…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，英國 University of Sheffield 醫學院教授 Sean A. Spence 進行了腦部掃描……這句清楚說出執行者是 Sean A. Spence，他任職於 University of Sheffield in England。後文又提到 “the Sheffield group”，即 Sheffield 的研究團隊。England 是歐洲地區的一部分，因此題目把這組研究者概括為 European researchers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the convicted woman = a woman convicted of poisoning a child test was conducted = performed brain scans European researchers = Sean A. Spence / the Sheffield group in England first conducted = this case’s scan was performed before later publication判斷：題目說這宗女子個案的測試由歐洲研究者進行；原文說英國 Sheffield 的 Sean A. Spence performed brain scans。方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最後一句的 European Psychiatry 也有 European 這個字，但它只是期刊名稱。真正支撐答案的是 “University of Sheffield in England” 和 “performed brain scans”。不要只因 European Psychiatry 看到 European 就定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Allowing scans as evidence in court could create a promising and profitable business.”",
+      "translation": "容許掃描結果成為法庭證據，可能創造一個有前景且有利可圖的商業市場。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 court evidence 和 profitable business 之間的關係。控制詞是 could create，語氣是可能性；不是說已經一定發生。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The biggest challenge—which the Law and Neuroscience Project is already funding research to address—is how to diminish the artificiality of the test protocol.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大的挑戰，是如何減少測試程序的人為性；Law and Neuroscience Project 已經資助研究處理這一點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He asserts that the technology has achieved 97 percent accuracy and that the more than 100 people scanned using the Cephos protocol have provided data that have resolved many of the issues that Greely and Illes cited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他聲稱這項技術已達到 97% 準確率，而且超過 100 名使用 Cephos protocol 掃描的人提供的資料，已解決 Greely 和 Illes 提出的許多問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 會談兩件事：研究仍有挑戰，但商業公司正積極推動應用。題目問 scans as legal evidence 和 lucrative market，應該在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 evidence in court、business、profitable。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Allowing scans as legal evidence could open a potentially huge and lucrative market.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句幾乎直接改寫題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Allowing scans as legal evidence could open a potentially huge and lucrative market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "容許掃描結果作為法律證據，可能開啟一個潛在巨大且有利可圖的市場。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“could create a promising and profitable business”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“could open a potentially huge and lucrative market”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩邊意思高度一致。profitable 對應 lucrative；promising 對應 potentially huge；business 對應market；evidence in court 對應 legal evidence。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "allowing scans as evidence in court = allowing scans as legal evidence could create = could open promising = potentially huge profitable = lucrative business = market判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的語氣是 could，不是 will definitely。原文同樣用 could，表示可能性而非已成事實。語氣一致，是 TRUE 的重要理由。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Neuroimaging invariably produces incorrect results.”",
+      "translation": "Neuroimaging 總是產生錯誤結果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。核心詞是 invariably，意思是 always / without exception，沒有例外。只要原文語氣是「可能出錯」、「有風險」、「目前不能完全信任」，就低於 invariably 的絕對程度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potential for abuse prompts caution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "潛在濫用風險令人必須謹慎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Considering the long and controversial history of the polygraph, gradualism may be the wisest course to follow for a new diagnostic that probes an essential quality governing social interaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到 polygraph 長期而具爭議的歷史，對這種探測社交互動核心特質的新診斷技術，逐步推進可能是最明智的路線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 的功能是警告風險，提倡謹慎。這段會提到 mistakes 和goes wrong，但是否等於「一定錯」仍要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 neuroimaging、incorrect results、invariably。原文沒有 invariably，也沒有 always incorrect。相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“because of mistakes in the technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“neuroimaging that goes wrong”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞顯示有出錯風險，但不等於每次都錯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The danger is that people’s lives can be changed in bad ways because of mistakes in the technology,” Greely says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greely 說：「危險在於，由於技術出錯，人們的人生可能會被以壞的方式改變。」再看：“The danger for science is that it gets a black eye because of this very high-profile use of neuroimaging that goes wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「對科學來說，危險在於這種高調使用 neuroimaging 的做法若出錯，科學會名譽受損。」原文的語氣是 danger、can be changed、mistakes、goes wrong。這些都表示「可能出錯，且出錯後後果嚴重」。題目使用 invariably，表示「一定出錯、每次都錯」。這個程度明顯過強。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 程度比較",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "invariably produces incorrect results = always produces wrong results原文 = mistakes can occur / use may go wrong / current technology should be treated cautiously invariably 的程度高於原文支援範圍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文警告的是出錯風險和濫用後果，並沒有說 neuroimaging 每次都錯。題目把「可能錯」提升成「必然錯」，和原文程度相衝，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “mistakes” 和 “goes wrong” 就以為題目成立。真正控制答案的是 invariably。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "IELTS 很常用 always、never、invariably 這類絕對詞製造陷阱；只要原文是 may、can、danger、potential，就要特別檢查程度有沒有被放大。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "peripheral measures",
+      "answerKey": "peripheral measures",
+      "type": "Summary Completion",
+      "prompt": "“functional magnetic resonance imaging can detect lies by observing activity inside the brain rather than monitoring 24 __________, as a 25 __________ does.”",
+      "translation": "有人聲稱 fMRI 可以透過觀察大腦內部活動偵測謊言，而不是像某種工具那樣監測 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格 24 前面是 monitoring，後面接 as a 25 does，所以空格 24 需要一個名詞短語，表示 polygraph 所監測的東西。答案必須不超過三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Functional magnetic resonance imaging (fMRI) purports to detect mendacity by seeing inside the brain instead of tracking peripheral measures of anxiety—such as changes in pulse, blood pressure or respiration—measured by a polygraph.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Functional magnetic resonance imaging，即 fMRI，聲稱可以透過觀察大腦內部偵測說謊，而不是像 polygraph 那樣追蹤焦慮的外圍指標，例如脈搏、血壓或呼吸變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No Lie MRI, whose name evokes the casual familiarity of a walk-in dental clinic in a strip mall, suggests that the technique may even be used for ‘risk reduction in dating.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "No Lie MRI 這個名字令人想到商場中可直接走入的牙科診所那種隨意熟悉感；它甚至暗示這技術可用於 dating 的 risk reduction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph B 先解釋 fMRI 和 polygraph 的分別，再講商業公司如何包裝和推廣技術。空格 24 明顯來自第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 functional magnetic resonance imaging、inside the brain、monitoring。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“seeing inside the brain instead of tracking peripheral measures of anxiety…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 observing activity inside the brain 對應 seeing inside the brain。rather than monitoring 對應 instead of tracking。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“fMRI purports to detect mendacity by seeing inside the brain instead of tracking peripheral measures of anxiety…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fMRI 聲稱能透過觀察大腦內部偵測說謊，而不是追蹤焦慮的外圍指標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “peripheral measures of anxiety” 是完整概念，但空格要求 NO MORE THAN THREE WORDS。peripheral measures of anxiety 有四個字，超出限制。可填的核心短語是 peripheral measures，兩個字，既符合字數限制，也保留原文核心意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "detect lies = detect mendacity observing activity inside the brain = seeing inside the brain monitoring = tracking peripheral measures = peripheral measures答案形式檢查： peripheral measures 是兩個字，符合 NO MORE THAN THREE WORDS。填入後： rather than monitoring peripheral measures, as a polygraph does.文法自然，意思正確。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “pulse, blood pressure or respiration”。這些是 peripheral measures 的例子，而且全部寫出會超過字數限制。題目要的是概括名詞短語，所以 peripheral measures 最合適。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "polygraph",
+      "answerKey": "polygraph",
+      "type": "Summary Completion",
+      "prompt": "“rather than monitoring 24 __________, as a 25 __________ does.”",
+      "translation": "而不是像一個 __________ 那樣監測外圍指標。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 25 前面有冠詞 a，所以答案應是單數可數名詞。題目問的是哪種工具會監測 peripheral measures。原文第一句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Functional magnetic resonance imaging (fMRI) purports to detect mendacity by seeing inside the brain instead of tracking peripheral measures of anxiety—such as changes in pulse, blood pressure or respiration—measured by a polygraph.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fMRI 聲稱可以透過觀察大腦內部偵測說謊，而不是追蹤由 polygraph 測量的焦慮外圍指標，例如脈搏、血壓或呼吸變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No Lie MRI, whose name evokes the casual familiarity of a walk-in dental clinic in a strip mall, suggests that the technique may even be used for ‘risk reduction in dating.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "No Lie MRI 甚至暗示這種技術可用於 dating 的 risk reduction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，polygraph 已經直接出現。這是原字重現題，但仍要檢查文法和字數。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “as a ___ does”。原文對應 “measured by a polygraph”。題目把 measured by 改成as a polygraph does。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“measured by a polygraph”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由 polygraph 測量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "polygraph 是傳統測謊儀，它通常透過脈搏、血壓、呼吸等外圍生理反應推測受測者是否焦慮。文章把 fMRI 和 polygraph 作對比：fMRI 看大腦內部；polygraph 測量外圍生理指標。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "as a ___ does = measured by a ___tool = polygraph monitoring peripheral measures = tracking peripheral measures measured by a polygraph答案形式檢查： polygraph 是一個字，前面可接 a。答案是 polygraph。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 fMRI。fMRI 是新技術，負責 seeing inside the brain；空格 25 問的是監測 peripheral measures 的傳統工具，所以答案是 polygraph。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "entrepreneurs",
+      "answerKey": "entrepreneurs",
+      "type": "Summary Completion",
+      "prompt": "“Both television audiences and 26 __________ have been fascinated by this lie-detection technology.”",
+      "translation": "電視觀眾和 __________ 都被這種測謊技術吸引。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 26 和 television audiences 並列，所以需要一個複數名詞，表示另一類被吸引的人。題目中的 fascinated by 對應原文中的 drawn 和 pulled in。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Functional magnetic resonance imaging (fMRI) purports to detect mendacity by seeing inside the brain instead of tracking peripheral measures of anxiety—such as changes in pulse, blood pressure or respiration—measured by a polygraph.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fMRI 聲稱可以透過觀察大腦內部偵測說謊，而不是追蹤由 polygraph 測量的焦慮外圍指標，例如脈搏、血壓或呼吸變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No Lie MRI, whose name evokes the casual familiarity of a walk-in dental clinic in a strip mall, suggests that the technique may even be used for ‘risk reduction in dating.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "No Lie MRI 甚至暗示這技術可用於 dating 的 risk reduction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph B 從技術原理講到商業化推廣。題目說 television audiences和另一類人 fascinated，應在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 television audiences、fascinated。原文沒有 television audiences 這個完整片語，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“drawing hundreds of thousands of viewers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "viewers = television audiences。"
+            },
+            {
+              "kind": "label",
+              "text": "同一句還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“fMRI has pulled in entrepreneurs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "entrepreneurs 就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Besides drawing hundreds of thousands of viewers, fMRI has pulled in entrepreneurs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了吸引數十萬觀眾之外，fMRI 也吸引了企業家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的結構是 Besides A, B also…A = hundreds of thousands of viewers B = entrepreneurs題目把 viewers 改寫成 television audiences，把 pulled in 改寫成 have been fascinated by。由於空格和 television audiences 並列，答案要填另一個被吸引的群體：entrepreneurs。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "television audiences = hundreds of thousands of viewers have been fascinated by = has pulled in / drawing entrepreneurs = entrepreneurs答案形式檢查： entrepreneurs 是複數名詞，和 audiences 並列自然。答案是 entrepreneurs。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 companies。後文確實提到 two companies，但題目問的是被技術吸引的一類人，原文直接寫 entrepreneurs。companies 是後續具體例子，不是空格所需答案。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Lighting up the lies.pdf",
+    "sha256": "ef23e4c47a9893ee37725664547ba226693b0776e4bc1bcadde36e194847e154",
+    "pageCount": 26
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句講 Sean A. Spence 去年為一名被判毒害兒童的女子做 brain scans，結果顯示她否認犯罪時似乎在說真話。最後一句說這名女子的 brain study 後來刊登於 European Psychiatry。只看首尾句，可以估計本段是全文個案引入：用一宗具法律爭議的真實案例，帶出 fMRI lie detection 的吸引力、傳媒介入、學術發表，以及後文對這種技術可信度的討論。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說 fMRI 聲稱可透過觀察大腦內部偵測謊言，而非像 polygraph 那樣追蹤焦慮的外圍生理指標。最後一句提到 No Lie MRI 甚至暗示這技術可用於 dating 的 risk reduction。只看首尾句，可以估計本段介紹 fMRI 測謊的基本原理和商業化發展：它吸引大量觀眾，也吸引企業家，並出現聲稱準確率很高的公司。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說許多 neuroscientists 和 legal scholars 懷疑這些公司聲稱，有些人甚至質疑 brain scans能否走出研究階段。最後一句說 lie studies 中亮起的腦區主要涉及 decision making。首尾句顯示本段開始轉向質疑：fMRI 的假設是說謊需要更多大腦努力，相關區域血流增加，但這套邏輯仍受學術和法律界懷疑。題目若問 doubt、effectiveness、brain areas，可定位此段或後段。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說 MacArthur Foundation 提供一千萬美元，成立 Law and Neuroscience Project，評估neuroscience findings 如何影響法律。最後一句說 Greely 和 Illes 發現現有研究尚未證明 fMRI在真實世界中可作為任何準確水平的 lie detector。只看首尾句，可以估計本段是權威評估段：一方面有大型研究項目嘗試設定可靠標準，另一方面有學者指出現有證據不足。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說大部分研究檢查的是 groups，而非 individuals。最後一句說被掃描時亮起的區域也和多種 cognitive behaviours 有關，包括 memory、self-monitoring 和 conscious self-awareness。首尾句顯示本段集中列出現有研究缺陷：樣本對象太有限、難以套用到有健康狀況或用藥的人，以及亮起腦區的專一性不足。題目若問 shortcomings、deficiencies、current research，應看此段和Paragraph D。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說最大挑戰是如何減少測試程序的 artificiality，而 Law and Neuroscience Project 已資助研究處理這問題。最後一句說 Cephos 的 Steven Laken 聲稱技術達 97% accuracy，且超過 100人掃描資料已解決 Greely 和 Illes 提出的很多問題。只看首尾句，可見本段一邊指出研究設計不夠真實，一邊呈現商業公司急於推進法庭應用。題目若問 court evidence、lucrative market、successful claims、further data，可定位此段。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說在正式臨床試驗證明安全和有效前，Greely 和 Illes 主張禁止非研究用途。最後一句說white lies 也要和涉及 sexual peccadilloes 的謊言比較，確保大腦反應相同。首尾句顯示本段討論監管和臨床試驗難題：若要正式批准，需要測試不同人群、不同信仰、不同社交情境和不同嚴重程度的謊言。題目若問 limit to research 或 ban non-research uses，答案在此。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說 potential for abuse prompts caution，即濫用風險令人必須謹慎。最後一句說考慮到polygraph 長期而具爭議的歷史，對這種探測社交互動核心特質的新診斷技術，gradualism 可能最明智。首尾句顯示本段是全文結論：Greely 強調錯誤可嚴重改變人的人生，也會傷害科學形象，因此作者傾向謹慎、逐步發展。題目若問 danger、mistakes、caution，應看此段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航。"
+  ]
+}

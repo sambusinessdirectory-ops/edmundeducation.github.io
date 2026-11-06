@@ -1,0 +1,2213 @@
+{
+  "id": "p3-081-migrants-and-refugees-racial-discrimination-and-xenophobia",
+  "catalogueId": "p3-081",
+  "catalogueIds": [
+    "p3-081"
+  ],
+  "passage": 3,
+  "title": "Migrants and Refugees: Racial Discrimination and Xenophobia",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "F",
+    "C",
+    "A",
+    "D",
+    "B",
+    "A",
+    "C",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — has been observed in many different parts of the world.",
+      "answerKey": "D — has been observed in many different parts of the world.",
+      "type": "Sentence Endings",
+      "prompt": "“An upward trend in violence perpetrated against non-national minority groups by radical nationals has been observed in many different parts of the world.”",
+      "translation": "由激進本國人士針對非本國少數群體所作出的暴力上升趨勢，已在世界多個不同地區被觀察到。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問的是「針對 non-national minority groups 的 violence upward trend」出現在哪裡或有甚麼特徵。題幹中的 upward trend in violence 和 radical nationals 是關鍵。選項中要找一個能接上這個主語、意思和文法都自然的句尾。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As governments grapple with the new realities of their multi-ethnic societies, there has been a marked increase in discrimination and violence directed against migrants, refugees and other non-nationals by extremist groups in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當各國政府努力處理多族裔社會的新現實時，世界多地由 extremist groups 針對 migrants、refugees 和 other non-nationals 的歧視與暴力已明顯增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, there is more than enough anecdotal evidence to show that violations of the human rights of migrants, refugees and other non-nationals are so generalised, widespread and commonplace that they are a defining feature of international migration today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，已有相當多的個案性證據顯示，migrants、refugees 和 other non-nationals 的人權受侵害情況如此普遍、廣泛和常見，以致它們已成為今日 international migration 的一個界定性特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 3 的功能：這段處理 anti-migrant violence 和 discrimination的全球範圍，以及問題是否有足夠記錄。題幹中的 “violence” 和 “non-national” 明顯把我們帶到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“upward trend in violence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“non-national minority groups”"
+            },
+            {
+              "kind": "quote",
+              "text": "“radical nationals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應為："
+            },
+            {
+              "kind": "quote",
+              "text": "“a marked increase in discrimination and violence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“migrants, refugees and other non-nationals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extremist groups”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in many parts of the world”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As governments grapple with the new realities of their multi-ethnic societies, there has been a marked increase in discrimination and violence directed against migrants, refugees and other non-nationals by extremist groups in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當各國政府努力處理多族裔社會的新現實時，世界多地由 extremist groups 針對 migrants、refugees 和 other non-nationals 的歧視與暴力已明顯增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “a marked increase” 改寫成 “an upward trend”，把 “extremist groups” 改寫成 “radical nationals”，把 “migrants, refugees and other non-nationals” 概括成 “non-national minority groups”。句尾 D “has been observed in many different parts of the world” 對應原文 “in many parts of the world”。"
+            },
+            {
+              "kind": "label",
+              "text": "選項判斷D 正確，因為它同時完成文法和意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“An upward trend ... has been observed in many different parts of the world.”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 提到 victims 和 perpetrators 在文化或外貌上 always distinct，這比較接近後文對 racism 的概念討論，和本題的 “violence increase” 無直接關係。B 提到 share a likeness，接近 Paragraph 7的 xenophobia 例子，也不處理 upward trend。這題真正控制答案的是 “marked increase” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“many parts of the world”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "F — has a controlling hand in the affairs of one or more of the other sections of society.",
+      "answerKey": "F — has a controlling hand in the affairs of one or more of the other sections of society.",
+      "type": "Sentence Endings",
+      "prompt": "“Where racism occurs, the dominant group promotes a hierarchical system in which it has a controlling hand in the affairs of one or more of the other sections of society.”",
+      "translation": "在 racism 出現的地方，dominant group 會推動一種 hierarchy，在這種體系中，它對社會其他一個或多個群體具有控制權。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 racism 發生時，dominant group 在 hierarchy 中扮演甚麼角色。題幹已有 “dominant group” 和 “hierarchical system”，所以要找原文中關於 superior race、domination、control 的定義。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The definition of xenophobia, and its differentiation from racism and racial discrimination, is still evolving.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "xenophobia 的定義，以及它和 racism、racial discrimination 的區分，仍在發展中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一項定義："
+            },
+            {
+              "kind": "quote",
+              "text": "“Xenophobia describes attitudes, prejudices and behaviour that reject, exclude and often vilify persons based on the perception that they are outsiders or foreigners to the community, society or nation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Xenophobia 描述的是 attitudes、prejudices and behaviour；這些態度和行為基於某些人被視為community、society 或 nation 的 outsiders 或 foreigners，從而拒絕、排斥並常常醜化他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估 Paragraph 6 是概念定義段。雖然最後一句在定義 xenophobia，本題問racism，所以要讀同段前半的 racism 定義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“racism”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dominant group”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hierarchical system”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Racism is an ideological construct that assigns a certain race and/or ethnic group to a position of power over others on the basis of physical and cultural attributes, as well as economic wealth, involving hierarchical relations where the superior race exercises domination and control over others.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Racism 是一種 ideology construct，它根據 physical and cultural attributes 以及 economic wealth，把某個 race 或 ethnic group 放在高於其他群體的 power position，並涉及 hierarchical relations；在這種關係中，superior race 對其他群體行使 domination and control。"
+            },
+            {
+              "kind": "label",
+              "text": "這句的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“position of power over others”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對其他群體居於權力位置。"
+            },
+            {
+              "kind": "quote",
+              "text": "“hierarchical relations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "階層關係。"
+            },
+            {
+              "kind": "quote",
+              "text": "“exercises domination and control over others”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對其他人或群體行使支配和控制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F 的 “has a controlling hand in the affairs of one or more of the other sections of society” 正好把 “domination and control over others” 轉成普通說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷F 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “dominant group” 對應原文 “superior race”；“promotes a hierarchical system” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“involving hierarchical relations”；“controlling hand” 對應 “exercises domination and control”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E “will eventually reach a position of total submission” 看似和 domination 有關，但原文沒有說被壓迫群體一定會走到 total submission。原文只定義了權力階層和控制關係，沒有提供最後結果。答案要跟著 definition 走，不要把 domination 推到更極端的結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — may still find themselves the victims of xenophobic behaviour.",
+      "answerKey": "C — may still find themselves the victims of xenophobic behaviour.",
+      "type": "Sentence Endings",
+      "prompt": "“Persons not considered to be culturally or physically distinct from the majority may still find themselves the victims of xenophobic behaviour.”",
+      "translation": "即使某些人未被視為在文化或外貌上與 majority 明顯不同，他們仍可能成為 xenophobic behaviour 的受害者。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問：如果某些人和 majority 外貌或 ancestry 相同，是否仍可能遭受 xenophobia？題幹的控制點是 not considered culturally or physically distinct，要找原文中 “identical physical characteristics” 和 “shared ancestry” 這類相反線索。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many cases, it is difficult to distinguish between racism and xenophobia as motivations for behaviour, since differences in physical characteristics are often assumed to distinguish a person from the common identity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多情況下，很難分辨行為背後的動機是 racism 還是 xenophobia，因為人們常假定 physical characteristics 的差異會把某人和共同身份區分開來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, manifestations of xenophobia are directed against people of identical physical characteristics, even of shared ancestry, when such people arrive, return or migrate to states or areas where occupants consider them outsiders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，xenophobia 的表現也會針對 physical characteristics 相同、甚至 shared ancestry 的人；當這些人抵達、返回或遷移到某些 states 或 areas，而當地 occupants 視他們為 outsiders 時，就會出現這種情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段功能是處理 racism 和 xenophobia 的界線，尤其指出 xenophobia 不一定依靠外貌差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“not considered ... culturally or physically distinct”"
+            },
+            {
+              "kind": "quote",
+              "text": "“majority”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“people of identical physical characteristics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“even of shared ancestry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“occupants consider them outsiders”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說 xenophobia 也可以針對："
+            },
+            {
+              "kind": "quote",
+              "text": "“people of identical physical characteristics”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "外貌特徵相同的人。"
+            },
+            {
+              "kind": "quote",
+              "text": "“even of shared ancestry”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至有共同祖源的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就回應題目的 “not considered to be culturally or physically distinct”。他們不一定在外貌或祖源上不同，只要被當地 occupants 視作 outsiders，就仍可能受到 xenophobic behaviour。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“may still find themselves the victims of xenophobic behaviour” 精準對應原文 “manifestations of xenophobia are directed against...”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "很多學生會以為 xenophobia 一定針對外國人，外貌或祖源相同就不會中招。Paragraph 7 特別推翻這個簡化理解。決定答案的不是外貌是否不同，重點在 “occupants consider them outsiders”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 outsider perception。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — are always culturally or physically distinct from the perpetrators of the acts of",
+      "answerKey": "A — are always culturally or physically distinct from the perpetrators of the acts of",
+      "type": "Sentence Endings",
+      "prompt": "“Racism differs from xenophobia in that victims of the former are always culturally or physically distinct from the perpetrators of the acts of wrongdoing.”",
+      "translation": "Racism 和 xenophobia 的不同之處，在於前者的受害者通常會被加害者按文化或身體特徵差異加以區分。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "wrongdoing."
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 racism 和 xenophobia 的差別，尤其是 racism victims 有甚麼特點。題幹中的 “differs from xenophobia” 表示要回到定義段，檢查 racism 的依據和 xenophobia 的依據有何不同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Racism and xenophobia are distinct phenomena, although they often overlap.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Racism 和 xenophobia 是不同現象，雖然兩者經常重疊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a sociologist puts it, ‘xenophobia is an attitudinal orientation of hostility against non-natives in a given population.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如一位 sociologist 所說，xenophobia 是某一 population 中針對 non-natives 的 hostility orientation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以清楚知道 Paragraph 5 是 racism 和 xenophobia 的概念區分段。這正是本題的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Racism differs from xenophobia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“victims of the former”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While racism generally implies a distinction based on difference in physical characteristics, such as skin colour, hair type, facial features, etc., xenophobia denotes behaviour specifically based on the perception that ‘the other’ is foreign to or originates from outside the community or nation.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Racism 通常意味著一種基於 physical characteristics 差異的區分，例如 skin colour、hair type、facial features 等；xenophobia 則指一種行為，特別基於某人被視為 foreign，或來自 community /nation 外部。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把兩者分成兩條線： Racism：基於 physical characteristics 的差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Xenophobia：基於對方被視為 foreign / outsider。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說 victims of racism “are ... culturally or physically distinct”。雖然 “always” 語氣比原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“generally implies” 更強，但在這組句尾中，A 最貼近 racism 的區分基礎；B 則明顯是 Paragraph 7 中 xenophobia 可針對 similar people 的特點。選項判斷A 正確。原文 “difference in physical characteristics” 對應 “physically distinct”。Paragraph 6 的 racism 定義也補充了 “physical and cultural attributes”，所以 A 的 culturally or physically distinct 有文本根據。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “tend to share a likeness with the perpetrators” 很吸引人，因為 Paragraph 7 說 xenophobia 可針對 identical physical characteristics / shared ancestry 的人。但題目問 “victims of the former”， former 指 racism。因此不能把 xenophobia 的特點配給 racism。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "D — immigrant workers",
+      "answerKey": "D — immigrant workers",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following migrant groups is the largest?”",
+      "translation": "以下哪一類 migrant group 數量最大？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, one in every 50 human beings is a migrant worker, a refugee or asylum seeker, or an immigrant living in a foreign country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，每 50 個人中就有 1 人是 migrant worker、refugee、asylum seeker，或居住在外國的immigrant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These figures do not include the estimated 20 million internally displaced persons forcibly displaced within their own country, nor tens of millions of additional internal migrants, mainly rural to urban, in countries around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些數字尚未包括估計 2000 萬名在本國境內被迫流離失所的 internally displaced persons，也未包括世界各國額外數以千萬計、主要由 rural to urban 的 internal migrants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 1 是數字段。題目問最大 migrant group，一定要比較本段的數量。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “largest” 和各選項群體。原文提供："
+            },
+            {
+              "kind": "quote",
+              "text": "“some 150 million people live temporarily or permanently outside their countries of origin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“80–97 million are migrant workers and members of their families”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Another 12 million are refugees outside their countries of origin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“20 million internally displaced persons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tens of millions of additional internal migrants”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of these, an estimated 80–97 million are migrant workers and members of their families.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些人之中，估計 8000 萬至 9700 萬是 migrant workers 及其家庭成員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是段落中最明確、數值最大的具體估計。Refugees 是 1200 萬；internally displaced persons 是2000 萬；internal migrants 只說 tens of millions，沒有給出比 80–97 million 更高的明確數字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A internally displaced persons：原文是 20 million，少於 80–97 million。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B refugees：原文是 12 million，少於 migrant workers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C internal migrants：原文只說 tens of millions，且沒有比 80–97 million 更大的明確數字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D immigrant workers：對應原文 migrant workers，是最大的一組。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 D。題目用 “immigrant workers” 表達，原文用 “migrant workers”；雖然字眼不完全相同，但選項中 D 明顯對應 80–97 million 這組。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — governments are finding it difficult to stop racism and xenophobia.",
+      "answerKey": "B — governments are finding it difficult to stop racism and xenophobia.",
+      "type": "Multiple Choice",
+      "prompt": "“The author of the text believes that…”",
+      "translation": "作者相信以下哪一項？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 2–3 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The increasing ethnic and racial diversity of societies is the inevitable consequence of migration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會中 ethnic and racial diversity 的增加，是 migration 的必然結果。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As governments grapple with the new realities of their multi-ethnic societies, there has been a marked increase in discrimination and violence directed against migrants, refugees and other non-nationals by extremist groups in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 governments 努力應對 multi-ethnic societies 的新現實時，世界多地由 extremist groups 針對migrants、refugees 和 other non-nationals 的 discrimination and violence 已明顯增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段的開頭，可以看到作者把 migration、multi-ethnic societies、governments’ challenge、racism / xenophobia 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“governments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“finding it difficult”"
+            },
+            {
+              "kind": "quote",
+              "text": "“racism and xenophobia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“confronted with the challenge of accommodating people of different cultures, races, religions and languages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“governments grapple with the new realities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“marked increase in discrimination and violence”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Increasing migration means that a growing number of states have become or are becoming more multi-ethnic and are confronted with the challenge of accommodating people of different cultures, races, religions and languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "migration 增加意味著越來越多 states 已經或正在變得 more multi-ethnic，並面對accommodating 不同 cultures、races、religions and languages 的挑戰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 又說 governments “grapple with” these new realities。"
+            },
+            {
+              "kind": "quote",
+              "text": "“grapple with” 表示努力處理、艱難應對。再加上 “marked increase in discrimination and violence”，可以看出作者認為政府確實面對困難。選項排除A 錯。文章說 ethnic and racial diversity 是 migration 的 inevitable consequence，沒有說 racism必然會出現。 B 正確。government challenge / grapple with / marked increase 合起來支援這項。 C 錯。文章沒有說 exploitation deters others from migrating。 D 錯。文章沒有討論 minority groups 內部是否存在 xenophobia。答案判斷答案是 B。這是概括式答案，沒有逐字重現，但 “confronted with the challenge” 和 “grapple with”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "都支援政府正在艱難處理 racism and xenophobia 相關問題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "A — not all racial abuse cases are documented or looked into.",
+      "answerKey": "A — not all racial abuse cases are documented or looked into.",
+      "type": "Multiple Choice",
+      "prompt": "“There is no real way of knowing how many migrants are discriminated against because…”",
+      "translation": "為甚麼沒有真正方法知道有多少 migrants 被歧視？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As governments grapple with the new realities of their multi-ethnic societies, there has been a marked increase in discrimination and violence directed against migrants, refugees and other non-nationals by extremist groups in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 governments 努力處理 multi-ethnic societies 的新現實時，世界多地針對 migrants、refugees和 other non-nationals 的 discrimination and violence 已明顯增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, there is more than enough anecdotal evidence to show that violations of the human rights of migrants, refugees and other non-nationals are so generalised, widespread and commonplace that they are a defining feature of international migration today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，已有相當多個案性證據顯示，migrants、refugees 和 other non-nationals 的人權侵犯非常普遍、廣泛和常見，已成為今日 international migration 的界定性特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段既講問題嚴重，也講記錄不足，正好對應題目 “no real way of knowing”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“no real way of knowing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how many”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discriminated against”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The lack of any systematic documentation or research over time makes it unclear whether there is a real increase in the level of abuse or in the level of exposure and reporting.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺乏任何長期系統性的 documentation or research，使人不清楚到底是 abuse 的 level 真正上升，還是 exposure and reporting 的 level 上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明問題在於記錄和研究不足。題目問為何不能真正知道受歧視人數，選項 A “not all racial abuse cases are documented or looked into” 正好概括 “lack of systematic documentation or research”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A 正確。documented = documentation；looked into = research。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。migrant 數量增加不是「無法知道受歧視人數」的直接原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文沒有說 migrants don’t complain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。原文沒有說只有 serious cases are documented。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 A。真正控制答案的是 “lack of any systematic documentation or research”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — deny there is a problem.",
+      "answerKey": "C — deny there is a problem.",
+      "type": "Multiple Choice",
+      "prompt": "“People in authority sometimes…”",
+      "translation": "掌權人士有時會怎樣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extent of racial discrimination and xenophobia is often played down and sometimes denied by authorities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "racial discrimination and xenophobia 的程度經常被 authorities 淡化，有時甚至被否認。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Racial discrimination is defined in international law as any distinction, exclusion, restriction or preference based on race, colour, descent or national or ethnic origin which has the purpose or effect of nullifying or impairing the recognition, enjoyment or exercise, on an equal footing, of human rights and fundamental freedoms in the political, economic, social, cultural or any other field of public life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 international law 中，racial discrimination 指任何基於 race、colour、descent 或 national /ethnic origin 的 distinction、exclusion、restriction 或 preference；其目的或效果是削弱人在political、economic、social、cultural 或其他 public life 領域中平等承認、享有或行使 human rights and fundamental freedoms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，這題已幾乎直接定位。題目中的 people in authority 對應 authorities。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“People in authority”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sometimes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“sometimes denied by authorities”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “often played down and sometimes denied”。這包含兩個動作： played down淡化、低估問題嚴重性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "denied否認問題或否認其程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “sometimes”，所以最直接對應是 “denied”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A exaggerate the seriousness：方向相反，原文是 played down。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B create the problem：沒有提到 authorities create the problem。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C deny there is a problem：正確，對應 sometimes denied。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D are eager to solve the problem：原文沒有這種積極態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 C。這是典型原字改寫題：people in authority = authorities；deny there is a problem =denied by authorities。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most migrants flee their country of origin because of political or social disorder.”",
+      "translation": "大多數 migrants 因 political or social disorder 而逃離原籍國。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題包含三個控制點： 1. Most migrants：大多數 migrants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. flee their country of origin：逃離原籍國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. because of political or social disorder：原因是政治或社會動亂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要判 TRUE，原文必須同時支援「大多數」、「逃離」和「原因」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, one in every 50 human beings is a migrant worker, a refugee or asylum seeker, or an immigrant living in a foreign country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，每 50 個人中就有 1 人是 migrant worker、refugee、asylum seeker，或居住在外國的immigrant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These figures do not include the estimated 20 million internally displaced persons forcibly displaced within their own country, nor tens of millions of additional internal migrants, mainly rural to urban, in countries around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些數字不包括估計 2000 萬名在本國境內被迫流離失所的人，也不包括世界各國額外數以千萬計、主要由鄉村移往城市的 internal migrants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估 Paragraph 1 主要講 migration categories 和 numbers，並非集中解釋migrants 離開的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most migrants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flee”"
+            },
+            {
+              "kind": "quote",
+              "text": "“country of origin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“political or social disorder”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 “countries of origin”，也有 “refugees”，但沒有出現 political disorder、social disorder、war、persecution 或類似原因解釋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“some 150 million people live temporarily or permanently outside their countries of origin”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "約 1.5 億人暫時或永久居住在原籍國之外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 people live outside their countries of origin。它沒有說他們 “flee”，也沒有說 most migrants 的原因。段落中 migrant workers 佔 80–97 million，refugees 是 12 million。從分類看， migrant worker、immigrant、refugee、asylum seeker 的原因可能不同，文章沒有統一說「大多數因 political or social disorder 逃離」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：大多數 migrants 因政治或社會動亂逃離原籍國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：不同 migrant groups 的數量和居住位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少：大多數 migrants 的離開原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“refugee” 和 “asylum seeker” 容易令學生聯想到政治迫害或社會動亂。但文章沒有解釋他們為何離開，也沒有說 most migrants 都屬於這類情況。這題的重點是不能用常識替文章補原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most internal migrants leave the countryside for the cities.”",
+      "translation": "大多數 internal migrants 從鄉村移往城市。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 internal migrants 的主要流動方向。控制詞是 Most 和 countryside for the cities。要找原文是否有 mainly rural to urban。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, one in every 50 human beings is a migrant worker, a refugee or asylum seeker, or an immigrant living in a foreign country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，每 50 個人中就有 1 人是 migrant worker、refugee、asylum seeker，或居住在外國的immigrant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These figures do not include the estimated 20 million internally displaced persons forcibly displaced within their own country, nor tens of millions of additional internal migrants, mainly rural to urban, in countries around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些數字尚未包括估計 2000 萬名在本國境內被迫流離失所的人，也未包括世界各國額外數以千萬計、主要由 rural to urban 的 internal migrants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已直接含有 internal migrants，所以定位很穩。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“internal migrants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“countryside”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cities”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“internal migrants, mainly rural to urban”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rural to urban” 的意思是從鄉村地區到城市地區。“mainly” 表示主要地、以此為主。題目中的 “Most” 正好可以由 “mainly” 支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most internal migrants leave the countryside for the cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“internal migrants, mainly rural to urban”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Most = mainly countryside = rural cities = urban leave ... for ... = move from ... to ...判斷題目與原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不需要外部地理知識。只要看到 rural to urban，就可直接連到 countryside to cities。字數短，但量詞 “Most” 必須由 “mainly” 支撐，不能只憑 internal migrants 這個名詞判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Governments are often reluctant to acknowledge that racial discrimination and xenophobia exist.”",
+      "translation": "政府經常不願承認 racial discrimination and xenophobia 存在。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 authorities / governments 的態度。控制詞是 often reluctant to acknowledge。要找原文是否說 authorities 淡化或否認這些問題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extent of racial discrimination and xenophobia is often played down and sometimes denied by authorities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "racial discrimination and xenophobia 的程度經常被 authorities 淡化，有時甚至被否認。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Racial discrimination is defined in international law as any distinction, exclusion, restriction or preference based on race, colour, descent or national or ethnic origin which has the purpose or effect of nullifying or impairing the recognition, enjoyment or exercise, on an equal footing, of human rights and fundamental freedoms in the political, economic, social, cultural or any other field of public life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 international law 中，racial discrimination 指任何基於 race、colour、descent 或 national /ethnic origin 的區別、排斥、限制或偏好；其目的或效果是削弱人在公共生活各領域平等承認、享有或行使 human rights and fundamental freedoms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，已清楚看到 authorities 對問題的態度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Governments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“often reluctant to acknowledge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“racial discrimination and xenophobia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“often played down”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sometimes denied”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by authorities”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“played down” 表示把問題說得較輕、淡化嚴重性。“denied” 表示否認。這兩個動作都能支援 “reluctant to acknowledge”，也就是不願正面承認或不願承認嚴重性。題目用 “Governments”，原文用 “authorities”。在本文語境中，authorities 可涵蓋政府或掌權機構。Paragraph 3 也說 governments 正 grapple with multi-ethnic societies，所以這個概括合理。判斷題目命題：政府經常不願承認問題存在。原文命題：authorities 經常淡化，有時否認問題程度。方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “exist”，原文說 “extent ... played down and sometimes denied”。如果非常狹窄地看， played down 是淡化程度，denied 才是否認。題目用了 “often reluctant to acknowledge”，包含淡化與否認這兩種不願面對的態度，因此可判 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Migrants are exploited and abused because they create a sense of insecurity for extremist groups.”",
+      "translation": "Migrants 被剝削和虐待，是因為他們令 extremist groups 產生 insecurity。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題不是單純問 migrants 是否被 abuse，也不只是問 extremist groups 是否施暴。它問的是一個具體因果：because they create a sense of insecurity for extremist groups。所以要找原文是否給出 extremist groups 的心理原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 2–3 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The increasing ethnic and racial diversity of societies is the inevitable consequence of migration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會 ethnic and racial diversity 的增加，是 migration 的必然結果。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the last few decades, the emergence of new nation states has often been accompanied by ethnic exclusion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去幾十年，新 nation states 的出現常常伴隨 ethnic exclusion。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As governments grapple with the new realities of their multi-ethnic societies, there has been a marked increase in discrimination and violence directed against migrants, refugees and other non-nationals by extremist groups in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 governments 努力處理 multi-ethnic societies 的新現實時，世界多地 extremist groups 針對migrants、refugees 和 other non-nationals 的 discrimination and violence 已明顯增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段確實談到 migrants 成為攻擊對象，也談到 extremist groups。但題目中的 insecurity 是否出現，需要細讀確認。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“extremist groups”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sense of insecurity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“targets in internal disputes about national identity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discrimination and violence ... by extremist groups”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但找不到 insecurity、fear、threatened、feel insecure 等心理原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In those countries the migrants have become the targets in internal disputes about national identity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那些國家，migrants 已成為有關 national identity 的 internal disputes 中的攻擊目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 migrants 被捲入 national identity disputes。它可以說明他們成為政治或身份爭議中的targets，但沒有說 extremist groups 因 insecurity 而 abuse them。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 說 extremist groups directed discrimination and violence against migrants。這支援施暴主體與受害者，但仍未提供心理原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：migrants 被 abuse，原因是他們令 extremist groups 感到 insecurity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：migrants 成為 national identity disputes 的 targets；extremist groups 施加discrimination and violence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少：extremist groups 的 insecurity 這項原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“internal disputes about national identity” 很容易令人聯想到 insecurity。可是 identity disputes 是社會和政治爭議背景；題目進一步說 extremist groups 產生 insecurity，這是心理動機，原文沒有明示。IELTS Reading 判斷要停在文本能支持的位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People who are racist or xenophobic are uneducated and hostile.”",
+      "translation": "racist 或 xenophobic 的人沒有受教育，並且充滿敵意。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題包含兩個描述： 1. uneducated 2. hostile只要其中一個核心資料缺失，整句就不能判 TRUE。若原文直接提供相反資訊，才可判 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Racism and xenophobia are distinct phenomena, although they often overlap.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Racism 和 xenophobia 是不同現象，雖然兩者經常重疊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a sociologist puts it, ‘xenophobia is an attitudinal orientation of hostility against non-natives in a given population.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如一位 sociologist 所說，xenophobia 是某一 population 中針對 non-natives 的 hostility orientation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段定義 xenophobia，而且最後一句確實提到 hostility。題目另一半uneducated 需要再掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“racist or xenophobic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uneducated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hostile”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 “hostility against non-natives”，但沒有 education、uneducated、ignorant、poorly educated、schooling 等字眼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文最後一句只支援 xenophobia 與 hostility 的關係："
+            },
+            {
+              "kind": "quote",
+              "text": "“xenophobia is an attitudinal orientation of hostility against non-natives in a given population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "xenophobia 是某一人口群體中針對 non-natives 的敵意態度取向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有說 xenophobic people are uneducated。也沒有說 racist people are uneducated。全篇主要在談 migration、diversity、discrimination、authorities、definitions，沒有提供教育程度與racism / xenophobia 的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：racist 或 xenophobic 的人 uneducated and hostile。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援：xenophobia 涉及 hostility against non-natives。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少：uneducated；也缺少把這兩項描述套用到所有 racist or xenophobic people 的完整說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“hostility” 原字會吸引學生選 TRUE。可是題目不是只說 hostile，它還加入 uneducated。TRUE /FALSE / NOT GIVEN 題要整句成立，不能只抓半句。原文沒有教育程度資料，因此答案只能是NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People returning to their country of ancestry do not face xenophobia.”",
+      "translation": "返回祖源國家的人不會面對 xenophobia。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 shared ancestry 或 returning people 是否會遭受 xenophobia。控制詞是 do not face xenophobia。要找原文有沒有說這類人仍可能被視為 outsiders。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many cases, it is difficult to distinguish between racism and xenophobia as motivations for behaviour, since differences in physical characteristics are often assumed to distinguish a person from the common identity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多情況下，很難分辨 racism 和 xenophobia 作為行為動機的差別，因為 physical characteristics 的差異常被假定為能把某人和共同身份區分開來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, manifestations of xenophobia are directed against people of identical physical characteristics, even of shared ancestry, when such people arrive, return or migrate to states or areas where occupants consider them outsiders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，xenophobia 的表現也會針對 physical characteristics 相同、甚至 shared ancestry 的人；當這些人抵達、返回或遷移到某些 states 或 areas，而當地 occupants 視他們為 outsiders 時，就會出現這種情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段特別指出 xenophobia 可以針對外貌相同、祖源相同的人。這和題目直接相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“returning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“country of ancestry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“do not face xenophobia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“even of shared ancestry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“arrive, return or migrate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“occupants consider them outsiders”"
+            },
+            {
+              "kind": "quote",
+              "text": "“manifestations of xenophobia are directed against”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “manifestations of xenophobia are directed against...”這表示 xenophobia 會針對這些人。"
+            },
+            {
+              "kind": "label",
+              "text": "而這些人包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“people of identical physical characteristics”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "外貌特徵相同的人。"
+            },
+            {
+              "kind": "quote",
+              "text": "“even of shared ancestry”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至有共同祖源的人。"
+            },
+            {
+              "kind": "quote",
+              "text": "“when such people arrive, return or migrate...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這些人抵達、返回或遷移到某些地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要當地 occupants consider them outsiders，他們仍可能成為 xenophobia 的對象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：returning to country of ancestry 的人不會 face xenophobia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：shared ancestry 的人即使 return，也可能被視作 outsiders，並成為 xenophobia 對象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目利用 “country of ancestry” 製造安全感：學生可能覺得既然有 ancestry，就應該不算 outsider。Paragraph 7 正好提醒，xenophobia 的判斷常由 occupants 的 outsider perception 決定； shared ancestry 並不能保證不受排斥。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Migrants and Refugees_ Racial Discrimination and Xenophobia.pdf",
+    "sha256": "3c01dae04ed371dc0bd66667cb8a2240a9183fc017ab7772dc3df459db424b8e",
+    "pageCount": 28
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說今天每 50 人中就有一人是 migrant worker、refugee、asylum seeker 或 immigrant；末句補充，這些數字還未包括 2000 萬 internally displaced persons，以及世界各地數以千萬計的internal migrants。只看首尾句，可以先估這段主要建立「國際與國內人口流動的規模」。重點是不同 migrant groups 的數量比較，所以 Questions 31、35、36 很可能回到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說社會的 ethnic and racial diversity 是 migration 的必然結果；末句說近幾十年新 nation states 的出現常伴隨 ethnic exclusion。只看首尾句，可以看到這段由 migration 帶來多元社會，轉向身份、文化、種族與排斥問題。中間提到 states 要 accommodate different cultures, races, religions and languages，也提到 xenophobia and racism 在接收大量 immigrants 的社會中變得明顯。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 governments 正面對 multi-ethnic societies 的新現實，世界多地 extremist groups 對migrants、refugees 和 non-nationals 的 discrimination and violence 明顯增加；末句說人權侵犯已廣泛、普遍、常見到成為 international migration 的 defining feature。只看首尾句，這段功能是交代暴力和歧視的全球嚴重性，也說明缺乏長期系統記錄令實際增加幅度難以確定。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 authorities 經常淡化，甚至有時否認 racial discrimination and xenophobia 的程度；末句則給出 international law 對 racial discrimination 的正式定義。只看首尾句，可以估這段功能有兩層：先指出官方態度可能低估問題，再用法律定義說明 racial discrimination 涉及 race、colour、descent、national or ethnic origin，並會損害人權和平等自由。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 racism and xenophobia 是不同現象，雖然兩者常常重疊；末句引用 sociologist，說xenophobia 是一種針對 non-natives 的 hostility orientation。只看首尾句，可以看到這段主要負責概念區分。中間清楚說 racism 通常基於 physical characteristics，例如 skin colour、hair type、facial features；xenophobia 則基於對方被視為 foreign 或來自 community / nation 外部。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 xenophobia 的定義，以及它和 racism、racial discrimination 的分別仍在發展；末段的xenophobia 定義說，它描述基於 outsider / foreigner perception 而 reject、exclude、vilify 人的attitudes、prejudices and behaviour。只看首尾句，可以估這段給出會議提出的正式化定義。中間的 racism 定義尤其重要，因為它提到 hierarchical relations、superior race、domination and control。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說很多情況下，racism 和 xenophobia 的行為動機很難區分，因為 physical characteristics常被用來區別 common identity；末句說 xenophobia 也可針對 physical characteristics 相同、甚至 shared ancestry 的人，只要 occupants 視他們為 outsiders。只看首尾句，可以看到這段是全文的概念收束：xenophobia 不一定需要外貌差異，重點是 outsider 身份感。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2323 @@
+{
+  "id": "p1-027-how-to-spot-a-liar",
+  "catalogueId": "p1-027",
+  "catalogueIds": [
+    "p1-027"
+  ],
+  "passage": 1,
+  "title": "How to Spot a Liar",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "YES",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "YES",
+    "C",
+    "D",
+    "B",
+    "D",
+    "A",
+    "B",
+    "C",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“All living animals can lie.”",
+      "translation": "所有活著的動物都能說謊／欺騙。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However much we may abhor it, deception comes naturally to all living things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論我們多麼厭惡欺騙，deception 對所有生物來說都是自然出現的行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nature amply rewards successful deceivers by allowing them to survive long enough to mate and reproduce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然界充分獎勵成功的欺騙者，讓牠們能活得夠久，完成交配和繁殖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段主要把 deception 描述成一種自然界普遍存在的生存策略。題目問"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“All living animals can lie”，與這段的 all living things 和 successful deceivers 有直接關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是：“All living animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lie”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必用 lie 這個動詞，因為作者用較廣的 “deception” 表示欺騙行為。掃描 Paragraph 1 時，要同時留意 deceive、pretend、disguise、feigning injury 這類同義或相關表達。原文第一句的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“deception comes naturally to all living things” 已是最強對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“However much we may abhor it, deception comes naturally to all living things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論我們多麼厭惡欺騙，欺騙對所有生物來說都是自然的。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文舉例："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birds do it by feigning injury to lead hungry predators away from their nesting young.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鳥類會假裝受傷，把飢餓的捕食者引離巢中的幼鳥。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Spider crabs do it by disguise…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜘蛛蟹會透過偽裝做到這一點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “lie”，原文用 “deception”。在這篇文章的語境中，lie 並不限於人類用語言說謊，也泛指欺騙、偽裝、誤導。作者一開始就把 deception 擴展至 living things，並用動物例子說明。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“All living animals can lie”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“deception comes naturally to all living things”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Birds do it…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Spider crabs do it…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： lie = deceive / use deception animals = living things 中的動物例子all living animals = 由 all living things 可涵蓋根據 YES / NO / NOT GIVEN 規則，題目命題和作者觀點方向一致，所以答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “lie” 這個字。學生可能把 lie 只理解成「用語言說謊」，便會覺得鳥和蟹不能 “lie”。不過文章明確把主題設為 deception，並把動物偽裝和人類說謊放在同一條生存邏輯中。因此這題要按文章定義理解 lie，而非按日常狹義理解。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Some people tell lies for self-preservation.”",
+      "translation": "有些人為了自我保護而說謊。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So it may come as no surprise to learn that human beings — who, according to psychologist Gerald Johnson of the University of Southern California, are lied to about 200 times a day, roughly one untruth every five minutes — often deceive for exactly the same reasons: to save their own skins or to get something they cannot get by other means.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，知道人類也常常基於完全相同的原因而欺騙，也許並不令人驚訝；根據 University of Southern California 的心理學家 Gerald Johnson，人類每天大約被欺騙 200 次，約每五分鐘就遇到一個不真實說法。人類欺騙的原因，是保全自己，或取得用其他方法得不到的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句與第一句相同，因為 Paragraph 2 只有一個長句。只看這句，已能看出段落功能：把動物欺騙的生存理由連到人類說謊的動機。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tell lies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“self-preservation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必使用 self-preservation，但會用 save oneself、survive、protect themselves 這類意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的 “to save their own skins” 就是很強的同義表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“human beings … often deceive for exactly the same reasons: to save their own skins or to get something they cannot get by other means.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類常常基於完全相同的原因而欺騙：保全自己，或取得無法用其他方法取得的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“save their own skins” 是固定說法，意思是保護自己、保命、避免自己受害。這正好等於題目中的self-preservation。題目說 “Some people”，原文說 “human beings … often deceive”，範圍上沒有衝突；some 是較保守的說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people tell lies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“human beings … often deceive”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“for self-preservation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“to save their own skins”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： self-preservation = saving one’s own skin tell lies = deceive所以答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “Some”。如果題目寫 “All people always lie for self-preservation”，原文就不夠支持，因為原文還列出另一個原因：to get something they cannot get by other means。但題目只說some people，並且只要求其中一種原因，所以和原文吻合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Scientists have used computers to analyse which part of the brain is responsible for telling lies.”",
+      "translation": "科學家曾使用電腦分析大腦哪一部分負責說謊。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 和 Paragraph 8 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By closely observing facial expressions, body language, and tone of voice, practically anyone can recognise the tell-tale signs of lying.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過仔細觀察臉部表情、身體語言和聲音語調，幾乎任何人都可以辨認出說謊的明顯跡象。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘With the proper training, many people can learn to reliably detect lies,’ says Paul Ekman, professor of psychology at the University of California, San Francisco, who spent many years studying the secret art of deception.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of California, San Francisco 的心理學教授 Paul Ekman 說：「只要有適當訓練，很多人都能學會可靠地偵測謊言。」他多年研究 deception 的秘密藝術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 第一、最後句則提到 face、brain、genuine emotions 和 paralysed patients。題目同時有 computers 和 brain，所以需要跨段檢查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“computers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“responsible for telling lies”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 有 computers："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers are even programming computers — like those used in lie detectors — to get at the truth by analysing the same physical cues available to the naked eye and ear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員甚至正在為電腦編程，像測謊儀中使用的電腦一樣，讓它們透過分析肉眼和耳朵也能接收到的 physical cues 來接近真相。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 有 brain："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because the muscles of the face are directly connected to the areas of the brain that process emotion…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為臉部肌肉直接連接到大腦中處理情緒的區域……這兩處各自相關，但要看能否合成題目說法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 的 computers 用途是分析 “physical cues available to the naked eye and ear”，即臉部、身體和聲音等外在線索。這裡沒有說它們分析大腦區域，也沒有說找出 responsible for telling lies 的 brain part。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 的 brain 句子則說臉部肌肉與處理情緒的大腦區域相連，並說 genuine emotions 和insincere ones 可能經過不同 brain pathways。這是 neurological studies 的內容，但原文沒有說這些研究使用 computers，也沒有說某一個腦區 “responsible for telling lies”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要三個元素同時成立：第一，scientists have used computers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，這些 computers 用來 analyse brain parts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，分析目的是找出 responsible for telling lies 的腦部區域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文實際提供： computers analysed physical cues。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "neurological studies discussed brain pathways of emotions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有把 computers 和 brain responsibility 連在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於題目把兩段相關概念拼接在一起。Paragraph 4 的 computers 真的出現，Paragraph 8的 brain 也真的出現，但文章沒有建立 “computers analyse brain part responsible for lying” 這條關係。做 NOT GIVEN 時，學生要特別警惕「關鍵字分散出現，但核心關係缺失」的情況。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Lying as a survival skill is more important than detecting a lie.”",
+      "translation": "作為生存技能，說謊比識破謊言更重要。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But knowing how to catch deceit can be just as important a survival skill as knowing how to tell a lie and get away with it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，懂得抓出欺騙，可以和懂得說謊並逃脫責任一樣，是同樣重要的生存技能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Luckily, nature provides more than enough clues to trap dissemblers in their own tangled webs— if you know where to look.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幸好，只要你知道往哪裡看，自然已提供了足夠多的線索，可以把掩飾真相的人困在自己的複雜謊網中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段的功能：作者由「為何欺騙有用」轉向「為何識破欺騙也有用」。題目剛好比較 lying 和 detecting lies，所以 Paragraph 3 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“survival skill”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more important”"
+            },
+            {
+              "kind": "quote",
+              "text": "“detecting a lie”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 detecting a lie 這一短語，但有 “catch deceit” 和 “spot falsehood”。最關鍵的比較詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“just as important as”。這和題目的 “more important than” 形成直接比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“But knowing how to catch deceit can be just as important a survival skill as knowing how to tell a lie and get away with it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "懂得抓出欺騙，可以和懂得說謊並成功逃脫一樣，是同樣重要的生存技能。"
+            },
+            {
+              "kind": "label",
+              "text": "這句的比較結構是："
+            },
+            {
+              "kind": "quote",
+              "text": "“just as important … as …”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是兩者同樣重要。第一項是 “knowing how to catch deceit”，即識破謊言。第二項是 “knowing how to tell a lie and get away with it”，即說謊並不被抓到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Lying … is more important than detecting a lie”，把兩者改成高低比較。原文沒有說 lying更重要；原文的重點是 detecting deception 同樣重要。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lying … is more important than detecting a lie”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“catch deceit can be just as important … as … tell a lie”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果： more important than = 高低關係just as important as = 同等關係所以答案是 NO。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph 1 和 Paragraph 2 一直強調 deception 的生存價值，學生可能以為作者更重視 lying。然而 Paragraph 3 用 “But” 轉向另一面：catch deceit 也同樣重要。判斷這題時，真正控制答案的是比較詞 “just as important”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“To be a good liar, one has to understand other people’s emotions.”",
+      "translation": "要成為好騙子，一個人需要理解別人的情緒。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to know what kinds of lies work best, successful liars need to assess other people’s emotional states accurately.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了知道哪種謊言最有效，成功的說謊者需要準確評估別人的情緒狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emotional state to watch out for is stress: the conflict most liars feel between the truth and what they actually say and do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要留意的情緒狀態是 stress：多數說謊者在真相和自己實際說法與行動之間感受到的衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 5 主要講 emotional states 與 lying / lie detection 的關係。題目問 good liar 和 understand other people’s emotions，所以這段是直接定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“good liar”"
+            },
+            {
+              "kind": "quote",
+              "text": "“understand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other people’s emotions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 good liar，但有 “successful liars”。原文沒有 understand emotions，但有 “assess other people’s emotional states accurately”。這是非常直接的同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to know what kinds of lies work best, successful liars need to assess other people’s emotional states accurately.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了知道哪種謊言最有效，成功的說謊者需要準確評估別人的情緒狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “successful liars”，對應題目中的 good liar。核心動詞是 “need to assess”，表示必要條件。對象是 “other people’s emotional states”，對應 other people’s emotions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “one has to understand”，原文說 “need to assess … accurately”。兩者語義一致，都是說一個好騙子必須能準確讀懂別人的情緒。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“To be a good liar”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“successful liars”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has to understand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“need to assess … accurately”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“other people’s emotions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“other people’s emotional states”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的中伏位不大，但要留意 Paragraph 5 後面也說 good lie detectors 需要同一種 emotional intelligence。這不會影響題目，因為題目只問 good liar；原文清楚說 successful liars 也需要這種能力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C — It detects body behaviour during one’s verbal response.",
+      "answerKey": "C — It detects body behaviour during one’s verbal response.",
+      "type": "Multiple Choice",
+      "prompt": "Question 6",
+      "translation": "測謊儀如何運作？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“How does the lie detector work?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even high-tech lie detectors do not detect lies as such; they merely detect the physical cues of emotions, which may or may not correspond to what the person being tested is saying.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使是高科技測謊儀，也不直接偵測謊言本身；它們只是偵測情緒的 physical cues，而這些線索可能與受測者所說內容相符，也可能不相符。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why a sudden leap in skin conductivity indicates nervousness — perhaps about getting caught — which may, in turn, suggest that someone is being economical with the truth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，皮膚導電性突然上升表示 nervousness，可能是因為害怕被抓到；這又可能暗示某人沒有完全說實話。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph 6 在解釋 lie detectors 的工作原理。題目問 how it works，所以這段是核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lie detector”"
+            },
+            {
+              "kind": "quote",
+              "text": "“work”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接有 “lie detectors” 和 “Polygraphs”。要找的不是答案詞本身，而是它們測量甚麼。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Polygraphs, for instance, measure respiration, heart rate, and skin conductivity…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，polygraphs 會測量呼吸、心跳和皮膚導電性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even high-tech lie detectors do not detect lies as such; they merely detect the physical cues of emotions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高科技測謊儀不直接偵測謊言本身；它們只是偵測情緒的身體線索。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Polygraphs, for instance, measure respiration, heart rate, and skin conductivity, all of which tend to increase when people are nervous — as they usually are when lying.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，測謊儀測量呼吸、心跳和皮膚導電性；人在緊張時這些指標通常會上升，而人說謊時通常會緊張。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“It detects body behaviour during one’s verbal response.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它偵測人在作出口頭回答時的身體行為或身體反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 的 “body behaviour” 概括原文中的 respiration、heart rate、skin conductivity。題目中的 “verbal response” 對應原文 “what the person being tested is saying”。雖然原文用 physical cues 而非body behaviour，意思相近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “It detects whether one’s emotional state is stable.”原文說測量情緒的 physical cues，尤其 nervousness，但沒有說它判斷 emotional state 是否stable。這個說法太籠統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “It detects one’s level of brain activity.”原文沒有說 lie detector 測 brain activity。它測的是 respiration、heart rate、skin conductivity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “It analyses one’s verbal response word by word.”原文說 physical cues may or may not correspond to what the person is saying。測謊儀不逐字分析說話內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "D — there may be many causes of certain body behaviours.",
+      "answerKey": "D — there may be many causes of certain body behaviours.",
+      "type": "Multiple Choice",
+      "prompt": "Question 7",
+      "translation": "測謊儀不能作為法庭證據，原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lie detectors cannot be used as evidence in a court of law because…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, it might also mean that the lights in the television studio are too hot, which is one reason polygraph tests are inadmissible in court.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，它也可能表示電視錄影廠的燈太熱，這就是 polygraph tests 不能在法庭上被接納的原因之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Good lie detectors don’t rely on a single thing,’ says Ekman, ‘but interpret clusters of verbal and non-verbal clues that suggest someone might be lying.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 說：「好的測謊者不會依賴單一東西，而會解讀一組 verbal 和 non-verbal clues，這些線索共同暗示某人可能在說謊。」只看首尾句，Paragraph 7 明顯在講 polygraph 的限制：單一身體反應可能有其他原因，所以法庭不接納。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“court of law”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "原文的強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“inadmissible in court”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和題目幾乎同義。向前看會發現原因是 “it might also mean that the lights … are too hot”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文承接上一段的 skin conductivity。上一段說皮膚導電性突然上升可能表示 nervousness，可能與說謊有關。Paragraph 7 立即補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, it might also mean that the lights in the television studio are too hot…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，它也可能只是表示電視錄影廠的燈太熱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “it” 指上一段所說的身體反應，例如皮膚導電性上升。也就是說，同一種 body behaviour可以由說謊導致，也可以由環境因素導致。這令 polygraph tests 在 court 中不可作為可靠證據。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“there may be many causes of certain body behaviours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些身體行為或反應可能有很多原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 完整概括了原文限制：身體反應不一定只由 lying 引起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “lights often cause lie detectors to malfunction.”原文說燈太熱可能讓人出汗或有身體反應，沒有說燈令機器 malfunction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “they are based on too many verbal and non-verbal clues.”原文說好的 lie detectors 應該看 clusters of clues。這是更可靠的方法，不是法庭不接納polygraph 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “polygraph tests are often inaccurate.”這句方向接近，但太概括。原文具體原因是同一身體反應可能有其他來源。D 比 C 更準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — To show the relationship between true emotions and body behaviour.",
+      "answerKey": "B — To show the relationship between true emotions and body behaviour.",
+      "type": "Multiple Choice",
+      "prompt": "Question 8",
+      "translation": "作者為甚麼提到癱瘓病人？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why does the author mention paralysed patients?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The clues are written all over the face.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "線索寫滿在臉上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But tell that same person a funny joke, and the patient breaks into a full and spontaneous smile.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果對同一個人講一個好笑笑話，這位病人就會露出完整而自然的笑容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段在說臉部表情能揭示真實情緒。癱瘓病人的例子應該用來證明deliberate expression 和 genuine emotion 的身體表現不同。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “paralysed patients”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a patient paralysed by a stroke on one side of the face, for example, is asked to smile deliberately, only the mobile side of the mouth is raised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，如果一位因中風而半邊臉癱瘓的病人被要求刻意微笑，只有可活動那一邊的嘴角會上揚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著要讀下一句，因為例子的完整意義由對比建立。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neurological studies even suggest that genuine emotions travel through different pathways in the brain from insincere ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經學研究甚至指出，真實情緒和不真誠情緒在大腦中經過不同路徑。"
+            },
+            {
+              "kind": "quote",
+              "text": "“If a patient paralysed by a stroke on one side of the face, for example, is asked to smile deliberately, only the mobile side of the mouth is raised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果半邊臉癱瘓的病人被要求刻意微笑，只有可活動的一側嘴角會上揚。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But tell that same person a funny joke, and the patient breaks into a full and spontaneous smile.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果對同一個人講笑話，病人會露出完整自然的笑容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個例子的功能是展示 genuine emotions 會帶來不同的 body behaviour。刻意微笑是 deliberate/ insincere expression；聽到笑話後的 full and spontaneous smile 由真實情緒觸發。作者透過癱瘓病人說明：真實情緒和刻意表情在神經路徑和外在臉部表現上不同。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“To show the relationship between true emotions and body behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "展示真實情緒和身體行為之間的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應原文的 “genuine emotions” 和 “full and spontaneous smile”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項問題： A 只說 demonstrate how a paralysed patient smiles，太表面，只描述例子本身，沒有說明作者使用例子的目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 文章沒有研究癱瘓原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 文章沒有說 happiness 對康復重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "D — mask their true feelings.",
+      "answerKey": "D — mask their true feelings.",
+      "type": "Multiple Choice",
+      "prompt": "Question 9",
+      "translation": "作者用 politicians 作為例子，說明這類人能夠做甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“The author uses politicians as an example of people who can…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Very few people — most notably actors and politicians — are able to consciously control all of their facial expressions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少人能有意識地控制自己所有臉部表情，其中最明顯的是 actors 和 politicians。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We don’t think before we feel,’ Ekman says. ‘Expressions tend to show up on the face before we are even conscious of experiencing an emotion.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 說：「我們在感覺之前並不會先思考。表情往往在我們甚至意識到自己正在經歷某種情緒之前，就已經出現在臉上。」首句直接出現 politicians，最後一句說情緒通常會比意識更快出現在臉上。這段主要講臉部表情難以完全控制，但少數人較擅長控制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“politicians”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“actors and politicians — are able to consciously control all of their facial expressions”"
+            },
+            {
+              "kind": "label",
+              "text": "這句就是答案基礎。再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lies can often be caught when the liar’s true feelings briefly leak through the mask of deception.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當說謊者的真實感受短暫透過欺騙面具洩露出來時，謊言往往可以被抓到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "politicians 被放在 “Very few people” 之中，說明他們屬於少數能控制 facial expressions 的人。臉部表情是情緒外露的一種形式；能控制表情，就等於較能遮掩 true feelings。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“mask their true feelings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "掩飾自己的真實感受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 和原文 “consciously control all of their facial expressions” 以及 “mask of deception” 最貼近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文沒有逐字說 politicians mask their true feelings，但全段邏輯就是：真實感受會從臉上洩露，能控制表情的人較能掩飾它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “have emotions” 太普通，所有人都有情緒，作者沒有用 politicians 來證明這點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “imitate actors” 原文把 actors 和 politicians 並列，沒有說 politicians imitate actors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “detect other people’s lies” 是 good lie detectors 的能力，不是 politicians 這個例子的功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — Sadness",
+      "answerKey": "A — Sadness",
+      "type": "Facial Traits",
+      "prompt": "Question 10",
+      "translation": "眉毛內角上揚。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Facial trait："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inner corners of the eyebrows raised”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the most difficult facial expressions to fake — or conceal, if it is genuinely felt — is sadness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最難假裝，或在真實感受到時最難掩飾的臉部表情之一，是 sadness。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If someone claims they are sad and the inner corners of their eyebrows don’t go up,’ Ekman says, ‘the sadness is probably false.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 說：「如果有人聲稱自己悲傷，但眉毛內角沒有上揚，那種悲傷大概是假的。」首尾句都直接指向 sadness 和 inner corners of eyebrows，所以這題定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inner corners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eyebrows”"
+            },
+            {
+              "kind": "quote",
+              "text": "“raised”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the inner corners of the eyebrows are pulled up”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是完全對應的短語。pulled up 等於 raised。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When someone is truly sad, the forehead wrinkles with grief and the inner corners of the eyebrows are pulled up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一個人真正悲傷時，前額會因悲傷而起皺，眉毛內角會被拉起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語條件是 “someone is truly sad”。後面列出 sadness 的兩個臉部特徵：forehead wrinkles 和 inner corners of eyebrows pulled up。題目問 inner corners of eyebrows raised，正好是第二個特徵。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“raised”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“pulled up”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inner corners of the eyebrows”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the inner corners of the eyebrows”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A — Sadness。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — Anger",
+      "answerKey": "B — Anger",
+      "type": "Facial Traits",
+      "prompt": "Question 11",
+      "translation": "整個眉毛下降／壓低。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Facial trait："
+            },
+            {
+              "kind": "quote",
+              "text": "“The whole eyebrows lowered”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the most difficult facial expressions to fake — or conceal, if it is genuinely felt — is sadness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最難假裝，或在真實感受到時最難掩飾的臉部表情之一，是 sadness。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If someone claims they are sad and the inner corners of their eyebrows don’t go up,’ Ekman says, ‘the sadness is probably false.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 說：「如果有人聲稱自己悲傷，但眉毛內角沒有上揚，那種悲傷大概是假的。」雖然段落主題是 sadness，但中間會用 anger 作對比，所以 Question 11 仍在同一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“eyebrows lowered”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, the lowering of the eyebrows associated with an angry scowl can be replicated at will by almost everybody.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，與 angry scowl 相關的眉毛下壓動作，幾乎每個人都能有意識地模仿。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“the lowering of the eyebrows associated with an angry scowl”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與憤怒皺眉表情相關的眉毛下壓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“angry scowl” 是憤怒時皺眉或怒視的表情。題目說 “The whole eyebrows lowered”，是把 “the lowering of the eyebrows” 改寫成一個 facial trait。這個 trait 對應 anger。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“The whole eyebrows lowered”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the lowering of the eyebrows”"
+            },
+            {
+              "kind": "label",
+              "text": "題目分類： Anger原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“associated with an angry scowl”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B — Anger。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段大部分內容在講 sadness，所以學生可能一看 Paragraph 10 就全部選 sadness。可"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是 Question 11 的 lowered eyebrows 其實出現在 “By contrast” 後面，用來和 sadness 的 inner corners raised 作比較。看到 contrast marker 時，要留意它可能引出另一個 emotion。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C — Happiness",
+      "answerKey": "C — Happiness",
+      "type": "Facial Traits",
+      "prompt": "Question 12",
+      "translation": "眼睛周圍形成皺紋。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Facial trait："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lines formed around the eyes”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 11第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The smile, on the other hand, is one of the easiest facial expressions to counterfeit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，微笑是最容易假裝的臉部表情之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But there is a catch. A genuine smile affects not only the corners of the lips but also the orbicularis oculi, the muscle around the eye that produces the distinctive ‘crow’s feet’ associated with people who laugh a lot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但其中有一個關鍵。真正的微笑不只影響嘴角，也會影響眼睛周圍的 orbicularis oculi，這塊肌肉會產生常見於經常大笑者的 distinctive “crow’s feet”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 11 明顯在講 smile / laughter，也就是 happiness 類表情。Question 12 的lines around eyes 直接對應 crow’s feet。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lines”"
+            },
+            {
+              "kind": "quote",
+              "text": "“around the eyes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“crow’s feet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the muscle around the eye”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "crow’s feet 指眼角魚尾紋，是笑或大笑時眼周出現的皺紋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A genuine smile affects not only the corners of the lips but also the orbicularis oculi, the muscle around the eye that produces the distinctive ‘crow’s feet’ associated with people who laugh a lot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正的微笑不只影響嘴角，也影響眼睛周圍的 orbicularis oculi；這塊肌肉會產生明顯的 “crow’s feet”，也就是常見於經常大笑者眼角的皺紋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “genuine smile” 對應 happiness。雖然分類選項沒有 smile，只有 Happiness，但笑容和大笑顯然屬於 happiness 的 facial expression。題目的 “Lines formed around the eyes” 對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“crow’s feet”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lines formed around the eyes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“crow’s feet” / “muscle around the eye”"
+            },
+            {
+              "kind": "label",
+              "text": "題目分類： Happiness原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“genuine smile” / “people who laugh a lot”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C — Happiness。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A — Sadness",
+      "answerKey": "A — Sadness",
+      "type": "Facial Traits",
+      "prompt": "Question 13",
+      "translation": "眉毛上方形成皺紋。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Facial trait："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lines formed above the eyebrows”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the most difficult facial expressions to fake — or conceal, if it is genuinely felt — is sadness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最難假裝，或在真正感受到時最難掩飾的臉部表情之一，是 sadness。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If someone claims they are sad and the inner corners of their eyebrows don’t go up,’ Ekman says, ‘the sadness is probably false.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 說：「如果有人聲稱自己悲傷，但眉毛內角沒有上揚，那種悲傷大概是假的。」Paragraph 10 是 sadness 的主要段落，裡面同時提到 forehead wrinkles 和 inner eyebrow movement。題目說 lines above eyebrows，應該對應 forehead wrinkles。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lines”"
+            },
+            {
+              "kind": "quote",
+              "text": "“above the eyebrows”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 lines above eyebrows 這幾個字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the forehead wrinkles with grief”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "forehead 是前額，位置在 eyebrows 上方。wrinkles 是皺紋，也就是 lines。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When someone is truly sad, the forehead wrinkles with grief and the inner corners of the eyebrows are pulled up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一個人真正悲傷時，前額會因悲傷而起皺，眉毛內角會被拉起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Lines formed above the eyebrows”。above the eyebrows 的位置就是 forehead；lines formed 對應 wrinkles。原文把這個特徵明確放在 someone is truly sad 的條件下，因此分類是Sadness。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lines formed above the eyebrows”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the forehead wrinkles with grief”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： lines = wrinkles above the eyebrows = forehead with grief = sadness所以答案是 A — Sadness。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - How to Spot a Liar.pdf",
+    "sha256": "d10a1eb862d80d406e65c314374dc1a90f62127824e53a82f8b6563c4533b0b5",
+    "pageCount": 30
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句，這段直接提出全文大前提：無論我們多討厭 deception，欺騙在所有生物中都很自然。只看末句，作者說自然會獎勵成功欺騙者，讓牠們活到交配和繁殖。由首尾句可見，Paragraph 1主要把 lying / deception 放入生存框架中，並用鳥類假裝受傷、spider crabs 偽裝等例子說明欺騙有助逃避敵人和延續生命。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說，知道人類也會因類似原因欺騙，可能並不令人驚訝。末句指出人類常欺騙的原因：save their own skins，或取得不能用其他方法得到的東西。這段把動物欺騙過渡到人類說謊，並引用Gerald Johnson 的數字：人平均每天被騙約 200 次。題目若問人類說謊原因、自我保護或利益取得，應先看這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說，懂得抓出欺騙和懂得說謊並逃脫一樣，都可以是重要生存技能。末句說自然已提供足夠線索，可以把說謊者困在自己的 tangled webs 中，只要你知道往哪裡看。這段功能是引出「spot a liar」的實用價值：識破謊言可避免被商業伙伴欺詐或伴侶蒙騙。Question 4 的 lying vs detecting lies 會用到這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說，透過仔細觀察 facial expressions、body language 和 tone of voice，幾乎任何人都能辨認說謊跡象。末句引用 Paul Ekman，說經過適當訓練，很多人可以可靠地偵測謊言。這段正式介紹判斷謊言的方法：看臉部、身體語言、聲音語調，以及用電腦分析肉眼和耳朵也能捕捉到的physical cues。Question 3 會有相關但不足的資訊。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說，成功說謊者若想知道哪種謊言最有效，就需要準確評估別人的 emotional states。末句指出要留意的 emotional state 是 stress，即多數說謊者在真相和自己言行之間感受到的衝突。由首尾句可見，Paragraph 5 主要講 emotional intelligence 的雙重作用：好騙子需要它，好 lie detectors 也需要它。Questions 5 和後面的 lie detector 原理都連到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說，即使 high-tech lie detectors 也不直接偵測謊言本身；它們只偵測情緒的 physical cues。末句說皮膚導電性突然上升表示 nervousness，可能是因為害怕被抓到，因而暗示某人可能在迴避真相。這段主要解釋 polygraph 原理：測量呼吸、心跳和皮膚導電性。Question 6 的 lie detector works 直接來自這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說，另一方面，皮膚導電性上升也可能只是因為電視錄影廠的燈太熱。末句引用 Ekman，說優秀的 lie detectors 會解讀 verbal 和 non-verbal clues 的 clusters，不會只靠單一訊號。這段功能是指出 polygraph 的限制：同一個身體反應可能有多種原因，所以測謊結果不能簡單當作法庭證據。Question 7 會用到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說線索寫滿在臉上。末句用中風後半邊臉癱瘓的病人作例子：刻意微笑時只有可動一側嘴角上揚，但聽到好笑笑話時會出現完整自然笑容。這段主要說明臉部肌肉和處理情緒的大腦區域直接相連，真實情緒和不真誠表情可能走不同神經路徑。Question 8 關於 paralysed patients 需要看這段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說，只有很少數人，尤其 actors 和 politicians，能有意識地控制所有 facial expressions。末句引用 Ekman，說表情通常在我們意識到情緒之前已經出現在臉上。這段主要講 true feelings 會短暫洩露出來，說謊者的面具未必能完全遮住真實情緒。Question 9 中 politicians 的功能，就是作為能控制／掩飾表情者的例子。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說，最難假裝或掩飾的 facial expressions 之一是 sadness。末句引用 Ekman，說如果有人聲稱悲傷，但眉毛內角沒有上揚，那種悲傷大概是假的。這段主要解釋 sadness 的面部特徵： forehead wrinkles with grief，inner corners of eyebrows are pulled up。Questions 10 和 13 都要看這段，尤其 eyebrows 和 forehead wrinkles。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說，smile 是最容易 counterfeit 的 facial expressions 之一。末句說真正的 smile 不只影響嘴角，也會影響眼周的 orbicularis oculi，形成 “crow’s feet”。這段主要分辨假笑和真笑：假笑只需兩條拉動嘴角的肌肉；真笑會牽動眼周肌肉。Question 12 的 lines around the eyes，即 crow’s feet，應定位到這段。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說，如果嘴角上揚、眼睛起皺，但眉毛內角沒有降低，counterfeit grin 仍可被揭穿。末句說lowered eyebrows 缺失，是 false smile 看起來 strained and stiff 的原因之一。這段延續真笑與假笑的判斷，重點是 orbicularis oculi 控制的 movement 很難假裝。它可補充 Question 12，但主要功能是進一步說明假笑有哪些破綻。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2162 @@
+{
+  "id": "p1-049-the-extraordinary-watkin-tench",
+  "catalogueId": "p1-049",
+  "catalogueIds": [
+    "p1-049"
+  ],
+  "passage": 1,
+  "title": "The Extraordinary Watkin Tench",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "excellent English",
+    "three years",
+    "chains",
+    "Governor Phillip",
+    "June 1789",
+    "China",
+    "Port Jackson"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There was a great deal of information available about the life of Tench before he arrived in Australia.”",
+      "translation": "關於 Tench 到達澳洲前的生活，有大量資料可供了解。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目重點是 “a great deal of information” 和 “before he arrived in Australia”。我們要判斷原文是否支持「資料很多」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from his years in Australia, little is known about Tench’s life in Britain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了他在澳洲的歲月外，關於 Tench 在英國的生活，人們所知甚少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After his voyage began, however, his life changed dramatically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在他的航程開始之後，他的人生發生了劇烈變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段主要講 Tench 到澳洲前的有限背景，以及航程開始後的人生轉折。題目問到達澳洲前資料是否很多，Paragraph 2 第一秒就很有用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a great deal of information”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before he arrived in Australia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有重複 “a great deal”，但有直接相反的表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“little is known”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from his years in Australia, little is known about Tench’s life in Britain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了他在澳洲的歲月外，關於 Tench 在英國的生活，人們所知甚少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “little is known”。題目說 “a great deal of information available”，即資料很多；原文說 little is known，即資料很少。這是明確衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a great deal of information= 很多資料little is known= 所知甚少before he arrived in Australia= his life in Britain / apart from his years in Australia判斷：題目說資料很多，原文說資料很少，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的確提供了不少零散資料，例如出生日期、出生地、父母身份和家庭背景。可是段首明確提醒 “little is known”。IELTS 這類題常把「有一些資料」誇大成「大量資料」。真正控制答案的是程度詞 little 和 a great deal 的相反方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Tench drew pictures to illustrate different places during the voyage.”",
+      "translation": "Tench 在航程中畫圖來描繪不同地方。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩個核心：第一，他是否 drew pictures；第二，這些圖是否用來 illustrate different places during the voyage。要小心原文若只說 described landscapes，不能自動推成畫圖。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the harsh voyage, which lasted many months, Tench described the landscapes of different places.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在持續多月的艱苦航程中，Tench 描述了不同地方的景觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As well as making peace with Aboriginal people, Phillip had to reform and discipline the colony’s convicts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了要與 Aboriginal people 建立和平關係外，Phillip 也必須改革並管束殖民地中的 convicts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 3 從航程中的觀察，轉到到達後的殖民地治理問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 2 出現 voyage 和 different places，因此先看本段第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“drew pictures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different places”"
+            },
+            {
+              "kind": "quote",
+              "text": "“during the voyage”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the harsh voyage…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Tench described the landscapes of different places.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有找到： drew pictures illustrations sketches drawings"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the harsh voyage, which lasted many months, Tench described the landscapes of different places.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在持續多月的艱苦航程中，Tench 描述了不同地方的景觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 Tench 曾描述不同地方的景觀，但 “described” 可以是文字描寫。原文沒有說他畫圖，也沒有提到 sketches、drawings 或 illustrations。題目加入了 “drew pictures” 這項具體方式，文章沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有： Tench described landscapes.原文缺少： Tench drew pictures.這裡沒有明確相反證據說他沒有畫圖，所以不能判 FALSE。資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易把 “described landscapes” 理解成「用圖畫描繪風景」。可是 Reading 題要跟文章用字走。describe 只證明他有描述，不足以證明描述方式是 drawing pictures。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Other military personnel in New South Wales did not treat convicts in the same way as Tench did.”",
+      "translation": "在 New South Wales，其他軍事人員對待 convicts 的方式與 Tench 不同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目要求比較 Tench 和其他人對 convicts 的 treatment。要找原文是否說 Tench 與上層官員不同，以及他如何對待工人或 convicts。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the beginning, Tench stood apart from the other convicts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從一開始，Tench 就與其他 convicts 不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one occasion, he could not carry out Phillip’s order to punish ten Aboriginal people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一次，他無法執行 Phillip 懲罰十名 Aboriginal people 的命令。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段強調 Tench 的特殊性：他與一般 convicts 不同，也在權力、仁慈和道德判斷上與其他官員不同。Question 3 問他對 convicts 的態度是否與其他軍事人員不同， Paragraph 4 是核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other military personnel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“treat convicts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“same way as Tench”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet he also differed from the upper-class officials who governed them.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“He treated the workers humanely…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet he also differed from the upper-class officials who governed them. He treated the workers humanely, regarding them not as common criminals but as trained military men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，他也不同於那些統治他們的上層官員。他人道地對待這些工人，把他們看作受過訓練的軍人，而非普通罪犯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句建立了清楚比較。第一句說 Tench “differed from the upper-class officials”。第二句說他的具體不同：他 humanely 對待 workers，並把他們看作 trained military men。題目的 “Other military personnel” 可對應這些 governing officials；“did not treat convicts in the same way” 對應 “he differed” 和 “treated humanely”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Other military personnel= upper-class officials who governed them did not treat in the same way= Tench differed from them convicts= workers / convict crew members treated humanely= humane treatment判斷：題目說其他人與 Tench 對待 convicts 的方式不同。原文直接說 Tench differed from governing officials，並指出他的做法較人道。所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “military personnel”，原文用 “upper-class officials”。兩者字面不同，但都在殖民地治理架構中與 convicts 有上下級關係。真正要看的是 “differed from” 和 “treated humanely” 這兩個動作訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Tench’s view of Aboriginal people remained unchanged during his time in Australia.”",
+      "translation": "Tench 在澳洲期間對 Aboriginal people 的看法一直沒有改變。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “remained unchanged”，即態度是否維持不變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要找原文是否出現 attitude change。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When he first arrived, Tench was fearful of and contemptuous towards Aboriginal people because the two cultures did not understand one another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tench 初到時害怕並輕視 Aboriginal people，因為兩種文化互不了解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although violence continued, Tench’s efforts encouraged more peaceful negotiations between the two groups over territory and land use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然暴力仍然持續，Tench 的努力促使兩群人在領土和土地使用問題上進行更和平的談判。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段從 fear / contempt 走向 peaceful negotiations。題目說 view unchanged，因此 Paragraph 5 很可能提供相反證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“view”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Aboriginal people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remained unchanged”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“fearful of and contemptuous towards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Gradually”"
+            },
+            {
+              "kind": "quote",
+              "text": "“came to know individuals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“became their close friend”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gradually, however, he came to know individuals and became their close friend.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，漸漸地，他開始認識一些個別的人，並成為他們的親密朋友。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “Gradually” 是重要時間變化詞。它告訴我們 Tench 的態度不是固定不變。他起初 fearful and contemptuous，後來 became their close friend。這是清楚的態度轉變。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He understood that Aboriginal people would not create conflict if peaceful solutions were sought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他明白，如果尋求和平解決方法，Aboriginal people 不會製造衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句進一步說明他的理解加深。他開始以更具同理心和和平的方式理解 Aboriginal people。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "remained unchanged= 沒有改變first arrived: fearful and contemptuous= 起初害怕和輕視gradually became close friend= 後來變得親近和理解判斷：題目說態度沒有改變；原文說他逐漸從害怕輕視變成 close friend。所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 末句說 violence continued，學生可能以為關係沒有改善。可是 violence continued是整體衝突仍存在；Tench 個人的 view 明確改變。題目問的是 Tench’s view，不是殖民地整體和平狀況。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“An Aboriginal person gave Tench gifts of food when they first met.”",
+      "translation": "Tench 第一次見到一位 Aboriginal person 時，對方給了他食物作禮物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有很具體的細節：gifts of food 和 first met。要找原文是否提到第一次見面時有食物交換。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of Australia remained unexplored by the convicts, and even Tench knew little of what lay beyond the established boundaries of the colony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 convicts 來說，澳洲大部分地方仍未被探索；甚至 Tench 也不太知道殖民地既定邊界之外有甚麼。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There he met an elderly Aboriginal man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在那裡遇到一位年長的 Aboriginal man。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段處理新地點、陌生土地和 Tench 與 Aboriginal people 的接觸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 5 問 first met，所以最後一句很有關聯。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aboriginal person”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gave Tench”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gifts of food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first met”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“he met an elderly Aboriginal man”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但找不到： food gifts gave offered meal first met with food"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He recalled his first steps on this unfamiliar ground with a boy who helped guide him. There he met an elderly Aboriginal man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他回憶自己在這片陌生土地上初次踏步時，有一名男孩幫忙帶路。他在那裡遇到一位年長的Aboriginal man。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說他遇到一位年長 Aboriginal man，也提到一位 boy helped guide him。它沒有說任何Aboriginal person 給 Tench 食物，也沒有說 gifts of food。題目加入了一個很具體的動作和物品，文章沒有支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有： Tench met an elderly Aboriginal man.原文缺少： the person gave food / gifts.沒有相反資料說對方沒有給食物，所以答案不是 FALSE。資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“first steps” 和 “met an elderly Aboriginal man” 容易讓學生以為原文在描述一次完整的首次接觸場景。可是原文只寫到 meeting，沒有寫 gifts 或 food。遇到這種細節題，要逐項核對動作和物品。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The convicts had a good knowledge of Australian geography.”",
+      "translation": "convicts 對澳洲地理有良好認識。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “good knowledge”。要找原文是否說 convicts了解澳洲地理，或剛好相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, many changes were made to the new colony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與此同時，新殖民地出現許多變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In reality, thousands of miles of ocean separated the two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，兩地之間隔著數千英里的海洋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段由殖民地變化講到地理誤解。最後一句暗示有人嚴重誤判距離，這與"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“good knowledge of Australian geography” 有直接關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“convicts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“good knowledge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Australian geography”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The convicts were notoriously ill-informed about Australian geography…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The convicts were notoriously ill-informed about Australian geography, as was evident in the attempt by twenty absconders to walk from Sydney to China in 1791…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "convicts 對澳洲地理出了名地無知；這一點可從 1791 年二十名逃跑者試圖從 Sydney 步行到China 看出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句最重要的是 “notoriously ill-informed”。notoriously 指出了名地；ill-informed 指資訊不足、認識差。題目說 good knowledge，原文說 notoriously ill-informed，方向完全相反。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還引用逃跑者想法："
+            },
+            {
+              "kind": "quote",
+              "text": "“China might be easily reached, being not more than a hundred miles distant, and separated only by a river.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們以為中國很容易到達，距離不超過一百英里，而且只隔著一條河。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句再糾正："
+            },
+            {
+              "kind": "quote",
+              "text": "“In reality, thousands of miles of ocean separated the two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，兩地之間隔著數千英里的海洋。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "good knowledge= 對地理有良好認識notoriously ill-informed= 出了名地認識不足not more than a hundred miles vs thousands of miles of ocean判斷：題目說 convicts 地理知識良好；原文說他們地理知識非常差，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的例子非常誇張：Sydney 到 China 被誤以為只隔一條河。看到數字時要留意兩個層次：逃跑者的錯誤想法和作者的 reality correction。答案由 “notoriously ill-informed” 和 “In reality” 定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "excellent English",
+      "answerKey": "excellent English",
+      "type": "Short-answer Questions",
+      "prompt": "“What evidence demonstrates Tench’s good education?”",
+      "translation": "甚麼證據顯示 Tench 受過良好教育？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “What evidence”，要找文章中哪個具體線索顯示他 well educated。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from his years in Australia, little is known about Tench’s life in Britain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了他在澳洲的歲月外，關於 Tench 在英國的生活，人們所知甚少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After his voyage began, however, his life changed dramatically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在他的航程開始後，他的人生發生了劇烈變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段主要講 Tench 早年資料有限，但中間會提供少量已知背景。題目問education，所以要找 educated / school / English / diaries 相關句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“good education”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evidence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“his Australian diaries show that he was well educated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“written in excellent English”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although we do not know exactly how Tench was educated in this small town, his Australian diaries show that he was well educated: they are written in excellent English, a skill not everyone possessed in the 18th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我們不確切知道 Tench 在這個小鎮如何接受教育，但他的澳洲日記顯示他受過良好教育：這些日記以出色英語寫成，而這並非十八世紀每個人都具備的技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句先說 Australian diaries show he was well educated，然後用冒號說明原因：they are written in excellent English。題目問 evidence demonstrates good education，最直接的 evidence 是excellent English。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： excellent English = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "good education= well educated evidence demonstrates= diaries show / written in excellent English"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Australian diaries” 是承載證據的材料；“excellent English” 是證明他受過教育的具體特徵。若題目問 “What showed he was educated?”，diaries 有可能被接受；但這裡問 evidence，較精準答案是 excellent English。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "three years",
+      "answerKey": "three years",
+      "type": "Short-answer Questions",
+      "prompt": "“For how many years did Tench sign up to serve with the First Fleet?”",
+      "translation": "Tench 簽約為 First Fleet 服務多少年？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 how many years，所以答案要保留數量和時間單位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the end of the 18th century, life for the average British citizen was changing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十八世紀末，普通英國人的生活正在改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When his ship departed in 1788, he signed up for three years’ service with the First Fleet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他的船於 1788 年出發時，他簽約為 First Fleet 服務三年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 1 從英國社會變動引出 Tench 加入 First Fleet。題目問 sign up for how many years，段末句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“signed up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“serve”"
+            },
+            {
+              "kind": "quote",
+              "text": "“First Fleet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“years”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“signed up for three years’ service with the First Fleet.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When his ship departed in 1788, he signed up for three years’ service with the First Fleet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他的船於 1788 年出發時，他簽約為 First Fleet 服務三年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “For how many years” 對應原文 “three years’ service”。答案要包含時間單位，填 three years 最穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： three years = 2 words，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "sign up to serve= signed up for service for how many years= three years"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1788 是出發年份，不是服務年期。題目問 how many years，所以不能填 1788。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "chains",
+      "answerKey": "chains",
+      "type": "Short-answer Questions",
+      "prompt": "“What was used to control convicts during the voyage?”",
+      "translation": "航程中用甚麼控制 convicts？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問物件，所以答案應該是名詞。定位詞是 “control convicts during the voyage”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the beginning, Tench stood apart from the other convicts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從一開始，Tench 就與其他 convicts 不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one occasion, he could not carry out Phillip’s order to punish ten Aboriginal people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一次，他無法執行 Phillip 懲罰十名 Aboriginal people 的命令。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講 Tench 如何與其他人不同，包括他對 convicts 和 Aboriginal people的態度。題目問 control convicts during the voyage，應掃描本段中 Tench 對 convict workers 的處理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“control convicts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“during the voyage”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the chains used to control convicts during the voyage were removed”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Under his authority, the chains used to control convicts during the voyage were removed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他的權力下，航程中用來控制 convicts 的 chains 被除去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What was used…?”，原文主語短語是 “the chains used to control convicts”。所以答案是chains。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： chains = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "What was used to control convicts= the chains used to control convicts during the voyage= 原文同字重現"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問的是航程中用來控制 convicts 的物件，不是問 Tench 後來做了甚麼。原文說 chains were removed，removed 是 Tench 的行動；答案仍是 chains。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "Governor Phillip",
+      "answerKey": "Governor Phillip",
+      "type": "Short-answer Questions",
+      "prompt": "“Who gave the order to punish the Aboriginal people?”",
+      "translation": "誰下令懲罰 Aboriginal people？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，問 Who，所以答案應是人名或職銜。定位詞是 order 和 punish Aboriginal people。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the beginning, Tench stood apart from the other convicts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從一開始，Tench 就與其他 convicts 不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one occasion, he could not carry out Phillip’s order to punish ten Aboriginal people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一次，他無法執行 Phillip 懲罰十名 Aboriginal people 的命令。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，最後一句已直接包含 order 和 punish Aboriginal people，所以這題可以直接定位到Paragraph 4 段末。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“order”"
+            },
+            {
+              "kind": "quote",
+              "text": "“punish”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Aboriginal people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phillip’s order to punish ten Aboriginal people”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one occasion, he could not carry out Phillip’s order to punish ten Aboriginal people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一次，他無法執行 Phillip 懲罰十名 Aboriginal people 的命令。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中，“he” 指 Tench；“Phillip’s order” 表示命令來自 Phillip。前文 Paragraph 3 已介紹："
+            },
+            {
+              "kind": "quote",
+              "text": "“Governor Phillip had complete authority over its inhabitants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Governor Phillip 對殖民地居民有完全權威。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案可寫成 Governor Phillip，保留職銜更完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： Governor Phillip = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "gave the order= Phillip’s order to punish the Aboriginal people= to punish ten Aboriginal people"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Tench 是未能執行命令的人；Phillip 是下令者。題目問 Who gave the order，不要把執行者和命令來源混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "June 1789",
+      "answerKey": "June 1789",
+      "type": "Short-answer Questions",
+      "prompt": "“When was the Hawkesbury River named?”",
+      "translation": "Hawkesbury River 何時被命名？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，問 When，所以答案要是時間。定位詞 Hawkesbury River 非常強。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, many changes were made to the new colony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與此同時，新殖民地出現許多變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In reality, thousands of miles of ocean separated the two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，兩地之間隔著數千英里的海洋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講殖民地變化和地理問題。Hawkesbury River 是地名，應在本段開頭附近找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hawkesbury River”"
+            },
+            {
+              "kind": "quote",
+              "text": "“named”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hawkesbury River was named by Governor Phillip in June 1789.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hawkesbury River was named by Governor Phillip in June 1789.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hawkesbury River 於 1789 年 6 月由 Governor Phillip 命名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 When，所以答案是 June 1789。人名 Governor Phillip 只是補充誰命名，不是本題答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： June 1789 = 1 word + 1 number，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "When was it named?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= was named … in June 1789"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有問誰命名，所以不能填 Governor Phillip。遇到 Wh-question 要先看問的是 What、Who、When、Where 還是 How many。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "China",
+      "answerKey": "China",
+      "type": "Short-answer Questions",
+      "prompt": "“Where did the escaped convicts plan to go?”",
+      "translation": "逃走的 convicts 計劃去哪裡？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，問 Where，所以答案應是地點。定位詞 escaped convicts 對應原文 absconders。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, many changes were made to the new colony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與此同時，新殖民地出現許多變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In reality, thousands of miles of ocean separated the two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，兩地之間隔著數千英里的海洋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道段末正在糾正某個地理誤解。題目問 escaped convicts plan to go，應看中間 absconders 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“escaped convicts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plan to go”"
+            },
+            {
+              "kind": "label",
+              "text": "原文用另一個字："
+            },
+            {
+              "kind": "quote",
+              "text": "“twenty absconders”"
+            },
+            {
+              "kind": "label",
+              "text": "absconders 指逃跑者。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the attempt by twenty absconders to walk from Sydney to China in 1791”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The convicts were notoriously ill-informed about Australian geography, as was evident in the attempt by twenty absconders to walk from Sydney to China in 1791…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "convicts 對澳洲地理出了名地無知；這一點可從 1791 年二十名逃跑者試圖從 Sydney 步行到China 看出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 escaped convicts plan to go where。原文說 they attempted to walk from Sydney to China。目的地是 China。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： China = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "escaped convicts= absconders planned to go= attempted to walk to答案是 China。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sydney 是出發地，China 是目的地。題目問 where did they plan to go，所以要填 China，不要填Sydney。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "Port Jackson",
+      "answerKey": "Port Jackson",
+      "type": "Short-answer Questions",
+      "prompt": "“Which place did Tench find unfamiliar?”",
+      "translation": "Tench 覺得哪個地方陌生？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，問 place，所以答案應是地名。定位詞是 unfamiliar。要找原文中哪個 place 被描述為 strange and unfamiliar。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of Australia remained unexplored by the convicts, and even Tench knew little of what lay beyond the established boundaries of the colony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 convicts 來說，澳洲大部分地方仍未被探索；甚至 Tench 也不太知道殖民地既定邊界之外有甚麼。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There he met an elderly Aboriginal man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在那裡遇到一位年長的 Aboriginal man。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講未知地區和陌生接觸。題目中的 unfamiliar 和本段首句的unexplored / knew little 相關，所以 Paragraph 7 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“unfamiliar”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“This second location was strange and unfamiliar…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要理解 “this second location” 指哪裡，需要回看前一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A few days after arriving at their original location, Botany Bay, the fleet moved to the more suitable Port Jackson, where a settlement was established at Sydney Cove on 26 January 1788.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "抵達原本地點 Botany Bay 幾天後，船隊移往更合適的 Port Jackson，並於 1788 年 1 月 26 日在Sydney Cove 建立定居點。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This second location was strange and unfamiliar, and the fleet remained alert to anything suspicious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這第二個地點既陌生又不熟悉，船隊也對任何可疑情況保持警覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “original location” 是 Botany Bay；船隊移往的第二個地點是 Port Jackson。雖然同一句也提到 Sydney Cove 是 settlement 的具體位置，但 “the fleet moved to the more suitable Port Jackson” 是和 Botany Bay 對照的主要地點，所以答案以 Port Jackson 最穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： Port Jackson = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "find unfamiliar= was strange and unfamiliar which place= this second location second location= Port Jackson, after Botany Bay"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sydney Cove 是同一句中較近的地名，因此有一定吸引力。可是從句子結構看，第一個地點是Botany Bay，第二個地點是 Port Jackson；Sydney Cove 是 Port Jackson 內建立 settlement 的具體位置。若考試答案表要求更細地點，Sydney Cove 可能出現，但按 “second location” 的對照關係，Port Jackson 更貼近題目。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Extraordinary Watkin Tench.pdf",
+    "sha256": "1a7cf11cc2425a75922e77e6d9329bf403d22ed9d70fd206ca5c5e439020a3c5",
+    "pageCount": 25
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說十八世紀末，普通英國人的生活正在改變；末句說 Tench 的船於 1788 年出發，他為 First Fleet 簽下三年服務。只看首尾句，可以估計這段主要交代歷史大背景：人口增長、工業化、失業、犯罪、監獄不足、海外探索和船員需求。Tench 被放在這個社會變動中介紹，重點是他如何成為前往澳洲殖民地旅程的一員。Question 8 的 three years 直接在段末。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說除了在澳洲的歲月外，Tench 在英國的生活所知甚少；末句說他的航程開始後，人生劇烈改變。只看首尾句，可以推測這段處理 Tench 的早年背景，但資料有限。中間補充他的出生地、家庭、父母背景，以及教育程度的證據。Question 1 和 Question 7 都在這段：一題問早年資料是否很多，一題問甚麼證明他受過良好教育。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說漫長艱苦航程中，Tench 描述了不同地方的景觀；末句說 Phillip 不只要與 Aboriginal people 和平相處，也要改革和管束殖民地的 convicts。首尾句顯示這段先講航程和新環境，再轉入新殖民地的治理難題。Governor Phillip 的權威、開明想法、與 Indigenous peoples 建立和諧關係的意圖，以及 convict crew 缺乏技能，都是此段核心。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說從一開始，Tench 就與其他 convicts 不同；末句說他曾無法執行 Phillip 懲罰十名Aboriginal people 的命令。只看首尾句，可以估計這段重點是 Tench 的特殊性：他快速升職，獲得權力，對 convict workers 較人道，也對 Aboriginal people 表現出仁慈。Question 3、9、10 都可在這段定位，因為它同時談 convicts、chains 和 Phillip’s order。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Tench 初到時害怕並輕視 Aboriginal people，因為兩種文化互不了解；末句說雖然暴力仍持續，Tench 的努力促進了兩群人在土地使用和領土問題上的和平談判。只看首尾句，可以清楚看到態度變化：由 fear and contempt 逐步走向理解和友誼。Question 4 的 “remained unchanged” 正好測試學生有沒有看到這個 gradual change。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說新殖民地出現許多變化；末句說事實上，中國與澳洲之間隔著數千英里的海洋。只看首尾句，可以估計這段處理殖民地發展和地理誤解。中間有 Hawkesbury River 命名、殖民者對土地和資源的影響，以及 twenty absconders 誤以為可由 Sydney 步行到 China。Question 6、11、12 都在這段，尤其 ill-informed、June 1789、China 是強定位詞。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說大部分澳洲對 convicts 來說仍未被探索，連 Tench 也不知道殖民地邊界之外有甚麼；末句說他在陌生土地上遇到一位年長 Aboriginal man。只看首尾句，可以估計這段講殖民地向外移動和新地點的不熟悉感。Botany Bay、Port Jackson、Sydney Cove 都是重要地名。Question 5 和Question 13 可定位到這段，尤其 first met 和 unfamiliar place。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 13 有一點細節要留意：原文同一句也提到 “Sydney Cove”。如果答案表採用更細位置，可能會見到 Sydney Cove；但按 “original location, Botany Bay” 對照 “the fleet moved to the more suitable Port Jackson”，我會把 “this second location” 理解為 Port Jackson。"
+  ]
+}

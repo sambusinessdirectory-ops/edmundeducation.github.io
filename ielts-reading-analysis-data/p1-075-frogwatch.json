@@ -1,0 +1,2169 @@
+{
+  "id": "p1-075-frogwatch",
+  "catalogueId": "p1-075",
+  "catalogueIds": [
+    "p1-075"
+  ],
+  "passage": 1,
+  "title": "Frogwatch",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "NO",
+    "NOT GIVEN",
+    "NO",
+    "NO",
+    "YES",
+    "YES",
+    "B",
+    "A",
+    "A",
+    "B",
+    "B",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Frogwatch members need a basic level of scientific training.”",
+      "translation": "Frogwatch 會員需要基本科學訓練。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frogwatch, a remarkable success story that began in Western Australia, is the brainchild of Dr Ken Aplin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frogwatch 是一個始於 Western Australia 的非凡成功故事，由 Dr Ken Aplin 構思出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through such a network, ordinary, untrained members of the community could learn about frog habitats, observe the numbers and types of frogs in their local area, and report this information to the museum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過這樣的網絡，普通、未受訓的社區成員可以學習青蛙棲息地，觀察本地青蛙的數量和種類，並把資料匯報給博物館。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會解釋 Frogwatch 的起源和運作方式。最後一句直接提到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ordinary, untrained members”，所以這段很可能回答 training 相關題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是：“members”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scientific training”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要留意 training 的相反詞，例如 untrained。Paragraph 1 最後一句直接出現 “ordinary, untrained members of the community”，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through such a network, ordinary, untrained members of the community could learn about frog habitats, observe the numbers and types of frogs in their local area, and report this information to the museum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過這樣的網絡，普通、未受訓的社區成員可以學習青蛙棲息地，觀察本地青蛙的數量和種類，並把資料匯報給博物館。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “ordinary, untrained members of the community”。核心動作是 learn、observe、report。原文強調他們可以是 untrained，即沒有正式訓練。題目說 members need a basic level of scientific training，加入了必要條件 “need”。這和 “untrained members could…” 的方向相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：need scientific training"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：ordinary, untrained members could participate判斷：原文清楚說未受訓社區成員也可參與，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “basic level” 會令人覺得要求很低，好像可能合理。但 IELTS 判斷要看原文是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "否把 training 設為必要條件。原文用 untrained 直接排除了這一點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“All Frogwatch members live in Western Australia.”",
+      "translation": "所有 Frogwatch 會員都住在 Western Australia。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1–3 Paragraph 1 第一、最後句分別說 Frogwatch 始於 Western Australia，並透過社區網絡讓本地人觀察青蛙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 第一、最後句分別說 Frogwatch 於 1995 年推出，會員數已達 3,221，並提到真菌病nationwide 和可能 overseas origin。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 第一、最後句則轉到 Western Australia 研究人員需要了解州內感染範圍，以及真菌可能自 late 1980s 已存在於 WA。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “All members live in Western Australia”，需要找 membership location 的明確說法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“All”"
+            },
+            {
+              "kind": "quote",
+              "text": "“members”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Western Australia”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有多處 Western Australia，也有 “member / members”。最相關的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“began in Western Australia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Launched in 1995, Frogwatch recently gained its 3,221st member”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers in Western Australia needed to know…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子提供了地點背景和會員數，但沒有說全部會員的居住地。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frogwatch, a remarkable success story that began in Western Australia, is the brainchild of Dr Ken Aplin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frogwatch 是一個始於 Western Australia 的成功故事，由 Dr Ken Aplin 構思出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 “began in Western Australia”，即計劃起源於 WA。起源地不等於所有會員所在地。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Launched in 1995, Frogwatch recently gained its 3,221st member…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frogwatch 於 1995 年推出，最近已有第 3,221 位會員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有交代會員住在哪裡。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers in Western Australia needed to know how widespread the infection was in the state’s frog populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Western Australia 的研究人員需要知道感染在州內青蛙族群中有多廣泛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 WA 研究目標，但仍未說全部 Frogwatch members 都住在 WA。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題包含 “All”，範圍很強。原文有：計劃始於 WA WA 研究人員使用 Frogwatch WA 青蛙感染需要監測原文缺少：全部會員都住在 WA沒有 WA 以外會員會員只限 WA 居民所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “began in Western Australia” 和 “Researchers in Western Australia” 很容易推成全"
+            },
+            {
+              "kind": "paragraph",
+              "text": "部會員都在 WA。不過這只是計劃起源和研究地點，沒有完成 “All members live there” 這個範圍判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Frogwatch has proved that frogs are disappearing because of a fungus.”",
+      "translation": "Frogwatch 已證明青蛙正在因真菌而消失。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2、Paragraph 5–6 Paragraph 2 最後一句說科學家懷疑真菌可能源自海外，這提示研究仍未完全定案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 首句說不是人人都被 Frogwatch 的受歡迎程度說服，末句說 Roberts 警告 public awareness 不等於 sound science。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 首句說 Roberts 認為公眾觀察報告未必 scientifically valid，後文又提出其他死亡因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的核心詞是 “proved”，所以要找文章是否真的說明 Frogwatch 已經證明因果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“proved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disappearing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because of a fungus”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 “proved”。相反，Paragraph 2 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although research is not yet complete, scientists suspect the fungus originated overseas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然研究尚未完成，科學家懷疑這種真菌源自海外……Paragraph 6 又有："
+            },
+            {
+              "kind": "quote",
+              "text": "“he warns that strong public awareness does not amount to sound science.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“other factors might have precipitated the deaths.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都削弱 “proved” 這個說法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although research is not yet complete, scientists suspect the fungus originated overseas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然研究尚未完成，科學家懷疑這種真菌源自海外……"
+            },
+            {
+              "kind": "quote",
+              "text": "“research is not yet complete” 表示研究仍未完成。“suspect” 表示懷疑，不是證明。原文關鍵句二：“Roberts agrees the programme has tapped into the public’s enthusiasm for frogs, but he warns that strong public awareness does not amount to sound science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roberts 同意這項計劃激發了公眾對青蛙的熱情，但他警告，強烈的公眾意識不等於可靠科學。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, he argues, other factors might have precipitated the deaths.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他認為其他因素也可能促成死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Frogwatch has proved。原文提供的情況是：研究未完成、科學家只是 suspect、Roberts質疑其科學有效性，並提出其他可能死因。這些證據都和 “proved that frogs are disappearing because of a fungus” 的肯定因果不相容。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：has proved"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：research not complete / suspect / might have"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：because of a fungus"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：other factors might have precipitated the deaths答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章確實說 fungal disease began attacking frogs nationwide，但 “attacking” 只是問題背"
+            },
+            {
+              "kind": "paragraph",
+              "text": "景。題目加入了 “proved” 和 “because”，需要非常強的證據；原文反而多次保留和質疑。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Scientists in WA have examined about two thousand frogs collected by Frogwatch.”",
+      "translation": "WA 的科學家已檢查約二千隻由 Frogwatch 收集的青蛙。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers in Western Australia needed to know how widespread the infection was in the state’s frog populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Western Australia 的研究人員需要知道感染在該州青蛙族群中有多廣泛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aplin once thought the fungus had arrived in Western Australia only a year or two earlier, but tests now suggest it has been there since the late 1980s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aplin 曾以為真菌只是一兩年前到達 Western Australia，但測試現在顯示它自 late 1980s 已在那裡存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講 WA 的真菌調查和樣本來源。題目有 examined、two thousand frogs、Frogwatch，應定位到 Paragraph 3。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“examined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“two thousand frogs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“collected by Frogwatch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 2,000 frogs have now been examined, half from the museum’s existing collection.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含數字和 examined，所以要細讀來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“He asked them to deliver dead or dying frogs to him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他要求他們把死去或垂死的青蛙送交給他。"
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 2,000 frogs have now been examined, half from the museum’s existing collection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有超過 2,000 隻青蛙被檢查，其中一半來自博物館現有收藏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “about two thousand frogs collected by Frogwatch”。原文確實說超過 2,000 隻青蛙已被檢查，也說 Frogwatch members 被要求送交死去或垂死青蛙。問題在來源比例：原文明確說 half from the museum’s existing collection。也就是說，這 2,000 多隻並非全部由 Frogwatch 收集。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：about 2,000 frogs collected by Frogwatch"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：more than 2,000 examined; half from museum collection這裡的衝突在 “collected by Frogwatch” 的範圍。原文把約一半樣本歸入 museum existing collection，題目把整批約二千隻都說成 Frogwatch 收集，範圍過大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把兩句相鄰資訊拼在一起。Aplin 的確叫會員送死青蛙，後面也確實有 2,000 frogs"
+            },
+            {
+              "kind": "paragraph",
+              "text": "examined。細讀時要補上 “half from the museum’s existing collection” 這個限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The frog fungal disease has been in Western Australia for more than ten years.”",
+      "translation": "這種青蛙真菌病已在 Western Australia 存在超過十年。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers in Western Australia needed to know how widespread the infection was in the state’s frog populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Western Australia 的研究人員需要知道感染在該州青蛙族群中有多廣泛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aplin once thought the fungus had arrived in Western Australia only a year or two earlier, but tests now suggest it has been there since the late 1980s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aplin 曾以為真菌只是一兩年前到達 Western Australia，但測試現在顯示它自 late 1980s 已在那裡存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示 Paragraph 3 是 infection / fungus / WA / time 的核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fungal disease”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Western Australia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than ten years”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最關鍵的時間短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“since the late 1980s”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是判斷 “more than ten years” 的核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aplin once thought the fungus had arrived in Western Australia only a year or two earlier, but tests now suggest it has been there since the late 1980s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aplin 曾以為真菌只是一兩年前到達 Western Australia，但測試現在顯示它自 late 1980s 已在那裡存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有清楚轉折：Aplin 的舊想法是 “only a year or two earlier”；新測試結果是 “since the late 1980s”。題目說 “for more than ten years”，就是把 “since the late 1980s” 改寫成一段較長時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "按文章語境，Frogwatch 已於 1995 年推出，而且文中多次使用 recently / now，題目設計明顯把late 1980s 到文章當下理解為超過十年。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：has been in Western Australia"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：has been there"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：for more than ten years"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：since the late 1980s答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要停在 “only a year or two earlier”。那是 Aplin once thought，即他以前的想法。真正定"
+            },
+            {
+              "kind": "paragraph",
+              "text": "案的是轉折後的 “but tests now suggest…”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“New species of frogs have been found in Western Australia recently.”",
+      "translation": "最近 Western Australia 發現了新的青蛙物種。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roberts argues that Western Australia is different.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roberts 認為 Western Australia 情況不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roberts believes that no amount of garden ponds in Perth will help those species, which live in isolated habitats targeted for development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roberts 認為，在 Perth 建再多花園池塘也無法幫助那些物種，因為牠們生活在受發展威脅的孤立棲息地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 主要講 Roberts 如何看待 WA 的特殊情況，包括青蛙物種發現、消失情況和瀕危物種。題目有 new species 和 WA，所以定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“New species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“found”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Western Australia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike most other states, species are still being discovered there…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“still being discovered” 就是 “new species have been found recently” 的近義表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Unlike most other states, species are still being discovered there; the disappearances of frog types in Queensland and New South Wales are not occurring in Western Australia, although three south-west species are on the endangered list.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和大多數其他州不同，Western Australia 仍有物種被發現；Queensland 和 New South Wales 出現的青蛙種類消失情況並未在 Western Australia 發生，雖然有三種西南部物種列入瀕危名單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “there” 指 Western Australia。核心短語是 “species are still being discovered”。still 表示直到現在仍然；being discovered 表示正在被發現。題目說 “New species of frogs have been found … recently”，屬於對 “still being discovered” 的合理改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：new species have been found recently"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：species are still being discovered答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句後面也說 three south-west species are endangered。這不會推翻新物種仍被發"
+            },
+            {
+              "kind": "paragraph",
+              "text": "現。文章同時表達兩件事：WA 仍有新物種被發現，但部分西南物種仍面臨瀕危。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — Dr Roberts",
+      "answerKey": "B — Dr Roberts",
+      "type": "Matching Researchers",
+      "prompt": "“Although the involvement of large numbers of people is encouraging, this does not guarantee scientifically valid data.”",
+      "translation": "雖然很多人參與令人鼓舞，但這不能保證資料具科學效度。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5–6 Paragraph 5 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not everyone is convinced by the ‘feel-good’ popularity of Frogwatch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "並非人人都被 Frogwatch 這種令人感覺良好的受歡迎程度說服。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A senior zoology lecturer at the University of WA, Roberts agrees the programme has tapped into the public’s enthusiasm for frogs, but he warns that strong public awareness does not amount to sound science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roberts 是 WA 大學高級動物學講師，他同意這項計劃激發了公眾對青蛙的熱情，但他警告，強烈的公眾意識並不等同於可靠科學。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“large numbers of people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scientifically valid data”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“public’s enthusiasm”"
+            },
+            {
+              "kind": "quote",
+              "text": "“strong public awareness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not amount to sound science”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may not be scientifically valid”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roberts agrees the programme has tapped into the public’s enthusiasm for frogs, but he warns that strong public awareness does not amount to sound science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roberts 同意這項計劃激發了公眾對青蛙的熱情，但他警告，強烈的公眾意識並不等同於可靠科學。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“He argues that getting the public to send in pages of observations is a good thing, but treating these reports as credible may not be scientifically valid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為讓公眾寄來一頁頁觀察記錄是好事，但把這些報告視為可信，可能並不具科學效度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這兩句合併概括。involvement of large numbers of people 對應 public enthusiasm /pages of observations；does not guarantee scientifically valid data 對應 may not be scientifically valid。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物是 Roberts，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被 Frogwatch 的成功和 membership 數字吸引到 Aplin，但真正提出科學保留"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的是 Roberts。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A — Dr Aplin",
+      "answerKey": "A — Dr Aplin",
+      "type": "Matching Researchers",
+      "prompt": "“The development of frog-friendly backyards will help to conserve frog species.”",
+      "translation": "發展對青蛙友善的後院，有助保育青蛙物種。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5 和 Paragraph 8 Paragraph 5 中間說："
+            },
+            {
+              "kind": "quote",
+              "text": "“While Aplin believes even tiny backyard ponds can significantly increase frog numbers, Dr Dale Roberts isn’t so sure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aplin 相信即使小小的後院池塘也能顯著增加青蛙數量，但 Dr Dale Roberts 並不太肯定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 第一、最後句則顯示 Aplin 回應 Roberts，強調增加 frog-friendly habitats 重要，因為短期負面影響已明顯。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“frog-friendly backyards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conserve frog species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“tiny backyard ponds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“frog-friendly habitats”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pesticide-free gardens and ponds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater chance of survival”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“While Aplin believes even tiny backyard ponds can significantly increase frog numbers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aplin 相信即使小小的後院池塘也能顯著增加青蛙數量。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aplin’s response is that increasing the number of frog-friendly habitats is important precisely because many Western Australian frog species are found in small, highly restricted locations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aplin 的回應是，增加對青蛙友善的棲息地很重要，正因許多 Western Australian 青蛙物種分布在細小且高度受限的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“He argues that pesticide-free gardens and ponds can give frogs a greater chance of survival…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為不使用殺蟲劑的花園和池塘可以給青蛙更大的生存機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “frog-friendly backyards” 是對 backyard ponds、frog-friendly habitats、pesticide-free gardens and ponds 的概括。help to conserve frog species 對應 increase frog numbers / greater chance of survival。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物是 Aplin，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Dr Aplin",
+      "answerKey": "A — Dr Aplin",
+      "type": "Matching Researchers",
+      "prompt": "“Although it is possible that frogs will adapt to fungal and other problems in the long term, we should take precautions in case this does not occur.”",
+      "translation": "雖然青蛙長遠可能會適應真菌和其他問題，但我們仍應採取預防措施，以防情況沒有自然改善。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aplin’s response is that increasing the number of frog-friendly habitats is important precisely because many Western Australian frog species are found in small, highly restricted locations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aplin 的回應是，增加對青蛙友善的棲息地很重要，正因許多 WA 青蛙物種分布在細小且高度受限的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given time, some balance may be restored, but in the shorter term, negative effects are evident.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "假以時日，某種平衡或許會恢復，但短期來看，負面影響已經明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主題是 Aplin 的預防立場和長短期判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“adapt”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long term”"
+            },
+            {
+              "kind": "quote",
+              "text": "“take precautions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“precautionary principle”"
+            },
+            {
+              "kind": "quote",
+              "text": "“co-evolve with the fungus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Given time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“negative effects are evident”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aplin believes researchers should use the precautionary principle in cases where they don’t yet know enough about the situation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aplin 認為，在研究人員尚未充分了解情況時，應使用 precautionary principle，即預防原則。"
+            },
+            {
+              "kind": "label",
+              "text": "後文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Diseases generally resolve themselves naturally and some frog species will co-evolve with the fungus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "疾病通常會自然解決，而某些青蛙物種會與真菌共同演化。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given time, some balance may be restored, but in the shorter term, negative effects are evident.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "假以時日，某種平衡或許會恢復，但短期來看，負面影響已經明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這三個觀點整合起來：長期可能 co-evolve / balance restored；不過由於現階段 know enough 不足，且短期 negative effects evident，所以要 precautionary principle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物是 Aplin，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "B — Dr Roberts",
+      "answerKey": "B — Dr Roberts",
+      "type": "Matching Researchers",
+      "prompt": "“As there may be many other explanations for recent frog deaths, it is not worth spending a great deal of time and money studying this fungus.”",
+      "translation": "由於近期青蛙死亡可能有許多其他解釋，因此不值得花大量時間和金錢研究這種真菌。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He argues that getting the public to send in pages of observations is a good thing, but treating these reports as credible may not be scientifically valid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為讓公眾寄來大量觀察記錄是好事，但把這些報告當作可信資料，可能未必具科學效度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even if it’s causing high death rates, he says he can still find every frog species recorded over the past ten years in the south-west of Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，即使真菌造成高死亡率，他仍能在澳洲西南找到過去十年記錄過的每一種青蛙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中呈現 Roberts 的懷疑和成本考量。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“other explanations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not worth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“time and money”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“other factors might have precipitated the deaths”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not be worth the cost and effort”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, he argues, other factors might have precipitated the deaths.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他認為其他因素也可能促成這些死亡。"
+            },
+            {
+              "kind": "quote",
+              "text": "“He also questions whether anything could be done about it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也質疑是否能對此做些甚麼。"
+            },
+            {
+              "kind": "quote",
+              "text": "“If it’s already widespread, it may not be worth the cost and effort of doing anything about it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果它已經廣泛存在，花費成本和努力去處理它可能不值得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 many other explanations，原文說 other factors might have precipitated the deaths。題目說 not worth spending time and money，原文說 not worth the cost and effort。兩者語義非常接近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物是 Roberts，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “studying this fungus”，原文說 “doing anything about it”。原文的範圍稍廣，包括"
+            },
+            {
+              "kind": "paragraph",
+              "text": "處理或應對真菌；在選項配對中，這仍明顯屬 Roberts 的懷疑態度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — Dr Roberts",
+      "answerKey": "B — Dr Roberts",
+      "type": "Matching Researchers",
+      "prompt": "“Because of the unique geography of Western Australia, most frog species in this state are not in danger of extinction.”",
+      "translation": "由於 Western Australia 的特殊情況，該州大部分青蛙物種並沒有滅絕危險。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roberts argues that Western Australia is different.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roberts 認為 Western Australia 情況不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roberts believes that no amount of garden ponds in Perth will help those species, which live in isolated habitats targeted for development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roberts 認為，在 Perth 建再多花園池塘也無法幫助那些物種，因為牠們生活在受發展威脅的孤立棲息地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主題是 Roberts 對 WA 特殊性的判斷，以及他對 extinction danger 的較低警覺。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Western Australia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different / unique”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not in danger of extinction”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Western Australia is different”"
+            },
+            {
+              "kind": "quote",
+              "text": "“species are still being discovered there”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disappearances … are not occurring”"
+            },
+            {
+              "kind": "quote",
+              "text": "“although three south-west species are on the endangered list”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roberts argues that Western Australia is different.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Roberts 認為 Western Australia 情況不同。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike most other states, species are still being discovered there; the disappearances of frog types in Queensland and New South Wales are not occurring in Western Australia, although three south-west species are on the endangered list.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和大多數其他州不同，Western Australia 仍有物種被發現；Queensland 和 New South Wales 出現的青蛙種類消失情況並未在 WA 發生，雖然有三種西南部物種列入瀕危名單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “unique geography” 是對 Roberts 所說 “Western Australia is different” 及 isolated habitats 的概括。題目說 most frog species are not in danger of extinction，原文支援的是：消失情況沒有在 WA 發生，仍有物種被發現，只有 three south-west species on the endangered list。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物是 Roberts，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文提到 three south-west species endangered。這表示有些物種有危險，但不是整體"
+            },
+            {
+              "kind": "paragraph",
+              "text": "WA 青蛙正在大規模消失。題目用 most，和原文 “although three…” 的範圍相容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C — Dr Speare",
+      "answerKey": "C — Dr Speare",
+      "type": "Matching Researchers",
+      "prompt": "“Frogwatch has greater potential for frog observation than the scientific community can achieve.”",
+      "translation": "Frogwatch 在青蛙觀察方面的潛力超過科學界單靠自己能做到的程度。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The nationwide spread of the chytrid fungus is being mapped by Dr Rick Speare, a specialist in amphibian disease at James Cook University.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "James Cook University 的兩棲動物疾病專家 Dr Rick Speare 正在繪製 chytrid fungus 在全國的分布圖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are a lot of eyes out there looking for dead or sick frogs, beyond the power of any biologist to collect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "外面有很多雙眼睛在尋找死青蛙或病青蛙，這超出任何生物學家能收集的力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是 Speare 對 Frogwatch 的正面評價。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“greater potential”"
+            },
+            {
+              "kind": "quote",
+              "text": "“frog observation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scientific community can achieve”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a lot of eyes out there”"
+            },
+            {
+              "kind": "quote",
+              "text": "“beyond the power of any biologist to collect”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Speare also tests the accuracy of Aplin’s fungus diagnoses and says Frogwatch is ‘an amazing and under-acknowledged system … the best program in Australia for harnessing public interest in frog biology…’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Speare 也測試 Aplin 真菌診斷的準確性，並說 Frogwatch 是「一個驚人但未被充分肯定的系統……是澳洲最能利用公眾對青蛙生物學興趣的計劃……」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are a lot of eyes out there looking for dead or sick frogs, beyond the power of any biologist to collect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "外面有很多雙眼睛在尋找死青蛙或病青蛙，這超出任何生物學家能收集的力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “greater potential … than the scientific community can achieve” 對應 “beyond the power of any biologist to collect”。Speare 強調公眾觀察網絡帶來大量眼睛和樣本，超出個別生物學家的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物是 Speare，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — for people to observe and collect information about frog populations for scientists.",
+      "answerKey": "B — for people to observe and collect information about frog populations for scientists.",
+      "type": "Multiple Choice",
+      "prompt": "“The main purpose of Frogwatch is …”",
+      "translation": "Frogwatch 的主要目的是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frogwatch, a remarkable success story that began in Western Australia, is the brainchild of Dr Ken Aplin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Frogwatch 是一個始於 Western Australia 的非凡成功故事，由 Dr Ken Aplin 構思出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through such a network, ordinary, untrained members of the community could learn about frog habitats, observe the numbers and types of frogs in their local area, and report this information to the museum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過這樣的網絡，普通、未受訓社區成員可以學習青蛙棲息地，觀察本地青蛙的數量和種類，並向博物館匯報資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 1 介紹 Frogwatch 的起源和核心用途。main purpose 題通常要回到開頭定義段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“main purpose”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Frogwatch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接寫 purpose，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“could help him keep track of frogs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“observe the numbers and types of frogs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“report this information to the museum”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是目的描述。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“He wondered if a community-based frog-monitoring network could help him keep track of frogs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他想知道，一個以社區為基礎的青蛙監測網絡，是否可以幫助他追蹤青蛙情況。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Through such a network, ordinary, untrained members of the community could learn about frog habitats, observe the numbers and types of frogs in their local area, and report this information to the museum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過這樣的網絡，普通、未受訓社區成員可以學習青蛙棲息地，觀察本地青蛙數量和種類，並向博物館匯報資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句清楚說明 Frogwatch 的主要目的：讓社區成員觀察青蛙族群資料，然後回報給 museum /scientists，使 Aplin 能 keep track of frogs。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “for people to collect and deliver dead or dying frogs to scientists.”這是後來 fungal disease alert 的特定任務。Paragraph 3 說 Aplin asked them to deliver dead or dying frogs，但那是應對真菌調查，不是 Frogwatch 一開始的 main purpose。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “for people to observe and collect information about frog populations for scientists.”正確。它對應 community-based frog-monitoring network、observe the numbers and types of frogs、report this information to the museum。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “for people to allow scientists onto their private land to look at frog habitats.”原文說 many frog habitats are on private land，社區支持很重要，但沒有說 Frogwatch 的主要目的在於讓科學家進入私人土地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “for people to set up ponds in their gardens as habitat for frogs.”這是 Aplin 後來提倡的 conservation strategy。frog-friendly habitats 和 backyard ponds 重要，但它不是 Frogwatch 的核心監測目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Frogwatch.pdf",
+    "sha256": "3b27a86a32aa924d1dbcefc4a657f2b9da34846d6c0406836fa729eea2156798",
+    "pageCount": 28
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句，這段介紹 Frogwatch 是 Western Australia 的成功故事，由 Dr Ken Aplin 發起。只看末句，段落最後說普通、未受訓社區成員可以學習 frog habitats、觀察本地青蛙數量和種類，並向museum 匯報。這段主要交代 Frogwatch 的起源和核心目的：建立 community-based frog-monitoring network。Questions 1 和 13 很可能用到這段，因為 training、observe、report information 全在這裡。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Frogwatch 於 1995 年推出，最近已有第 3,221 位會員。末句說科學家懷疑澳洲的真菌可能源自海外，或許來自 South America，當地青蛙曾因相似真菌大量死亡。這段功能是交代Frogwatch 的發展規模和會員增加原因：一種神秘寄生真菌病正在全國攻擊青蛙。題目若問membership、fungal disease、overseas origin、South America，可先定位這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Western Australia 的研究人員需要知道感染在州內青蛙族群中有多廣泛。末句說 Aplin曾以為真菌只是一兩年前到達 WA，但測試顯示它自 late 1980s 已在當地存在。這段主要講Frogwatch 如何協助真菌調查：Aplin 向會員發出 F-file alert，要求送交死去或垂死青蛙。 Questions 4 和 5 都很可能看這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Frogwatch 已證明自己是連接公眾的有效橋樑，Aplin 也完全相信 community participation。末句說許多青蛙棲息地位於私人土地上，沒有社區支持，monitoring frogs 會不可能。這段功能是解釋為何 Aplin 重視擴大 Frogwatch 網絡：museum 資源有限，不能單靠專業人員監察青蛙。community support、professional resources、private land 是定位重點。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說並非人人都被 Frogwatch 的 “feel-good” popularity 說服。末句說 Roberts 承認計劃激發公眾對青蛙的熱情，但警告 strong public awareness 不等於 sound science。這段開始引入反方意見：Dr Dale Roberts 質疑 Frogwatch 的科學有效性。Aplin 相信 backyard ponds 有助增加青蛙數量，但 Roberts 對此保留。Questions 7 和 8 都會用到這種人物對比。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Roberts 認為公眾寄來大量觀察報告是好事，但把這些報告當成 credible 未必具科學效度。末句說即使真菌造成高死亡率，他仍能在澳洲西南找到過去十年記錄過的每個青蛙物種。這段集中呈現 Roberts 的質疑：公眾數據未必可靠，真菌警告可能過度，死亡或由乾旱和遲來暴雨等因素造成。Questions 7 和 10 主要靠這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Roberts 認為 Western Australia 情況不同。末句說 Perth 的花園池塘無法幫助三種瀕危西南物種，因為牠們生活在孤立且面對發展壓力的棲息地。這段延續 Roberts 的觀點：WA 的青蛙消失情況不像 Queensland 和 New South Wales，而且仍有新物種被發現。Question 6 和Question 11 會用到這段，尤其 species still being discovered。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Aplin 的回應是，增加 frog-friendly habitats 很重要，正因許多 WA 青蛙物種分布在很小、很受限制的位置。末句說疾病長遠可能自然平衡，但短期負面影響已經明顯。這段是 Aplin 對Roberts 的反駁：pesticide-free gardens 和 ponds 可提升存活機會；未知風險仍應採取precautionary principle。Questions 8 和 9 的 Aplin 觀點都在這裡。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Dr Rick Speare 正在繪製 chytrid fungus 在全國的分布圖。末句說有很多人在外尋找死青蛙或病青蛙，這超出任何生物學家個人可收集的力量。這段主要呈現 Speare 對 Frogwatch 的肯定：他驗證 Aplin 的真菌診斷，並稱 Frogwatch 是澳洲最能 harness public interest in frog biology的計劃。Question 12 直接來自這段。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 Aplin 認為永遠不應低估 community base 的重要性，尤其在政府想削減研究經費時。末句說普通人似乎意識到青蛙是環境健康的指標。這段是全文總結，把 Frogwatch 從科學監測擴展到社會現象和環保動員。Aplin 強調 community involvement fundamental，因為公眾能用科學家難以做到的方式抗議、支持研究和關注環境問題。"
+      }
+    ]
+  }
+}

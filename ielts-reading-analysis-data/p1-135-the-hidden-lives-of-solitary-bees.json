@@ -1,0 +1,2469 @@
+{
+  "id": "p1-135-the-hidden-lives-of-solitary-bees",
+  "catalogueId": "p1-135",
+  "catalogueIds": [
+    "p1-135"
+  ],
+  "passage": 1,
+  "title": "The hidden lives of solitary bees",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "D",
+    "B",
+    "A",
+    "D",
+    "A",
+    "A",
+    "B",
+    "cells",
+    "grubs",
+    "parcel",
+    "mud",
+    "rare"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C — should be appreciated much more widely.",
+      "answerKey": "C — should be appreciated much more widely.",
+      "type": "Multiple Choice",
+      "prompt": "“Ian Beavis and Richard Lewington both believe that solitary bees…”",
+      "translation": "Ian Beavis 和 Richard Lewington 都認為 solitary bees……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目控制詞是 “both believe”，所以答案必須同時符合 Ian Beavis 和Richard Lewington。只符合其中一人，或只是文章背景資料，都不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ian Beavis is a naturalist and blogger with a mission to raise the profile of the many solitary bees, whose pollinating services are so important, yet so little recognised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ian Beavis 是自然學家和博客作者，他有一個使命：提升眾多 solitary bees 的知名度；牠們的授粉服務非常重要，卻很少受到認可。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, amazingly, is the first book of its kind to be published for over a century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人驚訝的是，這是超過一個世紀以來第一本同類書籍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 3 主要處理兩件事：第一，solitary bees 很重要但大眾認識不足；第二，Richard Lewington 的新 guidebook 旨在填補認識和辨認上的空白。題目同時出現 Ian Beavis 和 Richard Lewington，因此 Paragraph 3 是最合理目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ian Beavis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Richard Lewington”"
+            },
+            {
+              "kind": "quote",
+              "text": "“both believe”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 3，可以找到 Ian Beavis 的立場："
+            },
+            {
+              "kind": "quote",
+              "text": "“with a mission to raise the profile of the many solitary bees”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的使命是提高眾多 solitary bees 的知名度。"
+            },
+            {
+              "kind": "label",
+              "text": "再找到 Richard Lewington 的立場："
+            },
+            {
+              "kind": "quote",
+              "text": "“I wanted to help publicise their vital role in our lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我想幫助宣傳牠們在我們生活中的重要角色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ian Beavis 的關鍵短語是 “raise the profile”。profile 在這裡指知名度、受關注程度。raise the profile 即「提高知名度」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Richard Lewington 的關鍵短語是 “publicise their vital role”。publicise 是「宣傳、讓更多人知道」； vital role 是「重要角色」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩人的共同點非常清楚：solitary bees 的重要性沒有被充分認識，所以需要提高公眾關注。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “are as interesting as many butterfly species.”文章說 Richard Lewington 以畫 butterflies 聞名，但沒有說兩人都認為 solitary bees 和butterflies 一樣有趣。這是人物背景詞造成的干擾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “have an extremely varied range of habitats.”文章確實列出 gardens, parks, woodlands, fields and cliffs，但這只是 solitary bees 的棲息地資料，沒有表達兩人的共同信念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “should be appreciated much more widely.”正確。Ian Beavis 想 raise the profile；Richard Lewington 想 publicise their vital role。兩者都指向「應該得到更廣泛重視」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “are valued by many gardeners.” Richard Lewington 說 solitary bees useful to gardeners，但 Ian Beavis 的句子沒有說 many gardeners already value them。這個選項只貼近部分內容。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 / 選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“should be appreciated much more widely”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“raise the profile”"
+            },
+            {
+              "kind": "quote",
+              "text": "“so important, yet so little recognised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“publicise their vital role”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： raise the profile = 提高關注度so little recognised = 尚未得到足夠認可publicise their vital role = 向大眾宣傳重要性所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選 D，因為原文有 gardeners。可是題目要找 Ian Beavis 和 Richard Lewington 的共同信念；gardeners 只出現在 Richard 的說話中。看到 “both” 時，要檢查兩個人都有沒有相同方向的證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "D — It had been so long since a similar guide was produced.",
+      "answerKey": "D — It had been so long since a similar guide was produced.",
+      "type": "Multiple Choice",
+      "prompt": "“What does the writer find surprising about the new book on bees?”",
+      "translation": "作者覺得這本新的蜜蜂書有甚麼令人驚訝？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 writer finds surprising，不是問書本本身有甚麼內容，也不是問 Richard Lewington 為甚麼寫書。定位時要找作者語氣詞，例如 “amazingly”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ian Beavis is a naturalist and blogger with a mission to raise the profile of the many solitary bees, whose pollinating services are so important, yet so little recognised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ian Beavis 是自然學家和博客作者，他的使命是提高 solitary bees 的知名度；牠們授粉服務很重要，卻很少被認可。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, amazingly, is the first book of its kind to be published for over a century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人驚訝的是，這是超過一個世紀以來第一本同類書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 3 後半會講新 guidebook。最後一句的 “amazingly” 正好對應題目 “find surprising”，所以答案大概率在段落最後。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“surprising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new book”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bees”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應最強的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, amazingly, is the first book of its kind to be published for over a century.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “amazingly” 直接表達作者驚訝。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first book of its kind to be published for over a century”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過一個世紀以來出版的第一本同類書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點有兩個：第一，這本書不是普通新書，是 “first book of its kind”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，相隔時間很長，是 “for over a century”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者驚訝的地方在於：solitary bees 這麼重要，卻已超過一百年沒有同類 guidebook 出版。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “It includes such a wide range of species.”原文提到 more than 240 species，這解釋 identification problem，但 “amazingly” 並非指物種範圍廣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Some of the species in it are hard to differentiate.”文章說 problem of identification，但沒有說作者驚訝於物種難分辨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Richard Lewington gave up his main work to write it.”原文說他 spent his spare time，意思是用空餘時間寫，沒有說放棄主要工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “It had been so long since a similar guide was produced.”正確。這正好對應 “first book of its kind … for over a century”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“had been so long since a similar guide was produced”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first book of its kind to be published for over a century”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： first book of its kind = 同類 guide 很久沒有出現for over a century = 已超過一百年published / produced = 出版、製作出來所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 B 都與新書背景有關，但題目問的是作者 “find surprising”。真正帶路的字是 “amazingly”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "看到語氣詞時，要優先把它附近的句子細讀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B — may suffer more from pesticides than social bees.",
+      "answerKey": "B — may suffer more from pesticides than social bees.",
+      "type": "Multiple Choice",
+      "prompt": "“Beth Nicholls explains that red mason bees…”",
+      "translation": "Beth Nicholls 解釋 red mason bees……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Beth Nicholls 對 red mason bee 的說法。定位詞是 “Beth Nicholls” 和 “red mason bees”。四個選項都在比較研究、農藥、飛行期或 honeybees，因此要讀 Beth Nicholls 所在段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pesticides can also pose a threat to solitary bees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農藥也可能對 solitary bees 構成威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The social bees’ method is much ‘tidier’, so once they have collected the pollen and tucked it away behind their legs, it won’t be dropped.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "social bees 的方法整潔得多；牠們一旦收集花粉並把花粉藏在後腿後面，花粉就不會掉落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 8 會有兩個重點：前半講 pesticide threat，後半講 red mason bee 的授粉方式。Question 3 出現 pesticides / red mason bees，很明顯應定位前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beth Nicholls”"
+            },
+            {
+              "kind": "quote",
+              "text": "“red mason bee”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pesticides”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the University of Sussex in England, Beth Nicholls is conducting research into the effects of certain pesticides on the red mason bee.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在英格蘭 Sussex 大學，Beth Nicholls 正研究某些農藥對 red mason bee 的影響。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“We know that pesticides harm social bees, but very little research has been done into solitary bees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們知道農藥會傷害 social bees，但對 solitary bees 的研究很少。"
+            },
+            {
+              "kind": "label",
+              "text": "再接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“But if the shorter flight period of solitary bees—the red mason bee only flies from March to May—coincides with peak pesticide levels, that might be disastrous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果 solitary bees 較短的飛行期——red mason bee 只在三月至五月飛行——剛好遇上農藥水平高峰，那可能是災難性的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Beth Nicholls 先建立比較： social bees：已知道 pesticides harm social bees solitary bees：very little research red mason bee：flight period shorter, March to May關鍵推論在最後一句。因為 red mason bee 飛行期短，如果那段時間剛好遇上 peak pesticide levels，牠們可能受害很嚴重。這支持 “may suffer more from pesticides than social bees”。選項用了 may，語氣保守，和原文 “might be disastrous” 一致。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “have been studied more extensively than other bees.”原文方向相反。Beth Nicholls 說 very little research has been done into solitary bees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “may suffer more from pesticides than social bees.”正確。red mason bees 飛行期短，若撞上農藥高峰，後果可能更嚴重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “have an advantage because of when they fly.”原文把飛行期短描述成潛在風險，不是 advantage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “have certain similarities with honeybees.”這題所在證據把 honeybees / social bees 和 solitary bees 對比，重點不在相似性。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“may suffer more from pesticides”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“if the shorter flight period … coincides with peak pesticide levels, that might be disastrous”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： might be disastrous = 可能造成嚴重傷害shorter flight period + peak pesticide levels = 更集中暴露於高風險時段pesticides harm social bees = 比較背景所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易吸引人，因為 Beth Nicholls 正在做 research。但原文說的是她正在研究，不代表 red mason bees 已經被大量研究。題目中的 “more extensively” 和原文 “very little research” 方向不合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A — They regularly lose some of the pollen they are carrying.",
+      "answerKey": "A — They regularly lose some of the pollen they are carrying.",
+      "type": "Multiple Choice",
+      "prompt": "“Why does Beth Nicholls consider red mason bees valuable pollinators?”",
+      "translation": "Beth Nicholls 為甚麼認為 red mason bees 是有價值的授粉者？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問原因。定位詞是 “valuable pollinators”，原文可能用 efficient、pollinating、pollen transferred 這一組同義詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pesticides can also pose a threat to solitary bees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農藥也可能對 solitary bees 構成威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The social bees’ method is much ‘tidier’, so once they have collected the pollen and tucked it away behind their legs, it won’t be dropped.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "social bees 的方法整潔得多；一旦花粉被收集並藏在後腿後面，便不會掉落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 8 的後半在比較 red mason bees 和 social bees 的 carrying pollen method。Question 4 問 valuable pollinators，所以應看 Beth Nicholls 談 orchard trees 和pollen transfer 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“valuable pollinators”"
+            },
+            {
+              "kind": "quote",
+              "text": "“red mason bees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“why”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Beth Nicholls, it is much more efficient at pollinating orchard trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Beth Nicholls 表示，red mason bee 在為果園樹木授粉方面效率高得多。"
+            },
+            {
+              "kind": "label",
+              "text": "接著解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a messier way of transporting it, and so more pollen is transferred to other flowers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種較凌亂的運送方式，因此更多花粉會轉移到其他花朵上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先比較花粉攜帶位置： social bees：carry pollen in “baskets” on their back legs female red mason bee：carries it on the underside of her abdomen接著說 red mason bee 的方式是 “messier”。messier 不代表差；在授粉語境中，這反而讓更多pollen 轉移到其他 flowers。花粉在運送過程中較容易接觸、掉落或沾到其他花，因此授粉效率更高。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “They regularly lose some of the pollen they are carrying.”正確。這概括了 “messier way” 和 “more pollen is transferred to other flowers”。regularly lose some pollen 的意思就是花粉較容易在拜訪花朵時轉移出去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “They transport pollen with great care.”這是 social bees 的 tidy method，不符合 red mason bee。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Their pollination season is longer than that of social bees.”原文說 red mason bee only flies from March to May，飛行期較短。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “The females collect most of the pollen.”原文只說 female red mason bee 把花粉帶在腹部下方，沒有說雌蜂收集「大部分」花粉。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“lose some of the pollen they are carrying”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a messier way of transporting it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more pollen is transferred to other flowers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： messier way = 花粉較容易散落或接觸其他表面transferred to other flowers = 花粉被帶到其他花朵valuable pollinators = pollinating orchard trees more efficiently所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 最具迷惑性，因為 “transport pollen with great care” 聽起來像優點。但在這篇文章中，授粉效率高的原因正是 carrying method 不夠 tidy。越整潔，花粉越不容易掉到其他花上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D — Lasioglossum malachurum",
+      "answerKey": "D — Lasioglossum malachurum",
+      "type": "Matching Features",
+      "prompt": "“Some members of this species have started to contribute more to the care of the young.”",
+      "translation": "這個物種中有些成員已開始更多參與照顧幼蟲或後代。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。題目定位詞是 “care of the young”，原文可能用 grubs 或 worker bees sharing care。要找對應哪一種 solitary bee。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The discoveries about ivy bees show how rewarding the study of solitary bees can be, but the ivy bee is not the only species whose habits are changing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 ivy bees 的發現顯示研究 solitary bees 可以很有收穫，但 ivy bee 不是唯一一種習性正在改變的物種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bees that nest socially are targets for predators, diseases and parasites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以社會方式築巢的蜜蜂會成為捕食者、疾病和寄生物的目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段談 solitary bees 的 changing habits，尤其是由 individual nesting 走向social nesting 的可能。題目提到 care of the young，所以應找 social behaviour 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“care of the young”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contribute more”"
+            },
+            {
+              "kind": "quote",
+              "text": "“members of this species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s not difficult to see how this behaviour, which could be seen as the foundation of social behaviour, might evolve in the future into worker bees sharing care of the grubs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不難想像，這種可被視為社會行為基礎的行為，未來可能演化成工蜂共同照顧幼蟲。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, some of Britain’s solitary bees, Lasioglossum malachurum for example, are already demonstrating this type of social behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，英國某些 solitary bees，例如 Lasioglossum malachurum，已經展示這類社會行為。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “young” 對應原文 “grubs”。grubs 是蜂的幼蟲。題目中的 “started to contribute more to the care” 對應 “worker bees sharing care of the grubs”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先提出可能演化方向：worker bees 共同照顧幼蟲。下一句用 “Indeed” 表示進一步確認，說Lasioglossum malachurum 已經展示這類 social behaviour。因此答案不是 Andrena scotica。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“care of the young”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“care of the grubs”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some members … have started to contribute more”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“worker bees sharing care”"
+            },
+            {
+              "kind": "quote",
+              "text": "“already demonstrating this type of social behaviour”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： List 中對應物種是 D — Lasioglossum malachurum。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Andrena scotica 也在同段出現，並且 “several bees use the same entrance without becoming aggressive”。可是 shared entrance 只說牠們共用入口，沒有說共同照顧幼蟲。care of the young要看 grubs，不要只看到 social behaviour 就急著配 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A — The banded mining bee",
+      "answerKey": "A — The banded mining bee",
+      "type": "Matching Features",
+      "prompt": "“This species avoids areas covered with vegetation when selecting nest sites.”",
+      "translation": "這個物種選擇築巢地點時，會避開有植物覆蓋的地方。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “avoids areas covered with vegetation” 和 “nest sites”。原文可能不直接寫 vegetation，而會寫 bare earth、plant roots。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While some bees are plentiful and widespread, others have been designated as rare or are very local in distribution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些蜜蜂數量多且分布廣，但另一些被列為罕見，或分布範圍非常局部。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Females feed on a variety of plants, but seem particularly fond of yellow dandelions that bloom from spring to autumn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌蜂會吃多種植物，但似乎特別喜歡從春天到秋天開花的黃色蒲公英。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 5 介紹一種比較罕見的 bee，並包含分布、築巢和取食資料。題目問 nest sites，應掃描此段的 nesting 句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“nest sites”"
+            },
+            {
+              "kind": "quote",
+              "text": "“vegetation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“avoids”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“An impressive species with white hairs on its face, the banded mining bee nests in the ground, typically on steep banks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "banded mining bee 是一種令人印象深刻的蜜蜂，臉上有白毛，在地面築巢，通常在陡斜的土坡上。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ian Beavis explains that it always chooses bare earth because it doesn’t like having to eat through plant roots to make its nest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ian Beavis 解釋，牠總是選擇裸露泥土，因為牠不喜歡築巢時要咬穿植物根部。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 avoids areas covered with vegetation。原文沒有直接寫 vegetation，但 “bare earth” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“plant roots” 已經建立對應。 bare earth = 沒有植物覆蓋的裸土plant roots = 植被覆蓋區域地下會有的根部doesn’t like having to eat through plant roots = 避免有植物根部的地方選項 A 是 the banded mining bee，與原文句主語完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“avoids areas covered with vegetation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“always chooses bare earth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“doesn’t like having to eat through plant roots”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： areas covered with vegetation = 有植物和根部的地方bare earth = 裸露泥土selecting nest sites = make its nest所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有寫 bare earth，但這正是答案詞。Summary 和 Matching 題常把具體詞轉成概括詞： vegetation 對應 plant roots；avoid vegetation 對應 choose bare earth。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — The banded mining bee",
+      "answerKey": "A — The banded mining bee",
+      "type": "Matching Features",
+      "prompt": "“This species has a favourite flower on which it feeds.”",
+      "translation": "這個物種有一種特別喜歡取食的花。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “favourite flower” 和 “feeds”。原文可能用 “particularly fond of” 表達 favourite。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While some bees are plentiful and widespread, others have been designated as rare or are very local in distribution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些蜜蜂數量多且分布廣，但另一些被列為罕見，或分布很局部。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Females feed on a variety of plants, but seem particularly fond of yellow dandelions that bloom from spring to autumn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌蜂會吃多種植物，但似乎特別喜歡從春天到秋天開花的黃色蒲公英。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句已經可見 feed 和 particularly fond of。這段顯然包含某一物種的食物偏好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“favourite flower”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feeds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Females feed on a variety of plants, but seem particularly fond of yellow dandelions that bloom from spring to autumn.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 Females，指前文的 banded mining bee females。牠們不是只吃一種植物，因為原文說 “a variety of plants”。但 “particularly fond of yellow dandelions” 表示特別喜歡 yellow dandelions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 favourite flower，是對 “particularly fond of yellow dandelions” 的概括。因為 dandelion 是flower，而且 “particularly fond of” 就是喜好程度較高。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has a favourite flower on which it feeds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“feed on a variety of plants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particularly fond of yellow dandelions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： favourite = particularly fond of flower = yellow dandelions feeds = feed on答案是 A — The banded mining bee。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 favourite flower，但原文同時說 “a variety of plants”。這不衝突。牠們可以吃多種植物，同時特別偏好其中一種。IELTS 很常考這種「general diet + particular preference」的搭配。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — The ivy bee",
+      "answerKey": "B — The ivy bee",
+      "type": "Matching Features",
+      "prompt": "“This species has been found in Britain only in the past few years.”",
+      "translation": "這個物種只是近年才在英國被發現或建立族群。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “found in Britain” 和 “past few years”。原文可能用 establish themselves in Britain、recent warmer winters。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another bee that has attracted naturalists’ attention is the ivy bee.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種吸引自然學家注意的蜜蜂是 ivy bee。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“About the same size as a honeybee, with distinctive orange-yellow banding on its abdomen, it was initially thought to feed only on ivy, but has since been seen visiting other plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠大小約等於 honeybee，腹部有明顯橙黃色條紋；最初被認為只吃 ivy，但後來也被看見拜訪其他植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段介紹 ivy bee 的身份、外貌和食性。題目問 found in Britain only in past few years，需要看中間與 “Britain” 和 “recent” 相關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“past few years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“found”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is one of a number of bees that have been able to establish themselves in Britain due to the recent warmer winters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠是若干種由於近年冬季變暖而能夠在英國建立族群的蜜蜂之一。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“establish themselves in Britain” 表示在英國建立族群、穩定出現。題目 “has been found in Britain only in the past few years” 用較簡單的方式概括這個意思。“recent warmer winters” 提供時間線索，對應 “only in the past few years”。這句主語 “It” 指 ivy bee，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has been found in Britain only in the past few years”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“have been able to establish themselves in Britain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recent warmer winters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： found in Britain = established in Britain / recorded as present in Britain past few years = recent this species = the ivy bee所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段還有 “identified as a distinct species in 1993”。這句說的是被確認為獨立物種的時間，不完全等同於「在英國近年才建立族群」。真正對應 Britain 的句子是 establish themselves in Britain due to recent warmer winters。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "cells",
+      "answerKey": "cells",
+      "type": "Summary Completion",
+      "prompt": "“Female solitary bees make their nests with separate 9 ______ where individual eggs are deposited.”",
+      "translation": "雌性 solitary bees 會築巢，巢中有分開的 ______，個別卵會被放在其中。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 separate，後面有 where individual eggs are deposited，因此空格需要一個複數名詞，表示巢內放卵的空間或結構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do solitary bees live?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "solitary bees 如何生活？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emerging grubs eat, grow and develop into adults the following year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孵出的幼蟲會進食、成長，並在翌年發育成成蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 4 是 life cycle 段。題目標題 “The Life of the Solitary Bee” 和段落首句完全對應，所以 Questions 9–12 主要應在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“female solitary bee”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“individual eggs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A female solitary bee constructs a nest and then lays her eggs in individual cells…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一隻雌性 solitary bee 會建造一個巢，然後把卵產在個別的 cells 中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “individual cells” 對應題目 “separate ______ where individual eggs are deposited”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “lays her eggs” 改成 “eggs are deposited”。deposited 是被動寫法，意思是「被放置、被產下」。原文直接提供答案 cells。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查： separate cells where individual eggs are deposited cells 是複數名詞，符合 separate 和後面 individual eggs 的語境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 cells。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 nest。題目已經有 “make their nests”，空格問的是巢內分隔出來、放置個別 eggs 的單位。原文答案是 cells。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "grubs",
+      "answerKey": "grubs",
+      "type": "Summary Completion",
+      "prompt": "“Females try to ensure the survival of all their 10 ______.”",
+      "translation": "雌蜂會盡力確保牠們所有 ______ 能夠存活。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “all their”，所以需要複數名詞。下一句說 “They do this by providing suitable food”，因此答案應該是接受食物、需要存活的幼體。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do solitary bees live?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "solitary bees 如何生活？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emerging grubs eat, grow and develop into adults the following year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孵出的幼蟲會進食、成長，並在翌年發育成成蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已提示這段會說明從 eggs 到 grubs 再到 adults 的過程。題目提到 survival 和 food，應看雌蜂為幼體準備食物的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“survival”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all their”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The female leaves what naturalists call a ‘parcel’ of pollen and nectar for each of her little grubs to feed on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌蜂會為每一隻小幼蟲留下自然學家所稱的 pollen and nectar “parcel”，供牠們取食。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正接受食物的是 “her little grubs”。雌蜂提供 pollen and nectar 的目的，就是讓 grubs 有食物可吃，能繼續成長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “ensure the survival of all their ______”，原文說 “for each of her little grubs to feed on”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "each 對應 all；little grubs 對應 young offspring。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案需從文章取一個詞，且 ONE WORD ONLY，因此填 grubs。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“ensure the survival of all their grubs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“for each of her little grubs to feed on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： all their = each of her survival = feed on pollen and nectar, then grow young = grubs所以答案是 grubs。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "eggs 也出現在前一句，但食物 parcel 是留給 grubs 取食，不是留給 eggs 取食。空格後一句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“providing suitable food” 幫我們排除 eggs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "parcel",
+      "answerKey": "parcel",
+      "type": "Summary Completion",
+      "prompt": "“They do this by providing suitable food in what is referred to as a 11 ______.”",
+      "translation": "牠們透過提供合適食物來做到這一點；這些食物被稱為一個 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有冠詞 a，所以答案應是單數可數名詞。題目中的 “referred to as” 對應原文 “call”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do solitary bees live?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "solitary bees 如何生活？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emerging grubs eat, grow and develop into adults the following year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孵出的幼蟲會進食、成長，並在翌年發育成成蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是描述 female solitary bee 如何安排巢、卵、食物和幼蟲成長。Question 11 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“providing suitable food” 明顯來自這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“providing suitable food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“referred to as”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The female leaves what naturalists call a ‘parcel’ of pollen and nectar for each of her little grubs to feed on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌蜂會留下自然學家所稱的一份 pollen and nectar “parcel”，供每隻小幼蟲取食。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “what naturalists call a ‘parcel’” 對應題目 “what is referred to as a ______”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 pollen and nectar 概括成 “suitable food”。真正被稱為 parcel 的不是 pollen 一個詞，也不是 nectar 一個詞，而是那份由 pollen and nectar 組成、留給幼蟲的食物包。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查： a parcel符合冠詞 a，也符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“referred to as”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“call”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“providing suitable food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“leaves … pollen and nectar … to feed on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 parcel。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 pollen 或 nectar。題目問的是「這份食物被稱作甚麼」，原文稱呼是 parcel。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "mud",
+      "answerKey": "mud",
+      "type": "Summary Completion",
+      "prompt": "“Solitary bees use a range of substances to make their nests comfortable and secure, such as plant material or 12 ______.”",
+      "translation": "solitary bees 會用不同材料讓巢更舒適和安全，例如植物材料或 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “plant material or”，所以答案應是另一種築巢材料。題目把不同 species 的 nest-lining/ sealing material 做了概括。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do solitary bees live?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "solitary bees 如何生活？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The emerging grubs eat, grow and develop into adults the following year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孵出的幼蟲會進食、成長，並在翌年發育成成蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段包含築巢細節，因此題目中的 substances / plant material 應定位在 describing nest materials 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“substances”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plant material”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nests”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A female solitary bee constructs a nest and then lays her eggs in individual cells, lining or sealing them with various materials depending on the species of bee—red mason bees use mud; leafcutter bees use sections of leaf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌性 solitary bee 會建造巢，然後把卵產在個別 cell 中，並按物種不同，用不同材料為這些 cell鋪襯或封口——red mason bees 使用 mud；leafcutter bees 使用葉片部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “plant material” 對應 “sections of leaf”。leaf 是植物材料。另一個例子是 red mason bees use mud，因此空格應填 mud。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查： plant material or mud mud 是不可數名詞，一個詞，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a range of substances”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“various materials”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“plant material”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“sections of leaf”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“or ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“red mason bees use mud”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 mud。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "leaf 也可作答案詞的一部分，但題目已經用 plant material 概括 leaf，所以空格要填另一個材料mud。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "rare",
+      "answerKey": "rare",
+      "type": "Summary Completion",
+      "prompt": "“Although some solitary bees are common, certain species are thought to be 13 ______.”",
+      "translation": "雖然有些 solitary bees 很常見，但某些物種被認為是 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前 “to be” 後面需要形容詞。題目中的 common 對應原文 plentiful and widespread，因此空格應找相反或對比特徵。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While some bees are plentiful and widespread, others have been designated as rare or are very local in distribution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些蜜蜂數量多且分布廣，但另一些被列為罕見，或分布範圍非常局部。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Females feed on a variety of plants, but seem particularly fond of yellow dandelions that bloom from spring to autumn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌蜂會吃多種植物，但似乎特別喜歡從春天到秋天開花的黃色蒲公英。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，已經看到 “some bees” 與 “others” 的對比。題目 “Although some solitary bees are common…” 很明顯來自這句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“common”"
+            },
+            {
+              "kind": "quote",
+              "text": "“certain species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“thought to be”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“While some bees are plentiful and widespread, others have been designated as rare or are very local in distribution.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 “plentiful and widespread” 對應 summary 的 “common”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“others have been designated as rare” 對應 “certain species are thought to be rare”。這裡 “designated as” 意思是被列為、被認定為，和 “thought to be” 意思接近。文法檢查： to be rare rare 是形容詞，一個詞，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“some solitary bees are common”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“some bees are plentiful and widespread”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“certain species are thought to be”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“others have been designated as”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：rare"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 rare。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "local 也出現在同一句，但 summary 下一句已說 “others are much more geographically restricted”，這正好對應 “very local in distribution”。因此 Question 13 應填 rare，讓後一句再處理分布受限。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The hidden lives of solitary bees.pdf",
+    "sha256": "72671b0e9bebd093c5333b7d8025a0402879b15c26fb6378ede07616c93eb017",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說英國和愛爾蘭共有 275 種不同蜜蜂。末句把 familiar honeybee、25 種 bumblebee 和其餘solitary bees 分開。只看首尾句，可以先估計這段是分類導入：文章會由讀者熟悉的 honeybee /bumblebee 轉向較少人認識的 solitary bees。段落功能很清楚：建立數量背景，指出 solitary bees其實佔了大多數，是後文主角。"
+      },
+      {
+        "number": "2",
+        "summary": "首句直接說 solitary bees 不同於 social honeybees and bumblebees。末句說牠們交配後，雄蜂死亡，雌蜂築巢。只看首尾句，可見這段會比較 social bees 和 solitary bees 的生活方式。重點應在 colony、queen、workers 和 males / females 的差異。這段幫讀者建立基本概念：solitary bees的繁殖和築巢由雌蜂個體完成。"
+      },
+      {
+        "number": "3",
+        "summary": "首句介紹 Ian Beavis，他想提高 solitary bees 的知名度。末句說 Richard Lewington 的新 guide是一百多年來第一本同類書。只看首尾句，可以估計這段主要講 public awareness 和identification problem。段中會出現兩位人物的共同立場：solitary bees 很重要，但大眾認識不足；也會解釋為何需要新 guidebook。"
+      },
+      {
+        "number": "4",
+        "summary": "首句用問題 “How do solitary bees live?” 開始，明顯轉入生活史。末句說幼蟲翌年會吃、成長，發育成成蟲。只看首尾句，可估計這段會順序描述 female solitary bee 的築巢、產卵、提供食物、死亡、幼蟲成長。這段是 Summary Completion 的核心段，因為它有 cells、parcel、pollen、nectar、mud、leaf 等具體名詞。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說有些蜂普遍分布，有些則 rare 或 local。末句說雌性 banded mining bee 會吃多種植物，但特別喜歡 yellow dandelions。只看首尾句，可見這段會介紹一種罕見蜂，即 banded mining bee，並說明牠的外貌、築巢地點和取食偏好。這段很適合處理 matching 題中的 nest site、bare earth、plant roots、favourite flower。"
+      },
+      {
+        "number": "6",
+        "summary": "首句介紹另一種受自然學家關注的 ivy bee。末句說牠最初被認為只吃 ivy，但後來也被看見拜訪其他植物。只看首尾句，可估計這段會介紹 ivy bee 的發現、辨認、外貌和食性變化。中間提到1993、warmer winters、establish themselves in Britain，所以和「近年才在英國建立族群」這類題目有關。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 ivy bee 的發現顯示研究 solitary bees 很有收穫，但不只 ivy bee 的習性正在改變。末句提醒 social nesting 也有風險，因為容易成為 predators、diseases、parasites 的目標。只看首尾句，可估計這段討論 solitary bees 行為變化，尤其是由 solitary 走向 social behaviour 的可能性。 Andrena scotica 和 Lasioglossum malachurum 會是重要定位詞。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 pesticides 也會威脅 solitary bees。末句比較 social bees 的 pollen-carrying method 較tidy，花粉收好後不易掉落。只看首尾句，可見這段集中處理 Beth Nicholls 對 red mason bee 的研究：pesticide risk、short flight period、orchard pollination、pollen transport。這段同時回答 MCQ中 red mason bees 是否更易受農藥影響，以及為何牠們是有價值的 pollinators。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 solitary bees are all around us。末句說我們需要在太遲之前開始關注牠們。只看首尾句，這段是文章結尾，語氣由科學介紹轉向提醒和呼籲。它總結前文：solitary bees 數量多、授粉重要、行為有趣，也面對農藥和生態風險。這段通常不藏具體填空答案，功能主要是收束主旨。"
+      }
+    ]
+  }
+}

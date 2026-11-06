@@ -1,0 +1,1766 @@
+{
+  "id": "p2-163-crisis-freshwater",
+  "catalogueId": "p2-163",
+  "catalogueIds": [
+    "p2-163"
+  ],
+  "passage": 2,
+  "title": "Crisis! freshwater",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "H",
+    "I",
+    "D",
+    "H",
+    "E",
+    "physical",
+    "capture or storage",
+    "blue-water sources"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“The outlook for worldwide freshwater demand is unclear.”",
+      "translation": "全球淡水需求的前景並不清楚。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目問的是「全球淡水需求未來走勢是否不清楚」。判斷重點在 unclear，因為它控制整句方向。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As in New Delhi and Phoenix, policymakers worldwide wield great power over how water resources are managed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如在新德里和鳳凰城一樣，世界各地的政策制定者對水資源如何管理擁有很大權力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wise use of such power will become increasingly important as the years go by because the world’s demand for freshwater is currently overtaking its ready supply in many places, and this situation shows no sign of abating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著歲月過去，明智使用這種權力會變得愈來愈重要，因為世界對淡水的需求目前正在許多地方超過其可即時供應量，而且這種情況沒有減弱跡象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph A 是全文開場，功能是說明水資源管理的重要性和淡水需求壓力。這段已經明確交代 demand 正在 overtaking supply，並且 no sign of abating，所以很適合回答題目中的 outlook。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “outlook”、“worldwide freshwater demand” 和 “unclear”。原文未必用outlook，但會用未來趨勢字眼，例如 “will become”、“as the years go by”、“no sign of abating”。掃描 Paragraph A，可以找到 “the world’s demand for freshwater is currently overtaking its ready supply” 和 “shows no sign of abating”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the world’s demand for freshwater is currently overtaking its ready supply in many places, and this situation shows no sign of abating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界對淡水的需求目前正在許多地方超過可即時供應量，而且這種情況沒有減弱跡象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the world’s demand for freshwater”。核心動詞是 “is currently overtaking”，表示需求正在超越供應。最後的 “shows no sign of abating” 表示這種情況看不到緩和跡象。題目說outlook is unclear，但原文給出的方向其實相當清楚：需求壓力正在增加或至少持續，並未顯示會緩和。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“outlook … is unclear”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“currently overtaking its ready supply”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shows no sign of abating”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： unclear = 前景不明no sign of abating = 趨勢沒有緩和跡象兩者方向相衝，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能被 “in many places” 迷惑，以為原文只談部分地區，因此不能判斷 worldwide。可是原文主體是 “the world’s demand for freshwater”，再補充 “in many places” 說明這個全球趨勢在哪些地方已經明顯出現。題目真正錯在 unclear，而原文已給出清楚方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“General awareness of the problem has partly eased the freshwater challenge.”",
+      "translation": "人們普遍知道這個問題，已經在某程度上緩和了淡水挑戰。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 awareness 和 eased 之間的因果關係。題目說「知道問題」帶來「部分緩和」。只要原文明確說即使知道也沒有減輕問題，答案便是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That the problem is well-known makes it no less disturbing: today more than a billion people—one in six worldwide—lack adequate access to safe freshwater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個問題廣為人知，但這並沒有令它少一點令人不安：今天超過十億人，即全球六分之一人口，缺乏足夠的安全淡水。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By mid-century, as much as three-quarters of the Earth’s population could face scarcities of freshwater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到本世紀中期，地球上多達四分之三人口可能面對淡水短缺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph B 用數據呈現淡水問題的嚴重程度。首句已經直接處理"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“well-known” 這個概念，末句則把問題推向未來大規模短缺。因此這段很適合回答「awareness 是否緩和挑戰」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “General awareness”、“problem” 和 “eased”。原文中的對應是 “the problem is well-known” 和 “makes it no less disturbing”。其中 “well-known” 對應 general awareness；“no less disturbing” 直接否定 eased。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“That the problem is well-known makes it no less disturbing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個問題廣為人知，但這並沒有令它少一點令人不安。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的結構很直接。主語是 “That the problem is well-known”，即「問題已廣為人知」。核心判斷是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“makes it no less disturbing”，意思是「沒有令它變得較不嚴重／較不令人擔心」。題目說awareness has partly eased the challenge，即 awareness 已部分緩和問題；原文的 “no less disturbing” 正好反方向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“General awareness”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “the problem is well-known”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has partly eased”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= made it less disturbing / reduced the challenge原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“makes it no less disturbing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 沒有減少嚴重性或令人不安的程度所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 “partly eased”，語氣較溫和，容易令人以為只要問題有被注意到就算有幫助。但原文的no less 是強烈否定，表示「即使知道，問題仍然同樣令人擔心」。判斷時要看 eased 這個結果有沒有被文章支持；本題結果被原文直接推翻。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Researchers expect water scarcity to increase because of several compelling factors.”",
+      "translation": "研究人員預計水資源短缺會增加，原因是有幾個有力因素推動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較兩部分：第一，researchers 是否預計 scarcity 增加；第二，原因是否有多個因素。兩部分都要成立才可以選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists expect water scarcity to become more common in large part because the world’s population is rising and many people are getting richer (thus expanding demand) and because global climate change is exacerbating aridity and reducing supply in many regions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家預計水資源短缺會變得更常見，主要原因是世界人口正在上升，許多人變得更富裕，因而擴大需求；同時全球氣候變化正在加劇乾旱，並在許多地區減少供應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is more, many water sources are threatened by faulty waste disposal, releases of industrial pollutants, fertilizer runoff, and coastal influxes of saltwater into aquifers as groundwater is depleted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，許多水源還受到錯誤廢物處理、工業污染物排放、化肥流失，以及地下水耗盡時海岸鹽水流入含水層的威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph C 是原因段。第一句已經出現 “Scientists expect water scarcity to become more common”，末句再補充水源受不同污染和鹽水入侵威脅。題目中的 researchers、increase、several factors 都可以在這段找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Researchers” 對應原文 “Scientists”。“water scarcity to increase” 對應 “water scarcity to become more common”。“several compelling factors” 對應後面的多個 because：population rising、getting richer、climate change、aridity、reduced supply，以及水源污染威脅。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists expect water scarcity to become more common…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家預計水資源短缺會變得更常見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接支持題目第一部分。接著原文給出原因：人口上升會擴大需求；人們變富裕也會擴大需求；氣候變化會加劇乾旱並減少供應。後一句又加上水源受污染和鹽水入侵威脅。這些都屬於several factors。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Researchers= Scientists water scarcity to increase= water scarcity to become more common because of several compelling factors= because population is rising, people are getting richer, climate change is exacerbating aridity, and many water sources are threatened所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “compelling factors”，原文沒有 compelling 這個字。這不影響答案，因為題目是在概括多個清楚、有力的原因。IELTS Reading 不要求逐字相同，重點是語義能否對上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“People do not value the careful use of scarce water.”",
+      "translation": "人們不重視謹慎使用稀缺水資源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 people 的 attitude / value，即人們是否重視 careful use。要選 TRUE，原文需要說人們不重視節約或謹慎用水；要選 FALSE，原文需要說人們重視這件事。若原文只講管理不足、行動不足或分配失誤，仍然不能直接判斷人們心中的 value。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標範圍：Paragraph A、D、I Paragraph A 第一／最後句提示政策制定者掌握管理權力，而且 “Wise use of such power” 會愈來愈重要。Paragraph D 的首尾句從缺水後果轉向政治、經濟和科技行動。Paragraph I 的首尾句則講乾旱、分配錯誤、流域管理和談判。這些段落都和 careful use 或 allocation 有關，但它們主要討論政策、行動和分配，未直接判斷一般 people 是否重視謹慎用水。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “People”、“do not value”、“careful use” 和 “scarce water”。掃描時會被 Paragraph A 的 “Wise use”、Paragraph D 的 “conserve existing freshwater”，以及 Paragraph I 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“misallocation” 吸引。不過這些字主要處理水資源管理或分配，不等於人們的價值觀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A：“Wise use of such power will become increasingly important…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "明智使用這種權力會變得愈來愈重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的主體是 policymakers 的 power，不是一般 people 的 attitude。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I："
+            },
+            {
+              "kind": "quote",
+              "text": "“Economic actors had each taken what they regarded as a reasonable share, but they did not consider the needs of the natural environment…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各個經濟行動者都取用了自己認為合理的一份，但他們沒有考慮自然環境的需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明分配時忽略自然環境需要，屬於 misallocation 的例子。可是它沒有說這些人不重視careful use，也沒有說一般人對節水的態度如何。They regarded it as a reasonable share 甚至顯示他們自認合理，但文章沒有進一步評價其價值觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目加入了 “do not value” 這個心理態度。原文有管理壓力、政策需要、分配失誤和環境考慮不足，但缺少「人們是否重視謹慎用水」這個核心資料。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “Wise use” 和 “misallocation”。學生看到這些字，容易推想人們大概沒有珍惜水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 IELTS Reading 要求回到文章證據。管理失誤可以由知識不足、制度不足、政治利益或分配困難造成，不能自動推成 “people do not value careful use”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Controversy over water resources is unavoidable between neighbouring nations.”",
+      "translation": "鄰國之間圍繞水資源的爭議是無可避免的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 unavoidable 這個絕對詞。原文若只說某些跨國流域很複雜、曾引發爭端，仍不足以證明「鄰國之間必然會有爭議」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Water supplies fell to critically low levels during severe droughts in recent years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年嚴重乾旱期間，水供應跌至危急低位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only continuing negotiations and compromises have kept this tense situation under control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有持續談判和妥協，才令這個緊張局勢保持受控。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph I 講的是水資源分配壓力、乾旱、衝突和談判。它很適合處理controversy、neighbouring nations、international river basins 這類題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “controversy”、“water resources”、“unavoidable” 和 “neighbouring nations”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 中可找到 “international river basins”、“Jordan River”、“borders Lebanon, Syria, Israel, the Palestinian areas, and Jordan”、“civil and military disputes”、“negotiations and compromises”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given the difficulties of sensibly apportioning the water supply within a single nation, imagine the complexities of doing so for international river basins such as that of the Jordan River…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "既然在單一國家內合理分配水供應已經很困難，可以想像在約旦河這類跨國河流流域進行分配會有多複雜。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The struggle for freshwater has contributed to civil and military disputes in the area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "淡水爭奪已經促成該地區的民事和軍事爭端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說跨國河流分配很複雜，並且在 Jordan River 地區，淡水爭奪促成過爭端。但題目說unavoidable between neighbouring nations，範圍和語氣都更強。文章沒有說所有鄰國之間必然會產生爭議，也沒有說這種爭議無法避免。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提供一個緊張例子，但沒有建立 universal rule。最後一句還說 negotiations and compromises kept the situation under control，這說明局勢可以透過談判管理。不過這也未直接等於「爭議可以完全避免」。因此最穩定答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“civil and military disputes” 很吸引人，因為它與 controversy 方向相近。但題目真正控制答案的是 unavoidable。只要原文沒有明確說「必然發生」或「無法避免」，就不能把具體例子擴大成普遍定律。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Question Analysis",
+      "prompt": "“The uneven distribution of water around the world”",
+      "translation": "世界各地水資源分布不均。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。要找哪一段提到「水在全球分布不平均」。題目核心不是短缺類型，而是 distribution。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is plenty of water, but not always where it is needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水其實很多，但並不總是在需要它的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only 1.5% is directly used by people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有 1.5% 被人類直接使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph H 是一個水量與可用性對比段。它先說總水量充足，但位置不配合人類需要；最後說真正被人類直接使用的比例很低。這正好指向 uneven distribution。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “uneven distribution”。Paragraph H 中有非常直接的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“But much of it cannot be captured (top), and the rest is distributed unevenly (bottom).”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But much of it cannot be captured (top), and the rest is distributed unevenly (bottom).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但其中很多水無法被捕集，而其餘部分則分布不均。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接包含 “distributed unevenly”，與題目 “uneven distribution” 幾乎同義。Paragraph F 也有地區比較，例如美洲和北歐亞水量充足，一些地區短缺；但 Paragraph H 明確說 distributed unevenly，所以 H 最準確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "uneven distribution= distributed unevenly around the world= not always where it is needed / rest is distributed unevenly"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：H"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Question Analysis",
+      "prompt": "“Natural factors that also concern policymakers”",
+      "translation": "政策制定者也需要考慮的自然因素。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目中的自然因素不是單純指「自然科學原因」，還包含水資源分配時自然環境的需要和乾旱影響。要找同時出現 natural environment / drought 與 water allocation /commission / policy decision 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Water supplies fell to critically low levels during severe droughts in recent years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年嚴重乾旱期間，水供應跌至危急低位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only continuing negotiations and compromises have kept this tense situation under control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有持續談判和妥協，才令這個緊張局勢保持受控。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph I 講的是水供應因 drought 跌至低位，以及人類如何透過談判和分配管理緊張局面。這段既有自然因素，也有政策和管理因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Natural factors” 和 “policymakers”。Paragraph I 中對應 “severe droughts”、“the needs of the natural environment” 和 “Murray-Darling Basin Commission”。Commission 是管理和政策機構；natural environment 則是分配時被忽略的自然需求。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Economic actors had each taken what they regarded as a reasonable share, but they did not consider the needs of the natural environment, which suffered greatly when its inadequate supply was reduced to critical levels by drought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各個經濟行動者都取用了自己認為合理的一份，但他們沒有考慮自然環境的需要；當自然環境本已不足的供水又被乾旱削減至危急水平時，它便受到嚴重損害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含兩個自然因素：natural environment 的 needs，以及 drought 對 supply 的削減。下一句說 Murray-Darling Basin Commission 正努力處理 misallocation 的後果，顯示這正是政策和管理層面的問題。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也提到 climate change、aridity 和水源污染，容易令人想到 natural factors。不過題目說 “also concern policymakers”，Paragraph I 更明顯把自然環境需求、乾旱、分配機構和政策困難放在同一段。因此答案選 I 更貼近整句資訊功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "“The need for coordinated action involving political, economic and technological measures”",
+      "translation": "需要涉及政治、經濟和科技措施的協調行動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目有三個強定位詞：political、economic、technological。只要原文同時出現這三個詞，基本可直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because lack of access to water can lead to starvation, disease, political instability, and even armed conflict, failure to take action can have broad and grave consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於缺乏取用水的機會可能導致飢荒、疾病、政治不穩，甚至武裝衝突，未能採取行動可能造成廣泛且嚴重的後果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Governments and authorities at every level have to formulate and execute plans for implementing the political, economic, and technological measures that can ensure water security now and in the coming decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各級政府和機構必須制定並執行計劃，落實政治、經濟和科技措施，以確保現在和未來數十年的用水安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 從缺水後果講到政府和機構需要行動。末句直接列出 political, economic, technological measures，所以題目明顯定位在 D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞 “political, economic and technological measures” 在 Paragraph D 最後一句原字重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “coordinated action” 對應 “Governments and authorities at every level have to formulate and execute plans”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Governments and authorities at every level have to formulate and execute plans for implementing the political, economic, and technological measures…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各級政府和機構必須制定並執行計劃，去落實政治、經濟和科技措施。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“at every level” 表示不同層級都要參與；“formulate and execute plans” 表示不只提出想法，還要執行。題目把這概括成 “coordinated action”，意思合理。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "coordinated action= governments and authorities at every level formulate and execute plans political, economic and technological measures= political, economic, and technological measures"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Question Analysis",
+      "prompt": "“A mismatch between when water is needed and when rain falls”",
+      "translation": "需要用水的時間與降雨時間不配合。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目強調 when，不只問水在哪裡，也問時間錯配。要找同時有where and when people needed it 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is plenty of water, but not always where it is needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水其實很多，但並不總是在需要它的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only 1.5% is directly used by people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有 1.5% 被人類直接使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經提示 mismatch：水量不是唯一問題，位置和需求不配合。細讀中間句時，Paragraph H又把 where 擴展到 where and when，所以題目應定位在 H。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “when water is needed” 和 “rain falls”。Paragraph H 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This huge quantity would easily fulfil the requirements of everyone on the planet if the water arrived where and when people needed it.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This huge quantity would easily fulfil the requirements of everyone on the planet if the water arrived where and when people needed it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這些水在需要的地點和時間到達，它的巨大數量本來很容易滿足地球上每個人的需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚說明問題不在總雨量不足，而在雨水未必於正確地點和正確時間出現。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mismatch between when water is needed and when rain falls” 正是對 “if the water arrived where and when people needed it” 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "when water is needed= when people needed it rain falls= precipitation falls from the sky mismatch= water does not necessarily arrive where and when needed"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：H"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Question Analysis",
+      "prompt": "“The minimum amount of freshwater a person needs”",
+      "translation": "每個人所需的最低淡水量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目有強定位詞 “minimum amount” 和 “a person needs”。要找每人最低用水量的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The world’s water problems require, as a start, an understanding of how much freshwater each person requires, along with knowledge of the factors that impede supply and increase demand in different parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界水問題首先需要我們了解每個人需要多少淡水，同時了解世界不同地區有哪些因素阻礙供應並增加需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The volume is equivalent to two-fifths of an Olympic-size swimming pool.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個水量相當於五分之二個奧運規格泳池。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經直接顯示本段功能：說明每人 freshwater requirement，並用泳池比喻幫助理解數量。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “minimum amount”、“freshwater” 和 “person needs”。Paragraph E 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“each person on Earth needs a minimum of 1,000 cubic metres (m³) of water.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Malin Falkenmark of the Stockholm International Water Institute and other experts estimate that, on average, each person on Earth needs a minimum of 1,000 cubic metres (m³) of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stockholm International Water Institute 的 Malin Falkenmark 和其他專家估計，平均而言，地球上每個人最低需要 1,000 立方米水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整回答題目。題目只問哪段包含最低需求量，Paragraph E 直接提供答案和用途說明。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "minimum amount= a minimum of 1,000 cubic metres a person needs= each person on Earth needs"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "physical",
+      "answerKey": "physical",
+      "type": "Question Analysis",
+      "prompt": "“In some regions, scarcity is 25 __________ because water is unavailable, while other regions suffer a different kind of scarcity because resources and institutions are inadequate.”",
+      "translation": "在一些地區，由於水本身不可得，短缺屬於 ______；另一些地區則因資源和制度／能力不足而面對另一種短缺。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制是 NO MORE THAN THREE WORDS。空格前是 “scarcity is”，後面用 because 解釋原因，所以空格需要一個形容詞或描述短缺類型的詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of the Americas and northern Eurasia enjoy abundant water supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美洲大部分地區和歐亞大陸北部享有充足的水供應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other areas, among them Central Africa, parts of the Indian subcontinent, and Southeast Asia, contend with ‘economic’ water scarcity, where limited resources and capacity restrict access even though sufficient supplies are available.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他地區，包括中非、印度次大陸部分地區和東南亞，則面對「經濟性」水短缺；在這些地方，即使水供應足夠，有限的資源和能力仍限制了取用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 是水短缺類型分類段。中間必然會講 physical scarcity 和 economic water scarcity 的分別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “water is unavailable” 對應原文 “demand exceeds local availability”。“resources and institutions are inadequate” 對應 “limited resources and capacity restrict access”。掃描Paragraph F 可以直接找到 physical 和 economic 兩個短缺類型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But several regions are beset by greater or lesser degrees of ‘physical’ scarcity—whereby demand exceeds local availability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但有幾個地區受到不同程度的「實體性」短缺困擾，也就是需求超過本地可用水量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “because water is unavailable”，這對應 “demand exceeds local availability”。當本地可用水量不足，短缺類型就是 physical scarcity。由於空格前已經有 “scarcity is”，填 “physical” 最自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查答案必須取自原文。原文用 “‘physical’ scarcity”。題目句子是 “scarcity is ______”，所以填： physical如果填 “physical scarcity”，句子會變成 “scarcity is physical scarcity”，語法不自然。因此答案用physical。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "capture or storage",
+      "answerKey": "capture or storage",
+      "type": "Question Analysis",
+      "prompt": "“Much of the rainfall is unavailable because 26 __________ is impossible after it evaporates or transpires from plants.”",
+      "translation": "大量降雨無法使用，因為它蒸發或從植物蒸騰後，______ 已經不可能。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格後面是 “is impossible”，所以答案應是一個名詞短語。題目把原文 “never available for capture or storage” 改寫成 “because ____ is impossible”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than half of the precipitation that falls on land is never available for capture or storage because it evaporates from the ground or transpires from plants; this fraction is called green water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "落在陸地上的降水有超過一半永遠無法被捕集或儲存，因為它從地面蒸發，或從植物蒸騰；這部分稱為 green water。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Farm irrigation from these free-flowing bodies is the biggest single human use of freshwater resources, but the intense local demand that cities and industries create often drains the surroundings of ready supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這些自由流動水體取得的農業灌溉水，是人類對淡水資源最大的單一用途；但城市和工業造成的強烈本地需求，往往會耗盡周邊可即時使用的供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 先解釋降雨如何變成不可用的 green water，再轉到可用 blue-water sources 和人類用途。題目中的 rainfall、evaporates、transpires 都直接來自首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “rainfall”、“evaporates” 和 “transpires from plants”。原文使用 “precipitation” 對應rainfall，並有 “evaporates from the ground or transpires from plants”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than half of the precipitation that falls on land is never available for capture or storage because it evaporates from the ground or transpires from plants…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "落在陸地上的降水有超過一半永遠無法被捕集或儲存，因為它從地面蒸發，或從植物蒸騰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “is never available for capture or storage” 改寫成 “because ______ is impossible”。所以空格應填 “capture or storage”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查capture or storage = 3 words，符合 NO MORE THAN THREE WORDS。語法上，“capture or storage is impossible” 可以成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：capture or storage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "blue-water sources",
+      "answerKey": "blue-water sources",
+      "type": "Question Analysis",
+      "prompt": "“The remaining water enters 27 __________ that people can tap directly.”",
+      "translation": "剩下的水進入人們可以直接取用的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前是 “enters”，後面是 “that people can tap directly”，所以答案應是一個地方／來源類名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than half of the precipitation that falls on land is never available for capture or storage because it evaporates from the ground or transpires from plants; this fraction is called green water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "落在陸地上的降水有超過一半永遠無法被捕集或儲存，因為它從地面蒸發，或從植物蒸騰；這部分稱為 green water。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Farm irrigation from these free-flowing bodies is the biggest single human use of freshwater resources, but the intense local demand that cities and industries create often drains the surroundings of ready supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這些自由流動水體取得的農業灌溉水，是人類對淡水資源最大的單一用途；但城市和工業造成的強烈本地需求，往往會耗盡周邊可即時使用的供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph G 在講水的分類和使用：一部分是 green water，剩下部分流入人類可取用的水源，然後被農業、城市和工業使用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “remaining water” 和 “tap directly”。原文中 “The remainder flows into…” 對應remaining water；“people can tap directly” 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The remainder flows into so-called blue-water sources—rivers, lakes, wetlands and aquifers—that people can tap directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其餘部分流入所謂的 blue-water sources，即河流、湖泊、濕地和含水層；人們可以直接取用這些水源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “remaining water enters” 是對 “The remainder flows into” 的改寫。空格後的 “that people can tap directly” 在原文中完全重現，所以答案就是前面的名詞短語 “blue-water sources”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查blue-water sources 是原文詞組，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：blue-water sources"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Crisis! freshwater.pdf",
+    "sha256": "f3042ce004beb263b648cc3826027959236d4d59ed53ee0fe19cd07949189ed3",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：先用每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說全球政策制定者對水資源管理有很大權力；末句說，世界淡水需求正在多處超過可即時供應量，而且情況沒有緩和跡象。只看首尾句，這段大概負責建立全文危機背景：淡水問題不只關乎自然供應，也關乎政策管理。讀者可先估計後文會討論為何管理、分配和長遠規劃愈來愈重要。"
+      },
+      {
+        "number": "B",
+        "summary": "首句指出，淡水問題雖然已廣為人知，仍然令人不安；末句預測到本世紀中期，地球上多達四分之三人口可能面對淡水短缺。只看首尾句，這段明顯負責用數據展示問題規模和未來嚴重性。讀者可預期中間會有全球人口比例、聯合國預測、water stress 和 shortages 等資訊，支持「危機正在擴大」這個方向。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說科學家預計水資源短缺會更常見，原因包括人口上升、財富增加和氣候變化；末句補充許多水源還受廢物處理、工業污染、化肥流失和海水入侵威脅。首尾合看，這段功能是解釋 scarcity的成因。它不只是講水少，還把 demand 上升、supply 減少、水質受損三組原因放在一起。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說缺水可能導致飢荒、疾病、政治不穩，甚至武裝衝突；末句說各級政府和機構必須制定並執行政治、經濟和科技措施，以確保現在和未來數十年的用水安全。這段首尾句顯示，它由後果轉向解決方案。段落功能大概是提出「不行動的代價很大，但工具已知，現在需要實際執行」。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說，解決世界水問題的起點，是了解每人需要多少淡水，以及哪些因素阻礙供應和推高需求；末句把每人最低需要的 1,000 立方米水量比作五分之二個奧運泳池。只看首尾句，這段負責建立基本需求標準。讀者可以預期本段會提供一個 per person 的最低用水量，並解釋這個數字包括飲用、衛生和糧食生產。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說美洲大部分地區和歐亞大陸北部水源充足；末句轉到 Central Africa、Indian subcontinent和 Southeast Asia 等地，說它們面對 economic water scarcity，即有水但因資源和能力有限而取用受阻。這段首尾形成地理對比：有些地區供應充足，有些地區面對 physical scarcity，有些地區面對 economic scarcity。題目若問水短缺類型，很可能在這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說超過一半落在陸地上的降雨，由於蒸發或植物蒸騰，無法被捕集或儲存；末句指出農業灌溉是淡水最大單一人類用途，但城市和工業也會造成強烈本地需求。這段功能是解釋降雨如何變成可用或不可用水源。green water 和 blue-water sources 是核心概念，後文的 summary completion 很容易取材於這段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說世界上水很多，但不一定出現在需要它的地方；末句說只有 1.5% 的水被人類直接使用。只看首尾句，這段在視覺化或數據化地解釋「總量充足但分布錯位」的問題。中間會說降雨量巨大，理論上足夠全球使用，可是時間、地點、捕集能力和綠水／藍水分布限制了人類真正可用的份額。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說近年嚴重乾旱令水供應跌至危急低位；末句說只有持續談判和妥協，才令一個緊張局勢保持受控。首尾句顯示這段從具體流域管理例子出發，談水資源分配錯誤、自然環境需求、國內分配困難，以及跨國河流流域的政治複雜性。它也是全文中最接近 conflict、neighbouring nations、negotiation 的段落。"
+      }
+    ]
+  }
+}
