@@ -24,6 +24,7 @@ class RewritePublicMediaTests(unittest.TestCase):
         self.index.write_text(json.dumps({"entries": {
             "song-media/song/album.mp3": [0, 0, 6, "audio/mpeg", "oid"],
             "manuals/saved guide.pdf": [0, 6, 4, "application/pdf", "oid2"],
+            "Static Images/sound-button.png": [0, 10, 4, "image/png", "oid3"],
         }}))
 
     def test_relative_root_absolute_and_encoded_references_use_worker(self):
@@ -47,6 +48,16 @@ class RewritePublicMediaTests(unittest.TestCase):
         result = rewrite.rewrite(self.site, self.index, rewrite.DEFAULT_ORIGIN)
         self.assertEqual(result["references"], 1)
         self.assertIn(rewrite.DEFAULT_ORIGIN, css.read_text())
+
+    def test_literal_space_in_quoted_media_path_is_encoded_and_rewritten(self):
+        page = self.site / "flashcards.html"
+        page.write_text('<img src="Static Images/sound-button.png">')
+        result = rewrite.rewrite(self.site, self.index, rewrite.DEFAULT_ORIGIN)
+        self.assertEqual(result["references"], 1)
+        self.assertIn(
+            rewrite.DEFAULT_ORIGIN + "/Static%20Images/sound-button.png",
+            page.read_text(),
+        )
 
 
 if __name__ == "__main__":

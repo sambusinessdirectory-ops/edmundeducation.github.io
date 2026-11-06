@@ -15,7 +15,7 @@ DEFAULT_ORIGIN = "https://edmund-public-media.edmundeducation.workers.dev"
 TEXT_EXTENSIONS = {".html", ".css", ".js", ".mjs", ".cjs", ".json", ".webmanifest", ".xml", ".svg", ".txt"}
 MEDIA_EXTENSIONS = "mp3|wav|m4a|ogg|webp|jpg|jpeg|png|pdf|mp4|gif|ttf"
 QUOTED_URL = re.compile(
-    rf"(?P<quote>[\"'`])(?P<url>[^\"'`\s]+?\.(?:{MEDIA_EXTENSIONS})(?:[?#][^\"'`\s]*)?)(?P=quote)",
+    rf"(?P<quote>[\"'`])(?P<url>[^\"'`\r\n]+?\.(?:{MEDIA_EXTENSIONS})(?:[?#][^\"'`\r\n]*)?)(?P=quote)",
     re.IGNORECASE,
 )
 CSS_URL = re.compile(
