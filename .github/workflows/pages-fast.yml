@@ -20,6 +20,10 @@ permissions:
 
 jobs:
   build:
+    concurrency:
+      # A manual retry of an older job must not evict a newer push.
+      group: ${{ github.run_attempt == 1 && 'pages-build-main' || format('pages-build-retry-{0}', github.run_id) }}
+      cancel-in-progress: true
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     permissions:

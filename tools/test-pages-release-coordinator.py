@@ -48,9 +48,17 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("Batch nearby pushes before expensive work", COORDINATOR)
         self.assertIn("sleep 15", COORDINATOR)
 
-    def test_artifact_builds_can_run_in_parallel(self):
+    def test_only_builders_share_the_cancellable_build_slot(self):
         for workflow in BUILDERS:
-            self.assertNotIn("group: pages-build-main", workflow)
+            job = workflow.split("  build:\n", 1)[1]
+            self.assertIn("github.run_attempt == 1 && 'pages-build-main' || format('pages-build-retry-{0}', github.run_id)", job)
+            self.assertIn("      cancel-in-progress: true", job)
+        self.assertNotIn("pages-build-main", PUBLISHER)
+        self.assertNotIn("cancel-in-progress: true", PUBLISHER)
+
+    def test_focused_writing_runs_the_completed_question_regression(self):
+        step = BUILDERS[0].split("- name: Validate focused Writing release", 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("completed writing questions are matched by canonical resource or exact normalized prompt", step)
 
     def test_fast_releases_skip_slow_runner_disk_reclamation(self):
         standard = BUILDERS[0]

@@ -26,6 +26,12 @@ class CollectPagesReleaseTagsTests(unittest.TestCase):
             "[fast-deploy] [paper3-release] [practical-writing-release]",
         )
 
+    def test_completed_question_picker_uses_focused_writing_validation(self):
+        paths = ["writing-submission.html", "writing-submission.css", "writing-submission.js",
+                 "writing-submission-core.js", "tools/test-writing-submission-portal.mjs"]
+        self.assertEqual(module.collect_path_scopes(paths, self.policy),
+                         ("[fast-deploy] [writing-release]", []))
+
     def test_exact_release_that_misrouted_is_now_focused(self):
         paths = """\
 dse-practical-writing.html
