@@ -1,6 +1,9 @@
 {
   "version": 1,
   "scopes": {
+    "[shared-header-release]": [
+      "shared-system-nav.css"
+    ],
     "[infrastructure-release]": [
       ".github/workflows/pages.yml",
       ".github/workflows/pages-environment-check.yml",
@@ -16,7 +19,6 @@
       "pwa-register.js",
       "release.json",
       "service-worker.js",
-      "shared-system-nav.css",
       "shared-system-nav.js",
       "tools/PAGES-RELEASE-COORDINATOR.md",
       "tools/classify-pages-release.py",
@@ -331,6 +333,8 @@
       "tools/test-dse-practical-writing*.mjs"
     ],
     "[downloads-release]": [
+      "essay-portal-links.js",
+      "tools/test-essay-asset-release.mjs",
       "model-essay-downloads.*",
       "tools/test-essay-portal-links.mjs",
       "tools/test-model-essay-download-worker.mjs",

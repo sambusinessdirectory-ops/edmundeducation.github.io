@@ -104,10 +104,10 @@ jobs:
           /grammar-eddy-dialogues/
           /supabase/
           PATTERNS
-              ;;
+              ;;&
             *'[classroom-release]'*)
               echo '/supabase/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
           esac
 
           case "${RELEASE_TAGS}" in
@@ -148,22 +148,22 @@ jobs:
           case "${RELEASE_TAGS}" in
             *'[phrasal-release]'*)
               echo '/phrasal-verb-system-data.js' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[sentence-release]'*)
               echo '/sentence-structure-lessons-5-345.js' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[idiom-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /idiom-system-data.js
           /idiom-compass-*-curation.js
           PATTERNS
-              ;;
+              ;;&
             *'[speaking-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /speaking-system-part3-data.js
           /speaking-part*-audio-manifest.js
           PATTERNS
-              ;;
+              ;;&
           esac
           case "${RELEASE_TAGS}" in
             *'[writing-release]'*)
@@ -222,13 +222,13 @@ jobs:
           case "${RELEASE_TAGS}" in
             *'[listening-release]'*)
               echo '/tools/listening/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[song-release]'*)
               echo '/tools/song-content/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[writing-release]'*)
               echo '/tools/grammar-detector-v2/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
           esac
 
           case "${RELEASE_TAGS}" in
@@ -278,13 +278,13 @@ jobs:
           case "${RELEASE_TAGS}" in
             *'[common-expression-release]'*)
               echo '/common-expression-system-imported-data.js' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[polysemy-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /polysemy-lab/
           !/polysemy-lab/audio/
           PATTERNS
-              ;;
+              ;;&
             *'[synonyms-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /synonyms/
@@ -292,47 +292,51 @@ jobs:
           !/synonyms/lesson-audio/
           !/synonyms/source/
           PATTERNS
-              ;;
+              ;;&
             *'[irregular-release]'*)
               echo '/irregular-verbs/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[native-release]'*)
               printf '%s\n' '/natural-english/' '/course-materials/advanced-native/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[junior-release]'*)
               printf '%s\n' '/junior-exam-prep/' '/junior-quiz-review/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[news-release]'*)
               printf '%s\n' '/news-discussion/' '/policy-discussion/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[dse-arguments-release]'*)
               echo '/dse-argument-bank/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[chart-release]'*)
               echo '/ielts-chart-teaching/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[downloads-release]'*)
-              echo '/workers/model-essay-downloads/' >> .git/info/sparse-checkout
-              ;;
+              printf '%s\n' '/workers/model-essay-downloads/' '/flashcards-core-data.js' '/flashcards-ielts-writing*-data.js' '/writing-practice*-data.js' >> .git/info/sparse-checkout
+              ;;&
             *'[progress-release]'*)
               echo '/workers/student-progress/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[membership-release]'*)
               printf '%s\n' \
                 '/workers/membership/' \
                 '/supabase/migrations/20260827101941_membership_billing_foundation.sql' \
                 >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[video-class-release]'*)
               echo '/workers/video-class/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[news-reader-release]'*)
               echo '/news-reader/' >> .git/info/sparse-checkout
-              ;;
+              ;;&
             *'[speech-curation-release]'*)
               echo '/speech-curation-assets/churchill-sentence-timing-v2.json' >> .git/info/sparse-checkout
-              ;;
+              ;;&
           esac
+
+          if [[ "${RELEASE_TAGS}" == *'[shared-header-release]'* ]]; then
+            echo '/**/*.html' >> .git/info/sparse-checkout
+          fi
 
           while IFS= read -r changed_path; do
             test -n "${changed_path}" || continue
@@ -353,7 +357,7 @@ jobs:
         run: bash tools/pages-early-checks.sh
 
       - name: Validate shared header across portals
-        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[flashcard-release]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[flashcard-release]') || contains(inputs.release_tags, '[shared-header-release]') }}
         run: node tools/test-shared-mobile-header.mjs
 
       - name: Check song exercise quality
@@ -462,7 +466,7 @@ jobs:
             grep -Fq 'flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2' flashcards.html
 
       - name: Validate closet fast release
-        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[infrastructure-release]') && !contains(inputs.release_tags, '[catalog-contract-release]') && !contains(inputs.release_tags, '[listening-search-release]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[practical-writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[listening-types-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[paper3-analysis-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') && !contains(inputs.release_tags, '[literary-release]') && !contains(inputs.release_tags, '[release-gate-repair]') && !contains(inputs.release_tags, '[downloads-release]') && !contains(inputs.release_tags, '[parent-release]') && !contains(inputs.release_tags, '[progress-release]') && !contains(inputs.release_tags, '[common-expression-release]') && !contains(inputs.release_tags, '[learning-portal-release]') && !contains(inputs.release_tags, '[bookmark-release]') && !contains(inputs.release_tags, '[execution-release]') && !contains(inputs.release_tags, '[membership-release]') && !contains(inputs.release_tags, '[background-music-release]') && !contains(inputs.release_tags, '[question-collection-release]') && !contains(inputs.release_tags, '[accent-release]') && !contains(inputs.release_tags, '[speech-curation-release]') && !contains(inputs.release_tags, '[chip-course-release]') && !contains(inputs.release_tags, '[news-reader-release]') && !contains(inputs.release_tags, '[video-class-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[shared-header-release]') && !contains(inputs.release_tags, '[infrastructure-release]') && !contains(inputs.release_tags, '[catalog-contract-release]') && !contains(inputs.release_tags, '[listening-search-release]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[practical-writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[listening-types-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[paper3-analysis-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') && !contains(inputs.release_tags, '[literary-release]') && !contains(inputs.release_tags, '[release-gate-repair]') && !contains(inputs.release_tags, '[downloads-release]') && !contains(inputs.release_tags, '[parent-release]') && !contains(inputs.release_tags, '[progress-release]') && !contains(inputs.release_tags, '[common-expression-release]') && !contains(inputs.release_tags, '[learning-portal-release]') && !contains(inputs.release_tags, '[bookmark-release]') && !contains(inputs.release_tags, '[execution-release]') && !contains(inputs.release_tags, '[membership-release]') && !contains(inputs.release_tags, '[background-music-release]') && !contains(inputs.release_tags, '[question-collection-release]') && !contains(inputs.release_tags, '[accent-release]') && !contains(inputs.release_tags, '[speech-curation-release]') && !contains(inputs.release_tags, '[chip-course-release]') && !contains(inputs.release_tags, '[news-reader-release]') && !contains(inputs.release_tags, '[video-class-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -521,6 +525,7 @@ jobs:
           node --check model-essay-downloads.js
           for source in workers/model-essay-downloads/src/*.js; do node --check "${source}"; done
           node tools/test-essay-portal-links.mjs
+          node tools/test-essay-asset-release.mjs
 
       - name: Validate focused parent communication release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[parent-release]') }}

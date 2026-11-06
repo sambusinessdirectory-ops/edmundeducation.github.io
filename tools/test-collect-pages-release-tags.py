@@ -109,6 +109,13 @@ tools/test-schedule-system.mjs
         self.assertIn("[listening-types-release]", tags)
         self.assertNotIn("[listening-release]", tags)
 
+    def test_shared_header_css_and_essay_runtime_have_consumer_checks(self):
+        tags, unknown = module.collect_path_scopes(["shared-system-nav.css", "essay-portal-links.js"], self.policy)
+        self.assertEqual(unknown, [])
+        self.assertEqual(set(tags.split()), {"[fast-deploy]", "[downloads-release]", "[shared-header-release]"})
+        tags, _ = module.collect_path_scopes(["shared-system-nav.js", "essay-portal-links.js"], self.policy)
+        self.assertNotIn("[fast-deploy]", tags)
+
     def test_shared_change_mixed_with_page_uses_full_build(self):
         for shared in ("service-worker.js", "shared-companion.mjs", ".github/workflows/pages-new.yml"):
             tags, _ = module.collect_path_scopes(["literary-device.html", shared], self.policy)

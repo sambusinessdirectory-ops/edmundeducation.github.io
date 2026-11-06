@@ -27,5 +27,5 @@ jobs:
       - name: Rehearse focused checkout and early publication contracts
         env:
           RELEASE_BASE: ${{ github.event.pull_request.base.sha }}
-          RELEASE_TAGS: '[fast-deploy] [writing-release]'
+          RELEASE_TAGS: '[fast-deploy] [writing-release] [downloads-release] [shared-header-release]'
         run: ruby tools/pages-pr-rehearsal.rb

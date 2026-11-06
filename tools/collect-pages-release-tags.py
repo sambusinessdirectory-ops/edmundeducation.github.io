@@ -96,7 +96,7 @@ def collect_path_scopes(
     # A single unclassified file sends the complete undeployed range through
     # full validation. Known scopes remain visible for route diagnostics.
     shared = any(
-        path.startswith("shared-")
+        (path.startswith("shared-") and path != "shared-system-nav.css")
         or (path == "index.html" and not homepage_cards_only)
         or path in {"pwa-register.js", "release.json", "service-worker.js"}
         for path in changed_paths
