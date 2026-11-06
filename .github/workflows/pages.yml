@@ -789,7 +789,6 @@ jobs:
           node tools/check-native-redesign-release.mjs
           node tools/test-natural-english-import.mjs
           npm ci --prefix tools/email-qa --ignore-scripts
-          node tools/test-natural-english-modules.mjs
           node tools/test-advanced-native.mjs
           node tools/build-advanced-native-catalogue.mjs --check
 
@@ -1374,6 +1373,41 @@ jobs:
           node tools/test-parent-communication-system.mjs
           node tools/test-schedule-account-admin-parity.mjs
 
+      - name: Identify Native English catalogue test inputs
+        id: native_inputs
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[native-release]') }}
+        run: |
+          set -euo pipefail
+          key=$( {
+            git ls-tree HEAD -- natural-english natural-english.html supabase tools course-materials .github package.json package-lock.json .npmrc
+            node --version
+            npm --version
+            printf '%s\n' "$RUNNER_OS" "$RUNNER_ARCH" "$ImageVersion"
+          } | sha256sum | cut -d' ' -f1 )
+          echo "key=native-catalogue-v1-$key" >> "$GITHUB_OUTPUT"
+
+      - name: Look up a successful identical catalogue test
+        id: native_cache
+        if: steps.native_inputs.outcome == 'success'
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/native-catalogue-passed
+          key: ${{ steps.native_inputs.outputs.key }}
+          lookup-only: true
+
+      - name: Verify every Native English catalogue answer
+        if: steps.native_inputs.outcome == 'success' && steps.native_cache.outputs.cache-hit != 'true'
+        run: |
+          node tools/test-natural-english-modules.mjs
+          echo "${GITHUB_SHA}" > "$RUNNER_TEMP/native-catalogue-passed"
+
+      - name: Record the successful catalogue test
+        if: steps.native_inputs.outcome == 'success' && steps.native_cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/native-catalogue-passed
+          key: ${{ steps.native_inputs.outputs.key }}
+
       - name: Validate learning portals and classroom contracts
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         env:
@@ -1392,7 +1426,6 @@ jobs:
           node tools/test-polysemy-fairness-sync.mjs
           node tools/test-polysemy-audio-packs.mjs
           node tools/test-natural-english.mjs
-          node tools/test-natural-english-modules.mjs
           node tools/test-professional-mobile-cards.mjs
           node tools/test-professional-study-clock.mjs
           node tools/test-professional-save-conflicts.mjs
@@ -1687,10 +1720,8 @@ jobs:
             exit 1
           fi
 
-      - name: Show Pages artifact size
-        run: |
-          du -sh _site
-          find _site -type f -printf '%s %p\n' | sort -nr | head -20
+      - name: Remove editorial QA reports and measure the upload
+        run: python3 tools/pages-artifact-inventory.py _site
 
       - name: Name this build artifact
         id: artifact

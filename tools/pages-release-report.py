@@ -3,7 +3,6 @@
 import argparse
 from datetime import datetime
 import json
-import os
 import subprocess
 from urllib.request import Request, urlopen
 
@@ -30,14 +29,27 @@ for run in runs:
     def job(suffix):
         return next((j for j in jobs if j["name"].endswith(suffix) and j["conclusion"] != "skipped"), {})
     build, verify, publish = job("/ build"), job("/ verify-live"), job("/ publish")
+    steps = build.get("steps", [])
+    mode = next((s["name"] for s in steps if s["name"] in ("Prepare site files", "Prepare site files incrementally") and s["conclusion"]=="success"), None)
+    scope = "full" if any(s["name"]=="Validate atomic email uploads and lost-response recovery" and s["conclusion"]=="success" for s in steps) else "focused" if build.get("conclusion")=="success" else "unknown"
     deployed = next((s for s in publish.get("steps",[]) if s["name"] == "Deploy to GitHub Pages"), {})
     verified = verify.get("completed_at") if verify.get("conclusion") == "success" else None
     reports.append(dict(run=run["run_number"],sha=run["head_sha"],url=run["html_url"],status=run["status"],
-        conclusion=run["conclusion"],builder=build.get("name"),deploy_step=deployed.get("conclusion"),
+        conclusion=run["conclusion"],builder=build.get("name"),scope=scope,preparation=mode,deploy_step=deployed.get("conclusion"),
         queue_s=elapsed(run["created_at"],job("route").get("started_at")),
         build_s=elapsed(build.get("started_at"),build.get("completed_at")),
         push_to_verified_s=elapsed(run["created_at"],verified),verified_at=verified))
 result={"runs":reports,"unpublished_build_seconds":sum(r["build_s"] or 0 for r in reports if r["status"]=="completed" and not r["verified_at"] and r["deploy_step"]!="success")}
+groups = {}
+for row in reports:
+    if row["push_to_verified_s"] is not None:
+        groups.setdefault(row["scope"], []).append(row["push_to_verified_s"])
+from statistics import median
+from math import ceil
+result["verified_push_to_live"] = {
+    scope: {"count":len(times),"median_s":median(times),"p95_s":sorted(times)[ceil(len(times)*0.95)-1]}
+    for scope,times in groups.items()
+}
 if args.feature:
     request=Request("https://edmundeducation.com/release.json?check="+str(int(datetime.now().timestamp())),headers={"Cache-Control":"no-cache"})
     with urlopen(request,timeout=15) as stream:

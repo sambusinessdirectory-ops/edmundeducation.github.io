@@ -119,13 +119,19 @@ async function expectOrWrite(path, content) {
 
 if (!check) await mkdir(new URL("pwa-manifests/", root), { recursive: true });
 for (const { system, path, content } of manifests) {
-  await stat(new URL(system.href, root));
+  if (check && !await stat(new URL(system.href, root)).catch(error => {
+    if (error.code === "ENOENT") return null;
+    throw error;
+  })) {
+    stale.push(system.href);
+    continue;
+  }
   await expectOrWrite(path, content);
   const htmlUrl = new URL(system.href, root);
   const html = await readFile(htmlUrl, "utf8");
   const expectedHref = `/pwa-manifests/${system.id}.webmanifest`;
   if (protectedHtml.has(system.href)) {
-    if (check) assert.match(html, new RegExp(`<link rel="manifest" href="${expectedHref.replaceAll("/", "\\/")}">`), `${system.href}: protected page manifest link is stale`);
+    if (check && !new RegExp(`<link rel="manifest" href="${expectedHref.replaceAll("/", "\\/")}">`).test(html)) stale.push(system.href);
     continue;
   }
   const manifestPattern = /<link rel="manifest" href="[^"]+">/;

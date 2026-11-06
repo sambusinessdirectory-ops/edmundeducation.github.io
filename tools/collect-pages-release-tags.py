@@ -119,10 +119,15 @@ def main() -> int:
     args = parser.parse_args()
 
     paths = args.paths_file.read_text(encoding="utf-8").splitlines()
+    policy = load_policy(args.policy)
     tags, uncovered = collect_path_scopes(
-        paths, load_policy(args.policy),
+        paths, policy,
         homepage_cards_only=bool(args.homepage_diff and card_only_diff(args.homepage_diff.read_text())),
     )
+    for path in paths:
+        owners = [tag for tag, patterns in policy.items()
+                  if any(fnmatch.fnmatchcase(path, pattern) for pattern in patterns)]
+        print(f"{path}: {', '.join(owners) or 'full (unclassified)'}", file=sys.stderr)
     if uncovered:
         print(
             "Pages full-validation fallback; unclassified paths: "

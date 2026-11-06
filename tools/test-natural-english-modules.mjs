@@ -62,11 +62,18 @@ for(const lesson of modules.filter(m=>m.course==='advanced-native'&&m.number>=6)
  const lessonRun=crypto.randomUUID();await sync(token,[event({at:catalogueAuditAt,module:lesson.id,kind:'start',run:lessonRun})]);
  for(const q of lesson.questions){
   const choices=q.type==='mc'?q.options:[q.answers[0]];
-  for(const [i,choice] of choices.entries()){
-   const answer=event({at:catalogueAuditAt,module:lesson.id,kind:'answer',run:lessonRun,round:i+1,question:q.id,choice});
-   const saved=(await sync(token,[answer])).events.find(e=>e.id===answer.id);
-   assert.equal(saved.choice,choice,`${q.id} saves the current answer`);
-   assert.equal(saved.correct,q.type==='open'?undefined:correct(q,choice),`${q.id} uses the intended grading contract`);
+  // Exercise the real offline batch path. Check every persisted event individually.
+  const answers = choices.map((choice, i) => event({
+   at: catalogueAuditAt, module: lesson.id, kind: 'answer', run: lessonRun,
+   round: i + 1, question: q.id, choice
+  }));
+  const result = await sync(token, answers);
+  const savedEvents = new Map(result.events.map(row => [row.id, row]));
+  for (const answer of answers) {
+   const saved = savedEvents.get(answer.id);
+   assert.ok(saved, `${q.id} persists event ${answer.id}`);
+   assert.equal(saved.choice, answer.choice, `${q.id} saves the current answer`);
+   assert.equal(saved.correct, q.type === 'open' ? undefined : correct(q, answer.choice), `${q.id} uses the intended grading contract`);
   }
  }
  const saved=await sync(token);
