@@ -1,6 +1,38 @@
 (() => {
   'use strict';
-  const requestedKey = new URLSearchParams(location.search).get('essay');
+  const pristine = {
+    shell: document.querySelector('.shell')?.outerHTML || '',
+    dialog: document.querySelector('#step-dialog')?.outerHTML || '',
+    confetti: document.querySelector('#confetti')?.outerHTML || '',
+    theme: document.querySelector('meta[name="theme-color"]')?.content || '#0964cf'
+  };
+  let activeDispose = () => {};
+  let activeKey = null;
+  let switching = false;
+
+  function restorePristineView() {
+    window.EssayMemoryTerminalHUD?.destroy?.();
+    activeDispose();
+    const replace = (selector, html) => {
+      const current = document.querySelector(selector);
+      if (!current || !html) return;
+      const template = document.createElement('template');
+      template.innerHTML = html;
+      current.replaceWith(template.content.firstElementChild);
+    };
+    replace('.shell', pristine.shell);
+    replace('#step-dialog', pristine.dialog);
+    replace('#confetti', pristine.confetti);
+    document.body.classList.remove('memory-library-landing', 'memory-terminal', 'opinion3-terminal', 'pilot-global-open', 'pilot-library-open', 'pilot-drawer-programs', 'pilot-drawer-dossier');
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', pristine.theme);
+  }
+
+  function boot(forcedKey = null) {
+  const lifecycle = new AbortController();
+  const appObservers = [];
+  activeDispose = () => lifecycle.abort();
+  const requestedKey = forcedKey ?? new URLSearchParams(location.search).get('essay');
+  activeKey = requestedKey;
   const selectedLesson = window.ESSAY_MEMORY_LESSONS?.[requestedKey];
   const approvedEssays=(window.ESSAY_MEMORY_CATALOG||[]).filter(item=>window.ESSAY_MEMORY_APPROVED?.[item.key]);
   const pathwayTasks=[
@@ -100,6 +132,12 @@
     more.textContent=`顯示更多範文（${Math.min(pathwayShown,essays.length)} / ${essays.length} 篇）`;
   };
   pathway.addEventListener('click',event=>{
+    const essayLink=event.target.closest('[data-memory-essay]');
+    if(essayLink&&pathway.contains(essayLink)){
+      event.preventDefault();
+      window.EssayMemoryRuntime?.switchTo(essayLink.dataset.memoryEssay);
+      return;
+    }
     const button=event.target.closest('button');if(!button||!pathway.contains(button))return;
     if(button.dataset.memoryPathwayTask){pathwayTask=pathwayTasks.find(task=>task.key===button.dataset.memoryPathwayTask);pathwayType=null;pathwayShown=24;}
     else if(button.dataset.memoryPathwayType){pathwayType=pathwayTask?.types.find(type=>type.type===button.dataset.memoryPathwayType);pathwayShown=24;}
@@ -733,7 +771,7 @@
   window.addEventListener('resize', () => {
     cancelAnimationFrame(transferResizeFrame);
     transferResizeFrame = requestAnimationFrame(balanceTransferChoices);
-  });
+  }, {signal:lifecycle.signal});
   function renderMulti(item) {
     const indices = orderedSeed(item.options.length, 29);
     return `<div class="question-intro"><span class="question-mark">2</span><div><p class="question-label">CHOOSE TWO</p><h3>${escapeHtml(item.prompt)}</h3><p>${escapeHtml(item.detail)}</p></div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card ${state.selection.includes(index) ? 'selected' : ''}" type="button" data-multi="${index}" aria-pressed="${state.selection.includes(index)}"><span class="choice-symbol" aria-hidden="true">${state.selection.includes(index) ? '✓' : '+'}</span><span>${escapeHtml(item.options[index])}</span></button>`).join('')}</div><div class="action-bar"><span>已選 ${state.selection.length} / 2 項</span><button class="primary-button" type="button" data-confirm ${state.selection.length !== 2 ? 'disabled' : ''}>確認兩條理由 <span aria-hidden="true">→</span></button></div>`;
@@ -1037,9 +1075,51 @@
   }
   for(const root of [$('.shell'),$('#step-dialog')]){
     formatChineseSentences(root);
-    new MutationObserver(records=>{for(const record of records){if(record.type==='characterData')formatChineseSentences(record.target);else record.addedNodes.forEach(formatChineseSentences);}}).observe(root,{childList:true,subtree:true,characterData:true});
+    const observer=new MutationObserver(records=>{for(const record of records){if(record.type==='characterData')formatChineseSentences(record.target);else record.addedNodes.forEach(formatChineseSentences);}});
+    observer.observe(root,{childList:true,subtree:true,characterData:true});
+    appObservers.push(observer);
   }
 
+  activeDispose = () => {
+    lifecycle.abort();
+    appObservers.forEach(observer=>observer.disconnect());
+    audio.pause();
+    cancelAnimationFrame(playbackFrame);
+    cancelAnimationFrame(transferResizeFrame);
+    segmentEnd = null;
+  };
   if (state.completed && stageDefinitions.every((stage,i)=>stage.rounds.every((_,j)=>state.solved[`${i}:${j}`]))) renderEnd(); else render();
-  if (requestedKey === 'opinion:3') window.EssayMemoryOpinion3Pilot?.init();
+  window.EssayMemoryTerminalHUD?.init?.();
+  }
+
+  async function switchTo(key, {replace = false} = {}) {
+    if (switching || !key || key === activeKey) {
+      document.querySelector('.pilot-library')?.removeAttribute('open');
+      return;
+    }
+    switching = true;
+    document.body.classList.add('memory-switching');
+    try {
+      await window.EssayMemoryAuth?.ensureLesson?.(key);
+      const url = new URL(location.href);
+      url.searchParams.set('essay', key);
+      history[replace ? 'replaceState' : 'pushState']({essay:key}, '', url);
+      restorePristineView();
+      boot(key);
+      document.querySelector('.pilot-workspace')?.scrollIntoView({block:'start'});
+    } catch (error) {
+      const status = document.querySelector('#save-status');
+      if (status) status.textContent = error?.message || '未能切換範文。';
+    } finally {
+      switching = false;
+      document.body.classList.remove('memory-switching');
+    }
+  }
+
+  window.EssayMemoryRuntime = Object.freeze({switchTo, currentKey:() => activeKey});
+  window.addEventListener('popstate', () => {
+    const key = new URLSearchParams(location.search).get('essay');
+    if (key && key !== activeKey) switchTo(key, {replace:true});
+  });
+  boot();
 })();

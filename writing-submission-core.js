@@ -78,6 +78,30 @@ export function writingSubmissionNotificationMessage(submissionId, baseHref = "h
   return `Edmund 通知：\n您的作文已改好，請努力溫習！ 😬💪🏻\n${url}`;
 }
 
+export function writingTopicCompletionText(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .replace(/[’]/g, "'")
+    .toLocaleLowerCase()
+    .replace(/[^a-z0-9一-鿿]+/gu, " ")
+    .trim();
+}
+
+export function writingTopicHasCompletedSubmission(submissions, { resourceId = "", topic = "" } = {}) {
+  const expectedResourceId = String(resourceId || "").trim().toLowerCase();
+  const expectedTopic = writingTopicCompletionText(topic);
+  if (!expectedResourceId && !expectedTopic) return false;
+  return (Array.isArray(submissions) ? submissions : []).some((submission) => {
+    if (!submission || submission.deletedAt || submission.deleted_at) return false;
+    const submittedResourceId = String(
+      submission.topicResource?.id || submission.topic_resource?.id || ""
+    ).trim().toLowerCase();
+    if (expectedResourceId && submittedResourceId === expectedResourceId) return true;
+    return Boolean(expectedTopic)
+      && writingTopicCompletionText(submission.topic) === expectedTopic;
+  });
+}
+
 export function writingTopicResourceForTransport(resource) {
   if (!resource || typeof resource !== "object" || Array.isArray(resource)) return null;
   return {

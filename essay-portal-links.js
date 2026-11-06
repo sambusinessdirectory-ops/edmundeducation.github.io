@@ -218,6 +218,10 @@
   function href(portal, value) {
     const target = parts(value);
     if (!target) return "";
+    if (portal === "memorization") {
+      const memoryKey = target.definition.task === 1 ? `task1-${target.key}` : target.key;
+      return `essay-memorization.html?essay=${encodeURIComponent(memoryKey)}`;
+    }
     const page = {
       flashcards: "flashcards.html",
       writing: "writing-practice.html",

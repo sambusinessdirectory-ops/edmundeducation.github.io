@@ -516,19 +516,19 @@ export const EDMUND_PWA_APPS = Object.freeze([
   {
     "id": "junior-exam-prep",
     "href": "junior-exam-prep.html",
-    "zh": "初中考試溫習系統",
-    "en": "Junior Exam Preparation",
-    "name": "初中考試溫習系統｜EdmundEducation",
-    "shortName": "初中考試溫習",
+    "zh": "考試溫習系統",
+    "en": "Exam Preparation",
+    "name": "考試溫習系統｜EdmundEducation",
+    "shortName": "考試溫習",
     "manifest": "/pwa-manifests/junior-exam-prep.webmanifest"
   },
   {
     "id": "junior-quiz-review",
     "href": "junior-quiz-review.html",
-    "zh": "初中測驗溫習系統",
-    "en": "Junior Quiz Review",
-    "name": "初中測驗溫習系統｜EdmundEducation",
-    "shortName": "初中測驗溫習",
+    "zh": "測驗溫習系統",
+    "en": "Quiz Review",
+    "name": "測驗溫習系統｜EdmundEducation",
+    "shortName": "測驗溫習",
     "manifest": "/pwa-manifests/junior-quiz-review.webmanifest"
   },
   {

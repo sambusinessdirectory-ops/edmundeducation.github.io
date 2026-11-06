@@ -72,21 +72,26 @@
     });
   }
 
+  async function ensureLesson(requestedKey) {
+    if (!requestedKey || requestedKey === 'opinion:80') return;
+    if (!window.ESSAY_MEMORY_APPROVED?.[requestedKey]) throw new Error('這篇範文尚未開放。');
+    if (window.ESSAY_MEMORY_LESSONS?.[requestedKey]?.support) return;
+    const meta = window.ESSAY_MEMORY_CATALOG?.find(item => item.key === requestedKey);
+    if (!meta) throw new Error('找不到這篇範文。');
+    await loadScript(`essay-memory-lessons/${meta.id}.js?v=${CONTENT_VERSION}`);
+    await loadScript(`essay-memory-support/${meta.id}.js?v=${CONTENT_VERSION}`);
+    if (!window.ESSAY_MEMORY_LESSONS?.[requestedKey]?.support) throw new Error('這篇範文的教材未能載入。');
+  }
+
   async function enter(user) {
     if (active) return;
     active = true;
-    window.EssayMemoryAuth = Object.freeze({user, rpc});
+    window.EssayMemoryAuth = Object.freeze({user, rpc, ensureLesson});
     rememberLocalSession(user);
     window.EdmundSystemNav?.rememberStudentSession?.(user);
     try {
       const requestedKey = new URLSearchParams(location.search).get('essay');
-      if (requestedKey && window.ESSAY_MEMORY_APPROVED?.[requestedKey] && requestedKey !== 'opinion:80' && !window.ESSAY_MEMORY_LESSONS?.[requestedKey]) {
-        const meta = window.ESSAY_MEMORY_CATALOG?.find(item => item.key === requestedKey);
-        if (!meta) throw new Error('找不到這篇範文。');
-        await loadScript(`essay-memory-lessons/${meta.id}.js?v=${CONTENT_VERSION}`);
-        await loadScript(`essay-memory-support/${meta.id}.js?v=${CONTENT_VERSION}`);
-        if (!window.ESSAY_MEMORY_LESSONS?.[requestedKey]?.support) throw new Error('這篇範文的教材未能載入。');
-      }
+      await ensureLesson(requestedKey);
       if (appScript) await loadScript(appScript);
       document.body.classList.add('memory-authorized');
       gate.hidden = true;

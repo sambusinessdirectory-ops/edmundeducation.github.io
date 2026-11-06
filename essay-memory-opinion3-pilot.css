@@ -1,5 +1,7 @@
-/* Opinion 3 only: a paper-and-ink training terminal inspired by the supplied references. */
+/* Shared paper-and-ink memorization terminal; the approved Opinion 3 composition is reused for every essay. */
 body.opinion3-terminal{--pilot-ink:#151613;--pilot-paper:#d9d9ce;--pilot-light:#eeeadd;--pilot-red:#b6443d;--pilot-amber:#d39a55;--pilot-edge:#41433b;background:#272925;color:#e8e9de;font-family:"Arial Narrow",Inter,"Noto Sans TC",sans-serif}
+body.memory-switching .pilot-cockpit{pointer-events:none}
+body.memory-switching .pilot-cockpit::after{content:"LOADING FILE / 正在切換範文";position:absolute;inset:0;z-index:40;display:grid;place-items:center;background:#151613d9;color:#f1ead9;font:800 clamp(16px,2vw,26px)/1 "Arial Narrow",Inter,"Noto Sans TC",sans-serif;letter-spacing:.12em}
 body.opinion3-terminal::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at 1px 1px,#0c0d0b62 1px,transparent 1.4px) 0 0/7px 7px,radial-gradient(ellipse at 50% 20%,transparent 32%,#0809079a 100%);opacity:.78}
 body.opinion3-terminal .memory-header{position:relative;z-index:4;min-height:64px;padding:8px 112px 8px 22px;border:0;border-bottom:4px solid #0e100f;background:#b9bcb0;color:#101210;box-shadow:inset 0 -1px #e6e6d2}
 body.opinion3-terminal .edmund-system-switcher__copy strong,body.opinion3-terminal .edmund-system-switcher__copy small{color:#181b16}

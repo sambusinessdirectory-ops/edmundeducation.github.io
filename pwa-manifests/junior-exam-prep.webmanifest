@@ -1,8 +1,8 @@
 {
   "id": "/apps/junior-exam-prep",
-  "name": "初中考試溫習系統｜EdmundEducation",
-  "short_name": "初中考試溫習",
-  "description": "初中考試溫習系統（Junior Exam Preparation）EdmundEducation 學習系統。",
+  "name": "考試溫習系統｜EdmundEducation",
+  "short_name": "考試溫習",
+  "description": "考試溫習系統（Exam Preparation）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
   "start_url": "/junior-exam-prep.html?source=pwa",

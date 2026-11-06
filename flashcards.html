@@ -4041,6 +4041,294 @@
       .study-layout { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
     }
 
+    .study-side:not(.answer-revealed) .action-rail {
+      display: none;
+    }
+
+    @media (max-width: 680px) {
+      body.flashcard-study-active .flash-shell {
+        width: min(100% - 16px, 1480px);
+        padding-top: 8px;
+      }
+
+      body.flashcard-study-active .app-view {
+        gap: 8px;
+      }
+
+      body.flashcard-study-active .breadcrumbs {
+        height: 40px;
+        min-height: 40px;
+        margin: 0 0 6px;
+        padding: 3px 5px;
+        gap: 4px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        border-radius: 12px;
+        box-shadow: 0 6px 14px rgba(17,43,85,0.07);
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      body.flashcard-study-active .breadcrumbs::-webkit-scrollbar {
+        display: none;
+      }
+
+      body.flashcard-study-active .crumb-button,
+      body.flashcard-study-active .crumb-current {
+        min-width: 0;
+        min-height: 30px;
+        max-width: min(58vw, 250px);
+        flex: 0 0 auto;
+        padding: 0 9px;
+        overflow: hidden;
+        border-radius: 9px;
+        font-size: 11px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      body.flashcard-study-active .crumb-button:first-child {
+        max-width: 94px;
+      }
+
+      body.flashcard-study-active .crumb-separator {
+        flex: 0 0 auto;
+        font-size: 11px;
+      }
+
+      body.flashcard-study-active .deck-card[data-deck-view] {
+        padding: 10px;
+        border-radius: 17px;
+      }
+
+      body.flashcard-study-active .deck-card > .section-head {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 7px;
+      }
+
+      body.flashcard-study-active .deck-card > .section-head > div {
+        min-width: 0;
+      }
+
+      body.flashcard-study-active .deck-card > .section-head h2 {
+        margin: 0;
+        overflow: hidden;
+        font-size: 18px;
+        line-height: 1.15;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      body.flashcard-study-active .deck-card > .section-head p {
+        margin: 2px 0 0;
+        overflow: hidden;
+        font-size: 10px;
+        line-height: 1.2;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      body.flashcard-study-active .session-timer-pill {
+        min-width: 0;
+        min-height: 34px;
+        padding: 0 9px;
+        border-radius: 10px;
+        font-size: 12px;
+        box-shadow: none;
+      }
+
+      body.flashcard-study-active .study-top {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 4px;
+        margin-bottom: 6px;
+      }
+
+      body.flashcard-study-active .stat-pill {
+        min-width: 0;
+        min-height: 34px;
+        padding: 4px;
+        border-radius: 9px;
+        overflow: hidden;
+        font-size: 10px;
+        line-height: 1.15;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      body.flashcard-study-active .stat-pill.review-trigger {
+        text-align: center;
+      }
+
+      body.flashcard-study-active .session-progress {
+        gap: 4px;
+        margin: 0 0 7px;
+        padding: 5px 7px;
+        border-radius: 9px;
+      }
+
+      body.flashcard-study-active .session-progress-line {
+        font-size: 10px;
+      }
+
+      body.flashcard-study-active .session-progress-track {
+        height: 6px;
+      }
+
+      body.flashcard-study-active .study-layout {
+        gap: 7px;
+        padding-bottom: 12px;
+      }
+
+      body.flashcard-study-active .study-main {
+        gap: 7px;
+      }
+
+      body.flashcard-study-active .flash-frame {
+        min-height: 0;
+        padding: 12px;
+        border-radius: 17px;
+      }
+
+      body.flashcard-study-active .flash-frame.front {
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        overflow: visible;
+      }
+
+      body.flashcard-study-active .card-corner-controls {
+        position: static;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 6px;
+        margin: 0 0 6px;
+        order: -1;
+      }
+
+      body.flashcard-study-active .sound-card-button {
+        width: 42px;
+        height: 42px;
+        padding: 5px;
+        border-radius: 11px;
+        box-shadow: 0 5px 12px rgba(17,43,85,0.10);
+      }
+
+      body.flashcard-study-active .pronunciation-mic-button {
+        width: 42px !important;
+        height: 42px !important;
+        border-radius: 11px !important;
+        box-shadow: 0 5px 12px rgba(17,43,85,0.10) !important;
+      }
+
+      body.flashcard-study-active .pronunciation-settings-button {
+        width: auto !important;
+        max-width: none !important;
+        min-height: 42px !important;
+        padding: 5px 8px !important;
+        font-size: 10px !important;
+      }
+
+      body.flashcard-study-active .bookmark-card-button {
+        width: 28px;
+        height: 40px;
+        filter: drop-shadow(0 5px 10px rgba(17,43,85,0.12));
+      }
+
+      body.flashcard-study-active [data-eddy-pass] {
+        width: 42px;
+        height: 42px;
+      }
+
+      body.flashcard-study-active .front-card-content {
+        gap: 10px;
+        padding-right: 0;
+      }
+
+      body.flashcard-study-active .front-term,
+      body.flashcard-study-active .back-term {
+        font-size: clamp(32px, 11vw, 48px);
+        line-height: 1.02;
+      }
+
+      body.flashcard-study-active .back-meaning {
+        margin-top: 9px;
+        font-size: clamp(22px, 7vw, 34px);
+      }
+
+      body.flashcard-study-active .front-examples,
+      body.flashcard-study-active .examples-list {
+        gap: 8px;
+        font-size: clamp(14px, 4.15vw, 17px);
+        line-height: 1.3;
+      }
+
+      body.flashcard-study-active .examples-list {
+        margin-top: 16px;
+      }
+
+      body.flashcard-study-active .example-line {
+        gap: 3px;
+      }
+
+      body.flashcard-study-active [data-card-hint] {
+        margin: 0;
+        font-size: 11px;
+      }
+
+      body.flashcard-study-active .study-side {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 6px;
+        padding: 6px;
+        border-radius: 13px;
+      }
+
+      body.flashcard-study-active .study-action-dock {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 6px;
+      }
+
+      body.flashcard-study-active .mobile-study-tools {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 5px;
+      }
+
+      body.flashcard-study-active .mobile-study-tools .secondary-button {
+        min-height: 34px;
+        padding: 0 5px;
+        font-size: 10px;
+      }
+
+      body.flashcard-study-active .mobile-countdown {
+        display: none !important;
+      }
+
+      body.flashcard-study-active .study-side:not(.answer-revealed) .action-rail {
+        display: none;
+      }
+
+      body.flashcard-study-active .study-side.answer-revealed .action-rail {
+        display: grid;
+      }
+
+      body.flashcard-study-active.flashcard-answer-revealed .study-layout {
+        padding-bottom: calc(82px + env(safe-area-inset-bottom));
+      }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       html {
         scroll-behavior: auto;
@@ -4073,7 +4361,7 @@
     @media (prefers-reduced-motion: reduce) { .login-progress-fill { transition: none; } .login-progress-fill::after { animation: none !important; } }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20261104-system-catalogue1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261106-mobile-header1">
 <link rel="stylesheet" href="flashcard-theme.css?v=20260910-night3">
   <link rel="stylesheet" href="flashcards-reading-embed.css?v=20260910-1">
   <script src="language-learning.js?v=20260914-six-languages-1"></script>
@@ -4205,7 +4493,7 @@
             let ready = false, active = true, mode = "startup", value = 5;
             let startedAt = Date.now(), stageAt = startedAt, timer, hideTimer;
             let resources = 0, resourcePhase = true;
-            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js","flashcards-ielts-writing-data.js?v=20260713-1","flashcards-ielts-reading-index.js?v=20260731-1","dse-writing-part-b-links.js?v=20260911-1","essay-portal-links.js?v=20260730-1","supabase-config.js","eddy-global-dialogues.js?v=20261027-homeonly1","shared-system-nav.js?v=20261104-system-catalogue1","flashcards-data-catalog.js?v=20261027-last-train","dse-writing-part-b-topics.js?v=20260911-1","edmund-audio-config.js?v=1","italian-1-burro-montato-data.js?v=20260914-1","italian-1-audio.js?v=20260914-1","italian-2-torta-coi-bischeri-data.js?v=20260929-2","italian-2-audio.js?v=20260929-1","french-1-fondant-data.js?v=20260914-1","french-1-audio.js?v=20260914-1"];
+            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js","flashcards-ielts-writing-data.js?v=20260713-1","flashcards-ielts-reading-index.js?v=20260731-1","dse-writing-part-b-links.js?v=20260911-1","essay-portal-links.js?v=20260730-1","supabase-config.js","eddy-global-dialogues.js?v=20261027-homeonly1","shared-system-nav.js?v=20261106-mobile-header1","flashcards-data-catalog.js?v=20261027-last-train","dse-writing-part-b-topics.js?v=20260911-1","edmund-audio-config.js?v=1","italian-1-burro-montato-data.js?v=20260914-1","italian-1-audio.js?v=20260914-1","italian-2-torta-coi-bischeri-data.js?v=20260929-2","italian-2-audio.js?v=20260929-1","french-1-fondant-data.js?v=20260914-1","french-1-audio.js?v=20260914-1"];
             const pendingResources = new Set(resourceSources);
             form.addEventListener("submit", event => {
               event.preventDefault();
@@ -4900,7 +5188,7 @@
   <script src="dse-writing-part-b-links.js?v=20260911-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="supabase-config.js"></script>
-  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261104-system-catalogue1"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261106-mobile-header1"></script>
   <script>window.EDMUND_FLASHCARD_SEED = window.EDMUND_FLASHCARD_SEED || {};</script>
   <script src="flashcards-data-catalog.js?v=20261027-last-train"></script>
   <script src="dse-writing-part-b-topics.js?v=20260911-1"></script>
@@ -11888,7 +12176,7 @@
       if (activeSpeechAudio) stopNeuralSpeech({ refresh: false });
       currentView = "login";
       viewStack = [];
-      document.body.classList.remove("app-active", "admin-background-active", "dashboard-background-active", "advanced-background-active");
+      document.body.classList.remove("app-active", "admin-background-active", "dashboard-background-active", "advanced-background-active", "flashcard-study-active", "flashcard-answer-revealed");
       document.querySelector("[data-login-view]")?.classList.remove("hidden");
       document.querySelector("[data-app-view]")?.classList.add("hidden");
       document.querySelector("[data-back]")?.classList.add("hidden");
@@ -11979,6 +12267,8 @@
       const appView = document.querySelector("[data-app-view]");
       appView?.classList.remove("hidden");
       document.body.classList.add("app-active");
+      document.body.classList.toggle("flashcard-study-active", view === "deck-view");
+      if (view !== "deck-view") document.body.classList.remove("flashcard-answer-revealed");
       appView?.classList.toggle("admin-page-bg", view === "admin-panel");
       document.body.classList.toggle("admin-background-active", isAdmin() && view === "admin-panel");
       document.body.classList.toggle("dashboard-background-active", isAdminContext() && view === "dashboard");
@@ -16886,6 +17176,7 @@
       const frontTerm = document.querySelector("[data-front-term]");
       const frontExamples = document.querySelector("[data-front-examples]");
       const backCard = document.querySelector("[data-back-card]");
+      const studySide = document.querySelector("[data-study-review-panel]");
       const greenButton = document.querySelector("[data-mark-card='green']");
       const redButton = document.querySelector("[data-mark-card='red']");
       const prevButtons = document.querySelectorAll("[data-prev-study-card]");
@@ -16927,6 +17218,8 @@
         frontTerm.textContent = completed ? "本卡組已完成。" : (studySession?.cards.length ? "本輪完成。" : "暫時未有卡片。");
         if (frontExamples) frontExamples.innerHTML = completed ? completionSummaryHtml() : "";
         backCard.classList.add("hidden");
+        studySide?.classList.remove("answer-revealed");
+        document.body.classList.remove("flashcard-answer-revealed");
         greenButton.disabled = true;
         redButton.disabled = true;
         prevButtons.forEach(button => { button.disabled = true; });
@@ -16984,8 +17277,10 @@
           </div>
         `;
       backCard.classList.toggle("hidden", !studySession.flipped);
-      greenButton.disabled = false;
-      redButton.disabled = false;
+      studySide?.classList.toggle("answer-revealed", studySession.flipped);
+      document.body.classList.toggle("flashcard-answer-revealed", studySession.flipped);
+      greenButton.disabled = !studySession.flipped;
+      redButton.disabled = !studySession.flipped;
       prevButtons.forEach(button => {
         button.disabled = studySession.currentPosition <= 0;
       });
@@ -17007,8 +17302,8 @@
         bookmarkButton.setAttribute("title", bookmarked ? "移除書簽" : "加入書簽");
       }
       if (cardHint) cardHint.textContent = reversalMode
-        ? "中英反轉模式：點擊卡片查看英文；亦可直接按綠勾／紅叉記錄。"
-        : "點擊卡片即可揭示答案；也可直接按綠勾／紅叉記錄。";
+        ? "中英反轉模式：點擊卡片查看英文；翻開後才可選擇綠勾或紅叉。"
+        : "點擊卡片即可揭示答案；翻開後才可選擇綠勾或紅叉。";
       greenButton.textContent = studySession.answers[cardIndex] === "green" ? "✓" : "✓";
       redButton.textContent = studySession.answers[cardIndex] === "red" ? "×" : "×";
       if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
@@ -17689,7 +17984,7 @@
 
     function markCard(result) {
       queueMicrotask(() => classroomLive?.publish());
-      if (studyCardSwipeAnimating || !studySession || !currentCard()) return;
+      if (studyCardSwipeAnimating || !studySession || !currentCard() || !studySession.flipped) return;
       studySession.classroomFollowing=false;
       cancelStudyCardSwipe();
       stopNeuralSpeech({ refresh: false });
