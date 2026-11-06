@@ -4,4 +4,7 @@
 /tools/check-pages-build-environment.rb
 /tools/pages-artifact-inventory.py
 /tools/prune-verified-pages-media.py
+/tools/rewrite-pages-public-media.py
+/tools/test-rewrite-pages-public-media.py
+/tools/pages-media-saved-links.txt
 /workers/edmund-public-media/src/media.json

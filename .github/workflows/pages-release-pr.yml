@@ -21,8 +21,10 @@ jobs:
             /tools/test-pages-recovery-rehearsal.py
             /tools/test-verify-pages-media-route.py
             /tools/test-verify-pages-live-journeys.py
+            /tools/test-rewrite-pages-public-media.py
             /tools/verify-pages-media-route.py
             /tools/verify-pages-live-journeys.py
+            /tools/rewrite-pages-public-media.py
       - name: Lint the candidate release workflows
         run: |
           archive="$RUNNER_TEMP/actionlint.tar.gz"
@@ -40,6 +42,7 @@ jobs:
           tools/test-pages-recovery-rehearsal.py
           tools/test-verify-pages-media-route.py
           tools/test-verify-pages-live-journeys.py
+          tools/test-rewrite-pages-public-media.py
       - name: Replay publisher decisions
         run: node --test tools/test-pages-publisher.cjs
       - name: Rehearse focused checkout and early publication contracts

@@ -220,6 +220,19 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
                 self.assertIn("id: artifact\n", workflow)
                 self.assertIn("name=${BASE_NAME}${suffix}", workflow)
 
+    def test_worker_origin_cutover_rewrites_before_pruning_and_forces_mode_transition_full(self):
+        for workflow in BUILDERS:
+            with self.subTest(builder=workflow.splitlines()[0]):
+                rewrite = workflow.index("rewrite-pages-public-media.py")
+                prune = workflow.index("prune-verified-pages-media.py", rewrite)
+                marker = workflow.index(".r2-public-media-origin", prune)
+                self.assertLess(rewrite, prune)
+                self.assertLess(prune, marker)
+                self.assertIn("edmund-public-media.edmundeducation.workers.dev", workflow)
+                self.assertIn("pages-media-saved-links.txt", workflow)
+        self.assertIn('snapshot_origin=$(git show "${snapshot_commit}:.r2-public-media-origin"', BUILDERS[0])
+        self.assertIn('"${snapshot_origin}" == "${expected_origin}"', BUILDERS[0])
+
     def test_router_compares_against_deployed_snapshot(self):
         self.assertIn("refs/heads/pages-snapshot", COORDINATOR)
         self.assertIn('git show "${snapshot_commit}:.source-sha"', COORDINATOR)

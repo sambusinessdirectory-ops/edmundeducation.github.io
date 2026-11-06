@@ -34,6 +34,8 @@ jobs:
       pages: read
     outputs:
       artifact_name: ${{ steps.artifact.outputs.name }}
+    env:
+      PAGES_MEDIA_ORIGIN: https://edmund-public-media.edmundeducation.workers.dev
 
     steps:
       - name: Reclaim runner disk for the website repository
@@ -381,6 +383,7 @@ jobs:
         id: preparation
         env:
           FOCUSED: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[full-artifact]') }}
+          CUTOVER: ${{ vars.PAGES_R2_CUTOVER }}
         shell: bash
         run: |
           set -euo pipefail
@@ -398,7 +401,11 @@ jobs:
           git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_sha}"
 
           mode=full
-          if [[ "${FOCUSED}" == true ]] && git merge-base --is-ancestor "${snapshot_sha}" "${GITHUB_SHA}"; then
+          snapshot_origin=$(git show "${snapshot_commit}:.r2-public-media-origin" 2>/dev/null || true)
+          expected_origin=
+          if [[ "${CUTOVER}" == true ]]; then expected_origin="${PAGES_MEDIA_ORIGIN}"; fi
+          if [[ "${snapshot_origin}" == "${expected_origin}" && "${FOCUSED}" == true ]] && \
+              git merge-base --is-ancestor "${snapshot_sha}" "${GITHUB_SHA}"; then
             mode=$(python3 tools/prepare-pages-incremental.py classify \
               --base "${snapshot_sha}" \
               --target "${GITHUB_SHA}")
@@ -1779,9 +1786,18 @@ jobs:
             exit 1
           fi
 
-      - name: Remove verified R2 replicas only after same-domain cutover
+      - name: Rewrite public media to the verified Worker and remove R2 replicas
         if: vars.PAGES_R2_CUTOVER == 'true'
-        run: python3 tools/prune-verified-pages-media.py _site workers/edmund-public-media/src/media.json
+        run: |
+          python3 -m unittest tools/test-rewrite-pages-public-media.py
+          python3 tools/rewrite-pages-public-media.py \
+            _site workers/edmund-public-media/src/media.json \
+            --origin "${PAGES_MEDIA_ORIGIN}"
+          python3 tools/prune-verified-pages-media.py \
+            _site workers/edmund-public-media/src/media.json \
+            --origin "${PAGES_MEDIA_ORIGIN}" \
+            --keep-list tools/pages-media-saved-links.txt
+          printf '%s\n' "${PAGES_MEDIA_ORIGIN}" > _site/.r2-public-media-origin
 
       - name: Remove editorial QA reports and measure the upload
         env:
