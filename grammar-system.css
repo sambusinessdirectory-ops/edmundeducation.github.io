@@ -96,7 +96,7 @@
   aspect-ratio: 1671 / 820;
   overflow: hidden;
   border-radius: 18px;
-  background: #101d1b url("grammar-eddy-dialogues/blackboard-imagegen-framed-v2.webp?v=20261106-live-assets1") center / 100% 100% no-repeat;
+  background: #101d1b url("https://edmund-public-media.edmundeducation.workers.dev/grammar-eddy-dialogues/blackboard-imagegen-framed-v2.webp?v=20261106-live-assets2") center / 100% 100% no-repeat;
   box-shadow: 0 3px 12px #36211345;
 }
 .grammar-eddy-dialogue__art > img { position: absolute; z-index: 2; right: 0; bottom: 0; display: block; width: min(52%, 510px); height: auto; clip-path: inset(0 0 40% 0); pointer-events: none; }

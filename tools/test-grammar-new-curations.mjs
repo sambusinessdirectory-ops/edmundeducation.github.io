@@ -31,6 +31,7 @@ for (const [index, [slug, prefix, count]] of [["so", "S", 30], ["modal", "M", 42
 assert.match(html, /grammar-new-curations-data\.js\?v=/);
 assert.match(html, /grammar-new-curations\.js\?v=/);
 assert.match(css, /\.grammar-new-body table/);
+assert.match(css, /https:\/\/edmund-public-media\.edmundeducation\.workers\.dev\/grammar-eddy-dialogues\/blackboard-imagegen-framed-v2\.webp\?v=20261106-live-assets2/);
 assert.match(runtime, /data-new-grammar-curation/);
 
 const require = createRequire(new URL("./email-qa/package.json", import.meta.url));
@@ -55,7 +56,7 @@ for (const [index, lesson] of lessons.entries()) {
   assert.equal(dialogues.length, lesson.count);
   if (lesson.slug === "unless") {
     assert.deepEqual([...dialogues].map((dialogue) => dialogue.dataset.rule), Array.from({ length: 24 }, (_, i) => String(i + 1).padStart(2, "0")));
-    assert.ok([...dialogues].every((dialogue) => dialogue.querySelector("img")?.getAttribute("src") === `grammar-eddy-dialogues/unless/eddy-${dialogue.dataset.rule}.webp?v=20261106-live-assets1`));
+    assert.ok([...dialogues].every((dialogue) => dialogue.querySelector("img")?.getAttribute("src") === `https://edmund-public-media.edmundeducation.workers.dev/grammar-eddy-dialogues/unless/eddy-${dialogue.dataset.rule}.webp?v=20261106-live-assets2`));
     assert.match(dialogues[20].querySelector("figcaption").textContent, /短答能依賴前一句/);
     assert.equal(dialogues[23].querySelector("figcaption").textContent, "看看例句就清楚了！");
   }
