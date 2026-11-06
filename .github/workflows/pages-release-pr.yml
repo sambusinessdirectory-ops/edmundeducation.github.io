@@ -1,5 +1,8 @@
-name: Rehearse Pages release contracts
-on: pull_request
+name: Verify Pages release candidate
+on:
+  push:
+    branches:
+      - 'codex/**'
 permissions:
   contents: read
 jobs:
@@ -9,6 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
+          fetch-depth: 100
+          filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /.github/workflows/
@@ -25,6 +30,16 @@ jobs:
             /tools/verify-pages-media-route.py
             /tools/verify-pages-live-journeys.py
             /tools/rewrite-pages-public-media.py
+      - name: Resolve the candidate against current main
+        id: candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          git -c protocol.version=2 fetch --no-tags --depth=100 --filter=blob:none origin main
+          base=$(git merge-base "${GITHUB_SHA}" FETCH_HEAD)
+          test -n "${base}"
+          echo "base=${base}" >> "${GITHUB_OUTPUT}"
+          echo "Candidate ${GITHUB_SHA} will be verified against main merge base ${base}." >> "${GITHUB_STEP_SUMMARY}"
       - name: Lint the candidate release workflows
         run: |
           archive="$RUNNER_TEMP/actionlint.tar.gz"
@@ -47,6 +62,6 @@ jobs:
         run: node --test tools/test-pages-publisher.cjs
       - name: Rehearse focused checkout and early publication contracts
         env:
-          RELEASE_BASE: ${{ github.event.pull_request.base.sha }}
+          RELEASE_BASE: ${{ steps.candidate.outputs.base }}
           RELEASE_TAGS: '[fast-deploy] [writing-release] [downloads-release] [shared-header-release]'
         run: ruby tools/pages-pr-rehearsal.rb

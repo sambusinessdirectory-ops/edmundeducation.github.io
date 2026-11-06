@@ -316,6 +316,13 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
             with self.subTest(path=path):
                 self.assertIn(path, infrastructure)
 
+    def test_candidate_contracts_do_not_require_a_pull_request(self):
+        candidate = (WORKFLOWS / "pages-release-pr.yml").read_text(encoding="utf-8")
+        self.assertIn("branches:\n      - 'codex/**'", candidate)
+        self.assertNotIn("pull_request:", candidate)
+        self.assertIn('git merge-base "${GITHUB_SHA}" FETCH_HEAD', candidate)
+        self.assertIn("RELEASE_BASE: ${{ steps.candidate.outputs.base }}", candidate)
+
     def test_router_status_names_dependency_owners_and_consolidated_commits(self):
         self.assertIn("### Dependency classification", COORDINATOR)
         self.assertIn("### Consolidated commits", COORDINATOR)

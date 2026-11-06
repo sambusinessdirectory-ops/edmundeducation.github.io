@@ -51,13 +51,19 @@ under `$RUNNER_TEMP/pages-browser`.
 Each sparse source checkout appends `tools/pages-validation-paths` before
 materializing files. Add a small file or directory there when validators on
 multiple routes read it. Keep large fixtures in their system's checkout rules.
-The coordinator checks these contracts before starting a builder. Pull requests
-that change the build environment also launch all three browsers on that runner.
+The coordinator checks these contracts before starting a builder. Candidate
+commits are pushed to a `codex/**` branch first, where the `contracts` job
+verifies the exact commit against its current `main` merge base. The `main`
+ruleset requires that green status but does not require a pull request, review,
+approval, merge click, or restart commit. A verified candidate can therefore be
+fast-forwarded directly to `main`; any changed commit must pass again under its
+own identity. Changes to the build environment also launch all three browsers
+on that runner.
 
 ## Operating a release
 
 Use one coordinator run as the shared status record. Record feature commit, request time
-and expected public behavior there or in the feature's PR. Follow the structured build,
+and expected public behavior there or in the candidate check summary. Follow the structured build,
 deploy and verify steps. An active or skipped job does not prove publication. A later
 candidate may contain the feature; use `pages-release-report.py --feature FULL_SHA` to
 name that containing release, then check the student's actual route.
