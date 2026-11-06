@@ -5,7 +5,8 @@ export async function loadModule(id){
  const indexed=moduleMap.get(id);
  if(!indexed)throw Error('Unknown module');
  if(!indexed.mass||indexed.loaded)return indexed;
- const loaded=(await import(`./content/${encodeURIComponent(id)}.mjs?v=20261025-fairness1`)).default;
+ const contentRevision=id==='light'?'20261106-light-snow1':'20261025-fairness1';
+ const loaded=(await import(`./content/${encodeURIComponent(id)}.mjs?v=${contentRevision}`)).default;
  if(loaded.id!==id||loaded.number!==indexed.number)throw Error('Lesson content does not match its index');
  loaded.loaded=true;
  const at=modules.findIndex(module=>module.id===id);

@@ -340,11 +340,23 @@ export default {
           "There will be light rain this afternoon.",
           "今天下午會有小雨。",
           "小雨"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "light-mcq-17b",
+      "title": "小雪；微雪",
+      "form": "light snow",
+      "en": "light snow",
+      "zh": "小雪；微雪",
+      "note": "來源詞義：小雪；微雪",
+      "examples": [
         [
           "We had light snow overnight.",
           "昨晚下了小雪。",
-          "小雨"
+          "小雪；微雪"
         ]
       ],
       "options": [],
@@ -2018,24 +2030,24 @@ export default {
       "zh": "昨晚下了小雪。",
       "masked": "We had ____ overnight.",
       "options": [
-        "light-mcq-17",
+        "light-mcq-17b",
         "light-mcq-10",
         "light-mcq-20",
         "light-mcq-22"
       ],
-      "explanation": "本句的「light snow」指「小雨」。",
+      "explanation": "本句的「light snow」指「小雪；微雪」。",
       "sentenceIndex": 38,
       "sourcePractice": 2,
       "targets": [
         "light snow"
       ],
       "optionReasons": {
-        "light-mcq-17": "本句的「light snow」指「小雨」。",
+        "light-mcq-17b": "本句的「light snow」指「小雪；微雪」。",
         "light-mcq-10": "請比較這個意思與句子中標示的用法。",
         "light-mcq-20": "請比較這個意思與句子中標示的用法。",
         "light-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "light-mcq-17"
+      "correctOption": "light-mcq-17b"
     },
     {
       "id": "light-20-0",
