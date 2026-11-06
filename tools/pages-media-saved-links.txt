@@ -1,4 +1,17 @@
 # Representative addresses already shared with students. Keep these exact paths valid.
+# Header mascots must stay same-origin for school networks that block workers.dev.
+sentence-celeste/celeste-sentence-lab.gif
+sentence-celeste/stills/celeste-01.png
+sentence-celeste/stills/celeste-02.png
+sentence-celeste/stills/celeste-03.png
+sentence-celeste/stills/celeste-04.png
+sentence-celeste/stills/celeste-05.png
+polysemy-noir/noir-polysemy.gif
+polysemy-noir/stills/noir-01.png
+polysemy-noir/stills/noir-02.png
+polysemy-noir/stills/noir-03.png
+polysemy-noir/stills/noir-04.png
+polysemy-noir/stills/noir-05.png
 song-media/fly-me-to-the-moon/album.mp3
 song-media/shake-it-off/cover.webp
 polysemy-lab/audio/ec63dc1f6b8452443a9bceaf.mp3

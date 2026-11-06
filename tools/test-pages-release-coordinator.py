@@ -255,6 +255,7 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
                 self.assertLess(prune, marker)
                 self.assertIn("edmund-public-media.edmundeducation.workers.dev", workflow)
                 self.assertIn("pages-media-saved-links.txt", workflow)
+                self.assertIn("--keep-list", workflow[rewrite:prune])
         self.assertIn('snapshot_origin=$(git show "${snapshot_commit}:.r2-public-media-origin"', BUILDERS[0])
         self.assertIn('"${snapshot_origin}" == "${expected_origin}"', BUILDERS[0])
 

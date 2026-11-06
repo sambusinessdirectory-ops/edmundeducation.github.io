@@ -151,7 +151,8 @@ jobs:
           python3 -m unittest tools/test-rewrite-pages-public-media.py
           python3 tools/rewrite-pages-public-media.py \
             _site workers/edmund-public-media/src/media.json \
-            --origin "${PAGES_MEDIA_ORIGIN}"
+            --origin "${PAGES_MEDIA_ORIGIN}" \
+            --keep-list tools/pages-media-saved-links.txt
           python3 tools/prune-verified-pages-media.py \
             _site workers/edmund-public-media/src/media.json \
             --origin "${PAGES_MEDIA_ORIGIN}" \

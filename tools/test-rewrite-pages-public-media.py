@@ -25,6 +25,7 @@ class RewritePublicMediaTests(unittest.TestCase):
             "song-media/song/album.mp3": [0, 0, 6, "audio/mpeg", "oid"],
             "manuals/saved guide.pdf": [0, 6, 4, "application/pdf", "oid2"],
             "Static Images/sound-button.png": [0, 10, 4, "image/png", "oid3"],
+            "sentence-celeste/celeste-sentence-lab.gif": [0, 14, 4, "image/gif", "oid4"],
         }}))
 
     def test_relative_root_absolute_and_encoded_references_use_worker(self):
@@ -57,6 +58,23 @@ class RewritePublicMediaTests(unittest.TestCase):
         self.assertIn(
             rewrite.DEFAULT_ORIGIN + "/Static%20Images/sound-button.png",
             page.read_text(),
+        )
+
+    def test_keep_list_paths_remain_same_origin(self):
+        page = self.site / "sentence-structure.html"
+        page.write_text(
+            '<img src="sentence-celeste/celeste-sentence-lab.gif?v=20261022-3">'
+        )
+        result = rewrite.rewrite(
+            self.site,
+            self.index,
+            rewrite.DEFAULT_ORIGIN,
+            keep={"sentence-celeste/celeste-sentence-lab.gif"},
+        )
+        self.assertEqual(result["references"], 0)
+        self.assertEqual(
+            page.read_text(),
+            '<img src="sentence-celeste/celeste-sentence-lab.gif?v=20261022-3">',
         )
 
 

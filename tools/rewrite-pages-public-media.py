@@ -85,8 +85,9 @@ def candidates(site: Path):
             if path.is_file() and path.suffix.lower() in TEXT_EXTENSIONS)
 
 
-def rewrite(site: Path, index_file: Path, origin: str) -> dict:
-    entries = set(json.loads(index_file.read_text())["entries"])
+def rewrite(site: Path, index_file: Path, origin: str, keep=()) -> dict:
+    keep = set(keep)
+    entries = set(json.loads(index_file.read_text())["entries"]) - keep
     files = references = 0
     for path in candidates(site):
         original = path.read_text(encoding="utf-8")
@@ -103,10 +104,15 @@ def main() -> int:
     parser.add_argument("site", type=Path)
     parser.add_argument("index", type=Path)
     parser.add_argument("--origin", default=DEFAULT_ORIGIN)
+    parser.add_argument("--keep-list", type=Path, help="Newline-delimited paths to keep on Pages")
     args = parser.parse_args()
     if args.site.name != "_site" or not args.site.is_dir() or args.site.is_symlink():
         raise SystemExit("Expected a disposable _site artifact directory")
-    print(json.dumps(rewrite(args.site, args.index, args.origin), indent=2))
+    keep = []
+    if args.keep_list:
+        keep = [line.strip() for line in args.keep_list.read_text().splitlines()
+                if line.strip() and not line.lstrip().startswith("#")]
+    print(json.dumps(rewrite(args.site, args.index, args.origin, keep), indent=2))
     return 0
 
 
