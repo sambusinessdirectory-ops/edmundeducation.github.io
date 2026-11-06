@@ -1749,7 +1749,7 @@ export default {
     },
     {
       "id": "fail-22-0",
-      "sense": "fail-mcq-20",
+      "sense": "fail-mcq-16",
       "en": "The product was a commercial failure.",
       "zh": "這項產品在商業上是個失敗。",
       "masked": "The product was a commercial ____.",
@@ -1759,19 +1759,19 @@ export default {
         "fail-mcq-16",
         "fail-mcq-10"
       ],
-      "explanation": "本句的「failure」指「被認為沒有成功的人或事物」。",
+      "explanation": "本句的「commercial failure」指「產品在商業或市場上沒有成功」。",
       "sentenceIndex": 42,
       "sourcePractice": 1,
       "targets": [
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-20": "本句的「failure」指「被認為沒有成功的人或事物」。",
+        "fail-mcq-20": "請比較這個意思與句子中標示的用法。",
         "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
-        "fail-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-16": "本句的「commercial failure」指「產品在商業或市場上沒有成功」。",
         "fail-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fail-mcq-20"
+      "correctOption": "fail-mcq-16"
     },
     {
       "id": "fail-22-1",

@@ -625,7 +625,7 @@ export default {
   "questions": [
     {
       "id": "zone-01-0",
-      "sense": "zone-mcq-01",
+      "sense": "zone-mcq-12",
       "en": "Giving presentations helped me move beyond my comfort zone.",
       "zh": "做簡報幫助我走出自己的舒適圈。",
       "masked": "Giving presentations helped me move beyond my ____.",
@@ -635,23 +635,23 @@ export default {
         "zone-mcq-15",
         "zone-mcq-14"
       ],
-      "explanation": "本句的「comfort zone」指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
+      "explanation": "本句的「comfort zone」指「讓人感到熟悉、安全和有信心的舒適圈」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "comfort zone"
       ],
       "optionReasons": {
-        "zone-mcq-01": "本句的「comfort zone」指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
-        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "本句的「comfort zone」指「讓人感到熟悉、安全和有信心的舒適圈」。",
         "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
         "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "zone-mcq-01"
+      "correctOption": "zone-mcq-12"
     },
     {
       "id": "zone-01-1",
-      "sense": "zone-mcq-01",
+      "sense": "zone-mcq-12",
       "en": "Growth often begins when we leave our comfort zone.",
       "zh": "成長往往從離開舒適圈開始。",
       "masked": "Growth often begins when we leave our ____.",
@@ -661,19 +661,19 @@ export default {
         "zone-mcq-14",
         "zone-mcq-15"
       ],
-      "explanation": "本句的「comfort zone」指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
+      "explanation": "本句的「comfort zone」指「讓人感到熟悉、安全和有信心的舒適圈」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "comfort zone"
       ],
       "optionReasons": {
-        "zone-mcq-01": "本句的「comfort zone」指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
-        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "本句的「comfort zone」指「讓人感到熟悉、安全和有信心的舒適圈」。",
         "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
         "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "zone-mcq-01"
+      "correctOption": "zone-mcq-12"
     },
     {
       "id": "zone-02-0",

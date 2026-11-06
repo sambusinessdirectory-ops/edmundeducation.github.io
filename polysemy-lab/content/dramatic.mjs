@@ -576,7 +576,7 @@ export default {
     },
     {
       "id": "dramatic-02-0",
-      "sense": "dramatic-mcq-02",
+      "sense": "dramatic-mcq-04",
       "en": "There was a dramatic increase in prices.",
       "zh": "價格出現大幅上升。",
       "masked": "There was a ____ in prices.",
@@ -586,23 +586,23 @@ export default {
         "dramatic-mcq-10",
         "dramatic-mcq-06"
       ],
-      "explanation": "本句的「dramatic increase」指「戲劇性場面」。",
+      "explanation": "本句的「dramatic increase」指「大幅增加」。",
       "sentenceIndex": 3,
       "sourcePractice": 1,
       "targets": [
         "dramatic increase"
       ],
       "optionReasons": {
-        "dramatic-mcq-02": "本句的「dramatic increase」指「戲劇性場面」。",
-        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "本句的「dramatic increase」指「大幅增加」。",
         "dramatic-mcq-10": "請比較這個意思與句子中標示的用法。",
         "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "dramatic-mcq-02"
+      "correctOption": "dramatic-mcq-04"
     },
     {
       "id": "dramatic-02-1",
-      "sense": "dramatic-mcq-02",
+      "sense": "dramatic-mcq-06",
       "en": "The treatment led to a dramatic improvement.",
       "zh": "治療帶來了顯著改善。",
       "masked": "The treatment led to a ____.",
@@ -612,19 +612,19 @@ export default {
         "dramatic-mcq-06",
         "dramatic-mcq-07"
       ],
-      "explanation": "本句的「dramatic improvement」指「戲劇性場面」。",
+      "explanation": "本句的「dramatic improvement」指「顯著改善」。",
       "sentenceIndex": 4,
       "sourcePractice": 2,
       "targets": [
         "dramatic improvement"
       ],
       "optionReasons": {
-        "dramatic-mcq-02": "本句的「dramatic improvement」指「戲劇性場面」。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。",
         "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
-        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "本句的「dramatic improvement」指「顯著改善」。",
         "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "dramatic-mcq-02"
+      "correctOption": "dramatic-mcq-06"
     },
     {
       "id": "dramatic-03-0",

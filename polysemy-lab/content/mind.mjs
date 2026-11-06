@@ -957,23 +957,23 @@ export default {
     {
       "id": "mind-01-0",
       "sense": "mind-mcq-01",
-      "en": "My mind would go blank.",
-      "zh": "我的腦袋會一片空白。",
-      "masked": "My ____.",
+      "en": "The human mind can solve complex problems.",
+      "zh": "人類的心智能夠解決複雜問題。",
+      "masked": "The human ____ can solve complex problems.",
       "options": [
         "mind-mcq-01",
         "mind-mcq-29",
         "mind-mcq-27",
         "mind-mcq-24"
       ],
-      "explanation": "本句的「mind would go blank」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+      "explanation": "本句的「mind」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
-        "mind would go blank"
+        "mind"
       ],
       "optionReasons": {
-        "mind-mcq-01": "本句的「mind would go blank」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+        "mind-mcq-01": "本句的「mind」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
         "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
         "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
         "mind-mcq-24": "請比較這個意思與句子中標示的用法。"

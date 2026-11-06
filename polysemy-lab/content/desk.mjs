@@ -1028,29 +1028,29 @@ export default {
     },
     {
       "id": "desk-13-1",
-      "sense": "desk-mcq-18",
+      "sense": "desk-mcq-03",
       "en": "Please report to the security desk.",
       "zh": "請到保安服務台報到。",
       "masked": "Please report to the security ____.",
       "options": [
-        "desk-mcq-18",
+        "desk-mcq-03",
         "desk-mcq-02",
         "desk-mcq-08",
         "desk-mcq-05"
       ],
-      "explanation": "本句的「desk」指「表示工作崗位；辦公位置」。",
+      "explanation": "本句的「security desk」指「提供保安服務或辦理報到的服務台／櫃檯」。",
       "sentenceIndex": 25,
       "sourcePractice": 2,
       "targets": [
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-18": "本句的「desk」指「表示工作崗位；辦公位置」。",
+        "desk-mcq-03": "本句的「security desk」指「提供保安服務或辦理報到的服務台／櫃檯」。",
         "desk-mcq-02": "請比較這個意思與句子中標示的用法。",
         "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
         "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "desk-mcq-18"
+      "correctOption": "desk-mcq-03"
     },
     {
       "id": "desk-15-0",

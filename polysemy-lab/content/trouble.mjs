@@ -626,7 +626,7 @@ export default {
     },
     {
       "id": "trouble-05-1",
-      "sense": "trouble-mcq-05",
+      "sense": "trouble-mcq-16",
       "en": "It’s no trouble at all.",
       "zh": "一點也不麻煩／不費事。",
       "masked": "It’s no ____ at all.",
@@ -636,19 +636,19 @@ export default {
         "trouble-mcq-14",
         "trouble-mcq-16"
       ],
-      "explanation": "本句的「trouble」指「為完成某件事情而需要付出的額外工夫、時間或不便」。",
+      "explanation": "本句的「no trouble at all」表示「一點也不麻煩／不費事」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-05": "本句的「trouble」指「為完成某件事情而需要付出的額外工夫、時間或不便」。",
+        "trouble-mcq-05": "請比較這個意思與句子中標示的用法。",
         "trouble-mcq-07": "請比較這個意思與句子中標示的用法。",
         "trouble-mcq-14": "請比較這個意思與句子中標示的用法。",
-        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。"
+        "trouble-mcq-16": "本句的「no trouble at all」表示「一點也不麻煩／不費事」。"
       },
-      "correctOption": "trouble-mcq-05"
+      "correctOption": "trouble-mcq-16"
     },
     {
       "id": "trouble-06-0",

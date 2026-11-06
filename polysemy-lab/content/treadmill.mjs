@@ -1403,79 +1403,79 @@ export default {
     },
     {
       "id": "treadmill-34-1",
-      "sense": "treadmill-mcq-21",
+      "sense": "treadmill-mcq-01",
       "en": "She is on a treadmill.",
       "zh": "= 她在跑步機上。",
       "masked": "She is on a ____.",
       "options": [
-        "treadmill-mcq-21",
+        "treadmill-mcq-01",
         "treadmill-mcq-04",
         "treadmill-mcq-14"
       ],
-      "explanation": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+      "explanation": "本句的「treadmill」指「讓人在原地步行或跑步的健身器材；跑步機」。",
       "sentenceIndex": 59,
       "sourcePractice": 34,
       "targets": [
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-01": "本句的「treadmill」指「讓人在原地步行或跑步的健身器材；跑步機」。",
         "treadmill-mcq-04": "請比較這個意思與句子中標示的用法。",
         "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "treadmill-mcq-21"
+      "correctOption": "treadmill-mcq-01"
     },
     {
       "id": "treadmill-34-2",
-      "sense": "treadmill-mcq-21",
+      "sense": "treadmill-mcq-11",
       "en": "He feels trapped on the treadmill.",
       "zh": "= 他覺得自己陷入沒完沒了的循環。",
       "masked": "He feels trapped on the ____.",
       "options": [
-        "treadmill-mcq-21",
+        "treadmill-mcq-11",
         "treadmill-mcq-04",
         "treadmill-mcq-14"
       ],
-      "explanation": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+      "explanation": "本句的「on the treadmill」指「陷入需要不停努力和重複、卻沒有真正終點的循環」。",
       "sentenceIndex": 60,
       "sourcePractice": 34,
       "targets": [
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-11": "本句的「on the treadmill」指「陷入需要不停努力和重複、卻沒有真正終點的循環」。",
         "treadmill-mcq-04": "請比較這個意思與句子中標示的用法。",
         "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "treadmill-mcq-21"
+      "correctOption": "treadmill-mcq-11"
     },
     {
       "id": "treadmill-34-3",
-      "sense": "treadmill-mcq-21",
+      "sense": "treadmill-mcq-01",
       "en": "I ran on the treadmill.",
       "zh": "= 我在跑步機上跑。",
       "masked": "I ran on the ____.",
       "options": [
-        "treadmill-mcq-21",
+        "treadmill-mcq-01",
         "treadmill-mcq-02",
         "treadmill-mcq-14"
       ],
-      "explanation": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+      "explanation": "本句的「treadmill」指「讓人在原地步行或跑步的健身器材；跑步機」。",
       "sentenceIndex": 61,
       "sourcePractice": 34,
       "targets": [
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-01": "本句的「treadmill」指「讓人在原地步行或跑步的健身器材；跑步機」。",
         "treadmill-mcq-02": "請比較這個意思與句子中標示的用法。",
         "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "treadmill-mcq-21"
+      "correctOption": "treadmill-mcq-01"
     },
     {
       "id": "treadmill-34-4",
-      "sense": "treadmill-mcq-21",
+      "sense": "treadmill-mcq-14",
       "en": "I’m tired of the career treadmill.",
       "zh": "= 我厭倦了無止境的職涯競逐。",
       "masked": "I’m tired of the career ____.",
@@ -1484,18 +1484,18 @@ export default {
         "treadmill-mcq-08",
         "treadmill-mcq-14"
       ],
-      "explanation": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+      "explanation": "本句的「career treadmill」指「不斷工作、競爭和追逐下一個職涯成就的循環」。",
       "sentenceIndex": 62,
       "sourcePractice": 34,
       "targets": [
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-21": "請比較這個意思與句子中標示的用法。",
         "treadmill-mcq-08": "請比較這個意思與句子中標示的用法。",
-        "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
+        "treadmill-mcq-14": "本句的「career treadmill」指「不斷工作、競爭和追逐下一個職涯成就的循環」。"
       },
-      "correctOption": "treadmill-mcq-21"
+      "correctOption": "treadmill-mcq-14"
     }
   ],
   "comparisons": [],

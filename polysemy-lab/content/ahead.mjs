@@ -1303,7 +1303,7 @@ export default {
     },
     {
       "id": "ahead-15-1",
-      "sense": "ahead-mcq-13",
+      "sense": "ahead-pdf-001",
       "en": "The company is trying to get ahead of its competitors.",
       "zh": "公司正努力超越競爭對手。",
       "masked": "The company is trying to ____.",
@@ -1313,19 +1313,19 @@ export default {
         "ahead-mcq-10",
         "ahead-mcq-01"
       ],
-      "explanation": "本句的「get ahead of its competitors」指「取得成功／進展」。",
+      "explanation": "本句的「get ahead of its competitors」指「在表現、創新或市場地位上超越競爭對手」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "get ahead of its competitors"
       ],
       "optionReasons": {
-        "ahead-mcq-13": "本句的「get ahead of its competitors」指「取得成功／進展」。",
-        "ahead-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ahead-pdf-001": "本句的「get ahead of its competitors」指「在表現、創新或市場地位上超越競爭對手」。",
         "ahead-mcq-10": "請比較這個意思與句子中標示的用法。",
         "ahead-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "ahead-mcq-13"
+      "correctOption": "ahead-pdf-001"
     },
     {
       "id": "ahead-16-0",

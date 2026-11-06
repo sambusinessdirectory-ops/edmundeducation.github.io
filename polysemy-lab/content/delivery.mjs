@@ -1431,7 +1431,7 @@ export default {
     },
     {
       "id": "delivery-21-1",
-      "sense": "delivery-mcq-17",
+      "sense": "delivery-mcq-18",
       "en": "The company failed to deliver on its promise.",
       "zh": "公司未能履行承諾。",
       "masked": "The company failed to ____.",
@@ -1441,19 +1441,19 @@ export default {
         "delivery-mcq-04",
         "delivery-mcq-18"
       ],
-      "explanation": "本句的「deliver on its promise」指「做到預期要求、交出成果」。",
+      "explanation": "本句的「deliver on its promise」指「履行／兌現承諾」。",
       "sentenceIndex": 41,
       "sourcePractice": 2,
       "targets": [
         "deliver on its promise"
       ],
       "optionReasons": {
-        "delivery-mcq-17": "本句的「deliver on its promise」指「做到預期要求、交出成果」。",
+        "delivery-mcq-17": "請比較這個意思與句子中標示的用法。",
         "delivery-mcq-14": "請比較這個意思與句子中標示的用法。",
         "delivery-mcq-04": "請比較這個意思與句子中標示的用法。",
-        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
+        "delivery-mcq-18": "本句的「deliver on its promise」指「履行／兌現承諾」。"
       },
-      "correctOption": "delivery-mcq-17"
+      "correctOption": "delivery-mcq-18"
     },
     {
       "id": "delivery-22-0",

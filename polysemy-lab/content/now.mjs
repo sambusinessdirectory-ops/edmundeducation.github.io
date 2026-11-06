@@ -851,14 +851,14 @@ export default {
         "now-mcq-02",
         "now-mcq-08"
       ],
-      "explanation": "本句的「just now」指「剛才」。",
+      "explanation": "本句的「just now」指「此刻；現在這一刻」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "just now"
       ],
       "optionReasons": {
-        "now-pdf-001": "本句的「just now」指「剛才」。",
+        "now-pdf-001": "本句的「just now」指「此刻；現在這一刻」。",
         "now-mcq-07": "請比較這個意思與句子中標示的用法。",
         "now-mcq-02": "請比較這個意思與句子中標示的用法。",
         "now-mcq-08": "請比較這個意思與句子中標示的用法。"

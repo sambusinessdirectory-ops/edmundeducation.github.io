@@ -917,7 +917,7 @@ export default {
     },
     {
       "id": "policy-83-0",
-      "sense": "policy-mcq-45",
+      "sense": "policy-mcq-30",
       "en": "She took out a travel insurance policy.",
       "zh": "她購買了一份旅遊保險。",
       "masked": "She took out a travel insurance ____.",
@@ -926,18 +926,18 @@ export default {
         "policy-mcq-30",
         "policy-mcq-08"
       ],
-      "explanation": "本句的「policy」指「正式選定／批准一項政策」。",
+      "explanation": "本句的「travel insurance policy」指「列明保險保障、條款與責任的旅遊保單」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-45": "本句的「policy」指「正式選定／批准一項政策」。",
-        "policy-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-30": "本句的「travel insurance policy」指「列明保險保障、條款與責任的旅遊保單」。",
         "policy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "policy-mcq-45"
+      "correctOption": "policy-mcq-30"
     },
     {
       "id": "policy-117-0",

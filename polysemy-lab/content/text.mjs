@@ -1878,7 +1878,7 @@ export default {
     },
     {
       "id": "text-35-0",
-      "sense": "text-mcq-31",
+      "sense": "text-mcq-28",
       "en": "The full text of the agreement was published.",
       "zh": "協議的完整文本／正文已公布。",
       "masked": "The full ____ of the agreement was published.",
@@ -1888,19 +1888,19 @@ export default {
         "text-mcq-28",
         "text-mcq-30"
       ],
-      "explanation": "本句的「text」指「一字不差的確切文字」。",
+      "explanation": "本句的「full text」指「沒有省略的完整全文」。",
       "sentenceIndex": 18,
       "sourcePractice": 35,
       "targets": [
         "text"
       ],
       "optionReasons": {
-        "text-mcq-31": "本句的「text」指「一字不差的確切文字」。",
+        "text-mcq-31": "請比較這個意思與句子中標示的用法。",
         "text-mcq-58": "請比較這個意思與句子中標示的用法。",
-        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "本句的「full text」指「沒有省略的完整全文」。",
         "text-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "text-mcq-31"
+      "correctOption": "text-mcq-28"
     },
     {
       "id": "text-35-1",

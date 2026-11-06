@@ -753,7 +753,7 @@ export default {
     },
     {
       "id": "blame-03-1",
-      "sense": "blame-mcq-23",
+      "sense": "blame-mcq-21",
       "en": "I don't blame you for being upset.",
       "zh": "你感到不開心，我不怪你。",
       "masked": "I don't ____.",
@@ -763,19 +763,19 @@ export default {
         "blame-mcq-13",
         "blame-mcq-21"
       ],
-      "explanation": "本句的「blame you for being upset」指「認為某人的行為 X 應受到責怪」。",
+      "explanation": "本句的「I don't blame you」指「我不怪你；我理解你為甚麼會有這種反應」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "blame you for being upset"
       ],
       "optionReasons": {
-        "blame-mcq-23": "本句的「blame you for being upset」指「認為某人的行為 X 應受到責怪」。",
+        "blame-mcq-23": "請比較這個意思與句子中標示的用法。",
         "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
         "blame-mcq-13": "請比較這個意思與句子中標示的用法。",
-        "blame-mcq-21": "請比較這個意思與句子中標示的用法。"
+        "blame-mcq-21": "本句的「I don't blame you」指「我不怪你；我理解你為甚麼會有這種反應」。"
       },
-      "correctOption": "blame-mcq-23"
+      "correctOption": "blame-mcq-21"
     },
     {
       "id": "blame-04-0",

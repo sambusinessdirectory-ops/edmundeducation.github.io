@@ -2269,7 +2269,7 @@ export default {
     },
     {
       "id": "session-33-0",
-      "sense": "session-mcq-29",
+      "sense": "session-mcq-03",
       "en": "I booked a session with a physiotherapist.",
       "zh": "我預約了一次與物理治療師的治療時段。",
       "masked": "I booked a ____.",
@@ -2279,19 +2279,19 @@ export default {
         "session-mcq-18",
         "session-mcq-03"
       ],
-      "explanation": "本句的「session with a physiotherapist」指「持續進行某項活動的一段時間」。",
+      "explanation": "本句的「session with a physiotherapist」指「一次物理治療／物理治療療程」。",
       "sentenceIndex": 63,
       "sourcePractice": 1,
       "targets": [
         "session with a physiotherapist"
       ],
       "optionReasons": {
-        "session-mcq-29": "本句的「session with a physiotherapist」指「持續進行某項活動的一段時間」。",
+        "session-mcq-29": "請比較這個意思與句子中標示的用法。",
         "session-mcq-20": "請比較這個意思與句子中標示的用法。",
         "session-mcq-18": "請比較這個意思與句子中標示的用法。",
-        "session-mcq-03": "請比較這個意思與句子中標示的用法。"
+        "session-mcq-03": "本句的「session with a physiotherapist」指「一次物理治療／物理治療療程」。"
       },
-      "correctOption": "session-mcq-29"
+      "correctOption": "session-mcq-03"
     },
     {
       "id": "session-33-1",

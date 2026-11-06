@@ -1826,7 +1826,7 @@ export default {
     },
     {
       "id": "decline-27-1",
-      "sense": "decline-mcq-22",
+      "sense": "decline-mcq-23",
       "en": "The company reported a sharp decline in profits.",
       "zh": "公司報告利潤大幅下降。",
       "masked": "The company reported a ____.",
@@ -1836,19 +1836,19 @@ export default {
         "decline-mcq-23",
         "decline-mcq-14"
       ],
-      "explanation": "本句的「sharp decline in profits」指「X 的下降」。",
+      "explanation": "本句的「sharp decline in profits」指「利潤急劇／大幅下降」。",
       "sentenceIndex": 53,
       "sourcePractice": 2,
       "targets": [
         "sharp decline in profits"
       ],
       "optionReasons": {
-        "decline-mcq-22": "本句的「sharp decline in profits」指「X 的下降」。",
+        "decline-mcq-22": "請比較這個意思與句子中標示的用法。",
         "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
-        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "本句的「sharp decline in profits」指「利潤急劇／大幅下降」。",
         "decline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "decline-mcq-22"
+      "correctOption": "decline-mcq-23"
     },
     {
       "id": "decline-28-0",

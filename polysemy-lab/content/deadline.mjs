@@ -790,7 +790,7 @@ export default {
     },
     {
       "id": "deadline-05-1",
-      "sense": "deadline-mcq-05",
+      "sense": "deadline-mcq-14",
       "en": "He missed the application deadline.",
       "zh": "他錯過了申請截止日期。",
       "masked": "He ____.",
@@ -799,18 +799,18 @@ export default {
         "deadline-mcq-06",
         "deadline-mcq-14"
       ],
-      "explanation": "本句的「missed the application deadline」指「錯過期限」。",
+      "explanation": "本句的「application deadline」指「申請截止日期」。",
       "sentenceIndex": 10,
       "sourcePractice": 2,
       "targets": [
         "missed the application deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-05": "本句的「missed the application deadline」指「錯過期限」。",
+        "deadline-mcq-05": "請比較這個意思與句子中標示的用法。",
         "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
-        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
+        "deadline-mcq-14": "本句的「application deadline」指「申請截止日期」。"
       },
-      "correctOption": "deadline-mcq-05"
+      "correctOption": "deadline-mcq-14"
     },
     {
       "id": "deadline-06-0",

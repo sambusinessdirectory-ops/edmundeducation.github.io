@@ -2203,7 +2203,7 @@ export default {
     },
     {
       "id": "strength-31-0",
-      "sense": "strength-mcq-20",
+      "sense": "strength-pdf-001",
       "en": "There was a strong smell of coffee.",
       "zh": "有一股很濃烈的咖啡氣味。",
       "masked": "There was a ____ smell of coffee.",
@@ -2213,19 +2213,19 @@ export default {
         "strength-reviewed-b74485cfbd",
         "strength-pdf-001"
       ],
-      "explanation": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
+      "explanation": "本句的「strong smell」指「氣味的濃烈程度很高」。",
       "sentenceIndex": 58,
       "sourcePractice": 62,
       "targets": [
         "strong"
       ],
       "optionReasons": {
-        "strength-mcq-20": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
+        "strength-mcq-20": "請比較這個意思與句子中標示的用法。",
         "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
         "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
-        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
+        "strength-pdf-001": "本句的「strong smell」指「氣味的濃烈程度很高」。"
       },
-      "correctOption": "strength-mcq-20"
+      "correctOption": "strength-pdf-001"
     },
     {
       "id": "strength-32-0",

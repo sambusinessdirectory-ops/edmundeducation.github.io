@@ -1121,7 +1121,7 @@ export default {
     },
     {
       "id": "simple-07-1",
-      "sense": "simple-mcq-07",
+      "sense": "simple-mcq-08",
       "en": "The room has a simple design.",
       "zh": "房間採用簡潔樸素的設計。",
       "masked": "The room has a ____.",
@@ -1131,19 +1131,19 @@ export default {
         "simple-mcq-08",
         "simple-mcq-04"
       ],
-      "explanation": "本句的「simple design」指「外觀、設計或裝飾不複雜、不華麗」。",
+      "explanation": "本句的「simple design」指「簡潔、簡約而不繁複的設計風格」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "simple design"
       ],
       "optionReasons": {
-        "simple-mcq-07": "本句的「simple design」指「外觀、設計或裝飾不複雜、不華麗」。",
+        "simple-mcq-07": "請比較這個意思與句子中標示的用法。",
         "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
-        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "本句的「simple design」指「簡潔、簡約而不繁複的設計風格」。",
         "simple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "simple-mcq-07"
+      "correctOption": "simple-mcq-08"
     },
     {
       "id": "simple-08-0",

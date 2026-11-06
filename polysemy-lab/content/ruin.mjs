@@ -1153,7 +1153,7 @@ export default {
     },
     {
       "id": "ruin-11-0",
-      "sense": "ruin-mcq-10",
+      "sense": "ruin-mcq-23",
       "en": "They walked past a ruined building.",
       "zh": "他們走過一棟破敗的建築物。",
       "masked": "They walked past a ____.",
@@ -1163,19 +1163,19 @@ export default {
         "ruin-mcq-23",
         "ruin-mcq-17"
       ],
-      "explanation": "本句的「ruined building」指「被……毀掉」。",
+      "explanation": "本句的「ruined building」指「破敗、已嚴重受損的建築物」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "ruined building"
       ],
       "optionReasons": {
-        "ruin-mcq-10": "本句的「ruined building」指「被……毀掉」。",
+        "ruin-mcq-10": "請比較這個意思與句子中標示的用法。",
         "ruin-mcq-05": "請比較這個意思與句子中標示的用法。",
-        "ruin-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-23": "本句的「ruined building」指「破敗、已嚴重受損的建築物」。",
         "ruin-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "ruin-mcq-10"
+      "correctOption": "ruin-mcq-23"
     },
     {
       "id": "ruin-11-1",

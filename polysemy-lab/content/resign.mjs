@@ -1280,29 +1280,29 @@ export default {
     },
     {
       "id": "resign-82-0",
-      "sense": "resign-mcq-36",
+      "sense": "resign-mcq-01",
       "en": "He resigned.",
       "zh": "他辭職。",
       "masked": "He ____.",
       "options": [
-        "resign-mcq-36",
+        "resign-mcq-01",
         "resign-mcq-24",
         "resign-mcq-26",
         "resign-mcq-39"
       ],
-      "explanation": "本句的「resigned」指「對不愉快但似乎無法改變的事所表現出的無奈接受」。",
+      "explanation": "本句的「resigned」指「正式提出離開現有工作；辭職」。",
       "sentenceIndex": 58,
       "sourcePractice": 82,
       "targets": [
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-36": "本句的「resigned」指「對不愉快但似乎無法改變的事所表現出的無奈接受」。",
+        "resign-mcq-01": "本句的「resigned」指「正式提出離開現有工作；辭職」。",
         "resign-mcq-24": "請比較這個意思與句子中標示的用法。",
         "resign-mcq-26": "請比較這個意思與句子中標示的用法。",
         "resign-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "resign-mcq-36"
+      "correctOption": "resign-mcq-01"
     },
     {
       "id": "resign-83-0",

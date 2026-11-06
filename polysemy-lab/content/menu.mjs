@@ -994,22 +994,22 @@ export default {
     {
       "id": "menu-107-0",
       "sense": "menu-mcq-23",
-      "en": "What's on the menu tonight?",
-      "zh": "= 「今晚有甚麼菜？",
-      "masked": "What's on the ____ tonight?",
+      "en": "The seasonal dessert is listed on the menu tonight.",
+      "zh": "今晚的餐牌正式列出了這款時令甜品。",
+      "masked": "The seasonal dessert is listed on the ____ tonight.",
       "options": [
         "menu-mcq-23",
         "menu-mcq-47",
         "menu-mcq-22"
       ],
-      "explanation": "本句的「menu」指「正式列於餐牌，可供點選」。",
+      "explanation": "本句的「on the menu」指「正式列於餐牌，可供點選」。",
       "sentenceIndex": 22,
       "sourcePractice": 107,
       "targets": [
-        "menu"
+        "on the menu"
       ],
       "optionReasons": {
-        "menu-mcq-23": "本句的「menu」指「正式列於餐牌，可供點選」。",
+        "menu-mcq-23": "本句的「on the menu」指「正式列於餐牌，可供點選」。",
         "menu-mcq-47": "請比較這個意思與句子中標示的用法。",
         "menu-mcq-22": "請比較這個意思與句子中標示的用法。"
       },

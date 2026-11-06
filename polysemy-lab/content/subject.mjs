@@ -1333,7 +1333,7 @@ export default {
     },
     {
       "id": "subject-16-0",
-      "sense": "subject-mcq-10",
+      "sense": "subject-mcq-11",
       "en": "The schedule is subject to change.",
       "zh": "時間表可能有所變動。",
       "masked": "The schedule is ____.",
@@ -1343,19 +1343,19 @@ export default {
         "subject-mcq-16",
         "subject-mcq-11"
       ],
-      "explanation": "本句的「subject to change」指「使某物接受測試、分析、壓力等處理」。",
+      "explanation": "本句的「subject to change」指「尚未完全固定，之後可能更改」。",
       "sentenceIndex": 30,
       "sourcePractice": 1,
       "targets": [
         "subject to change"
       ],
       "optionReasons": {
-        "subject-mcq-10": "本句的「subject to change」指「使某物接受測試、分析、壓力等處理」。",
+        "subject-mcq-10": "請比較這個意思與句子中標示的用法。",
         "subject-mcq-22": "請比較這個意思與句子中標示的用法。",
         "subject-mcq-16": "請比較這個意思與句子中標示的用法。",
-        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
+        "subject-mcq-11": "本句的「subject to change」指「尚未完全固定，之後可能更改」。"
       },
-      "correctOption": "subject-mcq-10"
+      "correctOption": "subject-mcq-11"
     },
     {
       "id": "subject-16-1",

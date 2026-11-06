@@ -928,7 +928,7 @@ export default {
     },
     {
       "id": "belong-15-0",
-      "sense": "belong-mcq-12",
+      "sense": "belong-mcq-05",
       "en": "That joke doesn’t belong in a formal speech.",
       "zh": "那個笑話不適合出現在正式演講中。",
       "masked": "That joke ____.",
@@ -938,23 +938,23 @@ export default {
         "belong-mcq-16",
         "belong-mcq-05"
       ],
-      "explanation": "本句的「doesn’t belong in a formal speech」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+      "explanation": "本句的「doesn’t belong in a formal speech」指「不適合出現在正式演講這個語境」。",
       "sentenceIndex": 28,
       "sourcePractice": 1,
       "targets": [
         "doesn’t belong in a formal speech"
       ],
       "optionReasons": {
-        "belong-mcq-12": "本句的「doesn’t belong in a formal speech」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。",
         "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
         "belong-mcq-16": "請比較這個意思與句子中標示的用法。",
-        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
+        "belong-mcq-05": "本句的「doesn’t belong in a formal speech」指「不適合出現在正式演講這個語境」。"
       },
-      "correctOption": "belong-mcq-12"
+      "correctOption": "belong-mcq-05"
     },
     {
       "id": "belong-15-1",
-      "sense": "belong-mcq-12",
+      "sense": "belong-mcq-05",
       "en": "This example belongs in the introduction.",
       "zh": "這個例子適合放在引言部分。",
       "masked": "This example ____.",
@@ -964,19 +964,19 @@ export default {
         "belong-mcq-08",
         "belong-mcq-05"
       ],
-      "explanation": "本句的「belongs in the introduction」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+      "explanation": "本句的「belongs in the introduction」指「適合放在引言這個位置／語境」。",
       "sentenceIndex": 29,
       "sourcePractice": 2,
       "targets": [
         "belongs in the introduction"
       ],
       "optionReasons": {
-        "belong-mcq-12": "本句的「belongs in the introduction」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。",
         "belong-mcq-16": "請比較這個意思與句子中標示的用法。",
         "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
-        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
+        "belong-mcq-05": "本句的「belongs in the introduction」指「適合放在引言這個位置／語境」。"
       },
-      "correctOption": "belong-mcq-12"
+      "correctOption": "belong-mcq-05"
     },
     {
       "id": "belong-16-0",

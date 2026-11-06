@@ -1365,29 +1365,29 @@ export default {
     },
     {
       "id": "grow-06-1",
-      "sense": "grow-mcq-07",
+      "sense": "grow-mcq-18",
       "en": "The problem grew bigger over time.",
       "zh": "問題隨時間變得更大／更嚴重。",
       "masked": "The problem ____ over time.",
       "options": [
-        "grow-mcq-07",
+        "grow-mcq-18",
         "grow-mcq-17",
         "grow-pdf-001",
         "grow-mcq-25"
       ],
-      "explanation": "本句的「grew bigger」指「身高／尺寸逐漸增加」。",
+      "explanation": "本句的「grew bigger」指「問題隨時間逐漸變得更大、更嚴重」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "grew bigger"
       ],
       "optionReasons": {
-        "grow-mcq-07": "本句的「grew bigger」指「身高／尺寸逐漸增加」。",
+        "grow-mcq-18": "本句的「grew bigger」指「問題隨時間逐漸變得更大、更嚴重」。",
         "grow-mcq-17": "請比較這個意思與句子中標示的用法。",
         "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
         "grow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "grow-mcq-07"
+      "correctOption": "grow-mcq-18"
     },
     {
       "id": "grow-07-0",

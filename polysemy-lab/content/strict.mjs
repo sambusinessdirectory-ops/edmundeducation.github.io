@@ -496,7 +496,7 @@ export default {
   "questions": [
     {
       "id": "strict-02-0",
-      "sense": "strict-mcq-02",
+      "sense": "strict-mcq-04",
       "en": "My school had very strict rules.",
       "zh": "我的學校有非常嚴格的規定。",
       "masked": "My school had very ____.",
@@ -506,19 +506,19 @@ export default {
         "strict-mcq-08",
         "strict-mcq-05"
       ],
-      "explanation": "本句的「strict rules」指「對某人的行為、學習或表現要求嚴格」。",
+      "explanation": "本句的「strict rules」指「必須仔細遵守、不容許隨意偏離的規定」。",
       "sentenceIndex": 2,
       "sourcePractice": 1,
       "targets": [
         "strict rules"
       ],
       "optionReasons": {
-        "strict-mcq-02": "本句的「strict rules」指「對某人的行為、學習或表現要求嚴格」。",
-        "strict-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-04": "本句的「strict rules」指「必須仔細遵守、不容許隨意偏離的規定」。",
         "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
         "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "strict-mcq-02"
+      "correctOption": "strict-mcq-04"
     },
     {
       "id": "strict-02-1",

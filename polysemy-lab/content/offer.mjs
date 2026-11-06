@@ -917,7 +917,7 @@ export default {
     },
     {
       "id": "offer-10-0",
-      "sense": "offer-mcq-10",
+      "sense": "offer-mcq-11",
       "en": "She accepted the job offer.",
       "zh": "她接受了那份工作邀請／錄用條件。",
       "masked": "She accepted the job ____.",
@@ -927,19 +927,19 @@ export default {
         "offer-mcq-15",
         "offer-mcq-16"
       ],
-      "explanation": "本句的「offer」指「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」。",
+      "explanation": "本句的「job offer」指「正式的工作邀請／錄用通知」。",
       "sentenceIndex": 18,
       "sourcePractice": 1,
       "targets": [
         "offer"
       ],
       "optionReasons": {
-        "offer-mcq-10": "本句的「offer」指「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」。",
-        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "本句的「job offer」指「正式的工作邀請／錄用通知」。",
         "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
         "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "offer-mcq-10"
+      "correctOption": "offer-mcq-11"
     },
     {
       "id": "offer-10-1",

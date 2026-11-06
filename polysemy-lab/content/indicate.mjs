@@ -670,7 +670,7 @@ export default {
     },
     {
       "id": "indicate-17-0",
-      "sense": "indicate-mcq-02",
+      "sense": "indicate-mcq-07",
       "en": "He indicated that he wanted to leave.",
       "zh": "他表示自己想離開。",
       "masked": "He ____.",
@@ -680,19 +680,19 @@ export default {
         "indicate-mcq-07",
         "indicate-mcq-12"
       ],
-      "explanation": "本句的「indicated that he wanted to leave」指「表明／顯示後面的陳述得到某種證據支持」。",
+      "explanation": "本句的「indicated that he wanted to leave」指「表示自己的意向或意願」。",
       "sentenceIndex": 32,
       "sourcePractice": 17,
       "targets": [
         "indicated that he wanted to leave"
       ],
       "optionReasons": {
-        "indicate-mcq-02": "本句的「indicated that he wanted to leave」指「表明／顯示後面的陳述得到某種證據支持」。",
+        "indicate-mcq-02": "請比較這個意思與句子中標示的用法。",
         "indicate-mcq-04": "請比較這個意思與句子中標示的用法。",
-        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "本句的「indicated that he wanted to leave」指「表示自己的意向或意願」。",
         "indicate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "indicate-mcq-02"
+      "correctOption": "indicate-mcq-07"
     },
     {
       "id": "indicate-17-1",

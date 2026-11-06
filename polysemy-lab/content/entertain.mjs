@@ -1232,29 +1232,29 @@ export default {
     },
     {
       "id": "entertain-19-0",
-      "sense": "entertain-mcq-18",
+      "sense": "entertain-mcq-06",
       "en": "The room is large enough to entertain guests.",
       "zh": "這個房間夠大，可以招待客人。",
       "masked": "The room is large enough to ____.",
       "options": [
-        "entertain-mcq-18",
+        "entertain-mcq-06",
         "entertain-mcq-17",
         "entertain-mcq-09",
         "entertain-mcq-11"
       ],
-      "explanation": "本句的「entertain guests」指「自己找活動消遣；自娛」。",
+      "explanation": "本句的「entertain guests」指「為客人提供飲食、交流等款待；招待客人」。",
       "sentenceIndex": 32,
       "sourcePractice": 1,
       "targets": [
         "entertain guests"
       ],
       "optionReasons": {
-        "entertain-mcq-18": "本句的「entertain guests」指「自己找活動消遣；自娛」。",
+        "entertain-mcq-06": "本句的「entertain guests」指「為客人提供飲食、交流等款待；招待客人」。",
         "entertain-mcq-17": "請比較這個意思與句子中標示的用法。",
         "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
         "entertain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "entertain-mcq-18"
+      "correctOption": "entertain-mcq-06"
     },
     {
       "id": "entertain-19-1",

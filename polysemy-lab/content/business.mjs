@@ -669,7 +669,7 @@ export default {
     },
     {
       "id": "business-04-0",
-      "sense": "business-mcq-04",
+      "sense": "business-mcq-15",
       "en": "That is my business, not yours.",
       "zh": "那是我的事，不是你的事。",
       "masked": "That is my ____, not yours.",
@@ -679,19 +679,19 @@ export default {
         "business-mcq-16",
         "business-mcq-15"
       ],
-      "explanation": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
+      "explanation": "本句的「my business, not yours」指「某件事屬於自己的私人事務，不是別人的權限或關心範圍」。",
       "sentenceIndex": 6,
       "sourcePractice": 10,
       "targets": [
         "business"
       ],
       "optionReasons": {
-        "business-mcq-04": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
+        "business-mcq-04": "請比較這個意思與句子中標示的用法。",
         "business-mcq-14": "請比較這個意思與句子中標示的用法。",
         "business-mcq-16": "請比較這個意思與句子中標示的用法。",
-        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
+        "business-mcq-15": "本句的「my business, not yours」指「某件事屬於自己的私人事務，不是別人的權限或關心範圍」。"
       },
-      "correctOption": "business-mcq-04"
+      "correctOption": "business-mcq-15"
     },
     {
       "id": "business-04-1",
