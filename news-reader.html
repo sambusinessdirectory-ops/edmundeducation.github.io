@@ -6,11 +6,11 @@
   <title>新聞導讀系統｜Edmund Education</title>
   <meta name="description" content="Edmund Education 雙語新聞導讀、詞彙追蹤、聽力及句型練習。">
   <link rel="stylesheet" href="/song-appreciation.css">
-  <link rel="stylesheet" href="/news-reader/news.css?v=playful2">
+  <link rel="stylesheet" href="/news-reader/news.css?v=vocab-levels-20261106-2">
   <script defer src="/pwa-register.js"></script>
   <script defer src="/supabase-config.js"></script>
   <script defer src="/shared-system-nav.js?v=20261106-mobile-header1"></script>
-  <script type="module" src="/news-reader/news.mjs?v=revised-20261106-1"></script>
+  <script type="module" src="/news-reader/news.mjs?v=vocab-levels-20261106-2"></script>
   <link rel="manifest" href="/pwa-manifests/news-reader.webmanifest">
   <meta name="theme-color" content="#fffdf7">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -56,20 +56,37 @@
         <h1>新聞課堂</h1>
         <p>選擇報道，先看新聞，再完成詞彙、聽力和句型任務。</p>
       </div>
-      <button class="lesson-entry" id="entry">
-        <figure class="lesson-thumb">
-          <img src="/news-reader/florida-man-jewelry-poster.jpg" alt="新聞影片畫面：警方截查涉嫌偷竊珠寶的男子">
-          <span class="play-disc" aria-hidden="true">▶</span>
-          <figcaption>LOCAL VIDEO　/　本地影片</figcaption>
-        </figure>
-        <span class="lesson-entry-copy">
-          <small>01　/　WORLD NEWS　·　A2+</small>
-          <strong lang="en"></strong>
-          <span></span>
-          <b>進入導讀　→</b>
-        </span>
-        <img class="lesson-entry-art" src="/news-reader/art/lesson-selector.png" alt="" aria-hidden="true">
-      </button>
+      <p id="libraryStatus" role="status" aria-live="polite"></p>
+      <div class="lesson-grid">
+        <button class="lesson-entry" data-lesson-pack="lesson" data-video="/news-reader/florida-man-jewelry.mp4" data-poster="/news-reader/florida-man-jewelry-poster.jpg" data-audio-pack="audio">
+          <figure class="lesson-thumb">
+            <img src="/news-reader/florida-man-jewelry-poster.jpg" alt="新聞影片畫面：警方截查涉嫌偷竊珠寶的男子">
+            <span class="play-disc" aria-hidden="true">▶</span>
+            <figcaption>LOCAL VIDEO　/　本地影片</figcaption>
+          </figure>
+          <span class="lesson-entry-copy">
+            <small>01　/　WORLD NEWS　·　A2+</small>
+            <strong lang="en">Florida Man Steals Luxury Jewelry Then Swallows It</strong>
+            <span>佛羅里達州男子偷走名貴珠寶後吞下肚</span>
+            <b>進入導讀　→</b>
+          </span>
+          <img class="lesson-entry-art" src="/news-reader/art/lesson-selector.png" alt="" aria-hidden="true">
+        </button>
+        <button class="lesson-entry lesson-entry-health" data-lesson-pack="smoking-impact" data-video="/news-reader/smoking-impact.mp4" data-poster="/news-reader/smoking-impact-poster.jpg" data-audio-pack="smoking-impact-audio">
+          <figure class="lesson-thumb">
+            <img src="/news-reader/smoking-impact-poster.jpg" alt="影片插圖：香菸與禁止吸菸標誌">
+            <span class="play-disc" aria-hidden="true">▶</span>
+            <figcaption>TED-ED　/　健康科學</figcaption>
+          </figure>
+          <span class="lesson-entry-copy">
+            <small>02　/　HEALTH SCIENCE　·　A2–C2</small>
+            <strong lang="en">How Do Cigarettes Affect the Body?</strong>
+            <span>香菸如何影響人體？</span>
+            <b>進入導讀　→</b>
+          </span>
+          <img class="lesson-entry-art" src="/news-reader/art/lesson-selector.png" alt="" aria-hidden="true">
+        </button>
+      </div>
     </section>
 
     <section id="lesson" class="news-stage lesson-stage" hidden>
@@ -77,7 +94,7 @@
       <header class="lesson-title-frame">
         <img src="/news-reader/art/title-frame.png" alt="" aria-hidden="true">
         <div>
-          <p>WORLD NEWS　/　LESSON 01</p>
+          <p id="lessonKicker">WORLD NEWS　/　LESSON</p>
           <h1 lang="en" id="title"></h1>
           <p id="translation" class="subhead"></p>
         </div>
@@ -91,7 +108,7 @@
           </div>
           <div id="screen">
             <video id="video" playsinline preload="metadata" poster="/news-reader/florida-man-jewelry-poster.jpg">
-              <source src="/news-reader/florida-man-jewelry.mp4" type="video/mp4">
+              <source id="videoSource" src="/news-reader/florida-man-jewelry.mp4" type="video/mp4">
             </video>
             <div id="audioArt" hidden>
               <small>NEWSROOM　/　AUDIO EDITION</small>
@@ -118,7 +135,7 @@
           <div class="desk-heading">
             <small>WORD DESK</small>
             <h2>詞彙追蹤</h2>
-            <p>播到目標詞時會亮起；點選可重聽。延伸詞彙會另外標示。</p>
+            <p>A2 至 C2 詞彙按程度分組；播到目標詞時會亮起，點選可重聽。</p>
           </div>
           <div id="wordList"></div>
         </aside>
