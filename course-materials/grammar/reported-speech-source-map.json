@@ -1,0 +1,1019 @@
+{
+  "source": "course-materials/grammar/source/reported-speech-student-reading-guide-v3.md",
+  "guide": {
+    "ruleCount": 148,
+    "rules": [
+      {
+        "id": "RS.01.01",
+        "title": "直接引述會保留別人說的話",
+        "dialogueNote": "引號代表作者聲稱保留原話；但記憶中的引述未必與錄音逐字相同。"
+      },
+      {
+        "id": "RS.01.02",
+        "title": "間接轉述會用自己的話說出別人的意思",
+        "dialogueNote": "簡單句子有時可以省去 that，例如 Lena said she needed a receipt。"
+      },
+      {
+        "id": "RS.01.03",
+        "title": "有時只需說出別人做了甚麼說話行動",
+        "dialogueNote": "說「道歉了」不代表她一定用了 I'm sorry 這幾個字。"
+      },
+      {
+        "id": "RS.01.04",
+        "title": "轉述前，要先分清原本是誰在說話",
+        "dialogueNote": "如果不知原本對誰說話，不能自行決定 you 應改成誰。"
+      },
+      {
+        "id": "RS.02.01",
+        "title": "用 say 轉述時，不能直接寫 said me",
+        "dialogueNote": "在一般標準英文中，Nora said me she was busy 這種寫法不合適。"
+      },
+      {
+        "id": "RS.02.02",
+        "title": "用 tell 告訴某人消息，通常要寫出聽話的人",
+        "dialogueNote": "tell a story 和 tell the truth 有自己的寫法，不一定要加 me。"
+      },
+      {
+        "id": "RS.02.03",
+        "title": "tell a story 和 tell the truth 是常見的固定說法",
+        "dialogueNote": "可以說 tell a joke，但不能因而把 tell that he was tired 當成普通轉述句。"
+      },
+      {
+        "id": "RS.02.04",
+        "title": "簡單轉述句中的 that 常常可以省去",
+        "dialogueNote": "較長的句子保留 that 往往更清楚；並非每種動詞寫法都可以隨便省去。"
+      },
+      {
+        "id": "RS.03.01",
+        "title": "說過去的話時，英文常會把動詞改成過去的寫法",
+        "dialogueNote": "如果她現在仍然很累，也可以在合適情況下說 Iris said she is tired。"
+      },
+      {
+        "id": "RS.03.02",
+        "title": "現在轉述別人的話，動詞不必自動變成過去",
+        "dialogueNote": "即使用 said，若事情現在仍真確，也不一定要改成 felt。"
+      },
+      {
+        "id": "RS.03.03",
+        "title": "原話用現在簡單式，過去轉述時常改用過去簡單式",
+        "dialogueNote": "這是常見選擇，不是所有 said 後的現在式都必須改。"
+      },
+      {
+        "id": "RS.03.04",
+        "title": "原話說正在做的事，過去轉述時常用 was 或 were 加 -ing",
+        "dialogueNote": "如果爸爸現在仍在煮飯，有時可保留 is cooking。"
+      },
+      {
+        "id": "RS.03.05",
+        "title": "原話說已經完成的事，過去轉述時常用 had 加動詞的完成寫法",
+        "dialogueNote": "had paid 很常見，但不是每個過去動作都一定要用 had。"
+      },
+      {
+        "id": "RS.03.07",
+        "title": "原話已用過去式，轉述時不一定每次都改成 had",
+        "dialogueNote": "不要把所有 said + 過去式都當成錯誤；要先看時間關係。"
+      },
+      {
+        "id": "RS.03.09",
+        "title": "原話已有 had 加完成寫法，轉述時通常不用再加一層 had",
+        "dialogueNote": "不能寫 had had locked；locked 前不需要兩個 had。"
+      },
+      {
+        "id": "RS.03.10",
+        "title": "原話的 will，在過去轉述時常改為 would",
+        "dialogueNote": "would 不保證事情後來真的發生；它可只表示當時的打算。"
+      },
+      {
+        "id": "RS.03.12",
+        "title": "如果消息現在仍然是真的，有時可以保留現在式",
+        "dialogueNote": "要區分「從以前的時間說」和「現在是否仍然成立」。"
+      },
+      {
+        "id": "RS.05.01",
+        "title": "轉述中的 I，要看原本是誰說的",
+        "dialogueNote": "I 不一定要改成 he 或 she；要看人物是誰。"
+      },
+      {
+        "id": "RS.05.02",
+        "title": "轉述中的 you，要看原本是對誰說的",
+        "dialogueNote": "沒有原本的聽話對象，就不能隨便選 he、she 或 I。"
+      },
+      {
+        "id": "RS.05.03",
+        "title": "we 和 they 要按真正的人數和身份來選",
+        "dialogueNote": "不知道某人的性別時，可以用 they 指一個人；要留意整句是否清楚。"
+      },
+      {
+        "id": "RS.05.05",
+        "title": "here 和 there 要看轉述的人身在何處",
+        "dialogueNote": "不要把每個 here 都自動改成 there。"
+      },
+      {
+        "id": "RS.05.06",
+        "title": "this 和 that 要看現在指的是近處還是遠處",
+        "dialogueNote": "these 和 those 同樣按當時及現在的情況判斷。"
+      },
+      {
+        "id": "RS.05.07",
+        "title": "now 和 then 要看說的是哪個時間",
+        "dialogueNote": "now 不一定要改成 then；先看指的是現在還是以前。"
+      },
+      {
+        "id": "RS.05.08",
+        "title": "today、tomorrow、yesterday 要按真正日期理解",
+        "dialogueNote": "知道日期時，直接說星期幾或幾月幾日通常更清楚。"
+      },
+      {
+        "id": "RS.05.10",
+        "title": "人名和明確日期一般不用因轉述而改",
+        "dialogueNote": "人名、地址等固定資料通常保留，但如果原話有錯，應標明是原話的說法。"
+      },
+      {
+        "id": "RS.06.01",
+        "title": "原話問「是不是」時，轉述常用 if 或 whether",
+        "dialogueNote": "whether 和 if 很多時可以互換。但在 about 等字後面，以及 whether to 的寫法中，要特別小心。"
+      },
+      {
+        "id": "RS.06.02",
+        "title": "原話問哪裏、誰或為甚麼，轉述時仍要保留相應的問題字",
+        "dialogueNote": "也可用不同字重新說出問題，但不能把原本要查問的內容改掉。"
+      },
+      {
+        "id": "RS.06.03",
+        "title": "間接問句一般先寫人或事物，再寫動詞",
+        "dialogueNote": "如果一組字是完整引號內的原話，就可以保留問句次序。"
+      },
+      {
+        "id": "RS.06.04",
+        "title": "原問句用來提問的 do、does、did，轉述時通常要拿走",
+        "dialogueNote": "不要把 did 和另一個過去式亂放在一起，例如 did wanted。"
+      },
+      {
+        "id": "RS.06.05",
+        "title": "如果 who 本身就是做事的人，原問句已不需要倒轉次序",
+        "dialogueNote": "先找出 who 是做事的人，還是被看到、被問到的人。"
+      },
+      {
+        "id": "RS.06.11",
+        "title": "整句是有禮貌的問句時，句尾仍然要用問號",
+        "dialogueNote": "不能寫 Could you tell me where are the toilets? 作普通間接問句。"
+      },
+      {
+        "id": "RS.07.01",
+        "title": "轉述命令時，常用「叫某人＋to＋做甚麼」",
+        "dialogueNote": "原話是命令還是請求，要按語氣和情況選 told、asked 等字。"
+      },
+      {
+        "id": "RS.07.02",
+        "title": "轉述有禮貌的請求時，常用 asked someone to",
+        "dialogueNote": "原話有 please 不代表每次都一定用 asked；還要看真正的說話態度。"
+      },
+      {
+        "id": "RS.07.03",
+        "title": "轉述「不要做」時，常用 not to 加動詞",
+        "dialogueNote": "to not run 在某些英文句子也可以出現，但初學者先學常見的 not to run。"
+      },
+      {
+        "id": "RS.09.01",
+        "title": "直接引述通常有引號，間接轉述通常沒有",
+        "dialogueNote": "如果只是把其中幾個原字特別標出來，間接轉述內仍可有局部引號。"
+      },
+      {
+        "id": "RS.09.02",
+        "title": "句尾用問號還是句號，要看整句是否正在問人",
+        "dialogueNote": "如果直接引號內是問句，引號內可以保留問號。"
+      },
+      {
+        "id": "RS.09.03",
+        "title": "引述放在句首或句尾，標點位置可能不同",
+        "dialogueNote": "英式和美式出版標點習慣略有不同，尤其處理不是原話一部分的標點時。"
+      },
+      {
+        "id": "RS.09.04",
+        "title": "英文引號可以用單引號，也可以用雙引號",
+        "dialogueNote": "同一份作品應按指定格式保持一致；引號內再有引號時常交替使用。   ## 第二階段：更多動詞和較難的問題"
+      },
+      {
+        "id": "RS.02.05",
+        "title": "不同的轉述動詞，接下去的字也可能不同",
+        "dialogueNote": "普通標準英文用 explained to me，不用 explained me that。"
+      },
+      {
+        "id": "RS.02.06",
+        "title": "有些動詞要先寫出收訊息的人",
+        "dialogueNote": "warned 和 assured 等動詞有不同用法，不能一律照搬 informed 的寫法。"
+      },
+      {
+        "id": "RS.02.07",
+        "title": "要轉述別人問甚麼，可以用 ask 加問題內容",
+        "dialogueNote": "問「是否」時常用 if 或 whether，不要用 that 代替。"
+      },
+      {
+        "id": "RS.02.08",
+        "title": "有些動詞後面用 to 表示說話的人會做的事",
+        "dialogueNote": "promise、offer、refuse 各有意思；不能把答應改成命令。"
+      },
+      {
+        "id": "RS.02.09",
+        "title": "叫別人做事時，可以用「動詞＋人＋to」",
+        "dialogueNote": "有些動詞不接受這個寫法，例如普通用法的 suggest us to wait。"
+      },
+      {
+        "id": "RS.02.10",
+        "title": "有些轉述動詞後面要用動詞加 -ing",
+        "dialogueNote": "deny、suggest 也常接 -ing，但說話人和做事的人未必完全相同。"
+      },
+      {
+        "id": "RS.02.11",
+        "title": "有些說法要先用 for、to 等字，再用動詞加 -ing",
+        "dialogueNote": "object to paying 中的 to 也接 -ing；不是每個 to 後面都用動詞本來的寫法。"
+      },
+      {
+        "id": "RS.02.12",
+        "title": "有時可以用名詞，簡短說出別人宣布的消息",
+        "dialogueNote": "名詞說法可能省去細節；需要準確交代誰做甚麼時，宜用完整句子。"
+      },
+      {
+        "id": "RS.03.06",
+        "title": "原話說一直在做的事，轉述時要保留持續的意思",
+        "dialogueNote": "活動當時可能仍在繼續，也可能剛停止；句子本身未必說清楚。"
+      },
+      {
+        "id": "RS.03.08",
+        "title": "原話用 was doing，較後轉述時有時改成 had been doing",
+        "dialogueNote": "選哪個寫法要看時間和重點；had been doing 並非必須。"
+      },
+      {
+        "id": "RS.03.11",
+        "title": "轉述將來計劃時，要把整組動詞一起檢查",
+        "dialogueNote": "was going to 不一定代表計劃後來取消了。"
+      },
+      {
+        "id": "RS.03.13",
+        "title": "故事的時間已經很清楚時，不必每個較早動作都用 had",
+        "dialogueNote": "較長的故事可同時出現 went 和 had gone。要看哪件事先發生。"
+      },
+      {
+        "id": "RS.03.14",
+        "title": "轉述時要保留原話有沒有正在進行和有沒有否定",
+        "dialogueNote": "也要檢查 not、never 等字，不能只顧改動詞而漏掉否定意思。"
+      },
+      {
+        "id": "RS.04.01",
+        "title": "原話的 can 表示能力時，過去轉述常用 could",
+        "dialogueNote": "could 在別的句子也可以表示可能或請求；要看原話意思。"
+      },
+      {
+        "id": "RS.04.02",
+        "title": "原話的 may 表示可能時，過去轉述常用 might",
+        "dialogueNote": "might 也可以原本就出現在原話中，不能單靠它知道原字是 may。"
+      },
+      {
+        "id": "RS.04.03",
+        "title": "may 表示准許時，轉述要先保留「可以做」的意思",
+        "dialogueNote": "如果要避免誤會，也可以說 The guard gave us permission to enter。"
+      },
+      {
+        "id": "RS.04.04",
+        "title": "must 表示必須做時，過去轉述有時用 had to",
+        "dialogueNote": "不能把 mustn't 誤改成 didn't have to；兩者分別是「禁止」和「不一定要」。"
+      },
+      {
+        "id": "RS.04.05",
+        "title": "must 表示「我很肯定」時，通常保留 must",
+        "dialogueNote": "這個 must 的意思與「必須做某事」不同，不應一律當成命令。"
+      },
+      {
+        "id": "RS.04.06",
+        "title": "could、might、should、would 等字在轉述時常可保持原樣",
+        "dialogueNote": "每個字仍要按意思判斷；needn't 和 ought to 也有自己的常見用法。"
+      },
+      {
+        "id": "RS.04.07",
+        "title": "would 有幾種意思，要按原話判斷",
+        "dialogueNote": "不能只看 would 就判定原話一定用了 will。"
+      },
+      {
+        "id": "RS.04.08",
+        "title": "原話有 shall 時，要先看它是在提議還是在說將來",
+        "dialogueNote": "shall 在不同年代、地區和句式中的用法不同。"
+      },
+      {
+        "id": "RS.05.04",
+        "title": "my、your、myself 等字也要跟着人物改",
+        "dialogueNote": "each other 和 myself 等字也要按誰做事、誰受影響來改。"
+      },
+      {
+        "id": "RS.05.09",
+        "title": "ago、last week、next week 要按原本的時間來看",
+        "dialogueNote": "必須先找出原本的日期，不能只做字面替換。"
+      },
+      {
+        "id": "RS.05.11",
+        "title": "原話叫對方的稱呼，轉述時可改成對方的身份",
+        "dialogueNote": "如果稱呼很重要，例如正式頭銜或表達不滿，轉述時不宜隨便刪掉。"
+      },
+      {
+        "id": "RS.05.12",
+        "title": "人稱、地方和動詞時間可以分開處理",
+        "dialogueNote": "不要以為改了 I，就必須同時改 here、now 和 is。"
+      },
+      {
+        "id": "RS.06.06",
+        "title": "原句動詞需要的 to 或 for，轉述後仍要保留",
+        "dialogueNote": "較正式的英文可把 for 或 to 放在 who/whom 前，但日常說法常把 for 或 to 放在句尾。"
+      },
+      {
+        "id": "RS.06.07",
+        "title": "if 和 whether 都可表示「是否」，但有些位置要用 whether",
+        "dialogueNote": "在 about 之後，以及 whether to do 中，標準書面英文通常選 whether。"
+      },
+      {
+        "id": "RS.06.08",
+        "title": "把 or not 緊接在連接字後面時，要用 whether",
+        "dialogueNote": "普通標準英文不說 if or not the lift worked。"
+      },
+      {
+        "id": "RS.06.09",
+        "title": "還未決定應否做一件事時，可以用 whether to",
+        "dialogueNote": "標準寫法不用 if to call；如做事的人不清楚，可用完整句子。"
+      },
+      {
+        "id": "RS.06.10",
+        "title": "問應該做甚麼，可以用 what to do 等簡短說法",
+        "dialogueNote": "不是每個問題字都適合直接加 to；例如 why to do 在普通英文中很少用。"
+      },
+      {
+        "id": "RS.06.12",
+        "title": "轉述否定問句時，要留意原本是否帶着意外或期待",
+        "dialogueNote": "有時可以用其他句子說明她很意外，不必逐字保留否定問句。"
+      },
+      {
+        "id": "RS.06.13",
+        "title": "選擇題、反問句和附加問句，要看原本想問甚麼",
+        "dialogueNote": "You are coming, aren't you? 常帶着期待，轉述時要保留這種語氣。"
+      },
+      {
+        "id": "RS.06.14",
+        "title": "原問句有 there is 或較長的動詞寫法，轉述時仍用一般次序",
+        "dialogueNote": "較長的問句也要按同一原則檢查，不要把整段倒轉。"
+      },
+      {
+        "id": "RS.07.04",
+        "title": "忠告、警告和勸說意思不同，轉述時要選合適動詞",
+        "dialogueNote": "warn someone 通常提醒危險；persuade someone 表示成功勸說對方接受某個做法。"
+      },
+      {
+        "id": "RS.07.05",
+        "title": "警告別人危險，可以用 warned someone not to",
+        "dialogueNote": "warn that ... 也可以直接交代危險；要看句子是否需要寫出聽話的人。"
+      },
+      {
+        "id": "RS.07.06",
+        "title": "suggest 後面常用 -ing 或 that 加完整句子",
+        "dialogueNote": "普通標準英文不用 suggested us to leave；recommend 的寫法也要個別檢查。"
+      },
+      {
+        "id": "RS.07.07",
+        "title": "有些表示要求或建議的動詞後面，用動詞本來的寫法",
+        "dialogueNote": "英式英文也常用 should leave；這是一種可接受的寫法。"
+      },
+      {
+        "id": "RS.07.08",
+        "title": "答應、提出幫忙和拒絕，是不同的說話行動",
+        "dialogueNote": "refused to help 表示拒絕幫忙；不能拿它代替 promised。"
+      },
+      {
+        "id": "RS.07.09",
+        "title": "原話用 Let's 提議做事，常用 suggested 轉述",
+        "dialogueNote": "Let's 有時也可能是鼓勵、安排或命令；要看說話情況。"
+      },
+      {
+        "id": "RS.07.11",
+        "title": "道歉、道謝和祝賀常可直接用動詞轉述",
+        "dialogueNote": "apologised、congratulated、greeted 的接法不同，要個別學習。"
+      },
+      {
+        "id": "RS.07.12",
+        "title": "原話是在讚嘆或驚叫時，轉述要保留那種心情",
+        "dialogueNote": "不一定要保留原來的感嘆號，因為間接轉述有自己的句子標點。"
+      },
+      {
+        "id": "RS.07.13",
+        "title": "yes、no 和 oh 的意思，要連同前一句看",
+        "dialogueNote": "不要見到 yes 就自動寫成「她答應去做」，答案可能只是確認一件事。"
+      },
+      {
+        "id": "RS.08.01",
+        "title": "「沒有說」和「說了不」是兩種不同意思",
+        "dialogueNote": "改寫時要看 not 放在哪裏，不能隨意移動。"
+      },
+      {
+        "id": "RS.08.03",
+        "title": "mustn't 和 don't have to 的意思不同",
+        "dialogueNote": "may not 有時表示「不准」，有時表示「可能不會」，要看上下文。"
+      },
+      {
+        "id": "RS.08.05",
+        "title": "否認和承認，會清楚交代說話者的態度",
+        "dialogueNote": "claimed、confessed 等字也有不同語氣，不可隨便替換。"
+      },
+      {
+        "id": "RS.08.08",
+        "title": "deny 是否認已做的事，refuse 是拒絕去做",
+        "dialogueNote": "say no 的意思要靠前面的問題決定，不一定等於 deny。"
+      },
+      {
+        "id": "RS.12.01",
+        "title": "前面已說過的消息，可以用 so 代替重複內容",
+        "dialogueNote": "tell someone so 要有接收消息的人；不要只寫 told so 作普通轉述。"
+      },
+      {
+        "id": "RS.12.02",
+        "title": "簡短的 yes 或 no，要靠前面的問題才知意思",
+        "dialogueNote": "離開上下文，不能知道 yes 或 no 所同意或否定的是甚麼。   ## 第三階段：進階句子、少見用法及例外"
+      },
+      {
+        "id": "RS.01.05",
+        "title": "轉述時選不同動詞，會改變對方的態度",
+        "dialogueNote": "不要為了讓文章不重複，隨意把 said 改成 admitted 或 proved。"
+      },
+      {
+        "id": "RS.01.06",
+        "title": "除了說話，電郵和想法也可以用類似方法轉述",
+        "dialogueNote": "寫作和思考可以被轉述，但不能把想法說成已經講出的話。"
+      },
+      {
+        "id": "RS.01.07",
+        "title": "別人說了一件事，不等於那件事一定是真的",
+        "dialogueNote": "轉述消息時，要分清「某人這樣說」和「事情確實如此」。"
+      },
+      {
+        "id": "RS.01.08",
+        "title": "一個人可以轉述另一個人的轉述",
+        "dialogueNote": "每多一層轉述，都要檢查人名、代名詞和事情發生的次序。"
+      },
+      {
+        "id": "RS.01.09",
+        "title": "轉述可以縮短原話，但必須保留重要意思",
+        "dialogueNote": "不能把 I might come 改成 She promised to come；後者多了一個承諾。"
+      },
+      {
+        "id": "RS.01.10",
+        "title": "小說有時直接寫人物心裏的想法",
+        "dialogueNote": "在小說中，沒有引號的問題也可能是人物的想法，不能一律當成作者的問題。"
+      },
+      {
+        "id": "RS.03.15",
+        "title": "原話是假設的情況時，不能只照普通過去式規則改",
+        "dialogueNote": "were 和 had been 在這裏有不同的時間意思，不能隨意互換。"
+      },
+      {
+        "id": "RS.03.16",
+        "title": "只看轉述句，通常不能肯定原話每個字是甚麼",
+        "dialogueNote": "沒有原話或足夠時間資料時，不要假裝一定可以倒推出唯一原句。"
+      },
+      {
+        "id": "RS.04.09",
+        "title": "原話說過去沒有發生的假設，轉述時要保留這個時間",
+        "dialogueNote": "不能為了改轉述句，就把原本的假設改成真實發生的事。"
+      },
+      {
+        "id": "RS.04.10",
+        "title": "命令和請求常用 to 加動詞，不能只照一般動詞時間改法處理",
+        "dialogueNote": "如果原話是命令，要先選合適動詞；不要只改 stay 的時間。"
+      },
+      {
+        "id": "RS.07.10",
+        "title": "非正式口語有時用 said to 加動詞，轉述別人的指示",
+        "dialogueNote": "said to wait 可在非正式口語中出現；正式寫作通常選 told us to wait。"
+      },
+      {
+        "id": "RS.07.14",
+        "title": "有些正式說話一說出口，就完成了那個行動",
+        "dialogueNote": "正式宣布是否生效，也要看說話者有沒有權限和當時的規定。"
+      },
+      {
+        "id": "RS.08.02",
+        "title": "I don't think 常表示「我覺得大概不會」",
+        "dialogueNote": "say 不能照搬這種理解；didn't say 與 said ... wasn't 的意思不同。"
+      },
+      {
+        "id": "RS.08.04",
+        "title": "問「為甚麼沒做」不等於說「那人沒有做」",
+        "dialogueNote": "轉述負面問題時，要保留對方原本的期待或驚訝。"
+      },
+      {
+        "id": "RS.08.06",
+        "title": "only 放在哪裏，會改變「只有甚麼」的意思",
+        "dialogueNote": "even、all、some 等字也要看位置和說話重點。"
+      },
+      {
+        "id": "RS.08.07",
+        "title": "anyone 常出現在否定句或查問有沒有人",
+        "dialogueNote": "anyone 在「任何人都可以」的意思下，也可能出現在肯定句。"
+      },
+      {
+        "id": "RS.08.09",
+        "title": "直接引述別人的地方用法時，要尊重原話",
+        "dialogueNote": "在普通標準英文考試中，第一句通常不屬目標寫法；但它在某些方言中有自己的規則。"
+      },
+      {
+        "id": "RS.08.10",
+        "title": "原話有 if、unless 等字，轉述後仍要保留條件",
+        "dialogueNote": "unless 常表示「除非」；改寫時要小心，不能把條件意思改掉。"
+      },
+      {
+        "id": "RS.09.05",
+        "title": "直接引語中間可以插入「某人說」",
+        "dialogueNote": "插入部分的逗號、引號和大小寫要按原句是否仍然繼續來安排。"
+      },
+      {
+        "id": "RS.09.06",
+        "title": "小說有時把 said 放在人名前面",
+        "dialogueNote": "這不是間接問句的次序；said he 在現代普通英文中較有古典味道。"
+      },
+      {
+        "id": "RS.09.07",
+        "title": "講故事或寫標題時，可以用現在式轉述以前的事",
+        "dialogueNote": "新聞標題也常用 says；這不代表事情一定是在此刻說的。"
+      },
+      {
+        "id": "RS.09.08",
+        "title": "小說可以用敍述句，直接帶出人物當時的心情",
+        "dialogueNote": "這種寫法常見於小說；單看一句話，有時仍要靠上下文才知道是誰的想法。"
+      },
+      {
+        "id": "RS.09.09",
+        "title": "轉述句可以只為幾個原字加上引號",
+        "dialogueNote": "局部引號應只用在有理由相信是原字的地方；不能隨意假稱別人逐字說過。"
+      },
+      {
+        "id": "RS.09.10",
+        "title": "引號內的問題可保留問句次序",
+        "dialogueNote": "如果是模仿別人說話的特殊句子，也可能保留原問句；要先分清是否引述。"
+      },
+      {
+        "id": "RS.09.11",
+        "title": "引述原話時，可以保留原本的不完整句子",
+        "dialogueNote": "引號中的地方用法或不完整句子，不應在沒有說明下改成另一句。"
+      },
+      {
+        "id": "RS.09.12",
+        "title": "故事也可以直接寫出人物當時心裏的話",
+        "dialogueNote": "有些小說完全不寫 thought，讀者要靠故事知道想法屬於誰。"
+      },
+      {
+        "id": "RS.10.01",
+        "title": "轉述消息時，也可以先說消息內容，不寫是誰報告的",
+        "dialogueNote": "這種寫法不一定要加 by someone；不知道消息來源時，不要自行加上。"
+      },
+      {
+        "id": "RS.10.02",
+        "title": "正式英文有時把被報告的人或事放在句首",
+        "dialogueNote": "不是每個轉述動詞都可用 is ... to 這個寫法；要看那個動詞的習慣。"
+      },
+      {
+        "id": "RS.10.03",
+        "title": "一整件事情可以放在句首作為討論對象",
+        "dialogueNote": "這類長句比較正式；如果句子太難讀，用 It 開頭通常較清楚。"
+      },
+      {
+        "id": "RS.10.04",
+        "title": "一個人可以連續說出兩件事，也可以一次轉述兩件事",
+        "dialogueNote": "如果不清楚第二件事由誰說，應補上消息來源。"
+      },
+      {
+        "id": "RS.10.05",
+        "title": "he said 可以放在句子中間作補充",
+        "dialogueNote": "這種插入說法常見於故事或新聞；逗號位置要清楚。"
+      },
+      {
+        "id": "RS.10.06",
+        "title": "別人的說法可以變成「他的聲稱」等名詞說法",
+        "dialogueNote": "claim、promise、report 等名詞各有含義，不能當成完全相同。"
+      },
+      {
+        "id": "RS.10.07",
+        "title": "有些動詞會讓人理解事情是真的，有些只說有人這樣講",
+        "dialogueNote": "如果發現的內容本身有錯，要用上下文說清楚，不宜把 claimed 當成 realised。"
+      },
+      {
+        "id": "RS.10.08",
+        "title": "可以用 according to 說明消息來自哪裏",
+        "dialogueNote": "reportedly 只表示據報；不一定交代是哪一份報告。"
+      },
+      {
+        "id": "RS.10.09",
+        "title": "想強調「是誰說」，可以把那個人放在重點位置",
+        "dialogueNote": "這類強調句常暗示有人正在比較不同消息來源。"
+      },
+      {
+        "id": "RS.10.10",
+        "title": "說過話的人，可以在句子後面再加資料介紹",
+        "dialogueNote": "同樣見到 that，也要看它是說內容還是用來介紹前面的名詞。"
+      },
+      {
+        "id": "RS.10.11",
+        "title": "「是否會下雨」這整組字，可以放在不同句子位置",
+        "dialogueNote": "在 about 之後，通常選 whether。if to 在這裏不合適。"
+      },
+      {
+        "id": "RS.10.12",
+        "title": "一個句子有多個人物時，要小心 she 或 he 指誰",
+        "dialogueNote": "如果人物身份會影響意思，直接寫人名會更安全。"
+      },
+      {
+        "id": "RS.11.01",
+        "title": "英式和美式英文的轉述句，大部分基本規則相同",
+        "dialogueNote": "不要把另一地區常用的正確寫法，一律當成文法錯誤。"
+      },
+      {
+        "id": "RS.11.02",
+        "title": "舊式故事有時用今天較少見的引語次序",
+        "dialogueNote": "“It is time,” said he 在古典文學中可見，但今天較少這樣寫。"
+      },
+      {
+        "id": "RS.11.03",
+        "title": "新聞標題常省去部分字，也常用現在式",
+        "dialogueNote": "不要把新聞標題的省略方法隨便用在普通學校作文。"
+      },
+      {
+        "id": "RS.11.04",
+        "title": "寫報告時，要分清別人說了甚麼和你自己認為甚麼",
+        "dialogueNote": "在功課或研究報告中，不能為了句子好看就改變原作者的肯定程度。"
+      },
+      {
+        "id": "RS.11.05",
+        "title": "某些地區的英文可以用多個否定字表示同一個否定意思",
+        "dialogueNote": "在正式英文練習中應按題目要求寫；逐字引述別人的話時不要私下改動。"
+      },
+      {
+        "id": "RS.11.06",
+        "title": "口語中的 was like 有時用來重現當時的反應",
+        "dialogueNote": "這種用法常見於非正式對話；正式文章宜用 said、thought 等更清楚的字。"
+      },
+      {
+        "id": "RS.11.07",
+        "title": "在法庭等正式場合，有專門的字表示作供或聲稱",
+        "dialogueNote": "法律字詞可能有特定意思，翻譯正式文件時不能隨意替換。"
+      },
+      {
+        "id": "RS.11.08",
+        "title": "引述舊時的信件，可能保留當年的寫法",
+        "dialogueNote": "若聲稱是逐字引述，就不能隨意改原信的時間和用字。"
+      },
+      {
+        "id": "RS.11.09",
+        "title": "說話的停頓和語氣，也可能幫助我們理解哪部分是引述",
+        "dialogueNote": "在實際對話中，停頓和聲調也會幫助聽者分辨原話和轉述。"
+      },
+      {
+        "id": "RS.11.10",
+        "title": "有些練習指定要把動詞改成過去寫法，但日常英文可能有多個答案",
+        "dialogueNote": "做練習要跟指示；學文法時仍要知道其他真實而自然的寫法。"
+      },
+      {
+        "id": "RS.12.03",
+        "title": "可以用 as someone said，提醒讀者這是別人先前說過的話",
+        "dialogueNote": "as reported by 也可標明消息來源，但寫法與 as X said 不完全相同。"
+      },
+      {
+        "id": "RS.12.04",
+        "title": "what she said 有時代表「她說的話」這整件事",
+        "dialogueNote": "不要只見到 what 就判定整句在提問；先看它在句中做甚麼。"
+      },
+      {
+        "id": "RS.12.05",
+        "title": "引號有時用來模仿聲音或反應",
+        "dialogueNote": "模仿聲音和逐字說話不同；was like 也可能只模仿一種反應。"
+      },
+      {
+        "id": "RS.12.06",
+        "title": "有些 how 和 what 句子是在讚嘆，並非在發問",
+        "dialogueNote": "不要把所有 how 和 what 開頭的內容都當成要人回答的問句。"
+      },
+      {
+        "id": "RS.12.07",
+        "title": "whether 有時表示要討論的問題，未必有人曾直接問過",
+        "dialogueNote": "看見 whether 不等於一定有人問過原本的直接問句。"
+      },
+      {
+        "id": "RS.12.08",
+        "title": "對話中已說過的內容，有時可以省略",
+        "dialogueNote": "如果讀者不知道之前問甚麼，這種簡短回答可能不夠清楚。"
+      },
+      {
+        "id": "RS.12.09",
+        "title": "轉述句有時仍然看不出 she 指哪個人",
+        "dialogueNote": "沒有足夠資料時，不能自行把 she 改成人名。"
+      },
+      {
+        "id": "RS.12.10",
+        "title": "故事中的 tomorrow，有時是人物當時的明天",
+        "dialogueNote": "小說中的時間字未必以讀者今天的日期計算。"
+      },
+      {
+        "id": "RS.12.11",
+        "title": "轉述的消息也可以放在冒號後面",
+        "dialogueNote": "冒號後面可用簡短內容，但句子要讓人清楚知道消息屬於誰。"
+      },
+      {
+        "id": "RS.12.12",
+        "title": "轉述練習必須交代清楚時間和說話的人",
+        "dialogueNote": "題目不給足夠資料時，可能有多種正確轉述；不能硬選一個。"
+      },
+      {
+        "id": "RS.12.13",
+        "title": "整句在問「你說誰會來」時，外面的問句仍有自己的次序",
+        "dialogueNote": "這種較長問句與 She asked who was coming 不同，要先看整句究竟在問誰。"
+      },
+      {
+        "id": "RS.12.14",
+        "title": "引號內也可以再放另一個人說的原話",
+        "dialogueNote": "兩層引號的單雙形式要按同一份作品的格式保持一致。"
+      },
+      {
+        "id": "RS.12.15",
+        "title": "有些固定說法表示「大家都這樣講」，但說話者未必完全相信",
+        "dialogueNote": "據說、聽聞等說法要看消息來源；不能當成已證實的事。"
+      },
+      {
+        "id": "RS.12.16",
+        "title": "有時引號只是在談某個字本身",
+        "dialogueNote": "要分清「某人說了哪個字」和「某人表達甚麼意思」。  ---  ---  ---  Diagnostic Tests and Challenging Examples"
+      }
+    ]
+  },
+  "practice": {
+    "questionCount": 44,
+    "multipleChoiceCount": 36,
+    "rewriteCount": 8,
+    "questions": [
+      {
+        "diagnosticId": "D01",
+        "topic": "RS.02.01",
+        "answer": "to",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D02",
+        "topic": "RS.02.02",
+        "answer": "told",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D03",
+        "topic": "RS.03.04",
+        "answer": "was",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D04",
+        "topic": "RS.03.05",
+        "answer": "had",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D05",
+        "topic": "RS.03.09",
+        "answer": "had",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D06",
+        "topic": "RS.03.10",
+        "answer": "would",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D07",
+        "topic": "RS.04.01",
+        "answer": "could",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D08",
+        "topic": "RS.04.05",
+        "answer": "must",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D09",
+        "topic": "RS.02.06",
+        "answer": "informed",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D10",
+        "topic": "RS.02.11",
+        "answer": "for",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D11",
+        "topic": "RS.07.06",
+        "answer": "postponing",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D12",
+        "topic": "RS.07.02",
+        "answer": "to wait",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D13",
+        "topic": "RS.06.03",
+        "answer": "worked",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D14",
+        "topic": "RS.03.05",
+        "answer": "had",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D15",
+        "topic": "RS.06.09",
+        "answer": "whether",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D16",
+        "topic": "RS.06.07",
+        "answer": "whether",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D17",
+        "topic": "RS.06.08",
+        "answer": "whether",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D18",
+        "topic": "RS.06.05",
+        "answer": "had",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D19",
+        "topic": "RS.06.14",
+        "answer": "there was",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D20",
+        "topic": "RS.06.03",
+        "answer": "is",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D21",
+        "topic": "RS.07.03",
+        "answer": "not to touch",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D22",
+        "topic": "RS.08.03",
+        "answer": "didn't have to",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D23",
+        "topic": "RS.07.08",
+        "answer": "promised",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D24",
+        "topic": "RS.08.08",
+        "answer": "denied",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D25",
+        "topic": "RS.08.08",
+        "answer": "to lend",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D26",
+        "topic": "RS.07.09",
+        "answer": "taking",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D27",
+        "topic": "RS.07.04",
+        "answer": "advised",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D28",
+        "topic": "RS.07.05",
+        "answer": "warned",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D29",
+        "topic": "RS.08.01",
+        "answer": "She told him not to leave.",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D30",
+        "topic": "RS.08.06",
+        "answer": "Only Anna said that two tickets remained.",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D31",
+        "topic": "RS.03.12",
+        "answer": "The shopkeeper said this shop is open now.",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D32",
+        "topic": "RS.05.08",
+        "answer": "5 June",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D33",
+        "topic": "RS.07.12",
+        "answer": "She exclaimed that it was a beautiful painting.",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D34",
+        "topic": "RS.12.04",
+        "answer": "The words she said.",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D35",
+        "topic": "RS.09.09",
+        "answer": "An indirect report that quotes only a few words.",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D36",
+        "topic": "RS.03.16",
+        "answer": "We cannot know her exact original words from this report alone.",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D37",
+        "topic": "RS.06.03",
+        "answer": "She asked me where the bus was.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D38",
+        "topic": "RS.02.01",
+        "answer": "He said to me that the room was ready.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D39",
+        "topic": "RS.07.06",
+        "answer": "She suggested that we leave earlier.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D40",
+        "topic": "RS.03.12",
+        "answer": "Lee said that he is here now.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D41",
+        "topic": "RS.07.05",
+        "answer": "The teacher warned the students not to enter the laboratory.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D42",
+        "topic": "RS.06.03",
+        "answer": "Ava asked Ben which book he had chosen.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D43",
+        "topic": "RS.03.04",
+        "answer": "The visitors said that they were delighted.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D44",
+        "topic": "RS.03.02",
+        "answer": "He says that the results are reliable.",
+        "correctOption": null
+      }
+    ]
+  }
+}
