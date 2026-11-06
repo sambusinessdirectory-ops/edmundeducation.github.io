@@ -5,6 +5,7 @@ import {fileURLToPath} from 'node:url';
 import lessons from '../natural-english/advanced-expressions.mjs';
 import {modules,moduleMap,allQuestionMap} from '../natural-english/catalogue.mjs';
 import {audioManifest} from '../natural-english/audio/manifest.mjs';
+import {publicMediaOrigin,publishedAudioUrl} from '../natural-english/audio-url.mjs';
 import {targetPatterns as displayTargetPatterns,englishText,chineseText,promptText} from '../natural-english/advanced-display.mjs';
 
 const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -23,6 +24,12 @@ assert.ok(html.includes('Advanced Native<br>進階學生使用<br>高級自然�
 assert.ok(!html.includes('card-74.webp'),'Card 74 stays image-free for now');
 assert.ok(portal.includes('data-course="advanced-native"'));
 assert.ok(portal.includes('advanced-native/style.css'));
+assert.ok(portal.includes(`media-src 'self' blob: https://edmund-neural-audio.edmundeducation.workers.dev ${publicMediaOrigin}`));
+assert.ok(portal.includes(`connect-src 'self' https://edmund-neural-audio.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev ${publicMediaOrigin}`));
+assert.ok(portal.includes('natural-english/app.mjs?v=20261106-public-media1'));
+assert.equal(publishedAudioUrl('natural-english/audio/advanced/example.mp3',{hostname:'edmundeducation.com',href:'https://edmundeducation.com/advanced-native.html'}),`${publicMediaOrigin}/natural-english/audio/advanced/example.mp3`);
+assert.equal(publishedAudioUrl('natural-english/audio/advanced/example.mp3',{hostname:'localhost',href:'http://localhost:4173/advanced-native.html'}),'natural-english/audio/advanced/example.mp3');
+assert.equal(publishedAudioUrl('https://edmund-neural-audio.edmundeducation.workers.dev/assets/example.mp3',{hostname:'edmundeducation.com',href:'https://edmundeducation.com/advanced-native.html'}),'https://edmund-neural-audio.edmundeducation.workers.dev/assets/example.mp3');
 assert.ok(app.includes('visibleModules=modules.filter'));
 assert.ok(app.includes('done&&!q.allCorrect'),'all-correct replies remain selectable');
 assert.ok(app.includes('grid.dataset.layout'),'Advanced Native has a composed card layout');
