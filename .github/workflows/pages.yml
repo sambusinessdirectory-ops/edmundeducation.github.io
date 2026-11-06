@@ -91,6 +91,7 @@ jobs:
           /tools/*
           !/tools/*/
           /tools/email-qa/
+          /tools/advanced-native-bulk/
           /professional-english/index.html
           /professional-english/recall.html
           /workers/edmund-site-assets/src/site-pack-index-v1.json
