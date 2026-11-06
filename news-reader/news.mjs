@@ -1,4 +1,4 @@
-import {clearListening,renderListening} from './listening.mjs';
+import {clearListening,renderListening} from './listening.mjs?v=revised-20261106-1';
 const $ = id => document.getElementById(id);
 const audio = $('audio');
 const video = $('video');
