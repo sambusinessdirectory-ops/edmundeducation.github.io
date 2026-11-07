@@ -119,11 +119,19 @@
     try {
       let url = state.audioUrls.get(normalized);
       if (!url) {
-        const response = await apiFetch("/v1/learning-voice", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ text: normalized })
-        });
+        const controller = new AbortController();
+        const timeoutId = window.setTimeout(() => controller.abort(), 8_000);
+        let response;
+        try {
+          response = await apiFetch("/v1/learning-voice", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ text: normalized }),
+            signal: controller.signal
+          });
+        } finally {
+          window.clearTimeout(timeoutId);
+        }
         const blob = await response.blob();
         if (!blob.size || !/^audio\//i.test(blob.type)) throw new Error("語音檔案無效。");
         url = URL.createObjectURL(blob);
