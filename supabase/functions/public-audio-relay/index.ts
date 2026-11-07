@@ -2,6 +2,11 @@ const NEURAL_AUDIO_ORIGIN = "https://edmund-neural-audio.edmundeducation.workers
 const PUBLIC_MEDIA_ORIGIN = "https://edmund-public-media.edmundeducation.workers.dev";
 const FUNCTION_PATH = "/public-audio-relay/";
 const AUDIO_EXTENSION = /\.(?:mp3|wav|m4a|ogg)$/i;
+const NEURAL_AUDIO_PATH_PREFIXES = [
+  "assets/",
+  "IELTS Listening - Recordings/",
+  "DSE Listening - Recordings/",
+] as const;
 const RESPONSE_HEADERS = [
   "accept-ranges",
   "cache-control",
@@ -44,8 +49,11 @@ function safeAudioRequest(requestUrl: string): { origin: string; path: string } 
   }
   const isPublicMedia = decodedPath.startsWith("public/");
   const upstreamPath = isPublicMedia ? decodedPath.slice("public/".length) : decodedPath;
+  const isAllowedNeuralAudio = NEURAL_AUDIO_PATH_PREFIXES.some((prefix) =>
+    upstreamPath.startsWith(prefix)
+  );
   if (
-    (!isPublicMedia && !upstreamPath.startsWith("assets/")) ||
+    (!isPublicMedia && !isAllowedNeuralAudio) ||
     !AUDIO_EXTENSION.test(upstreamPath) ||
     upstreamPath.includes("\\") ||
     upstreamPath.includes("\0") ||
