@@ -3,7 +3,7 @@
   "sourceDurationSeconds": 3340.052667,
   "meetingCutStartSeconds": 2796.5,
   "meetingCutDurationSeconds": 517.5,
-  "output": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2025-b2/part-b-meeting.m4a",
+  "output": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/public/paper3/2025-b2/part-b-meeting.m4a",
   "processing": "Extracted existing audio; AAC 96 kbps, no generated speech; full meeting greetings through goodbye, excluding exam instructions and preparation silence.",
   "timingCheck": "Local faster-whisper base.en transcript used to identify spoken topic transitions and corroborate the supplied meeting text. Speaker attribution in the existing transcript was not reverified.",
   "sectionStartsSeconds": {"slogan":20.3,"opening":80.6,"wellness":167.4,"topic":310.7,"after":365,"parents":403.1}

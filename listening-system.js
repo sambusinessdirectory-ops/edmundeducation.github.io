@@ -17,7 +17,7 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_LISTENING_CATALOG || { practices: [] };
 const registeredPractices = new Set(CATALOGUE.practices.map(item => item.practice));
 const SESSION_KEY = "edmund-listening-session-v1";
-const AUDIO_CATALOGUE_URL = "https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog";
+const AUDIO_CATALOGUE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/v1/listening/catalog";
 const SPEEDS = Object.freeze([0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]);
 const TEXT_SCALES = Object.freeze(Array.from({length:20},(_,i)=>(i+1)*.25));
 const DSE_CONTENT = new Map([

@@ -20,7 +20,7 @@ const arrow = '<svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="c
 const starIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.7 2.86 5.8 6.4.93-4.63 4.52 1.09 6.38L12 17.32l-5.72 3.01 1.09-6.38L2.74 9.43l6.4-.93L12 2.7Z"/></svg>';
 const speakerIcon = '<img src="dse-argument-bank/speaker.svg" width="19" height="19" alt="" aria-hidden="true">';
 const micIcon = '<img src="dse-argument-bank/microphone.svg" width="19" height="19" alt="" aria-hidden="true">';
-const audioBase = 'https://edmund-neural-audio.edmundeducation.workers.dev/';
+const audioBase = 'https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/';
 const state = { token: '', name: '', role: 'student', modules: [], moduleIndex: 0, data: null, progress: {}, audio: null, recorder: null, recordingStream: null, recordingTimer: null, recordingOffset: 0, view: 'home', prompt: null, response: null, structureOpen: false, structurePosition: null, pick: null, selectedYear: 2025, yearOrder: 'newest', searchQuery: '', searchIndex: [], searchMatches: [], searchLimit: 40, selectedGlossary: new Set(), selectedSynonyms: new Set() };
 let toastTimer;
 let modeTransitionTimer;

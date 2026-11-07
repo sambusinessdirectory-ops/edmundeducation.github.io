@@ -11,7 +11,7 @@
       "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioSha256": "736ea0690f2d264062b6575f9c72a16b2719d74cec63583f9439b389bd68a13f",
       "transcriptSha256": "9adc92bdecc6103eec81f7dd3c54d2444511d0d5f327c413d2c1341531243bfe",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%201.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%201.mp3",
       "duration": 423.52325,
       "cues": [
         {
@@ -471,7 +471,7 @@
       "instructions": "Choose TWO letters, A–E. · Choose SIX answers from the box and write the correct letter, A–H, next to",
       "audioSha256": "9e956d98e0dfc6ba057c8d157911e0029217e0cb7997010bccfd7fd926a86790",
       "transcriptSha256": "d6bde1d09de36e97c23fd3f08249c6f89c700c9fc302effa196d5e6f23dda493",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%202.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%202.mp3",
       "duration": 379.3763125,
       "cues": [
         {
@@ -923,7 +923,7 @@
       "instructions": "Choose TWO letters, A–E. · Choose the correct letter, A, B or C.",
       "audioSha256": "f8e0045b960cb2f2e12096c536ab6bde4091e087d6d1c1cba6810b541e342f50",
       "transcriptSha256": "68e3518c597a205675d2bb524eafd0f49b39c744bce1124d5423e773f4e852bb",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%203.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%203.mp3",
       "duration": 382.798375,
       "cues": [
         {
@@ -1467,7 +1467,7 @@
       "instructions": "Write ONE WORD ONLY for each answer.",
       "audioSha256": "fd033abdb99e76460d2d3d06e169ae4341f0235ff2a2b2270448c4ec752bd751",
       "transcriptSha256": "177caf1ae63358a241c6efcc9a48a39162c649ee5707aed137e62c94a7401911",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%204.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%204.mp3",
       "duration": 442.106188,
       "cues": [
         {

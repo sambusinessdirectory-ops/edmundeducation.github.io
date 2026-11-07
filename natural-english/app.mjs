@@ -6,7 +6,7 @@ import {audioManifest} from './audio/manifest.mjs?v=20261024-books10-16-730';
 import {publishedAudioUrl} from './audio-url.mjs?v=20261106-public-media1';
 import {eventsByModule} from './progress-index.mjs?v=20261024-books10-16-730';
 import {mountRecorder,listRecordings,storeRecording} from './recording.mjs?v=20261103-readalong';
-const voiceAudio=new Audio();let voiceRequest=0,voiceLabel=null;const voiceUrls=new Map();
+const voiceAudio=new Audio();let voiceRequest=0,voiceLabel=null,deviceVoice=null;const voiceUrls=new Map();
 const advancedCourse=document.body.dataset.course==='advanced-native';
 const visibleModules=modules.filter(m=>(m.course==='advanced-native')===advancedCourse);
 const inThisCourse=id=>visibleModules.some(m=>m.id===id);
@@ -175,8 +175,33 @@ function completeOpen(id){
  inputs[current.id+':'+run+':'+id]=value;persist();answer(id,value);
 }
 function submitBlanks(all){const pending=current.steps[index].questions.filter(id=>current.questionMap.get(id).type==='blank'&&!completed(events,run,current).has(id));const values=pending.map(id=>[id,($(`[data-blank="${id}"] input`)?.value||'').trim()]);if(all&&values.some(([,value])=>!value)){$('[data-submit-status]').textContent='請先填完本頁空格，或選「提交已填答案」。';return;}const filled=values.filter(([,value])=>value);if(!filled.length){$('[data-submit-status]').textContent='請先填寫至少一個答案。';return;}for(const [id,value] of filled){inputs[current.id+':'+run+':'+id]=value;answer(id,value,true);}render();$('[data-submit-status]').textContent=`已檢查 ${filled.length} 個答案；答錯可修改後再提交。`;}
-function stopVoice(){voiceRequest++;voiceAudio.pause();voiceAudio.onended=null;voiceAudio.onerror=null;voiceAudio.removeAttribute('src');if(voiceLabel?.isConnected)voiceLabel.textContent='';voiceLabel=null;}
-async function playVoice(button){stopVoice();const ticket=voiceRequest,owner=user?.id,text=button.dataset.say,label=button.closest('.model,.finish')?.querySelector('[data-audio-status]');voiceLabel=label;if(label)label.textContent='正在載入示範…';try{const local=current?.id==='scoop'&&text==='Can I get two scoops of ice cream, please?'?'natural-english/audio/scoop-request-v2.mp3':audioManifest[current?.id]?.[text];if(advancedCourse&&!local)throw Error('Approved lesson audio mapping is missing.');let url=publishedAudioUrl(local)||voiceUrls.get(text);if(!url){const response=await fetch('https://edmund-speaking-system.edmundeducation.workers.dev/v1/learning-voice',{method:'POST',headers:{Authorization:'Bearer '+user.token,'Content-Type':'application/json'},body:JSON.stringify({text}),signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error();const blob=await response.blob();if(!blob.type.startsWith('audio/')||!blob.size)throw Error();if(ticket!==voiceRequest||user?.id!==owner)return;url=URL.createObjectURL(blob);voiceUrls.set(text,url);}if(ticket!==voiceRequest||user?.id!==owner)return;voiceAudio.onended=()=>{if(ticket===voiceRequest&&label?.isConnected)label.textContent='播放完畢。';if(voiceLabel===label)voiceLabel=null;};voiceAudio.onerror=()=>{if(ticket===voiceRequest&&label?.isConnected)label.textContent='未能播放，請按一次重試。';if(voiceLabel===label)voiceLabel=null;};voiceAudio.src=url;voiceAudio.currentTime=0;voiceAudio.playbackRate=button.hasAttribute('data-slow')?.75:1;await voiceAudio.play();if(ticket===voiceRequest&&label)label.textContent='正在播放…';}catch{if(ticket===voiceRequest&&label)label.textContent='未能播放，請按一次重試。';if(voiceLabel===label)voiceLabel=null;}}
+function stopVoice(){
+ voiceRequest++;voiceAudio.pause();voiceAudio.onended=null;voiceAudio.onerror=null;voiceAudio.removeAttribute('src');
+ if(deviceVoice&&globalThis.speechSynthesis){deviceVoice.onend=null;deviceVoice.onerror=null;speechSynthesis.cancel();deviceVoice=null;}
+ if(voiceLabel?.isConnected)voiceLabel.textContent='';voiceLabel=null;
+}
+function playDeviceVoice({text,slow,ticket,label}){
+ if(!globalThis.speechSynthesis||!globalThis.SpeechSynthesisUtterance)return false;
+ const utterance=new SpeechSynthesisUtterance(text);utterance.lang='en-GB';utterance.rate=slow?.78:.94;
+ const voices=speechSynthesis.getVoices?.()||[];
+ utterance.voice=voices.find(item=>item.lang?.toLowerCase().startsWith('en-gb'))||voices.find(item=>item.lang?.toLowerCase().startsWith('en'))||null;
+ utterance.onend=()=>{if(ticket!==voiceRequest||utterance!==deviceVoice)return;deviceVoice=null;if(label?.isConnected)label.textContent='播放完畢（裝置語音）。';if(voiceLabel===label)voiceLabel=null;};
+ utterance.onerror=()=>{if(ticket!==voiceRequest||utterance!==deviceVoice)return;deviceVoice=null;if(label?.isConnected)label.textContent='此裝置未能啟動語音，請再試。';if(voiceLabel===label)voiceLabel=null;};
+ deviceVoice=utterance;if(label?.isConnected)label.textContent='正在使用裝置語音播放…';speechSynthesis.speak(utterance);return true;
+}
+async function playVoice(button){
+ stopVoice();const ticket=voiceRequest,owner=user?.id,text=button.dataset.say,label=button.closest('.model,.finish')?.querySelector('[data-audio-status]');voiceLabel=label;if(label)label.textContent='正在載入示範…';let fallbackStarted=false;
+ const fallback=()=>{if(ticket!==voiceRequest||fallbackStarted)return;fallbackStarted=true;if(!playDeviceVoice({text,slow:button.hasAttribute('data-slow'),ticket,label})){if(label?.isConnected)label.textContent='此裝置未能播放語音，請再試。';if(voiceLabel===label)voiceLabel=null;}};
+ try{
+  const local=current?.id==='scoop'&&text==='Can I get two scoops of ice cream, please?'?'natural-english/audio/scoop-request-v2.mp3':audioManifest[current?.id]?.[text];
+  if(advancedCourse&&!local)throw Error('Approved lesson audio mapping is missing.');
+  let url=publishedAudioUrl(local)||voiceUrls.get(text);
+  if(!url){const response=await fetch('https://edmund-speaking-system.edmundeducation.workers.dev/v1/learning-voice',{method:'POST',headers:{Authorization:'Bearer '+user.token,'Content-Type':'application/json'},body:JSON.stringify({text}),signal:AbortSignal.timeout(8000)});if(!response.ok)throw Error();const blob=await response.blob();if(!blob.type.startsWith('audio/')||!blob.size)throw Error();if(ticket!==voiceRequest||user?.id!==owner)return;url=URL.createObjectURL(blob);voiceUrls.set(text,url);}
+  if(ticket!==voiceRequest||user?.id!==owner)return;
+  voiceAudio.onended=()=>{if(ticket===voiceRequest&&label?.isConnected)label.textContent='播放完畢。';if(voiceLabel===label)voiceLabel=null;};
+  voiceAudio.onerror=fallback;voiceAudio.src=url;voiceAudio.currentTime=0;voiceAudio.playbackRate=button.hasAttribute('data-slow')?.75:1;await voiceAudio.play();if(ticket===voiceRequest&&label)label.textContent='正在播放…';
+ }catch{fallback();}
+}
 let libraryUrls=[];
 function clearLibrary(){$('[data-recordings-list]').querySelectorAll('audio').forEach(a=>a.pause());for(const url of libraryUrls)URL.revokeObjectURL(url);libraryUrls=[];$('[data-recordings-list]').innerHTML='';}
 async function uploadRecording(item){const owner=user?.id,token=user?.token;if(owner!==item.owner)return;await sync();const base64=await new Promise((resolve,reject)=>{const f=new FileReader();f.onload=()=>resolve(f.result.split(',')[1]);f.onerror=reject;f.readAsDataURL(item.blob);});await rpc('natural_english_modules_recording',{p_token:token,p_action:'save',p_payload:{id:item.id,module:item.module||'scoop',run:item.run,slot:item.slot,mime:item.blob.type.split(';')[0],audio:base64}});item.synced=true;await storeRecording(item);}

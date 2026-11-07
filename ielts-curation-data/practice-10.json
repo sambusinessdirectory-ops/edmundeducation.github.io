@@ -11,7 +11,7 @@
       "instructions": "Write ONE WORD ONLY for each answer.",
       "audioSha256": "f4f1b301daf8d33487778a089c079fe0b0f0d7af24ee4958eefba71bb28dc3a7",
       "transcriptSha256": "20b5984ad70584a7d67cb6bc56965a6c72a02586abaca3bf56b41f22fdf3db52",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%201.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%201.mp3",
       "duration": 372.53225,
       "cues": [
         {
@@ -587,7 +587,7 @@
       "instructions": "Choose TWO letters, A–E. · Write the correct letter, A–I, next to Questions 15–20.",
       "audioSha256": "d9bc67574639d4cb83e042d07ed6122680932229be790cfa92506a530c3eb642",
       "transcriptSha256": "2ffb05aa9deb45c251d846c75d8cc8cbfdf2a083c6fe18899b13e7286d94f7b9",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%202.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%202.mp3",
       "duration": 407.5885625,
       "cues": [
         {
@@ -1121,7 +1121,7 @@
       "instructions": "Choose the correct letter, A, B or C. · Choose TWO letters, A–E. Which TWO issues following the Laki eruption surprised · Choose FOUR answers from the box and write the correct letter, A–F, next to",
       "audioSha256": "25b3ef5c68476b90f42504e009e8a836d2f44b2cd54f2db15b9e3716022373e0",
       "transcriptSha256": "841cb1b2dfc942924397a8ae3a6aa8a617540e6293aee72c3594d035a5e1d9af",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%203.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%203.mp3",
       "duration": 398.419625,
       "cues": [
         {
@@ -1711,7 +1711,7 @@
       "instructions": "Write ONE WORD ONLY for each answer.",
       "audioSha256": "962b776f791b737b0feb0358422d2dc0ae01d82807c16fdcd4869c2383a75aea",
       "transcriptSha256": "d4439d459c4400c6aa61e19383a11a1587ca42e174c025a0b637967cc95cf547",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%204.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%204.mp3",
       "duration": 351.2163125,
       "cues": [
         {

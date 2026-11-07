@@ -17,7 +17,7 @@ const DSE_CONTENT = new Map([
   [2021, window.EDMUND_DSE_LISTENING_2021 || null],
   [2023, window.EDMUND_DSE_LISTENING_2023 || null]
 ].filter(([, content]) => Boolean(content)));
-const AUDIO_CATALOGUE_URL = "https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog";
+const AUDIO_CATALOGUE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/v1/listening/catalog";
 const AUDIO_SPEEDS = Object.freeze([0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]);
 
 if (!DATA?.years?.length || !DATA?.levels?.length || !DATA?.materialTypes?.length) {

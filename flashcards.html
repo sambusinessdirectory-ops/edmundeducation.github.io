@@ -6882,6 +6882,7 @@
     let flashcardClientReloadPending = false;
     let studentPasswordLogsCache = {};
     let activeSpeechAudio = null;
+    let activeSpeechUtterance = null;
     let activeSpeechRequestId = 0;
     let selectedAttemptPage = 1;
     let adminStudentStateCache = {};
@@ -17356,12 +17357,12 @@
       const speakButton = document.querySelector("[data-speak-card]");
       const currentText = normalizedSpeechText(currentCard()?.front || "");
       const currentReady = Boolean(neuralAudioPathForText(currentText));
-      const playing = Boolean(activeSpeechAudio && !activeSpeechAudio.paused && !activeSpeechAudio.ended);
+      const playing = Boolean(activeSpeechUtterance || activeSpeechAudio && !activeSpeechAudio.paused && !activeSpeechAudio.ended);
 
       if (speakButton) {
         const label = currentReady
           ? playing ? `停止 ${NEURAL_SPEECH_NAME} 讀音` : `播放 ${NEURAL_SPEECH_NAME} 讀音`
-          : "此字卡未有神經語音";
+          : globalThis.speechSynthesis ? playing ? "停止裝置語音" : "播放裝置語音" : "此字卡未有可用語音";
         speakButton.setAttribute("aria-label", label);
         speakButton.setAttribute("title", label);
         speakButton.classList.toggle("is-playing", playing);
@@ -17395,6 +17396,12 @@
 
     function stopNeuralSpeech({ refresh = true } = {}) {
       activeSpeechRequestId += 1;
+      if (activeSpeechUtterance && globalThis.speechSynthesis) {
+        activeSpeechUtterance.onend = null;
+        activeSpeechUtterance.onerror = null;
+        speechSynthesis.cancel();
+        activeSpeechUtterance = null;
+      }
       if (activeSpeechAudio) {
         activeSpeechAudio.onplaying = null;
         activeSpeechAudio.onended = null;
@@ -17404,6 +17411,28 @@
         activeSpeechAudio.load();
       }
       if (refresh) renderNeuralSpeechState();
+    }
+
+    function playFlashcardDeviceSpeech(text, requestId) {
+      if (!globalThis.speechSynthesis || !globalThis.SpeechSynthesisUtterance) return false;
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "en-GB";
+      utterance.rate = 0.94;
+      const voices = speechSynthesis.getVoices?.() || [];
+      utterance.voice = voices.find(voice => voice.lang?.toLowerCase().startsWith("en-gb"))
+        || voices.find(voice => voice.lang?.toLowerCase().startsWith("en"))
+        || null;
+      const finish = () => {
+        if (requestId !== activeSpeechRequestId || activeSpeechUtterance !== utterance) return;
+        activeSpeechUtterance = null;
+        renderNeuralSpeechState();
+      };
+      utterance.onend = finish;
+      utterance.onerror = finish;
+      activeSpeechUtterance = utterance;
+      speechSynthesis.speak(utterance);
+      renderNeuralSpeechState();
+      return true;
     }
 
     window.addEventListener("edmund-pronunciation-start", () => stopNeuralSpeech());
@@ -17420,12 +17449,12 @@
       }
       const path = neuralAudioPathForText(text);
       if (!path) {
-        console.warn("No Edmund Neural recording is available for this card.");
-        renderNeuralSpeechState();
-        return false;
+        stopNeuralSpeech({ refresh: false });
+        const requestId = ++activeSpeechRequestId;
+        return playFlashcardDeviceSpeech(text, requestId);
       }
 
-      if (activeSpeechAudio && !activeSpeechAudio.paused && !activeSpeechAudio.ended) {
+      if (activeSpeechUtterance || activeSpeechAudio && !activeSpeechAudio.paused && !activeSpeechAudio.ended) {
         stopNeuralSpeech();
         return true;
       }
@@ -17444,7 +17473,13 @@
         if (failed || requestId !== activeSpeechRequestId) return;
         failed = true;
         console.warn("Neural audio playback failed:", error);
-        renderNeuralSpeechState();
+        audio.onplaying = null;
+        audio.onended = null;
+        audio.onerror = null;
+        audio.pause();
+        audio.removeAttribute("src");
+        audio.load();
+        if (!playFlashcardDeviceSpeech(text, requestId)) renderNeuralSpeechState();
       };
 
       audio.onplaying = () => {

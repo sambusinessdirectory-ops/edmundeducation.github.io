@@ -11,7 +11,7 @@
       "instructions": "Write ONE WORD for each answer.",
       "audioSha256": "2e4752b0dd4a46ad8f41a498c6887169571359ac870c8e46fe9b7e2a28487fb6",
       "transcriptSha256": "56d7b0d64c37c6cabd9fcbb5792417eab41e9fcc880d51a7ed5f8cc1690efca7",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%201.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%201.mp3",
       "duration": 316.8391875,
       "cues": [
         {
@@ -494,7 +494,7 @@
       "instructions": "Choose the correct letter, A, B or C. · Write the correct letter, A, B or C, next to Questions 15–20.",
       "audioSha256": "78c34c03e175685497d63adda7cfd96e35d21a915449b24a6750342eaaa550bd",
       "transcriptSha256": "dccdad4f8147cc37ee802132bca1896b2a26206371078878f50619fdeea526d8",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%202.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%202.mp3",
       "duration": 443.305063,
       "cues": [
         {
@@ -960,7 +960,7 @@
       "instructions": "Choose TWO letters, A–E. · Choose SIX answers from the box and write the correct letter, A–H, next to",
       "audioSha256": "eda7b905d49b962010fb39019f71798156b5e644826f3cdc6696e8c0b39232f7",
       "transcriptSha256": "82bb808d6d3ad9b89d0cd806002b7943fd453527aebc4ca0007843e715f13055",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%203.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%203.mp3",
       "duration": 382.77225,
       "cues": [
         {
@@ -1596,7 +1596,7 @@
       "instructions": "Write ONE WORD ONLY for each answer.",
       "audioSha256": "4cff5190a125953334af719ab4896ef2bccf19385aca09a90aa27aec2ec1471a",
       "transcriptSha256": "a1b0889dfa4f66a35575d1eb16502b82c2c572b5e4f95d1a512dd61bcb68102d",
-      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%204.mp3",
+      "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%204.mp3",
       "duration": 447.735688,
       "cues": [
         {

@@ -22,7 +22,7 @@
         "subtitle": "下一期雜誌",
         "instructions": "依原題作答；不必使用完整句子。",
         "duration": 393.9,
-        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%201.mp3",
+        "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%201.mp3",
         "audioSha256": "e06fbecf2443b5482a636b01cdbda589652c9410858efe973f20547cf7b516d0",
         "transcriptSha256": "9a3af2a6f2bfe88d262cfdae005ff7e8fa79a77380f1c00b0cba40bd92363798",
         "cues": [
@@ -583,7 +583,7 @@
         "subtitle": "怪物迷宮",
         "instructions": "依原題作答；不必使用完整句子。",
         "duration": 540.2,
-        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%202.mp3",
+        "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%202.mp3",
         "audioSha256": "abe30d3cdc52f5ce5eaf7bc6b8b4676888cddcbaccdc34b772c2da323fccedb5",
         "transcriptSha256": "dba77c75f3a3d5b8c3dd53f661b09355f760fee2b7c2bdb3e4d3433af235f8ea",
         "cues": [
@@ -1307,7 +1307,7 @@
         "subtitle": "《兒童遊戲》",
         "instructions": "Part A：改錯或 ✓ · Part B：每項最多 4 字 · Part C：一個或多個字",
         "duration": 536.9,
-        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%203.mp3",
+        "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%203.mp3",
         "audioSha256": "8b8a10d079712ed05ee5343b17cdf65cd54e03534f3f800916213e7feb41a8bb",
         "transcriptSha256": "1f2b9d8c156bfccea08a4ce896d877b148f6c63266e80855b7237848db5bdf79",
         "cues": [
@@ -2087,7 +2087,7 @@
         "subtitle": "遊戲與玩樂的心理學",
         "instructions": "依原題作答；不必使用完整句子。",
         "duration": 561.3,
-        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%204.mp3",
+        "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%204.mp3",
         "audioSha256": "cdc7a8e1df18cf78a3daaf2508e4376957c10419c578610c904933bd76f44d52",
         "transcriptSha256": "0e698b4810f1769e1dd1ac698fa4251d467a545ccc2014657d5ec27d2748b6ad",
         "cues": [
@@ -5382,7 +5382,7 @@
     "timings": {
       "parts": {
         "1": {
-          "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%201.mp3",
+          "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%201.mp3",
           "audioSha256": "e06fbecf2443b5482a636b01cdbda589652c9410858efe973f20547cf7b516d0",
           "transcriptSha256": "9a3af2a6f2bfe88d262cfdae005ff7e8fa79a77380f1c00b0cba40bd92363798",
           "lines": [
@@ -5577,7 +5577,7 @@
           ]
         },
         "2": {
-          "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%202.mp3",
+          "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%202.mp3",
           "audioSha256": "abe30d3cdc52f5ce5eaf7bc6b8b4676888cddcbaccdc34b772c2da323fccedb5",
           "transcriptSha256": "dba77c75f3a3d5b8c3dd53f661b09355f760fee2b7c2bdb3e4d3433af235f8ea",
           "lines": [
@@ -5908,7 +5908,7 @@
           ]
         },
         "3": {
-          "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%203.mp3",
+          "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%203.mp3",
           "audioSha256": "8b8a10d079712ed05ee5343b17cdf65cd54e03534f3f800916213e7feb41a8bb",
           "transcriptSha256": "1f2b9d8c156bfccea08a4ce896d877b148f6c63266e80855b7237848db5bdf79",
           "lines": [
@@ -6295,7 +6295,7 @@
           ]
         },
         "4": {
-          "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%204.mp3",
+          "audioUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%204.mp3",
           "audioSha256": "cdc7a8e1df18cf78a3daaf2508e4376957c10419c578610c904933bd76f44d52",
           "transcriptSha256": "0e698b4810f1769e1dd1ac698fa4251d467a545ccc2014657d5ec27d2748b6ad",
           "lines": [
