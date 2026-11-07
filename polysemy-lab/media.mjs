@@ -1,5 +1,6 @@
 import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20261103-readalong';
 import {allQuestionMap,esc} from './core.mjs?v=20261003-polysemy-mass-2';
+import {speakWithDevice} from './audio-fallback.mjs?v=20261107-student-network1';
 let earlyManifestPromise,massManifestPromise;
 const readManifest=file=>fetch(new URL('./'+file+'?v=20261003-polysemy-voices3',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();});
 const manifest=mass=>mass
@@ -55,44 +56,63 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
   if(!owner)return;
   host.innerHTML='<div class="media-actions"><button data-listen disabled>正在準備示範音訊</button><button data-open-recorder>錄音朗讀</button></div><p data-audio-status role="status"></p><section class="recorder" hidden></section>';
   const listen=host.querySelector('[data-listen]'),message=host.querySelector('[data-audio-status]');
-  let readyPath='',preparedPath='',playing=false,loading=false;
+  let readyPath='',preparedPath='',playing=false,loading=false,speechFallback=false,speechVoice='';
+  const idleLabel=()=>speechFallback?'聽示範（裝置語音）':'聽示範';
+  function useDeviceSpeech(voiceHint='',notice=''){
+   speechFallback=true;speechVoice=voiceHint;readyPath='device-speech';preparedPath='';
+   listen.disabled=false;listen.textContent=idleLabel();message.textContent=notice;
+  }
   function loadAudio(){
    if(loading)return;
    loading=true;listen.disabled=true;listen.textContent='正在準備示範音訊';message.textContent='';
    manifest(isMass).then(async rows=>{
     if(!host.isConnected||getUser()?.id!==owner)return;
     const row=rows[q.id];
-    if(!row){listen.textContent='示範音訊準備中';message.textContent='此句的預錄示範音訊稍後提供。';return;}
-    readyPath=new URL(row.path,import.meta.url).href;
+    if(!row){useDeviceSpeech('','此句使用裝置語音播放。');return;}
+    speechVoice=row.voice||'';
+    const remotePath=new URL(row.path,import.meta.url).href;
+    // Make playback available immediately even when a school network blocks the
+    // public-media origin. A verified recording replaces this fallback as soon
+    // as its same-session prefetch succeeds.
+    useDeviceSpeech(speechVoice);
     // A local object URL avoids WebKit's intermittent remote media range failure.
     // Keep the published URL available if prefetching is unavailable.
     const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),10000);
     try{
-     const response=await fetch(readyPath,{signal:controller.signal});
+     const response=await fetch(remotePath,{signal:controller.signal});
      if(!response.ok)throw Error(`Audio HTTP ${response.status}`);
      const blob=await response.blob();
      if(!blob.size)throw Error('Empty audio');
      if(!host.isConnected||getUser()?.id!==owner)return;
      preparedPath=URL.createObjectURL(blob);urls.push(preparedPath);
-    }catch{}finally{clearTimeout(timeout);}
+     readyPath=remotePath;speechFallback=false;
+    }catch{message.textContent='預錄音訊未能連線，已改用裝置語音。';}finally{clearTimeout(timeout);}
     if(!host.isConnected||getUser()?.id!==owner)return;
-    listen.disabled=false;listen.textContent='聽示範';
+    listen.disabled=false;if(!playing)listen.textContent=idleLabel();
    }).catch(()=>{
     if(!host.isConnected)return;
-    listen.disabled=false;listen.textContent='重試載入示範音訊';
-    message.textContent='暫時未能取得示範音訊，請重試。';
+    useDeviceSpeech('','預錄音訊未能連線，已改用裝置語音。');
    }).finally(()=>{loading=false;});
   }
   loadAudio();
   listen.onclick=()=>{
    if(!readyPath){loadAudio();return;}
-   if(playing){voice?.pause();playing=false;listen.textContent='聽示範';return;}
+   if(playing){voice?.pause();playing=false;listen.textContent=idleLabel();return;}
    voice?.pause();
+   if(speechFallback){
+    const fallback=speakWithDevice({
+     text:q.en,voiceHint:speechVoice,
+     onend:()=>{if(fallback!==voice||!host.isConnected)return;playing=false;listen.textContent=idleLabel();},
+     onerror:()=>{if(fallback!==voice||!host.isConnected)return;playing=false;listen.textContent=idleLabel();message.textContent='此裝置未能啟動語音，請再試。';}
+    });
+    if(!fallback){message.textContent='此裝置不支援語音播放。';return;}
+    voice=fallback;playing=true;listen.textContent='停止示範';message.textContent='';return;
+   }
    const gen=epoch,clip=new Audio(preparedPath||readyPath);
    voice=clip;
-   clip.onended=()=>{if(clip!==voice||!host.isConnected)return;playing=false;listen.textContent='聽示範';};
-   clip.onpause=()=>{if(clip!==voice||!host.isConnected)return;playing=false;listen.textContent='聽示範';};
-   clip.onerror=()=>{if(clip!==voice||!host.isConnected)return;playing=false;listen.textContent='聽示範';message.textContent='音訊未能載入，請再試。';};
+   clip.onended=()=>{if(clip!==voice||!host.isConnected)return;playing=false;listen.textContent=idleLabel();};
+   clip.onpause=()=>{if(clip!==voice||!host.isConnected)return;playing=false;listen.textContent=idleLabel();};
+   clip.onerror=()=>{if(clip!==voice||!host.isConnected)return;playing=false;useDeviceSpeech(speechVoice,'預錄音訊未能播放，請再次點按以使用裝置語音。');};
    // Keep play() inside the tap handler: Safari can drop audio permission after an await.
    let started;
    try{started=clip.play();}catch(error){message.textContent=error?.name==='NotAllowedError'?'請再次點按「聽示範」播放。':'音訊未能載入，請再試。';return;}

@@ -40,3 +40,4 @@ for(let i=0;i<spend.questions.length+20;i++){
 }
 assert.ok([6,7].includes(returned));assert.ok(replay(JSON.parse(JSON.stringify(events))).complete);assert.equal(summary(events).mastered.size,spend.questions.length);
 console.log(`PASS: ${modules.length} modules, ${count} questions, ${changed} corrected keys; choices, lazy/full parity, historical credit, new grading and retry/resume.`);
+await import('./test-polysemy-audio-fallback.mjs');
