@@ -4,8 +4,8 @@ import vm from "node:vm";
 import { createRequire } from "node:module";
 
 const read = (name) => fs.readFile(new URL(`../${name}`, import.meta.url), "utf8");
-const [guideData, reportedSpeechData, guideRuntime, exerciseData, exerciseRuntime, html, css] = await Promise.all([
-  read("grammar-new-curations-data.js"), read("grammar-reported-speech-data.js"),
+const [guideData, reportedSpeechData, phrasalVerbsData, guideRuntime, exerciseData, exerciseRuntime, html, css] = await Promise.all([
+  read("grammar-new-curations-data.js"), read("grammar-reported-speech-data.js"), read("grammar-phrasal-verbs-data.js"),
   read("grammar-new-curations.js"), read("grammar-three-sets-data.js"), read("grammar-three-sets.js"),
   read("grammar-system.html"), read("grammar-three-sets.css")
 ]);
@@ -13,11 +13,12 @@ const context = { window: {} };
 vm.runInNewContext(exerciseData, context);
 context.window.EDMUND_GRAMMAR_NEW_CURATIONS_DATA = [];
 vm.runInNewContext(reportedSpeechData, context);
+vm.runInNewContext(phrasalVerbsData, context);
 const modules = context.window.EDMUND_GRAMMAR_THREE_SETS;
-assert.equal(modules.length, 4);
-assert.deepEqual(Array.from(modules, m => m.slug), ["so", "modal-verbs", "unless", "reported-speech"]);
+assert.equal(modules.length, 5);
+assert.deepEqual(Array.from(modules, m => m.slug), ["so", "modal-verbs", "unless", "reported-speech", "phrasal-verbs"]);
 for (const module of modules) {
-  const total = module.slug === "reported-speech" ? 44 : 150;
+  const total = module.slug === "reported-speech" ? 44 : module.slug === "phrasal-verbs" ? 74 : 150;
   assert.equal(module.questions.length, total);
   assert.deepEqual(Array.from(module.questions, q => q.number), Array.from({ length: total }, (_, n) => n + 1));
   for (const q of module.questions) {
@@ -43,11 +44,12 @@ window.requestAnimationFrame = () => 1;
 window.eval(guideData);
 window.eval(exerciseData);
 window.eval(reportedSpeechData);
+window.eval(phrasalVerbsData);
 window.eval(guideRuntime);
 window.eval(exerciseRuntime);
 const { document } = window;
-assert.equal(document.querySelectorAll('[data-new-grammar-practice]').length, 4);
-assert.equal(document.querySelectorAll('[data-open-new-grammar-practice]').length, 4);
+assert.equal(document.querySelectorAll('[data-new-grammar-practice]').length, 5);
+assert.equal(document.querySelectorAll('[data-open-new-grammar-practice]').length, 5);
 
 for (const module of modules) {
   const practice = document.querySelector(`[data-new-grammar-practice="${module.slug}"]`);
@@ -96,4 +98,4 @@ const modal = modules[1].questions[14];
 assert.equal(modal.mode, 'exact');
 assert.deepEqual(Array.from(modal.answers), ["don't have to", "needn't", "don't need to"]);
 dom.window.close();
-console.log("Grammar practice passed: 494 sourced items, seven steps each, MC marking, navigation, review and guide routing.");
+console.log("Grammar practice passed: 568 sourced items, seven steps each, MC marking, navigation, review and guide routing.");

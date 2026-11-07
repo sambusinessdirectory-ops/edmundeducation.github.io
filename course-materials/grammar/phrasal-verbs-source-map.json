@@ -1,0 +1,1657 @@
+{
+  "source": "course-materials/grammar/source/phrasal-verbs-student-reading-guide-v2.md",
+  "guide": {
+    "ruleCount": 240,
+    "rules": [
+      {
+        "id": "PV.01.01",
+        "title": "甚麼是 phrasal verb？",
+        "dialogueNote": "這一類動詞組合有很多意思，不能只靠中文逐字猜。"
+      },
+      {
+        "id": "PV.01.02",
+        "title": "短字可以放在動詞後面",
+        "dialogueNote": "不要看見動詞後有 in、on、up，就認定一定是同一種寫法。"
+      },
+      {
+        "id": "PV.01.03",
+        "title": "有些動詞一定要接介詞",
+        "dialogueNote": "不能寫 She looks her grandmother after。"
+      },
+      {
+        "id": "PV.01.04",
+        "title": "有些動詞組合有三個字",
+        "dialogueNote": "若寫出相處的對象，要保留 with，例如 get along with them。"
+      },
+      {
+        "id": "PV.01.05",
+        "title": "有些意思很容易猜",
+        "dialogueNote": "不是所有 phrasal verbs 都像 run away 一樣容易猜。"
+      },
+      {
+        "id": "PV.01.06",
+        "title": "有些意思不能逐字猜",
+        "dialogueNote": "學 put off 時，應把整組和「延期」一起記。"
+      },
+      {
+        "id": "PV.01.07",
+        "title": "同一組字可以有多個意思",
+        "dialogueNote": "先看整句在談甚麼，再決定用哪個意思。"
+      },
+      {
+        "id": "PV.01.08",
+        "title": "同一個動詞可以接不同短字",
+        "dialogueNote": "turn down 也可表示「拒絕」，要靠上下文判斷。"
+      },
+      {
+        "id": "PV.01.09",
+        "title": "同一個短字不一定只有一種意思",
+        "dialogueNote": "不要把 up、down 等字固定翻成同一個中文字。"
+      },
+      {
+        "id": "PV.01.10",
+        "title": "字相同，接法不一定相同",
+        "dialogueNote": "學每個意思時，也要看它後面通常接甚麼。"
+      },
+      {
+        "id": "PV.01.11",
+        "title": "看前後文，才知道真正意思",
+        "dialogueNote": "只有 picked up 兩個字，未必足夠決定意思。"
+      },
+      {
+        "id": "PV.01.12",
+        "title": "查字典時，要看整組寫法",
+        "dialogueNote": "字典若標示可分開、不能分開，應連同例句一起學。   ---  ## PV.02 — 把人和物件放在哪裏？ 上一組已經學過動詞組合的意思。現在看看人和物件應該放在哪裏。"
+      },
+      {
+        "id": "PV.02.01",
+        "title": "有些組合後面不用接物件",
+        "dialogueNote": "同一組字有時也能接人。要按意思判斷。"
+      },
+      {
+        "id": "PV.02.02",
+        "title": "有些組合要說出作用的對象",
+        "dialogueNote": "如果物件已由上下文說清楚，有些寫法也可以省去。"
+      },
+      {
+        "id": "PV.02.03",
+        "title": "可分開的組合：兩種正常位置",
+        "dialogueNote": "不是所有動詞組合都能這樣調位置。"
+      },
+      {
+        "id": "PV.02.04",
+        "title": "用 it、them 等字時，要放在中間",
+        "dialogueNote": "在這個意思下，不寫 Please turn off it。"
+      },
+      {
+        "id": "PV.02.05",
+        "title": "不能分開的組合：代字放後面",
+        "dialogueNote": "不能把兩個不同句型套用同一個位置規則。"
+      },
+      {
+        "id": "PV.02.06",
+        "title": "三字組合：最後的介詞後面接對象",
+        "dialogueNote": "不能寫 I look my teacher up to 來表示「尊敬老師」。"
+      },
+      {
+        "id": "PV.02.07",
+        "title": "一長串字通常放在短字後面",
+        "dialogueNote": "這是常見的寫作選擇，不代表長物件放在中間永遠不合文法。"
+      },
+      {
+        "id": "PV.02.08",
+        "title": "短的普通名詞可用兩種次序",
+        "dialogueNote": "如果改用 it，通常只能說 I put it on。"
+      },
+      {
+        "id": "PV.02.09",
+        "title": "同一組字，能否分開要看意思",
+        "dialogueNote": "不能只靠 take off 的拼法決定全部句型。"
+      },
+      {
+        "id": "PV.02.10",
+        "title": "動詞組合後面仍可加地點",
+        "dialogueNote": "from Hong Kong 不會使 off 變成另一個需要物件的字。"
+      },
+      {
+        "id": "PV.02.11",
+        "title": "介詞後面的物件不能亂移",
+        "dialogueNote": "在普通陳述句中，不寫 Please listen the instructions to。"
+      },
+      {
+        "id": "PV.02.12",
+        "title": "三字組合有時要寫出兩個人或事物",
+        "dialogueNote": "不能省去 on 而寫成 take your anger out me。"
+      },
+      {
+        "id": "PV.02.13",
+        "title": "不能把短字插進名詞中間",
+        "dialogueNote": "不寫 Please put the red away folder。"
+      },
+      {
+        "id": "PV.02.14",
+        "title": "代字的位置要看屬於哪一組",
+        "dialogueNote": "先找出 it 在句中跟哪個意思連在一起，再選位置。"
+      },
+      {
+        "id": "PV.02.15",
+        "title": "有些組合不接物件，卻可以接其他資料",
+        "dialogueNote": "見到後面還有字，不代表它一定有物件。"
+      },
+      {
+        "id": "PV.02.16",
+        "title": "一個組合也可能同時接地點和物件",
+        "dialogueNote": "不要把所有地點短語都當成動詞組合的一部分。"
+      },
+      {
+        "id": "PV.02.17",
+        "title": "something 和 it 的位置不完全一樣",
+        "dialogueNote": "不能因為 it、something 都能代替名詞，就以為它們的位置一定相同。  ---  ## PV.03 — 動詞時間、問句和否定 已經知道怎樣放物件，現在來看看動詞時間和問句怎樣改。"
+      },
+      {
+        "id": "PV.03.01",
+        "title": "動詞時間改在第一個動詞上",
+        "dialogueNote": "不能寫 We turn offed the TV。"
+      },
+      {
+        "id": "PV.03.02",
+        "title": "不規則動詞也照自己的變化",
+        "dialogueNote": "要記住 take–took–taken 等動詞變化。"
+      },
+      {
+        "id": "PV.03.03",
+        "title": "現在式要留意主語",
+        "dialogueNote": "up 不加 -s；要變的是動詞 get。"
+      },
+      {
+        "id": "PV.03.04",
+        "title": "正在做的事可以用 be 加 -ing",
+        "dialogueNote": "有些表示固定狀態的組合，不常用 -ing。要看真正意思。"
+      },
+      {
+        "id": "PV.03.05",
+        "title": "已經做過的事可以用 have 加完成寫法",
+        "dialogueNote": "不要只因有 away 就改動詞的完成寫法。"
+      },
+      {
+        "id": "PV.03.06",
+        "title": "can、must 等字後面用動詞本來的寫法",
+        "dialogueNote": "不寫 must turns off。"
+      },
+      {
+        "id": "PV.03.07",
+        "title": "普通問句可用 do、does、did",
+        "dialogueNote": "不寫 Did you looked up the word?"
+      },
+      {
+        "id": "PV.03.08",
+        "title": "否定句也要看助動詞",
+        "dialogueNote": "不寫 She didn't picked up the parcel。"
+      },
+      {
+        "id": "PV.03.09",
+        "title": "叫別人做事時，用動詞本來的寫法",
+        "dialogueNote": "否定命令常用 Don't 加動詞本來的寫法。"
+      },
+      {
+        "id": "PV.03.10",
+        "title": "to 後面也可以接動詞組合",
+        "dialogueNote": "不要把 to 和 give 之間塞入不合適的動詞變化。"
+      },
+      {
+        "id": "PV.03.11",
+        "title": "動詞組合本身也可以加 -ing",
+        "dialogueNote": "不同主動詞會決定後面要用 to 還是 -ing。  ---  ## 學習階段：再學生活中常用的意思  ## PV.04 — 起床、外出和日常動作 先用最熟悉的生活動作練習讀句子。"
+      },
+      {
+        "id": "PV.04.01",
+        "title": "get up：起床或站起來",
+        "dialogueNote": "get up 的意思要看人原本在床上還是坐着。"
+      },
+      {
+        "id": "PV.04.02",
+        "title": "wake up 和 get up 不一定同一刻",
+        "dialogueNote": "不能只因兩句都提到早晨，就把 wake up 和 get up 當成完全一樣。"
+      },
+      {
+        "id": "PV.04.03",
+        "title": "sit down 和 sit up 動作不同",
+        "dialogueNote": "sit up 不等於 sit down；要先看原本的姿勢。"
+      },
+      {
+        "id": "PV.04.04",
+        "title": "come in 和 go out 要看移動方向",
+        "dialogueNote": "come 和 go 的選擇，也會受說話者的位置及目的地影響。"
+      },
+      {
+        "id": "PV.04.05",
+        "title": "上車下車，要看交通工具",
+        "dialogueNote": "交通工具不同，常用的短字也不同；不可把所有情況都當成同一個固定規則。"
+      },
+      {
+        "id": "PV.04.06",
+        "title": "come back 和 go back 的方向不同",
+        "dialogueNote": "兩個說法有時都可能用於同一趟行程，但看事情的角度不同。"
+      },
+      {
+        "id": "PV.04.07",
+        "title": "move in 和 move out 表示搬家",
+        "dialogueNote": "單獨說 They moved in 也可以，但要由前文知道搬到哪裏。"
+      },
+      {
+        "id": "PV.04.08",
+        "title": "set off 表示開始旅程",
+        "dialogueNote": "set off 也可用於其他意思，例如引發警報。"
+      },
+      {
+        "id": "PV.04.09",
+        "title": "fall over 和 fall down 要看情況",
+        "dialogueNote": "fall down 也可表示跌倒；兩個說法有重疊，不能簡單說只有其中一個正確。"
+      },
+      {
+        "id": "PV.04.10",
+        "title": "pick up 可以表示拿起東西",
+        "dialogueNote": "如果用 it，應寫 Please pick it up。"
+      },
+      {
+        "id": "PV.04.11",
+        "title": "put on 和 take off 可以說衣服",
+        "dialogueNote": "這裏的 put on 是穿衣；put on a show 等寫法另有意思。"
+      },
+      {
+        "id": "PV.04.12",
+        "title": "put away 和 put down 不一樣",
+        "dialogueNote": "put down 也可表示貶低別人或記下資料，不能只看 down。"
+      },
+      {
+        "id": "PV.04.13",
+        "title": "turn around 和 turn round 可表示轉身",
+        "dialogueNote": "英式英語也常用 turn round；美式英語較常用 turn around。   ---  ## PV.05 — 家居、學校和常用動詞組合"
+      },
+      {
+        "id": "PV.05.01",
+        "title": "throw away 表示丟棄",
+        "dialogueNote": "如果用 it，通常說 throw it away。"
+      },
+      {
+        "id": "PV.05.02",
+        "title": "give away 表示免費送出",
+        "dialogueNote": "give away 也可以表示無意中透露秘密。"
+      },
+      {
+        "id": "PV.05.03",
+        "title": "hand out 表示派發",
+        "dialogueNote": "可說 hand the worksheets out；若用 them，應說 hand them out。"
+      },
+      {
+        "id": "PV.05.04",
+        "title": "try on 表示試穿",
+        "dialogueNote": "若用 it，通常說 try it on。"
+      },
+      {
+        "id": "PV.05.05",
+        "title": "try out 表示試用或參加選拔",
+        "dialogueNote": "try out for the school team 表示參加校隊選拔，後面要保留 for。"
+      },
+      {
+        "id": "PV.05.06",
+        "title": "write down 表示寫下資料",
+        "dialogueNote": "若用 it，通常說 write it down。"
+      },
+      {
+        "id": "PV.05.07",
+        "title": "cross out 表示劃掉文字",
+        "dialogueNote": "也可以說 Cross the wrong answer out。"
+      },
+      {
+        "id": "PV.05.08",
+        "title": "leave out 表示遺漏或不包括",
+        "dialogueNote": "leave out 有時是故意不加入，有時是不小心漏掉，要看上下文。"
+      },
+      {
+        "id": "PV.05.09",
+        "title": "put back 表示放回原處",
+        "dialogueNote": "也可說 put back the keys；若用 them，應說 put them back。"
+      },
+      {
+        "id": "PV.05.10",
+        "title": "give back 表示歸還物件",
+        "dialogueNote": "也常說 give May back the book；但長物件時，give the book back to May 通常更清楚。"
+      },
+      {
+        "id": "PV.05.11",
+        "title": "bring back 可以表示把東西帶回來",
+        "dialogueNote": "bring back 也可表示勾起回憶，要看上下文。"
+      },
+      {
+        "id": "PV.05.12",
+        "title": "hand in 和 turn in 可以表示交功課",
+        "dialogueNote": "英式英語通常也明白 turn in；不同學校可能有自己的常用說法。"
+      },
+      {
+        "id": "PV.05.13",
+        "title": "set up 表示設立或準備妥當",
+        "dialogueNote": "set up 還可表示設置電腦，不能所有情況都翻成成立。"
+      },
+      {
+        "id": "PV.05.14",
+        "title": "carry out 表示執行計劃或任務",
+        "dialogueNote": "carry out 常見於學校報告和正式文字。"
+      },
+      {
+        "id": "PV.05.15",
+        "title": "bring about 表示造成改變",
+        "dialogueNote": "bring about 在報告中較常見，不能按字面理解成把物件帶過來。"
+      },
+      {
+        "id": "PV.05.16",
+        "title": "check out 也可以表示查看值得注意的東西",
+        "dialogueNote": "check out 在酒店也可以表示退房；要看情況。"
+      },
+      {
+        "id": "PV.05.17",
+        "title": "show up 表示出現或到場",
+        "dialogueNote": "show up 和 turn up 在到場意思下非常接近。"
+      },
+      {
+        "id": "PV.05.18",
+        "title": "run into 表示偶然遇見",
+        "dialogueNote": "run into 也可表示碰上困難或真的撞到東西。"
+      },
+      {
+        "id": "PV.05.19",
+        "title": "break out 表示突然發生",
+        "dialogueNote": "break out 也可能說某人逃出某個地方，要靠上下文判斷。"
+      },
+      {
+        "id": "PV.05.20",
+        "title": "get through 可表示捱過困難",
+        "dialogueNote": "get through an exam 有時只表示完成考試，不一定等於考試合格。"
+      },
+      {
+        "id": "PV.05.21",
+        "title": "go through 可表示經歷困難",
+        "dialogueNote": "go through 也可以表示仔細檢查一份文件。"
+      },
+      {
+        "id": "PV.05.22",
+        "title": "take in 可以表示理解資訊",
+        "dialogueNote": "take in 也可表示收留或欺騙，必須看上下文。"
+      },
+      {
+        "id": "PV.05.23",
+        "title": "put through 可以表示接通電話",
+        "dialogueNote": "put someone through something 也可表示令某人經歷困難。"
+      },
+      {
+        "id": "PV.05.24",
+        "title": "look over 可以表示快速檢查",
+        "dialogueNote": "look over 和 go over 都可表示檢查；仔細程度要看上下文。"
+      },
+      {
+        "id": "PV.05.25",
+        "title": "go over 可以表示仔細重看",
+        "dialogueNote": "go over 在其他情況下也可表示走過或跨過。   ---  ## PV.06 — 完成、整理和改變"
+      },
+      {
+        "id": "PV.06.01",
+        "title": "eat up 表示把食物吃完",
+        "dialogueNote": "eat up 不是每句都要用；eat all the rice 同樣可以清楚表達。"
+      },
+      {
+        "id": "PV.06.02",
+        "title": "use up 表示把可用的東西全部用完",
+        "dialogueNote": "如果改用 it，應寫 We used it up。"
+      },
+      {
+        "id": "PV.06.03",
+        "title": "clean up 可表示把一個地方弄乾淨",
+        "dialogueNote": "clean 和 clean up 有很多重疊；不能說沒有 up 就代表沒有清潔完。"
+      },
+      {
+        "id": "PV.06.04",
+        "title": "tidy up 表示整理凌亂的地方",
+        "dialogueNote": "tidy 和 tidy up 在不少情況下意思接近。"
+      },
+      {
+        "id": "PV.06.05",
+        "title": "cut up 和 cut down 意思不同",
+        "dialogueNote": "不能把 cut up the tree 當成「砍倒樹」的普通寫法。"
+      },
+      {
+        "id": "PV.06.06",
+        "title": "break up 可以表示分成幾部分",
+        "dialogueNote": "break up 還可表示感情關係結束。"
+      },
+      {
+        "id": "PV.06.07",
+        "title": "build up 可表示慢慢增加",
+        "dialogueNote": "build up 也可說信心、力量或儲蓄逐漸增加。"
+      },
+      {
+        "id": "PV.06.08",
+        "title": "cut down on 表示減少用量或習慣",
+        "dialogueNote": "減少習慣時，通常不能省去 on。"
+      },
+      {
+        "id": "PV.06.09",
+        "title": "slow down 和 speed up 方向相反",
+        "dialogueNote": "speed 的過去式可以是 sped；部分用法也見 speeded。"
+      },
+      {
+        "id": "PV.06.10",
+        "title": "turn up 和 turn down 可調節聲量",
+        "dialogueNote": "turn down 後接邀請或工作時，也可表示「拒絕」。"
+      },
+      {
+        "id": "PV.06.11",
+        "title": "warm up 和 heat up 的用途不完全一樣",
+        "dialogueNote": "食物也可以 warm up；兩者在加熱意思下有重疊。"
+      },
+      {
+        "id": "PV.06.12",
+        "title": "cool down 和 calm down 含義不同",
+        "dialogueNote": "cool down 也可用來表示人在激動後冷靜下來，要看上下文。"
+      },
+      {
+        "id": "PV.06.13",
+        "title": "wear out 可表示東西用到破舊",
+        "dialogueNote": "同一組字可說物件破舊，也可說人疲倦。"
+      },
+      {
+        "id": "PV.06.14",
+        "title": "clear up 可表示收拾或天氣轉好",
+        "dialogueNote": "clear up 還可以表示把誤會解釋清楚。   ---  ## PV.07 — 繼續、停止和計劃"
+      },
+      {
+        "id": "PV.07.01",
+        "title": "carry on 可以表示繼續",
+        "dialogueNote": "carry on 後面可以接 -ing，也可以單獨使用。"
+      },
+      {
+        "id": "PV.07.02",
+        "title": "go on 可表示繼續，也可問發生甚麼",
+        "dialogueNote": "go on 後接 -ing 時，還要分清是否繼續同一件事。"
+      },
+      {
+        "id": "PV.07.03",
+        "title": "keep on doing 表示持續或反覆做",
+        "dialogueNote": "keep crying 也常見；有沒有 on 不一定會改變基本意思。"
+      },
+      {
+        "id": "PV.07.04",
+        "title": "hold on 可用來叫對方稍等",
+        "dialogueNote": "語氣可能比較直接；加上 please 通常較有禮貌。"
+      },
+      {
+        "id": "PV.07.05",
+        "title": "put off 表示延期",
+        "dialogueNote": "put off 也可表示令某人失去興趣，不能每次都翻成延期。"
+      },
+      {
+        "id": "PV.07.06",
+        "title": "call off 表示取消",
+        "dialogueNote": "call it off 也是自然寫法；不能寫 call off it。"
+      },
+      {
+        "id": "PV.07.07",
+        "title": "give up 表示不再繼續做",
+        "dialogueNote": "give up on someone 可表示對某人失去信心，與 give up doing 不同。"
+      },
+      {
+        "id": "PV.07.08",
+        "title": "give in 表示在壓力下讓步",
+        "dialogueNote": "若說向誰讓步，可用 give in to someone。"
+      },
+      {
+        "id": "PV.07.09",
+        "title": "take up 表示開始新的興趣",
+        "dialogueNote": "take up 也可表示佔用地方或時間。"
+      },
+      {
+        "id": "PV.07.10",
+        "title": "take on 表示承擔工作或責任",
+        "dialogueNote": "take on 也可表示聘請員工，需看句子的對象。"
+      },
+      {
+        "id": "PV.07.11",
+        "title": "turn down 可以表示拒絕",
+        "dialogueNote": "turn down 還可以調低聲量，要看對象是邀請還是音量。"
+      },
+      {
+        "id": "PV.07.12",
+        "title": "back out of 表示退出原先答應的事",
+        "dialogueNote": "back out of 往往帶有已答應卻反悔的意思。"
+      },
+      {
+        "id": "PV.07.13",
+        "title": "go through with 表示終於照計劃做",
+        "dialogueNote": "go through 單獨使用可以有其他意思，例如經歷困難。   ---  ## PV.08 — 查資料、說話和表達意思"
+      },
+      {
+        "id": "PV.08.01",
+        "title": "look up 表示查字或資料",
+        "dialogueNote": "也可以說 I looked the word up online。"
+      },
+      {
+        "id": "PV.08.02",
+        "title": "look into 表示調查問題",
+        "dialogueNote": "look into 後面要保留 into，不能寫 look the complaint into。"
+      },
+      {
+        "id": "PV.08.03",
+        "title": "find out 表示查明或知道新資料",
+        "dialogueNote": "find out 後面也可接名詞，例如 find out the truth。"
+      },
+      {
+        "id": "PV.08.04",
+        "title": "work out 可以表示想出答案",
+        "dialogueNote": "work out 也可表示做運動。"
+      },
+      {
+        "id": "PV.08.05",
+        "title": "figure out 也可以表示想明白",
+        "dialogueNote": "figure out 和 work out 在解難意思下常可互換，但常用地區及語氣會不同。"
+      },
+      {
+        "id": "PV.08.06",
+        "title": "point out 表示指出重要資料",
+        "dialogueNote": "point out 也可以接完整句子，例如 point out that it is late。"
+      },
+      {
+        "id": "PV.08.07",
+        "title": "bring up 可以表示提出話題",
+        "dialogueNote": "bring up 也可以表示撫養孩子，要看對象。"
+      },
+      {
+        "id": "PV.08.08",
+        "title": "speak up 表示大聲一點或勇於發言",
+        "dialogueNote": "speak up 也可表示勇敢說出意見。"
+      },
+      {
+        "id": "PV.08.09",
+        "title": "get across 表示讓別人明白意思",
+        "dialogueNote": "get across 也可寫 get across a message；若用 it，通常說 get it across。"
+      },
+      {
+        "id": "PV.08.10",
+        "title": "pass on 表示把消息再告訴別人",
+        "dialogueNote": "可說 pass on the message；若用 it，通常說 pass it on。"
+      },
+      {
+        "id": "PV.08.11",
+        "title": "fill someone in on 表示補充消息",
+        "dialogueNote": "三字用法裏 me 要放在 fill 和 in 中間。"
+      },
+      {
+        "id": "PV.08.12",
+        "title": "get back to 表示稍後回覆",
+        "dialogueNote": "在工作電郵中也常見 get back to you；不一定是不正式。"
+      },
+      {
+        "id": "PV.08.13",
+        "title": "call back 表示回電",
+        "dialogueNote": "也可說 I'll call back tonight，但要靠前文知道打給誰。"
+      },
+      {
+        "id": "PV.08.14",
+        "title": "make out 可表示勉強看清或聽清",
+        "dialogueNote": "make out 還有其他意思，要靠上下文及字典分辨。   ---  ## PV.09 — 人物、朋友和心情"
+      },
+      {
+        "id": "PV.09.01",
+        "title": "look after 表示照顧",
+        "dialogueNote": "look after 和 look for 拼法相近，意思卻不同。"
+      },
+      {
+        "id": "PV.09.02",
+        "title": "look for 表示尋找",
+        "dialogueNote": "look for 後面的 for 不能按 turn off 的方式移到句尾。"
+      },
+      {
+        "id": "PV.09.03",
+        "title": "get on with 和 get along with 表示相處",
+        "dialogueNote": "get on with 這個意思在英式英語較常見；美式英語常用 get along with。"
+      },
+      {
+        "id": "PV.09.04",
+        "title": "fall out with 表示和人鬧翻",
+        "dialogueNote": "fall out 也可以指牙齒等東西脫落，是另一個意思。"
+      },
+      {
+        "id": "PV.09.05",
+        "title": "make up with 表示和好",
+        "dialogueNote": "要說跟誰和好，可以說 make up with someone。"
+      },
+      {
+        "id": "PV.09.06",
+        "title": "split up 可表示情侶分手",
+        "dialogueNote": "split up 也可用於人群分散，不能只理解成分手。"
+      },
+      {
+        "id": "PV.09.07",
+        "title": "look up to 表示尊敬",
+        "dialogueNote": "不能說 I look my grandfather up to。"
+      },
+      {
+        "id": "PV.09.08",
+        "title": "look down on 表示看不起",
+        "dialogueNote": "這個說法通常帶負面態度，使用時要留意語氣。"
+      },
+      {
+        "id": "PV.09.09",
+        "title": "stand up for 表示維護或支持",
+        "dialogueNote": "stand up for 也可以說保護自己的權利。"
+      },
+      {
+        "id": "PV.09.10",
+        "title": "let someone down 表示令他失望",
+        "dialogueNote": "用 it 作物件時，應說 let it down，但通常用來說放低物件或讓某事失敗；須看上下文。"
+      },
+      {
+        "id": "PV.09.11",
+        "title": "cheer up 表示心情好轉",
+        "dialogueNote": "有時對傷心的人直接說 Cheer up! 會顯得不體貼，要看情況。"
+      },
+      {
+        "id": "PV.09.12",
+        "title": "calm down 表示冷靜下來",
+        "dialogueNote": "Calm down! 若說得太直接，可能令人更不高興。"
+      },
+      {
+        "id": "PV.09.13",
+        "title": "take after 表示像家人",
+        "dialogueNote": "take after 常用來說家人之間的相似之處。"
+      },
+      {
+        "id": "PV.09.14",
+        "title": "get over 表示從病痛或失望中恢復",
+        "dialogueNote": "get over 也可表示克服困難；後面通常要說明是甚麼。   ---  ## PV.10 — 工作、金錢和網上活動"
+      },
+      {
+        "id": "PV.10.01",
+        "title": "pay back 表示還錢",
+        "dialogueNote": "也可以說 pay back the money；要按句子說明還人還是還款。"
+      },
+      {
+        "id": "PV.10.02",
+        "title": "pay off 可以表示還清債項",
+        "dialogueNote": "pay off 還有「努力終有回報」等不同意思。"
+      },
+      {
+        "id": "PV.10.03",
+        "title": "pay off 也可以表示努力有回報",
+        "dialogueNote": "這個用法常以 effort、work、practice 等作主語。"
+      },
+      {
+        "id": "PV.10.04",
+        "title": "save up 表示慢慢儲錢",
+        "dialogueNote": "save up 也可以單獨說，但通常要由前文知道儲來做甚麼。"
+      },
+      {
+        "id": "PV.10.05",
+        "title": "put aside 可以表示留起部分金錢",
+        "dialogueNote": "put aside 也可表示暫時不理會某個問題。"
+      },
+      {
+        "id": "PV.10.06",
+        "title": "get by 表示勉強足夠生活",
+        "dialogueNote": "get by 不一定表示完全沒有錢，只表示生活未必寬裕。"
+      },
+      {
+        "id": "PV.10.07",
+        "title": "lay off 可表示裁員",
+        "dialogueNote": "lay off 也可在口語中表示「停止做某事」，如 Lay off the sweets。"
+      },
+      {
+        "id": "PV.10.08",
+        "title": "take over 表示接管",
+        "dialogueNote": "take over 也可用於公司收購或接替職位。"
+      },
+      {
+        "id": "PV.10.09",
+        "title": "hand over 表示交出東西或權力",
+        "dialogueNote": "hand it over 是自然寫法，不能寫 hand over it。"
+      },
+      {
+        "id": "PV.10.10",
+        "title": "fill in 和 fill out 可表示填表",
+        "dialogueNote": "英式英語也可用 fill out；兩種寫法不是絕對按地區分開。"
+      },
+      {
+        "id": "PV.10.11",
+        "title": "log in 和 log out 表示登入及登出",
+        "dialogueNote": "login 常用作名詞或形容詞，例如 login details；動詞通常寫 log in。"
+      },
+      {
+        "id": "PV.10.12",
+        "title": "sign up for 和 sign in 用途不同",
+        "dialogueNote": "sign up 和 sign in 在網站上也常見，但要看是註冊還是登入。"
+      },
+      {
+        "id": "PV.10.13",
+        "title": "back up 表示備份或支持",
+        "dialogueNote": "backup 作名詞時常寫成一個字，例如 a backup copy。"
+      },
+      {
+        "id": "PV.10.14",
+        "title": "print out 表示把檔案列印出來",
+        "dialogueNote": "若用 it，可以說 print it out。"
+      },
+      {
+        "id": "PV.10.15",
+        "title": "check in 和 check out 可表示入住及退房",
+        "dialogueNote": "check in 也常用於機場；要看是在哪裏登記。   ---  ## 學習階段：最後學比較難的句型  ## PV.11 — 同一組字的多種意思"
+      },
+      {
+        "id": "PV.11.01",
+        "title": "turn up 可以表示突然出現",
+        "dialogueNote": "turn up 也可能帶有「沒想到他會來」的感覺，要看語氣。"
+      },
+      {
+        "id": "PV.11.02",
+        "title": "turn out 表示最後結果",
+        "dialogueNote": "turn out to be 後面可以接名詞或形容詞，例如 turned out to be difficult。"
+      },
+      {
+        "id": "PV.11.03",
+        "title": "turn into 表示變成另一種東西",
+        "dialogueNote": "turn into 後面要保留 into。不能把物件亂放到 into 前面。"
+      },
+      {
+        "id": "PV.11.04",
+        "title": "break down 可表示交通工具故障",
+        "dialogueNote": "故障意思通常不接被弄壞的物件。"
+      },
+      {
+        "id": "PV.11.05",
+        "title": "break down 也可表示分項分析",
+        "dialogueNote": "在分項分析的意思下，the bill 可以放在 break 和 down 中間。"
+      },
+      {
+        "id": "PV.11.06",
+        "title": "go off 可表示鬧鐘響起",
+        "dialogueNote": "go off 也可表示爆炸或食物變壞，不能只記「響」。"
+      },
+      {
+        "id": "PV.11.07",
+        "title": "go off 可表示食物變壞",
+        "dialogueNote": "這個食物意思在英式英語特別常見；美式英語常說 go bad。"
+      },
+      {
+        "id": "PV.11.08",
+        "title": "drop off 可以表示送人到某處",
+        "dialogueNote": "drop off 也可表示數量下降或睡着。"
+      },
+      {
+        "id": "PV.11.09",
+        "title": "drop off 也可表示數量下降",
+        "dialogueNote": "drop off 也有「送人下車」意思，要看主語是甚麼。"
+      },
+      {
+        "id": "PV.11.10",
+        "title": "pick up 可表示學會一點新東西",
+        "dialogueNote": "pick up 也可表示接人、拿起東西或情況改善。"
+      },
+      {
+        "id": "PV.11.11",
+        "title": "take off 可表示突然受歡迎",
+        "dialogueNote": "這個成功的意思常見於工作或新聞語境。"
+      },
+      {
+        "id": "PV.11.12",
+        "title": "come across 表示偶然遇見或發現",
+        "dialogueNote": "come across 的 across 後面要接找到的人或東西。"
+      },
+      {
+        "id": "PV.11.13",
+        "title": "come across as 表示給人的印象",
+        "dialogueNote": "come across 和 come across as 的意思不同。"
+      },
+      {
+        "id": "PV.11.14",
+        "title": "get away with 表示做錯事卻沒有受罰",
+        "dialogueNote": "get away with 後面可接名詞或 -ing，不能省去 with。"
+      },
+      {
+        "id": "PV.11.15",
+        "title": "put something down to 表示認為是某個原因",
+        "dialogueNote": "要保留 down to，不能把 to 單獨刪去。"
+      },
+      {
+        "id": "PV.11.16",
+        "title": "boil down to 表示最後的重點",
+        "dialogueNote": "這個說法常見於討論或分析，並非真的煮東西。"
+      },
+      {
+        "id": "PV.11.17",
+        "title": "make up for 表示補償",
+        "dialogueNote": "make up for 後面接名詞或 -ing；不要省去 for。"
+      },
+      {
+        "id": "PV.11.18",
+        "title": "live up to 表示達到期望",
+        "dialogueNote": "live up to 後面要有目標或期望等內容。"
+      },
+      {
+        "id": "PV.11.19",
+        "title": "come up 表示問題或機會出現",
+        "dialogueNote": "come up 和 come up with 接法不同，不能混為一談。   ---  ## PV.12 — 動詞後面接 -ing 和其他字 前面學過不少常用說法。接着要留意 `to`、`-ing` 和句子後面的字。"
+      },
+      {
+        "id": "PV.12.01",
+        "title": "look forward to 後面可接動詞 -ing",
+        "dialogueNote": "不寫 I look forward to see you。"
+      },
+      {
+        "id": "PV.12.02",
+        "title": "get round to 表示終於抽時間做",
+        "dialogueNote": "美式英語也常用 get around to doing。"
+      },
+      {
+        "id": "PV.12.03",
+        "title": "give up 後面可接 -ing，說停止習慣",
+        "dialogueNote": "give up 也可直接接名詞，例如 give up coffee。"
+      },
+      {
+        "id": "PV.12.04",
+        "title": "carry on 後面可接 doing 或 with",
+        "dialogueNote": "不要把 carry on to read 當成這裏最普通的寫法。"
+      },
+      {
+        "id": "PV.12.05",
+        "title": "go on doing 和 go on to do 意思不同",
+        "dialogueNote": "要分清「同一件事繼續」和「接着做下一件事」。"
+      },
+      {
+        "id": "PV.12.06",
+        "title": "end up doing 表示最後竟然做了某事",
+        "dialogueNote": "end up with a problem 等寫法則用 with 加名詞。"
+      },
+      {
+        "id": "PV.12.07",
+        "title": "talk someone into doing 表示說服他做",
+        "dialogueNote": "不能寫 talked me into to join。"
+      },
+      {
+        "id": "PV.12.08",
+        "title": "talk someone out of doing 表示勸他不要做",
+        "dialogueNote": "into 和 out of 的意思不能互換。"
+      },
+      {
+        "id": "PV.12.09",
+        "title": "put someone off doing 表示令他不想做",
+        "dialogueNote": "put off 也有「延期」意思，要看有沒有受影響的人。"
+      },
+      {
+        "id": "PV.12.10",
+        "title": "take up 可接新活動或興趣",
+        "dialogueNote": "take up 也可表示佔用時間或空間。"
+      },
+      {
+        "id": "PV.12.11",
+        "title": "catch up on 表示補回未做的事",
+        "dialogueNote": "on 和 with 後面的意思不同，不能隨便互換。"
+      },
+      {
+        "id": "PV.12.12",
+        "title": "put up with 後面可接名詞或 -ing",
+        "dialogueNote": "不能寫 put the noise up with。"
+      },
+      {
+        "id": "PV.12.13",
+        "title": "do without 表示沒有某物也照樣生活",
+        "dialogueNote": "without 後面也可接 -ing，例如 do without buying a new one。"
+      },
+      {
+        "id": "PV.12.14",
+        "title": "run out 和 run out of 接法不同",
+        "dialogueNote": "不寫 We've run out milk。   ---  ## 進階補充：被動句與特別動詞寫法  這四條規則接着前面的基本動詞寫法。先學會常見用法，再看這些較難的情況。"
+      },
+      {
+        "id": "PV.03.12",
+        "title": "有物件的組合有時可用被動句",
+        "dialogueNote": "只有合適的動詞意思才可以這樣改；不是所有組合都有被動句。"
+      },
+      {
+        "id": "PV.03.13",
+        "title": "介詞組合也可能有被動句",
+        "dialogueNote": "不能因為用了被動句就刪掉 after。"
+      },
+      {
+        "id": "PV.03.14",
+        "title": "三字組合也有被動寫法",
+        "dialogueNote": "這類被動句要看詞語本身是否自然，不能全部照搬。"
+      },
+      {
+        "id": "PV.03.15",
+        "title": "有些意思不適合隨便用進行式",
+        "dialogueNote": "通常說 She takes after her father。在特別的比較情況下，也可能出現其他寫法。  ---  ## PV.13 — 問句、被動句和特別字序 學會基本次序後，才看較難的問句、描述句和被動句。"
+      },
+      {
+        "id": "PV.13.01",
+        "title": "問題句會把要問的東西放到前面",
+        "dialogueNote": "問句用了 did，後面要寫 turn，不寫 turned。"
+      },
+      {
+        "id": "PV.13.02",
+        "title": "用 which 或 that 可以補充物件資料",
+        "dialogueNote": "在這個句型中，that 有時可以省去：the coat I took off。"
+      },
+      {
+        "id": "PV.13.03",
+        "title": "不能分開的組合，也可以拿來問問題",
+        "dialogueNote": "這不代表普通陳述句可以寫 look your sister after。"
+      },
+      {
+        "id": "PV.13.04",
+        "title": "英文句尾也可以保留介詞",
+        "dialogueNote": "句尾有介詞並不自動等於文法錯誤。"
+      },
+      {
+        "id": "PV.13.05",
+        "title": "把問題放進另一句話時，要用正常次序",
+        "dialogueNote": "不寫 I wonder who does she look after 來表達普通間接問句。"
+      },
+      {
+        "id": "PV.13.06",
+        "title": "被動句可把受影響的事情放前面",
+        "dialogueNote": "如果句型本身不能接這樣的物件，就不能照樣改被動。"
+      },
+      {
+        "id": "PV.13.07",
+        "title": "被動句要保留原本需要的介詞",
+        "dialogueNote": "不能寫 The children were well looked。"
+      },
+      {
+        "id": "PV.13.08",
+        "title": "用 it was ... that 可以強調某個物件",
+        "dialogueNote": "強調句需要上下文才自然，不是每句都要這樣寫。"
+      },
+      {
+        "id": "PV.13.09",
+        "title": "把重要物件放句首先交代",
+        "dialogueNote": "句首放物件屬較特別的說法，初學時先用普通次序。"
+      },
+      {
+        "id": "PV.13.10",
+        "title": "同一個物件可以連接兩個動作",
+        "dialogueNote": "遇到兩個動詞組合時，要逐一檢查每個 it 指甚麼。"
+      },
+      {
+        "id": "PV.13.11",
+        "title": "on and off 可以一起表示反覆開關",
+        "dialogueNote": "on and off 有時也表示斷斷續續，要看說的是燈還是活動。"
+      },
+      {
+        "id": "PV.13.12",
+        "title": "說到一半省去重複部分，也要看清意思",
+        "dialogueNote": "如果上下文沒有交代放棄甚麼，要避免令讀者不明白。"
+      },
+      {
+        "id": "PV.13.13",
+        "title": "look up at 和 look up a word 不是同一種接法",
+        "dialogueNote": "不能把 looked up at the stars 當成「查星星資料」。"
+      },
+      {
+        "id": "PV.13.14",
+        "title": "句子後面可以再加時間、原因和地方",
+        "dialogueNote": "先弄清楚哪一部分是物件，哪一部分只是提供其他資料。"
+      },
+      {
+        "id": "PV.13.15",
+        "title": "不是所有動詞都可被動，也不是所有物件都可移位",
+        "dialogueNote": "改句型前，要看是否仍保留原來意思。"
+      },
+      {
+        "id": "PV.13.16",
+        "title": "turn out 可以跟 there to be 一起用",
+        "dialogueNote": "也可以說 It turned out that there was a mistake。這是另一種自然寫法。  ---  ## PV.14 — 說話語氣、英美用法和詞形"
+      },
+      {
+        "id": "PV.14.01",
+        "title": "說話時可以重讀 up、down 來對比",
+        "dialogueNote": "說話的重音會影響語氣；寫字時可用上下文表達同樣意思。"
+      },
+      {
+        "id": "PV.14.02",
+        "title": "only、even 等字會改變強調的部分",
+        "dialogueNote": "only 的位置和重音都可能影響意思；不能每次單靠位置判斷。"
+      },
+      {
+        "id": "PV.14.03",
+        "title": "not 會否定整個動作",
+        "dialogueNote": "某些句子會特別否定其中一部分，例如 not up but down；要看上下文。"
+      },
+      {
+        "id": "PV.14.04",
+        "title": "假設句也可自然用動詞組合",
+        "dialogueNote": "不能因為有 if，就把每個動詞組合都改成過去式。"
+      },
+      {
+        "id": "PV.14.05",
+        "title": "all、both 可以說明影響多少東西",
+        "dialogueNote": "也可說 turn them both off；代字仍放在 turn 和 off 中間。"
+      },
+      {
+        "id": "PV.14.06",
+        "title": "代字要讓人知道指甚麼",
+        "dialogueNote": "如果有兩個可能對象，可重複名詞避免誤會。"
+      },
+      {
+        "id": "PV.14.07",
+        "title": "動詞組合有時較口語，但不一定",
+        "dialogueNote": "不少動詞組合也會在正式文件出現；不應說全部都不正式。"
+      },
+      {
+        "id": "PV.14.08",
+        "title": "英式和美式英語有時喜歡不同說法",
+        "dialogueNote": "兩種寫法在很多情況下都被接受，不能一律判另一種錯。"
+      },
+      {
+        "id": "PV.14.09",
+        "title": "相處融洽也有英式和美式常用寫法",
+        "dialogueNote": "兩種說法在不同地區也可能出現。"
+      },
+      {
+        "id": "PV.14.10",
+        "title": "正式場合也會用動詞組合",
+        "dialogueNote": "選擇動詞時，要看搭配是否自然，不只看有幾個字。"
+      },
+      {
+        "id": "PV.14.11",
+        "title": "有些動詞組合會變成形容詞",
+        "dialogueNote": "作形容詞時常見連字號；動詞組合通常分開寫。"
+      },
+      {
+        "id": "PV.14.12",
+        "title": "動詞組合和名詞的拼法可能不同",
+        "dialogueNote": "名詞也常寫 takeoff；要按字典和所用英語地區確認。"
+      },
+      {
+        "id": "PV.14.13",
+        "title": "同一組字也可變成名詞",
+        "dialogueNote": "不能把動詞句寫成 I workout every morning。"
+      },
+      {
+        "id": "PV.14.14",
+        "title": "come on、watch out 等句子要看語氣",
+        "dialogueNote": "這些短句的語氣要看情況；對別人說話時要留意禮貌。"
+      },
+      {
+        "id": "PV.14.15",
+        "title": "正式文章也有較特別的動詞組合",
+        "dialogueNote": "正式文章也會見到 set forth 等說法。日常寫作可以先學會 set out。  ---  ## PV.15 — 較難的三字組合"
+      },
+      {
+        "id": "PV.15.01",
+        "title": "put up with 和 put up 的意思不同",
+        "dialogueNote": "put up with 是固定的三字寫法；不能把 with 隨便移走。"
+      },
+      {
+        "id": "PV.15.02",
+        "title": "let someone in on 表示讓人知道秘密",
+        "dialogueNote": "let me in on 的意思偏向分享原本未公開的消息。"
+      },
+      {
+        "id": "PV.15.03",
+        "title": "take something out on someone 表示發洩",
+        "dialogueNote": "兩種句子都出現 take、out，但 out on someone 有不同的說法。"
+      },
+      {
+        "id": "PV.15.04",
+        "title": "fix someone up with 表示替人安排",
+        "dialogueNote": "fix up with 在這個意思下較口語，通常要寫出受幫助的人。"
+      },
+      {
+        "id": "PV.15.05",
+        "title": "keep up with 表示跟上進度",
+        "dialogueNote": "keep up with 常說現在能否跟上；catch up 常說追回落後的部分。"
+      },
+      {
+        "id": "PV.15.06",
+        "title": "come up against 表示遇到難題",
+        "dialogueNote": "come up against 和 come up with 只有最後一個字不同，意思卻不同。"
+      },
+      {
+        "id": "PV.15.07",
+        "title": "face up to 表示勇敢面對事實",
+        "dialogueNote": "face up to 往往暗示事情令人不願面對。"
+      },
+      {
+        "id": "PV.15.08",
+        "title": "do away with 表示廢除",
+        "dialogueNote": "do away with 在這個意思下不能刪去 with。"
+      },
+      {
+        "id": "PV.15.09",
+        "title": "watch out for 表示提防",
+        "dialogueNote": "watch out for 通常帶警告意味。"
+      },
+      {
+        "id": "PV.15.10",
+        "title": "look out for 也可表示留意某人或某物",
+        "dialogueNote": "look out for 也可以表示小心危險；看整句才知道。"
+      },
+      {
+        "id": "PV.15.11",
+        "title": "go ahead 可表示准許對方開始",
+        "dialogueNote": "go ahead 也可表示計劃照常進行，例如 The show will go ahead。"
+      },
+      {
+        "id": "PV.15.12",
+        "title": "get it over with 表示快點完成不想做的事",
+        "dialogueNote": "get it over with 是整組固定說法，不要逐字拆開。   ---  ## PV.16 — 容易忽略的特殊接法 最後整理幾種容易誤判的接法，學會先看意思，再決定字序。"
+      },
+      {
+        "id": "PV.16.01",
+        "title": "同一物件可接兩個人：give back 的句型",
+        "dialogueNote": "若物件很長，用 give the keys back to Dad 往往更易理解。"
+      },
+      {
+        "id": "PV.16.02",
+        "title": "有些動詞組合可以帶兩個不同對象",
+        "dialogueNote": "這是較特別的固定說法，不能套用到所有 fix 組合。"
+      },
+      {
+        "id": "PV.16.03",
+        "title": "同一個動詞也可以改變需要的物件",
+        "dialogueNote": "需要甚麼物件，要按整組動詞的意思決定。"
+      },
+      {
+        "id": "PV.16.04",
+        "title": "兩個小字有時屬於不同部分",
+        "dialogueNote": "不要看見三個連着的短字，就當成同一組固定說法。"
+      },
+      {
+        "id": "PV.16.05",
+        "title": "短的動詞組合也能帶很長的物件",
+        "dialogueNote": "這是常見的選擇，不是說長物件放在中間永遠錯。"
+      },
+      {
+        "id": "PV.16.06",
+        "title": "不是所有像 up、off 的字都能單獨改位置",
+        "dialogueNote": "有些 up 是方向短字，有些與後面的名詞連成一句；要看整句意思。"
+      },
+      {
+        "id": "PV.16.07",
+        "title": "不能隨便在動詞和短字中間加副詞",
+        "dialogueNote": "一般不寫 She put quickly on her coat 來表示同一意思。"
+      },
+      {
+        "id": "PV.16.08",
+        "title": "先問動詞有沒有物件，再想可否分開",
+        "dialogueNote": "能不能分開，要按整組詞的接法判斷，不是只看有沒有物件。"
+      },
+      {
+        "id": "PV.16.09",
+        "title": "主語不同，動詞仍要正常配合",
+        "dialogueNote": "down 不會因主語數量而改變。"
+      },
+      {
+        "id": "PV.16.10",
+        "title": "真正要寫進答案的，是整組動詞的意思",
+        "dialogueNote": "如果題目沒有說清楚意思，可能有多個自然答案，不應亂猜。"
+      },
+      {
+        "id": "PV.16.11",
+        "title": "有些詞組只在特別情況下自然",
+        "dialogueNote": "如果沒有這種情緒，用 finish 通常更簡單自然。"
+      },
+      {
+        "id": "PV.16.12",
+        "title": "不要把每個字典意思當成必學規則",
+        "dialogueNote": "很少見的意思可以查字典；不必為了湊齊所有可能而硬造例句。   ---"
+      }
+    ]
+  },
+  "practice": {
+    "questionCount": 74,
+    "questions": [
+      {
+        "diagnosticId": "D001",
+        "topic": "PV.06.10",
+        "answer": "Turn it down",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D002",
+        "topic": "PV.09.01",
+        "answer": "She looks after her little brother when their parents work late.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D003",
+        "topic": "PV.04.05",
+        "answer": "took off",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D004",
+        "topic": "PV.08.01",
+        "answer": "looked it up",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D005",
+        "topic": "PV.03.08",
+        "answer": "She didn't come in yesterday because she was ill.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D006",
+        "topic": "PV.03.03",
+        "answer": "gets up",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D007",
+        "topic": "PV.07.06",
+        "answer": "called it off",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D008",
+        "topic": "PV.04.02",
+        "answer": "got up",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D009",
+        "topic": "PV.12.14",
+        "answer": "of",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D010",
+        "topic": "PV.12.01",
+        "answer": "seeing",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D011",
+        "topic": "PV.02.04",
+        "answer": "turn it off",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D012",
+        "topic": "PV.05.02",
+        "answer": "gave away",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D013",
+        "topic": "PV.02.04",
+        "answer": "The teacher handed them out.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D014",
+        "topic": "PV.05.04",
+        "answer": "try it on",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D015",
+        "topic": "PV.02.04",
+        "answer": "Please hand it in by Friday.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D016",
+        "topic": "PV.08.14",
+        "answer": "make out",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D017",
+        "topic": "PV.09.05",
+        "answer": "They made up.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D018",
+        "topic": "PV.07.07",
+        "answer": "gave up",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D019",
+        "topic": "PV.05.03",
+        "answer": "hand out",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D020",
+        "topic": "PV.06.09",
+        "answer": "sped up",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D021",
+        "topic": "PV.02.04",
+        "answer": "I will give it back tomorrow.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D022",
+        "topic": "PV.10.06",
+        "answer": "get by",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D023",
+        "topic": "PV.02.10",
+        "answer": "The plane took off from the runway at noon.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D024",
+        "topic": "PV.09.03",
+        "answer": "get along with",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D025",
+        "topic": "PV.05.20",
+        "answer": "got through",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D026",
+        "topic": "PV.07.07",
+        "answer": "given up",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D027",
+        "topic": "PV.03.12",
+        "answer": "The match was called off.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D028",
+        "topic": "PV.03.13",
+        "answer": "The child was looked after by his aunt.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D029",
+        "topic": "PV.08.01",
+        "answer": "look it up",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D030",
+        "topic": "PV.02.04",
+        "answer": "I finally worked it out.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D031",
+        "topic": "PV.05.02",
+        "answer": "give it away",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D032",
+        "topic": "PV.12.08",
+        "answer": "Dad talked me out of buying the expensive phone.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D033",
+        "topic": "PV.15.07",
+        "answer": "face up to it",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D034",
+        "topic": "PV.05.05",
+        "answer": "try it out",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D035",
+        "topic": "PV.05.18",
+        "answer": "I ran into my old teacher at the mall.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D036",
+        "topic": "PV.11.06",
+        "answer": "went off",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D037",
+        "topic": "PV.02.05",
+        "answer": "The manager will look into it tomorrow.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D038",
+        "topic": "PV.09.05",
+        "answer": "made up",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D039",
+        "topic": "PV.08.14",
+        "answer": "make out",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D040",
+        "topic": "PV.10.04",
+        "answer": "saving up",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D041",
+        "topic": "PV.09.02",
+        "answer": "looking for them",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D042",
+        "topic": "PV.12.04",
+        "answer": "writing",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D043",
+        "topic": "PV.12.05",
+        "answer": "went on to explain the solution",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D044",
+        "topic": "PV.08.06",
+        "answer": "set out",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D045",
+        "topic": "PV.15.11",
+        "answer": "went",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D046",
+        "topic": "PV.14.11",
+        "answer": "My worn-out shoes need replacing.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D047",
+        "topic": "PV.14.12",
+        "answer": "The plane will take off soon.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D048",
+        "topic": "PV.14.12",
+        "answer": "I work out every morning.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D049",
+        "topic": "PV.12.11",
+        "answer": "catch up on them",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D050",
+        "topic": "PV.11.18",
+        "answer": "up",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D051",
+        "topic": "PV.05.23",
+        "answer": "through",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D052",
+        "topic": "PV.10.10",
+        "answer": "fill it out",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D053",
+        "topic": "PV.07.12",
+        "answer": "backed out of the plan",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D054",
+        "topic": "PV.11.16",
+        "answer": "boils down to money",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D055",
+        "topic": "PV.03.13",
+        "answer": "The child was looked after by the nurse.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D056",
+        "topic": "PV.09.07",
+        "answer": "look up to",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D057",
+        "topic": "PV.13.05",
+        "answer": "I wonder who she looks after.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D058",
+        "topic": "PV.13.02",
+        "answer": "This is the coat that you took off.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D059",
+        "topic": "PV.12.12",
+        "answer": "put up with it",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D060",
+        "topic": "PV.05.17",
+        "answer": "showed up",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D061",
+        "topic": "PV.15.08",
+        "answer": "away",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D062",
+        "topic": "PV.08.07",
+        "answer": "brought it up",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D063",
+        "topic": "PV.11.09",
+        "answer": "dropped off",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D064",
+        "topic": "PV.15.02",
+        "answer": "I asked them not to let anyone else in on the secret.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D065",
+        "topic": "PV.07.06",
+        "answer": "call off 表示取消比賽；put off 表示把比賽延期，並非取消。",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D066",
+        "topic": "PV.02.03",
+        "answer": "兩句都自然。turn off 是可分開的組合，普通名詞 lamp 可放在 off 前或後。",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D067",
+        "topic": "PV.02.05",
+        "answer": "look after 是不能分開的組合；him 必須放在 after 後面，所以應寫 She looked after him.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D068",
+        "topic": "PV.02.01",
+        "answer": "The plane took off 中 take off 表示飛機起飛，不接物件；She took off her coat 中 take off 表示脫去某物，所以要接 coat。",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D069",
+        "topic": "PV.12.01",
+        "answer": "hope 後的 to 是不定詞標記，所以接 see；look forward to 中的 to 是介詞，所以接 seeing。",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D070",
+        "topic": "PV.11.14",
+        "answer": "got away with 表示他作弊後沒有受到應有的懲罰或追究。",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D071",
+        "topic": "PV.14.01",
+        "answer": "說話者重讀 UP 和 DOWN 作對比；他不要對方調高聲量，而要把聲量調低。",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D072",
+        "topic": "PV.13.04",
+        "answer": "look up to 是以 to 結尾的三字組合；關係代名詞省略後，to 可保留在關係子句句尾。",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D073",
+        "topic": "PV.02.17",
+        "answer": "something heavy 是較長的普通名詞組，可放在 picked up 後；it 是代字，必須放在 picked 和 up 中間。",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D074",
+        "topic": "PV.13.16",
+        "answer": "turned",
+        "correctOption": null
+      }
+    ]
+  }
+}
