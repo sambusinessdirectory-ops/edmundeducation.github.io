@@ -208,6 +208,8 @@ jobs:
           python3 source/tools/rewrite-pages-public-media.py \
             _site source/workers/edmund-public-media/src/media.json \
             --origin "${PAGES_MEDIA_ORIGIN}" \
+            --audio-origin "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/public" \
+            --neural-audio-origin "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay" \
             --keep-list source/tools/pages-media-saved-links.txt
           python3 source/tools/prune-verified-pages-media.py \
             _site source/workers/edmund-public-media/src/media.json \

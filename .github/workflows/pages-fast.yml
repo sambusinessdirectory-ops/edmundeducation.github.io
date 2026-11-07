@@ -152,6 +152,8 @@ jobs:
           python3 tools/rewrite-pages-public-media.py \
             _site workers/edmund-public-media/src/media.json \
             --origin "${PAGES_MEDIA_ORIGIN}" \
+            --audio-origin "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/public" \
+            --neural-audio-origin "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay" \
             --keep-list tools/pages-media-saved-links.txt
           python3 tools/prune-verified-pages-media.py \
             _site workers/edmund-public-media/src/media.json \

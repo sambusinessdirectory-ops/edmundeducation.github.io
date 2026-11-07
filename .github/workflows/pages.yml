@@ -291,6 +291,10 @@ jobs:
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /polysemy-lab/
           !/polysemy-lab/audio/
+          /assets/polysemy-lab/
+          /supabase/migrations/20261024162554_polysemy_fair_choices.sql
+          /supabase/migrations/20261024163842_polysemy_legacy_choices_separate.sql
+          /supabase/migrations/20261028045315_polysemy_shared_answer_feedback.sql
           PATTERNS
               ;;&
             *'[synonyms-release]'*)
@@ -435,6 +439,7 @@ jobs:
       - name: Verify affected audio contracts with the complete source
         if: ${{ contains(inputs.release_tags, '[audio-contract-release]') || (contains(inputs.release_tags, '[full-artifact]') && contains(inputs.release_tags, '[release-gate-repair]')) }}
         run: |
+          node tools/test-student-audio-fallbacks.mjs
           node tools/test-business-concepts-book1-flashcards.mjs
           node tools/test-flashcard-expansion-20260801-ui.mjs
           node tools/test-government-civics-book1-flashcards.mjs
@@ -1833,6 +1838,8 @@ jobs:
           python3 tools/rewrite-pages-public-media.py \
             _site workers/edmund-public-media/src/media.json \
             --origin "${PAGES_MEDIA_ORIGIN}" \
+            --audio-origin "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/public" \
+            --neural-audio-origin "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay" \
             --keep-list tools/pages-media-saved-links.txt
           python3 tools/prune-verified-pages-media.py \
             _site workers/edmund-public-media/src/media.json \

@@ -26,7 +26,7 @@ assert.ok(portal.includes('data-course="advanced-native"'));
 assert.ok(portal.includes('advanced-native/style.css'));
 assert.ok(portal.includes(`media-src 'self' blob: https://edmund-neural-audio.edmundeducation.workers.dev ${publicMediaOrigin}`));
 assert.ok(portal.includes(`connect-src 'self' https://edmund-neural-audio.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev ${publicMediaOrigin}`));
-assert.ok(portal.includes('natural-english/app.mjs?v=20261106-public-media1'));
+assert.ok(portal.includes('natural-english/app.mjs?v=20261107-audio-fallback1'));
 assert.equal(publishedAudioUrl('natural-english/audio/advanced/example.mp3',{hostname:'edmundeducation.com',href:'https://edmundeducation.com/advanced-native.html'}),`${publicMediaOrigin}/natural-english/audio/advanced/example.mp3`);
 assert.equal(publishedAudioUrl('natural-english/audio/advanced/example.mp3',{hostname:'localhost',href:'http://localhost:4173/advanced-native.html'}),'natural-english/audio/advanced/example.mp3');
 assert.equal(publishedAudioUrl('https://edmund-neural-audio.edmundeducation.workers.dev/assets/example.mp3',{hostname:'edmundeducation.com',href:'https://edmundeducation.com/advanced-native.html'}),'https://edmund-neural-audio.edmundeducation.workers.dev/assets/example.mp3');
