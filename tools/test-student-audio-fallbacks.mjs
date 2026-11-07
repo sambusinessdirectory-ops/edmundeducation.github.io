@@ -35,6 +35,10 @@ assert.match(relay,/const PUBLIC_MEDIA_ORIGIN = "https:\/\/edmund-public-media\.
 assert.match(relay,/\["range", "if-none-match", "if-modified-since"\]/);
 assert.match(relay,/request\.method !== "GET" && request\.method !== "HEAD"/);
 assert.match(relay,/!AUDIO_EXTENSION\.test\(upstreamPath\)/);
+assert.match(relay,/"IELTS Listening - Recordings\/"/);
+assert.match(relay,/"DSE Listening - Recordings\/"/);
+assert.match(relay,/NEURAL_AUDIO_PATH_PREFIXES\.some/);
+assert.doesNotMatch(relay,/!upstreamPath\.startsWith\("assets\/"\)/);
 assert.doesNotMatch(relay,/request\.headers\.get\(["']authorization["']\)/i);
 
 for(const workflow of [
