@@ -535,6 +535,7 @@ jobs:
           node --check pwa-register.js
           node --check service-worker.js
           node --check shared-system-nav.js
+          node tools/test-eddy-first-question-dialogue.cjs
           node --check tools/test-focused-system-portal.mjs
           bash -n tools/update-pages-snapshot.sh
 
