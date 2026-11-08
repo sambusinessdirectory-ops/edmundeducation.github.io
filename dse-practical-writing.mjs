@@ -1,4 +1,4 @@
-import { learningUnits, practiceMissions, writingFormats } from './dse-practical-writing-data.mjs?v=20261104-4';
+import { learningUnits, practiceMissions, writingFormats } from './dse-practical-writing-data.mjs?v=20261108-learning-models1';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const config = window.EDMUND_SUPABASE || {};
