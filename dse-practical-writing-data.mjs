@@ -210,6 +210,429 @@ export const learningUnits = [
   }
 ];
 
+// Learning Mode uses the model texts from DSE Paper 3 Integrated Skills — Full
+// Skill Note, Book 1. Keep these separate from Practice Mode: the practice
+// missions deliberately use different scenarios so students can transfer each
+// writing skill instead of seeing the same answer twice.
+const learningModels = {
+  enquiry: {
+    en: `Enquiry Regarding Product A and Bulk Purchase
+
+Dear Sir/Madam,
+
+I am writing on behalf of TBC Trade Company to enquire about Product A and outline the details of our intended purchase.
+
+Firstly, we would be grateful if you could provide information regarding the anticipated release date, estimated price and available delivery arrangements for Product A. We would also appreciate further details concerning its limited-edition version.
+
+Regarding our intended purchase, our company plans to order 200 units of Product A. As we hope to receive the products in Hong Kong before August, we would appreciate your confirmation of whether delivery could be arranged within this timeframe.
+
+Furthermore, we are interested in purchasing 30 units of the limited-edition version and would like to enquire about their availability. Given the substantial quantity involved, we would also appreciate it if a bulk-purchase discount could be offered.
+
+Should you require any further information, please do not hesitate to contact us. Thank you for your time and consideration. We look forward to your favourable reply.
+
+Yours faithfully,
+Chris Wong
+TBC Trade Company`,
+    zh: `查詢 Product A 及大批訂購事宜
+
+敬啟者：
+
+本人謹代表 TBC Trade Company，現函查詢 Product A，並說明本公司擬訂購的詳情。
+
+首先，如能提供 Product A 的預計推出日期、估計售價及可供選擇的送貨安排，我們將不勝感激。我們亦希望獲得限量版的進一步資料。
+
+關於是次擬訂購事宜，本公司計劃訂購 200 件 Product A。由於我們希望在 8 月前於香港收貨，煩請確認能否在此期限內安排送貨。
+
+此外，我們有意購買 30 件限量版，並希望查詢是否有足夠存貨。鑑於訂購數量龐大，如能提供大批訂購折扣，我們亦將深表感謝。
+
+如需任何進一步資料，歡迎隨時與我們聯絡。感謝您撥冗考慮，期待收到您的正面回覆。
+
+此致
+Chris Wong
+TBC Trade Company`
+  },
+  'bad-news-email': {
+    en: `Apology for Absence and Alternative Assignment Submission
+
+Dear Mr Evans,
+
+I regret to inform you that I am unable to attend today's lecture due to a fever. As a result, I will also be unable to submit my assignment in person as originally scheduled.
+
+To ensure that my absence does not delay the submission, I will scan the completed assignment and email you a digital copy today. I would be grateful if you could accept this alternative arrangement.
+
+Please accept my sincere apologies for any inconvenience this may cause. Thank you for your understanding and consideration. I look forward to attending your next lecture once I have recovered.
+
+Yours sincerely,
+Samuel Chan
+BAA Student
+Student UID: 373 171 383`,
+    zh: `因缺席致歉及功課替代提交安排
+
+Evans 先生：
+
+很遺憾通知您，我因發燒而未能出席今天的課堂。因此，我亦無法按原定安排親身提交功課。
+
+為確保我的缺席不會延誤提交，我會把已完成的功課掃描，並於今天以電郵傳送電子副本給您。如蒙接納這項替代安排，本人將不勝感激。
+
+此事如造成任何不便，謹此致以誠摯歉意。感謝您的體諒及考慮。我期待康復後出席您的下一節課堂。
+
+此致
+Samuel Chan
+BAA 學生
+學生編號：373 171 383`
+  },
+  reply: {
+    en: `RE: Enquiry about Mumbo Jumbo Pet-Friendly Park
+
+Dear Sir/Madam,
+
+Thank you for your enquiry about Mumbo Jumbo Pet-Friendly Park. We are delighted to provide further information about our facilities and upcoming opening ceremony.
+
+Regarding the park's facilities, it covers an area equivalent to two standard basketball courts, with two bathrooms available for visitors. While pet food is permitted, visitors are kindly reminded that eating within the park is prohibited.
+
+As for the opening ceremony, it is scheduled for 15 March, commencing at 3:45 p.m. and lasting approximately two hours. Visitors are welcome to attend with their pets. The programme will feature a talk by our guest speaker, Steven Choi, followed by practical dog-walking tips shared by renowned pet trainer Kevin Lin. A lucky draw will also be held, offering further entertainment for attendees.
+
+We sincerely appreciate your interest in our park and look forward to welcoming you. Should you require any further information, please do not hesitate to contact us.
+
+Yours faithfully,
+Debby Wong
+Staff Member
+Mumbo Jumbo Pet-Friendly Park`,
+    zh: `回覆：查詢 Mumbo Jumbo 寵物友善公園
+
+敬啟者：
+
+感謝您查詢 Mumbo Jumbo 寵物友善公園。我們很高興為您提供園內設施及即將舉行的開幕典禮的進一步資料。
+
+公園面積相當於兩個標準籃球場，並設有兩間洗手間供訪客使用。園內准許攜帶寵物食品，但敬請訪客注意，園內禁止進食。
+
+開幕典禮定於 3 月 15 日下午 3 時 45 分開始，歷時約兩小時，歡迎訪客攜同寵物出席。活動包括嘉賓講者 Steven Choi 的演講，其後由著名寵物訓練員 Kevin Lin 分享實用的遛狗技巧。大會亦會舉行幸運抽獎，為參加者增添樂趣。
+
+衷心感謝您對本公園的興趣，我們期待歡迎您的蒞臨。如需任何進一步資料，歡迎隨時與我們聯絡。
+
+此致
+Debby Wong
+職員
+Mumbo Jumbo 寵物友善公園`
+  },
+  report: {
+    en: `Report on TDC Theme Park Development Progress
+
+Introduction
+This report outlines the safety and security issues identified during the construction of TDC Theme Park and proposes measures to address them, alongside recommendations for additional facilities.
+
+Key Findings
+Several concerns have emerged during construction. Warning signs were absent from the site, while some workers failed to comply with safety regulations. Furthermore, certain construction areas were left without protective mats, and the security room was found unlocked, posing potential safety and security risks.
+
+Recommendations
+To address these issues, warning signs should be prominently displayed at the site entrance, and daily safety briefings should be conducted to reinforce compliance with regulations. Team leaders should also inspect construction areas before leaving to ensure adequate protective coverage. Additionally, electronic locks should be installed to prevent unauthorised access to the security room.
+
+Proposed Additions
+To enhance visitors' experience, shaded seating areas and additional drinking fountains are recommended, particularly for families with young children.
+
+Conclusion
+Implementing these measures would improve site safety and security while contributing to a more enjoyable visitor experience upon completion.`,
+    zh: `TDC 主題公園發展進度報告
+
+引言
+本報告概述 TDC 主題公園施工期間發現的安全及保安問題，提出相應處理措施，並就增設設施提出建議。
+
+主要發現
+施工期間出現數項令人關注的問題。工地沒有設置警告標誌，部分工人亦未有遵守安全規則。此外，若干施工範圍欠缺保護墊，保安室亦被發現沒有上鎖，構成潛在的安全及保安風險。
+
+建議
+為處理上述問題，工地入口應在當眼位置設置警告標誌，並每日舉行安全簡報，以加強工人遵守規則。各組組長亦應在離開前巡查施工範圍，確保已設置足夠保護措施。此外，保安室門應安裝電子鎖，以防止未經授權人士進入。
+
+建議增設設施
+為提升訪客體驗，建議增設有遮蔭的座位區及更多飲水機，尤其方便攜同年幼子女的家庭。
+
+結論
+落實上述措施既可改善工地安全及保安，亦有助公園落成後為訪客提供更愉快的體驗。`
+  },
+  proposal: {
+    en: `Proposal on Improvements to JD Hotel
+
+Introduction
+This proposal outlines recommended additions, removals and modifications to JD Hotel, alongside matters requiring further discussion.
+
+Proposed Additions
+To enhance guest comfort and hygiene, hand sanitiser dispensers should be installed at every entrance, while two seven-seater sofas could be placed in the lobby. Additionally, a painting by Laurence Chak is recommended for display behind the front desk to enhance the hotel's ambience.
+
+Proposed Removals
+Three white statues outside the hotel should be removed to create a less cluttered entrance. Similarly, the second chandelier in the lobby and all pamphlets on the side tables should be removed.
+
+Proposed Modifications
+To create a more welcoming atmosphere, the existing fragrance on each floor could be replaced with vanilla, while classical music should replace the current pop music in the washrooms.
+
+Matters for Discussion
+The next meeting should address the proposed 11 o'clock cleaning schedule, wallpaper colour and date of the opening ceremony.
+
+Conclusion
+Implementing these changes could enhance guest comfort, improve the hotel's ambience and create a more welcoming environment.`,
+    zh: `改善 JD Hotel 的建議書
+
+引言
+本建議書概述 JD Hotel 的建議新增、移除及修改項目，並列出有待進一步商議的事項。
+
+建議新增項目
+為提升住客的舒適度及衞生水平，酒店應在每個入口安裝酒精搓手液機，並可在大堂放置兩張七座位梳化。此外，建議在接待處後方展示 Laurence Chak 的畫作，以提升酒店氣氛。
+
+建議移除項目
+酒店外的三座白色雕像應予移除，令入口不再顯得雜亂。同樣地，大堂的第二盞吊燈及邊桌上的所有小冊子亦應移除。
+
+建議修改項目
+為營造更親切宜人的氣氛，各樓層現有的香氣可改為雲呢拿香味，而洗手間現時播放的流行音樂則應改為古典音樂。
+
+待商議事項
+下次會議應商討建議於 11 時進行的清潔時間表、牆紙顏色及開幕典禮日期。
+
+結論
+落實上述改動可提升住客的舒適度、改善酒店氣氛，並締造更親切宜人的環境。`
+  },
+  'formal-request': {
+    en: `Dear Ms Chan,
+
+I am writing to request several adjustments to the arrangements for next month's annual party to ensure its smooth organisation.
+
+Firstly, as most guests are unavailable on the scheduled date, we would appreciate it if the party could be rescheduled. Furthermore, given the recent controversies surrounding the current host, could you consider appointing a suitable replacement? We would also be grateful if an alternative venue could be arranged, as many guests have expressed concerns about its accessibility.
+
+Once the revised arrangements have been confirmed, please forward the details to our boss to keep him informed. Additionally, the proposed changes will be presented to all senior managers at the next meeting for their consideration.
+
+Thank you for your continued efforts in organising the event. Should you require any further information, please do not hesitate to contact me. I would greatly appreciate your assistance and look forward to receiving your confirmation.
+
+Yours sincerely,
+Joyce Tang`,
+    zh: `Chan 女士：
+
+本人現函要求就下月周年聚會的安排作出數項調整，以確保活動籌辦順利。
+
+首先，由於大部分賓客未能在原定日期出席，如能更改聚會日期，我們將不勝感激。此外，鑑於現任司儀近日捲入爭議，可否考慮委任合適的替代人選？由於不少賓客對現有場地的交通便利程度表示憂慮，如能另覓場地，我們亦將深表感謝。
+
+修訂安排一經確認，請把詳情交予老闆，讓他掌握最新情況。此外，我們將於下次會議上向全體高級經理提交建議改動，供他們考慮。
+
+感謝您一直努力籌辦是次活動。如需任何進一步資料，歡迎隨時與我聯絡。如蒙協助，本人將不勝感激，並期待收到您的確認。
+
+此致
+Joyce Tang`
+  },
+  'promotional-article': {
+    en: `King's Gambit: A Mystery Worth Unravelling!
+
+What if a mysterious encounter changed your life forever?
+
+Get ready for King's Gambit, an upcoming film promising suspense, adventure and unexpected twists!
+
+A Mysterious Adventure
+The story follows Alex, a 12-year-old student who gets lost in a theme park on West Street. His adventure begins when a stranger hands him a card bearing a secret phone number. Driven by curiosity, Alex enters a mysterious game and eventually becomes its "king". But what challenges await him?
+
+A Star-Studded Cast
+Directed by Stephen Chow, the film features Gary Kwan and Lora Tang in leading roles, alongside Eunice Chow, who recently appeared in a Hollywood production, as the villain. Award-winning actor Kevin Chan also joins the cast.
+
+An Exclusive Offer
+Here's a special treat for our readers! Visit www.artehk.com.hk and enter the code "KG2022" to enjoy $10 off each ticket, with a maximum of four discounted tickets per magazine purchased. For enquiries, email artehk@gmail.com.
+
+Don't miss this thrilling adventure. See you at the cinema!`,
+    zh: `《King's Gambit》：一個值得揭開的謎團！
+
+如果一次神秘邂逅永遠改變了你的人生，你會怎樣？
+
+準備迎接即將上映的《King's Gambit》——一部充滿懸疑、冒險及意想不到轉折的電影！
+
+神秘冒險
+故事講述 12 歲學生 Alex 在 West Street 的主題公園迷路。一名陌生人把一張印有秘密電話號碼的卡片交給他，冒險由此展開。在好奇心驅使下，Alex 進入一場神秘遊戲，最後成為遊戲中的「王者」。然而，有甚麼挑戰正在等待他？
+
+星光熠熠的演員陣容
+電影由 Stephen Chow 執導，Gary Kwan 及 Lora Tang 擔任主角，近日參演一部荷里活製作的 Eunice Chow 則飾演反派，得獎演員 Kevin Chan 亦有參演。
+
+獨家優惠
+我們為讀者準備了特別優惠！瀏覽 www.artehk.com.hk，輸入優惠碼「KG2022」，每張門票即減 10 元；每本雜誌最多可購買四張優惠票。如有查詢，請電郵至 artehk@gmail.com。
+
+切勿錯過這場緊張刺激的冒險。戲院見！`
+  },
+  'invite-spokesperson': {
+    en: `Invitation to Serve as GC Hotel’s Spokesperson and Attend Its Opening Ceremony
+
+Dear Ms Mok,
+
+On behalf of GC Hotel, I am delighted to invite you to serve as our spokesperson for one year and attend our opening ceremony on 14 July.
+
+Given your longstanding commitment to environmental protection, we believe you would be an ideal representative of our sustainability initiatives. Sharing your passion for recycling, our hotel has incorporated recycled fabrics into its wallpaper. Furthermore, in response to growing concerns about deforestation, we are collaborating with five celebrities to promote forest conservation. Your involvement would undoubtedly strengthen our efforts to raise environmental awareness.
+
+At the opening ceremony, we would be honoured if you could deliver a speech highlighting our shared environmental values and your advocacy work. As a token of appreciation, you are warmly invited to a complimentary dinner with fellow guests. A limousine service can also be arranged upon request.
+
+We sincerely hope you will accept our invitation. Should you require further information, please do not hesitate to contact us. We look forward to your favourable reply.
+
+Yours sincerely,
+Jannie Tang
+Marketing Department
+GC Hotel`,
+    zh: `誠邀出任 GC Hotel 代言人及出席開幕典禮
+
+Mok 女士：
+
+本人謹代表 GC Hotel，誠邀您出任本酒店為期一年的代言人，並出席 7 月 14 日舉行的開幕典禮。
+
+鑑於您長期致力保護環境，我們相信您是代表酒店可持續發展措施的理想人選。與您對回收的熱忱相呼應，本酒店已在牆紙中採用再造布料。此外，為回應各界日益關注的濫伐森林問題，我們正與五位名人合作推廣森林保育。您的參與無疑能加強我們提升公眾環保意識的工作。
+
+開幕典禮上，如蒙您發表演講，闡述我們共同重視的環保理念及您的倡議工作，我們將深感榮幸。為表謝意，我們誠邀您與其他嘉賓免費享用晚餐；如有需要，亦可安排豪華轎車接送服務。
+
+我們衷心希望您接受邀請。如需更多資料，歡迎隨時與我們聯絡。期待收到您的正面回覆。
+
+此致
+Jannie Tang
+市場推廣部
+GC Hotel`
+  },
+  'invite-winners': {
+    en: `Congratulations! Invitation to the Daily Drawer Winners’ Film Studio Tour
+
+Dear Prize Winners,
+
+Congratulations on winning the “Daily Drawer” game! On behalf of QB Television Company, we are delighted to invite all 30 winners to an exclusive film-factory tour on 25 February.
+
+The day begins at 7:30 a.m. with a complimentary buffet breakfast at the entrance of the Marriott Hotel in Central. Following breakfast, our coach will take you to the studio, with a briefing provided en route.
+
+Upon arrival at 11:00 a.m., you will explore film sets featuring an ancient Chinese palace, an artificial forest and a sci-fi studio, with opportunities to meet actors. Lunch will be served at noon.
+
+The highlight comes at 3:15 p.m., when you will receive two business-class tickets to Bali, valid for two years. Renowned actor Tony Mak will attend the prize-giving ceremony, offering opportunities for photographs. The tour concludes at 4:15 p.m., with optional coach transfers to the nearest MTR station.
+
+We look forward to celebrating with you. Should you have any enquiries, please contact us.
+
+Yours faithfully,
+Jackie Man
+Communications Department
+QB Television Company`,
+    zh: `恭喜得獎！誠邀「Daily Drawer」得獎者參加電影製作室導賞團
+
+各位得獎者：
+
+恭喜各位在「Daily Drawer」遊戲中勝出！本人謹代表 QB Television Company，誠邀全體 30 名得獎者參加 2 月 25 日舉行的專屬電影製作室導賞團。
+
+活動於上午 7 時 30 分開始，大會將在中環 Marriott Hotel 入口提供免費自助早餐。早餐後，旅遊巴會接載各位前往製作室，途中並會進行簡介。
+
+上午 11 時抵達後，各位將參觀以中國古代宮殿為場景的片場、人造森林及科幻製作室，並有機會與演員見面。午餐於中午 12 時供應。
+
+活動高潮將於下午 3 時 15 分展開，每位得獎者可獲兩張前往峇里的商務客位機票，有效期為兩年。著名演員 Tony Mak 將出席頒獎典禮，各位亦有機會與他合照。導賞團於下午 4 時 15 分結束，有需要者可乘旅遊巴前往最近的港鐵站。
+
+我們期待與各位一同慶祝。如有任何查詢，請與我們聯絡。
+
+此致
+Jackie Man
+傳訊部
+QB Television Company`
+  },
+  'informal-request': {
+    en: `A Few Suggestions for Your Competition Entry
+
+Hey Angie,
+
+How's everything going? Thanks so much for all the effort you've put into the competition entry! Your hard work really shows, and I have a few suggestions to make it even better.
+
+For the poster, could we replace the central image? TKC Secondary School has used the same one, so a fresh design would help ours stand out. The title could also be shortened for readability. How about adding a brief introduction to give the judges some background?
+
+As for the video, we need to trim it from ten minutes to five to meet the competition rules. More importantly, the theme should focus on people with disabilities rather than pets with disabilities, so let's adjust the storyline accordingly. Don't forget to include the required post-credits scene!
+
+I know these changes may seem like a lot, but there's still time, and I'm happy to help. Keep up the fantastic work! I can't wait to see the revised versions.
+
+Cheers,
+Simon`,
+    zh: `給你參賽作品的幾點建議
+
+Angie：
+
+近來好嗎？非常感謝你為參賽作品付出的努力！你的用心大家有目共睹，我有幾項建議，希望令作品更上一層樓。
+
+海報方面，我們可否更換中央的圖片？TKC Secondary School 已採用同一張圖片，換上新設計可令我們的作品更突出。標題亦可縮短，讓人更容易閱讀。不如加上一段簡短介紹，向評判提供一些背景資料？
+
+影片方面，我們須按照比賽規則，把片長由十分鐘縮短至五分鐘。更重要的是，主題應聚焦殘疾人士，而非殘疾寵物，所以我們應相應修改故事情節。別忘了加入指定的片尾彩蛋！
+
+我知道這些改動看來不少，但我們仍有時間，我也很樂意幫忙。繼續保持出色的表現吧！我已急不及待想看修訂後的版本。
+
+祝好
+Simon`
+  },
+  'press-release': {
+    en: `Press Release: LMB Tech Buddies Responds to XZ Laptop Allegations
+
+LMB Tech Buddies wishes to address recent allegations concerning the battery performance, overheating and keyboard reliability of its XZ Laptop. We take these concerns seriously and would like to clarify the facts.
+
+Contrary to claims of a two-hour battery life, the XZ Laptop typically operates for five hours, reaching up to ten hours under favourable conditions when fully charged.
+
+Regarding overheating, laboratory tests indicate that the device does not overheat after three hours of use under normal room-temperature conditions. The relevant report is available on our official website for public reference.
+
+As for keyboard reliability, the laptop incorporates an electrically conductive touchscreen system designed to minimise mechanical wear. We remain committed to investigating any reported input issues.
+
+LMB Tech Buddies is dedicated to maintaining high product standards and providing accurate information to consumers. While the available evidence does not substantiate these allegations, we remain open to legitimate feedback and reserve the right to pursue legal action against demonstrably false claims where appropriate.
+
+END
+LMB Tech Buddies`,
+    zh: `新聞稿：LMB Tech Buddies 回應有關 XZ Laptop 的指控
+
+LMB Tech Buddies 現就近期有關 XZ Laptop 電池表現、過熱及鍵盤可靠性的指控作出回應。我們認真看待上述關注，並希望澄清事實。
+
+有關電池只能使用兩小時的說法與事實不符。XZ Laptop 一般可運作五小時，在有利條件下，電池充滿後最長可使用十小時。
+
+至於過熱問題，實驗室測試顯示，在正常室溫環境下使用三小時後，裝置並沒有過熱。相關報告已上載本公司官方網站，供公眾查閱。
+
+鍵盤可靠性方面，手提電腦採用導電式觸控屏幕系統，旨在減少機械磨損。我們會繼續調查任何接獲通報的輸入問題。
+
+LMB Tech Buddies 致力維持高產品標準，並向消費者提供準確資訊。雖然現有證據並不支持上述指控，我們仍歡迎真誠而合理的意見，並保留在適當情況下就可證實為失實的指控採取法律行動的權利。
+
+完
+LMB Tech Buddies`
+  },
+  speech: {
+    en: `Celebrating Innovation and Future Growth
+
+Good evening, distinguished guests and colleagues,
+
+Tonight, as we celebrate the GF Smartphone, I thank our customers, staff and product designer Kevin Kim. Without your support, this achievement would not have been possible.
+
+My journey began at 17, when I discovered a passion for electronics. At the University of Telza, I met co-founder Debby Tang. After studying computer science and working at PZ Software Co., we established GQ Tech Company ten years later to develop innovative hardware.
+
+Fifteen years ago, Kevin and I envisioned a smartphone offering greater convenience. What began as a black model with five planned functions has evolved into a product available in three colours and offering fifteen functions, thanks to your feedback.
+
+And our journey continues! Next year, we will partner with TF Media Company to launch an online shopping platform offering over 20,000 products and creating 80 jobs. Our mission remains clear: making affordable 3C products accessible worldwide.
+
+Together, we have transformed an idea into reality. Here's to an exciting future. Thank you!`,
+    zh: `慶祝創新成就與未來增長
+
+各位尊貴嘉賓、各位同事，晚上好：
+
+今晚，我們慶祝 GF Smartphone 的成功。在此，我感謝各位顧客、全體員工及產品設計師 Kevin Kim。沒有大家的支持，我們不可能取得這項成就。
+
+我的旅程始於 17 歲，當時我發現自己對電子科技充滿熱誠。我在 University of Telza 認識共同創辦人 Debby Tang。修讀電腦科學並於 PZ Software Co. 工作後，我們在十年後創立 GQ Tech Company，致力開發創新硬件。
+
+十五年前，Kevin 和我構思一部讓生活更方便的智能手機。最初只有黑色、計劃提供五項功能的型號，憑着大家的意見，今天已發展成備有三種顏色及十五項功能的產品。
+
+我們的旅程仍在繼續！明年，我們將與 TF Media Company 合作推出網上購物平台，提供超過 20,000 種產品，並創造 80 個職位。我們的使命依然清晰：讓世界各地的人都能使用價格相宜的 3C 產品。
+
+我們攜手把構想化為現實。讓我們一同迎接令人振奮的未來。謝謝大家！`
+  },
+  outline: {
+    en: `Road Accidents in Santa Flora: Causes for Concern and Possible Solutions
+
+The Scale and Impact of Road Accidents
+Santa Flora records over 800 road accidents annually, with estimated financial losses exceeding $300 million. In 2017 alone, 400 casualties were reported, highlighting the serious consequences for public safety.
+
+Proposed Drink-Driving Regulations
+In 2018, SAFE Driving, a local NGO dedicated to improving road safety, proposed legislation to increase fines for drink-driving offenders. According to its survey, 25% of respondents strongly supported the proposal, while over 30% expressed support and only 5% opposed it. The proposal also gained the backing of 20 politicians.
+
+Advances in Vehicle Safety Technology
+Modern safety technologies, including rapid-deployment airbags, GPS-enabled emergency alerts and secure seatbelts, can help protect motorists. Reports suggest that such devices could contribute to a 50% reduction in accidents, although their effectiveness varies. Reflecting growing interest in vehicle safety, the market for these devices expanded by 70% between 2019 and 2020.`,
+    zh: `Santa Flora 的道路交通意外：令人憂慮的情況與可行方案
+
+道路交通意外的規模及影響
+Santa Flora 每年錄得超過 800 宗道路交通意外，估計造成逾 3 億元經濟損失。單在 2017 年便錄得 400 人傷亡，突顯交通意外對公共安全造成的嚴重後果。
+
+建議中的酒後駕駛規例
+2018 年，致力改善道路安全的本地非政府機構 SAFE Driving 建議立法提高酒後駕駛違例者的罰款。根據該機構的調查，25% 受訪者非常支持建議，超過 30% 表示支持，只有 5% 反對。建議亦獲 20 名政治人物支持。
+
+車輛安全科技的進展
+現代安全科技，包括快速充氣安全氣袋、具備 GPS 定位功能的緊急警報及牢固的安全帶，均有助保護駕駛者及乘客。報告顯示，這些裝置可令意外減少 50%，但實際成效各有不同。隨着社會日益重視車輛安全，這類裝置的市場於 2019 至 2020 年間增長了 70%。`
+  }
+};
+
 export const practiceMissions = [
   {
     id: 'workshop-enquiry', number: '01', type: 'Letter of Enquiry', zhType: '查詢信',
@@ -681,16 +1104,21 @@ practiceMissions.forEach(mission => {
   mission.model.blocks = buildBilingualBlocks(mission.model, mission.id);
 });
 
+Object.entries(learningModels).forEach(([unitId, model]) => {
+  model.blocks = buildBilingualBlocks(model, `learning-${unitId}`);
+});
+
 learningUnits.forEach((unit, index) => {
   const mission = practiceMissions[index];
   const profile = teachingProfiles[unit.id];
-  if (!mission || !profile) throw new Error(`Incomplete writing format: ${unit.id}`);
+  const model = learningModels[unit.id];
+  if (!mission || !profile || !model) throw new Error(`Incomplete writing format: ${unit.id}`);
   Object.assign(unit, {
     audience: profile.audience,
     register: profile.register,
     formatRules: profile.formatRules,
     commonErrors: profile.commonErrors,
-    model: mission.model,
+    model,
     requirements: mission.requirements,
     practiceMissionId: mission.id,
     practiceTitle: mission.title,

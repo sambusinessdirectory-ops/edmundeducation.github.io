@@ -35,6 +35,19 @@ try {
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2), true, 'mobile route must not overflow horizontally');
   assert.equal(await page.locator('.map-index button').count(), 13);
 
+  await page.goto(`${origin}/dse-practical-writing.html?preview=1&mode=learning&item=enquiry`, { waitUntil: 'networkidle' });
+  const learningEnglish = await page.locator('.learning-model-section .model-english').allTextContents();
+  assert.match(learningEnglish.join(' '), /TBC Trade Company/, 'Learning Mode must use the Book 1 Product A model');
+  assert.doesNotMatch(learningEnglish.join(' '), /Sunrise Secondary School/, 'Learning Mode must not reuse the linked practice answer');
+  assert.equal(await page.locator('.learning-model-section .model-chinese').count(), 0);
+  await page.locator('.learning-model-section [data-action="translation"]').click();
+  assert.equal(
+    await page.locator('.learning-model-section .model-chinese').count(),
+    await page.locator('.learning-model-section .model-english').count(),
+    'every Learning Mode model block must reveal an aligned Traditional Chinese translation'
+  );
+  assert.match(await page.locator('.learning-model-section').innerText(), /查詢 Product A 及大批訂購事宜/);
+
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto(`${origin}/dse-practical-writing.html?preview=1&mode=practice&item=workshop-enquiry`, { waitUntil: 'networkidle' });
   assert.match(await page.locator('.briefing-scene').evaluate(node => getComputedStyle(node).backgroundImage), /briefing-dossier-v2\.webp/);
@@ -53,6 +66,8 @@ try {
   await page.locator('.model-button').click();
   assert.equal(await page.locator('[data-model-dialog]').getAttribute('open'), '');
   const englishBlocks = await page.locator('[data-model-copy] .model-english').count();
+  assert.match(await page.locator('[data-model-copy]').innerText(), /Sunrise Secondary School/, 'Practice Mode must retain its separate workshop model');
+  assert.doesNotMatch(await page.locator('[data-model-copy]').innerText(), /TBC Trade Company/, 'Practice Mode must not display the Learning Mode model');
   await page.locator('[data-model-language]').click();
   assert.equal(await page.locator('[data-model-copy] .model-chinese').count(), englishBlocks, 'every English model block must reveal its paired Traditional Chinese block');
   assert.equal(errors.length, 0, `browser console errors: ${errors.join(' | ')}`);

@@ -42,7 +42,8 @@ test('two source-derived modes contain 13 learning units and 13 complete bilingu
   assert.equal(writingFormats.length, 13);
   assert.ok(learningUnits.every(item => item.id && item.title && item.zhTitle && item.purpose && item.purposeZh && item.structure.length >= 4 && item.expressions.length >= 3));
   assert.ok(practiceMissions.every(item => item.id && item.title && item.zhTitle && item.situation && item.situationZh && item.requirements.length >= 2 && item.model.en && item.model.zh));
-  assert.ok(writingFormats.every((item, index) => item.model === practiceMissions[index].model), 'Learning and Practice must share one canonical model');
+  assert.ok(writingFormats.every((item, index) => item.model !== practiceMissions[index].model), 'Learning and Practice must keep separate model answers');
+  assert.ok(writingFormats.every((item, index) => item.model.en !== practiceMissions[index].model.en), 'Learning model text must not duplicate its linked practice answer');
   assert.ok(writingFormats.every(item => item.audience?.length === 2 && item.register?.length === 2 && item.formatRules?.length >= 2 && item.commonErrors?.length >= 2));
   assert.ok(writingFormats.every(item => item.model.blocks.length >= 4 && item.model.blocks.every(block => block.id && block.type && block.functionEn && block.functionZh && block.en && block.zh)));
   assert.ok(writingFormats.every(item => item.requirements.length >= 2 && item.practiceMissionId));
@@ -50,6 +51,30 @@ test('two source-derived modes contain 13 learning units and 13 complete bilingu
   assert.match(app, /Practice mode/);
   assert.match(dataSource, /Letter of Enquiry/);
   assert.match(dataSource, /The Growing Problem of Electronic Waste/);
+});
+
+test('Learning Mode uses all 13 Book 1 model essays with contextual Traditional Chinese translations', () => {
+  const expectedSourceText = [
+    'TBC Trade Company',
+    "today's lecture due to a fever",
+    'Mumbo Jumbo Pet-Friendly Park',
+    'TDC Theme Park Development Progress',
+    'Improvements to JD Hotel',
+    "next month's annual party",
+    "King's Gambit",
+    'GC Hotel’s Spokesperson',
+    'Daily Drawer',
+    'Hey Angie',
+    'LMB Tech Buddies',
+    'GF Smartphone',
+    'Road Accidents in Santa Flora'
+  ];
+  expectedSourceText.forEach((text, index) => assert.match(writingFormats[index].model.en, new RegExp(text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))));
+  assert.ok(writingFormats.every(item => item.model.zh.length > 120));
+  assert.ok(writingFormats.every(item => item.model.blocks.length >= 4));
+  assert.ok(writingFormats.every(item => item.model.blocks.every(block => block.en.trim() && block.zh.trim())));
+  assert.match(writingFormats[0].model.zh, /查詢 Product A 及大批訂購事宜/);
+  assert.match(writingFormats[12].model.zh, /道路交通意外的規模及影響/);
 });
 
 test('original route catalogue, document briefing, three-column writing workspace and model review follow the requested flow', () => {
