@@ -1,0 +1,1625 @@
+{
+  "source": "course-materials/grammar/source/relative-clauses-student-reading-guide-224.md",
+  "guide": {
+    "ruleCount": 224,
+    "rules": [
+      {
+        "id": "RC.01.01",
+        "title": "關係子句可以在名詞後面補充資料",
+        "dialogueNote": "關係子句有時說清楚是哪一個，有時只補充消息；兩種情況要分開看。"
+      },
+      {
+        "id": "RC.01.02",
+        "title": "找出關係子句介紹哪個字",
+        "dialogueNote": "較長的句子可能有多個名詞。不要只看最近一個字，還要看意思。"
+      },
+      {
+        "id": "RC.01.03",
+        "title": "關係子句能把兩句話合在一起",
+        "dialogueNote": "合併後要保留原本的人、時間和意思。"
+      },
+      {
+        "id": "RC.01.04",
+        "title": "用 who 連接與人有關的資料",
+        "dialogueNote": "who 也可用於寵物等被當作有個性的人物；一般事物通常用 which 或 that。"
+      },
+      {
+        "id": "RC.01.05",
+        "title": "用 which 連接與物件有關的資料",
+        "dialogueNote": "動物通常也可以用 which；但有些寵物可以用 who。"
+      },
+      {
+        "id": "RC.01.06",
+        "title": "用 that 介紹人或物",
+        "dialogueNote": "在有逗號、只補充消息的關係子句中，普通標準英文不用 that。"
+      },
+      {
+        "id": "RC.01.07",
+        "title": "關係子句可以介紹句子的主語",
+        "dialogueNote": "句子真正的主要動詞是 is smiling；不要因中間多了一組字就漏掉它。"
+      },
+      {
+        "id": "RC.01.08",
+        "title": "關係子句可以介紹句子的受詞",
+        "dialogueNote": "找受詞時要看整句動詞需要甚麼，不能只看字的位置。"
+      },
+      {
+        "id": "RC.01.09",
+        "title": "關係子句也可跟在介詞後面的名詞之後",
+        "dialogueNote": "關係子句介紹的是 teacher，並不會因 teacher 跟在 to 後面而改變。"
+      },
+      {
+        "id": "RC.01.10",
+        "title": "先分清「哪一個」和「順帶補充」",
+        "dialogueNote": "第二種寫法通常要用逗號，而且選用的關係字不同。"
+      },
+      {
+        "id": "RC.01.11",
+        "title": "關係子句是較大句子的一部分",
+        "dialogueNote": "口語回答時有時會省略整句其他部分；這不等於一般書面句可以任意省略。"
+      },
+      {
+        "id": "RC.01.12",
+        "title": "看意思，不要只背 who 或 which",
+        "dialogueNote": "兩句都正確，但第一句有 place 這個被介紹的名詞。"
+      },
+      {
+        "id": "RC.02.01",
+        "title": "who 可以代表做事的人",
+        "dialogueNote": "如果是順帶補充的句子，就要用 who，不用 that。"
+      },
+      {
+        "id": "RC.02.02",
+        "title": "who 也可以代表動作涉及的人",
+        "dialogueNote": "日常英文用 who 作受詞很常見，不應當成文法錯誤。"
+      },
+      {
+        "id": "RC.02.03",
+        "title": "which 可以代表做事的物件",
+        "dialogueNote": "人通常用 who；不要把 which 當成介紹一般人物的常用字。"
+      },
+      {
+        "id": "RC.02.04",
+        "title": "which 也可以代表被使用的物件",
+        "dialogueNote": "這種情況通常也可不寫 which 或 that。"
+      },
+      {
+        "id": "RC.02.05",
+        "title": "that 不只用來介紹東西",
+        "dialogueNote": "不要教成「人只可以用 who」。"
+      },
+      {
+        "id": "RC.02.06",
+        "title": "whom 是較正式的受詞寫法",
+        "dialogueNote": "whom 不適合代替正在做動作的主語 who。"
+      },
+      {
+        "id": "RC.02.07",
+        "title": "who 作主語時不改成 whom",
+        "dialogueNote": "不能只因 who 前面有 I think 就換成 whom。"
+      },
+      {
+        "id": "RC.02.08",
+        "title": "whom 常跟在介詞後面",
+        "dialogueNote": "普通正式文章通常不用 to who；但日常用 who ... to 很自然。"
+      },
+      {
+        "id": "RC.02.09",
+        "title": "which 常跟在介詞後面",
+        "dialogueNote": "不能改成 in that I kept the photos 來表達同一種關係子句。"
+      },
+      {
+        "id": "RC.02.10",
+        "title": "that 不能跟在前置介詞後面",
+        "dialogueNote": "如果工具本身是被修的東西，應說 the tool that I fixed，不應把工具與被修物混在一起。"
+      },
+      {
+        "id": "RC.02.11",
+        "title": "that 和 which 在限定子句中常可互換",
+        "dialogueNote": "有些寫作指南偏好限定子句用 that；這是風格偏好，並非各種英文的絕對規則。"
+      },
+      {
+        "id": "RC.02.12",
+        "title": "that 在補充資料的子句中不能取代 which",
+        "dialogueNote": "不要寫 My phone, that is old, still works 來表達標準的補充資料。"
+      },
+      {
+        "id": "RC.02.13",
+        "title": "which 可以介紹整件事情",
+        "dialogueNote": "這種 which 子句通常有逗號，不能直接用 that 代替。"
+      },
+      {
+        "id": "RC.02.14",
+        "title": "who 可介紹某些團體",
+        "dialogueNote": "團體名詞後用 who 或 which，會受意思、句型及英語地區影響。"
+      },
+      {
+        "id": "RC.02.15",
+        "title": "who 有時可用於寵物",
+        "dialogueNote": "普通動物在一般介紹中常用 which 或 that。"
+      },
+      {
+        "id": "RC.03.01",
+        "title": "關係字做主語時，後面可直接接動詞",
+        "dialogueNote": "是否可以省略 who，要先看它在後面那句做甚麼。"
+      },
+      {
+        "id": "RC.03.02",
+        "title": "關係字做受詞時，後面通常另有主語",
+        "dialogueNote": "不要看見 that 就直接決定它是不是受詞，要看動詞和主語。"
+      },
+      {
+        "id": "RC.03.03",
+        "title": "關係字已做主語，不要再加 he 或 she",
+        "dialogueNote": "若原意是「那位男子打給我」，不可再寫 who he called me。"
+      },
+      {
+        "id": "RC.03.04",
+        "title": "關係字已做受詞，不要再重複 it",
+        "dialogueNote": "如果另一個 it 真的指另一件物品，則需要按實際意思判斷，不能見到 it 就刪。"
+      },
+      {
+        "id": "RC.03.05",
+        "title": "關係字也可代表介詞後面的對象",
+        "dialogueNote": "介詞通常不能隨便拿走，因為 wait for 和 wait 的意思、接法不同。"
+      },
+      {
+        "id": "RC.03.06",
+        "title": "關係字可在被動句中做主語",
+        "dialogueNote": "被動句中的 was 或 were 要配合前面的名詞。"
+      },
+      {
+        "id": "RC.03.07",
+        "title": "關係子句可有兩個受詞關係",
+        "dialogueNote": "若把 to 放在前面，可說 to whom；不可說 to that。"
+      },
+      {
+        "id": "RC.03.08",
+        "title": "關係字也可跟在 be 後面作描述",
+        "dialogueNote": "這類句子較長，先找動詞 become、be 或 remain 需要的資料。"
+      },
+      {
+        "id": "RC.03.09",
+        "title": "有多層句子時，看最裏面是誰做事",
+        "dialogueNote": "不要只看緊貼 who 的 I think；要看它在整個子句中的工作。"
+      },
+      {
+        "id": "RC.03.10",
+        "title": "關係字可跟在助動詞之前",
+        "dialogueNote": "兩句都正確，差別在於誰幫助誰。"
+      },
+      {
+        "id": "RC.03.11",
+        "title": "關係子句可包含否定句",
+        "dialogueNote": "不要把 does not 因為整句已有 that 而省去。"
+      },
+      {
+        "id": "RC.03.12",
+        "title": "關係子句可包含問句提過的資料",
+        "dialogueNote": "兩句都是正確問句，但第二句的 who 引出的是所問的內容。"
+      },
+      {
+        "id": "RC.03.13",
+        "title": "在限定子句中，作受詞的關係字常可省去",
+        "dialogueNote": "這種省略叫 zero relative 或 contact clause；不是任何位置都可省。"
+      },
+      {
+        "id": "RC.03.14",
+        "title": "關係字做主語時，普通標準英文通常不能直接省",
+        "dialogueNote": "The dog barked ran away 不能當作普通標準的同一個關係句。"
+      },
+      {
+        "id": "RC.03.15",
+        "title": "零關係子句仍然需要自己的主語",
+        "dialogueNote": "不能把 the song chose 直接當成同一種省字寫法；除非另有被動或分詞結構。"
+      },
+      {
+        "id": "RC.03.16",
+        "title": "省去介詞的受詞關係字時，介詞留下",
+        "dialogueNote": "不能說 the person to I talked。"
+      },
+      {
+        "id": "RC.03.17",
+        "title": "補充子句不能直接省去受詞關係字",
+        "dialogueNote": "Maya, I saw yesterday, waved 不能當成普通標準的補充關係句。"
+      },
+      {
+        "id": "RC.03.18",
+        "title": "時間名詞後面有時也能省去 when",
+        "dialogueNote": "這是時間關係的特別省略，不能用來證明主語 who 也可省。"
+      },
+      {
+        "id": "RC.03.19",
+        "title": "reason 後也可省去 why",
+        "dialogueNote": "句子可能沒有真正說明原因是甚麼，只是在要求對方說明。"
+      },
+      {
+        "id": "RC.03.20",
+        "title": "place 或 way 後有些零形式也自然",
+        "dialogueNote": "動詞搭配不同，零形式的自然程度也不同；不必強行套用。"
+      },
+      {
+        "id": "RC.03.21",
+        "title": "零關係子句可跨過 I think 等字",
+        "dialogueNote": "長句太複雜時，保留 that 往往比較容易閱讀。"
+      },
+      {
+        "id": "RC.03.22",
+        "title": "省去關係字後，仍不可重複受詞",
+        "dialogueNote": "The phone I bought it 不能在 it 仍指 phone 時當作普通標準寫法。"
+      },
+      {
+        "id": "RC.03.23",
+        "title": "零形式與自由關係 what 不同",
+        "dialogueNote": "不能因為第二句有 what，就說第一句省去的是 what。"
+      },
+      {
+        "id": "RC.03.24",
+        "title": "某些地區有零主語關係形式，但不屬普通書面標準",
+        "dialogueNote": "學校寫作按普通標準保留 who；不要因此否定所有地區的用法。"
+      },
+      {
+        "id": "RC.04.01",
+        "title": "限定子句選出我們正在說的一個",
+        "dialogueNote": "限定子句不代表其他學生一定不需要幫助；要看說話的範圍。"
+      },
+      {
+        "id": "RC.04.02",
+        "title": "限定子句通常不用逗號隔開",
+        "dialogueNote": "標點不同可能改變意思；不能只看哪一種較美觀。"
+      },
+      {
+        "id": "RC.04.03",
+        "title": "限定子句可以用在泛指的一整類",
+        "dialogueNote": "限定不一定只在兩件物件之間作選擇，也可以描述一種類別。"
+      },
+      {
+        "id": "RC.04.04",
+        "title": "限定子句可跟在 every、any 之後",
+        "dialogueNote": "anyone 雖可指多個可能的人，普通動詞仍要用單數形式 finishes。"
+      },
+      {
+        "id": "RC.04.05",
+        "title": "限定子句可以跟在 only 後面",
+        "dialogueNote": "only 指向哪一組字很重要，不能任意移動。"
+      },
+      {
+        "id": "RC.04.06",
+        "title": "限定子句可以跟在比較最高級後面",
+        "dialogueNote": "不是所有最高級後面都必須用 that；which 和零關係字在合適情況也可用。"
+      },
+      {
+        "id": "RC.04.07",
+        "title": "限定子句可跟在序數詞後面",
+        "dialogueNote": "兩種寫法有時可以互換，但 to 的用法另有條件。"
+      },
+      {
+        "id": "RC.04.08",
+        "title": "限定子句可改變數量所指的範圍",
+        "dialogueNote": "這句不代表所有小朋友都有報名。"
+      },
+      {
+        "id": "RC.04.09",
+        "title": "限定子句可跟在一個人名後面",
+        "dialogueNote": "這種「the＋人名」用法帶有特別的比較意思，不是每個人名都必須加 the。"
+      },
+      {
+        "id": "RC.04.10",
+        "title": "限定子句不一定提供唯一身份",
+        "dialogueNote": "選 a 或 the，還要看前面是否已有足夠資料知道是哪一個。"
+      },
+      {
+        "id": "RC.04.11",
+        "title": "限定子句可包含將來時間",
+        "dialogueNote": "不要因為是關係子句就全部改成現在式。"
+      },
+      {
+        "id": "RC.04.12",
+        "title": "限定子句刪去後，句子可能仍通順但意思變闊",
+        "dialogueNote": "判斷能否刪去時，要檢查原本要說的意思是否仍保留。"
+      },
+      {
+        "id": "RC.04.13",
+        "title": "There is / There are 後面也可以加關係子句",
+        "dialogueNote": "不是每個 there 都表示地點；這裏的 there is 用來介紹有某個人。"
+      },
+      {
+        "id": "RC.05.01",
+        "title": "補充子句先假設對象已清楚",
+        "dialogueNote": "沒有逗號和有逗號，意思可能不同。"
+      },
+      {
+        "id": "RC.05.02",
+        "title": "補充子句通常要有一對逗號",
+        "dialogueNote": "若補充子句放在整句最後，通常只需前面的逗號。"
+      },
+      {
+        "id": "RC.05.03",
+        "title": "補充子句不使用 that",
+        "dialogueNote": "不要寫 Our school, that opened last year, ... 來表達一般補充子句。"
+      },
+      {
+        "id": "RC.05.04",
+        "title": "補充子句通常不能省略關係字",
+        "dialogueNote": "Tom, we met yesterday, is a doctor 不能當作普通標準的補充關係子句。"
+      },
+      {
+        "id": "RC.05.05",
+        "title": "補充子句中的 who 可以做受詞",
+        "dialogueNote": "雖然 who 作受詞，補充子句仍然不能直接把 who 省掉。"
+      },
+      {
+        "id": "RC.05.06",
+        "title": "補充子句可放在句尾",
+        "dialogueNote": "句尾的補充子句不需要在句號前再加逗號。"
+      },
+      {
+        "id": "RC.05.07",
+        "title": "補充子句可說已知的唯一事物",
+        "dialogueNote": "不要把「有 the」當成一定要加逗號的規則；要看意思。"
+      },
+      {
+        "id": "RC.05.08",
+        "title": "補充子句可介紹整組人",
+        "dialogueNote": "兩句的數量含義不同；中文也應保留差別。"
+      },
+      {
+        "id": "RC.05.09",
+        "title": "補充子句有時用破折號",
+        "dialogueNote": "不是所有文章都適合用破折號；學校一般寫作先用逗號較穩妥。"
+      },
+      {
+        "id": "RC.05.10",
+        "title": "補充子句中的 which 可能指前面整件事",
+        "dialogueNote": "兩種寫法都可有逗號，要靠後面所說的事來分辨。"
+      },
+      {
+        "id": "RC.05.11",
+        "title": "補充資料不能任意變成必要條件",
+        "dialogueNote": "補充子句與限定子句的差別會影響讀者理解家庭人數。"
+      },
+      {
+        "id": "RC.05.12",
+        "title": "補充子句也可包含原因或背景",
+        "dialogueNote": "關係子句不一定直接表明因果；因果有時只是根據情況作出的理解。"
+      },
+      {
+        "id": "RC.06.01",
+        "title": "介詞可以留在關係子句後面",
+        "dialogueNote": "介詞放在句尾並非文法錯誤。"
+      },
+      {
+        "id": "RC.06.02",
+        "title": "介詞可以放在 which 前面",
+        "dialogueNote": "要先確定動詞需要甚麼介詞，不能任意選一個。"
+      },
+      {
+        "id": "RC.06.03",
+        "title": "介詞可以放在 whom 前面",
+        "dialogueNote": "介詞前置時，普通正式英文通常用 whom 作人稱受詞。"
+      },
+      {
+        "id": "RC.06.04",
+        "title": "關係字省去時，介詞仍留在後面",
+        "dialogueNote": "不能說 the friend about I was talking 來省略前置介詞後面的關係字。"
+      },
+      {
+        "id": "RC.06.05",
+        "title": "不同動詞需要不同介詞",
+        "dialogueNote": "不能把 sit on、sit in 的介詞看成可以隨便互換。"
+      },
+      {
+        "id": "RC.06.06",
+        "title": "帶有兩個介詞的寫法要保留意思",
+        "dialogueNote": "兩句中的 that 指不同事物，要先找出誰是被介紹的對象。"
+      },
+      {
+        "id": "RC.06.07",
+        "title": "正式的介詞前置與不正式的後置可互換",
+        "dialogueNote": "不是每個介詞都適合搬動；有些固定搭配另有接法。"
+      },
+      {
+        "id": "RC.06.08",
+        "title": "介詞放在前面時不能緊接 that",
+        "dialogueNote": "不要寫 about that we argued 來代替這兩種普通關係子句。"
+      },
+      {
+        "id": "RC.06.09",
+        "title": "介詞放在前面時不能直接用 who",
+        "dialogueNote": "for who 在一些口語中可能聽到，但不宜當作標準正式寫法教學。"
+      },
+      {
+        "id": "RC.06.10",
+        "title": "有些介詞短語是一整組",
+        "dialogueNote": "前置的長介詞短語可能很正式；簡單寫作常改用另一句較清楚。"
+      },
+      {
+        "id": "RC.06.11",
+        "title": "which 可以跟在數量或部分之後",
+        "dialogueNote": "這類補充子句需要保留 which，不能直接省略。"
+      },
+      {
+        "id": "RC.06.12",
+        "title": "whom 可以跟在數量或部分之後",
+        "dialogueNote": "通常用逗號引出這種補充資料；不能直接改成 three of that。"
+      },
+      {
+        "id": "RC.06.13",
+        "title": "前置介詞後面可以有 whose 加名詞",
+        "dialogueNote": "前置 in 後面不是單獨放 whose；需要整組 whose house。"
+      },
+      {
+        "id": "RC.06.14",
+        "title": "語義不變時，先選較清楚的寫法",
+        "dialogueNote": "考試如指定正式介詞前置，才需刻意選較正式的形式。"
+      },
+      {
+        "id": "RC.07.01",
+        "title": "whose 可以表示某人的東西",
+        "dialogueNote": "whose 後面通常還要有名詞，例如 bicycle、bag 或 brother。"
+      },
+      {
+        "id": "RC.07.02",
+        "title": "whose 也可以介紹家人",
+        "dialogueNote": "要檢查真正有該職業或動作的是哪個人。"
+      },
+      {
+        "id": "RC.07.03",
+        "title": "whose 可以作句子主語的一部分",
+        "dialogueNote": "不要因為看見 whose 就認定後面一定沒有另一個主語。"
+      },
+      {
+        "id": "RC.07.04",
+        "title": "whose 加名詞也可以作受詞",
+        "dialogueNote": "不要把 whose 和 who 當作同一個意思。"
+      },
+      {
+        "id": "RC.07.05",
+        "title": "whose 也可以介紹物件的部分",
+        "dialogueNote": "說 whose 只可用於人是不準確的。"
+      },
+      {
+        "id": "RC.07.06",
+        "title": "whose 和 who's 拼法不同",
+        "dialogueNote": "不要把 whose 寫成 who's 來表示「誰的」。"
+      },
+      {
+        "id": "RC.07.07",
+        "title": "whose 可以用在補充子句",
+        "dialogueNote": "補充子句不用 that 取代 whose。"
+      },
+      {
+        "id": "RC.07.08",
+        "title": "whose 和 of which 有時可表達相近的所屬關係",
+        "dialogueNote": "of which 的位置和所屬名詞次序要配合，不能只把 whose 換成 of which 而不改其他字。"
+      },
+      {
+        "id": "RC.07.09",
+        "title": "whose 後面的名詞仍需正確動詞",
+        "dialogueNote": "不能只看前面的 girl 來決定關係子句動詞。"
+      },
+      {
+        "id": "RC.07.10",
+        "title": "物件「屬於誰」也可能由介詞表示",
+        "dialogueNote": "選擇哪一種寫法要看文章語氣，不需要假裝只有一種正確。"
+      },
+      {
+        "id": "RC.08.01",
+        "title": "where 可以介紹一個地方",
+        "dialogueNote": "要看後面的動詞是在某處發生，還是直接作用於那個地方。"
+      },
+      {
+        "id": "RC.08.02",
+        "title": "where 常可改成 in which 或 at which",
+        "dialogueNote": "不同地方可能需要 at、in 或 on，不能固定把 where 換成 in which。"
+      },
+      {
+        "id": "RC.08.03",
+        "title": "where 不是所有地點名詞後面的答案",
+        "dialogueNote": "把 the city where I visited 當成一般標準寫法並不合適；應按動詞選字。"
+      },
+      {
+        "id": "RC.08.04",
+        "title": "when 可以介紹一個時間",
+        "dialogueNote": "時間名詞後的 when 不一定是問句。"
+      },
+      {
+        "id": "RC.08.05",
+        "title": "when 可與 on which 等互換",
+        "dialogueNote": "不是每個時間都用 on；例如月份常配 in。"
+      },
+      {
+        "id": "RC.08.06",
+        "title": "時間名詞後有時可直接不寫 when",
+        "dialogueNote": "這是時間關係的一種常見省略，不能推成所有主語關係字都可省。"
+      },
+      {
+        "id": "RC.08.07",
+        "title": "why 可以介紹原因",
+        "dialogueNote": "why 不能直接代替所有表示原因的連接詞；because 後面需要另一種句型。"
+      },
+      {
+        "id": "RC.08.08",
+        "title": "reason 後有時可省略 why",
+        "dialogueNote": "若你需要清楚比較原因，保留 why 有時會更易讀。"
+      },
+      {
+        "id": "RC.08.09",
+        "title": "where 和 when 在補充子句也可使用",
+        "dialogueNote": "補充子句不能像限定子句一樣隨便省略 where 或 when。"
+      },
+      {
+        "id": "RC.08.10",
+        "title": "place 後面有時可用 that 或零形式",
+        "dialogueNote": "不同動詞的用法不一樣；不是所有地點名詞後都可同樣省略。"
+      },
+      {
+        "id": "RC.08.11",
+        "title": "way 後面常用 that、in which 或直接省略",
+        "dialogueNote": "the way how she explains things 在一些地區或口語可聽到，但普通正式教學通常避免。"
+      },
+      {
+        "id": "RC.08.12",
+        "title": "how 在沒有 way 的句子中可以問方法",
+        "dialogueNote": "不要把每個 how 子句都當成有名詞在前的關係子句。"
+      },
+      {
+        "id": "RC.08.13",
+        "title": "where 也可以表示比較抽象的情況",
+        "dialogueNote": "這種抽象用法很常見，但要先理解 point、situation 等字的意思。"
+      },
+      {
+        "id": "RC.08.14",
+        "title": "where、when、why 的關係要看前面的名詞",
+        "dialogueNote": "關係字做甚麼工作，比單看前一個名詞更重要。"
+      },
+      {
+        "id": "RC.08.15",
+        "title": "reason why 在普通英文中可以用",
+        "dialogueNote": "兩種都可用；要避免的是沒有明確目的地重複很多相同意思的字。"
+      },
+      {
+        "id": "RC.09.01",
+        "title": "有些關係子句可以寫得更短",
+        "dialogueNote": "不能把所有關係子句一律刪去 who 和 be；要看動詞和意思。"
+      },
+      {
+        "id": "RC.09.02",
+        "title": "主動進行的意思常用 -ing",
+        "dialogueNote": "-ing 不一定總表示現在；整句時間可能在過去或將來。"
+      },
+      {
+        "id": "RC.09.03",
+        "title": "一般活動也可用 -ing 介紹",
+        "dialogueNote": "縮短後可能改變強調的時間，不能認定兩句在任何情況完全一樣。"
+      },
+      {
+        "id": "RC.09.04",
+        "title": "被動或完成的意思常用過去分詞",
+        "dialogueNote": "過去分詞不一定只說過去時間，也可以表示留下來的狀態。"
+      },
+      {
+        "id": "RC.09.05",
+        "title": "過去分詞可以表示現在的狀態",
+        "dialogueNote": "有些過去分詞也可當形容詞；不必強說每次都是刪字得來。"
+      },
+      {
+        "id": "RC.09.06",
+        "title": "being 加過去分詞表示當時正在被處理",
+        "dialogueNote": "不要把 being repaired 和 repaired 當成一定相同的時間。"
+      },
+      {
+        "id": "RC.09.07",
+        "title": "用 -ing 縮短時，動作主體要正確",
+        "dialogueNote": "如果分不清誰做動作，就保留完整的 who 或 which 子句。"
+      },
+      {
+        "id": "RC.09.08",
+        "title": "縮短後不會自動保留所有時間資料",
+        "dialogueNote": "不要為了縮短而改掉原本的重要時間關係。"
+      },
+      {
+        "id": "RC.09.09",
+        "title": "縮短後保留必要的否定",
+        "dialogueNote": "兩句的規定不同，不能只靠縮短句型來決定是否加 not。"
+      },
+      {
+        "id": "RC.09.10",
+        "title": "縮短子句不等於省略受詞關係字",
+        "dialogueNote": "不要把所有短句都叫做「省去 who」。"
+      },
+      {
+        "id": "RC.09.11",
+        "title": "有些形容詞短語也放在名詞後面",
+        "dialogueNote": "不是所有形容詞都可自然放在名詞後面，例如一般不說 the bag blue。"
+      },
+      {
+        "id": "RC.09.12",
+        "title": "縮短後的被動仍可帶 by",
+        "dialogueNote": "如果不需要交代做事的人，可以省去 by May。"
+      },
+      {
+        "id": "RC.09.13",
+        "title": "縮短子句不一定只用於限定用途",
+        "dialogueNote": "不同語法分析對這類短語是否稱作「縮短關係子句」有不同看法。"
+      },
+      {
+        "id": "RC.09.14",
+        "title": "有時可以省去 who is，但不能只靠字數判斷",
+        "dialogueNote": "The students who can enter 不能直接變成 the students can enter，因為意思和句子角色會改變。"
+      },
+      {
+        "id": "RC.09.15",
+        "title": "縮短的片語仍可放進較長句子",
+        "dialogueNote": "不要因為 -ing 出現在句中，就當它必定在描述整句主語。"
+      },
+      {
+        "id": "RC.09.16",
+        "title": "縮短句型有時不自然，保留完整子句更好",
+        "dialogueNote": "文字較短不代表一定比較好；最重要是意思清楚。"
+      },
+      {
+        "id": "RC.10.01",
+        "title": "to 加動詞可以介紹要做的事",
+        "dialogueNote": "to finish 本身不一定等於 must；責任要看情況。"
+      },
+      {
+        "id": "RC.10.02",
+        "title": "某些名詞後用 to 表示下一位做事的人",
+        "dialogueNote": "這類 to 子句有固定搭配，不能把所有 who 子句直接換成 to。"
+      },
+      {
+        "id": "RC.10.03",
+        "title": "to 子句中的動作可能由別人做",
+        "dialogueNote": "不能只看 to read 就以為前面的名詞是讀書的人。"
+      },
+      {
+        "id": "RC.10.04",
+        "title": "to 子句可有明確的做事人",
+        "dialogueNote": "for Ben 不等於由 Ben 擁有那本書；可能只是安排他閱讀。"
+      },
+      {
+        "id": "RC.10.05",
+        "title": "要保留動詞需要的介詞",
+        "dialogueNote": "正式寫法有時可以說 someone to whom I can talk；不是把所有 to 全部刪掉。"
+      },
+      {
+        "id": "RC.10.06",
+        "title": "to 子句可以介紹可以坐的地方",
+        "dialogueNote": "place 可直接表示地點，chair 和 table 這類物件則要按動詞接法選介詞。"
+      },
+      {
+        "id": "RC.10.07",
+        "title": "被動 to be 加過去分詞可說明待處理物件",
+        "dialogueNote": "兩種寫法有時強調不同，不能說簡短寫法一定是被動句。"
+      },
+      {
+        "id": "RC.10.08",
+        "title": "to 子句能表示安排中的下一件事",
+        "dialogueNote": "to speak 需按上下文決定時間，並非永遠指將來。"
+      },
+      {
+        "id": "RC.10.09",
+        "title": "only、last 等字常配合 to 子句",
+        "dialogueNote": "only 的範圍要保留，不能因換句型而把它刪掉。"
+      },
+      {
+        "id": "RC.10.10",
+        "title": "to 子句可以跟在疑問詞後，但不一定是關係子句",
+        "dialogueNote": "不要把所有 to + 動詞都當成名詞後的關係子句。"
+      },
+      {
+        "id": "RC.10.11",
+        "title": "有些正式寫法可在 to 前面放介詞及 which",
+        "dialogueNote": "兩句都較書面化；日常情況可以改說 a topic we can write about。"
+      },
+      {
+        "id": "RC.10.12",
+        "title": "to 子句也可能包含否定",
+        "dialogueNote": "not 的位置會改變意思；要保留原本的否定範圍。"
+      },
+      {
+        "id": "RC.10.13",
+        "title": "不必把所有 to 子句當成正式的「省字」",
+        "dialogueNote": "兩種寫法意思接近，但不需要聲稱每個 to 子句都必定由同一句刪字變成。"
+      },
+      {
+        "id": "RC.10.14",
+        "title": "只有名詞與動作關係清楚，to 子句才容易理解",
+        "dialogueNote": "做練習時應提供足夠情況，不可強迫只有一個答案。"
+      },
+      {
+        "id": "RC.11.01",
+        "title": "what 可以表示「……的東西／事情」",
+        "dialogueNote": "what 在這裏不是普通疑問句的「甚麼」。"
+      },
+      {
+        "id": "RC.11.02",
+        "title": "what 子句可以做整句主語",
+        "dialogueNote": "這裏整組通常當作單數一件事，所以用 made、is 等合適動詞。"
+      },
+      {
+        "id": "RC.11.03",
+        "title": "what 子句可以做受詞",
+        "dialogueNote": "如果句子是問「找到甚麼」，what 子句也可能是間接問句；要看動詞和語境。"
+      },
+      {
+        "id": "RC.11.04",
+        "title": "同一組 what 字也可能是間接問句",
+        "dialogueNote": "兩句字形相似，但整組在句中的意思不同。"
+      },
+      {
+        "id": "RC.11.05",
+        "title": "what 前面通常不再加 the thing",
+        "dialogueNote": "不要把 the thing what I need 當成普通標準的書面寫法。"
+      },
+      {
+        "id": "RC.11.06",
+        "title": "whatever 可以表示「任何……的東西」",
+        "dialogueNote": "whatever 有時還可引出「無論……」的子句；兩種用法要分開。"
+      },
+      {
+        "id": "RC.11.07",
+        "title": "whoever 可以表示「任何……的人」",
+        "dialogueNote": "whoever 本身常配單數動詞 finishes，即使可能有很多人符合條件。"
+      },
+      {
+        "id": "RC.11.08",
+        "title": "whoever 也可以放在介詞後面",
+        "dialogueNote": "不能只因為 whoever 跟在 to 後面，就認為必須改成 whomever。"
+      },
+      {
+        "id": "RC.11.09",
+        "title": "whomever 可作較正式的受詞",
+        "dialogueNote": "whomever 在現代對話中較少見，不能因為它較正式就亂用。"
+      },
+      {
+        "id": "RC.11.10",
+        "title": "whichever 表示在某些選項中任選",
+        "dialogueNote": "whichever 也能加名詞，例如 whichever book you like；這時整組的結構有不同分析。"
+      },
+      {
+        "id": "RC.11.11",
+        "title": "whatever 加名詞與單獨 whatever 不完全一樣",
+        "dialogueNote": "what tools 也可見於間接問句，意思不一定是任選。"
+      },
+      {
+        "id": "RC.11.12",
+        "title": "wherever 可以表示「去任何……的地方」",
+        "dialogueNote": "wherever 有時也表示「無論在哪裏」，未必單純是一個地點名詞。"
+      },
+      {
+        "id": "RC.11.13",
+        "title": "whenever 可以表示「任何……的時間」",
+        "dialogueNote": "whenever 也能帶有「每次……都……」的意思，要看整句。"
+      },
+      {
+        "id": "RC.11.14",
+        "title": "whatever 作讓步子句時，意思不同",
+        "dialogueNote": "兩種用法字形很相似，但在句中做的工作不同。"
+      },
+      {
+        "id": "RC.11.15",
+        "title": "whoever 作讓步子句時，也要看位置",
+        "dialogueNote": "兩句的意思要靠整句判斷，不能單看 whoever。"
+      },
+      {
+        "id": "RC.11.16",
+        "title": "what 子句與帶 the one 的句子不同",
+        "dialogueNote": "要談人時，普通英文一般用 whoever、the one who 等，不會任意用 what。"
+      },
+      {
+        "id": "RC.12.01",
+        "title": "which 可以回指整句話",
+        "dialogueNote": "要用逗號和後面的意思，找出 which 真正指甚麼。"
+      },
+      {
+        "id": "RC.12.02",
+        "title": "整句 which 子句可表示看法",
+        "dialogueNote": "這種評論較常見於口語、故事和非正式文章。"
+      },
+      {
+        "id": "RC.12.03",
+        "title": "which 子句可以說出結果",
+        "dialogueNote": "which 引出的結果有時是作者的理解；不要把所有 which 都等同 because。"
+      },
+      {
+        "id": "RC.12.04",
+        "title": "which 子句也能指上一整段資料",
+        "dialogueNote": "句子太長時容易看不清 what which refers to；應保持清楚。"
+      },
+      {
+        "id": "RC.12.05",
+        "title": "which 子句有時看起來像另一句話",
+        "dialogueNote": "這種單獨開頭在口語很自然，但正式書面句通常把它接回前一句。"
+      },
+      {
+        "id": "RC.12.06",
+        "title": "continuative relative 可以交代接着發生的事",
+        "dialogueNote": "這類子句往往有 then、later 等字，顯示事情先後次序。"
+      },
+      {
+        "id": "RC.12.07",
+        "title": "continuative 子句與限定子句不同",
+        "dialogueNote": "continuative 常帶有補充性質，書面上多用逗號。"
+      },
+      {
+        "id": "RC.12.08",
+        "title": "continuative 的 who 不一定表示同時發生",
+        "dialogueNote": "要看時間字，不能見到逗號就認定兩件事同時發生。"
+      },
+      {
+        "id": "RC.12.09",
+        "title": "which 可帶出作者態度",
+        "dialogueNote": "兩句都是自然表達，但重點不同。"
+      },
+      {
+        "id": "RC.12.10",
+        "title": "整句 which 不宜任意改成 that",
+        "dialogueNote": "不能在第一句直接把 which 換成 that 而保留同一結構。"
+      },
+      {
+        "id": "RC.12.11",
+        "title": "整句 which 可以包含否定",
+        "dialogueNote": "否定放在哪一句，會改變事實內容。"
+      },
+      {
+        "id": "RC.12.12",
+        "title": "逗號不能保證 which 一定指整句",
+        "dialogueNote": "有兩種可能意思時，較好改寫句子，避免讀者猜測。"
+      },
+      {
+        "id": "RC.13.01",
+        "title": "一個名詞後面可以有兩組介紹",
+        "dialogueNote": "一般寫作可用 and 連接兩個條件，通常比重複堆放更清楚。"
+      },
+      {
+        "id": "RC.13.02",
+        "title": "兩組關係子句連續出現有時可以成立",
+        "dialogueNote": "連續排列兩組限定子句在口語可能自然，正式寫作常改寫。"
+      },
+      {
+        "id": "RC.13.03",
+        "title": "一個關係子句裏可以再放另一個",
+        "dialogueNote": "長句容易令人誤解，要看哪一組字介紹哪個名詞。"
+      },
+      {
+        "id": "RC.13.04",
+        "title": "套在裏面的關係子句有自己的主語",
+        "dialogueNote": "不要讓內層子句的動詞跟最外面的名詞配錯。"
+      },
+      {
+        "id": "RC.13.05",
+        "title": "套在一起的子句可以有不同類型",
+        "dialogueNote": "逗號應按每一層真正的意思決定，不要只看整句有多長。"
+      },
+      {
+        "id": "RC.13.06",
+        "title": "關係子句中可以有 I think 等插入資料",
+        "dialogueNote": "不能只因緊接 I think 就自動省去 who。"
+      },
+      {
+        "id": "RC.13.07",
+        "title": "關係可跨過另一個完整子句",
+        "dialogueNote": "長句中有時仍可省去受詞 that；但不是所有長距離句子都自然。"
+      },
+      {
+        "id": "RC.13.08",
+        "title": "不是所有地方都能任意跨過另一句",
+        "dialogueNote": "這是進階的限制；不要把所有不自然的長句都當成普通的省字問題。"
+      },
+      {
+        "id": "RC.13.09",
+        "title": "名詞與關係子句通常放在一起",
+        "dialogueNote": "「必須永遠緊貼」也太絕對；長子句有時會被放到較後面。"
+      },
+      {
+        "id": "RC.13.10",
+        "title": "很長的關係子句有時放到句尾",
+        "dialogueNote": "把關係子句移後並非每次都自然；初學先用緊貼名詞的寫法。"
+      },
+      {
+        "id": "RC.13.11",
+        "title": "要分清兩組關係子句與兩個並列動作",
+        "dialogueNote": "不應因為見到兩個動詞，就以為必須有兩個獨立關係子句。"
+      },
+      {
+        "id": "RC.13.12",
+        "title": "長句中的指代不清，要改寫",
+        "dialogueNote": "原句並非一定錯，但如果真正說的是女士，最好改寫。"
+      },
+      {
+        "id": "RC.14.01",
+        "title": "關係子句中的動詞要跟所介紹的人或物配合",
+        "dialogueNote": "不要因為前面有 who 就固定用單數動詞。"
+      },
+      {
+        "id": "RC.14.02",
+        "title": "that 代表單數或複數都可以",
+        "dialogueNote": "不要用 that 作為「必定要用 is」的提示。"
+      },
+      {
+        "id": "RC.14.03",
+        "title": "介詞附近的名詞不一定控制動詞",
+        "dialogueNote": "較複雜的句子可能有兩種理解，寫作時最好改得清楚。"
+      },
+      {
+        "id": "RC.14.04",
+        "title": "one of the people who ... 常用複數動詞",
+        "dialogueNote": "這組寫法有時會引起理解或語法分析爭論；要看說話真正指誰。"
+      },
+      {
+        "id": "RC.14.05",
+        "title": "關係子句可以說不同的時間",
+        "dialogueNote": "關係子句時間可以跟主句不同，不必一律跟主句同時。"
+      },
+      {
+        "id": "RC.14.06",
+        "title": "關係子句可以有完成式",
+        "dialogueNote": "不要只因為句子用了 who 就忽略完成和進行的差別。"
+      },
+      {
+        "id": "RC.14.07",
+        "title": "關係子句可以有 can、must、should",
+        "dialogueNote": "不要在改寫時把 must、may 或 can 隨意互換。"
+      },
+      {
+        "id": "RC.14.08",
+        "title": "關係子句可以是否定的",
+        "dialogueNote": "如果「不游泳」有兩種可能意思，應由上下文交代清楚。"
+      },
+      {
+        "id": "RC.14.09",
+        "title": "關係子句可跟在 all、none 等字後",
+        "dialogueNote": "All who ... 稍有書面語氣；日常也可說 Everyone who ...。"
+      },
+      {
+        "id": "RC.14.10",
+        "title": "主句的否定與子句的否定不同",
+        "dialogueNote": "兩句都有 not，但否定的動作不同。"
+      },
+      {
+        "id": "RC.14.11",
+        "title": "只有部分人符合條件時，要小心逗號",
+        "dialogueNote": "這種差別由意思決定，不是因為某種句子必定要加逗號。"
+      },
+      {
+        "id": "RC.14.12",
+        "title": "有時句子可以有不止一個正確意思",
+        "dialogueNote": "有多個名詞時，先靠意思和上下文判斷；必要時改寫。"
+      },
+      {
+        "id": "RC.14.13",
+        "title": "ever 可以出現在某些最高級的關係子句中",
+        "dialogueNote": "不要把 ever 一律當成只可以用在問句或否定句的字。"
+      },
+      {
+        "id": "RC.15.01",
+        "title": "It was ... who 可以強調某個人",
+        "dialogueNote": "這類強調句中的 who 或 that 有關係結構的特點，但不同文法書的分類未必相同。"
+      },
+      {
+        "id": "RC.15.02",
+        "title": "It was ... that 也可以強調人或物",
+        "dialogueNote": "這裏的 that 是強調句的一部分，不應直接套用普通補充關係子句的所有規則。"
+      },
+      {
+        "id": "RC.15.03",
+        "title": "強調句有時可以省去作受詞的 that",
+        "dialogueNote": "如果後面缺少主語，就不能單靠「受詞可省」的規則亂刪。"
+      },
+      {
+        "id": "RC.15.04",
+        "title": "What I need is ... 可以把重點放在後半句",
+        "dialogueNote": "這種句子也叫 pseudo-cleft；what 子句常帶有自由關係結構。"
+      },
+      {
+        "id": "RC.15.05",
+        "title": "All I want is ... 可以用另一種方式強調",
+        "dialogueNote": "all 後面省略的關係字是另一種結構，不應跟 what 完全混為一談。"
+      },
+      {
+        "id": "RC.15.06",
+        "title": "The news that ... 不一定是關係子句",
+        "dialogueNote": "要看後面是否缺少一個與前面名詞相連的位置。"
+      },
+      {
+        "id": "RC.15.07",
+        "title": "The fact that ... 常說明事實的內容",
+        "dialogueNote": "兩種 that 字形相同，但句中的工作不同。"
+      },
+      {
+        "id": "RC.15.08",
+        "title": "I know where ... 有時是間接問句",
+        "dialogueNote": "「有沒有外面名詞」是有用的第一步，但還要看整句意思。"
+      },
+      {
+        "id": "RC.15.09",
+        "title": "which 也可以出現在間接問句裏",
+        "dialogueNote": "不能只看見 which 就把句子歸入關係子句。"
+      },
+      {
+        "id": "RC.15.10",
+        "title": "有些名詞後的 to 子句是真正用途說明",
+        "dialogueNote": "不同文法書可能把第一句列為不定詞關係子句或其他名詞修飾結構。"
+      },
+      {
+        "id": "RC.15.11",
+        "title": "with ... -ing 與關係子句不是同一個接法",
+        "dialogueNote": "with 結構的意思會受上下文影響；不要把它當成普通 who 子句的固定改寫法。"
+      },
+      {
+        "id": "RC.15.12",
+        "title": "whereby 在正式英文可表示「藉着這方法」",
+        "dialogueNote": "whereby 較常見於正式文件；日常學生寫作不用刻意使用。"
+      },
+      {
+        "id": "RC.15.13",
+        "title": "wherein 在正式英文表示「在其中」",
+        "dialogueNote": "這種字在日常對話很少用，不應當作初學者必背用法。"
+      },
+      {
+        "id": "RC.15.14",
+        "title": "比較句中的 than 或 as 不一定是關係字",
+        "dialogueNote": "某些高階文法會討論比較結構與關係結構的相似之處；初學不必把它們當成同一類。"
+      },
+      {
+        "id": "RC.16.01",
+        "title": "日常英文常用 who 代替受詞 whom",
+        "dialogueNote": "不要把所有受詞 who 都改成 whom，因為正常口語有另一種習慣。"
+      },
+      {
+        "id": "RC.16.02",
+        "title": "有些英文地區會用 what 代替 that",
+        "dialogueNote": "要尊重不同地區的說法，同時分清學校正式寫作的要求。"
+      },
+      {
+        "id": "RC.16.03",
+        "title": "介詞放句尾在標準英文中也正確",
+        "dialogueNote": "「介詞永遠不能放在句尾」是過度簡化的規則。"
+      },
+      {
+        "id": "RC.16.04",
+        "title": "正式文章有時用 whose 介紹抽象事物",
+        "dialogueNote": "不要把「whose 只指人」當作絕對規則。"
+      },
+      {
+        "id": "RC.16.05",
+        "title": "舊式英文可見 the which 等寫法",
+        "dialogueNote": "讀舊文章時可認得，但不需要模仿。"
+      },
+      {
+        "id": "RC.16.06",
+        "title": "whence 是較古老的「從哪裏來」",
+        "dialogueNote": "日常英文一般用 where ... from 或 from which；不必刻意用 whence。"
+      },
+      {
+        "id": "RC.16.07",
+        "title": "whither 是古舊的「往哪裏去」",
+        "dialogueNote": "不要把 whither 當成普通 where 的常用替代字。"
+      },
+      {
+        "id": "RC.16.08",
+        "title": "such ... as 可以出現在較古典的限定用法",
+        "dialogueNote": "這種 as 不等同每個比較句中的 as，主要用來辨認舊式句法。"
+      },
+      {
+        "id": "RC.16.09",
+        "title": "as is often the case 有時像一組補充評論",
+        "dialogueNote": "不同文法書對 as 這類結構的分類不完全相同；可先把它當作整組說法。"
+      },
+      {
+        "id": "RC.16.10",
+        "title": "某些方言會在關係子句裏重提代字",
+        "dialogueNote": "不要因為在口語聽過就當成各種英文都通用的寫法。"
+      },
+      {
+        "id": "RC.16.11",
+        "title": "沒有逗號的關係子句未必每次都在挑選某一個",
+        "dialogueNote": "專業文法書有時把句法上連在一起和意思上是否限定分開分析；所以不能說「沒有逗號就必定是在多個之中挑一個」。"
+      },
+      {
+        "id": "RC.16.12",
+        "title": "有些文法書對 that 的名稱不同",
+        "dialogueNote": "傳統教學常叫 that 關係代名詞；有些專業分析叫它「連接標記」。對學習造句來說，省略和逗號限制仍要遵守。"
+      }
+    ]
+  },
+  "practice": {
+    "questionCount": 82,
+    "questions": [
+      {
+        "diagnosticId": "D001",
+        "topic": "RC.05.03",
+        "answer": "who",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D002",
+        "topic": "RC.03.01",
+        "answer": "which",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D003",
+        "topic": "RC.07.01",
+        "answer": "whose",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D004",
+        "topic": "RC.08.01",
+        "answer": "where",
+        "correctOption": "D"
+      },
+      {
+        "diagnosticId": "D005",
+        "topic": "RC.08.04",
+        "answer": "when",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D006",
+        "topic": "RC.08.07",
+        "answer": "why",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D007",
+        "topic": "RC.02.08",
+        "answer": "whom",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D008",
+        "topic": "RC.05.04",
+        "answer": "which",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D009",
+        "topic": "RC.02.01",
+        "answer": "who",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D010",
+        "topic": "RC.03.13",
+        "answer": "which",
+        "correctOption": "D"
+      },
+      {
+        "diagnosticId": "D011",
+        "topic": "RC.09.06",
+        "answer": "being repaired",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D012",
+        "topic": "RC.06.11",
+        "answer": "which",
+        "correctOption": "D"
+      },
+      {
+        "diagnosticId": "D013",
+        "topic": "RC.12.01",
+        "answer": "which",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D014",
+        "topic": "RC.03.09",
+        "answer": "who",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D015",
+        "topic": "RC.02.09",
+        "answer": "which",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D016",
+        "topic": "RC.02.09",
+        "answer": "which",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D017",
+        "topic": "RC.07.01",
+        "answer": "whose",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D018",
+        "topic": "RC.10.02",
+        "answer": "to cross",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D019",
+        "topic": "RC.11.05",
+        "answer": "that",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D020",
+        "topic": "RC.11.01",
+        "answer": "what",
+        "correctOption": "D"
+      },
+      {
+        "diagnosticId": "D021",
+        "topic": "RC.11.07",
+        "answer": "whoever",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D022",
+        "topic": "RC.05.05",
+        "answer": "who",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D023",
+        "topic": "RC.08.01",
+        "answer": "where",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D024",
+        "topic": "RC.07.05",
+        "answer": "whose",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D025",
+        "topic": "RC.08.03",
+        "answer": "which",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D026",
+        "topic": "RC.14.01",
+        "answer": "who",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D027",
+        "topic": "RC.07.07",
+        "answer": "whose",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D028",
+        "topic": "RC.02.02",
+        "answer": "whom",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D029",
+        "topic": "RC.07.05",
+        "answer": "whose",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D030",
+        "topic": "RC.06.12",
+        "answer": "whom",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D031",
+        "topic": "RC.10.05",
+        "answer": "on",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D032",
+        "topic": "RC.07.07",
+        "answer": "whose",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D033",
+        "topic": "RC.07.01",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D034",
+        "topic": "RC.02.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D035",
+        "topic": "RC.08.01",
+        "answer": "where",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D036",
+        "topic": "RC.08.04",
+        "answer": "when",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D037",
+        "topic": "RC.08.07",
+        "answer": "why",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D038",
+        "topic": "RC.02.08",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D039",
+        "topic": "RC.05.03",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D040",
+        "topic": "RC.03.13",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D041",
+        "topic": "RC.11.01",
+        "answer": "what",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D042",
+        "topic": "RC.11.07",
+        "answer": "Whoever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D043",
+        "topic": "RC.11.10",
+        "answer": "whichever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D044",
+        "topic": "RC.09.06",
+        "answer": "being repaired",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D045",
+        "topic": "RC.10.07",
+        "answer": "to be signed",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D046",
+        "topic": "RC.02.09",
+        "answer": "on which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D047",
+        "topic": "RC.03.03",
+        "answer": "The boy who lives next door is friendly.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D048",
+        "topic": "RC.03.04",
+        "answer": "The bag that I lost is black.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D049",
+        "topic": "RC.05.03",
+        "answer": "Nora, who lives nearby, is kind.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D050",
+        "topic": "RC.07.06",
+        "answer": "The child whose father called is here.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D051",
+        "topic": "RC.02.10",
+        "answer": "The seat on which I sat is broken.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D052",
+        "topic": "RC.16.02",
+        "answer": "The food that I ordered has arrived.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D053",
+        "topic": "RC.03.03",
+        "answer": "The lady who called me is waiting.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D054",
+        "topic": "RC.08.03",
+        "answer": "The house which I visited was old.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D055",
+        "topic": "RC.03.04",
+        "answer": "The bike, which I bought yesterday, is blue.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D056",
+        "topic": "RC.10.01",
+        "answer": "The first student to arrive won a prize.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D057",
+        "topic": "RC.09.07",
+        "answer": "The students who work here are friendly.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D058",
+        "topic": "RC.03.22",
+        "answer": "The shop that I went to is closed.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D059",
+        "topic": "RC.08.04",
+        "answer": "I remember the morning when we met.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D060",
+        "topic": "RC.05.03",
+        "answer": "Maya, who helped us, is here.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D061",
+        "topic": "RC.01.03",
+        "answer": "A nurse who lives next door helped us.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D062",
+        "topic": "RC.05.02",
+        "answer": "I bought a laptop, which is very light.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D063",
+        "topic": "RC.07.02",
+        "answer": "I met a student whose father is a doctor.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D064",
+        "topic": "RC.08.01",
+        "answer": "This is the café where we met.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D065",
+        "topic": "RC.08.04",
+        "answer": "I remember the day when we first met.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D066",
+        "topic": "RC.08.07",
+        "answer": "I know the reason why he left.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D067",
+        "topic": "RC.03.13",
+        "answer": "The bag I bought is new.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D068",
+        "topic": "RC.09.02",
+        "answer": "The woman waiting outside is my aunt.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D069",
+        "topic": "RC.09.04",
+        "answer": "The letter written by Ben is here.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D070",
+        "topic": "RC.10.02",
+        "answer": "She was the first person to arrive.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D071",
+        "topic": "RC.11.01",
+        "answer": "I kept what you gave me.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D072",
+        "topic": "RC.06.02",
+        "answer": "The room in which we met was quiet.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D073",
+        "topic": "RC.04.01",
+        "answer": "A brother who works in a bank",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D074",
+        "topic": "RC.05.08",
+        "answer": "Both mentioned sisters live abroad",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D075",
+        "topic": "RC.12.01",
+        "answer": "Lena's forgetting the ticket",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D076",
+        "topic": "RC.04.01",
+        "answer": "Identifies the dog",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D077",
+        "topic": "RC.11.01",
+        "answer": "I kept the words that she wrote",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D078",
+        "topic": "RC.11.04",
+        "answer": "They wonder what dish she made",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D079",
+        "topic": "RC.09.02",
+        "answer": "The man",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D080",
+        "topic": "RC.09.04",
+        "answer": "Yesterday",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D081",
+        "topic": "RC.10.03",
+        "answer": "A driver",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D082",
+        "topic": "RC.12.05",
+        "answer": "Sam",
+        "correctOption": "B"
+      }
+    ]
+  }
+}
