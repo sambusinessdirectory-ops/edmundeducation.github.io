@@ -308,7 +308,9 @@
         intro.append(node);
       }
     }
-    if (view.dataset.newGrammarCuration === "relative-clauses") {
+    const referenceSlug = view.dataset.newGrammarCuration;
+    const collapsibleReferenceModules = new Set(["relative-clauses", "passive-voice", "prepositions"]);
+    if (collapsibleReferenceModules.has(referenceSlug)) {
       const reference = document.createElement("details");
       reference.className = "grammar-relative-reference";
       const summary = document.createElement("summary");
@@ -316,13 +318,14 @@
       const referenceBody = document.createElement("div");
       referenceBody.className = "grammar-relative-reference__body";
       referenceBody.append(intro);
-      while (stream.firstElementChild && stream.firstElementChild.id !== "relative-clauses-rules-1") {
+      const firstRuleId = `${referenceSlug}-rules-1`;
+      while (stream.firstElementChild && stream.firstElementChild.id !== firstRuleId) {
         referenceBody.append(stream.firstElementChild);
       }
       reference.append(summary, referenceBody);
       source.replaceChildren(reference, stream);
       reference.addEventListener("toggle", () => scheduleIndefiniteLayout(view));
-      view.querySelectorAll('.grammar-new-chapters a[href="#relative-clauses-overview-1"], .grammar-new-chapters a[href="#relative-clauses-overview-2"]').forEach((link) => {
+      view.querySelectorAll(`.grammar-new-chapters a[href^="#${referenceSlug}-overview-"]`).forEach((link) => {
         link.addEventListener("click", (event) => {
           event.preventDefault();
           reference.open = true;

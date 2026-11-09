@@ -39,6 +39,7 @@ try {
       await page.waitForTimeout(250);
       const metrics = await page.evaluate(selected => {
         const view = document.querySelector(`[data-new-grammar-curation="${selected}"]`);
+        const reference = view.querySelector(".grammar-relative-reference");
         const card = view.querySelector(".grammar-eddy-dialogue");
         const board = card.querySelector(".grammar-eddy-dialogue__art");
         const caption = card.querySelector("figcaption");
@@ -46,12 +47,18 @@ try {
         const rect = element => { const r = element.getBoundingClientRect(); return { left:r.left, right:r.right, top:r.top, bottom:r.bottom, width:r.width, height:r.height }; };
         const allCards = [...view.querySelectorAll(".grammar-eddy-dialogue")];
         return {
+          referencePresent:!!reference,
+          referenceOpen:reference?.open,
+          firstStreamId:view.querySelector(".grammar-new-stream")?.firstElementChild?.id,
           bodyOverflow:document.documentElement.scrollWidth - document.documentElement.clientWidth,
           clippedLessons:allCards.filter(item => { const copy = item.querySelector(".grammar-eddy-dialogue__lesson"); return copy.scrollHeight > copy.clientHeight + 2; }).length,
           clippedNotes:allCards.filter(item => { const copy = item.querySelector(".grammar-eddy-dialogue__copy"); return copy.scrollHeight > copy.clientHeight + 2; }).length,
           card:rect(card), board:rect(board), caption:rect(caption), lesson:rect(lesson),
         };
       }, slug);
+      assert.equal(metrics.referencePresent, true, `${slug} ${width}px must render the reference disclosure`);
+      assert.equal(metrics.referenceOpen, false, `${slug} ${width}px reference disclosure must start collapsed`);
+      assert.equal(metrics.firstStreamId, `${slug}-rules-1`, `${slug} ${width}px must show rule cards immediately after the collapsed reference`);
       assert.ok(metrics.bodyOverflow <= 2, `${slug} ${width}px must not create horizontal page overflow`);
       assert.ok(metrics.card.width > 250 && metrics.card.width <= width + 1);
       assert.ok(metrics.board.height > 260, `${slug} ${width}px board must retain teaching space`);
