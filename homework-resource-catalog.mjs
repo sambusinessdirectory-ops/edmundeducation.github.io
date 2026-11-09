@@ -30945,9 +30945,17 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "error-identifier-system.html?mode=jayden"
   },
   {
-    "id": "error-identification:passage",
+    "id": "error-identification:module-4",
     "type": "error-identification",
     "ordinal": 4,
+    "label": "Module 4 · Relative Clause · 關係子句單句校對",
+    "detail": "Relative Clauses · Error Identification · 400 題 · 自動接續未完成題目",
+    "url": "error-identifier-system.html?mode=relative-clauses"
+  },
+  {
+    "id": "error-identification:passage",
+    "type": "error-identification",
+    "ordinal": 5,
     "label": "Passage Mode · 文章校對",
     "detail": "Error Identification · 11 篇文章",
     "url": "error-identifier-system.html?mode=passage"

@@ -348,8 +348,8 @@ export function normalizeHomeworkResource(value) {
   }
   if (type === "error-identification") {
     const mode = parsed.searchParams.get("mode"), question = parsed.searchParams.get("question"), passage = parsed.searchParams.get("passage");
-    if (!["single", "indefinite", "jayden", "passage"].includes(mode)) return null;
-    const moduleByMode = { single: "module-1", indefinite: "module-2", jayden: "module-3", passage: "passage" };
+    if (!["single", "indefinite", "jayden", "relative-clauses", "passage"].includes(mode)) return null;
+    const moduleByMode = { single: "module-1", indefinite: "module-2", jayden: "module-3", "relative-clauses": "module-4", passage: "passage" };
     const target = question ? `q${question}` : passage ? `passage-${passage}` : moduleByMode[mode];
     const acceptedIds = [`error-identification:${target}`];
     if (mode === "single" && !question) acceptedIds.push("error-identification:single");
@@ -391,7 +391,7 @@ export function normalizeHomeworkHref(value) {
       if (view === "practice" && (keys.length !== 3 || !positive("question", 1000000) || (lesson === "advanced-articles" && Number(parsed.searchParams.get("question")) < 151))) return null;
     } else if (parsed.pathname === "/error-identifier-system.html") {
       const mode = parsed.searchParams.get("mode");
-      if (!["single", "indefinite", "jayden", "passage"].includes(mode)) return null;
+      if (!["single", "indefinite", "jayden", "relative-clauses", "passage"].includes(mode)) return null;
       const target = mode === "single" ? "question" : mode === "passage" ? "passage" : "";
       if (!target && keys.length !== 1) return null;
       if (target && (keys.some(key => !["mode", target].includes(key)) || keys.length > 2)) return null;
