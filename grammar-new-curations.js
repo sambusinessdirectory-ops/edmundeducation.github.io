@@ -308,7 +308,30 @@
         intro.append(node);
       }
     }
-    source.replaceChildren(intro, stream);
+    if (view.dataset.newGrammarCuration === "relative-clauses") {
+      const reference = document.createElement("details");
+      reference.className = "grammar-relative-reference";
+      const summary = document.createElement("summary");
+      summary.innerHTML = `<span class="grammar-relative-reference__icon" aria-hidden="true">+</span><span class="grammar-relative-reference__label"><strong><span class="grammar-relative-reference__closed">展開完整學習指南與規則索引</span><span class="grammar-relative-reference__open">收起完整學習指南與規則索引</span></strong><small>課程簡介、PART I 系統總覽及 PART II 全部規則索引</small></span>`;
+      const referenceBody = document.createElement("div");
+      referenceBody.className = "grammar-relative-reference__body";
+      referenceBody.append(intro);
+      while (stream.firstElementChild && stream.firstElementChild.id !== "relative-clauses-rules-1") {
+        referenceBody.append(stream.firstElementChild);
+      }
+      reference.append(summary, referenceBody);
+      source.replaceChildren(reference, stream);
+      reference.addEventListener("toggle", () => scheduleIndefiniteLayout(view));
+      view.querySelectorAll('.grammar-new-chapters a[href="#relative-clauses-overview-1"], .grammar-new-chapters a[href="#relative-clauses-overview-2"]').forEach((link) => {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+          reference.open = true;
+          requestAnimationFrame(() => view.querySelector(link.getAttribute("href"))?.scrollIntoView({ behavior: "smooth", block: "start" }));
+        });
+      });
+    } else {
+      source.replaceChildren(intro, stream);
+    }
     addEddyDialogue(view);
   }
 

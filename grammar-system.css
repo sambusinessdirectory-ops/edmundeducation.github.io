@@ -82,6 +82,53 @@
 .grammar-new-intro h3 { margin-top: 24px; }
 .grammar-new-stream { margin-top: 12px; }
 .grammar-new-body .grammar-new-chapter h3 { color: #fff; margin: 0; }
+.grammar-relative-reference {
+  margin: 18px 0 28px;
+  overflow: hidden;
+  border: 1px solid #b9d1c7;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #f4faf6, #fff 72%);
+  box-shadow: 0 12px 32px rgba(24, 72, 57, .09);
+}
+.grammar-relative-reference > summary {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 18px clamp(18px, 3vw, 28px);
+  color: #174d3e;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.grammar-relative-reference > summary::-webkit-details-marker { display: none; }
+.grammar-relative-reference > summary:hover { background: rgba(215, 238, 227, .45); }
+.grammar-relative-reference > summary:focus-visible { outline: 3px solid #6aa98f; outline-offset: -4px; }
+.grammar-relative-reference__icon {
+  display: grid;
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 50%;
+  background: #1d6b54;
+  color: #fff;
+  font: 800 25px/1 system-ui, sans-serif;
+  transition: transform .22s ease, background .22s ease;
+}
+.grammar-relative-reference__label { display: grid; gap: 3px; }
+.grammar-relative-reference__label strong { font: 850 clamp(16px, 2vw, 19px)/1.35 system-ui, sans-serif; }
+.grammar-relative-reference__label small { color: #587268; font: 650 13px/1.5 system-ui, sans-serif; }
+.grammar-relative-reference__open { display: none; }
+.grammar-relative-reference[open] .grammar-relative-reference__closed { display: none; }
+.grammar-relative-reference[open] .grammar-relative-reference__open { display: inline; }
+.grammar-relative-reference[open] .grammar-relative-reference__icon { transform: rotate(45deg); background: #315f52; }
+.grammar-relative-reference__body {
+  padding: 4px clamp(18px, 3vw, 30px) 28px;
+  border-top: 1px solid #d7e7df;
+}
+.grammar-relative-reference__body .grammar-new-intro { padding-top: 22px; }
+.grammar-relative-reference__body .grammar-new-chapter { scroll-margin-top: 22px; }
+.grammar-relative-reference__body .grammar-new-appendix { margin-bottom: 18px; }
 .grammar-new-topic { width: 100%; box-sizing: border-box; }
 .grammar-new-topic__content { margin-top: 15px; }
 .grammar-new-topic__content > :first-child { margin-top: 0; }
