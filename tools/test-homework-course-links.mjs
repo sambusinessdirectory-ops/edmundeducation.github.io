@@ -8,7 +8,7 @@ import {formatHomeworkLinkExport} from '../schedule-homework-export.mjs';
 const read=file=>fs.readFile(new URL('../'+file,import.meta.url),'utf8');
 const require=createRequire(new URL('./email-qa/package.json',import.meta.url));
 const {JSDOM}=require('jsdom');
-const expected={grammar:468,'error-identification':4,'junior-exam-prep':19};
+const expected={grammar:468,'error-identification':5,'junior-exam-prep':19};
 for(const [type,count] of Object.entries(expected)){
  const resources=catalog.filter(r=>r.type===type);assert.equal(resources.length,count);
  for(const resource of resources){
@@ -18,11 +18,11 @@ for(const [type,count] of Object.entries(expected)){
  }
  assert.match(formatHomeworkLinkExport({resources,exportedAt:'2026-10-19T00:00:00Z'}),/https:\/\/edmundeducation.com\//);
 }
-for(const [text,type] of [['Grammar','grammar'],['Error Identification','error-identification'],['Error Identifier','error-identification'],['Junior Exam Prep','junior-exam-prep'],['Jayden Homework','junior-exam-prep']])assert.equal(homeworkAutocomplete(text).type,type);
+for(const [text,type] of [['Grammar','grammar'],['Error Identification','error-identification'],['Error Identifier','error-identification'],['Junior Exam Prep','junior-exam-prep']])assert.equal(homeworkAutocomplete(text).type,type);
 assert.ok(filterHomeworkResources(catalog,'grammar','tense 195').items.some(r=>r.id==='grammar:tense:q195'));
 const errorResources=filterHomeworkResources(catalog,'error-identification','',60);
-assert.equal(errorResources.total,4);
-assert.deepEqual(errorResources.items.map(resource=>resource.id),['error-identification:module-1','error-identification:module-2','error-identification:module-3','error-identification:passage']);
+assert.equal(errorResources.total,5);
+assert.deepEqual(errorResources.items.map(resource=>resource.id),['error-identification:module-1','error-identification:module-2','error-identification:module-3','error-identification:module-4','error-identification:passage']);
 assert.equal(filterHomeworkResources(catalog,'error-identification','344').items[0]?.id,'error-identification:module-1');
 assert.equal(filterHomeworkResources(catalog,'error-identification','indefinite').items[0]?.id,'error-identification:module-2');
 assert.ok(errorResources.items.every(resource=>!/[?&](?:question|passage)=/.test(resource.url)),'Error Identifier homework links stay at module level');
@@ -40,6 +40,7 @@ assert.equal(normalizeHomeworkHref('grammar-system.html'),'grammar-system.html',
 assert.equal(normalizeHomeworkHref('error-identifier-system.html'),'error-identifier-system.html');
 assert.equal(normalizeHomeworkHref('error-identifier-system.html?mode=indefinite'),'error-identifier-system.html?mode=indefinite');
 assert.equal(normalizeHomeworkHref('error-identifier-system.html?mode=jayden'),'error-identifier-system.html?mode=jayden');
+assert.equal(normalizeHomeworkHref('error-identifier-system.html?mode=relative-clauses'),'error-identifier-system.html?mode=relative-clauses');
 assert.equal(normalizeHomeworkHref('error-identifier-system.html?mode=single&question=344'),'error-identifier-system.html?mode=single&question=344','legacy exact-question links remain valid');
 const settle=async()=>{for(let i=0;i<10;i++)await new Promise(resolve=>setTimeout(resolve,0));};
 const jayden='df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
@@ -122,4 +123,4 @@ const delayed=await juniorDom(`?module=${MODULES[1].key}`,jayden,true);
 await delayed.signIn('other-student');delayed.release();await settle();
 assert.equal(delayed.window.document.querySelectorAll('[data-answer]').length,0,'an old account load cannot reopen homework after switching accounts');delayed.window.close();
 const invalid=await juniorDom('?module=not-assigned',jayden);assert.equal(invalid.requests.length,0);invalid.window.close();
-console.log('Homework course links: four Error Identifier modes, saved Calendar markers, exports, module progress resumption, legacy deep links, passages and Junior account isolation passed.');
+console.log('Homework course links: five Error Identifier modes, saved Calendar markers, exports, module progress resumption, legacy deep links, passages and Junior account isolation passed.');

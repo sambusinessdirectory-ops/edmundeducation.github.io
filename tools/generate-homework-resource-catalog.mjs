@@ -739,17 +739,19 @@ async function grammarHomeworkResources() {
   });
 }
 async function errorHomeworkResources() {
-  const data = await evaluateFiles(["error-identifier-questions.js", "error-identifier-passages.js", "error-identifier-jayden-questions.js", "grammar-indefinite-pronouns-data.js"]);
+  const data = await evaluateFiles(["error-identifier-questions.js", "error-identifier-passages.js", "error-identifier-jayden-questions.js", "error-identifier-relative-clauses-questions.js", "grammar-indefinite-pronouns-data.js"]);
   const questions = data.ERROR_IDENTIFIER_QUESTIONS;
   const passages = data.ERROR_IDENTIFIER_PASSAGES;
   const indefiniteQuestions = data.EDMUND_INDEFINITE_PRONOUNS?.passages?.flatMap(passage => passage.questions);
   const grammarQuestions = data.ERROR_IDENTIFIER_JAYDEN_QUESTIONS;
-  if (questions?.length !== 344 || indefiniteQuestions?.length !== 200 || grammarQuestions?.length !== 300 || passages?.length !== 11) throw new Error("Error Identification module data is incomplete");
+  const relativeClauseQuestions = data.ERROR_IDENTIFIER_RELATIVE_CLAUSES_QUESTIONS;
+  if (questions?.length !== 344 || indefiniteQuestions?.length !== 200 || grammarQuestions?.length !== 300 || relativeClauseQuestions?.length !== 400 || passages?.length !== 11) throw new Error("Error Identification module data is incomplete");
   return [
     {id:"error-identification:module-1",type:"error-identification",ordinal:1,label:"Module 1 · 單句校對",detail:`Single Sentence · Error Identification · ${questions.length} 題 · 自動接續未完成題目`,url:"error-identifier-system.html?mode=single"},
     {id:"error-identification:module-2",type:"error-identification",ordinal:2,label:"Module 2 · 不定代名詞單句校對",detail:`Indefinite Pronouns · Error Identification · ${indefiniteQuestions.length} 題 · 自動接續未完成題目`,url:"error-identifier-system.html?mode=indefinite"},
     {id:"error-identification:module-3",type:"error-identification",ordinal:3,label:"Module 3 · 文法與用法單句校對",detail:`Grammar & Usage · Error Identification · ${grammarQuestions.length} 題 · 自動接續未完成題目`,url:"error-identifier-system.html?mode=jayden"},
-    {id:"error-identification:passage",type:"error-identification",ordinal:4,label:"Passage Mode · 文章校對",detail:`Error Identification · ${passages.length} 篇文章`,url:"error-identifier-system.html?mode=passage"}
+    {id:"error-identification:module-4",type:"error-identification",ordinal:4,label:"Module 4 · Relative Clause · 關係子句單句校對",detail:`Relative Clauses · Error Identification · ${relativeClauseQuestions.length} 題 · 自動接續未完成題目`,url:"error-identifier-system.html?mode=relative-clauses"},
+    {id:"error-identification:passage",type:"error-identification",ordinal:5,label:"Passage Mode · 文章校對",detail:`Error Identification · ${passages.length} 篇文章`,url:"error-identifier-system.html?mode=passage"}
   ];
 }
 async function juniorHomeworkResources() {

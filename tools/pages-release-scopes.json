@@ -310,6 +310,7 @@
       "supabase/migrations/20261104135806_country_spelling_account_progress.sql"
     ],
     "[error-id-release]": [
+      "course-materials/error-identifier/**",
       "error-identifier-*",
       "supabase/migrations/*error_identifier*",
       "supabase/migrations/*indefinite_pronouns*",

@@ -55,7 +55,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 17779, "catalogue includes Advanced Native lessons and every previously released resource");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 17780, "catalogue includes Advanced Native lessons and every previously released resource");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -915,7 +915,7 @@ assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "dse-reading-com
 assert.equal(HOMEWORK_RESOURCE_TYPES.find((definition) => definition.type === "reading-comprehension")?.pickerTitle, "選擇 DSE / IELTS Reading 閱讀理解練習");
 assert.deepEqual(
   filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "error-identification", "", 60).items.map((resource) => resource.id),
-  ["error-identification:module-1", "error-identification:module-2", "error-identification:module-3", "error-identification:passage"],
+  ["error-identification:module-1", "error-identification:module-2", "error-identification:module-3", "error-identification:module-4", "error-identification:passage"],
   "Error Identifier homework picker should expose only three modules and Passage Mode"
 );
 assert.equal(HOMEWORK_RESOURCE_TYPES.find((definition) => definition.type === "error-identification")?.pickerTitle, "選擇 Module 或 Passage Mode");
