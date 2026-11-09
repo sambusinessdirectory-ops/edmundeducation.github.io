@@ -1,0 +1,2017 @@
+{
+  "source": "course-materials/grammar/source/passive-voice-student-reading-guide.md",
+  "guide": {
+    "ruleCount": 290,
+    "sixStepFieldCount": 1740,
+    "rules": [
+      {
+        "id": "PV.01.01",
+        "title": "主動句通常先說做事的人",
+        "dialogueNote": "主動句並不一定比較好；要看想先說誰或甚麼。"
+      },
+      {
+        "id": "PV.01.02",
+        "title": "被動句通常先說受到動作影響的對象",
+        "dialogueNote": "被動句的主語不一定真的受到傷害；也可以是得到幫助的人。"
+      },
+      {
+        "id": "PV.01.03",
+        "title": "最常見的被動公式是 be 加過去分詞",
+        "dialogueNote": "was、were、been、being 也可屬於 be 這一組，視乎句子時間。"
+      },
+      {
+        "id": "PV.01.04",
+        "title": "被動句的動詞通常仍要表示時間",
+        "dialogueNote": "不要只看 posted 就決定時間；要看前面的動詞。"
+      },
+      {
+        "id": "PV.01.05",
+        "title": "過去分詞不一定以 -ed 結尾",
+        "dialogueNote": "write → written、steal → stolen、take → taken 也要記住。"
+      },
+      {
+        "id": "PV.01.06",
+        "title": "被動句的主語可是一個人",
+        "dialogueNote": "轉換時要分清誰幫助誰，不可只換動詞位置。"
+      },
+      {
+        "id": "PV.01.07",
+        "title": "被動句的主語可以是複數",
+        "dialogueNote": "過去時間也要分 was 和 were。"
+      },
+      {
+        "id": "PV.01.08",
+        "title": "被動句不用每次寫 by",
+        "dialogueNote": "如果做事的人很重要，可以加 by。"
+      },
+      {
+        "id": "PV.01.09",
+        "title": "by 可以說明誰做了動作",
+        "dialogueNote": "by 後面可以是人、團體或引起事情的力量。"
+      },
+      {
+        "id": "PV.01.10",
+        "title": "with 常用來說工具",
+        "dialogueNote": "某些名詞配搭用其他介詞，例如 covered in paint。"
+      },
+      {
+        "id": "PV.01.11",
+        "title": "被動句保留動作的對象和時間",
+        "dialogueNote": "改寫時也要保留否定、數量和可能性。"
+      },
+      {
+        "id": "PV.01.12",
+        "title": "代名詞在 by 後面用受詞寫法",
+        "dialogueNote": "同樣有 by him、by her、by us、by them。"
+      },
+      {
+        "id": "PV.01.13",
+        "title": "被動句不一定比主動句正式",
+        "dialogueNote": "正式報告常用被動，但日常英文也常見。"
+      },
+      {
+        "id": "PV.01.14",
+        "title": "被動句不等於省略做事的人",
+        "dialogueNote": "判斷被動要看動詞接法，不可以只看有沒有 by。"
+      },
+      {
+        "id": "PV.01.15",
+        "title": "先選重點，再決定主動還是被動",
+        "dialogueNote": "is closed 也可重點描述關閉狀態；不一定只是在報告關門動作。"
+      },
+      {
+        "id": "PV.02.01",
+        "title": "現在的單數被動用 is 加過去分詞",
+        "dialogueNote": "I 要用 am；you 和複數主語常用 are。"
+      },
+      {
+        "id": "PV.02.02",
+        "title": "現在的複數被動用 are 加過去分詞",
+        "dialogueNote": "returned 的寫法不隨主語數量改變。"
+      },
+      {
+        "id": "PV.02.03",
+        "title": "現在的被動可說每天重複的事情",
+        "dialogueNote": "這種習慣句不一定表示此刻有人正在工作。"
+      },
+      {
+        "id": "PV.02.04",
+        "title": "現在的被動可說一般事實",
+        "dialogueNote": "一般事實不一定要加 every day。"
+      },
+      {
+        "id": "PV.02.05",
+        "title": "現在被動的否定用 is not 或 are not",
+        "dialogueNote": "is not 可縮寫成 isn't；are not 可縮寫成 aren't。"
+      },
+      {
+        "id": "PV.02.06",
+        "title": "現在被動問句把 is 或 are 放前面",
+        "dialogueNote": "問句的過去分詞 locked 不需要再變。"
+      },
+      {
+        "id": "PV.02.07",
+        "title": "現在被動的簡短回答用 be",
+        "dialogueNote": "若問 Were they invited?，回答可用 Yes, they were。"
+      },
+      {
+        "id": "PV.02.08",
+        "title": "現在被動也可說公布的時間表",
+        "dialogueNote": "用哪個時間要由整句情況決定。"
+      },
+      {
+        "id": "PV.02.09",
+        "title": "現在被動與形容詞要看意思",
+        "dialogueNote": "相同的 be + 過去分詞外形可能有不同分析。"
+      },
+      {
+        "id": "PV.02.10",
+        "title": "現在被動的動詞可帶地方或方法資料",
+        "dialogueNote": "by hand 是固定方法配搭，不需要再加一個人。"
+      },
+      {
+        "id": "PV.03.01",
+        "title": "過去單數被動用 was 加過去分詞",
+        "dialogueNote": "不要把 found 直接當作被動；要有合適的 be。"
+      },
+      {
+        "id": "PV.03.02",
+        "title": "過去複數被動用 were 加過去分詞",
+        "dialogueNote": "過去分詞 moved 不隨數量改變。"
+      },
+      {
+        "id": "PV.03.03",
+        "title": "過去被動常配合已結束的時間",
+        "dialogueNote": "沒有時間詞也可以用過去被動，只要前文交代時間。"
+      },
+      {
+        "id": "PV.03.04",
+        "title": "過去被動否定用 was not 或 were not",
+        "dialogueNote": "一般被動不用 did not sent 這種寫法。"
+      },
+      {
+        "id": "PV.03.05",
+        "title": "過去被動問句先放 was 或 were",
+        "dialogueNote": "問題若是 Were the keys found?，要用 were。"
+      },
+      {
+        "id": "PV.03.06",
+        "title": "過去被動可以問誰做的",
+        "dialogueNote": "介詞放句尾在標準英文中是正確的。"
+      },
+      {
+        "id": "PV.03.07",
+        "title": "兩件過去事情可以先後發生",
+        "dialogueNote": "只因為有兩件過去事情，不一定要用 had been。"
+      },
+      {
+        "id": "PV.03.08",
+        "title": "過去被動可配合明確做事的人",
+        "dialogueNote": "寫作者時，by 可能非常重要，不應一律省略。"
+      },
+      {
+        "id": "PV.03.09",
+        "title": "過去被動不表示做事者一定未知",
+        "dialogueNote": "缺少 by 不等於沒有人知道是誰做的。"
+      },
+      {
+        "id": "PV.03.10",
+        "title": "過去被動可說被選、被邀請等經歷",
+        "dialogueNote": "invite 的被動後面仍用 to + 活動。"
+      },
+      {
+        "id": "PV.04.01",
+        "title": "未來被動常用 will be 加過去分詞",
+        "dialogueNote": "will 後面用 be，不加 is 或 are。"
+      },
+      {
+        "id": "PV.04.02",
+        "title": "未來被動否定用 will not be",
+        "dialogueNote": "will not 可寫成 won't。"
+      },
+      {
+        "id": "PV.04.03",
+        "title": "未來被動問句把 will 放前面",
+        "dialogueNote": "普通被動問句不寫 *Will the food is delivered?*。"
+      },
+      {
+        "id": "PV.04.04",
+        "title": "be going to 的未來被動",
+        "dialogueNote": "is going to be 與 will be 在不少語境都可以用，語氣有時不同。"
+      },
+      {
+        "id": "PV.04.05",
+        "title": "going to 被動要配合主語用 am/is/are",
+        "dialogueNote": "going to 後必須保留 be replaced。"
+      },
+      {
+        "id": "PV.04.06",
+        "title": "going to 被動的否定和問句",
+        "dialogueNote": "兩句意思不同，不能當作相同答案。"
+      },
+      {
+        "id": "PV.04.07",
+        "title": "未來安排可用現在被動表達",
+        "dialogueNote": "這個寫法需要明確的時間表語境，日常可優先用 will be。"
+      },
+      {
+        "id": "PV.04.08",
+        "title": "預定安排可用 is to be 加過去分詞",
+        "dialogueNote": "is to be 較常見於新聞及正式通告。"
+      },
+      {
+        "id": "PV.04.09",
+        "title": "未來被動的時間說法不一定用 will",
+        "dialogueNote": "在表示意願等特殊意思時，if 後仍可能出現 will；不要說永遠不行。"
+      },
+      {
+        "id": "PV.04.10",
+        "title": "從過去看未來，可用 would be",
+        "dialogueNote": "would 也可說想像情況，需看整句。"
+      },
+      {
+        "id": "PV.04.11",
+        "title": "未來被動可搭配 have to",
+        "dialogueNote": "have to 是表示需要，不是完成式 have been。"
+      },
+      {
+        "id": "PV.05.01",
+        "title": "現在進行被動用 is being 加過去分詞",
+        "dialogueNote": "is being 不表示事情已做完。"
+      },
+      {
+        "id": "PV.05.02",
+        "title": "複數的現在進行被動用 are being",
+        "dialogueNote": "過去分詞 cleaned 仍然不變。"
+      },
+      {
+        "id": "PV.05.03",
+        "title": "現在進行被動可以是否定句",
+        "dialogueNote": "兩句都是否定，但時間意思不同。"
+      },
+      {
+        "id": "PV.05.04",
+        "title": "現在進行被動也可以問句",
+        "dialogueNote": "不要省去 being 變成 Is the door repaired?，兩句意思可能不同。"
+      },
+      {
+        "id": "PV.05.05",
+        "title": "過去進行被動用 was being",
+        "dialogueNote": "過去進行未必說明之後是否完成。"
+      },
+      {
+        "id": "PV.05.06",
+        "title": "複數的過去進行被動用 were being",
+        "dialogueNote": "when 後面的時間可幫助找出當時正在做的事。"
+      },
+      {
+        "id": "PV.05.07",
+        "title": "過去進行被動的否定",
+        "dialogueNote": "沒有正在測試，不能推論整天都沒有測試。"
+      },
+      {
+        "id": "PV.05.08",
+        "title": "過去進行被動的問句",
+        "dialogueNote": "兩種問句可能都自然，但問的重點不同。"
+      },
+      {
+        "id": "PV.05.09",
+        "title": "正在被處理不等於已完成",
+        "dialogueNote": "不要因為見到過去分詞 written 就當成完成式。"
+      },
+      {
+        "id": "PV.05.10",
+        "title": "正在被動可以配合 still",
+        "dialogueNote": "still 放在不同位置可影響焦點，但這裏的寫法最清楚。"
+      },
+      {
+        "id": "PV.05.11",
+        "title": "進行被動可用於短期安排",
+        "dialogueNote": "使用這種句型時，不必說出每位使用者。"
+      },
+      {
+        "id": "PV.05.12",
+        "title": "正在被動與狀態形容詞不同",
+        "dialogueNote": "某些形容詞也可以跟在 being 後，需看動詞意思，不能只靠字面判定。"
+      },
+      {
+        "id": "PV.06.01",
+        "title": "現在完成被動用 has been 加過去分詞",
+        "dialogueNote": "現在完成被動通常不用來直接配合已結束的 yesterday。"
+      },
+      {
+        "id": "PV.06.02",
+        "title": "現在完成被動的複數用 have been",
+        "dialogueNote": "過去分詞 checked 不隨數量改變。"
+      },
+      {
+        "id": "PV.06.03",
+        "title": "現在完成被動可配合 already",
+        "dialogueNote": "already 也可以在別的位置出現，需看語氣。"
+      },
+      {
+        "id": "PV.06.04",
+        "title": "現在完成被動可配合 yet",
+        "dialogueNote": "從 yesterday 的否定不能知道今天是否已付款。"
+      },
+      {
+        "id": "PV.06.05",
+        "title": "現在完成被動的問句",
+        "dialogueNote": "have / has 的選擇要看主語。"
+      },
+      {
+        "id": "PV.06.06",
+        "title": "現在完成被動也可說一段時間內的經歷",
+        "dialogueNote": "如果 this week 已結束，要按實際時間選擇。"
+      },
+      {
+        "id": "PV.06.07",
+        "title": "過去完成被動用 had been 加過去分詞",
+        "dialogueNote": "不要見到 before 就機械地一定用 had been；上下文重要。"
+      },
+      {
+        "id": "PV.06.08",
+        "title": "過去完成被動的否定",
+        "dialogueNote": "兩種否定不等於同一件事。"
+      },
+      {
+        "id": "PV.06.09",
+        "title": "過去完成被動可用在故事裏",
+        "dialogueNote": "不能把「發現已發生」改成「親眼看到」而說意思一樣。"
+      },
+      {
+        "id": "PV.06.10",
+        "title": "將來完成被動用 will have been 加過去分詞",
+        "dialogueNote": "by Friday 不一定表示星期五才開始做。"
+      },
+      {
+        "id": "PV.06.11",
+        "title": "將來完成被動的否定",
+        "dialogueNote": "未完成不等於從未開始。"
+      },
+      {
+        "id": "PV.06.12",
+        "title": "將來完成被動可以問句",
+        "dialogueNote": "by June 與 in June 的時間意思要分清。"
+      },
+      {
+        "id": "PV.06.13",
+        "title": "完成被動與進行被動說的事情不同",
+        "dialogueNote": "在合適語境，現在完成也可表示過去到現在的一段經歷，不只說一次結果。"
+      },
+      {
+        "id": "PV.06.14",
+        "title": "完成被動和過去簡單被動有時都可以",
+        "dialogueNote": "不要設計沒有時間背景的單一答案題，硬說另一句錯。"
+      },
+      {
+        "id": "PV.07.01",
+        "title": "can be 可以說能夠被做",
+        "dialogueNote": "can 表能力或可能；不一定表示事情已發生。"
+      },
+      {
+        "id": "PV.07.02",
+        "title": "cannot be 可以說不可能或不准",
+        "dialogueNote": "cannot 有時指能力不足，有時指規定不容許。"
+      },
+      {
+        "id": "PV.07.03",
+        "title": "could be 可以說可能被做",
+        "dialogueNote": "could 也可說過去能力或禮貌建議，須看上下文。"
+      },
+      {
+        "id": "PV.07.04",
+        "title": "may be 可以說有可能",
+        "dialogueNote": "may 也可以表示獲准，不能每次都解作推測。"
+      },
+      {
+        "id": "PV.07.05",
+        "title": "might be 表示較保留的可能",
+        "dialogueNote": "may 和 might 常可以互換，細微差別要看情況。"
+      },
+      {
+        "id": "PV.07.06",
+        "title": "must be 可表示一定要做",
+        "dialogueNote": "must be 也可表推測，例如 The door must be locked now；需看語意。"
+      },
+      {
+        "id": "PV.07.07",
+        "title": "must not be 表示禁止",
+        "dialogueNote": "「不准」與「不必」差別很大。"
+      },
+      {
+        "id": "PV.07.08",
+        "title": "need not be 表示沒有必要",
+        "dialogueNote": "美式英語也常用 doesn't need to be signed。"
+      },
+      {
+        "id": "PV.07.09",
+        "title": "should be 可以提出建議",
+        "dialogueNote": "should 也可能說預期結果，要從情況判斷。"
+      },
+      {
+        "id": "PV.07.10",
+        "title": "ought to be 可以表示應該",
+        "dialogueNote": "ought to 較少見於某些口語問句，但本身是標準用法。"
+      },
+      {
+        "id": "PV.07.11",
+        "title": "would be 可以說想像情況",
+        "dialogueNote": "would 不一定表示已發生；要有足夠語境。"
+      },
+      {
+        "id": "PV.07.12",
+        "title": "should have been 表示以前本應做好",
+        "dialogueNote": "本應做不保證沒有做，需由上下文確認。"
+      },
+      {
+        "id": "PV.07.13",
+        "title": "could have been 表示以前有可能",
+        "dialogueNote": "在另一語境，could have been 也可說本來可能卻沒有發生。"
+      },
+      {
+        "id": "PV.07.14",
+        "title": "might have been 表示不肯定的過去推測",
+        "dialogueNote": "不能把 might 的不確定意思刪去。"
+      },
+      {
+        "id": "PV.07.15",
+        "title": "must have been 表示對過去有把握的推測",
+        "dialogueNote": "推測的 must have been 和義務的 had to be 不可混為一談。"
+      },
+      {
+        "id": "PV.07.16",
+        "title": "may have been 表示過去有可能",
+        "dialogueNote": "may have been 與 might have been 都是自然的推測寫法。"
+      },
+      {
+        "id": "PV.07.17",
+        "title": "modal + be being 可說此刻可能正在被做",
+        "dialogueNote": "be being 疊在一起較笨重，但不應一律當成文法錯誤。"
+      },
+      {
+        "id": "PV.08.01",
+        "title": "被動不定詞用 to be 加過去分詞",
+        "dialogueNote": "to be sent 本身不表示過去，時間要看前文。"
+      },
+      {
+        "id": "PV.08.02",
+        "title": "want to be 可以說想得到某個動作",
+        "dialogueNote": "兩句中的 I 角色完全不同。"
+      },
+      {
+        "id": "PV.08.03",
+        "title": "expect to be 可以說預期受到處理",
+        "dialogueNote": "expect 與 hope 的語氣不同，不能隨意互換。"
+      },
+      {
+        "id": "PV.08.04",
+        "title": "hope to be 可以說希望獲選或獲邀",
+        "dialogueNote": "hoped to be chosen 仍未必表示真的獲選。"
+      },
+      {
+        "id": "PV.08.05",
+        "title": "perfect passive infinitive 用 to have been",
+        "dialogueNote": "看來如此不等於已證實；保留 seems 的意思。"
+      },
+      {
+        "id": "PV.08.06",
+        "title": "perfect passive infinitive 可跟在 claim 後",
+        "dialogueNote": "claim 是他自己的說法，不能當成已確認的事實。"
+      },
+      {
+        "id": "PV.08.07",
+        "title": "否定的被動不定詞用 not to be",
+        "dialogueNote": "ask 後的接法要看句子有沒有接受要求的人。"
+      },
+      {
+        "id": "PV.08.08",
+        "title": "被動動名詞用 being 加過去分詞",
+        "dialogueNote": "being watched 沒有指定時間，時間由上下文決定。"
+      },
+      {
+        "id": "PV.08.09",
+        "title": "介詞後面可以用 being done",
+        "dialogueNote": "不能直接寫 without be seen。"
+      },
+      {
+        "id": "PV.08.10",
+        "title": "避免或介意受到動作",
+        "dialogueNote": "一個字前的主語可能做動作，也可能受到動作。"
+      },
+      {
+        "id": "PV.08.11",
+        "title": "完成式被動動名詞用 having been",
+        "dialogueNote": "having been 較正式；若時間已清楚，可用簡單寫法。"
+      },
+      {
+        "id": "PV.08.12",
+        "title": "被動動名詞可做整句主語",
+        "dialogueNote": "不要把 being 省掉寫成 Be praised can feel good。"
+      },
+      {
+        "id": "PV.08.13",
+        "title": "完成被動可以接在 modal 之後",
+        "dialogueNote": "might 不表示肯定；不能改成 was invited 而保持一樣。"
+      },
+      {
+        "id": "PV.08.14",
+        "title": "有些名詞後可用 to be done",
+        "dialogueNote": "名詞後的主動不定詞有時也有被動意思，不可一律禁止。"
+      },
+      {
+        "id": "PV.08.15",
+        "title": "裸形被動不定詞 be done 常跟在 modal 後",
+        "dialogueNote": "can、should、might、will 等後面通常不用 to。"
+      },
+      {
+        "id": "PV.09.01",
+        "title": "have something done 可說安排別人做",
+        "dialogueNote": "had my hair cut 也可能只說經歷，需要看情況。"
+      },
+      {
+        "id": "PV.09.02",
+        "title": "get something done 也可說安排處理",
+        "dialogueNote": "got something done 較常見於日常說話。"
+      },
+      {
+        "id": "PV.09.03",
+        "title": "have something done 可用於將來",
+        "dialogueNote": "having 在這裏是安排，不等於現在正在驗眼。"
+      },
+      {
+        "id": "PV.09.04",
+        "title": "get something done 可用進行式",
+        "dialogueNote": "具體是否親自參與仍要看上下文。"
+      },
+      {
+        "id": "PV.09.05",
+        "title": "have something done 也可以說不幸遭遇",
+        "dialogueNote": "不能把所有 have something done 都解作自己叫人做。"
+      },
+      {
+        "id": "PV.09.06",
+        "title": "get something done 可表示自己完成",
+        "dialogueNote": "這種 get done 不一定表示花錢請外人幫忙。"
+      },
+      {
+        "id": "PV.09.07",
+        "title": "have someone do 與 have something done 不同",
+        "dialogueNote": "兩種 have 的句型不能隨意交換位置。"
+      },
+      {
+        "id": "PV.09.08",
+        "title": "get someone to do 與 get something done 不同",
+        "dialogueNote": "get somebody to do 後的 to 不可省掉。"
+      },
+      {
+        "id": "PV.09.09",
+        "title": "make someone do 在主動句不用 to",
+        "dialogueNote": "不要把 make 的主動接法直接套到被動。"
+      },
+      {
+        "id": "PV.09.10",
+        "title": "make 的被動通常用 be made to do",
+        "dialogueNote": "沒有人出現的 by 也不影響被動成立。"
+      },
+      {
+        "id": "PV.09.11",
+        "title": "see 的主動與被動動詞接法不同",
+        "dialogueNote": "被動也可用 was seen leaving，意思可能重點不同。"
+      },
+      {
+        "id": "PV.09.12",
+        "title": "hear 的被動也可以用 to",
+        "dialogueNote": "was heard singing 也可以，較突出唱歌過程。"
+      },
+      {
+        "id": "PV.09.13",
+        "title": "let 的被動通常改用 allowed",
+        "dialogueNote": "*We were let to leave* 不合一般標準寫法；let go 等固定詞組另看。"
+      },
+      {
+        "id": "PV.09.14",
+        "title": "help 的被動可以有 to",
+        "dialogueNote": "was helped stand up 在部分英語也可見，出版時可選較清楚的 to。"
+      },
+      {
+        "id": "PV.09.15",
+        "title": "force、order、tell 的被動常接 to",
+        "dialogueNote": "ordered to、asked to、forced to 有不同語氣，不能當成同義詞。"
+      },
+      {
+        "id": "PV.10.01",
+        "title": "get 加過去分詞可以形成被動",
+        "dialogueNote": "get-passive 在口語常見；正式文章往往偏好 be。"
+      },
+      {
+        "id": "PV.10.02",
+        "title": "get-passive 常說不想發生的事情",
+        "dialogueNote": "get 被動也可說好事，不是只限壞事。"
+      },
+      {
+        "id": "PV.10.03",
+        "title": "get-passive 也可說好消息",
+        "dialogueNote": "兩句通常都不需要 by 後面的人。"
+      },
+      {
+        "id": "PV.10.04",
+        "title": "get-passive 可用現在式說習慣",
+        "dialogueNote": "gets 是單數現在寫法；they 要用 get。"
+      },
+      {
+        "id": "PV.10.05",
+        "title": "get-passive 可用過去式",
+        "dialogueNote": "got 不需要後面再加 was。"
+      },
+      {
+        "id": "PV.10.06",
+        "title": "get-passive 可用進行式",
+        "dialogueNote": "getting + 過去分詞有時也可能是狀態改變，需看用字。"
+      },
+      {
+        "id": "PV.10.07",
+        "title": "get-passive 可用將來",
+        "dialogueNote": "will be damaged 並非必然比 will get damaged 更準確。"
+      },
+      {
+        "id": "PV.10.08",
+        "title": "get-passive 可以加 by",
+        "dialogueNote": "不是所有 get + 過去分詞都適合加 by。"
+      },
+      {
+        "id": "PV.10.09",
+        "title": "get oneself locked out 可表自己造成後果",
+        "dialogueNote": "get oneself 並不是每次都表示故意做這件事。"
+      },
+      {
+        "id": "PV.10.10",
+        "title": "get married 在日常英文很常見",
+        "dialogueNote": "married 在不同句子可像形容詞；不必硬要找一個做事的人。"
+      },
+      {
+        "id": "PV.10.11",
+        "title": "get dressed 不一定是被動事件",
+        "dialogueNote": "get dressed 不能機械地解作「被人替自己穿衣」。"
+      },
+      {
+        "id": "PV.10.12",
+        "title": "get lost 的意思不能按一般被動硬拆",
+        "dialogueNote": "get lost 也是固定口語說法，不能一律把 lost 當動作的被動。"
+      },
+      {
+        "id": "PV.10.13",
+        "title": "get 與 be 的選擇也跟語氣有關",
+        "dialogueNote": "兩句都是自然英文；不能說其中一句一定錯。"
+      },
+      {
+        "id": "PV.11.01",
+        "title": "give 可以把收到東西的人放在前面",
+        "dialogueNote": "兩種寫法都可以，選哪一種要看文章想突出甚麼。"
+      },
+      {
+        "id": "PV.11.02",
+        "title": "give 也可以把送出的東西放在前面",
+        "dialogueNote": "物品做主語時通常要保留 to。"
+      },
+      {
+        "id": "PV.11.03",
+        "title": "send 可以先說收到的人",
+        "dialogueNote": "兩種寫法都要保留正確的人和物，不能交換身份。"
+      },
+      {
+        "id": "PV.11.04",
+        "title": "tell 的被動常用人做主語",
+        "dialogueNote": "某些說法比其他說法更自然，不必強迫每個名詞都做主語。"
+      },
+      {
+        "id": "PV.11.05",
+        "title": "show 的被動可用兩種主語",
+        "dialogueNote": "show 後可能還有其他補充資料，要保留其意思。"
+      },
+      {
+        "id": "PV.11.06",
+        "title": "teach 的被動可以突出學生",
+        "dialogueNote": "taught 是 teach 的過去分詞，不是 teached。"
+      },
+      {
+        "id": "PV.11.07",
+        "title": "lend 可突出借入東西的人",
+        "dialogueNote": "lend 是借出；borrow 是向別人借入，方向要分清。"
+      },
+      {
+        "id": "PV.11.08",
+        "title": "offer 的被動可突出得到機會的人",
+        "dialogueNote": "offered 表示有人提供機會，不表示 May 已接受。"
+      },
+      {
+        "id": "PV.11.09",
+        "title": "buy 的物品被動通常用 for",
+        "dialogueNote": "不能把所有 to 的寫法都改成 for。"
+      },
+      {
+        "id": "PV.11.10",
+        "title": "explain 通常用 to 說明聽的人",
+        "dialogueNote": "不能把 give 的被動模式套到所有動詞。"
+      },
+      {
+        "id": "PV.11.11",
+        "title": "suggest 不能隨意用人做被動主語",
+        "dialogueNote": "可另說 It was suggested that we change the plan。"
+      },
+      {
+        "id": "PV.11.12",
+        "title": "ask 可以先說被問的人",
+        "dialogueNote": "不可把 question 漏掉，使句子失去原來內容。"
+      },
+      {
+        "id": "PV.12.01",
+        "title": "look after 的被動要保留 after",
+        "dialogueNote": "不要寫 The child was looked well。"
+      },
+      {
+        "id": "PV.12.02",
+        "title": "laugh at 的被動要保留 at",
+        "dialogueNote": "at 不可省去成為 He was laughed。"
+      },
+      {
+        "id": "PV.12.03",
+        "title": "speak to 的被動要保留 to",
+        "dialogueNote": "spoken 是 speak 的過去分詞。"
+      },
+      {
+        "id": "PV.12.04",
+        "title": "pay for 的被動要保留 for",
+        "dialogueNote": "The tickets have been paid 說法不同，未必能保持這裏的意思。"
+      },
+      {
+        "id": "PV.12.05",
+        "title": "look into 的被動可說正在調查",
+        "dialogueNote": "look into 這裏不是字面上的向裏面看。"
+      },
+      {
+        "id": "PV.12.06",
+        "title": "put off 的被動要保留 off",
+        "dialogueNote": "也可用 The meeting was postponed，語氣較正式。"
+      },
+      {
+        "id": "PV.12.07",
+        "title": "turn off 的被動也保留 off",
+        "dialogueNote": "turn off 在主動句可分開；被動句不應寫 were turned the lights off。"
+      },
+      {
+        "id": "PV.12.08",
+        "title": "make fun of 的被動保留整組字",
+        "dialogueNote": "這種長短語較複雜，日常亦可用 He was teased。"
+      },
+      {
+        "id": "PV.12.09",
+        "title": "take care of 的被動保留 of",
+        "dialogueNote": "不要只留下 taken care。"
+      },
+      {
+        "id": "PV.12.10",
+        "title": "listen to 的被動可突出被聆聽的人",
+        "dialogueNote": "不是所有介詞短語都能自然改成被動；仍要看用字。"
+      },
+      {
+        "id": "PV.12.11",
+        "title": "sleep in 的被動可突出床鋪",
+        "dialogueNote": "這種被動需要有意義的對象；不是所有地點短語都適合。"
+      },
+      {
+        "id": "PV.12.12",
+        "title": "send for 的被動表示找人前來",
+        "dialogueNote": "send for 不等於寄出給某人，意思要一起記。"
+      },
+      {
+        "id": "PV.12.13",
+        "title": "三部分動詞短語的被動要保留所有部分",
+        "dialogueNote": "這種被動較笨重；不少情況改寫主動句更自然。"
+      },
+      {
+        "id": "PV.12.14",
+        "title": "介詞被動不是任何句子都能強行造出",
+        "dialogueNote": "介詞被動的自然程度常取決於名詞和整句的意思。"
+      },
+      {
+        "id": "PV.13.01",
+        "title": "name 可以加一個新名字",
+        "dialogueNote": "Lucky 不需要加 by；它說的是名字，不是命名的人。"
+      },
+      {
+        "id": "PV.13.02",
+        "title": "elect 可以說選中某人做某職位",
+        "dialogueNote": "某些職位名稱前不用 a；視乎原本結構。"
+      },
+      {
+        "id": "PV.13.03",
+        "title": "appoint 可以加被委任的職位",
+        "dialogueNote": "appointed to manage the team 是另一種接法。"
+      },
+      {
+        "id": "PV.13.04",
+        "title": "consider 可以說大家怎樣評價某人",
+        "dialogueNote": "這種說法更接近「評價」，不一定是一次明確的動作。"
+      },
+      {
+        "id": "PV.13.05",
+        "title": "paint 的被動可以保留顏色",
+        "dialogueNote": "blue 在這裏不是被動動作的人，不用 by blue。"
+      },
+      {
+        "id": "PV.13.06",
+        "title": "keep 可以用 be kept 加形容詞",
+        "dialogueNote": "closed 在 kept 後是補充狀態的字。"
+      },
+      {
+        "id": "PV.13.07",
+        "title": "allow 的被動常接 to-infinitive",
+        "dialogueNote": "這裏 allowed 是許可，不表示訪客一定有拍照。"
+      },
+      {
+        "id": "PV.13.08",
+        "title": "forbid 的被動可說禁止事情",
+        "dialogueNote": "forbidden 也可接 from + -ing，但語氣和用法要看句子。"
+      },
+      {
+        "id": "PV.13.09",
+        "title": "expect 的被動常接 to",
+        "dialogueNote": "兩句的預期者不同，不能當成完全相同。"
+      },
+      {
+        "id": "PV.13.10",
+        "title": "require 的被動可接 to",
+        "dialogueNote": "be required to 比 be asked to 語氣通常較強。"
+      },
+      {
+        "id": "PV.13.11",
+        "title": "prevent 的被動常接 from + -ing",
+        "dialogueNote": "from 後用 leaving，不直接用 leave。"
+      },
+      {
+        "id": "PV.13.12",
+        "title": "blame 的被動可以接 for",
+        "dialogueNote": "be blamed for 與 be blamed on 的主語和意思不同。"
+      },
+      {
+        "id": "PV.13.13",
+        "title": "fill 的被動可配合 with",
+        "dialogueNote": "filled with 也可能只是描述結果狀態。"
+      },
+      {
+        "id": "PV.14.01",
+        "title": "It is said that 可說據說",
+        "dialogueNote": "據說不等於事實已確認。"
+      },
+      {
+        "id": "PV.14.02",
+        "title": "It was said that 可說以前有人這樣說",
+        "dialogueNote": "裏面 unsafe 的時間是否改變，還要看原意。"
+      },
+      {
+        "id": "PV.14.03",
+        "title": "It is believed that 可說有人相信",
+        "dialogueNote": "用 believed 時，要保留不完全確定的意思。"
+      },
+      {
+        "id": "PV.14.04",
+        "title": "It is reported that 可說據報",
+        "dialogueNote": "這類被動適合新聞、報告，日常也能用。"
+      },
+      {
+        "id": "PV.14.05",
+        "title": "It is expected that 可說預計",
+        "dialogueNote": "這裏的 it 沒有指一件實物。"
+      },
+      {
+        "id": "PV.14.06",
+        "title": "It has been decided that 可說已有決定",
+        "dialogueNote": "若需問責，可能要明確寫出誰作決定。"
+      },
+      {
+        "id": "PV.14.07",
+        "title": "Someone is said to do 可把人物放在前面",
+        "dialogueNote": "這句不是保證 Ben 真的在圖書館工作。"
+      },
+      {
+        "id": "PV.14.08",
+        "title": "Someone is believed to be 可把評價放在人物後",
+        "dialogueNote": "to be 不一定改成 to have been；要看時間。"
+      },
+      {
+        "id": "PV.14.09",
+        "title": "Someone is thought to have done 可說據信以前做過",
+        "dialogueNote": "to have left 在這裏是主動，因為 Ben 自己離開。"
+      },
+      {
+        "id": "PV.14.10",
+        "title": "Something is believed to have been done",
+        "dialogueNote": "這種寫法較長，適合較正式的報告。"
+      },
+      {
+        "id": "PV.14.11",
+        "title": "be reported to be doing 可說據報正在做",
+        "dialogueNote": "兩句的時間關係不同，不可混用。"
+      },
+      {
+        "id": "PV.14.12",
+        "title": "There is said to be 可表示據說有",
+        "dialogueNote": "這是較正式的接法；日常可說 People say there is a tunnel here。"
+      },
+      {
+        "id": "PV.14.13",
+        "title": "It was agreed that 可說大家同意",
+        "dialogueNote": "這個句型不一定說出每個同意的人。"
+      },
+      {
+        "id": "PV.14.14",
+        "title": "claim、say、suggest 的被動接法並不一樣",
+        "dialogueNote": "不要把 is said to 的結構套到每個報告動詞。"
+      },
+      {
+        "id": "PV.14.15",
+        "title": "報告被動可以保留不同時間",
+        "dialogueNote": "轉述時態不必每個動詞都機械地往回改。"
+      },
+      {
+        "id": "PV.15.01",
+        "title": "名詞後的過去分詞可以省去部分字",
+        "dialogueNote": "這種短寫法要確保讀者知道它在介紹哪個名詞。"
+      },
+      {
+        "id": "PV.15.02",
+        "title": "被動分詞短語可放在名詞後面",
+        "dialogueNote": "不要把 made by Dad 放到不相關的名詞後面。"
+      },
+      {
+        "id": "PV.15.03",
+        "title": "非限定分詞短語也可補充資料",
+        "dialogueNote": "逗號會影響讀者如何理解那段資料。"
+      },
+      {
+        "id": "PV.15.04",
+        "title": "過去分詞短語可放句首說原因",
+        "dialogueNote": "句首短語要配合後面真正談的人。"
+      },
+      {
+        "id": "PV.15.05",
+        "title": "過去分詞短語可以加 by",
+        "dialogueNote": "句首 helped 的人和主句 Ben 應是同一人。"
+      },
+      {
+        "id": "PV.15.06",
+        "title": "when 加過去分詞可以省去主語和 be",
+        "dialogueNote": "省略只在主語容易找到、意思清楚時自然。"
+      },
+      {
+        "id": "PV.15.07",
+        "title": "if 加過去分詞可說條件",
+        "dialogueNote": "省略後必須仍能知道是甚麼獲批。"
+      },
+      {
+        "id": "PV.15.08",
+        "title": "once 加過去分詞可說完成後",
+        "dialogueNote": "兩句的主語與責任可能不同，轉換時要小心。"
+      },
+      {
+        "id": "PV.15.09",
+        "title": "being 加過去分詞可縮短正在做的描述",
+        "dialogueNote": "不能把 being 一律刪除，否則時間可能改變。"
+      },
+      {
+        "id": "PV.15.10",
+        "title": "過去分詞本身有時只說已完成的狀態",
+        "dialogueNote": "不是每個過去分詞都能改成正在進行的 being。"
+      },
+      {
+        "id": "PV.15.11",
+        "title": "完成被動分詞短語用 having been",
+        "dialogueNote": "在上下文已清楚時，也可以用 Chosen for the role, May ...。"
+      },
+      {
+        "id": "PV.15.12",
+        "title": "分詞短語不能隨意配錯主語",
+        "dialogueNote": "寫句首短語時，要先檢查主句的主語。"
+      },
+      {
+        "id": "PV.15.13",
+        "title": "主動 -ing 與被動過去分詞不同",
+        "dialogueNote": "-ing 不一定代表被動；要看它和名詞的關係。"
+      },
+      {
+        "id": "PV.15.14",
+        "title": "不及物動詞的過去分詞不一定是被動",
+        "dialogueNote": "fallen、arrived 這些字不能一律當成真正被動句。"
+      },
+      {
+        "id": "PV.16.01",
+        "title": "be + 過去分詞有時主要描述狀態",
+        "dialogueNote": "這種 be + 分詞可能有形容詞意思，不必每次硬找做事的人。"
+      },
+      {
+        "id": "PV.16.02",
+        "title": "be + 過去分詞有時表示真正被動事件",
+        "dialogueNote": "兩句外形相似，但意思着重不同。"
+      },
+      {
+        "id": "PV.16.03",
+        "title": "seem 可幫助看出形容詞狀態",
+        "dialogueNote": "seem frightened 不等於有人正在嚇他。"
+      },
+      {
+        "id": "PV.16.04",
+        "title": "very 可以修飾一些形容詞式分詞",
+        "dialogueNote": "very 不適合直接放在所有被動動詞前面。"
+      },
+      {
+        "id": "PV.16.05",
+        "title": "remain 可以配合狀態分詞",
+        "dialogueNote": "remain locked 不等於「一直有人正在鎖」。"
+      },
+      {
+        "id": "PV.16.06",
+        "title": "be interested in 是感受接法",
+        "dialogueNote": "interested 的不同接法不一定是同一種意思。"
+      },
+      {
+        "id": "PV.16.07",
+        "title": "be worried about 常用來說擔心",
+        "dialogueNote": "worried 不一定暗示有特定人士令她擔心。"
+      },
+      {
+        "id": "PV.16.08",
+        "title": "be satisfied with 是狀態評價",
+        "dialogueNote": "這類分詞帶形容詞特點，不能只看 -ed 就當被動。"
+      },
+      {
+        "id": "PV.16.09",
+        "title": "be married to 是固定接法",
+        "dialogueNote": "不能把 to Ben 改成 by Ben 而保持這個意思。"
+      },
+      {
+        "id": "PV.16.10",
+        "title": "be made of 常說看得出原料",
+        "dialogueNote": "of 和 by 的意思不同，不能互換。"
+      },
+      {
+        "id": "PV.16.11",
+        "title": "be made from 常說原料已改變",
+        "dialogueNote": "of 和 from 有使用傾向，但並非每種物品都只能用其中一個。"
+      },
+      {
+        "id": "PV.16.12",
+        "title": "be covered with 可說表面有東西",
+        "dialogueNote": "covered with 常可表示狀態，不一定說覆蓋的動作。"
+      },
+      {
+        "id": "PV.16.13",
+        "title": "be located in 常說地點",
+        "dialogueNote": "is located in 通常不需要找一個「放店舖」的人。"
+      },
+      {
+        "id": "PV.16.14",
+        "title": "be known for 和 be known as 不同",
+        "dialogueNote": "known to 也不同，常說哪些人知道這件事。"
+      },
+      {
+        "id": "PV.16.15",
+        "title": "be supposed to 不一定是普通被動",
+        "dialogueNote": "這類固定接法不能只靠「被假設」的字面理解。"
+      },
+      {
+        "id": "PV.16.16",
+        "title": "半被動的分類在文法書中有差異",
+        "dialogueNote": "不同文法書對 semi-passive 和 adjectival passive 的名稱不完全一致。"
+      },
+      {
+        "id": "PV.17.01",
+        "title": "普通被動通常需要能接受動作的對象",
+        "dialogueNote": "有些動詞後有介詞時，另有特別被動接法。"
+      },
+      {
+        "id": "PV.17.02",
+        "title": "arrive 通常不能直接變被動",
+        "dialogueNote": "The station was reached by the train 是另一個動詞 reached 的接法。"
+      },
+      {
+        "id": "PV.17.03",
+        "title": "happen 不能用普通被動",
+        "dialogueNote": "It was reported that an accident happened 是 report 的被動。"
+      },
+      {
+        "id": "PV.17.04",
+        "title": "die 一般沒有普通被動",
+        "dialogueNote": "The tree was killed by disease 使用另一個動詞 kill。"
+      },
+      {
+        "id": "PV.17.05",
+        "title": "linking verbs 不能直接按受詞轉被動",
+        "dialogueNote": "不要看到動詞後有名詞就以為它一定是受詞。"
+      },
+      {
+        "id": "PV.17.06",
+        "title": "have 表示擁有時通常不用普通被動",
+        "dialogueNote": "have 在其他意思可以有不同接法，例如 lunch was had by all 在特定文體可能出現，但很少見。"
+      },
+      {
+        "id": "PV.17.07",
+        "title": "belong to 通常不改成被動",
+        "dialogueNote": "不能把有介詞的每個動詞都套成介詞被動。"
+      },
+      {
+        "id": "PV.17.08",
+        "title": "resemble 通常不作普通被動",
+        "dialogueNote": "在某些修辭或特殊語境可能有罕見用法；學生宜選自然句。"
+      },
+      {
+        "id": "PV.17.09",
+        "title": "consist of 通常不用普通被動",
+        "dialogueNote": "可用 The team is made up of six pupils，屬另一個接法。"
+      },
+      {
+        "id": "PV.17.10",
+        "title": "缺少受詞時不能直接變被動",
+        "dialogueNote": "加介詞後有新的接法，須保留 at。"
+      },
+      {
+        "id": "PV.17.11",
+        "title": "動詞詞義不同，能否被動也不同",
+        "dialogueNote": "先看動詞在句中的意思，再決定能否被動。"
+      },
+      {
+        "id": "PV.17.12",
+        "title": "有些動詞被動很少見，但不應亂說不可能",
+        "dialogueNote": "不自然與真正違反文法，應分開判斷。"
+      },
+      {
+        "id": "PV.18.01",
+        "title": "被動句的 not 放在第一個助動詞後",
+        "dialogueNote": "其他寫法可有強調，但學生先學這個常用位置。"
+      },
+      {
+        "id": "PV.18.02",
+        "title": "一般被動問句把第一個助動詞放前",
+        "dialogueNote": "不要寫 Has been the letter sent?。"
+      },
+      {
+        "id": "PV.18.03",
+        "title": "疑問詞可問被動的對象",
+        "dialogueNote": "兩句都自然，但問的事情不同。"
+      },
+      {
+        "id": "PV.18.04",
+        "title": "who ... by 可以問做事的人",
+        "dialogueNote": "Who broke the window? 是更簡單的主動問句。"
+      },
+      {
+        "id": "PV.18.05",
+        "title": "被動疑問詞也可問時間",
+        "dialogueNote": "不要把 was 放在 painted 後面。"
+      },
+      {
+        "id": "PV.18.06",
+        "title": "被動問句可問是否正在進行",
+        "dialogueNote": "選哪一句要看想問進度還是結果。"
+      },
+      {
+        "id": "PV.18.07",
+        "title": "被動反問尾句要配合第一個助動詞",
+        "dialogueNote": "反問尾句還要看前面肯定或否定。"
+      },
+      {
+        "id": "PV.18.08",
+        "title": "not all 和 none 的範圍不同",
+        "dialogueNote": "not all 也可能包括完全沒有清潔，不能硬說至少清潔了一間。"
+      },
+      {
+        "id": "PV.18.09",
+        "title": "被動句可以配合 only",
+        "dialogueNote": "放 only 的位置會改變意思，不能隨便移動。"
+      },
+      {
+        "id": "PV.18.10",
+        "title": "被動句的主語仍要正確配合動詞",
+        "dialogueNote": "不要只看最接近動詞的 names 就用 were。"
+      },
+      {
+        "id": "PV.18.11",
+        "title": "被動句可以省略重複動詞",
+        "dialogueNote": "若兩個動作發生在不同時間，可能需要分開寫動詞。"
+      },
+      {
+        "id": "PV.19.01",
+        "title": "做事的人不重要時，可省去",
+        "dialogueNote": "若事情要追究責任，就可能需要指出做事的人。"
+      },
+      {
+        "id": "PV.19.02",
+        "title": "不知道誰做事時常用被動",
+        "dialogueNote": "使用被動本身不表示做事的人永遠查不到。"
+      },
+      {
+        "id": "PV.19.03",
+        "title": "做事的人太明顯時可省去",
+        "dialogueNote": "需要指出哪個部門時，by 後的人或團體仍然重要。"
+      },
+      {
+        "id": "PV.19.04",
+        "title": "科學報告常用被動突出程序",
+        "dialogueNote": "現代學術文章也常用主動 we，不能把主動說成不正式。"
+      },
+      {
+        "id": "PV.19.05",
+        "title": "被動句有時能避開指出責任",
+        "dialogueNote": "被動可以是中性選擇，也可能用來避開責任；要看語境。"
+      },
+      {
+        "id": "PV.19.06",
+        "title": "故事可以沿用同一個主題",
+        "dialogueNote": "文章不必每句都用被動；清楚就可以。"
+      },
+      {
+        "id": "PV.19.07",
+        "title": "被動可以把新消息留到句尾",
+        "dialogueNote": "兩句事實相近，但注意力落在不同地方。"
+      },
+      {
+        "id": "PV.19.08",
+        "title": "被動有時比主動更禮貌",
+        "dialogueNote": "兩句都可能合適；要看說話場合。"
+      },
+      {
+        "id": "PV.19.09",
+        "title": "被動並不是每次都比較清楚",
+        "dialogueNote": "不要為了看起來正式而把所有句子改成被動。"
+      },
+      {
+        "id": "PV.19.10",
+        "title": "被動可以用來寫標示或指示",
+        "dialogueNote": "被動告示與主動指示都是自然做法。"
+      },
+      {
+        "id": "PV.20.01",
+        "title": "正式要求可用 that ... be 加過去分詞",
+        "dialogueNote": "這種 be 接法多見於正式英文，不能當成一般現在式。"
+      },
+      {
+        "id": "PV.20.02",
+        "title": "It is important that ... be 可說重要要求",
+        "dialogueNote": "這裏存在英美及語體差異，不可把 is 一律判錯。"
+      },
+      {
+        "id": "PV.20.03",
+        "title": "建議後面可用 should be",
+        "dialogueNote": "兩句都有建議意思，不能在無限制題目中只接受一個。"
+      },
+      {
+        "id": "PV.20.04",
+        "title": "if ... is repaired 可說可能發生的條件",
+        "dialogueNote": "要看整句是不是談真正有可能發生的事。"
+      },
+      {
+        "id": "PV.20.05",
+        "title": "if ... were repaired 可說與現實不同的想像",
+        "dialogueNote": "在非正式英文，if it was repaired 也常見；were 較正式。"
+      },
+      {
+        "id": "PV.20.06",
+        "title": "if ... had been repaired 可想像相反的過去",
+        "dialogueNote": "句子不一定明說事實沒有修好，但常有這個意思。"
+      },
+      {
+        "id": "PV.20.07",
+        "title": "would have been 可說過去本可能被做",
+        "dialogueNote": "假設背景很重要，不能只從 would 判斷。"
+      },
+      {
+        "id": "PV.20.08",
+        "title": "wish ... had been 可說對過去感到遺憾",
+        "dialogueNote": "wish 後並不是所有句子都用過去完成，需看時間。"
+      },
+      {
+        "id": "PV.20.09",
+        "title": "It's time ... was done 可說現在應該做",
+        "dialogueNote": "這類句子中的 was 不一定表示事情已發生。"
+      },
+      {
+        "id": "PV.20.10",
+        "title": "were to be 可說較遠的假設",
+        "dialogueNote": "were to be 在日常口語較少用。"
+      },
+      {
+        "id": "PV.20.11",
+        "title": "should the form be approved 可省去 if",
+        "dialogueNote": "這種倒裝較正式；不要誤當普通問句。"
+      },
+      {
+        "id": "PV.20.12",
+        "title": "passive imperative 可說 Be seated",
+        "dialogueNote": "不是所有動詞都可以自然寫成 be + 過去分詞的命令。"
+      },
+      {
+        "id": "PV.20.13",
+        "title": "Don't be fooled 可說不要受騙",
+        "dialogueNote": "兩句的做事者和受影響者不同。"
+      },
+      {
+        "id": "PV.20.14",
+        "title": "let it be known 是固定的正式表達",
+        "dialogueNote": "這是較正式或戲劇化的說法，不適合每次普通通知都用。"
+      },
+      {
+        "id": "PV.21.01",
+        "title": "Future Continuous Passive：will be being",
+        "dialogueNote": "這種被動非常少見；不要當作日常必背句型。"
+      },
+      {
+        "id": "PV.21.02",
+        "title": "Present Perfect Continuous Passive：has been being",
+        "dialogueNote": "這種被動很少用；不可說它絕對不合文法。"
+      },
+      {
+        "id": "PV.21.03",
+        "title": "Past Perfect Continuous Passive：had been being",
+        "dialogueNote": "這是極少見的重疊形式；寫文章宜改得簡單。"
+      },
+      {
+        "id": "PV.21.04",
+        "title": "Future Perfect Continuous Passive 的疊加非常生硬",
+        "dialogueNote": "這個組合的自然程度有爭議，應視為極邊緣用法，不能當作普通考題答案。"
+      },
+      {
+        "id": "PV.21.05",
+        "title": "modal perfect progressive passive 極少見",
+        "dialogueNote": "這種長動詞組只應作進階辨認，不宜強迫學生使用。"
+      },
+      {
+        "id": "PV.21.06",
+        "title": "need washing 可用主動 -ing 表示被動意思",
+        "dialogueNote": "needs washing 是常見標準用法，不是普通進行式。"
+      },
+      {
+        "id": "PV.21.07",
+        "title": "want washing 在英式口語可表示需要洗",
+        "dialogueNote": "這個 want 用法受地區和語體影響，不能當成全世界最常用。"
+      },
+      {
+        "id": "PV.21.08",
+        "title": "needs washed 在某些英語地區成立",
+        "dialogueNote": "正式一般英語教材應選 needs to be washed 或 needs washing；不要說方言使用者必然沒有文法。"
+      },
+      {
+        "id": "PV.21.09",
+        "title": "Middle construction：This book sells well",
+        "dialogueNote": "sells well 不必硬改成 is sold well。"
+      },
+      {
+        "id": "PV.21.10",
+        "title": "The door opens easily 不是普通被動",
+        "dialogueNote": "這類句子常稱 middle construction，名稱不必死記。"
+      },
+      {
+        "id": "PV.21.11",
+        "title": "The glass broke 可以沒有施事者",
+        "dialogueNote": "不要以為句子缺少做事的人，就一定要用被動。"
+      },
+      {
+        "id": "PV.21.12",
+        "title": "get given 在某些英語變體很自然",
+        "dialogueNote": "got given 的自然程度有地區和語體差異。"
+      },
+      {
+        "id": "PV.21.13",
+        "title": "舊時有 was building 的被動式用法",
+        "dialogueNote": "歷史用法只供辨認舊文章；現代學生不要照搬。"
+      },
+      {
+        "id": "PV.21.14",
+        "title": "be born 的寫法常用過去式",
+        "dialogueNote": "be born 的歷史和詞義較特別，不能照普通被動機械替換。"
+      },
+      {
+        "id": "PV.21.15",
+        "title": "by-phrase 並不是判斷被動的唯一證據",
+        "dialogueNote": "有 by 仍要看整句的意思，不能一律當成事件被動。"
+      },
+      {
+        "id": "PV.22.01",
+        "title": "關係子句裏也可用被動",
+        "dialogueNote": "關係子句省略規則仍適用，不能隨意刪去作主語的 that。"
+      },
+      {
+        "id": "PV.22.02",
+        "title": "間接問句裏要用陳述語序",
+        "dialogueNote": "不要寫 I wonder when was the parcel sent。"
+      },
+      {
+        "id": "PV.22.03",
+        "title": "被動也可以放在否定的報告句裏",
+        "dialogueNote": "未獲確認不等於已證實不會結業。"
+      },
+      {
+        "id": "PV.22.04",
+        "title": "被動可以出現在比較句中",
+        "dialogueNote": "不要因為兩句都比較而當成同一個意思。"
+      },
+      {
+        "id": "PV.22.05",
+        "title": "被動可以跟在 and 後面",
+        "dialogueNote": "若後半句主語不同，要寫清楚。"
+      },
+      {
+        "id": "PV.22.06",
+        "title": "被動可以放在 if 的另一半",
+        "dialogueNote": "兩句保留相同的條件，焦點卻不同。"
+      },
+      {
+        "id": "PV.22.07",
+        "title": "被動可以用在 There is 後的短語",
+        "dialogueNote": "不要把 There is 自身誤當被動動詞。"
+      },
+      {
+        "id": "PV.22.08",
+        "title": "被動句可以跟在 what 後面",
+        "dialogueNote": "這種句型較着重回答「被偷的是甚麼」。"
+      },
+      {
+        "id": "PV.22.09",
+        "title": "強調句 It was ... that 也能配合被動",
+        "dialogueNote": "這裏的 It was ... who 是強調結構，不可當成普通被動公式。"
+      },
+      {
+        "id": "PV.22.10",
+        "title": "被動可以與 only、even 一起出現",
+        "dialogueNote": "even 與 only 的意思不同，不可當成可互換。"
+      },
+      {
+        "id": "PV.22.11",
+        "title": "固定片語 be based on 常說資料根據",
+        "dialogueNote": "based on 常像形容詞短語，並不要求每次都指出做事的人。"
+      },
+      {
+        "id": "PV.22.12",
+        "title": "固定片語 be involved in 常說參與",
+        "dialogueNote": "involved in 並不一定等於有人正在使她參與。"
+      }
+    ]
+  },
+  "practice": {
+    "questionCount": 92,
+    "sevenStepExplanationCount": 644,
+    "questions": [
+      {
+        "diagnosticId": "D001",
+        "topic": "PV.02.03",
+        "answer": "are cleaned",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D002",
+        "topic": "PV.03.01",
+        "answer": "was written",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D003",
+        "topic": "PV.05.01",
+        "answer": "is being painted",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D004",
+        "topic": "PV.06.07",
+        "answer": "had been locked",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D005",
+        "topic": "PV.04.01",
+        "answer": "will be announced",
+        "correctOption": "D"
+      },
+      {
+        "diagnosticId": "D006",
+        "topic": "PV.04.04",
+        "answer": "be repainted",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D007",
+        "topic": "PV.06.10",
+        "answer": "will have been completed",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D008",
+        "topic": "PV.13.10",
+        "answer": "are required",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D009",
+        "topic": "PV.07.07",
+        "answer": "be opened by visitors",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D010",
+        "topic": "PV.10.05",
+        "answer": "got stolen",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D011",
+        "topic": "PV.11.01",
+        "answer": "was given",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D012",
+        "topic": "PV.12.05",
+        "answer": "looked into",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D013",
+        "topic": "PV.21.06",
+        "answer": "repairing",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D014",
+        "topic": "PV.08.08",
+        "answer": "being asked",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D015",
+        "topic": "PV.09.10",
+        "answer": "to wait",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D016",
+        "topic": "PV.03.01",
+        "answer": "was repaired",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D017",
+        "topic": "PV.01.09",
+        "answer": "by",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D018",
+        "topic": "PV.01.10",
+        "answer": "with",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D019",
+        "topic": "PV.14.03",
+        "answer": "is reported",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D020",
+        "topic": "PV.08.05",
+        "answer": "to have been repaired",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D021",
+        "topic": "PV.11.06",
+        "answer": "taught",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D022",
+        "topic": "PV.06.05",
+        "answer": "yet",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D023",
+        "topic": "PV.20.11",
+        "answer": "Should",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D024",
+        "topic": "PV.19.01",
+        "answer": "Workers will be repairing the road at noon",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D025",
+        "topic": "PV.02.03",
+        "answer": "are checked",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D026",
+        "topic": "PV.03.01",
+        "answer": "was written",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D027",
+        "topic": "PV.05.01",
+        "answer": "is being repaired",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D028",
+        "topic": "PV.05.05",
+        "answer": "were being cleaned",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D029",
+        "topic": "PV.06.01",
+        "answer": "have been sent",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D030",
+        "topic": "PV.06.07",
+        "answer": "had been locked",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D031",
+        "topic": "PV.04.01",
+        "answer": "will be announced",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D032",
+        "topic": "PV.04.04",
+        "answer": "are going to be replaced",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D033",
+        "topic": "PV.06.10",
+        "answer": "will have been finished",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D034",
+        "topic": "PV.07.06",
+        "answer": "must be washed",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D035",
+        "topic": "PV.07.09",
+        "answer": "should be closed",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D036",
+        "topic": "PV.07.14",
+        "answer": "might have been lost",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D037",
+        "topic": "PV.03.04",
+        "answer": "was not used",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D038",
+        "topic": "PV.08.01",
+        "answer": "to be signed",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D039",
+        "topic": "PV.08.08",
+        "answer": "being watched",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D040",
+        "topic": "PV.08.05",
+        "answer": "to have been deleted",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D041",
+        "topic": "PV.10.05",
+        "answer": "got damaged",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D042",
+        "topic": "PV.09.01",
+        "answer": "had my hair cut",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D043",
+        "topic": "PV.12.01",
+        "answer": "looked after",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D044",
+        "topic": "PV.12.02",
+        "answer": "laughed at",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D045",
+        "topic": "PV.11.01",
+        "answer": "was given",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D046",
+        "topic": "PV.14.03",
+        "answer": "It is believed that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D047",
+        "topic": "PV.20.03",
+        "answer": "be informed",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D048",
+        "topic": "PV.09.10",
+        "answer": "to wait",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D049",
+        "topic": "PV.03.02",
+        "answer": "The forms were checked this morning.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D050",
+        "topic": "PV.01.05",
+        "answer": "The message was sent yesterday.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D051",
+        "topic": "PV.05.01",
+        "answer": "The walls are being painted right now by the workers.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D052",
+        "topic": "PV.04.01",
+        "answer": "The bridge will be repaired next week.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D053",
+        "topic": "PV.06.01",
+        "answer": "The parcel has been delivered already.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D054",
+        "topic": "PV.03.04",
+        "answer": "The doors were not locked last night.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D055",
+        "topic": "PV.07.06",
+        "answer": "The plants must be watered daily.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D056",
+        "topic": "PV.08.08",
+        "answer": "He dislikes being watched.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D057",
+        "topic": "PV.09.10",
+        "answer": "Ben was made to wait outside.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D058",
+        "topic": "PV.12.01",
+        "answer": "The child was looked after well by the volunteers.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D059",
+        "topic": "PV.12.12",
+        "answer": "A doctor was sent for yesterday.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D060",
+        "topic": "PV.11.10",
+        "answer": "The plan was explained to us yesterday.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D061",
+        "topic": "PV.05.01",
+        "answer": "The report is being written now.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D062",
+        "topic": "PV.11.01",
+        "answer": "The prize was given to May.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D063",
+        "topic": "PV.08.01",
+        "answer": "The form needs to be signed today.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D064",
+        "topic": "PV.08.01",
+        "answer": "I hope to be invited to the event.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "D065",
+        "topic": "PV.03.08",
+        "answer": "Mia was praised by the teacher",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D066",
+        "topic": "PV.04.01",
+        "answer": "The road will be closed tomorrow",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D067",
+        "topic": "PV.05.05",
+        "answer": "The gate was being repaired at six",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D068",
+        "topic": "PV.06.06",
+        "answer": "The room has been cleaned twice this week",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D069",
+        "topic": "PV.11.01",
+        "answer": "Ben was given a book",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D070",
+        "topic": "PV.12.04",
+        "answer": "The meal was paid for",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D071",
+        "topic": "PV.09.10",
+        "answer": "We were made to wait",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D072",
+        "topic": "PV.06.07",
+        "answer": "The bike had been stolen before we arrived",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D073",
+        "topic": "PV.14.01",
+        "answer": "It is said that the shop is closing permanently",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D074",
+        "topic": "PV.09.01",
+        "answer": "I had my hair cut yesterday",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D075",
+        "topic": "PV.07.14",
+        "answer": "The painting may have been damaged",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D076",
+        "topic": "PV.11.07",
+        "answer": "Mia was appointed captain",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D077",
+        "topic": "PV.21.02",
+        "answer": "Someone has been painting the wall for hours",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D078",
+        "topic": "PV.19.03",
+        "answer": "Ben was arrested by the police",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D079",
+        "topic": "PV.05.01",
+        "answer": "Someone is painting it now",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D080",
+        "topic": "PV.06.01",
+        "answer": "Painting has already happened",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D081",
+        "topic": "PV.18.09",
+        "answer": "The checking did not cover every file",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D082",
+        "topic": "PV.09.09",
+        "answer": "The teacher caused Ben to wait",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D083",
+        "topic": "PV.08.05",
+        "answer": "Someone believes repair happened earlier",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D084",
+        "topic": "PV.01.10",
+        "answer": "The tool used",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D085",
+        "topic": "PV.01.09",
+        "answer": "Who wrote it",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D086",
+        "topic": "PV.09.05",
+        "answer": "Ben experienced a theft",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D087",
+        "topic": "PV.21.07",
+        "answer": "The coat needs to be washed",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "D088",
+        "topic": "PV.21.11",
+        "answer": "An active-form sentence about a change",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D089",
+        "topic": "PV.14.01",
+        "answer": "People say Ben works here",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D090",
+        "topic": "PV.09.12",
+        "answer": "Someone heard her singing",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "D091",
+        "topic": "PV.16.05",
+        "answer": "The door stayed in a locked state",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "D092",
+        "topic": "PV.07.07",
+        "answer": "Signing is forbidden",
+        "correctOption": "A"
+      }
+    ]
+  }
+}

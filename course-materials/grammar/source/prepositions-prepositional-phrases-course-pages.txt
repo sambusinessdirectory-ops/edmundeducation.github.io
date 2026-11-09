@@ -1,0 +1,6369 @@
+# Normalized source extraction
+# Original: Prepositions and Prepositional Phrases Curation｜英文介詞及介詞短語全面學習指南.pdf
+# Included PDF pages: 1–112 and 184–281, plus the PP.10.01 course rule restored from the transition page.
+# Excluded material: embedded production/chat messages between course volumes; no course rule is excluded.
+
+Prepositions and Prepositional Phrases｜
+英文介詞及介詞短語全面學習指南
+學生閱讀版 · 香港繁體書面語 · 由最基本句子逐步學到進階用法
+介詞是像 in、on、at、to、for、with、by 這些短字。它們可以說明時間、地點、方向、方法，也可以
+連接句子中的人和事物。這本指南會教你怎樣看懂它們、怎樣放在句子裏，以及怎樣分辨相近的
+寫法。
+**讀法：**先看簡單意思，再看英文例句和中文；接着看為甚麼這樣寫，最後比較另一句和留意例
+外。較難的內容放在後面。遇到不明白的地方，可以回去看前面的規則。
+幾個常用名稱：「名詞」是人、地方或事物的名稱，例如 desk、May、school。「主語」是句子主要說
+的人或事，例如 She is at home 的 She。「代字」是用 me、him、them、it 等字代替已提過的人或
+物。「-ing」表示 helping、waiting、reading 這類動詞寫法。
+**規則編號：**例如 PP.02.03，只是幫助你找回同一條規則；不用背編號。英文介詞和固定配搭
+很多，這本書整理常見規則及重要的進階接法，不會把每一個字典意思都當作一條要死記的規
+則。
+
+PART I — Grammar System Overview｜先
+認識整個系統
+I.1 甚麼是介詞短語？
+介詞常跟着一個人、地方或事物。兩者合起來，就是介詞短語。例如：
+介詞短語
+
+句子
+
+這組字做甚麼
+
+on the desk
+
+The keys are on the desk.
+
+說鎖匙的位置
+
+after school
+
+We play after school.
+
+說玩的時間
+
+with a pen
+
+Write with a pen.
+
+說使用的工具
+
+for my
+sister
+
+I made a card for my
+sister.
+
+說為誰做事
+
+不是每個介詞短語都在說位置。同一個字也可能有幾種意思，所以先看整句想表達甚麼。
+
+I.2 每次選介詞，先問五個問題
+1.​ 這句在說地方、時間、移動、方法，還是人和事物的關係？
+2.​ 我想說的是在哪裏，還是往哪裏去？
+3.​ 我想說的是幾時發生、持續多久，還是最遲何時完成？
+4.​ 前面的動詞、形容詞或名詞有沒有常用的固定接法？
+5.​ 整組字放進句子後，是否仍然自然？有沒有另一個寫法也正確，但意思不同？
+
+I.3 學習次序
+階段
+
+應先學的內容
+
+一：基本
+
+介詞跟甚麼字、地點、方向、時間
+
+二：常用
+
+原因、方法、比較、動詞／形容詞／名詞配搭
+
+三：進階
+
+多字介詞、長句、正式寫法、問句、被動句及例外
+
+PART II — Complete Hierarchical Rule
+Inventory｜規則索引
+你可以按學習次序閱讀，也可以用規則編號查找。
+
+PP.01 — 先學基本寫法：介詞和介詞短語
+●​ PP.01.01 — 介詞用來連接資料
+●​ PP.01.02 — 介詞後面常接名詞
+●​ PP.01.03 — 介詞後面可接代字
+●​ PP.01.04 — 介詞加後面的字是一組
+●​ PP.01.05 — 短語可以說明動作
+●​ PP.01.06 — 短語也可以描述名詞
+●​ PP.01.07 — 有些字可用不同方法分類
+
+●​ PP.01.08 — 介詞後面不一定只有一個字
+●​ PP.01.09 — 介詞後面可以接 -ing
+●​ PP.01.10 — 介詞 to 和動詞前的 to 要分開
+●​ PP.01.11 — 介詞不一定每次都要改
+●​ PP.01.12 — 句子末尾可以有介詞
+●​ PP.01.13 — 沒有介詞也可能正確
+●​ PP.01.14 — 介詞的意思要看整句
+●​ PP.01.15 — 先分清必要資料和額外資料
+
+PP.02 — 地點：in、on、at 和附近位置
+●​ PP.02.01 — in：在一個空間或範圍內
+●​ PP.02.02 — on：接觸表面
+●​ PP.02.03 — at：把地點當作一個位置
+●​ PP.02.04 — at 與 in the school
+●​ PP.02.05 — on the bus 與 in the car
+●​ PP.02.06 — on the first floor
+●​ PP.02.07 — at an address
+●​ PP.02.08 — at home 與 in the house
+●​ PP.02.09 — in bed 與 on the bed
+●​ PP.02.10 — in a picture 與 on a screen
+●​ PP.02.11 — at the table 與 on the table
+●​ PP.02.12 — in a queue 與 at the front
+●​ PP.02.13 — on the left 與 to the left of
+●​ PP.02.14 — inside 與 outside
+●​ PP.02.15 — near 與 next to
+●​ PP.02.16 — beside 與 besides
+●​ PP.02.17 — in front of 與 behind
+●​ PP.02.18 — opposite 與 across from
+
+PP.03 — 方向和移動：由哪裏到哪裏
+●​ PP.03.01 — to：走向一個目的地
+●​ PP.03.02 — towards：朝某個方向
+●​ PP.03.03 — from：由某處出發
+●​ PP.03.04 — into：移動到裏面
+●​ PP.03.05 — onto：移動到表面上
+●​ PP.03.06 — out of：從裏面出去
+
+●​ PP.03.07 — off：離開表面
+●​ PP.03.08 — up 與 down：沿上下方向
+●​ PP.03.09 — along：沿着一條路線
+●​ PP.03.10 — across：由一邊到另一邊
+●​ PP.03.11 — through：由裏面穿過
+●​ PP.03.12 — over：越過上方
+●​ PP.03.13 — past：經過而繼續向前
+●​ PP.03.14 — round／around：繞着或在附近
+●​ PP.03.15 — via：途經某處或方法
+●​ PP.03.16 — arrive at 與 arrive in
+●​ PP.03.17 — enter 與 go into
+●​ PP.03.18 — reach 與 get to
+
+PP.04 — 距離、上下、內外和範圍
+●​ PP.04.01 — above：位置較高
+●​ PP.04.02 — over 與 above
+●​ PP.04.03 — under：在下面
+●​ PP.04.04 — below 與 under
+●​ PP.04.05 — beneath／underneath
+●​ PP.04.06 — between：分別看清的對象
+●​ PP.04.07 — among：在一群之中
+●​ PP.04.08 — between 時間和數字
+●​ PP.04.09 — against：貼着、碰着
+●​ PP.04.10 — within：在範圍之內
+●​ PP.04.11 — beyond：超過界線
+●​ PP.04.12 — throughout：遍及整個範圍
+●​ PP.04.13 — by：靠近
+●​ PP.04.14 — opposite：面對另一邊
+●​ PP.04.15 — in the middle of 與 in the centre of
+
+PP.05 — 時間：幾時發生？
+●​ PP.05.01 — at + 鐘點
+●​ PP.05.02 — on + 星期和日期
+●​ PP.05.03 — in + 月份、年份和季節
+●​ PP.05.04 — in the morning／afternoon／evening
+●​ PP.05.05 — on a particular morning
+
+●​ PP.05.06 — at night 與 in the night
+●​ PP.05.07 — at the weekend／on the weekend
+●​ PP.05.08 — in the holidays／on holiday
+●​ PP.05.09 — at Christmas 與 on Christmas Day
+●​ PP.05.10 — 時間字前不用重複加介詞
+●​ PP.05.11 — at the moment 與 for the moment
+●​ PP.05.12 — on time：準時
+●​ PP.05.13 — in time：趕得及
+●​ PP.05.14 — at the end of 與 in the end
+●​ PP.05.15 — at first 與 for the first time
+●​ PP.05.16 — at the beginning of 與 in the beginning
+●​ PP.05.17 — at age ten
+●​ PP.05.18 — from ... to ...：時間起點終點
+
+PP.06 — 時間長度、先後、截止日期
+●​ PP.06.01 — for：一段時間
+●​ PP.06.02 — since：由某個時間開始
+●​ PP.06.03 — during：事情在某段時間裏發生
+●​ PP.06.04 — while 與 during
+●​ PP.06.05 — by：最遲在某時完成
+●​ PP.06.06 — until：一直到某個時間
+●​ PP.06.07 — not ... until：到了那時才發生
+●​ PP.06.08 — before：在某時之前
+●​ PP.06.09 — after：在某時之後
+●​ PP.06.10 — within：限時之內
+●​ PP.06.11 — in + 時間：多久後
+●​ PP.06.12 — in + 時間：用多久完成
+●​ PP.06.13 — for 與 over：整段時間或其間
+●​ PP.06.14 — throughout：整段期間
+●​ PP.06.15 — from now on：由現在起
+●​ PP.06.16 — as of：由某個日期起
+●​ PP.06.17 — pending：等候某件事期間
+
+PP.07 — 方法、原因、對象和用途
+●​ PP.07.01 — by + 交通工具：怎樣去
+●​ PP.07.02 — by + 動作：怎樣做到
+
+●​ PP.07.03 — with + 工具
+●​ PP.07.04 — by + 被動句的動作者
+●​ PP.07.05 — with + 一起的人
+●​ PP.07.06 — without：沒有某樣東西
+●​ PP.07.07 — for：為了某人
+●​ PP.07.08 — to：交給誰
+●​ PP.07.09 — for + 目的
+●​ PP.07.10 — for + -ing：物件用途
+●​ PP.07.11 — of：部分和整體
+●​ PP.07.12 — made of 與 made from
+●​ PP.07.13 — made by 與 made with
+●​ PP.07.14 — from：來源
+●​ PP.07.15 — about：談論內容
+●​ PP.07.16 — against：反對
+●​ PP.07.17 — in：穿着或用某種語言
+●​ PP.07.18 — at：速度和價格
+●​ PP.07.19 — per：每一單位
+
+PP.08 — 比較、相似、除外和讓步
+●​ PP.08.01 — like：像某人或某物
+●​ PP.08.02 — as：以某個身份
+●​ PP.08.03 — unlike：跟……不同
+●​ PP.08.04 — compared with／to：拿來比較
+●​ PP.08.05 — than：在比較詞後面
+●​ PP.08.06 — between ... and：比較兩者
+●​ PP.08.07 — besides：除……之外還有
+●​ PP.08.08 — except：把某個排除
+●​ PP.08.09 — except for：先說整體，再指出例外
+●​ PP.08.10 — including：把某項包括在內
+●​ PP.08.11 — despite：雖然有阻礙
+●​ PP.08.12 — in spite of：雖然有阻礙
+●​ PP.08.13 — despite + -ing
+●​ PP.08.14 — regardless of：不論某個條件
+●​ PP.08.15 — according to：根據資料
+●​ PP.08.16 — as well as：還有
+●​ PP.08.17 — instead of：用一樣代替另一樣
+
+PP.09 — 動詞和介詞：常用的固定接法
+●​ PP.09.01 — listen to 與 hear
+●​ PP.09.02 — look at：把目光放在哪裏
+●​ PP.09.03 — wait for 與 await
+●​ PP.09.04 — depend on：取決於
+●​ PP.09.05 — belong to：屬於誰
+●​ PP.09.06 — agree with／on／to：意思不同
+●​ PP.09.07 — apologise to／for
+●​ PP.09.08 — ask for／ask about
+●​ PP.09.09 — talk to／with／about
+●​ PP.09.10 — reply to 與 answer
+●​ PP.09.11 — pay for 與 pay someone
+●​ PP.09.12 — spend on：花在甚麼上
+●​ PP.09.13 — apply for 與 apply to
+●​ PP.09.14 — borrow from 與 lend to
+●​ PP.09.15 — leave for 與 leave
+●​ PP.09.16 — search for 與 search
+●​ PP.09.17 — complain about／to
+●​ PP.09.18 — insist on：堅持
+●​ PP.09.19 — succeed in：成功做到
+●​ PP.09.20 — prevent ... from：阻止某事發生
+●​ PP.09.21 — protect ... from／against
+●​ PP.09.22 — remind ... of／about
+●​ PP.09.23 — accuse ... of
+●​ PP.09.24 — thank ... for
+●​ PP.09.25 — provide ... with／for
+●​ PP.09.26 — result in／from
+●​ PP.09.27 — consist of
+●​ PP.09.28 — participate in
+●​ PP.09.29 — think about／of
+●​ PP.09.30 — discuss／mention：不用多加 about
+
+PP.10 — 形容詞後面常接甚麼介詞？
+●​ PP.10.01 — good at：擅長
+●​ PP.10.02 — bad at 與 bad for
+●​ PP.10.03 — interested in
+
+●​ PP.10.04 — afraid of
+●​ PP.10.05 — worried about
+●​ PP.10.06 — proud of
+●​ PP.10.07 — kind to
+●​ PP.10.08 — angry with／at／about
+●​ PP.10.09 — happy about／with／for
+●​ PP.10.10 — surprised at／by
+●​ PP.10.11 — responsible for
+●​ PP.10.12 — famous for／as
+●​ PP.10.13 — full of
+●​ PP.10.14 — different from／to／than
+●​ PP.10.15 — similar to
+●​ PP.10.16 — married to
+●​ PP.10.17 — pleased with／about
+●​ PP.10.18 — ready for／to
+●​ PP.10.19 — tired of／from
+●​ PP.10.20 — used to doing／used to do
+●​ PP.10.21 — capable of
+●​ PP.10.22 — aware of
+
+PP.11 — 名詞後面接介詞：說清楚關係
+●​ PP.11.01 — reason for
+●​ PP.11.02 — cause of
+●​ PP.11.03 — effect on
+●​ PP.11.04 — solution to
+●​ PP.11.05 — answer to
+●​ PP.11.06 — invitation to
+●​ PP.11.07 — interest in
+●​ PP.11.08 — knowledge of
+●​ PP.11.09 — increase in／by／to
+●​ PP.11.10 — difference between／in
+●​ PP.11.11 — relationship with／between
+●​ PP.11.12 — access to
+●​ PP.11.13 — need for
+●​ PP.11.14 — attitude towards
+●​ PP.11.15 — photo of／by
+●​ PP.11.16 — key to／door to
+
+PP.12 — 多字介詞和常見固定短語
+●​ PP.12.01 — because of：因為某件事
+●​ PP.12.02 — due to：由於
+●​ PP.12.03 — owing to：由於
+●​ PP.12.04 — thanks to：因為有某種幫助
+●​ PP.12.05 — in front of：在前面
+●​ PP.12.06 — in addition to：另外加上
+●​ PP.12.07 — apart from：除……以外
+●​ PP.12.08 — as a result of：由於某個結果的原因
+●​ PP.12.09 — in case of：如果發生
+●​ PP.12.10 — according to：按照規則
+●​ PP.12.11 — on behalf of：代表
+●​ PP.12.12 — with regard to：關於
+●​ PP.12.13 — in terms of：就某個方面而言
+●​ PP.12.14 — instead of：代替
+●​ PP.12.15 — in place of：代替某人或某物
+●​ PP.12.16 — in accordance with：按照
+●​ PP.12.17 — by means of：透過某種方法
+●​ PP.12.18 — with the help of：在某人幫助下
+●​ PP.12.19 — prior to／subsequent to
+●​ PP.12.20 — along with：連同
+●​ PP.12.21 — up to：最多、直到或由誰決定
+●​ PP.12.22 — out of：沒有、用完
+
+PP.13 — 介詞短語在句子裏的工作
+●​ PP.13.01 — 介詞短語可放句尾
+●​ PP.13.02 — 介詞短語可放句首
+●​ PP.13.03 — 介詞短語可以描述前面的名詞
+●​ PP.13.04 — 介詞短語可以放在 be 後面
+●​ PP.13.05 — 介詞短語可補足動詞意思
+●​ PP.13.06 — 介詞短語可補足形容詞意思
+●​ PP.13.07 — 介詞後面接代字的寫法
+●​ PP.13.08 — between you and me
+●​ PP.13.09 — 介詞後面接 -ing 活動
+●​ PP.13.10 — 介詞後面接 what 等字
+●​ PP.13.11 — 介詞後面還可接另一組短語
+
+●​ PP.13.12 — 介詞後面可接 here／there
+●​ PP.13.13 — just 等字可放在介詞前
+●​ PP.13.14 — 問句可把疑問字放在前面
+●​ PP.13.15 — 正式問句可把介詞一起移前
+●​ PP.13.16 — 關係句也可把介詞留在後面
+●​ PP.13.17 — 被動句有時也保留句尾介詞
+●​ PP.13.18 — 介詞短語可以加入問句中
+●​ PP.13.19 — 介詞短語可連接兩個相同用途的資料
+●​ PP.13.20 — 不要隨便重複已搬到前面的對象
+
+PP.14 — 進階句型、語氣、範圍和少見用法
+●​ PP.14.01 — 介詞短語也可以作一句話的主題
+●​ PP.14.02 — 句首地點有時令動詞放在主語前
+●​ PP.14.03 — 句首地點也可以用普通字序
+●​ PP.14.04 — there is／are 加地點
+●​ PP.14.05 — 介詞短語可以放在強調句中
+●​ PP.14.06 — 同一句有兩個介詞短語
+●​ PP.14.07 — 介詞短語可能有兩個解讀
+●​ PP.14.08 — only 會影響強調的部分
+●​ PP.14.09 — even 可以表示出乎意料
+●​ PP.14.10 — 否定字與介詞短語
+●​ PP.14.11 — not until 放句首的較難句型
+●​ PP.14.12 — 介詞短語和 if 句
+●​ PP.14.13 — without 與否定條件
+●​ PP.14.14 — of + 一部分
+●​ PP.14.15 — each of 與 every one of
+●​ PP.14.16 — one in three：比例
+●​ PP.14.17 — with + 名詞的額外資料
+●​ PP.14.18 — without + -ing 的行動者
+●​ PP.14.19 — before／after + 完整句子
+●​ PP.14.20 — because／since + 完整句子
+●​ PP.14.21 — except + 不同形式
+●​ PP.14.22 — 介詞後的完整問句內容
+●​ PP.14.23 — 介詞和副詞有時長得一樣
+●​ PP.14.24 — up 和 up to 的接法不同
+●​ PP.14.25 — 句尾介詞可留在短答中
+●​ PP.14.26 — off of 的地域差別
+
+●​ PP.14.27 — upon 和 on
+●​ PP.14.28 — ago 和 before 的時間方向
+●​ PP.14.29 — 不同文法書的分類不完全相同
+
+PP.15 — 容易漏掉的數量、用法和特殊接法
+●​ PP.15.01 — for + 交換的價錢
+●​ PP.15.02 — for 與 in 的否定時間用法
+●​ PP.15.03 — by hand 與 with your hands
+●​ PP.15.04 — over：超過數目
+●​ PP.15.05 — under／below：少於或低於
+●​ PP.15.06 — about／around：大約
+●​ PP.15.07 — of mine：屬於我的其中一樣
+●​ PP.15.08 — for someone to do：讓某人去做
+●​ PP.15.09 — too ... for someone：對某人來說太……
+●​ PP.15.10 — with + 名詞 + -ing：同時發生
+●​ PP.15.11 — regarding／concerning：關於
+●​ PP.15.12 — following：在某事之後
+●​ PP.15.13 — given：考慮到
+●​ PP.15.14 — notwithstanding：儘管
+●​ PP.15.15 — versus／vs：兩方相對
+
+PART III — Comprehensive Rule
+Encyclopedia｜逐條規則和六步教學
+每條規則先教最重要的意思，然後才講較難的限制。
+
+PP.01 — 先學基本寫法：介詞和介詞短語
+PP.01.01 — 介詞用來連接資料
+① 先明白意思
+介詞可以說明地點、時間，或人和事物的關係。
+② 看英文例句
+
+The keys are on the desk.
+③ 看中文意思
+鎖匙在書桌上。
+④ 看為甚麼這樣寫
+on 把 keys 和 desk 的位置連起來。
+⑤ 比較接近的寫法
+The keys are in the drawer.
+in 表示鎖匙在抽屜裏。換了介詞，位置就不同。
+⑥ 最後看限制或例外
+同一個介詞可有幾種意思，要連同整句理解。
+
+PP.01.02 — 介詞後面常接名詞
+① 先明白意思
+介詞後面常接人、地方或事物的名稱。
+② 看英文例句
+We waited near the station.
+③ 看中文意思
+我們在車站附近等候。
+④ 看為甚麼這樣寫
+near 後面接 the station，交代位置。
+⑤ 比較接近的寫法
+We waited outside the station.
+outside 表示在車站外面，位置比 near 更清楚。
+⑥ 最後看限制或例外
+有些介詞也可以接其他寫法，後面會逐步學到。
+
+PP.01.03 — 介詞後面可接代字
+① 先明白意思
+介詞後面說到一個人時，常用 me、him、her、us、them。
+② 看英文例句
+Please sit beside me.
+③ 看中文意思
+請坐在我旁邊。
+④ 看為甚麼這樣寫
+beside 後面用 me，因為這裏是被提到的人。
+⑤ 比較接近的寫法
+Please sit beside I.
+I 不能直接放在 beside 後面表示這個意思。
+⑥ 最後看限制或例外
+you 和 it 的寫法不會因這個位置而改變。
+
+PP.01.04 — 介詞加後面的字是一組
+① 先明白意思
+介詞和後面的人或事物，可以合起來說明一句話。
+② 看英文例句
+The cat slept under the table.
+③ 看中文意思
+貓在桌子下面睡覺。
+④ 看為甚麼這樣寫
+under the table 整組說明貓在哪裏。
+⑤ 比較接近的寫法
+
+The cat slept on the table.
+on the table 表示貓在桌面上。
+⑥ 最後看限制或例外
+這一組字可放在句子不同位置，但意思要保持清楚。
+
+PP.01.05 — 短語可以說明動作
+① 先明白意思
+介詞短語可以告訴我們事情在哪裏發生。
+② 看英文例句
+We played in the park.
+③ 看中文意思
+我們在公園玩耍。
+④ 看為甚麼這樣寫
+in the park 說明 played 發生的地方。
+⑤ 比較接近的寫法
+We played after lunch.
+after lunch 說明時間，不是地方。
+⑥ 最後看限制或例外
+介詞短語也可以說明原因、方法和其他資料。
+
+PP.01.06 — 短語也可以描述名詞
+① 先明白意思
+介詞短語可以放在名詞後，幫我們認出是哪一個。
+② 看英文例句
+The girl in the red coat is May.
+③ 看中文意思
+
+穿紅色外套的女孩是 May。
+④ 看為甚麼這樣寫
+in the red coat 說明是哪位女孩。
+⑤ 比較接近的寫法
+The girl beside the door is May.
+beside the door 用位置說明是哪位女孩。
+⑥ 最後看限制或例外
+短語描述名詞時，要留意它接近哪個名詞。
+
+PP.01.07 — 有些字可用不同方法分類
+① 先明白意思
+同一個短字，放在不同句子中可能做不同工作。
+② 看英文例句
+The bag is on the chair.
+③ 看中文意思
+袋子在椅子上。
+④ 看為甚麼這樣寫
+on 後面接 the chair，清楚說出位置。
+⑤ 比較接近的寫法
+Please turn on the light.
+turn on 在這句表示開燈，不能只把 on 當作位置。
+⑥ 最後看限制或例外
+有些文法書對這些字的分類不同；先看整句的意思和接法。
+
+PP.01.08 — 介詞後面不一定只有一個字
+① 先明白意思
+
+介詞後面可以接一長組字，完整說出對象。
+② 看英文例句
+The dog ran towards the old wooden gate.
+③ 看中文意思
+狗向那道舊木門跑去。
+④ 看為甚麼這樣寫
+towards 後面整組 the old wooden gate 都是目的方向。
+⑤ 比較接近的寫法
+The dog ran towards it.
+it 可以代替那組名詞。
+⑥ 最後看限制或例外
+不要把介詞插進 the old wooden gate 這組字的中間。
+
+PP.01.09 — 介詞後面可以接 -ing
+① 先明白意思
+說某項活動時，介詞後面常用動詞加 -ing。
+② 看英文例句
+She left without saying goodbye.
+③ 看中文意思
+她沒有道別就離開了。
+④ 看為甚麼這樣寫
+without 後面用 saying，說明她沒有做甚麼。
+⑤ 比較接近的寫法
+She left without to say goodbye.
+在這個寫法中，without 後面不能直接用 to say。
+
+⑥ 最後看限制或例外
+這裏的 -ing 表示活動，不一定表示事情正在發生。
+
+PP.01.10 — 介詞 to 和動詞前的 to 要分開
+① 先明白意思
+to 有時連接對象，有時幫忙組成 to + 動詞。
+② 看英文例句
+I look forward to seeing you.
+③ 看中文意思
+我期待見到你。
+④ 看為甚麼這樣寫
+這裏的 to 屬於 look forward to，後面用 seeing。
+⑤ 比較接近的寫法
+I hope to see you.
+hope 後面的 to see 是另一種寫法，動詞用 see。
+⑥ 最後看限制或例外
+不能只看見 to，就認定後面一定用動詞本來的寫法。
+
+PP.01.11 — 介詞不一定每次都要改
+① 先明白意思
+有些動詞後面的介詞是固定配搭，要一起記。
+② 看英文例句
+Please listen to the teacher.
+③ 看中文意思
+請聽老師說話。
+④ 看為甚麼這樣寫
+
+英文常用 listen to + 人或聲音。
+⑤ 比較接近的寫法
+Please hear the teacher.
+hear 可直接接 the teacher，不需要 to。
+⑥ 最後看限制或例外
+不要把某一個動詞的介詞，套用到所有相近動詞上。
+
+PP.01.12 — 句子末尾可以有介詞
+① 先明白意思
+問問題時，介詞有時自然地留在句尾。
+② 看英文例句
+Who are you waiting for?
+③ 看中文意思
+你在等誰？
+④ 看為甚麼這樣寫
+for 仍然連接被等候的人，雖然 who 放在句首。
+⑤ 比較接近的寫法
+For whom are you waiting?
+這是較正式的寫法，意思大致相同。
+⑥ 最後看限制或例外
+不能把「句尾一定不可有介詞」當作英文文法規則。
+
+PP.01.13 — 沒有介詞也可能正確
+① 先明白意思
+有些時間用語前面，通常不用加 at、on 或 in。
+② 看英文例句
+
+We met last Friday.
+③ 看中文意思
+我們上星期五見面。
+④ 看為甚麼這樣寫
+last Friday 已經說明時間。
+⑤ 比較接近的寫法
+We met on Friday.
+普通的 Friday 前面可以用 on。
+⑥ 最後看限制或例外
+this、next、every、last 等字起首的常見時間用語，通常不用多加介詞。
+
+PP.01.14 — 介詞的意思要看整句
+① 先明白意思
+相同的介詞，在不同情況可以說不同關係。
+② 看英文例句
+I made a card for Mum.
+③ 看中文意思
+我為媽媽做了一張卡。
+④ 看為甚麼這樣寫
+for 說明這張卡是為誰做的。
+⑤ 比較接近的寫法
+I waited for Mum.
+這句的 for 屬於 wait for，說明我等的是誰。
+⑥ 最後看限制或例外
+遇到不熟悉的意思，要查整組用法，不能只逐字翻譯。
+
+PP.01.15 — 先分清必要資料和額外資料
+① 先明白意思
+有些介詞短語補足意思，有些只補充背景。
+② 看英文例句
+This book belongs to Sam.
+③ 看中文意思
+這本書屬於 Sam。
+④ 看為甚麼這樣寫
+belongs 後面的 to Sam 說出書屬於誰。
+⑤ 比較接近的寫法
+Sam reads in the library.
+in the library 只是補充閱讀的地方。
+⑥ 最後看限制或例外
+不能只靠短語的位置，判斷它能不能省去。
+
+PP.02 — 地點：in、on、at 和附近位置
+PP.02.01 — in：在一個空間或範圍內
+① 先明白意思
+說某物在房間或範圍裏，常用 in。
+② 看英文例句
+The children are in the classroom.
+③ 看中文意思
+孩子們在課室裏。
+④ 看為甚麼這樣寫
+in 表示人在課室這個空間內。
+
+⑤ 比較接近的寫法
+The children are at the classroom door.
+at 說的是課室門口這個位置。
+⑥ 最後看限制或例外
+in 也可用於城市、國家和較大的地區。
+
+PP.02.02 — on：接觸表面
+① 先明白意思
+說東西在桌面、牆上或其他表面，常用 on。
+② 看英文例句
+There is a map on the wall.
+③ 看中文意思
+牆上有一張地圖。
+④ 看為甚麼這樣寫
+on 讓我們知道地圖貼在牆的表面。
+⑤ 比較接近的寫法
+There is a map in the cupboard.
+in 表示地圖放在櫃裏。
+⑥ 最後看限制或例外
+on 不一定表示在上方；牆上的圖片也用 on。
+
+PP.02.03 — at：把地點當作一個位置
+① 先明白意思
+說人在哪個位置等候或做事，常用 at。
+② 看英文例句
+We met at the bus stop.
+
+③ 看中文意思​
+我們在巴士站見面。
+④ 看為甚麼這樣寫
+at 把巴士站當作見面的地點。
+⑤ 比較接近的寫法
+We met on the bus.
+on the bus 表示在巴士上見面。
+⑥ 最後看限制或例外
+at 也可以用於公司、學校或活動地點。
+
+PP.02.04 — at 與 in the school
+① 先明白意思
+同一個地方可以着重活動，也可以着重建築物內部。
+② 看英文例句
+The children are at school.
+③ 看中文意思
+孩子們在學校上課。
+④ 看為甚麼這樣寫
+at school 常用來說人在上學。
+⑤ 比較接近的寫法
+The children are in the school hall.
+這句明確說孩子在學校禮堂裏。
+⑥ 最後看限制或例外
+說到特定建築物時，at the school 和 in the school 都可用，着重點不同。
+
+PP.02.05 — on the bus 與 in the car
+① 先明白意思
+
+坐巴士、火車等公共交通工具，常用 on。
+② 看英文例句
+She is on the train.
+③ 看中文意思
+她在火車上。
+④ 看為甚麼這樣寫
+on the train 是常見的乘車位置說法。
+⑤ 比較接近的寫法
+She is in the car.
+普通小汽車內一般用 in the car。
+⑥ 最後看限制或例外
+on a plane、on a ship 也常見；較小的私人交通工具未必完全照搬。
+
+PP.02.06 — on the first floor
+① 先明白意思
+說大廈的樓層，通常用 on。
+② 看英文例句
+The office is on the third floor.
+③ 看中文意思
+辦公室在三樓。
+④ 看為甚麼這樣寫
+on the third floor 說出所在樓層。
+⑤ 比較接近的寫法
+The office is in the building.
+in the building 只說辦公室在大廈裏。
+
+⑥ 最後看限制或例外
+英美對 first floor 是哪一層的叫法不同；介詞仍然常用 on。
+
+PP.02.07 — at an address
+① 先明白意思
+提到門牌號碼時，常用 at。
+② 看英文例句
+She lives at 18 King Street.
+③ 看中文意思
+她住在 King Street 18 號。
+④ 看為甚麼這樣寫
+at 把門牌當作確定的地址。
+⑤ 比較接近的寫法
+She lives on King Street.
+on King Street 只說她住在那條街上。
+⑥ 最後看限制或例外
+說城市或國家通常用 in，例如 in Hong Kong。
+
+PP.02.08 — at home 與 in the house
+① 先明白意思
+at home 說人在家；in the house 着重屋裏。
+② 看英文例句
+Dad is at home.
+③ 看中文意思
+爸爸在家。
+④ 看為甚麼這樣寫
+
+at home 說他目前在家這個地方。
+⑤ 比較接近的寫法
+Dad is in the kitchen.
+in the kitchen 說明他在廚房裏。
+⑥ 最後看限制或例外
+普通用法說 at home，不說 at the home 表示自己的家。
+
+PP.02.09 — in bed 與 on the bed
+① 先明白意思
+睡覺或躺在床上休息時，常用 in bed。
+② 看英文例句
+My sister is still in bed.
+③ 看中文意思
+妹妹仍然在床上休息。
+④ 看為甚麼這樣寫
+in bed 常和睡覺、休息有關。
+⑤ 比較接近的寫法
+The bag is on the bed.
+袋子放在床面上，所以用 on the bed。
+⑥ 最後看限制或例外
+人在床上坐着或玩耍時，也可以用 on the bed。
+
+PP.02.10 — in a picture 與 on a screen
+① 先明白意思
+說照片畫了甚麼，常用 in；說影像顯示在屏幕上，常用 on。
+② 看英文例句
+
+There are three children in the picture.
+③ 看中文意思
+照片裏有三個孩子。
+④ 看為甚麼這樣寫
+in the picture 表示圖中出現的人物。
+⑤ 比較接近的寫法
+The picture is on the screen.
+on the screen 說圖片顯示在屏幕上。
+⑥ 最後看限制或例外
+照片放在桌面時，仍可用 on the desk。
+
+PP.02.11 — at the table 與 on the table
+① 先明白意思
+人在桌旁坐着，常用 at；東西放在桌面上，常用 on。
+② 看英文例句
+We ate at the table.
+③ 看中文意思
+我們坐在桌旁吃飯。
+④ 看為甚麼這樣寫
+at the table 說用餐的位置。
+⑤ 比較接近的寫法
+The plates are on the table.
+on the table 說碟子在桌面上。
+⑥ 最後看限制或例外
+說小孩躲在桌下，要用 under the table。
+
+PP.02.12 — in a queue 與 at the front
+① 先明白意思
+說人在隊伍裏，常用 in a queue。
+② 看英文例句
+We waited in a queue.
+③ 看中文意思
+我們排隊等候。
+④ 看為甚麼這樣寫
+in a queue 表示人在隊伍之中。
+⑤ 比較接近的寫法
+We waited at the front of the queue.
+at the front of 說人在隊伍前面的位置。
+⑥ 最後看限制或例外
+美式英語也常說 in line。
+
+PP.02.13 — on the left 與 to the left of
+① 先明白意思
+說某物在左邊時，要留意後面是否接對象。
+② 看英文例句
+The door is on the left.
+③ 看中文意思
+門在左邊。
+④ 看為甚麼這樣寫
+on the left 可以單獨交代位置。
+⑤ 比較接近的寫法
+
+The door is to the left of the window.
+to the left of 後面接 the window，說門在窗的左邊。
+⑥ 最後看限制或例外
+on your left 和 on the left-hand side 也很常見。
+
+PP.02.14 — inside 與 outside
+① 先明白意思
+inside 說在裏面；outside 說在外面。
+② 看英文例句
+The shoes are outside the door.
+③ 看中文意思
+鞋子放在門外。
+④ 看為甚麼這樣寫
+outside the door 說鞋子所在位置。
+⑤ 比較接近的寫法
+The shoes are inside the cupboard.
+inside the cupboard 表示鞋子在櫃裏。
+⑥ 最後看限制或例外
+inside 和 outside 有時不接名詞，例如 Come inside。
+
+PP.02.15 — near 與 next to
+① 先明白意思
+near 表示距離不遠；next to 表示緊靠旁邊。
+② 看英文例句
+The bank is near the station.
+③ 看中文意思
+
+銀行在車站附近。
+④ 看為甚麼這樣寫
+near 不一定表示兩處緊貼。
+⑤ 比較接近的寫法
+The bank is next to the station.
+next to 表示銀行就在車站旁邊。
+⑥ 最後看限制或例外
+near to 有時也正確，但一般 near 已經足夠。
+
+PP.02.16 — beside 與 besides
+① 先明白意思
+beside 是「在旁邊」；besides 常表示「除此之外」。
+② 看英文例句
+The girl stood beside her father.
+③ 看中文意思
+女孩站在爸爸旁邊。
+④ 看為甚麼這樣寫
+beside her father 說明女孩的位置。
+⑤ 比較接近的寫法
+Besides English, she studies French.
+besides 表示除了英文，她還學法文。
+⑥ 最後看限制或例外
+besides 在特別情況也可表示其他意思，不要把兩個字當同一個。
+
+PP.02.17 — in front of 與 behind
+① 先明白意思
+
+in front of 表示在某物前方；behind 表示在後方。
+② 看英文例句
+A tree stands in front of the house.
+③ 看中文意思
+屋前有一棵樹。
+④ 看為甚麼這樣寫
+in front of the house 說明樹在屋子的前面。
+⑤ 比較接近的寫法
+A tree stands behind the house.
+behind the house 表示樹在屋後。
+⑥ 最後看限制或例外
+in the front of 常指一個空間的前部，例如 in the front of the bus。
+
+PP.02.18 — opposite 與 across from
+① 先明白意思
+opposite 可以表示隔着街道或空間的對面。
+② 看英文例句
+The library is opposite the bank.
+③ 看中文意思
+圖書館在銀行對面。
+④ 看為甚麼這樣寫
+opposite 後面直接接 the bank。
+⑤ 比較接近的寫法
+The library is across from the bank.
+across from 在美式英語很常見，也表示在對面。
+
+⑥ 最後看限制或例外
+opposite 不需要再加 to：普通說法是 opposite the bank。
+
+PP.03 — 方向和移動：由哪裏到哪裏
+PP.03.01 — to：走向一個目的地
+① 先明白意思
+說去某個地方，常用 to 接目的地。
+② 看英文例句
+We walked to the library.
+③ 看中文意思
+我們步行到圖書館。
+④ 看為甚麼這樣寫
+to the library 表示圖書館是目的地。
+⑤ 比較接近的寫法
+We walked in the library.
+in the library 表示我們在圖書館裏步行。
+⑥ 最後看限制或例外
+go home、come here、go abroad 等常見說法通常不用 to。
+
+PP.03.02 — towards：朝某個方向
+① 先明白意思
+towards 表示朝一個方向走，不保證已到達。
+② 看英文例句
+The boy ran towards the gate.
+③ 看中文意思
+男孩向大門跑去。
+
+④ 看為甚麼這樣寫
+towards 只交代跑的方向。
+⑤ 比較接近的寫法
+The boy ran to the gate.
+to the gate 較容易表示以大門為目的地並到達。
+⑥ 最後看限制或例外
+toward 也是正確寫法，在美式英語尤其常見。
+
+PP.03.03 — from：由某處出發
+① 先明白意思
+from 可以說明出發或來源的地方。
+② 看英文例句
+The train comes from London.
+③ 看中文意思
+這列火車從倫敦開來。
+④ 看為甚麼這樣寫
+from London 說出來源。
+⑤ 比較接近的寫法
+The train goes to London.
+to London 說出目的地。
+⑥ 最後看限制或例外
+from 也可表示時間起點或資料來源。
+
+PP.03.04 — into：移動到裏面
+① 先明白意思
+into 常用於從外面進入一個地方。
+
+② 看英文例句
+The dog ran into the garden.
+③ 看中文意思
+狗跑進花園。
+④ 看為甚麼這樣寫
+into 表示跑的時候進入花園。
+⑤ 比較接近的寫法
+The dog ran in the garden.
+in the garden 表示狗在花園裏跑。
+⑥ 最後看限制或例外
+put the milk in the fridge 和 put the milk into the fridge 都可以自然表達放進去。
+
+PP.03.05 — onto：移動到表面上
+① 先明白意思
+onto 常用於移動後落在某個表面。
+② 看英文例句
+The cat jumped onto the chair.
+③ 看中文意思
+貓跳到椅子上。
+④ 看為甚麼這樣寫
+onto 表示貓跳到椅面。
+⑤ 比較接近的寫法
+The cat jumped on the chair.
+on 也可能表示在椅上跳動，須靠前後文判斷。
+⑥ 最後看限制或例外
+
+on to 分開寫也可能是另一種結構，不要一律合併成 onto。
+
+PP.03.06 — out of：從裏面出去
+① 先明白意思
+out of 表示由內部移到外面。
+② 看英文例句
+She stepped out of the lift.
+③ 看中文意思
+她走出升降機。
+④ 看為甚麼這樣寫
+out of the lift 說明移動的起點。
+⑤ 比較接近的寫法
+She waited outside the lift.
+outside 說明她一直在升降機外等候。
+⑥ 最後看限制或例外
+out of 也可表示沒有、缺乏或由某種原因而做事。
+
+PP.03.07 — off：離開表面
+① 先明白意思
+off 常表示東西離開原本接觸的表面。
+② 看英文例句
+The cup fell off the shelf.
+③ 看中文意思
+杯子從架上掉下來。
+④ 看為甚麼這樣寫
+off the shelf 說杯子離開架面。
+
+⑤ 比較接近的寫法
+The cup fell onto the shelf.
+onto the shelf 表示杯子最後落在架上。
+⑥ 最後看限制或例外
+get off the bus 是固定常用說法；不要推論所有交通工具都用 off。
+
+PP.03.08 — up 與 down：沿上下方向
+① 先明白意思
+up 可以表示向上；down 可以表示向下。
+② 看英文例句
+We walked up the hill.
+③ 看中文意思
+我們沿山坡向上走。
+④ 看為甚麼這樣寫
+up the hill 說出方向。
+⑤ 比較接近的寫法
+We walked down the hill.
+down the hill 表示向山下走。
+⑥ 最後看限制或例外
+up/down 也可作動詞組合中的小字，意義可能不再是位置。
+
+PP.03.09 — along：沿着一條路線
+① 先明白意思
+along 表示順着道路、河流或邊緣走。
+② 看英文例句
+They cycled along the river.
+
+③ 看中文意思
+他們沿着河邊踏單車。
+④ 看為甚麼這樣寫
+along the river 說出行進路線。
+⑤ 比較接近的寫法
+They cycled across the river.
+across 表示穿越河流到另一邊。
+⑥ 最後看限制或例外
+along 不表示一定已走完整條路線。
+
+PP.03.10 — across：由一邊到另一邊
+① 先明白意思
+across 常表示橫過一個地方。
+② 看英文例句
+We walked across the bridge.
+③ 看中文意思
+我們走過橋到另一邊。
+④ 看為甚麼這樣寫
+across the bridge 表示沿橋穿到另一端。
+⑤ 比較接近的寫法
+We walked along the bridge.
+along 着重沿着橋走，未必說明是否到了另一端。
+⑥ 最後看限制或例外
+across 也可以說物件在對面，例如 across the street。
+
+PP.03.11 — through：由裏面穿過
+
+① 先明白意思
+through 常表示從一個範圍內部穿過。
+② 看英文例句
+The train went through the tunnel.
+③ 看中文意思
+火車穿過隧道。
+④ 看為甚麼這樣寫
+through the tunnel 表示路線經過隧道內部。
+⑤ 比較接近的寫法
+The train went over the bridge.
+over the bridge 說路線經過橋的上面。
+⑥ 最後看限制或例外
+walk through the park 也可能只表示路線穿過公園，不一定繞到每個角落。
+
+PP.03.12 — over：越過上方
+① 先明白意思
+over 可以表示從某物上方越過。
+② 看英文例句
+The bird flew over the wall.
+③ 看中文意思
+鳥飛越圍牆。
+④ 看為甚麼這樣寫
+over the wall 表示從牆的上方經過。
+⑤ 比較接近的寫法
+The bird flew under the bridge.
+
+under the bridge 表示從橋下經過。
+⑥ 最後看限制或例外
+over 也有「多於」等意思，不只用於位置。
+
+PP.03.13 — past：經過而繼續向前
+① 先明白意思
+past 可以說明經過某處而沒有停下。
+② 看英文例句
+Go past the post office.
+③ 看中文意思
+經過郵局後繼續向前走。
+④ 看為甚麼這樣寫
+past the post office 說出需要經過的位置。
+⑤ 比較接近的寫法
+Stop at the post office.
+at the post office 表示在郵局這個地點停下。
+⑥ 最後看限制或例外
+past 還可說時間，例如 half past three。
+
+PP.03.14 — round／around：繞着或在附近
+① 先明白意思
+around 可以表示繞着某物走。
+② 看英文例句
+We walked around the lake.
+③ 看中文意思
+我們繞着湖邊走。
+
+④ 看為甚麼這樣寫
+around the lake 說明行走路線。
+⑤ 比較接近的寫法
+We walked across the field.
+across the field 表示橫過草地。
+⑥ 最後看限制或例外
+round 在英式英語很常見；around 兩種英語都使用。
+
+PP.03.15 — via：途經某處或方法
+① 先明白意思
+via 可以說明路線經過的地方。
+② 看英文例句
+We travelled to Paris via Brussels.
+③ 看中文意思
+我們途經布魯塞爾前往巴黎。
+④ 看為甚麼這樣寫
+via Brussels 說明中途經過哪裏。
+⑤ 比較接近的寫法
+We travelled from Brussels to Paris.
+from Brussels 表示布魯塞爾是這段旅程的起點。
+⑥ 最後看限制或例外
+via 也可表示透過某種方法，例如 via email；語氣常較正式。
+
+PP.03.16 — arrive at 與 arrive in
+① 先明白意思
+到達城市、國家常用 in；到達車站等地點常用 at。
+
+② 看英文例句
+We arrived in Japan yesterday.
+③ 看中文意思​
+我們昨天抵達日本。
+④ 看為甚麼這樣寫
+in Japan 用來接國家。
+⑤ 比較接近的寫法
+We arrived at the airport yesterday.
+at the airport 用來接機場這個地點。
+⑥ 最後看限制或例外
+arrive home 通常不加 at 或 in。
+
+PP.03.17 — enter 與 go into
+① 先明白意思
+enter 後面通常直接接地方，不需要 into。
+② 看英文例句
+Please enter the room quietly.
+③ 看中文意思
+請安靜地進入房間。
+④ 看為甚麼這樣寫
+enter 直接接 the room。
+⑤ 比較接近的寫法
+Please go into the room quietly.
+go 後面要用 into 來說進入。
+⑥ 最後看限制或例外
+enter into an agreement 是另一個固定意思，不能當作 enter the room 的接法。
+
+PP.03.18 — reach 與 get to
+① 先明白意思
+reach 可以直接接目的地；get 常接 to。
+② 看英文例句
+We reached the hotel at six.
+③ 看中文意思
+我們六時到達酒店。
+④ 看為甚麼這樣寫
+reached 後面直接接 the hotel。
+⑤ 比較接近的寫法
+We got to the hotel at six.
+got to 後面接目的地。
+⑥ 最後看限制或例外
+get home、reach home 不加 to；arrive at home 則是另一種用法，但 at home 很常見。
+
+英文介詞及介詞短語｜學生閱讀指南 · 第 2 冊
+（共 6 冊）
+請按規則編號順序閱讀。每條規則都有六步教學：意思、英文例句、中文、解釋、比較、限制。
+
+PART III — 逐條規則和六步教學（續）
+PP.04 — 距離、上下、內外和範圍
+PP.04.01 — above：位置較高
+① 先明白意思
+above 表示一物的位置比另一物高。
+② 看英文例句
+The clock is above the door.
+③ 看中文意思
+時鐘在門的上方。
+④ 看為甚麼這樣寫
+above 只說位置較高，不一定有接觸。
+⑤ 比較接近的寫法
+The clock is on the door.
+on 表示時鐘裝在門的表面。
+⑥ 最後看限制或例外
+above 可用於溫度、分數等數值高於某個標準。
+
+PP.04.02 — over 與 above
+① 先明白意思
+over 有時讓人想到正上方或覆蓋；above 只要位置較高便可。
+
+② 看英文例句
+A lamp hangs over the table.
+③ 看中文意思
+一盞燈吊在桌子的上方。
+④ 看為甚麼這樣寫
+over the table 說燈位於桌子的上方。
+⑤ 比較接近的寫法
+A lamp hangs above the stairs.
+above the stairs 說樓梯上方有一盞燈。
+⑥ 最後看限制或例外
+很多位置語境兩者都可用，不要硬說其中一個一定錯。
+
+PP.04.03 — under：在下面
+① 先明白意思
+under 常表示一物在另一物的下面。
+② 看英文例句
+The shoes are under the bed.
+③ 看中文意思
+鞋子在床下。
+④ 看為甚麼這樣寫
+under the bed 說明較低的位置。
+⑤ 比較接近的寫法
+The shoes are on the bed.
+on the bed 表示鞋子在床面上。
+⑥ 最後看限制或例外
+
+under 也可表示少於某個數目或在某人管轄之下。
+
+PP.04.04 — below 與 under
+① 先明白意思
+below 表示在較低位置；under 常令人想到在正下方。
+② 看英文例句
+The village is below the hill.
+③ 看中文意思
+村莊位於山坡下面。
+④ 看為甚麼這樣寫
+below the hill 說明較低的位置。
+⑤ 比較接近的寫法
+The cat is under the chair.
+under the chair 說貓在椅子下面。
+⑥ 最後看限制或例外
+兩者有重疊用法；數值低於標準時常用 below。
+
+PP.04.05 — beneath／underneath
+① 先明白意思
+beneath 和 underneath 也可以表示在下面。
+② 看英文例句
+The letter was underneath the book.
+③ 看中文意思
+信壓在書下面。
+④ 看為甚麼這樣寫
+underneath the book 說信被書蓋着。
+
+⑤ 比較接近的寫法
+The letter was beside the book.
+beside 表示信在書旁邊。
+⑥ 最後看限制或例外
+beneath 常較正式，也可表示地位低於某人。
+
+PP.04.06 — between：分別看清的對象
+① 先明白意思
+between 可以連接兩個清楚分開的對象。
+② 看英文例句
+Mia sat between Tom and May.
+③ 看中文意思
+Mia 坐在 Tom 和 May 中間。
+④ 看為甚麼這樣寫
+between 說明她在兩人之間。
+⑤ 比較接近的寫法
+Mia sat among her friends.
+among 表示她坐在一群朋友當中。
+⑥ 最後看限制或例外
+between 也可用於三個或以上清楚分開的對象，例如三國之間的協議。
+
+PP.04.07 — among：在一群之中
+① 先明白意思
+among 表示在一群人或事物之間。
+② 看英文例句
+We found a coin among the leaves.
+
+③ 看中文意思
+我們在一堆樹葉中找到一枚硬幣。
+④ 看為甚麼這樣寫
+among the leaves 說明硬幣混在一堆樹葉中。
+⑤ 比較接近的寫法
+We found a coin between two stones.
+between two stones 表示硬幣在兩塊石頭中間。
+⑥ 最後看限制或例外
+amongst 是另一種寫法，較少用，常見於較正式文字。
+
+PP.04.08 — between 時間和數字
+① 先明白意思
+說兩個時間點之間，常用 between ... and。
+② 看英文例句
+The shop opens between nine and ten.
+③ 看中文意思
+店舖在九時至十時之間開門。
+④ 看為甚麼這樣寫
+between nine and ten 說明開門時間落在這個範圍。
+⑤ 比較接近的寫法
+The shop stays open from nine to ten.
+from nine to ten 表示九時開始營業，十時結束。
+⑥ 最後看限制或例外
+between 和 among 不能在時間範圍這個意思下任意互換。
+
+PP.04.09 — against：貼着、碰着
+
+① 先明白意思
+against 可表示某物靠在另一物上。
+② 看英文例句
+The bike is against the wall.
+③ 看中文意思
+單車靠在牆上。
+④ 看為甚麼這樣寫
+against the wall 說明單車靠着牆。
+⑤ 比較接近的寫法
+The bike is beside the wall.
+beside 只說單車在牆旁邊。
+⑥ 最後看限制或例外
+against 也常表示反對、比賽對手或防止傷害。
+
+PP.04.10 — within：在範圍之內
+① 先明白意思
+within 常表示在一個界線或範圍內。
+② 看英文例句
+The school is within the city walls.
+③ 看中文意思
+學校在城牆範圍內。
+④ 看為甚麼這樣寫
+within the city walls 強調沒有超出界線。
+⑤ 比較接近的寫法
+The school is outside the city walls.
+
+outside 表示在城牆以外。
+⑥ 最後看限制或例外
+within 也可表示在某段時間內完成事情。
+
+PP.04.11 — beyond：超過界線
+① 先明白意思
+beyond 表示在某個界線之外。
+② 看英文例句
+The village is beyond the bridge.
+③ 看中文意思
+村莊在橋的另一邊。
+④ 看為甚麼這樣寫
+beyond the bridge 說要越過橋才到村莊。
+⑤ 比較接近的寫法
+The village is before the bridge.
+before the bridge 表示在到橋之前的位置。
+⑥ 最後看限制或例外
+beyond 也可用於能力、範圍、理解以外的事。
+
+PP.04.12 — throughout：遍及整個範圍
+① 先明白意思
+throughout 表示事情在整個地方或時段都有發生。
+② 看英文例句
+There are signs throughout the building.
+③ 看中文意思
+整幢大廈都有指示牌。
+
+④ 看為甚麼這樣寫
+throughout the building 說整幢大廈不同地方都有。
+⑤ 比較接近的寫法
+There is a sign at the entrance.
+at the entrance 只說入口有一塊指示牌。
+⑥ 最後看限制或例外
+throughout 用於時間時常表示整段時間。
+
+PP.04.13 — by：靠近
+① 先明白意思
+by 有時只表示在旁邊或附近。
+② 看英文例句
+We sat by the window.
+③ 看中文意思
+我們坐在窗邊。
+④ 看為甚麼這樣寫
+by the window 說出座位的位置。
+⑤ 比較接近的寫法
+We sat in front of the window.
+in front of the window 更明確說在窗前。
+⑥ 最後看限制或例外
+by 也可表示方法、動作者或截止時間，不能一律譯成「旁邊」。
+
+PP.04.14 — opposite：面對另一邊
+① 先明白意思
+opposite 可以表示兩個位置正對着。
+
+② 看英文例句
+The café is opposite the school.
+③ 看中文意思
+咖啡店在學校對面。
+④ 看為甚麼這樣寫
+opposite the school 說出兩者相對的位置。
+⑤ 比較接近的寫法
+The café is next to the school.
+next to 表示咖啡店緊貼學校旁邊。
+⑥ 最後看限制或例外
+在英式英語，opposite 後面通常不需要 to。
+
+PP.04.15 — in the middle of 與 in the centre of
+① 先明白意思
+這兩組字都可表示在中間。
+② 看英文例句
+The table is in the centre of the room.
+③ 看中文意思
+桌子在房間中央。
+④ 看為甚麼這樣寫
+in the centre of 強調中央的位置。
+⑤ 比較接近的寫法
+The child stood in the middle of the road.
+in the middle of 可用於道路中間。
+⑥ 最後看限制或例外
+
+centre 是英式拼法；center 是美式拼法。
+
+PP.05 — 時間：幾時發生？
+PP.05.01 — at + 鐘點
+① 先明白意思
+說幾點鐘做事，常用 at。
+② 看英文例句
+The film starts at seven.
+③ 看中文意思
+電影七時開始。
+④ 看為甚麼這樣寫
+at seven 說出開始的鐘點。
+⑤ 比較接近的寫法
+The film starts on Friday.
+on Friday 說出日期所屬的一天。
+⑥ 最後看限制或例外
+at noon、at midnight 也是常見寫法。
+
+PP.05.02 — on + 星期和日期
+① 先明白意思
+說某一天或某個日期，常用 on。
+② 看英文例句
+We have a test on Monday.
+③ 看中文意思
+我們星期一有測驗。
+④ 看為甚麼這樣寫
+
+on Monday 說出測驗在哪一天。
+⑤ 比較接近的寫法
+We have a test in May.
+in May 只說月份。
+⑥ 最後看限制或例外
+說 every Monday 或 next Monday 時，通常不用 on。
+
+PP.05.03 — in + 月份、年份和季節
+① 先明白意思
+說月份、年份或季節，常用 in。
+② 看英文例句
+We moved here in 2024.
+③ 看中文意思
+我們在 2024 年搬到這裏。
+④ 看為甚麼這樣寫
+in 2024 說出年份。
+⑤ 比較接近的寫法
+We moved here on 4 May.
+on 4 May 說出確實日期。
+⑥ 最後看限制或例外
+in summer 和 in the summer 都可用，意思按情況而定。
+
+PP.05.04 — in the morning／afternoon／evening
+① 先明白意思
+說一般早上、下午或晚上，常用 in the。
+② 看英文例句
+
+I study in the evening.
+③ 看中文意思
+我通常在晚上溫習。
+④ 看為甚麼這樣寫
+in the evening 說出一天中的時段。
+⑤ 比較接近的寫法
+I study at night.
+at night 是常見的夜間說法。
+⑥ 最後看限制或例外
+說某個特別的晚上，可用 on Friday evening。
+
+PP.05.05 — on a particular morning
+① 先明白意思
+說指定那一天的早上，常用 on。
+② 看英文例句
+The bus left on Monday morning.
+③ 看中文意思
+巴士星期一早上開出。
+④ 看為甚麼這樣寫
+on Monday morning 說明是哪一天的早上。
+⑤ 比較接近的寫法
+The bus usually leaves in the morning.
+in the morning 說一般早上。
+⑥ 最後看限制或例外
+on the morning of 5 May 也正確。
+
+PP.05.06 — at night 與 in the night
+① 先明白意思
+at night 常說一般夜間；in the night 可說某一晚夜裏的事。
+② 看英文例句
+The streets are quiet at night.
+③ 看中文意思
+街道在晚上通常很安靜。
+④ 看為甚麼這樣寫
+at night 說一般情況。
+⑤ 比較接近的寫法
+I heard a noise in the night.
+in the night 這裏指某一晚夜間。
+⑥ 最後看限制或例外
+有些語境兩種都可用；重點是談一般夜晚還是某一晚。
+
+PP.05.07 — at the weekend／on the weekend
+① 先明白意思
+英式英語常用 at the weekend；美式英語常用 on the weekend。
+② 看英文例句
+We will visit Grandma at the weekend.
+③ 看中文意思
+我們週末會去探望祖母。
+④ 看為甚麼這樣寫
+這是常見的英式寫法。
+⑤ 比較接近的寫法
+
+We will visit Grandma on the weekend.
+這是常見的美式寫法。
+⑥ 最後看限制或例外
+兩種都屬自然英語，不應把其中一種說成普遍錯誤。
+
+PP.05.08 — in the holidays／on holiday
+① 先明白意思
+in the holidays 可以說假期期間；on holiday 可以表示正在度假。
+② 看英文例句
+We met during the school holidays.
+③ 看中文意思
+我們在學校假期期間見面。
+④ 看為甚麼這樣寫
+during 說明見面發生在假期之中。
+⑤ 比較接近的寫法
+Dad is on holiday this week.
+on holiday 表示爸爸這星期正在放假。
+⑥ 最後看限制或例外
+美式英語常用 on vacation 表示度假。
+
+PP.05.09 — at Christmas 與 on Christmas Day
+① 先明白意思
+at Christmas 常說聖誕節的一段時間；on Christmas Day 說當天。
+② 看英文例句
+We visit our cousins at Christmas.
+③ 看中文意思
+
+我們在聖誕節期間探望表兄弟姊妹。
+④ 看為甚麼這樣寫
+at Christmas 可包括節日前後。
+⑤ 比較接近的寫法
+We visited them on Christmas Day.
+on Christmas Day 只說聖誕節當天。
+⑥ 最後看限制或例外
+美式英語常用 on Christmas 表示當天，須看語境。
+
+PP.05.10 — 時間字前不用重複加介詞
+① 先明白意思
+this、next、last、every 起首的常見時間用語一般不用 in、on、at。
+② 看英文例句
+We are leaving next week.
+③ 看中文意思
+我們下星期出發。
+④ 看為甚麼這樣寫
+next week 本身已說明時間。
+⑤ 比較接近的寫法
+We are leaving in a week.
+in a week 表示大約一星期後出發。
+⑥ 最後看限制或例外
+「in next week」在普通的這個意思下不自然。
+
+PP.05.11 — at the moment 與 for the moment
+① 先明白意思
+
+at the moment 常表示現在；for the moment 常表示暫時。
+② 看英文例句
+Mum is busy at the moment.
+③ 看中文意思
+媽媽現在很忙。
+④ 看為甚麼這樣寫
+at the moment 說現在的情況。
+⑤ 比較接近的寫法
+We can wait here for the moment.
+for the moment 表示暫時在這裏等候。
+⑥ 最後看限制或例外
+for the time being 也常表示「暫時」。
+
+PP.05.12 — on time：準時
+① 先明白意思
+on time 表示按預定時間到達或開始。
+② 看英文例句
+The bus arrived on time.
+③ 看中文意思
+巴士準時到站。
+④ 看為甚麼這樣寫
+on time 說巴士沒有遲到。
+⑤ 比較接近的寫法
+The bus arrived in time for the match.
+in time for 表示仍然趕得及看比賽。
+
+⑥ 最後看限制或例外
+on time 和 in time 都可正確，但意思不同。
+
+PP.05.13 — in time：趕得及
+① 先明白意思
+in time 表示沒有太遲，仍趕得及做某事。
+② 看英文例句
+We got there in time for the show.
+③ 看中文意思
+我們及時到達，趕得及看表演。
+④ 看為甚麼這樣寫
+in time for the show 說到達時表演還來得及看。
+⑤ 比較接近的寫法
+We got there on time.
+on time 表示在約定時間到達。
+⑥ 最後看限制或例外
+just in time 表示剛好趕得及。
+
+PP.05.14 — at the end of 與 in the end
+① 先明白意思
+at the end of 說一段事情的末尾；in the end 說最後的結果。
+② 看英文例句
+We sang at the end of the show.
+③ 看中文意思
+我們在表演的尾聲唱歌。
+④ 看為甚麼這樣寫
+
+at the end of the show 說唱歌的時間。
+⑤ 比較接近的寫法
+In the end, we decided to stay.
+in the end 表示最後作出的決定。
+⑥ 最後看限制或例外
+不要把 in the end of the show 當作 at the end of the show 的普通替代。
+
+PP.05.15 — at first 與 for the first time
+① 先明白意思
+at first 表示最初的情況；for the first time 說第一次經歷。
+② 看英文例句
+At first, I was afraid.
+③ 看中文意思
+起初我很害怕。
+④ 看為甚麼這樣寫
+at first 暗示後來的情況可能不同。
+⑤ 比較接近的寫法
+I spoke on stage for the first time.
+for the first time 表示第一次在台上說話。
+⑥ 最後看限制或例外
+first of all 是列出第一步時用的另一組說法。
+
+PP.05.16 — at the beginning of 與 in the beginning
+① 先明白意思
+at the beginning of 說某段事情的開始位置。
+② 看英文例句
+
+The teacher spoke at the beginning of class.
+③ 看中文意思
+老師在上課開始時說話。
+④ 看為甚麼這樣寫
+at the beginning of class 說出上課的哪個部分。
+⑤ 比較接近的寫法
+In the beginning, we were confused.
+in the beginning 常用來說最初的情況。
+⑥ 最後看限制或例外
+in the beginning 後面通常不直接接 of + 這種時間活動。
+
+PP.05.17 — at age ten
+① 先明白意思
+說人幾歲做事，可用 at + 歲數。
+② 看英文例句
+She learned to swim at ten.
+③ 看中文意思
+她十歲時學會游泳。
+④ 看為甚麼這樣寫
+at ten 這裏表示十歲。
+⑤ 比較接近的寫法
+She learned to swim in ten days.
+in ten days 說學會游泳花了十天。
+⑥ 最後看限制或例外
+更清楚也可以說 at the age of ten。
+
+PP.05.18 — from ... to ...：時間起點終點
+① 先明白意思
+from ... to ... 可以說明從何時開始，到何時結束。
+② 看英文例句
+The shop is open from nine to six.
+③ 看中文意思
+店舖由九時營業至六時。
+④ 看為甚麼這樣寫
+from nine 說開始時間；to six 說結束時間。
+⑤ 比較接近的寫法
+The shop opens at nine.
+at nine 只說開門時間。
+⑥ 最後看限制或例外
+from nine until six 也可以，意思相近。
+
+PP.06 — 時間長度、先後、截止日期
+PP.06.01 — for：一段時間
+① 先明白意思
+for 後面可接持續了多久。
+② 看英文例句
+We stayed there for three days.
+③ 看中文意思
+我們在那裏住了三天。
+④ 看為甚麼這樣寫
+for three days 說出時間長度。
+
+⑤ 比較接近的寫法
+We have stayed here since Monday.
+since Monday 說出開始的時間。
+⑥ 最後看限制或例外
+for three days 本身不決定動詞一定要用哪一個時態。
+
+PP.06.02 — since：由某個時間開始
+① 先明白意思
+since 可以接一個起點，常和完成式一起使用。
+② 看英文例句
+I have lived here since 2020.
+③ 看中文意思
+我從 2020 年起一直住在這裏。
+④ 看為甚麼這樣寫
+since 2020 說出開始年份。
+⑤ 比較接近的寫法
+I have lived here for four years.
+for four years 說持續了四年。
+⑥ 最後看限制或例外
+since 也可表示「因為」，要看整句意思。
+
+PP.06.03 — during：事情在某段時間裏發生
+① 先明白意思
+during 後面接假期、課堂等時間段。
+② 看英文例句
+I fell asleep during the film.
+
+③ 看中文意思
+我看電影期間睡着了。
+④ 看為甚麼這樣寫
+during the film 說事情發生在哪段時間。
+⑤ 比較接近的寫法
+I slept for two hours.
+for two hours 說睡了多久。
+⑥ 最後看限制或例外
+during 後面通常接名詞短語；「during I watched」不能當一般正確寫法。
+
+PP.06.04 — while 與 during
+① 先明白意思
+while 後面常跟完整句子；during 後面常跟名詞。
+② 看英文例句
+I read while I waited.
+③ 看中文意思
+我等候時看書。
+④ 看為甚麼這樣寫
+while I waited 有主語 I 和動詞 waited。
+⑤ 比較接近的寫法
+I read during the break.
+during the break 後面是 the break 這組名詞。
+⑥ 最後看限制或例外
+較新的文法分析可能把 while 分到不同詞類；學生先記住接法。
+
+PP.06.05 — by：最遲在某時完成
+
+① 先明白意思
+by 常表示某個時間是最後限期。
+② 看英文例句
+Please send it by Friday.
+③ 看中文意思
+請最遲在星期五寄出。
+④ 看為甚麼這樣寫
+by Friday 表示星期五或之前都可以。
+⑤ 比較接近的寫法
+Please wait until Friday.
+until Friday 表示一直等到星期五。
+⑥ 最後看限制或例外
+by 不一定表示事情剛好在星期五那一刻完成。
+
+PP.06.06 — until：一直到某個時間
+① 先明白意思
+until 可以說一個情況持續到甚麼時候。
+② 看英文例句
+The shop stays open until nine.
+③ 看中文意思
+店舖營業至九時。
+④ 看為甚麼這樣寫
+until nine 說營業一直持續到九時。
+⑤ 比較接近的寫法
+The shop will close by nine.
+
+by nine 表示最遲九時關門。
+⑥ 最後看限制或例外
+till 和 until 多數可互換；till 通常較口語。
+
+PP.06.07 — not ... until：到了那時才發生
+① 先明白意思
+not ... until 常表示某事一直沒有發生，到了指定時間才發生。
+② 看英文例句
+The bus did not arrive until ten.
+③ 看中文意思
+巴士到了十時才到站。
+④ 看為甚麼這樣寫
+did not arrive until ten 表示十時之前沒有到達。
+⑤ 比較接近的寫法
+The bus arrived by ten.
+by ten 表示十時或之前已到達。
+⑥ 最後看限制或例外
+這種句型不能照字面逐字理解成「沒有到十時」。
+
+PP.06.08 — before：在某時之前
+① 先明白意思
+before 表示一件事早於另一個時間或事情。
+② 看英文例句
+Wash your hands before dinner.
+③ 看中文意思
+晚飯前要洗手。
+
+④ 看為甚麼這樣寫
+before dinner 說洗手的時間較早。
+⑤ 比較接近的寫法
+Wash your hands after dinner.
+after dinner 表示晚飯後才洗手。
+⑥ 最後看限制或例外
+before 後面也可接完整句子，例如 before you eat。
+
+PP.06.09 — after：在某時之後
+① 先明白意思
+after 表示時間順序在後。
+② 看英文例句
+We played after school.
+③ 看中文意思
+放學後我們去玩。
+④ 看為甚麼這樣寫
+after school 說玩的時間在放學後。
+⑤ 比較接近的寫法
+We played before school.
+before school 表示上學前玩。
+⑥ 最後看限制或例外
+after 後面可以接 -ing，例如 after eating。
+
+PP.06.10 — within：限時之內
+① 先明白意思
+within + 時間長度表示在這段時間完結前。
+
+② 看英文例句
+Please reply within two days.
+③ 看中文意思
+請在兩天內回覆。
+④ 看為甚麼這樣寫
+within two days 表示兩天期限內回覆。
+⑤ 比較接近的寫法
+Please reply in two days.
+in two days 常表示兩天後再回覆，也可能按語境有別的讀法。
+⑥ 最後看限制或例外
+within 不保證一定要等到第二天才做事。
+
+PP.06.11 — in + 時間：多久後
+① 先明白意思
+說將來多久後會發生某事，常用 in。
+② 看英文例句
+The train leaves in ten minutes.
+③ 看中文意思
+火車十分鐘後開出。
+④ 看為甚麼這樣寫
+in ten minutes 表示從現在起約十分鐘後。
+⑤ 比較接近的寫法
+The train journey takes ten minutes.
+takes ten minutes 說旅程所需的時間。
+⑥ 最後看限制或例外
+
+in ten minutes 也可在其他句子中表示完成某事所花的時間。
+
+PP.06.12 — in + 時間：用多久完成
+① 先明白意思
+in 也可以說做完一件事用了多久。
+② 看英文例句
+I finished the puzzle in an hour.
+③ 看中文意思
+我用一小時完成拼圖。
+④ 看為甚麼這樣寫
+in an hour 說完成拼圖所花的時間。
+⑤ 比較接近的寫法
+I worked on the puzzle for an hour.
+for an hour 說做拼圖這個活動持續多久。
+⑥ 最後看限制或例外
+做了一小時不一定代表已完成，所以兩句意思不同。
+
+PP.06.13 — for 與 over：整段時間或其間
+① 先明白意思
+for 強調持續多久；over 常表示某段期間之內。
+② 看英文例句
+I studied for two hours.
+③ 看中文意思
+我溫習了兩小時。
+④ 看為甚麼這樣寫
+for two hours 着重溫習持續的時間。
+
+⑤ 比較接近的寫法
+I met three friends over the weekend.
+over the weekend 說週末期間遇見三位朋友。
+⑥ 最後看限制或例外
+over 不一定表示活動從頭到尾沒有停過。
+
+PP.06.14 — throughout：整段期間
+① 先明白意思
+throughout 可以強調整段時間都保持某種情況。
+② 看英文例句
+It rained throughout the night.
+③ 看中文意思
+整晚都在下雨。
+④ 看為甚麼這樣寫
+throughout the night 說整個晚上都有雨。
+⑤ 比較接近的寫法
+It rained during the night.
+during the night 只說夜間有下雨，不一定整晚不停。
+⑥ 最後看限制或例外
+整段期間可以有短暫變化；要看所說的是甚麼活動。
+
+PP.06.15 — from now on：由現在起
+① 先明白意思
+from now on 表示由這一刻開始，往後照這樣做。
+② 看英文例句
+From now on, I will check my work.
+
+③ 看中文意思
+從現在起，我會檢查自己的功課。
+④ 看為甚麼這樣寫
+from now on 說明新習慣由現在開始。
+⑤ 比較接近的寫法
+Until now, I had not checked my work.
+until now 表示直到現在之前的情況。
+⑥ 最後看限制或例外
+from then on 表示從之前提到的某一刻起。
+
+PP.06.16 — as of：由某個日期起
+① 先明白意思
+as of 可用來說規定或狀態由某天開始。
+② 看英文例句
+As of Monday, the new rule applies.
+③ 看中文意思
+由星期一起，新規定生效。
+④ 看為甚麼這樣寫
+as of Monday 說出規定開始生效的日期。
+⑤ 比較接近的寫法
+By Monday, the rule will be ready.
+by Monday 表示最遲星期一已準備好。
+⑥ 最後看限制或例外
+as of 常用於通知、行政或正式文字。
+
+PP.06.17 — pending：等候某件事期間
+
+① 先明白意思
+pending 可以表示等待決定前，先採取某種安排。
+② 看英文例句
+The room is closed pending repairs.
+③ 看中文意思
+房間暫時關閉，等待維修。
+④ 看為甚麼這樣寫
+pending repairs 表示要等維修後才重新處理。
+⑤ 比較接近的寫法
+The room is closed because of repairs.
+because of repairs 明確說關閉的原因是維修。
+⑥ 最後看限制或例外
+pending 常見於正式通知；日常說話可用 until ...。
+
+英文介詞及介詞短語｜學生閱讀指南 · 第 3 冊
+（共 6 冊）
+請按規則編號順序閱讀。每條規則都有六步教學：意思、英文例句、中文、解釋、比較、限制。
+
+PART III — 逐條規則和六步教學（續）
+PP.07 — 方法、原因、對象和用途
+PP.07.01 — by + 交通工具：怎樣去
+① 先明白意思
+說乘甚麼交通工具出行，常用 by。
+② 看英文例句
+We went there by bus.
+③ 看中文意思
+我們乘巴士到那裏。
+④ 看為甚麼這樣寫
+by bus 說明交通方法。
+⑤ 比較接近的寫法
+We went there on the bus.
+on the bus 說明我們在巴士上。
+⑥ 最後看限制或例外
+一般說 by bus 不加 the；說乘某一班巴士時可用 on the bus。
+
+PP.07.02 — by + 動作：怎樣做到
+① 先明白意思
+by 後面接 -ing，可以說明用甚麼方法做到一件事。
+
+② 看英文例句
+She learned English by reading stories.
+③ 看中文意思
+她透過閱讀故事學英文。
+④ 看為甚麼這樣寫
+by reading stories 說明學習方法。
+⑤ 比較接近的寫法
+She learned English for reading stories.
+for reading stories 會表達不同關係，不能用來代替這個方法。
+⑥ 最後看限制或例外
+by 也可以說動作者，兩種意思要分開。
+
+PP.07.03 — with + 工具
+① 先明白意思
+with 常用來說使用甚麼工具。
+② 看英文例句
+He cut the paper with scissors.
+③ 看中文意思
+他用剪刀剪紙。
+④ 看為甚麼這樣寫
+with scissors 說明用的工具。
+⑤ 比較接近的寫法
+He cut the paper by hand.
+by hand 表示親手做，沒有說明用哪把工具。
+⑥ 最後看限制或例外
+
+工具通常用 with；交通方法則常用 by。
+
+PP.07.04 — by + 被動句的動作者
+① 先明白意思
+被動句中，by 可以交代由誰做那件事。
+② 看英文例句
+The window was broken by the wind.
+③ 看中文意思
+窗戶被風吹破了。
+④ 看為甚麼這樣寫
+by the wind 說明造成破損的力量。
+⑤ 比較接近的寫法
+The window was broken with a stone.
+with a stone 說明使用的物品。
+⑥ 最後看限制或例外
+被動句不一定要把動作者說出來。
+
+PP.07.05 — with + 一起的人
+① 先明白意思
+with 可以表示有人陪伴。
+② 看英文例句
+I went to the market with Dad.
+③ 看中文意思
+我和爸爸一起去街市。
+④ 看為甚麼這樣寫
+with Dad 說明同行的人。
+
+⑤ 比較接近的寫法
+I went to the market for Dad.
+for Dad 可能表示替爸爸辦事。
+⑥ 最後看限制或例外
+with 也可表示擁有、工具、方法等，要看句子。
+
+PP.07.06 — without：沒有某樣東西
+① 先明白意思
+without 表示沒有帶着、沒有使用或沒有做某事。
+② 看英文例句
+She left without her umbrella.
+③ 看中文意思
+她沒有帶傘就離開了。
+④ 看為甚麼這樣寫
+without her umbrella 說她沒有傘。
+⑤ 比較接近的寫法
+She left with her umbrella.
+with her umbrella 表示她帶着傘。
+⑥ 最後看限制或例外
+without doing 常表示「沒有做某事就……」。
+
+PP.07.07 — for：為了某人
+① 先明白意思
+for 可以說明某件事是替誰做的。
+② 看英文例句
+I made tea for Grandma.
+
+③ 看中文意思
+我為祖母泡茶。
+④ 看為甚麼這樣寫
+for Grandma 說明誰會得到茶或好處。
+⑤ 比較接近的寫法
+I gave the tea to Grandma.
+to Grandma 說明茶交給誰。
+⑥ 最後看限制或例外
+有些動詞可用兩種句型，有些不可以隨意改。
+
+PP.07.08 — to：交給誰
+① 先明白意思
+to 可以表示動作送到哪個人或地方。
+② 看英文例句
+Please send the letter to May.
+③ 看中文意思
+請把信寄給 May。
+④ 看為甚麼這樣寫
+to May 說明收信的人。
+⑤ 比較接近的寫法
+Please buy a card for May.
+for May 說明買卡是為了 May。
+⑥ 最後看限制或例外
+send somebody something 也可用；要記住所用動詞的句型。
+
+PP.07.09 — for + 目的
+
+① 先明白意思
+for 後面接名詞，可以說明為甚麼準備某物。
+② 看英文例句
+This room is for meetings.
+③ 看中文意思
+這個房間用來開會。
+④ 看為甚麼這樣寫
+for meetings 說明房間的用途。
+⑤ 比較接近的寫法
+We came here to meet the teacher.
+to meet 說明人來這裏要做的事。
+⑥ 最後看限制或例外
+for 後面說活動時常用 -ing，但不能把所有表示目的的 to 都改成 for。
+
+PP.07.10 — for + -ing：物件用途
+① 先明白意思
+for + -ing 可以用來說一樣東西適合做甚麼。
+② 看英文例句
+This knife is for cutting bread.
+③ 看中文意思
+這把刀是用來切麵包的。
+④ 看為甚麼這樣寫
+for cutting bread 說明刀的用途。
+⑤ 比較接近的寫法
+I used this knife to cut bread.
+
+to cut 說明這次拿刀做甚麼。
+⑥ 最後看限制或例外
+用途和某次行動的目的可以接近，但句型不同。
+
+PP.07.11 — of：部分和整體
+① 先明白意思
+of 常用來表示某一部分屬於哪個整體。
+② 看英文例句
+The roof of the house is red.
+③ 看中文意思
+房子的屋頂是紅色的。
+④ 看為甚麼這樣寫
+of the house 說出屋頂屬於哪間屋。
+⑤ 比較接近的寫法
+The house with a red roof is ours.
+with a red roof 用來描述那間屋的樣子。
+⑥ 最後看限制或例外
+不能用一條規則，把所有 of 都當成「擁有」。
+
+PP.07.12 — made of 與 made from
+① 先明白意思
+made of 常用於仍能看出原材料的東西。
+② 看英文例句
+The table is made of wood.
+③ 看中文意思
+桌子是木製的。
+
+④ 看為甚麼這樣寫
+made of wood 說明材料是木。
+⑤ 比較接近的寫法
+Paper is made from wood.
+made from 可說明材料經過加工後變成另一樣東西。
+⑥ 最後看限制或例外
+兩者在某些材料語境有重疊，不用把分界說成絕對。
+
+PP.07.13 — made by 與 made with
+① 先明白意思
+made by 常說誰製作；made with 可說製作時用了甚麼。
+② 看英文例句
+This cake was made by my brother.
+③ 看中文意思
+這個蛋糕是我哥哥做的。
+④ 看為甚麼這樣寫
+by my brother 說明製作者。
+⑤ 比較接近的寫法
+This cake was made with eggs and milk.
+with eggs and milk 說明用了甚麼材料。
+⑥ 最後看限制或例外
+食物也常用 made of/from，須看所強調的意思。
+
+PP.07.14 — from：來源
+① 先明白意思
+from 可以說出消息或物品來自誰。
+
+② 看英文例句
+I got a letter from my aunt.
+③ 看中文意思
+我收到姨母寄來的信。
+④ 看為甚麼這樣寫
+from my aunt 說出寄信的人。
+⑤ 比較接近的寫法
+I sent a letter to my aunt.
+to my aunt 說出收信的人。
+⑥ 最後看限制或例外
+from 也可和動詞搭配表示分離或保護。
+
+PP.07.15 — about：談論內容
+① 先明白意思
+about 常說明談話、文章或問題涉及甚麼。
+② 看英文例句
+We talked about the weather.
+③ 看中文意思
+我們談論天氣。
+④ 看為甚麼這樣寫
+about the weather 說明談話內容。
+⑤ 比較接近的寫法
+We talked to the teacher.
+to the teacher 說明談話的對象。
+⑥ 最後看限制或例外
+
+也可以說 talk with someone，表示跟某人交談。
+
+PP.07.16 — against：反對
+① 先明白意思
+against 可以表示不同意某個計劃或決定。
+② 看英文例句
+Many parents voted against the plan.
+③ 看中文意思
+很多家長投票反對這個計劃。
+④ 看為甚麼這樣寫
+against the plan 表示不支持這個計劃。
+⑤ 比較接近的寫法
+Many parents voted for the plan.
+for the plan 表示支持這個計劃。
+⑥ 最後看限制或例外
+against 也有碰着、對着、防護等意思。
+
+PP.07.17 — in：穿着或用某種語言
+① 先明白意思
+in 可以表示穿甚麼衣服，或用甚麼語言說話。
+② 看英文例句
+Please write your name in English.
+③ 看中文意思
+請用英文寫上姓名。
+④ 看為甚麼這樣寫
+in English 說用哪一種語言。
+
+⑤ 比較接近的寫法
+Please write your name with a pen.
+with a pen 說使用哪種工具。
+⑥ 最後看限制或例外
+in blue 也可以指用藍色筆寫，或穿着藍色衣服；要看前後文。
+
+PP.07.18 — at：速度和價格
+① 先明白意思
+at 可以表示指定的速度或價格。
+② 看英文例句
+The car was travelling at 40 km an hour.
+③ 看中文意思
+那輛車當時以時速四十公里行駛。
+④ 看為甚麼這樣寫
+at 40 km an hour 說明行車速度。
+⑤ 比較接近的寫法
+The car travelled for an hour.
+for an hour 說行車持續一小時。
+⑥ 最後看限制或例外
+也可說 sell at a discount，表示以折扣價出售。
+
+PP.07.19 — per：每一單位
+① 先明白意思
+per 常用來說每小時或每人多少。
+② 看英文例句
+The tickets cost $20 per person.
+
+③ 看中文意思
+門票每人二十元。
+④ 看為甚麼這樣寫
+per person 表示每一個人的價錢。
+⑤ 比較接近的寫法
+The tickets cost $20 for two people.
+for two people 表示兩人合共二十元。
+⑥ 最後看限制或例外
+per 常見於價錢、速度、報表；口語也常用 a，例如 twice a week。
+
+PP.08 — 比較、相似、除外和讓步
+PP.08.01 — like：像某人或某物
+① 先明白意思
+like 可表示跟某人或某物相似。
+② 看英文例句
+She sings like her mother.
+③ 看中文意思
+她唱歌的方式跟媽媽很相似。
+④ 看為甚麼這樣寫
+like her mother 表示相似。
+⑤ 比較接近的寫法
+She works as a music teacher.
+as a music teacher 表示她的工作身份。
+⑥ 最後看限制或例外
+like 後面也可接完整句子，尤其在口語中；不要只按一種分類理解。
+
+PP.08.02 — as：以某個身份
+① 先明白意思
+as 可以表示某人擔任某種工作或角色。
+② 看英文例句
+He works as a doctor.
+③ 看中文意思
+他是一名醫生，從事醫生工作。
+④ 看為甚麼這樣寫
+as a doctor 說明他的職業。
+⑤ 比較接近的寫法
+He dresses like a doctor.
+like a doctor 只說穿着像醫生。
+⑥ 最後看限制或例外
+as 也有「當……時」「因為」「按照」等用法，要看句子。
+
+PP.08.03 — unlike：跟……不同
+① 先明白意思
+unlike 用來比較兩者的不同。
+② 看英文例句
+Unlike Tom, May enjoys running.
+③ 看中文意思
+May 和 Tom 不同，她喜歡跑步。
+④ 看為甚麼這樣寫
+Unlike Tom 表示 May 在這方面跟 Tom 不同。
+⑤ 比較接近的寫法
+
+Like Tom, May enjoys running.
+Like Tom 表示 May 跟 Tom 一樣喜歡跑步。
+⑥ 最後看限制或例外
+unlike 不代表兩人在所有方面都不同。
+
+PP.08.04 — compared with／to：拿來比較
+① 先明白意思
+compared with 或 compared to 可以把兩樣東西放在一起比較。
+② 看英文例句
+Compared with last year, sales are higher.
+③ 看中文意思
+跟去年相比，今年銷售額較高。
+④ 看為甚麼這樣寫
+compared with last year 說明比較的對象。
+⑤ 比較接近的寫法
+Sales are higher than last year’s.
+than 直接放在比較詞 higher 後面。
+⑥ 最後看限制或例外
+compared to 也可用；兩種寫法的偏好視語境而定。
+
+PP.08.05 — than：在比較詞後面
+① 先明白意思
+說某人或某物較高、較快等，常用 than。
+② 看英文例句
+My bag is heavier than yours.
+③ 看中文意思
+
+我的袋子比你的重。
+④ 看為甚麼這樣寫
+than yours 接在 heavier 後說明比較對象。
+⑤ 比較接近的寫法
+My bag is as heavy as yours.
+as ... as 表示兩個袋子一樣重。
+⑥ 最後看限制或例外
+有些文法會把 than 分到連接詞等其他類別；這裏先學正確句型。
+
+PP.08.06 — between ... and：比較兩者
+① 先明白意思
+談到兩者的差別時，常用 between ... and。
+② 看英文例句
+There is a difference between tea and coffee.
+③ 看中文意思
+茶和咖啡有分別。
+④ 看為甚麼這樣寫
+between tea and coffee 指明比較哪兩樣東西。
+⑤ 比較接近的寫法
+There is a choice of tea or coffee.
+a choice of 說明可選的東西。
+⑥ 最後看限制或例外
+有三個以上清楚分開的比較對象，也可以用 between。
+
+PP.08.07 — besides：除……之外還有
+① 先明白意思
+
+besides 常表示某物以外，還有其他東西。
+② 看英文例句
+Besides rice, we ordered noodles.
+③ 看中文意思
+除了飯，我們還點了麵。
+④ 看為甚麼這樣寫
+besides rice 表示飯也包括在這次點餐之內。
+⑤ 比較接近的寫法
+Except for rice, we ordered everything.
+except for rice 表示飯被排除在外。
+⑥ 最後看限制或例外
+besides 也可以單獨放句首，表示「另外」。
+
+PP.08.08 — except：把某個排除
+① 先明白意思
+except 用來說明哪個人或物不包括在內。
+② 看英文例句
+Everyone came except Ben.
+③ 看中文意思
+除了 Ben，所有人都來了。
+④ 看為甚麼這樣寫
+except Ben 把 Ben 排除在 everyone 之外。
+⑤ 比較接近的寫法
+Everyone came, including Ben.
+including Ben 表示 Ben 也來了。
+
+⑥ 最後看限制或例外
+except for 在不少句子也可用，但不一定跟 except 完全相同。
+
+PP.08.09 — except for：先說整體，再指出例外
+① 先明白意思
+except for 可以在整體描述之後指出一個例外。
+② 看英文例句
+The room was empty except for a chair.
+③ 看中文意思
+房間空空的，只有一張椅子。
+④ 看為甚麼這樣寫
+except for a chair 說房裏仍有一張椅子。
+⑤ 比較接近的寫法
+The room contained a chair and a desk.
+這句直接說房內有兩樣東西。
+⑥ 最後看限制或例外
+句首也可以說 Except for Ben, everyone was ready。
+
+PP.08.10 — including：把某項包括在內
+① 先明白意思
+including 用來特別指出某項也算在內。
+② 看英文例句
+Five students came, including May.
+③ 看中文意思
+來了五位學生，包括 May。
+④ 看為甚麼這樣寫
+
+including May 表示 May 是那五人之一。
+⑤ 比較接近的寫法
+Five students came, except May.
+這句不自然地把 May 排除在已說出的五人以外；要改寫清楚範圍。
+⑥ 最後看限制或例外
+including 後面的字不會另加在五人之外，除非句子另有說明。
+
+PP.08.11 — despite：雖然有阻礙
+① 先明白意思
+despite 後面可以接名詞，表示事情仍然發生。
+② 看英文例句
+We played despite the rain.
+③ 看中文意思
+雖然下雨，我們仍然玩耍。
+④ 看為甚麼這樣寫
+despite the rain 說下雨未能阻止我們玩。
+⑤ 比較接近的寫法
+We played because of the rain.
+because of 表示下雨是玩耍的原因。
+⑥ 最後看限制或例外
+despite 後面不要加 of。
+
+PP.08.12 — in spite of：雖然有阻礙
+① 先明白意思
+in spite of 跟 despite 的意思很接近。
+② 看英文例句
+
+She smiled in spite of the pain.
+③ 看中文意思
+雖然很痛，她仍然微笑。
+④ 看為甚麼這樣寫
+in spite of the pain 表示疼痛沒有阻止她微笑。
+⑤ 比較接近的寫法
+She smiled despite the pain.
+despite 的意思相近，而且較精簡。
+⑥ 最後看限制或例外
+in spite of 分開寫三個字；不能寫成 inspite of。
+
+PP.08.13 — despite + -ing
+① 先明白意思
+despite 後面可以接 -ing，說明甚麼情況沒有阻止結果。
+② 看英文例句
+He went out despite feeling ill.
+③ 看中文意思
+雖然身體不舒服，他仍然出門。
+④ 看為甚麼這樣寫
+despite feeling ill 說不舒服仍出門。
+⑤ 比較接近的寫法
+He went out although he felt ill.
+although 後面可以接 he felt ill 這種完整句子。
+⑥ 最後看限制或例外
+一般不要寫 despite he felt ill；可用 despite the fact that he felt ill。
+
+PP.08.14 — regardless of：不論某個條件
+① 先明白意思
+regardless of 表示某件事不受另一個條件影響。
+② 看英文例句
+We will play regardless of the weather.
+③ 看中文意思
+不論天氣如何，我們都會玩。
+④ 看為甚麼這樣寫
+regardless of the weather 表示天氣不改變計劃。
+⑤ 比較接近的寫法
+We will play if the weather is good.
+if 說明要看天氣是否好才決定。
+⑥ 最後看限制或例外
+regardless of 後面也可接 -ing，或由 what、whether 等字開始的內容。
+
+PP.08.15 — according to：根據資料
+① 先明白意思
+according to 可以說明消息從哪裏來。
+② 看英文例句
+According to the notice, school ends at three.
+③ 看中文意思
+根據通告，學校三時放學。
+④ 看為甚麼這樣寫
+according to the notice 說明消息來源。
+⑤ 比較接近的寫法
+
+In my opinion, school should end earlier.
+in my opinion 清楚表明是我的看法。
+⑥ 最後看限制或例外
+一般不要用 according to me 來表達自己的普通意見。
+
+PP.08.16 — as well as：還有
+① 先明白意思
+as well as 可以把另一個人或事物加進描述。
+② 看英文例句
+Mia plays tennis as well as badminton.
+③ 看中文意思
+Mia 既打網球，也打羽毛球。
+④ 看為甚麼這樣寫
+as well as badminton 表示她也打羽毛球。
+⑤ 比較接近的寫法
+Mia plays tennis instead of badminton.
+instead of 表示用網球取代羽毛球。
+⑥ 最後看限制或例外
+as well as 和 and 在主語組合時，動詞配合可能不同。
+
+PP.08.17 — instead of：用一樣代替另一樣
+① 先明白意思
+instead of 表示選了甲，沒有選乙。
+② 看英文例句
+We drank water instead of juice.
+③ 看中文意思
+
+我們喝水，沒有喝果汁。
+④ 看為甚麼這樣寫
+instead of juice 說明被取代的選擇。
+⑤ 比較接近的寫法
+We drank water as well as juice.
+as well as 表示水和果汁都喝了。
+⑥ 最後看限制或例外
+instead of 後面可接 -ing，例如 instead of driving。
+
+PP.09 — 動詞和介詞：常用的固定接法
+PP.09.01 — listen to 與 hear
+① 先明白意思
+listen to 說主動留心聽；hear 說聽到聲音。
+② 看英文例句
+Please listen to the instructions.
+③ 看中文意思
+請留心聽指示。
+④ 看為甚麼這樣寫
+listen 後面接 the instructions 時，常用 to。
+⑤ 比較接近的寫法
+I heard a noise outside.
+hear 直接接聲音，不需要 to。
+⑥ 最後看限制或例外
+listen 也可以不用接對象，例如 Listen carefully。
+
+PP.09.02 — look at：把目光放在哪裏
+
+① 先明白意思
+look at 可以說明望着誰或甚麼。
+② 看英文例句
+Look at the board, please.
+③ 看中文意思
+請看黑板。
+④ 看為甚麼這樣寫
+look at 後面接要看的東西。
+⑤ 比較接近的寫法
+Look for your book, please.
+look for 表示尋找書本。
+⑥ 最後看限制或例外
+look after 有照顧的意思，是另一組接法。
+
+PP.09.03 — wait for 與 await
+① 先明白意思
+wait for 可以說明在等誰或甚麼。
+② 看英文例句
+We are waiting for the bus.
+③ 看中文意思
+我們正在等巴士。
+④ 看為甚麼這樣寫
+wait for 後面接 the bus。
+⑤ 比較接近的寫法
+We await the result.
+
+await 可以直接接 the result，語氣較正式。
+⑥ 最後看限制或例外
+wait 後面有時不用 for，例如 Wait here。
+
+PP.09.04 — depend on：取決於
+① 先明白意思
+depend on 可以表示結果要看甚麼條件。
+② 看英文例句
+The trip depends on the weather.
+③ 看中文意思
+行程要看天氣而定。
+④ 看為甚麼這樣寫
+depends on the weather 說明天氣會影響行程。
+⑤ 比較接近的寫法
+The trip is about the weather.
+about 只表示主題，不表示條件。
+⑥ 最後看限制或例外
+depend upon 也可以用，通常較正式。
+
+PP.09.05 — belong to：屬於誰
+① 先明白意思
+belong to 後面說明物件屬於誰。
+② 看英文例句
+This bag belongs to Ben.
+③ 看中文意思
+這個袋子屬於 Ben。
+
+④ 看為甚麼這樣寫
+belongs to Ben 表示 Ben 是袋子的主人。
+⑤ 比較接近的寫法
+This bag is for Ben.
+for Ben 只可能表示袋子是預備給 Ben。
+⑥ 最後看限制或例外
+belong 通常不用於進行式來表示擁有。
+
+PP.09.06 — agree with／on／to：意思不同
+① 先明白意思
+agree with 後面常接人或看法。
+② 看英文例句
+I agree with May.
+③ 看中文意思
+我同意 May 的看法。
+④ 看為甚麼這樣寫
+with May 說我同意誰。
+⑤ 比較接近的寫法
+We agreed on a date.
+on a date 表示大家商定了一個日期。
+⑥ 最後看限制或例外
+agree to a plan 或 offer 也常見；要看同意的是人、決定還是安排。
+
+PP.09.07 — apologise to／for
+① 先明白意思
+apologise to 後面接道歉對象；for 後面接原因。
+
+② 看英文例句
+I apologised to Mum for being late.
+③ 看中文意思
+我因為遲到而向媽媽道歉。
+④ 看為甚麼這樣寫
+to Mum 說向誰道歉；for being late 說道歉原因。
+⑤ 比較接近的寫法
+I thanked Mum for waiting.
+thank 是另一個動詞，接法不同。
+⑥ 最後看限制或例外
+apologize 是美式拼法；apologise 是英式拼法。
+
+PP.09.08 — ask for／ask about
+① 先明白意思
+ask for 表示要求得到；ask about 表示詢問資料。
+② 看英文例句
+I asked for a glass of water.
+③ 看中文意思
+我要求一杯水。
+④ 看為甚麼這樣寫
+for a glass of water 表示想得到甚麼。
+⑤ 比較接近的寫法
+I asked about the water supply.
+about the water supply 表示詢問供水情況。
+⑥ 最後看限制或例外
+
+ask someone a question 可以直接接人和問題，不一定用介詞。
+
+PP.09.09 — talk to／with／about
+① 先明白意思
+talk to 或 talk with 可以說交談對象；about 說明話題。
+② 看英文例句
+I talked to Dad about school.
+③ 看中文意思
+我跟爸爸談學校的事。
+④ 看為甚麼這樣寫
+to Dad 說跟誰談；about school 說談甚麼。
+⑤ 比較接近的寫法
+I talked about Dad at school.
+這句的話題是爸爸，談話在學校進行。
+⑥ 最後看限制或例外
+talk with 特別能強調雙方交談；用法有重疊。
+
+PP.09.10 — reply to 與 answer
+① 先明白意思
+reply to 後面常接信件或問題；answer 可以直接接。
+② 看英文例句
+Please reply to my email.
+③ 看中文意思
+請回覆我的電郵。
+④ 看為甚麼這樣寫
+reply to 後面接 my email。
+
+⑤ 比較接近的寫法
+Please answer my email.
+answer 可直接接 my email。
+⑥ 最後看限制或例外
+reply 也可獨立使用，例如 Please reply soon。
+
+PP.09.11 — pay for 與 pay someone
+① 先明白意思
+pay for 說明付款買甚麼；pay someone 說明付款給誰。
+② 看英文例句
+I paid for the tickets.
+③ 看中文意思
+我付了門票的錢。
+④ 看為甚麼這樣寫
+for the tickets 說明付款的項目。
+⑤ 比較接近的寫法
+I paid the driver.
+the driver 是收到錢的人。
+⑥ 最後看限制或例外
+pay by card 說明付款方法；pay in cash 是常見固定說法。
+
+PP.09.12 — spend on：花在甚麼上
+① 先明白意思
+spend money on 可以說明錢花在哪裏。
+② 看英文例句
+She spent $20 on lunch.
+
+③ 看中文意思
+她午餐花了二十元。
+④ 看為甚麼這樣寫
+on lunch 說明用錢的地方。
+⑤ 比較接近的寫法
+She spent two hours cooking.
+說花多少時間做事時，常用 spend time + -ing。
+⑥ 最後看限制或例外
+spend time on homework 也可以，須看後面是名詞還是活動。
+
+PP.09.13 — apply for 與 apply to
+① 先明白意思
+apply for 常接想申請的東西；apply to 可接收申請的機構。
+② 看英文例句
+She applied for the job.
+③ 看中文意思
+她申請那份工作。
+④ 看為甚麼這樣寫
+for the job 說明想得到的職位。
+⑤ 比較接近的寫法
+She applied to the company.
+to the company 說明向哪間公司申請。
+⑥ 最後看限制或例外
+apply to 也可表示規則適用於誰，不能與求職用法混為一談。
+
+PP.09.14 — borrow from 與 lend to
+
+① 先明白意思
+borrow from 說向誰借；lend to 說借給誰。
+② 看英文例句
+I borrowed a book from Ben.
+③ 看中文意思
+我向 Ben 借了一本書。
+④ 看為甚麼這樣寫
+from Ben 說明書原本在誰手上。
+⑤ 比較接近的寫法
+Ben lent a book to me.
+to me 說明 Ben 把書借給我。
+⑥ 最後看限制或例外
+lend me a book 也很自然，這個句型不用 to。
+
+PP.09.15 — leave for 與 leave
+① 先明白意思
+leave for 後面可以接下一個目的地。
+② 看英文例句
+We leave for Macau tomorrow.
+③ 看中文意思
+我們明天出發去澳門。
+④ 看為甚麼這樣寫
+for Macau 說明目的地。
+⑤ 比較接近的寫法
+We leave Macau tomorrow.
+
+leave Macau 表示明天離開澳門。
+⑥ 最後看限制或例外
+leave home 常直接接 home；離開和前往是兩個不同意思。
+
+PP.09.16 — search for 與 search
+① 先明白意思
+search for 說明在尋找甚麼；search a place 說明搜查哪個地方。
+② 看英文例句
+The police searched for the missing dog.
+③ 看中文意思
+警察尋找失蹤的狗。
+④ 看為甚麼這樣寫
+for the missing dog 說明尋找對象。
+⑤ 比較接近的寫法
+The police searched the garden.
+這句表示警察搜查花園。
+⑥ 最後看限制或例外
+search the internet for an answer 可以同時接地方和目標。
+
+PP.09.17 — complain about／to
+① 先明白意思
+complain about 說明投訴甚麼；complain to 說向誰投訴。
+② 看英文例句
+She complained to the manager about the noise.
+③ 看中文意思
+她向經理投訴噪音。
+
+④ 看為甚麼這樣寫
+to the manager 是投訴對象；about the noise 是原因。
+⑤ 比較接近的寫法
+She complained about the manager.
+這句表示她投訴經理本人。
+⑥ 最後看限制或例外
+complain of pain 在某些正式或醫療語境也可用。
+
+PP.09.18 — insist on：堅持
+① 先明白意思
+insist on 後面可接名詞或 -ing。
+② 看英文例句
+He insisted on paying the bill.
+③ 看中文意思
+他堅持要付帳。
+④ 看為甚麼這樣寫
+on paying 表示堅持由自己付錢。
+⑤ 比較接近的寫法
+He insisted that he would pay.
+insist 後面也可以接 that 句子。
+⑥ 最後看限制或例外
+insist on someone doing 的用法存在，但句子要讓人知道誰做事。
+
+PP.09.19 — succeed in：成功做到
+① 先明白意思
+succeed in 後面常接 -ing，說成功完成甚麼。
+
+② 看英文例句
+She succeeded in finding her keys.
+③ 看中文意思
+她成功找回鎖匙。
+④ 看為甚麼這樣寫
+in finding 表示成功做到尋找這件事。
+⑤ 比較接近的寫法
+She managed to find her keys.
+manage 後面常用 to find。​
+⑥ 最後看限制或例外
+succeed at something 可表示在某方面表現成功，意思稍有不同。
+
+PP.09.20 — prevent ... from：阻止某事發生
+① 先明白意思
+prevent someone from doing 表示阻止某人做事。
+② 看英文例句
+The rain prevented us from playing.
+③ 看中文意思
+下雨令我們無法玩耍。
+④ 看為甚麼這樣寫
+from playing 說明被阻止的活動。
+⑤ 比較接近的寫法
+The rain stopped, so we played.
+這句說雨停了，結果可以玩。
+⑥ 最後看限制或例外
+stop someone (from) doing 在有些英語中可省去 from；prevent 的情況不能一律照搬。
+
+PP.09.21 — protect ... from／against
+① 先明白意思
+protect from 或 against 可以說明要防範的危險。
+② 看英文例句
+The coat protects us from the cold.
+③ 看中文意思
+外套保護我們不受寒冷影響。
+④ 看為甚麼這樣寫
+from the cold 說明要防範甚麼。
+⑤ 比較接近的寫法
+The coat keeps us warm.
+這句直接說外套令我們暖和。
+⑥ 最後看限制或例外
+protect against disease 也常用；不同名詞有自己的配搭偏好。
+
+PP.09.22 — remind ... of／about
+① 先明白意思
+remind someone of 可表示令他想起；about 可表示提醒某項事情。
+② 看英文例句
+This song reminds me of home.
+③ 看中文意思
+這首歌令我想起家。
+④ 看為甚麼這樣寫
+of home 說明想到甚麼。
+⑤ 比較接近的寫法
+
+Please remind me about the meeting.
+about the meeting 是要記得的安排。
+⑥ 最後看限制或例外
+remind me to call Mum 則用 to + 動詞，意思是提醒我要做事。
+
+PP.09.23 — accuse ... of
+① 先明白意思
+accuse someone of something 表示指控某人做了某件事。
+② 看英文例句
+They accused him of cheating.
+③ 看中文意思
+他們指控他作弊。
+④ 看為甚麼這樣寫
+of cheating 說明被指控的行為。
+⑤ 比較接近的寫法
+They warned him about cheating.
+warned about 表示提醒或警告，沒有直接指控他已作弊。
+⑥ 最後看限制或例外
+accuse 不代表指控一定屬實；要分清說話者的立場。
+
+PP.09.24 — thank ... for
+① 先明白意思
+thank someone for something 說明感謝的原因。
+② 看英文例句
+I thanked May for her help.
+③ 看中文意思
+
+我感謝 May 的幫忙。
+④ 看為甚麼這樣寫
+May 是受感謝的人；for her help 是原因。
+⑤ 比較接近的寫法
+I apologised to May for my mistake.
+apologise 通常要加 to 才接道歉對象。
+⑥ 最後看限制或例外
+thank someone for helping 也很自然。
+
+PP.09.25 — provide ... with／for
+① 先明白意思
+provide someone with something 表示供應某物給某人。
+② 看英文例句
+The school provided us with books.
+③ 看中文意思
+學校提供書本給我們。
+④ 看為甚麼這樣寫
+with books 說明提供甚麼。
+⑤ 比較接近的寫法
+The school provided books for us.
+for us 也可以說明受益的人，句型不同。
+⑥ 最後看限制或例外
+不能寫 provide us books 當作各種英語中都通用的唯一寫法；部分用法有地域差異。
+
+PP.09.26 — result in／from
+① 先明白意思
+
+result in 說明帶來甚麼結果；result from 說明因甚麼而發生。
+② 看英文例句
+The storm resulted in delays.
+③ 看中文意思
+暴風雨造成延誤。
+④ 看為甚麼這樣寫
+in delays 說明結果。
+⑤ 比較接近的寫法
+The delays resulted from the storm.
+from the storm 說明原因。
+⑥ 最後看限制或例外
+同一件事可以調轉重點，但介詞也要跟着改。
+
+PP.09.27 — consist of
+① 先明白意思
+consist of 說明整體由哪些部分組成。
+② 看英文例句
+The meal consists of rice and fish.
+③ 看中文意思
+這餐有飯和魚兩部分。
+④ 看為甚麼這樣寫
+of rice and fish 說明餐點內容。
+⑤ 比較接近的寫法
+The meal contains rice and fish.
+contain 直接接內容，不需要 of。
+
+⑥ 最後看限制或例外
+consist of 在這個意思下通常不用進行式。
+
+PP.09.28 — participate in
+① 先明白意思
+participate in 表示參加活動。
+② 看英文例句
+Many pupils participated in the race.
+③ 看中文意思
+很多學生參加了賽跑。
+④ 看為甚麼這樣寫
+in the race 說明參加甚麼活動。
+⑤ 比較接近的寫法
+Many pupils attended the race.
+attend 直接接活動，可表示到場觀看或參與。
+⑥ 最後看限制或例外
+take part in 意思接近 participate in，較常見於一般說話。
+
+PP.09.29 — think about／of
+① 先明白意思
+think about 和 think of 有時都可表示想起或考慮。
+② 看英文例句
+I am thinking about my future.
+③ 看中文意思
+我正在考慮自己的將來。
+④ 看為甚麼這樣寫
+
+thinking about 着重正在思考。
+⑤ 比較接近的寫法
+I thought of a good idea.
+thought of 在這裏表示想到一個主意。
+⑥ 最後看限制或例外
+兩者有不少重疊用法；要看是思考過程，還是想到某件事。
+
+PP.09.30 — discuss／mention：不用多加 about
+① 先明白意思
+discuss 和 mention 通常直接接談論內容。
+② 看英文例句
+We discussed the plan yesterday.
+③ 看中文意思
+我們昨天討論了計劃。
+④ 看為甚麼這樣寫
+discuss 後面直接接 the plan。
+⑤ 比較接近的寫法
+We talked about the plan yesterday.
+talk 後面常用 about 表示話題。
+⑥ 最後看限制或例外
+discussion about/of the plan 是名詞用法，不能把它直接套回 discuss。
+
+Loading older messages…
+
+please continue
+
+<!-- SOURCE PDF COURSE CONTINUES AT PAGE 184 -->
+
+PP.10.01 — good at：擅長
+① 先明白意思
+good at 後面常說擅長甚麼活動。
+② 看英文例句
+My brother is good at maths.
+③ 看中文意思
+我哥哥擅長數學。
+④ 看為甚麼這樣寫
+at maths 說明他擅長的科目。
+⑤ 比較接近的寫法
+Maths is good for my brain.
+good for 表示對我有好處。
+⑥ 最後看限制或例外
+good at swimming 也正確，at 後面可接 -ing。
+
+PP.10.02 — bad at 與 bad for
+① 先明白意思
+bad at 表示不擅長；bad for 表示有害或不利。
+② 看英文例句
+I am bad at drawing.
+③ 看中文意思
+我不擅長畫畫。
+④ 看為甚麼這樣寫
+at drawing 說明不擅長的活動。
+⑤ 比較接近的寫法
+Too much sugar is bad for your teeth.
+for your teeth 說明糖對牙齒有害。
+⑥ 最後看限制或例外
+bad at 不等於一個人的整體能力不好，只說特定方面。
+
+PP.10.03 — interested in
+① 先明白意思
+interested in 後面說明對甚麼有興趣。
+② 看英文例句
+May is interested in science.
+③ 看中文意思
+May 對科學有興趣。
+④ 看為甚麼這樣寫
+in science 說明興趣的對象。
+⑤ 比較接近的寫法
+
+Science is interesting to May.
+interesting 描述科學令 May 覺得有趣。
+⑥ 最後看限制或例外
+interested in learning 也正確，後面用 -ing。
+
+PP.10.04 — afraid of
+① 先明白意思
+afraid of 可以表示害怕某人或某物。
+② 看英文例句
+The child is afraid of dogs.
+③ 看中文意思
+孩子害怕狗。
+④ 看為甚麼這樣寫
+of dogs 說明害怕的對象。
+⑤ 比較接近的寫法
+The child is worried about the test.
+worried about 表示擔心測驗。
+⑥ 最後看限制或例外
+afraid to ask 也可以用，着重不敢做某事。
+
+PP.10.05 — worried about
+① 先明白意思
+worried about 說明擔心的事情。
+② 看英文例句
+Dad is worried about the weather.
+③ 看中文意思
+
+爸爸擔心天氣。
+④ 看為甚麼這樣寫
+about the weather 說明擔心甚麼。
+⑤ 比較接近的寫法
+Dad is afraid of storms.
+afraid of storms 更着重害怕暴風雨。
+⑥ 最後看限制或例外
+worried for someone 也可表示擔心某人的安危，意思與 worried about 有重疊。
+
+PP.10.06 — proud of
+① 先明白意思
+proud of 表示為某人或成績感到驕傲。
+② 看英文例句
+We are proud of our team.
+③ 看中文意思
+我們為自己的隊伍感到驕傲。
+④ 看為甚麼這樣寫
+of our team 說明因誰而感到驕傲。
+⑤ 比較接近的寫法
+We are happy for our team.
+happy for 表示因隊伍的好事而替他們高興。
+⑥ 最後看限制或例外
+proud of winning 也可以，後面用 -ing。
+
+PP.10.07 — kind to
+① 先明白意思
+
+kind to 後面說明受到友善對待的人。
+② 看英文例句
+The teacher is kind to everyone.
+③ 看中文意思
+老師對每個人都很友善。
+④ 看為甚麼這樣寫
+to everyone 說明老師友善對待誰。
+⑤ 比較接近的寫法
+The teacher is good at explaining.
+good at 說明老師擅長解釋。
+⑥ 最後看限制或例外
+kind of someone to do something 可用來稱讚某個行為，例如 It was kind of you to help。
+
+PP.10.08 — angry with／at／about
+① 先明白意思
+angry with 常接人；angry about 常接事情。
+② 看英文例句
+Mum was angry with me about the mess.
+③ 看中文意思
+媽媽因為地方很亂而生我的氣。
+④ 看為甚麼這樣寫
+with me 說生誰的氣；about the mess 說原因。
+⑤ 比較接近的寫法
+Mum was angry about the mess.
+這句只說她對混亂情況感到生氣。
+
+⑥ 最後看限制或例外
+angry at someone/something 也常見，並非一律錯誤。
+
+PP.10.09 — happy about／with／for
+① 先明白意思
+happy about 可以說因事情開心；happy with 可說滿意。
+② 看英文例句
+I am happy with my new bike.
+③ 看中文意思
+我對自己的新單車很滿意。
+④ 看為甚麼這樣寫
+with my new bike 表示滿意這樣東西。
+⑤ 比較接近的寫法
+I am happy about the good news.
+about the good news 表示聽到消息感到開心。
+⑥ 最後看限制或例外
+happy for you 通常表示替你高興。
+
+PP.10.10 — surprised at／by
+① 先明白意思
+surprised at 和 surprised by 都可說某事令人驚訝。
+② 看英文例句
+We were surprised by the result.
+③ 看中文意思
+結果令我們感到驚訝。
+④ 看為甚麼這樣寫
+
+by the result 說明令我們驚訝的事情。
+⑤ 比較接近的寫法
+We were surprised at the price.
+at the price 也自然，說價錢令人驚訝。
+⑥ 最後看限制或例外
+兩種介詞有重疊，不要把其中一種當普遍錯誤。
+
+PP.10.11 — responsible for
+① 先明白意思
+responsible for 表示負責某事。
+② 看英文例句
+May is responsible for the tickets.
+③ 看中文意思
+May 負責處理門票。
+④ 看為甚麼這樣寫
+for the tickets 說明她負責哪一部分。
+⑤ 比較接近的寫法
+May is in charge of the tickets.
+in charge of 意思接近，也表示負責。
+⑥ 最後看限制或例外
+responsible to someone 可表示要向某人交代，不能跟 responsible for 混淆。
+
+PP.10.12 — famous for／as
+① 先明白意思
+famous for 說明因甚麼出名；famous as 說明以甚麼身份出名。
+② 看英文例句
+
+The town is famous for its cakes.
+③ 看中文意思
+這個小鎮以蛋糕聞名。
+④ 看為甚麼這樣寫
+for its cakes 說明出名的原因。
+⑤ 比較接近的寫法
+She is famous as a singer.
+as a singer 說明她以歌手身份出名。
+⑥ 最後看限制或例外
+兩個寫法都自然，但重點不同。
+
+PP.10.13 — full of
+① 先明白意思
+full of 表示某處裝滿或充滿某物。
+② 看英文例句
+The box is full of toys.
+③ 看中文意思
+箱子裝滿玩具。
+④ 看為甚麼這樣寫
+of toys 說明箱裏裝的是甚麼。
+⑤ 比較接近的寫法
+The box is filled with toys.
+filled with 也表示裝滿，接法不同。
+⑥ 最後看限制或例外
+full with toys 在這個普通意思下不自然。
+
+PP.10.14 — different from／to／than
+① 先明白意思
+different from 最通用；to 和 than 也在特定英語中使用。
+② 看英文例句
+My answer is different from yours.
+③ 看中文意思
+我的答案跟你的不同。
+④ 看為甚麼這樣寫
+from yours 說明跟哪個答案不同。
+⑤ 比較接近的寫法
+My answer is the same as yours.
+the same as 表示兩個答案相同。
+⑥ 最後看限制或例外
+different to 在英式英語常見；different than 在美式英語及一些句型也可用。
+
+PP.10.15 — similar to
+① 先明白意思
+similar to 表示相似。
+② 看英文例句
+This picture is similar to mine.
+③ 看中文意思
+這張圖片跟我的很相似。
+④ 看為甚麼這樣寫
+to mine 說明比較對象。
+⑤ 比較接近的寫法
+
+This picture is different from mine.
+different from 表示不同。
+⑥ 最後看限制或例外
+similar with 在這個常見的比較意思下通常不合適。
+
+PP.10.16 — married to
+① 先明白意思
+說某人與誰結婚，通常用 married to。
+② 看英文例句
+Ben is married to May.
+③ 看中文意思
+Ben 和 May 已婚。
+④ 看為甚麼這樣寫
+to May 說明婚姻對象。
+⑤ 比較接近的寫法
+Ben is engaged to May.
+engaged to 表示兩人已訂婚。
+⑥ 最後看限制或例外
+married with children 是另一個意思，表示已婚並有孩子。
+
+PP.10.17 — pleased with／about
+① 先明白意思
+pleased with 可以說滿意結果；pleased about 可以說聽到事情很高興。
+② 看英文例句
+The coach was pleased with our effort.
+③ 看中文意思
+
+教練對我們的努力感到滿意。
+④ 看為甚麼這樣寫
+with our effort 說明令教練滿意的部分。
+⑤ 比較接近的寫法
+The coach was pleased about the news.
+about the news 表示教練聽到消息感到高興。
+⑥ 最後看限制或例外
+pleased to meet you 是另一個常用句型。
+
+PP.10.18 — ready for／to
+① 先明白意思
+ready for 後面常接事情或活動；ready to 後面接動詞。
+② 看英文例句
+We are ready for the test.
+③ 看中文意思
+我們已準備好應付測驗。
+④ 看為甚麼這樣寫
+for the test 說明準備甚麼。
+⑤ 比較接近的寫法
+We are ready to start.
+to start 表示準備好開始。
+⑥ 最後看限制或例外
+ready for leaving 可能出現於特別語境，但一般說 ready to leave 更自然。
+
+PP.10.19 — tired of／from
+① 先明白意思
+
+tired of 可表示對某事感到厭倦；tired from 可說因活動而累。
+② 看英文例句
+I am tired of waiting.
+③ 看中文意思
+我等得不耐煩了。
+④ 看為甚麼這樣寫
+of waiting 表示對等待感到厭倦。
+⑤ 比較接近的寫法
+I am tired from walking all day.
+from walking 說走了一整天而疲倦。
+⑥ 最後看限制或例外
+tired after work 也很自然；不要把 tired of 解釋成普通身體疲勞。
+
+PP.10.20 — used to doing／used to do
+① 先明白意思
+be used to + -ing 表示習慣了；used to + 動詞表示以前常做。
+② 看英文例句
+I am used to getting up early.
+③ 看中文意思
+我已習慣早起。
+④ 看為甚麼這樣寫
+to 後面用 getting，因為 be used to 是一組寫法。
+⑤ 比較接近的寫法
+I used to get up late.
+used to get 表示以前有晚起的習慣。
+
+⑥ 最後看限制或例外
+不要看到兩句都有 used to，就以為後面動詞形式一樣。
+
+PP.10.21 — capable of
+① 先明白意思
+capable of 後面可接名詞或 -ing，表示有能力。
+② 看英文例句
+She is capable of solving the problem.
+③ 看中文意思
+她有能力解決問題。
+④ 看為甚麼這樣寫
+of solving 說明她有能力做甚麼。
+⑤ 比較接近的寫法
+She can solve the problem.
+can 後面直接接 solve，不需要 of。
+⑥ 最後看限制或例外
+capable to solve 在普通標準英語中不自然。
+
+PP.10.22 — aware of
+① 先明白意思
+aware of 表示知道某件事或留意到它。
+② 看英文例句
+I am aware of the problem.
+③ 看中文意思
+我知道這個問題。
+④ 看為甚麼這樣寫
+
+of the problem 說明知道甚麼。
+⑤ 比較接近的寫法
+I know about the problem.
+know about 也可以說已知道這件事。
+⑥ 最後看限制或例外
+aware that the door is open 也正確，that 後面接完整句子。
+
+PP.11 — 名詞後面接介詞：說清楚關係
+PP.11.01 — reason for
+① 先明白意思
+reason for 後面說明原因涉及哪件事。
+② 看英文例句
+What is the reason for the delay?
+③ 看中文意思
+延誤的原因是甚麼？
+④ 看為甚麼這樣寫
+for the delay 指明想問哪件事的原因。
+⑤ 比較接近的寫法
+Why was the train delayed?
+why 問同一類原因，但句型不同。
+⑥ 最後看限制或例外
+the reason why ... 也常用；不一定每次都要加 for。
+
+PP.11.02 — cause of
+① 先明白意思
+cause of 後面說明某事由甚麼造成。
+
+② 看英文例句
+We found the cause of the noise.
+③ 看中文意思
+我們找到了噪音的來源。
+④ 看為甚麼這樣寫
+of the noise 說明是哪件事的原因。
+⑤ 比較接近的寫法
+We found a solution to the noise problem.
+solution to 表示解決方法，介詞不同。
+⑥ 最後看限制或例外
+動詞 cause 可以直接接結果，例如 The storm caused delays。
+
+PP.11.03 — effect on
+① 先明白意思
+effect on 後面說明影響誰或甚麼。
+② 看英文例句
+The storm had an effect on traffic.
+③ 看中文意思
+暴風雨影響了交通。
+④ 看為甚麼這樣寫
+on traffic 說明受影響的對象。
+⑤ 比較接近的寫法
+The storm caused traffic problems.
+動詞 cause 直接接結果，不需要 on。
+⑥ 最後看限制或例外
+
+impact on 也很常見；有些地區也把 impact 當動詞使用。
+
+PP.11.04 — solution to
+① 先明白意思
+solution to 表示解決甚麼問題的方法。
+② 看英文例句
+We found a solution to the problem.
+③ 看中文意思
+我們找到解決問題的方法。
+④ 看為甚麼這樣寫
+to the problem 說明要解決甚麼。
+⑤ 比較接近的寫法
+We found the answer to the question.
+answer to 也用 to，但意思是問題的答案。
+⑥ 最後看限制或例外
+solve the problem 這個動詞句型不用 to。
+
+PP.11.05 — answer to
+① 先明白意思
+answer to 後面接問題，說明哪一道題的答案。
+② 看英文例句
+I know the answer to question five.
+③ 看中文意思
+我知道第五題的答案。
+④ 看為甚麼這樣寫
+to question five 說明是哪一道題。
+
+⑤ 比較接近的寫法
+I answered question five.
+動詞 answer 可以直接接題目。
+⑥ 最後看限制或例外
+「answer for」在某些意思下也存在，例如為事情負責，但意思不同。
+
+PP.11.06 — invitation to
+① 先明白意思
+invitation to 後面常接活動。
+② 看英文例句
+I received an invitation to the party.
+③ 看中文意思
+我收到派對邀請。
+④ 看為甚麼這樣寫
+to the party 說明獲邀參加甚麼。
+⑤ 比較接近的寫法
+I was invited to the party.
+動詞被動句也常用 to。
+⑥ 最後看限制或例外
+invitation from May 則說邀請由誰發出。
+
+PP.11.07 — interest in
+① 先明白意思
+interest in 後面說明對甚麼感興趣。
+② 看英文例句
+He has an interest in music.
+
+③ 看中文意思
+他對音樂有興趣。
+④ 看為甚麼這樣寫
+in music 說明興趣的範圍。
+⑤ 比較接近的寫法
+He is interested in music.
+形容詞 interested 後面也常用 in。
+⑥ 最後看限制或例外
+take an interest in 是常見整組用法。
+
+PP.11.08 — knowledge of
+① 先明白意思
+knowledge of 可以說明知道哪方面的事情。
+② 看英文例句
+She has good knowledge of French.
+③ 看中文意思
+她很了解法文。
+④ 看為甚麼這樣寫
+of French 說明熟悉的範圍。
+⑤ 比較接近的寫法
+She knows French well.
+動詞 know 直接接 French。
+⑥ 最後看限制或例外
+knowledge about 也可用，常較着重有關的資料。
+
+PP.11.09 — increase in／by／to
+
+① 先明白意思
+increase in 說甚麼增加；by 說增加多少；to 說增加到多少。
+② 看英文例句
+There was an increase in prices.
+③ 看中文意思
+價格上升了。
+④ 看為甚麼這樣寫
+in prices 說明上升的是甚麼。
+⑤ 比較接近的寫法
+Prices increased by ten per cent.
+by ten per cent 說明升幅是多少。
+⑥ 最後看限制或例外
+Prices increased to $110 說最後價格變成 $110；三個介詞不是同一意思。
+
+PP.11.10 — difference between／in
+① 先明白意思
+difference between 比較對象；difference in 指哪方面不同。
+② 看英文例句
+There is a difference between the two bags.
+③ 看中文意思
+這兩個袋子有分別。
+④ 看為甚麼這樣寫
+between the two bags 說明比較哪兩個袋子。
+⑤ 比較接近的寫法
+There is a difference in colour.
+
+in colour 說明不同之處是顏色。
+⑥ 最後看限制或例外
+也可同時用：a difference in size between the bags。
+
+PP.11.11 — relationship with／between
+① 先明白意思
+relationship with 可接某個人的關係；between 接雙方。
+② 看英文例句
+She has a good relationship with her sister.
+③ 看中文意思
+她和妹妹關係很好。
+④ 看為甚麼這樣寫
+with her sister 說明她跟誰關係好。
+⑤ 比較接近的寫法
+The relationship between the sisters is strong.
+between the sisters 說兩姐妹之間的關係。
+⑥ 最後看限制或例外
+relationship to 在親屬、工作及其他特別語境也正確。
+
+PP.11.12 — access to
+① 先明白意思
+access to 表示可以使用或進入某處的機會。
+② 看英文例句
+Every pupil has access to the library.
+③ 看中文意思
+每位學生都可以使用圖書館。
+
+④ 看為甚麼這樣寫
+to the library 說明可以使用甚麼。
+⑤ 比較接近的寫法
+Every pupil can enter the library.
+enter 直接接地方。
+⑥ 最後看限制或例外
+access 也可當動詞，例如 access the website，不需要 to。
+
+PP.11.13 — need for
+① 先明白意思
+need for 可以說某物有需要。
+② 看英文例句
+There is a need for more chairs.
+③ 看中文意思
+我們需要更多椅子。
+④ 看為甚麼這樣寫
+for more chairs 說明需要甚麼。
+⑤ 比較接近的寫法
+We need more chairs.
+動詞 need 直接接 more chairs。
+⑥ 最後看限制或例外
+the need to act 可用 to + 動詞，說明要做的事。
+
+PP.11.14 — attitude towards
+① 先明白意思
+attitude towards 表示對某人或事情的看法。
+
+② 看英文例句
+Her attitude towards school is positive.
+③ 看中文意思
+她對學校的態度很正面。
+④ 看為甚麼這樣寫
+towards school 說明她對甚麼抱有看法。
+⑤ 比較接近的寫法
+Her opinion about school is positive.
+opinion about 說的是意見，介詞不同。
+⑥ 最後看限制或例外
+attitude toward 也正確，美式英語常見。
+
+PP.11.15 — photo of／by
+① 先明白意思
+photo of 說照片拍的是甚麼；photo by 說誰拍攝。
+② 看英文例句
+This is a photo of our dog.
+③ 看中文意思
+這是我們家狗隻的照片。
+④ 看為甚麼這樣寫
+of our dog 說照片的內容。
+⑤ 比較接近的寫法
+This is a photo by my sister.
+by my sister 說攝影者是妹妹。
+⑥ 最後看限制或例外
+
+photo with my sister 可表示照片裏有妹妹一起出現；要看語境。
+
+PP.11.16 — key to／door to
+① 先明白意思
+key to 常說某扇門的鎖匙；也可說成功的關鍵。
+② 看英文例句
+This is the key to the back door.
+③ 看中文意思
+這是後門的鎖匙。
+④ 看為甚麼這樣寫
+to the back door 說明這把鎖匙用在哪道門。
+⑤ 比較接近的寫法
+This is the key to success.
+to success 這裏表示成功的關鍵，意思不再是開門。
+⑥ 最後看限制或例外
+key for 可能見於特別用途，但一般說 key to the door。
+
+PP.12 — 多字介詞和常見固定短語
+PP.12.01 — because of：因為某件事
+① 先明白意思
+because of 後面可接名詞，說明原因。
+② 看英文例句
+The match stopped because of the rain.
+③ 看中文意思
+比賽因為下雨而停止。
+④ 看為甚麼這樣寫
+
+because of the rain 說明比賽停止的原因。
+⑤ 比較接近的寫法
+The match stopped because it rained.
+because 後面接 it rained 這個完整句子。
+⑥ 最後看限制或例外
+because of 不能在這裏直接接 it rained。
+
+PP.12.02 — due to：由於
+① 先明白意思
+due to 可以說明事情發生的原因。
+② 看英文例句
+The flight was delayed due to fog.
+③ 看中文意思
+航班因為大霧而延誤。
+④ 看為甚麼這樣寫
+due to fog 說明原因。
+⑤ 比較接近的寫法
+The flight was delayed because of fog.
+because of fog 意思接近。
+⑥ 最後看限制或例外
+有些傳統風格指南對 due to 的位置較嚴格；現代英語使用較廣。
+
+PP.12.03 — owing to：由於
+① 先明白意思
+owing to 可表示原因，常見於較正式文字。
+② 看英文例句
+
+The road is closed owing to flooding.
+③ 看中文意思
+道路因水浸而封閉。
+④ 看為甚麼這樣寫
+owing to flooding 說明封路原因。
+⑤ 比較接近的寫法
+The road is closed because of flooding.
+because of 意思相近，日常用語較常見。
+⑥ 最後看限制或例外
+owing to 後面常接名詞或 -ing，不能直接用完整句子替代。
+
+PP.12.04 — thanks to：因為有某種幫助
+① 先明白意思
+thanks to 常用來說某個好結果因誰或甚麼而出現。
+② 看英文例句
+Thanks to May, we finished early.
+③ 看中文意思
+多虧 May 幫忙，我們提早完成。
+④ 看為甚麼這樣寫
+thanks to May 說明幫助來自誰。
+⑤ 比較接近的寫法
+Because of the storm, we finished late.
+because of 只說原因，沒有感謝的意思。
+⑥ 最後看限制或例外
+thanks to 有時也可帶諷刺語氣，說某事造成壞結果。
+
+PP.12.05 — in front of：在前面
+① 先明白意思
+in front of 是一整組位置說法。
+② 看英文例句
+The taxi stopped in front of the school.
+③ 看中文意思
+的士停在學校前面。
+④ 看為甚麼這樣寫
+in front of the school 說出位置。
+⑤ 比較接近的寫法
+The taxi stopped behind the school.
+behind 表示在學校後面。
+⑥ 最後看限制或例外
+不要把 in front of 和 in the front of 混淆。
+
+PP.12.06 — in addition to：另外加上
+① 先明白意思
+in addition to 表示除了某件事，還有其他事。
+② 看英文例句
+In addition to maths, she studies art.
+③ 看中文意思
+除了數學，她還學美術。
+④ 看為甚麼這樣寫
+in addition to maths 表示數學也是她所學的科目。
+⑤ 比較接近的寫法
+
+Instead of maths, she studies art.
+instead of 表示用美術代替數學。
+⑥ 最後看限制或例外
+in addition to 後面可以接 -ing。
+
+PP.12.07 — apart from：除……以外
+① 先明白意思
+apart from 有時表示「除了……還有」，也可能表示「除了……都」。
+② 看英文例句
+Apart from May, everyone was late.
+③ 看中文意思
+除了 May，其他人都遲到了。
+④ 看為甚麼這樣寫
+這句把 May 排除在遲到的人之外。
+⑤ 比較接近的寫法
+Besides May, Ben came too.
+besides May 表示 May 和 Ben 都來了。
+⑥ 最後看限制或例外
+apart from 的意思要靠後面的句子確認，不能只猜是包括或排除。
+
+PP.12.08 — as a result of：由於某個結果的原因
+① 先明白意思
+as a result of 說明某件事導致另一件事。
+② 看英文例句
+The match ended early as a result of heavy rain.
+③ 看中文意思
+
+比賽因為大雨而提早結束。
+④ 看為甚麼這樣寫
+as a result of heavy rain 說明原因。
+⑤ 比較接近的寫法
+As a result, we went home.
+as a result 後面有逗號，表示「結果」，接整句。
+⑥ 最後看限制或例外
+這兩組字很相似，但一組後面接原因，一組接結果句。
+
+PP.12.09 — in case of：如果發生
+① 先明白意思
+in case of 常見於安全指示，表示萬一發生某事。
+② 看英文例句
+In case of fire, use the stairs.
+③ 看中文意思
+如發生火警，請使用樓梯。
+④ 看為甚麼這樣寫
+in case of fire 提出可能發生的危險。
+⑤ 比較接近的寫法
+In case it rains, take an umbrella.
+in case 後面接 it rains 這個句子。
+⑥ 最後看限制或例外
+in case of 常用於公告，不代表火警真的發生了。
+
+PP.12.10 — according to：按照規則
+① 先明白意思
+
+according to 也可表示按照規定或方法。
+② 看英文例句
+According to the rules, we must wear shoes.
+③ 看中文意思
+按照規則，我們必須穿鞋。
+④ 看為甚麼這樣寫
+according to the rules 說這項要求來自規則。
+⑤ 比較接近的寫法
+In my view, the rule is useful.
+in my view 只表示個人看法。
+⑥ 最後看限制或例外
+according to me 不適合作一般的「我認為」。
+
+PP.12.11 — on behalf of：代表
+① 先明白意思
+on behalf of 表示代替一個人或一個團體發言、做事。
+② 看英文例句
+I thanked them on behalf of the class.
+③ 看中文意思
+我代表全班感謝他們。
+④ 看為甚麼這樣寫
+on behalf of the class 說明代表誰。
+⑤ 比較接近的寫法
+I thanked the class for their help.
+這句表示我感謝全班，對象不同。
+
+⑥ 最後看限制或例外
+on behalf of 常用於致辭、電郵和正式場合。
+
+PP.12.12 — with regard to：關於
+① 先明白意思
+with regard to 可以在正式文字中引出話題。
+② 看英文例句
+With regard to your request, we will reply soon.
+③ 看中文意思
+關於你的要求，我們會盡快回覆。
+④ 看為甚麼這樣寫
+with regard to your request 說明這封回覆談甚麼。
+⑤ 比較接近的寫法
+About your request, we will reply soon.
+about 意思接近，較直接。
+⑥ 最後看限制或例外
+with regards to 也見於用法中，但正式寫作常選 with regard to。
+
+PP.12.13 — in terms of：就某個方面而言
+① 先明白意思
+in terms of 可以說明我們從哪一方面比較。
+② 看英文例句
+In terms of price, this bag is better.
+③ 看中文意思
+就價錢而言，這個袋子較好。
+④ 看為甚麼這樣寫
+
+in terms of price 指明比較的方面是價錢。
+⑤ 比較接近的寫法
+This bag is better for school.
+for school 說它較適合上學使用。
+⑥ 最後看限制或例外
+in terms of 後面不要只接一個空泛字，應說清楚比較方面。
+
+PP.12.14 — instead of：代替
+① 先明白意思
+instead of 後面可接名詞或 -ing，表示換了一個選擇。
+② 看英文例句
+We walked instead of taking the bus.
+③ 看中文意思
+我們選擇步行，沒有乘巴士。
+④ 看為甚麼這樣寫
+instead of taking the bus 說出沒有選的交通方法。
+⑤ 比較接近的寫法
+We walked after taking the bus.
+after 說明先乘巴士，之後步行。
+⑥ 最後看限制或例外
+instead 也可以單獨放句尾，例如 We took the train instead。
+
+PP.12.15 — in place of：代替某人或某物
+① 先明白意思
+in place of 表示用另一樣代替原本的人或物。
+② 看英文例句
+
+Use water in place of milk.
+③ 看中文意思
+用水代替牛奶。
+④ 看為甚麼這樣寫
+in place of milk 說明被替換的是牛奶。
+⑤ 比較接近的寫法
+Use water with milk.
+with milk 表示水和牛奶一起用。
+⑥ 最後看限制或例外
+in place of 在書面語較常見；instead of 在日常用語更常用。
+
+PP.12.16 — in accordance with：按照
+① 先明白意思
+in accordance with 常用於正式規則或指示。
+② 看英文例句
+The work was done in accordance with the plan.
+③ 看中文意思
+工作按照計劃完成。
+④ 看為甚麼這樣寫
+in accordance with the plan 表示做法符合計劃。
+⑤ 比較接近的寫法
+The work was done despite the plan.
+despite 表示有阻礙仍完成，意思不同。
+⑥ 最後看限制或例外
+這組寫法較正式，日常可說 according to the plan。
+
+PP.12.17 — by means of：透過某種方法
+① 先明白意思
+by means of 可以說明使用的工具或方法。
+② 看英文例句
+The message was sent by means of a radio.
+③ 看中文意思
+消息透過無線電發出。
+④ 看為甚麼這樣寫
+by means of a radio 說明使用的方法。
+⑤ 比較接近的寫法
+The message was sent to the radio station.
+to the radio station 說明發往哪個地方。​
+⑥ 最後看限制或例外
+by means of 在正式或技術文字較常見；日常可用 by 或 with。
+
+PP.12.18 — with the help of：在某人幫助下
+① 先明白意思
+with the help of 說明得到誰的幫忙。
+② 看英文例句
+We built the shelf with the help of Dad.
+③ 看中文意思
+我們在爸爸幫助下組裝了架子。
+④ 看為甚麼這樣寫
+with the help of Dad 說明有人協助。
+⑤ 比較接近的寫法
+We built the shelf for Dad.
+
+for Dad 表示為爸爸做架子。
+⑥ 最後看限制或例外
+這是一組常見的說法，不要把它逐字改成其他介詞。
+
+PP.12.19 — prior to／subsequent to
+① 先明白意思
+prior to 是「在……之前」；subsequent to 是「在……之後」。
+② 看英文例句
+The form must be sent prior to Friday.
+③ 看中文意思
+表格須在星期五之前寄出。
+④ 看為甚麼這樣寫
+prior to Friday 表示時間早於星期五。
+⑤ 比較接近的寫法
+The form was sent after Friday.
+after Friday 表示星期五之後才寄出。
+⑥ 最後看限制或例外
+這兩組常見於正式文字；日常說 before 和 after 更簡單。
+
+PP.12.20 — along with：連同
+① 先明白意思
+along with 表示把另一個人或物一起包括進來。
+② 看英文例句
+Send the form along with your photo.
+③ 看中文意思
+請連同照片寄出表格。
+
+④ 看為甚麼這樣寫
+along with your photo 說照片要一起寄。
+⑤ 比較接近的寫法
+Send the form without your photo.
+without 表示不附上照片。
+⑥ 最後看限制或例外
+當 along with 接在單數主語後，通常不把主語變成複數。
+
+PP.12.21 — up to：最多、直到或由誰決定
+① 先明白意思
+up to 的意思要看後面的字。
+② 看英文例句
+This room holds up to twenty people.
+③ 看中文意思
+這個房間最多可容納二十人。
+④ 看為甚麼這樣寫
+up to twenty people 表示上限是二十人。
+⑤ 比較接近的寫法
+We waited until twenty people arrived.
+until 後面接事件，表示一直等到有二十人到場。
+⑥ 最後看限制或例外
+It's up to you 是另一個意思，表示由你決定。
+
+PP.12.22 — out of：沒有、用完
+① 先明白意思
+out of 除了方向，也可以表示某物已沒有。
+
+② 看英文例句
+We are out of milk.
+③ 看中文意思
+我們沒有牛奶了。
+④ 看為甚麼這樣寫
+out of milk 表示牛奶已用完。
+⑤ 比較接近的寫法
+We bought some milk.
+這句表示買了牛奶，意思不同。
+⑥ 最後看限制或例外
+out of 可以有很多固定意思，例如 out of interest 表示出於好奇。
+
+英文介詞及介詞短語｜學生閱讀指南 · 第 5 冊
+（共 6 冊）
+請按規則編號順序閱讀。每條規則都有六步教學：意思、英文例句、中文、解釋、比較、限制。
+
+PART III — 逐條規則和六步教學（續）
+PP.13 — 介詞短語在句子裏的工作
+PP.13.01 — 介詞短語可放句尾
+① 先明白意思
+補充地點或時間時，介詞短語常放在句尾。
+② 看英文例句
+They ate lunch in the garden.
+③ 看中文意思
+他們在花園吃午餐。
+④ 看為甚麼這樣寫
+in the garden 補充用餐地點。
+⑤ 比較接近的寫法
+In the garden, they ate lunch.
+把地點放句首，也可以自然表達。
+⑥ 最後看限制或例外
+有些動詞一定需要某個介詞短語，位置不一定可以隨意改。
+
+PP.13.02 — 介詞短語可放句首
+① 先明白意思
+先說時間或地點，可以讓讀者知道後面的背景。
+
+② 看英文例句
+After lunch, we played football.
+③ 看中文意思
+午飯後，我們踢足球。
+④ 看為甚麼這樣寫
+After lunch 放在句首先說時間。
+⑤ 比較接近的寫法
+We played football after lunch.
+放在句尾，事情的先後意思相同。
+⑥ 最後看限制或例外
+長的句首短語後常用逗號；短的短語有時不用。
+
+PP.13.03 — 介詞短語可以描述前面的名詞
+① 先明白意思
+名詞後的介詞短語常說明是哪一個人或物。
+② 看英文例句
+The book on the shelf is mine.
+③ 看中文意思
+架上的那本書是我的。
+④ 看為甚麼這樣寫
+on the shelf 幫我們認出是哪本書。
+⑤ 比較接近的寫法
+The book in the bag is mine.
+in the bag 說另一本不同位置的書。
+⑥ 最後看限制或例外
+
+要小心短語接錯名詞，令讀者不知道是在描述誰。
+
+PP.13.04 — 介詞短語可以放在 be 後面
+① 先明白意思
+be 後面可以接介詞短語，說明人或物在哪裏。
+② 看英文例句
+The children are in the hall.
+③ 看中文意思
+孩子們在禮堂裏。
+④ 看為甚麼這樣寫
+in the hall 補足孩子們的位置。
+⑤ 比較接近的寫法
+The children are tired.
+tired 是形容孩子狀態的字，接法不同。
+⑥ 最後看限制或例外
+be 後面的介詞短語也可說某種情況，例如 in trouble。
+
+PP.13.05 — 介詞短語可補足動詞意思
+① 先明白意思
+有些動詞需要後面的介詞，才能說清楚對象。
+② 看英文例句
+This pen belongs to May.
+③ 看中文意思
+這支筆屬於 May。
+④ 看為甚麼這樣寫
+to May 說明筆的主人。
+
+⑤ 比較接近的寫法
+May writes with this pen.
+with this pen 只是補充寫字的工具。
+⑥ 最後看限制或例外
+不能只因介詞短語常補充資料，就把 belongs to May 中的 to May 刪掉。
+
+PP.13.06 — 介詞短語可補足形容詞意思
+① 先明白意思
+有些形容詞後面要接介詞，才說清楚對象。
+② 看英文例句
+She is afraid of spiders.
+③ 看中文意思
+她害怕蜘蛛。
+④ 看為甚麼這樣寫
+of spiders 說明害怕甚麼。
+⑤ 比較接近的寫法
+She is afraid to enter the room.
+to enter 說明她不敢做哪件事。
+⑥ 最後看限制或例外
+兩句接法都正確，但內容不同。
+
+PP.13.07 — 介詞後面接代字的寫法
+① 先明白意思
+在普通標準英語中，介詞後面用 me、him、her、us、them。
+② 看英文例句
+The teacher spoke to us.
+
+③ 看中文意思
+老師對我們說話。
+④ 看為甚麼這樣寫
+to us 表示老師對誰說話。
+⑤ 比較接近的寫法
+The teacher spoke to we.
+we 不適合直接放在這個位置。
+⑥ 最後看限制或例外
+you 和 it 的字形不會因位置而改變。
+
+PP.13.08 — between you and me
+① 先明白意思
+between 後面的人稱代字，普通寫法是 you and me。
+② 看英文例句
+This is between you and me.
+③ 看中文意思
+這件事只限你和我知道。
+④ 看為甚麼這樣寫
+me 是在 between 後面的合適寫法。
+⑤ 比較接近的寫法
+This is between you and I.
+這句有時可在實際說話中聽到，但一般正式標準書面語用 me。
+⑥ 最後看限制或例外
+這裏也用來說事情只在兩人之間，不一定是位置。
+
+PP.13.09 — 介詞後面接 -ing 活動
+
+① 先明白意思
+說一項活動時，介詞後面常接 -ing。
+② 看英文例句
+Thank you for helping me.
+③ 看中文意思
+謝謝你幫助我。
+④ 看為甚麼這樣寫
+for helping 說明感謝的事情。
+⑤ 比較接近的寫法
+Thank you for to help me.
+在這個用法中，for 後面不直接接 to help。
+⑥ 最後看限制或例外
+有些介詞也可接完整句子；要看該字的接法。
+
+PP.13.10 — 介詞後面接 what 等字
+① 先明白意思
+介詞後面有時可以接 what、where 等字引出的內容。
+② 看英文例句
+We talked about what to do next.
+③ 看中文意思
+我們討論下一步應該做甚麼。
+④ 看為甚麼這樣寫
+about what to do next 說明討論的內容。
+⑤ 比較接近的寫法
+We talked about the plan.
+
+about the plan 直接接名詞，較簡短。
+⑥ 最後看限制或例外
+一般不說 about to do next 來表達同一意思；about to leave 則是另一種固定結構。
+
+PP.13.11 — 介詞後面還可接另一組短語
+① 先明白意思
+有時兩組表示時間或位置的字可以接在一起。
+② 看英文例句
+Wait until after dinner.
+③ 看中文意思
+等到晚飯後才開始。
+④ 看為甚麼這樣寫
+until after dinner 表示等到晚飯後的時間。
+⑤ 比較接近的寫法
+Wait until dinner.
+until dinner 表示等到晚飯時間。
+⑥ 最後看限制或例外
+這種寫法很常見，但不是所有介詞都可以任意相接。
+
+PP.13.12 — 介詞後面可接 here／there
+① 先明白意思
+from、until 等字可以跟 here、there 這類位置字。
+② 看英文例句
+We can walk from here.
+③ 看中文意思
+我們可以從這裏步行。
+
+④ 看為甚麼這樣寫
+from here 說出出發位置。
+⑤ 比較接近的寫法
+We can walk to the station.
+to the station 說明目的地。
+⑥ 最後看限制或例外
+here 和 there 前面不需要 the；但 go here 本身也不用 to。
+
+PP.13.13 — just 等字可放在介詞前
+① 先明白意思
+just、right、far 等字可以令位置或時間更清楚。
+② 看英文例句
+We arrived just before eight.
+③ 看中文意思
+我們差不多八時才到達。
+④ 看為甚麼這樣寫
+just before eight 表示到達時間在八時前不久。
+⑤ 比較接近的寫法
+We arrived long before eight.
+long before eight 表示早於八時很多。
+⑥ 最後看限制或例外
+不同介詞可以用的加強字不同，不能隨意替換。
+
+PP.13.14 — 問句可把疑問字放在前面
+① 先明白意思
+要問介詞後面的人或物，可以把 who、what 等字放在句首。
+
+② 看英文例句
+Who did you talk to?
+③ 看中文意思
+你跟誰談話？
+④ 看為甚麼這樣寫
+who 放到句首；to 仍然跟 talk 有關。
+⑤ 比較接近的寫法
+You talked to May.
+普通陳述句把 May 放在 to 後面。
+⑥ 最後看限制或例外
+這種句尾介詞在日常及標準英語中都可以正確使用。
+
+PP.13.15 — 正式問句可把介詞一起移前
+① 先明白意思
+正式寫作有時把介詞放在 whom 或 which 前面。
+② 看英文例句
+To whom did you send the letter?
+③ 看中文意思
+你把信寄給誰？
+④ 看為甚麼這樣寫
+to whom 放在疑問句前面，語氣正式。
+⑤ 比較接近的寫法
+Who did you send the letter to?
+日常英語常用句尾 to，意思相同。
+⑥ 最後看限制或例外
+
+介詞放在前面時，通常用 whom 而不用 who。
+
+PP.13.16 — 關係句也可把介詞留在後面
+① 先明白意思
+描述名詞時，介詞有時自然留在關係句末尾。
+② 看英文例句
+This is the chair I sat on.
+③ 看中文意思
+這就是我坐過的椅子。
+④ 看為甚麼這樣寫
+on 留在句尾，仍然說坐在哪張椅子上。
+⑤ 比較接近的寫法
+This is the chair on which I sat.
+on which 較正式，意思相同。
+⑥ 最後看限制或例外
+這個關係句的 which 或 that 有時可以省去；on 仍要保留。
+
+PP.13.17 — 被動句有時也保留句尾介詞
+① 先明白意思
+原句中的介詞，轉成被動句後有時仍要保留。
+② 看英文例句
+This bed has been slept in.
+③ 看中文意思
+這張床有人睡過。
+④ 看為甚麼這樣寫
+in 留在句尾，因為原本是 sleep in this bed。
+
+⑤ 比較接近的寫法
+Someone has slept in this bed.
+普通句子把 this bed 放在 in 後面。
+⑥ 最後看限制或例外
+不是所有介詞短語都可以這樣轉成被動句，要看動詞和意思。
+
+PP.13.18 — 介詞短語可以加入問句中
+① 先明白意思
+問地點或時間，也可以保留一整組介詞短語。
+② 看英文例句
+Is May at school today?
+③ 看中文意思
+May 今天在學校嗎？
+④ 看為甚麼這樣寫
+at school 表示 May 的位置。
+⑤ 比較接近的寫法
+Was May at school yesterday?
+同一組位置字也可配合以前的時間。
+⑥ 最後看限制或例外
+問句要留意助動詞及主語的正常問句次序。
+
+PP.13.19 — 介詞短語可連接兩個相同用途的資料
+① 先明白意思
+相同用途的兩組短語可以用 and 連在一起。
+② 看英文例句
+We met in the park and near the river.
+
+③ 看中文意思
+我們在公園裏、靠近河邊的地方見面。
+④ 看為甚麼這樣寫
+兩組短語一起說明見面的地方。
+⑤ 比較接近的寫法
+We met in the park after lunch.
+這句同時給地點和時間，不是兩個同類地點。
+⑥ 最後看限制或例外
+兩組短語的意思最好互相配合，避免位置矛盾。
+
+PP.13.20 — 不要隨便重複已搬到前面的對象
+① 先明白意思
+關係句中，原本的對象已用 which 或 who 表示時，不要再重複一個 it。
+② 看英文例句
+This is the film we talked about.
+③ 看中文意思
+這就是我們談過的電影。
+④ 看為甚麼這樣寫
+the film 已經是 talked about 的對象。
+⑤ 比較接近的寫法
+This is the film we talked about it.
+it 重複了相同對象，普通標準英語不這樣寫。
+⑥ 最後看限制或例外
+在口語中有些重複代字句式，但不能直接當作正式關係句的常規。
+
+PP.14 — 進階句型、語氣、範圍和少見用法
+
+PP.14.01 — 介詞短語也可以作一句話的主題
+① 先明白意思
+有些時間或地點短語可以放在主語的位置，當作要討論的事情。
+② 看英文例句
+After lunch would be a good time.
+③ 看中文意思
+午飯後會是個好時間。
+④ 看為甚麼這樣寫
+After lunch 在這裏表示我們建議的時間。
+⑤ 比較接近的寫法
+We can meet after lunch.
+這句把 after lunch 放在動詞後，說明見面時間。
+⑥ 最後看限制或例外
+這種主語用法受意思限制；不是任何介詞短語都能任意這樣用。
+
+PP.14.02 — 句首地點有時令動詞放在主語前
+① 先明白意思
+寫故事或描述風景時，句首先放地點，後面可用動詞再說人或物。
+② 看英文例句
+On the hill stood a small house.
+③ 看中文意思
+山上有一間小屋。
+④ 看為甚麼這樣寫
+On the hill 先說位置，stood 後才說 a small house。
+⑤ 比較接近的寫法
+
+A small house stood on the hill.
+普通次序先說小屋，再說位置。
+⑥ 最後看限制或例外
+這種次序常見於描寫或文學文字；不是每個動詞都合適。
+
+PP.14.03 — 句首地點也可以用普通字序
+① 先明白意思
+把地點放句首，不代表一定要把主語放到動詞後面。
+② 看英文例句
+In the garden, the children played.
+③ 看中文意思
+在花園裏，孩子們玩耍。
+④ 看為甚麼這樣寫
+先說 In the garden，後面仍是 the children played。
+⑤ 比較接近的寫法
+In the garden stood a tree.
+這是另一種描寫地點的次序。
+⑥ 最後看限制或例外
+要看動詞和你想介紹的是人物、動作還是場景。
+
+PP.14.04 — there is／are 加地點
+① 先明白意思
+there is／are 常用來介紹某處有甚麼。
+② 看英文例句
+There are two chairs by the door.
+③ 看中文意思
+
+門旁有兩張椅子。
+④ 看為甚麼這樣寫
+by the door 說明椅子的位置。
+⑤ 比較接近的寫法
+Two chairs are by the door.
+這句直接以 two chairs 為主題。
+⑥ 最後看限制或例外
+there is／are 的單複數要看後面的事物；口語有較多變化。
+
+PP.14.05 — 介詞短語可以放在強調句中
+① 先明白意思
+可以用 it was ... that 特別強調某個地點或時間。
+② 看英文例句
+It was in the park that we met.
+③ 看中文意思
+我們就是在公園見面的。
+④ 看為甚麼這樣寫
+in the park 是特別要強調的地方。
+⑤ 比較接近的寫法
+We met in the park.
+普通說法只交代見面地點。
+⑥ 最後看限制或例外
+強調句的 that 後面需要完整、合適的句子。
+
+PP.14.06 — 同一句有兩個介詞短語
+① 先明白意思
+
+句子可以同時有地點、時間或方法資料。
+② 看英文例句
+We worked in the library after school.
+③ 看中文意思
+放學後，我們在圖書館做功課。
+④ 看為甚麼這樣寫
+in the library 說地方；after school 說時間。
+⑤ 比較接近的寫法
+We worked after school in the library.
+調換次序也自然，只是安排資料的方式不同。
+⑥ 最後看限制或例外
+有些長句的次序會影響讀者以為哪一組字修飾哪一部分。
+
+PP.14.07 — 介詞短語可能有兩個解讀
+① 先明白意思
+同一個短語，可以描述不同的動作或名詞。
+② 看英文例句
+I saw the boy with a telescope.
+③ 看中文意思
+我看見那個男孩，句中的 telescope 跟誰有關要看前後文。
+④ 看為甚麼這樣寫
+with a telescope 可能說我用望遠鏡看，也可能說男孩拿着望遠鏡。
+⑤ 比較接近的寫法
+I used a telescope to see the boy.
+這句清楚說我使用望遠鏡。
+
+⑥ 最後看限制或例外
+要避免在只有一個答案的練習中使用沒有說明的兩種讀法。
+
+PP.14.08 — only 會影響強調的部分
+① 先明白意思
+only 放在哪裏，會影響句子最着重甚麼。
+② 看英文例句
+I spoke only to May.
+③ 看中文意思
+我只跟 May 說話。
+④ 看為甚麼這樣寫
+only to May 表示交談對象限於 May。
+⑤ 比較接近的寫法
+I only spoke to May.
+這句可按語氣強調「只說話，沒有做別的事」；也可能同樣限制對象。
+⑥ 最後看限制或例外
+書面語如果怕意思不清楚，可以把 only 放近想限制的部分。
+
+PP.14.09 — even 可以表示出乎意料
+① 先明白意思
+even 放在介詞短語前，可強調這個對象令人意外。
+② 看英文例句
+Even in winter, she swims.
+③ 看中文意思
+即使在冬天，她也游泳。
+④ 看為甚麼這樣寫
+
+Even in winter 說冬天游泳這件事令人意外。
+⑤ 比較接近的寫法
+In winter, she swims.
+這句只說游泳的時間。
+⑥ 最後看限制或例外
+even 的意思也受說話重音和前後文影響。
+
+PP.14.10 — 否定字與介詞短語
+① 先明白意思
+否定一個動作和否定某個地點，意思可能不同。
+② 看英文例句
+I did not meet him at school.
+③ 看中文意思
+我沒有在學校遇見他。
+④ 看為甚麼這樣寫
+這句可以說根本沒遇見，也可以特別否定在學校這個地點。
+⑤ 比較接近的寫法
+I met him, but not at school.
+這句清楚說見過他，只是地點不是學校。
+⑥ 最後看限制或例外
+要靠重音、上下文或補充句子，確定 not 否定哪一部分。
+
+PP.14.11 — not until 放句首的較難句型
+① 先明白意思
+把 Not until ... 放句首作強調時，後面的句子常要改變字序。
+② 看英文例句
+
+Not until Friday did we get the result.
+③ 看中文意思
+我們到了星期五才收到結果。
+④ 看為甚麼這樣寫
+Not until Friday 放在句首；後面用 did we get。
+⑤ 比較接近的寫法
+We did not get the result until Friday.
+這是一般字序，意思相近。
+⑥ 最後看限制或例外
+這是較正式的強調寫法；不要把普通句子也改成 did we get。
+
+PP.14.12 — 介詞短語和 if 句
+① 先明白意思
+介詞短語可以簡短地說明一種可能的情況。
+② 看英文例句
+In an emergency, call this number.
+③ 看中文意思
+遇上緊急情況，請致電這個號碼。
+④ 看為甚麼這樣寫
+in an emergency 說出甚麼情況下要打電話。
+⑤ 比較接近的寫法
+If there is an emergency, call this number.
+if 句把同一條件說得更完整。
+⑥ 最後看限制或例外
+不是所有介詞短語都能代替 if 句；要確定條件意思相同。
+
+PP.14.13 — without 與否定條件
+① 先明白意思
+without 可以說缺少某樣東西時的結果。
+② 看英文例句
+Without water, plants will die.
+③ 看中文意思
+沒有水，植物會枯死。
+④ 看為甚麼這樣寫
+without water 說出缺少的條件。
+⑤ 比較接近的寫法
+If plants have no water, they will die.
+if 句清楚說同一個條件。
+⑥ 最後看限制或例外
+without 加 -ing 時，要留意是誰沒有做那件事。
+
+PP.14.14 — of + 一部分
+① 先明白意思
+some of、most of 等可表示某個已知整體的一部分。
+② 看英文例句
+Some of the pupils were absent.
+③ 看中文意思
+有部分學生缺席。
+④ 看為甚麼這樣寫
+of the pupils 說明從哪一群學生中取出一部分。
+⑤ 比較接近的寫法
+
+Some pupils were absent.
+這句沒有特別指出是哪一群。
+⑥ 最後看限制或例外
+some of pupils 不能當作普通寫法；通常需要 the、my、these 等字說明那一群。
+
+PP.14.15 — each of 與 every one of
+① 先明白意思
+each of 後面可接一群人或物，說每一個。
+② 看英文例句
+Each of the children has a ticket.
+③ 看中文意思
+每個孩子都有一張票。
+④ 看為甚麼這樣寫
+Each of the children 用單數 has。
+⑤ 比較接近的寫法
+All of the children have tickets.
+all of the children 通常用複數 have。
+⑥ 最後看限制或例外
+every one of the children 也可以；不要把 everyone of 寫成一個字。
+
+PP.14.16 — one in three：比例
+① 先明白意思
+one in three 可以表示每三個中有一個。
+② 看英文例句
+One in three pupils walks to school.
+③ 看中文意思
+
+每三位學生中，大約有一位步行上學。
+④ 看為甚麼這樣寫
+one in three 說出比例。
+⑤ 比較接近的寫法
+Three pupils walk to school.
+這句只說有三位學生步行，沒有說比例。
+⑥ 最後看限制或例外
+這是比例說法，不代表一定要剛好有三位學生。
+
+PP.14.17 — with + 名詞的額外資料
+① 先明白意思
+with 可以放在名詞後，幫我們認出是哪個人或物。
+② 看英文例句
+The woman with the blue bag is my aunt.
+③ 看中文意思
+拿着藍色袋子的女士是我姨母。
+④ 看為甚麼這樣寫
+with the blue bag 描述那位女士。
+⑤ 比較接近的寫法
+The woman beside the blue bag is my aunt.
+beside 表示女士站在袋子旁邊，意思不同。
+⑥ 最後看限制或例外
+with 有時表示人擁有某物，有時表示身邊帶着，要看語境。
+
+PP.14.18 — without + -ing 的行動者
+① 先明白意思
+
+without + -ing 後面的活動，一般由句子中能辨認的人去做。
+② 看英文例句
+He walked away without closing the gate.
+③ 看中文意思
+他沒有關上大門就走開。
+④ 看為甚麼這樣寫
+一般理解是他自己沒有關門。
+⑤ 比較接近的寫法
+He walked away without anyone closing the gate.
+這句清楚說沒有人關門。
+⑥ 最後看限制或例外
+若活動由另一個人做，句子需要寫清楚，避免誤會。
+
+PP.14.19 — before／after + 完整句子
+① 先明白意思
+before 和 after 也可以接有主語和動詞的句子。
+② 看英文例句
+We left after the rain stopped.
+③ 看中文意思
+雨停後我們才離開。
+④ 看為甚麼這樣寫
+after the rain stopped 直接說明雨停這件事。
+⑤ 比較接近的寫法
+We left after the rain.
+after the rain 用名詞說同一段時間，但細節較少。
+
+⑥ 最後看限制或例外
+傳統文法常把這種 after 稱為連接詞；現代文法有不同分析，兩種句型都自然。
+
+PP.14.20 — because／since + 完整句子
+① 先明白意思
+because 和 since 可以帶出有主語、動詞的原因句。
+② 看英文例句
+We stayed inside because it was raining.
+③ 看中文意思
+因為下雨，我們留在室內。
+④ 看為甚麼這樣寫
+because 後接 it was raining 這個完整句子。
+⑤ 比較接近的寫法
+We stayed inside because of the rain.
+because of 後面接 the rain 這組名詞。
+⑥ 最後看限制或例外
+since 也可能表示「自從」；要分清時間意思和原因意思。
+
+PP.14.21 — except + 不同形式
+① 先明白意思
+except 在不同句型中，後面可接不同形式。
+② 看英文例句
+Everyone came except May.
+③ 看中文意思
+除了 May，所有人都來了。
+④ 看為甚麼這樣寫
+
+except May 直接排除一個人。
+⑤ 比較接近的寫法
+I had no choice except to wait.
+except to wait 表示除了等待，沒有其他選擇。
+⑥ 最後看限制或例外
+except to 後面的接法有條件，不能推論每個介詞都能接 to + 動詞。
+
+PP.14.22 — 介詞後的完整問句內容
+① 先明白意思
+有些介詞可以接由 what、whether 等字帶出的內容。
+② 看英文例句
+It depends on whether the bus arrives.
+③ 看中文意思
+這要看巴士會不會到。
+④ 看為甚麼這樣寫
+on whether the bus arrives 說明決定因素。
+⑤ 比較接近的寫法
+It depends on the bus.
+這句只說要看巴士的情況，內容較少。
+⑥ 最後看限制或例外
+普通寫法一般用 whether；on if the bus arrives 在這種介詞後的用法通常不合適。
+
+PP.14.23 — 介詞和副詞有時長得一樣
+① 先明白意思
+有些字後面接對象時是介詞用法；沒有接對象時也可以獨立使用。
+② 看英文例句
+
+We waited outside the shop.
+③ 看中文意思
+我們在店外等候。
+④ 看為甚麼這樣寫
+outside the shop 說明是店舖外面。
+⑤ 比較接近的寫法
+We waited outside.
+outside 在這裏不用再接名詞。
+⑥ 最後看限制或例外
+傳統文法和現代文法可能用不同詞類名稱；兩個句子都正確。
+
+PP.14.24 — up 和 up to 的接法不同
+① 先明白意思
+up 可以獨立表示方向；up to 則可接對象或數量。
+② 看英文例句
+The children ran up the stairs.
+③ 看中文意思
+孩子們沿樓梯向上跑。
+④ 看為甚麼這樣寫
+up the stairs 說明向上的路線。
+⑤ 比較接近的寫法
+The children ran up to the teacher.
+up to the teacher 表示跑到老師身邊。
+⑥ 最後看限制或例外
+這裏的 up to 與最多 up to ten people 是不同意思。
+
+PP.14.25 — 句尾介詞可留在短答中
+① 先明白意思
+口語短答可以保留介詞，讓對方知道正在問哪一個對象。
+② 看英文例句
+Who is this gift for?
+③ 看中文意思
+這份禮物是送給誰的？
+④ 看為甚麼這樣寫
+for 連接禮物的收件人。
+⑤ 比較接近的寫法
+For May.
+短答省去了重複的 This gift is。
+⑥ 最後看限制或例外
+短答要靠前面的對話才能理解，不適合沒有上下文的獨立例句。
+
+PP.14.26 — off of 的地域差別
+① 先明白意思
+在一些口語美式英語中，off of 會用來說從表面離開。
+② 看英文例句
+The cat jumped off the table.
+③ 看中文意思
+貓從桌上跳下來。
+④ 看為甚麼這樣寫
+off the table 是廣泛接受的標準寫法。
+⑤ 比較接近的寫法
+
+The cat jumped off of the table.
+off of 在一些美式口語中也自然，正式寫作較常用 off。
+⑥ 最後看限制或例外
+不能把 off of 說成所有英語中都絕對不合文法。
+
+PP.14.27 — upon 和 on
+① 先明白意思
+upon 可以在較正式或固定的說法中代替 on。
+② 看英文例句
+Once upon a time, there was a king.
+③ 看中文意思
+從前有一位國王。
+④ 看為甚麼這樣寫
+once upon a time 是故事常見的開頭。
+⑤ 比較接近的寫法
+The book is on the table.
+普通說法用 on the table，較自然。
+⑥ 最後看限制或例外
+upon 在日常位置說法中較少用；不能把所有 on 都換成 upon。
+
+PP.14.28 — ago 和 before 的時間方向
+① 先明白意思
+ago 通常由現在往回數時間；before 通常跟另一個時間比較。
+② 看英文例句
+We met two years ago.
+③ 看中文意思
+
+我們兩年前見面。
+④ 看為甚麼這樣寫
+two years ago 從現在往回數兩年。
+⑤ 比較接近的寫法
+We had met two years before.
+two years before 是從之前提到的另一個時間往回數。
+⑥ 最後看限制或例外
+ago 在傳統分類中通常不算一般介詞；這裏比較，是為免混淆時間關係。
+
+PP.14.29 — 不同文法書的分類不完全相同
+① 先明白意思
+有些文法書把 after、before 等接完整句子的字叫連接詞；有些歸入介詞。
+② 看英文例句
+We ate after Dad came home.
+③ 看中文意思
+爸爸回家後我們才吃飯。
+④ 看為甚麼這樣寫
+不論名稱如何，after Dad came home 都要保留完整句子的寫法。
+⑤ 比較接近的寫法
+We ate after dinner.
+after dinner 則接名詞。
+⑥ 最後看限制或例外
+學習時先掌握正確意思和接法，再認識不同文法分析。
+
+PP.15 — 容易漏掉的數量、用法和特殊接法
+PP.15.01 — for + 交換的價錢
+
+① 先明白意思
+for 可以說明用多少錢換取某物。
+② 看英文例句
+I bought the book for fifty dollars.
+③ 看中文意思
+我花五十元買了這本書。
+④ 看為甚麼這樣寫
+for fifty dollars 說明購買價錢。
+⑤ 比較接近的寫法
+The book costs fifty dollars.
+cost 可以直接接價錢，不需要 for。
+⑥ 最後看限制或例外
+buy something from someone 可以另外說明從誰手上買。
+
+PP.15.02 — for 與 in 的否定時間用法
+① 先明白意思
+有些否定完成式可用 for 或 in 說一段時間沒做某事。
+② 看英文例句
+I haven't seen Ben for two years.
+③ 看中文意思
+我已經兩年沒有見 Ben。
+④ 看為甚麼這樣寫
+for two years 說明多久沒見面。
+⑤ 比較接近的寫法
+I haven't seen Ben in two years.
+
+in two years 在這個否定句也自然，美式英語很常見。
+⑥ 最後看限制或例外
+在肯定句中，for 和 in 的時間意思不一定相同。
+
+PP.15.03 — by hand 與 with your hands
+① 先明白意思
+by hand 常表示親手做；with your hands 說明用雙手。
+② 看英文例句
+This bag was made by hand.
+③ 看中文意思
+這個袋子是手工製作的。
+④ 看為甚麼這樣寫
+by hand 着重製作方法。
+⑤ 比較接近的寫法
+Hold the box with both hands.
+with both hands 說用雙手拿箱子。
+⑥ 最後看限制或例外
+by hand 不一定表示完全沒有使用工具。
+
+PP.15.04 — over：超過數目
+① 先明白意思
+over 可以表示多於某個數目。
+② 看英文例句
+More than fifty pupils joined.
+③ 看中文意思
+超過五十位學生參加。
+
+④ 看為甚麼這樣寫
+more than fifty 說數目多於五十。
+⑤ 比較接近的寫法
+Over fifty pupils joined.
+over fifty 在這裏意思相近。
+⑥ 最後看限制或例外
+說溫度高於零度常用 above zero；位置與數值用法要分開。
+
+PP.15.05 — under／below：少於或低於
+① 先明白意思
+under 可表示年齡、價錢等少於某數；below 可表示低於標準。
+② 看英文例句
+Children under twelve pay half price.
+③ 看中文意思
+十二歲以下的孩子付半價。
+④ 看為甚麼這樣寫
+under twelve 表示未滿十二歲。
+⑤ 比較接近的寫法
+The temperature fell below zero.
+below zero 表示溫度低於零度。
+⑥ 最後看限制或例外
+under twelve 不包括剛好十二歲；要看實際公告的用詞。
+
+PP.15.06 — about／around：大約
+① 先明白意思
+about 或 around 可以表示數目只是估計。
+
+② 看英文例句
+About thirty people came.
+③ 看中文意思
+大約三十人來了。
+④ 看為甚麼這樣寫
+about thirty 表示不是精確數目。
+⑤ 比較接近的寫法
+Exactly thirty people came.
+exactly thirty 表示剛好三十人。​
+⑥ 最後看限制或例外
+around thirty 也自然；這種用法跟位置的 around 不同。
+
+PP.15.07 — of mine：屬於我的其中一樣
+① 先明白意思
+a friend of mine 可以表示我的一位朋友。
+② 看英文例句
+A friend of mine lives nearby.
+③ 看中文意思
+我有一位朋友住在附近。
+④ 看為甚麼這樣寫
+a friend of mine 說這個人是我的朋友之一。
+⑤ 比較接近的寫法
+My friend lives nearby.
+my friend 指我正在談的那位朋友。
+⑥ 最後看限制或例外
+a friend of me 在這個普通意思下不自然。
+
+PP.15.08 — for someone to do：讓某人去做
+① 先明白意思
+for + 人 + to + 動詞可以說明輪到誰做一件事。
+② 看英文例句
+It is time for us to leave.
+③ 看中文意思
+是時候讓我們離開了。
+④ 看為甚麼這樣寫
+for us 說明要離開的人；to leave 說要做的事。
+⑤ 比較接近的寫法
+It is time to leave.
+這句沒有特別說明離開的是誰。
+⑥ 最後看限制或例外
+這個 for + 人 + to 句型有特定位置，不能套用到所有 for 後面。
+
+PP.15.09 — too ... for someone：對某人來說太……
+① 先明白意思
+too ... for someone 可以表示某事對某人來說過於困難。
+② 看英文例句
+The bag is too heavy for me.
+③ 看中文意思
+這個袋子對我來說太重了。
+④ 看為甚麼這樣寫
+for me 說明誰覺得太重。
+⑤ 比較接近的寫法
+
+The bag is heavy for its size.
+這句說袋子以這個大小而言算重，意思不同。
+⑥ 最後看限制或例外
+也可以說 too heavy for me to carry，說明太重而拿不起。
+
+PP.15.10 — with + 名詞 + -ing：同時發生
+① 先明白意思
+with 後面有時可接人或物，再說他正在做甚麼。
+② 看英文例句
+With Dad cooking, I set the table.
+③ 看中文意思
+爸爸煮飯時，我負責擺餐具。
+④ 看為甚麼這樣寫
+With Dad cooking 說明同時發生的事情。
+⑤ 比較接近的寫法
+Dad cooked, and I set the table.
+這句直接把兩個動作並列。
+⑥ 最後看限制或例外
+這種較長的接法宜在掌握基本 with 用法後再學。
+
+PP.15.11 — regarding／concerning：關於
+① 先明白意思
+regarding 和 concerning 可以在通知中說明話題。
+② 看英文例句
+I have a question regarding the trip.
+③ 看中文意思
+
+我有一個關於行程的問題。
+④ 看為甚麼這樣寫
+regarding the trip 說明問題的內容。
+⑤ 比較接近的寫法
+I have a question about the trip.
+about 較簡單，也很自然。
+⑥ 最後看限制或例外
+regarding 和 concerning 在電郵、公文較常見；日常不用刻意選較難寫法。
+
+PP.15.12 — following：在某事之後
+① 先明白意思
+following 可以在正式文字中表示在某件事之後。
+② 看英文例句
+Following the meeting, we went home.
+③ 看中文意思
+會議結束後，我們回家。
+④ 看為甚麼這樣寫
+Following the meeting 說明先後次序。
+⑤ 比較接近的寫法
+After the meeting, we went home.
+after 在日常英語較常見。
+⑥ 最後看限制或例外
+following 也可作動詞或其他用法，要看句子位置。
+
+PP.15.13 — given：考慮到
+① 先明白意思
+
+given 可以在句首表示考慮到某個情況。
+② 看英文例句
+Given the rain, we stayed inside.
+③ 看中文意思
+考慮到下雨，我們留在室內。
+④ 看為甚麼這樣寫
+Given the rain 提出作決定時要考慮的情況。
+⑤ 比較接近的寫法
+Because of the rain, we stayed inside.
+because of 更直接指出原因。
+⑥ 最後看限制或例外
+given 在這種用法較常見於正式文字；不是 give 的普通過去式意思。
+
+PP.15.14 — notwithstanding：儘管
+① 先明白意思
+notwithstanding 在正式文件可表示「儘管」。
+② 看英文例句
+Notwithstanding the delay, we continued.
+③ 看中文意思
+雖然有延誤，我們仍然繼續。
+④ 看為甚麼這樣寫
+notwithstanding the delay 表示延誤沒有阻止行動。
+⑤ 比較接近的寫法
+Despite the delay, we continued.
+despite 意思相近，而且更常見。
+
+⑥ 最後看限制或例外
+notwithstanding 也可以出現在名詞後面；這是較少見的正式用法。
+
+PP.15.15 — versus／vs：兩方相對
+① 先明白意思
+versus 可以用來說比賽或比較的兩方。
+② 看英文例句
+The final is Hong Kong versus Japan.
+③ 看中文意思
+決賽由香港對日本。
+④ 看為甚麼這樣寫
+versus Japan 說明另一方對手。
+⑤ 比較接近的寫法
+Hong Kong will play against Japan.
+against Japan 也可說明對手。
+⑥ 最後看限制或例外
+versus 常縮寫成 vs；不要把它當成所有句子都能使用的 against。
+
+英文介詞及介詞短語｜學生閱讀指南 · 第 6 冊
+（共 6 冊）
+這冊包含進階比較、參考表格、沒有答案的練習，以及最後的學習檢查。
+
+PART IV — Advanced Grammar
+Interactions｜不同文法一起用時
+下面的句子把介詞跟其他文法放在一起。先看關係，再回去讀相關規則。
+要留意的地
+方
+
+英文例子
+
+怎樣理解
+
+相關規
+則
+
+介詞和 -ing
+
+She left without saying
+goodbye.
+
+without 後面說沒做的活動；用 saying
+。
+
+PP.01.09
+
+介詞 to 和動
+詞 to
+
+I look forward to seeing
+you.
+
+這裏的 to 後面用 seeing；其他 to 後面
+可能用 see。
+
+PP.01.10
+
+時間和完成
+式
+
+I have lived here since
+2020.
+
+since 接起點；for 接時間長度。
+
+PP.06.02
+
+時間和否定
+
+The bus did not arrive until
+ten.
+
+說十時之前沒有到；不等於 by ten。
+
+PP.06.07
+
+被動和動作
+者
+
+The picture was painted by
+the pupils.
+
+by 交代由誰畫。
+
+PP.07.04
+
+被動和句尾
+介詞
+
+This bed has been slept in.
+
+原本的 in 在被動句也要留下來。
+
+PP.13.17
+
+介詞和疑問
+句
+
+Who are you waiting for?
+
+疑問字去了句首，for 可以留句尾。
+
+PP.13.14
+
+介詞和關係
+句
+
+This is the chair I sat on.
+
+chair 是 sat on 的對象，不要重複 it。
+
+PP.13.16
+
+介詞和單複
+數
+
+Each of the children has a
+ticket.
+
+each 用 has；不要只看 children。
+
+PP.14.15
+
+介詞和否定
+範圍
+
+I met him, but not at
+school.
+
+這句否定見面的地點。
+
+PP.14.10
+
+介詞和強調
+句
+
+It was in the park that we
+met.
+
+把見面地點特別說清楚。
+
+PP.14.05
+
+介詞和比較
+
+She is taller than me.
+
+than 後可出現代字；較正式寫法也可
+有其他結構。
+
+PP.08.05
+
+介詞和條件
+
+In an emergency, call this
+number.
+
+短語提出甚麼情況要採取行動。
+
+PP.14.12
+
+介詞和人稱
+代字
+
+This is between you and
+me.
+
+介詞後的普通標準寫法用 me。
+
+PP.13.08
+
+PART V — Contrastive Grammar｜最容易
+混淆的寫法
+先問自己每句想表達甚麼。這些相近寫法不一定可以互換。
+寫法 A
+
+寫法 B
+
+主要分別
+
+in the car
+
+on the train
+
+小汽車內常用 in；火車、巴士上常用 on
+
+in the room
+
+into the room
+
+已在房內／移動進入房間
+
+on the wall
+
+above the door
+
+接觸牆面／位置在門上方
+
+next to the bank
+
+near the bank
+
+緊貼旁邊／附近
+
+between two
+houses
+
+among the trees
+
+清楚分開的對象之間／群體之中
+
+along the river
+
+across the river
+
+沿着河走／橫過河流
+
+through the tunnel
+
+over the bridge
+
+穿過內部／經過上方
+
+at seven
+
+on Friday
+
+鐘點／星期某一天
+
+on Friday morning
+
+in the morning
+
+指定早上／一般早上
+
+for two years
+
+since 2020
+
+時間長度／時間起點
+
+during the film
+
+while I watched
+
+後接名詞時間段／後接完整句子
+
+by Friday
+
+until Friday
+
+最遲完成／持續到那天
+
+on time
+
+in time
+
+按時準時／仍然趕得及
+
+in two days
+
+within two days
+
+兩天後，或完成用時／不遲於兩天內
+
+made of wood
+
+made from
+wood
+
+保留材料的樣子／原材料經加工改變
+
+by my brother
+
+with a knife
+
+由誰做／用甚麼工具
+
+as a teacher
+
+like a teacher
+
+真正擔任／只是相似
+
+besides May
+
+except May
+
+另外包括／把 May 排除
+
+because of the rain
+
+despite the rain
+
+因雨而發生／有雨仍發生
+
+look for a book
+
+look at a book
+
+尋找／看着
+
+result in delays
+
+result from
+snow
+
+說結果／說原因
+
+different from
+
+the same as
+
+不同／相同
+
+a friend of mine
+
+my friend
+
+我的朋友之一／當時正在說的朋友
+
+who ... to?
+
+to whom ...?
+
+較日常／較正式
+
+PART VI — Rare, Exceptional and
+Context-Dependent Uses｜較少見但要認識
+的情況
+
+下面的寫法較少在初級課本出現。有些屬正式文字，有些要靠語境理解。
+寫法
+
+甚麼時候可能見到
+
+要留意的地方
+
+between three schools
+
+清楚分開的三個組織訂
+立協議
+
+between 也可接多過兩個對象
+
+To whom did you speak?
+
+正式問句
+
+日常可說 Who did you speak to?
+
+a bed that has been slept
+in
+
+較難的被動句
+
+原來需要的介詞可以留下
+
+On the hill stood a
+house.
+
+故事或描寫
+
+先說地點，再介紹事物
+
+Not until Friday did we
+know.
+
+正式強調
+
+句首先放否定時間，後面字序改變
+
+Given the weather, ...
+
+正式考慮條件
+
+要看整句，不要把 given 當普通 give
+
+Notwithstanding the
+delay, ...
+
+法律或正式報告
+
+意思接近 despite
+
+Following the meeting, ...
+
+正式時間說法
+
+日常可說 after
+
+upon arrival
+
+較正式或固定說法
+
+arrival 表到達，通常可用 on arrival
+
+off of the table
+
+部分美式口語
+
+正式寫作多選 off
+
+With Mum cooking, ...
+
+同時發生的兩件事
+
+要清楚誰在煮飯
+
+of mine
+
+a friend of mine
+
+不能把它簡化成 a friend of me
+
+It is time for us to leave.
+
+安排某人做事
+
+for us 表誰做，to leave 表要做甚麼
+
+I saw the boy with
+binoculars.
+
+句子可能有兩種意思
+
+可能是我使用望遠鏡，也可能是男孩拿
+着望遠鏡
+
+PART VII — Common Errors and
+Misconceptions｜常見錯誤與提醒
+
+遇到下列句子，先想想真正想說甚麼，再比較兩個寫法。
+容易誤寫
+
+更自然的例子
+
+原因
+
+in Monday
+
+on Monday
+
+星期某一天通常用 on
+
+at 2024
+
+in 2024
+
+年份前用 in
+
+on next Friday
+
+next Friday
+
+next 起首的時間短語不用多加 on
+
+in six o’clock
+
+at six o’clock
+
+鐘點前用 at
+
+arrive to the
+
+arrive at the
+
+機場這類地點常接 at
+
+airport
+
+airport
+
+enter into the room
+
+enter the room
+
+普通「走進房間」的 enter 直接接地
+方
+
+discuss about the
+
+discuss the plan
+
+動詞 discuss 直接接內容
+
+listen music
+
+listen to music
+
+listen 後說對象常用 to
+
+interested on art
+
+interested in art
+
+固定接法 interested in
+
+good in maths
+
+good at maths
+
+擅長某科目常用 at
+
+married with May
+
+married to May
+
+說結婚對象常用 to
+
+full with toys
+
+full of toys
+
+固定接法 full of
+
+despite of the rain
+
+despite the rain
+
+despite 後面不用 of
+
+because of it
+
+because it rained
+
+because 後接完整句子；because of
+後接名詞
+
+during I waited
+
+while I waited
+
+while 可接有主語、動詞的句子
+
+The shop stays open
+
+The shop stays open
+
+持續到九時常用 until
+
+by nine.
+
+until nine.
+
+between you and I
+
+between you and me
+
+plan
+
+rained
+
+在正式標準英語中，介詞後常用
+me、him、us
+
+the chair I sat on
+
+the chair I sat on
+
+chair 已經是坐的對象
+
+reply my email
+
+reply to my email
+
+reply 常接 to
+
+different with mine
+
+different from mine
+
+一般比較差異用 from；to／than 有
+地域差異
+
+it
+
+**提醒：**表中「容易誤寫」只針對旁邊說明的普通意思。有些字在其他情況可能有另
+一個正確用途。遇到不同意思時，要再看整句。
+
+PART VIII — Comprehensive Reference
+Tables｜方便溫習的表格
+VIII.1 地點及移動
+想表達甚麼
+
+常用寫法
+
+例子
+
+在裏面
+
+in
+
+in the box
+
+在表面
+
+on
+
+on the wall
+
+位置或活動地點
+
+at
+
+at the station
+
+進入裏面
+
+into
+
+walk into the room
+
+移到表面
+
+onto
+
+jump onto the chair
+
+沿路
+
+along
+
+along the river
+
+橫過
+
+across
+
+across the road
+
+穿過內部
+
+through
+
+through the tunnel
+
+在下方
+
+under / below
+
+under the table
+
+緊靠旁邊
+
+next to
+
+next to the bank
+
+在群體中
+
+among
+
+among the trees
+
+經過
+
+past
+
+past the school
+
+VIII.2 時間
+想表達甚麼
+
+常用寫法
+
+例子
+
+鐘點
+
+at
+
+at seven
+
+一天或日期
+
+on
+
+on Tuesday
+
+年份月份
+
+in
+
+in September
+
+某一段時間
+
+during
+
+during the
+lesson
+
+持續多久
+
+for
+
+for three days
+
+從何時開始
+
+since
+
+since Monday
+
+在某時前完成
+
+by
+
+by Friday
+
+一直持續到某時
+
+until
+
+until nine
+
+多久後
+
+in
+
+in two hours
+
+最遲在指定時間內
+
+within
+
+within two hours
+
+準時
+
+on time
+
+arrived on time
+
+趕得及
+
+in time
+
+arrived in time
+
+VIII.3 介詞後面可以接甚麼
+接法
+
+例子
+
+提醒
+
+介詞 + 名詞
+
+near the door
+
+常見
+
+介詞 + 代字
+
+with me
+
+留意 me／him／her／us／them
+
+介詞 + -ing
+
+without waiting
+
+不能一律換成 to + 動詞
+
+介詞 + what 等內容
+
+about what to do 前後要能連接
+
+介詞 + 另一介詞短語
+
+until after dinner
+
+要看有沒有自然的整組意思
+
+介詞 + here／there
+
+from here
+
+here 不用再加 the
+
+介詞 + 完整句子（部分字）
+
+after she left
+
+傳統與現代分類或有不同
+
+VIII.4 常用動詞、形容詞和名詞配搭
+動詞
+
+形容詞
+
+名詞
+
+listen to
+
+interested in
+
+reason for
+
+wait for
+
+good at
+
+cause of
+
+depend on
+
+afraid of
+
+effect on
+
+belong to
+
+proud of
+
+solution to
+
+apply for
+
+responsible for
+
+interest in
+
+borrow from
+
+full of
+
+increase in
+
+apologise to someone for
+something
+
+similar to
+
+difference
+between
+
+succeed in doing
+
+ready for something answer to
+
+result in / from
+
+tired of / from
+
+relationship with
+
+provide someone with something
+
+aware of
+
+access to
+
+VIII.5 介詞短語放在不同位置
+位置
+
+例句
+
+這組字的工作
+
+句尾
+
+We ate in the park.
+
+說明吃飯的地方
+
+句首
+
+After lunch, we played.
+
+先說時間
+
+名詞後
+
+The bag on the table is
+mine.
+
+描述是哪個袋子
+
+be 後
+
+The keys are under the bed.
+
+說明鎖匙在哪裏
+
+正式問句前
+
+To whom did you write?
+
+問寫信對象
+
+關係句尾
+
+This is the pen I wrote with.
+
+要保留介詞
+
+PART IX — Diagnostic Tests and
+Challenging Examples｜練習（不附答案）
+**做題方法：**先讀英文，找出句子真正要表達的意思。選擇題請圈出最合適的答案；填空題請填
+入自然的介詞或短語（有些需要多於一個字）；改錯題只改指定部分；改寫題要保留原意。中文幫
+助你理解情況，但英文句子本身也有足夠資料讓你作答。
+
+A. 基本練習｜先練習常用位置、時間與方法
+P001
+The coins are inside a closed jar. They are (A) on (B) in (C) at the jar.
+【硬幣放在一個關着的玻璃樽裏。請選最自然的句子。】
+答案：____________________________
+
+P002
+The notice is attached to the classroom wall. It is (A) on (B) at (C) in the wall.
+【告示貼在課室牆上。請選合適介詞。】
+答案：____________________________
+
+P003
+We arranged to meet (A) into (B) on (C) at the ticket office entrance.
+【我們約好在售票處門口見面。】
+答案：____________________________
+
+P004
+
+We will leave (A) in (B) on (C) at Thursday morning.
+【我們星期四早上出發。】
+答案：____________________________
+
+P005
+My cousin was born _____ 2017.
+【我的表弟在 2017 年出生。】
+答案：____________________________
+
+P006
+The alarm rings _____ six o'clock each morning.
+【鬧鐘每天早上六時響起。】
+答案：____________________________
+
+P007
+We are going to the market (A) on next Saturday (B) in next Saturday (C) next Saturday.
+【我們下星期六會去街市。】
+答案：____________________________
+
+P008
+Mum is (A) on (B) in (C) at the car, waiting for us inside it.
+【媽媽在車裏等我們。】
+答案：____________________________
+
+P009
+The tourists are sitting (A) on (B) in (C) by the train as it travels.
+【旅客正坐在行駛中的火車上。】
+答案：____________________________
+
+P010
+The bird flew (A) through (B) over (C) under the garden wall and landed in the field on the other
+side.
+【鳥越過花園圍牆，落在另一邊的田地。】
+答案：____________________________
+
+P011
+The boy walked _____ the room from the corridor.
+【男孩從走廊走進房間。】
+答案：____________________________
+
+P012
+The dog remained (A) into (B) in (C) onto the garden all afternoon.
+【狗整個下午都在花園裏。】
+答案：____________________________
+
+P013
+The runner moved (A) among (B) through (C) across the tunnel and came out at the other end.
+【跑手穿過隧道，從另一端出來。】
+答案：____________________________
+
+P014
+The children walked (A) along (B) across (C) into the riverbank path, following the water for an
+hour.
+【孩子們沿着河邊小徑走了一小時。】
+答案：____________________________
+
+P015
+The café is exactly next door to the bank. It is (A) through (B) next to (C) beyond the bank.
+
+【咖啡店緊貼銀行旁邊。】
+答案：____________________________
+
+P016
+May stood in a large crowd. She was (A) among (B) above (C) beyond many people.
+【May 站在一大群人當中。】
+答案：____________________________
+
+P017
+The village lies farther away, on the other side of the bridge. It is (A) by (B) before (C) beyond
+the bridge.
+【村莊在橋另一邊較遠的地方。】
+答案：____________________________
+
+P018
+We studied _____ exactly three hours yesterday.
+【我們昨天剛好溫習了三小時。】
+答案：____________________________
+
+P019
+I have known Ben _____ primary school.
+【我從小學時期開始就認識 Ben。】
+答案：____________________________
+
+P020
+We watched the birds (A) for (B) since (C) during the school trip yesterday.
+【我們昨天學校旅行時觀察鳥類。】
+答案：____________________________
+
+P021
+
+Please finish the poster _____ Friday. Friday itself is still within the deadline.
+【請最遲在星期五完成海報；星期五當天完成仍符合限期。】
+答案：____________________________
+
+P022
+The library stays open (A) until (B) by (C) on eight o'clock, then closes.
+【圖書館一直開到八時，之後關門。】
+答案：____________________________
+
+P023
+The children stayed in the hall (A) since (B) for (C) by two hours.
+【孩子們在禮堂逗留了兩小時。】
+答案：____________________________
+
+P024
+The lesson begins _____ noon.
+【課堂中午開始。】
+答案：____________________________
+
+P025
+Mum was awake (A) at (B) in (C) on the night because the baby was crying.
+【那晚半夜，寶寶哭鬧，媽媽醒着。】
+答案：____________________________
+
+P026
+My parents visited us _____ Christmas Day itself.
+【爸爸媽媽就在聖誕節當天探望我們。】
+答案：____________________________
+
+P027
+The bus came exactly at the stated time. It arrived (A) in time (B) on time (C) at time.
+【巴士按時刻表準時到達。】
+答案：____________________________
+
+P028
+We reached the theatre just before the play began. We arrived (A) in time (B) on time (C) at time
+to watch it.
+【我們剛好趕得及在劇目開始前到達劇院。】
+答案：____________________________
+
+P029
+We went to Macau (A) with (B) by (C) on ferry as a way of travelling.
+【我們乘渡輪前往澳門。】
+答案：____________________________
+
+P030
+She opened the door _____ a key.
+【她用鎖匙開門。】
+答案：____________________________
+
+P031
+The pupils did all the decorating themselves. The classroom was decorated (A) by (B) with (C)
+from the pupils.
+【學生們自己完成了所有課室佈置。】
+答案：____________________________
+
+P032
+The forecast says it might rain, but it is sunny now. Please bring an umbrella (A) in case of (B)
+due to (C) instead of heavy rain on the hike.
+
+【天氣預報說行山時可能下雨，但現在天氣晴朗。請帶備雨傘。】
+答案：____________________________
+
+B. 混合練習｜自己判斷應用哪個接法
+P033
+May enjoys learning about the stars. She is interested _____ astronomy.
+【May 喜歡學習星空知識。】
+答案：____________________________
+
+P034
+The puppy hides whenever it sees a large dog. It is afraid _____ large dogs.
+【小狗每次看見大狗都會躲起來。】
+答案：____________________________
+
+P035
+The person organising the tickets is Ben. He is responsible _____ the tickets.
+【Ben 負責安排門票。】
+答案：____________________________
+
+P036
+Both drawings use the same colours and shapes. The first is similar _____ the second.
+【兩幅畫用相同的顏色和形狀。】
+答案：____________________________
+
+P037
+Our team won the final, and we feel proud _____ them.
+【我們的隊伍贏了決賽，大家很驕傲。】
+答案：____________________________
+
+P038
+She walked uphill all day and feels physically tired (A) of (B) from (C) about walking.
+【她整天走上坡路，身體很累。】
+答案：____________________________
+
+P039
+The teacher is speaking. Please listen _____ her instructions.
+【老師正在說話。請留心聽指示。】
+答案：____________________________
+
+P040
+I cannot find my gloves. I am looking (A) after (B) at (C) for them.
+【我找不到手套，現在正在找。】
+答案：____________________________
+
+P041
+We need to talk about the new rule. Which sentence is correct? (A) We discussed about the
+rule. (B) We discussed the rule. (C) We discussed to the rule.
+【我們需要討論新規定。請選自然的英文句子。】
+答案：____________________________
+
+P042
+Please reply _____ my message tonight.
+【請今晚回覆我的訊息。】
+答案：____________________________
+
+P043
+The book belongs to May. I borrowed it (A) from (B) to (C) at her yesterday.
+【那本書是 May 的，我昨天向她借了。】
+
+答案：____________________________
+
+P044
+I own the book and gave Ben permission to keep it for a week. I lent it (A) from (B) to (C) for
+him.
+【書是我的，我借給 Ben 一星期。】
+答案：____________________________
+
+P045
+We may cancel the picnic if it rains. The plan depends (A) to (B) with (C) on the weather.
+【如果下雨，我們可能取消野餐。】
+答案：____________________________
+
+P046
+Heavy snow caused long delays. The snow resulted (A) from (B) in (C) for delays.
+【大雪造成長時間延誤。】
+答案：____________________________
+
+P047
+The delay happened because a tree fell. The delay resulted (A) from (B) to (C) in the fallen tree.
+【因為有樹倒下，所以出現延誤。】
+答案：____________________________
+
+P048
+We have fixed the leaking tap. We found a solution (A) for (B) of (C) to the problem.
+【我們修好了漏水的水龍頭，找到了解決方法。】
+答案：____________________________
+
+P049
+Last year, the entry fee was $50. This year, it is $60. It increased (A) to (B) by (C) in $10.
+
+【入場費由五十元增加到六十元。】
+答案：____________________________
+
+P050
+The picnic was cancelled (A) because of (B) because (C) although the storm.
+【野餐因為暴風雨而取消。】
+答案：____________________________
+
+P051
+It was raining, but that did not stop us. We walked outside (A) despite of (B) despite (C) because
+of the rain.
+【雖然下雨，我們仍然在外面步行。】
+答案：____________________________
+
+P052
+Mia ate noodles and rice. She ate noodles (A) instead of (B) without (C) in addition to rice.
+【Mia 吃了麵，也吃了飯。】
+答案：____________________________
+
+P053
+Ben actually works as a doctor at the hospital. He works (A) as (B) like (C) for a doctor.
+【Ben 在醫院任職醫生。】
+答案：____________________________
+
+P054
+The bowl is wooden. It is made (A) at (B) by (C) of wood.
+【這隻碗是木製的。】
+答案：____________________________
+
+P055
+
+The school notice states that the gate closes at six. (A) In my opinion (B) According to the notice
+(C) Unlike the notice, the gate closes at six.
+【學校通告寫明大門六時關閉。】
+答案：____________________________
+
+P056
+I am speaking for the whole class in a thank-you speech. I speak (A) on behalf of (B) against (C)
+beyond the class.
+【我在致謝詞中代表全班發言。】
+答案：____________________________
+
+P057
+The tool was designed to open bottles. It is a tool _____ opening bottles.
+【這個工具是用來開瓶的。】
+答案：____________________________
+
+P058
+The children are attending a lesson inside the classroom. They are (A) in (B) into (C) on class
+now.
+【孩子們正在課室內上課。】
+答案：____________________________
+
+P059
+Our usual lesson is on Monday, but the extra practice was _____ Friday evening.
+【我們平時星期一上課，但額外練習在星期五晚上舉行。】
+答案：____________________________
+
+P060
+One of every four pupils walks to school. This is (A) one at four (B) one in four (C) one on four.
+【每四位學生就有一位步行上學。】
+
+答案：____________________________
+
+P061
+Correct only the unnecessary preposition: “We discussed about the plan after school.”
+【請只刪去句中多餘的介詞，其餘意思不變。】
+完整句子：____________________________________________________________
+
+P062
+Correct the preposition in “Please listen on the instructions carefully.”
+【請只改正介詞，其他字保持不變。】
+完整句子：____________________________________________________________
+
+P063
+Correct the destination preposition: “They arrived to the airport at seven.”
+【請改正表示到達地點的介詞。】
+完整句子：____________________________________________________________
+
+P064
+Correct the preposition in “I am interested at learning French.”
+【請只改正一個介詞。】
+完整句子：____________________________________________________________
+
+C. 進階練習｜字序、語氣、句子解讀與變化
+P065
+You are waiting for a person, but you do not know who. Choose the natural question: (A) Who
+are you waiting for? (B) Who are you waiting to? (C) Who you are waiting for?
+【你在等某個人，但不知道那人是誰。請選自然問句。】
+答案：____________________________
+
+P066
+Choose the more formal version of “Who did you send the letter to?” (A) To who did you send
+the letter? (B) To whom did you send the letter? (C) Who to did you send the letter?
+【請選語氣較正式、意思相同的問句。】
+答案：____________________________
+
+P067
+Correct the repeated object: “This is the chair that I sat on it.”
+【請刪去多餘的字，不要改變意思。】
+完整句子：____________________________________________________________
+
+P068
+Rewrite in the passive, beginning with “This bed”: “Someone has slept in this bed.” Keep the
+present-perfect meaning.
+【請用指定字句開頭，改成被動句，保留原來時間意思。】
+完整句子：____________________________________________________________
+
+P069
+Choose the natural emphatic sentence: (A) Not until Friday we got the results. (B) Not until
+Friday we did get the results. (C) Not until Friday did we get the results.
+【我們到了星期五才收到結果。請選正確的強調句。】
+答案：____________________________
+
+P070
+Rewrite to emphasise the location using “It was ... that”: “We met in the library.”
+【請用指定句型強調見面地點，原意不變。】
+完整句子：____________________________________________________________
+
+P071
+
+Sentence: “I saw the boy with binoculars.” Write two different possible meanings in simple
+English or Chinese.
+【請寫出這句英文可能有的兩種意思。】
+我的解釋：____________________________________________________________
+
+P072
+Is “The agreement between the three schools was signed today” grammatical? Explain why
+“between” is possible.
+【這句提到三間學校。請說明 between 能否這樣用。】
+我的解釋：____________________________________________________________
+
+P073
+The report will be ready in two days. Choose the sentence meaning “no later than two days from
+now”: (A) The report will be ready within two days. (B) The report will be ready for two days. (C)
+The report will be ready since two days.
+【報告最遲兩天內完成。請選能清楚表達限期的句子。】
+答案：____________________________
+
+P074
+Which sentence uses the natural preposition after “depends”? (A) It depends for whether the
+train is late. (B) It depends with whether the train is late. (C) It depends on whether the train is
+late.
+【決定要看火車有沒有遲到。請選自然寫法。】
+答案：____________________________
+
+P075
+Mum is organising who should leave first. Choose the natural sentence: (A) It's time for we to
+leave. (B) It's time for us to leave. (C) It's time for us leaving.​
+【媽媽安排我們應該先離開。】
+
+答案：____________________________
+
+P076
+The teacher said the class must stay in the room until the bell rings. Choose the correct
+sentence: (A) Wait until after the bell. (B) Wait until to the bell. (C) Wait to after the bell.
+【老師說學生要等到鐘聲響過後才離開。】
+答案：____________________________
+
+P077
+The child is unable to lift the bag because it is very heavy for her. Choose: (A) The bag is too
+heavy to her. (B) The bag is too heavy with her. (C) The bag is too heavy for her to lift.
+【袋子太重，她拿不起。】
+答案：____________________________
+
+P078
+Choose the natural use of “before” with a complete clause: (A) Wash your hands before to eat.
+(B) Wash your hands before you eat. (C) Wash your hands before eating you.
+【吃東西前要洗手。請選合適句型。】
+答案：____________________________
+
+P079
+Correct only one extra word: “We played outside despite of the cold weather.”
+【請只刪去一個多餘的字，保留原意。】
+完整句子：____________________________________________________________
+
+P080
+Correct the pronoun after the preposition in formal standard English: “This is between you and
+I.”
+【請按普通正式書面英語，只改一個代字。】
+完整句子：____________________________________________________________
+
+P081
+Compare “I did not see him at school” with “I saw him, but not at school”. Does the first
+necessarily mean you never saw him?
+【請比較兩句英文，說明第一句是否一定表示從未見過他。】
+我的解釋：____________________________________________________________
+
+P082
+Use “with” to combine: “Dad was cooking. I was setting the table at the same time.” Begin with
+“With Dad ...”.
+【請以 With Dad 開頭，把兩件同時發生的事合成一句。】
+完整句子：____________________________________________________________
+
+P083
+Is “The cat jumped off of the table” automatically wrong in every English variety? State the
+relevant variety and register.
+【請判斷這句是否所有英語都不接受，並說出適用情況。】
+我的解釋：____________________________________________________________
+
+P084
+Rewrite this message using a more everyday expression while keeping its meaning: “Following
+the meeting, we went home.”
+【請把較正式的時間短語改成日常用法，意思不變。】
+完整句子：____________________________________________________________
+
+P085
+Choose the sentence that correctly uses “a friend of mine”: (A) A friend of me lives nearby. (B) A
+friend of mine lives nearby. (C) A friend of my lives nearby.
+【我有一位朋友住在附近。】
+
+答案：____________________________
+
+P086
+Use “by” in a passive sentence: “The children painted this picture.” Keep the painter identified.
+【請用被動句，保留誰畫這幅畫。】
+完整句子：____________________________________________________________
+
+PART X — Final Coverage Check｜學完後
+自己檢查
+不用一次完成整本指南。學懂基本內容後，可以按自己的需要學習進階部分。讀完一組規則，可
+以用以下問題檢查自己。
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+●​
+
+我知道介詞可以說明地點、時間、方向、方法和其他關係。
+我能分辨 in、on、at 在地方及時間上的常見接法。
+我能分辨一個人在哪裏，和一個人往哪裏走。
+我能分辨 for、since、during、while 的意思及後面接法。
+我能分辨 by Friday 和 until Friday 的不同。
+我能分辨 on time 和 in time。
+我知道「用工具」和「誰做的」可能要用不同介詞。
+我能分辨 for/to、as/like、besides/except、because of/despite。
+我知道有些動詞、形容詞、名詞要連同介詞一起記。
+我知道介詞後面常可接名詞、代字或 -ing。
+我知道介詞短語可以說明動作，也可以描述名詞。
+我知道英文句尾可以自然保留介詞。
+我能辨認較正式的寫法，不會把口語或地域差異一律當作錯誤。
+我能在不猜答案的情況下，先看意思，再選擇適合的英文句子。
+
+**最後提醒：**英文介詞沒有一張可以代替所有句子的表。遇到新例子，先問它在說甚麼，再看前
+後的字。可以翻回相關規則，把兩句相似例子放在一起比較。

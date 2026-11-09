@@ -1,0 +1,1986 @@
+{
+  "source": "course-materials/grammar/source/prepositions-prepositional-phrases-course-pages.txt",
+  "guide": {
+    "ruleCount": 291,
+    "sixStepFieldCount": 1746,
+    "rules": [
+      {
+        "id": "PP.01.01",
+        "title": "介詞用來連接資料",
+        "dialogueNote": "同一個介詞可有幾種意思，要連同整句理解。"
+      },
+      {
+        "id": "PP.01.02",
+        "title": "介詞後面常接名詞",
+        "dialogueNote": "有些介詞也可以接其他寫法，後面會逐步學到。"
+      },
+      {
+        "id": "PP.01.03",
+        "title": "介詞後面可接代字",
+        "dialogueNote": "you 和 it 的寫法不會因這個位置而改變。"
+      },
+      {
+        "id": "PP.01.04",
+        "title": "介詞加後面的字是一組",
+        "dialogueNote": "這一組字可放在句子不同位置，但意思要保持清楚。"
+      },
+      {
+        "id": "PP.01.05",
+        "title": "短語可以說明動作",
+        "dialogueNote": "介詞短語也可以說明原因、方法和其他資料。"
+      },
+      {
+        "id": "PP.01.06",
+        "title": "短語也可以描述名詞",
+        "dialogueNote": "短語描述名詞時，要留意它接近哪個名詞。"
+      },
+      {
+        "id": "PP.01.07",
+        "title": "有些字可用不同方法分類",
+        "dialogueNote": "有些文法書對這些字的分類不同；先看整句的意思和接法。"
+      },
+      {
+        "id": "PP.01.08",
+        "title": "介詞後面不一定只有一個字",
+        "dialogueNote": "不要把介詞插進 the old wooden gate 這組字的中間。"
+      },
+      {
+        "id": "PP.01.09",
+        "title": "介詞後面可以接 -ing",
+        "dialogueNote": "這裏的 -ing 表示活動，不一定表示事情正在發生。"
+      },
+      {
+        "id": "PP.01.10",
+        "title": "介詞 to 和動詞前的 to 要分開",
+        "dialogueNote": "不能只看見 to，就認定後面一定用動詞本來的寫法。"
+      },
+      {
+        "id": "PP.01.11",
+        "title": "介詞不一定每次都要改",
+        "dialogueNote": "不要把某一個動詞的介詞，套用到所有相近動詞上。"
+      },
+      {
+        "id": "PP.01.12",
+        "title": "句子末尾可以有介詞",
+        "dialogueNote": "不能把「句尾一定不可有介詞」當作英文文法規則。"
+      },
+      {
+        "id": "PP.01.13",
+        "title": "沒有介詞也可能正確",
+        "dialogueNote": "this、next、every、last 等字起首的常見時間用語，通常不用多加介詞。"
+      },
+      {
+        "id": "PP.01.14",
+        "title": "介詞的意思要看整句",
+        "dialogueNote": "遇到不熟悉的意思，要查整組用法，不能只逐字翻譯。"
+      },
+      {
+        "id": "PP.01.15",
+        "title": "先分清必要資料和額外資料",
+        "dialogueNote": "不能只靠短語的位置，判斷它能不能省去。"
+      },
+      {
+        "id": "PP.02.01",
+        "title": "in：在一個空間或範圍內",
+        "dialogueNote": "in 也可用於城市、國家和較大的地區。"
+      },
+      {
+        "id": "PP.02.02",
+        "title": "on：接觸表面",
+        "dialogueNote": "on 不一定表示在上方；牆上的圖片也用 on。"
+      },
+      {
+        "id": "PP.02.03",
+        "title": "at：把地點當作一個位置",
+        "dialogueNote": "at 也可以用於公司、學校或活動地點。"
+      },
+      {
+        "id": "PP.02.04",
+        "title": "at 與 in the school",
+        "dialogueNote": "說到特定建築物時，at the school 和 in the school 都可用，着重點不同。"
+      },
+      {
+        "id": "PP.02.05",
+        "title": "on the bus 與 in the car",
+        "dialogueNote": "on a plane、on a ship 也常見；較小的私人交通工具未必完全照搬。"
+      },
+      {
+        "id": "PP.02.06",
+        "title": "on the first floor",
+        "dialogueNote": "英美對 first floor 是哪一層的叫法不同；介詞仍然常用 on。"
+      },
+      {
+        "id": "PP.02.07",
+        "title": "at an address",
+        "dialogueNote": "說城市或國家通常用 in，例如 in Hong Kong。"
+      },
+      {
+        "id": "PP.02.08",
+        "title": "at home 與 in the house",
+        "dialogueNote": "普通用法說 at home，不說 at the home 表示自己的家。"
+      },
+      {
+        "id": "PP.02.09",
+        "title": "in bed 與 on the bed",
+        "dialogueNote": "人在床上坐着或玩耍時，也可以用 on the bed。"
+      },
+      {
+        "id": "PP.02.10",
+        "title": "in a picture 與 on a screen",
+        "dialogueNote": "照片放在桌面時，仍可用 on the desk。"
+      },
+      {
+        "id": "PP.02.11",
+        "title": "at the table 與 on the table",
+        "dialogueNote": "說小孩躲在桌下，要用 under the table。"
+      },
+      {
+        "id": "PP.02.12",
+        "title": "in a queue 與 at the front",
+        "dialogueNote": "美式英語也常說 in line。"
+      },
+      {
+        "id": "PP.02.13",
+        "title": "on the left 與 to the left of",
+        "dialogueNote": "on your left 和 on the left-hand side 也很常見。"
+      },
+      {
+        "id": "PP.02.14",
+        "title": "inside 與 outside",
+        "dialogueNote": "inside 和 outside 有時不接名詞，例如 Come inside。"
+      },
+      {
+        "id": "PP.02.15",
+        "title": "near 與 next to",
+        "dialogueNote": "near to 有時也正確，但一般 near 已經足夠。"
+      },
+      {
+        "id": "PP.02.16",
+        "title": "beside 與 besides",
+        "dialogueNote": "besides 在特別情況也可表示其他意思，不要把兩個字當同一個。"
+      },
+      {
+        "id": "PP.02.17",
+        "title": "in front of 與 behind",
+        "dialogueNote": "in the front of 常指一個空間的前部，例如 in the front of the bus。"
+      },
+      {
+        "id": "PP.02.18",
+        "title": "opposite 與 across from",
+        "dialogueNote": "opposite 不需要再加 to：普通說法是 opposite the bank。"
+      },
+      {
+        "id": "PP.03.01",
+        "title": "to：走向一個目的地",
+        "dialogueNote": "go home、come here、go abroad 等常見說法通常不用 to。"
+      },
+      {
+        "id": "PP.03.02",
+        "title": "towards：朝某個方向",
+        "dialogueNote": "toward 也是正確寫法，在美式英語尤其常見。"
+      },
+      {
+        "id": "PP.03.03",
+        "title": "from：由某處出發",
+        "dialogueNote": "from 也可表示時間起點或資料來源。"
+      },
+      {
+        "id": "PP.03.04",
+        "title": "into：移動到裏面",
+        "dialogueNote": "put the milk in the fridge 和 put the milk into the fridge 都可以自然表達放進去。"
+      },
+      {
+        "id": "PP.03.05",
+        "title": "onto：移動到表面上",
+        "dialogueNote": "on to 分開寫也可能是另一種結構，不要一律合併成 onto。"
+      },
+      {
+        "id": "PP.03.06",
+        "title": "out of：從裏面出去",
+        "dialogueNote": "out of 也可表示沒有、缺乏或由某種原因而做事。"
+      },
+      {
+        "id": "PP.03.07",
+        "title": "off：離開表面",
+        "dialogueNote": "get off the bus 是固定常用說法；不要推論所有交通工具都用 off。"
+      },
+      {
+        "id": "PP.03.08",
+        "title": "up 與 down：沿上下方向",
+        "dialogueNote": "up/down 也可作動詞組合中的小字，意義可能不再是位置。"
+      },
+      {
+        "id": "PP.03.09",
+        "title": "along：沿着一條路線",
+        "dialogueNote": "along 不表示一定已走完整條路線。"
+      },
+      {
+        "id": "PP.03.10",
+        "title": "across：由一邊到另一邊",
+        "dialogueNote": "across 也可以說物件在對面，例如 across the street。"
+      },
+      {
+        "id": "PP.03.11",
+        "title": "through：由裏面穿過",
+        "dialogueNote": "walk through the park 也可能只表示路線穿過公園，不一定繞到每個角落。"
+      },
+      {
+        "id": "PP.03.12",
+        "title": "over：越過上方",
+        "dialogueNote": "over 也有「多於」等意思，不只用於位置。"
+      },
+      {
+        "id": "PP.03.13",
+        "title": "past：經過而繼續向前",
+        "dialogueNote": "past 還可說時間，例如 half past three。"
+      },
+      {
+        "id": "PP.03.14",
+        "title": "round／around：繞着或在附近",
+        "dialogueNote": "round 在英式英語很常見；around 兩種英語都使用。"
+      },
+      {
+        "id": "PP.03.15",
+        "title": "via：途經某處或方法",
+        "dialogueNote": "via 也可表示透過某種方法，例如 via email；語氣常較正式。"
+      },
+      {
+        "id": "PP.03.16",
+        "title": "arrive at 與 arrive in",
+        "dialogueNote": "arrive home 通常不加 at 或 in。"
+      },
+      {
+        "id": "PP.03.17",
+        "title": "enter 與 go into",
+        "dialogueNote": "enter into an agreement 是另一個固定意思，不能當作 enter the room 的接法。"
+      },
+      {
+        "id": "PP.03.18",
+        "title": "reach 與 get to",
+        "dialogueNote": "get home、reach home 不加 to；arrive at home 則是另一種用法，但 at home 很常見。"
+      },
+      {
+        "id": "PP.04.01",
+        "title": "above：位置較高",
+        "dialogueNote": "above 可用於溫度、分數等數值高於某個標準。"
+      },
+      {
+        "id": "PP.04.02",
+        "title": "over 與 above",
+        "dialogueNote": "很多位置語境兩者都可用，不要硬說其中一個一定錯。"
+      },
+      {
+        "id": "PP.04.03",
+        "title": "under：在下面",
+        "dialogueNote": "under 也可表示少於某個數目或在某人管轄之下。"
+      },
+      {
+        "id": "PP.04.04",
+        "title": "below 與 under",
+        "dialogueNote": "兩者有重疊用法；數值低於標準時常用 below。"
+      },
+      {
+        "id": "PP.04.05",
+        "title": "beneath／underneath",
+        "dialogueNote": "beneath 常較正式，也可表示地位低於某人。"
+      },
+      {
+        "id": "PP.04.06",
+        "title": "between：分別看清的對象",
+        "dialogueNote": "between 也可用於三個或以上清楚分開的對象，例如三國之間的協議。"
+      },
+      {
+        "id": "PP.04.07",
+        "title": "among：在一群之中",
+        "dialogueNote": "amongst 是另一種寫法，較少用，常見於較正式文字。"
+      },
+      {
+        "id": "PP.04.08",
+        "title": "between 時間和數字",
+        "dialogueNote": "between 和 among 不能在時間範圍這個意思下任意互換。"
+      },
+      {
+        "id": "PP.04.09",
+        "title": "against：貼着、碰着",
+        "dialogueNote": "against 也常表示反對、比賽對手或防止傷害。"
+      },
+      {
+        "id": "PP.04.10",
+        "title": "within：在範圍之內",
+        "dialogueNote": "within 也可表示在某段時間內完成事情。"
+      },
+      {
+        "id": "PP.04.11",
+        "title": "beyond：超過界線",
+        "dialogueNote": "beyond 也可用於能力、範圍、理解以外的事。"
+      },
+      {
+        "id": "PP.04.12",
+        "title": "throughout：遍及整個範圍",
+        "dialogueNote": "throughout 用於時間時常表示整段時間。"
+      },
+      {
+        "id": "PP.04.13",
+        "title": "by：靠近",
+        "dialogueNote": "by 也可表示方法、動作者或截止時間，不能一律譯成「旁邊」。"
+      },
+      {
+        "id": "PP.04.14",
+        "title": "opposite：面對另一邊",
+        "dialogueNote": "在英式英語，opposite 後面通常不需要 to。"
+      },
+      {
+        "id": "PP.04.15",
+        "title": "in the middle of 與 in the centre of",
+        "dialogueNote": "centre 是英式拼法；center 是美式拼法。"
+      },
+      {
+        "id": "PP.05.01",
+        "title": "at + 鐘點",
+        "dialogueNote": "at noon、at midnight 也是常見寫法。"
+      },
+      {
+        "id": "PP.05.02",
+        "title": "on + 星期和日期",
+        "dialogueNote": "說 every Monday 或 next Monday 時，通常不用 on。"
+      },
+      {
+        "id": "PP.05.03",
+        "title": "in + 月份、年份和季節",
+        "dialogueNote": "in summer 和 in the summer 都可用，意思按情況而定。"
+      },
+      {
+        "id": "PP.05.04",
+        "title": "in the morning／afternoon／evening",
+        "dialogueNote": "說某個特別的晚上，可用 on Friday evening。"
+      },
+      {
+        "id": "PP.05.05",
+        "title": "on a particular morning",
+        "dialogueNote": "on the morning of 5 May 也正確。"
+      },
+      {
+        "id": "PP.05.06",
+        "title": "at night 與 in the night",
+        "dialogueNote": "有些語境兩種都可用；重點是談一般夜晚還是某一晚。"
+      },
+      {
+        "id": "PP.05.07",
+        "title": "at the weekend／on the weekend",
+        "dialogueNote": "兩種都屬自然英語，不應把其中一種說成普遍錯誤。"
+      },
+      {
+        "id": "PP.05.08",
+        "title": "in the holidays／on holiday",
+        "dialogueNote": "美式英語常用 on vacation 表示度假。"
+      },
+      {
+        "id": "PP.05.09",
+        "title": "at Christmas 與 on Christmas Day",
+        "dialogueNote": "美式英語常用 on Christmas 表示當天，須看語境。"
+      },
+      {
+        "id": "PP.05.10",
+        "title": "時間字前不用重複加介詞",
+        "dialogueNote": "「in next week」在普通的這個意思下不自然。"
+      },
+      {
+        "id": "PP.05.11",
+        "title": "at the moment 與 for the moment",
+        "dialogueNote": "for the time being 也常表示「暫時」。"
+      },
+      {
+        "id": "PP.05.12",
+        "title": "on time：準時",
+        "dialogueNote": "on time 和 in time 都可正確，但意思不同。"
+      },
+      {
+        "id": "PP.05.13",
+        "title": "in time：趕得及",
+        "dialogueNote": "just in time 表示剛好趕得及。"
+      },
+      {
+        "id": "PP.05.14",
+        "title": "at the end of 與 in the end",
+        "dialogueNote": "不要把 in the end of the show 當作 at the end of the show 的普通替代。"
+      },
+      {
+        "id": "PP.05.15",
+        "title": "at first 與 for the first time",
+        "dialogueNote": "first of all 是列出第一步時用的另一組說法。"
+      },
+      {
+        "id": "PP.05.16",
+        "title": "at the beginning of 與 in the beginning",
+        "dialogueNote": "in the beginning 後面通常不直接接 of + 這種時間活動。"
+      },
+      {
+        "id": "PP.05.17",
+        "title": "at age ten",
+        "dialogueNote": "更清楚也可以說 at the age of ten。"
+      },
+      {
+        "id": "PP.05.18",
+        "title": "from ... to ...：時間起點終點",
+        "dialogueNote": "from nine until six 也可以，意思相近。"
+      },
+      {
+        "id": "PP.06.01",
+        "title": "for：一段時間",
+        "dialogueNote": "for three days 本身不決定動詞一定要用哪一個時態。"
+      },
+      {
+        "id": "PP.06.02",
+        "title": "since：由某個時間開始",
+        "dialogueNote": "since 也可表示「因為」，要看整句意思。"
+      },
+      {
+        "id": "PP.06.03",
+        "title": "during：事情在某段時間裏發生",
+        "dialogueNote": "during 後面通常接名詞短語；「during I watched」不能當一般正確寫法。"
+      },
+      {
+        "id": "PP.06.04",
+        "title": "while 與 during",
+        "dialogueNote": "較新的文法分析可能把 while 分到不同詞類；學生先記住接法。"
+      },
+      {
+        "id": "PP.06.05",
+        "title": "by：最遲在某時完成",
+        "dialogueNote": "by 不一定表示事情剛好在星期五那一刻完成。"
+      },
+      {
+        "id": "PP.06.06",
+        "title": "until：一直到某個時間",
+        "dialogueNote": "till 和 until 多數可互換；till 通常較口語。"
+      },
+      {
+        "id": "PP.06.07",
+        "title": "not ... until：到了那時才發生",
+        "dialogueNote": "這種句型不能照字面逐字理解成「沒有到十時」。"
+      },
+      {
+        "id": "PP.06.08",
+        "title": "before：在某時之前",
+        "dialogueNote": "before 後面也可接完整句子，例如 before you eat。"
+      },
+      {
+        "id": "PP.06.09",
+        "title": "after：在某時之後",
+        "dialogueNote": "after 後面可以接 -ing，例如 after eating。"
+      },
+      {
+        "id": "PP.06.10",
+        "title": "within：限時之內",
+        "dialogueNote": "within 不保證一定要等到第二天才做事。"
+      },
+      {
+        "id": "PP.06.11",
+        "title": "in + 時間：多久後",
+        "dialogueNote": "in ten minutes 也可在其他句子中表示完成某事所花的時間。"
+      },
+      {
+        "id": "PP.06.12",
+        "title": "in + 時間：用多久完成",
+        "dialogueNote": "做了一小時不一定代表已完成，所以兩句意思不同。"
+      },
+      {
+        "id": "PP.06.13",
+        "title": "for 與 over：整段時間或其間",
+        "dialogueNote": "over 不一定表示活動從頭到尾沒有停過。"
+      },
+      {
+        "id": "PP.06.14",
+        "title": "throughout：整段期間",
+        "dialogueNote": "整段期間可以有短暫變化；要看所說的是甚麼活動。"
+      },
+      {
+        "id": "PP.06.15",
+        "title": "from now on：由現在起",
+        "dialogueNote": "from then on 表示從之前提到的某一刻起。"
+      },
+      {
+        "id": "PP.06.16",
+        "title": "as of：由某個日期起",
+        "dialogueNote": "as of 常用於通知、行政或正式文字。"
+      },
+      {
+        "id": "PP.06.17",
+        "title": "pending：等候某件事期間",
+        "dialogueNote": "pending 常見於正式通知；日常說話可用 until ...。"
+      },
+      {
+        "id": "PP.07.01",
+        "title": "by + 交通工具：怎樣去",
+        "dialogueNote": "一般說 by bus 不加 the；說乘某一班巴士時可用 on the bus。"
+      },
+      {
+        "id": "PP.07.02",
+        "title": "by + 動作：怎樣做到",
+        "dialogueNote": "by 也可以說動作者，兩種意思要分開。"
+      },
+      {
+        "id": "PP.07.03",
+        "title": "with + 工具",
+        "dialogueNote": "工具通常用 with；交通方法則常用 by。"
+      },
+      {
+        "id": "PP.07.04",
+        "title": "by + 被動句的動作者",
+        "dialogueNote": "被動句不一定要把動作者說出來。"
+      },
+      {
+        "id": "PP.07.05",
+        "title": "with + 一起的人",
+        "dialogueNote": "with 也可表示擁有、工具、方法等，要看句子。"
+      },
+      {
+        "id": "PP.07.06",
+        "title": "without：沒有某樣東西",
+        "dialogueNote": "without doing 常表示「沒有做某事就……」。"
+      },
+      {
+        "id": "PP.07.07",
+        "title": "for：為了某人",
+        "dialogueNote": "有些動詞可用兩種句型，有些不可以隨意改。"
+      },
+      {
+        "id": "PP.07.08",
+        "title": "to：交給誰",
+        "dialogueNote": "send somebody something 也可用；要記住所用動詞的句型。"
+      },
+      {
+        "id": "PP.07.09",
+        "title": "for + 目的",
+        "dialogueNote": "for 後面說活動時常用 -ing，但不能把所有表示目的的 to 都改成 for。"
+      },
+      {
+        "id": "PP.07.10",
+        "title": "for + -ing：物件用途",
+        "dialogueNote": "用途和某次行動的目的可以接近，但句型不同。"
+      },
+      {
+        "id": "PP.07.11",
+        "title": "of：部分和整體",
+        "dialogueNote": "不能用一條規則，把所有 of 都當成「擁有」。"
+      },
+      {
+        "id": "PP.07.12",
+        "title": "made of 與 made from",
+        "dialogueNote": "兩者在某些材料語境有重疊，不用把分界說成絕對。"
+      },
+      {
+        "id": "PP.07.13",
+        "title": "made by 與 made with",
+        "dialogueNote": "食物也常用 made of/from，須看所強調的意思。"
+      },
+      {
+        "id": "PP.07.14",
+        "title": "from：來源",
+        "dialogueNote": "from 也可和動詞搭配表示分離或保護。"
+      },
+      {
+        "id": "PP.07.15",
+        "title": "about：談論內容",
+        "dialogueNote": "也可以說 talk with someone，表示跟某人交談。"
+      },
+      {
+        "id": "PP.07.16",
+        "title": "against：反對",
+        "dialogueNote": "against 也有碰着、對着、防護等意思。"
+      },
+      {
+        "id": "PP.07.17",
+        "title": "in：穿着或用某種語言",
+        "dialogueNote": "in blue 也可以指用藍色筆寫，或穿着藍色衣服；要看前後文。"
+      },
+      {
+        "id": "PP.07.18",
+        "title": "at：速度和價格",
+        "dialogueNote": "也可說 sell at a discount，表示以折扣價出售。"
+      },
+      {
+        "id": "PP.07.19",
+        "title": "per：每一單位",
+        "dialogueNote": "per 常見於價錢、速度、報表；口語也常用 a，例如 twice a week。"
+      },
+      {
+        "id": "PP.08.01",
+        "title": "like：像某人或某物",
+        "dialogueNote": "like 後面也可接完整句子，尤其在口語中；不要只按一種分類理解。"
+      },
+      {
+        "id": "PP.08.02",
+        "title": "as：以某個身份",
+        "dialogueNote": "as 也有「當……時」「因為」「按照」等用法，要看句子。"
+      },
+      {
+        "id": "PP.08.03",
+        "title": "unlike：跟……不同",
+        "dialogueNote": "unlike 不代表兩人在所有方面都不同。"
+      },
+      {
+        "id": "PP.08.04",
+        "title": "compared with／to：拿來比較",
+        "dialogueNote": "compared to 也可用；兩種寫法的偏好視語境而定。"
+      },
+      {
+        "id": "PP.08.05",
+        "title": "than：在比較詞後面",
+        "dialogueNote": "有些文法會把 than 分到連接詞等其他類別；這裏先學正確句型。"
+      },
+      {
+        "id": "PP.08.06",
+        "title": "between ... and：比較兩者",
+        "dialogueNote": "有三個以上清楚分開的比較對象，也可以用 between。"
+      },
+      {
+        "id": "PP.08.07",
+        "title": "besides：除……之外還有",
+        "dialogueNote": "besides 也可以單獨放句首，表示「另外」。"
+      },
+      {
+        "id": "PP.08.08",
+        "title": "except：把某個排除",
+        "dialogueNote": "except for 在不少句子也可用，但不一定跟 except 完全相同。"
+      },
+      {
+        "id": "PP.08.09",
+        "title": "except for：先說整體，再指出例外",
+        "dialogueNote": "句首也可以說 Except for Ben, everyone was ready。"
+      },
+      {
+        "id": "PP.08.10",
+        "title": "including：把某項包括在內",
+        "dialogueNote": "including 後面的字不會另加在五人之外，除非句子另有說明。"
+      },
+      {
+        "id": "PP.08.11",
+        "title": "despite：雖然有阻礙",
+        "dialogueNote": "despite 後面不要加 of。"
+      },
+      {
+        "id": "PP.08.12",
+        "title": "in spite of：雖然有阻礙",
+        "dialogueNote": "in spite of 分開寫三個字；不能寫成 inspite of。"
+      },
+      {
+        "id": "PP.08.13",
+        "title": "despite + -ing",
+        "dialogueNote": "一般不要寫 despite he felt ill；可用 despite the fact that he felt ill。"
+      },
+      {
+        "id": "PP.08.14",
+        "title": "regardless of：不論某個條件",
+        "dialogueNote": "regardless of 後面也可接 -ing，或由 what、whether 等字開始的內容。"
+      },
+      {
+        "id": "PP.08.15",
+        "title": "according to：根據資料",
+        "dialogueNote": "一般不要用 according to me 來表達自己的普通意見。"
+      },
+      {
+        "id": "PP.08.16",
+        "title": "as well as：還有",
+        "dialogueNote": "as well as 和 and 在主語組合時，動詞配合可能不同。"
+      },
+      {
+        "id": "PP.08.17",
+        "title": "instead of：用一樣代替另一樣",
+        "dialogueNote": "instead of 後面可接 -ing，例如 instead of driving。"
+      },
+      {
+        "id": "PP.09.01",
+        "title": "listen to 與 hear",
+        "dialogueNote": "listen 也可以不用接對象，例如 Listen carefully。"
+      },
+      {
+        "id": "PP.09.02",
+        "title": "look at：把目光放在哪裏",
+        "dialogueNote": "look after 有照顧的意思，是另一組接法。"
+      },
+      {
+        "id": "PP.09.03",
+        "title": "wait for 與 await",
+        "dialogueNote": "wait 後面有時不用 for，例如 Wait here。"
+      },
+      {
+        "id": "PP.09.04",
+        "title": "depend on：取決於",
+        "dialogueNote": "depend upon 也可以用，通常較正式。"
+      },
+      {
+        "id": "PP.09.05",
+        "title": "belong to：屬於誰",
+        "dialogueNote": "belong 通常不用於進行式來表示擁有。"
+      },
+      {
+        "id": "PP.09.06",
+        "title": "agree with／on／to：意思不同",
+        "dialogueNote": "agree to a plan 或 offer 也常見；要看同意的是人、決定還是安排。"
+      },
+      {
+        "id": "PP.09.07",
+        "title": "apologise to／for",
+        "dialogueNote": "apologize 是美式拼法；apologise 是英式拼法。"
+      },
+      {
+        "id": "PP.09.08",
+        "title": "ask for／ask about",
+        "dialogueNote": "ask someone a question 可以直接接人和問題，不一定用介詞。"
+      },
+      {
+        "id": "PP.09.09",
+        "title": "talk to／with／about",
+        "dialogueNote": "talk with 特別能強調雙方交談；用法有重疊。"
+      },
+      {
+        "id": "PP.09.10",
+        "title": "reply to 與 answer",
+        "dialogueNote": "reply 也可獨立使用，例如 Please reply soon。"
+      },
+      {
+        "id": "PP.09.11",
+        "title": "pay for 與 pay someone",
+        "dialogueNote": "pay by card 說明付款方法；pay in cash 是常見固定說法。"
+      },
+      {
+        "id": "PP.09.12",
+        "title": "spend on：花在甚麼上",
+        "dialogueNote": "spend time on homework 也可以，須看後面是名詞還是活動。"
+      },
+      {
+        "id": "PP.09.13",
+        "title": "apply for 與 apply to",
+        "dialogueNote": "apply to 也可表示規則適用於誰，不能與求職用法混為一談。"
+      },
+      {
+        "id": "PP.09.14",
+        "title": "borrow from 與 lend to",
+        "dialogueNote": "lend me a book 也很自然，這個句型不用 to。"
+      },
+      {
+        "id": "PP.09.15",
+        "title": "leave for 與 leave",
+        "dialogueNote": "leave home 常直接接 home；離開和前往是兩個不同意思。"
+      },
+      {
+        "id": "PP.09.16",
+        "title": "search for 與 search",
+        "dialogueNote": "search the internet for an answer 可以同時接地方和目標。"
+      },
+      {
+        "id": "PP.09.17",
+        "title": "complain about／to",
+        "dialogueNote": "complain of pain 在某些正式或醫療語境也可用。"
+      },
+      {
+        "id": "PP.09.18",
+        "title": "insist on：堅持",
+        "dialogueNote": "insist on someone doing 的用法存在，但句子要讓人知道誰做事。"
+      },
+      {
+        "id": "PP.09.19",
+        "title": "succeed in：成功做到",
+        "dialogueNote": "succeed at something 可表示在某方面表現成功，意思稍有不同。"
+      },
+      {
+        "id": "PP.09.20",
+        "title": "prevent ... from：阻止某事發生",
+        "dialogueNote": "stop someone (from) doing 在有些英語中可省去 from；prevent 的情況不能一律照搬。"
+      },
+      {
+        "id": "PP.09.21",
+        "title": "protect ... from／against",
+        "dialogueNote": "protect against disease 也常用；不同名詞有自己的配搭偏好。"
+      },
+      {
+        "id": "PP.09.22",
+        "title": "remind ... of／about",
+        "dialogueNote": "remind me to call Mum 則用 to + 動詞，意思是提醒我要做事。"
+      },
+      {
+        "id": "PP.09.23",
+        "title": "accuse ... of",
+        "dialogueNote": "accuse 不代表指控一定屬實；要分清說話者的立場。"
+      },
+      {
+        "id": "PP.09.24",
+        "title": "thank ... for",
+        "dialogueNote": "thank someone for helping 也很自然。"
+      },
+      {
+        "id": "PP.09.25",
+        "title": "provide ... with／for",
+        "dialogueNote": "不能寫 provide us books 當作各種英語中都通用的唯一寫法；部分用法有地域差異。"
+      },
+      {
+        "id": "PP.09.26",
+        "title": "result in／from",
+        "dialogueNote": "同一件事可以調轉重點，但介詞也要跟着改。"
+      },
+      {
+        "id": "PP.09.27",
+        "title": "consist of",
+        "dialogueNote": "consist of 在這個意思下通常不用進行式。"
+      },
+      {
+        "id": "PP.09.28",
+        "title": "participate in",
+        "dialogueNote": "take part in 意思接近 participate in，較常見於一般說話。"
+      },
+      {
+        "id": "PP.09.29",
+        "title": "think about／of",
+        "dialogueNote": "兩者有不少重疊用法；要看是思考過程，還是想到某件事。"
+      },
+      {
+        "id": "PP.09.30",
+        "title": "discuss／mention：不用多加 about",
+        "dialogueNote": "discussion about/of the plan 是名詞用法，不能把它直接套回 discuss。"
+      },
+      {
+        "id": "PP.10.01",
+        "title": "good at：擅長",
+        "dialogueNote": "good at swimming 也正確，at 後面可接 -ing。"
+      },
+      {
+        "id": "PP.10.02",
+        "title": "bad at 與 bad for",
+        "dialogueNote": "bad at 不等於一個人的整體能力不好，只說特定方面。"
+      },
+      {
+        "id": "PP.10.03",
+        "title": "interested in",
+        "dialogueNote": "interested in learning 也正確，後面用 -ing。"
+      },
+      {
+        "id": "PP.10.04",
+        "title": "afraid of",
+        "dialogueNote": "afraid to ask 也可以用，着重不敢做某事。"
+      },
+      {
+        "id": "PP.10.05",
+        "title": "worried about",
+        "dialogueNote": "worried for someone 也可表示擔心某人的安危，意思與 worried about 有重疊。"
+      },
+      {
+        "id": "PP.10.06",
+        "title": "proud of",
+        "dialogueNote": "proud of winning 也可以，後面用 -ing。"
+      },
+      {
+        "id": "PP.10.07",
+        "title": "kind to",
+        "dialogueNote": "kind of someone to do something 可用來稱讚某個行為，例如 It was kind of you to help。"
+      },
+      {
+        "id": "PP.10.08",
+        "title": "angry with／at／about",
+        "dialogueNote": "angry at someone/something 也常見，並非一律錯誤。"
+      },
+      {
+        "id": "PP.10.09",
+        "title": "happy about／with／for",
+        "dialogueNote": "happy for you 通常表示替你高興。"
+      },
+      {
+        "id": "PP.10.10",
+        "title": "surprised at／by",
+        "dialogueNote": "兩種介詞有重疊，不要把其中一種當普遍錯誤。"
+      },
+      {
+        "id": "PP.10.11",
+        "title": "responsible for",
+        "dialogueNote": "responsible to someone 可表示要向某人交代，不能跟 responsible for 混淆。"
+      },
+      {
+        "id": "PP.10.12",
+        "title": "famous for／as",
+        "dialogueNote": "兩個寫法都自然，但重點不同。"
+      },
+      {
+        "id": "PP.10.13",
+        "title": "full of",
+        "dialogueNote": "full with toys 在這個普通意思下不自然。"
+      },
+      {
+        "id": "PP.10.14",
+        "title": "different from／to／than",
+        "dialogueNote": "different to 在英式英語常見；different than 在美式英語及一些句型也可用。"
+      },
+      {
+        "id": "PP.10.15",
+        "title": "similar to",
+        "dialogueNote": "similar with 在這個常見的比較意思下通常不合適。"
+      },
+      {
+        "id": "PP.10.16",
+        "title": "married to",
+        "dialogueNote": "married with children 是另一個意思，表示已婚並有孩子。"
+      },
+      {
+        "id": "PP.10.17",
+        "title": "pleased with／about",
+        "dialogueNote": "pleased to meet you 是另一個常用句型。"
+      },
+      {
+        "id": "PP.10.18",
+        "title": "ready for／to",
+        "dialogueNote": "ready for leaving 可能出現於特別語境，但一般說 ready to leave 更自然。"
+      },
+      {
+        "id": "PP.10.19",
+        "title": "tired of／from",
+        "dialogueNote": "tired after work 也很自然；不要把 tired of 解釋成普通身體疲勞。"
+      },
+      {
+        "id": "PP.10.20",
+        "title": "used to doing／used to do",
+        "dialogueNote": "不要看到兩句都有 used to，就以為後面動詞形式一樣。"
+      },
+      {
+        "id": "PP.10.21",
+        "title": "capable of",
+        "dialogueNote": "capable to solve 在普通標準英語中不自然。"
+      },
+      {
+        "id": "PP.10.22",
+        "title": "aware of",
+        "dialogueNote": "aware that the door is open 也正確，that 後面接完整句子。"
+      },
+      {
+        "id": "PP.11.01",
+        "title": "reason for",
+        "dialogueNote": "the reason why ... 也常用；不一定每次都要加 for。"
+      },
+      {
+        "id": "PP.11.02",
+        "title": "cause of",
+        "dialogueNote": "動詞 cause 可以直接接結果，例如 The storm caused delays。"
+      },
+      {
+        "id": "PP.11.03",
+        "title": "effect on",
+        "dialogueNote": "impact on 也很常見；有些地區也把 impact 當動詞使用。"
+      },
+      {
+        "id": "PP.11.04",
+        "title": "solution to",
+        "dialogueNote": "solve the problem 這個動詞句型不用 to。"
+      },
+      {
+        "id": "PP.11.05",
+        "title": "answer to",
+        "dialogueNote": "「answer for」在某些意思下也存在，例如為事情負責，但意思不同。"
+      },
+      {
+        "id": "PP.11.06",
+        "title": "invitation to",
+        "dialogueNote": "invitation from May 則說邀請由誰發出。"
+      },
+      {
+        "id": "PP.11.07",
+        "title": "interest in",
+        "dialogueNote": "take an interest in 是常見整組用法。"
+      },
+      {
+        "id": "PP.11.08",
+        "title": "knowledge of",
+        "dialogueNote": "knowledge about 也可用，常較着重有關的資料。"
+      },
+      {
+        "id": "PP.11.09",
+        "title": "increase in／by／to",
+        "dialogueNote": "Prices increased to $110 說最後價格變成 $110；三個介詞不是同一意思。"
+      },
+      {
+        "id": "PP.11.10",
+        "title": "difference between／in",
+        "dialogueNote": "也可同時用：a difference in size between the bags。"
+      },
+      {
+        "id": "PP.11.11",
+        "title": "relationship with／between",
+        "dialogueNote": "relationship to 在親屬、工作及其他特別語境也正確。"
+      },
+      {
+        "id": "PP.11.12",
+        "title": "access to",
+        "dialogueNote": "access 也可當動詞，例如 access the website，不需要 to。"
+      },
+      {
+        "id": "PP.11.13",
+        "title": "need for",
+        "dialogueNote": "the need to act 可用 to + 動詞，說明要做的事。"
+      },
+      {
+        "id": "PP.11.14",
+        "title": "attitude towards",
+        "dialogueNote": "attitude toward 也正確，美式英語常見。"
+      },
+      {
+        "id": "PP.11.15",
+        "title": "photo of／by",
+        "dialogueNote": "photo with my sister 可表示照片裏有妹妹一起出現；要看語境。"
+      },
+      {
+        "id": "PP.11.16",
+        "title": "key to／door to",
+        "dialogueNote": "key for 可能見於特別用途，但一般說 key to the door。"
+      },
+      {
+        "id": "PP.12.01",
+        "title": "because of：因為某件事",
+        "dialogueNote": "because of 不能在這裏直接接 it rained。"
+      },
+      {
+        "id": "PP.12.02",
+        "title": "due to：由於",
+        "dialogueNote": "有些傳統風格指南對 due to 的位置較嚴格；現代英語使用較廣。"
+      },
+      {
+        "id": "PP.12.03",
+        "title": "owing to：由於",
+        "dialogueNote": "owing to 後面常接名詞或 -ing，不能直接用完整句子替代。"
+      },
+      {
+        "id": "PP.12.04",
+        "title": "thanks to：因為有某種幫助",
+        "dialogueNote": "thanks to 有時也可帶諷刺語氣，說某事造成壞結果。"
+      },
+      {
+        "id": "PP.12.05",
+        "title": "in front of：在前面",
+        "dialogueNote": "不要把 in front of 和 in the front of 混淆。"
+      },
+      {
+        "id": "PP.12.06",
+        "title": "in addition to：另外加上",
+        "dialogueNote": "in addition to 後面可以接 -ing。"
+      },
+      {
+        "id": "PP.12.07",
+        "title": "apart from：除……以外",
+        "dialogueNote": "apart from 的意思要靠後面的句子確認，不能只猜是包括或排除。"
+      },
+      {
+        "id": "PP.12.08",
+        "title": "as a result of：由於某個結果的原因",
+        "dialogueNote": "這兩組字很相似，但一組後面接原因，一組接結果句。"
+      },
+      {
+        "id": "PP.12.09",
+        "title": "in case of：如果發生",
+        "dialogueNote": "in case of 常用於公告，不代表火警真的發生了。"
+      },
+      {
+        "id": "PP.12.10",
+        "title": "according to：按照規則",
+        "dialogueNote": "according to me 不適合作一般的「我認為」。"
+      },
+      {
+        "id": "PP.12.11",
+        "title": "on behalf of：代表",
+        "dialogueNote": "on behalf of 常用於致辭、電郵和正式場合。"
+      },
+      {
+        "id": "PP.12.12",
+        "title": "with regard to：關於",
+        "dialogueNote": "with regards to 也見於用法中，但正式寫作常選 with regard to。"
+      },
+      {
+        "id": "PP.12.13",
+        "title": "in terms of：就某個方面而言",
+        "dialogueNote": "in terms of 後面不要只接一個空泛字，應說清楚比較方面。"
+      },
+      {
+        "id": "PP.12.14",
+        "title": "instead of：代替",
+        "dialogueNote": "instead 也可以單獨放句尾，例如 We took the train instead。"
+      },
+      {
+        "id": "PP.12.15",
+        "title": "in place of：代替某人或某物",
+        "dialogueNote": "in place of 在書面語較常見；instead of 在日常用語更常用。"
+      },
+      {
+        "id": "PP.12.16",
+        "title": "in accordance with：按照",
+        "dialogueNote": "這組寫法較正式，日常可說 according to the plan。"
+      },
+      {
+        "id": "PP.12.17",
+        "title": "by means of：透過某種方法",
+        "dialogueNote": "by means of 在正式或技術文字較常見；日常可用 by 或 with。"
+      },
+      {
+        "id": "PP.12.18",
+        "title": "with the help of：在某人幫助下",
+        "dialogueNote": "這是一組常見的說法，不要把它逐字改成其他介詞。"
+      },
+      {
+        "id": "PP.12.19",
+        "title": "prior to／subsequent to",
+        "dialogueNote": "這兩組常見於正式文字；日常說 before 和 after 更簡單。"
+      },
+      {
+        "id": "PP.12.20",
+        "title": "along with：連同",
+        "dialogueNote": "當 along with 接在單數主語後，通常不把主語變成複數。"
+      },
+      {
+        "id": "PP.12.21",
+        "title": "up to：最多、直到或由誰決定",
+        "dialogueNote": "It's up to you 是另一個意思，表示由你決定。"
+      },
+      {
+        "id": "PP.12.22",
+        "title": "out of：沒有、用完",
+        "dialogueNote": "out of 可以有很多固定意思，例如 out of interest 表示出於好奇。"
+      },
+      {
+        "id": "PP.13.01",
+        "title": "介詞短語可放句尾",
+        "dialogueNote": "有些動詞一定需要某個介詞短語，位置不一定可以隨意改。"
+      },
+      {
+        "id": "PP.13.02",
+        "title": "介詞短語可放句首",
+        "dialogueNote": "長的句首短語後常用逗號；短的短語有時不用。"
+      },
+      {
+        "id": "PP.13.03",
+        "title": "介詞短語可以描述前面的名詞",
+        "dialogueNote": "要小心短語接錯名詞，令讀者不知道是在描述誰。"
+      },
+      {
+        "id": "PP.13.04",
+        "title": "介詞短語可以放在 be 後面",
+        "dialogueNote": "be 後面的介詞短語也可說某種情況，例如 in trouble。"
+      },
+      {
+        "id": "PP.13.05",
+        "title": "介詞短語可補足動詞意思",
+        "dialogueNote": "不能只因介詞短語常補充資料，就把 belongs to May 中的 to May 刪掉。"
+      },
+      {
+        "id": "PP.13.06",
+        "title": "介詞短語可補足形容詞意思",
+        "dialogueNote": "兩句接法都正確，但內容不同。"
+      },
+      {
+        "id": "PP.13.07",
+        "title": "介詞後面接代字的寫法",
+        "dialogueNote": "you 和 it 的字形不會因位置而改變。"
+      },
+      {
+        "id": "PP.13.08",
+        "title": "between you and me",
+        "dialogueNote": "這裏也用來說事情只在兩人之間，不一定是位置。"
+      },
+      {
+        "id": "PP.13.09",
+        "title": "介詞後面接 -ing 活動",
+        "dialogueNote": "有些介詞也可接完整句子；要看該字的接法。"
+      },
+      {
+        "id": "PP.13.10",
+        "title": "介詞後面接 what 等字",
+        "dialogueNote": "一般不說 about to do next 來表達同一意思；about to leave 則是另一種固定結構。"
+      },
+      {
+        "id": "PP.13.11",
+        "title": "介詞後面還可接另一組短語",
+        "dialogueNote": "這種寫法很常見，但不是所有介詞都可以任意相接。"
+      },
+      {
+        "id": "PP.13.12",
+        "title": "介詞後面可接 here／there",
+        "dialogueNote": "here 和 there 前面不需要 the；但 go here 本身也不用 to。"
+      },
+      {
+        "id": "PP.13.13",
+        "title": "just 等字可放在介詞前",
+        "dialogueNote": "不同介詞可以用的加強字不同，不能隨意替換。"
+      },
+      {
+        "id": "PP.13.14",
+        "title": "問句可把疑問字放在前面",
+        "dialogueNote": "這種句尾介詞在日常及標準英語中都可以正確使用。"
+      },
+      {
+        "id": "PP.13.15",
+        "title": "正式問句可把介詞一起移前",
+        "dialogueNote": "介詞放在前面時，通常用 whom 而不用 who。"
+      },
+      {
+        "id": "PP.13.16",
+        "title": "關係句也可把介詞留在後面",
+        "dialogueNote": "這個關係句的 which 或 that 有時可以省去；on 仍要保留。"
+      },
+      {
+        "id": "PP.13.17",
+        "title": "被動句有時也保留句尾介詞",
+        "dialogueNote": "不是所有介詞短語都可以這樣轉成被動句，要看動詞和意思。"
+      },
+      {
+        "id": "PP.13.18",
+        "title": "介詞短語可以加入問句中",
+        "dialogueNote": "問句要留意助動詞及主語的正常問句次序。"
+      },
+      {
+        "id": "PP.13.19",
+        "title": "介詞短語可連接兩個相同用途的資料",
+        "dialogueNote": "兩組短語的意思最好互相配合，避免位置矛盾。"
+      },
+      {
+        "id": "PP.13.20",
+        "title": "不要隨便重複已搬到前面的對象",
+        "dialogueNote": "在口語中有些重複代字句式，但不能直接當作正式關係句的常規。"
+      },
+      {
+        "id": "PP.14.01",
+        "title": "介詞短語也可以作一句話的主題",
+        "dialogueNote": "這種主語用法受意思限制；不是任何介詞短語都能任意這樣用。"
+      },
+      {
+        "id": "PP.14.02",
+        "title": "句首地點有時令動詞放在主語前",
+        "dialogueNote": "這種次序常見於描寫或文學文字；不是每個動詞都合適。"
+      },
+      {
+        "id": "PP.14.03",
+        "title": "句首地點也可以用普通字序",
+        "dialogueNote": "要看動詞和你想介紹的是人物、動作還是場景。"
+      },
+      {
+        "id": "PP.14.04",
+        "title": "there is／are 加地點",
+        "dialogueNote": "there is／are 的單複數要看後面的事物；口語有較多變化。"
+      },
+      {
+        "id": "PP.14.05",
+        "title": "介詞短語可以放在強調句中",
+        "dialogueNote": "強調句的 that 後面需要完整、合適的句子。"
+      },
+      {
+        "id": "PP.14.06",
+        "title": "同一句有兩個介詞短語",
+        "dialogueNote": "有些長句的次序會影響讀者以為哪一組字修飾哪一部分。"
+      },
+      {
+        "id": "PP.14.07",
+        "title": "介詞短語可能有兩個解讀",
+        "dialogueNote": "要避免在只有一個答案的練習中使用沒有說明的兩種讀法。"
+      },
+      {
+        "id": "PP.14.08",
+        "title": "only 會影響強調的部分",
+        "dialogueNote": "書面語如果怕意思不清楚，可以把 only 放近想限制的部分。"
+      },
+      {
+        "id": "PP.14.09",
+        "title": "even 可以表示出乎意料",
+        "dialogueNote": "even 的意思也受說話重音和前後文影響。"
+      },
+      {
+        "id": "PP.14.10",
+        "title": "否定字與介詞短語",
+        "dialogueNote": "要靠重音、上下文或補充句子，確定 not 否定哪一部分。"
+      },
+      {
+        "id": "PP.14.11",
+        "title": "not until 放句首的較難句型",
+        "dialogueNote": "這是較正式的強調寫法；不要把普通句子也改成 did we get。"
+      },
+      {
+        "id": "PP.14.12",
+        "title": "介詞短語和 if 句",
+        "dialogueNote": "不是所有介詞短語都能代替 if 句；要確定條件意思相同。"
+      },
+      {
+        "id": "PP.14.13",
+        "title": "without 與否定條件",
+        "dialogueNote": "without 加 -ing 時，要留意是誰沒有做那件事。"
+      },
+      {
+        "id": "PP.14.14",
+        "title": "of + 一部分",
+        "dialogueNote": "some of pupils 不能當作普通寫法；通常需要 the、my、these 等字說明那一群。"
+      },
+      {
+        "id": "PP.14.15",
+        "title": "each of 與 every one of",
+        "dialogueNote": "every one of the children 也可以；不要把 everyone of 寫成一個字。"
+      },
+      {
+        "id": "PP.14.16",
+        "title": "one in three：比例",
+        "dialogueNote": "這是比例說法，不代表一定要剛好有三位學生。"
+      },
+      {
+        "id": "PP.14.17",
+        "title": "with + 名詞的額外資料",
+        "dialogueNote": "with 有時表示人擁有某物，有時表示身邊帶着，要看語境。"
+      },
+      {
+        "id": "PP.14.18",
+        "title": "without + -ing 的行動者",
+        "dialogueNote": "若活動由另一個人做，句子需要寫清楚，避免誤會。"
+      },
+      {
+        "id": "PP.14.19",
+        "title": "before／after + 完整句子",
+        "dialogueNote": "傳統文法常把這種 after 稱為連接詞；現代文法有不同分析，兩種句型都自然。"
+      },
+      {
+        "id": "PP.14.20",
+        "title": "because／since + 完整句子",
+        "dialogueNote": "since 也可能表示「自從」；要分清時間意思和原因意思。"
+      },
+      {
+        "id": "PP.14.21",
+        "title": "except + 不同形式",
+        "dialogueNote": "except to 後面的接法有條件，不能推論每個介詞都能接 to + 動詞。"
+      },
+      {
+        "id": "PP.14.22",
+        "title": "介詞後的完整問句內容",
+        "dialogueNote": "普通寫法一般用 whether；on if the bus arrives 在這種介詞後的用法通常不合適。"
+      },
+      {
+        "id": "PP.14.23",
+        "title": "介詞和副詞有時長得一樣",
+        "dialogueNote": "傳統文法和現代文法可能用不同詞類名稱；兩個句子都正確。"
+      },
+      {
+        "id": "PP.14.24",
+        "title": "up 和 up to 的接法不同",
+        "dialogueNote": "這裏的 up to 與最多 up to ten people 是不同意思。"
+      },
+      {
+        "id": "PP.14.25",
+        "title": "句尾介詞可留在短答中",
+        "dialogueNote": "短答要靠前面的對話才能理解，不適合沒有上下文的獨立例句。"
+      },
+      {
+        "id": "PP.14.26",
+        "title": "off of 的地域差別",
+        "dialogueNote": "不能把 off of 說成所有英語中都絕對不合文法。"
+      },
+      {
+        "id": "PP.14.27",
+        "title": "upon 和 on",
+        "dialogueNote": "upon 在日常位置說法中較少用；不能把所有 on 都換成 upon。"
+      },
+      {
+        "id": "PP.14.28",
+        "title": "ago 和 before 的時間方向",
+        "dialogueNote": "ago 在傳統分類中通常不算一般介詞；這裏比較，是為免混淆時間關係。"
+      },
+      {
+        "id": "PP.14.29",
+        "title": "不同文法書的分類不完全相同",
+        "dialogueNote": "學習時先掌握正確意思和接法，再認識不同文法分析。"
+      },
+      {
+        "id": "PP.15.01",
+        "title": "for + 交換的價錢",
+        "dialogueNote": "buy something from someone 可以另外說明從誰手上買。"
+      },
+      {
+        "id": "PP.15.02",
+        "title": "for 與 in 的否定時間用法",
+        "dialogueNote": "在肯定句中，for 和 in 的時間意思不一定相同。"
+      },
+      {
+        "id": "PP.15.03",
+        "title": "by hand 與 with your hands",
+        "dialogueNote": "by hand 不一定表示完全沒有使用工具。"
+      },
+      {
+        "id": "PP.15.04",
+        "title": "over：超過數目",
+        "dialogueNote": "說溫度高於零度常用 above zero；位置與數值用法要分開。"
+      },
+      {
+        "id": "PP.15.05",
+        "title": "under／below：少於或低於",
+        "dialogueNote": "under twelve 不包括剛好十二歲；要看實際公告的用詞。"
+      },
+      {
+        "id": "PP.15.06",
+        "title": "about／around：大約",
+        "dialogueNote": "around thirty 也自然；這種用法跟位置的 around 不同。"
+      },
+      {
+        "id": "PP.15.07",
+        "title": "of mine：屬於我的其中一樣",
+        "dialogueNote": "a friend of me 在這個普通意思下不自然。"
+      },
+      {
+        "id": "PP.15.08",
+        "title": "for someone to do：讓某人去做",
+        "dialogueNote": "這個 for + 人 + to 句型有特定位置，不能套用到所有 for 後面。"
+      },
+      {
+        "id": "PP.15.09",
+        "title": "too ... for someone：對某人來說太……",
+        "dialogueNote": "也可以說 too heavy for me to carry，說明太重而拿不起。"
+      },
+      {
+        "id": "PP.15.10",
+        "title": "with + 名詞 + -ing：同時發生",
+        "dialogueNote": "這種較長的接法宜在掌握基本 with 用法後再學。"
+      },
+      {
+        "id": "PP.15.11",
+        "title": "regarding／concerning：關於",
+        "dialogueNote": "regarding 和 concerning 在電郵、公文較常見；日常不用刻意選較難寫法。"
+      },
+      {
+        "id": "PP.15.12",
+        "title": "following：在某事之後",
+        "dialogueNote": "following 也可作動詞或其他用法，要看句子位置。"
+      },
+      {
+        "id": "PP.15.13",
+        "title": "given：考慮到",
+        "dialogueNote": "given 在這種用法較常見於正式文字；不是 give 的普通過去式意思。"
+      },
+      {
+        "id": "PP.15.14",
+        "title": "notwithstanding：儘管",
+        "dialogueNote": "notwithstanding 也可以出現在名詞後面；這是較少見的正式用法。"
+      },
+      {
+        "id": "PP.15.15",
+        "title": "versus／vs：兩方相對",
+        "dialogueNote": "versus 常縮寫成 vs；不要把它當成所有句子都能使用的 against。 這冊包含進階比較、參考表格、沒有答案的練習，以及最後的學習檢查。"
+      }
+    ]
+  },
+  "practice": {
+    "questionCount": 86,
+    "sevenStepExplanationCount": 602,
+    "questions": [
+      {
+        "diagnosticId": "P001",
+        "topic": "PP.02.01",
+        "answer": "in",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P002",
+        "topic": "PP.02.02",
+        "answer": "on",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P003",
+        "topic": "PP.02.03",
+        "answer": "at the ticket office entrance",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P004",
+        "topic": "PP.05.05",
+        "answer": "on",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P005",
+        "topic": "PP.05.03",
+        "answer": "in",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P006",
+        "topic": "PP.05.01",
+        "answer": "at",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P007",
+        "topic": "PP.05.10",
+        "answer": "next Saturday",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P008",
+        "topic": "PP.02.05",
+        "answer": "in",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P009",
+        "topic": "PP.02.05",
+        "answer": "on",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P010",
+        "topic": "PP.03.12",
+        "answer": "over",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P011",
+        "topic": "PP.03.04",
+        "answer": "into",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P012",
+        "topic": "PP.02.01",
+        "answer": "in",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P013",
+        "topic": "PP.03.11",
+        "answer": "through",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P014",
+        "topic": "PP.03.09",
+        "answer": "along",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P015",
+        "topic": "PP.02.15",
+        "answer": "next to",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P016",
+        "topic": "PP.04.07",
+        "answer": "among",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P017",
+        "topic": "PP.04.11",
+        "answer": "beyond the bridge",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P018",
+        "topic": "PP.06.01",
+        "answer": "for",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P019",
+        "topic": "PP.06.02",
+        "answer": "since",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P020",
+        "topic": "PP.06.03",
+        "answer": "during the school trip yesterday",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P021",
+        "topic": "PP.06.05",
+        "answer": "by",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P022",
+        "topic": "PP.06.06",
+        "answer": "until",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P023",
+        "topic": "PP.07.07",
+        "answer": "for",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P024",
+        "topic": "PP.05.01",
+        "answer": "at",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P025",
+        "topic": "PP.05.06",
+        "answer": "in",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P026",
+        "topic": "PP.05.02",
+        "answer": "on",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P027",
+        "topic": "PP.05.12",
+        "answer": "on time",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P028",
+        "topic": "PP.05.13",
+        "answer": "in time",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P029",
+        "topic": "PP.07.01",
+        "answer": "by",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P030",
+        "topic": "PP.07.03",
+        "answer": "with",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P031",
+        "topic": "PP.07.04",
+        "answer": "by",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P032",
+        "topic": "PP.12.09",
+        "answer": "in case of",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P033",
+        "topic": "PP.10.03",
+        "answer": "in",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P034",
+        "topic": "PP.10.04",
+        "answer": "of",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P035",
+        "topic": "PP.10.11",
+        "answer": "for",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P036",
+        "topic": "PP.10.15",
+        "answer": "to",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P037",
+        "topic": "PP.10.06",
+        "answer": "of",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P038",
+        "topic": "PP.10.19",
+        "answer": "from",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P039",
+        "topic": "PP.09.01",
+        "answer": "to",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P040",
+        "topic": "PP.09.16",
+        "answer": "for them",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P041",
+        "topic": "PP.09.30",
+        "answer": "We discussed the rule",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P042",
+        "topic": "PP.09.10",
+        "answer": "to",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P043",
+        "topic": "PP.09.14",
+        "answer": "from",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P044",
+        "topic": "PP.09.14",
+        "answer": "to",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P045",
+        "topic": "PP.09.04",
+        "answer": "on the weather",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P046",
+        "topic": "PP.09.26",
+        "answer": "in",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P047",
+        "topic": "PP.09.26",
+        "answer": "from",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P048",
+        "topic": "PP.11.04",
+        "answer": "to the problem",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P049",
+        "topic": "PP.11.09",
+        "answer": "by",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P050",
+        "topic": "PP.12.01",
+        "answer": "because of",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P051",
+        "topic": "PP.08.11",
+        "answer": "despite",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P052",
+        "topic": "PP.12.06",
+        "answer": "in addition to rice",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P053",
+        "topic": "PP.08.02",
+        "answer": "as",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P054",
+        "topic": "PP.07.12",
+        "answer": "of wood",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P055",
+        "topic": "PP.12.10",
+        "answer": "According to the notice",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P056",
+        "topic": "PP.12.11",
+        "answer": "on behalf of",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P057",
+        "topic": "PP.07.10",
+        "answer": "for",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P058",
+        "topic": "PP.02.04",
+        "answer": "in",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P059",
+        "topic": "PP.05.02",
+        "answer": "on",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P060",
+        "topic": "PP.14.16",
+        "answer": "one in four",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P061",
+        "topic": "PP.09.30",
+        "answer": "We discussed the plan after school.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P062",
+        "topic": "PP.09.01",
+        "answer": "Please listen to the instructions carefully.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P063",
+        "topic": "PP.03.16",
+        "answer": "They arrived at the airport at seven.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P064",
+        "topic": "PP.10.03",
+        "answer": "I am interested in learning French.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P065",
+        "topic": "PP.13.14",
+        "answer": "Who are you waiting for?",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P066",
+        "topic": "PP.13.15",
+        "answer": "To whom did you send the letter?",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P067",
+        "topic": "PP.13.16",
+        "answer": "This is the chair that I sat on.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P068",
+        "topic": "PP.13.17",
+        "answer": "This bed has been slept in.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P069",
+        "topic": "PP.14.11",
+        "answer": "Not until Friday did we get the results",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P070",
+        "topic": "PP.14.05",
+        "answer": "It was in the library that we met.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P071",
+        "topic": "PP.14.07",
+        "answer": "The speaker used binoculars to see the boy; or the boy had binoculars.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P072",
+        "topic": "PP.04.06",
+        "answer": "Yes. Between can connect three or more separately identified parties.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P073",
+        "topic": "PP.06.10",
+        "answer": "The report will be ready within two days",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P074",
+        "topic": "PP.09.04",
+        "answer": "It depends on whether the train is late",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P075",
+        "topic": "PP.15.08",
+        "answer": "It's time for us to leave",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P076",
+        "topic": "PP.14.19",
+        "answer": "Wait until after the bell",
+        "correctOption": "A"
+      },
+      {
+        "diagnosticId": "P077",
+        "topic": "PP.15.09",
+        "answer": "The bag is too heavy for her to lift",
+        "correctOption": "C"
+      },
+      {
+        "diagnosticId": "P078",
+        "topic": "PP.14.19",
+        "answer": "Wash your hands before you eat",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P079",
+        "topic": "PP.08.11",
+        "answer": "We played outside despite the cold weather.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P080",
+        "topic": "PP.13.08",
+        "answer": "This is between you and me.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P081",
+        "topic": "PP.14.10",
+        "answer": "No. It only denies seeing him at school, not seeing him elsewhere.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P082",
+        "topic": "PP.15.10",
+        "answer": "With Dad cooking, I was setting the table.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P083",
+        "topic": "PP.14.26",
+        "answer": "No. Off of occurs in informal American English; off is preferred in formal British English.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P084",
+        "topic": "PP.15.12",
+        "answer": "After the meeting, we went home.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "P085",
+        "topic": "PP.15.07",
+        "answer": "A friend of mine lives nearby",
+        "correctOption": "B"
+      },
+      {
+        "diagnosticId": "P086",
+        "topic": "PP.07.04",
+        "answer": "This picture was painted by the children.",
+        "correctOption": null
+      }
+    ]
+  }
+}
