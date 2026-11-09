@@ -1,5 +1,10 @@
 {
   "source": "course-materials/grammar/source/relative-clauses-student-reading-guide-224.md",
+  "practiceExtensionSource": "course-materials/grammar/source/relative-clauses-practice-400.json",
+  "practiceExtension": {
+    "questionCount": 400,
+    "explanationStepCount": 2800
+  },
   "guide": {
     "ruleCount": 224,
     "rules": [
@@ -1126,499 +1131,3381 @@
     ]
   },
   "practice": {
-    "questionCount": 82,
+    "questionCount": 482,
     "questions": [
       {
         "diagnosticId": "D001",
+        "sourceQuestion": null,
         "topic": "RC.05.03",
         "answer": "who",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D002",
+        "sourceQuestion": null,
         "topic": "RC.03.01",
         "answer": "which",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D003",
+        "sourceQuestion": null,
         "topic": "RC.07.01",
         "answer": "whose",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D004",
+        "sourceQuestion": null,
         "topic": "RC.08.01",
         "answer": "where",
         "correctOption": "D"
       },
       {
         "diagnosticId": "D005",
+        "sourceQuestion": null,
         "topic": "RC.08.04",
         "answer": "when",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D006",
+        "sourceQuestion": null,
         "topic": "RC.08.07",
         "answer": "why",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D007",
+        "sourceQuestion": null,
         "topic": "RC.02.08",
         "answer": "whom",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D008",
+        "sourceQuestion": null,
         "topic": "RC.05.04",
         "answer": "which",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D009",
+        "sourceQuestion": null,
         "topic": "RC.02.01",
         "answer": "who",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D010",
+        "sourceQuestion": null,
         "topic": "RC.03.13",
         "answer": "which",
         "correctOption": "D"
       },
       {
         "diagnosticId": "D011",
+        "sourceQuestion": null,
         "topic": "RC.09.06",
         "answer": "being repaired",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D012",
+        "sourceQuestion": null,
         "topic": "RC.06.11",
         "answer": "which",
         "correctOption": "D"
       },
       {
         "diagnosticId": "D013",
+        "sourceQuestion": null,
         "topic": "RC.12.01",
         "answer": "which",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D014",
+        "sourceQuestion": null,
         "topic": "RC.03.09",
         "answer": "who",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D015",
+        "sourceQuestion": null,
         "topic": "RC.02.09",
         "answer": "which",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D016",
+        "sourceQuestion": null,
         "topic": "RC.02.09",
         "answer": "which",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D017",
+        "sourceQuestion": null,
         "topic": "RC.07.01",
         "answer": "whose",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D018",
+        "sourceQuestion": null,
         "topic": "RC.10.02",
         "answer": "to cross",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D019",
+        "sourceQuestion": null,
         "topic": "RC.11.05",
         "answer": "that",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D020",
+        "sourceQuestion": null,
         "topic": "RC.11.01",
         "answer": "what",
         "correctOption": "D"
       },
       {
         "diagnosticId": "D021",
+        "sourceQuestion": null,
         "topic": "RC.11.07",
         "answer": "whoever",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D022",
+        "sourceQuestion": null,
         "topic": "RC.05.05",
         "answer": "who",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D023",
+        "sourceQuestion": null,
         "topic": "RC.08.01",
         "answer": "where",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D024",
+        "sourceQuestion": null,
         "topic": "RC.07.05",
         "answer": "whose",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D025",
+        "sourceQuestion": null,
         "topic": "RC.08.03",
         "answer": "which",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D026",
+        "sourceQuestion": null,
         "topic": "RC.14.01",
         "answer": "who",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D027",
+        "sourceQuestion": null,
         "topic": "RC.07.07",
         "answer": "whose",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D028",
+        "sourceQuestion": null,
         "topic": "RC.02.02",
         "answer": "whom",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D029",
+        "sourceQuestion": null,
         "topic": "RC.07.05",
         "answer": "whose",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D030",
+        "sourceQuestion": null,
         "topic": "RC.06.12",
         "answer": "whom",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D031",
+        "sourceQuestion": null,
         "topic": "RC.10.05",
         "answer": "on",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D032",
+        "sourceQuestion": null,
         "topic": "RC.07.07",
         "answer": "whose",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D033",
+        "sourceQuestion": null,
         "topic": "RC.07.01",
         "answer": "whose",
         "correctOption": null
       },
       {
         "diagnosticId": "D034",
+        "sourceQuestion": null,
         "topic": "RC.02.01",
         "answer": "who",
         "correctOption": null
       },
       {
         "diagnosticId": "D035",
+        "sourceQuestion": null,
         "topic": "RC.08.01",
         "answer": "where",
         "correctOption": null
       },
       {
         "diagnosticId": "D036",
+        "sourceQuestion": null,
         "topic": "RC.08.04",
         "answer": "when",
         "correctOption": null
       },
       {
         "diagnosticId": "D037",
+        "sourceQuestion": null,
         "topic": "RC.08.07",
         "answer": "why",
         "correctOption": null
       },
       {
         "diagnosticId": "D038",
+        "sourceQuestion": null,
         "topic": "RC.02.08",
         "answer": "whom",
         "correctOption": null
       },
       {
         "diagnosticId": "D039",
+        "sourceQuestion": null,
         "topic": "RC.05.03",
         "answer": "which",
         "correctOption": null
       },
       {
         "diagnosticId": "D040",
+        "sourceQuestion": null,
         "topic": "RC.03.13",
         "answer": "that",
         "correctOption": null
       },
       {
         "diagnosticId": "D041",
+        "sourceQuestion": null,
         "topic": "RC.11.01",
         "answer": "what",
         "correctOption": null
       },
       {
         "diagnosticId": "D042",
+        "sourceQuestion": null,
         "topic": "RC.11.07",
         "answer": "Whoever",
         "correctOption": null
       },
       {
         "diagnosticId": "D043",
+        "sourceQuestion": null,
         "topic": "RC.11.10",
         "answer": "whichever",
         "correctOption": null
       },
       {
         "diagnosticId": "D044",
+        "sourceQuestion": null,
         "topic": "RC.09.06",
         "answer": "being repaired",
         "correctOption": null
       },
       {
         "diagnosticId": "D045",
+        "sourceQuestion": null,
         "topic": "RC.10.07",
         "answer": "to be signed",
         "correctOption": null
       },
       {
         "diagnosticId": "D046",
+        "sourceQuestion": null,
         "topic": "RC.02.09",
         "answer": "on which",
         "correctOption": null
       },
       {
         "diagnosticId": "D047",
+        "sourceQuestion": null,
         "topic": "RC.03.03",
         "answer": "The boy who lives next door is friendly.",
         "correctOption": null
       },
       {
         "diagnosticId": "D048",
+        "sourceQuestion": null,
         "topic": "RC.03.04",
         "answer": "The bag that I lost is black.",
         "correctOption": null
       },
       {
         "diagnosticId": "D049",
+        "sourceQuestion": null,
         "topic": "RC.05.03",
         "answer": "Nora, who lives nearby, is kind.",
         "correctOption": null
       },
       {
         "diagnosticId": "D050",
+        "sourceQuestion": null,
         "topic": "RC.07.06",
         "answer": "The child whose father called is here.",
         "correctOption": null
       },
       {
         "diagnosticId": "D051",
+        "sourceQuestion": null,
         "topic": "RC.02.10",
         "answer": "The seat on which I sat is broken.",
         "correctOption": null
       },
       {
         "diagnosticId": "D052",
+        "sourceQuestion": null,
         "topic": "RC.16.02",
         "answer": "The food that I ordered has arrived.",
         "correctOption": null
       },
       {
         "diagnosticId": "D053",
+        "sourceQuestion": null,
         "topic": "RC.03.03",
         "answer": "The lady who called me is waiting.",
         "correctOption": null
       },
       {
         "diagnosticId": "D054",
+        "sourceQuestion": null,
         "topic": "RC.08.03",
         "answer": "The house which I visited was old.",
         "correctOption": null
       },
       {
         "diagnosticId": "D055",
+        "sourceQuestion": null,
         "topic": "RC.03.04",
         "answer": "The bike, which I bought yesterday, is blue.",
         "correctOption": null
       },
       {
         "diagnosticId": "D056",
+        "sourceQuestion": null,
         "topic": "RC.10.01",
         "answer": "The first student to arrive won a prize.",
         "correctOption": null
       },
       {
         "diagnosticId": "D057",
+        "sourceQuestion": null,
         "topic": "RC.09.07",
         "answer": "The students who work here are friendly.",
         "correctOption": null
       },
       {
         "diagnosticId": "D058",
+        "sourceQuestion": null,
         "topic": "RC.03.22",
         "answer": "The shop that I went to is closed.",
         "correctOption": null
       },
       {
         "diagnosticId": "D059",
+        "sourceQuestion": null,
         "topic": "RC.08.04",
         "answer": "I remember the morning when we met.",
         "correctOption": null
       },
       {
         "diagnosticId": "D060",
+        "sourceQuestion": null,
         "topic": "RC.05.03",
         "answer": "Maya, who helped us, is here.",
         "correctOption": null
       },
       {
         "diagnosticId": "D061",
+        "sourceQuestion": null,
         "topic": "RC.01.03",
         "answer": "A nurse who lives next door helped us.",
         "correctOption": null
       },
       {
         "diagnosticId": "D062",
+        "sourceQuestion": null,
         "topic": "RC.05.02",
         "answer": "I bought a laptop, which is very light.",
         "correctOption": null
       },
       {
         "diagnosticId": "D063",
+        "sourceQuestion": null,
         "topic": "RC.07.02",
         "answer": "I met a student whose father is a doctor.",
         "correctOption": null
       },
       {
         "diagnosticId": "D064",
+        "sourceQuestion": null,
         "topic": "RC.08.01",
         "answer": "This is the café where we met.",
         "correctOption": null
       },
       {
         "diagnosticId": "D065",
+        "sourceQuestion": null,
         "topic": "RC.08.04",
         "answer": "I remember the day when we first met.",
         "correctOption": null
       },
       {
         "diagnosticId": "D066",
+        "sourceQuestion": null,
         "topic": "RC.08.07",
         "answer": "I know the reason why he left.",
         "correctOption": null
       },
       {
         "diagnosticId": "D067",
+        "sourceQuestion": null,
         "topic": "RC.03.13",
         "answer": "The bag I bought is new.",
         "correctOption": null
       },
       {
         "diagnosticId": "D068",
+        "sourceQuestion": null,
         "topic": "RC.09.02",
         "answer": "The woman waiting outside is my aunt.",
         "correctOption": null
       },
       {
         "diagnosticId": "D069",
+        "sourceQuestion": null,
         "topic": "RC.09.04",
         "answer": "The letter written by Ben is here.",
         "correctOption": null
       },
       {
         "diagnosticId": "D070",
+        "sourceQuestion": null,
         "topic": "RC.10.02",
         "answer": "She was the first person to arrive.",
         "correctOption": null
       },
       {
         "diagnosticId": "D071",
+        "sourceQuestion": null,
         "topic": "RC.11.01",
         "answer": "I kept what you gave me.",
         "correctOption": null
       },
       {
         "diagnosticId": "D072",
+        "sourceQuestion": null,
         "topic": "RC.06.02",
         "answer": "The room in which we met was quiet.",
         "correctOption": null
       },
       {
         "diagnosticId": "D073",
+        "sourceQuestion": null,
         "topic": "RC.04.01",
         "answer": "A brother who works in a bank",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D074",
+        "sourceQuestion": null,
         "topic": "RC.05.08",
         "answer": "Both mentioned sisters live abroad",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D075",
+        "sourceQuestion": null,
         "topic": "RC.12.01",
         "answer": "Lena's forgetting the ticket",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D076",
+        "sourceQuestion": null,
         "topic": "RC.04.01",
         "answer": "Identifies the dog",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D077",
+        "sourceQuestion": null,
         "topic": "RC.11.01",
         "answer": "I kept the words that she wrote",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D078",
+        "sourceQuestion": null,
         "topic": "RC.11.04",
         "answer": "They wonder what dish she made",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D079",
+        "sourceQuestion": null,
         "topic": "RC.09.02",
         "answer": "The man",
         "correctOption": "A"
       },
       {
         "diagnosticId": "D080",
+        "sourceQuestion": null,
         "topic": "RC.09.04",
         "answer": "Yesterday",
         "correctOption": "C"
       },
       {
         "diagnosticId": "D081",
+        "sourceQuestion": null,
         "topic": "RC.10.03",
         "answer": "A driver",
         "correctOption": "B"
       },
       {
         "diagnosticId": "D082",
+        "sourceQuestion": null,
         "topic": "RC.12.05",
         "answer": "Sam",
         "correctOption": "B"
+      },
+      {
+        "diagnosticId": "RCP001",
+        "sourceQuestion": 1,
+        "topic": "RC.01.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP002",
+        "sourceQuestion": 2,
+        "topic": "RC.01.02",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP003",
+        "sourceQuestion": 3,
+        "topic": "RC.01.03",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP004",
+        "sourceQuestion": 4,
+        "topic": "RC.01.04",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP005",
+        "sourceQuestion": 5,
+        "topic": "RC.01.05",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP006",
+        "sourceQuestion": 6,
+        "topic": "RC.01.06",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP007",
+        "sourceQuestion": 7,
+        "topic": "RC.01.07",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP008",
+        "sourceQuestion": 8,
+        "topic": "RC.01.08",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP009",
+        "sourceQuestion": 9,
+        "topic": "RC.01.09",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP010",
+        "sourceQuestion": 10,
+        "topic": "RC.01.10",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP011",
+        "sourceQuestion": 11,
+        "topic": "RC.01.11",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP012",
+        "sourceQuestion": 12,
+        "topic": "RC.01.12",
+        "answer": "where",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP013",
+        "sourceQuestion": 13,
+        "topic": "RC.01.01",
+        "answer": "A woman who teaches Cantonese is speaking.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP014",
+        "sourceQuestion": 14,
+        "topic": "RC.01.02",
+        "answer": "parcel",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP015",
+        "sourceQuestion": 15,
+        "topic": "RC.01.03",
+        "answer": "I met a musician who plays the cello.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP016",
+        "sourceQuestion": 16,
+        "topic": "RC.01.04",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP017",
+        "sourceQuestion": 17,
+        "topic": "RC.01.05",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP018",
+        "sourceQuestion": 18,
+        "topic": "RC.01.06",
+        "answer": "The cyclist that won the race thanked us.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP019",
+        "sourceQuestion": 19,
+        "topic": "RC.01.07",
+        "answer": "The traveller who carried a red suitcase missed the train.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP020",
+        "sourceQuestion": 20,
+        "topic": "RC.01.08",
+        "answer": "I returned the tablet that you left in class.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP021",
+        "sourceQuestion": 21,
+        "topic": "RC.01.09",
+        "answer": "She spoke to an engineer who lives nearby.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP022",
+        "sourceQuestion": 22,
+        "topic": "RC.01.10",
+        "answer": "No. Without commas, the clause can select early arrivals; with commas, it adds information about an already identified group.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP023",
+        "sourceQuestion": 23,
+        "topic": "RC.01.11",
+        "answer": "The map that you drew is useful.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP024",
+        "sourceQuestion": 24,
+        "topic": "RC.01.12",
+        "answer": "The first. where Eva works modifies café; the second where-clause gives the content of know.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP025",
+        "sourceQuestion": 25,
+        "topic": "RC.02.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP026",
+        "sourceQuestion": 26,
+        "topic": "RC.02.02",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP027",
+        "sourceQuestion": 27,
+        "topic": "RC.02.03",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP028",
+        "sourceQuestion": 28,
+        "topic": "RC.02.04",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP029",
+        "sourceQuestion": 29,
+        "topic": "RC.02.05",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP030",
+        "sourceQuestion": 30,
+        "topic": "RC.02.06",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP031",
+        "sourceQuestion": 31,
+        "topic": "RC.02.07",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP032",
+        "sourceQuestion": 32,
+        "topic": "RC.02.08",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP033",
+        "sourceQuestion": 33,
+        "topic": "RC.02.09",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP034",
+        "sourceQuestion": 34,
+        "topic": "RC.02.10",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP035",
+        "sourceQuestion": 35,
+        "topic": "RC.02.11",
+        "answer": "Yes. This is a defining object relative modifying film; both which and that are acceptable.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP036",
+        "sourceQuestion": 36,
+        "topic": "RC.02.12",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP037",
+        "sourceQuestion": 37,
+        "topic": "RC.02.13",
+        "answer": "The whole event of her passing the exam.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP038",
+        "sourceQuestion": 38,
+        "topic": "RC.02.14",
+        "answer": "It presents the team as its human members; usage can vary by variety and meaning.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP039",
+        "sourceQuestion": 39,
+        "topic": "RC.02.15",
+        "answer": "No. who can be used for a pet treated as a personality; which is also possible in a more neutral tone.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP040",
+        "sourceQuestion": 40,
+        "topic": "RC.02.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP041",
+        "sourceQuestion": 41,
+        "topic": "RC.02.02",
+        "answer": "Object. I is the subject of invited, and the neighbour is the invited person.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP042",
+        "sourceQuestion": 42,
+        "topic": "RC.02.03",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP043",
+        "sourceQuestion": 43,
+        "topic": "RC.02.04",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP044",
+        "sourceQuestion": 44,
+        "topic": "RC.02.05",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP045",
+        "sourceQuestion": 45,
+        "topic": "RC.02.06",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP046",
+        "sourceQuestion": 46,
+        "topic": "RC.02.07",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP047",
+        "sourceQuestion": 47,
+        "topic": "RC.02.08",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP048",
+        "sourceQuestion": 48,
+        "topic": "RC.02.09",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP049",
+        "sourceQuestion": 49,
+        "topic": "RC.02.10",
+        "answer": "This is the machine with which we printed the labels.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP050",
+        "sourceQuestion": 50,
+        "topic": "RC.02.11",
+        "answer": "Yes. In this defining object relative clause, both that and which are acceptable.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP051",
+        "sourceQuestion": 51,
+        "topic": "RC.02.12",
+        "answer": "My laptop, which I bought in July, still runs well.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP052",
+        "sourceQuestion": 52,
+        "topic": "RC.03.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP053",
+        "sourceQuestion": 53,
+        "topic": "RC.03.02",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP054",
+        "sourceQuestion": 54,
+        "topic": "RC.03.03",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP055",
+        "sourceQuestion": 55,
+        "topic": "RC.03.04",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP056",
+        "sourceQuestion": 56,
+        "topic": "RC.03.05",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP057",
+        "sourceQuestion": 57,
+        "topic": "RC.03.06",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP058",
+        "sourceQuestion": 58,
+        "topic": "RC.03.07",
+        "answer": "whom refers to the student who received the book; the book is a separate object.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP059",
+        "sourceQuestion": 59,
+        "topic": "RC.03.08",
+        "answer": "It refers to the identity “leader” after become, not the subject she.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP060",
+        "sourceQuestion": 60,
+        "topic": "RC.03.09",
+        "answer": "Subject. The boy is the one who knows the answer.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP061",
+        "sourceQuestion": 61,
+        "topic": "RC.03.10",
+        "answer": "The woman can help (someone); the woman is the subject of can help.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP062",
+        "sourceQuestion": 62,
+        "topic": "RC.03.11",
+        "answer": "not",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP063",
+        "sourceQuestion": 63,
+        "topic": "RC.03.12",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP064",
+        "sourceQuestion": 64,
+        "topic": "RC.03.13",
+        "answer": "Before we; yes, “The film that we watched was funny” is also standard.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP065",
+        "sourceQuestion": 65,
+        "topic": "RC.03.14",
+        "answer": "No. that is the subject of barked; a full subject relative normally retains a relative marker.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP066",
+        "sourceQuestion": 66,
+        "topic": "RC.03.15",
+        "answer": "It is the subject of chose; only the object relative marker is omitted.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP067",
+        "sourceQuestion": 67,
+        "topic": "RC.03.16",
+        "answer": "The preposition to, because the phrase is talked to someone.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP068",
+        "sourceQuestion": 68,
+        "topic": "RC.03.17",
+        "answer": "No. A supplementary object relative normally retains who or whom.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP069",
+        "sourceQuestion": 69,
+        "topic": "RC.03.18",
+        "answer": "Yes. “the day we met” is a natural defining time relative.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP070",
+        "sourceQuestion": 70,
+        "topic": "RC.03.19",
+        "answer": "Yes. “the reason why you left” is also natural.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP071",
+        "sourceQuestion": 71,
+        "topic": "RC.03.20",
+        "answer": "A zero place-relative form; “the place where we used to meet” is also natural.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP072",
+        "sourceQuestion": 72,
+        "topic": "RC.03.21",
+        "answer": "bought. The book is what May bought, even though I think intervenes.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP073",
+        "sourceQuestion": 73,
+        "topic": "RC.03.22",
+        "answer": "The omitted object relative already links bought to phone.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP074",
+        "sourceQuestion": 74,
+        "topic": "RC.03.23",
+        "answer": "This sentence has an overt noun, letters, followed by a zero object relative; what she wrote has no external noun.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP075",
+        "sourceQuestion": 75,
+        "topic": "RC.03.24",
+        "answer": "No. Some dialects allow it, but ordinary standard writing retains who.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP076",
+        "sourceQuestion": 76,
+        "topic": "RC.03.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP077",
+        "sourceQuestion": 77,
+        "topic": "RC.03.03",
+        "answer": "The visitor who rang the bell is outside.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP078",
+        "sourceQuestion": 78,
+        "topic": "RC.03.04",
+        "answer": "The report that I finished yesterday is ready.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP079",
+        "sourceQuestion": 79,
+        "topic": "RC.03.05",
+        "answer": "for",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP080",
+        "sourceQuestion": 80,
+        "topic": "RC.03.06",
+        "answer": "was",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP081",
+        "sourceQuestion": 81,
+        "topic": "RC.03.07",
+        "answer": "The classmate whom I lent the textbook to thanked me.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP082",
+        "sourceQuestion": 82,
+        "topic": "RC.03.08",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP083",
+        "sourceQuestion": 83,
+        "topic": "RC.03.09",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP084",
+        "sourceQuestion": 84,
+        "topic": "RC.03.10",
+        "answer": "First: the man can advise us. Second: we can advise the man.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP085",
+        "sourceQuestion": 85,
+        "topic": "RC.03.11",
+        "answer": "The café that does not open on Mondays is nearby.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP086",
+        "sourceQuestion": 86,
+        "topic": "RC.03.12",
+        "answer": "Do you know the woman who lives downstairs?",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP087",
+        "sourceQuestion": 87,
+        "topic": "RC.03.13",
+        "answer": "The song we recorded sounds clear.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP088",
+        "sourceQuestion": 88,
+        "topic": "RC.03.14",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP089",
+        "sourceQuestion": 89,
+        "topic": "RC.03.15",
+        "answer": "The website my teacher recommended is useful.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP090",
+        "sourceQuestion": 90,
+        "topic": "RC.03.16",
+        "answer": "This is the friend I spoke to yesterday.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP091",
+        "sourceQuestion": 91,
+        "topic": "RC.03.17",
+        "answer": "Lena, whom I invited last week, is attending.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP092",
+        "sourceQuestion": 92,
+        "topic": "RC.03.18",
+        "answer": "I still remember the summer we moved house.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP093",
+        "sourceQuestion": 93,
+        "topic": "RC.03.19",
+        "answer": "Please explain the reason you changed the timetable.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP094",
+        "sourceQuestion": 94,
+        "topic": "RC.03.20",
+        "answer": "This is the place we used to practise.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP095",
+        "sourceQuestion": 95,
+        "topic": "RC.03.21",
+        "answer": "The novel I think Ava bought is on the desk.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP096",
+        "sourceQuestion": 96,
+        "topic": "RC.04.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP097",
+        "sourceQuestion": 97,
+        "topic": "RC.04.02",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP098",
+        "sourceQuestion": 98,
+        "topic": "RC.04.03",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP099",
+        "sourceQuestion": 99,
+        "topic": "RC.04.04",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP100",
+        "sourceQuestion": 100,
+        "topic": "RC.04.05",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP101",
+        "sourceQuestion": 101,
+        "topic": "RC.04.06",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP102",
+        "sourceQuestion": 102,
+        "topic": "RC.04.07",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP103",
+        "sourceQuestion": 103,
+        "topic": "RC.04.08",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP104",
+        "sourceQuestion": 104,
+        "topic": "RC.04.09",
+        "answer": "It means the version or image of David known at school, not just a bare proper name.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP105",
+        "sourceQuestion": 105,
+        "topic": "RC.04.10",
+        "answer": "Not necessarily. A student who is ill can describe any member of that class.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP106",
+        "sourceQuestion": 106,
+        "topic": "RC.04.11",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP107",
+        "sourceQuestion": 107,
+        "topic": "RC.04.12",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP108",
+        "sourceQuestion": 108,
+        "topic": "RC.04.13",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP109",
+        "sourceQuestion": 109,
+        "topic": "RC.04.01",
+        "answer": "Only the pupils who have permission may enter.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP110",
+        "sourceQuestion": 110,
+        "topic": "RC.04.02",
+        "answer": "The folder that contains the invoices is missing.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP111",
+        "sourceQuestion": 111,
+        "topic": "RC.04.03",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP112",
+        "sourceQuestion": 112,
+        "topic": "RC.04.04",
+        "answer": "works",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP113",
+        "sourceQuestion": 113,
+        "topic": "RC.04.05",
+        "answer": "Zoe was the only person who knew the password.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP114",
+        "sourceQuestion": 114,
+        "topic": "RC.04.06",
+        "answer": "This is the best novel that I have read this term.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP115",
+        "sourceQuestion": 115,
+        "topic": "RC.04.07",
+        "answer": "The first guest who entered received a welcome pack.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP116",
+        "sourceQuestion": 116,
+        "topic": "RC.04.08",
+        "answer": "No. It says every runner in the registered subset received a number.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP117",
+        "sourceQuestion": 117,
+        "topic": "RC.04.09",
+        "answer": "The",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP118",
+        "sourceQuestion": 118,
+        "topic": "RC.04.10",
+        "answer": "A",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP119",
+        "sourceQuestion": 119,
+        "topic": "RC.04.11",
+        "answer": "will arrive",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP120",
+        "sourceQuestion": 120,
+        "topic": "RC.04.12",
+        "answer": "Yes. The first can refer only to paintings we restored; the second may refer to all paintings under discussion.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP121",
+        "sourceQuestion": 121,
+        "topic": "RC.05.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP122",
+        "sourceQuestion": 122,
+        "topic": "RC.05.02",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP123",
+        "sourceQuestion": 123,
+        "topic": "RC.05.03",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP124",
+        "sourceQuestion": 124,
+        "topic": "RC.05.04",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP125",
+        "sourceQuestion": 125,
+        "topic": "RC.05.05",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP126",
+        "sourceQuestion": 126,
+        "topic": "RC.05.06",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP127",
+        "sourceQuestion": 127,
+        "topic": "RC.05.07",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP128",
+        "sourceQuestion": 128,
+        "topic": "RC.05.08",
+        "answer": "A property of the previously identified group of players.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP129",
+        "sourceQuestion": 129,
+        "topic": "RC.05.09",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP130",
+        "sourceQuestion": 130,
+        "topic": "RC.05.10",
+        "answer": "The event of missing the bus, not necessarily the bus itself.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP131",
+        "sourceQuestion": 131,
+        "topic": "RC.05.11",
+        "answer": "Yes, under the supplementary reading, both known sisters live abroad.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP132",
+        "sourceQuestion": 132,
+        "topic": "RC.05.12",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP133",
+        "sourceQuestion": 133,
+        "topic": "RC.05.01",
+        "answer": "Aria, who is my neighbour, owns a bakery.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP134",
+        "sourceQuestion": 134,
+        "topic": "RC.05.02",
+        "answer": "My cousin, who studies in Bristol, is visiting.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP135",
+        "sourceQuestion": 135,
+        "topic": "RC.05.03",
+        "answer": "My bike, which I bought in March, needs new tyres.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP136",
+        "sourceQuestion": 136,
+        "topic": "RC.05.04",
+        "answer": "Keira, whom I met at the workshop, is a designer.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP137",
+        "sourceQuestion": 137,
+        "topic": "RC.05.05",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP138",
+        "sourceQuestion": 138,
+        "topic": "RC.05.06",
+        "answer": "We visited Kai, who runs a music shop.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP139",
+        "sourceQuestion": 139,
+        "topic": "RC.05.07",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP140",
+        "sourceQuestion": 140,
+        "topic": "RC.05.08",
+        "answer": "No. The first adds exhaustion to the known group; the second can select only exhausted singers.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP141",
+        "sourceQuestion": 141,
+        "topic": "RC.05.09",
+        "answer": "The gallery, which reopened today, is crowded.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP142",
+        "sourceQuestion": 142,
+        "topic": "RC.05.10",
+        "answer": "The whole event of the power going out.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP143",
+        "sourceQuestion": 143,
+        "topic": "RC.05.11",
+        "answer": "Yes, in the intended supplementary reading both cousins are described as living overseas.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP144",
+        "sourceQuestion": 144,
+        "topic": "RC.05.12",
+        "answer": "No. It gives background; readers may infer a reason, but because would state it more explicitly.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP145",
+        "sourceQuestion": 145,
+        "topic": "RC.06.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP146",
+        "sourceQuestion": 146,
+        "topic": "RC.06.02",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP147",
+        "sourceQuestion": 147,
+        "topic": "RC.06.03",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP148",
+        "sourceQuestion": 148,
+        "topic": "RC.06.04",
+        "answer": "No. talking about someone requires about.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP149",
+        "sourceQuestion": 149,
+        "topic": "RC.06.05",
+        "answer": "Because the chair is the surface someone sat on; sit in a room is different.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP150",
+        "sourceQuestion": 150,
+        "topic": "RC.06.06",
+        "answer": "to her identifies the listener, while about identifies the topic.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP151",
+        "sourceQuestion": 151,
+        "topic": "RC.06.07",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP152",
+        "sourceQuestion": 152,
+        "topic": "RC.06.08",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP153",
+        "sourceQuestion": 153,
+        "topic": "RC.06.09",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP154",
+        "sourceQuestion": 154,
+        "topic": "RC.06.10",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP155",
+        "sourceQuestion": 155,
+        "topic": "RC.06.11",
+        "answer": "Four in total; two of the four were blue.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP156",
+        "sourceQuestion": 156,
+        "topic": "RC.06.12",
+        "answer": "Ten came; three of those ten stayed late.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP157",
+        "sourceQuestion": 157,
+        "topic": "RC.06.13",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP158",
+        "sourceQuestion": 158,
+        "topic": "RC.06.14",
+        "answer": "No. “the chair that I sat on” is standard; “the chair on which I sat” is more formal.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP159",
+        "sourceQuestion": 159,
+        "topic": "RC.06.01",
+        "answer": "The colleague who I spoke to was helpful.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP160",
+        "sourceQuestion": 160,
+        "topic": "RC.06.02",
+        "answer": "The classroom in which we studied was bright.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP161",
+        "sourceQuestion": 161,
+        "topic": "RC.06.03",
+        "answer": "The artist with whom I collaborated was generous.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP162",
+        "sourceQuestion": 162,
+        "topic": "RC.06.04",
+        "answer": "The neighbour I was speaking to has left.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP163",
+        "sourceQuestion": 163,
+        "topic": "RC.06.05",
+        "answer": "on",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP164",
+        "sourceQuestion": 164,
+        "topic": "RC.06.06",
+        "answer": "This is the problem that I spoke to Max about.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP165",
+        "sourceQuestion": 165,
+        "topic": "RC.06.07",
+        "answer": "The village that my mother came from is quiet.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP166",
+        "sourceQuestion": 166,
+        "topic": "RC.06.08",
+        "answer": "The topic about which we talked was difficult.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP167",
+        "sourceQuestion": 167,
+        "topic": "RC.06.09",
+        "answer": "The person for whom the parcel was prepared is away.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP168",
+        "sourceQuestion": 168,
+        "topic": "RC.06.10",
+        "answer": "The office in front of which we waited has closed.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP169",
+        "sourceQuestion": 169,
+        "topic": "RC.06.11",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP170",
+        "sourceQuestion": 170,
+        "topic": "RC.06.12",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP171",
+        "sourceQuestion": 171,
+        "topic": "RC.06.13",
+        "answer": "The author in whose apartment we stayed is visiting.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP172",
+        "sourceQuestion": 172,
+        "topic": "RC.06.14",
+        "answer": "Both are correct; “the chair I sat on” is usually more natural in conversation.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP173",
+        "sourceQuestion": 173,
+        "topic": "RC.06.14",
+        "answer": "whom",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP174",
+        "sourceQuestion": 174,
+        "topic": "RC.07.01",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP175",
+        "sourceQuestion": 175,
+        "topic": "RC.07.02",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP176",
+        "sourceQuestion": 176,
+        "topic": "RC.07.03",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP177",
+        "sourceQuestion": 177,
+        "topic": "RC.07.04",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP178",
+        "sourceQuestion": 178,
+        "topic": "RC.07.05",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP179",
+        "sourceQuestion": 179,
+        "topic": "RC.07.06",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP180",
+        "sourceQuestion": 180,
+        "topic": "RC.07.07",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP181",
+        "sourceQuestion": 181,
+        "topic": "RC.07.08",
+        "answer": "Yes. whose can express a possession or part relation for things; “the surface of which” is an alternative.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP182",
+        "sourceQuestion": 182,
+        "topic": "RC.07.09",
+        "answer": "work",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP183",
+        "sourceQuestion": 183,
+        "topic": "RC.07.10",
+        "answer": "The contents of the folder; the whole phrase is the subject of are private.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP184",
+        "sourceQuestion": 184,
+        "topic": "RC.07.01",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP185",
+        "sourceQuestion": 185,
+        "topic": "RC.07.02",
+        "answer": "I know a pilot whose brother is a scientist.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP186",
+        "sourceQuestion": 186,
+        "topic": "RC.07.03",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP187",
+        "sourceQuestion": 187,
+        "topic": "RC.07.04",
+        "answer": "The reporter whose article I read visited us.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP188",
+        "sourceQuestion": 188,
+        "topic": "RC.07.05",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP189",
+        "sourceQuestion": 189,
+        "topic": "RC.07.06",
+        "answer": "The student whose father is a chef won a prize.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP190",
+        "sourceQuestion": 190,
+        "topic": "RC.07.07",
+        "answer": "Mr Chan, whose son works here, greeted me.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP191",
+        "sourceQuestion": 191,
+        "topic": "RC.07.08",
+        "answer": "The hall, whose roof was damaged, has reopened.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP192",
+        "sourceQuestion": 192,
+        "topic": "RC.07.09",
+        "answer": "work",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP193",
+        "sourceQuestion": 193,
+        "topic": "RC.07.10",
+        "answer": "The book, the pages of which are torn, belongs to Mum.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP194",
+        "sourceQuestion": 194,
+        "topic": "RC.07.01",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP195",
+        "sourceQuestion": 195,
+        "topic": "RC.07.05",
+        "answer": "A factory whose main entrance was repaired has reopened.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP196",
+        "sourceQuestion": 196,
+        "topic": "RC.08.01",
+        "answer": "where",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP197",
+        "sourceQuestion": 197,
+        "topic": "RC.08.02",
+        "answer": "where",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP198",
+        "sourceQuestion": 198,
+        "topic": "RC.08.03",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP199",
+        "sourceQuestion": 199,
+        "topic": "RC.08.04",
+        "answer": "when",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP200",
+        "sourceQuestion": 200,
+        "topic": "RC.08.05",
+        "answer": "when",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP201",
+        "sourceQuestion": 201,
+        "topic": "RC.08.06",
+        "answer": "Yes. “the day when we met” is natural too.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP202",
+        "sourceQuestion": 202,
+        "topic": "RC.08.07",
+        "answer": "why",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP203",
+        "sourceQuestion": 203,
+        "topic": "RC.08.08",
+        "answer": "Yes. “The reason why I called” is also natural.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP204",
+        "sourceQuestion": 204,
+        "topic": "RC.08.09",
+        "answer": "when",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP205",
+        "sourceQuestion": 205,
+        "topic": "RC.08.10",
+        "answer": "Yes. “the place where we met” has essentially the same intended meaning.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP206",
+        "sourceQuestion": 206,
+        "topic": "RC.08.11",
+        "answer": "the way that she explains things; the way in which she explains things.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP207",
+        "sourceQuestion": 207,
+        "topic": "RC.08.12",
+        "answer": "No. It gives the method known by the speaker; there is no preceding way noun.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP208",
+        "sourceQuestion": 208,
+        "topic": "RC.08.13",
+        "answer": "No. It can describe an abstract stage or situation in which a decision was needed.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP209",
+        "sourceQuestion": 209,
+        "topic": "RC.08.14",
+        "answer": "when",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP210",
+        "sourceQuestion": 210,
+        "topic": "RC.08.15",
+        "answer": "why",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP211",
+        "sourceQuestion": 211,
+        "topic": "RC.08.01",
+        "answer": "where",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP212",
+        "sourceQuestion": 212,
+        "topic": "RC.08.02",
+        "answer": "The hall in which we performed was full.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP213",
+        "sourceQuestion": 213,
+        "topic": "RC.08.03",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP214",
+        "sourceQuestion": 214,
+        "topic": "RC.08.04",
+        "answer": "when",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP215",
+        "sourceQuestion": 215,
+        "topic": "RC.08.05",
+        "answer": "Friday was the day on which we collected the certificates.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP216",
+        "sourceQuestion": 216,
+        "topic": "RC.08.06",
+        "answer": "I'll always remember the night the lights went out.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP217",
+        "sourceQuestion": 217,
+        "topic": "RC.08.07",
+        "answer": "why",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP218",
+        "sourceQuestion": 218,
+        "topic": "RC.08.08",
+        "answer": "The reason I wrote was to apologise.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP219",
+        "sourceQuestion": 219,
+        "topic": "RC.08.09",
+        "answer": "We moved in April, when the weather became warmer.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP220",
+        "sourceQuestion": 220,
+        "topic": "RC.08.10",
+        "answer": "This is the spot we first met.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP221",
+        "sourceQuestion": 221,
+        "topic": "RC.08.11",
+        "answer": "I admire the way in which she solves problems.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP222",
+        "sourceQuestion": 222,
+        "topic": "RC.08.13",
+        "answer": "where",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP223",
+        "sourceQuestion": 223,
+        "topic": "RC.09.01",
+        "answer": "standing",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP224",
+        "sourceQuestion": 224,
+        "topic": "RC.09.02",
+        "answer": "playing",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP225",
+        "sourceQuestion": 225,
+        "topic": "RC.09.03",
+        "answer": "working",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP226",
+        "sourceQuestion": 226,
+        "topic": "RC.09.04",
+        "answer": "made",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP227",
+        "sourceQuestion": 227,
+        "topic": "RC.09.05",
+        "answer": "broken",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP228",
+        "sourceQuestion": 228,
+        "topic": "RC.09.06",
+        "answer": "being repaired",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP229",
+        "sourceQuestion": 229,
+        "topic": "RC.09.07",
+        "answer": "carrying",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP230",
+        "sourceQuestion": 230,
+        "topic": "RC.09.08",
+        "answer": "No. The completed past living period is not necessarily preserved by living here.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP231",
+        "sourceQuestion": 231,
+        "topic": "RC.09.09",
+        "answer": "not wearing",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP232",
+        "sourceQuestion": 232,
+        "topic": "RC.09.10",
+        "answer": "No. It has a zero object relative, whereas an -ing modifier would look like “the boy running”.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP233",
+        "sourceQuestion": 233,
+        "topic": "RC.09.11",
+        "answer": "available",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP234",
+        "sourceQuestion": 234,
+        "topic": "RC.09.12",
+        "answer": "painted",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP235",
+        "sourceQuestion": 235,
+        "topic": "RC.09.13",
+        "answer": "No. It adds supplementary descriptive information about an already identified Mia.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP236",
+        "sourceQuestion": 236,
+        "topic": "RC.09.14",
+        "answer": "ready",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP237",
+        "sourceQuestion": 237,
+        "topic": "RC.09.15",
+        "answer": "sitting",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP238",
+        "sourceQuestion": 238,
+        "topic": "RC.09.16",
+        "answer": "No. The duration and perfect-progressive time relation can be lost.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP239",
+        "sourceQuestion": 239,
+        "topic": "RC.09.01",
+        "answer": "The man waiting outside is my uncle.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP240",
+        "sourceQuestion": 240,
+        "topic": "RC.09.02",
+        "answer": "The children painting in the art room are quiet.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP241",
+        "sourceQuestion": 241,
+        "topic": "RC.09.03",
+        "answer": "People volunteering at the centre meet many neighbours.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP242",
+        "sourceQuestion": 242,
+        "topic": "RC.09.04",
+        "answer": "The boxes packed by the staff are ready.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP243",
+        "sourceQuestion": 243,
+        "topic": "RC.09.05",
+        "answer": "cracked",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP244",
+        "sourceQuestion": 244,
+        "topic": "RC.09.06",
+        "answer": "being repaired",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP245",
+        "sourceQuestion": 245,
+        "topic": "RC.09.07",
+        "answer": "carrying",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP246",
+        "sourceQuestion": 246,
+        "topic": "RC.09.08",
+        "answer": "Not necessarily. had performed marks an earlier completed event; performing here suggests an ongoing or characterising activity.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP247",
+        "sourceQuestion": 247,
+        "topic": "RC.09.09",
+        "answer": "Pupils not carrying passes must wait outside.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP248",
+        "sourceQuestion": 248,
+        "topic": "RC.09.10",
+        "answer": "No. The first has a zero object relative; the second uses an -ing modifier.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP249",
+        "sourceQuestion": 249,
+        "topic": "RC.09.11",
+        "answer": "The tickets available this morning are cheaper.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP250",
+        "sourceQuestion": 250,
+        "topic": "RC.09.12",
+        "answer": "The mural painted by the pupils won an award.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP251",
+        "sourceQuestion": 251,
+        "topic": "RC.10.01",
+        "answer": "to finish",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP252",
+        "sourceQuestion": 252,
+        "topic": "RC.10.02",
+        "answer": "to arrive",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP253",
+        "sourceQuestion": 253,
+        "topic": "RC.10.03",
+        "answer": "A reader; the book is the object of read.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP254",
+        "sourceQuestion": 254,
+        "topic": "RC.10.04",
+        "answer": "for Ben to read",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP255",
+        "sourceQuestion": 255,
+        "topic": "RC.10.05",
+        "answer": "to talk to",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP256",
+        "sourceQuestion": 256,
+        "topic": "RC.10.06",
+        "answer": "to sit",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP257",
+        "sourceQuestion": 257,
+        "topic": "RC.10.07",
+        "answer": "to be signed",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP258",
+        "sourceQuestion": 258,
+        "topic": "RC.10.08",
+        "answer": "to speak",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP259",
+        "sourceQuestion": 259,
+        "topic": "RC.10.09",
+        "answer": "to finish",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP260",
+        "sourceQuestion": 260,
+        "topic": "RC.10.10",
+        "answer": "Not in this example; it is an embedded question expressing a choice.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP261",
+        "sourceQuestion": 261,
+        "topic": "RC.10.11",
+        "answer": "on which to write",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP262",
+        "sourceQuestion": 262,
+        "topic": "RC.10.12",
+        "answer": "not to be ignored",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP263",
+        "sourceQuestion": 263,
+        "topic": "RC.10.13",
+        "answer": "No. It is a natural infinitival postmodifier; different analyses need not treat it as a mechanical deletion.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP264",
+        "sourceQuestion": 264,
+        "topic": "RC.10.14",
+        "answer": "The person Ben needs; that person drives Ben home.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP265",
+        "sourceQuestion": 265,
+        "topic": "RC.10.01",
+        "answer": "I have two emails to answer.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP266",
+        "sourceQuestion": 266,
+        "topic": "RC.10.02",
+        "answer": "Lily was the first participant to arrive.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP267",
+        "sourceQuestion": 267,
+        "topic": "RC.10.03",
+        "answer": "to read",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP268",
+        "sourceQuestion": 268,
+        "topic": "RC.10.04",
+        "answer": "Here is a story for Sara to read.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP269",
+        "sourceQuestion": 269,
+        "topic": "RC.10.05",
+        "answer": "I need a colleague to discuss the issue with.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP270",
+        "sourceQuestion": 270,
+        "topic": "RC.10.06",
+        "answer": "to sit on",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP271",
+        "sourceQuestion": 271,
+        "topic": "RC.10.07",
+        "answer": "These are the permission slips to be signed today.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP272",
+        "sourceQuestion": 272,
+        "topic": "RC.10.08",
+        "answer": "to speak",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP273",
+        "sourceQuestion": 273,
+        "topic": "RC.10.09",
+        "answer": "Amir was the only runner to finish the course.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP274",
+        "sourceQuestion": 274,
+        "topic": "RC.10.10",
+        "answer": "No. It is an embedded question about the choice of train, not a noun followed by a relative clause.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP275",
+        "sourceQuestion": 275,
+        "topic": "RC.10.11",
+        "answer": "This is a subject on which to write.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP276",
+        "sourceQuestion": 276,
+        "topic": "RC.10.12",
+        "answer": "not to be overlooked",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP277",
+        "sourceQuestion": 277,
+        "topic": "RC.11.01",
+        "answer": "what",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP278",
+        "sourceQuestion": 278,
+        "topic": "RC.11.02",
+        "answer": "What",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP279",
+        "sourceQuestion": 279,
+        "topic": "RC.11.03",
+        "answer": "what",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP280",
+        "sourceQuestion": 280,
+        "topic": "RC.11.04",
+        "answer": "It is the content of an embedded question about an unknown purchase.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP281",
+        "sourceQuestion": 281,
+        "topic": "RC.11.05",
+        "answer": "What",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP282",
+        "sourceQuestion": 282,
+        "topic": "RC.11.06",
+        "answer": "whatever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP283",
+        "sourceQuestion": 283,
+        "topic": "RC.11.07",
+        "answer": "Whoever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP284",
+        "sourceQuestion": 284,
+        "topic": "RC.11.08",
+        "answer": "No. whoever is the subject of wins within its own clause.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP285",
+        "sourceQuestion": 285,
+        "topic": "RC.11.09",
+        "answer": "No. Whomever is formal object usage; whoever is very common in everyday speech.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP286",
+        "sourceQuestion": 286,
+        "topic": "RC.11.10",
+        "answer": "whichever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP287",
+        "sourceQuestion": 287,
+        "topic": "RC.11.11",
+        "answer": "Yes. whatever modifies tools; without tools, whatever can include other things.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP288",
+        "sourceQuestion": 288,
+        "topic": "RC.11.12",
+        "answer": "wherever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP289",
+        "sourceQuestion": 289,
+        "topic": "RC.11.13",
+        "answer": "whenever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP290",
+        "sourceQuestion": 290,
+        "topic": "RC.11.14",
+        "answer": "A concession: no matter what happens, remain calm.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP291",
+        "sourceQuestion": 291,
+        "topic": "RC.11.15",
+        "answer": "A concessive condition: no matter who calls, the instruction still applies.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP292",
+        "sourceQuestion": 292,
+        "topic": "RC.11.16",
+        "answer": "A person — the caller, not the content of speech.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP293",
+        "sourceQuestion": 293,
+        "topic": "RC.11.01",
+        "answer": "I kept what Mum had prepared.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP294",
+        "sourceQuestion": 294,
+        "topic": "RC.11.02",
+        "answer": "was",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP295",
+        "sourceQuestion": 295,
+        "topic": "RC.11.03",
+        "answer": "what",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP296",
+        "sourceQuestion": 296,
+        "topic": "RC.11.04",
+        "answer": "An embedded question: it expresses the unknown content of the teacher's question.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP297",
+        "sourceQuestion": 297,
+        "topic": "RC.11.05",
+        "answer": "What I want is a quiet afternoon.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP298",
+        "sourceQuestion": 298,
+        "topic": "RC.11.06",
+        "answer": "whatever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP299",
+        "sourceQuestion": 299,
+        "topic": "RC.11.07",
+        "answer": "Whoever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP300",
+        "sourceQuestion": 300,
+        "topic": "RC.11.08",
+        "answer": "whoever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP301",
+        "sourceQuestion": 301,
+        "topic": "RC.11.09",
+        "answer": "whomever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP302",
+        "sourceQuestion": 302,
+        "topic": "RC.11.10",
+        "answer": "whichever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP303",
+        "sourceQuestion": 303,
+        "topic": "RC.11.11",
+        "answer": "whatever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP304",
+        "sourceQuestion": 304,
+        "topic": "RC.11.12",
+        "answer": "You can study wherever you feel comfortable.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP305",
+        "sourceQuestion": 305,
+        "topic": "RC.12.01",
+        "answer": "The breakdown event; that event caused the delay.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP306",
+        "sourceQuestion": 306,
+        "topic": "RC.12.02",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP307",
+        "sourceQuestion": 307,
+        "topic": "RC.12.03",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP308",
+        "sourceQuestion": 308,
+        "topic": "RC.12.04",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP309",
+        "sourceQuestion": 309,
+        "topic": "RC.12.05",
+        "answer": "It is a supplementary continuation; standard writing usually joins it to the preceding clause.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP310",
+        "sourceQuestion": 310,
+        "topic": "RC.12.06",
+        "answer": "It reports the next event after Ben called Amy.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP311",
+        "sourceQuestion": 311,
+        "topic": "RC.12.07",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP312",
+        "sourceQuestion": 312,
+        "topic": "RC.12.08",
+        "answer": "No. The reply occurred a week after he wrote to Nora.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP313",
+        "sourceQuestion": 313,
+        "topic": "RC.12.09",
+        "answer": "It most naturally comments on the class being cancelled.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP314",
+        "sourceQuestion": 314,
+        "topic": "RC.12.10",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP315",
+        "sourceQuestion": 315,
+        "topic": "RC.12.11",
+        "answer": "The apology. He did apologise, but it did not solve the problem.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP316",
+        "sourceQuestion": 316,
+        "topic": "RC.12.12",
+        "answer": "No. Compare which made us smile (likely the sending event/photo) and which was blurry (the photo).",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP317",
+        "sourceQuestion": 317,
+        "topic": "RC.12.01",
+        "answer": "which",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP318",
+        "sourceQuestion": 318,
+        "topic": "RC.12.02",
+        "answer": "The action of staying to help; it is the speaker's positive evaluation of that action.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP319",
+        "sourceQuestion": 319,
+        "topic": "RC.12.03",
+        "answer": "The bus route changed, which confused many passengers.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP320",
+        "sourceQuestion": 320,
+        "topic": "RC.12.04",
+        "answer": "The pupils divided the tasks and submitted the project early, which impressed their teacher.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP321",
+        "sourceQuestion": 321,
+        "topic": "RC.12.05",
+        "answer": "The film begins at seven, which is ideal for us.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP322",
+        "sourceQuestion": 322,
+        "topic": "RC.12.06",
+        "answer": "Sora called the librarian, who then found the missing record.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP323",
+        "sourceQuestion": 323,
+        "topic": "RC.12.07",
+        "answer": "The first adds a later development about an identified person; the second can identify which girl.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP324",
+        "sourceQuestion": 324,
+        "topic": "RC.12.08",
+        "answer": "later",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP325",
+        "sourceQuestion": 325,
+        "topic": "RC.12.09",
+        "answer": "The outdoor lesson was cancelled, which was unfortunate.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP326",
+        "sourceQuestion": 326,
+        "topic": "RC.12.10",
+        "answer": "She won the scholarship, which delighted her family.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP327",
+        "sourceQuestion": 327,
+        "topic": "RC.13.01",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP328",
+        "sourceQuestion": 328,
+        "topic": "RC.13.02",
+        "answer": "It makes clear that both bought and recommended describe the same book.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP329",
+        "sourceQuestion": 329,
+        "topic": "RC.13.03",
+        "answer": "whose links girl to her brother; the inner who describes the brother.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP330",
+        "sourceQuestion": 330,
+        "topic": "RC.13.04",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP331",
+        "sourceQuestion": 331,
+        "topic": "RC.13.05",
+        "answer": "who owns the shop is defining for woman; which opened yesterday is supplementary about shop.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP332",
+        "sourceQuestion": 332,
+        "topic": "RC.13.06",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP333",
+        "sourceQuestion": 333,
+        "topic": "RC.13.07",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP334",
+        "sourceQuestion": 334,
+        "topic": "RC.13.08",
+        "answer": "Only certain clause structures allow such dependencies; the sample is a possible nested object relation, not a general deletion rule.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP335",
+        "sourceQuestion": 335,
+        "topic": "RC.13.09",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP336",
+        "sourceQuestion": 336,
+        "topic": "RC.13.10",
+        "answer": "It is long and can be placed later for information flow, though putting it next to man is simpler.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP337",
+        "sourceQuestion": 337,
+        "topic": "RC.13.11",
+        "answer": "No. It can be one who-clause with two coordinated verbs.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP338",
+        "sourceQuestion": 338,
+        "topic": "RC.13.12",
+        "answer": "No. The wording can create attachment ambiguity; rewrite to identify the intended player.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP339",
+        "sourceQuestion": 339,
+        "topic": "RC.13.01",
+        "answer": "The folders that I labelled and that I checked are on the shelf.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP340",
+        "sourceQuestion": 340,
+        "topic": "RC.13.02",
+        "answer": "The article that you recommended and that I saved is useful.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP341",
+        "sourceQuestion": 341,
+        "topic": "RC.13.03",
+        "answer": "daughter. The outer whose-clause identifies the chef through the daughter.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP342",
+        "sourceQuestion": 342,
+        "topic": "RC.13.04",
+        "answer": "sell",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP343",
+        "sourceQuestion": 343,
+        "topic": "RC.13.05",
+        "answer": "The artist who owns the studio, which opened last Friday, is friendly.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP344",
+        "sourceQuestion": 344,
+        "topic": "RC.13.06",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP345",
+        "sourceQuestion": 345,
+        "topic": "RC.13.07",
+        "answer": "This is the podcast that I believe Lena recommended.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP346",
+        "sourceQuestion": 346,
+        "topic": "RC.13.09",
+        "answer": "A man who knew the answer called the office.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP347",
+        "sourceQuestion": 347,
+        "topic": "RC.14.01",
+        "answer": "live",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP348",
+        "sourceQuestion": 348,
+        "topic": "RC.14.02",
+        "answer": "are",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP349",
+        "sourceQuestion": 349,
+        "topic": "RC.14.03",
+        "answer": "The box, if that is intended to modify box; toys could produce a different structure.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP350",
+        "sourceQuestion": 350,
+        "topic": "RC.14.04",
+        "answer": "who normally refers to the group workers; therefore work is plural.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP351",
+        "sourceQuestion": 351,
+        "topic": "RC.14.05",
+        "answer": "lived",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP352",
+        "sourceQuestion": 352,
+        "topic": "RC.14.06",
+        "answer": "has finished",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP353",
+        "sourceQuestion": 353,
+        "topic": "RC.14.07",
+        "answer": "must",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP354",
+        "sourceQuestion": 354,
+        "topic": "RC.14.08",
+        "answer": "do not",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP355",
+        "sourceQuestion": 355,
+        "topic": "RC.14.09",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP356",
+        "sourceQuestion": 356,
+        "topic": "RC.14.10",
+        "answer": "Main clause: I didn't meet the person; who called is positive.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP357",
+        "sourceQuestion": 357,
+        "topic": "RC.14.11",
+        "answer": "No. The defining clause may select only nearby friends.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP358",
+        "sourceQuestion": 358,
+        "topic": "RC.14.12",
+        "answer": "The boy, not the picture, because smiling is a human action.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP359",
+        "sourceQuestion": 359,
+        "topic": "RC.14.13",
+        "answer": "ever",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP360",
+        "sourceQuestion": 360,
+        "topic": "RC.14.01",
+        "answer": "live",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP361",
+        "sourceQuestion": 361,
+        "topic": "RC.14.02",
+        "answer": "are",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP362",
+        "sourceQuestion": 362,
+        "topic": "RC.14.03",
+        "answer": "is",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP363",
+        "sourceQuestion": 363,
+        "topic": "RC.14.04",
+        "answer": "work",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP364",
+        "sourceQuestion": 364,
+        "topic": "RC.14.05",
+        "answer": "lived",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP365",
+        "sourceQuestion": 365,
+        "topic": "RC.14.06",
+        "answer": "has completed",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP366",
+        "sourceQuestion": 366,
+        "topic": "RC.14.07",
+        "answer": "must",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP367",
+        "sourceQuestion": 367,
+        "topic": "RC.14.10",
+        "answer": "No. The first negates my phone call; the second negates the person's sending of the package.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP368",
+        "sourceQuestion": 368,
+        "topic": "RC.15.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP369",
+        "sourceQuestion": 369,
+        "topic": "RC.15.02",
+        "answer": "that",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP370",
+        "sourceQuestion": 370,
+        "topic": "RC.15.03",
+        "answer": "Yes. “It was Mia that I saw at the station” is also natural.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP371",
+        "sourceQuestion": 371,
+        "topic": "RC.15.04",
+        "answer": "What",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP372",
+        "sourceQuestion": 372,
+        "topic": "RC.15.05",
+        "answer": "All highlights that this is the entirety of the desire; What identifies its content.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP373",
+        "sourceQuestion": 373,
+        "topic": "RC.15.06",
+        "answer": "No. It introduces the content of the news: the school will close.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP374",
+        "sourceQuestion": 374,
+        "topic": "RC.15.07",
+        "answer": "It gives the content of the fact, not a missing object of left.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP375",
+        "sourceQuestion": 375,
+        "topic": "RC.15.08",
+        "answer": "No. The entire where-clause is the known content of an embedded question.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP376",
+        "sourceQuestion": 376,
+        "topic": "RC.15.09",
+        "answer": "No. It is the embedded question of which dress she bought.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP377",
+        "sourceQuestion": 377,
+        "topic": "RC.15.10",
+        "answer": "to put",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP378",
+        "sourceQuestion": 378,
+        "topic": "RC.15.11",
+        "answer": "No. It is a with-absolute construction giving background to the main clause.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP379",
+        "sourceQuestion": 379,
+        "topic": "RC.15.12",
+        "answer": "By which method or arrangement; the plan allowed everyone to help.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP380",
+        "sourceQuestion": 380,
+        "topic": "RC.15.13",
+        "answer": "Within or under the terms of that agreement.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP381",
+        "sourceQuestion": 381,
+        "topic": "RC.15.14",
+        "answer": "No. It introduces a comparison between Mia and her brother.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP382",
+        "sourceQuestion": 382,
+        "topic": "RC.15.01",
+        "answer": "It was Nia who found the missing ticket.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP383",
+        "sourceQuestion": 383,
+        "topic": "RC.15.02",
+        "answer": "It was the green folder that we chose.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP384",
+        "sourceQuestion": 384,
+        "topic": "RC.15.03",
+        "answer": "It was Aria I met at the exhibition.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP385",
+        "sourceQuestion": 385,
+        "topic": "RC.15.04",
+        "answer": "What I need is a short break.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP386",
+        "sourceQuestion": 386,
+        "topic": "RC.15.06",
+        "answer": "No. It introduces the content of the report; “the road is unsafe” already has its required subject and complement.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP387",
+        "sourceQuestion": 387,
+        "topic": "RC.15.08",
+        "answer": "The first. where Arun lives modifies street; the second is an embedded question/content clause.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP388",
+        "sourceQuestion": 388,
+        "topic": "RC.16.01",
+        "answer": "who",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP389",
+        "sourceQuestion": 389,
+        "topic": "RC.16.02",
+        "answer": "No. Some dialects have it, but standard writing normally uses that, which or zero here.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP390",
+        "sourceQuestion": 390,
+        "topic": "RC.16.03",
+        "answer": "No. A stranded preposition is standard; to whom is a more formal alternative.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP391",
+        "sourceQuestion": 391,
+        "topic": "RC.16.04",
+        "answer": "whose",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP392",
+        "sourceQuestion": 392,
+        "topic": "RC.16.05",
+        "answer": "No. the which is archaic or historical; modern writing uses which / that / zero as appropriate.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP393",
+        "sourceQuestion": 393,
+        "topic": "RC.16.06",
+        "answer": "No. from which we came is a clearer modern formal equivalent; where we came from is conversational.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP394",
+        "sourceQuestion": 394,
+        "topic": "RC.16.07",
+        "answer": "No. It is an archaic directional form; ordinary modern English uses where ... to or to which.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP395",
+        "sourceQuestion": 395,
+        "topic": "RC.16.08",
+        "answer": "as",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP396",
+        "sourceQuestion": 396,
+        "topic": "RC.16.09",
+        "answer": "It comments that this kind of lateness is common.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP397",
+        "sourceQuestion": 397,
+        "topic": "RC.16.10",
+        "answer": "No. Ordinary standard writing uses “the man who lives next door”.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP398",
+        "sourceQuestion": 398,
+        "topic": "RC.16.11",
+        "answer": "No. It may simply present identifying or characteristic information about someone newly introduced.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP399",
+        "sourceQuestion": 399,
+        "topic": "RC.16.12",
+        "answer": "No. Traditional teaching often does; some analyses treat that as a subordinator or clause marker.",
+        "correctOption": null
+      },
+      {
+        "diagnosticId": "RCP400",
+        "sourceQuestion": 400,
+        "topic": "RC.16.02",
+        "answer": "The story that I heard was strange.",
+        "correctOption": null
       }
     ]
   }

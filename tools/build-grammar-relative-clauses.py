@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "course-materials/grammar/source/relative-clauses-student-reading-guide-224.md"
+PRACTICE_EXTENSION_SOURCE = ROOT / "course-materials/grammar/source/relative-clauses-practice-400.json"
 OUTPUT = ROOT / "grammar-relative-clauses-data.js"
 AUDIT_OUTPUT = ROOT / "course-materials/grammar/relative-clauses-source-map.json"
 
@@ -83,6 +84,16 @@ def clean(value: str) -> str:
 
 def plain(value: str) -> str:
     return re.sub(r"[*`]", "", value).strip()
+
+
+def normalize_prompt(value: str) -> str:
+    """Separate a leading task instruction from the exercise sentence."""
+    lines = [part.strip() for part in value.splitlines() if part.strip()]
+    if lines and ":" in lines[0]:
+        instruction, exercise = lines[0].split(":", 1)
+        if instruction.strip() and exercise.strip():
+            lines[:1] = [f"{instruction.strip()}:", exercise.strip()]
+    return "\n".join(lines)
 
 
 def split_rules(source: str) -> list[dict]:
@@ -243,7 +254,7 @@ def build_questions(diagnostics: list[dict], rules: list[dict]) -> list[dict]:
         section = "基本練習" if number <= 20 else "混合練習" if number <= 50 else "進階與理解"
         questions.append({
             "id":f"relative-clauses-{number:03d}", "diagnosticId":item["id"], "number":number,
-            "section":section, "prompt":item["prompt"], "instruction":"按英文語境完成題目，並保留指定意思和資料。",
+            "section":section, "prompt":normalize_prompt(item["prompt"]), "instruction":"按英文語境完成題目，並保留指定意思和資料。",
             "translation":item["translation"], "options":item["options"], "correctOption":answer if item["options"] else None,
             "answer":answer_text, "answers":answers, "mode":mode, "topic":rule["id"],
             "steps":[
@@ -259,12 +270,44 @@ def build_questions(diagnostics: list[dict], rules: list[dict]) -> list[dict]:
     return questions
 
 
+def build_extension_questions(source: dict, start_number: int) -> list[dict]:
+    if source.get("questionCount") != 400 or source.get("explanationStepCount") != 2800:
+        raise ValueError("The Relative Clauses extension must contain 400 questions and 2,800 explanation steps")
+    items = source.get("questions", [])
+    if [item.get("sourceNumber") for item in items] != list(range(1, 401)):
+        raise ValueError("The Relative Clauses extension question sequence is incomplete")
+    questions = []
+    for offset, item in enumerate(items):
+        number = start_number + offset
+        exact = item["type"] == "選擇／填空"
+        questions.append({
+            "id":f"relative-clauses-{number:03d}",
+            "diagnosticId":f"RCP{item['sourceNumber']:03d}",
+            "sourceQuestion":item["sourceNumber"],
+            "number":number,
+            "section":f"單元 {item['unit']:02d}｜{item['unitTitle']}",
+            "prompt":normalize_prompt(item["prompt"]),
+            "instruction":f"{item['type']}｜依照英文指示作答，然後閱讀完整七步解析。",
+            "translation":item["translation"],
+            "options":[],
+            "correctOption":None,
+            "answer":item["answer"],
+            "answers":[item["answer"]],
+            "mode":"exact" if exact else "self-review",
+            "topic":item["topic"],
+            "steps":item["steps"],
+        })
+    return questions
+
+
 def main() -> None:
     source = SOURCE.read_text(encoding="utf-8")
     rules = split_rules(source)
     guide_html, chapters = build_guide(source, rules)
     diagnostics = split_diagnostics(source)
     questions = build_questions(diagnostics, rules)
+    extension_source = json.loads(PRACTICE_EXTENSION_SOURCE.read_text(encoding="utf-8"))
+    questions.extend(build_extension_questions(extension_source, len(questions) + 1))
     guide = {"slug":"relative-clauses", "english":"Relative Clauses", "chinese":"關係子句", "count":len(rules),
              "practiceCount":len(questions), "html":guide_html, "chapters":chapters}
     practice = {"slug":"relative-clauses", "title":"Relative Clauses", "chinese":"關係子句", "questions":questions}
@@ -285,8 +328,10 @@ def main() -> None:
     OUTPUT.write_text(payload, encoding="utf-8")
     AUDIT_OUTPUT.write_text(json.dumps({
         "source":str(SOURCE.relative_to(ROOT)),
+        "practiceExtensionSource":str(PRACTICE_EXTENSION_SOURCE.relative_to(ROOT)),
+        "practiceExtension":{"questionCount":extension_source["questionCount"], "explanationStepCount":extension_source["explanationStepCount"]},
         "guide":{"ruleCount":len(rules), "rules":[{"id":r["id"], "title":r["title"], "dialogueNote":r[STEP_LABELS[5]]} for r in rules]},
-        "practice":{"questionCount":len(questions), "questions":[{"diagnosticId":q["diagnosticId"], "topic":q["topic"], "answer":q["answer"], "correctOption":q["correctOption"]} for q in questions]},
+        "practice":{"questionCount":len(questions), "questions":[{"diagnosticId":q["diagnosticId"], "sourceQuestion":q.get("sourceQuestion"), "topic":q["topic"], "answer":q["answer"], "correctOption":q["correctOption"]} for q in questions]},
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Built {len(rules)} Relative Clauses guide cards and {len(questions)} exercises.")
 

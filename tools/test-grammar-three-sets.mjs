@@ -19,7 +19,7 @@ const modules = context.window.EDMUND_GRAMMAR_THREE_SETS;
 assert.equal(modules.length, 6);
 assert.deepEqual(Array.from(modules, m => m.slug), ["so", "modal-verbs", "unless", "reported-speech", "phrasal-verbs", "relative-clauses"]);
 for (const module of modules) {
-  const total = module.slug === "reported-speech" ? 44 : module.slug === "phrasal-verbs" ? 74 : module.slug === "relative-clauses" ? 82 : 150;
+  const total = module.slug === "reported-speech" ? 44 : module.slug === "phrasal-verbs" ? 74 : module.slug === "relative-clauses" ? 482 : 150;
   assert.equal(module.questions.length, total);
   assert.deepEqual(Array.from(module.questions, q => q.number), Array.from({ length: total }, (_, n) => n + 1));
   for (const q of module.questions) {
@@ -100,4 +100,4 @@ const modal = modules[1].questions[14];
 assert.equal(modal.mode, 'exact');
 assert.deepEqual(Array.from(modal.answers), ["don't have to", "needn't", "don't need to"]);
 dom.window.close();
-console.log("Grammar practice passed: 650 sourced items, seven steps each, MC marking, navigation, review and guide routing.");
+console.log("Grammar practice passed: 1,050 sourced items, seven steps each, MC marking, navigation, review and guide routing.");

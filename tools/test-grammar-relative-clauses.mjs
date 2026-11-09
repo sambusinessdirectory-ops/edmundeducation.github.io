@@ -5,8 +5,9 @@ import { createRequire } from "node:module";
 
 const root = new URL("../", import.meta.url);
 const read = name => fs.readFile(new URL(name, root), "utf8");
-const [source, generated, sourceMapText, html, guideRuntime, practiceRuntime, propagation] = await Promise.all([
+const [source, extensionText, generated, sourceMapText, html, guideRuntime, practiceRuntime, propagation] = await Promise.all([
   read("course-materials/grammar/source/relative-clauses-student-reading-guide-224.md"),
+  read("course-materials/grammar/source/relative-clauses-practice-400.json"),
   read("grammar-relative-clauses-data.js"),
   read("course-materials/grammar/relative-clauses-source-map.json"),
   read("grammar-system.html"), read("grammar-new-curations.js"), read("grammar-three-sets.js"),
@@ -17,6 +18,7 @@ const context = { window: { EDMUND_GRAMMAR_NEW_CURATIONS_DATA: [], EDMUND_GRAMMA
 vm.runInNewContext(generated, context);
 const { guide, practice } = context.window.EDMUND_GRAMMAR_RELATIVE_CLAUSES;
 const sourceMap = JSON.parse(sourceMapText);
+const extension = JSON.parse(extensionText);
 const sourceRules = [...source.matchAll(/^###\s+(RC\.\d{2}\.\d{2})\s+—\s+(.+)$/gm)];
 const sourceDiagnostics = [...source.matchAll(/^###\s+(D\d{3})\s*$/gm)];
 assert.equal(sourceRules.length, 224);
@@ -27,7 +29,7 @@ for (const label of ["① 先明白意思", "② 看英文例句", "③ 看中�
 }
 assert.equal(guide.slug, "relative-clauses");
 assert.equal(guide.count, 224);
-assert.equal(guide.practiceCount, 82);
+assert.equal(guide.practiceCount, 482);
 assert.equal([...guide.html.matchAll(/data-concept-number="RC\.\d{2}\.\d{2}"/g)].length, 224);
 assert.match(guide.html, /Final Coverage Check/);
 assert.match(guide.html, /Reference Tables/);
@@ -38,9 +40,15 @@ assert.equal(new Set(sourceMap.guide.rules.map(rule => rule.dialogueNote)).size,
 assert.ok(sourceMap.guide.rules.every(rule => rule.dialogueNote.length >= 12));
 assert.ok(sourceMap.guide.rules.every(rule => !rule.dialogueNote.includes("##")), "chapter headings must not leak into Eddy dialogue");
 
-assert.equal(practice.questions.length, 82);
-assert.deepEqual(Array.from(practice.questions, q => q.number), Array.from({length:82}, (_, i) => i + 1));
-assert.equal(practice.questions.filter(q => q.mode === "self-review").length, 12);
+assert.equal(extension.questionCount, 400);
+assert.equal(extension.explanationStepCount, 2800);
+assert.equal(extension.units.length, 16);
+assert.deepEqual(extension.questions.map(q => q.sourceNumber), Array.from({length:400}, (_, i) => i + 1));
+assert.ok(extension.questions.every(q => q.steps.length === 7));
+assert.equal(practice.questions.length, 482);
+assert.deepEqual(Array.from(practice.questions, q => q.number), Array.from({length:482}, (_, i) => i + 1));
+assert.equal(practice.questions.slice(82).filter(q => q.mode === "exact").length, 195);
+assert.equal(practice.questions.slice(82).filter(q => q.mode === "self-review").length, 205);
 for (const question of practice.questions) {
   assert.equal(question.steps.length, 7);
   assert.ok(question.prompt && question.translation && question.answer && question.topic);
@@ -52,7 +60,15 @@ for (const question of practice.questions) {
 }
 assert.equal(practice.questions[0].answer, "who");
 assert.equal(practice.questions[81].answer, "Sam");
-assert.equal(sourceMap.practice.questionCount, 82);
+assert.equal(practice.questions[82].answer, "who");
+assert.equal(practice.questions[481].answer, "The story that I heard was strange.");
+assert.equal(practice.questions[84].prompt, "Choose who / which:\nI met a man _____ works at the library.");
+assert.equal(practice.questions[82].prompt, "Choose who / which:\nThe girl _____ lives next door is kind.");
+assert.ok(practice.questions.slice(82).every(q => !q.prompt.match(/^[^\n:]+:[ \t]+\S/)), "instruction and exercise sentence must not share one line");
+assert.equal(sourceMap.practice.questionCount, 482);
+assert.equal(sourceMap.practiceExtension.questionCount, 400);
+assert.equal(sourceMap.practiceExtension.explanationStepCount, 2800);
+assert.deepEqual(sourceMap.practice.questions.slice(82).map(q => q.sourceQuestion), Array.from({length:400}, (_, i) => i + 1));
 
 const extensionIndex = html.indexOf("grammar-relative-clauses-data.js");
 assert.ok(extensionIndex > html.indexOf("grammar-reported-speech-data.js"));
@@ -90,4 +106,4 @@ assert.match(cards[31].querySelector('img').src, /eddy-32\.webp/);
 assert.match(cards[32].querySelector('img').src, /eddy-01\.webp/);
 assert.ok(view.querySelectorAll('.grammar-new-appendix').length >= 3, "overview and references must remain available");
 dom.window.close();
-console.log("Relative Clauses passed: 224 six-step Eddy cards, complete appendices, 82 diagnostics and 82 seven-step rationales.");
+console.log("Relative Clauses passed: 224 six-step Eddy cards, complete appendices, 482 exercises and 3,374 seven-step rationale steps.");
