@@ -18,10 +18,11 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # One Pages attempt may consume the action's ten-minute timeout. Leave
-    # enough room for a bounded reconciliation check and one artifact-reusing
-    # retry, but never loop indefinitely.
-    timeout-minutes: 30
+    # A large Pages artifact can remain in GitHub's deployment service beyond
+    # the old ten-minute response window. Leave enough room for a bounded
+    # reconciliation check and one artifact-reusing retry, but never loop
+    # indefinitely.
+    timeout-minutes: 40
     permissions:
       actions: read
       contents: read
@@ -109,7 +110,7 @@ jobs:
         uses: actions/deploy-pages@v5
         with:
           artifact_name: ${{ inputs.artifact_name }}
-          timeout: 600000
+          timeout: 900000
           error_count: 30
 
       - name: Reconcile a failed Pages response before retrying
@@ -148,7 +149,7 @@ jobs:
         uses: actions/deploy-pages@v5
         with:
           artifact_name: ${{ inputs.artifact_name }}
-          timeout: 600000
+          timeout: 900000
           error_count: 30
 
       - name: Require the candidate to be public after deployment
