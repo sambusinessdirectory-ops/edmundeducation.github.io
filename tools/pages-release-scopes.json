@@ -159,6 +159,7 @@
       "tools/audit-essay-memory-release.mjs",
       "tools/test-essay-*.mjs",
       "tools/test-writing-*.mjs",
+      "supabase/migrations/20261110124500_essay_memory_realtime_progress.sql",
       "workers/writing-submission/**"
     ],
     "[polysemy-release]": [
