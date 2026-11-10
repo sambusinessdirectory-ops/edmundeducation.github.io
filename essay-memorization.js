@@ -606,7 +606,7 @@
       }
       document.querySelector('.setup-card').after(gallery);
     }
-    document.querySelector('.pilot-note').textContent = `${essayLabel} · 選擇題及重組由系統核對；朗讀錄音只儲存在此瀏覽器的範文背書收藏，口說內容須自行重聽核對。進度自動儲存在本機；可下載備份及載入進度檔。`;
+    document.querySelector('.pilot-note').textContent = `${essayLabel} · 選擇題及重組由系統核對；朗讀錄音只儲存在此瀏覽器的範文背書收藏，口說內容須自行重聽核對。學習進度會自動同步至同一學生帳戶的其他裝置；亦可下載備份及載入進度檔。`;
   }
   document.querySelectorAll('[data-memory-essay]').forEach(link => { if (link.dataset.memoryEssay === (isPilot ? 'opinion:80' : requestedKey)) link.setAttribute('aria-current', 'page'); });
   const audio = new Audio(essay.audio);
@@ -622,9 +622,32 @@
   applyFontSize();
   let segmentEnd = null;
   let audioButton = null;
-  function progressSnapshot() { return {stageOrder:"20261028",mapFormat:"paragraph-v1",vocabularyFormat:"paired-v1",stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,hintRetry:Object.fromEntries([...freshRecordingRequired].map(key=>[key,true])),savedAt:new Date().toISOString()}; }
+  const memoryKey = isPilot ? 'opinion:80' : requestedKey;
+  const syncVersion = '20261110-realtime-v1';
+  let lastSavedAt = saved.savedAt || new Date().toISOString();
+  let lastSnapshot = null;
+  let applyingRemoteProgress = false;
+  let cloudReady = false;
+  let cloudRevision = 0;
+  let cloudPending = null;
+  let cloudBusy = false;
+  let cloudTimer = 0;
+  let cloudRetryTimer = 0;
+  let classroomLive = null;
+  function progressSnapshot() { return {stageOrder:"20261028",mapFormat:"paragraph-v1",vocabularyFormat:"paired-v1",stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,hintRetry:Object.fromEntries([...freshRecordingRequired].map(key=>[key,true])),savedAt:lastSavedAt}; }
   function save() {
-    try { localStorage.setItem(storageKey,JSON.stringify(progressSnapshot()));$('#save-status').textContent='已儲存在此瀏覽器 · '+new Date().toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});return true; }
+    lastSavedAt = new Date().toISOString();
+    lastSnapshot = progressSnapshot();
+    try {
+      localStorage.setItem(storageKey,JSON.stringify(lastSnapshot));
+      if (applyingRemoteProgress) $('#save-status').textContent='已同步至此裝置 · '+new Date().toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});
+      else {
+        $('#save-status').textContent=navigator.onLine?'已儲存 · 正在同步帳戶…':'已儲存在此裝置 · 連線後自動同步';
+        queueCloudSave(lastSnapshot);
+        classroomLive?.publish();
+      }
+      return true;
+    }
     catch {$('#save-status').textContent='瀏覽器未能儲存，請下載備份以保留進度。';return false;}
   }
   function validatedSelection(stage,step,selection) {
@@ -638,6 +661,80 @@
     const p=migrateVocabularyProgress(migrateStageOrder(data.progress));if(p.mapFormat!=='paragraph-v1' && p.stage===9)p.round=0;if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
     const solved={};for(const [key,value] of Object.entries(p.solved||{})){const [stage,step]=key.split(':').map(Number);if(p.mapFormat!=='paragraph-v1' && stage===9)continue;if(/^\d+:\d+$/.test(key)&&stageDefinitions[stage]?.rounds[step]&&[1,2].includes(value))solved[key]=value;}
     return {stage:p.stage,round:p.mapFormat!=='paragraph-v1' && p.stage===9 ? 0 : p.round,unlocked:0,solved,selection:validatedSelection(p.stage,p.round,p.selection),hadMistake:p.hadMistake===true,hintRetry:p.hintRetry&&typeof p.hintRetry==='object'?p.hintRetry:{},completed:false};
+  }
+
+  function normalizeSyncedProgress(value) {
+    const p=migrateVocabularyProgress(migrateStageOrder(value||{}));
+    if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])return null;
+    const solved={};
+    for(const [key,score] of Object.entries(p.solved||{})){
+      const [stage,step]=key.split(':').map(Number);
+      if(/^\d+:\d+$/.test(key)&&stageDefinitions[stage]?.rounds[step]&&[1,2].includes(score))solved[key]=score;
+    }
+    return {stageOrder:'20261028',mapFormat:'paragraph-v1',vocabularyFormat:'paired-v1',stage:p.stage,round:p.round,
+      unlocked:Number.isInteger(p.unlocked)?Math.max(0,Math.min(p.unlocked,stageDefinitions.length)):0,solved,
+      completed:p.completed===true,selection:validatedSelection(p.stage,p.round,p.selection),hadMistake:p.hadMistake===true,
+      hintRetry:p.hintRetry&&typeof p.hintRetry==='object'?p.hintRetry:{},savedAt:typeof p.savedAt==='string'?p.savedAt:new Date(0).toISOString()};
+  }
+  function mergeSyncedProgress(localValue,remoteValue) {
+    const local=normalizeSyncedProgress(localValue),remote=normalizeSyncedProgress(remoteValue);
+    if(!local)return remote;if(!remote)return local;
+    const newest=Date.parse(remote.savedAt)>=Date.parse(local.savedAt)?remote:local;
+    const solved={...remote.solved};
+    for(const [key,score] of Object.entries(local.solved))solved[key]=Math.max(score,solved[key]||0);
+    return {...newest,solved,completed:local.completed||remote.completed};
+  }
+  function applySyncedProgress(value,{feedbackMessage='',feedbackKind=''}={}) {
+    const progress=normalizeSyncedProgress(value);if(!progress)return false;
+    applyingRemoteProgress=true;
+    Object.assign(state,progress,{transitioning:false,revealTranslation:false,checks:[]});
+    lastSavedAt=progress.savedAt;
+    freshRecordingRequired.clear();
+    Object.keys(progress.hintRetry).forEach(key=>{if(progress.hintRetry[key]===true)freshRecordingRequired.add(key);});
+    hintShown.clear();hintUsed.clear();attemptRecordingReady.clear();
+    if(state.completed&&stageDefinitions.every((stage,i)=>stage.rounds.every((_,j)=>state.solved[`${i}:${j}`])))renderEnd();else render();
+    if(feedbackMessage)feedback(feedbackMessage,feedbackKind);
+    applyingRemoteProgress=false;
+    return true;
+  }
+  function queueCloudSave(snapshot) {
+    cloudPending=structuredClone(snapshot);
+    if(!cloudReady)return;
+    clearTimeout(cloudTimer);
+    cloudTimer=setTimeout(()=>void flushCloudSave(),350);
+  }
+  async function flushCloudSave() {
+    if(!cloudReady||cloudBusy||!cloudPending)return;
+    cloudBusy=true;const outgoing=cloudPending;cloudPending=null;
+    try {
+      const result=await window.EssayMemoryAuth.rpc('essay_memory_progress_sync',{p_token:window.EssayMemoryAuth.user.token,p_essay_key:memoryKey,p_content_version:syncVersion,p_base_revision:cloudRevision,p_progress:outgoing,p_mutation:crypto.randomUUID()});
+      cloudRevision=Number(result?.revision)||cloudRevision;
+      const canonical=mergeSyncedProgress(outgoing,result?.progress);
+      if(cloudPending)cloudPending=mergeSyncedProgress(cloudPending,canonical);
+      else if(canonical&&JSON.stringify(canonical)!==JSON.stringify(lastSnapshot))applySyncedProgress(canonical);
+      $('#save-status').textContent='已同步至帳戶 · '+new Date().toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});
+    } catch {
+      cloudPending=mergeSyncedProgress(cloudPending,outgoing);
+      $('#save-status').textContent='同步暫停 · 本機進度已保留，連線後自動重試';
+      clearTimeout(cloudRetryTimer);cloudRetryTimer=setTimeout(()=>void flushCloudSave(),5000);
+    } finally {
+      cloudBusy=false;
+      if(cloudPending&&navigator.onLine){clearTimeout(cloudTimer);cloudTimer=setTimeout(()=>void flushCloudSave(),350);}
+    }
+  }
+  async function hydrateCloudProgress() {
+    try {
+      const result=await window.EssayMemoryAuth.rpc('essay_memory_progress_sync',{p_token:window.EssayMemoryAuth.user.token,p_essay_key:memoryKey,p_content_version:syncVersion,p_base_revision:0,p_progress:null,p_mutation:null});
+      cloudRevision=Number(result?.revision)||0;
+      const merged=mergeSyncedProgress(lastSnapshot||progressSnapshot(),result?.progress);
+      cloudReady=true;
+      if(merged)applySyncedProgress(merged);
+      queueCloudSave(merged||lastSnapshot||progressSnapshot());
+    } catch {
+      cloudReady=true;
+      $('#save-status').textContent='帳戶同步暫停 · 本機進度已保留';
+      queueCloudSave(lastSnapshot||progressSnapshot());
+    }
   }
 
   const roundKey = () => `${state.stage}:${state.round}`;
@@ -671,6 +768,7 @@
     const element = $('#feedback');
     element.textContent = message;
     element.className = `feedback ${kind}`;
+    classroomLive?.publish();
   }
   function playAudio(start = 0, end = null, button = null) {
     if (!audio.paused) audio.pause();
@@ -835,6 +933,21 @@
   const hintShown = new Set();
   const hintUsed = new Set();
   let recorder = null, microphone = null, recordedChunks = [], recordStartedAt = 0, recordingCancelled = false;
+  void import('./classroom-live-sync.mjs?v=20261110-essay1').then(({createClassroomLiveSync})=>{
+    if(lifecycle.signal.aborted)return;
+    classroomLive=createClassroomLiveSync({
+      system:'essay-memory',
+      context:()=>({owner:studentId,token:window.EssayMemoryAuth?.user?.token,scope:`${syncVersion}:${memoryKey}`,active:!switching}),
+      rpc:window.EssayMemoryAuth.rpc,
+      read:()=>lastSnapshot?{version:syncVersion,essayKey:memoryKey,progress:lastSnapshot,feedback:{message:$('#feedback')?.textContent||'',kind:$('#feedback')?.classList.contains('success')?'success':$('#feedback')?.classList.contains('error')?'error':''}}:null,
+      apply:payload=>{
+        if(payload?.version!==syncVersion||payload?.essayKey!==memoryKey||!payload.progress)return;
+        applySyncedProgress(payload.progress,{feedbackMessage:payload.feedback?.message||'',feedbackKind:payload.feedback?.kind||''});
+      }
+    });
+    classroomLive.publish();
+  }).catch(()=>{});
+  window.addEventListener('online',()=>{classroomLive?.refresh();void flushCloudSave();},{signal:lifecycle.signal});
   EssayMemoryRecordings.list().then(records => {records.forEach(record=>savedRecordings.add(record.id));if(round().type==='speaking')$('#game-card').innerHTML=renderSpeaking(round());}).catch(()=>{});
   // Keep saved recording identifiers stable when the repeated stage is removed.
   const recordingId=()=>`${isPilot?'essay80':essay.id+'-memory'}-${state.stage>=7?state.stage+1:state.stage}-${state.round}`;
@@ -1082,6 +1195,10 @@
 
   activeDispose = () => {
     lifecycle.abort();
+    classroomLive?.stop();
+    clearTimeout(cloudTimer);
+    clearTimeout(cloudRetryTimer);
+    if(cloudPending)void flushCloudSave();
     appObservers.forEach(observer=>observer.disconnect());
     audio.pause();
     cancelAnimationFrame(playbackFrame);
@@ -1089,6 +1206,7 @@
     segmentEnd = null;
   };
   if (state.completed && stageDefinitions.every((stage,i)=>stage.rounds.every((_,j)=>state.solved[`${i}:${j}`]))) renderEnd(); else render();
+  void hydrateCloudProgress();
   window.EssayMemoryTerminalHUD?.init?.();
   }
 
