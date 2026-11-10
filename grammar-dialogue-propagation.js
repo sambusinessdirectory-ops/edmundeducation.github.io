@@ -52,7 +52,7 @@
     view.addEventListener("toggle", () => engine.schedule(view), true);
     new MutationObserver(() => engine.schedule(view)).observe(view, {attributes:true, attributeFilter:["hidden"]});
   }
-  for (const view of document.querySelectorAll('[data-new-grammar-curation="so"], [data-new-grammar-curation="modal"], [data-new-grammar-curation="reported-speech"], [data-new-grammar-curation="phrasal-verbs"], [data-new-grammar-curation="relative-clauses"], [data-new-grammar-curation="passive-voice"], [data-new-grammar-curation="prepositions"]')) {
+  for (const view of document.querySelectorAll('[data-new-grammar-curation="so"], [data-new-grammar-curation="modal"], [data-new-grammar-curation="reported-speech"], [data-new-grammar-curation="phrasal-verbs"], [data-new-grammar-curation="relative-clauses"], [data-new-grammar-curation="passive-voice"], [data-new-grammar-curation="prepositions"], [data-new-grammar-curation="conditionals"]')) {
     view.dataset.eddyModule = view.dataset.newGrammarCuration;
     views.push(view);
   }

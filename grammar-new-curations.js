@@ -15,7 +15,7 @@
   const allViews = [];
 
   function addChalkColors(copy, ruleIndex) {
-    const terms = /(\b(?:passive voice|active voice|passive|active|past participle|by|with|being|been|get|got|have something done|relative clause|relative word|who|whom|whose|which|that|where|when|why|zero relative|defining|non-defining|phrasal verb|particle|separable|inseparable|preposition|prepositional phrase|in|on|at|to|for|from|into|onto|through|across|over|under|between|among|unless|not|if|said|told|asked|reported|reporting verb|reported speech|direct speech|indirect speech|whether|no one|someone|somebody|something|somewhere|anyone|anybody|anything|anywhere|nobody|nothing|nowhere|everyone|everybody|everything|everywhere|elsewhere)\b|被動語態|主動語態|被動|主動|過去分詞|做事的人|受到動作影響|介詞短語|關係子句|關係字|限定|補充|逗號|所屬|介詞|縮短|自由關係|整件事|動詞組合|短字|物件|可分開|不能分開|三字組合|字序|轉述|直接引語|間接引語|說話者|聽者|人稱|時態|時間|地點|方向|方法|位置|工具|原因|比較|固定配搭|除非|例外|否定|主句|條件|現在式|過去|未來|動詞|例句|改寫|範圍|短答|某個|任選|沒有|全部|人|事物|地方)/giu;
+    const terms = /(\b(?:passive voice|active voice|passive|active|past participle|by|with|being|been|get|got|have something done|relative clause|relative word|who|whom|whose|which|that|where|when|why|zero relative|defining|non-defining|phrasal verb|particle|separable|inseparable|preposition|prepositional phrase|in|on|at|to|for|from|into|onto|through|across|over|under|between|among|conditional|conditionals|Type 0|Type 1|Type 2|Type 3|mixed conditional|unless|provided that|providing that|as long as|even if|in case|if only|only if|would|could|might|should|had|were|not|if|said|told|asked|reported|reporting verb|reported speech|direct speech|indirect speech|whether|no one|someone|somebody|something|somewhere|anyone|anybody|anything|anywhere|nobody|nothing|nowhere|everyone|everybody|everything|everywhere|elsewhere)\b|被動語態|主動語態|被動|主動|過去分詞|做事的人|受到動作影響|介詞短語|關係子句|關係字|限定|補充|逗號|所屬|介詞|縮短|自由關係|整件事|動詞組合|短字|物件|可分開|不能分開|三字組合|字序|轉述|直接引語|間接引語|說話者|聽者|人稱|時態|時間|地點|方向|方法|位置|工具|原因|比較|固定配搭|條件句|混合條件句|假設|想像|倒裝|除非|例外|否定|主句|條件|結果|現在式|過去|未來|動詞|例句|改寫|範圍|短答|某個|任選|沒有|全部|人|事物|地方)/giu;
     const colors = ["purple", "yellow", "mint"];
     let colorIndex = ruleIndex;
     function visit(parent) {
@@ -48,7 +48,7 @@
     const isIndefinite = view.dataset.newGrammarCuration !== "unless";
     // The Indefinite Pronouns cards use the assigned Grammar taeching rule 1–33 artwork.
     // The Unless guide retains its original 24-pose cycle.
-    const poseCount = ["phrasal-verbs", "relative-clauses", "passive-voice", "prepositions"].includes(view.dataset.newGrammarCuration) ? 32 : isIndefinite ? 33 : 24;
+    const poseCount = ["phrasal-verbs", "relative-clauses", "passive-voice", "prepositions", "conditionals"].includes(view.dataset.newGrammarCuration) ? 32 : isIndefinite ? 33 : 24;
     const poses = Array.from({ length: poseCount }, (_, index) =>
       `${EDDY_MEDIA_ORIGIN}/grammar-eddy-dialogues/unless/eddy-${String(index + 1).padStart(2, "0")}.webp?v=${EDDY_POSE_VERSION}`);
     const summaryForUnlistedEnding = {
@@ -309,7 +309,7 @@
       }
     }
     const referenceSlug = view.dataset.newGrammarCuration;
-    const collapsibleReferenceModules = new Set(["relative-clauses", "passive-voice", "prepositions"]);
+    const collapsibleReferenceModules = new Set(["relative-clauses", "passive-voice", "prepositions", "conditionals"]);
     if (collapsibleReferenceModules.has(referenceSlug)) {
       const reference = document.createElement("details");
       reference.className = "grammar-relative-reference";
@@ -368,9 +368,14 @@
   }
 
   lessons.forEach((lesson, index) => {
+    const hasPractice = Number(lesson.practiceCount) > 0 && !lesson.readingOnly;
+    const moduleKind = hasPractice ? `CURATION + ${lesson.practiceCount} QUESTIONS` : "READING GUIDE";
+    const moduleDescription = hasPractice
+      ? `${lesson.count} 個編號教學重點，附英文例句、繁體中文解說及用法對照；再練習 ${lesson.practiceCount} 題。`
+      : `${lesson.count} 個編號教學重點，附英文例句、繁體中文解說、用法對照及每課專屬 Eddy 提示。`;
     const card = document.createElement("article");
     card.className = "grammar-lesson-card grammar-lesson-card--new-curation";
-    card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · CURATION + ${lesson.practiceCount || 150} QUESTIONS</p><h3>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h3><p>${lesson.count} 個編號教學重點，附英文例句、繁體中文解說及用法對照；再練習 ${lesson.practiceCount || 150} 題。</p></div><div class="grammar-lesson-card__stats"><button class="grammar-button" type="button">閱讀導讀</button></div>`;
+    card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · ${moduleKind}</p><h3>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h3><p>${moduleDescription}</p></div><div class="grammar-lesson-card__stats"><button class="grammar-button" type="button">閱讀導讀</button></div>`;
     library.append(card);
 
     const view = document.createElement("section");
