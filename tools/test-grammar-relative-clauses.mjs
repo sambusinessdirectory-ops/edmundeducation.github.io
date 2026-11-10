@@ -42,6 +42,7 @@ assert.ok(sourceMap.guide.rules.every(rule => !rule.dialogueNote.includes("##"))
 
 assert.equal(extension.questionCount, 400);
 assert.equal(extension.explanationStepCount, 2800);
+assert.equal(extension.sourceFile, "Relative Clauses｜400 題學生視角深度解析【修訂第二版】.docx");
 assert.equal(extension.units.length, 16);
 assert.deepEqual(extension.questions.map(q => q.sourceNumber), Array.from({length:400}, (_, i) => i + 1));
 assert.ok(extension.questions.every(q => q.steps.length === 7));
@@ -62,6 +63,11 @@ assert.equal(practice.questions[0].answer, "who");
 assert.equal(practice.questions[81].answer, "Sam");
 assert.equal(practice.questions[82].answer, "who");
 assert.equal(practice.questions[481].answer, "The story that I heard was strange.");
+assert.match(practice.questions[82].steps[0].body, /住在隔壁的女孩很友善/);
+assert.match(practice.questions[164].steps[3].body, /pupil 在 understands 這一層作主語/);
+assert.match(practice.questions[481].steps[5].body, /標準學校書面語/);
+assert.doesNotMatch(extensionText, /而是/);
+assert.doesNotMatch(JSON.stringify(practice.questions.slice(82)), /而是/);
 assert.equal(practice.questions[84].prompt, "Choose who / which:\nI met a man _____ works at the library.");
 assert.equal(practice.questions[82].prompt, "Choose who / which:\nThe girl _____ lives next door is kind.");
 assert.ok(practice.questions.slice(82).every(q => !q.prompt.match(/^[^\n:]+:[ \t]+\S/)), "instruction and exercise sentence must not share one line");
@@ -74,6 +80,7 @@ const extensionIndex = html.indexOf("grammar-relative-clauses-data.js");
 assert.ok(extensionIndex > html.indexOf("grammar-reported-speech-data.js"));
 assert.ok(extensionIndex < html.indexOf("grammar-new-curations.js"));
 assert.ok(extensionIndex < html.indexOf("grammar-three-sets.js"));
+assert.match(html, /grammar-relative-clauses-data\.js\?v=20261110-recurated1/);
 assert.match(guideRuntime, /relative clause/i);
 assert.match(practiceRuntime, /multiple-choice/);
 assert.match(propagation, /relative-clauses/);

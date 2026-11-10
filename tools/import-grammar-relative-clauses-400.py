@@ -21,6 +21,17 @@ QUESTION_RE = re.compile(r"^第\s*(\d+)\s*題｜(.+)$")
 UNIT_RE = re.compile(r"^單元\s*(\d+)｜(.+?)（(\d+)\s*題）$")
 TOPIC_RE = re.compile(r"^對應課節：\s*(RC\.\d{2}\.\d{2})\s*[—-]\s*(.+)$")
 STEP_RE = re.compile(r"^步驟([一二三四五六七])：([^\s]+(?:\s*[^\s]+)*?)\s{2,}(.+)$")
+STEP_TITLE_RE = re.compile(r"^步驟([一二三四五六七])：(.+)$")
+
+
+def remove_prohibited_structure(value: str) -> str:
+    """Preserve the user's preferred Chinese style in published explanations."""
+    value = re.sub(
+        r"(?:並)?不是([^。；\n]{1,180})，而是([^。；\n]{1,220})",
+        r"重點在於\2，並非\1",
+        value,
+    )
+    return value.replace("反而是", "反倒成為").replace("而是", "實際是")
 
 
 def after_label(value: str, label: str) -> str:
@@ -75,17 +86,34 @@ def parse_questions(docx_path: Path) -> dict:
             raise ValueError(f"Question {number} has invalid topic line: {block[1]}")
         chinese_index = next((index for index, line in enumerate(block) if line.startswith("中文情境：")), -1)
         answer_index = next((index for index, line in enumerate(block) if line.startswith("參考答案：")), -1)
-        explanation_index = next((index for index, line in enumerate(block) if line == "本題完整解析"), -1)
+        explanation_index = next((index for index, line in enumerate(block) if line.startswith("本題完整解析")), -1)
         if min(chinese_index, answer_index, explanation_index) < 0:
             raise ValueError(f"Question {number} is missing a required labelled field")
-        if explanation_index + 8 != len(block):
-            raise ValueError(f"Question {number} is missing the explanation heading")
         steps = []
-        for step_index, line in enumerate(block[explanation_index + 1:], 1):
-            match = STEP_RE.match(line)
-            if not match:
-                raise ValueError(f"Question {number} has invalid step {step_index}: {line}")
-            steps.append({"title": f"步驟{match.group(1)}：{match.group(2).strip()}", "body": match.group(3).strip()})
+        explanation_lines = block[explanation_index + 1:]
+        if len(explanation_lines) == 7:
+            for step_index, line in enumerate(explanation_lines, 1):
+                match = STEP_RE.match(line)
+                if not match:
+                    raise ValueError(f"Question {number} has invalid combined step {step_index}: {line}")
+                steps.append({
+                    "title": f"步驟{match.group(1)}：{match.group(2).strip()}",
+                    "body": remove_prohibited_structure(match.group(3).strip()),
+                })
+        elif len(explanation_lines) == 14:
+            for step_index in range(7):
+                title = explanation_lines[step_index * 2]
+                body = explanation_lines[step_index * 2 + 1]
+                match = STEP_TITLE_RE.match(title)
+                expected = "一二三四五六七"[step_index]
+                if not match or match.group(1) != expected:
+                    raise ValueError(f"Question {number} has invalid split step {step_index + 1}: {title}")
+                steps.append({
+                    "title": f"步驟{match.group(1)}：{match.group(2).strip()}",
+                    "body": remove_prohibited_structure(body.strip()),
+                })
+        else:
+            raise ValueError(f"Question {number} has {len(explanation_lines)} explanation paragraphs")
         unit = unit_by_position[start]
         if not unit:
             raise ValueError(f"Question {number} is not assigned to a unit")
@@ -111,7 +139,7 @@ def parse_questions(docx_path: Path) -> dict:
             raise ValueError(f"Unit {unit['number']} declares {unit['declaredQuestionCount']} questions but contains {actual}")
     if sum(len(question["steps"]) for question in questions) != 2800:
         raise ValueError("Expected exactly 2,800 explanation steps")
-    return {
+    payload = {
         "sourceTitle": paragraphs[0],
         "sourceFile": docx_path.name,
         "unitCount": len(units),
@@ -120,6 +148,10 @@ def parse_questions(docx_path: Path) -> dict:
         "units": units,
         "questions": questions,
     }
+    serialized = json.dumps(payload, ensure_ascii=False)
+    if "而是" in serialized:
+        raise ValueError("Prohibited Chinese sentence structure remains in imported content")
+    return payload
 
 
 def main() -> None:
@@ -128,6 +160,21 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
     payload = parse_questions(args.docx)
+    if args.output.exists():
+        existing = json.loads(args.output.read_text(encoding="utf-8"))
+        stable_fields = (
+            "sourceNumber", "type", "unit", "unitTitle", "topic", "ruleTitle",
+            "prompt", "translation", "answer",
+        )
+        if existing.get("questionCount") != 400:
+            raise ValueError("Existing canonical source does not contain 400 questions")
+        for imported, current in zip(payload["questions"], existing["questions"], strict=True):
+            for field in stable_fields:
+                if imported[field] != current[field]:
+                    raise ValueError(
+                        f"Question {imported['sourceNumber']} changes {field}; "
+                        "this refresh is explanations-only"
+                    )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Imported {payload['questionCount']} questions and {payload['explanationStepCount']} steps to {args.output}")

@@ -39,7 +39,7 @@ await page.locator('[data-relative-mark=cross]').click();
 await page.locator('[data-relative-word="2"]').click();
 await page.locator('[data-relative-field=fix]').fill('whom');
 await page.locator('.error-id-feedback').waitFor();
-assert.equal(await page.locator('.relative-guide').count(), 6);
+assert.equal(await page.locator('.relative-guide').count(), 4);
 assert.match(await page.locator('.error-id-feedback').innerText(), /RC\.16\.01/);
 assert.match(await page.locator('[data-relative-progress]').innerText(), /^1 \/ 400/);
 await page.locator('[data-relative-paper]').selectOption('20');
@@ -54,4 +54,4 @@ await page.evaluate(() => { window.qaSession = {user:null, token:''}; dispatchEv
 assert.equal(await page.locator('.relative-workspace').isHidden(), true);
 assert.deepEqual(errors, []);
 await browser.close();
-console.log('PASS Module 4 has 400 questions, 20 sets, secure automatic feedback, six-step explanations, navigation, logout isolation and mobile layout.');
+console.log('PASS Module 4 has 400 questions, 20 sets, secure automatic feedback, four-part recurated explanations, navigation, logout isolation and mobile layout.');

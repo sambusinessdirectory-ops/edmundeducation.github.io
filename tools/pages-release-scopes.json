@@ -175,6 +175,7 @@
       "course-materials/grammar/**",
       "grammar-*",
       "tools/build-grammar-*.py",
+      "tools/import-grammar-*.py",
       "tools/test-grammar-*.mjs"
     ],
     "[native-release]": [
@@ -314,6 +315,8 @@
       "error-identifier-*",
       "supabase/migrations/*error_identifier*",
       "supabase/migrations/*indefinite_pronouns*",
+      "supabase/migrations/*relative_clause*",
+      "tools/import-error-identifier-*.py",
       "tools/test-error-identifier-*.mjs",
       "tools/test-indefinite-pronouns-import.mjs"
     ],

@@ -41,7 +41,7 @@
   dashboard.insertAdjacentHTML('beforeend', `
     <section class="error-id-workspace relative-workspace" hidden>
       <button class="error-id-back" data-relative-back>← 返回模式選擇</button>
-      <div class="error-id-intro"><div><p class="eyebrow">MODULE 4 · RELATIVE CLAUSES</p><h2>Relative Clause · 關係子句校對</h2><p>每題選 ✓ 或 ✕；有錯時選出錯誤字詞，再填改法。完成後會自動儲存並顯示六步中文解說。</p></div><strong data-relative-progress></strong></div>
+      <div class="error-id-intro"><div><p class="eyebrow">MODULE 4 · RELATIVE CLAUSES</p><h2>Relative Clause · 關係子句校對</h2><p>每題選 ✓ 或 ✕；有錯時選出錯誤字詞，再填改法。完成後會自動儲存並顯示四部分中文解說。</p></div><strong data-relative-progress></strong></div>
       <label class="relative-paper">選擇練習卷 <select data-relative-paper>${Array.from({length:20}, (_, index) => `<option value="${index + 1}">練習 ${String(index + 1).padStart(2, '0')} · 第 ${index * 20 + 1}–${index * 20 + 20} 題</option>`).join('')}</select></label>
       <nav class="relative-numbers" aria-label="本卷題目" data-relative-numbers></nav>
       <div data-relative-question></div>
@@ -75,7 +75,7 @@
     const mine = submitted.mark === 'tick' ? '✓ 正確' : `✕ ${esc(submitted.wrong)} → ${esc(submitted.fix)}`;
     const expected = answer.mark === 'tick' ? '✓ 原句正確，無須修改。' : `✕ ${esc(answer.wrong)} → ${esc(answer.fix)}`;
     const guides = (answer.steps || []).map(step => `<div class="relative-guide"><strong>${esc(cleanChineseWraps(step.title))}</strong><p>${esc(cleanChineseWraps(step.body))}</p></div>`).join('');
-    return `<section class="error-id-feedback"><div class="error-id-feedback__heading"><div><p class="eyebrow">REFERENCE ANSWER</p><h3>參考答案與解說</h3></div><span class="${same ? 'is-match' : 'is-different'}">${same ? '判斷吻合' : '判斷需修正'}</span></div><div class="error-id-feedback__compare"><div><small>你的提交</small><p lang="en">${mine}</p></div><div><small>參考改法</small><p lang="en">${expected}</p></div></div><p class="error-id-feedback__sentence"><b>完整句子</b><span lang="en">${esc(answer.correct_sentence)}</span></p><div class="error-id-feedback__reason"><span>${esc(answer.rule)}</span><p>展開下方六個步驟，逐項核對本句的意思、定位、規則與改法。</p></div><details><summary>六步中文解說</summary>${guides}</details></section>`;
+    return `<section class="error-id-feedback"><div class="error-id-feedback__heading"><div><p class="eyebrow">REFERENCE ANSWER</p><h3>參考答案與解說</h3></div><span class="${same ? 'is-match' : 'is-different'}">${same ? '判斷吻合' : '判斷需修正'}</span></div><div class="error-id-feedback__compare"><div><small>你的提交</small><p lang="en">${mine}</p></div><div><small>參考改法</small><p lang="en">${expected}</p></div></div><p class="error-id-feedback__sentence"><b>完整句子</b><span lang="en">${esc(answer.correct_sentence)}</span></p><div class="error-id-feedback__reason"><span>${esc(answer.rule)}</span><p>展開下方四部分解說，逐項核對本句的意思、疑問、對照與判斷方法。</p></div><details><summary>四部分中文解說</summary>${guides}</details></section>`;
   }
 
   function render() {
