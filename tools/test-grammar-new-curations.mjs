@@ -4,23 +4,29 @@ import vm from "node:vm";
 import { createRequire } from "node:module";
 
 const read = (path) => fs.readFile(new URL(`../${path}`, import.meta.url), "utf8");
-const [dataScript, reportedSpeechData, runtime, html, css] = await Promise.all([
+const [dataScript, reportedSpeechData, conditionalsData, conditionalsSource, conditionalsMapText, runtime, html, css] = await Promise.all([
   read("grammar-new-curations-data.js"), read("grammar-reported-speech-data.js"),
+  read("grammar-conditionals-data.js"),
+  read("course-materials/grammar/source/conditionals-student-reading-guide-298.md"),
+  read("course-materials/grammar/conditionals-source-map.json"),
   read("grammar-new-curations.js"), read("grammar-system.html"), read("grammar-system.css")
 ]);
 const context = { window: {} };
 vm.runInNewContext(dataScript, context);
 context.window.EDMUND_GRAMMAR_THREE_SETS = [];
 vm.runInNewContext(reportedSpeechData, context);
+vm.runInNewContext(conditionalsData, context);
 const lessons = context.window.EDMUND_GRAMMAR_NEW_CURATIONS_DATA;
-assert.equal(lessons.length, 4);
-for (const [index, [slug, prefix, count]] of [["so", "S", 30], ["modal", "M", 42], ["unless", "U", 24], ["reported-speech", "RS", 148]].entries()) {
+assert.equal(lessons.length, 5);
+for (const [index, [slug, prefix, count]] of [["so", "S", 30], ["modal", "M", 42], ["unless", "U", 24], ["reported-speech", "RS", 148], ["conditionals", "CD", 298]].entries()) {
   const lesson = lessons[index];
   assert.equal(lesson.slug, slug);
   assert.equal(lesson.count, count);
   const ids = prefix === "RS"
     ? [...lesson.html.matchAll(/data-concept-number="(RS\.\d{2}\.\d{2})"/g)].map((match) => match[1])
-    : [...lesson.html.matchAll(new RegExp(`<h3>${prefix}(\\d\\d)｜`, "g"))].map((match) => Number(match[1]));
+    : prefix === "CD"
+      ? [...lesson.html.matchAll(/data-concept-number="(CD\.\d{2}\.\d{2})"/g)].map((match) => match[1])
+      : [...lesson.html.matchAll(new RegExp(`<h3>${prefix}(\\d\\d)｜`, "g"))].map((match) => Number(match[1]));
   assert.equal(ids.length, count);
   assert.ok(lesson.chapters.length >= 5);
   assert.doesNotMatch(lesson.html, /(?:診斷練習與答案|練習與解釋|七步示範|先做練習)/);
@@ -29,6 +35,7 @@ for (const [index, [slug, prefix, count]] of [["so", "S", 30], ["modal", "M", 42
   if (prefix !== "RS") assert.ok(lesson.html.includes("<table>"));
 }
 assert.match(html, /grammar-new-curations-data\.js\?v=/);
+assert.match(html, /grammar-conditionals-data\.js\?v=20261110-1/);
 assert.match(html, /grammar-new-curations\.js\?v=/);
 assert.match(css, /\.grammar-new-body table/);
 assert.match(css, /https:\/\/edmund-public-media\.edmundeducation\.workers\.dev\/grammar-eddy-dialogues\/blackboard-imagegen-framed-v2\.webp\?v=20261106-live-assets2/);
@@ -43,9 +50,10 @@ dom.window.eval(await read("grammar-dialogue-notes.js"));
 dom.window.eval(dataScript);
 dom.window.EDMUND_GRAMMAR_THREE_SETS = [];
 dom.window.eval(reportedSpeechData);
+dom.window.eval(conditionalsData);
 dom.window.eval(runtime);
 const { document } = dom.window;
-assert.equal(document.querySelectorAll(".grammar-lesson-card--new-curation").length, 4);
+assert.equal(document.querySelectorAll(".grammar-lesson-card--new-curation").length, 5);
 for (const [index, lesson] of lessons.entries()) {
   document.querySelectorAll(".grammar-lesson-card--new-curation button")[index].click();
   const section = document.querySelector(`[data-new-grammar-curation="${lesson.slug}"]`);
@@ -67,7 +75,29 @@ for (const [index, lesson] of lessons.entries()) {
   section.querySelector("[data-back-library]").click();
   assert.equal(document.querySelector("[data-grammar-library]").hidden, false);
 }
+const conditionals = lessons.find(lesson => lesson.slug === "conditionals");
+const conditionalsMap = JSON.parse(conditionalsMapText);
+assert.ok(conditionals?.readingOnly);
+assert.equal(conditionals.practiceCount, 0);
+assert.equal(conditionals.count, 298);
+assert.equal([...conditionals.html.matchAll(/data-concept-number="CD\.\d{2}\.\d{2}"/g)].length, 298);
+assert.equal([...conditionalsSource.matchAll(/^###\s+(CD\.\d{2}\.\d{2})\s+—\s+(.+)$/gm)].length, 298);
+assert.equal(conditionalsMap.guide.ruleCount, 298);
+assert.equal(conditionalsMap.guide.rules.length, 298);
+assert.equal(new Set(conditionalsMap.guide.rules.map(rule => rule.dialogueNote)).size, 298);
+assert.ok(conditionalsMap.guide.rules.every(rule => rule.dialogueNote.length >= 12));
+assert.equal((conditionals.html.match(/<table>/g) || []).length, 11);
+for (const part of ["PART IV", "PART V", "PART VI", "PART VII", "PART VIII", "PART X"]) assert.match(conditionals.html, new RegExp(part));
+assert.doesNotMatch(conditionals.html, /PART IX|D001|而是/);
+const conditionalsView = document.querySelector('[data-new-grammar-curation="conditionals"]');
+assert.equal(conditionalsView.querySelectorAll('.grammar-eddy-dialogue').length, 298);
+assert.equal(new Set([...conditionalsView.querySelectorAll('figcaption')].map(node => node.textContent.trim())).size, 298);
+assert.equal(conditionalsView.querySelector('.grammar-relative-reference')?.open, false);
+assert.equal(conditionalsView.querySelector('.grammar-new-stream')?.firstElementChild?.id, 'conditionals-rules-1');
+const conditionalsCard = [...document.querySelectorAll('.grammar-lesson-card--new-curation')].find(card => card.textContent.includes('Conditionals'));
+assert.match(conditionalsCard.textContent, /READING GUIDE/);
+assert.doesNotMatch(conditionalsCard.textContent, /QUESTIONS|150 題/);
 dom.window.close();
 const validationPaths = await read("tools/pages-validation-paths");
 assert.match(validationPaths, /^\/grammar-eddy-dialogues\/$/m, "production checkout must contain Eddy's grammar artwork");
-console.log("Grammar reading guides passed: 4 modules, 244 numbered points, no embedded exercise sections, and navigation.");
+console.log("Grammar reading guides passed: 5 modules including 298 reading-only Conditionals cards, no embedded answerless diagnostics, and navigation.");

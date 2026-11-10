@@ -1,0 +1,1500 @@
+{
+  "source": "course-materials/grammar/source/conditionals-student-reading-guide-298.md",
+  "sourceDocument": "Conditionals — Complete Student Reading Guide (298 lessons).docx",
+  "guide": {
+    "ruleCount": 298,
+    "readingOnly": true,
+    "rules": [
+      {
+        "id": "CD.01.01",
+        "title": "條件句先說一個情況，再說結果",
+        "dialogueNote": "不是每句含有 if 的話都一定在說條件；if 也可以表示「是否」。"
+      },
+      {
+        "id": "CD.01.02",
+        "title": "條件部分可放在句首",
+        "dialogueNote": "條件部分放句首時，普通書面英文常在兩部分之間加逗號。"
+      },
+      {
+        "id": "CD.01.03",
+        "title": "條件部分也可放句尾",
+        "dialogueNote": "條件放句尾時，通常不需要在 if 前加逗號。"
+      },
+      {
+        "id": "CD.01.04",
+        "title": "if 後面通常要有主語和動詞",
+        "dialogueNote": "If necessary、if possible 等固定短寫法另有規則。"
+      },
+      {
+        "id": "CD.01.05",
+        "title": "結果部分可以是命令",
+        "dialogueNote": "命令句中的動詞通常用本來的寫法，不用因為 you 加 -s。"
+      },
+      {
+        "id": "CD.01.06",
+        "title": "結果部分可以是問句",
+        "dialogueNote": "If 部分通常維持普通陳述次序；不要寫成 if will it rain。"
+      },
+      {
+        "id": "CD.01.07",
+        "title": "結果部分可以是否定句",
+        "dialogueNote": "先看 not 在哪一部分，不能隨意移動。"
+      },
+      {
+        "id": "CD.01.08",
+        "title": "條件可以是可能，也可以是想像",
+        "dialogueNote": "不要把第一類、第二類當作事情機會的精確百分比。"
+      },
+      {
+        "id": "CD.01.09",
+        "title": "過去式有時表示想像，不表示過去",
+        "dialogueNote": "需要看整句的 would 和時間資料，不能只看 had。"
+      },
+      {
+        "id": "CD.01.10",
+        "title": "Type 0、1、2、3 是方便學習的名稱",
+        "dialogueNote": "一個句子也可同時有不同時間、modal 或省略形式。"
+      },
+      {
+        "id": "CD.01.11",
+        "title": "if 表示「是否」時不是條件句",
+        "dialogueNote": "間接問句在若干位置須用 whether，不能每次都換成 if。"
+      },
+      {
+        "id": "CD.01.12",
+        "title": "先看意思，再決定公式",
+        "dialogueNote": "如果上下文不足，兩種寫法可能各有合適意思，不能強求一個答案。"
+      },
+      {
+        "id": "CD.02.01",
+        "title": "一般規律常用現在式加現在式",
+        "dialogueNote": "Type 0 是教學名稱；有些文法書把它歸入真實或習慣條件。"
+      },
+      {
+        "id": "CD.02.02",
+        "title": "習慣也可用 Type 0",
+        "dialogueNote": "不要以為兩個現在式一定是科學事實；也可以是個人習慣。"
+      },
+      {
+        "id": "CD.02.03",
+        "title": "常見指示也可用現在式",
+        "dialogueNote": "這種命令結果不是 present simple + present simple 的完全對稱公式。"
+      },
+      {
+        "id": "CD.02.04",
+        "title": "when 常表示預期會發生",
+        "dialogueNote": "重複習慣中 if 和 when 有時都自然，意思有輕微差別。"
+      },
+      {
+        "id": "CD.02.05",
+        "title": "whenever 表示每次",
+        "dialogueNote": "whenever 是時間字，也能帶出習慣中的條件意思。"
+      },
+      {
+        "id": "CD.02.06",
+        "title": "過去習慣可以用兩個過去式",
+        "dialogueNote": "不能把所有過去的 if 句都當成 Type 3。"
+      },
+      {
+        "id": "CD.02.07",
+        "title": "過去習慣可用 would 說反覆結果",
+        "dialogueNote": "這裏的 would 要靠過去習慣的上下文來理解。"
+      },
+      {
+        "id": "CD.02.08",
+        "title": "現在進行式也能出現在真實條件",
+        "dialogueNote": "不要把 Type 0 或 Type 1 限制成只可用簡單現在式。"
+      },
+      {
+        "id": "CD.02.09",
+        "title": "現在完成式可以說已達到的條件",
+        "dialogueNote": "完成式在 if 子句中本身是正確的，不是每次都要改成簡單現在式。"
+      },
+      {
+        "id": "CD.02.10",
+        "title": "一般情況也可以用 can 或 may",
+        "dialogueNote": "說習慣或一般情況時，結果不一定只能用現在簡單式。"
+      },
+      {
+        "id": "CD.02.11",
+        "title": "if 表示「既然如此」時可帶出判斷",
+        "dialogueNote": "這類用法也叫「根據資料作推論」，不一定是兩件事先後造成結果。"
+      },
+      {
+        "id": "CD.03.01",
+        "title": "將來的可能條件常用 if 加現在式",
+        "dialogueNote": "if 加現在式並不保證事情會發生。"
+      },
+      {
+        "id": "CD.03.02",
+        "title": "will 通常放在結果部分",
+        "dialogueNote": "但 if + will 在表示願意或較後的結果時另有合適用法。"
+      },
+      {
+        "id": "CD.03.03",
+        "title": "if 後用 doesn't 表示未發生的否定條件",
+        "dialogueNote": "不用把 doesn't 改成 won't 才能表示將來。"
+      },
+      {
+        "id": "CD.03.04",
+        "title": "if 部分可用現在進行式",
+        "dialogueNote": "現在進行式不是 Type 1 的錯誤形式。"
+      },
+      {
+        "id": "CD.03.05",
+        "title": "if 部分可用現在完成式",
+        "dialogueNote": "不能只因談將來就把 have packed 改為 will have packed。"
+      },
+      {
+        "id": "CD.03.06",
+        "title": "if 後可用 can 表示能力",
+        "dialogueNote": "modal 並非一概禁止放在 if 部分。"
+      },
+      {
+        "id": "CD.03.07",
+        "title": "if 後可用 must 表示必要條件",
+        "dialogueNote": "must 在這裏不是把未來時態放進 if 部分。"
+      },
+      {
+        "id": "CD.03.08",
+        "title": "結果可以用 may 表示可能",
+        "dialogueNote": "may 不等於一定會發生。"
+      },
+      {
+        "id": "CD.03.09",
+        "title": "結果可以用 might 表示較保留的推測",
+        "dialogueNote": "might 的強弱要看語境，不能換成精確機率。"
+      },
+      {
+        "id": "CD.03.10",
+        "title": "結果可以用 can 表示允許",
+        "dialogueNote": "有些 can 也可以表示能力，需看上下文。"
+      },
+      {
+        "id": "CD.03.11",
+        "title": "結果可以用 should 表示建議",
+        "dialogueNote": "不要把所有結果都固定寫成 will。"
+      },
+      {
+        "id": "CD.03.12",
+        "title": "結果可以用 have to 表示責任",
+        "dialogueNote": "will have to 是自然的結果寫法，不用硬套 will + 動詞一個字。"
+      },
+      {
+        "id": "CD.03.13",
+        "title": "結果可以是現在已決定的安排",
+        "dialogueNote": "現在進行式在這裏談將來，仍須有清楚的語境。"
+      },
+      {
+        "id": "CD.03.14",
+        "title": "第一類結果可用命令",
+        "dialogueNote": "不能在命令前強加 will。"
+      },
+      {
+        "id": "CD.03.15",
+        "title": "第一類結果可用問句",
+        "dialogueNote": "完整句要保留問號，但 if 部分不用倒裝。"
+      },
+      {
+        "id": "CD.03.16",
+        "title": "unless 和 if not 有時相近",
+        "dialogueNote": "特別是已知與事實相反的過去想像，通常不能機械換成 unless。"
+      },
+      {
+        "id": "CD.04.01",
+        "title": "第二類常用 if 加過去式、would 加動詞",
+        "dialogueNote": "第二類的過去式不一定表示過去時間。"
+      },
+      {
+        "id": "CD.04.02",
+        "title": "第二類也能想像將來",
+        "dialogueNote": "說話者覺得可能性低，不等於事情絕不可能發生。"
+      },
+      {
+        "id": "CD.04.03",
+        "title": "would 通常不放在普通第二類的 if 部分",
+        "dialogueNote": "表示願意的 would 或特別方言形式另有用法。"
+      },
+      {
+        "id": "CD.04.04",
+        "title": "第二類的否定條件用 didn't",
+        "dialogueNote": "不能只因 if 後用 did 就認定事件已在過去發生。"
+      },
+      {
+        "id": "CD.04.05",
+        "title": "第二類的否定結果用 wouldn't",
+        "dialogueNote": "wouldn't 有時是意願，也有時是預測，要看句子意思。"
+      },
+      {
+        "id": "CD.04.06",
+        "title": "if I were 是常見的假設寫法",
+        "dialogueNote": "考試或正式寫作常偏好 If I were。"
+      },
+      {
+        "id": "CD.04.07",
+        "title": "if he were 也可表示假設",
+        "dialogueNote": "要先分清「假設」和「不肯定的真實過去」。"
+      },
+      {
+        "id": "CD.04.08",
+        "title": "if I was 有時在查問真實過去",
+        "dialogueNote": "不能因為看到 if I was 就一律改成 were。"
+      },
+      {
+        "id": "CD.04.09",
+        "title": "第二類結果可以用 could",
+        "dialogueNote": "could 不保證一定會做這件事。"
+      },
+      {
+        "id": "CD.04.10",
+        "title": "第二類結果可以用 might",
+        "dialogueNote": "might 不能隨意改成 would 而說意思完全不變。"
+      },
+      {
+        "id": "CD.04.11",
+        "title": "第二類可以用 should 作正式結果",
+        "dialogueNote": "不要把這個 should 跟「應該」的建議意思混為一談。"
+      },
+      {
+        "id": "CD.04.12",
+        "title": "第二類能配合現在進行意思",
+        "dialogueNote": "進行式要按活動或安排意思選，不是看到第二類就禁用。"
+      },
+      {
+        "id": "CD.04.13",
+        "title": "第二類能配合 be able to",
+        "dialogueNote": "兩種寫法並非每句都需要分成唯一答案。"
+      },
+      {
+        "id": "CD.04.14",
+        "title": "if it weren't for 表示沒有某個幫助或阻礙",
+        "dialogueNote": "非正式英文也常用 if it wasn't for。"
+      },
+      {
+        "id": "CD.04.15",
+        "title": "第二類可以說較客氣的建議",
+        "dialogueNote": "If I were you 不需要當作事實陳述。"
+      },
+      {
+        "id": "CD.04.16",
+        "title": "第二類不必一定跟事實相反",
+        "dialogueNote": "「Type 2 = 一定不可能」是錯誤的簡化。"
+      },
+      {
+        "id": "CD.05.01",
+        "title": "第三類常用 if had + 過去分詞",
+        "dialogueNote": "沒有明確上下文時，不能由一句 Type 3 推斷所有細節。"
+      },
+      {
+        "id": "CD.05.02",
+        "title": "第三類結果常用 would have + 過去分詞",
+        "dialogueNote": "有些結果用 could have 或 might have 才能保留原本的不確定程度。"
+      },
+      {
+        "id": "CD.05.03",
+        "title": "第三類否定條件用 hadn't",
+        "dialogueNote": "「if hadn't」本身不代表結果一定如願；仍需看後面的 modal。"
+      },
+      {
+        "id": "CD.05.04",
+        "title": "第三類否定結果用 wouldn't have",
+        "dialogueNote": "注意 wouldn't have 之後接過去分詞，不是一般過去式。"
+      },
+      {
+        "id": "CD.05.05",
+        "title": "第三類的 could have 說能力或機會",
+        "dialogueNote": "答案要保留「能夠」和「會」之間的差別。"
+      },
+      {
+        "id": "CD.05.06",
+        "title": "第三類的 might have 表示不確定",
+        "dialogueNote": "不要把 might have 當作一定會發生。"
+      },
+      {
+        "id": "CD.05.07",
+        "title": "第三類可包含過去進行活動",
+        "dialogueNote": "長動詞形式要按時間和活動意思選，不必只用 had done。"
+      },
+      {
+        "id": "CD.05.08",
+        "title": "第三類可以用被動形式",
+        "dialogueNote": "被動的 had been + 過去分詞不會改變第三類的基本時間關係。"
+      },
+      {
+        "id": "CD.05.09",
+        "title": "第三類可說兩個較早的過去事情",
+        "dialogueNote": "不要只靠有沒有 yesterday 決定公式；還要看想像的時間。"
+      },
+      {
+        "id": "CD.05.10",
+        "title": "第三類常暗示事實跟假設不同",
+        "dialogueNote": "對事實的推斷有時依賴語境；不要把每個 if 句都當成證據。"
+      },
+      {
+        "id": "CD.05.11",
+        "title": "if it hadn't been for 表示過去的幫助或阻礙",
+        "dialogueNote": "這類寫法不等於 if you didn't help in 所有語境。"
+      },
+      {
+        "id": "CD.05.12",
+        "title": "第三類可以談錯過的機會",
+        "dialogueNote": "英式 got 與美式 gotten 在某些完成式用法有差異。"
+      },
+      {
+        "id": "CD.05.13",
+        "title": "第三類可以談意外後的結果",
+        "dialogueNote": "描述真實事故時，不應把假設結果說成已證實的事實。"
+      },
+      {
+        "id": "CD.05.14",
+        "title": "第三類倒裝要另按 had 句型處理",
+        "dialogueNote": "只有特定 had／were／should 等形式可用這種省 if 的倒裝，不能隨意把普通動詞移前。"
+      },
+      {
+        "id": "CD.05.15",
+        "title": "第三類不應硬改成「would have ... if would have」",
+        "dialogueNote": "不要把非標準或方言的存在誤說成「從來沒有人這樣說」。"
+      },
+      {
+        "id": "CD.06.01",
+        "title": "過去的條件可以影響現在",
+        "dialogueNote": "不要為了「兩邊一致」而忽略 now。"
+      },
+      {
+        "id": "CD.06.02",
+        "title": "過去的疾病可影響現在",
+        "dialogueNote": "要讓時間詞跟所用結果形式一致。"
+      },
+      {
+        "id": "CD.06.03",
+        "title": "現在的特徵可能影響過去的結果",
+        "dialogueNote": "兩句意思接近，但對原因的看法不同。"
+      },
+      {
+        "id": "CD.06.04",
+        "title": "現在沒有某種能力可解釋過去的結果",
+        "dialogueNote": "要由故事判斷能力是否持續，不要單憑式樣猜測。"
+      },
+      {
+        "id": "CD.06.05",
+        "title": "過去的決定可影響現在的持續活動",
+        "dialogueNote": "進行式不一定表示活動會永遠持續。"
+      },
+      {
+        "id": "CD.06.06",
+        "title": "過去錯過機會可影響現在有沒有東西",
+        "dialogueNote": "中文要保留「現在」和「昨天」不同。"
+      },
+      {
+        "id": "CD.06.07",
+        "title": "現在的工作安排可影響昨天",
+        "dialogueNote": "不能一律把 didn't work 判為時間錯誤。"
+      },
+      {
+        "id": "CD.06.08",
+        "title": "mixed 不一定只有兩個固定公式",
+        "dialogueNote": "文法書的兩個常見混合類型很有用，但不是所有可能組合。"
+      },
+      {
+        "id": "CD.06.09",
+        "title": "過去條件可以影響將來結果",
+        "dialogueNote": "將來的假設結果可以用 would 加進行式表達安排。"
+      },
+      {
+        "id": "CD.06.10",
+        "title": "混合句可用 could 表示現在能力",
+        "dialogueNote": "can、could、would 的選擇不能只靠字數。"
+      },
+      {
+        "id": "CD.06.11",
+        "title": "混合句可以有否定條件和肯定結果",
+        "dialogueNote": "仍然要看 still、now、yesterday 等資料。"
+      },
+      {
+        "id": "CD.06.12",
+        "title": "混合句需要完整語境才可選答案",
+        "dialogueNote": "寫練習要提供足夠的英文時間資料。"
+      },
+      {
+        "id": "CD.07.01",
+        "title": "第一類條件可用現在完成進行式",
+        "dialogueNote": "要看事情是已經開始，還是尚未開始。"
+      },
+      {
+        "id": "CD.07.02",
+        "title": "第二類可用過去進行式說假設",
+        "dialogueNote": "並非所有 -ing 的 if 句都屬第二類。"
+      },
+      {
+        "id": "CD.07.03",
+        "title": "第三類可用過去完成進行式",
+        "dialogueNote": "兩種完成式在一些情況都可用；要看持續意思。"
+      },
+      {
+        "id": "CD.07.04",
+        "title": "將來已完成的事情可用現在完成式說條件",
+        "dialogueNote": "if 子句中的完成式並非只談已發生的過去。"
+      },
+      {
+        "id": "CD.07.05",
+        "title": "結果可以用 will have + 過去分詞",
+        "dialogueNote": "兩句都可自然使用，但強調的時間關係不同。"
+      },
+      {
+        "id": "CD.07.06",
+        "title": "第二類結果可用 would be + -ing",
+        "dialogueNote": "-ing 表示活動，不一定暗示開始和結束的時間。"
+      },
+      {
+        "id": "CD.07.07",
+        "title": "第三類結果也可用 would have been + -ing",
+        "dialogueNote": "持續和完成兩種讀法不能不分。"
+      },
+      {
+        "id": "CD.07.08",
+        "title": "如果主語是 it，仍可用條件句",
+        "dialogueNote": "不要誤以為每個 it 都指前面提過的物件。"
+      },
+      {
+        "id": "CD.07.09",
+        "title": "there is / are 也可在條件部分出現",
+        "dialogueNote": "there are 後面要按真正的名詞留意單複數。"
+      },
+      {
+        "id": "CD.07.10",
+        "title": "be going to 可以在結果部分出現",
+        "dialogueNote": "不要以為第一類結果只可以寫 will。"
+      },
+      {
+        "id": "CD.07.11",
+        "title": "過去真實條件與反事實要分清",
+        "dialogueNote": "整句時態和意思比單看 was 更重要。"
+      },
+      {
+        "id": "CD.07.12",
+        "title": "被動式也能在條件部分出現",
+        "dialogueNote": "be + 過去分詞有時描述狀態；不一定每次強調動作。"
+      },
+      {
+        "id": "CD.07.13",
+        "title": "被動式也能在想像過去出現",
+        "dialogueNote": "要保留過去完成被動的 been，不可只寫 had locked。"
+      },
+      {
+        "id": "CD.08.01",
+        "title": "will 表示預測或決定",
+        "dialogueNote": "will 也可能表示意願，不是每次都代表百分百肯定。"
+      },
+      {
+        "id": "CD.08.02",
+        "title": "would 表示想像下的結果",
+        "dialogueNote": "would 也能表示以前重複做的事，不只用於第二類。"
+      },
+      {
+        "id": "CD.08.03",
+        "title": "can 可以表現有能力",
+        "dialogueNote": "看語境決定 can 是能力、允許，還是一般可能。"
+      },
+      {
+        "id": "CD.08.04",
+        "title": "could 可以表示假設中的能力",
+        "dialogueNote": "could 不等於 guaranteed success。"
+      },
+      {
+        "id": "CD.08.05",
+        "title": "may 表示可行或有機會",
+        "dialogueNote": "may 也可表示准許，需看說話者目的。"
+      },
+      {
+        "id": "CD.08.06",
+        "title": "might 表示較保留的想法",
+        "dialogueNote": "兩者不能當成永遠可互換的同義字。"
+      },
+      {
+        "id": "CD.08.07",
+        "title": "must 表示一定要做",
+        "dialogueNote": "must 不一定是在預測將來。"
+      },
+      {
+        "id": "CD.08.08",
+        "title": "should 表示建議或合適的做法",
+        "dialogueNote": "「if + should」的 should 是另一種用法，不能混淆。"
+      },
+      {
+        "id": "CD.08.09",
+        "title": "ought to 也能表示建議",
+        "dialogueNote": "ought to 在日常口語較少於 should，但仍自然。"
+      },
+      {
+        "id": "CD.08.10",
+        "title": "would have 表示想像中的過去結果",
+        "dialogueNote": "would have 後面用過去分詞。"
+      },
+      {
+        "id": "CD.08.11",
+        "title": "could have 表示過去曾有機會",
+        "dialogueNote": "不要把兩種 modal 互相取代而說意思不變。"
+      },
+      {
+        "id": "CD.08.12",
+        "title": "might have 表示過去可能出現另一種結果",
+        "dialogueNote": "如果路上仍可能塞車，might have 較不會作出過強承諾。"
+      },
+      {
+        "id": "CD.08.13",
+        "title": "needn't have 與 didn't need to 不一樣",
+        "dialogueNote": "不能只憑 needn't 的字面把它當成否定的 would have。"
+      },
+      {
+        "id": "CD.08.14",
+        "title": "may have / might have 可以是推測，不一定是假設",
+        "dialogueNote": "要分辨說話者是在查證線索，還是在想像另一段歷史。"
+      },
+      {
+        "id": "CD.09.01",
+        "title": "if + should 表示萬一",
+        "dialogueNote": "should 在這裏通常不表示「應該見到」。"
+      },
+      {
+        "id": "CD.09.02",
+        "title": "if + should 可用於正式通知",
+        "dialogueNote": "不要為了正式而把每句 if 都加 should。"
+      },
+      {
+        "id": "CD.09.03",
+        "title": "Should you need... 是省 if 的倒裝",
+        "dialogueNote": "Should you ... 的 Should 要放在主語之前。"
+      },
+      {
+        "id": "CD.09.04",
+        "title": "倒裝 should 後用動詞本來的寫法",
+        "dialogueNote": "不要因為 she 是單數而加 -s。"
+      },
+      {
+        "id": "CD.09.05",
+        "title": "should 倒裝可以是否定條件",
+        "dialogueNote": "這不是把 not 放在句首；應跟在主語後面。"
+      },
+      {
+        "id": "CD.09.06",
+        "title": "should 倒裝可接 if 句同類的結果",
+        "dialogueNote": "be delayed 在這裏是被動；不要寫 should the train delayed。"
+      },
+      {
+        "id": "CD.09.07",
+        "title": "if + should 不等同 if + must",
+        "dialogueNote": "should 在結果部分也可給建議，要按位置分辨。"
+      },
+      {
+        "id": "CD.09.08",
+        "title": "if + should 可以配合過去結果嗎",
+        "dialogueNote": "間接引述的時態與原話需要按報告時間決定。"
+      },
+      {
+        "id": "CD.09.09",
+        "title": "if + should 跟 should 作建議不能混淆",
+        "dialogueNote": "不要只看 should 這個字就把兩處都翻成「應該」。"
+      },
+      {
+        "id": "CD.09.10",
+        "title": "Should I... 作普通問句未必是倒裝條件",
+        "dialogueNote": "不能把所有 should 在主語前的句子都當成條件倒裝。"
+      },
+      {
+        "id": "CD.09.11",
+        "title": "if + should 不代表事情一定很罕見",
+        "dialogueNote": "用 should 時也要看語氣和場景。"
+      },
+      {
+        "id": "CD.10.01",
+        "title": "正式倒裝可省 if",
+        "dialogueNote": "不能把任何普通動詞都拿來作條件倒裝。"
+      },
+      {
+        "id": "CD.10.02",
+        "title": "Had + 主語 + 過去分詞常代替過去假設",
+        "dialogueNote": "Had 倒裝常見於正式寫作、演說或文學。"
+      },
+      {
+        "id": "CD.10.03",
+        "title": "Hadn't I... 不是常見的條件倒裝寫法",
+        "dialogueNote": "日常使用 If I hadn't checked 更清楚。"
+      },
+      {
+        "id": "CD.10.04",
+        "title": "Were + 主語 + 描述可表現在假設",
+        "dialogueNote": "Were I ... 帶正式或文學語氣，平日毋須刻意使用。"
+      },
+      {
+        "id": "CD.10.05",
+        "title": "Were + 主語 + to + 動詞可談將來假設",
+        "dialogueNote": "倒裝後仍須保留 to；不能寫 Were it snow tomorrow。"
+      },
+      {
+        "id": "CD.10.06",
+        "title": "Were + 主語 + being... 不是通用倒裝公式",
+        "dialogueNote": "不要從進行式公式機械造出不自然的狀態句。"
+      },
+      {
+        "id": "CD.10.07",
+        "title": "Were it not for 表示沒有現在的幫助或阻礙",
+        "dialogueNote": "不是每個 without 的句子都能改成 were it not for 而意思相同。"
+      },
+      {
+        "id": "CD.10.08",
+        "title": "Had it not been for 表示沒有過去的幫助",
+        "dialogueNote": "注意有 been；不要把過去和現在混在一起。"
+      },
+      {
+        "id": "CD.10.09",
+        "title": "Should + 主語 + 動詞可表萬一",
+        "dialogueNote": "Should 後接動詞本來的寫法。"
+      },
+      {
+        "id": "CD.10.10",
+        "title": "倒裝條件部分可以放句首",
+        "dialogueNote": "條件句放句首時通常加逗號。"
+      },
+      {
+        "id": "CD.10.11",
+        "title": "倒裝條件也可放在句尾",
+        "dialogueNote": "句尾倒裝較有文學或修辭感，不是最基本語序。"
+      },
+      {
+        "id": "CD.10.12",
+        "title": "Only if 放句首的倒裝跟 Had 條件倒裝不同",
+        "dialogueNote": "這跟 Had I known 省去 if 的句型是兩套不同規則。"
+      },
+      {
+        "id": "CD.10.13",
+        "title": "Not until 與 only when 倒裝有相近效果",
+        "dialogueNote": "只有當前置限制真的要求倒裝時才使用；不要把所有 when 都倒裝。"
+      },
+      {
+        "id": "CD.10.14",
+        "title": "不能用 Did I know... 代替 If I knew",
+        "dialogueNote": "正式條件倒裝主要用 Had、Were、Should。"
+      },
+      {
+        "id": "CD.10.15",
+        "title": "過去完成式的 had 不是普通 have got 的代用品",
+        "dialogueNote": "有些歷史英文寫法仍見於文學，但要標明年代和語體。"
+      },
+      {
+        "id": "CD.10.16",
+        "title": "倒裝寫法不能任意加 if",
+        "dialogueNote": "選 If I had known 或 Had I known 其中一種。"
+      },
+      {
+        "id": "CD.11.01",
+        "title": "as long as 表示只要條件符合",
+        "dialogueNote": "as long as 也可表示時間長度，要看上下文。"
+      },
+      {
+        "id": "CD.11.02",
+        "title": "so long as 也能表示只要",
+        "dialogueNote": "so long as 在一些句子較正式，不需要跟 if 一起用。"
+      },
+      {
+        "id": "CD.11.03",
+        "title": "provided that 表示在某條件下",
+        "dialogueNote": "provided that 後面通常用完整句子；that 有時可省略。"
+      },
+      {
+        "id": "CD.11.04",
+        "title": "providing that 也可引出條件",
+        "dialogueNote": "兩種提供條件的寫法在語體上可有差別。"
+      },
+      {
+        "id": "CD.11.05",
+        "title": "on condition that 用於明確協議",
+        "dialogueNote": "在日常談話，as long as 常較自然。"
+      },
+      {
+        "id": "CD.11.06",
+        "title": "only if 表示只有這個條件成立才行",
+        "dialogueNote": "Only if 不代表「只要有通行證，便肯定能進入」，還可能有別的規定。"
+      },
+      {
+        "id": "CD.11.07",
+        "title": "if and only if 表示兩個方向都成立",
+        "dialogueNote": "這是正式、技術性的用法，日常聊天較少。"
+      },
+      {
+        "id": "CD.11.08",
+        "title": "assuming that 表示先假設一件事",
+        "dialogueNote": "assuming 可用於計劃，並不保證假設成真。"
+      },
+      {
+        "id": "CD.11.09",
+        "title": "given that 有時表示已知事實而非假設",
+        "dialogueNote": "有些正式論證會把 given that 用作推理前提；不要每次翻成「如果」。"
+      },
+      {
+        "id": "CD.11.10",
+        "title": "in the event that 用於正式應變安排",
+        "dialogueNote": "in the event of 後面接名詞，不是直接接完整子句。"
+      },
+      {
+        "id": "CD.11.11",
+        "title": "in the event of 後面通常接名詞",
+        "dialogueNote": "不能寫 in the event of it rains 來接完整句。"
+      },
+      {
+        "id": "CD.11.12",
+        "title": "on the understanding that 說明同意的前提",
+        "dialogueNote": "這種說法常用於協議；不一定可以當作 Type 1 公式。"
+      },
+      {
+        "id": "CD.11.13",
+        "title": "so long as 和 as long as 也可表示時間",
+        "dialogueNote": "要看句子是在問多久，還是在要求符合條件。"
+      },
+      {
+        "id": "CD.11.14",
+        "title": "supposing 表示假設一件事",
+        "dialogueNote": "supposing 也可引出現在或過去形式，需按時間選。"
+      },
+      {
+        "id": "CD.11.15",
+        "title": "suppose 也能提出假設",
+        "dialogueNote": "句首的 Suppose 可以用句號連接另一個問句，不一定要套標準 if 公式。"
+      },
+      {
+        "id": "CD.11.16",
+        "title": "what if 可以問「假如……怎麼辦」",
+        "dialogueNote": "what if 也可以用過去式，表更假設的情況。"
+      },
+      {
+        "id": "CD.12.01",
+        "title": "unless 通常表示「除非」",
+        "dialogueNote": "unless 不一定適合所有 if not 的句子。"
+      },
+      {
+        "id": "CD.12.02",
+        "title": "unless 後面通常不用 will 表普通預測",
+        "dialogueNote": "表示意願的 will 仍可能有不同的特殊讀法。"
+      },
+      {
+        "id": "CD.12.03",
+        "title": "unless 本身已有例外意思",
+        "dialogueNote": "不要把 if 直接加到 unless 後面。"
+      },
+      {
+        "id": "CD.12.04",
+        "title": "unless 不能在所有過去反事實句取代 if not",
+        "dialogueNote": "正式教學要保留 if hadn't 的過去反事實意思。"
+      },
+      {
+        "id": "CD.12.05",
+        "title": "unless 可放句首",
+        "dialogueNote": "句首 unless 部分後面通常加逗號。"
+      },
+      {
+        "id": "CD.12.06",
+        "title": "not unless 表示只有在某條件下才可能",
+        "dialogueNote": "必要條件與足夠條件不應混為一談。"
+      },
+      {
+        "id": "CD.12.07",
+        "title": "if not 可指前面整件事不成立",
+        "dialogueNote": "if not 的內容要能從前文清楚找到。"
+      },
+      {
+        "id": "CD.12.08",
+        "title": "if so 表示如果剛才說的情況是真的",
+        "dialogueNote": "在新段落沒有清楚上文時，單寫 if so 會難以理解。"
+      },
+      {
+        "id": "CD.12.09",
+        "title": "if not for 表示沒有某件事的影響",
+        "dialogueNote": "不要把現在和過去兩種 if not for 式樣混淆。"
+      },
+      {
+        "id": "CD.12.10",
+        "title": "negative if 部分可有 never",
+        "dialogueNote": "never 不等於 not yesterday。"
+      },
+      {
+        "id": "CD.12.11",
+        "title": "negative 結果和 negative 條件可同時出現",
+        "dialogueNote": "不要把兩個否定直接消去，當作整句是肯定。"
+      },
+      {
+        "id": "CD.12.12",
+        "title": "unless 也可能用來補充較晚想到的例外",
+        "dialogueNote": "破折號是語氣提示；不是必須的文法符號。"
+      },
+      {
+        "id": "CD.12.13",
+        "title": "if not A, then B 可以用來提出最低估計",
+        "dialogueNote": "這是較固定的表達，要按整組理解。"
+      },
+      {
+        "id": "CD.13.01",
+        "title": "Even if 表示即使條件成立",
+        "dialogueNote": "even if 的條件可以是真的，也可以只是想像。"
+      },
+      {
+        "id": "CD.13.02",
+        "title": "even though 表示一個已知或被當作真的情況",
+        "dialogueNote": "even if 和 even though 不應機械當作同義。"
+      },
+      {
+        "id": "CD.13.03",
+        "title": "even if 可配合 Type 2",
+        "dialogueNote": "still 經常幫助表達「仍然」的意思。"
+      },
+      {
+        "id": "CD.13.04",
+        "title": "even if 可配合 Type 3",
+        "dialogueNote": "不要把 even if 當成普通 Type 3 的同義轉換。"
+      },
+      {
+        "id": "CD.13.05",
+        "title": "whether or not 可以表示不論哪種情況",
+        "dialogueNote": "whether 也可引出間接問句，要看句子工作。"
+      },
+      {
+        "id": "CD.13.06",
+        "title": "whether ... or ... 可以列出兩個情況",
+        "dialogueNote": "若有多於兩種選擇，也可在語境中延伸。"
+      },
+      {
+        "id": "CD.13.07",
+        "title": "no matter whether 表示不論是否",
+        "dialogueNote": "日常英文常用 whether or not，較短。"
+      },
+      {
+        "id": "CD.13.08",
+        "title": "no matter what 有時也帶出條件意思",
+        "dialogueNote": "no matter what 是較廣的讓步意思，文法分析不一定列為普通 if 條件。"
+      },
+      {
+        "id": "CD.13.09",
+        "title": "no matter how 表示不論程度",
+        "dialogueNote": "no matter how 後面仍要有自然的句子次序。"
+      },
+      {
+        "id": "CD.13.10",
+        "title": "however + adjective 也可表示不論多麼",
+        "dialogueNote": "這裏 however 不是「然而」接兩句的連接副詞。"
+      },
+      {
+        "id": "CD.13.11",
+        "title": "even when 常說真實或重複的情況",
+        "dialogueNote": "兩者在某些情況相近，但不是完全一樣。"
+      },
+      {
+        "id": "CD.13.12",
+        "title": "regardless of 後面接名詞或 -ing",
+        "dialogueNote": "不能直接寫 regardless of it rains；須改成 regardless of whether it rains。"
+      },
+      {
+        "id": "CD.14.01",
+        "title": "otherwise 可以說不這樣就會怎樣",
+        "dialogueNote": "前文必須清楚說出要避免的情況。"
+      },
+      {
+        "id": "CD.14.02",
+        "title": "or else 可以引出不照做的後果",
+        "dialogueNote": "or else 有時聽起來較強硬，正式通知可用 otherwise。"
+      },
+      {
+        "id": "CD.14.03",
+        "title": "命令句加 and 可表條件與好結果",
+        "dialogueNote": "這是常見的語意關係，但 and 並不在所有句子都表示條件。"
+      },
+      {
+        "id": "CD.14.04",
+        "title": "命令句加 or 可表不照做的後果",
+        "dialogueNote": "這種 or 不能直接看成只有兩個平等選擇。"
+      },
+      {
+        "id": "CD.14.05",
+        "title": "without + 名詞可表示若沒有",
+        "dialogueNote": "without 也可以說實際「沒有帶」，不一定每次是反事實。"
+      },
+      {
+        "id": "CD.14.06",
+        "title": "without + -ing 可表示若不做某事",
+        "dialogueNote": "without 後接 -ing，不是直接接動詞本來的寫法。"
+      },
+      {
+        "id": "CD.14.07",
+        "title": "but for 表示若沒有某個影響",
+        "dialogueNote": "but for 不等於 except for 在所有情況的普通意思。"
+      },
+      {
+        "id": "CD.14.08",
+        "title": "given + 名詞可表示在某個條件下",
+        "dialogueNote": "given 也常表示「考慮到已知事實」，須按語境分辨。"
+      },
+      {
+        "id": "CD.14.09",
+        "title": "with + 名詞可表示如果有",
+        "dialogueNote": "with 在其他句子可表示工具、伴隨等，不一定是條件。"
+      },
+      {
+        "id": "CD.14.10",
+        "title": "one more ... and ... 可以表示再多一個條件",
+        "dialogueNote": "這個短句多見於說話、警告和戲劇性文字。"
+      },
+      {
+        "id": "CD.14.11",
+        "title": "a little more ... and ... 可表示程度一變就有結果",
+        "dialogueNote": "這種省略形式較口語，也常用於警告或報道。"
+      },
+      {
+        "id": "CD.14.12",
+        "title": "To hear him talk, you'd think... 表示聽他說便會以為",
+        "dialogueNote": "這是有固定語感的高階句型，不可把所有 to 子句都當成條件。"
+      },
+      {
+        "id": "CD.14.13",
+        "title": "come what may 表示不論發生甚麼",
+        "dialogueNote": "這個片語較文學化，不可逐字改成任意動詞形式。"
+      },
+      {
+        "id": "CD.14.14",
+        "title": "otherwise 可表示另一種假設下會不同",
+        "dialogueNote": "要能從前文清楚知道 otherwise 指甚麼。"
+      },
+      {
+        "id": "CD.15.01",
+        "title": "if possible 可省去已清楚的字",
+        "dialogueNote": "只有當省去的意思清楚時，這種短寫法才自然。"
+      },
+      {
+        "id": "CD.15.02",
+        "title": "if necessary 表示有需要的話",
+        "dialogueNote": "if necessary 不保證事情已經有需要。"
+      },
+      {
+        "id": "CD.15.03",
+        "title": "if needed 表示需要時",
+        "dialogueNote": "省略的對象要能從句子中找到。"
+      },
+      {
+        "id": "CD.15.04",
+        "title": "if available 表示有空或有貨時",
+        "dialogueNote": "available 可指有空、有貨等，要看物品或人。"
+      },
+      {
+        "id": "CD.15.05",
+        "title": "if appropriate 表示在合適時才做",
+        "dialogueNote": "正式說明常用，對年幼學生可用 if it is helpful 等更簡單說法。"
+      },
+      {
+        "id": "CD.15.06",
+        "title": "if any 可以問是否真的有",
+        "dialogueNote": "if any 也可在名詞後，跟普通句首 if 用法不同。"
+      },
+      {
+        "id": "CD.15.07",
+        "title": "if ever 表示假如曾經或將來有一次",
+        "dialogueNote": "if ever 也可在句末表示「即使有也很少」，需按語境分辨。"
+      },
+      {
+        "id": "CD.15.08",
+        "title": "if anything 常表示實際情況更接近另一邊",
+        "dialogueNote": "要靠整句意思分辨固定片語和一般 if 條件。"
+      },
+      {
+        "id": "CD.15.09",
+        "title": "if not 可以省去完整否定條件",
+        "dialogueNote": "要讓讀者知道 if not 指向甚麼。"
+      },
+      {
+        "id": "CD.15.10",
+        "title": "if so 可以省去完整肯定條件",
+        "dialogueNote": "if so 不應在完全沒有上文時突然使用。"
+      },
+      {
+        "id": "CD.15.11",
+        "title": "if in doubt 表示不肯定時",
+        "dialogueNote": "這是常見的固定短寫法，不代表所有 if + 介詞片語都可省主語。"
+      },
+      {
+        "id": "CD.15.12",
+        "title": "if under pressure 要按省略的主語理解",
+        "dialogueNote": "省略時要確定讀者知道究竟誰處於那種情況。"
+      },
+      {
+        "id": "CD.15.13",
+        "title": "if asked 可表示若有人問起",
+        "dialogueNote": "省略的主語應能與後面的 I 對上。"
+      },
+      {
+        "id": "CD.15.14",
+        "title": "if selected 可表示如獲選",
+        "dialogueNote": "被動關係要清楚，否則應寫完整句。"
+      },
+      {
+        "id": "CD.15.15",
+        "title": "if travelling by train 可表示乘車時",
+        "dialogueNote": "有些傳統文法把這種省略句分析成非完整子句。"
+      },
+      {
+        "id": "CD.15.16",
+        "title": "if not sooner 表示可能更早",
+        "dialogueNote": "這是固定的比較用法，不能逐字套用普通 if 公式。"
+      },
+      {
+        "id": "CD.16.01",
+        "title": "if A then B 不等於 if B then A",
+        "dialogueNote": "要分清充分條件和必要條件。"
+      },
+      {
+        "id": "CD.16.02",
+        "title": "only if 說必要條件",
+        "dialogueNote": "only if 不能直接換成 if 而說邏輯完全相同。"
+      },
+      {
+        "id": "CD.16.03",
+        "title": "if and only if 說必要而且足夠",
+        "dialogueNote": "這是數學式的精確表達，不需要在日常句子硬用。"
+      },
+      {
+        "id": "CD.16.04",
+        "title": "not if A 不等於 if not A",
+        "dialogueNote": "日常談話可有暗示，但精確意思不同。"
+      },
+      {
+        "id": "CD.16.05",
+        "title": "if not everybody 表示有人可能不在內",
+        "dialogueNote": "不要把 not all 直接變成 none。"
+      },
+      {
+        "id": "CD.16.06",
+        "title": "if no one 可把「沒有任何人」作條件",
+        "dialogueNote": "標準書面英文的 no one 配單數動詞 volunteers。"
+      },
+      {
+        "id": "CD.16.07",
+        "title": "if anyone 表示若有任何人",
+        "dialogueNote": "them 可以用來指性別不明的一個人。"
+      },
+      {
+        "id": "CD.16.08",
+        "title": "if only one 表示剛好一個的條件",
+        "dialogueNote": "量詞要保留準確，不可由「至少一個」改成「只有一個」。"
+      },
+      {
+        "id": "CD.16.09",
+        "title": "if all 表示要全部符合",
+        "dialogueNote": "要留意 all 的範圍由談話中的整組決定。"
+      },
+      {
+        "id": "CD.16.10",
+        "title": "if A and B 表示兩個條件都要成立",
+        "dialogueNote": "and 和 or 不是可隨意互換的字。"
+      },
+      {
+        "id": "CD.16.11",
+        "title": "if A or B 表示任一條件",
+        "dialogueNote": "在普通英文中 or 可包括兩者都成立；不一定是二選一。"
+      },
+      {
+        "id": "CD.16.12",
+        "title": "if A then B 再加 B 不必然反推 A",
+        "dialogueNote": "條件句不能隨便用來證明唯一原因。"
+      },
+      {
+        "id": "CD.16.13",
+        "title": "if A then B 再加 not B 可以推 not A（嚴格規則下）",
+        "dialogueNote": "真實世界的規則可能有故障等例外；不要把所有日常句子當作數學定理。"
+      },
+      {
+        "id": "CD.16.14",
+        "title": "if P, Q 的否定位置要看真實句子",
+        "dialogueNote": "教學時不要把整句籠統叫「否定條件句」而忽略兩個 not 的位置。"
+      },
+      {
+        "id": "CD.17.01",
+        "title": "if you don't mind 可表示禮貌",
+        "dialogueNote": "這不必表示對方真的會決定所有事情的發展。"
+      },
+      {
+        "id": "CD.17.02",
+        "title": "if you like 可讓對方選擇",
+        "dialogueNote": "if you like 有時接近「你願意的話」，不宜逐字硬譯。"
+      },
+      {
+        "id": "CD.17.03",
+        "title": "if I may say so 用來小心提出意見",
+        "dialogueNote": "這種 if 子句主要是禮貌用法，不一定有真實因果關係。"
+      },
+      {
+        "id": "CD.17.04",
+        "title": "if you ask me 表示說話者的意見",
+        "dialogueNote": "if you ask me 是常見口語片語，需看上下文。"
+      },
+      {
+        "id": "CD.17.05",
+        "title": "if I'm honest 表示坦白說",
+        "dialogueNote": "不要把所有句首 if 都當作 Type 1。"
+      },
+      {
+        "id": "CD.17.06",
+        "title": "if you remember 表示提醒對方",
+        "dialogueNote": "說話功能由整段談話決定。"
+      },
+      {
+        "id": "CD.17.07",
+        "title": "if that's true 可以作推理前提",
+        "dialogueNote": "推理前提未必是事情發生的原因。"
+      },
+      {
+        "id": "CD.17.08",
+        "title": "if it is raining, the roads are probably wet 是推斷",
+        "dialogueNote": "文法分析有時叫「認知上的條件」，學生先掌握意思便可以。"
+      },
+      {
+        "id": "CD.17.09",
+        "title": "If you're hungry, there's food in the fridge 是提供資訊",
+        "dialogueNote": "兩句都自然，但條件與結果的關係不同。"
+      },
+      {
+        "id": "CD.17.10",
+        "title": "If you want to know... 可為回答提供背景",
+        "dialogueNote": "不要把每個 if 句都解釋為條件造成結果。"
+      },
+      {
+        "id": "CD.17.11",
+        "title": "If you touch that, I'll tell Mum 可以是警告",
+        "dialogueNote": "警告是語氣和用途，不是新的動詞時態。"
+      },
+      {
+        "id": "CD.17.12",
+        "title": "If you help, I'll share 可以是交換條件",
+        "dialogueNote": "要看語境才能分辨真誠交換、威脅或玩笑。"
+      },
+      {
+        "id": "CD.17.13",
+        "title": "if anything goes wrong 可以作應變安排",
+        "dialogueNote": "不要把 in case 和 if 說成完全相同。"
+      },
+      {
+        "id": "CD.18.01",
+        "title": "I wish + 過去式可說現在的願望",
+        "dialogueNote": "wish 句不一定是完整 if 條件句，應作相關而不同的句型學。"
+      },
+      {
+        "id": "CD.18.02",
+        "title": "I wish + past perfect 可說對過去的遺憾",
+        "dialogueNote": "wish 句通常不會自己附帶完整結果。"
+      },
+      {
+        "id": "CD.18.03",
+        "title": "I wish + would 可說希望別人改變行為",
+        "dialogueNote": "wish + would 不適合所有主語和狀態，尤其不能機械對自己所有事情使用。"
+      },
+      {
+        "id": "CD.18.04",
+        "title": "if only + 過去式表強烈願望",
+        "dialogueNote": "if only 單獨成句時是願望，不必有結果部分。"
+      },
+      {
+        "id": "CD.18.05",
+        "title": "if only + past perfect 表過去遺憾",
+        "dialogueNote": "感嘆號反映語氣，並非每個 if only 都必須使用。"
+      },
+      {
+        "id": "CD.18.06",
+        "title": "if only + would 表希望行為改變",
+        "dialogueNote": "這跟 will stop 的普通預測不同。"
+      },
+      {
+        "id": "CD.18.07",
+        "title": "as if 可以表示看起來像真的",
+        "dialogueNote": "不要把 as if 當作 Type 1 的 if 句。"
+      },
+      {
+        "id": "CD.18.08",
+        "title": "as though 跟 as if 的意思接近",
+        "dialogueNote": "as though 在正式寫作中也常見。"
+      },
+      {
+        "id": "CD.18.09",
+        "title": "as if + were 可表明知不真實的比較",
+        "dialogueNote": "was 在口語也常見，正式假設可用 were。"
+      },
+      {
+        "id": "CD.18.10",
+        "title": "as if to + 動詞可表示似乎準備做事",
+        "dialogueNote": "這是比較或表面動作，不是普通 Type 2 條件句。"
+      },
+      {
+        "id": "CD.18.11",
+        "title": "what if 可跟過去式作想像",
+        "dialogueNote": "what if 可獨立成問句，不一定要再寫 would。"
+      },
+      {
+        "id": "CD.18.12",
+        "title": "what if + past perfect 可想像過去",
+        "dialogueNote": "不必把每個 what if 都寫成完整 Type 3 才自然。"
+      },
+      {
+        "id": "CD.19.01",
+        "title": "條件句可以成為別人說話的一部分",
+        "dialogueNote": "改寫別人的說話時，要保留原本條件和時間關係。"
+      },
+      {
+        "id": "CD.19.02",
+        "title": "引述別人說的條件不一定要機械改時態",
+        "dialogueNote": "要看報告時間，不能單憑 said 強迫每個動詞後移。"
+      },
+      {
+        "id": "CD.19.03",
+        "title": "if 子句可出現在主語後的說明中",
+        "dialogueNote": "插入的部分一般要用標點清楚分開。"
+      },
+      {
+        "id": "CD.19.04",
+        "title": "條件句可以包含另一個 if 句",
+        "dialogueNote": "長句可以改成兩個簡單 if 句，通常更容易明白。"
+      },
+      {
+        "id": "CD.19.05",
+        "title": "結果部分也可包含另一條件",
+        "dialogueNote": "句子變長時，應按意思分清每個 if 修飾哪部分。"
+      },
+      {
+        "id": "CD.19.06",
+        "title": "if 的位置可造成兩種理解",
+        "dialogueNote": "在長句中要檢查條件究竟連向哪一個結果。"
+      },
+      {
+        "id": "CD.19.07",
+        "title": "if 在間接問題中表示是否",
+        "dialogueNote": "這兩種 if 不應混在一條條件公式裏。"
+      },
+      {
+        "id": "CD.19.08",
+        "title": "whether 常用來引出兩個可選結果",
+        "dialogueNote": "兩種 whether 的作用不同，要看整句。"
+      },
+      {
+        "id": "CD.19.09",
+        "title": "主句含 think 不會自動改變 if 規則",
+        "dialogueNote": "think 和 wonder 的差別會改變 if 的工作。"
+      },
+      {
+        "id": "CD.19.10",
+        "title": "雙重條件要分清順序",
+        "dialogueNote": "不必為了展示難度而把太多條件放進一個句子。"
+      },
+      {
+        "id": "CD.20.01",
+        "title": "if I was 和 if I were 在口語有選擇差異",
+        "dialogueNote": "考試若要求正式標準寫法，可以優先選 were。"
+      },
+      {
+        "id": "CD.20.02",
+        "title": "普通預測的 if + will 通常不用",
+        "dialogueNote": "表示意願或後來結果的 will 是重要例外。"
+      },
+      {
+        "id": "CD.20.03",
+        "title": "if + will 可表示願意",
+        "dialogueNote": "別把所有 if + will 一律判錯。"
+      },
+      {
+        "id": "CD.20.04",
+        "title": "if + will 可表示較後才出現的結果",
+        "dialogueNote": "這個例外不代表可在一般天氣預測中任意加 will。"
+      },
+      {
+        "id": "CD.20.05",
+        "title": "if + would 可表示禮貌要求",
+        "dialogueNote": "if you would... 是正式／禮貌用法，不是普通 Type 2 的假設動詞。"
+      },
+      {
+        "id": "CD.20.06",
+        "title": "if + would have 在某些口語方言可聽到",
+        "dialogueNote": "不要把非正式變體誤當所有英語使用者都接受的書面標準。"
+      },
+      {
+        "id": "CD.20.07",
+        "title": "were I to... 帶明顯正式語氣",
+        "dialogueNote": "不能不看語體就把每句 Type 2 改成 Were I to。"
+      },
+      {
+        "id": "CD.20.08",
+        "title": "Had I but known 是文學式的遺憾",
+        "dialogueNote": "這是少見的文學寫法，不要在普通作文刻意使用。"
+      },
+      {
+        "id": "CD.20.09",
+        "title": "if need be 是固定短語",
+        "dialogueNote": "need 在這裏不是普通第三人稱單數動詞，所以不要改成 if needs be。"
+      },
+      {
+        "id": "CD.20.10",
+        "title": "be that as it may 是讓步片語而非普通 if",
+        "dialogueNote": "這是正式或文學片語，不需要納入四類基本公式。"
+      },
+      {
+        "id": "CD.20.11",
+        "title": "provided always that 可見於法律或舊式文本",
+        "dialogueNote": "這種寫法不適合日常學生作文；不用模仿舊式法律語氣。"
+      },
+      {
+        "id": "CD.20.12",
+        "title": "unless and until 是較正式的限制片語",
+        "dialogueNote": "這是法律或行政英文常見的固定用法。"
+      },
+      {
+        "id": "CD.20.13",
+        "title": "should you have any questions 是正常正式英語",
+        "dialogueNote": "雖然有倒裝，但不是不合文法，也不是問句。"
+      },
+      {
+        "id": "CD.20.14",
+        "title": "學術文章中的 if 可表示研究假設",
+        "dialogueNote": "研究中的假設要用合適的 may、might 等字保留不確定性。"
+      },
+      {
+        "id": "CD.20.15",
+        "title": "if clauses 中的 shall 是較正式或法律用語",
+        "dialogueNote": "法律寫法需看當地規範；日常學生作文通常可用 will 或 must。"
+      },
+      {
+        "id": "CD.20.16",
+        "title": "if only I could... 是願望不是 Type 2 的完整結果",
+        "dialogueNote": "不能把缺少主句的感嘆硬判為句子錯誤。"
+      },
+      {
+        "id": "CD.21.01",
+        "title": "in case 表示為可能的情況預先準備",
+        "dialogueNote": "in case 不等於 if，兩者不能在這個語境當作同義。"
+      },
+      {
+        "id": "CD.21.02",
+        "title": "just in case 可單獨表示以防萬一",
+        "dialogueNote": "just in case 的省略內容必須可以從情況明白。"
+      },
+      {
+        "id": "CD.21.03",
+        "title": "in case of 後面用名詞",
+        "dialogueNote": "in case of fire 與 in case there is a fire 不總是同一種時序。"
+      },
+      {
+        "id": "CD.21.04",
+        "title": "if 表示條件真的達成才採取行動",
+        "dialogueNote": "把 in case 誤用成 if 可能改變行動的先後次序。"
+      },
+      {
+        "id": "CD.21.05",
+        "title": "when 表示預期會發生的時間",
+        "dialogueNote": "when 跟 if 在習慣句有時都可能自然，但態度可不同。"
+      },
+      {
+        "id": "CD.21.06",
+        "title": "once 表示一完成便進入下一步",
+        "dialogueNote": "once 也可表示「曾經」，要看句子。"
+      },
+      {
+        "id": "CD.21.07",
+        "title": "as soon as 表示一發生便做下一步",
+        "dialogueNote": "as soon as 主要是時間關係，不是純粹的條件詞。"
+      },
+      {
+        "id": "CD.21.08",
+        "title": "until 表示一個情況持續到某時",
+        "dialogueNote": "unless 與 until 不是同一個字，不可隨便互換。"
+      },
+      {
+        "id": "CD.21.09",
+        "title": "unless 表示例外；until 表示終點",
+        "dialogueNote": "不要把「直到」和「除非」混成一個意思。"
+      },
+      {
+        "id": "CD.21.10",
+        "title": "if and when 表示如果而且到時真的發生",
+        "dialogueNote": "if and when 較常用在商務或計劃語境，不必在每句使用。"
+      },
+      {
+        "id": "CD.21.11",
+        "title": "if at all 表示即使有也可能很少",
+        "dialogueNote": "if at all 不必硬改成完整 if 子句。"
+      },
+      {
+        "id": "CD.21.12",
+        "title": "if anything can make a change 是普通條件",
+        "dialogueNote": "遇到固定短語，先看 anything 後面有沒有動詞。"
+      },
+      {
+        "id": "CD.21.13",
+        "title": "except if 表示某個例外條件",
+        "dialogueNote": "except if 的自然程度受句型影響，不能機械取代所有 unless。"
+      },
+      {
+        "id": "CD.21.14",
+        "title": "if not already 可以表示若之前還未做",
+        "dialogueNote": "「if not already」本身通常要清楚知道省去了哪個動詞。"
+      },
+      {
+        "id": "CD.22.01",
+        "title": "if 後面有過去式不一定是 Type 2",
+        "dialogueNote": "是否有 yesterday、always、used to 等背景會影響解讀。"
+      },
+      {
+        "id": "CD.22.02",
+        "title": "if + present 不一定就是 Type 1",
+        "dialogueNote": "不能只看 if + present 就說一定是第一類。"
+      },
+      {
+        "id": "CD.22.03",
+        "title": "would 不一定表示反事實",
+        "dialogueNote": "看見 would 時要先查時間和語境。"
+      },
+      {
+        "id": "CD.22.04",
+        "title": "had 不一定表示過去完成式",
+        "dialogueNote": "不能把所有 had 都當作「做了較早一件事」。"
+      },
+      {
+        "id": "CD.22.05",
+        "title": "If I'd had ... 可能兩個 had 都要用",
+        "dialogueNote": "had had 雖看起來重複，卻是正確的動詞組合。"
+      },
+      {
+        "id": "CD.22.06",
+        "title": "If only 跟 Only if 次序一換意思就不同",
+        "dialogueNote": "不要把 if only 和 only if 當作同一組字。"
+      },
+      {
+        "id": "CD.22.07",
+        "title": "if 說「是否」時可跟 will",
+        "dialogueNote": "教學上「if 後不用 will」只針對常見的條件讀法。"
+      },
+      {
+        "id": "CD.22.08",
+        "title": "only if 放句首時倒裝主句",
+        "dialogueNote": "If the teacher agrees, can we leave? 是一個問句，語氣和重點不同。"
+      },
+      {
+        "id": "CD.22.09",
+        "title": "if ... then 的 then 不一定必須寫",
+        "dialogueNote": "在數學或推理文字中，then 也常用於標示結果。"
+      },
+      {
+        "id": "CD.22.10",
+        "title": "if 的條件不一定是實際原因",
+        "dialogueNote": "理解這類句子要看說話者為何提供資訊。"
+      },
+      {
+        "id": "CD.22.11",
+        "title": "如果句子有 both if 和 unless，要分清各自的工作",
+        "dialogueNote": "長句應先分開閱讀兩個條件，再合起來看。"
+      },
+      {
+        "id": "CD.22.12",
+        "title": "在談後悔時，要分清已知事實和推測",
+        "dialogueNote": "沒有證據時，不能把「可能會」變成「一定會」。"
+      }
+    ]
+  }
+}
