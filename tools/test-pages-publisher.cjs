@@ -12,27 +12,42 @@ function stepScript(id) {
 const script = stepScript('release');
 const execute = new (Object.getPrototypeOf(async function () {}).constructor)('github', 'context', 'core', 'fetch', script);
 const old = 'a'.repeat(40), candidate = 'b'.repeat(40), latest = 'c'.repeat(40);
-async function decide({live = old, snapshot = old, main = latest, forward = 'ahead', ancestry = 'ahead'} = {}) {
+async function decide({live = old, snapshot = old, main = latest, forward = 'ahead', ancestry = 'ahead', compareFailures = 0} = {}) {
   const outputs = {};
+  let compareCalls = 0;
   const github = {rest: {
     git: {getRef: async () => ({data: {object: {sha: main}}})},
     repos: {
       getContent: async () => ({data: {type: 'file', content: Buffer.from(snapshot).toString('base64')}}),
-      compareCommitsWithBasehead: async ({basehead}) => ({data: {status: basehead === candidate + '...' + main ? ancestry : forward}})
+      compareCommitsWithBasehead: async ({basehead}) => {
+        compareCalls += 1;
+        if (compareCalls <= compareFailures) {
+          const error = new Error('temporarily unavailable');
+          error.status = 500;
+          error.response = {data: {errors: [{code: 'not_available'}]}};
+          throw error;
+        }
+        return {data: {status: basehead === candidate + '...' + main ? ancestry : forward}};
+      }
     }
   }};
-  const core = {summary: {addRaw() {return this}, async write() {}}, setOutput(k,v) {outputs[k] = v}};
+  const core = {summary: {addRaw() {return this}, async write() {}}, warning() {}, setOutput(k,v) {outputs[k] = v}};
   await execute(github, {repo: {}, sha: candidate, runId: 1}, core, async () => ({ok: true, json: async () => ({release: live})}));
-  return outputs;
+  return {outputs, compareCalls};
 }
-test('forward candidate publishes despite a newer main commit', async () => assert.deepEqual(await decide(), {deploy:'true',current:'true'}));
+test('forward candidate publishes despite a newer main commit', async () => assert.deepEqual((await decide()).outputs, {deploy:'true',current:'true'}));
 test('duplicate and old releases cannot roll production back', async () => {
   for (const state of [{live:candidate,snapshot:candidate},{forward:'behind'},{ancestry:'diverged'}])
-    assert.deepEqual(await decide(state), {deploy:'false',current:'false'});
+    assert.deepEqual((await decide(state)).outputs, {deploy:'false',current:'false'});
 });
 test('lost deployment response reconciles snapshot using the prepared artifact', async () =>
-  assert.deepEqual(await decide({live:candidate}), {deploy:'false',current:'true'}));
+  assert.deepEqual((await decide({live:candidate})).outputs, {deploy:'false',current:'true'}));
 test('inconsistent public baseline blocks a fresh deployment', async () => assert.rejects(decide({live:latest}), /snapshot differ/));
+test('transient GitHub compare errors are retried without duplicating a release', async () => {
+  const result = await decide({compareFailures: 2});
+  assert.deepEqual(result.outputs, {deploy:'true',current:'true'});
+  assert.equal(result.compareCalls, 4);
+});
 
 const recoveryScript = stepScript('deploy_recovery');
 const executeRecovery = new (Object.getPrototypeOf(async function () {}).constructor)(
