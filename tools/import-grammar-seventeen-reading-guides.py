@@ -111,27 +111,42 @@ def paragraph_markdown(text: str, prefix: str, in_rules: bool) -> list[str]:
         return []
     if text.startswith("PART "):
         return [f"# {text}"]
-    label, remainder = split_inline_label(text)
-    if label:
-        return [f"**{label}**", *([remainder] if remainder else [])]
     if in_rules and re.match(rf"^{prefix}\.\d{{2}}\.\d{{2}}\s+[—-]\s+", text):
         return [f"### {text}"]
     if (re.match(r"^\d{2}｜", text) or re.match(r"^第\s*\d+\s*組｜", text)
             or re.match(r"^(?:[IVX]+|\d+)\.\d+(?:\.\d+)?\s+", text)):
         return [f"## {text}"]
-    return [text]
+    if not in_rules:
+        return [text]
+    label_forms = sorted((*STEP_LABELS, *LABEL_ALIASES), key=len, reverse=True)
+    marker = re.compile("(" + "|".join(map(re.escape, label_forms)) + ")")
+    pieces = marker.split(text)
+    if len(pieces) == 1:
+        return [text]
+    output = []
+    for piece in pieces:
+        piece = piece.strip()
+        if not piece:
+            continue
+        label = LABEL_ALIASES.get(piece, piece if piece in STEP_LABELS else None)
+        output.append(f"**{label}**" if label else piece)
+    return output
 
 
 def import_docx(source: Path, prefix: str) -> str:
     output: list[str] = []
+    inside_part3 = False
     in_rules = False
     for block in iter_blocks(Document(source)):
         if isinstance(block, Paragraph):
             text = clean(block.text)
             if text.startswith("PART III"):
-                in_rules = True
+                inside_part3 = True
             elif text.startswith("PART IV"):
+                inside_part3 = False
                 in_rules = False
+            elif inside_part3 and re.match(rf"^{prefix}\.\d{{2}}\.\d{{2}}\s+[—-]\s+", text):
+                in_rules = True
             output.extend(paragraph_markdown(text, prefix, in_rules))
         else:
             output.extend(table_markdown(block))
