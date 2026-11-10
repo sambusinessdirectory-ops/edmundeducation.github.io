@@ -52,6 +52,29 @@ jobs:
             const { data: mainRef } = await github.rest.git.getRef({ ...context.repo, ref: 'heads/main' });
             const mainSha = mainRef.object.sha;
 
+            // GitHub's compare endpoint can briefly return 500/not_available
+            // under heavy load. This is a transient release-coordination error,
+            // not evidence that the candidate is unsafe. Retry only that exact
+            // response with bounded backoff; every other error still fails fast.
+            const compare = async (basehead) => {
+              for (let attempt = 1; attempt <= 4; attempt += 1) {
+                try {
+                  const { data } = await github.rest.repos.compareCommitsWithBasehead({
+                    ...context.repo,
+                    basehead,
+                  });
+                  return data;
+                } catch (error) {
+                  const unavailable = error.status === 500
+                    && error.response?.data?.errors?.some(item => item?.code === 'not_available');
+                  if (!unavailable || attempt === 4) throw error;
+                  const delay = attempt * 5000;
+                  core.warning(`GitHub compare is temporarily unavailable; retrying in ${delay / 1000}s (${attempt}/4).`);
+                  await new Promise(resolve => setTimeout(resolve, delay));
+                }
+              }
+            };
+
             let deployedSha = '';
             try {
               const { data: source } = await github.rest.repos.getContent({
@@ -80,27 +103,21 @@ jobs:
               deploy = false;
               current = deployedSha !== live;
               if (current && deployedSha) {
-                const { data } = await github.rest.repos.compareCommitsWithBasehead({
-                  ...context.repo, basehead: `${deployedSha}...${context.sha}`,
-                });
+                const data = await compare(`${deployedSha}...${context.sha}`);
                 if (data.status !== 'ahead') throw new Error('Refusing to move the snapshot backwards');
               }
               outcome = current ? 'repair snapshot' : 'already live';
             } else if (live !== deployedSha) {
               throw new Error('Live and snapshot differ. Re-run the failed snapshot job for the live commit.');
             } else if (deployedSha) {
-              const { data: forward } = await github.rest.repos.compareCommitsWithBasehead({
-                ...context.repo, basehead: `${deployedSha}...${context.sha}`,
-              });
+              const forward = await compare(`${deployedSha}...${context.sha}`);
               if (forward.status !== 'ahead') {
                 current = deploy = false;
                 outcome = forward.status === 'behind' ? 'included in live descendant' : 'diverged; skipped';
               }
             }
             if (deploy && mainSha !== context.sha) {
-              const { data: ancestry } = await github.rest.repos.compareCommitsWithBasehead({
-                ...context.repo, basehead: `${context.sha}...${mainSha}`,
-              });
+              const ancestry = await compare(`${context.sha}...${mainSha}`);
               if (ancestry.status !== 'ahead') {
                 current = deploy = false;
                 outcome = 'outside main history; skipped';
