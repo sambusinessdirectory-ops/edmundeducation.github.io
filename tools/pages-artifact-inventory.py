@@ -10,10 +10,14 @@ parser.add_argument("site", type=Path)
 parser.add_argument("--budget", type=int, default=1_000_000_000)
 parser.add_argument("--enforce", action="store_true")
 args = parser.parse_args()
-# Editorial QA reports are build inputs. Student content and PDF manuals remain public.
+# Editorial QA reports and unreferenced source duplicates are build inputs, not
+# student-facing runtime assets. Keep the canonical lesson PDFs public while
+# removing their archived source copies from every Pages builder.
 for report in ("MCQ-REVIEW.json", "MCQ-REVIEW.md", "PDF-ANSWER-AUDIT.json", "PDF-ANSWER-REVIEW.md",
                "PDF-ORPHAN-ANSWER-REVIEW.json", "PDF-PLAIN-ANSWER-REVIEW.json", "PDF-SOUND-ANSWER-REVIEW.json"):
     (args.site / "polysemy-lab" / report).unlink(missing_ok=True)
+for source_pdf in (args.site / "professional-english" / "materials").glob("lesson-4-source-*.pdf"):
+    source_pdf.unlink()
 directories = Counter()
 largest_files = []
 files = 0
