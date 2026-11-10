@@ -18,7 +18,10 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # One Pages attempt may consume the action's ten-minute timeout. Leave
+    # enough room for a bounded reconciliation check and one artifact-reusing
+    # retry, but never loop indefinitely.
+    timeout-minutes: 30
     permissions:
       actions: read
       contents: read
@@ -100,12 +103,81 @@ jobs:
             core.setOutput('current', String(current));
 
       - name: Deploy to GitHub Pages
+        id: deploy_primary
         if: steps.release.outputs.deploy == 'true'
+        continue-on-error: true
         uses: actions/deploy-pages@v5
         with:
           artifact_name: ${{ inputs.artifact_name }}
           timeout: 600000
           error_count: 30
+
+      - name: Reconcile a failed Pages response before retrying
+        id: deploy_recovery
+        if: steps.release.outputs.deploy == 'true' && steps.deploy_primary.outcome == 'failure'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            // A Pages timeout can lose the success response even when the site
+            // has become public. Check production before creating a second
+            // deployment, then allow the cancelled deployment slot to clear.
+            let live = '';
+            for (let attempt = 1; attempt <= 6; attempt += 1) {
+              try {
+                const response = await fetch(`https://edmundeducation.com/release.json?reconcile=${context.runId}-${process.env.GITHUB_RUN_ATTEMPT}-${attempt}`, { cache: 'no-store' });
+                if (response.ok) live = (await response.json()).release || '';
+              } catch (error) {
+                core.info(`Public release check ${attempt} failed: ${error.message}`);
+              }
+              if (live === context.sha) break;
+              if (attempt < 6) await new Promise(resolve => setTimeout(resolve, 10000));
+            }
+            const retry = live !== context.sha;
+            if (retry) await new Promise(resolve => setTimeout(resolve, 30000));
+            await core.summary.addRaw(
+              live === context.sha
+                ? `Pages returned a failure, but ${context.sha} is already public; no retry was created.`
+                : `Pages failed before ${context.sha} became public; retrying the same prepared artifact once.`
+            ).write();
+            core.setOutput('retry', String(retry));
+
+      - name: Retry only the failed Pages deployment
+        id: deploy_retry
+        if: steps.deploy_recovery.outputs.retry == 'true'
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+        with:
+          artifact_name: ${{ inputs.artifact_name }}
+          timeout: 600000
+          error_count: 30
+
+      - name: Require the candidate to be public after deployment
+        if: always() && steps.release.outputs.deploy == 'true'
+        uses: actions/github-script@v8
+        env:
+          PRIMARY_OUTCOME: ${{ steps.deploy_primary.outcome }}
+          RETRY_OUTCOME: ${{ steps.deploy_retry.outcome }}
+        with:
+          script: |
+            let live = '';
+            for (let attempt = 1; attempt <= 24; attempt += 1) {
+              try {
+                const response = await fetch(`https://edmundeducation.com/release.json?publish=${context.runId}-${process.env.GITHUB_RUN_ATTEMPT}-${attempt}`, { cache: 'no-store' });
+                if (response.ok) live = (await response.json()).release || '';
+              } catch (error) {
+                core.info(`Public release check ${attempt} failed: ${error.message}`);
+              }
+              if (live === context.sha) {
+                await core.summary.addRaw(`Verified ${context.sha} on the public release endpoint after Pages publication.`).write();
+                return;
+              }
+              if (attempt < 24) await new Promise(resolve => setTimeout(resolve, 5000));
+            }
+            throw new Error(
+              `Pages did not publish ${context.sha} after one bounded retry. ` +
+              `Primary outcome: ${process.env.PRIMARY_OUTCOME}; retry outcome: ${process.env.RETRY_OUTCOME}. ` +
+              `Preserve the prepared artifact, inspect the first deployment error, and do not create another release commit.`
+            );
 
   snapshot:
     needs: publish

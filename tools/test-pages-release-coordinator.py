@@ -32,9 +32,21 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         ]
         self.assertEqual(
             sum(text.count("actions/deploy-pages@") for text in all_workflows),
-            1,
+            2,
         )
-        self.assertIn("actions/deploy-pages@v5", PUBLISHER)
+        self.assertEqual(PUBLISHER.count("actions/deploy-pages@v5"), 2)
+
+    def test_pages_timeout_reuses_the_artifact_once_before_stopping(self):
+        self.assertIn("id: deploy_primary", PUBLISHER)
+        self.assertIn("id: deploy_recovery", PUBLISHER)
+        self.assertIn("id: deploy_retry", PUBLISHER)
+        self.assertEqual(PUBLISHER.count("continue-on-error: true"), 2)
+        self.assertIn("steps.deploy_primary.outcome == 'failure'", PUBLISHER)
+        self.assertIn("steps.deploy_recovery.outputs.retry == 'true'", PUBLISHER)
+        self.assertIn("Retry only the failed Pages deployment", PUBLISHER)
+        self.assertIn("Pages did not publish ${context.sha} after one bounded retry", PUBLISHER)
+        self.assertIn("do not create another release commit", PUBLISHER)
+        self.assertNotIn("for attempt in {1..3}; do\n            gh run rerun", PUBLISHER)
 
     def test_builders_cannot_request_deployment_permissions(self):
         for workflow in BUILDERS:
