@@ -19,6 +19,7 @@ jobs:
             /.github/workflows/
             /tools/pages-pr-rehearsal.rb
             /tools/pages-artifact-inventory.py
+            /tools/deploy-pages-long-poll.cjs
             /tools/test-pages-publisher.cjs
             /tools/test-pages-media-cutover.py
             /tools/prune-verified-pages-media.py

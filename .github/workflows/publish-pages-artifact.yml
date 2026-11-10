@@ -37,6 +37,13 @@ jobs:
       name: github-pages
       url: https://edmundeducation.com/
     steps:
+      - name: Checkout bounded Pages deployment helper
+        uses: actions/checkout@v6
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/deploy-pages-long-poll.cjs
+
       - name: Check forward-only release after acquiring the publication slot
         id: release
         uses: actions/github-script@v8
@@ -107,16 +114,20 @@ jobs:
         id: deploy_primary
         if: steps.release.outputs.deploy == 'true'
         continue-on-error: true
-        uses: actions/deploy-pages@v5
+        uses: actions/github-script@v8
+        env:
+          ARTIFACT_NAME: ${{ inputs.artifact_name }}
         with:
-          artifact_name: ${{ inputs.artifact_name }}
-          timeout: 900000
-          error_count: 30
+          script: |
+            const deploy = require(`${process.env.GITHUB_WORKSPACE}/tools/deploy-pages-long-poll.cjs`);
+            await deploy({ github, context, core, artifactName: process.env.ARTIFACT_NAME });
 
       - name: Reconcile a failed Pages response before retrying
         id: deploy_recovery
         if: steps.release.outputs.deploy == 'true' && steps.deploy_primary.outcome == 'failure'
         uses: actions/github-script@v8
+        env:
+          PRIMARY_PENDING: ${{ steps.deploy_primary.outputs.pending }}
         with:
           script: |
             // A Pages timeout can lose the success response even when the site
@@ -133,11 +144,13 @@ jobs:
               if (live === context.sha) break;
               if (attempt < 6) await new Promise(resolve => setTimeout(resolve, 10000));
             }
-            const retry = live !== context.sha;
+            const retry = live !== context.sha && process.env.PRIMARY_PENDING !== 'true';
             if (retry) await new Promise(resolve => setTimeout(resolve, 30000));
             await core.summary.addRaw(
               live === context.sha
                 ? `Pages returned a failure, but ${context.sha} is already public; no retry was created.`
+                : process.env.PRIMARY_PENDING === 'true'
+                  ? `Pages is still processing ${context.sha}; the deployment was left active and no competing retry was created.`
                 : `Pages failed before ${context.sha} became public; retrying the same prepared artifact once.`
             ).write();
             core.setOutput('retry', String(retry));
@@ -146,11 +159,13 @@ jobs:
         id: deploy_retry
         if: steps.deploy_recovery.outputs.retry == 'true'
         continue-on-error: true
-        uses: actions/deploy-pages@v5
+        uses: actions/github-script@v8
+        env:
+          ARTIFACT_NAME: ${{ inputs.artifact_name }}
         with:
-          artifact_name: ${{ inputs.artifact_name }}
-          timeout: 900000
-          error_count: 30
+          script: |
+            const deploy = require(`${process.env.GITHUB_WORKSPACE}/tools/deploy-pages-long-poll.cjs`);
+            await deploy({ github, context, core, artifactName: process.env.ARTIFACT_NAME });
 
       - name: Require the candidate to be public after deployment
         if: always() && steps.release.outputs.deploy == 'true'

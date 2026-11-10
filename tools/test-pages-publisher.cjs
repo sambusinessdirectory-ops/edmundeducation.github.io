@@ -1,6 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {execFileSync} = require('node:child_process');
+const deployPagesLongPoll = require('./deploy-pages-long-poll.cjs');
 
 const workflow = '.github/workflows/publish-pages-artifact.yml';
 function stepScript(id) {
@@ -36,7 +37,7 @@ test('inconsistent public baseline blocks a fresh deployment', async () => asser
 const recoveryScript = stepScript('deploy_recovery');
 const executeRecovery = new (Object.getPrototypeOf(async function () {}).constructor)(
   'context', 'core', 'fetch', 'process', 'setTimeout', recoveryScript);
-async function recover(releases) {
+async function recover(releases, primaryPending = '') {
   const outputs = {}, delays = [], calls = [];
   const queue = [...releases];
   const core = {
@@ -52,7 +53,7 @@ async function recover(releases) {
   const setTimeout = (callback, delay) => {delays.push(delay); callback()};
   await executeRecovery(
     {sha: candidate, runId: 7}, core, fetch,
-    {env: {GITHUB_RUN_ATTEMPT: '2'}}, setTimeout);
+    {env: {GITHUB_RUN_ATTEMPT: '2', PRIMARY_PENDING: primaryPending}}, setTimeout);
   return {outputs, delays, calls};
 }
 test('failed Pages response does not redeploy an artifact that is already public', async () => {
@@ -66,4 +67,55 @@ test('failed Pages response gets exactly one bounded retry after reconciliation 
   assert.deepEqual(result.outputs, {retry: 'true'});
   assert.equal(result.calls.length, 6);
   assert.deepEqual(result.delays, [10000, 10000, 10000, 10000, 10000, 30000]);
+});
+
+test('long Pages synchronization reaches success without cancelling at ten minutes', async () => {
+  const outputs = {}, requests = [], delays = [];
+  const statuses = [...Array(65).fill('syncing_files'), 'succeed'];
+  const github = {
+    rest: {actions: {listWorkflowRunArtifacts: async () => ({data: {artifacts: [{id: 41, name: 'pages', expired: false}]}})}},
+    request: async (route, payload) => {
+      requests.push([route, payload]);
+      if (route.startsWith('POST ')) return {data: {id: 'deployment-1'}};
+      return {data: {status: statuses.shift(), page_url: 'https://example.test/'}};
+    },
+  };
+  const core = {async getIDToken() {return 'oidc'}, info() {}, warning() {}, setOutput(k,v) {outputs[k] = v}};
+  await deployPagesLongPoll({
+    github, context: {repo: {owner: 'o', repo: 'r'}, runId: 7, sha: candidate}, core,
+    artifactName: 'pages', maxAttempts: 70, intervalMs: 10000,
+    sleep: async delay => delays.push(delay),
+  });
+  assert.equal(requests.filter(([route]) => route.startsWith('POST ')).length, 1);
+  assert.equal(requests.filter(([route]) => route.startsWith('GET ')).length, 66);
+  assert.equal(delays.reduce((sum, delay) => sum + delay, 0), 660000);
+  assert.deepEqual(outputs, {pending: 'false', page_url: 'https://example.test/'});
+});
+
+test('long Pages synchronization times out without cancelling the active deployment', async () => {
+  const routes = [], outputs = {};
+  const github = {
+    rest: {actions: {listWorkflowRunArtifacts: async () => ({data: {artifacts: [{id: 41, name: 'pages'}]}})}},
+    request: async route => {
+      routes.push(route);
+      return route.startsWith('POST ') ? {data: {id: 'deployment-2'}} : {data: {status: 'syncing_files'}};
+    },
+  };
+  const core = {async getIDToken() {return 'oidc'}, info() {}, warning() {}, setOutput(k,v) {outputs[k] = v}};
+  await assert.rejects(
+    deployPagesLongPoll({
+      github, context: {repo: {}, runId: 7, sha: candidate}, core,
+      artifactName: 'pages', maxAttempts: 2, intervalMs: 1, sleep: async () => {},
+    }),
+    /deliberately left running/,
+  );
+  assert.equal(routes.some(route => route.includes('/cancel')), false);
+  assert.deepEqual(outputs, {pending: 'true'});
+});
+
+test('pending Pages deployment is never duplicated during reconciliation', async () => {
+  const result = await recover([old], 'true');
+  assert.deepEqual(result.outputs, {retry: 'false'});
+  assert.equal(result.calls.length, 6);
+  assert.deepEqual(result.delays, [10000, 10000, 10000, 10000, 10000]);
 });

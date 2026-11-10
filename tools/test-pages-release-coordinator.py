@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKFLOWS = ROOT / ".github" / "workflows"
 COORDINATOR = (WORKFLOWS / "pages-release-coordinator.yml").read_text(encoding="utf-8")
 PUBLISHER = (WORKFLOWS / "publish-pages-artifact.yml").read_text(encoding="utf-8")
+DEPLOY_HELPER = (ROOT / "tools" / "deploy-pages-long-poll.cjs").read_text(encoding="utf-8")
 REPORT = (ROOT / "tools" / "pages-release-report.py").read_text(encoding="utf-8")
 BUILDERS = [
     (WORKFLOWS / name).read_text(encoding="utf-8")
@@ -30,11 +31,11 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
             path.read_text(encoding="utf-8")
             for path in WORKFLOWS.glob("*.yml")
         ]
-        self.assertEqual(
-            sum(text.count("actions/deploy-pages@") for text in all_workflows),
-            2,
-        )
-        self.assertEqual(PUBLISHER.count("actions/deploy-pages@v5"), 2)
+        self.assertEqual(sum(text.count("actions/deploy-pages@") for text in all_workflows), 0)
+        self.assertEqual(sum(text.count("/pages/deployments") for text in all_workflows), 0)
+        self.assertEqual(DEPLOY_HELPER.count("POST /repos/{owner}/{repo}/pages/deployments"), 1)
+        self.assertNotIn("/cancel", DEPLOY_HELPER)
+        self.assertEqual(PUBLISHER.count("tools/deploy-pages-long-poll.cjs"), 3)
 
     def test_pages_timeout_reuses_the_artifact_once_before_stopping(self):
         self.assertIn("id: deploy_primary", PUBLISHER)

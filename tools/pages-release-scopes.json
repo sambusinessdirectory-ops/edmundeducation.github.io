@@ -31,6 +31,7 @@
       "tools/pages-release-report.py",
       "tools/classify-pages-release.py",
       "tools/collect-pages-release-tags.py",
+    "tools/deploy-pages-long-poll.cjs",
       "tools/pages-system-release-map.json",
       "tools/pages-release-scopes.json",
       "tools/prepare-pages-incremental.py",
