@@ -47,8 +47,9 @@ for (const [index, [slug, prefix, count]] of [["so", "S", 30], ["modal", "M", 42
 assert.match(html, /grammar-new-curations-data\.js\?v=/);
 assert.match(html, /grammar-conditionals-data\.js\?v=20261110-1/);
 assert.match(html, /grammar-four-reading-guides-data\.js\?v=20261110-1/);
-assert.match(html, /grammar-new-curations\.js\?v=20261110-four-guides1/);
-assert.match(html, /grammar-dialogue-propagation\.js\?v=20261110-four-guides1/);
+assert.match(html, /grammar-seventeen-reading-guides-data\.js\?v=20261110-1/);
+assert.match(html, /grammar-new-curations\.js\?v=20261110-seventeen-guides1/);
+assert.match(html, /grammar-dialogue-propagation\.js\?v=20261110-seventeen-guides1/);
 assert.match(html, /grammar-new-curations\.js\?v=/);
 assert.match(css, /\.grammar-new-body table/);
 assert.match(css, /https:\/\/edmund-public-media\.edmundeducation\.workers\.dev\/grammar-eddy-dialogues\/blackboard-imagegen-framed-v2\.webp\?v=20261106-live-assets2/);

@@ -48,7 +48,7 @@
     const isIndefinite = view.dataset.newGrammarCuration !== "unless";
     // The Indefinite Pronouns cards use the assigned Grammar taeching rule 1–33 artwork.
     // The Unless guide retains its original 24-pose cycle.
-    const poseCount = ["phrasal-verbs", "relative-clauses", "passive-voice", "prepositions", "conditionals", "comparative-superlative", "dependent-independent-clauses", "adverbs-of-frequency", "parts-of-speech-functions"].includes(view.dataset.newGrammarCuration) ? 32 : isIndefinite ? 33 : 24;
+    const poseCount = view.dataset.readingOnly === "true" || ["phrasal-verbs", "relative-clauses", "passive-voice", "prepositions"].includes(view.dataset.newGrammarCuration) ? 32 : isIndefinite ? 33 : 24;
     const poses = Array.from({ length: poseCount }, (_, index) =>
       `${EDDY_MEDIA_ORIGIN}/grammar-eddy-dialogues/unless/eddy-${String(index + 1).padStart(2, "0")}.webp?v=${EDDY_POSE_VERSION}`);
     const summaryForUnlistedEnding = {
@@ -309,8 +309,7 @@
       }
     }
     const referenceSlug = view.dataset.newGrammarCuration;
-    const collapsibleReferenceModules = new Set(["relative-clauses", "passive-voice", "prepositions", "conditionals", "comparative-superlative", "dependent-independent-clauses", "adverbs-of-frequency", "parts-of-speech-functions"]);
-    if (collapsibleReferenceModules.has(referenceSlug)) {
+    if (view.dataset.readingOnly === "true" || ["relative-clauses", "passive-voice", "prepositions"].includes(referenceSlug)) {
       const reference = document.createElement("details");
       reference.className = "grammar-relative-reference";
       const summary = document.createElement("summary");
@@ -381,6 +380,7 @@
     const view = document.createElement("section");
     view.className = "panel grammar-articles-curation grammar-tense-curation grammar-new-curation";
     view.dataset.newGrammarCuration = lesson.slug;
+    view.dataset.readingOnly = lesson.readingOnly ? "true" : "false";
     view.hidden = true;
     const chapters = lesson.chapters.map((chapter) => `<a href="#${chapter.id}">${chapter.title}</a>`).join("");
     view.innerHTML = `<div class="grammar-articles-curation__head"><button class="grammar-button--ghost" type="button" data-back-library>← 返回語法目錄</button><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · READING GUIDE</p><h2>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h2><p>${lesson.count} 個教學重點 · 英式英語為主 · 香港繁體中文解說</p></div><nav class="grammar-new-chapters" aria-label="章節導覽">${chapters}</nav><article class="grammar-new-body">${lesson.html}</article><div class="grammar-articles-curation__finish"><button class="grammar-button grammar-button--primary" type="button" data-back-library>返回語法目錄</button></div>`;

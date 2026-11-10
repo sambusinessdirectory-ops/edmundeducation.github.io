@@ -72,7 +72,7 @@ def split_rules(source: str, config: dict) -> tuple[str, list[tuple[str, list[di
     end = source.index("# PART IV", start)
     area = source[start:end]
     part_title = re.search(r"^#\s+(PART III.+)$", area, re.M).group(1)
-    family_matches = list(re.finditer(r"^##\s+(\d{2}｜.+)$", area, re.M))
+    family_matches = list(re.finditer(r"^##\s+((?:\d{2}｜|第\s*\d+\s*組｜).+)$", area, re.M))
     rule_matches = list(re.finditer(rf"^###\s+({config['prefix']}\.\d{{2}}\.\d{{2}})\s+[—-]\s+(.+)$", area, re.M))
     rules = []
     for index, match in enumerate(rule_matches):
@@ -96,12 +96,12 @@ def split_rules(source: str, config: dict) -> tuple[str, list[tuple[str, list[di
         rules.append({"id": match.group(1), "title": match.group(2).strip(), "family": family, **values})
     if len(rules) != config["count"] or len({rule["id"] for rule in rules}) != config["count"]:
         raise ValueError(f"Expected {config['count']} unique rules; found {len(rules)}")
-    expected_shape = [1, 1, 1, 1, 2, 1]
+    minimum_shape = [1, 1, 1, 1, 1, 1]
     for rule in rules:
         actual = [len(rule[label]) for label in STEP_LABELS]
-        if actual != expected_shape:
-            raise ValueError(f"{rule['id']} has step shape {actual}; expected {expected_shape}")
-    notes = [rule[STEP_LABELS[-1]][0] for rule in rules]
+        if any(value < minimum for value, minimum in zip(actual, minimum_shape)):
+            raise ValueError(f"{rule['id']} has step shape {actual}; expected at least {minimum_shape}")
+    notes = ["\n".join(rule[STEP_LABELS[-1]]) for rule in rules]
     if len(set(notes)) != config["count"]:
         raise ValueError(f"Every {config['english']} card must have a unique Eddy teaching note")
     groups = []
