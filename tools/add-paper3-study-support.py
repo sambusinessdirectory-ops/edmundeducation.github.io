@@ -3,8 +3,17 @@ import sys
 root=Path(sys.argv[1]);count=0
 for page in root.rglob('*.html'):
  text=page.read_text(encoding='utf-8')
- if 'study-support.mjs' in text:continue
  if '</body>' not in text:continue
- text=text.replace('</body>','<script type="module" src="/study-support.mjs?v=20260907-study4"></script></body>')
- page.write_text(text,encoding='utf-8');count+=1
+ changed=False
+ if 'study-support.mjs' not in text:
+  text=text.replace('</body>','<script type="module" src="/study-support.mjs?v=20260907-study4"></script></body>')
+  changed=True
+ if 'data-reader="2022-b2"' in text and 'EDMUND_2022_B2_CURATION' not in text:
+  bundle='<link rel="stylesheet" href="/paper3/2022-b2/super-curation.css?v=20261111-b2v1"><script defer src="/paper3/2022-b2/curation-data.js?v=20261111-b2v1"></script><script defer src="/paper3/2022-b2/super-curation.js?v=20261111-b2v1"></script>'
+  text=text.replace('</head>',bundle+'</head>')
+  worker='https://edmund-neural-audio.edmundeducation.workers.dev'
+  text=text.replace("connect-src 'self'",f"connect-src 'self' {worker}").replace("object-src 'none'",f"media-src 'self' {worker}; object-src 'none'")
+  changed=True
+ if changed:
+  page.write_text(text,encoding='utf-8');count+=1
 print(f'Added teaching highlighter to {count} Paper 3 readers')

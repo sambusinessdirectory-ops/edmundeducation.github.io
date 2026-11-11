@@ -16,4 +16,7 @@ for(const year of [2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2023]) {
 }
 vm.runInNewContext(fs.readFileSync('paper3/2025-b2/sentence-analysis-data.js','utf8'),ctx);
 for (const record of ctx.window.EDMUND_B2_SENTENCE_ANALYSIS.records) rows.push({year:2025,level:'B2',title:record.sectionTitle,url:'/paper3/2025-b2/',text:[record.quote,...record.blocks].join('\n')});
+vm.runInNewContext(fs.readFileSync('paper3/2022-b2/curation-data.js','utf8'),ctx);
+for (const essay of ctx.window.EDMUND_2022_B2_CURATION.essays) rows.push({year:2022,level:'B2',material:'model-essay',title:`Task ${essay.task} · ${essay.title}`,url:'/paper3/2022-b2/',text:[...essay.paragraphs,...essay.guide.flat()].join('\n')});
+for (const cue of ctx.window.EDMUND_2022_B2_CURATION.podcast.cues) rows.push({year:2022,level:'B2',material:'listening-analysis',title:`Podcast · ${cue.heading}`,url:'/paper3/2022-b2/',text:[cue.note,cue.answer||''].join('\n')});
 console.log(execFileSync('python3',['tools/build-paper3-search-html.py'],{input:JSON.stringify({rows,listening}),encoding:'utf8'}));
