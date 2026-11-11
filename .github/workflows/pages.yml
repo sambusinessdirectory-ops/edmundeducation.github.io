@@ -784,10 +784,12 @@ jobs:
           node --check grammar-new-curations-data.js
           node --check grammar-seventeen-reading-guides-data.js
           node --check grammar-seven-reading-guides-data.js
+          node --check grammar-six-reading-guides-data.js
           node --check grammar-new-curations.js
           node tools/test-grammar-new-curations.mjs
           node tools/test-grammar-seventeen-reading-guides.mjs
           node tools/test-grammar-seven-reading-guides.mjs
+          node tools/test-grammar-six-reading-guides.mjs
           node tools/test-grammar-curation-eddy-poses.mjs
           node tools/test-grammar-dialogue-propagation.mjs
           python3 tools/build-grammar-three-sets.py

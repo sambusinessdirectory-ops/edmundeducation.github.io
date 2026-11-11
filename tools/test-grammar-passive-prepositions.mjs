@@ -56,9 +56,8 @@ assert.match(passiveData, /window\.EDMUND_GRAMMAR_PASSIVE_VOICE/);
 assert.match(prepData, /window\.EDMUND_GRAMMAR_PREPOSITIONS/);
 assert.ok(html.indexOf("grammar-passive-voice-data.js") < html.indexOf("grammar-new-curations.js"));
 assert.ok(html.indexOf("grammar-prepositions-data.js") < html.indexOf("grammar-new-curations.js"));
-assert.match(html, /grammar-new-curations\.js\?v=20261110-seven-guides1/);
-assert.match(propagation, /passive-voice/);
-assert.match(propagation, /prepositions/);
+assert.match(html, /grammar-new-curations\.js\?v=20261111-six-guides1/);
+assert.match(propagation, /querySelectorAll\('\[data-new-grammar-curation\]'\)/);
 assert.match(guideRuntime, /passive-voice/);
 assert.match(guideRuntime, /prepositions/);
 
