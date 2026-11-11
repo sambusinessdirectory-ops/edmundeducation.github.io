@@ -131,6 +131,25 @@ class RewritePublicMediaTests(unittest.TestCase):
         self.assertEqual(result["references"], 1)
         self.assertIn(rewrite.DEFAULT_ORIGIN, css.read_text())
 
+    def test_script_media_rewrite_extends_page_csp(self):
+        script = self.site / "dialogue.js"
+        script.write_text("const mascot = 'Static Images/sound-button.png';")
+        page = self.site / "index.html"
+        page.write_text(
+            '<meta http-equiv="Content-Security-Policy" '
+            'content="default-src \'self\'; img-src \'self\' data:">'
+            '<script src="dialogue.js"></script>'
+        )
+        result = rewrite.rewrite(self.site, self.index, rewrite.DEFAULT_ORIGIN)
+        self.assertEqual(result["references"], 1)
+        self.assertIn(
+            rewrite.DEFAULT_ORIGIN + "/Static%20Images/sound-button.png",
+            script.read_text(),
+        )
+        output = page.read_text()
+        self.assertIn("default-src 'self' " + rewrite.DEFAULT_ORIGIN, output)
+        self.assertIn("img-src 'self' data: " + rewrite.DEFAULT_ORIGIN, output)
+
     def test_literal_space_in_quoted_media_path_is_encoded_and_rewritten(self):
         page = self.site / "flashcards.html"
         page.write_text('<img src="Static Images/sound-button.png">')
