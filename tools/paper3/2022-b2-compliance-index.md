@@ -1,10 +1,10 @@
 # 2022 B2 Golden Manual Compliance Index
 
-Status: `READY FOR RELEASE AUDIT`
+Status: `V2 CORRECTION · READY FOR PROTECTED RELEASE`
 Manual authority: `Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf`
 Manual coverage: all 183 pages inspected on 2026-11-11
 Coding reference: `2025_B2_Super_Curation_Line_by_Line.md` (24,425 lines; indexed and reference hashes verified)
-Target: `/paper3/2022-b2/` on `origin/main` at baseline `e9432c186`
+Target: `/paper3/2022-b2/` on correction branch from baseline `9c2f546bc7c108b05f884e49856e0a24075dd3b7`
 
 ## Source inventory
 
@@ -56,15 +56,16 @@ The printed handwriting on Data File page 3 is candidate annotation, not authori
 
 | Requirement | Status | Evidence |
 | --- | --- | --- |
-| Complete paper order and source closure | PASS | Native build audit: 19 pages, 11 Data File + 8 QAB, zero missing pages, zero low-coverage pages; 52 local references and zero missing assets |
-| Six-type atomic source coverage | PASS | Browser-generated inventory: 185 English source units; exactly one primary type per unit; all six types represented (47/29/21/13/51/24) |
-| Five-stage learning route | PASS | Orientation, categorisation, podcast, revised model essays, self-audit; state persisted in `edmund-paper3-2022-b2-curation-v1` |
+| Complete paper order and source closure | PASS | Production-equivalent artifact contains 19 pages: 11 Data File + 8 QAB; original native paper remains unchanged |
+| Six-type atomic source coverage | PASS | Chromium and Firefox each generate 160 ordered English source units with one primary type per unit |
+| 2025 desktop architecture | PASS | Browser geometry verifies fixed five-stage rail, fixed 420 px left dock, central paper workspace, and fixed 288 px right evidence bank; obsolete `.curation-hub` count is zero |
+| Five-stage learning route | PASS | Task instructions → classification → listening → sentence evidence → three writings; progress persists in five separate v2 save slots |
 | Authentic note sheet and listening ownership | PASS | Original page-3 five-field note sheet retained; eight real-media cue transactions target those fields; no substitute note surface |
 | Authentic media | PASS | Four Part A tracks + Part B podcast uploaded to R2; all five full public readbacks match recorded SHA-256 values; live DSE catalogue exposes five 2022 tracks |
 | Revised essays and line-by-line analysis | PASS | Only the final reviewed versions from supplied PDF pages 7, 12 and 17 are digitised; 35 sentence-level guide records cite their evidence source |
-| Persistence and re-entry | PASS | Chromium and Firefox journeys confirm original note-field persistence through reload and curation-stage persistence |
+| Persistence and re-entry | PASS | Chromium and Firefox journeys confirm original note-field persistence through reload; v2 exposes five selectable local save slots plus JSON import/export |
 | Accessibility and responsive states | PASS | Keyboard-native controls, labels/live output, reduced-motion context, 390 px overflow assertion, desktop/mobile visual inspection |
 | Search integration | PASS | Search index rebuilt: 3,353 text blocks across 13 years, including 2022 essays and podcast analysis |
-| Regression and release tooling | PASS | 38 incremental-build/release-coordinator unit tests pass; production-equivalent assembly passes; exact asset closure passes |
+| Regression and release tooling | PASS | 62 incremental-build/release-classification/release-coordinator unit tests pass; production-equivalent assembly and cross-browser journey pass |
 
-The former recording stop condition was resolved when the user supplied the authentic 2022 recording. No variance is in use. Publication remains conditional on the deployment workflow and cache-busted live verification of the exact commit.
+The former recording stop condition was resolved when the user supplied the authentic 2022 recording. The official 33-page tapescript scan was re-rendered and OCR-located on 2026-11-11; Part B occupies source-scan pages 7–8 and the eight cue endpoints remain aligned to the authentic audio. No variance is in use. Publication remains conditional on the protected-branch checks, deployment workflow and cache-busted live verification of the exact commit.
