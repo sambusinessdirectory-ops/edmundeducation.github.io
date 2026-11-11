@@ -7,6 +7,7 @@
   const MP3_ENCODER_INTEGRITY = "sha384-xuasJXVcyv3hZq0eYpelEkBC8l4yufatZXDsKuyCU2rqfhDCb+ftuE/mSfZAteiK";
   const MAX_SECONDS = Math.min(300, Math.max(30, Number(CONFIG.maxRecordingSeconds || 300)));
   const MAX_UPLOAD_BYTES = Math.min(3 * 1024 * 1024, Math.max(512, Number(CONFIG.maxUploadBytes || 3 * 1024 * 1024)));
+  const VOICE_REQUEST_TIMEOUT_MS = 30_000;
   const state = {
     audio: null,
     audioButton: null,
@@ -120,7 +121,7 @@
       let url = state.audioUrls.get(normalized);
       if (!url) {
         const controller = new AbortController();
-        const timeoutId = window.setTimeout(() => controller.abort(), 8_000);
+        const timeoutId = window.setTimeout(() => controller.abort(), VOICE_REQUEST_TIMEOUT_MS);
         let response;
         try {
           response = await apiFetch("/v1/learning-voice", {

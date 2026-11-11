@@ -15,7 +15,7 @@ assert.match(natural,/function playDeviceVoice\(/);
 assert.match(natural,/voiceAudio\.onerror=fallback/);
 assert.match(natural,/catch\{fallback\(\);\}/);
 assert.match(natural,/SpeechSynthesisUtterance/);
-assert.match(natural,/AbortSignal\.timeout\(8000\)/);
+assert.match(natural,/AbortSignal\.timeout\(30000\)/);
 
 assert.match(flashcards,/function playFlashcardDeviceSpeech\(/);
 assert.match(flashcards,/if \(!path\)[\s\S]*playFlashcardDeviceSpeech\(text, requestId\)/);
@@ -24,6 +24,7 @@ assert.match(flashcards,/speechSynthesis\.cancel\(\)/);
 
 assert.match(sharedSpeaking,/function fallbackVoice\(/);
 assert.match(sharedSpeaking,/SpeechSynthesisUtterance/);
+assert.match(sharedSpeaking,/VOICE_REQUEST_TIMEOUT_MS = 30_000/);
 assert.match(sharedSpeaking,/Learning voice playback failed[\s\S]*fallbackVoice\(normalized, button\)/);
 for(const portal of ['phrasal-verb-system.html','idiom-system.html','sentence-structure.html','proverb-system.html']){
  const html=fs.readFileSync(portal,'utf8');
@@ -53,7 +54,12 @@ for(const workflow of [
 
 for(const portal of ['natural-english.html','advanced-native.html']){
  const html=fs.readFileSync(portal,'utf8');
- assert.match(html,/natural-english\/app\.mjs\?v=20261107-audio-fallback1/);
+ assert.match(html,/natural-english\/app\.mjs\?v=20261111-audio-reliability1/);
+}
+
+for(const portal of ['phrasal-verb-system.html','idiom-system.html','sentence-structure.html','proverb-system.html']){
+ const html=fs.readFileSync(portal,'utf8');
+ assert.match(html,/shared-speaking-practice\.js\?v=20261111-audio-reliability1/);
 }
 
 console.log('PASS: all audio delivery routes use the school-accessible relay or a tested device-voice fallback.');
