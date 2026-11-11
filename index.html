@@ -18,6 +18,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="preload" as="image" href="edmund-fantasy-title-transparent-cropped-v1.png" fetchpriority="high">
   <link rel="preload" as="image" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/company-logo.webp" fetchpriority="high">
   <link rel="preload" as="image" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/game-cover.webp" fetchpriority="auto">
   <link rel="stylesheet" href="/pwa-ui.css">
@@ -273,17 +274,33 @@
       flex-wrap: wrap;
     }
 
-    h1 {
+    .hero-title-art {
       margin: 0;
-      max-width: 980px;
-      font-size: clamp(46px, 6vw, 76px);
-      line-height: 1.04;
-      font-weight: 900;
-      letter-spacing: 0;
-      background: linear-gradient(95deg, #55c7ff 0%, #0071e3 42%, #062b84 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+      width: min(100%, 1080px);
+      max-width: 1080px;
+      flex: 1 1 720px;
+      font-size: 0;
+      line-height: 0;
+      background: none;
+      color: inherit;
+    }
+
+    .hero-title-art img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .hero-title-art__text {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
     }
 
     .hero-feature-stack {
@@ -2679,6 +2696,12 @@
         padding-right: 22px;
       }
 
+      .hero-title-art {
+        width: 100%;
+        max-width: none;
+        flex-basis: 100%;
+      }
+
       .social-links {
         margin-top: 24px;
         gap: 14px;
@@ -3187,7 +3210,10 @@
   <main>
     <section class="store">
       <div class="hero-row">
-        <h1>Edmund 英文學習平台</h1>
+        <h1 class="hero-title-art">
+          <img src="edmund-fantasy-title-transparent-cropped-v1.png" alt="" aria-hidden="true" width="2014" height="368" decoding="async" fetchpriority="high">
+          <span class="hero-title-art__text">Edmund 英文學習平台</span>
+        </h1>
         <div class="hero-feature-stack">
           <div class="company-review-tile" data-company-review-tile>
             <img class="company-logo" src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/company-logo.webp" alt="EdmundEducation company logo" width="512" height="512" decoding="async" fetchpriority="high">
