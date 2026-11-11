@@ -234,25 +234,51 @@
     .homepage-student-login:hover,.homepage-student-login:focus-visible { transform:translateY(-1px); box-shadow:0 10px 24px rgba(81,48,16,.2); }
     .homepage-student-greeting { max-width:min(300px,24vw); overflow:hidden; padding:11px 16px; color:#4c2d15; background:rgba(255,250,241,.88); text-overflow:ellipsis; }
     .homepage-student-logout { min-height:38px; padding:0 12px; color:#69421f; background:rgba(255,250,241,.78); cursor:pointer; }
-    .homepage-login-dialog { width:min(440px,calc(100vw - 32px)); padding:0; border:0; border-radius:26px; color:#312316; background:#fffaf1; box-shadow:0 28px 90px rgba(35,20,8,.32); }
-    .homepage-login-dialog::backdrop { background:rgba(23,16,10,.58); backdrop-filter:blur(8px); }
-    .homepage-login-card { display:grid; gap:18px; padding:30px; }
-    .homepage-login-card__heading p { margin:0 0 7px; color:#9a642b; font-size:12px; font-weight:900; letter-spacing:.14em; }
-    .homepage-login-card__heading h2 { margin:0; font-size:29px; line-height:1.15; }
-    .homepage-login-card__heading span { display:block; margin-top:8px; color:#765f49; line-height:1.5; }
-    .homepage-login-card label { display:grid; gap:7px; color:#5b4128; font-size:14px; font-weight:800; }
-    .homepage-login-card input { width:100%; min-height:48px; padding:0 14px; border:1px solid #d8c5ae; border-radius:13px; color:#2f2114; background:#fff; }
-    .homepage-login-card input:focus { outline:3px solid rgba(169,112,49,.2); border-color:#a97031; }
+    .homepage-login-dialog { width:min(650px,calc(100vw - 28px)); max-height:calc(100dvh - 24px); padding:0; overflow:visible; border:1px solid #d1a560; border-radius:38px; color:#48220d; background:linear-gradient(145deg,#fff8eb 0%,#f8e6ce 54%,#f1d4ae 100%); box-shadow:0 32px 100px rgba(47,25,7,.38),0 7px 0 #9e6c31,0 0 0 5px #f8e2bb,0 0 0 7px #b87a31,inset 0 0 0 2px rgba(255,255,255,.9),inset 0 0 45px rgba(167,102,33,.13); }
+    .homepage-login-dialog::before { content:""; position:absolute; inset:11px; pointer-events:none; border:1px solid rgba(174,111,42,.58); border-radius:29px; box-shadow:inset 0 0 0 2px rgba(255,255,255,.62); }
+    .homepage-login-dialog::backdrop { background:rgba(23,16,10,.66); backdrop-filter:blur(10px); }
+    .homepage-login-card { position:relative; display:grid; gap:21px; min-height:650px; padding:50px 52px 42px; overflow:hidden; border-radius:37px; font-family:Georgia,"Noto Serif TC","Songti TC",serif; }
+    .homepage-login-card::after { content:""; position:absolute; inset:0; z-index:-1; opacity:.28; background-image:repeating-linear-gradient(112deg,rgba(124,70,20,.05) 0,rgba(124,70,20,.05) 1px,transparent 1px,transparent 5px); }
+    .homepage-login-card__heading { position:relative; z-index:2; }
+    .homepage-login-card__heading p { margin:0 0 13px; color:#5c2d14; font-size:15px; font-weight:800; letter-spacing:.22em; }
+    .homepage-login-ornament { display:flex; align-items:center; gap:11px; width:190px; margin:0 0 17px; color:#b47224; }
+    .homepage-login-ornament::before,.homepage-login-ornament::after { content:""; height:1px; flex:1; background:linear-gradient(90deg,transparent,#a96820); }
+    .homepage-login-ornament::after { background:linear-gradient(90deg,#a96820,transparent); }
+    .homepage-login-ornament b { font-size:20px; line-height:1; }
+    .homepage-login-card__heading h2 { margin:0; color:#3d1b09; font-size:clamp(38px,7vw,55px); font-weight:800; line-height:1.08; text-shadow:0 2px 0 rgba(255,255,255,.75); }
+    .homepage-login-card__heading span { display:block; margin-top:13px; color:#613617; font-size:17px; font-weight:700; line-height:1.65; }
+    .homepage-login-fields { position:relative; z-index:2; display:grid; gap:16px; padding:22px 24px; border:1px solid rgba(181,124,60,.25); border-radius:25px; background:rgba(238,210,174,.34); box-shadow:inset 0 1px 0 rgba(255,255,255,.7); }
+    .homepage-login-card label { display:grid; gap:9px; color:#4b250f; font-size:17px; font-weight:800; }
+    .homepage-login-card input { width:100%; min-height:58px; padding:0 17px; border:2px solid #bb7724; border-radius:17px; color:#2f180a; background:rgba(255,252,247,.91); box-shadow:inset 0 5px 15px rgba(64,32,11,.12),0 0 0 2px rgba(255,255,255,.62); font:700 17px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif; }
+    .homepage-login-card input:focus { outline:4px solid rgba(180,111,31,.2); border-color:#a85d09; }
     .homepage-login-password { position:relative; }
+    .homepage-login-password[data-edmund-password-step] { max-height:none !important; opacity:1 !important; transform:none !important; pointer-events:auto !important; }
     .homepage-login-password input { padding-right:70px; }
-    .homepage-login-password button { position:absolute; right:8px; bottom:7px; min-height:34px; padding:0 10px; border:0; border-radius:9px; color:#704620; background:#f2e1cb; font-weight:800; cursor:pointer; }
-    .homepage-login-status { min-height:20px; margin:-3px 0 0; color:#6f5945; font-size:14px; }
+    .homepage-login-password button { position:absolute; right:10px; bottom:10px; min-height:38px; padding:0 14px; border:1px solid #d2a364; border-radius:12px; color:#633313; background:linear-gradient(#fff3dd,#e8c89e); box-shadow:0 3px 7px rgba(72,36,11,.2); font-weight:850; cursor:pointer; }
+    .homepage-login-status { position:relative; z-index:3; min-height:21px; margin:-5px 0 0; color:#6f4a2b; font:700 14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif; }
     .homepage-login-status[data-state="error"] { color:#a52a2a; }
-    .homepage-login-actions { display:flex; justify-content:flex-end; gap:10px; }
-    .homepage-login-actions button { min-height:44px; padding:0 18px; border:0; border-radius:12px; font-weight:850; cursor:pointer; }
-    .homepage-login-actions [data-homepage-login-cancel] { color:#60462e; background:#eee2d3; }
-    .homepage-login-actions [data-homepage-login-submit] { color:#fff; background:linear-gradient(135deg,#71431f,#a97031); }
+    .homepage-login-actions { position:relative; z-index:3; display:flex; justify-content:flex-start; gap:13px; padding-right:190px; }
+    .homepage-login-actions button { min-height:55px; min-width:120px; padding:0 24px; border:1px solid #b77b3e; border-radius:17px; box-shadow:0 5px 9px rgba(73,37,12,.2),inset 0 1px 0 rgba(255,255,255,.7); font:850 20px/1 Georgia,"Noto Serif TC",serif; cursor:pointer; }
+    .homepage-login-actions [data-homepage-login-cancel] { color:#5b2d13; background:linear-gradient(#fff0d6,#e8c79f); }
+    .homepage-login-actions [data-homepage-login-submit] { color:#fff8ed; border-color:#8d4c08; background:linear-gradient(145deg,#dd8618,#a65300); text-shadow:0 1px 2px #713600; }
     .homepage-login-actions button:disabled { opacity:.58; cursor:wait; }
+    .homepage-login-eddy { position:absolute; right:-6px; bottom:1px; z-index:2; width:205px; height:190px; margin:0; pointer-events:none; filter:drop-shadow(0 12px 12px rgba(73,36,12,.2)); }
+    .homepage-login-eddy img { width:100%; height:100%; object-fit:cover; object-position:right center; }
+
+    @media (max-width:620px) {
+      .homepage-login-dialog { overflow:auto; border-radius:29px; }
+      .homepage-login-dialog::before { inset:8px; border-radius:22px; }
+      .homepage-login-card { min-height:0; height:max-content; padding:35px 25px 25px; overflow:visible; gap:16px; border-radius:28px; grid-template-rows:auto auto auto auto; }
+      .homepage-login-card__heading p { font-size:12px; }
+      .homepage-login-card__heading h2 { font-size:38px; }
+      .homepage-login-card__heading span { padding-right:48px; font-size:14px; }
+      .homepage-login-fields { padding:18px 16px; overflow:visible; border-radius:20px; grid-template-rows:auto auto; }
+      .homepage-login-password { min-height:85px !important; max-height:none !important; overflow:visible !important; }
+      .homepage-login-card input { min-height:52px; }
+      .homepage-login-actions { padding-right:105px; gap:8px; }
+      .homepage-login-actions button { min-width:86px; min-height:49px; padding:0 15px; font-size:17px; }
+      .homepage-login-eddy { right:-26px; width:155px; height:145px; }
+    }
 
     .topnav {
       position: relative;
@@ -4387,17 +4413,20 @@
   </dialog>
   <dialog class="homepage-login-dialog" data-homepage-login-dialog aria-labelledby="homepage-login-title">
     <form class="homepage-login-card" data-homepage-login-form novalidate>
-      <div class="homepage-login-card__heading"><p>STUDENT ACCOUNT</p><h2 id="homepage-login-title">學生登入</h2><span>登入一次，即可在此裝置直接使用 Edmund 學習系統。</span></div>
-      <label><span>學生名稱</span><input name="username" type="text" autocomplete="username" maxlength="120" required></label>
-      <label class="homepage-login-password"><span>密碼</span><input name="password" type="password" autocomplete="current-password" maxlength="200" required><button type="button" data-homepage-password-toggle>顯示</button></label>
+      <div class="homepage-login-card__heading"><p>STUDENT ACCOUNT</p><div class="homepage-login-ornament" aria-hidden="true"><b>✦</b></div><h2 id="homepage-login-title">學生登入</h2><span>登入一次，即可在此裝置直接使用 Edmund 學習系統。</span></div>
+      <div class="homepage-login-fields">
+        <label><span>學生名稱</span><input name="username" type="text" autocomplete="username" maxlength="120" required></label>
+        <label class="homepage-login-password"><span>密碼</span><input name="password" type="password" autocomplete="current-password" maxlength="200" required><button type="button" data-homepage-password-toggle>顯示</button></label>
+      </div>
       <p class="homepage-login-status" data-homepage-login-status role="status" aria-live="polite"></p>
       <div class="homepage-login-actions"><button type="button" data-homepage-login-cancel>取消</button><button type="submit" data-homepage-login-submit>登入</button></div>
+      <figure class="homepage-login-eddy" aria-hidden="true"><img src="assets/homepage-login-eddy.png" alt=""></figure>
     </form>
   </dialog>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20261111-student-device1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261111-student-autoentry2">
   <script src="supabase-config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
-  <script src="eddy-fun-facts.js?v=20261102-facts1"></script><script src="eddy-english-differences.js?v=20261102-english1"></script><script src="eddy-english-usage.js?v=20261102-usage1"></script><script src="eddy-global-dialogues.js?v=20261102-knowledge-pages1"></script><script src="shared-system-nav.js?v=20261111-student-device1"></script>
+  <script src="eddy-fun-facts.js?v=20261102-facts1"></script><script src="eddy-english-differences.js?v=20261102-english1"></script><script src="eddy-english-usage.js?v=20261102-usage1"></script><script src="eddy-global-dialogues.js?v=20261102-knowledge-pages1"></script><script src="shared-system-nav.js?v=20261111-student-autoentry2"></script>
   <script src="homepage-student-login.js?v=20261111-1"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="homepage-system-deck.js?v=20260927-ipad6"></script>
