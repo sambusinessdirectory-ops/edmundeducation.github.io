@@ -169,18 +169,36 @@ def rewrite(
             references += count
             audio_references += audio_count
             neural_audio_references += neural_audio_count
-    csp_origins = set()
+    csp_additions: dict[str, set[str]] = {}
+    if references > audio_references:
+        public_media_source = csp_source(origin)
+        csp_additions = {
+            directive: {public_media_source}
+            for directive in (
+                "default-src",
+                "img-src",
+                "font-src",
+                "connect-src",
+                "media-src",
+                "worker-src",
+            )
+        }
     if audio_references and audio_origin:
-        csp_origins.add(csp_source(audio_origin))
+        audio_source = csp_source(audio_origin)
+        csp_additions.setdefault("connect-src", set()).add(audio_source)
+        csp_additions.setdefault("media-src", set()).add(audio_source)
     if neural_audio_references and neural_audio_origin:
-        csp_origins.add(csp_source(neural_audio_origin))
-    if csp_origins:
-        additions = {"connect-src": csp_origins, "media-src": csp_origins}
+        neural_audio_source = csp_source(neural_audio_origin)
+        csp_additions.setdefault("connect-src", set()).add(neural_audio_source)
+        csp_additions.setdefault("media-src", set()).add(neural_audio_source)
+    if csp_additions:
         for path in site.rglob("*.html"):
             original = path.read_text(encoding="utf-8")
             updated = CSP_META.sub(
                 lambda match: extend_csp(
-                    match.group(0), additions, add_missing={"connect-src", "media-src"}
+                    match.group(0),
+                    csp_additions,
+                    add_missing={"connect-src", "media-src"},
                 ),
                 original,
             )
