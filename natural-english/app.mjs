@@ -196,7 +196,7 @@ async function playVoice(button){
   const local=current?.id==='scoop'&&text==='Can I get two scoops of ice cream, please?'?'natural-english/audio/scoop-request-v2.mp3':audioManifest[current?.id]?.[text];
   if(advancedCourse&&!local)throw Error('Approved lesson audio mapping is missing.');
   let url=publishedAudioUrl(local)||voiceUrls.get(text);
-  if(!url){const response=await fetch('https://edmund-speaking-system.edmundeducation.workers.dev/v1/learning-voice',{method:'POST',headers:{Authorization:'Bearer '+user.token,'Content-Type':'application/json'},body:JSON.stringify({text}),signal:AbortSignal.timeout(8000)});if(!response.ok)throw Error();const blob=await response.blob();if(!blob.type.startsWith('audio/')||!blob.size)throw Error();if(ticket!==voiceRequest||user?.id!==owner)return;url=URL.createObjectURL(blob);voiceUrls.set(text,url);}
+  if(!url){const response=await fetch('https://edmund-speaking-system.edmundeducation.workers.dev/v1/learning-voice',{method:'POST',headers:{Authorization:'Bearer '+user.token,'Content-Type':'application/json'},body:JSON.stringify({text}),signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error();const blob=await response.blob();if(!blob.type.startsWith('audio/')||!blob.size)throw Error();if(ticket!==voiceRequest||user?.id!==owner)return;url=URL.createObjectURL(blob);voiceUrls.set(text,url);}
   if(ticket!==voiceRequest||user?.id!==owner)return;
   voiceAudio.onended=()=>{if(ticket===voiceRequest&&label?.isConnected)label.textContent='播放完畢。';if(voiceLabel===label)voiceLabel=null;};
   voiceAudio.onerror=fallback;voiceAudio.src=url;voiceAudio.currentTime=0;voiceAudio.playbackRate=button.hasAttribute('data-slow')?.75:1;await voiceAudio.play();if(ticket===voiceRequest&&label)label.textContent='正在播放…';

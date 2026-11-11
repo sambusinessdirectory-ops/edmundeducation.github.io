@@ -71,6 +71,7 @@ function configuredEnv(overrides = {}) {
     SUPABASE_SECRET_KEY: `sb_secret_${"x".repeat(40)}`,
     ADMIN_LOGIN_RATE_LIMITER: { limit: async () => ({ success: true }) },
     UPLOAD_RATE_LIMITER: { limit: async () => ({ success: true }) },
+    LEARNING_VOICE_RATE_LIMITER: { limit: async () => ({ success: true }) },
     ...overrides
   };
 }
@@ -185,7 +186,7 @@ test("authenticated learning voice is generated once and then served from R2", a
     assert.fail(`Unexpected upstream request: ${parsed.pathname}`);
   };
   const env = configuredEnv({
-    UPLOAD_RATE_LIMITER: { limit: async ({ key }) => {
+    LEARNING_VOICE_RATE_LIMITER: { limit: async ({ key }) => {
       limiterCalls += 1;
       assert.equal(key, `learning-voice:${studentId}`);
       return { success: true };
@@ -248,7 +249,7 @@ test("DSE examiner voice uses a cached British male voice", async () => {
     assert.fail(`Unexpected upstream request: ${parsed.pathname}`);
   };
   const env = configuredEnv({
-    UPLOAD_RATE_LIMITER: { limit: async ({ key }) => {
+    LEARNING_VOICE_RATE_LIMITER: { limit: async ({ key }) => {
       limiterCalls += 1;
       assert.equal(key, `dse-exam-voice:${studentId}`);
       return { success: true };
@@ -400,7 +401,7 @@ test("health reports limiter readiness and the effective safety caps", async () 
   assert.equal(health.ok, true);
   assert.equal(health.maxUploadBytes, 3 * 1024 * 1024);
   assert.equal(health.maxDurationMs, 300000);
-  assert.deepEqual(health.rateLimiters, { adminLogin: true, upload: true });
+  assert.deepEqual(health.rateLimiters, { adminLogin: true, upload: true, learningVoice: true });
 });
 
 test("CORS preflight allows the exam self-evaluation PATCH request", async () => {

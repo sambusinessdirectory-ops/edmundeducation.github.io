@@ -153,7 +153,8 @@ async function route(request, env, ctx) {
         defaultExportPageSize: defaultExportPageSize(env),
         rateLimiters: {
           adminLogin: rateLimiterConfigured(env.ADMIN_LOGIN_RATE_LIMITER),
-          upload: rateLimiterConfigured(env.UPLOAD_RATE_LIMITER)
+          upload: rateLimiterConfigured(env.UPLOAD_RATE_LIMITER),
+          learningVoice: rateLimiterConfigured(env.LEARNING_VOICE_RATE_LIMITER)
         }
       },
       configured ? 200 : 503,
@@ -423,6 +424,7 @@ function isConfigured(env) {
     if (configuredOrigins(env).size < 1) return false;
     if (!rateLimiterConfigured(env.ADMIN_LOGIN_RATE_LIMITER)) return false;
     if (!rateLimiterConfigured(env.UPLOAD_RATE_LIMITER)) return false;
+    if (!rateLimiterConfigured(env.LEARNING_VOICE_RATE_LIMITER)) return false;
     return true;
   } catch (error) {
     return false;
@@ -884,12 +886,12 @@ function hasMp3Signature(bytes) {
 }
 
 async function enforceLearningVoiceRateLimit(env, studentId, prefix = "learning-voice") {
-  if (!env.UPLOAD_RATE_LIMITER || typeof env.UPLOAD_RATE_LIMITER.limit !== "function") {
+  if (!env.LEARNING_VOICE_RATE_LIMITER || typeof env.LEARNING_VOICE_RATE_LIMITER.limit !== "function") {
     throw new HttpError(503, "LEARNING_VOICE_RATE_LIMIT_NOT_CONFIGURED", "Learning voice is not configured");
   }
   let result;
   try {
-    result = await env.UPLOAD_RATE_LIMITER.limit({ key: `${prefix}:${studentId}` });
+    result = await env.LEARNING_VOICE_RATE_LIMITER.limit({ key: `${prefix}:${studentId}` });
   } catch (error) {
     throw new HttpError(503, "LEARNING_VOICE_RATE_LIMIT_UNAVAILABLE", "Learning voice is temporarily unavailable");
   }
