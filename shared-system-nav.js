@@ -397,6 +397,22 @@
     } catch {
       // Writing Practice will also clear its own session during logout.
     }
+    // The persistent device identity is the standard rotating Supabase auth
+    // session, never the student bearer token. Signing out here prevents the
+    // homepage from restoring a student after any system's deliberate logout.
+    try {
+      const configuration = window.EDMUND_SUPABASE || {};
+      if (window.supabase?.createClient && configuration.url && configuration.anonKey) {
+        const authClient = window.supabase.createClient(configuration.url, configuration.anonKey, {
+          auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false }
+        });
+        void Promise.resolve(authClient.rpc("homepage_student_forget_device"))
+          .catch(error => console.warn("Persistent student device revocation failed", error))
+          .finally(() => authClient.auth.signOut({ scope: "local" }));
+      }
+    } catch (error) {
+      console.warn("Persistent student device sign-out failed", error);
+    }
     ensurePasswordButton();
     window.dispatchEvent(new CustomEvent('edmund-student-session-change'));
     syncPomodoroOwner();

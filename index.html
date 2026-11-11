@@ -228,6 +228,32 @@
       pointer-events: none;
     }
 
+    .homepage-student-access { position:absolute; top:50%; right:clamp(590px,46vw,810px); z-index:5; display:flex; align-items:center; gap:8px; transform:translateY(-50%); white-space:nowrap; }
+    .homepage-student-login,.homepage-student-greeting,.homepage-student-logout { border:1px solid rgba(72,45,18,.18); border-radius:999px; box-shadow:0 7px 20px rgba(81,48,16,.13); font-weight:850; }
+    .homepage-student-login { min-height:44px; padding:0 19px; color:#fffaf1; background:linear-gradient(135deg,#71431f,#a97031); cursor:pointer; }
+    .homepage-student-login:hover,.homepage-student-login:focus-visible { transform:translateY(-1px); box-shadow:0 10px 24px rgba(81,48,16,.2); }
+    .homepage-student-greeting { max-width:min(300px,24vw); overflow:hidden; padding:11px 16px; color:#4c2d15; background:rgba(255,250,241,.88); text-overflow:ellipsis; }
+    .homepage-student-logout { min-height:38px; padding:0 12px; color:#69421f; background:rgba(255,250,241,.78); cursor:pointer; }
+    .homepage-login-dialog { width:min(440px,calc(100vw - 32px)); padding:0; border:0; border-radius:26px; color:#312316; background:#fffaf1; box-shadow:0 28px 90px rgba(35,20,8,.32); }
+    .homepage-login-dialog::backdrop { background:rgba(23,16,10,.58); backdrop-filter:blur(8px); }
+    .homepage-login-card { display:grid; gap:18px; padding:30px; }
+    .homepage-login-card__heading p { margin:0 0 7px; color:#9a642b; font-size:12px; font-weight:900; letter-spacing:.14em; }
+    .homepage-login-card__heading h2 { margin:0; font-size:29px; line-height:1.15; }
+    .homepage-login-card__heading span { display:block; margin-top:8px; color:#765f49; line-height:1.5; }
+    .homepage-login-card label { display:grid; gap:7px; color:#5b4128; font-size:14px; font-weight:800; }
+    .homepage-login-card input { width:100%; min-height:48px; padding:0 14px; border:1px solid #d8c5ae; border-radius:13px; color:#2f2114; background:#fff; }
+    .homepage-login-card input:focus { outline:3px solid rgba(169,112,49,.2); border-color:#a97031; }
+    .homepage-login-password { position:relative; }
+    .homepage-login-password input { padding-right:70px; }
+    .homepage-login-password button { position:absolute; right:8px; bottom:7px; min-height:34px; padding:0 10px; border:0; border-radius:9px; color:#704620; background:#f2e1cb; font-weight:800; cursor:pointer; }
+    .homepage-login-status { min-height:20px; margin:-3px 0 0; color:#6f5945; font-size:14px; }
+    .homepage-login-status[data-state="error"] { color:#a52a2a; }
+    .homepage-login-actions { display:flex; justify-content:flex-end; gap:10px; }
+    .homepage-login-actions button { min-height:44px; padding:0 18px; border:0; border-radius:12px; font-weight:850; cursor:pointer; }
+    .homepage-login-actions [data-homepage-login-cancel] { color:#60462e; background:#eee2d3; }
+    .homepage-login-actions [data-homepage-login-submit] { color:#fff; background:linear-gradient(135deg,#71431f,#a97031); }
+    .homepage-login-actions button:disabled { opacity:.58; cursor:wait; }
+
     .topnav {
       position: relative;
       z-index: 2;
@@ -2652,6 +2678,14 @@
       h1 { max-width: 660px; }
     }
 
+    @media (max-width:1280px) and (min-width:901px) {
+      .brand img { max-width:38vw; }
+      .homepage-student-access { right:calc(44vw + 12px); }
+      .homepage-student-login { min-height:40px; padding:0 13px; font-size:13px; }
+      .homepage-student-greeting { max-width:18vw; padding:9px 12px; font-size:13px; }
+      .homepage-student-logout { min-height:36px; padding:0 9px; font-size:12px; }
+    }
+
     @media (max-width: 1500px) {
       .social-links {
         flex-wrap: wrap;
@@ -2680,6 +2714,12 @@
       .header-title-image {
         display: none;
       }
+
+      .brand img { max-width:52vw !important; }
+      .homepage-student-access { right:18px; }
+      .homepage-student-login { min-height:40px; padding:0 13px; font-size:13px; }
+      .homepage-student-greeting { max-width:34vw; padding:9px 11px; font-size:12px; }
+      .homepage-student-logout { min-height:34px; padding:0 9px; font-size:11px; }
 
       .topnav {
         max-width: 58vw;
@@ -3196,6 +3236,12 @@
       </a>
 
       <img class="header-title-image" src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/header-title.webp" alt="" aria-hidden="true" width="1600" height="236" decoding="async" fetchpriority="high">
+
+      <div class="homepage-student-access" data-homepage-student-access data-logged-in="false">
+        <button class="homepage-student-login" type="button" data-homepage-student-login>學生登入</button>
+        <span class="homepage-student-greeting" data-homepage-student-greeting hidden></span>
+        <button class="homepage-student-logout" type="button" data-homepage-student-logout hidden>登出</button>
+      </div>
 
       <nav class="topnav">
         <a href="cre.html">真人英文課程</a>
@@ -4339,9 +4385,20 @@
       <nav class="system-directory-dialog__list" data-system-directory-list aria-label="所有 EdmundEducation 學習系統"></nav>
     </section>
   </dialog>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20261106-mobile-header1">
+  <dialog class="homepage-login-dialog" data-homepage-login-dialog aria-labelledby="homepage-login-title">
+    <form class="homepage-login-card" data-homepage-login-form novalidate>
+      <div class="homepage-login-card__heading"><p>STUDENT ACCOUNT</p><h2 id="homepage-login-title">學生登入</h2><span>登入一次，即可在此裝置直接使用 Edmund 學習系統。</span></div>
+      <label><span>學生名稱</span><input name="username" type="text" autocomplete="username" maxlength="120" required></label>
+      <label class="homepage-login-password"><span>密碼</span><input name="password" type="password" autocomplete="current-password" maxlength="200" required><button type="button" data-homepage-password-toggle>顯示</button></label>
+      <p class="homepage-login-status" data-homepage-login-status role="status" aria-live="polite"></p>
+      <div class="homepage-login-actions"><button type="button" data-homepage-login-cancel>取消</button><button type="submit" data-homepage-login-submit>登入</button></div>
+    </form>
+  </dialog>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261111-student-device1">
   <script src="supabase-config.js"></script>
-  <script src="eddy-fun-facts.js?v=20261102-facts1"></script><script src="eddy-english-differences.js?v=20261102-english1"></script><script src="eddy-english-usage.js?v=20261102-usage1"></script><script src="eddy-global-dialogues.js?v=20261102-knowledge-pages1"></script><script src="shared-system-nav.js?v=20261106-mobile-header1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="eddy-fun-facts.js?v=20261102-facts1"></script><script src="eddy-english-differences.js?v=20261102-english1"></script><script src="eddy-english-usage.js?v=20261102-usage1"></script><script src="eddy-global-dialogues.js?v=20261102-knowledge-pages1"></script><script src="shared-system-nav.js?v=20261111-student-device1"></script>
+  <script src="homepage-student-login.js?v=20261111-1"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="homepage-system-deck.js?v=20260927-ipad6"></script>
   <script src="homepage-language-cards.js?v=20260914-six-languages-1"></script>
