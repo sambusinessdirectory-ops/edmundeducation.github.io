@@ -2,6 +2,10 @@
   "use strict";
 
   const UNIVERSAL_SESSION_KEY = "edmund-universal-student-session-v1";
+  const SHARED_SCRIPT_URL = document.currentScript?.src || window.location?.href || "https://edmundeducation.com/shared-system-nav.js";
+  const DEVICE_RESUME_RELOAD_PREFIX = "edmund-device-resume-v1:";
+  const SUPABASE_CDN = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js";
+  const SUPABASE_INTEGRITY = "sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2";
   const POMODORO_STORAGE_PREFIX = "edmund-schedule-pomodoro-v1";
   const POMODORO_DEVICE_STORAGE_KEY = `${POMODORO_STORAGE_PREFIX}:device`;
   const NIGHT_RETURN_STORAGE_PREFIX = "edmund-night-return-v1";
@@ -154,12 +158,173 @@
   let pomodoroTimerId = null;
   let pomodoroNodes = null;
   let pomodoroPageLocked = false;
+  let accessTransition = null;
+  let persistentDeviceClient = null;
 
   function storageJson(storage, key) {
     try {
       return JSON.parse(storage.getItem(key) || "null");
     } catch {
       return null;
+    }
+  }
+
+  function isHomepage() {
+    return !document.querySelector("[data-edmund-system-switcher]")
+      && (window.location?.pathname === "/" || /\/index\.html$/.test(window.location?.pathname || ""));
+  }
+
+  function isAdminEntry() {
+    const params = new URLSearchParams(window.location?.search || "");
+    return params.get("admin") === "1" || params.get("section") === "admin";
+  }
+
+  function hasPersistentDeviceAuth() {
+    try {
+      for (let index = 0; index < localStorage.length; index += 1) {
+        const key = localStorage.key(index) || "";
+        if (key.startsWith("sb-") && key.endsWith("-auth-token") && localStorage.getItem(key)) return true;
+      }
+    } catch {
+      // Storage can be unavailable in strict privacy modes.
+    }
+    return false;
+  }
+
+  function ensureAccessTransition(message = "正在安全登入學習系統…") {
+    if (accessTransition?.isConnected) {
+      const copy = accessTransition.querySelector("[data-edmund-access-message]");
+      if (copy) copy.textContent = message;
+      return accessTransition;
+    }
+    const overlay = document.createElement("div");
+    overlay.className = "edmund-student-access-transition";
+    overlay.dataset.edmundStudentAccessTransition = "";
+    overlay.setAttribute("role", "status");
+    overlay.setAttribute("aria-live", "polite");
+    const horseUrl = new URL("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/running-horse-loader.webp", SHARED_SCRIPT_URL).href;
+    overlay.innerHTML = `<section class="edmund-student-access-transition__card"><img class="edmund-student-access-transition__horse" src="${horseUrl}" alt=""><strong>正在進入學習系統</strong><p data-edmund-access-message>${message}</p><div class="edmund-student-access-transition__track" aria-hidden="true"></div></section>`;
+    document.body.append(overlay);
+    accessTransition = overlay;
+    return overlay;
+  }
+
+  function dismissAccessTransition() {
+    if (!accessTransition) return;
+    accessTransition.hidden = true;
+    window.setTimeout(() => {
+      accessTransition?.remove();
+      accessTransition = null;
+    }, 120);
+  }
+
+  function loginSurfaceVisible() {
+    const selectors = ["[data-login-view]", "[data-view='login']", "[data-login-form]", ".login-screen", ".login-card"];
+    return selectors.some(selector => [...document.querySelectorAll(selector)].some(node => {
+      if (node.hidden || node.closest("[hidden]")) return false;
+      const style = getComputedStyle(node);
+      return style.display !== "none" && style.visibility !== "hidden" && node.getClientRects().length > 0;
+    }));
+  }
+
+  function monitorAuthenticatedEntry() {
+    const startedAt = Date.now();
+    const check = () => {
+      if (!accessTransition) return;
+      const elapsed = Date.now() - startedAt;
+      const candidate = studentSessionCandidate();
+      if (!candidate || (elapsed >= 1200 && !loginSurfaceVisible()) || elapsed >= 15000) {
+        dismissAccessTransition();
+        return;
+      }
+      window.setTimeout(check, 120);
+    };
+    window.setTimeout(check, 700);
+  }
+
+  function loadSharedScript(url, predicate, options = {}) {
+    if (predicate()) return Promise.resolve();
+    return new Promise((resolve, reject) => {
+      const absolute = new URL(url, SHARED_SCRIPT_URL).href;
+      const existing = [...document.scripts].find(script => script.src === absolute);
+      const script = existing || document.createElement("script");
+      let settled = false;
+      const finish = (callback, value) => {
+        if (settled) return;
+        settled = true;
+        window.clearTimeout(timeout);
+        callback(value);
+      };
+      const done = () => predicate()
+        ? finish(resolve)
+        : finish(reject, new Error(`Shared dependency did not initialise: ${absolute}`));
+      const timeout = window.setTimeout(() => finish(reject, new Error(`Shared dependency timed out: ${absolute}`)), 8000);
+      script.addEventListener("load", done, { once: true });
+      script.addEventListener("error", () => finish(reject, new Error(`Unable to load shared dependency: ${absolute}`)), { once: true });
+      if (!existing) {
+        script.src = absolute;
+        if (options.integrity) {
+          script.integrity = options.integrity;
+          script.crossOrigin = "anonymous";
+        }
+        document.head.append(script);
+      }
+      if (existing && predicate()) finish(resolve);
+    });
+  }
+
+  async function ensurePersistentDeviceClient() {
+    if (persistentDeviceClient) return persistentDeviceClient;
+    await loadSharedScript("supabase-config.js", () => Boolean(window.EDMUND_SUPABASE?.url && window.EDMUND_SUPABASE?.anonKey));
+    await loadSharedScript(SUPABASE_CDN, () => Boolean(window.supabase?.createClient), { integrity: SUPABASE_INTEGRITY });
+    const configuration = window.EDMUND_SUPABASE;
+    persistentDeviceClient = window.supabase.createClient(configuration.url, configuration.anonKey, {
+      auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false }
+    });
+    return persistentDeviceClient;
+  }
+
+  async function restorePersistentDeviceSession() {
+    if (!document.querySelector("[data-edmund-system-switcher]") || isHomepage() || isAdminEntry()) return;
+    const existing = studentSessionCandidate();
+    if (existing?.token) {
+      ensureAccessTransition("正在核對登入並載入你的學習記錄…");
+      bridgeStudentSession(existing, true);
+      monitorAuthenticatedEntry();
+      return;
+    }
+    if (!hasPersistentDeviceAuth()) return;
+    ensureAccessTransition("正在從此裝置恢復你的學生登入…");
+    try {
+      const client = await ensurePersistentDeviceClient();
+      const current = await client.auth.getSession();
+      if (current.error) throw current.error;
+      if (!current.data?.session?.user?.id) {
+        dismissAccessTransition();
+        return;
+      }
+      const { data, error } = await client.rpc("homepage_student_resume");
+      if (error) throw error;
+      const student = Array.isArray(data) ? data[0] : null;
+      if (!student?.session_token || !student?.name) {
+        await client.auth.signOut({ scope: "local" });
+        dismissAccessTransition();
+        return;
+      }
+      rememberStudentSession({
+        token: student.session_token,
+        id: student.id,
+        name: student.name,
+        role: "student",
+        access: student.access
+      });
+      try { sessionStorage.setItem(`${DEVICE_RESUME_RELOAD_PREFIX}${window.location?.pathname || "system"}`, student.session_token); } catch { /* Reload remains safe without the marker. */ }
+      const copy = accessTransition?.querySelector("[data-edmund-access-message]");
+      if (copy) copy.textContent = "登入成功，正在開啟你的學習內容…";
+      window.location?.reload();
+    } catch (error) {
+      console.warn("Persistent student device restore failed", error);
+      dismissAccessTransition();
     }
   }
 
@@ -1469,6 +1634,7 @@
   // Run the session bridge synchronously so app scripts later in the document
   // can restore a compatible same-origin student session immediately.
   bridgeStudentSession(studentSessionCandidate(), true);
+  void restorePersistentDeviceSession();
   recordFarmVisit();
   window.setInterval(recordFarmVisit, 60000);
   document.addEventListener("visibilitychange", recordFarmVisit);

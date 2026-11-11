@@ -3,6 +3,89 @@
   box-sizing: border-box;
 }
 
+.edmund-student-access-transition,
+.edmund-student-access-transition * { box-sizing: border-box; }
+
+.edmund-student-access-transition {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  color: #4b260f;
+  background:
+    radial-gradient(circle at 50% 34%, rgba(255, 255, 255, .92), transparent 34%),
+    linear-gradient(145deg, #fff8eb, #f1d3aa);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+  cursor: wait;
+}
+
+.edmund-student-access-transition[hidden] { display: none !important; }
+
+.edmund-student-access-transition__card {
+  width: min(510px, 100%);
+  padding: clamp(26px, 6vw, 46px);
+  border: 1px solid #d09c55;
+  border-radius: 32px;
+  background: rgba(255, 248, 235, .9);
+  box-shadow: 0 28px 80px rgba(60, 31, 10, .24), inset 0 0 0 4px rgba(255, 255, 255, .62);
+  text-align: center;
+}
+
+.edmund-student-access-transition__horse {
+  display: block;
+  width: min(330px, 82vw);
+  height: auto;
+  margin: 0 auto 10px;
+  filter: drop-shadow(0 13px 14px rgba(76, 38, 11, .16));
+}
+
+.edmund-student-access-transition__card strong {
+  display: block;
+  color: #40200d;
+  font-family: Georgia, "Noto Serif TC", serif;
+  font-size: clamp(24px, 6vw, 35px);
+  line-height: 1.2;
+}
+
+.edmund-student-access-transition__card p {
+  margin: 9px 0 0;
+  color: #765234;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.55;
+}
+
+.edmund-student-access-transition__track {
+  position: relative;
+  width: min(250px, 76%);
+  height: 5px;
+  margin: 20px auto 0;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(162, 98, 29, .18);
+}
+
+.edmund-student-access-transition__track::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 42%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #b86a12, #e4a244);
+  animation: edmund-student-access-progress 1.05s ease-in-out infinite alternate;
+}
+
+@keyframes edmund-student-access-progress {
+  from { transform: translateX(-12%); }
+  to { transform: translateX(150%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .edmund-student-access-transition__track::after { animation-duration: 2.4s; }
+}
+
 .edmund-system-header {
   position: sticky !important;
   top: 0;
