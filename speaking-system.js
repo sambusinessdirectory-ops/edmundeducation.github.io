@@ -2556,7 +2556,7 @@
     try {
       let url = state.dseVoiceUrls.get(text);
       if (!url) {
-        const response = await apiRaw("/v1/learning-voice", {
+        const response = await apiRaw("/v1/dse-exam-voice", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ text }),
