@@ -23,6 +23,11 @@
     '準備好了嗎？今天也一起加把勁吧！'
   ];
   const storagePrefix = 'edmund-eddy-schedule-return-v1:';
+  const returnImages = [
+    'homework-eddy/return/eddy-schedule-return-1.webp',
+    'homework-eddy/return/eddy-schedule-return-2.webp',
+    'homework-eddy/return/eddy-schedule-return-3.webp'
+  ];
   const shown = new Set();
   let pending = null;
   let overlay = null;
@@ -79,7 +84,7 @@
   function renderPage() {
     const page = pages[pageIndex];
     const message = overlay.querySelector('.eddy-first-question-message');
-    overlay.querySelector('img').src = `eddy-schedule-return-${pageIndex + 1}.png`;
+    overlay.querySelector('img').src = returnImages[pageIndex];
     message.classList.toggle('eddy-schedule-return-headline', typeof page !== 'string');
     if (typeof page === 'string') message.textContent = page;
     else {
@@ -152,7 +157,7 @@
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.setAttribute('aria-label', 'Eddy 歡迎您回來');
-    overlay.innerHTML = '<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-return-1.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-schedule-return-message" lang="zh-Hant"></span></span></button>';
+    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="${returnImages[0]}" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-schedule-return-message" lang="zh-Hant"></span></span></button>`;
     overlay.addEventListener('click', advance);
     document.body.append(overlay);
     renderPage();
