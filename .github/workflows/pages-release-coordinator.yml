@@ -88,6 +88,17 @@ jobs:
             if [[ -s /tmp/pages-homepage.diff || "${release_tags}" != *"[fast-deploy]"* ]]; then
               route=standard
             fi
+
+            snapshot_origin=$(git show "${snapshot_commit}:.r2-public-media-origin" 2>/dev/null || true)
+            expected_origin=
+            if [[ '${{ vars.PAGES_R2_CUTOVER }}' == true ]]; then
+              expected_origin='https://edmund-public-media.edmundeducation.workers.dev'
+            fi
+            if [[ "${route}" != standard && "${snapshot_origin}" != "${expected_origin}" ]]; then
+              route=standard
+              release_tags="${release_tags} [full-artifact]"
+              echo "Media delivery mode differs from the deployed snapshot; selected the full artifact builder." >> "${GITHUB_STEP_SUMMARY}"
+            fi
           fi
 
           echo "base_sha=${base_sha}" >> "${GITHUB_OUTPUT}"
