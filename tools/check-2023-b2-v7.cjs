@@ -8,6 +8,27 @@ const fs = require('node:fs');
 const url = process.argv[2] || pathToFileURL(path.resolve(__dirname,'../paper3/2023-b2/curation/index.html')).href+'?curation=1';
 const evidenceDir = process.env.PAPER3_EVIDENCE_DIR || '';
 
+async function auditEntryLaunch(page){
+  if(!/^https?:/.test(url))return;
+  const source=new URL(url),entry=new URL('/paper3/2023-b2/',source);
+  const release=source.searchParams.get('release');
+  if(release)entry.searchParams.set('release',release);
+  await page.goto(entry.href);
+  const launch=page.locator('#curation-launch');
+  await launch.waitFor();
+  assert.equal(await launch.innerText(),'✦ Super Curation');
+  assert.equal(await launch.getAttribute('aria-label'),'開啟 2023 B2 Super Curation');
+  const style=await launch.evaluate(button=>({
+    background:getComputedStyle(button).backgroundColor,
+    color:getComputedStyle(button).color,
+    visible:button.getBoundingClientRect().width>0&&button.getBoundingClientRect().height>0
+  }));
+  assert.deepEqual(style,{background:'rgb(23, 79, 68)',color:'rgb(255, 255, 255)',visible:true});
+  await launch.click();
+  await page.waitForURL(target=>target.pathname.endsWith('/paper3/2023-b2/curation/index.html')&&target.searchParams.get('curation')==='1');
+  await page.locator('#curation-step-jump').waitFor();
+}
+
 async function fresh(page){
   await page.goto(url);
   await page.evaluate(()=>{try{localStorage.clear()}catch{}try{sessionStorage.clear()}catch{}});
@@ -277,7 +298,7 @@ async function chromiumRun(){
   const browser=await chromium.launch();
   try{
     const page=await browser.newPage({reducedMotion:'no-preference'}),errors=[];page.on('pageerror',error=>errors.push(error.message));
-    await fresh(page);await auditBoss(page);await enterPodcast(page);await waitForAudio(page);await auditInitialPodcast(page);await auditSentenceAlignment(page);await auditListeningJourney(page);await auditOtherContracts(page);
+    await auditEntryLaunch(page);await fresh(page);await auditBoss(page);await enterPodcast(page);await waitForAudio(page);await auditInitialPodcast(page);await auditSentenceAlignment(page);await auditListeningJourney(page);await auditOtherContracts(page);
     assert.deepEqual(errors,[]);
   }finally{await browser.close()}
 }
