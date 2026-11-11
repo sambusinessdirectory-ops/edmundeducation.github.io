@@ -22,8 +22,8 @@ test("homepage exposes an in-place student login and signed-in greeting", () => 
   assert.match(loginScript, /return "午安"/);
   assert.match(loginScript, /return "晚安"/);
   assert.match(homepage, /homepage-login-ornament/);
-  assert.match(homepage, /assets\/homepage-login-eddy\.png/);
-  assert.ok(fs.statSync(path.join(root, "assets/homepage-login-eddy.png")).size > 100_000);
+  assert.match(homepage, /src="homepage-login-eddy\.png"/);
+  assert.ok(fs.statSync(path.join(root, "homepage-login-eddy.png")).size > 100_000);
 });
 
 test("device login uses the persistent Supabase auth session without persisting a student bearer token", () => {
