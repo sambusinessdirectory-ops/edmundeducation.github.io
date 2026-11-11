@@ -1,0 +1,56 @@
+{
+  "year": 2022,
+  "source": {
+    "file": "2022 DSE Listening.mp4",
+    "sha256": "37d0a5871616ea31587524587055ae9b50333e476a77b6a81b8cb6f6bba7b9ab",
+    "duration_seconds": 3071.610026
+  },
+  "encoding": "MP3, 128 kbps, source sample rate and channels preserved",
+  "tracks": [
+    {
+      "id": "2022-a-task-1",
+      "start_seconds": 187.38,
+      "end_seconds": 529.44,
+      "duration_seconds": 342.06,
+      "object": "DSE Listening - Recordings/DSE 2022 Part A Task 1.mp3",
+      "sha256": "76536947adbb10bfa3fbaf632d82ac7748fd178d81a43c1171568272a4467211"
+    },
+    {
+      "id": "2022-a-task-2",
+      "start_seconds": 595.41,
+      "end_seconds": 992.01,
+      "duration_seconds": 396.6,
+      "object": "DSE Listening - Recordings/DSE 2022 Part A Task 2.mp3",
+      "sha256": "691f967c5c20d3b984e04fa4e81a4211d6b18966ec6df87dcecfef008f5b8498"
+    },
+    {
+      "id": "2022-a-task-3",
+      "start_seconds": 1057.84,
+      "end_seconds": 1455.47,
+      "duration_seconds": 397.63,
+      "object": "DSE Listening - Recordings/DSE 2022 Part A Task 3.mp3",
+      "sha256": "c694b45b0f1d55f3d34fd1e5c01545b0b20eae2764da9e38b5cb4fc6cc0f9347"
+    },
+    {
+      "id": "2022-a-task-4",
+      "start_seconds": 1518.03,
+      "end_seconds": 1974.520862,
+      "duration_seconds": 456.490862,
+      "object": "DSE Listening - Recordings/DSE 2022 Part A Task 4.mp3",
+      "sha256": "3ba3d9fb5282bb72311fed89cfa3c73c66eb4076f5247166067a92e0a80c146b"
+    },
+    {
+      "id": "2022-b-podcast",
+      "start_seconds": 2597.9,
+      "end_seconds": 3043.27,
+      "duration_seconds": 445.37,
+      "object": "DSE Listening - Recordings/DSE 2022 Part B.mp3",
+      "sha256": "fc303a195a2d87f836d2097fd0d352ce79e8e489ec84ccc7a727bcbd7a6299f9"
+    }
+  ],
+  "verification": {
+    "catalogue_checked_utc": "2026-11-11T13:42:00Z",
+    "full_remote_readbacks_match": true,
+    "catalogue_endpoint": "https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog"
+  }
+}
