@@ -1071,7 +1071,7 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
   assert.match(html, /data-lesson-count>345</);
-  assert.match(html, /<script defer src="shared-speaking-practice\.js\?v=20261107-audio-timeout1"><\/script>/);
+  assert.match(html, /<script defer src="shared-speaking-practice\.js\?v=20261111-audio-reliability1"><\/script>/);
   assert.doesNotMatch(html, /<script[^>]+src="[^"]*lamejs/i, "MP3 encoding must not block initial portal loading");
   const configAt = html.indexOf('src="sentence-structure-config.js"');
   const appAt = html.indexOf('type="module" src="sentence-structure.js');
