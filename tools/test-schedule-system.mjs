@@ -69,6 +69,7 @@ const [
   read("workers/schedule-system/src/index.js")
 ]);
 const manualWritingResourceMigration = await read("supabase/migrations/20260901090000_schedule_create_manual_writing_resource.sql");
+const returnDialogueScript = await read("eddy-schedule-return-dialogue.js");
 
 assert.match(homepage, /site-announcements\.css\?v=/);
 assert.match(homepage, /site-announcements\.js\?v=/);
@@ -79,6 +80,8 @@ assert.match(scheduleJs, /data-announcement-remove-existing-image/);
 assert.match(scheduleJs, /data-announcement-remove-pending-image/);
 assert.match(scheduleHtml, /data-announcement-cancel-edit/);
 assert.match(scheduleHtml, /data-entry-tags/);
+assert.match(scheduleHtml, /eddy-schedule-return-dialogue\.js\?v=20261111-media1/);
+assert.doesNotMatch(returnDialogueScript, /eddy-schedule-return-[123]\.png/);
 assert.match(scheduleHtml, /<dialog id="week-chart"[^>]*tabindex="-1"[^>]*autofocus/);
 assert.match(scheduleHtml, /data-week-chart-close/);
 assert.match(scheduleHtml, /data-copy-unfinished-selection/);
@@ -957,6 +960,15 @@ assert.match(worker, /readLimitedText\(request, 4096\)/);
 
 const background = await stat(new URL("assets/schedule/Background for Schedule System.jpg", root));
 assert.ok(background.size > 100_000, "schedule background image must be present");
+
+for (const asset of [1, 2, 3].map((number) => `homework-eddy/return/eddy-schedule-return-${number}.webp`)) {
+  assert.match(returnDialogueScript, new RegExp(asset.replaceAll("/", "\\/")));
+  const file = await stat(new URL(asset, root));
+  assert.ok(file.size > 100_000 && file.size < 800_000, `${asset} must be a non-empty optimized image`);
+  const bytes = await readFile(new URL(asset, root));
+  assert.equal(bytes.toString("ascii", 0, 4), "RIFF", `${asset} must be RIFF WebP data`);
+  assert.equal(bytes.toString("ascii", 8, 12), "WEBP", `${asset} must be RIFF WebP data`);
+}
 
 for (const asset of [
   "assets/model-essays/essay-cover.webp",
