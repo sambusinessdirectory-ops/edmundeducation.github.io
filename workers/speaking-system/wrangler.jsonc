@@ -30,6 +30,14 @@
         "limit": 12,
         "period": 60
       }
+    },
+    {
+      "name": "LEARNING_VOICE_RATE_LIMITER",
+      "namespace_id": "914072030",
+      "simple": {
+        "limit": 60,
+        "period": 60
+      }
     }
   ],
   "vars": {
