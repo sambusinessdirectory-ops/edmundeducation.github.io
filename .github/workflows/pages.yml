@@ -931,6 +931,8 @@ jobs:
           node --check paper3/2025-b2/super-curation.js
           node --check paper3/2022-b2/curation-data.js
           node --check paper3/2022-b2/super-curation-v3.js
+          node --check paper3/2026-reader.js
+          node tools/test-dse-paper3-2026-readers.mjs
           node -e "const s=require('fs').readFileSync('paper3/2025-b2/index.html','utf8'); for(const name of ['super-curation.css','super-curation-highlights.js','super-curation.js']) if(!s.includes(name)) throw Error('Missing '+name)"
           bash tools/install-pages-browsers.sh
           mkdir -p /tmp/paper3-evidence

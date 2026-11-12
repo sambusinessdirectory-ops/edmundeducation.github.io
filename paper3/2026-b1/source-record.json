@@ -1,0 +1,24 @@
+{
+  "reader": "2026-b1",
+  "component": "Data File only",
+  "source_file": "2026 DSE Paper 3 B1.pdf",
+  "sha256": "785a1052ad4bc70f59489dac48ad7ca14c0e265e98317851857c415977713a64",
+  "physical_page_count": 10,
+  "printed_page_count": 10,
+  "printed_to_physical_page": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "question_answer_book_supplied": false,
+  "recording_supplied": false,
+  "source_exception": "The supplied copy contains handwritten notes and markings. They are excluded from the native reconstruction and the marked scans are not published.",
+  "pages": [
+    {"printed": 1, "physical": 1, "type": "cover", "title": "Part B1 Data File cover"},
+    {"printed": 2, "physical": 2, "type": "situation-and-contents", "title": "Situation and contents"},
+    {"printed": 3, "physical": 3, "type": "note-taking-sheet", "title": "Listening note-taking sheet for staff meeting"},
+    {"printed": 4, "physical": 4, "type": "email", "title": "Email from Agnes Yip to Nico Lin"},
+    {"printed": 5, "physical": 5, "type": "email-thread", "title": "Emails from possible donors of prizes"},
+    {"printed": 6, "physical": 6, "type": "transcript", "title": "Transcript of intern meeting 16 March 2026"},
+    {"printed": 7, "physical": 7, "type": "online-article-and-chart", "title": "Trending Hong Kong online article"},
+    {"printed": 8, "physical": 8, "type": "email", "title": "Email from Eddie Abadiano to Thomas Chan"},
+    {"printed": 9, "physical": 9, "type": "chat", "title": "WhatsApp conversation between Agnes Yip and Meera Khan"},
+    {"printed": 10, "physical": 10, "type": "tables", "title": "Outside Speakers for Library Events and Restaurants Nearby"}
+  ]
+}
