@@ -18,6 +18,8 @@ This record distinguishes completion of the source reconstruction and machine ch
 | Saved notes, progress, filters, responsive and print behaviour | Safari desktop/mobile interaction checks and static print/accessibility checks are recorded in `2026-reader-qa-report.md`. | PASS |
 | Source hashes and page verification | SHA-256 hashes, printed-to-physical maps and page-level original-resolution verification records are published with each reader. | PASS |
 
+The direct post-deployment comparison is recorded in `2026-reference-parity-audit.md`. It confirms requested parity for selectable text, Traditional Chinese support, source-specific layouts, saved fields, progress, filters, responsive behaviour and print rules. The 2025-only supplied transcript and PP practice sections are correctly absent because the corresponding authentic 2026 sources are missing.
+
 ## Repository-instruction gates
 
 | Gate | Evidence | State |
