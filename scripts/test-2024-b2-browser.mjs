@@ -1,0 +1,34 @@
+import { chromium } from '/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
+import fs from 'node:fs';
+const base=process.argv[2]||'http://127.0.0.1:8765';
+const browser=await chromium.launch({headless:true});
+const results=[];
+for(const profile of [{name:'desktop',viewport:{width:1440,height:1000}},{name:'mobile',viewport:{width:390,height:844}}]){
+  const page=await browser.newPage({viewport:profile.viewport});
+  const errors=[];page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});page.on('pageerror',e=>errors.push(e.message));
+  const response=await page.goto(`${base}/paper3/2024-b2/`,{waitUntil:'networkidle'});
+  if(!response?.ok())throw new Error(`${profile.name}: HTTP ${response?.status()}`);
+  if(await page.locator('[data-tasks] .task-card').count()!==3)throw new Error(`${profile.name}: task cards`);
+  await page.locator('[data-tab="analysis"]').click();
+  await page.waitForSelector('.unit');
+  const expectedUnits=await page.evaluate(()=>window.PAPER3_2024_B2.units.length);
+  if(await page.locator('.unit').count()!==expectedUnits)throw new Error(`${profile.name}: unit count`);
+  const first=page.locator('.unit').first();await first.locator('summary').click();
+  if(await first.locator('.prompt').count()!==4)throw new Error(`${profile.name}: prompt count`);
+  await page.selectOption('[data-type-filter]','3');
+  const filtered=await page.locator('.unit').count();if(!filtered)throw new Error(`${profile.name}: filter empty`);
+  await page.locator('[data-tab="visual"]').click();
+  if(await page.locator('.visual-card').count()!==6)throw new Error(`${profile.name}: visual count`);
+  await page.locator('[data-tab="facsimile"]').click();
+  if(await page.locator('.spreads img').count()!==5)throw new Error(`${profile.name}: spread count`);
+  await page.waitForFunction(()=>[...document.images].every(i=>i.complete&&i.naturalWidth>0));
+  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
+  if(overflow>2)throw new Error(`${profile.name}: horizontal overflow ${overflow}`);
+  await page.screenshot({path:`/private/tmp/2024-b2-${profile.name}.png`,fullPage:false});
+  results.push({profile:profile.name,errors,filtered,overflow,title:await page.title()});
+  await page.close();
+}
+const portal=await browser.newPage({viewport:{width:1280,height:800}});await portal.goto(`${base}/paper3/`,{waitUntil:'networkidle'});if(await portal.locator('a[href="/paper3/2024-b2/"]').count()!==1)throw new Error('portal card missing');if(!(await portal.locator('.count').textContent()).includes('29'))throw new Error('portal count');
+await browser.close();
+fs.writeFileSync('/private/tmp/2024-b2-browser-results.json',JSON.stringify(results,null,2));
+console.log(JSON.stringify(results));

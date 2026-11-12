@@ -1,0 +1,21 @@
+{
+  "reader": "2024-b2",
+  "status": "UNCERTIFIED",
+  "component": "Part B2 Data File, reconstructed task contract, and clause analysis",
+  "governing_scan": "2024 DSE B2 - Paper 3 - Annotates.pdf",
+  "governing_scan_sha256": "95388506aa80a20d1ea7e6caa0ea0ab5cd28da5d026bc0c175a58b71ed78038b",
+  "scan_physical_pages": 5,
+  "official_printed_pages_present": [2,3,4,5,6,7,8,9,10,11],
+  "official_cover_present": false,
+  "question_answer_book_supplied": false,
+  "official_recording_supplied": false,
+  "official_tapescript_supplied": false,
+  "third_party_tapescript_reproduction_used": true,
+  "handwriting_on_printed_page_3": "excluded as later third-party annotation",
+  "reviews": {
+    "native_reader": "NOT RUN",
+    "student_without_marking_scheme": "NOT RUN",
+    "project_owner": "NOT RUN",
+    "model_congruence": "NOT CLAIMED — only third-party benchmark models are available"
+  }
+}
