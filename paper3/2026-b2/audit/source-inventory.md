@@ -21,6 +21,10 @@ Inventory date: 2026-11-13 (Asia/Hong_Kong)
 
 The native reader follows printed page order 1–11. The original PDF remains private subordinate source evidence and retains its unusual physical order; the explicit printed-to-physical map prevents silent reordering. The scan is not published because public-release provenance was not established. No OCR layer exists, so every text and visual unit is manually checked against original-resolution page renders.
 
+## Complete source-unit reconciliation
+
+`audit/source-unit-ledger.json` inventories 353 non-empty native printed-text fragments in source order across all 11 printed pages. It records the exact excerpt, printed/physical page relationship, unit kind and learner-facing disposition for every fragment. `audit/page-verification.json` separately records the meaningful visual relationships and the page-specific exclusions. The ledger is generated reproducibly by `tools/generate-dse-paper3-2026-unit-ledgers.mjs`; `--check` fails if it is stale.
+
 ## Independent review record
 
 - Native Traditional Chinese reader review: `NOT RUN`

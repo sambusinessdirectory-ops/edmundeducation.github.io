@@ -6,6 +6,7 @@ Overall state: **MACHINE-VERIFIED / UNCERTIFIED**
 ## Source and static integrity
 
 - `node tools/test-dse-paper3-2026-readers.mjs`: `PASS`
+- `node tools/generate-dse-paper3-2026-unit-ledgers.mjs --check`: `PASS`
 - `git diff --check`: `PASS`
 - B1: 10/10 native page sections and 10/10 page-proof panels present.
 - B2: 11/11 native page sections and 11/11 page-proof panels present.
@@ -14,6 +15,8 @@ Overall state: **MACHINE-VERIFIED / UNCERTIFIED**
 - B1 marked scan is not published; candidate handwriting is excluded page by page.
 - B2 printed-to-physical mapping verified as `1,11,10,9,8,7,6,5,4,3,2`.
 - Missing QAB, recording, official tapescript and official marking information are disclosed; none is reconstructed.
+- A second Apple Vision OCR-assisted comparison was run across all 21 original-resolution page renders. OCR was treated only as an aid; flagged differences were manually checked against the page images. This recovered the cover copyright lines, four continuation arrows per reader and three source headings that the first test suite had not covered.
+- The reproducible source-unit ledgers reconcile 324 B1 and 353 B2 native printed-text fragments in source order. Visual relationships and documented exclusions remain in the page-verification records; the ledger check fails if generated evidence and reader HTML diverge.
 
 ## Safari browser verification
 

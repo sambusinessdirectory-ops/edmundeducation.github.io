@@ -14,6 +14,8 @@
   "public_source_scan": null,
   "source_inventory": "audit/source-inventory.md",
   "page_verification_record": "audit/page-verification.json",
+  "source_unit_ledger": "audit/source-unit-ledger.json",
+  "source_unit_count": 324,
   "certification_status": "UNCERTIFIED",
   "source_exception": "The supplied copy contains handwritten notes and markings. They are excluded from the native reconstruction and the marked scans are not published because those private marks are not official source content.",
   "pages": [

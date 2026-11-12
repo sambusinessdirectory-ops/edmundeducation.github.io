@@ -1,0 +1,3238 @@
+{
+  "reader": "2026-b2",
+  "status": "machine-reconciled-operator-checked-uncertified",
+  "source_sha256": "5675a5dfe5ac025603c3a888a4d1d69780224c48ab1729e5ef24e2b3040cd4fe",
+  "printed_to_physical_page": [
+    1,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2
+  ],
+  "generation_rule": "Every non-empty native text fragment inside each .source-paper block, excluding Chinese learning-aid translations, editable user input, storage notices and verification UI, is recorded in DOM/source order.",
+  "visual_unit_evidence": "See audit/page-verification.json verified_units for layout, chart, table, bubble-direction, email-chrome and continuation-arrow relationships.",
+  "counts_by_printed_page": {
+    "1": 26,
+    "2": 33,
+    "3": 10,
+    "4": 28,
+    "5": 30,
+    "6": 41,
+    "7": 29,
+    "8": 52,
+    "9": 35,
+    "10": 38,
+    "11": 31
+  },
+  "total_text_units": 353,
+  "units": [
+    {
+      "id": "2026-b2-p01-u001",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 1,
+      "exact_excerpt": "2026-DSE",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u002",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 2,
+      "exact_excerpt": "ENG LANG",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u003",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 3,
+      "exact_excerpt": "PAPER 3",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u004",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 4,
+      "exact_excerpt": "PART B2",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u005",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 5,
+      "exact_excerpt": "B2",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u006",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 6,
+      "exact_excerpt": "DIFFICULT SECTION",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u007",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 7,
+      "exact_excerpt": "HONG KONG EXAMINATIONS AND ASSESSMENT AUTHORITY",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u008",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 8,
+      "exact_excerpt": "HONG KONG DIPLOMA OF SECONDARY EDUCATION EXAMINATION 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u009",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 9,
+      "exact_excerpt": "ENGLISH LANGUAGE PAPER 3",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u010",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 10,
+      "exact_excerpt": "PART B2",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u011",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 11,
+      "exact_excerpt": "DATA FILE",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u012",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 12,
+      "exact_excerpt": "GENERAL INSTRUCTIONS",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u013",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 13,
+      "exact_excerpt": "(1) Refer to the General Instructions on Page 1 of the Question-Answer Book for Part A.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u014",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 14,
+      "exact_excerpt": "INSTRUCTIONS FOR PART B2",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u015",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 15,
+      "exact_excerpt": "(1) The Question-Answer Book for Part B2 is inserted into this Data File.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u016",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 16,
+      "exact_excerpt": "(2) For Part B, attempt EITHER those tasks in Part B1 (Tasks 5–7) OR those in Part B2 (Tasks 8–10).",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u017",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 17,
+      "exact_excerpt": "(3) You are advised to use a pen for Part B.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u018",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 18,
+      "exact_excerpt": "(4) The Data Files will NOT be collected at the end of the examination. Do NOT write your answers in the Data Files.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u019",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 19,
+      "exact_excerpt": "(5) Hand in only ONE Question-Answer Book for Part B, either B1 or B2, and tie it with the Question-Answer Book for Part A.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u020",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Not to be taken away before the",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u021",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 21,
+      "exact_excerpt": "end of the examination session",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u022",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 22,
+      "exact_excerpt": "©香港考試及評核局 保留版權",
+      "unit_kind": "official-bilingual-legal-line",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u023",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Hong Kong Examinations and Assessment Authority",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u024",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 24,
+      "exact_excerpt": "All Rights Reserved 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u025",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 25,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-1",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p01-u026",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 26,
+      "exact_excerpt": "1",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u001",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Part B",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u002",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Situation",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u003",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 3,
+      "exact_excerpt": "You are Nico Lin. You are an intern at Victoria Harbour Library. You help Ms Agnes Yip, the Assistant Librarian, in her work. You have been asked to complete some tasks.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u004",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 4,
+      "exact_excerpt": "You will listen to a recording of a staff meeting attended by Thomas Chan, the Chief Librarian, Meera Khan, the Community Engagement Officer and Agnes Yip. Take notes under the appropriate headings.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u005",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Before the recording is played, you will have five minutes to study the Question-Answer Book and the Data File to familiarise yourself with the situation and the tasks.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u006",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Complete the tasks by following the instructions in the Question-Answer Book and on the recording. You will find all the information you need in the Question-Answer Book, the Data File and on the recording. As you listen, you can make notes on page 3 of the Data File.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u007",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 7,
+      "exact_excerpt": "You now have five minutes to familiarise yourself with the Question-Answer Book and the Data File.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u008",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Contents",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u009",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Listening note-taking sheet for staff meeting",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u010",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 10,
+      "exact_excerpt": "3",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u011",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Email from Agnes Yip to Nico Lin",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u012",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 12,
+      "exact_excerpt": "4",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u013",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Leisure and Cultural Services Department (LCSD) notice",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u014",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 14,
+      "exact_excerpt": "4",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u015",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Adelaide Library News",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u016",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 16,
+      "exact_excerpt": "article",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u017",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 17,
+      "exact_excerpt": "5",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u018",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Discussion forum for librarians",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u019",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 19,
+      "exact_excerpt": "6",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u020",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Email to registered participants: Bangkok People Library event",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u021",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 21,
+      "exact_excerpt": "6",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u022",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Email thread: Teckniti Consultants and Thomas Chan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u023",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 23,
+      "exact_excerpt": "7",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u024",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Tokyo People Library event: Survey Report",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u025",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 25,
+      "exact_excerpt": "8",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u026",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Victoria Harbour Library social media comments thread",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u027",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 27,
+      "exact_excerpt": "9",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u028",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Transcript of telephone call between Powerful Pest Controllers and Agnes Yip",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u029",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 29,
+      "exact_excerpt": "10",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u030",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 30,
+      "exact_excerpt": "WhatsApp conversation between Meera Khan and Agnes Yip",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u031",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 31,
+      "exact_excerpt": "11",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u032",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 32,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-2",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p02-u033",
+      "printed_page": 2,
+      "physical_page": 11,
+      "source_order_on_page": 33,
+      "exact_excerpt": "2",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u001",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Listen to the recording of a staff meeting. The meeting was attended by Thomas Chan, the Chief Librarian, Meera Khan, the Community Engagement Officer and Agnes Yip, the Assistant Librarian.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u002",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Moth problem",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u003",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Story-reading activity with Jessica Yoong",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u004",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 4,
+      "exact_excerpt": "LCSD Community Ties Project",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u005",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Weekly Schedule",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u006",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 6,
+      "exact_excerpt": "AIBookPioneer",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u007",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Discover Your Library Challenge",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u008",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Go on to the next page",
+      "unit_kind": "continuation-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u009",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 9,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-3",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p03-u010",
+      "printed_page": 3,
+      "physical_page": 10,
+      "source_order_on_page": 10,
+      "exact_excerpt": "3",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u001",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Junk",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u002",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Delete",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u003",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Reply",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u004",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Reply All",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u005",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Forward",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u006",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Move",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u007",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Mark Unread",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u008",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Follow up",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u009",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Sent: Saturday 11 April 2026 10:05AM",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u010",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 10,
+      "exact_excerpt": "To: Nico Lin",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u011",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 11,
+      "exact_excerpt": "From: Agnes Yip",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u012",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Subject: Things to do",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u013",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Hi Nico,",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u014",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 14,
+      "exact_excerpt": "This is a busy month for us, and I need you to help me out with a few different things.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u015",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Firstly, can you please write a script for a short publicity video to introduce the AIBookPioneer? I think we need to cover basic information on what it is, what the user experiences and address any concerns people might have.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u016",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Secondly, Mr Chan needs a preliminary report on this awful moth infestation. Write a brief summary of how this happened, what we know about the moth situation now and make some recommendations.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u017",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Finally, I’ve decided to submit the People Library idea for the LCSD Community Ties Project. Could you write a proposal? Include: what a People Library is and how it works; how the People Library started; and the positive impacts it potentially has. Start by looking at the Leisure and Cultural Services Department notice and the Tom Yengi interview. Plus, take a look at the data from the Tokyo event and see if you can make some generalisations from it to include.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u018",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Thanks for the help – you’re doing a great job as our new intern!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u019",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 19,
+      "exact_excerpt": "Agnes Yip",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u020",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Assistant Librarian",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u021",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Leisure and Cultural Services Department (LCSD) notice",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u022",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Every year, the LCSD invites Hong Kong libraries to submit their proposals for the LCSD Community Ties Project. The winning entry will be chosen based on which proposed project can best contribute to improving community ties and have the biggest positive impact in Hong Kong in the coming year.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u023",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 23,
+      "exact_excerpt": "The winning idea will be fully funded by the LCSD.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u024",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Submission deadline: Monday, 27 April 2026.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u025",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Leisure and Cultural Services Department",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u026",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 26,
+      "exact_excerpt": "9 February 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u027",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 27,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-4",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p04-u028",
+      "printed_page": 4,
+      "physical_page": 9,
+      "source_order_on_page": 28,
+      "exact_excerpt": "4",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u001",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Interview with Tom Yengi",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u002",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 2,
+      "exact_excerpt": "by Katy Milanovic (Assistant Librarian, Adelaide Library)",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u003",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 3,
+      "exact_excerpt": "24 November 2025",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u004",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 4,
+      "exact_excerpt": "For those of you who haven’t ever experienced a People Library…think of a hall full of really interesting storytellers. Each on their own little platform, telling the story of their daily lives. I can still remember the first People Library event I went to in 2018. The storytellers were all street cleaners here in Adelaide. I loved how we could ask questions – I learnt so much. That’s the great thing about People Library events – you can ask questions and really engage with the speakers.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u005",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 5,
+      "exact_excerpt": "So, I was excited when I heard that Tom Yengi, one of the founders of the People Library, was visiting our library here in Adelaide this week. We made some time to have a chat.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u006",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Katy:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u007",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 7,
+      "exact_excerpt": "So, Tom, we have many regulars at our People Library events here in Adelaide every month and we know they’ll be interested to hear from you. So how did you first get the idea to do a People Library event?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u008",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Tom:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u009",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Well, I don’t know if you remember but a lot of refugees arrived in Australia in the early 2000s. Some people weren’t very welcoming towards them…",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u010",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Katy:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u011",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 11,
+      "exact_excerpt": "I was a bit young to really remember, but I’ve read about it.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u012",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Tom:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u013",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Right. Well, I wanted to see if I could tackle people’s prejudices by giving them the chance to hear more about the refugees’ lives.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u014",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Katy:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u015",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 15,
+      "exact_excerpt": "So that was your main motivation?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u016",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Tom:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u017",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Yeah. You know, prejudice can easily arise when groups of people don’t know much about each other.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u018",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Katy:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u019",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 19,
+      "exact_excerpt": "I know what you mean.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u020",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Tom:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u021",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Yeah, so a couple of us planned an event at our library in Darwin, where people could come along and hear more from the refugees themselves. That was in 2002.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u022",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Katy:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u023",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Well, it’s certainly something that you yourself must be immensely proud of. And what about you nowadays? What do you do now?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u024",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Tom:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u025",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Well, I’ve just been appointed to be the librarian on the Pitcairn Islands in the Pacific Ocean. It’s the most remote library in the world.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u026",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Katy:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u027",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Sounds like a big adventure! Well, thanks so much for coming in today, Tom. It’s been lovely to talk to you.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u028",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Go on to the next page",
+      "unit_kind": "continuation-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u029",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 29,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-5",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p05-u030",
+      "printed_page": 5,
+      "physical_page": 8,
+      "source_order_on_page": 30,
+      "exact_excerpt": "5",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u001",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Discussion forum for librarians",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u002",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 2,
+      "exact_excerpt": "RareBooksLibrarian:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u003",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Anyone able to help? We’ve just discovered moths in our library. Any suggestions?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u004",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 4,
+      "exact_excerpt": "LibraryBoss:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u005",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 5,
+      "exact_excerpt": "We had bedbugs last year. Count yourself lucky.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u006",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Librarian123:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u007",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Moths destroyed our carpet last year. You definitely need to get some professionals in to advise.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u008",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 8,
+      "exact_excerpt": "RareBooksLibrarian:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u009",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Yeah, we’re starting to realise that. We thought we could just vacuum them away…",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u010",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Pustakawan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u011",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Hey, sorry to hear this. I’m at a small branch and we’ve somehow managed to have two infestations in 3 years – bedbugs and cockroaches! One thing we did which has proved helpful is we got someone in to give a talk to staff on common pests. Everyone kind of knows what signs to look out for now.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u012",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 12,
+      "exact_excerpt": "LibraryBoss:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u013",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Yes, we did the same thing. Two months ago, one of our librarians managed to spot some cockroaches moving in before the situation got out of hand.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u014",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 14,
+      "exact_excerpt": "RareBooksLibrarian:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u015",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 15,
+      "exact_excerpt": "@Librarian123. Did you have to close the library while dealing with everything?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u016",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Librarian123:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u017",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Oh, you’ll definitely need to close. You’ll need professionals in to do a deep clean and you can’t have people around while they’re working.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u018",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Alexandria Library:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u019",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 19,
+      "exact_excerpt": "We had a cockroach infestation once and we had to do a freeze treatment on all our books. I strongly recommend you do this, or you’ll have the same problem again in a few months.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u020",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Librarian123:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u021",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 21,
+      "exact_excerpt": "No, it depends on what insect it is. It’s not always necessary. You only need to do it if it’s cockroaches, not moths.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u022",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Email to registered participants: Bangkok People Library event",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u023",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Junk",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u024",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Delete",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u025",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Reply",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u026",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Reply All",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u027",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Forward",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u028",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Move",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u029",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 29,
+      "exact_excerpt": "Mark Unread",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u030",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 30,
+      "exact_excerpt": "Follow up",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u031",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 31,
+      "exact_excerpt": "Sent: 20 February 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u032",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 32,
+      "exact_excerpt": "To: Meera Khan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u033",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 33,
+      "exact_excerpt": "From: The People Library Bangkok",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u034",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 34,
+      "exact_excerpt": "Subject: The People Library Bangkok Follow-up",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u035",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 35,
+      "exact_excerpt": "Dear Ms Khan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u036",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 36,
+      "exact_excerpt": "Thank you for attending our first ever People Library event here in Bangkok last week. We wanted to let you know what one of our storytellers had to say afterwards:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u037",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 37,
+      "exact_excerpt": "I’ve been homeless and living on the streets for so long that I got used to being invisible, to people not even seeing me. So I was so nervous when I was asked to stand up and talk about myself. Who would be interested in me? But since I did it, I feel that I want to contribute. That’s what I was explaining to my counsellor yesterday. I have even started volunteering, serving food at the homeless centre – Isra.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u038",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 38,
+      "exact_excerpt": "Thanks again for your support. We’ll see you again next month when we will be hearing stories from migrant workers living in Bangkok.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u039",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 39,
+      "exact_excerpt": "The People Library Bangkok",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u040",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 40,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-6",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p06-u041",
+      "printed_page": 6,
+      "physical_page": 7,
+      "source_order_on_page": 41,
+      "exact_excerpt": "6",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u001",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Email thread: Teckniti Consultants and Thomas Chan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u002",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Sent: 4 February 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u003",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 3,
+      "exact_excerpt": "To: Thomas Chan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u004",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 4,
+      "exact_excerpt": "From: Bill Huang",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u005",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Subject: Re: Re: Re: Victoria Harbour Library and book explorer options",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u006",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Dear Mr Chan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u007",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 7,
+      "exact_excerpt": "AIBookPioneer has the upper hand in that regard due to the fact that they are using a new bespoke technology called DickensTech. When I myself tried it out, I found it remarkably seamless and definitely superior to NarrativeTravel, despite my initial reservations.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u008",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Bill",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u009",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 9,
+      "exact_excerpt": "On 2 February 2026 Thomas Chan wrote:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u010",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Dear Mr Huang",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u011",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Thanks for getting back to me so promptly. Is there any difference in the quality of the tools in terms of them malfunctioning?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u012",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Thomas",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u013",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 13,
+      "exact_excerpt": "On 29 January 2026 Bill Huang wrote:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u014",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Dear Mr Chan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u015",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 15,
+      "exact_excerpt": "I’d say from the outset that both AIBookPioneer and NarrativeTravel offer historically and geographically accurate 3D worlds and are both as visually powerful as each other. So there isn’t too much to choose between them. Both offer around 500 books. AIBookPioneer also includes books written in Korean. NarrativeTravel offers more variety, with books in 7 languages.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u016",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Users of NarrativeTravel are actually standing up so they can move around in the scene. I personally think the ability to physically move creates a better all-round experience. Users of AIBookPioneer, on the other hand, are required to stay in their seats inside the AIBookPioneer for the duration. So if you’re pressed for space, this will be the more appropriate option.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u017",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Let me know if there is anything else.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u018",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Bill Huang",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u019",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 19,
+      "exact_excerpt": "Teckniti Consultants",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u020",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 20,
+      "exact_excerpt": "On 28 January 2026 Thomas Chan wrote:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u021",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Dear Mr Huang",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u022",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Thanks for meeting with me last week to discuss the choice of a “book explorer” tool for our new FutureAI Centre. We still haven’t decided between AIBookPioneer and NarrativeTravel.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u023",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 23,
+      "exact_excerpt": "I understand both provide access to books written in Chinese and English – does either offer literature in other languages? Which has the widest variety of books to choose from?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u024",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 24,
+      "exact_excerpt": "As our library is in Hong Kong, space, of course, is at an absolute premium. You said that one of the tools allows users to walk around in the recreated scene from the book. Which one was that? I really don’t think we have the space for that in the room we’ve allocated to the FutureAI Centre.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u025",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Thanks for the help.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u026",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Thomas Chan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u027",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Go on to the next page",
+      "unit_kind": "continuation-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u028",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 28,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-7",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p07-u029",
+      "printed_page": 7,
+      "physical_page": 6,
+      "source_order_on_page": 29,
+      "exact_excerpt": "7",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u001",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 1,
+      "exact_excerpt": "A People Library event was held in Tokyo in December 2025. The storytellers were people from Indigenous Minorities in Japan: the Ainu and Ryukyuan Peoples.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u002",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 2,
+      "exact_excerpt": "140 attendees were asked to complete a survey after the event.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u003",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Whose stories would you most like to hear at a future event?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u004",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 4,
+      "exact_excerpt": "54%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u005",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Immigrants working in Japan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u006",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 6,
+      "exact_excerpt": "33%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u007",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Elderly people living alone",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u008",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 8,
+      "exact_excerpt": "13%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u009",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Single parents",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u010",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Future storyteller preferences",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u011",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Group",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u012",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Percentage",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u013",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Immigrants working in Japan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u014",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 14,
+      "exact_excerpt": "54%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u015",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Elderly people living alone",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u016",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 16,
+      "exact_excerpt": "33%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u017",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Single parents",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u018",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 18,
+      "exact_excerpt": "13%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u019",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 19,
+      "exact_excerpt": "Would you attend another People Library event?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u020",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 20,
+      "exact_excerpt": "91%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u021",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Would attend again",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u022",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 22,
+      "exact_excerpt": "2%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u023",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Wouldn’t attend again",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u024",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 24,
+      "exact_excerpt": "7%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u025",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Unsure",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u026",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Repeat attendance intentions",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u027",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Response",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u028",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Percentage",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u029",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 29,
+      "exact_excerpt": "Would attend again",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u030",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 30,
+      "exact_excerpt": "91%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u031",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 31,
+      "exact_excerpt": "Wouldn’t attend again",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u032",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 32,
+      "exact_excerpt": "2%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u033",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 33,
+      "exact_excerpt": "Unsure",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u034",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 34,
+      "exact_excerpt": "7%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u035",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 35,
+      "exact_excerpt": "How do you feel towards people from indigenous groups in Japan after listening to their stories?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u036",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 36,
+      "exact_excerpt": "82%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u037",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 37,
+      "exact_excerpt": "Much more empathetic",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u038",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 38,
+      "exact_excerpt": "12%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u039",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 39,
+      "exact_excerpt": "More empathetic",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u040",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 40,
+      "exact_excerpt": "6%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u041",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 41,
+      "exact_excerpt": "No change/Unsure",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u042",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 42,
+      "exact_excerpt": "Empathy after hearing stories",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u043",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 43,
+      "exact_excerpt": "Response",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u044",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 44,
+      "exact_excerpt": "Percentage",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u045",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 45,
+      "exact_excerpt": "Much more empathetic",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u046",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 46,
+      "exact_excerpt": "82%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u047",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 47,
+      "exact_excerpt": "More empathetic",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u048",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 48,
+      "exact_excerpt": "12%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u049",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 49,
+      "exact_excerpt": "No change/Unsure",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u050",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 50,
+      "exact_excerpt": "6%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u051",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 51,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-8",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p08-u052",
+      "printed_page": 8,
+      "physical_page": 5,
+      "source_order_on_page": 52,
+      "exact_excerpt": "8",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u001",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Jimboinlove",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u002",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 2,
+      "exact_excerpt": "10 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u003",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 3,
+      "exact_excerpt": "What on earth is going on? I was studying this evening, and I saw THREE horrible little moths on the floor! I am NOT okay with this.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u004",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Katie123",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u005",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 5,
+      "exact_excerpt": "11 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u006",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 6,
+      "exact_excerpt": "I saw one too. I just moved to a different section. No need to overreact.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u007",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 7,
+      "exact_excerpt": "HugoForever",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u008",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 8,
+      "exact_excerpt": "14 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u009",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 9,
+      "exact_excerpt": "This morning there was a whole family of them on the carpet. I couldn’t concentrate. They’re so gross. I’m not studying here again, that’s for sure.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u010",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Sally",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u011",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 11,
+      "exact_excerpt": "17 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u012",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 12,
+      "exact_excerpt": "They’re definitely taking over. One ran on my hand! Does no one at the library check these comments?? Now I’ll have to use my school library. It’s so noisy. Aaah!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u013",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Moth_1998",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u014",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 14,
+      "exact_excerpt": "20 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u015",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 15,
+      "exact_excerpt": "LOL, this is hilarious. Maybe we should make a short video about the moths taking over the library.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u016",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Katie123",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u017",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 17,
+      "exact_excerpt": "21 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u018",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Don’t be childish. If the situation is really that bad, why don’t you talk to the librarians instead of just whining here?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u019",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 19,
+      "exact_excerpt": "Jimboinlove",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u020",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 20,
+      "exact_excerpt": "23 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u021",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 21,
+      "exact_excerpt": "I did! I couldn’t even read the newspaper in peace this evening, so I told one of the librarians about it. She didn’t do anything – just laughed!!!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u022",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 22,
+      "exact_excerpt": "MadStudent",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u023",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 23,
+      "exact_excerpt": "24 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u024",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Was she wearing an intern badge? They’re usually on duty in the evenings. They spend most of their time on Instagram…",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u025",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Jimboinlove",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u026",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 26,
+      "exact_excerpt": "24 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u027",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Yes, she was!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u028",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Moth_1998",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u029",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 29,
+      "exact_excerpt": "27 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u030",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 30,
+      "exact_excerpt": "I’ve posted the video about the moths. Check it out! Here’s the link:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u031",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 31,
+      "exact_excerpt": "Victoria Harbour Library: Moth Scandal",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u032",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 32,
+      "exact_excerpt": "…that’ll get their attention.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u033",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 33,
+      "exact_excerpt": "Go on to the next page",
+      "unit_kind": "continuation-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u034",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 34,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-9",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p09-u035",
+      "printed_page": 9,
+      "physical_page": 4,
+      "source_order_on_page": 35,
+      "exact_excerpt": "9",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u001",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Transcript of telephone call between Powerful Pest Controllers and Agnes Yip",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u002",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Friday, 10 April 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u003",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 3,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u004",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Powerful Pest Controllers, how may we help you?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u005",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 5,
+      "exact_excerpt": "AY:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u006",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Hi Ben, it’s Agnes from Victoria Harbour Library. You were over here on Sunday checking out our moth situation?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u007",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 7,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u008",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Oh yes, that’s right. We’re working on your report now.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u009",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 9,
+      "exact_excerpt": "AY:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u010",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Right… Well, it’s just that our chief librarian is really stressed out about the whole situation and wants an update as soon as possible. What can you tell me at this point?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u011",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 11,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u012",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Well… we need time to check the specimens we took and consider the best way forward.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u013",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 13,
+      "exact_excerpt": "AY:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u014",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Yes, I do understand that… but I’m under pressure here.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u015",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 15,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u016",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Well, they’ve done a bit of damage to your carpet in the far corner of the Adults Section. You’ll probably have to get that whole section of carpet pulled up and put a new one in. Just to be on the safe side.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u017",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 17,
+      "exact_excerpt": "AY:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u018",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 18,
+      "exact_excerpt": "You mean all of the carpet in the Adults Section?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u019",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 19,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u020",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 20,
+      "exact_excerpt": "No, no. Just the corner.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u021",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 21,
+      "exact_excerpt": "AY:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u022",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Oh okay. Can’t we just give it a vacuum?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u023",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 23,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u024",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 24,
+      "exact_excerpt": "A vacuum? No, you’re going to need to get some professionals in for a proper clean.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u025",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 25,
+      "exact_excerpt": "AY:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u026",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Of just the Adults Section?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u027",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 27,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u028",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 28,
+      "exact_excerpt": "No, the whole place.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u029",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 29,
+      "exact_excerpt": "AY:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u030",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 30,
+      "exact_excerpt": "The entire library? Oh, Thomas is not going to be happy about that. For how long?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u031",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 31,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u032",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 32,
+      "exact_excerpt": "At least 48 hours I reckon. We can confirm everything in the report but for now, this is what I expect.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u033",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 33,
+      "exact_excerpt": "AY:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u034",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 34,
+      "exact_excerpt": "Okay.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u035",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 35,
+      "exact_excerpt": "PPC:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u036",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 36,
+      "exact_excerpt": "Okay then, well, have a good weekend.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u037",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 37,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-10",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p10-u038",
+      "printed_page": 10,
+      "physical_page": 3,
+      "source_order_on_page": 38,
+      "exact_excerpt": "10",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u001",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Friday, 10 April 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u002",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u003",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 3,
+      "exact_excerpt": "So, after the meeting this morning, I was reading about these “book explorer” tools and apparently lots of people have complained about them glitching. They have a pretty bad reputation.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u004",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u005",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Yep, but Thomas told me that the guy at Teckniti Consultants said that AIBookPioneer uses this amazing technology they designed themselves. So all that’s a thing of the past. The technology has a cool name but I can’t remember it right now.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u006",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u007",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Definitely mention it by name in the video then. You asked me to look into why no-one was checking the comments on our pages?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u008",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u009",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 9,
+      "exact_excerpt": "You mean the stuff about the moths?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u010",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u011",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Exactly…I checked and those interns we had last month were supposed to be keeping an eye on the comments.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u012",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u013",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Those interns were terrible! They never did anything!!!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u014",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u015",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Well, I looked at the Completed Duties Log and they definitely hadn’t done the social media stuff.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u016",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u017",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 17,
+      "exact_excerpt": "As I said, those interns weren’t the best.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u018",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u019",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 19,
+      "exact_excerpt": "On another note, I was thinking a bit about your proposal for the community ties project.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u020",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u021",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Oh yes?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u022",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u023",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Yeah, I remembered that I received a really lovely email from the Bangkok People Library organiser. I’ll forward it to you. There might be stuff you can include in your proposal.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u024",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u025",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Ok, great. Yes, forward it to me.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u026",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 26,
+      "exact_excerpt": "THIS IS THE LAST PAGE OF THE PART B2 DATA FILE",
+      "unit_kind": "last-page-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u027",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Sources of materials used in this paper will be acknowledged in the",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u028",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 28,
+      "exact_excerpt": "HKDSE Question Papers",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u029",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 29,
+      "exact_excerpt": "booklet published by the Hong Kong Examinations and Assessment Authority at a later stage.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u030",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 30,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B2-DF-11",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b2-p11-u031",
+      "printed_page": 11,
+      "physical_page": 2,
+      "source_order_on_page": 31,
+      "exact_excerpt": "11",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    }
+  ],
+  "exclusions": [
+    {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "content": "scan punch holes, crop shadows, registration marks and paper distortion",
+      "disposition": "excluded-non-meaningful-scan-artifacts",
+      "reason": "These physical capture artifacts do not encode learner-facing source meaning."
+    }
+  ],
+  "independent_reviews": {
+    "native_traditional_chinese": "NOT RUN",
+    "student_without_marking_scheme": "NOT RUN",
+    "project_owner": "NOT RUN"
+  }
+}

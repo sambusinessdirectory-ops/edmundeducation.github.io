@@ -2,14 +2,14 @@
   "reader": "2026-b2",
   "status": "operator-checked-uncertified",
   "verification_date": "2026-11-13",
-  "method": "Manual comparison with original-resolution 2x PDFKit renders; PDF has no usable text layer.",
+  "method": "Manual comparison with original-resolution 2x PDFKit renders, followed by Apple Vision OCR-assisted discrepancy review; OCR was used only as an aid and every correction was visually confirmed. PDF has no usable text layer.",
   "source_sha256": "5675a5dfe5ac025603c3a888a4d1d69780224c48ab1729e5ef24e2b3040cd4fe",
   "pages": [
     {
       "printed": 1,
       "physical": 1,
       "source_type": "cover",
-      "verified_units": ["2026-DSE identifiers", "B2 Difficult Section badge", "Paper 3 Part B2 Data File title", "general instruction", "five Part B2 instructions", "copyright and not-to-be-taken-away notices", "printed page number"],
+      "verified_units": ["2026-DSE identifiers", "B2 Difficult Section badge", "Paper 3 Part B2 Data File title", "general instruction", "five Part B2 instructions", "HKEAA bilingual copyright line", "not-to-be-taken-away notice", "printed page number"],
       "result": "matched"
     },
     {
@@ -37,7 +37,7 @@
       "printed": 5,
       "physical": 8,
       "source_type": "news-interview",
-      "verified_units": ["Adelaide Library News label", "Interview with Tom Yengi title", "Katy Milanovic byline and 24 November 2025 date", "two introduction paragraphs", "every Katy/Tom turn in order"],
+      "verified_units": ["Adelaide Library News label", "Interview with Tom Yengi title", "Katy Milanovic byline and 24 November 2025 date", "two introduction paragraphs", "every Katy/Tom turn in order", "Go on to the next page arrow"],
       "result": "matched"
     },
     {
@@ -51,7 +51,7 @@
       "printed": 7,
       "physical": 6,
       "source_type": "email-thread",
-      "verified_units": ["Teckniti Consultants/Thomas Chan thread title", "4 February header and DickensTech conclusion", "2 February question", "29 January comparison and conditions", "28 January questions", "nested chronology"],
+      "verified_units": ["Email thread: Teckniti Consultants and Thomas Chan source heading", "4 February header and DickensTech conclusion", "2 February question", "29 January comparison and conditions", "28 January questions", "nested chronology", "Go on to the next page arrow"],
       "result": "matched"
     },
     {
@@ -65,14 +65,14 @@
       "printed": 9,
       "physical": 4,
       "source_type": "social-comments",
-      "verified_units": ["thread title", "all usernames", "all dates from 10–27 March 2026", "all ten comments in printed order", "underlined linked-video label"],
+      "verified_units": ["thread title", "all usernames", "all dates from 10–27 March 2026", "all ten comments in printed order", "underlined linked-video label", "Go on to the next page arrow"],
       "result": "matched"
     },
     {
       "printed": 10,
       "physical": 3,
       "source_type": "telephone-transcript",
-      "verified_units": ["transcript title", "Friday 10 April 2026 date", "PPC and AY labels", "every printed turn", "carpet-corner scope, whole-library cleaning scope and at-least-48-hours statement"],
+      "verified_units": ["Transcript of telephone call between Powerful Pest Controllers and Agnes Yip source heading", "Friday 10 April 2026 date", "PPC and AY labels", "every printed turn", "carpet-corner scope, whole-library cleaning scope and at-least-48-hours statement"],
       "result": "matched"
     },
     {
