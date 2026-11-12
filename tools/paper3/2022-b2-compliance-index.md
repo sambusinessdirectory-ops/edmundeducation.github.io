@@ -1,6 +1,6 @@
 # 2022 B2 Golden Manual Compliance Index
 
-Status: `V2 CORRECTION · READY FOR PROTECTED RELEASE`
+Status: `V3 ARCHITECTURE PORT · LOCAL VERIFIED · LIVE NOT YET VERIFIED`
 Manual authority: `Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf`
 Manual coverage: all 183 pages inspected on 2026-11-11
 Coding reference: `2025_B2_Super_Curation_Line_by_Line.md` (24,425 lines; indexed and reference hashes verified)
@@ -52,20 +52,42 @@ The printed handwriting on Data File page 3 is candidate annotation, not authori
 7. Add static, Chromium, Firefox, accessibility, responsive, reduced-motion, source-coverage, real-audio and exact-SHA live gates.
 8. Publish only after the same commit passes build, deployment and cache-busted live verification.
 
-## Implementation and verification evidence
+## V3 implementation and verification evidence
+
+The former V2 all-PASS checklist is withdrawn. It measured the reduced V2 controller against its own smoke test and did not establish Golden Manual equivalence.
 
 | Requirement | Status | Evidence |
 | --- | --- | --- |
-| Complete paper order and source closure | PASS | Production-equivalent artifact contains 19 pages: 11 Data File + 8 QAB; original native paper remains unchanged |
-| Six-type atomic source coverage | PASS | Chromium and Firefox each generate 160 ordered English source units with one primary type per unit |
-| 2025 desktop architecture | PASS | Browser geometry verifies fixed five-stage rail, fixed 420 px left dock, central paper workspace, and fixed 288 px right evidence bank; obsolete `.curation-hub` count is zero |
-| Five-stage learning route | PASS | Task instructions → classification → listening → sentence evidence → three writings; progress persists in five separate v2 save slots |
-| Authentic note sheet and listening ownership | PASS | Original page-3 five-field note sheet retained; eight real-media cue transactions target those fields; no substitute note surface |
-| Authentic media | PASS | Four Part A tracks + Part B podcast uploaded to R2; all five full public readbacks match recorded SHA-256 values; live DSE catalogue exposes five 2022 tracks |
-| Revised essays and line-by-line analysis | PASS | Only the final reviewed versions from supplied PDF pages 7, 12 and 17 are digitised; 35 sentence-level guide records cite their evidence source |
-| Persistence and re-entry | PASS | Chromium and Firefox journeys confirm original note-field persistence through reload; v2 exposes five selectable local save slots plus JSON import/export |
-| Accessibility and responsive states | PASS | Keyboard-native controls, labels/live output, reduced-motion context, 390 px overflow assertion, desktop/mobile visual inspection |
-| Search integration | PASS | Search index rebuilt: 3,353 text blocks across 13 years, including 2022 essays and podcast analysis |
-| Regression and release tooling | PASS | 62 incremental-build/release-classification/release-coordinator unit tests pass; production-equivalent assembly and cross-browser journey pass |
+| Complete paper order | PASS | Browser test confirms 19 native pages: 11 Data File + 8 QAB |
+| V8.2 atomic coverage | PASS | Chromium and Firefox each find 229 unique, keyboard-enabled source units; zero nested units |
+| 2025 component hierarchy | PASS | Matched browser inventory: 5 stages, player, transcript, preview, route SVG, 8 resize handles, 5 slots, 3 banks, 4 masks and translation control |
+| Five-stage state controller | PASS | V3 exposes 26 boss/route steps, 8 categorisation steps, 28 podcast steps, 211 data/route steps and 103 writing/source-return steps |
+| Explicit route visit and return | PASS | Browser journey verifies clue → destination → exact return steps |
+| Progressive evidence projection | PASS | Next banks one transaction; Back hides evidence that is future relative to the current position |
+| Authentic page-3 note ownership | PASS | All five original textareas remain editable and have non-destructive ink mirrors |
+| Continuous podcast ownership | PASS | One controller owns play, seek, replay, cue completion, note writing and transcript projection |
+| Real cue boundaries | PASS | Headless Chromium played all eight authentic intervals; 8/8 stopped within 0.35 seconds of the ledger endpoint |
+| Cue gating | PASS | Next is disabled before the boundary and enabled only after completion/note writing |
+| Seek and rewind note integrity | PASS | Rewind removes future generated notes while retaining independent field content |
+| Player and transcript | PASS | Timeline, elapsed/total time, speed, cue pins, bilingual transcript, drag and four-corner resize are present |
+| Source preview and model tracing | PASS | Writing sequence contains exact essay units plus source and return steps; movable preview component is wired |
+| Persistence and import validation | PASS | Five slots, drafts, categories, visited/completed/heard IDs, evidence and bookmarks are sanitised against known V3 IDs |
+| Legacy migration | PARTIAL | V2 slot selection and display preferences migrate; old coarse completion positions are intentionally not marked complete in the atomic V3 sequence |
+| Real Help form | PASS | Chromium and Firefox open the writable shared question dialog through the production shared runtime |
+| Responsive/reduced motion | PASS | Both engines pass reduced-motion journeys and the 390×844 no-overflow gate |
+| 2022-versus-2025 parity | PASS | Matched-stage test confirms equal required component counts and initial podcast gating; 2022 has five note mirrors versus two in 2025 because its authentic sheet has five fields |
+| CI/release gates | PASS locally | Paper 3 release workflow now runs V3 syntax, cross-browser, matched-reference and real-audio tests |
+| Public release identity | NOT VERIFIED | No live V3 deployment or cache-busted public SHA check has been completed yet |
 
-The former recording stop condition was resolved when the user supplied the authentic 2022 recording. The official 33-page tapescript scan was re-rendered and OCR-located on 2026-11-11; Part B occupies source-scan pages 7–8 and the eight cue endpoints remain aligned to the authentic audio. No variance is in use. Publication remains conditional on the protected-branch checks, deployment workflow and cache-busted live verification of the exact commit.
+### Exact local tests
+
+- `node tools/test-2022-b2-super-curation-v3.cjs` — PASS, Chromium and Firefox.
+- `node tools/test-2022-b2-vs-2025-parity.cjs` — PASS.
+- `node tools/test-2022-b2-real-audio-boundaries.cjs` — PASS, 8/8 real intervals.
+- Remote Part B MP3 — HTTP 200, 7,127,137 bytes, 445.370 seconds, SHA-256 `fc303a195a2d87f836d2097fd0d352ce79e8e489ec84ccc7a727bcbd7a6299f9`.
+
+### Unrelated failing check
+
+`tools/test-dse-paper3-b2-audio.mjs` currently fails before reaching its card assertions because the global flashcard-audio corpus count is stale (`137365` actual versus `134387` expected). That test covers the 2024/2025 flashcard voice corpus, not the 2022 Part B podcast. It was not relabelled as a V3 pass.
+
+Publication remains conditional on protected-branch checks, deployment and cache-busted live verification of the exact V3 artifact.

@@ -1,3 +1,6 @@
+if (!process.env.PAPER3_RUN_LEGACY_V2_TEST) {
+  require('./test-2022-b2-super-curation-v3.cjs');
+} else {
 const assert = require('node:assert/strict');
 const { chromium, firefox } = require(process.env.PLAYWRIGHT_MODULE || process.env.HOME + '/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 
@@ -60,3 +63,4 @@ async function journey(engine, name) {
   console.error(error);
   process.exitCode = 1;
 });
+}

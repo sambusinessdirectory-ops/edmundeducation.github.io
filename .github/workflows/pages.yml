@@ -929,8 +929,13 @@ jobs:
           node --check paper3/2025-b2/listening-notes.js
           node --check paper3/2025-b2/super-curation-highlights.js
           node --check paper3/2025-b2/super-curation.js
+          node --check paper3/2022-b2/curation-data.js
+          node --check paper3/2022-b2/super-curation-v3.js
           node -e "const s=require('fs').readFileSync('paper3/2025-b2/index.html','utf8'); for(const name of ['super-curation.css','super-curation-highlights.js','super-curation.js']) if(!s.includes(name)) throw Error('Missing '+name)"
           bash tools/install-pages-browsers.sh
+          PLAYWRIGHT_MODULE="${RUNNER_TEMP}/pages-browser/node_modules/playwright" node tools/test-2022-b2-super-curation-v3.cjs
+          PLAYWRIGHT_MODULE="${RUNNER_TEMP}/pages-browser/node_modules/playwright" node tools/test-2022-b2-vs-2025-parity.cjs
+          PLAYWRIGHT_MODULE="${RUNNER_TEMP}/pages-browser/node_modules/playwright" node tools/test-2022-b2-real-audio-boundaries.cjs
           mkdir -p /tmp/paper3-evidence
           "${RUNNER_TEMP}/pages-browser/node_modules/.bin/http-server" . -p 4173 -a 127.0.0.1 -c-1 >/tmp/paper3-http.log 2>&1 &
           server_pid=$!

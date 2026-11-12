@@ -346,10 +346,12 @@
     "[literary-release]": ["literary-device-*", "literary-device.*"],
     "[paper3-release]": [
       "paper3/**",
+      "tools/add-paper3-study-support.py",
       "tools/build-2023-b2-reader.py",
       "tools/check-2023-b2-*.cjs",
       "tools/manuals/build-paper3-*.py",
-      "tools/paper3/**"
+      "tools/paper3/**",
+      "tools/test-2022-b2-*.cjs"
     ],
     "[paper3-analysis-release]": [
       "dse-paper3-analysis.*",

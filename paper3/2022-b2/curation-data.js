@@ -21,14 +21,36 @@
     sha256: 'fc303a195a2d87f836d2097fd0d352ce79e8e489ec84ccc7a727bcbd7a6299f9',
     duration: 445.37,
     cues: [
-      { time: 0, heading: 'Programme opening', type: 5, note: '先辨認 Julia、Pris 和 Rick 的身分；這是資料來源，不是答案。' },
-      { time: 31, heading: 'Awards', type: 1, note: '2021 Neon Award：補足 Task 8 的 recognition。', answer: '2021 Neon Award' },
-      { time: 55, heading: 'Products and services', type: 6, note: 'UFO 尺寸、價錢、skyline 上架日和生日牌主要是陪跑資料。' },
-      { time: 183, heading: 'History', type: 1, note: 'Pris 於 1980 決定創業，先向當時亞洲第一的 neon master Rick 受訓。', answer: '1980 idea · trained by Rick Lai' },
-      { time: 231, heading: 'History continued', type: 1, note: '六個月艱苦訓練後，Pris 於 1981 年創辦公司。', answer: 'six months · founded in 1981' },
-      { time: 273, heading: 'Jobs', type: 6, note: '招聘 trainees 的細節屬 B1 主線；對 B2 三題不直接有用。', answer: 'trainees · paid six-month training · September' },
-      { time: 350, heading: '3D projections', type: 3, note: '科幻片式巨型移動 3D 投影目前仍不存在；公司只能用技巧製造 3D-like effects。', answer: 'technology does not currently exist · 3D-like tricks' },
-      { time: 391, heading: 'Why neon lasts', type: 3, note: 'neon 來自星體內部；顧客也珍惜製作霓虹的 art and craft。', answer: 'inside stars · art and craft' }
+      { id: 'opening', from: 0, at: 30.8, heading: 'Programme opening', type: 5, field: null, note: '先辨認 Julia、Pris 和 Rick 的身分；這是資料來源，不是答案。' },
+      { id: 'awards', from: 30.8, at: 54.8, heading: 'Awards', type: 1, task: 'A', field: '3-1', note: '2021 Neon Award', help: '獎項名稱和年份都是 Task 8 recognition 的直接證據。' },
+      { id: 'products', from: 54.8, at: 182.8, heading: 'Products and services', type: 6, field: '3-2', note: 'UFO sizes and price; Hong Kong Skyline available 7 June; custom neon signs', help: '這些是聆聽筆記答案，但不應直接搬入三篇 B2 寫作。' },
+      { id: 'history-start', from: 182.8, at: 230.8, heading: 'History', type: 1, task: 'A', field: '3-3', note: '1980: decided to start company; trained by Rick Lai, Asia’s no. 1 neon master', help: '先分清 1980 的構思和 1981 的正式創辦。' },
+      { id: 'history-finish', from: 230.8, at: 272.8, heading: 'History continued', type: 1, task: 'A', field: '3-3', note: 'Six months of hard training; founded Shiny Diamond Lighting in 1981', help: '六個月訓練和 1981 創辦年份完成 Task 8 的 dream-to-reality 時間線。' },
+      { id: 'jobs', from: 272.8, at: 349.8, heading: 'Jobs', type: 6, field: '3-4', note: 'Trainees; six months’ paid training; programme starts in September', help: '這是筆記表答案，但屬招聘干擾，不能誤當 Pris 當年的訓練。' },
+      { id: 'projections', from: 349.8, at: 390.8, heading: '3D projections', type: 3, task: 'C', field: '3-5', note: 'Science-fiction 3D technology does not currently exist; 3D-like effects use tricks', help: '先交代真正科幻式投影仍不存在，再連到產品冊的 3D-like examples。' },
+      { id: 'neon', from: 390.8, at: 443.5, heading: 'Why neon lasts', type: 3, task: 'C', field: '3-5', note: 'Neon gas comes from inside stars; customers value its art and craft', help: '這兩個理由支援 Task 10 的 lasting appeal。' }
+    ],
+    transcript: [
+      { section: 'Awards', start: 0, end: 10, speaker: 'Julia', type: 5, text: 'Hello listeners wherever you are, and once again I Wish You Were Here with my two spectacular guests: Pris Fong, owner of Shiny Diamond Lighting, and the company’s chief designer and neon artist Rick Lai.', translation: '主持介紹公司東主 Pris Fong，以及首席設計師兼霓虹藝術家 Rick Lai。' },
+      { section: 'Awards', start: 10, end: 18, speaker: 'Pris / Rick', type: 6, text: 'My pleasure, Julia, to be here. Hello everyone.', translation: '嘉賓向主持和聽眾問好。' },
+      { section: 'Awards', start: 18, end: 35, speaker: 'Julia', type: 5, text: 'Now Pris, your company has not only been a sparkling success, but you have won many prestigious awards. Which award means the most to you though?', translation: '主持問哪一個獎項對公司最重要。' },
+      { section: 'Awards', start: 35, end: 43, speaker: 'Pris', type: 1, task: 'A', text: 'Well, it has to be the one we were awarded last year—the 2021 Neon Award.', translation: '公司去年獲得 2021 Neon Award。' },
+      { section: 'Awards', start: 43, end: 54.8, speaker: 'Julia / Pris', type: 1, task: 'A', text: 'It’s an award given to companies who make neon lights. Winning the 2021 Neon Award is something we are very, very proud of.', translation: '這是頒給霓虹燈公司的獎項，公司對得獎非常自豪。' },
+      { section: 'Products and services', start: 54.8, end: 92, speaker: 'Julia / Rick', type: 6, text: 'The UFO comes in green or yellow, in large and small sizes. The small UFO costs $600.', translation: 'UFO 有綠色或黃色及大小型號，小型售六百元。' },
+      { section: 'Products and services', start: 92, end: 126, speaker: 'Julia / Rick', type: 6, text: 'The Hong Kong Skyline can cover a wall and will be available on the 7th of June.', translation: 'Hong Kong Skyline 可覆蓋整面牆，六月七日推出。' },
+      { section: 'Products and services', start: 126, end: 158, speaker: 'Rick', type: 6, text: 'Customers can send designs through the webpage and the neon artists will make them into neon signs.', translation: '顧客可經網頁提交設計，由霓虹藝術家製成招牌。' },
+      { section: 'Products and services', start: 158, end: 182.8, speaker: 'Rick', type: 6, text: 'Birthday cake signs can show the birthday boy or girl’s name and age.', translation: '生日蛋糕招牌可顯示壽星名字和年齡。' },
+      { section: 'History', start: 182.8, end: 203, speaker: 'Julia / Pris', type: 1, task: 'A', text: 'In 1980, when I decided I wanted to start my own company, I realised I needed training from the best—and the best was Rick.', translation: 'Pris 在 1980 年決定創業，明白要先向最好的 Rick 學習。' },
+      { section: 'History', start: 203, end: 231, speaker: 'Pris', type: 1, task: 'A', text: 'I was thinking about starting a company in 1980, but I did not actually found the company until 1981. I needed to get trained first.', translation: '1980 年只是構思；接受訓練後，到 1981 年才正式創辦公司。' },
+      { section: 'History', start: 231, end: 251, speaker: 'Pris', type: 1, task: 'A', text: 'Rick Lai was the number one neon master in Asia. Once I had finished my training with Rick, I founded Shiny Diamond Lighting.', translation: 'Rick 當時是亞洲第一霓虹大師；Pris 完成訓練後創辦公司。' },
+      { section: 'History', start: 251, end: 272.8, speaker: 'Pris', type: 1, task: 'A', text: 'Rick trained me for six months. It was six long months of learning and very hard work.', translation: 'Rick 訓練她六個月，過程漫長而艱苦。' },
+      { section: 'Jobs', start: 272.8, end: 315, speaker: 'Pris', type: 6, text: 'We are looking for trainees to become neon light makers. We will train each trainee for six months and they will be paid.', translation: '公司招聘霓虹燈製作學員，提供六個月有薪訓練。' },
+      { section: 'Jobs', start: 315, end: 349.8, speaker: 'Julia / Pris', type: 6, text: 'Six months of paid training is a wonderful opportunity. The training programme will start in September this year.', translation: '有薪訓練計劃於今年九月開始。' },
+      { section: '3D projections and neon', start: 349.8, end: 370, speaker: 'Julia / Rick', type: 3, task: 'C', text: 'The technology to produce the kind of 3D projections we see in science-fiction films does not currently exist.', translation: '科幻電影式的真正 3D 投影技術目前仍不存在。' },
+      { section: '3D projections and neon', start: 370, end: 390.8, speaker: 'Rick', type: 3, task: 'C', text: 'However, we can still create a kind of 3D projection using certain tricks. Our brochure highlights two futuristic 3D projection products.', translation: '公司可用技巧製造 3D-like 效果，產品冊有兩個例子。' },
+      { section: '3D projections and neon', start: 390.8, end: 407, speaker: 'Pris', type: 3, task: 'C', text: 'Of course, people will always love neon. Neon gas comes from the inside of stars.', translation: '人們會一直喜愛霓虹；霓虹氣體來自恆星內部。' },
+      { section: '3D projections and neon', start: 407, end: 427, speaker: 'Rick', type: 3, task: 'C', text: 'Customers love the art and craft of neon. That is why they prefer neon signs to newer technologies like LEDs.', translation: '顧客珍惜霓虹的藝術與工藝，所以寧選霓虹而非 LED。' },
+      { section: '3D projections and neon', start: 427, end: 443.5, speaker: 'Pris / Julia', type: 5, text: 'Customers do love the art and craft of neon. Thank you both for a very illuminating discussion.', translation: 'Pris 確認顧客喜愛霓虹工藝，主持結束訪問。' }
     ]
   };
 
