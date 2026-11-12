@@ -1,0 +1,2989 @@
+{
+  "reader": "2026-b1",
+  "status": "machine-reconciled-operator-checked-uncertified",
+  "source_sha256": "785a1052ad4bc70f59489dac48ad7ca14c0e265e98317851857c415977713a64",
+  "printed_to_physical_page": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "generation_rule": "Every non-empty native text fragment inside each .source-paper block, excluding Chinese learning-aid translations, editable user input, storage notices and verification UI, is recorded in DOM/source order.",
+  "visual_unit_evidence": "See audit/page-verification.json verified_units for layout, chart, table, bubble-direction, email-chrome and continuation-arrow relationships.",
+  "counts_by_printed_page": {
+    "1": 26,
+    "2": 29,
+    "3": 10,
+    "4": 41,
+    "5": 27,
+    "6": 44,
+    "7": 21,
+    "8": 25,
+    "9": 32,
+    "10": 69
+  },
+  "total_text_units": 324,
+  "units": [
+    {
+      "id": "2026-b1-p01-u001",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 1,
+      "exact_excerpt": "2026-DSE",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u002",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 2,
+      "exact_excerpt": "ENG LANG",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u003",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 3,
+      "exact_excerpt": "PAPER 3",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u004",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 4,
+      "exact_excerpt": "PART B1",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u005",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 5,
+      "exact_excerpt": "B1",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u006",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 6,
+      "exact_excerpt": "EASY SECTION",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u007",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 7,
+      "exact_excerpt": "HONG KONG EXAMINATIONS AND ASSESSMENT AUTHORITY",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u008",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 8,
+      "exact_excerpt": "HONG KONG DIPLOMA OF SECONDARY EDUCATION EXAMINATION 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u009",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 9,
+      "exact_excerpt": "ENGLISH LANGUAGE PAPER 3",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u010",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 10,
+      "exact_excerpt": "PART B1",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u011",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 11,
+      "exact_excerpt": "DATA FILE",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u012",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 12,
+      "exact_excerpt": "GENERAL INSTRUCTIONS",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u013",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 13,
+      "exact_excerpt": "(1) Refer to the General Instructions on Page 1 of the Question-Answer Book for Part A.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u014",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 14,
+      "exact_excerpt": "INSTRUCTIONS FOR PART B1",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u015",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 15,
+      "exact_excerpt": "(1) The Question-Answer Book for Part B1 is inserted into this Data File.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u016",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 16,
+      "exact_excerpt": "(2) For Part B, attempt EITHER those tasks in Part B1 (Tasks 5–7) OR those in Part B2 (Tasks 8–10).",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u017",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 17,
+      "exact_excerpt": "(3) You are advised to use a pen for Part B.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u018",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 18,
+      "exact_excerpt": "(4) The Data Files will NOT be collected at the end of the examination. Do NOT write your answers in the Data Files.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u019",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 19,
+      "exact_excerpt": "(5) Hand in only ONE Question-Answer Book for Part B, either B1 or B2, and tie it with the Question-Answer Book for Part A.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u020",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Not to be taken away before the",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u021",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 21,
+      "exact_excerpt": "end of the examination session",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u022",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 22,
+      "exact_excerpt": "©香港考試及評核局 保留版權",
+      "unit_kind": "official-bilingual-legal-line",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u023",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Hong Kong Examinations and Assessment Authority",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u024",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 24,
+      "exact_excerpt": "All Rights Reserved 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u025",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 25,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-1",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p01-u026",
+      "printed_page": 1,
+      "physical_page": 1,
+      "source_order_on_page": 26,
+      "exact_excerpt": "1",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u001",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Part B",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u002",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Situation",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u003",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 3,
+      "exact_excerpt": "You are Nico Lin. You are an intern at Victoria Harbour Library. You help Ms Agnes Yip, the Assistant Librarian, in her work. You have been asked to complete some tasks.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u004",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 4,
+      "exact_excerpt": "You will listen to a recording of a staff meeting attended by Thomas Chan, the Chief Librarian, Meera Khan, the Community Engagement Officer and Agnes Yip. Take notes under the appropriate headings.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u005",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Before the recording is played, you will have five minutes to study the Question-Answer Book and the Data File to familiarise yourself with the situation and the tasks.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u006",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Complete the tasks by following the instructions in the Question-Answer Book and on the recording. You will find all the information you need in the Question-Answer Book, the Data File and on the recording. As you listen, you can make notes on page 3 of the Data File.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u007",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 7,
+      "exact_excerpt": "You now have five minutes to familiarise yourself with the Question-Answer Book and the Data File.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u008",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Contents",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u009",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Listening note-taking sheet for staff meeting",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u010",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 10,
+      "exact_excerpt": "3",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u011",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Email from Agnes Yip to Nico Lin",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u012",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 12,
+      "exact_excerpt": "4",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u013",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Emails from possible donors of prizes",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u014",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 14,
+      "exact_excerpt": "5",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u015",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Transcript of intern meeting 16 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u016",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 16,
+      "exact_excerpt": "6",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u017",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Trending Hong Kong",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u018",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 18,
+      "exact_excerpt": "online article",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u019",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 19,
+      "exact_excerpt": "7",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u020",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Email from Eddie Abadiano to Thomas Chan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u021",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 21,
+      "exact_excerpt": "8",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u022",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 22,
+      "exact_excerpt": "WhatsApp conversation between Agnes Yip and Meera Khan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u023",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 23,
+      "exact_excerpt": "9",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u024",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Shared library document: Outside Speakers for Library Events",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u025",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 25,
+      "exact_excerpt": "10",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u026",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Useful information for library staff: Restaurants Nearby",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u027",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 27,
+      "exact_excerpt": "10",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u028",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 28,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-2",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p02-u029",
+      "printed_page": 2,
+      "physical_page": 2,
+      "source_order_on_page": 29,
+      "exact_excerpt": "2",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u001",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Listen to the recording of a staff meeting. The meeting was attended by Thomas Chan, the Chief Librarian, Meera Khan, the Community Engagement Officer and Agnes Yip, the Assistant Librarian.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u002",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Moth problem",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u003",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Story-reading activity with Jessica Yoong",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u004",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 4,
+      "exact_excerpt": "LCSD Community Ties Project",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u005",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Weekly Schedule",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u006",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 6,
+      "exact_excerpt": "AIBookPioneer",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u007",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Discover Your Library Challenge",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u008",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Go on to the next page",
+      "unit_kind": "continuation-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u009",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 9,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-3",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p03-u010",
+      "printed_page": 3,
+      "physical_page": 3,
+      "source_order_on_page": 10,
+      "exact_excerpt": "3",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u001",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Junk",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u002",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Delete",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u003",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Reply",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u004",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Reply All",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u005",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Forward",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u006",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Move",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u007",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Mark Unread",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u008",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Follow up",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u009",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Sent: Saturday 11 April 2026 10:05AM",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u010",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 10,
+      "exact_excerpt": "To: Nico Lin",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u011",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 11,
+      "exact_excerpt": "From: Agnes Yip",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u012",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Subject: Things to do",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u013",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Dear Nico,",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u014",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 14,
+      "exact_excerpt": "This is a busy month for us, and I need you to help me out with a few different things.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u015",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 15,
+      "exact_excerpt": "First, can you update next week’s weekly schedule? We need to put it online. You can look at the email from Eddie and the Outside Speakers for Library Events table.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u016",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Secondly, we need to announce the Discover Your Library Challenge. This is a competition the previous interns developed. Can you write a post about it for our social media pages? Make sure to cover the following:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u017",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 17,
+      "exact_excerpt": "When it is",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u018",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Who can join",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u019",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 19,
+      "exact_excerpt": "How to get started",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u020",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 20,
+      "exact_excerpt": "What participants have to do",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u021",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Who can win which prizes",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u022",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Make it sound exciting and encourage people to join. You can look at the transcript of the intern meeting, the",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u023",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Trending Hong Kong",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u024",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 24,
+      "exact_excerpt": "article and the emails from possible donors of prizes.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u025",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Thirdly, can you email Jessica Yoong to invite her to our story-reading event? In your email:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u026",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Tell her when the event is",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u027",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Explain what we want her to do at the event",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u028",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Explain how popular she is",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u029",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 29,
+      "exact_excerpt": "Tell her about the book influencer",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u030",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 30,
+      "exact_excerpt": "Invite her to lunch (please choose a suitable restaurant)",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u031",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 31,
+      "exact_excerpt": "You can look at my WhatsApp conversation with Meera, the",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u032",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 32,
+      "exact_excerpt": "Trending Hong Kong",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u033",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 33,
+      "exact_excerpt": "article and the Useful information about restaurants for library staff.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u034",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 34,
+      "exact_excerpt": "Listen to the recording of the staff meeting for all of these tasks.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u035",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 35,
+      "exact_excerpt": "Thanks for all your help. You’re doing a great job as our new intern.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u036",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 36,
+      "exact_excerpt": "Regards,",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u037",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 37,
+      "exact_excerpt": "Agnes Yip",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u038",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 38,
+      "exact_excerpt": "Assistant Librarian",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u039",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 39,
+      "exact_excerpt": "Victoria Harbour Library",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u040",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 40,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-4",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p04-u041",
+      "printed_page": 4,
+      "physical_page": 4,
+      "source_order_on_page": 41,
+      "exact_excerpt": "4",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u001",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Sent: 3 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u002",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 2,
+      "exact_excerpt": "To: Janet Ho",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u003",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 3,
+      "exact_excerpt": "From: Super Cinema",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u004",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Subject: Re: Challenge Request",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u005",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Dear Janet",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u006",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Thank you for contacting us. Due to renovation work, we will be closed for three months, so we cannot offer a prize.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u007",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Hope the Challenge goes well.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u008",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Samir Gurung (Manager)",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u009",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Sent: 4 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u010",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 10,
+      "exact_excerpt": "To: Janet Ho",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u011",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 11,
+      "exact_excerpt": "From: Anna’s Pizza & Pasta",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u012",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Subject: Re: Challenge Request",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u013",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Dear Janet",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u014",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Thank you for your enquiry. We would be happy to support your Discover Your Library Challenge. Please find attached a voucher for the winner. As you will see, it’s for dinner for two. Dessert included!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u015",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Best regards",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u016",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Anna Bertoni",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u017",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Sent: 8 March 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u018",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 18,
+      "exact_excerpt": "To: Janet Ho",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u019",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 19,
+      "exact_excerpt": "From: Veggie Temple Restaurant",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u020",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Subject: Re: Challenge Request",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u021",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Dear Janet",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u022",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 22,
+      "exact_excerpt": "We are unfortunately unable to support the Discover Your Library Challenge this year.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u023",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Thank you.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u024",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Mei Chen",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u025",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Go on to the next page",
+      "unit_kind": "continuation-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u026",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 26,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-5",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p05-u027",
+      "printed_page": 5,
+      "physical_page": 5,
+      "source_order_on_page": 27,
+      "exact_excerpt": "5",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u001",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u002",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Okay, let’s start, I want to go for lunch.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u003",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u004",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Yeah, me too. But let’s discuss the Discover Your Library Challenge first.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u005",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u006",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Right. So, remember we said people will need to use an App to take part?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u007",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u008",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Of course. Did you try out the App?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u009",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u010",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Yeah, yesterday. It went okay. I downloaded the App – it’s called Library Search.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u011",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u012",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Okay, good so it works at least.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u013",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u014",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Yes. So, the first thing I did was I entered my full name.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u015",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u016",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Okay and then what?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u017",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u018",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Well, then basically I got the questions, and I went to different parts of the library and, you know, looked around for the answers.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u019",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 19,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u020",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 20,
+      "exact_excerpt": "You did all 12 questions?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u021",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u022",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Yep. No problem.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u023",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u024",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Okay, great.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u025",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u026",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 26,
+      "exact_excerpt": "So, what about prizes?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u027",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u028",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Well, we only got one positive reply from the donors! So that will be the first prize.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u029",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 29,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u030",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 30,
+      "exact_excerpt": "How will people win?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u031",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 31,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u032",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 32,
+      "exact_excerpt": "The person with the fastest time will win the first prize.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u033",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 33,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u034",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 34,
+      "exact_excerpt": "Right.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u035",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 35,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u036",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 36,
+      "exact_excerpt": "Oh, and you have to answer all the questions correctly to win, of course.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u037",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 37,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u038",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 38,
+      "exact_excerpt": "Okay, got it. And the five runners-up? What can we give them?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u039",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 39,
+      "exact_excerpt": "Janet Ho:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u040",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 40,
+      "exact_excerpt": "We can give them those Victoria Harbour Library pens.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u041",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 41,
+      "exact_excerpt": "Chong Kit:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u042",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 42,
+      "exact_excerpt": "Okay, not very exciting but it’s fine. Can we please go for lunch now?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u043",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 43,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-6",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p06-u044",
+      "printed_page": 6,
+      "physical_page": 6,
+      "source_order_on_page": 44,
+      "exact_excerpt": "6",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u001",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Trending Hong Kong",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u002",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 2,
+      "exact_excerpt": "online article",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u003",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Celebrating Hong Kong Reading Month",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u004",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 4,
+      "exact_excerpt": "by Alice Kwong",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u005",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Monday, 6 April 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u006",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Which famous author has just moved to Hong Kong?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u007",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Many of our readers will be pleased to hear that Jessica Yoong, the children’s author, has recently moved to Hong Kong from Kuala Lumpur in Malaysia.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u008",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Favourite Author among Hong Kong Primary School Children",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u009",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Jessica Yoong — 73%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u010",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Ren Takeda — 12%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u011",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Andrew Lau — 15%",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u012",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 12,
+      "exact_excerpt": "In an interview at her new home in Kennedy Town, Ms Yoong explained that she is keen to do publicity events together with influencers: ‘I really think that appearing with famous influencers can attract a wider audience.’",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u013",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Ms Yoong, who is a vegetarian, is also looking forward to exploring the local food scene. She is keen to try some of our Chinese vegetarian restaurants.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u014",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Perhaps she’ll be invited to Victoria Harbour Library. She’s so popular that the waiting time there for borrowing her latest book is 5 weeks!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u015",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 15,
+      "exact_excerpt": "And speaking of Victoria Harbour Library…",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u016",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Agnes Yip, the Assistant Librarian, has confirmed that the",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u017",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Discover Your Library Challenge",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u018",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 18,
+      "exact_excerpt": "will start later this month. They’ll be announcing details on that soon on their social media pages, but the great news is it’s not just for members – anyone can join! I’ve heard there are some great prizes.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u019",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 19,
+      "exact_excerpt": "Go on to the next page",
+      "unit_kind": "continuation-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u020",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 20,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-7",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p07-u021",
+      "printed_page": 7,
+      "physical_page": 7,
+      "source_order_on_page": 21,
+      "exact_excerpt": "7",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u001",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Junk",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u002",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Delete",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u003",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Reply",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u004",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Reply All",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u005",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Forward",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u006",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Move",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u007",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Mark Unread",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u008",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Follow up",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u009",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Sent: Wednesday 8 April 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u010",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 10,
+      "exact_excerpt": "To: Thomas Chan",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u011",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 11,
+      "exact_excerpt": "From: Building Facilities Office",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u012",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Subject: Upcoming building maintenance issues",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u013",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 13,
+      "exact_excerpt": "Dear Thomas",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u014",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 14,
+      "exact_excerpt": "I have a few updates and reminders for next week. You may want to tell the public about some of these.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u015",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 15,
+      "exact_excerpt": "As you know, we always test the fire alarm on Thursdays. Note that next week we’re doing it at 10 o’clock in the morning rather than the usual time of 11 o’clock. Of course, no-one is required to leave the library when the alarm goes off.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u016",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 16,
+      "exact_excerpt": "We will be fixing the wheelchair entrance on Saturday, 18 April. Wheelchair users can use the staff lift at the back of the building. I will also put up a sign at the entrance.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u017",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 17,
+      "exact_excerpt": "The Study Room on the second floor is now closed so that we can replace the floor tiles. This will mean that the Secondary School Support group meeting on Wednesday, 15 April will have a change of venue to the Study Room on the fifth floor.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u018",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 18,
+      "exact_excerpt": "We have finally hired a firm to clean all of the windows in the library. I know they have been dirty for a long time! This will be happening on Monday, 13 April between half past 9 and half past 3.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u019",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 19,
+      "exact_excerpt": "And don’t forget that on Wednesday, 29 April a team will be working on the wall next to the stairs. We will need to close the stairs on that day.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u020",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Let me know if you have any questions.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u021",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Eddie Abadiano",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u022",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Building Facilities Officer",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u023",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Victoria Harbour Library",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u024",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 24,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-8",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p08-u025",
+      "printed_page": 8,
+      "physical_page": 8,
+      "source_order_on_page": 25,
+      "exact_excerpt": "8",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u001",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Friday, 10 April 2026",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u002",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u003",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 3,
+      "exact_excerpt": "So excited about asking Jessica Yoong to the library!!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u004",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u005",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 5,
+      "exact_excerpt": "When is it? What are you planning to do exactly?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u006",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u007",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 7,
+      "exact_excerpt": "We want Jessica Yoong to read one of her stories to the primary school kids. They love those stories! Oh, and it’s on 23rd May. 11 am.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u008",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u009",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Right. That’s a Saturday. Mention that it’s a Saturday to Jessica.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u010",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u011",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 11,
+      "exact_excerpt": "I was thinking we could get the kids to dress up as one of the characters from the stories at the event.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u012",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 12,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u013",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 13,
+      "exact_excerpt": "A dress-up competition – I like it. Maybe Jessica can choose the winner?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u014",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u015",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Okay, we can ask her when we email her.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u016",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u017",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 17,
+      "exact_excerpt": "Do we need to give a prize for the best costume?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u018",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u019",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 19,
+      "exact_excerpt": "Yes! Maybe Jessica Yoong can present the winner the prize? The children would get so excited about that!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u020",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 20,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u021",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Absolutely! We can ask her to do that too.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u022",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 22,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u023",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Great. Can’t wait to meet her! Hope she says yes!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u024",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u025",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 25,
+      "exact_excerpt": "She’ll say yes if we tell her about the influencer we are going to invite! Have you chosen someone?",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u026",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 26,
+      "exact_excerpt": "Agnes Yip:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u027",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Yes, we’re going to ask BillReads. He’s famous!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u028",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Meera Khan:",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u029",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 29,
+      "exact_excerpt": "Yeah, even I’ve heard of him!!!",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u030",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 30,
+      "exact_excerpt": "Go on to the next page",
+      "unit_kind": "continuation-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u031",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 31,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-9",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p09-u032",
+      "printed_page": 9,
+      "physical_page": 9,
+      "source_order_on_page": 32,
+      "exact_excerpt": "9",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u001",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 1,
+      "exact_excerpt": "Shared library document: Outside Speakers for Library Events",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u002",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 2,
+      "exact_excerpt": "Hi everyone",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u003",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 3,
+      "exact_excerpt": "Please add any outside speakers you have invited to our events to the table below. This will help us complete the weekly schedule.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u004",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 4,
+      "exact_excerpt": "Agnes",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u005",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 5,
+      "exact_excerpt": "Name",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u006",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 6,
+      "exact_excerpt": "Name of event",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u007",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 7,
+      "exact_excerpt": "Date & time",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u008",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 8,
+      "exact_excerpt": "Additional comments",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u009",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 9,
+      "exact_excerpt": "Mr Ma",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u010",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 10,
+      "exact_excerpt": "Managing Money",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u011",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 11,
+      "exact_excerpt": "Saturday, 18 April",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u012",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 12,
+      "exact_excerpt": "2:00–3:00 pm",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u013",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 13,
+      "exact_excerpt": "First Floor Study Zone",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u014",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 14,
+      "exact_excerpt": "Ms Wong",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u015",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 15,
+      "exact_excerpt": "Internet Skills",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u016",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 16,
+      "exact_excerpt": "Tuesday, 14 April",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u017",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 17,
+      "exact_excerpt": "10:30–11:30 am",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u018",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 18,
+      "exact_excerpt": "Computer Area",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u019",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 19,
+      "exact_excerpt": "BillReads",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u020",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 20,
+      "exact_excerpt": "How to Become a Book Influencer",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u021",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 21,
+      "exact_excerpt": "Thursday, 23 April",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u022",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 22,
+      "exact_excerpt": "6:00–7:00 pm",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u023",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 23,
+      "exact_excerpt": "Ms Tang",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u024",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 24,
+      "exact_excerpt": "Poetry Book Group",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u025",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 25,
+      "exact_excerpt": "Thursday, 16 April",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u026",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 26,
+      "exact_excerpt": "6:00–7:00 pm",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u027",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 27,
+      "exact_excerpt": "Function Room",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u028",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 28,
+      "exact_excerpt": "Requires microphone & projector",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u029",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 29,
+      "exact_excerpt": "Dora Cruz",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u030",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 30,
+      "exact_excerpt": "How to Train Puppies",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u031",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 31,
+      "exact_excerpt": "Saturday, 25 April",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u032",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 32,
+      "exact_excerpt": "10:00–11:00 am",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u033",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 33,
+      "exact_excerpt": "Held outside if weather is nice",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u034",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 34,
+      "exact_excerpt": "Useful information for library staff: Restaurants Nearby",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u035",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 35,
+      "exact_excerpt": "Name",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u036",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 36,
+      "exact_excerpt": "Type of Food",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u037",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 37,
+      "exact_excerpt": "Price Range",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u038",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 38,
+      "exact_excerpt": "Spicy Masala",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u039",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 39,
+      "exact_excerpt": "Indian (vegetarian & non-vegetarian)",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u040",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 40,
+      "exact_excerpt": "$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u041",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 41,
+      "exact_excerpt": "Green Paradise",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u042",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 42,
+      "exact_excerpt": "Chinese vegetarian",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u043",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 43,
+      "exact_excerpt": "$$$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u044",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 44,
+      "exact_excerpt": "Penang Café",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u045",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 45,
+      "exact_excerpt": "Malaysian",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u046",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 46,
+      "exact_excerpt": "$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u047",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 47,
+      "exact_excerpt": "Sushi King",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u048",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 48,
+      "exact_excerpt": "Japanese",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u049",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 49,
+      "exact_excerpt": "$$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u050",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 50,
+      "exact_excerpt": "Veggie Temple",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u051",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 51,
+      "exact_excerpt": "Chinese vegetarian",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u052",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 52,
+      "exact_excerpt": "$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u053",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 53,
+      "exact_excerpt": "Anna’s Pizza & Pasta",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u054",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 54,
+      "exact_excerpt": "Italian",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u055",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 55,
+      "exact_excerpt": "$$$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u056",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 56,
+      "exact_excerpt": "Key",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u057",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 57,
+      "exact_excerpt": "Price Range",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u058",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 58,
+      "exact_excerpt": "$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u059",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 59,
+      "exact_excerpt": "< $50",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u060",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 60,
+      "exact_excerpt": "$$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u061",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 61,
+      "exact_excerpt": "$50–200",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u062",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 62,
+      "exact_excerpt": "$$$",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u063",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 63,
+      "exact_excerpt": "> $200",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u064",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 64,
+      "exact_excerpt": "THIS IS THE LAST PAGE OF THE PART B1 DATA FILE",
+      "unit_kind": "last-page-instruction",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u065",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 65,
+      "exact_excerpt": "Sources of materials used in this paper will be acknowledged in the",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u066",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 66,
+      "exact_excerpt": "HKDSE Question Papers",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u067",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 67,
+      "exact_excerpt": "booklet published by the Hong Kong Examinations and Assessment Authority at a later stage.",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u068",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 68,
+      "exact_excerpt": "2026-DSE-ENG LANG 3-B1-DF-10",
+      "unit_kind": "printed-paper-code",
+      "disposition": "learner-facing-native-text"
+    },
+    {
+      "id": "2026-b1-p10-u069",
+      "printed_page": 10,
+      "physical_page": 10,
+      "source_order_on_page": 69,
+      "exact_excerpt": "10",
+      "unit_kind": "printed-text-label-or-value",
+      "disposition": "learner-facing-native-text"
+    }
+  ],
+  "exclusions": [
+    {
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "content": "candidate handwriting, underlining and personal emphasis",
+      "disposition": "excluded-private-non-source-markings",
+      "reason": "The markings are not part of the printed candidate-visible Data File and must not be represented as official content."
+    },
+    {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "content": "scan punch holes, crop shadows, registration marks and paper distortion",
+      "disposition": "excluded-non-meaningful-scan-artifacts",
+      "reason": "These physical capture artifacts do not encode learner-facing source meaning."
+    }
+  ],
+  "independent_reviews": {
+    "native_traditional_chinese": "NOT RUN",
+    "student_without_marking_scheme": "NOT RUN",
+    "project_owner": "NOT RUN"
+  }
+}
