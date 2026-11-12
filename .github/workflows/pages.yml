@@ -935,7 +935,7 @@ jobs:
           bash tools/install-pages-browsers.sh
           mkdir -p /tmp/paper3-evidence
           PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence PLAYWRIGHT_MODULE="${RUNNER_TEMP}/pages-browser/node_modules/playwright" node tools/test-2022-b2-super-curation-v3.cjs
-          PLAYWRIGHT_MODULE="${RUNNER_TEMP}/pages-browser/node_modules/playwright" node tools/test-2022-b2-vs-2025-parity.cjs
+          PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence PLAYWRIGHT_MODULE="${RUNNER_TEMP}/pages-browser/node_modules/playwright" node tools/test-2022-b2-vs-2025-parity.cjs
           PLAYWRIGHT_MODULE="${RUNNER_TEMP}/pages-browser/node_modules/playwright" node tools/test-2022-b2-real-audio-boundaries.cjs
           "${RUNNER_TEMP}/pages-browser/node_modules/.bin/http-server" . -p 4173 -a 127.0.0.1 -c-1 >/tmp/paper3-http.log 2>&1 &
           server_pid=$!
