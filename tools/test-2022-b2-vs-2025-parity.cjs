@@ -1,6 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const root=path.resolve(__dirname,'..'),bundle='<link rel="stylesheet" href="/paper3/2022-b2/super-curation.css"><script defer src="/paper3/2022-b2/curation-data.js"></script><script defer src="/paper3/2022-b2/super-curation-v3.js"></script><script defer src="/shared-system-nav.js"></script>';
+const evidenceDir=process.env.PAPER3_EVIDENCE_DIR||process.env.RUNNER_TEMP||'/private/tmp';fs.mkdirSync(evidenceDir,{recursive:true});
 const mime={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.m4a':'audio/mp4','.webp':'image/webp'};
 const server=http.createServer((req,res)=>{const pathname=new URL(req.url,'http://local').pathname,file=path.resolve(root,'.'+(pathname.endsWith('/')?pathname+'index.html':pathname));if(!file.startsWith(root+path.sep))return res.writeHead(403).end();fs.readFile(file,(error,data)=>{if(error)return res.writeHead(404).end();let body=data;if(pathname==='/paper3/2022-b2/')body=Buffer.from(data.toString().replace('</head>',bundle+'</head>'));res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Content-Length':body.length});res.end(body);});});
 async function inventory(page,url){
@@ -11,10 +12,10 @@ async function inventory(page,url){
 (async()=>{await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const browser=await chromium.launch({headless:true});try{
   const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce',serviceWorkers:'block'}),reference=await context.newPage(),target=await context.newPage();for(const page of[reference,target])await page.route('https://**/*',route=>route.abort());
   const origin='http://127.0.0.1:'+server.address().port,approved=await inventory(reference,origin+'/paper3/2025-b2/index.html?curation=1'),ported=await inventory(target,origin+'/paper3/2022-b2/?curation=1');
-  await reference.screenshot({path:'/private/tmp/2025-b2-parity-podcast.png',fullPage:false});await target.screenshot({path:'/private/tmp/2022-b2-v3-parity-podcast.png',fullPage:false});
+  await reference.screenshot({path:path.join(evidenceDir,'2025-b2-parity-podcast.png'),fullPage:false});await target.screenshot({path:path.join(evidenceDir,'2022-b2-v3-parity-podcast.png'),fullPage:false});
   for(const key of['stages','player','transcript','preview','route','handles','slots','banks','masks','translate','nextDisabled','picker'])assert.equal(ported[key],approved[key],key+' parity: '+JSON.stringify({approved,ported}));
   assert.ok(ported.mirrors>=approved.mirrors,'2022 retains at least the reference note-mirror coverage');
   assert.ok(await target.locator('.sentence-item').count()>0,'2022 has keyboard source targets');assert.equal(await target.locator('.sentence-item[tabindex="0"]').count(),await target.locator('.sentence-item').count(),'all 2022 units keyboard enabled');
-  await target.setViewportSize({width:390,height:844});await target.screenshot({path:'/private/tmp/2022-b2-v3-mobile.png',fullPage:false});
+  await target.setViewportSize({width:390,height:844});await target.screenshot({path:path.join(evidenceDir,'2022-b2-v3-mobile.png'),fullPage:false});
   console.log('PASS 2022 vs 2025 architecture parity '+JSON.stringify({approved,ported}));
 }finally{await browser.close();server.close();}})().catch(error=>{console.error(error);server.close();process.exitCode=1;});
