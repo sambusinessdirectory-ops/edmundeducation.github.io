@@ -1,6 +1,24 @@
 import { mountPaper3Writing } from './paper3-writing-bridge.mjs?v=20260906-classroom2';
 import { mountPaper3Search } from './paper3-search.mjs?v=20260906';
 const FULL_READERS = Object.freeze({"2025-b1":["/dse-paper3-2025-b1-data-file.html","2025 B1 原生資料檔分析"],"2025-b2":["/paper3/2025-b2/","2025 B2 資料檔、錄音稿及練習；原答題簿待補"],"2023-b2":["/paper3/2023-b2/","資料檔與原答題簿已逐頁重建"],"2023-b1":["/paper3/2023-b1/","資料檔與原答題簿已逐頁重建"],"2022-b1":["/paper3/2022-b1/","資料檔與原答題簿已逐頁重建"],"2021-b2":["/paper3/2021-b2/","資料檔與原答題簿已逐頁重建"],"2021-b1":["/paper3/2021-b1/","資料檔與原答題簿已逐頁重建"],"2020-b1":["/paper3/2020-b1/","資料檔與原答題簿已逐頁重建"],"2019-b2":["/paper3/2019-b2/","資料檔與原答題簿已逐頁重建"],"2019-b1":["/paper3/2019-b1/","資料檔與原答題簿已逐頁重建"],"2018-b1":["/paper3/2018-b1/","資料檔與原答題簿已逐頁重建"],"2016-b1":["/paper3/2016-b1/","資料檔與原答題簿已逐頁重建"],"2015-b1":["/paper3/2015-b1/","資料檔與原答題簿已逐頁重建"],"2014-b2":["/paper3/2014-b2/","資料檔與原答題簿已逐頁重建"],"2014-b1":["/paper3/2014-b1/","資料檔與原答題簿已逐頁重建"],"2012-b1":["/paper3/2012-b1/","資料檔與原答題簿已逐頁重建"],"2012-b2":["/paper3/2012-b2/","資料檔與原答題簿已逐頁重建"],"2013-b2":["/paper3/2013-b2/","資料檔與原答題簿已逐頁重建"],"2015-b2":["/paper3/2015-b2/","資料檔與原答題簿已逐頁重建"],"2016-b2":["/paper3/2016-b2/","資料檔與原答題簿已逐頁重建"],"2017-b2":["/paper3/2017-b2/","資料檔與原答題簿已逐頁重建"],"2022-b2":["/paper3/2022-b2/","資料檔與原答題簿已逐頁重建"],"2020-b2":["/paper3/2020-b2/","資料檔與原答題簿已逐頁重建"],"2018-b2":["/paper3/2018-b2/","資料檔與原答題簿已逐頁重建"],"2017-b1":["/paper3/2017-b1/","資料檔與原答題簿已逐頁重建"],"2013-b1":["/paper3/2013-b1/","資料檔與原答題簿已逐頁重建"]});function fullReaderFor(year = state.year, level = state.level) {  return FULL_READERS[String(year) + "-" + String(level).toLowerCase()] || null;}function fullReaderLink(year = state.year, level = state.level) {  const reader = fullReaderFor(year, level);  if (!reader) return "";  return '<a class="selection-card is-available" href="' + escapeHtml(reader[0]) + '" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">' + escapeHtml(year + " " + level.toUpperCase()) + ' · SOURCE READER</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>' + escapeHtml(reader[1]) + ' · 原文可選取 · 圖表及插圖 · 中英對照 · 可儲存答案</small><span class="card-status">開啟原文閱讀及練習</span><span class="card-arrow" aria-hidden="true">→</span></a>';}const DATA = window.EDMUND_DSE_PAPER3_DATA;
+const READER_2026 = Object.freeze({
+  "2026-b1": ["/paper3/2026-b1/", "10 頁資料檔逐頁原生重建；附件未包含答題簿或錄音"],
+  "2026-b2": ["/paper3/2026-b2/", "11 頁資料檔按印刷頁碼逐頁原生重建；附件未包含答題簿或錄音"]
+});
+
+function readerFor(year = state.year, level = state.level) {
+  return READER_2026[`${year}-${String(level).toLowerCase()}`] || fullReaderFor(year, level);
+}
+
+function readerLinkFor(year = state.year, level = state.level) {
+  const reader = readerFor(year, level);
+  if (!reader) return "";
+  const sourceNote = Number(year) === 2026
+    ? "資料檔原文可選取 · 逐頁中文對照 · 可儲存筆記 · 答題簿及錄音未隨附件提供"
+    : "原文可選取 · 圖表及插圖 · 中英對照 · 可儲存答案";
+  return `<a class="selection-card is-available" href="${escapeHtml(reader[0])}" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">${escapeHtml(`${year} ${String(level).toUpperCase()}`)} · SOURCE READER</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>${escapeHtml(reader[1])} · ${sourceNote}</small><span class="card-status">開啟原文閱讀及練習</span><span class="card-arrow" aria-hidden="true">→</span></a>`;
+}
+
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-dse-paper3-analysis-session-v1";
 const SORT_KEY = "edmund-dse-paper3-year-sort-v1";
@@ -361,7 +379,7 @@ function renderLevels() {
     </header>
     ${DSE_CONTENT.has(state.year) ? renderPartBPanel() : ""}
     <div class="selection-grid level-grid">${DATA.levels.map((level) => {
-      const available = Boolean(fullReaderFor(state.year, level.id)) || Boolean(resourceFor(state.year, level.id));
+      const available = Boolean(readerFor(state.year, level.id)) || Boolean(resourceFor(state.year, level.id));
       return selectionCard({
         kicker: `${state.year} · PAPER 3`,
         title: level.label,
@@ -372,7 +390,7 @@ function renderLevels() {
       });
     }).join("")}</div>
   </section>`;
-  elements.screen.querySelector('.screen-section').insertAdjacentHTML('beforeend', DATA.levels.map((level) => fullReaderLink(state.year, level.id)).join(''));
+  elements.screen.querySelector('.screen-section').insertAdjacentHTML('beforeend', DATA.levels.map((level) => readerLinkFor(state.year, level.id)).join(''));
   if (DSE_CONTENT.has(state.year)) bindPartBPlayer();
 }
 
@@ -382,15 +400,15 @@ function b1FullLink() {
 
 function b2FullLink() { return '<a class="selection-card is-available" href="/paper3/2025-b2/" style="display:block;text-decoration:none;margin:18px 0;border:2px solid #16727c;background:#e8f3ec"><span class="card-kicker">2025 B2 · COMPLETE DATA FILE + RECORDING TRANSCRIPT</span><strong style="font-size:clamp(24px,3vw,38px)">Data File 分析 + PP</strong><small>17 頁完整內容 · 原海報插圖及圖表 · 電郵及聊天版面 · 中英對照 · 問答冊待補</small><span class="card-status">開啟完整資料檔、錄音稿及練習區</span><span class="card-arrow" aria-hidden="true">→</span></a>'; } function renderMaterials() {
   const resource = resourceFor();
-  const hasFullReader = Boolean(fullReaderFor());
+  const hasFullReader = Boolean(readerFor());
   elements.screen.innerHTML = `<section class="screen-section" aria-labelledby="materials-title">
     <header class="screen-heading">
       <div><p class="eyebrow">STEP 03 · RESOURCE</p><h2 id="materials-title">${escapeHtml(state.year)} ${escapeHtml(state.level.toUpperCase())}</h2><p>先開啟 Data File 分析 + PP 閱讀原文、圖表及對話，再按本卷提供的教材練習選材與寫作。</p></div>
       <div class="screen-counter"><strong>${hasFullReader ? 3 : 2}</strong><span>類教材</span></div>
     </header>
-    ${hasFullReader ? fullReaderLink() : ""}
+    ${hasFullReader ? readerLinkFor() : ""}
     <div class="selection-grid material-grid">${DATA.materialTypes.map((material) => {
-      const reader = material.id === "data-file-analysis" ? fullReaderFor() : null;
+      const reader = material.id === "data-file-analysis" ? readerFor() : null;
       const available = hasMaterial(resource, material.id) || Boolean(reader);
       const count = material.id === "model-essay" ? resource?.modelEssays?.length : resource?.analysisSections?.length;
       return selectionCard({

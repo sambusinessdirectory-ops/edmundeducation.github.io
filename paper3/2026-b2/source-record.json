@@ -1,0 +1,25 @@
+{
+  "reader": "2026-b2",
+  "component": "Data File only",
+  "source_file": "2026 DSE Paper 3 B2.pdf",
+  "sha256": "5675a5dfe5ac025603c3a888a4d1d69780224c48ab1729e5ef24e2b3040cd4fe",
+  "physical_page_count": 11,
+  "printed_page_count": 11,
+  "printed_to_physical_page": [1, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2],
+  "question_answer_book_supplied": false,
+  "recording_supplied": false,
+  "source_exception": "Physical PDF leaves 2-11 are arranged in reverse printed order. The reader follows printed page order 1-11.",
+  "pages": [
+    {"printed": 1, "physical": 1, "type": "cover", "title": "Part B2 Data File cover"},
+    {"printed": 2, "physical": 11, "type": "situation-and-contents", "title": "Situation and contents"},
+    {"printed": 3, "physical": 10, "type": "note-taking-sheet", "title": "Listening note-taking sheet for staff meeting"},
+    {"printed": 4, "physical": 9, "type": "email-and-notice", "title": "Email from Agnes Yip and LCSD notice"},
+    {"printed": 5, "physical": 8, "type": "interview", "title": "Adelaide Library News interview with Tom Yengi"},
+    {"printed": 6, "physical": 7, "type": "forum-and-email", "title": "Discussion forum and Bangkok People Library email"},
+    {"printed": 7, "physical": 6, "type": "email-thread", "title": "Teckniti Consultants and Thomas Chan"},
+    {"printed": 8, "physical": 5, "type": "survey-charts", "title": "Tokyo People Library event survey report"},
+    {"printed": 9, "physical": 4, "type": "social-comments", "title": "Victoria Harbour Library social media comments thread"},
+    {"printed": 10, "physical": 3, "type": "telephone-transcript", "title": "Powerful Pest Controllers and Agnes Yip"},
+    {"printed": 11, "physical": 2, "type": "chat", "title": "WhatsApp conversation between Meera Khan and Agnes Yip"}
+  ]
+}
