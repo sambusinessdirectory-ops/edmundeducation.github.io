@@ -2,14 +2,14 @@
   "reader": "2026-b1",
   "status": "operator-checked-uncertified",
   "verification_date": "2026-11-13",
-  "method": "Manual comparison with original-resolution 2x PDFKit renders; PDF has no usable text layer.",
+  "method": "Manual comparison with original-resolution 2x PDFKit renders, followed by Apple Vision OCR-assisted discrepancy review; OCR was used only as an aid and every correction was visually confirmed. PDF has no usable text layer.",
   "source_sha256": "785a1052ad4bc70f59489dac48ad7ca14c0e265e98317851857c415977713a64",
   "pages": [
     {
       "printed": 1,
       "physical": 1,
       "source_type": "cover",
-      "verified_units": ["2026-DSE identifiers", "B1 Easy Section badge", "Paper 3 Part B1 Data File title", "general instruction", "five Part B1 instructions", "copyright and not-to-be-taken-away notices", "printed page number"],
+      "verified_units": ["2026-DSE identifiers", "B1 Easy Section badge", "Paper 3 Part B1 Data File title", "general instruction", "five Part B1 instructions", "HKEAA bilingual copyright line", "not-to-be-taken-away notice", "printed page number"],
       "candidate_marks_seen": false,
       "result": "matched"
     },
@@ -43,7 +43,7 @@
       "printed": 5,
       "physical": 5,
       "source_type": "three-emails",
-      "verified_units": ["all three donor identities and email headers", "all donation descriptions and conditions", "sign-offs and organisation labels"],
+      "verified_units": ["all three donor identities and email headers", "all donation descriptions and conditions", "sign-offs and organisation labels", "Go on to the next page arrow"],
       "candidate_marks_seen": true,
       "excluded_units": ["handwritten annotations and underlining"],
       "result": "matched-after-exclusion"
@@ -61,7 +61,7 @@
       "printed": 7,
       "physical": 7,
       "source_type": "online-article-and-pie-chart",
-      "verified_units": ["Trending Hong Kong masthead", "article title/byline/body", "pie labels Jessica Yoong 73%, Ren Takeda 12%, Andrew Lau 15%", "chart total 100%", "article visual hierarchy"],
+      "verified_units": ["Trending Hong Kong online article source heading", "Trending Hong Kong masthead", "article title/byline/body", "pie labels Jessica Yoong 73%, Ren Takeda 12%, Andrew Lau 15%", "chart total 100%", "article visual hierarchy", "Go on to the next page arrow"],
       "candidate_marks_seen": true,
       "excluded_units": ["handwritten annotations and underlining"],
       "result": "matched-after-exclusion"
@@ -79,7 +79,7 @@
       "printed": 9,
       "physical": 9,
       "source_type": "whatsapp-chat",
-      "verified_units": ["Friday 10 April 2026 date", "Agnes Yip and Meera Khan speaker identities", "every bubble in printed order", "left/right speaker relationship"],
+      "verified_units": ["Friday 10 April 2026 date", "Agnes Yip and Meera Khan speaker identities", "every bubble in printed order", "left/right speaker relationship", "Go on to the next page arrow"],
       "candidate_marks_seen": true,
       "excluded_units": ["handwritten annotations and underlining"],
       "result": "matched-after-exclusion"

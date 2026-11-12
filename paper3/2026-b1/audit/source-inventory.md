@@ -21,6 +21,10 @@ Inventory date: 2026-11-13 (Asia/Hong_Kong)
 
 The native reader is the primary reconstruction. The supplied B1 scan is retained only as private verification evidence because it contains handwritten candidate annotations. Publishing it would expose non-source markings and could cause learners to mistake those markings for official content. Every excluded mark is therefore documented as a source exception; no handwritten wording or emphasis is transcribed.
 
+## Complete source-unit reconciliation
+
+`audit/source-unit-ledger.json` inventories 324 non-empty native printed-text fragments in source order across all 10 printed pages. It records the exact excerpt, printed/physical page relationship, unit kind and learner-facing disposition for every fragment. `audit/page-verification.json` separately records the meaningful visual relationships and the page-specific exclusions. The ledger is generated reproducibly by `tools/generate-dse-paper3-2026-unit-ledgers.mjs`; `--check` fails if it is stale.
+
 ## Independent review record
 
 - Native Traditional Chinese reader review: `NOT RUN`

@@ -10,6 +10,8 @@ const b1Record = JSON.parse(read("paper3/2026-b1/source-record.json"));
 const b2Record = JSON.parse(read("paper3/2026-b2/source-record.json"));
 const b1Proof = JSON.parse(read("paper3/2026-b1/audit/page-verification.json"));
 const b2Proof = JSON.parse(read("paper3/2026-b2/audit/page-verification.json"));
+const b1Ledger = JSON.parse(read("paper3/2026-b1/audit/source-unit-ledger.json"));
+const b2Ledger = JSON.parse(read("paper3/2026-b2/audit/source-unit-ledger.json"));
 const b1Inventory = read("paper3/2026-b1/audit/source-inventory.md");
 const b2Inventory = read("paper3/2026-b2/audit/source-inventory.md");
 const b1Defects = read("paper3/2026-b1/audit/defect-register.md");
@@ -26,6 +28,10 @@ assert.equal(pageCount(b1), 10, "B1 must contain 10 printed Data File pages");
 assert.equal(pageCount(b2), 11, "B2 must contain 11 printed Data File pages");
 assert.equal(proofCount(b1), 10, "B1 must expose one proof record per page");
 assert.equal(proofCount(b2), 11, "B2 must expose one proof record per page");
+assert.equal((b1.match(/class="turn-page"/g) || []).length, 4, "B1 must reproduce four continuation arrows");
+assert.equal((b2.match(/class="turn-page"/g) || []).length, 4, "B2 must reproduce four continuation arrows");
+assert.equal((b1.match(/class="copyright-notice"/g) || []).length, 1, "B1 must reproduce the cover copyright line");
+assert.equal((b2.match(/class="copyright-notice"/g) || []).length, 1, "B2 must reproduce the cover copyright line");
 assert.equal(b1Record.sha256, "785a1052ad4bc70f59489dac48ad7ca14c0e265e98317851857c415977713a64");
 assert.equal(b2Record.sha256, "5675a5dfe5ac025603c3a888a4d1d69780224c48ab1729e5ef24e2b3040cd4fe");
 assert.deepEqual(b1Record.printed_to_physical_page, [1,2,3,4,5,6,7,8,9,10]);
@@ -38,12 +44,29 @@ assert.equal(b1Record.pdf_text_layer, false);
 assert.equal(b2Record.pdf_text_layer, false);
 assert.equal(b1Record.certification_status, "UNCERTIFIED");
 assert.equal(b2Record.certification_status, "UNCERTIFIED");
+assert.equal(b1Record.source_unit_ledger, "audit/source-unit-ledger.json");
+assert.equal(b2Record.source_unit_ledger, "audit/source-unit-ledger.json");
+assert.equal(b1Record.source_unit_count, 324);
+assert.equal(b2Record.source_unit_count, 353);
 assert.equal(b1Proof.pages.length, 10);
 assert.equal(b2Proof.pages.length, 11);
 assert.deepEqual(b1Proof.pages.map((page) => page.physical), [1,2,3,4,5,6,7,8,9,10]);
 assert.deepEqual(b2Proof.pages.map((page) => page.physical), [1,11,10,9,8,7,6,5,4,3,2]);
 assert.equal(b1Proof.independent_reviews.native_traditional_chinese, "NOT RUN");
 assert.equal(b2Proof.independent_reviews.student_without_marking_scheme, "NOT RUN");
+
+assert.equal(b1Ledger.total_text_units, 324);
+assert.equal(b2Ledger.total_text_units, 353);
+assert.deepEqual(b1Ledger.counts_by_printed_page, {"1":26,"2":29,"3":10,"4":41,"5":27,"6":44,"7":21,"8":25,"9":32,"10":69});
+assert.deepEqual(b2Ledger.counts_by_printed_page, {"1":26,"2":33,"3":10,"4":28,"5":30,"6":41,"7":29,"8":52,"9":35,"10":38,"11":31});
+assert.equal(b1Ledger.source_sha256, b1Record.sha256);
+assert.equal(b2Ledger.source_sha256, b2Record.sha256);
+assert.deepEqual(b1Ledger.independent_reviews, b1Proof.independent_reviews);
+assert.deepEqual(b2Ledger.independent_reviews, b2Proof.independent_reviews);
+assert.ok(b1Ledger.exclusions.some((item) => item.disposition === "excluded-private-non-source-markings"));
+assert.ok(b2Ledger.exclusions.some((item) => item.disposition === "excluded-non-meaningful-scan-artifacts"));
+assert.ok(b1Ledger.units.some((unit) => unit.exact_excerpt === "Go on to the next page"));
+assert.ok(b2Ledger.units.some((unit) => unit.exact_excerpt === "Transcript of telephone call between Powerful Pest Controllers and Agnes Yip"));
 
 assert.equal(b2Record.public_source_scan, null, "B2 scan must remain private unless public-release provenance is established");
 assert.equal(b1Record.public_source_scan, null, "Marked B1 scan must not be published");
@@ -78,11 +101,17 @@ for (const phrase of ["Trending Hong Kong", "73%", "12%", "15%", "WhatsApp conve
 for (const phrase of ["Library Search", "all 12 questions", "five runners-up", "Saturday, 18 April", "Green Paradise", "&lt; $50", "&gt; $200"]) {
   assert.ok(b1.includes(phrase), `B1 missing reconciled source unit: ${phrase}`);
 }
+for (const phrase of ["Hong Kong Examinations and Assessment Authority", "All Rights Reserved 2026", "Go on to the next page", "<em>Trending Hong Kong</em> online article"]) {
+  assert.ok(b1.includes(phrase), `B1 missing completion-audit source unit: ${phrase}`);
+}
 for (const phrase of ["Tom Yengi", "Teckniti Consultants", "54%", "33%", "13%", "91%", "82%", "Powerful Pest Controllers", "THIS IS THE LAST PAGE"]) {
   assert.ok(b2.includes(phrase), `B2 missing source detail: ${phrase}`);
 }
 for (const phrase of ["140 attendees", "Ainu and Ryukyuan Peoples", "DickensTech", "around 500 books", "books in 7 languages", "At least 48 hours", "Completed Duties Log"]) {
   assert.ok(b2.includes(phrase), `B2 missing reconciled source unit: ${phrase}`);
+}
+for (const phrase of ["Hong Kong Examinations and Assessment Authority", "All Rights Reserved 2026", "Go on to the next page", "Email thread: Teckniti Consultants and Thomas Chan", "Transcript of telephone call between Powerful Pest Controllers and Agnes Yip"]) {
+  assert.ok(b2.includes(phrase), `B2 missing completion-audit source unit: ${phrase}`);
 }
 
 for (const [name, html, sourceClasses] of [

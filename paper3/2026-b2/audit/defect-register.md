@@ -23,3 +23,7 @@ Rebuild disposition: **D01–D09 RESOLVED; D10 machine gates passed, independent
 - D10 independent native-reader, student and project-owner checks: `NOT RUN`.
 - Certification remains `UNCERTIFIED`.
 
+### Completion-audit correction
+
+- B2-D11: OCR-assisted comparison found that the bilingual HKEAA cover copyright line, the continuation arrow/text on printed pages 3, 5, 7 and 9, and source headings on pages 7 and 10 were not rendered. They are now restored as native selectable text and source-specific visual elements. `RESOLVED`.
+
