@@ -1,6 +1,6 @@
 # 2022 B2 Golden Manual Compliance Index
 
-Status: `V3 ARCHITECTURE PORT · LOCAL VERIFIED · LIVE NOT YET VERIFIED`
+Status: `V3 ARCHITECTURE PORT · VERIFIED LIVE`
 Manual authority: `Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf`
 Manual coverage: all 183 pages inspected on 2026-11-11
 Coding reference: `2025_B2_Super_Curation_Line_by_Line.md` (24,425 lines; indexed and reference hashes verified)
@@ -77,7 +77,7 @@ The former V2 all-PASS checklist is withdrawn. It measured the reduced V2 contro
 | Responsive/reduced motion | PASS | Both engines pass reduced-motion journeys and the 390×844 no-overflow gate |
 | 2022-versus-2025 parity | PASS | Matched-stage test confirms equal required component counts and initial podcast gating; 2022 has five note mirrors versus two in 2025 because its authentic sheet has five fields |
 | CI/release gates | PASS locally | Paper 3 release workflow now runs V3 syntax, cross-browser, matched-reference and real-audio tests |
-| Public release identity | NOT VERIFIED | No live V3 deployment or cache-busted public SHA check has been completed yet |
+| Public release identity | PASS | Merge `524f307b8c90d6925ae9465aaa8f1d4e04269fd7`; Pages run `43151577541` passed build, Paper 3 gate, deploy, verify-live and snapshot; cache-busted Chromium confirmed the V3 runtime and live component inventory |
 
 ### Exact local tests
 
@@ -85,9 +85,12 @@ The former V2 all-PASS checklist is withdrawn. It measured the reduced V2 contro
 - `node tools/test-2022-b2-vs-2025-parity.cjs` — PASS.
 - `node tools/test-2022-b2-real-audio-boundaries.cjs` — PASS, 8/8 real intervals.
 - Remote Part B MP3 — HTTP 200, 7,127,137 bytes, 445.370 seconds, SHA-256 `fc303a195a2d87f836d2097fd0d352ce79e8e489ec84ccc7a727bcbd7a6299f9`.
+- Protected PRs `#101`–`#104` — required checks passed; CI-discovered timing and cross-platform evidence-path defects were corrected before release.
+- GitHub Pages run `43151577541` — PASS, including focused Paper 3 validation, archived conformance screenshots, deployment, affected student journeys and deployed-snapshot update.
+- Cache-busted live Chromium — PASS at `/paper3/2022-b2/?curation=1&release=524f307b8c90d6925ae9465aaa8f1d4e04269fd7`; V3 runtime, 19 pages, 5 stages, 8 cue pins, 20 transcript units and initial cue gate observed.
 
 ### Unrelated failing check
 
 `tools/test-dse-paper3-b2-audio.mjs` currently fails before reaching its card assertions because the global flashcard-audio corpus count is stale (`137365` actual versus `134387` expected). That test covers the 2024/2025 flashcard voice corpus, not the 2022 Part B podcast. It was not relabelled as a V3 pass.
 
-Publication remains conditional on protected-branch checks, deployment and cache-busted live verification of the exact V3 artifact.
+The V3 implementation was published and verified live. The unrelated global flashcard-corpus mismatch above remains outside this Paper 3 release scope and must not be relabelled as a Paper 3 failure or pass.
