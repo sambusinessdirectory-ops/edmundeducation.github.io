@@ -1,0 +1,62 @@
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
+const {chromium,firefox}=require(process.env.PLAYWRIGHT_MODULE||process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve(__dirname,'..'),mime={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.webp':'image/webp','.png':'image/png'};
+const bundle='<link rel="stylesheet" href="/paper3/2022-b2/super-curation.css?v=test"><script defer src="/paper3/2022-b2/curation-data.js?v=test"></script><script defer src="/paper3/2022-b2/super-curation-v3.js?v=test"></script><script defer src="/shared-system-nav.js?v=test"></script><script type="module" src="/paper3-writing-reader.mjs?v=test"></script>';
+const server=http.createServer((req,res)=>{
+  const url=new URL(req.url,'http://local'),requestPath=url.pathname.endsWith('/')?url.pathname+'index.html':url.pathname,file=path.resolve(root,'.'+decodeURIComponent(requestPath));
+  if(!file.startsWith(root+path.sep))return res.writeHead(403).end();
+  fs.readFile(file,(error,data)=>{if(error)return res.writeHead(404).end();let body=data;if(requestPath==='/paper3/2022-b2/index.html')body=Buffer.from(data.toString().replace('</head>',bundle+'</head>').replace('</body>','<script type="module" src="/study-support.mjs?v=test"></script></body>'));res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Content-Length':body.length});res.end(body);});
+});
+async function run(engine,name){
+  const browser=await engine.launch({headless:true});
+  try{
+    const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce',serviceWorkers:'block'}),page=await context.newPage(),errors=[];
+    page.on('pageerror',error=>errors.push(error.message));await page.route('https://**/*',route=>route.abort());
+    await page.goto('http://127.0.0.1:'+server.address().port+'/paper3/2022-b2/?curation=1',{waitUntil:'domcontentloaded'});
+    await page.locator('#curation-dock').waitFor({state:'visible'});
+    assert.equal(await page.locator('.paper-page').count(),19,name+': complete paper');
+    assert.equal(await page.locator('.curation-stage-item').count(),5,name+': five stages');
+    assert.equal(await page.locator('#curation-slot option').count(),5,name+': five slots');
+    const counts=await page.evaluate(()=>Object.fromEntries(Object.entries(__EDMUND_2022_CURATION_TEST__.steps).map(([key,value])=>[key,value.length])));
+    assert.ok(counts.boss>8&&counts.data>100&&counts.podcast===28&&counts.writing>30,name+': complete state sequences '+JSON.stringify(counts));
+    const atomic=await page.evaluate(()=>{const items=[...document.querySelectorAll('.paper-page[data-kind=data] .sentence-item')];return{count:items.length,ids:new Set(items.map(item=>item.dataset.curationUnit)).size,nested:items.filter(item=>item.querySelector('.sentence-item')).length};});
+    assert.ok(atomic.count>120,name+': atomic source coverage');assert.equal(atomic.ids,atomic.count,name+': stable unique IDs');assert.equal(atomic.nested,0,name+': no merged/nested units');
+    for(const selector of['#curation-player','#curation-transcript-window','#curation-source-preview','#curation-route-arrow','.curation-note-ink-layer'])assert.ok(await page.locator(selector).count()>0,name+': component '+selector);
+    for(const selector of['#curation-dock[aria-label]','#curation-stage[aria-label]','#curation-bank[aria-label]','#curation-player [aria-label]','#curation-transcript-window[aria-label]','#curation-source-preview[aria-label]'])assert.ok(await page.locator(selector).count()>0,name+': accessible name '+selector);
+    await page.addScriptTag({url:'/paper3/2022-b2/super-curation-v3.js?v=idempotence'});assert.equal(await page.locator('#curation-dock').count(),1,name+': controller mount is idempotent');
+    const geometry=await page.evaluate(()=>({stage:getComputedStyle(document.querySelector('#curation-stage')).position,dock:getComputedStyle(document.querySelector('#curation-dock')).position,bank:getComputedStyle(document.querySelector('#curation-bank')).position}));
+    assert.deepEqual(geometry,{stage:'fixed',dock:'fixed',bank:'fixed'},name+': fixed 2025 shell');
+    await page.locator('#curation-help').click();await page.locator('.learning-question-dialog').waitFor({state:'visible'});assert.ok(await page.locator('.learning-question-dialog textarea').isVisible(),name+': real writable help form');await page.locator('.learning-question-dialog [data-cancel]').click();
+    await page.locator('[data-chapter="podcast"]').click();
+    assert.equal(await page.locator('#curation-player').isVisible(),true,name+': player is visibly positioned');
+    const playerBox=await page.locator('#curation-player').boundingBox();assert.ok(playerBox&&playerBox.y>=150&&playerBox.y<1000,name+': player is below the stage');
+    assert.equal(await page.locator('#curation-next').isDisabled(),true,name+': podcast Next initially gated');
+    assert.equal(await page.locator('.curation-player-pin').count(),8,name+': authentic cue ledger');
+    assert.equal(await page.locator('.curation-transcript-sentence').count(),20,name+': synchronized transcript units');
+    await page.locator('.curation-transcript-translate').click();assert.equal(await page.locator('.curation-transcript-translate').getAttribute('aria-pressed'),'true',name+': bilingual transcript toggle');
+    const before=await page.evaluate(()=>({heard:__EDMUND_2022_CURATION_TEST__.state().heard.slice(),paused:document.querySelector('#curation-2022-audio').paused}));
+    assert.deepEqual(before.heard,[],name+': no fabricated heard state');
+    await page.evaluate(()=>{const api=__EDMUND_2022_CURATION_TEST__,audio=document.querySelector('#curation-2022-audio'),step=api.steps.podcast[1];Object.defineProperty(audio,'paused',{configurable:true,get:()=>false});Object.defineProperty(audio,'readyState',{configurable:true,get:()=>1});audio.play=async()=>audio.dispatchEvent(new Event('play'));api.state().positions.podcast=1;api.render(false,true);api.playToCue(step,true);audio.currentTime=step.cue.at;audio.dispatchEvent(new Event('timeupdate'));});
+    await page.waitForFunction(()=>__EDMUND_2022_CURATION_TEST__.state().heard.includes('cue-awards'));
+    assert.match(await page.locator('[data-note="3-1"]').inputValue(),/2021 Neon Award/,name+': boundary writes authentic field');
+    assert.equal(await page.locator('#curation-next').isDisabled(),false,name+': Next unlocked by boundary');
+    await page.evaluate(()=>{const audio=document.querySelector('#curation-2022-audio');Object.defineProperty(audio,'paused',{configurable:true,get:()=>true});audio.currentTime=20;audio.dispatchEvent(new Event('seeked'));});
+    assert.doesNotMatch(await page.locator('[data-note="3-1"]').inputValue(),/2021 Neon Award/,name+': rewind hides future generated note');
+    await page.locator('[data-chapter="data"]').click();const direct=page.locator('.sentence-item[data-curation-type="1"]').first();await direct.click();await page.locator('#curation-next').click();assert.ok(Number((await page.locator('.curation-bank-A [data-count]').innerText()).split(' ')[0])>0,name+': evidence transaction');
+    await page.locator('#curation-prev').click();assert.equal(Number((await page.locator('.curation-bank-A [data-count]').innerText()).split(' ')[0]),0,name+': rewind projection hides future evidence');
+    const routeStep=await page.evaluate(()=>{const api=__EDMUND_2022_CURATION_TEST__,step=api.steps.boss.find(item=>item.route&&!item.routeVisit&&!item.routeReturn);api.state().chapter='boss';api.state().positions.boss=step.index;api.render(false);return step.index;});
+    assert.ok(routeStep>=0,name+': route source exists');await page.locator('#curation-next').click();assert.match(await page.locator('#curation-title').innerText(),/跟線索到/,name+': explicit route visit');await page.locator('#curation-next').click();assert.match(await page.locator('#curation-title').innerText(),/回到原句/,name+': explicit route return');
+    assert.equal(await page.locator('#curation-route-arrow').evaluate(node=>node.classList.contains('is-faded')),true,name+': return route retains faded history');
+    await page.locator('[data-chapter="writing"]').click();await page.locator('#curation-step-jump').click();await page.locator('#curation-picker-search').fill('範文 · 第 2 句');const essayOption=page.locator('.curation-picker-option:visible').first();if(await essayOption.count())await essayOption.click();assert.ok(await page.locator('.curation-essay-unit').count()>25,name+': sentence-level model units');
+    await page.evaluate(()=>{const api=__EDMUND_2022_CURATION_TEST__,step=api.steps.writing.find(item=>item.essaySource);api.state().chapter='writing';api.state().positions.writing=step.index;api.render(false);});assert.equal(await page.locator('#curation-source-preview').isVisible(),true,name+': mapped source preview');assert.ok(await page.locator('#curation-source-preview .paper-page').count()>0,name+': preview contains original page');if(name==='Chromium')await page.screenshot({path:'/private/tmp/2022-b2-v3-writing-preview.png',fullPage:false});
+    await page.locator('.curation-save summary').click();await page.evaluate(()=>{const api=__EDMUND_2022_CURATION_TEST__;api.state().drafts.A='slot-one';document.querySelector('#curation-save-now').click();});await page.locator('#curation-slot').selectOption('2');assert.equal(await page.evaluate(()=>__EDMUND_2022_CURATION_TEST__.state().drafts.A),'',name+': second slot independent');await page.evaluate(()=>{__EDMUND_2022_CURATION_TEST__.state().drafts.A='slot-two';document.querySelector('#curation-save-now').click();});await page.locator('#curation-slot').selectOption('1');assert.equal(await page.evaluate(()=>__EDMUND_2022_CURATION_TEST__.state().drafts.A),'slot-one',name+': first slot restores');
+    await page.reload({waitUntil:'domcontentloaded'});await page.locator('#curation-dock').waitFor({state:'visible'});assert.equal(await page.evaluate(()=>__EDMUND_2022_CURATION_TEST__.state().drafts.A),'slot-one',name+': slot survives reload');
+    const sanitized=await page.evaluate(()=>__EDMUND_2022_CURATION_TEST__.sanitize({chapter:'bad',completed:['bad-id'],drafts:{A:'safe'},evidence:{A:['bad-id']}}));
+    assert.equal(sanitized.chapter,'boss',name+': invalid chapter rejected');assert.deepEqual(sanitized.completed,[],name+': unknown IDs rejected');assert.equal(sanitized.drafts.A,'safe',name+': learner draft preserved');
+    await page.evaluate(()=>{const panel=document.querySelector('#curation-source-preview');Object.assign(panel.style,{left:'1200px',top:'900px',width:'900px',height:'900px',right:'auto'});});await page.setViewportSize({width:390,height:844});await page.waitForTimeout(100);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth+1),name+': no mobile overflow');
+    const fitted=await page.locator('#curation-source-preview').boundingBox();assert.ok(fitted&&fitted.x>=0&&fitted.y>=0&&fitted.x+fitted.width<=391&&fitted.y+fitted.height<=845,name+': moved preview refits viewport');
+    assert.deepEqual(errors,[],name+': no runtime errors');
+    return{engine:name,counts,atomic:atomic.count};
+  }finally{await browser.close();}
+}
+(async()=>{await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));try{const results=[await run(chromium,'Chromium'),await run(firefox,'Firefox')];console.log('PASS 2022 B2 v3 conformance '+JSON.stringify(results));}finally{server.close();}})().catch(error=>{console.error(error);server.close();process.exitCode=1;});
