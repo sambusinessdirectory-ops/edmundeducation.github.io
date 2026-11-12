@@ -1,0 +1,102 @@
+{
+  "reader": "2026-b1",
+  "status": "operator-checked-uncertified",
+  "verification_date": "2026-11-13",
+  "method": "Manual comparison with original-resolution 2x PDFKit renders; PDF has no usable text layer.",
+  "source_sha256": "785a1052ad4bc70f59489dac48ad7ca14c0e265e98317851857c415977713a64",
+  "pages": [
+    {
+      "printed": 1,
+      "physical": 1,
+      "source_type": "cover",
+      "verified_units": ["2026-DSE identifiers", "B1 Easy Section badge", "Paper 3 Part B1 Data File title", "general instruction", "five Part B1 instructions", "copyright and not-to-be-taken-away notices", "printed page number"],
+      "candidate_marks_seen": false,
+      "result": "matched"
+    },
+    {
+      "printed": 2,
+      "physical": 2,
+      "source_type": "situation-and-contents",
+      "verified_units": ["Part B situation", "Nico Lin role", "Victoria Harbour Library context", "recording and five-minute instructions", "nine contents entries and printed-page relationships"],
+      "candidate_marks_seen": false,
+      "result": "matched"
+    },
+    {
+      "printed": 3,
+      "physical": 3,
+      "source_type": "note-taking-sheet",
+      "verified_units": ["staff-meeting instruction", "six printed note headings", "page boundary and continuation arrow"],
+      "candidate_marks_seen": true,
+      "excluded_units": ["all handwritten listening notes and strokes"],
+      "result": "matched-after-exclusion"
+    },
+    {
+      "printed": 4,
+      "physical": 4,
+      "source_type": "email",
+      "verified_units": ["email application chrome", "To/From/Sent/Subject fields", "greeting", "three task paragraphs", "closing and job title"],
+      "candidate_marks_seen": true,
+      "excluded_units": ["handwritten annotations and underlining"],
+      "result": "matched-after-exclusion"
+    },
+    {
+      "printed": 5,
+      "physical": 5,
+      "source_type": "three-emails",
+      "verified_units": ["all three donor identities and email headers", "all donation descriptions and conditions", "sign-offs and organisation labels"],
+      "candidate_marks_seen": true,
+      "excluded_units": ["handwritten annotations and underlining"],
+      "result": "matched-after-exclusion"
+    },
+    {
+      "printed": 6,
+      "physical": 6,
+      "source_type": "meeting-transcript",
+      "verified_units": ["meeting title and 16 March 2026 date", "speaker labels", "every printed speaker turn", "source order"],
+      "candidate_marks_seen": true,
+      "excluded_units": ["handwritten annotations and emphasis"],
+      "result": "matched-after-exclusion"
+    },
+    {
+      "printed": 7,
+      "physical": 7,
+      "source_type": "online-article-and-pie-chart",
+      "verified_units": ["Trending Hong Kong masthead", "article title/byline/body", "pie labels Jessica Yoong 73%, Ren Takeda 12%, Andrew Lau 15%", "chart total 100%", "article visual hierarchy"],
+      "candidate_marks_seen": true,
+      "excluded_units": ["handwritten annotations and underlining"],
+      "result": "matched-after-exclusion"
+    },
+    {
+      "printed": 8,
+      "physical": 8,
+      "source_type": "email",
+      "verified_units": ["email application chrome", "Eddie Abadiano and Thomas Chan header fields", "building-maintenance message body", "closing and company role"],
+      "candidate_marks_seen": true,
+      "excluded_units": ["handwritten annotations and underlining"],
+      "result": "matched-after-exclusion"
+    },
+    {
+      "printed": 9,
+      "physical": 9,
+      "source_type": "whatsapp-chat",
+      "verified_units": ["Friday 10 April 2026 date", "Agnes Yip and Meera Khan speaker identities", "every bubble in printed order", "left/right speaker relationship"],
+      "candidate_marks_seen": true,
+      "excluded_units": ["handwritten annotations and underlining"],
+      "result": "matched-after-exclusion"
+    },
+    {
+      "printed": 10,
+      "physical": 10,
+      "source_type": "two-tables",
+      "verified_units": ["Outside Speakers for Library Events title, headers and every cell", "Restaurants Nearby title, headers and every cell", "price-range key and dollar-sign relationships", "last-page statement and source acknowledgement"],
+      "candidate_marks_seen": true,
+      "excluded_units": ["handwritten annotations and underlining"],
+      "result": "matched-after-exclusion"
+    }
+  ],
+  "independent_reviews": {
+    "native_traditional_chinese": "NOT RUN",
+    "student_without_marking_scheme": "NOT RUN",
+    "project_owner": "NOT RUN"
+  }
+}

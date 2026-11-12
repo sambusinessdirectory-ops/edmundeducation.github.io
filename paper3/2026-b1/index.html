@@ -10,8 +10,8 @@
   <link rel="canonical" href="https://edmundeducation.com/paper3/2026-b1/">
   <link rel="manifest" href="/pwa-manifests/dse-paper3-analysis.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="stylesheet" href="../2026-reader.css?v=20261112-1">
-  <script defer src="../2026-reader.js?v=20261112-1"></script>
+  <link rel="stylesheet" href="../2026-reader-v2.css?v=20261113-2">
+  <script defer src="../2026-reader-v2.js?v=20261113-2"></script>
 </head>
 <body>
   <a class="skip-link" href="#reader">跳到試卷內容</a>
@@ -36,14 +36,18 @@
       <div class="filters" role="group" aria-label="內容篩選">
         <button type="button" data-filter="all" aria-pressed="true">全部內容</button>
         <button type="button" data-filter="paper" aria-pressed="false">Data File</button>
+        <button type="button" data-filter="visual" aria-pressed="false">圖表／表格</button>
         <button type="button" data-filter="notes" aria-pressed="false">聆聽筆記</button>
       </div>
       <label class="translation-control"><input type="checkbox" data-translation-toggle checked role="switch" aria-checked="true"> 中文對照</label>
       <button class="action-btn" type="button" data-print>列印</button>
+      <button class="action-btn action-danger" type="button" data-reset>重設本頁資料</button>
       <select class="mobile-jump" data-mobile-jump aria-label="跳至頁面">
         <option value="">跳至頁面</option>
         <option value="#page-1">1 · 資料檔封面</option><option value="#page-2">2 · 情境與目錄</option><option value="#page-3">3 · 聆聽筆記</option><option value="#page-4">4 · 任務電郵</option><option value="#page-5">5 · 獎品捐贈電郵</option><option value="#page-6">6 · 實習生會議</option><option value="#page-7">7 · 網上文章</option><option value="#page-8">8 · 維修電郵</option><option value="#page-9">9 · WhatsApp 對話</option><option value="#page-10">10 · 講者與餐廳資料</option>
       </select>
+      <span class="toolbar-status" data-filter-status role="status" aria-live="polite">顯示 10 / 10 頁</span>
+      <span class="toolbar-status" data-save-status role="status" aria-live="polite">筆記已載入</span>
     </div>
 
     <div class="layout">
@@ -68,8 +72,9 @@
 
       <div>
         <section class="source-warning" aria-label="來源及限制">
-          <strong>來源範圍：</strong>所提供 PDF 共 10 個實體頁，印刷頁碼 1–10 順序一致。SHA-256：<code>785a1052…713a64</code>。來源副本帶有手寫註記；本原生重建只保留印刷試卷內容，沒有把私人註記當成原卷文字，也沒有公開掃描頁。
+          <strong>來源範圍：</strong>所提供 PDF 共 10 個實體頁，印刷頁碼 1–10 順序一致。SHA-256：<code>785a1052ad4bc70f59489dac48ad7ca14c0e265e98317851857c415977713a64</code>。來源副本帶有手寫註記；本原生重建只保留印刷試卷內容，沒有把私人註記當成原卷文字，也沒有公開掃描頁。
           <p>原裝 B1 Question-Answer Book 及錄音沒有隨檔提供；聆聽頁只提供可儲存筆記欄，不聲稱包含官方答案。</p>
+          <div class="source-actions"><a href="source-record.json">來源記錄</a><a href="audit/page-verification.json">逐頁核對記錄</a><span class="audit-state">UNCERTIFIED · 人手獨立覆核未進行</span></div>
         </section>
 
         <section class="page" id="page-1" data-kind="paper">
@@ -207,7 +212,7 @@
           </div><footer class="paper-footer"><span>2026-DSE-ENG LANG 3-B1-DF-6</span><span>6</span></footer><details class="page-proof"><summary>原卷核對記錄</summary><p>實體 PDF 第 6 頁；兩位講者、12 題、最快時間、全對條件及五位優異獎得主已核對。</p></details></div>
         </section>
 
-        <section class="page" id="page-7" data-kind="paper">
+        <section class="page" id="page-7" data-kind="paper" data-tags="paper visual">
           <header class="page-heading"><div><span class="eyebrow">DATA FILE · 07 / 10</span><h2>《Trending Hong Kong》網上文章</h2><p lang="en">Celebrating Hong Kong Reading Month</p></div><label class="read-check"><input type="checkbox" data-save="read-7" data-read-page="7" aria-label="第 7 頁已讀"> 已讀</label></header>
           <div class="source-paper"><article class="article-box">
             <h2 class="article-title">Celebrating Hong Kong Reading Month</h2>
@@ -258,7 +263,7 @@
           </div><footer class="paper-footer"><span>2026-DSE-ENG LANG 3-B1-DF-9</span><span>9</span></footer><details class="page-proof"><summary>原卷核對記錄</summary><p>實體 PDF 第 9 頁；14 個訊息、日期、活動時間、化裝比賽、頒獎及 BillReads 已按原對話次序核對。</p></details></div>
         </section>
 
-        <section class="page" id="page-10" data-kind="paper">
+        <section class="page" id="page-10" data-kind="paper" data-tags="paper visual">
           <header class="page-heading"><div><span class="eyebrow">DATA FILE · 10 / 10</span><h2>外來講者及附近餐廳資料</h2><p lang="en">Shared library document and restaurant reference</p></div><label class="read-check"><input type="checkbox" data-save="read-10" data-read-page="10" aria-label="第 10 頁已讀"> 已讀</label></header>
           <div class="source-paper">
             <h2 class="article-title">Shared library document: Outside Speakers for Library Events</h2>
