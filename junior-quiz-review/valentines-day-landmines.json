@@ -1,0 +1,55 @@
+{
+  "id": "valentines-day-landmines",
+  "title": "Valentine’s Day landmines everywhere",
+  "category": "Reading — Text 2",
+  "introduction": "Valentine’s Day traditions vary around the world. Read the article below.",
+  "paragraphs": [
+    {
+      "number": 1,
+      "sentences": ["Roses are red.", "Violets are blue.", "I bought you flowers.", "You said boohoo."],
+      "zh": "玫瑰是紅的，紫羅蘭是藍的。我買花送你，你卻哭哭啼啼。"
+    },
+    {
+      "number": 2,
+      "sentences": ["Nobody wants to unwittingly upset their lover on Valentine’s Day.", "It is therefore important to note that this festival is celebrated differently in different places.", "Especially when you are in a foreign country, misunderstandings are only an inflatable love heart or a cutesy teddy bear away."],
+      "zh": "沒有人想在情人節無意中惹伴侶不快。因此，務必留意這個節日在各地有不同的慶祝方式。尤其身處異國時，一顆充氣心形裝飾或一隻可愛得有點膩的泰迪熊，就足以引發誤會。"
+    },
+    {
+      "number": 3,
+      "sentences": ["The idea that red roses represent love was probably influenced by the ancient Greek myth of Aphrodite, goddess of love¹.", "However, though they are popular, roses are not the standard Valentine’s Day gift in many places.", "In Wales, for example, people who are single desire something a bit more permanent than flowers – in the form of beautifully carved wooden spoons, which are gifted in January, earlier than romantic celebrations elsewhere.", "These spoons honour the Welsh patron saint of lovers, Saint Dwynwen².", "Although Dwynwen herself was unlucky in love, it was her wish that future couples should find happiness."],
+      "zh": "紅玫瑰象徵愛情的觀念，或許受到古希臘愛神阿佛洛狄忒神話¹的影響。然而，玫瑰雖然廣受歡迎，在許多地方卻不是情人節的標準禮物。例如在威爾斯，單身人士渴望比鮮花更長久的東西——精雕細琢的木匙；這些木匙在一月送贈，比其他地方的浪漫節慶來得早。這些木匙是向威爾斯的戀人主保聖人——聖德溫²致敬。德溫本人雖然情路不順，但她希望日後的情侶都能找到幸福。"
+    },
+    {
+      "number": 4,
+      "sentences": ["Some people like to give chocolate as a romantic gift.", "If that’s you, you would be on safe ground in Ghana, which is one of the world’s biggest producers of cocoa beans.", "Here, lovers exchange delicious chocolate treats on 14 February, which is also known as National Chocolate Day in this West African country."],
+      "zh": "有些人喜歡以朱古力作為浪漫禮物。如果你也是這樣，在全球其中一個最大的可可豆生產國加納便不會出錯。在這個西非國家，戀人會在2月14日互贈美味的朱古力；當地亦把這天稱為「全國朱古力日」。"
+    },
+    {
+      "number": 5,
+      "sentences": ["In Japan, things are a little more complicated.", "Women have to give chocolates according to the category of recipient.", "Giri-choco, which means ‘obligation chocolate’, is given to classmates, co-workers or teachers.", "Tomo-choco, or ‘friendship chocolate’, is for close friends and family.", "Meanwhile, Honmei-choco, or ‘true love chocolate’, is given to a special someone.", "A mix-up in the gifts could be socially disastrous."],
+      "zh": "在日本，情況稍為複雜。女性須按收禮者的身分選擇不同種類的朱古力。Giri-choco 意指「義理朱古力」，會送給同學、同事或老師。Tomo-choco 即「友情朱古力」，是送給好友和家人的。至於 Honmei-choco，即「本命朱古力」，則送給心儀的特別對象。若把禮物弄混，社交場面可能會非常尷尬。"
+    },
+    {
+      "number": 6,
+      "sentences": ["These days, Valentine’s Day has become a highly commercialized affair, especially in the United States.", "In 2022, US$23.9 billion was spent on Valentine’s purchases for friends, partners and even pets.", "Don’t want to fall prey to marketers’ hype?", "Poetry can be extremely romantic, though it can also be cheesy³ or funny.", "One option is to learn from the Danes.", "They send anonymous cards with a funny poem to the person they admire³.", "After all, some say a shared sense of humour is the most important thing in a relationship."],
+      "zh": "時至今日，情人節已變成高度商業化的節日，在美國尤其如此。2022年，美國人在送給朋友、伴侶甚至寵物的情人節禮物上，合共花費239億美元。不想成為商家炒作的獵物？詩歌可以極為浪漫，亦可以肉麻³或風趣。另一個選擇是向丹麥人取經：他們會把寫有幽默詩句的匿名卡片寄給心儀的人³。畢竟，有人認為共同的幽默感是一段關係中最重要的元素。"
+    }
+  ],
+  "footnotes": [
+    {
+      "number": 1,
+      "sentences": ["In Greek mythology, Aphrodite is associated with love, passion and beauty, and roses are one of her symbols."],
+      "zh": "在希臘神話中，阿佛洛狄忒與愛情、激情和美麗相關，而玫瑰正是她的象徵之一。"
+    },
+    {
+      "number": 2,
+      "sentences": ["Legend has it that God promised Dwynwen that he would take care of all true lovers in the world through her."],
+      "zh": "相傳上帝答應德溫，會透過她照顧世上所有真心相愛的人。"
+    },
+    {
+      "number": 3,
+      "sentences": ["Known as ‘gaekkebrev’ in Denmark, it is a teasing note written on a piece of paper cut in an intricate pattern, and signed only with anonymous dots, so the recipient has to guess who the sender is."],
+      "zh": "這種卡片在丹麥稱為「gaekkebrev」，是一張剪成精巧圖案、帶有戲謔意味的字條；寄件人只以匿名圓點署名，讓收件人猜出對方是誰。"
+    }
+  ]
+}
