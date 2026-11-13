@@ -37472,6 +37472,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fproblem-and-cause%2FEdmundBd9CnS-Q6"
   },
   {
+    "id": "flash:custom-setup/jayden-test-november-2026",
+    "type": "flashcards",
+    "ordinal": 2026,
+    "label": "Custom Setup / Jayden Test November 2026",
+    "detail": "Custom Setup / Jayden Test November 2026 · 184 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fjayden-test-november-2026"
+  },
+  {
     "id": "flash:custom-setup/sprint-text-1",
     "type": "flashcards",
     "ordinal": 1,
