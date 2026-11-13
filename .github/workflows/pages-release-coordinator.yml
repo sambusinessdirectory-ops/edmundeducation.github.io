@@ -89,7 +89,7 @@ jobs:
               route=standard
             fi
 
-            snapshot_origin=$(git show "${snapshot_commit}:.r2-public-media-origin" 2>/dev/null || true)
+            snapshot_origin=$(git show "${snapshot_commit}:pages-media-origin.txt" 2>/dev/null || true)
             expected_origin=
             if [[ '${{ vars.PAGES_R2_CUTOVER }}' == true ]]; then
               expected_origin='https://edmund-public-media.edmundeducation.workers.dev'
