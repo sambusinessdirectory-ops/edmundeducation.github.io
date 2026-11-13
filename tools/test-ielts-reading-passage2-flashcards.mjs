@@ -7,6 +7,7 @@ import vm from "node:vm";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataOnly = process.argv.includes("--data-only");
@@ -300,6 +301,11 @@ if (!dataOnly) {
     const digest = crypto.createHash("sha256").update(front).digest("hex").slice(0, 24);
     if (front === "appear to be" && audioUrl === verifiedCustomAudio) {
       customAudio += 1;
+      continue;
+    }
+    if (!audioUrl.startsWith("https://") && !audioUrl.startsWith("assets/flashcards/audio/edmund-neural/")) {
+      assertPublishedFlashcardAudio(root, audioUrl, front);
+      localAudio += 1;
       continue;
     }
     if (audioUrl.startsWith("assets/flashcards/audio/edmund-neural/")) {

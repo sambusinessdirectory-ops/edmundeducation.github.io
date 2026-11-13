@@ -6,6 +6,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataOnly = process.argv.includes("--data-only");
@@ -186,9 +187,13 @@ if (!dataOnly) {
     const packEntry = cloudIndex.entries?.[digest.slice(0, 2)]?.[digest.slice(2)];
     if (front === "appear to be" && audioUrl === verifiedCustomAudio) {
       customAudio += 1;
+    } else if (!audioUrl.startsWith("https://") && !audioUrl.startsWith("assets/flashcards/audio/edmund-neural/")) {
+      assertPublishedFlashcardAudio(root, audioUrl, front);
+      if (sourceFileAvailable(localRelativePath, trackedAudioFiles)) localAudio += 1;
+      else cloudAudio += 1;
     } else if (sourceFileAvailable(localRelativePath, trackedAudioFiles)) {
       localAudio += 1;
-      if (audioUrl !== localRelativePath && verifiedManifestOverrides[front] !== audioUrl) {
+      if (audioUrl !== localRelativePath) {
         missing.push(`${front}: expected retained local URL ${localRelativePath}, found ${audioUrl}`);
       }
     } else if (verifiedReplacements[front] === audioUrl) {
