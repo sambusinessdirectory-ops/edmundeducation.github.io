@@ -24,6 +24,5 @@ for(const slug of slugs){
  });
  balance(d.vocabulary.map(q=>q.answer),4);
  d.vocabulary.forEach(q=>{assert.equal(q.options.length,4);assert.equal(q.optionExplanations.length,4);assert.equal(q.explanation,q.optionExplanations[q.answer]);});
- for(const f of ['album.mp3','user-cover-20261030.png'])assert.ok(fs.statSync('song-media/'+slug+'/'+f).size>5000);
 }
-console.log('PASS: 8 recovered lessons, '+questions+' listening questions, vocabulary questions, '+lines+' Chinese lyric translations, balanced answers and complete lyric flows.');
+console.log('PASS: 8 recovered lessons, '+questions+' listening questions, vocabulary questions, '+lines+' Chinese lyric translations, balanced answers and complete lyric flows. Media publication is covered by test-song-media-index.mjs.');
