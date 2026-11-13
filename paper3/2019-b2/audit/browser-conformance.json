@@ -1,0 +1,388 @@
+{
+  "version": "2019-b2-browser-conformance-v2",
+  "generatedOn": "2026-11-13T09:57:40.107Z",
+  "base": "http://127.0.0.1:8768",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "summary": {
+    "pass": 72,
+    "fail": 0,
+    "total": 72
+  },
+  "results": [
+    {
+      "id": "BROWSER-FRESH",
+      "status": "PASS",
+      "evidence": "{\"tabs\":5,\"cues\":107,\"floatingCues\":107,\"audio\":1,\"slots\":5,\"units\":420,\"decisions\":7,\"overflow\":false}"
+    },
+    {
+      "id": "MOTION-FIVE-STAGE-RAIL",
+      "status": "PASS",
+      "evidence": "[\"20%\",\"40%\",\"60%\",\"80%\",\"100%\"]"
+    },
+    {
+      "id": "MOTION-PAGE-ARRIVAL",
+      "status": "PASS",
+      "evidence": "gm-panel-in / gm-panel-in"
+    },
+    {
+      "id": "CATEGORY-HIDDEN",
+      "status": "PASS",
+      "evidence": "canonical answer is hidden before a learner choice"
+    },
+    {
+      "id": "CATEGORY-STATE",
+      "status": "PASS",
+      "evidence": "canonical A/B/C/route file stamp appears only after interaction with M09/M10 state"
+    },
+    {
+      "id": "MOTION-STAMP-SEMANTICS",
+      "status": "PASS",
+      "evidence": "stamp accessible label: Task 8 stamp"
+    },
+    {
+      "id": "MOTION-SPOTLIGHT-ON",
+      "status": "PASS",
+      "evidence": "{\"masks\":4,\"hidden\":false,\"outline\":\"3px\"}"
+    },
+    {
+      "id": "MOTION-SPOTLIGHT-OFF",
+      "status": "PASS",
+      "evidence": "{\"hidden\":true,\"outline\":\"3px\"}"
+    },
+    {
+      "id": "MOTION-STAMP-PERSIST",
+      "status": "PASS",
+      "evidence": "stamp persists after bounded animation and transient class clears"
+    },
+    {
+      "id": "KEYBOARD-UNIT-NAV",
+      "status": "PASS",
+      "evidence": "2019-B2-U0001 → 2019-B2-U0002"
+    },
+    {
+      "id": "EMPTY-MATCHED-STATE",
+      "status": "PASS",
+      "evidence": "invalid filter intersection shows a truthful empty state"
+    },
+    {
+      "id": "MOTION-EXACT-STRIKE",
+      "status": "PASS",
+      "evidence": "one exact rejected span carries the persistent M11 pen line"
+    },
+    {
+      "id": "MOTION-BANK-GUARD-TYPE6",
+      "status": "PASS",
+      "evidence": "Type 6 / do-not-write units expose no bank transfer control"
+    },
+    {
+      "id": "MOTION-WRAPPED-STRIKE",
+      "status": "PASS",
+      "evidence": "{\"backgroundSize\":\"0% 100%\",\"boxDecorationBreak\":\"clone\"}"
+    },
+    {
+      "id": "MOTION-ROUTE-DRAW",
+      "status": "PASS",
+      "evidence": "{\"path\":\"M 697.8 209.96875 C 697.8 412.10234375000005, 660 375.35078124999995, 660 577.484375\",\"lines\":2,\"drawing\":true}"
+    },
+    {
+      "id": "MOTION-ROUTE-RETURN",
+      "status": "PASS",
+      "evidence": "2019-B2-U0003 restored with one 0.16 route ghost"
+    },
+    {
+      "id": "MOTION-BANK-FLIGHT",
+      "status": "PASS",
+      "evidence": "exactly one aria-hidden visual clone is in flight before commit"
+    },
+    {
+      "id": "EVIDENCE-BANK",
+      "status": "PASS",
+      "evidence": "2019-B2-U0061 added once with duplicate prevention"
+    },
+    {
+      "id": "MOTION-BANK-CLEANUP",
+      "status": "PASS",
+      "evidence": "flight clone is removed after animation/fallback and the row commits once"
+    },
+    {
+      "id": "MOTION-MISSING-END-FALLBACK",
+      "status": "PASS",
+      "evidence": "2019-B2-U0067 committed once after the 700 ms fallback with animation events suppressed"
+    },
+    {
+      "id": "NATIVE-NOTE-HOST",
+      "status": "PASS",
+      "evidence": "{\"fields\":[{\"id\":\"gm-native-note-poster\",\"note\":\"3-poster\",\"labelledBy\":\"gm-native-note-label-poster\"},{\"id\":\"gm-native-note-deadline\",\"note\":\"3-deadline\",\"labelledBy\":\"gm-native-note-label-deadline\"},{\"id\":\"gm-native-note-brighthouse\",\"note\":\"3-brighthouse\",\"labelledBy\":\"gm-native-note-label-brighthouse\"},{\"id\":\"gm-native-note-prize\",\"note\":\"3-prize\",\"labelledBy\":\"gm-native-note-label-prize\"},{\"id\":\"gm-native-note-cinema-home\",\"note\":\"3-cinema-home\",\"labelledBy\":\"gm-native-note-label-cinema-home\"},{\"id\":\"gm-native-note-film-budget\",\"note\":\"3-film-budget\",\"labelledBy\":\"gm-native-note-label-film-budget\"}],\"width\":318,\"height\":2179.140625,\"synthetic\":0}"
+    },
+    {
+      "id": "FORWARD-SEEK-GUARD",
+      "status": "PASS",
+      "evidence": "seeking forward does not mark an unheard cue complete"
+    },
+    {
+      "id": "CUE-GATE",
+      "status": "PASS",
+      "evidence": "cue completion pauses and keeps Next disabled while authentic-field typing is active"
+    },
+    {
+      "id": "MOTION-TYPING-CADENCE",
+      "status": "PASS",
+      "evidence": "generated 6 characters in the observed 84 ms window at two characters per 28 ms tick"
+    },
+    {
+      "id": "NOTE-GENERATION",
+      "status": "PASS",
+      "evidence": "completed transaction persists one exact generated line, reveals semantics and releases Next"
+    },
+    {
+      "id": "NOTE-REPLAY-GUARD",
+      "status": "PASS",
+      "evidence": "replaying a heard cue rearms the pause without duplicating its generated line"
+    },
+    {
+      "id": "MOTION-TYPING-FOCUS",
+      "status": "PASS",
+      "evidence": "M15 focus is on the authentic deadline textarea"
+    },
+    {
+      "id": "MOTION-TYPING-INTERRUPTION",
+      "status": "PASS",
+      "evidence": "trusted learner input cancels the timer, preserves the edit and leaves no ghost suffix"
+    },
+    {
+      "id": "REWIND-RECONSTRUCTION",
+      "status": "PASS",
+      "evidence": "rewind removes exact future generated lines and derived state while preserving independently authored text"
+    },
+    {
+      "id": "TRANSCRIPT-COMPLETE",
+      "status": "PASS",
+      "evidence": "movable transcript contains all 107 sentence cues and authored Chinese relationships where available"
+    },
+    {
+      "id": "TRANSCRIPT-DRAG",
+      "status": "PASS",
+      "evidence": "window moved from 802,180 to 712,215"
+    },
+    {
+      "id": "TRANSCRIPT-RESIZE",
+      "status": "PASS",
+      "evidence": "{\"x\":712,\"y\":215,\"width\":565,\"height\":540}"
+    },
+    {
+      "id": "NO-FORCED-AUDIO-SCROLL",
+      "status": "PASS",
+      "evidence": "{\"before\":[333,444],\"after\":[333,444]}"
+    },
+    {
+      "id": "NATIVE-GENERATED-BRIGHTHOUSE",
+      "status": "PASS",
+      "evidence": "Task 8 listening evidence is generated into the authentic Brighthouse field"
+    },
+    {
+      "id": "NATIVE-NOTE-RESTORE",
+      "status": "PASS",
+      "evidence": "leaving listening restores the same six native fields to page 3"
+    },
+    {
+      "id": "MODEL-8-COUNT",
+      "status": "PASS",
+      "evidence": "Task 8 exposes 12 mapped model sentences"
+    },
+    {
+      "id": "MODEL-BANK-MAPPING",
+      "status": "PASS",
+      "evidence": "2019-B2-U0061 is mapped to a Task 8 model sentence"
+    },
+    {
+      "id": "MOTION-BANK-USE",
+      "status": "PASS",
+      "evidence": "M18 marks the newly consumed bank row once"
+    },
+    {
+      "id": "MODEL-SOURCE-PREVIEW",
+      "status": "PASS",
+      "evidence": "model sentence opens an exact stable-ID source preview with navy-ink treatment"
+    },
+    {
+      "id": "MOTION-NAVY-SOURCE-USE",
+      "status": "PASS",
+      "evidence": "M21/M19 completed as 100% 100%"
+    },
+    {
+      "id": "MODEL-AUDIO-SOURCE",
+      "status": "PASS",
+      "evidence": "Task 8 model audio source: 2019-B2-U0343"
+    },
+    {
+      "id": "MOTION-PODCAST-NOTE-USE",
+      "status": "PASS",
+      "evidence": "M22 mirrors and inks only the exact generated Brighthouse note line without changing the textarea"
+    },
+    {
+      "id": "PODCAST-MIRROR-NONDESTRUCTIVE",
+      "status": "PASS",
+      "evidence": "source preview leaves the authentic textarea value unchanged"
+    },
+    {
+      "id": "MOTION-PREVIEW-CLOSE",
+      "status": "PASS",
+      "evidence": "Escape closes only the topmost source preview without discarding model-use state"
+    },
+    {
+      "id": "MOTION-PREVIEW-REOPEN",
+      "status": "PASS",
+      "evidence": "reopened at exact source 2019-B2-U0343"
+    },
+    {
+      "id": "PREVIEW-DRAG",
+      "status": "PASS",
+      "evidence": "{\"x\":429.4439392089844,\"y\":233.5306396484375,\"width\":651.0808410644531,\"height\":569.2264404296875}"
+    },
+    {
+      "id": "EXACT-RETURN",
+      "status": "PASS",
+      "evidence": "native-source visit returns to the exact writing task and draft"
+    },
+    {
+      "id": "SAVE-SLOT-ISOLATION",
+      "status": "PASS",
+      "evidence": "Slot 1 restored independently after editing Slot 2"
+    },
+    {
+      "id": "EXPORT-VALID",
+      "status": "PASS",
+      "evidence": "exported save is versioned and scoped to 2019 B2"
+    },
+    {
+      "id": "IMPORT-REJECT",
+      "status": "PASS",
+      "evidence": "invalid foreign save is rejected with a visible status"
+    },
+    {
+      "id": "IMPORT-VALID",
+      "status": "PASS",
+      "evidence": "{\"importStatus\":\"已驗證並匯入至 Slot 3\",\"importDraft\":\"Task 8 draft uses verified evidence and explains each point clearly for the intended reader while avoiding unsupported claims and repeated metadata.\",\"expected\":\"Task 8 draft uses verified evidence and explains each point clearly for the intended reader while avoiding unsupported claims and repeated metadata.\"}"
+    },
+    {
+      "id": "MODEL-9-COUNT",
+      "status": "PASS",
+      "evidence": "Task 9 exposes 8 mapped model sentences"
+    },
+    {
+      "id": "MODEL-10-COUNT",
+      "status": "PASS",
+      "evidence": "Task 10 exposes 16 mapped model sentences"
+    },
+    {
+      "id": "MODEL-FACT-MAP",
+      "status": "PASS",
+      "evidence": "Task 10 factual model sentence exposes stable source IDs"
+    },
+    {
+      "id": "RELOAD-RESTORE",
+      "status": "PASS",
+      "evidence": "active slot, task, draft and unlocked model restore after reload"
+    },
+    {
+      "id": "VERSIONED-PERSISTENCE",
+      "status": "PASS",
+      "evidence": "three exercised save slots remain independently versioned"
+    },
+    {
+      "id": "MOTION-PRINT-STATE",
+      "status": "PASS",
+      "evidence": "{\"spotlight\":\"none\",\"preview\":\"none\",\"routeSvg\":\"none\",\"nativeMarks\":28}"
+    },
+    {
+      "id": "NO-CONSOLE-ERRORS",
+      "status": "PASS",
+      "evidence": "no console warnings/errors"
+    },
+    {
+      "id": "REFERENCE-FIVE-STAGE",
+      "status": "PASS",
+      "evidence": "2025 reference exposes the same five-stage/single-owner architecture"
+    },
+    {
+      "id": "REFERENCE-WRITING-STATE",
+      "status": "PASS",
+      "evidence": "2025 matched writing state has three task models and active Chapter 5"
+    },
+    {
+      "id": "REFERENCE-NO-PAGE-ERRORS",
+      "status": "PASS",
+      "evidence": "no page errors"
+    },
+    {
+      "id": "REDUCED-ALL-CUE-TRANSACTIONS",
+      "status": "PASS",
+      "evidence": "{\"heard\":107,\"generated\":6,\"nextDisabled\":false,\"typing\":0}"
+    },
+    {
+      "id": "MOBILE-VIEWPORT",
+      "status": "PASS",
+      "evidence": "{\"mobileRect\":{\"x\":8,\"y\":151.90625,\"width\":374,\"height\":489.515625},\"mobileState\":{\"overflow\":false,\"animation\":\"0s\"}}"
+    },
+    {
+      "id": "REDUCED-MOTION",
+      "status": "PASS",
+      "evidence": "active panel animation duration is 0s"
+    },
+    {
+      "id": "REDUCED-STAMP-EQUIVALENCE",
+      "status": "PASS",
+      "evidence": "{\"animation\":\"0s\",\"visible\":true}"
+    },
+    {
+      "id": "REDUCED-ROUTE-EQUIVALENCE",
+      "status": "PASS",
+      "evidence": "{\"dash\":\"0px\",\"d\":\"M 230.56 270.34375 C 230.56 667.19453125, 130.4359375 595.03984375, 130.4359375 991.890625\"}"
+    },
+    {
+      "id": "MOBILE-NO-PAGE-ERRORS",
+      "status": "PASS",
+      "evidence": "no page errors"
+    },
+    {
+      "id": "RESPONSIVE-768",
+      "status": "PASS",
+      "evidence": "{\"overflow\":false,\"stamp\":{\"left\":71,\"right\":225,\"top\":215.21875},\"masks\":true}"
+    },
+    {
+      "id": "RESPONSIVE-200-PERCENT",
+      "status": "PASS",
+      "evidence": "{\"scale\":2,\"view\":{\"left\":0,\"top\":0,\"right\":384,\"bottom\":450},\"rect\":{\"left\":4,\"top\":4,\"right\":380,\"bottom\":446},\"closeVisible\":true}"
+    },
+    {
+      "id": "FIREFOX-GEOMETRY",
+      "status": "PASS",
+      "evidence": "{\"firefoxHost\":{\"x\":721,\"y\":1195.9580078125,\"width\":318,\"height\":2179.333251953125},\"firefoxTranscript\":{\"x\":598,\"y\":170,\"width\":484,\"height\":552.5}}"
+    },
+    {
+      "id": "FIREFOX-LIFECYCLE",
+      "status": "PASS",
+      "evidence": "startup, native note value, active stage and single audio owner restore after Firefox reload"
+    },
+    {
+      "id": "FIREFOX-NO-PAGE-ERRORS",
+      "status": "PASS",
+      "evidence": "no page errors"
+    }
+  ],
+  "screenshots": [
+    "01-2019-fresh-desktop.png",
+    "02-2019-category-revealed.png",
+    "03-2019-listening-floating-transcript.png",
+    "04-2019-writing-source-preview.png",
+    "05-2025-reference-writing-state.png",
+    "06-2019-mobile-reduced-motion.png"
+  ]
+}

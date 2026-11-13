@@ -1,0 +1,217 @@
+{
+  "version": "2019-b2-source-manifest-v1",
+  "pages": [
+    {
+      "id": "P01",
+      "leaf": 1,
+      "kind": "data",
+      "sourcePage": 37,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-01.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P02",
+      "leaf": 2,
+      "kind": "data",
+      "sourcePage": 38,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-02.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P03",
+      "leaf": 3,
+      "kind": "data",
+      "sourcePage": 39,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-03.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P04",
+      "leaf": 4,
+      "kind": "data",
+      "sourcePage": 40,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-04.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P05",
+      "leaf": 5,
+      "kind": "data",
+      "sourcePage": 41,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-05.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P06",
+      "leaf": 6,
+      "kind": "data",
+      "sourcePage": 42,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-06.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P07",
+      "leaf": 7,
+      "kind": "data",
+      "sourcePage": 43,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-07.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P08",
+      "leaf": 8,
+      "kind": "data",
+      "sourcePage": 44,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-08.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P09",
+      "leaf": 9,
+      "kind": "data",
+      "sourcePage": 45,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-09.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P10",
+      "leaf": 10,
+      "kind": "data",
+      "sourcePage": 46,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-10.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P11",
+      "leaf": 11,
+      "kind": "data",
+      "sourcePage": 47,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-11.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P12",
+      "leaf": 12,
+      "kind": "qab",
+      "sourcePage": 17,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-12.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P13",
+      "leaf": 13,
+      "kind": "qab",
+      "sourcePage": 18,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-13.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P14",
+      "leaf": 14,
+      "kind": "qab",
+      "sourcePage": 19,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-14.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P15",
+      "leaf": 15,
+      "kind": "qab",
+      "sourcePage": 20,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-15.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P16",
+      "leaf": 16,
+      "kind": "qab",
+      "sourcePage": 21,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-16.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P17",
+      "leaf": 17,
+      "kind": "qab",
+      "sourcePage": 22,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-17.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P18",
+      "leaf": 18,
+      "kind": "qab",
+      "sourcePage": 23,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-18.webp",
+      "width": 1653,
+      "height": 2337
+    },
+    {
+      "id": "P19",
+      "leaf": 19,
+      "kind": "qab",
+      "sourcePage": 24,
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-19.webp",
+      "width": 1653,
+      "height": 2337
+    }
+  ],
+  "embeddedVisuals": [
+    {
+      "id": "V08-A",
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-08-isabel.webp",
+      "width": 406,
+      "height": 434
+    },
+    {
+      "id": "V08-B",
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-08-rebecca.webp",
+      "width": 490,
+      "height": 362
+    },
+    {
+      "id": "V10-A",
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-10-vr-headset.webp",
+      "width": 191,
+      "height": 291
+    },
+    {
+      "id": "V15-A",
+      "asset": "https://edmund-public-media.edmundeducation.workers.dev/paper3/2019-b2/assets/page-15-film-art.webp",
+      "width": 282,
+      "height": 307
+    }
+  ],
+  "audio": {
+    "id": "A-PB",
+    "url": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202019%20Part%20B.mp3",
+    "bytes": 11879906,
+    "etag": "177d2c5171cd38c409127443902f7285",
+    "cueCount": 107,
+    "firstStart": 0.05,
+    "lastEnd": 986.06
+  },
+  "canonicalAnalysis": {
+    "id": "FL-2019",
+    "file": "2019_B2_Paper3_Fact_Line_Line_by_Line_Deep_Analysis_V2.1_2026-11-12.md",
+    "lines": 6556,
+    "units": 420
+  }
+}

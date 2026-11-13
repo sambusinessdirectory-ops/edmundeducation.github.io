@@ -1,0 +1,13 @@
+{
+  "version": "2019-b2-recording-provenance-v1",
+  "source": "Authentic 2019 DSE Listening Part B recording served by the existing Edmund Education audio worker",
+  "url": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202019%20Part%20B.mp3",
+  "contentType": "audio/mpeg",
+  "contentLength": 11879906,
+  "etag": "177d2c5171cd38c409127443902f7285",
+  "cachePolicy": "public, max-age=31536000, immutable",
+  "transcriptCues": 107,
+  "transcriptFirstStart": 0.05,
+  "transcriptLastEnd": 986.06,
+  "verifiedOn": "2026-11-13"
+}
