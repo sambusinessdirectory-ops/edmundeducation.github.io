@@ -232,7 +232,11 @@ jobs:
               echo '/tools/listening/' >> .git/info/sparse-checkout
               ;;&
             *'[song-release]'*)
-              printf '%s\n' '/tools/song-content/' '/tools/song-editorial/' >> .git/info/sparse-checkout
+              printf '%s\n' \
+                '/tools/song-content/' \
+                '/tools/song-editorial/' \
+                '/supabase/migrations/*_song_*.sql' \
+                >> .git/info/sparse-checkout
               ;;&
             *'[writing-release]'*)
               echo '/tools/grammar-detector-v2/' >> .git/info/sparse-checkout
@@ -1639,8 +1643,7 @@ jobs:
           node tools/test-song-room-sql.mjs
           node tools/test-song-learning-sections-db.mjs
           node tools/test-song-recovery-eight.mjs
-          test -s song-media/photograph/album.mp3
-          test -s song-media/photograph/cover.webp
+          node tools/test-song-media-index.mjs
 
       - name: Validate Song Appreciation portal, data protection, and secure workflows
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}

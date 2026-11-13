@@ -263,6 +263,8 @@
     ],
     "[song-release]": [
       "song-*",
+      "song-media/**",
+      "supabase/migrations/*_song_*.sql",
       "tools/check-song-quality.mjs",
       "tools/song-content/**",
       "tools/song-editorial/**",
