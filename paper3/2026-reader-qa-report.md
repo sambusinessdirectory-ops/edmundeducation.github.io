@@ -22,6 +22,8 @@ Overall state: **MACHINE-VERIFIED / UNCERTIFIED**
 
 Browser: Safari 18.5 via WebDriver.
 
+A direct live comparison against the 2025 B2 implementation reference also passed. The requested implementation capabilities are present in both 2026 readers; transcript and PP-practice sections were not copied because the corresponding authentic 2026 sources were not supplied. See `2026-reference-parity-audit.md`.
+
 | Check | B1 | B2 |
 | --- | --- | --- |
 | Desktop viewport | 1440 × 1000, no horizontal overflow | 1440 × 1000, no horizontal overflow |
