@@ -1,0 +1,25 @@
+{
+  "edition": "2024 Paper 3 B2",
+  "source_sha256": "0591aded05987aca00ac42115e04aae9a26eff961c3b11997ab332d8d623a0e7",
+  "supplied_leaf_count": 16,
+  "mapping": [
+    {"leaf": 1, "identity": "Data File 2", "type": "situation-and-contents"},
+    {"leaf": 2, "identity": "Data File 3", "type": "note-taking-sheet"},
+    {"leaf": 3, "identity": "Data File 4", "type": "email"},
+    {"leaf": 4, "identity": "Data File 5", "type": "radio-transcript"},
+    {"leaf": 5, "identity": "Data File 6", "type": "news-article"},
+    {"leaf": 6, "identity": "Data File 7", "type": "sms-thread"},
+    {"leaf": 7, "identity": "Data File 8", "type": "email-and-calendar"},
+    {"leaf": 8, "identity": "Data File 9", "type": "sales-brochure"},
+    {"leaf": 9, "identity": "Data File 10", "type": "meeting-minutes"},
+    {"leaf": 10, "identity": "Task 8 Task Completion", "type": "assessment-reference"},
+    {"leaf": 11, "identity": "Task 8 Language", "type": "assessment-reference"},
+    {"leaf": 12, "identity": "Task 8 Coherence and Appropriacy", "type": "assessment-reference"},
+    {"leaf": 13, "identity": "Task 9 Task Completion", "type": "assessment-reference"},
+    {"leaf": 14, "identity": "Task 9 Language", "type": "assessment-reference"},
+    {"leaf": 15, "identity": "Task 9 Coherence and Appropriacy", "type": "assessment-reference"},
+    {"leaf": 16, "identity": "Task 10 Task Completion", "type": "assessment-reference"}
+  ],
+  "not_supplied": ["Data File 1", "Data File 11", "original Question-Answer Book", "recording and complete recording transcript"],
+  "editorial_policy": "Missing official content is disclosed and not reconstructed. Practice prompts are clearly labelled non-official."
+}
