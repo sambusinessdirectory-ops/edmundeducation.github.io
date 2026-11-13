@@ -413,7 +413,7 @@ jobs:
           git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_sha}"
 
           mode=full
-          snapshot_origin=$(git show "${snapshot_commit}:.r2-public-media-origin" 2>/dev/null || true)
+          snapshot_origin=$(git show "${snapshot_commit}:pages-media-origin.txt" 2>/dev/null || true)
           expected_origin=
           if [[ "${CUTOVER}" == true ]]; then expected_origin="${PAGES_MEDIA_ORIGIN}"; fi
           if [[ "${snapshot_origin}" == "${expected_origin}" && "${FOCUSED}" == true ]] && \
@@ -1807,26 +1807,6 @@ jobs:
           test ! -e _site/dse-practical-writing-media
           test ! -e _site/assets/dse-practical-writing
 
-      - name: Compare unchanged audio manifests with the published site
-        if: ${{ contains(inputs.release_tags, '[full-artifact]') }}
-        env:
-          SNAPSHOT: ${{ steps.preparation.outputs.snapshot_commit }}
-          BASE: ${{ steps.preparation.outputs.base_sha }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          git ls-tree --name-only "$SNAPSHOT" > "$RUNNER_TEMP/pages-snapshot-files"
-          while IFS= read -r path; do
-            case "$path" in *audio*manifest*.js)
-              if git diff --quiet "$BASE" "$GITHUB_SHA" -- "$path"; then
-                test "$(git rev-parse "$SNAPSHOT:$path")" = "$(git hash-object "_site/$path")" || {
-                  echo "::error::Unchanged deployed audio differs in $path"
-                  exit 1
-                }
-              fi ;;
-            esac
-          done < "$RUNNER_TEMP/pages-snapshot-files"
-
       - name: Stamp PWA release
         run: |
           grep -Fq '__EDMUND_RELEASE__' _site/service-worker.js
@@ -1860,7 +1840,27 @@ jobs:
             _site workers/edmund-public-media/src/media.json \
             --origin "${PAGES_MEDIA_ORIGIN}" \
             --keep-list tools/pages-media-saved-links.txt
-          printf '%s\n' "${PAGES_MEDIA_ORIGIN}" > _site/.r2-public-media-origin
+          printf '%s\n' "${PAGES_MEDIA_ORIGIN}" > _site/pages-media-origin.txt
+
+      - name: Compare unchanged audio manifests with the published site
+        if: ${{ contains(inputs.release_tags, '[full-artifact]') }}
+        env:
+          SNAPSHOT: ${{ steps.preparation.outputs.snapshot_commit }}
+          BASE: ${{ steps.preparation.outputs.base_sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git ls-tree --name-only "$SNAPSHOT" > "$RUNNER_TEMP/pages-snapshot-files"
+          while IFS= read -r path; do
+            case "$path" in *audio*manifest*.js)
+              if git diff --quiet "$BASE" "$GITHUB_SHA" -- "$path"; then
+                test "$(git rev-parse "$SNAPSHOT:$path")" = "$(git hash-object "_site/$path")" || {
+                  echo "::error::Unchanged deployed audio differs in $path"
+                  exit 1
+                }
+              fi ;;
+            esac
+          done < "$RUNNER_TEMP/pages-snapshot-files"
 
       - name: Verify complete student runtime dependency closure
         run: |

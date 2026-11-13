@@ -263,14 +263,24 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
             with self.subTest(builder=workflow.splitlines()[0]):
                 rewrite = workflow.index("rewrite-pages-public-media.py")
                 prune = workflow.index("prune-verified-pages-media.py", rewrite)
-                marker = workflow.index(".r2-public-media-origin", prune)
+                marker = workflow.index("pages-media-origin.txt", prune)
                 self.assertLess(rewrite, prune)
                 self.assertLess(prune, marker)
                 self.assertIn("edmund-public-media.edmundeducation.workers.dev", workflow)
                 self.assertIn("pages-media-saved-links.txt", workflow)
                 self.assertIn("--keep-list", workflow[rewrite:prune])
-        self.assertIn('snapshot_origin=$(git show "${snapshot_commit}:.r2-public-media-origin"', BUILDERS[0])
+        self.assertIn('snapshot_origin=$(git show "${snapshot_commit}:pages-media-origin.txt"', BUILDERS[0])
         self.assertIn('"${snapshot_origin}" == "${expected_origin}"', BUILDERS[0])
+
+    def test_audio_snapshot_guard_runs_after_public_media_rewrite(self):
+        standard = BUILDERS[0]
+        rewrite = standard.index("rewrite-pages-public-media.py")
+        guard = standard.index("Compare unchanged audio manifests with the published site")
+        runtime_closure = standard.index("Verify complete student runtime dependency closure")
+        self.assertLess(rewrite, guard)
+        self.assertLess(guard, runtime_closure)
+        self.assertIn('git diff --quiet "$BASE" "$GITHUB_SHA" -- "$path"', standard[guard:runtime_closure])
+        self.assertIn('git hash-object "_site/$path"', standard[guard:runtime_closure])
 
     def test_router_compares_against_deployed_snapshot(self):
         self.assertIn("refs/heads/pages-snapshot", COORDINATOR)

@@ -159,7 +159,7 @@ jobs:
             _site workers/edmund-public-media/src/media.json \
             --origin "${PAGES_MEDIA_ORIGIN}" \
             --keep-list tools/pages-media-saved-links.txt
-          printf '%s\n' "${PAGES_MEDIA_ORIGIN}" > _site/.r2-public-media-origin
+          printf '%s\n' "${PAGES_MEDIA_ORIGIN}" > _site/pages-media-origin.txt
 
       - name: Remove editorial QA reports and measure the upload
         env:
