@@ -232,7 +232,7 @@ jobs:
               echo '/tools/listening/' >> .git/info/sparse-checkout
               ;;&
             *'[song-release]'*)
-              echo '/tools/song-content/' >> .git/info/sparse-checkout
+              printf '%s\n' '/tools/song-content/' '/tools/song-editorial/' >> .git/info/sparse-checkout
               ;;&
             *'[writing-release]'*)
               echo '/tools/grammar-detector-v2/' >> .git/info/sparse-checkout
