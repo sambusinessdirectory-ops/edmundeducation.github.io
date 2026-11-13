@@ -1,0 +1,283 @@
+{
+  "version": "2019-b2-static-validation-v1",
+  "generatedOn": "2026-11-13",
+  "summary": {
+    "pass": 44,
+    "fail": 0,
+    "total": 44
+  },
+  "modelWords": {
+    "8": 171,
+    "9": 123,
+    "10": 210
+  },
+  "modelSentenceCount": {
+    "8": 12,
+    "9": 8,
+    "10": 16
+  },
+  "hashes": {
+    "index.html": {
+      "bytes": 60503,
+      "sha256": "1cb2263bad31f856821da993e8603ddbb100767c47710f5ca4ec17f8e27e4976"
+    },
+    "super-curation.css": {
+      "bytes": 29991,
+      "sha256": "0642e6bd83876ad666de2c2720475a33739b51502a03769ec93a86e2f4c3f8d7"
+    },
+    "super-curation.js": {
+      "bytes": 82482,
+      "sha256": "a887636772d4ec46062aab582d0ec858b9d899824f9b5043de546e4053229fba"
+    },
+    "source-units.js": {
+      "bytes": 368352,
+      "sha256": "6811f69bc0f8412fbe324a62b0886e9e99f63763d41926c967b1f9996f34eeaa"
+    },
+    "listening-cues.js": {
+      "bytes": 19744,
+      "sha256": "26718c0991f86cc81fddf88a3343e9452868447af7a4d4fc679fac283c4ed7b8"
+    },
+    "model-essays.js": {
+      "bytes": 10950,
+      "sha256": "7f7c42ce332278ff46867076f5c4740d24abded6faae8815fd3ce702358979ca"
+    },
+    "source-manifest.json": {
+      "bytes": 4376,
+      "sha256": "1d41ff35a11983305906f71400b861dec7b47b4b2377487cefa61bc466dcf546"
+    },
+    "recording-provenance.json": {
+      "bytes": 572,
+      "sha256": "5f6d248994701408f36433a2fc9eb8d653c6d239423cc30575654d5a11a5d63d"
+    },
+    "audit.json": {
+      "bytes": 2563,
+      "sha256": "064d3a09923442bcd111efd40dfeecdb54d18ca0e2e132b3aa2dd2d6bd6610af"
+    },
+    "source-text.json": {
+      "bytes": 18683,
+      "sha256": "19b755d1ed85555e2f8ead9d1d8a795288d7ac1398699a3a4ac5a71a4bf27a05"
+    }
+  },
+  "results": [
+    {
+      "id": "DATA-001",
+      "status": "PASS",
+      "evidence": "unitCount=420"
+    },
+    {
+      "id": "DATA-002",
+      "status": "PASS",
+      "evidence": "all source-unit IDs are unique"
+    },
+    {
+      "id": "DATA-003",
+      "status": "PASS",
+      "evidence": "IDs are sequential and stable"
+    },
+    {
+      "id": "DATA-004",
+      "status": "PASS",
+      "evidence": "{\"不寫入答案\":137,\"只作指路\":72,\"只保留結論\":33,\"只控制語氣／格式\":33,\"只用來判斷證據狀態\":68,\"合併寫入\":69,\"獨立寫入\":8}"
+    },
+    {
+      "id": "DATA-005",
+      "status": "PASS",
+      "evidence": "all four learner prompts populated for all units"
+    },
+    {
+      "id": "DATA-006",
+      "status": "PASS",
+      "evidence": "every unit has a native page route"
+    },
+    {
+      "id": "DATA-007",
+      "status": "PASS",
+      "evidence": "all unit-to-audio mappings resolve"
+    },
+    {
+      "id": "AUDIO-001",
+      "status": "PASS",
+      "evidence": "cueCount=107"
+    },
+    {
+      "id": "AUDIO-002",
+      "status": "PASS",
+      "evidence": "cue indexes/times are monotonic"
+    },
+    {
+      "id": "AUDIO-003",
+      "status": "PASS",
+      "evidence": "0.05–986.06"
+    },
+    {
+      "id": "AUDIO-004",
+      "status": "PASS",
+      "evidence": "URL, bytes and ETag agree"
+    },
+    {
+      "id": "AUDIO-005",
+      "status": "PASS",
+      "evidence": "one authoritative audio element in controller source"
+    },
+    {
+      "id": "SRC-001",
+      "status": "PASS",
+      "evidence": "19 full-page source records"
+    },
+    {
+      "id": "SRC-002",
+      "status": "PASS",
+      "evidence": "4 embedded visual records"
+    },
+    {
+      "id": "SRC-003",
+      "status": "PASS",
+      "evidence": "every manifest image exists"
+    },
+    {
+      "id": "SRC-004",
+      "status": "PASS",
+      "evidence": "all full pages preserve 1653 × 2337 source dimensions"
+    },
+    {
+      "id": "SRC-005",
+      "status": "PASS",
+      "evidence": "manifest counts agree with generated datasets"
+    },
+    {
+      "id": "MODEL-001",
+      "status": "PASS",
+      "evidence": "models exist for Tasks 8, 9 and 10"
+    },
+    {
+      "id": "MODEL-002",
+      "status": "PASS",
+      "evidence": "{\"8\":171,\"9\":123,\"10\":210}"
+    },
+    {
+      "id": "MODEL-003",
+      "status": "PASS",
+      "evidence": "every model source ID resolves"
+    },
+    {
+      "id": "MODEL-004",
+      "status": "PASS",
+      "evidence": "no model sentence cites noise or a do-not-write unit"
+    },
+    {
+      "id": "MODEL-005",
+      "status": "PASS",
+      "evidence": "all no-source sentences have a documented rhetorical function"
+    },
+    {
+      "id": "MODEL-006",
+      "status": "PASS",
+      "evidence": "89 high-value units: 86 mapped, 3 rationalized"
+    },
+    {
+      "id": "MODEL-007",
+      "status": "PASS",
+      "evidence": "protected false claims absent"
+    },
+    {
+      "id": "UI-001",
+      "status": "PASS",
+      "evidence": "all curation assets loaded by index"
+    },
+    {
+      "id": "UI-002",
+      "status": "PASS",
+      "evidence": "M01–M22 motion tokens present"
+    },
+    {
+      "id": "UI-003",
+      "status": "PASS",
+      "evidence": "reduced-motion branch present"
+    },
+    {
+      "id": "UI-004",
+      "status": "PASS",
+      "evidence": "versioned v2 persistence and explicit v1 migration present"
+    },
+    {
+      "id": "UI-005",
+      "status": "PASS",
+      "evidence": "cue state listens to seek/end events"
+    },
+    {
+      "id": "UI-006",
+      "status": "PASS",
+      "evidence": "note gates require completed cues; backward seek reconstructs state without deleting authored note values"
+    },
+    {
+      "id": "UI-007",
+      "status": "PASS",
+      "evidence": "tab, live-region and motion accessibility hooks present"
+    },
+    {
+      "id": "UI-008",
+      "status": "PASS",
+      "evidence": "five independent save-slot controls present"
+    },
+    {
+      "id": "UI-009",
+      "status": "PASS",
+      "evidence": "export payload is scoped and import is size/version/year/level validated"
+    },
+    {
+      "id": "UI-010",
+      "status": "PASS",
+      "evidence": "categorisation owns provisional learner state and gated canonical reveal"
+    },
+    {
+      "id": "UI-011",
+      "status": "PASS",
+      "evidence": "cue playback stops transactionally at authored end boundaries"
+    },
+    {
+      "id": "UI-012",
+      "status": "PASS",
+      "evidence": "timeline, speed controls and cue pins are present"
+    },
+    {
+      "id": "UI-013",
+      "status": "PASS",
+      "evidence": "complete transcript window is movable, resizable, viewport-clamped and persisted"
+    },
+    {
+      "id": "UI-014",
+      "status": "PASS",
+      "evidence": "model sentences open stable-ID original-source previews with navy-ink treatment"
+    },
+    {
+      "id": "UI-015",
+      "status": "PASS",
+      "evidence": "native source visits preserve an exact return route"
+    },
+    {
+      "id": "UI-016",
+      "status": "PASS",
+      "evidence": "numbered task content points and task-labelled native source paragraphs are generated from authored units"
+    },
+    {
+      "id": "UI-017",
+      "status": "PASS",
+      "evidence": "stable bookmarks and local contextual help/question state are present"
+    },
+    {
+      "id": "UI-018",
+      "status": "PASS",
+      "evidence": "audio-derived evidence cannot enter a bank before its cue is completed"
+    },
+    {
+      "id": "UI-019",
+      "status": "PASS",
+      "evidence": "listening chapter reuses the six authentic page-3 textareas instead of creating a synthetic worksheet"
+    },
+    {
+      "id": "AUDIT-001",
+      "status": "PASS",
+      "evidence": "audit manifest identifies the current Super Curation version"
+    }
+  ]
+}
