@@ -183,6 +183,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         "window.EDMUND_SUNNY_S3_GRAMMAR_BOOK_SEED = ",
         None,
     ),
+    (
+        "flashcards-jayden-test-november-2026-data.js",
+        "window.EDMUND_JAYDEN_TEST_NOVEMBER_2026_SEED = ",
+        None,
+    ),
 )
 AUDIO_BUILD_VERSION = "v1"
 STATIC_AUDIO_ROOT = f"assets/flashcards/audio/edmund-neural/{AUDIO_BUILD_VERSION}"

@@ -30,7 +30,8 @@ const lazyFiles = [
   ["flashcards-hkfsd-incident-reports-data.js", "20260818-1"],
   ["flashcards-hkpf-data.js", "20260715-1"],
   ["flashcards-business-concepts-book1-data.js", "20260816-1"],
-  ["flashcards-sunny-s3-grammar-book-data.js", "20260908-1"]
+  ["flashcards-sunny-s3-grammar-book-data.js", "20260908-1"],
+  ["flashcards-jayden-test-november-2026-data.js", "20261113-1"]
 ];
 
 const catalog = {};
@@ -63,5 +64,5 @@ if (checkOnly) {
 
 const html = readFileSync(path.join(root, "flashcards.html"), "utf8");
 assert.ok(html.includes('data-flashcard-lazy-bundles'), "Flashcard content scripts must remain outside startup");
-assert.ok(html.includes('flashcards-data-catalog.js?v=20261027-last-train'), "Flashcard data catalog is not loaded at startup");
+assert.ok(html.includes('flashcards-data-catalog.js?v=20261113-jayden-test1'), "Flashcard data catalog is not loaded at startup");
 console.log(JSON.stringify({ decks: Object.keys(sortedCatalog).length, files: lazyFiles.length, checkOnly }));

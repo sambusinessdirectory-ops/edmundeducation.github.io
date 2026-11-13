@@ -55,12 +55,12 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 17780, "catalogue includes Advanced Native lessons and every previously released resource");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 17781, "catalogue includes Advanced Native lessons and every previously released resource");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 1463, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 1464, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 407, "all current writing exercises should be indexed");
 assert.equal((byType["model-essay-memorization"] || []).length, 288, "all released Model Essay Memorization lessons should be indexed");
 assert.deepEqual((byType["ielts-question-types"] || []).map((resource) => resource.url), ["ielts-writing-question-preview.html#task1", "ielts-writing-question-preview.html#task2"], "Homework links only to the two task views");
@@ -145,6 +145,7 @@ for (const exercise of byType["fill-blanks"] || []) {
 }
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.equal(HOMEWORK_RESOURCE_CATALOG.find((item) => item.id === "flash:custom-setup/the-last-train")?.url, "flashcards.html?deck=custom-setup%2Fthe-last-train");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.find((item) => item.id === "flash:custom-setup/jayden-test-november-2026")?.url, "flashcards.html?deck=custom-setup%2Fjayden-test-november-2026");
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("model-essay-memorization:task1-bar-charts:1"));
 assert.ok(ids.has("model-essay-memorization:opinion:106"));

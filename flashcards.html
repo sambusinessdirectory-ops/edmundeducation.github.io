@@ -4493,7 +4493,7 @@
             let ready = false, active = true, mode = "startup", value = 5;
             let startedAt = Date.now(), stageAt = startedAt, timer, hideTimer;
             let resources = 0, resourcePhase = true;
-            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js","flashcards-ielts-writing-data.js?v=20260713-1","flashcards-ielts-reading-index.js?v=20260731-1","dse-writing-part-b-links.js?v=20260911-1","essay-portal-links.js?v=20261106-memorization1","supabase-config.js","eddy-global-dialogues.js?v=20261027-homeonly1","shared-system-nav.js?v=20261111-student-autoentry2","flashcards-data-catalog.js?v=20261027-last-train","dse-writing-part-b-topics.js?v=20260911-1","edmund-audio-config.js?v=1","italian-1-burro-montato-data.js?v=20260914-1","italian-1-audio.js?v=20260914-1","italian-2-torta-coi-bischeri-data.js?v=20260929-2","italian-2-audio.js?v=20260929-1","french-1-fondant-data.js?v=20260914-1","french-1-audio.js?v=20260914-1"];
+            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js","flashcards-ielts-writing-data.js?v=20260713-1","flashcards-ielts-reading-index.js?v=20260731-1","dse-writing-part-b-links.js?v=20260911-1","essay-portal-links.js?v=20261106-memorization1","supabase-config.js","eddy-global-dialogues.js?v=20261027-homeonly1","shared-system-nav.js?v=20261111-student-autoentry2","flashcards-data-catalog.js?v=20261113-jayden-test1","dse-writing-part-b-topics.js?v=20260911-1","edmund-audio-config.js?v=1","italian-1-burro-montato-data.js?v=20260914-1","italian-1-audio.js?v=20260914-1","italian-2-torta-coi-bischeri-data.js?v=20260929-2","italian-2-audio.js?v=20260929-1","french-1-fondant-data.js?v=20260914-1","french-1-audio.js?v=20260914-1"];
             const pendingResources = new Set(resourceSources);
             form.addEventListener("submit", event => {
               event.preventDefault();
@@ -5190,7 +5190,7 @@
   <script src="supabase-config.js"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261111-student-autoentry2"></script>
   <script>window.EDMUND_FLASHCARD_SEED = window.EDMUND_FLASHCARD_SEED || {};</script>
-  <script src="flashcards-data-catalog.js?v=20261027-last-train"></script>
+  <script src="flashcards-data-catalog.js?v=20261113-jayden-test1"></script>
   <script src="dse-writing-part-b-topics.js?v=20260911-1"></script>
 
   <template data-flashcard-lazy-bundles>
@@ -5220,9 +5220,10 @@
     <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
     <script src="flashcards-business-concepts-book1-data.js?v=20260816-1"></script>
     <script src="flashcards-sunny-s3-grammar-book-data.js?v=20260908-1"></script>
+    <script src="flashcards-jayden-test-november-2026-data.js?v=20261113-1"></script>
   </template>
   <script src="edmund-audio-config.js?v=1"></script>
-<template data-flashcard-lazy-audio><script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2"></script></template>
+<template data-flashcard-lazy-audio><script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20261113-jayden-test1"></script></template>
 <template data-flashcard-lazy-audio><script src="flashcards-dse-writing-part-b-audio.js?v=20260911-kokoro-1"></script></template>
   <script src="italian-1-burro-montato-data.js?v=20260914-1"></script>
   <script src="italian-1-audio.js?v=20260914-1"></script>
@@ -5458,7 +5459,7 @@
       if (languageEdition.active || Object.keys(window.EDMUND_FLASHCARD_AUDIO || {}).length) return;
       if (flashcardAudioManifestPromise) return flashcardAudioManifestPromise;
       flashcardAudioManifestPromise = Promise.all([
-        loadFlashcardScriptOnce("flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2", "flashcard-audio-manifest"),
+        loadFlashcardScriptOnce("flashcards-audio-manifest.js?v=edmund-neural-v1-20261113-jayden-test1", "flashcard-audio-manifest"),
         loadFlashcardScriptOnce("flashcards-dse-writing-part-b-audio.js?v=20260911-kokoro-1", "flashcard-dse-writing-audio")
       ]).catch(error => {
         flashcardAudioManifestPromise = null;
@@ -6746,6 +6747,7 @@
     // custom-setup decks stay hidden from students, including aggregate counts.
     const customSetupDeckAssignments = [
       { id: "custom-setup/the-last-train", studentName: "Jayden", title: "The Last Train" },
+      { id: "custom-setup/jayden-test-november-2026", studentName: "Jayden", title: "Jayden Test November 2026" },
       { id: "custom-setup/sprint-text-1", studentName: "Jayden", title: "Sprint - Text 1" },
       { id: "custom-setup/sprint-text-2", studentName: "Jayden", title: "Sprint - Text 2" },
       ...Array.from({ length: 47 }, (_, index) => ({
