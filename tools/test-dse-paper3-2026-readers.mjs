@@ -159,8 +159,10 @@ for (const route of ["/paper3/2026-b1/", "/paper3/2026-b2/"]) {
   assert.ok(portalHtml.includes(route), `Portal hero missing ${route}`);
   assert.ok(portalJs.includes(route), `Portal routing missing ${route}`);
 }
-assert.match(catalogue, /目前可開啟 28 份/);
-assert.match(portalHtml, /28 份教材/);
+assert.match(catalogue, /目前可開啟 29 份/);
+assert.match(portalHtml, /29 份教材/);
+assert.ok(catalogue.includes('/paper3/2024-b2/'), 'Catalogue missing /paper3/2024-b2/');
+assert.ok(portalJs.includes('"2024-b2":["/paper3/2024-b2/"'), 'Portal routing missing 2024 B2 reader');
 assert.match(portalHtml, /dse-paper3-analysis\.js\?v=20261112-2026readers1/);
 
 console.log("2026 DSE Paper 3 B1/B2 reader validation passed.");
