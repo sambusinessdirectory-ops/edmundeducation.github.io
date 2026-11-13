@@ -33,8 +33,16 @@ for(const portal of ['phrasal-verb-system.html','idiom-system.html','sentence-st
 
 assert.match(relay,/const NEURAL_AUDIO_ORIGIN = "https:\/\/edmund-neural-audio\.edmundeducation\.workers\.dev"/);
 assert.match(relay,/const PUBLIC_MEDIA_ORIGIN = "https:\/\/edmund-public-media\.edmundeducation\.workers\.dev"/);
+assert.match(relay,/const PUBLIC_FUNCTION_PATH = "\/functions\/v1\/public-audio-relay"/);
+assert.match(relay,/const LISTENING_CATALOG_PATH = "v1\/listening\/catalog"/);
 assert.match(relay,/\["range", "if-none-match", "if-modified-since"\]/);
 assert.match(relay,/request\.method !== "GET" && request\.method !== "HEAD"/);
+assert.match(relay,/decodedPath === LISTENING_CATALOG_PATH/);
+assert.match(relay,/\? \{ origin: NEURAL_AUDIO_ORIGIN, path: LISTENING_CATALOG_PATH \}/);
+assert.match(relay,/isListeningCatalog[\s\S]*?max-age=300, stale-while-revalidate=3600/);
+assert.match(relay,/replaceAll\(NEURAL_AUDIO_ORIGIN, relayBaseUrl\(request\.url\)\)/);
+assert.match(relay,/headers\.delete\("Content-Length"\)/);
+assert.match(relay,/headers\.delete\("ETag"\)/);
 assert.match(relay,/!AUDIO_EXTENSION\.test\(upstreamPath\)/);
 assert.match(relay,/"IELTS Listening - Recordings\/"/);
 assert.match(relay,/"DSE Listening - Recordings\/"/);
