@@ -1,7 +1,7 @@
 # 2019 B2 Matched-State Browser Test Report
 
 **Machine result:** PASS — 116/116 assertions (44 static + 72 browser), zero failures.<br>
-**Browser run:** `2019-b2-browser-conformance-v2`, generated 2026-11-13T09:57:40.107Z against the actual release working tree at `http://127.0.0.1:8768`.<br>
+**Browser run:** `2019-b2-browser-conformance-v2`, generated 2026-11-13T10:17:11.404Z against the corrected release payload at `http://127.0.0.1:8767`.<br>
 **Human visual result:** PENDING — automated and author visual inspection do not substitute for independent human approval.
 
 ## Executable suites
@@ -21,6 +21,7 @@
 - Persistence: slot isolation, validated export/import, v1 migration path, reload restore and versioned v2 state.
 - Accessibility/layout: keyboard unit navigation, accessible stamp labels, live states, 1440/1100/768/390 widths, 200% visual scale, print, reduced motion, Firefox geometry and lifecycle.
 - Negative/error state: no console warnings or page errors in the tested Chromium, mobile and Firefox runs.
+- Release-specific regression: a first live run exposed relative preview-image requests after the Pages media rewrite; the preview now derives its URL from the already rewritten native scan, and the full local suite passes with no 4xx console errors.
 
 ## Key verified values
 
