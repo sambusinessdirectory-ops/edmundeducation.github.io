@@ -6,6 +6,7 @@ import path from "node:path";
 import vm from "node:vm";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataOnly = process.argv.includes("--data-only");
@@ -211,6 +212,9 @@ if (!dataOnly) {
     const expectedLocal = `assets/flashcards/audio/edmund-neural/v1/${digest.slice(0, 2)}/${digest}.mp3`;
     if (front === "appear to be" && url === verifiedCustomAudio) {
       customAudio += 1;
+    } else if (typeof url === "string" && !url.startsWith("https://") && !url.startsWith("assets/flashcards/audio/edmund-neural/")) {
+      assertPublishedFlashcardAudio(root, url, front);
+      localAudio += 1;
     } else if (url === expectedLocal) {
       if (!sourceFileAvailable(expectedLocal, trackedAudioFiles)) missing.push(`${front}: invalid local audio`);
       else localAudio += 1;

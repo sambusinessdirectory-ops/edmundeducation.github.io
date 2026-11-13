@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
-import { readFileSync, statSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
+import { assertPublishedFlashcardAudio } from './flashcard-audio-release-fixture.mjs';
+
+const siteDir = fileURLToPath(new URL('..', import.meta.url));
 
 const dataUrl = new URL('../flashcards-sunny-s3-grammar-book-data.js', import.meta.url);
 const source = readFileSync(dataUrl, 'utf8');
@@ -82,8 +86,7 @@ for (const front of spokenFronts) {
   const audioPath = audioManifest[front];
   assert.ok(audioPath, `Missing term audio: ${front}`);
   if (!audioPath.startsWith('https://')) {
-    const file = new URL(`../${audioPath}`, import.meta.url);
-    assert.ok(statSync(file).size > 1000, `Missing or empty term audio: ${front}`);
+    assertPublishedFlashcardAudio(siteDir, audioPath, front);
   }
 }
 console.log(JSON.stringify({ decks: deckIds.length, populatedDecks: counts.length, cards: cardCount, bilingualExamples: exampleCount, audioTerms: spokenFronts.size, pdfTextVerified: true }));
