@@ -7,6 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const flashcardDataFile = "flashcards-hkfsd-incident-reports-data.js";
@@ -206,9 +207,7 @@ for (const [index, card] of cards.entries()) {
   const audioPath = flashcardAudio[normalizeCardText(card.front)];
   assert.ok(audioPath, `Flashcard ${index + 1}: missing Kokoro audio mapping for ${card.front}`);
   if (!String(audioPath).startsWith("https://")) {
-    const localPath = path.join(root, audioPath);
-    assert.ok(fs.existsSync(localPath), `Flashcard ${index + 1}: mapped MP3 is missing`);
-    assert.ok(fs.statSync(localPath).size > 1000, `Flashcard ${index + 1}: mapped MP3 is implausibly small`);
+    assertPublishedFlashcardAudio(root, audioPath, `Flashcard ${index + 1}`);
   }
 }
 assert.equal(flashcardAudioMeta.complete, true, "Flashcard audio manifest must be complete");

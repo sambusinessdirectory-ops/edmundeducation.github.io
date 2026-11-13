@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataFile = "flashcards-hkfsd-concept-vocabulary-book1-data.js";
@@ -90,9 +91,7 @@ for (const item of expected) {
     const audioUrl = audioManifest?.[front];
     assert.ok(audioUrl, `${label}: missing Kokoro audio mapping`);
     if (!audioUrl.startsWith("https://")) {
-      const audioPath = path.join(root, audioUrl);
-      assert.ok(fs.existsSync(audioPath), `${label}: local audio file is missing`);
-      assert.ok(fs.statSync(audioPath).size > 1000, `${label}: local audio file is too small`);
+      assertPublishedFlashcardAudio(root, audioUrl, label);
     }
     exampleCount += card.examples.length;
   });

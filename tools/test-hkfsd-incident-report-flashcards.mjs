@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const read = file => fs.readFileSync(path.join(root, file), "utf8");
@@ -62,9 +63,7 @@ for (const [index, card] of cards.entries()) {
   const audioUrl = audio?.[normalizedFront(card.front)];
   assert.ok(audioUrl, `${label}: Kokoro mapping missing for ${card.front}`);
   if (!audioUrl.startsWith("https://")) {
-    const audioPath = path.join(root, audioUrl);
-    assert.ok(fs.existsSync(audioPath), `${label}: local MP3 missing`);
-    assert.ok(fs.statSync(audioPath).size > 1_000, `${label}: local MP3 implausibly small`);
+    assertPublishedFlashcardAudio(root, audioUrl, label);
   }
 }
 assert.equal(bilingualExamples, 430);

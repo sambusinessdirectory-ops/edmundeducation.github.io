@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 const toolsDirectory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(toolsDirectory, "..");
@@ -65,16 +66,14 @@ for (const [deckId, cards] of Object.entries(decks)) {
       missing.push(`${deckId}: ${front}`);
       continue;
     }
-    if (audioUrl.startsWith("assets/")) {
-      const audioPath = path.join(root, audioUrl);
-      assert.ok(fs.existsSync(audioPath), `${front} points to a missing local MP3`);
-      assert.ok(fs.statSync(audioPath).size > 1000, `${front} has an invalid local MP3`);
-    } else {
+    if (audioUrl.startsWith("https://")) {
       assert.match(
         audioUrl,
         /^https:\/\/edmund-neural-audio\.edmundeducation\.workers\.dev\/assets\/flashcards\/audio\/edmund-neural\//,
         `${front} has an unexpected voice URL`
       );
+    } else {
+      assertPublishedFlashcardAudio(root, audioUrl, front);
     }
     checkedCards += 1;
   }

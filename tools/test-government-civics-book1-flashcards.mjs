@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataFile = "flashcards-government-civics-book1-data.js";
@@ -106,9 +107,7 @@ for (const [slug, expectedCards, maxPage, englishTitle, chineseTitle] of expecte
     const audioUrl = audioManifest[card.front.trim()];
     assert(typeof audioUrl === "string" && audioUrl, `${label}: missing Edmund Neural audio mapping`);
     if (!audioUrl.startsWith("https://")) {
-      const audioPath = path.join(root, audioUrl);
-      assert(fs.existsSync(audioPath), `${label}: local audio file is missing`);
-      assert(fs.statSync(audioPath).size > 1000, `${label}: local audio file is too small`);
+      assertPublishedFlashcardAudio(root, audioUrl, label);
     }
   });
   cardCount += cards.length;

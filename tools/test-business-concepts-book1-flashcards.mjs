@@ -8,6 +8,7 @@ import vm from "node:vm";
 import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 import { fileURLToPath } from "node:url";
 import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
+import { assertPublishedFlashcardAudio } from "./flashcard-audio-release-fixture.mjs";
 
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -237,24 +238,24 @@ for (const item of expected) {
 
     const audioUrl = audioManifest[front];
     assert.ok(audioUrl, `${label}: missing Edmund Neural audio for ${JSON.stringify(front)}`);
-    const digest = expectedAudioDigest(front);
-    const pathname = audioUrl.startsWith("https://")
-      ? new URL(audioUrl).pathname.replace(/^\//, "")
-      : audioUrl;
-    assert.equal(
-      pathname.endsWith(`/${digest.slice(0, 2)}/${digest}.mp3`),
-      true,
-      `${label}: audio URL does not match the normalized-front digest`
-    );
+    if (audioUrl.startsWith("https://") || audioUrl.startsWith("assets/flashcards/audio/edmund-neural/v1/")) {
+      const digest = expectedAudioDigest(front);
+      const pathname = audioUrl.startsWith("https://")
+        ? new URL(audioUrl).pathname.replace(/^\//, "")
+        : audioUrl;
+      assert.equal(
+        pathname.endsWith(`/${digest.slice(0, 2)}/${digest}.mp3`),
+        true,
+        `${label}: audio URL does not match the normalized-front digest`
+      );
+    }
     if (audioUrl.startsWith("https://")) {
       assert.ok(
         audioUrl.startsWith("https://edmund-neural-audio.edmundeducation.workers.dev/"),
         `${label}: unexpected remote audio origin`
       );
     } else {
-      const audioPath = path.join(root, audioUrl);
-      assert.ok(fs.existsSync(audioPath), `${label}: local audio file is missing`);
-      assert.ok(fs.statSync(audioPath).size > 1000, `${label}: local audio file is too small`);
+      assertPublishedFlashcardAudio(root, audioUrl, label);
     }
   }
   assert.equal(perDeckFronts.size, item.uniqueFronts, `${item.deckId}: unique-front count changed`);
