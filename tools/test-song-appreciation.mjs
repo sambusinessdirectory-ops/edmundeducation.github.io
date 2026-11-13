@@ -2,6 +2,7 @@
 
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
+import { runInNewContext } from "node:vm";
 
 const root = new URL("../", import.meta.url);
 const read = path => readFile(new URL(path, root), "utf8");
@@ -42,6 +43,9 @@ for (const marker of [
 ]) assert.ok(html.includes(marker), `song-appreciation.html is missing ${marker}`);
 
 assert.match(html, /Content-Security-Policy[^>]*cdn\.jsdelivr\.net[^>]*youtube\.com[^>]*ookkxzgpdclzrrhfmvqx\.supabase\.co/i);
+assert.match(html, /img-src[^;]*edmund-public-media\.edmundeducation\.workers\.dev/i);
+assert.match(html, /media-src[^;]*ookkxzgpdclzrrhfmvqx\.supabase\.co/i);
+assert.match(html, /song-appreciation\.js\?v=20261113-song-media-cutover1/);
 assert.doesNotMatch(html, /unsafe-eval/i);
 assert.match(html, /meta name="robots" content="noindex, nofollow"/);
 assert.match(html, /pwa-manifests\/song-appreciation\.webmanifest/);
@@ -55,6 +59,27 @@ for (const pattern of [
   /dashboardPreferenceKey/, /aria-checked/, /player\.seekTo\(0, true\)/, /fetchAllPages/,
   /cancelReadCountdown/, /includeAnswers: false/, /validateSavedAttempt/, /revealServerResult/
 ]) assert.match(`${config}\n${js}`, pattern);
+
+for (const pattern of [
+  /const PUBLIC_MEDIA_ORIGIN = "https:\/\/edmund-public-media\.edmundeducation\.workers\.dev"/,
+  /const PUBLIC_AUDIO_ORIGIN = "https:\/\/ookkxzgpdclzrrhfmvqx\.supabase\.co\/functions\/v1\/public-audio-relay\/public"/,
+  /host === "edmundeducation\.com" && url\.pathname\.startsWith\("\/song-media\/"\)/,
+  /image \? PUBLIC_MEDIA_ORIGIN : PUBLIC_AUDIO_ORIGIN/
+]) assert.match(js, pattern);
+
+const mediaConstants = js.match(/const PUBLIC_MEDIA_ORIGIN = [^;]+;\s+const PUBLIC_AUDIO_ORIGIN = [^;]+;/)?.[0];
+assert.ok(mediaConstants, "song media delivery constants are missing");
+const mediaSandbox = { URL };
+runInNewContext(`${mediaConstants}\nfunction text(value) { return String(value == null ? "" : value); }\n${between(js, "function safeMediaUrl", "function thumbnailUrl", "safeMediaUrl")}\nthis.safeMediaUrl = safeMediaUrl;`, mediaSandbox);
+assert.equal(
+  mediaSandbox.safeMediaUrl("https://edmundeducation.com/song-media/photograph/cover.webp", true),
+  "https://edmund-public-media.edmundeducation.workers.dev/song-media/photograph/cover.webp"
+);
+assert.equal(
+  mediaSandbox.safeMediaUrl("https://edmundeducation.com/song-media/photograph/album.mp3"),
+  "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/public/song-media/photograph/album.mp3"
+);
+assert.equal(mediaSandbox.safeMediaUrl("https://attacker.example/song-media/photograph/album.mp3"), "");
 
 assert.match(config, /song_appreciation_playback_list/);
 assert.match(config, /song_appreciation_playback_add/);

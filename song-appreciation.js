@@ -5,6 +5,8 @@
   const SUPABASE = window.EDMUND_SUPABASE || {};
   const CHART_RANGES = [7, 30, 90, 0];
   const PAGE_SIZE = 500;
+  const PUBLIC_MEDIA_ORIGIN = "https://edmund-public-media.edmundeducation.workers.dev";
+  const PUBLIC_AUDIO_ORIGIN = "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/public";
   const MODE_ACCENTS = Object.freeze({ standard: "STANDARD", medium: "MEDIUM", hard: "HARD", hell: "HELL" });
   const SYNC_PRESETS = Object.freeze({
     jYa1eI1hpDE: Object.freeze([
@@ -259,8 +261,20 @@
   }
 
   function safeMediaUrl(value, image = false) {
-    const url = text(value).trim();
-    return /^(https:\/\/(edmundeducation\.com|edmund-speaking-system\.edmundeducation\.workers\.dev)\/|assets\/)/i.test(url) || (image && /^data:image\/(webp|png|jpeg);base64,/i.test(url)) ? url : "";
+    const source = text(value).trim();
+    if (/^assets\//i.test(source)) return source;
+    if (image && /^data:image\/(webp|png|jpeg);base64,/i.test(source)) return source;
+    let url;
+    try { url = new URL(source); } catch { return ""; }
+    if (url.protocol !== "https:") return "";
+    const host = url.hostname.toLowerCase();
+    if (host === "edmundeducation.com" && url.pathname.startsWith("/song-media/")) {
+      return `${image ? PUBLIC_MEDIA_ORIGIN : PUBLIC_AUDIO_ORIGIN}${url.pathname}${url.search}${url.hash}`;
+    }
+    if (host === "edmundeducation.com" || host === "edmund-speaking-system.edmundeducation.workers.dev") return url.href;
+    if (image && host === "edmund-public-media.edmundeducation.workers.dev") return url.href;
+    if (!image && host === "ookkxzgpdclzrrhfmvqx.supabase.co" && url.pathname.startsWith("/functions/v1/public-audio-relay/")) return url.href;
+    return "";
   }
   function thumbnailUrl(song) { return song?.coverUrl || ""; }
   function hasSongAudio(song) { return Boolean(song?.audioUrl || youtubeVideoId(song?.youtubeUrl)); }
