@@ -265,6 +265,7 @@
       "song-*",
       "tools/check-song-quality.mjs",
       "tools/song-content/**",
+      "tools/song-editorial/**",
       "tools/test-song-*.mjs"
     ],
     "[writing-preview-release]": [
