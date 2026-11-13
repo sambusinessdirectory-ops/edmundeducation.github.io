@@ -10,6 +10,7 @@ body[data-learning-portal="junior-quiz-review"],body[data-learning-portal="junio
 .quiz-home,.quiz-not-assigned,.quiz-story-head,.quiz-exercise-head,.quiz-finished{padding:clamp(22px,4vw,46px);border:1px solid #d8c8ad;border-radius:18px;background:linear-gradient(145deg,#fffdf7,#f4f0e6);box-shadow:0 18px 45px rgba(36,51,50,.09)}
 .quiz-home h2,.quiz-not-assigned h2,.quiz-exercise-head h2,.quiz-finished h2{margin:0 0 18px;font:700 clamp(30px,4vw,48px)/1.18 Georgia,"Noto Serif TC",serif}
 .quiz-module{display:grid;grid-template-columns:70px 1fr auto;align-items:center;gap:20px;width:100%;padding:23px;border:1px solid #c4ab86;border-radius:14px;background:#fffaf0;color:#254750;text-align:left;cursor:pointer;box-shadow:0 10px 26px rgba(80,55,33,.1);transition:transform .28s ease,box-shadow .28s ease}
+.quiz-module+.quiz-module{margin-top:15px}
 .quiz-module:hover{transform:translateY(-3px);box-shadow:0 17px 35px rgba(80,55,33,.16)}
 .quiz-module__number{color:#a16c45;font:700 44px Georgia,serif}
 .quiz-module strong,.quiz-module small,.quiz-module em{display:block}
@@ -33,12 +34,15 @@ body[data-learning-portal="junior-quiz-review"],body[data-learning-portal="junio
 .quiz-speeds button{padding:7px 10px;border:1px solid #b6c8c5;border-radius:6px;background:#fffdf7;color:#325c63;font:700 12px system-ui,sans-serif;cursor:pointer}
 .quiz-speeds button.is-active{border-color:#176d83;background:#176d83;color:white}
 .quiz-paragraphs{display:grid;gap:13px}
-.quiz-paragraph{display:grid;grid-template-columns:42px 1fr;gap:4px 15px;padding:23px 26px;border:1px solid #d7ded9;border-left:4px solid #74a6a9;border-radius:12px;background:#fffefa;box-shadow:0 8px 19px rgba(33,64,59,.06)}
-.quiz-paragraph>span{color:#0a7891;font:700 18px Georgia,serif}
-.quiz-paragraph p{margin:0;line-height:1.8}
-.quiz-paragraph p[lang="en"]{font:19px/1.68 Georgia,"Times New Roman",serif}
+.quiz-paragraph,.quiz-footnote{display:grid;grid-template-columns:42px 1fr;gap:4px 15px;padding:23px 26px;border:1px solid #d7ded9;border-left:4px solid #74a6a9;border-radius:12px;background:#fffefa;box-shadow:0 8px 19px rgba(33,64,59,.06)}
+.quiz-paragraph>span,.quiz-footnote>span{color:#0a7891;font:700 18px Georgia,serif}
+.quiz-paragraph p,.quiz-footnote p{margin:0;line-height:1.8}
+.quiz-paragraph p[lang="en"],.quiz-footnote p[lang="en"]{font:19px/1.68 Georgia,"Times New Roman",serif}
 .quiz-paragraph__zh{grid-column:2;padding-top:12px;border-top:1px solid #e5e1d5;color:#536c6f;font-size:15px}
 .quiz-paragraphs[data-translation-visible="false"] .quiz-paragraph__zh{display:none}
+.quiz-footnotes{display:grid;gap:13px;margin-top:13px}
+.quiz-footnotes h3{margin:18px 0 2px;color:#6e4a30;font:700 23px Georgia,"Noto Serif TC",serif}
+.quiz-footnote{border-left-color:#b78c60;background:#fffaf1}
 .quiz-story-bottom{justify-content:center}
 .quiz-exercise-head>p:last-child{max-width:810px;color:#5d7373;line-height:1.65}
 .quiz-progress{display:grid;grid-template-columns:1fr auto;gap:9px 15px;margin:22px 0;padding:16px 20px;border:1px solid #c7d6d0;border-radius:10px;background:#f7faf5}
@@ -68,8 +72,8 @@ body[data-learning-portal="junior-quiz-review"],body[data-learning-portal="junio
 .quiz-finished{text-align:center}
 @media(max-width:700px){.quiz-app{margin:12px auto 70px}
 .quiz-listening{grid-template-columns:1fr}
-.quiz-paragraph{grid-template-columns:30px 1fr;padding:18px}
-.quiz-paragraph p[lang="en"]{font-size:17px}
+.quiz-paragraph,.quiz-footnote{grid-template-columns:30px 1fr;padding:18px}
+.quiz-paragraph p[lang="en"],.quiz-footnote p[lang="en"]{font-size:17px}
 .quiz-dictation__actions{justify-content:center}
 .quiz-submit>div:nth-child(2){width:100%}
 .quiz-submit>div:nth-child(2) button{flex:1}
