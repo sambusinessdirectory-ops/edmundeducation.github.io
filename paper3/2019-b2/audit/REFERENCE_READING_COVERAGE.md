@@ -18,6 +18,39 @@ This ledger records literal reading coverage for the permanent 2019 B2 Super Cur
 - Next unread line: none.
 - Status: complete.
 
+## 2025 Stage 1 full-screen reference
+
+- File: `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Stage 1 - Reference.pdf`
+- Extent: 24 pages, each representing one successive Stage 1 state.
+- Visual reading: all 24 pages rendered and inspected, including normal boss-letter states and inserted source-route states.
+- Controlling finding: Stage 1 is a progressive, source-synchronised teaching sequence; it is not a three-card task summary. The 2019 adaptation therefore uses its authentic 19 email units and eight named source visits, for 27 steps.
+- Status: complete.
+
+## 2025 Stage 2 full-screen references
+
+- Files: `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Super Curation - Stage 2 - No Spotlight.pdf` and `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Super Curation - Stage 2 - Spotlight.pdf`.
+- Extent: 16 pages each, representing the same successive Stage 2 states with spotlight off/on.
+- Visual reading: all 32 pages rendered and inspected; paired states compared for page targeting, dock content, A/B/C stamps, note-sheet Task labels, Type-6 red lines and spotlight geometry.
+- Controlling finding: Stage 2 is exactly eight page-level classifications followed by eight note-sheet label steps. It establishes source routing before extraction; it is not the 420-unit sentence explorer, which belongs in Stage 4.
+- Status: complete.
+
+## 2025 Stage 3 full-screen references
+
+- Files: `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Super Curation - Stage 3 - No Spotlight.pdf` and `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Super Curation - Stage 3 - Spotlight.pdf`.
+- Extent: 157 pages each, representing the same successive Stage 3 states with spotlight off/on.
+- Visual reading: all 314 pages rendered and inspected in paired contact sheets; guided note stops, source visit/return, transcript sentence progression, audio bar, movable transcript, progressive task colours, rejection strokes and spotlight geometry were compared.
+- Controlling finding: the 2025 sequence is 19 guided answer stops + one source visit + one return + 136 transcript sentences = 157 states. The authentic 2019 adaptation has six note destinations + one content-end stop + 107 transcript cues = 114 states; it has no Stage 3 source detour because its cross-source counterarguments belong to Stage 4.
+- Status: complete.
+
+## 2025 Stage 4 full-screen references
+
+- Files: `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Super Curation - Stage 4 - No Spotlight.pdf` and `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Super Curation - Stage 4 - Spotlight.pdf`.
+- Extent: 235 pages each, representing the same successive Stage 4 source decisions with spotlight off/on.
+- Visual reading: all 470 pages rendered and inspected in paired contact sheets; atomic dock decisions, exact native targets, task colours, Type-6 strokes, source routes, automatic bank transfers, rewind projection, task jumps and spotlight geometry were compared.
+- Controlling finding: Stage 4 is one fixed source-led review sequence. The central original source remains primary, the left dock teaches exactly one decision, and permitted evidence transfers to the right bank only through Next. Task jumps change view without completing skipped steps; the final gate returns to the earliest missing step.
+- 2019 adaptation: the authentic Data File on physical pages 4–11 yields exactly 235 ordered units (`2019-B2-U0044`–`2019-B2-U0303`) and final bank totals of Task 8 = 19, Task 9 = 22 and Task 10 = 27.
+- Status: complete.
+
 ## Other required references
 
 - 2019 fact-line analysis: all 6,555 lines read; status complete.
