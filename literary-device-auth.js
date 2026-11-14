@@ -1,7 +1,9 @@
 import {PROGRESS_KEY,mergeProgress,normalizeProgress} from './literary-device-progress.mjs?v=1';
+import {createAuthenticatedRpc} from './literary-device-supabase.mjs?v=ledger8';
 const key='edmund-universal-student-session-v1',gate=document.querySelector('#student-gate'),app=document.querySelector('#student-app'),form=document.querySelector('#student-login'),status=document.querySelector('#login-status');
 let session,expiryTimer,loaded=false,learning;
-async function rpc(name,args){const c=window.EDMUND_SUPABASE;const r=await fetch(c.url+'/rest/v1/rpc/'+name,{method:'POST',headers:{apikey:c.anonKey,'Content-Type':'application/json'},body:JSON.stringify(args),cache:'no-store',signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('暫時無法連線，請稍後再試。');return r.json();}
+let authStorage;try{authStorage=sessionStorage;}catch{}
+const rpc=createAuthenticatedRpc({config:window.EDMUND_SUPABASE,supabase:window.supabase,storage:authStorage});
 function lock(message=''){clearTimeout(expiryTimer);session=null;learning?.resetProgress();app.hidden=true;gate.hidden=false;document.querySelector('#hint').close();status.textContent=message;try{sessionStorage.removeItem(key);}catch{} }
 function localKey(studentId){return PROGRESS_KEY+':'+studentId;}
 function readLocal(studentId){try{return JSON.parse(localStorage.getItem(localKey(studentId))||'null');}catch{return null;}}

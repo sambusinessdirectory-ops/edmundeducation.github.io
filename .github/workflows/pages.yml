@@ -706,6 +706,8 @@ jobs:
         run: |
           node --check literary-device-data.js
           node --check literary-device.js
+          node --check literary-device-auth.js
+          node --test literary-device-progress.test.mjs literary-device-supabase.test.mjs
           grep -Fq 'literary-device-data.js' literary-device.js
           grep -Fq 'literary-device.js' literary-device.html
 
