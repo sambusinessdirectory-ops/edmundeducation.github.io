@@ -51,6 +51,14 @@ This ledger records literal reading coverage for the permanent 2019 B2 Super Cur
 - 2019 adaptation: the authentic Data File on physical pages 4–11 yields exactly 235 ordered units (`2019-B2-U0044`–`2019-B2-U0303`) and final bank totals of Task 8 = 19, Task 9 = 22 and Task 10 = 27.
 - Status: complete.
 
+## 2025 Stage 5 full-screen references
+
+- Files: `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Super Curation - Stage 5 - No Spotlight.pdf` and `/Users/sammak/Documents/Codex/2026-11-14/i-h/outputs/2025 DSE Paper 3 B2 Super Curation - Stage 5 - Spotlight.pdf`.
+- Extent: 183 pages each, representing paired successive Stage 5 writing states.
+- Visual reading: all 366 pages rendered and inspected in 32 contact sheets; draft preparation, model-title/heading/sentence teaching, task-colour content, purple reusable structure, red bank consumption, navy original-source consumption, explicit returns and the writing no-dimming behaviour were compared.
+- Controlling finding: 183 is the reference snapshot’s state count, not a target-year quota. The authentic 2019 model set yields 12 preparation states, 47 teaching units and 111 exact source references; retaining every visit and return produces the correct 281-state adaptation.
+- Status: complete.
+
 ## Other required references
 
 - 2019 fact-line analysis: all 6,555 lines read; status complete.

@@ -16,7 +16,7 @@
     "authenticRecording": "DSE 2019 Part B.mp3"
   },
   "superCuration": {
-    "version": "2019-b2-super-curation-v7",
+    "version": "2019-b2-super-curation-v8",
     "chapters": 5,
     "atomicSourceUnits": 420,
     "evidenceSteps": 235,
@@ -47,6 +47,21 @@
       "9": 8,
       "10": 16
     },
+    "writingSteps": 281,
+    "writingPreparationSteps": 12,
+    "writingTeachingUnits": 47,
+    "writingSourceVisits": 111,
+    "writingReturns": 111,
+    "writingTaskCounts": {
+      "8": 88,
+      "9": 70,
+      "10": 123
+    },
+    "writingTeachingCounts": {
+      "8": 16,
+      "9": 10,
+      "10": 21
+    },
     "modelWordCounts": {
       "8": 171,
       "9": 123,
@@ -75,9 +90,11 @@
       "two-characters-per-28ms authentic-field note generation with trusted-input cancellation",
       "movable and resizable complete transcript",
       "task-isolated evidence banks",
-      "draft-before-model gate",
-      "bidirectional model-to-source mappings",
-      "persistent model evidence consumption and non-destructive podcast-note mirror",
+      "twelve-state draft-before-model preparation across three tasks",
+      "progressive title, heading and sentence teaching with task-colour content and purple reusable structure",
+      "111 explicit model-to-source visits followed by 111 explicit returns",
+      "persistent red evidence-bank consumption, navy original-source use and non-destructive podcast-note mirror",
+      "task-isolated writing position, rewind projection, reload reconstruction and 281-state completion gate",
       "movable and resizable original-source preview",
       "independent versioned save slots",
       "validated import and export",
@@ -88,6 +105,7 @@
     "staticSuite": "audit/static-validation.json",
     "browserSuite": "audit/browser-conformance.json",
     "stage4Suite": "audit/stage4-browser-results.json",
+    "stage5Suite": "audit/stage5-browser-results.json",
     "releaseIdentity": "recorded externally after release against release.json, remote main and deployed payload hashes",
     "humanVisualSignOff": "required by Golden Manual V3/V4 and never inferred from machine checks"
   }

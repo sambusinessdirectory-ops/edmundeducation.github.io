@@ -18,11 +18,11 @@
 | R07 note pipeline | PASS | Six authentic page-3 textareas; cue-boundary typing; no synthetic worksheet |
 | R08 marks/bank | PASS | Persistent semantic marks, permitted-status gate, task isolation and stable-ID return links |
 | R09 choreography | PASS | Five chapters, exact route/return, spotlight preference and bounded focus/scroll behaviour |
-| R10 persistence/reset | PASS | Five independent v2 slots, explicit v1 migration, scoped reset and validated import/export |
-| R11 writing/models | PASS | Draft gate; three length-controlled models; A→M and M→A congruence clean |
+| R10 persistence/reset | PASS | Five independent v8 slots, conservative v1–v7 migration, scoped reset and validated import/export |
+| R11 writing/models | PASS | 12 draft-first states; 47 progressive title/heading/sentence teaching units; 111 exact source visits and 111 explicit returns; A→M and M→A congruence clean |
 | R12 accessibility/responsive | PASS (machine) | Keyboard/state labels, 1440/1100/768/390, 200% scale, print and reduced motion |
 | R13 motion contract | PASS (machine) | M01–M22 implemented; M-Q01–M-Q34 represented and machine-clean |
-| R14 verification depth | PASS (machine) | 44/44 static + 72/72 browser; motion/page matrices, negative tests and visual proof bundle |
+| R14 verification depth | PASS (machine) | 61/61 static + 76/76 full browser + focused Stage 1–5 suites; motion/page matrices, negative tests and visual proof bundle |
 | R15 release evidence | PENDING | Exact commit, remote-main equality, deployment marker and live payload hashes must be filled after release |
 
 ## Source and model integrity
@@ -31,8 +31,10 @@ The source coverage ledger records every original paper/media class and the cano
 
 ## Machine verification
 
-- Static suite: 44/44 PASS.
-- Matched-state browser suite: 72/72 PASS in Chromium and Firefox.
+- Static suite: 61/61 PASS.
+- Matched-state browser suite: 76/76 PASS in Chromium and Firefox.
+- Focused suites: Stage 1 10/10, Stage 2 15/15, Stage 3 19/19, Stage 4 16/16, Stage 5 13/13.
+- Stage 5 full completion: 281/281 states, comprising 12 preparation states, 47 teaching units, 111 exact source visits and 111 explicit returns.
 - Normal/reduced-motion proof: route, note transaction, model evidence consumption and reduced-equivalence WebM/frame bundles captured.
 - Console/page errors: none in tested states.
 - Current page hashes are recorded in `work/2019-validation/static-validation.json`; final release hashes will be repeated in the output package.

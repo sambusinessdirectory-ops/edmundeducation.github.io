@@ -16,7 +16,7 @@
 | Rejected/noise units cited as factual support | PASS — none | `MODEL-004` |
 | Protected false claims | PASS — absent | `MODEL-007` |
 
-Every factual model sentence owns an exact `sources` array of stable `2019-B2-U####` identifiers. Selecting the sentence exposes those identifiers, persists the use event per task, and opens the original-source preview. A no-source sentence is allowed only where its `function` is explicitly rhetorical or structural.
+Every factual model sentence owns an exact `sources` array of stable `2019-B2-U####` identifiers. Progressive Stage 5 teaching turns each reference into an explicit source visit, persists red bank consumption, applies navy original-source ink and returns to the same teaching unit. A no-source sentence is allowed only where its `function` is explicitly rhetorical or structural.
 
 ## M→A: source to model or rationale
 
@@ -42,9 +42,10 @@ The answer-permitted high-value set contains 89 units. Eighty-six are mapped to 
 
 ## Executable evidence
 
-- Static validation: 44/44 PASS.
-- Browser validation: 72/72 PASS in Chromium and Firefox.
-- Browser checks include model counts, stable-ID map exposure, bank consumption, navy source use, podcast-note use, import/export and reload restoration.
+- Static validation: 61/61 PASS.
+- Browser validation: 76/76 PASS in Chromium and Firefox.
+- Focused Stage 5 validation: 13/13 PASS, including all 281 states and all 111 visit/return pairs.
+- Browser checks include teaching-unit counts, stable-ID mapping, bank consumption, navy source use, podcast-note use, import/export and reload restoration.
 
 ## Conclusion
 

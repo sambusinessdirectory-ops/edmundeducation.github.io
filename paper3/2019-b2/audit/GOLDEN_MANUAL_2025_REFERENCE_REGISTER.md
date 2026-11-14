@@ -20,6 +20,10 @@ This is the controlling requirement register for adapting the 2025 B2 Super Cura
 | 2025-STAGE2-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 2 - Spotlight.pdf`, 16 full-screen states | Paired benchmark for spotlight geometry, progressive stamps and note-label strikes | Complete; all 16 pages rendered and inspected |
 | 2025-STAGE3-NO-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 3 - No Spotlight.pdf`, 157 full-screen states | Decisive benchmark for guided answer stops, audio ownership, complete transcript review and progressive transcript marks | Complete; all 157 pages rendered and inspected |
 | 2025-STAGE3-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 3 - Spotlight.pdf`, 157 full-screen states | Paired benchmark for current-sentence spotlight geometry and semantic equivalence | Complete; all 157 pages rendered and inspected |
+| 2025-STAGE4-NO-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 4 - No Spotlight.pdf`, 235 full-screen states | Decisive benchmark for the source-led evidence sequence, automatic bank transfer and rewind projection | Complete; all 235 pages rendered and inspected |
+| 2025-STAGE4-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 4 - Spotlight.pdf`, 235 full-screen states | Paired benchmark for exact native targeting and spotlight geometry | Complete; all 235 pages rendered and inspected |
+| 2025-STAGE5-NO-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 5 - No Spotlight.pdf`, 183 full-screen states | Decisive benchmark for draft-first writing, progressive benchmark teaching, evidence consumption and source returns | Complete; all 183 pages rendered and inspected |
+| 2025-STAGE5-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 5 - Spotlight.pdf`, 183 full-screen states | Paired confirmation that writing remains undimmed while semantic emphasis persists | Complete; all 183 pages rendered and inspected |
 | 2019-SRC | `/paper3/2019-b2/` source and 19 scans | Target implementation and original-paper evidence | Complete |
 
 ## Normative requirements
@@ -88,6 +92,7 @@ This is the controlling requirement register for adapting the 2025 B2 Super Cura
 - Spotlight, dimming, scrolling and focus never hide the target, steal input focus, or strand keyboard/mobile users.
 - Stage 3 uses seven guided answer-stop states, then a complete 107-cue transcript sequence. Jumping may change the current view but must not mark skipped steps heard/reviewed or allow final completion to bypass missing steps.
 - Stage 4 uses the same non-falsifying jump rule across 235 source decisions. Task quick-jumps and the step selector change the current view only; completion requires every step, and the final gate returns to the earliest missing source unit.
+- Stage 5 preserves independent plan/draft work before benchmark inspection, then reveals one title, heading or sentence at a time. Every factual source reference becomes an explicit original-source visit followed by an explicit return; per-task positions remain isolated and rewinding removes only later uses in that task.
 
 ### R10 — Persistence and reset
 
@@ -95,6 +100,7 @@ This is the controlling requirement register for adapting the 2025 B2 Super Cura
 - Reset is scoped, explicit and deterministic. Version migration must not reinterpret old indexes as new stable IDs.
 - The v5→v6 migration retains authentic notes, heard cues, Stage 2 state, evidence and drafts, but resets the incompatible old Stage 3 index/completion and routes later-stage sessions back to the rebuilt Stage 3.
 - The v6→v7 migration retains compatible Stage 1–3 progress, valid bank evidence, notes and drafts, but resets the incompatible old Stage 4 filter/index/review state and routes later-stage sessions to the rebuilt 235-step Stage 4.
+- The v7→v8 migration retains compatible Stage 1–4 progress, bank evidence, notes, plans and drafts, but resets the incompatible old Stage 5 unlock/use state and its completion flag.
 
 ### R11 — Writing and model answers
 
@@ -102,6 +108,7 @@ This is the controlling requirement register for adapting the 2025 B2 Super Cura
 - Model answers are length controlled, task appropriate and grounded only in permitted evidence.
 - Each model sentence maps to source-unit IDs or a documented non-source function such as salutation/transition.
 - Every permitted high-value source claim maps forward to at least one model use or an explicit exclusion rationale.
+- 2019 adaptation: four preparation states per task, followed by 47 progressive title/heading/sentence teaching units. The 111 exact source references become 111 visible visits and 111 explicit returns, yielding 281 states without copying the 2025 snapshot count.
 
 ### R12 — Visual, responsive and accessible behaviour
 
