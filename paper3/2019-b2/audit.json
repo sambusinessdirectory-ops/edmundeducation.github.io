@@ -16,7 +16,7 @@
     "authenticRecording": "DSE 2019 Part B.mp3"
   },
   "superCuration": {
-    "version": "2019-b2-super-curation-v3",
+    "version": "2019-b2-super-curation-v5",
     "chapters": 5,
     "atomicSourceUnits": 420,
     "answerDecisions": 7,
@@ -39,7 +39,8 @@
       "2025-parity fixed stage strip, left curation dock, central native source and right evidence bank",
       "native-source line synchronization with progressive task-colour reveal",
       "four learner prompts per unit",
-      "provisional categorisation with gated canonical reveal",
+      "sixteen-step pre-extraction source classification with eight page decisions and eight note-sheet labels",
+      "provisional page stamps with explicit read-after revision and note-sheet Task/Type 6 marks",
       "M01-M22 state-bound motion grammar with reduced-motion equivalence",
       "four-mask optional spotlight with persistent semantic outline",
       "accessible A/B/C/route file stamps and exact-span rejection ink",
