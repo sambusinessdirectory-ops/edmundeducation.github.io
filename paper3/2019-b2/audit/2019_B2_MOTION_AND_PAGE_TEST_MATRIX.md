@@ -65,8 +65,8 @@ The V4 suite is content-specific to 2025. Each row below transfers its invariant
 | P-Q16 | Shared multi-task field | PASS (adapted) — 2025’s William field is N/A to 2019; 2019 shared fields retain task-specific meanings without duplication | Pending human |
 | P-Q17 | Listening-only fields | PASS (adapted) — 2025 first-four-cue rule is N/A; 2019 generated notes and bank eligibility remain separate for all 107 cues | Pending human |
 | P-Q18 | Storage | PASS — native note values/cue state restore to the six fields | Pending human |
-| P-Q19 | Export/import | PASS (adapted) — 2019 v2 payload round-trips exact scoped state | Pending human |
-| P-Q20 | Legacy migration | PASS (adapted) — explicit conservative v1→v2 migration, no index reinterpretation | Pending human |
+| P-Q19 | Export/import | PASS (adapted) — 2019 v8 payload round-trips exact scoped state | Pending human |
+| P-Q20 | Legacy migration | PASS (adapted) — explicit conservative v1→v8 migration, no incompatible index reinterpretation | Pending human |
 | P-Q21 | Remount | PASS — page host and six fields return without synthetic duplication | Pending human |
 | P-Q22 | Player | PASS (adapted) — 107 pins, time, rate and bounded single owner; 2025’s 17 pins are N/A | Pending human |
 | P-Q23 | Transcript | PASS — all 107 cues, movable/resizable, no forced scroll, persisted geometry | Pending human |
@@ -75,7 +75,7 @@ The V4 suite is content-specific to 2025. Each row below transfers its invariant
 | P-Q26 | Responsive | PASS — 1440/1100/768/390/200%; note host/player/transcript remain reachable | Pending human |
 | P-Q27 | Firefox lifecycle | PASS — startup/reload geometry and single audio owner restore | Pending human |
 | P-Q28 | Source/build parity | PASS — page IDs, generated controller contract and manifest agree | Pending human |
-| P-Q29 | Verbatim audit | PASS — 44/44 static plus source/congruence ledgers | Pending human |
+| P-Q29 | Verbatim audit | PASS — 61/61 static plus source/congruence ledgers | Pending human |
 | P-Q30 | Live release | PENDING — populate exact public SHA and payload verification after deployment | Pending live |
 
 ## Proof boundary

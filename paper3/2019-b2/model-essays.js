@@ -84,3 +84,81 @@ window.EDMUND_2019_B2_MODELS=Object.freeze({
     }
   }
 });
+
+window.EDMUND_2019_B2_MODEL_GUIDES=Object.freeze({
+  version:'2019-b2-model-essay-guides-v1',
+  prep:{
+    8:[
+      {title:'拆解 report 任務',lead:'讀者是 Inter-School Visual Media Society committee。目的是用已核實的不相容資料，說服委員會不要選 Brighthouse Cinema。',hint:'先鎖定 report、committee、not to take this venue；不要把合規資料寫成缺點。'},
+      {title:'建立「要求 vs 現況」骨架',lead:'把內容分成 purpose、access、staffing、food、hygiene／safety、recommendation。',hint:'每個反對理由都要同時有活動要求、場地現況及實際後果。'},
+      {title:'先寫自己的 report',lead:'先獨立完成你的版本；右側證據庫只用來核對，不是逐句抄寫來源。',hint:'用正式、客觀語氣，把多個細碎來源整合成完整理由。'},
+      {title:'校對 Task 8',lead:'核對 access、ushers、outside food、cleaning、licence chronology 和 bilingual exit signs。',hint:'刪除「auditorium 無輪椅通道」、「牌照仍停牌」等與原文不符的說法。'}
+    ],
+    9:[
+      {title:'拆解 programme-text 任務',lead:'為 Visual Media Festival programme 撰寫《The Electronic Durian》簡介；必須有 theme、plot 和 stand-out scene。',hint:'場刊已印出的 director、cast、category、time 和 venue 不需重複。'},
+      {title:'建立宣傳骨架',lead:'用 hook、theme、plot opening、turning point、stand-out scene 和 call to action 組織短文。',hint:'保持約 120 字，先服務觀眾理解與吸引力，再考慮細節。'},
+      {title:'先寫自己的 programme text',lead:'先獨立完成你的版本，再逐句核對 benchmark。',hint:'不要把演員拍攝時戴隱形眼鏡的困難誤寫成電影情節。'},
+      {title:'校對 Task 9',lead:'核對 corporation、special lenses、Sammi、real world 和 metal-noodles scene。',hint:'plot 要連貫；宣傳語可以有吸引力，但不能補作來源沒有交代的強迫方式。'}
+    ],
+    10:[
+      {title:'拆解 introductory-speech 任務',lead:'在放映後的台上討論前，以完整講稿介紹 Current State of Cinema 的兩條討論線。',hint:'兩條線是 home／cinema viewing，以及 blockbusters／low-budget films。'},
+      {title:'建立平衡論證骨架',lead:'安排 greeting、screening link、兩組正反觀點、discussion questions、invitation 和 closing。',hint:'每組都要呈現兩面，避免把論壇誇張說法當成確定事實。'},
+      {title:'先寫自己的 speech',lead:'先獨立寫出可自然朗讀的完整講稿，再開 benchmark 逐句比較。',hint:'用 spoken signposts 和 audience questions，而不是把資料寫成報告清單。'},
+      {title:'校對 Task 10',lead:'核對 home VR、shared cinema experience、studio resources、marketing inequality 和 independent talent。',hint:'保留可能性語氣；不要斷言戲院必然消失或 low-budget films 沒有價值。'}
+    ]
+  },
+  titles:{
+    8:{why:'標題直接交代評估對象和 report 的判斷焦點，讓委員會一眼知道文件用途。',structure:'Report on the Suitability of + venue／option 可轉移到其他場地評估。',keywords:['Brighthouse Cinema'],patterns:['Report on the Suitability of']},
+    9:{why:'標題標明這是指定電影的 programme text，不把已印在場刊的 metadata 重複成內容。',structure:'Programme Text for + title 是清楚、簡潔的工作標題。',keywords:['The Electronic Durian'],patterns:['Programme Text for']},
+    10:{why:'標題鎖定 spoken introduction，而不是 article 或 argumentative essay。',structure:'Introductory Speech 可作演說稿工作標題；真正的口語開場在正文完成。',keywords:['Introductory Speech'],patterns:['Introductory Speech']}
+  },
+  headings:{
+    8:{Purpose:{why:'先交代 report 的目的和完整評估事件。',structure:'Purpose 是正式 report 的功能型小標題。',keywords:['Purpose'],patterns:['Purpose']},Findings:{why:'把逐項核實的場地問題集中在 findings，而不是在引言先下結論。',structure:'Findings 是由證據支持的調查結果段。',keywords:['Findings'],patterns:['Findings']},Recommendation:{why:'最後把已證實的問題轉成委員會可執行的決定。',structure:'Recommendation + should 可把證據轉為正式建議。',keywords:['Recommendation'],patterns:['Recommendation']}},
+    9:{Model:{why:'programme text 本身不需要把「Model」抄進答案；這個標籤只界定 benchmark 正文。',structure:'真正答案由 hook 直接開始，不必使用 report 式小標題。',keywords:[],patterns:['Model']}},
+    10:{Opening:{why:'開場先建立觀眾關係、場合及兩條討論線。',structure:'Opening 由 greeting + occasion link + roadmap 組成。',keywords:['Opening'],patterns:['Opening']},'Home viewing and cinemas':{why:'第一個內容段平衡家中便利與戲院共同體驗。',structure:'X and Y 小標題提醒作者同時處理兩面。',keywords:['Home viewing','cinemas'],patterns:['and']},'Blockbusters and low-budget films':{why:'第二個內容段比較資源、競爭與創作價值。',structure:'比較型小標題把相對概念並列，避免只寫一方。',keywords:['Blockbusters','low-budget films'],patterns:['and']},Close:{why:'結尾把論點交回現場討論，並以 spoken closing 收束。',structure:'Close = questions + invitation + thanks。',keywords:['Close'],patterns:['Close']}}
+  },
+  sentences:{
+    8:[
+      {why:'目的句交代被評估的場地、完整活動和反對選址的方向。',structure:'This report explains why + option + should not + action。',keywords:['Brighthouse Cinema','The Electronic Durian','post-screening discussion'],patterns:['This report explains why','should not host']},
+      {why:'把 Isabel 的已確認出席、輪椅需要和上台要求合成一個可驗證的 access 標準。',structure:'X will…, so Y is essential 用結果連接要求。',keywords:['Isabel Luna','wheelchair','ramp access to the stage'],patterns:['will attend','so','is essential']},
+      {why:'用場地現況直接反駁上一句的必要條件。',structure:'However, + subject + can be reached only by + means。',keywords:['stage','stairs'],patterns:['However','can be reached only by']},
+      {why:'先寫確實的人手下限，再交代人手用途。',structure:'At least + number + noun + are required to + purpose。',keywords:['ten ushers','3D headsets'],patterns:['At least','are required to','promptly']},
+      {why:'把場地最多可提供的人數與活動後果連起來。',structure:'can provide no more than…, which could + consequence。',keywords:['no more than four','delay the event'],patterns:['which could']},
+      {why:'簡短寫出外來食物限制，為下一句的活動衝突鋪路。',structure:'Subject + also + present-tense restriction。',keywords:['bans outside food'],patterns:['also']},
+      {why:'解釋禁令會破壞哪項已計劃的觀眾活動，以及該活動的價值。',structure:'This would prevent + plan—explanation—value。',keywords:['eating noodles','metal-noodles scene','key fun elements'],patterns:['This would prevent','one of']},
+      {why:'過渡句預告接下來由營運問題轉到衛生與安全。',structure:'There are further + category + concerns。',keywords:['hygiene and safety'],patterns:['There are further']},
+      {why:'完整保留 2016 事件、十二個月停牌及其後復牌，避免把舊問題寫成現況。',structure:'past problem…, although + present correction。',keywords:['government hygiene inspection','2016','twelve months','licence has since been restored'],patterns:['although','has since been']},
+      {why:'把實際清潔頻率與法定每日要求放在同一句直接比較。',structure:'is + frequency + despite + requirement。',keywords:['once every two days','daily requirement'],patterns:['only','despite']},
+      {why:'保留出口燈運作正常的事實，只批評未符合雙語規定的部分。',structure:'Finally, X works, but Y instead of Z as required。',keywords:['illuminated exit signs','English only','English and Chinese'],patterns:['Finally','but','instead of','as required']},
+      {why:'總結已證實的五組問題，提出選擇其他場地的正式建議。',structure:'Given these + noun list, decision-maker + should + action。',keywords:['access','staffing','food','hygiene','safety','another venue'],patterns:['Given these','should select']}
+    ],
+    9:[
+      {why:'反問句先吸引場刊讀者，同時引出「眼前世界被設計」的核心主題。',structure:'What if + apparently familiar situation + had been…?。',keywords:['world before your eyes','designed by someone else'],patterns:['What if','had been']},
+      {why:'用一句概括 corporation control 與虛假理想世界，完成 theme 要求。',structure:'Title + explores how + force + can + effect。',keywords:['powerful corporations','control what people see','hiding reality','ideal world'],patterns:['explores how','can','behind']},
+      {why:'先交代時間背景、主角和故事開端，讓 plot 有清楚起點。',structure:'Set in…, the story follows X as + event。',keywords:['near future','Sammi','first job','powerful corporation'],patterns:['Set in','the story follows','as']},
+      {why:'說明 corporation 如何用 lenses 製造看似完美的世界。',structure:'tricks + object + into -ing + relative clause。',keywords:['special lenses','seemingly perfect world'],patterns:['tricks its employees into wearing','that make them']},
+      {why:'把摘下 lenses、看見真相和麻煩開始壓縮成 plot turning point。',structure:'When X…, she finally…—and consequence。',keywords:['removes her lenses','real world','corporation has concealed','troubles begin'],patterns:['When','finally','—and']},
+      {why:'直接點出題目指定的 stand-out scene，保持場刊宣傳語氣。',structure:'Do not miss + evaluative adjective + named scene。',keywords:['metal-noodles scene'],patterns:['Do not miss','hilarious']},
+      {why:'用觀眾實際反應支持「出色」，不只空泛聲稱場面有趣。',structure:'It had + audience + -ing and is one of + superlative group。',keywords:['whole audience laughing','most memorable highlights'],patterns:['had the whole audience','one of']},
+      {why:'結尾邀請讀者進入電影世界並自行判斷，完成 promotional call to action。',structure:'Imperative + and + second imperative + for yourself。',keywords:['Sammi’s altered world','what is real'],patterns:['Enter','and decide','for yourself']}
+    ],
+    10:[
+      {why:'簡潔問候現場觀眾，建立 spoken register。',structure:'Good evening, everyone. 是正式但自然的群體問候。',keywords:[],patterns:['Good evening, everyone']},
+      {why:'把剛看完電影的場合連到 Current State of Cinema，並預告兩條討論線。',structure:'Having just + past participle…, let us consider + roadmap。',keywords:['The Electronic Durian','current state of cinema','viewing habits','blockbusters','low-budget films'],patterns:['Having just watched','let us consider','how','what']},
+      {why:'先提出 home viewing 的便利與選擇量，建立第一方論點。',structure:'First, + service/example + give + audience + benefit。',keywords:['streaming services','Netflix','hundreds of films at home'],patterns:['First','such as']},
+      {why:'把 home VR 的技術能力與 sofa 便利合併成完整觀影理由。',structure:'can now offer + equivalent experience + from + place。',keywords:['Home VR','immersive 3D 360-degree experience','sofa'],patterns:['can now offer','from the comfort of']},
+      {why:'把可能影響寫成 may，而不是斷言戲院必然衰亡。',structure:'This + benefit + may + cautious consequence。',keywords:['cinema attendance'],patterns:['This convenience may reduce']},
+      {why:'用共同體驗平衡家中便利，並保留觀眾仍可能入場的推論。',structure:'Yet X…, so Y may… 保持對比與謹慎語氣。',keywords:['shared group experience','home viewing','audiences'],patterns:['Yet','cannot fully replace','so','may continue']},
+      {why:'短過渡句指出第二組材料也有相似的兩面張力。',structure:'Subject + presents a similar tension。',keywords:['film industry'],patterns:['presents a similar tension']},
+      {why:'交代過去十年的資源集中趨勢和 blockbuster 利潤動機。',structure:'Over the past…, subject + have increasingly + trend + because + reason。',keywords:['major studios','resources','expensive blockbusters','larger profits'],patterns:['Over the past decade','have increasingly concentrated','because']},
+      {why:'把巨額宣傳、低成本製片人的差距和上映困難串成因果鏈。',structure:'X that Y cannot match, making + consequence。',keywords:['multi-million-dollar marketing campaigns','low-budget filmmakers','mainstream screenings'],patterns:['cannot match','making']},
+      {why:'轉折句先清楚提出 low-budget films 仍有必要，準備展開反方價值。',structure:'However, subject + remain + evaluative complement。',keywords:['low-budget films','essential'],patterns:['However','remain']},
+      {why:'解釋低成本電影培養人才，人才日後也可能服務大片。',structure:'They nurture + people + who may + future contribution。',keywords:['talented independent directors','tomorrow’s blockbusters'],patterns:['who may']},
+      {why:'把平價科技帶來的創作自由，與大片較少冒險形成平衡對比。',structure:'X gives…, while Y may… 用 while 並列對照。',keywords:['Affordable technology','VR','greater freedom to experiment','major productions','creative risks'],patterns:['such as','while','may take fewer']},
+      {why:'第一個結尾問題把 viewing-habits 論點交給現場觀眾。',structure:'Will + possibility + eventually + question?。',keywords:['convenience','at home'],patterns:['Will','eventually']},
+      {why:'第二個問題把 low-budget cinema 的生存與行業影響交給討論。',structure:'Can + subject + continue to + two coordinated verbs?。',keywords:['independent cinema','industry'],patterns:['Can','continue to','and']},
+      {why:'明確邀請觀眾參與今晚的討論，完成 introductory speech 的行動。',structure:'I invite you to + verb + in + event。',keywords:['tonight’s discussion'],patterns:['I invite you to consider']},
+      {why:'以最自然的 spoken closing 收束，不再加入新論點。',structure:'Thank you. 是正式演說的簡潔結語。',keywords:[],patterns:['Thank you']}
+    ]
+  }
+});
