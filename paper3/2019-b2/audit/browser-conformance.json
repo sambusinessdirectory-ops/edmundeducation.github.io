@@ -1,7 +1,7 @@
 {
   "version": "2019-b2-browser-conformance-v2",
-  "generatedOn": "2026-11-14T08:43:29.858Z",
-  "base": "http://127.0.0.1:8767",
+  "generatedOn": "2026-11-14T09:24:12.624Z",
+  "base": "http://127.0.0.1:8768",
   "viewport": {
     "width": 1440,
     "height": 900
@@ -214,12 +214,12 @@
     {
       "id": "MODEL-8-COUNT",
       "status": "PASS",
-      "evidence": "Task 8 exposes 12 mapped model sentences"
+      "evidence": "Task 8 exposes 16 mapped teaching units from position 0"
     },
     {
       "id": "MODEL-BANK-MAPPING",
       "status": "PASS",
-      "evidence": "2019-B2-U0061 is mapped to a Task 8 model sentence"
+      "evidence": "2019-B2-U0061 is mapped to an explicit Task 8 source visit"
     },
     {
       "id": "MOTION-BANK-USE",
@@ -264,7 +264,7 @@
     {
       "id": "PREVIEW-DRAG",
       "status": "PASS",
-      "evidence": "{\"x\":429.5054626464844,\"y\":233.65478515625,\"width\":650.9577941894531,\"height\":569.1187133789062}"
+      "evidence": "{\"x\":456.6217346191406,\"y\":291.11688232421875,\"width\":596.6159362792969,\"height\":521.5958862304688}"
     },
     {
       "id": "EXACT-RETURN",
@@ -294,22 +294,22 @@
     {
       "id": "MODEL-9-COUNT",
       "status": "PASS",
-      "evidence": "Task 9 exposes 8 mapped model sentences"
+      "evidence": "Task 9 exposes 10 mapped teaching units from position 88"
     },
     {
       "id": "MODEL-10-COUNT",
       "status": "PASS",
-      "evidence": "Task 10 exposes 16 mapped model sentences"
+      "evidence": "Task 10 exposes 21 mapped teaching units from position 158"
     },
     {
       "id": "MODEL-FACT-MAP",
       "status": "PASS",
-      "evidence": "Task 10 factual model sentence exposes stable source IDs"
+      "evidence": "Task 10 factual teaching units expose stable source IDs"
     },
     {
       "id": "RELOAD-RESTORE",
       "status": "PASS",
-      "evidence": "active slot, task, draft and unlocked model restore after reload"
+      "evidence": "active slot, task, draft and progressive benchmark restore after reload"
     },
     {
       "id": "VERSIONED-PERSISTENCE",

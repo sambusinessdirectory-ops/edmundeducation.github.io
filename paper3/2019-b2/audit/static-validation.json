@@ -1,10 +1,10 @@
 {
-  "version": "2019-b2-static-validation-v3",
+  "version": "2019-b2-static-validation-v4",
   "generatedOn": "2026-11-14",
   "summary": {
-    "pass": 53,
+    "pass": 61,
     "fail": 0,
-    "total": 53
+    "total": 61
   },
   "modelWords": {
     "8": 171,
@@ -31,18 +31,33 @@
     "9": 22,
     "10": 27
   },
+  "writingTeachingCounts": {
+    "8": 16,
+    "9": 10,
+    "10": 21
+  },
+  "writingSourceCounts": {
+    "8": 34,
+    "9": 28,
+    "10": 49
+  },
+  "writingTaskCounts": {
+    "8": 88,
+    "9": 70,
+    "10": 123
+  },
   "hashes": {
     "index.html": {
-      "bytes": 60509,
-      "sha256": "f59cbd105afd0e9197a1a28d471ebdb2e026d9baed776467d1878578d497c073"
+      "bytes": 60512,
+      "sha256": "fcd5442e44d3b0c8e65a9e517baeef006e1d7e8817f720d42b59934a0acca0ce"
     },
     "super-curation.css": {
-      "bytes": 58752,
-      "sha256": "6e043afc2bb3fd3f7d931db6aeacdf32e3ff711a9e4581418489094294c8395a"
+      "bytes": 64611,
+      "sha256": "adf02abcfb78bd9c04ddc2751ecc018f5bbe9218550fab36a74c72ac8d73e701"
     },
     "super-curation.js": {
-      "bytes": 136405,
-      "sha256": "3013b68a299afd4e63d9bf728c3477a8bd5837b5035ab2bae49db4bd0b128811"
+      "bytes": 148340,
+      "sha256": "c5d3033470ddb9de79b39a8bd6c50cfdabc3fb06c27c4ba6aaf2fbd27ff61967"
     },
     "source-units.js": {
       "bytes": 368352,
@@ -53,8 +68,8 @@
       "sha256": "26718c0991f86cc81fddf88a3343e9452868447af7a4d4fc679fac283c4ed7b8"
     },
     "model-essays.js": {
-      "bytes": 10950,
-      "sha256": "7f7c42ce332278ff46867076f5c4740d24abded6faae8815fd3ce702358979ca"
+      "bytes": 25676,
+      "sha256": "4648f809134c06968cc45fe9e5360519b31a08fb47e56676018f50cb1e6df126"
     },
     "source-manifest.json": {
       "bytes": 4376,
@@ -65,8 +80,8 @@
       "sha256": "5f6d248994701408f36433a2fc9eb8d653c6d239423cc30575654d5a11a5d63d"
     },
     "audit.json": {
-      "bytes": 3828,
-      "sha256": "eac70b4c17629c4859e3e5324831c101c2e5ffbd811f28f84d45fdee73a65ea6"
+      "bytes": 4521,
+      "sha256": "47138feb8761524563030d4cbc41da51b3628e68ae8c3c70bde7cb5397d1b359"
     },
     "source-text.json": {
       "bytes": 18683,
@@ -195,6 +210,21 @@
       "evidence": "protected false claims absent"
     },
     {
+      "id": "MODEL-008",
+      "status": "PASS",
+      "evidence": "12 draft-first preparation states and 47 title/heading/sentence teaching units are authored"
+    },
+    {
+      "id": "MODEL-009",
+      "status": "PASS",
+      "evidence": "all 111 exact model source references are preserved as explicit visits"
+    },
+    {
+      "id": "MODEL-010",
+      "status": "PASS",
+      "evidence": "2019-authentic Stage 5 sequence is 281 states with an explicit return after every source visit"
+    },
+    {
       "id": "EVIDENCE-001",
       "status": "PASS",
       "evidence": "235 ordered steps, 2019-B2-U0044–2019-B2-U0303"
@@ -227,7 +257,7 @@
     {
       "id": "UI-004",
       "status": "PASS",
-      "evidence": "versioned v7 persistence and explicit v6/v5/v4/v3/v2/v1 migration present"
+      "evidence": "versioned v8 persistence and explicit v7/v6/v5/v4/v3/v2/v1 migration present"
     },
     {
       "id": "UI-005",
@@ -327,7 +357,7 @@
     {
       "id": "UI-024",
       "status": "PASS",
-      "evidence": "Stage 4 position/completion persist only for the compatible 235-step schema"
+      "evidence": "Stage 4 position/completion persist for the compatible v7/v8 235-step schema"
     },
     {
       "id": "UI-025",
@@ -335,9 +365,34 @@
       "evidence": "evidence-bank writes are stable-ID validated and normalized-quote duplicate safe"
     },
     {
+      "id": "UI-026",
+      "status": "PASS",
+      "evidence": "Stage 5 is assembled as draft preparation, teaching, source-visit and explicit-return states"
+    },
+    {
+      "id": "UI-027",
+      "status": "PASS",
+      "evidence": "per-task Stage 5 position, rewind projection and completion gate are persisted"
+    },
+    {
+      "id": "UI-028",
+      "status": "PASS",
+      "evidence": "progressive benchmark units carry task-colour content, purple structure and reusable writing guidance"
+    },
+    {
+      "id": "UI-029",
+      "status": "PASS",
+      "evidence": "Stage 5 preserves the 2025 no-dimming writing surface while keeping semantic emphasis"
+    },
+    {
+      "id": "UI-030",
+      "status": "PASS",
+      "evidence": "Stage 5 evidence bank exposes persistent red consumption and the exact current source"
+    },
+    {
       "id": "AUDIT-001",
       "status": "PASS",
-      "evidence": "audit manifest identifies the current 114-step Stage 3 and 235-step Stage 4 version"
+      "evidence": "audit manifest identifies the current Stage 3, Stage 4 and 281-state Stage 5 version"
     }
   ]
 }
