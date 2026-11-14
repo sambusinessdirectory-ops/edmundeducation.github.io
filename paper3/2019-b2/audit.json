@@ -16,9 +16,25 @@
     "authenticRecording": "DSE 2019 Part B.mp3"
   },
   "superCuration": {
-    "version": "2019-b2-super-curation-v6",
+    "version": "2019-b2-super-curation-v7",
     "chapters": 5,
     "atomicSourceUnits": 420,
+    "evidenceSteps": 235,
+    "evidencePageCounts": {
+      "4": 27,
+      "5": 50,
+      "6": 30,
+      "7": 35,
+      "8": 34,
+      "9": 30,
+      "10": 18,
+      "11": 11
+    },
+    "evidenceBankCounts": {
+      "8": 19,
+      "9": 22,
+      "10": 27
+    },
     "answerDecisions": 7,
     "transcriptCues": 107,
     "listeningSteps": 114,
@@ -39,6 +55,9 @@
     "features": [
       "stable authored source IDs",
       "2025-parity fixed stage strip, left curation dock, central native source and right evidence bank",
+      "fixed 235-step Stage 4 Data File sequence in physical page and source-line order",
+      "automatic duplicate-safe Next-to-bank transfer with 19/22/27 task totals",
+      "non-falsifying task jumps, rewind projection and missing-step completion gate",
       "native-source line synchronization with progressive task-colour reveal",
       "four learner prompts per unit",
       "sixteen-step pre-extraction source classification with eight page decisions and eight note-sheet labels",
@@ -66,8 +85,9 @@
     ]
   },
   "verification": {
-    "staticSuite": "work/2019-validation/static-validation.json",
-    "browserSuite": "work/2019-validation/browser-conformance.json",
+    "staticSuite": "audit/static-validation.json",
+    "browserSuite": "audit/browser-conformance.json",
+    "stage4Suite": "audit/stage4-browser-results.json",
     "releaseIdentity": "recorded externally after release against release.json, remote main and deployed payload hashes",
     "humanVisualSignOff": "required by Golden Manual V3/V4 and never inferred from machine checks"
   }

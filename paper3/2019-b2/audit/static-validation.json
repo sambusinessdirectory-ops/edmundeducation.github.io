@@ -1,10 +1,10 @@
 {
-  "version": "2019-b2-static-validation-v1",
-  "generatedOn": "2026-11-13",
+  "version": "2019-b2-static-validation-v3",
+  "generatedOn": "2026-11-14",
   "summary": {
-    "pass": 44,
+    "pass": 53,
     "fail": 0,
-    "total": 44
+    "total": 53
   },
   "modelWords": {
     "8": 171,
@@ -16,18 +16,33 @@
     "9": 8,
     "10": 16
   },
+  "evidencePageCounts": {
+    "4": 27,
+    "5": 50,
+    "6": 30,
+    "7": 35,
+    "8": 34,
+    "9": 30,
+    "10": 18,
+    "11": 11
+  },
+  "evidenceBankCounts": {
+    "8": 19,
+    "9": 22,
+    "10": 27
+  },
   "hashes": {
     "index.html": {
-      "bytes": 60503,
-      "sha256": "1cb2263bad31f856821da993e8603ddbb100767c47710f5ca4ec17f8e27e4976"
+      "bytes": 60509,
+      "sha256": "f59cbd105afd0e9197a1a28d471ebdb2e026d9baed776467d1878578d497c073"
     },
     "super-curation.css": {
-      "bytes": 29991,
-      "sha256": "0642e6bd83876ad666de2c2720475a33739b51502a03769ec93a86e2f4c3f8d7"
+      "bytes": 58752,
+      "sha256": "6e043afc2bb3fd3f7d931db6aeacdf32e3ff711a9e4581418489094294c8395a"
     },
     "super-curation.js": {
-      "bytes": 82652,
-      "sha256": "8fe8cc28e532e4c3537052b83ee3398a3ae2c0cf257e23bbfec85a751dd87e67"
+      "bytes": 136405,
+      "sha256": "3013b68a299afd4e63d9bf728c3477a8bd5837b5035ab2bae49db4bd0b128811"
     },
     "source-units.js": {
       "bytes": 368352,
@@ -50,8 +65,8 @@
       "sha256": "5f6d248994701408f36433a2fc9eb8d653c6d239423cc30575654d5a11a5d63d"
     },
     "audit.json": {
-      "bytes": 2563,
-      "sha256": "064d3a09923442bcd111efd40dfeecdb54d18ca0e2e132b3aa2dd2d6bd6610af"
+      "bytes": 3828,
+      "sha256": "eac70b4c17629c4859e3e5324831c101c2e5ffbd811f28f84d45fdee73a65ea6"
     },
     "source-text.json": {
       "bytes": 18683,
@@ -180,6 +195,21 @@
       "evidence": "protected false claims absent"
     },
     {
+      "id": "EVIDENCE-001",
+      "status": "PASS",
+      "evidence": "235 ordered steps, 2019-B2-U0044–2019-B2-U0303"
+    },
+    {
+      "id": "EVIDENCE-002",
+      "status": "PASS",
+      "evidence": "{\"4\":27,\"5\":50,\"6\":30,\"7\":35,\"8\":34,\"9\":30,\"10\":18,\"11\":11}"
+    },
+    {
+      "id": "EVIDENCE-003",
+      "status": "PASS",
+      "evidence": "{\"8\":19,\"9\":22,\"10\":27}"
+    },
+    {
       "id": "UI-001",
       "status": "PASS",
       "evidence": "all curation assets loaded by index"
@@ -197,7 +227,7 @@
     {
       "id": "UI-004",
       "status": "PASS",
-      "evidence": "versioned v2 persistence and explicit v1 migration present"
+      "evidence": "versioned v7 persistence and explicit v6/v5/v4/v3/v2/v1 migration present"
     },
     {
       "id": "UI-005",
@@ -227,7 +257,7 @@
     {
       "id": "UI-010",
       "status": "PASS",
-      "evidence": "categorisation owns provisional learner state and gated canonical reveal"
+      "evidence": "Stage 2 owns eight page-level and eight note-sheet classification decisions before extraction"
     },
     {
       "id": "UI-011",
@@ -267,7 +297,7 @@
     {
       "id": "UI-018",
       "status": "PASS",
-      "evidence": "audio-derived evidence cannot enter a bank before its cue is completed"
+      "evidence": "Stage 4 owns the fixed source sequence and transfers eligible evidence only through Next"
     },
     {
       "id": "UI-019",
@@ -275,9 +305,39 @@
       "evidence": "listening chapter reuses the six authentic page-3 textareas instead of creating a synthetic worksheet"
     },
     {
+      "id": "UI-020",
+      "status": "PASS",
+      "evidence": "Stage 3 owns seven guided answer stops followed by all 107 transcript cues"
+    },
+    {
+      "id": "UI-021",
+      "status": "PASS",
+      "evidence": "Stage 3 position, completion, progressive marks and reconstruction are persisted"
+    },
+    {
+      "id": "UI-022",
+      "status": "PASS",
+      "evidence": "recording-generated note lines exclude later Data File arguments"
+    },
+    {
+      "id": "UI-023",
+      "status": "PASS",
+      "evidence": "Stage 4 task jumps remain non-falsifying and the final gate returns to the earliest missing step"
+    },
+    {
+      "id": "UI-024",
+      "status": "PASS",
+      "evidence": "Stage 4 position/completion persist only for the compatible 235-step schema"
+    },
+    {
+      "id": "UI-025",
+      "status": "PASS",
+      "evidence": "evidence-bank writes are stable-ID validated and normalized-quote duplicate safe"
+    },
+    {
       "id": "AUDIT-001",
       "status": "PASS",
-      "evidence": "audit manifest identifies the current Super Curation version"
+      "evidence": "audit manifest identifies the current 114-step Stage 3 and 235-step Stage 4 version"
     }
   ]
 }
