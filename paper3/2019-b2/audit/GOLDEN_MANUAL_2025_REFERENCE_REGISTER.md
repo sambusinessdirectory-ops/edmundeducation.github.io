@@ -15,6 +15,11 @@ This is the controlling requirement register for adapting the 2025 B2 Super Cura
 | 2019-FL | 2019 B2 Fact-Line Deep Analysis v2.1, 6,555 lines | Canonical 2019 source-unit analysis | Complete |
 | 2019-ME | 2019 B2 length-controlled model essays v1.0, 60 lines | Canonical model-answer set | Complete |
 | 2025-REF | `/paper3/2025-b2/` page-specific source | Behavioural benchmark, not a content source for 2019 | Complete; one tracked `index.html` variance |
+| 2025-STAGE1 | `2025 DSE Paper 3 B2 Stage 1 - Reference.pdf`, 24 full-screen states | Decisive visual/interaction benchmark for the Stage 1 boss-letter sequence, progressive marks and inserted source visits | Complete; all 24 pages rendered and inspected |
+| 2025-STAGE2-NO-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 2 - No Spotlight.pdf`, 16 full-screen states | Decisive benchmark for the Stage 2 8-page + 8-note-label sequence without spotlight masking | Complete; all 16 pages rendered and inspected |
+| 2025-STAGE2-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 2 - Spotlight.pdf`, 16 full-screen states | Paired benchmark for spotlight geometry, progressive stamps and note-label strikes | Complete; all 16 pages rendered and inspected |
+| 2025-STAGE3-NO-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 3 - No Spotlight.pdf`, 157 full-screen states | Decisive benchmark for guided answer stops, audio ownership, complete transcript review and progressive transcript marks | Complete; all 157 pages rendered and inspected |
+| 2025-STAGE3-SPOTLIGHT | `2025 DSE Paper 3 B2 Super Curation - Stage 3 - Spotlight.pdf`, 157 full-screen states | Paired benchmark for current-sentence spotlight geometry and semantic equivalence | Complete; all 157 pages rendered and inspected |
 | 2019-SRC | `/paper3/2019-b2/` source and 19 scans | Target implementation and original-paper evidence | Complete |
 
 ## Normative requirements
@@ -42,13 +47,16 @@ This is the controlling requirement register for adapting the 2025 B2 Super Cura
 
 - Task, role, reader, genre, purpose, word limit, specified sources and prohibitions are taught before evidence collection.
 - Cross-source routes must be explicit, deterministic and reversible.
-- 2019 adaptation: Task 8 report (~180 words), Task 9 programme text (~120 words), Task 10 introductory speech (~200 words).
+- The Stage 1 reference requires source-ordered teaching with progressive exact marks and immediate visits to named source documents; a static task-summary card is not equivalent.
+- 2019 adaptation: 19 authentic Ringo-email units plus eight inserted source visits (27 persisted steps), covering Task 8 report (~180 words), Task 9 programme text (~120 words), and Task 10 introductory speech (~200 words).
+- Stage 2 classification precedes sentence extraction: eight source-page entries followed by eight official note-sheet labels. The 2019 implementation must preserve this 8+8 architecture while substituting authentic 2019 pages, tasks and rejection decisions.
 
 ### R05 — Single audio owner
 
 - One authoritative audio element owns play, pause, seek, rate, current time and end state.
 - Transcript marks, note-field updates and step transitions subscribe to that owner; competing clocks are forbidden.
 - 2019 adaptation: authentic 2019 Part B MP3 and the 107-cue timestamp transcript. Audio provenance must include URL, byte length, ETag, cue count, first/last cue and verification time.
+- Stage 3 preserves the reference grammar as seven authentic 2019 guided stops followed by all 107 transcript cues, for 114 persisted steps. The count differs from 2025 because the source recording and answer destinations differ.
 
 ### R06 — Atomic cue transaction
 
@@ -62,23 +70,31 @@ This is the controlling requirement register for adapting the 2025 B2 Super Cura
 - Learners first inspect the official note sheet, hear evidence, write or reveal only the justified note, then cross-check the transcript/source.
 - Notes distinguish uncertainty, correction, exclusion and final evidence.
 - 2019 adaptation: page 3 headings (short video, Brighthouse, prize giving, current state of cinema) remain visually and semantically tied to the official sheet.
+- The six generated note lines contain recording evidence only. Data File counterarguments are deferred to Stage 4 and may not be smuggled into a listening-generated line.
 
 ### R08 — Source marking and evidence bank
 
 - Task colours, status badges, source marks, exclusions and update/correction marks encode meaning and remain visible in matched interaction states.
 - Evidence may enter a task bank only after its decision permits use; rejected/overridden/metadata evidence cannot silently enter.
 - Bank entries retain source-unit IDs and return links.
+- Stage 4 follows one fixed 235-step source sequence for the 2019 Data File. Permitted decisions transfer automatically on Next; there is no learner-facing manual add/remove control.
+- Duplicate prevention is semantic as well as ID-based: the same normalized quotation cannot enter the same task bank twice.
+- Rewinding projects marks and bank visibility back to the selected source point without falsifying or deleting the learner's completed-state history.
 
 ### R09 — Guided choreography
 
 - The five teaching chapters remain conceptually present: task/boss instructions, categorisation, listening, complete source review, and writing.
 - Next/previous, jump-to-source, cross-source detours and returns are deterministic.
 - Spotlight, dimming, scrolling and focus never hide the target, steal input focus, or strand keyboard/mobile users.
+- Stage 3 uses seven guided answer-stop states, then a complete 107-cue transcript sequence. Jumping may change the current view but must not mark skipped steps heard/reviewed or allow final completion to bypass missing steps.
+- Stage 4 uses the same non-falsifying jump rule across 235 source decisions. Task quick-jumps and the step selector change the current view only; completion requires every step, and the final gate returns to the earliest missing source unit.
 
 ### R10 — Persistence and reset
 
 - Progress, active step, notes, evidence bank and drafts persist under a versioned key.
 - Reset is scoped, explicit and deterministic. Version migration must not reinterpret old indexes as new stable IDs.
+- The v5→v6 migration retains authentic notes, heard cues, Stage 2 state, evidence and drafts, but resets the incompatible old Stage 3 index/completion and routes later-stage sessions back to the rebuilt Stage 3.
+- The v6→v7 migration retains compatible Stage 1–3 progress, valid bank evidence, notes and drafts, but resets the incompatible old Stage 4 filter/index/review state and routes later-stage sessions to the rebuilt 235-step Stage 4.
 
 ### R11 — Writing and model answers
 

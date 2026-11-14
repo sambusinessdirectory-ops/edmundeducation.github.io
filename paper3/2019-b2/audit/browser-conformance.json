@@ -1,6 +1,6 @@
 {
   "version": "2019-b2-browser-conformance-v2",
-  "generatedOn": "2026-11-13T10:17:11.404Z",
+  "generatedOn": "2026-11-14T08:43:29.858Z",
   "base": "http://127.0.0.1:8767",
   "viewport": {
     "width": 1440,
@@ -11,9 +11,9 @@
     "height": 844
   },
   "summary": {
-    "pass": 72,
+    "pass": 76,
     "fail": 0,
-    "total": 72
+    "total": 76
   },
   "results": [
     {
@@ -24,7 +24,12 @@
     {
       "id": "MOTION-FIVE-STAGE-RAIL",
       "status": "PASS",
-      "evidence": "[\"20%\",\"40%\",\"60%\",\"80%\",\"100%\"]"
+      "evidence": "[\"0%\",\"20%\",\"40%\",\"60%\",\"80%\"]"
+    },
+    {
+      "id": "V3-2025-FRAME-PARITY",
+      "status": "PASS",
+      "evidence": "{\"stage\":{\"position\":\"fixed\",\"top\":68,\"left\":16,\"right\":16,\"width\":1408,\"height\":88},\"dock\":{\"position\":\"fixed\",\"top\":166,\"left\":16,\"right\":1004,\"width\":420,\"height\":718},\"rail\":{\"position\":\"fixed\",\"top\":166,\"left\":1136,\"right\":16,\"width\":288,\"height\":283}}"
     },
     {
       "id": "MOTION-PAGE-ARRIVAL",
@@ -32,24 +37,34 @@
       "evidence": "gm-panel-in / gm-panel-in"
     },
     {
-      "id": "CATEGORY-HIDDEN",
+      "id": "CATEGORY-ARCHITECTURE",
       "status": "PASS",
-      "evidence": "canonical answer is hidden before a learner choice"
+      "evidence": "{\"total\":16,\"pages\":8,\"notes\":8,\"filters\":0,\"extraction\":0}"
+    },
+    {
+      "id": "CATEGORY-REVISION-HIDDEN",
+      "status": "PASS",
+      "evidence": "read-after correction is hidden while the learner makes a provisional page choice"
     },
     {
       "id": "CATEGORY-STATE",
       "status": "PASS",
-      "evidence": "canonical A/B/C/route file stamp appears only after interaction with M09/M10 state"
+      "evidence": "{\"count\":2,\"labels\":[\"B\",\"C\"],\"revision\":\"讀後分類：Task 9 + Task 10\\n前半段的主題與 metal-noodles 觀眾反應支援 Task 9；後半段的 Netflix 與共同觀影爭論則支援 Task 10。\"}"
     },
     {
       "id": "MOTION-STAMP-SEMANTICS",
       "status": "PASS",
-      "evidence": "stamp accessible label: Task 8 stamp"
+      "evidence": "stamp accessible label: 暫定標記：Task 9"
+    },
+    {
+      "id": "MOTION-SPOTLIGHT-DEFAULT-OFF",
+      "status": "PASS",
+      "evidence": "{\"masks\":4,\"hidden\":true,\"nativeTarget\":\"category-page-5\"}"
     },
     {
       "id": "MOTION-SPOTLIGHT-ON",
       "status": "PASS",
-      "evidence": "{\"masks\":4,\"hidden\":false,\"outline\":\"3px\"}"
+      "evidence": "{\"hidden\":false,\"outline\":\"3px\"}"
     },
     {
       "id": "MOTION-SPOTLIGHT-OFF",
@@ -64,12 +79,12 @@
     {
       "id": "KEYBOARD-UNIT-NAV",
       "status": "PASS",
-      "evidence": "2019-B2-U0001 → 2019-B2-U0002"
+      "evidence": "category-page-5 → category-page-6"
     },
     {
-      "id": "EMPTY-MATCHED-STATE",
+      "id": "EVIDENCE-ARCHITECTURE",
       "status": "PASS",
-      "evidence": "invalid filter intersection shows a truthful empty state"
+      "evidence": "{\"count\":235,\"first\":\"2019-B2-U0044\",\"last\":\"2019-B2-U0303\",\"pages\":{\"4\":27,\"5\":50,\"6\":30,\"7\":35,\"8\":34,\"9\":30,\"10\":18,\"11\":11},\"bankable\":{\"8\":19,\"9\":22,\"10\":27},\"jumpOptions\":235,\"filters\":0,\"manualBank\":0}"
     },
     {
       "id": "MOTION-EXACT-STRIKE",
@@ -87,14 +102,19 @@
       "evidence": "{\"backgroundSize\":\"0% 100%\",\"boxDecorationBreak\":\"clone\"}"
     },
     {
+      "id": "EVIDENCE-REJECTED-NO-BANK",
+      "status": "PASS",
+      "evidence": "rejected source completes without entering any task bank"
+    },
+    {
       "id": "MOTION-ROUTE-DRAW",
       "status": "PASS",
-      "evidence": "{\"path\":\"M 697.8 209.96875 C 697.8 412.10234375000005, 660 375.35078124999995, 660 577.484375\",\"lines\":2,\"drawing\":true}"
+      "evidence": "{\"path\":\"M 276.52 182.515625 C 276.52 444.4875, 153.5453125 396.85625, 153.5453125 658.828125\",\"lines\":3,\"drawing\":true}"
     },
     {
       "id": "MOTION-ROUTE-RETURN",
       "status": "PASS",
-      "evidence": "2019-B2-U0003 restored with one 0.16 route ghost"
+      "evidence": "9 / 235 restored with one 0.16 route ghost"
     },
     {
       "id": "MOTION-BANK-FLIGHT",
@@ -104,7 +124,7 @@
     {
       "id": "EVIDENCE-BANK",
       "status": "PASS",
-      "evidence": "2019-B2-U0061 added once with duplicate prevention"
+      "evidence": "2019-B2-U0061 transferred automatically on Next"
     },
     {
       "id": "MOTION-BANK-CLEANUP",
@@ -114,12 +134,12 @@
     {
       "id": "MOTION-MISSING-END-FALLBACK",
       "status": "PASS",
-      "evidence": "2019-B2-U0067 committed once after the 700 ms fallback with animation events suppressed"
+      "evidence": "2019-B2-U0061 remains single after animation events are suppressed"
     },
     {
       "id": "NATIVE-NOTE-HOST",
       "status": "PASS",
-      "evidence": "{\"fields\":[{\"id\":\"gm-native-note-poster\",\"note\":\"3-poster\",\"labelledBy\":\"gm-native-note-label-poster\"},{\"id\":\"gm-native-note-deadline\",\"note\":\"3-deadline\",\"labelledBy\":\"gm-native-note-label-deadline\"},{\"id\":\"gm-native-note-brighthouse\",\"note\":\"3-brighthouse\",\"labelledBy\":\"gm-native-note-label-brighthouse\"},{\"id\":\"gm-native-note-prize\",\"note\":\"3-prize\",\"labelledBy\":\"gm-native-note-label-prize\"},{\"id\":\"gm-native-note-cinema-home\",\"note\":\"3-cinema-home\",\"labelledBy\":\"gm-native-note-label-cinema-home\"},{\"id\":\"gm-native-note-film-budget\",\"note\":\"3-film-budget\",\"labelledBy\":\"gm-native-note-label-film-budget\"}],\"width\":318,\"height\":2179.140625,\"synthetic\":0}"
+      "evidence": "{\"fields\":[{\"id\":\"gm-native-note-poster\",\"note\":\"3-poster\",\"labelledBy\":\"gm-native-note-label-poster\"},{\"id\":\"gm-native-note-deadline\",\"note\":\"3-deadline\",\"labelledBy\":\"gm-native-note-label-deadline\"},{\"id\":\"gm-native-note-brighthouse\",\"note\":\"3-brighthouse\",\"labelledBy\":\"gm-native-note-label-brighthouse\"},{\"id\":\"gm-native-note-prize\",\"note\":\"3-prize\",\"labelledBy\":\"gm-native-note-label-prize\"},{\"id\":\"gm-native-note-cinema-home\",\"note\":\"3-cinema-home\",\"labelledBy\":\"gm-native-note-label-cinema-home\"},{\"id\":\"gm-native-note-film-budget\",\"note\":\"3-film-budget\",\"labelledBy\":\"gm-native-note-label-film-budget\"}],\"width\":810,\"height\":1817.90625,\"synthetic\":0,\"hostNote\":\"筆記直接寫在中央原卷第 3 頁；此處不再複製 worksheet。\"}"
     },
     {
       "id": "FORWARD-SEEK-GUARD",
@@ -179,7 +199,7 @@
     {
       "id": "NO-FORCED-AUDIO-SCROLL",
       "status": "PASS",
-      "evidence": "{\"before\":[333,444],\"after\":[333,444]}"
+      "evidence": "{\"before\":444,\"after\":444}"
     },
     {
       "id": "NATIVE-GENERATED-BRIGHTHOUSE",
@@ -244,7 +264,7 @@
     {
       "id": "PREVIEW-DRAG",
       "status": "PASS",
-      "evidence": "{\"x\":429.48309326171875,\"y\":233.61087036132812,\"width\":651.0025024414062,\"height\":569.1579284667969}"
+      "evidence": "{\"x\":429.5054626464844,\"y\":233.65478515625,\"width\":650.9577941894531,\"height\":569.1187133789062}"
     },
     {
       "id": "EXACT-RETURN",
@@ -299,7 +319,7 @@
     {
       "id": "MOTION-PRINT-STATE",
       "status": "PASS",
-      "evidence": "{\"spotlight\":\"none\",\"preview\":\"none\",\"routeSvg\":\"none\",\"nativeMarks\":28}"
+      "evidence": "{\"spotlight\":\"none\",\"preview\":\"none\",\"routeSvg\":\"none\",\"nativeMarks\":128}"
     },
     {
       "id": "NO-CONSOLE-ERRORS",
@@ -344,7 +364,7 @@
     {
       "id": "REDUCED-ROUTE-EQUIVALENCE",
       "status": "PASS",
-      "evidence": "{\"dash\":\"0px\",\"d\":\"M 230.56 270.34375 C 230.56 667.19453125, 130.4359375 595.03984375, 130.4359375 991.890625\"}"
+      "evidence": "{\"dash\":\"0px\",\"d\":\"M 249.16 204.609375 C 249.16 477.65859375, 138.96249999999998 428.01328125, 138.96249999999998 701.0625\"}"
     },
     {
       "id": "MOBILE-NO-PAGE-ERRORS",
@@ -354,7 +374,7 @@
     {
       "id": "RESPONSIVE-768",
       "status": "PASS",
-      "evidence": "{\"overflow\":false,\"stamp\":{\"left\":71,\"right\":225,\"top\":215.21875},\"masks\":true}"
+      "evidence": "{\"overflow\":false,\"stamp\":{\"left\":0,\"right\":0,\"top\":0},\"masks\":true}"
     },
     {
       "id": "RESPONSIVE-200-PERCENT",
@@ -364,7 +384,7 @@
     {
       "id": "FIREFOX-GEOMETRY",
       "status": "PASS",
-      "evidence": "{\"firefoxHost\":{\"x\":721,\"y\":1195.94189453125,\"width\":318,\"height\":2179.333251953125},\"firefoxTranscript\":{\"x\":598,\"y\":170,\"width\":484,\"height\":552.5}}"
+      "evidence": "{\"firefoxHost\":{\"x\":520,\"y\":3.0833332538604736,\"width\":490,\"height\":1873.2333171367645},\"firefoxTranscript\":{\"x\":598,\"y\":170,\"width\":484,\"height\":552.5}}"
     },
     {
       "id": "FIREFOX-LIFECYCLE",
