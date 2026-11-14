@@ -5,8 +5,9 @@
   const modelData=window.EDMUND_2019_B2_MODELS;
   if(!sourceData||!listeningData||!modelData||!document.querySelector('#reader')||document.querySelector('#super-curation'))return;
 
-  const VERSION='2019-b2-super-curation-v4';
-  const STORAGE='edmund-paper3-2019-b2-curation-v4';
+  const VERSION='2019-b2-super-curation-v5';
+  const STORAGE='edmund-paper3-2019-b2-curation-v5';
+  const LEGACY_STORAGE_V4='edmund-paper3-2019-b2-curation-v4';
   const LEGACY_STORAGE_V3='edmund-paper3-2019-b2-curation-v3';
   const LEGACY_STORAGE_V2='edmund-paper3-2019-b2-curation-v2';
   const LEGACY_STORAGE='edmund-paper3-2019-b2-curation-v1';
@@ -23,13 +24,41 @@
   const escape=value=>String(value??'').replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
   const wordCount=value=>(String(value||'').trim().match(/[A-Za-z]+(?:[’'-][A-Za-z]+)*/g)||[]).length;
   const formatTime=seconds=>`${Math.floor(seconds/60)}:${String(Math.floor(seconds%60)).padStart(2,'0')}`;
-  const defaultState=()=>({version:VERSION,tab:'contracts',contractIndex:0,unitId:units[0].id,decision:'all',task:'all',reviewed:[],bank:{8:[],9:[],10:[]},notes:{},generatedNotes:{},noteRevealed:[],heardCues:[],categories:{},categoryRevealed:[],bookmarks:[],completedTabs:[],writingTask:8,plans:{8:'',9:'',10:''},drafts:{8:'',9:'',10:''},modelUnlocked:{8:false,9:false,10:false},modelUses:{8:[],9:[],10:[]},questionDraft:'',playbackRate:1,transcriptOpen:false,spotlight:false,windowLayout:{transcript:null,preview:null},returnRoute:null});
+  const categoryPageDefinitions=[
+    {page:5,title:'FilmTalk Forum 完整討論',initial:'Boss letter 先指向 FilmTalk Forum，為 Task 9 尋找電影主題與觀眾反應；先標 Task 9。',revision:'前半段的主題與 metal-noodles 觀眾反應支援 Task 9；後半段的 Netflix 與共同觀影爭論則支援 Task 10。',tasks:[9,10],initialTasks:[9]},
+    {page:6,title:'委員會會議紀錄',initial:'Boss letter 指向會議紀錄處理 Brighthouse 場地報告，先標 Task 8。',revision:'台口尺寸、輪椅上台需要、預算取向和場地疑慮都要和 site visit、政府規例及錄音核對；這頁只支援 Task 8。',tasks:[8],initialTasks:[8]},
+    {page:7,title:'Brighthouse 實地考察筆記',initial:'Boss letter 指向 Alia 的 site visit notes，先標 Task 8。',revision:'把舞台、無障礙、出口、外來食物、清潔及人手逐項和場地要求、政府規例及錄音核對；裝潢和氣味不會自動成為反對理由。',tasks:[8],initialTasks:[8]},
+    {page:8,title:'Isabel Luna 完整訪問（上）',initial:'Boss letter 指向 Isabel Luna 訪問，為 Task 9 尋找 theme、plot 和 stand-out scene；先標 Task 9。',revision:'保留 corporation 控制視野、Sammi 摘下 lenses 後看見真實世界和 metal-noodles 轉折；演員戴 contact lenses 的拍攝困難不是 plot。',tasks:[9],initialTasks:[9]},
+    {page:9,title:'訪問（下）與戲院規例',initial:'這頁有兩種文件：低成本電影訪問指向 Task 10；戲院規例指向 Task 8。先同時標兩項。',revision:'訪問提供低成本導演與大片公司的相互需要；規例用來核對清潔、升降機及出口。Category III 規例不適用於已列為 IIA 的電影。',tasks:[10,8],initialTasks:[8,10]},
+    {page:10,title:'Committee WhatsApp（上）',initial:'Boss letter 把 WhatsApp group 指向 Task 10，先標 Task 10。',revision:'低成本電影與 VR 的討論支援 Task 10；metal-noodles scene 的觀眾反應亦可補 Task 9，所以讀後追加 Task 9。',tasks:[10,9],initialTasks:[10]},
+    {page:11,title:'Committee WhatsApp（下）',initial:'這是 WhatsApp 討論的續頁，仍先標 Task 10。',revision:'cheap technology、獨立創作自由與 blockbusters 避險的對比支援 Task 10；Nico 的 speech 提示確認用途。',tasks:[10],initialTasks:[10]},
+    {page:3,title:'聆聽筆記表',initial:'先看筆記表欄目。Brighthouse Cinema 指向 Task 8；Introductory Speech 兩欄指向 Task 10；Short Video Competition 和 Prize Giving Ceremony 是這三篇作文的干擾。',revision:'錄音核對後，把場地需要寫進 Task 8，把觀影習慣和低成本電影論點寫進 Task 10。Task 9 不使用聆聽筆記。',tasks:[8,10],initialTasks:[]}
+  ];
+  const categoryNoteDefinitions=[
+    {id:'short-video',selector:'#page-3 .notes-form-body h3:nth-of-type(1)',title:'短片比賽欄目',kind:'noise',help:'這欄要按錄音完成筆記，但不提供 Task 8、9 或 10 的作文內容。'},
+    {id:'poster',selector:'#page-3 .notes-form-body label:nth-of-type(1)',title:'海報欄',kind:'noise',help:'海報 URL 和 QR code 要記在聆聽筆記；三篇 B2 作文不取證。'},
+    {id:'deadline',selector:'#page-3 .notes-form-body label:nth-of-type(2)',title:'截止日期欄',kind:'noise',help:'延期日期屬短片比賽筆記；三篇 B2 作文不採用。'},
+    {id:'brighthouse',selector:'#page-3 .notes-form-body h3:nth-of-type(2)',title:'Brighthouse Cinema 欄目',kind:'task',task:8,help:'輪椅上台、人手和外來食物要求支援 Task 8；聽到確認後才逐項寫下。'},
+    {id:'prize',selector:'#page-3 .notes-form-body h3:nth-of-type(3)',title:'頒獎禮欄目',kind:'noise',help:'頒獎禮場地、日期和時間要完成筆記，但不屬三篇 B2 作文。'},
+    {id:'speech',selector:'#page-3 .notes-form-body h3:nth-of-type(4)',title:'電影業現況引言演說欄目',kind:'task',task:10,help:'這個總欄目指向 Task 10；下兩欄分別整理兩組對比。'},
+    {id:'cinema-home',selector:'#page-3 .notes-form-body label:nth-of-type(3)',title:'戲院與家中觀影欄',kind:'task',task:10,help:'home VR 與戲院共同體驗的比較支援 Task 10。'},
+    {id:'film-budget',selector:'#page-3 .notes-form-body label:nth-of-type(4)',title:'大片與低成本電影欄',kind:'task',task:10,help:'資源、利潤、宣傳競爭與新導演來源的對比支援 Task 10。'}
+  ];
+  const categorySteps=[
+    ...categoryPageDefinitions.map(entry=>({id:`category-page-${entry.page}`,kind:'page',page:entry.page,title:entry.title,entry,target:$(`#page-${entry.page} .recreated-page>h2:first-of-type`)})),
+    ...categoryNoteDefinitions.map(entry=>({id:`category-note-${entry.id}`,kind:'note',page:3,title:`聆聽筆記表 · ${entry.title}`,entry,target:$(entry.selector)}))
+  ].map((step,index)=>({...step,index}));
+  const categoryStepIds=new Set(categorySteps.map(step=>step.id));
+  const categoryPageStepIds=new Set(categorySteps.filter(step=>step.kind==='page').map(step=>step.id));
+  const defaultState=()=>({version:VERSION,tab:'contracts',contractIndex:0,categoryIndex:0,categoryCompleted:[],unitId:units[0].id,decision:'all',task:'all',reviewed:[],bank:{8:[],9:[],10:[]},notes:{},generatedNotes:{},noteRevealed:[],heardCues:[],categories:{},categoryRevealed:[],bookmarks:[],completedTabs:[],writingTask:8,plans:{8:'',9:'',10:''},drafts:{8:'',9:'',10:''},modelUnlocked:{8:false,9:false,10:false},modelUses:{8:[],9:[],10:[]},questionDraft:'',playbackRate:1,transcriptOpen:false,spotlight:false,windowLayout:{transcript:null,preview:null},returnRoute:null});
   function sanitizeState(saved){
     const fresh=defaultState();if(!saved||typeof saved!=='object')return fresh;
     const validIds=new Set(units.map(unit=>unit.id));const validCue=index=>Number.isInteger(index)&&index>=0&&index<listeningData.cueCount;
     const clean={...fresh,version:VERSION};
     clean.tab=['contracts','categorize','listen','evidence','writing'].includes(saved.tab)?saved.tab:'contracts';
     clean.contractIndex=Number.isInteger(saved.contractIndex)?Math.max(0,Math.min(26,saved.contractIndex)):0;
+    clean.categoryIndex=saved.version===VERSION&&Number.isInteger(saved.categoryIndex)?Math.max(0,Math.min(categorySteps.length-1,saved.categoryIndex)):0;
+    clean.categoryCompleted=[...new Set(saved.version===VERSION&&Array.isArray(saved.categoryCompleted)?saved.categoryCompleted.filter(id=>categoryStepIds.has(id)):[])];
     clean.unitId=validIds.has(saved.unitId)?saved.unitId:units[0].id;
     clean.decision=saved.decision==='all'||DECISIONS.includes(saved.decision)?saved.decision:'all';
     clean.task=['all','none','8','9','10'].includes(String(saved.task))?String(saved.task):'all';
@@ -39,11 +68,12 @@
     clean.generatedNotes={};if(saved.generatedNotes&&typeof saved.generatedNotes==='object')for(const [id,value] of Object.entries(saved.generatedNotes))if(NOTE_IDS.has(id)&&typeof value==='string')clean.generatedNotes[id]=value.slice(0,2000);
     clean.noteRevealed=[...new Set(Array.isArray(saved.noteRevealed)?saved.noteRevealed.filter(id=>NOTE_IDS.has(id)):[])];
     clean.heardCues=[...new Set(Array.isArray(saved.heardCues)?saved.heardCues.filter(validCue):[])].sort((a,b)=>a-b);
-    clean.categories={};if(saved.categories&&typeof saved.categories==='object')for(const [id,value] of Object.entries(saved.categories))if(validIds.has(id)&&Array.isArray(value))clean.categories[id]=[...new Set(value.map(Number).filter(task=>[8,9,10].includes(task)))];
-    clean.categoryRevealed=[...new Set(Array.isArray(saved.categoryRevealed)?saved.categoryRevealed.filter(id=>validIds.has(id)):[])];
+    clean.categories={};if(saved.categories&&typeof saved.categories==='object')for(const [id,value] of Object.entries(saved.categories))if(categoryPageStepIds.has(id)&&Array.isArray(value))clean.categories[id]=[...new Set(value.map(Number).filter(task=>[8,9,10].includes(task)))];
+    clean.categoryRevealed=[...new Set(saved.version===VERSION&&Array.isArray(saved.categoryRevealed)?saved.categoryRevealed.filter(id=>validIds.has(id)):[])];
     clean.bookmarks=[...new Set(Array.isArray(saved.bookmarks)?saved.bookmarks.filter(value=>typeof value==='string'&&value.length<100):[])];
     clean.completedTabs=[...new Set(Array.isArray(saved.completedTabs)?saved.completedTabs.filter(tab=>['contracts','categorize','listen','evidence','writing'].includes(tab)):[])];
     if(!Number.isInteger(saved.contractIndex))clean.completedTabs=clean.completedTabs.filter(tab=>tab!=='contracts');
+    if(saved.version!==VERSION)clean.completedTabs=clean.completedTabs.filter(tab=>tab!=='categorize');
     clean.writingTask=[8,9,10].includes(Number(saved.writingTask))?Number(saved.writingTask):8;
     clean.plans={...fresh.plans,...(saved.plans||{})};clean.drafts={...fresh.drafts,...(saved.drafts||{})};clean.modelUnlocked={...fresh.modelUnlocked,...(saved.modelUnlocked||{})};
     clean.modelUses={8:[],9:[],10:[]};for(const task of [8,9,10])clean.modelUses[task]=[...new Set(Array.isArray(saved.modelUses?.[task])?saved.modelUses[task].filter(id=>validIds.has(id)):[])];
@@ -58,6 +88,7 @@
   }
   function loadEnvelope(){
     try{const stored=JSON.parse(localStorage.getItem(STORAGE)||'null');if(stored?.version===VERSION&&stored.slots&&typeof stored.slots==='object'){const activeSlot=/^[1-5]$/.test(String(stored.activeSlot))?String(stored.activeSlot):'1';const slots={};for(let index=1;index<=5;index+=1)if(stored.slots[index])slots[index]=sanitizeState(stored.slots[index]);return {activeSlot,slots};}}catch{}
+    try{const stored=JSON.parse(localStorage.getItem(LEGACY_STORAGE_V4)||'null');if(stored?.version==='2019-b2-super-curation-v4'&&stored.slots&&typeof stored.slots==='object'){const activeSlot=/^[1-5]$/.test(String(stored.activeSlot))?String(stored.activeSlot):'1';const slots={};for(let index=1;index<=5;index+=1)if(stored.slots[index])slots[index]=sanitizeState(stored.slots[index]);return {activeSlot,slots};}}catch{}
     try{const stored=JSON.parse(localStorage.getItem(LEGACY_STORAGE_V3)||'null');if(stored?.version==='2019-b2-super-curation-v3'&&stored.slots&&typeof stored.slots==='object'){const activeSlot=/^[1-5]$/.test(String(stored.activeSlot))?String(stored.activeSlot):'1';const slots={};for(let index=1;index<=5;index+=1)if(stored.slots[index])slots[index]=sanitizeState(stored.slots[index]);return {activeSlot,slots};}}catch{}
     try{const stored=JSON.parse(localStorage.getItem(LEGACY_STORAGE_V2)||'null');if(stored?.version==='2019-b2-super-curation-v2'&&stored.slots&&typeof stored.slots==='object'){const activeSlot=/^[1-5]$/.test(String(stored.activeSlot))?String(stored.activeSlot):'1';const slots={};for(let index=1;index<=5;index+=1)if(stored.slots[index])slots[index]=sanitizeState(stored.slots[index]);return {activeSlot,slots};}}catch{}
     try{const legacy=JSON.parse(localStorage.getItem(LEGACY_STORAGE)||'null');if(legacy?.version==='2019-b2-super-curation-v1')return {activeSlot:'1',slots:{1:sanitizeState(legacy)}};}catch{}
@@ -96,7 +127,8 @@
     if(state.returnRoute)return;
     let target=null;
     if(state.tab==='contracts')target=contractNativeTarget(contractSteps[state.contractIndex]);
-    else if(['categorize','evidence'].includes(state.tab)){const panel=currentExplorerPanel();const unit=panel?currentUnit(panel).unit:null;target=nativeTargetForUnit(unit);}
+    else if(state.tab==='categorize')target=currentCategoryStep()?.target||$(`#page-${currentCategoryStep()?.page} .native-document`);
+    else if(state.tab==='evidence'){const panel=currentExplorerPanel();const unit=panel?currentUnit(panel).unit:null;target=nativeTargetForUnit(unit);}
     else if(state.tab==='listen'){const active=activeCueIndex($('#gm-audio')?.currentTime||0);const note=noteDefinitions.find(item=>active>=0&&active<=item.cue);target=note?$(`[data-curation-note="${note.id}"]`):nativeNoteSheet;target=target||$('#page-3 .native-document');}
     else if(state.tab==='writing')target=$(`#page-${tasks[state.writingTask].page} .native-document`)||$(`#page-${tasks[state.writingTask].page}`);
     setNativeTarget(target,{scroll});
@@ -158,6 +190,47 @@
   const nativeNoteSheet=$('#page-3 .conference-notes');
   const nativeNoteAnchor=document.createComment('2019 B2 native note sheet mount point');
   if(nativeNoteSheet)nativeNoteSheet.parentNode.insertBefore(nativeNoteAnchor,nativeNoteSheet);
+  const categoryTaskLetter={8:'A',9:'B',10:'C'};
+  function currentCategoryStep(){state.categoryIndex=Math.max(0,Math.min(categorySteps.length-1,state.categoryIndex));return categorySteps[state.categoryIndex];}
+  function categoryCutoff(){const order=['contracts','categorize','listen','evidence','writing'],active=order.indexOf(state.tab),target=order.indexOf('categorize');return active<target?-1:active>target?categorySteps.length-1:state.categoryIndex;}
+  function wrapCategoryNoiseText(target){
+    if(!target||$('.gm-category-note-strike',target))return;
+    const nodes=[];const walker=document.createTreeWalker(target,NodeFilter.SHOW_TEXT);let node;
+    while((node=walker.nextNode()))if(node.textContent.trim()&&!node.parentElement.closest('textarea'))nodes.push(node);
+    for(const textNode of nodes){const span=document.createElement('span');span.className='gm-category-note-strike';textNode.parentNode.insertBefore(span,textNode);span.append(textNode);}
+  }
+  function prepareCategoryTargets(){
+    for(const step of categorySteps){
+      if(!step.target)continue;
+      step.target.dataset.categoryStep=step.id;
+      if(step.kind==='page'){
+        const page=step.target.closest('.recreated-page');if(!page)continue;
+        page.classList.add('gm-category-page');let holder=$('.gm-category-page-stamps',page);
+        if(!holder){holder=document.createElement('div');holder.className='gm-category-page-stamps';holder.setAttribute('aria-label','這頁的暫定任務標記');page.insertBefore(holder,step.target);}
+        step.stampHolder=holder;
+      }else{
+        step.target.classList.add('gm-category-note-target');if(step.entry.kind==='task')step.target.classList.add('gm-category-note-task',`gm-category-note-task-${step.entry.task}`);else step.target.classList.add('gm-category-note-noise');
+        step.target.dataset.categoryLetter=step.entry.task?categoryTaskLetter[step.entry.task]:'×';
+        step.target.setAttribute('aria-label',`${step.target.textContent.trim()} · ${step.entry.kind==='task'?`分類：Task ${step.entry.task}`:'Type 6：不供三篇作文取證'}`);
+        if(step.entry.kind==='noise')wrapCategoryNoiseText(step.target);
+      }
+    }
+  }
+  function selectedCategoryTasks(step){return Object.hasOwn(state.categories,step.id)?state.categories[step.id]:step.entry.initialTasks;}
+  function syncCategoryMarks(animate=null){
+    const cutoff=categoryCutoff();
+    for(const step of categorySteps){
+      const reached=step.index<=cutoff;
+      if(step.kind==='page'){
+        const selected=reached?selectedCategoryTasks(step):[];const holder=step.stampHolder;if(!holder)continue;
+        const signature=selected.join(',');
+        if(holder.dataset.tasks!==signature){holder.dataset.tasks=signature;holder.replaceChildren();for(const task of selected){const stamp=document.createElement('span');stamp.className=`gm-category-page-stamp task${task}`;stamp.textContent=categoryTaskLetter[task];stamp.dataset.task=String(task);stamp.setAttribute('role','img');stamp.setAttribute('aria-label',`暫定標記：Task ${task}`);if(animate?.page===step.page&&animate.task===task)stamp.classList.add('is-new');holder.append(stamp);}}
+        holder.closest('.gm-category-page')?.classList.toggle('has-category-stamps',selected.length>0);
+      }else step.target?.classList.toggle('is-revealed',reached);
+    }
+    const animated=$('.gm-category-page-stamp.is-new');if(animated)afterMotion(animated,'animationend',760,()=>animated.classList.remove('is-new'));
+  }
+  prepareCategoryTargets();
 
   const shell=document.createElement('section');
   shell.id='super-curation';shell.className='gm-shell';shell.setAttribute('aria-labelledby','gm-title');
@@ -202,20 +275,21 @@
   const cueTranslations=new Map(),cueTeaching=new Map();
   for(const unit of units)if(unit.audioCue){const teaching=cueTeaching.get(unit.audioCue.index)||[];teaching.push({id:unit.id,decision:unit.decision,tasks:unit.tasks});cueTeaching.set(unit.audioCue.index,teaching);if(unit.translation){const list=cueTranslations.get(unit.audioCue.index)||[];if(!list.includes(unit.translation))list.push(unit.translation);cueTranslations.set(unit.audioCue.index,list);}}
   const transcriptSections=new Map([[0,'Instructions'],[9,'Short Video Competition'],[40,'Brighthouse Cinema'],[70,'Prize Giving Ceremony'],[81,'Cinema and home viewing'],[94,'Blockbusters and low-budget films'],[103,'Closing instructions']]);
-  function bookmarkKey(){if(['categorize','evidence'].includes(state.tab))return `${state.tab}:${state.unitId}`;if(state.tab==='listen'){const audio=$('#gm-audio');return `listen:${activeCueIndex(audio?.currentTime||0)}`;}if(state.tab==='writing')return `writing:${state.writingTask}`;return `contracts:${state.contractIndex}`;}
-  function bookmarkLabel(key){const [kind,value]=key.split(':');if(kind==='categorize'||kind==='evidence')return `${kind==='categorize'?'分類':'取證'} · ${value}`;if(kind==='listen')return `聆聽 · cue ${Number(value)+1}`;if(kind==='writing')return `寫作 · Task ${value}`;if(kind==='contracts')return `任務指示 · ${Number(value)+1}/${contractSteps.length}`;return '任務指示';}
+  function bookmarkKey(){if(state.tab==='categorize')return `categorize:${currentCategoryStep()?.id}`;if(state.tab==='evidence')return `evidence:${state.unitId}`;if(state.tab==='listen'){const audio=$('#gm-audio');return `listen:${activeCueIndex(audio?.currentTime||0)}`;}if(state.tab==='writing')return `writing:${state.writingTask}`;return `contracts:${state.contractIndex}`;}
+  function bookmarkLabel(key){const [kind,value]=key.split(':');if(kind==='categorize'){const step=categorySteps.find(item=>item.id===value);return `分類 · ${step?.title||value}`;}if(kind==='evidence')return `取證 · ${value}`;if(kind==='listen')return `聆聽 · cue ${Number(value)+1}`;if(kind==='writing')return `寫作 · Task ${value}`;if(kind==='contracts')return `任務指示 · ${Number(value)+1}/${contractSteps.length}`;return '任務指示';}
   function updateBookmarks(){const select=$('#gm-bookmark-jump');if(!select)return;select.innerHTML='<option value="">選擇書籤</option>'+state.bookmarks.map(key=>`<option value="${escape(key)}">${escape(bookmarkLabel(key))}</option>`).join('');const saved=state.bookmarks.includes(bookmarkKey());$('#gm-bookmark').setAttribute('aria-pressed',String(saved));$('#gm-bookmark').textContent=saved?'★':'☆';}
   function updateController(){
     const status=$('#gm-step-status');if(!status)return;
     const chapterIndex=['contracts','categorize','listen','evidence','writing'].indexOf(state.tab)+1;let detail='';
     if(state.tab==='contracts')detail=`${state.contractIndex+1}/${contractSteps.length} · ${contractSteps[state.contractIndex]?.id||'boss email'}`;
-    else if(['categorize','evidence'].includes(state.tab)){const panel=currentExplorerPanel();const item=panel?currentUnit(panel):{list:[],index:0};detail=item.unit?`${item.index+1}/${item.list.length} · ${item.unit.id}`:'empty matched state';}
+    else if(state.tab==='categorize'){const step=currentCategoryStep();detail=`${state.categoryIndex+1}/${categorySteps.length} · ${step?.title||'資料分類'}`;}
+    else if(state.tab==='evidence'){const panel=currentExplorerPanel();const item=panel?currentUnit(panel):{list:[],index:0};detail=item.unit?`${item.index+1}/${item.list.length} · ${item.unit.id}`:'empty matched state';}
     else if(state.tab==='listen')detail=`${state.heardCues.length}/${listeningData.cueCount} cues heard`;
     else if(state.tab==='writing')detail=`Task ${state.writingTask} · ${wordCount(state.drafts[state.writingTask])} words`;
     else detail='task instructions';
     status.textContent=`Chapter ${chapterIndex}/5 · ${detail}`;updateBookmarks();shell.style.setProperty('--gm-stage-progress',`${(chapterIndex-1)*20}%`);
     $$('.gm-tab').forEach((button,index)=>{const complete=state.completedTabs.includes(button.dataset.tab),active=index===chapterIndex-1;button.classList.toggle('is-complete',complete);button.dataset.stageState=complete?'完成':active?'目前':'未到';button.setAttribute('aria-label',`${button.querySelector('.gm-stage-label')?.textContent||button.textContent.trim()} · ${button.dataset.stageState}`);const dot=$('.gm-stage-dot',button),count=$('.gm-stage-count',button);if(dot)dot.textContent=complete?'✓':String(index+1);if(count)count.textContent=complete?'完成':active?(state.tab==='contracts'?`${state.contractIndex+1}/${contractSteps.length}`:state.tab==='categorize'||state.tab==='evidence'?detail.split(' · ')[0]:state.tab==='listen'?`${state.heardCues.length}/${listeningData.cueCount}`:state.tab==='writing'?`Task ${state.writingTask}`:''):'';});
-    const next=$('#gm-next-step');if(next&&state.tab==='contracts')next.textContent=state.contractIndex===contractSteps.length-1?'完成 Stage 1 →':'下一步 →';else if(next)next.textContent='下一步 →';
+    const next=$('#gm-next-step');if(next&&state.tab==='contracts')next.textContent=state.contractIndex===contractSteps.length-1?'完成 Stage 1 →':'下一步 →';else if(next&&state.tab==='categorize')next.textContent=state.categoryIndex===categorySteps.length-1?'完成本章 ✓':'下一步 →';else if(next)next.textContent='下一步 →';
     const spotlight=$('#gm-spotlight-toggle');if(spotlight){spotlight.setAttribute('aria-pressed',String(state.spotlight));spotlight.textContent=`Spotlight：${state.spotlight?'開':'關'}`;}
     $('#gm-return-route').hidden=!state.returnRoute;const saveStatus=$('#gm-save-status');if(saveStatus&&!saveStatus.textContent.trim())saveStatus.textContent=`Slot ${activeSlot} · 已自動儲存在這部裝置`;
   }
@@ -397,8 +471,19 @@
 
   function renderEvidence(){explorerLayout($('#gm-evidence'),'evidence');}
   function renderCategorize(){
-    explorerLayout($('#gm-categorize'),'categorize');
-    const card=$('.gm-unit',$('#gm-categorize'));card.insertAdjacentHTML('afterbegin','<p class="gm-kicker">Chapter 2 · classify before drafting</p>');
+    const panel=$('#gm-categorize'),step=currentCategoryStep(),completed=state.categoryCompleted.length,progress=Math.round(completed/categorySteps.length*100);
+    if(!step)return;
+    const jump=`<label class="gm-category-jump">跳至步驟 <select data-category-jump aria-label="跳至資料分類步驟">${categorySteps.map(item=>`<option value="${item.index}" ${item.index===step.index?'selected':''}>${item.index+1} / ${categorySteps.length} · ${escape(item.title)}</option>`).join('')}</select></label>`;
+    let teaching='';
+    if(step.kind==='page'){
+      const selected=selectedCategoryTasks(step);
+      teaching=`<p class="gm-category-lead">${escape(step.entry.initial)}</p><p>先作暫定標記；讀到新的決定後再修正。分類是會更新的工作假設。</p><button class="gm-btn gm-category-revision-toggle" data-category-revision aria-expanded="false">顯示讀後修正</button><p class="gm-category-revision" hidden><strong>讀後分類：${step.entry.tasks.map(task=>`Task ${task}`).join(' + ')}</strong><br>${escape(step.entry.revision)}</p><fieldset class="gm-category-page-choices"><legend>你會先標哪個任務？</legend>${[8,9,10].map(task=>`<label><input type="checkbox" data-category-page-task="${task}" ${selected.includes(task)?'checked':''}> Task ${task}</label>`).join('')}</fieldset>`;
+    }else{
+      const task=step.entry.task;
+      teaching=`<p class="gm-category-lead">${escape(step.entry.help)}</p><div class="gm-category-note-decision ${step.entry.kind==='noise'?'is-noise':`task${task}`}"><strong>${step.entry.kind==='noise'?'Type 6 · 不供三篇作文取證':`Task ${task}`}</strong><span>${step.entry.kind==='noise'?'紅線只表示這欄不進三篇 B2 作文；聆聽筆記仍要完成。':`這一步才在筆記表加 ${categoryTaskLetter[task]}／Task ${task} 標記。`}</span></div>`;
+    }
+    panel.innerHTML=`<div class="gm-category-progress"><strong>${step.index+1} / ${categorySteps.length}</strong><span><i style="width:${progress}%"></i></span><small>${completed} 已完成</small></div>${jump}<article class="gm-card gm-category-card" tabindex="-1" data-category-kind="${step.kind}" data-category-id="${step.id}"><p class="gm-kicker">Chapter 2 · classify before extraction</p><p class="gm-category-source">Data File 第 ${step.page} 頁${step.kind==='note'?' · 聆聽筆記表欄目':' · 文件標題'}</p><h3>${escape(step.title)}</h3>${teaching}<p class="gm-category-rule">這一章只建立來源路線，不抽取 evidence；逐句內容留待 Stage 4。</p></article>`;
+    syncCategoryMarks();updateController();syncNativeSource({scroll:true});requestAnimationFrame(trackSpotlight);
   }
 
   function evidenceList(task){const ids=state.bank[task],used=modelUsedIds(task);if(!ids.length)return '<p class="gm-empty">尚未有 evidence。到「取證」加入已核准 source units。</p>';return ids.map(id=>{const unit=unitById.get(id),isUsed=used.has(id),consumed=state.modelUses[task].includes(id);return `<button class="gm-cue gm-writing-evidence ${isUsed?'is-model-used':'is-model-new'} ${consumed?'is-consumed':''}" data-open-unit="${id}"><small><span>${id}</span><span>${consumed?'Consumed in inspected model sentence':isUsed?'Model uses this':'Approved · not used in model'}</span></small><span>${escape(unit.excerpt)}</span></button>`;}).join('');}
@@ -417,11 +502,11 @@
     renderEvidenceRail();updateController();syncNativeSource({scroll:false});
   }
 
-  function renderAll(){renderContracts();renderCategorize();renderListening();renderEvidence();renderWriting();renderEvidenceRail();$('#gm-slot').value=activeSlot;$('#gm-question-draft').value=state.questionDraft;setTab(state.tab,false);addPageBadges();updateController();}
+  function renderAll(){renderContracts();renderCategorize();renderListening();renderEvidence();renderWriting();renderEvidenceRail();$('#gm-slot').value=activeSlot;$('#gm-question-draft').value=state.questionDraft;setTab(state.tab,false);addPageBadges();syncCategoryMarks();updateController();}
   function setTab(tab,focus=true){
-    if(!['contracts','categorize','listen','evidence','writing'].includes(tab))tab='contracts';state.tab=tab;save();
+    if(!['contracts','categorize','listen','evidence','writing'].includes(tab))tab='contracts';state.tab=tab;document.body.dataset.gmCurationTab=tab;save();
     $$('.gm-tab').forEach(button=>{const selected=button.dataset.tab===tab;button.setAttribute('aria-selected',String(selected));button.tabIndex=selected?0:-1;});
-    $$('.gm-panel').forEach(panel=>panel.hidden=panel.dataset.panel!==tab);
+    $$('.gm-panel').forEach(panel=>panel.hidden=panel.dataset.panel!==tab);syncCategoryMarks();
     if(tab!=='listen'){if(noteTyping)cancelNoteTyping();restoreNativeNoteSheet();$('#gm-transcript-window').hidden=true;$('#gm-audio')?.pause();}else{mountNativeNoteSheet();if(state.transcriptOpen)openTranscriptWindow();}
     if(!['writing','evidence'].includes(tab))closeModelPreview();
     if(!['categorize','evidence'].includes(tab))routeGhostUnit=null;const activePanel=$(`.gm-panel[data-panel="${tab}"]`);animateArrival(activePanel);if(focus)$(`.gm-tab[data-tab="${tab}"]`).focus();announce(`Opened chapter ${tab}`);updateController();renderEvidenceRail();syncNativeSource({scroll:true});requestAnimationFrame(()=>{syncNativeSource({scroll:true});trackSpotlight();});
@@ -465,29 +550,32 @@
     }
     return marked;
   }
-  function currentExplorerPanel(){return state.tab==='categorize'?$('#gm-categorize'):$('#gm-evidence');}
+  function currentExplorerPanel(){return state.tab==='evidence'?$('#gm-evidence'):null;}
   function goUnit(direction){const panel=currentExplorerPanel();const {list,index}=currentUnit(panel);const next=list[index+(direction==='next'?1:-1)];if(!next)return;state.unitId=next.id;save();renderExplorer(panel);$('.gm-unit',panel).focus({preventScroll:true});announce(next.id);}
   function openUnit(id){if(!unitById.has(id))return;state.unitId=id;state.decision='all';state.task='all';setTab('evidence');renderEvidence();$('#gm-evidence .gm-unit').focus();}
   function completeTab(tab){if(!state.completedTabs.includes(tab))state.completedTabs.push(tab);save();}
   function controllerNext(){
     if(state.tab==='contracts'){if(state.contractIndex<contractSteps.length-1){state.contractIndex+=1;save();renderContracts();updateController();syncNativeSource({scroll:true});trackSpotlight();announce(`Stage 1 unit ${state.contractIndex+1} of ${contractSteps.length}.`);return;}completeTab('contracts');setTab('categorize');return;}
-    if(['categorize','evidence'].includes(state.tab)){const panel=currentExplorerPanel(),{list,index}=currentUnit(panel);if(index<list.length-1){goUnit('next');return;}completeTab(state.tab);setTab(state.tab==='categorize'?'listen':'writing');return;}
+    if(state.tab==='categorize'){const step=currentCategoryStep();if(step&&!state.categoryCompleted.includes(step.id))state.categoryCompleted.push(step.id);if(state.categoryIndex<categorySteps.length-1){state.categoryIndex+=1;save();renderCategorize();announce(`Stage 2 unit ${state.categoryIndex+1} of ${categorySteps.length}.`);return;}completeTab('categorize');setTab('listen');return;}
+    if(state.tab==='evidence'){const panel=currentExplorerPanel(),{list,index}=currentUnit(panel);if(index<list.length-1){goUnit('next');return;}completeTab('evidence');setTab('writing');return;}
     if(state.tab==='listen'){const next=listeningData.cues.find(cue=>!state.heardCues.includes(cue.index));if(next){playCue(next.index);return;}completeTab('listen');setTab('evidence');return;}
     if(state.tab==='writing'){if(state.writingTask<10){setWritingTask(state.writingTask===8?9:10);return;}completeTab('writing');announce('三項寫作 workspace 已到最後一項。');}
   }
   function controllerPrev(){
     if(state.tab==='contracts'){if(state.contractIndex>0){state.contractIndex-=1;save();renderContracts();updateController();syncNativeSource({scroll:true});trackSpotlight();announce(`Stage 1 unit ${state.contractIndex+1} of ${contractSteps.length}.`);}return;}
-    if(['categorize','evidence'].includes(state.tab)){const panel=currentExplorerPanel(),{index}=currentUnit(panel);if(index>0){goUnit('prev');return;}setTab(state.tab==='categorize'?'contracts':'listen');return;}
+    if(state.tab==='categorize'){if(state.categoryIndex>0){state.categoryIndex-=1;save();renderCategorize();announce(`Stage 2 unit ${state.categoryIndex+1} of ${categorySteps.length}.`);return;}setTab('contracts');return;}
+    if(state.tab==='evidence'){const panel=currentExplorerPanel(),{index}=currentUnit(panel);if(index>0){goUnit('prev');return;}setTab('listen');return;}
     if(state.tab==='listen'){const audio=$('#gm-audio');let index=activeCueIndex(audio?.currentTime||0);if(index>0){audio.currentTime=listeningData.cues[index-1].start;updateAudioState(audio);return;}setTab('categorize');return;}
     if(state.tab==='writing'){if(state.writingTask>8){setWritingTask(state.writingTask===10?9:8);return;}setTab('evidence');}
   }
-  function navigateBookmark(key){if(!key)return;const [kind,value]=key.split(':');if(kind==='categorize'||kind==='evidence'){if(unitById.has(value))state.unitId=value;state.decision='all';state.task='all';setTab(kind);kind==='categorize'?renderCategorize():renderEvidence();}
+  function navigateBookmark(key){if(!key)return;const [kind,value]=key.split(':');if(kind==='categorize'){const index=categorySteps.findIndex(step=>step.id===value);if(index>=0)state.categoryIndex=index;setTab('categorize');renderCategorize();}
+    else if(kind==='evidence'){if(unitById.has(value))state.unitId=value;state.decision='all';state.task='all';setTab('evidence');renderEvidence();}
     else if(kind==='listen'){setTab('listen');const audio=$('#gm-audio'),cue=listeningData.cues[Number(value)];if(cue){audio.currentTime=cue.start;updateAudioState(audio);}}
     else if(kind==='writing'){setWritingTask(Number(value));setTab('writing');}else if(kind==='contracts'){state.contractIndex=Math.max(0,Math.min(contractSteps.length-1,Number(value)||0));renderContracts();setTab('contracts');}else setTab('contracts');save();}
-  function openHelp(){const help={contracts:'依 Ringo 電郵的原文順序閱讀 27 個單位：19 個 boss-email 單位加八次即時來源探訪。顏色只標示任務或來源；圈號才是指定內容點；Type 6 紅線表示不寫入答案。',categorize:'先自行選 Task 8/9/10 或 route/noise，再揭示 canonical Type 1–6 和七種 answer decision。',listen:'按 cue 播放會在句末自動停止；只有完整聽完才會開啟 evidence gate。前跳不算已聽，倒帶會撤回之後狀態。',evidence:'只有「獨立寫入／合併寫入／只保留結論」可進 evidence bank；每項保留 stable source ID。',writing:'先寫至少 20 words 才解鎖 model；選 model 句子會顯示 exact source IDs 和可拖曳原文 preview。'};$('#gm-help-content').innerHTML=`<p>${help[state.tab]}</p><p><strong>目前位置：</strong> ${escape($('#gm-step-status').textContent)}</p>`;$('#gm-question-draft').value=state.questionDraft;const dialog=$('#gm-help-dialog');if(typeof dialog.showModal==='function')dialog.showModal();else dialog.setAttribute('open','');}
+  function openHelp(){const help={contracts:'依 Ringo 電郵的原文順序閱讀 27 個單位：19 個 boss-email 單位加八次即時來源探訪。顏色只標示任務或來源；圈號才是指定內容點；Type 6 紅線表示不寫入答案。',categorize:'依文件標題先做 8 個 page-level 暫定分類，再逐項判讀聆聽筆記表的 8 個欄目。跨任務頁會在「讀後修正」追加標記；這一章不提前抽取句子。',listen:'按 cue 播放會在句末自動停止；只有完整聽完才會開啟 evidence gate。前跳不算已聽，倒帶會撤回之後狀態。',evidence:'只有「獨立寫入／合併寫入／只保留結論」可進 evidence bank；每項保留 stable source ID。',writing:'先寫至少 20 words 才解鎖 model；選 model 句子會顯示 exact source IDs 和可拖曳原文 preview。'};$('#gm-help-content').innerHTML=`<p>${help[state.tab]}</p><p><strong>目前位置：</strong> ${escape($('#gm-step-status').textContent)}</p>`;$('#gm-question-draft').value=state.questionDraft;const dialog=$('#gm-help-dialog');if(typeof dialog.showModal==='function')dialog.showModal();else dialog.setAttribute('open','');}
   function switchSlot(next){save();activeSlot=String(next);state=sanitizeState(slots[activeSlot]);renderAll();$('#gm-save-status').textContent=`Slot ${activeSlot} · 已切換並自動儲存`;announce(`Switched to save slot ${activeSlot}.`);}
   function exportSlot(){save();const payload={format:'edmund-paper3-curation-save',version:VERSION,year:2019,level:'B2',slot:activeSlot,createdAt:new Date().toISOString(),state:sanitizeState(state)};const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));const anchor=document.createElement('a');anchor.href=url;anchor.download=`paper3-2019-b2-curation-slot-${activeSlot}.json`;anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-  async function importSlot(file){try{if(!file||file.size>1024*1024)throw Error('存檔缺失或超過 1 MB');const payload=JSON.parse(await file.text());if(payload?.format!=='edmund-paper3-curation-save'||payload.version!==VERSION||payload.year!==2019||String(payload.level).toUpperCase()!=='B2'||!payload.state||typeof payload.state!=='object')throw Error('這不是 2019 B2 v4 的有效存檔');state=sanitizeState(payload.state);save();renderAll();$('#gm-save-status').textContent=`已驗證並匯入至 Slot ${activeSlot}`;}catch(error){$('#gm-save-status').textContent=`匯入失敗：${error.message}`;}}
+  async function importSlot(file){try{if(!file||file.size>1024*1024)throw Error('存檔缺失或超過 1 MB');const payload=JSON.parse(await file.text());if(payload?.format!=='edmund-paper3-curation-save'||payload.version!==VERSION||payload.year!==2019||String(payload.level).toUpperCase()!=='B2'||!payload.state||typeof payload.state!=='object')throw Error('這不是 2019 B2 v5 的有效存檔');state=sanitizeState(payload.state);save();renderAll();$('#gm-save-status').textContent=`已驗證並匯入至 Slot ${activeSlot}`;}catch(error){$('#gm-save-status').textContent=`匯入失敗：${error.message}`;}}
 
   launch.addEventListener('click',()=>setCurationOpen(!curationOpen));$('#gm-close-curation').addEventListener('click',()=>setCurationOpen(false));
   $('#gm-prev-step').addEventListener('click',controllerPrev);$('#gm-next-step').addEventListener('click',controllerNext);$('#gm-help').addEventListener('click',openHelp);
@@ -501,6 +589,8 @@
   shell.addEventListener('click',event=>{
     const tab=event.target.closest('[data-tab]');if(tab){setTab(tab.dataset.tab);return;}
     const tabTarget=event.target.closest('[data-tab-target]');if(tabTarget){setTab(tabTarget.dataset.tabTarget);return;}
+    const categoryRevision=event.target.closest('[data-category-revision]');if(categoryRevision){const revision=$('.gm-category-revision',$('#gm-categorize')),expanded=categoryRevision.getAttribute('aria-expanded')!=='true';categoryRevision.setAttribute('aria-expanded',String(expanded));categoryRevision.textContent=expanded?'隱藏讀後修正':'顯示讀後修正';if(revision)revision.hidden=!expanded;return;}
+    const categoryPageTask=event.target.closest('[data-category-page-task]');if(categoryPageTask){const step=currentCategoryStep();if(step?.kind!=='page')return;const task=Number(categoryPageTask.dataset.categoryPageTask),selected=new Set(selectedCategoryTasks(step));categoryPageTask.checked?selected.add(task):selected.delete(task);state.categories[step.id]=[...selected].sort((a,b)=>a-b);save();syncCategoryMarks(categoryPageTask.checked?{page:step.page,task}:null);announce(`第 ${step.page} 頁暫定分類更新為 ${state.categories[step.id].length?state.categories[step.id].map(value=>`Task ${value}`).join(' + '):'未分類'}。`);return;}
     const start=event.target.closest('[data-start-task]');if(start){setWritingTask(start.dataset.startTask);setTab('writing');return;}
     const native=event.target.closest('[data-native-page]');if(native){jumpPage(Number(native.dataset.nativePage));return;}
     if(event.target.closest('[data-jump-current]')){const {unit}=currentUnit(currentExplorerPanel());jumpPage(unit.page);return;}
@@ -528,6 +618,7 @@
     const translationToggle=event.target.closest('[data-toggle-translation]');if(translationToggle){const windowNode=$('#gm-transcript-window'),show=windowNode.classList.toggle('show-translation');translationToggle.setAttribute('aria-pressed',String(show));translationToggle.textContent=show?'隱藏中文':'中文對照';return;}
     if(event.target.closest('#gm-reset')){if(confirm(`只重設 2019 B2 Super Curation Slot ${activeSlot} 的進度、筆記、證據庫和草稿？其他 slots 與原卷 reader 不受影響。`)){slots[activeSlot]=defaultState();state=sanitizeState(slots[activeSlot]);save();renderAll();announce(`Super Curation Slot ${activeSlot} reset`);}return;}
   });
+  shell.addEventListener('change',event=>{const jump=event.target.closest('[data-category-jump]');if(!jump)return;state.categoryIndex=Math.max(0,Math.min(categorySteps.length-1,Number(jump.value)||0));save();renderCategorize();announce(`Jumped to Stage 2 unit ${state.categoryIndex+1} of ${categorySteps.length}.`);});
   shell.addEventListener('keydown',event=>{
     const activeTab=event.target.closest?.('.gm-tab');
     if(activeTab&&['ArrowRight','ArrowLeft','Home','End'].includes(event.key)){
@@ -538,8 +629,10 @@
       setTab(tabs[index].dataset.tab);return;
     }
     if(event.target.matches('textarea,input,audio'))return;
-    if(event.key==='ArrowRight'&&['categorize','evidence'].includes(state.tab)){event.preventDefault();goUnit('next');}
-    if(event.key==='ArrowLeft'&&['categorize','evidence'].includes(state.tab)){event.preventDefault();goUnit('prev');}
+    if(event.key==='ArrowRight'&&state.tab==='categorize'){event.preventDefault();controllerNext();}
+    if(event.key==='ArrowLeft'&&state.tab==='categorize'){event.preventDefault();controllerPrev();}
+    if(event.key==='ArrowRight'&&state.tab==='evidence'){event.preventDefault();goUnit('next');}
+    if(event.key==='ArrowLeft'&&state.tab==='evidence'){event.preventDefault();goUnit('prev');}
   });
   document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;const preview=$('#gm-model-preview'),transcript=$('#gm-transcript-window'),dialog=$('#gm-help-dialog');if(preview&&!preview.hidden){closeModelPreview();event.preventDefault();return;}if(transcript&&!transcript.hidden){closeTranscriptWindow();event.preventDefault();return;}if(dialog?.open){dialog.close();event.preventDefault();}});
 
@@ -548,5 +641,5 @@
   renderAll();
   const nativeMarks=markNativePhrases();
   syncNativeSource({scroll:true});renderEvidenceRail();
-  window.EDMUND_2019_B2_CURATION_DIAGNOSTICS=Object.freeze({version:VERSION,contractStepCount:contractSteps.length,contractBossCount:contractBossSteps.length,contractRouteCount:contractSteps.filter(step=>step.kind==='route').length,unitCount:units.length,decisionCount:DECISIONS.length,cueCount:listeningData.cueCount,audioOwnerCount:$$('#gm-audio').length,nativeMarks,nativeTaskParagraphs:$$('.gm-source-paragraph,.gm-contract-paragraph').length,saveSlotCount:5,missingModelSources,getState:()=>JSON.parse(JSON.stringify(state)),getEnvelope:()=>JSON.parse(JSON.stringify({version:VERSION,activeSlot,slots}))});
+  window.EDMUND_2019_B2_CURATION_DIAGNOSTICS=Object.freeze({version:VERSION,contractStepCount:contractSteps.length,contractBossCount:contractBossSteps.length,contractRouteCount:contractSteps.filter(step=>step.kind==='route').length,categoryStepCount:categorySteps.length,categoryPageCount:categorySteps.filter(step=>step.kind==='page').length,categoryNoteCount:categorySteps.filter(step=>step.kind==='note').length,unitCount:units.length,decisionCount:DECISIONS.length,cueCount:listeningData.cueCount,audioOwnerCount:$$('#gm-audio').length,nativeMarks,nativeTaskParagraphs:$$('.gm-source-paragraph,.gm-contract-paragraph').length,saveSlotCount:5,missingModelSources,getState:()=>JSON.parse(JSON.stringify(state)),getEnvelope:()=>JSON.parse(JSON.stringify({version:VERSION,activeSlot,slots}))});
 })();
