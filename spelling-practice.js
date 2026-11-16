@@ -10,6 +10,7 @@ const PORTAL_ID = "spelling";
 const STORAGE_VERSION = "v1";
 let appState = null;
 let activeUser = null;
+let wordAudio = null;
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>'"]/g, (character) => ({
@@ -31,7 +32,8 @@ function defaultState() {
     totalCorrect: 0,
     totalAttempts: 0,
     currentId: "",
-    mask: []
+    mask: [],
+    awaitingNext: false
   };
 }
 
@@ -63,7 +65,8 @@ function normalizeState(candidate) {
     totalCorrect,
     totalAttempts: Math.max(totalCorrect, Math.floor(Number(candidate.totalAttempts) || totalCorrect)),
     currentId: validIds.has(candidate.currentId) ? candidate.currentId : "",
-    mask: []
+    mask: [],
+    awaitingNext: phase === "practice" && candidate.awaitingNext === true
   };
 }
 
@@ -112,9 +115,9 @@ function icon(name) {
 function setupMarkup() {
   const rows = VOCABULARY.map((entry) => {
     const selected = appState.selectedIds.includes(entry.id);
-    return `<tr>
+    return `<tr class="spelling-word-row" data-word-row="${entry.id}" tabindex="0" aria-label="${selected ? "取消選擇" : "選擇"} ${escapeHtml(entry.word)}">
       <td><label class="spelling-check"><input type="checkbox" value="${entry.id}" data-word-select ${selected ? "checked" : ""}><span aria-hidden="true"></span><span class="sr-only">選擇 ${escapeHtml(entry.word)}</span></label></td>
-      <td><strong>${escapeHtml(entry.word)}</strong></td>
+      <td><span class="spelling-word-cell"><strong>${escapeHtml(entry.word)}</strong><button class="spelling-row-sound" type="button" data-speak-word="${entry.id}" aria-label="播放 ${escapeHtml(entry.word)} 的讀音">${icon("sound")}</button></span></td>
       <td class="spelling-characters">${escapeHtml(characterLabel(entry.word))}</td>
       <td>${escapeHtml(entry.meaning)}</td>
     </tr>`;
@@ -122,8 +125,8 @@ function setupMarkup() {
   const total = requiredCorrectTotal(appState.selectedIds.length, appState.frequency);
   return `<section class="spelling-workspace" data-spelling-app>
     <header class="spelling-hero">
-      <div><p class="spelling-eyebrow">SPELLING LAB · 拼寫實驗室</p><h1>看、聽、拆字，再準確拼寫</h1><p>選擇生字、設定測試比例與完成次數。每次出題都會重新隨機抽走字母。</p></div>
-      <div class="spelling-hero__count"><strong>${VOCABULARY.length}</strong><span>個試行生字</span></div>
+      <div><p class="spelling-eyebrow">SPELLING LAB · 拼寫實驗室</p><h1>拼寫練習設定</h1><p>選擇生字、設定測試比例與完成次數。每次出題都會重新隨機抽走字母。</p></div>
+      <div class="spelling-hero__count"><strong>${VOCABULARY.length}</strong><span>個生字及詞組</span></div>
     </header>
     <section class="spelling-controls" aria-label="練習設定">
       <div class="spelling-control spelling-control--difficulty">
@@ -141,12 +144,12 @@ function setupMarkup() {
         <small>答錯不會扣除或增加完成次數。</small>
       </div>
       <div class="spelling-control spelling-control--summary">
-        <span>本輪目標</span><strong data-target-total>${total}</strong><small>共選 ${appState.selectedIds.length} 字 × ${appState.frequency} 次</small>
+        <span>本輪目標</span><strong data-target-total>${total}</strong><small>共選 ${appState.selectedIds.length} 項 × ${appState.frequency} 次</small>
         <button class="spelling-primary" type="button" data-start ${appState.selectedIds.length ? "" : "disabled"}>開始練習 ${icon("arrow")}</button>
       </div>
     </section>
     <section class="spelling-bank">
-      <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><h2>選擇本輪生字</h2></div><div class="spelling-bank__actions"><span data-selected-count>已選 ${appState.selectedIds.length} / ${VOCABULARY.length}</span><button type="button" data-select-all>全選</button><button type="button" data-deselect-all>取消全選</button></div></div>
+      <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><div class="spelling-bank__title-row"><h2>選擇本輪生字</h2><label class="spelling-search"><span class="sr-only">搜尋英文或繁體中文</span><input type="search" data-word-search placeholder="搜尋英文或繁體中文" autocomplete="off"></label></div></div><div class="spelling-bank__actions"><span data-selected-count>已選 ${appState.selectedIds.length} / ${VOCABULARY.length}</span><button type="button" data-select-all>全選</button><button type="button" data-deselect-all>取消全選</button></div></div>
       <div class="spelling-table-wrap"><table><thead><tr><th scope="col">選擇</th><th scope="col">生字／詞組</th><th scope="col">字母拆分</th><th scope="col">繁體中文意思</th></tr></thead><tbody>${rows}</tbody></table></div>
     </section>
   </section>`;
@@ -156,6 +159,7 @@ function renderMask(entry) {
   const blanks = new Set(appState.mask);
   return [...entry.word].map((character, position) => {
     if (character === " ") return '<span class="spelling-slot spelling-slot--space" aria-hidden="true"></span>';
+    if (appState.awaitingNext && blanks.has(position)) return `<span class="spelling-slot spelling-slot--corrected">${escapeHtml(character)}</span>`;
     if (!blanks.has(position)) return `<span class="spelling-slot spelling-slot--given">${escapeHtml(character)}</span>`;
     return `<label class="spelling-slot spelling-slot--blank"><span class="sr-only">輸入第 ${position + 1} 個字母</span><input data-letter-position="${position}" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入第 ${position + 1} 個字母"></label>`;
   }).join("");
@@ -167,17 +171,16 @@ function practiceMarkup() {
   const completed = appState.totalCorrect;
   const percentage = required ? Math.round(completed / required * 100) : 0;
   const wordCorrect = appState.correctById[entry.id] || 0;
-  return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app>
+  return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}">
     <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div><span>本輪進度</span><strong>${completed} / ${required}</strong></div></header>
     <div class="spelling-progress" aria-label="本輪完成 ${percentage}%"><i style="width:${percentage}%"></i></div>
     <main class="spelling-card">
-      <p class="spelling-eyebrow">LISTEN · COMPLETE · CHECK</p>
       <div class="spelling-meaning-row"><h1>${escapeHtml(entry.meaning)}</h1><button class="spelling-sound" type="button" data-speak aria-label="播放英文讀音">${icon("sound")}<span>聆聽</span></button></div>
       <p class="spelling-word-progress">這個生字已答對 <strong>${wordCorrect}</strong> / ${appState.frequency} 次</p>
       <form data-answer-form novalidate>
         <div class="spelling-slots" role="group" aria-label="填寫缺少的英文字母">${renderMask(entry)}</div>
-        <p class="spelling-feedback" data-feedback role="status" aria-live="assertive"></p>
-        <button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>
+        <p class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : ""}" role="status" aria-live="assertive">${appState.awaitingNext ? `正確答案：${escapeHtml(entry.word)}` : ""}</p>
+        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
       </form>
       <p class="spelling-attempts">本輪作答 ${appState.totalAttempts} 次；只有答對才會計入完成次數。</p>
     </main>
@@ -187,8 +190,8 @@ function practiceMarkup() {
 function completeMarkup() {
   const required = requiredCorrectTotal(appState.selectedIds.length, appState.frequency);
   const accuracy = appState.totalAttempts ? Math.round(appState.totalCorrect / appState.totalAttempts * 100) : 100;
-  return `<section class="spelling-workspace spelling-workspace--complete" data-spelling-app>
-    <div class="spelling-complete-card"><span class="spelling-complete-card__icon">${icon("check")}</span><p class="spelling-eyebrow">ROUND COMPLETE · 本輪完成</p><h1>所有指定拼寫已完成</h1><p>你已累積答對 ${required} 次。答錯的嘗試沒有被計入完成次數。</p><div class="spelling-complete-stats"><div><strong>${appState.selectedIds.length}</strong><span>個生字</span></div><div><strong>${appState.frequency}</strong><span>每字答對次數</span></div><div><strong>${accuracy}%</strong><span>作答準確率</span></div></div><div class="spelling-complete-actions"><button class="spelling-primary" type="button" data-repeat>${icon("replay")} 再練一次</button><button type="button" data-back-to-bank>重新選字</button></div></div>
+  return `<section class="spelling-workspace spelling-workspace--complete" data-spelling-app data-spelling-complete data-spelling-total="${required}">
+    <div class="spelling-complete-card"><span class="spelling-complete-card__icon">${icon("check")}</span><p class="spelling-eyebrow">ROUND COMPLETE · 本輪完成</p><h1>所有指定拼寫已完成</h1><p>你已累積答對 ${required} 次。答錯的嘗試沒有被計入完成次數。</p><div class="spelling-complete-stats"><div><strong>${appState.selectedIds.length}</strong><span>個生字／詞組</span></div><div><strong>${appState.frequency}</strong><span>每項答對次數</span></div><div><strong>${accuracy}%</strong><span>作答準確率</span></div></div><div class="spelling-complete-actions"><button class="spelling-primary" type="button" data-repeat>${icon("replay")} 再練一次</button><button type="button" data-back-to-bank>重新選字</button></div></div>
   </section>`;
 }
 
@@ -204,6 +207,10 @@ function render() {
         appState.mask = [...createMask(next.word, appState.difficulty)];
       }
     }
+    const active = currentEntry();
+    if (active && !appState.awaitingNext && !appState.mask.length) {
+      appState.mask = [...createMask(active.word, appState.difficulty)];
+    }
   }
   dashboard.innerHTML = appState.phase === "practice" ? practiceMarkup() : appState.phase === "complete" ? completeMarkup() : setupMarkup();
   saveState();
@@ -216,14 +223,13 @@ function updateSetupSummary(root) {
   root.querySelector("[data-difficulty-output]").textContent = `${appState.difficulty}%`;
   root.querySelector("[data-selected-count]").textContent = `已選 ${selectedCount} / ${VOCABULARY.length}`;
   root.querySelector("[data-target-total]").textContent = String(required);
-  root.querySelector(".spelling-control--summary small").textContent = `共選 ${selectedCount} 字 × ${appState.frequency} 次`;
+  root.querySelector(".spelling-control--summary small").textContent = `共選 ${selectedCount} 項 × ${appState.frequency} 次`;
   root.querySelector("[data-start]").disabled = selectedCount === 0;
   root.querySelectorAll("[data-frequency-preset]").forEach((button) => button.setAttribute("aria-pressed", String(Number(button.dataset.frequencyPreset) === appState.frequency)));
   saveState();
 }
 
-function speakCurrentWord() {
-  const entry = currentEntry();
+function fallbackSpeak(entry) {
   if (!entry || !("speechSynthesis" in window)) return;
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(entry.word);
@@ -232,6 +238,27 @@ function speakCurrentWord() {
   const voices = window.speechSynthesis.getVoices();
   utterance.voice = voices.find((voice) => /^en-GB/i.test(voice.lang)) || voices.find((voice) => /^en/i.test(voice.lang)) || null;
   window.speechSynthesis.speak(utterance);
+}
+
+function speakWord(entry) {
+  if (!entry) return;
+  const source = window.EDMUND_SPELLING_AUDIO?.[entry.word];
+  if (!source) {
+    fallbackSpeak(entry);
+    return;
+  }
+  try {
+    wordAudio?.pause();
+    wordAudio = new Audio(source);
+    wordAudio.preload = "auto";
+    wordAudio.play().catch(() => fallbackSpeak(entry));
+  } catch {
+    fallbackSpeak(entry);
+  }
+}
+
+function speakCurrentWord() {
+  speakWord(currentEntry());
 }
 
 function playTone(correct) {
@@ -254,6 +281,7 @@ function playTone(correct) {
 }
 
 function prepareFreshAttempt(entry) {
+  appState.awaitingNext = false;
   appState.mask = [...createMask(entry.word, appState.difficulty)];
   saveState();
   render();
@@ -277,10 +305,9 @@ function handleAnswer(form) {
   const correct = isAnswerCorrect(entry.word, values);
   playTone(correct);
   if (!correct) {
-    feedback.textContent = "未完全正確。這次不計入完成次數，正在重新抽選字母。";
-    feedback.dataset.state = "wrong";
+    appState.awaitingNext = true;
     saveState();
-    setTimeout(() => prepareFreshAttempt(entry), 950);
+    render();
     return;
   }
   appState.correctById[entry.id] = Math.min(appState.frequency, (appState.correctById[entry.id] || 0) + 1);
@@ -294,9 +321,11 @@ function handleAnswer(form) {
       appState.phase = "complete";
       appState.currentId = "";
       appState.mask = [];
+      appState.awaitingNext = false;
     } else {
       appState.currentId = next.id;
       appState.mask = [...createMask(next.word, appState.difficulty)];
+      appState.awaitingNext = false;
     }
     render();
   }, 760);
@@ -308,6 +337,7 @@ function startRound() {
   appState.correctById = Object.fromEntries(appState.selectedIds.map((id) => [id, 0]));
   appState.totalCorrect = 0;
   appState.totalAttempts = 0;
+  appState.awaitingNext = false;
   const first = chooseNextEntry();
   appState.currentId = first?.id || "";
   appState.mask = first ? [...createMask(first.word, appState.difficulty)] : [];
@@ -318,7 +348,40 @@ function returnToBank() {
   appState.phase = "setup";
   appState.currentId = "";
   appState.mask = [];
+  appState.awaitingNext = false;
   render();
+}
+
+function readyForNext() {
+  const previous = currentEntry();
+  const next = chooseNextEntry(previous?.id || "");
+  appState.awaitingNext = false;
+  if (!next) {
+    appState.phase = "complete";
+    appState.currentId = "";
+    appState.mask = [];
+  } else {
+    appState.currentId = next.id;
+    appState.mask = [...createMask(next.word, appState.difficulty)];
+  }
+  render();
+}
+
+function applyWordSearch(root, query) {
+  const needle = String(query || "").trim().toLocaleLowerCase("zh-Hant");
+  root.querySelectorAll("[data-word-row]").forEach((row) => {
+    const entry = VOCABULARY.find((item) => item.id === row.dataset.wordRow);
+    const haystack = `${entry?.word || ""} ${entry?.meaning || ""}`.toLocaleLowerCase("zh-Hant");
+    row.hidden = Boolean(needle) && !haystack.includes(needle);
+  });
+}
+
+function toggleWordSelection(root, id) {
+  const input = root.querySelector(`[data-word-select][value="${CSS.escape(id)}"]`);
+  if (!input) return;
+  input.checked = !input.checked;
+  input.dispatchEvent(new Event("change", { bubbles: true }));
+  root.querySelector(`[data-word-row="${CSS.escape(id)}"]`)?.setAttribute("aria-label", `${input.checked ? "取消選擇" : "選擇"} ${VOCABULARY.find((entry) => entry.id === id)?.word || ""}`);
 }
 
 document.addEventListener("input", (event) => {
@@ -339,6 +402,26 @@ document.addEventListener("input", (event) => {
       const inputs = [...app.querySelectorAll("[data-letter-position]")];
       inputs[inputs.indexOf(event.target) + 1]?.focus();
     }
+  }
+  if (event.target.matches("[data-word-search]")) applyWordSearch(app, event.target.value);
+});
+
+document.addEventListener("keydown", (event) => {
+  const app = event.target.closest("[data-spelling-app]");
+  if (!app || !appState) return;
+  if (event.target.matches("[data-letter-position]") && event.key === "Backspace" && !event.target.value) {
+    const inputs = [...app.querySelectorAll("[data-letter-position]")];
+    const previous = inputs[inputs.indexOf(event.target) - 1];
+    if (previous) {
+      event.preventDefault();
+      previous.value = "";
+      previous.focus();
+    }
+  }
+  const row = event.target.closest("[data-word-row]");
+  if (row && ["Enter", " "].includes(event.key) && !event.target.closest("button,input,label")) {
+    event.preventDefault();
+    toggleWordSelection(app, row.dataset.wordRow);
   }
 });
 
@@ -379,6 +462,11 @@ document.addEventListener("click", (event) => {
   }
   if (event.target.closest("[data-start]")) startRound();
   if (event.target.closest("[data-speak]")) speakCurrentWord();
+  const rowSound = event.target.closest("[data-speak-word]");
+  if (rowSound) speakWord(VOCABULARY.find((entry) => entry.id === rowSound.dataset.speakWord));
+  const row = event.target.closest("[data-word-row]");
+  if (row && !event.target.closest("button,input,label")) toggleWordSelection(app, row.dataset.wordRow);
+  if (event.target.closest("[data-ready-next]")) readyForNext();
   if (event.target.closest("[data-back-to-bank]")) returnToBank();
   if (event.target.closest("[data-repeat]")) startRound();
 });

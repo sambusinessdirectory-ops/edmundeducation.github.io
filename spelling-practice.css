@@ -157,6 +157,9 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
 .spelling-bank { padding: clamp(24px, 4vw, 42px); }
 .spelling-bank__toolbar { margin-bottom: 22px; display: flex; align-items: end; justify-content: space-between; gap: 20px; }
 .spelling-bank__toolbar h2 { margin: 0; font: 800 clamp(27px, 3vw, 39px)/1.1 Georgia, serif; }
+.spelling-bank__title-row { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
+.spelling-search input { width: min(360px, 46vw); min-height: 44px; padding: 0 16px; border: 1px solid var(--spell-line); border-radius: 999px; color: var(--spell-ink); background: white; font: inherit; font-weight: 750; }
+.spelling-search input:focus { outline: 3px solid rgba(71, 123, 98, .2); border-color: var(--spell-green); }
 .spelling-bank__actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 9px; }
 .spelling-bank__actions span { margin-right: 8px; color: var(--spell-muted); font-size: 13px; font-weight: 900; }
 .spelling-bank__actions button { padding: 0 15px; }
@@ -167,7 +170,13 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
 .spelling-table-wrap td { padding: 15px 18px; border-top: 1px solid var(--spell-line); }
 .spelling-table-wrap tbody tr:nth-child(even) { background: #f8fbf9; }
 .spelling-table-wrap tbody tr:hover { background: var(--spell-green-soft); }
+.spelling-word-row { cursor: pointer; }
+.spelling-word-row:focus-visible { outline: 3px solid rgba(71, 123, 98, .35); outline-offset: -3px; }
 .spelling-table-wrap td strong { font: 700 18px/1.3 Georgia, serif; }
+.spelling-word-cell { display: inline-flex; align-items: center; gap: 10px; }
+.spelling-row-sound { width: 36px; height: 36px; padding: 0; display: inline-grid; place-items: center; border: 1px solid var(--spell-line); border-radius: 50%; color: var(--spell-green-dark); background: white; cursor: pointer; }
+.spelling-row-sound:hover { background: var(--spell-green-soft); }
+.spelling-row-sound svg { width: 18px; height: 18px; }
 .spelling-characters { color: var(--spell-green-dark); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 800; letter-spacing: .05em; }
 
 .spelling-check { display: inline-grid; place-items: center; cursor: pointer; }
@@ -198,6 +207,7 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
 .spelling-slot--given { color: var(--spell-ink); background: linear-gradient(180deg, transparent 62%, var(--spell-green-soft) 62%); }
 .spelling-slot--blank { border-color: var(--spell-red); background: #fff5f3; }
 .spelling-slot--blank input { width: 100%; border: 0; outline: 0; color: var(--spell-red); background: transparent; font: inherit; text-align: center; text-transform: lowercase; }
+.spelling-slot--corrected { color: #8d302e; border-color: var(--spell-red); background: linear-gradient(180deg, transparent 56%, #ffe1dc 56%); }
 .spelling-slot--space { width: 20px; border: 0; background: transparent; }
 .spelling-feedback { min-height: 27px; margin: 24px 0 14px; text-align: center; font-weight: 900; }
 .spelling-feedback[data-state="correct"] { color: var(--spell-green-dark); }
@@ -235,6 +245,8 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
   .spelling-control--summary { grid-column: auto; }
   .spelling-bank { padding: 19px 13px; }
   .spelling-bank__toolbar { align-items: start; flex-direction: column; }
+  .spelling-bank__title-row { align-items: stretch; flex-direction: column; }
+  .spelling-search input { width: min(100%, 420px); }
   .spelling-bank__actions { justify-content: flex-start; }
   .spelling-table-wrap { max-height: 65vh; }
   .spelling-table-wrap th, .spelling-table-wrap td { padding: 13px 10px; }
