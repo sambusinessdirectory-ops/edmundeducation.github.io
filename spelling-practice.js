@@ -5,12 +5,16 @@ import {
   isAnswerCorrect,
   requiredCorrectTotal
 } from "./spelling-practice-core.mjs";
+import { createClassroomLiveSync } from "./classroom-live-sync.mjs?v=20261028-1";
 
 const PORTAL_ID = "spelling";
 const STORAGE_VERSION = "v1";
+const SYNC_SCHEMA_VERSION = 1;
+const SYNC_SCOPE = `practice:${STORAGE_VERSION}`;
 let appState = null;
 let activeUser = null;
 let wordAudio = null;
+let correctAdvanceTimer = null;
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>'"]/g, (character) => ({
@@ -33,8 +37,30 @@ function defaultState() {
     totalAttempts: 0,
     currentId: "",
     mask: [],
-    awaitingNext: false
+    draftLetters: {},
+    awaitingNext: false,
+    feedback: "",
+    pendingNextId: "",
+    pendingNextMask: [],
+    advanceAt: 0
   };
+}
+
+function validMask(word, candidate) {
+  if (!Array.isArray(candidate)) return [];
+  const positions = [...new Set(candidate.map(Number).filter((position) => Number.isInteger(position)
+    && position >= 0 && position < word.length && /[a-z]/i.test(word[position])))]
+    .sort((a, b) => a - b);
+  return positions;
+}
+
+function validDraft(mask, candidate) {
+  if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) return {};
+  const allowed = new Set(mask.map(String));
+  return Object.fromEntries(Object.entries(candidate)
+    .filter(([position]) => allowed.has(String(position)))
+    .map(([position, value]) => [position, String(value || "").replace(/[^a-z]/gi, "").slice(-1).toLocaleLowerCase("en")])
+    .filter(([, value]) => value));
 }
 
 function normalizeState(candidate) {
@@ -51,11 +77,20 @@ function normalizeState(candidate) {
     correctById[id] = Math.min(frequency, Math.max(0, Math.floor(Number(candidate.correctById?.[id]) || 0)));
   });
   const totalCorrect = Object.values(correctById).reduce((sum, value) => sum + value, 0);
-  const phase = candidate.phase === "practice" && totalCorrect < requiredCorrectTotal(selectedIds.length, frequency)
+  const pendingCorrectFeedback = candidate.phase === "practice" && candidate.feedback === "correct";
+  const phase = candidate.phase === "practice" && (totalCorrect < requiredCorrectTotal(selectedIds.length, frequency) || pendingCorrectFeedback)
     ? "practice"
     : candidate.phase === "complete" && totalCorrect >= requiredCorrectTotal(selectedIds.length, frequency)
       ? "complete"
       : "setup";
+  const selectedSet = new Set(selectedIds);
+  const currentId = phase === "practice" && selectedSet.has(candidate.currentId) ? candidate.currentId : "";
+  const currentWord = VOCABULARY.find((entry) => entry.id === currentId)?.word || "";
+  const mask = validMask(currentWord, candidate.mask);
+  const feedback = phase === "practice" && candidate.feedback === "correct" ? "correct" : "";
+  const awaitingNext = phase === "practice" && !feedback && candidate.awaitingNext === true;
+  const pendingNextId = feedback && selectedSet.has(candidate.pendingNextId) ? candidate.pendingNextId : "";
+  const pendingWord = VOCABULARY.find((entry) => entry.id === pendingNextId)?.word || "";
   return {
     selectedIds,
     difficulty,
@@ -64,9 +99,14 @@ function normalizeState(candidate) {
     correctById,
     totalCorrect,
     totalAttempts: Math.max(totalCorrect, Math.floor(Number(candidate.totalAttempts) || totalCorrect)),
-    currentId: validIds.has(candidate.currentId) ? candidate.currentId : "",
-    mask: [],
-    awaitingNext: phase === "practice" && candidate.awaitingNext === true
+    currentId,
+    mask,
+    draftLetters: validDraft(mask, candidate.draftLetters),
+    awaitingNext,
+    feedback,
+    pendingNextId,
+    pendingNextMask: validMask(pendingWord, candidate.pendingNextMask),
+    advanceAt: feedback ? Math.max(0, Math.floor(Number(candidate.advanceAt) || 0)) : 0
   };
 }
 
@@ -79,6 +119,22 @@ function saveState() {
   if (!activeUser || !appState) return;
   try { localStorage.setItem(storageKey(activeUser.id), JSON.stringify(appState)); }
   catch { /* The exercise remains usable without persistent browser storage. */ }
+}
+
+function persistAndPublish() {
+  saveState();
+  classroomLive?.publish();
+}
+
+function clearAttemptState() {
+  appState.draftLetters = {};
+  appState.awaitingNext = false;
+  appState.feedback = "";
+  appState.pendingNextId = "";
+  appState.pendingNextMask = [];
+  appState.advanceAt = 0;
+  if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
+  correctAdvanceTimer = null;
 }
 
 function selectedEntries() {
@@ -161,7 +217,7 @@ function renderMask(entry) {
     if (character === " ") return '<span class="spelling-slot spelling-slot--space" aria-hidden="true"></span>';
     if (appState.awaitingNext && blanks.has(position)) return `<span class="spelling-slot spelling-slot--corrected">${escapeHtml(character)}</span>`;
     if (!blanks.has(position)) return `<span class="spelling-slot spelling-slot--given">${escapeHtml(character)}</span>`;
-    return `<label class="spelling-slot spelling-slot--blank"><span class="sr-only">輸入第 ${position + 1} 個字母</span><input data-letter-position="${position}" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入第 ${position + 1} 個字母"></label>`;
+    return `<label class="spelling-slot spelling-slot--blank"><span class="sr-only">輸入第 ${position + 1} 個字母</span><input data-letter-position="${position}" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入第 ${position + 1} 個字母" value="${escapeHtml(appState.draftLetters[position] || "")}" ${appState.feedback === "correct" ? "disabled" : ""}></label>`;
   }).join("");
 }
 
@@ -179,8 +235,8 @@ function practiceMarkup() {
       <p class="spelling-word-progress">這個生字已答對 <strong>${wordCorrect}</strong> / ${appState.frequency} 次</p>
       <form data-answer-form novalidate>
         <div class="spelling-slots" role="group" aria-label="填寫缺少的英文字母">${renderMask(entry)}</div>
-        <p class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : ""}" role="status" aria-live="assertive">${appState.awaitingNext ? `正確答案：${escapeHtml(entry.word)}` : ""}</p>
-        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
+        <p class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : appState.feedback}" role="status" aria-live="assertive">${appState.awaitingNext ? `正確答案：${escapeHtml(entry.word)}` : appState.feedback === "correct" ? "拼寫正確！已計入一次。" : ""}</p>
+        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" disabled>正在前往下一題 ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
       </form>
       <p class="spelling-attempts">本輪作答 ${appState.totalAttempts} 次；只有答對才會計入完成次數。</p>
     </main>
@@ -199,12 +255,13 @@ function render() {
   const dashboard = document.querySelector('[data-learning-portal-root] [data-view="dashboard"]');
   if (!dashboard || !activeUser) return;
   if (appState.phase === "practice") {
-    if (!currentEntry() || (appState.correctById[appState.currentId] || 0) >= appState.frequency) {
+    if (!appState.feedback && (!currentEntry() || (appState.correctById[appState.currentId] || 0) >= appState.frequency)) {
       const next = chooseNextEntry();
       if (!next) appState.phase = "complete";
       else {
         appState.currentId = next.id;
         appState.mask = [...createMask(next.word, appState.difficulty)];
+        appState.draftLetters = {};
       }
     }
     const active = currentEntry();
@@ -214,7 +271,10 @@ function render() {
   }
   dashboard.innerHTML = appState.phase === "practice" ? practiceMarkup() : appState.phase === "complete" ? completeMarkup() : setupMarkup();
   saveState();
-  if (appState.phase === "practice") requestAnimationFrame(() => dashboard.querySelector("[data-letter-position]")?.focus());
+  if (appState.phase === "practice") {
+    scheduleCorrectAdvance();
+    if (!appState.feedback && !appState.awaitingNext) requestAnimationFrame(() => dashboard.querySelector("[data-letter-position]")?.focus());
+  }
 }
 
 function updateSetupSummary(root) {
@@ -226,7 +286,7 @@ function updateSetupSummary(root) {
   root.querySelector(".spelling-control--summary small").textContent = `共選 ${selectedCount} 項 × ${appState.frequency} 次`;
   root.querySelector("[data-start]").disabled = selectedCount === 0;
   root.querySelectorAll("[data-frequency-preset]").forEach((button) => button.setAttribute("aria-pressed", String(Number(button.dataset.frequencyPreset) === appState.frequency)));
-  saveState();
+  persistAndPublish();
 }
 
 function fallbackSpeak(entry) {
@@ -281,10 +341,38 @@ function playTone(correct) {
 }
 
 function prepareFreshAttempt(entry) {
-  appState.awaitingNext = false;
+  clearAttemptState();
   appState.mask = [...createMask(entry.word, appState.difficulty)];
-  saveState();
   render();
+  persistAndPublish();
+}
+
+function advanceCorrect() {
+  if (!appState || appState.feedback !== "correct") return;
+  if (appState.advanceAt > Date.now()) {
+    scheduleCorrectAdvance();
+    return;
+  }
+  const next = VOCABULARY.find((entry) => entry.id === appState.pendingNextId) || null;
+  const nextMask = next ? validMask(next.word, appState.pendingNextMask) : [];
+  clearAttemptState();
+  if (!next) {
+    appState.phase = "complete";
+    appState.currentId = "";
+    appState.mask = [];
+  } else {
+    appState.currentId = next.id;
+    appState.mask = nextMask.length ? nextMask : [...createMask(next.word, appState.difficulty)];
+  }
+  render();
+  persistAndPublish();
+}
+
+function scheduleCorrectAdvance() {
+  if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
+  correctAdvanceTimer = null;
+  if (!appState || appState.feedback !== "correct") return;
+  correctAdvanceTimer = setTimeout(advanceCorrect, Math.max(0, appState.advanceAt - Date.now()));
 }
 
 function handleAnswer(form) {
@@ -292,6 +380,7 @@ function handleAnswer(form) {
   if (!entry) return;
   const values = {};
   form.querySelectorAll("[data-letter-position]").forEach((input) => { values[input.dataset.letterPosition] = input.value; });
+  appState.draftLetters = Object.fromEntries(Object.entries(values).filter(([, value]) => String(value).trim()));
   const feedback = form.querySelector("[data-feedback]");
   if (Object.values(values).some((value) => !String(value).trim())) {
     feedback.textContent = "請先填寫所有空格。";
@@ -306,29 +395,22 @@ function handleAnswer(form) {
   playTone(correct);
   if (!correct) {
     appState.awaitingNext = true;
-    saveState();
+    appState.feedback = "";
     render();
+    persistAndPublish();
     return;
   }
   appState.correctById[entry.id] = Math.min(appState.frequency, (appState.correctById[entry.id] || 0) + 1);
   appState.totalCorrect += 1;
-  feedback.textContent = "拼寫正確！已計入一次。";
-  feedback.dataset.state = "correct";
-  saveState();
-  setTimeout(() => {
-    const next = chooseNextEntry(entry.id);
-    if (!next) {
-      appState.phase = "complete";
-      appState.currentId = "";
-      appState.mask = [];
-      appState.awaitingNext = false;
-    } else {
-      appState.currentId = next.id;
-      appState.mask = [...createMask(next.word, appState.difficulty)];
-      appState.awaitingNext = false;
-    }
-    render();
-  }, 760);
+  const next = chooseNextEntry(entry.id);
+  appState.feedback = "correct";
+  appState.awaitingNext = false;
+  appState.pendingNextId = next?.id || "";
+  appState.pendingNextMask = next ? [...createMask(next.word, appState.difficulty)] : [];
+  // Keep correct feedback visible long enough for a second device's two-second poll.
+  appState.advanceAt = Date.now() + 5000;
+  render();
+  persistAndPublish();
 }
 
 function startRound() {
@@ -337,25 +419,27 @@ function startRound() {
   appState.correctById = Object.fromEntries(appState.selectedIds.map((id) => [id, 0]));
   appState.totalCorrect = 0;
   appState.totalAttempts = 0;
-  appState.awaitingNext = false;
+  clearAttemptState();
   const first = chooseNextEntry();
   appState.currentId = first?.id || "";
   appState.mask = first ? [...createMask(first.word, appState.difficulty)] : [];
   render();
+  persistAndPublish();
 }
 
 function returnToBank() {
   appState.phase = "setup";
   appState.currentId = "";
   appState.mask = [];
-  appState.awaitingNext = false;
+  clearAttemptState();
   render();
+  persistAndPublish();
 }
 
 function readyForNext() {
   const previous = currentEntry();
   const next = chooseNextEntry(previous?.id || "");
-  appState.awaitingNext = false;
+  clearAttemptState();
   if (!next) {
     appState.phase = "complete";
     appState.currentId = "";
@@ -365,6 +449,7 @@ function readyForNext() {
     appState.mask = [...createMask(next.word, appState.difficulty)];
   }
   render();
+  persistAndPublish();
 }
 
 function applyWordSearch(root, query) {
@@ -398,6 +483,10 @@ document.addEventListener("input", (event) => {
   }
   if (event.target.matches("[data-letter-position]")) {
     event.target.value = event.target.value.replace(/[^a-z]/gi, "").slice(-1).toLocaleLowerCase("en");
+    const position = String(event.target.dataset.letterPosition);
+    if (event.target.value) appState.draftLetters[position] = event.target.value;
+    else delete appState.draftLetters[position];
+    persistAndPublish();
     if (event.target.value) {
       const inputs = [...app.querySelectorAll("[data-letter-position]")];
       inputs[inputs.indexOf(event.target) + 1]?.focus();
@@ -415,6 +504,8 @@ document.addEventListener("keydown", (event) => {
     if (previous) {
       event.preventDefault();
       previous.value = "";
+      delete appState.draftLetters[String(previous.dataset.letterPosition)];
+      persistAndPublish();
       previous.focus();
     }
   }
@@ -471,19 +562,46 @@ document.addEventListener("click", (event) => {
   if (event.target.closest("[data-repeat]")) startRound();
 });
 
+const classroomLive = createClassroomLiveSync({
+  system: "spelling",
+  context: () => {
+    const session = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
+    return {
+      owner: activeUser?.id || null,
+      token: session?.token || null,
+      scope: activeUser ? SYNC_SCOPE : null,
+      active: Boolean(activeUser && appState && session?.token)
+    };
+  },
+  rpc: (name, args) => window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc(name, args),
+  read: () => appState ? { schema: SYNC_SCHEMA_VERSION, state: appState } : null,
+  apply: (payload) => {
+    if (payload?.schema !== SYNC_SCHEMA_VERSION || !payload.state || !activeUser) return;
+    appState = normalizeState(payload.state);
+    saveState();
+    render();
+  }
+});
+
 function activate(user) {
   if (!user?.id) return;
+  if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
+  correctAdvanceTimer = null;
   activeUser = { id: String(user.id), name: String(user.name || "學生") };
   appState = readState(activeUser.id);
   render();
+  classroomLive.refresh();
 }
 
 window.addEventListener("edmund:learning-portal-session", (event) => {
   if (event.detail?.portalId !== PORTAL_ID) return;
   if (event.detail.user) activate(event.detail.user);
   else {
+    if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
+    correctAdvanceTimer = null;
     activeUser = null;
     appState = null;
+    classroomLive.refresh();
   }
 });
 
