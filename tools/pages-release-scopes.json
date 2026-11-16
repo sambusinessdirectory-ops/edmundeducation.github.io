@@ -410,10 +410,12 @@
       "poem-english-system.*",
       "precise-language-system.*",
       "quotes-system.*",
+      "spelling-practice.*",
       "spelling-system.*",
       "ted-talk-english-system.*",
       "thematic-vocabulary-system.*",
       "tools/test-learning-portal-scaffolds.mjs",
+      "tools/test-spelling-practice.mjs",
       "translation-skills-system.*"
     ],
     "[bookmark-release]": [
