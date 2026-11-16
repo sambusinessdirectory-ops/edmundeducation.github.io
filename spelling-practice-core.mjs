@@ -1,4 +1,4 @@
-export const VOCABULARY = Object.freeze([
+const PILOT_VOCABULARY = [
   ["alien", "外星人"],
   ["ghost", "鬼魂"],
   ["monster", "怪物"],
@@ -76,7 +76,16 @@ export const VOCABULARY = Object.freeze([
   ["theatre", "劇院"],
   ["theme", "主題"],
   ["unknown", "未知的"]
-].map(([word, meaning], index) => Object.freeze({
+];
+
+const JAYDEN_DECK_ID = "custom-setup/jayden-test-november-2026";
+const jaydenCards = globalThis.window?.EDMUND_JAYDEN_TEST_NOVEMBER_2026_SEED?.[JAYDEN_DECK_ID];
+const rawVocabularyPairs = Array.isArray(jaydenCards) && jaydenCards.length
+  ? jaydenCards.map((card) => [String(card.front || "").trim(), String(card.meaning || "").trim()])
+  : PILOT_VOCABULARY;
+const vocabularyPairs = rawVocabularyPairs.filter(([word], index, pairs) => pairs.findIndex(([candidate]) => candidate === word) === index);
+
+export const VOCABULARY = Object.freeze(vocabularyPairs.map(([word, meaning], index) => Object.freeze({
   id: `sp-${String(index + 1).padStart(3, "0")}`,
   word,
   meaning,

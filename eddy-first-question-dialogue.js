@@ -48,6 +48,7 @@
       return `${path}:${document.querySelector('.exercise-page .question-card')?.dataset.questionId || ''}`;
     if (path === 'synonyms-system.html') return `${path}:${document.querySelector('.syn-global-nav')?.textContent?.trim() || ''}`;
     if (path === 'polysemy-lab.html') return `${path}:${document.querySelector('.module-heading h1')?.textContent?.trim() || ''}`;
+    if (path === 'spelling-system.html') return `${path}:${document.querySelector('[data-spelling-app]')?.getAttribute('data-spelling-total') || ''}`;
     if (path === 'grammar-system.html') {
       const kind = ['[data-grammar-practice]', '[data-articles-practice]', '[data-advanced-articles-practice]'].find((selector) => visible(document.querySelector(selector)));
       return `${path}:${kind || ''}`;
@@ -98,6 +99,16 @@
       if (!visible(root) || !stage || root.querySelector('.feedback')) return null;
       if (current === 1 && progress?.value !== 0) return null;
       return { key: `${path}:${current}:${document.querySelector('.module-heading h1')?.textContent?.trim()}:${root.querySelector('.sentence')?.textContent?.trim()}`, stage, ordinal: current, total };
+    }
+    if (path === 'spelling-system.html') {
+      const root = document.querySelector('[data-spelling-practice]');
+      if (!visible(root) || root.dataset.spellingAwaitingNext === 'true') return null;
+      const completed = Number(root.dataset.spellingCompleted);
+      const total = Number(root.dataset.spellingTotal);
+      const ordinal = completed + 1;
+      const stage = milestone(ordinal, total);
+      if (!stage || ordinal > total) return null;
+      return { key: `${path}:${ordinal}:${total}`, stage, ordinal, total };
     }
     if (path === 'grammar-system.html') {
       const types = [
@@ -268,6 +279,18 @@
       const root = document.querySelector('[data-practice]');
       const progress = root?.querySelector('#practice-progress');
       return visible(root) && progress?.max ? { completed: progress.value, total: progress.max, scope: currentFinalScope(), verified: !!root.querySelector('.feedback:not(.wrong)') } : null;
+    }
+    if (path === 'spelling-system.html') {
+      const practice = document.querySelector('[data-spelling-practice]');
+      if (visible(practice)) return {
+        completed: Number(practice.dataset.spellingCompleted),
+        total: Number(practice.dataset.spellingTotal),
+        scope: currentFinalScope(),
+        verified: practice.dataset.spellingAwaitingNext !== 'true'
+      };
+      const complete = document.querySelector('[data-spelling-complete]');
+      const total = Number(complete?.dataset.spellingTotal);
+      return visible(complete) && total ? { completed: total, total, scope: `${path}:${total}`, verified: true } : null;
     }
     return null;
   }
