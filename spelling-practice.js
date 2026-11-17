@@ -20,6 +20,11 @@ let historyRows = [];
 let historyLoading = false;
 let selectionGesture = null;
 let suppressRowClick = false;
+const SELECTION_CATALOG = window.SPELLING_SELECTION_CATALOG || { libraries: [], decks: [], entries: [] };
+const CATALOG_DECKS = Array.isArray(SELECTION_CATALOG.decks) ? SELECTION_CATALOG.decks : [];
+const LIBRARY_IDS = new Set(["core", ...(SELECTION_CATALOG.libraries || []).map((library) => library.id)]);
+const ALL_DECK_IDS = new Set(CATALOG_DECKS.map((deck) => deck.id));
+const CORE_IDS = VOCABULARY.filter((entry) => entry.libraryId === "core").map((entry) => entry.id);
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>'"]/g, (character) => ({
@@ -33,11 +38,14 @@ function storageKey(userId) {
 
 function defaultState() {
   return {
-    selectedIds: VOCABULARY.map((entry) => entry.id),
+    selectedIds: [...CORE_IDS],
     difficulty: 50,
     frequency: 2,
     displayMode: "slots",
     setupView: "bank",
+    libraryId: "core",
+    libraryGroupId: "",
+    selectedDeckIds: [],
     wordFilter: "all",
     phase: "setup",
     correctById: {},
@@ -122,6 +130,14 @@ function normalizeState(candidate) {
   const selectedIds = Array.isArray(candidate.selectedIds)
     ? candidate.selectedIds.filter((id) => validIds.has(id))
     : fallback.selectedIds;
+  const libraryId = LIBRARY_IDS.has(candidate.libraryId) ? candidate.libraryId : "core";
+  const selectedDeckIds = Array.isArray(candidate.selectedDeckIds)
+    ? [...new Set(candidate.selectedDeckIds.filter((id) => ALL_DECK_IDS.has(id)))]
+    : [];
+  const libraryGroups = (SELECTION_CATALOG.libraries || []).find((library) => library.id === libraryId)?.groups || [];
+  const libraryGroupId = libraryGroups.some((group) => group.id === candidate.libraryGroupId)
+    ? candidate.libraryGroupId
+    : (libraryGroups[0]?.id || "");
   const difficulty = Math.min(100, Math.max(10, Math.round((Number(candidate.difficulty) || 50) / 10) * 10));
   const frequency = Math.min(100, Math.max(1, Math.floor(Number(candidate.frequency) || 2)));
   const correctById = {};
@@ -168,6 +184,9 @@ function normalizeState(candidate) {
     frequency,
     displayMode,
     setupView: candidate.setupView === "history" ? "history" : "bank",
+    libraryId,
+    libraryGroupId,
+    selectedDeckIds,
     wordFilter: ["all", "unmastered", "mastered"].includes(candidate.wordFilter) ? candidate.wordFilter : "all",
     phase,
     correctById,
@@ -233,6 +252,54 @@ function historyPayload() {
   };
 }
 
+function historyStorageKey() {
+  return `edmund-spelling-history:${STORAGE_VERSION}:${activeUser?.id || "student"}`;
+}
+
+function readLocalHistory() {
+  try {
+    const rows = JSON.parse(localStorage.getItem(historyStorageKey()) || "[]");
+    return Array.isArray(rows) ? rows : [];
+  } catch {
+    return [];
+  }
+}
+
+function readAllLocalHistory() {
+  const groups = [readLocalHistory()];
+  const accountSuffix = `:${activeUser?.id || "student"}`;
+  try {
+    for (let index = 0; index < localStorage.length; index += 1) {
+      const key = localStorage.key(index);
+      if (!key?.startsWith("edmund-spelling-history:") || !key.endsWith(accountSuffix) || key === historyStorageKey()) continue;
+      const rows = JSON.parse(localStorage.getItem(key) || "[]");
+      if (Array.isArray(rows)) groups.push(rows);
+    }
+  } catch {
+    /* The current-version history remains available if a browser blocks key enumeration. */
+  }
+  return mergeHistoryRows(...groups);
+}
+
+function writeLocalHistory(rows) {
+  try { localStorage.setItem(historyStorageKey(), JSON.stringify(rows.slice(0, 100))); }
+  catch { /* Remote history remains available when local storage is blocked. */ }
+}
+
+function mergeHistoryRows(...groups) {
+  const merged = new Map();
+  groups.flat().filter(Boolean).forEach((row) => {
+    if (!row?.round_id) return;
+    merged.set(row.round_id, { ...(merged.get(row.round_id) || {}), ...row });
+  });
+  return [...merged.values()].sort((left, right) => Date.parse(right.started_at || 0) - Date.parse(left.started_at || 0));
+}
+
+function upsertLocalHistory(payload) {
+  historyRows = mergeHistoryRows([payload], historyRows, readAllLocalHistory());
+  writeLocalHistory(historyRows);
+}
+
 async function historyRpc(action, payload = {}) {
   const session = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
   if (!session?.token) throw new Error("Missing student session");
@@ -248,6 +315,7 @@ function scheduleHistorySave(immediate = false) {
   historySaveTimer = null;
   const payload = historyPayload();
   if (!payload || !activeUser) return;
+  upsertLocalHistory(payload);
   const save = () => historyRpc("upsert", payload).catch(() => {});
   if (immediate) save();
   else historySaveTimer = setTimeout(save, 450);
@@ -255,13 +323,16 @@ function scheduleHistorySave(immediate = false) {
 
 async function loadHistory() {
   if (!activeUser || historyLoading) return;
+  const current = historyPayload();
+  historyRows = mergeHistoryRows(readAllLocalHistory(), current ? [current] : [], historyRows);
   historyLoading = true;
   if (appState?.phase === "setup" && appState.setupView === "history") render();
   try {
     const result = await historyRpc("list");
-    historyRows = Array.isArray(result) ? result : [];
+    historyRows = mergeHistoryRows(Array.isArray(result) ? result : [], historyRows);
+    writeLocalHistory(historyRows);
   } catch {
-    historyRows = [];
+    /* Keep the local and current-round records when the remote history service is unavailable. */
   } finally {
     historyLoading = false;
     if (appState?.phase === "setup") render();
@@ -334,9 +405,11 @@ function icon(name) {
 }
 
 function historyMarkup() {
-  if (historyLoading) return '<div class="spelling-history-empty">正在載入作答記錄……</div>';
-  if (!historyRows.length) return '<div class="spelling-history-empty"><strong>尚未有作答記錄</strong><span>完成第一輪練習後，準確率與每次嘗試會顯示在這裡。</span></div>';
-  const rows = historyRows.map((round) => {
+  const current = historyPayload();
+  const availableRows = mergeHistoryRows(readAllLocalHistory(), current ? [current] : [], historyRows);
+  if (historyLoading && !availableRows.length) return '<div class="spelling-history-empty">正在載入作答記錄……</div>';
+  if (!availableRows.length) return '<div class="spelling-history-empty"><strong>尚未有作答記錄</strong><span>完成第一輪練習後，準確率與每次嘗試會顯示在這裡。</span></div>';
+  const rows = availableRows.map((round) => {
     const attempts = Math.max(0, Number(round.total_attempts) || 0);
     const correct = Math.max(0, Number(round.correct_attempts) || 0);
     const accuracy = attempts ? Math.round(correct / attempts * 100) : 0;
@@ -347,9 +420,47 @@ function historyMarkup() {
   return `<div class="spelling-history-list">${rows}</div>`;
 }
 
+function activeLibraryEntries() {
+  if (appState.libraryId === "core") return VOCABULARY.filter((entry) => entry.libraryId === "core");
+  const decks = new Set(appState.selectedDeckIds);
+  return VOCABULARY.filter((entry) => entry.libraryId === appState.libraryId && entry.deckIds.some((id) => decks.has(id)));
+}
+
+function libraryNavigationMarkup() {
+  const libraries = [
+    { id: "core", label: "My Word Bank", zh: "我的生字", description: "已建立的個人詞彙及課堂詞組" },
+    ...(SELECTION_CATALOG.libraries || [])
+  ];
+  return `<section class="spelling-library" aria-labelledby="spelling-library-heading">
+    <div class="spelling-library__heading"><div><p class="spelling-eyebrow">CHOOSE YOUR ADVENTURE · 選擇詞庫</p><h2 id="spelling-library-heading">從哪一個詞庫開始？</h2></div><p>每個詞庫保留原有分組；你可以整組加入，再逐項調整。</p></div>
+    <div class="spelling-library__tabs">${libraries.map((library, index) => `<button type="button" data-library-id="${escapeHtml(library.id)}" aria-pressed="${appState.libraryId === library.id}" class="spelling-library-card spelling-library-card--${index % 3}"><span class="spelling-library-card__number">${String(index + 1).padStart(2, "0")}</span><span><strong>${escapeHtml(library.label)}</strong><small>${escapeHtml(library.zh || "")}</small><em>${escapeHtml(library.description || "")}</em></span></button>`).join("")}</div>
+  </section>`;
+}
+
+function deckExplorerMarkup() {
+  if (appState.libraryId === "core") return "";
+  const library = (SELECTION_CATALOG.libraries || []).find((item) => item.id === appState.libraryId);
+  if (!library) return "";
+  const groups = library.groups || [];
+  const activeGroup = groups.find((group) => group.id === appState.libraryGroupId) || groups[0];
+  const groupDecks = CATALOG_DECKS.filter((deck) => deck.libraryId === appState.libraryId && deck.groupId === activeGroup?.id);
+  const sections = [...new Map(groupDecks.map((deck) => [deck.sectionId, { id: deck.sectionId, label: deck.sectionLabel, zh: deck.sectionZh }])).values()];
+  const selected = new Set(appState.selectedDeckIds);
+  return `<section class="spelling-deck-explorer">
+    <div class="spelling-deck-explorer__top"><div><p class="spelling-eyebrow">COLLECTION · 分類選擇</p><h2>${escapeHtml(library.label)}</h2></div><div class="spelling-deck-actions"><span>${appState.selectedDeckIds.length} 個分組已加入</span><button type="button" data-select-visible-decks>加入本頁全部</button><button type="button" data-clear-library-decks>清除本詞庫</button></div></div>
+    ${groups.length > 1 ? `<div class="spelling-group-tabs">${groups.map((group) => `<button type="button" data-library-group="${escapeHtml(group.id)}" aria-pressed="${group.id === activeGroup?.id}"><strong>${escapeHtml(group.label)}</strong><span>${escapeHtml(group.zh || "")}</span></button>`).join("")}</div>` : ""}
+    <div class="spelling-section-list">${sections.map((section, sectionIndex) => {
+      const decks = groupDecks.filter((deck) => deck.sectionId === section.id);
+      const selectedCount = decks.filter((deck) => selected.has(deck.id)).length;
+      return `<details class="spelling-section-card" ${sectionIndex < 2 || selectedCount ? "open" : ""}><summary><span class="spelling-section-card__badge">${String(sectionIndex + 1).padStart(2, "0")}</span><span><strong>${escapeHtml(section.label)}</strong><small>${escapeHtml(section.zh || "")}</small></span><em>${selectedCount} / ${decks.length}</em></summary><div class="spelling-deck-grid">${decks.map((deck) => `<button type="button" data-deck-id="${escapeHtml(deck.id)}" aria-pressed="${selected.has(deck.id)}"><span class="spelling-deck-check" aria-hidden="true">${selected.has(deck.id) ? "✓" : "+"}</span><span><strong>${escapeHtml(deck.label)}</strong><small>${deck.entryIds.length} 項</small></span></button>`).join("")}</div></details>`;
+    }).join("")}</div>
+  </section>`;
+}
+
 function setupMarkup() {
   const mastered = masteredIds();
-  const rows = VOCABULARY.map((entry) => {
+  const visibleEntries = activeLibraryEntries();
+  const rows = visibleEntries.map((entry) => {
     const selected = appState.selectedIds.includes(entry.id);
     return `<tr class="spelling-word-row" data-word-row="${entry.id}" data-mastered="${mastered.has(entry.id)}" tabindex="0" aria-label="${selected ? "取消選擇" : "選擇"} ${escapeHtml(entry.word)}">
       <td><label class="spelling-check"><input type="checkbox" value="${entry.id}" data-word-select ${selected ? "checked" : ""}><span aria-hidden="true"></span><span class="sr-only">選擇 ${escapeHtml(entry.word)}</span></label></td>
@@ -361,10 +472,12 @@ function setupMarkup() {
   return `<section class="spelling-workspace" data-spelling-app>
     <header class="spelling-hero">
       <div><p class="spelling-eyebrow">SPELLING LAB · 拼寫實驗室</p><h1>拼寫練習設定</h1><p>選擇生字、設定測試比例與完成次數。每一輪的出題次序及測試字母均會重新隨機排列。</p></div>
-      <div class="spelling-hero__count"><strong>${VOCABULARY.length}</strong><span>個生字及詞組</span></div>
+      <div class="spelling-hero__count"><strong>${appState.selectedIds.length}</strong><span>本輪已選項目</span></div>
     </header>
     <nav class="spelling-view-tabs" aria-label="拼寫系統頁面"><button type="button" data-setup-view="bank" aria-current="${appState.setupView === "bank" ? "page" : "false"}">生字庫</button><button type="button" data-setup-view="history" aria-current="${appState.setupView === "history" ? "page" : "false"}">作答記錄</button></nav>
     ${appState.setupView === "history" ? `<section class="spelling-bank spelling-history"><div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">ATTEMPTS · 作答記錄</p><h2>每輪練習詳情</h2></div><button type="button" class="spelling-refresh-history" data-refresh-history>重新整理</button></div>${historyMarkup()}</section>` : `
+    ${libraryNavigationMarkup()}
+    ${deckExplorerMarkup()}
     <section class="spelling-controls" aria-label="練習設定">
       <div class="spelling-control spelling-control--difficulty">
         <label for="spelling-difficulty">測試難度</label>
@@ -380,9 +493,9 @@ function setupMarkup() {
       <div class="spelling-control spelling-control--summary"><span>本輪目標</span><strong data-target-total>${total}</strong><small>共選 ${appState.selectedIds.length} 項 × ${appState.frequency} 次</small><button class="spelling-primary" type="button" data-start ${appState.selectedIds.length ? "" : "disabled"}>開始練習 ${icon("arrow")}</button></div>
     </section>
     <section class="spelling-bank">
-      <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><div class="spelling-bank__title-row"><h2>選擇本輪生字</h2><label class="spelling-search"><span class="sr-only">搜尋英文或繁體中文</span><input type="search" data-word-search placeholder="搜尋英文或繁體中文" autocomplete="off"></label><label class="spelling-filter"><span class="sr-only">按掌握狀態篩選</span><select data-word-filter><option value="all" ${appState.wordFilter === "all" ? "selected" : ""}>顯示全部</option><option value="unmastered" ${appState.wordFilter === "unmastered" ? "selected" : ""}>隱藏已答對</option><option value="mastered" ${appState.wordFilter === "mastered" ? "selected" : ""}>只看已答對</option></select></label></div></div><div class="spelling-bank__actions"><span data-selected-count>已選 ${appState.selectedIds.length} / ${VOCABULARY.length}</span><button type="button" data-select-all>全選</button><button type="button" data-deselect-all>取消全選</button></div></div>
+      <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><div class="spelling-bank__title-row"><h2>${appState.libraryId === "core" ? "選擇本輪生字" : "調整已加入的詞彙"}</h2><label class="spelling-search"><span class="sr-only">搜尋英文或繁體中文</span><input type="search" data-word-search placeholder="搜尋英文或繁體中文" autocomplete="off"></label><label class="spelling-filter"><span class="sr-only">按掌握狀態篩選</span><select data-word-filter><option value="all" ${appState.wordFilter === "all" ? "selected" : ""}>顯示全部</option><option value="unmastered" ${appState.wordFilter === "unmastered" ? "selected" : ""}>隱藏已答對</option><option value="mastered" ${appState.wordFilter === "mastered" ? "selected" : ""}>只看已答對</option></select></label></div></div><div class="spelling-bank__actions"><span data-selected-count>本輪共選 ${appState.selectedIds.length} 項</span><button type="button" data-select-all>選取目前詞庫</button><button type="button" data-deselect-all>取消目前詞庫</button></div></div>
       <p class="spelling-drag-hint">可按住並拖過多行，快速選取或取消多個生字。</p>
-      <div class="spelling-table-wrap"><table><thead><tr><th scope="col">選擇</th><th scope="col">生字／詞組</th><th scope="col">繁體中文意思</th></tr></thead><tbody>${rows}</tbody></table></div>
+      ${visibleEntries.length ? `<div class="spelling-table-wrap"><table><thead><tr><th scope="col">選擇</th><th scope="col">生字／詞組</th><th scope="col">繁體中文意思</th></tr></thead><tbody>${rows}</tbody></table></div>` : `<div class="spelling-library-empty"><strong>先選擇一個分組</strong><span>從上方的收藏分類加入 IELTS 或 DSE 詞彙，然後再逐項調整。</span></div>`}
     </section>`}
   </section>`;
 }
@@ -438,8 +551,22 @@ function comparisonHtml(answer, expected) {
   return output.join("");
 }
 
+function wholeLineHintLetters(entry) {
+  const mask = new Set(appState.mask);
+  const visible = [...entry.word.toLocaleLowerCase("en")]
+    .map((character, index) => ({ character, index }))
+    .filter(({ character, index }) => /[a-z]/.test(character) && !mask.has(index))
+    .map(({ character }) => character);
+  const letters = [...entry.word.toLocaleLowerCase("en")].filter((character) => /[a-z]/.test(character));
+  const fallback = [letters[0], letters[Math.floor(letters.length / 2)], letters.at(-1)].filter(Boolean);
+  return [...new Set(visible.length ? visible : fallback)].slice(0, 5);
+}
+
 function answerArea(entry) {
-  if (appState.displayMode === "line") return `<label class="spelling-line-answer"><span class="sr-only">輸入完整英文拼寫</span><input data-line-answer type="text" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入完整英文拼寫" value="${escapeHtml(appState.draftLetters.line || "")}" ${appState.feedback === "correct" || appState.awaitingNext ? "disabled" : ""}></label>`;
+  if (appState.displayMode === "line") {
+    const hints = wholeLineHintLetters(entry);
+    return `<div class="spelling-line-mode"><div class="spelling-line-hints"><span>提示字母（位置已隱藏）</span><strong>${hints.map(escapeHtml).join(" · ")}</strong></div><label class="spelling-line-answer"><span class="sr-only">輸入完整英文拼寫</span><input data-line-answer type="text" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入完整英文拼寫" value="${escapeHtml(appState.draftLetters.line || "")}" ${appState.feedback === "correct" || appState.awaitingNext ? "disabled" : ""}></label></div>`;
+  }
   return `<div class="spelling-slots" role="group" aria-label="填寫缺少的英文字母">${renderMask(entry)}</div>`;
 }
 
@@ -455,10 +582,12 @@ function practiceMarkup() {
   const completed = appState.totalCorrect;
   const percentage = required ? Math.round(completed / required * 100) : 0;
   const wordCorrect = appState.correctById[entry.id] || 0;
+  const meaningLength = [...entry.meaning].length;
+  const lengthClass = meaningLength > 32 ? " is-very-long" : meaningLength > 18 ? " is-long" : "";
   return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}">
     <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div></header>
     <div class="spelling-progress" aria-label="本輪完成 ${percentage}%"><i style="width:${percentage}%"></i></div>
-    <main class="spelling-card">
+    <main class="spelling-card${lengthClass}">
       <div class="spelling-meaning-row"><h1>${escapeHtml(entry.meaning)}</h1><button class="spelling-sound" type="button" data-speak aria-label="播放英文讀音">${icon("sound")}<span>聆聽</span></button></div>
       <p class="spelling-word-progress">這個生字已答對 <strong>${wordCorrect}</strong> / ${appState.frequency} 次</p>
       <form data-answer-form novalidate>
@@ -605,6 +734,7 @@ function advanceCorrect() {
   }
   render();
   persistAndPublish();
+  if (appState.phase === "complete") scheduleHistorySave(true);
 }
 
 function scheduleCorrectAdvance() {
@@ -713,6 +843,7 @@ function readyForNext() {
   }
   render();
   persistAndPublish();
+  if (appState.phase === "complete") scheduleHistorySave(true);
 }
 
 function applyWordSearch(root, query) {
@@ -884,6 +1015,65 @@ document.addEventListener("submit", (event) => {
 document.addEventListener("click", (event) => {
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
+  const libraryButton = event.target.closest("[data-library-id]");
+  if (libraryButton) {
+    appState.libraryId = LIBRARY_IDS.has(libraryButton.dataset.libraryId) ? libraryButton.dataset.libraryId : "core";
+    const groups = (SELECTION_CATALOG.libraries || []).find((library) => library.id === appState.libraryId)?.groups || [];
+    appState.libraryGroupId = groups[0]?.id || "";
+    render();
+    persistAndPublish();
+    return;
+  }
+  const groupButton = event.target.closest("[data-library-group]");
+  if (groupButton) {
+    appState.libraryGroupId = groupButton.dataset.libraryGroup;
+    render();
+    persistAndPublish();
+    return;
+  }
+  const deckButton = event.target.closest("[data-deck-id]");
+  if (deckButton) {
+    const deck = CATALOG_DECKS.find((item) => item.id === deckButton.dataset.deckId);
+    if (!deck) return;
+    const selectedDecks = new Set(appState.selectedDeckIds);
+    const selectedWords = new Set(appState.selectedIds);
+    if (selectedDecks.has(deck.id)) {
+      selectedDecks.delete(deck.id);
+      deck.entryIds.forEach((id) => selectedWords.delete(id));
+    } else {
+      selectedDecks.add(deck.id);
+      deck.entryIds.forEach((id) => selectedWords.add(id));
+    }
+    appState.selectedDeckIds = [...selectedDecks];
+    appState.selectedIds = [...selectedWords];
+    render();
+    persistAndPublish();
+    return;
+  }
+  if (event.target.closest("[data-select-visible-decks]")) {
+    const groupDecks = CATALOG_DECKS.filter((deck) => deck.libraryId === appState.libraryId && deck.groupId === appState.libraryGroupId);
+    const selectedDecks = new Set(appState.selectedDeckIds);
+    const selectedWords = new Set(appState.selectedIds);
+    groupDecks.forEach((deck) => {
+      selectedDecks.add(deck.id);
+      deck.entryIds.forEach((id) => selectedWords.add(id));
+    });
+    appState.selectedDeckIds = [...selectedDecks];
+    appState.selectedIds = [...selectedWords];
+    render();
+    persistAndPublish();
+    return;
+  }
+  if (event.target.closest("[data-clear-library-decks]")) {
+    const libraryDecks = CATALOG_DECKS.filter((deck) => deck.libraryId === appState.libraryId);
+    const libraryDeckIds = new Set(libraryDecks.map((deck) => deck.id));
+    const libraryEntryIds = new Set(libraryDecks.flatMap((deck) => deck.entryIds));
+    appState.selectedDeckIds = appState.selectedDeckIds.filter((id) => !libraryDeckIds.has(id));
+    appState.selectedIds = appState.selectedIds.filter((id) => !libraryEntryIds.has(id));
+    render();
+    persistAndPublish();
+    return;
+  }
   const setupView = event.target.closest("[data-setup-view]");
   if (setupView) {
     appState.setupView = setupView.dataset.setupView;
@@ -906,12 +1096,15 @@ document.addEventListener("click", (event) => {
     updateSetupSummary(app);
   }
   if (event.target.closest("[data-select-all]")) {
-    appState.selectedIds = VOCABULARY.map((entry) => entry.id);
+    const selected = new Set(appState.selectedIds);
+    activeLibraryEntries().forEach((entry) => selected.add(entry.id));
+    appState.selectedIds = [...selected];
     app.querySelectorAll("[data-word-select]").forEach((input) => { input.checked = true; });
     updateSetupSummary(app);
   }
   if (event.target.closest("[data-deselect-all]")) {
-    appState.selectedIds = [];
+    const activeIds = new Set(activeLibraryEntries().map((entry) => entry.id));
+    appState.selectedIds = appState.selectedIds.filter((id) => !activeIds.has(id));
     app.querySelectorAll("[data-word-select]").forEach((input) => { input.checked = false; });
     updateSetupSummary(app);
   }

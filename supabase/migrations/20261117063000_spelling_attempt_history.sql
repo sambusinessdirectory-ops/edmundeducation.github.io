@@ -22,6 +22,8 @@ create table if not exists spelling_private.attempts (
   unique (student_id, round_id)
 );
 
+alter table spelling_private.attempts enable row level security;
+
 create index if not exists spelling_attempts_student_started_idx
   on spelling_private.attempts(student_id, started_at desc);
 
