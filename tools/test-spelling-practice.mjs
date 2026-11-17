@@ -9,9 +9,15 @@ globalThis.window = deckSandbox.window;
 const {
   VOCABULARY,
   characterLabel,
+  compactDeckLabel,
   createMask,
   isAnswerCorrect,
   letterPositions,
+  searchMatches,
+  searchTokens,
+  selectRandomIds,
+  selectRangeIds,
+  summarizeAttempts,
   requiredCorrectTotal,
   testedPositionCount
 } = await import("../spelling-practice-core.mjs?jayden-deck");
@@ -35,6 +41,19 @@ assert.ok(VOCABULARY.every((entry) => audioSandbox.window.EDMUND_SPELLING_AUDIO[
 assert.equal(requiredCorrectTotal(10, 2), 20);
 assert.equal(isAnswerCorrect("alien", { 0: "A", 2: "i", 4: "n" }), true, "Checking must be case-insensitive.");
 assert.equal(isAnswerCorrect("alien", { 0: "e", 2: "i", 4: "n" }), false);
+assert.equal(compactDeckLabel("Model Essay 20 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2"), "Model Essay 20");
+assert.equal(searchMatches("Model Essay 20 - Problem and Cause 問題與成因題", searchTokens("essay 20 成因")), true);
+assert.deepEqual(selectRangeIds(["a", "b", "c", "d"], 2, 2), ["b", "c"]);
+const randomSelection = selectRandomIds(["a", "b", "c", "d"], 3, () => 0);
+assert.equal(randomSelection.length, 3);
+assert.equal(new Set(randomSelection).size, 3);
+const attemptRecords = summarizeAttempts([
+  { at: 10, wordId: "sp-001", word: "alien", answer: "alein", correct: false },
+  { at: 20, wordId: "sp-001", word: "alien", answer: "alien", correct: true },
+  { at: 30, wordId: "sp-002", word: "ghost", answer: "gost", correct: false }
+]);
+assert.deepEqual({ correct: attemptRecords.get("sp-001").correctCount, wrong: attemptRecords.get("sp-001").wrongCount }, { correct: 1, wrong: 1 });
+assert.ok(attemptRecords.get("sp-001").lastCorrectAt > attemptRecords.get("sp-001").lastWrongAt, "A later correct answer must resolve a wrong record.");
 
 const masks = new Set(Array.from({ length: 60 }, () => createMask("alien", 50).join(",")));
 assert.ok(masks.size > 1, "Repeated presentations must support randomized masks.");
