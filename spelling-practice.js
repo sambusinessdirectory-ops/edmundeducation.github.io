@@ -426,9 +426,21 @@ function icon(name) {
     sound: '<path d="M4 10v4h4l5 4V6L8 10H4Z"/><path d="M16 9a5 5 0 0 1 0 6M18.5 6.5a9 9 0 0 1 0 11"/>',
     check: '<path d="m5 12 4 4L19 6"/>',
     arrow: '<path d="m9 18 6-6-6-6"/>',
+    chevron: '<path d="m7 10 5 5 5-5"/>',
     replay: '<path d="M20 11a8 8 0 1 0 2 5M20 4v7h-7"/>'
   };
   return `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${paths[name] || ""}</svg>`;
+}
+
+function dropdownMarkup({ label, value, options, attributes = "", className = "" }) {
+  const selected = options.find((option) => String(option.value) === String(value)) || options[0] || { value: "", label: "—" };
+  const complete = selected.complete === true;
+  return `<div class="spelling-dropdown${className ? ` ${className}` : ""}${complete ? " is-complete" : ""}" data-spelling-dropdown data-value="${escapeHtml(selected.value)}" ${attributes}>
+    <button class="spelling-dropdown__trigger" type="button" data-dropdown-toggle aria-haspopup="listbox" aria-expanded="false" aria-label="${escapeHtml(label)}：${escapeHtml(selected.label)}"><span data-dropdown-label>${escapeHtml(selected.label)}</span>${icon("chevron")}</button>
+    <div class="spelling-dropdown__menu" role="listbox" aria-label="${escapeHtml(label)}" hidden>
+      ${options.map((option) => `<button type="button" role="option" data-dropdown-option="${escapeHtml(option.value)}" data-complete="${option.complete === true}" aria-selected="${String(option.value) === String(selected.value)}" class="${option.complete === true ? "is-complete" : ""}"><span class="spelling-dropdown__check" aria-hidden="true">${String(option.value) === String(selected.value) ? "✓" : option.complete === true ? "✓" : ""}</span><span>${escapeHtml(option.label)}</span>${option.complete === true ? "<em>已完成</em>" : ""}</button>`).join("")}
+    </div>
+  </div>`;
 }
 
 function historyMarkup() {
@@ -555,23 +567,28 @@ function deckExplorerMarkup() {
   </section>`;
 }
 
-function rangeOptions(entries, size) {
+function rangeOptions(entries, size, mastered) {
   return Array.from({ length: Math.ceil(entries.length / size) }, (_, index) => {
     const start = index * size + 1;
     const end = Math.min(entries.length, start + size - 1);
-    return `<option value="${start}">第 ${start}–${end} 項</option>`;
-  }).join("");
+    return {
+      value: String(start),
+      label: `第 ${start}–${end} 項`,
+      complete: completionForIds(entries.slice(index * size, index * size + size).map((entry) => entry.id), mastered).complete
+    };
+  });
 }
 
 function quickModesMarkup(entries) {
   const total = entries.length;
   const randomCounts = [10, 20, 30, 40, 50];
+  const mastered = masteredIds();
   return `<section class="spelling-quick-modes" aria-labelledby="spelling-quick-modes-title">
     <div class="spelling-quick-modes__heading"><div><p class="spelling-eyebrow">QUICK PRACTICE · 快速練習模式</p><h3 id="spelling-quick-modes-title">隨機抽選或按範圍分組</h3><p>從目前生字庫選取練習項目；之後仍可在上方調整難度及答對次數。</p></div><strong>${total} 項可選</strong></div>
     <div class="spelling-quick-random"><span>隨機抽選</span>${randomCounts.map((count) => `<button type="button" data-quick-pick-random="${count}" ${total >= count ? "" : "disabled"}>隨機 ${count} 項</button>`).join("")}</div>
     <div class="spelling-quick-ranges">
-      <label><span>每 10 項一組</span><select data-quick-range-select="10">${rangeOptions(entries, 10)}</select><button type="button" data-quick-pick-range="10" ${total ? "" : "disabled"}>選取此組</button></label>
-      <label><span>每 30 項一組</span><select data-quick-range-select="30">${rangeOptions(entries, 30)}</select><button type="button" data-quick-pick-range="30" ${total ? "" : "disabled"}>選取此組</button></label>
+      <div class="spelling-range-card"><span>每 10 項一組</span>${dropdownMarkup({ label: "每 10 項一組", value: "1", options: rangeOptions(entries, 10, mastered), attributes: 'data-quick-range-select="10"' })}<button type="button" data-quick-pick-range="10" ${total ? "" : "disabled"}>選取此組</button></div>
+      <div class="spelling-range-card"><span>每 30 項一組</span>${dropdownMarkup({ label: "每 30 項一組", value: "1", options: rangeOptions(entries, 30, mastered), attributes: 'data-quick-range-select="30"' })}<button type="button" data-quick-pick-range="30" ${total ? "" : "disabled"}>選取此組</button></div>
     </div>
     <p class="spelling-quick-status" data-quick-selection-status aria-live="polite"></p>
   </section>`;
@@ -582,9 +599,9 @@ function setupMarkup() {
   const visibleEntries = activeLibraryEntries();
   const rows = visibleEntries.map((entry) => {
     const selected = appState.selectedIds.includes(entry.id);
-    return `<tr class="spelling-word-row" data-word-row="${entry.id}" data-mastered="${mastered.has(entry.id)}" tabindex="0" aria-label="${selected ? "取消選擇" : "選擇"} ${escapeHtml(entry.word)}">
+    return `<tr class="spelling-word-row" data-word-row="${entry.id}" data-mastered="${mastered.has(entry.id)}" tabindex="0" aria-label="${selected ? "取消選擇" : "選擇"} ${escapeHtml(entry.word)}${mastered.has(entry.id) ? "，已完成" : ""}">
       <td><label class="spelling-check"><input type="checkbox" value="${entry.id}" data-word-select ${selected ? "checked" : ""}><span aria-hidden="true"></span><span class="sr-only">選擇 ${escapeHtml(entry.word)}</span></label></td>
-      <td><span class="spelling-word-cell"><strong>${escapeHtml(entry.word)}</strong>${mastered.has(entry.id) ? '<em class="spelling-mastered">已答對</em>' : ""}<button class="spelling-row-sound" type="button" data-speak-word="${entry.id}" aria-label="播放 ${escapeHtml(entry.word)} 的讀音">${icon("sound")}</button></span></td>
+      <td><span class="spelling-word-cell"><strong>${escapeHtml(entry.word)}</strong><button class="spelling-row-sound" type="button" data-speak-word="${entry.id}" aria-label="播放 ${escapeHtml(entry.word)} 的讀音">${icon("sound")}</button></span></td>
       <td>${escapeHtml(entry.meaning)}</td>
     </tr>`;
   }).join("");
@@ -613,7 +630,7 @@ function setupMarkup() {
       <div class="spelling-control spelling-control--summary"><span>本輪目標</span><strong data-target-total>${total}</strong><small>共選 ${appState.selectedIds.length} 項 × ${appState.frequency} 次</small><button class="spelling-primary" type="button" data-start ${appState.selectedIds.length ? "" : "disabled"}>開始練習 ${icon("arrow")}</button></div>
     </section>
     <section class="spelling-bank">
-      <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><div class="spelling-bank__title-row"><h2>${appState.libraryId === "core" ? "選擇本輪生字" : "調整已加入的詞彙"}</h2><label class="spelling-search"><span class="sr-only">搜尋英文或繁體中文</span><input type="search" data-word-search placeholder="搜尋英文或繁體中文" autocomplete="off"></label><label class="spelling-filter"><span class="sr-only">按掌握狀態篩選</span><select data-word-filter><option value="all" ${appState.wordFilter === "all" ? "selected" : ""}>顯示全部</option><option value="unmastered" ${appState.wordFilter === "unmastered" ? "selected" : ""}>隱藏已答對</option><option value="mastered" ${appState.wordFilter === "mastered" ? "selected" : ""}>只看已答對</option></select></label></div></div><div class="spelling-bank__actions"><span data-selected-count>本輪共選 ${appState.selectedIds.length} 項</span><button type="button" data-select-all>選取目前詞庫</button><button type="button" data-deselect-all>取消目前詞庫</button></div></div>
+      <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><div class="spelling-bank__title-row"><h2>${appState.libraryId === "core" ? "選擇本輪生字" : "調整已加入的詞彙"}</h2><label class="spelling-search"><span class="sr-only">搜尋英文或繁體中文</span><input type="search" data-word-search placeholder="搜尋英文或繁體中文" autocomplete="off"></label><div class="spelling-filter">${dropdownMarkup({ label: "按掌握狀態篩選", value: appState.wordFilter, options: [{ value: "all", label: "顯示全部" }, { value: "unmastered", label: "隱藏已完成" }, { value: "mastered", label: "只看已完成" }], attributes: "data-word-filter" })}</div></div></div><div class="spelling-bank__actions"><span data-selected-count>本輪共選 ${appState.selectedIds.length} 項</span><button type="button" data-select-all>選取目前詞庫</button><button type="button" data-deselect-all>取消目前詞庫</button></div></div>
       <p class="spelling-drag-hint">可按住並拖過多行，快速選取或取消多個生字。</p>
       ${visibleEntries.length ? `<div class="spelling-table-wrap"><table><thead><tr><th scope="col">選擇</th><th scope="col">生字／詞組</th><th scope="col">繁體中文意思</th></tr></thead><tbody>${rows}</tbody></table></div>${quickModesMarkup(visibleEntries)}` : `<div class="spelling-library-empty"><strong>先選擇一個分組</strong><span>從上方的收藏分類加入 IELTS 或 DSE 詞彙，然後再逐項調整。</span></div>`}
     </section>`}
@@ -714,7 +731,7 @@ function practiceMarkup() {
       <form data-answer-form novalidate>
         ${answerArea(entry)}
         <div class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : appState.feedback}" role="status" aria-live="assertive">${feedbackHtml(entry)}</div>
-        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" data-next-now>立即下一題 ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
+        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" data-next-now>立即下一題 <kbd>Space</kbd> ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
       </form>
       <p class="spelling-attempts">本輪作答 ${appState.totalAttempts} 次；只有答對才會計入完成次數。</p>
     </main>
@@ -1072,6 +1089,52 @@ function startRecordPractice(ids) {
   startRound();
 }
 
+function closeDropdown(dropdown, restoreFocus = false) {
+  if (!dropdown) return;
+  const trigger = dropdown.querySelector("[data-dropdown-toggle]");
+  const menu = dropdown.querySelector(".spelling-dropdown__menu");
+  trigger?.setAttribute("aria-expanded", "false");
+  if (menu) menu.hidden = true;
+  dropdown.classList.remove("is-open");
+  if (restoreFocus) trigger?.focus();
+}
+
+function closeAllDropdowns(except = null) {
+  document.querySelectorAll("[data-spelling-dropdown].is-open").forEach((dropdown) => {
+    if (dropdown !== except) closeDropdown(dropdown);
+  });
+}
+
+function openDropdown(dropdown, focusSelected = false) {
+  if (!dropdown) return;
+  closeAllDropdowns(dropdown);
+  const trigger = dropdown.querySelector("[data-dropdown-toggle]");
+  const menu = dropdown.querySelector(".spelling-dropdown__menu");
+  trigger?.setAttribute("aria-expanded", "true");
+  if (menu) menu.hidden = false;
+  dropdown.classList.add("is-open");
+  if (focusSelected) (dropdown.querySelector('[role="option"][aria-selected="true"]') || dropdown.querySelector('[role="option"]'))?.focus();
+}
+
+function chooseDropdownOption(dropdown, option) {
+  if (!dropdown || !option) return;
+  const value = option.dataset.dropdownOption || "";
+  const label = option.querySelector("span:nth-child(2)")?.textContent?.trim() || option.textContent.trim();
+  dropdown.dataset.value = value;
+  dropdown.classList.toggle("is-complete", option.dataset.complete === "true");
+  dropdown.querySelectorAll('[role="option"]').forEach((item) => {
+    const selected = item === option;
+    item.setAttribute("aria-selected", String(selected));
+    const check = item.querySelector(".spelling-dropdown__check");
+    if (check) check.textContent = selected || item.dataset.complete === "true" ? "✓" : "";
+  });
+  const trigger = dropdown.querySelector("[data-dropdown-toggle]");
+  const output = trigger?.querySelector("[data-dropdown-label]");
+  if (output) output.textContent = label;
+  if (trigger) trigger.setAttribute("aria-label", `${dropdown.querySelector('[role="listbox"]')?.getAttribute("aria-label") || "選擇"}：${label}`);
+  closeDropdown(dropdown, true);
+}
+
 document.addEventListener("input", (event) => {
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
@@ -1121,8 +1184,43 @@ document.addEventListener("beforeinput", (event) => {
 });
 
 document.addEventListener("keydown", (event) => {
-  const app = event.target.closest("[data-spelling-app]");
+  const app = event.target.closest("[data-spelling-app]") || document.querySelector("[data-spelling-app]");
   if (!app || !appState) return;
+  const dropdown = event.target.closest("[data-spelling-dropdown]");
+  const dropdownToggle = event.target.closest("[data-dropdown-toggle]");
+  const dropdownOption = event.target.closest('[role="option"][data-dropdown-option]');
+  if (dropdownToggle && ["ArrowDown", "ArrowUp"].includes(event.key)) {
+    event.preventDefault();
+    openDropdown(dropdown, true);
+    return;
+  }
+  if (dropdownOption) {
+    const options = [...dropdown.querySelectorAll('[role="option"]')];
+    const index = options.indexOf(dropdownOption);
+    if (["ArrowDown", "ArrowUp", "Home", "End"].includes(event.key)) {
+      event.preventDefault();
+      const nextIndex = event.key === "Home" ? 0 : event.key === "End" ? options.length - 1 : (index + (event.key === "ArrowDown" ? 1 : -1) + options.length) % options.length;
+      options[nextIndex]?.focus();
+      return;
+    }
+    if (["Enter", " "].includes(event.key)) {
+      event.preventDefault();
+      dropdownOption.click();
+      return;
+    }
+    if (event.key === "Escape") {
+      event.preventDefault();
+      closeDropdown(dropdown, true);
+      return;
+    }
+  }
+  if (event.key === "Escape") closeAllDropdowns();
+  const interactiveTarget = event.target.closest('button, input, textarea, select, a, [contenteditable="true"], [role="option"]');
+  if (event.code === "Space" && !event.repeat && !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey && !interactiveTarget && app.querySelector("[data-next-now]")) {
+    event.preventDefault();
+    advanceCorrectNow();
+    return;
+  }
   if (event.target.matches("[data-letter-position]") && event.key === "Backspace" && !event.target.value) {
     const inputs = [...app.querySelectorAll("[data-letter-position]")];
     const previous = inputs[inputs.indexOf(event.target) - 1];
@@ -1218,8 +1316,27 @@ document.addEventListener("submit", (event) => {
 });
 
 document.addEventListener("click", (event) => {
+  if (!event.target.closest("[data-spelling-dropdown]")) closeAllDropdowns();
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
+  const dropdownToggle = event.target.closest("[data-dropdown-toggle]");
+  if (dropdownToggle) {
+    const dropdown = dropdownToggle.closest("[data-spelling-dropdown]");
+    if (dropdown.classList.contains("is-open")) closeDropdown(dropdown);
+    else openDropdown(dropdown);
+    return;
+  }
+  const dropdownOption = event.target.closest('[role="option"][data-dropdown-option]');
+  if (dropdownOption) {
+    const dropdown = dropdownOption.closest("[data-spelling-dropdown]");
+    chooseDropdownOption(dropdown, dropdownOption);
+    if (dropdown.matches("[data-word-filter]")) {
+      appState.wordFilter = dropdown.dataset.value;
+      applyWordSearch(app, app.querySelector("[data-word-search]")?.value || "");
+      persistAndPublish();
+    }
+    return;
+  }
   const libraryButton = event.target.closest("[data-library-id]");
   if (libraryButton) {
     appState.libraryId = LIBRARY_IDS.has(libraryButton.dataset.libraryId) ? libraryButton.dataset.libraryId : "core";
@@ -1338,7 +1455,7 @@ document.addEventListener("click", (event) => {
   if (rangeMode) {
     const size = Number(rangeMode.dataset.quickPickRange);
     const select = app.querySelector(`[data-quick-range-select="${size}"]`);
-    const start = Number(select?.value || 1);
+    const start = Number(select?.dataset.value || 1);
     const ids = selectRangeIds(activeLibraryEntries().map((entry) => entry.id), start, size);
     applyQuickSelection(app, ids, `第 ${start}–${start + ids.length - 1} 項`);
   }
