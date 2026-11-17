@@ -37,7 +37,8 @@ async function makeDevice(token, user = student, device = {}) {
     if (url.pathname === '/spelling-practice.js') {
       const response = await route.fetch();
       const bridge = `\nwindow.EDMUND_LEARNING_PORTAL_CONTEXT={portalId:'spelling',getSession:()=>({portalId:'spelling',user:${JSON.stringify(user)},token:${JSON.stringify(token)}}),rpc:async(name,args)=>(await fetch('/qa-rpc/'+name,{method:'POST',body:JSON.stringify(args)})).json()};window.__spellingSyncQa={setup:()=>{document.querySelector('[data-learning-portal-root] [data-view="login"]')?.setAttribute('hidden','');document.querySelector('[data-learning-portal-root] [data-view="dashboard"]')?.removeAttribute('hidden');activate(${JSON.stringify(user)});},state:()=>structuredClone(appState),choose:()=>{appState.selectedIds=VOCABULARY.slice(0,2).map(entry=>entry.id);appState.frequency=2;appState.phase='setup';render();persistAndPublish();},start:startRound,setStreak:value=>{appState.streak=Number(value)||0;},seedRecords:()=>{const [first,second]=VOCABULARY;const now=Date.now();appState.roundId=randomUuid();appState.startedAt=now-1000;appState.completedAt=now;appState.selectedIds=[first.id,second.id];appState.frequency=1;appState.totalAttempts=3;appState.totalCorrect=1;appState.attemptEvents=[{at:now-900,wordId:first.id,word:first.word,answer:'wrong',correct:false},{at:now-700,wordId:first.id,word:first.word,answer:first.word,correct:true},{at:now-500,wordId:second.id,word:second.word,answer:'wrong',correct:false}];appState.phase='setup';appState.setupView='bank';upsertLocalHistory(historyPayload());render();},masterDeck:id=>{const deck=CATALOG_DECKS.find(row=>row.id===id);if(!deck)return;appState.roundId=randomUuid();appState.startedAt=Date.now();appState.completedAt=Date.now();appState.totalAttempts=deck.entryIds.length;appState.totalCorrect=deck.entryIds.length;appState.attemptEvents=deck.entryIds.map((wordId,index)=>{const entry=VOCABULARY.find(row=>row.id===wordId);return {at:Date.now()+index,wordId,word:entry?.word||'',answer:entry?.word||'',correct:true};});render();persistAndPublish();},longPhrase:()=>{const entry=[...VOCABULARY].sort((a,b)=>Math.max(...b.word.split(' ').map(token=>token.length))-Math.max(...a.word.split(' ').map(token=>token.length)))[0];appState.displayMode='slots';appState.selectedIds=[entry.id];appState.frequency=1;appState.phase='practice';appState.correctById={[entry.id]:0};appState.totalCorrect=0;appState.totalAttempts=0;appState.queue=[entry.id];appState.currentId=entry.id;appState.mask=[...createMask(entry.word,50)];appState.draftLetters={};appState.feedback='';appState.awaitingNext=false;render();},typeOne:()=>{const input=document.querySelector('[data-letter-position]');input.value=currentEntry().word[Number(input.dataset.letterPosition)];input.dispatchEvent(new Event('input',{bubbles:true}));return input.dataset.letterPosition;},wrong:()=>{document.querySelectorAll('[data-letter-position]').forEach(input=>{input.value=currentEntry().word[Number(input.dataset.letterPosition)]==='z'?'x':'z';input.dispatchEvent(new Event('input',{bubbles:true}));});document.querySelector('[data-answer-form]').requestSubmit();},correct:()=>{document.querySelectorAll('[data-letter-position]').forEach(input=>{input.value=currentEntry().word[Number(input.dataset.letterPosition)];input.dispatchEvent(new Event('input',{bubbles:true}));});document.querySelector('[data-answer-form]').requestSubmit();},next:readyForNext};`;
-      return route.fulfill({ response, body: `${await response.text()}${bridge}` });
+      const bridgeExtensions = `\nObject.assign(window.__spellingSyncQa,{masterActive:()=>{const entries=activeLibraryEntries();const now=Date.now();appState.roundId=randomUuid();appState.startedAt=now-1000;appState.completedAt=now;appState.totalAttempts=entries.length;appState.totalCorrect=entries.length;appState.attemptEvents=entries.map((entry,index)=>({at:now+index,wordId:entry.id,word:entry.word,answer:entry.word,correct:true}));render();persistAndPublish();},spaceReady:()=>{const [first,second]=VOCABULARY;appState.phase='practice';appState.selectedIds=[first.id,second.id];appState.frequency=1;appState.queue=[second.id];appState.currentId=first.id;appState.correctById={[first.id]:1,[second.id]:0};appState.totalCorrect=1;appState.totalAttempts=1;appState.feedback='correct';appState.awaitingNext=false;appState.pendingNextId=second.id;appState.pendingNextMask=[...createMask(second.word,appState.difficulty)];appState.advanceAt=Date.now()+60000;render();}});`;
+      return route.fulfill({ response, body: `${await response.text()}${bridge}${bridgeExtensions}` });
     }
     return route.continue();
   });
@@ -108,6 +109,14 @@ try {
   await first.page.locator('.eddy-five-streak-overlay button').click();
   await first.page.waitForFunction(() => __spellingSyncQa.state().feedback === '', null, { timeout: 8000 });
   await first.page.evaluate(() => __spellingSyncQa.seedRecords());
+  const masteredRow = first.page.locator('[data-word-row][data-mastered="true"]').first();
+  await masteredRow.waitFor();
+  assert.doesNotMatch(await masteredRow.innerText(), /已答對/);
+  assert.equal(await masteredRow.evaluate((row) => getComputedStyle(row).backgroundColor), 'rgb(233, 246, 237)');
+  if (process.env.SPELLING_QA_SCREENSHOT) {
+    await first.page.locator('[data-word-filter] [data-dropdown-toggle]').click();
+    await first.page.locator('.spelling-bank').last().screenshot({ path: `${process.env.SPELLING_QA_SCREENSHOT}-desktop.png` });
+  }
   await first.page.locator('[data-setup-view="correct"]').click();
   await first.page.locator('[data-record-kind="correct"] .spelling-record-row').first().waitFor();
   assert.equal(await first.page.locator('[data-record-kind="correct"]').getAttribute('data-record-complete'), 'true');
@@ -125,14 +134,30 @@ try {
   await first.page.evaluate(() => document.querySelector('[data-back-to-bank]')?.click());
 
   assert.equal((await isolated.page.evaluate(() => __spellingSyncQa.state())).phase, 'setup');
+  await isolated.page.evaluate(() => __spellingSyncQa.spaceReady());
+  for (let index = 0; index < 12 && await isolated.page.locator('.eddy-first-question-overlay').count(); index += 1) {
+    await isolated.page.locator('.eddy-first-question-overlay button').click();
+    await isolated.page.waitForTimeout(150);
+  }
+  await isolated.page.locator('.eddy-first-question-overlay').waitFor({ state: 'detached' });
+  const spaceReadyId = await isolated.page.evaluate(() => __spellingSyncQa.state().currentId);
+  await isolated.page.keyboard.press('Space');
+  await isolated.page.waitForFunction((previousId) => __spellingSyncQa.state().feedback === '' && __spellingSyncQa.state().currentId !== previousId, spaceReadyId);
+  await isolated.page.locator('[data-back-to-bank]').click();
   assert.equal(await isolated.page.locator('.spelling-table-wrap thead th').count(), 3);
   assert.doesNotMatch(await isolated.page.locator('.spelling-bank').innerText(), /字母拆分/);
+  assert.equal(await isolated.page.locator('[data-spelling-app] select').count(), 0);
+  await isolated.page.locator('[data-word-filter] [data-dropdown-toggle]').click();
+  assert.equal(await isolated.page.locator('[data-word-filter] [role="option"]').count(), 3);
+  assert.ok(Number.parseFloat(await isolated.page.locator('[data-word-filter] .spelling-dropdown__menu').evaluate((menu) => getComputedStyle(menu).borderRadius)) >= 12);
+  await isolated.page.locator('[data-word-filter] [data-dropdown-option="all"]').click();
   await isolated.page.locator('[data-setup-view="history"]').click();
   await isolated.page.getByText('每輪練習詳情').waitFor();
   await isolated.page.locator('[data-setup-view="bank"]').click();
   await isolated.page.locator('[data-quick-pick-random="10"]').click();
   assert.equal((await isolated.page.evaluate(() => __spellingSyncQa.state())).selectedIds.length, 10);
-  await isolated.page.locator('[data-quick-range-select="10"]').selectOption('11');
+  await isolated.page.locator('[data-quick-range-select="10"] [data-dropdown-toggle]').click();
+  await isolated.page.locator('[data-quick-range-select="10"] [data-dropdown-option="11"]').click();
   await isolated.page.locator('[data-quick-pick-range="10"]').click();
   assert.equal((await isolated.page.evaluate(() => __spellingSyncQa.state())).selectedIds.length, 10);
   await isolated.page.locator('[data-deselect-all]').click();
@@ -173,10 +198,17 @@ try {
   await isolated.page.evaluate((deckId) => __spellingSyncQa.masterDeck(deckId), firstDeckId);
   await isolated.page.locator(`.spelling-deck-grid--stage [data-deck-id="${firstDeckId}"].is-complete`).waitFor();
   assert.match(await isolated.page.locator(`.spelling-deck-grid--stage [data-deck-id="${firstDeckId}"]`).innerText(), /已完成/);
+  await isolated.page.evaluate(() => __spellingSyncQa.masterActive());
+  await isolated.page.locator('[data-quick-range-select="10"].is-complete [data-dropdown-toggle]').click();
+  const completedRanges = isolated.page.locator('[data-quick-range-select="10"] [data-dropdown-option].is-complete');
+  assert.ok(await completedRanges.count() > 0);
+  assert.equal(await completedRanges.first().getAttribute('data-complete'), 'true');
+  assert.notEqual(await completedRanges.first().evaluate((option) => getComputedStyle(option).backgroundColor), 'rgba(0, 0, 0, 0)');
+  if (process.env.SPELLING_QA_SCREENSHOT) await isolated.page.locator('.spelling-quick-modes').screenshot({ path: `${process.env.SPELLING_QA_SCREENSHOT}-mobile.png` });
   assert.ok(await isolated.page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), 'Mobile setup must not overflow horizontally.');
   assert.deepEqual(errors, []);
   await Promise.all([first.context.close(), second.context.close(), isolated.context.close()]);
-  console.log('PASS spelling live sync and feature QA: focus return, Eddy streak, correct/wrong re-practice, random/range modes, deck search, concise labels and green completion.');
+  console.log('PASS spelling live sync and feature QA: focus return, Space next, Eddy streak, record re-practice, custom dropdowns, random/range modes and green completion.');
 } finally {
   await browser.close();
 }
