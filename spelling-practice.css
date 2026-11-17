@@ -365,7 +365,7 @@ body[data-learning-portal="spelling"] {
   border: 2px solid var(--spell-gold);
   background:
     linear-gradient(90deg, rgba(255, 253, 245, .99) 0 40%, rgba(255, 253, 245, .86) 56%, rgba(255, 253, 245, .08) 82%),
-    url("./spelling-adventure-journal-hero.png") center / cover no-repeat;
+    url("./spelling-adventure-journal-hero.webp") center / cover no-repeat;
 }
 .spelling-hero::after { display: none; }
 .spelling-hero .spelling-eyebrow { color: var(--spell-red); }
