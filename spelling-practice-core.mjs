@@ -138,3 +138,80 @@ export function requiredCorrectTotal(selectedCount, frequency) {
 export function characterLabel(word) {
   return [...word].map((character) => character === " " ? "/" : character).join(" · ");
 }
+
+export function normalizeSearchText(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .replace(/[’‘]/g, "'")
+    .toLocaleLowerCase("zh-Hant")
+    .replace(/[^a-z0-9一-鿿]+/g, " ")
+    .trim();
+}
+
+export function searchTokens(value) {
+  return normalizeSearchText(value).split(/\s+/).filter(Boolean);
+}
+
+export function searchMatches(haystack, tokens) {
+  if (!tokens.length) return false;
+  const normalized = normalizeSearchText(haystack);
+  return tokens.every((token) => normalized.includes(token));
+}
+
+export function selectRandomIds(ids, count, random = Math.random) {
+  const unique = [...new Set((Array.isArray(ids) ? ids : []).map(String).filter(Boolean))];
+  for (let index = unique.length - 1; index > 0; index -= 1) {
+    const swap = Math.floor(Math.max(0, Math.min(.999999999, Number(random()) || 0)) * (index + 1));
+    [unique[index], unique[swap]] = [unique[swap], unique[index]];
+  }
+  return unique.slice(0, Math.min(unique.length, Math.max(0, Math.floor(Number(count) || 0))));
+}
+
+export function selectRangeIds(ids, start, size) {
+  const unique = [...new Set((Array.isArray(ids) ? ids : []).map(String).filter(Boolean))];
+  const offset = Math.max(0, Math.floor(Number(start) || 1) - 1);
+  const length = Math.max(0, Math.floor(Number(size) || 0));
+  return unique.slice(offset, offset + length);
+}
+
+export function compactDeckLabel(value) {
+  const label = String(value || "").trim();
+  const modelEssay = label.match(/^(Model Essay\s+\d+)/i);
+  if (modelEssay) return modelEssay[1];
+  return label;
+}
+
+export function summarizeAttempts(events) {
+  const records = new Map();
+  (Array.isArray(events) ? events : []).forEach((event) => {
+    const wordId = String(event?.wordId || "");
+    if (!wordId) return;
+    const at = Math.max(0, Math.floor(Number(event?.at) || 0));
+    const current = records.get(wordId) || {
+      wordId,
+      word: String(event?.word || ""),
+      correctCount: 0,
+      wrongCount: 0,
+      latestAt: 0,
+      latestAnswer: "",
+      latestCorrect: false,
+      lastCorrectAt: 0,
+      lastWrongAt: 0
+    };
+    if (event?.correct === true) {
+      current.correctCount += 1;
+      current.lastCorrectAt = Math.max(current.lastCorrectAt, at);
+    } else {
+      current.wrongCount += 1;
+      current.lastWrongAt = Math.max(current.lastWrongAt, at);
+    }
+    if (at >= current.latestAt) {
+      current.latestAt = at;
+      current.latestAnswer = String(event?.answer || "");
+      current.latestCorrect = event?.correct === true;
+      current.word = String(event?.word || current.word);
+    }
+    records.set(wordId, current);
+  });
+  return records;
+}

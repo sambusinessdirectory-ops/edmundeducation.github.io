@@ -1,8 +1,14 @@
 import {
   VOCABULARY,
+  compactDeckLabel,
   createMask,
   isAnswerCorrect,
-  requiredCorrectTotal
+  requiredCorrectTotal,
+  searchMatches,
+  searchTokens,
+  selectRandomIds,
+  selectRangeIds,
+  summarizeAttempts
 } from "./spelling-practice-core.mjs";
 import { createClassroomLiveSync } from "./classroom-live-sync.mjs?v=20261028-1";
 
@@ -49,6 +55,7 @@ function defaultState() {
     libraryGroupId: "",
     librarySectionId: "",
     selectedDeckIds: [],
+    deckSearch: "",
     wordFilter: "all",
     phase: "setup",
     correctById: {},
@@ -67,7 +74,9 @@ function defaultState() {
     startedAt: 0,
     completedAt: 0,
     attemptEvents: [],
-    lastAttempt: null
+    lastAttempt: null,
+    streak: 0,
+    bestStreak: 0
   };
 }
 
@@ -190,11 +199,12 @@ function normalizeState(candidate) {
     difficulty,
     frequency,
     displayMode,
-    setupView: candidate.setupView === "history" ? "history" : "bank",
+    setupView: ["bank", "history", "correct", "wrong"].includes(candidate.setupView) ? candidate.setupView : "bank",
     libraryId,
     libraryGroupId,
     librarySectionId,
     selectedDeckIds,
+    deckSearch: String(candidate.deckSearch || "").slice(0, 120),
     wordFilter: ["all", "unmastered", "mastered"].includes(candidate.wordFilter) ? candidate.wordFilter : "all",
     phase,
     correctById,
@@ -215,7 +225,9 @@ function normalizeState(candidate) {
     startedAt: Math.max(0, Math.floor(Number(candidate.startedAt) || 0)),
     completedAt: Math.max(0, Math.floor(Number(candidate.completedAt) || 0)),
     attemptEvents,
-    lastAttempt: lastAttempt?.wordId ? lastAttempt : null
+    lastAttempt: lastAttempt?.wordId ? lastAttempt : null,
+    streak: Math.max(0, Math.floor(Number(candidate.streak) || 0)),
+    bestStreak: Math.max(0, Math.floor(Number(candidate.bestStreak) || 0))
   };
 }
 
@@ -347,11 +359,18 @@ async function loadHistory() {
   }
 }
 
+function allAttemptEvents() {
+  const current = historyPayload();
+  return mergeHistoryRows(readAllLocalHistory(), current ? [current] : [], historyRows)
+    .flatMap((row) => Array.isArray(row.details) ? row.details : []);
+}
+
+function attemptRecords() {
+  return summarizeAttempts(allAttemptEvents());
+}
+
 function masteredIds() {
-  const result = new Set();
-  [...historyRows.flatMap((row) => Array.isArray(row.details) ? row.details : []), ...(appState?.attemptEvents || [])]
-    .forEach((event) => { if (event?.correct && event.wordId) result.add(event.wordId); });
-  return result;
+  return new Set([...attemptRecords().values()].filter((record) => record.correctCount > 0).map((record) => record.wordId));
 }
 
 function tickElapsed() {
@@ -428,6 +447,40 @@ function historyMarkup() {
   return `<div class="spelling-history-list">${rows}</div>`;
 }
 
+function recordEntries(kind) {
+  const records = attemptRecords();
+  return VOCABULARY.map((entry) => ({ entry, record: records.get(entry.id) }))
+    .filter(({ record }) => kind === "correct" ? record?.correctCount > 0 : record?.wrongCount > 0)
+    .sort((left, right) => right.record.latestAt - left.record.latestAt);
+}
+
+function recordViewMarkup(kind) {
+  const isCorrect = kind === "correct";
+  const records = recordEntries(kind);
+  const fullyDone = records.length > 0 && records.every(({ record }) => isCorrect || record.lastCorrectAt > record.lastWrongAt);
+  const title = isCorrect ? "我的答對記錄" : "我的錯題記錄";
+  const description = isCorrect
+    ? "所有曾經答對的生字與詞組都集中在這裡，可隨時重練。"
+    : "答錯過的項目會保留在這裡；之後答對便會標示為已改正。";
+  if (historyLoading && !records.length) return `<section class="spelling-bank spelling-record-panel"><div class="spelling-history-empty">正在載入${title}……</div></section>`;
+  const rows = records.map(({ entry, record }) => {
+    const resolved = isCorrect || record.lastCorrectAt > record.lastWrongAt;
+    const lastTime = record.latestAt
+      ? new Intl.DateTimeFormat("zh-HK", { dateStyle: "medium", timeStyle: "short" }).format(new Date(record.latestAt))
+      : "";
+    return `<article class="spelling-record-row${resolved ? " is-complete" : ""}">
+      <span class="spelling-record-state" aria-hidden="true">${resolved ? "✓" : "!"}</span>
+      <div class="spelling-record-copy"><strong>${escapeHtml(entry.word)}</strong><span>${escapeHtml(entry.meaning)}</span><small>最近作答：${escapeHtml(record.latestAnswer || "（未作答）")} ${lastTime ? `· ${escapeHtml(lastTime)}` : ""}</small></div>
+      <div class="spelling-record-counts"><span class="is-correct">答對 ${record.correctCount}</span><span class="is-wrong">答錯 ${record.wrongCount}</span><em>${resolved ? (isCorrect ? "已掌握" : "已改正") : "待重練"}</em></div>
+      <button type="button" data-practice-record-id="${escapeHtml(entry.id)}">練習這項</button>
+    </article>`;
+  }).join("");
+  return `<section class="spelling-bank spelling-record-panel${fullyDone ? " is-fully-complete" : ""}" data-record-kind="${kind}" data-record-complete="${fullyDone}">
+    <div class="spelling-record-heading"><div><p class="spelling-eyebrow">${isCorrect ? "MY CORRECT RECORDS" : "MY WRONG RECORDS"}</p><h2>${title}</h2><p>${description}</p></div><div class="spelling-record-heading__actions"><span>${records.length} 項${fullyDone ? " · 全部完成" : ""}</span><button class="spelling-primary" type="button" data-practice-record-list="${kind}" ${records.length ? "" : "disabled"}>${isCorrect ? "重練全部" : "重練錯題"}</button></div></div>
+    ${records.length ? `<div class="spelling-record-list">${rows}</div>` : `<div class="spelling-history-empty"><strong>尚未有${title}</strong><span>${isCorrect ? "完成拼寫練習後，答對項目會顯示在這裡。" : "目前未有答錯記錄，繼續保持！"}</span></div>`}
+  </section>`;
+}
+
 function activeLibraryEntries() {
   if (appState.libraryId === "core") return VOCABULARY.filter((entry) => entry.libraryId === "core");
   const decks = new Set(appState.selectedDeckIds);
@@ -445,6 +498,33 @@ function libraryNavigationMarkup() {
   </section>`;
 }
 
+function completionForIds(ids, mastered) {
+  const unique = [...new Set(Array.isArray(ids) ? ids : [])];
+  const completed = unique.filter((id) => mastered.has(id)).length;
+  return { completed, total: unique.length, complete: unique.length > 0 && completed === unique.length };
+}
+
+function deckSearchResultsMarkup() {
+  const tokens = searchTokens(appState.deckSearch);
+  if (!tokens.length || appState.libraryId === "core") return "";
+  const mastered = masteredIds();
+  const selected = new Set(appState.selectedDeckIds);
+  const results = CATALOG_DECKS
+    .filter((deck) => deck.libraryId === appState.libraryId)
+    .filter((deck) => searchMatches(`${deck.label} ${deck.sectionLabel} ${deck.sectionZh} ${deck.sourceKey}`, tokens))
+    .slice(0, 18);
+  if (!results.length) return '<p class="spelling-deck-search-empty">找不到相符分組。可嘗試輸入 Model Essay 編號、年份或分類名稱。</p>';
+  return results.map((deck) => {
+    const progress = completionForIds(deck.entryIds, mastered);
+    return `<button class="spelling-deck-search-result${progress.complete ? " is-complete" : ""}" type="button" data-deck-id="${escapeHtml(deck.id)}" aria-pressed="${selected.has(deck.id)}"><span class="spelling-deck-check" aria-hidden="true">${selected.has(deck.id) ? "✓" : "+"}</span><span><strong>${escapeHtml(compactDeckLabel(deck.label))}</strong><small>${escapeHtml(deck.sectionLabel)} · ${deck.entryIds.length} 項${progress.complete ? " · 已完成" : ""}</small></span><em>${selected.has(deck.id) ? "已加入" : "加入"}</em></button>`;
+  }).join("");
+}
+
+function renderDeckSearchResults(root) {
+  const results = root.querySelector("[data-deck-search-results]");
+  if (results) results.innerHTML = deckSearchResultsMarkup();
+}
+
 function deckExplorerMarkup() {
   if (appState.libraryId === "core") return "";
   const library = (SELECTION_CATALOG.libraries || []).find((item) => item.id === appState.libraryId);
@@ -458,14 +538,42 @@ function deckExplorerMarkup() {
   const visibleDecks = activeSection
     ? groupDecks.filter((deck) => deck.sectionId === activeSection.id).sort((a, b) => a.label.localeCompare(b.label, "en", { numeric: true }))
     : [];
+  const mastered = masteredIds();
   return `<section class="spelling-deck-explorer">
     <div class="spelling-deck-explorer__top"><div><p class="spelling-eyebrow">COLLECTION · 分類選擇</p><h2>${escapeHtml(library.label)}</h2></div><div class="spelling-deck-actions"><span>${appState.selectedDeckIds.length} 個分組已加入</span>${activeSection ? '<button type="button" data-select-visible-decks>加入本頁全部</button>' : ''}<button type="button" data-clear-library-decks>清除本詞庫</button></div></div>
+    <div class="spelling-deck-search-area"><label class="spelling-deck-search"><span>搜尋練習分組</span><input type="search" data-deck-search value="${escapeHtml(appState.deckSearch)}" placeholder="輸入 Model Essay 編號、年份或分類" autocomplete="off"></label><div class="spelling-deck-search-results" data-deck-search-results aria-live="polite">${deckSearchResultsMarkup()}</div></div>
     ${groups.length > 1 ? `<div class="spelling-group-tabs">${groups.map((group) => `<button type="button" data-library-group="${escapeHtml(group.id)}" aria-pressed="${group.id === activeGroup?.id}"><strong>${escapeHtml(group.label)}</strong><span>${escapeHtml(group.zh || "")}</span></button>`).join("")}</div>` : ""}
-    ${activeSection ? `<div class="spelling-section-stage"><button type="button" class="spelling-section-back" data-library-section-back>← 返回分類</button><div><p class="spelling-eyebrow">${escapeHtml(activeGroup?.label || "")}</p><h3>${escapeHtml(activeSection.label)}</h3><p>${escapeHtml(activeSection.zh || "")}</p></div></div><div class="spelling-deck-grid spelling-deck-grid--stage">${visibleDecks.map((deck) => `<button type="button" data-deck-id="${escapeHtml(deck.id)}" aria-pressed="${selected.has(deck.id)}"><span class="spelling-deck-check" aria-hidden="true">${selected.has(deck.id) ? "✓" : "+"}</span><span><strong>${escapeHtml(deck.label)}</strong><small>${deck.entryIds.length} 項</small></span></button>`).join("")}</div>` : `<div class="spelling-section-menu">${sections.map((section, sectionIndex) => {
+    ${activeSection ? `<div class="spelling-section-stage"><button type="button" class="spelling-section-back" data-library-section-back>← 返回分類</button><div><p class="spelling-eyebrow">${escapeHtml(activeGroup?.label || "")}</p><h3>${escapeHtml(activeSection.label)}</h3><p>${escapeHtml(activeSection.zh || "")}</p></div></div><div class="spelling-deck-grid spelling-deck-grid--stage">${visibleDecks.map((deck) => {
+      const progress = completionForIds(deck.entryIds, mastered);
+      return `<button class="${progress.complete ? "is-complete" : ""}" type="button" data-deck-id="${escapeHtml(deck.id)}" aria-pressed="${selected.has(deck.id)}"><span class="spelling-deck-check" aria-hidden="true">${progress.complete || selected.has(deck.id) ? "✓" : "+"}</span><span><strong>${escapeHtml(compactDeckLabel(deck.label))}</strong><small>${deck.entryIds.length} 項${progress.complete ? " · 已完成" : ""}</small></span></button>`;
+    }).join("")}</div>` : `<div class="spelling-section-menu">${sections.map((section, sectionIndex) => {
       const decks = groupDecks.filter((deck) => deck.sectionId === section.id);
       const selectedCount = decks.filter((deck) => selected.has(deck.id)).length;
-      return `<button type="button" class="spelling-section-choice" data-library-section="${escapeHtml(section.id)}"><span class="spelling-section-card__badge">${String(sectionIndex + 1).padStart(2, "0")}</span><span><strong>${escapeHtml(section.label)}</strong><small>${escapeHtml(section.zh || "")}</small></span><em>${selectedCount} / ${decks.length}</em><b aria-hidden="true">→</b></button>`;
+      const progress = completionForIds(decks.flatMap((deck) => deck.entryIds), mastered);
+      return `<button type="button" class="spelling-section-choice${progress.complete ? " is-complete" : ""}" data-library-section="${escapeHtml(section.id)}"><span class="spelling-section-card__badge">${progress.complete ? "✓" : String(sectionIndex + 1).padStart(2, "0")}</span><span><strong>${escapeHtml(section.label)}</strong><small>${escapeHtml(section.zh || "")}</small></span><em>${progress.complete ? "全部完成" : `${progress.completed} / ${progress.total} 已答對`} · ${selectedCount} 已加入</em><b aria-hidden="true">→</b></button>`;
     }).join("")}</div>`}
+  </section>`;
+}
+
+function rangeOptions(entries, size) {
+  return Array.from({ length: Math.ceil(entries.length / size) }, (_, index) => {
+    const start = index * size + 1;
+    const end = Math.min(entries.length, start + size - 1);
+    return `<option value="${start}">第 ${start}–${end} 項</option>`;
+  }).join("");
+}
+
+function quickModesMarkup(entries) {
+  const total = entries.length;
+  const randomCounts = [10, 20, 30, 40, 50];
+  return `<section class="spelling-quick-modes" aria-labelledby="spelling-quick-modes-title">
+    <div class="spelling-quick-modes__heading"><div><p class="spelling-eyebrow">QUICK PRACTICE · 快速練習模式</p><h3 id="spelling-quick-modes-title">隨機抽選或按範圍分組</h3><p>從目前生字庫選取練習項目；之後仍可在上方調整難度及答對次數。</p></div><strong>${total} 項可選</strong></div>
+    <div class="spelling-quick-random"><span>隨機抽選</span>${randomCounts.map((count) => `<button type="button" data-quick-pick-random="${count}" ${total >= count ? "" : "disabled"}>隨機 ${count} 項</button>`).join("")}</div>
+    <div class="spelling-quick-ranges">
+      <label><span>每 10 項一組</span><select data-quick-range-select="10">${rangeOptions(entries, 10)}</select><button type="button" data-quick-pick-range="10" ${total ? "" : "disabled"}>選取此組</button></label>
+      <label><span>每 30 項一組</span><select data-quick-range-select="30">${rangeOptions(entries, 30)}</select><button type="button" data-quick-pick-range="30" ${total ? "" : "disabled"}>選取此組</button></label>
+    </div>
+    <p class="spelling-quick-status" data-quick-selection-status aria-live="polite"></p>
   </section>`;
 }
 
@@ -486,8 +594,8 @@ function setupMarkup() {
       <div><p class="spelling-eyebrow">SPELLING LAB · 拼寫實驗室</p><h1>拼寫練習設定</h1><p>選擇生字、設定測試比例與完成次數。每一輪的出題次序及測試字母均會重新隨機排列。</p></div>
       <div class="spelling-hero__count"><strong>${appState.selectedIds.length}</strong><span>本輪已選項目</span></div>
     </header>
-    <nav class="spelling-view-tabs" aria-label="拼寫系統頁面"><button type="button" data-setup-view="bank" aria-current="${appState.setupView === "bank" ? "page" : "false"}">生字庫</button><button type="button" data-setup-view="history" aria-current="${appState.setupView === "history" ? "page" : "false"}">作答記錄</button></nav>
-    ${appState.setupView === "history" ? `<section class="spelling-bank spelling-history"><div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">ATTEMPTS · 作答記錄</p><h2>每輪練習詳情</h2></div><button type="button" class="spelling-refresh-history" data-refresh-history>重新整理</button></div>${historyMarkup()}</section>` : `
+    <div class="spelling-view-navigation"><nav class="spelling-view-tabs" aria-label="拼寫系統頁面"><button type="button" data-setup-view="bank" aria-current="${appState.setupView === "bank" ? "page" : "false"}">生字庫</button><button type="button" data-setup-view="history" aria-current="${appState.setupView === "history" ? "page" : "false"}">作答記錄</button></nav><nav class="spelling-view-tabs spelling-record-tabs" aria-label="個人答題記錄"><button type="button" data-setup-view="correct" aria-current="${appState.setupView === "correct" ? "page" : "false"}">我的答對記錄</button><button type="button" data-setup-view="wrong" aria-current="${appState.setupView === "wrong" ? "page" : "false"}">我的錯題記錄</button></nav></div>
+    ${appState.setupView === "history" ? `<section class="spelling-bank spelling-history"><div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">ATTEMPTS · 作答記錄</p><h2>每輪練習詳情</h2></div><button type="button" class="spelling-refresh-history" data-refresh-history>重新整理</button></div>${historyMarkup()}</section>` : ["correct", "wrong"].includes(appState.setupView) ? recordViewMarkup(appState.setupView) : `
     ${libraryNavigationMarkup()}
     ${deckExplorerMarkup()}
     <section class="spelling-controls" aria-label="練習設定">
@@ -507,7 +615,7 @@ function setupMarkup() {
     <section class="spelling-bank">
       <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><div class="spelling-bank__title-row"><h2>${appState.libraryId === "core" ? "選擇本輪生字" : "調整已加入的詞彙"}</h2><label class="spelling-search"><span class="sr-only">搜尋英文或繁體中文</span><input type="search" data-word-search placeholder="搜尋英文或繁體中文" autocomplete="off"></label><label class="spelling-filter"><span class="sr-only">按掌握狀態篩選</span><select data-word-filter><option value="all" ${appState.wordFilter === "all" ? "selected" : ""}>顯示全部</option><option value="unmastered" ${appState.wordFilter === "unmastered" ? "selected" : ""}>隱藏已答對</option><option value="mastered" ${appState.wordFilter === "mastered" ? "selected" : ""}>只看已答對</option></select></label></div></div><div class="spelling-bank__actions"><span data-selected-count>本輪共選 ${appState.selectedIds.length} 項</span><button type="button" data-select-all>選取目前詞庫</button><button type="button" data-deselect-all>取消目前詞庫</button></div></div>
       <p class="spelling-drag-hint">可按住並拖過多行，快速選取或取消多個生字。</p>
-      ${visibleEntries.length ? `<div class="spelling-table-wrap"><table><thead><tr><th scope="col">選擇</th><th scope="col">生字／詞組</th><th scope="col">繁體中文意思</th></tr></thead><tbody>${rows}</tbody></table></div>` : `<div class="spelling-library-empty"><strong>先選擇一個分組</strong><span>從上方的收藏分類加入 IELTS 或 DSE 詞彙，然後再逐項調整。</span></div>`}
+      ${visibleEntries.length ? `<div class="spelling-table-wrap"><table><thead><tr><th scope="col">選擇</th><th scope="col">生字／詞組</th><th scope="col">繁體中文意思</th></tr></thead><tbody>${rows}</tbody></table></div>${quickModesMarkup(visibleEntries)}` : `<div class="spelling-library-empty"><strong>先選擇一個分組</strong><span>從上方的收藏分類加入 IELTS 或 DSE 詞彙，然後再逐項調整。</span></div>`}
     </section>`}
   </section>`;
 }
@@ -659,6 +767,8 @@ function updateSetupSummary(root) {
   if (difficultyOutput) difficultyOutput.textContent = `${appState.difficulty}%`;
   const selectedOutput = root.querySelector("[data-selected-count]");
   if (selectedOutput) selectedOutput.textContent = `已選 ${selectedCount} / ${VOCABULARY.length}`;
+  const heroCount = root.querySelector(".spelling-hero__count strong");
+  if (heroCount) heroCount.textContent = String(selectedCount);
   const totalOutput = root.querySelector("[data-target-total]");
   if (totalOutput) totalOutput.textContent = String(required);
   const summary = root.querySelector(".spelling-control--summary small");
@@ -728,6 +838,23 @@ function speakWord(entry) {
 
 function speakCurrentWord() {
   speakWord(currentEntry());
+  focusCurrentAnswer();
+}
+
+function focusCurrentAnswer() {
+  requestAnimationFrame(() => {
+    const candidates = [...document.querySelectorAll("[data-answer-form] [data-letter-position]:not([disabled])")];
+    const target = candidates.find((input) => !input.value) || candidates[0] || document.querySelector("[data-answer-form] [data-line-answer]:not([disabled])");
+    target?.focus({ preventScroll: true });
+  });
+}
+
+function announceStreakAnswer(correct, previousStreak) {
+  const next = appState.streak;
+  if (correct && next > 30) return;
+  document.dispatchEvent(new CustomEvent("edmund:eddy-streak-answer", {
+    detail: { scope: "spelling-practice", correct, previousStreak, streak: next }
+  }));
 }
 
 function playTone(correct) {
@@ -817,9 +944,13 @@ function handleAnswer(form) {
   const answer = submittedAnswer(entry, values);
   appState.totalAttempts += 1;
   const correct = appState.displayMode === "line" ? normalizeAnswer(answer) === normalizeAnswer(entry.word) : isAnswerCorrect(entry.word, values);
+  const previousStreak = appState.streak;
+  appState.streak = correct ? previousStreak + 1 : 0;
+  appState.bestStreak = Math.max(appState.bestStreak, appState.streak);
   appState.lastAttempt = { wordId: entry.id, answer, correct };
   appState.attemptEvents.push({ at: Date.now(), wordId: entry.id, word: entry.word, answer, correct });
   playTone(correct);
+  announceStreakAnswer(correct, previousStreak);
   if (!correct) {
     appState.awaitingNext = true;
     appState.feedback = "";
@@ -853,6 +984,8 @@ function startRound() {
   appState.startedAt = Date.now();
   appState.completedAt = 0;
   appState.attemptEvents = [];
+  appState.streak = 0;
+  appState.bestStreak = 0;
   clearAttemptState();
   const first = chooseNextEntry();
   appState.currentId = first?.id || "";
@@ -922,6 +1055,23 @@ function toggleWordSelection(root, id) {
   setWordSelection(root, id, !input.checked);
 }
 
+function applyQuickSelection(root, ids, label) {
+  const selected = new Set(ids);
+  appState.selectedIds = VOCABULARY.filter((entry) => selected.has(entry.id)).map((entry) => entry.id);
+  root.querySelectorAll("[data-word-select]").forEach((input) => { input.checked = selected.has(input.value); });
+  const status = root.querySelector("[data-quick-selection-status]");
+  if (status) status.textContent = `${label}：已選 ${appState.selectedIds.length} 項，可返回上方開始練習。`;
+  updateSetupSummary(root);
+}
+
+function startRecordPractice(ids) {
+  const valid = [...new Set(ids)].filter((id) => VOCABULARY.some((entry) => entry.id === id));
+  if (!valid.length) return;
+  appState.selectedIds = valid;
+  appState.frequency = 1;
+  startRound();
+}
+
 document.addEventListener("input", (event) => {
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
@@ -950,6 +1100,11 @@ document.addEventListener("input", (event) => {
     persistAndPublish();
   }
   if (event.target.matches("[data-word-search]")) applyWordSearch(app, event.target.value);
+  if (event.target.matches("[data-deck-search]")) {
+    appState.deckSearch = event.target.value.slice(0, 120);
+    renderDeckSearchResults(app);
+    saveState();
+  }
 });
 
 document.addEventListener("beforeinput", (event) => {
@@ -1071,6 +1226,7 @@ document.addEventListener("click", (event) => {
     const groups = (SELECTION_CATALOG.libraries || []).find((library) => library.id === appState.libraryId)?.groups || [];
     appState.libraryGroupId = groups[0]?.id || "";
     appState.librarySectionId = "";
+    appState.deckSearch = "";
     render();
     persistAndPublish();
     return;
@@ -1144,7 +1300,7 @@ document.addEventListener("click", (event) => {
     appState.setupView = setupView.dataset.setupView;
     render();
     persistAndPublish();
-    if (appState.setupView === "history") loadHistory();
+    if (appState.setupView !== "bank") loadHistory();
     return;
   }
   const displayMode = event.target.closest("[data-display-mode]");
@@ -1173,6 +1329,23 @@ document.addEventListener("click", (event) => {
     app.querySelectorAll("[data-word-select]").forEach((input) => { input.checked = false; });
     updateSetupSummary(app);
   }
+  const randomMode = event.target.closest("[data-quick-pick-random]");
+  if (randomMode) {
+    const count = Number(randomMode.dataset.quickPickRandom);
+    applyQuickSelection(app, selectRandomIds(activeLibraryEntries().map((entry) => entry.id), count), `隨機 ${count} 項`);
+  }
+  const rangeMode = event.target.closest("[data-quick-pick-range]");
+  if (rangeMode) {
+    const size = Number(rangeMode.dataset.quickPickRange);
+    const select = app.querySelector(`[data-quick-range-select="${size}"]`);
+    const start = Number(select?.value || 1);
+    const ids = selectRangeIds(activeLibraryEntries().map((entry) => entry.id), start, size);
+    applyQuickSelection(app, ids, `第 ${start}–${start + ids.length - 1} 項`);
+  }
+  const recordItem = event.target.closest("[data-practice-record-id]");
+  if (recordItem) startRecordPractice([recordItem.dataset.practiceRecordId]);
+  const recordList = event.target.closest("[data-practice-record-list]");
+  if (recordList) startRecordPractice(recordEntries(recordList.dataset.practiceRecordList).map(({ entry }) => entry.id));
   if (event.target.closest("[data-start]")) startRound();
   if (event.target.closest("[data-speak]")) speakCurrentWord();
   const rowSound = event.target.closest("[data-speak-word]");
