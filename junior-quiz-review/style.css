@@ -21,6 +21,20 @@ body[data-learning-portal="junior-quiz-review"],body[data-learning-portal="junio
 .quiz-story-head h2{margin:0 0 13px;font:700 clamp(42px,7vw,76px)/1.04 Georgia,serif}
 .quiz-story-head>p:last-of-type{color:#566c6d;font-size:17px}
 .quiz-story-actions,.quiz-story-bottom{display:flex;flex-wrap:wrap;gap:11px;margin-top:25px}
+.quiz-practice-setup{display:grid;grid-template-columns:minmax(220px,.9fr) minmax(300px,1.3fr);gap:20px 30px;align-items:start;margin:25px 0;padding:clamp(22px,4vw,36px);border:1px solid #b8c9c3;border-left:5px solid #0c8498;border-radius:15px;background:linear-gradient(135deg,#fffdf7,#e8f2ee);box-shadow:0 12px 30px rgba(18,62,65,.09)}
+.quiz-practice-setup h3{margin:0 0 7px;font:700 27px Georgia,"Noto Serif TC",serif}
+.quiz-practice-setup p{margin:0;color:#5c7273;line-height:1.65}
+.quiz-practice-setup fieldset{display:grid;gap:9px;margin:0;padding:0;border:0}
+.quiz-practice-setup legend{margin-bottom:8px;font-weight:800}
+.quiz-practice-setup fieldset label{display:flex;gap:11px;align-items:flex-start;padding:13px;border:1px solid #c8d5ce;border-radius:10px;background:#fffefa;cursor:pointer}
+.quiz-practice-setup input[type="radio"]{margin-top:4px;accent-color:#176d83}
+.quiz-practice-setup label strong,.quiz-practice-setup label small{display:block}
+.quiz-practice-setup label small{margin-top:3px;color:#687d80;line-height:1.45}
+.quiz-random-count{grid-column:2;display:grid;grid-template-columns:1fr 110px;gap:7px 12px;align-items:center;padding:14px;border-radius:10px;background:#f7fbf7;font-weight:800}
+.quiz-random-count[hidden]{display:none}
+.quiz-random-count input{width:100%;padding:10px;border:1px solid #9fbab6;border-radius:7px;background:white;color:#183b48;font:800 16px system-ui,sans-serif}
+.quiz-random-count small{grid-column:1/-1;font-weight:500}
+.quiz-practice-setup>.quiz-button{grid-column:2;justify-self:start}
 .quiz-button{min-height:43px;padding:10px 17px;border:1px solid #16748a;border-radius:9px;background:#176d83;color:white;font:750 14px system-ui,sans-serif;cursor:pointer;transition:background .2s ease,transform .2s ease,box-shadow .2s ease}
 .quiz-button:hover:not(:disabled){background:#0f5366;transform:translateY(-1px);box-shadow:0 7px 17px rgba(20,82,99,.18)}
 .quiz-button:disabled{opacity:.45;cursor:not-allowed}
@@ -51,6 +65,13 @@ body[data-learning-portal="junior-quiz-review"],body[data-learning-portal="junio
 .quiz-progress>div{grid-column:1/-1;height:8px;border-radius:9px;background:#dce9e3;overflow:hidden}
 .quiz-progress i{display:block;height:100%;border-radius:9px;background:linear-gradient(90deg,#40afaa,#0d718e);transition:width .38s ease}
 .quiz-dictation,.quiz-submit{padding:clamp(20px,4vw,40px);border:1px solid #d5c7ac;border-radius:16px;background:#fffdf7;box-shadow:0 14px 34px rgba(56,54,43,.08)}
+.quiz-review{display:grid;gap:10px;margin:0 0 20px;padding:clamp(18px,3vw,28px);border:1px solid #b9cbc4;border-radius:14px;background:#f8fbf7;box-shadow:0 10px 25px rgba(32,74,66,.08)}
+.quiz-review>p{margin:0}
+.quiz-review article{padding:15px 17px;border-left:5px solid #3b9b75;border-radius:8px;background:white}
+.quiz-review article.is-wrong{border-left-color:#bd664f;background:#fff9f5}
+.quiz-review article strong{color:#276955;font-size:14px}
+.quiz-review article.is-wrong strong{color:#a24630}
+.quiz-review article p{margin:8px 0 0;color:#173b48;font:19px/1.65 Georgia,"Times New Roman",serif}
 .quiz-dictation__meta{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:20px}
 .quiz-dictation__meta span{padding:6px 10px;border-radius:20px;background:#e7f1ed;color:#376a71;font-size:12px;font-weight:750}
 .quiz-play{padding:12px 22px;border:1px solid #b78c60;border-radius:26px;background:linear-gradient(#f2d9ad,#d2a36e);color:#3a2b20;font:800 15px system-ui,sans-serif;box-shadow:inset 0 1px #fff7e7,0 5px 12px rgba(103,73,41,.16);cursor:pointer}
@@ -58,6 +79,7 @@ body[data-learning-portal="junior-quiz-review"],body[data-learning-portal="junio
 .quiz-dictation label{display:block;margin:0 0 9px;font-weight:800}
 .quiz-dictation textarea{width:100%;min-height:142px;padding:17px;border:1px solid #a9c2c2;border-radius:9px;background:#f9fcfa;color:#1d3d48;font:19px/1.6 Georgia,serif;resize:vertical}
 .quiz-dictation textarea:focus{outline:3px solid rgba(17,123,147,.19);border-color:#177b92}
+.quiz-dictation textarea[readonly]{background:#eef3f0;color:#536b70}
 .quiz-hint{color:#72817c;font-size:13px}
 .quiz-dictation__actions{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-top:19px}
 .quiz-status{min-height:25px;color:#20727e;font-size:14px;font-weight:700}
@@ -72,6 +94,8 @@ body[data-learning-portal="junior-quiz-review"],body[data-learning-portal="junio
 .quiz-finished{text-align:center}
 @media(max-width:700px){.quiz-app{margin:12px auto 70px}
 .quiz-listening{grid-template-columns:1fr}
+.quiz-practice-setup{grid-template-columns:1fr}
+.quiz-random-count,.quiz-practice-setup>.quiz-button{grid-column:1}
 .quiz-paragraph,.quiz-footnote{grid-template-columns:30px 1fr;padding:18px}
 .quiz-paragraph p[lang="en"],.quiz-footnote p[lang="en"]{font-size:17px}
 .quiz-dictation__actions{justify-content:center}
