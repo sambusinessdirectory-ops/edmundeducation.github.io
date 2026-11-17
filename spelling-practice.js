@@ -1,6 +1,5 @@
 import {
   VOCABULARY,
-  characterLabel,
   createMask,
   isAnswerCorrect,
   requiredCorrectTotal
@@ -9,12 +8,18 @@ import { createClassroomLiveSync } from "./classroom-live-sync.mjs?v=20261028-1"
 
 const PORTAL_ID = "spelling";
 const STORAGE_VERSION = "v1";
-const SYNC_SCHEMA_VERSION = 1;
+const SYNC_SCHEMA_VERSION = 2;
 const SYNC_SCOPE = `practice:${STORAGE_VERSION}`;
 let appState = null;
 let activeUser = null;
 let wordAudio = null;
 let correctAdvanceTimer = null;
+let elapsedTimer = null;
+let historySaveTimer = null;
+let historyRows = [];
+let historyLoading = false;
+let selectionGesture = null;
+let suppressRowClick = false;
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>'"]/g, (character) => ({
@@ -31,6 +36,9 @@ function defaultState() {
     selectedIds: VOCABULARY.map((entry) => entry.id),
     difficulty: 50,
     frequency: 2,
+    displayMode: "slots",
+    setupView: "bank",
+    wordFilter: "all",
     phase: "setup",
     correctById: {},
     totalCorrect: 0,
@@ -42,8 +50,52 @@ function defaultState() {
     feedback: "",
     pendingNextId: "",
     pendingNextMask: [],
-    advanceAt: 0
+    advanceAt: 0,
+    queue: [],
+    roundId: "",
+    startedAt: 0,
+    completedAt: 0,
+    attemptEvents: [],
+    lastAttempt: null
   };
+}
+
+function randomUuid() {
+  if (crypto?.randomUUID) return crypto.randomUUID();
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (character) => {
+    const value = Math.random() * 16 | 0;
+    return (character === "x" ? value : (value & 3) | 8).toString(16);
+  });
+}
+
+function shuffled(values) {
+  const result = [...values];
+  for (let index = result.length - 1; index > 0; index -= 1) {
+    const swap = Math.floor(Math.random() * (index + 1));
+    [result[index], result[swap]] = [result[swap], result[index]];
+  }
+  for (let index = 1; index < result.length; index += 1) {
+    if (result[index] !== result[index - 1]) continue;
+    const swap = result.findIndex((value, candidate) => candidate > index && value !== result[index]);
+    if (swap > index) [result[index], result[swap]] = [result[swap], result[index]];
+  }
+  return result;
+}
+
+function buildQueue(ids, frequency) {
+  return shuffled(ids.flatMap((id) => Array.from({ length: frequency }, () => id)));
+}
+
+function normalizeAnswer(value) {
+  return String(value || "").toLocaleLowerCase("en").replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
+}
+
+function formatDuration(seconds) {
+  const safe = Math.max(0, Math.floor(Number(seconds) || 0));
+  const hours = Math.floor(safe / 3600);
+  const minutes = Math.floor((safe % 3600) / 60);
+  const remainder = safe % 60;
+  return hours ? `${hours}:${String(minutes).padStart(2, "0")}:${String(remainder).padStart(2, "0")}` : `${minutes}:${String(remainder).padStart(2, "0")}`;
 }
 
 function validMask(word, candidate) {
@@ -91,22 +143,52 @@ function normalizeState(candidate) {
   const awaitingNext = phase === "practice" && !feedback && candidate.awaitingNext === true;
   const pendingNextId = feedback && selectedSet.has(candidate.pendingNextId) ? candidate.pendingNextId : "";
   const pendingWord = VOCABULARY.find((entry) => entry.id === pendingNextId)?.word || "";
+  const displayMode = candidate.displayMode === "line" ? "line" : "slots";
+  const queue = Array.isArray(candidate.queue)
+    ? candidate.queue.filter((id) => selectedSet.has(id))
+    : [];
+  const rawEvents = Array.isArray(candidate.attemptEvents) ? candidate.attemptEvents.slice(-3000) : [];
+  const attemptEvents = rawEvents.map((event) => ({
+    at: Math.max(0, Math.floor(Number(event?.at) || 0)),
+    wordId: validIds.has(event?.wordId) ? event.wordId : "",
+    word: String(event?.word || "").slice(0, 300),
+    answer: String(event?.answer || "").slice(0, 300),
+    correct: event?.correct === true
+  })).filter((event) => event.wordId && event.word);
+  const lastAttempt = candidate.lastAttempt && typeof candidate.lastAttempt === "object"
+    ? {
+      wordId: validIds.has(candidate.lastAttempt.wordId) ? candidate.lastAttempt.wordId : "",
+      answer: String(candidate.lastAttempt.answer || "").slice(0, 300),
+      correct: candidate.lastAttempt.correct === true
+    }
+    : null;
   return {
     selectedIds,
     difficulty,
     frequency,
+    displayMode,
+    setupView: candidate.setupView === "history" ? "history" : "bank",
+    wordFilter: ["all", "unmastered", "mastered"].includes(candidate.wordFilter) ? candidate.wordFilter : "all",
     phase,
     correctById,
     totalCorrect,
     totalAttempts: Math.max(totalCorrect, Math.floor(Number(candidate.totalAttempts) || totalCorrect)),
     currentId,
     mask,
-    draftLetters: validDraft(mask, candidate.draftLetters),
+    draftLetters: displayMode === "line"
+      ? (String(candidate.draftLetters?.line || "").slice(0, 300) ? { line: String(candidate.draftLetters.line).slice(0, 300) } : {})
+      : validDraft(mask, candidate.draftLetters),
     awaitingNext,
     feedback,
     pendingNextId,
     pendingNextMask: validMask(pendingWord, candidate.pendingNextMask),
-    advanceAt: feedback ? Math.max(0, Math.floor(Number(candidate.advanceAt) || 0)) : 0
+    advanceAt: feedback ? Math.max(0, Math.floor(Number(candidate.advanceAt) || 0)) : 0,
+    queue,
+    roundId: /^[0-9a-f-]{36}$/i.test(String(candidate.roundId || "")) ? String(candidate.roundId) : "",
+    startedAt: Math.max(0, Math.floor(Number(candidate.startedAt) || 0)),
+    completedAt: Math.max(0, Math.floor(Number(candidate.completedAt) || 0)),
+    attemptEvents,
+    lastAttempt: lastAttempt?.wordId ? lastAttempt : null
   };
 }
 
@@ -124,6 +206,84 @@ function saveState() {
 function persistAndPublish() {
   saveState();
   classroomLive?.publish();
+  scheduleHistorySave();
+}
+
+function elapsedSeconds() {
+  if (!appState?.startedAt) return 0;
+  const end = appState.completedAt || Date.now();
+  return Math.max(0, Math.floor((end - appState.startedAt) / 1000));
+}
+
+function historyPayload() {
+  if (!appState?.roundId || !appState.startedAt) return null;
+  return {
+    round_id: appState.roundId,
+    started_at: new Date(appState.startedAt).toISOString(),
+    completed_at: appState.completedAt ? new Date(appState.completedAt).toISOString() : "",
+    selected_count: appState.selectedIds.length,
+    required_correct: requiredCorrectTotal(appState.selectedIds.length, appState.frequency),
+    total_attempts: appState.totalAttempts,
+    correct_attempts: appState.totalCorrect,
+    duration_seconds: elapsedSeconds(),
+    display_mode: appState.displayMode,
+    difficulty: appState.difficulty,
+    frequency: appState.frequency,
+    details: appState.attemptEvents
+  };
+}
+
+async function historyRpc(action, payload = {}) {
+  const session = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
+  if (!session?.token) throw new Error("Missing student session");
+  return window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc("spelling_attempt_history", {
+    p_token: session.token,
+    p_action: action,
+    p_payload: payload
+  });
+}
+
+function scheduleHistorySave(immediate = false) {
+  if (historySaveTimer) clearTimeout(historySaveTimer);
+  historySaveTimer = null;
+  const payload = historyPayload();
+  if (!payload || !activeUser) return;
+  const save = () => historyRpc("upsert", payload).catch(() => {});
+  if (immediate) save();
+  else historySaveTimer = setTimeout(save, 450);
+}
+
+async function loadHistory() {
+  if (!activeUser || historyLoading) return;
+  historyLoading = true;
+  if (appState?.phase === "setup" && appState.setupView === "history") render();
+  try {
+    const result = await historyRpc("list");
+    historyRows = Array.isArray(result) ? result : [];
+  } catch {
+    historyRows = [];
+  } finally {
+    historyLoading = false;
+    if (appState?.phase === "setup") render();
+  }
+}
+
+function masteredIds() {
+  const result = new Set();
+  [...historyRows.flatMap((row) => Array.isArray(row.details) ? row.details : []), ...(appState?.attemptEvents || [])]
+    .forEach((event) => { if (event?.correct && event.wordId) result.add(event.wordId); });
+  return result;
+}
+
+function tickElapsed() {
+  document.querySelectorAll("[data-elapsed]").forEach((node) => { node.textContent = formatDuration(elapsedSeconds()); });
+}
+
+function restartElapsedTimer() {
+  if (elapsedTimer) clearInterval(elapsedTimer);
+  elapsedTimer = null;
+  tickElapsed();
+  if (appState?.phase === "practice" && appState.startedAt && !appState.completedAt) elapsedTimer = setInterval(tickElapsed, 1000);
 }
 
 function clearAttemptState() {
@@ -133,6 +293,7 @@ function clearAttemptState() {
   appState.pendingNextId = "";
   appState.pendingNextMask = [];
   appState.advanceAt = 0;
+  appState.lastAttempt = null;
   if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
   correctAdvanceTimer = null;
 }
@@ -151,6 +312,10 @@ function incompleteEntries() {
 }
 
 function chooseNextEntry(avoidId = "") {
+  if (appState.queue?.length) {
+    const preferred = appState.queue.find((id) => id !== avoidId) || appState.queue[0];
+    return VOCABULARY.find((entry) => entry.id === preferred) || null;
+  }
   const available = incompleteEntries();
   if (!available.length) return null;
   const alternatives = available.filter((entry) => entry.id !== avoidId);
@@ -168,22 +333,38 @@ function icon(name) {
   return `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${paths[name] || ""}</svg>`;
 }
 
+function historyMarkup() {
+  if (historyLoading) return '<div class="spelling-history-empty">正在載入作答記錄……</div>';
+  if (!historyRows.length) return '<div class="spelling-history-empty"><strong>尚未有作答記錄</strong><span>完成第一輪練習後，準確率與每次嘗試會顯示在這裡。</span></div>';
+  const rows = historyRows.map((round) => {
+    const attempts = Math.max(0, Number(round.total_attempts) || 0);
+    const correct = Math.max(0, Number(round.correct_attempts) || 0);
+    const accuracy = attempts ? Math.round(correct / attempts * 100) : 0;
+    const details = (Array.isArray(round.details) ? round.details : []).map((event, index) => `<tr><td>${index + 1}</td><td>${escapeHtml(event.word || "")}</td><td class="${event.correct ? "is-correct" : "is-wrong"}">${escapeHtml(event.answer || "（未作答）")}</td><td>${event.correct ? "正確" : "錯誤"}</td></tr>`).join("");
+    const date = new Intl.DateTimeFormat("zh-HK", { dateStyle: "medium", timeStyle: "short" }).format(new Date(round.started_at));
+    return `<details class="spelling-history-row"><summary><span><strong>${date}</strong><small>${Number(round.selected_count) || 0} 個生字／詞組 · ${round.display_mode === "line" ? "整行輸入" : "字母格"}</small></span><span><strong>${accuracy}%</strong><small>${correct} / ${attempts} 次正確 · ${formatDuration(round.duration_seconds)}</small></span></summary><div class="spelling-history-detail"><table><thead><tr><th>#</th><th>題目</th><th>你的拼寫</th><th>結果</th></tr></thead><tbody>${details || '<tr><td colspan="4">這輪尚未作答。</td></tr>'}</tbody></table></div></details>`;
+  }).join("");
+  return `<div class="spelling-history-list">${rows}</div>`;
+}
+
 function setupMarkup() {
+  const mastered = masteredIds();
   const rows = VOCABULARY.map((entry) => {
     const selected = appState.selectedIds.includes(entry.id);
-    return `<tr class="spelling-word-row" data-word-row="${entry.id}" tabindex="0" aria-label="${selected ? "取消選擇" : "選擇"} ${escapeHtml(entry.word)}">
+    return `<tr class="spelling-word-row" data-word-row="${entry.id}" data-mastered="${mastered.has(entry.id)}" tabindex="0" aria-label="${selected ? "取消選擇" : "選擇"} ${escapeHtml(entry.word)}">
       <td><label class="spelling-check"><input type="checkbox" value="${entry.id}" data-word-select ${selected ? "checked" : ""}><span aria-hidden="true"></span><span class="sr-only">選擇 ${escapeHtml(entry.word)}</span></label></td>
-      <td><span class="spelling-word-cell"><strong>${escapeHtml(entry.word)}</strong><button class="spelling-row-sound" type="button" data-speak-word="${entry.id}" aria-label="播放 ${escapeHtml(entry.word)} 的讀音">${icon("sound")}</button></span></td>
-      <td class="spelling-characters">${escapeHtml(characterLabel(entry.word))}</td>
+      <td><span class="spelling-word-cell"><strong>${escapeHtml(entry.word)}</strong>${mastered.has(entry.id) ? '<em class="spelling-mastered">已答對</em>' : ""}<button class="spelling-row-sound" type="button" data-speak-word="${entry.id}" aria-label="播放 ${escapeHtml(entry.word)} 的讀音">${icon("sound")}</button></span></td>
       <td>${escapeHtml(entry.meaning)}</td>
     </tr>`;
   }).join("");
   const total = requiredCorrectTotal(appState.selectedIds.length, appState.frequency);
   return `<section class="spelling-workspace" data-spelling-app>
     <header class="spelling-hero">
-      <div><p class="spelling-eyebrow">SPELLING LAB · 拼寫實驗室</p><h1>拼寫練習設定</h1><p>選擇生字、設定測試比例與完成次數。每次出題都會重新隨機抽走字母。</p></div>
+      <div><p class="spelling-eyebrow">SPELLING LAB · 拼寫實驗室</p><h1>拼寫練習設定</h1><p>選擇生字、設定測試比例與完成次數。每一輪的出題次序及測試字母均會重新隨機排列。</p></div>
       <div class="spelling-hero__count"><strong>${VOCABULARY.length}</strong><span>個生字及詞組</span></div>
     </header>
+    <nav class="spelling-view-tabs" aria-label="拼寫系統頁面"><button type="button" data-setup-view="bank" aria-current="${appState.setupView === "bank" ? "page" : "false"}">生字庫</button><button type="button" data-setup-view="history" aria-current="${appState.setupView === "history" ? "page" : "false"}">作答記錄</button></nav>
+    ${appState.setupView === "history" ? `<section class="spelling-bank spelling-history"><div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">ATTEMPTS · 作答記錄</p><h2>每輪練習詳情</h2></div><button type="button" class="spelling-refresh-history" data-refresh-history>重新整理</button></div>${historyMarkup()}</section>` : `
     <section class="spelling-controls" aria-label="練習設定">
       <div class="spelling-control spelling-control--difficulty">
         <label for="spelling-difficulty">測試難度</label>
@@ -192,33 +373,80 @@ function setupMarkup() {
       </div>
       <div class="spelling-control">
         <label for="spelling-frequency">每個生字需答對</label>
-        <div class="spelling-frequency-row">
-          <button type="button" data-frequency-preset="2" aria-pressed="${appState.frequency === 2}">2 次</button>
-          <button type="button" data-frequency-preset="3" aria-pressed="${appState.frequency === 3}">3 次</button>
-          <label><span>自訂</span><input id="spelling-frequency" data-frequency type="number" min="1" max="100" inputmode="numeric" value="${appState.frequency}"><span>次</span></label>
-        </div>
-        <small>答錯不會扣除或增加完成次數。</small>
+        <div class="spelling-frequency-row"><button type="button" data-frequency-preset="2" aria-pressed="${appState.frequency === 2}">2 次</button><button type="button" data-frequency-preset="3" aria-pressed="${appState.frequency === 3}">3 次</button><label><span>自訂</span><input id="spelling-frequency" data-frequency type="number" min="1" max="100" inputmode="numeric" value="${appState.frequency}"><span>次</span></label></div>
+        <small>答錯不會增加完成次數。</small>
       </div>
-      <div class="spelling-control spelling-control--summary">
-        <span>本輪目標</span><strong data-target-total>${total}</strong><small>共選 ${appState.selectedIds.length} 項 × ${appState.frequency} 次</small>
-        <button class="spelling-primary" type="button" data-start ${appState.selectedIds.length ? "" : "disabled"}>開始練習 ${icon("arrow")}</button>
-      </div>
+      <div class="spelling-control spelling-control--mode"><span>作答顯示方式</span><div class="spelling-mode-options"><button type="button" data-display-mode="slots" aria-pressed="${appState.displayMode === "slots"}">字母格</button><button type="button" data-display-mode="line" aria-pressed="${appState.displayMode === "line"}">整行輸入</button></div><small>${appState.displayMode === "line" ? "不顯示字母數目或空格位置。" : "以字母格顯示已提供及待填字母。"}</small></div>
+      <div class="spelling-control spelling-control--summary"><span>本輪目標</span><strong data-target-total>${total}</strong><small>共選 ${appState.selectedIds.length} 項 × ${appState.frequency} 次</small><button class="spelling-primary" type="button" data-start ${appState.selectedIds.length ? "" : "disabled"}>開始練習 ${icon("arrow")}</button></div>
     </section>
     <section class="spelling-bank">
-      <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><div class="spelling-bank__title-row"><h2>選擇本輪生字</h2><label class="spelling-search"><span class="sr-only">搜尋英文或繁體中文</span><input type="search" data-word-search placeholder="搜尋英文或繁體中文" autocomplete="off"></label></div></div><div class="spelling-bank__actions"><span data-selected-count>已選 ${appState.selectedIds.length} / ${VOCABULARY.length}</span><button type="button" data-select-all>全選</button><button type="button" data-deselect-all>取消全選</button></div></div>
-      <div class="spelling-table-wrap"><table><thead><tr><th scope="col">選擇</th><th scope="col">生字／詞組</th><th scope="col">字母拆分</th><th scope="col">繁體中文意思</th></tr></thead><tbody>${rows}</tbody></table></div>
-    </section>
+      <div class="spelling-bank__toolbar"><div><p class="spelling-eyebrow">WORD BANK · 生字庫</p><div class="spelling-bank__title-row"><h2>選擇本輪生字</h2><label class="spelling-search"><span class="sr-only">搜尋英文或繁體中文</span><input type="search" data-word-search placeholder="搜尋英文或繁體中文" autocomplete="off"></label><label class="spelling-filter"><span class="sr-only">按掌握狀態篩選</span><select data-word-filter><option value="all" ${appState.wordFilter === "all" ? "selected" : ""}>顯示全部</option><option value="unmastered" ${appState.wordFilter === "unmastered" ? "selected" : ""}>隱藏已答對</option><option value="mastered" ${appState.wordFilter === "mastered" ? "selected" : ""}>只看已答對</option></select></label></div></div><div class="spelling-bank__actions"><span data-selected-count>已選 ${appState.selectedIds.length} / ${VOCABULARY.length}</span><button type="button" data-select-all>全選</button><button type="button" data-deselect-all>取消全選</button></div></div>
+      <p class="spelling-drag-hint">可按住並拖過多行，快速選取或取消多個生字。</p>
+      <div class="spelling-table-wrap"><table><thead><tr><th scope="col">選擇</th><th scope="col">生字／詞組</th><th scope="col">繁體中文意思</th></tr></thead><tbody>${rows}</tbody></table></div>
+    </section>`}
   </section>`;
 }
 
 function renderMask(entry) {
   const blanks = new Set(appState.mask);
-  return [...entry.word].map((character, position) => {
-    if (character === " ") return '<span class="spelling-slot spelling-slot--space" aria-hidden="true"></span>';
-    if (appState.awaitingNext && blanks.has(position)) return `<span class="spelling-slot spelling-slot--corrected">${escapeHtml(character)}</span>`;
-    if (!blanks.has(position)) return `<span class="spelling-slot spelling-slot--given">${escapeHtml(character)}</span>`;
-    return `<label class="spelling-slot spelling-slot--blank"><span class="sr-only">輸入第 ${position + 1} 個字母</span><input data-letter-position="${position}" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入第 ${position + 1} 個字母" value="${escapeHtml(appState.draftLetters[position] || "")}" ${appState.feedback === "correct" ? "disabled" : ""}></label>`;
-  }).join("");
+  let position = 0;
+  return entry.word.split(" ").map((token) => {
+    const slots = [...token].map((character) => {
+      const current = position;
+      position += 1;
+      if (appState.awaitingNext && blanks.has(current)) return `<span class="spelling-slot spelling-slot--corrected">${escapeHtml(character)}</span>`;
+      if (!blanks.has(current)) return `<span class="spelling-slot spelling-slot--given">${escapeHtml(character)}</span>`;
+      return `<label class="spelling-slot spelling-slot--blank"><span class="sr-only">輸入第 ${current + 1} 個字母</span><input data-letter-position="${current}" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入第 ${current + 1} 個字母" value="${escapeHtml(appState.draftLetters[current] || "")}" ${appState.feedback === "correct" ? "disabled" : ""}></label>`;
+    }).join("");
+    position += 1;
+    return `<span class="spelling-token" style="--token-length:${Math.max(1, [...token].length)}">${slots}</span>`;
+  }).join('<span class="spelling-word-gap" aria-hidden="true"></span>');
+}
+
+function submittedAnswer(entry, values = {}) {
+  if (appState.displayMode === "line") return normalizeAnswer(values.line || "");
+  return [...entry.word].map((character, position) => /[a-z]/i.test(character) && appState.mask.includes(position)
+    ? String(values[position] || "").toLocaleLowerCase("en")
+    : character).join("");
+}
+
+function comparisonHtml(answer, expected) {
+  const actual = [...normalizeAnswer(answer)];
+  const target = [...normalizeAnswer(expected)];
+  const rows = Array.from({ length: actual.length + 1 }, () => Array(target.length + 1).fill(0));
+  for (let index = 0; index <= actual.length; index += 1) rows[index][0] = index;
+  for (let index = 0; index <= target.length; index += 1) rows[0][index] = index;
+  for (let left = 1; left <= actual.length; left += 1) for (let right = 1; right <= target.length; right += 1) {
+    rows[left][right] = Math.min(rows[left - 1][right] + 1, rows[left][right - 1] + 1, rows[left - 1][right - 1] + (actual[left - 1] === target[right - 1] ? 0 : 1));
+  }
+  const output = [];
+  let left = actual.length;
+  let right = target.length;
+  while (left || right) {
+    if (left && right && rows[left][right] === rows[left - 1][right - 1] + (actual[left - 1] === target[right - 1] ? 0 : 1)) {
+      output.unshift(`<mark class="${actual[left - 1] === target[right - 1] ? "is-match" : "is-different"}">${escapeHtml(actual[left - 1] || "＿")}</mark>`);
+      left -= 1;
+      right -= 1;
+    } else if (left && rows[left][right] === rows[left - 1][right] + 1) {
+      output.unshift(`<mark class="is-different">${escapeHtml(actual[left - 1] || "＿")}</mark>`);
+      left -= 1;
+    } else {
+      output.unshift('<mark class="is-different is-missing">＿</mark>');
+      right -= 1;
+    }
+  }
+  return output.join("");
+}
+
+function answerArea(entry) {
+  if (appState.displayMode === "line") return `<label class="spelling-line-answer"><span class="sr-only">輸入完整英文拼寫</span><input data-line-answer type="text" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入完整英文拼寫" value="${escapeHtml(appState.draftLetters.line || "")}" ${appState.feedback === "correct" || appState.awaitingNext ? "disabled" : ""}></label>`;
+  return `<div class="spelling-slots" role="group" aria-label="填寫缺少的英文字母">${renderMask(entry)}</div>`;
+}
+
+function feedbackHtml(entry) {
+  if (appState.awaitingNext && appState.lastAttempt) return `<div class="spelling-comparison"><div><span>你的拼寫</span><strong>${comparisonHtml(appState.lastAttempt.answer, entry.word)}</strong></div><div><span>正確拼寫</span><strong>${escapeHtml(entry.word)}</strong></div></div>`;
+  if (appState.feedback === "correct") return "拼寫正確！已計入一次。";
+  return "";
 }
 
 function practiceMarkup() {
@@ -228,14 +456,14 @@ function practiceMarkup() {
   const percentage = required ? Math.round(completed / required * 100) : 0;
   const wordCorrect = appState.correctById[entry.id] || 0;
   return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}">
-    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div><span>本輪進度</span><strong>${completed} / ${required}</strong></div></header>
+    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div></header>
     <div class="spelling-progress" aria-label="本輪完成 ${percentage}%"><i style="width:${percentage}%"></i></div>
     <main class="spelling-card">
       <div class="spelling-meaning-row"><h1>${escapeHtml(entry.meaning)}</h1><button class="spelling-sound" type="button" data-speak aria-label="播放英文讀音">${icon("sound")}<span>聆聽</span></button></div>
       <p class="spelling-word-progress">這個生字已答對 <strong>${wordCorrect}</strong> / ${appState.frequency} 次</p>
       <form data-answer-form novalidate>
-        <div class="spelling-slots" role="group" aria-label="填寫缺少的英文字母">${renderMask(entry)}</div>
-        <p class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : appState.feedback}" role="status" aria-live="assertive">${appState.awaitingNext ? `正確答案：${escapeHtml(entry.word)}` : appState.feedback === "correct" ? "拼寫正確！已計入一次。" : ""}</p>
+        ${answerArea(entry)}
+        <div class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : appState.feedback}" role="status" aria-live="assertive">${feedbackHtml(entry)}</div>
         ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" disabled>正在前往下一題 ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
       </form>
       <p class="spelling-attempts">本輪作答 ${appState.totalAttempts} 次；只有答對才會計入完成次數。</p>
@@ -247,7 +475,7 @@ function completeMarkup() {
   const required = requiredCorrectTotal(appState.selectedIds.length, appState.frequency);
   const accuracy = appState.totalAttempts ? Math.round(appState.totalCorrect / appState.totalAttempts * 100) : 100;
   return `<section class="spelling-workspace spelling-workspace--complete" data-spelling-app data-spelling-complete data-spelling-total="${required}">
-    <div class="spelling-complete-card"><span class="spelling-complete-card__icon">${icon("check")}</span><p class="spelling-eyebrow">ROUND COMPLETE · 本輪完成</p><h1>所有指定拼寫已完成</h1><p>你已累積答對 ${required} 次。答錯的嘗試沒有被計入完成次數。</p><div class="spelling-complete-stats"><div><strong>${appState.selectedIds.length}</strong><span>個生字／詞組</span></div><div><strong>${appState.frequency}</strong><span>每項答對次數</span></div><div><strong>${accuracy}%</strong><span>作答準確率</span></div></div><div class="spelling-complete-actions"><button class="spelling-primary" type="button" data-repeat>${icon("replay")} 再練一次</button><button type="button" data-back-to-bank>重新選字</button></div></div>
+    <div class="spelling-complete-card"><span class="spelling-complete-card__icon">${icon("check")}</span><p class="spelling-eyebrow">ROUND COMPLETE · 本輪完成</p><h1>所有指定拼寫已完成</h1><p>你已累積答對 ${required} 次。答錯的嘗試沒有被計入完成次數。</p><div class="spelling-complete-stats"><div><strong>${appState.selectedIds.length}</strong><span>個生字／詞組</span></div><div><strong>${appState.frequency}</strong><span>每項答對次數</span></div><div><strong>${accuracy}%</strong><span>作答準確率</span></div><div><strong>${formatDuration(elapsedSeconds())}</strong><span>完成時間</span></div></div><div class="spelling-complete-actions"><button class="spelling-primary" type="button" data-repeat>${icon("replay")} 再練一次</button><button type="button" data-back-to-bank>重新選字</button><button type="button" data-open-history>查看作答記錄</button></div></div>
   </section>`;
 }
 
@@ -255,9 +483,12 @@ function render() {
   const dashboard = document.querySelector('[data-learning-portal-root] [data-view="dashboard"]');
   if (!dashboard || !activeUser) return;
   if (appState.phase === "practice") {
-    if (!appState.feedback && (!currentEntry() || (appState.correctById[appState.currentId] || 0) >= appState.frequency)) {
+    if (!appState.feedback && !appState.awaitingNext && (!currentEntry() || (appState.correctById[appState.currentId] || 0) >= appState.frequency)) {
       const next = chooseNextEntry();
-      if (!next) appState.phase = "complete";
+      if (!next) {
+        appState.phase = "complete";
+        appState.completedAt ||= Date.now();
+      }
       else {
         appState.currentId = next.id;
         appState.mask = [...createMask(next.word, appState.difficulty)];
@@ -271,20 +502,27 @@ function render() {
   }
   dashboard.innerHTML = appState.phase === "practice" ? practiceMarkup() : appState.phase === "complete" ? completeMarkup() : setupMarkup();
   saveState();
+  restartElapsedTimer();
+  if (appState.phase === "setup" && appState.setupView === "bank") applyWordSearch(dashboard, dashboard.querySelector("[data-word-search]")?.value || "");
   if (appState.phase === "practice") {
     scheduleCorrectAdvance();
-    if (!appState.feedback && !appState.awaitingNext) requestAnimationFrame(() => dashboard.querySelector("[data-letter-position]")?.focus());
+    if (!appState.feedback && !appState.awaitingNext) requestAnimationFrame(() => (dashboard.querySelector("[data-letter-position]") || dashboard.querySelector("[data-line-answer]"))?.focus());
   }
 }
 
 function updateSetupSummary(root) {
   const selectedCount = appState.selectedIds.length;
   const required = requiredCorrectTotal(selectedCount, appState.frequency);
-  root.querySelector("[data-difficulty-output]").textContent = `${appState.difficulty}%`;
-  root.querySelector("[data-selected-count]").textContent = `已選 ${selectedCount} / ${VOCABULARY.length}`;
-  root.querySelector("[data-target-total]").textContent = String(required);
-  root.querySelector(".spelling-control--summary small").textContent = `共選 ${selectedCount} 項 × ${appState.frequency} 次`;
-  root.querySelector("[data-start]").disabled = selectedCount === 0;
+  const difficultyOutput = root.querySelector("[data-difficulty-output]");
+  if (difficultyOutput) difficultyOutput.textContent = `${appState.difficulty}%`;
+  const selectedOutput = root.querySelector("[data-selected-count]");
+  if (selectedOutput) selectedOutput.textContent = `已選 ${selectedCount} / ${VOCABULARY.length}`;
+  const totalOutput = root.querySelector("[data-target-total]");
+  if (totalOutput) totalOutput.textContent = String(required);
+  const summary = root.querySelector(".spelling-control--summary small");
+  if (summary) summary.textContent = `共選 ${selectedCount} 項 × ${appState.frequency} 次`;
+  const start = root.querySelector("[data-start]");
+  if (start) start.disabled = selectedCount === 0;
   root.querySelectorAll("[data-frequency-preset]").forEach((button) => button.setAttribute("aria-pressed", String(Number(button.dataset.frequencyPreset) === appState.frequency)));
   persistAndPublish();
 }
@@ -358,6 +596,7 @@ function advanceCorrect() {
   clearAttemptState();
   if (!next) {
     appState.phase = "complete";
+    appState.completedAt ||= Date.now();
     appState.currentId = "";
     appState.mask = [];
   } else {
@@ -379,19 +618,27 @@ function handleAnswer(form) {
   const entry = currentEntry();
   if (!entry) return;
   const values = {};
-  form.querySelectorAll("[data-letter-position]").forEach((input) => { values[input.dataset.letterPosition] = input.value; });
-  appState.draftLetters = Object.fromEntries(Object.entries(values).filter(([, value]) => String(value).trim()));
+  if (appState.displayMode === "line") {
+    values.line = form.querySelector("[data-line-answer]")?.value || "";
+    appState.draftLetters = values.line ? { line: values.line } : {};
+  } else {
+    form.querySelectorAll("[data-letter-position]").forEach((input) => { values[input.dataset.letterPosition] = input.value; });
+    appState.draftLetters = Object.fromEntries(Object.entries(values).filter(([, value]) => String(value).trim()));
+  }
   const feedback = form.querySelector("[data-feedback]");
-  if (Object.values(values).some((value) => !String(value).trim())) {
+  if (!Object.values(values).length || Object.values(values).some((value) => !String(value).trim())) {
     feedback.textContent = "請先填寫所有空格。";
     feedback.dataset.state = "warning";
-    [...form.querySelectorAll("[data-letter-position]")]
+    ([...form.querySelectorAll("[data-letter-position]")]
       .find((input) => !input.value.trim())
-      ?.focus();
+      || form.querySelector("[data-line-answer]"))?.focus();
     return;
   }
+  const answer = submittedAnswer(entry, values);
   appState.totalAttempts += 1;
-  const correct = isAnswerCorrect(entry.word, values);
+  const correct = appState.displayMode === "line" ? normalizeAnswer(answer) === normalizeAnswer(entry.word) : isAnswerCorrect(entry.word, values);
+  appState.lastAttempt = { wordId: entry.id, answer, correct };
+  appState.attemptEvents.push({ at: Date.now(), wordId: entry.id, word: entry.word, answer, correct });
   playTone(correct);
   if (!correct) {
     appState.awaitingNext = true;
@@ -402,6 +649,8 @@ function handleAnswer(form) {
   }
   appState.correctById[entry.id] = Math.min(appState.frequency, (appState.correctById[entry.id] || 0) + 1);
   appState.totalCorrect += 1;
+  const queueIndex = appState.queue.indexOf(entry.id);
+  if (queueIndex >= 0) appState.queue.splice(queueIndex, 1);
   const next = chooseNextEntry(entry.id);
   appState.feedback = "correct";
   appState.awaitingNext = false;
@@ -419,16 +668,24 @@ function startRound() {
   appState.correctById = Object.fromEntries(appState.selectedIds.map((id) => [id, 0]));
   appState.totalCorrect = 0;
   appState.totalAttempts = 0;
+  appState.queue = buildQueue(appState.selectedIds, appState.frequency);
+  appState.roundId = randomUuid();
+  appState.startedAt = Date.now();
+  appState.completedAt = 0;
+  appState.attemptEvents = [];
   clearAttemptState();
   const first = chooseNextEntry();
   appState.currentId = first?.id || "";
   appState.mask = first ? [...createMask(first.word, appState.difficulty)] : [];
   render();
   persistAndPublish();
+  scheduleHistorySave(true);
 }
 
 function returnToBank() {
+  scheduleHistorySave(true);
   appState.phase = "setup";
+  appState.setupView = "bank";
   appState.currentId = "";
   appState.mask = [];
   clearAttemptState();
@@ -438,10 +695,16 @@ function returnToBank() {
 
 function readyForNext() {
   const previous = currentEntry();
+  if (previous && appState.queue[0] === previous.id && appState.queue.length > 1) {
+    const [failed] = appState.queue.splice(0, 1);
+    const destination = 1 + Math.floor(Math.random() * appState.queue.length);
+    appState.queue.splice(destination, 0, failed);
+  }
   const next = chooseNextEntry(previous?.id || "");
   clearAttemptState();
   if (!next) {
     appState.phase = "complete";
+    appState.completedAt ||= Date.now();
     appState.currentId = "";
     appState.mask = [];
   } else {
@@ -457,16 +720,25 @@ function applyWordSearch(root, query) {
   root.querySelectorAll("[data-word-row]").forEach((row) => {
     const entry = VOCABULARY.find((item) => item.id === row.dataset.wordRow);
     const haystack = `${entry?.word || ""} ${entry?.meaning || ""}`.toLocaleLowerCase("zh-Hant");
-    row.hidden = Boolean(needle) && !haystack.includes(needle);
+    const matchesText = !needle || haystack.includes(needle);
+    const mastered = row.dataset.mastered === "true";
+    const matchesFilter = appState.wordFilter === "all" || (appState.wordFilter === "mastered" ? mastered : !mastered);
+    row.hidden = !matchesText || !matchesFilter;
   });
+}
+
+function setWordSelection(root, id, checked) {
+  const input = root.querySelector(`[data-word-select][value="${CSS.escape(id)}"]`);
+  if (!input || input.checked === checked) return;
+  input.checked = checked;
+  input.dispatchEvent(new Event("change", { bubbles: true }));
+  root.querySelector(`[data-word-row="${CSS.escape(id)}"]`)?.setAttribute("aria-label", `${checked ? "取消選擇" : "選擇"} ${VOCABULARY.find((entry) => entry.id === id)?.word || ""}`);
 }
 
 function toggleWordSelection(root, id) {
   const input = root.querySelector(`[data-word-select][value="${CSS.escape(id)}"]`);
   if (!input) return;
-  input.checked = !input.checked;
-  input.dispatchEvent(new Event("change", { bubbles: true }));
-  root.querySelector(`[data-word-row="${CSS.escape(id)}"]`)?.setAttribute("aria-label", `${input.checked ? "取消選擇" : "選擇"} ${VOCABULARY.find((entry) => entry.id === id)?.word || ""}`);
+  setWordSelection(root, id, !input.checked);
 }
 
 document.addEventListener("input", (event) => {
@@ -492,7 +764,24 @@ document.addEventListener("input", (event) => {
       inputs[inputs.indexOf(event.target) + 1]?.focus();
     }
   }
+  if (event.target.matches("[data-line-answer]")) {
+    appState.draftLetters = event.target.value ? { line: event.target.value } : {};
+    persistAndPublish();
+  }
   if (event.target.matches("[data-word-search]")) applyWordSearch(app, event.target.value);
+});
+
+document.addEventListener("beforeinput", (event) => {
+  if (event.inputType !== "deleteContentBackward" || !event.target.matches("[data-letter-position]") || event.target.value) return;
+  const app = event.target.closest("[data-spelling-app]");
+  const inputs = [...app.querySelectorAll("[data-letter-position]")];
+  const previous = inputs[inputs.indexOf(event.target) - 1];
+  if (!previous) return;
+  event.preventDefault();
+  previous.value = "";
+  delete appState.draftLetters[String(previous.dataset.letterPosition)];
+  persistAndPublish();
+  previous.focus();
 });
 
 document.addEventListener("keydown", (event) => {
@@ -518,13 +807,73 @@ document.addEventListener("keydown", (event) => {
 
 document.addEventListener("change", (event) => {
   const app = event.target.closest("[data-spelling-app]");
-  if (!app || !event.target.matches("[data-word-select]")) return;
+  if (!app) return;
+  if (event.target.matches("[data-word-filter]")) {
+    appState.wordFilter = event.target.value;
+    applyWordSearch(app, app.querySelector("[data-word-search]")?.value || "");
+    persistAndPublish();
+    return;
+  }
+  if (!event.target.matches("[data-word-select]")) return;
   const selected = new Set(appState.selectedIds);
   if (event.target.checked) selected.add(event.target.value);
   else selected.delete(event.target.value);
   appState.selectedIds = VOCABULARY.filter((entry) => selected.has(entry.id)).map((entry) => entry.id);
   updateSetupSummary(app);
 });
+
+function rowAtPoint(x, y) {
+  return document.elementFromPoint(x, y)?.closest?.("[data-word-row]") || null;
+}
+
+function activateSelectionGesture(row, pointerId, target, startedByTouch) {
+  selectionGesture = { pointerId, target, visited: new Set(), active: true, moved: false, startedByTouch };
+  row.setPointerCapture?.(pointerId);
+  const app = row.closest("[data-spelling-app]");
+  selectionGesture.visited.add(row.dataset.wordRow);
+  setWordSelection(app, row.dataset.wordRow, target);
+}
+
+document.addEventListener("pointerdown", (event) => {
+  const row = event.target.closest?.("[data-word-row]");
+  if (!row || event.target.closest("button,input,label") || (event.pointerType === "mouse" && event.button !== 0)) return;
+  const input = row.querySelector("[data-word-select]");
+  if (event.pointerType === "touch") {
+    const timer = setTimeout(() => activateSelectionGesture(row, event.pointerId, !input.checked, true), 360);
+    selectionGesture = { pointerId: event.pointerId, pending: true, timer, startX: event.clientX, startY: event.clientY };
+  } else activateSelectionGesture(row, event.pointerId, !input.checked, false);
+});
+
+document.addEventListener("pointermove", (event) => {
+  if (!selectionGesture || selectionGesture.pointerId !== event.pointerId) return;
+  if (selectionGesture.pending) {
+    if (Math.hypot(event.clientX - selectionGesture.startX, event.clientY - selectionGesture.startY) > 12) {
+      clearTimeout(selectionGesture.timer);
+      selectionGesture = null;
+    }
+    return;
+  }
+  if (!selectionGesture.active) return;
+  event.preventDefault();
+  selectionGesture.moved = true;
+  const row = rowAtPoint(event.clientX, event.clientY);
+  if (!row || selectionGesture.visited.has(row.dataset.wordRow)) return;
+  selectionGesture.visited.add(row.dataset.wordRow);
+  setWordSelection(row.closest("[data-spelling-app]"), row.dataset.wordRow, selectionGesture.target);
+});
+
+function endSelectionGesture(event) {
+  if (!selectionGesture || selectionGesture.pointerId !== event.pointerId) return;
+  if (selectionGesture.timer) clearTimeout(selectionGesture.timer);
+  if (selectionGesture.active) {
+    suppressRowClick = true;
+    setTimeout(() => { suppressRowClick = false; }, 80);
+  }
+  selectionGesture = null;
+}
+
+document.addEventListener("pointerup", endSelectionGesture);
+document.addEventListener("pointercancel", endSelectionGesture);
 
 document.addEventListener("submit", (event) => {
   if (!event.target.matches("[data-answer-form]")) return;
@@ -535,6 +884,21 @@ document.addEventListener("submit", (event) => {
 document.addEventListener("click", (event) => {
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
+  const setupView = event.target.closest("[data-setup-view]");
+  if (setupView) {
+    appState.setupView = setupView.dataset.setupView;
+    render();
+    persistAndPublish();
+    if (appState.setupView === "history") loadHistory();
+    return;
+  }
+  const displayMode = event.target.closest("[data-display-mode]");
+  if (displayMode) {
+    appState.displayMode = displayMode.dataset.displayMode === "line" ? "line" : "slots";
+    render();
+    persistAndPublish();
+    return;
+  }
   const preset = event.target.closest("[data-frequency-preset]");
   if (preset) {
     appState.frequency = Number(preset.dataset.frequencyPreset);
@@ -556,10 +920,18 @@ document.addEventListener("click", (event) => {
   const rowSound = event.target.closest("[data-speak-word]");
   if (rowSound) speakWord(VOCABULARY.find((entry) => entry.id === rowSound.dataset.speakWord));
   const row = event.target.closest("[data-word-row]");
-  if (row && !event.target.closest("button,input,label")) toggleWordSelection(app, row.dataset.wordRow);
+  if (row && !suppressRowClick && !event.target.closest("button,input,label")) toggleWordSelection(app, row.dataset.wordRow);
   if (event.target.closest("[data-ready-next]")) readyForNext();
   if (event.target.closest("[data-back-to-bank]")) returnToBank();
   if (event.target.closest("[data-repeat]")) startRound();
+  if (event.target.closest("[data-refresh-history]")) loadHistory();
+  if (event.target.closest("[data-open-history]")) {
+    appState.phase = "setup";
+    appState.setupView = "history";
+    render();
+    persistAndPublish();
+    loadHistory();
+  }
 });
 
 const classroomLive = createClassroomLiveSync({
@@ -591,6 +963,7 @@ function activate(user) {
   appState = readState(activeUser.id);
   render();
   classroomLive.refresh();
+  loadHistory();
 }
 
 window.addEventListener("edmund:learning-portal-session", (event) => {
@@ -599,6 +972,8 @@ window.addEventListener("edmund:learning-portal-session", (event) => {
   else {
     if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
     correctAdvanceTimer = null;
+    if (elapsedTimer) clearInterval(elapsedTimer);
+    elapsedTimer = null;
     activeUser = null;
     appState = null;
     classroomLive.refresh();
