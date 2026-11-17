@@ -13,6 +13,8 @@ const SYNC_SCOPE = `practice:${STORAGE_VERSION}`;
 let appState = null;
 let activeUser = null;
 let wordAudio = null;
+let storedAudioIndex = null;
+const FLASHCARD_PACKED_AUDIO_BASE = "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/";
 let correctAdvanceTimer = null;
 let elapsedTimer = null;
 let historySaveTimer = null;
@@ -45,6 +47,7 @@ function defaultState() {
     setupView: "bank",
     libraryId: "core",
     libraryGroupId: "",
+    librarySectionId: "",
     selectedDeckIds: [],
     wordFilter: "all",
     phase: "setup",
@@ -138,6 +141,10 @@ function normalizeState(candidate) {
   const libraryGroupId = libraryGroups.some((group) => group.id === candidate.libraryGroupId)
     ? candidate.libraryGroupId
     : (libraryGroups[0]?.id || "");
+  const availableSectionIds = new Set(CATALOG_DECKS
+    .filter((deck) => deck.libraryId === libraryId && deck.groupId === libraryGroupId)
+    .map((deck) => deck.sectionId));
+  const librarySectionId = availableSectionIds.has(candidate.librarySectionId) ? candidate.librarySectionId : "";
   const difficulty = Math.min(100, Math.max(10, Math.round((Number(candidate.difficulty) || 50) / 10) * 10));
   const frequency = Math.min(100, Math.max(1, Math.floor(Number(candidate.frequency) || 2)));
   const correctById = {};
@@ -186,6 +193,7 @@ function normalizeState(candidate) {
     setupView: candidate.setupView === "history" ? "history" : "bank",
     libraryId,
     libraryGroupId,
+    librarySectionId,
     selectedDeckIds,
     wordFilter: ["all", "unmastered", "mastered"].includes(candidate.wordFilter) ? candidate.wordFilter : "all",
     phase,
@@ -446,14 +454,18 @@ function deckExplorerMarkup() {
   const groupDecks = CATALOG_DECKS.filter((deck) => deck.libraryId === appState.libraryId && deck.groupId === activeGroup?.id);
   const sections = [...new Map(groupDecks.map((deck) => [deck.sectionId, { id: deck.sectionId, label: deck.sectionLabel, zh: deck.sectionZh }])).values()];
   const selected = new Set(appState.selectedDeckIds);
+  const activeSection = sections.find((section) => section.id === appState.librarySectionId);
+  const visibleDecks = activeSection
+    ? groupDecks.filter((deck) => deck.sectionId === activeSection.id).sort((a, b) => a.label.localeCompare(b.label, "en", { numeric: true }))
+    : [];
   return `<section class="spelling-deck-explorer">
-    <div class="spelling-deck-explorer__top"><div><p class="spelling-eyebrow">COLLECTION · 分類選擇</p><h2>${escapeHtml(library.label)}</h2></div><div class="spelling-deck-actions"><span>${appState.selectedDeckIds.length} 個分組已加入</span><button type="button" data-select-visible-decks>加入本頁全部</button><button type="button" data-clear-library-decks>清除本詞庫</button></div></div>
+    <div class="spelling-deck-explorer__top"><div><p class="spelling-eyebrow">COLLECTION · 分類選擇</p><h2>${escapeHtml(library.label)}</h2></div><div class="spelling-deck-actions"><span>${appState.selectedDeckIds.length} 個分組已加入</span>${activeSection ? '<button type="button" data-select-visible-decks>加入本頁全部</button>' : ''}<button type="button" data-clear-library-decks>清除本詞庫</button></div></div>
     ${groups.length > 1 ? `<div class="spelling-group-tabs">${groups.map((group) => `<button type="button" data-library-group="${escapeHtml(group.id)}" aria-pressed="${group.id === activeGroup?.id}"><strong>${escapeHtml(group.label)}</strong><span>${escapeHtml(group.zh || "")}</span></button>`).join("")}</div>` : ""}
-    <div class="spelling-section-list">${sections.map((section, sectionIndex) => {
+    ${activeSection ? `<div class="spelling-section-stage"><button type="button" class="spelling-section-back" data-library-section-back>← 返回分類</button><div><p class="spelling-eyebrow">${escapeHtml(activeGroup?.label || "")}</p><h3>${escapeHtml(activeSection.label)}</h3><p>${escapeHtml(activeSection.zh || "")}</p></div></div><div class="spelling-deck-grid spelling-deck-grid--stage">${visibleDecks.map((deck) => `<button type="button" data-deck-id="${escapeHtml(deck.id)}" aria-pressed="${selected.has(deck.id)}"><span class="spelling-deck-check" aria-hidden="true">${selected.has(deck.id) ? "✓" : "+"}</span><span><strong>${escapeHtml(deck.label)}</strong><small>${deck.entryIds.length} 項</small></span></button>`).join("")}</div>` : `<div class="spelling-section-menu">${sections.map((section, sectionIndex) => {
       const decks = groupDecks.filter((deck) => deck.sectionId === section.id);
       const selectedCount = decks.filter((deck) => selected.has(deck.id)).length;
-      return `<details class="spelling-section-card" ${sectionIndex < 2 || selectedCount ? "open" : ""}><summary><span class="spelling-section-card__badge">${String(sectionIndex + 1).padStart(2, "0")}</span><span><strong>${escapeHtml(section.label)}</strong><small>${escapeHtml(section.zh || "")}</small></span><em>${selectedCount} / ${decks.length}</em></summary><div class="spelling-deck-grid">${decks.map((deck) => `<button type="button" data-deck-id="${escapeHtml(deck.id)}" aria-pressed="${selected.has(deck.id)}"><span class="spelling-deck-check" aria-hidden="true">${selected.has(deck.id) ? "✓" : "+"}</span><span><strong>${escapeHtml(deck.label)}</strong><small>${deck.entryIds.length} 項</small></span></button>`).join("")}</div></details>`;
-    }).join("")}</div>
+      return `<button type="button" class="spelling-section-choice" data-library-section="${escapeHtml(section.id)}"><span class="spelling-section-card__badge">${String(sectionIndex + 1).padStart(2, "0")}</span><span><strong>${escapeHtml(section.label)}</strong><small>${escapeHtml(section.zh || "")}</small></span><em>${selectedCount} / ${decks.length}</em><b aria-hidden="true">→</b></button>`;
+    }).join("")}</div>`}
   </section>`;
 }
 
@@ -667,9 +679,38 @@ function fallbackSpeak(entry) {
   window.speechSynthesis.speak(utterance);
 }
 
+function normalizeAudioKey(value) {
+  return String(value || "").normalize("NFKC").toLocaleLowerCase("en")
+    .replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
+}
+
+function storedAudioSource(entry) {
+  const manifests = [window.EDMUND_FLASHCARD_AUDIO || {}, window.EDMUND_SPELLING_AUDIO || {}];
+  for (const manifest of manifests) {
+    if (manifest[entry.word]) return resolveStoredAudioUrl(manifest[entry.word]);
+  }
+  if (!storedAudioIndex) {
+    storedAudioIndex = new Map();
+    manifests.forEach((manifest) => Object.entries(manifest).forEach(([term, source]) => {
+      const key = normalizeAudioKey(term);
+      if (key && source && !storedAudioIndex.has(key)) storedAudioIndex.set(key, source);
+    }));
+  }
+  return resolveStoredAudioUrl(storedAudioIndex.get(normalizeAudioKey(entry.word)) || "");
+}
+
+function resolveStoredAudioUrl(source) {
+  const value = String(source || "");
+  if (!value || /^https?:\/\//i.test(value)) return value;
+  if (value.startsWith("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/flashcards/audio/edmund-neural/v1/")) {
+    return `${FLASHCARD_PACKED_AUDIO_BASE}${value}`;
+  }
+  return value;
+}
+
 function speakWord(entry) {
   if (!entry) return;
-  const source = window.EDMUND_SPELLING_AUDIO?.[entry.word];
+  const source = storedAudioSource(entry);
   if (!source) {
     fallbackSpeak(entry);
     return;
@@ -1020,6 +1061,7 @@ document.addEventListener("click", (event) => {
     appState.libraryId = LIBRARY_IDS.has(libraryButton.dataset.libraryId) ? libraryButton.dataset.libraryId : "core";
     const groups = (SELECTION_CATALOG.libraries || []).find((library) => library.id === appState.libraryId)?.groups || [];
     appState.libraryGroupId = groups[0]?.id || "";
+    appState.librarySectionId = "";
     render();
     persistAndPublish();
     return;
@@ -1027,6 +1069,20 @@ document.addEventListener("click", (event) => {
   const groupButton = event.target.closest("[data-library-group]");
   if (groupButton) {
     appState.libraryGroupId = groupButton.dataset.libraryGroup;
+    appState.librarySectionId = "";
+    render();
+    persistAndPublish();
+    return;
+  }
+  const sectionButton = event.target.closest("[data-library-section]");
+  if (sectionButton) {
+    appState.librarySectionId = sectionButton.dataset.librarySection;
+    render();
+    persistAndPublish();
+    return;
+  }
+  if (event.target.closest("[data-library-section-back]")) {
+    appState.librarySectionId = "";
     render();
     persistAndPublish();
     return;
@@ -1051,7 +1107,7 @@ document.addEventListener("click", (event) => {
     return;
   }
   if (event.target.closest("[data-select-visible-decks]")) {
-    const groupDecks = CATALOG_DECKS.filter((deck) => deck.libraryId === appState.libraryId && deck.groupId === appState.libraryGroupId);
+    const groupDecks = CATALOG_DECKS.filter((deck) => deck.libraryId === appState.libraryId && deck.groupId === appState.libraryGroupId && (!appState.librarySectionId || deck.sectionId === appState.librarySectionId));
     const selectedDecks = new Set(appState.selectedDeckIds);
     const selectedWords = new Set(appState.selectedIds);
     groupDecks.forEach((deck) => {
