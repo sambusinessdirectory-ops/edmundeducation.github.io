@@ -15,8 +15,8 @@ let revision = 0;
 const student = { id: '11111111-1111-4111-8111-111111111111', name: 'Spelling QA', role: 'student' };
 const supabaseShim = `window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:null},error:null}),signInAnonymously:async()=>({data:{session:{user:{id:'qa'}}},error:null}),onAuthStateChange:()=>({data:{subscription:{unsubscribe(){}}}})},rpc:()=>Promise.resolve({data:[],error:null})})};`;
 
-async function makeDevice(token, user = student) {
-  const context = await browser.newContext({ serviceWorkers: 'block' });
+async function makeDevice(token, user = student, device = {}) {
+  const context = await browser.newContext({ serviceWorkers: 'block', ...device });
   const page = await context.newPage();
   page.setDefaultTimeout(15000);
   page.on('pageerror', (error) => errors.push(error.message));
@@ -36,7 +36,7 @@ async function makeDevice(token, user = student) {
     if (url.origin !== base) return route.abort();
     if (url.pathname === '/spelling-practice.js') {
       const response = await route.fetch();
-      const bridge = `\nwindow.EDMUND_LEARNING_PORTAL_CONTEXT={portalId:'spelling',getSession:()=>({portalId:'spelling',user:${JSON.stringify(user)},token:${JSON.stringify(token)}}),rpc:async(name,args)=>(await fetch('/qa-rpc/'+name,{method:'POST',body:JSON.stringify(args)})).json()};window.__spellingSyncQa={setup:()=>{document.querySelector('[data-learning-portal-root] [data-view="login"]')?.setAttribute('hidden','');document.querySelector('[data-learning-portal-root] [data-view="dashboard"]')?.removeAttribute('hidden');activate(${JSON.stringify(user)});},state:()=>structuredClone(appState),choose:()=>{appState.selectedIds=VOCABULARY.slice(0,2).map(entry=>entry.id);appState.frequency=2;appState.phase='setup';render();persistAndPublish();},start:startRound,typeOne:()=>{const input=document.querySelector('[data-letter-position]');input.value=currentEntry().word[Number(input.dataset.letterPosition)];input.dispatchEvent(new Event('input',{bubbles:true}));return input.dataset.letterPosition;},wrong:()=>{document.querySelectorAll('[data-letter-position]').forEach(input=>{input.value=currentEntry().word[Number(input.dataset.letterPosition)]==='z'?'x':'z';input.dispatchEvent(new Event('input',{bubbles:true}));});document.querySelector('[data-answer-form]').requestSubmit();},correct:()=>{document.querySelectorAll('[data-letter-position]').forEach(input=>{input.value=currentEntry().word[Number(input.dataset.letterPosition)];input.dispatchEvent(new Event('input',{bubbles:true}));});document.querySelector('[data-answer-form]').requestSubmit();},next:readyForNext};`;
+      const bridge = `\nwindow.EDMUND_LEARNING_PORTAL_CONTEXT={portalId:'spelling',getSession:()=>({portalId:'spelling',user:${JSON.stringify(user)},token:${JSON.stringify(token)}}),rpc:async(name,args)=>(await fetch('/qa-rpc/'+name,{method:'POST',body:JSON.stringify(args)})).json()};window.__spellingSyncQa={setup:()=>{document.querySelector('[data-learning-portal-root] [data-view="login"]')?.setAttribute('hidden','');document.querySelector('[data-learning-portal-root] [data-view="dashboard"]')?.removeAttribute('hidden');activate(${JSON.stringify(user)});},state:()=>structuredClone(appState),choose:()=>{appState.selectedIds=VOCABULARY.slice(0,2).map(entry=>entry.id);appState.frequency=2;appState.phase='setup';render();persistAndPublish();},start:startRound,longPhrase:()=>{const entry=[...VOCABULARY].sort((a,b)=>Math.max(...b.word.split(' ').map(token=>token.length))-Math.max(...a.word.split(' ').map(token=>token.length)))[0];appState.displayMode='slots';appState.selectedIds=[entry.id];appState.frequency=1;appState.phase='practice';appState.correctById={[entry.id]:0};appState.totalCorrect=0;appState.totalAttempts=0;appState.queue=[entry.id];appState.currentId=entry.id;appState.mask=[...createMask(entry.word,50)];appState.draftLetters={};appState.feedback='';appState.awaitingNext=false;render();},typeOne:()=>{const input=document.querySelector('[data-letter-position]');input.value=currentEntry().word[Number(input.dataset.letterPosition)];input.dispatchEvent(new Event('input',{bubbles:true}));return input.dataset.letterPosition;},wrong:()=>{document.querySelectorAll('[data-letter-position]').forEach(input=>{input.value=currentEntry().word[Number(input.dataset.letterPosition)]==='z'?'x':'z';input.dispatchEvent(new Event('input',{bubbles:true}));});document.querySelector('[data-answer-form]').requestSubmit();},correct:()=>{document.querySelectorAll('[data-letter-position]').forEach(input=>{input.value=currentEntry().word[Number(input.dataset.letterPosition)];input.dispatchEvent(new Event('input',{bubbles:true}));});document.querySelector('[data-answer-form]').requestSubmit();},next:readyForNext};`;
       return route.fulfill({ response, body: `${await response.text()}${bridge}` });
     }
     return route.continue();
@@ -49,22 +49,41 @@ async function makeDevice(token, user = student) {
 
 try {
   const first = await makeDevice('qa-same-account');
-  const second = await makeDevice('qa-same-account');
-  const isolated = await makeDevice('qa-different-account', { ...student, id: '22222222-2222-4222-8222-222222222222' });
+  const second = await makeDevice('qa-same-account', student, { viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const isolated = await makeDevice('qa-different-account', { ...student, id: '22222222-2222-4222-8222-222222222222' }, { viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
 
   await first.page.evaluate(() => { __spellingSyncQa.choose(); __spellingSyncQa.start(); });
   const firstState = await first.page.evaluate(() => __spellingSyncQa.state());
+  assert.equal(firstState.queue.length, 4);
+  assert.deepEqual([...new Set(firstState.queue)].sort(), firstState.selectedIds.slice().sort());
+  assert.ok(firstState.selectedIds.every((id) => firstState.queue.filter((queued) => queued === id).length === 2));
+  assert.equal(await first.page.locator('.spelling-progress').count(), 1);
+  assert.match(await first.page.locator('[data-elapsed]').innerText(), /^\d+:\d{2}$/);
   await second.page.waitForFunction((id) => __spellingSyncQa.state().currentId === id, firstState.currentId);
   assert.deepEqual(await second.page.evaluate(() => __spellingSyncQa.state().mask), firstState.mask);
 
   const typedPosition = await first.page.evaluate(() => __spellingSyncQa.typeOne());
   const typedValue = await first.page.evaluate((position) => __spellingSyncQa.state().draftLetters[position], typedPosition);
   await second.page.waitForFunction(({ position, value }) => __spellingSyncQa.state().draftLetters[position] === value, { position: typedPosition, value: typedValue });
+  const mobileInputPresentation = await second.page.locator(`[data-letter-position="${typedPosition}"]`).evaluate((input) => ({
+    value: input.value,
+    color: getComputedStyle(input).color,
+    fill: getComputedStyle(input).webkitTextFillColor,
+    opacity: getComputedStyle(input).opacity
+  }));
+  assert.equal(mobileInputPresentation.value, typedValue);
+  assert.doesNotMatch(`${mobileInputPresentation.color} ${mobileInputPresentation.fill}`, /transparent|rgba\(0, 0, 0, 0\)/);
+  assert.equal(mobileInputPresentation.opacity, '1');
+  assert.ok((await second.page.locator('.spelling-token').all()).length > 0);
+  assert.ok((await second.page.locator('.spelling-token').evaluateAll((tokens) => tokens.every((token) => getComputedStyle(token).whiteSpace === 'nowrap'))));
 
   await first.page.evaluate(() => __spellingSyncQa.wrong());
   await second.page.waitForFunction(() => __spellingSyncQa.state().awaitingNext === true);
   await second.page.waitForSelector('[data-feedback][data-state="wrong"]');
-  assert.match(await second.page.locator('[data-feedback]').innerText(), /正確答案/);
+  const wrongFeedback = await second.page.locator('[data-feedback]').innerText();
+  assert.match(wrongFeedback, /你的拼寫/);
+  assert.match(wrongFeedback, /正確拼寫/);
+  assert.ok(await second.page.locator('.spelling-comparison mark.is-different').count() > 0);
 
   await second.page.evaluate(() => __spellingSyncQa.next());
   const nextId = await second.page.evaluate(() => __spellingSyncQa.state().currentId);
@@ -75,6 +94,29 @@ try {
   await first.page.waitForFunction(() => __spellingSyncQa.state().feedback === '', null, { timeout: 8000 });
 
   assert.equal((await isolated.page.evaluate(() => __spellingSyncQa.state())).phase, 'setup');
+  assert.equal(await isolated.page.locator('.spelling-table-wrap thead th').count(), 3);
+  assert.doesNotMatch(await isolated.page.locator('.spelling-bank').innerText(), /字母拆分/);
+  await isolated.page.locator('[data-setup-view="history"]').click();
+  await isolated.page.getByText('每輪練習詳情').waitFor();
+  await isolated.page.locator('[data-setup-view="bank"]').click();
+  await isolated.page.locator('[data-deselect-all]').click();
+  const dragRows = isolated.page.locator('[data-word-row]:not([hidden])');
+  const firstBox = await dragRows.nth(0).boundingBox();
+  const thirdBox = await dragRows.nth(2).boundingBox();
+  assert.ok(firstBox && thirdBox);
+  const dragX = firstBox.x + firstBox.width - 14;
+  await isolated.page.mouse.move(dragX, firstBox.y + firstBox.height / 2);
+  await isolated.page.mouse.down();
+  await isolated.page.mouse.move(dragX, thirdBox.y + thirdBox.height / 2, { steps: 12 });
+  await isolated.page.mouse.up();
+  assert.ok(await isolated.page.locator('[data-word-select]:checked').count() >= 3);
+  await isolated.page.locator('[data-display-mode="line"]').click();
+  await isolated.page.evaluate(() => { __spellingSyncQa.choose(); __spellingSyncQa.start(); });
+  await isolated.page.locator('[data-line-answer]').waitFor();
+  await isolated.page.locator('[data-line-answer]').fill('visible mobile answer');
+  assert.equal(await isolated.page.locator('[data-line-answer]').inputValue(), 'visible mobile answer');
+  await isolated.page.evaluate(() => __spellingSyncQa.longPhrase());
+  assert.ok(await isolated.page.locator('.spelling-token').evaluateAll((tokens) => tokens.every((token) => token.getBoundingClientRect().right <= innerWidth + 1 && token.getBoundingClientRect().left >= -1)));
   assert.deepEqual(errors, []);
   await Promise.all([first.context.close(), second.context.close(), isolated.context.close()]);
   console.log('PASS spelling live sync: same-account setup, prompt, mask, typed letters, wrong-answer review, correct feedback and next state; different account isolated.');
