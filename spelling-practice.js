@@ -577,7 +577,8 @@ function wholeLineHintLetters(entry) {
 function answerArea(entry) {
   if (appState.displayMode === "line") {
     const hints = wholeLineHintLetters(entry);
-    return `<div class="spelling-line-mode"><div class="spelling-line-hints"><span>提示字母（位置已隱藏）</span><strong>${hints.map(escapeHtml).join(" · ")}</strong></div><label class="spelling-line-answer"><span class="sr-only">輸入完整英文拼寫</span><input data-line-answer type="text" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入完整英文拼寫" value="${escapeHtml(appState.draftLetters.line || "")}" ${appState.feedback === "correct" || appState.awaitingNext ? "disabled" : ""}></label></div>`;
+    const hintText = hints.map(escapeHtml).join(" · ");
+    return `<div class="spelling-line-mode"><label class="spelling-line-answer"><span class="sr-only">輸入完整英文拼寫；提示字母為 ${hintText}</span><input data-line-answer type="text" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入完整英文拼寫；提示字母為 ${hintText}" placeholder="${hintText}" value="${escapeHtml(appState.draftLetters.line || "")}" ${appState.feedback === "correct" || appState.awaitingNext ? "disabled" : ""}></label></div>`;
   }
   return `<div class="spelling-slots" role="group" aria-label="填寫缺少的英文字母">${renderMask(entry)}</div>`;
 }
@@ -605,7 +606,7 @@ function practiceMarkup() {
       <form data-answer-form novalidate>
         ${answerArea(entry)}
         <div class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : appState.feedback}" role="status" aria-live="assertive">${feedbackHtml(entry)}</div>
-        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" disabled>正在前往下一題 ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
+        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" data-next-now>立即下一題 ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
       </form>
       <p class="spelling-attempts">本輪作答 ${appState.totalAttempts} 次；只有答對才會計入完成次數。</p>
     </main>
@@ -783,6 +784,14 @@ function scheduleCorrectAdvance() {
   correctAdvanceTimer = null;
   if (!appState || appState.feedback !== "correct") return;
   correctAdvanceTimer = setTimeout(advanceCorrect, Math.max(0, appState.advanceAt - Date.now()));
+}
+
+function advanceCorrectNow() {
+  if (!appState || appState.feedback !== "correct") return;
+  if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
+  correctAdvanceTimer = null;
+  appState.advanceAt = 0;
+  advanceCorrect();
 }
 
 function handleAnswer(form) {
@@ -1171,6 +1180,7 @@ document.addEventListener("click", (event) => {
   const row = event.target.closest("[data-word-row]");
   if (row && !suppressRowClick && !event.target.closest("button,input,label")) toggleWordSelection(app, row.dataset.wordRow);
   if (event.target.closest("[data-ready-next]")) readyForNext();
+  if (event.target.closest("[data-next-now]")) advanceCorrectNow();
   if (event.target.closest("[data-back-to-bank]")) returnToBank();
   if (event.target.closest("[data-repeat]")) startRound();
   if (event.target.closest("[data-refresh-history]")) loadHistory();

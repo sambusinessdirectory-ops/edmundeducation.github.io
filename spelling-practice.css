@@ -553,24 +553,15 @@ body[data-learning-portal="spelling"] {
 .spelling-token { max-width: 100%; min-width: 0; flex-wrap: nowrap; white-space: nowrap; }
 .spelling-card.is-long .spelling-slot { width: clamp(22px, 4vw, 46px); font-size: clamp(23px, 3.2vw, 38px); }
 .spelling-card.is-very-long .spelling-slot { width: clamp(15px, 3vw, 38px); min-width: 13px; font-size: clamp(18px, 2.7vw, 32px); }
-.spelling-line-mode { display: grid; justify-items: center; gap: 22px; }
-.spelling-line-hints {
-  width: min(100%, 760px);
-  padding: 15px 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px 18px;
-  box-sizing: border-box;
-  border: 1px solid var(--spell-gold);
-  border-radius: 18px;
-  background: #fff8dc;
-}
-.spelling-line-hints span { color: var(--spell-red); font-weight: 950; }
-.spelling-line-hints strong { min-width: 0; overflow-wrap: anywhere; color: var(--spell-ink); letter-spacing: .28em; font-size: clamp(20px, 3vw, 30px); }
+.spelling-line-mode { display: grid; justify-items: center; }
 .spelling-line-answer { width: min(100%, 900px); max-width: 100%; min-width: 0; }
 .spelling-line-answer input { width: 100%; max-width: 100%; min-width: 0; box-sizing: border-box; }
+.spelling-line-answer input::placeholder {
+  color: var(--spell-red);
+  -webkit-text-fill-color: var(--spell-red);
+  opacity: .82;
+  letter-spacing: .28em;
+}
 
 @media (max-width: 900px) {
   .spelling-library__tabs { grid-template-columns: 1fr; }
@@ -593,5 +584,4 @@ body[data-learning-portal="spelling"] {
   .spelling-card.is-very-long { padding-inline: 11px; }
   .spelling-card.is-very-long .spelling-slots { gap: 3px; }
   .spelling-card.is-very-long .spelling-token { gap: 2px; }
-  .spelling-line-hints { padding: 12px; }
 }
