@@ -20,6 +20,8 @@ let appState = null;
 let activeUser = null;
 let wordAudio = null;
 let storedAudioIndex = null;
+let typingAudioContext = null;
+let lastTypingSoundAt = 0;
 const FLASHCARD_PACKED_AUDIO_BASE = "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/";
 let correctAdvanceTimer = null;
 let elapsedTimer = null;
@@ -726,7 +728,7 @@ function practiceMarkup() {
   const meaningLength = [...entry.meaning].length;
   const lengthClass = meaningLength > 32 ? " is-very-long" : meaningLength > 18 ? " is-long" : "";
   return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}" data-typing-effects="${appState.typingEffectOn}">
-    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-header__right"><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div><button class="spelling-typing-effect-toggle" type="button" data-typing-effect-toggle aria-pressed="${appState.typingEffectOn}" aria-label="舒緩打字效果：${appState.typingEffectOn ? "已開啟" : "已關閉"}">${icon("sparkle")}<span>柔光打字</span><strong>${appState.typingEffectOn ? "開" : "關"}</strong></button></div></header>
+    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-header__right"><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div><button class="spelling-typing-effect-toggle" type="button" data-typing-effect-toggle aria-pressed="${appState.typingEffectOn}" aria-label="柔光打字聲效：${appState.typingEffectOn ? "已開啟" : "已關閉"}">${icon("sparkle")}<span>柔光聲效</span><strong>${appState.typingEffectOn ? "開" : "關"}</strong></button></div></header>
     <div class="spelling-progress" aria-label="本輪完成 ${percentage}%"><i style="width:${percentage}%"></i></div>
     <main class="spelling-card${lengthClass}">
       <div class="spelling-meaning-row"><h1>${escapeHtml(entry.meaning)}</h1><button class="spelling-sound" type="button" data-speak aria-label="播放英文讀音">${icon("sound")}<span>聆聽</span></button></div>
@@ -1142,8 +1144,40 @@ function clearWritingEffects() {
   document.querySelectorAll(".spelling-writing-effect").forEach((effect) => effect.remove());
 }
 
+function playTypingSound(deleting = false) {
+  if (!appState?.typingEffectOn) return;
+  const now = performance.now();
+  if (now - lastTypingSoundAt < 24) return;
+  lastTypingSoundAt = now;
+  try {
+    const Context = window.AudioContext || window.webkitAudioContext;
+    if (!Context) return;
+    typingAudioContext ||= new Context();
+    if (typingAudioContext.state === "suspended") typingAudioContext.resume().catch(() => {});
+    const start = typingAudioContext.currentTime;
+    const oscillator = typingAudioContext.createOscillator();
+    const gain = typingAudioContext.createGain();
+    const filter = typingAudioContext.createBiquadFilter();
+    const baseFrequency = deleting ? 235 : 560 + Math.random() * 55;
+    oscillator.type = deleting ? "sine" : "triangle";
+    oscillator.frequency.setValueAtTime(baseFrequency, start);
+    oscillator.frequency.exponentialRampToValueAtTime(deleting ? 150 : baseFrequency * 1.18, start + (deleting ? .13 : .075));
+    filter.type = "lowpass";
+    filter.frequency.setValueAtTime(deleting ? 900 : 1800, start);
+    filter.Q.setValueAtTime(.7, start);
+    gain.gain.setValueAtTime(.0001, start);
+    gain.gain.exponentialRampToValueAtTime(deleting ? .036 : .046, start + .009);
+    gain.gain.exponentialRampToValueAtTime(.0001, start + (deleting ? .15 : .105));
+    oscillator.connect(filter).connect(gain).connect(typingAudioContext.destination);
+    oscillator.start(start);
+    oscillator.stop(start + (deleting ? .16 : .115));
+  } catch { /* Typing audio is an enhancement; the visual effect remains available. */ }
+}
+
 function playWritingEffect(input, deleting = false) {
-  if (!input || !appState?.typingEffectOn || window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
+  if (!input || !appState?.typingEffectOn) return;
+  playTypingSound(deleting);
+  if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
   const rect = input.getBoundingClientRect();
   if (!rect.width || !rect.height) return;
   const layer = document.createElement("span");
@@ -1168,7 +1202,7 @@ function updateTypingEffectToggle(app) {
   app?.setAttribute("data-typing-effects", String(enabled));
   const toggle = app?.querySelector("[data-typing-effect-toggle]");
   toggle?.setAttribute("aria-pressed", String(enabled));
-  toggle?.setAttribute("aria-label", `舒緩打字效果：${enabled ? "已開啟" : "已關閉"}`);
+  toggle?.setAttribute("aria-label", `柔光打字聲效：${enabled ? "已開啟" : "已關閉"}`);
   const state = toggle?.querySelector("strong");
   if (state) state.textContent = enabled ? "開" : "關";
   if (!enabled) clearWritingEffects();
@@ -1367,6 +1401,7 @@ document.addEventListener("click", (event) => {
   if (event.target.closest("[data-typing-effect-toggle]")) {
     appState.typingEffectOn = !appState.typingEffectOn;
     updateTypingEffectToggle(app);
+    if (appState.typingEffectOn) playTypingSound(false);
     persistAndPublish();
     return;
   }

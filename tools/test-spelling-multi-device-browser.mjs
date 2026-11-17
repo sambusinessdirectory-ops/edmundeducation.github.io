@@ -38,7 +38,8 @@ async function makeDevice(token, user = student, device = {}) {
       const response = await route.fetch();
       const bridge = `\nwindow.EDMUND_LEARNING_PORTAL_CONTEXT={portalId:'spelling',getSession:()=>({portalId:'spelling',user:${JSON.stringify(user)},token:${JSON.stringify(token)}}),rpc:async(name,args)=>(await fetch('/qa-rpc/'+name,{method:'POST',body:JSON.stringify(args)})).json()};window.__spellingSyncQa={setup:()=>{document.querySelector('[data-learning-portal-root] [data-view="login"]')?.setAttribute('hidden','');document.querySelector('[data-learning-portal-root] [data-view="dashboard"]')?.removeAttribute('hidden');activate(${JSON.stringify(user)});},state:()=>structuredClone(appState),choose:()=>{appState.selectedIds=VOCABULARY.slice(0,2).map(entry=>entry.id);appState.frequency=2;appState.phase='setup';render();persistAndPublish();},start:startRound,setStreak:value=>{appState.streak=Number(value)||0;},seedRecords:()=>{const [first,second]=VOCABULARY;const now=Date.now();appState.roundId=randomUuid();appState.startedAt=now-1000;appState.completedAt=now;appState.selectedIds=[first.id,second.id];appState.frequency=1;appState.totalAttempts=3;appState.totalCorrect=1;appState.attemptEvents=[{at:now-900,wordId:first.id,word:first.word,answer:'wrong',correct:false},{at:now-700,wordId:first.id,word:first.word,answer:first.word,correct:true},{at:now-500,wordId:second.id,word:second.word,answer:'wrong',correct:false}];appState.phase='setup';appState.setupView='bank';upsertLocalHistory(historyPayload());render();},masterDeck:id=>{const deck=CATALOG_DECKS.find(row=>row.id===id);if(!deck)return;appState.roundId=randomUuid();appState.startedAt=Date.now();appState.completedAt=Date.now();appState.totalAttempts=deck.entryIds.length;appState.totalCorrect=deck.entryIds.length;appState.attemptEvents=deck.entryIds.map((wordId,index)=>{const entry=VOCABULARY.find(row=>row.id===wordId);return {at:Date.now()+index,wordId,word:entry?.word||'',answer:entry?.word||'',correct:true};});render();persistAndPublish();},longPhrase:()=>{const entry=[...VOCABULARY].sort((a,b)=>Math.max(...b.word.split(' ').map(token=>token.length))-Math.max(...a.word.split(' ').map(token=>token.length)))[0];appState.displayMode='slots';appState.selectedIds=[entry.id];appState.frequency=1;appState.phase='practice';appState.correctById={[entry.id]:0};appState.totalCorrect=0;appState.totalAttempts=0;appState.queue=[entry.id];appState.currentId=entry.id;appState.mask=[...createMask(entry.word,50)];appState.draftLetters={};appState.feedback='';appState.awaitingNext=false;render();},typeOne:()=>{const input=document.querySelector('[data-letter-position]');input.value=currentEntry().word[Number(input.dataset.letterPosition)];input.dispatchEvent(new Event('input',{bubbles:true}));return input.dataset.letterPosition;},wrong:()=>{document.querySelectorAll('[data-letter-position]').forEach(input=>{input.value=currentEntry().word[Number(input.dataset.letterPosition)]==='z'?'x':'z';input.dispatchEvent(new Event('input',{bubbles:true}));});document.querySelector('[data-answer-form]').requestSubmit();},correct:()=>{document.querySelectorAll('[data-letter-position]').forEach(input=>{input.value=currentEntry().word[Number(input.dataset.letterPosition)];input.dispatchEvent(new Event('input',{bubbles:true}));});document.querySelector('[data-answer-form]').requestSubmit();},next:readyForNext};`;
       const bridgeExtensions = `\nObject.assign(window.__spellingSyncQa,{masterActive:()=>{const entries=activeLibraryEntries();const now=Date.now();appState.roundId=randomUuid();appState.startedAt=now-1000;appState.completedAt=now;appState.totalAttempts=entries.length;appState.totalCorrect=entries.length;appState.attemptEvents=entries.map((entry,index)=>({at:now+index,wordId:entry.id,word:entry.word,answer:entry.word,correct:true}));render();persistAndPublish();},spaceReady:()=>{const [first,second]=VOCABULARY;appState.phase='practice';appState.selectedIds=[first.id,second.id];appState.frequency=1;appState.queue=[second.id];appState.currentId=first.id;appState.correctById={[first.id]:1,[second.id]:0};appState.totalCorrect=1;appState.totalAttempts=1;appState.feedback='correct';appState.awaitingNext=false;appState.pendingNextId=second.id;appState.pendingNextMask=[...createMask(second.word,appState.difficulty)];appState.advanceAt=Date.now()+60000;render();}});`;
-      return route.fulfill({ response, body: `${await response.text()}${bridge}${bridgeExtensions}` });
+      const audioBridge = `\nwindow.__spellingSyncQa.audioState=()=>({created:Boolean(typingAudioContext),state:typingAudioContext?.state||'',lastAt:lastTypingSoundAt});`;
+      return route.fulfill({ response, body: `${await response.text()}${bridge}${bridgeExtensions}${audioBridge}` });
     }
     return route.continue();
   });
@@ -66,7 +67,11 @@ try {
   const typedPosition = await first.page.evaluate(() => __spellingSyncQa.typeOne());
   const typedValue = await first.page.evaluate((position) => __spellingSyncQa.state().draftLetters[position], typedPosition);
   assert.equal(await first.page.locator('[data-typing-effect-toggle]').getAttribute('aria-pressed'), 'true');
+  assert.match(await first.page.locator('[data-typing-effect-toggle]').innerText(), /柔光聲效/);
   assert.ok(await first.page.locator('.spelling-writing-effect[data-mode="type"]').count() > 0);
+  const typingAudioState = await first.page.evaluate(() => __spellingSyncQa.audioState());
+  assert.equal(typingAudioState.created, true);
+  assert.ok(typingAudioState.lastAt > 0);
   if (process.env.SPELLING_QA_SCREENSHOT) await first.page.screenshot({ path: `${process.env.SPELLING_QA_SCREENSHOT}-writing-effect.png` });
   await second.page.waitForFunction(({ position, value }) => __spellingSyncQa.state().draftLetters[position] === value, { position: typedPosition, value: typedValue });
   const mobileInputPresentation = await second.page.locator(`[data-letter-position="${typedPosition}"]`).evaluate((input) => ({
@@ -86,6 +91,8 @@ try {
     input.dispatchEvent(new InputEvent('input', { bubbles: true, inputType: 'deleteContentBackward' }));
   }, typedPosition);
   assert.ok(await first.page.locator('.spelling-writing-effect[data-mode="erase"]').count() > 0);
+  const erasingAudioState = await first.page.evaluate(() => __spellingSyncQa.audioState());
+  assert.ok(erasingAudioState.lastAt > typingAudioState.lastAt);
   await first.page.evaluate(() => document.querySelector('[data-typing-effect-toggle]').click());
   assert.equal(await first.page.locator('[data-typing-effect-toggle]').getAttribute('aria-pressed'), 'false');
   await first.page.waitForTimeout(850);
@@ -231,7 +238,7 @@ try {
   assert.ok(await isolated.page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), 'Mobile setup must not overflow horizontally.');
   assert.deepEqual(errors, []);
   await Promise.all([first.context.close(), second.context.close(), isolated.context.close()]);
-  console.log('PASS spelling live sync and feature QA: soothing typing/erase effects, Space/Enter next, Eddy streak, record re-practice, custom dropdowns and green completion.');
+  console.log('PASS spelling live sync and feature QA: audible typing/erase effects, Space/Enter next, Eddy streak, record re-practice, custom dropdowns and green completion.');
 } finally {
   await browser.close();
 }
