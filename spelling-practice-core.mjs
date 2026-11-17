@@ -85,12 +85,24 @@ const rawVocabularyPairs = Array.isArray(jaydenCards) && jaydenCards.length
   : PILOT_VOCABULARY;
 const vocabularyPairs = rawVocabularyPairs.filter(([word], index, pairs) => pairs.findIndex(([candidate]) => candidate === word) === index);
 
-export const VOCABULARY = Object.freeze(vocabularyPairs.map(([word, meaning], index) => Object.freeze({
+const coreVocabulary = vocabularyPairs.map(([word, meaning], index) => Object.freeze({
   id: `sp-${String(index + 1).padStart(3, "0")}`,
   word,
   meaning,
+  libraryId: "core",
+  deckIds: Object.freeze([]),
   characters: Object.freeze([...word])
-})));
+}));
+const catalogVocabulary = (globalThis.window?.SPELLING_SELECTION_CATALOG?.entries || []).map((entry) => Object.freeze({
+  id: String(entry.id),
+  word: String(entry.word || "").trim(),
+  meaning: String(entry.meaning || "").trim(),
+  libraryId: String(entry.libraryId || "core"),
+  deckIds: Object.freeze(Array.isArray(entry.deckIds) ? entry.deckIds.map(String) : []),
+  characters: Object.freeze([...String(entry.word || "").trim()])
+})).filter((entry) => entry.word && entry.meaning);
+
+export const VOCABULARY = Object.freeze([...coreVocabulary, ...catalogVocabulary]);
 
 export function letterPositions(word) {
   return [...word].map((character, index) => /[a-z]/i.test(character) ? index : -1).filter((index) => index >= 0);
