@@ -48,6 +48,12 @@ let queue = [];
 let cursor = 0;
 let round = 1;
 let busy = false;
+let practiceMode = 'sequential';
+let randomCount = 10;
+let practiceScope = [];
+let practiceSolved = {};
+let review = [];
+let awaitingContinue = false;
 let showTranslation = true;
 let speed = 1;
 const sentencePlayer = new Audio();
@@ -58,6 +64,16 @@ const draftKey = () => `edmund-quiz-${activeModule.moduleKey}:${owner}`;
 const allIds = () => sentences.map((_, index) => index + 1);
 const currentId = () => queue[cursor];
 const correctCount = () => Object.values(solved).filter(Boolean).length;
+const isPracticeCorrect = id => practiceMode === 'random' ? Boolean(practiceSolved[id]) : Boolean(solved[id]);
+const practiceCorrectCount = () => practiceScope.filter(isPracticeCorrect).length;
+const shuffledIds = () => {
+  const ids = allIds();
+  for (let index = ids.length - 1; index > 0; index -= 1) {
+    const swap = Math.floor(Math.random() * (index + 1));
+    [ids[index], ids[swap]] = [ids[swap], ids[index]];
+  }
+  return ids;
+};
 const speedOptions = Array.from({length: 16}, (_, index) => (index + 1) / 4);
 
 function readDraft() {
@@ -89,6 +105,12 @@ function resetActiveModule(module) {
   queue = [];
   cursor = 0;
   round = 1;
+  practiceMode = 'sequential';
+  randomCount = Math.min(10, module.expectedSentences);
+  practiceScope = [];
+  practiceSolved = {};
+  review = [];
+  awaitingContinue = false;
 }
 function renderHome() {
   sentencePlayer.pause();
@@ -169,40 +191,54 @@ function renderFootnote(footnote) {
   const marker = ['¹', '²', '³'][footnote.number - 1] || String(footnote.number);
   return `<article class="quiz-footnote"><span>${marker}</span><p lang="en">${escapeHtml(footnote.sentences.join(' '))}</p><p class="quiz-paragraph__zh" lang="zh-Hant">${escapeHtml(footnote.zh)}</p></article>`;
 }
+function practiceSetup() {
+  const maximum = totalCount();
+  randomCount = Math.max(1, Math.min(randomCount, maximum));
+  return `<section class="quiz-practice-setup" data-practice-setup aria-labelledby="practice-mode-title"><div><p class="quiz-eyebrow">DICTATION MODE</p><h3 id="practice-mode-title">選擇默寫模式</h3><p>順序模式依原文次序練習；隨機模式會抽選完整句子並打亂次序。</p></div><fieldset><legend>練習方式</legend><label><input type="radio" name="practice-mode" value="sequential" data-practice-mode ${practiceMode === 'sequential' ? 'checked' : ''}><span><strong>順序模式</strong><small>由第 1 句開始，按原文次序前進</small></span></label><label><input type="radio" name="practice-mode" value="random" data-practice-mode ${practiceMode === 'random' ? 'checked' : ''}><span><strong>隨機默寫模式</strong><small>從全文完整句子中隨機抽選</small></span></label></fieldset><label class="quiz-random-count" data-random-options ${practiceMode === 'random' ? '' : 'hidden'}><span>隨機句子數量</span><input type="number" min="1" max="${maximum}" value="${randomCount}" inputmode="numeric" data-random-count><small>可選 1–${maximum} 句；每句由句首至句號為一個完整單位。</small></label><button type="button" class="quiz-button" data-start>開始${practiceMode === 'random' ? ` ${randomCount} 句隨機` : '順序'}默寫</button></section>`;
+}
 function renderStory() {
   if (!story || !audio) return;
   view = 'story';
   sentencePlayer.pause();
   const footnotes = Array.isArray(story.footnotes) ? story.footnotes : [];
-  host.innerHTML = `<div class="quiz-story-head"><button type="button" class="quiz-back" data-home>← 所有模組</button><p class="quiz-eyebrow">${escapeHtml(story.category)}</p><h2>${escapeHtml(story.title)}</h2><p>${escapeHtml(story.introduction)}</p><div class="quiz-story-actions">${translationButton()}<button type="button" class="quiz-button" data-start>進入聆聽默寫 →</button></div></div>
+  host.innerHTML = `<div class="quiz-story-head"><button type="button" class="quiz-back" data-home>← 所有模組</button><p class="quiz-eyebrow">${escapeHtml(story.category)}</p><h2>${escapeHtml(story.title)}</h2><p>${escapeHtml(story.introduction)}</p><div class="quiz-story-actions">${translationButton()}<button type="button" class="quiz-button" data-focus-practice>設定聆聽默寫 →</button></div></div>
   <section class="quiz-listening" aria-label="聆聽全篇"><div><span class="quiz-eyebrow">LISTEN TO THE STORY</span><h3>聆聽全文</h3><p>英式女聲朗讀。可調整播放位置及速度。</p></div><audio controls preload="metadata" src="./${escapeHtml(audio.full)}" aria-label="${escapeHtml(story.title)} 全文朗讀"></audio>${speedButtons()}</section>
+  ${practiceSetup()}
   ${juniorHighlightToolbar()}
   <div class="quiz-paragraphs" data-translation-visible="${showTranslation}">${story.paragraphs.map(renderParagraph).join('')}${footnotes.length ? `<section class="quiz-footnotes" aria-label="註腳"><h3>Footnotes · 註腳</h3>${footnotes.map(renderFootnote).join('')}</section>` : ''}</div>
-  <div class="quiz-story-bottom"><button type="button" class="quiz-button" data-start>開始聆聽默寫</button></div>`;
+  <div class="quiz-story-bottom"><button type="button" class="quiz-button" data-focus-practice>選擇模式並開始</button></div>`;
   host.querySelector('audio').playbackRate = speed;
   highlighter.syncToolbar();
+}
+function reviewMarkup() {
+  if (!review.length) return '';
+  return `<section class="quiz-review" aria-live="polite"><p class="quiz-eyebrow">CORRECT SENTENCE · 正確句子</p>${review.map(entry => { const sentence = sentences[entry.id - 1]?.text || ''; return `<article class="${entry.correct ? 'is-correct' : 'is-wrong'}"><strong>${entry.correct ? '✓ 答對' : '✕ 答錯'} · 第 ${key(entry.id)} 句</strong><p lang="en">${escapeHtml(sentence)}</p></article>`; }).join('')}</section>`;
 }
 function renderExercise() {
   if (!story || !audio) return;
   view = 'exercise';
-  const total = totalCount();
+  const total = practiceScope.length || totalCount();
   if (!queue.length) {
-    host.innerHTML = `<div class="quiz-finished"><p class="quiz-eyebrow">ALL SENTENCES COMPLETE</p><h2>${total} 句全部答對了</h2><p>你已完成全文默寫。可以返回文章重讀或重聽。</p><button type="button" class="quiz-button" data-story>返回文章</button></div>`;
+    host.innerHTML = `${reviewMarkup()}<div class="quiz-finished"><p class="quiz-eyebrow">ALL SENTENCES COMPLETE</p><h2>${total} 句全部答對了</h2><p>你已完成${practiceMode === 'random' ? '本次隨機' : '全文'}默寫。可以返回文章重讀或重聽。</p><button type="button" class="quiz-button" data-story>返回文章</button></div>`;
     return;
   }
   cursor = Math.max(0, Math.min(cursor, queue.length - 1));
   const id = currentId();
   const item = sentences[id - 1];
-  const filled = allIds().filter(number => String(drafts[number] || '').trim()).length;
+  const filled = practiceScope.filter(number => String(drafts[number] || '').trim()).length;
   const missing = total - filled;
-  host.innerHTML = `<div class="quiz-exercise-head"><button type="button" class="quiz-back" data-story>← 返回文章</button><p class="quiz-eyebrow">LISTEN · TYPE · CHECK</p><h2>逐句聆聽默寫</h2><p>聽一句，輸入完整英文句子。拼字及詞序須正確；大小寫、標點及註腳標記不影響判分。答錯的句子會在下一輪重現，直至答對。</p></div>
-  <div class="quiz-progress" aria-label="完成進度"><strong>${correctCount()} / ${total} 句已答對</strong><span>第 ${round} 輪 · 第 ${cursor + 1} / ${queue.length} 句</span><div><i style="width:${Math.round(correctCount() / total * 100)}%"></i></div></div>
-  <section class="quiz-dictation" aria-label="第 ${id} 句默寫"><div class="quiz-dictation__meta"><span>第 ${key(id)} 句</span><span>${escapeHtml(item.sectionLabel)}</span>${attempts[id] ? `<span>已嘗試 ${attempts[id]} 次</span>` : ''}</div><button type="button" class="quiz-play" data-play-sentence>▶ 播放這一句</button>${speedButtons()}<label for="quiz-answer">聽後輸入完整句子</label><textarea id="quiz-answer" data-answer rows="4" spellcheck="false" autocomplete="off" autocapitalize="off" placeholder="在此輸入聽到的英文句子…">${escapeHtml(drafts[id] || '')}</textarea><p class="quiz-hint">可重播，並可用「上一句／下一句」返回修改。閱讀原文只在文章頁顯示。</p><p class="quiz-status" data-status role="status" aria-live="polite"></p><div class="quiz-dictation__actions"><button type="button" class="quiz-button quiz-button--light" data-prev ${cursor === 0 ? 'disabled' : ''}>← 上一句</button><button type="button" class="quiz-button" data-check ${String(drafts[id] || '').trim() && !busy ? '' : 'disabled'}>檢查並繼續</button><button type="button" class="quiz-button quiz-button--light" data-next>下一句 →</button></div></section>
-  <section class="quiz-submit"><div><h3>提交練習</h3><p>可先提交已填句子，或填完 ${total} 句後一次提交。未答對的句子會進入下一輪。</p><small>${filled} / ${total} 句已填${missing ? ` · 尚餘 ${missing} 句` : ''}</small></div><div><button type="button" class="quiz-button quiz-button--light" data-submit="partial" ${filled && !busy ? '' : 'disabled'}>提交已填答案</button><button type="button" class="quiz-button" data-submit="full" ${missing || busy ? 'disabled' : ''}>提交全篇答案</button></div><p class="quiz-status" data-status role="status" aria-live="polite"></p></section>`;
-  host.querySelector('[data-answer]')?.focus({preventScroll:true});
+  const correct = practiceCorrectCount();
+  host.innerHTML = `<div class="quiz-exercise-head"><button type="button" class="quiz-back" data-story>← 返回文章</button><p class="quiz-eyebrow">${practiceMode === 'random' ? 'RANDOM DICTATION' : 'LISTEN · TYPE · CHECK'}</p><h2>${practiceMode === 'random' ? '隨機逐句默寫' : '逐句聆聽默寫'}</h2><p>聽一句，輸入完整英文句子。拼字、詞序及英文字母大小寫均須正確；標點及註腳標記不影響判分。每次提交後都會顯示正確句子，答錯的句子會在下一輪重現。</p></div>
+  <div class="quiz-progress" aria-label="完成進度"><strong>${correct} / ${total} 句已答對</strong><span>第 ${round} 輪 · 第 ${cursor + 1} / ${queue.length} 句</span><div><i style="width:${Math.round(correct / total * 100)}%"></i></div></div>
+  ${reviewMarkup()}
+  <section class="quiz-dictation" aria-label="第 ${id} 句默寫"><div class="quiz-dictation__meta"><span>第 ${key(id)} 句</span><span>${escapeHtml(item.sectionLabel)}</span>${attempts[id] ? `<span>已嘗試 ${attempts[id]} 次</span>` : ''}</div><button type="button" class="quiz-play" data-play-sentence>▶ 播放這一句</button>${speedButtons()}<label for="quiz-answer">聽後輸入完整句子</label><textarea id="quiz-answer" data-answer rows="4" spellcheck="false" autocomplete="off" autocapitalize="off" placeholder="在此輸入聽到的英文句子…" ${awaitingContinue ? 'readonly' : ''}>${escapeHtml(drafts[id] || '')}</textarea><p class="quiz-hint">${awaitingContinue ? '請先閱讀上方正確句子，再繼續下一句。' : '可重播；英文字母大小寫必須與原句完全相同。閱讀原文只在文章頁顯示。'}</p><p class="quiz-status" data-status role="status" aria-live="polite"></p><div class="quiz-dictation__actions">${awaitingContinue ? `<button type="button" class="quiz-button" data-continue>已閱讀，繼續下一句 →</button>` : `<button type="button" class="quiz-button quiz-button--light" data-prev ${cursor === 0 ? 'disabled' : ''}>← 上一句</button><button type="button" class="quiz-button" data-check ${String(drafts[id] || '').trim() && !busy ? '' : 'disabled'}>檢查答案</button><button type="button" class="quiz-button quiz-button--light" data-next>下一句 →</button>`}</div></section>
+  <section class="quiz-submit"><div><h3>提交本次練習</h3><p>可提交已填句子，或填完本次 ${total} 句後一次提交；提交後會列出每句正確句子。</p><small>${filled} / ${total} 句已填${missing ? ` · 尚餘 ${missing} 句` : ''}</small></div><div><button type="button" class="quiz-button quiz-button--light" data-submit="partial" ${filled && !busy && !awaitingContinue ? '' : 'disabled'}>提交已填答案</button><button type="button" class="quiz-button" data-submit="full" ${missing || busy || awaitingContinue ? 'disabled' : ''}>提交全部 ${total} 句</button></div><p class="quiz-status" data-status role="status" aria-live="polite"></p></section>`;
+  if (!awaitingContinue) host.querySelector('[data-answer]')?.focus({preventScroll:true});
 }
 function move(delta) {
   sentencePlayer.pause();
+  review = [];
+  awaitingContinue = false;
   const next = cursor + delta;
   if (next >= 0 && next < queue.length) {
     cursor = next;
@@ -210,7 +246,7 @@ function move(delta) {
     return;
   }
   if (delta > 0 && next >= queue.length) {
-    const pending = queue.filter(id => !solved[id]);
+    const pending = queue.filter(id => !isPracticeCorrect(id));
     queue = pending;
     cursor = 0;
     if (pending.length) round += 1;
@@ -220,7 +256,7 @@ function move(delta) {
 }
 async function submit(ids, full = false, advance = false) {
   if (busy || owner !== JAYDEN_ID || !activeModule) return;
-  const total = totalCount();
+  const total = practiceScope.length;
   const payload = {};
   for (const id of ids) if (String(drafts[id] || '').trim()) payload[key(id)] = String(drafts[id]).trim();
   if (full && Object.keys(payload).length !== total) { setStatus(`請先填妥 ${total} 句。`, true); return; }
@@ -229,23 +265,27 @@ async function submit(ids, full = false, advance = false) {
   host.querySelectorAll('[data-check], [data-submit]').forEach(button => { button.disabled = true; });
   setStatus('正在檢查並儲存到學生帳戶…');
   try {
-    const result = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('junior_quiz_submit', {p_token:token, p_module_key:activeModule.moduleKey, p_answers:payload, p_final:full});
+    const result = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('junior_quiz_submit', {p_token:token, p_module_key:activeModule.moduleKey, p_answers:payload, p_final:full && total === totalCount()});
+    review = [];
     for (const [raw, correct] of Object.entries(result.results || {})) {
       const id = Number(raw);
       solved[id] = Boolean(correct) || Boolean(solved[id]);
+      if (practiceMode === 'random') practiceSolved[id] = Boolean(correct);
       attempts[id] = (attempts[id] || 0) + 1;
       lastSubmitted[id] = drafts[id];
+      review.push({id, correct:Boolean(correct)});
     }
     moduleProgress[activeModule.id] = correctCount();
     const checked = Object.keys(payload).length;
     const correct = Object.values(result.results || {}).filter(Boolean).length;
     if (advance) {
       const id = ids[0];
-      const message = solved[id] ? '答對了！' : '這一句有字詞或拼字不符，下一輪再試。';
-      move(1);
-      setStatus(message + ` 本次已檢查 ${checked} 句。`);
+      const submittedResult = Boolean(result.results?.[key(id)]);
+      awaitingContinue = true;
+      renderExercise();
+      setStatus(submittedResult ? '答對了！請閱讀正確句子後繼續。' : '答案不完全相同（包括大小寫）。請閱讀正確句子；這一句會在下一輪再試。', !submittedResult);
     } else {
-      queue = allIds().filter(id => !solved[id]);
+      queue = practiceScope.filter(id => !isPracticeCorrect(id));
       cursor = 0;
       if (queue.length) round += 1;
       renderExercise();
@@ -257,16 +297,30 @@ async function submit(ids, full = false, advance = false) {
   } finally {
     busy = false;
     host.querySelectorAll('[data-check], [data-submit]').forEach(button => {
-      if (button.hasAttribute('data-check')) button.disabled = !String(drafts[currentId()] || '').trim();
-      else button.disabled = button.dataset.submit === 'full' ? allIds().some(id => !String(drafts[id] || '').trim()) : !allIds().some(id => String(drafts[id] || '').trim());
+      if (button.hasAttribute('data-check')) button.disabled = awaitingContinue || !String(drafts[currentId()] || '').trim();
+      else button.disabled = awaitingContinue || (button.dataset.submit === 'full' ? practiceScope.some(id => !String(drafts[id] || '').trim()) : !practiceScope.some(id => String(drafts[id] || '').trim()));
     });
   }
 }
 host.addEventListener('input', event => {
+  if (event.target.matches('[data-random-count]')) {
+    randomCount = Math.max(1, Math.min(Number(event.target.value) || 1, totalCount()));
+    const start = host.querySelector('[data-start]');
+    if (start && practiceMode === 'random') start.textContent = `開始 ${randomCount} 句隨機默寫`;
+    return;
+  }
   if (!event.target.matches('[data-answer]')) return;
   drafts[currentId()] = event.target.value;
   saveDraft();
   host.querySelector('[data-check]').disabled = !event.target.value.trim() || busy;
+});
+host.addEventListener('change', event => {
+  if (!event.target.matches('[data-practice-mode]')) return;
+  practiceMode = event.target.value === 'random' ? 'random' : 'sequential';
+  const options = host.querySelector('[data-random-options]');
+  if (options) options.hidden = practiceMode !== 'random';
+  const start = host.querySelector('[data-start]');
+  if (start) start.textContent = practiceMode === 'random' ? `開始 ${randomCount} 句隨機默寫` : '開始順序默寫';
 });
 host.addEventListener('click', async event => {
   const target = event.target.closest('button');
@@ -285,10 +339,19 @@ host.addEventListener('click', async event => {
   } else if (target.matches('[data-story]')) {
     sentencePlayer.pause();
     renderStory();
+  } else if (target.matches('[data-focus-practice]')) {
+    host.querySelector('[data-practice-setup]')?.scrollIntoView({behavior:'smooth', block:'center'});
   } else if (target.matches('[data-start]')) {
     host.querySelector('audio')?.pause();
-    queue = allIds().filter(id => !solved[id]);
+    const countInput = host.querySelector('[data-random-count]');
+    randomCount = Math.max(1, Math.min(Number(countInput?.value) || 1, totalCount()));
+    practiceScope = practiceMode === 'random' ? shuffledIds().slice(0, randomCount) : allIds();
+    practiceSolved = {};
+    review = [];
+    awaitingContinue = false;
+    queue = practiceMode === 'random' ? [...practiceScope] : practiceScope.filter(id => !solved[id]);
     cursor = 0;
+    round = 1;
     renderExercise();
   } else if (target.matches('[data-toggle-translation]')) {
     showTranslation = !showTranslation;
@@ -309,8 +372,9 @@ host.addEventListener('click', async event => {
     try { await sentencePlayer.play(); } catch { setStatus('語音暫時無法播放，請稍後再試。', true); }
   } else if (target.matches('[data-prev]')) move(-1);
   else if (target.matches('[data-next]')) move(1);
+  else if (target.matches('[data-continue]')) move(1);
   else if (target.matches('[data-check]')) void submit([currentId()], false, true);
-  else if (target.matches('[data-submit]')) void submit(allIds(), target.dataset.submit === 'full');
+  else if (target.matches('[data-submit]')) void submit(practiceScope, target.dataset.submit === 'full');
 });
 
 function syncSession() {
