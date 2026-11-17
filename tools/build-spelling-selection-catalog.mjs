@@ -26,7 +26,7 @@ const titleCase = (value) => String(value || "")
   .join(" ")
   .replace(/Ielts/g, "IELTS")
   .replace(/Dse/g, "DSE");
-const cleanSource = (value) => String(value || "").replace(/^Flash Card\s*-\s*/i, "").replace(/\.pdf$/i, "").trim();
+const cleanSource = (value) => String(value || "").replace(/^Flash\s*Card\s*-\s*/i, "").replace(/\.pdf$/i, "").trim();
 const normalized = (value) => String(value || "").normalize("NFKC").trim().replace(/\s+/g, " ").toLocaleLowerCase("en");
 const hash = (value) => {
   let result = 2166136261;
@@ -66,10 +66,11 @@ const sectionLabels = {
   "process-diagrams": ["Process Diagrams", "流程圖"],
   "mixed-charts": ["Mixed Charts", "混合圖表"],
   "opinions": ["Opinions", "立場題"],
-  "discuss-both-views-your-opinion": ["Discuss Both Views + Opinion", "雙方觀點及立場"],
-  "advantage-and-disadvantage": ["Advantages & Disadvantages", "利弊題"],
-  "cause-and-solution": ["Causes & Solutions", "成因及解決方法"],
-  "direct-question": ["Direct Questions", "直接問題"],
+  "discuss-both-views-your-opinion": ["Discuss both views + Your opinion", "雙方觀點及立場"],
+  "advantage-and-disadvantage": ["Advantage and Disadvantage", "利弊題"],
+  "problem-and-cause": ["Problem and Cause", "問題與成因題"],
+  "cause-and-solution": ["Problem and Cause", "問題及成因題"],
+  "direct-question": ["Direct question", "直接問題"],
 };
 
 const decks = [];
@@ -139,7 +140,9 @@ for (const seed of task2Seeds) {
 }
 for (const [key, cards] of mergedTask2) {
   const parts = key.split("/");
-  const type = parts[2] || "direct-question";
+  // Keys use ielts/writing/task-2/<essay-type>/<deck>.  Reading parts[2]
+  // collapsed every Task 2 deck into a single "task-2" section.
+  const type = parts[3] || "direct-question";
   const [sectionLabel, sectionZh] = sectionLabels[type] || [titleCase(type), ""];
   addDeck({
     id: `ielts-t2-${hash(key)}`,
