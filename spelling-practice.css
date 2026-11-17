@@ -534,6 +534,9 @@ body[data-learning-portal="spelling"] {
   font: inherit;
   cursor: pointer;
 }
+.spelling-deck-grid button > span:last-child { min-width: 0; display: grid; gap: 4px; }
+.spelling-deck-grid button strong { overflow-wrap: anywhere; }
+.spelling-deck-grid button small { color: var(--spell-muted); font-weight: 760; }
 .spelling-deck-grid button[aria-pressed="true"] { border-color: var(--spell-green); background: var(--spell-green-soft); }
 .spelling-deck-check { flex: 0 0 auto; width: 19px; height: 19px; margin-top: 2px; display: grid; place-items: center; border: 2px solid var(--spell-gray); border-radius: 6px; }
 .spelling-deck-grid button[aria-pressed="true"] .spelling-deck-check { border-color: var(--spell-green-dark); background: var(--spell-green-dark); box-shadow: inset 0 0 0 3px white; }
@@ -584,4 +587,192 @@ body[data-learning-portal="spelling"] {
   .spelling-card.is-very-long { padding-inline: 11px; }
   .spelling-card.is-very-long .spelling-slots { gap: 3px; }
   .spelling-card.is-very-long .spelling-token { gap: 2px; }
+}
+
+/* Records, collection search, completion states and quick practice modes. */
+.spelling-view-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.spelling-record-tabs { margin-left: auto; }
+
+.spelling-record-panel { transition: border-color .18s ease, background .18s ease; }
+.spelling-record-panel.is-fully-complete {
+  border-color: #4f9c72;
+  background: linear-gradient(145deg, #fffdf5, #e7f7ec);
+  box-shadow: 0 22px 54px rgba(53, 109, 89, .16);
+}
+.spelling-record-heading {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+.spelling-record-heading h2 { margin: 0; font: 800 clamp(27px, 3vw, 39px)/1.1 Georgia, "Noto Serif TC", serif; }
+.spelling-record-heading p:last-child { max-width: 720px; margin: 9px 0 0; color: var(--spell-muted); font-weight: 720; }
+.spelling-record-heading__actions { display: flex; align-items: center; gap: 12px; }
+.spelling-record-heading__actions > span { color: var(--spell-green-dark); font-weight: 950; }
+.spelling-record-list { display: grid; gap: 10px; }
+.spelling-record-row {
+  padding: 15px 17px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid var(--spell-line);
+  border-radius: 16px;
+  background: white;
+}
+.spelling-record-row.is-complete { border-color: #7abb98; background: #eff9f2; }
+.spelling-record-state {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  color: #805213;
+  border-radius: 50%;
+  background: #fff1c7;
+  font-weight: 950;
+}
+.spelling-record-row.is-complete .spelling-record-state { color: white; background: var(--spell-green-dark); }
+.spelling-record-copy { min-width: 0; display: grid; gap: 3px; }
+.spelling-record-copy strong { font-size: 18px; overflow-wrap: anywhere; }
+.spelling-record-copy span { color: var(--spell-muted); font-weight: 750; }
+.spelling-record-copy small { color: var(--spell-muted); overflow-wrap: anywhere; }
+.spelling-record-counts { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; justify-content: flex-end; }
+.spelling-record-counts span,
+.spelling-record-counts em { padding: 5px 9px; border-radius: 999px; font-size: 12px; font-style: normal; font-weight: 900; white-space: nowrap; }
+.spelling-record-counts .is-correct { color: var(--spell-green-dark); background: #e3f3e9; }
+.spelling-record-counts .is-wrong { color: #8b4d18; background: #fff0dd; }
+.spelling-record-counts em { color: var(--spell-muted); background: #f2eee7; }
+.spelling-record-row.is-complete .spelling-record-counts em { color: var(--spell-green-dark); background: #d6eddf; }
+.spelling-record-row > button {
+  min-height: 42px;
+  padding: 0 14px;
+  color: var(--spell-ink);
+  border: 1px solid var(--spell-line);
+  border-radius: 12px;
+  background: white;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.spelling-deck-search-area { margin: 0 0 18px; }
+.spelling-deck-search { display: grid; gap: 7px; }
+.spelling-deck-search > span { font-size: 13px; font-weight: 950; }
+.spelling-deck-search input {
+  width: min(100%, 660px);
+  min-height: 46px;
+  padding: 0 17px;
+  color: var(--spell-ink);
+  border: 1px solid var(--spell-line);
+  border-radius: 999px;
+  background: white;
+  font: inherit;
+  font-weight: 760;
+}
+.spelling-deck-search input:focus { outline: 3px solid rgba(116, 173, 147, .24); border-color: var(--spell-green); }
+.spelling-deck-search-results { margin-top: 10px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.spelling-deck-search-results:empty { display: none; }
+.spelling-deck-search-result {
+  min-width: 0;
+  padding: 12px 14px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  color: var(--spell-ink);
+  border: 1px solid var(--spell-line);
+  border-radius: 14px;
+  background: white;
+  font: inherit;
+  cursor: pointer;
+}
+.spelling-deck-search-result > span:nth-child(2) { min-width: 0; display: grid; gap: 4px; }
+.spelling-deck-search-result strong,
+.spelling-deck-search-result small { overflow-wrap: anywhere; }
+.spelling-deck-search-result small { color: var(--spell-muted); font-weight: 740; }
+.spelling-deck-search-result em { color: var(--spell-red); font-size: 12px; font-style: normal; font-weight: 950; }
+.spelling-deck-search-result[aria-pressed="true"] { border-color: #e2bb3f; background: #fff9cf; }
+.spelling-deck-search-result.is-complete { border-color: #4f9c72; background: #e5f6eb; }
+.spelling-deck-search-empty { grid-column: 1 / -1; margin: 0; padding: 13px 15px; color: var(--spell-muted); border: 1px dashed var(--spell-line); border-radius: 14px; }
+
+.spelling-deck-grid button.is-complete,
+.spelling-section-choice.is-complete {
+  border-color: #4f9c72;
+  background: linear-gradient(145deg, #effaf2, #dff3e6);
+  box-shadow: inset 0 0 0 2px rgba(79, 156, 114, .14);
+}
+.spelling-deck-grid button.is-complete .spelling-deck-check,
+.spelling-section-choice.is-complete .spelling-section-card__badge {
+  color: white;
+  border-color: var(--spell-green-dark);
+  background: var(--spell-green-dark);
+  box-shadow: none;
+}
+.spelling-section-choice.is-complete em { color: var(--spell-green-dark); }
+
+.spelling-quick-modes {
+  margin-top: 22px;
+  padding: clamp(18px, 3vw, 28px);
+  border: 1px solid var(--spell-gold);
+  border-radius: 20px;
+  background: linear-gradient(145deg, #fffdf5, #fff8dc);
+}
+.spelling-quick-modes__heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; }
+.spelling-quick-modes__heading h3 { margin: 0; font: 800 clamp(23px, 2.5vw, 32px)/1.15 Georgia, "Noto Serif TC", serif; }
+.spelling-quick-modes__heading p:last-child { max-width: 720px; margin: 8px 0 0; color: var(--spell-muted); font-weight: 740; }
+.spelling-quick-modes__heading > strong { color: var(--spell-red); white-space: nowrap; }
+.spelling-quick-random { margin-top: 20px; display: flex; align-items: center; flex-wrap: wrap; gap: 9px; }
+.spelling-quick-random > span { margin-right: 4px; font-weight: 950; }
+.spelling-quick-random button,
+.spelling-quick-ranges button {
+  min-height: 42px;
+  padding: 0 14px;
+  color: var(--spell-ink);
+  border: 1px solid var(--spell-line);
+  border-radius: 12px;
+  background: white;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+}
+.spelling-quick-random button:hover,
+.spelling-quick-ranges button:hover { border-color: #e2bb3f; background: var(--spell-yellow); }
+.spelling-quick-random button:disabled,
+.spelling-quick-ranges button:disabled { opacity: .4; cursor: not-allowed; }
+.spelling-quick-ranges { margin-top: 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.spelling-quick-ranges label { padding: 13px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; border: 1px solid var(--spell-line); border-radius: 15px; background: rgba(255,255,255,.75); }
+.spelling-quick-ranges label > span { font-weight: 950; }
+.spelling-quick-ranges select { min-width: 0; min-height: 42px; padding: 0 36px 0 12px; color: var(--spell-ink); border: 1px solid var(--spell-line); border-radius: 11px; background: white; font: inherit; font-weight: 780; }
+.spelling-quick-status { min-height: 1.5em; margin: 12px 0 0; color: var(--spell-green-dark); font-weight: 900; }
+
+@media (max-width: 900px) {
+  .spelling-record-heading { align-items: flex-start; flex-direction: column; }
+  .spelling-record-row { grid-template-columns: auto minmax(0, 1fr) auto; }
+  .spelling-record-counts { grid-column: 2 / -1; grid-row: 2; justify-content: flex-start; }
+  .spelling-record-row > button { grid-column: 3; grid-row: 1; }
+  .spelling-deck-search-results,
+  .spelling-quick-ranges { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .spelling-view-navigation,
+  .spelling-view-tabs { width: 100%; }
+  .spelling-view-tabs { display: grid; grid-template-columns: 1fr 1fr; }
+  .spelling-record-tabs { margin-left: 0; }
+  .spelling-record-heading__actions { width: 100%; align-items: stretch; flex-direction: column; }
+  .spelling-record-row { grid-template-columns: auto minmax(0, 1fr); }
+  .spelling-record-row > button { grid-column: 1 / -1; grid-row: auto; }
+  .spelling-record-counts { grid-column: 1 / -1; grid-row: auto; justify-content: flex-start; }
+  .spelling-deck-search-results { grid-template-columns: 1fr; }
+  .spelling-quick-modes__heading { align-items: flex-start; flex-direction: column; }
+  .spelling-quick-ranges label { grid-template-columns: 1fr; }
+  .spelling-quick-ranges button { width: 100%; }
 }
