@@ -57,6 +57,7 @@ function defaultState() {
     selectedDeckIds: [],
     deckSearch: "",
     wordFilter: "all",
+    typingEffectOn: true,
     phase: "setup",
     correctById: {},
     totalCorrect: 0,
@@ -206,6 +207,7 @@ function normalizeState(candidate) {
     selectedDeckIds,
     deckSearch: String(candidate.deckSearch || "").slice(0, 120),
     wordFilter: ["all", "unmastered", "mastered"].includes(candidate.wordFilter) ? candidate.wordFilter : "all",
+    typingEffectOn: candidate.typingEffectOn !== false,
     phase,
     correctById,
     totalCorrect,
@@ -427,6 +429,7 @@ function icon(name) {
     check: '<path d="m5 12 4 4L19 6"/>',
     arrow: '<path d="m9 18 6-6-6-6"/>',
     chevron: '<path d="m7 10 5 5 5-5"/>',
+    sparkle: '<circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3"/>',
     replay: '<path d="M20 11a8 8 0 1 0 2 5M20 4v7h-7"/>'
   };
   return `<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${paths[name] || ""}</svg>`;
@@ -722,8 +725,8 @@ function practiceMarkup() {
   const wordCorrect = appState.correctById[entry.id] || 0;
   const meaningLength = [...entry.meaning].length;
   const lengthClass = meaningLength > 32 ? " is-very-long" : meaningLength > 18 ? " is-long" : "";
-  return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}">
-    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div></header>
+  return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}" data-typing-effects="${appState.typingEffectOn}">
+    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-header__right"><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div><button class="spelling-typing-effect-toggle" type="button" data-typing-effect-toggle aria-pressed="${appState.typingEffectOn}" aria-label="舒緩打字效果：${appState.typingEffectOn ? "已開啟" : "已關閉"}">${icon("sparkle")}<span>柔光打字</span><strong>${appState.typingEffectOn ? "開" : "關"}</strong></button></div></header>
     <div class="spelling-progress" aria-label="本輪完成 ${percentage}%"><i style="width:${percentage}%"></i></div>
     <main class="spelling-card${lengthClass}">
       <div class="spelling-meaning-row"><h1>${escapeHtml(entry.meaning)}</h1><button class="spelling-sound" type="button" data-speak aria-label="播放英文讀音">${icon("sound")}<span>聆聽</span></button></div>
@@ -731,7 +734,7 @@ function practiceMarkup() {
       <form data-answer-form novalidate>
         ${answerArea(entry)}
         <div class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : appState.feedback}" role="status" aria-live="assertive">${feedbackHtml(entry)}</div>
-        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" data-next-now>立即下一題 <kbd>Space</kbd> ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
+        ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" data-next-now>立即下一題 <kbd>Space</kbd><span aria-hidden="true">/</span><kbd>Enter</kbd> ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
       </form>
       <p class="spelling-attempts">本輪作答 ${appState.totalAttempts} 次；只有答對才會計入完成次數。</p>
     </main>
@@ -1135,9 +1138,49 @@ function chooseDropdownOption(dropdown, option) {
   closeDropdown(dropdown, true);
 }
 
+function clearWritingEffects() {
+  document.querySelectorAll(".spelling-writing-effect").forEach((effect) => effect.remove());
+}
+
+function playWritingEffect(input, deleting = false) {
+  if (!input || !appState?.typingEffectOn || window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
+  const rect = input.getBoundingClientRect();
+  if (!rect.width || !rect.height) return;
+  const layer = document.createElement("span");
+  layer.className = `spelling-writing-effect ${deleting ? "is-erasing" : "is-typing"}`;
+  layer.dataset.mode = deleting ? "erase" : "type";
+  layer.style.left = `${rect.left + rect.width / 2}px`;
+  layer.style.top = `${rect.top + rect.height * .58}px`;
+  layer.innerHTML = `<i class="spelling-writing-ripple"></i>${Array.from({ length: deleting ? 3 : 5 }, (_, index) => `<i class="spelling-writing-mote" style="--mote-index:${index};--mote-x:${Math.round((Math.random() - .5) * (deleting ? 34 : 62))}px;--mote-y:-${Math.round((deleting ? 8 : 16) + Math.random() * (deleting ? 22 : 38))}px"></i>`).join("")}`;
+  document.body.append(layer);
+  const host = input.closest(".spelling-slot, .spelling-line-answer") || input;
+  host.animate(deleting
+    ? [{ filter: "drop-shadow(0 0 0 rgba(116,173,147,0))", transform: "scale(1)" }, { filter: "drop-shadow(0 0 9px rgba(116,173,147,.26))", transform: "scale(.985)" }, { filter: "drop-shadow(0 0 0 rgba(116,173,147,0))", transform: "scale(1)" }]
+    : [{ filter: "drop-shadow(0 0 0 rgba(230,181,78,0))", transform: "translateY(0)" }, { filter: "drop-shadow(0 0 11px rgba(230,181,78,.3))", transform: "translateY(-2px)" }, { filter: "drop-shadow(0 0 0 rgba(230,181,78,0))", transform: "translateY(0)" }],
+  { duration: deleting ? 430 : 560, easing: "cubic-bezier(.22,.8,.35,1)" });
+  setTimeout(() => layer.remove(), deleting ? 620 : 820);
+  const activeEffects = document.querySelectorAll(".spelling-writing-effect");
+  if (activeEffects.length > 24) [...activeEffects].slice(0, activeEffects.length - 24).forEach((effect) => effect.remove());
+}
+
+function updateTypingEffectToggle(app) {
+  const enabled = appState.typingEffectOn;
+  app?.setAttribute("data-typing-effects", String(enabled));
+  const toggle = app?.querySelector("[data-typing-effect-toggle]");
+  toggle?.setAttribute("aria-pressed", String(enabled));
+  toggle?.setAttribute("aria-label", `舒緩打字效果：${enabled ? "已開啟" : "已關閉"}`);
+  const state = toggle?.querySelector("strong");
+  if (state) state.textContent = enabled ? "開" : "關";
+  if (!enabled) clearWritingEffects();
+}
+
 document.addEventListener("input", (event) => {
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
+  if (event.target.matches("[data-letter-position], [data-line-answer]")) {
+    const deleting = String(event.inputType || "").startsWith("delete") || !event.target.value;
+    playWritingEffect(event.target, deleting);
+  }
   if (event.target.matches("[data-difficulty]")) {
     appState.difficulty = Number(event.target.value);
     updateSetupSummary(app);
@@ -1180,6 +1223,7 @@ document.addEventListener("beforeinput", (event) => {
   previous.value = "";
   delete appState.draftLetters[String(previous.dataset.letterPosition)];
   persistAndPublish();
+  playWritingEffect(previous, true);
   previous.focus();
 });
 
@@ -1216,7 +1260,7 @@ document.addEventListener("keydown", (event) => {
   }
   if (event.key === "Escape") closeAllDropdowns();
   const interactiveTarget = event.target.closest('button, input, textarea, select, a, [contenteditable="true"], [role="option"]');
-  if (event.code === "Space" && !event.repeat && !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey && !interactiveTarget && app.querySelector("[data-next-now]")) {
+  if (["Space", "Enter", "NumpadEnter"].includes(event.code) && !event.repeat && !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey && !interactiveTarget && app.querySelector("[data-next-now]")) {
     event.preventDefault();
     advanceCorrectNow();
     return;
@@ -1229,6 +1273,7 @@ document.addEventListener("keydown", (event) => {
       previous.value = "";
       delete appState.draftLetters[String(previous.dataset.letterPosition)];
       persistAndPublish();
+      playWritingEffect(previous, true);
       previous.focus();
     }
   }
@@ -1319,6 +1364,12 @@ document.addEventListener("click", (event) => {
   if (!event.target.closest("[data-spelling-dropdown]")) closeAllDropdowns();
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
+  if (event.target.closest("[data-typing-effect-toggle]")) {
+    appState.typingEffectOn = !appState.typingEffectOn;
+    updateTypingEffectToggle(app);
+    persistAndPublish();
+    return;
+  }
   const dropdownToggle = event.target.closest("[data-dropdown-toggle]");
   if (dropdownToggle) {
     const dropdown = dropdownToggle.closest("[data-spelling-dropdown]");

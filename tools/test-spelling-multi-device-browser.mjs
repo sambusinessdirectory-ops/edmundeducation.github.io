@@ -65,6 +65,9 @@ try {
 
   const typedPosition = await first.page.evaluate(() => __spellingSyncQa.typeOne());
   const typedValue = await first.page.evaluate((position) => __spellingSyncQa.state().draftLetters[position], typedPosition);
+  assert.equal(await first.page.locator('[data-typing-effect-toggle]').getAttribute('aria-pressed'), 'true');
+  assert.ok(await first.page.locator('.spelling-writing-effect[data-mode="type"]').count() > 0);
+  if (process.env.SPELLING_QA_SCREENSHOT) await first.page.screenshot({ path: `${process.env.SPELLING_QA_SCREENSHOT}-writing-effect.png` });
   await second.page.waitForFunction(({ position, value }) => __spellingSyncQa.state().draftLetters[position] === value, { position: typedPosition, value: typedValue });
   const mobileInputPresentation = await second.page.locator(`[data-letter-position="${typedPosition}"]`).evaluate((input) => ({
     value: input.value,
@@ -77,6 +80,18 @@ try {
   assert.equal(mobileInputPresentation.opacity, '1');
   assert.ok((await second.page.locator('.spelling-token').all()).length > 0);
   assert.ok((await second.page.locator('.spelling-token').evaluateAll((tokens) => tokens.every((token) => getComputedStyle(token).whiteSpace === 'nowrap'))));
+  await first.page.evaluate((position) => {
+    const input = document.querySelector(`[data-letter-position="${position}"]`);
+    input.value = '';
+    input.dispatchEvent(new InputEvent('input', { bubbles: true, inputType: 'deleteContentBackward' }));
+  }, typedPosition);
+  assert.ok(await first.page.locator('.spelling-writing-effect[data-mode="erase"]').count() > 0);
+  await first.page.evaluate(() => document.querySelector('[data-typing-effect-toggle]').click());
+  assert.equal(await first.page.locator('[data-typing-effect-toggle]').getAttribute('aria-pressed'), 'false');
+  await first.page.waitForTimeout(850);
+  assert.equal(await first.page.locator('.spelling-writing-effect').count(), 0);
+  await first.page.evaluate(() => document.querySelector('[data-typing-effect-toggle]').click());
+  assert.equal(await first.page.locator('[data-typing-effect-toggle]').getAttribute('aria-pressed'), 'true');
 
   await first.page.evaluate(() => __spellingSyncQa.wrong());
   await second.page.waitForFunction(() => __spellingSyncQa.state().awaitingNext === true);
@@ -140,9 +155,17 @@ try {
     await isolated.page.waitForTimeout(150);
   }
   await isolated.page.locator('.eddy-first-question-overlay').waitFor({ state: 'detached' });
+  assert.match(await isolated.page.locator('[data-next-now]').innerText(), /Space[\s\S]*Enter/);
+  if (process.env.SPELLING_QA_SCREENSHOT) await isolated.page.screenshot({ path: `${process.env.SPELLING_QA_SCREENSHOT}-mobile-practice.png` });
+  await isolated.page.evaluate(() => { const app = document.querySelector('[data-spelling-app]'); app.tabIndex = -1; app.focus(); });
   const spaceReadyId = await isolated.page.evaluate(() => __spellingSyncQa.state().currentId);
   await isolated.page.keyboard.press('Space');
   await isolated.page.waitForFunction((previousId) => __spellingSyncQa.state().feedback === '' && __spellingSyncQa.state().currentId !== previousId, spaceReadyId);
+  await isolated.page.evaluate(() => __spellingSyncQa.spaceReady());
+  await isolated.page.evaluate(() => { const app = document.querySelector('[data-spelling-app]'); app.tabIndex = -1; app.focus(); });
+  const enterReadyId = await isolated.page.evaluate(() => __spellingSyncQa.state().currentId);
+  await isolated.page.keyboard.press('Enter');
+  await isolated.page.waitForFunction((previousId) => __spellingSyncQa.state().feedback === '' && __spellingSyncQa.state().currentId !== previousId, enterReadyId);
   await isolated.page.locator('[data-back-to-bank]').click();
   assert.equal(await isolated.page.locator('.spelling-table-wrap thead th').count(), 3);
   assert.doesNotMatch(await isolated.page.locator('.spelling-bank').innerText(), /字母拆分/);
@@ -208,7 +231,7 @@ try {
   assert.ok(await isolated.page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), 'Mobile setup must not overflow horizontally.');
   assert.deepEqual(errors, []);
   await Promise.all([first.context.close(), second.context.close(), isolated.context.close()]);
-  console.log('PASS spelling live sync and feature QA: focus return, Space next, Eddy streak, record re-practice, custom dropdowns, random/range modes and green completion.');
+  console.log('PASS spelling live sync and feature QA: soothing typing/erase effects, Space/Enter next, Eddy streak, record re-practice, custom dropdowns and green completion.');
 } finally {
   await browser.close();
 }

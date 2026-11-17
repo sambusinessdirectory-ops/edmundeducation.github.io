@@ -287,10 +287,17 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
 .spelling-workspace--practice { min-height: calc(100vh - 130px); align-content: start; }
 .spelling-practice-header { padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; border: 1px solid var(--spell-line); border-radius: 18px; background: rgba(255,255,255,.9); }
 .spelling-practice-header button { padding: 0 15px; }
-.spelling-practice-header div { display: flex; align-items: baseline; gap: 18px; }
+.spelling-practice-header__right,
+.spelling-practice-metrics { display: flex; align-items: center; gap: 18px; }
 .spelling-practice-header span { color: var(--spell-muted); font-size: 12px; font-weight: 900; }
 .spelling-practice-header strong { font: 800 25px/1 Georgia, serif; }
 .spelling-practice-metrics span { display: inline-flex; align-items: baseline; gap: 7px; }
+.spelling-typing-effect-toggle { display: inline-flex; align-items: center; gap: 7px; transition: border-color .18s ease, background .18s ease, box-shadow .18s ease, transform .18s ease; }
+.spelling-typing-effect-toggle svg { width: 18px; height: 18px; color: var(--spell-green-dark); }
+.spelling-typing-effect-toggle strong { min-width: 26px; padding: 3px 7px; border-radius: 999px; color: #7b6750; background: #efeae3; font-family: inherit; font-size: 11px; font-weight: 950; line-height: 1.2; text-align: center; }
+.spelling-typing-effect-toggle[aria-pressed="true"] { border-color: #8ec4a7; background: linear-gradient(135deg, #f0faf3, #fff9df); box-shadow: 0 6px 16px rgba(53,109,89,.1); }
+.spelling-typing-effect-toggle[aria-pressed="true"] strong { color: white; background: var(--spell-green-dark); }
+.spelling-typing-effect-toggle[aria-pressed="true"] svg { animation: spelling-sparkle-breathe 2.8s ease-in-out infinite; }
 .spelling-progress { height: 8px; overflow: hidden; border-radius: 999px; background: #dbe7e0; }
 .spelling-progress i { height: 100%; display: block; border-radius: inherit; background: linear-gradient(90deg, var(--spell-green), #78ac8f); transition: width .45s ease; }
 
@@ -324,6 +331,21 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
 .spelling-comparison mark.is-missing { color: #8b5a00; }
 .spelling-submit { min-width: 220px; margin: auto; }
 .spelling-attempts { margin: 24px 0 0; color: var(--spell-muted); text-align: center; font-size: 12px; font-weight: 800; }
+
+.spelling-writing-effect { width: 8px; height: 8px; position: fixed; z-index: 9999; pointer-events: none; transform: translate(-50%, -50%); }
+.spelling-writing-effect i { position: absolute; display: block; pointer-events: none; }
+.spelling-writing-ripple { width: 18px; height: 18px; top: -5px; left: -5px; border: 2px solid rgba(116,173,147,.62); border-radius: 50%; }
+.spelling-writing-effect.is-typing .spelling-writing-ripple { border-color: rgba(226,180,71,.64); animation: spelling-soft-ripple 700ms cubic-bezier(.16,.8,.3,1) forwards; }
+.spelling-writing-effect.is-erasing .spelling-writing-ripple { animation: spelling-soft-erase 520ms cubic-bezier(.3,.7,.4,1) forwards; }
+.spelling-writing-mote { width: 6px; height: 6px; top: 1px; left: 1px; border-radius: 50% 50% 50% 14%; background: linear-gradient(135deg, #f3d98c, #77b597); box-shadow: 0 0 8px rgba(116,173,147,.28); opacity: 0; }
+.spelling-writing-effect.is-typing .spelling-writing-mote { animation: spelling-mote-bloom 780ms cubic-bezier(.15,.7,.28,1) calc(var(--mote-index) * 28ms) forwards; }
+.spelling-writing-effect.is-erasing .spelling-writing-mote { background: linear-gradient(135deg, #a8d5c0, #e7d8bd); animation: spelling-mote-return 580ms ease-out calc(var(--mote-index) * 25ms) forwards; }
+
+@keyframes spelling-sparkle-breathe { 0%, 100% { transform: rotate(0) scale(1); } 50% { transform: rotate(12deg) scale(1.12); } }
+@keyframes spelling-soft-ripple { 0% { opacity: 0; transform: scale(.3); } 28% { opacity: .75; } 100% { opacity: 0; transform: scale(2.8); } }
+@keyframes spelling-soft-erase { 0% { opacity: 0; transform: scale(2.2); } 38% { opacity: .68; } 100% { opacity: 0; transform: scale(.25); } }
+@keyframes spelling-mote-bloom { 0% { opacity: 0; transform: translate(0, 0) rotate(0) scale(.2); } 24% { opacity: .82; } 100% { opacity: 0; transform: translate(var(--mote-x), var(--mote-y)) rotate(110deg) scale(.15); } }
+@keyframes spelling-mote-return { 0% { opacity: 0; transform: translate(var(--mote-x), var(--mote-y)) scale(.2); } 38% { opacity: .62; } 100% { opacity: 0; transform: translate(0, 0) scale(.1); } }
 
 .spelling-workspace--complete { min-height: calc(100vh - 140px); place-items: center; }
 .spelling-complete-card { width: min(100%, 840px); padding: clamp(38px, 7vw, 84px); text-align: center; }
@@ -389,7 +411,8 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
   }
   .spelling-complete-stats { grid-template-columns: 1fr; }
   .spelling-complete-actions { flex-direction: column; }
-  .spelling-practice-header { align-items: flex-start; }
+  .spelling-practice-header { align-items: flex-start; flex-wrap: wrap; }
+  .spelling-practice-header__right { width: 100%; align-items: flex-end; flex-direction: column; gap: 10px; }
   .spelling-practice-metrics { align-items: flex-end !important; flex-direction: column; gap: 7px !important; }
   .spelling-comparison > div { grid-template-columns: 1fr; gap: 5px; }
   .spelling-history-row summary { grid-template-columns: 1fr; }
@@ -398,6 +421,7 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+  .spelling-writing-effect { display: none !important; }
 }
 
 /* 2026 storybook journal interface — original ImageGen art, not third-party artwork. */
