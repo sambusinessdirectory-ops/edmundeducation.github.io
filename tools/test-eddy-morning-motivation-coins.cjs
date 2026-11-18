@@ -9,6 +9,7 @@ const pages = {
   '/': '<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/eddy-global-dialogues.css"></head><body><script src="/eddy-global-dialogues.js"></script></body></html>',
   '/schedule-system.html': '<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/eddy-first-question-dialogue.css"><link rel="stylesheet" href="/eddy-schedule-two-day-dialogue.css"></head><body><div data-view="calendar"></div><script>sessionStorage.setItem("edmund-schedule-session-v1",JSON.stringify({role:"student",id:"student-1"}));</script><script src="/eddy-schedule-self-rating-dialogue.js"></script></body></html>',
   '/nav-coin': '<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/shared-system-nav.css"></head><body><div class="edmund-system-switcher" data-edmund-system-switcher data-system="schedule"></div><div class="edmund-system-header__actions"></div><script>sessionStorage.setItem("edmund-schedule-session-v1",JSON.stringify({role:"student",id:"student-1",name:"Student",studentToken:"test-token"}));window.EDMUND_SUPABASE={url:"https://invalid.example",anonKey:"test"};</script><script src="/shared-system-nav.js"></script></body></html>',
+  '/shared-login': '<!doctype html><html><body><section data-login-view><form data-login-form><input name="username" autocomplete="username"><input name="password" type="password"><button type="submit">Login</button></form></section><div class="edmund-system-switcher" data-edmund-system-switcher data-system="schedule"></div><div class="edmund-system-header__actions"></div><script src="/shared-system-nav.js"></script><script>document.querySelector("form").addEventListener("submit",event=>{event.preventDefault();setTimeout(()=>window.EdmundSystemNav.rememberStudentSession({token:"new-token",id:"student-login",name:"Student Login",role:"student"}),20);});</script></body></html>',
   '/coin': '<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><button id="wallet">Coins</button><script type="module">import{showCoinEddy}from"/eddy-coin-wallet-dialogue.mjs";document.querySelector("#wallet").onclick=()=>showCoinEddy(()=>document.body.dataset.walletOpened="true")</script></body></html>'
 };
 const server = http.createServer((req, res) => {
@@ -80,6 +81,23 @@ const server = http.createServer((req, res) => {
     await navCoin.locator('[data-edmund-coin-dialog][open]').waitFor();
     assert.deepEqual(await navCoin.evaluate(() => window.coinSoundEvents), ['dialogue', 'details']);
     await navCoin.close();
-    console.log('Morning, motivation, and coin dialogue browser checks passed.');
+    const login=await context.newPage();
+    await login.addInitScript(() => {
+      window.loginSoundEvents = [];
+      HTMLMediaElement.prototype.pause = function pause() {};
+      HTMLMediaElement.prototype.play = function play() {
+        if (this.hasAttribute('data-edmund-student-login-success-sound')) window.loginSoundEvents.push('login');
+        return Promise.resolve();
+      };
+    });
+    await login.goto(origin+'/shared-login');
+    await login.locator('button[type="submit"]').click();
+    await login.waitForFunction(() => window.loginSoundEvents.length === 1);
+    assert.deepEqual(await login.evaluate(() => window.loginSoundEvents), ['login']);
+    await login.reload();
+    await login.waitForTimeout(300);
+    assert.deepEqual(await login.evaluate(() => window.loginSoundEvents), [], 'automatic session restoration stays silent');
+    await login.close();
+    console.log('Morning, motivation, coin dialogue, and shared-login browser checks passed.');
   } finally { await browser.close(); server.close(); }
 })().catch(error => { console.error(error); process.exitCode=1; });

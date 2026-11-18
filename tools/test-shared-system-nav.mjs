@@ -13,6 +13,14 @@ test("the night-return message explicitly stays white over its dark background",
   assert.match(cssSource, /\.edmund-night-return #edmund-night-return-title\s*\{\s*color:\s*#fff;\s*\}/);
 });
 
+test("successful student login sound follows a real login submission", () => {
+  assert.ok(fs.statSync(path.join(root, "shared-student-login-success.mp3")).size < 50_000);
+  assert.match(scriptSource, /shared-student-login-success\.mp3\?v=20261118-1/);
+  assert.match(scriptSource, /document\.addEventListener\("submit", watchStudentLoginSubmission, true\)/);
+  assert.match(scriptSource, /bridgeStudentSession\(normalized, true\);\s*completePendingStudentLoginSound\(normalized\)/);
+  assert.doesNotMatch(scriptSource, /restorePersistentDeviceSession[\s\S]*?playSuccessfulStudentLoginSound\(\)/);
+});
+
 class MemoryStorage {
   constructor() { this.values = new Map(); }
   getItem(key) { return this.values.has(key) ? this.values.get(key) : null; }

@@ -9,7 +9,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
   const html = fs.readFileSync(path.join(root, 'schedule-system.html'), 'utf8');
   assert.match(schedule, /learningDaySummary\(payload\?\.snapshot, hongKongDayKey\(new Date\(\)\)\)/);
   assert.match(schedule, /edmund:schedule-learning-day-summary/);
-  assert.match(html, /eddy-schedule-two-day-dialogue\.js\?v=20261028-days7-10/);
+  assert.match(html, /eddy-schedule-two-day-dialogue\.js\?v=20261118-streak-sound1/);
   assert.match(html, /eddy-schedule-two-day-dialogue\.css\?v=20261026-1/);
 
   const browser = await chromium.launch({ headless: true, args: ['--allow-file-access-from-files'] });
@@ -17,7 +17,15 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
   const setup = async () => {
     const page = await context.newPage();
     await page.goto('file://' + path.join(root, 'schedule-calendar.mjs'));
-    await page.setContent(`<link rel="stylesheet" href="file://${root}/eddy-first-question-dialogue.css"><link rel="stylesheet" href="file://${root}/eddy-schedule-two-day-dialogue.css"><section data-view="calendar"></section>`);
+    await page.setContent(`<link rel="stylesheet" href="file://${root}/eddy-first-question-dialogue.css"><link rel="stylesheet" href="file://${root}/eddy-schedule-two-day-dialogue.css"><section data-view="calendar"></section><audio data-schedule-two-day-streak-sound></audio>`);
+    await page.evaluate(() => {
+      window.streakSoundEvents = [];
+      HTMLMediaElement.prototype.pause = function pause() {};
+      HTMLMediaElement.prototype.play = function play() {
+        window.streakSoundEvents.push(this.hasAttribute('data-schedule-two-day-streak-sound') ? 'two-day' : 'other');
+        return Promise.resolve();
+      };
+    });
     await page.addScriptTag({ path: path.join(root, 'eddy-schedule-two-day-dialogue.js') });
     return page;
   };
@@ -44,6 +52,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
       await page.evaluate((fraction) => { Math.random = () => fraction; }, (variant + .01) / 5);
       await fire(page, id, 2);
       await overlay.waitFor();
+      assert.equal(await page.evaluate(() => window.streakSoundEvents.length), variant + 1, 'each two-day greeting plays its opening sound once');
       const art = page.locator('.eddy-schedule-two-day-overlay img');
       await art.evaluate((img) => img.decode());
       assert.equal(await art.evaluate((img) => img.naturalWidth), 1670);
@@ -121,6 +130,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
       await fire(page, `stale-${streak}`, streak, previousDate);
       assert.equal(await overlay.count(), 0, 'a stale milestone does not show');
     }
+    assert.equal(await page.evaluate(() => window.streakSoundEvents.length), 5, 'later streak milestones do not reuse the two-day sound');
 
     await page.evaluate(() => { window.EdmundEddyGlobalDialogue = { isBlocking: () => true }; });
     await fire(page, 'blocked-student', 2);
@@ -130,6 +140,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
       document.dispatchEvent(new Event('edmund:eddy-global-dialogue-finished'));
     });
     await overlay.waitFor();
+    assert.equal(await page.evaluate(() => window.streakSoundEvents.length), 6, 'a queued two-day greeting plays when it becomes visible');
     await page.keyboard.press('Escape');
     await overlay.waitFor({ state: 'detached' });
 
@@ -143,6 +154,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     assert.equal(await overlay.count(), 0, 'an existing Eddy dialogue keeps its place');
     await page.locator('#other-eddy').evaluate((node) => node.remove());
     await overlay.waitFor();
+    assert.equal(await page.evaluate(() => window.streakSoundEvents.length), 7, 'a two-day greeting blocked by another Eddy dialogue plays only when shown');
     await page.keyboard.press('Escape');
     await overlay.waitFor({ state: 'detached' });
     await page.close();
