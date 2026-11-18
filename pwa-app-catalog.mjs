@@ -550,6 +550,15 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "manifest": "/pwa-manifests/news-reader.webmanifest"
   },
   {
+    "id": "liaison",
+    "href": "liaison.html",
+    "zh": "學生使用 英文連音學習系統",
+    "en": "Liaison Sound Lab",
+    "name": "學生使用 英文連音學習系統｜EdmundEducation",
+    "shortName": "英文連音",
+    "manifest": "/pwa-manifests/liaison.webmanifest"
+  },
+  {
     "id": "daily-reading",
     "href": "daily-reading.html",
     "zh": "日常閱讀理解系統",

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 英文連音學習系統：以可播放的聲音積木練習英文連音、弱讀、合音及自然語流。">
+  <meta name="theme-color" content="#102a36">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>Liaison 英文連音學習系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/liaison.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/shared-system-nav.css?v=20261111-student-autoentry2">
+  <link rel="stylesheet" href="/liaison/liaison.css?v=pilot-20261118-1">
+  <script defer src="/pwa-register.js"></script>
+  <script defer src="/supabase-config.js"></script>
+  <script defer src="/shared-system-nav.js?v=20261111-student-autoentry2"></script>
+  <script type="module" src="/liaison/liaison.mjs?v=pilot-20261118-1"></script>
+  <link rel="manifest" href="/pwa-manifests/liaison.webmanifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="英文連音">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+</head>
+<body>
+  <a class="skip-link" href="#liaison-main">跳至主要內容</a>
+
+  <header class="liaison-header edmund-system-header">
+    <div class="liaison-header__inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="liaison">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="/Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Liaison Sound Lab</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="liaison-header__actions edmund-system-header__actions">
+        <span class="account-pill" data-account-status>學生帳戶</span>
+        <span class="student-pill" data-student hidden></span>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="liaison-main">
+    <section class="view login-view" data-view="login">
+      <div class="login-visual" aria-hidden="true">
+        <p>HEAR · CHOOSE · CONNECT</p>
+        <div class="login-sound-path">
+          <span><i></i><i></i><i></i></span>
+          <b></b>
+          <span><i></i><i></i><i></i></span>
+        </div>
+        <strong>83</strong>
+      </div>
+      <section class="login-panel" aria-labelledby="login-title">
+        <p class="eyebrow">STUDENT ACCOUNT · PILOT</p>
+        <h1 id="login-title">Liaison<br><span>英文連音學習系統</span></h1>
+        <p class="login-intro">聽聲音、選積木、連接字詞。全程不需要學習發音符號。</p>
+        <form data-login-form novalidate>
+          <label><span>學生名稱</span><input name="username" autocomplete="username" required maxlength="120" placeholder="輸入學生帳戶名稱"></label>
+          <label><span>密碼</span><span class="password-field"><input name="password" type="password" autocomplete="current-password" required maxlength="200" placeholder="輸入密碼"><button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button></span></label>
+          <p class="login-status" data-login-status role="status" aria-live="polite"></p>
+          <button class="primary-button" type="submit" data-login-button>登入並開始練習</button>
+        </form>
+        <p class="account-note">使用其他 Edmund 學習系統的同一學生帳戶。</p>
+      </section>
+    </section>
+
+    <section class="view practice-view" data-view="practice" hidden>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">CARD 83 · PILOT SOUND LAB</p>
+          <h1>Liaison<br><span>英文連音學習系統</span></h1>
+          <p>不要背符號。先聽字尾和字首，再選出最能代表自然連音的聲音積木。</p>
+          <div class="hero-actions">
+            <button class="primary-button" type="button" data-start-practice>開始 30 題</button>
+            <button class="quiet-button" type="button" data-reset-progress>重設進度</button>
+          </div>
+        </div>
+        <div class="hero-demo" aria-label="聲音積木示範">
+          <article class="demo-block"><small>字尾</small><strong>PICK</strong><span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></article>
+          <span class="demo-bridge" aria-hidden="true">→</span>
+          <article class="demo-block is-second"><small>字首</small><strong>IT</strong><span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></article>
+        </div>
+      </section>
+
+      <section class="how-it-works" aria-labelledby="how-title">
+        <div><p class="section-label">HOW IT WORKS</p><h2 id="how-title">每題三個動作</h2></div>
+        <ol>
+          <li><span>1</span><strong>播放句子</strong><small>先聽完整語流</small></li>
+          <li><span>2</span><strong>試聽積木</strong><small>比較熟悉的參考聲音</small></li>
+          <li><span>3</span><strong>選擇連接</strong><small>立即取得具體回饋</small></li>
+        </ol>
+      </section>
+
+      <section class="progress-dock" aria-label="練習進度">
+        <div><span data-progress-label>已完成 0 / 30</span><strong data-progress-percent>0%</strong></div>
+        <div class="progress-track"><i data-progress-bar></i></div>
+      </section>
+
+      <section class="question-section" data-question-section aria-labelledby="questions-title">
+        <header class="question-heading">
+          <div><p class="section-label">30 SOUND-BLOCK QUESTIONS</p><h2 id="questions-title">選擇最合適的聲音積木</h2></div>
+          <p>可重複播放所有聲音。自然讀法有多種時，系統會接受合理版本並說明本題的練習目標。</p>
+        </header>
+        <div class="question-list" data-question-list></div>
+      </section>
+
+      <section class="completion-card" data-completion hidden aria-live="polite">
+        <p class="section-label">PILOT COMPLETE</p>
+        <h2>30 個聲音連接已完成</h2>
+        <p>你已完成這個試行版本。可回到任何題目重聽、重選，或錄下自己的版本作比較。</p>
+        <button class="primary-button" type="button" data-review-from-start>由第一題重新溫習</button>
+      </section>
+    </section>
+  </main>
+
+  <noscript><p class="noscript">請啟用 JavaScript 使用英文連音學習系統。</p></noscript>
+</body>
+</html>
