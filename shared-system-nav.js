@@ -1442,6 +1442,45 @@
   }
 
   const COIN_CHARACTERS = new Set(["eddy", "phoebe", "elsie", "noir", "celeste"]);
+  const COIN_WALLET_SOUNDS = {
+    dialogue: {
+      attribute: "data-edmund-coin-dialogue-sound",
+      src: "/shared-coin-wallet-dialogue.mp3?v=20261118-1"
+    },
+    details: {
+      attribute: "data-edmund-coin-details-sound",
+      src: "/shared-coin-wallet-details.mp3?v=20261118-1"
+    }
+  };
+
+  function ensureCoinWalletSound(name) {
+    const config = COIN_WALLET_SOUNDS[name];
+    if (!config) return null;
+    let sound = document.querySelector(`[${config.attribute}]`);
+    if (sound) return sound;
+    sound = document.createElement("audio");
+    sound.setAttribute(config.attribute, "");
+    sound.preload = "auto";
+    sound.src = config.src;
+    sound.hidden = true;
+    document.body.append(sound);
+    return sound;
+  }
+
+  function playCoinWalletSound(name) {
+    try {
+      const sounds = Object.keys(COIN_WALLET_SOUNDS).map(ensureCoinWalletSound);
+      sounds.forEach((sound) => {
+        if (!sound) return;
+        sound.pause();
+        sound.currentTime = 0;
+      });
+      if (localStorage.getItem("edmund-answer-sounds-v1") === "off") return;
+      const sound = ensureCoinWalletSound(name);
+      const playback = sound?.play();
+      if (playback?.catch) playback.catch(() => {});
+    } catch { /* Sound is optional when storage or playback is unavailable. */ }
+  }
 
   async function refreshCoinArtwork() {
     const chip = document.querySelector("[data-edmund-coin-wallet]");
@@ -1465,6 +1504,7 @@
     let chip=actions.querySelector("[data-edmund-coin-wallet]");const student=studentSessionCandidate();
     if(!student||student.impersonatedByAdmin){chip?.remove();return;}
     if(!chip){chip=document.createElement("button");chip.type="button";chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.setAttribute("aria-label","View Edmund Coins balance and history");chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><img src="/edmund-coins/eddy-v3.webp" width="44" height="44" alt="" decoding="async"></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';chip.addEventListener("click",()=>void openCoinWallet());actions.prepend(chip);}
+    ensureCoinWalletSound("dialogue");ensureCoinWalletSound("details");
     void refreshCoinArtwork();
     let config=window.EDMUND_SUPABASE;if(!config?.url||!config?.anonKey){try{await new Promise((resolve,reject)=>{const script=document.createElement("script");script.src=new URL("/supabase-config.js",location.origin).href;script.onload=resolve;script.onerror=reject;document.head.append(script);});config=window.EDMUND_SUPABASE;}catch{return;}}if(!config?.url||!config?.anonKey)return;
     chip.querySelector("strong").textContent="…";
@@ -1476,8 +1516,8 @@
     if(!student||student.impersonatedByAdmin)return;
     if (!skipEddy) {
       try {
-        const { showCoinEddy } = await import('./eddy-coin-wallet-dialogue.mjs?v=20261101-1');
-        if (await showCoinEddy(() => void openCoinWallet({ skipEddy: true }))) return;
+        const { showCoinEddy } = await import('./eddy-coin-wallet-dialogue.mjs?v=20261118-sounds1');
+        if (await showCoinEddy(() => void openCoinWallet({ skipEddy: true }), () => playCoinWalletSound("dialogue"))) return;
       } catch { /* Coin history remains available if Eddy cannot load. */ }
     }
     let dialog=document.querySelector("[data-edmund-coin-dialog]");
@@ -1492,6 +1532,7 @@
     balance.textContent=document.querySelector("[data-edmund-coin-wallet] strong")?.textContent||"…";
     history.textContent="Loading · 載入中…";
     dialog.showModal();
+    playCoinWalletSound("details");
     try{
       const config=window.EDMUND_SUPABASE;
       if(!config?.url||!config?.anonKey)throw Error("Coin history is unavailable right now.");

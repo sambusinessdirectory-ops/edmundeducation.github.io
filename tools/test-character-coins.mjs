@@ -9,6 +9,7 @@ import { selectedCompanion, selectCompanion } from '../shared-companion.mjs';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const characters = ['eddy', 'phoebe', 'elsie', 'noir', 'celeste'];
 const nav = readFileSync(join(root, 'shared-system-nav.js'), 'utf8');
+const coinDialogue = readFileSync(join(root, 'eddy-coin-wallet-dialogue.mjs'), 'utf8');
 
 test('every selectable map companion has a usable coin asset', () => {
   for (const character of characters) {
@@ -47,6 +48,17 @@ test('selecting a map companion persists and announces the change', () => {
     globalThis.CustomEvent = oldEvent;
     globalThis.dispatchEvent = oldDispatch;
   }
+});
+
+test('coin wallet dialogue and accounting window use their dedicated sounds', () => {
+  for (const file of ['shared-coin-wallet-dialogue.mp3', 'shared-coin-wallet-details.mp3']) {
+    assert.ok(statSync(join(root, file)).size < 50_000, `${file} should be lightweight enough for immediate playback`);
+  }
+  assert.match(nav, /shared-coin-wallet-dialogue\.mp3\?v=20261118-1/);
+  assert.match(nav, /shared-coin-wallet-details\.mp3\?v=20261118-1/);
+  assert.match(nav, /showCoinEddy\([\s\S]*?playCoinWalletSound\("dialogue"\)/);
+  assert.match(nav, /dialog\.showModal\(\);\s*playCoinWalletSound\("details"\);/);
+  assert.match(coinDialogue, /document\.body\.append\(overlay\);\s*try \{ onShow\?\.\(\); \}/);
 });
 
 test('pages request the current shared navigation assets', () => {

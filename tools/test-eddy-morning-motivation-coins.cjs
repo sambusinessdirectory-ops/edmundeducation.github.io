@@ -62,12 +62,23 @@ const server = http.createServer((req, res) => {
     await coin.keyboard.press('Escape');
     assert.equal(await coin.locator('body').getAttribute('data-wallet-opened'),'true');
     await coin.close();
-    const navCoin=await context.newPage(); await navCoin.goto(origin+'/nav-coin');
+    const navCoin=await context.newPage();
+    await navCoin.addInitScript(() => {
+      window.coinSoundEvents = [];
+      HTMLMediaElement.prototype.pause = function pause() {};
+      HTMLMediaElement.prototype.play = function play() {
+        window.coinSoundEvents.push(this.hasAttribute('data-edmund-coin-dialogue-sound') ? 'dialogue' : 'details');
+        return Promise.resolve();
+      };
+    });
+    await navCoin.goto(origin+'/nav-coin');
     await navCoin.locator('[data-edmund-coin-wallet]').click();
     await navCoin.locator('.eddy-coin-wallet-overlay img').waitFor();
+    assert.deepEqual(await navCoin.evaluate(() => window.coinSoundEvents), ['dialogue']);
     assert.equal(await navCoin.locator('[data-edmund-coin-dialog]').count(),0,'wallet waits for Eddy');
     await navCoin.keyboard.press('Escape');
     await navCoin.locator('[data-edmund-coin-dialog][open]').waitFor();
+    assert.deepEqual(await navCoin.evaluate(() => window.coinSoundEvents), ['dialogue', 'details']);
     await navCoin.close();
     console.log('Morning, motivation, and coin dialogue browser checks passed.');
   } finally { await browser.close(); server.close(); }
