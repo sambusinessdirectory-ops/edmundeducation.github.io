@@ -10,7 +10,15 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     const root = path.resolve(__dirname, '..');
     assert.match(fs.readFileSync(path.join(root, 'schedule-system.js'), 'utf8'), /count <= Math\.min\(5, after\)/, 'calendar emits fourth and fifth milestones');
     await page.goto('file://' + path.join(root, 'schedule-calendar.mjs'));
-    await page.setContent(`<link rel="stylesheet" href="file://${root}/eddy-first-question-dialogue.css"><link rel="stylesheet" href="file://${root}/eddy-schedule-homework-completion-dialogue.css">`);
+    await page.setContent(`<link rel="stylesheet" href="file://${root}/eddy-first-question-dialogue.css"><link rel="stylesheet" href="file://${root}/eddy-schedule-homework-completion-dialogue.css"><audio data-homework-completion-dialogue-sound></audio><audio data-homework-celebration-sound></audio>`);
+    await page.evaluate(() => {
+      window.homeworkSoundEvents = [];
+      HTMLMediaElement.prototype.pause = function pause() {};
+      HTMLMediaElement.prototype.play = function play() {
+        window.homeworkSoundEvents.push(this.hasAttribute('data-homework-completion-dialogue-sound') ? 'dialogue' : 'celebration');
+        return Promise.resolve();
+      };
+    });
     await page.addScriptTag({ path: path.join(root, 'eddy-schedule-homework-completion-dialogue.js') });
     await page.evaluate(() => { window.celebrationCount = 0; document.addEventListener('edmund:schedule-homework-dialogues-finished', () => { window.celebrationCount += 1; }); });
     const fire = (counts) => page.evaluate((milestones) => document.dispatchEvent(new CustomEvent('edmund:schedule-homework-completed', {
@@ -21,6 +29,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
 
     await fire([1]);
     await art.waitFor();
+    assert.deepEqual(await page.evaluate(() => window.homeworkSoundEvents), ['dialogue']);
     assert.match(await art.getAttribute('src'), /homework-one/);
     assert.ok((await message.textContent()).length > 5);
     assert.ok((await art.evaluate((img) => img.naturalWidth)) >= 1671);
@@ -29,6 +38,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
 
     await fire([2]);
     await art.waitFor();
+    assert.deepEqual(await page.evaluate(() => window.homeworkSoundEvents), ['dialogue', 'dialogue']);
     assert.match(await art.getAttribute('src'), /homework-two\.png/);
     await page.mouse.click(20, 20);
     assert.match(await art.getAttribute('src'), /homework-two-break/);

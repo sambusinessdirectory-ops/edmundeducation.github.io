@@ -70,6 +70,7 @@ const [
 ]);
 const manualWritingResourceMigration = await read("supabase/migrations/20260901090000_schedule_create_manual_writing_resource.sql");
 const returnDialogueScript = await read("eddy-schedule-return-dialogue.js");
+const completionDialogueScript = await read("eddy-schedule-homework-completion-dialogue.js");
 
 assert.match(homepage, /site-announcements\.css\?v=/);
 assert.match(homepage, /site-announcements\.js\?v=/);
@@ -85,6 +86,9 @@ assert.doesNotMatch(returnDialogueScript, /eddy-schedule-return-[123]\.png/);
 assert.match(scheduleHtml, /<dialog id="week-chart"[^>]*tabindex="-1"[^>]*autofocus/);
 assert.match(scheduleHtml, /data-week-chart-close/);
 assert.match(scheduleHtml, /<audio data-week-chart-open-sound[^>]*preload="auto"[^>]*src="schedule-week-picker-open\.mp3\?v=20261118-1"/);
+assert.match(scheduleHtml, /<audio data-homework-completion-dialogue-sound[^>]*preload="auto"[^>]*src="schedule-homework-completed-dialogue\.mp3\?v=20261118-1"/);
+assert.match(scheduleHtml, /<audio data-homework-celebration-sound[^>]*preload="auto"[^>]*src="schedule-homework-celebration\.mp3\?v=20261118-1"/);
+assert.match(scheduleHtml, /eddy-schedule-homework-completion-dialogue\.js\?v=20261118-completion-sounds1/);
 assert.match(scheduleJs, /function playWeekChartOpenSound\(\)/);
 assert.match(scheduleJs, /weekChartOpenSound\.pause\(\);weekChartOpenSound\.currentTime=0/);
 assert.match(scheduleJs, /chart\.showModal\(\);playWeekChartOpenSound\(\)/);
@@ -441,6 +445,10 @@ assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
 assert.match(scheduleHtml, /schedule-system\.js\?v=[^"\s]+/);
 assert.ok((await stat(new URL("schedule-week-picker-open.mp3", root))).size < 50_000,
   "the week-chart opening sound must remain lightweight enough for immediate playback");
+assert.ok((await stat(new URL("schedule-homework-completed-dialogue.mp3", root))).size < 100_000,
+  "the completion-dialogue sound must remain lightweight enough for immediate playback");
+assert.ok((await stat(new URL("schedule-homework-celebration.mp3", root))).size < 100_000,
+  "the celebration sound must remain lightweight enough for immediate playback");
 assert.match(scheduleHtml, /data-celebration-dialog/);
 assert.match(scheduleHtml, /恭喜您，距離成功又更近了!/);
 assert.match(scheduleHtml, /一步一步，<strong data-celebration-name>同學<\/strong> 便會走到目標~/);
@@ -451,6 +459,10 @@ assert.ok((await stat(new URL("../eddy-schedule-celebration.webp", import.meta.u
   "the celebration artwork must remain lightweight enough for an immediate completion popup");
 assert.match(scheduleHtml, /dialog\[data-celebration-dialog\]\s*\{[^}]*background:\s*#fbecdc/s);
 assert.match(scheduleJs, /function showCompletionCelebration\(\)[\s\S]*?state\.currentUser\?\.role !== "student"/);
+assert.match(completionDialogueScript, /function playCompletionDialogueSound\(\)/);
+assert.match(completionDialogueScript, /document\.body\.append\(overlay\);\s*renderPage\(\);\s*playCompletionDialogueSound\(\)/);
+assert.match(scheduleJs, /function playHomeworkCelebrationSound\(\)/);
+assert.match(scheduleJs, /elements\.celebrationDialog\.showModal\(\);\s*playHomeworkCelebrationSound\(\)/);
 assert.match(scheduleJs, /document\.addEventListener\("edmund:schedule-homework-dialogues-finished", showCompletionCelebration\)/);
 assert.match(scheduleJs, /if \(completed && !celebrateHomeworkCompletionMilestones\(previousCounts\)\) showCompletionCelebration\(\)/);
 assert.match(scheduleJs, /active && targetStatus === "completed" && !celebrateHomeworkCompletionMilestones\(previousCounts\)/);
