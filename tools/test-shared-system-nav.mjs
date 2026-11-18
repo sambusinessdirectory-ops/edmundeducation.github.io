@@ -385,7 +385,8 @@ test("homepage cards 11 through 30 retain their familiar quick-switch themes whi
   assert.equal(api.systems.find(system => system.id === "common-expression-business-speaking")?.homepageCard, 30);
   assert.equal(api.systems.find(system => system.id === "video-class")?.homepageCard, undefined);
   assert.equal(api.systems.find(system => system.id === "news-reader")?.homepageCard, 82);
-  assert.equal(api.systems.find(system => system.id === "daily-reading")?.homepageCard, 83);
+  assert.equal(api.systems.find(system => system.id === "liaison")?.homepageCard, 83);
+  assert.equal(api.systems.find(system => system.id === "daily-reading")?.homepageCard, 84);
   for (let card = 11; card <= 30; card += 1) {
     assert.match(cssSource, new RegExp(`data-homepage-card=["']${card}["']`), `homepage card ${card} must have a quick-switch theme`);
   }
