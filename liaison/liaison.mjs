@@ -299,6 +299,54 @@ const questions = [
   }
 ];
 
+const lessonDetails = [
+  ["一隻蛋掉了下來。", "早餐準備時，一隻蛋從桌上掉下來。", "An orange rolled away.", "an + orange"],
+  ["把它拿起來。", "有人請你把掉在地上的物件拿起來。", "Take it home.", "take + it"],
+  ["請進來。", "你在門口邀請訪客進入房間。", "Turn it on.", "turn + it"],
+  ["大聲讀出來。", "老師請學生把文字讀給全班聽。", "Send it today.", "send + it"],
+  ["清楚看見它。", "你提醒對方把目標看清楚。", "We agree.", "we + agree"],
+  ["他們在這裡。", "你告訴別人一群人已經到達。", "I am ready.", "I + am"],
+  ["現在出去。", "你叫對方立即離開室內。", "No answer came.", "no + answer"],
+  ["現在做。", "你催促對方立即完成一件事。", "Blue eyes stood out.", "blue + eyes"],
+  ["那裡有一張椅子。", "你指出某處有座位。", "Far away from home.", "far + away"],
+  ["法律與秩序很重要。", "你談論社會規則和公共秩序。", "Draw a circle.", "draw + a"],
+  ["這需要時間。", "你提醒別人事情不會立即完成。", "A great teacher arrived.", "great + teacher"],
+  ["他看起來很傷心。", "你描述某人的情緒。", "This song sounds sad.", "sounds + sad"],
+  ["Ann 需要幫助。", "你告訴別人 Ann 遇到困難。", "Nine nurses arrived.", "nine + nurses"],
+  ["十支筆在這裡。", "你點算桌上的文具。", "Ten boys waited.", "ten + boys"],
+  ["綠色袋子正在減價。", "你在商店指出減價貨品。", "Brown paper works.", "brown + paper"],
+  ["十隻貓睡著了。", "你描述一群正在睡覺的動物。", "One cup fell.", "one + cup"],
+  ["一個女孩笑了。", "你描述剛才看見的事情。", "One kite flew.", "one + kite"],
+  ["很高興認識你。", "你第一次與某人見面並打招呼。", "Can't you wait?", "can't + you"],
+  ["你打電話了嗎？", "你確認對方是否已經聯絡別人。", "Would you help?", "would + you"],
+  ["我想念你。", "你向某人表達掛念。", "Bless you.", "bless + you"],
+  ["你的袋子在哪裡？", "你詢問物件的位置。", "How's your day?", "how's + your"],
+  ["昨晚很冷。", "你描述昨夜的天氣。", "My best friend called.", "best + friend"],
+  ["我的老朋友打電話來了。", "你告訴別人一位相識很久的人來電。", "A cold drink helps.", "cold + drink"],
+  ["現在告訴他。", "你請對方立即把消息轉告一位男士。", "Ask her now.", "ask + her"],
+  ["一杯茶。", "你點選一杯飲品。", "A piece of cake.", "of"],
+  ["我會游泳。", "你說明自己有游泳能力。", "We can try.", "can"],
+  ["麵包和牛油。", "你列出兩樣一起食用的東西。", "Fish and chips.", "and"],
+  ["我必須離開。", "你說明自己需要離開。", "We have to go.", "have + to"],
+  ["等一個小時。", "你告訴別人需要等待的時間。", "An honest answer helps.", "an + honest"],
+  ["那裡有兩隻蛋。", "你指出某處物件的數量。", "Two apples fell.", "two + apples"]
+].map(([meaning, context, transferPhrase, transferFocus]) => ({ meaning, context, transferPhrase, transferFocus }));
+
+questions.forEach((question, index) => Object.assign(question, lessonDetails[index]));
+
+const LESSON_STEPS = Object.freeze([
+  ["理解訊息", "Meaning"],
+  ["預測與找位", "Predict & spot"],
+  ["聆聽與辨別", "Listen"],
+  ["建立連音", "Build"],
+  ["分段模仿", "Imitate"],
+  ["錄音與回饋", "Produce"],
+  ["轉移與複習", "Transfer"]
+]);
+
+export { questions, LESSON_STEPS };
+
+if (!window.__EDMUND_LIAISON_LOOP_V2__) {
 const state = {
   user: null,
   token: "",
@@ -670,4 +718,5 @@ if (localPreview) {
     $("[data-login-status]").textContent = error?.message || "登入時段已失效，請重新登入。";
     $("[data-login-status]").dataset.state = "error";
   });
+}
 }
