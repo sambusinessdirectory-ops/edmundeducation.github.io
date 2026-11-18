@@ -12,11 +12,12 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20261111-student-autoentry2">
-  <link rel="stylesheet" href="/liaison/liaison.css?v=pilot-20261118-1">
+  <link rel="stylesheet" href="/liaison/liaison.css?v=loop-20261118-2">
   <script defer src="/pwa-register.js"></script>
   <script defer src="/supabase-config.js"></script>
   <script defer src="/shared-system-nav.js?v=20261111-student-autoentry2"></script>
-  <script type="module" src="/liaison/liaison.mjs?v=pilot-20261118-1"></script>
+  <script defer src="/pronunciation-checker.js?v=20261118-loop2"></script>
+  <script type="module" src="/liaison/lesson-loop.mjs?v=20261118-loop4"></script>
   <link rel="manifest" href="/pwa-manifests/liaison.webmanifest">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -49,7 +50,7 @@
   <main id="liaison-main">
     <section class="view login-view" data-view="login">
       <div class="login-visual" aria-hidden="true">
-        <p>HEAR · CHOOSE · CONNECT</p>
+        <p>UNDERSTAND · BUILD · SPEAK</p>
         <div class="login-sound-path">
           <span><i></i><i></i><i></i></span>
           <b></b>
@@ -60,7 +61,7 @@
       <section class="login-panel" aria-labelledby="login-title">
         <p class="eyebrow">STUDENT ACCOUNT · PILOT</p>
         <h1 id="login-title">Liaison<br><span>英文連音學習系統</span></h1>
-        <p class="login-intro">聽聲音、選積木、連接字詞。全程不需要學習發音符號。</p>
+        <p class="login-intro">每課依照七階段完成理解、辨聽、聲音建構、影子跟讀、錄音回饋和轉移練習。全程不需要學習發音符號。</p>
         <form data-login-form novalidate>
           <label><span>學生名稱</span><input name="username" autocomplete="username" required maxlength="120" placeholder="輸入學生帳戶名稱"></label>
           <label><span>密碼</span><span class="password-field"><input name="password" type="password" autocomplete="current-password" required maxlength="200" placeholder="輸入密碼"><button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button></span></label>
@@ -76,7 +77,7 @@
         <div class="hero-copy">
           <p class="eyebrow">CARD 83 · PILOT SOUND LAB</p>
           <h1>Liaison<br><span>英文連音學習系統</span></h1>
-          <p>不要背符號。先聽字尾和字首，再選出最能代表自然連音的聲音積木。</p>
+          <p>每題是一個 8–12 分鐘的小課堂。由理解意思開始，最後把同一連音規律轉移到新句並安排間隔複習。</p>
           <div class="hero-actions">
             <button class="primary-button" type="button" data-start-practice>開始 30 題</button>
             <button class="quiet-button" type="button" data-reset-progress>重設進度</button>
@@ -90,11 +91,15 @@
       </section>
 
       <section class="how-it-works" aria-labelledby="how-title">
-        <div><p class="section-label">HOW IT WORKS</p><h2 id="how-title">每題三個動作</h2></div>
+        <div><p class="section-label">THE CENTRAL LEARNING LOOP</p><h2 id="how-title">每題七個階段</h2></div>
         <ol>
-          <li><span>1</span><strong>播放句子</strong><small>先聽完整語流</small></li>
-          <li><span>2</span><strong>試聽積木</strong><small>比較熟悉的參考聲音</small></li>
-          <li><span>3</span><strong>選擇連接</strong><small>立即取得具體回饋</small></li>
+          <li><span>1</span><strong>理解訊息</strong><small>用情境和翻譯理解意思</small></li>
+          <li><span>2</span><strong>預測與找位</strong><small>找出聲音相遇的位置</small></li>
+          <li><span>3</span><strong>聆聽與辨別</strong><small>比較清楚、自然和變體</small></li>
+          <li><span>4</span><strong>建立連音</strong><small>拖曳可播放的聲音單位</small></li>
+          <li><span>5</span><strong>分段模仿</strong><small>單字到完整句逐層跟讀</small></li>
+          <li><span>6</span><strong>錄音與回饋</strong><small>交界、清晰度、重音、節奏</small></li>
+          <li><span>7</span><strong>轉移與複習</strong><small>新句應用並安排重現</small></li>
         </ol>
       </section>
 
@@ -105,16 +110,16 @@
 
       <section class="question-section" data-question-section aria-labelledby="questions-title">
         <header class="question-heading">
-          <div><p class="section-label">30 SOUND-BLOCK QUESTIONS</p><h2 id="questions-title">選擇最合適的聲音積木</h2></div>
-          <p>可重複播放所有聲音。自然讀法有多種時，系統會接受合理版本並說明本題的練習目標。</p>
+          <div><p class="section-label">30 COMPLETE MINI-LESSONS</p><h2 id="questions-title">每題完成整個學習循環</h2></div>
+          <p>不再以一次選擇題作完成標準。學生必須通過七個階段，完成新句轉移並安排下一次複習。</p>
         </header>
         <div class="question-list" data-question-list></div>
       </section>
 
       <section class="completion-card" data-completion hidden aria-live="polite">
         <p class="section-label">PILOT COMPLETE</p>
-        <h2>30 個聲音連接已完成</h2>
-        <p>你已完成這個試行版本。可回到任何題目重聽、重選，或錄下自己的版本作比較。</p>
+        <h2>30 個七階段小課堂已完成</h2>
+        <p>你已完成理解、辨聽、建構、模仿、錄音回饋和新句轉移。系統會依照每題的複習安排再次呈現規律。</p>
         <button class="primary-button" type="button" data-review-from-start>由第一題重新溫習</button>
       </section>
     </section>
