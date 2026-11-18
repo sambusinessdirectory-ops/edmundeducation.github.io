@@ -380,6 +380,8 @@ const elements = {
   celebrationDialog: document.querySelector("[data-celebration-dialog]"),
   celebrationName: document.querySelector("[data-celebration-name]"),
   closeCelebration: document.querySelector("[data-close-celebration]"),
+  homeworkCompletionDialogueSound: document.querySelector("[data-homework-completion-dialogue-sound]"),
+  homeworkCelebrationSound: document.querySelector("[data-homework-celebration-sound]"),
   entryForm: document.querySelector("[data-entry-form]"),
   entryTitle: document.querySelector("[data-entry-title]"),
   entryMeta: document.querySelector("[data-entry-meta]"),
@@ -760,12 +762,31 @@ function showTeacherMoveDialog() {
   if (!elements.teacherMoveDialog.open) elements.teacherMoveDialog.showModal();
 }
 
+function stopAndRewindHomeworkSound(sound) {
+  if (!sound) return;
+  sound.pause();
+  sound.currentTime = 0;
+}
+
+function playHomeworkCelebrationSound() {
+  try {
+    stopAndRewindHomeworkSound(elements.homeworkCompletionDialogueSound);
+    if (localStorage.getItem("edmund-answer-sounds-v1") === "off" || !elements.homeworkCelebrationSound) return;
+    stopAndRewindHomeworkSound(elements.homeworkCelebrationSound);
+    const playback = elements.homeworkCelebrationSound.play();
+    if (playback?.catch) playback.catch(() => {});
+  } catch { /* Sound is optional when the browser blocks playback. */ }
+}
+
 function showCompletionCelebration() {
   if (state.currentUser?.role !== "student" || !elements.celebrationDialog) return;
   if (elements.celebrationName) {
     elements.celebrationName.textContent = activeStudent()?.name || state.currentUser.name || "同學";
   }
-  if (!elements.celebrationDialog.open) elements.celebrationDialog.showModal();
+  if (!elements.celebrationDialog.open) {
+    elements.celebrationDialog.showModal();
+    playHomeworkCelebrationSound();
+  }
 }
 
 document.addEventListener("edmund:schedule-homework-dialogues-finished", showCompletionCelebration);

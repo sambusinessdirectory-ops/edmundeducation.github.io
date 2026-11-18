@@ -84,9 +84,35 @@
     return options[Math.floor(Math.random() * options.length)];
   }
 
+  function soundsEnabled() {
+    try {
+      return localStorage.getItem('edmund-answer-sounds-v1') !== 'off';
+    } catch {
+      return true;
+    }
+  }
+
+  function stopAndRewind(sound) {
+    if (!sound) return;
+    sound.pause();
+    sound.currentTime = 0;
+  }
+
+  function playCompletionDialogueSound() {
+    try {
+      const sound = document.querySelector('[data-homework-completion-dialogue-sound]');
+      const celebrationSound = document.querySelector('[data-homework-celebration-sound]');
+      stopAndRewind(celebrationSound);
+      if (!soundsEnabled() || !sound) return;
+      stopAndRewind(sound);
+      const playback = sound.play();
+      if (playback?.catch) playback.catch(() => {});
+    } catch { /* Sound is optional when the browser blocks playback. */ }
+  }
+
   function playDialogueSound() {
     try {
-      if (localStorage.getItem('edmund-answer-sounds-v1') === 'off') return;
+      if (!soundsEnabled()) return;
       const Audio = window.AudioContext || window.webkitAudioContext;
       if (!Audio) return;
       dialogueAudio ??= new Audio();
@@ -170,6 +196,7 @@
     overlay.addEventListener('click', advance);
     document.body.append(overlay);
     renderPage();
+    playCompletionDialogueSound();
     overlay.querySelector('button').focus({ preventScroll: true });
     document.addEventListener('keydown', onKey, true);
   }
