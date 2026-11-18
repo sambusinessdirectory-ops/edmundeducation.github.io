@@ -80,7 +80,8 @@
     { id: "junior-quiz-review", href: "junior-quiz-review.html", zh: "測驗溫習系統", en: "Quiz Review", homepageCard: 72 },
     { id: "news-discussion", href: "news-discussion.html", zh: "熱議新聞討論", en: "News Discussion", homepageCard: 75 },
     { id: "news-reader", href: "news-reader.html", zh: "日常聆聽系統", en: "Daily Listening Practice", homepageCard: 82 },
-    { id: "daily-reading", href: "daily-reading.html", zh: "日常閱讀理解系統", en: "Daily Reading Comprehension", homepageCard: 83 },
+    { id: "liaison", href: "liaison.html", zh: "學生使用 英文連音學習系統", en: "Liaison Sound Lab", homepageCard: 83 },
+    { id: "daily-reading", href: "daily-reading.html", zh: "日常閱讀理解系統", en: "Daily Reading Comprehension", homepageCard: 84 },
     { id: "ielts-writing-preview", href: "ielts-writing-question-preview.html", zh: "IELTS 寫作問題預覽系統", en: "IELTS Writing Preview", homepageCard: 77 },
     { id: "ielts-chart-teaching", href: "ielts-chart-teaching.html", zh: "IELTS 圖表教學系統", en: "IELTS Chart Studio", homepageCard: 79 },
     { id: "literary-device", href: "literary-device.html", zh: "修辭手法系統", en: "Literary Device", homepageCard: 80 },
@@ -142,7 +143,8 @@
     downloads: "edmundModelEssayDownloadSession",
     "excellent-learning": "edmund-excellent-learning-session-v1",
     "dse-argument-bank": "edmund-dse-argument-bank-student-v1",
-    "dse-practical-writing": "edmund-dse-practical-writing-session-v1"
+    "dse-practical-writing": "edmund-dse-practical-writing-session-v1",
+    liaison: "edmund-liaison-session-v1"
   });
 
   const LEARNING_PORTAL_IDS = Object.freeze([
@@ -150,7 +152,8 @@
     "synonyms", "error-identifier", "learning-roadmap", "spelling", "reading-logic", "translation-skills",
     "business-school", "complex-questions", "leisurely-reading", "english-humour-speaking",
     "english-humour-writing", "english-joke-collection", "argument-learning", "fragmented-reading",
-    "precise-language", "false-friends", "english-in-shows", "ted-talk-english", "poem-english"
+    "precise-language", "false-friends", "english-in-shows", "ted-talk-english", "poem-english",
+    "liaison"
   ]);
 
   let pomodoroState = null;
