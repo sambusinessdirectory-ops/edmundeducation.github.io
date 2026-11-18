@@ -8383,8 +8383,14 @@ elements.togglePreviousIncomplete.addEventListener("click", toggleEntryPreviousI
 elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.close());
 elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.closeTeacherMove?.addEventListener("click", () => elements.teacherMoveDialog.close());
-const chart=document.querySelector('#week-chart'), chartYear=chart.querySelector('select'), weekGrid=chart.querySelector('#week-chart-grid'), chartTrigger=document.querySelector('[data-week-chart]');
+const chart=document.querySelector('#week-chart'), chartYear=chart.querySelector('select'), weekGrid=chart.querySelector('#week-chart-grid'), chartTrigger=document.querySelector('[data-week-chart]'), weekChartOpenSound=document.querySelector('[data-week-chart-open-sound]');
 let chartCloseTimer=0;
+function playWeekChartOpenSound(){
+ if(!weekChartOpenSound)return;
+ weekChartOpenSound.pause();weekChartOpenSound.currentTime=0;
+ const playback=weekChartOpenSound.play();
+ if(playback?.catch)playback.catch(()=>{});
+}
 function wiggleWeekChartTrigger(){
  chartTrigger.classList.remove('week-chart-wiggle');void chartTrigger.offsetWidth;chartTrigger.classList.add('week-chart-wiggle');
  window.setTimeout(()=>chartTrigger.classList.remove('week-chart-wiggle'),650);
@@ -8406,7 +8412,7 @@ function closeWeekChart({wiggle=true,onClosed}={}){
 function openWeekChart(){
  if(chart.open)return;
  chartYear.replaceChildren();for(let y=addDays(firstWeekStart(),3).getFullYear();y<=addDays(lastWeekStart(),3).getFullYear();y++)chartYear.add(new Option(y,y));
- chartYear.value=addDays(parseISODate(state.weekStart),3).getFullYear();drawWeeks();chart.classList.remove('is-closing');chart.showModal();
+ chartYear.value=addDays(parseISODate(state.weekStart),3).getFullYear();drawWeeks();chart.classList.remove('is-closing');chart.showModal();playWeekChartOpenSound();
  chart.focus({preventScroll:true});
  requestAnimationFrame(()=>weekGrid.querySelector('[aria-current="true"]')?.scrollIntoView({block:'nearest'}));
 }
