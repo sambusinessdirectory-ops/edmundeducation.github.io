@@ -406,6 +406,8 @@
       "fragmented-reading-system.*",
       "learning-portal-*",
       "learning-roadmap.*",
+      "liaison.*",
+      "liaison/**",
       "leisurely-reading.*",
       "part-of-speech-system.*",
       "poem-english-system.*",
@@ -417,6 +419,7 @@
       "ted-talk-english-system.*",
       "thematic-vocabulary-system.*",
       "tools/test-learning-portal-scaffolds.mjs",
+      "tools/test-liaison-pilot.mjs",
       "tools/test-spelling-practice.mjs",
       "translation-skills-system.*"
     ],
