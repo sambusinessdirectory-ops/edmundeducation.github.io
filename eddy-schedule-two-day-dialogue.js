@@ -132,6 +132,18 @@
     } catch { /* Sound is optional when the browser blocks playback. */ }
   }
 
+  function playTwoDayStreakSound(streak) {
+    try {
+      if (streak !== 2 || stored('edmund-answer-sounds-v1') === 'off') return;
+      const sound = document.querySelector('[data-schedule-two-day-streak-sound]');
+      if (!sound) return;
+      sound.pause();
+      sound.currentTime = 0;
+      const playback = sound.play();
+      if (playback?.catch) playback.catch(() => {});
+    } catch { /* Sound is optional when the browser blocks playback. */ }
+  }
+
   function renderPage() {
     const copy = pages[pageIndex];
     const message = overlay.querySelector('.eddy-first-question-message');
@@ -206,6 +218,7 @@
     overlay.addEventListener('click', advance);
     document.body.append(overlay);
     renderPage();
+    playTwoDayStreakSound(streak);
     remember(key);
     overlay.querySelector('button').focus({ preventScroll: true });
     document.addEventListener('keydown', onKey, true);

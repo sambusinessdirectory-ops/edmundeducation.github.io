@@ -382,6 +382,7 @@ const elements = {
   closeCelebration: document.querySelector("[data-close-celebration]"),
   homeworkCompletionDialogueSound: document.querySelector("[data-homework-completion-dialogue-sound]"),
   homeworkCelebrationSound: document.querySelector("[data-homework-celebration-sound]"),
+  homeworkUncompletedSound: document.querySelector("[data-homework-uncompleted-sound]"),
   entryForm: document.querySelector("[data-entry-form]"),
   entryTitle: document.querySelector("[data-entry-title]"),
   entryMeta: document.querySelector("[data-entry-meta]"),
@@ -774,6 +775,17 @@ function playHomeworkCelebrationSound() {
     if (localStorage.getItem("edmund-answer-sounds-v1") === "off" || !elements.homeworkCelebrationSound) return;
     stopAndRewindHomeworkSound(elements.homeworkCelebrationSound);
     const playback = elements.homeworkCelebrationSound.play();
+    if (playback?.catch) playback.catch(() => {});
+  } catch { /* Sound is optional when the browser blocks playback. */ }
+}
+
+function playHomeworkUncompletedSound() {
+  try {
+    stopAndRewindHomeworkSound(elements.homeworkCompletionDialogueSound);
+    stopAndRewindHomeworkSound(elements.homeworkCelebrationSound);
+    if (localStorage.getItem("edmund-answer-sounds-v1") === "off" || !elements.homeworkUncompletedSound) return;
+    stopAndRewindHomeworkSound(elements.homeworkUncompletedSound);
+    const playback = elements.homeworkUncompletedSound.play();
     if (playback?.catch) playback.catch(() => {});
   } catch { /* Sound is optional when the browser blocks playback. */ }
 }
@@ -6569,6 +6581,7 @@ async function batchSetExclusiveStatus(targetStatus) {
     showToast(active
       ? `已把 ${entries.length} 項安排標記為${label}。`
       : `已取消 ${entries.length} 項安排的${label}標記。`, "success");
+    if (state.currentUser?.role === "student" && !active && targetStatus === "completed") playHomeworkUncompletedSound();
     await loadWeek();
     if (active && targetStatus === "completed" && !celebrateHomeworkCompletionMilestones(previousCounts)) {
       showCompletionCelebration();
@@ -7187,6 +7200,7 @@ async function toggleEntryCompletion() {
         p_completed: completed
       });
     }
+    if (state.currentUser?.role === "student" && !completed) playHomeworkUncompletedSound();
     elements.entryDialog.close();
     showToast(completed ? "這項安排已標記為完成。" : "已取消完成標記。");
     await loadWeek(focusTarget);

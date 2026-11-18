@@ -230,6 +230,79 @@
     }));
   }
 
+  const SUCCESSFUL_STUDENT_LOGIN_SOUND = "/shared-student-login-success.mp3?v=20261118-1";
+  let pendingStudentLoginSound = null;
+  let pendingStudentLoginTimer = 0;
+
+  function ensureSuccessfulStudentLoginSound() {
+    let sound = document.querySelector("[data-edmund-student-login-success-sound]");
+    if (sound) return sound;
+    sound = document.createElement("audio");
+    sound.dataset.edmundStudentLoginSuccessSound = "";
+    sound.preload = "auto";
+    sound.src = SUCCESSFUL_STUDENT_LOGIN_SOUND;
+    sound.hidden = true;
+    document.body.append(sound);
+    return sound;
+  }
+
+  function playSuccessfulStudentLoginSound() {
+    try {
+      if (window.localStorage.getItem("edmund-answer-sounds-v1") === "off") return;
+      const sound = ensureSuccessfulStudentLoginSound();
+      sound.pause();
+      sound.currentTime = 0;
+      const playback = sound.play();
+      if (playback?.catch) playback.catch(() => {});
+    } catch { /* Sound is optional when storage or playback is unavailable. */ }
+  }
+
+  function completePendingStudentLoginSound(candidate) {
+    if (!pendingStudentLoginSound || !candidate?.token) return false;
+    pendingStudentLoginSound = null;
+    window.clearTimeout(pendingStudentLoginTimer);
+    pendingStudentLoginTimer = 0;
+    playSuccessfulStudentLoginSound();
+    return true;
+  }
+
+  function checkPendingStudentLoginSound() {
+    if (!pendingStudentLoginSound) return;
+    if (Date.now() >= pendingStudentLoginSound.expiresAt) {
+      pendingStudentLoginSound = null;
+      pendingStudentLoginTimer = 0;
+      return;
+    }
+    const candidate = studentSessionCandidate();
+    if (candidate?.token && candidate.token !== pendingStudentLoginSound.previousToken) {
+      completePendingStudentLoginSound(candidate);
+      return;
+    }
+    pendingStudentLoginTimer = window.setTimeout(checkPendingStudentLoginSound, 150);
+  }
+
+  function isStudentLoginForm(form) {
+    if (!form?.querySelector) return false;
+    if (form.matches?.("[data-edmund-password-form], [data-password-form]")
+      || form.querySelector('[name="currentPassword"], [name="newPassword"]')) return false;
+    if (form.matches?.("[data-login-form]")
+      || form.closest?.("[data-login-view], [data-view='login'], .login-screen, .login-card")) return true;
+    return Boolean(form.querySelector('input[type="password"]')
+      && form.querySelector('input[name="username"], input[name="name"], input[autocomplete="username"]'));
+  }
+
+  function watchStudentLoginSubmission(event) {
+    const form = event.target;
+    if (!isStudentLoginForm(form)) return;
+    const candidate = studentSessionCandidate();
+    pendingStudentLoginSound = {
+      previousToken: String(candidate?.token || ""),
+      expiresAt: Date.now() + 30000
+    };
+    window.clearTimeout(pendingStudentLoginTimer);
+    pendingStudentLoginTimer = window.setTimeout(checkPendingStudentLoginSound, 150);
+  }
+
   function monitorAuthenticatedEntry() {
     const startedAt = Date.now();
     const check = () => {
@@ -526,6 +599,7 @@
     writeStorageJson(storage, UNIVERSAL_SESSION_KEY, normalized, true);
     if(previous?.id!==normalized.id||previous?.token!==normalized.token)window.dispatchEvent(new CustomEvent('edmund-student-session-change'));
     bridgeStudentSession(normalized, true);
+    completePendingStudentLoginSound(normalized);
     ensurePasswordButton();
     syncPomodoroOwner();
     tickPomodoro();
@@ -1620,6 +1694,8 @@
 
   function initialise() {
     bridgeStudentSession(studentSessionCandidate(), true);
+    ensureSuccessfulStudentLoginSound();
+    document.addEventListener("submit", watchStudentLoginSubmission, true);
     void refreshCoinWallet();
     window.addEventListener("edmund-student-session-change",()=>void refreshCoinWallet());
     window.addEventListener("edmund-coin-wallet-refresh",()=>void refreshCoinWallet());
