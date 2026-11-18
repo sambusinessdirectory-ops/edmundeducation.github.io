@@ -20,7 +20,7 @@ async function ensureStyle() {
     document.head.append(link);
   });
 }
-export async function showCoinEddy(onDismiss) {
+export async function showCoinEddy(onDismiss, onShow) {
   if (active) return true;
   if (document.hidden || document.querySelector('dialog[open], .eddy-global-overlay, .eddy-first-question-overlay')
     || window.EdmundEddyGlobalDialogue?.isBlocking() || !await ensureStyle()) return false;
@@ -56,6 +56,7 @@ export async function showCoinEddy(onDismiss) {
   }
   overlay.addEventListener('click', finish);
   document.body.append(overlay);
+  try { onShow?.(); } catch { /* Optional presentation effects must not block the dialogue. */ }
   overlay.querySelector('button').focus({ preventScroll: true });
   document.addEventListener('keydown', onKey, true);
   return true;
