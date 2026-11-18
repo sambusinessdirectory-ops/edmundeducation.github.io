@@ -84,7 +84,7 @@ assert.match(scheduleHtml, /eddy-schedule-return-dialogue\.js\?v=20261111-media1
 assert.doesNotMatch(returnDialogueScript, /eddy-schedule-return-[123]\.png/);
 assert.match(scheduleHtml, /<dialog id="week-chart"[^>]*tabindex="-1"[^>]*autofocus/);
 assert.match(scheduleHtml, /data-week-chart-close/);
-assert.match(scheduleHtml, /<audio data-week-chart-open-sound[^>]*preload="auto"[^>]*homework-week-picker-open\.mp3\?v=20261118-1/);
+assert.match(scheduleHtml, /<audio data-week-chart-open-sound[^>]*preload="auto"[^>]*src="schedule-week-picker-open\.mp3\?v=20261118-1"/);
 assert.match(scheduleJs, /function playWeekChartOpenSound\(\)/);
 assert.match(scheduleJs, /weekChartOpenSound\.pause\(\);weekChartOpenSound\.currentTime=0/);
 assert.match(scheduleJs, /chart\.showModal\(\);playWeekChartOpenSound\(\)/);
@@ -439,7 +439,7 @@ assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
 assert.match(scheduleHtml, /schedule-system\.js\?v=[^"\s]+/);
-assert.ok((await stat(new URL("assets/schedule/homework-week-picker-open.mp3", root))).size < 50_000,
+assert.ok((await stat(new URL("schedule-week-picker-open.mp3", root))).size < 50_000,
   "the week-chart opening sound must remain lightweight enough for immediate playback");
 assert.match(scheduleHtml, /data-celebration-dialog/);
 assert.match(scheduleHtml, /恭喜您，距離成功又更近了!/);
