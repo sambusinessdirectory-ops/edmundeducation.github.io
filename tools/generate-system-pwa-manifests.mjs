@@ -42,7 +42,10 @@ const shortNames = Object.freeze({
   "country-name-spelling": "國家名稱拼寫", "speech-curation": "名人演講精選", "chip-course": "晶片設計課程",
   "junior-quiz-review": "測驗溫習", "news-discussion": "熱議新聞討論", "news-reader": "日常聆聽系統", liaison: "英文連音", "daily-reading": "日常閱讀理解", "ielts-writing-preview": "IELTS 寫作預覽",
   "ielts-chart-teaching": "IELTS 圖表教學", "literary-device": "修辭手法系統", "dse-practical-writing": "DSE 實用文練習",
-  "policy-discussion": "政策討論", "dse-argument-bank": "DSE 論點大全"
+  "policy-discussion": "政策討論", "dse-argument-bank": "DSE 論點大全",
+  abbreviation: "英文縮寫", "adults-stories": "成人故事", "childrens-stories": "兒童故事", cre: "CRE 練習",
+  "eddy-dialogue-index": "Eddy 對話圖鑑", homonomy: "同音詞學習", "mock-exam": "模擬考試",
+  "teens-stories": "青少年故事", "thematic-vocabulary-learning": "主題詞彙學習"
 });
 assert.deepEqual(Object.keys(shortNames).sort(), systems.map(({ id }) => id).sort(), "every app needs an intentional short name");
 assert.equal(new Set(Object.values(shortNames)).size, systems.length, "installed app short names must be distinct");
