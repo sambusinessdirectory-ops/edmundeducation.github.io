@@ -50,13 +50,24 @@ export function formatHomeworkLinkExport({ resources, exportedAt }) {
   for (const raw of resources) {
     const resource = normalizeHomeworkResource(raw);
     if (!resource) throw new Error(`Invalid homework hyperlink: ${String(raw?.id || "unknown")}`);
-    if (seen.has(resource.id)) continue;
-    seen.add(resource.id);
+    const exportUrl = new URL(resource.url, "https://edmundeducation.com/");
+    let exportKey = resource.id;
+    if (resource.type === "grammar") {
+      exportUrl.searchParams.delete("question");
+      exportUrl.searchParams.set("view", "practice");
+      exportKey = `grammar:${exportUrl.searchParams.get("lesson")}:practice`;
+    } else if (resource.type === "error-identification") {
+      exportUrl.searchParams.delete("question");
+      exportUrl.searchParams.delete("passage");
+      exportKey = `error-identification:${exportUrl.searchParams.get("mode")}:module`;
+    }
+    if (seen.has(exportKey)) continue;
+    seen.add(exportKey);
     const detail = String(raw.detail || "").replace(/\s+/g, " ").trim();
     rows.push({
       system: typeNames.get(homeworkLinkExportSystem(resource.type)),
       description: detail && detail !== resource.label ? `${resource.label} — ${detail}` : resource.label,
-      url: new URL(resource.url, "https://edmundeducation.com/").href
+      url: exportUrl.href
     });
   }
   const lines = [

@@ -568,6 +568,87 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "manifest": "/pwa-manifests/daily-reading.webmanifest"
   },
   {
+    "id": "homonomy",
+    "href": "homonomy-system.html",
+    "zh": "同音詞學習系統",
+    "en": "Homonomy System",
+    "name": "同音詞學習系統｜EdmundEducation",
+    "shortName": "同音詞學習",
+    "manifest": "/pwa-manifests/homonomy.webmanifest"
+  },
+  {
+    "id": "eddy-dialogue-index",
+    "href": "eddy-dialogue-box-index.html",
+    "zh": "Eddy 對話框圖鑑",
+    "en": "Eddy Dialogue Box Index",
+    "name": "Eddy 對話框圖鑑｜EdmundEducation",
+    "shortName": "Eddy 對話圖鑑",
+    "manifest": "/pwa-manifests/eddy-dialogue-index.webmanifest"
+  },
+  {
+    "id": "thematic-vocabulary-learning",
+    "href": "thematic-vocabulary-learning-system.html",
+    "zh": "主題詞彙學習系統",
+    "en": "Thematic Vocabulary",
+    "name": "主題詞彙學習系統｜EdmundEducation",
+    "shortName": "主題詞彙學習",
+    "manifest": "/pwa-manifests/thematic-vocabulary-learning.webmanifest"
+  },
+  {
+    "id": "cre",
+    "href": "cre-system.html",
+    "zh": "綜合招聘考試練習",
+    "en": "CRE System",
+    "name": "綜合招聘考試練習｜EdmundEducation",
+    "shortName": "CRE 練習",
+    "manifest": "/pwa-manifests/cre.webmanifest"
+  },
+  {
+    "id": "abbreviation",
+    "href": "abbreviation-system.html",
+    "zh": "英文縮寫學習系統",
+    "en": "Abbreviation System",
+    "name": "英文縮寫學習系統｜EdmundEducation",
+    "shortName": "英文縮寫",
+    "manifest": "/pwa-manifests/abbreviation.webmanifest"
+  },
+  {
+    "id": "childrens-stories",
+    "href": "childrens-stories-system.html",
+    "zh": "兒童故事系統",
+    "en": "Children's Stories",
+    "name": "兒童故事系統｜EdmundEducation",
+    "shortName": "兒童故事",
+    "manifest": "/pwa-manifests/childrens-stories.webmanifest"
+  },
+  {
+    "id": "teens-stories",
+    "href": "teens-stories-system.html",
+    "zh": "青少年故事系統",
+    "en": "Teens' Stories",
+    "name": "青少年故事系統｜EdmundEducation",
+    "shortName": "青少年故事",
+    "manifest": "/pwa-manifests/teens-stories.webmanifest"
+  },
+  {
+    "id": "adults-stories",
+    "href": "adults-stories-system.html",
+    "zh": "成人故事系統",
+    "en": "Adults' Stories",
+    "name": "成人故事系統｜EdmundEducation",
+    "shortName": "成人故事",
+    "manifest": "/pwa-manifests/adults-stories.webmanifest"
+  },
+  {
+    "id": "mock-exam",
+    "href": "mock-exam-system.html",
+    "zh": "模擬考試系統",
+    "en": "Mock",
+    "name": "模擬考試系統｜EdmundEducation",
+    "shortName": "模擬考試",
+    "manifest": "/pwa-manifests/mock-exam.webmanifest"
+  },
+  {
     "id": "ielts-writing-preview",
     "href": "ielts-writing-question-preview.html",
     "zh": "IELTS 寫作問題預覽系統",
