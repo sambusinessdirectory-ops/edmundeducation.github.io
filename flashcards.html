@@ -4359,9 +4359,10 @@
     .login-progress-detail { margin: 0; color: #59657a; font-size: 12px; line-height: 1.5; }
     @keyframes login-progress-shimmer { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
     @media (prefers-reduced-motion: reduce) { .login-progress-fill { transition: none; } .login-progress-fill::after { animation: none !important; } }
+    .login-review-dialog{width:min(560px,calc(100vw - 28px));padding:0;border:0;border-radius:26px;background:transparent;overflow:visible}.login-review-dialog::backdrop{background:rgba(16,31,43,.68);backdrop-filter:blur(7px)}.login-review-card{overflow:hidden;border:1px solid #b8d1c4;border-radius:26px;background:#fff;box-shadow:0 30px 90px rgba(12,31,43,.4);animation:login-review-in .3s cubic-bezier(.2,.9,.35,1) both}.login-review-head{padding:21px 24px 17px;color:#fff;background:linear-gradient(135deg,#245f50,#3b8069)}.login-review-head p{margin:0 0 5px;font-size:11px;font-weight:900;letter-spacing:.14em}.login-review-head h2{margin:0;font-size:25px}.login-review-progress{height:6px;background:#dce9e2}.login-review-progress i{display:block;width:var(--login-review-progress,0%);height:100%;background:linear-gradient(90deg,#edbc4c,#fff2a5);transition:width .25s ease}.login-review-body{padding:26px 24px;text-align:center}.login-review-body small{color:#728078;font-weight:800}.login-review-body h3{margin:16px 0 8px;font:800 clamp(27px,6vw,42px)/1.14 Georgia,serif}.login-review-meaning{min-height:52px;margin:0;color:#385147;font-size:18px;font-weight:750}.login-review-meaning[hidden]{visibility:hidden;display:block}.login-review-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin-top:20px}.login-review-actions button{min-height:44px;padding:0 16px;border:1px solid #b9cfc5;border-radius:13px;background:#f5faf7;color:#234f43;font:800 14px/1.2 inherit;cursor:pointer}.login-review-actions [data-login-review-green]{color:#fff;border-color:#267052;background:#267052}.login-review-actions [data-login-review-red]{color:#fff;border-color:#a64a47;background:#a64a47}.login-review-skip{display:block;margin:13px auto 0;padding:8px 16px;border:0;color:#fff;background:transparent;font:800 13px/1.2 inherit;text-decoration:underline;cursor:pointer}.login-review-dialog.is-closing{animation:login-review-out .2s ease both}@keyframes login-review-in{from{opacity:0;transform:translateY(18px) scale(.975)}to{opacity:1;transform:none}}@keyframes login-review-out{to{opacity:0;transform:translateY(12px) scale(.98)}}@media(prefers-reduced-motion:reduce){.login-review-card,.login-review-dialog.is-closing{animation:none}.login-review-progress i{transition:none}}
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20261118-login-sounds1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261121-dialogue-index1">
 <link rel="stylesheet" href="flashcard-theme.css?v=20260910-night3">
   <link rel="stylesheet" href="flashcards-reading-embed.css?v=20260910-1">
   <script src="language-learning.js?v=20260914-six-languages-1"></script>
@@ -4493,7 +4494,7 @@
             let ready = false, active = true, mode = "startup", value = 5;
             let startedAt = Date.now(), stageAt = startedAt, timer, hideTimer;
             let resources = 0, resourcePhase = true;
-            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js","flashcards-ielts-writing-data.js?v=20260713-1","flashcards-ielts-reading-index.js?v=20260731-1","dse-writing-part-b-links.js?v=20260911-1","essay-portal-links.js?v=20261106-memorization1","supabase-config.js","eddy-global-dialogues.js?v=20261027-homeonly1","shared-system-nav.js?v=20261118-login-sounds1","flashcards-data-catalog.js?v=20261113-jayden-test1","dse-writing-part-b-topics.js?v=20260911-1","edmund-audio-config.js?v=1","italian-1-burro-montato-data.js?v=20260914-1","italian-1-audio.js?v=20260914-1","italian-2-torta-coi-bischeri-data.js?v=20260929-2","italian-2-audio.js?v=20260929-1","french-1-fondant-data.js?v=20260914-1","french-1-audio.js?v=20260914-1"];
+            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js","flashcards-ielts-writing-data.js?v=20260713-1","flashcards-ielts-reading-index.js?v=20260731-1","dse-writing-part-b-links.js?v=20260911-1","essay-portal-links.js?v=20261106-memorization1","supabase-config.js","eddy-global-dialogues.js?v=20261027-homeonly1","shared-system-nav.js?v=20261121-dialogue-index1","flashcards-data-catalog.js?v=20261113-jayden-test1","dse-writing-part-b-topics.js?v=20260911-1","edmund-audio-config.js?v=1","italian-1-burro-montato-data.js?v=20260914-1","italian-1-audio.js?v=20260914-1","italian-2-torta-coi-bischeri-data.js?v=20260929-2","italian-2-audio.js?v=20260929-1","french-1-fondant-data.js?v=20260914-1","french-1-audio.js?v=20260914-1"];
             const pendingResources = new Set(resourceSources);
             form.addEventListener("submit", event => {
               event.preventDefault();
@@ -5188,7 +5189,7 @@
   <script src="dse-writing-part-b-links.js?v=20260911-1"></script>
   <script src="essay-portal-links.js?v=20261106-memorization1"></script>
   <script src="supabase-config.js"></script>
-  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261118-login-sounds1"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261121-dialogue-index1"></script>
   <script>window.EDMUND_FLASHCARD_SEED = window.EDMUND_FLASHCARD_SEED || {};</script>
   <script src="flashcards-data-catalog.js?v=20261113-jayden-test1"></script>
   <script src="dse-writing-part-b-topics.js?v=20260911-1"></script>
@@ -12462,6 +12463,7 @@
               hydrateFlashcardDisplayPreferences();
               updateSupabaseStatus("已安全連接", "live");
               refreshCurrentView();
+              window.setTimeout(offerLoginReview, 260);
               return true;
             }
             if (supabaseState.outboxErrorClass === "terminal") {
@@ -13755,6 +13757,8 @@
     }
 
     function openBookmarkPracticeDeck() {
+      // Login review uses the same canonical history and familiarity stores,
+      // but stays in a compact modal instead of replacing the dashboard.
       const rows = bookmarkRowsForStudent();
       if (!rows.length) {
         window.alert("暫時未有書簽可練習。");
@@ -13762,6 +13766,82 @@
       }
       deckTitleLabels.set(BOOKMARK_DECK_ID, "書簽 / My Private Bookmarks");
       openDeckStart(BOOKMARK_DECK_ID);
+    }
+
+    let loginReviewState = null;
+
+    function loginReviewSessionKey() {
+      return `edmund-flashcard-login-review-v1:${currentUser?.id || currentUser?.name || "student"}:${studentSessionToken || currentUser?.sessionToken || "session"}`;
+    }
+
+    function shuffledLoginReviewRows() {
+      const rows = cardHistoryRowsForStudent().filter(row => row.index >= 0 && row.front);
+      for (let index = rows.length - 1; index > 0; index -= 1) {
+        const swap = Math.floor(Math.random() * (index + 1));
+        [rows[index], rows[swap]] = [rows[swap], rows[index]];
+      }
+      return rows.slice(0, 10);
+    }
+
+    function closeLoginReview() {
+      const dialog = document.querySelector("[data-login-review-dialog]");
+      if (!dialog) return;
+      dialog.classList.add("is-closing");
+      window.setTimeout(() => { dialog.close(); dialog.remove(); loginReviewState = null; renderDashboard(); }, window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 190);
+    }
+
+    function renderLoginReviewCard() {
+      const state = loginReviewState;
+      const dialog = document.querySelector("[data-login-review-dialog]");
+      const row = state?.rows[state.index];
+      if (!state || !dialog || !row) return closeLoginReview();
+      dialog.querySelector("[data-login-review-position]").textContent = `${state.index + 1} / ${state.rows.length}`;
+      dialog.querySelector("[data-login-review-progress]").style.setProperty("--login-review-progress", `${state.index / state.rows.length * 100}%`);
+      dialog.querySelector("[data-login-review-front]").textContent = row.front;
+      const meaning = dialog.querySelector("[data-login-review-meaning]"); meaning.textContent = row.meaning || "—"; meaning.hidden = true;
+      dialog.querySelector("[data-login-review-reveal]").hidden = false;
+      dialog.querySelector("[data-login-review-ratings]").hidden = true;
+      dialog.querySelector("[data-login-review-front]").focus({ preventScroll: true });
+    }
+
+    function updateLoginReviewAttempt(row, status) {
+      if (!loginReviewState?.attemptId) return;
+      setCardFamiliarity(Number(row.index), status, row.deckId);
+      const attempts = getAttempts();
+      const target = attempts.find(attempt => attempt.id === loginReviewState.attemptId);
+      if (!target) return;
+      target.answeredCount = loginReviewState.index + 1;
+      target.green = Number(target.green || 0) + (status === "green" ? 1 : 0);
+      target.red = Number(target.red || 0) + (status === "red" ? 1 : 0);
+      target.cardOutcomes = [...(target.cardOutcomes || []), { key: row.key, index: Number(row.index), deckId: row.deckId, deckTitle: row.deckTitle, front: row.front, meaning: row.meaning, status, answeredAt: Date.now() }];
+      target.updatedAt = Date.now();
+      if (target.answeredCount >= loginReviewState.rows.length) { target.completed = true; target.completedAt = Date.now(); }
+      saveAttempts(attempts);
+    }
+
+    function rateLoginReview(status) {
+      const row = loginReviewState?.rows[loginReviewState.index];
+      if (!row) return;
+      updateLoginReviewAttempt(row, status);
+      loginReviewState.index += 1;
+      if (loginReviewState.index >= loginReviewState.rows.length) return closeLoginReview();
+      renderLoginReviewCard();
+    }
+
+    function offerLoginReview() {
+      if (currentUser?.role !== "student" || currentUser.impersonatedByAdmin) return;
+      const marker = loginReviewSessionKey();
+      try { if (sessionStorage.getItem(marker)) return; sessionStorage.setItem(marker, "1"); } catch { /* In-memory modal guard still applies. */ }
+      if (loginReviewState || document.querySelector("[data-login-review-dialog]")) return;
+      const rows = shuffledLoginReviewRows();
+      if (!rows.length) return;
+      loginReviewState = { rows, index: 0, attemptId: logAttemptStart("登入隨機重溫", rows.length) };
+      document.body.insertAdjacentHTML("beforeend", `<dialog class="login-review-dialog" data-login-review-dialog aria-labelledby="login-review-title"><section class="login-review-card"><header class="login-review-head"><p>WELCOME-BACK REVIEW · 登入重溫</p><h2 id="login-review-title">用最多 10 張舊卡熱身</h2></header><div class="login-review-progress" data-login-review-progress><i></i></div><div class="login-review-body"><small data-login-review-position></small><h3 data-login-review-front tabindex="-1"></h3><p class="login-review-meaning" data-login-review-meaning hidden></p><div class="login-review-actions"><button type="button" data-login-review-audio>🔊 播放讀音</button><button type="button" data-login-review-reveal>顯示答案</button><span data-login-review-ratings hidden><button type="button" data-login-review-red>再溫習</button> <button type="button" data-login-review-green>我記得</button></span></div></div></section><button class="login-review-skip" type="button" data-login-review-skip>Skip this session · 跳過本次重溫</button></dialog>`);
+      const dialog = document.querySelector("[data-login-review-dialog]");
+      dialog.addEventListener("cancel", event => { event.preventDefault(); closeLoginReview(); });
+      dialog.addEventListener("click", event => { if (event.target.closest("[data-login-review-skip]")) closeLoginReview(); if (event.target.closest("[data-login-review-audio]")) playNeuralSpeechText(loginReviewState?.rows[loginReviewState.index]?.front || ""); if (event.target.closest("[data-login-review-reveal]")) { event.target.hidden=true; dialog.querySelector("[data-login-review-meaning]").hidden=false; dialog.querySelector("[data-login-review-ratings]").hidden=false; dialog.querySelector("[data-login-review-red]").focus(); } if (event.target.closest("[data-login-review-green]")) rateLoginReview("green"); if (event.target.closest("[data-login-review-red]")) rateLoginReview("red"); });
+      dialog.addEventListener("keydown", event => { if (event.key !== "Tab") return; const controls=[...dialog.querySelectorAll('button:not([hidden]):not(:disabled),[tabindex="-1"]')].filter(node=>!node.closest("[hidden]")); if(!controls.length)return;const first=controls[0],last=controls[controls.length-1];if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()} });
+      dialog.showModal(); renderLoginReviewCard();
     }
 
     function currentRedCrossCards(studentName = currentUser?.name) {

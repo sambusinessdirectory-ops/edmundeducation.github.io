@@ -99,6 +99,30 @@
     </section>`;
   }
 
+  function learningContentMarkup() {
+    const modules = Array.isArray(portal.modules) ? portal.modules : [];
+    if (modules.length) {
+      const cards = modules.map((module, index) => `<button class="learning-portal-module" type="button" data-portal-module="${escapeHtml(module.id)}" aria-pressed="${index === 0}">
+        <span class="learning-portal-module__icon" aria-hidden="true">${escapeHtml(module.icon || String(index + 1).padStart(2, "0"))}</span>
+        <span><strong>${escapeHtml(module.title)}</strong><small>${escapeHtml(module.description || "按此進入學習內容。")}</small></span>
+      </button>`).join("");
+      const first = modules[0];
+      return `<section class="learning-portal-modules panel" aria-labelledby="${portal.id}-modules-heading">
+        <div class="learning-portal-modules__heading"><p class="eyebrow">CHOOSE A MODULE</p><h2 id="${portal.id}-modules-heading">選擇學習模式</h2><p>選擇一個分類開始學習；您的學生帳戶會沿用同一登入狀態。</p></div>
+        <div class="learning-portal-modules__grid">${cards}</div>
+        <div class="learning-portal-module-preview" data-module-preview role="status" aria-live="polite">
+          <span class="learning-portal-module-preview__icon" data-module-preview-icon aria-hidden="true">${escapeHtml(first.icon || "01")}</span>
+          <div><p class="eyebrow">SELECTED MODULE</p><h3 data-module-preview-title>${escapeHtml(first.title)}</h3><p data-module-preview-description>${escapeHtml(first.description || "按此進入學習內容。")}</p></div>
+        </div>
+      </section>`;
+    }
+    if (portal.hideEmptyContent) return "";
+    return `<section class="learning-portal-empty panel" aria-labelledby="${portal.id}-content-heading">
+      <span aria-hidden="true">00</span>
+      <div><p class="eyebrow">LEARNING CONTENT</p><h2 id="${portal.id}-content-heading">學習內容</h2><p>這裡暫時未有學習內容。新增的課題會按次序顯示在這裡。</p></div>
+    </section>`;
+  }
+
   function renderScaffold() {
     document.documentElement.style.setProperty("--portal-hue", String(portal.hue));
     root.dataset.portalDashboard = String(portal.dashboard);
@@ -132,10 +156,7 @@
         <span class="learning-portal-dashboard__ordinal" aria-hidden="true">${portal.ordinal}</span>
       </section>
       ${progressMarkup()}
-      ${portal.hideEmptyContent ? "" : `<section class="learning-portal-empty panel" aria-labelledby="${portal.id}-content-heading">
-        <span aria-hidden="true">00</span>
-        <div><p class="eyebrow">LEARNING CONTENT</p><h2 id="${portal.id}-content-heading">學習內容</h2><p>這裡暫時未有學習內容。新增的課題會按次序顯示在這裡。</p></div>
-      </section>`}
+      ${learningContentMarkup()}
     </section>`;
     if (portal.blankAfterLogin) {
       const dashboard = root.querySelector('[data-view="dashboard"]');
@@ -345,6 +366,21 @@
     });
   }
 
+  function selectModule(moduleId) {
+    const modules = Array.isArray(portal.modules) ? portal.modules : [];
+    const selected = modules.find((module) => module.id === moduleId);
+    if (!selected) return;
+    root.querySelectorAll("[data-portal-module]").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.portalModule === moduleId));
+    });
+    const icon = root.querySelector("[data-module-preview-icon]");
+    const title = root.querySelector("[data-module-preview-title]");
+    const description = root.querySelector("[data-module-preview-description]");
+    if (icon) icon.textContent = selected.icon || "•";
+    if (title) title.textContent = selected.title;
+    if (description) description.textContent = selected.description || "按此進入學習內容。";
+  }
+
   async function logout() {
     window.EdmundSystemNav?.forgetStudentSession?.();
     clearSession();
@@ -371,6 +407,8 @@
       if (activity) selectRange("activity", activity.dataset.activityRange);
       const time = event.target.closest("[data-time-range]");
       if (time) selectRange("time", time.dataset.timeRange);
+      const moduleButton = event.target.closest("[data-portal-module]");
+      if (moduleButton) selectModule(moduleButton.dataset.portalModule);
     });
   }
 

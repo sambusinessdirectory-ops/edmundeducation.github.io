@@ -55,7 +55,7 @@ import {
   parseScheduleMessage,
   serializeScheduleMessage
 } from "./schedule-homework-links.mjs?v=20261106-advanced-native-homework1";
-import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261106-advanced-native-homework1";
+import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261121-module-links1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -288,6 +288,7 @@ const elements = {
   previousWeek: document.querySelector("[data-previous-week]"),
   nextWeek: document.querySelector("[data-next-week]"),
   currentWeek: document.querySelector("[data-current-week]"),
+  jumpHomeworkSlots: document.querySelector("[data-jump-homework-slots]"),
   copyWeekLink: document.querySelector("[data-copy-week-link]"),
   exportPdf: document.querySelector("[data-export-pdf]"),
   toggleTable: document.querySelector("[data-toggle-table]"),
@@ -8508,6 +8509,10 @@ chart.addEventListener('click',event=>{
 chartYear.onchange=drawWeeks;
 elements.previousWeek.addEventListener("click", () => changeWeek(-7));
 elements.nextWeek.addEventListener("click", () => changeWeek(7));
+elements.jumpHomeworkSlots?.addEventListener("click", () => {
+  elements.calendarScroll?.scrollIntoView({ behavior: "smooth", block: "start" });
+  window.setTimeout(() => elements.calendarScroll?.focus({ preventScroll: true }), 420);
+});
 elements.currentWeek.addEventListener("click", async () => {
   if (state.mutationInFlight) return;
   const current = defaultWeekStart();
