@@ -19,7 +19,10 @@
     linear-gradient(145deg, #fff8eb, #f1d3aa);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
   cursor: wait;
+  animation: edmund-access-fade-in .2s ease both;
 }
+
+.edmund-student-access-transition.is-leaving { animation: edmund-access-fade-out .2s ease both; pointer-events:none; }
 
 .edmund-student-access-transition[hidden] { display: none !important; }
 
@@ -82,8 +85,12 @@
   to { transform: translateX(150%); }
 }
 
+@keyframes edmund-access-fade-in { from { opacity:0 } to { opacity:1 } }
+@keyframes edmund-access-fade-out { from { opacity:1 } to { opacity:0 } }
+
 @media (prefers-reduced-motion: reduce) {
   .edmund-student-access-transition__track::after { animation-duration: 2.4s; }
+  .edmund-student-access-transition,.edmund-student-access-transition.is-leaving { animation-duration:.08s; }
 }
 
 .edmund-system-header {

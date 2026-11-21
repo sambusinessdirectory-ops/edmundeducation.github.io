@@ -21,9 +21,15 @@ let activeUser = null;
 let wordAudio = null;
 let storedAudioIndex = null;
 let typingAudioContext = null;
+let typingAudioMaster = null;
 let lastTypingSoundAt = 0;
 const FLASHCARD_PACKED_AUDIO_BASE = "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/";
 let correctAdvanceTimer = null;
+let correctSkipInFlight = false;
+let autoPlayTimer = null;
+let lastAutoPlayedWordId = "";
+let audioUnlocked = false;
+let autoPlayBlocked = false;
 let elapsedTimer = null;
 let historySaveTimer = null;
 let historyRows = [];
@@ -60,6 +66,7 @@ function defaultState() {
     deckSearch: "",
     wordFilter: "all",
     typingEffectOn: true,
+    autoPlayAudio: false,
     phase: "setup",
     correctById: {},
     totalCorrect: 0,
@@ -72,6 +79,7 @@ function defaultState() {
     pendingNextId: "",
     pendingNextMask: [],
     advanceAt: 0,
+    correctStartedAt: 0,
     queue: [],
     roundId: "",
     startedAt: 0,
@@ -210,6 +218,7 @@ function normalizeState(candidate) {
     deckSearch: String(candidate.deckSearch || "").slice(0, 120),
     wordFilter: ["all", "unmastered", "mastered"].includes(candidate.wordFilter) ? candidate.wordFilter : "all",
     typingEffectOn: candidate.typingEffectOn !== false,
+    autoPlayAudio: candidate.autoPlayAudio === true,
     phase,
     correctById,
     totalCorrect,
@@ -224,6 +233,7 @@ function normalizeState(candidate) {
     pendingNextId,
     pendingNextMask: validMask(pendingWord, candidate.pendingNextMask),
     advanceAt: feedback ? Math.max(0, Math.floor(Number(candidate.advanceAt) || 0)) : 0,
+    correctStartedAt: feedback ? Math.max(0, Math.floor(Number(candidate.correctStartedAt) || 0)) : 0,
     queue,
     roundId: /^[0-9a-f-]{36}$/i.test(String(candidate.roundId || "")) ? String(candidate.roundId) : "",
     startedAt: Math.max(0, Math.floor(Number(candidate.startedAt) || 0)),
@@ -395,9 +405,13 @@ function clearAttemptState() {
   appState.pendingNextId = "";
   appState.pendingNextMask = [];
   appState.advanceAt = 0;
+  appState.correctStartedAt = 0;
   appState.lastAttempt = null;
   if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
   correctAdvanceTimer = null;
+  if (autoPlayTimer) clearTimeout(autoPlayTimer);
+  autoPlayTimer = null;
+  lastAutoPlayedWordId = "";
 }
 
 function selectedEntries() {
@@ -727,15 +741,20 @@ function practiceMarkup() {
   const wordCorrect = appState.correctById[entry.id] || 0;
   const meaningLength = [...entry.meaning].length;
   const lengthClass = meaningLength > 32 ? " is-very-long" : meaningLength > 18 ? " is-long" : "";
+  const advanceDuration = Math.max(1, appState.advanceAt - appState.correctStartedAt || 2400);
+  const advanceRemaining = Math.max(0, appState.advanceAt - Date.now());
+  const advanceProgress = appState.feedback === "correct" ? Math.min(1, Math.max(0, 1 - advanceRemaining / advanceDuration)) : 0;
   return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}" data-typing-effects="${appState.typingEffectOn}">
-    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-header__right"><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div><button class="spelling-typing-effect-toggle" type="button" data-typing-effect-toggle aria-pressed="${appState.typingEffectOn}" aria-label="柔光打字聲效：${appState.typingEffectOn ? "已開啟" : "已關閉"}">${icon("sparkle")}<span>柔光聲效</span><strong>${appState.typingEffectOn ? "開" : "關"}</strong></button></div></header>
+    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-header__right"><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div><button class="spelling-auto-audio-toggle" type="button" data-auto-audio-toggle aria-pressed="${appState.autoPlayAudio}" aria-label="每題自動讀音：${appState.autoPlayAudio ? "已開啟" : "已關閉"}">${icon("sound")}<span>每題讀音</span><strong>${appState.autoPlayAudio ? "開" : "關"}</strong></button><button class="spelling-typing-effect-toggle" type="button" data-typing-effect-toggle aria-pressed="${appState.typingEffectOn}" aria-label="柔光打字聲效：${appState.typingEffectOn ? "已開啟" : "已關閉"}">${icon("sparkle")}<span>柔光聲效</span><strong>${appState.typingEffectOn ? "開" : "關"}</strong></button></div></header>
     <div class="spelling-progress" aria-label="本輪完成 ${percentage}%"><i style="width:${percentage}%"></i></div>
-    <main class="spelling-card${lengthClass}">
-      <div class="spelling-meaning-row"><h1>${escapeHtml(entry.meaning)}</h1><button class="spelling-sound" type="button" data-speak aria-label="播放英文讀音">${icon("sound")}<span>聆聽</span></button></div>
+    <main class="spelling-card spelling-card--enter${lengthClass}">
+      <div class="spelling-meaning-row"><h1>${escapeHtml(entry.meaning)}</h1><button class="spelling-sound${autoPlayBlocked ? " needs-audio-unlock" : ""}" type="button" data-speak aria-label="播放英文讀音">${icon("sound")}<span>聆聽</span></button></div>
+      ${autoPlayBlocked ? '<p class="spelling-audio-unlock" role="status">請按「聆聽」一次，以啟動每題自動讀音。</p>' : ""}
       <p class="spelling-word-progress">這個生字已答對 <strong>${wordCorrect}</strong> / ${appState.frequency} 次</p>
       <form data-answer-form novalidate>
         ${answerArea(entry)}
         <div class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : appState.feedback}" role="status" aria-live="assertive">${feedbackHtml(entry)}</div>
+        ${appState.feedback === "correct" ? `<div class="spelling-auto-advance" aria-label="即將前往下一題"><i style="--advance-progress:${advanceProgress};--advance-remaining:${advanceRemaining}ms"></i></div>` : ""}
         ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" data-next-now>立即下一題 <kbd>Space</kbd><span aria-hidden="true">/</span><kbd>Enter</kbd> ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
       </form>
       <p class="spelling-attempts">本輪作答 ${appState.totalAttempts} 次；只有答對才會計入完成次數。</p>
@@ -778,7 +797,10 @@ function render() {
   if (appState.phase === "setup" && appState.setupView === "bank") applyWordSearch(dashboard, dashboard.querySelector("[data-word-search]")?.value || "");
   if (appState.phase === "practice") {
     scheduleCorrectAdvance();
-    if (!appState.feedback && !appState.awaitingNext) requestAnimationFrame(() => (dashboard.querySelector("[data-letter-position]") || dashboard.querySelector("[data-line-answer]"))?.focus());
+    if (!appState.feedback && !appState.awaitingNext) {
+      requestAnimationFrame(() => (dashboard.querySelector("[data-letter-position]") || dashboard.querySelector("[data-line-answer]"))?.focus());
+      scheduleAutoPlay(currentEntry());
+    }
   }
 }
 
@@ -812,6 +834,34 @@ function fallbackSpeak(entry) {
   window.speechSynthesis.speak(utterance);
 }
 
+function setSpeaking(active) {
+  document.querySelector("[data-spelling-practice]")?.setAttribute("data-audio-speaking", String(active));
+}
+
+function stopWordAudio() {
+  if (autoPlayTimer) clearTimeout(autoPlayTimer);
+  autoPlayTimer = null;
+  try {
+    wordAudio?.pause();
+    if (wordAudio) wordAudio.currentTime = 0;
+  } catch { /* Ignore media cleanup failures. */ }
+  try { window.speechSynthesis?.cancel(); } catch { /* Ignore speech cleanup failures. */ }
+  setSpeaking(false);
+}
+
+function showAutoPlayBlocked() {
+  autoPlayBlocked = true;
+  const listen = document.querySelector("[data-speak]");
+  listen?.classList.add("needs-audio-unlock");
+  if (listen && !document.querySelector(".spelling-audio-unlock")) {
+    const message = document.createElement("p");
+    message.className = "spelling-audio-unlock";
+    message.setAttribute("role", "status");
+    message.textContent = "請按「聆聽」一次，以啟動每題自動讀音。";
+    listen.closest(".spelling-meaning-row")?.after(message);
+  }
+}
+
 function normalizeAudioKey(value) {
   return String(value || "").normalize("NFKC").toLocaleLowerCase("en")
     .replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
@@ -841,26 +891,56 @@ function resolveStoredAudioUrl(source) {
   return value;
 }
 
-function speakWord(entry) {
-  if (!entry) return;
+async function speakWord(entry, { automatic = false } = {}) {
+  if (!entry) return false;
+  stopWordAudio();
   const source = storedAudioSource(entry);
   if (!source) {
+    if (automatic && !audioUnlocked) {
+      showAutoPlayBlocked();
+      return false;
+    }
     fallbackSpeak(entry);
-    return;
+    setSpeaking(true);
+    window.setTimeout(() => setSpeaking(false), Math.max(900, entry.word.length * 120));
+    return true;
   }
   try {
-    wordAudio?.pause();
     wordAudio = new Audio(source);
     wordAudio.preload = "auto";
-    wordAudio.play().catch(() => fallbackSpeak(entry));
+    wordAudio.addEventListener("playing", () => setSpeaking(true));
+    wordAudio.addEventListener("ended", () => setSpeaking(false), { once: true });
+    wordAudio.addEventListener("pause", () => setSpeaking(false));
+    await wordAudio.play();
+    audioUnlocked = true;
+    autoPlayBlocked = false;
+    return true;
   } catch {
+    if (automatic && !audioUnlocked) {
+      showAutoPlayBlocked();
+      return false;
+    }
     fallbackSpeak(entry);
+    return true;
   }
 }
 
 function speakCurrentWord() {
+  audioUnlocked = true;
+  autoPlayBlocked = false;
   speakWord(currentEntry());
   focusCurrentAnswer();
+}
+
+function scheduleAutoPlay(entry) {
+  if (!entry || !appState?.autoPlayAudio || appState.feedback || appState.awaitingNext) return;
+  if (lastAutoPlayedWordId === entry.id) return;
+  if (autoPlayTimer) clearTimeout(autoPlayTimer);
+  lastAutoPlayedWordId = entry.id;
+  autoPlayTimer = window.setTimeout(() => {
+    autoPlayTimer = null;
+    speakWord(entry, { automatic: true });
+  }, 320);
 }
 
 function focusCurrentAnswer() {
@@ -905,12 +985,7 @@ function prepareFreshAttempt(entry) {
   persistAndPublish();
 }
 
-function advanceCorrect() {
-  if (!appState || appState.feedback !== "correct") return;
-  if (appState.advanceAt > Date.now()) {
-    scheduleCorrectAdvance();
-    return;
-  }
+function commitCorrectAdvance() {
   const next = VOCABULARY.find((entry) => entry.id === appState.pendingNextId) || null;
   const nextMask = next ? validMask(next.word, appState.pendingNextMask) : [];
   clearAttemptState();
@@ -928,6 +1003,26 @@ function advanceCorrect() {
   if (appState.phase === "complete") scheduleHistorySave(true);
 }
 
+function animateCardAndCommit() {
+  const card = document.querySelector("[data-spelling-practice] .spelling-card");
+  const reduced = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+  card?.classList.add("spelling-card--exit");
+  window.setTimeout(() => {
+    commitCorrectAdvance();
+    correctSkipInFlight = false;
+  }, reduced ? 80 : 190);
+}
+
+function advanceCorrect() {
+  if (!appState || appState.feedback !== "correct" || correctSkipInFlight) return;
+  if (appState.advanceAt > Date.now()) {
+    scheduleCorrectAdvance();
+    return;
+  }
+  correctSkipInFlight = true;
+  animateCardAndCommit();
+}
+
 function scheduleCorrectAdvance() {
   if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
   correctAdvanceTimer = null;
@@ -935,12 +1030,25 @@ function scheduleCorrectAdvance() {
   correctAdvanceTimer = setTimeout(advanceCorrect, Math.max(0, appState.advanceAt - Date.now()));
 }
 
-function advanceCorrectNow() {
-  if (!appState || appState.feedback !== "correct") return;
+async function advanceCorrectNow() {
+  if (!appState || appState.feedback !== "correct" || correctSkipInFlight) return;
+  correctSkipInFlight = true;
   if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
   correctAdvanceTimer = null;
+  const bar = document.querySelector(".spelling-auto-advance i");
+  if (bar && !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+    let progress = 0;
+    try { progress = new DOMMatrixReadOnly(getComputedStyle(bar).transform).a; } catch { progress = 0; }
+    const duration = progress > .9 ? 90 : 170;
+    try {
+      await bar.animate(
+        [{ transform: `scaleX(${Math.min(1, Math.max(0, progress))})`, filter: "brightness(1)" }, { transform: "scaleX(1)", filter: "brightness(1.28)" }],
+        { duration, easing: "cubic-bezier(.2,.8,.2,1)", fill: "forwards" }
+      ).finished;
+    } catch { /* Continue immediately if the animation is interrupted. */ }
+  }
   appState.advanceAt = 0;
-  advanceCorrect();
+  animateCardAndCommit();
 }
 
 function handleAnswer(form) {
@@ -989,8 +1097,8 @@ function handleAnswer(form) {
   appState.awaitingNext = false;
   appState.pendingNextId = next?.id || "";
   appState.pendingNextMask = next ? [...createMask(next.word, appState.difficulty)] : [];
-  // Keep correct feedback visible long enough for a second device's two-second poll.
-  appState.advanceAt = Date.now() + 5000;
+  appState.correctStartedAt = Date.now();
+  appState.advanceAt = appState.correctStartedAt + 2400;
   render();
   persistAndPublish();
 }
@@ -1144,33 +1252,61 @@ function clearWritingEffects() {
   document.querySelectorAll(".spelling-writing-effect").forEach((effect) => effect.remove());
 }
 
+function ensureTypingAudio() {
+  if (typingAudioContext) return typingAudioContext;
+  const Context = window.AudioContext || window.webkitAudioContext;
+  if (!Context) return null;
+  typingAudioContext = new Context({ latencyHint: "interactive" });
+  typingAudioMaster = typingAudioContext.createGain();
+  typingAudioMaster.gain.setValueAtTime(.9, typingAudioContext.currentTime);
+  typingAudioMaster.connect(typingAudioContext.destination);
+  return typingAudioContext;
+}
+
+function renderTypingTone(context, deleting) {
+  const start = context.currentTime + .004;
+  const duration = deleting ? .17 : .13;
+  const voice = context.createOscillator();
+  const shimmer = context.createOscillator();
+  const gain = context.createGain();
+  const shimmerGain = context.createGain();
+  const filter = context.createBiquadFilter();
+  const baseFrequency = deleting ? 205 : 510 + Math.random() * 85;
+  voice.type = deleting ? "sine" : "triangle";
+  voice.frequency.setValueAtTime(baseFrequency, start);
+  voice.frequency.exponentialRampToValueAtTime(deleting ? 128 : baseFrequency * 1.2, start + duration * .72);
+  shimmer.type = "sine";
+  shimmer.frequency.setValueAtTime(deleting ? 330 : baseFrequency * 1.78, start);
+  shimmer.frequency.exponentialRampToValueAtTime(deleting ? 230 : baseFrequency * 2.02, start + duration * .65);
+  filter.type = "lowpass";
+  filter.frequency.setValueAtTime(deleting ? 1050 : 2350, start);
+  filter.frequency.exponentialRampToValueAtTime(deleting ? 620 : 1500, start + duration);
+  filter.Q.setValueAtTime(.58, start);
+  gain.gain.setValueAtTime(.0001, start);
+  gain.gain.exponentialRampToValueAtTime(deleting ? .075 : .088, start + .011);
+  gain.gain.exponentialRampToValueAtTime(.0001, start + duration);
+  shimmerGain.gain.setValueAtTime(.0001, start);
+  shimmerGain.gain.exponentialRampToValueAtTime(deleting ? .018 : .026, start + .014);
+  shimmerGain.gain.exponentialRampToValueAtTime(.0001, start + duration * .82);
+  voice.connect(filter).connect(gain).connect(typingAudioMaster || context.destination);
+  shimmer.connect(shimmerGain).connect(typingAudioMaster || context.destination);
+  voice.start(start); shimmer.start(start);
+  voice.stop(start + duration + .02); shimmer.stop(start + duration + .02);
+}
+
 function playTypingSound(deleting = false) {
   if (!appState?.typingEffectOn) return;
   const now = performance.now();
   if (now - lastTypingSoundAt < 24) return;
   lastTypingSoundAt = now;
   try {
-    const Context = window.AudioContext || window.webkitAudioContext;
-    if (!Context) return;
-    typingAudioContext ||= new Context();
-    if (typingAudioContext.state === "suspended") typingAudioContext.resume().catch(() => {});
-    const start = typingAudioContext.currentTime;
-    const oscillator = typingAudioContext.createOscillator();
-    const gain = typingAudioContext.createGain();
-    const filter = typingAudioContext.createBiquadFilter();
-    const baseFrequency = deleting ? 235 : 560 + Math.random() * 55;
-    oscillator.type = deleting ? "sine" : "triangle";
-    oscillator.frequency.setValueAtTime(baseFrequency, start);
-    oscillator.frequency.exponentialRampToValueAtTime(deleting ? 150 : baseFrequency * 1.18, start + (deleting ? .13 : .075));
-    filter.type = "lowpass";
-    filter.frequency.setValueAtTime(deleting ? 900 : 1800, start);
-    filter.Q.setValueAtTime(.7, start);
-    gain.gain.setValueAtTime(.0001, start);
-    gain.gain.exponentialRampToValueAtTime(deleting ? .036 : .046, start + .009);
-    gain.gain.exponentialRampToValueAtTime(.0001, start + (deleting ? .15 : .105));
-    oscillator.connect(filter).connect(gain).connect(typingAudioContext.destination);
-    oscillator.start(start);
-    oscillator.stop(start + (deleting ? .16 : .115));
+    const context = ensureTypingAudio();
+    if (!context) return;
+    if (context.state === "suspended") {
+      context.resume().then(() => renderTypingTone(context, deleting)).catch(() => {});
+      return;
+    }
+    renderTypingTone(context, deleting);
   } catch { /* Typing audio is an enhancement; the visual effect remains available. */ }
 }
 
@@ -1405,6 +1541,23 @@ document.addEventListener("click", (event) => {
     persistAndPublish();
     return;
   }
+  if (event.target.closest("[data-auto-audio-toggle]")) {
+    appState.autoPlayAudio = !appState.autoPlayAudio;
+    if (!appState.autoPlayAudio) {
+      stopWordAudio();
+      autoPlayBlocked = false;
+    } else {
+      lastAutoPlayedWordId = "";
+    }
+    render();
+    persistAndPublish();
+    if (appState.autoPlayAudio) {
+      audioUnlocked = true;
+      speakCurrentWord();
+      lastAutoPlayedWordId = currentEntry()?.id || "";
+    }
+    return;
+  }
   const dropdownToggle = event.target.closest("[data-dropdown-toggle]");
   if (dropdownToggle) {
     const dropdown = dropdownToggle.closest("[data-spelling-dropdown]");
@@ -1605,6 +1758,7 @@ window.addEventListener("edmund:learning-portal-session", (event) => {
   if (event.detail?.portalId !== PORTAL_ID) return;
   if (event.detail.user) activate(event.detail.user);
   else {
+    stopWordAudio();
     if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
     correctAdvanceTimer = null;
     if (elapsedTimer) clearInterval(elapsedTimer);
@@ -1613,6 +1767,12 @@ window.addEventListener("edmund:learning-portal-session", (event) => {
     appState = null;
     classroomLive.refresh();
   }
+});
+
+window.addEventListener("pagehide", () => {
+  stopWordAudio();
+  if (correctAdvanceTimer) clearTimeout(correctAdvanceTimer);
+  correctAdvanceTimer = null;
 });
 
 const existing = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();

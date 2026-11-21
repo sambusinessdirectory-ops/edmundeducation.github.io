@@ -82,6 +82,15 @@
     { id: "news-reader", href: "news-reader.html", zh: "日常聆聽系統", en: "Daily Listening Practice", homepageCard: 82 },
     { id: "liaison", href: "liaison.html", zh: "學生使用 英文連音學習系統", en: "Liaison Sound Lab", homepageCard: 83 },
     { id: "daily-reading", href: "daily-reading.html", zh: "日常閱讀理解系統", en: "Daily Reading Comprehension", homepageCard: 84 },
+    { id: "homonomy", href: "homonomy-system.html", zh: "同音詞學習系統", en: "Homonomy System", homepageCard: 85 },
+    { id: "eddy-dialogue-index", href: "eddy-dialogue-box-index.html", zh: "Eddy 對話框圖鑑", en: "Eddy Dialogue Box Index", homepageCard: 86 },
+    { id: "thematic-vocabulary-learning", href: "thematic-vocabulary-learning-system.html", zh: "主題詞彙學習系統", en: "Thematic Vocabulary", homepageCard: 87 },
+    { id: "cre", href: "cre-system.html", zh: "綜合招聘考試練習", en: "CRE System", homepageCard: 88 },
+    { id: "abbreviation", href: "abbreviation-system.html", zh: "英文縮寫學習系統", en: "Abbreviation System", homepageCard: 89 },
+    { id: "childrens-stories", href: "childrens-stories-system.html", zh: "兒童故事系統", en: "Children's Stories", homepageCard: 90 },
+    { id: "teens-stories", href: "teens-stories-system.html", zh: "青少年故事系統", en: "Teens' Stories", homepageCard: 91 },
+    { id: "adults-stories", href: "adults-stories-system.html", zh: "成人故事系統", en: "Adults' Stories", homepageCard: 92 },
+    { id: "mock-exam", href: "mock-exam-system.html", zh: "模擬考試系統", en: "Mock", homepageCard: 93 },
     { id: "ielts-writing-preview", href: "ielts-writing-question-preview.html", zh: "IELTS 寫作問題預覽系統", en: "IELTS Writing Preview", homepageCard: 77 },
     { id: "ielts-chart-teaching", href: "ielts-chart-teaching.html", zh: "IELTS 圖表教學系統", en: "IELTS Chart Studio", homepageCard: 79 },
     { id: "literary-device", href: "literary-device.html", zh: "修辭手法系統", en: "Literary Device", homepageCard: 80 },
@@ -162,6 +171,11 @@
   let pomodoroNodes = null;
   let pomodoroPageLocked = false;
   let accessTransition = null;
+  let accessNavigationPending = false;
+  const ACCESS_TRANSITION_GIF = new URL("Running Horse Mascot.gif?v=20261121-animated1", SHARED_SCRIPT_URL).href;
+  const ACCESS_TRANSITION_STILL = new URL("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/running-horse-loader.webp?v=20261121-still1", SHARED_SCRIPT_URL).href;
+  const accessMotionReduced = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches === true;
+  if (!accessMotionReduced) { const preloadTransition = new Image(); preloadTransition.src = ACCESS_TRANSITION_GIF; }
   let persistentDeviceClient = null;
 
   function storageJson(storage, key) {
@@ -198,6 +212,7 @@
     if (accessTransition?.isConnected) {
       const copy = accessTransition.querySelector("[data-edmund-access-message]");
       if (copy) copy.textContent = message;
+      accessTransition.classList.remove("is-leaving");
       return accessTransition;
     }
     const overlay = document.createElement("div");
@@ -205,7 +220,7 @@
     overlay.dataset.edmundStudentAccessTransition = "";
     overlay.setAttribute("role", "status");
     overlay.setAttribute("aria-live", "polite");
-    const horseUrl = new URL("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/running-horse-loader.webp", SHARED_SCRIPT_URL).href;
+    const horseUrl = accessMotionReduced ? ACCESS_TRANSITION_STILL : ACCESS_TRANSITION_GIF;
     overlay.innerHTML = `<section class="edmund-student-access-transition__card"><img class="edmund-student-access-transition__horse" src="${horseUrl}" alt=""><strong>正在進入學習系統</strong><p data-edmund-access-message>${message}</p><div class="edmund-student-access-transition__track" aria-hidden="true"></div></section>`;
     document.body.append(overlay);
     accessTransition = overlay;
@@ -214,11 +229,27 @@
 
   function dismissAccessTransition() {
     if (!accessTransition) return;
-    accessTransition.hidden = true;
+    accessTransition.classList.add("is-leaving");
     window.setTimeout(() => {
       accessTransition?.remove();
       accessTransition = null;
-    }, 120);
+    }, accessMotionReduced ? 80 : 210);
+  }
+
+  function startInternalNavigation(event) {
+    if (event.defaultPrevented || event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+    const link = event.target.closest?.('a[href]');
+    if (!link || link.target || link.hasAttribute("download") || link.dataset.noPageTransition === "true") return;
+    const target = new URL(link.href, window.location.href);
+    if (target.origin !== window.location.origin || target.protocol !== window.location.protocol) return;
+    const current = new URL(window.location.href);
+    if (target.pathname === current.pathname && target.search === current.search) return;
+    event.preventDefault();
+    bridgeStudentSession(studentSessionCandidate(), true);
+    ensureAccessTransition("正在載入下一個學習頁面…");
+    if (accessNavigationPending) return;
+    accessNavigationPending = true;
+    window.setTimeout(() => window.location.assign(target.href), accessMotionReduced ? 80 : 380);
   }
 
   function loginSurfaceVisible() {
@@ -1731,6 +1762,130 @@
     });
   }
 
+  const DIALOGUE_DISCOVERY_PREFIX = "edmund-eddy-dialogue-discovery-v1:";
+  let dialogueServerIdentity = "";
+  let dialogueServerLoad = null;
+
+  function dialogueIdentity() {
+    const student = studentSessionCandidate();
+    return student?.id ? `student:${student.id}` : student?.name ? `student-name:${student.name}` : "guest";
+  }
+
+  function dialogueDiscoveryKey(identity = dialogueIdentity()) {
+    return `${DIALOGUE_DISCOVERY_PREFIX}${identity}`;
+  }
+
+  function readDialogueDiscoveries(identity = dialogueIdentity()) {
+    try {
+      const rows = JSON.parse(localStorage.getItem(dialogueDiscoveryKey(identity)) || "[]");
+      return new Set(Array.isArray(rows) ? rows.filter(value => /^eddy-[a-z0-9-]+$/i.test(String(value))) : []);
+    } catch {
+      return new Set();
+    }
+  }
+
+  function writeDialogueDiscoveries(values, identity = dialogueIdentity()) {
+    try { localStorage.setItem(dialogueDiscoveryKey(identity), JSON.stringify([...values].sort())); } catch { /* Discovery remains in the current page when storage is unavailable. */ }
+  }
+
+  async function dialogueDiscoveryRpc(name, body) {
+    const config = window.EDMUND_SUPABASE;
+    if (!config?.url || !config?.anonKey) throw new Error("Dialogue discovery connection is unavailable.");
+    const response = await fetch(`${config.url}/rest/v1/rpc/${name}`, {
+      method: "POST",
+      credentials: "omit",
+      headers: { apikey: config.anonKey, "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+      signal: AbortSignal.timeout(9000)
+    });
+    if (!response.ok) throw new Error(`Dialogue discovery sync failed (${response.status}).`);
+    return response.json();
+  }
+
+  async function refreshServerDialogueDiscoveries(force = false) {
+    const student = studentSessionCandidate();
+    if (!student?.token) return mergeGuestDialogueDiscoveries();
+    const identity = dialogueIdentity();
+    if (!force && dialogueServerIdentity === identity && dialogueServerLoad) return dialogueServerLoad;
+    dialogueServerIdentity = identity;
+    dialogueServerLoad = dialogueDiscoveryRpc("eddy_dialogue_discovery_list", { p_token: student.token }).then(rows => {
+      if (studentSessionCandidate()?.token !== student.token) return readDialogueDiscoveries();
+      const merged = mergeGuestDialogueDiscoveries();
+      (Array.isArray(rows) ? rows : []).forEach(row => {
+        if (/^eddy-[a-z0-9-]+$/i.test(String(row?.dialogue_id || ""))) merged.add(String(row.dialogue_id).toLowerCase());
+      });
+      writeDialogueDiscoveries(merged, identity);
+      document.dispatchEvent(new CustomEvent("edmund:eddy-dialogue-discovery-sync", { detail: { ids: [...merged] } }));
+      return merged;
+    }).catch(error => {
+      console.warn("Eddy dialogue discovery restore failed", error);
+      return mergeGuestDialogueDiscoveries();
+    });
+    return dialogueServerLoad;
+  }
+
+  function mergeGuestDialogueDiscoveries() {
+    const identity = dialogueIdentity();
+    if (identity === "guest") return readDialogueDiscoveries(identity);
+    const account = readDialogueDiscoveries(identity);
+    const guest = readDialogueDiscoveries("guest");
+    guest.forEach(id => account.add(id));
+    writeDialogueDiscoveries(account, identity);
+    return account;
+  }
+
+  function dialogueIdFromSource(value) {
+    const source = String(value || "").split(/[?#]/)[0];
+    const file = source.split("/").pop() || source;
+    const match = file.match(/^(eddy-[a-z0-9-]*(?:dialogue|streak|question|rating|motivation|alien|gentleman)[a-z0-9-]*)\.(?:png|jpe?g|webp)$/i);
+    return match ? match[1].toLowerCase() : "";
+  }
+
+  function recordDialogueDiscovery(sourceOrId) {
+    const id = /^eddy-[a-z0-9-]+$/i.test(String(sourceOrId || ""))
+      ? String(sourceOrId).toLowerCase()
+      : dialogueIdFromSource(sourceOrId);
+    if (!id) return false;
+    const identity = dialogueIdentity();
+    const discoveries = identity === "guest" ? readDialogueDiscoveries(identity) : mergeGuestDialogueDiscoveries();
+    if (discoveries.has(id)) return false;
+    discoveries.add(id);
+    writeDialogueDiscoveries(discoveries, identity);
+    document.dispatchEvent(new CustomEvent("edmund:eddy-dialogue-discovered", { detail: { id } }));
+    const student = studentSessionCandidate();
+    if (student?.token) void dialogueDiscoveryRpc("eddy_dialogue_discovery_record", { p_token: student.token, p_dialogue_id: id })
+      .catch(error => console.warn("Eddy dialogue discovery save failed", error));
+    return true;
+  }
+
+  function scanDialogueDiscoveries(root = document) {
+    root.querySelectorAll?.("img[src]").forEach(image => recordDialogueDiscovery(image.currentSrc || image.src));
+  }
+
+  function startDialogueDiscoveryObserver() {
+    scanDialogueDiscoveries();
+    const observer = new MutationObserver(records => records.forEach(record => {
+      if (record.type === "attributes" && record.target instanceof HTMLImageElement) recordDialogueDiscovery(record.target.currentSrc || record.target.src);
+      record.addedNodes.forEach(node => {
+        if (!(node instanceof Element)) return;
+        if (node instanceof HTMLImageElement) recordDialogueDiscovery(node.currentSrc || node.src);
+        scanDialogueDiscoveries(node);
+      });
+    }));
+    observer.observe(document.documentElement, { subtree: true, childList: true, attributes: true, attributeFilter: ["src"] });
+  }
+
+  window.EdmundDialogueDiscovery = Object.freeze({
+    get ids() { return Object.freeze([...mergeGuestDialogueDiscoveries()]); },
+    record: recordDialogueDiscovery,
+    refresh: () => refreshServerDialogueDiscoveries(true)
+  });
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", startDialogueDiscoveryObserver, { once: true });
+  else startDialogueDiscoveryObserver();
+  window.addEventListener("edmund-student-session-change", () => void refreshServerDialogueDiscoveries(true));
+  void refreshServerDialogueDiscoveries();
+
   window.EdmundSystemNav = Object.freeze({
     bridgeStudentSession,
     forgetStudentSession,
@@ -1754,6 +1909,7 @@
   // Run the session bridge synchronously so app scripts later in the document
   // can restore a compatible same-origin student session immediately.
   bridgeStudentSession(studentSessionCandidate(), true);
+  document.addEventListener("click", startInternalNavigation, true);
   void restorePersistentDeviceSession();
   recordFarmVisit();
   window.setInterval(recordFarmVisit, 60000);

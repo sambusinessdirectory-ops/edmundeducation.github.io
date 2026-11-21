@@ -39,6 +39,8 @@
     showChinese: false,
     favoritesOnly: false,
     selectedTags: [],
+    luckyHistory: [],
+    luckyBusy: false,
     wordAscending:false, wordPage:0,
     draftSaveTimer: 0,
     playerGeneration: 0,
@@ -517,11 +519,17 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  function renderLibrary(limit = Infinity, keepProgress = false) {
-    window.SongPreview?.stop();
+  function filteredLibrarySongs() {
     const query = normalizeSpace($("[data-song-search]")?.value).toLocaleLowerCase("en");
     let songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)) && (!state.selectedTags.length || state.selectedTags.some(tag => song.tags.includes(tag))));
     songs = window.SongDifficulty?.sortSongs(songs, $("[data-song-sort]")?.value) || songs;
+    return songs;
+  }
+
+  function renderLibrary(limit = Infinity, keepProgress = false) {
+    window.SongPreview?.stop();
+    const query = normalizeSpace($("[data-song-search]")?.value).toLocaleLowerCase("en");
+    const songs = filteredLibrarySongs();
     renderSelectedTags();
     const grid = $("[data-song-grid]");
     grid.replaceChildren();
@@ -530,6 +538,107 @@
     $("[data-search-status]").textContent = query || state.selectedTags.length || state.favoritesOnly ? `找到 ${songs.length} 首歌曲。` : `共 ${state.songs.length} 首歌曲。`;
     $("[data-library-state]").hidden = !keepProgress;
     grid.hidden = false;
+  }
+
+  function luckyPool() {
+    const filtered = filteredLibrarySongs();
+    if (filtered.length < 2) return filtered;
+    const previous = state.luckyHistory.at(-1);
+    return filtered.filter(song => song.id !== previous);
+  }
+
+  function selectLuckySong(pool) {
+    const unexplored = pool.filter(song => !songProgress(song.id));
+    const candidates = unexplored.length ? unexplored : pool;
+    return candidates[Math.floor(Math.random() * candidates.length)] || null;
+  }
+
+  function renderLuckySpotlight(song, { empty = false } = {}) {
+    const spotlight = $("[data-lucky-spotlight]");
+    if (!spotlight) return;
+    spotlight.replaceChildren();
+    spotlight.hidden = false;
+    if (empty) {
+      const copy = element("div", "lucky-song-spotlight__empty");
+      const title = document.createElement("h3"); title.textContent = "目前的篩選條件找不到歌曲";
+      const note = document.createElement("p"); note.textContent = "清除搜尋、收藏及標籤後，再從完整歌曲庫抽一首。";
+      const clear = makeButton("清除篩選並抽歌", () => {
+        const search = $("[data-song-search]");
+        if (search) search.value = "";
+        state.favoritesOnly = false;
+        state.selectedTags = [];
+        $("[data-favorites-only]")?.setAttribute("aria-pressed", "false");
+        renderLibrary();
+        pickLuckySong();
+      }, "primary-button");
+      copy.append(title, note, clear);
+      spotlight.append(copy);
+      return;
+    }
+    const cover = element("div", "lucky-song-spotlight__cover");
+    const source = thumbnailUrl(song);
+    if (source) {
+      const image = new Image();
+      image.src = source;
+      image.alt = `${song.title} 專輯封面`;
+      image.referrerPolicy = "no-referrer";
+      cover.append(image);
+    } else {
+      cover.textContent = "♫";
+    }
+    const copy = element("div", "lucky-song-spotlight__copy");
+    const kicker = document.createElement("p"); kicker.className = "section-kicker"; kicker.textContent = "YOUR LUCKY PICK";
+    const title = document.createElement("h3"); title.textContent = song.title;
+    const singer = document.createElement("p"); singer.className = "lucky-song-spotlight__singer"; singer.textContent = song.singer;
+    const tags = element("div", "tag-row"); tagElements(song.tags.slice(0, 5), tags);
+    copy.append(kicker, title, singer, tags);
+    const actions = element("div", "lucky-song-spotlight__actions");
+    actions.append(
+      makeButton("選擇練習", () => openSong(song.id, "exercise"), "primary-button"),
+      makeButton("Roll Again · 再抽一次", pickLuckySong, "secondary-button")
+    );
+    spotlight.append(cover, copy, actions);
+  }
+
+  async function pickLuckySong() {
+    if (state.luckyBusy) return;
+    const button = $("[data-lucky-pick]");
+    const spotlight = $("[data-lucky-spotlight]");
+    const pool = luckyPool();
+    if (!pool.length) {
+      renderLuckySpotlight(null, { empty: true });
+      return;
+    }
+    state.luckyBusy = true;
+    if (button) {
+      button.disabled = true;
+      button.setAttribute("aria-busy", "true");
+      button.classList.add("is-rolling");
+    }
+    try {
+      const reduced = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+      if (!reduced && spotlight) {
+        spotlight.hidden = false;
+        for (let index = 0; index < Math.min(4, pool.length + 1); index += 1) {
+          const preview = pool[Math.floor(Math.random() * pool.length)];
+          spotlight.textContent = `✦ ${preview.title} · ${preview.singer}`;
+          spotlight.className = "lucky-song-spotlight is-shuffling";
+          await new Promise(resolve => window.setTimeout(resolve, 110));
+        }
+      }
+      const chosen = selectLuckySong(pool);
+      state.luckyHistory.push(chosen.id);
+      state.luckyHistory = state.luckyHistory.slice(-6);
+      if (spotlight) spotlight.className = "lucky-song-spotlight is-revealed";
+      renderLuckySpotlight(chosen);
+    } finally {
+      state.luckyBusy = false;
+      if (button) {
+        button.disabled = false;
+        button.removeAttribute("aria-busy");
+        button.classList.remove("is-rolling");
+      }
+    }
   }
 
   function createSongCard(song, index) {
@@ -2136,6 +2245,7 @@
     $("[data-word-search]").addEventListener("input",()=>{state.wordPage=0;renderBigData();});
     $("[data-word-sort]").addEventListener("click",()=>{state.wordAscending=!state.wordAscending;state.wordPage=0;renderBigData();});
     $("[data-open-tags]").addEventListener("click", openTagPicker);
+    $("[data-lucky-pick]")?.addEventListener("click", pickLuckySong);
     $("[data-logout]").addEventListener("click", logout);
     $$("[data-route]").forEach(button => button.addEventListener("click", () => routeStudent(button.dataset.route)));
     $$("[data-song-tab]").forEach(button => button.addEventListener("click", () => switchSongTab(button.dataset.songTab)));

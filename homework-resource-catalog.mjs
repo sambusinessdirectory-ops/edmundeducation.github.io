@@ -53902,12 +53902,36 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "junior-exam-prep.html?module=s2-exam-prep-oct-2026"
   },
   {
+    "id": "learning-portal:abbreviation",
+    "type": "learning-portal",
+    "ordinal": 89,
+    "label": "Abbreviation System / 英文縮寫學習系統",
+    "detail": "學生學習系統 · 英文縮寫學習系統",
+    "url": "abbreviation-system.html"
+  },
+  {
+    "id": "learning-portal:adults-stories",
+    "type": "learning-portal",
+    "ordinal": 92,
+    "label": "Adults' Stories / 成人故事系統",
+    "detail": "學生學習系統 · 成人故事系統",
+    "url": "adults-stories-system.html"
+  },
+  {
     "id": "learning-portal:business-school",
     "type": "learning-portal",
     "ordinal": 42,
     "label": "Business School / 商學院英文訓練系統",
     "detail": "學生學習系統 · 商學院英文訓練系統",
     "url": "business-school-system.html"
+  },
+  {
+    "id": "learning-portal:childrens-stories",
+    "type": "learning-portal",
+    "ordinal": 90,
+    "label": "Children's Stories / 兒童故事系統",
+    "detail": "學生學習系統 · 兒童故事系統",
+    "url": "childrens-stories-system.html"
   },
   {
     "id": "learning-portal:collocation",
@@ -53924,6 +53948,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Complex Questions / 英文複雜問句",
     "detail": "學生學習系統 · 英文複雜問句",
     "url": "complex-questions-system.html"
+  },
+  {
+    "id": "learning-portal:cre",
+    "type": "learning-portal",
+    "ordinal": 88,
+    "label": "CRE System / 綜合招聘考試練習",
+    "detail": "學生學習系統 · 綜合招聘考試練習",
+    "url": "cre-system.html"
   },
   {
     "id": "learning-portal:english-humour-speaking",
@@ -53966,6 +53998,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "grammar-system.html"
   },
   {
+    "id": "learning-portal:homonomy",
+    "type": "learning-portal",
+    "ordinal": 85,
+    "label": "Homonomy System / 同音詞學習系統",
+    "detail": "學生學習系統 · 同音詞學習系統",
+    "url": "homonomy-system.html"
+  },
+  {
     "id": "learning-portal:irregular-verb",
     "type": "learning-portal",
     "ordinal": 33,
@@ -53988,6 +54028,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Leisurely Reading / 英文導讀系統",
     "detail": "學生學習系統 · 英文導讀系統",
     "url": "leisurely-reading.html"
+  },
+  {
+    "id": "learning-portal:mock-exam",
+    "type": "learning-portal",
+    "ordinal": 93,
+    "label": "Mock / 模擬考試系統",
+    "detail": "學生學習系統 · 模擬考試系統",
+    "url": "mock-exam-system.html"
   },
   {
     "id": "learning-portal:part-of-speech",
@@ -54030,12 +54078,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "synonyms-system.html"
   },
   {
+    "id": "learning-portal:teens-stories",
+    "type": "learning-portal",
+    "ordinal": 91,
+    "label": "Teens' Stories / 青少年故事系統",
+    "detail": "學生學習系統 · 青少年故事系統",
+    "url": "teens-stories-system.html"
+  },
+  {
     "id": "learning-portal:thematic-vocabulary",
     "type": "learning-portal",
     "ordinal": 34,
     "label": "Thematic Vocabulary / 主題性生字記錄大全",
     "detail": "學生學習系統 · 主題性生字記錄大全",
     "url": "thematic-vocabulary-system.html"
+  },
+  {
+    "id": "learning-portal:thematic-vocabulary-learning",
+    "type": "learning-portal",
+    "ordinal": 87,
+    "label": "Thematic Vocabulary / 主題詞彙學習系統",
+    "detail": "學生學習系統 · 主題詞彙學習系統",
+    "url": "thematic-vocabulary-learning-system.html"
   },
   {
     "id": "learning-portal:translation-skills",
