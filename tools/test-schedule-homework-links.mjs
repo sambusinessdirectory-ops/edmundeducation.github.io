@@ -55,7 +55,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 17781, "catalogue includes Advanced Native lessons and every previously released resource");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 17789, "catalogue includes every released resource and the eight new student portals");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -124,7 +124,7 @@ assert.equal(normalizeHomeworkResource({
 }), null, "a memorization resource id must match its exact essay route");
 assert.equal(normalizeHomeworkHref("synonyms-system.html?module=lesson-v2-004&redirect=elsewhere"), null);
 assert.equal(normalizeHomeworkResource({ id: "synonym:wrong-module", type: "synonym", label: "A lot of", url: "synonyms-system.html?module=lesson-v2-004" }), null);
-assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
+assert.equal((byType["learning-portal"] || []).length, 26, "all current learning portals should be available for Homework/Schedule linking");
 const writingPracticeAssignments = new Map((byType["writing-submission"] || []).map((resource) => [
   resource.id.slice("writing-submission:".length),
   resource
@@ -1085,8 +1085,8 @@ assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{inde
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261106-advanced-native-homework1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261106-advanced-native-homework1/, "Homework link helper cache key is stale");
-assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261106-advanced-native-homework1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261118-homework-status-sounds1/, "Schedule application cache key is stale");
+assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261121-module-links1/, "Homework export cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261121-jump-slots1/, "Schedule application cache key is stale");
 assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261106-advanced-native-homework1/, "Homework Hot Keys application cache key is stale");
 assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261106-advanced-native-homework1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
