@@ -31,6 +31,15 @@ class MemoryStorage {
 function navigationRuntime() {
   const sessionStorage = new MemoryStorage();
   const localStorage = new MemoryStorage();
+  const location = {
+    href: "https://edmundeducation.com/spelling-system.html",
+    origin: "https://edmundeducation.com",
+    protocol: "https:",
+    pathname: "/spelling-system.html",
+    search: "",
+    assign() {},
+    reload() {}
+  };
   const document = {
     activeElement: null,
     readyState: "loading",
@@ -40,18 +49,25 @@ function navigationRuntime() {
   };
   const events = [];
   const window = {
+    addEventListener() {},
     dispatchEvent(event) { events.push(event.type); return true; },
     document,
     sessionStorage,
     localStorage,
     clearTimeout,
+    location,
+    matchMedia() { return { matches: false }; },
     setInterval() {},
     setTimeout
   };
   vm.runInNewContext(scriptSource, {
     CustomEvent: class { constructor(type) { this.type = type; } },
+    Image: class {},
+    URL,
+    URLSearchParams,
     console,
     document,
+    location,
     window,
     clearTimeout,
     setTimeout
