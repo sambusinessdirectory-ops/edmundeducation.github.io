@@ -36,7 +36,16 @@ const expected = [
   [55, "poem-english", "poem-english-system.html", ["Poem English", "詩句賞識系統"], false],
   [71, "junior-exam-prep", "junior-exam-prep.html", ["考試溫習系統", "Exam Preparation"], false],
   [72, "junior-quiz-review", "junior-quiz-review.html", ["測驗溫習系統", "Quiz Review"], false],
-  [75, "news-discussion", "news-discussion.html", ["News Discussion", "熱議新聞討論"], false]
+  [75, "news-discussion", "news-discussion.html", ["News Discussion", "熱議新聞討論"], false],
+  [85, "homonomy", "homonomy-system.html", ["Homonomy System", "同音詞學習系統"], true],
+  [86, "eddy-dialogue-index", "eddy-dialogue-box-index.html", ["Eddy Dialogue Box Index", "Eddy 對話框圖鑑"], false],
+  [87, "thematic-vocabulary-learning", "thematic-vocabulary-learning-system.html", ["Thematic Vocabulary", "主題詞彙學習系統"], true],
+  [88, "cre", "cre-system.html", ["CRE System", "綜合招聘考試練習"], true],
+  [89, "abbreviation", "abbreviation-system.html", ["Abbreviation System", "英文縮寫學習系統"], true],
+  [90, "childrens-stories", "childrens-stories-system.html", ["Children's Stories", "兒童故事系統"], true],
+  [91, "teens-stories", "teens-stories-system.html", ["Teens' Stories", "青少年故事系統"], true],
+  [92, "adults-stories", "adults-stories-system.html", ["Adults' Stories", "成人故事系統"], true],
+  [93, "mock-exam", "mock-exam-system.html", ["Mock", "模擬考試系統"], true]
 ];
 
 const configSource = await read("learning-portal-config.js");
@@ -56,10 +65,10 @@ const portals = Array.from(context.window.EDMUND_LEARNING_PORTALS, (portal) => (
 }));
 
 assert.deepEqual(portals.map(({ ordinal, id, href, lines, dashboard }) => [ordinal, id, href, lines, dashboard]), expected);
-assert.deepEqual(portals.filter(({ dashboard }) => !dashboard).map(({ ordinal }) => ordinal), [33, 36, 37, 38, 44, 47, 48, 49, 51, 53, 54, 55, 71, 72, 75]);
+assert.deepEqual(portals.filter(({ dashboard }) => !dashboard).map(({ ordinal }) => ordinal), [33, 36, 37, 38, 44, 47, 48, 49, 51, 53, 54, 55, 71, 72, 75, 86]);
 assert.deepEqual(portals.filter(({ blankAfterLogin }) => blankAfterLogin).map(({ ordinal }) => ordinal), [33, 48, 49, 51, 53, 54, 55]);
-assert.deepEqual(portals.filter(({ hideEmptyContent }) => hideEmptyContent).map(({ ordinal }) => ordinal), [37, 52, 71, 72, 75]);
-assert.deepEqual(portals.filter(({ homework }) => !homework).map(({ ordinal }) => ordinal), [48, 49, 51, 52, 53, 54, 55, 71, 72, 75]);
+assert.deepEqual(portals.filter(({ hideEmptyContent }) => hideEmptyContent).map(({ ordinal }) => ordinal), [37, 52, 71, 72, 75, 86]);
+assert.deepEqual(portals.filter(({ homework }) => !homework).map(({ ordinal }) => ordinal), [48, 49, 51, 52, 53, 54, 55, 71, 72, 75, 86]);
 assert.equal(new Set(portals.map(({ href }) => href)).size, portals.length, "every portal URL must be stable and unique");
 const requestedNewPortals = portals.filter(({ ordinal }) => ordinal >= 52 && ordinal <= 55);
 assert.deepEqual(
@@ -105,7 +114,7 @@ for (const [name, appearance] of Object.entries(videoSets)) {
   assert.equal(appearance.cover, baseline.cover, `${name} cover alpha should remain unchanged`);
 }
 
-const scaffoldPortals = portals.filter(({ id }) => id !== "news-discussion");
+const scaffoldPortals = portals.filter(({ id }) => !["news-discussion", "eddy-dialogue-index"].includes(id));
 for (const portal of scaffoldPortals) {
   const html = await read(portal.href);
   assert.match(html, new RegExp(`<body[^>]*data-learning-portal="${portal.id}"[^>]*>`));
@@ -143,8 +152,8 @@ assert.match(aggregateProgressSql, /'falseFriends', public\._student_progress_le
 assert.match(aggregateProgressSql, /jsonb_set\([\s\S]*?'\{sources,falseFriends\}'[\s\S]*?_student_progress_learning_portal_source\(student\.id, 'false-friends'\)/);
 
 const homework = HOMEWORK_RESOURCE_CATALOG.filter(({ type }) => type === "learning-portal");
-assert.equal(homework.length, 18);
-const hiddenFromHomework = new Set(["argument-learning", "fragmented-reading", "precise-language", "false-friends", "english-in-shows", "ted-talk-english", "poem-english", "junior-exam-prep", "junior-quiz-review", "news-discussion"]);
+assert.equal(homework.length, 26);
+const hiddenFromHomework = new Set(["argument-learning", "fragmented-reading", "precise-language", "false-friends", "english-in-shows", "ted-talk-english", "poem-english", "junior-exam-prep", "junior-quiz-review", "news-discussion", "eddy-dialogue-index"]);
 for (const [ordinal, id, href, lines] of expected.filter(([, id]) => !hiddenFromHomework.has(id))) {
   const resource = homework.find((item) => item.id === `learning-portal:${id}`);
   assert.equal(resource?.ordinal, ordinal);
