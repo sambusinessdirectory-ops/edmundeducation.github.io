@@ -86,7 +86,6 @@
   }
 
   const current = () => byId.get(state.currentId) || categories[0];
-  const maxUnlocked = () => Math.min(categories.length - 1, Math.max(-1, ...state.completedIds.map(id => byId.get(id)?.index ?? -1)) + 1);
   const stage1Complete = () => part1.getState().stageComplete === true;
 
   const panel = make('section', 'curation-category-panel');
@@ -199,7 +198,6 @@
     $('#curation-step-jump').replaceChildren(...categories.map(item => {
       const option = make('option', '', `${item.index + 1}. ${item.title}`);
       option.value = item.id;
-      option.disabled = item.index > maxUnlocked();
       option.selected = item.id === step.id;
       return option;
     }));
@@ -216,10 +214,11 @@
   function renderRail() {
     const instruction = $('.curation-stage-item[data-stage="instruction"]');
     const categorize = $('.curation-stage-item[data-stage="categorize"]');
+    const instructionComplete = stage1Complete();
     instruction.classList.remove('active');
-    instruction.classList.add('complete');
+    instruction.classList.toggle('complete', instructionComplete);
     instruction.setAttribute('aria-current', 'false');
-    $('.curation-stage-dot', instruction).textContent = '✓';
+    $('.curation-stage-dot', instruction).textContent = instructionComplete ? '✓' : '1';
     categorize.disabled = false;
     categorize.classList.add('active');
     categorize.classList.toggle('complete', state.complete);
@@ -303,7 +302,6 @@
   }
 
   function enterStage2() {
-    if (!stage1Complete()) return;
     savedPart1Spotlight = part1Spotlight();
     part1.setSpotlight(false);
     state.active = true;
@@ -318,7 +316,6 @@
     document.body.classList.remove('curation-stage2-active');
     hideStage2Visuals();
     hideMasks();
-    part1.goById('p1-stage-complete');
     part1.setSpotlight(savedPart1Spotlight);
   }
 
@@ -351,7 +348,7 @@
   $('#curation-step-jump').addEventListener('change', event => {
     if (!stopWhenActive(event)) return;
     const step = byId.get(event.target.value);
-    if (step && step.index <= maxUnlocked()) setCurrent(step.index);
+    if (step) setCurrent(step.index);
   }, true);
   $('#curation-bookmark-jump').addEventListener('change', event => {
     if (!stopWhenActive(event)) return;
@@ -435,7 +432,7 @@
   $('#curation-close').addEventListener('click', () => queueMicrotask(hideMasks), true);
   $('#curation-toggle').addEventListener('click', () => {
     queueMicrotask(() => {
-      if ($('#curation-toggle').getAttribute('aria-pressed') === 'true' && state.active && stage1Complete()) render(true);
+      if ($('#curation-toggle').getAttribute('aria-pressed') === 'true' && state.active) render(true);
       else hideMasks();
     });
   });
@@ -455,12 +452,8 @@
     reset: () => { state = blankState(); state.active = true; render(true); }
   });
 
-  const part1State = part1.getState();
-  $('.curation-stage-item[data-stage="categorize"]').disabled = !part1State.stageComplete;
-  if (part1State.stageComplete) {
-    const categorize = $('.curation-stage-item[data-stage="categorize"]');
-    categorize.disabled = false;
-    $('.curation-stage-count', categorize).textContent = `${state.completedIds.length}/${categories.length}`;
-  }
-  if (state.active && part1State.stageComplete && $('#curation-toggle').getAttribute('aria-pressed') === 'true') enterStage2();
+  const categorize = $('.curation-stage-item[data-stage="categorize"]');
+  categorize.disabled = false;
+  $('.curation-stage-count', categorize).textContent = `${state.completedIds.length}/${categories.length}`;
+  if (state.active && $('#curation-toggle').getAttribute('aria-pressed') === 'true') enterStage2();
 })();
