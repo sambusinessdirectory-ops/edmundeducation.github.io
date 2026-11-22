@@ -310,7 +310,7 @@
 
   window.EDMUND_2013_B2_STAGE1 = Object.freeze({
     schemaVersion: 3,
-    contentVersion: '2013-b2-stage2-v2',
+    contentVersion: '2013-b2-stage2-v3-free-navigation',
     stages: [
       {id:'instructions', label:'1', name:'Task Instructions', short:'任務指示', status:'complete'},
       {id:'categorization', label:'2', name:'Data Categorization', short:'資料分類', status:'active'},
