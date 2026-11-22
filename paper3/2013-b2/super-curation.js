@@ -2,11 +2,13 @@
   'use strict';
 
   const model = window.EDMUND_2013_B2_STAGE1;
+  const podcastModel = window.EDMUND_2013_B2_PODCAST;
+  const timedTranscript = window.EDMUND_DSE_LISTENING_2013_TRANSCRIPT?.partB;
   const toolbar = document.querySelector('.toolbar');
-  if (!model || !toolbar || document.body.dataset.reader !== '2013-b2') return;
+  if (!model || !podcastModel || !Array.isArray(timedTranscript) || !toolbar || document.body.dataset.reader !== '2013-b2') return;
 
   const VERSION = model.contentVersion;
-  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2']);
+  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation']);
   const STORAGE_KEY = 'edmund-paper3-2013-b2-super-curation-stage1-v1';
   const steps = model.steps.map((item, index) => ({...item, index}));
   const stepsById = new Map(steps.map(item => [item.id, item]));
@@ -35,6 +37,56 @@
     .replace(/[’‘]/g, "'")
     .replace(/[“”]/g, '"')
     .replace(/[–—]/g, '-');
+
+  const slug = value => canonical(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').split('-').slice(0, 7).join('-') || 'utterance';
+  const transcriptRows = timedTranscript
+    .map((row, sourceIndex) => ({...row, sourceIndex}))
+    .filter(row => row.sourceIndex >= podcastModel.transcript.startIndex && row.sourceIndex <= podcastModel.transcript.endIndex);
+  const cueByTranscriptIndex = new Map();
+  for (const item of podcastModel.cues) for (const sourceIndex of item.transcriptIndices || []) cueByTranscriptIndex.set(sourceIndex, item);
+  const podcastSteps = [];
+  podcastSteps.push({
+    id:'podcast-orientation-travel-report', kind:'podcast-intro',
+    title:'先認識播放器、筆記表和停頓規則', sourcePhrase:'Travel Report · 2013 Part B recording',
+    explanation:'播放範圍由「The recording is about to begin」開始，顯示為 0:00。正常播放會由目前位置繼續；每個答案邊界只停一次。「重聽本段」才會回到本步的 replay start。學生輸入和系統生成筆記分開顯示，互不覆寫。',
+    help:'先確認第 3 頁五個原有欄目。Stage 3 有 28 個真實停頓點；完成錄音後才開放逐句錄音稿核對。',
+    badge:'Stage 3 導航', focusSelector:'#doc-2013-travel-report-notes'
+  });
+  for (const item of podcastModel.cues) podcastSteps.push({
+    id:`podcast-cue-${item.id}`, kind:'podcast-cue', cue:item, task:item.task || null,
+    title:item.title, sourcePhrase:item.quote, explanation:item.explanation, help:item.finalDecision,
+    badge:item.task ? `Task ${item.task} · 錄音停頓 ${item.number}` : `錄音停頓 ${item.number}`
+  });
+  podcastSteps.push({
+    id:'podcast-transcript-review-intro', kind:'podcast-review-intro',
+    title:'完整錄音稿核對：154 個原始時間段', sourcePhrase:'Recording complete · transcript review',
+    explanation:'錄音已完整到達結尾。現在逐段核對英文錄音稿：分辨主持問題、已確認答案、更正、限定、個人評價，以及 Task A／C 可用內容。現有來源沒有逐段對齊的中文錄音稿，所以不會自行翻譯或顯示虛構的中文切換。',
+    help:'逐句模式只移動錄音稿焦點，不會自動播放或改寫學生筆記。', badge:'錄音稿核對'
+  });
+  for (const row of transcriptRows) {
+    const relatedCue = cueByTranscriptIndex.get(row.sourceIndex);
+    podcastSteps.push({
+      id:`podcast-review-${Math.round(row.start * 100)}-${slug(row.text)}`,
+      kind:'podcast-review', row, relatedCue,
+      title:`錄音稿核對 · ${relatedCue?.speaker || (row.speaker === 'Narrator' ? '考試旁白' : podcastModel.transcript.unresolvedSpeakerLabel)}`,
+      sourcePhrase:row.text,
+      explanation:relatedCue
+        ? `${relatedCue.explanation} 最終判斷：${relatedCue.finalDecision}`
+        : '這一段提供節目流程、提問、反應或銜接。先看它是否真正完成一項筆記答案；沒有確定內容便只保留語境，不收入 Task A、B 或 C。',
+      help:relatedCue?.finalDecision || '原對齊檔沒有把每一個非答案句分配到個別嘉賓；未能由 2013 來源確認的說話者保持未細分。',
+      badge:relatedCue?.task ? `Task ${relatedCue.task} · 錄音稿` : (relatedCue?.rejected ? '不採用／更正' : '錄音稿語境')
+    });
+  }
+  podcastSteps.push({
+    id:'podcast-stage-complete', kind:'podcast-final', final:true,
+    title:'Stage 3 完成：錄音、筆記與逐句稿已核對', sourcePhrase:'Travel Report recording and transcript review complete',
+    explanation:'28 個停頓點、完整錄音結尾及 154 個原始時間段都已核對。Stage 1–2 保持原狀；Stage 4 Data File 逐句取證和 Stage 5 Writing 尚未開放。',
+    help:'可自由返回任何 Stage 1–3 步驟重溫。未經批准不會開始 Stage 4。', badge:'Stage 3 完成', focusSelector:'#doc-2013-travel-report-notes'
+  });
+  podcastSteps.forEach((item, index) => { item.index = index; });
+  const podcastStepsById = new Map(podcastSteps.map(item => [item.id, item]));
+  const podcastIds = new Set(podcastStepsById.keys());
+  const cueStepByCueId = new Map(podcastSteps.filter(item => item.cue).map(item => [item.cue.id, item]));
 
   function candidateFor(step) {
     const root = $(step.sourceRoot || `#page-${step.sourcePage}`);
@@ -234,6 +286,18 @@
       initialTasks:[...item.initialTasks]
     }])),
     categoryStageComplete: false,
+    podcastCurrentStepId: podcastSteps[0].id,
+    podcastPosition: 0,
+    podcastCompleted: [],
+    transcriptReviewCompleted: [],
+    heardCueIds: [],
+    generatedCueIds: [],
+    podcastCurrentTime: 0,
+    podcastPlaybackRate: 1,
+    podcastPinsVisible: false,
+    podcastTranscriptFollow: true,
+    podcastTranslationVisible: false,
+    podcastStageComplete: false,
     bookmarks: [],
     spotlight: true,
     stageComplete: false,
@@ -268,13 +332,29 @@
       };
     }
     clean.categoryStageComplete = raw.categoryStageComplete === true && clean.categoryCompleted.length === categories.length;
+    const restoredPodcastId = podcastIds.has(raw.podcastCurrentStepId)
+      ? raw.podcastCurrentStepId
+      : podcastSteps[Math.min(Math.max(Number(raw.podcastPosition) || 0, 0), podcastSteps.length - 1)].id;
+    clean.podcastCurrentStepId = restoredPodcastId;
+    clean.podcastPosition = podcastStepsById.get(restoredPodcastId).index;
+    clean.podcastCompleted = [...new Set((Array.isArray(raw.podcastCompleted) ? raw.podcastCompleted : []).filter(id => podcastIds.has(id)))];
+    clean.transcriptReviewCompleted = [...new Set((Array.isArray(raw.transcriptReviewCompleted) ? raw.transcriptReviewCompleted : [])
+      .filter(id => podcastStepsById.get(id)?.kind === 'podcast-review'))];
+    clean.heardCueIds = [...new Set((Array.isArray(raw.heardCueIds) ? raw.heardCueIds : []).filter(id => cueStepByCueId.has(id)))];
+    clean.generatedCueIds = [...new Set((Array.isArray(raw.generatedCueIds) ? raw.generatedCueIds : clean.heardCueIds).filter(id => cueStepByCueId.has(id)))];
+    clean.podcastCurrentTime = Math.min(Math.max(Number(raw.podcastCurrentTime) || 0, 0), podcastModel.audio.segmentDuration);
+    clean.podcastPlaybackRate = podcastModel.supportedRates.includes(Number(raw.podcastPlaybackRate)) ? Number(raw.podcastPlaybackRate) : 1;
+    clean.podcastPinsVisible = raw.podcastPinsVisible === true;
+    clean.podcastTranscriptFollow = raw.podcastTranscriptFollow !== false;
+    clean.podcastTranslationVisible = false;
+    clean.podcastStageComplete = raw.podcastStageComplete === true && podcastSteps.every(item => clean.podcastCompleted.includes(item.id));
     clean.bookmarks = [...new Set((Array.isArray(raw.bookmarks) ? raw.bookmarks : [])
-      .map(id => ids.has(id) ? id : migrateCategoryId(id)).filter(id => ids.has(id) || categoryIds.has(id)))];
+      .map(id => ids.has(id) || podcastIds.has(id) ? id : migrateCategoryId(id)).filter(id => ids.has(id) || categoryIds.has(id) || podcastIds.has(id)))];
     clean.spotlight = raw.spotlight !== false;
     clean.stageComplete = raw.stageComplete === true && clean.completed.length === steps.length;
     // Stage 1 and Stage 2 are independent teaching views. Completion records
     // progress; it must never be used as an access gate.
-    clean.activeStage = raw.activeStage === 'categorization' ? 'categorization' : 'instructions';
+    clean.activeStage = ['categorization','podcast'].includes(raw.activeStage) ? raw.activeStage : 'instructions';
     clean.open = raw.open === true;
     clean.updated = Number(raw.updated) || Date.now();
     return clean;
@@ -308,10 +388,10 @@
   model.stages.forEach((item, index) => {
     const button = create('button', 'curation-stage-item');
     button.type = 'button';
-    button.disabled = index > 1;
+    button.disabled = index > 2;
     button.dataset.stageId = item.id;
-    button.setAttribute('aria-label', index < 2 ? `Stage ${index + 1} ${item.name}` : `Stage ${index + 1} ${item.name}，尚未開放`);
-    button.innerHTML = `<span class="curation-stage-dot">${item.label}</span><span class="curation-stage-label">${item.short}</span><small class="curation-stage-count">${index === 0 ? `1/${steps.length}` : (index === 1 ? `1/${categories.length}` : '未開放')}</small>`;
+    button.setAttribute('aria-label', index < 3 ? `Stage ${index + 1} ${item.name}` : `Stage ${index + 1} ${item.name}，尚未開放`);
+    button.innerHTML = `<span class="curation-stage-dot">${item.label}</span><span class="curation-stage-label">${item.short}</span><small class="curation-stage-count">${index === 0 ? `1/${steps.length}` : (index === 1 ? `1/${categories.length}` : (index === 2 ? `1/${podcastSteps.length}` : '未開放'))}</small>`;
     stageItems.append(button);
   });
 
@@ -330,7 +410,7 @@
     <div class="curation-content">
       <p class="curation-source" id="curation-source"></p><h2 class="curation-title" id="curation-title"></h2><span class="curation-badge" id="curation-badge"></span>
       <blockquote class="curation-quote" id="curation-quote" lang="en"></blockquote><div class="curation-explanation" id="curation-explanation"></div><fieldset class="curation-category-controls" id="curation-category-controls" hidden><legend>你會先標哪個任務？</legend><div class="curation-category-task-row"><label class="task-A"><input type="checkbox" value="A">Task A</label><label class="task-B"><input type="checkbox" value="B">Task B</label><label class="task-C"><input type="checkbox" value="C">Task C</label></div><small>先看標題；標題不足，才由第一行往下讀至首個決定線索。</small></fieldset>
-      <div class="curation-help-panel" id="curation-help-panel" hidden></div><div id="curation-route-card"></div><div id="curation-final"></div>
+      <div class="curation-help-panel" id="curation-help-panel" hidden></div><div id="curation-route-card"></div><div id="curation-podcast-actions"></div><div id="curation-final"></div>
     </div>
     <details class="curation-save"><summary>自動儲存 · 匯出 / 匯入</summary><div class="curation-save-row"><label for="curation-slot">儲存格</label><select id="curation-slot" aria-label="選擇儲存格"></select><button type="button" id="curation-save-now">儲存</button><button type="button" id="curation-export">匯出</button><label class="curation-import-label">匯入<input id="curation-import" type="file" accept="application/json,.json"></label></div><small class="curation-save-status" id="curation-save-status" role="status"></small></details>`;
 
@@ -353,6 +433,71 @@
   routeCallout.hidden = true;
 
   document.body.append(stage, dock, picker, ...masks, routeArrow, routeCallout);
+  const audio = new Audio(podcastModel.audio.url);
+  audio.preload = 'metadata';
+  const audioBar = create('section', 'curation-podcast-player');
+  audioBar.id = 'curation-podcast-player';
+  audioBar.hidden = true;
+  audioBar.setAttribute('aria-label', 'Travel Report 錄音播放器');
+  audioBar.innerHTML = `<strong>Travel Report · Podcast</strong><button type="button" class="curation-player-play" aria-label="播放錄音">▶</button><button type="button" class="curation-player-replay" aria-label="重聽目前停頓段">↻ 重聽本段</button><button type="button" class="curation-player-pins-toggle" aria-pressed="false">顯示停頓點</button><span class="curation-player-timeline"><input class="curation-player-seek" type="range" min="0" max="${podcastModel.audio.segmentDuration}" step="0.01" value="0" aria-label="錄音進度"><span class="curation-player-pins" hidden></span></span><output class="curation-player-time">0:00 / 9:51</output><label>速度 <select class="curation-player-speed" aria-label="播放速度"></select></label>`;
+  const speedSelect = $('.curation-player-speed', audioBar);
+  for (const rate of podcastModel.supportedRates) {
+    const option = create('option', '', `${rate}×`);
+    option.value = String(rate);
+    speedSelect.append(option);
+  }
+  const cuePins = $('.curation-player-pins', audioBar);
+  for (const item of podcastModel.cues) {
+    const pin = create('button', 'curation-player-pin');
+    pin.type = 'button';
+    pin.dataset.cueId = item.id;
+    pin.style.left = `${((item.endpoint - podcastModel.audio.segmentStart) / podcastModel.audio.segmentDuration) * 100}%`;
+    pin.setAttribute('aria-label', `${item.number}. ${item.title}`);
+    pin.title = `${item.number}. ${item.title}`;
+    cuePins.append(pin);
+  }
+
+  const transcriptWindow = create('aside', 'curation-transcript-window');
+  transcriptWindow.id = 'curation-transcript-window';
+  transcriptWindow.hidden = true;
+  transcriptWindow.setAttribute('aria-label', 'Travel Report 浮動錄音稿');
+  transcriptWindow.innerHTML = '<div class="curation-transcript-window-head"><strong>English transcript</strong><button type="button" class="curation-transcript-translation" disabled title="2013 來源沒有逐段對齊的中文錄音稿">中文未提供</button><button type="button" class="curation-transcript-follow" aria-pressed="true">跟隨播放</button><button type="button" class="curation-transcript-fit">重設視窗</button><span>拖曳移動 · 四角調整</span></div><div class="curation-transcript-window-body" tabindex="0"></div>';
+  const transcriptBody = $('.curation-transcript-window-body', transcriptWindow);
+  const transcriptNodes = new Map();
+  for (const row of transcriptRows) {
+    const relatedCue = cueByTranscriptIndex.get(row.sourceIndex);
+    const article = create('article', 'curation-transcript-row');
+    article.dataset.sourceIndex = String(row.sourceIndex);
+    article.dataset.start = String(row.start);
+    article.dataset.end = String(row.end);
+    if (relatedCue?.task) article.classList.add(`task-${relatedCue.task}`);
+    if (relatedCue?.rejected) article.classList.add('is-rejected');
+    if (relatedCue?.decision === 'correction') article.classList.add('is-correction');
+    if (relatedCue?.decision === 'qualification') article.classList.add('is-qualification');
+    const speaker = create('strong', 'curation-transcript-speaker', relatedCue?.speaker || (row.speaker === 'Narrator' ? '考試旁白' : podcastModel.transcript.unresolvedSpeakerLabel));
+    const copy = create('p', 'curation-transcript-copy', row.text);
+    const time = create('time', '', formatDisplayTime(row.start - podcastModel.audio.segmentStart));
+    article.append(speaker, copy, time);
+    transcriptBody.append(article);
+    transcriptNodes.set(row.sourceIndex, article);
+  }
+  for (const item of podcastSteps.filter(step => step.kind === 'podcast-review')) item.target = transcriptNodes.get(item.row.sourceIndex);
+  for (const corner of ['nw','ne','sw','se']) {
+    const handle = create('span', `curation-resize-handle curation-resize-${corner}`);
+    handle.dataset.resize = corner;
+    handle.setAttribute('aria-label', `調整錄音稿視窗大小 ${corner}`);
+    transcriptWindow.append(handle);
+  }
+  document.body.append(audioBar, transcriptWindow);
+  for (const item of podcastSteps) {
+    if (item.cue?.destination) {
+      const field = podcastModel.noteFields[item.cue.destination];
+      item.focusTarget = $(field?.learner || field?.heading || field?.generated || '');
+    } else if (item.focusSelector) item.focusTarget = $(item.focusSelector);
+    else if (item.kind === 'podcast-review') item.focusTarget = item.target;
+    else if (item.kind === 'podcast-review-intro' || item.kind === 'podcast-cue') item.focusTarget = audioBar;
+    if (!item.focusTarget && item.kind !== 'podcast-review') missing.push(`${item.id}: podcast focus target`);
+  }
   for (let index = 1; index <= 3; index += 1) {
     const option = create('option', '', `Slot ${index}`);
     option.value = String(index);
@@ -360,17 +505,28 @@
   }
   $('#curation-slot', dock).value = activeSlot;
 
+  function formatDisplayTime(value) {
+    const safe = Math.max(0, Number.isFinite(value) ? value : 0);
+    const minutes = Math.floor(safe / 60);
+    const seconds = Math.floor(safe % 60);
+    return `${minutes}:${String(seconds).padStart(2, '0')}`;
+  }
   function inCategories() { return state.activeStage === 'categorization'; }
-  function currentList() { return inCategories() ? categories : steps; }
-  function current() { return inCategories() ? (categories[state.categoryPosition] || categories[0]) : (steps[state.position] || steps[0]); }
+  function inPodcast() { return state.activeStage === 'podcast'; }
+  function currentList() { return inPodcast() ? podcastSteps : (inCategories() ? categories : steps); }
+  function current() { return inPodcast() ? (podcastSteps[state.podcastPosition] || podcastSteps[0]) : (inCategories() ? (categories[state.categoryPosition] || categories[0]) : (steps[state.position] || steps[0])); }
   function pageLabel(item) {
+    if (item.kind?.startsWith('podcast')) return item.kind === 'podcast-review' ? `2013 B2 · Travel Report 錄音稿 · ${formatDisplayTime(item.row.start - podcastModel.audio.segmentStart)}` : '2013 B2 · Data File 第 3 頁 · Travel Report';
     if (item.kind === 'category') return `2013 B2 · Data File 第 ${item.page} 頁 · 資料分類`;
     if (item.kind === 'route') return `來源路線 · Data File 第 ${item.routePage} 頁`;
     if (item.sourcePage <= 11) return `2013 B2 · Data File 第 ${item.sourcePage} 頁`;
     return `2013 B2 · Question-Answer Book 第 ${item.sourcePage - 11} 頁`;
   }
   function persist(message = '') {
-    if (inCategories()) {
+    if (inPodcast()) {
+      state.podcastCurrentStepId = current().id;
+      state.podcastPosition = current().index;
+    } else if (inCategories()) {
       state.categoryCurrentStepId = current().id;
       state.categoryPosition = current().index;
     } else {
@@ -391,26 +547,35 @@
   }
 
   function ensurePageVisible(item) {
+    if (item.kind?.startsWith('podcast')) {
+      if (item.kind === 'podcast-review') return;
+      const page = $('#page-3');
+      if (page?.hidden) $('[data-filter="all"]')?.click();
+      return;
+    }
     const pageNumber = item.kind === 'category' ? item.page : (item.kind === 'route' ? item.routePage : item.sourcePage);
     const page = $(`#page-${pageNumber}`);
     if (page?.hidden) $('[data-filter="all"]')?.click();
   }
 
   function syncMarks() {
-    const stage1Cutoff = inCategories() && state.stageComplete ? steps.length - 1 : state.position;
+    const stage1Cutoff = (inCategories() || inPodcast()) && state.stageComplete ? steps.length - 1 : state.position;
     const reached = new Set(steps.slice(0, stage1Cutoff + 1).filter(item => item.kind !== 'route').map(item => item.id));
     $$('.curation-source-mark').forEach(mark => {
       mark.classList.toggle('is-revealed', reached.has(mark.dataset.stepId));
-      mark.classList.toggle('is-current', !inCategories() && mark.dataset.stepId === current().id);
+      mark.classList.toggle('is-current', !inCategories() && !inPodcast() && mark.dataset.stepId === current().id);
     });
     for (const item of categories.filter(entry => entry.cluePhrase)) {
-      item.targetNode?.classList.toggle('is-revealed', inCategories() && item.index <= state.categoryPosition);
+      item.targetNode?.classList.toggle('is-revealed', (inCategories() && item.index <= state.categoryPosition) || (inPodcast() && state.categoryStageComplete));
     }
     $$('.curation-source-target').forEach(node => node.classList.remove('curation-source-target'));
     $$('.curation-route-target').forEach(node => node.classList.remove('curation-route-target'));
     $$('.curation-category-target').forEach(node => node.classList.remove('curation-category-target'));
+    $$('.curation-podcast-target').forEach(node => node.classList.remove('curation-podcast-target'));
     const item = current();
-    if (item.kind === 'category') {
+    if (inPodcast()) {
+      item.focusTarget?.classList.add('curation-podcast-target');
+    } else if (item.kind === 'category') {
       item.focusTarget?.classList.add('curation-category-target');
     } else if (item.kind === 'route') item.target?.classList.add('curation-route-target');
     else {
@@ -423,7 +588,7 @@
   function syncTaskStamps() {
     const revealed = [];
     for (const [task, entry] of taskStamps) {
-      const visible = entry.step.index <= (inCategories() && state.stageComplete ? steps.length - 1 : state.position);
+      const visible = entry.step.index <= ((inCategories() || inPodcast()) && state.stageComplete ? steps.length - 1 : state.position);
       entry.paragraph.classList.toggle('curation-task-revealed', visible);
       if (!visible) entry.paragraph.classList.remove('curation-task-stamp-enter');
       if (visible) revealed.push(task);
@@ -442,7 +607,7 @@
     for (const group of factRouteGroups.values()) {
       const visibleByTask = new Map();
       for (const routeStep of group.routes) {
-        const cutoff = inCategories() && state.stageComplete ? steps.length - 1 : state.position;
+        const cutoff = (inCategories() || inPodcast()) && state.stageComplete ? steps.length - 1 : state.position;
         if (routeStep.index <= cutoff && !visibleByTask.has(routeStep.task)) {
           visibleByTask.set(routeStep.task, routeStep);
         }
@@ -469,7 +634,7 @@
     for (const item of categories) {
       const view = categoryViews.get(item.id);
       if (!view) continue;
-      const visible = inCategories() && item.index <= state.categoryPosition;
+      const visible = (inCategories() && item.index <= state.categoryPosition) || (inPodcast() && state.categoryStageComplete);
       const selection = state.categorySelections[item.id];
       const signature = visible ? selection.tasks.join('') : '';
       if (signature === view.signature) continue;
@@ -495,7 +660,7 @@
     for (const item of categories.filter(entry => entry.categoryKind === 'note')) {
       const view = noteViews.get(item.id);
       if (!view) continue;
-      const visible = inCategories() && item.index <= state.categoryPosition;
+      const visible = (inCategories() && item.index <= state.categoryPosition) || (inPodcast() && state.categoryStageComplete);
       const signature = visible ? (item.noteKind === 'task' ? item.task : 'noise') : '';
       if (signature === view.signature) continue;
       const previous = view.signature;
@@ -513,6 +678,210 @@
       }
       view.signature = signature;
     }
+  }
+
+  const toDisplayTime = sourceTime => Math.min(Math.max(sourceTime - podcastModel.audio.segmentStart, 0), podcastModel.audio.segmentDuration);
+  const toSourceTime = displayTime => podcastModel.audio.segmentStart + Math.min(Math.max(displayTime, 0), podcastModel.audio.segmentDuration);
+  let playbackSession = 0;
+  let playbackTarget = null;
+  let lastBoundaryKey = '';
+  let playbackFrame = 0;
+  let activeTranscriptIndex = -1;
+  let transcriptPointer = null;
+  let audioPersistTimer = 0;
+
+  function currentCueStep() {
+    const item = current();
+    return item?.cue ? item : null;
+  }
+
+  function visibleGeneratedCueIds() {
+    if (!inPodcast()) return new Set();
+    return new Set(state.generatedCueIds.filter(id => (cueStepByCueId.get(id)?.index ?? Infinity) <= state.podcastPosition));
+  }
+
+  function syncGeneratedNotes() {
+    const visible = visibleGeneratedCueIds();
+    for (const field of Object.values(podcastModel.noteFields)) {
+      const output = $(field.generated);
+      if (!output) continue;
+      if (field.generated === '#stats-given-india') {
+        output.classList.toggle('is-cue-confirmed', visible.has('statistics-india-given'));
+        continue;
+      }
+      const reached = podcastModel.cues.filter(item => item.destination && field === podcastModel.noteFields[item.destination] && visible.has(item.id) && item.writes?.length);
+      output.replaceChildren();
+      if (!reached.length) continue;
+      if (output.classList.contains('curation-generated-notes')) {
+        output.append(create('strong', '', '系統生成筆記（不覆寫你的筆記）'));
+        const list = create('ul');
+        for (const cueItem of reached) {
+          for (const note of cueItem.writes) {
+            const row = create('li', cueItem.task ? `task-${cueItem.task}` : '', note);
+            row.dataset.cueId = cueItem.id;
+            if (currentCueStep()?.cue.id === cueItem.id) row.classList.add('is-current');
+            list.append(row);
+          }
+        }
+        output.append(list);
+      } else {
+        output.textContent = `錄音答案：${reached.flatMap(item => item.writes).join(' · ')}`;
+        output.classList.add('is-revealed');
+      }
+    }
+  }
+
+  function speakerForRow(row) {
+    const cueItem = cueByTranscriptIndex.get(row.sourceIndex);
+    return cueItem?.speaker || (row.speaker === 'Narrator' ? '考試旁白' : podcastModel.transcript.unresolvedSpeakerLabel);
+  }
+
+  function syncTranscript(options = {}) {
+    const item = current();
+    const reviewIntro = podcastStepsById.get('podcast-transcript-review-intro').index;
+    const inReview = inPodcast() && state.podcastPosition >= reviewIntro;
+    const sourceTime = audio.readyState >= 1 ? audio.currentTime : toSourceTime(state.podcastCurrentTime);
+    const unlockAll = inReview || state.heardCueIds.includes('recording-close-and-end');
+    let nextActiveIndex = -1;
+    for (const row of transcriptRows) {
+      const node = transcriptNodes.get(row.sourceIndex);
+      const cueItem = cueByTranscriptIndex.get(row.sourceIndex);
+      const reviewStep = podcastSteps.find(step => step.kind === 'podcast-review' && step.row.sourceIndex === row.sourceIndex);
+      const listened = unlockAll || row.end <= sourceTime + .1;
+      const reviewed = inReview
+        ? reviewStep.index <= state.podcastPosition
+        : Boolean(cueItem && state.generatedCueIds.includes(cueItem.id) && cueStepByCueId.get(cueItem.id).index <= state.podcastPosition);
+      node.classList.toggle('is-locked', !listened);
+      node.classList.toggle('is-reviewed', reviewed);
+      node.classList.toggle('is-current-review', item.kind === 'podcast-review' && item.row.sourceIndex === row.sourceIndex);
+      const active = !audio.paused && row.start <= sourceTime && row.end >= sourceTime;
+      node.classList.toggle('is-active', active);
+      if (active) nextActiveIndex = row.sourceIndex;
+      $('.curation-transcript-speaker', node).textContent = speakerForRow(row);
+    }
+    if (nextActiveIndex !== activeTranscriptIndex) {
+      activeTranscriptIndex = nextActiveIndex;
+      const node = transcriptNodes.get(nextActiveIndex);
+      if (node && state.podcastTranscriptFollow && options.followPlayback) node.scrollIntoView({block:'center', behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
+    }
+  }
+
+  function syncPlayer() {
+    const displayTime = audio.readyState >= 1 ? toDisplayTime(audio.currentTime) : state.podcastCurrentTime;
+    $('.curation-player-play', audioBar).textContent = audio.paused ? '▶' : '❚❚';
+    $('.curation-player-play', audioBar).setAttribute('aria-label', audio.paused ? '播放錄音' : '暫停錄音');
+    $('.curation-player-seek', audioBar).value = String(displayTime);
+    $('.curation-player-time', audioBar).textContent = `${formatDisplayTime(displayTime)} / ${formatDisplayTime(podcastModel.audio.segmentDuration)}`;
+    speedSelect.value = String(audio.playbackRate || state.podcastPlaybackRate);
+    cuePins.hidden = !state.podcastPinsVisible;
+    $('.curation-player-pins-toggle', audioBar).setAttribute('aria-pressed', String(state.podcastPinsVisible));
+    $('.curation-player-pins-toggle', audioBar).textContent = state.podcastPinsVisible ? '隱藏停頓點' : '顯示停頓點';
+    const follow = $('.curation-transcript-follow', transcriptWindow);
+    follow.setAttribute('aria-pressed', String(state.podcastTranscriptFollow));
+    follow.textContent = state.podcastTranscriptFollow ? '跟隨播放' : '自由捲動';
+    for (const pin of $$('.curation-player-pin', cuePins)) pin.classList.toggle('is-heard', state.heardCueIds.includes(pin.dataset.cueId));
+    const cueStep = currentCueStep();
+    $('.curation-player-replay', audioBar).disabled = !cueStep;
+    $('.curation-player-replay', audioBar).textContent = cueStep ? `↻ 重聽第 ${cueStep.cue.number} 段` : '↻ 重聽本段';
+  }
+
+  function positionPodcastChrome() {
+    if (audioBar.hidden) return;
+    const rail = stage.getBoundingClientRect();
+    const left = Math.max(12, dock.getBoundingClientRect().right + 12);
+    Object.assign(audioBar.style, {top:`${Math.ceil(rail.bottom + 8)}px`, left:`${left}px`, right:'18px'});
+    if (!transcriptWindow.dataset.moved) Object.assign(transcriptWindow.style, {top:`${Math.ceil(rail.bottom + audioBar.getBoundingClientRect().height + 18)}px`, right:'18px', left:'auto'});
+  }
+
+  function syncPodcastChrome() {
+    const visible = open && inPodcast();
+    audioBar.hidden = !visible;
+    transcriptWindow.hidden = !visible;
+    document.body.classList.toggle('curation-stage-3', visible);
+    if (!visible) {
+      audio.pause();
+      cancelAnimationFrame(playbackFrame);
+      playbackTarget = null;
+      return;
+    }
+    positionPodcastChrome();
+    syncPlayer();
+    syncGeneratedNotes();
+    syncTranscript();
+  }
+
+  function scheduleAudioPersist() {
+    clearTimeout(audioPersistTimer);
+    audioPersistTimer = setTimeout(() => {
+      state.podcastCurrentTime = toDisplayTime(audio.currentTime);
+      persist();
+    }, 250);
+  }
+
+  function completeAudioCue(cueItem) {
+    const key = `${playbackSession}:${cueItem.id}`;
+    if (lastBoundaryKey === key) return;
+    lastBoundaryKey = key;
+    playbackTarget = null;
+    audio.pause();
+    audio.currentTime = cueItem.endpoint;
+    state.podcastCurrentTime = toDisplayTime(cueItem.endpoint);
+    if (!state.heardCueIds.includes(cueItem.id)) state.heardCueIds.push(cueItem.id);
+    if (!state.generatedCueIds.includes(cueItem.id)) state.generatedCueIds.push(cueItem.id);
+    const cueStep = cueStepByCueId.get(cueItem.id);
+    state.podcastPosition = cueStep.index;
+    state.podcastCurrentStepId = cueStep.id;
+    if (!state.podcastCompleted.includes(cueStep.id)) state.podcastCompleted.push(cueStep.id);
+    render(false, {preserveAudio:true});
+    $('#curation-save-status', dock).textContent = `已在 ${formatDisplayTime(toDisplayTime(cueItem.endpoint))} 停下 · 第 ${cueItem.number} 個停頓點只觸發一次`;
+  }
+
+  function watchPlayback() {
+    cancelAnimationFrame(playbackFrame);
+    if (audio.paused || !playbackTarget) return;
+    if (audio.currentTime >= playbackTarget.endpoint - .035) {
+      completeAudioCue(playbackTarget);
+      return;
+    }
+    syncPlayer();
+    syncTranscript({followPlayback:true});
+    playbackFrame = requestAnimationFrame(watchPlayback);
+  }
+
+  function armPlayback(cueItem, startSourceTime) {
+    if (!cueItem) return;
+    playbackSession += 1;
+    lastBoundaryKey = '';
+    playbackTarget = cueItem;
+    const start = Math.min(Math.max(startSourceTime, podcastModel.audio.segmentStart), cueItem.endpoint - .05);
+    const begin = () => {
+      audio.currentTime = start;
+      audio.playbackRate = state.podcastPlaybackRate;
+      audio.play().then(() => { syncPlayer(); watchPlayback(); }).catch(() => {
+        playbackTarget = null;
+        $('#curation-save-status', dock).textContent = '錄音未能播放；請再按播放或重聽。';
+      });
+    };
+    if (audio.readyState >= 1) begin(); else audio.addEventListener('loadedmetadata', begin, {once:true});
+  }
+
+  function playNormal() {
+    if (!audio.paused) { audio.pause(); return; }
+    let sourceTime = audio.readyState >= 1 ? audio.currentTime : toSourceTime(state.podcastCurrentTime);
+    if (sourceTime < podcastModel.audio.segmentStart || sourceTime >= podcastModel.audio.segmentEnd - .04) sourceTime = podcastModel.audio.segmentStart;
+    const target = podcastModel.cues.find(item => item.endpoint > sourceTime + .04);
+    if (!target) return;
+    armPlayback(target, sourceTime);
+  }
+
+  function replayCurrentCue() {
+    const cueStep = currentCueStep();
+    if (!cueStep) return;
+    armPlayback(cueStep.cue, cueStep.cue.replayStart);
+  }
+
+  function playCueFromPrevious(cueStep) {
+    armPlayback(cueStep.cue, cueStep.cue.playbackStart);
   }
 
   function setMaskRect(mask, top, left, width, height) {
@@ -580,7 +949,14 @@
     ensurePageVisible(item);
     requestAnimationFrame(() => {
       const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-      target?.scrollIntoView({block:'center', inline:'nearest', behavior:reduced ? 'instant' : 'smooth'});
+      if (item.kind === 'podcast-review' && target) {
+        const rowRect = target.getBoundingClientRect();
+        const bodyRect = transcriptBody.getBoundingClientRect();
+        // Review navigation is an explicit learner command. Position the line
+        // synchronously so a prior free-scroll/follow state cannot leave the
+        // newly selected row outside the floating transcript viewport.
+        transcriptBody.scrollTo({top:Math.max(0, transcriptBody.scrollTop + rowRect.top - bodyRect.top - bodyRect.height * .32), behavior:'auto'});
+      } else target?.scrollIntoView({block:'center', inline:'nearest', behavior:reduced ? 'instant' : 'smooth'});
       const until = performance.now() + (reduced ? 0 : 900);
       const track = () => {
         if (run !== focusRun) return;
@@ -592,11 +968,12 @@
     });
   }
 
-  function render(focus = true) {
+  function render(focus = true, options = {}) {
     if (!open) return;
     const item = current();
     helpOpen = false;
     document.body.classList.toggle('curation-stage-2', inCategories());
+    document.body.classList.toggle('curation-podcast-review', inPodcast() && state.podcastPosition >= podcastStepsById.get('podcast-transcript-review-intro').index);
     syncMarks();
     syncTaskStamps();
     syncFactRouteStamps();
@@ -607,17 +984,18 @@
     // new step is itself a route.
     syncRoute();
     syncSpotlight();
+    syncPodcastChrome();
     const list = currentList();
-    const completed = inCategories() ? state.categoryCompleted : state.completed;
+    const completed = inPodcast() ? state.podcastCompleted : (inCategories() ? state.categoryCompleted : state.completed);
     $('#curation-step-count', dock).textContent = `${item.index + 1} / ${list.length} 步`;
     $('#curation-completion-count', dock).textContent = `${completed.length} 已完成`;
     $('#curation-source', dock).textContent = pageLabel(item);
     $('#curation-title', dock).textContent = item.title;
     const badge = $('#curation-badge', dock);
-    badge.textContent = inCategories() ? item.badge : (item.badge || '任務指示');
+    badge.textContent = inPodcast() ? item.badge : (inCategories() ? item.badge : (item.badge || '任務指示'));
     badge.className = `curation-badge${item.task ? ` task-${item.task}` : ''}`;
-    $('#curation-part-label', dock).textContent = inCategories() ? 'PART 2 · DATA CATEGORIZATION' : 'PART 1 · TASK INSTRUCTIONS';
-    $('#curation-stage-title', dock).textContent = inCategories() ? 'Stage 2 · 資料分類' : 'Stage 1 · 任務指示';
+    $('#curation-part-label', dock).textContent = inPodcast() ? 'PART 3 · PODCAST' : (inCategories() ? 'PART 2 · DATA CATEGORIZATION' : 'PART 1 · TASK INSTRUCTIONS');
+    $('#curation-stage-title', dock).textContent = inPodcast() ? 'Stage 3 · 聆聽錄音' : (inCategories() ? 'Stage 2 · 資料分類' : 'Stage 1 · 任務指示');
     $('#curation-quote', dock).textContent = inCategories() ? item.sourceTitle : item.sourcePhrase;
     $('#curation-explanation', dock).innerHTML = `<p>${item.explanation}</p>`;
     const controls = $('#curation-category-controls', dock);
@@ -628,14 +1006,28 @@
     }
     const help = $('#curation-help-panel', dock);
     help.hidden = true;
-    help.innerHTML = inCategories()
+    help.innerHTML = inPodcast()
+      ? `<strong>再聽／再判斷</strong><p>${item.help}</p>${item.cue ? `<small>Replay start ${formatDisplayTime(toDisplayTime(item.cue.replayStart))} · endpoint ${formatDisplayTime(toDisplayTime(item.cue.endpoint))} · ${item.cue.timestampConfidence} confidence</small>` : ''}`
+      : inCategories()
       ? `<strong>再看一次分類理由</strong><p>${item.help}</p>${item.choiceRequired ? `<small>先標分類：${item.initialTasks.map(task => `Task ${task}`).join(' + ')}。Stage 4 逐句閱讀後才修正取證，不在 Stage 2 預讀答案。</small>` : ''}`
       : (item.help || '先說出這句屬於「身分、讀者、文類、必寫內容、來源、限制」哪一類，再檢查它是否能直接放進答案。');
     const routeCard = $('#curation-route-card', dock);
     routeCard.innerHTML = item.kind === 'route' ? `<div class="curation-route-card"><strong>只建立路線，不取答案</strong>定位：Data File 第 ${item.routePage} 頁 · ${item.routeLabel}</div>` : '';
+    const podcastActions = $('#curation-podcast-actions', dock);
+    podcastActions.replaceChildren();
+    if (inPodcast() && item.cue) {
+      const replay = create('button', 'curation-small', `↻ 重聽第 ${item.cue.number} 段`);
+      replay.type = 'button';
+      replay.addEventListener('click', replayCurrentCue);
+      podcastActions.append(replay);
+      const decision = create('p', `curation-podcast-decision${item.task ? ` task-${item.task}` : ''}`, `最終判斷：${item.cue.finalDecision}`);
+      podcastActions.append(decision);
+    }
     const isCategoryFinal = inCategories() && item.index === categories.length - 1;
-    $('#curation-final', dock).innerHTML = isCategoryFinal
-      ? '<div class="curation-final">✓ Part 2 最後一個筆記欄目。完成後保存資料分類並標記 Stage 2 完成；Stage 3 仍會鎖定。</div>'
+    $('#curation-final', dock).innerHTML = item.kind === 'podcast-final'
+      ? '<div class="curation-final">✓ Part 3 最後一步：錄音、28 個停頓點和完整錄音稿已核對。Stage 4–5 尚未開放。</div>'
+      : isCategoryFinal
+      ? '<div class="curation-final">✓ Part 2 最後一個筆記欄目。完成後保存資料分類並標記 Stage 2 完成；亦可直接選 Stage 3。</div>'
       : (!inCategories() && item.final ? '<div class="curation-final">✓ Part 1 最後一步：三項任務合約已完整核對。完成後可進入 Stage 2 資料分類。</div>' : '');
     const bookmarked = state.bookmarks.includes(item.id);
     $('#curation-bookmark', dock).textContent = bookmarked ? '★' : '☆';
@@ -644,7 +1036,11 @@
     $('#curation-bookmark-jump', dock).textContent = state.bookmarks.length ? `${state.bookmarks.length} 個書籤` : '選擇書籤';
     $('#curation-prev', dock).disabled = item.index === 0;
     const next = $('#curation-next', dock);
-    if (inCategories()) {
+    if (inPodcast()) {
+      const cueReady = !item.cue || state.heardCueIds.includes(item.cue.id);
+      next.disabled = !cueReady || (item.final && state.podcastStageComplete);
+      next.textContent = item.final ? (state.podcastStageComplete ? 'Stage 3 已完成 ✓' : '完成 Stage 3 ✓') : (item.cue && !cueReady ? '先播放至停頓點' : '下一步 →');
+    } else if (inCategories()) {
       const hasChoice = !item.choiceRequired || state.categorySelections[item.id].tasks.length > 0;
       next.disabled = !hasChoice || (isCategoryFinal && state.categoryStageComplete);
       next.textContent = isCategoryFinal ? (state.categoryStageComplete ? 'Stage 2 已完成 ✓' : '完成 Stage 2 ✓') : '下一步 →';
@@ -653,26 +1049,34 @@
       next.textContent = item.final ? (state.stageComplete ? '進入 Stage 2 →' : '完成 Stage 1 ✓') : '下一步 →';
     }
     $('#curation-spotlight', dock).checked = state.spotlight;
+    const activeStageIndex = inPodcast() ? 2 : (inCategories() ? 1 : 0);
     for (const [index, stageItem] of model.stages.entries()) {
       const button = $(`[data-stage-id="${stageItem.id}"]`, stage);
-      const active = (index === 0 && !inCategories()) || (index === 1 && inCategories());
-      const done = (index === 0 && state.stageComplete) || (index === 1 && state.categoryStageComplete);
+      const active = index === activeStageIndex;
+      // Free access is independent of completion: visiting Stage 3 must not
+      // falsely award completion ticks to Stage 1 or Stage 2.
+      const done = (index === 0 && state.stageComplete) || (index === 1 && state.categoryStageComplete) || (index === 2 && state.podcastStageComplete);
       button.classList.toggle('active', active);
       button.classList.toggle('done', done);
-      button.disabled = index > 1;
+      button.disabled = index > 2;
       button.toggleAttribute('aria-current', active);
       $('.curation-stage-dot', button).textContent = done ? '✓' : String(index + 1);
       $('.curation-stage-count', button).textContent = index === 0
         ? (state.stageComplete ? '完成' : `${state.position + 1}/${steps.length}`)
-        : (index === 1 ? (state.categoryStageComplete ? '完成' : `${state.categoryPosition + 1}/${categories.length}`) : '未開放');
+        : (index === 1 ? (state.categoryStageComplete ? '完成' : `${state.categoryPosition + 1}/${categories.length}`) : (index === 2 ? (state.podcastStageComplete ? '完成' : `${state.podcastPosition + 1}/${podcastSteps.length}`) : '未開放'));
     }
-    $('.curation-stage-fill', stage).style.width = (state.stageComplete || inCategories()) ? '20%' : '0';
+    $('.curation-stage-fill', stage).style.width = `${activeStageIndex * 20}%`;
     persist();
     if (focus) focusCurrent(); else { syncSpotlight(); syncRoute(); }
   }
 
   function goTo(index, options = {}) {
-    if (inCategories()) {
+    if (inPodcast()) {
+      audio.pause();
+      playbackTarget = null;
+      state.podcastPosition = Math.min(Math.max(index, 0), podcastSteps.length - 1);
+      state.podcastCurrentStepId = current().id;
+    } else if (inCategories()) {
       state.categoryPosition = Math.min(Math.max(index, 0), categories.length - 1);
       state.categoryCurrentStepId = current().id;
     } else {
@@ -683,7 +1087,7 @@
   }
 
   function switchStage(stageId, options = {}) {
-    state.activeStage = stageId === 'categorization' ? 'categorization' : 'instructions';
+    state.activeStage = ['categorization','podcast'].includes(stageId) ? stageId : 'instructions';
     render(options.focus !== false);
   }
 
@@ -700,7 +1104,11 @@
       routeArrow.hidden = true;
       routeArrow.style.display = 'none';
       routeCallout.hidden = true;
-      $$('.curation-source-target,.curation-route-target,.curation-category-target').forEach(node => node.classList.remove('curation-source-target', 'curation-route-target', 'curation-category-target'));
+      audio.pause();
+      playbackTarget = null;
+      audioBar.hidden = true;
+      transcriptWindow.hidden = true;
+      $$('.curation-source-target,.curation-route-target,.curation-category-target,.curation-podcast-target').forEach(node => node.classList.remove('curation-source-target', 'curation-route-target', 'curation-category-target', 'curation-podcast-target'));
       persist();
     }
   }
@@ -709,7 +1117,7 @@
     const list = $('#curation-picker-list', picker);
     list.replaceChildren();
     $('#curation-picker-title', picker).textContent = kind === 'bookmark' ? '已儲存的書籤' : '跳至步驟';
-    const lookup = id => stepsById.get(id) || categoriesById.get(id);
+    const lookup = id => stepsById.get(id) || categoriesById.get(id) || podcastStepsById.get(id);
     const source = kind === 'bookmark' ? state.bookmarks.map(lookup).filter(Boolean) : currentList();
     for (const item of source) {
       const button = create('button', 'curation-picker-option');
@@ -717,7 +1125,13 @@
       const sourceText = item.sourcePhrase || item.sourceTitle;
       button.dataset.search = canonical(`${item.title} ${sourceText} ${item.id}`).toLowerCase();
       button.innerHTML = `<strong>${item.index + 1}. ${item.title}</strong><span>${sourceText}</span>`;
-      button.addEventListener('click', () => { picker.close(); goTo(item.index); });
+      button.addEventListener('click', () => {
+        picker.close();
+        if (stepsById.has(item.id)) state.activeStage = 'instructions';
+        else if (categoriesById.has(item.id)) state.activeStage = 'categorization';
+        else if (podcastStepsById.has(item.id)) state.activeStage = 'podcast';
+        goTo(item.index);
+      });
       list.append(button);
     }
     if (!source.length) list.append(create('p', '', '暫時沒有書籤。'));
@@ -728,16 +1142,31 @@
 
   launch.addEventListener('click', () => setOpen(!open));
   $('#curation-close', dock).addEventListener('click', () => setOpen(false));
-  $('#curation-prev', dock).addEventListener('click', () => goTo((inCategories() ? state.categoryPosition : state.position) - 1));
+  $('#curation-prev', dock).addEventListener('click', () => goTo((inPodcast() ? state.podcastPosition : (inCategories() ? state.categoryPosition : state.position)) - 1));
   $('#curation-next', dock).addEventListener('click', () => {
     const item = current();
+    if (inPodcast()) {
+      if (item.cue && !state.heardCueIds.includes(item.cue.id)) return;
+      if (!state.podcastCompleted.includes(item.id)) state.podcastCompleted.push(item.id);
+      if (item.kind === 'podcast-review' && !state.transcriptReviewCompleted.includes(item.id)) state.transcriptReviewCompleted.push(item.id);
+      if (item.final) {
+        state.podcastStageComplete = state.podcastCompleted.length === podcastSteps.length;
+        render(false);
+        $('#curation-save-status', dock).textContent = state.podcastStageComplete ? 'Stage 3 已完成並保存；Stage 4–5 尚未開放。' : '仍有 Stage 3 步驟未完成；可用步驟選單返回。';
+        return;
+      }
+      const nextItem = podcastSteps[item.index + 1];
+      goTo(item.index + 1);
+      if (nextItem?.cue) playCueFromPrevious(nextItem);
+      return;
+    }
     if (inCategories()) {
       if (item.choiceRequired && !state.categorySelections[item.id].tasks.length) return;
       if (!state.categoryCompleted.includes(item.id)) state.categoryCompleted.push(item.id);
       if (item.index === categories.length - 1) {
         state.categoryStageComplete = state.categoryCompleted.length === categories.length;
         render(false);
-        $('#curation-save-status', dock).textContent = 'Stage 2 已完成並保存；Stage 3 仍未開放。';
+        $('#curation-save-status', dock).textContent = 'Stage 2 已完成並保存；可自由進入 Stage 3。';
         return;
       }
       goTo(item.index + 1);
@@ -789,6 +1218,7 @@
   });
   $('[data-stage-id="instructions"]', stage).addEventListener('click', () => switchStage('instructions'));
   $('[data-stage-id="categorization"]', stage).addEventListener('click', () => switchStage('categorization'));
+  $('[data-stage-id="podcast"]', stage).addEventListener('click', () => switchStage('podcast'));
   $('#curation-step-jump', dock).addEventListener('click', () => showPicker('step'));
   $('#curation-bookmark-jump', dock).addEventListener('click', () => showPicker('bookmark'));
   $('#curation-picker-close', picker).addEventListener('click', () => picker.close());
@@ -810,7 +1240,7 @@
     const url = URL.createObjectURL(blob);
     const anchor = create('a');
     anchor.href = url;
-    anchor.download = `2013-b2-stage2-v3-slot-${activeSlot}.json`;
+    anchor.download = `2013-b2-super-curation-v4-slot-${activeSlot}.json`;
     anchor.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
@@ -830,11 +1260,133 @@
     event.target.value = '';
   });
 
+  $('.curation-player-play', audioBar).addEventListener('click', playNormal);
+  $('.curation-player-replay', audioBar).addEventListener('click', replayCurrentCue);
+  $('.curation-player-pins-toggle', audioBar).addEventListener('click', () => {
+    state.podcastPinsVisible = !state.podcastPinsVisible;
+    syncPlayer();
+    persist();
+  });
+  $('.curation-player-seek', audioBar).addEventListener('input', event => {
+    audio.pause();
+    playbackTarget = null;
+    state.podcastCurrentTime = Math.min(Math.max(Number(event.target.value) || 0, 0), podcastModel.audio.segmentDuration);
+    if (audio.readyState >= 1) audio.currentTime = toSourceTime(state.podcastCurrentTime);
+    syncPlayer();
+    syncTranscript();
+    persist('已移動播放位置；不會因拖動而揭示答案。');
+  });
+  speedSelect.addEventListener('change', () => {
+    state.podcastPlaybackRate = Number(speedSelect.value);
+    audio.playbackRate = state.podcastPlaybackRate;
+    syncPlayer();
+    persist();
+  });
+  cuePins.addEventListener('click', event => {
+    const cueId = event.target.closest('[data-cue-id]')?.dataset.cueId;
+    const cueStep = cueStepByCueId.get(cueId);
+    if (!cueStep) return;
+    state.activeStage = 'podcast';
+    state.podcastPosition = cueStep.index;
+    state.podcastCurrentStepId = cueStep.id;
+    render();
+    replayCurrentCue();
+  });
+
+  function setTranscriptFollow(value, message = '') {
+    state.podcastTranscriptFollow = Boolean(value);
+    const button = $('.curation-transcript-follow', transcriptWindow);
+    button.setAttribute('aria-pressed', String(state.podcastTranscriptFollow));
+    button.textContent = state.podcastTranscriptFollow ? '跟隨播放' : '自由捲動';
+    persist(message);
+  }
+  $('.curation-transcript-follow', transcriptWindow).addEventListener('click', () => setTranscriptFollow(!state.podcastTranscriptFollow));
+  const disableTranscriptFollow = event => {
+    if (event.isTrusted && state.podcastTranscriptFollow) setTranscriptFollow(false, '已改為自由捲動；正常播放不會搶走你的位置。');
+  };
+  transcriptBody.addEventListener('wheel', disableTranscriptFollow, {passive:true});
+  transcriptBody.addEventListener('touchstart', disableTranscriptFollow, {passive:true});
+  transcriptBody.addEventListener('pointerdown', disableTranscriptFollow, {passive:true});
+  function resetTranscriptWindow() {
+    transcriptWindow.dataset.moved = '';
+    transcriptWindow.style.cssText = '';
+    positionPodcastChrome();
+    setTranscriptFollow(true);
+  }
+  $('.curation-transcript-fit', transcriptWindow).addEventListener('click', resetTranscriptWindow);
+  transcriptWindow.addEventListener('pointerdown', event => {
+    const corner = event.target.dataset.resize;
+    const head = event.target.closest('.curation-transcript-window-head');
+    if ((!corner && !head) || event.target.closest('button,input,select')) return;
+    event.preventDefault();
+    const rect = transcriptWindow.getBoundingClientRect();
+    transcriptPointer = {corner, move:!corner, x:event.clientX, y:event.clientY, left:rect.left, top:rect.top, width:rect.width, height:rect.height};
+    transcriptWindow.dataset.moved = '1';
+    transcriptWindow.setPointerCapture(event.pointerId);
+  });
+  transcriptWindow.addEventListener('pointermove', event => {
+    if (!transcriptPointer) return;
+    const pointer = transcriptPointer;
+    const dx = event.clientX - pointer.x;
+    const dy = event.clientY - pointer.y;
+    let left = pointer.left;
+    let top = pointer.top;
+    let width = pointer.width;
+    let height = pointer.height;
+    if (pointer.move) { left += dx; top += dy; }
+    else {
+      if (pointer.corner.includes('w')) { left += dx; width -= dx; } else width += dx;
+      if (pointer.corner.includes('n')) { top += dy; height -= dy; } else height += dy;
+      if (width < 340) { if (pointer.corner.includes('w')) left -= 340 - width; width = 340; }
+      if (height < 220) { if (pointer.corner.includes('n')) top -= 220 - height; height = 220; }
+    }
+    width = Math.min(width, innerWidth - 8);
+    height = Math.min(height, innerHeight - 8);
+    left = Math.max(4, Math.min(left, innerWidth - width - 4));
+    top = Math.max(4, Math.min(top, innerHeight - height - 4));
+    Object.assign(transcriptWindow.style, {left:`${left}px`, top:`${top}px`, width:`${width}px`, height:`${height}px`, right:'auto'});
+  });
+  transcriptWindow.addEventListener('pointerup', () => { transcriptPointer = null; });
+  transcriptWindow.addEventListener('lostpointercapture', () => { transcriptPointer = null; });
+
+  audio.addEventListener('loadedmetadata', () => {
+    audio.currentTime = toSourceTime(state.podcastCurrentTime);
+    audio.playbackRate = state.podcastPlaybackRate;
+    syncPlayer();
+    syncTranscript();
+  });
+  audio.addEventListener('play', () => { syncPlayer(); watchPlayback(); });
+  audio.addEventListener('pause', () => {
+    cancelAnimationFrame(playbackFrame);
+    state.podcastCurrentTime = toDisplayTime(audio.currentTime);
+    syncPlayer();
+    syncTranscript();
+    persist();
+  });
+  audio.addEventListener('timeupdate', () => {
+    state.podcastCurrentTime = toDisplayTime(audio.currentTime);
+    if (playbackTarget && audio.currentTime >= playbackTarget.endpoint - .035) completeAudioCue(playbackTarget);
+    else {
+      syncPlayer();
+      syncTranscript({followPlayback:true});
+      scheduleAudioPersist();
+    }
+  });
+  audio.addEventListener('ratechange', () => {
+    if (podcastModel.supportedRates.includes(audio.playbackRate)) state.podcastPlaybackRate = audio.playbackRate;
+    syncPlayer();
+  });
+  audio.addEventListener('ended', () => {
+    state.podcastCurrentTime = podcastModel.audio.segmentDuration;
+    syncPlayer();
+    persist();
+  });
+
   window.addEventListener('scroll', () => { if (open) { syncSpotlight(); syncRoute(); } }, {passive:true});
-  window.addEventListener('resize', () => { if (open) { syncSpotlight(); syncRoute(); } });
+  window.addEventListener('resize', () => { if (open) { positionPodcastChrome(); syncSpotlight(); syncRoute(); } });
   document.addEventListener('keydown', event => {
     if (!open || /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName)) return;
-    if (event.key === 'ArrowLeft' && !$('#curation-prev', dock).disabled) { event.preventDefault(); goTo((inCategories() ? state.categoryPosition : state.position) - 1); }
+    if (event.key === 'ArrowLeft' && !$('#curation-prev', dock).disabled) { event.preventDefault(); goTo((inPodcast() ? state.podcastPosition : (inCategories() ? state.categoryPosition : state.position)) - 1); }
     if (event.key === 'ArrowRight' && !$('#curation-next', dock).disabled) { event.preventDefault(); $('#curation-next', dock).click(); }
     if (event.key === 'Escape' && !picker.open) setOpen(false);
   });
@@ -843,13 +1395,17 @@
     version: VERSION,
     steps,
     categories,
+    podcastSteps,
+    podcastCues:podcastModel.cues,
     missingTargets: missing,
     getState: () => JSON.parse(JSON.stringify(state)),
     goToId: id => {
       const stage1Item = stepsById.get(id);
       const categoryItem = categoriesById.get(id);
+      const podcastItem = podcastStepsById.get(id);
       if (stage1Item) { switchStage('instructions', {focus:false}); goTo(stage1Item.index); }
       if (categoryItem) { switchStage('categorization', {focus:false}); goTo(categoryItem.index); }
+      if (podcastItem) { switchStage('podcast', {focus:false}); goTo(podcastItem.index); }
     },
     switchStage,
     setOpen,
@@ -869,6 +1425,7 @@
   const queryStep = query.get('step');
   const directStage1Step = stepsById.get(queryStep);
   const directStage2Step = categoriesById.get(queryStep);
+  const directStage3Step = podcastStepsById.get(queryStep);
   if (directStage1Step) {
     state.activeStage = 'instructions';
     state.position = directStage1Step.index;
@@ -877,6 +1434,12 @@
     state.activeStage = 'categorization';
     state.categoryPosition = directStage2Step.index;
     state.categoryCurrentStepId = directStage2Step.id;
+  } else if (directStage3Step) {
+    state.activeStage = 'podcast';
+    state.podcastPosition = directStage3Step.index;
+    state.podcastCurrentStepId = directStage3Step.id;
+  } else if (['3', 'part3', 'stage3', 'podcast'].includes(String(queryStage).toLowerCase())) {
+    state.activeStage = 'podcast';
   } else if (['2', 'part2', 'stage2', 'categorization'].includes(String(queryStage).toLowerCase())) {
     state.activeStage = 'categorization';
   } else if (['1', 'part1', 'stage1', 'instructions'].includes(String(queryStage).toLowerCase())) {
