@@ -6,7 +6,7 @@
   if (!model || !toolbar || document.body.dataset.reader !== '2013-b2') return;
 
   const VERSION = model.contentVersion;
-  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1']);
+  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2']);
   const STORAGE_KEY = 'edmund-paper3-2013-b2-super-curation-stage1-v1';
   const steps = model.steps.map((item, index) => ({...item, index}));
   const stepsById = new Map(steps.map(item => [item.id, item]));
@@ -272,7 +272,9 @@
       .map(id => ids.has(id) ? id : migrateCategoryId(id)).filter(id => ids.has(id) || categoryIds.has(id)))];
     clean.spotlight = raw.spotlight !== false;
     clean.stageComplete = raw.stageComplete === true && clean.completed.length === steps.length;
-    clean.activeStage = raw.activeStage === 'categorization' && clean.stageComplete ? 'categorization' : 'instructions';
+    // Stage 1 and Stage 2 are independent teaching views. Completion records
+    // progress; it must never be used as an access gate.
+    clean.activeStage = raw.activeStage === 'categorization' ? 'categorization' : 'instructions';
     clean.open = raw.open === true;
     clean.updated = Number(raw.updated) || Date.now();
     return clean;
@@ -309,7 +311,7 @@
     button.disabled = index > 1;
     button.dataset.stageId = item.id;
     button.setAttribute('aria-label', index < 2 ? `Stage ${index + 1} ${item.name}` : `Stage ${index + 1} ${item.name}，尚未開放`);
-    button.innerHTML = `<span class="curation-stage-dot">${item.label}</span><span class="curation-stage-label">${item.short}</span><small class="curation-stage-count">${index === 0 ? `1/${steps.length}` : '未開放'}</small>`;
+    button.innerHTML = `<span class="curation-stage-dot">${item.label}</span><span class="curation-stage-label">${item.short}</span><small class="curation-stage-count">${index === 0 ? `1/${steps.length}` : (index === 1 ? `1/${categories.length}` : '未開放')}</small>`;
     stageItems.append(button);
   });
 
@@ -657,14 +659,14 @@
       const done = (index === 0 && state.stageComplete) || (index === 1 && state.categoryStageComplete);
       button.classList.toggle('active', active);
       button.classList.toggle('done', done);
-      button.disabled = index === 1 ? !state.stageComplete : index > 1;
+      button.disabled = index > 1;
       button.toggleAttribute('aria-current', active);
       $('.curation-stage-dot', button).textContent = done ? '✓' : String(index + 1);
       $('.curation-stage-count', button).textContent = index === 0
         ? (state.stageComplete ? '完成' : `${state.position + 1}/${steps.length}`)
-        : (index === 1 ? (state.categoryStageComplete ? '完成' : (state.stageComplete ? `${state.categoryPosition + 1}/${categories.length}` : '未開放')) : '未開放');
+        : (index === 1 ? (state.categoryStageComplete ? '完成' : `${state.categoryPosition + 1}/${categories.length}`) : '未開放');
     }
-    $('.curation-stage-fill', stage).style.width = state.stageComplete ? '20%' : '0';
+    $('.curation-stage-fill', stage).style.width = (state.stageComplete || inCategories()) ? '20%' : '0';
     persist();
     if (focus) focusCurrent(); else { syncSpotlight(); syncRoute(); }
   }
@@ -681,7 +683,6 @@
   }
 
   function switchStage(stageId, options = {}) {
-    if (stageId === 'categorization' && !state.stageComplete) return;
     state.activeStage = stageId === 'categorization' ? 'categorization' : 'instructions';
     render(options.focus !== false);
   }
@@ -809,7 +810,7 @@
     const url = URL.createObjectURL(blob);
     const anchor = create('a');
     anchor.href = url;
-    anchor.download = `2013-b2-stage2-v2-slot-${activeSlot}.json`;
+    anchor.download = `2013-b2-stage2-v3-slot-${activeSlot}.json`;
     anchor.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
@@ -848,7 +849,7 @@
       const stage1Item = stepsById.get(id);
       const categoryItem = categoriesById.get(id);
       if (stage1Item) { switchStage('instructions', {focus:false}); goTo(stage1Item.index); }
-      if (categoryItem && state.stageComplete) { switchStage('categorization', {focus:false}); goTo(categoryItem.index); }
+      if (categoryItem) { switchStage('categorization', {focus:false}); goTo(categoryItem.index); }
     },
     switchStage,
     setOpen,
@@ -862,6 +863,24 @@
     $('#curation-save-status', dock).textContent = `來源對應錯誤：${missing.length} 項；請勿發佈。`;
   }
 
-  const queryOpen = new URLSearchParams(location.search).get('curation') === '1';
-  if (queryOpen || state.open) setOpen(true);
+  const query = new URLSearchParams(location.search);
+  const queryOpen = query.get('curation') === '1';
+  const queryStage = query.get('stage');
+  const queryStep = query.get('step');
+  const directStage1Step = stepsById.get(queryStep);
+  const directStage2Step = categoriesById.get(queryStep);
+  if (directStage1Step) {
+    state.activeStage = 'instructions';
+    state.position = directStage1Step.index;
+    state.currentStepId = directStage1Step.id;
+  } else if (directStage2Step) {
+    state.activeStage = 'categorization';
+    state.categoryPosition = directStage2Step.index;
+    state.categoryCurrentStepId = directStage2Step.id;
+  } else if (['2', 'part2', 'stage2', 'categorization'].includes(String(queryStage).toLowerCase())) {
+    state.activeStage = 'categorization';
+  } else if (['1', 'part1', 'stage1', 'instructions'].includes(String(queryStage).toLowerCase())) {
+    state.activeStage = 'instructions';
+  }
+  if (queryOpen || queryStage || queryStep || state.open) setOpen(true);
 })();
