@@ -93,7 +93,7 @@
   panel.hidden = true;
   panel.innerHTML = `
     <dl id="curation-category-details" class="curation-category-details"></dl>
-    <fieldset><legend>你會先標哪個任務？</legend>
+    <fieldset aria-label="暫定任務分類">
       <label><input type="checkbox" value="A" data-category-task> Task A</label>
       <label><input type="checkbox" value="B" data-category-task> Task B</label>
       <label><input type="checkbox" value="C" data-category-task> Task C</label>
@@ -116,6 +116,7 @@
 
   const stampGroups = new Map();
   for (const pageNumber of new Set(categories.map(step => step.page))) {
+    if (pageNumber === 4) continue;
     const header = $(`#page-${pageNumber} > header`);
     if (!header) continue;
     const holder = make('div', 'curation-file-stamps curation-stage2-file-stamps');
@@ -145,6 +146,10 @@
     holder.hidden = !state.active || !reached;
     if (holder.hidden) return;
     const selection = state.selections[step.id];
+    if (step.id === 'p2-category-note-sheet' && selection.status === 'uncertain') {
+      holder.hidden = true;
+      return;
+    }
     if (selection.status === 'tasks') {
       for (const task of selection.tasks) {
         const icon = make('span', `curation-source-task curation-source-task-${task} is-revealed`, task);
