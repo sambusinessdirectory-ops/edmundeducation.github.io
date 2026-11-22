@@ -187,7 +187,7 @@
       '正式 Task 10 確認成品是雜誌社論，並須同時使用 B2 Data File 和筆記。',
       {badge:'Task C · QAB 核對', task:'C', sourceRoot:'#page-16'}),
     step('qab-task-c-word-count', 16, 'Write around 200 words.', 'Stage 1 完成：Task C 約 200 字',
-      '三項任務合約已全部核對：寫作者、讀者、文類、必寫內容、來源路線、限制和不可誤用語句均已確認。完成這一步後可進入 Stage 2 資料分類；Stage 3–5 仍鎖定。',
+      '三項任務合約已全部核對：寫作者、讀者、文類、必寫內容、來源路線、限制和不可誤用語句均已確認。完成這一步後可進入 Stage 2 資料分類，也可自由選擇已開放的 Stage 3；Stage 4–5 尚未開放。',
       {badge:'Stage 1 完成', task:'C', final:true, sourceRoot:'#page-16', help:'你現在應能用一句話分別說出 Task A、B、C 的讀者、文類、目的、必寫內容與來源。'}),
   ];
 
@@ -309,12 +309,12 @@
   ];
 
   window.EDMUND_2013_B2_STAGE1 = Object.freeze({
-    schemaVersion: 3,
-    contentVersion: '2013-b2-stage2-v3-free-navigation',
+    schemaVersion: 4,
+    contentVersion: '2013-b2-stage3-v1',
     stages: [
       {id:'instructions', label:'1', name:'Task Instructions', short:'任務指示', status:'complete'},
-      {id:'categorization', label:'2', name:'Data Categorization', short:'資料分類', status:'active'},
-      {id:'podcast', label:'3', name:'Podcast', short:'聆聽錄音', status:'locked'},
+      {id:'categorization', label:'2', name:'Data Categorization', short:'資料分類', status:'complete'},
+      {id:'podcast', label:'3', name:'Podcast', short:'聆聽錄音', status:'active'},
       {id:'data-file', label:'4', name:'Data File', short:'逐句取證', status:'locked'},
       {id:'writing', label:'5', name:'Writing', short:'三篇寫作', status:'locked'}
     ],
