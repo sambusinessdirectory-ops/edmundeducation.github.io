@@ -229,7 +229,6 @@
 
   const current = () => stepById.get(state.currentStepId) || steps[0];
   const completedCount = () => state.completedIds.length;
-  const maxUnlocked = () => Math.min(steps.length - 1, Math.max(-1, ...state.completedIds.map(id => stepById.get(id)?.index ?? -1)) + 1);
   const typeLabel = step => step.final ? 'Stage 1 · 完成檢查' : step.type === 1 ? 'Task A · 任務要求' : step.type === 2 ? 'Task B · 任務要求' : step.type === 3 ? 'Task C · 任務要求' : step.type === 4 ? '重要語氣／資格' : step.type === 6 ? '不寫入答案' : '來源／格式提示';
 
   function reveal(step) {
@@ -316,7 +315,6 @@
     jump.replaceChildren(...steps.map(item => {
       const option = make('option', '', `${item.index + 1}. ${item.title}`);
       option.value = item.id;
-      option.disabled = item.index > maxUnlocked();
       option.selected = item.id === step.id;
       return option;
     }));
@@ -411,7 +409,7 @@
   });
   $('#curation-step-jump').addEventListener('change', event => {
     const step = stepById.get(event.target.value);
-    if (step && step.index <= maxUnlocked()) setCurrent(step.index);
+    if (step) setCurrent(step.index);
   });
   $('#curation-bookmark-jump').addEventListener('change', event => {
     const step = stepById.get(event.target.value);
