@@ -9,8 +9,9 @@
 - Taught segment: source **6:28.20-16:20.02**; display **0:00.00-9:51.82** (591.82 seconds)
 - Format: MPEG Layer III, 96 kbps, 44.1 kHz, mono
 - SHA-256: `903f2353349166c2bd3fb0805376802a2cc217bcc00505014e78bbea0a2d0baa`
-- Transcript: window.EDMUND_DSE_LISTENING_2013_TRANSCRIPT.partB; supplied timed alignment; English; 154 aligned rows, partB[18]-partB[171]
-- Chinese transcript: **not available in the supplied 2013 sources**. The UI therefore exposes a disabled, explicitly labelled “中文未提供” control and does not invent a translation.
+- Transcript: window.EDMUND_DSE_LISTENING_2013_TRANSCRIPT.partB; supplied timed alignment; professional Hong Kong Traditional Chinese translation, one row per supplied English alignment; 154 aligned English rows, partB[18]-partB[171]
+- Traditional Chinese teaching layer: **154 complete Hong Kong Traditional Chinese rows**, keyed one-to-one to the supplied English alignment. It is clearly presented as a translation and never replaces the source English.
+- Point decisions: 39 usable-point rows and 115 non-point rows. A non-point receives a red strike only after its endpoint is crossed; rewind removes the strike.
 - Timing method: Supplied timed Part B transcript, checked against the original 2013 Part B MP3. Every cue is marked high-confidence and was exercised against the actual MP3 at 0.75x, 1x, 1.25x, 1.5x and 2x.
 
 ## Note-sheet fields
