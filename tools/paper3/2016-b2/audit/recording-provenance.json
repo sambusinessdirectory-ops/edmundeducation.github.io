@@ -2,6 +2,7 @@
   "asset": "public media relay (no duplicate Pages binary)",
   "exam": "2016 HKDSE English Language Paper 3 Part B",
   "sourceUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3",
+  "publicRelayUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3",
   "retrievedAt": "2026-11-23T00:00:00+08:00",
   "sha256": "1e32a9f8d57cc8a27c72edeead5cbb6c6be04cfee37e339d25a1c482d6c676de",
   "bytes": 9980375,
@@ -9,5 +10,5 @@
   "channels": 1,
   "sampleRateHz": 44100,
   "bitRateBps": 96007,
-  "note": "Exact complete Part B recording used by the 13-cue Stage 3 player; not a generated substitute. The Pages release pipeline rewrites the verified source URL to its permanent public-audio relay."
+  "note": "Exact complete Part B recording used by the 13-cue Stage 3 player; not a generated substitute. The player uses the permanent public-audio relay directly; the original worker URL remains recorded as provenance."
 }
