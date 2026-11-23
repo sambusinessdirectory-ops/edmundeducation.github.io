@@ -663,11 +663,12 @@
   const lesson = {
     version: '2016-b2-super-curation-stage1-v2',
     stage2Version: '2016-b2-super-curation-stage2-v1',
+    stage3Version: '2016-b2-super-curation-stage3-v1',
     storageKey: 'edmund-paper3-2016-b2-super-curation-stage1-v2',
     stages: [
       {id: 'instruction', label: '任務指示', enabled: true},
       {id: 'categorize', label: '資料分類', enabled: true},
-      {id: 'podcast', label: '聆聽錄音', enabled: false},
+      {id: 'podcast', label: '聆聽錄音', enabled: true},
       {id: 'data', label: '逐句取證', enabled: false},
       {id: 'writing', label: '三篇寫作', enabled: false}
     ],
