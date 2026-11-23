@@ -11,11 +11,11 @@
   <link rel="manifest" href="/pwa-manifests/daily-reading.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20261121-system-bundle1">
-  <link rel="stylesheet" href="/daily-reading/daily-reading.css?v=parking-meter-login-20261106-2">
+  <link rel="stylesheet" href="/daily-reading/daily-reading.css?v=reading-workbench-20261123-1">
   <script defer src="/pwa-register.js"></script>
   <script defer src="/supabase-config.js"></script>
   <script defer src="/shared-system-nav.js?v=20261121-system-bundle1"></script>
-  <script type="module" src="/daily-reading/daily-reading.mjs?v=parking-meter-login-20261106-2"></script>
+  <script type="module" src="/daily-reading/daily-reading.mjs?v=reading-workbench-20261123-1"></script>
   <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -80,13 +80,34 @@
 
     <section class="view exercise-view" data-view="exercise" hidden>
       <header class="exercise-hero">
-        <button class="back-button" type="button" data-back>← 返回文章目錄</button>
-        <p class="kicker">ARTICLE 01 · PUBLIC SERVICE DISRUPTION</p>
-        <h1>Software update triggers HK parking meter outage</h1>
-        <p>24 questions · 40 marks · Suggested time: 35–45 minutes</p>
+        <div class="exercise-hero__copy">
+          <button class="back-button" type="button" data-back>← 返回文章目錄</button>
+          <p class="kicker">ARTICLE 01 · PUBLIC SERVICE DISRUPTION</p>
+          <h1>Software update triggers HK parking meter outage</h1>
+          <p>24 questions · 40 marks · Suggested time: 35–45 minutes</p>
+        </div>
+        <div class="timer-card" data-timer-card>
+          <div class="timer-display"><span data-timer-mode-label>計時（選用）</span><time data-timer>00:00</time></div>
+          <button class="timer-toggle" type="button" data-timer-toggle>▶ 開始</button>
+          <label class="control-select"><span>模式</span><select data-timer-mode><option value="stopwatch">正計時</option><option value="countdown">40 分鐘倒數</option></select></label>
+        </div>
       </header>
 
-      <div class="exercise-layout">
+      <section class="practice-mode-panel" aria-label="練習模式">
+        <div><strong>試卷檢視方式</strong><p>文章與題目並排顯示；選擇題目時，相關段落會同步標示。</p></div>
+        <span>雙欄練習</span>
+      </section>
+
+      <section class="exercise-toolbar" aria-label="答題進度及分部導覽">
+        <div class="progress-summary">
+          <div class="score-ring" data-score-ring><strong data-score>0</strong><span>/ 40</span></div>
+          <div class="progress-copy"><strong>答題進度</strong><p data-progress-text>尚未檢查答案</p><div class="progress-track"><i data-progress-bar></i></div></div>
+        </div>
+        <nav data-section-nav aria-label="題目分部"></nav>
+        <button class="secondary-button" type="button" data-reset>清除本篇答案</button>
+      </section>
+
+      <div class="exercise-layout reading-workbench">
         <article class="passage-panel" aria-labelledby="passage-title">
           <div class="passage-image"><img src="/daily-reading/parking-meter-article.png" alt="香港路旁停車收費錶；新聞原圖及文章截圖"><span>The system resumed normal operations at 12.15pm. Photo: RTHK</span></div>
           <div class="passage-copy">
@@ -96,15 +117,6 @@
             <div data-passage></div>
           </div>
         </article>
-
-        <aside class="progress-panel">
-          <p class="panel-label">YOUR PROGRESS</p>
-          <div class="score-ring" data-score-ring><strong data-score>0</strong><span>/ 40</span></div>
-          <p data-progress-text>尚未檢查答案</p>
-          <div class="progress-track"><i data-progress-bar></i></div>
-          <nav data-section-nav aria-label="題目分部"></nav>
-          <button class="secondary-button" type="button" data-reset>清除本篇答案</button>
-        </aside>
 
         <section class="questions-panel" aria-labelledby="questions-title">
           <div class="questions-heading"><div><p class="panel-label">HKDSE-STYLE PRACTICE</p><h2 id="questions-title">閱讀理解練習</h2></div><p>請根據文章作答。每題按「檢查答案」後才會顯示參考答案與解釋。</p></div>

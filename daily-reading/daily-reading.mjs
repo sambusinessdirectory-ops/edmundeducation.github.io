@@ -95,6 +95,26 @@ const questions = [
 
 const state = {user:null,token:'',checked:new Set(),scores:new Map()};
 const views = Object.fromEntries($$('[data-view]').map(view => [view.dataset.view,view]));
+let timerInterval=null,timerRunning=false,timerSeconds=0;
+
+function formatTime(seconds){const safe=Math.max(0,seconds),minutes=Math.floor(safe/60),remaining=safe%60;return `${String(minutes).padStart(2,'0')}:${String(remaining).padStart(2,'0')}`;}
+function timerMode(){return $('[data-timer-mode]').value;}
+function renderTimer(){
+  $('[data-timer]').textContent=formatTime(timerSeconds);
+  $('[data-timer-mode-label]').textContent=timerMode()==='countdown'?'40 分鐘倒數':'計時（選用）';
+  const button=$('[data-timer-toggle]');button.textContent=timerRunning?'Ⅱ 暫停':'▶ 開始';button.classList.toggle('is-running',timerRunning);
+}
+function stopTimer(){timerRunning=false;if(timerInterval){clearInterval(timerInterval);timerInterval=null;}renderTimer();}
+function resetTimer(){stopTimer();timerSeconds=timerMode()==='countdown'?40*60:0;renderTimer();}
+function toggleTimer(){
+  if(timerRunning){stopTimer();return;}
+  if(timerMode()==='countdown'&&timerSeconds<=0)timerSeconds=40*60;
+  timerRunning=true;renderTimer();timerInterval=setInterval(()=>{
+    timerSeconds+=timerMode()==='countdown'?-1:1;
+    if(timerMode()==='countdown'&&timerSeconds<=0){timerSeconds=0;stopTimer();return;}
+    renderTimer();
+  },1000);
+}
 
 function showView(name){
   Object.entries(views).forEach(([id,view])=>{view.hidden=id!==name;});
@@ -218,6 +238,7 @@ $('[data-login-form]').onsubmit=async event=>{
 };
 $('[data-password-toggle]').onclick=event=>{const input=$('[name="password"]'),show=input.type==='password';input.type=show?'text':'password';event.currentTarget.textContent=show?'隱藏':'顯示';event.currentTarget.setAttribute('aria-pressed',String(show));};
 $('[data-open-article]').onclick=()=>{showView('exercise');restoreDraft();window.scrollTo({top:0,behavior:'smooth'});};
-$('[data-back]').onclick=$('[data-library-home]').onclick=()=>{showView('library');window.scrollTo({top:0,behavior:'smooth'});};
+$('[data-back]').onclick=$('[data-library-home]').onclick=()=>{stopTimer();showView('library');window.scrollTo({top:0,behavior:'smooth'});};
+$('[data-timer-toggle]').onclick=toggleTimer;$('[data-timer-mode]').onchange=resetTimer;resetTimer();
 $('[data-logout]').onclick=forget;$('[data-reset]').onclick=resetDraft;$('[data-finish]').onclick=finish;
 restore().catch(error=>{forget();$('[data-login-status]').textContent=error?.message||'登入時段已失效，請重新登入。';$('[data-login-form]').dataset.loginFeedback='error';});
