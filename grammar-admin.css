@@ -9,3 +9,99 @@
 .grammar-admin__answer p{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.85;margin:0}
 .grammar-admin__pagination{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .grammar-admin__pagination button:disabled{opacity:.45;cursor:default}
+
+/* Expanded administrator answer library */
+.grammar-admin[hidden],.grammar-admin [hidden]{display:none!important}
+.grammar-admin{width:min(100% - 28px,1360px);padding-block:clamp(24px,5vw,72px)}
+.grammar-admin>.panel{padding:clamp(22px,4vw,48px);border-radius:28px}
+.grammar-admin__gate{max-width:920px;margin-inline:auto}
+.grammar-admin__gate .grammar-admin__head>div>p:last-child{max-width:620px;color:var(--portal-muted);font-weight:650}
+.grammar-admin__login{margin-top:34px;padding:clamp(20px,3vw,30px);border:1px solid #d6e1ee;border-radius:20px;background:linear-gradient(145deg,#f8fbff,#f2f6fc);box-shadow:0 16px 36px rgba(29,58,94,.08)}
+.grammar-admin__login input:not([type=checkbox]),
+.grammar-admin__review-tools input,
+.grammar-admin__review-tools select{box-sizing:border-box;width:100%;min-height:48px;padding:11px 15px;border:1px solid #aebed2;border-radius:13px;background:#fff;color:#172d49;font:inherit;box-shadow:0 5px 15px rgba(30,61,99,.05)}
+.grammar-admin__login input:focus,
+.grammar-admin__review-tools input:focus,
+.grammar-admin__review-tools select:focus{border-color:#3974b7;outline:3px solid rgba(57,116,183,.18);outline-offset:1px}
+.grammar-admin__library{overflow:hidden}
+.grammar-admin__library-head{display:flex;align-items:flex-start;justify-content:space-between;gap:28px;flex-wrap:wrap}
+.grammar-admin__library-head h1,.grammar-admin__review-hero h1{margin:0;font:900 clamp(30px,4.2vw,50px)/1.12 Georgia,"Noto Serif TC Local",serif;color:#1c3554}
+.grammar-admin__library-head>div>p:not(.eyebrow):not(.grammar-admin__signed-in){max-width:720px;margin:12px 0 0;color:var(--portal-muted);font-weight:650}
+.grammar-admin__signed-in{display:inline-flex;margin:17px 0 0;padding:8px 13px;border:1px solid #b9d8cc;border-radius:999px;background:#edf8f3;color:#21634f;font-weight:800}
+.grammar-admin__head-actions{display:flex;gap:10px;flex-wrap:wrap}
+.grammar-admin__notice{display:flex;align-items:center;gap:12px;margin:28px 0 4px;padding:14px 18px;border:1px solid #c8daed;border-radius:16px;background:#f0f6fc;color:#31516f}
+.grammar-admin__notice strong{flex:0 0 auto;padding:5px 9px;border-radius:999px;background:#d9e9f8;color:#174e82;font-size:13px;letter-spacing:.04em}
+.grammar-admin__notice span{font-weight:650}
+.grammar-admin__modules{display:grid;gap:0}
+.grammar-admin__module-card{margin-top:26px;scroll-margin-top:24px}
+.grammar-admin__module-card .grammar-lesson-card__copy p:last-child{max-width:720px}
+.grammar-admin__module-action{grid-template-columns:1fr!important;min-width:min(260px,100%)}
+.grammar-admin__module-action>div{padding:2px 3px 5px}
+.grammar-admin__module-action>div strong{font-size:38px}
+.grammar-admin__module-action>div span{font-size:12px;letter-spacing:.04em}
+.grammar-admin__module-action button{grid-column:1!important}
+
+.grammar-admin__review{padding:0!important;overflow:hidden;background:#f4f7fb!important}
+.grammar-admin__review-hero{padding:clamp(28px,5vw,56px);background:radial-gradient(circle at 91% 5%,rgba(132,181,237,.42),transparent 33%),linear-gradient(135deg,#183f72,#242f62);color:#fff}
+.grammar-admin__review-nav{display:flex;justify-content:space-between;gap:12px;margin-bottom:clamp(42px,7vw,78px);flex-wrap:wrap}
+.grammar-admin__review-nav .grammar-button--ghost{border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.1);color:#fff}
+.grammar-admin__review-hero .eyebrow{color:#a8d5ff}
+.grammar-admin__review-hero h1{color:#fff;font-size:clamp(36px,5.5vw,64px)}
+.grammar-admin__review-hero>p:last-child{max-width:760px;margin:14px 0 0;color:rgba(255,255,255,.78);font-size:18px;font-weight:700}
+.grammar-admin__review-tools{position:sticky;z-index:10;top:10px;display:grid;grid-template-columns:minmax(240px,1fr) minmax(180px,280px) auto;gap:14px;align-items:end;margin:clamp(18px,3vw,34px);padding:18px;border:1px solid #cad8e8;border-radius:20px;background:rgba(255,255,255,.94);box-shadow:0 16px 38px rgba(26,56,91,.14);backdrop-filter:blur(14px)}
+.grammar-admin__review-tools label{display:grid;gap:7px;color:#294867;font-size:14px;font-weight:800}
+.grammar-admin__review-tools select{padding-right:42px;background-image:linear-gradient(45deg,transparent 50%,#31577e 50%),linear-gradient(135deg,#31577e 50%,transparent 50%);background-position:calc(100% - 18px) 21px,calc(100% - 12px) 21px;background-size:6px 6px,6px 6px;background-repeat:no-repeat;appearance:none}
+.grammar-admin__exports{display:flex;gap:8px;flex-wrap:wrap}
+.grammar-admin__review-tools>[data-answer-count]{grid-column:1/-1;margin:0;color:#4a6179;font-size:14px;font-weight:750}
+.grammar-admin__review-tools>[data-review-status]{grid-column:1/-1;min-height:0;margin:0;color:#23664f;font-size:14px;font-weight:800}
+.grammar-admin__expanded-note{display:flex;align-items:center;gap:12px;margin:0 clamp(18px,3vw,34px) 18px;padding:13px 17px;border:1px solid #b9ddce;border-radius:15px;background:#edf8f3;color:#245d4b}
+.grammar-admin__expanded-note strong{padding:4px 9px;border-radius:999px;background:#d5eee3;font-size:13px;letter-spacing:.05em}
+.grammar-admin__expanded-note span{font-weight:650}
+.grammar-admin__results{display:grid;gap:24px;padding:0 clamp(18px,3vw,34px) 36px}
+.grammar-admin__question{scroll-margin-top:190px;overflow:hidden;border:1px solid #ccd9e7;border-radius:24px;background:#fff;box-shadow:0 16px 38px rgba(25,54,88,.09)}
+.grammar-admin__question-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:18px clamp(18px,3vw,30px);border-bottom:1px solid #dce5ef;background:linear-gradient(135deg,#f5f9fd,#edf4fb)}
+.grammar-admin__question-number{padding:7px 12px;border-radius:999px;background:#214f86;color:#fff;font-size:14px;font-weight:850;letter-spacing:.03em}
+.grammar-admin__question-section{color:#375878;font-weight:800}
+.grammar-admin__expanded-badge{margin-left:auto;padding:6px 10px;border:1px solid #b7ddca;border-radius:999px;background:#e9f7f0;color:#1e6b50;font-size:12px;font-weight:850}
+.grammar-admin__instruction,.grammar-admin__context{margin:clamp(18px,3vw,30px) clamp(18px,3vw,34px) 0;padding:15px 18px;border-radius:15px;background:#eef4fb;color:#294969}
+.grammar-admin__instruction strong,.grammar-admin__context>span{display:block;margin-bottom:5px;color:#1d568f;font-size:13px;font-weight:850;letter-spacing:.05em}
+.grammar-admin__instruction p,.grammar-admin__context p{margin:0;white-space:pre-wrap;line-height:1.65}
+.grammar-admin__prompt{margin:clamp(22px,3vw,34px) clamp(18px,3vw,34px) 8px;color:#172b45;font:800 clamp(20px,2.5vw,27px)/1.5 Georgia,"Noto Serif TC Local",serif;white-space:pre-wrap}
+.grammar-admin__translation{margin:8px clamp(18px,3vw,34px) 20px;color:#61758a;font-size:17px;line-height:1.7;white-space:pre-wrap}
+.grammar-admin__options{display:grid;gap:9px;margin:0 clamp(18px,3vw,34px) 24px;padding:0;list-style:none}
+.grammar-admin__options li{padding:11px 15px;border:1px solid #d7e1eb;border-radius:12px;background:#f9fbfd;color:#334d68}
+.grammar-admin__options strong{color:#1d568f}
+.grammar-admin__reference-answer{display:grid;gap:8px;margin:0 clamp(18px,3vw,34px) clamp(22px,3vw,32px);padding:20px clamp(18px,3vw,26px);border:1px solid #a9d8c4;border-left:6px solid #2d8b68;border-radius:18px;background:linear-gradient(145deg,#effaf5,#e7f6ef);color:#174d3a}
+.grammar-admin__reference-answer>span{font-size:12px;font-weight:900;letter-spacing:.1em}
+.grammar-admin__reference-answer>strong{font:900 clamp(21px,2.5vw,29px)/1.45 Georgia,"Noto Serif TC Local",serif;white-space:pre-wrap}
+.grammar-admin__reference-answer>p{margin:0;padding-top:8px;border-top:1px solid #c6e5d8;white-space:pre-wrap;line-height:1.7}
+.grammar-admin__steps{padding:clamp(22px,4vw,38px);border-top:1px solid #d9e4ef;background:#fbfcfe}
+.grammar-admin__steps-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:20px;flex-wrap:wrap}
+.grammar-admin__steps-head>span{color:#2c6da9;font-size:12px;font-weight:900;letter-spacing:.14em}
+.grammar-admin__steps-head h3{margin:0;color:#1c3c60;font:850 clamp(23px,3vw,31px)/1.25 Georgia,"Noto Serif TC Local",serif}
+.grammar-admin__steps ol{display:grid;gap:14px;margin:0;padding:0;list-style:none;counter-reset:admin-step}
+.grammar-admin__steps li{position:relative;padding:18px 18px 18px 62px;border:1px solid #d7e2ed;border-radius:16px;background:#fff;counter-increment:admin-step}
+.grammar-admin__steps li::before{position:absolute;top:17px;left:17px;display:grid;width:31px;height:31px;place-items:center;border-radius:50%;background:#dceaf8;color:#1e5b92;content:counter(admin-step);font-size:14px;font-weight:900}
+.grammar-admin__steps h4{margin:0 0 8px;color:#204e7c;font-size:18px;line-height:1.45}
+.grammar-admin__steps p{margin:0;color:#354b61;line-height:1.8;white-space:pre-wrap}
+.grammar-admin__empty{margin:24px clamp(18px,3vw,34px);padding:30px;border:1px dashed #9eb2c8;border-radius:18px;background:#fff;text-align:center;color:#536b83;font-weight:750}
+.grammar-admin__back-to-top{display:block;margin:0 auto 38px}
+
+@media(max-width:840px){
+  .grammar-admin{width:min(100% - 16px,1360px);padding-block:16px}
+  .grammar-admin>.panel{padding:20px;border-radius:20px}
+  .grammar-admin__review{padding:0!important}
+  .grammar-admin__library-head,.grammar-admin__head{align-items:stretch}
+  .grammar-admin__head-actions,.grammar-admin__head-actions button{width:100%}
+  .grammar-admin__module-card{grid-template-columns:1fr;padding:24px}
+  .grammar-admin__module-action{width:100%}
+  .grammar-admin__review-tools{position:relative;top:auto;grid-template-columns:1fr;margin:14px;padding:14px}
+  .grammar-admin__review-tools>[data-answer-count]{grid-column:auto}
+  .grammar-admin__exports,.grammar-admin__exports button{width:100%}
+  .grammar-admin__expanded-note{align-items:flex-start;margin-inline:14px}
+  .grammar-admin__results{padding-inline:14px}
+  .grammar-admin__question{scroll-margin-top:18px;border-radius:18px}
+  .grammar-admin__expanded-badge{width:100%;margin-left:0;text-align:center}
+  .grammar-admin__steps li{padding:56px 16px 17px}
+  .grammar-admin__steps li::before{top:15px;left:16px}
+}
