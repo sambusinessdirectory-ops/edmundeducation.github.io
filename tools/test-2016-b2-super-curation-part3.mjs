@@ -2,18 +2,20 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
+import zlib from 'node:zlib';
 import {fileURLToPath} from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 const transcriptPath = path.join(root, 'dse-listening-2016-transcript.js');
-const dataPath = path.join(root, 'paper3/2016-b2/super-curation-stage3-data.js');
-const provenance = JSON.parse(read('paper3/2016-b2/recording-provenance.json'));
+const dataPath = path.join(root, 'tools/paper3/2016-b2/source/super-curation-stage3-data.js');
+const provenance = JSON.parse(read('tools/paper3/2016-b2/audit/recording-provenance.json'));
 const sandbox = {window: {}};
 vm.runInNewContext(fs.readFileSync(transcriptPath, 'utf8'), sandbox, {filename: transcriptPath});
 vm.runInNewContext(fs.readFileSync(dataPath, 'utf8'), sandbox, {filename: dataPath});
 const data = sandbox.window.EDMUND_2016_B2_STAGE3;
-const controller = read('paper3/2016-b2/super-curation-stage3.js');
+const controller = read('tools/paper3/2016-b2/source/super-curation-stage3.js');
+const loader = read('paper3/2016-b2/super-curation-stage3-loader.js');
 const css = read('paper3/2016-b2/super-curation.css');
 const html = read('paper3/2016-b2/index.html');
 
@@ -53,8 +55,8 @@ assert.equal(data.transcript.some(turn => turn.text.includes('Indy Wong')), true
 assert.equal(data.transcript.some(turn => turn.sourceText.includes('Indi Wong')), true);
 assert.deepEqual(Array.from(data.cues.find(cue => cue.id === 'plough-qualified-uniqueness').rejectedTranscriptIndexes), [39,40]);
 
-assert.equal(data.audio.src, data.audio.sourceUrl);
 assert.equal(provenance.sourceUrl, data.audio.sourceUrl);
+assert.equal(provenance.publicRelayUrl, data.audio.src);
 assert.equal(provenance.sha256, data.audio.sha256);
 assert.equal(provenance.durationSeconds, 831.63);
 assert.equal(provenance.bytes, 9980375);
@@ -66,6 +68,8 @@ assert.match(controller, /typingCueId = cue\.id/);
 assert.match(controller, /customizedCueIds/);
 assert.match(controller, /curation-transcript-inline-task/);
 assert.match(controller, /\['nw','ne','sw','se'\]/);
+assert.match(loader, /DecompressionStream\('gzip'\)/);
+assert.match(loader, /stage3-runtime\.js\.gz/);
 assert.doesNotMatch(controller, /你會先標哪個任務/);
 assert.doesNotMatch(controller, /\?['"]\s*;\s*\/\/.*podcast/i);
 assert.match(css, /curation-stage3-heading-task-A/);
@@ -77,16 +81,18 @@ assert.match(html, /Listening note-taking sheet for podcast <em>Nosing Around<\/
 assert.doesNotMatch(html, /Listening note-taking sheet for podcast <em>Nosing Around<\/em>\s*\?/);
 const scriptOrder = [
   '/dse-listening-2016-transcript.js',
-  '/paper3/2016-b2/super-curation-stage3-data.js',
-  '/paper3/2016-b2/super-curation-stage3.js'
+  '/paper3/2016-b2/super-curation-stage3-loader.js'
 ].map(src => html.indexOf(src));
 assert.equal(scriptOrder.every(index => index >= 0), true);
-assert.equal(scriptOrder[0] < scriptOrder[1] && scriptOrder[1] < scriptOrder[2], true);
+assert.equal(scriptOrder[0] < scriptOrder[1], true);
+const runtime = zlib.gunzipSync(fs.readFileSync(path.join(root, 'paper3/2016-b2/stage3-runtime.js.gz'))).toString('utf8');
+assert.match(runtime, /2016-b2-super-curation-stage3-v1/);
+assert.match(runtime, /EDMUND_2016_B2_CURATION_STAGE3_DEBUG/);
 for (const file of [
-  'paper3/2016-b2/recording-provenance.json',
-  'docs/paper3/2016_B2_PART3_CUE_LEDGER.md',
-  'docs/paper3/2016_B2_PART3_SOURCE_INVENTORY.md',
-  'docs/paper3/2016_B2_PART3_IMPLEMENTATION_REPORT.md'
+  'tools/paper3/2016-b2/audit/recording-provenance.json',
+  'tools/paper3/2016-b2/docs/CUE_LEDGER.md',
+  'tools/paper3/2016-b2/docs/SOURCE_INVENTORY.md',
+  'tools/paper3/2016-b2/docs/IMPLEMENTATION_REPORT.md'
 ]) assert.equal(fs.existsSync(path.join(root, file)), true, `${file} must exist`);
 
 console.log('2016 B2 Super Curation Stage 3 static contract: PASS');

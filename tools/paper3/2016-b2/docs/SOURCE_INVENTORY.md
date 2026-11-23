@@ -3,7 +3,7 @@
 ## Exam sources
 
 - Existing 2016 Data File reconstruction, page 3: the four authentic note fields are reused in place.
-- Complete 2016 Part B MP3: the verified source URL is rewritten by the Pages release pipeline to the permanent public-audio relay, avoiding a duplicate 9.98 MB Pages binary.
+- Complete 2016 Part B MP3: the player uses the verified permanent public-audio relay directly, avoiding a duplicate 9.98 MB Pages binary; the original worker URL remains in the provenance record.
 - Existing timed transcript: `dse-listening-2016-transcript.js`, 44 turns from 0:00 to 13:50.86.
 - 2016 line-by-line Factline analysis: used to distinguish Task A/B evidence from listening-only notes and rejected noise.
 

@@ -10,6 +10,7 @@
 - Movable, four-corner-resizable 44-turn transcript with Chinese toggle, source-name normalisation, exact selective Task A/B phrase colouring, and red Type 6 strike-throughs.
 - Task evidence bank contains only heard Task A/B evidence. Six listening-only cue notes remain in the native sheet but never enter A/B/C.
 - Stage 1 annotations remain visible in Stage 3; Stage 2 can be entered directly; every Stage 3 step is directly selectable; Stages 4 and 5 remain disabled.
+- The readable data/controller sources stay versioned under `tools/paper3/2016-b2/source/`; Pages publishes a deterministic gzip runtime plus a tested loader, keeping the full-site artifact within its fixed size budget without removing functionality.
 
 ## Deliberate exclusions
 
