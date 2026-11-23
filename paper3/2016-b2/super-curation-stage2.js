@@ -296,7 +296,7 @@
     $('#curation-bookmark').setAttribute('aria-pressed', String(state.bookmarks.includes(step.id)));
     $('#curation-bookmark-count').textContent = state.bookmarks.length ? `${state.bookmarks.length} 個書籤` : '尚無書籤';
     $('#curation-spotlight').checked = state.spotlight;
-    persist(state.complete ? 'Stage 2 已完成；Stage 3–5 保持鎖定。' : undefined);
+    persist(state.complete ? 'Stage 2 已完成；Stage 3 可直接進入，Stage 4–5 保持未開放。' : undefined);
     if (focus && step.target) step.target.scrollIntoView({block: 'center', inline: 'nearest', behavior: 'auto'});
     requestAnimationFrame(() => requestAnimationFrame(renderSpotlight));
   }
@@ -307,6 +307,7 @@
   }
 
   function enterStage2() {
+    window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG?.leave();
     savedPart1Spotlight = part1Spotlight();
     part1.setSpotlight(false);
     state.active = true;
