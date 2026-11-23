@@ -2,6 +2,7 @@
 import os
 from pathlib import Path
 import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -10,6 +11,25 @@ SCRIPT = Path(__file__).with_name("pages-artifact-inventory.py")
 
 
 class ArtifactInventoryTests(unittest.TestCase):
+    def test_removes_generated_editorial_ledgers(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            runtime = root / "index.html"
+            runtime.write_text("student runtime", encoding="utf-8")
+            inputs = [
+                root / "course-materials" / "theme-finder" / "classification-audit.json",
+                root / "course-materials" / "theme-finder" / "review.tsv",
+                root / "content" / "idiom-super-curation-item-review-ledger-001-108.csv",
+            ]
+            for item in inputs:
+                item.parent.mkdir(parents=True, exist_ok=True)
+                item.write_text("editorial input", encoding="utf-8")
+
+            subprocess.run([sys.executable, str(SCRIPT), str(root)], check=True, capture_output=True, text=True)
+
+            self.assertTrue(runtime.exists())
+            self.assertTrue(all(not item.exists() for item in inputs))
+
     def setUp(self):
         work = tempfile.TemporaryDirectory()
         self.addCleanup(work.cleanup)
