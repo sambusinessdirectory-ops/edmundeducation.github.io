@@ -36,8 +36,15 @@ const server = http.createServer((request,response)=>{
       }
       await page.locator('[name=username]').fill('learner');await page.locator('[name=password]').fill('secret');await page.locator('[data-login-button]').click();
       await page.locator('[data-view=library]').waitFor({state:'visible'});assert.equal(await page.locator('[data-view=login]').isVisible(),false);assert.match(await page.locator('[data-welcome]').innerText(),/Learner/);assert.deepEqual(errors,[]);
+      await page.locator('[data-open-article]').click();await page.locator('[data-view=exercise]').waitFor({state:'visible'});
+      assert.equal(await page.locator('.reading-workbench .passage-panel').isVisible(),true);assert.equal(await page.locator('.reading-workbench .questions-panel').isVisible(),true);
+      assert.equal(await page.locator('.exercise-layout').evaluate(node=>getComputedStyle(node).gridTemplateColumns.split(' ').length>=2),true);
+      await page.locator('[data-timer-toggle]').click();await page.waitForTimeout(1100);assert.match(await page.locator('[data-timer]').innerText(),/^00:0[1-2]$/);
+      await page.locator('[data-timer-toggle]').click();assert.match(await page.locator('[data-timer-toggle]').innerText(),/開始/);
+      if(process.env.DAILY_READING_SCREENSHOT&&!storageBlocked)await page.screenshot({path:process.env.DAILY_READING_SCREENSHOT,fullPage:true});
+      await page.setViewportSize({width:390,height:844});assert.equal(await page.locator('.exercise-layout').evaluate(node=>getComputedStyle(node).gridTemplateColumns.split(' ').length),1);
       await context.close();
     }
-    console.log('PASS: Daily Reading login reports failures and opens the library even when browser/shared session storage is unavailable.');
+    console.log('PASS: Daily Reading login reports failures and opens the Reading Comprehension-style exercise workbench even when browser/shared session storage is unavailable.');
   } finally {await browser.close();server.close();}
 })().catch(error=>{console.error(error);server.close();process.exitCode=1;});

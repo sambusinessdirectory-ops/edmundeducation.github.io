@@ -15,6 +15,9 @@ assert.match(html,/data-system="daily-reading"/);
 assert.match(html,/data-view="login"/);
 assert.match(html,/data-view="library" hidden/);
 assert.match(html,/data-view="exercise" hidden/);
+assert.match(html,/class="exercise-layout reading-workbench"/);
+assert.match(html,/class="timer-card" data-timer-card/);
+assert.match(html,/class="exercise-toolbar"/);
 assert.match(html,/flashcard_student_login|daily-reading\.mjs/);
 assert.match(runtime,/flashcard_student_login/);
 assert.match(runtime,/flashcard_student_session_profile/);
@@ -37,12 +40,12 @@ assert.equal(questionRows.reduce((sum,match)=>sum+Number(match[3]),0),40,'questi
 for(const operation of ["type:'choice'","type:'select'","type:'multi'","type:'text'","type:'textarea'"])assert.match(runtime,new RegExp(operation));
 for(const phrase of ['True (T), False (F), or Not Given (NG)','back-end software fault','Digital Policy Office','12.15pm','Factual and cautious'])assert.match(runtime,new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
 
-assert.match(homepage,/data-system-card-deck-position>01 \/ 83</);
-assert.match(homepage,/data-system-card-deck-last[^>]*>83<\/button>/);
+assert.match(homepage,/data-system-card-deck-position>01 \/ 93</);
+assert.match(homepage,/data-system-card-deck-last[^>]*>93<\/button>/);
 assert.match(homepage,/href="news-reader\.html"[^>]*aria-label="日常聆聽系統 Daily Listening Practice"/);
 assert.match(homepage,/href="daily-reading\.html"[^>]*aria-label="日常閱讀理解系統 Daily Reading Comprehension"/);
 assert.match(nav,/id: "news-reader"[^\n]+zh: "日常聆聽系統"[^\n]+homepageCard: 82/);
-assert.match(nav,/id: "daily-reading"[^\n]+homepageCard: 83/);
+assert.match(nav,/id: "daily-reading"[^\n]+homepageCard: 84/);
 assert.match(sitemap,/https:\/\/edmundeducation\.com\/daily-reading\.html/);
 
 const parsed=JSON.parse(manifest);
@@ -53,4 +56,7 @@ assert.ok((await stat(new URL('daily-reading/parking-meter-article.png',root))).
 assert.equal(createHash('sha256').update(image).digest('hex'),'d5c328e029031a62ad42f85ecdf5a7c09a0e11e874feba7f57f49eca4d6b0583','thumbnail must remain byte-identical to the supplied screenshot');
 assert.match(css,/\[hidden\]\{display:none!important\}/,'author display rules must not override hidden views');
 assert.match(css,/\.article-card/);assert.match(css,/\.question-card\.is-correct/);assert.match(css,/@media\(max-width:640px\)/);
-console.log('Daily Reading portal contract passed: 24 questions, 40 marks, Card 83, student login, article thumbnail and PWA metadata.');
+assert.match(css,/\.exercise-layout\.reading-workbench\{display:grid;grid-template-columns:/);
+assert.match(css,/\.reading-workbench \.questions-panel\{position:sticky;/);
+assert.match(runtime,/function toggleTimer\(\)/);
+console.log('Daily Reading portal contract passed: 24 questions, 40 marks, Card 84, student login, article thumbnail and PWA metadata.');
