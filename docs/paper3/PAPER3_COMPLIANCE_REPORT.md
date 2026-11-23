@@ -2,7 +2,7 @@
 
 ## 2013 B2 Super Curation — Part 3 / Podcast
 
-- Release: `2013-b2-stage3-v2`
+- Release: `2013-b2-stage3-v2.1-layout-fix`
 - Scope: preserved 52-step Part 1, preserved 14-step Part 2, and 185 Stage 3 steps (one orientation, 28 audio cues, one review orientation, 154 transcript rows and one completion step)
 - Status: verified locally at 1800 × 1100 in Chromium and smoke-tested in Firefox
 - Access: Stages 1–3 and every stable step are independently selectable; access and completion are separate states
@@ -23,12 +23,13 @@ The authoritative MP3 is 981.169456 seconds, 96 kbps, 44.1 kHz mono, SHA-256 `90
 | V7-STATE-01 | Schema 5 persists stable Stage 3 IDs, completion, heard/generated cues, transcript reviews, Chinese visibility, preferences, bookmarks and bounded currentTime | beginning/middle/final reloads, no autoplay, deterministic forward/back seek reconciliation, prior-version migration |
 | V7-ROUTE-01 / V7-BOSS-01 | Cue destination records focus only the authentic page-3 field; task decisions remain A/C or listening-only | all 28 field mappings, no Stage 4 evidence or Stage 5 writing disclosure |
 | V7-A11Y-01 | Named player/transcript/translation controls, keyboard buttons, complete visible English transcript, textual playback state, no focus trap | production DOM journey and Firefox smoke |
-| V7-MOTION-01 | Endpoint-driven semantic marks, reversible red strikes, follow mode, explicit review targeting, movable/resizable transcript and reduced-motion fallbacks | forward/back scrub, free-scroll/follow, focus, drag, resize, reset and reduced-motion CSS checks |
+| V7-MOTION-01 | Endpoint-driven semantic marks, reversible red strikes, container-only transcript follow, explicit review targeting, movable/resizable transcript and reduced-motion fallbacks | forward/back scrub, free-scroll/follow without paper scroll, focus, drag, resize, reset and reduced-motion CSS checks |
+| V7-RESP-01 / V7-TRANS-04 | Fixed-position player/transcript ownership, document-scroll exclusion for podcast chrome, viewport re-clamping and explicit reset | exact reported 2010×1374 final-cue regression with spotlight off; player below rail/right of dock; page 3 and transcript remain visible |
 | V7-TEST-01 / TEST-02 | Production asset tests exercise the authentic remote MP3 | 28-cue journey, 140-run speed matrix, Stage 1/2 regression and unchanged 2025 smoke |
 
 ### Verification record
 
-Passed: JavaScript syntax; 185 unique stable steps; 28 cue boundaries; 154 always-visible English transcript rows; 154/154 Traditional Chinese translations; 39 point and 115 non-point decisions; all 28 cues at 0.75x, 1x, 1.25x, 1.5x and 2x; normal Play versus explicit Replay; manual pause/resume; deterministic forward/back seeking; reversible transcript strikes; repeated replay deduplication; Previous during playback; cue-gated Next; beginning/middle/final reload; translation preference restore; transcript free scroll and explicit row targeting; drag/resize/reset; spotlight on/off and persisted-off; one player/transcript after re-entry; recording close; console-error audit; Firefox structure and real-audio cue; 52-step Stage 1 regression; 14-step Stage 2 regression; unchanged 2025 smoke mount; twelve 1800×1100 Stage 3 screenshots.
+Passed: JavaScript syntax; 185 unique stable steps; 28 cue boundaries; 154 always-visible English transcript rows; 154/154 Traditional Chinese translations; 39 point and 115 non-point decisions; all 28 cues at 0.75x, 1x, 1.25x, 1.5x and 2x; normal Play versus explicit Replay; manual pause/resume; deterministic forward/back seeking; reversible transcript strikes; repeated replay deduplication; Previous during playback; cue-gated Next; beginning/middle/final reload; translation preference restore; transcript free scroll and explicit row targeting without moving the paper; drag/resize/reset; exact 2010×1374 fixed-player/page-3 alignment; spotlight on/off and persisted-off; one player/transcript after re-entry; recording close; console-error audit; Firefox structure and real-audio cue; 52-step Stage 1 regression; 14-step Stage 2 regression; unchanged 2025 smoke mount; twelve 1800×1100 journey screenshots plus one 2010×1374 layout-regression screenshot.
 
 See `2013_B2_STAGE3_CUE_LEDGER.md`, `2013_B2_STAGE3_SOURCE_MAPPING.md` and `2013_B2_STAGE3_IMPLEMENTATION_REPORT.md` for the complete release evidence.
 

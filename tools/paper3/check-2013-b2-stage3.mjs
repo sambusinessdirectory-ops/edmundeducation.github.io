@@ -71,6 +71,47 @@ await page.waitForFunction(() => window.__EDMUND_2013_SUPER_CURATION__?.podcastS
 assert.equal(await page.locator('.curation-transcript-translation-copy:visible').count(), 154);
 await page.locator('.curation-transcript-translation').click();
 
+// Regression for the reported 2010x1374 failure: selecting the final audio
+// cue must not turn the fixed player into a document-flow section, scroll the
+// reader to page 17, or detach the transcript from the page-3 note sheet.
+await page.setViewportSize({width:2010, height:1374});
+await page.evaluate(() => document.querySelector('#page-3').scrollIntoView({block:'start'}));
+await page.waitForTimeout(950);
+await page.evaluate(id => window.__EDMUND_2013_SUPER_CURATION__.goToId(`podcast-cue-${id}`), inventory.cueIds.at(-1));
+await page.locator('.curation-player-seek').evaluate((node, value) => {
+  node.value = String(value);
+  node.dispatchEvent(new Event('input', {bubbles:true}));
+}, 591.82);
+await page.waitForTimeout(950);
+const fixedLayout = await page.evaluate(() => {
+  const rect = selector => document.querySelector(selector).getBoundingClientRect();
+  return {
+    playerPosition:getComputedStyle(document.querySelector('#curation-podcast-player')).position,
+    player:rect('#curation-podcast-player'),
+    stage:rect('#curation-stage'),
+    dock:rect('#curation-dock'),
+    transcript:rect('#curation-transcript-window'),
+    paper:rect('#page-3'),
+    viewport:{width:innerWidth, height:innerHeight}
+  };
+});
+assert.equal(fixedLayout.playerPosition, 'fixed');
+assert.ok(fixedLayout.player.top >= fixedLayout.stage.bottom, 'player must remain below the stage rail');
+assert.ok(fixedLayout.player.left >= fixedLayout.dock.right, 'player must remain to the right of the teaching dock');
+assert.ok(fixedLayout.player.bottom <= fixedLayout.transcript.top, 'player and transcript must not overlap');
+assert.ok(fixedLayout.paper.top < fixedLayout.viewport.height && fixedLayout.paper.bottom > fixedLayout.stage.bottom, 'page 3 must remain aligned in the visible reader');
+assert.ok(fixedLayout.transcript.right <= fixedLayout.viewport.width && fixedLayout.transcript.bottom <= fixedLayout.viewport.height, 'transcript must remain inside the viewport');
+await page.locator('#curation-spotlight').uncheck();
+assert.equal(await page.locator('.curation-mask:not([hidden])').count(), 0);
+await page.screenshot({path:path.join(outputDir, '03a-final-cue-layout-regression.png')});
+await page.locator('#curation-spotlight').check();
+await page.locator('.curation-player-seek').evaluate(node => {
+  node.value = '0';
+  node.dispatchEvent(new Event('input', {bubbles:true}));
+});
+await page.evaluate(() => window.__EDMUND_2013_SUPER_CURATION__.goToId('podcast-orientation-travel-report'));
+await page.setViewportSize({width:1800, height:1100});
+
 // Forward seeking deterministically reveals every crossed cue and transcript
 // mark; rewinding removes all downstream generated state again.
 await page.locator('.curation-player-seek').evaluate((node, value) => {
