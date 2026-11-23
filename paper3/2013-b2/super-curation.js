@@ -743,6 +743,16 @@
     return cueItem?.speaker || (row.speaker === 'Narrator' ? '考試旁白' : podcastModel.transcript.unresolvedSpeakerLabel);
   }
 
+  function scrollTranscriptRowIntoView(node, behavior = 'auto') {
+    if (!node) return;
+    const rowRect = node.getBoundingClientRect();
+    const bodyRect = transcriptBody.getBoundingClientRect();
+    transcriptBody.scrollTo({
+      top:Math.max(0, transcriptBody.scrollTop + rowRect.top - bodyRect.top - bodyRect.height * .32),
+      behavior
+    });
+  }
+
   function syncTranscript(options = {}) {
     const item = current();
     const sourceTime = audio.readyState >= 1 ? audio.currentTime : toSourceTime(state.podcastCurrentTime);
@@ -760,7 +770,9 @@
     if (nextActiveIndex !== activeTranscriptIndex) {
       activeTranscriptIndex = nextActiveIndex;
       const node = transcriptNodes.get(nextActiveIndex);
-      if (node && state.podcastTranscriptFollow && options.followPlayback) node.scrollIntoView({block:'center', behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
+      // Scroll only the floating transcript. Element.scrollIntoView() may also
+      // move the paper document and break its alignment during playback.
+      if (node && state.podcastTranscriptFollow && options.followPlayback) scrollTranscriptRowIntoView(node, matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth');
     }
   }
 
@@ -791,8 +803,24 @@
     if (audioBar.hidden) return;
     const rail = stage.getBoundingClientRect();
     const left = Math.max(12, dock.getBoundingClientRect().right + 12);
-    Object.assign(audioBar.style, {top:`${Math.ceil(rail.bottom + 8)}px`, left:`${left}px`, right:'18px'});
-    if (!transcriptWindow.dataset.moved) Object.assign(transcriptWindow.style, {top:`${Math.ceil(rail.bottom + audioBar.getBoundingClientRect().height + 18)}px`, right:'18px', left:'auto'});
+    const top = Math.min(Math.ceil(rail.bottom + 8), Math.max(4, innerHeight - Math.max(audioBar.offsetHeight, 58) - 4));
+    // Viewport chrome owns its positioning. Current-step emphasis must never
+    // reflow the player into the paper document.
+    Object.assign(audioBar.style, {position:'fixed', top:`${top}px`, bottom:'auto', left:`${left}px`, right:'18px'});
+    if (!transcriptWindow.dataset.moved) {
+      const transcriptTop = Math.min(Math.ceil(top + audioBar.getBoundingClientRect().height + 10), Math.max(4, innerHeight - 220));
+      Object.assign(transcriptWindow.style, {position:'fixed', top:`${transcriptTop}px`, right:'18px', left:'auto'});
+    }
+  }
+
+  function fitTranscriptWindow() {
+    if (transcriptWindow.hidden || !transcriptWindow.dataset.moved) return;
+    const rect = transcriptWindow.getBoundingClientRect();
+    const width = Math.min(rect.width, innerWidth - 8);
+    const height = Math.min(rect.height, innerHeight - 8);
+    const left = Math.max(4, Math.min(rect.left, innerWidth - width - 4));
+    const top = Math.max(4, Math.min(rect.top, innerHeight - height - 4));
+    Object.assign(transcriptWindow.style, {position:'fixed', left:`${left}px`, top:`${top}px`, width:`${width}px`, height:`${height}px`, right:'auto'});
   }
 
   function syncPodcastChrome() {
@@ -980,13 +1008,13 @@
     requestAnimationFrame(() => {
       const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (item.kind === 'podcast-review' && target) {
-        const rowRect = target.getBoundingClientRect();
-        const bodyRect = transcriptBody.getBoundingClientRect();
         // Review navigation is an explicit learner command. Position the line
         // synchronously so a prior free-scroll/follow state cannot leave the
         // newly selected row outside the floating transcript viewport.
-        transcriptBody.scrollTo({top:Math.max(0, transcriptBody.scrollTop + rowRect.top - bodyRect.top - bodyRect.height * .32), behavior:'auto'});
-      } else target?.scrollIntoView({block:'center', inline:'nearest', behavior:reduced ? 'instant' : 'smooth'});
+        scrollTranscriptRowIntoView(target);
+      } else if (target && target !== audioBar && target !== transcriptWindow) {
+        target.scrollIntoView({block:'center', inline:'nearest', behavior:reduced ? 'instant' : 'smooth'});
+      }
       const until = performance.now() + (reduced ? 0 : 900);
       const track = () => {
         if (run !== focusRun) return;
@@ -1418,7 +1446,15 @@
   });
 
   window.addEventListener('scroll', () => { if (open) { syncSpotlight(); syncRoute(); } }, {passive:true});
-  window.addEventListener('resize', () => { if (open) { positionPodcastChrome(); syncSpotlight(); syncRoute(); } });
+  function handleViewportChange() {
+    if (!open) return;
+    positionPodcastChrome();
+    fitTranscriptWindow();
+    syncSpotlight();
+    syncRoute();
+  }
+  window.addEventListener('resize', handleViewportChange);
+  window.visualViewport?.addEventListener('resize', handleViewportChange);
   document.addEventListener('keydown', event => {
     if (!open || /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName)) return;
     if (event.key === 'ArrowLeft' && !$('#curation-prev', dock).disabled) { event.preventDefault(); goTo((inPodcast() ? state.podcastPosition : (inCategories() ? state.categoryPosition : state.position)) - 1); }

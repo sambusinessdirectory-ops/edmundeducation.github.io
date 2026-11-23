@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": "2013-b2-stage3-v2",
+  "release": "2013-b2-stage3-v2.1-layout-fix",
   "scope": "2013 DSE Paper 3 B2 Super Curation Parts 1-3, with Stages 4-5 locked and existing 2015 records retained",
   "authority": [
     "Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf",
@@ -13,13 +13,13 @@
   "files": [
     {
       "path": "paper3/2013-b2/index.html",
-      "sha256": "739d5c051cae7411293967dbd0a8db842bc913e70530098622b45511ab7f6973",
+      "sha256": "67d25a8cec125cec76572160466bbe3f3ec95576c66d76e42ea0353b91afda7c",
       "requirements": [
         "V7-GOV-01",
         "V7-STATE-01",
         "V7-TEST-01"
       ],
-      "evidence": "Loads the separate Stage 3 cue data and controller under cache version 20261123a; preserves the authentic page-3 note sheet, corrects the four Adrian statistics blanks and keeps learner and generated-note controls separate.",
+      "evidence": "Loads the separate Stage 3 cue data and corrected player/controller styles under cache version 20261123b; preserves the authentic page-3 note sheet, corrects the four Adrian statistics blanks and keeps learner and generated-note controls separate.",
       "status": "verified"
     },
     {
@@ -36,27 +36,28 @@
     },
     {
       "path": "paper3/2013-b2/super-curation.css",
-      "sha256": "9c6763b0326ce4369e839435620c9cb89ff870414ca1f019ef14a368f9e29774",
+      "sha256": "eaddc2282afa1d8978b63473df7e3cec50d6527e4b0622e203d5f03cbff52ebb",
       "requirements": [
         "V7-MOTION-01",
         "V7-A11Y-01",
         "V7-RESP-01",
         "V8-SRC-03"
       ],
-      "evidence": "Keeps all 154 transcript rows visible, animates copy-only red strikes on 115 non-points, styles 39 useful points and Task A/C states, exposes the optional Chinese layer, and preserves wide-desktop, spotlight, print and reduced-motion behavior.",
+      "evidence": "Keeps all 154 transcript rows visible, animates copy-only red strikes on 115 non-points, exposes the optional Chinese layer, and gives the player/transcript fixed-position ownership so current-target emphasis cannot reflow either viewport control into the paper.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation.js",
-      "sha256": "8050e9608a11668e796835b0d524acdf8c9b2576e386084d68fcec87dd31ed19",
+      "sha256": "6c9f220831b801d0dbe70a412790c09f02ab6fc7bebd6efe637f651361ce7870",
       "requirements": [
         "V7-STATE-01",
         "V7-NAV-01",
         "V7-ROUTE-01",
         "V7-A11Y-01",
+        "V7-RESP-01",
         "V8-SRC-03"
       ],
-      "evidence": "Builds 185 stable Stage 3 steps, complete bilingual transcript rows, exact cue endpoint guard, Play/Replay distinction, deterministic forward/back seek reconciliation, translation preference restore, schema-5 stable-ID restoration and free Stage 1-3 access.",
+      "evidence": "Builds 185 stable Stage 3 steps and now keeps transcript follow inside the floating transcript, excludes fixed podcast chrome from document scrollIntoView, re-clamps moved transcript geometry on viewport changes and preserves all cue/state/navigation behavior.",
       "status": "verified"
     },
     {
@@ -139,14 +140,15 @@
     },
     {
       "path": "docs/paper3/PAPER3_COMPLIANCE_REPORT.md",
-      "sha256": "afb983a49df215995fb7e24306a0034768554103f04504f1306b5962c1eb0ba6",
+      "sha256": "f66d9b99d81caedddf2e1a42f6af85265d05b21a85a84ff5e0590b335ea37725",
       "requirements": [
         "V7-GOV-01",
         "V7-TEST-01",
         "V7-MOTION-01",
+        "V7-RESP-01",
         "V8-SRC-03"
       ],
-      "evidence": "Adds the Part 3 authority, source-fidelity, requirement-evidence and verification record while retaining the historical Part 1/2/2015 compliance sections.",
+      "evidence": "Adds the 2010x1374 fixed-player/page-3 alignment regression under V7-RESP-01 and V7-TRANS-04 while retaining the Part 3 source-fidelity record and historical Part 1/2/2015 sections.",
       "status": "verified"
     },
     {
@@ -300,15 +302,16 @@
     },
     {
       "path": "tools/paper3/check-2013-b2-stage3.mjs",
-      "sha256": "c126287835d42097363ece590756b885f0d6c9ad5a956bc9c48178527fcd7171",
+      "sha256": "c233d88152f411979316a2a08211401bef6bd4bb42a4cb9e554c0fefd4f6ead6",
       "requirements": [
         "V7-STATE-01",
         "V7-NAV-01",
         "V7-A11Y-01",
+        "V7-RESP-01",
         "V7-TEST-01",
         "V7-TEST-02"
       ],
-      "evidence": "Exercises the complete production Stage 3 journey, 154 visible English rows, 154 translated rows, point/non-point marks, bidirectional seek, authentic cues, Play/Replay, 185 forward/reverse states, reloads, spotlight and twelve 1800x1100 screenshots.",
+      "evidence": "Exercises the complete production Stage 3 journey and adds the exact reported 2010x1374 final-cue geometry gate with spotlight off, proving the player stays fixed, page 3 stays visible and the transcript stays in viewport; captures thirteen screenshots total.",
       "status": "verified"
     },
     {
@@ -368,14 +371,15 @@
     },
     {
       "path": "docs/paper3/2013_B2_STAGE3_IMPLEMENTATION_REPORT.md",
-      "sha256": "488102ed2d375a1234ca382715e9b16e5bcc84f3dc9e560d508d0084e54459f4",
+      "sha256": "b32bf2000e09067747fab02ed60178484800d9013f0a9768ee3c6fa9975a113e",
       "requirements": [
         "V7-GOV-01",
         "V7-STATE-01",
         "V7-NAV-01",
+        "V7-RESP-01",
         "V7-TEST-01"
       ],
-      "evidence": "Reports the complete flow, 185-step count, full bilingual transcript, red-strike classification, deterministic seeking, architecture, tests, twelve screenshots, limitations and approval-gated Part 4 plan.",
+      "evidence": "Reports the complete flow plus the reproduced final-cue root cause, fixed-position/scroll correction, exact 2010x1374 regression, thirteen screenshots and unchanged Part 4 boundary.",
       "status": "verified"
     }
   ],
