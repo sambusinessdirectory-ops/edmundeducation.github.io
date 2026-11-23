@@ -4,7 +4,7 @@
 
 Stage 4 (Data File / 逐句取證) is implemented as a 134-step, page-continuous reading experience. It reads Data File pages 5–11 in printed order, preserves the complete Stage 1–3 teaching surface, progressively reveals only reached Stage 4 marks, and builds a persistent 49-entry Task A/B/C evidence bank. Stage 5 remains locked and contains no model writing.
 
-Release: `2013-b2-stage4-v1` · state schema: `6` · browser cache bundle: `20261123e`.
+Release: `2013-b2-stage4-v1` · state schema: `6` · browser cache bundle: `20261123f`.
 
 ## Teaching flow and source inventory
 
@@ -46,7 +46,7 @@ No route reveals writing-stage language or a model answer.
 
 ## Saved state and migration
 
-The controller accepts all Stage 1–3 content versions as migrations and restores Stage 4 by stable ID rather than raw array position. New fields are `dataCurrentStepId`, `dataPosition`, `dataCompleted`, `reachedEvidenceIds`, `evidenceBankIds`, `dataBankFilter`, and `dataStageComplete`. Invalid/removed IDs are filtered on import. Stages 1–4 remain freely accessible; Stage 5 alone is locked.
+The controller accepts all Stage 1–3 content versions as migrations and restores Stage 4 by stable ID rather than raw array position. New fields are `dataCurrentStepId`, `dataPosition`, `dataCompleted`, `reachedEvidenceIds`, `evidenceBankIds`, `dataBankFilter`, and `dataStageComplete`. Invalid/removed IDs are filtered on import. Stages 1–4 remain freely accessible; Stage 5 alone is locked. Stage 4 also reprojects every Stage 3 generated note that the learner actually reached, while native reader storage preserves learner-authored notes; both layers survive the Stage 3 → Stage 4 transition and a full reload.
 
 ## Verification
 
@@ -90,8 +90,10 @@ Automated browser verification passed at 1800 × 1100 using the unmodified produ
 36. Stage 2 full classification regression passed.
 37. Stage 3 full 185-step regression passed.
 38. Stage 3 playback, replay, seek, reload and no-autoplay behavior regression passed.
-39. JavaScript syntax checks passed.
-40. Generated 134-row source mapping matches the released data model.
+39. Stage 3 generated podcast notes remain visible on the authentic page-3 sheet in Stage 4.
+40. Learner-authored Stage 3 notes survive the Stage 4 handoff and a full reload.
+41. JavaScript syntax checks passed.
+42. Generated 134-row source mapping matches the released data model.
 
 Screenshots:
 
