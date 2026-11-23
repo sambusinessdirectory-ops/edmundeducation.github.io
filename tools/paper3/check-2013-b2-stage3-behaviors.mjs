@@ -11,24 +11,17 @@ const errors = [];
 page.on('pageerror', error => errors.push(error.message));
 page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
 
-// Direct Stage 3 access is free, but must not disclose untouched Stage 1/2 ink.
+// Direct Stage 3 access is free and presents the complete cumulative paper,
+// even when this browser has no earlier-stage completion record.
 await page.goto(`${base}/paper3/2013-b2/?curation=1&stage=3`, {waitUntil:'networkidle'});
 await page.evaluate(() => localStorage.clear());
 await page.reload({waitUntil:'networkidle'});
 await page.waitForFunction(() => window.__EDMUND_2013_SUPER_CURATION__?.categories?.length === 14);
-assert.equal(await page.locator('.curation-source-mark.is-revealed').count(), 0, 'fresh Stage 3 must not reveal untouched Stage 1 marks');
-assert.equal(await page.locator('.curation-category-stamps .curation-fact-stamp').count(), 0, 'fresh Stage 3 must not reveal untouched classifications');
-assert.equal(await page.locator('.curation-note-stamps .curation-fact-stamp').count(), 0, 'fresh Stage 3 must not reveal untouched note stamps');
-assert.equal(await page.locator('.curation-note-noise').count(), 0, 'fresh Stage 3 must not reveal untouched listening-only strikes');
-
-// A partial Stage 2 visit carries only the completed classification into Stage 3.
-await page.locator('[data-stage-id="categorization"]').click();
-await page.locator('#curation-next').click();
-await page.locator('[data-stage-id="podcast"]').click();
-assert.deepEqual(await page.locator('.curation-category-stamps .curation-fact-stamp').allTextContents(), ['B']);
-assert.equal(await page.locator('.curation-category-clue.is-revealed').count(), 1);
-assert.equal(await page.locator('.curation-note-stamps .curation-fact-stamp').count(), 0);
-assert.equal(await page.locator('.curation-note-noise').count(), 0);
+assert.equal(await page.locator('.curation-source-mark:not(.is-revealed)').count(), 0, 'fresh Stage 3 keeps every Stage 1 mark');
+assert.deepEqual(await page.locator('.curation-category-stamps .curation-fact-stamp').allTextContents(), ['B','B','B','C','C','A','C','A']);
+assert.equal(await page.locator('.curation-category-clue.is-revealed').count(), 4);
+assert.deepEqual(await page.locator('.curation-note-stamps .curation-fact-stamp').allTextContents(), ['A','C']);
+assert.equal(await page.locator('.curation-note-noise').count(), 3);
 
 // Complete Stages 1 and 2 through production controls, then enter Stage 3.
 await page.evaluate(() => localStorage.clear());
@@ -158,5 +151,5 @@ assert.deepEqual(errors, []);
 await browser.close();
 console.log(JSON.stringify({
   status:'PASS',
-  checks:['fresh-stage3-no-prior-answer-leak','partial-stage2-carry-forward','complete-stage1-stage2-cumulative-ink','cumulative-reload','full-transcript-visible','manual-pause-resume','repeated-replay','previous-during-playback','bidirectional-seek-reconciliation','first-middle-final-cue-reload','no-autoplay']
+  checks:['fresh-stage3-complete-cumulative-ink','complete-stage1-stage2-cumulative-ink','cumulative-reload','full-transcript-visible','manual-pause-resume','repeated-replay','previous-during-playback','bidirectional-seek-reconciliation','first-middle-final-cue-reload','no-autoplay']
 }, null, 2));
