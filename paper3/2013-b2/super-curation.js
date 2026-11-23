@@ -567,19 +567,24 @@
 
   function priorStage1StepIsVisible(item) {
     if (!inCategories() && !inPodcast()) return item.index <= state.position;
+    // Stage 3 is a cumulative teaching surface. It must retain the complete
+    // Stage 1 document analysis even when opened directly on a new origin or
+    // in a browser that does not have the earlier completion record.
+    if (inPodcast()) return true;
     return state.stageComplete || state.completed.includes(item.id);
   }
 
   function priorCategoryStepIsVisible(item) {
     if (inCategories()) return item.index <= state.categoryPosition;
-    if (inPodcast()) return state.categoryStageComplete || state.categoryCompleted.includes(item.id);
+    // Stage 3 starts from the fully classified paper: all document stamps,
+    // decisive clues, note stamps and listening-only strikes stay visible.
+    if (inPodcast()) return true;
     return false;
   }
 
   function syncMarks() {
-    // A later stage inherits only work the learner has actually reached or
-    // completed. Direct Stage 3 access must not disclose untouched Stage 1/2
-    // classifications, while completed prior-stage ink remains cumulative.
+    // Stage 2 inherits completed Stage 1 work; Stage 3 is the cumulative
+    // paper and always reprojects the complete Stage 1/2 teaching ink.
     const reached = new Set(steps.filter(item => item.kind !== 'route' && priorStage1StepIsVisible(item)).map(item => item.id));
     $$('.curation-source-mark').forEach(mark => {
       mark.classList.toggle('is-revealed', reached.has(mark.dataset.stepId));
