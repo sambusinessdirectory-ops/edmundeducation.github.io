@@ -27,7 +27,7 @@ assert.equal(steps.length, 52, 'Stage 1 step count changed without updating the 
 assert.equal(new Set(steps.map(step => step.id)).size, steps.length, 'Step IDs must be unique');
 assert.deepEqual(await page.evaluate(() => window.__EDMUND_2013_STAGE1__.missingTargets), [], 'Every step must resolve to its exact source or route target');
 assert.equal(await page.locator('#curation-stage [data-stage-id]').count(), 5);
-assert.equal(await page.locator('#curation-stage [data-stage-id]:not([disabled])').count(), 3, 'Stages 1-3 must be freely accessible');
+assert.equal(await page.locator('#curation-stage [data-stage-id]:not([disabled])').count(), 4, 'Stages 1-4 must be freely accessible');
 assert.deepEqual(await page.locator('#curation-stage .curation-stage-label').allTextContents(), ['任務指示','資料分類','聆聽錄音','逐句取證','三篇寫作']);
 const stageGeometry = await page.locator('#curation-stage').evaluate(node => {
   const rect = node.getBoundingClientRect();
@@ -187,7 +187,7 @@ let finalState = await page.evaluate(() => window.__EDMUND_2013_STAGE1__.getStat
 assert.equal(finalState.stageComplete, true);
 assert.equal(finalState.completed.length, 52);
 assert.equal(await page.locator('#curation-next').textContent(), '進入 Stage 2 →');
-assert.equal(await page.locator('#curation-stage [data-stage-id]:not([disabled])').count(), 3, 'Stages 1-3 remain accessible while Stages 4-5 stay locked');
+assert.equal(await page.locator('#curation-stage [data-stage-id]:not([disabled])').count(), 4, 'Stages 1-4 remain accessible while Stage 5 stays locked');
 assert.equal(await page.locator('#curation-stage .curation-stage-item.done .curation-stage-dot').textContent(), '✓');
 assert.equal(await page.locator('#curation-stage .curation-stage-item.done .curation-stage-count').textContent(), '完成');
 await page.waitForTimeout(400);

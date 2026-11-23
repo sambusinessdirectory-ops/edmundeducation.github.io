@@ -157,3 +157,26 @@ Passed:
 ### Next-stage plan
 
 After approval, Stage 2 should inventory the authentic Data File document headings and the page-3 note sheet, assign initial A/B/C/listening-only classifications without exposing detailed evidence, then add exact source mappings and a separate migration version before any Podcast work begins.
+
+## 2013 B2 Super Curation — Stage 4
+
+- Release: `2013-b2-stage4-v1`
+- Scope: Data File pages 5–11, line-level evidence analysis only
+- Teaching steps: 134 stable IDs
+- Evidence bank: 49 stable entries (A 14 / B 16 / C 19)
+- Cross-page routes: 5
+- Stage 5: locked; no writing content implemented
+
+### Requirement evidence
+
+| Requirement | Stage 4 implementation evidence | Verification |
+|---|---|---|
+| V7-SRC-01 / V8-SRC-03 | Separate `super-curation-data-file-data.js` ledger and generated 134-row source mapping | Zero missing phrase/source/route targets |
+| V7-NAV-01 | Stable-ID Previous/Next, picker, bookmarks, deep links and bank return | 134-step forward pass, reverse/future-ink audit and direct-ID check |
+| V7-ROUTE-01 | Five explicit cross-page update routes | Destination selector and red-route rendering checks |
+| V7-STATE-01 | Schema 6 stores current/completed/reached/bank/filter/bookmark/spotlight/completion fields | Beginning, middle and final reload plus legacy migration checks |
+| V7-A11Y-01 | Semantic buttons, labels, focus targets, keyboard arrows and live save status | Production DOM/browser inspection |
+| V7-RESP-01 | Wide fixed teaching dock; Stage 3 audio chrome removed outside Podcast | 1800 × 1100 screenshots and hidden-player assertions |
+| V7-TEST-01 / TEST-02 | Tests load production HTML/CSS/JS and retain Stage 1–3 suites | Stage 1, 2, 3, Stage 3 behavior and Stage 4 suites passed |
+
+Full evidence, the 40-check verification matrix, limitations and the unimplemented Stage 5 plan are recorded in `2013_B2_STAGE4_IMPLEMENTATION_REPORT.md`. Exact page/phrase/code mappings are in `2013_B2_STAGE4_SOURCE_MAPPING.md`.
