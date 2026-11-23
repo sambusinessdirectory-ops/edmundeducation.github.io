@@ -309,13 +309,13 @@
   ];
 
   window.EDMUND_2013_B2_STAGE1 = Object.freeze({
-    schemaVersion: 5,
-    contentVersion: '2013-b2-stage3-v2',
+    schemaVersion: 6,
+    contentVersion: '2013-b2-stage4-v1',
     stages: [
       {id:'instructions', label:'1', name:'Task Instructions', short:'任務指示', status:'complete'},
       {id:'categorization', label:'2', name:'Data Categorization', short:'資料分類', status:'complete'},
-      {id:'podcast', label:'3', name:'Podcast', short:'聆聽錄音', status:'active'},
-      {id:'data-file', label:'4', name:'Data File', short:'逐句取證', status:'locked'},
+      {id:'podcast', label:'3', name:'Podcast', short:'聆聽錄音', status:'complete'},
+      {id:'data-file', label:'4', name:'Data File', short:'逐句取證', status:'active'},
       {id:'writing', label:'5', name:'Writing', short:'三篇寫作', status:'locked'}
     ],
     steps: Object.freeze(steps.map(item => Object.freeze(item))),

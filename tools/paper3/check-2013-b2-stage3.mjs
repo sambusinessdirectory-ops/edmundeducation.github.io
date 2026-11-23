@@ -34,16 +34,16 @@ const inventory = await page.evaluate(() => {
     missing:runtime.missingTargets
   };
 });
-assert.equal(inventory.version, '2013-b2-stage3-v2');
+assert.equal(inventory.version, '2013-b2-stage4-v1');
 assert.equal(inventory.ids.length, 185);
 assert.equal(new Set(inventory.ids).size, 185, 'Stage 3 stable IDs must be unique');
 assert.equal(inventory.cueIds.length, 28);
 assert.equal(inventory.kinds.filter(kind => kind === 'podcast-review').length, 154);
 assert.deepEqual(inventory.missing, []);
 
-// Three stages are freely accessible, while Stage 4-5 remain genuinely locked.
-assert.equal(await page.locator('#curation-stage [data-stage-id]:not([disabled])').count(), 3);
-assert.deepEqual(await page.locator('#curation-stage [data-stage-id]').evaluateAll(nodes => nodes.map(node => node.disabled)), [false,false,false,true,true]);
+// Four stages are freely accessible, while Stage 5 remains genuinely locked.
+assert.equal(await page.locator('#curation-stage [data-stage-id]:not([disabled])').count(), 4);
+assert.deepEqual(await page.locator('#curation-stage [data-stage-id]').evaluateAll(nodes => nodes.map(node => node.disabled)), [false,false,false,false,true]);
 assert.deepEqual(await page.locator('#curation-stage [data-stage-id]').evaluateAll(nodes => nodes.map(node => node.classList.contains('done'))), [false,false,false,false,false]);
 assert.equal(await page.locator('#curation-step-count').textContent(), '1 / 185 步');
 assert.equal(await page.locator('#curation-podcast-player').count(), 1);
@@ -283,7 +283,7 @@ assert.equal(state.podcastStageComplete, true);
 assert.equal(state.podcastCompleted.length, 185);
 assert.equal(state.transcriptReviewCompleted.length, 154);
 assert.equal(await page.locator('[data-stage-id="podcast"]').evaluate(node => node.classList.contains('done')), true);
-assert.deepEqual(await page.locator('#curation-stage [data-stage-id]').evaluateAll(nodes => nodes.map(node => node.disabled)), [false,false,false,true,true]);
+assert.deepEqual(await page.locator('#curation-stage [data-stage-id]').evaluateAll(nodes => nodes.map(node => node.disabled)), [false,false,false,false,true]);
 await page.waitForTimeout(950);
 await page.screenshot({path:path.join(outputDir, '12-final-stage-complete.png')});
 

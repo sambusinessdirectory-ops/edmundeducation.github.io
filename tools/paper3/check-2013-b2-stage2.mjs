@@ -32,7 +32,7 @@ const inventory = await page.evaluate(() => {
     missing:runtime.missingTargets
   };
 });
-assert.equal(inventory.version, '2013-b2-stage3-v2');
+assert.equal(inventory.version, '2013-b2-stage4-v1');
 assert.equal(inventory.stage1Ids.length, 52, 'approved Part 1 sequence must remain 52 steps');
 assert.equal(new Set(inventory.stage1Ids).size, 52, 'Part 1 IDs must remain unique');
 assert.equal(inventory.categoryIds.length, 14, 'Stage 2 must contain 8 documents, 1 note overview and 5 note headings');
@@ -45,7 +45,7 @@ assert.deepEqual(inventory.missing, [], 'every Part 1 and Stage 2 target must re
 
 // Stage 2 and every stable step are directly accessible without completing
 // Stage 1. Explicit URL navigation must override any saved active stage.
-assert.equal(await page.locator('#curation-stage [data-stage-id]:not([disabled])').count(), 3);
+assert.equal(await page.locator('#curation-stage [data-stage-id]:not([disabled])').count(), 4);
 assert.equal(await page.locator('[data-stage-id="categorization"]').isDisabled(), false);
 assert.equal(await page.locator('[data-stage-id="podcast"]').isDisabled(), false);
 await page.locator('[data-stage-id="categorization"]').click();

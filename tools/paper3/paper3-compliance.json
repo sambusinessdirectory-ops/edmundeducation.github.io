@@ -1,90 +1,18 @@
 {
   "schemaVersion": 1,
-  "release": "2013-b2-stage3-v2.3-direct-entry-cumulative-paper",
-  "scope": "2013 DSE Paper 3 B2 Super Curation Parts 1-3, with Stages 4-5 locked and existing 2015 records retained",
+  "release": "2013-b2-stage4-v1",
+  "scope": "2013 DSE Paper 3 B2 Super Curation Parts 1-4, with Stage 5 locked and existing 2015 records retained",
   "authority": [
     "Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf",
     "2025_B2_Super_Curation_Line_by_Line.md",
     "2013_B2_Fact_Line_Deep_Analysis_v1.1_Congruence_Corrected_2026-11-12.md",
     "2015_B2_Fact_Line_Deep_Analysis.md",
     "2025 DSE Paper 3 B2 Super Curation - Stage 3 - No Spotlight - Code Annotated.pdf",
-    "DSE 2013 Part B.mp3 and supplied timed Part B transcript"
+    "DSE 2013 Part B.mp3 and supplied timed Part B transcript",
+    "2025 DSE Paper 3 B2 Super Curation - Stage 4 - No Spotlight - Code Annotated.pdf",
+    "2025 DSE Paper 3 B2 Super Curation - Stage 4 - Spotlight - Code Annotated.pdf"
   ],
   "files": [
-    {
-      "path": "paper3/2013-b2/index.html",
-      "sha256": "dfc9912476de8f2c8aac831746af58fce503cbecf3e031aeb370ab733a42a297",
-      "requirements": [
-        "V7-GOV-01",
-        "V7-STATE-01",
-        "V7-TEST-01"
-      ],
-      "evidence": "Loads the separate Stage 3 cue data and direct-entry cumulative controller/styles under cache version 20261123d; preserves the authentic page-3 note sheet and keeps learner and generated-note controls separate.",
-      "status": "verified"
-    },
-    {
-      "path": "paper3/2013-b2/super-curation-data.js",
-      "sha256": "8621600bf8fa4b9300a34a7e09b5a907df5f874106e6da06cc86b2dcbe764f1d",
-      "requirements": [
-        "V7-SRC-01",
-        "V7-BOSS-01",
-        "V7-STATE-01",
-        "V8-SRC-03"
-      ],
-      "evidence": "Preserves all 52 Stage 1 and 14 Stage 2 stable records, raises schemaVersion to 5 and declares Stage 3 active under 2013-b2-stage3-v2 while Stages 4-5 stay locked.",
-      "status": "verified"
-    },
-    {
-      "path": "paper3/2013-b2/super-curation.css",
-      "sha256": "922fe2b6fb985872d098f2880e37adceda6e6e6c5f2ce82e1aa25c1d2546ae1c",
-      "requirements": [
-        "V7-MOTION-01",
-        "V7-A11Y-01",
-        "V7-RESP-01",
-        "V8-SRC-03"
-      ],
-      "evidence": "Keeps all 154 transcript rows visible, carries completed Stage 2 document/note stamps into Stage 3 without duplicating overlapping Stage 1 route stamps, preserves listening-only strikes, and retains fixed player/transcript viewport ownership.",
-      "status": "verified"
-    },
-    {
-      "path": "paper3/2013-b2/super-curation.js",
-      "sha256": "39821750d4648be944452ebc5ba19de6cc68b91d72d4ac03cb42939aefad052e",
-      "requirements": [
-        "V7-STATE-01",
-        "V7-NAV-01",
-        "V7-ROUTE-01",
-        "V7-A11Y-01",
-        "V7-RESP-01",
-        "V8-SRC-03"
-      ],
-      "evidence": "Builds 185 stable Stage 3 steps and always reprojects the complete Stage 1/2 source marks, Boss stamps, route stamps, decisive clues, document classifications and note decisions in Stage 3, including fresh direct entry without prior-origin storage.",
-      "status": "verified"
-    },
-    {
-      "path": "tools/paper3/check-2013-b2-stage1.mjs",
-      "sha256": "721a977dbc1f7fe71e168eb97ad76be1bd5cfff3ae7784f2168dcddf1ca7173b",
-      "requirements": [
-        "V7-BOSS-01",
-        "V7-STATE-01",
-        "V7-TEST-01",
-        "V7-TEST-02"
-      ],
-      "evidence": "Re-runs all 52 Stage 1 steps forward/reverse and confirms the new free Stage 1-3 access state while retaining all earlier marks, routes, reloads, screenshots and 2025 smoke checks.",
-      "status": "verified"
-    },
-    {
-      "path": "tools/paper3/check-2013-b2-stage2.mjs",
-      "sha256": "52d988a21b7bcdace52976b5955d58af24e286c3c337022620c287f5b237e031",
-      "requirements": [
-        "V7-SRC-01",
-        "V7-STATE-01",
-        "V7-NAV-01",
-        "V7-TEST-01",
-        "V7-TEST-02"
-      ],
-      "evidence": "Re-runs all 14 Stage 2 steps forward/reverse, migrations, reloads, no-future-mark assertions and screenshots while confirming Stage 3 is now freely accessible.",
-      "status": "verified"
-    },
     {
       "path": "docs/paper3/2013_B2_STAGE2_SOURCE_INVENTORY.md",
       "sha256": "93570a9594efa4d147b823bf9e728d8341925951009ae180c4d16b784f576f41",
@@ -136,19 +64,6 @@
         "V8-SRC-03"
       ],
       "evidence": "Lists every stable ID, 2013 page, exact phrase, route destination and implementation line.",
-      "status": "verified"
-    },
-    {
-      "path": "docs/paper3/PAPER3_COMPLIANCE_REPORT.md",
-      "sha256": "1c05392f7d0b8f716e2b80c145a4fc3c5afcdf49bfbb3aa76cfa1c4e7a901d0a",
-      "requirements": [
-        "V7-GOV-01",
-        "V7-TEST-01",
-        "V7-MOTION-01",
-        "V7-RESP-01",
-        "V8-SRC-03"
-      ],
-      "evidence": "Records the complete cumulative Stage 1/2 paper on fresh/direct Stage 3 entry, reload restoration and the existing fixed-player/page-3 alignment evidence while retaining historical Part 1/2/2015 sections.",
       "status": "verified"
     },
     {
@@ -301,32 +216,6 @@
       "status": "verified"
     },
     {
-      "path": "tools/paper3/check-2013-b2-stage3.mjs",
-      "sha256": "c233d88152f411979316a2a08211401bef6bd4bb42a4cb9e554c0fefd4f6ead6",
-      "requirements": [
-        "V7-STATE-01",
-        "V7-NAV-01",
-        "V7-A11Y-01",
-        "V7-RESP-01",
-        "V7-TEST-01",
-        "V7-TEST-02"
-      ],
-      "evidence": "Exercises the complete production Stage 3 journey and adds the exact reported 2010x1374 final-cue geometry gate with spotlight off, proving the player stays fixed, page 3 stays visible and the transcript stays in viewport; captures thirteen screenshots total.",
-      "status": "verified"
-    },
-    {
-      "path": "tools/paper3/check-2013-b2-stage3-behaviors.mjs",
-      "sha256": "5fafe71bb2da887b50ce5230e2304eb0721c9efe0783f04abce1a30ca47de432",
-      "requirements": [
-        "V7-STATE-01",
-        "V7-NAV-01",
-        "V7-TEST-01",
-        "V7-TEST-02"
-      ],
-      "evidence": "Verifies a fresh direct Stage 3 entry carries every expected Stage 1/2 mark, stamp, clue and strike without prior storage, verifies the completed-stage and reload paths, then rechecks transcript, playback, seek, cue reload and no-autoplay behavior.",
-      "status": "verified"
-    },
-    {
       "path": "tools/paper3/check-2013-b2-stage3-speed-matrix.mjs",
       "sha256": "b565840040d2d5c1893d810234d546f70685836904972724b7a4cfb86f4716de",
       "requirements": [
@@ -381,20 +270,189 @@
       ],
       "evidence": "Reports the complete flow plus the reproduced final-cue root cause, fixed-position/scroll correction, exact 2010x1374 regression, thirteen screenshots and unchanged Part 4 boundary.",
       "status": "verified"
+    },
+    {
+      "path": "paper3/2013-b2/index.html",
+      "sha256": "18a76825e0eb205a5eb61977d0250a12c67040af948379331cd9a6361ace047b",
+      "requirements": [
+        "V7-GOV-01",
+        "V7-STATE-01",
+        "V7-TEST-01"
+      ],
+      "evidence": "Loads the separate Stage 4 ledger/controller/styles under cache version 20261123e while keeping Stage 5 locked.",
+      "status": "verified"
+    },
+    {
+      "path": "paper3/2013-b2/super-curation-data.js",
+      "sha256": "172f59e4bff86808ec76fa09db630ddd51ce74ef1fd3f908d4909658d01e9a91",
+      "requirements": [
+        "V7-SRC-01",
+        "V7-STATE-01",
+        "V8-SRC-03"
+      ],
+      "evidence": "Preserves the approved 52 Stage 1 and 14 Stage 2 records, raises schemaVersion to 6, marks Stage 3 complete and Stage 4 active.",
+      "status": "verified"
+    },
+    {
+      "path": "paper3/2013-b2/super-curation-data-file-data.js",
+      "sha256": "a86dfd01a9d68cde3c8b940d2c5db6bab8a3abb4967a82497d98322e8728408a",
+      "requirements": [
+        "V7-SRC-01",
+        "V7-ROUTE-01",
+        "V8-SRC-03"
+      ],
+      "evidence": "Defines 134 stable page-continuous Stage 4 records, six evidence types, 49 bank entries and five cross-page routes from 2013 source phrases.",
+      "status": "verified"
+    },
+    {
+      "path": "paper3/2013-b2/super-curation.js",
+      "sha256": "b56c47353bed5aa4be333c29f43eb39aacb5dec01b00b312b9d38fccc9d020fa",
+      "requirements": [
+        "V7-STATE-01",
+        "V7-NAV-01",
+        "V7-ROUTE-01",
+        "V7-A11Y-01",
+        "V8-SRC-03"
+      ],
+      "evidence": "Adds Stage 4 exact phrase focus, progressive reveal, evidence bank/filter/return, stable-ID persistence and free Stage 1-4 access without changing Stage 5.",
+      "status": "verified"
+    },
+    {
+      "path": "paper3/2013-b2/super-curation.css",
+      "sha256": "85326bda8667a9f60b001a75a4eabfde0c060e415a9c49e25687a27567e498e3",
+      "requirements": [
+        "V7-MOTION-01",
+        "V7-A11Y-01",
+        "V7-RESP-01",
+        "V8-SRC-03"
+      ],
+      "evidence": "Adds the Stage 4 evidence bank and cumulative Stage 1/2 stamp presentation using the established colour, strike, route and wide-desktop grammar.",
+      "status": "verified"
+    },
+    {
+      "path": "tools/paper3/check-2013-b2-stage4.mjs",
+      "sha256": "4e1f6e3deb8a46064d0afddb6675a471f3a041a2c6b1eaa72991c13f4cd15e63",
+      "requirements": [
+        "V7-TEST-01",
+        "V7-TEST-02",
+        "V7-STATE-01"
+      ],
+      "evidence": "Runs the 134-step production journey, future-ink checks, reloads, spotlight, evidence bank/filter, cumulative ink, deep link and four screenshot checks.",
+      "status": "verified"
+    },
+    {
+      "path": "tools/paper3/check-2013-b2-stage1.mjs",
+      "sha256": "0c7994e1def8225205f1004ea3368ae6461c18bd986bb1e774d3744aee09e30f",
+      "requirements": [
+        "V7-BOSS-01",
+        "V7-STATE-01",
+        "V7-TEST-01",
+        "V7-TEST-02"
+      ],
+      "evidence": "Retains the 52-step Stage 1 forward/reverse suite and updates only the expected free-access boundary to Stages 1-4.",
+      "status": "verified"
+    },
+    {
+      "path": "tools/paper3/check-2013-b2-stage2.mjs",
+      "sha256": "5855b9cecbef746fe6e0f252044949a00b6df57783db37ae785b86f7c32d152c",
+      "requirements": [
+        "V7-SRC-01",
+        "V7-STATE-01",
+        "V7-NAV-01",
+        "V7-TEST-01"
+      ],
+      "evidence": "Retains the 14-step classification suite and verifies the Stage 4 content version/free-access boundary.",
+      "status": "verified"
+    },
+    {
+      "path": "tools/paper3/check-2013-b2-stage3.mjs",
+      "sha256": "792f5af620eae3ce06d2f92240de57b41e30ca975cd320c5ce3ea2a17ac83ddd",
+      "requirements": [
+        "V7-SRC-01",
+        "V7-STATE-01",
+        "V7-NAV-01",
+        "V7-TEST-01"
+      ],
+      "evidence": "Retains the full 185-step podcast/transcript journey and updates only the expected Stage 4 access state.",
+      "status": "verified"
+    },
+    {
+      "path": "tools/paper3/check-2013-b2-stage3-behaviors.mjs",
+      "sha256": "508f586157af3827a8690d9ba59211be4bbd24d08a08ba42451d314679671285",
+      "requirements": [
+        "V7-STATE-01",
+        "V7-TEST-01",
+        "V7-TEST-02",
+        "V8-SRC-03"
+      ],
+      "evidence": "Retains all playback/replay/seek/reload checks while scoping cumulative Stage 1 ink separately from new Stage 4 marks.",
+      "status": "verified"
+    },
+    {
+      "path": "tools/paper3/build-2013-b2-stage4-mapping.mjs",
+      "sha256": "f5c621f6c7d44bb349456dc30c7a9773ccd7a0a2b33059a74d3bd97b8cddbcdc",
+      "requirements": [
+        "V7-SRC-01",
+        "V8-SRC-03"
+      ],
+      "evidence": "Generates and validates the 134-row exact page/phrase/code source mapping from the released Stage 4 model.",
+      "status": "verified"
+    },
+    {
+      "path": "tools/paper3/update-2013-b2-stage4-compliance.mjs",
+      "sha256": "515606e91e973683eb6a212b25b2aef31e5967efd8e210275bba7e7394f0afb9",
+      "requirements": [
+        "V7-GOV-01",
+        "V7-TEST-02"
+      ],
+      "evidence": "Refreshes governed file hashes, Stage 4 requirement evidence and verification commands without weakening the compliance gate.",
+      "status": "verified"
+    },
+    {
+      "path": "docs/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md",
+      "sha256": "69a42cdc112a81f623db66cfdfa8a81715d6b613026e8ea5defa864a26892832",
+      "requirements": [
+        "V7-SRC-01",
+        "V7-NAV-01",
+        "V8-SRC-03"
+      ],
+      "evidence": "Maps all 134 stable IDs to Data File page, source document, exact phrase, task, type, bank decision and implementation line.",
+      "status": "verified"
+    },
+    {
+      "path": "docs/paper3/2013_B2_STAGE4_IMPLEMENTATION_REPORT.md",
+      "sha256": "8e02373faadee354257dc825f5c3b09fc7352404542fa45278d72fa7e8bb952f",
+      "requirements": [
+        "V7-GOV-01",
+        "V7-STATE-01",
+        "V7-NAV-01",
+        "V7-RESP-01",
+        "V7-TEST-01"
+      ],
+      "evidence": "Reports flow, inventory, state, 40 checks, screenshots, files, limitations and the unimplemented Stage 5 plan.",
+      "status": "verified"
+    },
+    {
+      "path": "docs/paper3/PAPER3_COMPLIANCE_REPORT.md",
+      "sha256": "cd3ebad08eb416a7804988c04f71dbff98775b3e5caa08909c51141435361e7c",
+      "requirements": [
+        "V7-GOV-01",
+        "V7-TEST-02"
+      ],
+      "evidence": "Adds the Stage 4 governed release, evidence matrix and links to the detailed implementation and source-mapping records.",
+      "status": "verified"
     }
   ],
   "verificationCommands": [
-    "node --check paper3/2013-b2/super-curation-data.js",
-    "node --check paper3/2013-b2/super-curation-podcast-data.js",
+    "node --check paper3/2013-b2/super-curation-data-file-data.js",
     "node --check paper3/2013-b2/super-curation.js",
-    "node tools/paper3/build-2013-b2-stage3-mapping.mjs",
-    "node tools/paper3/check-2013-b2-stage1.mjs http://127.0.0.1:4174 outputs/2013-b2-stage1-regression",
-    "node tools/paper3/check-2013-b2-stage2.mjs http://127.0.0.1:4174 outputs/2013-b2-stage2-regression",
+    "node tools/paper3/build-2013-b2-stage4-mapping.mjs",
+    "node tools/paper3/check-2013-b2-stage1.mjs http://127.0.0.1:4174",
+    "node tools/paper3/check-2013-b2-stage2.mjs http://127.0.0.1:4174",
+    "node tools/paper3/check-2013-b2-stage3.mjs http://127.0.0.1:4174",
     "node tools/paper3/check-2013-b2-stage3-behaviors.mjs http://127.0.0.1:4174",
-    "node tools/paper3/check-2013-b2-stage3-speed-matrix.mjs http://127.0.0.1:4174",
-    "node tools/paper3/check-2013-b2-stage3.mjs http://127.0.0.1:4174 outputs/2013-b2-stage3-v2",
-    "Firefox desktop: 185/28/154 structure plus hotel-prison-good-fun-opinion authentic cue",
-    "node tools/paper3/verify-paper3-compliance.mjs --changed-files <Stage 3 listed files>"
+    "node tools/paper3/check-2013-b2-stage4.mjs http://127.0.0.1:4174",
+    "node tools/paper3/verify-paper3-compliance.mjs --changed-files <Stage 4 listed files>"
   ],
   "result": "verified"
 }

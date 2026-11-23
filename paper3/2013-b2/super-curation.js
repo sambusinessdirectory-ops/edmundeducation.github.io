@@ -3,12 +3,13 @@
 
   const model = window.EDMUND_2013_B2_STAGE1;
   const podcastModel = window.EDMUND_2013_B2_PODCAST;
+  const dataFileModel = window.EDMUND_2013_B2_DATA_FILE;
   const timedTranscript = window.EDMUND_DSE_LISTENING_2013_TRANSCRIPT?.partB;
   const toolbar = document.querySelector('.toolbar');
-  if (!model || !podcastModel || !Array.isArray(timedTranscript) || !toolbar || document.body.dataset.reader !== '2013-b2') return;
+  if (!model || !podcastModel || !dataFileModel || !Array.isArray(timedTranscript) || !toolbar || document.body.dataset.reader !== '2013-b2') return;
 
   const VERSION = model.contentVersion;
-  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation', '2013-b2-stage3-v1']);
+  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation', '2013-b2-stage3-v1', '2013-b2-stage3-v2']);
   const STORAGE_KEY = 'edmund-paper3-2013-b2-super-curation-stage1-v1';
   const steps = model.steps.map((item, index) => ({...item, index}));
   const stepsById = new Map(steps.map(item => [item.id, item]));
@@ -19,6 +20,9 @@
     .map((item, index) => ({...item, index, categoryKind:item.kind || 'document', kind:'category'}));
   const categoriesById = new Map(categories.map(item => [item.id, item]));
   const categoryIds = new Set(categoriesById.keys());
+  const dataSteps = dataFileModel.steps.map((item, index) => ({...item, sourcePage:item.page, index, kind:'data-file'}));
+  const dataStepsById = new Map(dataSteps.map(item => [item.id, item]));
+  const dataIds = new Set(dataStepsById.keys());
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const create = (tag, className, text) => {
@@ -93,7 +97,7 @@
     const root = $(step.sourceRoot || `#page-${step.sourcePage}`);
     if (!root) return null;
     const phrase = canonical(step.sourcePhrase);
-    const candidates = [root, ...$$('p[lang="en"], h1, h2, h3, h4, li, .email-headers > div, .answer-title', root)]
+    const candidates = [root, ...$$('p[lang="en"], p:not(.translation), h1, h2, h3, h4, li, dt, dd, th, td, figcaption, .email-headers > div, .review-grid > div, .answer-title, .source-end', root)]
       .filter(node => canonical(node.textContent).includes(phrase));
     return candidates.find(node => canonical(node.textContent) === phrase)
       || candidates.sort((a, b) => a.textContent.length - b.textContent.length)[0]
@@ -121,7 +125,7 @@
     const range = document.createRange();
     range.setStart(first.node, at - first.start);
     range.setEnd(last.node, at + phrase.length - last.start);
-    const visualKind = step.excluded ? 'excluded' : (step.markKind || step.task || 'neutral');
+    const visualKind = (step.excluded || step.rejected) ? 'excluded' : (step.markKind || step.task || 'neutral');
     const mark = create('mark', `curation-source-mark curation-mark-${visualKind}`);
     mark.dataset.stepId = step.id;
     mark.dataset.sourcePage = String(step.sourcePage);
@@ -129,7 +133,7 @@
     mark.setAttribute('aria-label', `${point ? `要求 ${point}：` : ''}${step.title}：${phrase}`);
     mark.dataset.visualKind = visualKind;
     if (step.task) mark.classList.add(`task-${step.task}`);
-    if (step.excluded) mark.classList.add('is-excluded');
+    if (step.excluded || step.rejected) mark.classList.add('is-excluded');
     if (point) mark.dataset.point = point;
     mark.append(range.extractContents());
     range.insertNode(mark);
@@ -189,6 +193,17 @@
       item.target = wrapPhrase(item);
       if (!item.target) missing.push(`${item.id}: ${item.sourcePhrase}`);
     }
+  }
+  for (const item of dataSteps) {
+    if (item.focusSelector) {
+      item.target = $(item.focusSelector);
+    } else {
+      item.target = wrapPhrase(item);
+    }
+    item.focusTarget = item.target;
+    item.routeNode = item.routeTarget ? $(item.routeTarget) : null;
+    if (!item.target) missing.push(`${item.id}: ${item.sourcePhrase}`);
+    if (item.routeTarget && !item.routeNode) missing.push(`${item.id}: route target ${item.routeTarget}`);
   }
 
   // The 2025 Boss Letter reveals one handwritten task stamp beside each task's
@@ -299,6 +314,13 @@
     podcastTranscriptFollow: true,
     podcastTranslationVisible: false,
     podcastStageComplete: false,
+    dataCurrentStepId: dataSteps[0]?.id || '',
+    dataPosition: 0,
+    dataCompleted: [],
+    reachedEvidenceIds: [],
+    evidenceBankIds: [],
+    dataBankFilter: 'all',
+    dataStageComplete: false,
     bookmarks: [],
     spotlight: true,
     stageComplete: false,
@@ -349,13 +371,23 @@
     clean.podcastTranscriptFollow = raw.podcastTranscriptFollow !== false;
     clean.podcastTranslationVisible = raw.podcastTranslationVisible === true;
     clean.podcastStageComplete = raw.podcastStageComplete === true && podcastSteps.every(item => clean.podcastCompleted.includes(item.id));
+    const restoredDataId = dataIds.has(raw.dataCurrentStepId)
+      ? raw.dataCurrentStepId
+      : dataSteps[Math.min(Math.max(Number(raw.dataPosition) || 0, 0), Math.max(0, dataSteps.length - 1))]?.id;
+    clean.dataCurrentStepId = restoredDataId || dataSteps[0]?.id || '';
+    clean.dataPosition = dataStepsById.get(clean.dataCurrentStepId)?.index || 0;
+    clean.dataCompleted = [...new Set((Array.isArray(raw.dataCompleted) ? raw.dataCompleted : []).filter(id => dataIds.has(id)))];
+    clean.reachedEvidenceIds = [...new Set((Array.isArray(raw.reachedEvidenceIds) ? raw.reachedEvidenceIds : clean.dataCompleted).filter(id => dataIds.has(id)))];
+    clean.evidenceBankIds = [...new Set((Array.isArray(raw.evidenceBankIds) ? raw.evidenceBankIds : clean.reachedEvidenceIds.filter(id => dataStepsById.get(id)?.bank)).filter(id => dataStepsById.get(id)?.bank))];
+    clean.dataBankFilter = ['all','A','B','C'].includes(raw.dataBankFilter) ? raw.dataBankFilter : 'all';
+    clean.dataStageComplete = raw.dataStageComplete === true && clean.dataCompleted.length === dataSteps.length;
     clean.bookmarks = [...new Set((Array.isArray(raw.bookmarks) ? raw.bookmarks : [])
-      .map(id => ids.has(id) || podcastIds.has(id) ? id : migrateCategoryId(id)).filter(id => ids.has(id) || categoryIds.has(id) || podcastIds.has(id)))];
+      .map(id => ids.has(id) || podcastIds.has(id) || dataIds.has(id) ? id : migrateCategoryId(id)).filter(id => ids.has(id) || categoryIds.has(id) || podcastIds.has(id) || dataIds.has(id)))];
     clean.spotlight = raw.spotlight !== false;
     clean.stageComplete = raw.stageComplete === true && clean.completed.length === steps.length;
     // Stage 1 and Stage 2 are independent teaching views. Completion records
     // progress; it must never be used as an access gate.
-    clean.activeStage = ['categorization','podcast'].includes(raw.activeStage) ? raw.activeStage : 'instructions';
+    clean.activeStage = ['categorization','podcast','data-file'].includes(raw.activeStage) ? raw.activeStage : 'instructions';
     clean.open = raw.open === true;
     clean.updated = Number(raw.updated) || Date.now();
     return clean;
@@ -389,10 +421,10 @@
   model.stages.forEach((item, index) => {
     const button = create('button', 'curation-stage-item');
     button.type = 'button';
-    button.disabled = index > 2;
+    button.disabled = index > 3;
     button.dataset.stageId = item.id;
-    button.setAttribute('aria-label', index < 3 ? `Stage ${index + 1} ${item.name}` : `Stage ${index + 1} ${item.name}，尚未開放`);
-    button.innerHTML = `<span class="curation-stage-dot">${item.label}</span><span class="curation-stage-label">${item.short}</span><small class="curation-stage-count">${index === 0 ? `1/${steps.length}` : (index === 1 ? `1/${categories.length}` : (index === 2 ? `1/${podcastSteps.length}` : '未開放'))}</small>`;
+    button.setAttribute('aria-label', index < 4 ? `Stage ${index + 1} ${item.name}` : `Stage ${index + 1} ${item.name}，尚未開放`);
+    button.innerHTML = `<span class="curation-stage-dot">${item.label}</span><span class="curation-stage-label">${item.short}</span><small class="curation-stage-count">${index === 0 ? `1/${steps.length}` : (index === 1 ? `1/${categories.length}` : (index === 2 ? `1/${podcastSteps.length}` : (index === 3 ? `1/${dataSteps.length}` : '未開放')))}</small>`;
     stageItems.append(button);
   });
 
@@ -412,6 +444,7 @@
       <p class="curation-source" id="curation-source"></p><h2 class="curation-title" id="curation-title"></h2><span class="curation-badge" id="curation-badge"></span>
       <blockquote class="curation-quote" id="curation-quote" lang="en"></blockquote><div class="curation-explanation" id="curation-explanation"></div><fieldset class="curation-category-controls" id="curation-category-controls" hidden><legend>你會先標哪個任務？</legend><div class="curation-category-task-row"><label class="task-A"><input type="checkbox" value="A">Task A</label><label class="task-B"><input type="checkbox" value="B">Task B</label><label class="task-C"><input type="checkbox" value="C">Task C</label></div><small>先看標題；標題不足，才由第一行往下讀至首個決定線索。</small></fieldset>
       <div class="curation-help-panel" id="curation-help-panel" hidden></div><div id="curation-route-card"></div><div id="curation-podcast-actions"></div><div id="curation-final"></div>
+      <section class="curation-evidence-bank" id="curation-evidence-bank" hidden aria-label="Task 證據庫"><div class="curation-bank-head"><strong>Task 證據庫</strong><span id="curation-bank-count"></span></div><div class="curation-bank-filters" role="group" aria-label="證據庫篩選"><button type="button" data-bank-filter="all" aria-pressed="true">全部</button><button type="button" data-bank-filter="A">A</button><button type="button" data-bank-filter="B">B</button><button type="button" data-bank-filter="C">C</button></div><ol id="curation-bank-list"></ol></section>
     </div>
     <details class="curation-save"><summary>自動儲存 · 匯出 / 匯入</summary><div class="curation-save-row"><label for="curation-slot">儲存格</label><select id="curation-slot" aria-label="選擇儲存格"></select><button type="button" id="curation-save-now">儲存</button><button type="button" id="curation-export">匯出</button><label class="curation-import-label">匯入<input id="curation-import" type="file" accept="application/json,.json"></label></div><small class="curation-save-status" id="curation-save-status" role="status"></small></details>`;
 
@@ -520,17 +553,22 @@
   }
   function inCategories() { return state.activeStage === 'categorization'; }
   function inPodcast() { return state.activeStage === 'podcast'; }
-  function currentList() { return inPodcast() ? podcastSteps : (inCategories() ? categories : steps); }
-  function current() { return inPodcast() ? (podcastSteps[state.podcastPosition] || podcastSteps[0]) : (inCategories() ? (categories[state.categoryPosition] || categories[0]) : (steps[state.position] || steps[0])); }
+  function inDataFile() { return state.activeStage === 'data-file'; }
+  function currentList() { return inDataFile() ? dataSteps : (inPodcast() ? podcastSteps : (inCategories() ? categories : steps)); }
+  function current() { return inDataFile() ? (dataSteps[state.dataPosition] || dataSteps[0]) : (inPodcast() ? (podcastSteps[state.podcastPosition] || podcastSteps[0]) : (inCategories() ? (categories[state.categoryPosition] || categories[0]) : (steps[state.position] || steps[0]))); }
   function pageLabel(item) {
     if (item.kind?.startsWith('podcast')) return item.kind === 'podcast-review' ? `2013 B2 · Travel Report 錄音稿 · ${formatDisplayTime(item.row.start - podcastModel.audio.segmentStart)}` : '2013 B2 · Data File 第 3 頁 · Travel Report';
+    if (item.kind === 'data-file') return `2013 B2 · Data File 第 ${item.page} 頁 · 逐句取證`;
     if (item.kind === 'category') return `2013 B2 · Data File 第 ${item.page} 頁 · 資料分類`;
     if (item.kind === 'route') return `來源路線 · Data File 第 ${item.routePage} 頁`;
     if (item.sourcePage <= 11) return `2013 B2 · Data File 第 ${item.sourcePage} 頁`;
     return `2013 B2 · Question-Answer Book 第 ${item.sourcePage - 11} 頁`;
   }
   function persist(message = '') {
-    if (inPodcast()) {
+    if (inDataFile()) {
+      state.dataCurrentStepId = current().id;
+      state.dataPosition = current().index;
+    } else if (inPodcast()) {
       state.podcastCurrentStepId = current().id;
       state.podcastPosition = current().index;
     } else if (inCategories()) {
@@ -560,17 +598,17 @@
       if (page?.hidden) $('[data-filter="all"]')?.click();
       return;
     }
-    const pageNumber = item.kind === 'category' ? item.page : (item.kind === 'route' ? item.routePage : item.sourcePage);
+    const pageNumber = item.kind === 'category' || item.kind === 'data-file' ? item.page : (item.kind === 'route' ? item.routePage : item.sourcePage);
     const page = $(`#page-${pageNumber}`);
     if (page?.hidden) $('[data-filter="all"]')?.click();
   }
 
   function priorStage1StepIsVisible(item) {
-    if (!inCategories() && !inPodcast()) return item.index <= state.position;
+    if (!inCategories() && !inPodcast() && !inDataFile()) return item.index <= state.position;
     // Stage 3 is a cumulative teaching surface. It must retain the complete
     // Stage 1 document analysis even when opened directly on a new origin or
     // in a browser that does not have the earlier completion record.
-    if (inPodcast()) return true;
+    if (inPodcast() || inDataFile()) return true;
     return state.stageComplete || state.completed.includes(item.id);
   }
 
@@ -578,7 +616,7 @@
     if (inCategories()) return item.index <= state.categoryPosition;
     // Stage 3 starts from the fully classified paper: all document stamps,
     // decisive clues, note stamps and listening-only strikes stay visible.
-    if (inPodcast()) return true;
+    if (inPodcast() || inDataFile()) return true;
     return false;
   }
 
@@ -587,8 +625,10 @@
     // paper and always reprojects the complete Stage 1/2 teaching ink.
     const reached = new Set(steps.filter(item => item.kind !== 'route' && priorStage1StepIsVisible(item)).map(item => item.id));
     $$('.curation-source-mark').forEach(mark => {
-      mark.classList.toggle('is-revealed', reached.has(mark.dataset.stepId));
-      mark.classList.toggle('is-current', !inCategories() && !inPodcast() && mark.dataset.stepId === current().id);
+      const dataItem = dataStepsById.get(mark.dataset.stepId);
+      const visible = dataItem ? (inDataFile() && dataItem.index <= state.dataPosition) : reached.has(mark.dataset.stepId);
+      mark.classList.toggle('is-revealed', visible);
+      mark.classList.toggle('is-current', ((!inCategories() && !inPodcast() && !inDataFile()) || inDataFile()) && mark.dataset.stepId === current().id);
     });
     for (const item of categories.filter(entry => entry.cluePhrase)) {
       item.targetNode?.classList.toggle('is-revealed', priorCategoryStepIsVisible(item));
@@ -600,6 +640,9 @@
     const item = current();
     if (inPodcast()) {
       item.focusTarget?.classList.add('curation-podcast-target');
+    } else if (inDataFile()) {
+      item.focusTarget?.classList.add('curation-source-target');
+      item.focusTarget?.setAttribute('data-curation-current', item.rejected ? 'excluded' : (item.task || 'neutral'));
     } else if (item.kind === 'category') {
       item.focusTarget?.classList.add('curation-category-target');
     } else if (item.kind === 'route') item.target?.classList.add('curation-route-target');
@@ -702,6 +745,31 @@
       }
       view.signature = signature;
     }
+  }
+
+  function syncEvidenceBank() {
+    const panel = $('#curation-evidence-bank', dock);
+    panel.hidden = !inDataFile();
+    if (!inDataFile()) return;
+    const reached = state.evidenceBankIds
+      .map(id => dataStepsById.get(id))
+      .filter(Boolean)
+      .filter(item => state.dataBankFilter === 'all' || item.task === state.dataBankFilter);
+    $('#curation-bank-count', panel).textContent = `${state.evidenceBankIds.length} 項已收錄`;
+    $$('[data-bank-filter]', panel).forEach(button => button.setAttribute('aria-pressed', String(button.dataset.bankFilter === state.dataBankFilter)));
+    const list = $('#curation-bank-list', panel);
+    list.replaceChildren();
+    for (const item of reached) {
+      const row = create('li', `task-${item.task}`);
+      const button = create('button');
+      button.type = 'button';
+      button.dataset.evidenceId = item.id;
+      button.innerHTML = `<span class="curation-bank-task">${item.task}</span><strong>${item.title}</strong><small>第 ${item.page} 頁 · ${item.sourcePhrase}</small>`;
+      button.addEventListener('click', () => goTo(item.index));
+      row.append(button);
+      list.append(row);
+    }
+    if (!reached.length) list.append(create('li', 'curation-bank-empty', state.evidenceBankIds.length ? '這個 Task 暫時未有已收錄證據。' : '完成可用證據步驟後，證據會在這裡出現。'));
   }
 
   const toDisplayTime = sourceTime => Math.min(Math.max(sourceTime - podcastModel.audio.segmentStart, 0), podcastModel.audio.segmentDuration);
@@ -984,7 +1052,9 @@
 
   function syncRoute() {
     const item = current();
-    if (!open || item.kind !== 'route' || !item.target?.isConnected) {
+    const routeTargetNode = inDataFile() ? item.routeNode : item.target;
+    const isRouteStep = item.kind === 'route' || (inDataFile() && item.routeNode);
+    if (!open || !isRouteStep || !routeTargetNode?.isConnected) {
       routeArrow.hidden = true;
       routeArrow.style.display = 'none';
       routeCallout.hidden = true;
@@ -992,13 +1062,13 @@
       lastRouteStepId = '';
       return;
     }
-    const rect = item.target.getBoundingClientRect();
+    const rect = routeTargetNode.getBoundingClientRect();
     if (!rect.width || !rect.height) return;
     const dockRect = dock.getBoundingClientRect();
     const calloutWidth = 240;
     const calloutLeft = Math.min(innerWidth - calloutWidth - 18, Math.max(dockRect.right + 18, rect.left + Math.min(rect.width * .55, 260)));
     const calloutTop = Math.max(112, Math.min(innerHeight - 105, rect.top - 78));
-    routeCallout.innerHTML = `<strong>從指示前往第 ${item.routePage} 頁</strong><span>${item.routeLabel}</span>`;
+    routeCallout.innerHTML = `<strong>${inDataFile() ? '跨頁核對' : `從指示前往第 ${item.routePage} 頁`}</strong><span>${item.routeLabel}</span>`;
     Object.assign(routeCallout.style, {left:`${calloutLeft}px`, top:`${calloutTop}px`});
     routeCallout.hidden = false;
     routeArrow.setAttribute('viewBox', `0 0 ${innerWidth} ${innerHeight}`);
@@ -1048,12 +1118,14 @@
     const item = current();
     helpOpen = false;
     document.body.classList.toggle('curation-stage-2', inCategories());
+    document.body.classList.toggle('curation-stage-4', inDataFile());
     document.body.classList.toggle('curation-podcast-review', inPodcast() && state.podcastPosition >= podcastStepsById.get('podcast-transcript-review-intro').index);
     syncMarks();
     syncTaskStamps();
     syncFactRouteStamps();
     syncCategoryStamps();
     syncNoteMarks();
+    syncEvidenceBank();
     // Clear any route overlay synchronously before a rapid Next/Back sequence
     // can paint the following source. The later focus pass redraws it when the
     // new step is itself a route.
@@ -1061,16 +1133,16 @@
     syncSpotlight();
     syncPodcastChrome();
     const list = currentList();
-    const completed = inPodcast() ? state.podcastCompleted : (inCategories() ? state.categoryCompleted : state.completed);
+    const completed = inDataFile() ? state.dataCompleted : (inPodcast() ? state.podcastCompleted : (inCategories() ? state.categoryCompleted : state.completed));
     $('#curation-step-count', dock).textContent = `${item.index + 1} / ${list.length} 步`;
     $('#curation-completion-count', dock).textContent = `${completed.length} 已完成`;
     $('#curation-source', dock).textContent = pageLabel(item);
     $('#curation-title', dock).textContent = item.title;
     const badge = $('#curation-badge', dock);
-    badge.textContent = inPodcast() ? item.badge : (inCategories() ? item.badge : (item.badge || '任務指示'));
+    badge.textContent = inDataFile() ? `${item.task ? `Task ${item.task} · ` : ''}${dataFileModel.evidenceTypes[item.evidenceType]}` : (inPodcast() ? item.badge : (inCategories() ? item.badge : (item.badge || '任務指示')));
     badge.className = `curation-badge${item.task ? ` task-${item.task}` : ''}`;
-    $('#curation-part-label', dock).textContent = inPodcast() ? 'PART 3 · PODCAST' : (inCategories() ? 'PART 2 · DATA CATEGORIZATION' : 'PART 1 · TASK INSTRUCTIONS');
-    $('#curation-stage-title', dock).textContent = inPodcast() ? 'Stage 3 · 聆聽錄音' : (inCategories() ? 'Stage 2 · 資料分類' : 'Stage 1 · 任務指示');
+    $('#curation-part-label', dock).textContent = inDataFile() ? 'PART 4 · DATA FILE' : (inPodcast() ? 'PART 3 · PODCAST' : (inCategories() ? 'PART 2 · DATA CATEGORIZATION' : 'PART 1 · TASK INSTRUCTIONS'));
+    $('#curation-stage-title', dock).textContent = inDataFile() ? 'Stage 4 · 逐句取證' : (inPodcast() ? 'Stage 3 · 聆聽錄音' : (inCategories() ? 'Stage 2 · 資料分類' : 'Stage 1 · 任務指示'));
     $('#curation-quote', dock).textContent = inCategories() ? item.sourceTitle : item.sourcePhrase;
     $('#curation-explanation', dock).innerHTML = `<p>${item.explanation}</p>`;
     const controls = $('#curation-category-controls', dock);
@@ -1081,13 +1153,15 @@
     }
     const help = $('#curation-help-panel', dock);
     help.hidden = true;
-    help.innerHTML = inPodcast()
+    help.innerHTML = inDataFile()
+      ? `<strong>取證判斷</strong><p>${item.help || (item.rejected ? '這句仍要讀，但不應收入成品。說出它被排除的原因，再繼續。' : '先說出它支援哪一項任務，以及可否直接收入證據庫。')}</p><small>穩定步驟 ID：${item.id} · 證據類型 ${item.evidenceType}</small>`
+      : inPodcast()
       ? `<strong>再聽／再判斷</strong><p>${item.help}</p>${item.cue ? `<small>Replay start ${formatDisplayTime(toDisplayTime(item.cue.replayStart))} · endpoint ${formatDisplayTime(toDisplayTime(item.cue.endpoint))} · ${item.cue.timestampConfidence} confidence</small>` : ''}`
       : inCategories()
       ? `<strong>再看一次分類理由</strong><p>${item.help}</p>${item.choiceRequired ? `<small>先標分類：${item.initialTasks.map(task => `Task ${task}`).join(' + ')}。Stage 4 逐句閱讀後才修正取證，不在 Stage 2 預讀答案。</small>` : ''}`
       : (item.help || '先說出這句屬於「身分、讀者、文類、必寫內容、來源、限制」哪一類，再檢查它是否能直接放進答案。');
     const routeCard = $('#curation-route-card', dock);
-    routeCard.innerHTML = item.kind === 'route' ? `<div class="curation-route-card"><strong>只建立路線，不取答案</strong>定位：Data File 第 ${item.routePage} 頁 · ${item.routeLabel}</div>` : '';
+    routeCard.innerHTML = item.kind === 'route' ? `<div class="curation-route-card"><strong>只建立路線，不取答案</strong>定位：Data File 第 ${item.routePage} 頁 · ${item.routeLabel}</div>` : (inDataFile() && item.routeTarget ? `<div class="curation-route-card"><strong>跨頁核對</strong>${item.routeLabel}</div>` : '');
     const podcastActions = $('#curation-podcast-actions', dock);
     podcastActions.replaceChildren();
     if (inPodcast() && item.cue) {
@@ -1099,8 +1173,10 @@
       podcastActions.append(decision);
     }
     const isCategoryFinal = inCategories() && item.index === categories.length - 1;
-    $('#curation-final', dock).innerHTML = item.kind === 'podcast-final'
-      ? '<div class="curation-final">✓ Part 3 最後一步：錄音、28 個停頓點和完整錄音稿已核對。Stage 4–5 尚未開放。</div>'
+    $('#curation-final', dock).innerHTML = inDataFile() && item.final
+      ? '<div class="curation-final">✓ Part 4 最後一步：第 5–11 頁、跨頁更新和 Task 證據庫已核對。Stage 5 Writing 仍未開放。</div>'
+      : item.kind === 'podcast-final'
+      ? '<div class="curation-final">✓ Part 3 最後一步：錄音、28 個停頓點和完整錄音稿已核對。可自由進入 Stage 4 逐句取證。</div>'
       : isCategoryFinal
       ? '<div class="curation-final">✓ Part 2 最後一個筆記欄目。完成後保存資料分類並標記 Stage 2 完成；亦可直接選 Stage 3。</div>'
       : (!inCategories() && item.final ? '<div class="curation-final">✓ Part 1 最後一步：三項任務合約已完整核對。完成後可進入 Stage 2 資料分類。</div>' : '');
@@ -1111,7 +1187,10 @@
     $('#curation-bookmark-jump', dock).textContent = state.bookmarks.length ? `${state.bookmarks.length} 個書籤` : '選擇書籤';
     $('#curation-prev', dock).disabled = item.index === 0;
     const next = $('#curation-next', dock);
-    if (inPodcast()) {
+    if (inDataFile()) {
+      next.disabled = item.final && state.dataStageComplete;
+      next.textContent = item.final ? (state.dataStageComplete ? 'Stage 4 已完成 ✓' : '完成 Stage 4 ✓') : (item.bank ? '收錄證據並繼續 →' : '下一步 →');
+    } else if (inPodcast()) {
       const cueReady = !item.cue || state.heardCueIds.includes(item.cue.id);
       next.disabled = !cueReady || (item.final && state.podcastStageComplete);
       next.textContent = item.final ? (state.podcastStageComplete ? 'Stage 3 已完成 ✓' : '完成 Stage 3 ✓') : (item.cue && !cueReady ? '先播放至停頓點' : '下一步 →');
@@ -1124,21 +1203,21 @@
       next.textContent = item.final ? (state.stageComplete ? '進入 Stage 2 →' : '完成 Stage 1 ✓') : '下一步 →';
     }
     $('#curation-spotlight', dock).checked = state.spotlight;
-    const activeStageIndex = inPodcast() ? 2 : (inCategories() ? 1 : 0);
+    const activeStageIndex = inDataFile() ? 3 : (inPodcast() ? 2 : (inCategories() ? 1 : 0));
     for (const [index, stageItem] of model.stages.entries()) {
       const button = $(`[data-stage-id="${stageItem.id}"]`, stage);
       const active = index === activeStageIndex;
       // Free access is independent of completion: visiting Stage 3 must not
       // falsely award completion ticks to Stage 1 or Stage 2.
-      const done = (index === 0 && state.stageComplete) || (index === 1 && state.categoryStageComplete) || (index === 2 && state.podcastStageComplete);
+      const done = (inDataFile() && index < 3) || (index === 0 && state.stageComplete) || (index === 1 && state.categoryStageComplete) || (index === 2 && state.podcastStageComplete) || (index === 3 && state.dataStageComplete);
       button.classList.toggle('active', active);
       button.classList.toggle('done', done);
-      button.disabled = index > 2;
+      button.disabled = index > 3;
       button.toggleAttribute('aria-current', active);
       $('.curation-stage-dot', button).textContent = done ? '✓' : String(index + 1);
       $('.curation-stage-count', button).textContent = index === 0
-        ? (state.stageComplete ? '完成' : `${state.position + 1}/${steps.length}`)
-        : (index === 1 ? (state.categoryStageComplete ? '完成' : `${state.categoryPosition + 1}/${categories.length}`) : (index === 2 ? (state.podcastStageComplete ? '完成' : `${state.podcastPosition + 1}/${podcastSteps.length}`) : '未開放'));
+        ? (state.stageComplete || inDataFile() ? '完成' : `${state.position + 1}/${steps.length}`)
+        : (index === 1 ? (state.categoryStageComplete || inDataFile() ? '完成' : `${state.categoryPosition + 1}/${categories.length}`) : (index === 2 ? (state.podcastStageComplete || inDataFile() ? '完成' : `${state.podcastPosition + 1}/${podcastSteps.length}`) : (index === 3 ? (state.dataStageComplete ? '完成' : `${state.dataPosition + 1}/${dataSteps.length}`) : '未開放')));
     }
     $('.curation-stage-fill', stage).style.width = `${activeStageIndex * 20}%`;
     persist();
@@ -1146,7 +1225,10 @@
   }
 
   function goTo(index, options = {}) {
-    if (inPodcast()) {
+    if (inDataFile()) {
+      state.dataPosition = Math.min(Math.max(index, 0), dataSteps.length - 1);
+      state.dataCurrentStepId = current().id;
+    } else if (inPodcast()) {
       audio.pause();
       playbackTarget = null;
       state.podcastPosition = Math.min(Math.max(index, 0), podcastSteps.length - 1);
@@ -1162,7 +1244,7 @@
   }
 
   function switchStage(stageId, options = {}) {
-    state.activeStage = ['categorization','podcast'].includes(stageId) ? stageId : 'instructions';
+    state.activeStage = ['categorization','podcast','data-file'].includes(stageId) ? stageId : 'instructions';
     render(options.focus !== false);
   }
 
@@ -1192,7 +1274,7 @@
     const list = $('#curation-picker-list', picker);
     list.replaceChildren();
     $('#curation-picker-title', picker).textContent = kind === 'bookmark' ? '已儲存的書籤' : '跳至步驟';
-    const lookup = id => stepsById.get(id) || categoriesById.get(id) || podcastStepsById.get(id);
+    const lookup = id => stepsById.get(id) || categoriesById.get(id) || podcastStepsById.get(id) || dataStepsById.get(id);
     const source = kind === 'bookmark' ? state.bookmarks.map(lookup).filter(Boolean) : currentList();
     for (const item of source) {
       const button = create('button', 'curation-picker-option');
@@ -1205,6 +1287,7 @@
         if (stepsById.has(item.id)) state.activeStage = 'instructions';
         else if (categoriesById.has(item.id)) state.activeStage = 'categorization';
         else if (podcastStepsById.has(item.id)) state.activeStage = 'podcast';
+        else if (dataStepsById.has(item.id)) state.activeStage = 'data-file';
         goTo(item.index);
       });
       list.append(button);
@@ -1217,9 +1300,22 @@
 
   launch.addEventListener('click', () => setOpen(!open));
   $('#curation-close', dock).addEventListener('click', () => setOpen(false));
-  $('#curation-prev', dock).addEventListener('click', () => goTo((inPodcast() ? state.podcastPosition : (inCategories() ? state.categoryPosition : state.position)) - 1));
+  $('#curation-prev', dock).addEventListener('click', () => goTo((inDataFile() ? state.dataPosition : (inPodcast() ? state.podcastPosition : (inCategories() ? state.categoryPosition : state.position))) - 1));
   $('#curation-next', dock).addEventListener('click', () => {
     const item = current();
+    if (inDataFile()) {
+      if (!state.dataCompleted.includes(item.id)) state.dataCompleted.push(item.id);
+      if (!state.reachedEvidenceIds.includes(item.id)) state.reachedEvidenceIds.push(item.id);
+      if (item.bank && !state.evidenceBankIds.includes(item.id)) state.evidenceBankIds.push(item.id);
+      if (item.final) {
+        state.dataStageComplete = state.dataCompleted.length === dataSteps.length;
+        render(false);
+        $('#curation-save-status', dock).textContent = state.dataStageComplete ? 'Stage 4 已完成並保存；Stage 5 Writing 仍未開放。' : '仍有 Stage 4 步驟未完成；可用步驟選單返回。';
+        return;
+      }
+      goTo(item.index + 1);
+      return;
+    }
     if (inPodcast()) {
       if (item.cue && !state.heardCueIds.includes(item.cue.id)) return;
       if (!state.podcastCompleted.includes(item.id)) state.podcastCompleted.push(item.id);
@@ -1227,7 +1323,7 @@
       if (item.final) {
         state.podcastStageComplete = state.podcastCompleted.length === podcastSteps.length;
         render(false);
-        $('#curation-save-status', dock).textContent = state.podcastStageComplete ? 'Stage 3 已完成並保存；Stage 4–5 尚未開放。' : '仍有 Stage 3 步驟未完成；可用步驟選單返回。';
+        $('#curation-save-status', dock).textContent = state.podcastStageComplete ? 'Stage 3 已完成並保存；可自由進入 Stage 4。' : '仍有 Stage 3 步驟未完成；可用步驟選單返回。';
         return;
       }
       const nextItem = podcastSteps[item.index + 1];
@@ -1294,6 +1390,14 @@
   $('[data-stage-id="instructions"]', stage).addEventListener('click', () => switchStage('instructions'));
   $('[data-stage-id="categorization"]', stage).addEventListener('click', () => switchStage('categorization'));
   $('[data-stage-id="podcast"]', stage).addEventListener('click', () => switchStage('podcast'));
+  $('[data-stage-id="data-file"]', stage).addEventListener('click', () => switchStage('data-file'));
+  $('#curation-evidence-bank', dock).addEventListener('click', event => {
+    const filter = event.target.closest('[data-bank-filter]')?.dataset.bankFilter;
+    if (!filter) return;
+    state.dataBankFilter = filter;
+    syncEvidenceBank();
+    persist('證據庫篩選已保存。');
+  });
   $('#curation-step-jump', dock).addEventListener('click', () => showPicker('step'));
   $('#curation-bookmark-jump', dock).addEventListener('click', () => showPicker('bookmark'));
   $('#curation-picker-close', picker).addEventListener('click', () => picker.close());
@@ -1474,7 +1578,7 @@
   window.visualViewport?.addEventListener('resize', handleViewportChange);
   document.addEventListener('keydown', event => {
     if (!open || /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName)) return;
-    if (event.key === 'ArrowLeft' && !$('#curation-prev', dock).disabled) { event.preventDefault(); goTo((inPodcast() ? state.podcastPosition : (inCategories() ? state.categoryPosition : state.position)) - 1); }
+    if (event.key === 'ArrowLeft' && !$('#curation-prev', dock).disabled) { event.preventDefault(); goTo((inDataFile() ? state.dataPosition : (inPodcast() ? state.podcastPosition : (inCategories() ? state.categoryPosition : state.position))) - 1); }
     if (event.key === 'ArrowRight' && !$('#curation-next', dock).disabled) { event.preventDefault(); $('#curation-next', dock).click(); }
     if (event.key === 'Escape' && !picker.open) setOpen(false);
   });
@@ -1484,6 +1588,7 @@
     steps,
     categories,
     podcastSteps,
+    dataSteps,
     podcastCues:podcastModel.cues,
     missingTargets: missing,
     getState: () => JSON.parse(JSON.stringify(state)),
@@ -1491,9 +1596,11 @@
       const stage1Item = stepsById.get(id);
       const categoryItem = categoriesById.get(id);
       const podcastItem = podcastStepsById.get(id);
+      const dataItem = dataStepsById.get(id);
       if (stage1Item) { switchStage('instructions', {focus:false}); goTo(stage1Item.index); }
       if (categoryItem) { switchStage('categorization', {focus:false}); goTo(categoryItem.index); }
       if (podcastItem) { switchStage('podcast', {focus:false}); goTo(podcastItem.index); }
+      if (dataItem) { switchStage('data-file', {focus:false}); goTo(dataItem.index); }
     },
     switchStage,
     setOpen,
@@ -1514,7 +1621,12 @@
   const directStage1Step = stepsById.get(queryStep);
   const directStage2Step = categoriesById.get(queryStep);
   const directStage3Step = podcastStepsById.get(queryStep);
-  if (directStage1Step) {
+  const directStage4Step = dataStepsById.get(queryStep);
+  if (directStage4Step) {
+    state.activeStage = 'data-file';
+    state.dataPosition = directStage4Step.index;
+    state.dataCurrentStepId = directStage4Step.id;
+  } else if (directStage1Step) {
     state.activeStage = 'instructions';
     state.position = directStage1Step.index;
     state.currentStepId = directStage1Step.id;
@@ -1526,6 +1638,8 @@
     state.activeStage = 'podcast';
     state.podcastPosition = directStage3Step.index;
     state.podcastCurrentStepId = directStage3Step.id;
+  } else if (['4', 'part4', 'stage4', 'data-file', 'datafile'].includes(String(queryStage).toLowerCase())) {
+    state.activeStage = 'data-file';
   } else if (['3', 'part3', 'stage3', 'podcast'].includes(String(queryStage).toLowerCase())) {
     state.activeStage = 'podcast';
   } else if (['2', 'part2', 'stage2', 'categorization'].includes(String(queryStage).toLowerCase())) {

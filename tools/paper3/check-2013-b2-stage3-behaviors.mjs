@@ -17,7 +17,7 @@ await page.goto(`${base}/paper3/2013-b2/?curation=1&stage=3`, {waitUntil:'networ
 await page.evaluate(() => localStorage.clear());
 await page.reload({waitUntil:'networkidle'});
 await page.waitForFunction(() => window.__EDMUND_2013_SUPER_CURATION__?.categories?.length === 14);
-assert.equal(await page.locator('.curation-source-mark:not(.is-revealed)').count(), 0, 'fresh Stage 3 keeps every Stage 1 mark');
+assert.equal(await page.locator('.curation-source-mark:not([data-step-id^="data-"]):not(.is-revealed)').count(), 0, 'fresh Stage 3 keeps every Stage 1 mark');
 assert.deepEqual(await page.locator('.curation-category-stamps .curation-fact-stamp').allTextContents(), ['B','B','B','C','C','A','C','A']);
 assert.equal(await page.locator('.curation-category-clue.is-revealed').count(), 4);
 assert.deepEqual(await page.locator('.curation-note-stamps .curation-fact-stamp').allTextContents(), ['A','C']);
@@ -44,7 +44,7 @@ assert.equal(await page.locator('.curation-transcript-row').count(), 154);
 assert.equal(await page.locator('.curation-transcript-row.is-locked').count(), 0, 'the complete transcript remains inspectable');
 
 const cumulativeInk = await page.evaluate(() => ({
-  hiddenStage1Marks:[...document.querySelectorAll('.curation-source-mark')]
+  hiddenStage1Marks:[...document.querySelectorAll('.curation-source-mark:not([data-step-id^="data-"])')]
     .filter(node => !node.classList.contains('is-revealed')).map(node => node.dataset.stepId),
   bossStamps:[...document.querySelectorAll('[data-curation-task].curation-task-revealed')]
     .map(node => node.dataset.curationTask),
@@ -74,7 +74,7 @@ assert.equal(cumulativeInk.revealedCategoryClues, 4);
 await page.evaluate(() => history.replaceState(null, '', `${location.pathname}?curation=1&stage=3`));
 await page.reload({waitUntil:'networkidle'});
 await page.waitForFunction(() => window.__EDMUND_2013_SUPER_CURATION__?.getState().activeStage === 'podcast');
-assert.equal(await page.locator('.curation-source-mark:not(.is-revealed)').count(), 0);
+assert.equal(await page.locator('.curation-source-mark:not([data-step-id^="data-"]):not(.is-revealed)').count(), 0);
 assert.equal(await page.locator('.curation-category-stamps .curation-fact-stamp').count(), 8);
 assert.equal(await page.locator('.curation-note-stamps .curation-fact-stamp').count(), 2);
 assert.equal(await page.locator('.curation-note-noise').count(), 3);
