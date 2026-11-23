@@ -63,6 +63,44 @@ export function grammarModules(source, document) {
 }
 function answer(q) { return q.answer || (q.answers || q.acceptedAnswers || []).join(' / '); }
 function explanation(q) { return q.steps?.map(s=>`${s.title}\n${s.body}`).join('\n\n') || (Array.isArray(q.explanation)?q.explanation.join('\n'):text(q.explanation)); }
+function explanationSteps(q) {
+  if (Array.isArray(q.steps) && q.steps.length) return q.steps.map((step,index)=>({
+    title:text(step?.title || `步驟 ${index+1}`),
+    body:text(step?.body || step?.text || '')
+  }));
+  const lines=(Array.isArray(q.explanation)?q.explanation:[q.explanation]).flatMap(value=>text(value).split(/\n+/)).map(value=>value.trim()).filter(Boolean);
+  if (!lines.length) return [{title:'完整解析',body:'此題的參考答案已列於上方。'}];
+  const steps=[];
+  for (const line of lines) {
+    const heading=line.match(/^(步驟(?:[一二三四五六七八九十]+|\d+))[：:]?\s*(.*)$/u);
+    if (heading) {
+      steps.push({title:heading[1]+(heading[2]?`：${heading[2]}`:''),body:''});
+      continue;
+    }
+    if (!steps.length) steps.push({title:'解題重點',body:line});
+    else steps.at(-1).body=[steps.at(-1).body,line].filter(Boolean).join('\n');
+  }
+  return steps;
+}
+function optionText(option,index) {
+  if (typeof option === 'string') return {label:String.fromCharCode(65+index),text:option};
+  return {label:text(option?.label || String.fromCharCode(65+index)),text:text(option?.text || option?.value || '')};
+}
+export function exerciseReviewItems(module) {
+  return (module.questions || []).map((q,index)=>({
+    id:text(q.id || `${module.id || 'module'}-${q.number || index+1}`),
+    number:q.number || index+1,
+    section:text(q.section || q.stage || q.tense || q.topic || ''),
+    instruction:text(q.instructionEn || q.instruction || ''),
+    context:text(q.context || q.passage || ''),
+    prompt:text(q.prompt),
+    translation:text(q.translation),
+    options:(q.options || []).map(optionText),
+    answer:text(answer(q)),
+    completeSentence:text(q.completeSentence).trim(),
+    steps:explanationSteps(q)
+  }));
+}
 function checkpointText(c) {return [c.prompt,...c.choices.map((v,i)=>`${String.fromCharCode(65+i)}. ${v}`),`答案：${String.fromCharCode(65+c.answer)}`,c.whyPrompt,...c.whyChoices.map((v,i)=>`${String.fromCharCode(65+i)}. ${v}`),`原因答案：${String.fromCharCode(65+c.whyAnswer)}`,c.explanation].join('\n');}
 export const curationLines = value => text(value).replace(/。([）)」』】”’]*)[ \t]*(?:\r?\n[ \t]*)?(?=[^\s）)」』】”’])/gu, '。$1\n');
 export function exportSections(module, kind) {
