@@ -12,6 +12,10 @@ Stage 3 now delivers the complete 2013 *Travel Report* guided-listening experien
 
 The learner can freely open Stages 1, 2 or 3. Access does not falsely mark an earlier stage complete. Stage 4 (Data File close reading) and Stage 5 (Writing) remain disabled and contain no teaching sequence.
 
+### 23 November 2026 layout correction
+
+A reported final-cue defect was reproduced at 2010×1374: current-target emphasis changed the podcast player from fixed viewport chrome into a relatively positioned document section, and the focus routine then scrolled the reader to the end of the paper. The correction gives the player/transcript explicit fixed-position ownership, prevents podcast chrome from being passed to document `scrollIntoView()`, scrolls transcript rows only inside their floating body, and re-clamps a moved transcript after viewport changes. The final cue now keeps Data File page 3 visible and aligned, with the player directly below the stage rail and above the transcript.
+
 ## Teaching flow
 
 The opening step locates the original Data File page-3 note sheet and explains the difference between normal Play and explicit Replay. Each cue then plays the actual 2013 MP3 to a verified answer boundary, pauses once, focuses the correct original field, renders a separate generated note, and explains the decision in Traditional Chinese. The sequence distinguishes:
@@ -90,7 +94,8 @@ All tests load the production HTML/CSS/JavaScript. No test injects a substitute 
 | Authentic audio cue pass | PASS — all 28 explicit replay intervals stop at their declared endpoint |
 | Playback-speed matrix | PASS — 28 cues × five supported rates (140 authentic-audio runs) |
 | Normal Play vs Replay | PASS — Play resumes; Replay returns to the declared cue start |
-| Seek/manual scroll/window controls | PASS — forward seek restores crossed notes/marks, backward seek removes later state; free scroll disables follow; explicit review targets the row; drag/resize/reset pass |
+| Seek/manual scroll/window controls | PASS — forward seek restores crossed notes/marks, backward seek removes later state; transcript follow never scrolls the paper; free scroll disables follow; explicit review targets the row; drag/resize/reset pass |
+| Final-cue layout regression | PASS — exact reported 2010×1374 viewport, spotlight off; player remains fixed below rail/right of dock, transcript remains in viewport, and Data File page 3 remains visible |
 | Transcript visibility/classification | PASS — 154 English rows always visible; 39 point rows; 115 non-point rows; strikes affect copy but not speaker labels |
 | Traditional Chinese layer | PASS — 154/154 translated rows, toggle on/off, English retained, preference restored after reload |
 | Reload/state | PASS — beginning, middle and final restoration; bounded currentTime and learner text retained; no autoplay |
@@ -103,20 +108,21 @@ All tests load the production HTML/CSS/JavaScript. No test injects a substitute 
 
 ### Wide-desktop screenshots
 
-The verified 1800×1100 screenshot set is in `outputs/2013-b2-stage3-v2/`:
+The verified screenshot set is in `outputs/2013-b2-stage3-v2/`. Twelve journey views use 1800×1100; the dedicated reported-layout regression uses 2010×1374:
 
 1. `01-first-step-spotlight-on.png`
 2. `02-chinese-line-by-line.png`
 3. `03-forward-seek-reveals-notes-and-strikes.png`
-4. `04-active-cue-before-playback.png`
-5. `05-generated-note-automatic-pause.png`
-6. `06-task-a-evidence.png`
-7. `07-middle-qualification.png`
-8. `08-correction-cue.png`
-9. `09-task-c-evidence.png`
-10. `10-spotlight-off.png`
-11. `11-transcript-review.png`
-12. `12-final-stage-complete.png`
+4. `03a-final-cue-layout-regression.png` (2010×1374, spotlight off)
+5. `04-active-cue-before-playback.png`
+6. `05-generated-note-automatic-pause.png`
+7. `06-task-a-evidence.png`
+8. `07-middle-qualification.png`
+9. `08-correction-cue.png`
+10. `09-task-c-evidence.png`
+11. `10-spotlight-off.png`
+12. `11-transcript-review.png`
+13. `12-final-stage-complete.png`
 
 Together they show the first step, complete bilingual transcript, forward-seek note/strike restoration, floating audio controls, active/paused cue states, generated notes, Task A/Task C decisions, a correction, transcript review, non-spotlight usability and final completion.
 
