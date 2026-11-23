@@ -52,7 +52,7 @@ async function openStage3(browserType, name, full = false) {
   });
   page.on('response', response => { if (response.status() >= 400) networkIssues.push(`${response.status()} ${response.url()}`); });
   try {
-    await page.goto(url, {waitUntil: 'networkidle'});
+    await page.goto(url, {waitUntil: 'domcontentloaded'});
     await page.locator('#curation-title').waitFor();
     assert.equal(await page.locator('.curation-stage-item[data-stage="podcast"]').isDisabled(), false, `${name}: Stage 3 must be directly accessible`);
     await page.locator('.curation-stage-item[data-stage="podcast"]').click();
@@ -77,7 +77,7 @@ async function openStage3(browserType, name, full = false) {
       steps:61, fields:4, cues:13, transcript:44, options:61, disabledOptions:0,
       nativeFields:4, evidencePanels:4, pins:13, transcriptRows:44,
       disabledStages:['data','writing'], title:'Listening note-taking sheet for podcast Nosing Around',
-      badges:['不取材','B','不取材','A'], audioSrc:'/paper3/2016-b2/part-b-podcast.mp3'
+      badges:['不取材','B','不取材','A'], audioSrc:'https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3'
     }, `${name}: Stage 3 DOM contract`);
     assert.equal(contract.title.includes('?'), false, `${name}: podcast title must not have question mark`);
     assert.equal(await page.locator('#page-4 .curation-file-stamp:not([hidden])').count(), 0, `${name}: boss letter must not have a stamp`);
@@ -150,7 +150,7 @@ async function openStage3(browserType, name, full = false) {
     await page.locator('#curation-bookmark').click();
     await page.screenshot({path: path.join(output, '2016-b2-stage3-transcript-selective.png'), fullPage:false});
     const persistedStep = (await page.evaluate(() => window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.getState())).stepId;
-    await page.reload({waitUntil:'networkidle'});
+    await page.reload({waitUntil:'domcontentloaded'});
     await page.waitForFunction(() => window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG?.getState().active === true);
     const restored = await page.evaluate(() => window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.getState());
     assert.equal(restored.stepId, persistedStep);

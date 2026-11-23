@@ -1,16 +1,14 @@
 import assert from 'node:assert/strict';
-import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
-import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 const transcriptPath = path.join(root, 'dse-listening-2016-transcript.js');
 const dataPath = path.join(root, 'paper3/2016-b2/super-curation-stage3-data.js');
-const audioPath = path.join(root, 'paper3/2016-b2/part-b-podcast.mp3');
+const provenance = JSON.parse(read('paper3/2016-b2/recording-provenance.json'));
 const sandbox = {window: {}};
 vm.runInNewContext(fs.readFileSync(transcriptPath, 'utf8'), sandbox, {filename: transcriptPath});
 vm.runInNewContext(fs.readFileSync(dataPath, 'utf8'), sandbox, {filename: dataPath});
@@ -55,12 +53,11 @@ assert.equal(data.transcript.some(turn => turn.text.includes('Indy Wong')), true
 assert.equal(data.transcript.some(turn => turn.sourceText.includes('Indi Wong')), true);
 assert.deepEqual(Array.from(data.cues.find(cue => cue.id === 'plough-qualified-uniqueness').rejectedTranscriptIndexes), [39,40]);
 
-assert.equal(fs.existsSync(audioPath), true);
-const hash = crypto.createHash('sha256').update(fs.readFileSync(audioPath)).digest('hex');
-assert.equal(hash, data.audio.sha256);
-const probe = JSON.parse(execFileSync('ffprobe', ['-v','error','-show_entries','format=duration,size','-of','json',audioPath], {encoding:'utf8'}));
-assert.equal(Number(probe.format.duration), 831.63);
-assert.equal(Number(probe.format.size), 9980375);
+assert.equal(data.audio.src, data.audio.sourceUrl);
+assert.equal(provenance.sourceUrl, data.audio.sourceUrl);
+assert.equal(provenance.sha256, data.audio.sha256);
+assert.equal(provenance.durationSeconds, 831.63);
+assert.equal(provenance.bytes, 9980375);
 
 assert.match(controller, /document\.createElement\('audio'\)/);
 assert.match(controller, /audio\.src = data\.audio\.src/);
