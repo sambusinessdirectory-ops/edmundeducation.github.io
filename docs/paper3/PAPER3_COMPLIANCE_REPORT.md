@@ -2,7 +2,7 @@
 
 ## 2013 B2 Super Curation — Part 3 / Podcast
 
-- Release: `2013-b2-stage3-v1`
+- Release: `2013-b2-stage3-v2`
 - Scope: preserved 52-step Part 1, preserved 14-step Part 2, and 185 Stage 3 steps (one orientation, 28 audio cues, one review orientation, 154 transcript rows and one completion step)
 - Status: verified locally at 1800 × 1100 in Chromium and smoke-tested in Firefox
 - Access: Stages 1–3 and every stable step are independently selectable; access and completion are separate states
@@ -12,7 +12,7 @@
 
 The Stage 3 interaction follows the 2025 Stage 3 controller/CSS, the 157-page code-annotated Stage 3 screenshot reference and Golden Manual v8.2 as product-design evidence. All audio content, timings, note destinations, speakers, transcript rows and decisions come from the 2013 Part B MP3, the supplied 2013 timed transcript, the reconstructed 2013 page-3 note sheet and the 2013 fact-line analysis. No 2025 answer, timestamp, transcript wording or note field was transferred.
 
-The authoritative MP3 is 981.169456 seconds, 96 kbps, 44.1 kHz mono, SHA-256 `903f2353349166c2bd3fb0805376802a2cc217bcc00505014e78bbea0a2d0baa`. Stage 3 teaches source 388.20–980.02 as a bounded 591.82-second segment. The supplied English alignment contributes 154 rows. No aligned Chinese 2013 transcript exists, so the disabled “中文未提供” control exposes the limitation rather than fabricating a translation.
+The authoritative MP3 is 981.169456 seconds, 96 kbps, 44.1 kHz mono, SHA-256 `903f2353349166c2bd3fb0805376802a2cc217bcc00505014e78bbea0a2d0baa`. Stage 3 teaches source 388.20–980.02 as a bounded 591.82-second segment. The supplied English alignment contributes 154 rows and remains visible in full. A separate professional Hong Kong Traditional Chinese teaching translation maps one-to-one to those rows; it is labelled as a translation and never replaces the English source. The explicit transcript decision table contains 39 useful-point rows and 115 non-point rows.
 
 ### Requirement evidence
 
@@ -20,15 +20,15 @@ The authoritative MP3 is 981.169456 seconds, 96 kbps, 44.1 kHz mono, SHA-256 `90
 |---|---|---|
 | V7-SRC-01 / V8-SRC-03 | Separate 28-record podcast data model, 185-row mapping and complete cue ledger | Unique IDs, zero missing targets, exact cue/field/transcript/code mapping |
 | V7-NAV-01 | Free Stage 1–3 stage buttons, stable query routing, picker, Previous/Next and cue gate | 185-step forward/reverse journey; Stage 4–5 disabled |
-| V7-STATE-01 | Schema 4 persists stable Stage 3 IDs, completion, heard/generated cues, transcript reviews, preferences, bookmarks and bounded currentTime | beginning/middle/final reloads, no autoplay, backward future-note suppression, prior version migration |
+| V7-STATE-01 | Schema 5 persists stable Stage 3 IDs, completion, heard/generated cues, transcript reviews, Chinese visibility, preferences, bookmarks and bounded currentTime | beginning/middle/final reloads, no autoplay, deterministic forward/back seek reconciliation, prior-version migration |
 | V7-ROUTE-01 / V7-BOSS-01 | Cue destination records focus only the authentic page-3 field; task decisions remain A/C or listening-only | all 28 field mappings, no Stage 4 evidence or Stage 5 writing disclosure |
-| V7-A11Y-01 | Named player/transcript controls, keyboard buttons, visible transcript state, textual playback state, no focus trap | production DOM journey and Firefox smoke |
-| V7-MOTION-01 | Follow mode, explicit review targeting, movable/resizable transcript and reduced-motion fallbacks | free-scroll/follow, focus, drag, resize, reset and reduced-motion CSS checks |
+| V7-A11Y-01 | Named player/transcript/translation controls, keyboard buttons, complete visible English transcript, textual playback state, no focus trap | production DOM journey and Firefox smoke |
+| V7-MOTION-01 | Endpoint-driven semantic marks, reversible red strikes, follow mode, explicit review targeting, movable/resizable transcript and reduced-motion fallbacks | forward/back scrub, free-scroll/follow, focus, drag, resize, reset and reduced-motion CSS checks |
 | V7-TEST-01 / TEST-02 | Production asset tests exercise the authentic remote MP3 | 28-cue journey, 140-run speed matrix, Stage 1/2 regression and unchanged 2025 smoke |
 
 ### Verification record
 
-Passed: JavaScript syntax; 185 unique stable steps; 28 cue boundaries; 154 transcript-review rows; all 28 cues at 0.75x, 1x, 1.25x, 1.5x and 2x; normal Play versus explicit Replay; manual pause/resume; forward/back seeking without reveal; repeated replay deduplication; Previous during playback; cue-gated Next; first/middle/final reload; transcript free scroll and explicit row targeting; drag/resize/reset; spotlight on/off and persisted-off; one player/transcript after re-entry; recording close; console-error audit; Firefox structure and real-audio cue; 52-step Stage 1 regression; 14-step Stage 2 regression; unchanged 2025 smoke mount; ten 1800×1100 Stage 3 screenshots.
+Passed: JavaScript syntax; 185 unique stable steps; 28 cue boundaries; 154 always-visible English transcript rows; 154/154 Traditional Chinese translations; 39 point and 115 non-point decisions; all 28 cues at 0.75x, 1x, 1.25x, 1.5x and 2x; normal Play versus explicit Replay; manual pause/resume; deterministic forward/back seeking; reversible transcript strikes; repeated replay deduplication; Previous during playback; cue-gated Next; beginning/middle/final reload; translation preference restore; transcript free scroll and explicit row targeting; drag/resize/reset; spotlight on/off and persisted-off; one player/transcript after re-entry; recording close; console-error audit; Firefox structure and real-audio cue; 52-step Stage 1 regression; 14-step Stage 2 regression; unchanged 2025 smoke mount; twelve 1800×1100 Stage 3 screenshots.
 
 See `2013_B2_STAGE3_CUE_LEDGER.md`, `2013_B2_STAGE3_SOURCE_MAPPING.md` and `2013_B2_STAGE3_IMPLEMENTATION_REPORT.md` for the complete release evidence.
 
