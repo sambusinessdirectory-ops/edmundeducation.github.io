@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": "2013-b2-stage3-v1",
+  "release": "2013-b2-stage3-v2",
   "scope": "2013 DSE Paper 3 B2 Super Curation Parts 1-3, with Stages 4-5 locked and existing 2015 records retained",
   "authority": [
     "Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf",
@@ -13,42 +13,42 @@
   "files": [
     {
       "path": "paper3/2013-b2/index.html",
-      "sha256": "74e41d53309858655680e742a4118f5ab2dc5f5cd79a94f1e490715d37e75706",
+      "sha256": "739d5c051cae7411293967dbd0a8db842bc913e70530098622b45511ab7f6973",
       "requirements": [
         "V7-GOV-01",
         "V7-STATE-01",
         "V7-TEST-01"
       ],
-      "evidence": "Loads the separate Stage 3 cue data and controller under cache version 20261122b; preserves the authentic page-3 note sheet, corrects the four Adrian statistics blanks and keeps learner and generated-note controls separate.",
+      "evidence": "Loads the separate Stage 3 cue data and controller under cache version 20261123a; preserves the authentic page-3 note sheet, corrects the four Adrian statistics blanks and keeps learner and generated-note controls separate.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation-data.js",
-      "sha256": "0268bf60cb7a155051798e546530aecd72995d8940a29f87baec910e6075980c",
+      "sha256": "8621600bf8fa4b9300a34a7e09b5a907df5f874106e6da06cc86b2dcbe764f1d",
       "requirements": [
         "V7-SRC-01",
         "V7-BOSS-01",
         "V7-STATE-01",
         "V8-SRC-03"
       ],
-      "evidence": "Preserves all 52 Stage 1 and 14 Stage 2 stable records, raises schemaVersion to 4 and declares Stage 3 active under 2013-b2-stage3-v1 while Stages 4-5 stay locked.",
+      "evidence": "Preserves all 52 Stage 1 and 14 Stage 2 stable records, raises schemaVersion to 5 and declares Stage 3 active under 2013-b2-stage3-v2 while Stages 4-5 stay locked.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation.css",
-      "sha256": "36bfbe854414d6776f74eb897d01752e3f7ed6536070e25e9297df56e122ea28",
+      "sha256": "9c6763b0326ce4369e839435620c9cb89ff870414ca1f019ef14a368f9e29774",
       "requirements": [
         "V7-MOTION-01",
         "V7-A11Y-01",
         "V7-RESP-01",
         "V8-SRC-03"
       ],
-      "evidence": "Adds the wide-desktop persistent player, separate generated notes, movable/resizable progressive transcript, Task A/C, correction, rejection and qualification states, spotlight-compatible z-order, print and reduced-motion rules.",
+      "evidence": "Keeps all 154 transcript rows visible, animates copy-only red strikes on 115 non-points, styles 39 useful points and Task A/C states, exposes the optional Chinese layer, and preserves wide-desktop, spotlight, print and reduced-motion behavior.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation.js",
-      "sha256": "7340f64e1a5e2bab59b026b64e08c57b3f1c836ccf26a1149aae0b3cb72b8945",
+      "sha256": "8050e9608a11668e796835b0d524acdf8c9b2576e386084d68fcec87dd31ed19",
       "requirements": [
         "V7-STATE-01",
         "V7-NAV-01",
@@ -56,7 +56,7 @@
         "V7-A11Y-01",
         "V8-SRC-03"
       ],
-      "evidence": "Builds 185 stable Stage 3 steps, one audio/player/transcript instance, exact cue endpoint guard, Play/Replay distinction, cue gating, transcript follow/free-scroll/review focus, safe rewind, schema-4 stable-ID restoration and free Stage 1-3 access.",
+      "evidence": "Builds 185 stable Stage 3 steps, complete bilingual transcript rows, exact cue endpoint guard, Play/Replay distinction, deterministic forward/back seek reconciliation, translation preference restore, schema-5 stable-ID restoration and free Stage 1-3 access.",
       "status": "verified"
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "path": "tools/paper3/check-2013-b2-stage2.mjs",
-      "sha256": "79779b2c18e461b180e5739014d3f45e408dfefc360a4568cbcbf99eb4b84f73",
+      "sha256": "52d988a21b7bcdace52976b5955d58af24e286c3c337022620c287f5b237e031",
       "requirements": [
         "V7-SRC-01",
         "V7-STATE-01",
@@ -139,7 +139,7 @@
     },
     {
       "path": "docs/paper3/PAPER3_COMPLIANCE_REPORT.md",
-      "sha256": "01d90da057ec8f5af90bb812037d122a08bc953e9069faac0d51e8811b25c017",
+      "sha256": "afb983a49df215995fb7e24306a0034768554103f04504f1306b5962c1eb0ba6",
       "requirements": [
         "V7-GOV-01",
         "V7-TEST-01",
@@ -289,18 +289,18 @@
     },
     {
       "path": "paper3/2013-b2/super-curation-podcast-data.js",
-      "sha256": "c799d32f71a8fdb608ceac7e8533b589d48e9ebc08bd3997a9d73ee08d27e16c",
+      "sha256": "5fd4fdfff0cea02b9bab839fa7cb9141e91b17c7f45673246ac6184e8d53e7f0",
       "requirements": [
         "V7-SRC-01",
         "V7-STATE-01",
         "V8-SRC-03"
       ],
-      "evidence": "Defines the auditable 2013-only recording provenance, bounded segment, 28 stable cue records, eight note destinations, exact quotes, replay starts, endpoints, transcript indices, decisions and Traditional Chinese teaching.",
+      "evidence": "Defines the auditable 2013-only recording provenance, 28 stable cues, 154 one-to-one Hong Kong Traditional Chinese translations, explicit 39-point/115-non-point classification, replay starts, endpoints and note decisions.",
       "status": "verified"
     },
     {
       "path": "tools/paper3/check-2013-b2-stage3.mjs",
-      "sha256": "d14b6890fc67eab02e1442a6e71d2fd2f4325b0c3959f2dcadeee93b0aac40df",
+      "sha256": "c126287835d42097363ece590756b885f0d6c9ad5a956bc9c48178527fcd7171",
       "requirements": [
         "V7-STATE-01",
         "V7-NAV-01",
@@ -308,19 +308,19 @@
         "V7-TEST-01",
         "V7-TEST-02"
       ],
-      "evidence": "Exercises the complete production Stage 3 journey, authentic audio cues, five rates, Play/Replay, seek, transcript follow/scroll/drag/resize, 185 forward/reverse states, reloads, spotlight, final completion and ten 1800x1100 screenshots.",
+      "evidence": "Exercises the complete production Stage 3 journey, 154 visible English rows, 154 translated rows, point/non-point marks, bidirectional seek, authentic cues, Play/Replay, 185 forward/reverse states, reloads, spotlight and twelve 1800x1100 screenshots.",
       "status": "verified"
     },
     {
       "path": "tools/paper3/check-2013-b2-stage3-behaviors.mjs",
-      "sha256": "f710a959455d58a9a93e8e7c15301ab11553d4092d8cdb5b13b209c7cbc32d74",
+      "sha256": "674250ca43d2c29dc00e07f4f80a9633a180a206e8b8bcd70ec018689c3c7273",
       "requirements": [
         "V7-STATE-01",
         "V7-NAV-01",
         "V7-TEST-01",
         "V7-TEST-02"
       ],
-      "evidence": "Verifies fresh entry after Stage 2, pause/resume before an answer, repeated replay deduplication, Previous during playback, seeking both directions, first/middle/final cue reload and no autoplay.",
+      "evidence": "Verifies fresh entry after Stage 2, all 154 transcript rows visible, pause/resume, replay deduplication, Previous during playback, forward generation and backward removal on scrub, cue reload and no autoplay.",
       "status": "verified"
     },
     {
@@ -336,46 +336,46 @@
     },
     {
       "path": "tools/paper3/build-2013-b2-stage3-mapping.mjs",
-      "sha256": "383596f27a99c25e9d5fbaefb6ac2381abe969c8abe3fd3cdfdff982aecd861e",
+      "sha256": "f59f32acdafe0a38102a6319b541950869119bf6c5368faf17b34bea8bd1c059",
       "requirements": [
         "V7-SRC-01",
         "V8-SRC-03"
       ],
-      "evidence": "Generates and validates the 185-step source mapping and complete 28-cue ledger directly from the released cue model and supplied timed transcript.",
+      "evidence": "Generates and validates the 185-step source mapping, all 154 Traditional Chinese translations, every point/non-point decision and the complete 28-cue ledger from the released model and supplied transcript.",
       "status": "verified"
     },
     {
       "path": "docs/paper3/2013_B2_STAGE3_CUE_LEDGER.md",
-      "sha256": "ae1b4f32e3a5e236a484dc96f6fbeec314c5c96faf90cab3b9faaae72a92c52b",
+      "sha256": "691efe3959c5b1b58eae59210a496afc2f8b253a8f1e59f72381c0de45446483",
       "requirements": [
         "V7-SRC-01",
         "V7-STATE-01",
         "V8-SRC-03"
       ],
-      "evidence": "Records recording duration/format/hash/provenance, all note fields, every playback/replay/endpoint timestamp, quote, speaker, note, task, decision, correction, transcript target and timing method.",
+      "evidence": "Records recording provenance, all note fields and cues, plus the complete 154-row translation layer and the 39-point/115-non-point reversible-marking decision.",
       "status": "verified"
     },
     {
       "path": "docs/paper3/2013_B2_STAGE3_SOURCE_MAPPING.md",
-      "sha256": "896e0acb3bb50c16d401fd215135a0d9a7aa2caa21aa8def3b6a57b7b53a271c",
+      "sha256": "1850d8a53f08e49cff086e2117d63c3c4a3bea9b9a21d1efc83899ef7f693338",
       "requirements": [
         "V7-SRC-01",
         "V7-NAV-01",
         "V8-SRC-03"
       ],
-      "evidence": "Maps all 185 stable Stage 3 step IDs to cue IDs, audio times, exact 2013 quotation, note destination, transcript array target and implementation code line.",
+      "evidence": "Maps all 185 stable IDs to audio/source quotation, point/non-point decision, note target, transcript index and the exact implementation line containing each row's Traditional Chinese translation.",
       "status": "verified"
     },
     {
       "path": "docs/paper3/2013_B2_STAGE3_IMPLEMENTATION_REPORT.md",
-      "sha256": "ad25e329ab4847f3c4a8e242e987677d21c90f07a836f3513e34442ee892ccf2",
+      "sha256": "488102ed2d375a1234ca382715e9b16e5bcc84f3dc9e560d508d0084e54459f4",
       "requirements": [
         "V7-GOV-01",
         "V7-STATE-01",
         "V7-NAV-01",
         "V7-TEST-01"
       ],
-      "evidence": "Reports the complete flow, 185-step count, provenance, note fields, verified reader correction, architecture, test results, ten screenshots, limitations, file inventory and approval-gated Part 4 plan.",
+      "evidence": "Reports the complete flow, 185-step count, full bilingual transcript, red-strike classification, deterministic seeking, architecture, tests, twelve screenshots, limitations and approval-gated Part 4 plan.",
       "status": "verified"
     }
   ],
@@ -388,7 +388,7 @@
     "node tools/paper3/check-2013-b2-stage2.mjs http://127.0.0.1:4174 outputs/2013-b2-stage2-regression",
     "node tools/paper3/check-2013-b2-stage3-behaviors.mjs http://127.0.0.1:4174",
     "node tools/paper3/check-2013-b2-stage3-speed-matrix.mjs http://127.0.0.1:4174",
-    "node tools/paper3/check-2013-b2-stage3.mjs http://127.0.0.1:4174 outputs/2013-b2-stage3-v1",
+    "node tools/paper3/check-2013-b2-stage3.mjs http://127.0.0.1:4174 outputs/2013-b2-stage3-v2",
     "Firefox desktop: 185/28/154 structure plus hotel-prison-good-fun-opinion authentic cue",
     "node tools/paper3/verify-paper3-compliance.mjs --changed-files <Stage 3 listed files>"
   ],

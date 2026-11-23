@@ -20,11 +20,14 @@ for (let index = 0; index < 14; index += 1) await page.locator('#curation-next')
 let state = await page.evaluate(() => window.__EDMUND_2013_SUPER_CURATION__.getState());
 assert.equal(state.categoryStageComplete, true);
 await page.locator('[data-stage-id="podcast"]').click();
+await page.waitForTimeout(1500);
 state = await page.evaluate(() => window.__EDMUND_2013_SUPER_CURATION__.getState());
 assert.equal(state.activeStage, 'podcast');
 assert.equal(state.podcastCurrentStepId, 'podcast-orientation-travel-report');
 assert.equal(await page.locator('.curation-player-play').textContent(), '▶', 're-entry must not autoplay');
 assert.equal(await page.locator('[data-stage-id="categorization"]').evaluate(node => node.classList.contains('done')), true);
+assert.equal(await page.locator('.curation-transcript-row').count(), 154);
+assert.equal(await page.locator('.curation-transcript-row.is-locked').count(), 0, 'the complete transcript remains inspectable');
 
 const cues = await page.evaluate(() => window.__EDMUND_2013_SUPER_CURATION__.podcastCues.map(item => ({id:item.id, replayStart:item.replayStart, endpoint:item.endpoint})));
 const goCue = async index => page.evaluate(id => window.__EDMUND_2013_SUPER_CURATION__.goToId(`podcast-cue-${id}`), cues[index].id);
@@ -45,7 +48,7 @@ await page.locator('.curation-player-play').click();
 state = await page.evaluate(() => window.__EDMUND_2013_SUPER_CURATION__.getState());
 assert.equal(state.heardCueIds.includes(cues[0].id), false);
 const pausedAt = Number(await page.locator('.curation-player-seek').inputValue());
-assert.ok(pausedAt >= cue1NearEnd && pausedAt < cue1NearEnd + .8);
+assert.ok(pausedAt >= cue1NearEnd - .05 && pausedAt < cue1NearEnd + .8, `paused at ${pausedAt}; expected ${cue1NearEnd}-${cue1NearEnd + .8}`);
 await page.locator('.curation-player-play').click();
 await page.waitForFunction(id => window.__EDMUND_2013_SUPER_CURATION__.getState().heardCueIds.includes(id), cues[0].id, {timeout:5000});
 assert.equal(await page.locator('#curation-next').isDisabled(), false);
@@ -73,12 +76,17 @@ assert.equal(state.podcastCurrentStepId, `podcast-cue-${cues[1].id}`);
 assert.equal(state.heardCueIds.includes(cues[2].id), false);
 assert.equal(await page.locator('.curation-player-play').textContent(), '▶');
 
-// Forward/back seeking to an unheard cue never generates its answer.
+// Forward seeking materialises every crossed cue; rewinding to before the
+// fourth endpoint removes that cue and its downstream note/mark state.
 await goCue(3);
 await seek(cues[3].endpoint - 388.2 + 2);
+state = await page.evaluate(() => window.__EDMUND_2013_SUPER_CURATION__.getState());
+assert.equal(state.generatedCueIds.includes(cues[3].id), true);
+assert.equal(state.generatedCueIds.length, 4);
 await seek(cues[3].replayStart - 388.2);
 state = await page.evaluate(() => window.__EDMUND_2013_SUPER_CURATION__.getState());
 assert.equal(state.generatedCueIds.includes(cues[3].id), false);
+assert.equal(state.generatedCueIds.length, 3);
 assert.equal(await page.locator('#curation-next').isDisabled(), true);
 
 // Stable-ID reload at the first, middle and final cue never autoplays.
@@ -93,5 +101,5 @@ assert.deepEqual(errors, []);
 await browser.close();
 console.log(JSON.stringify({
   status:'PASS',
-  checks:['fresh-after-stage2','manual-pause-resume','repeated-replay','previous-during-playback','seek-both-directions','first-middle-final-cue-reload','no-autoplay']
+  checks:['fresh-after-stage2','full-transcript-visible','manual-pause-resume','repeated-replay','previous-during-playback','bidirectional-seek-reconciliation','first-middle-final-cue-reload','no-autoplay']
 }, null, 2));

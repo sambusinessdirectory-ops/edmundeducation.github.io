@@ -25,7 +25,7 @@ The opening step locates the original Data File page-3 note sheet and explains t
 - Task C revenue, infrastructure and cultural-preservation evidence; and
 - the complete programme close, which generates no note.
 
-After cue 28, all 154 supplied English timing rows unlock for explicit transcript review. Related rows carry Task A/Task C, correction, qualification or rejection states; unresolved source turns remain explicitly unresolved. The supplied 2013 source has no aligned Chinese transcript, so the interface says “中文未提供” and does not invent a translation.
+All 154 supplied English timing rows remain visible from the start; no row is replaced by an unlock placeholder. As the playhead crosses each endpoint, 39 usable-point rows receive their listening/task treatment and 115 non-point rows receive the 2025-style red strike across utterance copy only. Rewinding removes later treatment. The optional “中文對照” layer supplies one professionally edited Hong Kong Traditional Chinese line for every English row while retaining the English source. Related rows also carry Task A/Task C, correction and qualification states; unresolved source turns remain explicitly unresolved.
 
 ## Recording and transcript provenance
 
@@ -37,7 +37,7 @@ After cue 28, all 154 supplied English timing rows unlock for explicit transcrip
 - Taught source segment: **388.20–980.02 seconds**
 - Display duration: **0:00–9:51.82** (591.82 seconds)
 - English transcript: the supplied timed `partB` array, source indices 18–171 (154 rows)
-- Chinese transcript: not present in the supplied 2013 package
+- Traditional Chinese teaching translation: 154 authored Hong Kong Traditional Chinese rows, mapped one-to-one to the supplied English timing rows and presented as a translation rather than a source transcript
 - Cue timing: derived from the actual MP3 and supplied 2013 timed alignment, with explicit replay starts and endpoints recorded in `super-curation-podcast-data.js`
 
 The complete 28-row audit, note-field inventory, cue-to-field map, cue-to-transcript map and correction/rejection table are in `2013_B2_STAGE3_CUE_LEDGER.md`. The 185-row step-to-source/code ledger is in `2013_B2_STAGE3_SOURCE_MAPPING.md`.
@@ -72,12 +72,12 @@ The four learner controls now have stable individual `data-note` keys. The old a
 - A single persistent audio element backs one fixed desktop player; re-entry never creates a duplicate player or autoplays.
 - Normal Play resumes at the current position. Explicit Replay seeks to the current cue's replay start.
 - A session/endpoint guard pauses once per run and deduplicates heard/generated cue IDs.
-- Slider seeking pauses and changes position but does not reveal a cue.
+- Slider seeking is deterministic: moving forward materialises every crossed cue, generated note and transcript mark; moving backward removes all downstream notes, marks and completion state.
 - Supported rates are 0.75x, 1x, 1.25x, 1.5x and 2x.
 - The floating transcript supports follow mode, learner-controlled free scrolling, explicit review targeting, drag, resize and reset.
-- Save schema 4 persists current Stage 3 ID, completed IDs, heard/generated cues, transcript-review completion, bookmarks, spotlight, transcript-follow preference, playback speed, cue-pin visibility and bounded audio currentTime.
+- Save schema 5 persists current Stage 3 ID, completed IDs, heard/generated cues, transcript-review completion, bookmarks, spotlight, transcript-follow and Chinese-layer preferences, playback speed, cue-pin visibility and bounded audio currentTime.
 - Restoration filters by stable IDs, so inserting or reordering steps does not silently shift progress.
-- Generated notes are clipped to the current teaching position during backward navigation, even when later cues remain safely recorded as heard.
+- Generated notes and transcript marks are reconciled directly from the playhead on every scrub, so no later answer survives a backward seek.
 
 ## Verification results
 
@@ -90,7 +90,9 @@ All tests load the production HTML/CSS/JavaScript. No test injects a substitute 
 | Authentic audio cue pass | PASS — all 28 explicit replay intervals stop at their declared endpoint |
 | Playback-speed matrix | PASS — 28 cues × five supported rates (140 authentic-audio runs) |
 | Normal Play vs Replay | PASS — Play resumes; Replay returns to the declared cue start |
-| Seek/manual scroll/window controls | PASS — seek reveals nothing; free scroll disables follow; explicit review targets the row; drag/resize/reset pass |
+| Seek/manual scroll/window controls | PASS — forward seek restores crossed notes/marks, backward seek removes later state; free scroll disables follow; explicit review targets the row; drag/resize/reset pass |
+| Transcript visibility/classification | PASS — 154 English rows always visible; 39 point rows; 115 non-point rows; strikes affect copy but not speaker labels |
+| Traditional Chinese layer | PASS — 154/154 translated rows, toggle on/off, English retained, preference restored after reload |
 | Reload/state | PASS — beginning, middle and final restoration; bounded currentTime and learner text retained; no autoplay |
 | Spotlight | PASS — enabled and disabled; disabled state has zero visible masks and persists through reload |
 | Stage 1 regression | PASS — all 52 steps forward/reverse, three reloads, prior routes/stamps/motion and 2025 smoke mount |
@@ -101,20 +103,22 @@ All tests load the production HTML/CSS/JavaScript. No test injects a substitute 
 
 ### Wide-desktop screenshots
 
-The verified 1800×1100 screenshot set is in `outputs/2013-b2-stage3-v1/`:
+The verified 1800×1100 screenshot set is in `outputs/2013-b2-stage3-v2/`:
 
 1. `01-first-step-spotlight-on.png`
-2. `02-active-cue-before-playback.png`
-3. `03-generated-note-automatic-pause.png`
-4. `04-task-a-evidence.png`
-5. `05-middle-qualification.png`
-6. `06-correction-cue.png`
-7. `07-task-c-evidence.png`
-8. `08-spotlight-off.png`
-9. `09-transcript-review.png`
-10. `10-final-stage-complete.png`
+2. `02-chinese-line-by-line.png`
+3. `03-forward-seek-reveals-notes-and-strikes.png`
+4. `04-active-cue-before-playback.png`
+5. `05-generated-note-automatic-pause.png`
+6. `06-task-a-evidence.png`
+7. `07-middle-qualification.png`
+8. `08-correction-cue.png`
+9. `09-task-c-evidence.png`
+10. `10-spotlight-off.png`
+11. `11-transcript-review.png`
+12. `12-final-stage-complete.png`
 
-Together they show the first step, floating audio controls, active/paused cue states, generated notes, Task A/Task C decisions, a correction, transcript review, non-spotlight usability and final completion. A Chinese screenshot is intentionally absent because no Chinese source transcript exists.
+Together they show the first step, complete bilingual transcript, forward-seek note/strike restoration, floating audio controls, active/paused cue states, generated notes, Task A/Task C decisions, a correction, transcript review, non-spotlight usability and final completion.
 
 ## Files created or modified for Stage 3
 
@@ -139,7 +143,7 @@ No file under `paper3/2025-b2/` is modified.
 ## Known limitations
 
 - The supplied English alignment usually labels a turn generically as “Travel Report guests”. Named speakers are shown only where the 2013 source evidence resolves the turn; other contextual rows deliberately remain unresolved.
-- No aligned Chinese transcript exists, so Chinese switching cannot be implemented honestly. The disabled control explains that absence.
+- The supplied source has no independently authored Chinese transcript. The Chinese layer is therefore explicitly a professional teaching translation of the aligned English, not presented as original-source wording.
 - Cue timing is sentence/turn aligned rather than word-level. All implemented endpoints are marked high confidence and are protected by a small drift tolerance.
 - Wide desktop is the acceptance target. Existing compact safety CSS remains, but no mobile Stage 3 design or screenshot is claimed.
 - Audio availability depends on the authoritative remote recording service; the interface reports playback failure and keeps progress safe if that service is unavailable.
