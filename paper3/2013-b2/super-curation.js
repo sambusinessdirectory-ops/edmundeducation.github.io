@@ -8,7 +8,7 @@
   if (!model || !podcastModel || !Array.isArray(timedTranscript) || !toolbar || document.body.dataset.reader !== '2013-b2') return;
 
   const VERSION = model.contentVersion;
-  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation']);
+  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation', '2013-b2-stage3-v1']);
   const STORAGE_KEY = 'edmund-paper3-2013-b2-super-curation-stage1-v1';
   const steps = model.steps.map((item, index) => ({...item, index}));
   const stepsById = new Map(steps.map(item => [item.id, item]));
@@ -44,6 +44,7 @@
     .filter(row => row.sourceIndex >= podcastModel.transcript.startIndex && row.sourceIndex <= podcastModel.transcript.endIndex);
   const cueByTranscriptIndex = new Map();
   for (const item of podcastModel.cues) for (const sourceIndex of item.transcriptIndices || []) cueByTranscriptIndex.set(sourceIndex, item);
+  const transcriptPointIndices = new Set(podcastModel.transcript.pointIndices || []);
   const podcastSteps = [];
   podcastSteps.push({
     id:'podcast-orientation-travel-report', kind:'podcast-intro',
@@ -60,7 +61,7 @@
   podcastSteps.push({
     id:'podcast-transcript-review-intro', kind:'podcast-review-intro',
     title:'完整錄音稿核對：154 個原始時間段', sourcePhrase:'Recording complete · transcript review',
-    explanation:'錄音已完整到達結尾。現在逐段核對英文錄音稿：分辨主持問題、已確認答案、更正、限定、個人評價，以及 Task A／C 可用內容。現有來源沒有逐段對齊的中文錄音稿，所以不會自行翻譯或顯示虛構的中文切換。',
+    explanation:'錄音已完整到達結尾。現在逐段核對完整英文錄音稿：分辨主持問題、已確認答案、更正、限定、個人評價，以及 Task A／C 可用內容。可按「中文對照」逐行顯示專業繁體中文翻譯；英文原文會一直保留。',
     help:'逐句模式只移動錄音稿焦點，不會自動播放或改寫學生筆記。', badge:'錄音稿核對'
   });
   for (const row of transcriptRows) {
@@ -346,7 +347,7 @@
     clean.podcastPlaybackRate = podcastModel.supportedRates.includes(Number(raw.podcastPlaybackRate)) ? Number(raw.podcastPlaybackRate) : 1;
     clean.podcastPinsVisible = raw.podcastPinsVisible === true;
     clean.podcastTranscriptFollow = raw.podcastTranscriptFollow !== false;
-    clean.podcastTranslationVisible = false;
+    clean.podcastTranslationVisible = raw.podcastTranslationVisible === true;
     clean.podcastStageComplete = raw.podcastStageComplete === true && podcastSteps.every(item => clean.podcastCompleted.includes(item.id));
     clean.bookmarks = [...new Set((Array.isArray(raw.bookmarks) ? raw.bookmarks : [])
       .map(id => ids.has(id) || podcastIds.has(id) ? id : migrateCategoryId(id)).filter(id => ids.has(id) || categoryIds.has(id) || podcastIds.has(id)))];
@@ -461,7 +462,7 @@
   transcriptWindow.id = 'curation-transcript-window';
   transcriptWindow.hidden = true;
   transcriptWindow.setAttribute('aria-label', 'Travel Report 浮動錄音稿');
-  transcriptWindow.innerHTML = '<div class="curation-transcript-window-head"><strong>English transcript</strong><button type="button" class="curation-transcript-translation" disabled title="2013 來源沒有逐段對齊的中文錄音稿">中文未提供</button><button type="button" class="curation-transcript-follow" aria-pressed="true">跟隨播放</button><button type="button" class="curation-transcript-fit">重設視窗</button><span>拖曳移動 · 四角調整</span></div><div class="curation-transcript-window-body" tabindex="0"></div>';
+  transcriptWindow.innerHTML = '<div class="curation-transcript-window-head"><strong>English transcript</strong><button type="button" class="curation-transcript-translation" aria-pressed="false" title="顯示或隱藏逐行繁體中文翻譯">中文對照</button><button type="button" class="curation-transcript-follow" aria-pressed="true">跟隨播放</button><button type="button" class="curation-transcript-fit">重設視窗</button><span>拖曳移動 · 四角調整</span></div><div class="curation-transcript-window-body" tabindex="0"></div>';
   const transcriptBody = $('.curation-transcript-window-body', transcriptWindow);
   const transcriptNodes = new Map();
   for (const row of transcriptRows) {
@@ -470,14 +471,20 @@
     article.dataset.sourceIndex = String(row.sourceIndex);
     article.dataset.start = String(row.start);
     article.dataset.end = String(row.end);
-    if (relatedCue?.task) article.classList.add(`task-${relatedCue.task}`);
+    const isPoint = transcriptPointIndices.has(row.sourceIndex) && !relatedCue?.rejected;
+    article.dataset.kind = isPoint ? 'point' : 'nonpoint';
+    article.classList.add(isPoint ? 'is-point' : 'is-nonpoint');
+    if (isPoint && relatedCue?.task) article.classList.add(`task-${relatedCue.task}`);
     if (relatedCue?.rejected) article.classList.add('is-rejected');
     if (relatedCue?.decision === 'correction') article.classList.add('is-correction');
     if (relatedCue?.decision === 'qualification') article.classList.add('is-qualification');
     const speaker = create('strong', 'curation-transcript-speaker', relatedCue?.speaker || (row.speaker === 'Narrator' ? '考試旁白' : podcastModel.transcript.unresolvedSpeakerLabel));
-    const copy = create('p', 'curation-transcript-copy', row.text);
+    const copy = create('p', 'curation-transcript-copy');
+    copy.append(create('span', 'curation-transcript-ink', row.text));
+    const translation = create('p', 'curation-transcript-translation-copy', podcastModel.transcript.translations?.[row.sourceIndex]);
+    translation.lang = 'zh-Hant-HK';
     const time = create('time', '', formatDisplayTime(row.start - podcastModel.audio.segmentStart));
-    article.append(speaker, copy, time);
+    article.append(speaker, copy, time, translation);
     transcriptBody.append(article);
     transcriptNodes.set(row.sourceIndex, article);
   }
@@ -738,21 +745,12 @@
 
   function syncTranscript(options = {}) {
     const item = current();
-    const reviewIntro = podcastStepsById.get('podcast-transcript-review-intro').index;
-    const inReview = inPodcast() && state.podcastPosition >= reviewIntro;
     const sourceTime = audio.readyState >= 1 ? audio.currentTime : toSourceTime(state.podcastCurrentTime);
-    const unlockAll = inReview || state.heardCueIds.includes('recording-close-and-end');
     let nextActiveIndex = -1;
     for (const row of transcriptRows) {
       const node = transcriptNodes.get(row.sourceIndex);
-      const cueItem = cueByTranscriptIndex.get(row.sourceIndex);
-      const reviewStep = podcastSteps.find(step => step.kind === 'podcast-review' && step.row.sourceIndex === row.sourceIndex);
-      const listened = unlockAll || row.end <= sourceTime + .1;
-      const reviewed = inReview
-        ? reviewStep.index <= state.podcastPosition
-        : Boolean(cueItem && state.generatedCueIds.includes(cueItem.id) && cueStepByCueId.get(cueItem.id).index <= state.podcastPosition);
-      node.classList.toggle('is-locked', !listened);
-      node.classList.toggle('is-reviewed', reviewed);
+      const reached = row.end <= sourceTime + .1;
+      node.classList.toggle('is-reviewed', reached);
       node.classList.toggle('is-current-review', item.kind === 'podcast-review' && item.row.sourceIndex === row.sourceIndex);
       const active = !audio.paused && row.start <= sourceTime && row.end >= sourceTime;
       node.classList.toggle('is-active', active);
@@ -779,6 +777,10 @@
     const follow = $('.curation-transcript-follow', transcriptWindow);
     follow.setAttribute('aria-pressed', String(state.podcastTranscriptFollow));
     follow.textContent = state.podcastTranscriptFollow ? '跟隨播放' : '自由捲動';
+    const translation = $('.curation-transcript-translation', transcriptWindow);
+    transcriptWindow.classList.toggle('show-translation', state.podcastTranslationVisible);
+    translation.setAttribute('aria-pressed', String(state.podcastTranslationVisible));
+    translation.textContent = state.podcastTranslationVisible ? '隱藏中文' : '中文對照';
     for (const pin of $$('.curation-player-pin', cuePins)) pin.classList.toggle('is-heard', state.heardCueIds.includes(pin.dataset.cueId));
     const cueStep = currentCueStep();
     $('.curation-player-replay', audioBar).disabled = !cueStep;
@@ -834,6 +836,34 @@
     if (!state.podcastCompleted.includes(cueStep.id)) state.podcastCompleted.push(cueStep.id);
     render(false, {preserveAudio:true});
     $('#curation-save-status', dock).textContent = `已在 ${formatDisplayTime(toDisplayTime(cueItem.endpoint))} 停下 · 第 ${cueItem.number} 個停頓點只觸發一次`;
+  }
+
+  // A scrub is a deterministic state transition, not merely a media seek.
+  // Moving forward materialises every cue whose endpoint has been crossed;
+  // moving backward removes all later notes, completion and transcript marks.
+  function reconcilePodcastSeek(displayTime) {
+    const sourceTime = toSourceTime(displayTime);
+    const reachedCues = podcastModel.cues.filter(item => item.endpoint <= sourceTime + .1);
+    const reachedIds = new Set(reachedCues.map(item => item.id));
+    const reachedStepIds = new Set(reachedCues.map(item => cueStepByCueId.get(item.id).id));
+    state.heardCueIds = [...reachedIds];
+    state.generatedCueIds = [...reachedIds];
+    state.podcastCompleted = state.podcastCompleted.filter(id => {
+      const step = podcastStepsById.get(id);
+      if (step?.kind === 'podcast-cue') return reachedStepIds.has(id);
+      if (sourceTime < podcastModel.audio.segmentEnd - .1 && ['podcast-review-intro','podcast-review','podcast-final'].includes(step?.kind)) return false;
+      return true;
+    });
+    for (const id of reachedStepIds) if (!state.podcastCompleted.includes(id)) state.podcastCompleted.push(id);
+    if (sourceTime < podcastModel.audio.segmentEnd - .1) {
+      state.transcriptReviewCompleted = [];
+      state.podcastStageComplete = false;
+    }
+    const targetCue = podcastModel.cues.find(item => item.endpoint > sourceTime + .1) || podcastModel.cues[podcastModel.cues.length - 1];
+    const targetStep = cueStepByCueId.get(targetCue.id);
+    state.podcastPosition = targetStep.index;
+    state.podcastCurrentStepId = targetStep.id;
+    return reachedCues.length;
   }
 
   function watchPlayback() {
@@ -1272,9 +1302,9 @@
     playbackTarget = null;
     state.podcastCurrentTime = Math.min(Math.max(Number(event.target.value) || 0, 0), podcastModel.audio.segmentDuration);
     if (audio.readyState >= 1) audio.currentTime = toSourceTime(state.podcastCurrentTime);
-    syncPlayer();
-    syncTranscript();
-    persist('已移動播放位置；不會因拖動而揭示答案。');
+    const reachedCount = reconcilePodcastSeek(state.podcastCurrentTime);
+    render(false, {preserveAudio:true});
+    persist(`已移動至 ${formatDisplayTime(state.podcastCurrentTime)}；已同步 ${reachedCount} 項筆記，較後內容已移除。`);
   });
   speedSelect.addEventListener('change', () => {
     state.podcastPlaybackRate = Number(speedSelect.value);
@@ -1301,6 +1331,11 @@
     persist(message);
   }
   $('.curation-transcript-follow', transcriptWindow).addEventListener('click', () => setTranscriptFollow(!state.podcastTranscriptFollow));
+  $('.curation-transcript-translation', transcriptWindow).addEventListener('click', () => {
+    state.podcastTranslationVisible = !state.podcastTranslationVisible;
+    syncPlayer();
+    persist(state.podcastTranslationVisible ? '已顯示逐行繁體中文對照。' : '已隱藏中文對照；英文原文保持顯示。');
+  });
   const disableTranscriptFollow = event => {
     if (event.isTrusted && state.podcastTranscriptFollow) setTranscriptFollow(false, '已改為自由捲動；正常播放不會搶走你的位置。');
   };
