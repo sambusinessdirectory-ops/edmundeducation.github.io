@@ -9,8 +9,10 @@
 
 ## Design and behaviour references
 
-- 2025 Golden Manual, especially the source-faithful podcast, stable-cue, native-field, transcript, state-owner and validation requirements.
-- 2025 Stage 3 code-annotated reference: used for the floating player/transcript relationship, red Type 6 strikes, selective task colour, and native note-writing behaviour.
+- `Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf` (183 pages) was parsed and visually rendered for review. The implementation follows pp. 28–29 (copy-only rejection line), 65–66 (Hong Kong Traditional Chinese and complete Type 6 sweep), 127–128 (per-heading stamps and exact-span transcript review), 157/163 (per-heading ownership and prohibited duplicate stamps), and 170 (speaker/copy and translation-toggle contract).
+- `2025 DSE Paper 3 B2 Super Curation - Stage 3 - No Spotlight - Code Annotated.pdf` (157 pages) was parsed and visually sampled across the complete sequence. Pages 120, 140 and 157 confirm that non-point, superseded and closing speech remains visibly crossed in red while speakers remain intact.
+- `2025 DSE Paper 3 B2 Super Curation - Full - No Spotlight - Code Annotated.pdf` (615 pages) was consulted for the full implementation context and stage-preservation contract.
+- User-supplied correction screenshots were inspected for the duplicate B/B and A/A podcast-subheading stamps and for the expected single-badge result.
 
 ## Provenance and normalisation
 

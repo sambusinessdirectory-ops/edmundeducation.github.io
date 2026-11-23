@@ -123,14 +123,38 @@ async function openStage3(browserType, name, full = false) {
     assert.match(await page.locator('#curation-step-id').innerText(), /p3-review-part-b-turn-42/);
     const selective = await page.evaluate(() => ({
       taskSpans: document.querySelectorAll('[data-transcript-index="41"] .curation-transcript-inline-task-A').length,
+      rejectedSpans: document.querySelectorAll('[data-transcript-index="41"] .curation-transcript-inline-noise').length,
       wholeBackground: getComputedStyle(document.querySelector('[data-transcript-index="41"] .curation-transcript-copy')).backgroundColor,
-      strikes: document.querySelectorAll('[data-transcript-index="39"] .curation-transcript-copy').length
+      rejectedInk: getComputedStyle(document.querySelector('[data-transcript-index="39"] .curation-transcript-inline-noise')).backgroundImage,
+      speakerInk: getComputedStyle(document.querySelector('[data-transcript-index="39"] .curation-transcript-speaker')).backgroundImage
     }));
     assert.equal(selective.taskSpans, 2);
+    assert.ok(selective.rejectedSpans >= 2);
     assert.equal(selective.wholeBackground, 'rgba(0, 0, 0, 0)', 'task rows must not be coloured word-for-word');
-    assert.equal(selective.strikes, 1);
+    assert.match(selective.rejectedInk, /linear-gradient/);
+    assert.equal(selective.speakerInk, 'none', 'rejection ink must never cross the speaker label');
+    await page.selectOption('#curation-step-jump', 'p3-review-part-b-turn-10');
+    const listeningSelective = await page.evaluate(() => ({
+      points: document.querySelectorAll('[data-transcript-index="9"] .curation-transcript-inline-listening').length,
+      rejected: document.querySelectorAll('[data-transcript-index="9"] .curation-transcript-inline-noise').length,
+      wholeBackground: getComputedStyle(document.querySelector('[data-transcript-index="9"] .curation-transcript-copy')).backgroundColor
+    }));
+    assert.equal(listeningSelective.points, 1);
+    assert.ok(listeningSelective.rejected >= 1);
+    assert.equal(listeningSelective.wholeBackground, 'rgba(0, 0, 0, 0)', 'listening rows must also use selective spans');
+    await page.selectOption('#curation-step-jump', 'p3-review-part-b-turn-44');
+    const lineAudit = await page.evaluate(() => ({
+      copies: document.querySelectorAll('.curation-transcript-copy').length,
+      translations: document.querySelectorAll('.curation-transcript-translation[lang="zh-Hant"]').length,
+      uncovered: [...document.querySelectorAll('.curation-transcript-copy')].filter(copy =>
+        [...copy.childNodes].some(node => node.nodeType === Node.TEXT_NODE && node.textContent.trim())).length,
+      fullyRejected: [...document.querySelectorAll('.curation-transcript-turn')].filter(row =>
+        row.querySelectorAll('.curation-transcript-inline-listening,.curation-transcript-inline-task').length === 0 &&
+        row.querySelectorAll('.curation-transcript-inline-noise').length > 0).length
+    }));
+    assert.deepEqual(lineAudit, {copies:44, translations:44, uncovered:0, fullyRejected:23});
     await page.locator('.curation-transcript-translate').click();
-    assert.equal(await page.locator('[data-transcript-index="41"] .curation-transcript-translation').isVisible(), true);
+    assert.equal(await page.locator('[data-transcript-index="43"] .curation-transcript-translation').isVisible(), true);
 
     const before = await page.locator('.curation-transcript-window').boundingBox();
     const head = await page.locator('.curation-transcript-window-head').boundingBox();
@@ -164,6 +188,29 @@ async function openStage3(browserType, name, full = false) {
     await page.locator('.curation-stage-item[data-stage="categorize"]').click();
     await page.waitForFunction(() => window.EDMUND_2016_B2_CURATION_STAGE2_DEBUG?.getState().active === true);
     assert.equal((await page.evaluate(() => window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.getState())).active, false);
+    await page.evaluate(() => {
+      const target = document.querySelector('#page-3 .notes-form-body > h3:nth-of-type(2)');
+      target.querySelector(':scope > .curation-source-task')?.classList.add('is-revealed');
+      window.EDMUND_2016_B2_CURATION_STAGE2_DEBUG.goById('p2-category-note-farmhouse-village');
+    });
+    assert.equal(await page.locator('#page-3 .notes-form-body > h3:nth-of-type(2) > .curation-source-task:visible').count(), 0,
+      'Stage 1 direct stamp must be hidden while Stage 2 owns this heading');
+    assert.equal(await page.locator('#page-3 .notes-form-body > h3:nth-of-type(2) > .curation-category-icons .curation-source-task:visible').count(), 1,
+      'Stage 2 farmhouse heading must show exactly one B stamp');
+    assert.equal(await page.locator('#page-3 .notes-form-body > h3:nth-of-type(2) > .curation-stage3-heading-state:visible').count(), 0,
+      'Stage 3 farmhouse badge must stay hidden while Stage 2 is active');
+    await page.evaluate(() => {
+      const target = document.querySelector('#page-3 .notes-form-body > h3:nth-of-type(4)');
+      target.querySelector(':scope > .curation-source-task')?.classList.add('is-revealed');
+      window.EDMUND_2016_B2_CURATION_STAGE2_DEBUG.goById('p2-category-note-plough');
+    });
+    assert.equal(await page.locator('#page-3 .notes-form-body > h3:nth-of-type(4) > .curation-source-task:visible').count(), 0);
+    assert.equal(await page.locator('#page-3 .notes-form-body > h3:nth-of-type(4) > .curation-category-icons .curation-source-task:visible').count(), 1,
+      'Stage 2 plough heading must show exactly one A stamp');
+    assert.equal(await page.locator('#page-3 .notes-form-body > h3:nth-of-type(4) > .curation-stage3-heading-state:visible').count(), 0,
+      'Stage 3 plough badge must stay hidden while Stage 2 is active');
+    await page.locator('#page-3 .notes-form-body > h3:nth-of-type(4)').scrollIntoViewIfNeeded();
+    await page.screenshot({path: path.join(output, '2016-b2-stage2-single-heading-stamps.png'), fullPage:false});
     await page.locator('.curation-stage-item[data-stage="podcast"]').click();
     await page.waitForFunction(() => window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG?.getState().active === true);
     assert.equal(await page.locator('.curation-player').isVisible(), true);
@@ -199,8 +246,9 @@ try {
   fs.writeFileSync(path.join(output, '2016-b2-stage3-browser-test-report.md'), `# 2016 B2 Stage 3 browser test report
 
 - Result: **PASS**
-- Chromium: full lifecycle, real MP3 endpoint, native-note commit, replay idempotency, rewind preservation, selective transcript colour, translation, move/resize, persistence, Stage 2 switch and mobile layout
-- Firefox: direct Stage 3 entry, 4/13/44/61 DOM contract, free steps, Chinese transcript toggle, and zero console/network failures
+- Chromium: full lifecycle, real MP3 endpoint, native-note commit, replay idempotency, rewind preservation, selective point spans, copy-only red rejection ink, 44 Traditional Chinese rows, move/resize, persistence, single Stage 2 heading stamps and mobile layout
+- Firefox: direct Stage 3 entry, 4/13/44/61 DOM contract, free steps, Traditional Chinese transcript toggle, and zero console/network failures
+- Transcript semantics: 21 point-bearing turns, 23 fully rejected turns and zero uncovered copy text
 - Stages 4–5: remained disabled
 - Boss-letter stamp: absent
 - Podcast heading question mark: absent
