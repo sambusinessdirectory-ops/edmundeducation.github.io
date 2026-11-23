@@ -336,7 +336,7 @@
     },
     {
       "path": "tools/paper3/build-2013-b2-stage3-mapping.mjs",
-      "sha256": "0b0ce92706d9cacfd5dfc9d7162d27a11173271482252c0ce99ff65f094021a5",
+      "sha256": "f59f32acdafe0a38102a6319b541950869119bf6c5368faf17b34bea8bd1c059",
       "requirements": [
         "V7-SRC-01",
         "V8-SRC-03"
@@ -357,13 +357,13 @@
     },
     {
       "path": "docs/paper3/2013_B2_STAGE3_SOURCE_MAPPING.md",
-      "sha256": "e4044b623e139ae37639163e920cb7429f393ba169346fc0026d7bfed971433e",
+      "sha256": "1850d8a53f08e49cff086e2117d63c3c4a3bea9b9a21d1efc83899ef7f693338",
       "requirements": [
         "V7-SRC-01",
         "V7-NAV-01",
         "V8-SRC-03"
       ],
-      "evidence": "Maps all 185 stable IDs to audio/source quotation, all 154 Traditional Chinese rows, point/non-point decision, note target, transcript index and implementation code line.",
+      "evidence": "Maps all 185 stable IDs to audio/source quotation, point/non-point decision, note target, transcript index and the exact implementation line containing each row's Traditional Chinese translation.",
       "status": "verified"
     },
     {

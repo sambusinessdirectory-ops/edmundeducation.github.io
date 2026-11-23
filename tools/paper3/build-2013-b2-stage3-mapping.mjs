@@ -37,11 +37,10 @@ const cueRows = model.cues.map(cue => ({
   cueId:cue.id,
   audio:`${bounded(cue.replayStart)}-${bounded(cue.endpoint)} (source ${stamp(cue.replayStart)}-${stamp(cue.endpoint)})`,
   quote:cue.quote,
-  translation:'—',
   classification:'guided cue',
   field:cue.destination ? model.noteFields[cue.destination]?.label || cue.destination : 'No note entry (programme close)',
   target:(cue.transcriptIndices || []).map(index => `partB[${index}]`).join(', '),
-  implementation:`paper3/2013-b2/super-curation-podcast-data.js:${lineOf(data, `cue('${cue.id}'`)}; paper3/2013-b2/super-curation.js:${lineOf(controller, 'for (const item of podcastModel.cues) podcastSteps.push')}`
+  implementation:`P:${lineOf(data, `cue('${cue.id}'`)}; C:${lineOf(controller, 'for (const item of podcastModel.cues) podcastSteps.push')}`
 }));
 
 const reviewRows = rows.map(row => {
@@ -49,34 +48,33 @@ const reviewRows = rows.map(row => {
   return {
     id:`podcast-review-${Math.round(row.start * 100)}-${slug(row.text)}`,
     type:'transcript review',
-    cueId:cue?.id || 'context / distractor / transition',
+    cueId:cue?.id || 'context',
     audio:`${bounded(row.start)}-${bounded(row.end)} (source ${stamp(row.start)}-${stamp(row.end)})`,
     quote:row.text,
-    translation:model.transcript.translations[row.sourceIndex],
-    classification:pointIndices.has(row.sourceIndex) && !cue?.rejected ? 'usable point' : 'non-point — red strike after endpoint',
-    field:cue?.destination ? model.noteFields[cue.destination]?.label || cue.destination : 'No generated note',
+    classification:pointIndices.has(row.sourceIndex) && !cue?.rejected ? 'point' : 'non-point / strike',
+    field:cue?.destination ? model.noteFields[cue.destination]?.label || cue.destination : '—',
     target:`partB[${row.sourceIndex}]`,
-    implementation:`dse-listening-2013-transcript.js:1 (partB[${row.sourceIndex}]); paper3/2013-b2/super-curation-podcast-data.js:${lineOf(data, `${row.sourceIndex}:'`)}; paper3/2013-b2/super-curation.js:${lineOf(controller, 'for (const row of transcriptRows)')}`
+    implementation:`T:1 partB[${row.sourceIndex}]; P:${lineOf(data, `${row.sourceIndex}:'`)}; C:${lineOf(controller, 'for (const row of transcriptRows)')}`
   };
 });
 
 const mapping = [
   {
     id:'podcast-orientation-travel-report', type:'orientation', cueId:'—', audio:'0:00.00 segment entry (source 6:28.20)',
-    quote:'Travel Report · 2013 Part B recording', translation:'—', classification:'orientation', field:'All five fields on Data File page 3', target:'Note-sheet heading',
-    implementation:`paper3/2013-b2/super-curation.js:${lineOf(controller, "id:'podcast-orientation-travel-report'")}; paper3/2013-b2/index.html:${lineOf(index, 'id="doc-2013-travel-report-notes"')}`
+    quote:'Travel Report · 2013 Part B recording', classification:'orientation', field:'All five fields on Data File page 3', target:'Note-sheet heading',
+    implementation:`C:${lineOf(controller, "id:'podcast-orientation-travel-report'")}; H:${lineOf(index, 'id="doc-2013-travel-report-notes"')}`
   },
   ...cueRows,
   {
     id:'podcast-transcript-review-intro', type:'review orientation', cueId:'—', audio:'Recording complete at 9:51.82',
-    quote:'Recording complete · transcript review', translation:'—', classification:'review orientation', field:'No generated note', target:'All partB[18]-partB[171]',
-    implementation:`paper3/2013-b2/super-curation.js:${lineOf(controller, "id:'podcast-transcript-review-intro'")}`
+    quote:'Recording complete · transcript review', classification:'review orientation', field:'No generated note', target:'All partB[18]-partB[171]',
+    implementation:`C:${lineOf(controller, "id:'podcast-transcript-review-intro'")}`
   },
   ...reviewRows,
   {
     id:'podcast-stage-complete', type:'completion', cueId:'—', audio:'Recording complete at 9:51.82',
-    quote:'Travel Report recording and transcript review complete', translation:'—', classification:'completion', field:'Final note-sheet verification', target:'Data File page 3 heading',
-    implementation:`paper3/2013-b2/super-curation.js:${lineOf(controller, "id:'podcast-stage-complete'")}`
+    quote:'Travel Report recording and transcript review complete', classification:'completion', field:'Final note-sheet verification', target:'Data File page 3 heading',
+    implementation:`C:${lineOf(controller, "id:'podcast-stage-complete'")}`
   }
 ];
 
@@ -89,9 +87,13 @@ Generated from the implemented 2013 podcast model and the supplied timed 2013 Pa
 
 Audio display time is bounded to the taught segment beginning at source **${stamp(model.audio.segmentStart)}**. All source material is on the 2013 Data File note sheet, page 3. Transcript targets are stable source-array indices because the supplied aligned transcript has no independent sentence IDs.
 
-| Step ID | Type | Cue ID | Audio display / source time | Exact quotation | Traditional Chinese teaching translation | Point decision | Note-sheet field | Transcript target | Implementation location |
-|---|---|---|---|---|---|---|---|---|---|
-${mapping.map(row => `| ${esc(row.id)} | ${esc(row.type)} | ${esc(row.cueId)} | ${esc(row.audio)} | ${esc(row.quote)} | ${esc(row.translation)} | ${esc(row.classification)} | ${esc(row.field)} | ${esc(row.target)} | ${esc(row.implementation)} |`).join('\n')}
+Implementation locations use concise file keys: **T** = \`dse-listening-2013-transcript.js\`; **P** = \`paper3/2013-b2/super-curation-podcast-data.js\`; **C** = \`paper3/2013-b2/super-curation.js\`; **H** = \`paper3/2013-b2/index.html\`. The number after each key is the exact generated line number.
+
+Point decision **non-point / strike** means the utterance copy receives its red strike only after the playhead crosses that row's endpoint; rewinding before the endpoint removes it.
+
+| Step ID | Type | Cue ID | Audio display / source time | Exact quotation | Point decision | Note-sheet field | Transcript target | Implementation location |
+|---|---|---|---|---|---|---|---|---|
+${mapping.map(row => `| ${esc(row.id)} | ${esc(row.type)} | ${esc(row.cueId)} | ${esc(row.audio)} | ${esc(row.quote)} | ${esc(row.classification)} | ${esc(row.field)} | ${esc(row.target)} | ${esc(row.implementation)} |`).join('\n')}
 `;
 
 const noteFieldRows = Object.entries(model.noteFields).map(([id, field]) => {
