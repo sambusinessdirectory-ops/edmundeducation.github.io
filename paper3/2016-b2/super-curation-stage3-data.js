@@ -312,7 +312,7 @@
     architectureVersion: '2016-b2-podcast-v1-single-owner',
     storageKey: 'edmund-paper3-2016-b2-super-curation-stage3-v1',
     audio: Object.freeze({
-      src: '/paper3/2016-b2/part-b-podcast.mp3',
+      src: 'https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3',
       sourceUrl: 'https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3',
       duration: 831.63,
       sha256: '1e32a9f8d57cc8a27c72edeead5cbb6c6be04cfee37e339d25a1c482d6c676de'
