@@ -5,7 +5,7 @@ const path = require('node:path');
 const playwright = require(process.env.PLAYWRIGHT_MODULE || process.env.HOME + '/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 
 const root = path.resolve(__dirname, '..');
-const types = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.webmanifest':'application/manifest+json'};
+const types = {'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.webp':'image/webp','.webmanifest':'application/manifest+json'};
 const server = http.createServer((request,response)=>{
   const pathname = decodeURIComponent(new URL(request.url,'http://localhost').pathname === '/' ? '/daily-reading.html' : new URL(request.url,'http://localhost').pathname);
   const file = path.resolve(root,'.'+pathname);
