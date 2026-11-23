@@ -565,15 +565,28 @@
     if (page?.hidden) $('[data-filter="all"]')?.click();
   }
 
+  function priorStage1StepIsVisible(item) {
+    if (!inCategories() && !inPodcast()) return item.index <= state.position;
+    return state.stageComplete || state.completed.includes(item.id);
+  }
+
+  function priorCategoryStepIsVisible(item) {
+    if (inCategories()) return item.index <= state.categoryPosition;
+    if (inPodcast()) return state.categoryStageComplete || state.categoryCompleted.includes(item.id);
+    return false;
+  }
+
   function syncMarks() {
-    const stage1Cutoff = (inCategories() || inPodcast()) && state.stageComplete ? steps.length - 1 : state.position;
-    const reached = new Set(steps.slice(0, stage1Cutoff + 1).filter(item => item.kind !== 'route').map(item => item.id));
+    // A later stage inherits only work the learner has actually reached or
+    // completed. Direct Stage 3 access must not disclose untouched Stage 1/2
+    // classifications, while completed prior-stage ink remains cumulative.
+    const reached = new Set(steps.filter(item => item.kind !== 'route' && priorStage1StepIsVisible(item)).map(item => item.id));
     $$('.curation-source-mark').forEach(mark => {
       mark.classList.toggle('is-revealed', reached.has(mark.dataset.stepId));
       mark.classList.toggle('is-current', !inCategories() && !inPodcast() && mark.dataset.stepId === current().id);
     });
     for (const item of categories.filter(entry => entry.cluePhrase)) {
-      item.targetNode?.classList.toggle('is-revealed', (inCategories() && item.index <= state.categoryPosition) || (inPodcast() && state.categoryStageComplete));
+      item.targetNode?.classList.toggle('is-revealed', priorCategoryStepIsVisible(item));
     }
     $$('.curation-source-target').forEach(node => node.classList.remove('curation-source-target'));
     $$('.curation-route-target').forEach(node => node.classList.remove('curation-route-target'));
@@ -595,7 +608,7 @@
   function syncTaskStamps() {
     const revealed = [];
     for (const [task, entry] of taskStamps) {
-      const visible = entry.step.index <= ((inCategories() || inPodcast()) && state.stageComplete ? steps.length - 1 : state.position);
+      const visible = priorStage1StepIsVisible(entry.step);
       entry.paragraph.classList.toggle('curation-task-revealed', visible);
       if (!visible) entry.paragraph.classList.remove('curation-task-stamp-enter');
       if (visible) revealed.push(task);
@@ -614,8 +627,7 @@
     for (const group of factRouteGroups.values()) {
       const visibleByTask = new Map();
       for (const routeStep of group.routes) {
-        const cutoff = (inCategories() || inPodcast()) && state.stageComplete ? steps.length - 1 : state.position;
-        if (routeStep.index <= cutoff && !visibleByTask.has(routeStep.task)) {
+        if (priorStage1StepIsVisible(routeStep) && !visibleByTask.has(routeStep.task)) {
           visibleByTask.set(routeStep.task, routeStep);
         }
       }
@@ -641,7 +653,7 @@
     for (const item of categories) {
       const view = categoryViews.get(item.id);
       if (!view) continue;
-      const visible = (inCategories() && item.index <= state.categoryPosition) || (inPodcast() && state.categoryStageComplete);
+      const visible = priorCategoryStepIsVisible(item);
       const selection = state.categorySelections[item.id];
       const signature = visible ? selection.tasks.join('') : '';
       if (signature === view.signature) continue;
@@ -667,7 +679,7 @@
     for (const item of categories.filter(entry => entry.categoryKind === 'note')) {
       const view = noteViews.get(item.id);
       if (!view) continue;
-      const visible = (inCategories() && item.index <= state.categoryPosition) || (inPodcast() && state.categoryStageComplete);
+      const visible = priorCategoryStepIsVisible(item);
       const signature = visible ? (item.noteKind === 'task' ? item.task : 'noise') : '';
       if (signature === view.signature) continue;
       const previous = view.signature;
