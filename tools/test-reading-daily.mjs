@@ -9,7 +9,7 @@ const [html,runtime,css,homepage,nav,sitemap,manifest]=await Promise.all([
   read('daily-reading.html'),read('daily-reading/daily-reading.mjs'),read('daily-reading/daily-reading.css'),
   read('index.html'),read('shared-system-nav.js'),read('sitemap.xml'),read('pwa-manifests/daily-reading.webmanifest')
 ]);
-const image=await readFile(new URL('daily-reading/parking-meter-article.png',root));
+const image=await readFile(new URL('daily-reading/parking-meter-article.webp',root));
 
 assert.match(html,/data-system="daily-reading"/);
 assert.match(html,/data-view="login"/);
@@ -51,9 +51,9 @@ assert.match(sitemap,/https:\/\/edmundeducation\.com\/daily-reading\.html/);
 const parsed=JSON.parse(manifest);
 assert.equal(parsed.id,'/apps/daily-reading');
 assert.equal(parsed.start_url,'/daily-reading.html?source=pwa');
-assert.equal(image[0],0x89);assert.equal(image.subarray(1,4).toString(),'PNG');
-assert.ok((await stat(new URL('daily-reading/parking-meter-article.png',root))).size>100000);
-assert.equal(createHash('sha256').update(image).digest('hex'),'d5c328e029031a62ad42f85ecdf5a7c09a0e11e874feba7f57f49eca4d6b0583','thumbnail must remain byte-identical to the supplied screenshot');
+assert.equal(image.subarray(0,4).toString(),'RIFF');assert.equal(image.subarray(8,12).toString(),'WEBP');
+assert.ok((await stat(new URL('daily-reading/parking-meter-article.webp',root))).size>100000);
+assert.equal(createHash('sha256').update(image).digest('hex'),'02a836466633f6237b83a2407f0e438a2d108f113c7a1c3b44ec0bd742e15e5a','thumbnail must remain byte-identical to the approved optimized WebP');
 assert.match(css,/\[hidden\]\{display:none!important\}/,'author display rules must not override hidden views');
 assert.match(css,/\.article-card/);assert.match(css,/\.question-card\.is-correct/);assert.match(css,/@media\(max-width:640px\)/);
 assert.match(css,/\.exercise-layout\.reading-workbench\{display:grid;grid-template-columns:/);
