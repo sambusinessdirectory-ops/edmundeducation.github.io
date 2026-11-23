@@ -18,6 +18,14 @@ for report in ("MCQ-REVIEW.json", "MCQ-REVIEW.md", "PDF-ANSWER-AUDIT.json", "PDF
     (args.site / "polysemy-lab" / report).unlink(missing_ok=True)
 for source_pdf in (args.site / "professional-english" / "materials").glob("lesson-4-source-*.pdf"):
     source_pdf.unlink()
+# Generated editorial ledgers are retained in the repository for auditability,
+# but are not browser runtime assets and must not consume the Pages quota.
+for editorial_input in (
+    args.site / "course-materials" / "theme-finder" / "classification-audit.json",
+    args.site / "course-materials" / "theme-finder" / "review.tsv",
+    args.site / "content" / "idiom-super-curation-item-review-ledger-001-108.csv",
+):
+    editorial_input.unlink(missing_ok=True)
 directories = Counter()
 largest_files = []
 files = 0
