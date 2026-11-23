@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
-import {grammarModules,exportText,exportHtml,exportSections,curationLines} from '../grammar-admin-export.mjs';
+import {grammarModules,exerciseReviewItems,exportText,exportHtml,exportSections,curationLines} from '../grammar-admin-export.mjs';
 const scope={window:{}};vm.createContext(scope);
 for(const f of ['grammar-tense-data.js','grammar-tense-curation-data.js','grammar-tense-extension-data.js','grammar-articles-data.js','grammar-advanced-articles-data.js','grammar-advanced-articles-extension-data.js','grammar-new-curations-data.js','grammar-three-sets-data.js','grammar-reported-speech-data.js'])vm.runInContext(fs.readFileSync(new URL('../'+f,import.meta.url),'utf8'),scope);
 const modules=grammarModules(scope.window);
@@ -17,6 +17,18 @@ for(const m of modules){
  for(const t of m.topics){assert.ok(c.includes(t.title));for(const f of ['body','focus','formula','source'])if(t[f])assert.ok(c.includes(curationLines(t[f])));for(const ex of t.examples||[])for(const str of (Array.isArray(ex)?ex:[ex.text,ex.translation].filter(Boolean)))assert.ok(c.includes(curationLines(str)));if(t.checkpoint){for(const str of [t.checkpoint.prompt,t.checkpoint.whyPrompt,...t.checkpoint.choices,...t.checkpoint.whyChoices,t.checkpoint.explanation])assert.ok(c.includes(curationLines(str)));}checks++;}
  if(m.appendix)assert.ok(c.includes(curationLines(m.appendix)));
  assert.equal(exportSections(m,'exercises').length,m.questions.length);
+ const review=exerciseReviewItems(m);
+ assert.equal(review.length,m.questions.length);
+ for(const [index,item] of review.entries()){
+  const question=m.questions[index];
+  assert.equal(item.number,question.number);
+  assert.ok(item.prompt.includes(question.prompt));
+  assert.ok(item.answer.includes(question.answer));
+  assert.ok(item.steps.length>0,`${m.id} Q${question.number}: expanded review needs at least one explanation step`);
+  const renderedSteps=item.steps.map(step=>`${step.title}\n${step.body}`).join('\n');
+  for(const step of question.steps || [])for(const value of [step.title,step.body])assert.ok(renderedSteps.includes(value),`${m.id} Q${question.number}: review preserves structured steps`);
+  for(const value of question.explanation || [])assert.ok(renderedSteps.includes(value),`${m.id} Q${question.number}: review preserves explanation text`);
+ }
  assert.ok(exportHtml(m,'curation').includes('lang="zh-Hant"'));
  assert.ok(e.includes('參考答案：'));
  const sections=exportSections(m,'exercises');
