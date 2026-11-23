@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": "2013-b2-stage3-v2.1-layout-fix",
+  "release": "2013-b2-stage3-v2.2-cumulative-prior-stage-state",
   "scope": "2013 DSE Paper 3 B2 Super Curation Parts 1-3, with Stages 4-5 locked and existing 2015 records retained",
   "authority": [
     "Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf",
@@ -13,13 +13,13 @@
   "files": [
     {
       "path": "paper3/2013-b2/index.html",
-      "sha256": "67d25a8cec125cec76572160466bbe3f3ec95576c66d76e42ea0353b91afda7c",
+      "sha256": "7a01690b9078270971292a0a434698b0c4bf050d59f119ae8977820dc17dfd4d",
       "requirements": [
         "V7-GOV-01",
         "V7-STATE-01",
         "V7-TEST-01"
       ],
-      "evidence": "Loads the separate Stage 3 cue data and corrected player/controller styles under cache version 20261123b; preserves the authentic page-3 note sheet, corrects the four Adrian statistics blanks and keeps learner and generated-note controls separate.",
+      "evidence": "Loads the separate Stage 3 cue data and cumulative prior-stage controller/styles under cache version 20261123c; preserves the authentic page-3 note sheet and keeps learner and generated-note controls separate.",
       "status": "verified"
     },
     {
@@ -36,19 +36,19 @@
     },
     {
       "path": "paper3/2013-b2/super-curation.css",
-      "sha256": "eaddc2282afa1d8978b63473df7e3cec50d6527e4b0622e203d5f03cbff52ebb",
+      "sha256": "922fe2b6fb985872d098f2880e37adceda6e6e6c5f2ce82e1aa25c1d2546ae1c",
       "requirements": [
         "V7-MOTION-01",
         "V7-A11Y-01",
         "V7-RESP-01",
         "V8-SRC-03"
       ],
-      "evidence": "Keeps all 154 transcript rows visible, animates copy-only red strikes on 115 non-points, exposes the optional Chinese layer, and gives the player/transcript fixed-position ownership so current-target emphasis cannot reflow either viewport control into the paper.",
+      "evidence": "Keeps all 154 transcript rows visible, carries completed Stage 2 document/note stamps into Stage 3 without duplicating overlapping Stage 1 route stamps, preserves listening-only strikes, and retains fixed player/transcript viewport ownership.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation.js",
-      "sha256": "6c9f220831b801d0dbe70a412790c09f02ab6fc7bebd6efe637f651361ce7870",
+      "sha256": "83307662ffe212f6fd20907d03fc6a8b560c33b33d82d80b4049652e973f2b9e",
       "requirements": [
         "V7-STATE-01",
         "V7-NAV-01",
@@ -57,7 +57,7 @@
         "V7-RESP-01",
         "V8-SRC-03"
       ],
-      "evidence": "Builds 185 stable Stage 3 steps and now keeps transcript follow inside the floating transcript, excludes fixed podcast chrome from document scrollIntoView, re-clamps moved transcript geometry on viewport changes and preserves all cue/state/navigation behavior.",
+      "evidence": "Builds 185 stable Stage 3 steps and cumulatively reprojects completed Stage 1/2 source marks, Boss stamps, route stamps, decisive clues, document classifications and note decisions; untouched future classifications remain absent on direct or partial Stage 3 entry.",
       "status": "verified"
     },
     {
@@ -140,7 +140,7 @@
     },
     {
       "path": "docs/paper3/PAPER3_COMPLIANCE_REPORT.md",
-      "sha256": "f66d9b99d81caedddf2e1a42f6af85265d05b21a85a84ff5e0590b335ea37725",
+      "sha256": "ef2cfb6def9b9dc5eb6025b0ce8060cd0eaaa5bf5f7236717d7d4f103afe52bb",
       "requirements": [
         "V7-GOV-01",
         "V7-TEST-01",
@@ -148,7 +148,7 @@
         "V7-RESP-01",
         "V8-SRC-03"
       ],
-      "evidence": "Adds the 2010x1374 fixed-player/page-3 alignment regression under V7-RESP-01 and V7-TRANS-04 while retaining the Part 3 source-fidelity record and historical Part 1/2/2015 sections.",
+      "evidence": "Records cumulative Stage 1/2 ink in Stage 3, partial-progress and fresh-entry disclosure boundaries, reload restoration and the existing fixed-player/page-3 alignment evidence while retaining historical Part 1/2/2015 sections.",
       "status": "verified"
     },
     {
@@ -316,14 +316,14 @@
     },
     {
       "path": "tools/paper3/check-2013-b2-stage3-behaviors.mjs",
-      "sha256": "674250ca43d2c29dc00e07f4f80a9633a180a206e8b8bcd70ec018689c3c7273",
+      "sha256": "132b0d30d6811311829e6160922084edc60bb3a546616e7787b3aa8887d7510a",
       "requirements": [
         "V7-STATE-01",
         "V7-NAV-01",
         "V7-TEST-01",
         "V7-TEST-02"
       ],
-      "evidence": "Verifies fresh entry after Stage 2, all 154 transcript rows visible, pause/resume, replay deduplication, Previous during playback, forward generation and backward removal on scrub, cue reload and no autoplay.",
+      "evidence": "Verifies fresh Stage 3 entry has no untouched prior-stage answers, partial Stage 2 carries only completed work, completed Stage 1/2 carries every expected mark/stamp/strike through reload, then rechecks transcript, playback, seek, cue reload and no-autoplay behavior.",
       "status": "verified"
     },
     {
