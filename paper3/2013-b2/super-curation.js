@@ -788,7 +788,10 @@
   }
 
   function visibleGeneratedCueIds() {
-    if (!inPodcast()) return new Set();
+    // Stage 4 is cumulative: keep every Stage 3 note that the learner has
+    // actually reached. Earlier stages still hide podcast answers, and the
+    // podcast position continues to protect against revealing future cues.
+    if (!inPodcast() && !inDataFile()) return new Set();
     return new Set(state.generatedCueIds.filter(id => (cueStepByCueId.get(id)?.index ?? Infinity) <= state.podcastPosition));
   }
 
@@ -913,6 +916,10 @@
     audioBar.hidden = !visible;
     transcriptWindow.hidden = !visible;
     document.body.classList.toggle('curation-stage-3', visible);
+    // Notes belong to the authentic page-3 sheet, not to the floating player.
+    // Reproject them even after the player closes so Stage 4 preserves the
+    // completed Stage 3 work and reloads restore the same paper state.
+    syncGeneratedNotes();
     if (!visible) {
       audio.pause();
       cancelAnimationFrame(playbackFrame);
@@ -921,7 +928,6 @@
     }
     positionPodcastChrome();
     syncPlayer();
-    syncGeneratedNotes();
     syncTranscript();
   }
 

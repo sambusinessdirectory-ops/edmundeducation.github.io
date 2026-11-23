@@ -53,6 +53,26 @@ assert.equal(await page.locator('.curation-category-stamps .curation-fact-stamp'
 assert.equal(await page.locator('.curation-note-stamps .curation-fact-stamp').count(), 2);
 assert.equal(await page.locator('.curation-note-noise').count(), 3);
 assert.equal(await page.locator('.curation-source-mark[data-step-id^="data-"]:not([data-step-id="data-p05-minutes-title"]).is-revealed').count(), 0);
+
+// Stage 4 must inherit the authentic Stage 3 note sheet. Prove both note
+// layers: learner-authored text from native reader storage and generated cue
+// notes from the versioned Super Curation state, including a full reload.
+await page.locator('[data-stage-id="podcast"]').click();
+await page.locator('textarea[data-note="3-1"]').fill('我的 Stage 3 筆記');
+await page.locator('.curation-player-seek').evaluate(input => {
+  input.value = '100';
+  input.dispatchEvent(new Event('input', {bubbles:true}));
+});
+const generatedBeforeStage4 = await page.locator('.curation-generated-notes li').count();
+assert.ok(generatedBeforeStage4 > 0, 'Stage 3 seek should generate reached podcast notes');
+await page.waitForTimeout(260);
+await page.locator('[data-stage-id="data-file"]').click();
+assert.equal(await page.locator('textarea[data-note="3-1"]').inputValue(), '我的 Stage 3 筆記');
+assert.equal(await page.locator('.curation-generated-notes li').count(), generatedBeforeStage4, 'Stage 4 must preserve generated Stage 3 notes');
+await page.reload({waitUntil:'networkidle'});
+await page.waitForFunction(() => window.__EDMUND_2013_SUPER_CURATION__?.getState().activeStage === 'data-file');
+assert.equal(await page.locator('textarea[data-note="3-1"]').inputValue(), '我的 Stage 3 筆記');
+assert.equal(await page.locator('.curation-generated-notes li').count(), generatedBeforeStage4, 'Stage 4 reload must restore generated Stage 3 notes');
 await page.screenshot({path:path.join(outputDir, '01-first-step.png'), fullPage:false});
 
 await page.locator('#curation-spotlight').uncheck();

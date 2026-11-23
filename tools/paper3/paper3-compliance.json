@@ -273,13 +273,13 @@
     },
     {
       "path": "paper3/2013-b2/index.html",
-      "sha256": "18a76825e0eb205a5eb61977d0250a12c67040af948379331cd9a6361ace047b",
+      "sha256": "d0665b674432bb2243563b611abaa40ff6572a640a74c850bc525ad7fffcf352",
       "requirements": [
         "V7-GOV-01",
         "V7-STATE-01",
         "V7-TEST-01"
       ],
-      "evidence": "Loads the separate Stage 4 ledger/controller/styles under cache version 20261123e while keeping Stage 5 locked.",
+      "evidence": "Loads the separate Stage 4 ledger/controller/styles and the Stage 3-to-4 note-preservation controller under cache version 20261123f while keeping Stage 5 locked.",
       "status": "verified"
     },
     {
@@ -306,15 +306,17 @@
     },
     {
       "path": "paper3/2013-b2/super-curation.js",
-      "sha256": "b56c47353bed5aa4be333c29f43eb39aacb5dec01b00b312b9d38fccc9d020fa",
+      "sha256": "678e90b012f0e7abc5dc2d20c538013d7dbd2d5a5df48b8b7f74fbf44d254c9f",
       "requirements": [
+        "V7-NOTE-02",
         "V7-STATE-01",
+        "V7-STATE-02",
         "V7-NAV-01",
         "V7-ROUTE-01",
         "V7-A11Y-01",
         "V8-SRC-03"
       ],
-      "evidence": "Adds Stage 4 exact phrase focus, progressive reveal, evidence bank/filter/return, stable-ID persistence and free Stage 1-4 access without changing Stage 5.",
+      "evidence": "Adds Stage 4 exact phrase focus, progressive reveal, evidence bank/filter/return and free Stage 1-4 access; reprojects only reached Stage 3 generated notes in Stage 4 while preserving learner notes and reload state.",
       "status": "verified"
     },
     {
@@ -331,13 +333,14 @@
     },
     {
       "path": "tools/paper3/check-2013-b2-stage4.mjs",
-      "sha256": "4e1f6e3deb8a46064d0afddb6675a471f3a041a2c6b1eaa72991c13f4cd15e63",
+      "sha256": "b857fe9fba8a51a8a22812d665a0419e44eba453ac53189cbf562b5dc0a53aff",
       "requirements": [
+        "V7-NOTE-02",
+        "V7-STATE-02",
         "V7-TEST-01",
-        "V7-TEST-02",
-        "V7-STATE-01"
+        "V7-TEST-02"
       ],
-      "evidence": "Runs the 134-step production journey, future-ink checks, reloads, spotlight, evidence bank/filter, cumulative ink, deep link and four screenshot checks.",
+      "evidence": "Runs the 134-step production journey plus a Stage 3-to-4-to-reload handoff proving generated and learner-authored podcast notes survive while the player remains hidden.",
       "status": "verified"
     },
     {
@@ -400,7 +403,7 @@
     },
     {
       "path": "tools/paper3/update-2013-b2-stage4-compliance.mjs",
-      "sha256": "5cb2d1efd448fdc0f8eb8813705f9bd8f0860d44046074a1a6ff72ef696a8a61",
+      "sha256": "dcac5748d753bacc193d656410c4b9b7b081efec501904c288b27dbc43bd74f6",
       "requirements": [
         "V7-GOV-01",
         "V7-TEST-02"
@@ -421,15 +424,17 @@
     },
     {
       "path": "tools/paper3/2013_B2_STAGE4_IMPLEMENTATION_REPORT.md",
-      "sha256": "8e02373faadee354257dc825f5c3b09fc7352404542fa45278d72fa7e8bb952f",
+      "sha256": "bdbcf64923dc7853c55fe9efe0205bda39d3885a3763ef8fd68202841f7e59ce",
       "requirements": [
         "V7-GOV-01",
+        "V7-NOTE-02",
         "V7-STATE-01",
+        "V7-STATE-02",
         "V7-NAV-01",
         "V7-RESP-01",
         "V7-TEST-01"
       ],
-      "evidence": "Reports flow, inventory, state, 40 checks, screenshots, files, limitations and the unimplemented Stage 5 plan.",
+      "evidence": "Reports flow, inventory, cumulative Stage 3 notes, state, 42 checks, screenshots, files, limitations and the unimplemented Stage 5 plan.",
       "status": "verified"
     }
   ],
