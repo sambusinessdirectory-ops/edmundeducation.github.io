@@ -107,6 +107,7 @@
   const categoryIconGroups = new Map();
   for (const step of categories) {
     if (!step.target) continue;
+    step.target.classList.add('curation-stage2-category-target');
     const holder = make('span', 'curation-category-icons');
     holder.setAttribute('aria-label', '這份資料的暫定任務分類');
     holder.hidden = true;

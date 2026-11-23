@@ -267,24 +267,33 @@
 
   function appendSemanticText(container, turn) {
     const ranges = [];
+    const pointClass = turn.task
+      ? `curation-transcript-inline-task curation-transcript-inline-task-${turn.task}`
+      : 'curation-transcript-inline-listening';
     const addRanges = (phrases, className) => {
       for (const phrase of phrases || []) {
         const at = turn.text.indexOf(phrase);
-        if (at < 0) continue;
+        if (at < 0) {
+          console.error('2016 Stage 3 transcript phrase audit failed.', {turn: turn.id, phrase});
+          continue;
+        }
         ranges.push({start: at, end: at + phrase.length, className});
       }
     };
-    addRanges(turn.noisePhrases, 'curation-transcript-inline-noise');
-    addRanges(turn.highlightPhrases, `curation-transcript-inline-task curation-transcript-inline-task-${turn.task || 'none'}`);
+    addRanges(turn.highlightPhrases, pointClass);
     ranges.sort((a, b) => a.start - b.start || b.end - a.end);
     let cursor = 0;
     for (const range of ranges) {
       if (range.start < cursor) continue;
-      if (range.start > cursor) container.append(document.createTextNode(turn.text.slice(cursor, range.start)));
+      if (range.start > cursor) {
+        container.append(make('span', 'curation-transcript-inline-noise', turn.text.slice(cursor, range.start)));
+      }
       container.append(make('span', range.className, turn.text.slice(range.start, range.end)));
       cursor = range.end;
     }
-    if (cursor < turn.text.length) container.append(document.createTextNode(turn.text.slice(cursor)));
+    if (cursor < turn.text.length) {
+      container.append(make('span', 'curation-transcript-inline-noise', turn.text.slice(cursor)));
+    }
   }
 
   for (const turn of data.transcript) {
