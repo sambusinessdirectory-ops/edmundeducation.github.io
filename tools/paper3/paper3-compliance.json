@@ -390,7 +390,7 @@
     },
     {
       "path": "tools/paper3/build-2013-b2-stage4-mapping.mjs",
-      "sha256": "f5c621f6c7d44bb349456dc30c7a9773ccd7a0a2b33059a74d3bd97b8cddbcdc",
+      "sha256": "f4e21dc8da2dfbf4b4c78bb54310fe9241b3a10a8b182425d711dceffb28c002",
       "requirements": [
         "V7-SRC-01",
         "V8-SRC-03"
@@ -400,7 +400,7 @@
     },
     {
       "path": "tools/paper3/update-2013-b2-stage4-compliance.mjs",
-      "sha256": "515606e91e973683eb6a212b25b2aef31e5967efd8e210275bba7e7394f0afb9",
+      "sha256": "5cb2d1efd448fdc0f8eb8813705f9bd8f0860d44046074a1a6ff72ef696a8a61",
       "requirements": [
         "V7-GOV-01",
         "V7-TEST-02"
@@ -409,7 +409,7 @@
       "status": "verified"
     },
     {
-      "path": "docs/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md",
+      "path": "tools/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md",
       "sha256": "69a42cdc112a81f623db66cfdfa8a81715d6b613026e8ea5defa864a26892832",
       "requirements": [
         "V7-SRC-01",
@@ -420,7 +420,7 @@
       "status": "verified"
     },
     {
-      "path": "docs/paper3/2013_B2_STAGE4_IMPLEMENTATION_REPORT.md",
+      "path": "tools/paper3/2013_B2_STAGE4_IMPLEMENTATION_REPORT.md",
       "sha256": "8e02373faadee354257dc825f5c3b09fc7352404542fa45278d72fa7e8bb952f",
       "requirements": [
         "V7-GOV-01",
@@ -430,16 +430,6 @@
         "V7-TEST-01"
       ],
       "evidence": "Reports flow, inventory, state, 40 checks, screenshots, files, limitations and the unimplemented Stage 5 plan.",
-      "status": "verified"
-    },
-    {
-      "path": "docs/paper3/PAPER3_COMPLIANCE_REPORT.md",
-      "sha256": "cd3ebad08eb416a7804988c04f71dbff98775b3e5caa08909c51141435361e7c",
-      "requirements": [
-        "V7-GOV-01",
-        "V7-TEST-02"
-      ],
-      "evidence": "Adds the Stage 4 governed release, evidence matrix and links to the detailed implementation and source-mapping records.",
       "status": "verified"
     }
   ],

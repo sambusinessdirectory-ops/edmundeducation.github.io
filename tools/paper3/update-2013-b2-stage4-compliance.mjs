@@ -17,12 +17,17 @@ const records = [
   ['tools/paper3/check-2013-b2-stage3-behaviors.mjs', ['V7-STATE-01','V7-TEST-01','V7-TEST-02','V8-SRC-03'], 'Retains all playback/replay/seek/reload checks while scoping cumulative Stage 1 ink separately from new Stage 4 marks.'],
   ['tools/paper3/build-2013-b2-stage4-mapping.mjs', ['V7-SRC-01','V8-SRC-03'], 'Generates and validates the 134-row exact page/phrase/code source mapping from the released Stage 4 model.'],
   ['tools/paper3/update-2013-b2-stage4-compliance.mjs', ['V7-GOV-01','V7-TEST-02'], 'Refreshes governed file hashes, Stage 4 requirement evidence and verification commands without weakening the compliance gate.'],
-  ['docs/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md', ['V7-SRC-01','V7-NAV-01','V8-SRC-03'], 'Maps all 134 stable IDs to Data File page, source document, exact phrase, task, type, bank decision and implementation line.'],
-  ['docs/paper3/2013_B2_STAGE4_IMPLEMENTATION_REPORT.md', ['V7-GOV-01','V7-STATE-01','V7-NAV-01','V7-RESP-01','V7-TEST-01'], 'Reports flow, inventory, state, 40 checks, screenshots, files, limitations and the unimplemented Stage 5 plan.']
-  ,['docs/paper3/PAPER3_COMPLIANCE_REPORT.md', ['V7-GOV-01','V7-TEST-02'], 'Adds the Stage 4 governed release, evidence matrix and links to the detailed implementation and source-mapping records.']
+  ['tools/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md', ['V7-SRC-01','V7-NAV-01','V8-SRC-03'], 'Maps all 134 stable IDs to Data File page, source document, exact phrase, task, type, bank decision and implementation line.'],
+  ['tools/paper3/2013_B2_STAGE4_IMPLEMENTATION_REPORT.md', ['V7-GOV-01','V7-STATE-01','V7-NAV-01','V7-RESP-01','V7-TEST-01'], 'Reports flow, inventory, state, 40 checks, screenshots, files, limitations and the unimplemented Stage 5 plan.']
 ];
 const stage4Paths = new Set(records.map(([path]) => path));
-report.files = report.files.filter(entry => !stage4Paths.has(entry.path));
+const obsoletePaths = new Set([
+  ...stage4Paths,
+  'docs/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md',
+  'docs/paper3/2013_B2_STAGE4_IMPLEMENTATION_REPORT.md',
+  'docs/paper3/PAPER3_COMPLIANCE_REPORT.md'
+]);
+report.files = report.files.filter(entry => !obsoletePaths.has(entry.path));
 for (const [path, requirements, evidence] of records) report.files.push({path, sha256:sha256(path), requirements, evidence, status:'verified'});
 report.release = '2013-b2-stage4-v1';
 report.scope = '2013 DSE Paper 3 B2 Super Curation Parts 1-4, with Stage 5 locked and existing 2015 records retained';
