@@ -284,6 +284,7 @@ jobs:
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /assets/ielts-reading/
           /assets/reading-comprehension/
+          /daily-reading/
           /dse-reading-analysis/
           /dse-reading-data/
           /reading-curation/
