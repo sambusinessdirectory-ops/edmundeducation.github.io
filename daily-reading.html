@@ -11,11 +11,11 @@
   <link rel="manifest" href="/pwa-manifests/daily-reading.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20261121-system-bundle1">
-  <link rel="stylesheet" href="/daily-reading/daily-reading.css?v=reading-workbench-20261123-1">
+  <link rel="stylesheet" href="/daily-reading/daily-reading.css?v=parking-meter-enhanced-20261124-1">
   <script defer src="/pwa-register.js"></script>
   <script defer src="/supabase-config.js"></script>
   <script defer src="/shared-system-nav.js?v=20261121-system-bundle1"></script>
-  <script type="module" src="/daily-reading/daily-reading.mjs?v=reading-workbench-20261123-1"></script>
+  <script type="module" src="/daily-reading/parking-meter-enhanced.mjs?v=parking-meter-enhanced-20261124-1"></script>
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -70,7 +70,7 @@
     <section class="view library-view" data-view="library" hidden>
       <header class="library-heading">
         <div><p class="kicker">DAILY READING · ARTICLE 01</p><h1>日常閱讀理解系統</h1><p data-welcome>選擇文章開始。</p></div>
-        <dl><div><dt>題目</dt><dd>24</dd></div><div><dt>總分</dt><dd>40</dd></div><div><dt>建議</dt><dd>35–45 min</dd></div></dl>
+        <dl><div><dt>題目</dt><dd>24</dd></div><div><dt>總分</dt><dd>40</dd></div><div><dt>建議</dt><dd>40–50 min</dd></div></dl>
       </header>
       <button class="article-card" type="button" data-open-article>
         <span class="article-thumb"><img src="/daily-reading/parking-meter-article.webp" alt="香港路旁停車收費錶新聞圖片"><span>HONG KONG · TECHNOLOGY</span></span>
@@ -84,7 +84,7 @@
           <button class="back-button" type="button" data-back>← 返回文章目錄</button>
           <p class="kicker">ARTICLE 01 · PUBLIC SERVICE DISRUPTION</p>
           <h1>Software update triggers HK parking meter outage</h1>
-          <p>24 questions · 40 marks · Suggested time: 35–45 minutes</p>
+          <p>24 questions · 40 marks · Suggested time: 40–50 minutes</p>
         </div>
         <div class="timer-card" data-timer-card>
           <div class="timer-display"><span data-timer-mode-label>計時（選用）</span><time data-timer>00:00</time></div>
@@ -93,17 +93,11 @@
         </div>
       </header>
 
-      <section class="practice-mode-panel" aria-label="練習模式">
-        <div><strong>試卷檢視方式</strong><p>文章與題目並排顯示；選擇題目時，相關段落會同步標示。</p></div>
-        <span>雙欄練習</span>
-      </section>
-
-      <section class="exercise-toolbar" aria-label="答題進度及分部導覽">
+      <section class="exercise-toolbar" aria-label="答題進度">
         <div class="progress-summary">
           <div class="score-ring" data-score-ring><strong data-score>0</strong><span>/ 40</span></div>
           <div class="progress-copy"><strong>答題進度</strong><p data-progress-text>尚未檢查答案</p><div class="progress-track"><i data-progress-bar></i></div></div>
         </div>
-        <nav data-section-nav aria-label="題目分部"></nav>
         <button class="secondary-button" type="button" data-reset>清除本篇答案</button>
       </section>
 
@@ -111,10 +105,30 @@
         <article class="passage-panel" aria-labelledby="passage-title">
           <div class="passage-image"><img src="/daily-reading/parking-meter-article.webp" alt="香港路旁停車收費錶；新聞原圖及文章截圖"><span>The system resumed normal operations at 12.15pm. Photo: RTHK</span></div>
           <div class="passage-copy">
-            <p class="panel-label">READING PASSAGE</p>
+            <div class="passage-heading-row">
+              <p class="panel-label">READING PASSAGE</p>
+              <button class="curation-toggle" type="button" data-curation-toggle aria-pressed="false">句式精讀</button>
+            </div>
             <h2 id="passage-title">Software update triggers HK parking meter outage</h2>
             <p class="dateline">Hong Kong · Public service technology</p>
+            <section class="reader-tools" aria-label="文章閱讀工具">
+              <div class="reader-tool-row">
+                <button type="button" data-audio-toggle>▶ 聆聽文章</button>
+                <button type="button" data-audio-back>−5 秒</button>
+                <label>速度 <select data-audio-rate><option value="0.8">0.8×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option><option value="1.3">1.3×</option></select></label>
+                <span data-audio-time>00:00 / 00:00</span>
+              </div>
+              <input class="audio-seek" type="range" min="0" max="1000" value="0" data-audio-seek aria-label="文章音訊進度">
+              <audio data-passage-audio preload="metadata" src="/daily-reading/parking-meter-passage-british-male.mp3"></audio>
+              <div class="reader-tool-row">
+                <button type="button" data-translation-toggle aria-pressed="false">中英對照</button>
+                <button type="button" data-highlighter-toggle aria-pressed="false">螢光筆：關</button>
+                <button type="button" data-clear-highlights>清除標記</button>
+              </div>
+              <p class="highlighter-help" data-highlighter-help hidden>拖曳選取文章文字即可標記；再選一次可加入更多標記。</p>
+            </section>
             <div data-passage></div>
+            <section class="glossary-section" data-glossary="passage" aria-label="文章詞彙表"></section>
           </div>
         </article>
 
@@ -124,11 +138,25 @@
             <strong>Instructions · 作答指示</strong>
             <p>Read the article carefully and answer <b>ALL</b> questions. Unless otherwise stated, base your answers <b>only on the information in the article</b>. Where a question requires words from the article, observe the stated word limit. Write <b>T</b> (True), <b>F</b> (False), or <b>NG</b> (Not Given) as appropriate. <i>Not Given</i> means that the article neither confirms nor contradicts the statement.</p>
           </div>
-          <div data-questions></div>
-          <section class="final-result" data-final-result hidden aria-live="polite"></section>
-          <button class="finish-button" type="button" data-finish>完成並計算總分</button>
+          <div data-questions-view>
+            <p class="submission-alert" data-submission-alert hidden role="alert"></p>
+            <div data-questions></div>
+            <section class="glossary-section" data-glossary="questions" aria-label="題目詞彙表"></section>
+          </div>
+          <section class="curation-panel" data-curation-panel hidden aria-live="polite"></section>
+          <button class="finish-button" type="button" data-finish>完成並查看全部答案</button>
         </section>
       </div>
+    </section>
+
+    <section class="view answer-review-view" data-view="review" hidden>
+      <header class="review-hero">
+        <p class="kicker">COMPLETE · 全部答案</p>
+        <h1>答案與精準解析</h1>
+        <p data-review-score></p>
+        <div><button class="back-button" type="button" data-review-back>← 返回修改答案</button><button class="header-button" type="button" data-review-library>文章目錄</button></div>
+      </header>
+      <div class="review-list" data-review-list></div>
     </section>
   </main>
   <noscript><p class="noscript">請啟用 JavaScript 使用日常閱讀理解系統。</p></noscript>
