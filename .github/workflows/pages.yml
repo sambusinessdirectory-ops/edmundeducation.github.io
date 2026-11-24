@@ -287,6 +287,7 @@ jobs:
           /dse-reading-analysis/
           /dse-reading-data/
           /reading-curation/
+          /tools/dse-reading-translations/
           PATTERNS
               ;;
           esac
