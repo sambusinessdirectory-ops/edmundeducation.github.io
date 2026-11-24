@@ -9,6 +9,7 @@ let timerInterval = null;
 let timerRunning = false;
 let timerSeconds = 0;
 let highlighterEnabled = false;
+let highlighterColor = 'yellow';
 let curationIndex = 0;
 let curationActive = false;
 const state = {user:null,token:'',scores:new Map(),fieldOrder:new Map()};
@@ -68,6 +69,17 @@ async function restore(){
 }
 
 function translationVisible(){return $('[data-translation-toggle]')?.classList.contains('is-active');}
+function translationHiddenAttribute(){return translationVisible()?'':' hidden';}
+function questionPromptHtml(prompt){
+  return String(prompt).split('\n').filter(Boolean).map(line=>/[\u3400-\u9fff]/u.test(line)
+    ? `<span class="question-translation" lang="zh-Hant"${translationHiddenAttribute()}>${escapeHtml(line)}</span>`
+    : `<span class="question-prompt-line">${escapeHtml(line)}</span>`).join('');
+}
+function optionHtml(option){
+  const parts=String(option).split('／');
+  if(parts.length<2)return `<span class="option-copy">${escapeHtml(option)}</span>`;
+  return `<span class="option-copy"><span>${escapeHtml(parts.shift())}</span><span class="question-translation" lang="zh-Hant"${translationHiddenAttribute()}>${escapeHtml(parts.join('／'))}</span></span>`;
+}
 function renderPassage(highlight=''){
   const root=$('[data-passage]');root.replaceChildren();
   passage.forEach((text,index)=>{
@@ -80,8 +92,8 @@ function renderPassage(highlight=''){
 }
 
 function renderGlossary(){
-  const rows=glossary.map(([paragraph,term,level,meaning,note])=>`<tr><td>${paragraph}</td><th scope="row">${escapeHtml(term)}</th><td><span>${escapeHtml(level)}</span></td><td>${escapeHtml(meaning)}</td><td>${escapeHtml(note)}</td></tr>`).join('');
-  const html=`<details><summary><span>GLOSSARY · 詞彙表</span><small>${glossary.length} 個原文詞語</small></summary><div class="glossary-table-wrap"><table><thead><tr><th>段落</th><th>Vocabulary</th><th>級別</th><th>繁體中文</th><th>用法／提示</th></tr></thead><tbody>${rows}</tbody></table></div><p class="glossary-note">閱讀提醒：單詞的準確釋義須由上下文決定。<i>about</i>（約數）、<i>reported</i>（通報）、<i>approval</i>（審批）等，不能單憑字典第一個意思判斷。</p></details>`;
+  const rows=glossary.map(([paragraph,term,level,meaning])=>`<tr><td>${paragraph}</td><th scope="row">${escapeHtml(term)}</th><td><span>${escapeHtml(level)}</span></td><td>${escapeHtml(meaning)}</td></tr>`).join('');
+  const html=`<details><summary><span>GLOSSARY · 詞彙表</span><small>${glossary.length} 個原文詞語</small></summary><div class="glossary-table-wrap"><table><thead><tr><th>段落</th><th>Vocabulary</th><th>級別</th><th>繁體中文</th></tr></thead><tbody>${rows}</tbody></table></div><p class="glossary-note">閱讀提醒：單詞的準確釋義須由上下文決定。<i>about</i>（約數）、<i>reported</i>（通報）、<i>approval</i>（審批）等，不能單憑字典第一個意思判斷。</p></details>`;
   $$('[data-glossary]').forEach(root=>root.innerHTML=html);
 }
 
@@ -94,7 +106,7 @@ function renderField(q,field,index){
   const name=fieldKey(q,field,index),label=field.label?`<label>${escapeHtml(field.label)}</label>`:'';
   if(field.type==='choice'||field.type==='multi'){
     const kind=field.type==='choice'?'radio':'checkbox';
-    return `<div class="field-block">${label}<div class="option-list">${field.options.map((option,i)=>`<label class="option"><input type="${kind}" name="${name}" value="${i}"><span>${'ABCDE'[i]}. ${escapeHtml(option)}</span></label>`).join('')}</div></div>`;
+    return `<div class="field-block">${label}<div class="option-list">${field.options.map((option,i)=>`<label class="option"><input type="${kind}" name="${name}" value="${i}"><span class="option-letter">${'ABCDE'[i]}.</span>${optionHtml(option)}</label>`).join('')}</div></div>`;
   }
   if(field.type==='select')return `<div class="field-row">${label}<select name="${name}"><option value="">請選擇</option>${field.options.map(option=>`<option value="${escapeHtml(option.value)}">${escapeHtml(option.label)}</option>`).join('')}</select></div>`;
   if(field.type==='textarea')return `<div class="field-block">${label}<textarea class="open-answer" name="${name}" placeholder="在此作答"></textarea></div>`;
@@ -105,8 +117,11 @@ function renderQuestions(){
   for(const q of questions){
     if(q.section!==lastSection){const heading=document.createElement('h3');heading.className='section-heading';heading.textContent=q.section;root.append(heading);lastSection=q.section;}
     const card=document.createElement('article');card.className='question-card';card.id=`question-${q.id}`;card.dataset.question=String(q.id);
-    card.innerHTML=`<div class="question-meta"><span>QUESTION ${String(q.id).padStart(2,'0')}</span><span>${q.marks} MARK${q.marks>1?'S':''}</span></div><p class="question-prompt">${escapeHtml(q.prompt)}</p><div class="field-list">${fieldsFor(q).map(({field,index})=>renderField(q,field,index)).join('')}</div><div class="question-actions"><button type="button" class="check-button">儲存本題</button><span class="marks-earned" aria-live="polite"></span></div>`;
-    card.querySelector('.check-button').onclick=()=>{const done=questionComplete(q,card);card.querySelector('.marks-earned').textContent=done?'答案已記錄；完整答案將於交卷後顯示。':'尚有空白，請完成本題。';card.classList.toggle('has-missing',!done);saveDraft();updateProgress();};
+    card.innerHTML=`<div class="question-meta"><span>QUESTION ${String(q.id).padStart(2,'0')}</span><span>${q.marks} MARK${q.marks>1?'S':''}</span></div><p class="question-prompt">${questionPromptHtml(q.prompt)}</p><div class="field-list">${fieldsFor(q).map(({field,index})=>renderField(q,field,index)).join('')}</div><div class="question-actions"><button type="button" class="reveal-answer-button" aria-expanded="false">顯示答案及解析</button></div><div class="question-feedback" hidden><strong>參考答案：${escapeHtml(q.sample)}</strong><p>${escapeHtml(q.why)}</p><span class="question-feedback-score"></span></div>`;
+    card.querySelector('.reveal-answer-button').onclick=event=>{
+      const feedback=card.querySelector('.question-feedback'),open=feedback.hidden;feedback.hidden=!open;event.currentTarget.setAttribute('aria-expanded',String(open));event.currentTarget.textContent=open?'隱藏答案及解析':'顯示答案及解析';
+      if(open){const complete=questionComplete(q,card),score=complete?scoreQuestion(q,card):null;card.querySelector('.question-feedback-score').textContent=complete?`本題得分：${score} / ${q.marks}`:'本題尚未完成；以下答案供你核對。';saveDraft();updateProgress();}
+    };
     card.querySelectorAll('input,textarea,select').forEach(control=>{for(const event of ['input','change'])control.addEventListener(event,()=>{card.classList.remove('has-missing');saveDraft();updateProgress();});});root.append(card);
   }
 }
@@ -184,9 +199,15 @@ function toggleCuration(){
 function clearHighlights(){$$('mark.user-highlight').forEach(mark=>mark.replaceWith(document.createTextNode(mark.textContent)));$('[data-passage]').normalize();}
 function addSelectionHighlight(){
   if(!highlighterEnabled||curationActive)return;const selection=window.getSelection();if(!selection||selection.isCollapsed||!selection.rangeCount)return;const range=selection.getRangeAt(0),root=$('[data-passage]');if(!root.contains(range.commonAncestorContainer))return;
-  try{const mark=document.createElement('mark');mark.className='user-highlight';range.surroundContents(mark);}catch{const fragment=range.extractContents(),mark=document.createElement('mark');mark.className='user-highlight';mark.append(fragment);range.insertNode(mark);}selection.removeAllRanges();
+  try{const mark=document.createElement('mark');mark.className='user-highlight';mark.dataset.highlightColor=highlighterColor;range.surroundContents(mark);}catch{const fragment=range.extractContents(),mark=document.createElement('mark');mark.className='user-highlight';mark.dataset.highlightColor=highlighterColor;mark.append(fragment);range.insertNode(mark);}selection.removeAllRanges();
 }
 function toggleHighlighter(){highlighterEnabled=!highlighterEnabled;const button=$('[data-highlighter-toggle]');button.setAttribute('aria-pressed',String(highlighterEnabled));button.classList.toggle('is-active',highlighterEnabled);button.textContent=`螢光筆：${highlighterEnabled?'開':'關'}`;$('[data-highlighter-help]').hidden=!highlighterEnabled;}
+function selectHighlighterColor(button){
+  highlighterColor=button.dataset.highlighterColor;
+  $$('[data-highlighter-color]').forEach(choice=>choice.setAttribute('aria-pressed',String(choice===button)));
+  if(!highlighterEnabled)toggleHighlighter();
+  $('[data-highlighter-help]').textContent=`已選擇${button.title}螢光筆。拖曳選取文章文字即可標記。`;
+}
 
 function setupAudio(){
   const audio=$('[data-passage-audio]'),toggle=$('[data-audio-toggle]'),seek=$('[data-audio-seek]'),time=$('[data-audio-time]');
@@ -196,8 +217,9 @@ function setupAudio(){
 
 renderPassage();renderQuestions();renderGlossary();updateProgress();setupAudio();
 $('[data-passage]').addEventListener('mouseup',addSelectionHighlight);$('[data-passage]').addEventListener('touchend',()=>setTimeout(addSelectionHighlight,0));
-$('[data-translation-toggle]').onclick=event=>{const active=!event.currentTarget.classList.contains('is-active');event.currentTarget.classList.toggle('is-active',active);event.currentTarget.setAttribute('aria-pressed',String(active));event.currentTarget.textContent=active?'隱藏中文':'中英對照';$$('.passage-translation').forEach(node=>node.hidden=!active);};
+$('[data-translation-toggle]').onclick=event=>{const active=!event.currentTarget.classList.contains('is-active');event.currentTarget.classList.toggle('is-active',active);event.currentTarget.setAttribute('aria-pressed',String(active));event.currentTarget.textContent=active?'隱藏中文':'中英對照';$$('.passage-translation,.question-translation').forEach(node=>node.hidden=!active);};
 $('[data-highlighter-toggle]').onclick=toggleHighlighter;$('[data-clear-highlights]').onclick=clearHighlights;$('[data-curation-toggle]').onclick=toggleCuration;
+$$('[data-highlighter-color]').forEach(button=>button.onclick=()=>selectHighlighterColor(button));
 
 $('[data-login-form]').onsubmit=async event=>{
   event.preventDefault();const form=event.currentTarget,status=$('[data-login-status]'),button=$('[data-login-button]'),values=new FormData(form),username=String(values.get('username')||'').trim(),password=String(values.get('password')||'');
