@@ -18,7 +18,7 @@ assert.match(html,/data-view="exercise" hidden/);
 assert.match(html,/class="exercise-layout reading-workbench"/);
 assert.match(html,/class="timer-card" data-timer-card/);
 assert.match(html,/class="exercise-toolbar"/);
-assert.match(html,/flashcard_student_login|daily-reading\.mjs/);
+assert.match(html,/flashcard_student_login|daily-reading\.mjs|parking-meter-enhanced\.mjs/);
 assert.match(runtime,/flashcard_student_login/);
 assert.match(runtime,/flashcard_student_session_profile/);
 assert.match(runtime,/getStudentSession/);
