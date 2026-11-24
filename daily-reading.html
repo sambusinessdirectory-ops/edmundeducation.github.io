@@ -11,11 +11,11 @@
   <link rel="manifest" href="/pwa-manifests/daily-reading.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20261121-system-bundle1">
-  <link rel="stylesheet" href="/daily-reading/daily-reading.css?v=parking-meter-enhanced-20261124-1">
+  <link rel="stylesheet" href="/daily-reading/daily-reading.css?v=parking-meter-enhanced-20261124-2">
   <script defer src="/pwa-register.js"></script>
   <script defer src="/supabase-config.js"></script>
   <script defer src="/shared-system-nav.js?v=20261121-system-bundle1"></script>
-  <script type="module" src="/daily-reading/parking-meter-enhanced.mjs?v=parking-meter-enhanced-20261124-1"></script>
+  <script type="module" src="/daily-reading/parking-meter-enhanced.mjs?v=parking-meter-enhanced-20261124-2"></script>
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -123,6 +123,13 @@
               <div class="reader-tool-row">
                 <button type="button" data-translation-toggle aria-pressed="false">中英對照</button>
                 <button type="button" data-highlighter-toggle aria-pressed="false">螢光筆：關</button>
+                <div class="highlighter-colors" role="group" aria-label="選擇螢光筆顏色">
+                  <button type="button" data-highlighter-color="yellow" aria-label="黃色螢光筆" aria-pressed="true" title="黃色"><span></span></button>
+                  <button type="button" data-highlighter-color="green" aria-label="綠色螢光筆" aria-pressed="false" title="綠色"><span></span></button>
+                  <button type="button" data-highlighter-color="blue" aria-label="藍色螢光筆" aria-pressed="false" title="藍色"><span></span></button>
+                  <button type="button" data-highlighter-color="purple" aria-label="淡紫色螢光筆" aria-pressed="false" title="淡紫色"><span></span></button>
+                  <button type="button" data-highlighter-color="red" aria-label="紅色螢光筆" aria-pressed="false" title="紅色"><span></span></button>
+                </div>
                 <button type="button" data-clear-highlights>清除標記</button>
               </div>
               <p class="highlighter-help" data-highlighter-help hidden>拖曳選取文章文字即可標記；再選一次可加入更多標記。</p>
@@ -133,11 +140,7 @@
         </article>
 
         <section class="questions-panel" aria-labelledby="questions-title">
-          <div class="questions-heading"><div><p class="panel-label">HKDSE-STYLE PRACTICE</p><h2 id="questions-title">閱讀理解練習</h2></div><p>請根據文章作答。每題按「檢查答案」後才會顯示參考答案與解釋。</p></div>
-          <div class="instructions-panel">
-            <strong>Instructions · 作答指示</strong>
-            <p>Read the article carefully and answer <b>ALL</b> questions. Unless otherwise stated, base your answers <b>only on the information in the article</b>. Where a question requires words from the article, observe the stated word limit. Write <b>T</b> (True), <b>F</b> (False), or <b>NG</b> (Not Given) as appropriate. <i>Not Given</i> means that the article neither confirms nor contradicts the statement.</p>
-          </div>
+          <div class="questions-heading"><div><p class="panel-label">HKDSE-STYLE PRACTICE</p><h2 id="questions-title">閱讀理解練習</h2></div><p>答案會即時自動儲存；你亦可逐題顯示參考答案及解析。</p></div>
           <div data-questions-view>
             <p class="submission-alert" data-submission-alert hidden role="alert"></p>
             <div data-questions></div>
