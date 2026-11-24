@@ -29,7 +29,7 @@ assert.match(runtime,/AbortController/);
 assert.match(runtime,/登入成功，正在開啟文章目錄/);
 assert.match(runtime,/try\{window\.EdmundSystemNav\?\.rememberStudentSession/);
 assert.match(html,/Software update triggers HK parking meter outage/);
-assert.match(html,/Read the article carefully and answer <b>ALL<\/b> questions/);
+assert.doesNotMatch(html,/Read the article carefully and answer <b>ALL<\/b> questions/);
 const passageBlock=runtime.match(/const passage = \[([\s\S]*?)\n\];/)?.[1]||'';
 assert.equal((passageBlock.match(/^\s*'/gm)||[]).length,8,'passage must retain eight numbered paragraphs');
 
