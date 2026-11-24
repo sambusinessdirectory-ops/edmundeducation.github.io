@@ -986,6 +986,7 @@ jobs:
           node tools/test-ielts-reading-passage1-flashcards.mjs --data-only
           node tools/test-ielts-reading-passage2-flashcards.mjs --data-only
           node tools/test-reading-daily.mjs
+          npm ci --prefix tools/email-qa --ignore-scripts
           node tools/test-daily-reading-parking-meter.mjs
 
       - name: Validate focused DSE Listening release
