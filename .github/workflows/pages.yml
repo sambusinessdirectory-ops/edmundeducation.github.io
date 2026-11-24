@@ -287,6 +287,7 @@ jobs:
           /daily-reading/
           /dse-reading-analysis/
           /dse-reading-data/
+          /pwa-manifests/daily-reading.webmanifest
           /reading-curation/
           /tools/dse-reading-translations/
           PATTERNS
