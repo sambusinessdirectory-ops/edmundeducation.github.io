@@ -423,6 +423,8 @@
       "precise-language-system.*",
       "quotes-system.*",
       "mock-exam-system.*",
+      "flashcard-custom-audio/common-spelling-traps/**",
+      "spelling-common-traps-audio-manifest.js",
       "spelling-common-traps-catalog.js",
       "spelling-practice.*",
       "spelling-jayden-audio-manifest.js",
@@ -432,6 +434,7 @@
       "thematic-vocabulary-learning-system.*",
       "thematic-vocabulary-system.*",
       "tools/test-learning-portal-scaffolds.mjs",
+      "tools/generate-common-spelling-traps-audio.py",
       "tools/test-liaison-pilot.mjs",
       "tools/test-spelling-practice.mjs",
       "translation-skills-system.*"

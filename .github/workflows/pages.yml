@@ -125,6 +125,12 @@ jobs:
           esac
 
           case "${RELEASE_TAGS}" in
+            *'[learning-portal-release]'*)
+              echo '/flashcard-custom-audio/common-spelling-traps/' >> .git/info/sparse-checkout
+              ;;
+          esac
+
+          case "${RELEASE_TAGS}" in
             *'[homework-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /homework-resource-catalog.mjs
