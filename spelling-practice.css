@@ -311,7 +311,8 @@ body[data-learning-portal="spelling"] [data-view="dashboard"][hidden] {
 .spelling-auto-advance { position: relative; width: min(100%, 520px); height: 4px; margin: .1rem auto .9rem; overflow: visible; border-radius: 999px; background: rgba(40,61,75,.12); }
 .spelling-auto-advance::after { content: ""; position: absolute; inset: -5px 0; z-index: -1; border-radius: inherit; background: linear-gradient(90deg,#ff6b62,#ffc857,#43c97b,#4d93ff); filter: blur(8px); opacity: .26; }
 .spelling-auto-advance i { display: block; width: 100%; height: 100%; transform: scaleX(var(--advance-progress, 0)); transform-origin: left center; border-radius: inherit; background: linear-gradient(90deg,#ff6b62 0%,#ffc857 34%,#43c97b 67%,#4d93ff 100%); box-shadow: 0 0 8px rgba(77,147,255,.35); animation: spelling-auto-advance var(--advance-remaining, 2400ms) linear forwards; }
-.spelling-card--enter { animation: spelling-card-enter .28s cubic-bezier(.2,.8,.2,1) both; }
+.spelling-card--enter,
+.spelling-complete-card { animation: spelling-card-enter .28s cubic-bezier(.2,.8,.2,1) both; }
 .spelling-card--exit { pointer-events: none; animation: spelling-card-exit .19s ease-in both; }
 
 @keyframes spelling-auto-advance { from { transform: scaleX(var(--advance-progress, 0)); } to { transform: scaleX(1); filter: brightness(1.15); } }

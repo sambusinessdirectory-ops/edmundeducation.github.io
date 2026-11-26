@@ -14,6 +14,7 @@ import { createClassroomLiveSync } from "./classroom-live-sync.mjs?v=20261028-1"
 
 const PORTAL_ID = "spelling";
 const STORAGE_VERSION = "v1";
+const SELECTION_DEFAULTS_VERSION = 2;
 const SYNC_SCHEMA_VERSION = 2;
 const SYNC_SCOPE = `practice:${STORAGE_VERSION}`;
 let appState = null;
@@ -54,7 +55,8 @@ function storageKey(userId) {
 
 function defaultState() {
   return {
-    selectedIds: [...CORE_IDS],
+    selectionDefaultsVersion: SELECTION_DEFAULTS_VERSION,
+    selectedIds: [],
     difficulty: 50,
     frequency: 2,
     displayMode: "slots",
@@ -150,9 +152,15 @@ function normalizeState(candidate) {
   const fallback = defaultState();
   if (!candidate || typeof candidate !== "object") return fallback;
   const validIds = new Set(VOCABULARY.map((entry) => entry.id));
-  const selectedIds = Array.isArray(candidate.selectedIds)
+  let selectedIds = Array.isArray(candidate.selectedIds)
     ? candidate.selectedIds.filter((id) => validIds.has(id))
     : fallback.selectedIds;
+  const needsLegacySelectionMigration = Number(candidate.selectionDefaultsVersion || 0) < SELECTION_DEFAULTS_VERSION
+    && (!candidate.phase || candidate.phase === "setup");
+  if (needsLegacySelectionMigration) {
+    const coreIds = new Set(CORE_IDS);
+    selectedIds = selectedIds.filter((id) => !coreIds.has(id));
+  }
   const libraryId = LIBRARY_IDS.has(candidate.libraryId) ? candidate.libraryId : "core";
   const selectedDeckIds = Array.isArray(candidate.selectedDeckIds)
     ? [...new Set(candidate.selectedDeckIds.filter((id) => ALL_DECK_IDS.has(id)))]
@@ -206,6 +214,7 @@ function normalizeState(candidate) {
     }
     : null;
   return {
+    selectionDefaultsVersion: SELECTION_DEFAULTS_VERSION,
     selectedIds,
     difficulty,
     frequency,
@@ -868,7 +877,11 @@ function normalizeAudioKey(value) {
 }
 
 function storedAudioSource(entry) {
-  const manifests = [window.EDMUND_FLASHCARD_AUDIO || {}, window.EDMUND_SPELLING_AUDIO || {}];
+  const manifests = [
+    window.EDMUND_COMMON_TRAPS_AUDIO || {},
+    window.EDMUND_FLASHCARD_AUDIO || {},
+    window.EDMUND_SPELLING_AUDIO || {}
+  ];
   for (const manifest of manifests) {
     if (manifest[entry.word]) return resolveStoredAudioUrl(manifest[entry.word]);
   }
@@ -1010,7 +1023,7 @@ function animateCardAndCommit() {
   window.setTimeout(() => {
     commitCorrectAdvance();
     correctSkipInFlight = false;
-  }, reduced ? 80 : 190);
+  }, reduced ? 0 : 190);
 }
 
 function advanceCorrect() {
@@ -1039,11 +1052,10 @@ async function advanceCorrectNow() {
   if (bar && !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
     let progress = 0;
     try { progress = new DOMMatrixReadOnly(getComputedStyle(bar).transform).a; } catch { progress = 0; }
-    const duration = progress > .9 ? 90 : 170;
     try {
       await bar.animate(
         [{ transform: `scaleX(${Math.min(1, Math.max(0, progress))})`, filter: "brightness(1)" }, { transform: "scaleX(1)", filter: "brightness(1.28)" }],
-        { duration, easing: "cubic-bezier(.2,.8,.2,1)", fill: "forwards" }
+        { duration: 160, easing: "cubic-bezier(.16,1,.3,1)", fill: "forwards" }
       ).finished;
     } catch { /* Continue immediately if the animation is interrupted. */ }
   }
