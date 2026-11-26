@@ -438,6 +438,7 @@
       "tools/test-learning-portal-scaffolds.mjs",
       "tools/generate-common-spelling-traps-audio.py",
       "tools/test-liaison-pilot.mjs",
+      "tools/test-spelling-multi-device-browser.mjs",
       "tools/test-spelling-practice.mjs",
       "translation-skills-system.*"
     ],
