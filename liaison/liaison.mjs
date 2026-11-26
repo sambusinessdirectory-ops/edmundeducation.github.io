@@ -334,7 +334,17 @@ const lessonDetails = [
 
 questions.forEach((question, index) => Object.assign(question, lessonDetails[index]));
 
-const LESSON_STEPS = Object.freeze([
+const transferMeanings = [
+  "一個橙滾走了。", "把它帶回家。", "把它打開。", "今天把它寄出。", "我們同意。",
+  "我準備好了。", "沒有人回應。", "藍眼睛很顯眼。", "離家很遠。", "畫一個圓圈。",
+  "一位優秀的老師到了。", "這首歌聽起來很傷感。", "九名護士到了。", "十個男孩在等待。", "牛皮紙很合用。",
+  "一隻杯子掉下來。", "一隻風箏飛了起來。", "你不能等一下嗎？", "你願意幫忙嗎？", "祝福你。",
+  "你今天過得怎樣？", "我最好的朋友打電話來了。", "喝冷飲有幫助。", "現在問她。", "一塊蛋糕。",
+  "我們可以試試。", "炸魚配薯條。", "我們必須走了。", "一個誠實的答案有幫助。", "兩隻蘋果掉下來。"
+];
+questions.forEach((question, index) => { question.transferMeaning = transferMeanings[index]; });
+
+const LEGACY_LESSON_STEPS = Object.freeze([
   ["理解訊息", "Meaning"],
   ["預測與找位", "Predict & spot"],
   ["聆聽與辨別", "Listen"],
@@ -342,6 +352,15 @@ const LESSON_STEPS = Object.freeze([
   ["分段模仿", "Imitate"],
   ["錄音與回饋", "Produce"],
   ["轉移與複習", "Transfer"]
+]);
+
+const LESSON_STEPS = Object.freeze([
+  ["理解訊息", "Meaning"],
+  ["點選連音字母", "Tap letters"],
+  ["聆聽", "Listen"],
+  ["分段模仿", "Imitate"],
+  ["錄音", "Record"],
+  ["新句轉移", "Transfer"]
 ]);
 
 export { questions, LESSON_STEPS };
