@@ -143,12 +143,37 @@ function sameSet(a, b) { return a.size === b.size && [...a].every(value => b.has
 function letterPicker(text, focus, selected, onCorrect) {
   const wrap = document.createElement("div"); wrap.className = "letter-picker"; wrap.setAttribute("aria-label", text);
   const expected = new Set(targetLetters(text, focus));
+  let drag = null; let suppressClick = false;
+  const refresh = () => {
+    wrap.querySelectorAll(".letter-key").forEach(key => {
+      const keyIndex = Number(key.dataset.index); key.dataset.selected = String(selected.has(keyIndex)); key.setAttribute("aria-pressed", String(selected.has(keyIndex)));
+    });
+    if (sameSet(selected, expected)) onCorrect();
+  };
   [...text].forEach((character, index) => {
     if (!/[A-Za-z]/.test(character)) { const span = document.createElement("span"); span.textContent = character; wrap.append(span); return; }
     const button = document.createElement("button"); button.type = "button"; button.className = "letter-key"; button.textContent = character; button.dataset.selected = String(selected.has(index)); button.setAttribute("aria-pressed", String(selected.has(index)));
-    button.addEventListener("click", () => { selected.has(index) ? selected.delete(index) : selected.add(index); wrap.querySelectorAll(".letter-key").forEach(key => { const keyIndex = Number(key.dataset.index); key.dataset.selected = String(selected.has(keyIndex)); key.setAttribute("aria-pressed", String(selected.has(keyIndex))); }); if (sameSet(selected, expected)) onCorrect(); });
+    button.addEventListener("click", () => { if (suppressClick) { suppressClick = false; return; } selected.has(index) ? selected.delete(index) : selected.add(index); refresh(); });
     button.dataset.index = String(index); wrap.append(button);
   });
+  wrap.addEventListener("pointerdown", event => {
+    const key = event.target.closest?.(".letter-key"); if (!key) return;
+    drag = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY, first: Number(key.dataset.index), moved: false };
+    wrap.setPointerCapture?.(event.pointerId);
+  });
+  wrap.addEventListener("pointermove", event => {
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    if (!drag.moved && Math.hypot(event.clientX - drag.startX, event.clientY - drag.startY) < 6) return;
+    drag.moved = true; selected.add(drag.first);
+    const key = document.elementFromPoint(event.clientX, event.clientY)?.closest?.(".letter-key");
+    if (key && wrap.contains(key)) selected.add(Number(key.dataset.index));
+    refresh(); event.preventDefault();
+  });
+  const endDrag = event => {
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    suppressClick = drag.moved; wrap.releasePointerCapture?.(event.pointerId); drag = null;
+  };
+  wrap.addEventListener("pointerup", endDrag); wrap.addEventListener("pointercancel", endDrag);
   return { wrap, expected };
 }
 
