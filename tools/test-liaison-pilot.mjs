@@ -35,6 +35,7 @@ for (const stage of ["理解訊息", "點選連音字母", "聆聽", "分段模�
 assert(styles.includes(".lesson-stepper"), "Visible lesson-stepper styles are required");
 assert(styles.includes(".letter-picker"), "Touch-friendly letter picker styles are required");
 assert(lessonLoop.includes("targetLetters") && lessonLoop.includes("letterPicker"), "Students must identify liaison by tapping letters");
+assert(lessonLoop.includes('addEventListener("pointermove"') && lessonLoop.includes("elementFromPoint"), "Letter identification must support finger and mouse dragging");
 assert(lessonLoop.includes('data-rate="1"') && lessonLoop.includes('data-rate="0.5"'), "Listening must offer normal and 0.5x speed");
 assert(lessonLoop.includes("transferPhrase"), "Every lesson must transfer the rule to an unseen phrase");
 assert(lessonLoop.includes("transferMeaning"), "Every unseen sentence must include a Chinese translation");
