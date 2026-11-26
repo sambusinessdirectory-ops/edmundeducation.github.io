@@ -3,21 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
-  <meta name="description" content="EdmundEducation 英文連音學習系統：以可播放的聲音積木練習英文連音、弱讀、合音及自然語流。">
+  <meta name="description" content="EdmundEducation 英文連音學習系統：以點選字母、聶聽、跟讀及錄音練習自然語流。">
   <meta name="theme-color" content="#102a36">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://edmund-site-assets.edmundeducation.workers.dev https://edmund-public-media.edmundeducation.workers.dev; script-src 'self' https://cdn.jsdelivr.net https://edmund-site-assets.edmundeducation.workers.dev; style-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; img-src 'self' data: blob: https://edmund-site-assets.edmundeducation.workers.dev https://edmund-public-media.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-site-assets.edmundeducation.workers.dev https://edmund-public-media.edmundeducation.workers.dev https://ookkxzgpdclzrrhfmvqx.supabase.co; font-src 'self' https://edmund-site-assets.edmundeducation.workers.dev https://edmund-public-media.edmundeducation.workers.dev; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-site-assets.edmundeducation.workers.dev https://edmund-public-media.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; script-src 'self' https://cdn.jsdelivr.net https://edmund-site-assets.edmundeducation.workers.dev; style-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; img-src 'self' data: blob: https://edmund-site-assets.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-site-assets.edmundeducation.workers.dev; font-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-site-assets.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
   <title>Liaison 英文連音學習系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/liaison.html">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/shared-system-nav.css?v=20261121-system-bundle1">
-  <link rel="stylesheet" href="/liaison/liaison.css?v=loop-20261118-2">
+  <link rel="stylesheet" href="/liaison/liaison.css?v=simple-20261126-1">
   <script defer src="/pwa-register.js"></script>
   <script defer src="/supabase-config.js"></script>
   <script defer src="/shared-system-nav.js?v=20261121-system-bundle1"></script>
-  <script defer src="/pronunciation-checker.js?v=20261118-loop2"></script>
-  <script type="module" src="/liaison/lesson-loop.mjs?v=20261118-loop4"></script>
+  <script type="module" src="/liaison/lesson-loop.mjs?v=simple-20261126-1"></script>
   <link rel="manifest" href="/pwa-manifests/liaison.webmanifest">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,7 +28,6 @@
 </head>
 <body>
   <a class="skip-link" href="#liaison-main">跳至主要內容</a>
-
   <header class="liaison-header edmund-system-header">
     <div class="liaison-header__inner edmund-system-header__inner">
       <div class="edmund-system-switcher" data-edmund-system-switcher data-system="liaison">
@@ -40,91 +38,41 @@
         </button>
       </div>
       <div class="liaison-header__actions edmund-system-header__actions">
-        <span class="account-pill" data-account-status>學生帳戶</span>
-        <span class="student-pill" data-student hidden></span>
+        <span class="account-pill" data-account-status>學生帳戶</span><span class="student-pill" data-student hidden></span>
         <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
     </div>
   </header>
-
   <main id="liaison-main">
     <section class="view login-view" data-view="login">
-      <div class="login-visual" aria-hidden="true">
-        <p>UNDERSTAND · BUILD · SPEAK</p>
-        <div class="login-sound-path">
-          <span><i></i><i></i><i></i></span>
-          <b></b>
-          <span><i></i><i></i><i></i></span>
-        </div>
-        <strong>83</strong>
-      </div>
+      <div class="login-visual" aria-hidden="true"><p>UNDERSTAND · BUILD · SPEAK</p><div class="login-sound-path"><span><i></i><i></i><i></i></span><b></b><span><i></i><i></i><i></i></span></div><strong>83</strong></div>
       <section class="login-panel" aria-labelledby="login-title">
-        <p class="eyebrow">STUDENT ACCOUNT · PILOT</p>
-        <h1 id="login-title">Liaison<br><span>英文連音學習系統</span></h1>
-        <p class="login-intro">每課依照七階段完成理解、辨聽、聲音建構、影子跟讀、錄音回饋和轉移練習。全程不需要學習發音符號。</p>
+        <p class="eyebrow">STUDENT ACCOUNT · PILOT</p><h1 id="login-title">Liaison<br><span>英文連音學習系統</span></h1>
+        <p class="login-intro">登入後選擇單句或段落練習，用聽、點選字母和跟讀練習自然語流。</p>
         <form data-login-form novalidate>
           <label><span>學生名稱</span><input name="username" autocomplete="username" required maxlength="120" placeholder="輸入學生帳戶名稱"></label>
           <label><span>密碼</span><span class="password-field"><input name="password" type="password" autocomplete="current-password" required maxlength="200" placeholder="輸入密碼"><button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button></span></label>
-          <p class="login-status" data-login-status role="status" aria-live="polite"></p>
-          <button class="primary-button" type="submit" data-login-button>登入並開始練習</button>
+          <p class="login-status" data-login-status role="status" aria-live="polite"></p><button class="primary-button" type="submit" data-login-button>登入並開始練習</button>
         </form>
         <p class="account-note">使用其他 Edmund 學習系統的同一學生帳戶。</p>
       </section>
     </section>
-
     <section class="view practice-view" data-view="practice" hidden>
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">CARD 83 · PILOT SOUND LAB</p>
-          <h1>Liaison<br><span>英文連音學習系統</span></h1>
-          <p>每題是一個 8–12 分鐘的小課堂。由理解意思開始，最後把同一連音規律轉移到新句並安排間隔複習。</p>
-          <div class="hero-actions">
-            <button class="primary-button" type="button" data-start-practice>開始 30 題</button>
-            <button class="quiet-button" type="button" data-reset-progress>重設進度</button>
-          </div>
+      <section class="hero module-hero" data-module-chooser>
+        <div class="hero-demo" aria-label="Pick it 連音示範">
+          <article class="demo-block"><small>字尾</small><strong>PICK</strong><span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></article><span class="demo-bridge" aria-hidden="true">→</span><article class="demo-block is-second"><small>字首</small><strong>IT</strong><span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></article>
         </div>
-        <div class="hero-demo" aria-label="聲音積木示範">
-          <article class="demo-block"><small>字尾</small><strong>PICK</strong><span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></article>
-          <span class="demo-bridge" aria-hidden="true">→</span>
-          <article class="demo-block is-second"><small>字首</small><strong>IT</strong><span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></article>
+        <div class="module-copy"><p class="eyebrow">選擇練習模式</p><h1>今日想練習哪一種？</h1>
+          <div class="module-grid"><button class="module-card" type="button" data-module="sentence"><span>01</span><strong>單句練習</strong><small>逐句找出連音位置並跟讀</small></button><button class="module-card is-paragraph" type="button" data-module="paragraph"><span>02</span><strong>段落練習</strong><small>在完整語境中練習自然語流</small></button></div>
         </div>
       </section>
-
-      <section class="how-it-works" aria-labelledby="how-title">
-        <div><p class="section-label">THE CENTRAL LEARNING LOOP</p><h2 id="how-title">每題七個階段</h2></div>
-        <ol>
-          <li><span>1</span><strong>理解訊息</strong><small>用情境和翻譯理解意思</small></li>
-          <li><span>2</span><strong>預測與找位</strong><small>找出聲音相遇的位置</small></li>
-          <li><span>3</span><strong>聆聽與辨別</strong><small>比較清楚、自然和變體</small></li>
-          <li><span>4</span><strong>建立連音</strong><small>拖曳可播放的聲音單位</small></li>
-          <li><span>5</span><strong>分段模仿</strong><small>單字到完整句逐層跟讀</small></li>
-          <li><span>6</span><strong>錄音與回饋</strong><small>交界、清晰度、重音、節奏</small></li>
-          <li><span>7</span><strong>轉移與複習</strong><small>新句應用並安排重現</small></li>
-        </ol>
+      <section class="progress-dock" data-progress-dock hidden aria-label="練習進度"><div><span data-progress-label>已完成 0 / 30</span><strong data-progress-percent>0%</strong></div><div class="progress-track"><i data-progress-bar></i></div></section>
+      <section class="question-section" data-question-section hidden aria-labelledby="questions-title">
+        <header class="question-heading"><div><button class="back-button" type="button" data-back-modules>← 返回選擇模式</button><h2 id="questions-title" data-module-title>單句練習</h2></div></header><div class="question-list" data-question-list></div>
       </section>
-
-      <section class="progress-dock" aria-label="練習進度">
-        <div><span data-progress-label>已完成 0 / 30</span><strong data-progress-percent>0%</strong></div>
-        <div class="progress-track"><i data-progress-bar></i></div>
-      </section>
-
-      <section class="question-section" data-question-section aria-labelledby="questions-title">
-        <header class="question-heading">
-          <div><p class="section-label">30 COMPLETE MINI-LESSONS</p><h2 id="questions-title">每題完成整個學習循環</h2></div>
-          <p>不再以一次選擇題作完成標準。學生必須通過七個階段，完成新句轉移並安排下一次複習。</p>
-        </header>
-        <div class="question-list" data-question-list></div>
-      </section>
-
-      <section class="completion-card" data-completion hidden aria-live="polite">
-        <p class="section-label">PILOT COMPLETE</p>
-        <h2>30 個七階段小課堂已完成</h2>
-        <p>你已完成理解、辨聽、建構、模仿、錄音回饋和新句轉移。系統會依照每題的複習安排再次呈現規律。</p>
-        <button class="primary-button" type="button" data-review-from-start>由第一題重新溫習</button>
-      </section>
+      <section class="completion-card" data-completion hidden aria-live="polite"><p class="section-label">PRACTICE COMPLETE</p><h2>單句練習已完成</h2><p>你已完成理解、找位、聽讀、模仿、錄音和新句轉移。</p><button class="primary-button" type="button" data-review-from-start>由第一句重新溫習</button></section>
     </section>
   </main>
-
   <noscript><p class="noscript">請啟用 JavaScript 使用英文連音學習系統。</p></noscript>
 </body>
 </html>
