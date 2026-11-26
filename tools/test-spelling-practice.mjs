@@ -38,6 +38,14 @@ assert.ok(VOCABULARY.some((entry) => entry.word === "it is important to note tha
 const audioSandbox = { window: {} };
 vm.runInNewContext(fs.readFileSync(new URL("../spelling-jayden-audio-manifest.js", import.meta.url), "utf8"), audioSandbox);
 assert.ok(VOCABULARY.every((entry) => audioSandbox.window.EDMUND_SPELLING_AUDIO[entry.word]), "Every spelling entry needs a mapped recording.");
+
+const commonTrapSandbox = { window: { SPELLING_SELECTION_CATALOG: { libraries: [], decks: [], entries: [] } } };
+vm.runInNewContext(fs.readFileSync(new URL("../spelling-common-traps-catalog.js", import.meta.url), "utf8"), commonTrapSandbox);
+vm.runInNewContext(fs.readFileSync(new URL("../spelling-common-traps-audio-manifest.js", import.meta.url), "utf8"), commonTrapSandbox);
+const commonTrapWords = new Set(commonTrapSandbox.window.SPELLING_SELECTION_CATALOG.entries.map((entry) => entry.word));
+assert.equal(commonTrapWords.size, 494, "Common Spelling Traps must retain all unique terms.");
+assert.ok([...commonTrapWords].every((word) => commonTrapSandbox.window.EDMUND_COMMON_TRAPS_AUDIO[word]), "Every Common Spelling Traps term needs a mapped recording.");
+assert.equal(commonTrapSandbox.window.EDMUND_COMMON_TRAPS_AUDIO_META.voice, "af_heart", "Common traps must use the American female Kokoro voice.");
 assert.equal(requiredCorrectTotal(10, 2), 20);
 assert.equal(isAnswerCorrect("alien", { 0: "A", 2: "i", 4: "n" }), true, "Checking must be case-insensitive.");
 assert.equal(isAnswerCorrect("alien", { 0: "e", 2: "i", 4: "n" }), false);

@@ -54,6 +54,8 @@ try {
   const second = await makeDevice('qa-same-account', student, { viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
   const isolated = await makeDevice('qa-different-account', { ...student, id: '22222222-2222-4222-8222-222222222222' }, { viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
 
+  assert.equal((await first.page.evaluate(() => __spellingSyncQa.state())).selectedIds.length, 0, 'My Word Bank must start with no automatic selections.');
+  assert.equal(await first.page.locator('[data-word-select]:checked').count(), 0, 'No word-bank checkbox may be pre-checked.');
   await first.page.evaluate(() => { __spellingSyncQa.choose(); __spellingSyncQa.start(); });
   const firstState = await first.page.evaluate(() => __spellingSyncQa.state());
   assert.equal(firstState.queue.length, 4);
@@ -112,9 +114,15 @@ try {
   const nextId = await second.page.evaluate(() => __spellingSyncQa.state().currentId);
   await first.page.waitForFunction((id) => __spellingSyncQa.state().awaitingNext === false && __spellingSyncQa.state().currentId === id, nextId);
   await second.page.evaluate(() => __spellingSyncQa.correct());
-  await first.page.waitForFunction(() => __spellingSyncQa.state().feedback === 'correct');
-  assert.match(await first.page.locator('[data-feedback]').innerText(), /拼寫正確/);
-  await first.page.waitForFunction(() => __spellingSyncQa.state().feedback === '', null, { timeout: 8000 });
+  await second.page.waitForFunction(() => __spellingSyncQa.state().feedback === 'correct');
+  assert.match(await second.page.locator('[data-feedback]').innerText(), /拼寫正確/);
+  assert.equal(await second.page.locator('.spelling-auto-advance').count(), 1);
+  assert.ok(await second.page.locator('[data-answer-form] input').evaluateAll((inputs) => inputs.every((input) => input.disabled)), 'Answer input must lock while waiting.');
+  const correctId = await second.page.evaluate(() => __spellingSyncQa.state().currentId);
+  await second.page.evaluate(() => { const button = document.querySelector('[data-next-now]'); button.click(); button.click(); });
+  await second.page.waitForFunction((id) => __spellingSyncQa.state().feedback === '' && __spellingSyncQa.state().currentId !== id, correctId);
+  const advancedId = await second.page.evaluate(() => __spellingSyncQa.state().currentId);
+  await first.page.waitForFunction((id) => __spellingSyncQa.state().feedback === '' && __spellingSyncQa.state().currentId === id, advancedId);
   await first.page.evaluate(() => {
     for (let index = 0; index < 8; index += 1) document.querySelector('.eddy-first-question-overlay:not(.eddy-five-streak-overlay) button')?.click();
   });
