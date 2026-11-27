@@ -329,7 +329,11 @@ jobs:
                 >> .git/info/sparse-checkout
               ;;&
             *'[junior-release]'*)
-              printf '%s\n' '/junior-exam-prep/' '/junior-quiz-review/' >> .git/info/sparse-checkout
+              printf '%s\n' \
+                '/junior-exam-prep/' \
+                '/junior-quiz-review/' \
+                '/pwa-manifests/junior-quiz-review.webmanifest' \
+                >> .git/info/sparse-checkout
               ;;&
             *'[news-release]'*)
               printf '%s\n' '/news-discussion/' '/policy-discussion/' >> .git/info/sparse-checkout
