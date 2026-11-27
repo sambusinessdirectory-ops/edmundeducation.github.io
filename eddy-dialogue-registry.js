@@ -32,6 +32,31 @@
   ];
 
   const frontPage = new Set(files.slice(0, 23));
+  const frontPageTriggers = Object.freeze({
+    "eddy-after-lunch-dialogue": "逢星期一至五香港時間下午 1:00–1:59，在首頁出現。",
+    "eddy-afternoon-tea-dialogue": "每天香港時間下午 3:00–3:59，在首頁出現。",
+    "eddy-bedtime-pyjamas-dialogue": "每天香港時間晚上 10:00 至翌日凌晨 1:59，在首頁出現。",
+    "eddy-bubble-gum-dialogue": "每次開啟首頁時，有機會作為隨機驚喜出現。",
+    "eddy-coffee-break-dialogue": "逢星期一至五香港時間下午 4:00–4:59，在首頁出現。",
+    "eddy-cotton-candy-dialogue": "每次開啟首頁時，有機會作為隨機驚喜出現。",
+    "eddy-english-difference-dialogue": "每次開啟首頁時，有機會作為英式與美式英文差異提示出現。",
+    "eddy-english-usage-dialogue": "每次開啟首頁時，有機會作為英文用法提示出現。",
+    "eddy-evening-teddy-dialogue": "每天香港時間晚上 9:00–9:59，在首頁出現。",
+    "eddy-finishing-work-dialogue": "逢星期一至五香港時間下午 6:00–6:59，在首頁出現。",
+    "eddy-fun-fact-dialogue": "每次開啟首頁時，有機會作為 Eddy 英文趣聞出現。",
+    "eddy-gaming-time-dialogue": "每天香港時間晚上 8:00–8:59，在首頁出現。",
+    "eddy-lunchtime-dialogue": "每天香港時間中午 12:00–12:59，在首頁出現。",
+    "eddy-midnight-snack-dialogue": "每天香港時間凌晨 2:00–5:49，在首頁出現。",
+    "eddy-morning-coffee-dialogue": "每天香港時間早上 6:00–7:59，在首頁出現。",
+    "eddy-morning-strength-dialogue": "每天香港時間早上 9:00–9:59，在首頁出現。",
+    "eddy-new-announcement-dialogue": "首頁有新的 EdmundEducation 公告時出現。",
+    "eddy-offline-dialogue": "在首頁偵測到裝置離線或網絡中斷時出現。",
+    "eddy-password-error-dialogue": "在首頁輸入錯誤學生密碼時出現。",
+    "eddy-saturday-grocery-dialogue": "星期六香港時間下午 1:00–2:59，在首頁出現。",
+    "eddy-saturday-plant-dialogue": "星期六首次進入首頁時出現。",
+    "eddy-sunday-couch-dialogue": "星期日香港時間下午 1:00–2:59，在首頁出現。",
+    "eddy-sunday-hobbies-dialogue": "星期日首次進入首頁時出現。"
+  });
   const numberWords = Object.freeze({ first: 1, five: 5, tenth: 10, ten: 10, fifteen: 15, twentieth: 20, twenty: 20, "twenty-five": 25, thirtieth: 30, thirty: 30, "thirty-five": 35, fortieth: 40 });
   const titleReplacements = Object.freeze({
     ielts: "IELTS", mc: "MC", eddy: "Eddy", pomodoro: "Pomodoro"
@@ -55,13 +80,14 @@
   }
 
   function triggerFor(id, group) {
+    if (frontPageTriggers[id]) return frontPageTriggers[id];
     if (id.includes("password-error")) return "在首頁或學習系統輸入錯誤學生密碼時出現。";
     if (id.includes("offline")) return "偵測到裝置離線或網絡中斷時出現。";
     if (id.includes("new-announcement")) return "首頁有新的 EdmundEducation 公告時出現。";
     if (id.includes("english-difference")) return "在首頁開啟英式與美式英文差異提示時出現。";
     if (id.includes("english-usage")) return "在首頁開啟英文用法提示時出現。";
     if (id.includes("fun-fact")) return "在首頁顯示 Eddy 英文趣聞時出現。";
-    if (group === "front-page") return "在首頁符合相應日期、時間或休息情境時出現。";
+    if (group === "front-page") return "在首頁的指定情境出現。";
     if (id.includes("question")) return milestone(id, "題時出現。" );
     if (id.includes("streak") && id.includes("lost")) return "學生的連續答對紀錄中斷時出現。";
     if (id.includes("streak")) return milestone(id, "題答對時出現。" );
@@ -115,5 +141,19 @@
     });
   });
 
-  window.EDMUND_EDDY_DIALOGUE_REGISTRY = Object.freeze(registry);
+  const grammarBlackboards = Array.from({ length: 33 }, (_, index) => {
+    const number = String(index + 1).padStart(2, "0");
+    return Object.freeze({
+      id: `eddy-grammar-curation-blackboard-${number}`,
+      file: `grammar-eddy-dialogues/unless/eddy-${number}.webp`,
+      title: `Grammar Curation Blackboard ${number}`,
+      group: "grammar-curation",
+      order: registry.length + index + 1,
+      trigger: `在 Grammar Curation Blackboard 顯示第 ${index + 1} 個 Eddy 教學姿勢時出現。`,
+      remarks: Object.freeze(["Grammar Curation Blackboard 教學素材"]),
+      soundEffect: ""
+    });
+  });
+
+  window.EDMUND_EDDY_DIALOGUE_REGISTRY = Object.freeze([...registry, ...grammarBlackboards]);
 })();

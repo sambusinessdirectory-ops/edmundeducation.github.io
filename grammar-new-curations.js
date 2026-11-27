@@ -90,6 +90,7 @@
       image.loading = "lazy";
       image.decoding = "async";
       art.append(image);
+      window.EdmundDialogueDiscovery?.record?.(`eddy-grammar-curation-blackboard-${String(index % 33 + 1).padStart(2, "0")}`);
 
       const caption = document.createElement("figcaption");
       caption.className = "grammar-eddy-dialogue__text";

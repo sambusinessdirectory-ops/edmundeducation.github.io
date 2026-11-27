@@ -1897,6 +1897,7 @@
   const DIALOGUE_DISCOVERY_PREFIX = "edmund-eddy-dialogue-discovery-v1:";
   let dialogueServerIdentity = "";
   let dialogueServerLoad = null;
+  const dialogueServerRecorded = new Set();
 
   function dialogueIdentity() {
     const student = studentSessionCandidate();
@@ -1934,19 +1935,39 @@
     return response.json();
   }
 
+  function persistDialogueDiscovery(student, id) {
+    if (!student?.token || !id) return Promise.resolve(false);
+    const key = `${student.token}:${id}`;
+    if (dialogueServerRecorded.has(key)) return Promise.resolve(false);
+    dialogueServerRecorded.add(key);
+    return dialogueDiscoveryRpc("eddy_dialogue_discovery_record", { p_token: student.token, p_dialogue_id: id })
+      .then(() => true)
+      .catch(error => {
+        dialogueServerRecorded.delete(key);
+        console.warn("Eddy dialogue discovery save failed", error);
+        return false;
+      });
+  }
+
   async function refreshServerDialogueDiscoveries(force = false) {
     const student = studentSessionCandidate();
     if (!student?.token) return mergeGuestDialogueDiscoveries();
     const identity = dialogueIdentity();
     if (!force && dialogueServerIdentity === identity && dialogueServerLoad) return dialogueServerLoad;
     dialogueServerIdentity = identity;
-    dialogueServerLoad = dialogueDiscoveryRpc("eddy_dialogue_discovery_list", { p_token: student.token }).then(rows => {
+    dialogueServerLoad = dialogueDiscoveryRpc("eddy_dialogue_discovery_list", { p_token: student.token }).then(async rows => {
       if (studentSessionCandidate()?.token !== student.token) return readDialogueDiscoveries();
       const merged = mergeGuestDialogueDiscoveries();
+      const serverIds = new Set();
       (Array.isArray(rows) ? rows : []).forEach(row => {
-        if (/^eddy-[a-z0-9-]+$/i.test(String(row?.dialogue_id || ""))) merged.add(String(row.dialogue_id).toLowerCase());
+        if (!/^eddy-[a-z0-9-]+$/i.test(String(row?.dialogue_id || ""))) return;
+        const id = String(row.dialogue_id).toLowerCase();
+        merged.add(id);
+        serverIds.add(id);
+        dialogueServerRecorded.add(`${student.token}:${id}`);
       });
       writeDialogueDiscoveries(merged, identity);
+      await Promise.allSettled([...merged].filter(id => !serverIds.has(id)).map(id => persistDialogueDiscovery(student, id)));
       document.dispatchEvent(new CustomEvent("edmund:eddy-dialogue-discovery-sync", { detail: { ids: [...merged] } }));
       return merged;
     }).catch(error => {
@@ -1980,14 +2001,15 @@
     if (!id) return false;
     const identity = dialogueIdentity();
     const discoveries = identity === "guest" ? readDialogueDiscoveries(identity) : mergeGuestDialogueDiscoveries();
-    if (discoveries.has(id)) return false;
-    discoveries.add(id);
-    writeDialogueDiscoveries(discoveries, identity);
-    document.dispatchEvent(new CustomEvent("edmund:eddy-dialogue-discovered", { detail: { id } }));
+    const isNew = !discoveries.has(id);
+    if (isNew) {
+      discoveries.add(id);
+      writeDialogueDiscoveries(discoveries, identity);
+      document.dispatchEvent(new CustomEvent("edmund:eddy-dialogue-discovered", { detail: { id } }));
+    }
     const student = studentSessionCandidate();
-    if (student?.token) void dialogueDiscoveryRpc("eddy_dialogue_discovery_record", { p_token: student.token, p_dialogue_id: id })
-      .catch(error => console.warn("Eddy dialogue discovery save failed", error));
-    return true;
+    if (student?.token) void persistDialogueDiscovery(student, id);
+    return isNew;
   }
 
   function scanDialogueDiscoveries(root = document) {
