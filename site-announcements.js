@@ -116,6 +116,7 @@
   function render(dialog) {
     const item = announcements[currentIndex];
     if (!item) return;
+    window.EdmundUISounds?.play('/assets/sfx/public-announcement.mp3');
     window.EdmundAnnouncementRich.render(dialog.querySelector("[data-announcement-message]"), item.contentRuns, item.message);
     const eddy = dialog.querySelector("[data-announcement-eddy]");
     const eddyCopy = eddyLines[Math.floor(Math.random() * eddyLines.length)];

@@ -14,18 +14,22 @@
   };
   const animationUrl = animationUrls[variant] || animationUrls.eddy;
   if (variant === 'elsie') {
-    const sound = new Audio('/assets/sfx/elsie-loading.mp3');
-    sound.preload = 'auto';
-    sound.play().catch(() => {
-      let retried = false;
-      const retry = () => {
-        if (retried) return;
-        retried = true;
-        sound.play().catch(() => {});
-      };
-      document.addEventListener('pointerdown', retry, { once: true, capture: true });
-      document.addEventListener('keydown', retry, { once: true, capture: true });
-    });
+    if (window.EdmundUISounds?.play('/assets/sfx/elsie-loading.mp3')) {
+      // The shared player queues this until the first iPad interaction.
+    } else {
+      const sound = new Audio('/assets/sfx/elsie-loading.mp3');
+      sound.preload = 'auto';
+      sound.play().catch(() => {
+        let retried = false;
+        const retry = () => {
+          if (retried) return;
+          retried = true;
+          sound.play().catch(() => {});
+        };
+        document.addEventListener('pointerdown', retry, { once: true, capture: true });
+        document.addEventListener('keydown', retry, { once: true, capture: true });
+      });
+    }
   }
   let pageReady = document.readyState !== 'loading';
   let animationReady = false;

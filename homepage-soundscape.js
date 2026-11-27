@@ -66,6 +66,11 @@
     update();
   });
   document.addEventListener('visibilitychange', update);
+  document.addEventListener('pointerdown', event => {
+    if (!event.target.closest('a.category')) return;
+    window.EdmundUISounds?.play('/assets/sfx/homepage-card-open.mp3');
+  }, { capture: true });
+  window.EdmundUISounds?.whenUnlocked(update);
   for (const type of ['pointerdown', 'keydown']) document.addEventListener(type, start, { capture: true });
   window.addEventListener('storage', update);
   new MutationObserver(update).observe(document.body, { childList: true, subtree: true });

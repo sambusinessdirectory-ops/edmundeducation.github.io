@@ -169,6 +169,7 @@
 
   function playEffect(src) {
     if (!effectsEnabled()) return;
+    if (window.EdmundUISounds?.play(src)) return;
     const sound = new Audio(src);
     sound.preload = 'auto';
     sound.play().catch(() => {

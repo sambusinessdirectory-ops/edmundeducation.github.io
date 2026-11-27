@@ -6,6 +6,7 @@
   let host = null;
   let activeIndex = 0;
   let adminValidated = false;
+  let adminName = "";
   let exporting = false;
 
   function escapeHtml(value) {
@@ -37,7 +38,7 @@
     return `<section class="eddy-index" data-eddy-index-content>
       <section class="eddy-index__hero"><p class="eddy-index__eyebrow">DISCOVER · COLLECT · REMEMBER</p><h2>Eddy 對話框圖鑑</h2><p>在 EdmundEducation 學習時遇見 Eddy，對應圖鑑便會自動解鎖。未發現的圖像保持神秘；您仍可查看線索，找出 Eddy 會在甚麼時候出現。</p>
         <div class="eddy-index__progress"><strong>Discovered ${found} / ${registry.length}</strong><span>${percent}% 完成</span><div class="eddy-index__track" style="--eddy-progress:${percent}%"><i></i></div></div>
-        <div class="eddy-index__tools"><button class="eddy-index__admin-toggle" type="button" data-admin-toggle aria-expanded="false">管理員 PDF 匯出</button><form class="eddy-index__admin" data-admin-form hidden><label>管理員名稱<input name="name" autocomplete="username" required></label><label>管理員密碼<input name="password" type="password" autocomplete="current-password" required></label><button type="submit">安全驗證</button><p data-admin-status role="status" aria-live="polite">驗證後可匯出完整、未遮罩的圖鑑。</p></form>${adminValidated ? '<button class="eddy-index__export" type="button" data-export-pdf>匯出完整 PDF</button>' : ""}</div>
+        ${adminValidated ? '<div class="eddy-index__tools"><span class="eddy-index__admin-badge">管理員模式</span><button class="eddy-index__export" type="button" data-export-pdf>匯出完整 PDF</button><span class="eddy-index__export-status" data-export-status role="status" aria-live="polite"></span></div>' : ""}
       </section>
       ${["front-page", "user-system"].map(group => sectionMarkup(group, registry.filter(entry => entry.group === group), discoveries)).join("")}
       <dialog class="eddy-index-dialog" data-dialogue-modal aria-labelledby="eddy-dialogue-modal-title"><div class="eddy-index-dialog__inner" data-dialogue-modal-content></div></dialog>
@@ -47,11 +48,35 @@
   function ensureMounted() {
     const session = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
     const dashboard = document.querySelector('[data-view="dashboard"]');
-    if (!session?.user || !dashboard || dashboard.hidden) return;
+    if ((!session?.user && !adminValidated) || !dashboard || dashboard.hidden) return;
     host = dashboard;
     const old = dashboard.querySelector("[data-eddy-index-content]");
     old?.remove();
     dashboard.insertAdjacentHTML("beforeend", pageMarkup());
+  }
+
+  function ensureAdminLogin() {
+    const panel = document.querySelector(".learning-portal-login__panel");
+    if (!panel || panel.querySelector("[data-index-admin-access]")) return;
+    panel.insertAdjacentHTML("beforeend", `<section class="eddy-index-admin-access" data-index-admin-access><button class="eddy-index__admin-toggle" type="button" data-admin-toggle aria-expanded="false"><span>ADMIN ACCESS</span>管理員登入</button><form class="eddy-index__admin" data-admin-form hidden><label>管理員名稱<input name="name" autocomplete="username" required></label><label>管理員密碼<input name="password" type="password" autocomplete="current-password" required></label><button type="submit">登入管理員圖鑑</button><p data-admin-status role="status" aria-live="polite">管理員帳戶與學生帳戶分開驗證。</p></form></section>`);
+  }
+
+  function showAdminDashboard() {
+    const login = document.querySelector('[data-view="login"]');
+    const dashboard = document.querySelector('[data-view="dashboard"]');
+    if (!login || !dashboard) return;
+    login.hidden = true;
+    dashboard.hidden = false;
+    const eyebrow = dashboard.querySelector(".learning-portal-dashboard__hero .eyebrow");
+    const welcome = dashboard.querySelector("[data-welcome]");
+    if (eyebrow) eyebrow.textContent = "ADMIN COLLECTION SPACE";
+    if (welcome) welcome.textContent = `${adminName || "管理員"}，已進入管理員圖鑑。`;
+    const user = document.querySelector("[data-user-pill]");
+    const logout = document.querySelector("[data-logout]");
+    if (user) { user.hidden = false; user.textContent = `${adminName || "管理員"} · 管理員`; }
+    if (logout) logout.hidden = false;
+    ensureMounted();
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function renderModal(index) {
@@ -82,8 +107,9 @@
       const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc("flashcard_admin_login", { p_name: String(fields.get("name") || "").trim(), p_password: String(fields.get("password") || "") });
       if (!Array.isArray(rows) || !rows.length) throw new Error("管理員名稱或密碼不正確。");
       adminValidated = true;
+      adminName = String(fields.get("name") || "").trim();
       form.reset();
-      ensureMounted();
+      showAdminDashboard();
     } catch (error) {
       status.textContent = error?.message || "驗證失敗，請稍後再試。";
     } finally { button.disabled = false; }
@@ -92,9 +118,10 @@
   function loadImage(source) {
     return new Promise(resolve => {
       const image = new Image();
+      image.crossOrigin = "anonymous";
       image.onload = () => resolve(image);
       image.onerror = () => resolve(null);
-      image.src = `${source}${source.includes("?") ? "&" : "?"}pdf=${Date.now()}`;
+      image.src = source;
     });
   }
 
@@ -109,7 +136,9 @@
     if (!adminValidated || exporting) return;
     const jsPDF = window.jspdf?.jsPDF;
     if (!jsPDF) return alert("PDF 工具尚未載入，請重新整理後再試。");
+    const status = host?.querySelector("[data-export-status]");
     exporting = true; button.disabled = true; button.textContent = "正在產生 PDF…";
+    if (status) status.textContent = "正在載入圖像及建立 PDF…";
     try {
       const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4", compress: true });
       const width = 1240, height = 1754, margin = 54, header = 128, rowHeight = 202;
@@ -117,24 +146,26 @@
       const context = canvas.getContext("2d");
       const images = await Promise.all(registry.map(entry => loadImage(entry.file)));
       let row = 0, page = 0;
-      const paintHeader = () => { context.fillStyle = "#fffaf0"; context.fillRect(0,0,width,height); context.fillStyle = "#356d59"; context.fillRect(0,0,width,104); context.fillStyle = "white"; context.font = "900 31px Arial, 'Noto Sans TC', sans-serif"; context.fillText("Eddy Dialogue Box Index · Eddy 對話框圖鑑", margin, 62); context.fillStyle = "#594a3d"; context.font = "800 18px Arial, 'Noto Sans TC', sans-serif"; context.fillText("IMAGE 圖像",margin,header); context.fillText("OCCASION 出現場合",330,header); context.fillText("REMARKS 備註",845,header); context.strokeStyle="#d8c8ad"; context.beginPath(); context.moveTo(margin,header+16); context.lineTo(width-margin,header+16); context.stroke(); };
+      const paintHeader = () => { context.clearRect(0,0,width,height); context.fillStyle = "#fffaf0"; context.fillRect(0,0,width,height); context.fillStyle = "#356d59"; context.fillRect(0,0,width,104); context.fillStyle = "white"; context.font = "900 31px Arial, 'Noto Sans TC', sans-serif"; context.fillText("Eddy Dialogue Box Index · Eddy 對話框圖鑑", margin, 62); context.fillStyle = "#594a3d"; context.font = "800 17px Arial, 'Noto Sans TC', sans-serif"; context.fillText("IMAGE 圖像",margin,header); context.fillText("OCCASION 出現場合",314,header); context.fillText("REMARKS 備註",746,header); context.fillText("SOUND EFFECT 音效目錄",968,header); context.strokeStyle="#d8c8ad"; context.beginPath(); context.moveTo(margin,header+16); context.lineTo(width-margin,header+16); context.stroke(); };
       paintHeader();
       for (let index = 0; index < registry.length; index += 1) {
         const entry = registry[index]; const y = header + 34 + row * rowHeight;
         if (y + rowHeight > height - margin) { pdf.addImage(canvas.toDataURL("image/jpeg",.9),"JPEG",0,0,210,297); pdf.addPage(); page += 1; row = 0; paintHeader(); }
         const drawY = header + 34 + row * rowHeight;
         context.fillStyle = row % 2 ? "#f8f6f1" : "#ffffff"; context.fillRect(margin,drawY,width-margin*2,rowHeight-8);
-        const image = images[index]; if (image) { const scale = Math.min(240/image.width,172/image.height); const w=image.width*scale,h=image.height*scale; context.drawImage(image,margin+(240-w)/2,drawY+(172-h)/2,w,h); } else { context.fillStyle="#eee7da";context.fillRect(margin,drawY,240,172);context.fillStyle="#786957";context.font="700 18px Arial";context.fillText("Image unavailable",82,drawY+90); }
-        context.fillStyle="#2d2822";context.font="900 22px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.title,330,drawY+34,470,28,2);
-        context.fillStyle="#356d59";context.font="800 17px Arial, 'Noto Sans TC', sans-serif";context.fillText(groupLabels[entry.group],330,drawY+96);
-        context.fillStyle="#5e5246";context.font="700 17px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.trigger,330,drawY+130,470,24,3);
-        context.fillStyle="#756858";context.font="700 17px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.remarks.join("；") || "—",845,drawY+44,300,24,5);
+        const image = images[index]; if (image) { const scale = Math.min(226/image.width,172/image.height); const w=image.width*scale,h=image.height*scale; context.drawImage(image,margin+(226-w)/2,drawY+(172-h)/2,w,h); } else { context.fillStyle="#eee7da";context.fillRect(margin,drawY,226,172);context.fillStyle="#786957";context.font="700 16px Arial";context.fillText("Image unavailable",76,drawY+90); }
+        context.fillStyle="#2d2822";context.font="900 20px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.title,314,drawY+32,396,26,2);
+        context.fillStyle="#356d59";context.font="800 16px Arial, 'Noto Sans TC', sans-serif";context.fillText(groupLabels[entry.group],314,drawY+92);
+        context.fillStyle="#5e5246";context.font="700 16px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.trigger,314,drawY+124,396,23,3);
+        context.fillStyle="#756858";context.font="700 16px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.remarks.join("；") || "—",746,drawY+42,188,23,5);
+        context.fillStyle="#4b5f56";context.font="700 15px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.soundEffect || "—",968,drawY+42,208,22,6);
         row += 1;
       }
       pdf.addImage(canvas.toDataURL("image/jpeg",.9),"JPEG",0,0,210,297);
       const stamp = new Date().toISOString().replace(/[:.]/g,"-"); pdf.save(`eddy-dialogue-box-index-${stamp}.pdf`);
       button.textContent = "PDF 已下載";
-    } catch (error) { console.error(error); button.textContent = "匯出失敗，請重試"; }
+      if (status) status.textContent = "PDF 已成功下載。";
+    } catch (error) { console.error(error); button.textContent = "匯出失敗，請重試"; if (status) status.textContent = "PDF 匯出失敗，請重新整理後再試。"; }
     finally { exporting = false; window.setTimeout(() => { button.disabled = false; button.textContent = "匯出完整 PDF"; }, 2200); }
   }
 
@@ -144,9 +175,10 @@
     const dialog = root.querySelector("[data-dialogue-modal]");
     if (event.target.closest("[data-dialogue-close]")) dialog?.close();
     const step = event.target.closest("[data-dialogue-step]"); if (step) renderModal((activeIndex + Number(step.dataset.dialogueStep) + registry.length) % registry.length);
-    const toggle = event.target.closest("[data-admin-toggle]"); if (toggle) { const form=root.querySelector("[data-admin-form]"); form.hidden=!form.hidden; toggle.setAttribute("aria-expanded",String(!form.hidden)); if(!form.hidden) form.querySelector("input")?.focus(); }
     const exportButton = event.target.closest("[data-export-pdf]"); if (exportButton) exportPdf(exportButton);
   });
+  document.addEventListener("click", event => { const toggle=event.target.closest("[data-admin-toggle]"); if(toggle){ const access=toggle.closest("[data-index-admin-access]"); const form=access?.querySelector("[data-admin-form]"); if(!form)return; form.hidden=!form.hidden; toggle.setAttribute("aria-expanded",String(!form.hidden)); if(!form.hidden)form.querySelector("input")?.focus(); } });
+  document.addEventListener("click", event => { if(adminValidated && event.target.closest("[data-logout]")){ adminValidated=false; adminName=""; document.querySelector("[data-eddy-index-content]")?.remove(); queueMicrotask(ensureAdminLogin); } }, true);
   document.addEventListener("submit", event => { if (event.target.matches("[data-admin-form]")) { event.preventDefault(); validateAdmin(event.target); } });
   document.addEventListener("contextmenu", event => { if (event.target.closest(".eddy-index-card__art,.eddy-index-dialog__art")) event.preventDefault(); });
   document.addEventListener("dragstart", event => { if (event.target.closest(".eddy-index-card__art,.eddy-index-dialog__art")) event.preventDefault(); });
@@ -154,5 +186,5 @@
   document.addEventListener("edmund:eddy-dialogue-discovered", ensureMounted);
   document.addEventListener("edmund:eddy-dialogue-discovery-sync", ensureMounted);
   window.addEventListener("edmund:learning-portal-session", ensureMounted);
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => queueMicrotask(ensureMounted), { once: true }); else queueMicrotask(ensureMounted);
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", () => { queueMicrotask(ensureAdminLogin); queueMicrotask(ensureMounted); }, { once: true }); else { queueMicrotask(ensureAdminLogin); queueMicrotask(ensureMounted); }
 })();
