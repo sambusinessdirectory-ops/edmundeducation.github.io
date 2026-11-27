@@ -155,12 +155,33 @@
   });
   const breakStoragePrefix = 'edmund-eddy-pomodoro-break-v1:';
   const queue = [];
+  const answerSoundPreference = 'edmund-answer-sounds-v1';
   const cottonCandyLines = [['拉絲雲朵棉花糖!', '']];
   const bubbleGumLines = [['感覺香口膠快要爆了...', '']];
   const queuedBreaks = new Set();
   let active = null;
   let overlay = null;
   let previousFocus = null;
+
+  function effectsEnabled() {
+    try { return localStorage.getItem(answerSoundPreference) !== 'off'; } catch { return true; }
+  }
+
+  function playEffect(src) {
+    if (!effectsEnabled()) return;
+    const sound = new Audio(src);
+    sound.preload = 'auto';
+    sound.play().catch(() => {
+      let retried = false;
+      const retry = () => {
+        if (retried) return;
+        retried = true;
+        sound.play().catch(() => {});
+      };
+      document.addEventListener('pointerdown', retry, { once: true, capture: true });
+      document.addEventListener('keydown', retry, { once: true, capture: true });
+    });
+  }
   let shownTeaDay = '';
   let shownLunchDay = '';
   let shownWeekendDay = '';
@@ -336,6 +357,7 @@
   function advanceOrDismiss() {
     if (active && isKnowledgeSurprise(active.kind) && active.factPageIndex < active.factPages.length - 1) {
       active.factPageIndex += 1;
+      playEffect('/assets/sfx/homepage-dialogue-next.mp3');
       renderFactPage();
       return;
     }
@@ -432,11 +454,13 @@
       }
       overlay.addEventListener('click', advanceOrDismiss);
       document.body.append(overlay);
+      if (next.kind === 'bedtime') playEffect('/assets/sfx/eddy-pyjama-night.mp3');
       if (isKnowledgeSurprise(next.kind)) paginateKnowledgeDialogue();
       overlay.querySelector('button').focus({ preventScroll: true });
       document.addEventListener('keydown', onKey, true);
       return;
     }
+    if (!active && !queue.length && !isBlocking()) document.dispatchEvent(new Event('edmund:eddy-global-dialogue-finished'));
   }
 
   function checkTea() {
