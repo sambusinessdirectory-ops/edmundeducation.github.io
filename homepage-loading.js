@@ -14,10 +14,10 @@
   };
   const animationUrl = animationUrls[variant] || animationUrls.eddy;
   if (variant === 'elsie') {
-    if (window.EdmundUISounds?.play('/assets/sfx/elsie-loading.mp3')) {
+    if (window.EdmundUISounds?.play('/ui-sounds/elsie-loading.mp3')) {
       // The shared player queues this until the first iPad interaction.
     } else {
-      const sound = new Audio('/assets/sfx/elsie-loading.mp3');
+      const sound = new Audio('/ui-sounds/elsie-loading.mp3');
       sound.preload = 'auto';
       sound.play().catch(() => {
         let retried = false;

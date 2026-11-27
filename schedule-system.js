@@ -7991,7 +7991,7 @@ elements.selfRatingDock.addEventListener("click", (event) => {
 
 elements.weekGrid.addEventListener("click", (event) => {
   if (event.target.closest("[data-slot-date]")) {
-    window.EdmundUISounds?.play("/assets/sfx/homework-slot-click.mp3");
+    window.EdmundUISounds?.play("/ui-sounds/homework-slot-click.mp3");
   }
   const selfRatingOpen = event.target.closest("[data-self-rating-open-date]");
   if (selfRatingOpen) { state.selfRatingDate = selfRatingOpen.dataset.selfRatingOpenDate; state.selfRatingDockOpen = true; renderSelfRatingDock(weekDates(state.weekStart), hongKongDayKey()); return; }

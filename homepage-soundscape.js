@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const music = new Audio('/assets/sfx/homepage-morning-music.mp3');
+  const music = new Audio('/ui-sounds/homepage-morning-music.mp3');
   const targetVolume = 0.32;
   const fadeDuration = 2000;
   let dialoguesFinished = false;
@@ -68,7 +68,7 @@
   document.addEventListener('visibilitychange', update);
   document.addEventListener('pointerdown', event => {
     if (!event.target.closest('a.category')) return;
-    window.EdmundUISounds?.play('/assets/sfx/homepage-card-open.mp3');
+    window.EdmundUISounds?.play('/ui-sounds/homepage-card-open.mp3');
   }, { capture: true });
   window.EdmundUISounds?.whenUnlocked(update);
   for (const type of ['pointerdown', 'keydown']) document.addEventListener(type, start, { capture: true });

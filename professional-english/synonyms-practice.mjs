@@ -14,7 +14,7 @@ async function playFeedback(correct, questionId) {
     if (correct) {
       const finallyCorrect = (wrongAttempts.get(questionId) || 0) >= 3;
       wrongAttempts.delete(questionId);
-      const sound = new Audio(`../assets/sfx/${finallyCorrect ? 'mc-finally-correct' : 'correct-answer-pop'}.mp3`);
+      const sound = new Audio(`../ui-sounds/${finallyCorrect ? 'mc-finally-correct' : 'correct-answer-pop'}.mp3`);
       sound.preload = 'auto';
       await sound.play();
       return;
