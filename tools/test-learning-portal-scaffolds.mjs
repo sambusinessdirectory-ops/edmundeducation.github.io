@@ -129,6 +129,13 @@ for (const portal of scaffoldPortals) {
 const runtime = await read("learning-portal-scaffold.js");
 assert.match(runtime, /flashcard_student_login/);
 assert.match(runtime, /flashcard_student_session_profile/);
+assert.match(runtime, /\/auth\/v1\/signup/);
+assert.match(runtime, /AbortSignal\.timeout\(10000\)/);
+assert.match(runtime, /AbortSignal\.timeout\(12000\)/);
+assert.match(runtime, /\/rest\/v1\/rpc\/\$\{encodeURIComponent\(name\)\}/);
+assert.match(runtime, /登入連線逾時，請再按一次登入。/);
+assert.doesNotMatch(runtime, /await client\.auth\.getSession\(\)/, "portal login must not block on the browser auth lock");
+assert.doesNotMatch(runtime, /await client\.rpc\(name, args\)/, "portal login RPC must have an explicit fetch timeout");
 assert.match(runtime, /EdmundSystemNav\?\.rememberStudentSession/);
 assert.match(runtime, /EdmundSystemNav\?\.getStudentSession/);
 assert.match(runtime, /if \(!portal\.dashboard\) return ""/);
