@@ -130,7 +130,7 @@ Do not enable `PAGES_R2_CUTOVER` until that run succeeds.
 After a disposable artifact rehearsal, enable the variable for a full release.
 Every builder compares present media with the verified blob index before
 rewriting references and removing replicas from its temporary upload directory. A stale index, a failed
-range request, or an artifact over 1,000,000,000 bytes stops publication. When
+range request, or an artifact over 1,020,000,000 bytes stops publication. When
 changing or withdrawing media, coordinate a new version of the index and its
 references with the content release. To roll back, disable the variable and rebuild
 the full artifact from source. The snapshot marker prevents a focused overlay from

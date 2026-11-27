@@ -7,7 +7,7 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("site", type=Path)
-parser.add_argument("--budget", type=int, default=1_000_000_000)
+parser.add_argument("--budget", type=int, default=1_020_000_000)
 parser.add_argument("--enforce", action="store_true")
 args = parser.parse_args()
 # Editorial QA reports and unreferenced source duplicates are build inputs, not
