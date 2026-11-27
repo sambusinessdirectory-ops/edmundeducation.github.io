@@ -2,7 +2,7 @@
   "use strict";
 
   const registry = Array.isArray(window.EDMUND_EDDY_DIALOGUE_REGISTRY) ? window.EDMUND_EDDY_DIALOGUE_REGISTRY : [];
-  const groupLabels = Object.freeze({ "front-page": "首頁對話框", "user-system": "用戶系統對話框" });
+  const groupLabels = Object.freeze({ "front-page": "首頁對話框", "user-system": "用戶系統對話框", "grammar-curation": "Grammar Curation Blackboard" });
   let host = null;
   let activeIndex = 0;
   let adminValidated = false;
@@ -17,6 +17,10 @@
     return new Set(window.EdmundDialogueDiscovery?.ids || []);
   }
 
+  function isRevealed(entry, discoveries) {
+    return adminValidated || entry.group === "front-page" || discoveries.has(entry.id);
+  }
+
   function cardMarkup(entry, discovered) {
     const art = discovered
       ? `<img src="${encodeURI(entry.file)}" alt="${escapeHtml(entry.title)}" draggable="false">`
@@ -27,20 +31,21 @@
   }
 
   function sectionMarkup(group, entries, discoveries) {
-    const completed = entries.filter(entry => discoveries.has(entry.id)).length;
-    return `<section class="eddy-index__section" aria-labelledby="eddy-${group}-heading"><div class="eddy-index__section-heading"><div><p class="eddy-index__eyebrow">${group === "front-page" ? "FRONT PAGE" : "LEARNING SYSTEMS"}</p><h3 id="eddy-${group}-heading">${groupLabels[group]}</h3></div><span>${completed} / ${entries.length} 已發現</span></div><div class="eddy-index__grid">${entries.map(entry => cardMarkup(entry, discoveries.has(entry.id))).join("")}</div></section>`;
+    const completed = entries.filter(entry => isRevealed(entry, discoveries)).length;
+    const eyebrow = group === "front-page" ? "FRONT PAGE" : group === "grammar-curation" ? "GRAMMAR CURATION" : "LEARNING SYSTEMS";
+    return `<section class="eddy-index__section" aria-labelledby="eddy-${group}-heading"><div class="eddy-index__section-heading"><div><p class="eddy-index__eyebrow">${eyebrow}</p><h3 id="eddy-${group}-heading">${groupLabels[group]}</h3></div><span>${completed} / ${entries.length} 已發現</span></div><div class="eddy-index__grid">${entries.map(entry => cardMarkup(entry, isRevealed(entry, discoveries))).join("")}</div></section>`;
   }
 
   function pageMarkup() {
     const discoveries = discoveredIds();
-    const found = registry.filter(entry => discoveries.has(entry.id)).length;
+    const found = registry.filter(entry => isRevealed(entry, discoveries)).length;
     const percent = registry.length ? Math.round(found / registry.length * 100) : 0;
     return `<section class="eddy-index" data-eddy-index-content>
       <section class="eddy-index__hero"><p class="eddy-index__eyebrow">DISCOVER · COLLECT · REMEMBER</p><h2>Eddy 對話框圖鑑</h2><p>在 EdmundEducation 學習時遇見 Eddy，對應圖鑑便會自動解鎖。未發現的圖像保持神秘；您仍可查看線索，找出 Eddy 會在甚麼時候出現。</p>
         <div class="eddy-index__progress"><strong>Discovered ${found} / ${registry.length}</strong><span>${percent}% 完成</span><div class="eddy-index__track" style="--eddy-progress:${percent}%"><i></i></div></div>
         ${adminValidated ? '<div class="eddy-index__tools"><span class="eddy-index__admin-badge">管理員模式</span><button class="eddy-index__export" type="button" data-export-pdf>匯出完整 PDF</button><span class="eddy-index__export-status" data-export-status role="status" aria-live="polite"></span></div>' : ""}
       </section>
-      ${["front-page", "user-system"].map(group => sectionMarkup(group, registry.filter(entry => entry.group === group), discoveries)).join("")}
+      ${["front-page", "user-system", "grammar-curation"].map(group => sectionMarkup(group, registry.filter(entry => entry.group === group), discoveries)).join("")}
       <dialog class="eddy-index-dialog" data-dialogue-modal aria-labelledby="eddy-dialogue-modal-title"><div class="eddy-index-dialog__inner" data-dialogue-modal-content></div></dialog>
     </section>`;
   }
@@ -85,7 +90,7 @@
     const content = dialog?.querySelector("[data-dialogue-modal-content]");
     if (!entry || !dialog || !content) return;
     activeIndex = index;
-    const discovered = discoveredIds().has(entry.id);
+    const discovered = isRevealed(entry, discoveredIds());
     content.innerHTML = `<button class="eddy-index-dialog__close" type="button" data-dialogue-close aria-label="關閉">×</button><div class="eddy-index-dialog__art">${discovered ? `<img src="${encodeURI(entry.file)}" alt="${escapeHtml(entry.title)}" draggable="false">` : '<span class="eddy-index-card__lock">?</span>'}</div><p class="eddy-index__eyebrow">${escapeHtml(groupLabels[entry.group])} · ${discovered ? "已發現" : "尚未發現"}</p><h3 id="eddy-dialogue-modal-title">${escapeHtml(entry.title)}</h3><p>${escapeHtml(entry.trigger)}</p><div class="eddy-index-dialog__nav"><button type="button" data-dialogue-step="-1">← 上一個</button><button type="button" data-dialogue-step="1">下一個 →</button></div>`;
   }
 
@@ -126,10 +131,33 @@
   }
 
   function fitText(context, text, x, y, width, lineHeight, maxLines) {
-    const words = String(text).split(/\s+/); let line = ""; const lines = [];
-    words.forEach(word => { const next = line ? `${line} ${word}` : word; if (context.measureText(next).width > width && line) { lines.push(line); line = word; } else line = next; });
-    if (line) lines.push(line);
-    lines.slice(0, maxLines).forEach((value, index) => context.fillText(value, x, y + index * lineHeight));
+    const tokens = String(text).trim().split(/(\s+|(?<=[/._-]))/).filter(Boolean);
+    const lines = [];
+    let line = "";
+    const pushLongToken = token => {
+      let part = "";
+      for (const character of Array.from(token)) {
+        const next = part + character;
+        if (part && context.measureText(next).width > width) { lines.push(part); part = character; }
+        else part = next;
+      }
+      return part;
+    };
+    for (const token of tokens) {
+      if (lines.length >= maxLines) break;
+      const next = line + token;
+      if (!line || context.measureText(next).width <= width) { line = next; continue; }
+      lines.push(line.trimEnd());
+      line = context.measureText(token).width > width ? pushLongToken(token) : token.trimStart();
+    }
+    if (line && lines.length < maxLines) lines.push(line.trimEnd());
+    const visible = lines.slice(0, maxLines);
+    if (lines.length > maxLines && visible.length) {
+      let last = visible[visible.length - 1];
+      while (last && context.measureText(`${last}…`).width > width) last = last.slice(0, -1);
+      visible[visible.length - 1] = `${last}…`;
+    }
+    visible.forEach((value, index) => context.fillText(value, x, y + index * lineHeight));
   }
 
   async function exportPdf(button) {
@@ -158,7 +186,8 @@
         context.fillStyle="#356d59";context.font="800 16px Arial, 'Noto Sans TC', sans-serif";context.fillText(groupLabels[entry.group],314,drawY+92);
         context.fillStyle="#5e5246";context.font="700 16px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.trigger,314,drawY+124,396,23,3);
         context.fillStyle="#756858";context.font="700 16px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.remarks.join("；") || "—",746,drawY+42,188,23,5);
-        context.fillStyle="#4b5f56";context.font="700 15px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.soundEffect || "—",968,drawY+42,208,22,6);
+        context.save();context.beginPath();context.rect(958,drawY+8,218,rowHeight-24);context.clip();
+        context.fillStyle="#4b5f56";context.font="700 14px Arial, 'Noto Sans TC', sans-serif";fitText(context,entry.soundEffect || "—",968,drawY+42,198,21,7);context.restore();
         row += 1;
       }
       pdf.addImage(canvas.toDataURL("image/jpeg",.9),"JPEG",0,0,210,297);
