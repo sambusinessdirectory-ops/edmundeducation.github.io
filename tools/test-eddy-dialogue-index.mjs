@@ -16,7 +16,7 @@ assert.equal(registry.filter(entry => entry.group === "user-system").length, 48)
 assert.equal(registry.filter(entry => entry.group === "grammar-curation").length, 33);
 assert.match(registry.find(entry => entry.id === "eddy-after-lunch-dialogue").trigger, /星期一至五.*下午 1:00–1:59/);
 assert.match(registry.find(entry => entry.id === "eddy-saturday-grocery-dialogue").trigger, /星期六.*下午 1:00–2:59/);
-assert.ok(registry.filter(entry => entry.group === "grammar-curation").every(entry => /grammar-eddy-dialogues\/unless\/eddy-\d{2}\.webp/.test(entry.file)));
+assert.ok(registry.filter(entry => entry.group === "grammar-curation").every(entry => /^https:\/\/edmund-public-media\.edmundeducation\.workers\.dev\/grammar-eddy-dialogues\/unless\/eddy-\d{2}\.webp\?v=20261106-live-assets2$/.test(entry.file)));
 
 assert.match(indexSource, /adminValidated \|\| entry\.group === "front-page"/);
 assert.match(indexSource, /"front-page", "user-system", "grammar-curation"/);

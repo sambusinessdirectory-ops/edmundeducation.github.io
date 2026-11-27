@@ -145,7 +145,7 @@
     const number = String(index + 1).padStart(2, "0");
     return Object.freeze({
       id: `eddy-grammar-curation-blackboard-${number}`,
-      file: `grammar-eddy-dialogues/unless/eddy-${number}.webp`,
+      file: `https://edmund-public-media.edmundeducation.workers.dev/grammar-eddy-dialogues/unless/eddy-${number}.webp?v=20261106-live-assets2`,
       title: `Grammar Curation Blackboard ${number}`,
       group: "grammar-curation",
       order: registry.length + index + 1,
