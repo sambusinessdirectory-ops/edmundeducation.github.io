@@ -73,6 +73,8 @@
     "[audio-contract-release]": [
       "flashcard-custom-audio/common-spelling-traps/**",
       "flashcards-audio-manifest.js",
+      "liaison/audio/**",
+      "liaison/liaison-audio-manifest.js",
       "spelling-common-traps-audio-manifest.js",
       "tools/test-business-concepts-book1-flashcards.mjs",
       "tools/test-flashcard-expansion-20260801-ui.mjs",
@@ -437,6 +439,7 @@
       "thematic-vocabulary-system.*",
       "tools/test-learning-portal-scaffolds.mjs",
       "tools/generate-common-spelling-traps-audio.py",
+      "tools/generate-liaison-audio.py",
       "tools/test-liaison-pilot.mjs",
       "tools/test-spelling-multi-device-browser.mjs",
       "tools/test-spelling-practice.mjs",
