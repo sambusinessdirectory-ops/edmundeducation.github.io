@@ -152,6 +152,7 @@ button { touch-action: manipulation; }
 .stage-intro p { margin: 0; color: var(--muted); line-height: 1.65; }
 .stage-question { margin: 20px 0 13px; font-size: 17px; font-weight: 900; line-height: 1.5; }
 .stage-status { min-height: 24px; margin: 14px 0 0; color: var(--teal-dark); font-size: 14px; font-weight: 800; line-height: 1.5; }
+.stage-status[data-state="error"] { color: #b93f28; }
 .stage-next, .stage-check { min-height: 46px; margin-top: 18px; padding: 0 20px; border: 0; border-radius: 13px; color: #fff; background: linear-gradient(135deg, var(--teal-dark), var(--teal)); font-weight: 900; cursor: pointer; }
 .stage-check { background: var(--ink); }
 .stage-check:disabled { opacity: .38; cursor: not-allowed; }
@@ -307,7 +308,12 @@ button { touch-action: manipulation; }
 .letter-key { min-width: 32px; min-height: 50px; padding: 0 4px; border: 0; border-bottom: 3px solid transparent; border-radius: 8px; color: var(--ink); background: transparent; font: inherit; cursor: pointer; touch-action: manipulation; }
 .letter-key:hover, .letter-key:focus-visible { color: var(--teal-dark); background: #edf9f5; }
 .letter-key[data-selected="true"] { color: #fff; background: var(--coral); border-bottom-color: #a8402b; transform: translateY(-2px); }
-.clear-selection { margin-top: 14px; }
+.letter-key:disabled { opacity: 1; cursor: default; }
+.picker-actions { margin-top: 16px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.picker-actions .stage-check, .picker-actions .clear-selection { margin-top: 0; }
+.phrase-audio-controls { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+.phrase-audio-controls button { min-height: 38px; padding: 0 12px; border: 1px solid rgba(13,127,120,.25); border-radius: 10px; color: var(--teal-dark); background: #e5f6f2; font-size: 12px; font-weight: 900; cursor: pointer; }
+.phrase-audio-controls button:hover, .phrase-audio-controls button:focus-visible { border-color: var(--teal); background: #d8f0e9; }
 .speed-controls { display: flex; gap: 12px; flex-wrap: wrap; }
 .speed-controls button { min-height: 54px; padding: 0 22px; border: 1px solid rgba(13,127,120,.28); border-radius: 14px; color: var(--teal-dark); background: #e5f6f2; font-weight: 900; cursor: pointer; }
 .speed-controls button:hover, .speed-controls button:focus-visible { border-color: var(--teal); background: #d8f0e9; }
@@ -333,6 +339,7 @@ button { touch-action: manipulation; }
   .lesson-stepper { grid-template-columns: repeat(6, 105px); }
   .letter-picker { padding: 15px 10px; gap: 1px; font-size: 27px; }
   .letter-key { min-width: 25px; min-height: 44px; }
+  .phrase-audio-controls { width: 100%; margin-left: 0; }
   .transfer-card { grid-template-columns: 1fr; }
   .transfer-card > * { grid-column: 1 !important; }
   .transfer-card .speed-controls { justify-content: flex-start; }
