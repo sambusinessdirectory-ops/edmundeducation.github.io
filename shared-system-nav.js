@@ -9,6 +9,109 @@
   const POMODORO_STORAGE_PREFIX = "edmund-schedule-pomodoro-v1";
   const POMODORO_DEVICE_STORAGE_KEY = `${POMODORO_STORAGE_PREFIX}:device`;
   const NIGHT_RETURN_STORAGE_PREFIX = "edmund-night-return-v1";
+  const UI_SOUND_PREFERENCE = "edmund-answer-sounds-v1";
+
+  // Safari on iPhone/iPad rejects audio started by timers or async callbacks
+  // until a media element has played inside a real user gesture. Keep one
+  // reusable player, unlock it on the first interaction, and retain one
+  // pending automatic effect so dialogue/loading sounds are not silently lost.
+  if (!window.EdmundUISounds) {
+    const player = document.createElement("audio");
+    player.preload = "auto";
+    player.playsInline = true;
+    player.hidden = true;
+    const queue = [];
+    const unlockCallbacks = new Set();
+    let unlocked = false;
+    let playing = false;
+    let primed = false;
+    const SILENT_WAV = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAACAgICA";
+
+    const enabled = () => {
+      try { return localStorage.getItem(UI_SOUND_PREFERENCE) !== "off"; } catch { return true; }
+    };
+    const runCallbacks = () => unlockCallbacks.forEach((callback) => {
+      try { callback(); } catch { /* Optional sound callback. */ }
+    });
+    const playNext = () => {
+      if (!enabled() || !unlocked || playing || !queue.length) return;
+      const src = queue.shift();
+      playing = true;
+      player.src = src;
+      player.currentTime = 0;
+      const attempt = player.play();
+      if (attempt?.catch) attempt.catch(() => {
+        playing = false;
+        unlocked = false;
+        queue.unshift(src);
+      });
+    };
+    player.addEventListener("ended", () => { playing = false; playNext(); });
+    player.addEventListener("error", () => { playing = false; playNext(); });
+    document.body?.append(player);
+
+    const unlock = () => {
+      if (!enabled()) return;
+      unlocked = true;
+      runCallbacks();
+      if (queue.length) {
+        playNext();
+      } else if (!primed && !playing) {
+        primed = true;
+        player.src = SILENT_WAV;
+        player.volume = 0;
+        const attempt = player.play();
+        if (attempt?.then) attempt.then(() => {
+          player.pause();
+          player.currentTime = 0;
+          player.volume = 1;
+        }).catch(() => { primed = false; unlocked = false; });
+      }
+    };
+    for (const type of ["pointerdown", "touchend", "keydown"]) {
+      document.addEventListener(type, unlock, { capture: true, passive: true });
+    }
+    window.EdmundUISounds = Object.freeze({
+      play(src) {
+        if (!enabled() || !src) return false;
+        queue.push(String(src));
+        playNext();
+        return true;
+      },
+      unlock,
+      isUnlocked: () => unlocked,
+      whenUnlocked(callback) {
+        if (typeof callback !== "function") return () => {};
+        unlockCallbacks.add(callback);
+        if (unlocked) callback();
+        return () => unlockCallbacks.delete(callback);
+      }
+    });
+  }
+
+  const installWrongLoginSound = () => {
+    const credentialWords = /(?:密碼|用戶名稱|使用者名稱|學生名稱|帳戶|password|username|credentials?)/i;
+    const failureWords = /(?:不正確|錯誤|無效|incorrect|invalid|wrong)/i;
+    const recentlyPlayed = new WeakMap();
+    const inspect = (node) => {
+      const element = node?.nodeType === 1 ? node : node?.parentElement;
+      const status = element?.closest?.('[role="status"], [aria-live], [data-login-status], [data-homepage-login-status], .login-status, .form-status') || element;
+      if (!status) return;
+      const message = String(status.textContent || "").trim();
+      if (!credentialWords.test(message) || !failureWords.test(message)) return;
+      const now = Date.now();
+      if (now - Number(recentlyPlayed.get(status) || 0) < 300) return;
+      recentlyPlayed.set(status, now);
+      window.EdmundUISounds?.play('/assets/sfx/wrong-login.mp3');
+    };
+    new MutationObserver((records) => records.forEach((record) => {
+      inspect(record.target);
+      record.addedNodes.forEach(inspect);
+    })).observe(document.body, { childList: true, subtree: true, characterData: true });
+    document.addEventListener('edmund:login-failed', () => window.EdmundUISounds?.play('/assets/sfx/wrong-login.mp3'));
+  };
+  if (document.body) installWrongLoginSound();
+  else document.addEventListener('DOMContentLoaded', installWrongLoginSound, { once: true });
   const DEFAULT_POMODORO_SETTINGS = Object.freeze({
     enabled: false,
     allowSkipBreak: false,
@@ -1919,7 +2022,7 @@
 })();
 
 // Shared classroom controls are loaded once on every learning portal.
-if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20261127-sounds1",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20261127-sounds2",document.currentScript.src).href;script.defer=true;document.head.append(script);}
 
 (function recordStudentSystemActivity() {
   "use strict";
