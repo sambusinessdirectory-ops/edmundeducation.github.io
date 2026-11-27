@@ -25,7 +25,11 @@
     let unlocked = false;
     let playing = false;
     let primed = false;
-    const SILENT_WAV = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQQAAACAgICA";
+    let priming = false;
+    // A real 50 ms clip is long enough for Safari to complete its media
+    // unlock. The former four-sample clip could remain pending until the next
+    // tap, which swallowed the first wrong-password sound.
+    const SILENT_WAV = "data:audio/wav;base64,UklGRtYBAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgATElTVBoAAABJTkZPSVNGVA0AAABMYXZmNjMuMS4xMDIAAGRhdGGQAQAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgA==";
 
     const enabled = () => {
       try { return localStorage.getItem(UI_SOUND_PREFERENCE) !== "off"; } catch { return true; }
@@ -34,7 +38,7 @@
       try { callback(); } catch { /* Optional sound callback. */ }
     });
     const playNext = () => {
-      if (!enabled() || !unlocked || playing || !queue.length) return;
+      if (!enabled() || !unlocked || playing || priming || !queue.length) return;
       const src = queue.shift();
       playing = true;
       player.src = src;
@@ -46,8 +50,16 @@
         queue.unshift(src);
       });
     };
-    player.addEventListener("ended", () => { playing = false; playNext(); });
-    player.addEventListener("error", () => { playing = false; playNext(); });
+    player.addEventListener("ended", () => {
+      if (priming) return;
+      playing = false;
+      playNext();
+    });
+    player.addEventListener("error", () => {
+      if (priming) return;
+      playing = false;
+      playNext();
+    });
     document.body?.append(player);
 
     const unlock = () => {
@@ -56,8 +68,9 @@
       runCallbacks();
       if (queue.length) {
         playNext();
-      } else if (!primed && !playing) {
+      } else if (!primed && !playing && !priming) {
         primed = true;
+        priming = true;
         player.src = SILENT_WAV;
         player.volume = 0;
         const attempt = player.play();
@@ -65,7 +78,17 @@
           player.pause();
           player.currentTime = 0;
           player.volume = 1;
-        }).catch(() => { primed = false; unlocked = false; });
+          priming = false;
+          playNext();
+        }).catch(() => {
+          primed = false;
+          priming = false;
+          unlocked = false;
+        });
+        else {
+          priming = false;
+          playNext();
+        }
       }
     };
     for (const type of ["pointerdown", "touchend", "keydown"]) {
@@ -90,9 +113,51 @@
   }
 
   const installWrongLoginSound = () => {
+    const WRONG_LOGIN_SOUND = "/ui-sounds/wrong-login.mp3";
     const credentialWords = /(?:密碼|用戶名稱|使用者名稱|學生名稱|帳戶|password|username|credentials?)/i;
     const failureWords = /(?:不正確|錯誤|無效|incorrect|invalid|wrong)/i;
     const pendingAttempts = new Set();
+    const wrongLoginPlayer = document.createElement("audio");
+    wrongLoginPlayer.src = WRONG_LOGIN_SOUND;
+    wrongLoginPlayer.preload = "auto";
+    wrongLoginPlayer.playsInline = true;
+    wrongLoginPlayer.hidden = true;
+    document.body?.append(wrongLoginPlayer);
+    let wrongLoginArmed = false;
+    let wrongLoginDisarmTimer = 0;
+    const disarmWrongLoginSound = () => {
+      window.clearTimeout(wrongLoginDisarmTimer);
+      wrongLoginDisarmTimer = 0;
+      wrongLoginArmed = false;
+      wrongLoginPlayer.pause();
+      wrongLoginPlayer.loop = false;
+      wrongLoginPlayer.volume = 1;
+      wrongLoginPlayer.currentTime = 0;
+    };
+    const armWrongLoginSound = () => {
+      window.clearTimeout(wrongLoginDisarmTimer);
+      wrongLoginArmed = true;
+      wrongLoginPlayer.loop = true;
+      wrongLoginPlayer.volume = 0;
+      wrongLoginPlayer.currentTime = 0;
+      const attempt = wrongLoginPlayer.play();
+      if (attempt?.catch) attempt.catch(() => { wrongLoginArmed = false; });
+      wrongLoginDisarmTimer = window.setTimeout(disarmWrongLoginSound, 30_000);
+    };
+    const playWrongLoginSound = () => {
+      window.clearTimeout(wrongLoginDisarmTimer);
+      wrongLoginDisarmTimer = 0;
+      if (!wrongLoginArmed) {
+        window.EdmundUISounds?.play(WRONG_LOGIN_SOUND);
+        return;
+      }
+      wrongLoginArmed = false;
+      wrongLoginPlayer.loop = false;
+      wrongLoginPlayer.currentTime = 0;
+      wrongLoginPlayer.volume = 1;
+      const attempt = wrongLoginPlayer.play();
+      if (attempt?.catch) attempt.catch(() => window.EdmundUISounds?.play(WRONG_LOGIN_SOUND));
+    };
     const isLoginForm = (form) => {
       if (!(form instanceof HTMLFormElement)) return false;
       const passwordFields = form.querySelectorAll('input[type="password"]');
@@ -117,7 +182,7 @@
       const attempt = [...pendingAttempts].find((candidate) => isRelatedStatus(candidate.form, status));
       if (!attempt) return;
       pendingAttempts.delete(attempt);
-      window.EdmundUISounds?.play('/ui-sounds/wrong-login.mp3');
+      playWrongLoginSound();
     };
     document.addEventListener('submit', (event) => {
       const form = event.target;
@@ -125,6 +190,7 @@
       const identity = form.querySelector('input[autocomplete="username"], input[name*="user" i], input[name*="student" i], input[name*="name" i], input[type="email"]');
       const password = form.querySelector('input[type="password"]');
       if (!String(identity?.value || "").trim() || !String(password?.value || "")) return;
+      armWrongLoginSound();
       const attempt = { form };
       pendingAttempts.add(attempt);
       window.setTimeout(() => pendingAttempts.delete(attempt), 30_000);
@@ -134,8 +200,9 @@
       record.addedNodes.forEach(inspect);
     })).observe(document.body, { childList: true, subtree: true, characterData: true });
     document.addEventListener('edmund:login-failed', (event) => {
-      if (event.detail?.reason === 'invalid-credentials') window.EdmundUISounds?.play('/ui-sounds/wrong-login.mp3');
+      if (event.detail?.reason === 'invalid-credentials') playWrongLoginSound();
     });
+    document.addEventListener("edmund-student-session-change", disarmWrongLoginSound);
   };
   if (typeof MutationObserver === 'function' && typeof document.addEventListener === 'function') {
     if (document.body) installWrongLoginSound();
