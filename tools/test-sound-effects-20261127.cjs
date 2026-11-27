@@ -41,6 +41,10 @@ const nav = read('shared-system-nav.js');
 assert.match(nav, /Safari on iPhone\/iPad/);
 assert.match(nav, /touchend/);
 assert.match(nav, /wrong-login\.mp3/);
+assert.match(nav, /document\.addEventListener\('submit'/, 'wrong-login sound requires a submitted login form');
+assert.match(nav, /passwordFields\.length !== 1/, 'password-change forms are excluded');
+assert.match(nav, /pendingAttempts\.delete\(attempt\)/, 'each rejected login attempt plays at most once');
+assert.match(nav, /reason === 'invalid-credentials'/, 'explicit failures must identify invalid credentials');
 assert.match(read('schedule-system.js'), /data-slot-date.*homework-slot-click\.mp3/s);
 assert.match(read('site-announcements.js'), /public-announcement\.mp3/);
 
