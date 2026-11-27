@@ -92,23 +92,50 @@
   const installWrongLoginSound = () => {
     const credentialWords = /(?:密碼|用戶名稱|使用者名稱|學生名稱|帳戶|password|username|credentials?)/i;
     const failureWords = /(?:不正確|錯誤|無效|incorrect|invalid|wrong)/i;
-    const recentlyPlayed = new WeakMap();
+    const pendingAttempts = new Set();
+    const isLoginForm = (form) => {
+      if (!(form instanceof HTMLFormElement)) return false;
+      const passwordFields = form.querySelectorAll('input[type="password"]');
+      if (passwordFields.length !== 1) return false;
+      const identity = form.querySelector('input[autocomplete="username"], input[name*="user" i], input[name*="student" i], input[name*="name" i], input[type="email"]');
+      if (!identity) return false;
+      const submitText = String(form.querySelector('[type="submit"]')?.textContent || "");
+      return form.matches('[data-login-form], .login-form, #login-form, [id*="login" i], [class*="login" i], [id*="signin" i], [class*="signin" i]')
+        || /登入|登錄|登录|sign in|log in/i.test(submitText);
+    };
+    const isRelatedStatus = (form, status) => {
+      if (form.contains(status)) return true;
+      const loginContainer = form.closest('[data-login-view], [data-auth-view], .login-view, .login-panel, .auth-view, .auth-panel') || form.parentElement;
+      return Boolean(loginContainer?.contains(status));
+    };
     const inspect = (node) => {
       const element = node?.nodeType === 1 ? node : node?.parentElement;
       const status = element?.closest?.('[role="status"], [aria-live], [data-login-status], [data-homepage-login-status], .login-status, .form-status') || element;
       if (!status) return;
       const message = String(status.textContent || "").trim();
       if (!credentialWords.test(message) || !failureWords.test(message)) return;
-      const now = Date.now();
-      if (now - Number(recentlyPlayed.get(status) || 0) < 300) return;
-      recentlyPlayed.set(status, now);
+      const attempt = [...pendingAttempts].find((candidate) => isRelatedStatus(candidate.form, status));
+      if (!attempt) return;
+      pendingAttempts.delete(attempt);
       window.EdmundUISounds?.play('/ui-sounds/wrong-login.mp3');
     };
+    document.addEventListener('submit', (event) => {
+      const form = event.target;
+      if (!isLoginForm(form)) return;
+      const identity = form.querySelector('input[autocomplete="username"], input[name*="user" i], input[name*="student" i], input[name*="name" i], input[type="email"]');
+      const password = form.querySelector('input[type="password"]');
+      if (!String(identity?.value || "").trim() || !String(password?.value || "")) return;
+      const attempt = { form };
+      pendingAttempts.add(attempt);
+      window.setTimeout(() => pendingAttempts.delete(attempt), 30_000);
+    }, true);
     new MutationObserver((records) => records.forEach((record) => {
       inspect(record.target);
       record.addedNodes.forEach(inspect);
     })).observe(document.body, { childList: true, subtree: true, characterData: true });
-    document.addEventListener('edmund:login-failed', () => window.EdmundUISounds?.play('/ui-sounds/wrong-login.mp3'));
+    document.addEventListener('edmund:login-failed', (event) => {
+      if (event.detail?.reason === 'invalid-credentials') window.EdmundUISounds?.play('/ui-sounds/wrong-login.mp3');
+    });
   };
   if (typeof MutationObserver === 'function' && typeof document.addEventListener === 'function') {
     if (document.body) installWrongLoginSound();
@@ -2024,7 +2051,7 @@
 })();
 
 // Shared classroom controls are loaded once on every learning portal.
-if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20261127-sounds3",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20261127-sounds4",document.currentScript.src).href;script.defer=true;document.head.append(script);}
 
 (function recordStudentSystemActivity() {
   "use strict";
