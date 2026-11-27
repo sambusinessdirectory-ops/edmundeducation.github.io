@@ -15,7 +15,7 @@
   // until a media element has played inside a real user gesture. Keep one
   // reusable player, unlock it on the first interaction, and retain one
   // pending automatic effect so dialogue/loading sounds are not silently lost.
-  if (!window.EdmundUISounds) {
+  if (!window.EdmundUISounds && typeof document.createElement === "function" && typeof document.addEventListener === "function") {
     const player = document.createElement("audio");
     player.preload = "auto";
     player.playsInline = true;
@@ -110,8 +110,10 @@
     })).observe(document.body, { childList: true, subtree: true, characterData: true });
     document.addEventListener('edmund:login-failed', () => window.EdmundUISounds?.play('/assets/sfx/wrong-login.mp3'));
   };
-  if (document.body) installWrongLoginSound();
-  else document.addEventListener('DOMContentLoaded', installWrongLoginSound, { once: true });
+  if (typeof MutationObserver === 'function' && typeof document.addEventListener === 'function') {
+    if (document.body) installWrongLoginSound();
+    else document.addEventListener('DOMContentLoaded', installWrongLoginSound, { once: true });
+  }
   const DEFAULT_POMODORO_SETTINGS = Object.freeze({
     enabled: false,
     allowSkipBreak: false,
