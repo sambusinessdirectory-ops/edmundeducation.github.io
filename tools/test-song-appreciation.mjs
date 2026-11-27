@@ -45,7 +45,7 @@ for (const marker of [
 assert.match(html, /Content-Security-Policy[^>]*cdn\.jsdelivr\.net[^>]*youtube\.com[^>]*ookkxzgpdclzrrhfmvqx\.supabase\.co/i);
 assert.match(html, /img-src[^;]*edmund-public-media\.edmundeducation\.workers\.dev/i);
 assert.match(html, /media-src[^;]*ookkxzgpdclzrrhfmvqx\.supabase\.co/i);
-assert.match(html, /song-appreciation\.js\?v=20261121-lucky1/);
+assert.match(html, /song-appreciation\.js\?v=20261127-sounds1/);
 assert.doesNotMatch(html, /unsafe-eval/i);
 assert.match(html, /meta name="robots" content="noindex, nofollow"/);
 assert.match(html, /pwa-manifests\/song-appreciation\.webmanifest/);
