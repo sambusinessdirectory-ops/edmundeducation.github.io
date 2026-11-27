@@ -97,6 +97,17 @@
     overlay.querySelector('button').setAttribute('aria-label', `${typeof copy === 'string' ? copy : `${copy.main} ${copy.sub}`} 點擊、輕觸或按鍵關閉`);
     overlay.addEventListener('click', finish);
     document.body.append(overlay);
+    if (days === 2) {
+      try {
+        if (localStorage.getItem('edmund-answer-sounds-v1') !== 'off') {
+          if (!window.EdmundUISounds?.play('/assets/sfx/homework-two-days-incomplete.mp3')) {
+            const sound = new Audio('/assets/sfx/homework-two-days-incomplete.mp3');
+            sound.preload = 'auto';
+            sound.play().catch(() => {});
+          }
+        }
+      } catch { /* The reminder remains usable without sound. */ }
+    }
     remember(key);
     overlay.querySelector('button').focus({ preventScroll: true });
     document.addEventListener('keydown', onKey, true);

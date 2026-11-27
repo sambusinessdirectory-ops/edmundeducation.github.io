@@ -6,23 +6,33 @@ const roman = number => String(number).padStart(2, '0');
 const letters = 'ABCDEF';
 const soundKey = 'edmund-professional-sound-effects-v1';
 let soundContext = null;
+const wrongAttempts = new Map();
 
-async function playFeedback(correct) {
+async function playFeedback(correct, questionId) {
   try {
     if (localStorage.getItem(soundKey) === 'off') return;
+    if (correct) {
+      const finallyCorrect = (wrongAttempts.get(questionId) || 0) >= 3;
+      wrongAttempts.delete(questionId);
+      const sound = new Audio(`../assets/sfx/${finallyCorrect ? 'mc-finally-correct' : 'correct-answer-pop'}.mp3`);
+      sound.preload = 'auto';
+      await sound.play();
+      return;
+    }
+    wrongAttempts.set(questionId, (wrongAttempts.get(questionId) || 0) + 1);
     const Context = window.AudioContext || window.webkitAudioContext;
     if (!Context) return;
     if (!soundContext || soundContext.state === 'closed') soundContext = new Context();
     if (soundContext.state !== 'running') await soundContext.resume();
     const start = soundContext.currentTime + .015;
-    const notes = correct ? [[523.25, 0, .16], [659.25, .11, .19], [783.99, .22, .29]] : [[330, 0, .18], [247, .16, .27]];
+    const notes = [[330, 0, .18], [247, .16, .27]];
     for (const [frequency, delay, length] of notes) {
       const oscillator = soundContext.createOscillator();
       const gain = soundContext.createGain();
-      oscillator.type = correct ? 'sine' : 'triangle';
+      oscillator.type = 'triangle';
       oscillator.frequency.value = frequency;
       gain.gain.setValueAtTime(.0001, start + delay);
-      gain.gain.exponentialRampToValueAtTime(correct ? .15 : .10, start + delay + .02);
+      gain.gain.exponentialRampToValueAtTime(.10, start + delay + .02);
       gain.gain.exponentialRampToValueAtTime(.0001, start + delay + length);
       oscillator.connect(gain).connect(soundContext.destination);
       oscillator.onended = () => { oscillator.disconnect(); gain.disconnect(); };
@@ -161,7 +171,7 @@ export function mountSynonymPage(page, data, audioManifest = {}) {
       stopQuestionAudio();
       selected = button.dataset.choice;
       const correct = selected === correctSourceLetter(questionById(queue[position]));
-      void playFeedback(correct);
+      void playFeedback(correct, questionById(queue[position]).id);
       persist(); showQuiz();
     } else if (button.hasAttribute('data-next') && selected !== null) {
       const question = questionById(queue[position]);
