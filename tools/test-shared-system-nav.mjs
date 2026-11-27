@@ -44,6 +44,14 @@ function navigationRuntime() {
     activeElement: null,
     readyState: "loading",
     addEventListener() {},
+    createElement(tagName) {
+      assert.equal(tagName, "audio");
+      return {
+        addEventListener() {},
+        pause() {},
+        play() { return Promise.resolve(); }
+      };
+    },
     querySelector() { return null; },
     querySelectorAll() { return []; }
   };
