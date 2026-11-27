@@ -21,6 +21,20 @@ test("successful student login sound follows a real login submission", () => {
   assert.doesNotMatch(scriptSource, /restorePersistentDeviceSession[\s\S]*?playSuccessfulStudentLoginSound\(\)/);
 });
 
+test("the supplied wrong-password sound survives the first audio-unlock race", () => {
+  const wrongLoginSound = path.join(root, "ui-sounds", "wrong-login.mp3");
+  assert.ok(fs.statSync(wrongLoginSound).size > 0);
+  assert.ok(fs.statSync(wrongLoginSound).size < 50_000);
+  assert.match(scriptSource, /const WRONG_LOGIN_SOUND = "\/ui-sounds\/wrong-login\.mp3";/);
+  assert.match(scriptSource, /armWrongLoginSound\(\);\s*const attempt = \{ form \};/);
+  assert.match(scriptSource, /wrongLoginPlayer\.volume = 0;[\s\S]*?wrongLoginPlayer\.play\(\)/);
+  assert.match(scriptSource, /wrongLoginPlayer\.currentTime = 0;\s*wrongLoginPlayer\.volume = 1;\s*const attempt = wrongLoginPlayer\.play\(\)/);
+  assert.match(scriptSource, /let priming = false;/);
+  assert.match(scriptSource, /playing \|\| priming \|\| !queue\.length/);
+  assert.match(scriptSource, /priming = false;\s*playNext\(\);/);
+  assert.doesNotMatch(scriptSource, /UklGRigAAABXQVZF/, "the too-short four-sample unlock clip must not return");
+});
+
 class MemoryStorage {
   constructor() { this.values = new Map(); }
   getItem(key) { return this.values.has(key) ? this.values.get(key) : null; }
