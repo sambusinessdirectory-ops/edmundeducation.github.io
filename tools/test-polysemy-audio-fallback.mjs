@@ -38,6 +38,6 @@ assert.match(media,/useDeviceSpeech\(speechVoice/);
 assert.match(media,/speakWithDevice\(/);
 assert.match(media,/預錄音訊未能連線，已改用裝置語音/);
 assert.match(app,/media\.mjs\?v=20261107-student-network1/);
-assert.match(html,/app\.mjs\?v=20261107-student-network1/);
+assert.match(html,/app\.mjs\?v=20261127-admin-export1/);
 
 console.log('PASS: Polysemy falls back to the matching device English voice when public audio is blocked.');
