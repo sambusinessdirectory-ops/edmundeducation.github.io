@@ -105,7 +105,7 @@
     const group = frontPage.has(file) ? "front-page" : "user-system";
     return Object.freeze({
       id,
-      file: `eddy-dialogue-crops/${id}.png`,
+      file: `eddy-dialogue-crops/${id}.jpg`,
       title: titleFromId(id),
       group,
       order: index + 1,
