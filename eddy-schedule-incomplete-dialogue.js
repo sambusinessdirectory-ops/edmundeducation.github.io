@@ -100,9 +100,11 @@
     if (days === 2) {
       try {
         if (localStorage.getItem('edmund-answer-sounds-v1') !== 'off') {
-          const sound = new Audio('/assets/sfx/homework-two-days-incomplete.mp3');
-          sound.preload = 'auto';
-          sound.play().catch(() => {});
+          if (!window.EdmundUISounds?.play('/assets/sfx/homework-two-days-incomplete.mp3')) {
+            const sound = new Audio('/assets/sfx/homework-two-days-incomplete.mp3');
+            sound.preload = 'auto';
+            sound.play().catch(() => {});
+          }
         }
       } catch { /* The reminder remains usable without sound. */ }
     }
