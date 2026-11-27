@@ -5,8 +5,8 @@
  import(new URL('background-music-player.mjs?v=20260911-corners1',base)).catch(console.error);
  const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('shared-learning-tools.css?v=20260908-refine7',base);document.head.append(link);
  let audio,lastSound=0,armedUntil=0,beforeOutcomes=new Map(),lastQuestion=null,mcRetryQuestion=null,mcWrongAttempts=0;const preference='edmund-answer-sounds-v1';
- const correctAnswerUrl=new URL('assets/sfx/correct-answer-pop.mp3',base).href;
- const finallyCorrectUrl=new URL('assets/sfx/mc-finally-correct.mp3',base).href;
+ const correctAnswerUrl=new URL('ui-sounds/correct-answer-pop.mp3',base).href;
+ const finallyCorrectUrl=new URL('ui-sounds/mc-finally-correct.mp3',base).href;
  const enabled=()=>{try{return localStorage.getItem(preference)!=='off';}catch{return true;}};
  function unlock(){try{audio??=new (window.AudioContext||window.webkitAudioContext)();if(audio.state==='suspended')audio.resume();}catch{}}
  function multipleChoiceQuestion(){return lastQuestion?.isConnected&&lastQuestion.querySelector('input[type="radio"], select, [role="radio"], [data-choice], .answer-option, .mc-option, .choice')?lastQuestion:null;}

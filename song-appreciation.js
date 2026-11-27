@@ -1931,7 +1931,7 @@
     try {const C=window.AudioContext||window.webkitAudioContext;if(C){answerAudio ||= new C();void answerAudio.resume().catch(()=>{});}} catch {}
   }
   function playAnswerSound(correct) {
-    try {if(correct){const sound=new Audio('/assets/sfx/correct-answer-pop.mp3');sound.preload='auto';sound.play().catch(()=>{});return;}if(!answerAudio)return;const now=answerAudio.currentTime;
+    try {if(correct){const sound=new Audio('/ui-sounds/correct-answer-pop.mp3');sound.preload='auto';sound.play().catch(()=>{});return;}if(!answerAudio)return;const now=answerAudio.currentTime;
       [260,196].forEach((frequency,index)=>{const tone=answerAudio.createOscillator(),gain=answerAudio.createGain();tone.type="sine";tone.frequency.value=frequency;tone.connect(gain);gain.connect(answerAudio.destination);const start=now+index*.1;gain.gain.setValueAtTime(0,start);gain.gain.linearRampToValueAtTime(.07,start+.015);gain.gain.exponentialRampToValueAtTime(.001,start+.23);tone.start(start);tone.stop(start+.25);});
     } catch {}
   }
