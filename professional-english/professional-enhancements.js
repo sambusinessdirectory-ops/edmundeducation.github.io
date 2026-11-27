@@ -1,44 +1,17 @@
 (function initialiseProfessionalEnhancements() {
   "use strict";
   const SOUND_KEY = "edmund-professional-sound-effects-v1";
-  let soundContext = null;
   const soundEffectsEnabled = () => {
     try { return localStorage.getItem(SOUND_KEY) !== "off"; } catch { return true; }
   };
-  async function readySoundContext() {
-    if (!soundEffectsEnabled()) return null;
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return null;
-    if (!soundContext || soundContext.state === "closed") soundContext = new AudioContextClass();
-    if (soundContext.state !== "running") await soundContext.resume();
-    return soundContext.state === "running" ? soundContext : null;
-  }
-
   async function playSuccessSound() {
     try {
-      const context = await readySoundContext();
-      if (!context || !soundEffectsEnabled()) return;
-      const start = context.currentTime + .015;
-      [[523.25, 0, .17], [659.25, .1, .2], [783.99, .21, .3]].forEach(([frequency, delay, length]) => {
-        const oscillator = context.createOscillator();
-        const gain = context.createGain();
-        oscillator.type = "sine";
-        oscillator.frequency.value = frequency;
-        gain.gain.setValueAtTime(.0001, start + delay);
-        gain.gain.exponentialRampToValueAtTime(.18, start + delay + .018);
-        gain.gain.exponentialRampToValueAtTime(.0001, start + delay + length);
-        oscillator.connect(gain).connect(context.destination);
-        oscillator.onended = () => { oscillator.disconnect(); gain.disconnect(); };
-        oscillator.start(start + delay);
-        oscillator.stop(start + delay + length + .03);
-      });
+      if (!soundEffectsEnabled()) return;
+      const sound = new Audio("../assets/sfx/correct-answer-pop.mp3");
+      sound.preload = "auto";
+      await sound.play();
     } catch { /* A later user gesture can retry audio if the browser interrupted it. */ }
   }
-
-  // Unlock during the gesture, including swipe and keyboard marking.
-  ["pointerdown", "keydown"].forEach(type => document.addEventListener(type, () => {
-    readySoundContext().catch(() => {});
-  }, {capture: true, passive: true}));
 
   function ensureSoundToggle() {
     if (document.querySelector("[data-professional-sound-toggle]")) return;

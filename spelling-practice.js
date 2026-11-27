@@ -974,13 +974,19 @@ function announceStreakAnswer(correct, previousStreak) {
 
 function playTone(correct) {
   try {
+    if (correct) {
+      const sound = new Audio('/assets/sfx/correct-answer-pop.mp3');
+      sound.preload = 'auto';
+      sound.play().catch(() => {});
+      return;
+    }
     const Context = window.AudioContext || window.webkitAudioContext;
     if (!Context) return;
     const context = new Context();
     const oscillator = context.createOscillator();
     const gain = context.createGain();
-    oscillator.frequency.setValueAtTime(correct ? 660 : 210, context.currentTime);
-    oscillator.frequency.exponentialRampToValueAtTime(correct ? 880 : 145, context.currentTime + 0.16);
+    oscillator.frequency.setValueAtTime(210, context.currentTime);
+    oscillator.frequency.exponentialRampToValueAtTime(145, context.currentTime + 0.16);
     gain.gain.setValueAtTime(0.0001, context.currentTime);
     gain.gain.exponentialRampToValueAtTime(0.12, context.currentTime + 0.02);
     gain.gain.exponentialRampToValueAtTime(0.0001, context.currentTime + 0.23);
