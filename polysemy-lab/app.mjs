@@ -2,9 +2,11 @@ import {companionFor,companionName,companionStorageKeys} from './companion.mjs?v
 import {createMedia} from './media.mjs?v=20261107-student-network1';
 import {modules,moduleMap,allQuestionMap,loadModule,selectModule,showModule,questions,senses,questionMap,orderedOptions,isCorrectAnswer,isCorrectEvent,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20261025-fairness1';
 import {sharedFeedback,pollDelay} from './live-sync.mjs?v=20261028-feedback1';
+import {createPolysemyAdminExport} from './admin-export.mjs?v=20261127-admin-export1';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let client,user=null,events=[],outbox=[],timeDays=[],syncing=null,mode='directory',activeModule=null,feedback=null,clockSeconds=0,lastAction=Date.now(),lastTick=Date.now(),generation=0,moduleSelection=0,range='7',cacheWarning=false;
 let syncFailures=0,nextPollAt=0,lastRemoteActivity=0;
+let adminExporter=null;
 const media=createMedia({getUser:()=>user,getModule:()=>showModule,getCompanion:()=>companionFor(user?.id),rpc});
 const meaningLabel=(q,id)=>showModule.mcqMeanings?.find(item=>item.id===id)?.title||senses.get(id)?.title||'';
 // Keep short punctuation-delimited ideas together; on long ideas, protect the
@@ -31,7 +33,7 @@ function formattedOptionLabel(value){
 const key=()=>`edmund-polysemy-lab-v1:${user.id}`;
 const unique=list=>[...new Map(list.map(e=>[e.id,e])).values()];
 const setStatus=(message,error=false)=>{$('[data-sync]').textContent=message;$('[data-sync]').classList.toggle('error',error);$('[data-sync-retry]').hidden=!error;};
-function persist(){if(!user)return;try{localStorage.setItem(key(),JSON.stringify({events,outbox,timeDays}));}catch{cacheWarning=true;setStatus('此瀏覽器未能保留本機進度。請保持連線並等候雲端儲存。',true);}}
+function persist(){if(user?.role!=='student')return;try{localStorage.setItem(key(),JSON.stringify({events,outbox,timeDays}));}catch{cacheWarning=true;setStatus('此瀏覽器未能保留本機進度。請保持連線並等候雲端儲存。',true);}}
 async function rpc(name,args){
  if(!client){const c=window.EDMUND_SUPABASE;if(!window.supabase||!c?.url||!c?.anonKey)throw Error('登入服務未能載入，請重新整理。');client=window.supabase.createClient(c.url,c.anonKey,{auth:{persistSession:true,storage:sessionStorage,autoRefreshToken:true,detectSessionInUrl:false}});}
  const current=await client.auth.getSession();if(current.error)throw current.error;if(!current.data?.session){const r=await client.auth.signInAnonymously();if(r.error)throw r.error;}
@@ -39,7 +41,7 @@ async function rpc(name,args){
 }
 function addEvent(data){if(!user)return;const e={module:showModule.id,id:crypto.randomUUID(),at:new Date(Math.max(Date.now(),...events.map(e=>Date.parse(e.at)+1))).toISOString(),...data};outbox.push(e);if(e.kind!=='time')events.push(e);persist();void sync();return e;}
 async function sync(){
- if(!user||syncing)return syncing;
+ if(user?.role!=='student'||syncing)return syncing;
  const owner=user.id,token=user.token,gen=generation;
  const task=(async()=>{try{
   do{const batch=outbox.slice(0,100),ids=new Set(batch.map(e=>e.id));if(batch.length)setStatus('正在儲存…');const before=JSON.stringify(events),beforeTimes=JSON.stringify(timeDays);const data=await rpc('polysemy_lab_modules_sync',{p_token:token,p_events:batch});if(generation!==gen||user?.id!==owner)return;
@@ -77,8 +79,6 @@ function renderDirectory(){
  $('.module-heading .eyebrow').textContent=`MODULE ${String(showModule.number).padStart(2,'0')} / 詞義與用法`;
  $('.module-heading h1').textContent=showModule.word;
  const counts=$$('.module-numbers strong');counts[0].textContent=showModule.senses.length;counts[1].textContent=questions.length;const optionCounts=questions.map(q=>q.options.length),minOptions=Math.min(...optionCounts),maxOptions=Math.max(...optionCounts);counts[2].textContent=minOptions===maxOptions?String(minOptions):`${minOptions}–${maxOptions}`;
- const manual=$('[data-manual]');manual.hidden=!showModule.source;manual.href=showModule.source?'polysemy-lab/'+showModule.source.path:'#';
-
  $('[data-meanings]').innerHTML=showModule.senses.map((s,i)=>`<details class="meaning" data-sense="${s.id}"><summary><span class="meaning-number">${String(i+1).padStart(2,'0')}</span><span class="meaning-title">${esc(s.title)}<small lang="en">${esc(s.form)}</small></span><span class="seen"></span></summary><div class="meaning-body"><p lang="en">${esc(s.en)}</p><p>${esc(s.zh)}</p>${s.examples.map(([en,zh])=>`<div class="example"><p lang="en">${highlighted(en)}</p><small>${esc(zh)}</small></div>`).join('')}<p class="note">${esc(s.note)}</p></div></details>`).join('');
  $('[data-comparisons]').innerHTML=showModule.comparisons.map(([title,en,zh])=>`<article><h3>${esc(title)}</h3><p class="comparison-example" lang="en">${esc(en)}</p><p class="comparison-explanation">${esc(zh).replace(/\b([a-z]+)\b/gi,'<strong lang="en">$1</strong>').replace(/；/g,'<br>')}</p></article>`).join('');
  $$('[data-sense]').forEach(d=>d.addEventListener('toggle',()=>{if(d.open&&user){lastAction=Date.now();if(!summary(events).seen.has(d.dataset.sense)){addEvent({kind:'view',sense:d.dataset.sense});refreshProgress();}}}));refreshProgress();
@@ -145,16 +145,17 @@ document.addEventListener('visibilitychange',()=>{captureTime();if(document.hidd
 window.addEventListener('pagehide',()=>{media.stop();captureTime();persist();});window.addEventListener('online',()=>void sync());
 window.addEventListener('beforeunload',event=>{if(user&&mode==='practice'&&replay(events)&&!replay(events).complete){persist();event.preventDefault();event.returnValue='';}});
 setInterval(()=>{if(user&&!document.hidden&&navigator.onLine!==false&&Date.now()>=nextPollAt)void sync();},1000);
-window.addEventListener('focus',()=>{if(user)void sync();});
-window.addEventListener('storage',event=>{if(user&&companionStorageKeys(user.id).includes(event.key)){document.body.dataset.polysemyCompanion=companionFor(user.id);if(mode==='practice')renderPractice();return;}if(!user||event.key!==key()||!event.newValue)return;try{const c=JSON.parse(event.newValue);const before=JSON.stringify(events);events=unique([...events,...c.events]);outbox=unique([...outbox,...c.outbox]);refreshProgress();if(mode==='practice'&&before!==JSON.stringify(events)){restoreFeedback();renderPractice();}void sync();}catch{}});
+window.addEventListener('focus',()=>{if(user?.role==='student')void sync();});
+window.addEventListener('storage',event=>{if(user?.role!=='student')return;if(companionStorageKeys(user.id).includes(event.key)){document.body.dataset.polysemyCompanion=companionFor(user.id);if(mode==='practice')renderPractice();return;}if(event.key!==key()||!event.newValue)return;try{const c=JSON.parse(event.newValue);const before=JSON.stringify(events);events=unique([...events,...c.events]);outbox=unique([...outbox,...c.outbox]);refreshProgress();if(mode==='practice'&&before!==JSON.stringify(events)){restoreFeedback();renderPractice();}void sync();}catch{}});
 async function enter(token){const gen=++generation;const rows=await rpc('flashcard_student_session_profile',{p_token:token});if(gen!==generation)return false;const row=rows?.[0];if(!row?.id||!row.session_token)return false;user={id:row.id,name:row.name,role:'student',token:row.session_token};document.body.dataset.polysemyCompanion=companionFor(row.id);events=[];outbox=[];timeDays=[];feedback=null;clockSeconds=0;cacheWarning=false;
  try{const c=JSON.parse(localStorage.getItem(key())||'null');if(c&&Array.isArray(c.events)&&Array.isArray(c.outbox)){events=c.events;outbox=c.outbox;timeDays=c.timeDays||[];}}catch{}
  const requested=routedModule();try{const chosen=requested||localStorage.getItem(key()+':module')||'show';await loadModule(chosen);selectModule(chosen);activeModule=requested;}catch{selectModule('show');activeModule=null;}
  window.EdmundSystemNav?.rememberStudentSession(user);$('[data-login]').hidden=true;$('[data-app]').inert=true;$('[data-app]').hidden=false;$('[data-logout]').hidden=false;$('[data-recordings]').hidden=false;$('[data-student]').textContent=row.name;$('[data-login-form]').reset();$('[data-dashboards]').open=false;renderDirectory();renderCharts();setMode('directory');await sync();if(gen===generation)$('[data-app]').inert=false;return true;}
-function clear(){syncFailures=0;nextPollAt=0;lastRemoteActivity=0;delete document.body.dataset.polysemyCompanion;media.stop();$('[data-library]').innerHTML='';$('[data-recordings]').hidden=true;generation++;moduleSelection++;user=null;activeModule=null;events=[];outbox=[];timeDays=[];feedback=null;syncing=null;clockSeconds=0;$('[data-app]').hidden=true;$('[data-login]').hidden=false;$('[data-student]').textContent='';$('[data-logout]').hidden=true;}
-$('[data-login-form]').addEventListener('submit',async event=>{event.preventDefault();const b=event.currentTarget.querySelector('button[type=submit]'),form=new FormData(event.currentTarget);b.disabled=true;$('[data-login-status]').textContent='正在登入…';try{const rows=await rpc('flashcard_student_login',{p_name:String(form.get('username')).trim(),p_password:String(form.get('password'))});if(!rows?.[0]?.session_token||!await enter(rows[0].session_token))throw Error('用戶名稱或密碼不正確，請再試。');$('[data-login-status]').textContent='';}catch(error){$('[data-login-status]').textContent=error.message||'登入失敗，請重試。';}finally{b.disabled=false;}});
-$('[data-logout]').addEventListener('click',async()=>{if(outbox.length&&!confirm('部分進度尚未同步。登出後會保留在此裝置，登入同一帳戶後再同步。確定登出？'))return;captureTime();await sync();clear();window.EdmundSystemNav?.forgetStudentSession();});
-window.addEventListener('edmund-student-session-change',()=>{const current=window.EdmundSystemNav?.getStudentSession?.();if(user&&current?.id!==user.id){captureTime();persist();clear();}});
+async function enterAdmin(row){user={name:row.name,role:'admin'};$('[data-login]').hidden=true;$('[data-app]').hidden=true;$('[data-admin-app]').hidden=false;$('[data-logout]').hidden=false;$('[data-recordings]').hidden=true;$('[data-student]').textContent=`${row.name} · Admin`;$('[data-login-form]').reset();adminExporter=await createPolysemyAdminExport($('[data-admin-app]'));}
+function clear(){syncFailures=0;nextPollAt=0;lastRemoteActivity=0;delete document.body.dataset.polysemyCompanion;media.stop();adminExporter?.destroy();adminExporter=null;$('[data-admin-app]').hidden=true;$('[data-library]').innerHTML='';$('[data-recordings]').hidden=true;generation++;moduleSelection++;user=null;activeModule=null;events=[];outbox=[];timeDays=[];feedback=null;syncing=null;clockSeconds=0;$('[data-app]').hidden=true;$('[data-login]').hidden=false;$('[data-student]').textContent='';$('[data-logout]').hidden=true;}
+$('[data-login-form]').addEventListener('submit',async event=>{event.preventDefault();const b=event.currentTarget.querySelector('button[type=submit]'),form=new FormData(event.currentTarget),name=String(form.get('username')).trim(),password=String(form.get('password'));b.disabled=true;$('[data-login-status]').textContent='正在核對帳戶…';try{const admins=await rpc('flashcard_admin_login',{p_name:name,p_password:password});if(admins?.[0]?.role==='admin'){await enterAdmin(admins[0]);$('[data-login-status]').textContent='';return;}const rows=await rpc('flashcard_student_login',{p_name:name,p_password:password});if(!rows?.[0]?.session_token||!await enter(rows[0].session_token))throw Error('用戶名稱或密碼不正確，請再試。');$('[data-login-status]').textContent='';}catch(error){$('[data-login-status]').textContent=error.message||'登入失敗，請重試。';}finally{b.disabled=false;}});
+$('[data-logout]').addEventListener('click',async()=>{if(user?.role==='admin'){clear();return;}if(outbox.length&&!confirm('部分進度尚未同步。登出後會保留在此裝置，登入同一帳戶後再同步。確定登出？'))return;captureTime();await sync();clear();window.EdmundSystemNav?.forgetStudentSession();});
+window.addEventListener('edmund-student-session-change',()=>{const current=window.EdmundSystemNav?.getStudentSession?.();if(user?.role==='student'&&current?.id!==user.id){captureTime();persist();clear();}});
 window.addEventListener('popstate',()=>{if(user)void changeModule(routedModule(),false);});
 $('[data-sync-retry]').addEventListener('click',()=>void sync());$('[data-range]').addEventListener('change',e=>{range=e.target.value;renderCharts();$('[data-day-detail]').hidden=true;});
 $('[data-module-search]').addEventListener('input',renderModuleCards);$('[data-module-search-clear]').addEventListener('click',()=>{const search=$('[data-module-search]');search.value='';renderModuleCards();search.focus();});
