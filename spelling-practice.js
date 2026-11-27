@@ -37,6 +37,8 @@ let historyRows = [];
 let historyLoading = false;
 let selectionGesture = null;
 let suppressRowClick = false;
+let activeTouchAnswer = "";
+const TOUCH_KEYBOARD_ROWS = ["qwertyuiop", "asdfghjkl", "zxcvbnm"];
 const SELECTION_CATALOG = window.SPELLING_SELECTION_CATALOG || { libraries: [], decks: [], entries: [] };
 const CATALOG_DECKS = Array.isArray(SELECTION_CATALOG.decks) ? SELECTION_CATALOG.decks : [];
 const LIBRARY_IDS = new Set(["core", ...(SELECTION_CATALOG.libraries || []).map((library) => library.id)]);
@@ -68,6 +70,7 @@ function defaultState() {
     deckSearch: "",
     wordFilter: "all",
     typingEffectOn: true,
+    touchKeyboardOn: true,
     autoPlayAudio: false,
     phase: "setup",
     correctById: {},
@@ -227,6 +230,7 @@ function normalizeState(candidate) {
     deckSearch: String(candidate.deckSearch || "").slice(0, 120),
     wordFilter: ["all", "unmastered", "mastered"].includes(candidate.wordFilter) ? candidate.wordFilter : "all",
     typingEffectOn: candidate.typingEffectOn !== false,
+    touchKeyboardOn: candidate.touchKeyboardOn !== false,
     autoPlayAudio: candidate.autoPlayAudio === true,
     phase,
     correctById,
@@ -667,6 +671,7 @@ function setupMarkup() {
 
 function renderMask(entry) {
   const blanks = new Set(appState.mask);
+  const touchKeyboard = touchKeyboardActive();
   let position = 0;
   return entry.word.split(" ").map((token) => {
     const slots = [...token].map((character) => {
@@ -674,7 +679,7 @@ function renderMask(entry) {
       position += 1;
       if (appState.awaitingNext && blanks.has(current)) return `<span class="spelling-slot spelling-slot--corrected">${escapeHtml(character)}</span>`;
       if (!blanks.has(current)) return `<span class="spelling-slot spelling-slot--given">${escapeHtml(character)}</span>`;
-      return `<label class="spelling-slot spelling-slot--blank"><span class="sr-only">輸入第 ${current + 1} 個字母</span><input data-letter-position="${current}" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入第 ${current + 1} 個字母" value="${escapeHtml(appState.draftLetters[current] || "")}" ${appState.feedback === "correct" ? "disabled" : ""}></label>`;
+      return `<label class="spelling-slot spelling-slot--blank"><span class="sr-only">輸入第 ${current + 1} 個字母</span><input data-letter-position="${current}" maxlength="1" inputmode="${touchKeyboard ? "none" : "text"}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入第 ${current + 1} 個字母" value="${escapeHtml(appState.draftLetters[current] || "")}" ${touchKeyboard ? "readonly" : ""} ${appState.feedback === "correct" ? "disabled" : ""}></label>`;
     }).join("");
     position += 1;
     return `<span class="spelling-token" style="--token-length:${Math.max(1, [...token].length)}">${slots}</span>`;
@@ -727,11 +732,26 @@ function wholeLineHintLetters(entry) {
   return [...new Set(visible.length ? visible : fallback)].slice(0, 5);
 }
 
+function touchKeyboardDevice() {
+  return Boolean(navigator.maxTouchPoints > 0 && window.matchMedia?.("(pointer: coarse)").matches);
+}
+
+function touchKeyboardActive() {
+  return touchKeyboardDevice() && appState?.touchKeyboardOn !== false;
+}
+
+function touchKeyboardMarkup() {
+  if (!touchKeyboardActive() || appState.feedback === "correct" || appState.awaitingNext) return "";
+  const rows = TOUCH_KEYBOARD_ROWS.map((letters, rowIndex) => `<div class="spelling-touch-keyboard__row" data-keyboard-row="${rowIndex + 1}">${[...letters].map((letter) => `<button type="button" data-touch-key="${letter}" aria-label="輸入字母 ${letter.toUpperCase()}">${letter.toUpperCase()}</button>`).join("")}${rowIndex === 2 ? '<button class="spelling-touch-keyboard__delete" type="button" data-touch-backspace aria-label="刪除上一個字母">⌫</button>' : ""}</div>`).join("");
+  return `<div class="spelling-touch-keyboard" role="group" aria-label="簡易英文字母鍵盤"><span class="sr-only">只包含英文字母及刪除鍵</span>${rows}</div>`;
+}
+
 function answerArea(entry) {
+  const touchKeyboard = touchKeyboardActive();
   if (appState.displayMode === "line") {
     const hints = wholeLineHintLetters(entry);
     const hintText = hints.map(escapeHtml).join(" · ");
-    return `<div class="spelling-line-mode"><label class="spelling-line-answer"><span class="sr-only">輸入完整英文拼寫；提示字母為 ${hintText}</span><input data-line-answer type="text" inputmode="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入完整英文拼寫；提示字母為 ${hintText}" placeholder="${hintText}" value="${escapeHtml(appState.draftLetters.line || "")}" ${appState.feedback === "correct" || appState.awaitingNext ? "disabled" : ""}></label></div>`;
+    return `<div class="spelling-line-mode"><label class="spelling-line-answer"><span class="sr-only">輸入完整英文拼寫；提示字母為 ${hintText}</span><input data-line-answer type="text" inputmode="${touchKeyboard ? "none" : "text"}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="輸入完整英文拼寫；提示字母為 ${hintText}" placeholder="${hintText}" value="${escapeHtml(appState.draftLetters.line || "")}" ${touchKeyboard ? "readonly" : ""} ${appState.feedback === "correct" || appState.awaitingNext ? "disabled" : ""}></label></div>`;
   }
   return `<div class="spelling-slots" role="group" aria-label="填寫缺少的英文字母">${renderMask(entry)}</div>`;
 }
@@ -753,8 +773,8 @@ function practiceMarkup() {
   const advanceDuration = Math.max(1, appState.advanceAt - appState.correctStartedAt || 2400);
   const advanceRemaining = Math.max(0, appState.advanceAt - Date.now());
   const advanceProgress = appState.feedback === "correct" ? Math.min(1, Math.max(0, 1 - advanceRemaining / advanceDuration)) : 0;
-  return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}" data-typing-effects="${appState.typingEffectOn}">
-    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-header__right"><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div><button class="spelling-auto-audio-toggle" type="button" data-auto-audio-toggle aria-pressed="${appState.autoPlayAudio}" aria-label="每題自動讀音：${appState.autoPlayAudio ? "已開啟" : "已關閉"}">${icon("sound")}<span>每題讀音</span><strong>${appState.autoPlayAudio ? "開" : "關"}</strong></button><button class="spelling-typing-effect-toggle" type="button" data-typing-effect-toggle aria-pressed="${appState.typingEffectOn}" aria-label="柔光打字聲效：${appState.typingEffectOn ? "已開啟" : "已關閉"}">${icon("sparkle")}<span>柔光聲效</span><strong>${appState.typingEffectOn ? "開" : "關"}</strong></button></div></header>
+  return `<section class="spelling-workspace spelling-workspace--practice" data-spelling-app data-spelling-practice data-spelling-completed="${completed}" data-spelling-total="${required}" data-spelling-awaiting-next="${appState.awaitingNext}" data-typing-effects="${appState.typingEffectOn}" data-touch-device="${touchKeyboardDevice()}" data-touch-keyboard="${touchKeyboardActive()}">
+    <header class="spelling-practice-header"><button type="button" data-back-to-bank>返回生字庫</button><div class="spelling-practice-header__right"><div class="spelling-practice-metrics"><span>本輪進度 <strong>${completed} / ${required}</strong></span><span>作答時間 <strong data-elapsed>${formatDuration(elapsedSeconds())}</strong></span></div><button class="spelling-touch-keyboard-toggle spelling-touch-only" type="button" data-touch-keyboard-toggle aria-pressed="${appState.touchKeyboardOn}" aria-label="簡易字母鍵盤：${appState.touchKeyboardOn ? "已開啟" : "已關閉"}"><span>簡易鍵盤</span><strong>${appState.touchKeyboardOn ? "開" : "關"}</strong></button><button class="spelling-auto-audio-toggle" type="button" data-auto-audio-toggle aria-pressed="${appState.autoPlayAudio}" aria-label="每題自動讀音：${appState.autoPlayAudio ? "已開啟" : "已關閉"}">${icon("sound")}<span>每題讀音</span><strong>${appState.autoPlayAudio ? "開" : "關"}</strong></button><button class="spelling-typing-effect-toggle" type="button" data-typing-effect-toggle aria-pressed="${appState.typingEffectOn}" aria-label="柔光打字聲效：${appState.typingEffectOn ? "已開啟" : "已關閉"}">${icon("sparkle")}<span>柔光聲效</span><strong>${appState.typingEffectOn ? "開" : "關"}</strong></button></div></header>
     <div class="spelling-progress" aria-label="本輪完成 ${percentage}%"><i style="width:${percentage}%"></i></div>
     <main class="spelling-card spelling-card--enter${lengthClass}">
       <div class="spelling-meaning-row"><h1>${escapeHtml(entry.meaning)}</h1><button class="spelling-sound${autoPlayBlocked ? " needs-audio-unlock" : ""}" type="button" data-speak aria-label="播放英文讀音">${icon("sound")}<span>聆聽</span></button></div>
@@ -762,6 +782,7 @@ function practiceMarkup() {
       <p class="spelling-word-progress">這個生字已答對 <strong>${wordCorrect}</strong> / ${appState.frequency} 次</p>
       <form data-answer-form novalidate>
         ${answerArea(entry)}
+        ${touchKeyboardMarkup()}
         <div class="spelling-feedback" data-feedback data-state="${appState.awaitingNext ? "wrong" : appState.feedback}" role="status" aria-live="assertive">${feedbackHtml(entry)}</div>
         ${appState.feedback === "correct" ? `<div class="spelling-auto-advance" aria-label="即將前往下一題"><i style="--advance-progress:${advanceProgress};--advance-remaining:${advanceRemaining}ms"></i></div>` : ""}
         ${appState.awaitingNext ? `<button class="spelling-primary spelling-submit" type="button" data-ready-next>準備好，下一題 ${icon("arrow")}</button>` : appState.feedback === "correct" ? `<button class="spelling-primary spelling-submit" type="button" data-next-now>立即下一題 <kbd>Space</kbd><span aria-hidden="true">/</span><kbd>Enter</kbd> ${icon("arrow")}</button>` : `<button class="spelling-primary spelling-submit" type="submit">檢查拼寫 ${icon("check")}</button>`}
@@ -1356,6 +1377,46 @@ function updateTypingEffectToggle(app) {
   if (!enabled) clearWritingEffects();
 }
 
+function markTouchAnswer(input) {
+  if (!input?.matches?.("[data-letter-position], [data-line-answer]")) return;
+  activeTouchAnswer = input.matches("[data-line-answer]") ? "line" : String(input.dataset.letterPosition);
+  input.closest("[data-answer-form]")?.querySelectorAll("[data-touch-active]").forEach((node) => node.removeAttribute("data-touch-active"));
+  input.closest(".spelling-slot, .spelling-line-answer")?.setAttribute("data-touch-active", "true");
+}
+
+function touchAnswerInput(app) {
+  if (appState.displayMode === "line") return app.querySelector("[data-line-answer]:not([disabled])");
+  const inputs = [...app.querySelectorAll("[data-letter-position]:not([disabled])")];
+  return inputs.find((input) => String(input.dataset.letterPosition) === activeTouchAnswer)
+    || inputs.find((input) => !input.value)
+    || inputs.at(-1)
+    || null;
+}
+
+function applyTouchKeyboardInput(app, letter = "", deleting = false) {
+  if (!touchKeyboardActive() || appState.feedback === "correct" || appState.awaitingNext) return;
+  let input = touchAnswerInput(app);
+  if (!input) return;
+  if (input.matches("[data-line-answer]")) {
+    input.value = deleting ? input.value.slice(0, -1) : `${input.value}${letter}`;
+  } else if (deleting) {
+    const inputs = [...app.querySelectorAll("[data-letter-position]:not([disabled])")];
+    if (!input.value) input = inputs[Math.max(0, inputs.indexOf(input) - 1)] || input;
+    input.value = "";
+  } else input.value = letter;
+  input.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: deleting ? "deleteContentBackward" : "insertText", data: deleting ? null : letter }));
+  const focusedAnswer = document.activeElement?.matches?.("[data-letter-position], [data-line-answer]") ? document.activeElement : null;
+  markTouchAnswer(deleting ? input : focusedAnswer || input);
+}
+
+document.addEventListener("focusin", (event) => {
+  if (event.target.matches?.("[data-letter-position], [data-line-answer]")) markTouchAnswer(event.target);
+});
+
+document.addEventListener("pointerdown", (event) => {
+  if (event.target.closest?.("[data-touch-key], [data-touch-backspace]")) event.preventDefault();
+});
+
 document.addEventListener("input", (event) => {
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
@@ -1546,6 +1607,22 @@ document.addEventListener("click", (event) => {
   if (!event.target.closest("[data-spelling-dropdown]")) closeAllDropdowns();
   const app = event.target.closest("[data-spelling-app]");
   if (!app || !appState) return;
+  const touchKey = event.target.closest("[data-touch-key]");
+  if (touchKey) {
+    applyTouchKeyboardInput(app, touchKey.dataset.touchKey);
+    return;
+  }
+  if (event.target.closest("[data-touch-backspace]")) {
+    applyTouchKeyboardInput(app, "", true);
+    return;
+  }
+  if (event.target.closest("[data-touch-keyboard-toggle]")) {
+    appState.touchKeyboardOn = !appState.touchKeyboardOn;
+    activeTouchAnswer = "";
+    render();
+    persistAndPublish();
+    return;
+  }
   if (event.target.closest("[data-typing-effect-toggle]")) {
     appState.typingEffectOn = !appState.typingEffectOn;
     updateTypingEffectToggle(app);
