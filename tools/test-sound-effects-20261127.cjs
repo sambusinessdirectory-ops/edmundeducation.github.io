@@ -12,6 +12,8 @@ const assets = [
   'homepage-card-open.mp3', 'public-announcement.mp3'
 ];
 for (const asset of assets) assert.ok(fs.statSync(path.join(root, 'assets/sfx', asset)).size > 1000, `${asset} is present`);
+const pagesKeepList = read('tools/pages-media-saved-links.txt');
+for (const asset of assets) assert.match(pagesKeepList, new RegExp(`^assets/sfx/${asset}$`, 'm'), `${asset} is preserved in Pages`);
 
 const shared = read('shared-learning-tools.js');
 assert.match(shared, /correct-answer-pop\.mp3/);
