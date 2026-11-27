@@ -4,16 +4,25 @@
  import(new URL('system-access-guard.mjs',base)).catch(console.error);
  import(new URL('background-music-player.mjs?v=20260911-corners1',base)).catch(console.error);
  const link=document.createElement('link');link.rel='stylesheet';link.href=new URL('shared-learning-tools.css?v=20260908-refine7',base);document.head.append(link);
- let audio,lastSound=0,armedUntil=0,beforeOutcomes=new Map();const preference='edmund-answer-sounds-v1';
+ let audio,lastSound=0,armedUntil=0,beforeOutcomes=new Map(),lastQuestion=null,mcRetryQuestion=null,mcWrongAttempts=0;const preference='edmund-answer-sounds-v1';
+ const correctAnswerUrl=new URL('assets/sfx/correct-answer-pop.mp3',base).href;
+ const finallyCorrectUrl=new URL('assets/sfx/mc-finally-correct.mp3',base).href;
  const enabled=()=>{try{return localStorage.getItem(preference)!=='off';}catch{return true;}};
  function unlock(){try{audio??=new (window.AudioContext||window.webkitAudioContext)();if(audio.state==='suspended')audio.resume();}catch{}}
- function play(success){armedUntil=0;if(!enabled()||Date.now()-lastSound<180)return;lastSound=Date.now();unlock();if(!audio)return;
-  const now=audio.currentTime;const notes=success?[[880,0,.095],[1174.66,.065,.12],[1760,.14,.18]]:[[587.33,0,.12],[659.25,.11,.18]];
+ function multipleChoiceQuestion(){return lastQuestion?.isConnected&&lastQuestion.querySelector('input[type="radio"], select, [role="radio"], [data-choice], .answer-option, .mc-option, .choice')?lastQuestion:null;}
+ function playFile(src){const sound=new Audio(src);sound.preload='auto';sound.play().catch(()=>{});}
+ function play(success){armedUntil=0;if(!enabled()||Date.now()-lastSound<180)return;lastSound=Date.now();
+  const mcQuestion=multipleChoiceQuestion();let finallyCorrect=false;
+  if(mcQuestion!==mcRetryQuestion){mcRetryQuestion=mcQuestion;mcWrongAttempts=0;}
+  if(mcQuestion){if(success){finallyCorrect=mcWrongAttempts>=3;mcWrongAttempts=0;}else mcWrongAttempts+=1;}else{mcRetryQuestion=null;mcWrongAttempts=0;}
+  if(success){playFile(finallyCorrect?finallyCorrectUrl:correctAnswerUrl);return;}
+  unlock();if(!audio)return;
+  const now=audio.currentTime;const notes=[[587.33,0,.12],[659.25,.11,.18]];
   for(const [hz,delay,duration] of notes){const gain=audio.createGain();gain.gain.setValueAtTime(.0001,now+delay);gain.gain.exponentialRampToValueAtTime(success?.07:.045,now+delay+.008);gain.gain.exponentialRampToValueAtTime(.0001,now+delay+duration);gain.connect(audio.destination);const oscillator=audio.createOscillator();oscillator.type='sine';oscillator.frequency.setValueAtTime(hz,now+delay);oscillator.connect(gain);oscillator.start(now+delay);oscillator.stop(now+delay+duration+.03);}
  }
  window.EdmundAnswerSound={play,enabled};document.addEventListener('pointerdown',unlock,{once:true,capture:true});document.addEventListener('keydown',unlock,{once:true,capture:true});
  function header(){const host=document.querySelector('.edmund-system-tools')||document.querySelector('.edmund-system-header__actions, .edmund-system-header__inner, .header-inner');if(!host)return;const existing=document.querySelector('[data-answer-sound-toggle]');if(existing){const tools=document.querySelector('.edmund-system-tools');if(tools&&existing.parentElement!==tools)tools.append(existing);return;}const button=document.createElement('button');button.type='button';button.dataset.answerSoundToggle='';const update=()=>{button.textContent=enabled()?'♫':'♩';button.title=enabled()?'Sound on · 關閉音效':'Sound off · 開啟音效';button.setAttribute('aria-label',button.title);button.setAttribute('aria-pressed',String(enabled()));};update();button.onclick=()=>{try{localStorage.setItem(preference,enabled()?'off':'on');}catch{}update();if(enabled())play(true);};host.append(button);window.addEventListener('storage',update);}
- let lastQuestion=null;const selector='[data-question-card], [data-question-id], [data-question-key], [data-edmund-record-id], .study-card-frame, .question-card, .exercise-question';
+ const selector='[data-question-card], [data-question-id], [data-question-key], [data-edmund-record-id], .study-card-frame, .question-card, .exercise-question';
  for(const event of ['focusin','pointerdown'])document.addEventListener(event,e=>{const q=e.target.closest?.(selector);if(q)lastQuestion=q;},true);
  async function context(){let question=lastQuestion?.isConnected&&lastQuestion.getBoundingClientRect().bottom>0&&lastQuestion.getBoundingClientRect().top<innerHeight?lastQuestion:null;if(!question){question=[...document.querySelectorAll(selector)].filter(n=>{const r=n.getBoundingClientRect();return r.width&&r.top>=60&&r.top<innerHeight;}).sort((a,b)=>a.getBoundingClientRect().top-b.getBoundingClientRect().top)[0];}
  const headings=[...document.querySelectorAll('main h1,main h2,[data-view-content] h1,.exercise-header h1')].filter(n=>n.getBoundingClientRect().width);
