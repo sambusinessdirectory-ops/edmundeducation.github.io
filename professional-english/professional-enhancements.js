@@ -7,7 +7,7 @@
   async function playSuccessSound() {
     try {
       if (!soundEffectsEnabled()) return;
-      const sound = new Audio("../assets/sfx/correct-answer-pop.mp3");
+      const sound = new Audio("../ui-sounds/correct-answer-pop.mp3");
       sound.preload = "auto";
       await sound.play();
     } catch { /* A later user gesture can retry audio if the browser interrupted it. */ }

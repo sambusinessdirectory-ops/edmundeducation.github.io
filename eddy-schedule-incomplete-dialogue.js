@@ -100,8 +100,8 @@
     if (days === 2) {
       try {
         if (localStorage.getItem('edmund-answer-sounds-v1') !== 'off') {
-          if (!window.EdmundUISounds?.play('/assets/sfx/homework-two-days-incomplete.mp3')) {
-            const sound = new Audio('/assets/sfx/homework-two-days-incomplete.mp3');
+          if (!window.EdmundUISounds?.play('/ui-sounds/homework-two-days-incomplete.mp3')) {
+            const sound = new Audio('/ui-sounds/homework-two-days-incomplete.mp3');
             sound.preload = 'auto';
             sound.play().catch(() => {});
           }

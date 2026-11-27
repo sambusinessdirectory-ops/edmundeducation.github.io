@@ -996,7 +996,7 @@ function announceStreakAnswer(correct, previousStreak) {
 function playTone(correct) {
   try {
     if (correct) {
-      const sound = new Audio('/assets/sfx/correct-answer-pop.mp3');
+      const sound = new Audio('/ui-sounds/correct-answer-pop.mp3');
       sound.preload = 'auto';
       sound.play().catch(() => {});
       return;

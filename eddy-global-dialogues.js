@@ -358,7 +358,7 @@
   function advanceOrDismiss() {
     if (active && isKnowledgeSurprise(active.kind) && active.factPageIndex < active.factPages.length - 1) {
       active.factPageIndex += 1;
-      playEffect('/assets/sfx/homepage-dialogue-next.mp3');
+      playEffect('/ui-sounds/homepage-dialogue-next.mp3');
       renderFactPage();
       return;
     }
@@ -455,7 +455,7 @@
       }
       overlay.addEventListener('click', advanceOrDismiss);
       document.body.append(overlay);
-      if (next.kind === 'bedtime') playEffect('/assets/sfx/eddy-pyjama-night.mp3');
+      if (next.kind === 'bedtime') playEffect('/ui-sounds/eddy-pyjama-night.mp3');
       if (isKnowledgeSurprise(next.kind)) paginateKnowledgeDialogue();
       overlay.querySelector('button').focus({ preventScroll: true });
       document.addEventListener('keydown', onKey, true);

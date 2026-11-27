@@ -102,13 +102,13 @@
       const now = Date.now();
       if (now - Number(recentlyPlayed.get(status) || 0) < 300) return;
       recentlyPlayed.set(status, now);
-      window.EdmundUISounds?.play('/assets/sfx/wrong-login.mp3');
+      window.EdmundUISounds?.play('/ui-sounds/wrong-login.mp3');
     };
     new MutationObserver((records) => records.forEach((record) => {
       inspect(record.target);
       record.addedNodes.forEach(inspect);
     })).observe(document.body, { childList: true, subtree: true, characterData: true });
-    document.addEventListener('edmund:login-failed', () => window.EdmundUISounds?.play('/assets/sfx/wrong-login.mp3'));
+    document.addEventListener('edmund:login-failed', () => window.EdmundUISounds?.play('/ui-sounds/wrong-login.mp3'));
   };
   if (typeof MutationObserver === 'function' && typeof document.addEventListener === 'function') {
     if (document.body) installWrongLoginSound();
@@ -2024,7 +2024,7 @@
 })();
 
 // Shared classroom controls are loaded once on every learning portal.
-if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20261127-sounds2",document.currentScript.src).href;script.defer=true;document.head.append(script);}
+if(document.currentScript?.src){const script=document.createElement("script");script.src=new URL("shared-learning-tools.js?v=20261127-sounds3",document.currentScript.src).href;script.defer=true;document.head.append(script);}
 
 (function recordStudentSystemActivity() {
   "use strict";

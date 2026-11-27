@@ -84,13 +84,13 @@
 
   function soundEffectFor(id, group) {
     const audioFiles = {
-      "eddy-bedtime-pyjamas-dialogue": "/assets/sfx/eddy-pyjama-night.mp3",
-      "eddy-english-difference-dialogue": "/assets/sfx/homepage-dialogue-next.mp3",
-      "eddy-english-usage-dialogue": "/assets/sfx/homepage-dialogue-next.mp3",
-      "eddy-fun-fact-dialogue": "/assets/sfx/homepage-dialogue-next.mp3",
-      "eddy-new-announcement-dialogue": "/assets/sfx/public-announcement.mp3",
-      "eddy-password-error-dialogue": "/assets/sfx/wrong-login.mp3",
-      "eddy-schedule-two-day-incomplete-dialogue": "/assets/sfx/homework-two-days-incomplete.mp3"
+      "eddy-bedtime-pyjamas-dialogue": "/ui-sounds/eddy-pyjama-night.mp3",
+      "eddy-english-difference-dialogue": "/ui-sounds/homepage-dialogue-next.mp3",
+      "eddy-english-usage-dialogue": "/ui-sounds/homepage-dialogue-next.mp3",
+      "eddy-fun-fact-dialogue": "/ui-sounds/homepage-dialogue-next.mp3",
+      "eddy-new-announcement-dialogue": "/ui-sounds/public-announcement.mp3",
+      "eddy-password-error-dialogue": "/ui-sounds/wrong-login.mp3",
+      "eddy-schedule-two-day-incomplete-dialogue": "/ui-sounds/homework-two-days-incomplete.mp3"
     };
     if (audioFiles[id]) return audioFiles[id];
     if (group === "front-page") return "內建 Web Audio · eddy-global-dialogues.js";
