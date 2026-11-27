@@ -65,7 +65,7 @@ assert.doesNotMatch(button.textContent,/[🔔🔕]/u);
 const flush=()=>new Promise(resolve=>setTimeout(resolve,10));
 const mark=value=>w.document.dispatchEvent(new w.CustomEvent('professional-card-marked',{detail:{mark:value}}));
 mark('red');await flush();assert.equal(played.length,0);
-mark('green');await flush();assert.equal(played.length,1);assert.match(played[0],/assets\/sfx\/correct-answer-pop\.mp3$/);
+mark('green');await flush();assert.equal(played.length,1);assert.match(played[0],/ui-sounds\/correct-answer-pop\.mp3$/);
 mark('green');await flush();assert.equal(played.length,2);
 button.click();assert.equal(button.getAttribute('aria-pressed'),'false');assert.equal(w.localStorage.getItem('edmund-professional-sound-effects-v1'),'off');
 mark('green');await flush();assert.equal(played.length,2,'muted green marks stay silent');
