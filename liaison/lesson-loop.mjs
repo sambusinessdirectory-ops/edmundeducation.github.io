@@ -1,12 +1,14 @@
 window.__EDMUND_LIAISON_LOOP_V2__ = true;
 
-const { questions, LESSON_STEPS } = await import("./liaison.mjs?bank=20261126-simple1");
+const { questions, LESSON_STEPS } = await import("./liaison.mjs?bank=20261127-multiboundary1");
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 const SESSION_KEY = "edmund-liaison-session-v1";
 const PROGRESS_PREFIX = "edmund-liaison-simple-progress-v1:";
 const localPreview = ["127.0.0.1", "localhost"].includes(location.hostname) && new URLSearchParams(location.search).get("preview") === "1";
 let authGeneration = 0;
+let spokenAudio = null;
+let liaisonAudioIndex = null;
 
 const state = { user: null, token: "", completed: new Set(), lessons: new Map(), recording: null, module: null };
 const views = Object.fromEntries($$("[data-view]").map(view => [view.dataset.view, view]));
@@ -113,21 +115,46 @@ async function restore() {
   remember(row, row.session_token); showView("practice"); return true;
 }
 
-function speak(text, rate = 1) {
+function normalizeAudioKey(value) { return String(value || "").normalize("NFKC").toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim(); }
+
+function audioSource(text) {
+  const manifest = window.EDMUND_LIAISON_AUDIO || {};
+  if (manifest[text]) return manifest[text];
+  if (!liaisonAudioIndex) liaisonAudioIndex = new Map(Object.entries(manifest).map(([key, source]) => [normalizeAudioKey(key), source]));
+  return liaisonAudioIndex.get(normalizeAudioKey(text)) || "";
+}
+
+function fallbackSpeak(text, rate) {
   if (!("speechSynthesis" in window)) return;
-  speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(String(text));
   utterance.lang = "en-GB"; utterance.rate = rate;
   const voices = speechSynthesis.getVoices();
-  utterance.voice = voices.find(voice => voice.lang.toLowerCase() === "en-gb") || voices.find(voice => /^en-/i.test(voice.lang)) || null;
+  utterance.voice = voices.find(voice => /^en-GB$/i.test(voice.lang) && /male|daniel|george|oliver|arthur/i.test(voice.name))
+    || voices.find(voice => /^en-GB$/i.test(voice.lang))
+    || voices.find(voice => /^en-/i.test(voice.lang))
+    || null;
   speechSynthesis.speak(utterance);
+}
+
+async function speak(text, rate = 1) {
+  try { spokenAudio?.pause(); } catch {}
+  try { window.speechSynthesis?.cancel(); } catch {}
+  const source = audioSource(text);
+  if (!source) { fallbackSpeak(text, rate); return; }
+  try {
+    spokenAudio = new Audio(source);
+    spokenAudio.preload = "auto";
+    spokenAudio.playbackRate = rate;
+    spokenAudio.preservesPitch = true;
+    await spokenAudio.play();
+  } catch { fallbackSpeak(text, rate); }
 }
 
 function tokenSpans(text) {
   return [...String(text).matchAll(/[A-Za-z]+(?:[’'][A-Za-z]+)?/g)].map(match => ({ word: normalize(match[0]), start: match.index, end: match.index + match[0].length }));
 }
 
-function targetLetters(text, focus) {
+function targetLettersForPair(text, focus) {
   const tokens = tokenSpans(text); const parts = focusParts(focus);
   if (parts.length === 1) {
     const token = tokens.find(item => item.word === parts[0]);
@@ -138,9 +165,13 @@ function targetLetters(text, focus) {
   return [tokens[index].end - 1, tokens[index + 1].start];
 }
 
+function focusTargets(focus) { return Array.isArray(focus) ? focus : [focus]; }
+function targetLetters(text, focus) { return [...new Set(focusTargets(focus).flatMap(item => targetLettersForPair(text, item)))]; }
+function focusLabel(focus) { return focusTargets(focus).map(item => String(item).split("+").map(part => part.trim()).join("→")).join("、"); }
+
 function sameSet(a, b) { return a.size === b.size && [...a].every(value => b.has(value)); }
 
-function letterPicker(text, focus, selected, onCorrect) {
+function letterPicker(text, focus, selected, { locked = false, onChange = () => {} } = {}) {
   const wrap = document.createElement("div"); wrap.className = "letter-picker"; wrap.setAttribute("aria-label", text);
   const expected = new Set(targetLetters(text, focus));
   let drag = null; let suppressClick = false;
@@ -148,36 +179,43 @@ function letterPicker(text, focus, selected, onCorrect) {
     wrap.querySelectorAll(".letter-key").forEach(key => {
       const keyIndex = Number(key.dataset.index); key.dataset.selected = String(selected.has(keyIndex)); key.setAttribute("aria-pressed", String(selected.has(keyIndex)));
     });
-    if (sameSet(selected, expected)) onCorrect();
+    onChange();
   };
   [...text].forEach((character, index) => {
     if (!/[A-Za-z]/.test(character)) { const span = document.createElement("span"); span.textContent = character; wrap.append(span); return; }
     const button = document.createElement("button"); button.type = "button"; button.className = "letter-key"; button.textContent = character; button.dataset.selected = String(selected.has(index)); button.setAttribute("aria-pressed", String(selected.has(index)));
+    button.disabled = locked;
     button.addEventListener("click", () => { if (suppressClick) { suppressClick = false; return; } selected.has(index) ? selected.delete(index) : selected.add(index); refresh(); });
     button.dataset.index = String(index); wrap.append(button);
   });
+  if (locked) return { wrap, expected, refresh, isCorrect: () => sameSet(selected, expected) };
   wrap.addEventListener("pointerdown", event => {
     const key = event.target.closest?.(".letter-key"); if (!key) return;
-    drag = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY, first: Number(key.dataset.index), moved: false };
-    wrap.setPointerCapture?.(event.pointerId);
+    const first = Number(key.dataset.index);
+    drag = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY, first, adding: !selected.has(first), moved: false, capture: key };
+    key.setPointerCapture?.(event.pointerId);
   });
   wrap.addEventListener("pointermove", event => {
     if (!drag || drag.pointerId !== event.pointerId) return;
     if (!drag.moved && Math.hypot(event.clientX - drag.startX, event.clientY - drag.startY) < 6) return;
-    drag.moved = true; selected.add(drag.first);
+    drag.moved = true;
+    if (drag.adding) selected.add(drag.first); else selected.delete(drag.first);
     const key = document.elementFromPoint(event.clientX, event.clientY)?.closest?.(".letter-key");
-    if (key && wrap.contains(key)) selected.add(Number(key.dataset.index));
+    if (key && wrap.contains(key)) {
+      const index = Number(key.dataset.index);
+      if (drag.adding) selected.add(index); else selected.delete(index);
+    }
     refresh(); event.preventDefault();
   });
   const endDrag = event => {
     if (!drag || drag.pointerId !== event.pointerId) return;
-    suppressClick = drag.moved; wrap.releasePointerCapture?.(event.pointerId); drag = null;
+    suppressClick = drag.moved; drag.capture?.releasePointerCapture?.(event.pointerId); drag = null;
   };
   wrap.addEventListener("pointerup", endDrag); wrap.addEventListener("pointercancel", endDrag);
-  return { wrap, expected };
+  return { wrap, expected, refresh, isCorrect: () => sameSet(selected, expected) };
 }
 
-function stageIntro(index, title, text) { return `<header class="stage-intro"><span>STEP ${index + 1} / ${LESSON_STEPS.length}</span><h4>${escapeHtml(title)}</h4><p>${escapeHtml(text)}</p></header>`; }
+function stageIntro(index, title, text) { return `<header class="stage-intro"><span>STEP ${index + 1} / ${LESSON_STEPS.length}</span><h4>${escapeHtml(title)}</h4>${text ? `<p>${escapeHtml(text)}</p>` : ""}</header>`; }
 
 function completeStage(card, question) {
   const progress = lessonState(question); progress.done.add(progress.step); progress.highest = Math.max(progress.highest, Math.min(5, progress.step + 1)); saveProgress(); renderLesson(card, question);
@@ -189,16 +227,25 @@ function nextButton(root, card, question, label) {
 }
 
 function renderMeaning(root, card, question, progress) {
-  root.innerHTML = `${stageIntro(0, "先理解整句意思", "知道句子在說什麼，再開始聽和說。")}<div class="context-card"><small>情境</small><p>${escapeHtml(question.context)}</p><blockquote lang="en">${escapeHtml(question.phrase)}</blockquote><p class="translation">${escapeHtml(question.meaning)}</p></div>`;
+  root.innerHTML = `${stageIntro(0, "先理解整句意思", "")}<div class="context-card"><small>情境</small><p>${escapeHtml(question.context)}</p><blockquote lang="en">${escapeHtml(question.phrase)}</blockquote><p class="translation">${escapeHtml(question.meaning)}</p></div>`;
   if (!progress.done.has(0)) { const button = document.createElement("button"); button.type = "button"; button.className = "stage-next"; button.textContent = "我明白句意"; button.addEventListener("click", () => completeStage(card, question)); root.append(button); }
   else nextButton(root, card, question, "下一步：點選連音字母");
 }
 
 function renderTap(root, card, question, progress) {
   root.innerHTML = `${stageIntro(1, "用手指或滑鼠點選字母", "點選前一個目標字的字尾，再點選下一個目標字的字首。")}<p class="stage-question">哪兩個字母在自然語流中相連？</p><div data-picker></div><p class="stage-status" role="status"></p>`;
-  const picker = letterPicker(question.phrase, question.focus, progress.selected, () => { progress.done.add(1); progress.highest = Math.max(progress.highest, 2); saveProgress(); renderLesson(card, question); }); root.querySelector("[data-picker]").append(picker.wrap);
-  if (progress.done.has(1)) { root.querySelector(".stage-status").textContent = `✓ 已找到 ${question.focus.replace("+", "→")} 的連音位置。`; nextButton(root, card, question, "下一步：聆聽"); }
-  else { const clear = document.createElement("button"); clear.type = "button"; clear.className = "clear-selection"; clear.textContent = "重新選擇"; clear.addEventListener("click", () => { progress.selected.clear(); renderLesson(card, question); }); root.append(clear); }
+  const completed = progress.done.has(1) && sameSet(progress.selected, new Set(targetLetters(question.phrase, question.focus)));
+  if (progress.done.has(1) && !completed) progress.done.delete(1);
+  const picker = letterPicker(question.phrase, question.focus, progress.selected, { locked: completed, onChange: () => { check.disabled = progress.selected.size === 0; delete status.dataset.state; status.textContent = progress.selected.size ? `已選 ${progress.selected.size} 個字母；可再點橙色字母取消。` : ""; saveProgress(); } });
+  const status = root.querySelector(".stage-status");
+  const check = document.createElement("button"); check.type = "button"; check.className = "stage-check"; check.textContent = "檢查答案"; check.disabled = progress.selected.size === 0;
+  root.querySelector("[data-picker]").append(picker.wrap);
+  if (completed) { status.textContent = `✓ 已找到 ${focusLabel(question.focus)} 的連音位置。`; nextButton(root, card, question, "下一步：聆聽"); }
+  else {
+    check.addEventListener("click", () => { if (picker.isCorrect()) { progress.done.add(1); progress.highest = Math.max(progress.highest, 2); saveProgress(); renderLesson(card, question); } else { status.textContent = "尚未正確。可點選或拖過橙色字母取消，再重新檢查。"; status.dataset.state = "error"; } });
+    const clear = document.createElement("button"); clear.type = "button"; clear.className = "clear-selection"; clear.textContent = "清除選擇"; clear.addEventListener("click", () => { progress.selected.clear(); picker.refresh(); delete status.dataset.state; status.textContent = "已清除，可以重新選擇。"; saveProgress(); });
+    const actions = document.createElement("div"); actions.className = "picker-actions"; actions.append(check, clear); root.append(actions);
+  }
 }
 
 function renderListen(root, card, question, progress) {
@@ -238,9 +285,17 @@ function finishLesson(card, question) {
 function renderTransfer(root, card, question, progress) {
   root.innerHTML = `${stageIntro(5, "在新句中找出同一連音位置", "點選相連的字母。這不是選擇題。")}<div class="transfer-card"><small>UNSEEN SENTENCE</small><strong lang="en">${escapeHtml(question.transferPhrase)}</strong><p>${escapeHtml(question.transferMeaning)}</p><div class="speed-controls"><button type="button" data-transfer-rate="1">▶ 正常速度</button><button type="button" data-transfer-rate="0.5">▶ 0.5×</button></div></div><p class="stage-question">點選需要連音的字母。</p><div data-transfer-picker></div><p class="stage-status" role="status"></p>`;
   root.querySelectorAll("[data-transfer-rate]").forEach(button => button.addEventListener("click", () => speak(question.transferPhrase, Number(button.dataset.transferRate))));
-  const picker = letterPicker(question.transferPhrase, question.transferFocus, progress.transferSelected, () => finishLesson(card, question)); root.querySelector("[data-transfer-picker]").append(picker.wrap);
-  if (state.completed.has(question.id)) { root.querySelector(".stage-status").textContent = `✓ 已找到 ${question.transferFocus.replace("+", "→")} 的連音位置。`; const next = questions[question.id]; if (next) { const button = document.createElement("button"); button.className = "stage-next"; button.type = "button"; button.textContent = "下一句"; button.addEventListener("click", () => document.querySelector(`#liaison-question-${next.id}`)?.scrollIntoView({ behavior: "smooth", block: "start" })); root.append(button); } }
-  else { const clear = document.createElement("button"); clear.type = "button"; clear.className = "clear-selection"; clear.textContent = "重新選擇"; clear.addEventListener("click", () => { progress.transferSelected.clear(); renderLesson(card, question); }); root.append(clear); }
+  const completed = state.completed.has(question.id) && sameSet(progress.transferSelected, new Set(targetLetters(question.transferPhrase, question.transferFocus)));
+  if (state.completed.has(question.id) && !completed) { state.completed.delete(question.id); progress.done.delete(5); }
+  const status = root.querySelector(".stage-status");
+  const check = document.createElement("button"); check.type = "button"; check.className = "stage-check"; check.textContent = "檢查答案"; check.disabled = progress.transferSelected.size === 0;
+  const picker = letterPicker(question.transferPhrase, question.transferFocus, progress.transferSelected, { locked: completed, onChange: () => { check.disabled = progress.transferSelected.size === 0; delete status.dataset.state; status.textContent = progress.transferSelected.size ? `已選 ${progress.transferSelected.size} 個字母；可再點橙色字母取消。` : ""; saveProgress(); } }); root.querySelector("[data-transfer-picker]").append(picker.wrap);
+  if (completed) { status.textContent = `✓ 已找到 ${focusLabel(question.transferFocus)} 的連音位置。`; const next = questions[question.id]; if (next) { const button = document.createElement("button"); button.className = "stage-next"; button.type = "button"; button.textContent = "下一句"; button.addEventListener("click", () => document.querySelector(`#liaison-question-${next.id}`)?.scrollIntoView({ behavior: "smooth", block: "start" })); root.append(button); } }
+  else {
+    check.addEventListener("click", () => { if (picker.isCorrect()) finishLesson(card, question); else { status.textContent = "尚未全部正確。可點選或拖過橙色字母取消，再重新檢查。"; status.dataset.state = "error"; } });
+    const clear = document.createElement("button"); clear.type = "button"; clear.className = "clear-selection"; clear.textContent = "清除選擇"; clear.addEventListener("click", () => { progress.transferSelected.clear(); picker.refresh(); delete status.dataset.state; status.textContent = "已清除，可以重新選擇。"; saveProgress(); });
+    const actions = document.createElement("div"); actions.className = "picker-actions"; actions.append(check, clear); root.append(actions);
+  }
 }
 
 const renderers = [renderMeaning, renderTap, renderListen, renderImitate, renderRecord, renderTransfer];
@@ -254,7 +309,8 @@ function renderLesson(card, question) {
 
 function renderQuestion(question) {
   const card = document.createElement("article"); card.className = "question-card lesson-card"; card.id = `liaison-question-${question.id}`;
-  card.innerHTML = `<div class="question-meta"><span>LESSON ${String(question.id).padStart(2, "0")} · ${escapeHtml(question.group)}</span></div><div class="phrase-row"><h3 lang="en">${escapeHtml(question.phrase)}</h3><span class="lesson-status" data-lesson-status>${state.completed.has(question.id) ? "已完成" : "進行中"}</span></div><nav class="lesson-stepper" data-stepper aria-label="六個練習步驟"></nav><section class="lesson-stage" data-stage-root></section>`;
+  card.innerHTML = `<div class="question-meta"><span>LESSON ${String(question.id).padStart(2, "0")} · ${escapeHtml(question.group)}</span></div><div class="phrase-row"><h3 lang="en">${escapeHtml(question.phrase)}</h3><span class="lesson-status" data-lesson-status>${state.completed.has(question.id) ? "已完成" : "進行中"}</span><div class="phrase-audio-controls" aria-label="播放本句"><button type="button" data-phrase-rate="1">▶ 正常速度</button><button type="button" data-phrase-rate="0.5">▶ 0.5×</button></div></div><nav class="lesson-stepper" data-stepper aria-label="六個練習步驟"></nav><section class="lesson-stage" data-stage-root></section>`;
+  card.querySelectorAll("[data-phrase-rate]").forEach(button => button.addEventListener("click", () => speak(question.phrase, Number(button.dataset.phraseRate))));
   renderLesson(card, question); return card;
 }
 
@@ -293,7 +349,7 @@ $$('[data-module]').forEach(button => button.addEventListener("click", () => cho
 $("[data-back-modules]").addEventListener("click", showModuleChooser);
 $("[data-review-from-start]").addEventListener("click", () => $("#liaison-question-1")?.scrollIntoView({ behavior: "smooth", block: "start" }));
 $("[data-logout]").addEventListener("click", forget);
-window.addEventListener("beforeunload", () => { stopRecording({ discard: true }); for (const item of state.lessons.values()) if (item.recordingUrl) URL.revokeObjectURL(item.recordingUrl); });
+window.addEventListener("beforeunload", () => { try { spokenAudio?.pause(); } catch {} stopRecording({ discard: true }); for (const item of state.lessons.values()) if (item.recordingUrl) URL.revokeObjectURL(item.recordingUrl); });
 
 if (localPreview) { state.user = { id: "local-preview", name: "Preview Student", role: "student" }; state.token = "local-preview-only"; loadProgress(); showView("practice"); showModuleChooser(); }
 else restore().catch(error => { forget(); $("[data-login-status]").textContent = error?.message || "登入時段已失效，請重新登入。"; $("[data-login-status]").dataset.state = "error"; });

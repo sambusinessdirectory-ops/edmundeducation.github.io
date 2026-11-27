@@ -300,7 +300,7 @@ const questions = [
 ];
 
 const lessonDetails = [
-  ["一隻蛋掉了下來。", "早餐準備時，一隻蛋從桌上掉下來。", "An orange rolled away.", "an + orange"],
+  ["一隻蛋掉了下來。", "早餐準備時，一隻蛋從桌上掉下來。", "An orange rolled away.", ["an + orange", "rolled + away"]],
   ["把它拿起來。", "有人請你把掉在地上的物件拿起來。", "Take it home.", "take + it"],
   ["請進來。", "你在門口邀請訪客進入房間。", "Turn it on.", "turn + it"],
   ["大聲讀出來。", "老師請學生把文字讀給全班聽。", "Send it today.", "send + it"],

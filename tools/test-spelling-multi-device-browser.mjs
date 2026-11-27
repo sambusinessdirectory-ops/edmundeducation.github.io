@@ -63,8 +63,14 @@ try {
   assert.ok(firstState.selectedIds.every((id) => firstState.queue.filter((queued) => queued === id).length === 2));
   assert.equal(await first.page.locator('.spelling-progress').count(), 1);
   assert.match(await first.page.locator('[data-elapsed]').innerText(), /^\d+:\d{2}$/);
+  assert.equal(await first.page.locator('.spelling-touch-keyboard').count(), 0, 'Desktop computers must keep their physical keyboard workflow.');
+  assert.equal(await first.page.locator('[data-touch-keyboard-toggle]').isVisible(), false, 'Touch keyboard toggle must stay hidden on desktop.');
   await second.page.waitForFunction((id) => __spellingSyncQa.state().currentId === id, firstState.currentId);
   assert.deepEqual(await second.page.evaluate(() => __spellingSyncQa.state().mask), firstState.mask);
+  assert.equal(await second.page.locator('.spelling-touch-keyboard').isVisible(), true, 'Touch devices must show the letters-only keyboard by default.');
+  assert.equal(await second.page.locator('[data-touch-key]').count(), 26);
+  assert.equal(await second.page.locator('[data-keyboard-row]').count(), 3);
+  assert.ok(await second.page.locator('[data-answer-form] input').evaluateAll((inputs) => inputs.every((input) => input.readOnly && input.inputMode === 'none')), 'The custom keyboard must suppress the OS keyboard.');
 
   const typedPosition = await first.page.evaluate(() => __spellingSyncQa.typeOne());
   const typedValue = await first.page.evaluate((position) => __spellingSyncQa.state().draftLetters[position], typedPosition);
@@ -212,9 +218,39 @@ try {
   await isolated.page.locator('[data-display-mode="line"]').click();
   await isolated.page.evaluate(() => { __spellingSyncQa.choose(); __spellingSyncQa.start(); });
   await isolated.page.locator('[data-line-answer]').waitFor();
+  for (let index = 0; index < 8 && await isolated.page.locator('.eddy-first-question-overlay').count(); index += 1) {
+    await isolated.page.locator('.eddy-first-question-overlay button').click();
+    await isolated.page.waitForTimeout(100);
+  }
+  await isolated.page.locator('.eddy-first-question-overlay').waitFor({ state: 'detached' });
+  assert.equal(await isolated.page.locator('.spelling-touch-keyboard').isVisible(), true);
+  assert.equal(await isolated.page.locator('[data-line-answer]').getAttribute('readonly'), '');
+  await isolated.page.locator('[data-touch-key="v"]').click();
+  await isolated.page.locator('[data-touch-key="i"]').click();
+  assert.equal(await isolated.page.locator('[data-line-answer]').inputValue(), 'vi');
+  if (process.env.SPELLING_QA_SCREENSHOT) await isolated.page.screenshot({ path: `${process.env.SPELLING_QA_SCREENSHOT}-touch-keyboard-phone.png`, fullPage: false });
+  await isolated.page.setViewportSize({ width: 1024, height: 900 });
+  assert.ok((await isolated.page.locator('.spelling-touch-keyboard').boundingBox()).width > 600, 'Tablet keyboard must use the wide layout.');
+  await isolated.page.setViewportSize({ width: 390, height: 844 });
+  assert.ok((await isolated.page.locator('.spelling-touch-keyboard').boundingBox()).width <= 390, 'Phone keyboard must use the compact layout.');
+  await isolated.page.locator('[data-touch-keyboard-toggle]').click();
+  assert.equal(await isolated.page.locator('.spelling-touch-keyboard').count(), 0, 'Turning off the custom keyboard must restore native entry.');
+  assert.equal(await isolated.page.locator('[data-line-answer]').getAttribute('readonly'), null);
   await isolated.page.locator('[data-line-answer]').fill('visible mobile answer');
   assert.equal(await isolated.page.locator('[data-line-answer]').inputValue(), 'visible mobile answer');
+  await isolated.page.locator('[data-touch-keyboard-toggle]').click();
   await isolated.page.evaluate(() => __spellingSyncQa.longPhrase());
+  for (let index = 0; index < 8 && await isolated.page.locator('.eddy-first-question-overlay').count(); index += 1) {
+    await isolated.page.locator('.eddy-first-question-overlay button').click();
+    await isolated.page.waitForTimeout(100);
+  }
+  await isolated.page.locator('.eddy-first-question-overlay').waitFor({ state: 'detached' });
+  await isolated.page.locator('[data-touch-key="q"]').click();
+  await isolated.page.locator('[data-touch-key="w"]').click();
+  assert.equal(Object.keys((await isolated.page.evaluate(() => __spellingSyncQa.state())).draftLetters).length, 2, 'Touch letters must advance across separate blank slots.');
+  await isolated.page.locator('[data-touch-backspace]').click();
+  await isolated.page.locator('[data-touch-backspace]').click();
+  assert.equal(Object.keys((await isolated.page.evaluate(() => __spellingSyncQa.state())).draftLetters).length, 0, 'Repeated touch backspace must move backward through slots.');
   assert.ok(await isolated.page.locator('.spelling-token').evaluateAll((tokens) => tokens.every((token) => token.getBoundingClientRect().right <= innerWidth + 1 && token.getBoundingClientRect().left >= -1)));
   await isolated.page.evaluate(() => {
     for (let index = 0; index < 8; index += 1) document.querySelector('.eddy-first-question-overlay:not(.eddy-five-streak-overlay) button')?.click();
