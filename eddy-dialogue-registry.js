@@ -38,7 +38,9 @@
   });
 
   function idFromFile(file) {
-    return file.replace(/\.(png|jpe?g|webp)$/i, "");
+    const path = String(file).split(/[?#]/, 1)[0];
+    const name = path.slice(path.lastIndexOf("/") + 1);
+    return name.replace(/\.(png|jpe?g|webp)$/i, "");
   }
 
   function titleFromId(id) {
@@ -80,17 +82,26 @@
     return "在對應的已登入學習系統與學習情境中出現。";
   }
 
+  function soundEffectFor(id, group) {
+    if (group === "front-page") return "eddy-global-dialogues.js";
+    if (id.includes("question")) return "eddy-first-question-dialogue.js";
+    if (id.includes("streak")) return "eddy-five-streak-dialogue.js";
+    if (/^eddy-schedule-(two|three|four|five|six|seven|eight|nine|ten)-day-dialogue$/.test(id)) return "eddy-schedule-two-day-dialogue.js";
+    return "";
+  }
+
   const registry = files.map((file, index) => {
     const id = idFromFile(file);
     const group = frontPage.has(file) ? "front-page" : "user-system";
     return Object.freeze({
       id,
-      file,
+      file: `eddy-dialogue-crops/${id}.png`,
       title: titleFromId(id),
       group,
       order: index + 1,
       trigger: triggerFor(id, group),
-      remarks: Object.freeze([])
+      remarks: Object.freeze([]),
+      soundEffect: soundEffectFor(id, group)
     });
   });
 
