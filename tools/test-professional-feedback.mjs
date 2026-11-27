@@ -52,12 +52,10 @@ assert.equal(chart.filter(n=>n.type==='circle').length,2,'one day must have both
 for(const circle of chart.filter(n=>n.type==='circle'))assert.ok(Number.isFinite(circle.props.cx)&&Number.isFinite(circle.props.cy));
 
 const dom=new JSDOM('<header class="app-header"><div class="header-actions"></div></header>',{url:'https://example.test/professional-english/',runScripts:'outside-only',pretendToBeVisual:true});
-const w=dom.window;let starts=0,contextCount=0,resumeAudio;
-w.AudioContext=class{
- constructor(){contextCount++;this.state='suspended';this.currentTime=10;this.destination={};this.resumePromise=new Promise(resolve=>{resumeAudio=()=>{this.state='running';resolve();};});}
- resume(){return this.resumePromise;}
- createOscillator(){return{frequency:{},connect(){return{connect(){}}},start(){assert.equal(w.testContextState,'resumed');starts++},stop(){},disconnect(){}};}
- createGain(){return{gain:{setValueAtTime(){},exponentialRampToValueAtTime(){}},disconnect(){}};}
+const w=dom.window;const played=[];
+w.Audio=class{
+ constructor(src){this.src=src;this.preload='';}
+ play(){played.push(this.src);return Promise.resolve();}
 };
 const observers=[];const NativeObserver=w.MutationObserver;
 w.MutationObserver=class extends NativeObserver {constructor(callback){super(callback);observers.push(this);}};
@@ -66,20 +64,19 @@ const button=w.document.querySelector('[data-professional-sound-toggle]');
 assert.doesNotMatch(button.textContent,/[🔔🔕]/u);
 const flush=()=>new Promise(resolve=>setTimeout(resolve,10));
 const mark=value=>w.document.dispatchEvent(new w.CustomEvent('professional-card-marked',{detail:{mark:value}}));
-mark('red');await flush();assert.equal(starts,0);
-mark('green');await flush();assert.equal(starts,0,'wait for suspended audio to resume');
-w.testContextState='resumed';resumeAudio();await flush();assert.equal(starts,3);
-mark('green');await flush();assert.equal(starts,6);assert.equal(contextCount,1,'reuse the unlocked audio context');
+mark('red');await flush();assert.equal(played.length,0);
+mark('green');await flush();assert.equal(played.length,1);assert.match(played[0],/assets\/sfx\/correct-answer-pop\.mp3$/);
+mark('green');await flush();assert.equal(played.length,2);
 button.click();assert.equal(button.getAttribute('aria-pressed'),'false');assert.equal(w.localStorage.getItem('edmund-professional-sound-effects-v1'),'off');
-mark('green');await flush();assert.equal(starts,6,'muted green marks stay silent');
-button.click();await flush();assert.equal(starts,9,'enabling sound plays a preview');
+mark('green');await flush();assert.equal(played.length,2,'muted green marks stay silent');
+button.click();await flush();assert.equal(played.length,3,'enabling sound plays a preview');
 // Exercise the actual accepted-mark function: blocked and unflipped cards must remain silent.
 w.e={id:'qa-deck'};w.t={user:{id:'qa'}};w.R={flipped:false,startedAt:1,round:1};w.Q={id:'qa'};w.Ut={current:false};w.i=()=>{};w.SL=()=>({marks:{},study:{}});w.M={marks:{}};w.ml=()=>{};w.studyTime=study=>study;w.studyClock={current:null};
 w.eval(app.slice(app.indexOf('function at(S)'),app.indexOf('function ni(S)')));
-w.at('green');await flush();assert.equal(starts,9);
-w.R.flipped=true;w.at('green');await flush();assert.equal(starts,12);
-w.Ut.current=true;w.at('green');await flush();assert.equal(starts,12);
+w.at('green');await flush();assert.equal(played.length,3);
+w.R.flipped=true;w.at('green');await flush();assert.equal(played.length,4);
+w.Ut.current=true;w.at('green');await flush();assert.equal(played.length,4);
 observers.forEach(observer=>observer.disconnect());
 await new Promise(resolve=>setTimeout(resolve,30));
 w.close();
-console.log('Professional feedback: no negative curve overshoot, visible single-day counts, separated bilingual ranges, accepted marks, audio resume and mute passed.');
+console.log('Professional feedback: no negative curve overshoot, visible single-day counts, separated bilingual ranges, accepted marks, supplied audio and mute passed.');
