@@ -16,7 +16,7 @@
     ["year", "1 Year"],
     ["all", "All Time"]
   ]);
-  const state = { supabase: null, user: null, token: "", activityRange: "month", timeRange: "month" };
+  const state = { supabase: null, rpcAccessToken: "", user: null, token: "", activityRange: "month", timeRange: "month" };
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -226,20 +226,58 @@
   }
 
   async function ensureSupabaseSession() {
-    const client = initialiseSupabase();
-    const current = await client.auth.getSession();
-    if (current.error) throw current.error;
-    if (current.data?.session?.user?.id) return client;
-    const signIn = await client.auth.signInAnonymously();
-    if (signIn.error) throw signIn.error;
-    if (!signIn.data?.session?.user?.id) throw new Error("未能建立安全登入連線。");
-    return client;
+    if (state.rpcAccessToken) return state.rpcAccessToken;
+    if (!SUPABASE_CONFIG.url || !SUPABASE_CONFIG.anonKey) throw new Error("登入服務暫時未能載入，請重新整理頁面。");
+    let response;
+    try {
+      response = await fetch(`${SUPABASE_CONFIG.url}/auth/v1/signup`, {
+        method: "POST",
+        credentials: "omit",
+        headers: {
+          apikey: SUPABASE_CONFIG.anonKey,
+          Authorization: `Bearer ${SUPABASE_CONFIG.anonKey}`,
+          "Content-Type": "application/json"
+        },
+        body: "{}",
+        signal: AbortSignal.timeout(10000)
+      });
+    } catch (error) {
+      if (error?.name === "AbortError" || error?.name === "TimeoutError") throw new Error("登入連線逾時，請再按一次登入。");
+      throw error;
+    }
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok || !payload?.access_token) throw new Error(payload?.msg || payload?.message || "未能建立安全登入連線。");
+    state.rpcAccessToken = String(payload.access_token);
+    return state.rpcAccessToken;
   }
 
   async function rpc(name, args) {
-    const client = await ensureSupabaseSession();
-    const { data, error } = await client.rpc(name, args);
-    if (error) throw error;
+    const accessToken = await ensureSupabaseSession();
+    let response;
+    try {
+      response = await fetch(`${SUPABASE_CONFIG.url}/rest/v1/rpc/${encodeURIComponent(name)}`, {
+        method: "POST",
+        credentials: "omit",
+        headers: {
+          apikey: SUPABASE_CONFIG.anonKey,
+          Authorization: `Bearer ${accessToken}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(args || {}),
+        signal: AbortSignal.timeout(12000)
+      });
+    } catch (error) {
+      if (error?.name === "AbortError" || error?.name === "TimeoutError") {
+        state.rpcAccessToken = "";
+        throw new Error("登入連線逾時，請再按一次登入。");
+      }
+      throw error;
+    }
+    const data = await response.json().catch(() => null);
+    if (!response.ok) {
+      if (response.status === 401) state.rpcAccessToken = "";
+      throw new Error(data?.message || data?.hint || `登入服務暫時未能使用（${response.status}）。`);
+    }
     return data;
   }
 
