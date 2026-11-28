@@ -1,0 +1,14 @@
+{
+  "source": "HKEAA 2014 DSE English Language Paper 3 Part B recording",
+  "sourceUrl": "https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202014%20Part%20B.mp3",
+  "sourceDurationSeconds": 871.816417,
+  "sourceSha256": "a9250b858e1f87df4a30d2de594e0330d560a7eb8d19352ea234acef10b2b3b5",
+  "podcastSegmentStartSeconds": 404.74,
+  "podcastSegmentEndSeconds": 849.81,
+  "podcastSegmentDurationSeconds": 445.07,
+  "timingMethod": "Cue sourceStart/sourceEnd values come from the existing turn-level transcript aligned to the actual MP3. Each playbackStart is the previous cue endpoint, giving continuous coverage with no gaps or overlaps. The MP3 was downloaded, decoded and probed locally; the full file duration and SHA-256 are recorded above.",
+  "speakerAndWordingSource": "/Volumes/(Pro-G) Sam's Data/Downloads SSD/2014 DSE Paper 3 - Podcast Recording Transcript.pdf",
+  "sourceRepair": "The supplied speaker-labelled PDF omits the definition exchange at 448.01-476.98. That exchange is present in the actual MP3 and the site timed transcript. Stage 3 labels turns 16-20 as audio-backed-repair and does not claim a PDF source for them.",
+  "transcriptLanguage": "English only. No complete source-verifiable Traditional Chinese line-aligned transcript was available, so the interface does not fabricate one.",
+  "verifiedOn": "2026-11-18"
+}
