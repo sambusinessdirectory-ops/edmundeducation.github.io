@@ -80,7 +80,7 @@ async function openStage3(browserType, name, full = false) {
     assert.deepEqual(contract, {
       steps:124, fields:4, cues:13, transcript:44, transcriptSentences:107, options:124, disabledOptions:0,
       nativeFields:4, evidencePanels:4, pins:13, transcriptRows:44, transcriptSentenceRows:107,
-      disabledStages:['data','writing'], title:'Listening note-taking sheet for podcast Nosing Around',
+      disabledStages:['writing'], title:'Listening note-taking sheet for podcast Nosing Around',
       badges:['不取材','B','不取材','A'], audioSrc:'https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3'
     }, `${name}: Stage 3 DOM contract`);
     assert.equal(contract.title.includes('?'), false, `${name}: podcast title must not have question mark`);
@@ -303,7 +303,7 @@ try {
 - Chromium: full lifecycle, real MP3 endpoint, native-note commit, replay idempotency, rewind preservation, endpoint-driven sentence reveal, visible current sentence, selective point spans, copy-only red rejection ink, 107 Traditional Chinese sentence rows, move/resize, persistence, single Stage 2 heading stamps and mobile layout
 - Firefox: direct Stage 3 entry, 4/13/44/107/124 DOM contract, free steps, Traditional Chinese transcript toggle, and zero console/network failures
 - Transcript semantics: 32 point-bearing sentences, 75 fully rejected sentences and zero uncovered copy text
-- Stages 4–5: remained disabled
+- Stage 4: directly accessible; Stage 5 remained disabled
 - Boss-letter stamp: absent
 - Podcast heading question mark: absent
 `);

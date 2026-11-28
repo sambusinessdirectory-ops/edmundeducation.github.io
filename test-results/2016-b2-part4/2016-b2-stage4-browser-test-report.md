@@ -1,0 +1,20 @@
+# 2016 B2 Super Curation Stage 4 — Browser Test Report
+
+- Result: **PASS**
+- Fact-line records: 148 / 148
+- Exact target audit failures: 0
+- Evidence-bank rows at completion: 37
+- Source order: Data File pages 4–10
+- Rewind: future marks and bank evidence removed
+- Classification revision: minutes C → A+C shown
+- Visual units: exact plough photograph target verified
+- Detours: 6/6 exact visit-and-return routes verified
+- Motion: one flight clone maximum, removed after animation
+- Reduced motion: no flight clone created
+- Spotlight: four masks and off state verified
+- Persistence: completion, bookmark and help draft restored
+- Earlier-stage local state: unchanged
+- Stage 5: locked
+- Console/page errors: 0
+- Missing assets: 0
+- Target-resolution initialization: 7 ms in the test browser

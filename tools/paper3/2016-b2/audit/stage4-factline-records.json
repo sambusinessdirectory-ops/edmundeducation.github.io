@@ -1,0 +1,4535 @@
+{
+  "version": "2016-b2-super-curation-stage4-v1",
+  "architectureVersion": "golden-manual-2025-b2-v8.2-stage4",
+  "storageKey": "edmund-2016-b2-super-curation-stage4-v1",
+  "generatedFrom": "2016_B2_Paper3_Fact_Line_Line_by_Line_Deep_Analysis_V2.1_2026-11-12.md",
+  "generatedAt": "2026-11-28",
+  "sources": [
+    {
+      "key": "manual",
+      "block": 11,
+      "page": 4,
+      "title": "Staff manual on borrowing of items",
+      "rootSelector": "#page-4 .museum-manual"
+    },
+    {
+      "key": "minutes",
+      "block": 7,
+      "page": 5,
+      "title": "Minutes from museum staff meeting",
+      "rootSelector": "#page-5 .museum-minutes"
+    },
+    {
+      "key": "ip-email",
+      "block": 5,
+      "page": 6,
+      "title": "Email from Ip Lai Ping",
+      "rootSelector": "#page-6 .museum-email"
+    },
+    {
+      "key": "whatsapp",
+      "block": 6,
+      "page": 7,
+      "title": "WhatsApp messages from the Social History Museum group",
+      "rootSelector": "#page-7 .museum-whatsapp"
+    },
+    {
+      "key": "resident-interview",
+      "block": 3,
+      "page": 8,
+      "title": "Transcript of interview with Wang Chung Village resident",
+      "rootSelector": "#page-8 .museum-interview"
+    },
+    {
+      "key": "news-survey",
+      "block": 4,
+      "page": 9,
+      "title": "1983 newspaper article and visitor survey",
+      "rootSelector": "#page-9 .museum-news-survey"
+    },
+    {
+      "key": "oconnor-email",
+      "block": 2,
+      "page": 10,
+      "title": "Email from Ms O’Conner",
+      "rootSelector": "#page-10 .museum-email"
+    }
+  ],
+  "records": [
+    {
+      "id": "p4-manual-staff-manual-on-borrowing-of-items-b68361b",
+      "ordinal": 1,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“Staff manual on borrowing of items”",
+      "excerpt": "“Staff manual on borrowing of items”",
+      "translation": "「借用物品的職員手冊。」",
+      "type": 5,
+      "typeLabel": "5 提示／正式政策來源",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "以下規則屬博物館正式操作政策。",
+        "use": "它讓 Task 8 可用肯定語氣交代 cover、movers、costs 和 insurance。",
+        "rationale": "文件名稱不需寫給 Ms Ip，但會控制規則的權威。",
+        "treatment": "把適用條款轉成博物館將遵守的安排，不引用 section number。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Staff manual on borrowing of items"
+      ],
+      "index": 0
+    },
+    {
+      "id": "p4-manual-section-3-2-care-of-borrowed-items-848218f",
+      "ordinal": 2,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“Section 3.2: Care of borrowed items”",
+      "excerpt": "“Section 3.2: Care of borrowed items”",
+      "translation": "「第 3.2 節：借用品的保護。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 8 safety branch",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "本節集中處理 lender 的 safety 和 damage concerns。",
+        "use": "它把後面不同規則放在同一 care framework。",
+        "rationale": "Section heading 沒有具體措施。",
+        "treatment": "使用相關條款回覆 Ms Ip，排除不適用的 basement rule。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Section 3.2: Care of borrowed items"
+      ],
+      "index": 1
+    },
+    {
+      "id": "p4-manual-3-2-1-displaying-valuable-borrowed-items-36fb89c",
+      "ordinal": 3,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“3.2.1 Displaying valuable borrowed items”",
+      "excerpt": "“3.2.1 Displaying valuable borrowed items”",
+      "translation": "「3.2.1：展示有價值的借用品。」",
+      "type": 5,
+      "typeLabel": "5 提示／展示保護分支",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "下面規則適用於公開展示的 valuable item。",
+        "use": "Chang Yee Tak Plough 將在 exhibition 展出，因此 cover rule 適用。",
+        "rationale": "Heading 只建立適用範圍，實際措施在下一句。",
+        "treatment": "直接寫 glass cover arrangement，不抄 section title。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "3.2.1 Displaying valuable borrowed items"
+      ],
+      "index": 2
+    },
+    {
+      "id": "p4-manual-all-borrowed-items-must-be-displayed-with-some-kind-of-414968d",
+      "ordinal": 4,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“All borrowed items must be displayed with some kind of cover.”",
+      "excerpt": "“All borrowed items must be displayed with some kind of cover.”",
+      "translation": "「所有借用品展示時都必須加上保護罩。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／正式保護規則",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Museum policy 要求展示借用品時使用 cover。",
+        "use": "Staff meeting 其後把一般 `some kind of cover` 確定為 glass cover，這才是 Task 8 最終安排。",
+        "rationale": "較後、較具體的決定已取代模糊說法；答案不需同時寫兩個版本。",
+        "treatment": "寫 `The plough will be displayed under a glass cover.`"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "All borrowed items must be displayed with some kind of cover."
+      ],
+      "index": 3
+    },
+    {
+      "id": "p4-manual-this-is-to-protect-the-museum-from-being-blamed-for-9ae0fb3",
+      "ordinal": 5,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“This is to protect the museum from being blamed for damage to items”",
+      "excerpt": "“This is to protect the museum from being blamed for damage to items”",
+      "translation": "「保護罩可避免博物館因物品受損而承擔責任。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／政策理由",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Cover rule 同時保護物品和釐清 museum liability。",
+        "use": "它解釋政策目的，但 Ms Ip 真正關心的是 plough 是否安全。",
+        "rationale": "在約 120 字電郵中，具體 glass cover 已足以消除風險；責任背景沒有獨立必要性。",
+        "treatment": "不談博物館避免被責怪，直接強調 glass cover 會保護 plough。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "This is to protect the museum from being blamed for damage to items"
+      ],
+      "index": 4
+    },
+    {
+      "id": "p4-manual-damage-may-be-caused-by-visitors-touching-or-handling-items-e47708b",
+      "ordinal": 6,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“[Damage] may be caused by visitors touching or handling items without permission.”",
+      "excerpt": "“[Damage] may be caused by visitors touching or handling items without permission.”",
+      "translation": "「訪客未經許可觸摸或拿取展品，可能造成損壞。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／visitor risk",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Cover 所防範的主要展示風險是 unauthorized visitor contact。",
+        "use": "它說明 glass cover 怎樣回應 Ms Ip 的 safety concern。",
+        "rationale": "Task 8 可直接寫保護措施；完整展開 visitor behaviour 會佔用篇幅，也沒有增加另一項安排。",
+        "treatment": "如需理由，可短寫 `to protect it from visitors`；核心仍是 glass cover。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "may be caused by visitors touching or handling items without permission."
+      ],
+      "index": 5
+    },
+    {
+      "id": "p4-manual-3-2-2-transport-022a73e",
+      "ordinal": 7,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“3.2.2 Transport”",
+      "excerpt": "“3.2.2 Transport”",
+      "translation": "「3.2.2：運送。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 8 transport branch",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "以下條款直接回應 Ms Ip 對成本和 movers experience 的疑問。",
+        "use": "它把兩項 transport answers 聚在一起。",
+        "rationale": "Heading 不需成為電郵句子。",
+        "treatment": "在同一段交代 qualified movers 和 museum-paid delivery/return。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "3.2.2 Transport"
+      ],
+      "index": 6
+    },
+    {
+      "id": "p4-manual-movers-with-no-experience-must-not-be-hired-b518c3d",
+      "ordinal": 8,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“Movers with no experience ... must NOT be hired.”",
+      "excerpt": "“Movers with no experience ... must NOT be hired.”",
+      "translation": "「不得聘用沒有經驗的搬運人員。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／運送人員資格",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Museum policy 排除 inexperienced movers。",
+        "use": "它直接回應 Ms Ip 對 movers experience 的 concern。",
+        "rationale": "下一 clause 同時排除 untrained movers；答案應正面合併成 qualified arrangement。",
+        "treatment": "寫 `We will use experienced, trained movers.`"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Movers with no experience",
+        "must NOT be hired."
+      ],
+      "index": 7
+    },
+    {
+      "id": "p4-manual-movers-who-are-not-trained-in-handling-borrowed-items-must-5c83192",
+      "ordinal": 9,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“Movers ... who are not trained in handling borrowed items must NOT be hired.”",
+      "excerpt": "“Movers ... who are not trained in handling borrowed items must NOT be hired.”",
+      "translation": "「不得聘用未受借用品搬運訓練的人員。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／專業訓練要求",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Experience 之外，movers 也要受過 handling training。",
+        "use": "它補足 transport safety 的第二項資格。",
+        "rationale": "兩個負面禁令可合成一句正面承諾，意思更清楚也更省字。",
+        "treatment": "與上一句合併為 `experienced and properly trained movers`。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Movers",
+        "who are not trained in handling borrowed items must NOT be hired."
+      ],
+      "index": 8
+    },
+    {
+      "id": "p4-manual-costs-for-the-delivery-will-be-paid-for-by-the-d0a7a8e",
+      "ordinal": 10,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“Costs for the delivery ... will be paid for by the museum.”",
+      "excerpt": "“Costs for the delivery ... will be paid for by the museum.”",
+      "translation": "「送往博物館的運費由博物館支付。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／去程費用",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Lender 不需承擔把 plough 送到 museum 的費用。",
+        "use": "它直接回答 Ms Ip 的 cost concern。",
+        "rationale": "Return cost 出現在同一句另一部分，兩程應一起寫，避免讓人誤以為只付單程。",
+        "treatment": "寫 `The museum will pay all delivery and return costs.`"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Costs for the delivery",
+        "will be paid for by the museum."
+      ],
+      "index": 9
+    },
+    {
+      "id": "p4-manual-costs-for-the-return-of-the-item-will-be-paid-595f62a",
+      "ordinal": 11,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“[Costs for the] return of the item will be paid for by the museum.”",
+      "excerpt": "“[Costs for the] return of the item will be paid for by the museum.”",
+      "translation": "「歸還物品的運費也由博物館支付。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／回程費用",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Museum 亦承擔展覽後送回 plough 的費用。",
+        "use": "它完成 round-trip cost commitment。",
+        "rationale": "只寫 delivery 會漏掉 lender 的完整運送顧慮。",
+        "treatment": "與去程合併為 `delivery and return costs`。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "return of the item will be paid for by the museum."
+      ],
+      "index": 10
+    },
+    {
+      "id": "p4-manual-3-2-3-items-requiring-special-security-be8c860",
+      "ordinal": 12,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“3.2.3 Items requiring special security”",
+      "excerpt": "“3.2.3 Items requiring special security”",
+      "translation": "「3.2.3：需要特別保安的物品。」",
+      "type": 5,
+      "typeLabel": "5 提示／適用條件",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "下一規則只適用於 special-loan items 在不展出時的儲存。",
+        "use": "它要求先檢查條件，不能看到 `security` 便自動加入 Task 8。",
+        "rationale": "Chang Yee Tak Plough 的主要用途是 public exhibition；Task 8 沒有要求說明非展示期間的 basement arrangement。",
+        "treatment": "不獨立寫入，除非 task 明確詢問 storage outside display rooms；本題沒有這項要求。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "3.2.3 Items requiring special security"
+      ],
+      "index": 11
+    },
+    {
+      "id": "p4-manual-items-which-will-not-be-displayed-in-the-museum-display-e3cd521",
+      "ordinal": 13,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“Items ... which will not be displayed in the museum display rooms”",
+      "excerpt": "“Items ... which will not be displayed in the museum display rooms”",
+      "translation": "「這項規則適用於不放在博物館展覽室展示的 special-loan items。」",
+      "type": 5,
+      "typeLabel": "5 提示／條件限制",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Basement rule 有明確適用條件：物品不在 display rooms 展示。",
+        "use": "它防止考生誤稱 plough 會一直存放地下室。",
+        "rationale": "Plough 將用於 exhibition，Task 8 的安全重點由 glass cover、trained staff 和 insurance 完成。",
+        "treatment": "不提 basement storage，也不把這項 conditional rule 寫成必定安排。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Items",
+        "which will not be displayed in the museum display rooms"
+      ],
+      "index": 12
+    },
+    {
+      "id": "p4-manual-such-items-must-be-stored-in-the-large-underground-storage-586623a",
+      "ordinal": 14,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“[Such items] must be stored in the large underground storage facility in the basement.”",
+      "excerpt": "“[Such items] must be stored in the large underground storage facility in the basement.”",
+      "translation": "「符合上述條件的物品須存放在地下室的大型地下儲存設施。」",
+      "type": 6,
+      "typeLabel": "6 不採用／不符合本題用途",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "它規定非展示物品的存放地點。",
+        "use": "只對另一種 storage scenario 有用。",
+        "rationale": "Task 8 正在解釋展覽安排；加入地下室會造成 scope error，也可能讓 lender 誤解 plough 不會公開展出。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "must be stored in the large underground storage facility in the basement."
+      ],
+      "index": 13
+    },
+    {
+      "id": "p4-manual-such-items-must-be-securely-stored-under-lock-and-key-d8e28bf",
+      "ordinal": 15,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“[Such items] must be securely stored under lock and key.”",
+      "excerpt": "“[Such items] must be securely stored under lock and key.”",
+      "translation": "「符合上述條件的物品必須鎖好保存。」",
+      "type": 6,
+      "typeLabel": "6 不採用／附屬條件",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Basement storage 的物品須上鎖。",
+        "use": "它依附於不適用的 non-display condition。",
+        "rationale": "不能把條件句拆走後當成 plough 的 confirmed arrangement；會議亦否決 permanent security guard。",
+        "treatment": "省略，保留已確認的 glass cover 和 trained handling。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "must be securely stored under lock and key."
+      ],
+      "index": 14
+    },
+    {
+      "id": "p4-manual-3-2-4-insurance-0e1a1d5",
+      "ordinal": 16,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“3.2.4 Insurance”",
+      "excerpt": "“3.2.4 Insurance”",
+      "translation": "「3.2.4：保險。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 8 damage protection",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "以下條款回答物品損壞後的保障。",
+        "use": "它帶考生到 insurance timing 和 coverage scope。",
+        "rationale": "Heading 本身沒有可寫安排。",
+        "treatment": "用一句交代 plough 在 transport 和 display 期間受保。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "3.2.4 Insurance"
+      ],
+      "index": 15
+    },
+    {
+      "id": "p4-manual-all-borrowed-items-must-be-insured-by-the-museum-a9f9f75",
+      "ordinal": 17,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“All borrowed items must be insured by the museum”",
+      "excerpt": "“All borrowed items must be insured by the museum”",
+      "translation": "「所有借用品都必須由博物館投保。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／保險責任",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Museum 承擔替 plough 購買 insurance 的責任。",
+        "use": "它回應 Ms Ip 問 damaged or broken 時怎樣處理。",
+        "rationale": "Insurance 的時間和 coverage 在後續 clauses，合併後才完整。",
+        "treatment": "寫 `The museum will insure the plough during transport and display.`"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "All borrowed items must be insured by the museum"
+      ],
+      "index": 16
+    },
+    {
+      "id": "p4-manual-insurance-must-be-arranged-prior-to-the-finalisation-of-the-fb5589d",
+      "ordinal": 18,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“[Insurance must be arranged] prior to the finalisation of the transportation arrangements.”",
+      "excerpt": "“[Insurance must be arranged] prior to the finalisation of the transportation arrangements.”",
+      "translation": "「運送安排正式確定前，必須先完成投保。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／保險時間",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Plough 不會在未受保的情況下開始 finalized transport process。",
+        "use": "它加強 lender 對風險管理的信心。",
+        "rationale": "約 120 字答案中，寫明 transport and display coverage 已保留實際保障；行政先後沒有獨立必寫作用。",
+        "treatment": "不詳述 finalisation procedure，保留 plough 會全程受保的結論。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "prior to the finalisation of the transportation arrangements."
+      ],
+      "index": 17
+    },
+    {
+      "id": "p4-manual-insurance-will-pay-for-any-damage-during-the-transport-of-ddd230b",
+      "ordinal": 19,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“Insurance will pay for any damage during the transport ... of the item.”",
+      "excerpt": "“Insurance will pay for any damage during the transport ... of the item.”",
+      "translation": "「保險會賠償物品在運送期間的損壞。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／運送保障",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Insurance coverage 包括去程和回程中的 damage risk。",
+        "use": "它直接處理 Ms Ip 的 transportation concern。",
+        "rationale": "Display coverage 也屬同一 policy，兩者合併最有效率。",
+        "treatment": "寫 `insured throughout transport and display`。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Insurance will pay for any damage during the transport",
+        "of the item."
+      ],
+      "index": 18
+    },
+    {
+      "id": "p4-manual-insurance-will-pay-for-any-damage-during-the-display-of-cea8cb7",
+      "ordinal": 20,
+      "sourceKey": "manual",
+      "sourceBlock": 11,
+      "sourceTitle": "Staff manual on borrowing of items",
+      "page": 4,
+      "sourcePage": "Data File p.4",
+      "rootSelector": "#page-4 .museum-manual",
+      "heading": "“Insurance will pay for any damage during the ... display of the item.”",
+      "excerpt": "“Insurance will pay for any damage during the ... display of the item.”",
+      "translation": "「保險也會賠償物品在展覽期間的損壞。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／展覽保障",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Plough 在 museum 展示時同樣受 insurance protection。",
+        "use": "它完成 lender 對 `during its time there` 和 damage 的 concern。",
+        "rationale": "只寫 transport coverage 會留下 exhibition risk 未答。",
+        "treatment": "與 transport 一起寫，明確保留兩個 coverage stages。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Insurance will pay for any damage during the",
+        "display of the item."
+      ],
+      "index": 19
+    },
+    {
+      "id": "p4-minutes-minutes-from-museum-staff-meeting-fa67057",
+      "ordinal": 1,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Minutes from museum staff meeting”",
+      "excerpt": "“Minutes from museum staff meeting”",
+      "translation": "「博物館職員會議紀錄。」",
+      "type": 5,
+      "typeLabel": "5 提示／正式決定來源",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "本頁記錄職員在正式會議中提出、接納或否決的安排。",
+        "use": "它提醒考生分清建議與最後決定；同一段中較後出現的集體決定具有較高效力。",
+        "rationale": "文件名稱不構成答案內容，卻控制其後證據的權威程度。",
+        "treatment": "不抄標題；用會議最後確認的安排，並排除被否決的建議。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Minutes from museum staff meeting"
+      ],
+      "index": 20
+    },
+    {
+      "id": "p4-minutes-staff-meeting-of-the-hong-kong-social-history-museum-4b9de36",
+      "ordinal": 2,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Staff meeting of the Hong Kong Social History Museum”",
+      "excerpt": "“Staff meeting of the Hong Kong Social History Museum”",
+      "translation": "「香港社會歷史博物館職員會議。」",
+      "type": 5,
+      "typeLabel": "5 提示／來源機構",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "會議由任職該博物館的人員舉行。",
+        "use": "它確認會議內容屬館方內部資料，可用來判斷 Task 8 和 Task 10 的正式安排。",
+        "rationale": "三項答案已由題目交代機構身分，重複名稱不增加內容分。",
+        "treatment": "只把它當作來源背景。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Staff meeting of the Hong Kong Social History Museum"
+      ],
+      "index": 21
+    },
+    {
+      "id": "p4-minutes-date-tues-april-5-2016-0692aea",
+      "ordinal": 3,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Date: Tues. April 5, 2016”",
+      "excerpt": "“Date: Tues. April 5, 2016”",
+      "translation": "「日期：2016 年 4 月 5 日，星期二。」",
+      "type": 5,
+      "typeLabel": "5 提示／時間先後",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "會議在 4 月 5 日舉行，時間晚於 Ms Ip 4 月 1 日的電郵及 Ms O’Conner 4 月 2 日的投訴。",
+        "use": "它證明會議是在收到兩封電郵後作出回應，會議決定可更新先前的疑問和建議。",
+        "rationale": "日期用來判斷哪份資料較新，沒有需要寫入約 120 或 200 字的成品。",
+        "treatment": "採用 4 月 5 日會議確認的措施，不寫會議日期。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Date: Tues. April 5, 2016"
+      ],
+      "index": 22
+    },
+    {
+      "id": "p4-minutes-venue-museum-seminar-room-2-b344aa8",
+      "ordinal": 4,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Venue: Museum Seminar Room 2”",
+      "excerpt": "“Venue: Museum Seminar Room 2”",
+      "translation": "「地點：博物館研討室二。」",
+      "type": 6,
+      "typeLabel": "6 不採用／行政資料",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "它交代會議舉行地點。",
+        "use": "只供會議紀錄存檔，與三項寫作任務的內容要求無關。",
+        "rationale": "地點不解答借用 plough、farmhouse 介紹或博物館問題與改善方法。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "Venue: Museum Seminar Room 2"
+      ],
+      "index": 23
+    },
+    {
+      "id": "p4-minutes-chairperson-dr-jack-jones-director-0bebdd0",
+      "ordinal": 5,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Chairperson: Dr Jack Jones, Director”",
+      "excerpt": "“Chairperson: Dr Jack Jones, Director”",
+      "translation": "「主席：館長 Jack Jones 博士。」",
+      "type": 5,
+      "typeLabel": "5 提示／決定權來源",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Dr Jones 以館長身分主持會議。",
+        "use": "他其後同意執行的措施屬正式館方決定，並非一般閒談。",
+        "rationale": "職銜有助判斷權威，成品毋須列出與會者名單。",
+        "treatment": "使用他最後批准的措施，不抄姓名與職銜。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Chairperson: Dr Jack Jones, Director"
+      ],
+      "index": 24
+    },
+    {
+      "id": "p4-minutes-members-limahl-howard-building-management-director-lara-gau-public-relations-bacf1f6",
+      "ordinal": 6,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Members: Limahl Howard, Building Management Director; Lara Gau, Public Relations and Retail”",
+      "excerpt": "“Members: Limahl Howard, Building Management Director; Lara Gau, Public Relations and Retail”",
+      "translation": "「成員：樓宇管理總監 Limahl Howard；公關及零售部 Lara Gau。」",
+      "type": 5,
+      "typeLabel": "5 提示／發言者職責",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Howard 負責樓宇管理，Gau 負責公關及零售。",
+        "use": "它解釋 Howard 為何提供館內事故資料，也解釋 Gau 為何處理借用 plough 的回信。",
+        "rationale": "職責只幫助理解來源，沒有成為三項任務的必寫內容。",
+        "treatment": "不列與會者；保留他們提供並獲確認的實質資料。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Members: Limahl Howard, Building Management Director; Lara Gau, Public Relations and Retail"
+      ],
+      "index": 25
+    },
+    {
+      "id": "p4-minutes-secretary-cindy-lau-78e3610",
+      "ordinal": 7,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Secretary: Cindy Lau”",
+      "excerpt": "“Secretary: Cindy Lau”",
+      "translation": "「秘書：Cindy Lau。」",
+      "type": 6,
+      "typeLabel": "6 不採用／行政資料",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Cindy Lau 負責會議紀錄。",
+        "use": "只完成文件格式。",
+        "rationale": "她沒有提供任何與三項任務相關的事實或決定。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "Secretary: Cindy Lau"
+      ],
+      "index": 26
+    },
+    {
+      "id": "p4-minutes-ms-gau-said-that-she-was-still-trying-to-obtain-26c6c64",
+      "ordinal": 8,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Ms Gau said that she was still trying to obtain permission to borrow the Chang Yee Tak Plough”",
+      "excerpt": "“Ms Gau said that she was still trying to obtain permission to borrow the Chang Yee Tak Plough”",
+      "translation": "「Gau 女士表示，她仍在設法取得借用 Chang Yee Tak Plough 的許可。」",
+      "type": 5,
+      "typeLabel": "5 提示／尚待批准",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "4 月 5 日時，借用尚未獲 Ms Ip 同意。",
+        "use": "它確定 Task 8 是說服 lender 的 request email，不能把展品寫成已經借到。",
+        "rationale": "寫作目的已要求考生提出借用申請；再交代內部申請進度只會重複背景。",
+        "treatment": "用禮貌、具說服力的語氣提出要求，避免 `will display` 這類把批准當成既定事實的寫法。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Ms Gau said that she was still trying to obtain permission to borrow the Chang Yee Tak Plough"
+      ],
+      "index": 27
+    },
+    {
+      "id": "p4-minutes-ms-gau-would-be-replying-to-an-email-about-the-dea0cb7",
+      "ordinal": 9,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“[Ms Gau] would be replying to an email about the loan.”",
+      "excerpt": "“[Ms Gau] would be replying to an email about the loan.”",
+      "translation": "「Gau 女士會回覆一封有關借用事宜的電郵。」",
+      "type": 5,
+      "typeLabel": "5 提示／文件配對",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "會議內容要與 Ms Ip 的電郵合讀。",
+        "use": "它把 lender 的疑問與館方的安全、運送及保險資料連接起來。",
+        "rationale": "這是閱讀路線，並非回信內容。",
+        "treatment": "逐項回應 Ms Ip 的問題，不提自己正在回覆電郵。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "would be replying to an email about the loan."
+      ],
+      "index": 28
+    },
+    {
+      "id": "p4-minutes-ms-gau-asked-for-suggestions-on-how-to-reassure-the-2b3cd49",
+      "ordinal": 10,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“[Ms Gau] asked for suggestions on how to reassure the lenders.”",
+      "excerpt": "“[Ms Gau] asked for suggestions on how to reassure the lenders.”",
+      "translation": "「Gau 女士請大家提出能令出借方放心的方法。」",
+      "type": 5,
+      "typeLabel": "5 提示／篩選標準",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "其後的建議要按能否消除安全與運送疑慮來判斷。",
+        "use": "它提示考生尋找 glass cover、trained staff、professional transport 和 insurance。",
+        "rationale": "問題本身不提供措施；答案應直接寫已確認的保障。",
+        "treatment": "用具體安排說服 Ms Ip，不寫內部曾徵求意見。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "asked for suggestions on how to reassure the lenders."
+      ],
+      "index": 29
+    },
+    {
+      "id": "p4-minutes-according-to-policy-a-glass-cover-must-be-placed-over-a9a1303",
+      "ordinal": 11,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“According to policy a glass cover must be placed over the plough”",
+      "excerpt": "“According to policy a glass cover must be placed over the plough”",
+      "translation": "「依照政策，plough 上方必須加裝玻璃罩。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／展示保護",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "Glass cover 是館方政策規定的保護措施。",
+        "use": "它直接回應 Ms Ip 對展覽期間安全的疑問。",
+        "rationale": "這項措施其後由 Gau 接納，沒有被取消，並能獨立說明實物保護。",
+        "treatment": "寫 `The plough will be protected by a glass cover throughout the exhibition.`"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "According to policy a glass cover must be placed over the plough"
+      ],
+      "index": 30
+    },
+    {
+      "id": "p4-minutes-dr-jones-suggested-that-a-security-guard-should-be-permanently-1f4c7db",
+      "ordinal": 12,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“[Dr Jones] suggested that a security guard should be permanently stationed by the plough.”",
+      "excerpt": "“[Dr Jones] suggested that a security guard should be permanently stationed by the plough.”",
+      "translation": "「Jones 博士建議長期派駐保安員看守 plough。」",
+      "type": 5,
+      "typeLabel": "5 提示／後來被否決的建議",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Dr Jones 最初提出 permanent security guard。",
+        "use": "它讓考生追查建議是否獲接納；下一段明確否決了這項安排。",
+        "rationale": "Task 8 要寫館方真正會採取的措施；被否決的建議不能寫成承諾。",
+        "treatment": "完全排除 security guard，只寫 glass cover、trained staff 和 insurance。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "suggested that a security guard should be permanently stationed by the plough."
+      ],
+      "index": 31
+    },
+    {
+      "id": "p4-minutes-dr-jones-added-that-this-might-persuade-the-lenders-f2ea368",
+      "ordinal": 13,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“[Dr Jones] added that this might persuade the lenders.”",
+      "excerpt": "“[Dr Jones] added that this might persuade the lenders.”",
+      "translation": "「Jones 博士補充，這項安排或可說服出借方。」",
+      "type": 6,
+      "typeLabel": "6 不採用／依附被否決建議",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "他解釋 permanent guard 的預期作用。",
+        "use": "只說明提出建議的原因，沒有改變其後被否決的結果。",
+        "rationale": "理由依附於已取消的措施，不能單獨保留。",
+        "treatment": "省略，不把未獲接納的說服方法寫進回信。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "added that this might persuade the lenders."
+      ],
+      "index": 32
+    },
+    {
+      "id": "p4-minutes-ms-gau-agreed-that-the-glass-cover-had-to-be-b0e306a",
+      "ordinal": 14,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Ms Gau agreed that the glass cover had to be used”",
+      "excerpt": "“Ms Gau agreed that the glass cover had to be used”",
+      "translation": "「Gau 女士同意必須使用玻璃罩。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／確認安排",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Glass cover 由政策要求進一步變成會議確認的安排。",
+        "use": "它消除措施是否只屬 Dr Jones 個人建議的疑問。",
+        "rationale": "與前句合併後，可直接作出確定而準確的承諾。",
+        "treatment": "寫成確定安排，不需要交代誰同意。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Ms Gau agreed that the glass cover had to be used"
+      ],
+      "index": 33
+    },
+    {
+      "id": "p4-minutes-ms-gau-rejected-the-suggestion-of-a-security-guard-bdaac69",
+      "ordinal": 15,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“[Ms Gau] rejected the suggestion of a security guard.”",
+      "excerpt": "“[Ms Gau] rejected the suggestion of a security guard.”",
+      "translation": "「Gau 女士否決派駐保安員的建議。」",
+      "type": 5,
+      "typeLabel": "5 提示／取消舊建議",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Permanent security guard 不會實行。",
+        "use": "它控制答案邊界，防止把前一句建議誤寫成館方承諾。",
+        "rationale": "回信只需交代會採取的保障，無須向 lender 暴露內部否決過程。",
+        "treatment": "不提 security guard，也不寫曾有人提出這項建議。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "rejected the suggestion of a security guard."
+      ],
+      "index": 34
+    },
+    {
+      "id": "p4-minutes-the-other-committee-members-agreed-7b4ff9e",
+      "ordinal": 16,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“The other committee members agreed.”",
+      "excerpt": "“The other committee members agreed.”",
+      "translation": "「其他委員亦同意這項否決。」",
+      "type": 5,
+      "typeLabel": "5 提示／集體確認",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "不設 permanent guard 是委員會共同決定。",
+        "use": "它進一步確定前項建議已失效。",
+        "rationale": "會議投票過程不屬 lender 需要知道的資料。",
+        "treatment": "只排除 security guard，不交代委員表決。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "The other committee members agreed."
+      ],
+      "index": 35
+    },
+    {
+      "id": "p4-minutes-ms-gau-asked-whether-full-time-staff-could-be-trained-c4e2e5d",
+      "ordinal": 17,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“[Ms Gau] asked whether full-time staff could be trained in the handling of valuable items in time for the plough’s arrival”",
+      "excerpt": "“[Ms Gau] asked whether full-time staff could be trained in the handling of valuable items in time for the plough’s arrival”",
+      "translation": "「Gau 女士詢問能否在 plough 到達前，訓練全職職員處理貴重物品。」",
+      "type": 5,
+      "typeLabel": "5 提示／尚待確認的建議",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Training 在這一刻仍是問題，尚未成為決定。",
+        "use": "它要與下一段的 unanimous approval 和 confirmed completion 合讀。",
+        "rationale": "單獨使用會把建議誤寫成確定安排；後文才提供可寫結論。",
+        "treatment": "不寫 `may train`，改用後文確認的 `all staff will be trained before the exhibition`。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "asked whether full-time staff could be trained in the handling of valuable items in time for the plough’s arrival"
+      ],
+      "index": 36
+    },
+    {
+      "id": "p4-minutes-if-consent-from-the-lenders-was-given-c3dbd0b",
+      "ordinal": 18,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“if consent from the lenders was given”",
+      "excerpt": "“if consent from the lenders was given”",
+      "translation": "「前提是出借方同意借出 plough。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／批准條件",
+      "decision": "只控制語氣／格式",
+      "analysis": {
+        "meaning": "所有展覽安排都以 Ms Ip 批准借用為前提。",
+        "use": "它防止考生把未獲批准的 loan 寫成既定事實。",
+        "rationale": "條件已由回信目的自然表達，毋須在每項措施後重複。",
+        "treatment": "可寫 `If you agree to the loan, ...`，或全篇用禮貌 request tone 保持條件性。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "if consent from the lenders was given"
+      ],
+      "index": 37
+    },
+    {
+      "id": "p4-minutes-all-committee-members-agreed-to-this-proposal-3558abc",
+      "ordinal": 19,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“All committee members agreed to this proposal.”",
+      "excerpt": "“All committee members agreed to this proposal.”",
+      "translation": "「所有委員都同意訓練職員的建議。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／正式批准",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Staff training 已由建議升格為正式決定。",
+        "use": "它讓考生可向 Ms Ip 作出確定承諾。",
+        "rationale": "其後一句再補充 training 的完成時間，兩句合併才完整。",
+        "treatment": "不寫表決過程；寫職員會在展覽前完成相關訓練。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "All committee members agreed to this proposal."
+      ],
+      "index": 38
+    },
+    {
+      "id": "p4-minutes-it-was-also-confirmed-that-all-staff-would-be-trained-c61c5f7",
+      "ordinal": 20,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“It was also confirmed that all staff would be trained before the exhibition.”",
+      "excerpt": "“It was also confirmed that all staff would be trained before the exhibition.”",
+      "translation": "「會議亦確認，所有職員會在展覽前完成訓練。」",
+      "type": 1,
+      "typeLabel": "1 Task 8 直接可用／處理保障",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "所有 staff 都會在 exhibition 前受訓，能妥善處理貴重物品。",
+        "use": "它回應 lender 對展品安全及館方 handling competence 的疑問。",
+        "rationale": "它提供對象、措施和完成時間，內容完整且已確認。",
+        "treatment": "寫 `All staff will be trained to handle valuable items before the exhibition.`"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "It was also confirmed that all staff would be trained before the exhibition."
+      ],
+      "index": 39
+    },
+    {
+      "id": "p4-minutes-the-museum-board-were-concerned-about-a-number-of-incidents-f167569",
+      "ordinal": 21,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“The Museum Board were concerned about a number of incidents that had occurred recently at the museum”",
+      "excerpt": "“The Museum Board were concerned about a number of incidents that had occurred recently at the museum”",
+      "translation": "「博物館董事會關注館內最近發生的多宗事故。」",
+      "type": 5,
+      "typeLabel": "5 提示／報告背景",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Task 10 需要把問題與真實事故連接，而非只列一般意見。",
+        "use": "它提示考生為 smoking、children safety 和 signage 三類問題各找 incident。",
+        "rationale": "題目已要求 report；成品有限字數應直接交代問題、事故和建議。",
+        "treatment": "不寫董事會感到擔心，直接按三個問題段落組織正文。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "The Museum Board were concerned about a number of incidents that had occurred recently at the museum"
+      ],
+      "index": 40
+    },
+    {
+      "id": "p4-minutes-the-museum-board-had-requested-a-report-af4c27c",
+      "ordinal": 22,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“[The Museum] Board had requested a report.”",
+      "excerpt": "“[The Museum] Board had requested a report.”",
+      "translation": "「董事會已要求提交報告。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 10 寫作目的",
+      "decision": "只控制語氣／格式",
+      "analysis": {
+        "meaning": "報告寫給 Board 作正式紀錄和決策參考。",
+        "use": "它要求 concise、businesslike、impersonal 的 report style。",
+        "rationale": "`The Board requested this report` 不屬 main section 的實質內容。",
+        "treatment": "用正式段落和客觀措辭，避免聊天式語氣及 `I think`。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Board had requested a report."
+      ],
+      "index": 41
+    },
+    {
+      "id": "p4-minutes-13-visitors-were-caught-smoking-in-the-toilets-at-different-7546716",
+      "ordinal": 23,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“13 visitors were caught smoking in the toilets at different times.”",
+      "excerpt": "“13 visitors were caught smoking in the toilets at different times.”",
+      "translation": "「有 13 名訪客先後被發現在洗手間吸煙。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／吸煙事故",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "Smoking problem 有具體人數和地點：13 visitors、toilets。",
+        "use": "它是第一個問題的 incident evidence。",
+        "rationale": "報告明確要求以 incidents 說明 problems；人數能顯示問題並非單一個案。",
+        "treatment": "寫 `Thirteen visitors were caught smoking in the toilets on 4 April.`"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "13 visitors were caught smoking in the toilets at different times."
+      ],
+      "index": 42
+    },
+    {
+      "id": "p4-minutes-yesterday-during-the-public-holiday-01f40d3",
+      "ordinal": 24,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“yesterday during the public holiday”",
+      "excerpt": "“yesterday during the public holiday”",
+      "translation": "「事故在昨天的公眾假期發生。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／事故時間",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "會議在 4 月 5 日舉行，所以 `yesterday` 指 4 月 4 日。",
+        "use": "它讓報告使用明確日期，避免把相對時間直接搬入正式紀錄。",
+        "rationale": "正式報告保存後，`yesterday` 會失去清楚指向；轉成日期較準確。",
+        "treatment": "與 smoking incident 合併寫成 `on 4 April`；public holiday 可在篇幅有限時省略。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "yesterday during the public holiday"
+      ],
+      "index": 43
+    },
+    {
+      "id": "p4-minutes-the-evacuation-of-the-building-yesterday-afternoon-0550b8d",
+      "ordinal": 25,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“the evacuation of the building yesterday afternoon”",
+      "excerpt": "“the evacuation of the building yesterday afternoon”",
+      "translation": "「昨日下午全館曾經疏散。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／事故後果",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Smoking incident 導致大樓疏散。",
+        "use": "它顯示問題造成實際營運和安全影響，令 report 更完整。",
+        "rationale": "下一句確認因果；兩句合併後才可準確寫 `triggered the fire alarm and caused an evacuation`。",
+        "treatment": "不保留問句形式，改寫為已確認的事故結果。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "the evacuation of the building yesterday afternoon"
+      ],
+      "index": 44
+    },
+    {
+      "id": "p4-minutes-this-certainly-had-been-the-cause-of-the-fire-alarm-4100985",
+      "ordinal": 26,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“this certainly had been the cause of the fire alarm being triggered.”",
+      "excerpt": "“this certainly had been the cause of the fire alarm being triggered.”",
+      "translation": "「Howard 確認，吸煙確實觸發了火警鐘。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／確認因果",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Toilets 中的 smoking 觸發 fire alarm，並造成 evacuation。",
+        "use": "它把「問題—事故後果」的因果關係確認下來。",
+        "rationale": "前一句只是 Gau 的提問；本句才提供可在正式報告陳述的確定答案。",
+        "treatment": "寫 `Their smoking triggered the fire alarm and forced the building to be evacuated.`"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "this certainly had been the cause of the fire alarm being triggered."
+      ],
+      "index": 45
+    },
+    {
+      "id": "p4-minutes-all-members-of-staff-should-be-ready-to-assist-school-5099890",
+      "ordinal": 27,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“all members of staff should be ready to assist school groups at all times during their visit.”",
+      "excerpt": "“all members of staff should be ready to assist school groups at all times during their visit.”",
+      "translation": "「所有職員應在學校團體參觀期間隨時提供協助。」",
+      "type": 5,
+      "typeLabel": "5 提示／後來收窄的初步建議",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Dr Jones 最初提出由 all staff 全程協助 school groups。",
+        "use": "它要與下一句的 staffing limitation 合讀；最後安排把 full-time 與 part-time staff 分工。",
+        "rationale": "直接寫 `all staff assist at all times` 會忽略 part-time staff 可能提早下班的限制。",
+        "treatment": "使用後文的 final division：full-time staff assist groups；part-time staff prepare worksheets。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "all members of staff should be ready to assist school groups at all times during their visit."
+      ],
+      "index": 46
+    },
+    {
+      "id": "p4-minutes-only-full-time-staff-would-be-able-to-assist-3844bf2",
+      "ordinal": 28,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“only full-time staff would be able to assist”",
+      "excerpt": "“only full-time staff would be able to assist”",
+      "translation": "「只有全職職員能負責在場協助。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／人手安排",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "在 school visit 期間直接提供協助的工作交由 full-time staff。",
+        "use": "它把初步的 `all staff` 建議改成可執行的分工。",
+        "rationale": "其後 Dr Jones 批准這項安排；它是 children safety / insufficient assistance 的正式改善方法。",
+        "treatment": "寫 `Full-time staff should accompany and assist school groups throughout their visits.`"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "only full-time staff would be able to assist"
+      ],
+      "index": 47
+    },
+    {
+      "id": "p4-minutes-part-time-staff-may-finish-their-shift-before-the-end-388329f",
+      "ordinal": 29,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“part-time staff may finish their shift before the end of a given school group’s visit.”",
+      "excerpt": "“part-time staff may finish their shift before the end of a given school group’s visit.”",
+      "translation": "「兼職職員可能在學校團體參觀結束前已經下班。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／分工理由",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Part-time staff 無法保證全程陪同團體。",
+        "use": "它解釋為何現場協助要由 full-time staff 負責。",
+        "rationale": "約 200 字的 main section 應保留改善方法；內部排班理由可壓縮，不影響措施的完整性。",
+        "treatment": "不詳述 shift timing，直接寫 full-time staff 的責任。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "part-time staff may finish their shift before the end of a given school group’s visit."
+      ],
+      "index": 48
+    },
+    {
+      "id": "p4-minutes-part-time-staff-could-help-by-making-worksheets-for-school-efd2a0e",
+      "ordinal": 30,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“part-time staff could help by making worksheets for school groups.”",
+      "excerpt": "“part-time staff could help by making worksheets for school groups.”",
+      "translation": "「兼職職員可為學校團體製作工作紙。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／學習支援",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "Part-time staff 會以製作 worksheets 的方式支援 school groups。",
+        "use": "Worksheets 可令參觀內容更有方向，並回應 exhibits 對小學生而言沉悶的問題。",
+        "rationale": "這是 final staffing package 的第二項具體措施，與 full-time assistance 不重複。",
+        "treatment": "寫 `Part-time staff should prepare worksheets to keep pupils engaged.`"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "part-time staff could help by making worksheets for school groups."
+      ],
+      "index": 49
+    },
+    {
+      "id": "p4-minutes-dr-jones-agreed-with-the-implementation-of-these-points-7e8b5de",
+      "ordinal": 31,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Dr Jones agreed with the implementation of these points.”",
+      "excerpt": "“Dr Jones agreed with the implementation of these points.”",
+      "translation": "「Jones 博士同意落實以上兩項安排。」",
+      "type": 5,
+      "typeLabel": "5 提示／正式批准",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Full-time assistance 和 part-time worksheets 都獲館長批准。",
+        "use": "它把兩項建議確定為 report 可以提出的 recommendations。",
+        "rationale": "報告要寫措施本身，不需要交代誰批准。",
+        "treatment": "用確定語氣提出兩項安排，不寫會議過程。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Dr Jones agreed with the implementation of these points."
+      ],
+      "index": 50
+    },
+    {
+      "id": "p4-minutes-the-results-of-the-online-survey-recently-carried-out-in-0fbdfd0",
+      "ordinal": 32,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“the results of the online survey recently carried out in relation to points raised by the complainant.”",
+      "excerpt": "“the results of the online survey recently carried out in relation to points raised by the complainant.”",
+      "translation": "「會議參考了近期網上調查，以核對投訴人提出的指示牌問題。」",
+      "type": 5,
+      "typeLabel": "5 提示／跨來源核對",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Signage complaint 不能只依賴 Ms O’Conner 的說法，還要讀同頁 survey。",
+        "use": "Survey 顯示 sign 數量大致足夠，真正問題集中在字體太小和顏色不醒目。",
+        "rationale": "本句沒有調查結果；可寫結論來自後面的圖表數據。",
+        "treatment": "不寫 `a survey was conducted`；直接提出 bigger lettering 和 more eye-catching colours，避免錯誤建議增加標誌數量。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "the results of the online survey recently carried out in relation to points raised by the complainant."
+      ],
+      "index": 51
+    },
+    {
+      "id": "p4-minutes-meeting-ended-2-55pm-dc69146",
+      "ordinal": 33,
+      "sourceKey": "minutes",
+      "sourceBlock": 7,
+      "sourceTitle": "Minutes from museum staff meeting",
+      "page": 5,
+      "sourcePage": "Data File p.5",
+      "rootSelector": "#page-5 .museum-minutes",
+      "heading": "“Meeting ended 2:55pm.”",
+      "excerpt": "“Meeting ended 2:55pm.”",
+      "translation": "「會議於下午 2 時 55 分結束。」",
+      "type": 6,
+      "typeLabel": "6 不採用／行政資料",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "它記錄會議結束時間。",
+        "use": "只供會議存檔。",
+        "rationale": "與三項任務的內容和語氣均無關。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "Meeting ended 2:55pm."
+      ],
+      "index": 52
+    },
+    {
+      "id": "p4-ip-email-email-from-ip-lai-ping-from-the-shun-yee-tak-a7f70d2",
+      "ordinal": 1,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“Email from Ip Lai Ping from the Shun Yee Tak Village Hall”",
+      "excerpt": "“Email from Ip Lai Ping from the Shun Yee Tak Village Hall”",
+      "translation": "「Shun Yee Tak Village Hall 的 Ip Lai Ping 所發電郵。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 8 讀者與機構",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Task 8 的讀者是代表 Village Hall 的 Ms Ip。",
+        "use": "它確定回信要採用禮貌、正式和具說服力的外部商務語氣。",
+        "rationale": "文件標題不屬回信正文。",
+        "treatment": "使用正式稱呼和完整回應，不抄文件名稱。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Email from Ip Lai Ping from the Shun Yee Tak Village Hall"
+      ],
+      "index": 53
+    },
+    {
+      "id": "p4-ip-email-to-lara-gau-f7d4df2",
+      "ordinal": 2,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“To: Lara Gau”",
+      "excerpt": "“To: Lara Gau”",
+      "translation": "「收件人：Lara Gau。」",
+      "type": 5,
+      "typeLabel": "5 提示／原電郵收件人",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Ms Ip 原先把問題寄給 Indi 的上司 Lara。",
+        "use": "依照題目情境，Indi 代 Lara 擬寫回覆；回信仍代表博物館。",
+        "rationale": "原電郵的收件欄不應搬進回信正文。",
+        "treatment": "以館方身分回應，避免把自己寫成 Ms Ip。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "To: Lara Gau"
+      ],
+      "index": 54
+    },
+    {
+      "id": "p4-ip-email-sent-fri-1-april-2016-11-36-am-97c1114",
+      "ordinal": 3,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“Sent: Fri 1 April 2016 11:36 AM”",
+      "excerpt": "“Sent: Fri 1 April 2016 11:36 AM”",
+      "translation": "「寄出時間：2016 年 4 月 1 日星期五上午 11 時 36 分。」",
+      "type": 5,
+      "typeLabel": "5 提示／時間先後",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "電郵早於 4 月 5 日的 staff meeting。",
+        "use": "會議中的安排可視為館方對這些問題的較新回應。",
+        "rationale": "寄出時間只供整理證據先後。",
+        "treatment": "不寫日期，使用會議最終確認的資料作答。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Sent: Fri 1 April 2016 11:36 AM"
+      ],
+      "index": 55
+    },
+    {
+      "id": "p4-ip-email-from-ip-lai-ping-70491a1",
+      "ordinal": 4,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“From: Ip Lai Ping”",
+      "excerpt": "“From: Ip Lai Ping”",
+      "translation": "「寄件人：Ip Lai Ping。」",
+      "type": 5,
+      "typeLabel": "5 提示／讀者身分",
+      "decision": "只控制語氣／格式",
+      "analysis": {
+        "meaning": "回信要寄給 Ms Ip。",
+        "use": "它決定稱呼應為 `Dear Ms Ip`。",
+        "rationale": "姓名屬 email header / salutation 要求，不是正文內容點。",
+        "treatment": "使用 `Dear Ms Ip,`，結尾採正式禮貌格式。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "From: Ip Lai Ping"
+      ],
+      "index": 56
+    },
+    {
+      "id": "p4-ip-email-subject-chang-yee-tak-plough-8d780a3",
+      "ordinal": 5,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“Subject: Chang Yee Tak Plough”",
+      "excerpt": "“Subject: Chang Yee Tak Plough”",
+      "translation": "「主旨：Chang Yee Tak Plough。」",
+      "type": 5,
+      "typeLabel": "5 提示／主題",
+      "decision": "只控制語氣／格式",
+      "analysis": {
+        "meaning": "整封電郵集中處理借用該 plough。",
+        "use": "Task 8 答題頁要求 subject line，主旨要清楚指出 loan request。",
+        "rationale": "原主旨可再寫得更具體，毋須在正文重複。",
+        "treatment": "可用 `Subject: Request to borrow the Chang Yee Tak Plough`。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Subject: Chang Yee Tak Plough"
+      ],
+      "index": 57
+    },
+    {
+      "id": "p4-ip-email-dear-ms-gau-16b47cc",
+      "ordinal": 6,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“Dear Ms Gau”",
+      "excerpt": "“Dear Ms Gau”",
+      "translation": "「Gau 女士：」",
+      "type": 5,
+      "typeLabel": "5 提示／原信稱呼",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Ms Ip 在原信中稱呼 Lara Gau。",
+        "use": "它只展示正式電郵格式。",
+        "rationale": "回信讀者已轉為 Ms Ip，不能沿用 `Dear Ms Gau`。",
+        "treatment": "改用 `Dear Ms Ip`。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Dear Ms Gau"
+      ],
+      "index": 58
+    },
+    {
+      "id": "p4-ip-email-thank-you-for-your-email-requesting-to-borrow-the-chang-ae5a2b2",
+      "ordinal": 7,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“Thank you for your email requesting to borrow the Chang Yee Tak Plough.”",
+      "excerpt": "“Thank you for your email requesting to borrow the Chang Yee Tak Plough.”",
+      "translation": "「感謝你來信提出借用 Chang Yee Tak Plough。」",
+      "type": 5,
+      "typeLabel": "5 提示／既有申請",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Museum 已經提出 loan request，今次是補充資料的回覆。",
+        "use": "開首應承接對方問題，不需要重新介紹毫無背景的首次聯絡。",
+        "rationale": "回信篇幅約 120 字，主要任務是回答疑問並再次爭取批准。",
+        "treatment": "可用一句 `Thank you for considering our request`，然後立即交代理由和保障。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Thank you for your email requesting to borrow the Chang Yee Tak Plough."
+      ],
+      "index": 59
+    },
+    {
+      "id": "p4-ip-email-before-we-can-agree-to-your-request-we-need-to-db4f364",
+      "ordinal": 8,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“Before we can agree to your request, we need to find out more information from you.”",
+      "excerpt": "“Before we can agree to your request, we need to find out more information from you.”",
+      "translation": "「在同意借出前，我們需要你提供更多資料。」",
+      "type": 5,
+      "typeLabel": "5 提示／批准尚未取得",
+      "decision": "只控制語氣／格式",
+      "analysis": {
+        "meaning": "Loan approval 取決於館方能否充分回答後續問題。",
+        "use": "它要求答案完整、清楚及有說服力，不能假設借用已獲批准。",
+        "rationale": "這是對方的程序說明，回信應以實質資料作回應。",
+        "treatment": "末段禮貌請求批准，例如 `We hope these arrangements will reassure you and that you will approve the loan.`"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Before we can agree to your request, we need to find out more information from you."
+      ],
+      "index": 60
+    },
+    {
+      "id": "p4-ip-email-why-it-is-that-you-want-to-borrow-the-chang-45a199a",
+      "ordinal": 9,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“why it is that you want to borrow the Chang Yee Tak Plough in particular?”",
+      "excerpt": "“why it is that you want to borrow the Chang Yee Tak Plough in particular?”",
+      "translation": "「你們為何特別想借用 Chang Yee Tak Plough？」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 8 必答問題",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "回信必須解釋 exhibition purpose 及這件 plough 的獨特價值。",
+        "use": "它把考生帶到 podcast 的 `Farming in the New Territories`、18th century 和 almost perfect condition。",
+        "rationale": "問句本身不提供答案；三項 supporting facts 才要寫入。",
+        "treatment": "說明 plough 將用於 Farming in the New Territories exhibition，並點出其年代和保存狀況。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "why it is that you want to borrow the Chang Yee Tak Plough in particular?"
+      ],
+      "index": 61
+    },
+    {
+      "id": "p4-ip-email-we-need-to-check-that-the-plough-will-be-safe-b52ac8b",
+      "ordinal": 10,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“we need to check that the plough will be safe during its time there”",
+      "excerpt": "“we need to check that the plough will be safe during its time there”",
+      "translation": "「我們需要確認 plough 在博物館期間會受到妥善保護。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 8 必答問題",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Lender 要求了解展覽期間的安全措施。",
+        "use": "它指向 glass cover、trained staff 及 display insurance。",
+        "rationale": "問題要由多個來源中的具體安排回答。",
+        "treatment": "把三項已確認保障合併成精簡而完整的承諾。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "we need to check that the plough will be safe during its time there"
+      ],
+      "index": 62
+    },
+    {
+      "id": "p4-ip-email-what-would-happen-if-it-was-damaged-or-broken-in-e6c16da",
+      "ordinal": 11,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“what would happen if it was damaged or broken in any way.”",
+      "excerpt": "“what would happen if it was damaged or broken in any way.”",
+      "translation": "「若 plough 受到任何損壞，館方會怎樣處理？」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 8 必答問題",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Ms Ip 關心 damage risk 的財務保障。",
+        "use": "Staff Manual 回答所有借用品由 museum 投保，範圍包括 transport 和 display。",
+        "rationale": "問句沒有自行提供解決方法。",
+        "treatment": "寫明 museum 會為運送及展覽期間的任何損壞投保。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "what would happen if it was damaged or broken in any way."
+      ],
+      "index": 63
+    },
+    {
+      "id": "p4-ip-email-we-are-also-concerned-about-its-transportation-b5ed50a",
+      "ordinal": 12,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“We are also concerned about its transportation”",
+      "excerpt": "“We are also concerned about its transportation”",
+      "translation": "「我們也關心 plough 的運送安排。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 8 必答問題",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "回信不能只談館內展示，也要處理往返運送。",
+        "use": "它指向 museum pays both journeys、使用有經驗和受訓的 movers，以及 transport insurance。",
+        "rationale": "Concern 要由具體安排回答。",
+        "treatment": "用一句交代館方負擔來回費用並安排受訓的專業搬運人員。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "We are also concerned about its transportation"
+      ],
+      "index": 64
+    },
+    {
+      "id": "p4-ip-email-e-g-costs-experience-of-the-movers-2d887ad",
+      "ordinal": 13,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“(e.g. costs, experience of the movers).”",
+      "excerpt": "“(e.g. costs, experience of the movers).”",
+      "translation": "「例如運送費用，以及搬運人員的經驗。」",
+      "type": 5,
+      "typeLabel": "5 提示／兩項回答範圍",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Transportation concern 分成 cost 和 mover competence。",
+        "use": "它防止考生只回答其中一半。",
+        "rationale": "括號中的問題不是答案內容；Staff Manual 提供兩項結論。",
+        "treatment": "同時保留 `the museum will pay for delivery and return` 及 `experienced, trained movers will be used`。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "(e.g. costs, experience of the movers)."
+      ],
+      "index": 65
+    },
+    {
+      "id": "p4-ip-email-i-look-forward-to-reading-your-reply-on-this-matter-ebe907c",
+      "ordinal": 14,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“I look forward to reading your reply on this matter.”",
+      "excerpt": "“I look forward to reading your reply on this matter.”",
+      "translation": "「期待收到你就此事的回覆。」",
+      "type": 6,
+      "typeLabel": "6 不採用／客套結語",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Ms Ip 以禮貌句結束原電郵。",
+        "use": "只示範正式信件語氣。",
+        "rationale": "回信不能照抄寄件人的期望句。",
+        "treatment": "回信以自己的禮貌請求和正式結語收束。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "I look forward to reading your reply on this matter."
+      ],
+      "index": 66
+    },
+    {
+      "id": "p4-ip-email-ms-ip-lai-ping-head-of-shun-yee-tak-village-7ad0e9e",
+      "ordinal": 15,
+      "sourceKey": "ip-email",
+      "sourceBlock": 5,
+      "sourceTitle": "Email from Ip Lai Ping",
+      "page": 6,
+      "sourcePage": "Data File p.6",
+      "rootSelector": "#page-6 .museum-email",
+      "heading": "“Ms Ip Lai Ping / Head of Shun Yee Tak Village Hall / Shun Yee Tak / New Territories / Hong Kong”",
+      "excerpt": "“Ms Ip Lai Ping / Head of Shun Yee Tak Village Hall / Shun Yee Tak / New Territories / Hong Kong”",
+      "translation": "「Ip Lai Ping 女士／Shun Yee Tak Village Hall 負責人／香港新界 Shun Yee Tak。」",
+      "type": 5,
+      "typeLabel": "5 提示／讀者權限",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Ms Ip 是有權代表 Village Hall 處理 loan request 的負責人。",
+        "use": "回信要直接說服她批准借用，語氣須尊重而明確。",
+        "rationale": "郵寄地址和職銜不屬答案正文，也沒有要求另寫 address block。",
+        "treatment": "用 `Dear Ms Ip` 稱呼，毋須抄完整地址。"
+      },
+      "visual": false,
+      "task": "A",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Ms Ip Lai Ping",
+        "Head of Shun Yee Tak Village Hall",
+        "Shun Yee Tak",
+        "New Territories",
+        "Hong Kong"
+      ],
+      "index": 67
+    },
+    {
+      "id": "p4-whatsapp-whatsapp-messages-from-the-social-history-museum-group-5319ca4",
+      "ordinal": 1,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“WhatsApp messages from the Social History Museum group”",
+      "excerpt": "“WhatsApp messages from the Social History Museum group”",
+      "translation": "「社會歷史博物館群組的 WhatsApp 訊息。」",
+      "type": 5,
+      "typeLabel": "5 提示／多任務資料來源",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "群組訊息同時包含 Task 9 的研究路線、Task 8 的背景圖片及 Task 10 的新建議。",
+        "use": "考生要逐句分流，不能把整頁內容搬入同一答案。",
+        "rationale": "文件類型本身沒有答案內容。",
+        "treatment": "按每則訊息的用途分配到相應任務。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "WhatsApp messages from the Social History Museum group"
+      ],
+      "index": 68
+    },
+    {
+      "id": "p4-whatsapp-lara-told-me-to-post-some-quick-notes-about-wang-fe2c00c",
+      "ordinal": 2,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“Lara told me to post some quick notes about Wang Chung Village: the farmhouse and the flood etc.”",
+      "excerpt": "“Lara told me to post some quick notes about Wang Chung Village: the farmhouse and the flood etc.”",
+      "translation": "「Lara 要我簡單記下 Wang Chung Village、farmhouse 和 flood 的資料。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 9 研究範圍",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Task 9 的資料要涵蓋 farmhouse、village 及 flood story。",
+        "use": "它與 Lara 的 task instruction 一致，提示三個內容區塊缺一不可。",
+        "rationale": "這是研究提示，不應寫進面向公眾的網站介紹。",
+        "treatment": "依次寫發現 farmhouse、village facts、cupboard survival story。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Lara told me to post some quick notes about Wang Chung Village: the farmhouse and the flood etc."
+      ],
+      "index": 69
+    },
+    {
+      "id": "p4-whatsapp-reservoir-water-levels-at-historic-low-found-farmhouse-e04bee0",
+      "ordinal": 3,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“reservoir water levels at historic low → found farmhouse.”",
+      "excerpt": "“reservoir water levels at historic low → found farmhouse.”",
+      "translation": "「水塘水位降至歷史低位，因而發現 farmhouse。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／發現原因",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "Farmhouse 之所以重見天日，是 Wang Chung Reservoir 水位跌至歷史低位。",
+        "use": "它回答網站介紹必須說明的 `how the farmhouse was found`。",
+        "rationale": "Podcast 只說 farmhouse 位於水塘底，本句補足發現的直接原因。",
+        "treatment": "寫 `It was discovered at the bottom of Wang Chung Reservoir when the water fell to a historic low.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "reservoir water levels at historic low",
+        "found farmhouse."
+      ],
+      "index": 70
+    },
+    {
+      "id": "p4-whatsapp-the-1983-flood-story-kitchen-cupboard-1983-strange-writing-on-2b0487b",
+      "ordinal": 4,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“The 1983 flood story: kitchen cupboard - 1983 - strange writing on left door.”",
+      "excerpt": "“The 1983 flood story: kitchen cupboard - 1983 - strange writing on left door.”",
+      "translation": "「1983 年洪水故事涉及廚櫃，以及左門上的奇怪文字。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 9 證據路線",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Cupboard story 的年份、物件及左門刻字需要到訪談和新聞報道核實。",
+        "use": "它帶考生找到 Typhoon Ellen、two sisters、two days、Guanyin prayer 和 left door。",
+        "rationale": "`strange writing` 太含糊，不能當作網站介紹的成品表述。",
+        "treatment": "用後續來源的完整事實取代這則速記。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "The 1983 flood story: kitchen cupboard - 1983 - strange writing on left door."
+      ],
+      "index": 71
+    },
+    {
+      "id": "p4-whatsapp-i-interviewed-somebody-from-the-village-who-knew-the-story-559ebb8",
+      "ordinal": 5,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“I interviewed somebody from the village who knew the story. A Mrs Wang.”",
+      "excerpt": "“I interviewed somebody from the village who knew the story. A Mrs Wang.”",
+      "translation": "「我訪問了一位知道這個故事的舊村民 Wang 太太。」",
+      "type": 5,
+      "typeLabel": "5 提示／來源導航",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Mrs Wang 的訪談提供 village 和 cupboard 的口述資料。",
+        "use": "它指示考生閱讀下一頁 transcript，並把其中內容與新聞報道互相核對。",
+        "rationale": "網站介紹重點是歷史事實，不是研究者訪問過誰。",
+        "treatment": "不寫訪問過程，直接轉述經核對的內容。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "I interviewed somebody from the village who knew the story. A Mrs Wang."
+      ],
+      "index": 72
+    },
+    {
+      "id": "p4-whatsapp-here-s-the-link-to-the-transcript-of-the-interview-001d41b",
+      "ordinal": 6,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“Here’s the link to the transcript of the interview: https://hkshm.org/researchproject14.”",
+      "excerpt": "“Here’s the link to the transcript of the interview: https://hkshm.org/researchproject14.”",
+      "translation": "「這是訪談謄本的連結。」",
+      "type": 5,
+      "typeLabel": "5 提示／閱讀路線",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "URL 帶考生到 Mrs Wang interview。",
+        "use": "它只負責導航，不提供任何 historical fact。",
+        "rationale": "公眾網站介紹不應嵌入考試資料檔的研究連結。",
+        "treatment": "讀取下一頁資料後省略連結。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Here’s the link to the transcript of the interview: https://hkshm.org/researchproject14."
+      ],
+      "index": 73
+    },
+    {
+      "id": "p4-whatsapp-she-talks-about-the-village-as-well-f634f8b",
+      "ordinal": 7,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“She talks about the village as well.”",
+      "excerpt": "“She talks about the village as well.”",
+      "translation": "「她也談到村落本身。」",
+      "type": 5,
+      "typeLabel": "5 提示／資料範圍",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "Interview 不只包含 cupboard story，亦提供 pearl rice 和 S-shaped fields 等 village facts。",
+        "use": "它提醒考生從同一訪談抽取 Task 9 的兩類內容。",
+        "rationale": "本句沒有實質資料可直接放入網站介紹。",
+        "treatment": "讀訪談後選用具體村落特色。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "She talks about the village as well."
+      ],
+      "index": 74
+    },
+    {
+      "id": "p4-whatsapp-visual-photograph-of-a-traditional-chinese-plough-8765f9e",
+      "ordinal": 8,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "Visual — photograph of a traditional Chinese plough",
+      "excerpt": "A black-and-white photograph shows a man standing beside and operating a traditional wooden-and-iron Chinese plough in a field.",
+      "translation": "「黑白照片中，一名男子在田間站在傳統木鐵中式犁旁，並示範使用方式。」",
+      "type": 5,
+      "typeLabel": "5 視覺提示／一般 plough 背景",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "圖片展示傳統 plough 的外形和農耕用途。",
+        "use": "它幫助考生理解實物類型，也解釋為何博物館想為新海報拍攝真正的 Chang Yee Tak Plough。",
+        "rationale": "訊息只說照片是 Mrs Wang 的父親，沒有證明相中 plough 就是 Chang Yee Tak Plough，也沒有證明其年代或保存狀況。",
+        "treatment": "不用此圖支持 `18th century` 或 `almost perfect condition`；Task 8 只提出另行拍攝借用品作海報用途。"
+      },
+      "visual": true,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [],
+      "index": 75
+    },
+    {
+      "id": "p4-whatsapp-this-is-a-photo-i-got-of-a-traditional-chinese-6a965bd",
+      "ordinal": 9,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“This is a photo I got of a traditional Chinese plough.”",
+      "excerpt": "“This is a photo I got of a traditional Chinese plough.”",
+      "translation": "「這是我取得的一張傳統中式犁照片。」",
+      "type": 5,
+      "typeLabel": "5 提示／圖片身分限制",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "圖中物件只被確認為一般 traditional Chinese plough。",
+        "use": "它防止考生把照片錯認為要借用的 Chang Yee Tak Plough。",
+        "rationale": "圖片身分未達可支持 Task 8 核心 claim 的程度。",
+        "treatment": "不描述這張舊照片；另向 Ms Ip 請求拍攝真正展品。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "This is a photo I got of a traditional Chinese plough."
+      ],
+      "index": 76
+    },
+    {
+      "id": "p4-whatsapp-it-s-actually-the-woman-i-interviewed-s-father-in-28cc415",
+      "ordinal": 10,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“It’s actually the woman I interviewed’s father in the photo.”",
+      "excerpt": "“It’s actually the woman I interviewed’s father in the photo.”",
+      "translation": "「照片中的人其實是受訪女士的父親。」",
+      "type": 6,
+      "typeLabel": "6 不採用／人物背景",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "相中男子是 Mrs Wang 的父親。",
+        "use": "只補充圖片人物身分，沒有連接三項任務的必答內容。",
+        "rationale": "Task 9 介紹 farmhouse、village 和 cupboard；Task 8 借用特定 plough，兩者均不要求這名人物。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "It’s actually the woman I interviewed’s father in the photo."
+      ],
+      "index": 77
+    },
+    {
+      "id": "p4-whatsapp-when-the-person-opens-the-toilet-door-play-no-smoking-c1ad568",
+      "ordinal": 11,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“when the person opens the toilet door → play ‘no smoking’ announcement?”",
+      "excerpt": "“when the person opens the toilet door → play ‘no smoking’ announcement?”",
+      "translation": "「有人打開洗手間門時，播放『禁止吸煙』廣播。」",
+      "type": 5,
+      "typeLabel": "5 提示／尚待批准的建議",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Lara 提出以 door-triggered announcement 阻止 toilet smoking。",
+        "use": "它為 Task 10 的 smoking problem 提供具體解決方法。",
+        "rationale": "本句是疑問形式，下一則 Dr Jones 訊息給予明確批准；兩則合讀後才成為可寫建議。",
+        "treatment": "寫 `A no-smoking announcement should play whenever a toilet door is opened.`"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "when the person opens the toilet door",
+        "play ‘no smoking’ announcement?"
+      ],
+      "index": 78
+    },
+    {
+      "id": "p4-whatsapp-i-like-it-yes-eaba539",
+      "ordinal": 12,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "“I like it. Yes!”",
+      "excerpt": "“I like it. Yes!”",
+      "translation": "「這個主意很好，我同意。」",
+      "type": 5,
+      "typeLabel": "5 提示／正式負責人批准",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Museum Director 明確接納 door-triggered no-smoking announcement。",
+        "use": "它把 Lara 的問題式建議轉成 Task 10 可以提出的館方 recommendation。",
+        "rationale": "Report 應寫措施本身，不需要保留即時通訊中的口語批准。",
+        "treatment": "用確定的 recommendation wording，省略 `I like it`。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "I like it. Yes!"
+      ],
+      "index": 79
+    },
+    {
+      "id": "p4-whatsapp-visual-two-thumbs-up-emoji-97dbf9a",
+      "ordinal": 13,
+      "sourceKey": "whatsapp",
+      "sourceBlock": 6,
+      "sourceTitle": "WhatsApp messages from the Social History Museum group",
+      "page": 7,
+      "sourcePage": "Data File p.7",
+      "rootSelector": "#page-7 .museum-whatsapp",
+      "heading": "Visual — two thumbs-up emoji",
+      "excerpt": "Two thumbs-up emoji appear immediately after Dr Jones’s approval message.",
+      "translation": "「Jones 博士的同意訊息後附有兩個讚好手勢圖示。」",
+      "type": 5,
+      "typeLabel": "5 視覺提示／加強批准",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "兩個 thumbs-up 加強他對建議的正面態度。",
+        "use": "它與 `I like it. Yes!` 一起確認建議已獲支持。",
+        "rationale": "Emoji 只表達態度，report 需要正式寫出 recommendation。",
+        "treatment": "不提 emoji；直接保留已批准的 no-smoking announcement。"
+      },
+      "visual": true,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [],
+      "index": 80
+    },
+    {
+      "id": "p4-resident-interview-transcript-of-interview-with-wang-chung-village-resident-cdff680",
+      "ordinal": 1,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“Transcript of interview with Wang Chung Village resident”",
+      "excerpt": "“Transcript of interview with Wang Chung Village resident”",
+      "translation": "「Wang Chung Village 居民訪談謄本。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 9 口述來源",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "本頁記錄 Dr Jones 與舊村民 Mrs Wang 的訪談。",
+        "use": "它提供 pearl rice、S-shaped fields、cupboard 刻字及其他村落背景。",
+        "rationale": "文件標題不屬網站介紹內容。",
+        "treatment": "抽取經其他來源確認的歷史事實，不寫研究過程。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Transcript of interview with Wang Chung Village resident"
+      ],
+      "index": 81
+    },
+    {
+      "id": "p4-resident-interview-wang-chung-village-was-such-a-famous-village-44f50bb",
+      "ordinal": 2,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“Wang Chung Village was such a famous village.”",
+      "excerpt": "“Wang Chung Village was such a famous village.”",
+      "translation": "「Wang Chung Village 當年十分有名。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／概括評價",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "村落過去具有知名度。",
+        "use": "後續資料會以 pearl rice、fields 和 festival 解釋其特色。",
+        "rationale": "`famous` 太概括；網站介紹應用具體事實讓讀者理解原因。",
+        "treatment": "不必獨立寫 `was famous`，改寫具體特色。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "Wang Chung Village was such a famous village."
+      ],
+      "index": 82
+    },
+    {
+      "id": "p4-resident-interview-i-have-also-heard-many-things-about-its-pearl-rice-e89ce71",
+      "ordinal": 3,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“I have also heard many things about its pearl rice.”",
+      "excerpt": "“I have also heard many things about its pearl rice.”",
+      "translation": "「Jones 博士也聽過不少有關該村珍珠米的事。」",
+      "type": 5,
+      "typeLabel": "5 提示／引出 village fact",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "問題把話題帶到 pearl rice。",
+        "use": "Mrs Wang 的回答才提供買家範圍、需求和 luxury status。",
+        "rationale": "`heard many things` 沒有實質可寫資料。",
+        "treatment": "使用下一段具體事實，省略問句。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "I have also heard many things about its pearl rice."
+      ],
+      "index": 83
+    },
+    {
+      "id": "p4-resident-interview-my-father-would-have-buyers-for-this-rice-from-all-6475849",
+      "ordinal": 4,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“my father would have buyers for this rice from all over China.”",
+      "excerpt": "“my father would have buyers for this rice from all over China.”",
+      "translation": "「我父親的珍珠米買家來自中國各地。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／銷售範圍",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Pearl rice 的市場遍及中國各地。",
+        "use": "它顯示這種米的知名度和商業價值。",
+        "rationale": "下一句說明不是只有她父親出售；兩句合併後才可準確概括整條村。",
+        "treatment": "寫 `The village’s pearl rice was sold to buyers across China.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "my father would have buyers for this rice from all over China."
+      ],
+      "index": 84
+    },
+    {
+      "id": "p4-resident-interview-but-it-wasn-t-just-him-all-the-farmers-in-936687c",
+      "ordinal": 5,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“But it wasn’t just him. All the farmers in our village did this.”",
+      "excerpt": "“But it wasn’t just him. All the farmers in our village did this.”",
+      "translation": "「這並非她父親一人的生意；村內所有農民都把珍珠米賣給各地買家。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／整村產業",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Pearl rice 是整個 village 的共同產業。",
+        "use": "它防止考生把個人回憶誤寫成只屬 Mrs Wang 家庭的情況。",
+        "rationale": "與前句合併後可得出完整而概括的網站資料。",
+        "treatment": "以 `the village’s farmers` 或 `Wang Chung’s pearl rice` 作主語。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "But it wasn’t just him. All the farmers in our village did this."
+      ],
+      "index": 85
+    },
+    {
+      "id": "p4-resident-interview-our-rice-was-in-huge-demand-then-18c2a2a",
+      "ordinal": 6,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“Our rice was in huge demand then.”",
+      "excerpt": "“Our rice was in huge demand then.”",
+      "translation": "「當時這種米需求很大。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／受歡迎程度",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Pearl rice 很受市場歡迎。",
+        "use": "它解釋為何買家遍及全國，也支持 `famous village` 的說法。",
+        "rationale": "可與 luxury status 壓縮成一句，避免重複形容。",
+        "treatment": "寫 `Its luxury pearl rice was in great demand and sold across China.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "Our rice was in huge demand then."
+      ],
+      "index": 86
+    },
+    {
+      "id": "p4-resident-interview-pearl-rice-was-not-cheap-it-was-a-luxury-even-e9ad666",
+      "ordinal": 7,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“Pearl rice was not cheap. It was a luxury even for rich families.”",
+      "excerpt": "“Pearl rice was not cheap. It was a luxury even for rich families.”",
+      "translation": "「珍珠米價格不低，即使對富裕家庭而言也是奢侈品。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／產品地位",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Pearl rice 屬高價 luxury food。",
+        "use": "它讓網站讀者理解這種米的特殊地位。",
+        "rationale": "`not cheap` 與 `luxury` 意思重疊；保留較準確且簡潔的 luxury concept 即可。",
+        "treatment": "寫 `luxury pearl rice`，並與 nationwide sales 合併。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Pearl rice was not cheap. It was a luxury even for rich families."
+      ],
+      "index": 87
+    },
+    {
+      "id": "p4-resident-interview-we-can-t-see-the-village-anymore-f1f2e8a",
+      "ordinal": 8,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“we can’t see the village anymore”",
+      "excerpt": "“we can’t see the village anymore”",
+      "translation": "「現在已看不到原來的村落。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／村落消失",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "村落已不在原址可見。",
+        "use": "Podcast 提供更準確原因：1990 年建水塘後村落被淹沒。",
+        "rationale": "網站應交代原因和年份，而非只寫現在看不到。",
+        "treatment": "寫 `The village disappeared beneath the reservoir when it was built in 1990.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "we can’t see the village anymore"
+      ],
+      "index": 88
+    },
+    {
+      "id": "p4-resident-interview-tourists-from-the-city-would-come-at-the-weekend-to-c9edf43",
+      "ordinal": 9,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“Tourists from the city would come at the weekend to see the rice fields.”",
+      "excerpt": "“Tourists from the city would come at the weekend to see the rice fields.”",
+      "translation": "「城裏的遊客會在周末前來觀賞稻田。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／景觀吸引力",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Rice fields 曾吸引城市遊客。",
+        "use": "它支持稻田景觀具有吸引力；下一句提供更具辨識度的 S-shape。",
+        "rationale": "約 150 字要優先保留 S-shaped fields；周末遊客屬可由核心特色推知的補充背景。",
+        "treatment": "不獨立寫遊客行程，直接介紹著名的 S-shaped rice fields。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "Tourists from the city would come at the weekend to see the rice fields."
+      ],
+      "index": 89
+    },
+    {
+      "id": "p4-resident-interview-the-s-shaped-fields-bffb127",
+      "ordinal": 10,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“the ‘S’-shaped fields.”",
+      "excerpt": "“the ‘S’-shaped fields.”",
+      "translation": "「呈 S 形的稻田。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／村落景觀",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "Wang Chung Village 的 rice fields 具有獨特 S shape。",
+        "use": "它是 Lara 所要求的 interesting village fact，具體且容易令網站讀者留下印象。",
+        "rationale": "這項特色無須依賴其他句子才能成立。",
+        "treatment": "寫 `The village was known for its beautiful S-shaped rice fields.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "the ‘S’-shaped fields."
+      ],
+      "index": 90
+    },
+    {
+      "id": "p4-resident-interview-i-remember-the-great-flood-of-wang-chung-village-91cf4bb",
+      "ordinal": 11,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“I remember the great flood of Wang Chung Village”",
+      "excerpt": "“I remember the great flood of Wang Chung Village”",
+      "translation": "「我記得 Wang Chung Village 的大洪水。」",
+      "type": 5,
+      "typeLabel": "5 提示／引出 cupboard story",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "話題轉到 1983 flood。",
+        "use": "後續對話和新聞報道提供準確年份、颱風、兩姐妹及生還經過。",
+        "rationale": "本句太概括，不能完成題目要求的 brief summary。",
+        "treatment": "使用後續完整事件鏈。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "I remember the great flood of Wang Chung Village"
+      ],
+      "index": 91
+    },
+    {
+      "id": "p4-resident-interview-typhoon-ellen-in-1983-79cbc83",
+      "ordinal": 12,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“Typhoon Ellen in 1983?”",
+      "excerpt": "“Typhoon Ellen in 1983?”",
+      "translation": "「1983 年的颱風愛倫？」",
+      "type": 5,
+      "typeLabel": "5 提示／待核對的事件名稱",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Dr Jones 提出 flood 可能由 Typhoon Ellen 引起。",
+        "use": "Mrs Wang 只說 `I think so`，但新聞報道直接確認 Typhoon Ellen，因此可在合讀後採用。",
+        "rationale": "問句單獨不是確證；同頁 article 提供獨立確認。",
+        "treatment": "寫 `During Typhoon Ellen in 1983, ...`。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Typhoon Ellen in 1983?"
+      ],
+      "index": 92
+    },
+    {
+      "id": "p4-resident-interview-the-two-girls-who-survived-on-the-kitchen-cupboard-b10cc5b",
+      "ordinal": 13,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“The two girls who survived on the kitchen cupboard?”",
+      "excerpt": "“The two girls who survived on the kitchen cupboard?”",
+      "translation": "「就是兩名靠廚櫃生還的女孩？」",
+      "type": 5,
+      "typeLabel": "5 提示／待新聞補足",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Cupboard story 的核心是兩名女孩藉漂浮木櫃活下來。",
+        "use": "Newspaper 補足姓名、年齡、兩天和獲救地點。",
+        "rationale": "網站介紹需要簡潔但完整的事件鏈，不能只保留問句。",
+        "treatment": "寫 `Two young sisters survived for two days on the floating cupboard.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "The two girls who survived on the kitchen cupboard?"
+      ],
+      "index": 93
+    },
+    {
+      "id": "p4-resident-interview-i-knew-them-good-little-girls-very-pious-ab31f22",
+      "ordinal": 14,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“I knew them. Good little girls. Very pious.”",
+      "excerpt": "“I knew them. Good little girls. Very pious.”",
+      "translation": "「我認識她們；她們是虔誠的好女孩。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／人物背景與信仰",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Mrs Wang 親自認識兩姐妹，並形容她們虔誠。",
+        "use": "它與 Guanyin prayer 互相呼應，但網站毋須採用主觀評價 `good little girls`。",
+        "rationale": "可驗證的刻字和祈禱內容比人物評語更重要。",
+        "treatment": "省略人物評價，保留她們刻下向 Guanyin 求救的祈禱。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "I knew them. Good little girls. Very pious."
+      ],
+      "index": 94
+    },
+    {
+      "id": "p4-resident-interview-their-mother-told-me-about-what-happened-bd635df",
+      "ordinal": 15,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“Their mother told me about what happened.”",
+      "excerpt": "“Their mother told me about what happened.”",
+      "translation": "「她們的母親曾把事情經過告訴我。」",
+      "type": 5,
+      "typeLabel": "5 提示／二手口述來源",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Mrs Wang 的 cupboard account 來自 girls’ mother，而非親眼所見。",
+        "use": "Newspaper 直接引述母親並報道救援，能與口述資料互相印證。",
+        "rationale": "Website 介紹歷史事件，不需要交代消息傳遞途徑。",
+        "treatment": "使用兩來源共同確認的事實，不寫 `their mother told Mrs Wang`。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Their mother told me about what happened."
+      ],
+      "index": 95
+    },
+    {
+      "id": "p4-resident-interview-a-prayer-a-prayer-to-guanyin-418b784",
+      "ordinal": 16,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“A prayer, a prayer to Guanyin.”",
+      "excerpt": "“A prayer, a prayer to Guanyin.”",
+      "translation": "「刻痕是一篇向觀音祈求的禱文。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／cupboard 刻字內容",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Cupboard door 上的 writing 是向 Guanyin 求救的 prayer。",
+        "use": "它解釋展品上的特殊痕跡，並連接 newspaper 的母親引語。",
+        "rationale": "下一段確認刻字在 left door 且於等待救援時刻下，合併後才完整。",
+        "treatment": "寫 `While waiting to be rescued, they carved a prayer to Guanyin on the left door.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "A prayer, a prayer to Guanyin."
+      ],
+      "index": 96
+    },
+    {
+      "id": "p4-resident-interview-they-carved-it-on-the-right-door-of-the-cupboard-1e943da",
+      "ordinal": 17,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“They carved it on the right door of the cupboard?”",
+      "excerpt": "“They carved it on the right door of the cupboard?”",
+      "translation": "「她們把禱文刻在櫃的右門嗎？」",
+      "type": 5,
+      "typeLabel": "5 提示／隨即被更正的錯誤",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Dr Jones 猜測刻字在 right door。",
+        "use": "下一句明確更正為 left door。",
+        "rationale": "問句內容已被否定，不能進入網站介紹。",
+        "treatment": "排除 `right door`，只保留更正後的 `left door`。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "They carved it on the right door of the cupboard?"
+      ],
+      "index": 97
+    },
+    {
+      "id": "p4-resident-interview-no-she-told-me-it-was-the-left-e94f61f",
+      "ordinal": 18,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“No, she told me it was the left.”",
+      "excerpt": "“No, she told me it was the left.”",
+      "translation": "「不是右門；她告訴我是左門。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／位置更正",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Prayer 位於 cupboard 的 left door。",
+        "use": "它糾正前一句錯誤，亦與 WhatsApp 的 `left door` 一致。",
+        "rationale": "位置屬展品上可見的具體特色，應在 story summary 中準確保留。",
+        "treatment": "與 prayer 內容和 timing 合併成一句。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "No, she told me it was the left."
+      ],
+      "index": 98
+    },
+    {
+      "id": "p4-resident-interview-they-carved-it-when-they-were-waiting-to-be-rescued-b501dfa",
+      "ordinal": 19,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“They carved it when they were waiting to be rescued.”",
+      "excerpt": "“They carved it when they were waiting to be rescued.”",
+      "translation": "「她們等待救援時把禱文刻上去。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／刻字時間",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "刻字是在兩姐妹受困、等待救援期間完成。",
+        "use": "它把 cupboard 上的痕跡與 survival story 直接連接。",
+        "rationale": "與 Guanyin 和 left door 合併可避免三句零散描述。",
+        "treatment": "寫 `As they waited for rescue, they carved a prayer to Guanyin on its left door.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "They carved it when they were waiting to be rescued."
+      ],
+      "index": 99
+    },
+    {
+      "id": "p4-resident-interview-after-1990-you-moved-to-your-present-home-in-fanling-6fd257e",
+      "ordinal": 20,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“after 1990 you moved to your present home in Fanling.”",
+      "excerpt": "“after 1990 you moved to your present home in Fanling.”",
+      "translation": "「1990 年後，你搬到粉嶺現居住所。」",
+      "type": 6,
+      "typeLabel": "6 不採用／個人搬遷",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Mrs Wang 在村落被水塘淹沒後搬往 Fanling。",
+        "use": "只引出她適應城市生活的個人故事。",
+        "rationale": "Task 9 要介紹 farmhouse、village facts 和 cupboard，不要求居民近況。",
+        "treatment": "省略整個 Fanling branch。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "after 1990 you moved to your present home in Fanling."
+      ],
+      "index": 100
+    },
+    {
+      "id": "p4-resident-interview-the-first-few-years-i-found-it-quite-difficult-to-7f7d940",
+      "ordinal": 21,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“The first few years I found it quite difficult to adapt to city life.”",
+      "excerpt": "“The first few years I found it quite difficult to adapt to city life.”",
+      "translation": "「最初幾年，我很難適應城市生活。」",
+      "type": 6,
+      "typeLabel": "6 不採用／個人生活",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Mrs Wang 描述搬遷後的適應困難。",
+        "use": "它不回答 Lara 指定的三項 website content。",
+        "rationale": "加入會把篇幅從歷史展品轉向居民傳記。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "The first few years I found it quite difficult to adapt to city life."
+      ],
+      "index": 101
+    },
+    {
+      "id": "p4-resident-interview-i-m-a-member-of-the-residents-association-i-have-df46e1e",
+      "ordinal": 22,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“I’m a member of the residents’ association ... I have 14 grandchildren and one great granddaughter.”",
+      "excerpt": "“I’m a member of the residents’ association ... I have 14 grandchildren and one great granddaughter.”",
+      "translation": "「我參與居民協會，也有十四名孫兒女和一名曾孫女。」",
+      "type": 6,
+      "typeLabel": "6 不採用／現時生活",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Mrs Wang 談現時的社區活動、年齡和家庭。",
+        "use": "只完整呈現訪談人物，未提供 Task 9 所需的歷史介紹。",
+        "rationale": "全段與 farmhouse 發現、village 特色和 cupboard story 無關。",
+        "treatment": "省略整個現時生活分支。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "I’m a member of the residents’ association",
+        "I have 14 grandchildren and one great granddaughter."
+      ],
+      "index": 102
+    },
+    {
+      "id": "p4-resident-interview-recording-ends-0553d5f",
+      "ordinal": 23,
+      "sourceKey": "resident-interview",
+      "sourceBlock": 3,
+      "sourceTitle": "Transcript of interview with Wang Chung Village resident",
+      "page": 8,
+      "sourcePage": "Data File p.8",
+      "rootSelector": "#page-8 .museum-interview",
+      "heading": "“[Recording ends]”",
+      "excerpt": "“[Recording ends]”",
+      "translation": "「錄音結束。」",
+      "type": 6,
+      "typeLabel": "6 不採用／文件標記",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "訪談謄本到此結束。",
+        "use": "只標示文件邊界。",
+        "rationale": "不提供任何任務內容。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "Recording ends"
+      ],
+      "index": 103
+    },
+    {
+      "id": "p4-news-survey-article-from-hong-kong-news-august-30-1983-260a445",
+      "ordinal": 1,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Article from Hong Kong News August 30, 1983”",
+      "excerpt": "“Article from Hong Kong News August 30, 1983”",
+      "translation": "「《Hong Kong News》1983 年 8 月 30 日報道。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 9 同期新聞來源",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "報道在救援翌日刊出，屬接近事件發生時間的來源。",
+        "use": "它確認 Typhoon Ellen、兩姐妹、年齡、兩天、floating cupboard 和救援情況。",
+        "rationale": "網站介紹不需列出資料來源名稱和日期。",
+        "treatment": "使用其確認的事實，不寫 citation。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Article from Hong Kong News August 30, 1983"
+      ],
+      "index": 104
+    },
+    {
+      "id": "p4-news-survey-living-on-a-prayer-5c90107",
+      "ordinal": 2,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Living on a prayer”",
+      "excerpt": "“Living on a prayer”",
+      "translation": "「靠祈禱活下來。」",
+      "type": 5,
+      "typeLabel": "5 提示／新聞標題",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "標題以 wordplay 突出 survival 和 prayer。",
+        "use": "它提示 article 與 cupboard 上的 Guanyin prayer 有關。",
+        "rationale": "標題屬新聞包裝，不能取代具體事件摘要。",
+        "treatment": "不抄標題，寫明 prayer 的內容和位置。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Living on a prayer"
+      ],
+      "index": 105
+    },
+    {
+      "id": "p4-news-survey-by-jovi-bon-30th-august-1983-0441eb3",
+      "ordinal": 3,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“By Jovi Bon / 30th August 1983”",
+      "excerpt": "“By Jovi Bon / 30th August 1983”",
+      "translation": "「記者：Jovi Bon／1983 年 8 月 30 日。」",
+      "type": 6,
+      "typeLabel": "6 不採用／署名與出版日期",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "它列出作者和報道日期。",
+        "use": "只供來源識別。",
+        "rationale": "Task 9 是公眾網站介紹，不要求列參考文獻。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "By Jovi Bon",
+        "30th August 1983"
+      ],
+      "index": 106
+    },
+    {
+      "id": "p4-news-survey-the-death-and-destruction-brought-by-typhoon-ellen-7f3020b",
+      "ordinal": 4,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“The death and destruction brought by Typhoon Ellen”",
+      "excerpt": "“The death and destruction brought by Typhoon Ellen”",
+      "translation": "「颱風愛倫帶來傷亡和破壞。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／災害背景",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Flood 發生在 Typhoon Ellen 造成的嚴重災害中。",
+        "use": "它確認 interview 中問題式提及的 typhoon name。",
+        "rationale": "網站 brief summary 應聚焦兩姐妹和 cupboard，無須展開整體傷亡。",
+        "treatment": "保留 `During Typhoon Ellen in 1983` 作事件背景。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "The death and destruction brought by Typhoon Ellen"
+      ],
+      "index": 107
+    },
+    {
+      "id": "p4-news-survey-two-young-sisters-were-miraculously-found-alive-after-fears-the-5747cad",
+      "ordinal": 5,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“two young sisters were miraculously found alive after fears the pair had drowned.”",
+      "excerpt": "“two young sisters were miraculously found alive after fears the pair had drowned.”",
+      "translation": "「人們一度擔心兩名年幼姐妹已遇溺，後來卻發現她們仍然生還。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／生還結果",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "兩姐妹在洪水中失蹤後獲救生還。",
+        "use": "它提供故事的結果和吸引讀者的核心轉折。",
+        "rationale": "下一句說明她們如何生還，兩者合併才能完成 brief summary。",
+        "treatment": "以 `Two young sisters survived...` 開始，直接連接 floating cupboard。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "two young sisters were miraculously found alive after fears the pair had drowned."
+      ],
+      "index": 108
+    },
+    {
+      "id": "p4-news-survey-man-yee-7-and-man-ching-9-lee-4ec932a",
+      "ordinal": 6,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Man Yee (7) and Man Ching (9) Lee”",
+      "excerpt": "“Man Yee (7) and Man Ching (9) Lee”",
+      "translation": "「七歲的 Man Yee Lee 和九歲的 Man Ching Lee。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／人物識別",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "報道提供姐妹姓名和年齡。",
+        "use": "年齡顯示她們年幼，但 Task 9 只要求 brief summary。",
+        "rationale": "在約 150 字內，`two young sisters` 已保留故事所需人物關係；姓名與年齡不是理解展品的必要資料。",
+        "treatment": "寫 `two young sisters`，不必列姓名和年齡。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "Man Yee (7) and Man Ching (9) Lee"
+      ],
+      "index": 109
+    },
+    {
+      "id": "p4-news-survey-were-found-clinging-to-the-family-s-kitchen-cupboard-as-7f8259b",
+      "ordinal": 7,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“were found clinging to the family’s kitchen cupboard as it floated in flood waters.”",
+      "excerpt": "“were found clinging to the family’s kitchen cupboard as it floated in flood waters.”",
+      "translation": "「救援人員發現她們抓住家中的廚櫃，廚櫃當時浮在洪水上。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／生還方式",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "Wooden kitchen cupboard 浮在水上，兩姐妹靠它支撐。",
+        "use": "它解釋為何該 cupboard 成為 farmhouse 內值得介紹的展品。",
+        "rationale": "生還方法是題目指定 amazing story 的核心，不能只寫她們獲救。",
+        "treatment": "寫 `They clung to the family’s wooden kitchen cupboard as it floated in the floodwater.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "were found clinging to the family’s kitchen cupboard as it floated in flood waters."
+      ],
+      "index": 110
+    },
+    {
+      "id": "p4-news-survey-they-had-survived-for-two-days-on-the-wooden-cupboard-4f70005",
+      "ordinal": 8,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“They had survived for two days on the wooden cupboard while waiting for help”",
+      "excerpt": "“They had survived for two days on the wooden cupboard while waiting for help”",
+      "translation": "「她們在木櫃上等候救援，維持了兩天。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／受困時間",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "兩姐妹在 cupboard 上生還兩天。",
+        "use": "`two days` 顯示事件的驚險程度，也是完整故事的重要時間資料。",
+        "rationale": "可與 floating cupboard 和 rescue 合併，形成一個流暢事件句。",
+        "treatment": "寫 `They survived on it for two days before being rescued.`"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "They had survived for two days on the wooden cupboard while waiting for help"
+      ],
+      "index": 111
+    },
+    {
+      "id": "p4-news-survey-after-their-home-had-been-struck-by-a-flash-flood-db72ba6",
+      "ordinal": 9,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“after their home had been struck by a flash flood.”",
+      "excerpt": "“after their home had been struck by a flash flood.”",
+      "translation": "「事發前，她們的家遭突發洪水沖擊。」",
+      "type": 2,
+      "typeLabel": "2 Task 9 直接可用／事件起因",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Flash flood 衝擊住所，令姐妹流落洪水並依靠 cupboard。",
+        "use": "它補足故事的起因。",
+        "rationale": "與 Typhoon Ellen 背景及 survival result 合併後，事件因果才完整。",
+        "treatment": "寫 `When a flash flood struck their home during Typhoon Ellen in 1983, ...`。"
+      },
+      "visual": false,
+      "task": "B",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "after their home had been struck by a flash flood."
+      ],
+      "index": 112
+    },
+    {
+      "id": "p4-news-survey-they-asked-guanyin-to-save-them-and-she-answered-their-949ad85",
+      "ordinal": 10,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“They asked Guanyin to save them and she answered their prayers”",
+      "excerpt": "“They asked Guanyin to save them and she answered their prayers”",
+      "translation": "「她們向觀音求救，而觀音回應了她們的祈禱。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／母親的信仰詮釋",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "母親相信女兒因向 Guanyin 祈禱而獲救。",
+        "use": "它確認 interview 所述 prayer 的宗教對象。",
+        "rationale": "`she answered` 是母親的信仰詮釋，不宜由 museum 當作客觀因果；可保留可驗證的 praying / carving action。",
+        "treatment": "寫她們刻下向 Guanyin 求救的禱文，不斷言神蹟是客觀事實。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "They asked Guanyin to save them and she answered their prayers"
+      ],
+      "index": 113
+    },
+    {
+      "id": "p4-news-survey-the-two-girls-were-reunited-with-their-mother-and-father-fcc5e11",
+      "ordinal": 11,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“The two girls were reunited with their mother and father last night”",
+      "excerpt": "“The two girls were reunited with their mother and father last night”",
+      "translation": "「兩名女孩昨晚與父母團聚。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／獲救後結果",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "她們獲救後與家人團聚。",
+        "use": "它完成新聞故事，但題目只要求 brief summary of the cupboard story。",
+        "rationale": "`were rescued` 已包含關鍵結果；家庭團聚不增加展品價值的核心解釋。",
+        "treatment": "以 `before being rescued` 收束，不另寫團聚細節。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "The two girls were reunited with their mother and father last night"
+      ],
+      "index": 114
+    },
+    {
+      "id": "p4-news-survey-rescuers-found-them-in-a-flooded-rice-field-near-a-dc77dba",
+      "ordinal": 12,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“rescuers found them in a flooded rice field near a farm in the far north-west of the New Territories.”",
+      "excerpt": "“rescuers found them in a flooded rice field near a farm in the far north-west of the New Territories.”",
+      "translation": "「救援人員在新界西北部一個農場附近的水浸稻田找到她們。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／獲救地點",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "報道交代找到姐妹的具體地點。",
+        "use": "它證實救援發生，但對 brief website summary 並非必要。",
+        "rationale": "在字數限制下，cupboard、two days 和 prayer 比精確地點更能解釋展品故事。",
+        "treatment": "保留獲救結果，省略地點。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "rescuers found them in a flooded rice field near a farm in the far north-west of the New Territories."
+      ],
+      "index": 115
+    },
+    {
+      "id": "p4-news-survey-visual-three-row-survey-table-81c9416",
+      "ordinal": 13,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "Visual — three-row survey table",
+      "excerpt": "The table separates three signage issues—number of signs, letter size and colour—and gives three response counts for each issue.",
+      "translation": "「圖表把指示牌問題分為數量、字體大小和顏色三部分，並列出每部分三種回應的人數。」",
+      "type": 5,
+      "typeLabel": "5 視覺提示／Task 10 問題診斷框架",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "三項設計元素要分開判斷，不能把 `signage inadequate` 當成全部指標都差。",
+        "use": "多數人認為數量足夠，卻認為字太小、顏色不醒目，因此改善方向應集中在設計而非增加數量。",
+        "rationale": "圖表整體是證據框架；真正可寫結論由各數字比較得出。",
+        "treatment": "建議 bigger lettering 和 more eye-catching colours，不建議增加 signs。"
+      },
+      "visual": true,
+      "task": "C",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [],
+      "index": 116
+    },
+    {
+      "id": "p4-news-survey-issue-no-of-signs-7ff2062",
+      "ordinal": 14,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Issue: No. of signs”",
+      "excerpt": "“Issue: No. of signs”",
+      "translation": "「調查項目：指示牌數量。」",
+      "type": 5,
+      "typeLabel": "5 提示／數量分支",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "第一組數字評估 signs 數量。",
+        "use": "它把三個 response counts 限定為數量評價。",
+        "rationale": "Label 沒有自行說明數量是否足夠。",
+        "treatment": "比較 3、436、13 後得出數量毋須增加。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "No. of signs"
+      ],
+      "index": 117
+    },
+    {
+      "id": "p4-news-survey-too-many-3-296ac26",
+      "ordinal": 15,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Too many: 3”",
+      "excerpt": "“Too many: 3”",
+      "translation": "「3 人認為指示牌太多。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／少數意見",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "極少數受訪者認為 signs 過多。",
+        "use": "與其他數字比較後可見這不是主要問題。",
+        "rationale": "Report 不需要逐項列 raw count；要寫多數數據支持的結論。",
+        "treatment": "不寫此數字，也不建議減少 signs。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Too many: 3"
+      ],
+      "index": 118
+    },
+    {
+      "id": "p4-news-survey-satisfactory-436-8e51d28",
+      "ordinal": 16,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Satisfactory: 436”",
+      "excerpt": "“Satisfactory: 436”",
+      "translation": "「436 人認為指示牌數量令人滿意。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／主要結論",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "絕大多數受訪者認為 sign 數量足夠。",
+        "use": "它排除 `add more signs` 這個表面上合理但與數據不符的建議。",
+        "rationale": "Task 10 應提出需要的改善，毋須用字數報告沒有問題的項目。",
+        "treatment": "不增加 signs；把篇幅留給 size 和 colour。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "Satisfactory: 436"
+      ],
+      "index": 119
+    },
+    {
+      "id": "p4-news-survey-not-enough-13-9045b1a",
+      "ordinal": 17,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Not enough: 13”",
+      "excerpt": "“Not enough: 13”",
+      "translation": "「13 人認為指示牌不足。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／少數意見",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "少數人認為 signs 不夠。",
+        "use": "與 436 人的滿意回應相比，不能支持增加數量。",
+        "rationale": "措施要以明顯多數和實際 incident 作判斷。",
+        "treatment": "不把少數意見寫成整體結論。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Not enough: 13"
+      ],
+      "index": 120
+    },
+    {
+      "id": "p4-news-survey-issue-size-of-letters-on-signs-e767b93",
+      "ordinal": 18,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Issue: Size of letters on signs”",
+      "excerpt": "“Issue: Size of letters on signs”",
+      "translation": "「調查項目：指示牌字體大小。」",
+      "type": 5,
+      "typeLabel": "5 提示／字體分支",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "第二組數字評估 signs 上文字的大小。",
+        "use": "它把 344 個 `too small` 回應連到 bigger lettering 建議。",
+        "rationale": "Label 自身不是調查結論。",
+        "treatment": "根據主要回應提出放大文字。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Size of letters on signs"
+      ],
+      "index": 121
+    },
+    {
+      "id": "p4-news-survey-too-big-7-satisfactory-33-too-small-344-7f0140c",
+      "ordinal": 19,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Too big: 7 / Satisfactory: 33 / Too small: 344”",
+      "excerpt": "“Too big: 7 / Satisfactory: 33 / Too small: 344”",
+      "translation": "「7 人認為字體太大，33 人認為合適，344 人認為太小。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／字體問題",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "`Too small` 遠多於另外兩項，字體過小是明確問題。",
+        "use": "它以大量 visitor responses 支持 bigger lettering recommendation。",
+        "rationale": "正式 report 約 200 字，毋須抄三個數字；保留數據導出的措施已足夠。",
+        "treatment": "寫 `The lettering on all signs should be enlarged.`"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Too big: 7",
+        "Satisfactory: 33",
+        "Too small: 344"
+      ],
+      "index": 122
+    },
+    {
+      "id": "p4-news-survey-issue-colour-of-signs-b9c7796",
+      "ordinal": 20,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Issue: Colour of signs”",
+      "excerpt": "“Issue: Colour of signs”",
+      "translation": "「調查項目：指示牌顏色。」",
+      "type": 5,
+      "typeLabel": "5 提示／顏色分支",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "第三組數字評估 sign colours 是否吸引注意。",
+        "use": "它把 401 個 `not eye-catching` 回應連到 colourful / eye-catching design。",
+        "rationale": "Label 需要與 response counts 合讀。",
+        "treatment": "根據主要回應提出改善顏色。"
+      },
+      "visual": false,
+      "task": null,
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Colour of signs"
+      ],
+      "index": 123
+    },
+    {
+      "id": "p4-news-survey-eye-catching-34-satisfactory-1-not-eye-catching-401-60c5f1a",
+      "ordinal": 21,
+      "sourceKey": "news-survey",
+      "sourceBlock": 4,
+      "sourceTitle": "1983 newspaper article and visitor survey",
+      "page": 9,
+      "sourcePage": "Data File p.9",
+      "rootSelector": "#page-9 .museum-news-survey",
+      "heading": "“Eye-catching: 34 / Satisfactory: 1 / Not eye-catching: 401”",
+      "excerpt": "“Eye-catching: 34 / Satisfactory: 1 / Not eye-catching: 401”",
+      "translation": "「34 人認為顏色醒目，1 人認為合適，401 人認為不醒目。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／顏色問題",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "絕大多數受訪者認為 sign colours 不夠醒目。",
+        "use": "它直接支持採用更鮮明、更容易看見的顏色。",
+        "rationale": "Raw counts 可壓縮成清楚的 design finding 和 action。",
+        "treatment": "寫 `Signs should use brighter, more eye-catching colours.`"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "Eye-catching: 34",
+        "Satisfactory: 1",
+        "Not eye-catching: 401"
+      ],
+      "index": 124
+    },
+    {
+      "id": "p4-oconnor-email-email-from-ms-o-conner-8c6b88f",
+      "ordinal": 1,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“Email from Ms O’Conner”",
+      "excerpt": "“Email from Ms O’Conner”",
+      "translation": "「O’Conner 女士的電郵。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 10 投訴來源",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "本頁提供 school visit 的投訴、事故和建議。",
+        "use": "它要與 staff meeting 和 survey 合讀，分清 complainant opinion 與 museum-approved recommendations。",
+        "rationale": "文件標題不屬 report main section。",
+        "treatment": "使用可核對的事故，並以會議最終批准的措施作建議。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Email from Ms O’Conner"
+      ],
+      "index": 125
+    },
+    {
+      "id": "p4-oconnor-email-to-jack-jones-sent-sat-2-april-2016-8-46-8f4f90e",
+      "ordinal": 2,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“To: Jack Jones / Sent: Sat 2 April 2016 8:46 AM / From: S. O’Conner”",
+      "excerpt": "“To: Jack Jones / Sent: Sat 2 April 2016 8:46 AM / From: S. O’Conner”",
+      "translation": "「收件人：Jack Jones；寄出時間：2016 年 4 月 2 日；寄件人：S. O’Conner。」",
+      "type": 5,
+      "typeLabel": "5 提示／來源與時間先後",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Headmistress 在 4 月 5 日 staff meeting 前把投訴寄給館長。",
+        "use": "其後會議正是館方對此投訴的正式回應。",
+        "rationale": "Email headers 只協助判斷資料先後，不是 report content。",
+        "treatment": "使用投訴中的 incident，再採用較後會議確認的 recommendations。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "To: Jack Jones",
+        "Sent: Sat 2 April 2016 8:46 AM",
+        "From: S. O’Conner"
+      ],
+      "index": 126
+    },
+    {
+      "id": "p4-oconnor-email-subject-school-visits-to-the-social-history-museum-3d9ab44",
+      "ordinal": 3,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“Subject: School visits to the Social History Museum”",
+      "excerpt": "“Subject: School visits to the Social History Museum”",
+      "translation": "「主旨：學校到社會歷史博物館參觀。」",
+      "type": 5,
+      "typeLabel": "5 提示／問題分支",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "電郵集中討論 school visits。",
+        "use": "它把 children safety、engagement、staff assistance 和 signage 放在同一參觀情境。",
+        "rationale": "Task 10 已要求 report，不必抄原 email subject。",
+        "treatment": "在 report 中按問題分段，不以此句作正文。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Subject: School visits to the Social History Museum"
+      ],
+      "index": 127
+    },
+    {
+      "id": "p4-oconnor-email-dear-dr-jones-7a172c2",
+      "ordinal": 4,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“Dear Dr Jones”",
+      "excerpt": "“Dear Dr Jones”",
+      "translation": "「Jones 博士：」",
+      "type": 6,
+      "typeLabel": "6 不採用／原信稱呼",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "投訴信寄給 Dr Jones。",
+        "use": "只完成原 email 格式。",
+        "rationale": "Task 10 只寫 report main section，不應使用 email salutation。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "Dear Dr Jones"
+      ],
+      "index": 128
+    },
+    {
+      "id": "p4-oconnor-email-i-am-writing-on-behalf-of-the-committee-for-hong-e2ac5fc",
+      "ordinal": 5,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“I am writing on behalf of The Committee for Hong Kong International Primary Schools”",
+      "excerpt": "“I am writing on behalf of The Committee for Hong Kong International Primary Schools”",
+      "translation": "「我代表香港國際小學委員會來信。」",
+      "type": 5,
+      "typeLabel": "5 提示／投訴代表性",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "投訴並非純粹個人來信，Ms O’Conner 代表 school committee。",
+        "use": "它解釋為何 Museum Board 正式要求 report。",
+        "rationale": "Main section 應處理 problems and recommendations，無須重述投訴者組織。",
+        "treatment": "直接寫問題和 incidents。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "I am writing on behalf of The Committee for Hong Kong International Primary Schools"
+      ],
+      "index": 129
+    },
+    {
+      "id": "p4-oconnor-email-to-make-known-to-you-the-concerns-we-have-about-a2e378a",
+      "ordinal": 6,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“to make known to you the concerns we have about school visits to the Social History Museum.”",
+      "excerpt": "“to make known to you the concerns we have about school visits to the Social History Museum.”",
+      "translation": "「目的是提出我們對學校參觀安排的憂慮。」",
+      "type": 5,
+      "typeLabel": "5 提示／Task 10 問題範圍",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "後文的 safety、boring exhibits、staff assistance 和 signage 都屬 school-visit concerns。",
+        "use": "它提示 report 要把零散句子整理成問題類別。",
+        "rationale": "概括句沒有具體 incident 或 measure。",
+        "treatment": "以具體問題取代 `concerns` 這個籠統字眼。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "to make known to you the concerns we have about school visits to the Social History Museum."
+      ],
+      "index": 130
+    },
+    {
+      "id": "p4-oconnor-email-concerns-i-have-about-how-safe-your-museum-is-for-772c2b9",
+      "ordinal": 7,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“concerns I have about how safe your museum is for children.”",
+      "excerpt": "“concerns I have about how safe your museum is for children.”",
+      "translation": "「她擔心博物館對兒童而言是否安全。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／兒童安全問題",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "第一個 school-visit problem 是 child safety。",
+        "use": "下一句的 broken arm incident 具體證明風險，staff assistance 是最終解決方法之一。",
+        "rationale": "問題、事故和措施要放在同一段，不能分散成無關句子。",
+        "treatment": "以 `Children’s safety and supervision are inadequate` 概括，隨即寫 incident 和 staffing measures。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "concerns I have about how safe your museum is for children."
+      ],
+      "index": 131
+    },
+    {
+      "id": "p4-oconnor-email-a-girl-from-our-school-fell-off-your-large-plastic-b1e29f4",
+      "ordinal": 8,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“a girl from our school fell off your large plastic ox”",
+      "excerpt": "“a girl from our school fell off your large plastic ox”",
+      "translation": "「該校一名女生從大型塑膠牛展品上跌下。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／安全事故",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "學生在參觀期間從 plastic ox 跌下。",
+        "use": "它是 children safety problem 的具體 incident。",
+        "rationale": "後半句提供傷勢；兩項不可拆開，否則事故嚴重程度不完整。",
+        "treatment": "寫 `A pupil fell from the large plastic ox and broke her arm.`"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "a girl from our school fell off your large plastic ox"
+      ],
+      "index": 132
+    },
+    {
+      "id": "p4-oconnor-email-the-girl-broke-her-arm-e03f17d",
+      "ordinal": 9,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“[The girl] broke her arm.”",
+      "excerpt": "“[The girl] broke her arm.”",
+      "translation": "「該名女生手臂骨折。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／事故後果",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Fall 導致明確而嚴重的 injury。",
+        "use": "它證明 safety concern 不能只視為主觀不滿。",
+        "rationale": "題目要求 incidents illustrating problems，傷勢是事故不可缺少的結果。",
+        "treatment": "與 fall 和 plastic ox 合併成一句。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "broke her arm."
+      ],
+      "index": 133
+    },
+    {
+      "id": "p4-oconnor-email-the-fault-lies-with-your-museum-7c2112d",
+      "ordinal": 10,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“The fault lies with your museum.”",
+      "excerpt": "“The fault lies with your museum.”",
+      "translation": "「她指責事故責任在博物館。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／投訴者判斷",
+      "decision": "只控制語氣／格式",
+      "analysis": {
+        "meaning": "Ms O’Conner 把責任歸咎 museum。",
+        "use": "它顯示投訴語氣強烈，但沒有提供獨立事實。",
+        "rationale": "Internal report 應客觀描述 incident 和改善方法，不應直接承認未經調查的 legal blame。",
+        "treatment": "不寫 `the museum was at fault`；客觀寫 injury and inadequate supervision。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "The fault lies with your museum."
+      ],
+      "index": 134
+    },
+    {
+      "id": "p4-oconnor-email-the-exhibits-are-too-boring-for-the-average-primary-school-0e9b4ef",
+      "ordinal": 11,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“the exhibits are too boring for the average primary school student.”",
+      "excerpt": "“the exhibits are too boring for the average primary school student.”",
+      "translation": "「她認為展品對一般小學生來說太沉悶。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／投訴者意見",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Pupils 可能缺乏參觀投入感。",
+        "use": "Part-time staff 製作 worksheets 正面回應這項 engagement problem。",
+        "rationale": "`too boring` 是主觀投訴，report 可用較中性的 `pupils may become disengaged`，再連接 approved measure。",
+        "treatment": "寫 `Worksheets should be prepared to keep pupils engaged.`，毋須重複帶批判性的原句。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "the exhibits are too boring for the average primary school student."
+      ],
+      "index": 135
+    },
+    {
+      "id": "p4-oconnor-email-you-should-at-least-consider-having-some-exhibits-that-children-aa7306a",
+      "ordinal": 12,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“You should at least consider having some exhibits that children can interact with safely.”",
+      "excerpt": "“You should at least consider having some exhibits that children can interact with safely.”",
+      "translation": "「她建議增設可讓兒童安全互動的展品。」",
+      "type": 5,
+      "typeLabel": "5 提示／未獲批准的投訴者建議",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Ms O’Conner 提出 safe interactive exhibits。",
+        "use": "它反映她對 engagement 和 safety 的期望，但 staff meeting 沒有批准這項措施。",
+        "rationale": "Task 10 要寫 `recommendations we would like to suggest`；館方最後確認的是 full-time assistance 和 worksheets，不能把外部建議當成內部決定。",
+        "treatment": "排除 interactive exhibits，改寫會議批准的 staffing package。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "You should at least consider having some exhibits that children can interact with safely."
+      ],
+      "index": 136
+    },
+    {
+      "id": "p4-oconnor-email-don-t-you-think-there-should-be-more-museum-staff-16ef9c2",
+      "ordinal": 13,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“Don’t you think there should be more museum staff to help out our teachers?”",
+      "excerpt": "“Don’t you think there should be more museum staff to help out our teachers?”",
+      "translation": "「她認為應有更多博物館職員協助教師。」",
+      "type": 5,
+      "typeLabel": "5 提示／引出正式分工",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "School groups 得不到足夠 staff support。",
+        "use": "Staff meeting 把這個一般要求轉成可執行安排：full-time staff 全程協助，part-time staff 製作 worksheets。",
+        "rationale": "原句只要求 `more staff`，沒有說明人員來源和職責；後文的 final decision 更準確。",
+        "treatment": "不籠統承諾增加人數，寫兩類職員的具體分工。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "Don’t you think there should be more museum staff to help out our teachers?"
+      ],
+      "index": 137
+    },
+    {
+      "id": "p4-oconnor-email-the-signage-in-the-museum-is-inadequate-f3a09c2",
+      "ordinal": 14,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“the signage in the museum is inadequate.”",
+      "excerpt": "“the signage in the museum is inadequate.”",
+      "translation": "「委員會成員認為館內指示牌不足以有效引路。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／signage 問題",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Signage 未能清楚引導 visitors。",
+        "use": "Basement incident 顯示後果；survey 則精確指出問題在 lettering size 和 colour，不在 number of signs。",
+        "rationale": "`inadequate` 太籠統，必須與 incident 和 survey 合讀後才能提出正確措施。",
+        "treatment": "寫 visitors became lost because signs were hard to read and notice，然後建議 bigger letters and brighter colours。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "the signage in the museum is inadequate."
+      ],
+      "index": 138
+    },
+    {
+      "id": "p4-oconnor-email-because-of-this-one-group-of-our-teachers-and-students-42310b5",
+      "ordinal": 15,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“because of this, one group of our teachers and students found themselves lost in the basement”",
+      "excerpt": "“because of this, one group of our teachers and students found themselves lost in the basement”",
+      "translation": "「由於指示牌問題，一組教師和學生在地下室迷路。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／signage 事故",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Signage failure 造成一個 school group 在 basement 迷路。",
+        "use": "它是第三類問題的具體 incident，並提供明確因果。",
+        "rationale": "下一 clause 的 closing time 顯示事故嚴重程度，應一起保留。",
+        "treatment": "寫 `A school group became lost in the basement at closing time because the signs were unclear.`"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "because of this, one group of our teachers and students found themselves lost in the basement"
+      ],
+      "index": 139
+    },
+    {
+      "id": "p4-oconnor-email-at-closing-time-6b4ef25",
+      "ordinal": 16,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“at closing time.”",
+      "excerpt": "“at closing time.”",
+      "translation": "「事情發生在閉館時間。」",
+      "type": 3,
+      "typeLabel": "3 Task 10 直接可用／事故時間",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "School group 到閉館時仍在 basement 迷路。",
+        "use": "它顯示問題可能影響清場和 visitor safety，不能當作短暫走錯路。",
+        "rationale": "時間資料令 incident 完整，而且只需兩個英文字即可保留。",
+        "treatment": "與 lost-in-basement incident 合併保留 `at closing time`。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": true,
+      "status": "confirmed",
+      "matchParts": [
+        "at closing time."
+      ],
+      "index": 140
+    },
+    {
+      "id": "p4-oconnor-email-i-suggest-you-look-into-the-matter-70d3bc0",
+      "ordinal": 17,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“I suggest you look into the matter.”",
+      "excerpt": "“I suggest you look into the matter.”",
+      "translation": "「她要求館方調查這個問題。」",
+      "type": 5,
+      "typeLabel": "5 提示／一般要求",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "投訴者希望 museum 採取行動。",
+        "use": "Survey 已完成調查並指出具體設計問題，報告可直接提出措施。",
+        "rationale": "`look into` 太籠統，而且資料檔已提供足夠結果。",
+        "treatment": "直接寫放大字體及採用更醒目的顏色。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "context",
+      "matchParts": [
+        "I suggest you look into the matter."
+      ],
+      "index": 141
+    },
+    {
+      "id": "p4-oconnor-email-we-hope-that-you-can-address-these-points-soon-d5549bd",
+      "ordinal": 18,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“We hope that you can address these points ... soon”",
+      "excerpt": "“We hope that you can address these points ... soon”",
+      "translation": "「委員會希望館方盡快處理這些問題。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／處理急迫性",
+      "decision": "只控制語氣／格式",
+      "analysis": {
+        "meaning": "投訴者期望館方迅速行動或回應。",
+        "use": "Report recommendations 應寫得清楚、可執行，不宜只表示日後研究。",
+        "rationale": "Main section 重點是 measures，本句不增加一項新措施。",
+        "treatment": "用 `should` 提出明確行動，毋須寫投訴者希望盡快處理。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "We hope that you can address these points",
+        "soon"
+      ],
+      "index": 142
+    },
+    {
+      "id": "p4-oconnor-email-these-children-are-the-potential-adult-visitors-that-will-ensure-b71d0be",
+      "ordinal": 19,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“these children are the potential adult visitors that will ensure your museum’s future.”",
+      "excerpt": "“these children are the potential adult visitors that will ensure your museum’s future.”",
+      "translation": "「這些兒童將來可能成為成年訪客，對博物館未來十分重要。」",
+      "type": 4,
+      "typeLabel": "4 語義相關／投訴者理由",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Ms O’Conner 以長遠觀眾發展說明 school visits 的重要性。",
+        "use": "它加強投訴的說服力，卻沒有提供題目要求的 problem、incident 或 recommendation。",
+        "rationale": "約 200 字的 main section 要優先保留三組完整的 problem–incident–measure 內容。",
+        "treatment": "省略，不影響任何必答鏈。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "related",
+      "matchParts": [
+        "these children are the potential adult visitors that will ensure your museum’s future."
+      ],
+      "index": 143
+    },
+    {
+      "id": "p4-oconnor-email-i-look-forward-to-your-prompt-reply-89b8e4f",
+      "ordinal": 20,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“I look forward to your prompt reply.”",
+      "excerpt": "“I look forward to your prompt reply.”",
+      "translation": "「期待盡快收到回覆。」",
+      "type": 6,
+      "typeLabel": "6 不採用／客套結語",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "投訴信以正式期望句結束。",
+        "use": "只完成 email 格式。",
+        "rationale": "Task 10 只寫 report main section，不能搬用 email closing。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "I look forward to your prompt reply."
+      ],
+      "index": 144
+    },
+    {
+      "id": "p4-oconnor-email-ms-o-conner-headmistress-chair-of-the-committee-9e0e105",
+      "ordinal": 21,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“Ms O’Conner / Headmistress ... / Chair of the Committee ...”",
+      "excerpt": "“Ms O’Conner / Headmistress of St. Sinead’s Girls School / Chair of the Committee for Hong Kong International Primary Schools”",
+      "translation": "「O’Conner 女士／St. Sinead’s Girls School 校長／香港國際小學委員會主席。」",
+      "type": 5,
+      "typeLabel": "5 提示／投訴者權限",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "寄件人同時代表學校和跨校委員會。",
+        "use": "它說明投訴具有組織代表性，但其建議仍須與館方會議決定分開。",
+        "rationale": "職銜不屬 report main section 的內容點。",
+        "treatment": "使用其 incident evidence，不抄署名欄。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "provisional",
+      "matchParts": [
+        "Ms O’Conner",
+        "Headmistress of St. Sinead’s Girls School",
+        "Chair of the Committee for Hong Kong International Primary Schools"
+      ],
+      "index": 145
+    },
+    {
+      "id": "p4-oconnor-email-this-is-the-last-page-of-the-part-b2-data-d02b577",
+      "ordinal": 22,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“THIS IS THE LAST PAGE OF THE PART B2 DATA FILE”",
+      "excerpt": "“THIS IS THE LAST PAGE OF THE PART B2 DATA FILE”",
+      "translation": "「這是 Part B2 資料檔最後一頁。」",
+      "type": 6,
+      "typeLabel": "6 不採用／文件邊界",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "它標示 printed Data File 到此結束。",
+        "use": "只協助考生確認頁序。",
+        "rationale": "不含任何任務資料。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "THIS IS THE LAST PAGE OF THE PART B2 DATA FILE"
+      ],
+      "index": 146
+    },
+    {
+      "id": "p4-oconnor-email-sources-of-materials-will-be-acknowledged-at-a-later-stage-6eee05b",
+      "ordinal": 23,
+      "sourceKey": "oconnor-email",
+      "sourceBlock": 2,
+      "sourceTitle": "Email from Ms O’Conner",
+      "page": 10,
+      "sourcePage": "Data File p.10",
+      "rootSelector": "#page-10 .museum-email",
+      "heading": "“Sources of materials ... will be acknowledged ... at a later stage.”",
+      "excerpt": "“Sources of materials used in this paper will be acknowledged in the Examination Report and Question Papers published ... at a later stage.”",
+      "translation": "「本試卷所用材料的來源會在稍後出版的考試報告及試卷中列明。」",
+      "type": 6,
+      "typeLabel": "6 不採用／版權與出版聲明",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "HKEAA 交代材料來源的日後鳴謝安排。",
+        "use": "只屬出版行政聲明。",
+        "rationale": "與 Task 8、9、10 完全無關。",
+        "treatment": "完全省略。"
+      },
+      "visual": false,
+      "task": "C",
+      "bankEligible": false,
+      "status": "rejected",
+      "matchParts": [
+        "Sources of materials used in this paper will be acknowledged in the Examination Report and Question Papers published",
+        "at a later stage."
+      ],
+      "index": 147
+    }
+  ],
+  "excludedBlocks": [
+    1,
+    8,
+    9,
+    10
+  ],
+  "excludedContent": [
+    "podcast",
+    "Question-Answer Book",
+    "Data File cover/situation/contents/note sheet",
+    "Lara Gau instruction email"
+  ],
+  "taskLabels": {
+    "A": "回覆 Ms Ip 的電郵",
+    "B": "博物館網站介紹",
+    "C": "呈交 Museum Board 的報告主體"
+  }
+}

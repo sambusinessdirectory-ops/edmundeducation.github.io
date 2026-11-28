@@ -153,7 +153,7 @@ assert.match(runtime, /EDMUND_2016_B2_CURATION_STAGE3_DEBUG/);
 assert.match(runtime, /curation-transcript-inline-listening/);
 assert.match(runtime, /我剛才還未說完/);
 assert.match(runtime, /107 sentence decisions/);
-assert.match(html, /20261128-stage3-sentence-v1/);
+assert.match(html, /20261128-stage4-v1/);
 assert.match(html, /20261123-stage2-v4/);
 assert.match(html, /20261128-stage3-v5/);
 for (const file of [

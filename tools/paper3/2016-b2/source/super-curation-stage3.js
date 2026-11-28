@@ -446,11 +446,13 @@
     stage3.setAttribute('aria-current', 'step');
     $('.curation-stage-dot', stage3).textContent = state.complete ? '✓' : '3';
     $('.curation-stage-count', stage3).textContent = `${state.completedIds.length}/${steps.length}`;
-    for (const id of ['data','writing']) {
-      const item = $(`.curation-stage-item[data-stage="${id}"]`);
-      item.disabled = true;
-      $('.curation-stage-count', item).textContent = '未開放';
-    }
+    const stage4 = $('.curation-stage-item[data-stage="data"]');
+    const stage4Debug = window.EDMUND_2016_B2_CURATION_STAGE4_DEBUG;
+    stage4.disabled = !stage4Debug;
+    $('.curation-stage-count', stage4).textContent = stage4Debug ? `${stage4Debug.getState().completedIds.length}/${stage4Debug.records.length}` : '載入中';
+    const stage5 = $('.curation-stage-item[data-stage="writing"]');
+    stage5.disabled = true;
+    $('.curation-stage-count', stage5).textContent = '未開放';
   }
 
   function renderActions(step) {
