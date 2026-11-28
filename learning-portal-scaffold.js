@@ -226,18 +226,16 @@
   }
 
   function fetchWithDeadline(url, options, timeoutMs) {
-    const controller = new AbortController();
     let timer = 0;
     const deadline = new Promise((_, reject) => {
       timer = window.setTimeout(() => {
-        controller.abort();
         const error = new Error("EDMUND_LOGIN_TIMEOUT");
         error.name = "TimeoutError";
         reject(error);
       }, timeoutMs);
     });
     return Promise.race([
-      fetch(url, { ...options, signal: controller.signal }),
+      fetch(url, options),
       deadline
     ]).finally(() => window.clearTimeout(timer));
   }
@@ -255,7 +253,8 @@
           Authorization: `Bearer ${SUPABASE_CONFIG.anonKey}`,
           "Content-Type": "application/json"
         },
-        body: "{}"
+        body: "{}",
+        signal: AbortSignal.timeout(10000)
       }, 8000);
     } catch (error) {
       if (error?.name === "AbortError" || error?.name === "TimeoutError") throw new Error("登入連線逾時，請再按一次登入。");
@@ -279,7 +278,8 @@
           Authorization: `Bearer ${accessToken}`,
           "Content-Type": "application/json"
         },
-        body: JSON.stringify(args || {})
+        body: JSON.stringify(args || {}),
+        signal: AbortSignal.timeout(12000)
       }, 8000);
     } catch (error) {
       if (error?.name === "AbortError" || error?.name === "TimeoutError") {
