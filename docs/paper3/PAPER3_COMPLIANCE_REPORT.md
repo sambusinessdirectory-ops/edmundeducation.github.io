@@ -205,6 +205,7 @@ The persistent annotation layer now classifies every Type 6 span as rejected and
 
 | Evidence ID | Verified scope |
 |---|---|
+| `P3-2016-STAGE3-RUNTIME` | Retains the previously released sentence-owned Podcast runtime and its reversible transcript/note architecture |
 | `P3-2016-STAGE4-INDEX` | Advances the Stage 4 CSS and loader cache key so browsers receive the corrected assets |
 | `P3-2016-STAGE4-RUNTIME` | Bundles the persistent Type 6 rejection layer, independent current-range outline and audit hook |
 | `P3-2016-STAGE4-LOADER` | Loads the rebuilt Stage 4 runtime with the v2 cache key |
