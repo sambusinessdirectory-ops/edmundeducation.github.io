@@ -372,11 +372,8 @@
   let accessTransition = null;
   let accessTransitionFailsafeTimer = 0;
   let accessNavigationPending = false;
-  const ACCESS_TRANSITION_GIF = new URL("Running Horse Mascot.gif?v=20261121-animated1", SHARED_SCRIPT_URL).href;
-  const ACCESS_TRANSITION_STILL = new URL("assets/homepage-optimized/running-horse-loader.webp?v=20261121-still1", SHARED_SCRIPT_URL).href;
   const accessMotionReduced = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches === true;
-  const accessAnimationHeavy = /Firefox\//i.test(window.navigator?.userAgent || "");
-  if (!accessMotionReduced && !accessAnimationHeavy) { const preloadTransition = new Image(); preloadTransition.src = ACCESS_TRANSITION_GIF; }
+  const ACCESS_TRANSITION_HORSE_SVG = `<svg class="edmund-student-access-transition__horse" viewBox="0 0 330 220" role="img" aria-label="Eddy"><defs><linearGradient id="eddy-loader-coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c97828"/><stop offset="1" stop-color="#8d431c"/></linearGradient></defs><ellipse cx="165" cy="199" rx="112" ry="13" fill="#6d648f" opacity=".48"/><path d="M82 81 67 37l39 27M226 77l24-39 10 51" fill="#a95621" stroke="#5a2e1d" stroke-width="8" stroke-linejoin="round"/><path d="M86 75c27-45 105-57 151-8 32 34 31 94 3 120-25 23-122 20-154-5-32-25-30-76 0-107Z" fill="url(#eddy-loader-coat)" stroke="#5a2e1d" stroke-width="8"/><path d="M92 70c26-37 96-54 138-12-35-3-53 10-68 30-22-19-46-23-70-18Z" fill="#282124"/><ellipse cx="118" cy="112" rx="16" ry="20" fill="#fff"/><ellipse cx="207" cy="112" rx="16" ry="20" fill="#fff"/><circle cx="123" cy="118" r="7" fill="#241d1d"/><circle cx="202" cy="118" r="7" fill="#241d1d"/><path d="M117 151c23 18 72 18 95-1" fill="none" stroke="#4a281f" stroke-width="8" stroke-linecap="round"/><circle cx="105" cy="148" r="7" fill="#4a281f"/><circle cx="224" cy="148" r="7" fill="#4a281f"/></svg>`;
   let persistentDeviceClient = null;
 
   function storageJson(storage, key) {
@@ -421,8 +418,7 @@
     overlay.dataset.edmundStudentAccessTransition = "";
     overlay.setAttribute("role", "status");
     overlay.setAttribute("aria-live", "polite");
-    const horseUrl = accessMotionReduced || accessAnimationHeavy ? ACCESS_TRANSITION_STILL : ACCESS_TRANSITION_GIF;
-    overlay.innerHTML = `<section class="edmund-student-access-transition__card"><img class="edmund-student-access-transition__horse" src="${horseUrl}" alt=""><strong>正在進入學習系統</strong><p data-edmund-access-message>${message}</p><div class="edmund-student-access-transition__track" aria-hidden="true"></div></section>`;
+    overlay.innerHTML = `<section class="edmund-student-access-transition__card">${ACCESS_TRANSITION_HORSE_SVG}<strong>正在進入學習系統</strong><p data-edmund-access-message>${message}</p><div class="edmund-student-access-transition__track" aria-hidden="true"></div></section>`;
     document.body.append(overlay);
     accessTransition = overlay;
     window.clearTimeout(accessTransitionFailsafeTimer);
@@ -502,19 +498,11 @@
     return true;
   }
 
-  function checkPendingStudentLoginSound() {
-    if (!pendingStudentLoginSound) return;
-    if (Date.now() >= pendingStudentLoginSound.expiresAt) {
+  function expirePendingStudentLoginSound() {
+    if (pendingStudentLoginSound) {
       pendingStudentLoginSound = null;
       pendingStudentLoginTimer = 0;
-      return;
     }
-    const candidate = studentSessionCandidate();
-    if (candidate?.token && candidate.token !== pendingStudentLoginSound.previousToken) {
-      completePendingStudentLoginSound(candidate);
-      return;
-    }
-    pendingStudentLoginTimer = window.setTimeout(checkPendingStudentLoginSound, 150);
   }
 
   function isStudentLoginForm(form) {
@@ -532,11 +520,10 @@
     if (!isStudentLoginForm(form)) return;
     const candidate = studentSessionCandidate();
     pendingStudentLoginSound = {
-      previousToken: String(candidate?.token || ""),
-      expiresAt: Date.now() + 30000
+      previousToken: String(candidate?.token || "")
     };
     window.clearTimeout(pendingStudentLoginTimer);
-    pendingStudentLoginTimer = window.setTimeout(checkPendingStudentLoginSound, 150);
+    pendingStudentLoginTimer = window.setTimeout(expirePendingStudentLoginSound, 30000);
   }
 
   function monitorAuthenticatedEntry() {
