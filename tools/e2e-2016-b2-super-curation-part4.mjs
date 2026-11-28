@@ -40,6 +40,20 @@ try{
   const multiTask=await pick(record=>record.sourceKey==='minutes'&&record.task==='C'&&record.bankEligible);await page.selectOption('#curation-step-jump',multiTask);await page.screenshot({path:path.join(output,'2016-b2-stage4-multi-task-evidence.png'),fullPage:false});
   const correction=await pick(record=>record.sourceKey==='resident-interview'&&/she told me it was the left/i.test(record.heading));await page.selectOption('#curation-step-jump',correction);await page.screenshot({path:path.join(output,'2016-b2-stage4-update-correction.png'),fullPage:false});
   const rejected=await pick(record=>record.sourceKey==='minutes'&&/rejected the suggestion of a security guard/i.test(record.heading));await page.selectOption('#curation-step-jump',rejected);await page.screenshot({path:path.join(output,'2016-b2-stage4-rejected-information.png'),fullPage:false});
+  const type6Ids=await page.evaluate(()=>window.EDMUND_2016_B2_CURATION_STAGE4_DEBUG.records.filter(record=>record.type===6).map(record=>record.id));
+  assert.equal(type6Ids.length,17);
+  for(const id of type6Ids){
+    const audit=await page.evaluate(async stepId=>{const debug=window.EDMUND_2016_B2_CURATION_STAGE4_DEBUG;debug.goById(stepId);await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));return debug.getCurrentHighlightAudit();},id);
+    assert.equal(audit.type,6,`${id} remains Type 6`);
+    assert.equal(audit.bankEligible,false,`${id} never enters the evidence bank`);
+    assert.equal(audit.currentCustomHighlight,false,`${id} has no green Custom Highlight competing with its red strike`);
+    assert.equal(audit.activeRangeCount>0,true,`${id} resolves to exact text ranges`);
+    assert.equal(audit.currentOutlineCount>0,true,`${id} receives an independent exact-range outline`);
+    assert.equal(audit.activeRangesInRejected,true,`${id} remains in the persistent rejected highlight`);
+  }
+  const grandchildren=await pick(record=>record.type===6&&/14 grandchildren/i.test(record.excerpt));
+  await page.evaluate(async stepId=>{window.EDMUND_2016_B2_CURATION_STAGE4_DEBUG.goById(stepId);await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));},grandchildren);
+  await page.screenshot({path:path.join(output,'2016-b2-stage4-type6-red-strike-independent-focus.png'),fullPage:false});
 
   const routeContract=await page.evaluate(()=>window.EDMUND_2016_B2_CURATION_STAGE4_DEBUG.routes);
   assert.equal(routeContract.length,6);
@@ -93,6 +107,6 @@ try{
   assert.equal(await motionPage.locator('.curation-stage4-flight').count(),1,'motion mode has exactly one live flight clone');await motionPage.waitForTimeout(1000);assert.equal(await motionPage.locator('.curation-stage4-flight').count(),0,'flight clone is removed after animation');
   const performanceObservation=await motionPage.evaluate(()=>window.EDMUND_2016_B2_CURATION_STAGE4_DEBUG.getPerformance());assert.equal(performanceObservation.targetCount,148);assert.equal(performanceObservation.flightPeak,1);assert.equal(performanceObservation.liveFlights,0);await motionContext.close();
   assert.equal(errors.length,0,errors.join('\n'));assert.equal(networkIssues.length,0,networkIssues.join('\n'));
-  fs.writeFileSync(path.join(output,'2016-b2-stage4-browser-test-report.md'),`# 2016 B2 Super Curation Stage 4 — Browser Test Report\n\n- Result: **PASS**\n- Fact-line records: 148 / 148\n- Exact target audit failures: 0\n- Evidence-bank rows at completion: 37\n- Source order: Data File pages 4–10\n- Rewind: future marks and bank evidence removed\n- Classification revision: minutes C → A+C shown\n- Visual units: exact plough photograph target verified\n- Detours: 6/6 exact visit-and-return routes verified\n- Motion: one flight clone maximum, removed after animation\n- Reduced motion: no flight clone created\n- Spotlight: four masks and off state verified\n- Persistence: completion, bookmark and help draft restored\n- Earlier-stage local state: unchanged\n- Stage 5: locked\n- Console/page errors: 0\n- Missing assets: 0\n- Target-resolution initialization: ${Math.round(performanceObservation.initMs)} ms in the test browser\n`);
+  fs.writeFileSync(path.join(output,'2016-b2-stage4-browser-test-report.md'),`# 2016 B2 Super Curation Stage 4 — Browser Test Report\n\n- Result: **PASS**\n- Fact-line records: 148 / 148\n- Exact target audit failures: 0\n- Type 6: 17 / 17 exact spans retain the persistent 3 px red strike; none is bankable; current focus uses a separate outline layer\n- Evidence-bank rows at completion: 37\n- Source order: Data File pages 4–10\n- Rewind: future marks and bank evidence removed\n- Classification revision: minutes C → A+C shown\n- Visual units: exact plough photograph target verified\n- Detours: 6/6 exact visit-and-return routes verified\n- Motion: one flight clone maximum, removed after animation\n- Reduced motion: no flight clone created\n- Spotlight: four masks and off state verified\n- Persistence: completion, bookmark and help draft restored\n- Earlier-stage local state: unchanged\n- Stage 5: locked\n- Console/page errors: 0\n- Missing assets: 0\n- Target-resolution initialization: ${Math.round(performanceObservation.initMs)} ms in the test browser\n`);
   console.log('2016 B2 Super Curation Part 4 browser regression: PASS');
 }finally{await browser.close();await new Promise(resolve=>server.close(resolve));}

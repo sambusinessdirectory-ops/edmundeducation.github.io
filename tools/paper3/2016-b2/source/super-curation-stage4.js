@@ -15,7 +15,7 @@
   const targetMap = new Map();
   const canonicalModels = new WeakMap();
   const transactionLog = [];
-  const highlightNames = ['stage4-a','stage4-b','stage4-c','stage4-hint','stage4-rejected','stage4-current'];
+  const highlightNames = ['stage4-a','stage4-b','stage4-c','stage4-hint','stage4-rejected'];
   const masks = $$('.curation-mask');
   let spotlightFrame = 0;
   let spotlightUntil = 0;
@@ -150,6 +150,9 @@
   bank.setAttribute('aria-label', 'Stage 4 寫作證據庫');
   bank.innerHTML = `<header><h2>寫作證據庫</h2><p>只收入已核對、可直接使用的資料。</p></header>${['A','B','C'].map(task => `<section data-task="${task}"><h3><span>${task}</span>${data.taskLabels[task]} <b data-count>0</b></h3><ol></ol></section>`).join('')}`;
   document.body.append(bank);
+  const currentRangeLayer = make('div', 'curation-stage4-current-layer');
+  currentRangeLayer.setAttribute('aria-hidden', 'true');
+  document.body.append(currentRangeLayer);
   const stage4RouteCallout = make('div', 'curation-route-callout curation-stage4-route-callout');
   stage4RouteCallout.hidden = true;
   const stage4RouteArrow = document.createElementNS('http://www.w3.org/2000/svg','svg');
@@ -176,6 +179,7 @@
 
   function clearHighlights() {
     if (CSS.highlights) for (const name of highlightNames) CSS.highlights.delete(name);
+    currentRangeLayer.replaceChildren();
     $$('.curation-stage4-current,.curation-stage4-visual-a,.curation-stage4-visual-b,.curation-stage4-visual-c,.curation-stage4-visual-hint,.curation-stage4-visual-rejected').forEach(node => node.classList.remove('curation-stage4-current','curation-stage4-visual-a','curation-stage4-visual-b','curation-stage4-visual-c','curation-stage4-visual-hint','curation-stage4-visual-rejected'));
   }
   function highlightKind(record) {
@@ -183,21 +187,42 @@
     if (record.task && record.bankEligible) return record.task.toLowerCase();
     return 'hint';
   }
+  function renderCurrentFocus() {
+    currentRangeLayer.replaceChildren();
+    if (!state.active) return;
+    const active = targetMap.get(current().id);
+    if (!active) return;
+    if (!active.ranges.length) {
+      active.elements.forEach(element => element.classList.add('curation-stage4-current'));
+      return;
+    }
+    for (const range of active.ranges) {
+      for (const rect of range.getClientRects()) {
+        if (!rect.width || !rect.height || rect.bottom < 0 || rect.top > innerHeight) continue;
+        const outline = make('span', 'curation-stage4-current-range');
+        Object.assign(outline.style, {
+          left:`${rect.left - 4}px`,
+          top:`${rect.top - 3}px`,
+          width:`${rect.width + 8}px`,
+          height:`${rect.height + 6}px`
+        });
+        currentRangeLayer.append(outline);
+      }
+    }
+  }
   function renderHighlights() {
     clearHighlights();
-    const groups = {a:[],b:[],c:[],hint:[],rejected:[],current:[]};
+    const groups = {a:[],b:[],c:[],hint:[],rejected:[]};
     for (const record of records.slice(0, currentIndex() + 1)) {
       const target = targetMap.get(record.id);
       const kind = highlightKind(record);
       if (target.ranges.length) groups[kind].push(...target.ranges);
       else target.elements.forEach(element => element.classList.add(`curation-stage4-visual-${kind}`));
     }
-    const active = targetMap.get(current().id);
-    if (active?.ranges.length) groups.current.push(...active.ranges);
-    active?.elements.forEach(element => element.classList.add('curation-stage4-current'));
     if (CSS.highlights && typeof Highlight === 'function') {
       for (const [kind,ranges] of Object.entries(groups)) if (ranges.length) CSS.highlights.set(`stage4-${kind}`, new Highlight(...ranges));
     }
+    renderCurrentFocus();
   }
 
   function renderBank() {
@@ -338,7 +363,7 @@
   }
   function trackSpotlight() {
     spotlightUntil=performance.now()+900;
-    const tick=()=>{ if (!state.active) return; renderSpotlight(); if (performance.now()<spotlightUntil) requestAnimationFrame(tick); };
+    const tick=()=>{ if (!state.active) return; renderSpotlight(); renderCurrentFocus(); if (performance.now()<spotlightUntil) requestAnimationFrame(tick); };
     requestAnimationFrame(tick);
   }
 
@@ -415,6 +440,12 @@
     version:data.version,architectureVersion:data.architectureVersion,storageKey:data.storageKey,
     records:records.map(record=>({...record})),sources:data.sources,routes:routes.map(route=>({...route})),targetAudit,transactionLog,
     getPerformance:()=>({initMs:targetResolutionMs,targetCount:targetMap.size,flightPeak,liveFlights:$$('.curation-stage4-flight').length}),
+    getCurrentHighlightAudit:()=>{
+      const record=current(),active=targetMap.get(record.id);
+      const rejected=CSS.highlights?.get('stage4-rejected');
+      const rejectedRanges=rejected?[...rejected]:[];
+      return {id:record.id,type:record.type,bankEligible:record.bankEligible,activeRangeCount:active?.ranges.length||0,currentOutlineCount:currentRangeLayer.childElementCount,currentCustomHighlight:CSS.highlights?.has('stage4-current')||false,rejectedRangeCount:rejectedRanges.length,activeRangesInRejected:record.type!==6||active.ranges.every(range=>rejectedRanges.includes(range))};
+    },
     getState:()=>({...state,position:currentIndex(),stepId:current().id,completedIds:completedIds(),bankIds:records.slice(0,currentIndex()+(state.complete?1:0)).filter(record=>record.bankEligible).map(record=>record.id)}),
     enter,leave:()=>leave({switchStage:true}),next,prev:()=>go(currentIndex()-1,true),goById:id=>{const record=byId.get(id);if(record)go(record.index,true);},
     beginRoute:id=>{const route=routes.find(item=>item.id===id);if(route)beginRoute(route);},returnRoute,

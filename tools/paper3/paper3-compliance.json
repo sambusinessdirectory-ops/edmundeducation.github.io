@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "release": "2013-b2-stage4-v2-full-analysis",
-  "scope": "2013 DSE Paper 3 B2 Super Curation Parts 1-4, with Stage 5 locked and existing 2015 records retained",
+  "release": "2016-b2-stage4-v2-type6-red-strike",
+  "scope": "2016 DSE Paper 3 B2 Stage 4 Type 6 red-strike correction, with existing governed records retained",
   "authority": [
     "Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf",
     "2025_B2_Super_Curation_Line_by_Line.md",
@@ -458,10 +458,13 @@
     "node tools/paper3/check-2013-b2-stage3.mjs http://127.0.0.1:4174",
     "node tools/paper3/check-2013-b2-stage3-behaviors.mjs http://127.0.0.1:4174",
     "node tools/paper3/check-2013-b2-stage4.mjs http://127.0.0.1:4174",
-    "node tools/paper3/verify-paper3-compliance.mjs --changed-files <Stage 4 listed files>"
+    "node tools/paper3/verify-paper3-compliance.mjs --changed-files <Stage 4 listed files>",
+    "node tools/paper3/build-2016-b2-stage4-runtime.mjs",
+    "node tools/test-2016-b2-super-curation-part4.mjs",
+    "node tools/e2e-2016-b2-super-curation-part4.mjs"
   ],
   "result": "verified",
-  "revision": "paper3-2014-b2-complete-five-stage-live-v1",
+  "revision": "paper3-2016-b2-stage4-type6-red-strike-v2",
   "report": "docs/paper3/PAPER3_COMPLIANCE_REPORT.md",
   "requiredReferences": [
     {"id":"P3-GOLDEN-V7","path":"tools/paper3/v7-requirements.json","status":"available","note":"Machine-readable Paper 3 governance requirements."},
@@ -485,6 +488,10 @@
     {"id":"P3-2014-P4-BROWSER-TEST","path":"paper3-2014-stage4.test.cjs","status":"verified","sha256":"2d21de7427ad155d47b11388b676fffa1d988c86141bc386b733cfdea7b1926f","requirementIds":["V7-TEST-01","V7-STATE-01","V7-RESP-01","V7-A11Y-01"],"goldenManualCitations":["Golden Manual v8.2 first/middle/last, rewind, route, reload and responsive validation gates"],"lineByLineCitations":["2025 Stage 4 regression dimensions applied to the 2014 journey"],"verification":["Chromium covers strike semantics, routes, reload, audio seeking, translation, widths, Stage 4-to-5 boundary and metadata absence"]},
     {"id":"P3-2014-P5-DATA","path":"paper3/2014-b2/super-curation-stage5-data-v3.js","status":"verified","sha256":"1a43094de4c8b612ae4cf71937e44fc5cfbf5e9041991e54c8396c68fa866734","requirementIds":["V7-SRC-01","V7-STATE-01","V7-PROG-01","V7-TEST-01"],"goldenManualCitations":["Golden Manual v8.2 concise why/structure guidance, actual-sentence fidelity and exact syntax words"],"lineByLineCitations":["2025 Stage 5 guide pairing and exact essay-structure phrases adapted only to 2014 units and evidence"],"verification":["237 stable steps contain twelve actions, forty-nine atomic units, eighty-eight exact source visits and paired returns"]},
     {"id":"P3-2014-P5-STYLES","path":"paper3/2014-b2/super-curation-stage5-v2.css","status":"verified","sha256":"caa28a855d7bf0c31a62906eeee59a72433822ff04cca2149c4f0bc4194ec234","requirementIds":["V7-A11Y-01","V7-RESP-01","V7-MOTION-01"],"goldenManualCitations":["Golden Manual v8.2 central practice page, no-spotlight writing view and task/structure/source-use colours"],"lineByLineCitations":["2025 Stage 5 practice, evidence bank and source-preview composition"],"verification":["Responsive layouts, full essay visibility, 16px analysis, pale source-use strikes and exact 2025 rail states pass"]},
-    {"id":"P3-2014-P5-BROWSER-TEST","path":"paper3-2014-stage5.test.cjs","status":"verified","sha256":"76a283796b4e6d07188caf16b9dd6fb1ffd5fa5c1a8ae45941fef6e06c23299e","requirementIds":["V7-TEST-01","V7-STATE-01","V7-RESP-01","V7-A11Y-01"],"goldenManualCitations":["Golden Manual v8.2 writing state, route, reload, model and submission-safety gates"],"lineByLineCitations":["2025 Stage 5 first/middle/final and model-source regression dimensions"],"verification":["Chromium covers exact rail geometry, all model analyses, source routes, rewind, persistence, transfer, storage failure, responsive widths and no internal metadata"]}
+    {"id":"P3-2014-P5-BROWSER-TEST","path":"paper3-2014-stage5.test.cjs","status":"verified","sha256":"76a283796b4e6d07188caf16b9dd6fb1ffd5fa5c1a8ae45941fef6e06c23299e","requirementIds":["V7-TEST-01","V7-STATE-01","V7-RESP-01","V7-A11Y-01"],"goldenManualCitations":["Golden Manual v8.2 writing state, route, reload, model and submission-safety gates"],"lineByLineCitations":["2025 Stage 5 first/middle/final and model-source regression dimensions"],"verification":["Chromium covers exact rail geometry, all model analyses, source routes, rewind, persistence, transfer, storage failure, responsive widths and no internal metadata"]},
+    {"id":"P3-2016-STAGE4-INDEX","path":"paper3/2016-b2/index.html","status":"verified","sha256":"5abb2cb18c490c49658f09b01c359d018af64ca5894271d8d3fef38f9224edaa","requirementIds":["V7-BOOT-01","V7-TEST-01"],"goldenManualCitations":["Golden Manual v8.2 deterministic boot and released-asset consistency gate"],"lineByLineCitations":["2025 Stage 4 production page loads versioned style and controller assets"],"verification":["The v2 CSS and loader cache keys are present in the production 2016 page"]},
+    {"id":"P3-2016-STAGE4-RUNTIME","path":"paper3/2016-b2/stage4-runtime.js.gz","status":"verified","sha256":"eae64eefbf2f4564b891793ba5ebe04b5b33e34ba4bc214b71dbde3e6f5901e7","requirementIds":["V7-SRC-01","V7-MOTION-01","V7-A11Y-01","V7-TEST-01"],"goldenManualCitations":["Golden Manual v8.2 Type 6 permanent red strike, independent current-sentence outline and exact-span release gates"],"lineByLineCitations":["2025 Stage 4 rejected spans retain an inner red strike while current focus is a separate outline layer"],"verification":["Production Chromium verifies all 17 Type 6 ranges remain in stage4-rejected, none is bankable and the current focus uses an independent exact-range outline"]},
+    {"id":"P3-2016-STAGE4-LOADER","path":"paper3/2016-b2/super-curation-stage4-loader.js","status":"verified","sha256":"a0fecdf7b75132cbcf4947b424f2f1cf477fa92f0ba5cbb4d8d70c6251e4d616","requirementIds":["V7-BOOT-01","V7-TEST-01"],"goldenManualCitations":["Golden Manual v8.2 deterministic boot and versioned asset contract"],"lineByLineCitations":["2025 Stage 4 loader preserves ordered runtime mounting"],"verification":["The loader requests the rebuilt v2 runtime and retains the existing failure path"]},
+    {"id":"P3-2016-STAGE4-STYLES","path":"paper3/2016-b2/super-curation.css","status":"verified","sha256":"0f73514a20f84c11fadb6d91a49bd1c81cc4f5d1b77bc258ab8a5e25dc296769","requirementIds":["V7-MOTION-01","V7-A11Y-01","V7-RESP-01","V7-TEST-01"],"goldenManualCitations":["Golden Manual v8.2 Type 6 exact-span 3 px red strike and independent current-source outline"],"lineByLineCitations":["2025 Stage 4 red pen remains visible beneath the exact current-source outline"],"verification":["Static and browser tests confirm #c7222c 3 px strikes, no stage4-current Custom Highlight and a transparent green outline layer"]}
   ]
 }

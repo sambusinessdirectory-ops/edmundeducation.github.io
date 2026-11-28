@@ -3,6 +3,7 @@
 - Result: **PASS**
 - Fact-line records: 148 / 148
 - Exact target audit failures: 0
+- Type 6: 17 / 17 exact spans retain the persistent 3 px red strike; none is bankable; current focus uses a separate outline layer
 - Evidence-bank rows at completion: 37
 - Source order: Data File pages 4–10
 - Rewind: future marks and bank evidence removed
