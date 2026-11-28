@@ -264,35 +264,26 @@
     <div class="curation-transcript-window-body"></div>`;
   const transcriptBody = $('.curation-transcript-window-body', transcriptWindow);
   const transcriptRows = [];
+  const transcriptSentenceEls = [];
 
-  function appendSemanticText(container, turn) {
-    const ranges = [];
-    const pointClass = turn.task
-      ? `curation-transcript-inline-task curation-transcript-inline-task-${turn.task}`
+  function appendSemanticText(container, sentence) {
+    const ranges = sentence.highlightRanges || [];
+    const pointClass = sentence.task
+      ? `curation-transcript-inline-task curation-transcript-inline-task-${sentence.task}`
       : 'curation-transcript-inline-listening';
-    const addRanges = (phrases, className) => {
-      for (const phrase of phrases || []) {
-        const at = turn.text.indexOf(phrase);
-        if (at < 0) {
-          console.error('2016 Stage 3 transcript phrase audit failed.', {turn: turn.id, phrase});
-          continue;
-        }
-        ranges.push({start: at, end: at + phrase.length, className});
-      }
-    };
-    addRanges(turn.highlightPhrases, pointClass);
-    ranges.sort((a, b) => a.start - b.start || b.end - a.end);
+    const ordered = ranges.map(range => ({...range, className: pointClass}))
+      .sort((a, b) => a.start - b.start || b.end - a.end);
     let cursor = 0;
-    for (const range of ranges) {
+    for (const range of ordered) {
       if (range.start < cursor) continue;
       if (range.start > cursor) {
-        container.append(make('span', 'curation-transcript-inline-noise', turn.text.slice(cursor, range.start)));
+        container.append(make('span', 'curation-transcript-inline-noise', sentence.text.slice(cursor, range.start)));
       }
-      container.append(make('span', range.className, turn.text.slice(range.start, range.end)));
+      container.append(make('span', range.className, sentence.text.slice(range.start, range.end)));
       cursor = range.end;
     }
-    if (cursor < turn.text.length) {
-      container.append(make('span', 'curation-transcript-inline-noise', turn.text.slice(cursor)));
+    if (cursor < sentence.text.length) {
+      container.append(make('span', 'curation-transcript-inline-noise', sentence.text.slice(cursor)));
     }
   }
 
@@ -301,12 +292,22 @@
     row.dataset.transcriptIndex = String(turn.index);
     if (turn.task) row.dataset.task = turn.task;
     const speaker = make('strong', 'curation-transcript-speaker', turn.speaker);
-    const copy = make('p', 'curation-transcript-copy');
-    appendSemanticText(copy, turn);
-    const translation = make('p', 'curation-transcript-translation', turn.translation);
-    translation.lang = 'zh-Hant';
+    const copy = make('div', 'curation-transcript-copy');
+    const sentences = data.transcriptSentences.filter(sentence => sentence.sourceTurnIndex === turn.index);
+    for (const sentence of sentences) {
+      const sentenceEl = make('span', `curation-transcript-sentence curation-transcript-sentence-${sentence.kind}`);
+      sentenceEl.dataset.sentenceIndex = String(sentence.index);
+      sentenceEl.dataset.sourceTurnIndex = String(turn.index);
+      const original = make('span', 'curation-transcript-original');
+      appendSemanticText(original, sentence);
+      const translation = make('span', 'curation-transcript-translation', sentence.translation);
+      translation.lang = 'zh-Hant';
+      sentenceEl.append(original, translation);
+      copy.append(sentenceEl);
+      transcriptSentenceEls[sentence.index] = sentenceEl;
+    }
     const time = make('time', '', `${formatTime(turn.start)}–${formatTime(turn.end)}`);
-    row.append(speaker, time, copy, translation);
+    row.append(speaker, time, copy);
     transcriptBody.append(row);
     transcriptRows.push(row);
   }
@@ -367,27 +368,27 @@
 
   function renderTranscript(focus = false) {
     const step = current();
-    const reviewIndex = step.kind === 'review' ? step.transcriptIndex : -1;
     const reviewStart = steps.find(item => item.kind === 'review')?.index ?? Infinity;
     const inReview = step.index >= reviewStart;
-    const cueIndexes = new Set();
-    for (const cue of data.cues) {
-      if (!state.heardCueIds.includes(cue.id)) continue;
-      cueIndexes.add(cue.transcriptIndex);
-      for (const rejected of cue.rejectedTranscriptIndexes || []) cueIndexes.add(rejected);
-    }
-    transcriptRows.forEach((row, index) => {
-      row.classList.toggle('is-audio-reached', cueIndexes.has(index));
-      row.classList.toggle('is-reviewed', inReview && index <= reviewIndex);
-      row.classList.toggle('is-current', step.kind === 'review' && index === reviewIndex);
+    const reviewIndex = step.kind === 'review'
+      ? step.sentenceIndex
+      : (inReview ? data.transcriptSentences.length - 1 : -1);
+    const time = Number.isFinite(audio.currentTime) ? audio.currentTime : state.audioTime;
+    const audioCurrentIndex = data.transcriptSentences.findIndex(sentence =>
+      time >= sentence.start - 0.04 && time < sentence.end - 0.04);
+    transcriptSentenceEls.forEach((sentenceEl, index) => {
+      const sentence = data.transcriptSentences[index];
+      sentenceEl.classList.toggle('is-audio-reached', sentence.end <= time + 0.12);
+      sentenceEl.classList.toggle('is-reviewed', inReview && index <= reviewIndex);
+      sentenceEl.classList.toggle('is-current', step.kind === 'review' ? index === reviewIndex : index === audioCurrentIndex);
     });
     transcriptWindow.classList.toggle('show-translation', state.transcriptTranslation);
     const translate = $('.curation-transcript-translate', transcriptWindow);
     translate.setAttribute('aria-pressed', String(state.transcriptTranslation));
     translate.textContent = state.transcriptTranslation ? '隱藏中文' : '中文對照';
     if (focus && step.kind === 'review') {
-      const row = transcriptRows[step.transcriptIndex];
-      if (row) row.scrollIntoView({block: 'center', behavior: 'auto'});
+      const sentenceEl = transcriptSentenceEls[step.sentenceIndex];
+      if (sentenceEl) sentenceEl.scrollIntoView({block: 'center', behavior: 'auto'});
     }
   }
 
@@ -469,11 +470,11 @@
       replay.addEventListener('click', () => playCue(cue, true));
       stage3Panel.append(replay);
     } else if (step.kind === 'review') {
-      const turn = data.transcript[step.transcriptIndex];
-      const play = make('button', 'curation-stage3-small', `▶ 播放這句 ${formatTime(turn.start)}`);
+      const sentence = data.transcriptSentences[step.sentenceIndex];
+      const play = make('button', 'curation-stage3-small', `▶ 播放這句 ${formatTime(sentence.start)}`);
       play.type = 'button';
       play.addEventListener('click', () => {
-        audio.currentTime = turn.start;
+        audio.currentTime = sentence.start;
         activeBoundaryCueId = null;
         audio.play().catch(showAudioError);
       });
@@ -503,7 +504,7 @@
       const cue = cuesById.get(step.cueId);
       return cue.field ? fieldRefs.get(cue.field)?.textarea : $('#page-3 .conference-notes h2');
     }
-    if (step.kind === 'review') return transcriptRows[step.transcriptIndex];
+    if (step.kind === 'review') return transcriptSentenceEls[step.sentenceIndex];
     return $('#page-3 .conference-notes h2');
   }
 
@@ -700,6 +701,7 @@
       return;
     }
     syncPlayer();
+    renderTranscript(false);
   });
   audio.addEventListener('play', () => {
     if (!activeBoundaryCueId) armNextBoundary(audio.currentTime);
@@ -924,6 +926,7 @@
     fields: data.fields,
     cues: data.cues,
     transcript: data.transcript,
+    transcriptSentences: data.transcriptSentences,
     transactionLog,
     getState: () => ({...state, position: current().index, stepId: current().id, typingCueId, activeBoundaryCueId, audioTime: audio.currentTime}),
     enter,
