@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": "2013-b2-stage4-v1",
+  "release": "2013-b2-stage4-v2-full-analysis",
   "scope": "2013 DSE Paper 3 B2 Super Curation Parts 1-4, with Stage 5 locked and existing 2015 records retained",
   "authority": [
     "Paper_3_Super_Curation_Golden_Manual_2025_B2_v8.2_2026-11-05.pdf",
@@ -273,40 +273,40 @@
     },
     {
       "path": "paper3/2013-b2/index.html",
-      "sha256": "d0665b674432bb2243563b611abaa40ff6572a640a74c850bc525ad7fffcf352",
+      "sha256": "b08c02c65e84d48eb935d6eafea74c6c1b664ebc7136b36e056061c7470fe373",
       "requirements": [
         "V7-GOV-01",
         "V7-STATE-01",
         "V7-TEST-01"
       ],
-      "evidence": "Loads the separate Stage 4 ledger/controller/styles and the Stage 3-to-4 note-preservation controller under cache version 20261123f while keeping Stage 5 locked.",
+      "evidence": "Loads the corrected full-analysis Stage 4 bundle under cache version 20261128a while keeping Stage 5 locked.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation-data.js",
-      "sha256": "172f59e4bff86808ec76fa09db630ddd51ce74ef1fd3f908d4909658d01e9a91",
+      "sha256": "298bf3797fe3ce0b8158c12cae890d5b6f3b4ac67b5185c42b1d2c18900f3429",
       "requirements": [
         "V7-SRC-01",
         "V7-STATE-01",
         "V8-SRC-03"
       ],
-      "evidence": "Preserves the approved 52 Stage 1 and 14 Stage 2 records, raises schemaVersion to 6, marks Stage 3 complete and Stage 4 active.",
+      "evidence": "Preserves approved Stages 1-3, raises schemaVersion to 7 and versions the full-analysis Stage 4 state.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation-data-file-data.js",
-      "sha256": "a86dfd01a9d68cde3c8b940d2c5db6bab8a3abb4967a82497d98322e8728408a",
+      "sha256": "6de8c5a74d261efea8201225690d10c4775df1d2d8100da05655937ed47a6c12",
       "requirements": [
         "V7-SRC-01",
         "V7-ROUTE-01",
         "V8-SRC-03"
       ],
-      "evidence": "Defines 134 stable page-continuous Stage 4 records, six evidence types, 49 bank entries and five cross-page routes from 2013 source phrases.",
+      "evidence": "Defines 59 stable page-continuous units generated from the complete user-authored analysis, 29 bank entries, two routes and explicit source SHA/line provenance.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation.js",
-      "sha256": "678e90b012f0e7abc5dc2d20c538013d7dbd2d5a5df48b8b7f74fbf44d254c9f",
+      "sha256": "59145d941a954f5259e12bf2da589e6c86b2a7c1c274f93de2c8a582a45ea359",
       "requirements": [
         "V7-NOTE-02",
         "V7-STATE-01",
@@ -316,31 +316,31 @@
         "V7-A11Y-01",
         "V8-SRC-03"
       ],
-      "evidence": "Adds Stage 4 exact phrase focus, progressive reveal, evidence bank/filter/return and free Stage 1-4 access; reprojects only reached Stage 3 generated notes in Stage 4 while preserving learner notes and reload state.",
+      "evidence": "Renders every authored field, migrates v1 Stage 4 IDs, preserves Stage 1-3 state and runs the independent right-side evidence bank.",
       "status": "verified"
     },
     {
       "path": "paper3/2013-b2/super-curation.css",
-      "sha256": "85326bda8667a9f60b001a75a4eabfde0c060e415a9c49e25687a27567e498e3",
+      "sha256": "ae1b344674c1406cc997369c818f36deee34e6c928a9954d813ee9bfa9bda959",
       "requirements": [
         "V7-MOTION-01",
         "V7-A11Y-01",
         "V7-RESP-01",
         "V8-SRC-03"
       ],
-      "evidence": "Adds the Stage 4 evidence bank and cumulative Stage 1/2 stamp presentation using the established colour, strike, route and wide-desktop grammar.",
+      "evidence": "Provides complete-analysis typography and a standalone right-side 三項寫作證據庫 using the established colour, strike, route and wide-desktop grammar.",
       "status": "verified"
     },
     {
       "path": "tools/paper3/check-2013-b2-stage4.mjs",
-      "sha256": "b857fe9fba8a51a8a22812d665a0419e44eba453ac53189cbf562b5dc0a53aff",
+      "sha256": "b472ad2b2981566b0418919e65633b4cae65421596b601e4e2d792f7cef149ae",
       "requirements": [
         "V7-NOTE-02",
         "V7-STATE-02",
         "V7-TEST-01",
         "V7-TEST-02"
       ],
-      "evidence": "Runs the 134-step production journey plus a Stage 3-to-4-to-reload handoff proving generated and learner-authored podcast notes survive while the player remains hidden.",
+      "evidence": "Runs all 59 steps plus field-completeness, 17-unit exclusion, right-panel geometry, reverse/reload/spotlight and Stage 3 note-preservation checks.",
       "status": "verified"
     },
     {
@@ -357,7 +357,7 @@
     },
     {
       "path": "tools/paper3/check-2013-b2-stage2.mjs",
-      "sha256": "5855b9cecbef746fe6e0f252044949a00b6df57783db37ae785b86f7c32d152c",
+      "sha256": "498b288289c0f792f3a24d1daafec0d8e6ab39d79cf0b9857aee2a51a9e3820f",
       "requirements": [
         "V7-SRC-01",
         "V7-STATE-01",
@@ -369,7 +369,7 @@
     },
     {
       "path": "tools/paper3/check-2013-b2-stage3.mjs",
-      "sha256": "792f5af620eae3ce06d2f92240de57b41e30ca975cd320c5ce3ea2a17ac83ddd",
+      "sha256": "ad29839f98fce8e7855dcc2961697f728c2f7d89a58054f0da47f3c7b8fd9a66",
       "requirements": [
         "V7-SRC-01",
         "V7-STATE-01",
@@ -392,18 +392,28 @@
       "status": "verified"
     },
     {
-      "path": "tools/paper3/build-2013-b2-stage4-mapping.mjs",
-      "sha256": "f4e21dc8da2dfbf4b4c78bb54310fe9241b3a10a8b182425d711dceffb28c002",
+      "path": "tools/paper3/build-2013-b2-stage4-analysis.mjs",
+      "sha256": "217b830b27569e0915947f80b9a6829c01b0dc869a036f062a0f8db4f8ad366a",
       "requirements": [
         "V7-SRC-01",
         "V8-SRC-03"
       ],
-      "evidence": "Generates and validates the 134-row exact page/phrase/code source mapping from the released Stage 4 model.",
+      "evidence": "Parses the user-authored Markdown, enforces 59 included and 17 excluded units, and generates the complete versioned browser ledger.",
+      "status": "verified"
+    },
+    {
+      "path": "tools/paper3/build-2013-b2-stage4-mapping.mjs",
+      "sha256": "eb906a3fd396cca69b7feed7d95098440b83565448c7782485024b304e7b4c4b",
+      "requirements": [
+        "V7-SRC-01",
+        "V8-SRC-03"
+      ],
+      "evidence": "Validates and generates the 59-row authored-line/exact-phrase mapping from the released Stage 4 model.",
       "status": "verified"
     },
     {
       "path": "tools/paper3/update-2013-b2-stage4-compliance.mjs",
-      "sha256": "dcac5748d753bacc193d656410c4b9b7b081efec501904c288b27dbc43bd74f6",
+      "sha256": "889d43370fc1bf2ced40ddcde3a87054582069c060ea033bafe4b2e4e817a844",
       "requirements": [
         "V7-GOV-01",
         "V7-TEST-02"
@@ -413,18 +423,18 @@
     },
     {
       "path": "tools/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md",
-      "sha256": "69a42cdc112a81f623db66cfdfa8a81715d6b613026e8ea5defa864a26892832",
+      "sha256": "6f11cd69dcde3a596f95ddc12283367ee0a88c09300f2c07463c9fe2a6da401f",
       "requirements": [
         "V7-SRC-01",
         "V7-NAV-01",
         "V8-SRC-03"
       ],
-      "evidence": "Maps all 134 stable IDs to Data File page, source document, exact phrase, task, type, bank decision and implementation line.",
+      "evidence": "Maps all 59 stable IDs to authored source line, Data File page, exact phrase, task, type and answer decision.",
       "status": "verified"
     },
     {
       "path": "tools/paper3/2013_B2_STAGE4_IMPLEMENTATION_REPORT.md",
-      "sha256": "bdbcf64923dc7853c55fe9efe0205bda39d3885a3763ef8fd68202841f7e59ce",
+      "sha256": "ff525d2ad346b46ed21719ee36eaa5b3a56354a742e8eca95be4c1807180f9fb",
       "requirements": [
         "V7-GOV-01",
         "V7-NOTE-02",
@@ -434,13 +444,14 @@
         "V7-RESP-01",
         "V7-TEST-01"
       ],
-      "evidence": "Reports flow, inventory, cumulative Stage 3 notes, state, 42 checks, screenshots, files, limitations and the unimplemented Stage 5 plan.",
+      "evidence": "Reports the full-analysis flow, exclusion audit, right-bank architecture, state migration, verification, limitations and Stage 5 plan.",
       "status": "verified"
     }
   ],
   "verificationCommands": [
     "node --check paper3/2013-b2/super-curation-data-file-data.js",
     "node --check paper3/2013-b2/super-curation.js",
+    "node --check tools/paper3/build-2013-b2-stage4-analysis.mjs",
     "node tools/paper3/build-2013-b2-stage4-mapping.mjs",
     "node tools/paper3/check-2013-b2-stage1.mjs http://127.0.0.1:4174",
     "node tools/paper3/check-2013-b2-stage2.mjs http://127.0.0.1:4174",

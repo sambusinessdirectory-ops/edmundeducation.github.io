@@ -1,181 +1,1930 @@
 (() => {
   'use strict';
-
-  const steps = [];
-  const add = (id, page, sourceId, phrase, title, explanation, extra = {}) => steps.push({
-    id:`data-${id}`, page, sourceId, sourcePhrase:phrase, title, explanation,
-    evidenceType:extra.evidenceType || 6, task:extra.task || null,
-    bank:extra.bank === true, rejected:extra.rejected === true,
-    provisional:extra.provisional === true, updateOf:extra.updateOf || null,
-    sourceRoot:extra.sourceRoot || `#page-${page} .recreated-page`, help:extra.help || '',
-    ...extra
-  });
-  const doc = (id, page, sourceId, phrase, title) => add(id, page, sourceId, phrase, title,
-    '先辨認文件身分和來源，再逐句判斷；文件標題只建立閱讀路線，本身不會自動成為答案內容。',
-    {evidenceType:6, sourceRoot:`#page-${page} .recreated-page`});
-  const use = (id, page, sourceId, phrase, title, task, explanation, extra = {}) => add(id, page, sourceId, phrase, title,
-    explanation, {task, evidenceType:task === 'A' ? 1 : task === 'B' ? 2 : 3, bank:true, ...extra});
-  const context = (id, page, sourceId, phrase, title, explanation, extra = {}) => add(id, page, sourceId, phrase, title,
-    explanation, {evidenceType:4, ...extra});
-  const reject = (id, page, sourceId, phrase, title, explanation, extra = {}) => add(id, page, sourceId, phrase, title,
-    explanation, {evidenceType:6, rejected:true, ...extra});
-
-  // Data File p.5 — editorial meeting minutes (read in printed order).
-  doc('p05-minutes-title', 5, 'doc-2013-editorial-minutes', 'Minutes from editorial meeting at Asia Life magazine', '第 5 頁：編輯會議紀錄');
-  reject('p05-present', 5, 'doc-2013-editorial-minutes', 'James Lee · Casey Wong · Mavis Lam · Vicki Swan', '與會者名單', '行政紀錄，只確認會議參與者；三項寫作都不需要列出姓名。');
-  reject('p05-date', 5, 'doc-2013-editorial-minutes', '14th March, 2013', '會議日期', '會議日期只建立時序，不是任何成品的內容。');
-  reject('p05-venue', 5, 'doc-2013-editorial-minutes', 'meeting room, 6th Floor', '會議地點', '會議室資料屬行政噪音，不收入 A、B 或 C。');
-  reject('p05-confirmation', 5, 'doc-2013-editorial-minutes', '1. Confirmation of minutes', '確認上次會議紀錄', '只有議程標題，沒有提供可用任務證據。');
-  context('p05-topics', 5, 'doc-2013-editorial-minutes', 'Three topics were decided: unusual travel and tourism, buying a new car and the benefits of evening classes.', '下期三個題目', '確認本期還有另外兩個主題；只有旅遊主題與這份 B2 工作有關。');
-  context('p05-main-focus', 5, 'doc-2013-editorial-minutes', 'The main focus would be on unusual travel and tourism.', '本期主題焦點', '這是整期雜誌背景，不是可直接搬入某一篇答案的證據。');
-  reject('p05-writers-contact', 5, 'doc-2013-editorial-minutes', 'JL agreed to contact Tony Kwok and Queenie Lau and ask them to contribute articles for publication.', '邀稿行政紀錄', '只交代由誰邀稿；Task B 不需要向 Queenie 重述內部分工。');
-  context('p05-guidelines-route', 5, 'doc-2013-editorial-minutes', 'ML reminded the editorial team to follow the new 2013 guidelines for publication.', '交叉路線：2013 投稿指引', '這句不是修改要求本身；它指示我們轉到第 6 頁，核對本期有效的投稿規則。', {routeTarget:'#doc-2013-writers-guidelines', routeLabel:'2013 Writers’ Guidelines'});
-  use('p05-images-submit', 5, 'doc-2013-editorial-minutes', 'writers should be encouraged to submit 15-20 images per article', 'Task B：提交 15–20 張圖片', 'B', '會議紀錄給出本期的圖片數量要求；要清楚告訴 Queenie 提交 15–20 張。');
-  use('p05-images-select', 5, 'doc-2013-editorial-minutes', 'the editorial team would choose 5 for each article accepted for publication', 'Task B：編輯組會選 5 張', 'B', '這是數量要求的完整限定：作者交 15–20 張，編輯組最終選 5 張。');
-  use('p05-deadline', 5, 'doc-2013-editorial-minutes', 'All agreed to set the deadline for 30th April.', 'Task B：截稿日期 4 月 30 日', 'B', 'Boss letter 明確要求提醒期限；這句確認確切日期為 4 月 30 日。');
-  reject('p05-payment-rate', 5, 'doc-2013-editorial-minutes', 'the payment to writers would be HKD 1000 per page', '稿酬每頁港幣 1,000 元', 'Task B 要求修改稿件和提醒截稿，不要求討論稿酬。');
-  reject('p05-payment-includes', 5, 'doc-2013-editorial-minutes', 'this would include both text and pictures used', '稿酬包括文字和圖片', '稿酬細節不屬 Queenie 必須修改的事項。');
-  reject('p05-next-meeting', 5, 'doc-2013-editorial-minutes', 'The next meeting date was decided as 6th May to give the team time to read through any submitted articles.', '下次會議日期', '內部會議安排不應寫入給 Queenie 的電郵。');
-  use('p05-word-limit', 5, 'doc-2013-editorial-minutes', 'the word limit for articles in the next issue would be 900 words', 'Task B：本期字數上限 900 字', 'B', '這是「本期」的最新具體字數上限，稍後會用來修正審稿表中的 1,200 字現況。');
-  use('p05-email-writers', 5, 'doc-2013-editorial-minutes', 'All writers would be informed by email.', 'Task B：以電郵通知作者', 'B', '這與指定文體一致：要以電郵直接通知 Queenie。', {evidenceType:5});
-
-  // Data File p.6 — current publication rules.
-  doc('p06-guidelines-title', 6, 'doc-2013-writers-guidelines', '2013 Writers’ Guidelines for Publication', '第 6 頁：2013 投稿指引');
-  reject('p06-to', 6, 'doc-2013-writers-guidelines', 'To: Editorial team, Asia Life magazine', '備忘錄收件人', '這是內部備忘錄的收件欄，不應轉寄給 Queenie。');
-  reject('p06-from', 6, 'doc-2013-writers-guidelines', 'From: Casey Wong', '備忘錄發件人', '只確認規則來源，不是修改內容。');
-  context('p06-effective-date', 6, 'doc-2013-writers-guidelines', 'Please note the new submission guidelines with effect from 1st February, 2013:', '規則生效日期', '這句確認以下是 2013 年 2 月 1 日起生效的現行規則，因此可用來核對 Queenie 稿件。');
-  use('p06-on-time', 6, 'doc-2013-writers-guidelines', 'All articles must be submitted on time', 'Task B：必須準時交稿', 'B', '這項規則支持電郵中的截稿提醒。');
-  context('p06-revision-purpose', 6, 'doc-2013-writers-guidelines', 'to allow the editorial team time to read and suggest any revisions', '準時交稿的原因', '這是期限背後的理由，可用來理解規則；120 字電郵未必需要全部解釋。', {task:'B'});
-  use('p06-late', 6, 'doc-2013-writers-guidelines', 'Late articles will not be considered for publication.', 'Task B：遲交不獲考慮', 'B', '這是重要後果，能令截稿提醒清楚而具行動性。');
-  use('p06-copyright', 6, 'doc-2013-writers-guidelines', 'any materials used (e.g. photographs) must not breach copyright', 'Task B：圖片不可侵犯版權', 'B', '審稿表要求交代圖片來源；現行指引說明背後的版權要求。');
-  use('p06-image-source', 6, 'doc-2013-writers-guidelines', 'Writers should state the source of images.', 'Task B：註明圖片來源', 'B', '這是 Queenie 圖片修改清單中的來源要求。');
-  use('p06-image-format', 6, 'doc-2013-writers-guidelines', 'soft copy (high resolution JPEG file format)', 'Task B：高解像 JPEG 電子檔', 'B', '精確保留 soft copy、high resolution 和 JPEG 三個限定。');
-  context('p06-word-route', 6, 'doc-2013-writers-guidelines', 'Refer to the word limit set in editorial meetings as this may vary from issue to issue.', '字數上限要回查本期會議', '指引沒有給固定數字；它要求回到第 5 頁找本期上限。', {task:'B', evidenceType:5, routeTarget:'#doc-2013-editorial-minutes', routeLabel:'本期編輯會議紀錄'});
-  use('p06-title-limit', 6, 'doc-2013-writers-guidelines', 'Titles must not be more than 80 characters long.', 'Task B：補標題，最多 80 字元', 'B', '審稿表指出標題缺漏；這句補上確切的 80 字元限制。');
-  reject('p06-style', 6, 'doc-2013-writers-guidelines', 'Style of article to be decided by the writer, unless otherwise indicated by the editor.', '文章風格由作者決定', '審稿表沒有要求 Queenie 改變文章風格；不要自行新增修改。');
-  reject('p06-rights', 6, 'doc-2013-writers-guidelines', 'Asia Life magazine retains the rights to any articles published.', '出版權利', '權利條款不屬本次稿件修改要求。');
-  reject('p06-payment', 6, 'doc-2013-writers-guidelines', 'Once an article is accepted for publication, payment will be made.', '接納後付款', '付款程序與本次需要修改的內容無關。');
-
-  // Data File p.7 — provisional review is resolved by p.5–6.
-  doc('p07-review-title', 7, 'doc-2013-queenie-review', 'Notes from the editorial team on Queenie Lau’s article', '第 7 頁：Queenie 稿件審閱筆記');
-  context('p07-issue', 7, 'doc-2013-queenie-review', 'Vol 12 – June 2013', '稿件所屬期數', '確認這是下一期六月號的稿件；主要用來建立審稿語境。', {task:'B'});
-  reject('p07-reviewed-date', 7, 'doc-2013-queenie-review', '5th April, 2013', '審閱日期', '內部審閱日期不是 Queenie 要修改的事項。');
-  context('p07-writer', 7, 'doc-2013-queenie-review', 'Queenie Lau', '作者：Queenie Lau', '確認 Task B 的收件人和稿件作者是同一人。', {task:'B'});
-  context('p07-topic', 7, 'doc-2013-queenie-review', 'Plastic surgery holidays (Thailand)', '稿件主題', '可在電郵中簡潔辨認是哪一篇稿件，但不是修改項目。', {task:'B'});
-  reject('p07-reviewer', 7, 'doc-2013-queenie-review', 'James Lee', '審稿人姓名', '內部審稿人姓名不需要告訴 Queenie。');
-  context('p07-current-words', 7, 'doc-2013-queenie-review', 'No. of words: 1200', '現稿字數：1,200', '這是現況而非容許上限；必須與第 5 頁的 900 字上限比較。', {task:'B', provisional:true});
-  context('p07-images-route', 7, 'doc-2013-queenie-review', 'how many we need, the format and source', '圖片要求要跨頁補全', '審稿筆記列出三個待查欄位；第 5、6 頁才分別提供數量、格式和來源。', {task:'B', evidenceType:5, routeTarget:'#doc-2013-editorial-minutes', routeLabel:'圖片數量；再查投稿指引'});
-  use('p07-title-missing', 7, 'doc-2013-queenie-review', 'Title is missing!!', 'Task B：稿件缺少標題', 'B', '這是直接修改要求：Queenie 必須補上標題。');
-  context('p07-title-route', 7, 'doc-2013-queenie-review', 'Remember there’s a limit on number of characters.', '標題限制要回查指引', '審稿表沒有數字；回到第 6 頁才確認最多 80 字元。', {task:'B', evidenceType:5, routeTarget:'#doc-2013-writers-guidelines', routeLabel:'標題 80 字元限制'});
-  context('p07-check-limit', 7, 'doc-2013-queenie-review', 'what’s the word limit for this issue?', '字數問題仍未解答', '問句是查找指令，不是答案；要到第 5 頁找到本期 900 字。', {task:'B', provisional:true, evidenceType:5, routeTarget:'#doc-2013-editorial-minutes', routeLabel:'本期 900 字上限'});
-  use('p07-reduce-words', 7, 'doc-2013-queenie-review', 'Please check and then tell her.', 'Task B：核對後通知她減字', 'B', '把 1,200 字現稿與 900 字上限合併，得出要刪減約 300 字的可執行要求。', {evidenceType:5, updateOf:'data-p07-current-words'});
-  use('p07-publish-changes', 7, 'doc-2013-queenie-review', 'Yes (with changes)', 'Task B：修改後可刊登', 'B', '決定不是拒稿；語氣應清楚指出修改後才可刊登。', {evidenceType:5});
-  use('p07-spelling', 7, 'doc-2013-queenie-review', 'the spelling of Thai place names – she needs to check these carefully', 'Task B：核對泰國地名拼寫', 'B', '這是獨立、明確的校對要求。');
-  use('p07-accuracy', 7, 'doc-2013-queenie-review', 'ask her if all the details in the article are accurate', 'Task B：確認所有資料準確', 'B', '不要把它縮窄成只查地名；全篇細節也要確認。');
-  context('p07-follow-directly', 7, 'doc-2013-queenie-review', 'Follow this up with her directly.', '直接跟進 Queenie', '支持以直接、專業的電郵語氣提出所有修改。', {task:'B', evidenceType:5});
-
-  // Data File p.8 — TV transcript; questions/context stay out of the bank.
-  doc('p08-tv-title', 8, 'doc-2013-see-the-world', 'Transcript excerpt of TV travel show See the World', '第 8 頁：See the World 節錄');
-  reject('p08-gap-years', 8, 'doc-2013-see-the-world', 'We’ve all heard of student gap years', '學生 gap year 背景', '只用作節目引入，沒有回答 Task C 的正面影響。');
-  reject('p08-south-america', 8, 'doc-2013-see-the-world', 'Some go to places like South America and live with the natives – even for like up to a year.', '南美同住例子', '描述旅遊形式，但沒有說明對當地人的正面影響。');
-  context('p08-culture-tourism', 8, 'doc-2013-see-the-world', 'Welcome to a really new kind of culture tourism.', '文化旅遊語境', '建立討論類型，仍需往下讀具體影響。', {task:'C'});
-  context('p08-sauri-purpose', 8, 'doc-2013-see-the-world', 'to find out what the impact might be on local people', '節目問題對準 Task C', '這是採訪目的，不是可用正面證據；要由受訪者的回答取證。', {task:'C', evidenceType:5});
-  context('p08-kemi-role', 8, 'doc-2013-see-the-world', 'you’re a teacher here in Sauri', 'Kemi 的當地身分', '她是 Sauri 教師，令其對當地影響的觀察具語境；姓名和職銜本身不是論點。', {task:'C'});
-  context('p08-effect-question', 8, 'doc-2013-see-the-world', 'what do you think about the effect of tourism on local people?', '問題重申 Task C 範圍', '問題沒有答案；繼續讀 Kemi 的回應。', {task:'C', evidenceType:5});
-  use('p08-positive-overall', 8, 'doc-2013-see-the-world', 'I’d say positive for Sauri on the whole.', 'Task C：整體影響正面', 'C', '這是總判斷，適合引出後面的具體例子，但單獨使用仍太籠統。');
-  reject('p08-ceci-reaction', 8, 'doc-2013-see-the-world', 'Really? Well, that’s encouraging.', '主持反應', '主持的鼓勵語不是獨立證據。');
-  context('p08-how-positive', 8, 'doc-2013-see-the-world', 'How do you mean positive?', '追問具體正面影響', '這個追問提示下面才是可用證據。', {task:'C', evidenceType:5});
-  use('p08-share-ideas', 8, 'doc-2013-see-the-world', 'people are starting to share ideas with tourists', 'Task C：居民與旅客交流意念', 'C', '可用作教育／知識交流的正面影響，但要配合後面的實例。');
-  context('p08-practical-question', 8, 'doc-2013-see-the-world', 'You mean sharing practical ideas?', '「實用意念」需要例子確認', '這是主持的釐清，不要把問句本身當成事實。', {task:'C', provisional:true, evidenceType:5});
-  use('p08-yusuf-webpage', 8, 'doc-2013-see-the-world', 'helped us create a village webpage', 'Task C：旅客協助建立村落網頁', 'C', '具體證明旅客把實用技能和網上工具帶給社區。');
-  use('p08-web-information', 8, 'doc-2013-see-the-world', 'It’s got a lot of information about the village that visitors can read.', 'Task C：網頁讓外界認識村落', 'C', '說明網頁的實際效益：村落可以向訪客分享資訊。');
-  reject('p08-writer-prompt', 8, 'doc-2013-see-the-world', 'I heard that there was a writer who came to the village...', '主持引出作家例子', '只是提示下一個例子；證據在 Kemi 的回答。');
-  context('p08-jessica-name', 8, 'doc-2013-see-the-world', 'a very nice lady called Mrs. Jessica Glasser', '作家身分', '姓名只建立例子來源，不是正面影響本身。', {task:'C'});
-  use('p08-stories-published', 8, 'doc-2013-see-the-world', 'wrote down some of the stories and helped us to get those published', 'Task C：協助記錄並出版傳統故事', 'C', '這是文化保存的具體行動。');
-  use('p08-learn-traditions', 8, 'doc-2013-see-the-world', 'anybody who reads the book learns about our traditions', 'Task C：讀者認識當地傳統', 'C', '出版成果令文化得以傳播和被理解。');
-  use('p08-culture-alive', 8, 'doc-2013-see-the-world', 'tourism is helping you keep your culture alive', 'Task C：旅遊協助文化傳承', 'C', '主持把前面的故事出版例子概括成文化保存效益；可用，但最好連同實例。', {evidenceType:5});
-
-  // Data File p.9 — forum posts are judged one claim at a time.
-  doc('p09-forum-title', 9, 'doc-2013-tourism-forum', 'Travel forum thread: tourism and local people', '第 9 頁：旅遊討論區');
-  context('p09-immersion-query', 9, 'doc-2013-tourism-forum', 'I’ve been checking out this immersion holiday stuff.', '沉浸式旅遊話題', '只提出話題，未說明正面影響。', {task:'C'});
-  context('p09-definition', 9, 'doc-2013-tourism-forum', 'It’s when you go and live like a local person', '沉浸式旅遊定義', '幫助理解討論，但 Task C 需要的是對當地人的正面影響。', {task:'C'});
-  reject('p09-change-culture', 9, 'doc-2013-tourism-forum', 'it changes the local culture', '負面觀點：改變當地文化', '這是反方憂慮，不是 Task C 的正面證據；可作對照但不可冒充主論點。');
-  reject('p09-unfair', 9, 'doc-2013-tourism-forum', 'Any kind of tourism is really unfair.', '未充分支持的負面概括', '過度概括，沒有提供可驗證的正面內容。');
-  reject('p09-self-esteem', 9, 'doc-2013-tourism-forum', 'That must really affect their self-esteem.', '推測自尊受影響', 'must really 是推測，且方向負面；不收入正面證據庫。');
-  use('p09-money', 9, 'doc-2013-tourism-forum', 'at least they have some money because tourists go to their countries', 'Task C：旅遊帶來收入', 'C', '這是對當地人的直接經濟效益。');
-  use('p09-education', 9, 'doc-2013-tourism-forum', 'They can buy things they really need... say like education for their kids.', 'Task C：收入可支持子女教育', 'C', '把「收入」連到具體生活效益——孩子教育。');
-  reject('p09-laugh', 9, 'doc-2013-tourism-forum', 'Some tourists just laugh at the local people.', '負面例子：嘲笑居民', '與 Task C 主方向相反，不收入正面證據庫。');
-  reject('p09-throwing', 9, 'doc-2013-tourism-forum', 'throwing money and food at some native dancers', '負面例子：不尊重舞者', '屬負面、不尊重的行為；不可扭轉成正面證據。');
-  reject('p09-overdepend', 9, 'doc-2013-tourism-forum', 'the local people will start to over-depend on tourists and their money', '限制：可能過度依賴旅遊', '這是經濟效益的風險限定，可用來避免絕對化，但不是正面證據。');
-  use('p09-jobs', 9, 'doc-2013-tourism-forum', 'more tourism = more jobs!!', 'Task C：旅遊創造工作', 'C', '直接、清楚的就業效益。');
-  use('p09-job-easier', 9, 'doc-2013-tourism-forum', 'you can get a job easier because you’re working with tourists', 'Task C：居民較容易就業', 'C', '進一步說明工作機會如何落到當地人身上。');
-  use('p09-government-money', 9, 'doc-2013-tourism-forum', 'governments can use the money from us tourists to help the people', 'Task C：旅遊收入可投入公共服務', 'C', '把旅遊收入與政府改善民生連起來。');
-  use('p09-clean-water', 9, 'doc-2013-tourism-forum', 'government projects to bring clean water into poor areas', 'Task C：改善清潔食水', 'C', '具體公共建設例子，支持旅遊收入改善生活。');
-  context('p09-education-question', 9, 'doc-2013-tourism-forum', 'Do local people get education from tourism?', '教育問題仍待回答', '問句不能進證據庫；要讀到後面的語言例子。', {task:'C', provisional:true, evidenceType:5});
-  reject('p09-not-sure', 9, 'doc-2013-tourism-forum', 'Not sure what you mean CoolKarma', '沒有提供內容的回應', '這句只表示不理解，沒有證據。');
-  use('p09-language', 9, 'doc-2013-tourism-forum', 'the local people learn some things from tourists, like language', 'Task C：居民向旅客學習語言', 'C', '回答前面的教育問題，提供交流學習的具體方向。');
-  use('p09-english', 9, 'doc-2013-tourism-forum', 'That comes from speaking to tourists.', 'Task C：交談帶來語言練習', 'C', '補充學習機制：與旅客交談令居民練習英語。');
-
-  // Data File p.10 — Mei interview (A), then Kevin letter (C).
-  doc('p10-mei-title', 10, 'doc-2013-mei-interview', 'Interview notes from interview with Mei Cheng', '第 10 頁：Mei Cheng 訪問筆記');
-  context('p10-mei-topic', 10, 'doc-2013-mei-interview', 'Hong Kong Tourism: Past and Present', '訪問主題對準 Task A', '標題確認來源談香港旅遊的今昔。', {task:'A', evidenceType:5});
-  context('p10-mei-age', 10, 'doc-2013-mei-interview', 'Age = 97', 'Mei 的年齡', '年齡支持她能回憶 1920 年代，但不是旅遊例子本身。', {task:'A'});
-  context('p10-mei-father', 10, 'doc-2013-mei-interview', 'Father – manager Dragon Hotel (DH) Mei grew up in DH', 'Mei 的見證基礎', '她在酒店長大、父親任經理，解釋她為何能觀察當年旅客。', {task:'A'});
-  reject('p10-anniversary', 10, 'doc-2013-mei-interview', '100th Anniversary Ball planned for October 2013', '2013 百周年舞會', '屬現代酒店活動，不是 1920 年代旅遊。');
-  reject('p10-spa', 10, 'doc-2013-mei-interview', 'Opening of new spa facilities in December', '2013 新水療設施', '屬現代宣傳資料，Task A 不採用。');
-  use('p10-stables', 10, 'doc-2013-mei-interview', 'DH had stables for horses – like other hotels', 'Task A：酒店設馬廄', 'A', '具體重現 1920 年代酒店為馬匹交通提供設施。');
-  use('p10-carriage', 10, 'doc-2013-mei-interview', 'People used to hire horse + carriage', 'Task A：旅客租用馬車', 'A', '是 1920 年代香港旅遊交通的直接例子。');
-  reject('p10-taxi-pollution', 10, 'doc-2013-mei-interview', 'she doesn’t like taxis = pollution', 'Mei 不喜歡的士污染', '這是現代個人評價，不是昔日旅遊證據。');
-  use('p10-richer', 10, 'doc-2013-mei-interview', 'Interntnl tourists then – richer – more glamourous', 'Task A：當年國際旅客較富有華麗', 'A', '描述誰能負擔當年的國際旅遊及其形象。');
-  use('p10-servant-rooms', 10, 'doc-2013-mei-interview', 'DH had extra rooms for servants', 'Task A：酒店設僕人房', 'A', '具體顯示富裕旅客帶僕人同行的旅遊方式。');
-  use('p10-servants', 10, 'doc-2013-mei-interview', 'always saw tourists travel with servants', 'Task A：旅客帶僕人同行', 'A', 'Mei 的親身觀察支持當年旅客身分與出行排場。');
-  use('p10-luggage', 10, 'doc-2013-mei-interview', 'Tourists used to have so much luggage!!', 'Task A：旅客攜帶大量行李', 'A', '直接描述當年旅行的外在特徵。');
-  use('p10-outfits', 10, 'doc-2013-mei-interview', 'Before had different outfits for dinner etc.', 'Task A：晚餐等場合更換服裝', 'A', '解釋大量行李的原因，也呈現當年旅遊生活方式。');
-  reject('p10-luggage-now', 10, 'doc-2013-mei-interview', 'Now amount of luggage ↓', '現代行李較少', '只可作今昔對照，Task A 的核心應放在 1920 年代。');
-  use('p10-dancing', 10, 'doc-2013-mei-interview', 'Mei liked watching people dance after dinner', 'Task A：旅客晚餐後跳舞', 'A', '提供旅客當年休閒活動的具體例子。');
-  doc('p10-kevin-title', 10, 'doc-2013-kevin-letter', 'Letter printed from Kevin Hui in Asia Life magazine March issue', '第 10 頁：Kevin Hui 三月來信');
-  reject('p10-salutation', 10, 'doc-2013-kevin-letter', 'Dear Sir', '來信稱呼', '信件格式，不是 Kevin 的觀點。');
-  context('p10-kevin-experience', 10, 'doc-2013-kevin-letter', 'I used to be a travel agent and I’ve travelled to many different places in the world because of my job', 'Kevin 的經驗背景', '支持他以旅遊經驗提出立場，但 Task C 摘要只需一至兩句，毋須詳列履歷。', {task:'C'});
-  use('p10-negative-position', 10, 'doc-2013-kevin-letter', 'the effects of tourism are increasingly negative', 'Task C：Kevin 的核心負面立場', 'C', '這是社論必須準確概括並反駁的中心觀點。', {evidenceType:5});
-  context('p10-lost-tribe', 10, 'doc-2013-kevin-letter', 'the Brazilian government discovered a ‘lost tribe’ of people living deep inside the rainforest', 'Kevin 的巴西例子背景', '建立反方例子的對象和地點。', {task:'C'});
-  use('p10-uncontacted', 10, 'doc-2013-kevin-letter', 'they have decided to leave the tribes of people uncontacted', 'Task C：Kevin 支持不接觸部落', 'C', '這是 Kevin 用來支持其負面立場的具體主張，適合納入一至兩句摘要。', {evidenceType:5});
-  use('p10-guards', 10, 'doc-2013-kevin-letter', 'guards to stop everyone, especially tourists, going into those areas to contact the tribes', 'Task C：守衛阻止旅客接觸', 'C', '補充 Kevin 支持的政策做法；摘要時可按篇幅取捨。', {evidenceType:5});
-  context('p10-agree', 10, 'doc-2013-kevin-letter', 'I couldn’t agree more with this decision.', 'Kevin 明確贊同', '確認上述並非中立報道，而是他的立場。', {task:'C', evidenceType:5});
-  use('p10-traditions', 10, 'doc-2013-kevin-letter', 'live immersed in their own traditions and without being negatively influenced by anyone from outside', 'Task C：Kevin 的理由是保護傳統', 'C', '準確概括他的因果：隔離外界可避免負面影響、保存傳統。', {evidenceType:5});
-  reject('p10-signoff', 10, 'doc-2013-kevin-letter', 'Yours faithfully', '來信結語', '信件格式，不是觀點或證據。');
-  reject('p10-signature', 10, 'doc-2013-kevin-letter', 'Kevin Hui Shatin', '作者署名與地區', '只確認來信者；Task C 不需把 Shatin 當成論點。');
-
-  // Data File p.11 — historian blog and two visual/statistical sources.
-  doc('p11-blog-title', 11, 'doc-2013-historian-blog', 'New Territories Historian blog page', '第 11 頁：New Territories Historian 網誌');
-  context('p11-authority', 11, 'doc-2013-historian-blog', 'Dr. Laurence Lieu is a Lecturer at the Department of History at Hong Kong Metropolitan University', '作者歷史學背景', '支持這是歷史資料來源；職銜本身不放進短文。', {task:'A'});
-  context('p11-book', 11, 'doc-2013-historian-blog', 'local historian Ip Ling Fung published ‘Fauna of Hong Kong 1850-1945’', '老虎史料來源', '建立資料出處，接下來才是與旅遊直接相關的內容。', {task:'A'});
-  context('p11-hunting-context', 11, 'doc-2013-historian-blog', 'there was still tiger hunting going on in Hong Kong in the first half of the 20th C', '20 世紀上半葉香港仍有獵虎', '是歷史語境；Task A 要連到旅客和 1920 年代才可採用。', {task:'A'});
-  use('p11-derby', 11, 'doc-2013-historian-blog', 'an American tourist, Mr. Edgar Derby, who shot this tiger in Lung Yeuk Tau, near Fanling in 1923', 'Task A：美國旅客 1923 年在新界獵虎', 'A', '同時具備旅客身分、香港地點、年份和活動，是完整的 Task A 例子。');
-  use('p11-photo-caption', 11, 'doc-2013-historian-blog', 'Edgar Derby, Lung Yeuk Tau, 1923', 'Task A：老虎照片標題核對', 'A', '照片標題交叉確認人物、地點和年份。', {evidenceType:5});
-  use('p11-many-tourists', 11, 'doc-2013-historian-blog', 'lots of tourists from North America used to come to Hong Kong in the 1920s to go tiger hunting in the New Territories', 'Task A：北美旅客來港獵虎', 'A', '把單一照片擴展成當時較普遍的旅遊活動。');
-  context('p11-none-successful', 11, 'doc-2013-historian-blog', 'none were as ‘successful’ as Mr. Derby', '限定：其他旅客沒有同樣「成功」', '引號顯示作者語氣，也限制我們不能說所有旅客都獵到老虎。', {task:'A', evidenceType:5});
-  reject('p11-boars', 11, 'doc-2013-historian-blog', 'And we worry about wild boars!', '現代野豬插語', '作者的現代幽默旁白，不是 1920 年代旅遊證據。');
-  reject('p11-stat-reaction', 11, 'doc-2013-historian-blog', 'I love random historical statistics!', '作者對統計的反應', '語氣句，不提供事實。');
-  use('p11-room-1928', 11, 'doc-2013-historian-blog', '$10,300', 'Task A：1928 房價約今值 $10,300', 'A', '數據顯示當年 Dragon Hotel 住宿昂貴，支持旅客較富有。', {sourceRoot:'#page-11 .table-scroll'});
-  context('p11-room-2013', 11, 'doc-2013-historian-blog', '$4,200', '2013 房價比較值', '只用作比較；Task A 重點是 1928 年約今值 $10,300。', {task:'A', sourceRoot:'#page-11 .table-scroll'});
-  use('p11-rickshaw-1928', 11, 'doc-2013-historian-blog', '3,243', 'Task A：1928 年有 3,243 個人力車牌照', 'A', '大量牌照配合下一句，顯示人力車是當年常見旅遊交通。', {sourceRoot:'#page-11 .table-scroll'});
-  context('p11-rickshaw-2013', 11, 'doc-2013-historian-blog', '2', '2013 年只餘 2 個牌照', '比較數字突出昔日人力車普及，但 Task A 主要採用 1928 數字。', {task:'A', sourceRoot:'#page-11 .table-scroll'});
-  use('p11-rickshaw-popular', 11, 'doc-2013-historian-blog', 'Rickshaws were always popular with the tourists.', 'Task A：人力車受旅客歡迎', 'A', '直接把交通統計與旅客使用連起來。');
-  reject('p11-gone', 11, 'doc-2013-historian-blog', 'A great pity they’ve gone.', '作者感嘆人力車消失', '個人感嘆不是歷史證據。');
-  context('p11-hotel-photo', 11, 'doc-2013-historian-blog', 'Here’s a photo of the Dragon Hotel from the 1920s.', '1920 年代酒店照片', '可作視覺背景，但短文仍需用文字證據說明旅遊情況。', {task:'A', evidenceType:5});
-  reject('p11-anniversary', 11, 'doc-2013-historian-blog', 'Happy 100th Anniversary!', '現代百周年祝賀', '屬 2013 年祝賀語，不是 1920 年代旅遊內容。');
-  context('p11-hotel-caption', 11, 'doc-2013-historian-blog', 'Dragon Hotel, 1920s', '酒店照片標題', '確認照片年代，但不會單靠照片標題虛構更多細節。', {task:'A', sourceRoot:'#page-11'});
-  reject('p11-end', 11, 'doc-2013-historian-blog', 'THIS IS THE LAST PAGE OF THE PART B2 DATA FILE', '資料檔完結標記', '行政頁尾，只表示 Data File 已讀完。', {sourceRoot:'#page-11'});
-
-  add('stage-complete', 11, 'doc-2013-historian-blog', 'THIS IS THE LAST PAGE OF THE PART B2 DATA FILE', 'Stage 4 完成：逐句取證與證據庫已核對',
-    '第 5–11 頁已按實際次序逐項讀完；Task A、B、C 證據、跨頁更新、限定和不採用資料均已記錄。Stage 5 Writing 仍保持鎖定。',
-    {evidenceType:6, sourceRoot:'#page-11', focusSelector:'#page-11 .source-end', final:true, help:'可用任務篩選器重看證據，或自由返回 Stage 1–3；不會顯示任何範文。'});
-
-  steps.forEach((item, index) => { item.index = index; item.order = index + 1; });
-  window.EDMUND_2013_B2_DATA_FILE = Object.freeze({
-    schemaVersion:1,
-    contentVersion:'2013-b2-stage4-v1',
-    steps:Object.freeze(steps.map(item => Object.freeze(item))),
-    evidenceTypes:Object.freeze({1:'Task A 可用證據',2:'Task B 可用證據',3:'Task C 可用證據',4:'語義／語氣／關係',5:'更新／限定／跨頁關係',6:'不採用／行政／噪音'})
-  });
+  const model = {
+  "schemaVersion": 2,
+  "contentVersion": "2013-b2-stage4-v2-full-analysis",
+  "analysisSource": {
+    "file": "2013_B2_Fact_Line_Deep_Analysis_v1.1_Congruence_Corrected_2026-11-12.md",
+    "sha256": "30fb485c26ba494c94278d8c24cd6d6f7b2ad87cca5e25002787fca99861db0f",
+    "includedRange": "329–1518",
+    "authoredUnits": 76,
+    "includedFactFileUnits": 59,
+    "excludedAlreadyCuratedUnits": 17
+  },
+  "steps": [
+    {
+      "id": "data-analysis-p05-meeting-administration",
+      "order": 1,
+      "page": 5,
+      "sourceId": "doc-2013-editorial-minutes",
+      "sourcePhrase": "James Lee · Casey Wong · Mavis Lam · Vicki Swan",
+      "sourceRoot": "#page-5 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p05-minutes-title",
+        "data-p05-present",
+        "data-p05-date",
+        "data-p05-venue",
+        "data-p05-confirmation"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1147,
+      "title": "“Present ... Date ... Venue ... Confirmation of minutes ... Matters arising”",
+      "excerpt": "Meeting attendance, date, venue and empty agenda headings.",
+      "chinese": "「出席名單、會議日期、地點，以及確認紀錄和跟進事項等行政欄目。」",
+      "type": "6 會議行政／程序資料",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "這些資料記錄編輯會議何時、何地和由誰出席。",
+        "use": "日期可協助辨認時序，出席者縮寫可協助理解會議紀錄；空白議程沒有實質內容。",
+        "rationale": "三項任務需要的是已決定的題目、字數、圖片和截止日期。刪去出席名單、房間和空白議程後，所有可執行要求仍完整。",
+        "handling": "不在任何成品列出會議資料或出席者。"
+      }
+    },
+    {
+      "id": "data-analysis-p05-issue-topics",
+      "order": 2,
+      "page": 5,
+      "sourceId": "doc-2013-editorial-minutes",
+      "sourcePhrase": "Three topics were decided: unusual travel and tourism, buying a new car and the benefits of evening classes.",
+      "sourceRoot": "#page-5 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p05-topics",
+        "data-p05-main-focus"
+      ],
+      "task": null,
+      "evidenceType": 5,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1130,
+      "title": "“We’ve decided the topics ... buying a new car ... evening classes.”",
+      "excerpt": "“Three topics were decided: unusual travel and tourism, buying a new car and the benefits of evening classes.”",
+      "chinese": "「下一期有三個主題：不尋常旅遊、購買新車和夜校課程的好處。」",
+      "type": "5 提示／主題篩選",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "三項 B2 工作都屬下一期的旅遊主題；汽車和夜校另有其他稿件處理。",
+        "use": "它防止考生因為這兩個題目出現在同一會議紀錄，便把它們誤放進旅遊文章或社論。",
+        "rationale": "只有「本期重點是不尋常旅遊」與三項任務相關；另外兩個題目沒有任何後續要求。",
+        "handling": "三篇成品都集中處理指定旅遊內容，不提新車或夜校。"
+      }
+    },
+    {
+      "id": "data-analysis-p05-writer-contact",
+      "order": 3,
+      "page": 5,
+      "sourceId": "doc-2013-editorial-minutes",
+      "sourcePhrase": "JL agreed to contact Tony Kwok and Queenie Lau and ask them to contribute articles for publication.",
+      "sourceRoot": "#page-5 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p05-writers-contact",
+        "data-p05-guidelines-route"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1162,
+      "title": "“JL agreed to contact Tony Kwok and Queenie Lau.”",
+      "excerpt": "“JL agreed to contact Tony Kwok and Queenie Lau and ask them to contribute articles.”",
+      "chinese": "「James 同意聯絡 Tony 和 Queenie，邀請他們投稿。」",
+      "type": "4 語義相關／投稿背景",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Queenie 的稿件來自編輯部早前邀稿，Tony 則是另一名作者。",
+        "use": "它解釋 Queenie 與雜誌的工作關係，支持 Task 2 採用友善而專業的語氣。",
+        "rationale": "邀稿過程不會改變 Queenie 現在需要完成的修改；Tony 的稿件也與 Task 2 無關。",
+        "handling": "電郵直接談 Queenie 的稿件，不提 Tony 或誰曾聯絡她。"
+      }
+    },
+    {
+      "id": "data-analysis-p05-image-quantity",
+      "order": 4,
+      "page": 5,
+      "sourceId": "doc-2013-editorial-minutes",
+      "sourcePhrase": "writers should be encouraged to submit 15-20 images per article",
+      "sourceRoot": "#page-5 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p05-images-submit",
+        "data-p05-images-select"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 568,
+      "title": "“Submit 15–20 images; the editorial team will choose five.”",
+      "excerpt": "“Writers should be encouraged to submit 15–20 images per article, and ... the editorial team would choose 5.”",
+      "chinese": "「作者要提交 15 至 20 張圖片，編輯小組會從中選用 5 張。」",
+      "type": "2 Task 2 直接可用／圖片數量及後續選擇",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Queenie 要提供一批候選圖片，最後使用哪五張由編輯部決定。",
+        "use": "它回答審稿表所寫的「how many we need」，也防止考生誤寫成 Queenie 只需交五張。",
+        "rationale": "15–20 是作者行動，五張是編輯部的選擇結果。兩個數字必須放在同一意思內，才不會改變流程。",
+        "handling": "可寫：*Please submit 15–20 images, from which the editorial team will select five.*"
+      }
+    },
+    {
+      "id": "data-analysis-p05-deadline",
+      "order": 5,
+      "page": 5,
+      "sourceId": "doc-2013-editorial-minutes",
+      "sourcePhrase": "All agreed to set the deadline for 30th April.",
+      "sourceRoot": "#page-5 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p05-deadline"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 675,
+      "title": "“All agreed to set the deadline for 30th April.”",
+      "excerpt": "“All agreed to set the deadline for 30th April.”",
+      "chinese": "「編輯小組一致把截止日期定為 4 月 30 日。」",
+      "type": "2 Task 2 直接可用／正式限期",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "修訂稿必須在 4 月 30 日或之前提交。",
+        "use": "它完成 Casey 明確要求的 deadline reminder，也讓 Queenie 知道何時交回修訂稿。",
+        "rationale": "誰同意和會議如何決定都不影響 Queenie 的行動。唯一需要寫入電郵的是正式日期。",
+        "handling": "結尾可寫：*Please return the revised article by 30 April.*"
+      }
+    },
+    {
+      "id": "data-analysis-p05-writer-payment",
+      "order": 6,
+      "page": 5,
+      "sourceId": "doc-2013-editorial-minutes",
+      "sourcePhrase": "the payment to writers would be HKD 1000 per page",
+      "sourceRoot": "#page-5 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p05-payment-rate",
+        "data-p05-payment-includes"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 692,
+      "title": "“Writers are paid HKD 1,000 per page, including text and pictures.”",
+      "excerpt": "“payment to writers would be HKD 1000 per page ... include both text and pictures used.”",
+      "chinese": "「作者每頁可獲 1,000 港元，金額包括文字和圖片。」",
+      "type": "6 出版行政／稿酬",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "它交代雜誌的稿酬計算方法。",
+        "use": "只屬內部出版安排，沒有要求 Queenie 修正稿件或提交任何資料。",
+        "rationale": "刪去稿酬資料後，Queenie 仍可完整完成圖片、標題、字數、拼寫、準確性和限期要求。",
+        "handling": "不提金額，也不把付款條件當作修改要求。"
+      }
+    },
+    {
+      "id": "data-analysis-p05-next-meeting",
+      "order": 7,
+      "page": 5,
+      "sourceId": "doc-2013-editorial-minutes",
+      "sourcePhrase": "The next meeting date was decided as 6th May to give the team time to read through any submitted articles.",
+      "sourceRoot": "#page-5 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p05-next-meeting",
+        "data-p05-email-writers"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1177,
+      "title": "“The next meeting date was decided as 6th May.”",
+      "excerpt": "“The next meeting date was decided as 6th May to give the team time to read through any submitted articles.”",
+      "chinese": "「下一次編輯會議定於 5 月 6 日，讓編輯有時間閱讀稿件。」",
+      "type": "6 內部行政／下次會議",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "編輯部安排 5 月 6 日再開會。",
+        "use": "它只解釋內部工作時間，沒有改變 Queenie 的正式期限 30 April。",
+        "rationale": "Queenie 需要知道何時交稿，不需要知道編輯部何時開會。加入 6 May 更可能令她混淆兩個日期。",
+        "handling": "只寫 30 April 的投稿限期，省去 6 May。"
+      }
+    },
+    {
+      "id": "data-analysis-p06-image-format",
+      "order": 8,
+      "page": 6,
+      "sourceId": "doc-2013-writers-guidelines",
+      "sourcePhrase": "soft copy (high resolution JPEG file format)",
+      "sourceRoot": "#page-6 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p06-guidelines-title",
+        "data-p06-to",
+        "data-p06-from",
+        "data-p06-effective-date",
+        "data-p06-on-time",
+        "data-p06-revision-purpose",
+        "data-p06-late",
+        "data-p06-image-format"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 583,
+      "title": "“Images: soft copy, high-resolution JPEG.”",
+      "excerpt": "“Images for articles: soft copy (high resolution JPEG file format).”",
+      "chinese": "「圖片要以高解像度 JPEG 電子檔提交。」",
+      "type": "2 Task 2 直接可用／圖片格式",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "圖片需要同時符合電子檔、高解像度和 JPEG 三項技術條件。",
+        "use": "它把審稿表籠統的「format」轉成 Queenie 可直接執行的提交要求。",
+        "rationale": "三項條件共同界定可接受檔案。只寫 *send photos* 或只寫 *JPEG* 都未完整傳達要求。",
+        "handling": "可與圖片數量放在同一句：*Please send 15–20 high-resolution JPEG images electronically.*"
+      }
+    },
+    {
+      "id": "data-analysis-p06-image-source",
+      "order": 9,
+      "page": 6,
+      "sourceId": "doc-2013-writers-guidelines",
+      "sourcePhrase": "Writers should state the source of images.",
+      "sourceRoot": "#page-6 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p06-copyright",
+        "data-p06-image-source"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 598,
+      "title": "“Writers should state the source of images.”",
+      "excerpt": "“Writers should state the source of images.”",
+      "chinese": "「作者要註明圖片來源。」",
+      "type": "2 Task 2 直接可用／圖片來源",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "Queenie 每張圖片都要交代來源，並確保使用不侵犯版權。",
+        "use": "它完成圖片要求中的來源部分，也連到守則的版權規定。",
+        "rationale": "圖片數量和檔案格式都不能證明合法使用；來源資料是一項獨立行動，省略後圖片要求仍不完整。",
+        "handling": "可寫：*Please identify the source of every image and ensure that copyright is not breached.*"
+      }
+    },
+    {
+      "id": "data-analysis-p06-writer-style",
+      "order": 10,
+      "page": 6,
+      "sourceId": "doc-2013-writers-guidelines",
+      "sourcePhrase": "Style of article to be decided by the writer, unless otherwise indicated by the editor.",
+      "sourceRoot": "#page-6 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p06-word-route",
+        "data-p06-title-limit",
+        "data-p06-style"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1192,
+      "title": "“Style of article to be decided by the writer, unless otherwise indicated.”",
+      "excerpt": "“Style of article to be decided by the writer, unless otherwise indicated by the editor.”",
+      "chinese": "「除非編輯另有指示，文章風格由作者決定。」",
+      "type": "4 語義相關／作者自主範圍",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Queenie 可自行決定文章風格，編輯部目前沒有提出風格修改。",
+        "use": "它防止考生自行增加一項「改變寫作風格」的要求。",
+        "rationale": "這項守則沒有要求 Queenie採取新行動；Task 2 只需傳達審稿表點名的修改。",
+        "handling": "不談文章風格，也不自行指定語調或結構。"
+      }
+    },
+    {
+      "id": "data-analysis-p06-rights-payment",
+      "order": 11,
+      "page": 6,
+      "sourceId": "doc-2013-writers-guidelines",
+      "sourcePhrase": "Asia Life magazine retains the rights to any articles published.",
+      "sourceRoot": "#page-6 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p06-rights",
+        "data-p06-payment"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 707,
+      "title": "“Asia Life retains the rights ... payment after acceptance.”",
+      "excerpt": "“Asia Life magazine retains the rights ... Once an article is accepted ... payment will be made.”",
+      "chinese": "「雜誌保留已刊文章的權利，稿件獲接納後才付款。」",
+      "type": "6 出版行政／權利及付款",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "這兩項守則處理出版權和付款時間。",
+        "use": "它們屬一般投稿條款，審稿表沒有要求 Marty 在本次電郵提醒 Queenie。",
+        "rationale": "Task 2 要傳達本稿件所需修改。加入沒有被點名的合約條款會擠壓必要內容，亦可能令人誤以為稿件已獲正式接納。",
+        "handling": "完全省去，集中列出本次審閱要求。"
+      }
+    },
+    {
+      "id": "data-analysis-p07-review-metadata",
+      "order": 12,
+      "page": 7,
+      "sourceId": "doc-2013-queenie-review",
+      "sourcePhrase": "Vol 12 – June 2013",
+      "sourceRoot": "#page-7 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p07-review-title",
+        "data-p07-issue",
+        "data-p07-reviewed-date",
+        "data-p07-writer",
+        "data-p07-topic",
+        "data-p07-reviewer"
+      ],
+      "task": null,
+      "evidenceType": 5,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1209,
+      "title": "“Issue: Vol 12 – June 2013 ... Writer: Queenie Lau ... Topic ... Reviewer ...”",
+      "excerpt": "The review form identifies the issue, review date, writer, topic and reviewer.",
+      "chinese": "「審稿表列出期數、審閱日期、作者、主題和審稿人。」",
+      "type": "5 提示／稿件歸屬",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "表內所有評論都針對 Queenie 的泰國整容旅遊稿件。",
+        "use": "它避免把其他作者或其他期數的要求混入 Task 2，並可協助擬定清楚主旨。",
+        "rationale": "Queenie 已知道自己姓名和稿件主題；審稿人 James 的姓名也不會改變任何修改要求。",
+        "handling": "主旨簡短指明文章即可，不在正文逐項重述表格 metadata。"
+      }
+    },
+    {
+      "id": "data-analysis-p07-publication-decision",
+      "order": 13,
+      "page": 7,
+      "sourceId": "doc-2013-queenie-review",
+      "sourcePhrase": "Yes (with changes)",
+      "sourceRoot": "#page-7 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p07-publish-changes"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 553,
+      "title": "Visual element: “Yes (with changes)” is checked",
+      "excerpt": "The review form has a tick in “Yes (with changes)”; “Yes” and “No” are not selected.",
+      "chinese": "「審稿表勾選了『修改後刊登』，沒有勾選直接刊登或拒絕。」",
+      "type": "2 Task 2 直接可用／稿件狀態",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "稿件並未被拒絕，但 Queenie 必須完成修改後才可繼續刊登程序。",
+        "use": "它決定電郵語氣要正面而清楚，既不能宣布已正式刊登，也不能寫成拒稿信。",
+        "rationale": "勾選狀態只提供整體結果，不會取代具體修改要求。讀者真正要做的是完成後文各項更正。",
+        "handling": "開首可寫 *We would be pleased to consider the article for publication once the following changes are made.*"
+      }
+    },
+    {
+      "id": "data-analysis-p07-missing-title",
+      "order": 14,
+      "page": 7,
+      "sourceId": "doc-2013-queenie-review",
+      "sourcePhrase": "Title is missing!!",
+      "sourceRoot": "#page-7 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "#doc-2013-writers-guidelines",
+      "routeLabel": "第 6 頁：標題最多 80 個字元",
+      "legacyIds": [
+        "data-p07-title-missing",
+        "data-p07-title-route"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 615,
+      "title": "“The title is missing.”",
+      "excerpt": "“Title is missing!!”",
+      "chinese": "「稿件尚未有標題。」",
+      "type": "2 Task 2 直接可用／缺漏項目",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Queenie 必須為文章補上標題。",
+        "use": "它指出一項清楚的缺漏，並要與「最多 80 個字元」一起轉成完整指示。",
+        "rationale": "只說缺少標題，Queenie 仍不知道長度限制；只說 80 字元，又沒有要求她加標題。兩部分共同完成一項修改。",
+        "handling": "可寫：*Please add a title of no more than 80 characters.*"
+      }
+    },
+    {
+      "id": "data-analysis-p07-word-limit",
+      "order": 15,
+      "page": 7,
+      "sourceId": "doc-2013-queenie-review",
+      "sourcePhrase": "No. of words: 1200",
+      "sourceRoot": "#page-7 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "#doc-2013-editorial-minutes",
+      "routeLabel": "第 5 頁：本期文章上限 900 字",
+      "legacyIds": [
+        "data-p05-word-limit",
+        "data-p07-current-words",
+        "data-p07-check-limit",
+        "data-p07-reduce-words"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 630,
+      "title": "“The article has 1,200 words; the limit is 900.”",
+      "excerpt": "“No. of words: 1200 ... the word limit for articles in the next issue would be 900 words.”",
+      "chinese": "「稿件現有 1,200 字，而下一期的上限是 900 字。」",
+      "type": "2 Task 2 直接可用／超出字數",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Queenie 的文章超出下一期字數上限 300 字，需要刪減至 900 字或以下。",
+        "use": "它把審稿表的疑問和會議紀錄的正式上限接起來，形成可執行修改。",
+        "rationale": "電郵的重點是新的合格長度；計算超出 300 字可幫助理解，但不是另一項要求。保留 900 字上限已足以指導修訂。",
+        "handling": "可寫：*Please reduce the article from 1,200 words to the 900-word limit.*"
+      }
+    },
+    {
+      "id": "data-analysis-p07-thai-place-spelling",
+      "order": 16,
+      "page": 7,
+      "sourceId": "doc-2013-queenie-review",
+      "sourcePhrase": "the spelling of Thai place names – she needs to check these carefully",
+      "sourceRoot": "#page-7 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p07-spelling"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 645,
+      "title": "“Check the spelling of Thai place names carefully.”",
+      "excerpt": "“the spelling of Thai place names – she needs to check these carefully”",
+      "chinese": "「仔細核對泰國地名的拼寫。」",
+      "type": "2 Task 2 直接可用／拼寫核對",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "稿件中的泰國地名可能有拼寫問題，Queenie 要逐一核對。",
+        "use": "它提供一項獨立的文字修訂，不能由一般的「校對文章」代替。",
+        "rationale": "指示明確點名 Thai place names。若只寫 *check the spelling*，便會失去審稿人特別關注的範圍。",
+        "handling": "可寫：*Please check the spelling of all Thai place names carefully.*"
+      }
+    },
+    {
+      "id": "data-analysis-p07-factual-accuracy",
+      "order": 17,
+      "page": 7,
+      "sourceId": "doc-2013-queenie-review",
+      "sourcePhrase": "ask her if all the details in the article are accurate",
+      "sourceRoot": "#page-7 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p07-accuracy"
+      ],
+      "task": "B",
+      "evidenceType": 2,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 660,
+      "title": "“Ask her if all the details in the article are accurate.”",
+      "excerpt": "“ask her if all the details in the article are accurate.”",
+      "chinese": "「請她確認文章內所有資料準確。」",
+      "type": "2 Task 2 直接可用／事實核查",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "Queenie 要核實文章內容，不只檢查地名拼寫。",
+        "use": "它涵蓋資料真確性，是另一項獨立責任。",
+        "rationale": "拼寫正確不代表所有旅遊和整容資料準確。省略本句後，稿件仍可能保留事實錯誤。",
+        "handling": "可寫：*Please also confirm that every factual detail in the article is accurate.*"
+      }
+    },
+    {
+      "id": "data-analysis-p07-direct-follow-up",
+      "order": 18,
+      "page": 7,
+      "sourceId": "doc-2013-queenie-review",
+      "sourcePhrase": "Follow this up with her directly.",
+      "sourceRoot": "#page-7 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p07-images-route",
+        "data-p07-follow-directly"
+      ],
+      "task": null,
+      "evidenceType": 5,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1224,
+      "title": "“Follow this up with her directly.”",
+      "excerpt": "“Follow this up with her directly.”",
+      "chinese": "「直接聯絡 Queenie 跟進。」",
+      "type": "5 提示／Task 2 溝通方法",
+      "decision": "只控制語氣／格式",
+      "analysis": {
+        "meaning": "Marty 應直接把修改要求告訴 Queenie。",
+        "use": "它確認 Task 2 應採用直接電郵，而非把審稿表轉寄給第三者或寫成內部備忘。",
+        "rationale": "「直接跟進」只控制溝通方式，沒有增加第八項或第九項修改要求。",
+        "handling": "使用第二人稱和清楚行動詞，電郵中毋須提及「審稿人叫我跟進」。"
+      }
+    },
+    {
+      "id": "data-analysis-p08-programme-introduction",
+      "order": 19,
+      "page": 8,
+      "sourceId": "doc-2013-see-the-world",
+      "sourcePhrase": "We’ve all heard of student gap years",
+      "sourceRoot": "#page-8 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p08-tv-title",
+        "data-p08-gap-years",
+        "data-p08-south-america",
+        "data-p08-culture-tourism"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1241,
+      "title": "“Student gap years ... South America ... live with native tribes.”",
+      "excerpt": "The presenter introduces gap years and travellers living with indigenous communities in South America.",
+      "chinese": "「主持以學生空檔年和南美原住民社區作為文化旅遊的背景。」",
+      "type": "4 語義相關／節目開場背景",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "這段先用一般例子介紹 immersion or culture tourism。",
+        "use": "它幫助理解 Sauri 例子屬哪種旅遊，但沒有提供對當地人的具體正面影響。",
+        "rationale": "Task 3 的有限篇幅應保留網頁、故事出版和文化保存等實際結果。刪去開場例子後，正面論證仍完整。",
+        "handling": "不介紹 gap year 或南美，只在需要時以 *culture tourism* 概括 Sauri 例子。"
+      }
+    },
+    {
+      "id": "data-analysis-p08-sauri-location",
+      "order": 20,
+      "page": 8,
+      "sourceId": "doc-2013-see-the-world",
+      "sourcePhrase": "I’m in Kenya and I’m going to a small village called Sauri",
+      "sourceRoot": "#page-8 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p08-sauri-purpose"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1256,
+      "title": "“I’m in Kenya ... a small village called Sauri.”",
+      "excerpt": "“I’m in Kenya and I’m going to a small village called Sauri.”",
+      "chinese": "「例子發生在肯尼亞一個名為 Sauri 的小村落。」",
+      "type": "3 Task 3 相關／例子地點",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "網頁和故事出版的案例來自肯尼亞 Sauri 村。",
+        "use": "地點令例子清楚可辨，也避免把後文成果寫成所有旅遊地區都必然出現的結果。",
+        "rationale": "地點本身沒有正面效益，必須與網頁或文化保存的行動一起使用。",
+        "handling": "可寫 *In the Kenyan village of Sauri, visitors helped residents create a webpage and publish local stories.*"
+      }
+    },
+    {
+      "id": "data-analysis-p08-kemi-overall-view",
+      "order": 21,
+      "page": 8,
+      "sourceId": "doc-2013-see-the-world",
+      "sourcePhrase": "I’d say positive for Sauri on the whole.",
+      "sourceRoot": "#page-8 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p08-kemi-role",
+        "data-p08-effect-question",
+        "data-p08-positive-overall",
+        "data-p08-ceci-reaction",
+        "data-p08-how-positive"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1271,
+      "title": "“Kemi: I think generally ... it’s a good thing.”",
+      "excerpt": "“I think generally ... it’s a good thing ... positive for Sauri on the whole.”",
+      "chinese": "「Kemi 認為旅遊整體上對 Sauri 有正面作用。」",
+      "type": "4 語義相關／當地人評價",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "當地教師 Kemi 對旅遊的整體評價正面。",
+        "use": "它顯示正面判斷來自當地人，也引出她其後提供的具體例子。",
+        "rationale": "單靠「good thing」不足以說服讀者；網頁、故事出版和文化延續才是可用理據。Kemi 的總評不需要獨立佔一句。",
+        "handling": "保留她的例子和由例子得出的結論；本套標準答案省去姓名及直接引語，因為人物身分不會改變例子的意思。"
+      }
+    },
+    {
+      "id": "data-analysis-p08-practical-idea-exchange",
+      "order": 22,
+      "page": 8,
+      "sourceId": "doc-2013-see-the-world",
+      "sourcePhrase": "people are starting to share ideas with tourists",
+      "sourceRoot": "#page-8 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p08-share-ideas",
+        "data-p08-practical-question"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 850,
+      "title": "“People in Sauri shared practical ideas with tourists.”",
+      "excerpt": "“in Sauri people are starting to share ideas with tourists ... sharing practical ideas.”",
+      "chinese": "「Sauri 村民與旅客交流實用構思。」",
+      "type": "3 Task 3 直接可用／知識交流",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "旅遊可促成雙向交流，當地人和旅客互相分享實用知識。",
+        "use": "它反駁「外界接觸只會帶來負面影響」的絕對看法，並引出村落網頁的具體成果。",
+        "rationale": "「交流構思」仍較抽象；Yusuf 幫助建立網頁展示交流帶來的實際改變。兩者合併後更有說服力。",
+        "handling": "可寫：*In Sauri, an overseas visitor shared practical skills by helping the villagers create a website.*"
+      }
+    },
+    {
+      "id": "data-analysis-p08-village-webpage",
+      "order": 23,
+      "page": 8,
+      "sourceId": "doc-2013-see-the-world",
+      "sourcePhrase": "helped us create a village webpage",
+      "sourceRoot": "#page-8 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p08-yusuf-webpage",
+        "data-p08-web-information"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 865,
+      "title": "“Yusuf helped create a village webpage.”",
+      "excerpt": "“Yusuf ... helped us create a village webpage.”",
+      "chinese": "「Yusuf 協助村民建立村落網頁。」",
+      "type": "3 Task 3 直接可用／交流成果",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "一位旅客把實用技能帶到村落，協助建立網上平台。",
+        "use": "它把「分享構思」轉成可見成果；網頁亦讓未到訪的人認識村落。",
+        "rationale": "人名不是主要內容，建立網頁及其作用才是例子的價值。本套標準答案固定省去 Yusuf 的名字，保留訪客協助建立網頁的行動和結果。",
+        "handling": "寫成 *A visitor helped Sauri create a webpage through which others could learn about the village.*"
+      }
+    },
+    {
+      "id": "data-analysis-p08-published-local-stories",
+      "order": 24,
+      "page": 8,
+      "sourceId": "doc-2013-see-the-world",
+      "sourcePhrase": "wrote down some of the stories and helped us to get those published",
+      "sourceRoot": "#page-8 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p08-writer-prompt",
+        "data-p08-jessica-name",
+        "data-p08-stories-published",
+        "data-p08-learn-traditions"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 880,
+      "title": "“Jessica Glasser helped publish local stories.”",
+      "excerpt": "“Mrs Jessica Glasser ... wrote down some of the stories and helped us to get those published.”",
+      "chinese": "「Jessica Glasser 把村民的故事記錄下來，並協助出版。」",
+      "type": "3 Task 3 直接可用／文化保存行動",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "一位旅客協助把口述傳統保存成文字並出版。",
+        "use": "它直接回應 Kevin 對傳統消失的擔心：外來接觸在尊重當地人的情況下，也可以保存文化。",
+        "rationale": "「寫下故事」和「出版」是保存及傳播的兩個連續步驟；漏掉其中一項會削弱例子的完整作用。",
+        "handling": "可寫：*A visiting writer recorded and published local stories, allowing more people to learn about Sauri’s traditions.*"
+      }
+    },
+    {
+      "id": "data-analysis-p08-culture-kept-alive",
+      "order": 25,
+      "page": 8,
+      "sourceId": "doc-2013-see-the-world",
+      "sourcePhrase": "tourism is helping you keep your culture alive",
+      "sourceRoot": "#page-8 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p08-culture-alive"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 895,
+      "title": "“Tourism is helping keep the culture alive.”",
+      "excerpt": "“tourism is helping you keep your culture alive.”",
+      "chinese": "「旅遊正在幫助當地文化延續下去。」",
+      "type": "3 Task 3 直接可用／文化效益結論",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Sauri 的網頁和故事出版顯示旅遊可協助保存文化。",
+        "use": "它把兩個例子收束成社論可用的主張，直接反駁 Kevin 認為接觸必然破壞傳統的看法。",
+        "rationale": "若文章已寫網頁和故事例子，可用這個結論收束，不必再重複 Kemi 的整段對話。",
+        "handling": "可寫：*Respectful tourism can therefore keep local culture alive rather than destroy it.*"
+      }
+    },
+    {
+      "id": "data-analysis-p09-immersion-definition",
+      "order": 26,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "It’s when you go and live like a local person",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-forum-title",
+        "data-p09-immersion-query",
+        "data-p09-definition"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1288,
+      "title": "“Immersion tourism means living like a local person.”",
+      "excerpt": "“It’s when you go and live like a local person ... with indigenous people.”",
+      "chinese": "「沉浸式旅遊指旅客在當地生活，接觸原住民社區。」",
+      "type": "4 語義相關／概念解釋",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "論壇用戶用日常語言解釋 immersion tourism。",
+        "use": "它幫助理解 Kevin 對外來接觸的憂慮和 Sauri 例子，但沒有直接提供一項正面效益。",
+        "rationale": "社論不用向讀者下定義，才能把篇幅留給實際效益和例子。",
+        "handling": "不寫定義；直接討論旅遊接觸可帶來甚麼結果。"
+      }
+    },
+    {
+      "id": "data-analysis-p09-culture-change-opinion",
+      "order": 27,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "it changes the local culture",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-change-culture"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 927,
+      "title": "“Tourism changes local culture.”",
+      "excerpt": "“doing this is the same as all tourism, it changes the local culture.”",
+      "chinese": "「有網民認為旅遊會改變當地文化。」",
+      "type": "4 語義相關／個人負面看法",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "一名論壇用戶擔心旅遊會改變本地文化。",
+        "use": "它顯示 Kevin 的憂慮並非完全孤立，也提醒社論不應聲稱旅遊從無風險。",
+        "rationale": "這只是匿名網民的概括意見，沒有具體證據。Task 3 的主要目的又是突出正面效益，所以它不需要成為獨立正文點。",
+        "handling": "可在語氣上承認旅遊需要妥善管理，毋須引用論壇留言或把它寫成已確認事實。"
+      }
+    },
+    {
+      "id": "data-analysis-p09-unfairness-opinion",
+      "order": 28,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "Any kind of tourism is really unfair.",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-unfair"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1303,
+      "title": "“Tourism is unfair because local people cannot visit tourists’ countries.”",
+      "excerpt": "“Any kind of tourism is really unfair ... indigenous people will never get to visit the tourists’ countries.”",
+      "chinese": "「一名網民認為旅遊不公平，因為當地人未必有能力到旅客的國家。」",
+      "type": "4 語義相關／個人判斷",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "這是 BlogGal 對旅遊不平等的個人看法。",
+        "use": "它代表反方情緒，但沒有數據或具體事件支持，也沒有被社論指示要求處理。",
+        "rationale": "Kevin 的來信已提供需要概括的正式反方。再加入匿名網民的另一套觀點會令文章失焦。",
+        "handling": "不引用，也不把「永遠不能出國」寫成客觀事實。"
+      }
+    },
+    {
+      "id": "data-analysis-p09-self-esteem-speculation",
+      "order": 29,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "That must really affect their self-esteem.",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-self-esteem"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1318,
+      "title": "“That must really affect their self-esteem.”",
+      "excerpt": "“That must really affect their self-esteem.”",
+      "chinese": "「該網民推測這會影響當地人的自尊。」",
+      "type": "6 推測／沒有證明的後果",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "說話者把旅遊不平等延伸成心理影響。",
+        "use": "它只展示論壇討論的情緒和推測程度，沒有提供可核實證據。",
+        "rationale": "*must* 在這裏是網民的推論，不能當作已證明的普遍後果。Task 3 也要求正面影響。",
+        "handling": "完全省去，不以權威語氣重述。"
+      }
+    },
+    {
+      "id": "data-analysis-p09-income-and-education",
+      "order": 30,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "at least they have some money because tourists go to their countries",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-money",
+        "data-p09-education"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 773,
+      "title": "“Tourist money can pay for children’s education.”",
+      "excerpt": "“they have some money because tourists go ... They can buy things they really need ... education for their kids.”",
+      "chinese": "「旅客帶來收入，當地家庭可用來支付子女教育等需要。」",
+      "type": "3 Task 3 直接可用／收入及教育",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "旅遊消費可增加當地收入，讓家庭負擔教育。",
+        "use": "它提供一項直接影響居民生活的正面效益，回應 Kevin 只強調負面影響的看法。",
+        "rationale": "「有錢」過於籠統；教育例子說明收入如何改善生活。兩者放在一起，論點才有因果關係。",
+        "handling": "可寫：*Tourism brings income that families can spend on essentials such as their children’s education.*"
+      }
+    },
+    {
+      "id": "data-analysis-p09-mocking-and-throwing",
+      "order": 31,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "Some tourists just laugh at the local people.",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-laugh",
+        "data-p09-throwing"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 942,
+      "title": "“Tourists mocked local people and threw money and food.”",
+      "excerpt": "“Some tourists just laugh at the local people ... throwing money and food at some native dancers.”",
+      "chinese": "「一名網民聲稱，有旅客嘲笑當地人，甚至向舞者投擲金錢和食物。」",
+      "type": "6 個人軼事／負面旁枝",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "論壇用戶轉述一宗侮辱當地舞者的事件。",
+        "use": "它說明不尊重的旅遊行為確實可能造成傷害，但來源只是一則未核實的轉述。",
+        "rationale": "Task 3 要用有限篇幅反駁 Kevin 並突出正面效益。刪去這宗負面軼事後，反方摘要和正面論證仍完整；加入後會轉移文章重心。",
+        "handling": "不引用事件，也不把匿名轉述寫成事實。若需要平衡語氣，只需簡短承認旅遊應受到尊重和管理。"
+      }
+    },
+    {
+      "id": "data-analysis-p09-over-dependence",
+      "order": 32,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "the local people will start to over-depend on tourists and their money",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-overdepend"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 957,
+      "title": "“Local people may over-depend on tourists and their money.”",
+      "excerpt": "“the risk is that the local people will start to over-depend on tourists and their money.”",
+      "chinese": "「有網民擔心當地人會過度依賴旅客和旅遊收入。」",
+      "type": "4 語義相關／風險意見",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "這是一項對經濟依賴的風險判斷。",
+        "use": "它提醒讀者旅遊收益需要長遠管理，但沒有否定工作、教育和基建等正面效益。",
+        "rationale": "社論指示要求突出正面影響，而且 Kevin 的觀點已提供反方摘要。再加入另一個未展開的負面論點，會佔用必要的正面例子篇幅。",
+        "handling": "不列為正文論點；結尾可用 *when tourism is managed responsibly* 表明正面效益需要適當管理。"
+      }
+    },
+    {
+      "id": "data-analysis-p09-more-tourism-more-jobs",
+      "order": 33,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "more tourism = more jobs!!",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-jobs",
+        "data-p09-job-easier"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 788,
+      "title": "“More tourism means more jobs.”",
+      "excerpt": "“more tourism = more jobs ... you can get a job easier because you’re working with tourists.”",
+      "chinese": "「旅遊業發展可創造工作，令當地人較容易就業。」",
+      "type": "3 Task 3 直接可用／就業",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "遊客需求會帶來與旅遊相關的工作機會。",
+        "use": "就業是另一項獨立經濟效益，不能完全由「旅客花錢」代替。",
+        "rationale": "即使居民不直接向旅客售賣商品，酒店、導遊、交通和其他服務仍可創造職位。刪去這項，經濟效益會少一個重要層面。",
+        "handling": "可寫：*A thriving tourism industry also creates jobs for local residents.*"
+      }
+    },
+    {
+      "id": "data-analysis-p09-clean-water-projects",
+      "order": 34,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "government projects to bring clean water into poor areas",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-government-money",
+        "data-p09-clean-water"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 803,
+      "title": "“Governments can use tourist revenue for clean-water projects.”",
+      "excerpt": "“governments can use the money from us tourists ... projects to bring clean water into poor areas.”",
+      "chinese": "「政府可把旅遊收入投放於清潔食水等民生工程。」",
+      "type": "3 Task 3 直接可用／政府項目",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "旅遊收入可由政府轉化成改善貧困地區生活的公共項目。",
+        "use": "清潔食水是具體例子，證明旅遊收益不只落在商戶手上，也可惠及更廣泛居民。",
+        "rationale": "只寫「政府有收入」看不到實際效益；只寫「清潔食水」又未說明資金來源。兩部分要保留。",
+        "handling": "可寫：*Governments can use tourism revenue to fund projects that bring clean water to poorer communities.*"
+      }
+    },
+    {
+      "id": "data-analysis-p09-education-question",
+      "order": 35,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "Do local people get education from tourism?",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-education-question",
+        "data-p09-not-sure"
+      ],
+      "task": null,
+      "evidenceType": 5,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1333,
+      "title": "“Do local people get education from tourism?”",
+      "excerpt": "“Do local people get education from tourism?”",
+      "chinese": "「當地人可否從旅遊中學習？」",
+      "type": "5 提示／引出語言效益",
+      "decision": "只作指路",
+      "analysis": {
+        "meaning": "論壇用戶提出旅遊能否帶來學習機會。",
+        "use": "問題引向下一個具體答案：居民與旅客交談時可以學習語言。",
+        "rationale": "問句本身沒有提供答案，也不能作為社論理據；真正可寫的是下一句的學習效益。",
+        "handling": "不保留問句，直接寫當地人可透過交流改善語言能力。"
+      }
+    },
+    {
+      "id": "data-analysis-p09-language-learning",
+      "order": 36,
+      "page": 9,
+      "sourceId": "doc-2013-tourism-forum",
+      "sourcePhrase": "the local people learn some things from tourists, like language",
+      "sourceRoot": "#page-9 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p09-language",
+        "data-p09-english"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 835,
+      "title": "“Local people can learn languages from tourists.”",
+      "excerpt": "“the local people learn some things from tourists, like language ... that comes from speaking to tourists.”",
+      "chinese": "「當地人與旅客交流時，可以學習外語。」",
+      "type": "3 Task 3 直接可用／語言學習",
+      "decision": "獨立寫入",
+      "analysis": {
+        "meaning": "與旅客交談可讓居民接觸和練習其他語言。",
+        "use": "它提供金錢以外的教育效益，說明旅遊也能帶來知識和溝通能力。",
+        "rationale": "這項效益不依賴政府收入或工作機會，屬另一條完整理由。刪去後，社論會較偏重經濟層面。",
+        "handling": "可與實用知識交流放在同一段：*Contact with visitors can improve language skills and encourage an exchange of practical ideas.*"
+      }
+    },
+    {
+      "id": "data-analysis-p10-mei-authority",
+      "order": 37,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "Age = 97",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-mei-title",
+        "data-p10-mei-topic",
+        "data-p10-mei-age",
+        "data-p10-mei-father"
+      ],
+      "task": null,
+      "evidenceType": 5,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1350,
+      "title": "“Age 97 / father managed Dragon Hotel / Mei grew up there.”",
+      "excerpt": "“Age = 97 / Father – manager Dragon Hotel / Mei grew up in DH.”",
+      "chinese": "「Mei 97 歲，父親曾任 Dragon Hotel 經理，她本人在酒店長大。」",
+      "type": "5 提示／歷史見證人背景",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "Mei 的年齡和成長背景令她可以回憶酒店昔日旅客。",
+        "use": "它說明僕人、行李和晚餐後跳舞等資料來自接近當時生活的個人記憶。",
+        "rationale": "她的家庭背景只解釋資料來源，沒有形成另一項旅遊特色。短文不需要寫完整人物傳記。",
+        "handling": "可直接使用她提供的歷史情景；一般省去年齡和父親職位。"
+      }
+    },
+    {
+      "id": "data-analysis-p10-hotel-staff-rooms",
+      "order": 38,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "125 staff, 48 rooms",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1365,
+      "title": "“125 staff and 48 rooms.”",
+      "excerpt": "“DH opened in 1913 – 125 staff, 48 rooms.”",
+      "chinese": "「酒店開業時有 125 名職員和 48 間客房。」",
+      "type": "4 語義相關／酒店規模",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "這兩個數字描述 Dragon Hotel 早期規模。",
+        "use": "它提供酒店背景，但沒有直接說明 1920 年代旅客如何抵港、居住或消遣。",
+        "rationale": "刪去職員和房間數後，所有具代表性的旅遊例子仍然完整。短文篇幅應優先保留能展示旅遊方式的資料。",
+        "handling": "不列酒店規模數字。"
+      }
+    },
+    {
+      "id": "data-analysis-p10-second-world-war",
+      "order": 39,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "Used by Japanese army in 2nd World War",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1380,
+      "title": "“Used by the Japanese army in the Second World War.”",
+      "excerpt": "“Used by Japanese army in 2nd World War.”",
+      "chinese": "「酒店在第二次世界大戰期間曾被日軍使用。」",
+      "type": "6 歷史旁枝／錯誤時期",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "酒店後來有一段戰時歷史。",
+        "use": "只屬酒店沿革，沒有描寫 1920 年代旅遊。",
+        "rationale": "Task 1 指定 1920 年代；二戰時期資料會把時間線移到另一年代，也不提供旅客例子。",
+        "handling": "完全省去。"
+      }
+    },
+    {
+      "id": "data-analysis-p10-anniversary-and-spa",
+      "order": 40,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "100th Anniversary Ball planned for October 2013",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-anniversary",
+        "data-p10-spa"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 519,
+      "title": "“Dragon Hotel opened in 1913 ... anniversary ball ... new spa.”",
+      "excerpt": "“DH opened in 1913 ... 100th Anniversary Ball planned for October 2013 ... Opening of new spa facilities in December.”",
+      "chinese": "「酒店於 1913 年開業；2013 年計劃舉行百周年舞會及開設新 spa。」",
+      "type": "6 背景／錯誤時期或現代安排",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "這組資料交代酒店歷史和 2013 年的慶祝安排。",
+        "use": "開業年份只提供背景；舞會和 spa 屬 2013 年計劃，沒有描寫 1920 年代旅遊。",
+        "rationale": "刪去整組資料後，文章仍可完整交代 1920 年代的交通、旅客、房價和活動。加入現代計劃反而會模糊指定年代。",
+        "handling": "不寫百周年活動、spa、二戰用途或現代計劃，把篇幅留給 1920 年代例子。"
+      }
+    },
+    {
+      "id": "data-analysis-p10-horse-and-carriage",
+      "order": 41,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "DH had stables for horses – like other hotels",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-stables",
+        "data-p10-carriage"
+      ],
+      "task": "A",
+      "evidenceType": 1,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 363,
+      "title": "“Dragon Hotel had stables ... People used to hire a horse and carriage.”",
+      "excerpt": "“DH had stables for horses ... People used to hire horse + carriage.”",
+      "chinese": "「Dragon Hotel 設有馬廄，旅客可租用馬車。」",
+      "type": "1 Task 1 直接可用／香港本地交通",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "酒店為旅客提供馬匹和馬車，方便在香港出行。",
+        "use": "它把國際旅程延伸到抵港後的本地交通，並與人力車資料互相補充。",
+        "rationale": "馬廄本身只是設施；「旅客租馬車」才說明旅遊用途。兩者放在一起，讀者才知道酒店為何需要馬廄。",
+        "handling": "可寫：*Hotels kept stables so visitors could hire horses and carriages to travel around the city.*"
+      }
+    },
+    {
+      "id": "data-analysis-p10-taxi-pollution",
+      "order": 42,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "she doesn’t like taxis = pollution",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-taxi-pollution"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 534,
+      "title": "“She doesn’t like taxis because of pollution.”",
+      "excerpt": "“now taxis – she doesn’t like taxis = pollution”",
+      "chinese": "「Mei 不喜歡現代的士，認為會造成污染。」",
+      "type": "6 個人意見／現代旁枝",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "Mei 對現代的士和污染有個人看法。",
+        "use": "它只是訪問中的現代對照，沒有增加 1920 年代旅遊事實。",
+        "rationale": "Task 1 要介紹昔日香港旅遊；Mei 對污染的意見既非歷史例子，也無法支持正式比較。",
+        "handling": "完全省去個人批評，只保留昔日馬車和人力車資料。"
+      }
+    },
+    {
+      "id": "data-analysis-p10-servants-and-rooms",
+      "order": 43,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "DH had extra rooms for servants",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-richer",
+        "data-p10-servant-rooms",
+        "data-p10-servants"
+      ],
+      "task": "A",
+      "evidenceType": 1,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 410,
+      "title": "“Tourists travelled with servants, and the hotel had extra rooms for them.”",
+      "excerpt": "“DH had extra rooms for servants ... tourists travel with servants.”",
+      "chinese": "「旅客會帶同僕人，酒店更設有額外房間安置他們。」",
+      "type": "1 Task 1 直接可用／富裕旅客生活方式",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "部分國際旅客出行時帶同僕人，酒店設施也配合這種習慣。",
+        "use": "它以具體酒店安排支持「旅客較富裕和講究排場」的描述。",
+        "rationale": "只寫「有僕人房」會令讀者不知道用途；只寫「帶僕人」又少了可核實的酒店例子。合併後意思最清楚。",
+        "handling": "可寫：*Wealthy guests often travelled with servants, for whom hotels provided extra rooms.*"
+      }
+    },
+    {
+      "id": "data-analysis-p10-luggage-and-outfits",
+      "order": 44,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "Tourists used to have so much luggage!!",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-luggage",
+        "data-p10-outfits",
+        "data-p10-luggage-now"
+      ],
+      "task": "A",
+      "evidenceType": 1,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 425,
+      "title": "“Tourists had a lot of luggage and different outfits for dinner.”",
+      "excerpt": "“Tourists used to have so much luggage ... different outfits for dinner.”",
+      "chinese": "「旅客攜帶大量行李，晚餐時還會換上不同服裝。」",
+      "type": "1 Task 1 直接可用／旅遊習慣",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "旅客出行裝備多，並重視晚餐服飾。",
+        "use": "它補充富裕旅客的生活方式，也與晚餐後跳舞的酒店文化連在一起。",
+        "rationale": "「大量行李」和「晚餐服裝」描述同一種講究排場的旅遊習慣，可在有限篇幅內用一句呈現。",
+        "handling": "可寫：*They brought large amounts of luggage, including special outfits for dinner and dancing.*"
+      }
+    },
+    {
+      "id": "data-analysis-p10-dancing-after-dinner",
+      "order": 45,
+      "page": 10,
+      "sourceId": "doc-2013-mei-interview",
+      "sourcePhrase": "Mei liked watching people dance after dinner",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-dancing"
+      ],
+      "task": "A",
+      "evidenceType": 1,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 457,
+      "title": "“People danced after dinner.”",
+      "excerpt": "“Mei liked watching people dance after dinner.”",
+      "chinese": "「旅客晚餐後會跳舞。」",
+      "type": "1 Task 1 直接可用／酒店消遣",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "晚餐後跳舞是當時酒店旅客的消遣之一。",
+        "use": "它補充交通和住宿以外的旅遊生活，令文章更像完整專題，而非數據清單。",
+        "rationale": "Mei 想像自己像那些女士一樣，只是她的個人感受；不會增加另一項歷史活動。保留「晚餐後跳舞」已足夠。",
+        "handling": "可寫：*After dinner, elegantly dressed guests danced at the hotel.*"
+      }
+    },
+    {
+      "id": "data-analysis-p10-kevin-negative-position",
+      "order": 46,
+      "page": 10,
+      "sourceId": "doc-2013-kevin-letter",
+      "sourcePhrase": "the effects of tourism are increasingly negative",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-kevin-title",
+        "data-p10-salutation",
+        "data-p10-kevin-experience",
+        "data-p10-negative-position"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 726,
+      "title": "“The effects of tourism are increasingly negative.”",
+      "excerpt": "“I have observed that the effects of tourism are increasingly negative.”",
+      "chinese": "「Kevin 認為旅遊帶來的影響愈來愈負面。」",
+      "type": "3 Task 3 直接可用／反方總論",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Kevin 對旅遊的整體判斷偏向負面。",
+        "use": "它是社論需要反駁的核心立場，應與他支持隔離巴西部落的理由放在一至兩句摘要內。",
+        "rationale": "單寫「旅遊負面」未交代他的具體方案；逐字重述整封信又會超出 brief summary 的要求。",
+        "handling": "可概括為：*Kevin Hui argues that tourism is increasingly harmful and supports keeping isolated tribes away from outside contact.*"
+      }
+    },
+    {
+      "id": "data-analysis-p10-uncontacted-tribe",
+      "order": 47,
+      "page": 10,
+      "sourceId": "doc-2013-kevin-letter",
+      "sourcePhrase": "they have decided to leave the tribes of people uncontacted",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-lost-tribe",
+        "data-p10-uncontacted",
+        "data-p10-guards"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 741,
+      "title": "“The Brazilian government decided to leave the tribe uncontacted and use guards.”",
+      "excerpt": "“they have decided to leave the tribes ... uncontacted. The government even has guards to stop ... tourists.”",
+      "chinese": "「巴西政府決定不接觸該部落，並派警衛阻止遊客進入。」",
+      "type": "3 Task 3 直接可用／Kevin 支持的做法",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "Kevin 以巴西的隔離措施支持限制旅客接觸原住民。",
+        "use": "它令他的立場具體，讓社論可以承認保護弱勢文化的需要，再指出旅遊也可在合適管理下帶來好處。",
+        "rationale": "社論只需簡短摘要，沒有空間交代發現部落、守衛安排和所有背景。保留「支持不接觸部落」已能準確代表他的主張。",
+        "handling": "與上一項合成一至兩句，不詳述整宗巴西事件。"
+      }
+    },
+    {
+      "id": "data-analysis-p10-protecting-traditions",
+      "order": 48,
+      "page": 10,
+      "sourceId": "doc-2013-kevin-letter",
+      "sourcePhrase": "live immersed in their own traditions and without being negatively influenced by anyone from outside",
+      "sourceRoot": "#page-10 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p10-agree",
+        "data-p10-traditions",
+        "data-p10-signoff",
+        "data-p10-signature"
+      ],
+      "task": "C",
+      "evidenceType": 3,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 756,
+      "title": "“They can live immersed in their traditions without outside influence.”",
+      "excerpt": "“these tribal groups can live immersed in their own traditions and without being negatively influenced by anyone from outside.”",
+      "chinese": "「Kevin 認為隔離可讓部落維持傳統，免受外界負面影響。」",
+      "type": "3 Task 3 直接可用／反方理由",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Kevin 的主要理據是保護傳統和避免外界傷害。",
+        "use": "它讓反駁保持公平，不會把 Kevin 寫成單純反對所有旅客而沒有原因。",
+        "rationale": "這個理由與他的負面總論和隔離方案屬同一摘要。寫完後應立即轉向旅遊也能保存文化的反例。",
+        "handling": "在摘要中保留「保護傳統」的意思，然後以 Sauri 故事和 Nora Dance 說明適當旅遊也可令文化延續。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-historian-source",
+      "order": 49,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "Dr. Laurence Lieu is a Lecturer at the Department of History at Hong Kong Metropolitan University",
+      "sourceRoot": "#page-11 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-blog-title",
+        "data-p11-authority",
+        "data-p11-book",
+        "data-p11-hunting-context"
+      ],
+      "task": null,
+      "evidenceType": 5,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1397,
+      "title": "“Dr Laurence Lieu ... local historian ... published Fauna of Hong Kong.”",
+      "excerpt": "The webpage identifies Dr Laurence Lieu and cites a local-history publication.",
+      "chinese": "「網頁由歷史學者撰寫，並引用一項香港動物史資料。」",
+      "type": "5 提示／歷史來源",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "獵虎和歷史統計出現在一個歷史學者的網頁，而非匿名旅遊論壇。",
+        "use": "它幫助考生把獵虎事件和統計視為歷史資料，同時仍要以頁面實際文字為限。",
+        "rationale": "作者職銜只控制來源判斷，不會增加另一項 1920 年代旅遊活動。",
+        "handling": "可直接使用有明確年份和說明的資料，正文毋須介紹學者履歷。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-edgar-derby-tiger",
+      "order": 50,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "an American tourist, Mr. Edgar Derby, who shot this tiger in Lung Yeuk Tau, near Fanling in 1923",
+      "sourceRoot": "#page-11 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-derby"
+      ],
+      "task": "A",
+      "evidenceType": 1,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 472,
+      "title": "“An American tourist shot a tiger near Fanling in 1923.”",
+      "excerpt": "“This photo is of an American tourist, Mr Edgar Derby, who shot this tiger ... near Fanling in 1923.”",
+      "chinese": "「1923 年，美國旅客 Edgar Derby 在粉嶺附近獵殺了一隻老虎。」",
+      "type": "1 Task 1 直接可用／歷史旅遊活動",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "1920 年代有外國旅客到新界獵虎，Derby 是一個具體例子。",
+        "use": "它提供文章最鮮明的「昔日旅遊」例子，顯示當時活動與現代香港非常不同。",
+        "rationale": "單一事件要與後文「很多北美旅客因此來港獵虎」一起理解，才能證明這不只是一宗私人事件，也形成旅遊活動。",
+        "handling": "可寫：*Some North American visitors even came to the New Territories to hunt tigers after an American shot one near Fanling in 1923.*"
+      }
+    },
+    {
+      "id": "data-analysis-p11-tiger-photograph",
+      "order": 51,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "Edgar Derby, Lung Yeuk Tau, 1923",
+      "sourceRoot": "#page-11 .historian-photo.tiger",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-photo-caption"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 502,
+      "title": "Visual element: tiger photograph",
+      "excerpt": "The page shows a historical photograph of Edgar Derby with the tiger identified in the caption.",
+      "chinese": "「頁面附有歷史照片，圖說把人物和老虎連到 1923 年粉嶺附近的事件。」",
+      "type": "4 語義相關／圖片佐證",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "照片配合文字，讓讀者知道網誌所述事件有一張相關歷史影像。",
+        "use": "它支持事件的歷史呈現，但照片本身不能告訴考生有多少旅客來港，也不能證明其他獵虎細節。",
+        "rationale": "Task 1 要寫短文而非圖片說明。事件的時間、地點和旅遊意義都已由文字提供；照片沒有增加另一項必寫意思。",
+        "handling": "用文字資料寫出事件；不要從衣着、姿勢或背景自行推測額外事實。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-north-american-tiger-hunters",
+      "order": 52,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "lots of tourists from North America used to come to Hong Kong in the 1920s to go tiger hunting in the New Territories",
+      "sourceRoot": "#page-11 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-many-tourists"
+      ],
+      "task": "A",
+      "evidenceType": 1,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 487,
+      "title": "“Lots of tourists from North America came to Hong Kong to go tiger hunting.”",
+      "excerpt": "“Lots of tourists from North America used to come to Hong Kong in the 1920s to go tiger hunting.”",
+      "chinese": "「1920 年代，不少北美旅客來港獵虎。」",
+      "type": "1 Task 1 直接可用／活動普及程度",
+      "decision": "合併寫入",
+      "analysis": {
+        "meaning": "Derby 的事件令獵虎成為吸引北美旅客的活動。",
+        "use": "它把照片中的個別事件提升為與旅遊主題直接相關的普遍趨勢。",
+        "rationale": "只寫 Derby 可能像歷史奇聞；加入「不少旅客因此來港」，讀者才看見它與香港旅遊的關係。",
+        "handling": "與 Derby 事件合成一句，不必保留網誌作者關於野豬的現代玩笑。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-successful-and-wild-boars",
+      "order": 53,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "none were as ‘successful’ as Mr. Derby",
+      "sourceRoot": "#page-11 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-none-successful",
+        "data-p11-boars"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1412,
+      "title": "“None were as ‘successful’ as Mr Derby. And we worry about wild boars!”",
+      "excerpt": "“none were as ‘successful’ as Mr Derby. And we worry about wild boars!”",
+      "chinese": "「其他旅客沒有像 Derby 般獵得老虎；作者再以野豬作現代玩笑。」",
+      "type": "6 作者語氣／諷刺旁枝",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "引號顯示作者對「成功」一詞帶有距離或諷刺，野豬句則是現代幽默。",
+        "use": "它幫助理解網頁語氣，提醒考生不應在自己的歷史文章歌頌獵殺動物。",
+        "rationale": "Task 1 只需要把獵虎寫成昔日旅遊活動，不需要評論誰最成功或延伸到現代野豬。",
+        "handling": "中性轉述獵虎事實，省去 *successful* 和幽默評論。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-room-price-comparison",
+      "order": 54,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "$10,300",
+      "sourceRoot": "#page-11 .table-scroll",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-stat-reaction",
+        "data-p11-room-1928",
+        "data-p11-room-2013"
+      ],
+      "task": "A",
+      "evidenceType": 1,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 440,
+      "title": "Visual element: Dragon Hotel room price in 1928 and 2013",
+      "excerpt": "The table gives an approximate 1928 room price of $10,300 in today’s money and a 2013 price of $4,200.",
+      "chinese": "「表格把 1928 年房價折算成現今幣值，約為 10,300 元；2013 年則為 4,200 元。」",
+      "type": "1 Task 1 直接可用／歷史成本比較",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "折算成相同幣值後，1928 年 Dragon Hotel 的房價比 2013 年高得多。",
+        "use": "它以數字支持「昔日國際旅遊昂貴、旅客較富裕」的結論。",
+        "rationale": "關鍵是比較結果和「in today’s money」的基準。若漏掉折算說明，讀者可能誤以為直接比較兩個時代的名義價格。",
+        "handling": "可寫：*In today’s money, a room cost about $10,300 in 1928, compared with $4,200 in 2013.*"
+      }
+    },
+    {
+      "id": "data-analysis-p11-rickshaw-licences",
+      "order": 55,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "3,243",
+      "sourceRoot": "#page-11 .table-scroll",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-rickshaw-1928",
+        "data-p11-rickshaw-2013",
+        "data-p11-rickshaw-popular"
+      ],
+      "task": "A",
+      "evidenceType": 1,
+      "bank": true,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 378,
+      "title": "Visual element: 3,243 rickshaw licences in 1928 and two in 2013",
+      "excerpt": "The table shows 3,243 rickshaw licences in 1928 and 2 in 2013.",
+      "chinese": "「表格顯示，香港人力車牌照由 1928 年的 3,243 個減至 2013 年的 2 個。」",
+      "type": "1 Task 1 直接可用／歷史交通數據",
+      "decision": "只保留結論",
+      "analysis": {
+        "meaning": "人力車在 1928 年遠較現代普遍。",
+        "use": "數字支持網頁所說「人力車很受旅客歡迎」，可令文章的交通描述更具體。",
+        "rationale": "Task 1 篇幅短，兩個完整數字會佔用空間。真正需要保留的是當時人力車非常普遍且受旅客歡迎；若使用數字，必須保持年份和比較對象準確。",
+        "handling": "在本套標準答案中固定寫成 *Rickshaws were also extremely common and popular with tourists.* 表格中的 3,243 和 2 只用來證明人力車在 1928 年遠較現代普遍；兩個數字不另行寫入短文，因為它們沒有增加另一項交通方式或另一項旅遊活動。這項取捨是固定決定，並非由考生按篇幅自行選擇。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-pity-and-anniversary",
+      "order": 56,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "A great pity they’ve gone.",
+      "sourceRoot": "#page-11 .recreated-page",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-gone",
+        "data-p11-anniversary"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1427,
+      "title": "“A great pity they’ve gone. Happy 100th Anniversary!”",
+      "excerpt": "“A great pity they’ve gone ... Happy 100th Anniversary!”",
+      "chinese": "「作者惋惜人力車式微，並祝賀酒店百周年。」",
+      "type": "6 個人感想／現代祝賀",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "網誌作者對人力車和酒店周年表達個人情感。",
+        "use": "它沒有增加人力車數量、旅客使用情況或 1920 年代活動。",
+        "rationale": "個人惋惜和祝賀不屬歷史資訊。刪去後，Task 1 仍有完整數據和事實。",
+        "handling": "只保留人力車很普遍和受旅客歡迎的結論。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-room-price-visual-basis",
+      "order": 57,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "Approx. $10,300",
+      "sourceRoot": "#page-11 .table-scroll",
+      "focusSelector": "#page-11 .table-scroll",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [],
+      "task": null,
+      "evidenceType": 5,
+      "bank": false,
+      "rejected": false,
+      "final": false,
+      "sourceLine": 1051,
+      "title": "Visual element: historical room-price table",
+      "excerpt": "The 1928 room price is labelled “Approx. $10,300 (in today’s money)”; the 2013 price is $4,200.",
+      "chinese": "「1928 年房價附有『按現今幣值折算』的說明，兩個年份才能合理比較。」",
+      "type": "5 視覺提示／數據比較基準",
+      "decision": "只用來判斷證據狀態",
+      "analysis": {
+        "meaning": "表格已調整 1928 年價格的幣值，避免把舊幣值和現代幣值直接比較。",
+        "use": "它決定文章引用數字時必須保留 *in today’s money* 的意思，否則比較會失真。",
+        "rationale": "括號本身不形成另一個內容點，但控制整項數據可否準確使用。",
+        "handling": "使用數字時寫明 *in today’s money*；若省略數字，只可保留「昔日房價更高」的結論。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-dragon-hotel-photograph",
+      "order": 58,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "Dragon Hotel, 1920s",
+      "sourceRoot": "#page-11 .historian-photo.hotel",
+      "focusSelector": "",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-hotel-photo",
+        "data-p11-hotel-caption"
+      ],
+      "task": null,
+      "evidenceType": 4,
+      "bank": false,
+      "rejected": true,
+      "final": false,
+      "sourceLine": 1066,
+      "title": "Visual element: Dragon Hotel photograph",
+      "excerpt": "A historical photograph of the Dragon Hotel appears beneath the statistics.",
+      "chinese": "「統計下方附有 Dragon Hotel 的歷史照片。」",
+      "type": "4 語義相關／歷史氣氛",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "圖片讓讀者看到酒店昔日外觀。",
+        "use": "它加強歷史感，但沒有清楚標示可獨立寫入的建築特徵，也不會增加交通、房價或旅客活動資料。",
+        "rationale": "刪去圖片後，所有 Task 1 必要意思仍可由文字和表格完整建立。從模糊影像猜測建築細節會超出來源。",
+        "handling": "不描述外觀；只使用有文字支持的酒店事實。"
+      }
+    },
+    {
+      "id": "data-analysis-p11-data-file-boundary",
+      "order": 59,
+      "page": 11,
+      "sourceId": "doc-2013-historian-blog",
+      "sourcePhrase": "THIS IS THE LAST PAGE OF THE PART B2 DATA FILE",
+      "sourceRoot": "#page-11",
+      "focusSelector": "#page-11 .source-end",
+      "routeTarget": "",
+      "routeLabel": "",
+      "legacyIds": [
+        "data-p11-end",
+        "data-stage-complete"
+      ],
+      "task": null,
+      "evidenceType": 6,
+      "bank": false,
+      "rejected": true,
+      "final": true,
+      "sourceLine": 1081,
+      "title": "“THIS IS THE LAST PAGE ... / source acknowledgements / page codes”",
+      "excerpt": "“THIS IS THE LAST PAGE OF THE PART B2 DATA FILE” and publication/page furniture.",
+      "chinese": "「資料檔完結提示、來源鳴謝、頁碼及文件編碼。」",
+      "type": "6 印刷行政／文件邊界",
+      "decision": "不寫入答案",
+      "analysis": {
+        "meaning": "這些元素協助核對頁數、印刷和出版來源。",
+        "use": "只屬考試文件管理，與虛構的 *Asia Life* 工作情境分開。",
+        "rationale": "刪去頁碼、水印、網址、條碼和鳴謝後，所有任務要求及證據仍完整存在。",
+        "handling": "完全排除，不把現實試卷的印刷資訊寫進任何成品。"
+      }
+    }
+  ],
+  "evidenceTypes": {
+    "1": "Task A 直接可用",
+    "2": "Task B 直接可用",
+    "3": "Task C 直接可用",
+    "4": "語義相關／背景",
+    "5": "視覺提示／來源導航",
+    "6": "不採用／行政／噪音"
+  }
+};
+  model.steps = Object.freeze(model.steps.map(step => Object.freeze({...step, analysis:Object.freeze(step.analysis), legacyIds:Object.freeze(step.legacyIds)})));
+  model.analysisSource = Object.freeze(model.analysisSource);
+  model.evidenceTypes = Object.freeze(model.evidenceTypes);
+  window.EDMUND_2013_B2_DATA_FILE = Object.freeze(model);
 })();

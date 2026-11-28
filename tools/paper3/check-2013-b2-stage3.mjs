@@ -34,7 +34,7 @@ const inventory = await page.evaluate(() => {
     missing:runtime.missingTargets
   };
 });
-assert.equal(inventory.version, '2013-b2-stage4-v1');
+assert.equal(inventory.version, '2013-b2-stage4-v2-full-analysis');
 assert.equal(inventory.ids.length, 185);
 assert.equal(new Set(inventory.ids).size, 185, 'Stage 3 stable IDs must be unique');
 assert.equal(inventory.cueIds.length, 28);
