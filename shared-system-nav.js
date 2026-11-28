@@ -369,11 +369,7 @@
   let pomodoroTimerId = null;
   let pomodoroNodes = null;
   let pomodoroPageLocked = false;
-  let accessTransition = null;
-  let accessTransitionFailsafeTimer = 0;
   let accessNavigationPending = false;
-  const accessMotionReduced = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches === true;
-  const ACCESS_TRANSITION_HORSE_SVG = `<svg class="edmund-student-access-transition__horse" viewBox="0 0 330 220" role="img" aria-label="Eddy"><defs><linearGradient id="eddy-loader-coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c97828"/><stop offset="1" stop-color="#8d431c"/></linearGradient></defs><ellipse cx="165" cy="199" rx="112" ry="13" fill="#6d648f" opacity=".48"/><path d="M82 81 67 37l39 27M226 77l24-39 10 51" fill="#a95621" stroke="#5a2e1d" stroke-width="8" stroke-linejoin="round"/><path d="M86 75c27-45 105-57 151-8 32 34 31 94 3 120-25 23-122 20-154-5-32-25-30-76 0-107Z" fill="url(#eddy-loader-coat)" stroke="#5a2e1d" stroke-width="8"/><path d="M92 70c26-37 96-54 138-12-35-3-53 10-68 30-22-19-46-23-70-18Z" fill="#282124"/><ellipse cx="118" cy="112" rx="16" ry="20" fill="#fff"/><ellipse cx="207" cy="112" rx="16" ry="20" fill="#fff"/><circle cx="123" cy="118" r="7" fill="#241d1d"/><circle cx="202" cy="118" r="7" fill="#241d1d"/><path d="M117 151c23 18 72 18 95-1" fill="none" stroke="#4a281f" stroke-width="8" stroke-linecap="round"/><circle cx="105" cy="148" r="7" fill="#4a281f"/><circle cx="224" cy="148" r="7" fill="#4a281f"/></svg>`;
   let persistentDeviceClient = null;
 
   function storageJson(storage, key) {
@@ -406,37 +402,6 @@
     return false;
   }
 
-  function ensureAccessTransition(message = "正在安全登入學習系統…") {
-    if (accessTransition?.isConnected) {
-      const copy = accessTransition.querySelector("[data-edmund-access-message]");
-      if (copy) copy.textContent = message;
-      accessTransition.classList.remove("is-leaving");
-      return accessTransition;
-    }
-    const overlay = document.createElement("div");
-    overlay.className = "edmund-student-access-transition";
-    overlay.dataset.edmundStudentAccessTransition = "";
-    overlay.setAttribute("role", "status");
-    overlay.setAttribute("aria-live", "polite");
-    overlay.innerHTML = `<section class="edmund-student-access-transition__card">${ACCESS_TRANSITION_HORSE_SVG}<strong>正在進入學習系統</strong><p data-edmund-access-message>${message}</p><div class="edmund-student-access-transition__track" aria-hidden="true"></div></section>`;
-    document.body.append(overlay);
-    accessTransition = overlay;
-    window.clearTimeout(accessTransitionFailsafeTimer);
-    accessTransitionFailsafeTimer = window.setTimeout(dismissAccessTransition, 6000);
-    return overlay;
-  }
-
-  function dismissAccessTransition() {
-    if (!accessTransition) return;
-    window.clearTimeout(accessTransitionFailsafeTimer);
-    accessTransitionFailsafeTimer = 0;
-    accessTransition.classList.add("is-leaving");
-    window.setTimeout(() => {
-      accessTransition?.remove();
-      accessTransition = null;
-    }, accessMotionReduced ? 80 : 210);
-  }
-
   function startInternalNavigation(event) {
     if (event.defaultPrevented || event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
     const link = event.target.closest?.('a[href]');
@@ -447,19 +412,9 @@
     if (target.pathname === current.pathname && target.search === current.search) return;
     event.preventDefault();
     bridgeStudentSession(studentSessionCandidate(), true);
-    ensureAccessTransition("正在載入下一個學習頁面…");
     if (accessNavigationPending) return;
     accessNavigationPending = true;
-    window.setTimeout(() => window.location.assign(target.href), accessMotionReduced ? 80 : 380);
-  }
-
-  function loginSurfaceVisible() {
-    const selectors = ["[data-login-view]", "[data-view='login']", "[data-login-form]", ".login-screen", ".login-card"];
-    return selectors.some(selector => [...document.querySelectorAll(selector)].some(node => {
-      if (node.hidden || node.closest("[hidden]")) return false;
-      const style = getComputedStyle(node);
-      return style.display !== "none" && style.visibility !== "hidden" && node.getClientRects().length > 0;
-    }));
+    window.location.assign(target.href);
   }
 
   const SUCCESSFUL_STUDENT_LOGIN_SOUND = "/shared-student-login-success.mp3?v=20261118-1";
@@ -526,22 +481,6 @@
     pendingStudentLoginTimer = window.setTimeout(expirePendingStudentLoginSound, 30000);
   }
 
-  function monitorAuthenticatedEntry() {
-    const startedAt = Date.now();
-    window.addEventListener("edmund:learning-portal-session", dismissAccessTransition, { once: true });
-    const check = () => {
-      if (!accessTransition) return;
-      const elapsed = Date.now() - startedAt;
-      const candidate = studentSessionCandidate();
-      if (!candidate || (elapsed >= 1200 && !loginSurfaceVisible()) || elapsed >= 6000) {
-        dismissAccessTransition();
-        return;
-      }
-      window.setTimeout(check, 300);
-    };
-    window.setTimeout(check, 700);
-  }
-
   function loadSharedScript(url, predicate, options = {}) {
     if (predicate()) return Promise.resolve();
     return new Promise((resolve, reject) => {
@@ -588,27 +527,20 @@
     if (!document.querySelector("[data-edmund-system-switcher]") || isHomepage() || isAdminEntry()) return;
     const existing = studentSessionCandidate();
     if (existing?.token) {
-      ensureAccessTransition("正在核對登入並載入你的學習記錄…");
       bridgeStudentSession(existing, true);
-      monitorAuthenticatedEntry();
       return;
     }
     if (!hasPersistentDeviceAuth()) return;
-    ensureAccessTransition("正在從此裝置恢復你的學生登入…");
     try {
       const client = await ensurePersistentDeviceClient();
       const current = await client.auth.getSession();
       if (current.error) throw current.error;
-      if (!current.data?.session?.user?.id) {
-        dismissAccessTransition();
-        return;
-      }
+      if (!current.data?.session?.user?.id) return;
       const { data, error } = await client.rpc("homepage_student_resume");
       if (error) throw error;
       const student = Array.isArray(data) ? data[0] : null;
       if (!student?.session_token || !student?.name) {
         await client.auth.signOut({ scope: "local" });
-        dismissAccessTransition();
         return;
       }
       rememberStudentSession({
@@ -619,12 +551,9 @@
         access: student.access
       });
       try { sessionStorage.setItem(`${DEVICE_RESUME_RELOAD_PREFIX}${window.location?.pathname || "system"}`, student.session_token); } catch { /* Reload remains safe without the marker. */ }
-      const copy = accessTransition?.querySelector("[data-edmund-access-message]");
-      if (copy) copy.textContent = "登入成功，正在開啟你的學習內容…";
       window.location?.reload();
     } catch (error) {
       console.warn("Persistent student device restore failed", error);
-      dismissAccessTransition();
     }
   }
 
