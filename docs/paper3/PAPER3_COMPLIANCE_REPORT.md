@@ -1,5 +1,39 @@
 # Paper 3 compliance report
 
+Compliance revision: `paper3-2014-b2-complete-five-stage-live-v1`
+
+## 2014 B2 Super Curation — complete five-stage release
+
+- Status: verified for production release at `/paper3/2014-b2/`.
+- Scope: 47 Stage 1 instruction steps, 20 Stage 2 classification steps, 21 synchronized Podcast cues, 174 Stage 4 source-led evidence records and 237 Stage 5 writing steps.
+- Navigation: all stages and steps are freely browsable; completion state never blocks reading.
+- Source fidelity: all teaching content is derived from the authentic 2014 paper, recording and supplied 2014 analysis. The 2025 implementation is used only for interaction architecture and visual/teaching conventions.
+- UI cleanup: internal step IDs and generated source-order/writer/reader/date metadata are absent from the learner interface and help dialog.
+- Detailed report: `docs/paper3/2014_B2_COMPLIANCE_REPORT.md`.
+
+### 2014 implementation evidence
+
+| Evidence ID | Verified scope |
+|---|---|
+| `P3-2014-P1-INDEX` | Native 17-page reader and deterministic five-stage mount |
+| `P3-2014-AUDIO-PROVENANCE` | Authentic recording provenance and bounded segment |
+| `P3-2014-P1-DATA` | Exact 47-step instruction sequence |
+| `P3-2014-P2-DATA` | Exact 20-step source classification sequence |
+| `P3-2014-P2-STYLES` | Readable and accessible classification UI |
+| `P3-2014-P3-DATA` | Twenty-one cues with line-by-line Traditional Chinese translation and reversible seeking |
+| `P3-2014-P3-STYLES` | Synchronized player, transcript and note-sheet presentation |
+| `P3-2014-P4-LOADER` | Ordered one-time asset loading and safe fallback |
+| `P3-2014-P4-CONTROLLER` | Free five-stage navigation, reversible state, evidence routes and writing workflow |
+| `P3-2014-BASE-STYLES` | Shared dock, bookmark, focus, motion and responsive contracts |
+| `P3-2014-P4-DATA` | Eleven sources, 174 atomic records and 79 bank-eligible facts |
+| `P3-2014-P4-STYLES` | Exact task colours, Type 6-only red strikes and responsive evidence layout |
+| `P3-2014-P4-BROWSER-TEST` | Full Stage 4 Chromium journey, audio seek, reload, routes and metadata-absence checks |
+| `P3-2014-P5-DATA` | Twelve writing actions, 49 model units, 88 source visits and 88 paired returns |
+| `P3-2014-P5-STYLES` | Exact 2025 rail geometry, full essay visibility, 16px analysis and pale source-use strikes |
+| `P3-2014-P5-BROWSER-TEST` | Full Stage 5 Chromium journey, persistence, transfer, storage failure and responsive checks |
+
+The complete source mapping, audit totals, screenshots and regression record are retained under `docs/paper3/2014_*`, `docs/paper3/2014-b2-*` and `outputs/2014-b2-part3` through `outputs/2014-b2-part5`.
+
 ## 2013 B2 Super Curation — Part 3 / Podcast
 
 - Release: `2013-b2-stage3-v2.3-direct-entry-cumulative-paper`

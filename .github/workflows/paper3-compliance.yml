@@ -1,0 +1,93 @@
+name: Enforce Paper 3 compliance evidence
+
+on:
+  pull_request:
+    paths:
+      - AGENTS.md
+      - 2025_B2_Super_Curation_Line_by_Line.md
+      - dse-paper3-*
+      - paper3-*
+      - paper3/**
+      - docs/paper3/**
+      - tools/paper3/**
+      - tools/add-paper3-study-support.py
+      - tools/build-2023-b2-reader.py
+      - tools/test-paper3-b2-listening-notes.mjs
+      - tools/test-paper3-b2-sentence-analysis.mjs
+      - .github/workflows/paper3-compliance.yml
+      - .github/workflows/pages-paper3-fast.yml
+      - .github/workflows/pages.yml
+  push:
+    branches: [main, 'codex/**']
+    paths:
+      - AGENTS.md
+      - 2025_B2_Super_Curation_Line_by_Line.md
+      - dse-paper3-*
+      - paper3-*
+      - paper3/**
+      - docs/paper3/**
+      - tools/paper3/**
+      - tools/add-paper3-study-support.py
+      - tools/build-2023-b2-reader.py
+      - tools/test-paper3-b2-listening-notes.mjs
+      - tools/test-paper3-b2-sentence-analysis.mjs
+      - .github/workflows/paper3-compliance.yml
+      - .github/workflows/pages-paper3-fast.yml
+      - .github/workflows/pages.yml
+
+permissions:
+  contents: read
+
+jobs:
+  compliance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Paper 3 compliance inputs
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /AGENTS.md
+            /2025_B2_Super_Curation_Line_by_Line.md
+            /.github/workflows/paper3-compliance.yml
+            /.github/workflows/pages-paper3-fast.yml
+            /.github/workflows/pages.yml
+            /docs/paper3/
+            /paper3/
+            /dse-paper3-*
+            /paper3-*
+            /tools/add-paper3-study-support.py
+            /tools/build-2023-b2-reader.py
+            /tools/manuals/build-paper3-super-curation-golden-manual-v7.py
+            /tools/paper3/
+            /tools/test-paper3-b2-listening-notes.mjs
+            /tools/test-paper3-b2-sentence-analysis.mjs
+
+      - name: Resolve changed paths
+        id: changes
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE: ${{ github.event.before }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="${PUSH_BASE}"
+          if [[ "${EVENT_NAME}" == pull_request ]]; then base="${PR_BASE}"; fi
+          if [[ -z "${base}" || "${base}" == 0000000000000000000000000000000000000000 ]]; then
+            git fetch --no-tags origin main
+            base=$(git merge-base "${GITHUB_SHA}" FETCH_HEAD)
+            test -n "${base}"
+          fi
+          git diff --no-renames --name-only "${base}" "${GITHUB_SHA}" > /tmp/paper3-compliance-changes.txt
+          echo "Changed paths: $(wc -l < /tmp/paper3-compliance-changes.txt)" >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Verify traceability and source contracts
+        run: |
+          node tools/paper3/verify-paper3-compliance.mjs --changed-files /tmp/paper3-compliance-changes.txt
+          node tools/paper3/test-verify-paper3-compliance.mjs
+          node tools/test-paper3-b2-sentence-analysis.mjs
+          node tools/test-paper3-b2-listening-notes.mjs

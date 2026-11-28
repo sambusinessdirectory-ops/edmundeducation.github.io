@@ -1,0 +1,11 @@
+{
+  "version": "2014-b2-super-curation-stage4-v1",
+  "sourceHash": "8afa38a7366913c294f647255caeda6ece1b9ace53a40163f2d46730be90773d",
+  "sources": 11,
+  "records": 174,
+  "textRecords": 159,
+  "visualRecords": 13,
+  "textRecordsWithAtLeastOneNativeMatch": 159,
+  "misses": [],
+  "pageErrors": []
+}
