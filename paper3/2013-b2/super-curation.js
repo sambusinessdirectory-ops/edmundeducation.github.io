@@ -9,7 +9,7 @@
   if (!model || !podcastModel || !dataFileModel || !Array.isArray(timedTranscript) || !toolbar || document.body.dataset.reader !== '2013-b2') return;
 
   const VERSION = model.contentVersion;
-  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation', '2013-b2-stage3-v1', '2013-b2-stage3-v2']);
+  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation', '2013-b2-stage3-v1', '2013-b2-stage3-v2', '2013-b2-stage4-v1']);
   const STORAGE_KEY = 'edmund-paper3-2013-b2-super-curation-stage1-v1';
   const steps = model.steps.map((item, index) => ({...item, index}));
   const stepsById = new Map(steps.map(item => [item.id, item]));
@@ -23,6 +23,8 @@
   const dataSteps = dataFileModel.steps.map((item, index) => ({...item, sourcePage:item.page, index, kind:'data-file'}));
   const dataStepsById = new Map(dataSteps.map(item => [item.id, item]));
   const dataIds = new Set(dataStepsById.keys());
+  const dataIdMigrations = new Map(dataSteps.flatMap(item => (item.legacyIds || []).map(id => [id, item.id])));
+  const migrateDataId = id => dataIds.has(id) ? id : dataIdMigrations.get(id);
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const create = (tag, className, text) => {
@@ -371,18 +373,19 @@
     clean.podcastTranscriptFollow = raw.podcastTranscriptFollow !== false;
     clean.podcastTranslationVisible = raw.podcastTranslationVisible === true;
     clean.podcastStageComplete = raw.podcastStageComplete === true && podcastSteps.every(item => clean.podcastCompleted.includes(item.id));
-    const restoredDataId = dataIds.has(raw.dataCurrentStepId)
-      ? raw.dataCurrentStepId
+    const requestedDataId = migrateDataId(raw.dataCurrentStepId);
+    const restoredDataId = dataIds.has(requestedDataId)
+      ? requestedDataId
       : dataSteps[Math.min(Math.max(Number(raw.dataPosition) || 0, 0), Math.max(0, dataSteps.length - 1))]?.id;
     clean.dataCurrentStepId = restoredDataId || dataSteps[0]?.id || '';
     clean.dataPosition = dataStepsById.get(clean.dataCurrentStepId)?.index || 0;
-    clean.dataCompleted = [...new Set((Array.isArray(raw.dataCompleted) ? raw.dataCompleted : []).filter(id => dataIds.has(id)))];
-    clean.reachedEvidenceIds = [...new Set((Array.isArray(raw.reachedEvidenceIds) ? raw.reachedEvidenceIds : clean.dataCompleted).filter(id => dataIds.has(id)))];
-    clean.evidenceBankIds = [...new Set((Array.isArray(raw.evidenceBankIds) ? raw.evidenceBankIds : clean.reachedEvidenceIds.filter(id => dataStepsById.get(id)?.bank)).filter(id => dataStepsById.get(id)?.bank))];
+    clean.dataCompleted = [...new Set((Array.isArray(raw.dataCompleted) ? raw.dataCompleted : []).map(migrateDataId).filter(id => dataIds.has(id)))];
+    clean.reachedEvidenceIds = [...new Set((Array.isArray(raw.reachedEvidenceIds) ? raw.reachedEvidenceIds : clean.dataCompleted).map(migrateDataId).filter(id => dataIds.has(id)))];
+    clean.evidenceBankIds = [...new Set((Array.isArray(raw.evidenceBankIds) ? raw.evidenceBankIds : clean.reachedEvidenceIds.filter(id => dataStepsById.get(id)?.bank)).map(migrateDataId).filter(id => dataStepsById.get(id)?.bank))];
     clean.dataBankFilter = ['all','A','B','C'].includes(raw.dataBankFilter) ? raw.dataBankFilter : 'all';
     clean.dataStageComplete = raw.dataStageComplete === true && clean.dataCompleted.length === dataSteps.length;
     clean.bookmarks = [...new Set((Array.isArray(raw.bookmarks) ? raw.bookmarks : [])
-      .map(id => ids.has(id) || podcastIds.has(id) || dataIds.has(id) ? id : migrateCategoryId(id)).filter(id => ids.has(id) || categoryIds.has(id) || podcastIds.has(id) || dataIds.has(id)))];
+      .map(id => migrateDataId(id) || (ids.has(id) || podcastIds.has(id) ? id : migrateCategoryId(id))).filter(id => ids.has(id) || categoryIds.has(id) || podcastIds.has(id) || dataIds.has(id)))];
     clean.spotlight = raw.spotlight !== false;
     clean.stageComplete = raw.stageComplete === true && clean.completed.length === steps.length;
     // Stage 1 and Stage 2 are independent teaching views. Completion records
@@ -444,9 +447,16 @@
       <p class="curation-source" id="curation-source"></p><h2 class="curation-title" id="curation-title"></h2><span class="curation-badge" id="curation-badge"></span>
       <blockquote class="curation-quote" id="curation-quote" lang="en"></blockquote><div class="curation-explanation" id="curation-explanation"></div><fieldset class="curation-category-controls" id="curation-category-controls" hidden><legend>你會先標哪個任務？</legend><div class="curation-category-task-row"><label class="task-A"><input type="checkbox" value="A">Task A</label><label class="task-B"><input type="checkbox" value="B">Task B</label><label class="task-C"><input type="checkbox" value="C">Task C</label></div><small>先看標題；標題不足，才由第一行往下讀至首個決定線索。</small></fieldset>
       <div class="curation-help-panel" id="curation-help-panel" hidden></div><div id="curation-route-card"></div><div id="curation-podcast-actions"></div><div id="curation-final"></div>
-      <section class="curation-evidence-bank" id="curation-evidence-bank" hidden aria-label="Task 證據庫"><div class="curation-bank-head"><strong>Task 證據庫</strong><span id="curation-bank-count"></span></div><div class="curation-bank-filters" role="group" aria-label="證據庫篩選"><button type="button" data-bank-filter="all" aria-pressed="true">全部</button><button type="button" data-bank-filter="A">A</button><button type="button" data-bank-filter="B">B</button><button type="button" data-bank-filter="C">C</button></div><ol id="curation-bank-list"></ol></section>
     </div>
     <details class="curation-save"><summary>自動儲存 · 匯出 / 匯入</summary><div class="curation-save-row"><label for="curation-slot">儲存格</label><select id="curation-slot" aria-label="選擇儲存格"></select><button type="button" id="curation-save-now">儲存</button><button type="button" id="curation-export">匯出</button><label class="curation-import-label">匯入<input id="curation-import" type="file" accept="application/json,.json"></label></div><small class="curation-save-status" id="curation-save-status" role="status"></small></details>`;
+
+  // Stage 4 mirrors the reference workspace: the teaching dock stays on the
+  // left while the evidence bank is an independent, persistent panel on the right.
+  const bank = create('aside', 'curation-evidence-bank');
+  bank.id = 'curation-evidence-bank';
+  bank.hidden = true;
+  bank.setAttribute('aria-label', '三項寫作證據庫');
+  bank.innerHTML = `<div class="curation-bank-head"><div><small>STAGE 4 · DATA FILE</small><strong>三項寫作證據庫</strong></div><span id="curation-bank-count"></span></div><p class="curation-bank-intro">逐句判讀後，只有可支援 Task A、B 或 C 的資料才會收入。點選任何證據可返回原句；被排除的資料仍保留完整分析，但不會冒充可用內容。</p><div class="curation-bank-filters" role="group" aria-label="證據庫篩選"><button type="button" data-bank-filter="all" aria-pressed="true">全部</button><button type="button" data-bank-filter="A">Task A</button><button type="button" data-bank-filter="B">Task B</button><button type="button" data-bank-filter="C">Task C</button></div><ol id="curation-bank-list"></ol>`;
 
   const picker = create('dialog', 'curation-picker');
   picker.id = 'curation-picker';
@@ -466,7 +476,7 @@
   const routeCallout = create('div', 'curation-route-callout');
   routeCallout.hidden = true;
 
-  document.body.append(stage, dock, picker, ...masks, routeArrow, routeCallout);
+  document.body.append(stage, dock, bank, picker, ...masks, routeArrow, routeCallout);
   const audio = new Audio(podcastModel.audio.url);
   audio.preload = 'metadata';
   const audioBar = create('section', 'curation-podcast-player');
@@ -748,7 +758,7 @@
   }
 
   function syncEvidenceBank() {
-    const panel = $('#curation-evidence-bank', dock);
+    const panel = bank;
     panel.hidden = !inDataFile();
     if (!inDataFile()) return;
     const reached = state.evidenceBankIds
@@ -764,12 +774,56 @@
       const button = create('button');
       button.type = 'button';
       button.dataset.evidenceId = item.id;
-      button.innerHTML = `<span class="curation-bank-task">${item.task}</span><strong>${item.title}</strong><small>第 ${item.page} 頁 · ${item.sourcePhrase}</small>`;
+      button.append(create('span', 'curation-bank-task', item.task), create('strong', '', item.title), create('small', '', `第 ${item.page} 頁 · ${item.sourcePhrase}`));
       button.addEventListener('click', () => goTo(item.index));
       row.append(button);
       list.append(row);
     }
     if (!reached.length) list.append(create('li', 'curation-bank-empty', state.evidenceBankIds.length ? '這個 Task 暫時未有已收錄證據。' : '完成可用證據步驟後，證據會在這裡出現。'));
+  }
+
+  function appendAuthoredText(node, value) {
+    const parts = String(value || '').split(/(\*[^*]+\*)/g);
+    for (const part of parts) {
+      if (part.startsWith('*') && part.endsWith('*') && part.length > 2) node.append(create('em', '', part.slice(1, -1)));
+      else if (part) node.append(document.createTextNode(part));
+    }
+  }
+
+  function analysisField(label, value, className = '') {
+    const row = create('div', `curation-analysis-field ${className}`.trim());
+    row.append(create('strong', '', label));
+    const copy = create('p');
+    appendAuthoredText(copy, value);
+    row.append(copy);
+    return row;
+  }
+
+  function renderExplanation(item) {
+    const panel = $('#curation-explanation', dock);
+    panel.replaceChildren();
+    if (!inDataFile()) {
+      panel.append(create('p', '', item.explanation || ''));
+      return;
+    }
+    const authored = create('section', 'curation-authored-analysis');
+    authored.setAttribute('aria-label', '完整逐句分析');
+    authored.append(
+      analysisField(item.title.startsWith('Visual element:') ? '視覺觀察' : '原文節錄', item.excerpt, 'curation-analysis-excerpt'),
+      analysisField(item.title.startsWith('Visual element:') ? '中文描述' : '中文翻譯', item.chinese),
+      analysisField('類型', item.type, 'curation-analysis-type'),
+      analysisField('作答決定', item.decision, 'curation-analysis-decision')
+    );
+    const body = create('section', 'curation-analysis-body');
+    body.append(create('h3', '', '分析'));
+    body.append(
+      analysisField('這句在說甚麼', item.analysis.meaning),
+      analysisField('這句有甚麼用', item.analysis.use),
+      analysisField('為甚麼採用這個作答決定', item.analysis.rationale),
+      analysisField('答案可以怎樣處理', item.analysis.handling, 'curation-analysis-handling')
+    );
+    authored.append(body);
+    panel.append(authored);
   }
 
   const toDisplayTime = sourceTime => Math.min(Math.max(sourceTime - podcastModel.audio.segmentStart, 0), podcastModel.audio.segmentDuration);
@@ -1106,7 +1160,10 @@
         // newly selected row outside the floating transcript viewport.
         scrollTranscriptRowIntoView(target);
       } else if (target && target !== audioBar && target !== transcriptWindow) {
-        target.scrollIntoView({block:'center', inline:'nearest', behavior:reduced ? 'instant' : 'smooth'});
+        // Stage 4 can jump between pages and cross-page evidence quickly. An
+        // instant source alignment prevents queued smooth-scroll animations
+        // from leaving the document on an earlier fact file after repeated Next.
+        target.scrollIntoView({block:'center', inline:'nearest', behavior:(reduced || inDataFile()) ? 'instant' : 'smooth'});
       }
       const until = performance.now() + (reduced ? 0 : 900);
       const track = () => {
@@ -1150,7 +1207,7 @@
     $('#curation-part-label', dock).textContent = inDataFile() ? 'PART 4 · DATA FILE' : (inPodcast() ? 'PART 3 · PODCAST' : (inCategories() ? 'PART 2 · DATA CATEGORIZATION' : 'PART 1 · TASK INSTRUCTIONS'));
     $('#curation-stage-title', dock).textContent = inDataFile() ? 'Stage 4 · 逐句取證' : (inPodcast() ? 'Stage 3 · 聆聽錄音' : (inCategories() ? 'Stage 2 · 資料分類' : 'Stage 1 · 任務指示'));
     $('#curation-quote', dock).textContent = inCategories() ? item.sourceTitle : item.sourcePhrase;
-    $('#curation-explanation', dock).innerHTML = `<p>${item.explanation}</p>`;
+    renderExplanation(item);
     const controls = $('#curation-category-controls', dock);
     controls.hidden = !inCategories() || !item.choiceRequired;
     if (inCategories() && item.choiceRequired) {
@@ -1258,6 +1315,7 @@
     open = Boolean(value);
     stage.hidden = !open;
     dock.hidden = !open;
+    if (!open) bank.hidden = true;
     document.body.classList.toggle('curation-active', open);
     launch.setAttribute('aria-pressed', String(open));
     launch.textContent = open ? '✦ 離開 Curation' : '✦ Super Curation';
@@ -1397,7 +1455,7 @@
   $('[data-stage-id="categorization"]', stage).addEventListener('click', () => switchStage('categorization'));
   $('[data-stage-id="podcast"]', stage).addEventListener('click', () => switchStage('podcast'));
   $('[data-stage-id="data-file"]', stage).addEventListener('click', () => switchStage('data-file'));
-  $('#curation-evidence-bank', dock).addEventListener('click', event => {
+  bank.addEventListener('click', event => {
     const filter = event.target.closest('[data-bank-filter]')?.dataset.bankFilter;
     if (!filter) return;
     state.dataBankFilter = filter;
