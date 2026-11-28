@@ -32,7 +32,7 @@ const inventory = await page.evaluate(() => {
     missing:runtime.missingTargets
   };
 });
-assert.equal(inventory.version, '2013-b2-stage4-v2-full-analysis');
+assert.equal(inventory.version, '2013-b2-stage4-v3-v4-source-rebuilt');
 assert.equal(inventory.stage1Ids.length, 52, 'approved Part 1 sequence must remain 52 steps');
 assert.equal(new Set(inventory.stage1Ids).size, 52, 'Part 1 IDs must remain unique');
 assert.equal(inventory.categoryIds.length, 14, 'Stage 2 must contain 8 documents, 1 note overview and 5 note headings');

@@ -197,7 +197,7 @@
   const categorySteps = [
     {
       id:'2013-category-05-editorial-minutes', order:0, kind:'document', page:5,
-      target:'#page-5 .meeting-sheet h4:nth-of-type(3) + .bilingual p[lang="en"]',
+      target:'#page-5 .meeting-sheet h4:nth-of-type(4) + .bilingual p[lang="en"]',
       stampTarget:'#doc-2013-editorial-minutes', cluePhrase:'Queenie Lau',
       title:'Asia Life 編輯會議紀錄', sourceTitle:'Minutes from editorial meeting at Asia Life magazine',
       badge:'首個決定線索', initialTasks:['B'], choiceRequired:true,
@@ -257,7 +257,8 @@
     {
       id:'2013-category-11-historian-blog', order:7, kind:'document', page:11,
       target:'#page-11 .historian-content > .bilingual:first-of-type p[lang="en"]',
-      stampTarget:'#doc-2013-historian-blog', cluePhrase:'American tourist, Mr. Edgar Derby, who shot this tiger in Lung Yeuk Tau, near Fanling in 1923',
+      stampTarget:'#doc-2013-historian-blog', clueSelector:'#source-p11-category-clue',
+      cluePhrase:'This photo is of an American tourist, Mr. Edgar Derby, who shot this tiger in Lung Yeuk Tau, near Fanling in 1923.',
       title:'New Territories Historian 網誌', sourceTitle:'New Territories Historian blog page',
       badge:'首個決定線索', initialTasks:['A'], choiceRequired:true,
       explanation:'標題只說這是新界歷史網誌，未必一定談旅遊。依次讀過作者資料和日期後，第一篇正文首次出現一名 American tourist 在香港於 1923 年的活動；地點、年代和旅遊身分同時對上 Task A，於是停下並先標 A。',
@@ -309,8 +310,8 @@
   ];
 
   window.EDMUND_2013_B2_STAGE1 = Object.freeze({
-    schemaVersion: 7,
-    contentVersion: '2013-b2-stage4-v2-full-analysis',
+    schemaVersion: 8,
+    contentVersion: '2013-b2-stage4-v3-v4-source-rebuilt',
     stages: [
       {id:'instructions', label:'1', name:'Task Instructions', short:'任務指示', status:'complete'},
       {id:'categorization', label:'2', name:'Data Categorization', short:'資料分類', status:'complete'},

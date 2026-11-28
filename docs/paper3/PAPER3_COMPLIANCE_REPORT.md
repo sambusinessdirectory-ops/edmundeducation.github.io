@@ -1,39 +1,5 @@
 # Paper 3 compliance report
 
-Compliance revision: `paper3-2014-b2-complete-five-stage-live-v1`
-
-## 2014 B2 Super Curation — complete five-stage release
-
-- Status: verified for production release at `/paper3/2014-b2/`.
-- Scope: 47 Stage 1 instruction steps, 20 Stage 2 classification steps, 21 synchronized Podcast cues, 174 Stage 4 source-led evidence records and 237 Stage 5 writing steps.
-- Navigation: all stages and steps are freely browsable; completion state never blocks reading.
-- Source fidelity: all teaching content is derived from the authentic 2014 paper, recording and supplied 2014 analysis. The 2025 implementation is used only for interaction architecture and visual/teaching conventions.
-- UI cleanup: internal step IDs and generated source-order/writer/reader/date metadata are absent from the learner interface and help dialog.
-- Detailed report: `docs/paper3/2014_B2_COMPLIANCE_REPORT.md`.
-
-### 2014 implementation evidence
-
-| Evidence ID | Verified scope |
-|---|---|
-| `P3-2014-P1-INDEX` | Native 17-page reader and deterministic five-stage mount |
-| `P3-2014-AUDIO-PROVENANCE` | Authentic recording provenance and bounded segment |
-| `P3-2014-P1-DATA` | Exact 47-step instruction sequence |
-| `P3-2014-P2-DATA` | Exact 20-step source classification sequence |
-| `P3-2014-P2-STYLES` | Readable and accessible classification UI |
-| `P3-2014-P3-DATA` | Twenty-one cues with line-by-line Traditional Chinese translation and reversible seeking |
-| `P3-2014-P3-STYLES` | Synchronized player, transcript and note-sheet presentation |
-| `P3-2014-P4-LOADER` | Ordered one-time asset loading and safe fallback |
-| `P3-2014-P4-CONTROLLER` | Free five-stage navigation, reversible state, evidence routes and writing workflow |
-| `P3-2014-BASE-STYLES` | Shared dock, bookmark, focus, motion and responsive contracts |
-| `P3-2014-P4-DATA` | Eleven sources, 174 atomic records and 79 bank-eligible facts |
-| `P3-2014-P4-STYLES` | Exact task colours, Type 6-only red strikes and responsive evidence layout |
-| `P3-2014-P4-BROWSER-TEST` | Full Stage 4 Chromium journey, audio seek, reload, routes and metadata-absence checks |
-| `P3-2014-P5-DATA` | Twelve writing actions, 49 model units, 88 source visits and 88 paired returns |
-| `P3-2014-P5-STYLES` | Exact 2025 rail geometry, full essay visibility, 16px analysis and pale source-use strikes |
-| `P3-2014-P5-BROWSER-TEST` | Full Stage 5 Chromium journey, persistence, transfer, storage failure and responsive checks |
-
-The complete source mapping, audit totals, screenshots and regression record are retained under `docs/paper3/2014_*`, `docs/paper3/2014-b2-*` and `outputs/2014-b2-part3` through `outputs/2014-b2-part5`.
-
 ## 2013 B2 Super Curation — Part 3 / Podcast
 
 - Release: `2013-b2-stage3-v2.3-direct-entry-cumulative-paper`
@@ -194,21 +160,21 @@ After approval, Stage 2 should inventory the authentic Data File document headin
 
 ## 2013 B2 Super Curation — Stage 4
 
-- Release: `2013-b2-stage4-v2-full-analysis`
-- Scope: Data File pages 5–11; all 59 included user-authored deep-analysis units, with 17 already-curated/Podcast units explicitly excluded
-- Teaching steps: 59 stable IDs with complete excerpt/Chinese/type/decision/four-part analysis fields
-- Evidence bank: 29 stable entries in an independent right-side panel
-- Cross-page routes: 2 authored combined-decision routes
+- Release: `2013-b2-stage4-v3-v4-source-rebuilt`
+- Scope: all 207 clause/visual units bounded by Data File pages 5–11 in the V4 source; Situation, Contents, Podcast/Tracks 7–8 and boss letter/Casey email excluded as already taught
+- Teaching steps: 207 stable IDs with complete excerpt/Chinese/type/decision/original-label/four-part analysis fields
+- Evidence bank: 62 stable entries in an independent right-side panel
+- Source routes: 6 authored reference routes
 - Stage 5: locked; no writing content implemented
 
 ### Requirement evidence
 
 | Requirement | Stage 4 implementation evidence | Verification |
 |---|---|---|
-| V7-SRC-01 / V8-SRC-03 | Generated ledger retains every authored field and records source Markdown SHA/line plus exact reconstructed phrase | 59/59 field-completeness assertions, 17-line exclusion assertion and zero missing targets |
-| V7-NAV-01 | Stable-ID Previous/Next, picker, bookmarks, deep links and right-bank return | 59-step forward pass, reverse/future-ink audit and direct-ID check |
-| V7-ROUTE-01 | Two combined decisions visibly route from the review form to the controlling page 5/6 rule | Destination selector and red-route rendering checks |
-| V7-STATE-01 | Schema 7 stores current/completed/reached/bank/filter/bookmark/spotlight/completion fields and maps v1 IDs through explicit aliases | Beginning, middle and final reload plus stable-ID migration checks |
+| V7-SRC-01 / V8-SRC-03 | Generated ledger retains every authored field and original label, source Markdown SHA/line, per-block SHA and exact reconstructed phrase | 207/207 field-completeness assertions, exact page counts, zero unparsed block content and zero missing targets |
+| V7-NAV-01 | Stable-ID Previous/Next, picker, bookmarks, deep links and right-bank return | Complete 207-step forward and reverse passes, future-ink audit and direct-ID check |
+| V7-ROUTE-01 | Six reference decisions visibly route to their controlling source | Destination selectors and route rendering checks |
+| V7-STATE-01 | Schema 8 stores current/completed/reached/bank/filter/bookmark/spotlight/completion fields and maps earlier IDs through explicit aliases | Beginning, middle and final reload plus stable-ID migration checks |
 | V7-NOTE-02 / V7-STATE-02 | Stage 4 reprojects only reached Stage 3 generated notes on the authentic page-3 sheet and leaves learner-authored notes under native reader persistence | Stage 3 seek → Stage 4 handoff → full reload snapshot; generated and learner note counts/text remain identical |
 | V7-A11Y-01 | Semantic buttons, labels, focus targets, keyboard arrows and live save status | Production DOM/browser inspection |
 | V7-RESP-01 | Wide fixed teaching dock plus standalone right `三項寫作證據庫`; Stage 3 audio chrome removed outside Podcast | 1800 × 1100 geometry/screenshots and hidden-player assertions |
