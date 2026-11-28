@@ -9,7 +9,7 @@
   if (!model || !podcastModel || !dataFileModel || !Array.isArray(timedTranscript) || !toolbar || document.body.dataset.reader !== '2013-b2') return;
 
   const VERSION = model.contentVersion;
-  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation', '2013-b2-stage3-v1', '2013-b2-stage3-v2', '2013-b2-stage4-v1']);
+  const LEGACY_VERSIONS = new Set(['2013-b2-stage1-v1', '2013-b2-stage2-v1', '2013-b2-stage2-v2', '2013-b2-stage2-v3-free-navigation', '2013-b2-stage3-v1', '2013-b2-stage3-v2', '2013-b2-stage4-v1', '2013-b2-stage4-v2-full-analysis']);
   const STORAGE_KEY = 'edmund-paper3-2013-b2-super-curation-stage1-v1';
   const steps = model.steps.map((item, index) => ({...item, index}));
   const stepsById = new Map(steps.map(item => [item.id, item]));
@@ -262,10 +262,16 @@
       missing.push(`${item.id}: category target ${item.target}`);
       continue;
     }
-    item.targetNode = item.cluePhrase ? wrapCategoryClue(rawTarget, item.cluePhrase, item) : rawTarget;
+    item.targetNode = item.clueSelector ? $(item.clueSelector) : (item.cluePhrase ? wrapCategoryClue(rawTarget, item.cluePhrase, item) : rawTarget);
     if (!item.targetNode) {
       missing.push(`${item.id}: category clue ${item.cluePhrase}`);
       continue;
+    }
+    if (item.clueSelector) {
+      item.targetNode.classList.add('curation-category-clue');
+      item.targetNode.dataset.categoryStep = item.id;
+      item.targetNode.tabIndex = 0;
+      item.targetNode.setAttribute('aria-label', `首個決定線索：${item.cluePhrase}`);
     }
     item.focusTarget = item.targetNode;
     if (item.categoryKind !== 'document' && item.categoryKind !== 'note') continue;
@@ -817,10 +823,10 @@
     const body = create('section', 'curation-analysis-body');
     body.append(create('h3', '', '分析'));
     body.append(
-      analysisField('這句在說甚麼', item.analysis.meaning),
-      analysisField('這句有甚麼用', item.analysis.use),
-      analysisField('為甚麼採用這個作答決定', item.analysis.rationale),
-      analysisField('答案可以怎樣處理', item.analysis.handling, 'curation-analysis-handling')
+      analysisField(item.analysisLabels?.meaning || '這句在說甚麼', item.analysis.meaning),
+      analysisField(item.analysisLabels?.use || '這句有甚麼用', item.analysis.use),
+      analysisField(item.analysisLabels?.rationale || '為甚麼採用這個作答決定', item.analysis.rationale),
+      analysisField(item.analysisLabels?.handling || '答案可以怎樣處理', item.analysis.handling, 'curation-analysis-handling')
     );
     authored.append(body);
     panel.append(authored);

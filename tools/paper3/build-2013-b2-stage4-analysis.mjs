@@ -3,14 +3,14 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const sourcePath = process.argv[2] || '/Users/sammak/Desktop/Paper 3 Factline Analysis - final list (V1)/2013_B2_Fact_Line_Deep_Analysis_v1.1_Congruence_Corrected_2026-11-12.md';
+const sourcePath = process.argv[2] || "/Volumes/(Pro-G) Sam's Data/CodexData/user-data/Documents/ChatGPT/Astra/output/md/2013_B2_Paper3_Complete_Clause_by_Clause_Fact_Line_Analysis_V4.0_SOURCE_REBUILT_2026-11-29.md";
 const outputPath = process.argv[3] || path.resolve('paper3/2013-b2/super-curation-data-file-data.js');
 const mappingPath = process.argv[4] || path.resolve('docs/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md');
 const toolMappingPath = path.resolve('tools/paper3/2013_B2_STAGE4_SOURCE_MAPPING.md');
 
 // The source line is the durable join key back to the user-authored deep analysis.
 // The sequence follows the printed Data File (pages 5–11), not task order.
-const MAPPING = [
+const LEGACY_V2_STEPS = [
   {line:1147,id:'data-analysis-p05-meeting-administration',page:5,sourceId:'doc-2013-editorial-minutes',phrase:'James Lee · Casey Wong · Mavis Lam · Vicki Swan',legacy:['data-p05-minutes-title','data-p05-present','data-p05-date','data-p05-venue','data-p05-confirmation']},
   {line:1130,id:'data-analysis-p05-issue-topics',page:5,sourceId:'doc-2013-editorial-minutes',phrase:'Three topics were decided: unusual travel and tourism, buying a new car and the benefits of evening classes.',legacy:['data-p05-topics','data-p05-main-focus']},
   {line:1162,id:'data-analysis-p05-writer-contact',page:5,sourceId:'doc-2013-editorial-minutes',phrase:'JL agreed to contact Tony Kwok and Queenie Lau and ask them to contribute articles for publication.',legacy:['data-p05-writers-contact','data-p05-guidelines-route']},
@@ -80,84 +80,214 @@ const MAPPING = [
 
 const text = fs.readFileSync(sourcePath, 'utf8');
 const lines = text.split(/\r?\n/);
-const units = new Map();
-for (let index = 328; index < Math.min(lines.length, 1518); index += 1) {
-  if (!lines[index].startsWith('### ')) continue;
-  const start = index + 1;
+const sourceSha256 = crypto.createHash('sha256').update(text).digest('hex');
+
+const fieldValue = (block, labels) => {
+  for (const label of labels) {
+    const row = block.find(line => line.startsWith(`**${label}**`));
+    if (row) return row.replace(/^\*\*[^*]+\*\*\s*/, '').replace(/\s{2}$/, '');
+  }
+  return '';
+};
+const parseBullet = line => {
+  const match = line.match(/^- \*\*(.+?)：\*\*\s*(.*)$/);
+  return match ? {label:match[1], value:match[2].trim()} : null;
+};
+
+const authoredUnits = [];
+let currentPage = 0;
+let inIncludedDataFile = false;
+for (let index = 0; index < lines.length; index += 1) {
+  const pageHeading = lines[index].match(/^# Data File page (\d+)/);
+  if (pageHeading) {
+    currentPage = Number(pageHeading[1]);
+    inIncludedDataFile = currentPage >= 5 && currentPage <= 11;
+    continue;
+  }
+  if (inIncludedDataFile && lines[index].startsWith('# ') && !lines[index].startsWith('# Data File page ')) {
+    inIncludedDataFile = false;
+    continue;
+  }
+  if (!inIncludedDataFile || !lines[index].startsWith('### ')) continue;
+
   let end = index + 1;
-  while (end < Math.min(lines.length, 1518) && !lines[end].startsWith('### ') && !lines[end].startsWith('## ') && !lines[end].startsWith('# ')) end += 1;
+  while (end < lines.length && !/^#{1,3} /.test(lines[end])) end += 1;
   const block = lines.slice(index, end);
-  const value = label => {
-    const row = block.find(line => line.startsWith(`**${label}`));
-    return row ? row.replace(/^\*\*[^*]+\*\*\s*/, '').replace(/\s{2}$/, '') : '';
-  };
-  const bullet = label => {
-    const row = block.find(line => line.startsWith(`- **${label}：**`));
-    return row ? row.slice(row.indexOf('：**') + 3).trim() : '';
-  };
-  units.set(start, {
-    sourceLine:start,
-    title:block[0].slice(4).trim(),
-    excerpt:value('Excerpt:') || value('Visual observation:'),
-    chinese:value('中文翻譯：') || value('中文描述：'),
-    type:value('類型：'),
-    decision:value('作答決定：'),
-    analysis:{
-      meaning:bullet('這句在說甚麼'),
-      use:bullet('這句有甚麼用'),
-      rationale:bullet('為甚麼採用這個作答決定'),
-      handling:bullet('答案可以怎樣處理')
-    }
+  const bullets = block.map(parseBullet).filter(Boolean);
+  const unparsed = block.slice(1).filter(line => {
+    const trimmed = line.trim();
+    return trimmed && trimmed !== '---' && trimmed !== '**分析：**' &&
+      !trimmed.startsWith('**Excerpt:**') && !trimmed.startsWith('**Visual observation:**') &&
+      !trimmed.startsWith('**中文翻譯：**') && !trimmed.startsWith('**中文說明：**') &&
+      !trimmed.startsWith('**類型：**') && !trimmed.startsWith('**作答決定：**') &&
+      !trimmed.startsWith('- **');
   });
+  assert.deepEqual(unparsed, [], `unparsed authored content at source line ${index + 1}`);
+  assert.equal(bullets.length, 4, `source line ${index + 1} must retain exactly four authored analysis lines`);
+
+  const unit = {
+    sourceLine:index + 1,
+    page:currentPage,
+    title:block[0].slice(4).trim(),
+    visual:block[0].startsWith('### Visual element:'),
+    excerpt:fieldValue(block, ['Excerpt:', 'Visual observation:']),
+    chinese:fieldValue(block, ['中文翻譯：', '中文說明：']),
+    type:fieldValue(block, ['類型：']),
+    decision:fieldValue(block, ['作答決定：']),
+    analysisLabels:{
+      meaning:bullets[0].label,
+      use:bullets[1].label,
+      rationale:bullets[2].label,
+      handling:bullets[3].label
+    },
+    analysis:{
+      meaning:bullets[0].value,
+      use:bullets[1].value,
+      rationale:bullets[2].value,
+      handling:bullets[3].value
+    },
+    authoredBlockSha256:crypto.createHash('sha256').update(block.join('\n')).digest('hex')
+  };
+  assert.ok(unit.excerpt && unit.chinese && unit.type && unit.decision, `incomplete authored fields at source line ${unit.sourceLine}`);
+  assert.ok(Object.values(unit.analysis).every(Boolean), `incomplete authored analysis at source line ${unit.sourceLine}`);
+  authoredUnits.push(unit);
 }
 
-assert.equal(MAPPING.length, 59, 'Stage 4 must contain the 59 authored fact-file analysis units');
-assert.equal(new Set(MAPPING.map(item => item.id)).size, MAPPING.length, 'stable IDs must be unique');
-const selectedLines = new Set(MAPPING.map(item => item.line));
-for (const excludedLine of [333,348,395,818,910,972,987,1006,1021,1036,1100,1115,1444,1459,1474,1489,1504]) {
-  assert.ok(!selectedLines.has(excludedLine), `excluded Boss/Podcast/already-curated unit leaked: ${excludedLine}`);
-}
+assert.equal(authoredUnits.length, 207, 'V4.0 Stage 4 must contain every one of the 207 page 5–11 units');
+assert.deepEqual(
+  Object.fromEntries([5,6,7,8,9,10,11].map(page => [page, authoredUnits.filter(unit => unit.page === page).length])),
+  {5:24,6:17,7:21,8:35,9:43,10:38,11:29},
+  'V4.0 page-by-page unit inventory changed'
+);
 
-const steps = MAPPING.map((mapping, index) => {
-  const authored = units.get(mapping.line);
-  assert.ok(authored, `missing authored analysis at source line ${mapping.line}`);
-  assert.ok(authored.excerpt && authored.chinese && authored.type && authored.decision, `incomplete authored fields at line ${mapping.line}`);
-  assert.ok(Object.values(authored.analysis).every(Boolean), `incomplete four-part analysis at line ${mapping.line}`);
-  const typeNumber = Number(authored.type.match(/^\d/)?.[0] || 6);
-  const task = [1,2,3].includes(typeNumber) ? 'ABC'[typeNumber - 1] : null;
-  const rejected = authored.decision.includes('不寫入答案');
-  const bank = Boolean(task && !rejected && !authored.decision.includes('只用來判斷證據狀態') && !authored.decision.includes('只作指路') && !authored.decision.includes('只控制語氣'));
+const stripOuterQuotes = value => {
+  const textValue = String(value).trim();
+  if ((textValue.startsWith('“') && textValue.endsWith('”')) || (textValue.startsWith('"') && textValue.endsWith('"'))) return textValue.slice(1, -1);
+  return textValue;
+};
+const targetPhraseFor = unit => stripOuterQuotes(unit.excerpt)
+  .replace(/\*([^*]+)\*/g, '$1')
+  .replace(/\s+\.\.\.$/, '')
+  .replace(/\s+\.\.\.\s+/g, '... ')
+  .trim();
+const stableSlug = value => String(value)
+  .normalize('NFKD')
+  .replace(/^Visual element:\s*/i, 'visual-')
+  .replace(/[’‘]/g, "'")
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, '-')
+  .replace(/^-+|-+$/g, '')
+  .split('-').filter(Boolean).slice(0, 13).join('-') || 'source-unit';
+const pageSourceId = unit => unit.page === 5 ? 'doc-2013-editorial-minutes'
+  : unit.page === 6 ? 'doc-2013-writers-guidelines'
+  : unit.page === 7 ? 'doc-2013-queenie-review'
+  : unit.page === 8 ? 'doc-2013-see-the-world'
+  : unit.page === 9 ? 'doc-2013-tourism-forum'
+  : unit.page === 10 && unit.sourceLine >= 3964 ? 'doc-2013-kevin-letter'
+  : unit.page === 10 ? 'doc-2013-mei-interview'
+  : 'doc-2013-historian-blog';
+
+const SOURCE_OVERRIDES = new Map([
+  [1463,{sourcePhrase:'Minutes from editorial meeting at Asia Life magazine'}],
+  [1478,{focusSelector:'#page-5 .meeting-meta'}],
+  [1825,{sourcePhrase:"2013 Writers' Guidelines for Publication"}],
+  [1840,{focusSelector:'#page-6 .memo-sheet'}],
+  [2124,{focusSelector:'#page-7 .review-grid'}],
+  [2139,{focusSelector:'#page-7 .review-grid'}],
+  [2154,{focusSelector:'#page-7 .review-sheet'}],
+  [2274,{sourcePhrase:'No. of words: 1200'}],
+  [2319,{focusSelector:'#page-7 .review-choice'}],
+  [2938,{sourcePhrase:'Tourism and local people'}],
+  [2953,{focusSelector:'#page-9 .forum-window'}],
+  [2561,{focusSelector:'#page-8 .tv-sheet'}],
+  [3602,{focusSelector:'#page-10 .interview-note'}],
+  [4129,{sourcePhrase:'Yours faithfully'}],
+  [4178,{focusSelector:'#page-11 .historian-browser'}],
+  // These clauses overlap smaller authored units in the same sentence. Stable
+  // source spans let each current step highlight the complete exact clause
+  // without nested marks fragmenting either clause.
+  [4270,{focusSelector:'#source-p11-edgar-identity'}],
+  [4315,{focusSelector:'#source-p11-edgar-year'}],
+  [4330,{focusSelector:'#page-11 .historian-photo.tiger'}],
+  [4452,{focusSelector:'#page-11 .table-scroll tbody tr:nth-child(1)'}],
+  [4467,{focusSelector:'#page-11 .table-scroll tbody tr:nth-child(2)'}],
+  [4527,{focusSelector:'#page-11 .historian-photo.hotel'}],
+  [4587,{sourcePhrase:'2013-DSE-ENG LANG 3-B2-DF-11 / 70'}]
+]);
+const ROUTES = new Map([
+  [1613,{routeTarget:'#doc-2013-writers-guidelines',routeLabel:'第 6 頁：2013 Writers’ Guidelines for Publication'}],
+  [2199,{routeTarget:'#doc-2013-editorial-minutes',routeLabel:'第 5 頁：每篇提交 15–20 張圖片，編輯選用 5 張'}],
+  [2214,{routeTarget:'#doc-2013-writers-guidelines',routeLabel:'第 6 頁：高解像度 JPEG 電子檔'}],
+  [2229,{routeTarget:'#doc-2013-writers-guidelines',routeLabel:'第 6 頁：註明圖片來源'}],
+  [2259,{routeTarget:'#doc-2013-writers-guidelines',routeLabel:'第 6 頁：標題不超過 80 個字元'}],
+  [2289,{routeTarget:'#doc-2013-editorial-minutes',routeLabel:'第 5 頁：本期文章上限 900 字'}]
+]);
+
+const usedIds = new Map();
+const steps = authoredUnits.map((unit, index) => {
+  const baseId = `data-analysis-p${String(unit.page).padStart(2, '0')}-${stableSlug(unit.title)}`;
+  const occurrence = (usedIds.get(baseId) || 0) + 1;
+  usedIds.set(baseId, occurrence);
+  const id = occurrence === 1 ? baseId : `${baseId}-${occurrence}`;
+  const typeNumber = Number(unit.type.match(/^([1-6])\b/)?.[1] || 6);
+  const task = typeNumber <= 3 ? 'ABC'[typeNumber - 1] : null;
+  const rejected = unit.decision.includes('不寫入答案');
+  const override = SOURCE_OVERRIDES.get(unit.sourceLine) || {};
+  const route = ROUTES.get(unit.sourceLine) || {};
   return {
-    id:mapping.id,
+    id,
     order:index + 1,
-    page:mapping.page,
-    sourceId:mapping.sourceId,
-    sourcePhrase:mapping.phrase,
-    sourceRoot:mapping.sourceRoot || `#page-${mapping.page} .recreated-page`,
-    focusSelector:mapping.focusSelector || '',
-    routeTarget:mapping.routeTarget || '',
-    routeLabel:mapping.routeLabel || '',
-    legacyIds:mapping.legacy || [],
+    sourceId:pageSourceId(unit),
+    sourcePhrase:override.sourcePhrase || targetPhraseFor(unit),
+    sourceRoot:`#page-${unit.page} .recreated-page`,
+    focusSelector:override.focusSelector || '',
+    routeTarget:route.routeTarget || '',
+    routeLabel:route.routeLabel || '',
+    legacyIds:[],
     task,
     evidenceType:typeNumber,
-    bank,
+    bank:Boolean(task && !rejected),
     rejected,
-    final:mapping.final === true,
-    ...authored
+    final:index === authoredUnits.length - 1,
+    ...unit
   };
 });
+assert.equal(new Set(steps.map(step => step.id)).size, steps.length, 'stable V4.0 IDs must be unique');
 
-const sha256 = crypto.createHash('sha256').update(text).digest('hex');
+// Preserve safe re-entry from the 59-step V2 release. Each old step and all of
+// its earlier aliases migrate to the closest V4.0 unit on the same printed page.
+const tokens = value => new Set(String(value).toLowerCase().replace(/[’‘]/g, "'").match(/[a-z0-9]+/g) || []);
+const overlapScore = (left, right) => {
+  const a = tokens(left), b = tokens(right);
+  if (!a.size || !b.size) return 0;
+  let shared = 0;
+  for (const token of a) if (b.has(token)) shared += 1;
+  return shared / Math.max(a.size, b.size);
+};
+for (const legacy of LEGACY_V2_STEPS) {
+  const pageSteps = steps.filter(step => step.page === legacy.page);
+  const exact = pageSteps.find(step => {
+    const phrase = targetPhraseFor(step);
+    return phrase.includes(legacy.phrase) || legacy.phrase.includes(phrase);
+  });
+  const target = exact || pageSteps.map(step => ({step, score:overlapScore(`${step.title} ${step.sourcePhrase}`, legacy.phrase)}))
+    .sort((a, b) => b.score - a.score)[0]?.step;
+  assert.ok(target, `unable to migrate V2 step ${legacy.id}`);
+  target.legacyIds.push(legacy.id, ...(legacy.legacy || []));
+}
+for (const step of steps) step.legacyIds = [...new Set(step.legacyIds)];
+
 const payload = {
-  schemaVersion:2,
-  contentVersion:'2013-b2-stage4-v2-full-analysis',
+  schemaVersion:3,
+  contentVersion:'2013-b2-stage4-v3-v4-source-rebuilt',
   analysisSource:{
     file:path.basename(sourcePath),
-    sha256,
-    includedRange:'329–1518',
-    authoredUnits:76,
-    includedFactFileUnits:59,
-    excludedAlreadyCuratedUnits:17
+    sha256:sourceSha256,
+    includedRange:'Data File pages 5–11 only',
+    authoredUnits:207,
+    includedFactFileUnits:207,
+    excludedSections:['Question-Answer Book pages 1–6','Data File pages 1–4 (instructions, Situation, Contents, note sheet and Casey Wong assignment email)','Track 7 and Track 8 podcast analysis'],
+    pageUnitCounts:{5:24,6:17,7:21,8:35,9:43,10:38,11:29}
   },
   steps,
   evidenceTypes:{1:'Task A 直接可用',2:'Task B 直接可用',3:'Task C 直接可用',4:'語義相關／背景',5:'視覺提示／來源導航',6:'不採用／行政／噪音'}
@@ -167,9 +297,9 @@ const js = `(() => {\n  'use strict';\n  const model = ${JSON.stringify(payload,
 fs.writeFileSync(outputPath, js);
 
 const esc = value => String(value).replaceAll('|', '\\|').replaceAll('\n', ' ');
-const rows = steps.map(step => `| ${step.order} | \`${step.id}\` | ${step.page} | ${step.sourceLine} | ${esc(step.sourcePhrase)} | ${step.task || '—'} | ${esc(step.type)} | ${esc(step.decision)} | \`paper3/2013-b2/super-curation-data-file-data.js\` |`);
-const mapping = `# 2013 B2 Super Curation — Stage 4 Source Mapping\n\n- Release: \`${payload.contentVersion}\`\n- Authored source: \`${payload.analysisSource.file}\`\n- Authored source SHA-256: \`${sha256}\`\n- Included authored fact-file units: **${steps.length} / 59**\n- Excluded as already curated: **17** units (Situation/Boss Letter, listening sheet/answer frames, and Podcast)\n- Data File pages: **5–11**\n- Evidence-bank entries: **${steps.filter(step => step.bank).length}**\n- Stage 5 content: **none**\n\nEvery row retains the authored excerpt/visual observation, Chinese rendering, type, answer decision and all four analysis subsections. The source line points to the user-authored Markdown; the exact highlight phrase points to the reconstructed 2013 source document.\n\n| # | Stable step ID | Data File page | Authored source line | Exact highlighted phrase | Task | Authored type | Authored answer decision | Implementation file |\n|---:|---|---:|---:|---|:---:|---|---|---|\n${rows.join('\n')}\n`;
+const rows = steps.map(step => `| ${step.order} | \`${step.id}\` | ${step.page} | ${step.sourceLine} | ${esc(step.sourcePhrase)} | ${step.task || '—'} | ${esc(step.type)} | ${esc(step.decision)} | \`${step.authoredBlockSha256}\` | \`paper3/2013-b2/super-curation-data-file-data.js\` |`);
+const mapping = `# 2013 B2 Super Curation — Stage 4 Source Mapping\n\n- Release: \`${payload.contentVersion}\`\n- Authored source: \`${payload.analysisSource.file}\`\n- Authored source SHA-256: \`${sourceSha256}\`\n- Included authored fact-file units: **${steps.length} / 207**\n- Page inventory: **5:24 · 6:17 · 7:21 · 8:35 · 9:43 · 10:38 · 11:29**\n- Explicit exclusions: **Question-Answer Book pages 1–6; Data File pages 1–4 (including Situation, Contents, note sheet and Boss Letter); Track 7/8 Podcast analysis**\n- Evidence-bank entries: **${steps.filter(step => step.bank).length}**\n- Stage 5 content: **none**\n\nEvery row retains the complete authored excerpt/visual observation, Chinese rendering, type, answer decision, exact analysis labels and all four analysis lines. Each authored block has an independent SHA-256 digest so omission or alteration is detectable.\n\n| # | Stable step ID | Data File page | Authored source line | Exact highlighted phrase / visual target | Task | Authored type | Authored answer decision | Authored block SHA-256 | Implementation file |\n|---:|---|---:|---:|---|:---:|---|---|---|---|\n${rows.join('\n')}\n`;
 fs.mkdirSync(path.dirname(mappingPath), {recursive:true});
 fs.writeFileSync(mappingPath, mapping);
 fs.writeFileSync(toolMappingPath, mapping);
-console.log(JSON.stringify({ok:true, steps:steps.length, bank:steps.filter(step => step.bank).length, sha256, outputPath, mappingPath}, null, 2));
+console.log(JSON.stringify({ok:true, steps:steps.length, bank:steps.filter(step => step.bank).length, sha256:sourceSha256, pageUnitCounts:payload.analysisSource.pageUnitCounts, outputPath, mappingPath}, null, 2));
