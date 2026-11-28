@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const runtimeUrl = '/paper3/2016-b2/stage3-runtime.js.gz?v=20261123-stage3-v4';
+  const runtimeUrl = '/paper3/2016-b2/stage3-runtime.js.gz?v=20261128-stage3-v5';
   const fail = error => {
     console.error('2016 Stage 3 runtime could not be loaded.', error);
     const stage = document.querySelector('.curation-stage-item[data-stage="podcast"]');

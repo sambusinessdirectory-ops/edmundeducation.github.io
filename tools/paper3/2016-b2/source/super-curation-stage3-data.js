@@ -265,6 +265,98 @@
     });
   });
 
+  const translationSentenceOverrides = Object.freeze({
+    0: ['乙部。', '請查看資料檔第 2 頁。', '情境。', '你是 Indy Wong。', '你是 Lara Gau 在香港社會歷史博物館的博物館助理。', 'Lara 有幾項工作想請你協助完成。'],
+    5: ['本星期節目內容豐富：我們會報道成為香港本地足球死忠球迷是怎樣的體驗，並邀請香港超級聯賽十支球隊的球迷會成員到場。', '我們亦會訪問新加坡酒店主管 Hav 博士；他日間在酒店工作，晚上則兼任唱片騎師。', '不過首先，我會訪問另一位截然不同的博士。'],
+    7: ['Patty，你好。', '對，能夠再次來到《Nosing Around》真好。', '我一向都很樂意上來。'],
+    10: ['好的，即是昔日普羅大眾的日常生活。', '你所說的普羅大眾，是指像我和聽眾一樣的人嗎？', '不是國王、王后之類的人。'],
+    13: ['你會看到昔日人們使用的普通物品。', '與其看古代陶器和武器，我們會看祖父母家裏可能有的舊桌椅。', '例如舊電話、舊電腦之類……'],
+    16: ['這樣我便有興趣了。', '我很喜歡復古時尚物品。', '例如外套、首飾之類。', '我聽說你們的博物館很大。', '事實上，大得連整座農舍也在館內重建了。'],
+    17: ['對，沒錯。', '就是 Wang Chung Traditional Farmhouse。', '它逐磚搬到博物館，並於去年，即 2015 年，在館內重建。', '我可以告訴你，整項工程非常艱巨。'],
+    19: ['這座農舍是在一個水塘底被發現的。', '也就是人工湖底。'],
+    22: ['好的，我知道 Wang Chung Reservoir。', '我曾經到那裏遠足。'],
+    27: ['對，很有可能。', '菠蘿節當年是個規模頗大的節慶。', '農民會把菠蘿供奉給農神。'],
+    32: ['嘩，只需步行兩分鐘。', '是在 Reed Street 嗎？就是拼作 R-E-I-D？', '對，沒錯。'],
+    36: ['好的，聽起來很有趣。', '我很想進一步了解新界農業。', '各位聽眾，你們也想吧？', '記住，如果想參加，請不要遲到；晚上 8 時開始，9 時結束。'],
+    37: ['我也想補充，博物館將舉辦一個關於新界農業的展覽。', '我們希望在展覽中展出 Chang Yee Tak Plough。'],
+    38: ['啊，我讀書時其實讀過 Chang Yee Tak Plough。', '相信很多聽眾也記得在學校讀過它。', '我很想親眼看看。', '你可否向不認識它的聽眾解釋，Chang Yee Tak Plough 有甚麼特別？'],
+    41: ['不是，Patty。', '我剛才還未說完。', '我想說的是，世上當然有很多木鐵犁，但這是唯一一件沒有損壞的十八世紀木鐵犁。', '這就是 Chang Yee Tak Plough 的非凡之處。', '它來自十八世紀，保存狀況卻近乎完美。'],
+    42: ['好的，正如我所說，我想親眼看看實物。', 'Jones 博士，謝謝你今天到來接受訪問。', '也祝你的展覽順利。']
+  });
+
+  const sentenceSegmenter = new Intl.Segmenter('en', {granularity: 'sentence'});
+  const chineseSegmenter = new Intl.Segmenter('zh-Hant', {granularity: 'sentence'});
+  const trimSegment = record => {
+    const leading = record.segment.search(/\S/);
+    const start = record.index + Math.max(0, leading);
+    const text = record.segment.trim();
+    return {start, end: start + text.length, text};
+  };
+  const segmentEnglish = text => {
+    const raw = [...sentenceSegmenter.segment(text)].map(trimSegment).filter(item => item.text);
+    const merged = [];
+    for (const item of raw) {
+      const previous = merged.at(-1);
+      if (previous?.text.endsWith('Dr.') && item.text === 'Jones.') {
+        previous.text += ` ${item.text}`;
+        previous.end = item.end;
+      } else merged.push({...item});
+    }
+    return merged;
+  };
+  const segmentChinese = text => [...chineseSegmenter.segment(text)].map(item => item.segment.trim()).filter(Boolean);
+
+  const transcriptSentences = [];
+  for (const turn of transcript) {
+    const english = segmentEnglish(turn.text);
+    const translations = translationSentenceOverrides[turn.index] || segmentChinese(turn.translation);
+    if (translations.length !== english.length) {
+      console.error('2016 Stage 3 sentence translation audit failed.', {
+        turn: turn.id, english: english.length, translations: translations.length
+      });
+    }
+    const pointRanges = [];
+    for (const phrase of turn.highlightPhrases) {
+      const start = turn.text.indexOf(phrase);
+      if (start < 0) continue;
+      pointRanges.push({start, end: start + phrase.length});
+    }
+    const totalWeight = english.reduce((sum, sentence) => sum + Math.max(1, sentence.text.replace(/\s/g, '').length), 0);
+    let elapsedWeight = 0;
+    for (const [sentenceIndex, sentence] of english.entries()) {
+      const weight = Math.max(1, sentence.text.replace(/\s/g, '').length);
+      const start = turn.start + (turn.end - turn.start) * (elapsedWeight / totalWeight);
+      elapsedWeight += weight;
+      const end = sentenceIndex === english.length - 1
+        ? turn.end
+        : turn.start + (turn.end - turn.start) * (elapsedWeight / totalWeight);
+      const highlightRanges = pointRanges.flatMap(range => {
+        const overlapStart = Math.max(range.start, sentence.start);
+        const overlapEnd = Math.min(range.end, sentence.end);
+        return overlapStart < overlapEnd
+          ? [{start: overlapStart - sentence.start, end: overlapEnd - sentence.start}]
+          : [];
+      });
+      const hasPoint = highlightRanges.length > 0;
+      transcriptSentences.push(Object.freeze({
+        id: `${turn.id}-sentence-${String(sentenceIndex + 1).padStart(2, '0')}`,
+        index: transcriptSentences.length,
+        sourceTurnIndex: turn.index,
+        sentenceIndex,
+        start,
+        end,
+        speaker: turn.speaker,
+        text: sentence.text,
+        translation: translations[sentenceIndex] || turn.translation,
+        explanation: turn.explanation,
+        kind: hasPoint ? (turn.task ? 'task' : 'listening') : 'noise',
+        task: hasPoint ? turn.task : null,
+        highlightRanges: Object.freeze(highlightRanges.map(Object.freeze)),
+        rejectUnhighlighted: true
+      }));
+    }
+  }
+
   const setupSteps = [
     {
       id: 'p3-orientation', kind: 'orientation', title: '先看四個原生筆記欄',
@@ -289,21 +381,22 @@
     translation: cue.noteZh || '錄音完結。',
     explanation: cue.help
   }));
-  const transcriptSteps = transcript.map(turn => ({
-    id: `p3-review-${turn.id}`, kind: 'review', transcriptIndex: turn.index,
-    title: `逐句錄音稿 · ${turn.speaker}`,
-    sourcePage: `Part B ${Math.floor(turn.start / 60)}:${String(Math.floor(turn.start % 60)).padStart(2, '0')}–${Math.floor(turn.end / 60)}:${String(Math.floor(turn.end % 60)).padStart(2, '0')}`,
-    quote: turn.text,
-    translation: turn.translation,
-    explanation: turn.explanation,
-    task: turn.task,
-    reviewKind: turn.kind
+  const transcriptSteps = transcriptSentences.map(sentence => ({
+    id: `p3-review-${sentence.id}`, kind: 'review', sentenceIndex: sentence.index,
+    transcriptIndex: sentence.sourceTurnIndex,
+    title: `逐句錄音稿 · ${sentence.speaker}`,
+    sourcePage: `Part B ${Math.floor(sentence.start / 60)}:${String(Math.floor(sentence.start % 60)).padStart(2, '0')}–${Math.floor(sentence.end / 60)}:${String(Math.floor(sentence.end % 60)).padStart(2, '0')}`,
+    quote: sentence.text,
+    translation: sentence.translation,
+    explanation: sentence.explanation,
+    task: sentence.task,
+    reviewKind: sentence.kind
   }));
   const closingSteps = [
     {
       id: 'p3-final-verification', kind: 'verification', title: '最後核對四欄與兩個任務',
       sourcePage: 'Data File p.3 · 完整核對',
-      quote: '4 authentic fields · 12 written notes · 13 cue stops · 44 transcript turns',
+      quote: '4 authentic fields · 12 written notes · 13 cue stops · 44 speaker turns · 107 sentence decisions',
       translation: '四欄筆記完整；Task B 只取農舍／村落，Task A 只取展覽目的及犁的限定獨特價值。',
       explanation: '確認 directions 和 talk 仍留在筆記欄但不進 A／B／C；確認錯誤的「世上唯一木鐵犁」已用紅線排除。'
     },
@@ -320,10 +413,10 @@
     .map((step, index) => Object.freeze({...step, index}));
 
   window.EDMUND_2016_B2_STAGE3 = Object.freeze({
-    version: '2016-b2-super-curation-stage3-v1',
-    schema: 2,
-    architectureVersion: '2016-b2-podcast-v1-single-owner',
-    storageKey: 'edmund-paper3-2016-b2-super-curation-stage3-v1',
+    version: '2016-b2-super-curation-stage3-v2',
+    schema: 3,
+    architectureVersion: '2016-b2-podcast-v2-sentence-owner',
+    storageKey: 'edmund-paper3-2016-b2-super-curation-stage3-v2',
     audio: Object.freeze({
       src: 'https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3',
       sourceUrl: 'https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3',
@@ -334,6 +427,7 @@
     fields: Object.freeze(fields.map(Object.freeze)),
     cues: Object.freeze(cues.map(Object.freeze)),
     transcript: Object.freeze(transcript),
+    transcriptSentences: Object.freeze(transcriptSentences),
     steps: Object.freeze(steps)
   });
 })();

@@ -20,15 +20,16 @@ const loader = read('paper3/2016-b2/super-curation-stage3-loader.js');
 const css = read('paper3/2016-b2/super-curation.css');
 const html = read('paper3/2016-b2/index.html');
 
-assert.equal(data.version, '2016-b2-super-curation-stage3-v1');
-assert.equal(data.schema, 2);
-assert.equal(data.architectureVersion, '2016-b2-podcast-v1-single-owner');
+assert.equal(data.version, '2016-b2-super-curation-stage3-v2');
+assert.equal(data.schema, 3);
+assert.equal(data.architectureVersion, '2016-b2-podcast-v2-sentence-owner');
 assert.equal(data.fields.length, 4);
 assert.equal(data.cues.length, 13);
 assert.equal(data.cues.filter(cue => cue.note).length, 12);
 assert.equal(data.transcript.length, 44);
-assert.equal(data.steps.length, 61);
-assert.equal(new Set(data.steps.map(step => step.id)).size, 61);
+assert.equal(data.transcriptSentences.length, 107);
+assert.equal(data.steps.length, 124);
+assert.equal(new Set(data.steps.map(step => step.id)).size, 124);
 assert.equal(new Set(data.cues.map(cue => cue.id)).size, 13);
 assert.deepEqual(Array.from(data.fields, field => field.id), ['3-1','3-2','3-3','3-4']);
 assert.deepEqual(Array.from(data.fields, field => field.selector), [
@@ -69,6 +70,41 @@ assert.equal(data.transcript.some(turn => turn.text.includes('Indy Wong')), true
 assert.equal(data.transcript.some(turn => turn.sourceText.includes('Indi Wong')), true);
 assert.deepEqual(Array.from(data.cues.find(cue => cue.id === 'plough-qualified-uniqueness').rejectedTranscriptIndexes), [39,40]);
 
+for (const sentence of data.transcriptSentences) {
+  assert.ok(sentence.id && Number.isFinite(sentence.start) && Number.isFinite(sentence.end));
+  assert.ok(sentence.start < sentence.end, `${sentence.id} must have positive duration`);
+  assert.ok(sentence.text && sentence.translation && sentence.explanation);
+  assert.equal(sentence.rejectUnhighlighted, true);
+  assert.doesNotMatch(sentence.translation, /[这们来时为说个里发过还让听见从对与应关]/,
+    `${sentence.id} contains a common Simplified Chinese character`);
+  assert.equal(sentence.highlightRanges.every(range =>
+    Number.isInteger(range.start) && Number.isInteger(range.end) && range.start >= 0 && range.start < range.end && range.end <= sentence.text.length
+  ), true, `${sentence.id} has an out-of-bounds highlight range`);
+  assert.equal(sentence.highlightRanges.every((range, index) =>
+    index === 0 || range.start >= sentence.highlightRanges[index - 1].end
+  ), true, `${sentence.id} has overlapping highlight ranges`);
+}
+for (const turn of data.transcript) {
+  const sentences = data.transcriptSentences.filter(sentence => sentence.sourceTurnIndex === turn.index);
+  assert.ok(sentences.length > 0, `${turn.id} must contain at least one sentence`);
+  assert.equal(sentences[0].start, turn.start, `${turn.id} sentence start must match turn start`);
+  assert.equal(sentences.at(-1).end, turn.end, `${turn.id} sentence end must match turn end`);
+  assert.equal(sentences.every((sentence, index) => index === 0 || sentence.start === sentences[index - 1].end), true,
+    `${turn.id} sentence timings must be contiguous`);
+}
+assert.equal(data.transcriptSentences.filter(sentence => sentence.highlightRanges.length).length, 32);
+assert.equal(data.transcriptSentences.filter(sentence => !sentence.highlightRanges.length).length, 75);
+const programmePreview = data.transcriptSentences.filter(sentence => sentence.sourceTurnIndex === 5);
+assert.equal(programmePreview.length, 3);
+assert.equal(programmePreview.every(sentence => sentence.kind === 'noise'), true);
+assert.deepEqual(Array.from(programmePreview, sentence => sentence.translation), [
+  '本星期節目內容豐富：我們會報道成為香港本地足球死忠球迷是怎樣的體驗，並邀請香港超級聯賽十支球隊的球迷會成員到場。',
+  '我們亦會訪問新加坡酒店主管 Hav 博士；他日間在酒店工作，晚上則兼任唱片騎師。',
+  '不過首先，我會訪問另一位截然不同的博士。'
+]);
+assert.equal(data.steps.some(step => step.id === 'p3-review-part-b-turn-06-sentence-01'), true);
+assert.equal(data.steps.some(step => step.id === 'p3-review-part-b-turn-42-sentence-03'), true);
+
 assert.equal(provenance.sourceUrl, data.audio.sourceUrl);
 assert.equal(provenance.publicRelayUrl, data.audio.src);
 assert.equal(provenance.sha256, data.audio.sha256);
@@ -83,12 +119,14 @@ assert.match(controller, /customizedCueIds/);
 assert.match(controller, /curation-transcript-inline-task/);
 assert.match(controller, /curation-transcript-inline-listening/);
 assert.match(controller, /curation-transcript-inline-noise/);
-assert.match(controller, /2016 Stage 3 transcript phrase audit failed/);
+assert.match(controller, /transcriptSentenceEls/);
+assert.match(controller, /sentence\.end <= time \+ 0\.12/);
+assert.match(controller, /renderTranscript\(false\)/);
 assert.match(stage2, /curation-stage2-category-target/);
 assert.match(controller, /\['nw','ne','sw','se'\]/);
 assert.match(loader, /DecompressionStream\('gzip'\)/);
 assert.match(loader, /stage3-runtime\.js\.gz/);
-assert.match(loader, /20261123-stage3-v4/);
+assert.match(loader, /20261128-stage3-v5/);
 assert.doesNotMatch(controller, /你會先標哪個任務/);
 assert.doesNotMatch(controller, /\?['"]\s*;\s*\/\/.*podcast/i);
 assert.match(css, /curation-stage3-heading-task-A/);
@@ -110,13 +148,14 @@ const scriptOrder = [
 assert.equal(scriptOrder.every(index => index >= 0), true);
 assert.equal(scriptOrder[0] < scriptOrder[1], true);
 const runtime = zlib.gunzipSync(fs.readFileSync(path.join(root, 'paper3/2016-b2/stage3-runtime.js.gz'))).toString('utf8');
-assert.match(runtime, /2016-b2-super-curation-stage3-v1/);
+assert.match(runtime, /2016-b2-super-curation-stage3-v2/);
 assert.match(runtime, /EDMUND_2016_B2_CURATION_STAGE3_DEBUG/);
 assert.match(runtime, /curation-transcript-inline-listening/);
 assert.match(runtime, /我剛才還未說完/);
-assert.match(html, /20261123-stage3-fidelity-v1/);
+assert.match(runtime, /107 sentence decisions/);
+assert.match(html, /20261128-stage3-sentence-v1/);
 assert.match(html, /20261123-stage2-v4/);
-assert.match(html, /20261123-stage3-v4/);
+assert.match(html, /20261128-stage3-v5/);
 for (const file of [
   'tools/paper3/2016-b2/audit/recording-provenance.json',
   'tools/paper3/2016-b2/docs/CUE_LEDGER.md',
@@ -125,4 +164,4 @@ for (const file of [
 ]) assert.equal(fs.existsSync(path.join(root, file)), true, `${file} must exist`);
 
 console.log('2016 B2 Super Curation Stage 3 static contract: PASS');
-console.log('fields=4 cues=13 notes=12 transcript=44 steps=61 pointTurns=21 fullyRejectedTurns=23');
+console.log('fields=4 cues=13 notes=12 turns=44 sentences=107 steps=124 pointSentences=32 fullyRejectedSentences=75');

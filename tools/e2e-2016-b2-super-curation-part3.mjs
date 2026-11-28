@@ -64,20 +64,22 @@ async function openStage3(browserType, name, full = false) {
       fields: window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.fields.length,
       cues: window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.cues.length,
       transcript: window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.transcript.length,
+      transcriptSentences: window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.transcriptSentences.length,
       options: document.querySelectorAll('#curation-step-jump option').length,
       disabledOptions: document.querySelectorAll('#curation-step-jump option:disabled').length,
       nativeFields: document.querySelectorAll('#page-3 textarea.curation-native-note-field').length,
       evidencePanels: document.querySelectorAll('#page-3 .curation-notes-evidence').length,
       pins: document.querySelectorAll('#curation-player-pins-2016 .curation-player-pin').length,
       transcriptRows: document.querySelectorAll('.curation-transcript-turn').length,
+      transcriptSentenceRows: document.querySelectorAll('.curation-transcript-sentence').length,
       disabledStages: [...document.querySelectorAll('.curation-stage-item:disabled')].map(node => node.dataset.stage),
       title: document.querySelector('#page-3 .conference-notes > h2').textContent.trim(),
       badges: [...document.querySelectorAll('#page-3 .curation-stage3-heading-state')].map(node => node.textContent),
       audioSrc: document.querySelector('#curation-player-2016 audio').getAttribute('src')
     }));
     assert.deepEqual(contract, {
-      steps:61, fields:4, cues:13, transcript:44, options:61, disabledOptions:0,
-      nativeFields:4, evidencePanels:4, pins:13, transcriptRows:44,
+      steps:124, fields:4, cues:13, transcript:44, transcriptSentences:107, options:124, disabledOptions:0,
+      nativeFields:4, evidencePanels:4, pins:13, transcriptRows:44, transcriptSentenceRows:107,
       disabledStages:['data','writing'], title:'Listening note-taking sheet for podcast Nosing Around',
       badges:['不取材','B','不取材','A'], audioSrc:'https://ookkxzgpdclzrrhfmvqx.supabase.co/functions/v1/public-audio-relay/DSE%20Listening%20-%20Recordings/DSE%202016%20Part%20B.mp3'
     }, `${name}: Stage 3 DOM contract`);
@@ -92,6 +94,54 @@ async function openStage3(browserType, name, full = false) {
       assert.equal(networkIssues.length, 0, `${name}: ${networkIssues.join('\n')}`);
       return {page, context, browser, errors, networkIssues};
     }
+
+    await page.waitForFunction(() => window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.audio.readyState >= 1);
+    await page.evaluate(() => {
+      const audio = window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.audio;
+      audio.currentTime = 425;
+      audio.dispatchEvent(new Event('timeupdate'));
+    });
+    await page.waitForTimeout(700);
+    const programmePreviewDuringPlayback = await page.evaluate(() => {
+      const current = document.querySelector('.curation-transcript-sentence.is-current');
+      const previousNoise = document.querySelector('[data-sentence-index="14"] .curation-transcript-inline-noise');
+      const currentNoise = document.querySelector('[data-sentence-index="15"] .curation-transcript-inline-noise');
+      return {
+        audioTime: window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.audio.currentTime,
+        currentIndex: current?.dataset.sentenceIndex,
+        currentClass: current?.className,
+        previousClass: document.querySelector('[data-sentence-index="14"]')?.className,
+        currentText: current?.querySelector('.curation-transcript-original')?.textContent,
+        currentBackground: current ? getComputedStyle(current).backgroundColor : '',
+        currentOutline: current ? getComputedStyle(current).boxShadow : '',
+        previousStrikeSize: previousNoise ? getComputedStyle(previousNoise).backgroundSize : '',
+        currentStrikeSize: currentNoise ? getComputedStyle(currentNoise).backgroundSize : ''
+      };
+    });
+    assert.equal(programmePreviewDuringPlayback.currentIndex, '15');
+    assert.match(programmePreviewDuringPlayback.currentText, /^On a packed programme this week/);
+    assert.notEqual(programmePreviewDuringPlayback.currentBackground, 'rgba(0, 0, 0, 0)');
+    assert.match(programmePreviewDuringPlayback.currentOutline, /rgb\(/);
+    assert.match(programmePreviewDuringPlayback.previousStrikeSize, /^100%/,
+      JSON.stringify(programmePreviewDuringPlayback));
+    assert.match(programmePreviewDuringPlayback.currentStrikeSize, /^(0px|0%)/,
+      'current sentence must not receive rejection ink before its endpoint');
+    await page.locator('[data-sentence-index="15"]').scrollIntoViewIfNeeded();
+    await page.screenshot({path: path.join(output, '2016-b2-stage3-audio-current-and-rejections.png'), fullPage:false});
+    await page.evaluate(() => {
+      const audio = window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.audio;
+      audio.currentTime = 433.1;
+      audio.dispatchEvent(new Event('timeupdate'));
+    });
+    await page.waitForTimeout(700);
+    const programmePreviewAfterEndpoint = await page.evaluate(() => ({
+      currentIndex: document.querySelector('.curation-transcript-sentence.is-current')?.dataset.sentenceIndex,
+      firstStrikeSize: getComputedStyle(document.querySelector('[data-sentence-index="15"] .curation-transcript-inline-noise')).backgroundSize,
+      speakerInk: getComputedStyle(document.querySelector('[data-transcript-index="5"] .curation-transcript-speaker')).backgroundImage
+    }));
+    assert.equal(programmePreviewAfterEndpoint.currentIndex, '16');
+    assert.match(programmePreviewAfterEndpoint.firstStrikeSize, /^100%/);
+    assert.equal(programmePreviewAfterEndpoint.speakerInk, 'none');
 
     await page.locator('textarea[data-note="3-1"]').fill('Learner-authored line');
     await page.evaluate(() => window.EDMUND_2016_B2_CURATION_STAGE3_DEBUG.goById('p3-cue-museum-purpose'));
@@ -119,42 +169,46 @@ async function openStage3(browserType, name, full = false) {
     const rewound = await page.locator('textarea[data-note="3-1"]').inputValue();
     assert.equal(rewound, 'Learner-authored line', 'rewind removes future generated notes and preserves authored text');
 
-    await page.selectOption('#curation-step-jump', 'p3-review-part-b-turn-42');
-    assert.match(await page.locator('#curation-step-id').innerText(), /p3-review-part-b-turn-42/);
+    await page.selectOption('#curation-step-jump', 'p3-review-part-b-turn-42-sentence-03');
+    assert.match(await page.locator('#curation-step-id').innerText(), /p3-review-part-b-turn-42-sentence-03/);
+    await page.waitForTimeout(700);
     const selective = await page.evaluate(() => ({
-      taskSpans: document.querySelectorAll('[data-transcript-index="41"] .curation-transcript-inline-task-A').length,
-      rejectedSpans: document.querySelectorAll('[data-transcript-index="41"] .curation-transcript-inline-noise').length,
+      taskSpans: document.querySelectorAll('[data-sentence-index="97"] .curation-transcript-inline-task-A').length,
+      rejectedSpans: document.querySelectorAll('[data-sentence-index="97"] .curation-transcript-inline-noise').length,
       wholeBackground: getComputedStyle(document.querySelector('[data-transcript-index="41"] .curation-transcript-copy')).backgroundColor,
-      rejectedInk: getComputedStyle(document.querySelector('[data-transcript-index="39"] .curation-transcript-inline-noise')).backgroundImage,
+      rejectedInk: getComputedStyle(document.querySelector('[data-sentence-index="92"] .curation-transcript-inline-noise')).backgroundImage,
+      rejectedInkSize: getComputedStyle(document.querySelector('[data-sentence-index="92"] .curation-transcript-inline-noise')).backgroundSize,
       speakerInk: getComputedStyle(document.querySelector('[data-transcript-index="39"] .curation-transcript-speaker')).backgroundImage
     }));
-    assert.equal(selective.taskSpans, 2);
-    assert.ok(selective.rejectedSpans >= 2);
+    assert.equal(selective.taskSpans, 1);
+    assert.ok(selective.rejectedSpans >= 1);
     assert.equal(selective.wholeBackground, 'rgba(0, 0, 0, 0)', 'task rows must not be coloured word-for-word');
     assert.match(selective.rejectedInk, /linear-gradient/);
+    assert.match(selective.rejectedInkSize, /^100%/);
     assert.equal(selective.speakerInk, 'none', 'rejection ink must never cross the speaker label');
-    await page.selectOption('#curation-step-jump', 'p3-review-part-b-turn-10');
+    await page.selectOption('#curation-step-jump', 'p3-review-part-b-turn-10-sentence-02');
     const listeningSelective = await page.evaluate(() => ({
-      points: document.querySelectorAll('[data-transcript-index="9"] .curation-transcript-inline-listening').length,
-      rejected: document.querySelectorAll('[data-transcript-index="9"] .curation-transcript-inline-noise').length,
+      points: document.querySelectorAll('[data-sentence-index="27"] .curation-transcript-inline-listening').length,
+      rejected: document.querySelectorAll('[data-sentence-index="27"] .curation-transcript-inline-noise').length,
       wholeBackground: getComputedStyle(document.querySelector('[data-transcript-index="9"] .curation-transcript-copy')).backgroundColor
     }));
     assert.equal(listeningSelective.points, 1);
-    assert.ok(listeningSelective.rejected >= 1);
+    assert.equal(listeningSelective.rejected, 0, 'this exact listening sentence is fully useful');
     assert.equal(listeningSelective.wholeBackground, 'rgba(0, 0, 0, 0)', 'listening rows must also use selective spans');
-    await page.selectOption('#curation-step-jump', 'p3-review-part-b-turn-44');
+    await page.selectOption('#curation-step-jump', 'p3-review-part-b-turn-44-sentence-04');
     const lineAudit = await page.evaluate(() => ({
       copies: document.querySelectorAll('.curation-transcript-copy').length,
+      sentences: document.querySelectorAll('.curation-transcript-sentence').length,
       translations: document.querySelectorAll('.curation-transcript-translation[lang="zh-Hant"]').length,
-      uncovered: [...document.querySelectorAll('.curation-transcript-copy')].filter(copy =>
-        [...copy.childNodes].some(node => node.nodeType === Node.TEXT_NODE && node.textContent.trim())).length,
-      fullyRejected: [...document.querySelectorAll('.curation-transcript-turn')].filter(row =>
-        row.querySelectorAll('.curation-transcript-inline-listening,.curation-transcript-inline-task').length === 0 &&
-        row.querySelectorAll('.curation-transcript-inline-noise').length > 0).length
+      uncovered: [...document.querySelectorAll('.curation-transcript-original')].filter(original =>
+        [...original.childNodes].some(node => node.nodeType === Node.TEXT_NODE && node.textContent.trim())).length,
+      fullyRejected: [...document.querySelectorAll('.curation-transcript-sentence')].filter(sentence =>
+        sentence.querySelectorAll('.curation-transcript-inline-listening,.curation-transcript-inline-task').length === 0 &&
+        sentence.querySelectorAll('.curation-transcript-inline-noise').length > 0).length
     }));
-    assert.deepEqual(lineAudit, {copies:44, translations:44, uncovered:0, fullyRejected:23});
+    assert.deepEqual(lineAudit, {copies:44, sentences:107, translations:107, uncovered:0, fullyRejected:75});
     await page.locator('.curation-transcript-translate').click();
-    assert.equal(await page.locator('[data-transcript-index="43"] .curation-transcript-translation').isVisible(), true);
+    assert.equal(await page.locator('[data-sentence-index="106"] .curation-transcript-translation').isVisible(), true);
 
     const before = await page.locator('.curation-transcript-window').boundingBox();
     const head = await page.locator('.curation-transcript-window-head').boundingBox();
@@ -246,9 +300,9 @@ try {
   fs.writeFileSync(path.join(output, '2016-b2-stage3-browser-test-report.md'), `# 2016 B2 Stage 3 browser test report
 
 - Result: **PASS**
-- Chromium: full lifecycle, real MP3 endpoint, native-note commit, replay idempotency, rewind preservation, selective point spans, copy-only red rejection ink, 44 Traditional Chinese rows, move/resize, persistence, single Stage 2 heading stamps and mobile layout
-- Firefox: direct Stage 3 entry, 4/13/44/61 DOM contract, free steps, Traditional Chinese transcript toggle, and zero console/network failures
-- Transcript semantics: 21 point-bearing turns, 23 fully rejected turns and zero uncovered copy text
+- Chromium: full lifecycle, real MP3 endpoint, native-note commit, replay idempotency, rewind preservation, endpoint-driven sentence reveal, visible current sentence, selective point spans, copy-only red rejection ink, 107 Traditional Chinese sentence rows, move/resize, persistence, single Stage 2 heading stamps and mobile layout
+- Firefox: direct Stage 3 entry, 4/13/44/107/124 DOM contract, free steps, Traditional Chinese transcript toggle, and zero console/network failures
+- Transcript semantics: 32 point-bearing sentences, 75 fully rejected sentences and zero uncovered copy text
 - Stages 4–5: remained disabled
 - Boss-letter stamp: absent
 - Podcast heading question mark: absent
