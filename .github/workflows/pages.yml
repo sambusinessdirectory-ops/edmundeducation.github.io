@@ -216,6 +216,9 @@ jobs:
           case "${RELEASE_TAGS}" in
             *'[paper3-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
+          /AGENTS.md
+          /2025_B2_Super_Curation_Line_by_Line.md
+          /docs/paper3/
           /paper3/2023-b2/curation/
           /paper3/2025-b2/index.html
           /paper3/2025-b2/reader.js
@@ -941,6 +944,8 @@ jobs:
           node --check paper3/2023-b2/curation/meeting.js
           node --check paper3/2023-b2/curation/podcast-v7.js
           node tools/paper3/validate-v7-requirements.mjs
+          node tools/paper3/verify-paper3-compliance.mjs --changed-files /tmp/pages-fast-checkout-paths.txt
+          node tools/paper3/test-verify-paper3-compliance.mjs
           grep -Fq "podcastArchitectureVersion23='7-continuous-single-owner'" paper3/2023-b2/curation/index.html
           node --check paper3/2025-b2/reader.js
           node --check paper3/2025-b2/sentence-analysis.js
@@ -951,6 +956,8 @@ jobs:
           node --check paper3/2022-b2/super-curation-v3.js
           node --check paper3/2026-reader.js
           node tools/test-dse-paper3-2026-readers.mjs
+          node tools/test-paper3-b2-sentence-analysis.mjs
+          node tools/test-paper3-b2-listening-notes.mjs
           node -e "const s=require('fs').readFileSync('paper3/2025-b2/index.html','utf8'); for(const name of ['super-curation.css','super-curation-highlights.js','super-curation.js']) if(!s.includes(name)) throw Error('Missing '+name)"
           bash tools/install-pages-browsers.sh
           mkdir -p /tmp/paper3-evidence
@@ -1603,6 +1610,17 @@ jobs:
       - name: Validate rhetorical-writing blueprint map
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node tools/test-common-expression-blueprint.mjs
+
+      - name: Enforce Paper 3 compliance evidence on complete builds
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
+        env:
+          RELEASE_BASE: ${{ inputs.base_sha }}
+        run: |
+          git diff --no-renames --name-only "${RELEASE_BASE}" "${GITHUB_SHA}" > /tmp/paper3-compliance-changes.txt
+          node tools/paper3/verify-paper3-compliance.mjs --changed-files /tmp/paper3-compliance-changes.txt
+          node tools/paper3/test-verify-paper3-compliance.mjs
+          node tools/test-paper3-b2-sentence-analysis.mjs
+          node tools/test-paper3-b2-listening-notes.mjs
 
       - name: Validate DSE Paper 3 portal, shared login and imported analysis data
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}

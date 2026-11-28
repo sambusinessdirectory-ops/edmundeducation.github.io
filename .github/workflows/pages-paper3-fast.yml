@@ -54,6 +54,12 @@ jobs:
           git config remote.origin.promisor true
           git config remote.origin.partialclonefilter blob:none
           cat > .git/info/sparse-checkout <<'PATTERNS'
+          /AGENTS.md
+          /2025_B2_Super_Curation_Line_by_Line.md
+          /.github/workflows/paper3-compliance.yml
+          /.github/workflows/pages-paper3-fast.yml
+          /.github/workflows/pages.yml
+          /docs/paper3/
           /paper3/
           /service-worker.js
           /pwa-register.js
@@ -65,6 +71,8 @@ jobs:
           /tools/manuals/build-paper3-super-curation-golden-manual-v7.py
           /tools/paper3/
           /tools/test-classify-pages-release.py
+          /tools/test-paper3-b2-listening-notes.mjs
+          /tools/test-paper3-b2-sentence-analysis.mjs
           /tools/rewrite-pages-assets.py
           /tools/update-pages-snapshot.sh
           /tools/validate-2023-b2-verbatim.mjs
@@ -87,7 +95,11 @@ jobs:
           test -s /tmp/paper3-fast-changes.txt
           while IFS= read -r path; do
             case "${path}" in
+              AGENTS.md|\
+              2025_B2_Super_Curation_Line_by_Line.md|\
+              docs/paper3/*|\
               paper3/*|\
+              .github/workflows/paper3-compliance.yml|\
               .github/workflows/pages-paper3-fast.yml|\
               .github/workflows/publish-pages-artifact.yml|\
               tools/build-2023-b2-reader.py|\
@@ -96,6 +108,8 @@ jobs:
               tools/manuals/build-paper3-super-curation-golden-manual-v7.py|\
               tools/paper3/*|\
               tools/test-classify-pages-release.py|\
+              tools/test-paper3-b2-listening-notes.mjs|\
+              tools/test-paper3-b2-sentence-analysis.mjs|\
               tools/test-proverb-system.mjs|\
               tools/validate-2023-b2-verbatim.mjs) ;;
               *) echo "Use the full release workflow for: ${path}" >&2; exit 1 ;;
@@ -115,12 +129,16 @@ jobs:
           node --check source/tools/check-2023-b2-v7.cjs
           node source/tools/validate-2023-b2-verbatim.mjs
           node source/tools/paper3/validate-v7-requirements.mjs
+          node source/tools/paper3/verify-paper3-compliance.mjs --changed-files /tmp/paper3-fast-changes.txt
+          node source/tools/paper3/test-verify-paper3-compliance.mjs
           grep -Fq "podcastArchitectureVersion23='7-continuous-single-owner'" source/paper3/2023-b2/curation/index.html
           node --check source/paper3/2025-b2/reader.js
           node --check source/paper3/2025-b2/sentence-analysis.js
           node --check source/paper3/2025-b2/listening-notes.js
           node --check source/paper3/2025-b2/super-curation-highlights.js
           node --check source/paper3/2025-b2/super-curation.js
+          (cd source && node tools/test-paper3-b2-sentence-analysis.mjs)
+          (cd source && node tools/test-paper3-b2-listening-notes.mjs)
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
