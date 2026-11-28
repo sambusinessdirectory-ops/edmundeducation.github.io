@@ -1,6 +1,6 @@
 # Paper 3 compliance report
 
-Compliance revision: `paper3-2014-b2-complete-five-stage-live-v1`
+Compliance revision: `paper3-2016-b2-stage4-type6-red-strike-v2`
 
 ## 2014 B2 Super Curation — complete five-stage release
 
@@ -191,6 +191,29 @@ Passed:
 ### Next-stage plan
 
 After approval, Stage 2 should inventory the authentic Data File document headings and the page-3 note sheet, assign initial A/B/C/listening-only classifications without exposing detailed evidence, then add exact source mappings and a separate migration version before any Podcast work begins.
+
+## 2016 B2 Super Curation — Stage 4 Type 6 correction
+
+- Release: `2016-b2-stage4-v2-type6-red-strike`
+- Scope: all 148 Stage 4 fact-line records, with focused regression coverage for all 17 Type 6 records
+- Status: verified locally at 1600 × 1000 in production Chromium
+- References: the complete Golden Manual v8.2 text and the complete 615-page 2025 code-annotated reference were reread; the corresponding 2025 source implementation was inspected before modification
+
+### Corrected contract
+
+The persistent annotation layer now classifies every Type 6 span as rejected and draws a 3 px `#c7222c` red strike. The current-source indicator no longer uses a competing CSS Custom Highlight. It is rendered as a separate exact-range outline from `Range.getClientRects()`, so the green focus border cannot replace, recolour or conceal the red rejection mark. Type 6 records remain non-bankable.
+
+| Evidence ID | Verified scope |
+|---|---|
+| `P3-2016-STAGE3-RUNTIME` | Retains the previously released sentence-owned Podcast runtime and its reversible transcript/note architecture |
+| `P3-2016-STAGE4-INDEX` | Advances the Stage 4 CSS and loader cache key so browsers receive the corrected assets |
+| `P3-2016-STAGE4-RUNTIME` | Bundles the persistent Type 6 rejection layer, independent current-range outline and audit hook |
+| `P3-2016-STAGE4-LOADER` | Loads the rebuilt Stage 4 runtime with the v2 cache key |
+| `P3-2016-STAGE4-STYLES` | Defines the 3 px red strike and separate transparent green outline layer; no `stage4-current` Custom Highlight remains |
+
+### Verification record
+
+`node tools/test-2016-b2-super-curation-part4.mjs` and `node tools/e2e-2016-b2-super-curation-part4.mjs` pass. The browser suite checks all 17 Type 6 records for exact resolved ranges, persistent membership in `stage4-rejected`, zero bank eligibility, absence of a current Custom Highlight and presence of an independent focus outline. The user-reported “residents’ association / 14 grandchildren” record is retained as a dedicated screenshot in `test-results/2016-b2-part4/2016-b2-stage4-type6-red-strike-independent-focus.png`.
 
 ## 2013 B2 Super Curation — Stage 4
 
