@@ -225,12 +225,27 @@
     return state.supabase;
   }
 
+  function fetchWithDeadline(url, options, timeoutMs) {
+    let timer = 0;
+    const deadline = new Promise((_, reject) => {
+      timer = window.setTimeout(() => {
+        const error = new Error("EDMUND_LOGIN_TIMEOUT");
+        error.name = "TimeoutError";
+        reject(error);
+      }, timeoutMs);
+    });
+    return Promise.race([
+      fetch(url, options),
+      deadline
+    ]).finally(() => window.clearTimeout(timer));
+  }
+
   async function ensureSupabaseSession() {
     if (state.rpcAccessToken) return state.rpcAccessToken;
     if (!SUPABASE_CONFIG.url || !SUPABASE_CONFIG.anonKey) throw new Error("登入服務暫時未能載入，請重新整理頁面。");
     let response;
     try {
-      response = await fetch(`${SUPABASE_CONFIG.url}/auth/v1/signup`, {
+      response = await fetchWithDeadline(`${SUPABASE_CONFIG.url}/auth/v1/signup`, {
         method: "POST",
         credentials: "omit",
         headers: {
@@ -240,7 +255,7 @@
         },
         body: "{}",
         signal: AbortSignal.timeout(10000)
-      });
+      }, 8000);
     } catch (error) {
       if (error?.name === "AbortError" || error?.name === "TimeoutError") throw new Error("登入連線逾時，請再按一次登入。");
       throw error;
@@ -255,7 +270,7 @@
     const accessToken = await ensureSupabaseSession();
     let response;
     try {
-      response = await fetch(`${SUPABASE_CONFIG.url}/rest/v1/rpc/${encodeURIComponent(name)}`, {
+      response = await fetchWithDeadline(`${SUPABASE_CONFIG.url}/rest/v1/rpc/${encodeURIComponent(name)}`, {
         method: "POST",
         credentials: "omit",
         headers: {
@@ -265,7 +280,7 @@
         },
         body: JSON.stringify(args || {}),
         signal: AbortSignal.timeout(12000)
-      });
+      }, 8000);
     } catch (error) {
       if (error?.name === "AbortError" || error?.name === "TimeoutError") {
         state.rpcAccessToken = "";
