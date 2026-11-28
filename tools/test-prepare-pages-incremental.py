@@ -131,6 +131,7 @@ class PreparePagesIncrementalTests(unittest.TestCase):
             "dse-argument-bank/source.md",
             "natural-english/imported-lessons.json",
             "news-discussion/news-1.json",
+            "outputs/2014-b2-part5/screenshots/qa.png",
             "song-appreciation-data.js",
             "supabase/schema.sql",
             "synonyms/source/private.json",

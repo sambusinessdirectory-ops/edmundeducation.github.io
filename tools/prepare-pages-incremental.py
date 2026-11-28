@@ -82,6 +82,7 @@ def is_publishable(path: str) -> bool:
         "_site",
         "assets",
         "course-materials",
+        "outputs",
         "supabase",
         "tools",
         "workers",
