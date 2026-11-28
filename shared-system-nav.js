@@ -370,11 +370,13 @@
   let pomodoroNodes = null;
   let pomodoroPageLocked = false;
   let accessTransition = null;
+  let accessTransitionFailsafeTimer = 0;
   let accessNavigationPending = false;
   const ACCESS_TRANSITION_GIF = new URL("Running Horse Mascot.gif?v=20261121-animated1", SHARED_SCRIPT_URL).href;
   const ACCESS_TRANSITION_STILL = new URL("assets/homepage-optimized/running-horse-loader.webp?v=20261121-still1", SHARED_SCRIPT_URL).href;
   const accessMotionReduced = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches === true;
-  if (!accessMotionReduced) { const preloadTransition = new Image(); preloadTransition.src = ACCESS_TRANSITION_GIF; }
+  const accessAnimationHeavy = /Firefox\//i.test(window.navigator?.userAgent || "");
+  if (!accessMotionReduced && !accessAnimationHeavy) { const preloadTransition = new Image(); preloadTransition.src = ACCESS_TRANSITION_GIF; }
   let persistentDeviceClient = null;
 
   function storageJson(storage, key) {
@@ -419,15 +421,19 @@
     overlay.dataset.edmundStudentAccessTransition = "";
     overlay.setAttribute("role", "status");
     overlay.setAttribute("aria-live", "polite");
-    const horseUrl = accessMotionReduced ? ACCESS_TRANSITION_STILL : ACCESS_TRANSITION_GIF;
+    const horseUrl = accessMotionReduced || accessAnimationHeavy ? ACCESS_TRANSITION_STILL : ACCESS_TRANSITION_GIF;
     overlay.innerHTML = `<section class="edmund-student-access-transition__card"><img class="edmund-student-access-transition__horse" src="${horseUrl}" alt=""><strong>正在進入學習系統</strong><p data-edmund-access-message>${message}</p><div class="edmund-student-access-transition__track" aria-hidden="true"></div></section>`;
     document.body.append(overlay);
     accessTransition = overlay;
+    window.clearTimeout(accessTransitionFailsafeTimer);
+    accessTransitionFailsafeTimer = window.setTimeout(dismissAccessTransition, 6000);
     return overlay;
   }
 
   function dismissAccessTransition() {
     if (!accessTransition) return;
+    window.clearTimeout(accessTransitionFailsafeTimer);
+    accessTransitionFailsafeTimer = 0;
     accessTransition.classList.add("is-leaving");
     window.setTimeout(() => {
       accessTransition?.remove();
@@ -535,15 +541,16 @@
 
   function monitorAuthenticatedEntry() {
     const startedAt = Date.now();
+    window.addEventListener("edmund:learning-portal-session", dismissAccessTransition, { once: true });
     const check = () => {
       if (!accessTransition) return;
       const elapsed = Date.now() - startedAt;
       const candidate = studentSessionCandidate();
-      if (!candidate || (elapsed >= 1200 && !loginSurfaceVisible()) || elapsed >= 15000) {
+      if (!candidate || (elapsed >= 1200 && !loginSurfaceVisible()) || elapsed >= 6000) {
         dismissAccessTransition();
         return;
       }
-      window.setTimeout(check, 120);
+      window.setTimeout(check, 300);
     };
     window.setTimeout(check, 700);
   }
