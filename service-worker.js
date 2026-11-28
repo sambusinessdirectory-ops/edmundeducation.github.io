@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "edmund-pwa-";
-const RELEASE_ID = "4c2370d49a193b67f42960acb55ee9e206437eb8";
+const RELEASE_ID = "2ce6d55f63e35d1bf12ccb293ad0982dda9d91b1";
 const CACHE_NAME = `${CACHE_PREFIX}${RELEASE_ID}`;
 const HARPER_CACHE_PREFIX = "edmund-vendor-harper-";
 const HARPER_CACHE_NAME = "edmund-vendor-harper-2.7.0";
